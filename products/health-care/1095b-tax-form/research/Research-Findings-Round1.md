@@ -1,95 +1,142 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "1095-B Tax Document Research Findings – Round 1"
+product: "1095-B Tax Form"
+team: "Team MOVE"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-02-22"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "James Lewis"
+  - "Grace Hong"
+  - "Carl Dickerson"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Better understand how Veterans might find, use, and edit a digital copy of the 1095b form"
+  - "Discover needs, pain points and preferences for physical or digital delivery of the form"
+  - "Test usability of proposed solution"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Usability testing"
+  - "Remote moderated research"
+  - "Wayfinding task"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 6
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 6
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 2
+    unknown: 4
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 6
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 6
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 6
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    unknown: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "5/6 participants recalled getting the 1095-B form in the mail from the VA when explained in the context of it being 'proof of health insurance' or 'health coverage' form"
+  - "Many explained that when they got it in the mail, they filed it away for safe keeping until it was time for them to file their taxes or send their files to a tax preparer. Some made electronic copies of it"
+  - "4/6 participants preferred digital delivery. The remaining 2 participants, who were both over 65 years old, were comfortable with digital but preferred paper due to a sense of security and ease"
+  - "Reasons cited for preferring digital were: ease of use / less hassle than paper, efficiency, ability to organize, and environmental benefits of saving paper"
+  - "Participants generally liked the ability to sign up for paperless delivery, with many of the same reasons cited as preferring digital download"
+  - "5/6 participants were negative towards calling a customer service phone number"
+  - "Expectation that there would be a long wait if they needed to call to update the form. Digital is seen as an opportunity to avoid the hassle, with an expectation they could update the form via online methods"
+  - "2/6 participants said they wouldn't bother calling the customer service number if their address was wrong on the document"
+  - "4/6 Participants were unclear if they actually needed the 1095-B to submit with their taxes"
+  - "All participants reported keeping the 1095-B document with their other files, in preparation for filing their taxes themselves or sending it to a tax preparer"
+  - "Only one participant lived in a state where it was needed to file with their State taxes"
+  - "4/6 Participants went to the Records panel first, with the remaining 2/6 participants going to the Health care panel first"
+  - "There was no clear link under Records where participants might expect to find the 1095-B without the title being changed"
+  - "Only one participant said they would try 'search' unprompted, and only 2 went to the main navigation in the header unprompted"
+  - "The main flow from sign-in to download was well understood, participants found the download CTA quickly"
+  - "Method to fix errors with the 1095-B PDF was clear - Participants generally saw the FAQ question and associated telephone number regarding incorrect information, before they opened the actual 1095-B form"
+  - "Design and content was well received, clear and easy to use"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "The design for downloading the 1095-B is clear and well understood, with all participants easily completing the task of viewing the document. No major design changes needed"
+  - "Reduced some written content to be more direct and less redundant; Clarified content on state requirements and included the affordable care act link in body copy"
+  - "Improved visual hierarchy in high fidelity designs"
+  - "For next round of user testing with high fidelity designs, further explore preferences around updating the form (if information is incorrect) and how the participants understand the requirements of filing"
+  - "Keeping directions with how to fix information near the download CTA is likely important going forward"
+  - "It is likely that most traffic to the 1095-B landing page will result from emails directly linking the 1095-B page, as well as Google searches. A top level link on the homepage is not necessary nor recommended"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified in report"
+  business: "Reduce costs of physical mailing (approximately $1.5 million annually, plus $400,000 for re-sends)"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Ability to update form information digitally instead of only via phone"
+  - "Clearer information about whether Veterans actually need the 1095-B form for filing taxes"
+  - "Better wayfinding and navigation to locate the 1095-B form on VA.gov"
+  - "Reducing barriers to correcting form information to prevent Veterans from not bothering to fix errors"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Further explore preferences around updating the form if information is incorrect"
+  - "Explore how participants understand the requirements of filing taxes with the 1095-B"
+  - "Test with underserved groups: cognitive disability, rural, no bachelor's degree or above, other than honorable discharge, immigrant origin, and women"
+  - "Test with underserved racial groups: Black, Latinx, Biracial, Asian, Native"
+  - "Confirm LGBTQ status in recruitment"
+  - "Conduct next round of user testing with high fidelity designs"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Cognitive disability"
+  - "Rural Veterans"
+  - "Veterans without bachelor's degree or above"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Women"
+  - "Black Veterans"
+  - "Latinx Veterans"
+  - "Biracial Veterans"
+  - "Asian Veterans"
+  - "Native Veterans"
+  - "LGBTQ Veterans"
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "DSC: Button"
+  - "DSC: Form"
+  - "DSP: Content Presentation"
+  - "HDW: Desktop"
+  - "PRDT: Health-care"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "remote-research"
+  - "evaluative"
+  - "wayfinding"
 ---
 
 # 1095-B Tax Document Research Findings – Round 1

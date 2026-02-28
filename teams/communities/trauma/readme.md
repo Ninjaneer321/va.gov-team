@@ -39,25 +39,9 @@ Attended a Community of Practice meeting or Practice Circle? Lurk on our Slack c
 - [1 sentence on what brings you to this community]
 -->
 
-**Liz Straghalis**, Researcher on VA Health and Benefits Mobile App
-- elizabeth.straghalis@gmail.com, [LinkedIn](https://www.linkedin.com/in/elizabeth-tutella-straghalis-b302343/)
-- I want to give people agency to show up and share their experience, to be fully present in difficult conversations, and to be a part of a community who is working to create spaces for new ways of working.
-
-**Lydia Hooper**, Designer/Researcher, Benefits Disability Experience 
-- lydiahooper@gmail.com, [LinkedIn](https://www.linkedin.com/in/lydiahooper)
-- I want to be part of mutual care and mutual growth, to contribute to cultivating spaces that reduce harm and foster repair, and to center and uplift the voices and experiences of folks who are most impacted by design outcomes.
-
-**Brittany Iannuzzi**, Researcher, VES Eligibility & Enrollment
-- bri.iannuz@gmail.com, [LinkedIn](https://www.linkedin.com/in/brittanyiannuzzi/)
-- Veterans deserve services that acknowledge the trauma they've been through - not only in service, but in their separation from service, life since separation, and relationship to the VA. I'm hoping that this community will help me better support Veterans in difficult interviews, and help me support my team through challenging research sprints.
-
 **Cindy Merrill**, Researcher, Sitewide Public Websites
-- cindy.merrill@adhocteam.us, [LinkedIn](https://www.linkedin.com/in/cindymerrill/)
+- cmerrill@pluribusdigital.com, [LinkedIn](https://www.linkedin.com/in/cindymerrill/)
 - I enjoy connecting with research participants, and I want research to be as comfortable of an experience as possible for participants and researchers, even when potentially traumatic topics or experiences may come up.
-
-**Tyler Gindraux**, Researcher, Ask VA
-- tyler@bluetiger.digital, [LinkedIn](https://www.linkedin.com/in/tylergindraux/)
-- I'd like to learn from one another and cultivate more supportive, safe and inclusive research practices together.
 
 **Clayton Zook**, Researcher, Identity Core/Surge Team
 - clayton.zook@oddball.io, [LinkedIn](https://www.linkedin.com/in/czook/)
@@ -70,10 +54,6 @@ Attended a Community of Practice meeting or Practice Circle? Lurk on our Slack c
 **Julie Strothman**, OCTO Benefits Portfolio Designer / Researcher
 - julie.strothman@va.gov, she/her [Julie on LinkedIn](https://www.linkedin.com/in/jstrothman/)
 - I want to work with folks at VA OCTO to ensure participating in design research is safe and inclusive, and to ensure that people doing the work have the training and support they need.
-
-**Charlotte Cesana**, Researcher, VA Debt Resolution Team
-- charlotte@cityfriends.tech, [LinkedIn](https://www.linkedin.com/in/charlottecesana/)
-- Interviews are an opportunity to connect with Veterans, to listen, and to learn. I'm interested in growing our community of practice to ensure that we cultivate an environment of safety and comfort for our participants at all times. 
 
 **Christine Rose Steiffer**, Designer / Researcher, Disability Benefits Employee Experience Team
 - csteiffer@gmail.com, [LinkedIn](https://www.linkedin.com/in/christinesteiffer/)

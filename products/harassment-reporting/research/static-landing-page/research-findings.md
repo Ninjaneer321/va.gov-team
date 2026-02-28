@@ -1,105 +1,124 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Harassment Reporting Landing Page & Poster Research Findings"
+product: "Harassment Reporting Landing Page"
+team: "Public Websites"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-04-05"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Cindy Merrill"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Get user feedback on the new static landing page and poster about harassment reporting at VA"
+  - "Understand if Veterans know how to report harassment from these resources"
+  - "Learn how Veterans currently report harassment at VA"
+  - "Learn how Veterans prefer to report harassment"
+  - "Understand Veterans' expectations about what happens after they report"
 methodology:
-- Method 1
-- Method 2
+  - "moderated usability testing"
+  - "remote research"
+  - "trauma-informed research methods"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 10
+  tablet: 1
+  smartphone: 3
+  assistive_technology: 2
+participants_total: 14
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 14
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 4
+    "45-54": 6
+    "55-64": 4
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 2
+    associates: 1
+    bachelors: 8
+    masters: 3
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 10
+    rural: 4
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 8
+    black: 6
+    hispanic: 0
+    biracial: 1
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 5
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 1
+    screen_reader_mobile: 0
+    magnification_zoom: 1
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "The desired amount of content varies greatly among participants (from 'all the details' to 'only the headers' to 'just the phone number/link to report')"
+  - "Some participants were skeptical that the harassment content reflects new change at VA"
+  - "The days/hours for reporting by phone were too limited (M, Tu, W, F 9 am - 4 pm ET and Th 9 am to 1 pm ET)"
+  - "Some participants expected to be able to report online"
+  - "Much harassment isn't reported for a variety of reasons, most commonly because it doesn't seem serious/bad enough or physical, and so many people just say something directly to the person and then forget about it"
+  - "Participants said they'd decide how to report harassment based on their current location (i.e., at a VA site vs. at home), their own preferences, and their past experiences. The most common way to report was in person with a patient advocate"
+  - "Participants reacted with varying degrees of skepticism about whether harassment reporting would make a difference at VA"
+  - "Harassment is pervasive at VA and in the military, especially directed towards women. 10 of 14 (71%) participants said they've experienced harassment at VA"
+  - "One participant lauded the presence of a clinician during their research session"
+  - "None of the participants appeared to have been triggered during the carefully planned research sessions"
+  - "We had a very low participant no-show rate, which might have been due to the additional screening questions and session topic that Perigean shared with potential participants before scheduling them"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "The landing page and poster need to provide simple, clear instructions for everyone on how to report harassment or assault, with easy access to optional information for those who want more details"
+  - "Simplify the instructions on how to report harassment with one phone number for all reports (including sexual assault) with 24-hour access"
+  - "Provide training for all VA staff on how to help people get to the right place to file a report"
+  - "Make the title a strong but brief call to action that speaks to both harassment and sexual assault"
+  - "Make the 'what harassment is' content less prominent by placing details behind an accordion or link"
+  - "Providing an online form to report harassment would help and was expected by many participants"
+  - "Consider making the anonymous reporting option clearer by moving it closer to related content"
+  - "Revisit the audience of these harassment reporting materials to include victims of harassment, witnesses of harassment, and all genders including women and non-binary folks"
+  - "Consider removing the separating gray line and ideally also the extra vertical spacing between the subway steps and questions on the landing page"
+  - "Simplify the harassment reporting process to reduce the burden on the person reporting"
+  - "VA employees who receive harassment reporting calls or in-person reports need trauma-informed training in what to do and how to support or transfer people who are reporting harassment"
+  - "The new web page and poster on harassment reporting are only one part of a larger communication plan needed across all of VA"
+  - "VA has to prove by action that they'll do something useful with harassment reports"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified in findings report"
+  business: "Not specified in findings report"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
+  - "Additional user research on the landing page and poster once they have been revised"
+  - "Research with more screen reader users (this study had only one but planned for three)"
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Identify as Hispanic or Native"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Synthesis spreadsheet"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Facilities'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "PRDT: Content"
+  - "DSP: Content Presentation"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "evaluative"
+  - "Accessibility"
+  - "trauma-informed-research"
 ---
+
 # Harassment Reporting Landing Page & Poster Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE) and VSA, Public Websites**

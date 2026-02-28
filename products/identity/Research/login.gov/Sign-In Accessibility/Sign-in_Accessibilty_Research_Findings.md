@@ -1,95 +1,153 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "VA.gov Sign-in Accessibility Research Findings"
+product: "VA.gov Sign-in / Authentication"
+team: "Identity Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2022-02-24"
+researchers: 
+  - "Amanda Porter"
+  - "Samuel Vang"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Make the login experience more accessible for low vision and no vision users, specifically to find any issues or pain points when using screen readers and other assistive technology"
+  - "Discover how users navigate the login portion of our new login page"
+  - "Discover any inconsistencies regarding the current design of the login page i.e. pain points for our users"
+  - "Being able to test the efficiency of the current login page. Finding measurements."
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated user interviews"
+  - "Usability testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 8
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 8
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 8
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 8
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 8
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    assistive_technology_users: 8
+    intermediate_level_AT: 8
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Participants who mentioned having multiple credential providers preferred to sign in with MyHealthyVet"
+  - |
+    Sign-in took approximately five to ten minutes to complete due to factors such as: 
+    - Letting screen readers read out key areas of sign-in
+    - Using multiple assitive technology in tandem with their phones
+  - "Half of the participants acknowledged giving/receiving assistance from others when accessing VA.gov"
+  - |
+    Most participants stated that they would typically start the sign-in process from My HealtheVet or E-benefits rather than VA.gov
+    - Often completing tasks having to do with checking claims, messaging providers, or checking the status of medication
+  - "Most participants would spend twenty minutes to one hour on VA.gov looking through content, checking prescriptions, or using secure messaging."
+  - "Most participants that use assistive technology are intermediate-level users."
+  - |
+    Most Zoom and Magnify users find different methods for their assistive tech
+    - Some users used large TV screens or monitors
+  - |
+    Most Screen Reader users find too much information per page (after login).
+    - Mostly, users will let the screen readers read the whole page before interacting with the content
+  - "For some Screen Reader users, the content is repetitive and informs them to log in again."
+  - "When users find it difficult to log in, they turn to different sites and applications"
+  - |
+    Most participants knew who to contact when there were technical issues with VA.gov or their AT.
+    - Outside to study- Issues with password management (changes to credentials)
+    - During study- Participants experience issues after the redirects in which they received error messages or were directed elsewhere (AccessVA)
+  - |
+    Significant usability issues:
+    - Not confirming if the user has made mistakes in logon (Screen Readers)
+    - Using images for CAPTCHA (Screen Readers) (DS Logon)
+    - Small fonts (Zoom and Magnify)
+    - PDFs downloaded from VA.gov do not work with assistive technology
+  - |
+    Before sign-in, participants experienced pain points around multifactor authentication.
+    - Screen readers take time to tab through, and users could be timed out before finishing a task.
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "When it comes to using captcha, we should avoid using images for limited-vision users"
+  - "The font sizes will need to be increased for the 2FA portion for ZoomText users"
+  - "Increase the time needed for Multi-Factor-Authentication. Limited vision and screen reader users take extra time to use their devices to get a code. This is most prominent if the user does not use a password manager or other means to store information."
+  - "Finding solutions for Caregivers or Family members to securely sign in to VA.gov without sharing crucial information of a user."
+  - "Make content across all of VA.gov more accessible to navigate and read. Reducing the amount of content per page. Prioritize the most important content."
+  - "The search function on the website should be easier to see or navigate to. Users should be able to use more tools to redirect back to their tasks."
+  - "Most assistive tech users do not scan through the content."
+  - "Most users reported being at an intermediate level of their selected accessibility tech. This is only true for users that have used screen readers and magnification tools for more than four years."
+  - "Having a baseline training would be beneficial for users that need the A11y needs."
+  - "Most screen reader users will listen to all of the content before interacting with the page unless they are familiar with the content."
+  - "Looking into ways to integrate or embed assistive technology into the site."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: "Not specified in findings report"
+  business: "Not specified in findings report"
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Although there were some datapoints regarding photo-sensitivity, a study regarding high contrast modes and dark modes will be helpful for accessibility for users"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Veterans: Expat (living abroad)"
+  - "Race: Asian"
+  - "Race: Native"
+  - "LGBTQ+: Gay, lesbian, or bisexual"
+  - "LGBTQ+: Transgender"
+  - "LGBTQ+: Nonbinary, gender fluid, genderqueer, Two-Spirit (Indigenous only), or another gender beyond man or woman"
+  - "Assistive Tech: Speech Input Tech (Siri, Dragon)"
+  - "Assistive Tech: Hearing Aids"
+  - "Assistive Tech: Sighted Keyboard"
+  - "Assistive Tech: Captions"
+  - "Assistive Tech: Switch Device"
+  - "Assistive Tech: Braille Reader"
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
   - "Affinity Mapping"
+tags:
+  - "AUD: Veterans"
+  - "Accessibility"
+  - "DSP: Help users to sign in"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "PRDT: Login.gov"
+  - "MHV: MyHealtheVet"
+  - "usability-testing"
+  - "evaluative"
+  - "assistive-technology"
 ---
 
 # VA.gov Sign-in Accessibility Research Findings

@@ -5,14 +5,14 @@
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
-- **The goal for Sprint 17 is...**
+- **The goal for Sprint 17 is launch EZR Service history, wrap up form status work, update EZ File upload pattern**
 
 #### List of Planned work
 - EZR Service History
      - [ ] Launch Service History
+     - [ ] Update SOT
 - EZR Improvements/Bugs
      - [ ] EZR Update file upload pattern
-     - [ ] EC/NOK work on Profile
 - EZR Form status
      - [ ] Display on MyVA
      - [ ] EZR QA Standards alignment
@@ -22,14 +22,19 @@
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
 
+- [ ] **SPRINT GOAL** [#121770](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121770) - [FE, PM] Launch at 5%
+- [ ] **SPRINT GOAL** [#121771](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121771) - [FE, PM] Launch at 25%
+- [ ] **SPRINT GOAL** [#121772](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121772) - [FE, PM] Launch at 50%
+- [ ] **SPRINT GOAL** [#121773](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121773) - [FE, PM] Launch at 75%
+- [ ] **SPRINT GOAL** [#121774](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121774) - [FE, PM] Launch at 100%
 - [ ] [#121764](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121764) - [UX] Update SOT to include new Service history section
 
 #### Obj: EZR [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117626)
-- [ ] [#133885](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133885) - [FE] Display EZR form statuses on MyVA
+- [ ] **SPRINT GOAL** [#133885](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133885) - [FE] Display EZR form statuses on MyVA
 
 #### Obj: EZR [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
 - [ ] [#130857](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130857) - [FE/QA] Review and align with the latest QA Standards updates
-- [ ] [#119890](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119890) - [FE/QA] Update file upload pattern
+- [ ] **SPRINT GOAL** [#119890](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119890) - [FE/QA] Update file upload pattern
 
 ##
 ### 10-10EZ
@@ -49,7 +54,7 @@
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
-- **The goal for Sprint 16 is...**
+- **The goal for Sprint 16 is complete EZR Service history QA and address findings, Update CG File upload pattern**
 
 #### List of Planned work
 - EZR Service History
@@ -68,13 +73,14 @@
 ### 10-10EZR
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
-- [ ] [#121748](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121748) - [QA] Functional QA
-- [ ] [#121749](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121749) - [QA] Formatting QA
-- [ ] [#121750](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121750) - [QA] Accessibility QA
+- [ ] **SPRINT GOAL** [#121748](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121748) - [QA] Functional QA
+- [ ] **SPRINT GOAL** [#121749](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121749) - [QA] Formatting QA
+- [ ] **SPRINT GOAL** [#121750](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121750) - [QA] Accessibility QA
 - [ ] [#121775](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121775) - [PM] Update and submit Product Guide for review
 - [ ] [#121778](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121778) - [PM] Update DOMO URL funnels and add GA metrics
 - [ ] [#121766](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121766) - [PM] Prep release plan
 - [ ] [#121767](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121767) - [PM] Review release plan
+- [ ] [#113984](https://github.com/department-of-veterans-affairs/va.gov-team/issues/113984) - [FE, BE] Update/Create engineering documentation
 
 #### Obj: EZR [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117626)
 - [ ] [#118642](https://github.com/department-of-veterans-affairs/va.gov-team/issues/118642) - [Eng] Tech discovery on EZR form statuses on MyVA
@@ -88,7 +94,7 @@
 - [ ] ...
 
 #### Obj: EZ [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
-- [ ] **SPRINT GOAL** [#130856](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130856) - [FE/QA] Review and align with the latest QA Standards updates
+- [ ] [#130856](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130856) - [FE/QA] Review and align with the latest QA Standards updates
 
 #### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
 - [ ] ...
@@ -96,7 +102,7 @@
 ## 
 ### 10-10CG
 #### Obj: CG [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40165)
-- [ ] [#119892](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119892) - [FE/QA] Update file upload pattern
+- [ ] **SPRINT GOAL** [#119892](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119892) - [FE/QA] Update file upload pattern
 
 ##
 ### Team PTO
@@ -104,7 +110,7 @@
 - 
 
 ---
-## 📆 Sprint 15 (Feb 25 - Mar 10) (PREPLANNED)
+## 📆 Sprint 15 (Feb 25 - Mar 10) 
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
@@ -132,14 +138,13 @@
 - [ ] **SPRINT GOAL** [#134211](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134211) - [BE] API testing in RI
 - [ ] **SPRINT GOAL** [#132636](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132636) - [FE] Review Content feedback on File Upload page
 - [ ] **SPRINT GOAL** [#114031](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114031) - [FE] Update content on File Upload page
-- [ ] **SPRINT GOAL** [#125472](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125472) - [FE] Update schema
 
 
 ##
 ### 10-10EZ
 #### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
 - [ ] **SPRINT GOAL** [#105829](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105829) - [Eng] Tech discovery on additional EZ form statuses on MyVA
-- [ ] [#130010](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130010) - [FE] Display submission statuses on MyVA
+- [ ] **STRETCH** [#130010](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130010) - [FE] Display submission statuses on MyVA
 - [ ] **SPRINT GOAL** [#132749](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132749) - [UX] Review Content feedback for Intro page alerts (March 3rd)
 - [ ] **SPRINT GOAL** [#130693](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130693) - [FE] Update Intro page alert for "PendingMT"
 - [ ] **SPRINT GOAL** [#130694](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130694) - [FE] Update Intro page alert for "PendingOther"
@@ -150,17 +155,20 @@
 ## 
 ### 10-10CG
 #### Obj: CG [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
-- [#130858](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130858) - [FE/QA] Review and align with the latest QA Standards updates
+- [ ] [#130858](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130858) - [FE/QA] Review and align with the latest QA Standards updates
 
 ##
 ### Team PTO
-- Andrea: 2/27
 - Kyle: 2/23-2/27
+- Andrea: 2/27
+- Matt: 2/27
+- Derrick: 2/27 half-day
+- Fara: 2/27 half-day
 
 
 ---
 ## 📆 Sprint 14 (Feb 11 - Feb 24)
-- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+- [x] 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
 - **The goal for Sprint 14 is to find a resolution to the EZ Intro page looping issue and validate connection with API for service history.**

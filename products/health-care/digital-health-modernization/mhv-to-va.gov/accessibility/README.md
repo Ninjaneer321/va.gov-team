@@ -1,7 +1,7 @@
 # MHV on VA.gov — Accessibility
 Repository of accessibility-related documentation, including planning and process documents
 
-Last updated: 10 Feb 2026
+Last updated: 27 Feb 2026
 
 ## Foundations
 
@@ -22,3 +22,18 @@ Last updated: 10 Feb 2026
 ## Release Notes
 
 - [Portal: Breadcrumb Focus Management hook](documentation/release-notes/release-notes-breadcrumb-focus-management.md) - modified: 20260224
+
+## Related Resources
+
+- VA Design System
+  - [VADs components](https://design.va.gov/components/)
+  - [VADS Accessibility guidance](https://design.va.gov/accessibility/)
+  - [VADS Storybook](https://design.va.gov/storybook/?path=/docs/about-introduction--docs)
+- VA Platform
+  - [Accessibility defect severity rubric](https://depo-platform-documentation.scrollhelp.site/developer-docs/accessibility-defect-severity-rubric)
+  - [Experience standards](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/va-gov-experience-standards)
+  - [Accessibility Testing Manual](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual)
+  - [Accessibility testing: Staging Review artifact template](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=a11y-testing-md.md)
+- Digital Accessibility Standards
+  - [Understanding Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/WCAG22/Understanding/)
+  - [ICT Accessibility Standards and Guidelines](https://www.access-board.gov/ict/)

@@ -1,95 +1,102 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Print Button Analytics and Feedback - August 2023 Research Findings"
+product: "VA Online Scheduling (VAOS)"
+team: "VAOS Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2023-09-05"
+researchers: 
+  - "Not specified in report"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Assess the usability of the print button feature released on 08/02/2023"
+  - "Measure usage patterns of the print button across device types"
+  - "Analyze user feedback related to printing functionality"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Google Analytics data analysis"
+  - "Medallia feedback analysis"
+  - "Comparative usage analysis"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Immediately on release, users started clicking the print button. Desktop users clicked it the most often, and most users printed the upcoming appointments page."
+  - "August was the first month since November 2022 where no users left comments related to printing, which indicates the feature successfully addressed user needs."
+  - "The print button was clicked approximately 4% as often as the Start scheduling button during the same time period"
+  - "Veterans printed upcoming appointments most frequently, followed by past appointments and pending appointments"
+  - "Print button clicks averaged between 1-200 per day from August 2-September 5, 2023"
+  - "Desktop users clicked the print button most, followed by tablet and mobile users"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Follow up with UAT that will include testing this button on production"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "User acceptance testing (UAT) of the print button on production"
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Google Analytics web data"
+  - "Medallia feedback analysis"
+  - "Historical feedback trends (August 2022 - August 2023)"
+synthesis_tools_used: []
+tags:
+  - "PRDT: VA-online-scheduling"
+  - "MHV: Appointments"
+  - "BNFT: Healthcare"
+  - "AUD: Veterans"
+  - "DSC: Button"
+  - "HDW: Desktop"
+  - "HDW: Tablet"
+  - "HDW: Smartphone"
+  - "web-analytics"
+  - "evaluative"
+  - "product-analytics"
 ---
 
 # Print Button Analytics and Feedback - August 2023

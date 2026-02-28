@@ -1,95 +1,120 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Manage Signed-in Devices Research Findings"
+product: "Manage Signed-in Devices"
+team: "Core Identity team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2023-11-30"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Charlye Tran"
+  - "Clayton Zook"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Explore Veterans' knowledge of personal device management as well as management of concurrent sessions on multiple devices."
+  - "Explore Veterans' understanding of the use cases for device management and the security implications of multiple active sessions on various devices."
+  - "Test the user flow for how a Veteran would access device management and signing out of multiple devices at once."
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote usability testing"
+  - "Prototype testing"
+  - "Semi-structured interviews"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 5
+    tablet: 0
+    smartphone: 8
+    assistive_technology: 0
+participants_total: 13
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 13
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 1
+    "45-54": 2
+    "55-64": 4
+    "65+": 6
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 2
+    some_college: 3
+    associates: 1
+    bachelors: 2
+    masters: 5
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 10
+    rural: 3
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 9
+    black: 1
+    hispanic: 0
+    biracial: 1
+    asian: 1
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 5
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Most Veterans did not have security concerns with being signed into concurrent sessions on their accounts. Some saw using the internet as having an inherent risk but did not consider signing out of all devices as a necessary security measure."
+  - "Most Veterans stated that they had not leveraged the sign out of all devices option on any other websites. A couple were able to state that they had signed out of a streaming account or Facebook account when they suspected unauthorized access."
+  - "Veterans did not have difficulty with choosing to sign out of their devices remotely when presented with the option and understood the inherent implications (that they'd lose their sessions and would need to sign back in)."
+  - "Most Veterans recognized that the systems would sign them out after a certain time out period. However, they did not solely leave security considerations up to the platform(s)/applications; they also took proactive measures to protect their accounts."
+  - "Surprisingly, Veterans understood that being timed out was a security protocol intended to protect them so they understood that they would always have to re-enter their credentials to gain access to their accounts."
+  - "Veterans assumed that hitting the 'sign out' option under their name/profile would sign them out of all devices."
+  - "Once Veterans were informed about the new manage devices feature, most were able to navigate to the 'Account Security' card to find the option."
+  - "Veterans desired a confirmation prior to and after signing out of a singular device and all devices."
+  - "Most Veterans we spoke to used password management options through their phone or computer. Some still used pen and paper or memory to keep track of their passwords."
+  - "Some Veterans used MyHealtheVet because it allowed them to keep using their same passwords year after year."
+  - "Several of the Veterans used MFA during the sign on process."
+  - "Most Veterans would attempt to change their password if they suspected their accounts were tampered with or there was a sign in from a device they did not recognize."
+  - "Veterans don't know or understand what connected apps are and have not connected other applications to their VA.gov accounts. None reported connecting any devices e.g. a fitness tracker to their account."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Indicate time period for which the devices are shown e.g. 45 days."
+  - "Replace sign out button with 'signed out' for devices that are no longer active."
+  - "Add in disclaimer that the user will be signed out of all sessions including the current session and will need to sign back in if they confirm 'sign out of all devices'."
+  - "Hyperlink 'changing your password' in the body text."
+  - "Work with Danielle Thierry to create a communication plan for feature roll-out since this is a new user experience."
+  - "Under Account Security, add in a bullet for 'Manage Devices'"
+  - "Research on how we might align how the 'manage devices' feature can be leveraged to protect account security (alongside features like changing your password and etc.)"
+  - "Gather metrics and conduct further research to identify future features"
+  - "Users have an expectation that they will be automatically sign out of their sessions in 30 minutes; if we are extending this time period to 45 days, Veterans should be educated on the security implications and best practices."
+  - "Collaborate with CSPs to ensure how we might educate Veterans on account security is consistent, e.g. password management, password reset, usage of MFA, etc."
+  - "Consider proactive measures to warn Veterans about suspicious sign-ins from new devices or locations."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Gather metrics and conduct further research to identify future features for device management"
+  - "Research on how the manage devices feature can be leveraged to protect account security"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "LGBTQ+ Veterans"
+  - "Veterans who use assistive technology"
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Login"
+  - "PRDT: VA.gov Profile"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "RESRCH: Remote"
+  - "RESRCH: Usability"
+  - "RESRCH: Evaluative"
+  - "RESRCH: Interviews"
+  - "DSP: Help users to sign in"
 ---
 
 # 2023-11 Manage Devices Research Findings

@@ -1,100 +1,113 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Review Page Round 1 Research Findings"
+product: "Forms Library"
+team: "Forms Library Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-05-23"
+researchers: 
+  - "Kavitha Krishnan"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Understand Veteran's general experience around filling out VA forms"
+  - "Understand Veteran's practices around the Review Page in VA forms"
+  - "Identify which of the three Review page design variations work best for Veterans"
 methodology:
-- Method 1
-- Method 2
+  - "Semi-structured interviews"
+  - "Remote moderated usability testing"
+  - "Comparative design evaluation"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 1
+  tablet: 2
+  smartphone: 3
+  assistive_technology: 0
+participants_total: 6
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 6
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 1
+    "45-54": 1
+    "55-64": 1
+    "65+": 3
+    unknown: 0
+  education: 
+    high_school: 0
+    some_college: 1
+    associates: 0
+    bachelors: 0
+    masters: 4
+    doctorate: 1
+    unknown: 0
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 5
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 1
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - |
+    5 out of 6 Participants preferred design option #2 for the following reasons:
+    - Visibility of information - All participants preferred the Review page with the information always open so they can review the information with ease.
+    - Edit option - 4 out of 6 participants preferred the editing label on individual fields instead of entire sections. They believed this would help them avoid editing other fields by mistake.
+  - "2 out of the 6 participants preferred to edit the entire section instead of individual data fields. They wanted to access/edit the entire section/multiple data fields at the same time thus saving time and effort."
+  - |
+    No participant interacted with anchors in the top of the page until prompted. However, all participants valued the ability to easily get to a section from the top of the page. 5 out of 6 participants understood the purpose of the anchors in the top of the page. One participant was confused by the downward facing arrows.
+  - "All participants were unsure if their family would have access to their military history information that is required to fill out the burial benefits form."
+  - "3 out of the 6 participants expected for certain sections of the burial benefits form to be auto-filled based on Social Security Number or with the help of VA assistance."
+  - "One participant said they would prefer a bigger font size for better readability."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Engineers will create a visual prototype of the Review page pattern based on Design #3. Although this was not the most preferred design, we want to use this more common pattern as a baseline for further research."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
+  - "Further usability research with Veterans to get feedback on desktop designs, accessibility issues and the new edit design"
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Cognitive Disability"
+  - "Rural"
+  - "Other than honorable"
+  - "Immigrant origin"
+  - "Expat"
+  - "Hispanic, Asian and Native"
+  - "LGBTQ"
+  - "Assistive Technology users"
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "DSP: Help users to check answers"
+  - "DSP: Form Templates"
+  - "PRDT: Burials-memorials"
+  - "BNFT: Memorialization"
+  - "usability-testing"
+  - "remote-research"
+  - "moderated-research"
+  - "HDW: Smartphone"
+  - "evaluative"
 ---
+
 # Round 1 - Review Page Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Forms Library Team**

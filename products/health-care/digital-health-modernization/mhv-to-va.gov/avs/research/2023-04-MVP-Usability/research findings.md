@@ -1,107 +1,210 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "After-visit Summary MVP Usability Research Findings"
+product: "After-Visit Summary (AVS) for My HealtheVet on VA.gov"
+team: "MHV on VA.gov - AVS Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "Not specified in report"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Not specified in report"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Get feedback from Veterans and caregivers on the After Visit Summary MVP VA.gov Prototype about ease of use of the content and how well it met expectations"
+  - "Understand if Veteran/caregivers understand the information displayed within the AVS"
+  - "Determine what notifications Veterans expect to get about AVS"
 methodology:
-- Method 1
-- Method 2
+  - "remote-moderated-usability-testing"
+  - "prototype-testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 13
+  assistive_technology: 0
+participants_total: 13
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 11
+  service_members: 0
+  caregivers: 6
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 1
+    "35-44": 4
+    "45-54": 3
+    "55-64": 3
+    "65+": 1
+    unknown: 1
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 2
+    associates: 0
+    bachelors: 5
+    masters: 6
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 13
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 6
+    hispanic: 1
+    biracial: 0
+    asian: 0
+    native: 1
+    unknown: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 5
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - |
+    When asked if they review their health information, appointments, tests, or doctor's orders, all participants mentioned they routinely access this data, but they do so through different means.
+    - My HealtheVet: 7
+    - VA AVS paper printout: 4
+    - Non-VA AVS: 2
+    - Lab specific paper reports: 2
+    - VA AVS (unknown if digital or paper printout): 1
+    - Printout of upcoming appointments: 1
+  - |
+    The information in the AVS MVP matches the data that participants routinely review after their appointment.
+    - Labs: 6
+    - Medications: 4
+    - Provider notes/what provider documented: 3
+    - Appointments: 2
+    - Instructions before an upcoming procedures, radiology, and tests: 2
+    - Results from a procedure and radiology: 2
+    - Blue button: 1
+    - Vitals: 1
+    - Terminology: 1
+    - Medical tasks that need to be completed: 1
+  - |
+    The nomenclature "After-visit summary" is consistent with Veteran/caregiver mental models.
+    - After appointment confirmation or Post OP: 1
+    - After-visit summary: 2
+    - Summary report: 1
+    - Appointment review: 1
+    - Lab print-out: 1
+    - An overview or summary: 1
+    - A review of medical records: 1
+    - Doctor's notes: 1
+    - A visit summary: 1
+    - Lab results or radiology results: 1
+    - A summary of visit: 1
+    - Prior-office visit information: 1
+  - "Veterans/caregivers expected to find the after-visit summary within either \"appointments\" or \"care summaries and notes\"."
+  - "When they reached the AVS page, 6 participants mistakenly thought they needed to click on the \"Details\" link to get to the AVS."
+  - "When asked to find either the doctor's instructions or their lab results, 7 participants thought they needed to click on the \"Details\" link to access that information."
+  - |
+    10 participants easily navigated from one AVS to another AVS using the back breadcrumb.
+    Some of the other locations the 3 participants tried to click on to navigate were:
+    - Collapsing the AVS accordions.
+    - Scrolling to the bottom of the page.
+    - Clicking the Hector profile icon.
+  - "3 out of 6 participants, who navigated to the AVS via \"appointments\" section, expected the \"pending\" list to include referrals, recall, follow-up, or imaging appointments that still need to be scheduled."
+  - "Overall, most participants had very positive responses to the after-visit summary and found it very valuable."
+  - |
+    Even though 50% of participants stated the instructions within the "Your treatment plan from this appointment" section were useful, many requested additional instructions.
+    Examples of information requested:
+    - What to do for upcoming tests (or knowing that they don't have to do anything).
+    - Phone numbers and addresses of imaging facilities and pharmacies.
+    - Deadlines and turn-around times for lab work before certain procedures or appointments.
+    - Whether tests can be done on a walk-in basis or if an appointment is required.
+  - "8 participants didn't know what a \"recall appointment\" meant."
+  - "4 participants incorrectly defined the \"You were diagnosed with\" section. They defined \"You were diagnosed with\" as all new diagnoses from this appointment and past diagnoses from other appointments instead of the diagnoses from this appointment only."
+  - "7 participants understood correctly that the \"Problem list\" showed all their diagnoses, past and present; however, some participants were confused, or found it redundant, with the \"You were diagnosed with\" section."
+  - "At least 6 participants were unfamiliar with certain medical terms, and they requested additional resources to help them understand."
+  - "6 participants would like their vitals to be displayed in Imperial/U.S. standard measurements instead of the metric system."
+  - |
+    8 participants incorrectly interpreted the "Medications administered at the clinic" section.
+    Participants assumed the medication:
+    - Would be received during a later visit.
+    - Was given at the clinic, but also required them to take more later at home after picking up a prescription.
+    - Would either be administered during the procedure or mailed to them to take before arriving to an appointment.
+  - "The \"My medications\" section met the expectations of most participants; many were satisfied with the depth and breadth of the information displayed."
+  - "Approximately half of the participants were either confused about the difference between the three medication sections, or they wanted all three sections combined into one."
+  - |
+    Some participants asked for additional instructions for their medications. They requested:
+    - What condition they are taking the medication for.
+    - Instructions on when to take it.
+    - Why they stopped taking a medication and what the adverse reactions were.
+  - |
+    All participants wanted a notification (email, text, etc.) that their AVS was ready to view.
+    Modality preferences:
+    - 3 Text only
+    - 2 Email only
+    - 7 Either text or email
+  - "Participants were equally divided between receiving one notification for each AVS or receiving all AVSs for a given day together in one notification."
+  - "2 out of 6 participants were confused by the label \"Schedule and manage appointments.\""
+  - "4 participants saw value in sharing their after-visit summary with non-VA providers."
+  - "2 participants mentioned it would be helpful having additional phone number information or features."
+  - "2 participants didn't understand the clinic name."
+  - "Over 30% of participants mentioned the after-visit summary is a good resource to verify whether their provider correctly understood their concerns during their visit."
+  - "3 participants difficulty interpreting their lab results; they didn't know how they would use this information to help them manage their health."
+  - "7 Veterans mentioned that they sometimes don't receive appointment summaries or lab results until 48-72 hours following the appointment."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Spread awareness via the change management process that a digital AVS is available on VA.gov."
+  - "Keep referring to this experience as the \"After-visit summary.\""
+  - "Don't change the current information architecture plan to include AVS within appointments and care summaries and notes."
+  - "Remove the \"Details\" link from the design."
+  - "The navigational structure (back buttons) can remain the same."
+  - "Ensure that the default configuration is set to Imperial/U.S. standard, which the VA AVS system already provides."
+  - "Ensure that if clinicians entered patient-friendly descriptions, then display them within the AVS."
+  - "Display the existing medication indication field."
+  - "Make phone numbers clickable."
+  - "Share lab results feedback with the medical records team that is working on VA.gov lab results."
+  - "Review past appointment research into this label and add this as a research question to future studies. If evidence continues to suggest Veteran/caregiver confusion, then make changes to the label."
+  - "Ensure that the AVS product has a good print stylesheet and an accessible, downloadable PDF."
+  - "Conduct further research when adding referrals and recalls to the appointment list."
+  - "Eliminate the term \"recall\" for these appointment types. Provide a more accurate and descriptive name for these type of appointments."
+  - "Explore an alternate title to the \"You were diagnosed with\" section."
+  - "Explore how to remove confusion between the \"You were diagnosed with\" and \"Problems list\" sections."
+  - "Change the \"Medications administered at the clinic\" section title and label to something more plain language and understandable."
+  - "Complete a content review of medical terminology within the AVS to identify areas for more plain language. Ensure that if clinicians entered patient-friendly descriptions, then display them within the AVS."
+  - "Explore ways to connect/crosslink AVS and other care summaries and notes, such as progress notes, so a complete story of what the provider understood can be shared with the Veteran/caregiver."
+  - "Complete additional research to understand the technical and Veteran value of the additional information requests to the \"Your treatment plan from this appointment\" section."
+  - "Expand patient education articles linking within the AVS. For example, make hypertension a link to an article describing the condition."
+  - "Explore clearer labels to eliminate confusion across the different medication sections. Explore a combined medication sections."
+  - "Research additional medication instruction needs further."
+  - "Add phone number within the appointments section."
+  - "Within the AVS, add content to inform Veteran/caregiver that lab results are still in-progress and send the AVS notification as soon as it is available."
+  - "Make clinic names more user-friendly or display a combination of other appointment information, such as floor and room number."
+  - "Create AVS notification for each modality, such as email, text, push, or in-app notification. Also, create an associated notification preference."
+  - "Start with separate notification for each AVS. Then, explore expanding to one notification for each day in the future as another option."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Conduct further research when adding referrals and recalls to the appointment list"
+  - "Complete additional research to understand the technical and Veteran value of the additional information requests to the Your treatment plan from this appointment section"
+  - "Explore alternate title to the You were diagnosed with section"
+  - "Explore ways to connect/crosslink AVS and other care summaries and notes"
+  - "Research additional medication instruction needs"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: Facilities'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Personal Health Records/Medical Records'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "MHV: Appointments"
+  - "MHV: Personal Health Records/Medical Records"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "evaluative"
 ---
+
 # After-visit Summary MVP Usability Findings
 The purpose of this research is to get feedback from Veterans and caregivers on the After Visit Summary MVP VA.gov Prototype about ease of use of the content and how well it met expectations.
 - If Veteran/caregivers understand the information displayed within the AVS?

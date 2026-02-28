@@ -1,95 +1,143 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Pension-Related Research Review and Prioritization Research Findings"
+product: "Pension Benefits (527EZ)"
+team: "Pension and Burial Benefits Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-02-12"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Chavie Cramer"
+  - "Daniela Jones"
+  - "Gretchen Maciolek"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Holistically reviewing in-progress design work and research studies completed to date"
+  - "Determining which recommendations, informed by past research, provide the highest value for Veterans, their advocates, and VA adjudicators"
+  - "Evaluating how existing recommendations align with VA priorities and business goals, feasibility, and other relevant considerations"
+  - "Prioritizing recommendations across several primary and secondary data sources to inform an updated roadmap for HCD work"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Secondary research review (cross-study analysis)"
+  - "Affinity mapping and signal strength measurement based on frequency and sentiment"
+  - "2x2 prioritization matrix based on direct Veteran impact and level of effort/technical feasibility"
+  - "Cross-reference with existing tickets and related work in progress or completed"
+  - "Cross-functional analysis to identify recurring themes"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - |
+    Introduction Page: Veterans may be confused about the different types of pension or apply for the wrong benefit because the information provided on the introduction page is insufficient or unclear.
+  - |
+    Supporting Documents Page (End-Form Summary Page): Veterans may not understand what supporting documents are needed because the form provides inadequate guidance on what is required for their unique situation and how to complete next steps.
+  - |
+    Financial Information (Step 5): Veterans may experience frustration and high error rates when completing the financial information section due to unclear or inconsistent language and requests for information that may be difficult to locate or understand. These challenges may relate to: dependent qualifications, asset reporting, and medical reimbursements.
+  - |
+    Household Information (Step 4): Veterans may struggle to provide accurate information in the household information section, particularly the marriage history subsection, because of unclear instructions, requests for potentially sensitive or difficult-to-locate information, and confusing question structures.
+  - |
+    Multi-Response List and Loop Bundle: Veterans may abandon the form or submit an application with a high volume of errors because they are unable to make edits to information entered or are unable to complete required tasks within the list and loop pattern. Identified areas for improvement include questions related to service names, treatment at VA medical centers, and dependent children.
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - |
+    Introduction Page: Provide information about the different types of pensions and clearer eligibility criteria on the introduction page to help applicants feel more confident and prepared when starting the form.
+  - |
+    Supporting Documents Page (End-Form Summary Page): Implement conditional logic on the supporting documents page to display appropriate forms and additional information based on the applicant's responses.
+  - |
+    Financial Information (Step 5): Conduct a design investigation to explore solutions that simplify the user experience, such as clarifying the purpose of and guidance to report medical expenses and assets and improving form field labels and instructions. Note: existing, in-progress design tickets related to this section of the form should be considered as part of a holistic review to ensure continuity across proposed design improvements.
+  - |
+    Household Information (Step 4): Conduct a design investigation to explore solutions that simplify the user experience, such as clarifying the purpose of the data, reducing unnecessary fields, and aligning questions with plain language standards.
+  - |
+    Multi-Response List and Loop Bundle: Complete a usability study to test the multi-response list/loop pattern with the goal of assessing its effectiveness in improving task flow, reducing complexity, and ensuring accessibility.
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Google Analytics to monitor user engagement and drop-off rates"
+  - "Call center data to understand examples of Veteran confusion"
+  - "Direct user feedback via CSAT scores"
+  - "Downstream reporting from VBMS for instances of claims entering development process and associated reason codes"
+  - "Generative and evaluative user research"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: |
+    Veterans will have the necessary information to more accurately determine potential eligibility, gather the right supporting documentation, and complete the pension application with fewer errors and less frustration.
+  business: |
+    Fewer incomplete or incorrect applications, decreases in form abandonment, reduced development time for adjudicators, and reduced call center burden.
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Introduction Page: Improve form introduction context to help Veterans understand different pension types and eligibility criteria"
+  - "Supporting Documents Page: Implement conditional logic to display appropriate forms and information based on applicant responses"
+  - "Financial Information (Step 5): Holistic design review to simplify language, clarify guidance for medical expenses and assets, and improve form field labels"
+  - "Household Information (Step 4): Design investigation to clarify data purpose, reduce unnecessary fields, and align with plain language standards"
+  - "Multi-Response List and Loop Bundle: Usability testing for service names, treatment at VA medical centers, and dependent children patterns"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Exploratory research on the overall experience of pension-eligible Veterans and their families or other advocates"
+  - "Evaluative research on proposed design changes to the form (such as those pending in Financial and Household Information sections)"
+  - "Phase 1 exploratory study to investigate the overall experience with pension-eligible Veterans and their advocates"
+  - "Phase 2 usability study with pension-eligible Veterans and their advocates as new design features are further defined and developed"
+  - "Product-led analytics and quantitative data definition to inform research efforts"
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "VSO Research (Fall 2024)"
+  - "VSR Shadowing (Spring 2024)"
+  - "Usability Study (Spring 2024)"
+  - "Veterans Pension Benefits Journey Map"
+  - "Google Analytics"
+  - "Call center data"
+  - "CSAT scores"
+  - "VBMS downstream reporting"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Spreadsheets"
+tags:
+  - "AUD: Veterans"
+  - "AUD: Veteran Service Office (VSO)"
+  - "BNFT: Pension"
+  - "PRDT: Pension"
+  - "DSP: Help users to check answers"
+  - "DSP: Ask users for files"
+  - "DSP: Ask users for multiple responses"
+  - "DSC: Form"
+  - "discovery"
+  - "evaluative"
 ---
 
 # **Pension-Related Research Review and Prioritization** 

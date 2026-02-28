@@ -1,102 +1,133 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Deferred Identity Proofing Round 1: Usability - Research Findings"
+product: "Login.gov Adoption"
+team: "Login.gov Adoption Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-04-12"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Tyler Gindraux"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Review whether Veterans can migrate their accounts from DS Logon to Login.gov (IAL1) without issue."
+  - "Review whether Veterans understand the type of account they've set up and its limitations."
+  - "Review whether Veterans know where to get help or what they will do if they encounter an issue during or after account setup."
 methodology:
-- Method 1
-- Method 2
+  - "Usability testing"
+  - "Semi-structured interviews"
+  - "Remote moderated sessions (Zoom)"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 8
+  tablet: 2
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 3
+    "55-64": 3
+    "65+": 4
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 2
+    some_college: 1
+    associates: 2
+    bachelors: 1
+    masters: 3
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 5
+    rural: 5
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 6
+    black: 5
+    hispanic: 2
+    biracial: 4
+    asian: 0
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 4
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Most Veterans are motivated to set up a Login.gov account because they're concerned about losing access to their benefits and healthcare."
+  - "Veterans are likely to ignore messaging about migrating to Login.gov if it comes at the wrong time, on the wrong device, or without additional context and information for those who need it."
+  - |
+    Veterans didn't recognize a relationship between their verified DS Logon account and their ability to create a Login.gov without identity verifying right away.
+  - |
+    Veterans are unfamiliar with the term 'VA Digital Tools' which causes confusion and demotivates them, because they're not sure what they're losing or gaining access to.
+  - "Not understanding the difference between authentication and verification makes it difficult to know the limitations of an unverified Login.gov account, and how verification works."
+  - "Veterans prefer when they're given more information about their account, what to expect, and where to get help from VA."
+  - |
+    If Veterans don't remember that their previous credential is going away, or don't feel a sense of urgency to start using Login.gov, it's likely that they'll continue to use DS Logon.
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Keep continued access front of mind"
+  - "Better communicate the urgency of the situation"
+  - "Use familiar words rather than trying to educate right now"
+  - "Build greater awareness of Login.gov"
+  - "Consider how the unauthenticated experience fits in"
+  - "Share more up front so Veterans know what to expect"
+  - "Leverage emails to provide detail to Veterans who need it"
+  - "Explore more touchpoints in the authenticated experience"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not explicitly stated in the report"
+  business: "Not explicitly stated in the report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - |
+    Benefits of deferring identity proofing aren't clear to Veterans — they don't understand why they must start by signing in to DS Logon, why they don't need to verify identity at first, or why they have access to VA but not other government websites.
+  - |
+    Veterans confuse credentials and applications — they don't understand that Login.gov is a credential, not a new application, and some believe it will consolidate all VA applications into one portal.
+  - |
+    Authentication vs. verification distinction is not understood — Veterans use 'authenticate' and 'verify' interchangeably, making it difficult to understand the limitations of an unverified Login.gov account.
+  - |
+    Transitions take time — Veterans who don't remember their previous credential is going away, or don't feel urgency, will continue using DS Logon even after setting up Login.gov.
+  - "Veterans expect help from VA, not from Login.gov, when they encounter issues with account migration."
+  - "The unauthenticated experience presents an untapped opportunity to communicate with Veterans about DS Logon sunset and build Login.gov awareness."
 further_research_needed:
-- Area 1
-- Area 2
+  - "Testing to identify which terms resonate most"
+  - "Testing subject headlines for phishing or scamming concerns"
+  - "Testing alternative ways of using a modal, including how soon after sign in it appears"
+  - "Testing with Veterans to better understand issues with remote identity verification"
 underserved_groups_missing:
-- Group 1
-- Group 2
+  - "Asian Veterans"
+  - "LGBTQ+ Veterans"
 secondary_research:
-- Web analytics
-- SME interviews
+  - "2022-10-Research-LoginGovFieldResearch #185"
+  - "2022-07 MHV transition to Login.gov as a single sign-on #157"
+  - "2022-07 Login Self-Service Tool #156"
+  - "2022-03 Sign-In Accessibility #93"
+  - "Research conducted by Login.gov's product teams"
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Caregivers'
-- 'MHV: Secure Messaging'
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Login.gov"
+  - "PRDT: Login"
+  - "DSC: Modal"
+  - "DSP: Help users to sign in"
+  - "HDW: Desktop"
+  - "HDW: Tablet"
+  - "usability-testing"
+  - "RESRCH: Remote"
 ---
+
 # Deferred Identity Proofing Round 1: Usability - Research Findings
 
 Office of the CTO - Digital Experience (OCTO-DE), Login.gov Adoption Team

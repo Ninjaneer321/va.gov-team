@@ -1,105 +1,125 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Upcoming Appointment Questionnaire MVP Usability Study Research Findings"
+product: "Healthcare Questionnaire"
+team: "Not specified in report"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2020-10-01"
+researchers: 
+  - "Kristen McConnell"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Usability test a mobile and desktop version of the upcoming appointment questionnaire design"
+  - "Gain feedback on the content/wording within the questionnaire"
 methodology:
-- Method 1
-- Method 2
+  - "Remote moderated usability testing"
+  - "High-fidelity wireframe prototype testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 4
+  tablet: 0
+  smartphone: 4
+  assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 1
+    "35-44": 0
+    "45-54": 3
+    "55-64": 4
+    "65+": 0
+    unknown: 0
+  education: 
+    high_school: 0
+    some_college: 2
+    associates: 0
+    bachelors: 3
+    masters: 3
+    doctorate: 0
+    unknown: 0
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 8
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 8
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    general_disability_rating: "Average 73.75%"
+  gender:
+    male: 6
+    female: 2
 key_findings:
-- Finding 1
-- Finding 2
+  - "Nurses, who normally ask intake questions, are less (or not at all) involved in virtual appointments."
+  - "The usability and value of our questionnaire was reconfirmed."
+  - "All of the Veterans almost immediately clicked to the next page without reviewing any content on the introduction page."
+  - "Experiences when updating demographic information differed amongst the Veterans, but Veterans see the profile as the place of authority on VA.gov to edit their demographic information."
+  - "Veteran expectations on when providers would review this information differed, so their expectations on when they would complete this questionnaire also varied."
+  - "Veterans expect access to their completed questionnaires and other medical information shared with the VA."
+  - "Veterans expect to find and be notified of questionnaires to complete in a variety of ways."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Remove the button to start the questionnaire from the top of the introduction page."
+  - "Reorder the introduction page content, so \"What happens after I answer the questions?\" is listed first."
+  - "Add the information that a provider will not review this questionnaire with the Veteran until their appointment in more locations and add more visual emphasis to it."
+  - "When determining how far in advance a Veteran can complete this questionnaire, take the two week to 2 day Veteran-proposed timeframe in mind."
+  - "Add links to the Questionnaire Manager and VAOS on our confirmation page."
+  - "Add VAMC and clinic phone numbers to the confirmation page."
+  - |
+    When working with IA to determine where our questionnaires lives on VA.gov propose they live amongst all of the other medical record information.
+       - VAOS would link to specific questionnaires.
+  - "Change the additional details field to a textarea in order to help Veterans believe they can edit this information."
+  - "Add more descriptive address labels on the review page."
+  - "Explore adding other questionnaire information to the confirmation page."
+  - "Further look into the need to transfer information entered in one questionnaire into the next questionnaire."
+  - "Look into a branching strategy (or machine learning) for questions, so we can probe further into problems that Veterans are facing."
+  - "Work with VAOS, authenticated and mobile teams to have questionnaire information appropriately appear."
+  - "Explore adding more detailed widgets of appointment to the confirmation page."
+  - |
+    Explore elegant solutions for jumping from questionnaires to the profile section to update demographic information or add editing demographic information in the questionnaire.
+       - Should all forms have editable demographics or link to the profile section? Are the labels in the demographic sections consistent in all forms (within the main content area and the review pages)?
+  - |
+    Explore the possibility of editing a questionnaire multiple times.
+       - Enhancement to save in-progress
+  - "Explore adding the capability to send images."
+  - "Add provider's name to questionnaire."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Facilities'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Personal Health Records/Medical Records'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: Appointments"
+  - "MHV: Personal Health Records/Medical Records"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "PRDT: VAOS"
+  - "DSP: Help users to check answers"
+  - "DSC: Form"
 ---
 # Upcoming appointment questionnaire MVP usability study
 

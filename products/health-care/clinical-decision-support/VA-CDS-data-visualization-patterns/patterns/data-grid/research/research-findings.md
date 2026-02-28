@@ -1,101 +1,111 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Data Grid Usability Test Research Findings"
+product: "Data Grid"
+team: "Data Visualization"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2025-06-11"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Ben Nguyen"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Validate what is working well for users"
+  - "Systematically identify and document usability issues"
+  - "Inform targeted design improvements"
 methodology:
-- Method 1
-- Method 2
+  - "Usability testing"
+  - "Think-aloud protocol"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 5
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 5
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 5
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 5
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 5
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 5
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 5
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Participants described the Data Grid as generally intuitive and effective, noting that it supported their workflows and made it relatively easy to find and interpret patient information."
+  - "Participants require more flexible date range filters that support approximate or open-ended dates, since exact dates are often unknown."
+  - "Participants found the existing methods for pinning and reordering columns unintuitive and cumbersome, expressing a desire for faster and more streamlined ways to tailor the layout to their needs."
+  - "Participants often didn't realize additional columns were available resulting in missed information and frustration when expected data wasn't immediately visible."
+  - "When the data grid displays only a few rows, the reduced height can make it difficult to access or use column menus effectively."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Provide more flexible date range filters that support approximate or open-ended dates. All participants stated that they are used to using date range pickers in similar tools. This date range picker must support approximate or open-ended dates to accommodate real-world uncertainty in clinical data."
+  - |
+    Add drag-and-drop functionality so clinicians can easily reorder columns to fit their needs. During testing, all participants tried to drag and drop the columns to reorder them.
+    1. Clinicians should also be allowed to save the order of the columns they prefer.
+    2. Rather than using the concept of 'pinning,' allow users to reorder columns by assigning them a specific numerical position to eliminate confusion about column placement.
+  - "Add visual cues—such as shadows, gradients, or edge fades—to signal that additional columns are available by scrolling horizontally. Currently, it is not obvious at a glance to users that there are more columns available."
+  - "Ensure a consistent minimum table height to maintain visibility and accessibility of column menus, even when only a few rows are displayed. All participants complained that they could not interact with column menus when there were only a few rows displayed."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Cognitive Disability"
+  - "Other than honorable"
+  - "Expat"
+  - "LGBTQ+"
+  - "Assistive Tech users"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Caregivers'
-- usability-testing
+  - "AUD: Clinicians"
+  - "BNFT: Healthcare"
+  - "DSC: Table"
+  - "usability-testing"
+  - "HDW: Desktop"
+  - "DSP: Ask users for dates"
+  - "DSC: Search Input"
+  - "Accessibility"
+  - "evaluative"
+  - "AUD: VA Staff"
 ---
+
 # **Data Grid Usability Test Research Findings**
 
 **Office of the CTO - Digital Experience (OCTO-DE), Data Grid, Data Visualization**

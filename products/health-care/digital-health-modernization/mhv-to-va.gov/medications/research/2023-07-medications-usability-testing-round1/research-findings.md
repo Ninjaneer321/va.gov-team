@@ -1,105 +1,143 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "MHV on VA.gov, Medications, July 2023 Research Findings"
+product: "MHV on VA.gov - Medications"
+team: "MHV on VA.gov Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-08-18"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Ade Ajayi"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Understand if Veterans can locate and fill/refill their medications."
+  - "Identify any usability issues Veterans may experience with understanding the status of their medications."
+  - "Identify any usability issues Veterans may experience with managing their medications."
 methodology:
-- Method 1
-- Method 2
+  - "Remote moderated usability testing"
+  - "Usability testing"
+  - "Moderated research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 11
+  tablet: 0
+  smartphone: 7
+  assistive_technology: 0
+participants_total: 18
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 18
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "18-30": 0
+    "30-40": 1
+    "40-50": 2
+    "50-60": 5
+    "60-70": 7
+    "70-80": 2
+    "80+": 0
+    unknown: 1
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 4
+    some_college: 6
+    associates: 3
+    bachelors: 0
+    masters: 3
+    professional: 2
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 13
+    rural: 5
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 7
+    black: 4
+    hispanic: 1
+    biracial: 6
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 6
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Most participants (13 of 18) successfully located their medication list from the landing page."
+  - "All users (100%) demonstrated the ability to recognize and refill prescriptions once they were on the medication list view page."
+  - "Most participants, (15 of 17) located and refilled prescriptions on the detailed view page."
+  - |
+    Most participants (9 of 15) anticipated the presence of a convenient "fill-all" button or checkbox for multiple prescription refills.
+  - "Some participants (9 of 14) expected an accessible cancellation option."
+  - "Most participants (11 of 15) expressed their intention to include prescriptions never filled while performing a multi-refill."
+  - "Some participants (7 of 17) did not engage with the sort feature."
+  - "Some participants (5 of 18) were uncertain or unaware of whether or not their refill had been submitted."
+  - "Some participants (7 of 18) anticipated receiving an additional notification, through text or email, after their submission."
+  - |
+    Some participants (8 of 14) defined "active" correctly as referring to prescriptions that are yet to expire.
+  - |
+    Most participants (10 of 14) responded with uncertainty, stating "I don't know," when asked about the meaning of "active parked."
+  - |
+    Most participants (9 of 14) incorrectly attributed the term "discontinued" to signify that the VA or manufacturer no longer carried the medication.
+  - |
+    Most participants (8 of 14) correctly defined "expired" as indicating that the prescription required renewal.
+  - |
+    Most participants (16 of 17) accurately identified "shipped" as a refill status, with a noteworthy observation that 4 out of 18 participants did not recognize "expect to fill" as a refill status.
+  - "Most participants (7 of 13) expressed dissatisfaction with the level of information provided on non-refillable prescriptions, particularly on the list view."
+  - |
+    Some participants (6 of 18) could not locate "never filled" prescriptions.
+  - "Most participants (16 of 17) interacted with the option to print or download their medication list."
+  - "Some participants (7 of 17) were unable to identify the image on the details page when prompted."
+  - |
+    Half of the participants (9 of 18) did not instinctively click on "learn how to renew".
+  - "Most participants (13 of 17) successfully located the reason for the use of the targeted prescription in the detailed view."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - |
+    Add line break/padding to draw more attention to the link in the landing page, directing users to "Go to your medications". This will help guide users directly to their medication list without having to scroll through the landing page looking for it.
+  - "Add cancellation information within refill request view. This will allow users the option to cancel their submission request when needed."
+  - |
+    Consider a more distinct way to display "fill" versus "refill" option. Consider rewording fill to say: "Request a new fill". This content change option will allow users to quickly identify new versus old prescriptions and "fill" versus "refill." This is especially necessary for when a Veteran is ready to request the first fill of a prescription for the first time.
+  - |
+    Consider a more familiar success message upon refill submission. This content update will let Veterans confirm that the refill was submitted successfully, while still telling them it is in review. A success icon will also promote Veteran's confidence in the submission.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
+  - "Study shows that most users do not correctly define prescription statuses. Consider a future secondary study to understand the value of these statuses and best practices for displaying them."
+  - "Consider a future secondary research study to understand best practices regarding displaying fill-all and checklist option for multiple prescription refill."
+  - "Consider content changes to a prescription that has an unknown status."
+  - |
+    Consider retesting "sort" feature in other studies to identify potential user pain point(s). Consider desktop research on the best way to present sort feature on a website.
+  - "Consider future iteration to improve visibility of images in the detail-view page."
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "80+ users"
+  - "Other than honorable, Immigrant origin, Expat"
+  - "Native American"
+  - "LGBTQ+"
+  - "Assistive Technology users"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: Pharmacy"
+  - "PRDT: MHV Integration to VA.gov"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "DSC: Card"
+  - "DSC: Action Link"
+  - "HDW: Desktop"
 ---
+
 # **MHV on VA.gov, Medications, July 2023 Research Findings**
 
 ## **Office of the CTO - Digital Experience (OCTO-DE), MHV on VA.gov Team**

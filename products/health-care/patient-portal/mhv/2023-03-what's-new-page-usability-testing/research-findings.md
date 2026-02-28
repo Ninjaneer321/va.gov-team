@@ -1,102 +1,123 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Portals What's New Page Research Findings"
+product: "My HealtheVet"
+team: "My HealtheVet Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-03-14"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Bob Lewis"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Identify any usability issues with the What's New Page flow, specifically with older Veterans."
+  - "Assess user experiences with introduction of new major notification feature."
+  - "Measure Veterans' expectations of the \"new\" tag timeframe."
 methodology:
-- Method 1
-- Method 2
+  - "Moderated usability testing"
+  - "Remote sessions via Zoom"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 9
+  tablet: 1
+  smartphone: 10
+  assistive_technology: 0
+participants_total: 20
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 20
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 2
+    "35-44": 4
+    "45-54": 4
+    "55-64": 0
+    "65+": 10
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 3
+    associates: 5
+    bachelors: 5
+    masters: 5
+    doctorate: 2
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 14
+    rural: 6
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 14
+    black: 2
+    hispanic: 1
+    biracial: 2
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 5
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Most participants (15 of 20) liked having both the blue banner and What's New link available on the homepage."
+  - "Some participants (10 of 20) wanted the link placements to be more noticeable or higher up on the page."
+  - "Most participants (14 of 20) wanted to sign in to My HeatheVet immediately before using the What's New feature."
+  - "Most desktop participants (5 of 9) did not expect the drop-down feature to be there when they were signed out of My HeatheVet."
+  - "Most participants (12 of 20) wanted the \"new\" tag to disappear when interacting with a notification."
+  - "Some participants (5 of 20) did not like the categories of \"General\" and \"Personalized\" and wanted the notifications to be under one umbrella."
+  - "Most participants (17 of 20) did not register the unified sign in card as time sensitive."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - |
+    What's New links: Keep the blue banner and What's New link at the same placement as they were during the test.
+      - The placement of the blue banner and What's new link are not able to move due to accessibility and dev limitations.
+  - |
+    Flow: Website should open to the What's New page immediately after sign-in to allow better ease of access and maintain VA consistency.
+      - This would allow users to find the What's new page immediately and see any site updates along with their homepage quick links.
+  - |
+    Drop down feature: The desktop version should only show the drop-down feature once the user has signed in.
+      - Users will be able to view their information quickly.
+      - Dev team will not have to code a signed out drop down that users will most likely not see.
+  - |
+    "New" tag: The "new" tag will go away once a user has interacted with a notification. Also, Notification cards should be dated.
+      - This will help the user organize what information has been dealt with and what is still unknown to them.
+      - This will help users prioritize information.
+  - |
+    Categories: We should get rid of the "General" and "Personalized" categories and any color coding.
+      - This will take away any prior confusion users were having during testing and allow for easier organization of Information.
+  - |
+    Time Sensitive: We should keep time sensitive cards at the top of the order and add a yellow urgent tag to indicate time sensitive and due dates.
+      - This is to prioritize information that's more urgent to the user and give them visual indicators that it is time sensitive.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Other than honorable"
+  - "Expat (living abroad)"
+  - "Immigrant origin"
+  - "Identify as Latinx, Asian, Native, or LGBTQ+"
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'PRDT: Caregivers'
-- 'MHV: Secure Messaging'
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: National Portal/Access"
+  - "DSP: Notifications"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "VETJNY: Aging"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
 ---
+
 # **Portals 'What's New Page' Research Findings**
 
 **My HealtheVet Team**

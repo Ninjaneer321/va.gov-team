@@ -1,103 +1,130 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Appointment Details Page Redesign Research Findings"
+product: "VA Online Scheduling"
+team: "Appointments"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-02-01"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Ciera Maddox"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Evaluate the pertinence of details page information"
+  - "Test hierarchy of details page information"
+  - "Evaluate how understandable the empty states are"
+  - "Evaluate the use of buttons and links"
+  - "Test the findability of the After Visit Summary"
+  - "Test navigation to and from the Next of Kin/Emergency Contact"
+  - "Test changes to the cancelation flow"
+  - "Evaluate the print page"
 methodology:
-- Method 1
-- Method 2
+  - "usability testing"
+  - "moderated research"
+  - "remote research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 3
+  assistive_technology: 0
+participants_total: 13
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 13
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 10
+    unknown: 3
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 13
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 2
+    unknown: 11
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 13
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 4
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+  gender:
+    women: 8
+    men: 5
+    unknown: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "The appointment details pages were easy to scan and provided the information veterans were looking for."
+  - "Participants found the pre check-in task confusing."
+  - "The majority of participants wanted access to the 'join appointment' link for video appointments."
+  - "ATLAS appointments were confusing."
+  - "Phone numbers might be blocked."
+  - "Cancelation flow was simple and straightforward."
+  - "After Visit Summary was easy to find and navigation to and from was simple."
+  - "Empty states were recognized as intended."
+  - "Text beneath the main header describing the appointment is not being read/noticed."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Rework 'Prepare for your visit' language"
+  - "Reconsider language and placement of 'review your personal healthcare contacts' link"
+  - "Consider an edit function for personal healthcare contacts page"
+  - "Consider a path back to the appointments page from healthcare contacts"
+  - "Consider the feasability of adding the 'join appointment' link to closed video appointments"
+  - "Reconsider 'join appointment' button availability and timing"
+  - "Consider adding 'join appointment' link to 'add to calendar' function"
+  - "Fully reevaluate the ATLAS appointment details with more instructions and clarity"
+  - "Consider including the phone number that will be calling on the details pages"
+  - "Reconsider sub-navigation size and placement for better visibility of past appointments"
+  - "Consider increasing the size of subtext font beneath appointment headers"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
+  - "Veterans want the ability to reschedule their appointments without going through the entire scheduling process"
+  - "The word 'Pending' remains confusing to Veterans"
+further_research_needed: []
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Immigrant origin"
+  - "Assistive technology users"
+  - "Other than honorable discharge"
+  - "Expat (living abroad)"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "FigJam"
+  - "Spreadsheet"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Healthcare'
-- 'MHV: Appointments'
-- 'MHV: Personal Health Records/Medical Records'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: Appointments"
+  - "MHV: Personal Health Records/Medical Records"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "evaluative"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
 ---
+
 # Appointment Details Page Redesign Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Appointments**

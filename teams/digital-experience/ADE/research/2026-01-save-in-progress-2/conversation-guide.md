@@ -1,29 +1,63 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Save in Progress (2nd round of usability testing), 2026-01"
+author: "Cindy Merrill"
+date_created: "2026-02-26"
+last_modified: "2026-02-26"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "ADE (Accessibility Digital Experience)"
+portfolio: "digital-experience"
+product: "Save in Progress for online VA.gov forms"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use and don't use assistive technology and who may or may not have filled out VA forms online"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-plan.md"
+related_prototype: "https://bit.ly/456nrPv"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  # Audience / benefit
+  - "AUD: Veterans"
+  - "BNFT: Records"
+
+  # Accessibility / inclusion
+  - "Accessibility"
+
+  # Hardware (multiple devices explicitly supported/asked about)
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  - "HDW: Tablet"
+  - "HDW: Smartphone"
+
+  # Product / domain
+  - "PRDT: VA.gov Forms"
+
+  # Design system components being exercised by tasks/flow
+  - "DSC: Form"
+  - "DSC: Button"
+  - "DSC: Links"
+  - "DSC: Accordions"
+  - "DSC: Alert Boxes"
+
+  # Design system patterns being evaluated (save/resume, auth, contact fields)
+  - "DSP: Ask users for names"
+  - "DSP: Ask users for phone numbers"
+  - "DSP: Ask users for email address"
+  - "DSP: Notifications"
+
+  # Methodology / themes (non-taxonomy but requested “other relevant tags”)
+  - "usability-testing"
+  - "moderated-interview"
+  - "form-flow"
+  - "save-in-progress"
+  - "session-timeout"
+  - "resume-flow"
+description: "Moderated remote usability test conversation guide for a VA.gov forms prototype focused on Save in Progress behavior (saving, timeouts, and resuming an in-progress request), including sign-in entry points, form completion, and accessibility considerations."
 
 # NEW: Compliance flags
 recording_required: true

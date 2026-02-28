@@ -73,7 +73,7 @@ consent_for_clips: true
 Thanks for joining us today! My name is **[NAME]** and **[NOTETAKER NAME]** is taking notes.
 I also have a couple other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them... 
 
-Today we're going to talk about making updates to health care information.
+Today we're going to talk about healthcare appointments scheduling.
 
 Before we start, I have a few things that I want to go over with you:
 
@@ -120,11 +120,11 @@ Before we start, I have a few things that I want to go over with you:
 
 Before we look at the website, let’s start with a few warm-up questions.
 
-1. How often do you schedule appointments online?
+1. How often do you schedule healthcare appointments online?
 2. Can you tell us what your experience was like the last time you scheduled an
 appointment online?
 
-Today, we are going to have you go through several scheduling scenarios. We will ask you to give your thoughts as you go.
+Today, we are going to have you go through several appointments scheduling scenarios. We will ask you to give your thoughts as you go.
 
 Please note, if you go all the way through, you will end up scheduling an appointment. So, unless you actually want that appointment, we will not have you actually click for the last step.
 
@@ -135,13 +135,14 @@ Okay, now I will have you log in to your VA.gov account. Once you are logged in,
 ## First Task: [Schedule a primary care appoinment] - 10 minutes
 
 Imagine that you want to schedule a primary care appointment. Use the screen to
-navigate and schedule that appointment. As you go, please “think out loud” through each step explaining why you click where you click and anything else that you are thinking. For example, if there is anything visually you like or if anything is confusing, let us know. We may ask you questions along the way.
+navigate and schedule that appointment. Please “think out loud” as you go and share anything you like or if anything is confusion. 
 
-- Possible probing questions:
+**Reminder for moderator to stop the user after the Calendar page**
+
+- (Optional) Possible probing questions:
   - Why did you click there?
-  - What do you think about the information displayed on this screen?
-  - **Reminder for moderator to stop the user after the Calendar page**
-
+  - What do you think about the information displayed on the clinics selection screen?
+    
 **Follow-ups After Task Completion:**
 - On a scale of 1-5, 1 being very challenging and 5 being very easy, how did you
 find it to select a clinic for a primary care appointment, and why?
@@ -173,13 +174,14 @@ confusion?]
 
 ## Second Task: [Schedule an appointment with a social worker] - 10 minutes
 
-Imagine that you want to schedule a social work appointment. Use the screen to
-navigate and schedule that appointment. As you go, please “think out loud” through each step explaining why you click where you click and anything else that you are thinking. For example, if there is anything visually you like or if anything is confusing, let us know. We may ask you questions along the way.
+Imagine that you want to schedule a social work appointment. UsUse the screen to
+navigate and schedule that appointment. Please “think out loud” as you go and share anything you like or if anything is confusion. 
 
-- Possible probing questions:
+**Reminder for moderator to stop the user after the Calendar page**
+
+- (Optional) Possible probing questions:
   - Why did you click there?
-  - What do you think about the information displayed on this screen?
-  - **Reminder for moderator to stop the user after the Calendar page**
+  - What do you think about the information displayed on the clinics selection screen?
  
 **Follow-ups After Task Completion:**
 - On a scale of 1-5, 1 being very challenging and 5 being very easy, how did you find it to schedule a social work appointment, and why?
@@ -204,12 +206,14 @@ confusion?]
 
 ## Third Task: [Schedule an appointment with a pharmacist] - 10 minutes
 
-Imagine that you want to schedule a pharmacy appointment. Use the screen to navigate to schedule that appointment. As you go, please “think out loud” through each step explaining why you click where you click and anything else that you are thinking. For example, if there is anything visually you like or if anything is confusing, let us know. We may ask you questions along the way.
+Imagine that you want to schedule a pharmacy appointment. Use the screen to
+navigate and schedule that appointment. Please “think out loud” as you go and share anything you like or if anything is confusion. 
 
-- Possible probing questions:
+**Reminder for moderator to stop the user after the Calendar page**
+
+- (Optional) Possible probing questions:
   - Why did you click there?
-  - What do you think about the information displayed on this screen?
-  - **Reminder for moderator to stop the user after the Calendar page**
+  - What do you think about the information displayed on the clinics selection screen?
 
 **Follow-ups After Task Completion:**
 - On a scale of 1-5, 1 being very challenging and 5 being very easy, how did you find it to schedule a pharmacy appointment, and why?
@@ -233,6 +237,8 @@ confusion?]
 > - [Does the participant make any comments about a long list of clinics on the clinic selection page?]
 
 # Post PACT task questions - 10 minutes
+
+Great! You don't need to use and look at your screen for the following questions, so feel free to leave it as it is for later. 
 
 Have you ever heard of something called “PACT” or “Patient Aligned Care Team” or
 “primary care team?”
@@ -279,8 +285,7 @@ health?
   - Possible probing questions:
     - Why did you click there?
     - What do you think about the information displayed on this screen?
-    -   **Reminder for moderator to stop the user from clicking the final
-button to schedule**
+    -   **Reminder for moderator to stop the user at the sub type of care page**
 
 **Follow-up After Task Completion:**
 While on the sub-type page:
@@ -325,8 +330,3 @@ Thank you so much again, and enjoy the rest of your day!
 
 In the rare case of an emergency during a session, be prepared with an [emergency exit strategy](https://depo-platform-documentation.scrollhelp.site/research-design/Research-Safety-and-Emergency-Exit-Strategies.2143649793.html#ResearchSafetyandEmergencyExitStrategies-Sampleexitstrategies). <mark>**Plan to include here at least one option, so its easy to find during a session. Take some time to practice so it feels more comfortable.**</mark>
 
----
-
-### Sample Conversation Guide _(note: this link points to resources in the va.gov-team GitHub repo)_
-
-- [Veteran ID Card Discovery Interview](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-id-cards/research/discovery/discovery-conversation-guide.md)

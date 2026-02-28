@@ -1,95 +1,158 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Modernized Check-In Experience: Corpus Christi In-Person Visit Staff Interviews Research Findings"
+product: "Modernized Check-In Experience"
+team: "Modernized Check-In Experience"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-08-16"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Kristen McConnell"
+  - "Ya-ching Tsao"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Evaluate the effectiveness of pre-check-in and check-in with MSAs"
+  - "Better understand the percentage of Spanish speakers and if nuances exist within that population about patient check-in"
+  - "Identify strengths, pain points and opportunities for improvement within the check-in ecosystem"
+  - "Understand how, if at all, MSAs are using VSE-CS"
+  - "Understand what staff roles are interested in PCI reports as well as what data they are interested in reviewing"
+  - "Gain insights on the process for staff needing to cancel appointments"
+  - "Gain insights on understanding the optimal experience for incorporating travel reimbursement into the check-in experience for Veterans"
+  - "Understand what information travel assistants use and how to review and approve reimbursement requests"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "In-person observation"
+  - "Intercept interviews"
+  - "Semi-structured interviews"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 71
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 39
+  service_members: 0
+  caregivers: 2
+  family_members: 0
+  dependents: 0
+  VA_staff: 30
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 71
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 71
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 71
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 71
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    unknown: 71
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Education initiatives, poster placement, and facility appointment volume might be contributing factors as to why Corpus Christi (11%) has higher than average PCI usage numbers (1.2%)."
+  - "For those Veterans/caregivers who attempted PCI, 43.75% (7 out of 16) successfully completed PCI."
+  - "Staff gave day of check-in a Net Promoter Score (NPS) of -67, which is bad."
+  - "Many Veterans prefer checking in with MSAs and that is okay."
+  - "A portion of the staff believe staff and Veteran acceptance of PCI will just take time."
+  - "Negative first-time experiences greatly impact a Veteran's desire to try PCI again."
+  - "Most of Veteran's confusion occurred during the texting and QR code scanning portion of the workflow."
+  - "Continued kiosk usage confuses Veterans. They aren't sure when and why to utilize kiosks or not."
+  - "The number of PCI scenarios that direct Veterans to 'see staff' cause Veterans frustration. This also causes staff to spend a lot of time troubleshooting."
+  - "Veterans aren't sure what appointment types can use PCI to check-in."
+  - "Sometimes Veterans aren't sure if they are checked in or not when using PCI. Sometimes they end up being checked in and sometimes they aren't."
+  - "Long load times are negatively impacting the PCI experience for a portion of Veterans."
+  - "MSA workloads have increased due to checking in more Veterans who don't want to try PCI, educating Veterans about PCI, and troubleshooting PCI."
+  - "Staff have questions about the marketing efforts related to PCI."
+  - "Staff had many feature requests for PCI. Many staff asked if PCI could handle scheduled lab appointments."
+  - "Many staff and Veterans are not aware of pre-check-in or confused about its difference compared to checking in on the day of an appointment."
+  - "Staff gave pre-check-in a Net Promoter Score (NPS) of -60, which is bad."
+  - "MSAs who transitioned from VetLink to VSE-GUI generally approve of the shift."
+  - "Staff do not find VSE-CS reliable enough to effectively utilize due to lists not updating and missing accurate information, which is causing more work for nursing."
+  - "Veterans sometimes don't check in for subsequent appointments in the day; as a result, nurses can't tell if a Veteran is checked in or not due to their list permissions."
+  - "Nursing is overly notified about every Veteran status change in VSE-CS."
+  - "Nursing want to see certain behavioral flags within VSE-CS, because they affect how they prepare for an appointment and how they interact with a Veteran."
+  - "Nursing wants VSE-CS to change the customized list rules, display walk-in appointments, show last 4 of SSN, and improve notes."
+  - "Specialty (non-primary care) nurses only find the pre-visit summary helpful when it is received prior to their pre-appointment phone call to the Veteran."
+  - "Approximately half of the MSAs routinely use the pre-check-in complete, check-in started, and check-in complete statuses within VSE-GUI."
+  - "The training timeline and support on the first few days did not meet staff expectations."
+  - "The Chief, Administrative Officer, and MSA Supervisors are interested in check-in reports."
+  - "VA cancels appointments due to providers calling out sick, scheduling vacation, or taking time off. Canceling on short notice occurs with some frequency, so Veterans sometimes show up for these canceled appointments."
+  - "MSAs often help Veterans complete travel reimbursement via the kiosk and paper form."
+  - "Staff mentioned some interactions with bilingual Veterans and caregivers, but didn't note this affecting check-in in any way."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Share with the training team that education initiatives, poster placement, and facility appointment volume might be contributing factors to Corpus Christi's higher usage numbers, so they can pass it along to the field."
+  - "Staff should continue to offer PCI as an option and educate Veterans, but not make PCI required."
+  - "Look into other workflows or products to expand the check-in ecosystem, such as digital check-in with a VA owned device (laptop or iPad)."
+  - "Having helpers assist Veterans through the PCI experience, particularly their first time, is very important. Pass this information along to the training team, so they can share it with the field."
+  - "Reimagine the text portion of the workflow in one or more of the following ways:\n  - Notify Veterans better that there are more steps.\n  - Don't make Veterans start the workflow by creating a text or scanning the QR code. Instead, push a check-in notification to Veterans when they can check-in (30 minutes prior to their appt).\n  - Spend more time educating Veterans about the process."
+  - "Get rid of the kiosks completely or create a new VA-owned device solution for check-in."
+  - "Share with training the impacts of poster placement on kiosk usage. Possible create a sticker or something else to place on the kiosks stating that check-in isn't available on them."
+  - "Re-evaluate adding editing and reviewing insurance within the PCI experience, so Veterans aren't redirected to check-in with a staff member as often."
+  - "Revisit adding or changing information about what appointment types are available in PCI within marketing materials."
+  - "Pushing check-in links to Veterans 30 minutes prior to an appointment would make not understanding what appointment types are available in PCI a non-issue."
+  - "Revisit check-in status content within the application."
+  - "Continue looking into ways to improve load time."
+  - "Explore a further simplified header and footer to reduce Veterans leaving workflows like check-in."
+  - "Encourage all staff (nurses, volunteers, MSAs, etc.) to collaboratively educate Veterans about check-in."
+  - "Revisit staff education about the available marketing materials."
+  - "Continue to iterate on the marketing strategy."
+  - "Evaluate feature requests (Key Finding #15) for future feature development, particularly the handling of additional appointment types."
+  - "Brainstorm ways to resolve the confusion between pre-check-in and day of check-in."
+  - "Look into possibly renaming the pre-check-in and day of check-in products."
+  - "Share all findings and information with VSE development team."
+  - "Take the timing of when nursing finds pre-visit summary information valuable into account when exploring health questionnaires on VA.gov."
+  - "Share with the training team that the training timeline and support on the first few days did not meet staff expectations."
+  - "Share with the CHIP team what roles are interested in check-in reports as well as what data they are interested in reviewing."
+  - "Explore denoting canceled appointments more within the PCI interface."
+  - "Adding travel reimbursement to PCI would decrease MSAs workload."
+  - "Run a remote research study to specifically talk to bilingual Veterans to learn more about their needs, since we didn't uncover a lot within this study."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Conduct remote research study to specifically talk to bilingual Veterans to learn more about their needs with check-in"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Bilingual/Spanish-speaking Veterans"
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+tags:
+  - "AUD: Veterans"
+  - "AUD: VA Staff"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "PRDT: health-care-check-in"
+  - "HDW: Smartphone"
+  - "HDW: Kiosk"
+  - "SFTW: Website"
+  - "VETSJNY: Taking care of themselves"
+  - "Usability issues"
 ---
 
 

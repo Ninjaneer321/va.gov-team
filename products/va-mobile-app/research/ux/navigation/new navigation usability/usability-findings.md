@@ -1,107 +1,129 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "VA Mobile App - IA & Navigation: Evaluative Research - Usability Study Findings"
+product: "VA Mobile App"
+team: "VA Mobile App"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-09-26"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Holly Collier"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Evaluate the usability of the proposed navigation pattern and information architecture (based on the Closed Card Sort findings) using a series of tasks the participants will be asked to complete."
+  - "Determine if any significant navigational barriers exist for participants who are current users of the mobile app vs participants who are not users of the mobile app."
+  - "Pilot conducting remote, evaluative research using Figma prototypes in the browser on participants' mobile devices, and improve the instructions and process for that in preparation for future usability studies."
 methodology:
-- Method 1
-- Method 2
+  - "Remote moderated usability testing"
+  - "Think-aloud user interviews"
+  - "Figma prototype testing on mobile devices"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 1
+  tablet: 0
+  smartphone: 12
+  assistive_technology: 0
+participants_total: 13
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 13
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "18-24": 0
+    "25-34": 1
+    "35-44": 0
+    "45-54": 5
+    "55-64+": 7
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 1
+    associates: 4
+    bachelors: 2
+    masters: 5
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 13
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 8
+    black: 4
+    hispanic: 0
+    biracial: 1
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - |
+    An overwhelming majority of participants were able to complete each of the 5 provided tasks successfully. For 4 of the tasks, 13/13 participants were directly or indirectly successful. For 1 of the tasks (updating email address), 11/13 participants were directly successful or successful with help.
+  - |
+    Previous app usage did not seem to significantly affect participants' expectations around the location of tasks in the prototype.
+    - There was no significant difference in the way participants who were current users of the app vs participants who were not users of the app navigated the prototype.
+    - All participants who are current app users reported that the prototype was the same or easier to use than the current app.
+  - |
+    The new category labels (Benefits and Payments) were clear and understandable to participants. In addition to 13/13 participants successfully completing the tasks in these categories, most participants correctly predicted things that they would find in each of the new categories.
+    - Within Payments, a strong majority of participants initially expected that they would see money paid to them from VA. Most participants also expected that they would find money they owed to VA.
+    - When asked later what they expected to find in "outstanding debts" (within the Payments category), a strong majority of participants expected that they would find money they owed to the VA, suggesting that the label is clear.
+  - |
+    Increased depth of hierarchy (ex: Claims now being under Benefits) did not seem to affect app users' perceptions of ease of use.
+  - |
+    When asked to compare the prototype with their experience using the current app, 5/5 participants who are current app users reported that the prototype was the same or easier to use than the current app.
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Move forward with proposed information architecture, navigation pattern and labels."
+  - "Keep name and service badge as a personalized element on the home screen."
+  - "Think through the home screen hierarchy and treatment of the non-personalized content vs the personalized content when moving into the next phase of design."
+  - "Consider a cross-reference for manually updating email address within Contact VA."
+  - "Consider a potential higher placement for messages within the app's hierarchy."
+  - "Investigate moving Manage Dependents into the Profile section."
+  - "Continue to iterate on the app user vetting method within our recruiting process."
+  - "Use web-based Figma prototype method and section of protocol in future mobile studies."
+  - "Modify prototype-related protocol to better preserve participant privacy related to browser history."
+  - "Consider modifying the treatment of the save button on the Email Address screen."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not explicitly stated in the report"
+  business: "Not explicitly stated in the report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Home screen hierarchy — non-personalized content (About VA links, COVID-19 updates, Contact VA) is taking up prominent space relative to personalized content"
+  - "Messages feature placement — participants noted wanting Messages to be more prominent in the app hierarchy"
+  - "Manage Dependents location — participants expected it in both Profile and Benefits"
+  - "Email address update — some participants expected to update email through Contact VA (speaking to a person), particularly participants who reported a cognitive disability"
+  - "Save button visibility — several participants did not see the save button in the top right corner on the Email Address screen"
 further_research_needed:
-- Area 1
-- Area 2
+  - "Further research to understand the relationship between the participants who expected to go to Contact VA to update their email address and cognitive disability"
+  - "Research with underserved groups not included: participants with high school degree or equivalent, Hispanic or Native participants, and transgender/nonbinary/gender fluid participants"
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "High school degree or equivalent"
+  - "Identify as Hispanic or Native"
+  - "Transgender, nonbinary, gender fluid, genderqueer, Two-Spirit (Indigenous only), or another gender beyond man or woman"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Google Sheets (Task Scoring & Notes)"
+  - "Google Sheets (Observer Notes)"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Housing'
-- 'PRDT: Claim-status-tool'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "BNFT: Healthcare"
+  - "BNFT: Finances"
+  - "PRDT: VA-mobile-app"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "evaluative"
 ---
+
 # VA Mobile App - IA & Navigation: Evaluative Research - Usability Study Findings
 
 **Office of the CTO - Digital Experience (OCTO-DE), VA Mobile App**

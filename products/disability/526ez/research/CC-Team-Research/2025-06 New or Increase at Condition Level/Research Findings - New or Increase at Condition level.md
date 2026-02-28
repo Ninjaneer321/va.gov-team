@@ -1,95 +1,124 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "2025-06 New/Increase at Condition Level: Research Findings"
+product: "Disability Claim Application (526EZ)"
+team: "Conditions Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-08-08"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Kim Ladin"
+  - "Brian Pianalto"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Evaluate the usability of assigning new/increase type at the condition level instead of the claim level"
+  - "Evaluate usability improvements from previous design iterations"
+  - "Assess the holistic user journey through the Conditions step"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated remote usability testing"
+  - "High-fidelity prototype testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 5
+    tablet: 1
+    smartphone: 1
+    assistive_technology: 0
+participants_total: 7
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 0
+    "45-54": 1
+    "55-64": 3
+    "65+": 2
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 6
+    associates: 0
+    bachelors: 0
+    masters: 1
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 5
+    rural: 1
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 5
+    black: 1
+    hispanic: 1
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Veterans found the new condition experience easy to use and highly intuitive"
+  - "Participants had a hard time adding a condition that was secondary to a previously rated condition"
+  - "The editing flow was difficult for some participants"
+  - "The Cause options have improved, but still caused some difficulty"
+  - "No one knows the dates their condition started or worsened"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Move forward with current design"
+  - "Address problems with adding secondary conditions"
+  - "Improve wording on Cause page, particularly Option 4"
+  - "Improve instructions on Add a new condition screen"
+  - "Prevent errors around date entry"
+  - "Address the problem with phone keyboards obscuring the autosuggestion menu"
+  - "Look at specific autosuggestion results as part of larger work on conditions taxonomy"
+  - "Find opportunities to reduce the number of individual screens"
+  - "Consider adding a free-text follow-up question for increase conditions"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified in findings report"
+  business: "Not specified in findings report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Improving secondary condition flow and instructions"
+  - "Reducing cognitive load from multiple short screens"
+  - "Supporting Veterans who cannot recall exact dates"
+  - "Mobile experience optimization for autosuggestion menus"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Secondary conditions experience with Veterans actively filing supplemental claims"
+  - "Real-world validation with Veterans completing actual claims (not speculative scenarios)"
+  - "Testing with assistive technology users"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Other than honorable"
+  - "Immigrant origin"
+  - "LGBTQ+"
+  - "Biracial"
+  - "Asian"
+  - "Native, American Indian or Alaska Native"
+  - "Assistive technology users"
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Disability-526EZ"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "DSC: Button"
+  - "DSC: Form - Date Input"
+  - "DSC: Form - Radio Button"
+  - "DSC: Form - Select"
+  - "DSP: Ask users for dates"
+  - "DSP: Ask users for multiple responses"
+  - "DSP: Help users to check answers"
+  - "DSP: Form Templates"
+  - "usability-testing"
+  - "evaluative"
 ---
 
 # 2025-06 New/Increase at Condition Level: Research Findings

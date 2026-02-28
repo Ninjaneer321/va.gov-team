@@ -110,7 +110,7 @@ tags:
 
 **Office of the CTO - Digital Experience (OCTO-DE), Accessibility Digital Experience (ADE)**
 
-**Date:** 02/23/2026
+**Date:** 02/27/2026
 
 **Contacts:** Cindy Merrill
 
@@ -220,10 +220,6 @@ For demographic details, see [Research participants](#user-content-research-part
 > **After drafting your detailed findings, apply OCTO metadata labels to enable automated pattern detection and cross-study aggregation.**
 > Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
 
-- _Supporting data: ![description of the image (image)](link - add image to github folder and link here with .png)_  
-
-> **TIP:** For details on how to write descriptive links that are accessible to assistive technology users, see Platform documentation on [How to create accessible GitHub Markdown files](https://depo-platform-documentation.scrollhelp.site/research-design/how-to-create-accessible-github-markdown-files).
-
 
 ### Finding 1: The interstitial page was NOT effective in communicating about save in progress because most users were so focused on form fields that anything else was ignored.
 Half of the participants ignored the interstitial page when it came up because it was an **unwelcome interruption to their task of filling out a VA form and didn't seem relevant**.  
@@ -309,6 +305,14 @@ Eight participants said they wanted to be able to delete a form they started but
 1. Two participants were **frustrated with their AT, perhaps because the tools weren't appropriate for their level of impaired vision**, and they didn't know that another tool might meet their needs better. 
      1. P6 with low vision wasn't using a screenreader on his smartphone but instead a **tool that reads aloud whatever text you highlight with your finger. He kept wanting the tool to read aloud everything on the screen**, but it skipped some text (including accordions) and read some text in small parts with breaks in between (e.g., on the "Records requested" page of the form, as well as the message that appears after you select "Finish later"). At the end of the session, we recommended that the participant try the VoiceOver screenreader.
 
+        <details><summary>Screenshot of the menu that P6 used to ask his phone to "Speak" aloud the text that he highlighted with his finger in Figure 2</summary>
+
+        Figure 2 shows the VA form number "20-10206" split across two lines.
+
+        <img src="./images/p6-highlight-then-menu-to-read-aloud.png" width="35%" height="35%" alt="The text '3 of 6 Records requested' is highlighted, and there's a menu popped up that has 6 options, the last of which says 'Speak'">
+        </details>
+
+
         > *"I'd like to read it all, but I don't know how to make it do that...It will only let me highlight the first item that appears…'3 of 6 records requested.' Okay, so there's way more information than what you just heard. It looks like it's gonna make me highlight every little bit. I like to do the whole page" (p6).*
 
         He didn't know that a screenreader would read everything on the page for him.
@@ -330,9 +334,9 @@ Eight participants said they wanted to be able to delete a form they started but
     
     1. Two non-AT participants were **confused when they saw the form intro page** because they were looking for fields to fill out. One of them always uses Google to find VA forms and never sees the form intro page. The other didn't notice the form number below the big "Request personal records" heading, in part because it was split across two vertical lines: (1) **VA Form 20-**, and (2) **10206**". 
     
-        <details><summary>Screenshot of the form number split across two lines in Figure 2</summary>
+        <details><summary>Screenshot of the form number split across two lines in Figure 3</summary>
 
-        Figure 2 shows the VA form number "20-10206" split across two lines.
+        Figure 3 shows the VA form number "20-10206" split across two lines.
 
         <img src="./images/p7-intro-page-form-num-broken.PNG" width="50%" height="50%" alt="The VA form number is directly below the Heading and split across two lines with '20' on the first line and '10206' on the second line">
         </details>
@@ -489,9 +493,15 @@ Eight participants said they wanted to be able to delete a form they started but
 > 
 > If you need Github Copilot Enterprise Access, please complete this [Issue](https://github.com/department-of-veterans-affairs/copilot-onboarding/issues/new?template=copilot-onboarding.yml).
 
+1. **DISCUSS WITH JEANA!**
+
 ## Further research needed
 
-*Identify gaps in the current study and areas requiring additional investigation––such as demographics that were not included in this study.* 
+1. Any additional research should **include some participants who are 35 years old or younger**. The two such participants recruited for this study didn't show up.
+
+1. Any additional research should **include more participants who use screen magnification**. We would have had two more such participants if p2 had used her magnifier during the session, and if p12 had not had so many technical issues. 
+
+1. Consider checking analytics for the existing "Finish this request later" link on VA forms to see how much it's being used. Then see if changing this link to a button (as tested in this study) results in more clicks.
 
 
 ## Appendix
@@ -512,17 +522,20 @@ Eight participants said they wanted to be able to delete a form they started but
 [Prototype in a GitHub Codespace that needs to be started manually--CONTACT CINDY](https://legendary-yodel-46rpq9g49pj37wv5-3002.app.github.dev)
 
 #### Screenshots of the prototype (Codespace) 
-***NEED TO UPDATE EVERYTHING BELOW*...**
+
 <details>
-  <summary>Figure 9: Informational alert about saving</summary>
-   <img src="./images/intro-pg-alert.png" width="75%" height="75%" alt="We'll save your request on every change. You can stop anytime, and come back later to finish.">
+  <summary>Figure 4: VA.gov home page--not signed in</summary>
+
+  Figure 4 shows the VA.gov unauthenticated home page, which is how the prototype first opens. 
+
+  <img src="./images/home-pg.png" width="75%" height="75%" alt="The VA.gov home page has special colored navigation buttons at the top (only for the purposes of this usability test), followed by the rest of the usual page--including the Sign in button">
 
 </details>
 
 <details>
-  <summary>Figure 10: Intro page--not signed in</summary>
+  <summary>Figure 5: Intro page--not signed in</summary>
 
-  Figure 10 explains about about the form, and prompts the user to sign in to start filling it out.
+  Figure 5 explains about about the form, and prompts the user to sign in to start filling it out.
 
   <img src="./images/Intro-pg-unauth-top.png" width="75%" height="75%" alt="The intro page explains what to know before you fill out the form and the types of information you can request">
   <img src="./images/Intro-pg-unauth-bottom.png" width="75%" height="75%" alt="At the bottom of the intro page is a prompt to sign in to start filling out the form">
@@ -530,72 +543,78 @@ Eight participants said they wanted to be able to delete a form they started but
 </details>
 
 <details>
-  <summary>Figure 11: Intro page--signed in</summary>
+  <summary>Figure 6: Intro page--signed in</summary>
 
-  Figure 11 The signed-in version of the intro page has an informational alert about saving and a "Start your request" link.
+  Figure 6 shows the signed-in version of the intro page, which has a "Start your request" link.
   
    <img src="./images/Intro-pg-auth-top.png" width="75%" height="75%" alt="Most of the signed-in version of the intro page is the same as the not-signed-in version">
-   <img src="./images/Intro-pg-auth-bottom.png" width="75%" height="75%" alt="At the bottom of the signed-in version of the intro page, the sign-in prompt has been replaced by an informational alert about saving and a 'Start your request' link">
+   <img src="./images/Intro-pg-auth-bottom.png" width="75%" height="75%" alt="At the bottom of the signed-in version of the intro page, the sign-in prompt has been replaced by a 'Start your request' link">
 
 </details>
 
-The form we tested has 9 pages of questions, and each page has at the bottom a *Finish later* button on the left side and a *Continue* button on the right side.
+The form we tested has 9 pages of questions, and each page has at the bottom a *Finish later* button on the left side and a *Continue* button on the right side. The interstitial page appears after the first page of questions.
 
 <details>
-  <summary>Figure 12: Form page 1 asks whether you are a U.S. citizen</summary>
-   <img src="./images/form-pg1-alert&citizenship.png" width="75%" height="75%" alt="Radio button question with options to indicate whether you're a U.S. citizen">
+  <summary>Figure 7: Form page 1 asks whether you are a U.S. citizen</summary>
+   <img src="./images/form-pg1-citizenship.png" width="75%" height="75%" alt="Radio button question with options to indicate whether you're a U.S. citizen">
 </details>
 
 <details>
-  <summary>Figure 13: Form page 2 asks for your first name, middle initial, last name, birthdate, and place of birth</summary>
+  <summary>Figure 8: Interstitial page in the form</summary>
+   <img src="./images/interstitial-page&form-header.png" width="50%" height="50%" alt="The new interstitial page explains that the information you enter in the form will saved, and that you can select the Finish later button anytime to stop">
+
+</details>
+
+<details>
+  <summary>Figure 9: Form page 2 asks for your first name, middle initial, last name, birthdate, and place of birth</summary>
    <img src="./images/form-pg2-name&DOB.png" width="50%" height="50%" alt="first name, middle initial, last name, birth month dropdown, birth day, birth year, and place of birth">
 </details>
 
 <details>
-  <summary>Figure 14: Form page 3 asks for your social security number and VA file number</summary>
+  <summary>Figure 10: Form page 3 asks for your social security number and VA file number</summary>
    <img src="./images/form-pg3-SSN&VAfile.png" width="75%" height="75%" alt="social security number and VA file number--one of which must be entered">
  </details>
 
 <details>
-  <summary>Figure 15: Form page 4 asks whether you live on a U.S. military base, and then for your country, street address, apartment or unit number, city, state/province/region, and postal code</summary>
+  <summary>Figure 11: Form page 4 asks whether you live on a U.S. military base, and then for your country, street address, apartment or unit number, city, state/province/region, and postal code</summary>
    <img src="./images/form-pg4-mailing-addr-top.png" width="75%" height="75%" alt="top of the page with a checkbox for whether you live on a U.S. military base, followed by a dropdown field for your country. Below that are fields for street address, apartment or unit number, and city">
    <img src="./images/form-pg4-mailing-addr-bottom.png" width="75%" height="75%" alt="fields for state/province/region and postal code">
 </details>
 
 <details>
-  <summary>Figure 16: Form page 5 asks for your phone number and email</summary>
+  <summary>Figure 12: Form page 5 asks for your phone number and email</summary>
    <img src="./images/form-pg5-phone&email.png" width="75%" height="75%" alt="fields to enter phone number and email, both of which are required">
  </details>
 
 <details>
-  <summary>Figure 17: Form page 6 is a list of checkboxes for which  record(s) to request</summary>
+  <summary>Figure 13: Form page 6 is a list of checkboxes for which  record(s) to request</summary>
    <img src="./images/form-pg6-records.png" width="75%" height="75%" alt="a list of checkboxes, one for each type of record that can be requested">
 </details>
 
 <details>
-  <summary>Figure 18: Form page 7 is an Additional records information field</summary>
+  <summary>Figure 14: Form page 7 is an Additional records information field</summary>
    <img src="./images/form-pg7-additional-info.png" width="75%" height="75%" alt="optional Additional records information field">
 </details>
 
 <details>
-  <summary>Figure 19: Form page 8 asks if there is a VA regional office that you're associated with</summary>
+  <summary>Figure 15: Form page 8 asks if there is a VA regional office that you're associated with</summary>
    <img src="./images/form-pg8-regional-office.png" width="75%" height="75%" alt="optional VA regional office name field">
 </details>
 
 <details>
-  <summary>Figure 20: Form page 9, which is the last page in the form, has expandable sections of form information at the top. Below is a notice about criminal penalties for withholding information, and a statement of truth that requires typing your full name and checking a box to certify the information</summary>
-   <img src="./images/form-pg9-review&submit.png" width="75%" height="75%" alt="the last page in the form, which has expandable sections of form information at the top">
+  <summary>Figure 16: Form page 9, which is the last page in the form, has expandable sections of form information at the top. Below is a notice about criminal penalties for withholding information, and a statement of truth that requires typing your full name and checking a box to certify the information</summary>
+   <img src="./images/form-pg9-review&submit.png" width="100%" height="100%" alt="the last page in the form, which has expandable sections of form information at the top">
    <img src="./images/form-pg9-statement-of-truth.png" width="75%" height="75%" alt="Below the expandable sections is a note about criminal penalties for withholding information, and a statement of truth that requires typing your full name and checking a box that you certify the information">
 </details>
 
 <details>
-  <summary>Figure 21: After clicking the "Finish later" button, the user sees a blue informational alert that says your information has been saved".</summary>
+  <summary>Figure 17: After clicking the "Finish later" button, the user sees a blue informational alert that says your information has been saved".</summary>
    <img src="./images/after-click-finish-later.png" width="75%" height="75%" alt="A blue informational alert that says 'Your Personal records request has been saved' and contains the date and time of the last save, and the date two months later that the incomplete request will expire. Below the text are two buttons: a blue 'Continue your request' button on the left, and a white 'Start a new request' button on the right.">
 
 </details>
 
 <details>
-  <summary>Figure 22: My VA page with various sections including Benefit applications and forms at the bottom</summary>
+  <summary>Figure 18: My VA page with various sections including "Forms and applications"</summary>
    <img src="./images/MyVA-top.png" width="100%" height="100%" alt="top of the My VA page with a heading for Claims and appeals">
    <img src="./images/MyVA-middle.png" width="100%" height="100%" alt="headings for Health care, Outstanding debts, and Benefit payments">
    <img src="./images/MyVA-bottom.png" width="100%" height="100%" alt="headings for Education and training, and Benefit applications and forms">
@@ -613,7 +632,6 @@ The form we tested has 9 pages of questions, and each page has at the bottom a *
 > The prompt will parse the demographic data from this section and structure it correctly for the frontmatter's nested YAML format. 
 
 ### Research participants 
-_Complete the demographic info below using information from the Perigean recruitment survey. For those items where you didn't have participants, please mark with "0". You can use "unknown" if you aren't sure if your participants had a characteristic._ 
 
 #### Recruitment criteria
 
@@ -697,30 +715,46 @@ Disability and Assistive Technology (AT):
 
 
 #### Underserved groups we haven’t talked to 
-> [!NOTE]
-_Complete the [VA recruitment checker for marginalized Veteran groups](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx):_
-> 1. Duplicate the ***Template*** worksheet
-> 1. Enter your participant information **(see the *Template Instructions* worksheet for details)**
-> 1. Make a screenshot of the cells that you want to share and paste it into this report below
-> 1. Generate an accessible version of those cells using Github Copilot Chat:
->    - Start a new Github Copilot chat
->    - Enter: "I want to convert these spreadsheet cells into a table in markdown:" 
->    - Copy and paste the cells from the recruitment checker spreadsheet that you've filled in
->    - Copy the resulting markdown table by clicking the copy icon in the Copilot chat, and paste it into this report below 
->    - (If Copilot returns an error, try using a different AI model, such as "Claude Sonnet 3.7 Thinking")
-
 This research does not include the perspectives of the following marginalized Veteran groups:
-_List all groups in red from the spreadsheet_
-* Group 1
-* Group 2
-* Group 3
+* Identify as Hispanic, Biracial, Asian, Pacific Islander, or First Nations
+* LGBTQ+
+* Other than honorable discharge
+* Immigrant origin
+* Expat (living abroad)
+* Beginner AT user
 
-➡️ _[insert screenshot of completed recruitment checker in the format below]_
-
-![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](link - add image to github folder and link here with .png)
+![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2026-01-save-in-progress-2/images/VA-recruitment-checker.png)
 
 #### A more accessible version of the table in the above image
 
-### Recruitment of underserved groups in [Study name]
+### Recruitment of underserved groups in Save in Progress (2nd round usability testing)
 
-➡️ _[paste markdown table of completed recruitment checker from Github Copilot chat]_
+| Demographic | Category | Target % | Target # | # in Study | Target Achieved? | p1 | p2 | p3 | p4 | p5 | p6 | p7 | p8 | p9 | p10 | p11 | p12 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| All participants | Total | n/a | n/a | 9 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+| Assistive Tech (AT) users | Total | n/a | n/a | 5 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+| No-show participants | Total | n/a | n/a | 3 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+| Age 55-64+ | General | 50% | 5 | 8 | yes | N | 1 | 1 | 1 | 0 | 1 | 1 | 0 | 1 | 0 | 1 | 1 |
+| Cognitive Disability | General | 50% | 5 | 5 | yes | N | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 1 | 0 | 1 | 1 |
+| Mobile user | General | 50% | 5 | 5 | yes | 0 | 1 | 0 | 1 | N | 1 | 0 | 1 | 0 | N | 0 | 1 |
+| Rural | General | 25% | 3 | 5 | yes | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | N | 1 | 1 |
+| No degree | General | 25% | 3 | 2 | no | 0 | 0 | 0 | 0 | N | 0 | 1 | 0 | 1 | 0 | 0 | 0 |
+| Other than honorable | General | 21% | 2 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Immigrant origin | General | 17% | 2 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Women | General | 10% | 1 | 1 | yes | 0 | 1 | 0 | 0 | N | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Expat (living abroad) | General | .4% | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Black or African American | Race | 15% | 2 | 2 | yes | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | N | 0 | 0 |
+| Hispanic, Latino, or Spanish origin | Race | 12% | 2 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Biracial | Race | 3.9% | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Asian | Race | 2.7% | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Native Hawaiian or other Pacific Islander | Race | .3% | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| First Nations (Canada) | Race | n/a | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Native, American Indian or Alaska Native | Race | 1.6% | 1 | 1 | yes | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| Gay, lesbian, or bisexual | LGBTQ+ | n/a | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Transgender | LGBTQ+ | n/a | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman | LGBTQ+ | n/a | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Beginner AT User | AT | 50% | 3 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Experienced AT User | AT | 50% | 3 | 5 | yes | 0 | 0 | 1 | 1 | 0 | 1 | 0 | 1 | 0 | 0 | 1 | 0 |
+| Desktop Screen Reader (SR) | AT | 20% | 1 | 1 | yes | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Mobile Screen Reader (SR) | AT | 20% | 1 | 3 | yes | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Magnification/Zoom | AT | 20% | 1 | 1 | yes | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |

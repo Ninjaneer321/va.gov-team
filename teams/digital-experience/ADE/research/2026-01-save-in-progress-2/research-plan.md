@@ -1,109 +1,148 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Save in Progress (2nd round of usability testing), 2026-01"
+date: 2026-02-26
+last_updated: 2026-02-26
+team: "ADE (Accessibility Digital Experience)"
+product: "Save in Progress for online VA.gov forms"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The current VA.gov 'save in progress' experience for online forms has known accessibility issues and may not clearly communicate to Veterans that their form entries are saved automatically before submission; this research evaluates a revised design intended to better communicate autosave, support finishing later, and improve usability."
+  product_location: "VA.gov authenticated online forms experience"
+  user_familiarity: "Iteration on an existing VA.gov forms capability/pattern (revised design; 2nd round of usability testing)."
+  product_brief_url: "Not specified"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
+methodology: "Remote moderated usability testing"
+research_format:
   location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
   moderated: true # Options: true, false
-  
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "See if Veterans understand that their form data is being saved as they're filling out a form but haven't submitted it yet."
+  - goal_2: "See if Veterans can stop filling out a form, get signed out, and then resume filling out a form."
+  - goal_3: "See if moving the accordion controls to the left side affects usability."
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What reactions/feedback do Veterans have upon encountering the interstitial page after clicking \"Continue\"?"
+  - "Do Veterans think that their form data is being saved? If so, how confident are they?"
+  - "Do Veterans click on either of the links on the interstitial page (that go to My VA or the form intro page)?"
+  - "Do Veterans remember later what the interstitial page said?"
+  - "Do Veterans use the \"Finish later\" button to stop filling out a form?"
+  - "What feedback do Veterans have on the revised \"Finish later\" page?"
+  - "Are Veterans able to resume filling out a form that they previously started? If so, how?"
+  - "Do users realize that they have to sign in before resuming the form?"
+  - "Are Veterans able to open and close accordions with controls on the left side? (especially people using a screen magnifier)"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "With the new design, Veterans are confident that their form data will be saved."
+  - "Telling Veterans about auto saving after the first form page is a time when they are receptive and likely to remember."
+  - "With the new design, Veterans will be able to stop filling out a form, get signed out, and then resume filling out a form."
+  - "All Veterans (including screen magnifier and screen reader users) will find the accordion controls on the left side easy to use."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings and recommendations will inform design guidance and documentation for the \"save in progress\" feature as a documented pattern in the VA Design System, including how/when to communicate autosave, how the Finish later and resume flows work, and whether left-side accordion controls are usable for assistive technology users."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
-  
+  approach: "Not specified"
+
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
-    
+    - "4 must use a screen reader every time they access the internet"
+    - "At least 2 of the screen reader users must be willing to use a smartphone for the session"
+    - "3 must use a screen magnifier every time they access the internet"
+    - "5 must NOT use a screen reader or screen magnifier"
+    - "At least 5 have a computer and are willing to use it for the session"
+    - "At least 5 have a smartphone and are willing to use it for the session"
+    - "At least 4 have a cognitive disability (e.g., TBI)"
+    - "At least 4 have filled out a VA form online before"
+    - "At least 4 have NOT filled out a VA form online before or don't know"
+    - "Have Zoom downloaded to their device prior to the session and know how to share their screen"
+    - "Are willing to share over Zoom a web browser window"
+    - "Have a working microphone on their device"
+
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
+    - "At least 4 are age 55 or older"
+    - "At least 2 women"
+    - "At least 2 don't have any degree or vocational training after high school"
+    - "At least 2 are 35 or under"
+    - "At least 2 live in a rural or remote area"
+    - "At least 3 people of color (anything other than White or Caucasian)"
+
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
+    - question: "Do you use a screen reader or screen magnifier every time you use the Internet?"
+      qualifying_response: "Yes (ask next question); No (jump to question 5)"
+    - question: "Are you willing to join the Zoom session using your screen reader or screen magnifier?"
+      qualifying_response: "Yes (ask next question); No (DISQUALIFY)"
+    - question: "How long have you been using this screen reader or screen magnifier?"
+      qualifying_response: "At least 1 year (ask next question); Less than 1 year (DISQUALIFY)"
+    - question: "What is the name of the screen reader or screen magnifier technology that you will use during the Zoom session?"
+      qualifying_response: "Qualify if a recognized digital screen reader/magnifier (record type per instructions); disqualify if non-digital (e.g., magnifying glass) per plan instructions"
+    - question: "For this meeting, you'll need a device with Zoom installed that can screen share and has a working microphone. What kind of device will you be using?"
+      qualifying_response: "Smartphone (RECRUIT 5; 2 must be screen reader users) or Computer (RECRUIT 5) or Tablet (RECRUIT no more than 2) per plan quotas"
+    - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
+      qualifying_response: "Yes (RECRUIT 4; record as having a cognitive disability); No (continue)"
+    - question: "Have you filled out a VA form online before?"
+      qualifying_response: "No (RECRUIT 4); Yes (RECRUIT 4); Don't know (OK to recruit for \"No\" if having trouble finding others)"
+
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
+  total_recruited: 12
+  completed_sessions_goal: 12
+
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
-  
+  pilot_sessions:
+    - date: "2026-01-07"
+      participant: "Jamie Klenetsky Fay (screen magnification)"
+    - date: "2026-01-08"
+      participant: "Maria Mutia (screen reader on desktop)"
+    - date: "2026-01-09"
+      participant: "Maria Mutia (screen reader on mobile)"
+  research_dates: "2026-01-12 to 2026-01-21"
+  research_review_submission: "TBD"
+
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
-  
+  duration_minutes_at_users: 90
+  duration_minutes_non_at_users: 60
+  buffer_minutes: 60
+  max_sessions_per_day: 3
+
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+  - objective: "VA’s digital experiences are the easiest and most efficient way to access VA health care and benefits."
     key_results:
-      - "[Specific KR if applicable]"
-      
+      - "Improve satisfaction with our web and mobile products by 5 points."
+
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
+  - "Serving and separation"
+  - "Living civilian life"
+  - "Retiring and aging"
+
 # Research Repository Tracking
 related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
+  previous_studies: []
+
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "Accessibility"
+  - "Internal Research: Platform Research"
+  - "DSC: Accordions"
+  - "DSC: Button"
+  - "DSC: Form"
+  - "DSC: Links"
+  - "DSP: Content Presentation"
+  - "DSP: Notifications"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "remote"
+  - "moderated"
 ---
 
 

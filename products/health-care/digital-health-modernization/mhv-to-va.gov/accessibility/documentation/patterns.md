@@ -2,7 +2,7 @@
 
 Collection of patterns supporting accessibility, along with the rationale for the pattern and a list of standards or other factors supported by the pattern.
 
-Last updated: 20 Feb 2026
+Last updated: 27 Feb 2026
 
 ## Alerts
 
@@ -21,7 +21,9 @@ The following VADS accessibility guidelines are supported by the Alerts pattern 
   - Manage focus after the alert is dismissed. When a user dismisses the alert, it disappears from the page structure. If a keyboard or screen reader user closes the alert, they will lose focus and in some browsers, this can return the user to the top of the page. To prevent this, move focus to the next logical spot, such as the next heading after the alert or the main heading h1, depending on what the user needs to do next. — Excerpted from VADS [Dismissible Alert guidance](https://design.va.gov/components/alert/#dismissible)
 
 #### Notification
+- Static alerts
   - **Static alert: No Role.** If the alert is a static alert that exists on the page when the page gets loaded, it doesn’t need a role.
+- Dynamic alerts
   - **Important, time-sensitive information: Use `role="alert"`.** Use this role on alert components that appear after a user interaction.
   - **Interactive alerts: Use `role="alertdialog"` instead.** For alerts that fit the criteria of `role="alert"`, but also contain content requiring user interaction, use `role="alertdialog"` instead of `role="alert"`.
   - **Advisory information, not important enough to have an alert role: Use `role="status"`.** Use this role on alert components that appear after a user interaction.

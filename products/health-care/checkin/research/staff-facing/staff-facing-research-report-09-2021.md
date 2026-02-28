@@ -1,95 +1,157 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Check-In Staff Facing Discovery Research Findings"
+product: "VA Health Appointment Check-in"
+team: "Not specified"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2021-09-01"
+researchers: 
+  - "Not specified"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand the staff experience of Veteran check-in, so that we can improve both the staff and Veteran's experiences of check-in"
+  - "Understand the check-in experience for staff at VAMCs and CBOCs across the country through talking with staff and observing them in their work environments"
+  - "Understand what needs of administrators are being met through the VetLink system, and what is important to them about check-in in general"
+  - "Understand if staff use or have access to VSE GUI during check-in"
+  - "Identify pain points for staff throughout the check-in process and what is working well about existing processes and tools"
+  - "Understand the constraints of the physical environment, desktop/workstation environment, and competing responsibilities of staff"
+  - "Identify workarounds staff have established and how their actions differ from training or management instructions"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote semi-structured interviews"
+  - "Onsite contextual inquiry"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 69
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 69
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 69
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 69
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 69
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 69
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    unknown: 69
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Staff processes and tools for managing patient check-in and other clinical tasks vary across and within facilities and clinics. Across our research, no two clinics with scheduled appointments shared an identical suite of tools for frontline staff to fulfill their responsibilities."
+  - "Staff preferences around notifications from digital tools vary widely depending on role, workspace, workflow, system access, and ease of system use."
+  - "Staff cite too abrupt timeouts, lack of access, and general resistance as barriers to clinical staff using digital tools to track patient check-in status. Almost half of the clinics we spoke with cited barriers to clinical staff using tracking tools."
+  - "Mistrust between clinic hierarchies results in the need for audit trail and subsequent communication tool mandates. However, tensions remain despite tool mandates and in some cases clinics use redundant communication methods."
+  - "The definition of 'late' varies within facilities and clinics, and is commonly determined by individual provider preference. No shows are marked anywhere from immediately when the Vet is late to the end of the day."
+  - "Frontline staff play an important role in providing customer service and complex problem solving to Veterans throughout the check-in process. Identifying and resolving partial kiosk check-ins requires time consuming effort on the part of frontline staff."
+  - "Wayfinding is a major issue at most facilities, few facilities have reliable wayfinding solutions in place. Due to changes to clinic layout, wayfinding systems require constant maintenance by staff. Representatives of 18 clinics mentioned wayfinding difficulties."
+  - "Pre-registration as frontline staff performance evaluation metric requires staff to repeat questions asked of the Veteran earlier in the day/week/etc. also results in rote review of information instead of thoughtful updating of Veteran information."
+  - "Frontline staff become experts in the irregularities of their clinic areas in order to fulfill their responsibility of keeping operations running despite system errors, constraints of the physical environment, and inconsistent interoperability among systems."
+  - "Inconsistent interoperability among the many separate but overlapping staff-facing systems leads to confusion and frustration among clinical, administrative, and frontline staff, as well as duplicative efforts."
+  - "Software interruptions (bugs, crashes, and speed issues) are common, and disrupt or delay processes. When preferred technology is unavailable, frontline staff are adept at finding alternatives, relying on paper records and other low-tech solutions."
+  - "Staff see value in having multiple modes available for Veterans to check-in, particularly when clinics are under volume stress. Different Veterans prefer different check-in methods, and there isn't one method that works for everyone."
+  - "Staff will intervene to support Veterans when they are having issues with technology, including kiosks and personal cell phones."
+  - "It is common for multiple clinics (and departments) to share a single check-in area. Frontline staff have unique insights into the function and flow of the physical check-in and waiting areas, and have strong opinions about placement of check-in tools."
+  - "Accessibility of staff-facing tools is unknown. None of the staff we spoke with disclosed the need for, or use of, assistive technology to perform their duties at work."
+  - "Frontline employees and administrators have concerns about relying on mobile-based solutions because of connectivity issues. Representatives from approximately a third of clinics we spoke with expressed concerns about cell coverage in their areas."
+  - "Frontline staff are the catch-all system for issues that could be known and resolved prior to the appointment time, in particular insurance capture and eligibility issues."
+  - "Clinics use a variety of means to communicate about where patients are in the appointment process after check-in, however VetLink activity buttons are rarely used by clinics with scheduled appointments. Of all scheduled appointments for which a Veteran was checked-in via VetLink, staff only use the 'Activity Button' tracking feature of VetLink on 10-15% of those appointments."
+  - "Avoidable complexity in clinic operational tasks puts strain on frontline staff's ability to provide customer service to Veterans and visitors."
+  - "Frontline staff and administrators are open to pre-registration information being completed by Veterans ahead of their appointments."
+  - "Admins value the opportunity to collect patient information via the kiosk, but longer check-in kiosk interactions contribute to fewer successful check-ins."
+  - "Because clinics change and staff rotate across clinic areas, staff don't always have access to the clinics in VetLink that they need to do their jobs. The need to manually add new clinics to VetLink or adjust clinic profiles creates barriers to staff efficiently doing their jobs."
+  - "VetLink uses VistA Access/Verify code for staff authentication, which expires frequently and causes interruptions for staff who have failed to reset their password."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Provide staff with a common but configurable toolset, allowing staff to configure their toolset to reflect their needs and constraints."
+  - "Build check-in tools with multiple notification options to allow both frontline and clinical staff to enable the notification mechanism that works best for their work environment. Suggested integrations: Outlook notifications, printed notifications, Teams notifications."
+  - "Recommend further research into needs of clinical staff to best meet their needs with notification system options. Recommend adding automated printout on check-in functionality of VetLink to VSE GUI."
+  - "Recommend allowing system check-in to trigger notification to clinician in their preferred format that clinicians can manage themselves. Recommend providing options, not attempting to meet all needs with single method. Recommend exploring possible integration between check-in and Teams for staff notifications as high priority method of MSA-clinical staff communication tool."
+  - "Recommend late mobile check-in window be no later than 10 minutes after appt time, to minimize negative experience of Veteran checking in successfully through mobile check-in only to find out they are too late. Recommend communicating standard e-check-in window very clearly and explicitly define that the standard check-in window is only specific to E-CHECKIN."
+  - "Utilize technology to perform the routine and simple tasks and to provide staff easy access to information that enables them to solve more complex problems."
+  - "Use technology to provide staff with complete and accurate information about the status of Veteran check-in across all departments the staff member is responsible for. Consider exploring conditions under which to notify staff and Veterans about errors during check-in, to prompt resolution. Limit check-in questions to only those required in order to notify staff of patient arrival."
+  - "Recommend not relying on technology for solving wayfinding, due to the difficulty of maintaining the system and the high likelihood and risk in providing incorrect information. Recommend solving simpler responsibilities of frontline staff with technology allows frontline staff the bandwidth to offer wayfinding guidance. Enforcement of location information in clinic profiles is essential for reliable clinic location instructions provided to Veterans digitally."
+  - "Make the date of last pre-registration information update easily visible to staff and establish a max time elapsed since last updated to reduce unnecessary inquiries and increase quality of information collected. Recommend Veterans complete pre-registration information in a less public and less time-sensitive environment. Recommend exploring alternative methods to evaluate staff performance and consider cultural change among frontline staff and administrators."
+  - "Implementation of a new check-in system should draw from and enable staff expertise."
+  - "When designing training materials and experiences, highlight what the system can't do, explicitly name limitations."
+  - "Monitor early implementation of new check-in system for opportunities to add high-impact interoperability with other systems."
+  - "Recommend ensuring existing fall-back systems are still viable even when new systems are added to the ecosystem. Clearly define and communicate the escalation pathway for new check-in system errors, including VSE GUI more broadly. Continue to collect feedback from staff on VSE GUI as check-in interface."
+  - "Training materials should make clear that in-person check-in with staff and mobile check-in are equal check-in methods, staff should not direct Veterans to use mobile check-in if they aren't interested. Future evaluations of the need for a third check-in method (neither in-person, nor reliant on Veterans' personal devices) should be explored."
+  - "Recommend creating simple staff-facing job aids to interpret and resolve Veteran facing errors. Recommend exploring possible needs for lightweight and simple Veteran materials."
+  - "Recommend that the mobile check-in team offer guidance to clinic supervisors of the difficulty of deploying in just one clinic if clinic is colocated with other clinics. Best to deploy among all clinics sharing waiting rooms. Recommend ensuring that any collateral and artifacts can be configured in ways that make sense to the on-the-ground clinical team."
+  - "Modifying the check-in experience provides an opportunity to reassess some of the current practices within the staff check-in workflow."
+  - "Recommend a formal evaluation of staff-facing tool accessibility, in particular of VSE GUI."
+  - "Recommend assessing and improving cellular coverage throughout facilities interested in deploying mobile check-in."
+  - "Recommend reevaluating whether insurance and eligibility checks are essential to the in-person check-in workflow and if there is a more reliable and less disruptive point in the experience for those activities to be completed."
+  - "Recommend reevaluating whether VetLink activity button functionality needs to be duplicated in a new system. Recommend communicating as soon as possible with facilities and clinics that rely on activity button functionality for scheduled appointments."
+  - "Continue to solicit feedback from staff about the functionality of forthcoming features. Validate assumption that it is more helpful to MSAs to integrate into existing tools, instead of creating new tools. Validate integration of check-in functions into existing tools."
+  - "Validate plan for Veteran self-pre-check-in, allowing Veterans to review information before arriving at the clinic, on their preferred device. Identify sites that separate pre-registration from clinic check-in before deploying pre-check-in at a large scale."
+  - "Validate decision to limit check-in experience to questions needed to simply notify staff of patient arrival to the clinic area. Explore other opportunities to configure pre-check-in questionnaires on a facility or clinic level."
+  - "Validate plan to allow staff members to manage their own clinic profiles in VSE GUI, building on existing VistA clinic access structure. Continue to solicit feedback from staff about the functionality of forthcoming staff-managed clinic profile functionality."
+  - "Validate plan to integrate check-in functionality for staff into a tool that uses PIV authentication, sharing auth method with other common staff tools."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Wayfinding - What stands in the way of maintaining accurate clinic location and clinic name information? How could this process be made easier in order to more reliably offer wayfinding information to Veterans digitally?"
+  - "Insurance Capture - How do Veterans feel about sharing insurance information with VA? What would make sharing information easier? What stands in the way?"
+  - "Clinical Staff Workflow / Tools - More research into clinical staff tools and workflow: What are common clinical tools that check-in notification systems should integrate with to improve intra-staff communication and increase trust across hierarchy?"
+  - "System Interruption - Speed issues were the most common among our research with staff. More research is necessary to identify and remediate the source of speed issues and other common technical disruptions in staff-facing systems."
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Wayfinding solutions and clinic location information maintenance"
+  - "Insurance capture from Veteran perspective"
+  - "Clinical staff workflow and communication tools integration needs"
+  - "Staff-facing system performance and interruption issues"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Facilities in Midwest or Southwest regions"
+  - "Facilities not using VetLink"
+  - "Facilities not considered high-functioning"
+  - "Staff with accessibility needs using assistive technology"
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: VA Staff"
+  - "BNFT: Healthcare"
+  - "MHV: Appointments"
+  - "HDW: Kiosk"
+  - "AUD: Clinicians"
+  - "PRDT: Facilities"
+  - "semi-structured-interviews"
+  - "contextual-inquiry"
+  - "discovery"
+  - "evaluative"
 ---
 
 # Check-In Staff Facing Discovery Research Report

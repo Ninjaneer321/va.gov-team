@@ -1,95 +1,113 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "VA.gov Sign-in/Login.gov Research Findings"
+product: "VA.gov Sign-in / Login.gov"
+team: "Identity Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2021-08-24"
+researchers: 
+  - "Amanda Porter"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand how users currently log in to VA.gov and why they use one credential over another (MHV, DSLogon, ID.me)"
+  - "Understand the potential impact of consolidating credential options to Login.gov and ID.me"
+  - "Identify what tasks Veterans typically log in for and where they typically log in to complete those tasks"
+  - "Understand usability issues with the sign-in modal design"
+  - "Understand trust issues related to current credential options and potential Login.gov concerns"
+  - "Identify pain points with identity proofing"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated directed interviews"
+  - "Remote moderated usability testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 5
+    tablet: 1
+    smartphone: 1
+    assistive_technology: 0
+participants_total: 7
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 7
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 7
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 7
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 7
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    unknown: 0
+  gender:
+    male: 3
+    female: 4
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Most participants would consider signing in with Login.gov but were hesitant to do so without more information on what was required and how long it would take."
+  - "Most user journeys start on VA websites such as My HealtheVet or E-benefits."
+  - "All participants knew where to get help regarding password changes, security images, or site being down."
+  - "Most participants visit VA websites with specific tasks in mind."
+  - "All participants were able to successfully in log in."
+  - "All participants stated that security was an important factor in using their credential provider."
+  - "None of the participants expressed a concern with using two-factor authentication."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Share findings with other teams that may be affected by the sign in process (specifically those affect by/concerned about Vets not using VA.gov as a starting point)"
+  - "Use the sentiment around other providers and account creation process to build a case for Login.gov as a most secure provider"
+  - "Communication and marketing should be put in place for Login.gov - Participants stressed the importance of security and ease of use - Login.gov should be the answer to those pain points"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
   - "Affinity Mapping"
+related_research:
+  - "Research Plan: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/login.gov/Login.gov-research-plan.md"
+  - "Conversation Guide: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/login.gov/Login.gov-conversation-guide.md"
+tags:
+  - "AUD: Veterans"
+  - "DSP: Help users to sign in"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "evaluative"
+  - "HDW: Desktop"
+  - "PRDT: eBenefits"
+  - "MHV: National Portal/Access"
+  - "PRDT: VA.gov"
+  - "HDW: Smartphone"
 ---
 
 # VA.gov Sign-in/ Login.gov Research Findings 

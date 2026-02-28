@@ -199,6 +199,7 @@ As part of expanding online self-scheduling, we’re adding two new features to 
 ## Methodology  🛠️
 
 **The interviews will combine tasks and direct questions, focusing on users’ ability to navigate the initial screens of the scheduling flow, their reactions to and understanding of these screens, and their preferences and expectations around clinic selection, PACT, and how they view SUD in relation to mental health.**
+- There are 5 total sections. Sections 1-3 are tasks that involve navigating to schedule a visit with a primary care provider, social worker, and pharmacist. Section 4 includes questions specifically around PACT and section 5 involves navigating to select a mental health appointment. Tasks 1-3 are similar, just changing the type of care a user is navigating. Therefore, every participant will do Task 1 (primary care) and then either Task 2 (social work) or Task 3 (pharmacist) and then continue to complete sections 4 and 5. 
 
 ### Location
 
@@ -267,12 +268,10 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 > **Please submit artifacts for [Research Review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Research-review.1781891143.html) 8-9 days prior to the first planned research day for remote studies so Perigean can begin recruiting one week prior. Perigean requires 2+ weeks for in-person.** 
 
 
-### Optional Kick-off Call with Perigean
+### Kick-off Call with Perigean
 
 - `Available timeslots for a kick off call are below:`
-	- **Tuesday, Sept 9, 3-5pm EST**
-	- **Thursday, Sept 11, 2-4pm EST**
-	- **Friday, Sept 12, 11am-1pm EST**
+	- **TBD - Early or mid March**
 
 
 ### Prepare
@@ -286,7 +285,7 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 
 
 ### Research sessions
-- `Planned dates of research:` **09/DD-09/DD**
+- `Planned dates of research:` **03/DD-03/DD**
 
 
 ### Length of sessions

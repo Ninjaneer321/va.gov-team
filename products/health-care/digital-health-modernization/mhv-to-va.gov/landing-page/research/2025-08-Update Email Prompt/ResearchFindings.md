@@ -1,95 +1,142 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Update Email Prompt Study Research Findings"
+product: "MHV on VA.gov and VAHB"
+team: "Horizon team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2025-08-28"
+researchers: 
+  - "Cara Frissell"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Better understand if users can easily add, confirm or update their email address"
+  - "Understand if users understand the purpose of confirming, updating, or adding email addresses"
+  - "Understand if users understand the implications of their choices (e.g., skipping, confirming, updating)"
+  - "Allow the UX team to adapt the appropriate content and messaging based on insights"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Usability testing"
+  - "Prototype testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 8
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 8
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 8
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 8
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    unknown: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
-recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - |
+    Do users understand that they need to confirm, update or add their contact email address and why? Of the content presented, what confuses users?
+    
+    Participants assumed that if one part of the VA already had an email on file from them (for login, other reminders, etc) then everyone in the VA had that email on file. Yes, participants understood they were being asked to add, confirm or update a contact email address, but they didn't understand why they were being asked to do so because they assumed the VA already had this information.
+    
+    Examples:
+    - "I would assume [contact email address means] emergency 'cause they already have my stuff, so yeah, I would assume emergency contact." - P1
+    - "...Let's say you go do a FOIA or a privacy request and I think the form says, 'do you wish to receive electronic communication from the va?' So you have to put your email address on there. Ok so I've given that email address to the VA..." - P8
+  - |
+    Do users understand their options based on the question, understanding that those options will be different depending on the question?
+    
+    Yes, from an interaction standpoint, participants understood what their options were and how to execute on those options. One or two overlooked the "Skip for now and go on to VA.gov" link because their focus went to the bright blue buttons immediately.
+    
+    Examples:
+    - "I would just add my email address in the contact email address box, and then hit save." - P6
+    - "Confirm or update? So obviously the two choices are pretty, pretty simple, right? Confirm it. That's correct. The email address@email.com or update if I wanted to or if I wanted to actually skip it." - P8
+    - "[If I clicked 'Skip for now'] It'd just take me to va.gov so I can start, but I'm sure it's gonna ask me again at some point. At some point it's going to be that little bug." - P8
+  - |
+    Do users feel that they have the information they need to make a decision? Can users identify and articulate how this information will be used?
+    
+    No, not clearly. But they do understand that if they do not add an email address that they might not get communications from the VA. There was not complete consensus about what kind of communications they might not receive.
+    
+    Examples:
+    - "I'm really not sure [why I'm being asked to add a contact email] because all my information is in there, so I don't know why I would need to add it again when I know it's in there." - P6
+    - "What I'm understanding is [if they don't provide an email] they will get none of their medical notifications… they won't be able to access their notes or maybe even fill prescriptions or diagnose..." - P3
+  - |
+    Can users recognize the consequences of each option?
+    
+    No, not clearly, because they assume the VA already has their email address because they have a VA.gov account. They assume that the VA would default to using what the VA has on file for other purposes. Participants also did not recognize that not providing their email could be an impediment to accessing the site.
+    
+    Examples:
+    - "[If I skipped for now and went on to va.gov] I don't think anything would happen. I mean, they would take me to va.gov now. How would they contact me? By whatever's on file already." - P11
+    - "I'm not sure, [what happens] if you don't update your information… I know that you won't be able to receive anything… any notifications from the VA." - P3
+    - "[If I didn't enter or confirm I'd] probably I would have to go through a whole bunch of security questions and stuff like that." - P11
+    
+    Participants all noticed the bright yellow alert and understood they were seeing it as a consequence of not providing their email information. They knew what it was asking for and that it would not go away until they had done as prompted. Some said they would be annoyed by it.
+    
+    Examples:
+    - "...because to me it's a forward arrow versus a X, right?… I think the only way you eventually get rid of it … is by updating the email, right, because it didn't have one on file, right...So you'd always have that annoying little yellow box sitting there." - P11
+    - "[If I clicked 'Skip for now'] It'd just take me to va.gov so I can start, but I'm sure it's gonna ask me again at some point. At some point it's going to be that little bug." - P8
+  - |
+    Do users understand how to advance?
+    
+    From an interaction standpoint, they all understood how to advance/proceed. Almost all saw all of the options which were available for the different flows. One or two overlooked the "Skip for now and go on to VA.gov" link because their focus went to the bright blue buttons immediately.
+    
+    Examples:
+    - "I would just add my email address in the contact email address box, and then hit save." - P6
+    - "Confirm or update? So obviously the two choices are pretty, pretty simple, right? Confirm it. That's correct. The email address@email.com or update if I wanted to or if I wanted to actually skip it." - P8
+recommendations: []
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  user: "Not explicitly stated in report"
+  business: "Not explicitly stated in report"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: MyHealth (Health Hub)"
+  - "MHV: National Portal/Access"
+  - "DSP: Ask users for email address"
+  - "DSP: Ask users for contact preferences"
+  - "usability-testing"
+  - "evaluative"
+  - "Content"
+  - "DSP: Contextual Help"
 ---
 
 # **Update Email Prompt Study**

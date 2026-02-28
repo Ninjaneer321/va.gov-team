@@ -1,95 +1,136 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "0781 Concept Testing Research Findings"
+product: "Form 526 EZ"
+team: "Disability Benefits Team 2"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-03-27"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Evelyn Hilbrich Davis"
+  - "Qian Chen"
+  - "Ruben Sun"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Form Structure: Validate that the new form flow is clear and intuitive to Veterans."
+  - "Informed Choices, Optionality, and Destructive Actions: Evaluate the clarity and flexibility of decision points to determine if Veterans can make and change their minds with ease."
+  - "Multi-response Pattern: Evaluate the usability of the multi-response pattern."
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Usability testing"
+  - "Concept testing"
+  - "Remote"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 6
+    tablet: 0
+    smartphone: 3
+    assistive_technology: 0
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 1
+    "45-54": 4
+    "55-64": 3
+    "65+": 1
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 0
+    associates: 4
+    bachelors: 0
+    masters: 4
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 9
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 6
+    black: 1
+    hispanic: 0
+    biracial: 1
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 6
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Improvements to the form flow address structural issues identified by previous research."
+  - "Mixed comprehension of 0781 supporting documents complicates overall positive feedback on section placement."
+  - "While the flow felt logical, Veterans would like more advanced notice about upcoming evidence collection."
+  - "Veterans shared that it was easy to make changes throughout the form."
+  - "When it comes to filing a claim with VA, providing information does not feel truly optional."
+  - "Veterans understood the purpose of the 0781 choice page and opted to file online."
+  - "Most destructive action modals were clear and reinforced the informed choice Veterans were making."
+  - "Opting out from review and submit proved to be cumbersome and confusing for some participants."
+  - "Veterans navigated through the multi-response pattern add mode with relative ease."
+  - "When editing, participants struggled to understand the interaction model."
+  - "The checklist-detail interaction model tripped up Veterans as they added and modified content."
+  - "The conditional page with an option for adding an indicator confused all participants filing for MST."
+  - "Certain aspects of the form gave Veterans a greater sense of choice than they had initially realized."
+  - "Half of the participants were confused by content in the Evidence step."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "How might we clarify the connection for Veterans between supporting documents and their claims for mental health conditions?"
+  - "How might we better set expectations for those filing claims for mental health conditions when they'll be able to include evidence in the submission flow — inclusive of medical records and supporting documents?"
+  - "How might we provide more clarity regarding how supporting evidence factors into the disability claim more broadly?"
+  - "How might we better convey what interior pages are included in the multi-response items so users know where there can look for details they want to edit?"
+  - "How might we better help Veterans make a stronger connection between official reports and individual events?"
+  - "How might we better draw a stronger connection between detail pages and checklist groups?"
+  - "How might we better facilitate editing item details and revising checklist selections?"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified in findings report"
+  business: "Not specified in findings report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Clarifying the connection between supporting documents and mental health condition claims"
+  - "Setting expectations about evidence collection timing and requirements"
+  - "Improving the edit interaction model for multi-response patterns"
+  - "Strengthening the connection between checklist selections and detail pages"
+  - "Reducing confusion around the MST indicator conditional page"
+  - "Improving clarity of content in the Evidence step"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Testing with Assistive Technology users"
+  - "Testing with Veterans who identify as LGBTQ+"
+  - "Testing with Veterans who have not previously claimed a mental health condition"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Other than honorable"
+  - "LGBTQ+"
+  - "Latino"
+  - "Native"
+  - "Immigrant origin"
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Form 526 EZ"
+  - "DSC: Modal"
+  - "DSC: Card"
+  - "DSC: Form"
+  - "DSC: Checkbox"
+  - "DSC: Accordion"
+  - "DSP: Ask users for multiple responses"
+  - "DSP: Help users to check answers"
+  - "DSP: Form Templates"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "RESRCH: Remote"
+  - "RESRCH: Usability Testing"
+  - "Evaluative"
+  - "Concept testing"
 ---
 
 # **0781 Concept Testing Research Findings**

@@ -1,102 +1,110 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Dependency Verification Research Findings"
+product: "Dependency Verification"
+team: "VSA, eBenefits Migration"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-09-03"
+researchers: 
+  - "Candy Clark"
+  - "James Adams"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Assess the effectiveness of the intercept modal in prompting users to verify or update their dependents"
+  - "Assess user acceptance of the modal interception method"
+  - "Assess how easily users located the option to add or remove dependents"
+  - "Assess how clear and helpful the text was"
+  - "Assess if the user understood what their next steps were"
 methodology:
-- Method 1
-- Method 2
+  - "Remote moderated usability testing"
+  - "Task-based testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 6
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 6
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 1
+    "65+": 5
+    unknown: 0
+  education: 
+    high_school: 0
+    some_college: 1
+    associates: 0
+    bachelors: 2
+    masters: 3
+    doctorate: 0
+    unknown: 0
+  location: 
+    urban: 4
+    rural: 2
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 0
+    hispanic: 0
+    biracial: 1
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Participants accepted the modal as part of the workflow and understood the options were to say that their list of participants was correct"
+  - "Users did not see the confirmation and alert boxes. This seems to be a combination of auto scrolling to a particular header and viewport size"
+  - "Participants thought the name and relationship was sufficient information to verify dependents on the modal during the task, but when they reached the full /view page, they liked seeing birthdate and last 4 of SSN"
+  - "After clicking 'make changes' on the modal, participants expected the list of participants shown to have an option to remove a dependent in line rather than linking through to another 'Add or Remove Dependent' page"
+  - "There is a potential conflict with the modal that will prevent users from accessing the Verification modal"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Investigate potential impact, cause and fix options for the competition between the dependency verification and SSO modals"
+  - "Investigate anchor link placement to ensure confirmation messages are seen"
+  - "Move forward with in-line verification on view page so that a user can verify dependents if the modal is not seen or dismissed prematurely"
+  - "Move forward with 686 formlet to simplify removal of dependents"
+  - "When communication about this feature is sent to veterans, encourage business to direct veterans to landing page (instead of directly to the view page) to prevent instances of competing modals"
+  - "Work with content on the 686 subway map to reduce load and improve understanding of how to remove dependents"
+  - "Investigate why it is taking the modal so long to display"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
+further_research_needed: []
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "LGBTQ+ Veterans"
+  - "Veterans who use assistive technology"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Notes Matrix"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'MHV: Secure Messaging'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "DSC: Modal"
+  - "DSC: Alert Boxes"
+  - "DSC: Button"
+  - "PRDT: Dependents"
+  - "PRDT: Form 21-686c"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "evaluative"
 ---
+
 # Dependency Verification Research Findings
 **Digital Services Veterans Affairs (DSVA), VSA, eBenefits Migration**<br>
 

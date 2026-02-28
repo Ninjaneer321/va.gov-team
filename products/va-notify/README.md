@@ -10,13 +10,11 @@ To be the core VA notification platform that helps increase utilization and visi
 Provide Veterans with actionable, timely notifications in the manner that is most convenient for them.
 
 # Contact Us!
-Please read the Playbook below to get started if you're interested in onboarding to VA Notify.
+**Slack us** [#va-notify-public](https://dsva.slack.com/archives/C010R6AUPHT)
 
-Find us on DSVA slack in [#va-notify-public](https://dsva.slack.com/archives/C010R6AUPHT)
+**Email us** [VA Notify](oitoctovanotify@va.gov)
 
-Email us at **VA Notify** (oitoctovanotify@va.gov)
-
-Reserve a spot at our **Office Hours** - Tuesdays and Thursdays at 2:30 PM ET (30 minutes each) - contact Ksenia Belikova and/or Evan Parish.
+**Meet us** at our **Office Hours** - Tuesdays and Thursdays at 2:30 PM ET (30 minutes each) - contact Ksenia Belikova and/or Evan Parish.
 Sign-ups close 24 hours before each session. If no one signs up, that slot will be skipped and the next available time can be booked.
 
 Office hours are a chance to:
@@ -29,15 +27,15 @@ Office hours are a chance to:
 # Points of Contact
 **Product**
 - Dave Conlon, VA PO - VA Notify, Platform & Experience
-- Samantha Jennings, Product Manager - Notify Experience Team
-- Ksenia Belikova, Product Manager - Notify Platform Team
+- Samantha Jennings, Experience Team Product Manager
+- Ksenia Belikova, Platform Team Product Manager
 
 
 **Engineering**
-- Evan Parish, Tech Lead - Notify Platform Team
-- Nathan Wright, Tech Lead - Notify Experience Team
+- Nathan Wright, Experience Team Tech Lead
+- Evan Parish, Platform Team Tech Lead
 
-# Playbook
+# Overview
 
 ## Who we are
 VA Notify is a notifications platform dedicated to improving the Veteran’s notification experience by providing actionable, unified communications on the VA services they utilize. Our notification service is available to any business line/team inside the VA or with an ATO.
@@ -47,7 +45,6 @@ VA Notify is designed to be a passthrough system. We do not store Veteran inform
 VA Notify is located within the VAEC. We provide a REST OpenAPI, which your system can call each time a notification is needed. We also provide a self-service web application, which is behind the network (PIV or GFE required) so you can directly create and maintain your notification templates. Aggregated message metrics are provided. Google Analytics (UTM trackers) can and should be used for all message links that point to va.gov, so clicks can be captured. 
 
 ## What we aren’t
-
 VA Notify does not…
 - Pull data to trigger notification events
 - Provide notification scheduling services, though we may throttle or queue notifications based on volume concerns
@@ -62,12 +59,8 @@ Read our [VA Standard Operating Procedures for SMS](https://github.com/departmen
 ## Onboarding to VA Notify
 Welcome! Please submit an [intake form](https://github.com/department-of-Veterans-affairs/va.gov-team/issues/new?assignees=davidconlon%2C+GitSamJennings%2C+kbelikova-oddball&labels=vanotify-intake&template=VANotify-Business-Intake.md&title=Business+intake+form+for+%5BBusiness+or+team%5D) to kick off the process. This lets us know a little bit more about you and what you’re trying to accomplish to ensure VA Notify is a good fit. From there we may schedule a kick-off meeting to learn more and guide you through next steps.
 
-## Getting access to our Self Service Portals
-The VA Notify self service portal empowers your team to create and manage notification templates, while also providing helpful documentation and tips for your notification journey.
-
-We provide Staging and Production access. Staging should be used for testing purposes and can be connected to one or more of your lower environments (e.g. dev and qa). Once you feel everything is working as expected, you can push the content into Production. We will provision your user and provide an API key per environment via an encrypted VA email to one of your technical team members. We may provide initial access via our Test Service on Staging depending where you’re at in the process.
-
-Please note: to access a lower environment with PIV, i.e. Staging, your user must be provisioned with a SecID in the [IAM system](https://dvagov.sharepoint.com/sites/OITEPMOIAM/playbooks/Pages/ssoi/SSOi%20Setup.aspx) within the appropriate environment. VA Notify Staging is integrated with the SQA IAM environment. Every user automatically gets provisioned in Production, so no extra step is needed there. You can request this yourself or ask VA Notify to help!
+## Accessing VA Notify self-service Portal
+The VA Notify self-service portal empowers your team to create and manage notification templates, while also providing helpful documentation and tips for your notification journey. You will need to be on the network, i.e. GFE or Citrix. 
 
 **How do I sign in to staging?**
 1. Go to https://staging.notifications.va.gov while connected to the VA Network

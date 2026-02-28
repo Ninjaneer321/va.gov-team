@@ -3,6 +3,7 @@
 Accredited Representative Portal (ARP)
 
 November 2025
+Researcher: Heather Roy
 
 
 ### **Background**
@@ -32,15 +33,17 @@ Objective 1: VA’s digital experiences are the easiest and most efficient way t
 
 1. Thoroughly understand the entire claimant lifecycle, from initial contact to completion, specifically as it is experienced by accredited representatives such as VSOs, attorneys, and claims agents.
 
+   1a. Specifically focus on gathering more information of the post submission process for accredited representatives and what all that includes for their work with a    claimant. 
 2. Understand the day-to-day processes used by accredited representatives to manage their caseload work across multiple clients with numerous claims and appeals at various stages of the claims process.
-
 3. Investigate accredited representatives' current workflows, including VA and third-party tools they use, data needs, pain points, and notification/status needs, to identify opportunities for improvement.
+
 
 ***Outcome***
 
 
 
 * Gaining insights into accredited representatives workflows, needs, and pain points will help the team better understand where features can be improved, data to make available, and/or supporting those processes previously unknown by the Accredited Representative Crew.
+* Better understand the steps post submission and what an accredited representative may need, want, and/or pain points they experience during this phase of the claim lifecycle. 
 * Enhance the Accredited Representative Crew’s knowledge of the accredited representative user type. This may lead to a more nuanced understanding based on the specific characteristics of Veterans Service Organizations (VSOs), cross accredited VSOs, attorneys, and claims agents.
 * These insights, in their entirety, have the potential to influence the information architecture and claimant details functionality of ARP in subsequent iterations.
 * The information collected in this study will inform future work, in particular, creating a claim lifecycle diagram that captures a typical representative's workday.
@@ -49,7 +52,7 @@ Objective 1: VA’s digital experiences are the easiest and most efficient way t
 
 
 
-1. What is the complete claimant lifecycle from the viewpoint of accredited representatives, including their use of both VA and third-party tools to help Veterans and their dependents with claims and appeals?
+1. What is the complete claimant lifecycle from the viewpoint of accredited representatives, including their use of both VA and third-party tools to help Veterans and their dependents with claims and appeals?  In particular, what steps are involved in the post submission phase of a claim lifecycle and what are the needs and wants of representatives at this time?
 2. How do accredited representatives navigate the day-to-day triage of multiple clients claims/appeals at varying stages of the claim lifecycle? What factors influence how they decide what to work on next?
 3. How do accredited representatives manage their caseloads across multiple clients and lifecycle stages? In what ways, if any, does cross accreditation for representatives change how they manage their caseloads and clients?
 4. What pain points do accredited representatives experience in their workflow processes?

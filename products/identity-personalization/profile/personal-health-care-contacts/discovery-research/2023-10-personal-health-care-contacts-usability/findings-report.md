@@ -1,102 +1,126 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Personal Health Care Contacts Research Findings"
+product: "VA.gov Profile - Personal Health Care Contacts"
+team: "VA.gov Cartographers"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-12-08"
+researchers: 
+  - "Jonathan Nelson"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Assess users' understanding, reactions, and expectations to the proposed Emergency contact and Next of kin feature within the VA.gov Profile"
+  - "Evaluate how easily users are able to find this information"
+  - "Evaluate if the proposed designs are understandable and useful across participant types (sighted and low/no vision) and screen sizes (mobile and desktop)"
 methodology:
-- Method 1
-- Method 2
+  - "Remote usability testing"
+  - "Semi-structured interviews"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 3
+    tablet: 1
+    smartphone: 2
+    assistive_technology: 3
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 1
+    "35-44": 1
+    "45-54": 4
+    "55-64": 0
+    "65+": 3
+    unknown: 0
+  education: 
+    high_school: 0
+    some_college: 1
+    associates: 2
+    bachelors: 4
+    masters: 2
+    doctorate: 0
+    unknown: 0
+  location: 
+    urban: 6
+    rural: 3
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 8
+    black: 1
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 5
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 2
+    screen_reader_mobile: 1
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Participants expected that they would need to sign in to VA.gov to review Medical emergency contact and Next of kin information, and most participants (6 of 9) looked within their profile."
+  - "Once on the Profile, the majority of participants were able to navigate to the Personal health care contacts section of the Profile with relative ease."
+  - "Most participants (7 of 9) understood the concept of Medical emergency contact. \"Medical\" in Medical emergency contact caused confusion with 2 participants. All participants understood the term Emergency contact."
+  - "Most participants (6 of 9) associated Next of kin with family and initially did not differentiate between Medical emergency contact and Next of kin contact."
+  - "Participants wanted a way to edit both Medical emergency contact and Next of kin contact information on the Personal health care contacts page."
+  - "6 of 8 participants found the information about how to update their Personal health care contacts and understood the process."
+  - "9 of 9 participants wanted at least two Medical emergency contacts and most participants (7 of 9) wanted multiple Next of kin contacts listed."
+  - "Participants considered \"name\" and \"phone number(s)\" as crucial information within both the Medical emergency contact and Next of kin contact sections."
+  - "Participants clearly understood that both the Medical Emergency contact and Next of kin contact were specifically associated with health care."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - |
+    Place Personal health care contacts within VA.gov Profile (Supported by findings 1 and 2)
+    - Participants (6 of 9) looked within their Profile for their Emergency contact and Next of kin information.
+  - |
+    Keep the dedicated Personal health care contacts section of Profile for the Emergency contact and Next of kin information (Supported by finding 1 and 2)
+    - 6 of 7 participants went to the Personal health care contacts to view their emergency contact and next of kin information
+  - |
+    Remove "Medical" from Medical emergency contact (Supported by finding 3)
+    - A couple participants thought Medical emergency contact was similar to 911. All participants understood the concept of Emergency contact
+  - |
+    Enable edit functionality (Supported by finding 5)
+    - All 9 participants wanted functionality to edit and add contacts on the page.
+  - |
+    Allow users to add multiple Emergency and Next of kin contacts (Supported by finding 7)
+    - 9 of 9 participants wanted at least two (a primary and secondary) Medical emergency contacts and most participants (7 of 9) wanted two Next of kin contacts listed.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Expats"
+  - "Members of the LGBTQ+ community"
+  - "Black/African American, Hispanic, Biracial, Asian, Native"
+  - "People who use Speech Input Technology (Siri, Dragon)"
+  - "People who use Hearing Aids"
+  - "People who use Sighted Keyboard"
+  - "People who use Captions"
+  - "People who use Switch Devices"
+  - "People who use Braille Readers"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: My VA'
-- 'MHV: Personal Health Records/Medical Records'
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Profile"
+  - "MHV: Personal Health Records/Medical Records"
+  - "usability-testing"
+  - "remote-research"
+  - "Accessibility"
+  - "DSP: Ask users for contact preferences"
+  - "DSP: Ask users for phone numbers"
+  - "evaluative"
 ---
+
 # Personal Health Care Contacts Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), VA.gov Cartographers**

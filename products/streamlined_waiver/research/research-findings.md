@@ -1,106 +1,130 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Streamlined Waiver (Transparency) Research Findings"
+product: "Streamlined Waiver"
+team: "Debt Resolution Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-08-17"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Charlotte Cesana"
+  - "Megan Gayle"
+  - "Joseph Lee"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Evaluate the usability of the Streamlined Waiver experience — minimize confusion with a skipped question transition page"
+  - "Evaluate the comprehension of the Streamlined Waiver experience and the new copy additions to the FSR/Streamlined Waiver pages — clarity, and define expectations early to minimize cognitive burden"
+  - "Evaluate Veterans trust, and subjective experience of FSR/Streamlined Waiver — has it changed?"
 methodology:
-- Method 1
-- Method 2
+  - "Semi-structured interviews"
+  - "Usability testing"
+  - "Concept testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 3
+  tablet: 1
+  smartphone: 5
+  assistive_technology: 0
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 3
+    "35-44": 0
+    "45-54": 1
+    "55-64": 5
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 3
+    associates: 1
+    bachelors: 1
+    masters: 3
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 5
+    rural: 2
+    unknown: 2
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 2
+    black: 5
+    hispanic: 2
+    biracial: 0
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 4
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 4
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "This Streamlined Waiver had a more positive reception than the Full FSR and was described as \"easy\" and \"straightforward\"."
+  - "Overall Comprehension: Most understood the purpose of the form."
+  - "Split reception on the condensed intro page versus the full intro page copy. In comparing a lean version with the full version of the intro, preference was equally split."
+  - "The cash on hand question was easily understood by all participants."
+  - |
+    Transition page clarity: Most did not understand the purpose of this page, we recommend removing the content related to "next steps."
+  - "Confirmation page and trust: Immediate waiver decision was welcome and surprising. Some commented that the language was ambiguous."
 recommendations:
-- Recommendation 1
-- Recommendation 2
+  - |
+    Intro page: Remove or move alert box so that it does not hide important introduction page content that the user needs to see to prepare to fill out the form. We hypothesize that if users are able to see the intro page content, they will be better prepared to fill out the form.
+  - |
+    Transition page: Remove "Next steps" content
+  - "Wording and visual language on the confirmation page should be more clear and succinct."
+  - "Send any important information to Veterans via email. As noted by P6, this is important as not all Veterans have stable housing and may miss information sent in the mail."
 kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Usage of digital, self-service tools"
+  - "Percent of applications submitted online (vs. paper)"
+  - "Completion rate of online transactions"
+  - "Veteran satisfaction with VA.gov"
+  - "Number of VA.gov users as a function of total Veteran population"
+  - "Benefit value (in $) delivered from online applications or transactions"
+  - "Call center volume, wait time, and time to resolution (decrease)"
+  - "Time to successfully complete and submit online transactions (decrease)"
+  - "Time to process online applications vs. paper (decrease)"
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Veterans can manage their health services online and find a single, authoritative source of information"
+  business: "Logged-in users have a personalized experience, with relevant and time-saving features"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Veterans with unstable housing may miss information sent by mail — email communication is needed"
+  - "Veterans may need clarity on whether they must submit a new form each time they incur additional debt"
 further_research_needed:
-- Area 1
-- Area 2
+  - "Accessibility study to test with Veterans that use screen readers"
+  - "Stakeholders should consider the needs of Veterans with cognitive considerations when designing the form"
 underserved_groups_missing:
-- Group 1
-- Group 2
+  - "Biracial"
+  - "Native"
+  - "Other than honorable"
+  - "Immigrant origin"
+  - "Transgender"
+  - "Users of screenreaders"
 secondary_research:
-- Web analytics
-- SME interviews
+  - "Enhanced FSR Research Study (06/2023)"
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Note taking spreadsheet (Google Sheets)"
+  - "Mural (Note taking/Debrief/Synthesis)"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Housing'
-- 'PRDT: Caregivers'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Finances"
+  - "PRDT: Debt-portal"
+  - "DSC: Alert Boxes"
+  - "DSP: Help users to check answers"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "evaluative"
+  - "concept-testing"
 ---
+
 # Streamlined Waiver (Transparency) Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Streamlined Waiver, Debt Resolution Team**

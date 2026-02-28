@@ -1,95 +1,107 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "IRIS Discovery Phase Research Findings"
+product: "IRIS (Inquiry Routing & Information System)"
+team: "ThoughtWorks"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2020-08-10"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Rachel M. Murray"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand how Veterans use IRIS - the Ask a Question and FAQ pages in particular"
+  - "Identify what a preferred redesigned experience might look like"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 7
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 7
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 7
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 7
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
-recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - |
+    The Ask a Query experience was functional for some participants, but others felt frustrated by the design of the form and how they interacted with the content in it. Several participants felt that their experience with the form was cumbersome and antiquated. It was not aligned with the rest of the VA.gov (the redesigned design system) nor their expectations for a modern digital experience.
+    - For some Veterans, the instinct will always be to pick up the phone to call rather than use the form. "[On using the form] I didn't even think to do that, honestly" - P4. "My neighbor (another Vet) won't do anything online, he yells at me for help, widower, kids are all out of state, so he's trying to figure out on his own."
+    - For a few, the other parts of the VA.gov experience were the gold standard of what digital communications should be. "My MHV has everything about when you submit, they can go back and contact you" - P1.
+    - The drop down menus for topics appeared to be the main source of problems, so revisiting them is essential for improving the user experience. Not successfully finding what they're looking for - "the dropdown values did not match what I was looking for" - P1. "I don't remember what I put in there. I think I just picked one. I couldn't really find a subject that was quite suitable" - P7. "My issue was a technical problem, and I've got dropdown within a dropdown, and it's horrible" - P9.
+    - Getting confirmation and a reference number would make the process more transparent especially when getting a response can be delayed because of COVID-19. "Confirmation via email, reference, that would be very valuable, that my message was received, and reference number if I need to call later for action" - P4.
+  - |
+    Veterans often struggled with finding content in the FAQs which made them hesitant to use it. Many participants were willing to use the FAQs as a first attempt to answer their questions, but they were often unsuccessful at finding what they wanted to find.
+    - The time commitment for digging through the content felt like a lot of effort without a clear guarantee of a positive result. "I've gone through the FAQs before but sometimes it's easier to ask a specific question" - P3. "I just typed compensation in again, and most of the suggested searches aren't related. The first two seem related, but then the other ones don't. Making sure that those keywords are similar."
+    - Finding the FAQs was a challenge for some participants. "Are they hidden under my zoom? In my world of tech, FAQ should show. I don't see it. Is it under About VA? There are Coronavirus FAQs..."
+  - |
+    The Veterans helping Veterans experience should be a consideration for our work. Whatever we build with IRIS, we should also think holistically about how an online experience can replicate the best parts of how Vets help one another with knowledge transfer in the offline world.
+    - Veterans will actively support one another, acting as domain subject matter experts and knowledge sherpa, and in some cases people will investigate alternative ways to resolve outside of the VA site. "I was trying to help one of my friends figure out a veteran benefits, as far as accessibility, and what needed to happen in order for someone to have access to VA benefits post-service."
+    - The personalized human touch matters in feeling like the right information is available - so the VSO and having a trusted source matters. "I have friends who have helped me, I would go to them than instead of coming to a website" - P1. "I have a ton of caregiver and veteran facebook groups I'm a part of, and a reddit page or two, a subreddit that I follow. Because it's interactive you get people sharing their own experience." "I only go to VA if its 100% necessary that I have contact with a doc, otherwise I usually go to VSO" - P3.
+  - |
+    Additional findings: Participants identified future functionality for consideration post first release, including texting with medical facilities or online chat, and integration of tools like DocuSign for document signing.
+recommendations: []
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "How might alternative ways of navigating the form reduce usability challenges especially for Vets where accessibility is a challenge?"
+  - "How might improving the FAQs help users browse and access the right information without frustration?"
+  - "How might we replicate the warm, high touch caring in person experience Veterans have with one another in the online experience of IRIS?"
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "PRDT: Contact us"
+  - "BNFT: Healthcare"
+  - "DSC: Form - Select"
+  - "DSC: Accordions"
+  - "DSP: Ask users for feedback"
+  - "DSP: Contextual Help"
+  - "discovery"
+  - "semi-structured-interviews"
 ---
 
 # IRIS Research Report for Discovery

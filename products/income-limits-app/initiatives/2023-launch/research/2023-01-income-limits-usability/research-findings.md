@@ -1,105 +1,114 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Income Limits App Usability Testing"
+product: "Income Limits application (VA health care income limits look-up tool)"
+team: "Sitewide Public Websites"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-05-25"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Cindy Merrill"
 research_goals:
-- Goal 1
-- Goal 2
+  - "get user feedback on the newly designed income limits application"
 methodology:
-- Method 1
-- Method 2
+  - "remote moderated usability testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 2
+  tablet: 0
+  smartphone: 6
+  assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  family_members: 1
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 1
+    "35-44": 2
+    "45-54": 1
+    "55-64": 2
+    "65+": 2
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 2
+    associates: 2
+    bachelors: 0
+    masters: 4
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 7
+    rural: 1
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 8
+    black: 0
+    hispanic: 1
+    biracial: 1
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 4
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "All participants understood the purpose of the app and found it easy to use."
+  - "Participants missed that the app results are not the final answer."
+  - "Participants didn't know about deductions from income."
+  - "Participants had some confusion with terminology used in the questions, especially the word \"dependents\"."
+  - "Participants had difficulty understanding the benefit descriptions for the income ranges."
+  - "There were a few navigation issues within the app."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Clarify and sequence the two calls to action on the results page by focusing first on selecting an income range, and second on applying for VA health care."
+  - "Because Veteran participants didn't realize that they could deduct expenses from their income and didn't open **_How to estimate your income for this tool_** on the results page, **remove the additional info component** and replace it with an in-line explanation of deductions."
+  - "Consider making the *Review the information you entered* link into a breadcrumb at the top of the page where it won't separate the instructions and the CTA to select your income range."
+  - "If someone navigates from the _Review Info_ page to another page, the **_Continue_ button should take you back to the _Review Info_ page** instead of to the next question (which was intended as the normal forward progression)."
+  - "If we want the **_Get past income limits_ link to be easier to find**, consider moving it up higher on the results page, or possibly add a year selector to the app flow right before asking any questions."
+  - "Clarify the meaning of \"dependents\" in the question per income taxes or VA rules, and add details to the question so people will know how to answer."
+  - "Delete the text \"from VBA\" in the pension question because it's confusing."
+  - "Add more description to the \"Aid and Attendance\" and \"Housebound allowance\" questions and/or provide links to details because some Veterans don't know what they mean and want to understand before answering."
+  - "Because Veteran participants didn't realize that they could deduct expenses from their income, try to more explicitly incorporate the word/concept of \"deductions\" into the text on the results page."
+  - "Add more description to the benefits and/or provide links to details for \"VA health care\", \"most types of care\", \"copays\", and \"full copays\"."
+  - "Consider making the bullets for each benefit more consistent so it's easier to compare them across income thresholds (which all participants tried to do):"
+  - "Clarify and differentiate the eligibility factors of disability rating, service history, and income limits better in the first paragraph on the intro page because it's confusing as is."
+  - "To inform Veterans about the minimal amount of time and effort needed to use this app, consider adding some content to the intro page about it being quick, and that you only need to answer a few questions."
+  - "To support Veterans' exploration of VA health care, consider adding to the intro page some friendly encouragement to invite them to use this tool to find out if they're eligible for VA health care."
+  - "To make it easier to find information on income limits, consider restructuring the content on the Your health care costs page."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
+  - "None at this time"
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Identify as Black, Asian, Native, or Transgender"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Users of Assistive Technology"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Synthesis spreadsheet"
+  - "Mural board"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Pension'
-- 'BNFT: Records'
-- 'PRDT: Caregivers'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- usability-testing
-- remote-research
+  - "AUD: Veterans"
+  - "AUD: Family Member"
+  - "BNFT: Healthcare"
+  - "BNFT: Finances"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "remote-research"
 ---
 # Income Limits App Usability Testing -- Research Findings 
 

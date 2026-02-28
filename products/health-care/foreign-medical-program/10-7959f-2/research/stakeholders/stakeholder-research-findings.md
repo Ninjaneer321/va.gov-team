@@ -1,98 +1,129 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Foreign Medical Program (FMP) Stakeholder Research Findings"
+product: "Foreign Medical Program (FMP) - Form 10-7959f-2"
+team: "Not specified"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "Not specified"
+researchers: 
+  - "Not specified"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Not specified in report"
 methodology:
-- Method 1
-- Method 2
+  - "Semi-structured interviews"
+  - "Stakeholder interviews"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 4
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 4
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 4
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 4
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 4
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 4
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Finding 1: Documents often come in by mail but can be sent by email (especially from the Philippines), fax, and AskVA."
+  - "Finding 2: The lack of electronic funds transfers (EFTs) is a significant pain point."
+  - "Finding 3: Automation and digitization would significantly decrease processing time and errors."
+  - "Finding 4: The VA already has all the information a Veteran needs to complete an application - it's just located in disparate systems that don't talk to each other."
+  - "Finding 5: Stakeholders want more transparency around the program, both in terms of awareness and decision-making."
+  - "Finding 6: Stakeholders are concerned about fraud, particularly from providers."
+  - "Finding 7: The current paper form is designed to be used by Veterans. However, many service providers submit the form on behalf of the Veteran."
+  - "Finding 8: Lack of clarity around program eligibility and required claims information is causing a high number of unnecessary denials and slower processing time."
+  - "Finding 9: Processing delays and frustration occurs when a provider or Veteran submits several claims under one cover sheet."
+  - "Finding 10: There are several providers who repeatedly show up in submitted forms."
 recommendations:
-- Recommendation 1
-- Recommendation 2
+  - "Publicize and redirect to the digitized registration form. This may reduce the volume of emails and decrease processing time and burden."
+  - "Consider exploring existing automation for translation through VA.gov services and how that can be used through both the registration and claims form to avoid this situation entirely."
+  - "Continue to research existing products or services through our collaborations at OCTO to help facilitate better communication and outreach. VA Notify is still an excellent example of how we may be able to improve this process."
+  - "Keep moving forward with exploring options and building solutions that allow the programs to communicate with applicants at different points in the process in an automated or self-service manner."
+  - "Continue collaborating with the stakeholders on their vision and execution to enable EFT capabilities. Look for opportunities where the form digitization effort or service insights can help as we learn more about this effort."
+  - "To reduce error rates and processing time, look for more opportunities to eliminate or work around swivel chair interactions (processes that require manual input from one system to another) or paper-based processes."
+  - "One example of the type of potential opportunities we are looking for results from the character limits for VISTA. In the future, we recommend that the information we push from the form to PEGA be translated and formatted appropriately for downstream systems."
+  - "In the future, consider how we can assist in the effort to auto-enroll Veterans in the FMP and eliminate the need for the registration form."
+  - "An example of how this could work moving forward is by identifying the plans for systems in development now, and in the future. In addition, identifying the gaps in functionality or integration of systems to help inform the prioritization and design of features."
+  - "Consider adding the Veteran's email to the form and emailing Veterans when their registration has been added or claim has been processed."
+  - "Both the business and design teams should look for opportunities to limit the risk of fraud, especially when expanding into the digital space where exposure is likely to grow."
+  - "Carefully consider the sign-in and authentication process on VA.gov and what information we need to gather to determine who is submitting the claims, the frequency, and other commonalities."
+  - "Continue exploring what types of guards and alerts can be integrated into the digital claims form to mitigate the potential for fraud. The capability to do this through analytics will be greatly enhanced as we move to digital."
+  - "Continue exploring how we can best prioritize the Veteran experience when using the digital form."
+  - "Consider what analytics need to be in place in order to inform continued discussion about provider interactions with the program, and other opportunities for improvements."
+  - "Carefully consider the 'Statement of Truth' as it applies to who submits the form."
+  - "Consider adding additional context to the content around the information that is relevant to the claims process and eligibility."
+  - "Provide clear examples of what information is necessary and not necessary to the claims process."
+  - "Explore further with stakeholders exactly what information is required to process the claim and present that to the user in a more structured fashion to help mitigate denials."
+  - "Consider allowing Veterans to submit multiple claims within the same working session to reduce burden for the beneficiary."
+  - "Consider leveraging backend engineering and systems to help deliver data and documents in a manner that can ease workflow with processing multiple claims and cover sheets."
+  - "When the portal goes live in the future, consider making it easier for Veterans to submit multiple claims for the same providers over multiple service dates."
+  - "Continue to consider potential technical solutions as new capabilities emerge."
 kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Reduce claims adjudication time from 125 days to 45-day target"
+  - "Increase claims processing to 90% within 45 days"
+  - "Maintain application processing at 90% within 30 days"
+  - "Eliminate processing backlog by end of fiscal year"
+  - "Reduce error rates in form processing"
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Healthcare'
-- 'MHV: Pharmacy'
+  - "AUD: VA Staff"
+  - "AUD: Veterans"
+  - "AUD: Internal VA Stakeholders"
+  - "BNFT: Healthcare"
+  - "DSC: Form"
+  - "PRDT: Claim-status-tool"
+  - "semi-structured-interviews"
+  - "stakeholder-research"
+  - "discovery"
+  - "evaluative"
 ---
+
 # **Foreign Medical Program (FMP) Stakeholder Research Findings**
 
 

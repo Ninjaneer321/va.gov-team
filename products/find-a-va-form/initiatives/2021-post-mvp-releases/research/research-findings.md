@@ -1,102 +1,125 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Find a Form PDF Downloading Usability Research Findings"
+product: "Find a VA form"
+team: "Decision Tools"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-08-10"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Cindy Merrill"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Better understand how Veterans download VA forms that are fillable PDFs and what challenges they encounter"
+  - "Get feedback on designs for advising users to download a PDF form and then open it with Adobe Acrobat Reader, rather than trying to fill it out in a web browser"
+  - "Assess the performance of three different design options for providing download instructions"
 methodology:
-- Method 1
-- Method 2
+  - "remote moderated usability testing"
+  - "comparative design evaluation"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 9
+  tablet: 2
+  smartphone: 1
+  assistive_technology: 4
+participants_total: 11
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  family_members: 1
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 1
+    "35-44": 2
+    "45-54": 1
+    "55-64": 6
+    "65+": 1
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 1
+    associates: 1
+    bachelors: 4
+    masters: 3
+    doctorate: 0
+    unknown: 1
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 9
+    rural: 2
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 9
+    black: 2
+    hispanic: 0
+    biracial: 1
+    asian: 0
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 3
+    AT_beginner: 0
+    AT_advanced: 1
+    AT_intermediate: 3
+    screen_reader_desktop: 3
+    screen_reader_mobile: 1
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Most participants (9 of 11) completely ignored the instructions--no matter which of the 3 designs they saw on the Find a Form search results page. Therefore, assessing the designs by which resulted in more downloads/opens of the instructions isn't useful."
+  - "Many participants (8 of 11) clicked on the form name to open the form detail page, and from there clicked the Download VA form link. This means that they may not have paid attention to the instructions on the search results page."
+  - "For most participants (9 of 11), the Download VA form link opened forms in a web browser instead of Adobe Acrobat. When displayed in the web browser, the forms couldn't be filled out, saved, or digitally signed."
+  - "Most participants (9 of 11) were unable to fill out and digitally sign any of 4 specific forms without a lot of help from the moderator and notetakers, and many participants were unable to succeed even with all the help provided."
+  - "The 3 participants who were using iOS mobile devices were unable to fill out the PDF forms because they require a version of Adobe Acrobat only available on Windows or MacOS."
+  - "Three of the 5 Apple users were surprised and annoyed when they heard that you have to use Adobe Acrobat, which is generally not used on Apple platforms."
+  - "One of the screen reader users couldn't access the digital signature field because JAWS didn't read it. There seemed to be no label on the signature field to indicate what it is and how to interact with it."
+  - "There were other issues with the form fields that made them difficult to fill out using a screen reader because of missing field labels, incorrect tab order, and multiple input fields under one label."
+  - "Find a Form search results were hard to scan because there was no heading for each one, and so screen reader users had to tab down about 6 lines through each search result before they could see the next one."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Encourage VA form owners to replace every fillable PDF VA form with a more accessible format. Best would be HTML/web forms because they can be accessible across devices, browsers, platforms, and assistive technologies, and they would reduce user frustration."
+  - "Since fillable PDF forms will continue to exist at least in the near term, add instructions above each download link--even though most people won't read them because a few might. If we want more people to read the instructions, we'll need to rethink the design, content, and placement."
+  - "Add the instructions to the form detail pages (as currently planned), in addition to the form search results page where we tested. Consider also adding that you must be on a computer to fill out the form."
+  - "Consider adding detailed platform-specific instructions (e.g., mobile/desktop, Windows/Mac, Chrome/Edge/Safari/Firefox) to the R&S article that cover ALL of the specific steps that may be required to successfully download and open the form in Adobe Acrobat."
+  - "We need to be clear that mobile devices CANNOT be used to fill out the forms online and provide alternate instructions (i.e., use a computer with Adobe Acrobat Reader to fill out the form, or print out a blank PDF form and fill it out on paper)."
+  - "When crafting instructions, be aware some users (especially Mac users) may be unfamiliar with Adobe Acrobat or reluctant to use it."
+  - "In the R&S article, copy the 'Get Acrobat Reader for free from Adobe' link to just below the numbered steps (so it's easy to see after reading the steps)."
+  - "On the Find a Form search results page, add an H3 heading above each search result to enable easy scanning down the list of search results while using a screen reader."
+  - "Encourage VA form owners to fix the accessibility problems encountered in these forms."
+  - "All digital signature fields need a label (e.g., 'signature button') or some indication of how to find it and what to do."
+  - "Every fillable field needs its own label."
+  - "In forms 20-0995 and 10-2850c, the tab order of fields should follow the visual layout and logical organization of the forms."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: [] 
+further_research_needed: []
 underserved_groups_missing:
-- Group 1
-- Group 2
+  - "Identify as Hispanic, Asian, or LGBTQ+"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Users of Assistive Technology other than screen readers"
 secondary_research:
-- Web analytics
-- SME interviews
+  - "Web analytics"
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
+  - "Synthesis spreadsheet"
+  - "Quantitative analysis with analytics data"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Find-a-va-form'
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "AUD: Family Member"
+  - "PRDT: Find-a-va-form"
+  - "DSC: Alert Boxes"
+  - "DSP: Ask users for signature"
+  - "HDW: Desktop"
+  - "HDW: Tablet"
+  - "HDW: Smartphone"
+  - "Accessibility"
+  - "usability-testing"
+  - "remote-research"
+  - "moderated-research"
 ---
+
 # Find a Form PDF Downloading Usability Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE) and VSA, Find a Form, Decision Tools**

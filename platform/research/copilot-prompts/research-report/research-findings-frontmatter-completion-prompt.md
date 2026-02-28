@@ -2,7 +2,7 @@
 # Prompt File Metadata
 title: "GitHub Copilot Prompt: Complete Research Findings Frontmatter with Metadata"
 date: 2026-01-13
-last_updated: 2026-02-11
+last_updated: 2026-02-26
 prompt_type: "research-reporting"
 category: "Research Report & Synthesis"
 purpose: "Helps researchers complete the YAML frontmatter section of research findings reports using GitHub Copilot"
@@ -27,19 +27,19 @@ related_files:
     url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/sharing-research/research-findings-template.md"
     description: "The research findings template this prompt helps complete"
   - file: "labels.yml"
-    url: "https://github.com/department-of-veterans-affairs/va.gov-research-repository/blob/master/. github/labels.yml"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-research-repository/blob/master/.github/labels.yml"
     description: "Source of truth for research repository tags"
   - file: "research-plan-frontmatter-prompt.md"
     url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-discovery/research-plan-frontmatter-prompt.md"
     description: "Related prompt for research plan frontmatter"
   - file: "conversation-guide-frontmatter-prompt.md"
-    url: "https://github.com/department-of-veterans-affairs/va. gov-team/blob/master/platform/research/copilot-prompts/research-planning/conversation-guide-frontmatter-prompt.md"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/conversation-guide-frontmatter-prompt.md"
     description: "Related prompt for conversation guide frontmatter"
   - file: "add-metadata-labels-to-findings-prompt.md"
     url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md"
     description: "Related prompt for adding metadata labels to individual key findings"
   - file: "README.md"
-    url: "https://github.com/department-of-veterans-affairs/va. gov-team/blob/master/platform/research/copilot-prompts/README.md"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/README.md"
     description: "Overview of all research Copilot prompts"
 
 # Prompt Characteristics
@@ -52,7 +52,7 @@ ai_capabilities_required:
   - "Demographic data parsing"
 
 # Maintenance
-version: "2.0"
+version: "2.1"
 status: "active"
 maintainer: "Platform Research Operations"
 
@@ -182,10 +182,13 @@ I need help completing the YAML frontmatter section at the top of my research fi
    - DO NOT infer device counts from participant recruitment criteria
    - If devices are not specified, mark all counts as 0
 
-6. **DO NOT summarize or paraphrase key findings**
+6. **DO NOT summarize, paraphrase, or split key findings and recommendations**
    - Use exact wording from the findings report for each entry in the key_findings array
    - DO NOT combine multiple findings into one for brevity
    - DO NOT rewrite findings to be shorter or more concise unless they exceed reasonable length
+   - **CRITICAL: If a finding or recommendation has subpoints (bullets, numbered lists, or multi-paragraph structure), preserve it as a SINGLE entry with all subpoints intact**
+   - **DO NOT separate findings/recommendations with subpoints into multiple array entries**
+   - **Keep the complete structure including the heading and all subpoints as one string**
    - Preserve the researcher's original language and intent
 
 7. **DO NOT fabricate synthesis tools or methods**
@@ -224,6 +227,57 @@ I need help completing the YAML frontmatter section at the top of my research fi
     - DO NOT infer AT types from research goals about accessibility
     - If specific AT types are not detailed, mark as 0 or note in the disability section with a general count
 
+13. **LIMIT TAGS TO THE 10 MOST RELEVANT**
+    - Select ONLY the 10 most critical and relevant tags from the taxonomy
+    - Prioritize tags in this order:
+      1. Primary audience(s) - who participated (1-2 tags)
+      2. Primary benefit/product area - what was studied (1-2 tags)
+      3. Specific product(s) tested (1-2 tags)
+      4. Key methodology or research type (1-2 tags)
+      5. Most significant findings themes (2-4 tags)
+    - DO NOT include every possible tag that might apply
+    - Focus on tags that would be most useful for searchability and categorization
+    - If accessibility was a major focus with specific findings, include accessibility tags
+    - Explain in your rationale why you selected these 10 over others
+
+14. **PROPERLY ESCAPE QUOTES IN YAML STRINGS**
+    - When a finding or recommendation contains quotation marks (e.g., participant quotes, phrases in quotes, or apostrophes), you MUST properly escape them for YAML
+    - Use ONE of these three methods:
+      
+      **Method 1: Use literal block scalar (|) for multi-line or complex strings with quotes**
+      ```yaml
+      key_findings:
+        - |
+          Veterans said "I don't trust entering my bank info online" when asked about security concerns
+      ```
+      
+      **Method 2: Escape double quotes with backslash when using double-quoted strings**
+      ```yaml
+      key_findings:
+        - "Veterans said \"I don't trust entering my bank info online\" when asked about security concerns"
+      ```
+      
+      **Method 3: Use single quotes and double any internal single quotes**
+      ```yaml
+      key_findings:
+        - 'Veterans said "I don''t trust entering my bank info online" when asked about security concerns'
+      ```
+    
+    - **CRITICAL: Choose the appropriate method based on the content:**
+      - Use **Method 1 (literal block scalar |)** for findings/recommendations with multiple quotes, subpoints, or complex formatting
+      - Use **Method 2 (escaped double quotes)** for simple single-line strings with quotes
+      - Use **Method 3 (single quotes)** for strings with participant quotes but no apostrophes
+    
+    - **Common quote scenarios to watch for:**
+      - Participant quotes: "One Veteran said, 'I can't find the form'"
+      - Phrases in quotes: The term "routing number" confused participants
+      - Apostrophes: Veterans can't, don't, won't
+      - Contractions: We're, it's, they've
+      - Possessives: Veteran's account, users' feedback
+    
+    - **Test your YAML:** Ensure the output is valid YAML that can be parsed without errors
+    - **When in doubt:** Use literal block scalar (|) - it handles all quote types safely
+
 Please analyze the content of my research findings report and generate a complete frontmatter section based on the following structure:
 
 **Research Findings Metadata:**
@@ -246,7 +300,8 @@ Extract from the "Research participants" section and structure as:
   - veterans: (EXACT count from report - use 0 if not mentioned)
   - service_members: (EXACT count from report - use 0 if not mentioned)
   - caregivers: (EXACT count from report - use 0 if not mentioned)
-  - dependents: (EXACT count from report - use 0 if not mentioned)
+  - family_members: (EXACT count from report - use 0 if not mentioned) **NOTE: Family members are Veterans' family who are NOT dependents receiving benefits**
+  - dependents: (EXACT count from report - use 0 if not mentioned) **NOTE: Dependents are family members who receive VA benefits (e.g., dependent children, spouses receiving benefits)**
   - VA_staff: (EXACT count from report - use 0 if not mentioned)
   - age: (object with EXACT age range counts from report - DO NOT infer or calculate)
   - education: (object with EXACT education level counts from report - DO NOT infer)
@@ -257,8 +312,8 @@ Extract from the "Research participants" section and structure as:
 **CRITICAL:** If demographic information is missing, incomplete, or unclear, mark fields as 0 or "Not specified" and note this in your clarification questions.
 
 **Key Results:**
-- key_findings: (Array of key findings - extract using EXACT wording from the report, include ALL findings, DO NOT summarize or combine)
-- recommendations: (Array of recommendations - use EXACT wording from the report, include ALL recommendations)
+- key_findings: (Array of key findings - extract using EXACT wording from the report, include ALL findings, DO NOT summarize or combine, PRESERVE subpoints as single entries)
+- recommendations: (Array of recommendations - use EXACT wording from the report, include ALL recommendations, PRESERVE subpoints as single entries)
 
 **Strategic Alignment:**
 - kpi_alignment: (Array of KPIs this research supports)
@@ -278,17 +333,24 @@ Extract from the "Research participants" section and structure as:
 - synthesis_tools_used:  (Array of tools used, e.g., "Mural", "Affinity Mapping", "Dovetail")
 
 **Tags:**
-(This is CRITICAL - use natural language processing to identify all relevant tags based on: 
+**CRITICAL: Select ONLY the 10 most relevant tags** based on: 
 - What was studied (products, features, patterns, components)
 - Who participated (audiences, demographics, assistive technology users)
 - What was learned (findings themes, usability issues, unmet needs)
-- Research methodology used)
+- Research methodology used
+
+**Prioritize tags in this order:**
+1. Primary audience(s) - 1-2 tags
+2. Primary benefit/product area - 1-2 tags  
+3. Specific product(s) - 1-2 tags
+4. Key methodology or research type - 1-2 tags
+5. Most significant findings themes - 2-4 tags
 
 ---
 
 **TAGS TAXONOMY**
 
-For the tags section, use natural language processing to understand the research findings context and select all relevant tags from these categories.  Analyze the findings, participant demographics, and recommendations to understand what was actually tested and discovered: 
+For the tags section, use natural language processing to understand the research findings context and select the 10 most relevant tags from these categories.  Analyze the findings, participant demographics, and recommendations to understand what was actually tested and discovered: 
 
 **AUDIENCE TAGS (AUD:)**
 - AUD: Attorneys
@@ -455,6 +517,7 @@ demographics:
   veterans: X
   service_members:  X
   caregivers: X
+  family_members: X
   dependents: X
   VA_staff: X
   age: 
@@ -526,6 +589,13 @@ tags:
   - "tag-from-taxonomy-above"
   - "tag-from-taxonomy-above"
   - "tag-from-taxonomy-above"
+  - "tag-from-taxonomy-above"
+  - "tag-from-taxonomy-above"
+  - "tag-from-taxonomy-above"
+  - "tag-from-taxonomy-above"
+  - "tag-from-taxonomy-above"
+  - "tag-from-taxonomy-above"
+  - "tag-from-taxonomy-above"
 ---
 ```
 
@@ -562,6 +632,7 @@ demographics:
   veterans: 10
   service_members: 0
   caregivers: 0
+  family_members: 0
   dependents: 0
   VA_staff: 0
   age:
@@ -640,66 +711,50 @@ synthesis_tools_used:
   - "Dovetail"
 tags:
   - "AUD: Veterans"
-  - "BNFT: Disability"
-  - "BNFT:  Finances"
+  - "BNFT: Finances"
   - "PRDT: Direct-deposit"
   - "Accessibility"
-  - "DSC: Form"
-  - "DSC: Form - Text Area"
-  - "DSC: Alert Boxes"
   - "DSP: Ask users for direct deposit"
   - "DSP: Error Message Guide"
-  - "DSP: Help users to check answers"
   - "HDW: Desktop"
   - "HDW: Smartphone"
   - "usability-testing"
-  - "semi-structured-interviews"
-  - "authenticated-experience"
-  - "screen-reader-testing"
   - "evaluative-research"
-  - "mobile-usability"
 ---
 ```
 
-**Tag Selection Rationale (using NLP analysis):**
+**Tag Selection Rationale (10 most relevant tags using NLP analysis):**
 
-**Audience & Benefit Tags:**
-- **AUD: Veterans** - All 10 participants were Veterans (from demographics)
-- **BNFT: Disability** - Study focused on direct deposit for disability compensation payments (contextual knowledge)
-- **BNFT: Finances** - Direct deposit relates to payment and financial management (semantic connection)
+**Selected Tags (in priority order):**
 
-**Product Tags:**
-- **PRDT: Direct-deposit** - Primary product studied in findings report
+1. **AUD: Veterans** - Primary audience; all 10 participants were Veterans
+2. **BNFT: Finances** - Primary benefit area; direct deposit is financial management
+3. **PRDT: Direct-deposit** - Specific product studied
+4. **Accessibility** - Major focus with 3 AT users and significant screen reader findings
+5. **DSP: Ask users for direct deposit** - Core pattern being tested
+6. **DSP: Error Message Guide** - Key finding area with accessibility barriers
+7. **HDW: Desktop** - Primary device tested (5 users)
+8. **HDW: Smartphone** - Primary device tested (5 users) with mobile-specific findings
+9. **usability-testing** - Primary methodology
+10. **evaluative-research** - Research phase/type
 
-**Component & Pattern Tags:**
-- **Accessibility** - Findings explicitly mention screen reader barriers and testing with AT users (demographics show 3 AT users)
-- **DSC: Form** - Findings mention form fields, validation, and data entry (inferred from findings details)
-- **DSC: Form - Text Area** - Findings reference input fields for banking information (specific component inference)
-- **DSC: Alert Boxes** - Recommendations mention confirmation messaging and error messages (inferred from findings)
-- **DSP: Ask users for direct deposit** - Pattern specifically for collecting banking information (semantic match)
-- **DSP: Error Message Guide** - Key finding about error message barriers; recommendation to improve error messaging
-- **DSP: Help users to check answers** - Findings mention confirmation and verification needs (pattern inference)
+**Why these 10 were prioritized:**
+- Tags 1-3 answer "who" and "what" - essential for discovery
+- Tag 4 reflects major finding theme (screen reader barriers)
+- Tags 5-6 identify specific patterns with findings
+- Tags 7-8 reflect devices where issues were found
+- Tags 9-10 categorize methodology and research type
 
-**Hardware Tags:**
-- **HDW:  Desktop** - Demographics show 5 desktop users
-- **HDW: Smartphone** - Demographics show 5 smartphone users; findings mention mobile usability issues
-
-**Methodology & Research Type Tags:**
-- **usability-testing** - Listed in methodology array
-- **semi-structured-interviews** - Listed in methodology array
-- **authenticated-experience** - Direct deposit in Profile requires authentication (contextual knowledge)
-- **screen-reader-testing** - Demographics show screen reader users; findings mention screen reader barriers
-- **evaluative-research** - Testing existing/new interface (research phase inference)
-- **mobile-usability** - Key finding specifically addresses mobile user struggles
-
-**Tag Alignment with Research Artifacts:**
-These tags should align with the research plan and conversation guide frontmatter.  The findings report includes more specific findings-based tags like "mobile-usability" and "evaluative-research" that emerged from the study results.
-
-**Tags considered but not included:**
-- **AUD:  Caregivers** - No caregivers participated (0 in demographics)
-- **Initiative: PACT Act** - No connection to this initiative mentioned
-- **DSC: Button** - While buttons are present, not a primary focus of findings
-- **BNFT: Healthcare** - Study focused on payments, not healthcare services
+**Tags considered but not included (and why):**
+- **BNFT: Disability** - While relevant context, Finances is more direct
+- **DSC: Form** - Too generic; patterns are more specific
+- **DSC: Form - Text Area** - Too granular; pattern tags capture this
+- **DSC: Alert Boxes** - Minor finding; not a primary theme
+- **DSP: Help users to check answers** - Secondary to main findings
+- **semi-structured-interviews** - Listed in methodology but usability-testing is primary
+- **authenticated-experience** - Contextual knowledge, not explicit in findings
+- **screen-reader-testing** - Captured by "Accessibility" tag
+- **mobile-usability** - Captured by "HDW: Smartphone" tag and findings
 
 **Missing Demographic Groups:**
 The frontmatter correctly identifies underserved groups not included: 
@@ -709,9 +764,6 @@ The frontmatter correctly identifies underserved groups not included:
 
 **Recommendations:**
 1. Ensure these tags align with your research plan and conversation guide frontmatter
-2. Consider adding "cognitive-disability" tag if that was a significant finding theme
-3. Update tags if additional synthesis reveals new patterns
-4. Use the "add-metadata-labels-to-findings-prompt. md" to add more granular labels to individual key findings
+2. If additional synthesis reveals new dominant themes, swap lower-priority tags
+3. Use the "add-metadata-labels-to-findings-prompt.md" to add more granular labels to individual key findings
 
----
- 

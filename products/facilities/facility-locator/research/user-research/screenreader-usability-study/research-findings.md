@@ -1,105 +1,206 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Facility Locator - Assistive Technology Discovery and Usability Study Research Findings"
+product: "Facility Locator"
+team: "VSA, Facility Locator"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-06-24"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Leyda Hughes"
+  - "Josh Kim"
+  - "Angela Fowler"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Establish foundational knowledge of Veterans' Facility Locator search experience while using assistive technology on desktop and mobile devices"
+  - "Understand how Veterans find location information online for places they need to visit physically"
+  - "Understand how Veterans find location information using VA.gov and Facility Locator"
+  - "Understand what assistive technologies Veterans are using"
+  - "Understand how mobile vs desktop experiences differ for Veterans using assistive technology"
+  - "Identify useful and not useful features for Veterans using assistive technology"
+  - "Identify pain points for Veterans using assistive technology"
+  - "Determine if Facility Locator needs to change or evolve to offer an equitable experience to Veterans using assistive technology"
 methodology:
-- Method 1
-- Method 2
+  - "Remote moderated usability testing"
+  - "Two-hour sessions via Zoom"
+  - "Task-based testing"
+  - "Semi-structured interviews"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 5
+  tablet: 0
+  smartphone: 2
+  assistive_technology: 7
+participants_total: 7
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 1
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    "55+": 6
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 3
+    associates: 1
+    bachelors: 1
+    masters: 1
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 4
+    rural: 3
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 3
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 4
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 1
+    AT_beginner: 3
+    AT_advanced: 3
+    AT_intermediate: 1
+    screen_reader_desktop: 5
+    screen_reader_mobile: 0
+    magnification_zoom: 2
+    speech_input: 1
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    completely_blind: 3
+    low_vision: 3
 key_findings:
-- Finding 1
-- Finding 2
+  - "As a Veteran who uses assistive technology, orienting myself on websites is often unpredictable, cumbersome and time-consuming"
+  - "I need to have multiple ways to accomplish online tasks but have my preferences"
+  - "I keep my desktop clean to not confuse my screen reader"
+  - "I make my viewport small so I may get a mobile experience on desktop"
+  - "I am new at using Siri but want to keep learning new ways of dictating my needs"
+  - "It's easy for me to make spelling mistakes"
+  - "When I look for location information for a place that I need to visit physically, I use my search engine either by dictating or typing in my search parameters"
+  - "I already know my VA so I would likely only do this for unfamiliar locations"
+  - "I prefer to dictate location searches on my phone because it's quicker and easier"
+  - "I use JAWS on my desktop for more complex searches or tasks"
+  - "Search engine results info is usually all I need, next I call or get directions"
+  - "I trust a search engine result when I hear VA.gov is the source"
+  - "I wish I could see hours and services of VA facilities on Google search results"
+  - "Sometimes I do see hours but they don't make sense to me"
+  - "When I search for things on VA.gov, I have trouble finding what I am looking for"
+  - "The homepage is difficult to navigate and I can't orient myself easily"
+  - "Global searches don't produce relevant results"
+  - "I get routed to too many different pages"
+  - "If I find something useful, I don't know how to retrace my steps later"
+  - "I encounter too much information and I get overwhelmed"
+  - "Location searches result in a list that I have to Google individually"
+  - "I didn't know Facility Locator existed, but now that I do, I encounter some obstacles that would deter me from wanting to use this tool for searching"
+  - "There are too many things to listen to before I can start my search"
+  - "There are too many requirements to fill in"
+  - "I don't know what the requirements mean"
+  - "I didn't put in the right requirements, so it tells me there's an error"
+  - "I want to choose by something that I'm familiar with, like clinics or hospitals"
+  - "The service type combo box doesn't work"
+  - "If I'm in a crisis, I won't want to struggle with this page"
+  - "I prefer to just enter searches into one simple search box"
+  - "Consuming Facility Locator search results was also tricky"
+  - "I did a search but the screen reader didn't tell me that there weren't results"
+  - "I got results but I don't know what the letter and number combination means"
+  - "I don't hear a way to get directions to these locations"
+  - "It's not clear to me what is a phone number or other piece of information"
+  - "I don't know what 'limited services and hours' means"
+  - "I didn't realize that I was being taken to Google Maps, I like to know this"
+  - "If I leave VA.gov I expect to go to a different tab, otherwise don't open a new tab"
+  - "I didn't see a map but I usually don't use them because they aren't accessible"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Establish a page hierarchy for pages and ensure that top navigation methods follow it"
+  - "Tell me what a page is about with a clear heading 1 level when navigating between pages"
+  - "Group links and content with logically ordered heading levels to create an understandable hierarchy of the page"
+  - "Create regions on every page so that I can navigate quickly between areas"
+  - "Make sure 'skip to content' takes me to the main content on the page"
+  - "Give me an edit box that is easy to find because I like an easy way to search"
+  - "Provide the purpose and destination in link text so that I know what to expect when I click on a link"
+  - "Name buttons and links with the keywords that I'm likely to search for like 'menu', 'locations'"
+  - "Name states of components with descriptions like 'menu open' so I don't waste time listening for clues of what just happened"
+  - "Don't make me know how to spell things"
+  - "Establish a page hierarchy for Facility Locator, its detail pages as well as new facility product pages and test for consistency between different navigation methods"
+  - "Make 'Skip to content' link go to the page H1"
+  - "Move the COVID content and links into an alert region that can be announced as such"
+  - "Work with accessibility specialists to assess the location input to ensure the label and edit box combination make sense on a screen reader"
+  - "Update the Service type combo box hint text to accurately describe the action a user must need to take"
+  - "Consider consolidating or grouping service type options so that selections are easier to make"
+  - "Restore results text when no results are found after a search"
+  - "Fix 'Get directions' and 'phone' links by working with accessibility specialists to assess current problems and propose new text, labels, and link text"
+  - "Make listing letter and mileage improvements - work with accessibility specialists to assess current problems"
+  - "Assess and incorporate keywords so Veterans can find facility information through global search"
+  - "Experiment with patterns that exist within popular search tools like 'hospitals near me', 'urgent care near me'"
+  - "Add 'Google as the front door for Facility Locator and facility product pages' as a use case to solve for"
+  - "Assess keyword searches for top facility types on VA.gov and incorporate those terms into the product"
+  - "Start experimenting with structured content for location addresses and hours to see how changes could positively affect search engine search results"
+  - "Reassess what is the most important information to deliver on Facility Locator"
+  - "Consider how maps deliver value to Veterans and whether they should be deprioritized"
+  - "List hours over facility status alerts"
+  - "Surface ER availability with 24/7 care as a data point when available"
+  - "Display just enough service information to give Veterans a quick understanding of the type of facility"
+  - "Redesign search - Veterans want an easier way to search"
+  - "Consider a set of exposed filters in a left rail with default selections in place so that users only have to enter in their location"
+  - "Give Veterans a way to quickly assess facilities at a glance through meaningful tags or categories"
+  - "Improve discoverability of facility information available to Veterans"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified in findings report"
+  business: "Not specified in findings report"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
+  - "Comprehensive testing with dictation software due to technical limitations in this study"
+  - "Comprehensive testing with magnification software (ZoomText, Fusion) due to technical limitations in this study"
+  - "Testing with Veterans who use switch devices"
+  - "Testing with Veterans who use braille readers"
 underserved_groups_missing:
-- Group 1
-- Group 2
+  - "Veterans with cognitive disabilities beyond dyslexia"
+  - "LGBTQ+ Veterans"
+  - "Immigrant Veterans"
+  - "Expat Veterans"
+  - "Veterans with other than honorable discharges"
+  - "Veterans who use switch devices"
+  - "Veterans who use braille readers"
+  - "Younger Veterans (ages 18-34)"
+  - "Veterans with lower education levels (high school or less)"
+  - "Hispanic/Latinx Veterans"
+  - "Asian Veterans"
+  - "Native American Veterans"
+  - "Biracial Veterans"
 secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "WebAIM Screen Reader User Survey"
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: My VA'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Facilities"
+  - "Accessibility"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "moderated-research"
+  - "remote-research"
+  - "usability-testing"
+  - "assistive-technology"
+  - "screen-reader"
+  - "JAWS"
+  - "magnification"
+  - "speech-input"
+  - "DSC: Form - Select"
+  - "DSC: Search Input"
+  - "DSC: Links"
+  - "DSC: Alert Boxes"
+  - "DSP: Ask users for addresses"
+  - "DSP: Help users to navigate a long list"
+  - "evaluative"
 ---
+
 # Research Findings: Facility Locator - Assistive Technology Discovery and Usability Study
 
 Digital Services Veterans Affairs (DSVA), VSA, Facility Locator, June 24, 2021

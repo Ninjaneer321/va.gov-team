@@ -1,98 +1,135 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "VA Mobile Doc Site Research Findings"
+product: "VA Mobile Doc Site"
+team: "VA Mobile, Mobile"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2025-06-06"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Christine Julian"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Identify how the VA Mobile Docs site can be improved to better serve all teams."
+  - "Determine when we can link experience teams to VADS and when we should give guidance."
+  - "EXP teams are able to access the docs site and find answers to their questions."
 methodology:
-- Method 1
-- Method 2
+  - "User Interviews"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 6
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 6
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 6
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 6
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 6
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - |
+    Most participants noted a desire to clearly identify differences in experiences between building for web vs. building for mobile.
+  - |
+    Participants shared a wide array of information they often sought out from the site that was missing while also sharing what content they felt was not helpful existing on the site today.
+  - |
+    Participants desired content that was easily injestible, providing context for the user, background in why decisions were made, as well as statuses of those decisions.
+  - |
+    Many participants shared a common sentiment around difficulty finding information needed on the site. Often having to ask the team for information after visiting the site in detail.
+  - |
+    Most participants spoke of a desire for more governance around mobile, with a tighter integration to the existing Platform. Calling out specifically the Platform collaboration cycle, and the VA design system.
+  - |
+    Participants noted visiting the site mostly during onboarding, set up, and when starting various phases of a project for reference. Many participants shared a similar sentiment of distrust with the site content being outdated or inaccurate.
+  - |
+    Despite needing many improvements, most participants did share delights they appreciated that could be modeled in other areas of the site related to structure, content, and detail.
+  - |
+    Participants noted a need for onsite feedback submissions, to be able to help identify content gaps/problems as they arise.
+  - |
+    More seasoned site users noted using the site less as they became more familiar with the process.
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Conduct a site content audit. Review site content with area SMEs."
+  - "Remove site content that is duplicative, outdated, or too ambiguous. Adding missing content as noted within the user research."
+  - "Update content to elaborate on needed context, adding the why, with dates, and statuses."
+  - |
+    Provide clear distinctions in mobile vs. web experiences using VA product examples and reasoning. Include visuals, prototypes, correct vs. incorrect applications.
+  - |
+    Integrate the mobile/flagship design system with VADS, moving relevant content over to design.va.gov vs. hosting directly on the site. Similarly, integrate mobile more fully in the platform collaboration cycle.
+  - "Add a FAQ section to the site and a troubleshooting guide to assist users with common challenges they often bring to the team."
+  - "Add a feedback submission option directly to the site so users can directly report issues or questions as they arise."
+  - |
+    Base the site structure on various phases of the mobile build process, the prime audience as the general experience team user vs. the area specific user (Product, UX, Engineering or QA). Develop the site content based on these phases and audience needs.
+  - |
+    Model the content fidelity of the site's front-end documentation and set-up process, applying it to the other areas of the site. After SMEs have written updated guidance, have a single voice pass over the content for consistency.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "EXP Team satisfaction in relation to Docs Site is positive"
+  business: "EXP Teams show an increase in use of Docs Site"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Clear distinctions between mobile vs. web experiences for experience teams"
+  - "Missing content areas identified by users (engineering setup details, design patterns between foundations and components, navigation principles, interactive principles)"
+  - "Self-service capability so users do not need to ask the mobile team directly"
+  - "Onsite feedback mechanism for reporting content gaps in real time"
+  - "Tighter integration with VA Design System (VADS) and Platform collaboration cycle"
+  - "AI/LLM integration for documentation consumption and chat-based search"
 further_research_needed:
-- Area 1
-- Area 2
+  - "To gather quantitative data, getting a numerical rating of user satisfaction (survey base)."
+  - "Deeper study in the experience team member journey"
 underserved_groups_missing:
-- Group 1
-- Group 2
+  - "Product Managers (3 recruited but self-identified as non-users and were not interviewed)"
 secondary_research:
-- Web analytics
-- SME interviews
+  - "Review of VA Platform Site, and design.va.gov"
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Figjam: Affinity mapping"
+  - "Figjam: User Journey Mapping"
+  - "VA Beta GPT for summarizing & extracting insights"
 tags:
-- 'BNFT: Healthcare'
-- 'MHV: Appointments'
+  - "AUD: VA Staff"
+  - "Internal Research: Platform Research"
+  - "PRDT: Content"
+  - "DSP: Ask users for feedback"
+  - "DSP: Contextual Help"
+  - "DSP: Content Presentation"
+  - "DSC: Alert Boxes"
+  - "BNFT: Healthcare"
+  - "semi-structured-interviews"
+  - "discovery"
 ---
+
 # VA Mobile Doc Site Research Findings
 Office of the CTO - Digital Experience (OCTO-DE), VA Mobile Doc Site, Mobile
 Date: 06/06/2025

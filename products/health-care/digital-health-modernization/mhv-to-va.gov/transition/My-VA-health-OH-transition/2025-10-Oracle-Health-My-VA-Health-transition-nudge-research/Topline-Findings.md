@@ -1,95 +1,155 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Oracle Health My VA Health Transition Nudge Research Findings"
+product: "My HealtheVet on VA.gov - Oracle Health Patient Portal Transition"
+team: "Digital Health Modernization Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-11-19"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Sara Sterkenburg"
+  - "Laura Simpson"
+  - "Florence McCafferty"
+  - "Cara Frissell"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Gain insight into how current Veterans access and manage their care using the My VA Health patient portal. Understanding their current experience will support the VA.gov team in designing an experience that can influence how Veterans at the 6 current Oracle Health facilities behave and approach the transition."
+  - "Understand what conveys trust, and how language choice or previous experiences might impact users' reactions toward this transition"
+  - "Understand whether planned tactics for communicating the transition are effective by getting users' reactions to those tactics"
+  - "Understand what fears, concerns, or confusion might be standing in the way of these users adopting the new experience on VA.gov"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Usability testing"
+  - "Prototype testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 13
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 13
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 13
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 13
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 13
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 13
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    unknown: 13
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - |
+    User groups: There are a couple of sub-categories that can help us better understand these users, what they have seen or understand about the My HealtheVet on VA.gov portal, and their expectations based on the number of portals they've used before.
+    
+    1. Navigation tactics to accessing My VA Health portal - Three methods were identified:
+       - The Hoppers (7 of 13) - go from va.gov/VAHB → health tool page → follow redirect to My VA Health
+       - The Bookmarkers (4 of 13) - have direct link to My VA Health bookmarked, can only be reached with an interstitial
+       - The Random Outliers (2 of 13) - start at National Portal, route through all 3 portals
+    
+    2. Data types - the hybrids and the solos:
+       - "Historic" data hybrid users (vast majority) - only small subset of historical health records moved to Oracle Health
+       - "Active" hybrid users - receive care at both Oracle Health and VistA facilities, must manage two portals
+       - "Solo" data users - only received care at Oracle Health facility post-migration, only use My VA Health
+  - |
+    See, but not register: Users overlooked alerts and did not understand the difference between portals.
+    
+    1. The Forgotten Fork - All 8 users who saw Version A overlooked the blue alert and went directly to complete their task on My HealtheVet on VA.gov, then realized they needed to be redirected to My VA Health.
+    
+    2. Alphabet Soup - Participants didn't understand the difference between My HealtheVet on VA.gov, My VA Health, or MyHealtheVet Classic. "The blue box made it seem like I had to choose, but I don't want to think about that. Just take me where I need to go." (P5)
+    
+    3. Why are you sending me away? - Users did not understand why the blue alert was re-directing them somewhere else. "It's kind of redundant. It's saying I can do it two different ways... which is kind of what we're trying to get away from." (P5)
+    
+    Interstitial awareness: Of 5 participants who saw Version B, 4 of 5 read interstitial unprompted and indicated they liked being informed before entering. "I like that it tells me what's changing before I get into the site." (P13)
+  - |
+    Building confidence in change with reassurance:
+    
+    1. Burned before - Participants expressed frustration with all the transitions and were afraid to be a "guinea pig" again. This was especially resonant with users who had complex or long medical histories. "I don't want to be another guinea pig." (P3)
+    
+    2. Value prop of "one ring to rule them all" - Participants wanted greater clarity on why the VA was making this change and what was in it for them. They wanted one place to do everything. "Would be nice if I had one thing…anytime I have to do with the VA stuff… like a one stop shop on the VA website and then I can do anything I need to do with the VA." (P8)
+    
+    3. Visual confirmation - Landing on MHV on VA.gov, users look to see what they can do on the page. They called out the contents of MHV on VA.gov homepage as visual confirmation that they could do the things they wanted to do.
+  - |
+    Build trust by emphasizing ease and consistency:
+    
+    1. Too many choices - Having the option to go back to My VA Health made participants nervous, like the VA was "hedging their bets." Participants consistently said they didn't want to have to choose between portals. "I clicked the blue alert but then got confused. I don't want to decide between MyHealtheVet and VA.gov." (P7)
+    
+    2. Timeliness - Participants did not take away a real sense of when they need to finish or complete any decisions. They wanted to know deadlines and timelines. "If I know that I can wait 6 months, I wouldn't go through this, I don't want to be a guinea pig." (P3) "Just having end dates would be really nice… Or suspected end dates…it would be nice to have a rough timeline of when I need to get my ducks in a row." (P8)
+    
+    3. Data integrity - Data integrity was a main fear for every participant. They were concerned about: 1) data being lost in the move, as they had experienced before and 2) data not "syncing properly" across sites. "It's more than a frustration for me…I have spent two years of my life in a hospital…I'm a stroke survivor, I'm epileptic… I broke my neck, I've had 14 major operations... you put all that stuff in there, and then it just disappears on me? That's a problem." (P3)
+  - |
+    A personal touch:
+    
+    1. Learn by doing - Almost everyone said they would want to learn by doing or just poking around and trying to "do stuff." "I might mess around a little bit with it, you know what I mean?" (P13)
+    
+    2. Take it for a test drive - Some participants wanted to be able to access both portals as they tried out the new one for a more gradual transition instead of having an "all or nothing" approach.
+    
+    3. Through the grapevine - All participants mentioned they would expect to learn about the transition from in person events, signs, letters, etc. Some explicitly said they would trust hearing it was safe from other Veterans who had already transitioned.
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - |
+    Stop the Hoppers on VA.gov (step 2): To decrease their confusion, and since they are not looking for a redirect to My VA Health, recommend decoupling the informational update from the redirect link to My VA Health. Be extremely blunt in the informational text — consider something like "hey you! Yes, you!" to clarify that this now applies to them as well.
+  - "Give users a sense of timeliness and urgency by adding a deadline/date of some sort or providing a sense of how this transition will play out."
+  - "Given the importance of visual confirmation, consistency and timeliness, have an alert on the child pages. That alert should be temporary, not persistent, visible early in the transition phase (first 1-2 months)."
+  - "Since data integrity is so important to users, address data integrity concerns directly. If there's a chance that a user could see different data or duplicate data, acknowledge that in the messaging and provide reassurance about what to expect."
+  - "Partner with Veteran orgs, mail flyers, put up signs in the VA facility, walkthroughs, banners, etc. Consider an overview video or ad. This will be especially important for the bookmarkers who bypass VA.gov entirely."
+  - "If you want to ensure that the bookmarkers know that they can go to VA.gov for their healthcare needs now, implement some kind of interstitial experience."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Figma (prototyping)"
+related_research:
+  research_plan: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/transition/My-VA-health-OH-transition/2025-10-Oracle-Health-My-VA-Health-transition-nudge-research/2025-10-Oracle-Health-My-VA-Health-transition-nudge-research-plan.md"
+  conversation_guide: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/transition/My-VA-health-OH-transition/2025-10-Oracle-Health-My-VA-Health-transition-nudge-research/2025-10-Oracle-Health-My-VA-Health-transition-nudge-research-conversation-guide.md"
+  figma_prototype: "https://www.figma.com/design/MGP7riyGyOxTaJ3RXxP7pX/My-VA-Health-alerts---messaging?node-id=3375-335&t=hlSx3SNRSqz3BVDF-1"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: MyHealth (Health Hub)"
+  - "MHV: Appointments"
+  - "MHV: Secure Messaging"
+  - "MHV: Personal Health Records/Medical Records"
+  - "DSC: Alert Boxes"
+  - "usability-testing"
+  - "evaluative"
+  - "trust"
 ---
 
 # **Topline Findings - OH Transition nudge**

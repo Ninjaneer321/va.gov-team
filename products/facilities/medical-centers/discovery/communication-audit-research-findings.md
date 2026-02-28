@@ -1,102 +1,113 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Communication Audit - Research Findings"
+product: "VA Medical Centers (VAMC)"
+team: "Facilities"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "Not specified"
+researchers: 
+  - "Not specified"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Get clarity on when to use which method (from VA perspective) so that we can determine the best method for researching Veteran expectations about their communication options and begin considering the right experience for Veterans"
+  - "Understand both the individual options and how those options work together in the ecosystem to support Veterans' health care communication needs"
 methodology:
-- Method 1
-- Method 2
+  - "UX Audit"
+  - "Heuristic evaluation"
+  - "Content audit"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Many labels sound similar and don't clearly indicate their purpose. The labels of multiple contact methods, co-existing within the VA.gov ecosystem, sound similar and don't clearly indicate their purpose or how they differ from one another."
+  - "Contact information is fragmented across various pages and sections globally and within health systems. This places all the burden on Veterans to either understand the VA's organizational system or search through multiple places to find the information they need."
+  - "Contact methods are often embedded within lengthy pages of dense text. Contact information is not listed in a concise, scannable form. Instead, it often requires an extra click, and follows multiple paragraphs of text."
+  - "Alternatives to phone communication are missing from Contact us pages. Health system contact us pages do not list options like Health chat or Secure Messaging."
+  - "When and how labels and sub-labels gets implemented is inconsistent across VA/VAMCs. This violates heuristic principle #4: Consistency and standards, as it requires Veterans to wonder whether different words, situations, or actions mean the same thing."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "VA stakeholders need to be aligned to help prioritize which methods of communication should be offered for which use cases."
+  - "Communication method labeling and naming should be simplified; audit and test with Veterans for understandability, interpretability."
+  - "Conduct Veteran research and review analytics of Veteran communication usage."
+  - "Presentation of contact method(s) should help Veterans easily choose rather than subject them to a 'tyranny of choice'."
+  - "Plan for Veterans at different parts of the Veteran Journey."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not explicitly stated"
+  business: "Not explicitly stated"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Simplify and consolidate communication method labeling to reduce cognitive load"
+  - "Centralize contact information to reduce fragmentation across pages"
+  - "Surface digital communication alternatives (Secure Messaging, Health Chat) more prominently on contact pages"
+  - "Standardize presentation of contact methods across all VAMCs"
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+  - "Veteran research on communication method preferences and understanding"
+  - "Analytics review of Veteran communication usage patterns"
+  - "Usability testing of communication method labels and naming"
+  - "Research on how Veterans navigate and search for contact information"
+underserved_groups_missing: []
 secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Related discovery efforts (VA Health Connect discovery, VISN 8 phone audit, Health chat discovery, Secure Messaging discovery)"
+  - "10 Usability Heuristics for User Interface Design"
+  - "Page audits of VA.gov homepage, contact us pages, helpful VA phone numbers, healthcare applications, VAMC pages"
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Healthcare'
-- 'PRDT: My VA'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Facilities"
+  - "PRDT: Contact us"
+  - "PRDT: Content"
+  - "MHV: Secure Messaging"
+  - "DSP: Content Presentation"
+  - "heuristic-evaluation"
+  - "content-audit"
+  - "discovery"
+  - "information-architecture"
 ---
+
 # Communication Audit - Research Findings
 
 Follow-up discovery for issue [#26770](https://github.com/department-of-veterans-affairs/va.gov-team/issues/26770). There are a growing number of ways for Veterans to connect with clinicians for health related needs. It may be confusing for Veterans to find the right one for their needs and/or differentiate between the tools.

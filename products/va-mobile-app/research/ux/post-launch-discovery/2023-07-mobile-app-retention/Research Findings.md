@@ -1,95 +1,110 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "VA Health and Benefits Mobile App User Retention Discovery Research Findings"
+product: "VA Health and Benefits Mobile App"
+team: "Flagship Mobile App"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2023-07-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Liz Straghalis"
+  - "Greta Optz"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Explore the motivations Veterans have for downloading the app, and what happens for them after they log into the app. Did they find what they were looking for, or did they have issues?"
+  - "Identify the reasons why Veterans stop using the app."
+  - "Identify areas of value which might persuade Veterans to continue using the app."
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Quantitative data analysis"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 17
+    assistive_technology: 2
+participants_total: 17
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 17
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 3
+    "35-44": 9
+    "45-54": 0
+    "55-64": 2
+    "65+": 3
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 2
+    associates: 2
+    bachelors: 8
+    masters: 5
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 12
+    rural: 5
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 2
+    black: 6
+    hispanic: 4
+    biracial: 3
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 1
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - |
+    Login posed a significant pain point for 8 out of the 17 Veterans we talked to. Five of the Veteran participants specifically mentioned login as one of the reasons why they stopped using the app.
+  - |
+    Veteran expectations of what they thought they could do in the app was often inaccurate. Some Veterans conflated the flagship app's features with other features available in VA.gov or MyHealtheVet.
+  - |
+    Veterans engaged with the Health and Benefits mobile app at intermittent times. There's not always a clear "stopping" point, especially if they used the app for the thing they wanted it for.
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - |
+    New features & improvements to existing features. Potential ideas include: Exploring onboarding options prior to log-in.
+  - |
+    Identifying areas for additional research and quantitative analysis, including defining user proto-segments.
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "OCTO priority #4: expand the flagship mobile app"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not explicitly stated in the report"
+  business: "Not explicitly stated in the report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Exploring onboarding options prior to log-in to share information with Veterans before they authenticate"
+  - "Information that is personal or dynamically responsive to Veterans' life changes"
+  - "The app does not anticipate life changes from contextual data"
+  - "The app does not specifically facilitate the user's re-evaluation of the app's value"
+  - "New proto user segments discovered — specific-task and general VA relationship management — that cannot currently be distinguished in app data"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Explore the value the mobile app might have in helping Veterans navigate personal or health crises, as well as aiding in transitions."
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Mobile app retention dashboard (quantitative data analysis conducted in May 2023)"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+tags:
+  - "AUD: Veterans"
+  - "PRDT: VA-flagship-mobile-app"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "DSP: Help users to sign in"
+  - "HDW: Smartphone"
+  - "semi-structured-interviews"
+  - "discovery"
+  - "Accessibility"
+  - "MHV: MyHealth (Health Hub)"
 ---
 
 ## **Research Findings for VA Health and Benefits Mobile App: user retention discovery research**

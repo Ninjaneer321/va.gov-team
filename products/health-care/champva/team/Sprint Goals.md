@@ -2,6 +2,116 @@
 
 - Current Sprint first
 
+
+
+## 📆 Sprint 14 (Feb 25 - Mar 10) 
+- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+
+### Sprint Goals
+- [ ] **SPRINT GOAL** 10-7959c: Build the core backend components for OHI-to-VES submission: request model, data transformation, API client, and controller routing
+  - [ ] [[BE] VES/OHI: Add request_json column and populate](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132479)
+  - [ ] [[BE] VES/OHI: Update VES Retry flow to use request_json](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132480)
+  - [ ] [[BE] VES/OHI: Complete VesOhiRequest model with actual VES schema](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133981)
+  - [ ] [[BE] VES/OHI: Implement VesDataFormatter OHI transformation methods](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133982)
+  - [ ] [[BE] VES/OHI: Implement VesApi::Client submit_7959c endpoint](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133983)
+  - [ ] [[BE] VES/OHI: Wire UploadsController to call appropriate VesDataFormatter method](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133984)
+- [ ] **SPRINT GOAL** 10-7959a: Build the Duty to Assist chapter in the enhanced claims flow using initial mock content.
+  - [ ] [[UX] 10-7959a: Update Figma based on Content/IA recommendations for Duty to Assist](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133714)
+  - [ ] [[FE] 10-7959A: Update content in Enhanced Claims flow (Claim ID + Upload letter pages)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134351)
+  - [ ] [[FE] 10-7959A: Implement Duty to Assist chapter with feature flag (Enhanced Claims)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134353)
+  - [ ] [[FE] 10-7959A: Update Confirmation Page with Duty to Assist messaging](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134355)
+  - [ ] [[FE] 10-7959A: Update Confirmation Email Template with Duty to Assist messaging (Staging)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134357)
+- [ ] **SPRINT GOAL** 10-10d: Complete and deliver the Tricare study report and share actionable findings and recommendations to the Design System team.
+  - [ ] [[Research] 10-10d v2: Tricare Study Analysis & Findings Report](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130962)
+- [ ] **SPRINT GOAL** 10-10d: Document the CHAMPVA benefits card delivery process and evaluate policy and technical feasibility for digital delivery **Carried over**
+  - [ ] [[BE] 10-10d: Discovery - Assess engineering feasibility of requesting a CHAMPVA benefits card online](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131800) 
+
+
+
+
+##
+### 10-10d
+- [ ] **SPRINT GOAL** 10-10d: Document the CHAMPVA benefits card delivery process and evaluate policy and technical feasibility for digital delivery
+  - [ ] [[BE] 10-10d: Discovery - Assess engineering feasibility of requesting a CHAMPVA benefits card online](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131800)
+- [ ] **SPRINT GOAL** 10-10d: Complete and deliver the Tricare study report and share actionable findings and recommendations to the Design System team.
+  - [ ] [[Research] 10-10d v2: Tricare Study Analysis & Findings Report](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130962)
+- [ ] **Other planned work** 
+  - [ ] [[FE] 10-10D: Add Birth Certificate Upload for Newborn Applicants](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133634)
+  - [ ] [[BE] 10-10d: Stop sending acting-user in the header with VES requests](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133581)
+  - [ ] [[BE] IVC Forms - [2025-10-28] Monitor incident - Error handling file uploads, parsing error](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123516)
+  - [ ] [[BE] 10-10d: Stop sending acting-user in the header with VES requests](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133581)
+  - [ ] [[UX] 10-10d: Power of Attorney Discovery](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105616)
+  - [ ] [[UX] VA Form 10-10D: Discovery - CHAMPVA Benefits Card delivery process](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131661)
+  
+
+
+##
+### 10-7959a
+- [ ] **SPRINT GOAL** 10-7959a: Build the Duty to Assist chapter in the enhanced claims flow using initial mock content.
+  - [ ] [[UX] 10-7959a: Update Figma based on Content/IA recommendations for Duty to Assist](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133714)
+  - [ ] [[FE] 10-7959A: Update content in Enhanced Claims flow (Claim ID + Upload letter pages)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134351)
+  - [ ] [[FE] 10-7959A: Implement Duty to Assist chapter with feature flag (Enhanced Claims)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134353)
+  - [ ] [[FE] 10-7959A: Update Confirmation Page with Duty to Assist messaging](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134355)
+  - [ ] [[FE] 10-7959A: Update Confirmation Email Template with Duty to Assist messaging (Staging)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134357)
+- [ ] **Other planned work** 
+  - [ ] 
+
+
+     
+
+## 
+### 10-7959c
+- [ ] **SPRINT GOAL** 10-7959c: Add foundational support for OHI-VES submissions by enabling subforms and updating submission flow to handle dependent forms.
+  - [ ] [[BE] VES/OHI: Add request_json column and populate](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132479)
+  - [ ] [[BE] VES/OHI: Update VES Retry flow to use request_json](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132480)
+  - [ ] [[BE] VES/OHI: Complete VesOhiRequest model with actual VES schema](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133981)
+  - [ ] [[BE] VES/OHI: Implement VesDataFormatter OHI transformation methods](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133982)
+  - [ ] [[BE] VES/OHI: Implement VesApi::Client submit_7959c endpoint](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133983)
+  - [ ] [[BE] VES/OHI: Wire UploadsController to call appropriate VesDataFormatter method](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133984)
+- [ ] **Other Planned Work** 
+  - [ ] 
+
+ 
+## 
+### 10-7959f-1 FMP Enrollment
+- No work this sprint
+
+
+##
+### 10-7959f-2 FMP Claims
+- No work this sprint
+     
+
+
+##
+### All forms or Tech Debt
+- [ ] **Other Planned Work**
+  - [ ] [[BE] All IVC Forms: Enable champva_use_hexapdf_to_unlock_pdfs toggle](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132935)
+  - [ ] [[Data] Monthly Metrics, Health Apps Team (February 2026)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134200)
+  - [ ] [[BE] IVC All Forms: Investigate latency against 750 ms SLO target](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131092)
+  
+
+
+## 
+### STRETCH GOALS/UP NEXT
+- FE
+  - [ ] [[FE] 1010d/10-7959c: Populate email address in Veteran email field if user is filling out as the Sponsor](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117675)
+- BE
+  - [ ] [[BE] VES/OHI: Update VesRetryFailuresJob for form-type routing and reconstruction](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133985)
+  - [ ] [IVC Forms: 2025-04-10 Monitor Incident - The provided stamp content was empty](https://github.com/department-of-veterans-affairs/va.gov-team/issues/107339)
+  - [ ] [BE Spike - Plan to remove 10-10d v1](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131925)
+  - [ ] [Remove champva_enable_pega_report_check flipper](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105355
+- UX
+  - [ ]
+  - [ ] [[UX] February 2026 Monthly Medallia Report](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134201)
+  - [ ] [[UX]: 10-7959a: CHAMPVA claims resub fast-follows mocks](https://github.com/department-of-veterans-affairs/va.gov-team/issues/110247)
+
+##
+### Team PTO
+- Kyle 2.25 - 2.27
+- Matt 2.27
+
+
 ## 📆 Sprint 14 (Feb 11 - Feb 24) 
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 

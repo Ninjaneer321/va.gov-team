@@ -1,103 +1,115 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Appointments on MHV on VA.gov UAT Research Findings"
+product: "VA Online Scheduling (VAOS)"
+team: "Appointments FE"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-01-17"
+researchers: 
+  - "Peter Russo"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Verify via UAT that logged in Veterans are able to utilize recently added features and data is populating as expected."
+  - "Understand Veteran's expectations as they choose a facility or provider when scheduling an appointment."
 methodology:
-- Method 1
-- Method 2
+  - "User Acceptance Testing (UAT)"
+  - "Remote usability testing"
+  - "Task-based testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 10
+    tablet: 0
+    smartphone: 2
+    assistive_technology: 0
+participants_total: 12
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 12
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 8
+    "45-54": 1
+    "55-64": 0
+    "65+": 3
+    unknown: 0
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 1
+    bachelors: 4
+    masters: 6
+    doctorate: 1
+    unknown: 0
+  location: 
+    urban: 7
+    rural: 5
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 9
+    black: 1
+    hispanic: 3
+    biracial: 2
+    asian: 1
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 2
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Most participants struggled with login."
+  - "Most participants were confused when navigating across multiple portals to find the appointments list."
+  - "All participants easily navigated appointment details pages."
+  - "Most participants easily found their past appointments."
+  - "Some participants struggled to understand their pending appointments."
+  - "All participants were able to easily use the print feature."
+  - "Participants expected a more personalized experience for selecting facilities."
+  - "Missing or confusing data was the biggest frustration when using the appointments list."
+  - "Participants were confused by the request calendar."
+  - "Participants were confused by the alert that told them Community Care was unavailable for podiatry."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Improve the 'Schedule and manage appointments' page. This page is acting as public-facing information about appointments for SEO purposes, a help/FAQ page for appointments, and the entry point from help hubs. Consider separating the general appointments information from FAQ and scheduling entry points. On the MHV on VA.gov portal, the link to this page is confusing because it redirects users from one entry point to another entry point for the same tool. Remove the link to this page. Finally, it's confusing to return to this page after going through the login flow. Consider redirecting Veterans directly to the Appointments home page after they log into the Schedule and Manage appointments page."
+  - "On the MHV National Portal, remove the page that transitions users to VA.gov appointments. The 'Schedule appointments at' page is an additional decision point before Veterans are redirected to VA.gov. If all the functionality on this page is handled when the user arrives at VA.gov, remove this page."
+  - "Clarify pending appointments. As we saw in this and other studies, Veterans who have never requested an appointment will be confused when they see the Pending(0) link. Consider hiding the link to the Pending page only if the Veteran currently has pending or canceled appointment requests. Consider treating pending appointments as a 'notification' or 'task' - a temporary situation the Veteran can track. Look at the check-in and travel pay work for ideas."
+  - "Consider ways to surface medical history on past appointments. Some participants went directly to their medical history when asked to find information about their past appointments. Along with the in progress AVS work, consider linking directly to Veterans medical history from the past appointments page."
+  - "Start a working group to focus on the data issues. A group who could surface type of care and provider name for all or most appointments would immediately increase the usability and trustworthiness of the list views. This group could also work with the schedulers and VistA teams to improve appointment data across systems."
+  - "Simplify the process of selecting a location. On the facility selection page, consider showing a Veterans 'current' facilities first. This could be any facility they've received care at in the past two years. Also, identify the facility where they've been seen most frequently."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Assistive tech users"
+  - "Veterans with no degree"
+  - "Veterans with other than honorable discharge"
+  - "Veterans of immigrant origin"
+  - "Expat Veterans"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
+  - "Spreadsheet"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: My VA'
-- 'MHV: Appointments'
-- 'MHV: Secure Messaging'
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: Appointments"
+  - "MHV: National Portal/Access"
+  - "PRDT: My VA"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "remote-research"
+  - "UAT"
 ---
+
 # Appointments on MHV on VA.gov UAT Research Findings
 
 **Office of the CTO - Digital Experience (OCTO-DE), Appointments, Appointments FE**

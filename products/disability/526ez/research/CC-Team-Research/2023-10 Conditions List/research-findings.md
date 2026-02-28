@@ -1,106 +1,136 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Conditions List Veteran Research Findings"
+product: "VA Form 21-526EZ"
+team: "Contention Classification"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-11-15"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Eva Heintzelman"
+  - "Sudeepti Bhatnagar"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Learn how Veterans think and talk about what conditions to claim"
+  - "Assess whether a type-ahead field with autosuggestions is a usable/desirable way for Veterans to name conditions they want to claim (and evaluate the component overall for usability)"
+  - "Evaluate the revised conditions list"
 methodology:
-- Method 1
-- Method 2
+  - "remote moderated research"
+  - "usability testing"
+  - "semi-structured interviews"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 6
+  tablet: 1
+  smartphone: 1
+  assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 1
+    "45-54": 2
+    "55-64": 2
+    "65+": 3
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 1
+    bachelors: 3
+    masters: 4
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 6
+    rural: 2
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 2
+    hispanic: 1
+    biracial: 1
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 4
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Most participants found the component easy to use for entering and saving conditions"
+  - "Participants selected conditions from the autosuggestions most of the time"
+  - "Some participants faced difficulties finding their conditions in the suggested condition list"
+  - "Besides the search, other page and component elements caused confusion and interaction difficulties"
+  - "Some participants did not realize they could submit free text within the same component that offers autosuggestions"
+  - "Most of the time, Veterans know what conditions they have based on what they are experiencing, past medical exams and diagnoses, even if they sometimes forget the exact term. For many Veterans, there are times when they do not have sufficient knowledge of a condition or are unsure about the service connection"
+  - "Veterans are concerned about the accuracy of their claim, but the nature and degree of concern varies"
+  - "Veterans submit disability claims for new conditions at various times in their journey as a Veteran and for various reasons. Relevant support and resources to prepare and submit their claim will differ accordingly"
+  - "It is not technology that holds Veterans back from submitting disability claims digitally. Veterans who plan to use VSOs in the future (in lieu of submitting online) seek a trusted resource to support them through the claims process"
+  - "Using a VSO for disability claim submission can mean relinquishing control"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Keep text input with type-ahead functionality"
+  - "Keep current approach for writing terms for the suggested conditions list, having plain language and medical variations together in a term"
+  - "Keep right/left/bilateral in condition name"
+  - "Improve the component interaction design and instructions to make it more evident there is a free-text option while still encouraging Veterans to use auto-suggested terms where accurate"
+  - "Improve the clarity of the interaction between saving and adding a new condition"
+  - "Reduce need for extensive scrolling by changing the requirement to display 20 autosuggestions, only providing suggestions after a minimum number of letters, and requiring a minimum match score"
+  - "Consider including an additional optional text field where Veterans can add additional detail about their condition"
+  - "Make instructions shorter and to the point, place longer text in accordions so users can view them as needed"
+  - "Update the conditions list to ensure the most common conditions, especially musculoskeletal, are represented"
+  - "Explore technical solutions to improve the relevance of autosuggestions using prioritization criteria such as frequency of condition and semantic relationship with user input"
+  - "Explore ideas for Veterans who would benefit from more support to identify potential conditions, understand what conditions are, and determine service connections"
+  - "Compare autosuggestion usage after release of the revised list with historical usage and track usage over time"
+  - "Periodically analyze free-text entries to identify patterns where free-text is used instead of an equivalent term on the suggested conditions list"
+  - "Assess Veteran confidence in the accuracy of their entries when testing future design ideas"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Veterans who need more support to identify potential conditions and understand what conditions are"
+  - "Veterans who need support determining service connections"
+  - "Veterans seeking a trusted resource to support them through the claims process"
+  - "Hybrid self-service (online) with assistance model for Veterans comfortable with digital forms who want support from a trusted resource"
 further_research_needed:
-- Area 1
-- Area 2
+  - "Observational research of Veterans completing disability claims, especially new filers, to get a truer picture of Veterans' preparedness and understanding of medical conditions"
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Veterans with no degree after high school"
+  - "Veterans with other than honorable discharge"
+  - "Immigrant Veterans"
+  - "Expat Veterans (living abroad)"
+  - "Veterans who identify as Asian or Native"
+  - "Veterans who identify as LGBTQ+"
+  - "Veterans who use assistive technology"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "EnjoyHQ"
+  - "Mural"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Pension'
-- 'BNFT: Records'
-- 'PRDT: Accredited-Reps'
-- 'MHV: Personal Health Records/Medical Records'
-- usability-testing
-- moderated-research
-- remote-research
+  - "BNFT: Disability"
+  - "PRDT: VA-form-21-526EZ"
+  - "AUD: Veterans"
+  - "AUD: Veteran Service Office (VSO)"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "semi-structured-interviews"
+  - "DSC: Form - Text Input"
+  - "DSC: Form"
+  - "DSP: Ask users for multiple responses"
+  - "HDW: Desktop"
+  - "HDW: Tablet"
+  - "HDW: Smartphone"
+  - "evaluative"
 ---
+
 # Conditions List Veteran Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), 526EZ, Contention Classification**

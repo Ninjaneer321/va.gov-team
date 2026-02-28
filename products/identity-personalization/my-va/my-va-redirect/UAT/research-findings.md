@@ -1,102 +1,131 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "My VA Redirect UAT Research Findings"
+product: "My VA"
+team: "Authenticated Experience"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-08-15"
+researchers: 
+  - "Liz Lantz"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Test that the functionality works as expected for all login types and across devices"
+  - "Understand what people want to do once they've landed on My VA"
+  - "Identify any points of confusion with the My VA redirect experience"
+  - "Validate that Veterans can more quickly access what is most important to them since they can bypass the homepage"
+  - "Determine whether Veterans will miss the homepage after implementing the redirect"
 methodology:
-- Method 1
-- Method 2
+  - "User Acceptance Testing (UAT)"
+  - "Usability testing"
+  - "Task-based evaluation"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 1
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 10
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 10
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 10
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 10
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 1
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    unknown: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - |
+    Hypothesis 1: Veterans will be able to more quickly access what is most important to them since they can bypass the homepage - Mostly false. Most Veterans we spoke to primarily use VA digital services for health care (MHV) and wanted access to secure messaging and prescription refills, which were equally prominent to them on the homepage. 3 participants commented that they liked being able to see relevant, recent information (such as last deposit or an upcoming appointment) without having to click anything.
+  - |
+    Hypothesis 2: Veterans will not miss the homepage - Maybe true. Most participants we spoke to were primarily interested in links that are also available on My VA. Most participants we talked to usually go to eBenefits or MHV instead of VA.gov, so they have no current attachment to the homepage. Therefore, they won't miss it. 5 of 10 participants preferred landing on My VA over the homepage. 4 of 10 participants preferred the layout of the homepage or the mobile app over My VA because it shows them all options "at a glance", whereas they had to scroll much more on My VA. 1 participant had no preference for either the homepage or My VA.
+  - |
+    Hypothesis 3: The most common next step will be clicking on a link we surface in My VA - Definitely true. Most participants would click on prescription refills or secure messaging from My VA.
+  - |
+    Hypothesis 4: Veterans will use search if they can't find what they're looking for on My VA - Mostly true. This wasn't specifically tested for the first half of participants. Those that we did ask went to the main menu, profile, or search to look for a link that wasn't there.
+  - |
+    Research Question 1: Does the functionality work as expected, for all login types and across devices? For the most part, yes. We observed successful redirects to My VA with ID.me, MHV, and DS Logon. Of the 10 participants in our study, 4 experienced unexpected and inconsistent issues logging in. 2 of those 4 participants logged in with a MHV credential, which now routes people to ID.me for the 2FA portion of the login experience. After completing that, 1 user was routed to My VA, and one was routed to the homepage. The other 2 participants got errors on eauth.va.gov that the identity team is not sure what to make of.
+  - |
+    Research Question 2: What do people want to do once they've landed on My VA? 8 participants wanted to complete a health care task. 7 participants wanted to click a link under health care (secure messaging was most common). 1 participant wanted to view lab results, and would've clicked "My Health" in the main navigation to do so. One participant felt like the page was "blank" and stated they'd go back to MHV to do what they needed to do, despite the fact that My VA had links to those same tasks on the page. One participant only logs into VA.gov to look for general news, VA updates, and went to the footer to try to find that information from My VA. One participant wanted to return to MHV since that's the website they know.
+  - |
+    Research Question 3: Are there any points of confusion? There weren't any points of confusion caused by starting on the homepage and landing on My VA once login was completed. The most significant points of confusion we observed were related to the login process. The redirects and 2FA process of logging in are disruptive enough that participants are grateful to just be done with it, and they don't notice where they've landed. One participant, who had health care but no upcoming appointments, felt unsure after landing on My VA.
+  - |
+    Additional Finding 1: Participants had a hard time figuring out how to go back to the homepage from My VA. We had to skip this task for 1 participant. Of the 9 people we asked: 2 knew to click the logo to get back to the home page; 3 tried to use their browser back button, which triggered an error screen on a URL related to logging in; 2 looked for something called "home" in the main navigation menus; 2 had no idea how to get there. Since most participants tried to search when they couldn't find a link on My VA, it will likely not be detrimental to their task completion if they can't easily get back to the homepage.
+  - |
+    Additional Finding 2: 5 participants preferred the homepage or the mobile app to My VA. These participants quickly scanned the headings in the 4 quadrants to get a sense of what they could find on the page. 4 participants experienced very slow loading times, and 2 specifically mentioned that as being a drawback when comparing My VA to the homepage. 3 participants mentioned the ease of logging in with biometrics as a benefit to the VA Mobile app over the homepage or My VA; one of those participants is 100% blind and relies on a screen reader.
+  - |
+    Additional Finding 3: Participants mentioned a few tasks that are important to them that aren't on My VA. These included: Viewing lab and test results; Downloading their VA benefit letters; Accessing their DD214; 2 participants mentioned regularly checking on an appeal status that has been at a standstill for 2 years. When they logged in to My VA, they were shown the message that they had no claim updates without the ability to check the full status.
+  - |
+    Additional Finding 4: Logging in is a pain point for at least half of our participants. Participants expressed frustration about having to enter a 2FA code, and talked about preferring to use other VA digital properties, like the mobile app or eBenefits, because they don't require them to do that every time they log in. When participants used their back button after logging in, they were taken to an error screen related to the sign in process. 2 participants experienced an error on eauth.va.gov that prompted them to start the login process all over again. 2 participants were inexplicably forced to start over after entering their 2FA code.
+  - |
+    Additional Finding 5: All participants we asked responded positively to the new observer method we piloted. We had time to ask 8 of 10 participants. All 8 participants said they were fine with observers in the session. 5 of the 8 felt strongly it was important to ask for consent. 6 of 8 said having observers say a quick hello made them feel more welcome, though it was strange to them when they couldn't see or hear someone. Participants on tablets and mobile devices could not see anyone on the call other than the moderator. It was noticeable when a single observer chose not to say hello or turn on their camera.
+  - |
+    Additional Finding 6: When we're evaluating a flow that has a heavy dependency on another product outside of our team, we should include members of that team on our observer list. We observed many technical difficulties related to the login experience. It would've been helpful to have members of the identity team on hand since we can't record the actual sign in experience for privacy reasons. It likely would've been a positive experience for the identity team to see these issues first hand, even if the issues hadn't impacted our redirect.
+  - |
+    Additional Finding 7: When conducting a research session with a participant who uses a screenreader, we need to allow 2 or even 2.5 times the amount of time for other sessions. The nature of navigating the internet with a screenreader is slower than for sighted users. We weren't able to get through all tasks since another session was scheduled immediately after, and we had already gone over time.
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "We should test internally on production with our own accounts and Login.gov to verify there aren't any obvious problems with that credential and the redirect."
+  - "Meet with the analytics team to get their recommendations on how to measure the impact of this redirect."
+  - "Move forward with the My VA redirect and monitor our KPIs closely to determine how this is impacting people."
+  - "Create a Github issue to learn why the 'View lab and test results' link isn't showing on My VA anymore. It could be because we purposely removed it for accessibility reasons, or there may be a bug."
+  - "Create a Github issue to look at the Air Force logo in the name tag - the bottom of the logo was cut off for our Air Force Veteran participant."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
 tags:
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: My VA'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
+  - "AUD: Veterans"
+  - "PRDT: My VA"
+  - "BNFT: Healthcare"
+  - "MHV: Secure Messaging"
+  - "MHV: Pharmacy"
+  - "DSP: Help users to sign in"
+  - "Accessibility"
+  - "PRDT: eBenefits"
+  - "MHV: Appointments"
+  - "HDW: Smartphone"
 ---
+
 # My VA Redirect UAT Research Findings
 *Office of the CTO - Digital Experience (OCTO-DE), My VA, Authenticated Experience*
 

@@ -1,103 +1,136 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Modernized Check-In Experience: Travel Reimbursement Research Findings"
+product: "Modernized Check-In Experience"
+team: "Modernized Check-In Experience Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-10-05"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Ben Brasso"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Do Veterans prefer to be asked if they're interested in filing for travel reimbursement as a precursor to reviewing and confirming their eligibility within PCI?"
+  - "Is it confusing to check in for an appointment and submit a travel reimbursement claim at the same time?"
+  - "Does knowing that VA checks travel reimbursement and claim eligibility after a claim has been submitted deter Veterans from filing a travel reimbursement claim?"
+  - "What is the cognitive load required for Veterans when they review and confirm their travel reimbursement claim eligibility?"
+  - "How well or not so well do Veterans understand the status of their submitted claim or how to file a claim later on the PCI application's confirmation page?"
 methodology:
-- Method 1
-- Method 2
+  - "Remote moderated research sessions"
+  - "Usability testing"
+  - "A/B testing with prototypes"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 1
+  tablet: 0
+  smartphone: 16
+  assistive_technology: 0
+participants_total: 20
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 20
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 5
+    "45-54": 4
+    "55-64": 9
+    "65+": 2
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 3
+    some_college: 2
+    associates: 2
+    bachelors: 5
+    masters: 8
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 10
+    rural: 10
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 13
+    black: 3
+    hispanic: 1
+    biracial: 2
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - |
+    Veterans preferred being asked first if they want to file a travel reimbursement claim before being presented with questions to review and confirm eligibility of a claim within the PCI application compared to not being asked first.
+    - Of 9 Veterans, 6 thought Prototype A was easier to complete, 1 thought Prototype B was easier to complete and 2 had no preference.
+    - Of 9 Veterans, 6 preferred Prototype A, 2 preferred Prototype B and 1 had no preference.
+  - |
+    Veterans thought having the option to file a travel reimbursement claim while checking in for their appointment was easy and convenient.
+    - Of 9 Veterans, 6 had a positive sentiment, 2 had a neutral or mixed sentiment and 1 had a somewhat negative sentiment for checking in to an appointment and filing a travel reimbursement claim together.
+  - |
+    No, knowing that VA checks travel reimbursement and claim eligibility after a claim has been submitted does not stop Veterans from filing a claim. But Veterans felt that VA should already know the answers to the eligibility questions asked.
+    - Of 9 Veterans, 7 responded no, 1 responded yes and 1 responded with no response that knowing VA checks travel reimbursement and claim eligibility after a claim is submitted would not deter them from filing.
+  - |
+    Veterans required a very low cognitive load to answer questions related to reviewing and confirming their travel reimbursement claim eligibility. Additionally, Veterans preferred being asked one question at a time to complete a travel reimbursement claim, rather than all questions on one page.
+    - 30 of 32 responses from 8 Veterans answered "5 - shorter amount of time" (on a scale of 1 to 5, where 1 is a longer amount of time and 5 is a shorter amount of time) when asked how much time they needed to answer each question.
+    - Of 7 Veterans, 2 thought Prototype C was easier to complete, 1 thought Prototype B was easier to complete and 4 had no preference.
+    - Of 8 Veterans, 4 preferred Prototype C, 2 preferred Prototype B and 2 had no preference.
+  - |
+    Veterans thought the information about the status of their submitted claim or how to file a claim later was easy to understand, but expected more information about when and where to check the status of their claim.
+    - 27 of 33 responses from 9 Veterans answered "1 - easy" (on a scale of 1 to 5, where 1 is easy and 5 is difficult) when asked to rate the difficulty of understanding the information on the PCI application's confirmation pages.
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Utilize a user flow that includes asking Veterans if they want to file a travel reimbursement claim before being presented with questions to review and confirm eligibility of a claim, and present the questions one at a time."
+  - "Include clear paths to information (or where to find relevant information) for Veterans to understand travel reimbursement and claim eligibility, without affecting the Veteran's ability to easily complete their tasks."
+  - "Include clearer information on the application's confirmation pages for Veterans to understand where to check the status of their claim (e.g., link to the AccessVA travel claim portal), who to contact if they have issues or questions (e.g., travel office contact information), and how they will receive updates about their claim (e.g., send an email, text message, etc.)."
+  - "Talk to the Travel Reimbursement Business and BTSSS API partners about finding a way to check a Veteran's travel reimbursement eligibility prior to them submitting a claim and making that functionality available to applications utilizing BTSSS API."
+  - "Talk to the BTSSS API partners about expanding the API to support accepting more types of travel reimbursement claims beyond only mileage without other expenses. E.g., traveled from an address other than home, meals, lodging, tolls, etc."
+  - "Knowing that Veterans thought that having the option to file a travel reimbursement claim while checking in for their appointment was easy and convenient, talk to staff-facing application partners about whether this feature can be added into their check-in workflows."
+  - "Include more information into travel reimbursement claim eligibility questions about common Veteran travel arrangements and trip types (e.g., tolls, meals, Uber, etc.) for Veterans to better understand the nuance of the questions being asked."
+  - "Avoid using \"we may be able to\" phrasing in favor of more precise information."
+  - "Include support for Veterans to file a travel reimbursement claim after their appointment through something like a post-visit SMS message for those opted in to receive messages from VEText."
+  - "Send Veterans a confirmation of their submitted claim through SMS that includes their claim number and where to check the status of their claim (e.g., AccessVA travel claim portal)."
+  - "Review additional functionality that Veterans asked about with PCI product owners. E.g., estimated claim reimbursement dollar amount, health insurance confirmation, editing demographics, etc."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
+  - "Veterans have experienced frustrations with VA general health care travel reimbursement"
+  - "Veterans often wanted more information to be able to better answer questions, and more decisiveness"
+  - "Veterans asked about additional functionality"
+further_research_needed: []
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Hispanic"
+  - "Native"
+  - "LGBTQ+"
+  - "Assistive technology"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
+  - "Affinity Mapping"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'MHV: Appointments'
-- 'MHV: Secure Messaging'
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: health-care-check-in"
+  - "HDW: Smartphone"
+  - "RESRCH: Remote"
+  - "RESRCH: Usability"
+  - "RESRCH: A/B Test"
+  - "VETSJNY: Taking care of themselves"
+  - "DSC: Form"
+  - "DSP: Ask users for multiple responses"
 ---
+
 # Modernized Check-In Experience: Travel Reimbursement Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Healthcare Products, Modernized Check-In Experience**

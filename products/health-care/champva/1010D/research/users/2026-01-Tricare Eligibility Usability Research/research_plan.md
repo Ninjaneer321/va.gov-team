@@ -188,9 +188,9 @@ Are there moments that matter?</summary>
 
 `1. Learn where there are content comprehension issues within the eligibility questions and error messages options tested.`
 
-`2. Discovery around two flows - one using a new VADS pattern and the other with a VADS pattern and API hybrid approach - to determine usabilty and user preference for both.`
+`2. Discovery around two flows - one using a new VADS pattern and the other with a VADS pattern and API hybrid approach - to determine usability and user preference for both.`
 
-`3. Learn if there are any usability issues with the new VADS eligibility pattern and/or hybird option.`
+`3. Learn if there are any usability issues with the new VADS eligibility pattern and/or hybrid option.`
 
 
   

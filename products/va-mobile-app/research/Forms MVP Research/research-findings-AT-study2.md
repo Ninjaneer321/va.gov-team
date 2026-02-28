@@ -1,128 +1,129 @@
 ---
-title: Forms MVP Usability Study 2 - Assistive Technology Users - Research Findings
-product: VA Health & Benefits Mobile App
-team: Mobile App & Platform Team
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: '2025-10-22'
+title: "Forms MVP Usability Study 2 - Assistive Technology Users - Research Findings"
+product: "VA Health & Benefits Mobile App"
+team: "Mobile App & Platform Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2025-10-22"
 researchers:
-- Christine Julian (Researcher)
-- Jonathan Post (UX Designer)
+  - "Christine Julian (Researcher)"
+  - "Jonathan Post (UX Designer)"
 research_goals:
-- Understand if Veterans using screen reader or screen magnifier technology can find
-  and interact with forms from the app.
-- Identify if Veterans using screen reader or screen magnifier technology can fill
-  out a form from the app on their own.
-- Identify if Veterans using screen reader or screen magnifier technology can start
-  a form and come back to it at a later time to complete.
+  - "Understand if Veterans using screen reader or screen magnifier technology can find and interact with forms from the app."
+  - "Identify if Veterans using screen reader or screen magnifier technology can fill out a form from the app on their own."
+  - "Identify if Veterans using screen reader or screen magnifier technology can start a form and come back to it at a later time to complete."
 methodology:
-- Moderated Usability Testing
+  - "Moderated Usability Testing"
 devices_used:
-  desktop: X
+  desktop: 0
   tablet: 4
   smartphone: 6
-  assistive_technology: X
+  assistive_technology: 10
 participants_total: 10
 demographics:
   veterans: 10
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: 2
-    45-54: 2
-    55-64: 4
-    65+: 3
+    "25-34": 0
+    "35-44": 2
+    "45-54": 2
+    "55-64": 4
+    "65+": 3
+    unknown: 0
   education:
-    high_school: X
+    high_school: 0
     some_college: 1
     associates: 2
     bachelors: 3
     masters: 4
-    doctorate: X
-    unknown: X
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 10
   race:
     white: 6
     black: 4
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
     cognitive: 1
     AT_beginner: 1
     AT_advanced: 9
-    screen_reader_desktop: X
+    screen_reader_desktop: 0
     screen_reader_mobile: 5
     magnification_zoom: 5
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- 1. AT users had mixed feelings about the process of completing forms in the app.
-- 2. Veterans expect to find statements in support of a claim under the claims section
-  of the app.
-- 3. The 'What would you like to do?' screen created more doubt to Veterans that they
-  were in the right place to submit their statement in support of a claim.
-- 4. Veterans struggle to return to the app from webview. Veterans are not aware that
-  they are on a webview instead of the app
-- 5. Typing is frustrating for AT users especially on smaller devices, however mobile
-  devices offer easier ways to complete fields.
-- 6. Statuses are unclear both about the form and app form tabs 'active/complete'.
+  - "1. AT users had mixed feelings about the process of completing forms in the app."
+  - "2. Veterans expect to find statements in support of a claim under the claims section of the app."
+  - |
+    3. The 'What would you like to do?' screen created more doubt to Veterans that they were in the right place to submit their statement in support of a claim.
+  - |
+    4. Veterans struggle to return to the app from webview. Veterans are not aware that they are on a webview instead of the app.
+  - "5. Typing is frustrating for AT users especially on smaller devices, however mobile devices offer easier ways to complete fields."
+  - |
+    6. Statuses are unclear both about the form and app form tabs 'active/complete'.
 recommendations:
-- 1. Address found accessibility issues to improve the app and the digital form.​
-- 2. Consider multiple pathways to forms. Direct users to the 21-4138 form also under
-  the context of claims.
-- 3. Direct users to the 21-4138 form also under the context of claims, relate the
-  action 'submit a statement' closer to the claim itself.
-- 4. Clarify the options on the screen 'What would you like to do?’.
-- 5. Limit or discourage use of webview from the app.
-- 6. Update the text of the ‘Done’ button so users understand when to use it.
-- 7. Consider only frequently utilized, short forms that require minimal typing from
-  the user for the app with prefilled data where available.
-- 8. Clarify statuses, providing additional explanation and showing progression.
+  - "1. Address found accessibility issues to improve the app and the digital form."
+  - "2. The MVP of forms in the app should focus on providing detailed status progression."
+  - |
+    3. Direct users to the 21-4138 form also under the context of claims, relate the action 'submit a statement' closer to the claim itself.
+  - |
+    4. Clarify the options on the screen 'What would you like to do?'.
+  - "5. Limit or discourage use of webview from the app."
+  - |
+    6. Update the text of the 'Done' button so users understand when to use it.
+  - "7. Consider only frequently utilized, short forms that require minimal typing from the user for the app with prefilled data where available."
+  - "8. Clarify statuses, providing additional explanation and showing progression."
+  - "9. Surface support hotlines throughout the process and ensure call center staff are equipped to assist Veterans who are navigating the app. In the future, consider in-app support options."
+  - "10. Send a notification to the user including the details displayed on the confirmation page."
+  - "11. Surface confirmation numbers, actions, and associated claim number related to their statement in the app after submission of a form."
 kpi_alignment:
-- Trust, satisfaction, and equity
+  - "Trust, satisfaction, and equity"
 outcomes:
-  user: Make it simpler and faster for users to interact with VA and complete day-to-day
-    transactions.
-  business: Empower business lines to provide targeted communication to Veterans.
+  user: "Make it simpler and faster for users to interact with VA and complete day-to-day transactions."
+  business: "Empower business lines to provide targeted communication to Veterans."
 opportunity_areas:
-- Introductory screens to form 21-4138
-- Action relationally associated with claims
+  - "Introductory screens to form 21-4138"
+  - "Action relationally associated with claims"
 further_research_needed:
-- Test with assistive tech users
-- Test the form introductory screens related to 21-4138 after updates to content
+  - "Test with Android users"
+  - "Test the form introductory screens related to 21-4138 after updates to content"
+  - "Test with assistive tech users"
 underserved_groups_missing:
-- Live abroad
-- Other than honorable
-- Immigrant origin
-- Expat
-- Identify as LGBTQ+
+  - "Live abroad"
+  - "Other than honorable"
+  - "Immigrant origin"
+  - "Expat"
+  - "Identify as LGBTQ+"
 secondary_research:
-- None
+  - "None"
 synthesis_tools_used:
-- Excel Spreadsheet Coding
+  - "Excel Spreadsheet"
+  - "AI Synthesis, GitHub Copilot"
 tags:
-- 'AUD: Veterans'
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Caregivers'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
-- usability-testing
-- moderated-research
-- remote-research
-- Accessibility
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Claim-status-tool"
+  - "DSC: Form"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "Accessibility"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
 ---
+
 # Forms MVP Usability Study Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), VA Health and Benefits App, Mobile App and Platform Team**

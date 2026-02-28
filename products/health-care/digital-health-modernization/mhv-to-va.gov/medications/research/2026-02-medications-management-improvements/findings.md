@@ -243,4 +243,4 @@ The "Select all 3 refills" checkbox for bulk refills was discovered and apprecia
 
 ---
 
-*This is a preliminary topline. A full analysis would include affinity diagramming of all quotes, severity ratings for each usability issue, and design-specific recommendations with annotated screenshots.*
+

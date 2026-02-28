@@ -1,103 +1,128 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Welcome to My VA and Profile Completion, Usability Study, Research Findings"
+product: "Veteran Onboarding / My VA"
+team: "IIR (Innovate, Iterate, & Run)"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-08-31"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Liza McRuer"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Identifying areas for improvement for Veterans creating accounts for the first time. We want to provide a more welcoming experience that establishes VA as a source of support for Veterans as they navigate the site and authenticate for the first time."
+  - "Testing a new task list component to see how Veterans respond to requests for action or information."
+  - "Understanding what Veterans think about providing contact information to VA."
 methodology:
-- Method 1
-- Method 2
+  - "Remote moderated usability testing"
+  - "Semi-structured interviews"
+  - "Prototype testing (Figma)"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 10
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "18-24": 1
+    "25-34": 3
+    "35-44": 1
+    "45-54": 2
+    "55-64": 0
+    "65+": 3
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 3
+    some_college: 3
+    associates: 2
+    bachelors: 1
+    masters: 1
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 10
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 2
+    black: 3
+    hispanic: 2
+    biracial: 0
+    asian: 0
+    native: 0
+    prefer_self_describe_or_unknown: 3
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Engagement during out-processing varied."
+  - "Upon login, the focus should remain on a single task - verification."
+  - |
+    The task list was well-received by participants, but it doesn't stand out enough from the page enough in its current form.
+  - |
+    Participants were willing to provide their information, if they understood the value to them.
+  - |
+    Participants immediately noticed the task change to "completed" and stated they would go complete the second task, indicating a strong association with list-based prompts done in order.
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - |
+    Instead of pre-verification tasks or resources, provide only simple messaging. Rather than providing links along with a welcome message, we recommend static messaging that provides orientation to the site and keeps the focus on the single task that needs to happen right away - verification.
+  - |
+    The task list is a promising component and needs additional work prior to launch. In this instance, we plan on updating the content to be more in-line with user expectations. We will also provide more visual emphasis so it stands out from the page.
+  - |
+    Participants responded well to the request for information, but we need to be clear about the outcome of every user action. Participants responded well to UI indicators such as the number of steps, the confirmation of a completed task, and the change in task status.
+  - |
+    Remove confirmation page and provide the information on that page earlier in the process. The updated flow and pattern should allow us to negate the need for a final page, which participants did not find useful.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not explicitly stated in the report"
+  business: "Not explicitly stated in the report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Veterans expect personalized eligibility and benefits recommendations immediately upon account creation"
+  - "The task list component needs stronger visual differentiation from the rest of the page"
+  - "Veterans expect VA to already have their information (e.g., email from account creation) and need clarity on why they are being asked to provide it again"
+  - "Two participants believed updating their profile would translate to all related VA accounts, such as health information"
+  - "Zero out of ten participants wanted to verify their identity as a first action; all immediately started looking for benefits"
 further_research_needed:
-- Area 1
-- Area 2
+  - "A study focused on assistive technology (AT) users to ensure the pattern is accessible to all users"
 underserved_groups_missing:
-- Group 1
-- Group 2
+  - "Veterans who identify as gay, lesbian, or bisexual; transgender or non-binary"
+  - "Users of assistive technology"
+  - "Veterans in rural locations (location was not tracked in this study)"
+  - "Mobile device users (all participants elected to use desktop)"
 secondary_research:
-- Web analytics
-- SME interviews
+  - "Transitioning Service Member Engagement research review"
+  - "Onboarding comparative analysis"
+  - "Transition Journey Map"
+  - "Navigating military transition research"
+  - "Navigating transition from military service to civilian life research"
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural (Synthesis Mural)"
+  - "Mural (Observer notes)"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: My VA'
-- 'MHV: Pharmacy'
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "PRDT: My VA"
+  - "PRDT: VA.gov Profile"
+  - "DSP: Ask users for addresses"
+  - "DSP: Ask users for contact preferences"
+  - "DSC: Alert Boxes"
+  - "HDW: Desktop"
+  - "VETJNY: Getting out Military"
+  - "usability-testing"
+  - "remote-research"
 ---
+
 # Welcome to My VA and Profile Completion, Usability Study, Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Welcome to My VA, IIRe**

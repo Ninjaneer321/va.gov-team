@@ -1,95 +1,133 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Clinical Reminders: Health Questionnaire Tools Staff Interviews 1a Research Findings"
+product: "Health Questionnaires"
+team: "Health Questionnaires"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2024-02-02"
+researchers: 
+  - "Kristen McConnell"
+  - "Nina Anusavice"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "To gather staff feedback during Phase 1a (before crossing over to the other tool)"
+  - "How easy was it to learn to use the tool?"
+  - "How easy was the configuration/set up process for the tool?"
+  - "How long did it take to learn to use the tool?"
+  - "Would providers change anything about the training they received? If yes, what?"
+  - "How easy is the tool to utilize?"
+  - "Was data entry simplified?"
+  - "Was notification fatigue reduced?"
+  - "Was overall clinic reminder burden reduced?"
+  - "Did the quality of the time providers spend with patients improve?"
+  - "How much time do providers estimate was saved by collecting these clinical reminder responses prior to the appointment?"
+  - "Were providers workflows affected either positively or negatively? If yes, how?"
+  - "Do providers feel this process maintains an appropriate level of safety and clinical integrity?"
+  - "How does BHL compare to eScreening for each requirement? Which tool is preferred?"
+  - "How could the tools or experience be improved or changed?"
+  - "What was the final process for sending, receiving, and reviewing these questionnaires implemented at each location?"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Crossover trial methodology"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 7
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 7
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 7
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 7
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 7
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 7
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "6 out of 6 participants stated that learning how to utilize both BHL and eScreening was easy, but they relied on different channels to ask follow-up questions for the first few weeks of the pilot. 6 stated formal training consisted of one presentation that took 30-60 minutes via Teams. 1 stated they watched the presentation in a conference room. 6 mentioned it took them a few minutes up to 20 minutes to learn the tool. Some mentioned that they asked numerous follow-up questions via weekly huddles or Teams channels for the first few weeks of the pilot."
+  - "4 out of 6 participants suggested improvements to the training, such as access to the tool during training, a step-by-step guide on what to do about positive results, and a frequently asked questions document."
+  - "BHL Workflow Diagram"
+  - "eScreening Workflow Diagram (at the beginning of the pilot)"
+  - "All 3 eScreening staff had to devise workarounds to address the following problems: appointment statuses were changed to checked in when the screener was pushed to VistA and appointment notes remained in VistA when the Veteran cancelled or rescheduled their appointment."
+  - "1 participant mentioned their team sent letters out informing Veterans that they will be receiving clinical reminder screeners in their email before their appointment."
+  - "eScreening workflow diagram (after making changes)"
+  - |
+    2 out of 3 BHL participants agreed that this pilot saved them time during their day, while all 3 eScreening participants didn't see time-saving or data entry benefits. Reasons eScreening participants aren't seeing time-saving or data entry benefits: Reminders were not being removed from the eScreening lists after the screeners are uploaded to VistA. Not all clinical reminders are asked digitally. BHL participants also mentioned this improvement. Notifications about completed screeners are intermingled with other notifications.
+  - |
+    5 out 6 participants believed both tools maintained an appropriate level of safety and integrity. They most often associated safety and integrity with more genuine answers from the Veteran and preventing coding hazards. Participants theorized that Veterans would be more likely to answer the screeners more genuinely on their own than with a staff member in the office. The pilot uncovered at least one instance where the digital screener for the same Veteran came back positive, while the same in-person screener was negative.
+  - "When discussing email and CPRS clinical reminder notifications, 2 out of 3 BHL participants experienced a decrease in notifications and 1 BHL participant experienced an increase."
+  - "3 out 6 participants mentioned that adding other clinical reminders would greatly improve staff processes and current clinical reminder burden, but they expressed concern about being able to get Veterans to complete them all."
+  - "4 out of 6 users suggested automatically sending the screener responses to CPRS, because it would decrease their workloads and prevent forgetting to push the answers to CPRS."
+  - |
+    Staff recommendations for improving tools: BHL: 1 participant would like for screeners to be automatically sent to Veterans depending on when their appointment was scheduled for. They don't want to have to set up the clinical reminders each week manually. 1 participant proposed positive reminders could auto-populate for the nursing staff to complete, when MSAs send out the reminders. eScreening: 1 participant recommended anyone covering for a LPN should have access to sign the note. 1 participant wanted to see pending batteries to help decrease them forgetting what they already started or completed. 1 participant wants screeners for past appointments removed from their eScreening dashboard. 1 participant wanted the ability to transfer screener to rescheduled appointments.
+  - |
+    TES Navigator Finding 1: Clinical Reminder Pilot Awareness. No knowledge of the screening tool until 2 weeks before this interview. Didn't have access to screening tool or know what the tool really did.
+  - "TES Navigator Finding 2: TES Navigator Workflow"
+  - |
+    TES Navigator Finding 3: Improvement ideas and challenges encountered. Wants access to the follow-up question responses in the clinical reminder for all Veterans (even screeners closed by providers) to double check all Veterans with questions are getting their questions answered. Reported some Veterans becoming "scared" when hearing the word "toxic" mentioned during phone calls. Concerned about false positives/negatives and coding hazards improperly. "A LPN asked a Vet if he had any embedded fragments, and he said yes. He had a metal in his wrist (surgically implanted) and the LPN listed that the Veteran had embedded fragments. When in fact he didn't have any embedded fragments." Screener question that the TES Navigator would like to see all responses for.
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "While onboarding future sites, make sure they set up a mechanism for questions during the first few weeks."
+  - "Provide staff with clear guidance on the next steps for a positive result. Look into giving trainees access to the tool during the training sessions. Create an FAQ document."
+  - "Advise new sites on how to configure eScreening and how best to set up their workflow, so these problems with check-in and check-out don't occur."
+  - "Investigate adding a sentence or two to the appointment reminder letters that the Veteran may receive digital screeners to complete prior to their appointment."
+  - "Try to digitalize as many clinical reminders as possible."
+  - "To increase efficiency, send as many clinical reminders digitally to the Veteran prior to an appointment as possible."
+  - "Explore automatically creating an historical clinical note in CPRS when the Veteran submits their answers."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: VA Staff"
+  - "AUD: Clinicians"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Questionnaire"
+  - "Initiative: PACT Act"
+  - "Initiative: Toxic Exposure"
+  - "MHV: Appointments"
+  - "semi-structured-interviews"
+  - "evaluative"
 ---
 
 # Research Findings for Clinical Reminders: Health Questionnaire Tools Staff Interviews 1a

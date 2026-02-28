@@ -1,104 +1,126 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "All 'Primary care questionnaire' MVP Workflows Discovery Research Findings"
+product: "Primary Care Questionnaire"
+team: "Not specified in report"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2020-12"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Kristen McConnell"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Usability test desktop and mobile prototype versions of the primary care appointment questionnaire design"
+  - "Gain feedback on all the workflows in and out of the questionnaire"
+  - "Test if Veterans will be able to successfully find and complete the questionnaire"
+  - "Test if Veterans will be able to navigate to a meaningful location after completing the questionnaire"
+  - "Assess if there will be minimal confusion created by the content and question wording within any of the workflows"
 methodology:
-- Method 1
-- Method 2
+  - "Remote moderated usability testing"
+  - "High-fidelity wireframe prototype testing"
+  - "WebEx sessions"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 6
+  tablet: 0
+  smartphone: 4
+  assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 1
+  caregivers: 1
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 2
+    "35-44": 1
+    "45-54": 3
+    "55-64": 0
+    "65-74": 2
+    unknown: 2
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 2
+    associates: 1
+    bachelors: 1
+    masters: 4
+    doctorate: 0
+    unknown: 2
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 10
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 10
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 4
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Veterans welcomed and even expected email and text notifications for health questionnaires."
+  - "Questionnaire links within text messages are more easily overlooked by participants who already receive appointment reminder text messages, because participants automatically reply confirm/cancel and don't read further."
+  - "Veterans are interested in receiving multiple notifications (an initial notification and a reminder notification)."
+  - "Veterans expect to sign in to complete health questionnaires, in order to protect their health records."
+  - "The usability of the questionnaire was reconfirmed by Veterans with PTSD and TBI."
+  - "The value of the questionnaire was reconfirmed by Veterans."
+  - "Veterans want to view more appointment details when completing health questionnaires."
+  - "Veterans still plan to print their questionnaire to take with them to their appointment."
+  - |
+    Veterans want to view their completed questionnaires for two main reasons:
+    - To make sure that their questions were answered
+    - Want access to all of their medical record
+  - "Veterans are not interested in seeing not submitted questionnaires, except when they started the questionnaire, then the appointment was canceled."
+  - "Veterans are interested in sorting and filtering the list of their completed questionnaires by specialty, type of questionnaire, and date."
+  - "Veterans are interested in viewing scores from questionnaires (also known as screeners) over time."
+  - "When entering through the main VA.gov homepage, Veterans were split on whether they wanted to navigate to these health questionnaires via a badge/notification on a dashboard or the appointments section."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Send out notifications seven days in advance of an appointment, then again a day prior."
+  - "Re-evaluate text message wording, so more attention is brought to the link."
+  - "Evaluate displaying more appointment information in the questionnaire workflow."
+  - |
+    Further explore displaying statuses on the questionnaire list, including:
+    - not submitted, but canceled appointments
+    - no shows
+    - in-progress versus new
+    - any other statuses (engineering will look into statuses more)
+  - "Watch the conversion rates on text messages versus emails. Re-evaluate incorporating questionnaires link in appointment reminder text depending upon analytics."
+  - "Depending upon email conversion rates, explore a PII questionnaire email, similar to the texting solution already used by VeText."
+  - "Re-evaluate reminder text that is sent a day prior to the appointment with questionnaire only information."
+  - "Explore sorting and filtering on the Questionnaire list (Completed tab)."
+  - "Revisit the Veteran information (demographics) page to explore editing options."
+  - "Work with VAOS and the authenticated experience teams to add questionnaire information within their products."
+  - "Explore how demographic information is displayed and updated across all forms. Is it always editable? Is it only editable within the profile section?"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  user: "Not explicitly stated in report"
+  business: "Not explicitly stated in report"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: Facilities'
-- 'MHV: Appointments'
-- 'MHV: Secure Messaging'
-- 'MHV: Personal Health Records/Medical Records'
-- usability-testing
-- moderated-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: Appointments"
+  - "usability-testing"
+  - "moderated-research"
+  - "DSP: Notifications"
+  - "DSP: Help users to sign in"
+  - "evaluative"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
 ---
 # All “Primary care questionnaire” MVP Workflows Discovery Readout
 

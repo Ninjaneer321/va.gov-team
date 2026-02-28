@@ -20,6 +20,7 @@ Expected Annual Submission: 1921
 | 02/03/26 | 11     | 60    | 3.1%      |
 | 02/10/26 | 9      | 69    | 3.6%      |
 | 02/18/26 | 10     | 79    | 4.1%      |
+| 02/24/26 | 18     | 97    | 5.0%      |
 
 ## Post-MVP Enhancements
 | Update Type | <div style="width: 300px;">Title / Description</div> | Category | Due Near-Term? | Layer | SME Discussion? | SME Testing? | Status | Story | Staging PR | Staging Merged Date | Notes |
@@ -31,6 +32,7 @@ Expected Annual Submission: 1921
 | Enhancement | **Find a Form search results page content** <br> Include a link to the online tool and update the form name. | Vendor Team Suggestion | - | Front-end | Y | Y | Not Started | [130088](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130088) |  |  |  |
 | Enhancement | **Find a Form page content** <br> Include a link to the online tool and update the form name. | Vendor Team Suggestion | - | Front-end | Y | Y | Not Started | [130090](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130090) |  |  |  |
 | Enhancement | **Improve Intro with better timeline info** <br> A surviving spouse receiving a marital status verification request needs the introduction page to explain why they're getting this form and clarify it's routine, not a problem with their benefits. | Vendor Team Suggestion | - | Front-end | Y | Y | Not Started | [130112](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130112) |  |  |  |
+| Defect Fix | **Text field validation preventing forbidden characters** <br> Improve the text input validation to prevent users from entering characters that break the backend processing (specifically the .json.erb interpolation). | Vendor Team Suggestion | - | Front-end | N | N | In Progress | [134207](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134207) | [42614](https://github.com/department-of-veterans-affairs/vets-website/pull/42614) |  |  |
 
 **Update Type:** Enhancement, Update, Finding, Defect Fix, or Bug Fix  
 **Categories:** SME Requirement/Request, Staging Finding, or Vendor Team Suggestion  

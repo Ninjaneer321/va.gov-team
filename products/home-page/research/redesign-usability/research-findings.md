@@ -1,109 +1,129 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "VA.gov Home Page Redesign Usability Test Findings Research Findings"
+product: "VA.gov Home page"
+team: "Sitewide Home Page team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-08-31"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Cindy Merrill"
 research_goals:
-- Goal 1
-- Goal 2
+  - "get user feedback on the redesigned VA.gov home page"
+  - "assess whether the design changes have improved the usability of the home page"
 methodology:
-- Method 1
-- Method 2
+  - "remote moderated usability sessions via Zoom"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 12
+  tablet: 4
+  smartphone: 3
+  assistive_technology: 0
+participants_total: 19
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 16
+  service_members: 2
+  caregivers: 1
+  family_members: 2
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 2
+    "35-44": 4
+    "45-54": 5
+    "55-64": 5
+    "65+": 3
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 4
+    some_college: 5
+    associates: 3
+    bachelors: 4
+    masters: 3
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 11
+    rural: 8
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 8
+    black: 10
+    hispanic: 2
+    biracial: 3
+    asian: 0
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 4
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Most participants browsed (clicking links) without using the Search box at all or searched only when browsing didn’t work."
+  - "Most participants' navigation of the home page often didn't include the entire page but only certain parts of it."
+  - "Of the 20 top tasks tested, 9 tasks were completed successfully by *everyone* who tried them, 7 were completed by *most* who tried them, and 4 were completed by *only half* of those who tried them."
+  - "Most sign-ins didn't happen on the home page (with \"Sign in or create an account\" near the photos or \"Sign in\" in the header)."
+  - "Two accessibility issues were discovered with the VA Benefits and Health Care megamenu on desktop, both of which confused a pilot participant using a screen reader, and one of which also confused other participants."
+  - "No participants said anything about the Vantage blog promo box entitled \"Updates on Veteran homelessness\" nor clicked on it while doing tasks (no tasks were related to it)."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Keep the new search box because many more participants found it and used it as compared to search in the header."
+  - "Consider the following revisions to the *Common tasks* section: Make the section (at least the header) stand out more visually so it's noticed by more people."
+  - "Consider the following revisions to the *Common tasks* section: Add more top tasks to the list, including Get mental health help, Update your address, and Message your doctor."
+  - "Consider the following revisions to the *Other search tools* section: Make the section (at least the header) stand out more visually so it's noticed by more people."
+  - "Consider the following revisions to the *Other search tools* section: Consider removing \"Education benefits\" because it's not a search tool like \"Find a form\" and \"Find a VA facility\"."
+  - "Consider the following revisions to the *Other search tools* section: Remove the \"Yellow Ribbon\" link because a lot of people don't know what it is, and it's confusing to have a second education link."
+  - "Consider the following revisions to the *Other search tools* section: Possibly rename *Other search tools* since this name wasn't clear to some people."
+  - "Consider renaming the \"Sign in or create account\" button to \"Create an account\" so that it specifically addresses people who don't yet have an account."
+  - "Try to ensure that all top tasks can be accomplished via both searching and browsing in order to support people who only search or only browse."
+  - "Check the font size of the text of the benefit hub descriptions and the list of common tasks and consider enlarging it."
+  - "Try to ensure that all top tasks can be accomplished via both searching and browsing in order to support people who only search or only browse. Consider making the following changes that may help: Add \"Get your VA medical records\" to the megamenu under Health care."
+  - "Try to ensure that all top tasks can be accomplished via both searching and browsing in order to support people who only search or only browse. Consider making the following changes that may help: Add \"mental health\" to the megamenu under health care, to search autocomplete suggestions, to search \"top recommendation\" for \"therapist\", \"counselor\", and \"therapy\"."
+  - "Try to ensure that all top tasks can be accomplished via both searching and browsing in order to support people who only search or only browse. Consider making the following changes that may help: Add \"Update contact info\" to the Records benefit hub."
+  - "Try to ensure that all top tasks can be accomplished via both searching and browsing in order to support people who only search or only browse. Consider making the following changes that may help: Add \"View or change dependent\" to Family Member Benefits page, a search autocomplete suggestion, and a search \"top recommendation\" for \"spouse\" and \"dependent\"."
+  - "Try to ensure that all top tasks can be accomplished via both searching and browsing in order to support people who only search or only browse. Consider making the following changes that may help: Add \"View disability rates\" to megamenu under Disability, as a search autocomplete suggestion, and a search \"top recommendation\"."
+  - "Try to ensure that all top tasks can be accomplished via both searching and browsing in order to support people who only search or only browse. Consider making the following changes that may help: Make clear on the disability application page that this form can be used to increase your *existing* disability."
+  - "Try to ensure that all top tasks can be accomplished via both searching and browsing in order to support people who only search or only browse. Consider making the following changes that may help: Change link in megamenu to GI Bill Comparison Tool to make it look more like a hyperlink instead of an ad."
+  - "Fix the two accessibility issues with the VA Benefits and Health Care megamenu on desktop: Change the megamenu interaction to be more like a standard dropdown in which all options are shown whenever it's opened without any of the options already expanded until the user selects which option to open."
+  - "Fix the two accessibility issues with the VA Benefits and Health Care megamenu on desktop: Fix the focus issue when you click on a link in the megamenu so focus is on the page title, not the megamenu option clicked on."
+  - "Consider whether some common misspellings could be handled more gracefully by search, such as a search for \"benifits\" being able to return the results as if \"benefits\" were typed."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
+further_research_needed: []
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Asian"
+  - "Identify as gay, lesbian, bisexual, or non-binary"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Use assistive technology"
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Housing'
-- 'BNFT: Pension'
-- 'BNFT: Records'
-- 'PRDT: Find-a-va-form'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
-- 'MHV: Personal Health Records/Medical Records'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "AUD: Service Members"
+  - "AUD: Caregivers"
+  - "DSC: Search Input"
+  - "DSC: Links"
+  - "DSC: Button"
+  - "DSP: Help users to sign in"
+  - "HDW: Desktop"
+  - "HDW: Tablet"
+  - "HDW: Smartphone"
+  - "PRDT: Benefit Hubs"
+  - "PRDT: Facilities"
+  - "PRDT: Find-a-va-form"
+  - "PRDT: Find-a-yellow-ribbon-school"
+  - "MHV: Secure Messaging"
+  - "MHV: Personal Health Records/Medical Records"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "evaluative"
 ---
 # VA.gov Home Page Redesign Usability Test Findings 
 

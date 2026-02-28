@@ -2,8 +2,8 @@ UUID,Lighthouse status,Lighthouse updated at(EST),CMP status,CMP updated at(CST)
 a11bff52-b77b-4f08-875b-7629985845a1, vbms, 2/4/2026 5:18 PM,Complete, 2/4/26 4:19 PM  ,68664898,
 b8a5ae78-2939-4ad6-90e4-14cdbd621398, vbms, 2/5/26          ,Complete, 2/5/26 10:15 AM ,68683837,
 c80b6b8a-e5c8-482b-8f88-633dd41441c6, vbms, 2/5/26 1:55 PM  ,Complete, 2/5/26 12:55 PM ,68698372,
-ad35e2dd-56b1-4d6f-a451-b46cc09f94b6, vbms, 2/5/26         ,Complete, 2/5/26 1:05 PM  ,68699200,
-d948abc9-2c3c-472b-b57f-5290250fe8e6, vbms, 2/5/26         ,Complete, 2/5/26 2:40 PM  ,68705125,
+ad35e2dd-56b1-4d6f-a451-b46cc09f94b6, vbms, 2/5/26          ,Complete, 2/5/26 1:05 PM  ,68699200,
+d948abc9-2c3c-472b-b57f-5290250fe8e6, vbms, 2/5/26          ,Complete, 2/5/26 2:40 PM  ,68705125,
 09652541-26d1-404a-ae35-32a2eb7aaf3a, vbms, 2/5/26 5:15 PM  ,Complete, 2/5/26 4:15 PM  ,68709962,
 7bb7c1c4-9a0c-4964-b594-c7118c178bf3, vbms, 2/6/26 12:27 PM ,Complete, 2/6/26 12:28 AM ,68734251,
 c64c6b2e-c737-4fd1-a3eb-61eaa2849655, vbms, 2/6/26 3:29 PM  ,Complete, 2/6/26 2:30 PM  ,68746895,
@@ -23,17 +23,19 @@ f195e803-a605-4d8c-9f7d-0da8a964248e, vbms, 2/14/26 5:58 PM ,Complete, 2/14/26 4
 d888fedd-8365-4ae9-b238-ed98a5ef9ed7, vbms, 2/16/26 6:43 PM ,Complete, 2/16/26 5:43 PM ,69018815,
 ee558a7e-0d71-4f73-a4a0-b2991e47abed, vbms, 2/18/26 3:08 AM ,Complete, 2/18/26 9:22 PM ,69074668,
 1481dc01-9828-416b-86e5-85136bc45602, vbms, 2/18/26 1:30 PM ,Complete, 2/19/26 2:47 PM ,69099112,
-3b58a08e-3afc-4e44-9441-69e0f1f932cd, vbms, 2/19/26 12:00 PM,Complete,2/19/26 4:22 PM,69138583,
-496d3a07-5df1-4ede-8bb9-6fc0b5b320bd, vbms, 2/19/26 3:06 PM,Complete,2/19/26 4:47 PM,69156031,
-d85247bf-602a-4dd1-8269-89974396cd25, vbms, 2/19/26 3:48 PM,Complete,2/19/26 5:53 PM,69159049,
-d6ed6b38-fe6b-4421-879e-d7acaf1394b6, vbms, 2/19/26 10:08 PM,Complete,2/19/26 10:00 PM,69169024,
-f18b6da5-8d65-4ea1-80ed-11a8c25f6462, vbms, 2/20/26 10:55 PM,Complete,2/21/26 10:46 AM,69212086,
-fe7f1ed0-0026-4610-8092-1f1c641767e8, vbms, 2/21/26 4:36 AM,Complete,2/21/26 3:36 AM,69212650,Email send error: missing form_data: email
-0e414354-ab78-42f5-acef-22ad3528fefc, vbms, 2/21/26 5:31 AM,Complete,2/21/26 11:17 AM,69212684,Email send error: missing form_data: email
-9651b370-7ef0-4abc-9bcf-c6018f8f1d26, vmbs, 2/21/26 3:13 PM,Complete,2/23/26 8:38 AM,69221624,
-173cb54f-b5d1-4477-9a08-839017fd9798, vmbs, 2/22/26 8:21 PM,Complete,2/23/26 10:22AM,69228956,
-54c3c280-f486-4bb3-9b95-c7de8e623521, vbms, 2/24/26 10:02 AM, , , , Email send error: missing form_data: email
-8be933b0-0354-48d7-94d5-f2abfd7e6b3d, vbms, 2/24/26 12:11 PM, , , , Email send error: missing form_data: email
-7d96ff2f-1070-4eee-99f0-7305245fb358, vbms, 2/24/26 6:47 PM, , , ,
-4901c4ad-8d73-4189-889a-b634fbfab1a8, vbms, 2/25/26 2:20 AM, , , ,
+3b58a08e-3afc-4e44-9441-69e0f1f932cd, vbms, 2/19/26 12:00 PM,Complete, 2/19/26 4:22 PM ,69138583,
+496d3a07-5df1-4ede-8bb9-6fc0b5b320bd, vbms, 2/19/26 3:06 PM, Complete, 2/19/26 4:47 PM ,69156031,
+d85247bf-602a-4dd1-8269-89974396cd25, vbms, 2/19/26 3:48 PM, Complete, 2/19/26 5:53 PM ,69159049,
+d6ed6b38-fe6b-4421-879e-d7acaf1394b6, vbms, 2/19/26 10:08 PM,Complete, 2/19/26 10:00 PM,69169024,
+f18b6da5-8d65-4ea1-80ed-11a8c25f6462, vbms, 2/20/26 10:55 PM,Complete, 2/21/26 10:46 AM,69212086,
+fe7f1ed0-0026-4610-8092-1f1c641767e8, vbms, 2/21/26 4:36 AM, Complete, 2/21/26 3:36 AM ,69212650,Email send error: missing form_data: email
+0e414354-ab78-42f5-acef-22ad3528fefc, vbms, 2/21/26 5:31 AM, Complete, 2/21/26 11:17 AM,69212684,Email send error: missing form_data: email
+9651b370-7ef0-4abc-9bcf-c6018f8f1d26, vmbs, 2/21/26 3:13 PM, Complete, 2/23/26 8:38 AM ,69221624,
+173cb54f-b5d1-4477-9a08-839017fd9798, vmbs, 2/22/26 8:21 PM, Complete, 2/23/26 10:22AM ,69228956,
+54c3c280-f486-4bb3-9b95-c7de8e623521, vbms, 2/24/26 10:02 AM,Complete, 2/24/26 12:44 PM,69285905, Email send error: missing form_data: email
+8be933b0-0354-48d7-94d5-f2abfd7e6b3d, vbms, 2/24/26 12:11 PM,Complete, 2/24/26 3:31 PM ,69294694, Email send error: missing form_data: email
+7d96ff2f-1070-4eee-99f0-7305245fb358, vbms, 2/24/26 6:47 PM, Complete, 2/24/26 10:32 PM,69324354,
+4901c4ad-8d73-4189-889a-b634fbfab1a8, vbms, 2/25/26 2:20 AM, Complete, 2/25/26 10:53 AM,69331094,
+77e6a163-507a-40b6-8fb3-c13cc861f9c2, vbms, 2/25/26 7:28 PM, Complete, 2/26/26 8:55 AM ,69367632,
+31033a9b-fbe5-41ab-bdf3-4ce3cde56d6a, vbms, 2/25/26 9:55 PM, Complete, 2/26/26 10:38 AM,69369405,
 ,,,,,,

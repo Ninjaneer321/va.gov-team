@@ -1,102 +1,114 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Vet Centers - Services Taxonomy Study Research Findings"
+product: "Facility Locator"
+team: "VSA, Facility Locator"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-04-20"
+researchers: 
+  - "Leyda Hughes"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Understand how Veterans and their families understand and interpret new and existing service taxons that will be used by Vet Centers facilities, with a focus on Education and training, Transition counseling, Veteran connections, and Whole health"
+  - "Validate the existing categorization of services"
+  - "Follow up on a previous finding that Veterans want to see services labeled and described with symptoms rather than by clinical diagnosis"
+  - "Understand the language Veterans would use to label and describe services"
 methodology:
-- Method 1
-- Method 2
+  - "Unmoderated card sort"
+  - "Open-ended fill-in-the-blank questions"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 41
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 11
+    unknown: 30
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 41
+  location: 
+    urban: 0
+    rural: 5
+    unknown: 36
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 25
+    black: 5
+    hispanic: 2
+    biracial: 0
+    asian: 3
+    native: 3
+    unknown: 4
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 2
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Participants interpreted 'Education and training' to mean services like workshops and classes, with high expectation of getting assistance with benefits, though no participant mentioned setting or used the term non-therapeutic"
+  - "Most participants' descriptions of 'Transition counseling' included concepts that echoed the current working description and understood that this service could span many areas of a person's life, though only 1 participant used mental health language"
+  - "29 participants (69%) understood 'Whole health' to mean beyond but inclusive of physical health care, which for Vet Centers could mean reinforcing the misconception that a Veteran could obtain primary care in these facilities"
+  - "Participant generated labels for 'Veteran connections' did not contain 'connect' or 'connection' or 'community' - participants used words found in the description to come up with a label, fixating mostly on those relating to getting help with obtaining and navigating VA Benefits"
+  - "'Mental health care' tested well even with Veterans who had not been screened for having participated in Mental health care - 21 participants included 'mental' in their labels, 19 included 'health', and 16 used 'mental health'"
+  - "When asked what words or symptoms they associate most with PTSD, anxiety was the #1 symptom, with 'inability to control or cope' and 'sleep' as top themes"
+  - "Overall, services categorization varied widely but themes centered around care and support services - 'Care' was the most repeated word used in category labels, used 195 times, while 'Mental' was used 87 times"
+  - "8 participants created categories that included 'mental health' word pairing, reinforcing confidence in 'Mental health care' as a service label"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Education and training - OK to use. Eliminate non-therapeutic and setting mentions. Set expectations about specific resources: type of classes and workshops, education types, assessment of skills, apprenticeships and on-the-job training, how-to navigate GI Bill benefits"
+  - "Transition counseling - OK to use. Capitalize on this term to clarify the purpose and objective of Vet Centers"
+  - "Whole health - Use with caution. Avoid or use with very clear messaging that this does not include primary care"
+  - "Veteran connections - Rename. Change label to 'Navigating VA benefits', 'Veteran services help', or something similar. Explain the community aspect in the description"
+  - "Mental health care - OK to use. Incorporate lowest common denominator symptoms from PTSD"
+  - "PTSD care - OK to use. Incorporate symptoms in plain language. Work with a clinician to include more symptoms. Add common PTSD symptoms to Mental health care. Incorporate and emphasize anxiety-mitigating words and concepts from previous research"
+  - "Categorization: Name services and categories according to 1) what Veterans want help with, 2) what they are likely to search for, 3) what Vet Centers can provide, regardless of delivery mechanism"
+  - "Use well-understood terms as category labels to help Veterans understand the overall type of care available at a Vet center"
+  - "Consider 'Underrepresented Veterans we serve' or 'We help all Veterans' to include minority, LGBTQ, women and homeless as well as a high level explanation of eligibility"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
+  - "Airtable"
+  - "Google Sheets"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Facilities'
-- 'MHV: Secure Messaging'
-- moderated-research
+  - "AUD: Veterans"
+  - "AUD: Family Member"
+  - "BNFT: Healthcare"
+  - "PRDT: Facilities"
+  - "card-sort"
+  - "unmoderated-research"
+  - "evaluative"
+  - "service-design"
+  - "taxonomy"
+  - "content-strategy"
+  - "Vet-Centers"
 ---
+
 # Research Findings: Vet Centers - Services Taxonomy Study
 
 **Digital Services Veterans Affairs (DSVA), VSA, Facility Locator**<br>

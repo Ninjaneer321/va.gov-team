@@ -2,7 +2,7 @@
 # Research Plan Metadata
 title: "Veteran & Caregiver Research Plan for 21-2680 Provider Experience"
 date: 2026-02-19
-last_updated: 2026-02-24
+last_updated: 2026-02-25
 team: "Aquia BIO"
 product: "Form 21-2680 Provider Experience"
 product_area: "authenticated"
@@ -51,15 +51,15 @@ expected_outcomes: "This research will clarify how veterans, dependents, and car
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "Perigean will recruit 10 - 16 veterans, dependents, and caregivers to understand their experience with healthcare and benefits processes, and to gather feedback on the Form 21-2680 digital experience."
+  approach: "Perigean will recruit 12 - 18 veterans, dependents, and caregivers to understand their experience with healthcare and benefits processes, and to gather feedback on the Form 21-2680 digital experience."
   
   primary_criteria:
     - "Veteran, dependent of a Veteran (spouse, child, or parent) or caregiver of a Veteran"
     
   secondary_criteria:
-    - "Receives a pension (3 - 5 participants)"
-    - "Has a service-related disability (5 - 8 participants)"
-    - "Currently receives SMP, SMC, or other benefit for aid and attendance / housebound allowance (4 - 8)"
+    - "Receives a pension (6 - 9 participants)"
+    - "Has a service-related disability (6 - 9 participants)"
+    - "Currently receives SMP, SMC, or other benefit for aid and attendance / housebound allowance (3 - 6)"
     - "Thinks they are eligible for aid and attendance / housebound allowance (2 - 3)"
     - "Has a VHA medical provider (2 - 3)"
     - "Has a private medical provider (2 - 3)"
@@ -77,18 +77,18 @@ recruitment:
       qualifying_response: "Yes (SMC, SMP, or other Aid and Attendance benefit) or eligible"
       
 participants:
-  veterans: 5-8
-  caregivers: 2-3
-  dependents: 3-5
-  total_recruited: 10-16
-  completed_sessions_goal: 10
+  veterans: 6-9
+  caregivers: 4-6
+  dependents: 4-6
+  total_recruited: 12-18
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2026-03-06"
+  pilot_participant: "TBD - Aquia teammate"
+  research_dates: "2026-03-09 to 2026-03-20"
+  research_review_submission: "2026-02-28"
   
 session_details:
   duration_minutes: 60
@@ -344,27 +344,35 @@ This approach allows us to reach a diverse group of veterans,dependents, and car
 
 ### Recruitment criteria
 
-**Primary criteria (must-haves):**
+**Primary criteria (must-haves; these are the key criteria we need to meet for participation):**
 - Veteran or caregiver or dependent of a Veteran (child, spouse, parent)
 
-**Secondary criteria (nice-to-haves):**
-- Receives a pension (3 - 5 participants)
-- Has a service-related disability (5 - 8 participants)
-- Currently receives SMP, SMC, or other benefit for aid and attendance / housebound allowance (4- 8)
+**Secondary criteria (nice-to-haves; these criteria will be overlapping, but it does not matter how they overlap. we might not meet some of these criteria in this phase of the study which is ok.):**
+- Receives a pension (6 - 9 participants)
+- Has a service-related disability (6 - 9 participants)
+- Currently receives SMP, SMC, or other benefit for aid and attendance / housebound allowance (3 - 6)
 - Thinks they are eligible for aid and attendance / housebound allowance (2 - 3)
-- Has a VHA medical provider (2-3)
-- Has a private medical provider (2-3)
+- Has a VHA medical provider (4 - 5)
+- Has a private medical provider (4 - 5)
+
+It would additionally strengthen our sample to include:
+- LGBTQ+ Veterans and caregivers
+- Veterans of color
+- Women Veterans
+- Veterans with cognitive disabilities
+- Veterans without college degrees
+- Veterans in rural areas
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 
 > [!NOTE]
 > Your total number should equal **1.5x** your ideal completed sessions number *(e.g. for 8 ideal completed sessions, request 10-12 total participants)*
 
-- `Veterans:` **5 - 8**
-- `Caregivers:` **2 - 3**
-- `Dependents:` **3 - 5**
-- `Total:` **10 - 16**
-- `Ideal completed sessions:` **10**
+- `Veterans:` **6 - 9**
+- `Caregivers:` **4 - 6**
+- `Dependents:` **4 - 6**
+- `Total:` **12 - 18**
+- `Ideal completed sessions:` **12**
 
 ## Screener Questions 📋
 
@@ -379,35 +387,48 @@ This approach allows us to reach a diverse group of veterans,dependents, and car
 
 ### Your Study's Screener Questions
 
-**`1.` Are you a Veteran, or the caregiver or dependent of a Veteran?**
-- Yes I am a Veteran (recruit 5-8)
-- Yes I am the caregiver of a Veteran (recruit 2-3)
-- Yes I am the dependent (spouse, child, parent) of a Veteran (recruit3- 5)
+**`1.` Are you a Veteran, or the caregiver or dependent (child, spouse or parent) of a Veteran? (This is the primary recruitment criteria. All other criteria should be percentages among this group. Other crtieria can and should overlap) **
+- Yes I am a Veteran (recruit 6-9)
+- Yes I am the caregiver of a Veteran (recruit 4-6)
+- Yes I am the dependent (spouse, child, parent) of a Veteran (recruit 4 - 6)
 - No, I am none of the above (exclude)
 
 **`2.` Do you (or the Veteran you care for) receive a VA pension?**
-- Yes (recruit 3-5)
-- No, but I think I am eligible to receive a VA pension (recruit 1)
+- Yes (recruit 5-6)
+- No, but I think I am eligible to receive a VA pension (recruit 1 - 2)
 - No
 
 **`3.` Do you (or the Veteran you care for) have a service-related disability? Do you currently receive any form of disability benefits?**
-- Yes I have a service-related disability and receive disability benefits (recruit 5 - 8)
-- Yes I have a service-related disability but do not currently receive disability benefits (exclude)
+- Yes I have a service-related disability and receive disability benefits (recruit 5-6)
+- Yes I have a service-related disability but do not currently receive disability benefits (recruit 1 - 2)
 - No 
 
 **`4.` Does your (or the Veteran you care for) doctor or medical provider work at a VHA facility or through a private practice?**
-- My medical provider works at a VHA facility (recruit 3 - 5)
-- My medical provider works at a private practice (recruit 3 - 5)
-- I do not know where my medical provider works (recruit 2 - 3)
-- I do not currently have a medical provider (recruit 2 - 3)
+- My medical provider works at a VHA facility (recruit approx 35%)
+- My medical provider works at a private practice (recruit approx 35%)
+- I do not know where my medical provider works (recruit approx 20%)
+- I do not currently have a medical provider (recruit approx 10%)
 
 **`5.` Do you (or the Veteran you care for) currently receive a VA benefit for Aid and Attendance or Housebound Allowance? Sometimes referred to as Special Monthly Pension (SMP) or Special Monthly Compensation (SMC).**
-- Yes, I currently receive SMC (recruit 1-2)
-- Yes, I currently receive SMP (recruit 1-2)
+- Yes, I currently receive SMC (recruit  1 - 2)
+- Yes, I currently receive SMP (recruit 1 - 2 )
 - Yes, I currently receive a different benefit for Aid and Attendance or Housebound Allowance (recruit 1 - 2)
-- I am not sure (recruit 1-2)
-- No, but I think I am eligible to receive SMC, SMP or another benefit for Aid and Attendance or Housebound Allowance (recruit 2 - 3)
+- I am not sure (recruit 2 - 3)
+- No, but I think I am eligible to receive SMC, SMP or another benefit for Aid and Attendance or Housebound Allowance (recruit 2 - 3 )
 - No, and I do not think I am eligible for this benefit (exclude)
+
+**`6.` Have you ever started or completed VA Form 21-2680?
+- Yes, completed it - recruit (1) 
+- Yes, started but didn't finish - recruit (1) 
+- No, but planning to - recruit (1)
+- No → recruit (remaining people) 
+
+**`7.` How comfortable are you using websites and online forms?
+- Very comfortable → recruit some
+- Somewhat comfortable → recruit most
+- Not very comfortable → recruit some
+
+
 
 ## Timeline 🗓️
 > [!NOTE]
@@ -424,11 +445,11 @@ This approach allows us to reach a diverse group of veterans,dependents, and car
 > [!NOTE]
 > **Send pilot participant email in study Slack channel**
 
-- `Pilot participant name:` **[Enter name]**
-- `Date and time of pilot session:` **[Enter time]** 
+- `Pilot participant name:` **TBD- an Aquia teammate**
+- `Date and time of pilot session:` **Friday, March 6, 2026** 
 
 ### Research sessions
-- `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
+- `Planned dates of research:` **March 9 - March 20, 2026 (some flexibility if recruiting takes longer past this)**
 
 ### Length of sessions
 - `Session length:` **60 minutes**
@@ -439,6 +460,7 @@ This approach allows us to reach a diverse group of veterans,dependents, and car
 
 ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
+Any weekday between 12ET and ending before 6ET.
 
 > [!NOTE]
 > We recommend providing availability outside of work hours, as many Veterans are only available before and after working times.
@@ -460,7 +482,7 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 > [!NOTE]
 > **Please do not include email addresses in this section.** In the Slack study channel, send an email and primary phone number for the moderator. Also send emails for the notetaker and any accessibility accommodations needed.
 
-- **Moderator/Interviewer:** [Enter full name]
+- **Moderator/Interviewer:** Elyse Voegeli, Dave Luetger
 - **Note-taker:** [Enter full name or designate Perigean]
 - **Observers / Shadow Participants** (1–2 people):
   - [Enter full name]

@@ -1,97 +1,134 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Self Service Portal Usability Research Findings"
+product: "VANotify Self Service Portal"
+team: "VANotify"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "Not specified"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Not specified"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Validate if participants are able to successfully navigate the interface and perform the requested tasks."
+  - "Validate if the necessary features are available at the right time."
+  - "Assess if participants are comfortable using the interface to self service their notification needs."
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated usability testing"
+  - "One-on-one remote sessions via Zoom"
+  - "Clickable prototype task-based evaluation"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 6
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 6
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 6
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 6
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 6
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - |
+    Participants were successful and comfortable navigating the interface to view and send notification templates.
+    - All participants were able to click into a notification template and perform actions (send and edit) on the template.
+    - The template details page was understood to contain a preview, metadata, and performance.
+    - Some participants desired more details about the performance metrics and the ability to view the data by different timeframes.
+    - Most participants did not understand they could only send a test notification to users on the service whitelist. The service whitelist did not mean anything to the participants.
+    - Participants with smaller screens expected the action buttons to be at the bottom of the screen on edit/preview screens.
+  - |
+    The editor for creating and editing notification templates introduced friction for some participants.
+    - All participants had basic knowledge of markdown formatting and were generally comfortable editing in this format.
+    - Most participants did not recognize the formatting for creating a card as this differed from standard markdown.
+    - Most participants desired the ability to see a preview before moving to the next step. Several participants mentioned their experience with editing in github and the ability to toggle a preview.
+    - Some participants were unlikely to view the formatting documentation because it looked like it may navigate them away from their current screen.
+  - |
+    All participants did not know what to expect when clicking on the "service" navigation item.
+    - All participants were unable to verify the permissions of another team member. After being directed to the "service" page, the task was completed by all participants.
+    - All participants were unsure what the "service" navigation item would contain.
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - |
+    Recommendations for navigating and sending notification templates:
+    - More explicitly call out that only members of the service whitelist can receive notifications.
+    - Move all buttons during the edit, creation, and send workflows to the bottom of the screen.
+    - Use a button with text instead of just an icon for copying the template ID.
+    - Consider providing links to additional performance data in other tools such as Google Analytics.
+    - Provide timeframes to view the performance metrics by (ex: all time, last 7 days, last 30 days).
+  - |
+    Recommendations for the notification template editor:
+    - Consider adding a preview of the notification on the same page as the editor.
+    - Bring formatting documentation onto the page instead of a link off to another resource.
+    - Reconsider icons for some of the formatting options including cards, horizontal line, and personalizations.
+  - |
+    Recommendations for service navigation:
+    - Consider renaming "service". Some participants used terms such as "team" or "group" when referring to the concept of a service.
+  - |
+    Additional recommendations:
+    - Provide explicit next steps in confirmation messages (ex: after a template is created). Specifically for first time users.
+    - Provide more context about what the status mean for notification templates.
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Performance metrics need more detail and flexible timeframes for viewing data"
+  - "Template editor needs inline preview capability rather than requiring navigation to a separate step"
+  - "Formatting documentation needs to be accessible inline rather than via external links"
+  - "Service navigation terminology does not match users' mental models — participants expected terms like 'team' or 'group'"
+  - "First-time users need explicit next steps and guidance in confirmation messages"
+  - "Template status labels need clearer context about what each status means"
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: VA Staff"
+  - "AUD: Internal VA Stakeholders"
+  - "DSP: Notifications"
+  - "DSC: Card"
+  - "DSC: Button"
+  - "PRDT: VA-notify"
+  - "Internal Research: Platform Research"
+  - "usability-testing"
+  - "evaluative"
+  - "DSP: Contextual Help"
 ---
-
 # Self Service Portal Usability Research
 
 ## Summary

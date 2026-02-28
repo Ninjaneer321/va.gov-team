@@ -34,8 +34,8 @@ run({ globModule, core: mockCore })
     console.log('='.repeat(60));
     console.log('');
     console.log('Generated files:');
-    console.log('  - historical-participant-data-summary-2017-2025.md');
-    console.log('  - historical-participant-data-2017-2025.json');
+    console.log('  - reports/quarterly-reports/participant-data/historical-reports/historical-participant-data-report-2017-2025.md');
+    console.log('  - reports/quarterly-reports/participant-data/historical-reports/historical-participant-data-2017-2025.json');
     console.log('');
     process.exit(0);
   })

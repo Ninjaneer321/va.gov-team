@@ -1,105 +1,120 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Supplemental Claims MVP Prototype Research Findings"
+product: "Decision Reviews"
+team: "Benefits Team 1"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-10-01"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Pamela Hastings"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Determine if the process of filing a Supplemental Claim is clear and actionable."
+  - "Determine if the user can identify or successfully add the issues they need to appeal."
+  - "Validate that users can successfully submit new and relevant evidence needed for a favorable decision."
 methodology:
-- Method 1
-- Method 2
+  - "Remote moderated usability testing"
+  - "Prototype testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 9
+  assistive_technology: 0
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 4
+    "55-64": 2
+    "65+": 3
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 2
+    associates: 1
+    bachelors: 2
+    masters: 4
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 9
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 5
+    black: 3
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 1
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 1
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Representing form progress as 'steps' confused some users. Users expect the progress bar to be true to the number of steps they have taken. They lose their way when the steps do not reflect the number of clicks they have taken."
+  - "Several users initially struggled to find their place on a mobile screen."
+  - "Most participants did not know or were unsure of exact dates of treatment and were nervous about entering a specific day."
+  - "Some participants got lost in the evidence flow and weren't confident that they entered the correct evidence for their issues."
+  - "Some participants missed that their application autosaves and they can return to finish it later."
+  - "Multiple primary actions confused some Veterans."
+  - "9 out of 9 users did not know how to resize a PDF, which is one of the reasons an upload is rejected in some decision reviews."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Consider changing the label to sections to support a mental model of sections, with each section having steps to complete it. Consider if sections have too many steps or too few."
+  - "Shorten or do not display the form title as the primary h1 header. Work towards a design that frames the key question or page context in the h1 spot. This also focuses context for screen readers and users employing magnification and zoom."
+  - "Employ auto-suggest matching patterns to issue entries and VA medical facilities."
+  - "Add hint text that lets users know they can estimate the dates of their treatment."
+  - "Iterate the evidence flow to closely tie evidence to each issue. Display issues within the record location entry to clearly associate each record with the issue it is meant to support."
+  - "Consider displaying a dismissable success (progress saved) alert on page load and remove the subtitle to create progress awareness. Add language that helps a user know where to find their saved progress."
+  - "Consider one clear action per page for the issues to review."
+  - "Prioritize a technology solution to resize PDF page dimensions."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified in findings report"
+  business: "Not specified in findings report"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
+  - "Future usability with assistive technology, especially magnification/zoom, desktop and mobile screen readers, as well as Veterans who experience arthritis or other dexterity issues"
+  - "Future research should include desktop participants"
+  - "Further usability testing in staging"
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Rural"
+  - "Immigrant origin"
+  - "Other than honorable"
+  - "Biracial"
+  - "Asian"
+  - "Transgender"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: My VA'
-- 'MHV: Personal Health Records/Medical Records'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "DSC: Progress bars"
+  - "DSC: Form"
+  - "DSP: Form templates: Dates"
+  - "DSP: Form templates: List and loop"
+  - "DSP: Content presentation: Information callouts"
+  - "DSP: Form templates: File upload"
+  - "HDW: Smartphone"
+  - "PRDT: Decision-reviews"
+  - "Initiative: PACT Act"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
 ---
+
 # Supplemental Claims MVP Prototype Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Decision Reviews, Benefits Team 1**

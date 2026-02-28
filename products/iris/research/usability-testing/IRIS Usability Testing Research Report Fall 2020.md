@@ -1,95 +1,124 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "IRIS Usability Testing Research Findings"
+product: "IRIS (Inquiry Routing & Information System)"
+team: "IRIS Redesign"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2021-01-12"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Rachel M. Murray"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - |
+    Content strategy: Do users understand the content in the form (especially the drop down menus) and how to fill in each field (the right content in the components)? Do users find having a 'Review the form' page valuable? Do users find merging the GI Bill form and the IRIS form into one form acceptable?
+  - |
+    Information design: Do users find having chapters valuable, and if so, are the form's chapters the right number and right content on each chapter? Do users feel the form's fields are organized on each chapter in an intuitive manner?
+  - |
+    Interaction design: Do users login to use the application? Do users understand how the information is displayed in a clear and understandable manner (the right UI controls in the components)? What do users think will happen after they've submitted and what do they want to happen (and what kind of information to see)? Would users use the form on their mobile device - why or why not?
+  - |
+    Navigation/Information architecture: Are users able to navigate through the form easily and complete the form?
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Task-based remote usability study"
+  - "Remote moderated sessions via GoToMeeting"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 3
+    "45-54": 3
+    "55-64": 0
+    "65+": 1
+    unknown: 1
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 8
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 8
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Participants were able to successfully submit the form"
+  - "The form has the right number of chapters"
+  - "The review page is useful to keep so people are able to review their entries before submitting"
+  - "The confirmation message helps people know the system received their message"
+  - "Combining GI Bill and IRIS into one form will simplify life for Veterans"
+  - "The content was confusing for some participants"
+  - "The number of options in some of the drop down menus are extensive which makes the list hard to navigate"
+  - "Some felt the number of fields was excessive"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - |
+    Standardize the content to fit VA content strategy. Remove acronyms and ampersands from the drop down menus as these can prevent the ability to clearly understand something. Revise the drop down language to eliminate duplication - for example revise 'Home Loan Guaranty/All VA Mortgage Issues' to 'Home Loan Guaranty/Mortgage'.
+  - |
+    Explore having a glossary - perhaps utilizing the 'additional info' component as a way to provide a reference people have handy to learn what terms mean.
+  - |
+    Add a sentence introducing what information is captured ('we'll asking you about your question, then capture your information - this should take about 10 minutes') at the very top of the form so people feel more equipped for what is coming.
+  - |
+    Add copy that says 'type first letter of your location to go to that selection' above the drop down menu as help text.
+  - "Explore alternative design options - a dropdown menu with states that has some type ahead functionality of a search box at the top of the menu."
+  - "Alphabeticalize the Medical Center list to help with readability."
+  - "Make Medical Center names Sentence Case instead of all caps to help with readability."
+  - |
+    Reevaluate which fields are absolutely necessary by a) looking at what lines of business actually require to take action on and b) what data we have in Oracle to understand which fields are actively filled out.
+  - |
+    Reconsider how much is made required especially as Lines of Business are requesting to make more conditional logic and required fields a new standard for the form.
+  - "Share findings with SRA team who will be taking over IRIS to determine actions for the backlog."
+  - "Share findings with stakeholders to determine actions for the backlog."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not explicitly stated in the report"
+  business: "Not explicitly stated in the report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Content strategy standardization for drop down menu language"
+  - "Type-ahead or search functionality for long dropdown lists (e.g., Medical Center selection)"
+  - "Reduction of form fields to only those absolutely necessary"
+  - "Glossary or contextual help for unfamiliar VA terminology"
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Contact us"
+  - "DSC: Form - Select"
+  - "DSC: Accordions"
+  - "DSC: Form"
+  - "DSP: Help users to check answers"
+  - "DSP: Help users to navigate a long list"
+  - "DSP: Contextual Help"
+  - "BNFT: Education"
+  - "usability-testing"
 ---
 
 # IRIS Usability Testing Research Report Fall 2020

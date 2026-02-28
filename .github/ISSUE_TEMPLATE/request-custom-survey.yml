@@ -4,6 +4,7 @@ title: "Request Custom Survey"
 labels: [ "VSP-contact-center", "cc-survey-request" ]
 assignees:
   - ATMiddleton 
+  - aubreyarcangel
 projects: ["department-of-veterans-affairs/1403"]
 body: 
   - type: markdown
@@ -18,6 +19,7 @@ body:
       label: Survey Type Requested
       options:
         - Feedback
+        - Intercept
         - Satisfaction
     validations:
       required: true

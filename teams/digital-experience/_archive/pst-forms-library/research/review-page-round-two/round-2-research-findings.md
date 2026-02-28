@@ -1,101 +1,110 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Review Page Round Two Research Findings"
+product: "Application for Burial Benefits (VA Form 21P-530)"
+team: "Forms Library Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-08-08"
+researchers: 
+  - "Not specified in report"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Understand how Veterans use the Review Page in the forms experience by using the Application for Burial Benefits form Review Page as an example"
+  - "Identify pain points and accessibility issues on the Review Page of the Application for Burial Benefits form experience"
+  - "Determine how Veterans interact with the Review Page components to identify which of the design variations (Edit by Section or Edit by Field) best suits their needs and has the best usability"
 methodology:
-- Method 1
-- Method 2
+  - "Usability testing"
+  - "Semi-structured interviews"
+  - "Remote moderated research"
+  - "Comparative design evaluation"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 6
+    tablet: 2
+    smartphone: 5
+    assistive_technology: 0
+participants_total: 13
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 13
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 2
+    "35-44": 4
+    "45-54": 3
+    "55-64": 2
+    "65+": 3
+    unknown: 0
+  education: 
+    high_school: 0
+    some_college: 2
+    associates: 3
+    bachelors: 3
+    masters: 4
+    doctorate: 1
+    unknown: 0
+  location: 
+    urban: 6
+    rural: 7
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 7
+    black: 1
+    hispanic: 3
+    biracial: 2
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 2
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 2
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Most Veterans found success faster with the Edit by Section design. Veterans found that the Edit by Section design had better ease of navigation and ease of reviewing and updating entire sections. Qualitatively, Veterans were also able to navigate and intuitively understand how to update the Edit by Section design better than the Edit by Field design."
+  - "Though nearly all Veterans understood how to save a change and return to the Review Page without explanation, nearly half of them expressed confusion or uncertainty regarding the meaning of the Save & Continue, Back, and Continue buttons."
+  - "When returning to the Review Page after saving a change, all Veterans preferred being anchored to the section they just updated with a persistent confirmation notification."
+  - "Compared to the Edit by Field design, Veterans found that the Edit by Section design had less visual clutter, especially for Veterans using the mobile version of the form where the higher number of edit hyperlinks felt overwhelming."
+  - "Looking at the average time to complete a change and the average ease of completing a change, the Edit by Section design fared better than the Edit by Field design."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Enable edits on the Review Page by section rather than by field."
+  - "Anchor Veterans to the section they've just updated with a persistent notification that the update was processed."
+  - "Simplify and resolve confusion around the function of the three buttons (save and continue, back, and continue) when Veterans are editing a section."
+  - "In the long term, explore options to integrate Veteran data across the VA's systems to minimize the burden on Veterans and families to provide data that already exists in other systems."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
+  - "Screen reader interaction with the review page on desktop (not covered due to technical limitations with prototype and participant recruitment)"
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Black Veterans"
+  - "Asian Veterans"
+  - "Native Veterans"
+  - "LGBTQ+ Veterans"
+  - "Veterans with cognitive disabilities"
+  - "Screen reader users"
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'PRDT: Caregivers'
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Memorialization"
+  - "PRDT: Burials-memorials"
+  - "DSP: Help users to check answers"
+  - "DSC: Form"
+  - "DSC: Button"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "evaluative"
 ---
+
 Research Goals
 ==============
 

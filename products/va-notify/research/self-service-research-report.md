@@ -1,95 +1,115 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Digital Notifications Self Service Research Findings"
+product: "VANotify"
+team: "VANotify"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2021-02-09"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Todd Stanich"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand users' needs and expectations for creating, updating, and managing email and text message notifications internally at the VA"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 7
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 7
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 7
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 7
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 7
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - |
+    All participants expressed an interest in some form of self service capability. The most common need is the ability to make small content changes to templates.
+  - |
+    Participants had differing perspectives on the expected role of oversight and standards regarding their notifications.
+  - |
+    Transparency into platform and notification performance improves confidence in digital notifications as well as drives understanding and improvement of the Veteran experience.
+  - |
+    The existing workflow by teams interacting with VANotify is heavily reliant on emails and Slack messages. Participants were okay with this way of working, but noted they may be receiving extra attention from the VANotify team.
+  - |
+    The existing process for text changes to physical letters is complex and takes a long time. That process prevents quick reaction by business lines to changing legislation and information.
+  - |
+    The process for making changes to VA.gov was praised for the ability to quickly react and make changes as they arise.
+  - |
+    Contact centers are an important user group to keep informed about all notifications being sent to Veterans.
+  - |
+    The role making changes to notifications changes based on the tools available. For example, today, developers are making text changes. If a UI were available, many participants envisioned content editors or business line representatives making those changes.
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Move forward with self service capabilities. The ability to make content changes to existing messages will have the greatest initial impact across all user types interviewed."
+  - "Develop a governance model that enables a quick turnaround while providing valuable standards based feedback."
+  - "Expose notification and platform metrics to teams using the platform."
+  - "Develop and make accessible content templates for different scenarios (ex: confirmation) to give teams a consistent starting place."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Self service capabilities for making content changes to notification templates"
+  - "Governance model for notification review and approval"
+  - "Platform and notification performance metrics and analytics"
+  - "Standardized content templates for common notification scenarios"
+  - "Keeping contact centers informed about notifications sent to Veterans"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Conduct usability testing on potential self service solutions and workflows."
+  - "Research with additional stimulus and examples to further understand what metrics are most valuable to teams using the platform."
+  - "Research with contact center representatives to understand the amount of information needed to speak to Veterans about notifications they receive."
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: VA Staff"
+  - "AUD: Internal VA Stakeholders"
+  - "AUD: Contact Center"
+  - "PRDT: VA-notify"
+  - "DSP: Notifications"
+  - "DSP: Form Templates"
+  - "semi-structured-interviews"
+  - "discovery"
+  - "Internal Research: Platform Research"
+  - "PRDT: Content"
 ---
 
 # Digital Notifications Self Service Research Report

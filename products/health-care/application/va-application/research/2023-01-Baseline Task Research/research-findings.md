@@ -1,106 +1,122 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "2023-01 10-10EZ Usability baseline tasks study research findings"
+product: "10-10EZ health care application"
+team: "1010 Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-02-01"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Jessica Stump"
+  - "Nick Osmanski"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Obtain a qualitative baseline for tasks within the application to use in comparison with past studies and future iterations."
+  - "Overall, what is easy or difficult to complete within the form and why."
+  - "Uncover pain point areas that cause confusion and need further discovery and research."
 methodology:
-- Method 1
-- Method 2
+  - "Usability testing"
+  - "Remote moderated research sessions"
+  - "Post-task and post-testing participant questions"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 6
+  tablet: 0
+  smartphone: 4
+  assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 1
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 4
+    "45-54": 2
+    "55-64": 4
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 2
+    associates: 4
+    bachelors: 3
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 5
+    rural: 5
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 1
+    black: 2
+    hispanic: 4
+    biracial: 3
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "There were unfavorable perception towards providing certain information, specifically reporting income and insurance information."
+  - "There was confusion and missing information around the VA Benefits and Military Service questions."
+  - "The review pattern at the end of the application is easy-to-use to check answers and make changes prior to submitting."
+  - "Stopping points for information gathering occurred frequently around discharge papers (DD-214) and income or deductible information."
+  - "Who qualifies as a dependent, that definition and general question confusion existed for participants who answered yes to having dependents."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Additional research on if any questions can be removed or simplified, plus authenticated flows and how much information can be pre-filled."
+  - "Improve the usability of the income calculating questions by providing additional content explanation and exploring financial information prefills."
+  - "Clarification around dependents, who qualifies as a dependent and additional questions asked."
+  - "Explore ways to make the facility selection page easier for participants to answer on that page without leaving and feeling confident they chose the location they will use."
+  - "Refinements to content in the military service section, including date clarification and review of the list of military services for accuracy and mapping each to Veteran impact or back-end processing."
+  - "Additional discovery on how to proceed with birth sex and gender identity questions."
+  - "Additional rounds of research targeting groups missed during this round, include a more holistic perspective of the possible paths that are often taken."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
+  - "Assistive technology users"
+  - "Additional rounds of research targeting underserved groups"
+  - "Content and business review of military service section"
 underserved_groups_missing:
-- Group 1
-- Group 2
+  - "Cognitive disability"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Living abroad"
+  - "Assistive technology users"
 secondary_research:
-- Web analytics
-- SME interviews
+  - "Google analytics dashboard"
+  - "Domo dashboard"
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
+  - "Spreadsheet"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Pension'
-- 'PRDT: Caregivers'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Form 10-10 EZ"
+  - "PRDT: DD-214"
+  - "DSP: Ask users for addresses"
+  - "DSP: Ask users for files"
+  - "DSP: Help users to check answers"
+  - "DSP: Form feedback"
+  - "DSC: Accordions"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "TREND: Content"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
 ---
+
 # 2023-01 10-10EZ Usability baseline tasks study research findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), 10-10EZ health care application, 1010 Team**

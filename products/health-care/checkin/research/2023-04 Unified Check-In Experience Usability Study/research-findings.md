@@ -1,101 +1,133 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Patient Check In (PCI): Unified Check-In Generative Research Findings"
+product: "Modernized Check-In Experience"
+team: "Healthcare Products"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-07-21"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Ben Brasso"
+  - "Christina Gednalske"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Get feedback from Veterans on the new 'unified check-in' experience idea of enhancements to Patient Check In (PCI)"
+  - "Understand ease of completing pre-check-in and check-in processes"
+  - "Determine if Veterans find the day before appointment reminder and pre-check-in notifications confusing"
+  - "Assess how easy or difficult it is for Veterans to understand that you still need to complete the online check-in process even if you've completed pre-check-in"
+  - "Evaluate how easy or difficult it is for Veterans to check in to an appointment"
+  - "Determine if Veterans think the check in confirmation page provides enough information about status and next steps"
+  - "Assess how easy or difficult it is for Veterans to understand if their other upcoming appointments have tasks to complete"
+  - "Evaluate how easy or difficult it is for Veterans to understand the difference between pre-check-in and checking in to an appointment"
+  - "Determine if Veterans find it helpful to review all upcoming appointments during pre-check-in and check-in processes"
+  - "Assess if Veterans would find it helpful to receive a text message 45 minutes before each appointment with check-in instructions"
 methodology:
-- Method 1
-- Method 2
+  - "Moderated usability study"
+  - "CodePen accessible prototype testing"
+  - "Remote sessions"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 1
+  tablet: 0
+  smartphone: 12
+  assistive_technology: 0
+participants_total: 13
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 13
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 13
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 13
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 13
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 13
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    unknown: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "12 out of 12 Veterans felt that the two pre-check-in text reminders were not confusing. However, 5 out of 12 Veterans expected a better call to action in the second text message to encourage them to complete the pre-check-in process."
+  - "10 out of 10 Veterans thought it was easy or very easy to check in to an appointment. I.e., the design and content cues from the appointment page to the confirmation page were easily findable and understandable."
+  - "9 of out 9 Veterans said that nothing was confusing about the organization or prioritization of the check-in confirmation page. Veterans thought the most important information on the page was the appointment time, the clinic location, and travel reimbursement information."
+  - "Similar to how some Veterans find the check in status on the appointments list helpful, Veterans expected to find a similar appointment confirmation or 'your information is up to date' status on their other upcoming appointments if they had just completed that process."
+  - "9 out of 11 Veterans thought that it was helpful to be able to review all of their upcoming appointments when completing a pre-check-in or check-in task. However, not if it decreases the ease of use or results in cognitive overload."
+  - "11 out of 11 Veterans thought it was easy to find out how to review their other upcoming appointments from the pre-check-in confirmation page. However, some Veterans didn't understand that they had other appointments with tasks to complete (based on the design pattern and content) or had no interest in starting another task after their primary task."
+  - "11 out of 11 Veterans prefer to receive a text message when it's time to check in to their appointment. And, 8 out of 11 Veterans would prefer to receive a text message before each of their appointments (45 minutes before) compared to scanning a poster when they arrive at the clinic."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Change the pre-check-in text reminder to be simpler, while also inciting action."
+  - "In the 'What to do next' appointment card that contains the primary task, simplify the content for ease of use, while also differentiating it from the appointment in the upcoming appointments list."
+  - "Ensure that Veterans understand if and why some appointments might not be listed in their upcoming appointments list and explain how to review their entire list. E.g., Appointments on VA.gov."
+  - "When Veterans return back to their appointment list, avoid showing additional tasks to complete, unless there's an appointment inside the check in window. We want to avoid cognitive overload, while also not making Veterans think their appointment was confirmed when it wasn't."
+  - "Send a check in link text message 45 minutes before each Patient Check In (PCI) eligible appointment."
+  - "Update content on the identity verification pages to make it clear to Veterans that providing their last name and date of birth is the start of the process."
+  - "Add statuses within the upcoming appointments list for whether appointments have completed pre-check-in. I.e., we want Veterans to feel confident that an action took place."
+  - "Work on finding a better design pattern and content to communicate to Veterans how many more PCI-related tasks they're able to complete after finishing their primary task."
+  - "Begin planning for larger rollout of PCI with the inclusion of beneficiary travel."
+  - "Find a better design solution (pairing with the Appointments and A11y specialists) that allows screen readers to better navigate longer lists of upcoming appointments."
+  - "Work with the Platform Design System team and A11y specialists to troubleshoot the memorable date component to make it more accessible for screen readers."
+  - "A/B testing of different design patterns on the initial appointments list page to ensure the main focus is on the primary PCI-related task."
+  - "Continue to work towards reflecting all of a Veterans appointments in PCI, similar to Appointments on VA.gov."
+  - "Allow Veterans to complete PCI tasks outside, to the degree possible, existing pre-check-in and check-in expiration rules."
+  - "Continue to escalate the need for a centralized database of facility floor maps or directions to help Veterans wayfind to the building or clinic."
+  - "Look to add features into PCI that are available in VEText appointment reminders and Appointments on VA.gov. For example, add to calendar and cancel appointment."
+  - "If a Veteran completes pre-check-in for an upcoming appointment that hasn't been set as confirmed in VistA by VEText, then make sure the status update is sent to VistA so Veterans don't continue to receive confirmation text messages."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
+  user: "Not specified in findings report"
+  business: "Not specified in findings report"
+opportunity_areas: []
+further_research_needed: []
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Hispanic, Biracial, Asian and Native"
+  - "LGBTQ+"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
 tags:
-- 'BNFT: Healthcare'
-- 'PRDT: Facilities'
-- 'MHV: Appointments'
-- 'MHV: Secure Messaging'
-- moderated-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: health-care-check-in"
+  - "MHV: Appointments"
+  - "HDW: Smartphone"
+  - "RESRCH: Generative (discovery)"
+  - "RESRCH: Usability"
+  - "RESRCH: Remote"
+  - "DSC: Action link"
+  - "DSC: Memorable date"
 ---
+
 # Patient Check In (PCI): Unified Check-In Generative Research Findings
 
 **Office of the CTO - Digital Experience (OCTO-DE), Healthcare Products, Modernized Check-In Experience**

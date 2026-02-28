@@ -1,95 +1,166 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "2026-01 Dissatisfaction Discovery - Research Findings"
+product: "Sign in, Identity"
+team: "Identity"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2026-01-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Clayton Zook"
+  - "Charlye Tran"
+  - "Megan Driscoll"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Establish dissatisfaction measures across several feedback channels for sign-in"
+  - "Analyze and synthesize multiple data sources to assess the quality and availability of the data"
+  - "Identify top themes of user dissatisfaction with sign-in"
+  - "Create an MVP measure to assess dissatisfaction over time"
+  - "Establish baseline metrics for Q3 2025 following completion of secure sign-in transition"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Secondary research - analysis of existing feedback data"
+  - "Quantitative analysis"
+  - "Qualitative analysis"
+  - "Sentiment analysis"
+  - "Thematic analysis"
+  - "Cross-source pattern identification and triangulation"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Sign-in dissatisfaction decreased to 68.8% in September 2025 (measured via Medallia intercept survey negative sentiment), which is lower than preceding months (August 2025: 72.6%, July 2025: 69.2%, Q2 2025 average: 77.9%)"
+  - "Volume of dissatisfaction feedback decreased in September 2025 - feedback survey responses: 458 (lower than August: 572, July: 530, Q2 average: 606); intercept survey responses: 895"
+  - "Six major themes were identified contributing to sign-in dissatisfaction: Identity verification, Technical system failures, Sign-in loop, MFA, Personal information and digital access, and UX pain points"
+  - |
+    Identity verification challenges, particularly verification looping where users verify their identity successfully but the system continues to request verification. Supporting data: Q3 2025 showed 179 intercept survey comments and 201 feedback survey comments tagged for verification issues; Login.gov support received 14,473 verification-related cases
+  - |
+    Technical errors including account linking failures and system failures (timeout errors, page load failures, error codes 500, 4031, 403, 592). Q3 2025: 225 intercept survey comments and 145 feedback survey comments tagged for technical errors; 919 HRC cases; 813 ID.me call center cases classified as VA errors
+  - |
+    Sign-in loop issues where users complete authentication successfully but are redirected back to sign-in page. Q3 2025: Tagged in 106 (10%) of intercept surveys, 104 (4%) of feedback surveys, and 88 (20%) of app store reviews. Most commonly reported on prescription refill pages
+  - |
+    MFA challenges including codes sent to old/incorrect phone numbers veterans cannot access, and lack of internet service or phone access when MFA is required. Q3 2025: MFA tagged in 692 (43%) HRC calls, 987 (4%) Login.gov calls, 87 (8%) intercept surveys, 30 (1%) feedback surveys
+  - |
+    Incorrect personal information on file blocks authentication - email addresses, phone numbers, or addresses don't match current reality, blocking verification. Creates a catch-22: need to sign in to update information, but can't sign in without correct information. Q3 2025: 63 (3%) feedback surveys tagged for account setup issues; Login.gov support shows at least 840 phone match and 1,715 SSN or address issues
+  - |
+    Technology barriers and limited digital access - smartphone requirement for MFA excludes users without mobile devices; photo ID upload fails due to camera quality, lighting, or dexterity issues; age-related challenges with new technology processes; caregivers managing accounts face authentication barriers
+  - |
+    UX pain points including Terms of Use page issues where users cannot move past after pressing accept or cannot see the accept button (Q3 2025: 163 or 7% of feedback surveys), and confusion about authorizing VA to receive data from CSP after identity verification
+  - "Q3 2025 context: During this timeframe, there were between 2.9-3.06 million active monthly users signing in on VA.gov and the VA mobile app, with 36.77 million total authentications across the quarter"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - |
+    Address data gaps - Behavioral context is missing from much of the data. Request funnel reports from ID.me and Login.gov to better understand drop-off points in the identity verification process. Incorporate the DataDog error reporting dashboard as a data source for Q4 2025 and beyond now that Sign-in Service is live for the vast majority of authentications
+  - |
+    Improve triangulation across data sources - Show systematic correlation with more visibility into backend logs from sign-in Service. Leverage data from back-end logs and call center volume to better understand technical errors. Take a deeper look at error rates and spikes in call center/survey responses and track lag time between error spike and call/survey response spikes. Map Medallia location + Issue type to distinguish page-specific bugs from systemic issues. Cross-reference Login.gov/ID.me monthly reports with MyVA411 verification category to identify if CSPs categorize issues differently than HRC
+  - |
+    Enhance Qualitative Data Collection - Rigorously validate VA GPT tagging accuracy. Consider adding sentiment intensity scoring (eg frustrated vs angry vs defeated language) and track sentiment intensity over time. Set up automated scraping for App Store Review Mining, track rating trends, flag new issues appearing in reviews that don't yet show in Medallia as an early warning system, and cross-reference review dates with deployment dates to catch new bugs faster
+  - |
+    Establish robust baseline - Don't attempt baseline until 6 months post deprecation of both MHV and DSLogon. Collect 3-4 months of steady state data before declaring baseline; use this period to validate whether issues decreased or persisted. Segment baselines by: User journey stage (new account setup vs returning user sign-in), Device type (Mobile vs desktop), CSP (Login.gov vs ID.me), Page context (Help pages vs feature pages). Track specific issue tags as KPIs: % of feedback mentioning verification loop, % mentioning can't find sign in, % mentioning prescription refill
+  - |
+    Strengthen Data Quality & Consistency - Conduct alignment workshop with HRC representatives to review sample tickets together and understand why categorization diverges. Create shared taxonomy or crosswalk between HRC categories and research tags. Document tag definitions clearly (what qualifies as verify vs set up account). Lock tag set for 12 months to allow year-over-year comparison. If new tags needed, create additive approach (don't retire old tags mid-year)
+  - |
+    Consider Adding New Data Sources - Work in other metrics to evaluate UX including page-level bounce rates on sign-in flow pages and authentication timing as a proxy metric; collect device/browser breakdown for error rates. Partner with accessibility team to recruit assistive tech users specifically for quarterly accessibility-focused usability testing on sign-in flows. Add accessibility-specific survey questions to Medallia. Track if accessibility issues show up in call center data. Spend time to figure out if Ask VA or Chatbot data makes sense to incorporate
+  - |
+    Consider Looking at other aspects of current Data Sources - For backend logs: Quantify error volumes, investigate if we can determine how users recover after being served a FE error page, break down by endpoint, correlate success ratios to specific user complaints, identify if certain error codes correlate with specific user complaints. For CSP call centers: Request CSP verification success rates specifically for VA.gov users, request time to verify metrics, request abandonment rates, use this to pressure CSPs on specific improvements. For regular reporting: Create monthly dashboard with key metrics, continue quarterly deep-dive reports, schedule weekly spot-checks during high-risk periods. For stakeholder sharing: Share findings with CSPs monthly, present to call center quarterly, brief leadership on trends, create public-facing transparency report. Consider setting up automated alerting with thresholds for when issues need immediate attention
+  - |
+    Make Data More Actionable - Establish regular reporting cadence with monthly dashboard of key metrics (call volume by category, Medallia sentiment, top tags), quarterly deep-dive reports, and weekly spot-checks during high-risk periods. Share findings with CSPs monthly, present to call center quarterly, brief leadership on trends, create public-facing transparency report. Explore setting up automated alerting with thresholds for when issues need immediate attention
+  - |
+    Further Research Priority Themes - Six themes need additional analysis: 1) Identity Verification Looping: Recruit 8-10 users who experienced looping for moderated usability testing to understand if technical bug, communication failure, or user error. 2) Technical Errors: Conduct technical spike to explore errors, when and where they occur; discover if there are any that can be prevented with BE or technical work. 3) Technology barriers: Dedicated usability sessions with veterans 65+ to understand specific verify barriers beyond photo upload difficulty; inform alternative verification pathway design requiring collaboration with Login.gov/ID.me. 4) MFA: Recruit groups who feel MFA is a hardship to understand if there are ways to encourage folks to use alternative MFA methods that work better for their lifestyle or individual dexterity or technology levels. 5) Terms of Use: Technical spike to determine if/when/how the button would not show up; heuristics review to find if users are getting to the unauthed terms of use page; determine if content or UI change needed. 6) Mobile App Sign-in Experience Audit: Heuristics analysis to test authentication flow on iOS and Android, various screen sizes; mobile sign-in makes up 14.8% of complaints
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not explicitly stated in findings report"
+  business: "Not explicitly stated in findings report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Identity verification looping - users successfully verify but system continues to request verification"
+  - "Account linking failures - valid Login.gov or ID.me accounts cannot link to VA.gov"
+  - "MFA accessibility - Veterans without smartphones or with limited technology access cannot complete MFA"
+  - "Personal information update catch-22 - cannot sign in without correct information but cannot update information without signing in"
+  - "Alternative verification pathways needed for Veterans with technology barriers (age-related challenges, limited digital access, dexterity issues)"
+  - "Mobile app sign-in experience - 14.8% of complaints relate to mobile, but specific pain points unclear"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Identity verification looping - usability testing with 8-10 users who experienced looping to understand root cause"
+  - "Technical errors - technical spike to explore when/where errors occur and determine if BE or technical work can prevent them"
+  - "Technology barriers - usability sessions with veterans 65+ to understand specific verification barriers and inform alternative verification pathway design"
+  - "MFA hardships - usability study with groups who find MFA difficult to understand barriers and identify alternative MFA methods"
+  - "Terms of Use button issues - technical spike and heuristics review to determine why button doesn't show or doesn't work"
+  - "Mobile app sign-in experience - heuristics analysis on iOS and Android across various screen sizes to identify mobile-specific issues"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Veterans age 65+ with limited technology experience"
+  - "Veterans without smartphones"
+  - "Veterans with disabilities affecting dexterity or vision (specific to photo ID upload challenges)"
+  - "Veterans in rural areas with limited internet/cell service"
+  - "Caregivers managing accounts for Veterans"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Medallia intercept surveys (2,140 Q3 2025 responses analyzed)"
+  - "Medallia feedback surveys (1,559 Q3 2025 responses analyzed)"
+  - "HRC call center data (1,618 calls Q3 2025)"
+  - "Login.gov support cases (28,080 cases Q3 2025)"
+  - "ID.me support cases (11,184 calls across 3 months)"
+  - "Mobile app store reviews (487 Q3 2025)"
+  - "Public forums and VA news comments"
+  - "Datadog frontend error reports and Identity metrics dashboard"
+  - "PagerDuty incident data"
+  - "Past VA identity research (15 prior studies reviewed)"
+  - "MyVA411 call center data (from previous quarters)"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "VA GPT for automated tagging"
+  - "Claude for sentiment analysis"
+  - "Manual review and tagging"
+  - "Cross-source triangulation"
+tags:
+  - "AUD: Veterans"
+  - "DSP: Help users to sign in"
+  - "PRDT: VA-mobile-app"
+  - "MHV: Pharmacy"
+  - "Accessibility"
+  - "BNFT: Healthcare"
+  - "HDW: Smartphone"
+  - "discovery"
+  - "evaluative"
+  - "secondary-research"
 ---
 
 # 2026-01 Dissatisfaction Discovery - Research Findings 

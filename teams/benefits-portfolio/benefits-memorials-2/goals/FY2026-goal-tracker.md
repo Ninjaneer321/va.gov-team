@@ -28,11 +28,10 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 ## Sprint: 3 [02/25/26 - 03/10/26]  
 | Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX: Complete the prototypes and preparation for the Pay.gov Overpayments Usability Study| P2 |--|--|--|
-|UX: Field the Usability Study for the Pay.gov Overpayments project| P2 |--|--|--|
+|UX: Finalize coded prototypes based on forthcoming feedback from the CAIA team in preparation for the upcoming Pay.gov Benefit Overpayment Debt Payments Usability Study.| P2 |--|--|--|
+|UX: Begin to field the Usability Study for the Pay.gov Overpayments project.| P2 |--|--|--|
 |ENG: Update the back end code to accommodate data and routing for both Cerner and Vista Payment History records.| P1 |--|--|--|
-|ENG: Complete Front End ENG transition tickets to prepare for Benefit Payment Tool support.| P3 |--|--|--|
-|ENG: Create and assign mock copays based off of new copay structure to any users +80 thru +98| P4 |--|--|--|
+|ENG: Complete Front End engineering transition tickets (not including final migration) to prepare for Benefit Payment Tool handoff in Sprint 5.| P3 |--|--|--|
 |ENG: Complete the 3 planned maintenance/bug tickets.| P6 |--|--|--|
 
 **Sprint rollover tickets**
@@ -43,8 +42,8 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [X] Ready to be sent for approvals (02/24/26)
  - [X] VA PO & COR sent the Sprint Goals (02/24/26)
- - [ ] VA PO approved the Sprint Goals (02/00/26)
- - [ ] VA COR approved the Sprint Goals (02/00/26)
+ - [X] VA PO approved the Sprint Goals (02/26/26)
+ - [X] VA COR approved the Sprint Goals (02/26/26)
 
 **_Delivery + Notes:_**
 - [ ] All goals have been updated in the sprint chart
@@ -56,10 +55,10 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
     
 | Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX: Complete Payment History QC implementation review with Engineering and begin accessibility testing.| P1 |--|--|--|
+|UX: Complete Payment History QC implementation review with Engineering and begin accessibility testing.| P1 | Cerner / VistA data discovery|2/25/26|Incomplete|
 |UX: Complete the final Pay.gov usability preparation before initiating the kickoff & recruiting with Perigean.| P2 |--|--|Complete|
-|ENG: Complete 6 of the 9 remaining Payment History Staging review artifacts| P1 |--|--|--|
-|ENG: Complete additional Payment History tasks identified during Front End implementation.| P1 |--|--|--|
+|ENG: Complete 6 of the 9 remaining Payment History Staging review artifacts| P1 | Cerner / VistA data discovery|2/25/26|Incomplete|
+|ENG: Complete additional Payment History tasks identified during Front End implementation.| P1 | Cerner / VistA data discovery|2/25/26|Incomplete|
 |ENG: Complete and clean up Payment History back end code that was used for development only tasks.| P1 |--|--|Complete|
 |ENG: Complete back end ENG transition tickets to prepare for Benefit Payment Tool support.| P3 |--|--|Complete|
 |ENG: Audit existing benefit payment tool monitors, and map out any cloning into the debt space if necessary.| P3 |--|--|Complete|
@@ -67,15 +66,15 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 **Sprint rollover tickets**
 | Additional work that was pulled in mid-sprint | Scope of work changed after ticket started | Work became blocked mid-sprint |  Work was underestimated and not completed |
 |---------------|---------------|---------------|---------------|
-|Ticket #|Ticket #131383|Ticket #131033|Ticket #|
-|Ticket #|Ticket #116143|Ticket #|Ticket #|
-|Ticket #|Ticket #102622|Ticket #|Ticket #|
-|Ticket #|Ticket #132368|Ticket #|Ticket #|
-|Ticket #|Ticket #132369|Ticket #|Ticket #|
-|Ticket #|Ticket #132406|Ticket #|Ticket #|
-|Ticket #|Ticket #132524|Ticket #|Ticket #|
-|Ticket #|Ticket #132607|Ticket #|Ticket #|
-|Ticket #|Ticket #130082|Ticket #|Ticket #|
+|  |Ticket #131383|Ticket #131033|  |
+|  |Ticket #116143|  |  |
+|  |Ticket #102622|  |  |
+|  |Ticket #132368|  |  |
+|  |Ticket #132369|  |  |
+|  |Ticket #132406|  |  |
+|  |Ticket #132524|  |  |
+|  |Ticket #132607|  |  |
+|  |Ticket #130082|  |  |
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [X] Ready to be sent for approvals (02/10/26)
@@ -84,9 +83,11 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
  - [X] VA COR approved the Sprint Goals (02/12/26)
 
 **_Delivery + Notes:_**
-- [ ] All goals have been updated in the sprint chart
-- [ ] Any Additional details about goals **not** completed will be documented here
+- [X] All goals have been updated in the sprint chart
+- [X] Any Additional details about goals **not** completed will be documented here
+- Due to the discovery that some records will be from Cerner and others from Vista until all stations finish migrating in 2031, the team has had to alter the solution to account for the multiple data sources. This pivot will take additional work and that had impeeded teh team from QC, staging review artifacts and final work until this multiu data source mapping is complete.
 
+End of Line
 </details>
 
 ## Sprint: 1 [01/28/26 - 02/10/26]  
@@ -110,6 +111,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 - [X] All goals have been updated in the sprint chart
 - [ ] Any Additional details about goals **not** completed will be documented here
 
+End of Line
 </details>
 
 ## Sprint: 26 [01/14/26 - 01/27/26]
@@ -135,6 +137,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 - [X] All goals have been updated in the sprint chart
 - [ ] Any Additional details about goals **not** completed will be documented here
 
+End of Line
 </details>
 
 ## Completed Primary Goals

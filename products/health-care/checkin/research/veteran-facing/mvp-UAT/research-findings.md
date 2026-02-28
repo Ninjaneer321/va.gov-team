@@ -1,100 +1,124 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Martinsburg Research Visit Discovery Research Findings"
+product: "Healthcare Check-in (Mobile Check-in for Medical Appointments)"
+team: "VSA Healthcare Experience"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-09-20"
+researchers: 
+  - "Kristen McConnell"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Determine if Veterans who utilize the new mobile check-in solution are called back for their appointment without having to talk to a clerk/Medical Support Assistant (MSA)"
+  - "Understand the impact to the staff workflow when Veterans check in on their mobile phones"
+  - "Learn how Veterans and staff feel about the mobile check-in solution"
+  - "Identify where within the facility Veterans should utilize VA.gov to check in for their appointment"
+  - "Understand what MSAs need/want to be notified about related to check in (including pre-registration and insurance capture)"
+  - "Determine what is important to administration about pre-registration and insurance capture"
 methodology:
-- Method 1
-- Method 2
+  - "Intercept interviews"
+  - "User acceptance testing (UAT)"
+  - "Semi-structured interviews"
+  - "In-person observation"
+  - "Prototype testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 5
+  assistive_technology: 0
+participants_total: 15
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 8
+  service_members: 0
+  caregivers: 2
+  family_members: 0
+  dependents: 0
+  VA_staff: 5
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 15
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 15
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 15
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 15
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    wheelchair_user: 1
+    unknown: 14
 key_findings:
-- Finding 1
-- Finding 2
+  - "Staff's overall impression of the pilot was overwhelmingly positive."
+  - "The pilot has minimal impact to the MSA's workflow."
+  - "The MSA still talked to most Veterans who came through the door."
+  - "If a Veteran has multiple appointments on a particular day within one clinic, there is interest in checking them in for all of those appointments at once."
+  - "Feedback from the Veterans and caregivers, who attempted mobile check-in, was positive."
+  - "2 out of 5 needed assistance texting or scanning the QR code."
+  - "All participants started to put their phone in their pockets or paused after texting \"check-in,\" because the SMS link took a while to return."
+  - "It is important to have up-to-date pre-registration information for the following reasons: sending medications to the correct location, \"patient safety,\" accurate beneficiary travel calculations, wellness checks, if needed, responders are deployed to the correct address, knowing who the primary next of kin is."
+  - "Pre-registration is mostly thought of as the review of address, phone, email, emergency contact, and next of kin information."
+  - "Tracking and reporting on pre-registration changes is very important to administrators and could be improved."
+  - "MSAs want indicators about things that they need to take action on."
+  - "MSAs are interested in alerts, since the actions they must take are time sensitive."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Explore ways to notify Veterans that they aren't done checking in after texting \"check in.\" Let them know that a link will appear."
+  - "Think about ways to better guide Veterans through texting and scanning QR codes."
+  - "Implement pre-registration solution to support staff workflows."
+  - "Prioritization of pre-registration and insurance components: 1. Address, phone and email 2. Emergency contact and next of kin 3. Insurance"
+  - "Look into the need to incorporate temporary address and advance directive reviews in the future."
+  - "Look into how beneficiary travel regulations on address discrepancies might apply to the check-in product."
+  - "Talk about administrators more to understand the best solutions for pre-registration reporting."
+  - "Work with the VSE-GUI team to transfer the knowledge gained about staff indicators."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
+  - "Expansion to additional clinics with good reception (Dental, Urology, Podiatry, Cardiology, Transfer care management, Primary care)"
+  - "Understanding administrator needs for pre-registration reporting solutions"
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Veterans without smartphones (3 out of 8 Veterans did not have smartphones)"
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Healthcare'
-- 'PRDT: Caregivers'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
+  - "AUD: Veterans"
+  - "AUD: VA Staff"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "MHV: Appointments"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "evaluative"
+  - "in-person"
+  - "staff-workflows"
 ---
+
 # Martinsburg Research Visit Discovery Readout
 - Updated: September 20, 2021
 - Lead Researcher: Kristen McConnell, kristen.mcconnell@adhocteam.us

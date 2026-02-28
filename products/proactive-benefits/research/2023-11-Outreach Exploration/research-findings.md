@@ -1,104 +1,129 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Outreach Exploration Research Findings"
+product: "Proactive Benefits"
+team: "Proactive Benefits Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-12-18"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Daniela Jones"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Validate assumptions regarding areas of improvement for the outreach letter and test Veteran comprehension and reaction"
+  - "Build on our current understanding of Veteran's communication preferences"
+  - "Deepen our understanding of the experience of this cohort of Veterans and find out how they might respond to this outreach"
 methodology:
-- Method 1
-- Method 2
+  - "Semi-structured interviews"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 8
+  tablet: 1
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 3
+    "65+": 7
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 4
+    some_college: 1
+    associates: 2
+    bachelors: 0
+    masters: 3
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 7
+    rural: 3
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 8
+    black: 2
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 1
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - |
+    A strong case wasn't made to either avoid or pursue a specific channel for outreach. A letter was in line with most participants' expectations for this type of outreach, but none of them indicated mail as their preferred form of communication generally; in fact, mail was perceived as the least reliable option. One participant noted that mail reminders about appointments sometimes arrive after the appointment has passed, and another mentioned that they only sometimes receive appointment reminders via mail. It's worth noting that all of our participants were 55+, with the average age being 70. This may account for the heavier skew towards saying a letter was in line with their expectations for this type of outreach.
+  - |
+    Participants who saw both letters expressed positive feelings about the shorter version. When thinking about VA comms generally, participants said they appreciate comms that are concise, straightforward, and written on a level that anyone could understand. For our participants that saw both letters (n=5), all but one expressed positive feelings about the shorter letter when comparing the two, with some being skeptical that someone who received this letter would read the entirety of the longer version. One participant thought that the detail in the original, longer letter might spur him to take action, mentioning that a lack of information can sometimes be a problem; our takeaway is that his perception of both letters was positive.
+  - |
+    Our conversations revealed confusion about the filing process and the options for action laid out in the letter. There was an appreciation across participants for multiple options for filing, and a few participants expressed the importance of providing digital and non-digital options for filing, given that not all Veterans have reliable digital access. Despite this appreciation for multiple filing options, there were a lot of questions about what exactly to do next after receiving this outreach and what to expect from the process. Several participants expressed a desire for more guidance and specificity around the recommended next steps. One of our participants, who volunteers with a VSO to help Veterans file claims, predicted that Veterans would be more likely to engage with the outreach if it focused on a single, recommended path to action.
+  - |
+    Many of the questions and misunderstandings about the process centered around Intent to File (ITF). A few participants explicitly said that their first step would be to file an ITF, but it was otherwise unclear if many participants understood the difference between submitting an ITF and proceeding to file. There were many misunderstandings about the timeline of ITF specifically. Many saw it as a one-year deadline to filing a claim; some participants took this to mean that they had to rush to file before the deadline. Lastly, a few participants erroneously inferred that the various options laid out for submitting an ITF or filing would lead to different experiences.
+  - |
+    The level of personalization intended to convey benefit of action in relation to PACT-Act eligibility wasn't apparent to Veterans. It did not seem to be clear to any of our participants that this letter was intended to be personalized. For example, many participants said if they were to take action on the letter, their first step would be determining their eligibility, even though the letter is meant to tell them that they are potentially eligible. A number of Veterans expressed concerns that this outreach was excluding many other groups of people that were PACT-eligible, which also tells us that it wasn't clear to everyone that this outreach was targeted to a specific cohort.
+  - |
+    Our outreach didn't stand out as unique to Veterans compared to other PACT Act communications they've been exposed to. All participants had at least some awareness of the PACT Act, and have received information about it through a variety of channels, most commonly email. The common sentiment we heard was that the PACT Act is very broad and it is hard for Veterans to understand their own personal eligibility. Perceptions of the goals and value of the PACT Act varied among our participants; while some perceived it to be valuable for Veterans and well-intentioned, others believed it to mainly be focused on Vietnam-era Veterans and Agent Orange. Specifically, one participant said that he still expected the burden of proof to rest on his shoulders in the process.
+  - |
+    Even if a Veteran's eligibility is clear, a lack of trust in the VA may be a barrier to engagement for some. It's worth noting that clear eligibility may not always be enough to get participants to take action; one participant said she would not take action on the letter despite likely being eligible. This hesitation is due to negative perceptions of the VA, past frustrating experiences with the VA, and a fear that her existing benefits would be negatively impacted by engaging with this outreach. We also heard skepticism among some participants about the benefits of the PACT Act for Veterans personally, as well as a desire to better understand what the VA's intentions are in sending our outreach.
+  - |
+    VSOs were commonly mentioned, largely in a positive way, when recounting past filing experiences. The next step that our participants expected to take after reading this outreach varied, but most mentioned planning to work with a VSO in some capacity. Nearly all of the experiences mentioned with VSOs were positive, except for comments from two participants specifically about county VSOs. One participant mentioned resisting working with someone on his claims for a long time because he didn't like the idea of paying someone to do something that he felt he could do himself; eventually, he realized that VSOs are free. One participant, who volunteers with Veterans to assist them in filing their claims, noted that by recommending working with a VSO, the VA could build trust with Veterans by showing that they care enough to help them navigate the process.
+  - |
+    None of our participants expressed concerns about targeted outreach based on personal medical records. When asked about receiving outreach like this based on personal medical records, none of our participants expressed personal privacy concerns about this; in fact, several participants expressed positive sentiments about the VA proactively reaching out. More participants instead expressed concerns that VA medical/service records are often incomplete, and therefore outreach based on personal records may not reach the intended audience. Anecdotally, a couple of participants noted that other Veterans may have concerns with the VA looking at their medical records or are afraid to engage in the filing process for fear of their personal information being used against them. Our conversations also revealed that failure to communicate the personalized nature of the outreach to our cohort could have backfiring effects.
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Use, but continue to modify, shorter version of outreach"
+  - |
+    Modify outreach content to address likely barriers to engagement. Recommendations that have been incorporated into an updated version of the outreach letter: amplify the benefit of potential compensation; focus on benefit of getting started immediately (rather than try to explain ITF); recommend a single path to action; highlight the option of working with VSO and provide guidance on finding one; remove or deemphasize mail as filing option; further personalize outreach language. Recommendations to be incorporated into an updated version of the outreach letter: provide reassurance about existing benefits; clarify how medical providers are and aren't involved in this process; provide insight into our work to build trust; acknowledge different experiences; how might we communicate that this experience will be better, easier, or more successful than past filing experiences?
+  - "Consider two channels of outreach"
+  - "A/B test the outreach as part of launching strategy"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Inform our outreach channel, content, and outreach strategy"
+  business: "Deepen our understanding of Veteran communication preferences and perceptions; identify barriers and opportunities to help connect Veterans with benefits they may be entitled to"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Personalization of outreach was not apparent to Veterans — need to make targeted, individualized nature of the communication clear"
+  - "Confusion around Intent to File (ITF) process and timelines — need to simplify or remove ITF explanation in favor of clearer next steps"
+  - "Trust in the VA is a barrier to engagement even when eligibility is clear — need to build trust through outreach content and process"
+  - "VSOs are a trusted resource — opportunity to more prominently recommend VSO engagement as a path to action"
+  - "Multiple filing options caused confusion — opportunity to recommend a single, clear path to action"
 further_research_needed:
-- Area 1
-- Area 2
+  - "Veterans who haven't previously filed a disability claim"
+  - "Veterans who are under age 55"
 underserved_groups_missing:
-- Group 1
-- Group 2
+  - "Identify as Hispanic, Asian, Biracial, or Native"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Identify as Transgender or Nonbinary"
+  - "Assistive Tech Users"
 secondary_research:
-- Web analytics
-- SME interviews
+  - "Secondary research on active cancers cohort (documented on Sharepoint)"
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: Caregivers'
-- 'MHV: Appointments'
-- 'MHV: Personal Health Records/Medical Records'
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "Initiative: PACT Act"
+  - "Initiative: Toxic Exposure"
+  - "AUD: Veteran Service Office (VSO)"
+  - "RESRCH: Generative (discovery)"
+  - "RESRCH: Interviews"
+  - "RESRCH: Remote"
+  - "DSP: Notifications"
+  - "HDW: Desktop"
 ---
+
 # Research Findings for Proactive Benefits, November 2023
 
 Office of the CTO - Digital Experience (OCTO-DE), Proactive Benefits Team, Benefits Portfolio

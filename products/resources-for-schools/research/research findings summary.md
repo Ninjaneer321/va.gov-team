@@ -1,97 +1,147 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Resources for Schools Usability Study Research Findings"
+product: "Resources for Schools"
+team: "Not specified"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-01-19"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "David Pearl"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Assess the ease of accessing key resources on the updated Resources for Schools web page"
+  - "Evaluate usability and immediate reactions to the updated page design"
 methodology:
-- Method 1
-- Method 2
+  - "Task-based usability assessment"
+  - "Free explore sessions"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 6
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 6
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 6
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 6
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 6
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - |
+    Enrollment Manager: Participants highly prioritize easy access to the Enrollment Manager, acknowledging its crucial role in their work. However, they have encountered challenges in swiftly locating it when needed. "75% of my job is spent here [enrollment manager]." – P3
+  - |
+    Handbooks: SCOs appreciate the updated handbook section design. However, some SCOs emphasized the significance of the VR&E program and requested that the handbook section include a direct link to the VR&E handbook. "Any type of handbook that's a training resource... should be placed here." – P5
+  - |
+    Education Service Webinars and Training: SCOs had mixed familiarity with the "Education Service Webinars and Training" page as an entry point for office hours. While some recognized it, others overlooked the link and supplemental text below it. "I call this the office hours link, it's also webinars, but I just call it office hours link." - P3
+  - |
+    GovDelivery: SCOs value signing up for GovDelivery. Given the Enrollment Manager's prioritization findings, it is still important to promote GovDelivery sign-ups. Some participants viewed GovDelivery as a key task. "Make it critical that they sign up for gov mailing list, just like getting approved for enrollment management" – P4
+  - |
+    Covered Institution Status: The placement of the "Covered Institution Status" caused confusion and was considered redundant in its current section as the same information can be found under "Training Requirements."
+  - |
+    Program Approvals: Some SCOs expressed hesitancy about the section "Program Approvals." Additionally, there was confusion about the term "Domestic" in "Domestic School Program Approvals". "What is the program approvals? Are they degrees or programs that the VA would approve? – P5"
+  - |
+    WEAMS: SCOs consistently access WEAMS, relying on it to confirm their program's approval. However, some have resorted to searching under additional resources to find it. "I am wondering how I would get to WEAMS now?" – P6
+  - |
+    Upload portal & form library: SCOs generally appreciate both the Education File Upload Portal and the Form library. However, many did not highlight them as critical to their daily workflow compared to other tools.
+  - |
+    Payment and debt: An SCO shared the importance of maintaining consistency in the links from the previous Resources for Schools page, noting that they frequently relied on links that have since been removed. "So you guys removed the debt management payment part of this?" – P3
+  - |
+    VR&E: SCOs emphasize the importance of VR&E and suggest several enhancements to streamline resources for improved support including direct links to Tungsten, VR&E eligibility, and contacts. "It would be helpful to know where to find the link for Tungsten access" – P4
+  - |
+    Veteran Education Benefits: SCOs are unclear about the target audience for the "Learn about Veteran Education Benefits" section. While they're interested in GI Bill benefits, the comparison tool, and rates, links like eligibility felt more student-facing. "This information is for the students, not the SCOs." - P1
+  - |
+    Additional Resources: Section naming needs alignment with other hubpages on VA.gov.
+  - |
+    Welcome Video (Proposed): If a video is required on the page, SCOs emphasize the importance of a value, rather than just a welcome message, to prevent it from being intrusive. The video should offer essential information. "If it doesn't include functional information, then I don't really know that it matters where you put it." - P1
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - |
+    Enrollment Manager: Replace the GovDelivery promo with Enrollment Manager for direct access. Maintain Enrollment Manager along with its user guides in "Additional Resources" section.
+  - |
+    Handbooks: Rename section to "Handbooks" to maintain accuracy and support scannability of headers. Include a direct link to the VR&E handbook in the Handbook section.
+  - |
+    Education Service Webinars and Training: Improve visibility and design by adding "Office Hours" to the link, ensuring a more streamlined experience finding them. Remove "Education Service" to support scannability, E.g., "Office Hours & Webinars."
+  - |
+    GovDelivery: Place a GovDelivery link within the Trainings and webinars section as this is where SCOs get notified about training and events. Also, keep GovDelivery in the "Connect with us" section.
+  - |
+    Covered Institution Status: Remove "Covered Institution Status" from page confirmed in debrief January 19th, 2024.
+  - |
+    Program Approvals: Broaden the scope and clarify the section's purpose – to understand requirements and be approved, e.g., "Program eligibility and approval." Rename "Domestic School Program Approvals" for clarity.
+  - |
+    WEAMS: Lead the "Program eligibility and approvals" section with WEAMS as it is the most frequently accessed link in the list. Reinforce understanding by spelling out the abbreviation.
+  - |
+    Upload portal & form library: Create a dedicated section called "Upload files to VA." Within this new section, users can access the Education File Upload Portal and the form library in one place.
+  - |
+    Payment and debt: Add back the links related to student payment and debt information resources, along with information on school overpayments and the use of the dual certification process to prevent them.
+  - |
+    VR&E: Provide a link for direct access to Tungsten. Include a link to the VR&E eligibility page, application page, and a contact page, if available. Incorporate audience headers within accordions.
+  - |
+    Veteran Education Benefits: Rename the section title to "Understanding Veteran Education Benefits" to clearly communicate purpose and value to SCOs. Adjust descriptions to be SCO-oriented for better comprehension.
+  - |
+    Additional Resources: Rename "Additional resources" to "Other resources for schools" to maintain alignment with other hubpages on VA.gov.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Gather feedback for continuous improvement upon the page's re-launch through various channels such as Office Hours and SCO Collaboration Group"
+  - "Streamline access to updates – provide access for SCOs to the latest policy and community updates (e.g., GovDelivery archive/Topic RSS Feed)"
+  - "Enhance handbook user experience – provide option to download or print the handbook, maintain a consistent URL for bookmarking"
+  - "Offer additional resources to SCOs – draft an FAQ document for new SCOs and gather commonly asked questions from students to SCOs"
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Solicit feedback upon the page's re-launch and consider distributing surveys for SCOs to provide feedback about page updates and additional improvements"
+  - "Gather commonly asked questions from students to SCOs and create an additional resource"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Education'
+  - "AUD: School Certifying Officials (SCO)"
+  - "BNFT: Education"
+  - "PRDT: Benefit Hubs"
+  - "PRDT: Content"
+  - "usability-testing"
+  - "evaluative"
+  - "DSP: Content Presentation"
+  - "DSP: Help users to navigate a long list"
+  - "DSC: Links"
+  - "DSC: Accordions"
 ---
+
 # Research Findings   
 ### Overview  
 The research overview outlines a usability study conducted with 6 SCOs with extensive experience supporting Veterans across the United States (US). The study aimed to assess the ease of accessing key resources on the Resources for Schools page and gather feedback on potential additions. Each session lasted 45 minutes.   

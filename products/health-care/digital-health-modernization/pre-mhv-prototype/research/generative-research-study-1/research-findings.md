@@ -1,105 +1,124 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Digital Health Modernization: Generative Research Study 1 Findings"
+product: "Digital Health Modernization"
+team: "Not specified in report"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2020-12-31"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Emily Mann"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Understand mental models and information architecture: What health-related content and tools outside of the MHV patient portal do users find valuable? What do they need integrated into their experience to make managing their health easier?"
+  - "Understand branding and trust: What attitudes do Veterans hold toward the MHV brand? Which aspects of the MHV brand generate trust?"
+  - "Understand the patient portal: How does the current MHV patient portal support user needs? Where are there opportunities to bridge gaps or improve on existing functionality?"
+  - "Understand sharing health information and tasks: Who do Veterans need to help them manage their health information and tasks? And how do they want to manage that sharing?"
 methodology:
-- Method 1
-- Method 2
+  - "Remote semi-structured interviews"
+  - "Task-based usability observation"
+  - "Screen sharing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 23
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 18
+  service_members: 0
+  caregivers: 5
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 7
+    "35-44": 4
+    "45-54": 3
+    "55-64": 6
+    "65+": 3
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 2
+    bachelors: 6
+    masters: 8
+    doctorate: 1
+    unknown: 5
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 14
+    rural: 9
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 16
+    black: 4
+    hispanic: 0
+    biracial: 0
+    asian: 1
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 9
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Veterans have to navigate multiple health care systems, providers, and insurers to get the care they need."
+  - "The VA ecosystem is so complex that Veterans feel discouraged to apply for, manage, and maximize their benefits."
+  - "Veterans and caregivers don't go to VA.gov to do health tasks."
+  - "The secure sign-in partner options on MHV are not utilized or understood by users."
+  - "Veterans trust the My HealtheVet brand because it offers the fastest, easiest method to complete health tasks."
+  - "The MHV homepage tools reflect users' top health care tasks."
+  - "The lack of visibility into VA medical bills can cause confusion and financial burden to Veterans and caregivers."
+  - "The inability to delineate actions between users of a single MHV account causes friction and confusion."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - |
+    Make the patient portal experience the constant in an otherwise varied health landscape. Veterans should have access to their health information online, shown in a holistic, simple, and actionable way. Design Principles: (1) Accessibility is core to all design decisions. Everyone should be able to use any tool or application regardless of features or complexity. (2) Write content with an empathetic tone. We talk person-to-person with our customers, and use language that puts the person first, not the disability, condition, age, gender, or race. (3) Communicate proactively. Use effective channels all Veterans can access to share health information or events.
+  - |
+    Integrate siloed workflows so that Veterans can more easily obtain, access, and maximize their benefits. Design IA and content in a way that clearly shows the relationship between health care and disability and helps Veterans make decisions. What we are doing: Leveraging the authenticated account experience (My VA).
+  - |
+    Create a clear path between websites for health tasks. Veterans should be taken directly to the information and tools they need, especially when tasks are distributed across multiple websites. What we are doing: Streamlining health workflows on VA.gov by improving the information architecture on health pages to solve discoverability issues and streamline health workflows. Developing the VA flagship app by integrating health and benefits tools and information as one consistent experience.
+  - |
+    Give Veterans a consistent, consolidated sign-in experience for all VA digital services. Veterans should not have to manage multiple credentials and websites to manage their benefits. What we are doing: Working across OCC, VBA, VHA, and others as the Identity Working Group to implement identity vision. Fixing single sign-on between MHV and VA.gov so Veterans and caregivers can do key tasks easily, starting from either website. Coordinating memo from VHA leadership. Getting feedback on proposed identity roadmap (presented 3/18/21). Doing stakeholder research with MHV coordinators, contact center, and help desk.
+  - |
+    Veteran health outcomes should always be the north star. We must help Veterans navigate the fragmented health landscape as we reimagine a future patient experience. What we are doing: Consolidating the sign-in experience across VA websites. Streamlining health workflows on VA.gov. Collaborating across teams to build the digital health modernization vision and roadmap as a combined OCTO-OCC-MHV team.
+  - |
+    Money matters should not be separate from health tasks. Veterans should be able to see financial information in context with their VA health services. What we are doing: Add medical copayments to VA.gov debt portal. It's officially on VA.gov roadmap. What we could do in the future: Connect health tasks through notifications by leveraging VA.gov's platform to design usable and useful notifications.
+  - |
+    Make user delegation simple. Find ways to make it easier for caregivers to manage Veterans' health. What we are doing: Defining user role for dependents in Master Person Index (MPI) by making it easy to identify dependents in MPI (part of the Dependent Benefits Letter work). Updating Terms of Service by working with Legal to change Terms of Service so we can stop closing accounts for non-malicious account-sharing. What we could do in the future: Simplify delegation tools to increase adoption by conducting service design research.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Make the patient portal experience the constant in an otherwise varied health landscape"
+  - "Integrate siloed workflows so that Veterans can more easily obtain, access, and maximize their benefits"
+  - "Create a clear path between websites for health tasks"
+  - "Give Veterans a consistent, consolidated sign-in experience for all VA digital services"
+  - "Veteran health outcomes should always be the north star"
+  - "Money matters should not be separate from health tasks"
+  - "Make user delegation simple"
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: My VA'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
-- 'MHV: Personal Health Records/Medical Records'
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "MHV: MyHealth (Health Hub)"
+  - "MHV: Appointments"
+  - "MHV: Pharmacy"
+  - "MHV: Secure Messaging"
+  - "MHV: Personal Health Records/Medical Records"
+  - "PRDT: eBenefits"
+  - "DSP: Help users to sign in"
 ---
+
 # Digital Health Modernization: Generative Research Study 1 Findings
 
 Researcher: Emily Mann | emily.mann1@va.gov

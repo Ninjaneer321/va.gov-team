@@ -1,104 +1,120 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "2023-06 Priority Group and Financial Disclosure Research Findings"
+product: "VA Health Care Application (10-10EZ)"
+team: "1010 Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-07-01"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Jessica Stump"
+  - "David Kennedy"
+  - "Hieu Vo"
+  - "Katelyn Caillouet"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Understand Veterans' mental model around health care benefits as it pertains to understanding and maintaining those benefits, specifically related to Priority Groups and financial disclosure"
+  - "Understand Veterans' comprehension of benefits and costs when enrolling for and after enrollment in health care benefits"
+  - "Identify Veterans' current pain points with how the health care application impacts the overall health care journey"
+  - "Understand Veterans' mental model of eligibility and Priority Groups around their benefits and costs"
+  - "Assess whether Veterans are confused by Priority Group transparency prior to applying for enrollment"
+  - "Determine how Veterans learn about and understand their Priority Group"
+  - "Understand Veterans' preferred methods for viewing Priority Group information"
+  - "Identify how Veterans prefer to provide updated information that could impact their health care benefits after enrollment"
 methodology:
-- Method 1
-- Method 2
+  - "Moderated semi-structured interviews"
+  - "Task-based scenario"
+  - "Generative research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 12
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 12
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 3
+    "35-44": 4
+    "45-54": 2
+    "55-64": 2
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 2
+    associates: 1
+    bachelors: 3
+    masters: 4
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 11
+    rural: 1
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 6
+    black: 1
+    hispanic: 3
+    biracial: 1
+    asian: 3
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 8
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Veterans expect to update their financial information for health care benefits somewhere in their VA Profile."
+  - "Veterans want notifications to update financial information for health care benefits including a link and additional context."
+  - "Veterans don't know/don't need to know how income impacts their health care benefits if they are over a certain percent of service connected disability rating."
+  - "There's a blurry line between disability benefits and health care benefits for Veterans who have gone through the process of filing claims for service connected disabilities."
+  - "More explanation is needed for Priority Groups around what they are and how they impact health care benefits and are connected to disability ratings."
+  - "Veterans express enthusiasm for the current online options to update health care information and want even more online flexibility and functionality."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Provide a clear access point on the VA.gov Profile to update health enrollment information, including financial information."
+  - "Use VA.gov-based content (unauthenticated and authenticated pages) to increase awareness about the impact of financial information on health care benefits."
+  - "Explore push and other types of notifications that direct Veterans to VA.gov to update health enrollment information when needed."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
 underserved_groups_missing:
-- Group 1
-- Group 2
+  - "Ages 55+"
+  - "Rural"
+  - "No degree"
+  - "Other than honorable discharge"
+  - "Immigrant origin and expat"
+  - "Native"
+  - "Black"
+  - "LGBTQ+"
 secondary_research:
-- Web analytics
-- SME interviews
+  - "VA.gov search analytics (EZR-related searches)"
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
+  - "Affinity Mapping"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: My VA'
-- 'MHV: Appointments'
-- 'MHV: Secure Messaging'
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "PRDT: Form 10-10 EZ"
+  - "PRDT: My VA"
+  - "DSP: Ask users for contact preferences"
+  - "generative-research"
+  - "moderated-research"
+  - "semi-structured-interviews"
+  - "remote-research"
 ---
+
 # [2023-06-Priority Group and Financial Disclosure] Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), 10-10EZR, 1010 Team**

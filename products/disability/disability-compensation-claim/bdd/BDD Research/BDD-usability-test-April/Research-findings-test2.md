@@ -1,103 +1,121 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "BDD Research Findings usability test 2"
+product: "Benefits Delivery at Discharge (BDD)"
+team: "Not specified"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2020-05-29"
+researchers: 
+  - "Christian Valla"
 research_goals:
-- Goal 1
-- Goal 2
+  - "To understand the current user experience going through the current BDD process (paper forms)."
+  - "How is the current process perceived by Service Members, including: the workload, the timelines/deadlines, the complexity of the process, the pain points, the need for support/info?"
+  - "To learn more about where users would look for info about BDD on VA.gov."
+  - "To learn more about how participants find info about BDD on VA.gov."
+  - "To see whether or not participants are able to navigate to the page where they submit a BDD claim online."
+  - "Test a mockup of a new BDD info page and compare it with the current (Pre-discharge claim page)."
+  - "To understand how the online BDD flow (in VA staging) is experienced by participants and how it matches their expectations."
+  - "Test the BDD flow for usability errors."
 methodology:
-- Method 1
-- Method 2
+  - "Remote moderated usability testing"
+  - "Task-based interviews"
+  - "Wayfinding tasks"
+  - "Prototype testing (Invision mockup)"
+  - "Staging environment testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 2
+  service_members: 7
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "18-24": 0
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 9
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 9
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 9
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 9
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+  gender:
+    male: 7
+    female: 2
 key_findings:
-- Finding 1
-- Finding 2
+  - "The three users that had filed a BDD claim (paper forms) felt that the BDD claim process was unclear, not easy to fully comprehend, even with the help of a VSO."
+  - "Participants had a hard time locating BDD info on VA.gov, and mostly used the search bar."
+  - "Users were confused about the use of both the term Pre-discharge claim and BDD."
+  - "Participants were able to navigate and find the page where they could start an online BDD claim."
+  - "Most participants preferred the new mockup BDD info page instead of the current (Pre-discharge claim) page."
+  - "Overall, participants found the BDD flow to be fast, simple and self-explanatory, although some steps caused some confusion, including: Copy on the Military history page indicates military history listed below, when no military history is established in the system yet; Copy on the New conditions page indicating that they have established a claim when they have not done this yet; Copy on the Supporting evidence page asks SM to add evidence to their claim, when they have not established a claim yet; A couple of users want to see some info about the security level used for handling bank account information; They want to see a number or at least an area code of the vendor calling them. They want a time estimate for the call and a call back number."
+  - "Participants value the print button and the tracking button on the Submission page. In the tracking tool, they want to see claim status, step in process and steps left. Some participants expected to see a claim number on the submission page. If this is not given, one participant suggests to inform that the claim is tracked by social security number. Participants would like an email confirmation."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Ensure that users having filed a BDD claim get enough updates, that they know their claim is in progress, and that nothing is holding it back."
+  - "This will ensure that users know that their claim progress is normal, that there is no action needed on their part, and prevent users from contacting VA with questions or complaints."
+  - "Add Benefits Delivery at Discharge to the navigation / UI."
+  - "Many users have never heard about the BDD program. Consider how to make it more known."
+  - "Use only Benefits Delivery at Discharge (BDD) as the single term for this program. Remove Pre-discharge Claim."
+  - "Simplify the Pre-discharge claim page. Less text, less overwhelming. Include a video."
+  - "Change copy on Military history page, New conditions page and the Supporting evidence page to avoid confusion."
+  - "Change text on the Claim exam page to be more supportive of veteran. Add phone number or area code from the vendor. Add a call back number on page or in voice mail, or add an email address to allow for written communication."
+  - "Add email confirmation after submission of claim."
+  - "Build a status tracker or a dashboard to see the claim progress/status/changes. Include progress steps, timeline of process, time estimate for completion, information that the claim is tracked by social security number, not by a claim number."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Healthcare'
-- 'PRDT: Claim-status-tool'
-- 'MHV: Appointments'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Service Members"
+  - "AUD: Veterans"
+  - "AUD: Veteran Service Office (VSO)"
+  - "BNFT: Disability"
+  - "PRDT: Claim-status-tool"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "evaluative"
+  - "wayfinding"
 ---
+
 BDD Research Findings usability test 2
 ======================================
 
