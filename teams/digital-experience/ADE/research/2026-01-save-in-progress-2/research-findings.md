@@ -313,14 +313,7 @@ Eight participants said they wanted to be able to delete a form they started but
 
         Figure 2 shows the VA form number "20-10206" split across two lines.
 
-        <img src="./images/p6-highlight-then-menu-to-read-aloud.png" width="50%" height="50%" alt="The text '3 of 6 Records requested' is highlighted, and there's a menu popped up that has 6 options, the last of which says 'Speak'">
-        </details>
-
-        <details><summary>Screenshot of the form number split across two lines in Figure 3</summary>
-
-        Figure 3 shows the VA form number "20-10206" split across two lines.
-
-        <img src="./images/p7-intro-page-form-num-broken.PNG" width="50%" height="50%" alt="The VA form number is directly below the Heading and split across two lines with '20' on the first line and '10206' on the second line">
+        <img src="./images/p6-highlight-then-menu-to-read-aloud.png" width="25%" height="25%" alt="The text '3 of 6 Records requested' is highlighted, and there's a menu popped up that has 6 options, the last of which says 'Speak'">
         </details>
 
 
