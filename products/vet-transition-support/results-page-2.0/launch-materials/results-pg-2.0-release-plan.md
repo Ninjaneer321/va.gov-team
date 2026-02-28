@@ -43,10 +43,6 @@
 - Launch go/no-go ticket: [PTEMSVT-740](https://jira.devops.va.gov/browse/PTEMSVT-740)
 - [Launch readiness checklist](https://jira.devops.va.gov/browse/PTEMSVT-740)
 
-**Desired date range:** _week of 03/16/2026_
-
-**Dev task: Remove environment variable check** JIRA ticket tk
-
 
 ## Go Live!
 
@@ -54,6 +50,8 @@
 |Launch % |Desired Date | _Actual Date_ | 
 |-------|-----------|-----------|
 | Launch to 100% | week of 03/16/2026 | _mm/dd/yyyy_ |
+
+**Launch ticket** [PTEMSVT-740](https://jira.devops.va.gov/browse/PTEMSVT-741) 
 
 ### 1-week results (at 100%):
 - **Number of unique users :**
