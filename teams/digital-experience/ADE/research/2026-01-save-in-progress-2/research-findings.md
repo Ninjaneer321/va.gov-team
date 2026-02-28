@@ -516,10 +516,14 @@ Eight participants said they wanted to be able to delete a form they started but
 [Prototype in a GitHub Codespace that needs to be started manually--CONTACT CINDY](https://legendary-yodel-46rpq9g49pj37wv5-3002.app.github.dev)
 
 #### Screenshots of the prototype (Codespace) 
-***NEED TO UPDATE EVERYTHING BELOW*...**
+***NEED TO UPDATE EVERYTHING BELOW, including the Figure numbering*...**
+
 <details>
-  <summary>Figure 9: Informational alert about saving</summary>
-   <img src="./images/intro-pg-alert.png" width="75%" height="75%" alt="We'll save your request on every change. You can stop anytime, and come back later to finish.">
+  <summary>Figure 10: VA.gov home page--not signed in</summary>
+
+  Figure 10 shows the VA.gov unauthenticated home page, which is how the prototype first opens. 
+
+  <img src="./images/home-pg.png" width="75%" height="75%" alt="The VA.gov home page has special colored navigation buttons at the top (only for the purposes of this usability test), followed by the rest of the usual page--including the Sign in button">
 
 </details>
 
@@ -543,11 +547,17 @@ Eight participants said they wanted to be able to delete a form they started but
 
 </details>
 
-The form we tested has 9 pages of questions, and each page has at the bottom a *Finish later* button on the left side and a *Continue* button on the right side.
+The form we tested has 9 pages of questions, and each page has at the bottom a *Finish later* button on the left side and a *Continue* button on the right side. The interstitial page appears after the first page of questions.
 
 <details>
   <summary>Figure 12: Form page 1 asks whether you are a U.S. citizen</summary>
    <img src="./images/form-pg1-alert&citizenship.png" width="75%" height="75%" alt="Radio button question with options to indicate whether you're a U.S. citizen">
+</details>
+
+<details>
+  <summary>Figure 9: Interstitial page in the form</summary>
+   <img src="./images/interstitial-page&form-header.png" width="50%" height="50%" alt="The new interstitial page explains that the information you enter in the form will saved, and that you can select the Finish later button anytime to stop">
+
 </details>
 
 <details>
@@ -599,7 +609,7 @@ The form we tested has 9 pages of questions, and each page has at the bottom a *
 </details>
 
 <details>
-  <summary>Figure 22: My VA page with various sections including Benefit applications and forms at the bottom</summary>
+  <summary>Figure 22: My VA page with various sections including "Forms and applications"</summary>
    <img src="./images/MyVA-top.png" width="100%" height="100%" alt="top of the My VA page with a heading for Claims and appeals">
    <img src="./images/MyVA-middle.png" width="100%" height="100%" alt="headings for Health care, Outstanding debts, and Benefit payments">
    <img src="./images/MyVA-bottom.png" width="100%" height="100%" alt="headings for Education and training, and Benefit applications and forms">
