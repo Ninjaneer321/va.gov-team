@@ -309,9 +309,9 @@ Eight participants said they wanted to be able to delete a form they started but
 1. Two participants were **frustrated with their AT, perhaps because the tools weren't appropriate for their level of impaired vision**, and they didn't know that another tool might meet their needs better. 
      1. P6 with low vision wasn't using a screenreader on his smartphone but instead a **tool that reads aloud whatever text you highlight with your finger. He kept wanting the tool to read aloud everything on the screen**, but it skipped some text (including accordions) and read some text in small parts with breaks in between (e.g., on the "Records requested" page of the form, as well as the message that appears after you select "Finish later"). At the end of the session, we recommended that the participant try the VoiceOver screenreader.
 
-         <details><summary>Screenshot of the menu that P6 used to ask his phone to "Speak" aloud the text that he highlighted with his finger in Figure 3</summary>
+         <details><summary>Screenshot of the menu that P6 used to ask his phone to "Speak" aloud the text that he highlighted with his finger in Figure 2</summary>
 
-        Figure 3 shows the VA form number "20-10206" split across two lines.
+        Figure 2 shows the VA form number "20-10206" split across two lines.
 
         <img src="./images/p6-highlight-then-menu-to-read-aloud.PNG" width="50%" height="50%" alt="The text '3 of 6 Records requested' is highlighted, and there's a menu popped up that has 6 options, the last of which says 'Speak'">
         </details>
@@ -338,9 +338,9 @@ Eight participants said they wanted to be able to delete a form they started but
     
     1. Two non-AT participants were **confused when they saw the form intro page** because they were looking for fields to fill out. One of them always uses Google to find VA forms and never sees the form intro page. The other didn't notice the form number below the big "Request personal records" heading, in part because it was split across two vertical lines: (1) **VA Form 20-**, and (2) **10206**". 
     
-        <details><summary>Screenshot of the form number split across two lines in Figure 2</summary>
+        <details><summary>Screenshot of the form number split across two lines in Figure 3</summary>
 
-        Figure 2 shows the VA form number "20-10206" split across two lines.
+        Figure 3 shows the VA form number "20-10206" split across two lines.
 
         <img src="./images/p7-intro-page-form-num-broken.PNG" width="50%" height="50%" alt="The VA form number is directly below the Heading and split across two lines with '20' on the first line and '10206' on the second line">
         </details>
@@ -527,18 +527,18 @@ Eight participants said they wanted to be able to delete a form they started but
 ***NEED TO UPDATE EVERYTHING BELOW, including the Figure numbering*...**
 
 <details>
-  <summary>Figure 10: VA.gov home page--not signed in</summary>
+  <summary>Figure 4: VA.gov home page--not signed in</summary>
 
-  Figure 10 shows the VA.gov unauthenticated home page, which is how the prototype first opens. 
+  Figure 4 shows the VA.gov unauthenticated home page, which is how the prototype first opens. 
 
   <img src="./images/home-pg.png" width="75%" height="75%" alt="The VA.gov home page has special colored navigation buttons at the top (only for the purposes of this usability test), followed by the rest of the usual page--including the Sign in button">
 
 </details>
 
 <details>
-  <summary>Figure 10: Intro page--not signed in</summary>
+  <summary>Figure 5: Intro page--not signed in</summary>
 
-  Figure 10 explains about about the form, and prompts the user to sign in to start filling it out.
+  Figure 5 explains about about the form, and prompts the user to sign in to start filling it out.
 
   <img src="./images/Intro-pg-unauth-top.png" width="75%" height="75%" alt="The intro page explains what to know before you fill out the form and the types of information you can request">
   <img src="./images/Intro-pg-unauth-bottom.png" width="75%" height="75%" alt="At the bottom of the intro page is a prompt to sign in to start filling out the form">
@@ -546,78 +546,78 @@ Eight participants said they wanted to be able to delete a form they started but
 </details>
 
 <details>
-  <summary>Figure 11: Intro page--signed in</summary>
+  <summary>Figure 6: Intro page--signed in</summary>
 
-  Figure 11 The signed-in version of the intro page has an informational alert about saving and a "Start your request" link.
+  Figure 6 shows the signed-in version of the intro page, which has a "Start your request" link.
   
    <img src="./images/Intro-pg-auth-top.png" width="75%" height="75%" alt="Most of the signed-in version of the intro page is the same as the not-signed-in version">
-   <img src="./images/Intro-pg-auth-bottom.png" width="75%" height="75%" alt="At the bottom of the signed-in version of the intro page, the sign-in prompt has been replaced by an informational alert about saving and a 'Start your request' link">
+   <img src="./images/Intro-pg-auth-bottom.png" width="75%" height="75%" alt="At the bottom of the signed-in version of the intro page, the sign-in prompt has been replaced by a 'Start your request' link">
 
 </details>
 
 The form we tested has 9 pages of questions, and each page has at the bottom a *Finish later* button on the left side and a *Continue* button on the right side. The interstitial page appears after the first page of questions.
 
 <details>
-  <summary>Figure 12: Form page 1 asks whether you are a U.S. citizen</summary>
+  <summary>Figure 7: Form page 1 asks whether you are a U.S. citizen</summary>
    <img src="./images/form-pg1-citizenship.png" width="75%" height="75%" alt="Radio button question with options to indicate whether you're a U.S. citizen">
 </details>
 
 <details>
-  <summary>Figure 9: Interstitial page in the form</summary>
+  <summary>Figure 8: Interstitial page in the form</summary>
    <img src="./images/interstitial-page&form-header.png" width="50%" height="50%" alt="The new interstitial page explains that the information you enter in the form will saved, and that you can select the Finish later button anytime to stop">
 
 </details>
 
 <details>
-  <summary>Figure 13: Form page 2 asks for your first name, middle initial, last name, birthdate, and place of birth</summary>
+  <summary>Figure 9: Form page 2 asks for your first name, middle initial, last name, birthdate, and place of birth</summary>
    <img src="./images/form-pg2-name&DOB.png" width="50%" height="50%" alt="first name, middle initial, last name, birth month dropdown, birth day, birth year, and place of birth">
 </details>
 
 <details>
-  <summary>Figure 14: Form page 3 asks for your social security number and VA file number</summary>
+  <summary>Figure 10: Form page 3 asks for your social security number and VA file number</summary>
    <img src="./images/form-pg3-SSN&VAfile.png" width="75%" height="75%" alt="social security number and VA file number--one of which must be entered">
  </details>
 
 <details>
-  <summary>Figure 15: Form page 4 asks whether you live on a U.S. military base, and then for your country, street address, apartment or unit number, city, state/province/region, and postal code</summary>
+  <summary>Figure 11: Form page 4 asks whether you live on a U.S. military base, and then for your country, street address, apartment or unit number, city, state/province/region, and postal code</summary>
    <img src="./images/form-pg4-mailing-addr-top.png" width="75%" height="75%" alt="top of the page with a checkbox for whether you live on a U.S. military base, followed by a dropdown field for your country. Below that are fields for street address, apartment or unit number, and city">
    <img src="./images/form-pg4-mailing-addr-bottom.png" width="75%" height="75%" alt="fields for state/province/region and postal code">
 </details>
 
 <details>
-  <summary>Figure 16: Form page 5 asks for your phone number and email</summary>
+  <summary>Figure 12: Form page 5 asks for your phone number and email</summary>
    <img src="./images/form-pg5-phone&email.png" width="75%" height="75%" alt="fields to enter phone number and email, both of which are required">
  </details>
 
 <details>
-  <summary>Figure 17: Form page 6 is a list of checkboxes for which  record(s) to request</summary>
+  <summary>Figure 13: Form page 6 is a list of checkboxes for which  record(s) to request</summary>
    <img src="./images/form-pg6-records.png" width="75%" height="75%" alt="a list of checkboxes, one for each type of record that can be requested">
 </details>
 
 <details>
-  <summary>Figure 18: Form page 7 is an Additional records information field</summary>
+  <summary>Figure 14: Form page 7 is an Additional records information field</summary>
    <img src="./images/form-pg7-additional-info.png" width="75%" height="75%" alt="optional Additional records information field">
 </details>
 
 <details>
-  <summary>Figure 19: Form page 8 asks if there is a VA regional office that you're associated with</summary>
+  <summary>Figure 15: Form page 8 asks if there is a VA regional office that you're associated with</summary>
    <img src="./images/form-pg8-regional-office.png" width="75%" height="75%" alt="optional VA regional office name field">
 </details>
 
 <details>
-  <summary>Figure 20: Form page 9, which is the last page in the form, has expandable sections of form information at the top. Below is a notice about criminal penalties for withholding information, and a statement of truth that requires typing your full name and checking a box to certify the information</summary>
+  <summary>Figure 16: Form page 9, which is the last page in the form, has expandable sections of form information at the top. Below is a notice about criminal penalties for withholding information, and a statement of truth that requires typing your full name and checking a box to certify the information</summary>
    <img src="./images/form-pg9-review&submit.png" width="100%" height="100%" alt="the last page in the form, which has expandable sections of form information at the top">
    <img src="./images/form-pg9-statement-of-truth.png" width="75%" height="75%" alt="Below the expandable sections is a note about criminal penalties for withholding information, and a statement of truth that requires typing your full name and checking a box that you certify the information">
 </details>
 
 <details>
-  <summary>Figure 21: After clicking the "Finish later" button, the user sees a blue informational alert that says your information has been saved".</summary>
+  <summary>Figure 17: After clicking the "Finish later" button, the user sees a blue informational alert that says your information has been saved".</summary>
    <img src="./images/after-click-finish-later.png" width="75%" height="75%" alt="A blue informational alert that says 'Your Personal records request has been saved' and contains the date and time of the last save, and the date two months later that the incomplete request will expire. Below the text are two buttons: a blue 'Continue your request' button on the left, and a white 'Start a new request' button on the right.">
 
 </details>
 
 <details>
-  <summary>Figure 22: My VA page with various sections including "Forms and applications"</summary>
+  <summary>Figure 18: My VA page with various sections including "Forms and applications"</summary>
    <img src="./images/MyVA-top.png" width="100%" height="100%" alt="top of the My VA page with a heading for Claims and appeals">
    <img src="./images/MyVA-middle.png" width="100%" height="100%" alt="headings for Health care, Outstanding debts, and Benefit payments">
    <img src="./images/MyVA-bottom.png" width="100%" height="100%" alt="headings for Education and training, and Benefit applications and forms">
