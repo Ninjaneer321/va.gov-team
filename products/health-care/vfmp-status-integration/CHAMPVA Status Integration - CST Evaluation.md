@@ -267,6 +267,12 @@ All users see the same interface.
 2. Phase mapping assumes ordered progression unless explicitly handled.
 3. Backend normalization must align CHAMPVA states to approved phase labels.
 4. Content-approved labels must match frontend labels exactly.
+5. Local frontend testing cannot call external upstream systems (e.g., PEGA / VES). Development therefore depends on:
+   
+ - Seeded database records, or
+ - Mocked API responses that match the expected JSON shape.
+  
+   This is a normal development constraint and does not affect production behavior.
 
 Removed risks:
 
