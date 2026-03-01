@@ -30,10 +30,10 @@
 This document evaluates whether CHAMPVA **applications** can be displayed correctly within the existing Claim Status Tool (CST) frontend.
 
 ### Simple Explanation
-We are confirming that CHAMPVA application processing states align with CST’s progress stepper and decision display model without requiring structural frontend changes.
+We are confirming that CHAMPVA application processing states can align with CST’s progress stepper and decision display model without requiring structural frontend changes.
 
 ### Technical Explanation
-We are validating that CHAMPVA provider statuses can be normalized into `ClaimResponse` and mapped to CST’s existing `claimPhaseDates.phaseType` structure and decision rendering components.
+We are evaluating how CHAMPVA provider status values ('pega_status') can be normalized into the existing ClaimeResponse structure mapped into CST's phase and decision rendering components.
 
 ---
 
@@ -167,7 +167,7 @@ The current ClaimResponse for CHAMPVA includes:
 - close_date (not a db column, typically derived from pega_status and updated_at)
 - normalized status
 
-It does not NOT currently include 'claimmPhaseDates' (phases/steps returned)
+It does not NOT currently include phase data (e.g., 'claimPhaseDates')
 
 For CHAMPVA to integrate with the CST progress stepper, backend must map 'pega_status' values into CST_compatible phase values and include them in the API response.
 
@@ -264,7 +264,7 @@ All users see the same interface.
 # 10. Frontend Constraints Identified
 
 1. CST uses predefined milestone arrays.
-2. Phase mapping assumes forward progression.
+2. Phase mapping assumes ordered progression unless explicitly handled.
 3. Backend normalization must align CHAMPVA states to approved phase labels.
 4. Content-approved labels must match frontend labels exactly.
 
