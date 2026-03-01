@@ -293,8 +293,12 @@ CHAMPVA applications can integrate into CST without structural frontend changes.
 We may have:
 - Minor CSS adjustments
 - Small Storybook updates for new status examples
-- New or updated Redux thunk to fetch CHAMPVA data
 - Slight mapping logic adjustments in helpers
+- New or updated Redux thunk to fetch CHAMPVA data
+
+If CHAMPVA introduces new API endpoints, corresponding Redux setup (thunks, actions, reducers) will be required to integrate that data into CST.
+
+Currently, it appears the existing benefits_claims endpoint may be extended to support CHAMPVA (still under consideration), which would minimize additional Redux changes.
 
 But no:
 - New layout architecture
