@@ -106,64 +106,36 @@ The timeline is the progress stepper showing where the application is in process
 
 # 4. Status vs What Users See
 
-Backend responses may include a `status` field (for example COMPLETE or PENDING).
+Backend responses may include a normalized `status` field (for example 'COMPLETE' or 'PENDING').
 
-However, users do not see raw backend status values.
+However, users do not see raw backend status values. Conceptual distinction.
 
 In CST, users see:
 
-- The progress step (phase)
-- Decision messaging (approved, denied, ineligible)
+- The active progress step (phase)
+- Final decision messaging (approved, denied, ineligible)
 - Eligibility decision cards
-
----
-
-### Technical Explanation
-
-The frontend consumes normalized backend fields but renders only:
-
-- Phase labels
-- Decision components
-- Activity entries
 
 ---
 
 ### Simple Explanation
 
-“Status” is internal system language. Users see progress steps and decision results.
+“Status” is internal system language. Users see progress steps and final results.
 
 ---
 
 # 5. Card Status Pill (CST)
 
-CST displays a status pill (tag) on the claim card.
+CST displays a status pill (tag) on the claim card. Specific UI behavior.
 
 For CHAMPVA applications:
 
-- If backend status is pending -> the pill displays **"In Progress"**
-- If backend status is complete -> the pill is hidden
+- If backend status is 'PENDING' -> the pill displays **"In Progress"**
+- If backend status is 'COMPLETE' -> the pill is hidden
 
-The pill is a visual label only. It does not represent a separate lifecycle model.
-
-### CST
-Displays processing lifecycle via:
-
-- Progress stepper phases
-- Final decision messaging
-
-These are not identical lists.
+The pill is derived directly from the normalized backend 'status' value. It does not represent a separate lifecycle model.
 
 ---
-### Backend Meaning
-
-Backend responses include a normalized 'status' value derived from 'pega_status' on the 'ivc_champva_forms' table.
-
-Example normalized values:
-
-- 'PENDING'
-- 'COMPLETE'
-
-The frontend maps this normalized 'status' to the card pill label.
 
 ### Simple Explanation
 
@@ -183,7 +155,7 @@ Status data originates from external systems, including:
 - VES
 - Health Apps
 
-Backend status flow:
+Backend origin status + flow:
 
 1. PEGA callback updates 'pega_status' on 'IvcChampvaForm'
 2. The IVC CHAMPVA provider normalizes 'pega_status' and builds a 'ClaimResponse'
