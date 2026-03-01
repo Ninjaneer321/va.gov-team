@@ -192,7 +192,7 @@ Backend status flow:
 The current ClaimResponse for CHAMPVA includes:
 - id (form_uuid)
 - claim_date
-- close_date (derived)
+- close_date (not a db column, typically derived from pega_status and updated_at)
 - normalized status
 
 It does not NOT currently include 'claimmPhaseDates' (phases/steps returned)
