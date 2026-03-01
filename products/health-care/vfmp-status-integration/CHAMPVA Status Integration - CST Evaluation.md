@@ -14,7 +14,7 @@
 - [2. How CST Currently Displays an Application](#2-how-cst-currently-displays-an-application)
 - [3. Timeline and Phases](#3-timeline-and-phases)
 - [4. Status vs What Users See](#4-status-vs-what-users-see)
-- [5. Buckets and Display Locations](#5-buckets-and-display-locations)
+- [5. Card Status Pill (CST)](#5-card-status-pill-cst)
 - [6. Backend Status Source](#6-backend-status-source)
 - [7. CHAMPVA Lifecycle Within CST](#7-champva-lifecycle-within-cst)
 - [8. Complete / Denied / Ineligible Handling](#8-complete--denied--ineligible-handling)
@@ -88,15 +88,13 @@ These labels will appear in the progress stepper.
 
 ### Technical Explanation
 
-The active progress step is determined by:
+CST defines a multi-step phase model used by existing claim types (e.g., Received, Evidence Gathering, Preparation for Decision, Complete).
 
-`claimPhaseDates.phaseType`
+The progress stepper renders based on phase data (steps) included in the API response.
 
-This value is mapped via:
+For Lighthouse-based claims (existing CST), this phase data is provided via 'claimPhaseDates' (API field).
 
-- `helpers.js`
-- `claimPhase.jsx`
-- Rendered in `ClaimPhaseStepper.jsx`
+For CHAMPVA (IVC provider), phase data is not currently included in the benefits_claims API response. Therefore, backend mapping will be required to translate 'pega_status' values into a CST-compatible phase model.
 
 ---
 
@@ -136,25 +134,16 @@ The frontend consumes normalized backend fields but renders only:
 
 ---
 
-# 5. Buckets and Display Locations
+# 5. Card Status Pill (CST)
 
-Bucket = 'what state group this belongs to'
+CST displays a status pill (tag) on the claim card.
 
-Pill = 'how we visually show that state in label'
+For CHAMPVA applications:
 
-PEGA may provide the underlying status,
-MyVA maps that into a bucket,
-and the UI renders it inside a pill
+- If backend status is pending -> the pill displays **"In Progress"**
+- If backend status is complete -> the pill is hidden
 
-There are two display contexts in the overall experience:
-
-### MyVA
-Displays early lifecycle states such as:
-
-- Draft
-- Submission in Progress
-- Action Needed
-- Received
+The pill is a visual label only. It does not represent a separate lifecycle model.
 
 ### CST
 Displays processing lifecycle via:
@@ -165,10 +154,24 @@ Displays processing lifecycle via:
 These are not identical lists.
 
 ---
+### Backend Meaning
+
+Backend responses include a normalized 'status' value derived from 'pega_status' on the 'ivc_champva_forms' table.
+
+Example normalized values:
+
+- 'PENDING'
+- 'COMPLETE'
+
+The frontend maps this normalized 'status' to the card pill label.
 
 ### Simple Explanation
 
-MyVA shows early states. CST shows processing states. They align conceptually but are not the same list.
+The backend sends a status value.
+
+If it is pending, the card shows **"In Progress"**
+
+If it is complete, the pill is not shown.
 
 ---
 
@@ -182,15 +185,19 @@ Status data originates from external systems, including:
 
 Backend status flow:
 
-1. External systems return raw state values.
-2. `provider_registry.rb` selects the correct provider adapter.
-3. The provider normalizes external data into `ClaimResponse`.
-4. `ClaimResponse` includes:
-   - `status`
-   - `claimPhaseDates.phaseType`
-   - `trackedItems`
-   - Decision data
-5. The frontend maps `claimPhaseDates.phaseType` to the progress stepper.
+1. PEGA callback updates 'pega_status' on 'IvcChampvaForm'
+2. The IVC CHAMPVA provider normalizes 'pega_status' and builds a 'ClaimResponse'
+3. The benefits_claims controller returns that response to the frontend.
+
+The current ClaimResponse for CHAMPVA includes:
+- id (form_uuid)
+- claim_date
+- close_date (derived)
+- normalized status
+
+It does not NOT currently include 'claimmPhaseDates' (phases/steps returned)
+
+For CHAMPVA to integrate with the CST progress stepper, backend must map 'pega_status' values into CST_compatible phase values and include them in the API response.
 
 Relevant backend files:
 
@@ -202,7 +209,7 @@ Relevant backend files:
 
 ### Technical Explanation
 
-The phase shown in CST is derived from normalized provider state values returned by PEGA/DOCMP and VES and mapped into `claimPhaseDates.phaseType` on the backend.
+The phase shown in CST is derived from normalized provider state values returned by PEGA/DOCMP and VES and needs to be mapped into CST_compatible phase values on the backend.
 
 ---
 
@@ -214,7 +221,11 @@ Different systems send different statuses. Backend converts them into one consis
 
 # 7. CHAMPVA Lifecycle Within CST
 
-CST-visible lifecycle begins once the application enters formal processing.
+CST defines a multi-step phase model used by existing claim types.
+
+These phase labels already exist in the CST frontend.
+
+For CHAMPVA, activation of these steps requires backend alignment so that 'pega_status' values are translated into a CST-compatible phase model and returned in the API response.
 
 Processing phases:
 
@@ -325,7 +336,7 @@ Primary alignment tasks:
 
 - Confirm Content-approved phase labels.
 - Confirm Denied vs Ineligible terminology.
-- Ensure backend `claimPhaseDates.phaseType` aligns with approved phases.
+- Ensure CHAMPVA backend maps 'pega_status' into CST-compatible phase values so the existing progress stepper can render correctly.
 
 With scope clarified and UX feedback incorporated, integration risk is low.
 
