@@ -67,6 +67,10 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install Python dependencies
+        run: |
+          pip install pyyaml
+
       - name: Find eligible research files
         id: find-files
         run: |
@@ -161,9 +165,11 @@ jobs:
                   "style": "primary"
               }]
           })
+          
+          report_url = f"https://github.com/{repository}/blob/{sha}/{research_file}"
           blocks.append({
               "type": "context",
-              "elements": [{"type": "mrkdwn", "text": context_message}]
+              "elements": [{"type": "mrkdwn", "text": f"{context_message}\n📎 <{report_url}|View full report on GitHub>"}]
           })
 
           payload = {
