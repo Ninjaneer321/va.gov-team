@@ -16,7 +16,7 @@ Both account types are identical at the platform level. The differences show up 
 
 **Additional notes:**
 
-- The system has a Veteran indicator, but this shouldn't be the only way used to identify a Veteran. If this indicator is missing, that doesn't mean the person isn't a Veteran — the system just doesn't have records of it at that time.
+- The system has a Veteran indicator, but this shouldn't be the only way used to identify a Veteran. If this indicator is missing, that doesn't mean the person isn't a Veteran, the system just doesn't have records of it at that time.
 - MPI (Master Person Index) tracks relationships between people (like a Veteran and their dependent), but it labels both sides of the relationship the same way. You have to use other data to figure out who is the Veteran and who is the dependent.
 
 ---
