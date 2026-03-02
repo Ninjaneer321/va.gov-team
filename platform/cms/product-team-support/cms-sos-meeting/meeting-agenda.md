@@ -5,9 +5,40 @@ This Scrum of Scrum (SoS) meeting is to ensure all teams working with the Drupal
 
 3/2/2026
 *  CMS team is cleaning up backlog and confirming [this defect](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/21263) will be owned by Public Websites team
+    * Dave Picket made adjustments to the ticket
+        * Added a note and put it back on the board
+    * This may be a duplicate of an existing Facilities epic
+        * They are going to look into this and may end up closing as duplicate
 *  Regrouping about the Homepage Incident Playbook and process to contact Sitewide engineers (see thread [here](https://dsva.slack.com/archives/CT4GZBM8F/p1771968916983919?thread_ts=1771514731.880499&cid=CT4GZBM8F)
-
+    * Good to have playbook in place, but we do not anticipate these types of alerts happening after hours
+    * CMS Team introduced new processes for daily deploy and smoke tests that should alleviate issue of updates being pushed after hours
+    * Daniel Sasser: What is a homepage incident? What content change would necessitate reaching out to Sitewide?
+        * Sitewide has an existing slack channel for monitoring of issues
+        * Rotation of developers monitor those channels during business hours
+        * January homepage incident displayed the page not found view
+            * Static header and footer are included here
+            * Homepage content was not loaded
+        * Randi and Erika will need to clarify when Sitewide should be included
+    * Dave Picket: There is already a process for Sitewide to be notified
+        * Maybe we should include some of that in this process for homepage incidents
+        * Need to include a new section for what to do in the case of after hours
+    * Randi: We want to make sure we are including Sitewide contact info
+        * If Erika and Randi are being pinged, we want to be clear about when it’s something for CMS vs Sitewide
+    * Dave: Are the monitors specific enough for us to know which team it should go to?
+        * Monitors are not perfect
+    * CMS Team is expanding monitoring and adding visual regression testing (VRT) for daily deployment smoke tests
+    * Overlapping of responsibilities
+        * Platform Team is also related
+            * Example: homepage has been down in the past due to revproxy issues
+    * Grace: Sitewide is welcome to update that section of the playbook however they want, if and how Sitewide wants to be included
+        * Alex will take this action item and connect with Fran and Randi to update this
 *  Updates on Next Build QA template progress? Upcoming QA or launches for us to be aware of
+    * New epic view here: https://github.com/orgs/department-of-veterans-affairs/projects/1464/views/14 
+        * Several templates ready for QA currently
+        * Templates will be worked in this priority order
+    * CMS Team is in the process of QAing VAMC Detail Page template
+        * Added a sub-issue for owning team (Facilities in this case) to conduct final review and approval before moving to Production launch of the template
+
 
 2/2/2026
 *  CMS team is revisitng incident management for critical URLs, starting with the homepage (ticket [here](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/23342)). For an incidents with homepage, is there a best way that we can quickly notify a Sitewide engineer for support?
