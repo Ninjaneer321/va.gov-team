@@ -319,22 +319,284 @@ With scope clarified and UX feedback incorporated, integration risk is low.
 
 ---
 
-</details>
-
 <details>
 <summary><strong>CST Backend Evaluation</strong></summary>
-  
-# Backend Evaluation  
-*(With Code Evidence References)*
+
+<div markdown="1">
+
+<a id="cst-backend-evaluation"></a>
+
+## Backend Evaluation  
+*(CHAMPVA — PEGA Webhook + “Documents Needed” + Audit Trail)*
 
 ---
-Backend findings goes here...
-</details>
 
-<details>
-<summary><strong>Integration Alignment Analysis</strong></summary>
-# Integration Analysis 
+## Table of Contents
+
+- [Purpose](#cst-backend-purpose)
+- [1. Current state of `ivc_champva_forms`](#cst-backend-current-state)
+- [2. What is already working](#cst-backend-working)
+- [3. What does not exist today](#cst-backend-missing)
+- [4. PEGA webhook architecture (required changes)](#cst-backend-pega-architecture)
+- [5. Shared identifier strategy](#cst-backend-identifiers)
+- [6. Database changes required](#cst-backend-db-changes)
+- [7. Audit trail — form transitions](#cst-backend-audit)
+- [8. Status endpoint — handing data to the frontend](#cst-backend-status-endpoint)
+- [9. Supplemental document uploads](#cst-backend-supplemental-uploads)
+- [10. Feature flag strategy](#cst-backend-feature-flags)
+- [11. External dependencies](#cst-backend-external-deps)
+- [12. Sprint plan (backend-focused)](#cst-backend-sprint-plan)
 
 ---
-End-to-End compatibility assessment goes here...
+
+<a id="cst-backend-purpose"></a>
+
+## Purpose
+
+Define the backend implementation plan required to support a backend-driven **“documents needed”** signal and a durable **audit trail of PEGA status transitions** for CHAMPVA forms, while preserving the already-working submission pipeline and PEGA webhook.
+
+> Note: MPI may be used later for identity alignment, but **is explicitly out of scope for this phase**.
+
+---
+
+<a id="cst-backend-current-state"></a>
+
+## 1. Current state of `ivc_champva_forms`
+
+### Already stored today (from schema and existing integration)
+
+- `form_uuid` (Health Apps identifier)
+- `pega_status` and `case_id` (written by PEGA webhook)
+- `s3_status`, `email_sent`, and standard timestamps
+- (Other submission metadata may exist, but is out of scope for this plan)
+
+### Not present today (required for CST/MyVA experience)
+
+- `documents_required` (boolean) to tell the frontend to show/hide the post-submission upload CTA
+- An audit table to retain status history (PEGA status is overwritten in place today)
+- Supporting indexes for common lookup paths (e.g., `case_id`)
+
+---
+
+<a id="cst-backend-working"></a>
+
+## 2. What is already working
+
+- PEGA status webhook is implemented and updates the forms table (`case_id` + `pega_status`).
+- Supporting document upload endpoint exists (`submit_supporting_documents`) for uploading additional documents.
+- CHAMPVA forms are surfaced to CST through the **Benefits Claims provider pipeline** (e.g., `GET /v0/benefits_claims`), not via `modules/ivc_champva` `GET` routes.
+
+This means we do not need to “integrate PEGA statuses” again; we only need to extend behavior around the existing flows (**audit + read contract additions + documents_required**).
+
+---
+
+<a id="cst-backend-missing"></a>
+
+## 3. What does not exist today
+
+- No persisted boolean that reliably indicates **“more documents needed”**.
+- No audit history of state changes (PEGA status overwrites in place).
+- No defined contract for handing an **audit list of transitions** to the frontend per form.
+
+---
+
+<a id="cst-backend-pega-architecture"></a>
+
+## 4. PEGA webhook architecture (required changes)
+
+### What stays the same
+
+- PEGA continues to call our webhook with status updates.
+- We continue to write the *current* status to `ivc_champva_forms.pega_status` (and `case_id` as provided).
+
+### What gets added
+
+On every webhook update, we also:
+
+- write an **append-only audit record** capturing the transition (previous → next),
+- optionally update `documents_required` based on an internal rule/mapping (see below).
+
+### Reliability requirement
+
+The webhook response must remain resilient:
+
+- Audit writes must be “best effort” and should not break callback success.
+- Any non-critical downstream behavior should not block webhook processing.
+
+---
+
+<a id="cst-backend-identifiers"></a>
+
+## 5. Shared identifier strategy
+
+- `form_uuid`: canonical identifier for a CHAMPVA submission as surfaced to CST (and used by the provider grouping logic).
+- `case_id`: PEGA identifier used to associate downstream workflow and document routing.
+
+> MPI: out of scope for now. We are not adding MPI lookups/fields in this phase.
+
+---
+
+<a id="cst-backend-db-changes"></a>
+
+## 6. Database changes required
+
+### `ivc_champva_forms` additions
+
+- `documents_required` (boolean, default `false`): frontend-friendly signal indicating “Action needed: upload supporting documents”.
+
+### Indexing additions
+
+Add indexes for:
+
+- `case_id` (document routing / association)
+- (Optional) `form_uuid` if not already indexed and used frequently for lookups/grouping
+
+### Audit table
+
+Create `ivc_champva_form_transitions` to record:
+
+- `form_uuid` (or `ivc_champva_form_id` FK if desired)
+- `from_status`, `to_status`
+- `source` (e.g., `PEGA`)
+- `case_id` (for correlation/debugging)
+- `metadata` (jsonb; optional, for payload fragments or notes)
+- timestamps
+
+---
+
+<a id="cst-backend-audit"></a>
+
+## 7. Audit trail — form transitions
+
+### Why it’s required
+
+- Today, status updates overwrite the previous value; the system loses history.
+- CST/MyVA experiences typically require “Recent activity” and traceability, plus troubleshooting tooling.
+
+### What gets logged
+
+- Every PEGA status update:
+  - `previous_pega_status`
+  - `new_pega_status`
+  - `received_at`
+  - correlation identifiers (`case_id`, `form_uuid`)
+
+### Failure behavior
+
+Audit logging must be “best effort”:
+
+- It should never cause webhook callback failures or block user flows.
+
+---
+
+<a id="cst-backend-status-endpoint"></a>
+
+## 8. Status endpoint — handing data to the frontend
+
+### Current state
+
+- The `ivc_champva` engine routes are `POST`-only (submission, supporting docs, webhook updates).
+- CST currently reads CHAMPVA “forms” via the **Benefits Claims endpoint** (`GET /v0/benefits_claims`) using the IVC CHAMPVA provider.
+
+### Required addition (to the existing CST-facing response)
+
+Extend the CHAMPVA provider response so it returns, per CHAMPVA item:
+
+- `pega_status`
+- `documentsRequired` (boolean)
+- `case_id`
+- `audits` (list of transition objects; newest-first or oldest-first, but consistent)
+
+Example shape (conceptual):
+
+- `data[].attributes.documentsRequired: true|false`
+- `data[].attributes.champvaAudits: [{ fromStatus, toStatus, source, occurredAt, caseId }, ...]`
+
+### Computed status for UI
+
+The backend should compute a simplified status (MyVA/CST friendly) from:
+
+- `documents_required` + `pega_status` (+ agreed mapping rules)
+
+This avoids leaking raw provider strings directly into UI logic.
+
+---
+
+<a id="cst-backend-supplemental-uploads"></a>
+
+## 9. Supplemental document uploads
+
+### What exists
+
+A post-submission supporting docs upload endpoint already exists.
+
+### What needs to be added
+
+Clearing “action needed”:
+
+- After a successful supplemental upload:
+  - set `documents_required = false`
+  - log an audit transition/event indicating documents were submitted (source: `SYSTEM` or `UPLOAD`)
+
+### Open behavior question
+
+Confirm with PEGA whether supplemental uploads require:
+
+- a new metadata signal file, or
+- simply depositing files into the case’s S3 location is sufficient to trigger reprocessing.
+
+---
+
+<a id="cst-backend-feature-flags"></a>
+
+## 10. Feature flag strategy
+
+- Keep existing submission-related flags as-is.
+- Add a new flag (e.g., `champva_documents_required_and_audits`) to gate:
+  - writing/returning `documents_required`,
+  - writing/returning the audit list (`champvaAudits`),
+  - and any follow-on behavior derived from these fields.
+
+Default: off until the contract is confirmed with CST/MyVA.
+
+---
+
+<a id="cst-backend-external-deps"></a>
+
+## 11. External dependencies
+
+Blocked items depend on PEGA confirmation:
+
+- PEGA status vocabulary: confirm enumerated `status` values and their meaning.
+- Document handling behavior: confirm whether additional signaling is required when docs are uploaded.
+
+---
+
+<a id="cst-backend-sprint-plan"></a>
+
+## 12. Sprint plan (backend-focused)
+
+### Sprint 1 — Database foundation (unblocked)
+
+- Add `documents_required` to `ivc_champva_forms`
+- Add index(es) (at minimum `case_id`)
+- Create `ivc_champva_form_transitions` audit table
+
+### Sprint 2 — Webhook + audit logging (unblocked)
+
+- On PEGA webhook update:
+  - continue updating `pega_status` + `case_id`
+  - append an audit transition record (best-effort)
+- Add a small mapping hook to update `documents_required` when appropriate (logic TBD)
+
+### Sprint 3 — Handing up audits + documentsRequired to CST (unblocked)
+
+- Extend the CHAMPVA Benefits Claims provider payload to include:
+  - `documentsRequired`
+  - `champvaAudits` list for each form (scoped to that `form_uuid`)
+- Add tests for:
+  - audit records created on webhook updates
+  - audit list returned for a form via `GET /v0/benefits_claims` and/or `GET /v0/benefits_claims/:id`
+
+</div>
 </details>
