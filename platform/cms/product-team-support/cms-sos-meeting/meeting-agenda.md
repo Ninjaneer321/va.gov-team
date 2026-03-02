@@ -4,8 +4,10 @@ This Scrum of Scrum (SoS) meeting is to ensure all teams working with the Drupal
 ### Running Agenda
 
 3/2/2026
-*  https://github.com/department-of-veterans-affairs/va.gov-cms/issues/21263
-*  https://dsva.slack.com/archives/CT4GZBM8F/p1771968916983919?thread_ts=1771514731.880499&cid=CT4GZBM8F
+**CMS Agenda**
+*  CMS team is cleaning up backlog and confirming [this defect](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/21263) will be owned by Public Websites team
+*  Regrouping about the Homepage Incident Playbook and process to contact Sitewide engineers (see thread [here](https://dsva.slack.com/archives/CT4GZBM8F/p1771968916983919?thread_ts=1771514731.880499&cid=CT4GZBM8F)
+
 *  Updates on Next Build QA template progress? Upcoming QA or launches for us to be aware of
 
 2/2/2026
