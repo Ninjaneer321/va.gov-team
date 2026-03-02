@@ -22,10 +22,9 @@
 ## Step 2: Open the Preview
 Once the build completes, access the preview instance in 2 ways:
 
-Either: **Click on the "https://long-identifier.vfs.va.gov" link in the top-most item of the "Build History" sidebar**
-<img src="assets/image-3.png" alt="Jenkins page showing the Build History sidebar with a successful build. The review instance URL is highlighted with a red box beneath the build timestamp, showing a clickable link to the deployed preview site." width="50%" />
-
-Or: **Follow the instructions at
+1. Click on the "https://long-identifier.vfs.va.gov" link in the top-most item of the "Build History" sidebar
+   <img src="assets/image-3.png" alt="Jenkins page showing the Build History sidebar with a successful build. The review instance URL is highlighted with a red box beneath the build timestamp, showing a clickable link to the deployed preview site." width="50%" />
+3. Follow the instructions at
 [How Do I Connect to My Deployed Instance?](https://depo-platform-documentation.scrollhelp.site/developer-docs/review-instances#Reviewinstances-HowdoIconnecttomydeployedinstance?) to get the link to your preview site.**
 
 ---
