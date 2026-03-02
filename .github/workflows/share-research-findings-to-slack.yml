@@ -126,6 +126,10 @@ jobs:
 
           blocks = [
               {
+                  "type": "section",
+                  "text": {"type": "mrkdwn", "text": "<!channel> New research findings are available! 👇"}
+              },
+              {
                   "type": "header",
                   "text": {
                       "type": "plain_text",
@@ -153,7 +157,8 @@ jobs:
 
           blocks.append({
               "type": "section",
-              "text": {"type": "mrkdwn", "text": f"*Key Findings:*\n{escape_for_slack_mrkdwn(key_findings)}"}
+              "text": {"type": "mrkdwn", "text": f"*Key Findings:*\n{escape_for_slack_mrkdwn(key_findings)}"
+              }
           })
           blocks.append({"type": "divider"})
           blocks.append({
@@ -173,7 +178,7 @@ jobs:
           })
 
           payload = {
-              "text": f"📊 New Research Findings Available: {research_title}",
+              "text": f"<!channel> 📊 New Research Findings Available: {research_title}",
               "blocks": blocks
           }
 
