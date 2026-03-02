@@ -77,10 +77,10 @@ The timeline is the progress stepper displayed at the top of the CST application
 
 Under current Content review, CHAMPVA phases are:
 
-1. Application Received  
-2. Evidence Gathering  
-3. Evidence Review  
-4. Complete  
+1. Application received  
+2. Evidence gathering  
+3. Evidence received  
+4. Application decided  
 
 These labels will appear in the progress stepper.
 
@@ -95,6 +95,8 @@ The progress stepper renders based on phase data (steps) included in the API res
 For Lighthouse-based claims (existing CST), this phase data is provided via 'claimPhaseDates' (API field).
 
 For CHAMPVA (IVC provider), phase data is not currently included in the benefits_claims API response. Therefore, backend mapping will be required to translate 'pega_status' values into a CST-compatible phase model.
+
+Note: For CHAMPVA, "Evidence received" may not correspond to a direct provider status value. Phase advancement may be triggered by completion of an evidence request workflow rather than a distinct external status.
 
 ---
 
@@ -167,7 +169,7 @@ The current ClaimResponse for CHAMPVA includes:
 - close_date (not a db column, typically derived from pega_status and updated_at)
 - normalized status
 
-It does not NOT currently include phase data (e.g., 'claimPhaseDates')
+It does not NOT currently include phase data (e.g., claimPhaseDates)
 
 For CHAMPVA to integrate with the CST progress stepper, backend must map 'pega_status' values into CST_compatible phase values and include them in the API response.
 
@@ -199,14 +201,7 @@ These phase labels already exist in the CST frontend.
 
 For CHAMPVA, activation of these steps requires backend alignment so that 'pega_status' values are translated into a CST-compatible phase model and returned in the API response.
 
-Processing phases:
-
-1. Application Received  
-2. Evidence Gathering  
-3. Evidence Review  
-4. Complete  
-
-The first visible phase label (Application Received vs In Progress) will follow final Content approval.
+Processing phases follow the Content-approved four-step CHAMPVA model.
 
 ---
 
