@@ -6,6 +6,7 @@ This Scrum of Scrum (SoS) meeting is to ensure all teams working with the Drupal
 3/2/2026
 *  https://github.com/department-of-veterans-affairs/va.gov-cms/issues/21263
 *  https://dsva.slack.com/archives/CT4GZBM8F/p1771968916983919?thread_ts=1771514731.880499&cid=CT4GZBM8F
+*  Updates on Next Build QA template progress? Upcoming QA or launches for us to be aware of
 
 2/2/2026
 *  CMS team is revisitng incident management for critical URLs, starting with the homepage (ticket [here](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/23342)). For an incidents with homepage, is there a best way that we can quickly notify a Sitewide engineer for support?
