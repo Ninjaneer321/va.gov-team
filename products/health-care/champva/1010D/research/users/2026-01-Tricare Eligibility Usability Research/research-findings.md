@@ -349,8 +349,8 @@ One participant (P14) commented on language used around Veteran living question 
 
 ## Recommendations
 
-Design recommendations are broken down by proposed v1 (VADS only design) and v2 (hybrid API) releases:
 
+Design recommendations are broken down by proposed v1 (VADS only design) and v2 (hybrid API) releases:
 
 1. **Recommendation:** [Insert action]  
    - _Supporting evidence: [Insert data]_  
@@ -563,13 +563,13 @@ This research does not include the perspectives of the following marginalized Ve
 * Other than honorable discharge
 * Expat (living abroad)
 
-➡️ _[insert screenshot of completed recruitment checker in the format below]_
+---- 
 
-![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](link - add image to github folder and link here with .png)
+<img width="1170" height="598" alt="Screenshot 2026-03-02 at 7 12 56 AM" src="https://github.com/user-attachments/assets/a0d05617-11ab-4f07-8e7c-c93e795e3530" />
 
 #### A more accessible version of the table in the above image
 
-### Recruitment of underserved groups in [Study name]
+### Recruitment of underserved groups in [10-10d TRICARE Eligibility Usabilty Study]
 
 | **Demographic**                                                                                            | **Category** | **Target %** | **Target #** | **\# in Study** | **Target Achieved?** | **p1** | **p2** | **p3** | **p4** | **p5** | **p6** | **p7** | **p8** | **p9** | **p10** | **p11** | **p12** | **p13** | **p14** | **p15** | **p16** |
 | ---------------------------------------------------------------------------------------------------------- | ------------ | ------------ | ------------ | --------------- | -------------------- | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
