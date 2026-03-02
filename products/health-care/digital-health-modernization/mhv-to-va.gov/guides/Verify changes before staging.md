@@ -1,6 +1,6 @@
 # How to Preview Your Team's Changes on a Live Test Site
 
-**What this does:** Review instances let you see changes on a real, working version of VA.gov — before those changes go live. Think of it as a private preview link that only your team can access.
+**What this does:** Review instances let you see changes on a real, working version of VA.gov — before those changes go live..
 
 ---
 
