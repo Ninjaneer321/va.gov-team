@@ -16,14 +16,14 @@
 > **Where do I get the branch name?** Ask your developer, or find it in the pull request — it's usually shown near the top of the PR page on GitHub, right after the words "wants to merge."
 
 ### Screenshot of the "Preview Build Setup Page"
-![Jenkins "Pipeline Vets.gov Review Application Deploy" page showing five form fields: devops_branch set to master, api_branch set to master, web_branch set to main, content_branch set to main, and a source_repo dropdown left blank. A blue Build button is at the bottom.](assets/image.png)
+<img src="assets/image.png" alt="Jenkins Pipeline Vets.gov Review Application Deploy page showing five form fields: devops_branch set to master, api_branch set to master, web_branch set to main, content_branch set to main, and a source_repo dropdown left blank. A blue Build button is at the bottom." width="75%" />
 ---
 
 ## Step 2: Open the Preview
 Once the build completes, access the preview instance in 2 ways:
 
 1. Click on the "https://long-identifier.vfs.va.gov" link in the top-most item of the "Build History" sidebar
-![Jenkins page showing the Build History sidebar with a successful build. The review instance URL is highlighted with a red box beneath the build timestamp, showing a clickable link to the deployed preview site.](assets/image-3.png)
+<img src="assets/image-3.png" alt="Jenkins page showing the Build History sidebar with a successful build. The review instance URL is highlighted with a red box beneath the build timestamp, showing a clickable link to the deployed preview site." width="50%" />
 2. Follow the instructions at [How Do I Connect to My Deployed Instance?](https://depo-platform-documentation.scrollhelp.site/developer-docs/review-instances#How-do-I-connect-to-my-deployed-instance%3F) to get the link to your preview site.
 
 ---
