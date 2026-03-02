@@ -15,7 +15,7 @@
 
 ## Resolution(s) discussed
 * Instead of telemetry to log existence of the field, a more favorable approach may be to temporarily store the outbound payload in Postgres for investigation
-* Align with the data retention policy located in the "Helpful links" section below (e.g., 60 days).
+* Align with the [data retention policy](https://depo-platform-documentation.scrollhelp.site/developer-docs/data-retention-policy) (e.g., 60 days).
 * As such we may want/need to:
   * Redact any PHI/PII
   * Encrypt sensitive data
