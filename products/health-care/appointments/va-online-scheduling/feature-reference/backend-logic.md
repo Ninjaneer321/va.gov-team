@@ -1,6 +1,6 @@
-# Backend requirements and logic
+# Backend technical requirements and logic
 
-Logic and requirements for tools and services that VAOS pulls data from.
+Logic and requirements for tools and services that VAOS pulls data from. For the business rules that drive these technical requirements see: https://dvagov.sharepoint.com/sites/HealthApartment/SitePages/uae-appointments-eligibility-requirements.aspx 
 
 
 ## Determining appointment type
@@ -34,6 +34,9 @@ Appointments that Veterans have requested but VA has not booked.
 | [VA appointment request](./appointment-types/va-request.md)  | `appointment.kind` is not `cc` and it has data in the `appointment.requestedPeriods` | VA Request: [Figma](https://www.figma.com/design/eonNJsp57eqfPqx7ydsJY9/Feature-Reference-%7C-Appointments-FE?node-id=1152-110497&t=sRE5vQ4o5AMyZdTv-4) |
 | [Community care appointment request](./appointment-types/community-care-request.md) | `appointment.kind` = `cc` AND there is data in the `appointment.requestedPeriods`| CC Request: [Figma](https://www.figma.com/design/eonNJsp57eqfPqx7ydsJY9/Feature-Reference-%7C-Appointments-FE?node-id=1152-114180&t=sRE5vQ4o5AMyZdTv-4) |
 
+
+### Scheduling logic
+
 ## Determining available types of care for scheduling
 
 - The types of care are tied to clinics via stop codes that are [determined by the VA](./vista-appointments-facilities-clinics.md#clinic-stop-codes)
@@ -56,128 +59,13 @@ Appointments that Veterans have requested but VA has not booked.
 | Sleep Medicine - Home Sleep Testing | 143 SLEEP STUDY                    |
 | Social Work                         | 125 SOCIAL WORK SERVICE            |
 
-
-### Supported methods of scheduling online
-
-| Type of care                                               | VA Direct | VA Request | CC Request (1) | VA COVID Vaccine |
-| ---------------------------------------------------------- | --------- | ---------- | ---------- | ---------------- |
-| Amputation care                                            | ✅         | ✅          |            |                  |
-| Audiology and speech: Routine hearing exam                 | ✅         | ✅          | ✅          |                  |
-| Audiology and speech: Hearing aid support                 | ✅         | ✅          | ✅          |                  |
-| COVID-19 vaccine                                           |           |            |            | ✅                |
-| Eye care: Optometry                                       | ✅         | ✅          | ✅          |                  |
-| Eye care: Ophthalmology                                   | ✅         | ✅          |            |                  |
-| Mental health                                              | ✅         | ✅          |            |                  |
-| MOVE! weight management program                            | ✅         | ✅          |            |                  |
-| Nutrition and food                                         | ✅         | ✅          | ✅          |                  |
-| Pharmacy                                                   | ✅         | ✅          |            |                  |
-| Podiatry                                                   |           |            | ✅          |                  |
-| Primary care                                               | ✅         | ✅          |          |                  |
-| Sleep medicine: Continuous Positive Airway Pressure (CPAP) | ✅         | ✅          |            |                  |
-| Sleep medicine: Sleep medicine and home sleep testing     | ✅         | ✅          |            |                  |
-| Social work                                                | ✅         | ✅          |            |
-
-## Determining if a user is eligible to schedule or request into a clinic
-
-### Primary Care
-
-Primary Care Direct has two settings in CCM:
-- Yes with PACT 
-- No
-
-**A Veteran's direct scheduling eligibility for PRIMARY CARE must be set to true if:**
-- CCM has type of care set to Yes 
-- AND Veteran has an assigned PACT team. 
--  Else set to false
-
-**A Veteran's request eligibility for PRIMARY CARE must be set to true if:**
--  Veteran does not have a pending primary care request created within the last 120 days 
-- AND CCM has type of care set to Yes. 
-- Else set to false.
-
-The request limit for Primary Care is always set to "one".
-
-### COVID
-
-COVID-19 Direct Scheduling has two settings in CCM:
-- Yes
-- No
-
-COVID is only for direct scheduling and unlike all the other types of care does NOT have a Request setting.
-
-### Other types of care (Specialty Care)
-
-Except for Primary Care and COVID, all types of care have these CCM Settings:  
-   1) Yes, Any 
-   2) Yes, Seen within last 12 months 
-   3) Yes, Seen within last 36 months 
-   4) No
-
-**A Veteran’s direct schedule eligibility for SPECIALTY CARE must be set to true if:**
-- CCM has type of care set to `Yes, Any` 
-- OR CCM has a type of care set to `Yes` with `Last Seen` in 12 or 36 months 
-   - AND veteran has past appointment in that stop code with a VistA status of CHECKED IN or CHECKED OUT within the indicated CCM timeframe.
-- Else set to false. 
-
-**A Veteran's request eligibility for the selected type of SPECIALTY CARE must be set to true if:**
- - Veteran does not have a pending care request created within the last 120 days for the specified request limit as set in CCM 
- - AND either:
-      - CCM has type of care set to Yes, Any OR  
-      - CCM has a type of care set to Yes with Last Seen in 12 or 36 months 
-          - AND veteran has past appointment in that stop code with a VistA status of CHECKED IN or CHECKED OUT within the indicated CCM timeframe.
-- Else set to false.
-
-The request limit for specialty care can set to one or two as desired by the site.
-
-### Exceptions
-
-**Clinics with the following attributes must NOT present to the Veteran for direct scheduling if at any of following are true:**   
-- Clinic's stop code is on the Office of Integrated Veteran Care’s stop code exclusion list
-- Clinic location name that starts with ZZ
-- Clinic location name that ends with -X
-- Clinic's direct scheduling flag = No
-- Clinic's direct scheduling flag = NULL
-- Clinics with secondary stop code = video telehealth. 
-
-[Stop codes for video telehealth](https://coderepo.mobilehealth.va.gov/projects/MACM/repos/vaec-map-consul-staging-tf-appconfigs/browse/vaos-service.tf?at=sqa#25)
-
-**VAOS does not require past history to schedule mental health appointments**
-   - On the front end, VAOS exempts mental health appointments (along with primary care) from the past appointment history checks [here](https://github.com/department-of-veterans-affairs/vets-website/blob/80bf5a603d7802dd3b9cf1a381dbd10fcf5047eb/src/applications/vaos/new-appointment/components/ClinicChoicePage/useClinicFormState.jsx#L62-L70) and [here](https://github.com/department-of-veterans-affairs/vets-website/blob/80bf5a603d7802dd3b9cf1a381dbd10fcf5047eb/src/applications/vaos/services/patient/index.js#L284-L289), [here](https://github.com/department-of-veterans-affairs/vets-website/blob/80bf5a603d7802dd3b9cf1a381dbd10fcf5047eb/src/applications/vaos/services/patient/index.js#L380-L393).
-
-### Other Notes
-
 - The direct scheduling eligibility call is done first followed by the request eligibility call. VAOS calls a CDW stored procedure that looks for an active PACT assignment, finds the default Provider for the PACT and checks for the clinics associated with that Provider. Clinics are returned to VAOS and will be display unless filtered according to the business rules stated above.
 - For eligibility checks the past appointment can be at any location at either Child or Parent for eligibility to be true. Parent inherits any Child appointment(s) for eligibility check AND Children inherit Parent’s appointment(s) for eligibility check. 
 - Appointment status is only relevant when CCM/VATS is set to Yes Last Seen within 12 or 36 months. In VistA SDAM roll and scroll interface the status shows as Encounter Status/Appointment Status:  Act Req/Checked In. VSE GUI only displays the Appointment status. The Encounter status is NOT displayed. 
--  VAMC staff would/should never set a clinic with a secondary stop code of 450, Compensation and Pension, to Direct Schedule = YES. If this is happening this is bad practice by the site and VAOS would show as a normal clinic appointment.  
+-  VAMC staff would/should never set a clinic with a secondary stop code of 450, Compensation and Pension, to Direct Schedule = YES. If this is happening this is bad practice by the site and VAOS would show as a normal clinic appointment.
 
-### User flow for different eligibility scenarios
-
-The default flow displayed must be as follows and must display with appropriate message to veteran.  
-
-| Veteran’s Direct Scheduling Eligibility | Veteran’s Request Eligibility           | Are clinics configured for direct scheduling? | VAOS Default Flow                                                                                                                                                                                      |
-| --------------------------------------- | --------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| TRUE                                    | N/A                                     | Yes                                                | Direct Scheduling flow must display.                                                                                                                                                                   |
-| TRUE                                    | N/A                                     | No                                                 | Message must display to veteran informing no clinic was found for this type of care.                                                                                                                   |
-| FALSE                                   | TRUE                                    | N/A                                                | Request flow must display.                                                                                                                                                                             |
-| FALSE                                   | FALSE<br><br>request limit exceeded     | N/A                                                | Message must display to veteran informing request limit met.                                                                                                                                           |
-| FALSE                                   | FALSE<br><br>CCM set to no              | N/A                                                | Message must display to veteran informing that facility does not allow online requests for this type of care.                                                                                          |
-| FALSE                                   | FALSE<br><br>Past appt criteria not met | N/A                                                | Message must display to veteran informing request can’t be submitted Because past appointment criteria not met.                                                                                        |
-| TRUE                                    | FALSE<br><br>CCM set to No              | Yes                                                | Direct Scheduling flow must display.<br><br>If "I need a different clinic" selected then message must display to veteran informing that facility does not allow online requests for this type of care. |
-| TRUE                                    | FALSE<br><br>request limit exceeded     | Yes                                                | Direct Scheduling flow must display.<br><br>If "I need a different clinic" selected then message must display to veteran informing request limit exceeded.                                             |
-| TRUE                                    | FALSE<br><br>past appt criteria not met | Yes                                                | Direct Scheduling must display.<br><br>If "I need a different clinic" selected then message must display to veteran informing past appointment criteria not met.                                       |
-| TRUE                                    | FALSE<br><br>CCM set to No              | No                                                 | Message must display to veteran informing no clinic was found for this type of care.                                                                                                                   |
-| TRUE                                    | FALSE<br><br>request limit exceeded     | No                                                 | Message must display to veteran informing request limit met.                                                                                                                                           |
-| TRUE                                    | FALSE<br><br>past appt criteria not met | No                                                 | Message must display to veteran informing request can’t be submitted because past appointment criteria not met.                                                                                        |
-| TRUE                                    | TRUE                                    | Yes                                                | Direct Scheduling flow must display.<br><br>If I need a different clinic selected then request flow displays.                                                                                          |
-| TRUE                                    | TRUE                                    | No                                                 | Request flow must display.                                                                                                                                                                             |
-| FALSE<br><br>CCM set to No              | TRUE                                    | N/A                                                | Request flow must display.                                                                                                                                                                             |
-| FALSE<br><br>past appt criteria not met | TRUE                                    | N/A                                                | Request flow must display.                                                                                                                                                                             |
-| FALSE:<br><br>CCM set to No             | FALSE:<br><br>request limit exceeded    | N/A                                                | Message must display to veteran informing request limit met.                                                                                                                                           |
-| FALSE<br><br>CCM set to No              | FALSE<br><br>past appt criteria not met | N/A                                                | Message must display to veteran informing request can’t be submitted because past appointment criteria not met.                                                                                        |
-
-Notes:
-1. 12/13/2023 - a Veteran should have the ability to have 1 active request at the Parent and 1 active request at a CBOC but only one care type active overall. Ex - Veteran has active request at Parent for PC, they cannot select the PC care type and enter a request located at a CBOC.
+**VAOS does not require past history to schedule mental health appointments**
+   - On the front end, VAOS exempts mental health appointments (along with primary care) from the past appointment history checks [here](https://github.com/department-of-veterans-affairs/vets-website/blob/80bf5a603d7802dd3b9cf1a381dbd10fcf5047eb/src/applications/vaos/new-appointment/components/ClinicChoicePage/useClinicFormState.jsx#L62-L70) and [here](https://github.com/department-of-veterans-affairs/vets-website/blob/80bf5a603d7802dd3b9cf1a381dbd10fcf5047eb/src/applications/vaos/services/patient/index.js#L284-L289), [here](https://github.com/department-of-veterans-affairs/vets-website/blob/80bf5a603d7802dd3b9cf1a381dbd10fcf5047eb/src/applications/vaos/services/patient/index.js#L380-L393).
 
 ## Determining community care eligibliity
 - VAOS calls a Lighthouse CCE Eligibility API for Community care eligibility.  
@@ -250,4 +138,13 @@ How the API determines CC eligibility:
 - Lighthouse's default is to use the CMS data first then VAST data . CMS data is more reliable, and updates are real time whereas VAST data can take a while to get updated.
 - Invalid VAOS facility classifications are NULL, Extended Care Site, MCS and Residential Care Site.  Sites with these classifications are filtered by the backend.  
 - A VA location will not display in the list if both Direct Schedule and Requests are set to NO in CCM. 
+
+
+
+
+
+
+
+
+
 
