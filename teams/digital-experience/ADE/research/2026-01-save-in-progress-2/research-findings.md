@@ -110,7 +110,7 @@ tags:
 
 **Office of the CTO - Digital Experience (OCTO-DE), Accessibility Digital Experience (ADE)**
 
-**Date:** 02/27/2026
+**Date:** 03/02/2026
 
 **Contacts:** Cindy Merrill
 
