@@ -10,7 +10,6 @@
 - **SPRINT GOAL (UX):** Create documentation for edge cases, starting with the logged-in experience for CHAMPVA users (including non-Veterans) across My VA and the Status Tool, identifying access constraints and necessary user flow updates. Include and socialize any recommended updates to the UX.
 
 
-
 ##
 ### WHAT'S NEXT
 - **PRODUCT**
@@ -21,8 +20,6 @@
 - **ENG**
 
 
-
-# Sprint Planning for VFMP Health Status Tool
 
 ## 📆 Sprint 2 (Feb 4 – Feb 17) 
 
