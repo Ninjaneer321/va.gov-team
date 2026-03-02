@@ -319,6 +319,8 @@ With scope clarified and UX feedback incorporated, integration risk is low.
 
 ---
 
+</details>
+
 <details>
 <summary><strong>CST Backend Evaluation</strong></summary>
 
