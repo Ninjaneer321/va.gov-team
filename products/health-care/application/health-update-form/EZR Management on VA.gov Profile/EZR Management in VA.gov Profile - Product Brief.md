@@ -1,5 +1,10 @@
 ## **EZR Management in VA.gov Profile - Product Brief**
-
+- Super Epic [#134714](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134714)
+     - EC/NOK Epic [#120581](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
+     - Insurance Epic [#134772](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134772)
+     - Spouse Epic [#134724](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134724)
+     - Dependents Epic [#134726](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134726)
+     - Financials Epic [#134729](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134729)
 
 # Product Vision:
 
