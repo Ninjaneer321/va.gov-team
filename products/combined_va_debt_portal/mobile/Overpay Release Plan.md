@@ -6,7 +6,8 @@ List the feature toggles here.
 
 | Toggle name | Description |
 | ----- | ----- |
-| Overpayments Feature Flag | When enabled, Veterans will be able to view and take actions on their Overpayments within the mobile App. Veterans will see the Overpayments tile on the Home tab under the Activity tile, and in the Payments tab. Once a user clicks on Overpayments they will have a new page displaying the debts list and can access the debt detail page as well as resolve an overpayment. New pages will open if a Veteran makes a payment, requests help, or disputes an Overpayment.|
+| FE: `overpayments` | When enabled, Veterans will be able to view and take actions on their Overpayments within the mobile App. Veterans will see the Overpayments tile on the Home tab under the Activity tile, and in the Payments tab. Once a user clicks on Overpayments they will have a new page displaying the debts list and can access the debt detail page as well as resolve an overpayment. New pages will open if a Veteran makes a payment, requests help, or disputes an Overpayment.|
+| BE: `mobile_debts_enabled` | This is the BE feature flag and is **currently enabled** due to the direction of the Financial Management PO, Denise Coveyduc.|
 
 ## **Step 2: Validation**
 
