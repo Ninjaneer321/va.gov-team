@@ -30,7 +30,7 @@ tags:
   - "caregiver-experience"
   - "provider-handoff"
   - "authenticated-experience"
-description: "A moderated interview guide for understanding veteran and caregiver experience with Form 21-2680, focusing on the claimant-side completion and coordination with medical providers for the provider section."
+description: "A moderated interview guide for understanding Veteran and caregiver experience with Form 21-2680, focusing on the claimant-side completion and coordination with medical providers for the provider section."
 
 # Compliance flags
 recording_required: true
@@ -76,7 +76,7 @@ consent_for_clips: true
 
 Thanks for joining us today! My name is **[NAME]** and **[NOTETAKER NAME]** is taking notes. I also have a couple other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them, I want to tell you what we're doing today.
 
-Today we're going to talk about your experience with VA benefits and healthcare, specifically around a form called 2680 — which is used for Aid and Attendance or Housebound allowance. We're interested in learning how veterans and caregivers like you experience filling out this form and working with your doctor to complete it. It's ok if you have never filled out this form or if it doesn't directly apply to you. We're still interested in your experience and feedback.
+Today we're going to talk about your experience with VA benefits and healthcare, specifically around a form called 2680 — which is used for Aid and Attendance or Housebound allowance. We're interested in learning how Veterans and caregivers like you experience filling out this form and working with your doctor to complete it. It's ok if you have never filled out this form or if it doesn't directly apply to you. We're still interested in your experience and feedback.
 
 Before we start, I have a few things I want to go over with you:
 
