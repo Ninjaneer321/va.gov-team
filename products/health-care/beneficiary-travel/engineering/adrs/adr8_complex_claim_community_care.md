@@ -117,3 +117,7 @@ If a filename-based solution is implemented:
 - We may need a backfill strategy for existing POA documents.
 - We should remove any suffix-parsing or filename-based logic to reduce long-term complexity.
 
+### Notes Post ADR Presentation to Stakeholders and API Team
+- On 2/26/26 we met with stakeholders and the API team and discussed our ADR and the options (we had previously shared the aDR link to them asking for them to review). The API team said they were going to look at how long it'd take to add a POA field and will provide us with an answer on 3/5/26
+- On 2/27/26 Ken reached out asking for clarification around what we were asking for. He was wondering if we just wanted a POA boolean field or if we also needed to connect a POA document to an expense and if we needed to share that it was POA with clerks. I clarified that we just needed th POA boolean field so that we could determine it was POA in va.gov.
+
