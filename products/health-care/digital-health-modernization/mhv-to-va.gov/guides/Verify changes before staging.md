@@ -6,6 +6,8 @@
 
 ## Step 1: Request the Preview Build
 
+**Note**: You could do this OR you could have a developer do this for you. You could even suggest to bake it into the teams' review processes.
+
 1. Go to the [Review Instance Deploy page](http://jenkins.vfs.va.gov/job/deploys/job/vets-review-instance-deploy/) (you must be on the VA network — CAG, AVD, or GFE).
 2. Click **"Build with Parameters."**
 3. You'll see two fields:
