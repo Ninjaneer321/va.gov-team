@@ -8,7 +8,7 @@ Creating a future where Veterans, families, and caregivers access health care be
 
 # Problem Statement:
 
-Veterans currently struggle to update essential contact information like Emergency Contacts, Next of Kin, or Dependents because this data is collected via the full VA.gov 10-10EZR form. This mandatory form-filling process for simple, granular updates creates friction and delays in maintaining accurate health care benefit data.
+Veterans currently struggle to update essential information like Emergency Contacts, Next of Kin, or Dependents because this data is collected via the full VA.gov 10-10EZR form. This mandatory form-filling process for simple, granular updates creates friction and delays in maintaining accurate health care benefit data.
 
 
 # Metrics:
