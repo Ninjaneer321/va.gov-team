@@ -169,7 +169,7 @@ The current ClaimResponse for CHAMPVA includes:
 - close_date (not a db column, typically derived from pega_status and updated_at)
 - normalized status
 
-It does not NOT currently include phase data (e.g., claimPhaseDates)
+It does NOT currently include phase data (e.g., claimPhaseDates)
 
 For CHAMPVA to integrate with the CST progress stepper, backend must map 'pega_status' values into CST_compatible phase values and include them in the API response.
 
