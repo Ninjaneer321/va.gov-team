@@ -236,7 +236,8 @@ User Research Synthesis:Apr 8 - Apr 14
 
 ## Related Work
 
-- [Top Tasks and Painpoints]()
+- [Top Tasks and Painpoints](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2026-02_Research_Review/Top_Tasks_and_Pain_Points.md)
+- [Use Cases](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2026-02_Research_Review/2026-02_Use_Cases.md)
 
 
 ---
