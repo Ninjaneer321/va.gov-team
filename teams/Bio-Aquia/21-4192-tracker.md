@@ -6,7 +6,7 @@
 | Canary target | 456 | 1% of expected |
 | Total submissions | 405 | 0.89% of expected |
 | Number of Incomplete/Errors | 14 | |
-| Error % | 4.14% | |
+| Error % | 3.45% | |
 
 ## Submission Data
 
