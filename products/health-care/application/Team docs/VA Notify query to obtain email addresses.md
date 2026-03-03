@@ -9,7 +9,7 @@ The Health Apps team received alerts of "Triggered: 1010CG submission job has fa
 
 >Ok, here are some options for retrieval, depending on what information is available to you (notification ids vs template ids), access to ARGO (prod) (support can help if no one on your team has access). Fair warning, this does reveal PII:
 >
->1. In ARGO (prod) Using the notification_id from the callbacks, could query VANotify::Notification.find(notification_id) and then call #to on an instance to observe the email address. Obviously, this is considered PII (the field is automatically decrypted when you view >it this way)
+>1. In ARGO (prod) Using the notification_id from the callbacks, could query VANotify::Notification.find(notification_id) and then call #to on an instance to observe the email address. Obviously, this is considered PII (the field is automatically decrypted when you view it this way)
 >2. If notification_ids are not at your disposal, in ARGO (prod) could use a template_id and date in a permutation of this SQL query:
 >
 >`VANotify::Notification
@@ -20,4 +20,6 @@ The Health Apps team received alerts of "Triggered: 1010CG submission job has fa
 >Note: Would need to also be selective about the fields plucked/retrieved (or omit plucking all together).
 
 The Health Apps team determined this query would work best for our purpose of getting email addresses for those that this submission failure email went out:
-- `VANotify::Notification.where(template_id: 'cbf99a1c-8a9e-41c5-af7d-c3bd6a927588').map(&:notification_id).where('created_at > ?', Date.new(2026,2,23)).map(&:to)`
+- `VANotify::Notification.where(template_id: 'cbf99a1c-8a9e-41c5-af7d-c3bd6a927588').where('created_at > ?', Date.new(2026,2,23)).map(&:to)`
+- For a second batch of emails, we used the list of `notification_id`s from the logs instead:
+- `VANotify::Notification.where(template_id: 'cbf99a1c-8a9e-41c5-af7d-c3bd6a927588', id: [ <list of notification_id values> ]).map(&:to)`
