@@ -94,30 +94,31 @@ Before we start, I have a few quick things to go over:
    - How long have you been in this role?
 
 2. How do Veterans typically reach you for help (phone, in-person, secure message, etc.)?
-   - Does ID.me support differ depending on the channel?
+   - Does how you support the Veteran differ depending on the outreach channel?
+   - Are you usually assisting a Veteran in person or remotely?  Can you explain your process?
 
 ---
 
 ## Task 1: Volume + segmentation of ID.me support requests - 7 minutes
 
 1. In a typical week, about how many **ID.me-related** support cases do you handle?
-   - About how many involve **verification not completing successfully** on the first try?
-   - About how often is a caregiver invloved in this type of support?
+2. What are the top 2–3 ID.me issues you see most often?
+   - Which ones take the most time to resolve? (Break down into the types of issues and how they work through it
+   - How much time to you typically spend on each case?
+   - What types of Veterans seem to be the most negatively affected?
+   - How often is a caregiver involved in this type of support?
 
-2. For the ID.me-related cases you see, how often are Veterans:
+3. Let's talk about specific issues related to verification
+   - About how many issues involve verfication issues?  
+   - **verification not completing successfully** on the first try/ returning to get help with the verification process?
    - Verifying for the first time?
-   - “Already have an ID.me account” but are blocked?
+   - “Already have an ID.me account” but are blocked?  How do you know whether they have an ID.me account?
 
    *(Follow-up for clarity)* When someone “already has an account,” what’s most commonly going on?
    - Account exists but not identity-verified
    - Identity-verified but cannot sign in / link / access
    - Account recovery (lost email/phone/new device)
    - Something else?
-
-3. What are the top 2–3 ID.me issues you see most often?
-   - Which ones take the most time to resolve?
-   - What types of Veterans seem to be the most negatively affected?
-
 
 > [!NOTE]
 > ### Things to watch for:
