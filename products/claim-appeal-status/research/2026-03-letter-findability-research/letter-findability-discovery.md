@@ -1,6 +1,15 @@
 # Benefit Letter Findability  
 ## Preliminary Discovery Summary
 
+**Office of the CTO - Digital Experience (OCTO-DE), Notifications, BMT 3**
+
+**Date:** 03/03/2026
+
+**Contacts:**  Naomi Howe, Melissa Lefevre, Guy Schmidt
+
+---
+
+
 ## Executive Summary
 
 This discovery reviewed prior research, usability findings, public forum signals, external how-to guides, and a task-based heuristic walkthrough was performed to assess the current state of benefit letter findability on VA.gov.
