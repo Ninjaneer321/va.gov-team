@@ -50,7 +50,7 @@ Lee confirmed the backend already returns the referring facility phone number â€
 
 ## Next Steps
 
-- [ ] Await BHA concurrence before implementing
+- [ ] Await VHA concurrence before implementing
 - [ ] UX to design the banner (reference OH cutover banners for wording)
-- [ ] Do NOT turn off the feature until BHA approval is received
+- [ ] Do NOT turn off the feature until VHA approval is received
 - [ ] Create ticket(s) for banner implementation and feature flag update
