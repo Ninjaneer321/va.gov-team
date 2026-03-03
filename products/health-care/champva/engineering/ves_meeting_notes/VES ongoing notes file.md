@@ -1,11 +1,8 @@
-VES + VA.gov Sync
-
-## Meeting date: 01.29.26
+#VES + VA.gov Sync
+Most Recent Meeting First
+--
 
 ##2.23.26
-Here you go — cleanly formatted in Markdown for easy copy/paste into your meeting notes:
-
----
 
 ## Timeline
 
@@ -47,6 +44,8 @@ Here you go — cleanly formatted in Markdown for easy copy/paste into your meet
   * VES would like this information if possible
 
 ---
+
+## Meeting date: 01.29.26
 
 ## OHI Ingestion + Linking Scenarios (VES / 1010D)
 
