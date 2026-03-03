@@ -83,56 +83,53 @@ Data source - TBD
 - **Value Risks** (will people use it): 
   - The value risk that Veterans may become confused when they transition to the short form, and spend time looking for where to input the information that is no longer necessary.
 - **Usability Risks** (can people figure out how to use it):
-  - There is a risk that the incorrect disability rating will be selected, meaning they might not fill out the correct version of the form.
+  - There is a risk that the disability rating will not be available (API outage), meaning they might be prompted to fill out the whole form.
 - **[Technical] Feasibility Risks** (can we build it with available tech/data):
    - None
-  
 - **Organizational Viability Risks/Constraints** (will there be a positive organizational impact):
-  - Increase in application submissions.
+  - Increase in Form submissions
+  - Decrease in complaints and form abandonment
 
 
-### Solution Summary
+### Scope Summary
 - In-scope:
      - Implementation of short form for users with a disability rating equal to or greater than 50% based on information stored in the user's profile.
-     - Implementation of short form for users with a disability rating equal to or greater than 50% based on self-disclosed information.
-     - Implementation of short form for users with a combat veteran status (TBD).
 - Out of scope:
      - Implementation of the short form for any other reasons.
      - Any clean-up / changes to the existing form.
+ 
+### Decision Log
+- Any major decisions made that impact the design, development, usability, etc
 --- 
 
 ## Launch Planning
 
 ### Timeline 
-- June 2022: Complete QA
-- July 2022: Launched to users
+- Collab Cycle
+     - Kickoff:
+     - PO Sync:
+     - Design:
+     - Midpoint:
+     - Staging:
+     - Analytics:
+     - Product Guide:
+     - 
 
 #### Initiative Launch Dates
 - *Target Launch Date*
-  - 4/7/2022
-  - 9/5/2022 - relaunch
-- *Actual Launch Date* 
-  - 7/25/2022 - 5%
-  - 7/27/2022 - 100%
-  - 7/29/2022 - 0% - disabled feature toggle due to [production issue](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/Short%20Form/7-29-22%20-%20Prod%20Issue%20with%20Short%20Form.md)
-  - 9/19/2022 - 5% (ES deployed their fix on 9/17)
-  - 10/17/2022 - 25%
-  - 10/24/2022 - 50%
-  - 10/26/2022 - 75%
-  - 10/31/2022 - 100%
-
+  - 
+- *Actual Launch Date*
+     - 
 ---
    
-## Screenshots
-[Authenticated Workflow](https://preview.uxpin.com/acda277e33e9629a7ab817f6c93c251b4a60ac56#/pages/141488399/simulate/no-panels?mode=i)
+## Screenshots 
 
-[Unauthenticated Workflow](https://preview.uxpin.com/2a1ce93f62d447e101cfce3c803d20941fba7203#/pages/141808810/simulate/no-panels?mode=i)
+### Before
+
 
 ### After
 
-[Authenticated and UnAuthenticated workflow](https://www.sketch.com/s/da85cf44-4503-4e98-834e-ff068b242ef6/p/A71F1C96-FF98-42A2-9ADD-6D4B7A1DDB20)
 
-[Screenshots of all screens](https://www.sketch.com/s/da85cf44-4503-4e98-834e-ff068b242ef6/p/4EEB69A5-43C1-45B3-B5B6-58D7DA435BD1)
 
 ---
 
@@ -142,10 +139,10 @@ Data source - TBD
 <details>
 
 - [Short Form epic #27679](https://app.zenhub.com/workspace/o/department-of-veterans-affairs/va.gov-team/issues/27679)
-- Team Name: 10-10 Health Apps team
+- Team Name: Health Apps team
 - GitHub Label(s): 1010-short-form
-- Slack channel: 1010-health-apps
-- Product POCs: Heather Justice, Mark Fallows
+- Slack channel: health-apps-team
+- Product POCs: Heather J, Andrea M
 
 </details>
 
@@ -156,6 +153,6 @@ Data source - TBD
 <details>
   
 - Office/Department: OCTO-DE
-- Contact(s): Lauren Alexanderson, Patrick Bateman
+- Contact(s): Lauren A, Premal S
  
 </details>
