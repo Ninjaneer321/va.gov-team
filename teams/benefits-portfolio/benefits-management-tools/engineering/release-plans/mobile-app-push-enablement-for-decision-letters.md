@@ -218,21 +218,28 @@ We will be performing a progressive rollout to be able to minimize the productio
 
 #### Results
 
-- Turned on 2/26 10:56a PT
-- Number of unique users: ____
+- Turned on 2/26 10:56a - 3/2 9:50a PT
+- Number of unique users: 29,700 notifications sent
 - Metrics at this stage (per your "success criteria"):
-    - [ ] DataDog errors < 5%
-    - [ ] xx.x% click through rate overall
-    - [ ] No increase in email sending errors
-- Was any downstream service affected by the change?: __
+    - [x] DataDog errors < 5% (3.6% observed)
+    - [x] 12.1% click through rate overall (estimated using 3 fulls days 2/27-3/1 1998 clicks, 16530 sent)
+    - [x] No increase in email sending errors
+        - Initial email error percentage rate: 7.87% 
+    - [x] Push notification error rate < 5% (0% observed)
+- Was any downstream service affected by the change?:  NO
 - Types of errors logged:
-- What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? ___
+    - Error counts:
+        - EventBus: 0 error logs
+        - vets-api:
+            - Expected number of MPI profile not found (1349 errors)
+            - 4 other errors (502s, MPI Service Errors)
+- What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? None
 
 ### Stage F: 100% of users
 
 #### Planning
 
-- Length of time: 8 hours (one day)
+- Turned on 3/2 9:50a PT
 - Percentage of Users (and roughly how many users do you expect this to be): 100%
 
 #### Results
