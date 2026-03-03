@@ -28,7 +28,6 @@
    > * URLs - can really be anything across the site, since sign in is initiated from many different pages and the sign in modal appends to the end of most pages as  `/?next=loginModal` We’d like to see feedback from all pages around the site where folks mention sign-in related products. That said, URLs of particular interest:
    >- Pages our team owns:
    >   - https://www.va.gov/sign-in/ 
-   >      - please include all variations under this path
    >   - https://www.va.gov/terms-of-use
    >- We'd also like to see resources pages that relate to sign in and verify especially the following:
    >   - https://www.va.gov/resources/creating-an-account-for-vagov/
