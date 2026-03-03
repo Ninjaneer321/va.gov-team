@@ -370,7 +370,7 @@ Lab results include bloodwork, urinalysis, or other lab tests. Visit summaries a
 
 ### Prepare
 
-**Prototype finalized:** March 7, 2026
+**Prototype finalized:** March 7, 2026(loose goal)
 
 **Pilot session:**
 - `Pilot participant name:` [TBD - send in Slack channel]
@@ -396,13 +396,13 @@ Lab results include bloodwork, urinalysis, or other lab tests. Visit summaries a
 
 **Please list exact dates and times in EASTERN Standard Time:**
 
-- `3/31, Monday, 9:00 AM-12:00 PM, 1:00 PM-5:00 PM EST`
-- `4/1, Tuesday, 9:00 AM-12:00 PM, 1:00 PM-5:00 PM EST`
-- `4/2, Wednesday, 9:00 AM-12:00 PM, 1:00 PM-5:00 PM EST`
-- `4/3, Thursday, 9:00 AM-12:00 PM, 1:00 PM-5:00 PM EST`
+- `3/31, Monday, 9:00 AM-12:00 PM, 1:00 PM-3:00 PM EST`
+- `4/1, Tuesday, 9:00 AM-12:00 PM, 1:00 PM-3:00 PM EST`
+- `4/2, Wednesday, 9:00 AM-12:00 PM, 1:00 PM-3:00 PM EST`
+- `4/3, Thursday, 9:00 AM-12:00 PM, 1:00 PM-3:00 PM EST`
 - `4/4, Friday, 9:00 AM-12:00 PM, 1:00 PM-3:00 PM EST`
 
-*Note: 30 time slots provided for 6 completed sessions (5x buffer)*
+*Note:TBD*
 
 ---
 
