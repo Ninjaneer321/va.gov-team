@@ -1,5 +1,6 @@
 # V1 vs. V2 Statuses in Meds Management Improvement (MMI) Designs
 
+
 ## Context
 This work emerged from an internal status mapping sync on Monday, March 2, 2026, where we discussed Robyn's idea – during our last Meds UX Sync on Thursday, February 26 – that we might not need to move forward with V2 statuses after all.
 
