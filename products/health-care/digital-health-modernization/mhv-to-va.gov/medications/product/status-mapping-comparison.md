@@ -91,7 +91,20 @@ See [v1 vs. v2 Status Chart for MMI Designs Figma table](https://www.figma.com/d
 <img width="1416" height="701" alt="Screenshot 2026-03-03 at 3 45 36 PM" src="https://github.com/user-attachments/assets/e74d1b03-4bb2-47a0-aa33-d755ebd2f7e1" />
 
 ## Status Mapping Benefits Regardless of V1 vs V2
-xxxx
+
+Even if we keep V1 for launch, this status mapping work still gives us important long-term value:
+
+1. **Cross-system consistency remains useful**
+   - Status mapping work helps normalize data across VistA and Oracle Health sources.
+
+2. **The V2 path is preserved for future testing**
+   - We can still enable V2 behind feature flags later, after launch, when we have more capacity for controlled testing.
+
+3. **MMI improvements still deliver value without immediate V2 activation**
+   - The core user-facing improvements (cleaner cards, simpler filtering approach, in-progress experience) are not blocked by deferring V2.
+
+4. **Lower risk now, flexibility later**
+   - Choosing V1 now does not remove V2; it simply sequences the work in a safer order.
 
 ## Recommendation
 
