@@ -33,6 +33,7 @@
 | EZR - Brief | [Confirmation flow - Veteran information](https://github.com/department-of-veterans-affairs/va.gov-team/issues/104124)| Design updates complete.|
 | EZ - [Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/EZ%20on%20Mobile/EZ%20on%20Mobile%20-%20Initiative%20Brief.md) | [Integrate with Mobile app](https://github.com/department-of-veterans-affairs/va.gov-team/issues/103255)| Link already on app, what else?|
 | CG - [Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/caregivers/CG%20on%20Mobile/CG%20on%20Mobile%20app%20-%20Initiative%20Brief.md) | [Integrate with Mobile app](https://github.com/department-of-veterans-affairs/va.gov-team/issues/103250)|                   TBD                   |
+|EZR - [Brief](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134951) | [Short Form flow for EZR](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/health-update-form/Short%20Form/10-10EZR%20Short%20Form%20-%20Initiative%20Brief.md) | TBD |
 
 ### Descoped
 
