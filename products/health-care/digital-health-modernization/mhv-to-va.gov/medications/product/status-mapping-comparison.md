@@ -44,6 +44,11 @@ One of the motivating factors in the creation of V2 statuses was consistent feed
   - Refill requested too early
   - Active with no refills (available for renewal w/o SM flow)
   - Active with no refills left (available for renewal w/ SM flow)
+
+ ## Visual Comparison Chart
+ Here's a link to the [visual comparison chart]([url](https://www.figma.com/design/VunyfNQ9x7Bt58D9B2qnW5/%F0%9F%92%A1-Working-file--MHV-Medications---Devices-?node-id=7471-19310&p=f&t=BpSyxdzQ48uGCk6f-0)) in Figma. Image outlined below:
+ 
+ ![Alt text](path/to/image.png)
  
 ## Recommendation
 
