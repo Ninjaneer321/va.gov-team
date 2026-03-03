@@ -2,6 +2,52 @@ VES + VA.gov Sync
 
 ## Meeting date: 01.29.26
 
+##2.23.26
+Here you go — cleanly formatted in Markdown for easy copy/paste into your meeting notes:
+
+---
+
+## Timeline
+
+* **3/6** – VES will be ready for us to start testing
+* **3/31** – SQA team needs testing completed by this date
+* **4/8** – IVC's earliest target for production (assuming no issues are found during testing)
+
+---
+
+## Medicare & Insurance Questions
+
+* **What if no Medicare is reported?**
+
+  * Populate the section anyway and leave Medicare empty — **yes**
+  * Medicare **Part C must be filled in under private insurance**
+  * Allow for **Part A and Part B termination dates**, but these are **optional**
+  * Termination date is also **optional for Part C and private insurance**
+  * **TODO:** Check Figma to confirm whether we collect termination dates for Medicare Parts A or B (we may not currently be collecting these)
+
+---
+
+## Application Type
+
+* Use:
+
+  * `CHAMPVA_APPLICATION` for **10-10d**
+  * `CHAMNPVA_INS_APPLICATION` for **7959c**
+* Preferred order for combined form:
+
+  * Send **1010d first**, then **7959c**
+  * Not a hard requirement — can be handled if received in reverse order
+
+---
+
+## OHI (Other Health Insurance)
+
+* **TODO:** Are we collecting whether prescription coverage is available?
+
+  * VES would like this information if possible
+
+---
+
 ## OHI Ingestion + Linking Scenarios (VES / 1010D)
 
 ## Main question
