@@ -1,16 +1,23 @@
 # V1 vs. V2 Statuses in Meds Management Improvement (MMI) Designs
 
-**Note:** One of the motivating factors in the creation of v2 statuses was consistent feedback from Veterans that v1 statuses were confusing. However, we have solved for much of this confusion in the MMI designs by:
+## Context
+This work emerged from an internal status mapping sync on Monday, March 2, 2026, where we discussed Robyn's idea – during our last Meds UX Sync on Thursday, February 26 – that we might not need to move forward with V2 statuses after all.
+
+## Background 
+A lot has changed since we decided to move forward with V2 statuses in the autumn of 2025, from **(a)** Adrian mapping OH statuses to V1 statuses; and **(b)** the Meds Management Improvement designs being approved (which significantly alter the way that statuses are rendered to users). And taken together, it's possible that V2 statuses might no longer be necessary or worth pursuing. That's what this document is intended to explore.
+
+## Additional Detail
+One of the motivating factors in the creation of V2 statuses was consistent feedback from Veterans that V1 statuses were confusing. However, we have solved for much of this confusion in the MMI designs by:
 
 1. Removing bolded status labels from individual medication cards
 2. Simplifying the filter on the list page
 3. Presenting alternative information about refill and fill progress to users via in-card progress bars and an In Progress page
 
-**Note:** The only place of concern for v1 vs. v2 statuses from a UX design perspective is that we still surface statuses on the meds details pages.
+**Note:** The only place of concern for V1 vs. V2 statuses from a UX design perspective is that we still surface statuses on the Meds Details pages.
 
 ## V1 Pros
 
-- v1 statuses actually map better to the ideal state status table that's been created for the MMI designs.
+- V1 statuses actually map better to the ideal state status table that's been created for the MMI designs.
 - At a maximum, we could look into slightly editing the status for meds that are renewable. Otherwise, all ideal state scenarios can logically use a v1 status on their meds details page.
 
 
