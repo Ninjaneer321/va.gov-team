@@ -4,7 +4,7 @@
 |--------|-------|-------|
 | Expected annual submissions | 23,556 | |
 | Canary target | 235 | 1% of expected |
-| Total submissions | 0 | 0% of expected |
+| Total submissions | 1 | 0% of expected |
 | Number of Incomplete/Errors | 0 | |
 | Error % | 0% | |
 
