@@ -172,9 +172,9 @@ We used remote, moderated usability testing to observe research participants usi
 ### 1. Participants struggled with the logic and found the workflow hard to follow, especially in the Household information / Marriage section. 
 - 6 of 9 participants and two pilot participants had problems understanding questions and/or the order in which they were asked.
     - The Veteran’s name and information were asked before the claimant’s - the one filling out the form. 
-    - People often started with their own information and had to go back. 
+        - People often started with their own information and had to go back. 
     - After the remarriage questions, we go back in time to previous marriages for either / both survivor and deceased Veteran. 
-    - People hesitated here - it did not make intuitive sense. 
+        - People hesitated here - it did not make intuitive sense. 
 
 > “What if your veteran was deployed? What if he was in a nursing home?” - P6
 
