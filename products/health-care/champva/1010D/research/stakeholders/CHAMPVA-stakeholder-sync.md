@@ -3,6 +3,63 @@ Every other Tuesday at 10:35am ET
 
 # Meeting Notes
 
+## 03/03/26
+**Attendees:** Renata, Andrea, Chantale, Angela C., Jessica, Gina, Mike, Ballard, Angela P., John, Premal, Scott, Luke
+
+**Agenda**
+
+* For those selecting “other” on relationship to applicant or veteran/sponsor:
+    * Do these often require send back letters and more information/documentation needed?
+    * If so, what are some examples of the docs requested/additional info?
+* Outside of the application, when is CHAMPVA requiring documentation for a POA?
+* Check in on if anything has changed on how addresses and contact info is being used.
+
+
+**POA**
+
+* Selecting "Other" on the application
+    * Gina: no issues to my knowledge. There's a tab in VES where we have to enter in any kind of POA information. For the application there's no problems.
+    * Does a POA typically fill out the application?
+        * Gina: normally it's an established CHAMPVA bene who gets ill, and someone submits a POA on behalf of them to communicate on behalf of the bene in regards to their claims or care
+        * In other words, post-enrollment (not seen with the application very often)
+        * Only other situation is a spouse filing on behalf of a deceased sponsor, but there's no problems with that.
+* CVA claims: is there another process in place for POA at the time of filing a claims form? Is there another step to get POA on file?
+    * They'll send us their paperwork to show that they have POA. 
+    * Could be a letter from the bene signed by an attorney, or court-ordered POA issued by a court
+
+
+**Check how contact information is being used**
+
+* No email interaction, still through the CCL letter sent to the bene or bene family. 
+
+
+**Sendback letter reasons**
+
+* Generally higher sendback letters with claims due to VES transition
+    * OHI issues with payment processing
+    * Gina mentions a list of VES issues, MPI "catastrophic edits". This is preventing folks from being seen for care, so there's a known tracker for submitting issues (sounds like a convoluted workflow, it's out of the hands of VFMP)
+        * Lots of downstream problems emanating from the VES transition
+        * Talk to Katrina and/or Zach to understand this list of issues and the increase of sendback letters
+    * Example: A bene had 28 claims and the OHI was incorrect due to the transition
+    * Example 2: A death was showing up incorrectly in VES (was showing up in VES as alive)
+        * We verify addresses in VES and Share, as well
+        * Is there data death correction in VES? It sounds like there's a fix in place.
+        * Premal to look into this
+
+
+**Submitting supporting docs outside of the application/claims**
+
+* Generally want to use VA.gov rather than faxes (sometimes technical issues) and mail to reduce wait times and service gaps
+* Attempting to address cyclical gaps in service (still wouldn't stop mailed CCL letters, but would reduce dropoffs). 
+    * Drives call center volume when folks' documents go missing
+    * Drives up CRM queue
+    * Some people submit duplicate documentation because they don't hear back quickly, driving up the backlog.
+* Ballard asks: is there anything about having benes make an account and then uploading documents to their online account instead of sending out printed mail?
+    * Could we send EOBs to that online account and get notifications about it?
+    * It's not built, but there's been discussions about where we can get that data. It's not on our immediate roadmap because of the lack of data 
+
+
+
 ## 02/017/26
 **Backlog Time Estimate – Decision Packet Mailing**
 
