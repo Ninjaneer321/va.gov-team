@@ -9,7 +9,7 @@
 **Slack: `#mhv-april-go-live-tiger-team`**
 This is the primary channel for internal OCTO/VA.gov team coordination throughout the cutover weekend. All task updates, status confirmations, and issue escalations should be posted here.
 
-### Oracle Bridge Line (External)
+### Oracle Health/EHRM Bridge Line (External)
 A team member representative (to be determined) will be invited to the Oracle-led bridge line. OCTO is finalizing who will liaise via this external channel.
 
 ---
