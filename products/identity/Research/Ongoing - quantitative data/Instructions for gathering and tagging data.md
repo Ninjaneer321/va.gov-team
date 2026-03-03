@@ -25,7 +25,8 @@
 * Product Description  
    * ```Identity team products cover authentication. We connect sign-in credentials (from ID.me, Login.gov) to both VA.gov and the VA mobile app. We also own the universal sign-in page and modal, Terms of Use page, and all sign in flows from any page on VA.gov, like sign-in alert widgets.```
 * Survey URL(s), key term(s), case category or type  
-   > * URLs - can really be anything across the site, since sign in is initiated from many different pages and the sign in modal appends to the end of most pages as  `/?next=loginModal` We’d like to see feedback from all pages around the site where folks mention sign-in related products. That said, URLs of particular interest:
+   > - key terms include are our priority - sign in, signin, sign-in, sign on, signon, signing in, signing on, sign up, log in, login, log on, logon, logging in, logging on, sign out, sign off, signing out, signed out, signing off, log out, log off, logging out, logging off, password, pass word, passwords, pass words, account, username, user name, mfa, 2fa, multifactor auth, 2 factor auth, otp, multi factor, two factor auth, two factor, text code, auth, authenticate, authentication, verify, verification, terms of use, terms of service, hacked, locked out, security, ID.me, IDme, ID me, Login.gov, Login gov, logingov, recover account, account recovery, forgot password, password reset, identity, identity theft, credential, credentials, proofing, passkey, passkeys, security, locked, redirect, locked out, loop, looping, scam, fraud, stolen, hacked, video call, videocall, reset, change password, phish, phishing, takeover, can't access, kicked out, text code, wrong password, no code, one time code, secure, error, timeout, expire, lost access, suspended account
+   > * URLs - can really be anything across the site, since sign in is initiated from many different pages. We’d like to see feedback from all pages around the site where folks mention sign-in related products or the keywords included. That said, URLs of particular interest:
    >- Pages our team owns:
    >   - https://www.va.gov/sign-in/ 
    >   - https://www.va.gov/terms-of-use
@@ -45,7 +46,7 @@
    >   - https://www.va.gov/resources/videos-for-how-to-set-up-your-online-va-sign-in-account/
    >   - https://www.va.gov/resources/what-if-i-cant-sign-in-to-vagov-because-my-password-doesnt-work/
    >
-   >- key terms - sign in, signin, sign on, signon, signing in, signing on, log in, login, log on, logon, logging in, logging on, sign out, sign off, signing out, signing off, log out, log off, logging out, logging off, password, pass word, account, username, user name, mfa, multifactor auth, 2 factor auth, two factor auth, two factor, text code, authenticate, authentication, verify, verification, terms of use, terms of service, hacked, locked out, security, ID.me, IDme, ID me, Login.gov, Login gov
+   >
     * Sub URLs - ``Yes``  
     * File Delivery Format - ``One file`` 
 
