@@ -1,4 +1,4 @@
-# Medical Records Findability Research Synthesis
+# Medical Records Use Cases
 **Research Period:** 2022-2025 (sources analyzed Feb 2026)  https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2026-02_Research_Review
 **Researcher:** Laura Simpson
 **Status:** Complete - Recommendations made
