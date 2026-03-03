@@ -227,20 +227,19 @@ The "Select all 3 refills" checkbox for bulk refills was discovered and apprecia
 
 ---
 
-## Participants at a glance
+## Participant characteristics
 
-| ID | Tech comfort | Primary method | VA meds experience | Notable characteristic |
-|---|---|---|---|---|
-| P1 | High (laptop) | VA.gov via laptop | ~2 years | Color-oriented; appreciates visual progress indicators |
-| P4 | High ("technophile") | VAHB + VA.gov | 10 years | Found interface "clear and concise" |
-| P5 | Moderate | VA.gov | ~15 years | Prefers simplicity; limited exploration |
-| P7 | Lower | Phone calls | Not specified | Conceptualizes refills through call-in model; screen froze mid-session |
-| P8 | Moderate | Va.gov | ~5 years | Wants simplification for elderly veterans |
-| P12 | Moderate | VA.gov (secure message) | ~10 years | Familiar with MHV; missed several UI elements |
-| P13 | High (app) | VAHB | Not specified | Active medication manager; checks weekly |
-| P15 | Moderate | VA.gov | ~10 years | Prefers calling pharmacy for urgent needs |
-| P16 | High (app) | VAHB | Since 2018 | Thorough verifier; checks in-progress after every action |
-
+| ID | Primary method | Years using VA for meds | Refill frequency | Notable |
+|----|---------------|------------------------|-----------------|---------|
+| P1 | VA.gov (laptop) | ~2 | Weekly buffer check; refills as needed | Sets Outlook reminders; prefers laptop as more "official" |
+| P4 | VAHB + VA.gov | 10 | Every 3 months | Self-described "technophile"; found interface clear |
+| P5 | VA.gov | ~15 | Every 3-6 months (combo of online and in-person) | Limited exploration; takes regular meds only |
+| P7 | Phone calls | — | ~1x per month | Uses VA.gov site at least 2x per month but calls to refill |
+| P8 | VA.gov | ~5 | Every 3-4 weeks | Wants one-stop service through VA; outside provider is a hassle |
+| P12 | Secure messaging | ~10 | Every 90 days | Ongoing meds only; uses VA for hospitalization and prescriptions |
+| P13 | VAHB app | — | Monthly | Checks app weekly; ~95% of app use is for refills; hurricane withdrawal experience |
+| P15 | VA.gov | ~10 | Every 3 months | Previously used MHV Classic |
+| P16 | VAHB app | Since 2018 | ~3x per year (every 3 months) | Switched from calling to MHV to app over time |
 ---
 
 
