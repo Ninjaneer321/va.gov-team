@@ -38,25 +38,25 @@ For tasks that also need to be reported out on the **Oracle bridge line**, the p
 | Time (ET) | Task | Team | Report In |
 |---|---|---|---|
 | **2:00 PM** | Discontinue RX data refresh (must happen before facility changes RX to discontinued at 7 PM) | VA.gov/OCTO | Slack |
-| **6:00 PM** | Vista downtime begins; facility discharges patients from Vista. Monitor for confirmation. | Oracle/Facility | Bridge Line → Slack |
+| **6:00 PM** | Vista downtime begins; facility discharges patients from Vista. Monitor for confirmation. | Oracle/Facility | Bridge line → Slack |
+| **6:45 PM** | NPI flag switches from Vista to Millennium | Oracle Health| Bridge line → Slack |
+| **7:00 PM** | **All interfaces flip from Vista to Millennium**; site goes to downtime/paper charting procedures. NPI flag confirmed set. 200CRNR field expected to be set. Await confirmation before triggering dependent VA.gov tasks. | Oracle Health| Bridge line → Slack |
+| **7:15 PM** | *(Dependent on 200CRNR field being set)* Run sign-up service job for all Michigan SM patients who have accepted terms of use | OCTO | Slack + Bridge line |
+| **7:15 PM** | Validate is_messageable flag is set for Michigan patients | OCTO | Slack + Bridge line |
 
 ---
 
 ### April 11 (T-0)
 
-This is the highest-coordination period. All updates go to Slack **and** the Oracle bridge line as appropriate.
+This is the highest-coordination period. All updates go to Slack **and** the Oracle Health/ EHRM Bridge line as appropriate.
 
 | Time (ET) | Task | Team | Report In |
 |---|---|---|---|
-| **6:45 AM** | Flag switches from Vista to Millennium | Oracle Health| Bridge Line → Slack |
-| **7:00 AM** | **All interfaces flip to Millennium.** NPI flag confirmed set. 200CRNR field expected to be set. Await confirmation before triggering dependent VA.gov tasks. | Oracle Health| Bridge Line → Slack |
-| **7:00 AM** | *(Dependent on 200CRNR field being set)* Run sign-up service job for all Michigan SM patients who have accepted terms of use | OCTO | Slack + Bridge Line |
-| **7:00 AM** | Validate is_messageable flag is set for Michigan patients | OCTO | Slack + Bridge Line |
-| **7:00 AM** | **ALL CLEAR — Go-live confirmed** | Oracle Health| Bridge Line → Slack |
+| **12:15 AM** | Activate Oracle Health triage groups | SM API | Slack |
+| **7:00 AM** | **ALL CLEAR — Go-live confirmed** | Oracle Health| Bridge line → Slack |
 | **7:00 AM** | Disable clinicians in SM Clinician portal | OCTO | Slack |
-| **7:00 AM** | Activate Oracle Health triage groups | OCTO | Slack |
-| **7:00 AM** | Update medication statuses to "transferred" in VA.gov database so Oracle Health medications populate in UI | OCTO | Slack |
-| **7:00 AM onward** | Store medical record data snapshot in owned database as transition safety net | OCTO | Slack |
+| **7:00 AM** | Update medication statuses to "transferred" in VA.gov database so Oracle Health medications populate in UI | MR API | Slack |
+| **8:00 AM onward** | Perform final PHR VPR extract (full PHR refresh) on all Active MHV Patients from the site and load into Evault. | OCTO | Slack |
 
 **⚠️ Key Dependency Note:** The VA.gov sign-up service job and Is_Messageable flag tasks **cannot begin until the 200CRNR field is confirmed set**. Monitor the Bridge Line and Slack for this confirmation. If there is any timing discrepancy (previous information suggested it might not be set until 10:00 AM April 11), this needs to be escalated immediately.
 
