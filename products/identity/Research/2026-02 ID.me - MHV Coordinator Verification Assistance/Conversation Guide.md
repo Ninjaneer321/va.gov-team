@@ -139,7 +139,8 @@ Think of a recent situation you remember well (no personal details needed). A Ve
 2. **Troubleshooting**
    - What steps do you typically try first?
    - What information do you need from the Veteran (without sharing any sensitive details today)?
-      - What ID documentats do you prefer a Veteran have when helping?
+      - How do you prepare a Veteran for an in-person session? What do you tell them ahead of time?
+         - (documents, device requirements, email info)
    - What do you do if the Veteran has limited technology skills or limited device access?
 
 3. **Workarounds + constraints**
