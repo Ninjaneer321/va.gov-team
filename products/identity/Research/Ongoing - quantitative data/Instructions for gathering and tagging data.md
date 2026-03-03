@@ -13,7 +13,7 @@
     * They don’t give us the details of each case/ticket, so a lot of times this data can feel very vague, and we’re just making a best guess at how to tag it.  
 * Request dataset from Contact Center team via ticket  
   * Request both types of survey data and contact center data with same ticket template  
-    * [https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=jwoodman5%2C+ianMcCullough-ob\&labels=VSP-contact-center%2Ccc-data-request\&template=qualitative-data-request.yml\&title=Qualitative+Data+Request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=jwoodman5%2C+ianMcCullough-ob&labels=VSP-contact-center%2Ccc-data-request&template=qualitative-data-request.yml&title=Qualitative+Data+Request)   
+    * [https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=newworld2616%2C+ATMiddleton&labels=VSP-contact-center%2Ccc-data-request&projects=&template=qualitative-data-request.yml&title=Qualitative+Data+Request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=newworld2616%2C+ATMiddleton&labels=VSP-contact-center%2Ccc-data-request&projects=&template=qualitative-data-request.yml&title=Qualitative+Data+Request)  
 
 ### Requesting Medallia 'A11' intercept survey and Medallia 'VFS' feedback button survey - these types are requested on the same ticket
 * Example request ticket: [https://github.com/department-of-veterans-affairs/va.gov-team/issues/98616](https://github.com/department-of-veterans-affairs/va.gov-team/issues/98616)
