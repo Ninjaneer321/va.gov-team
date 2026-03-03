@@ -18,6 +18,18 @@ One of the motivating factors in the creation of V2 statuses was consistent feed
 
 **Note:** The only place of concern for V1 vs. V2 statuses from a UX design perspective is that we still surface statuses on the Meds Details pages.
 
+### Launch sequencing detail
+
+For implementation and risk management, we are planning to launch the MMI designs **before** any V2 status activation (if we decide to do V2 later).
+
+This sequencing matters because releasing two major changes at the same time (new MMI UX + new status model) makes it much harder to isolate root causes if errors occur. If something breaks in production, we need to know whether the issue came from:
+
+- the new MMI design changes,
+- the V2 status grouping/mapping changes, or
+- an interaction between both.
+
+By launching MMI first with V1, we reduce debugging ambiguity and can validate one variable at a time. In practical terms, this means we will need to map MMI designs to V1 statuses for launch regardless, and then evaluate V2 as a separate follow-on change.
+
 ## v1 pros
 
 - v1 statuses map better to the ideal state status table that's been created for the MMI designs because they are more granular. This allows us to provide more context for a handful of statuses including:
@@ -25,16 +37,31 @@ One of the motivating factors in the creation of V2 statuses was consistent feed
   - Expired
   - Discontinued
   - Non-VA med
+  - 
+- v1 supports step-by-step refill context for users:
+  - "Active: Submitted" tells users we received the request
+  - "Active: Refill in Process" tells users the pharmacy is actively filling it
+  - "Active" + tracking context supports shipped/arriving understanding
+
+- v1 supports more precise “taking longer than expected” logic:
+  - Submitted medications and refill-in-process medications can follow different timing expectations
+
+- v1 minimizes launch risk because this level of detail is already what current behavior is built around
 
 
 ## v2 pros
 
 - Matches new MMI filter on list page
+- Uses a smaller set of status labels, which can feel easier to scan at first glance
+- Creates cleaner label-to-filter parity (for example, "In progress" filter matches "In progress" status)
 
 ## v1 cons
 
 - We'd be working from a larger set of statuses than would be in use
 - Backend statuses may not exactly match the filter on the list page
+  - Explanation: the filter labels shown to Veterans are simplified, but the backend may use multiple `dispStatus` to decide what appears under one label.
+  - Example: a single list filter like "Active" can include several backend statuses (such as Active, Active: Submitted, and Active: Refill in Process).
+  - Why this matters: the experience can still be correct for users, but label-to-status matching is not always a strict 1:1 relationship.
 
 ## v2 cons
 
@@ -43,10 +70,14 @@ One of the motivating factors in the creation of V2 statuses was consistent feed
   - Renewable med that expired ≤120 days ago
   - Expired
   - Discontinued
+  - Xxplanation: under V2, several different real-world situations can share the same broad label, so we need extra details-page language to explain what the Veteran should do next.
+  - Why this matters: without that added explanation, Veterans may see the same label but need different actions.
 - Would need to edit/revise **three** scenarios:
   - Refill requested too early
   - Active with no refills (available for renewal w/o SM flow)
   - Active with no refills left (available for renewal w/ SM flow)
+  - Explanation: these are already designed/written around current V1 behavior, so V2 would require content and logic updates to keep instructions accurate.
+  - Why this matters: this adds scope across UX, engineering, and QA close to launch.
 
 See [v1 vs. v2 Status Chart for MMI Designs Figma table](https://www.figma.com/design/VunyfNQ9x7Bt58D9B2qnW5/%F0%9F%92%A1-Working-file--MHV-Medications---Devices-?node-id=8999-22897&t=PnnwqX0LyV92GHr9-4) for full breakdown of how v1 vs. v2 statuses could be employed on the site. 
 
@@ -64,4 +95,25 @@ xxxx
 
 ## Recommendation
 
-- All things considered, we recommend xxxx.
+- **Recommendation:** launch MMI with **V1 statuses first**. Keep the V2 status work available behind feature flags, and evaluate it after launch.
+
+- **Why this is the safer choice right now:**
+  - It avoids launching two major changes at once (new MMI experience + new status model), which makes troubleshooting much harder.
+  - It keeps the detailed status context already used for user guidance, especially on Meds Details.
+  - It reduces late-stage UX/content/QA coordination risk before launch.
+
+- **What this means for Veterans at launch:**
+  - Veterans still get the MMI improvements (cleaner card design, improved filtering experience, and clearer progress patterns).
+  - Status language remains on the current V1 model for now, so behavior and guidance stay consistent while the new MMI design rolls out.
+  - If we later enable V2, it can be introduced as a separate, controlled change.
+
+- **What this means for teams:**
+  - Product/UX can focus on polishing launch-ready content instead of validating two major changes simultaneously.
+  - Engineering/QA can isolate defects faster because launch variables are reduced.
+  - Leadership still retains a path to test V2 later with clearer success criteria.
+
+- **Proposed follow-up:**
+  1. Launch MMI with V1 statuses.
+  2. Confirm details-page plain-language guidance for key edge cases.
+  3. Complete in-progress data readiness work (separate from the V1/V2 decision).
+  4. Revisit V2 post-launch with a defined test plan, success metrics, and rollback criteria.
