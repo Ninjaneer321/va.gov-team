@@ -18,32 +18,37 @@ One of the motivating factors in the creation of V2 statuses was consistent feed
 
 **Note:** The only place of concern for V1 vs. V2 statuses from a UX design perspective is that we still surface statuses on the Meds Details pages.
 
-## V1 Pros
+## v1 pros
 
-- V1 statuses actually map better to the ideal state status table that's been created for the MMI designs.
-- At a maximum, we could look into slightly editing the status for meds that are renewable. Otherwise, all ideal state scenarios can logically use a v1 status on their meds details page.
+- v1 statuses map better to the ideal state status table that's been created for the MMI designs because they are more granular. This allows us to provide more context for a handful of statuses including:
+  - Pending
+  - Expired
+  - Discontinued
+  - Non-VA med
 
 
-## V2 Pros
+## v2 pros
 
 - Matches new MMI filter on list page
 
-## V1 Cons
+## v1 cons
 
-- Only that we'd be working from a larger set of statuses than would be in use
-- And that the backend statuses may not exactly match the filter
+- We'd be working from a larger set of statuses than would be in use
+- Backend statuses may not exactly match the filter on the list page
 
-## V2 Cons
+## v2 cons
 
-- Would actually need to come up with statuses for the meds details pages for **four** scenarios:
+- Would need to come up with statuses for the meds details pages for **four** scenarios:
   - Non-VA med
   - Renewable med that expired ≤120 days ago
   - Expired
   - Discontinued
-- And would need to edit/revise **three** scenarios:
+- Would need to edit/revise **three** scenarios:
   - Refill requested too early
   - Active with no refills (available for renewal w/o SM flow)
   - Active with no refills left (available for renewal w/ SM flow)
+
+See [v1 vs. v2 Status Chart for MMI Designs Figma table](https://www.figma.com/design/VunyfNQ9x7Bt58D9B2qnW5/%F0%9F%92%A1-Working-file--MHV-Medications---Devices-?node-id=8999-22897&t=PnnwqX0LyV92GHr9-4) for full breakdown of how v1 vs. v2 statuses could be employed on the site. 
 
  ## Visual Comparison Chart
  Here's a link to the [visual comparison chart](https://www.figma.com/design/VunyfNQ9x7Bt58D9B2qnW5/%F0%9F%92%A1-Working-file--MHV-Medications---Devices-?node-id=7471-19310&p=f&t=BpSyxdzQ48uGCk6f-0) in Figma. Image outlined below:
