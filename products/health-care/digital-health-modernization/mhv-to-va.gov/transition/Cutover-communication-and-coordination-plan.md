@@ -55,8 +55,8 @@ This is the highest-coordination period. All updates go to Slack **and** the Ora
 | **12:15 AM** | Activate Oracle Health triage groups | SM API | Slack |
 | **7:00 AM** | **ALL CLEAR — Go-live confirmed** | Oracle Health| Bridge line → Slack |
 | **7:00 AM** | Disable clinicians in SM Clinician portal | OCTO | Slack |
-| **7:00 AM** | Update medication statuses to "transferred" in VA.gov database so Oracle Health medications populate in UI | MR API | Slack |
-| **8:00 AM onward** | Perform final PHR VPR extract (full PHR refresh) on all Active MHV Patients from the site and load into Evault. | OCTO | Slack |
+| **7:00 AM** | Update medication statuses to "transferred" in VA.gov database so Oracle Health medications populate in UI | Rx API | Slack |
+| **8:00 AM onward** | Perform final PHR VPR extract (full PHR refresh) on all Active MHV Patients from the site and load into Evault. | MR API | Slack |
 
 **⚠️ Key Dependency Note:** The VA.gov sign-up service job and Is_Messageable flag tasks **cannot begin until the 200CRNR field is confirmed set**. Monitor the Bridge Line and Slack for this confirmation. If there is any timing discrepancy (previous information suggested it might not be set until 10:00 AM April 11), this needs to be escalated immediately.
 
