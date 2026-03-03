@@ -1,5 +1,5 @@
-# Michigan Cutover Weekend Communication & Coordination Plan
-**Go-Live Date:** April 11, 2025 | **All Clear:** 7:00 AM ET
+# Michigan Cutover Weekend Communication & Coordination Plan - WIP
+**Go-Live Date:** April 11, 2025 | **Anticipated all clear:** 7:00 AM ET
 
 ---
 
