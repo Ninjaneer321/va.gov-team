@@ -1,4 +1,4 @@
-# UX pros and cons of v1 vs. v2 statuses in the MMI designs
+# UX Pros & Cons of V1 vs. V2 Statuses in the Meds Management Improvement (MMI) Designs
 
 **Note:** One of the motivating factors in the creation of v2 statuses was consistent feedback from Veterans that v1 statuses were confusing. However, we have solved for much of this confusion in the MMI designs by:
 
@@ -8,22 +8,22 @@
 
 **Note:** The only place of concern for v1 vs. v2 statuses from a UX design perspective is that we still surface statuses on the meds details pages.
 
-## v1 pros
+## V1 Pros
 
 - v1 statuses actually map better to the ideal state status table that's been created for the MMI designs.
 - At a maximum, we could look into slightly editing the status for meds that are renewable. Otherwise, all ideal state scenarios can logically use a v1 status on their meds details page.
 
 
-## v2 pros
+## V2 Pros
 
 - Matches new MMI filter on list page
 
-## v1 cons
+## V1 Cons
 
 - Only that we'd be working from a larger set of statuses than would be in use
 - And that the backend statuses may not exactly match the filter
 
-## v2 cons
+## V2 Cons
 
 - Would actually need to come up with statuses for the meds details pages for **four** scenarios:
   - Non-VA med
@@ -34,3 +34,7 @@
   - Refill requested too early
   - Active with no refills (available for renewal w/o SM flow)
   - Active with no refills left (available for renewal w/ SM flow)
+ 
+## Recommendation
+
+- All things considered, we recommend xxxx.
