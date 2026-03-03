@@ -352,10 +352,23 @@ One participant (P14) commented on language used around Veteran living question 
 
 Design recommendations are broken down by proposed v1 (VADS only design) and v2 (hybrid API) releases:
 
-1. **Recommendation:** [Insert action]  
-   - _Supporting evidence: [Insert data]_  
-2. **Recommendation:** [Insert action]  
+1. **Recommendation:** [Form Introduction and CHAMPVA Program Pages Content Updates (v1 and v2)]  
    - _Supporting evidence: [Insert data]_
+   - Make sure eligibility criteria is clear and easy to understand before starting the form and making areas more prominent when needed. Will work with the C+IA content partner to make minor adjustments to intro and program pages used during the study before v1 release.
+2. **Recommendation:** [Check Eligibility Pattern Updates (v1)]  
+   - _Supporting evidence: [Insert data]_
+   - Simplify and make the eligibility card more dynamic and clear to the applicant’s situation.
+   - Figma mock including paired down version
+   - Design office hours on 3/3
+   - Experimental process to suggest updates to “Check eligibility pattern”
+   - Meet with team to determine possibilities around definitive language
+   - Work with C+IA content partner on adjustments to pattern content before meeting with Design System Council
+3. **Recommendation:** [Alert Content Updates (v2)]  
+   - _Supporting evidence: [Insert data]_
+   - When the API integration is in place, make adjustments to the content in the alerts presented to applicants:
+   - Contact, link or resolution included - one clear resolution, not multiple. Tricare path: provide a link to Tricare since they’re there to seek health care. 
+
+
 
 
 
