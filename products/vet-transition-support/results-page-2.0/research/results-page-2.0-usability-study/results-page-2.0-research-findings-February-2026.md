@@ -1,5 +1,3 @@
-```markdown
----
 title: "Discover Your Benefits Prototype V3 Usability Study Research Findings"
 product: "Discover Your Benefits"
 team: "Benefits Discovery Team"
@@ -14,54 +12,54 @@ methodology:
 - "Moderated Usability Testing"
 - "A/B Testing (Radio Buttons vs. Checkbox for filters)"
 devices_used:
-  desktop: 9
-  tablet: 0
-  smartphone: 2
-  assistive_technology: 2
+desktop: 9
+tablet: 0
+smartphone: 2
+assistive_technology: 2
 participants_total: 11
 demographics:
-  veterans: 11
-  service_members: 0
-  caregivers: 0
-  dependents: 0
-  VA_staff: 0
+veterans: 11
+service_members: 0
+caregivers: 0
+dependents: 0
+VA_staff: 0
 age:
-  "25-34": 8
-  "35-44": 1
-  "45-54": 1
-  "55-64": 0
-  "65+": 1
-  unknown: 0
+"25-34": 8
+"35-44": 1
+"45-54": 1
+"55-64": 0
+"65+": 1
+unknown: 0
 education:
-  high_school: 0
-  some_college: 2
-  associates: 1
-  bachelors: 3
-  masters: 4
-  doctorate: 0
-  unknown: 1
+high_school: 0
+some_college: 2
+associates: 1
+bachelors: 3
+masters: 4
+doctorate: 0
+unknown: 1
 location:
-  urban: 8
-  rural: 3
-  unknown: 0
+urban: 8
+rural: 3
+unknown: 0
 race:
-  white: 4
-  black: 2
-  hispanic: 1
-  biracial: 2
-  asian: 0
-  native: 0
+white: 4
+black: 2
+hispanic: 1
+biracial: 2
+asian: 0
+native: 0
 disability:
-  cognitive: 10
-  AT_beginner: 0
-  AT_advanced: 2
-  screen_reader_desktop: 0
-  screen_reader_mobile: 0
-  magnification_zoom: 2
-  speech_input: 0
-  hearing_aids: 0
-  sighted_keyboard: 0
-  captions: 0
+cognitive: 10
+AT_beginner: 0
+AT_advanced: 2
+screen_reader_desktop: 0
+screen_reader_mobile: 0
+magnification_zoom: 2
+speech_input: 0
+hearing_aids: 0
+sighted_keyboard: 0
+captions: 0
 key_findings:
 - "Default sorting by 'Expiration Date' causes confusion for separated Veterans."
 - "Users validate the use of 'Learn More' on benefit cards rather than direct 'Apply' links."
@@ -80,8 +78,8 @@ kpi_alignment:
 - "Increase successful discovery of unknown benefits."
 - "Improve usability scores among assistive technology users."
 outcomes:
-  user: "Veterans and transitioning service members easily discover, filter, and understand VA benefits tailored to their specific needs and timelines."
-  business: "Increase successful applications for lesser-known benefits by consolidating and clarifying eligibility information on a single, unauthenticated platform."
+user: "Veterans and transitioning service members easily discover, filter, and understand VA benefits tailored to their specific needs and timelines."
+business: "Increase successful applications for lesser-known benefits by consolidating and clarifying eligibility information on a single, unauthenticated platform."
 opportunity_areas:
 - "Crisis and unhoused Veteran routing directly from discovery pages."
 - "Dependent and Caregiver specific journeys."
@@ -126,15 +124,15 @@ The Discover Your Benefits tool aims to consolidate complex VA benefit informati
 
 ## Research Questions
 * Do the design changes make users better able to accomplish their goals of discovering, exploring, and understanding benefits?
-* Are the redesigned filters usable and accessible? 
-* Are the redesigned benefit cards usable and accessible? 
-* Are time sensitivity, recommendation status, and potential eligibility clear? 
-* Is the redesigned sorting function usable and accessible? 
-* Which prototype has better filtering usability for seeing recommended benefits vs all benefits - radio buttons or checkbox? 
-* Is the rewritten length of service question easy to understand and aligned with mental models? 
-* Have design changes to fix accessibility bugs made the product accessible to users of adaptive technology? 
-* Does redesigned content for Reserves/National Guard improve usability? 
-* Does improved usability impact users' desire for human help? 
+* Are the redesigned filters usable and accessible?
+* Are the redesigned benefit cards usable and accessible?
+* Are time sensitivity, recommendation status, and potential eligibility clear?
+* Is the redesigned sorting function usable and accessible?
+* Which prototype has better filtering usability for seeing recommended benefits vs all benefits - radio buttons or checkbox?
+* Is the rewritten length of service question easy to understand and aligned with mental models?
+* Have design changes to fix accessibility bugs made the product accessible to users of adaptive technology?
+* Does redesigned content for Reserves/National Guard improve usability?
+* Does improved usability impact users' desire for human help?
 
 ## Methodology
 - **Moderated Usability Testing:** 11 participants completed tasks using a clickable prototype (Codespaces) to explore benefits based on their personal goals and military history.
@@ -143,13 +141,13 @@ The Discover Your Benefits tool aims to consolidate complex VA benefit informati
 ## Hypotheses and Conclusions
 
 - **Hypothesis:** Users will correctly identify and utilize the default "Expiration Date (Soonest First)" sort function.
-  - **Definitely False:** Most veterans separated for more than a few years found the concept of benefits "expiring" confusing and irrelevant to their situation,.
+- **Definitely False:** Most veterans separated for more than a few years found the concept of benefits "expiring" confusing and irrelevant to their situation,.
 - **Hypothesis:** Users will prefer reading a summary ("Learn More") rather than jumping straight to an application.
-  - **Definitely True:** Participants validated that applying is a "big step" and they prefer learning the details and eligibility first,.
+- **Definitely True:** Participants validated that applying is a "big step" and they prefer learning the details and eligibility first,.
 - **Hypothesis:** Screen magnification users will be able to navigate the redesigned prototype without blocking errors.
-  - **Definitely False:** Screen magnification users encountered blocking errors on dropdowns and struggled with excessive horizontal whitespace,.
+- **Definitely False:** Screen magnification users encountered blocking errors on dropdowns and struggled with excessive horizontal whitespace,.
 - **Hypothesis:** Users expect radio buttons to apply filters automatically without a secondary click.
-  - **Likely True:** Participants explicitly stated that radio buttons imply an immediate toggle, causing friction when a manual "Apply" button was required.
+- **Likely True:** Participants explicitly stated that radio buttons imply an immediate toggle, causing friction when a manual "Apply" button was required.
 
 ---
 
@@ -211,24 +209,24 @@ Despite usability friction, participants consistently found the tool valuable fo
 ## Recommendations
 
 1. **Change the default sort order:**
-   - For users who indicate they separated more than a year ago, default the sort to "Benefit Type" or "Alphabetical" rather than "Expiration Date."
-   - *Supporting evidence:* P11, P12, and P18 found "Expiration Date" irrelevant and confusing for permanent benefits like disability,.
+- For users who indicate they separated more than a year ago, default the sort to "Benefit Type" or "Alphabetical" rather than "Expiration Date."
+- *Supporting evidence:* P11, P12, and P18 found "Expiration Date" irrelevant and confusing for permanent benefits like disability,.
 
 2. **Refine Filter UI Behaviors:**
-   - If using Radio Buttons for "Recommended vs. All," implement auto-apply behavior. If using checkboxes, make the "Apply" button sticky or highly visible.
-   - *Supporting evidence:* P12's mental model strongly expected a radio "circle" to automatically refresh the page.
+- If using Radio Buttons for "Recommended vs. All," implement auto-apply behavior. If using checkboxes, make the "Apply" button sticky or highly visible.
+- *Supporting evidence:* P12's mental model strongly expected a radio "circle" to automatically refresh the page.
 
 3. **Address screen magnification accessibility blocks:**
-   - Fix the dropdown interaction bug that blocks keyboard/magnifier users on the Discharge question. Evaluate card designs to reduce empty horizontal whitespace.
-   - *Supporting evidence:* P14 could not progress past the dropdown menu; P12 noted the card layout forced excessive scrolling,.
+- Fix the dropdown interaction bug that blocks keyboard/magnifier users on the Discharge question. Evaluate card designs to reduce empty horizontal whitespace.
+- *Supporting evidence:* P14 could not progress past the dropdown menu; P12 noted the card layout forced excessive scrolling,.
 
 4. **Elevate Dependent/Spouse benefits:**
-   - Add a specific filter tag or highly visible goal option specifically for "Dependent & Family Benefits."
-   - *Supporting evidence:* P2 and P16 explicitly searched for family benefits and felt they were buried,.
+- Add a specific filter tag or highly visible goal option specifically for "Dependent & Family Benefits."
+- *Supporting evidence:* P2 and P16 explicitly searched for family benefits and felt they were buried,.
 
 5. **Adjust Separation Timeframe options:**
-   - Expand the "3+ years" option to "3-10 years" and "10+ years" to make older veterans feel recognized and included.
-   - *Supporting evidence:* P9 indicated that stopping at "3+ years" makes long-separated veterans feel their time has expired.
+- Expand the "3+ years" option to "3-10 years" and "10+ years" to make older veterans feel recognized and included.
+- *Supporting evidence:* P9 indicated that stopping at "3+ years" makes long-separated veterans feel their time has expired.
 
 ## Product User and Business Outcomes
 
@@ -265,7 +263,7 @@ This research highlights critical failure points for this KPI. By identifying bl
 - [Interview transcripts]
 
 ### Tools used for Synthesis
-- Spreadsheet Synthesis 
+- Spreadsheet Synthesis
 - Transcription analysis
 
 ### Secondary research
@@ -347,3 +345,5 @@ Disability and Assistive Technology (AT):
 This research does not include the perspectives of the following marginalized Veteran groups:
 * Individuals utilizing Speech Input Technology
 * Caregivers and Dependents
+```
+
