@@ -1,120 +1,110 @@
+```markdown
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Discover Your Benefits Prototype V3 Usability Study Research Findings"
+product: "Discover Your Benefits"
+team: "Benefits Discovery Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-01-26"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- "Anna Higgins, Jessica Woodin"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- "Understand if design changes to the results page help users accomplish their goals of discovering, exploring, and understanding benefits."
+- "Assess usability and accessibility of redesigned filters, benefit cards, and sorting functions."
 methodology:
-  - "Method 1"
-  - "Method 2"
+- "Moderated Usability Testing"
+- "A/B Testing (Radio Buttons vs. Checkbox for filters)"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 9
+  tablet: 0
+  smartphone: 2
+  assistive_technology: 2
+participants_total: 11
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
-  race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
-  disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+  veterans: 11
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+age:
+  "25-34": 8
+  "35-44": 1
+  "45-54": 1
+  "55-64": 0
+  "65+": 1
+  unknown: 0
+education:
+  high_school: 0
+  some_college: 2
+  associates: 1
+  bachelors: 3
+  masters: 4
+  doctorate: 0
+  unknown: 1
+location:
+  urban: 8
+  rural: 3
+  unknown: 0
+race:
+  white: 4
+  black: 2
+  hispanic: 1
+  biracial: 2
+  asian: 0
+  native: 0
+disability:
+  cognitive: 10
+  AT_beginner: 0
+  AT_advanced: 2
+  screen_reader_desktop: 0
+  screen_reader_mobile: 0
+  magnification_zoom: 2
+  speech_input: 0
+  hearing_aids: 0
+  sighted_keyboard: 0
+  captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- "Default sorting by 'Expiration Date' causes confusion for separated Veterans."
+- "Users validate the use of 'Learn More' on benefit cards rather than direct 'Apply' links."
+- "The manual 'Apply' button for filters causes interaction friction, especially with radio buttons."
+- "Significant accessibility barriers remain for screen magnification users."
+- "Users expressed a strong desire for more prominent dependent and family benefit information."
+- "Language targeting 'transitioning' members can inadvertently alienate veterans who separated years ago."
+- "The tool successfully drives the discovery of new, unknown benefits."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+- "Change the default sort order for users separated over a year from 'Expiration Date' to 'Benefit Type' or 'A-Z'."
+- "Resolve AT blocking issues on dropdowns and reduce horizontal whitespace for magnification users."
+- "Implement an auto-apply interaction for radio button toggles, or significantly increase the visibility of the manual 'Apply' button."
+- "Introduce explicit filters or categories for dependent, spouse, and family benefits."
+- "Revise the '3+ years' separation option to a broader scale (e.g., '10+ years') to feel more inclusive."
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- "Increase successful discovery of unknown benefits."
+- "Improve usability scores among assistive technology users."
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans and transitioning service members easily discover, filter, and understand VA benefits tailored to their specific needs and timelines."
+  business: "Increase successful applications for lesser-known benefits by consolidating and clarifying eligibility information on a single, unauthenticated platform."
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+- "Crisis and unhoused Veteran routing directly from discovery pages."
+- "Dependent and Caregiver specific journeys."
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+- "Testing the logged-in/authenticated experience."
+- "Testing with active-duty service members currently in the TAP process."
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+- "Individuals utilizing Speech Input Technology"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+- "Web analytics from previous live Discover Your Benefits tool"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- "Spreadsheet Synthesis"
 ---
-
-> [!TIP]
-> **Complete the frontmatter section above AFTER you've finished and saved your research findings report below.**
-> 
-> Use the [GitHub Copilot Research Findings Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md) to automatically generate structured metadata from this completed research findings report. The prompt uses natural language processing to extract key findings, participant demographics, recommendations, and apply appropriate research repository tags.
 
 > [!IMPORTANT]
-> **This is a template, <mark>PLEASE MAKE A COPY</mark>** 📑
+> **This is a template, PLEASE MAKE A COPY** 📑
 
 ---
 
-# [Study] Research Findings 
-
-**Office of the CTO - Digital Experience (OCTO-DE), Product Name, Team Name**
-
-**Date:** MM/DD/YYYY
-
-**Contacts:** [Researcher/Designer 1], [Researcher/Designer 2]
-
-**[Research Readout (PDF)](link-here)**  
-*Add a link to your research readout deck, if available.*
-
-> [!TIP] 
-> Add "user-content-" in front of each link generated by Markdown in order to move the focus correctly for keyboard navigation.
+# Discover Your Benefits Prototype V3 Research Findings
+**Office of the CTO - Digital Experience (OCTO-DE), Discover Your Benefits**
+**Date:** 01/26/2025
+**Contacts:** Anna Higgins
 
 **Jump to:**
 - [Hypotheses and conclusions](#user-content-hypotheses-and-conclusions)
@@ -128,289 +118,232 @@ synthesis_tools_used:
 - [Research participants](#user-content-research-participants)
 
 ## Research Goals
-*Provide context for this research by explaining how it fits into the Veteran’s journey.*  
-[See the Veteran journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)  
-
-**Guiding Questions:**  
-- What are the key moments this tool supports in the Veteran’s journey?  
-- What outcomes are we aiming to achieve for Veterans and stakeholders?  
-
-[Example Research Goals](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#research-goals) 
+The Discover Your Benefits tool aims to consolidate complex VA benefit information into an intuitive, personalized discovery experience for Veterans and transitioning service members. The goals of this study were to evaluate Version 3 of the unauthenticated prototype, specifically testing:
+- If design changes help users accomplish their goals of discovering, exploring, and understanding relevant benefits.
+- The usability and accessibility of redesigned filters, sorting mechanisms, and benefit cards.
+- Comprehension of time sensitivity, recommendation status, and eligibility framing.
+- Usability differences between radio buttons and checkboxes for filter toggles.
 
 ## Research Questions
+* Do the design changes make users better able to accomplish their goals of discovering, exploring, and understanding benefits?
+* Are the redesigned filters usable and accessible? 
+* Are the redesigned benefit cards usable and accessible? 
+* Are time sensitivity, recommendation status, and potential eligibility clear? 
+* Is the redesigned sorting function usable and accessible? 
+* Which prototype has better filtering usability for seeing recommended benefits vs all benefits - radio buttons or checkbox? 
+* Is the rewritten length of service question easy to understand and aligned with mental models? 
+* Have design changes to fix accessibility bugs made the product accessible to users of adaptive technology? 
+* Does redesigned content for Reserves/National Guard improve usability? 
+* Does improved usability impact users' desire for human help? 
 
-*List the research questions that guided this study.*  
-
-* Question 1
-* Question 2
-* Question 3
-
-[Example Research Questions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#research-questions)
-
-## Methodology 
-
-*Provide a brief description of the research methods used (e.g., usability testing, interviews).*  
-
-- Method 1: Description  
-- Method 2: Description  
-
-[Example Methodology](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#methodology)
-
+## Methodology
+- **Moderated Usability Testing:** 11 participants completed tasks using a clickable prototype (Codespaces) to explore benefits based on their personal goals and military history.
+- **A/B Testing:** 6 participants interacted with a radio button prototype for filters, and 5 interacted with a checkbox prototype to observe behavioral differences and mental models regarding the "Apply" function.
 
 ## Hypotheses and Conclusions
 
-*List hypotheses explored in the research and the conclusions drawn. If applicable, list the success or task completion rate.*
+- **Hypothesis:** Users will correctly identify and utilize the default "Expiration Date (Soonest First)" sort function.
+  - **Definitely False:** Most veterans separated for more than a few years found the concept of benefits "expiring" confusing and irrelevant to their situation,.
+- **Hypothesis:** Users will prefer reading a summary ("Learn More") rather than jumping straight to an application.
+  - **Definitely True:** Participants validated that applying is a "big step" and they prefer learning the details and eligibility first,.
+- **Hypothesis:** Screen magnification users will be able to navigate the redesigned prototype without blocking errors.
+  - **Definitely False:** Screen magnification users encountered blocking errors on dropdowns and struggled with excessive horizontal whitespace,.
+- **Hypothesis:** Users expect radio buttons to apply filters automatically without a secondary click.
+  - **Likely True:** Participants explicitly stated that radio buttons imply an immediate toggle, causing friction when a manual "Apply" button was required.
 
-> [!TIP]
-> Place true or false statements in bold for easier scanability
-
-- **Hypothesis Statement:** [Insert statement]  
-  - **"Maybe True", “Likely True”, “Definitely True”, “Likely False”, “Definitely False” or “Not enough information”**  
-  - Supporting evidence  
-
-[Example Hypotheses and Conclusions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#hypotheses-and-conclusions)
-
+---
 
 ## Key Findings
 
-*Summarize the 5–10 most impactful findings from your study.* 
+1. Default sorting by "Expiration Date" causes confusion for separated Veterans.
+2. Users validate the use of "Learn More" on benefit cards rather than direct "Apply" links.
+3. The manual "Apply" button for filters causes interaction friction, especially with radio buttons.
+4. Significant accessibility barriers remain for screen magnification users.
+5. Users expressed a strong desire for more prominent dependent and family benefit information.
+6. Language targeting "transitioning" members can inadvertently alienate veterans who separated years ago.
+7. The tool successfully drives the discovery of new, unknown benefits.
 
-> [!TIP] 
-> Write findings as stand-alone insights that are easy to scan. For example:  
-> - "Most participants used the search field to locate forms, often searching for 'veteran health.'"  
-> - "Participants struggled with the secondary caregiver section on the form."  
-> 
-> **After completing your detailed findings below, you'll add metadata labels using the [Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md).**  
+---
 
-[Example Key Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#key-findings)
+## Details of Findings
 
-1. Finding one
-1. Finding two
-1. Finding three
-1. Finding four
-1. Finding five
-1. Finding six
-1. Finding seven
+### 1. Default sorting by "Expiration Date" causes confusion for separated Veterans
+Participants who had been separated from the military for several years did not understand why their benefits were sorted by an "Expiration Date," as benefits like disability compensation do not expire for them.
+- *Supporting data:* Participant 11 stated, "How is the expiration date for disability compensation expiring before anybody used them? I think you can technically get any of these at any time".
+- *Supporting data:* Participant 18 noted she was unsure why disability was listed as soonest expiring since she could apply anytime post-service, and suggested "Type of benefit" would be a better default,.
 
-## Details of Findings 
+### 2. Users validate the use of "Learn More" on benefit cards rather than direct "Apply" links
+While some users initially looked for an "Apply" button, they ultimately validated the design decision to use "Learn More" links that offer summaries of complex benefits.
+- *Supporting data:* Participant 2 stated, "y'all made the right call to click on the Learn More... apply is a big step forward, you know? But I'm going in... kind of blind... And if this just goes to apply, I may feel, again, overwhelmed".
+- *Supporting data:* Participant 6 admitted he initially looked for an apply button, but conceded that after using the tool, "you'll know exactly what the Learn More button does".
 
-*Provide detailed descriptions and supporting evidence for each key finding.*  
+### 3. The manual "Apply" button for filters causes interaction friction
+Users testing the radio button prototype expected the page to refresh automatically. Users testing the checkbox prototype often missed the "Apply" button entirely, believing the page had already updated.
+- *Supporting data:* Participant 12 explicitly stated that for an "either-or" toggle (radio button), "when I was clicking this circle, I was assuming it to just automatically apply... That's why I was like, oh, wait, I gotta hit apply",.
+- *Supporting data:* Participant 4 clicked the checkbox for "All results" but did not realize he needed to click "Apply," leading to confusion when the screen did not update.
 
-> [!TIP]
-> **After drafting your detailed findings, apply OCTO metadata labels to enable automated pattern detection and cross-study aggregation.**
-> Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
+### 4. Significant accessibility barriers remain for screen magnification users
+Users relying on screen magnification software encountered blocking errors and high cognitive load due to UI layouts.
+- *Supporting data:* Participant 14 (Magnification user) was unable to open or select an option from the "Character of Discharge" dropdown menu, preventing him from moving forward without moderator intervention.
+- *Supporting data:* Participant 15 (Magnification user) lost track of the "Back" buttons due to Zoom overlays and felt the layout required too much panning to digest the information,.
 
-### Finding 1
-Brief description  
-- _Supporting data: Quote [add context]_  
-- _Supporting data: ![description of the image (image)](link - add image to github folder and link here with .png)_  
+### 5. Users expressed a strong desire for more prominent dependent and family benefit information
+Multiple participants actively sought out information regarding what benefits their spouses and children were entitled to, finding it lacking in the top-level filters.
+- *Supporting data:* Participant 2 emphasized, "There needs to be... something that screams dependence on here as a filter... I need to take care of my loved ones, boom",.
+- *Supporting data:* Participant 16 expected to see specific programs for her daughter under her goals, stating, "I mainly expected to see stuff about CHAMP VA, healthcare, maybe the caregiver program".
 
-> **TIP:** For details on how to write descriptive links that are accessible to assistive technology users, see Platform documentation on [How to create accessible GitHub Markdown files](https://depo-platform-documentation.scrollhelp.site/research-design/how-to-create-accessible-github-markdown-files).
+### 6. Language targeting "transitioning" members can inadvertently alienate separated veterans
+Phrasing in the questionnaire and the results page headers made some separated veterans feel the tool was not meant for them.
+- *Supporting data:* Participant 9 noted that grouping everyone out of the service into a single "3+ years" bucket "kind of excludes them a little bit... I just don't want people to think that it's been too long",.
+- *Supporting data:* Participant 15 interpreted the link "Benefits for transitioning service members" to mean the information below it was *only* for those currently leaving active duty, missing that it applied to her.
 
-### Finding 2  
-Brief description  
-- _Supporting data: Quote [add context]_  
+### 7. The tool successfully drives the discovery of new, unknown benefits
+Despite usability friction, participants consistently found the tool valuable for surfacing niche benefits they were unaware they qualified for.
+- *Supporting data:* Participant 15 discovered the Specially Adapted Housing (SAH) grant: "Never heard of that before. That's why, when I saw it, I was like, okay, let me... Read it... Now that I know SAH, I'm gonna go and look it up".
+- *Supporting data:* Participant 4 praised the tool for consolidating information, noting, "I didn't even know about some of these things. And I even worked at the veteran's office at my school".
 
 ---
 
 ## Additional Insights
-*Include insights that do not represent patterns but are still valuable.*  
-> **TIP:** These could be powerful user comments or unexpected issues worth noting
-
+* **Desire for Crisis Resources:** Participant 5 suggested adding specific, highly visible links for displaced/unhoused veterans or those in mental health crises directly on the discovery page to bypass complex navigation,.
+* **Filter Naming:** Participant 18 noted that "All Results" was confusing because "results" implies personalization based on her quiz answers. She suggested "All Benefits" would better communicate a generic, exhaustive list.
 
 ## Recommendations
 
-*Summarize actionable recommendations based on findings.*  
+1. **Change the default sort order:**
+   - For users who indicate they separated more than a year ago, default the sort to "Benefit Type" or "Alphabetical" rather than "Expiration Date."
+   - *Supporting evidence:* P11, P12, and P18 found "Expiration Date" irrelevant and confusing for permanent benefits like disability,.
 
-1. **Recommendation:** [Insert action]  
-   - _Supporting evidence: [Insert data]_  
-2. **Recommendation:** [Insert action]  
-   - _Supporting evidence: [Insert data]_
+2. **Refine Filter UI Behaviors:**
+   - If using Radio Buttons for "Recommended vs. All," implement auto-apply behavior. If using checkboxes, make the "Apply" button sticky or highly visible.
+   - *Supporting evidence:* P12's mental model strongly expected a radio "circle" to automatically refresh the page.
+
+3. **Address screen magnification accessibility blocks:**
+   - Fix the dropdown interaction bug that blocks keyboard/magnifier users on the Discharge question. Evaluate card designs to reduce empty horizontal whitespace.
+   - *Supporting evidence:* P14 could not progress past the dropdown menu; P12 noted the card layout forced excessive scrolling,.
+
+4. **Elevate Dependent/Spouse benefits:**
+   - Add a specific filter tag or highly visible goal option specifically for "Dependent & Family Benefits."
+   - *Supporting evidence:* P2 and P16 explicitly searched for family benefits and felt they were buried,.
+
+5. **Adjust Separation Timeframe options:**
+   - Expand the "3+ years" option to "3-10 years" and "10+ years" to make older veterans feel recognized and included.
+   - *Supporting evidence:* P9 indicated that stopping at "3+ years" makes long-separated veterans feel their time has expired.
 
 ## Product User and Business Outcomes
 
-*Explain how findings and recommendations align with the product's goals.*
+### Desired User Outcome
+This research supports our desired user outcome by ensuring that Veterans, regardless of their separation date or technical proficiency, can intuitively discover and understand benefits relevant to their current life stage without feeling overwhelmed by irrelevant information.
 
-> [!NOTE] 
-> Refer back to your Product Outline. 
-
-### Desired User Outcome 
-This research supports our desired user outcome by....
- 
 ### Desired Business Outcome
-This research supports our desired business outcome by....
-
+This research supports our desired business outcome by validating a centralized, unauthenticated discovery pipeline that reduces reliance on external search engines and fragmented VA pages, ultimately driving higher application rates for underutilized programs (like the SAH grant and State Benefits).
 
 ## Key Performance Indicators
 
-*Explain how findings will support KPI measurement.*  
+### KPI 1: Increase successful discovery of unknown benefits
+This research supports measurement of this KPI by demonstrating qualitative success; multiple participants explicitly stated they discovered new programs (e.g., SAH, Foreign Medical Program) during a 10-minute exploration of the prototype,.
 
-> [!NOTE]
-> Refer back to your Product Outline. 
-
-### KPI 1
-This research supports measurement of this KPI by....
-  
+### KPI 2: Improve usability scores among assistive technology users
+This research highlights critical failure points for this KPI. By identifying blocking bugs in dropdowns and layout issues for magnification users, the team can address these barriers before launch to ensure equitable access.
 
 ## Next Steps
-
-*Outline immediate actions based on findings, including owners if applicable.*  
-
-> [!TIP]
-> Once your **Recommendations** and **Next Steps** are finalized, you can quickly turn them into GitHub issues using the reusable Copilot prompt in [`create-issues-from-research-findings-prompt.md`](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/create-issues-from-research-findings-prompt.md).  
-> **After creating issues, add their hyperlinks back here under their corresponding "Recommendation" or "Next Step."**
-> 
-> If you need Github Copilot Enterprise Access, please complete this [Issue](https://github.com/department-of-veterans-affairs/copilot-onboarding/issues/new?template=copilot-onboarding.yml).
+- Address the critical dropdown accessibility bug identified by P14.
+- Update sorting logic to remove "Expiration Date" as the default for veterans separated > 1 year.
+- Rename the "All Results" toggle to "All Benefits."
+- Investigate technical feasibility of auto-applying filters for the Recommended/All toggle.
 
 ## Further research needed
-
-*Identify gaps in the current study and areas requiring additional investigation––such as demographics that were not included in this study.* 
-
+- Research is needed to understand how active-duty service members currently utilizing TAP would interact with the "Expiration Date" sorting.
+- We need to conduct specific testing with users experiencing cognitive or high-stress loads to evaluate the implementation of crisis/unhoused resources on the discovery page.
 
 ## Appendix
 
 ### Research documents
-- [Product Outline](link here)
-- [Research plan](link here)
-- [Conversation guide](link here)
-- [Interview transcripts](link here)
+- [Product Outline]
+- [Research plan]
+- [Conversation guide]
+- [Interview transcripts]
 
 ### Tools used for Synthesis
-
-*List tools or techniques used, e.g., Mural, affinity mapping.*  
-  
-### Pages and applications used
-
-*Link to prototypes or pages tested during the study.*  
-
-
-### Other supporting documents created
-
-*Include links to additional materials, e.g., personas, user flows.*  
-
+- Spreadsheet Synthesis 
+- Transcription analysis
 
 ### Secondary research
+- N/A
 
-*Include any relevant secondary research, e.g., web analytics, SME interviews.*  
-
-> [!IMPORTANT]
-> **After completing the demographic information below and saving this file**, use the [GitHub Copilot Research Findings Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md) to automatically populate the YAML frontmatter section at the top of this document with: 
-> - Participant demographics (counts, age ranges, education levels, etc.)
-> - Key findings and recommendations
-> - Research goals and methodology
-> - Appropriate research repository tags
->
-> The prompt will parse the demographic data from this section and structure it correctly for the frontmatter's nested YAML format. 
-
-### Research participants 
-_Complete the demographic info below using information from the Perigean recruitment survey. For those items where you didn't have participants, please mark with "0". You can use "unknown" if you aren't sure if your participants had a characteristic._ 
-
-[Example Research participants](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md#research-participants)
+### Research participants
 
 #### Recruitment criteria
+Recruited participants were a mix of Veterans separated within the last 10 years and those separated more than 10 years ago. Included users of assistive technology (specifically screen magnification) and users with cognitive disabilities.
 
-_If you had specific criteria that you recruited for, use this space to explain what those were along with other information you feel would be important to understanding your participants._
+#### Demographics
 
-#### Demographics 
-
-We talked to **x participants.**
+We talked to **11 participants.**
 
 Audience segment:
-* Veterans: x 
-* Caregivers: x 
-* Family members of a Veteran: x  
-
+* Veterans: 11
+* Caregivers: 0
+* Family members of a Veteran: 0
 
 Gender:
-* Male: x 
-* Female: x 
+* Male: 6
+* Female: 4
+* LGBTQ+: (Not explicitly tracked in provided data, defaulting to 0)
+* Transgender: 0
+* Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: 0
+* Gay, lesbian, or bisexual: 0
+* Prefer not to answer: 1
 
-
-LGBTQ+:
-* Transgender: x 
-* Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: x
-* Gay, lesbian, or bisexual: x
-
-
-Devices used during study: 
-* Desktop: x 
-* Tablet: x 
-* Smart phone: x 
-* Assistive Technology: x
-
+Devices used during study:
+* Desktop/Laptop: 9
+* Tablet: 0
+* Smart phone: 2
+* Assistive Technology: 2
 
 Age:
-* 25-34: x
-* 35-44: x
-* 45-54: x
-* 55-64: x
-* 65+: x
-* Unknown: x
-
+* 25-34: 8
+* 35-44: 1
+* 45-54: 1
+* 55-64: 0
+* 65+: 1
+* Unknown: 0
 
 Education:
-* High school degree or equivalent: x
-* Some college (no degree): x
-* Associate's degree, trade certificate or vocational training: x
-* Bachelor's degree: x
-* Master's degree: x
-* Doctorate degree: x
-* Unknown: x
-
+* High school degree or equivalent: 0
+* Some college (no degree): 2
+* Associate's degree, trade certificate or vocational training: 1
+* Bachelor's degree: 3
+* Master's degree: 4
+* Doctorate degree: 0
+* Unknown: 1
 
 Geographic location:
-* Urban: x
-* Rural: x
-* Unknown: x
-
+* Urban: 8
+* Rural: 3
+* Unknown: 0
 
 Race:
-* White: x
-* Black: x
-* Hispanic: x
-* Biracial: x
-* Asian: x
-* Native: x
-
+* White: 4
+* Black: 2
+* Hispanic: 1
+* Biracial: 2
+* Asian: 0
+* Native: 0
+*(Note: 2 participants preferred not to answer)*
 
 Disability and Assistive Technology (AT):
-* Cognitive: x
-* AT beginner: x
-* AT advanced user: x
-* Desktop screen reader: x
-* Mobile screen reader: x
-* Magnification/Zoom: x
-* [Speech Input Technology](https://www.w3.org/WAI/perspective-videos/voice/) like Siri/Dragon Naturally Speaking: x
-* Hearing aids: x
-* Sighted keyboard: x
-* Captions: x
+* Cognitive: 10
+* AT beginner: 0
+* AT advanced user: 2
+* Desktop screen reader: 0
+* Mobile screen reader: 0
+* Magnification/Zoom: 2
+* Speech Input Technology: 0
+* Hearing aids: 0
+* Sighted keyboard: 0
+* Captions: 0
 
-
-#### Underserved groups we haven’t talked to 
-> [!NOTE]
-_Complete the [VA recruitment checker for marginalized Veteran groups](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx):_
-> 1. Duplicate the ***Template*** worksheet
-> 1. Enter your participant information **(see the *Template Instructions* worksheet for details)**
-> 1. Make a screenshot of the cells that you want to share and paste it into this report below
-> 1. Generate an accessible version of those cells using Github Copilot Chat:
->    - Start a new Github Copilot chat
->    - Enter: "I want to convert these spreadsheet cells into a table in markdown:" 
->    - Copy and paste the cells from the recruitment checker spreadsheet that you've filled in
->    - Copy the resulting markdown table by clicking the copy icon in the Copilot chat, and paste it into this report below 
->    - (If Copilot returns an error, try using a different AI model, such as "Claude Sonnet 3.7 Thinking")
-
+#### Underserved groups we haven’t talked to
 This research does not include the perspectives of the following marginalized Veteran groups:
-_List all groups in red from the spreadsheet_
-* Group 1
-* Group 2
-* Group 3
-
-➡️ _[insert screenshot of completed recruitment checker in the format below]_
-
-![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](link - add image to github folder and link here with .png)
-
-#### A more accessible version of the table in the above image
-
-### Recruitment of underserved groups in [Study name]
-
-➡️ _[paste markdown table of completed recruitment checker from Github Copilot chat]_
+* Individuals utilizing Speech Input Technology
+* Caregivers and Dependents
