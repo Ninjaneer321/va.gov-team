@@ -26,7 +26,7 @@ This appears to be an optimization opportunity rather than a major structural IA
 ### 1) Multiple Paths, No Single Dominant Route
 Veterans locate benefit letters through:
 - Homepage shortcuts (e.g., popular/top links)
-- Profile (current state)
+- Profile (User Name)
 - Records section
 - Search
 - Claim Status Tool (in some cases)
