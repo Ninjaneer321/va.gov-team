@@ -200,8 +200,7 @@ Veterans are struggling with fragmented medical records across domains (Labs, Im
 **Rationale:**
 - **Highest volume:** 3.23M Labs page views, 2.62M detail clicks
 - **Highest friction:** 42% of Medallia tasks, sharp rise in complaints
-- **Likely feasible:** Core needs (recency sort, type filters, search) seem technically achievable
-- **Quick wins possible:** Separating imaging from labs could provide immediate value
+- **Likely feasible:** Core needs (recency and notification) seem technically achievable
 
 **Next Steps:**
 1. Engineering feasibility check (what's possible with current data structure)
@@ -219,7 +218,7 @@ User Research Synthesis:Apr 8 - Apr 14
 ## Supporting Materials
 
 - [Key Insights Summary](https://www.figma.com/board/VGam7fvRjylCKJlAmXlIvI/UR-Research-Review-1-26?node-id=202-224&t=W0dLVTIBEAcTz0y3-4)
-- [Research Gaps and Questions](https://www.figma.com/board/VGam7fvRjylCKJlAmXlIvI/UR-Research-Review-1-26?node-id=196-103&t=W0dLVTIBEAcTz0y3-4
+- [Research Gaps and Questions](https://www.figma.com/board/VGam7fvRjylCKJlAmXlIvI/UR-Research-Review-1-26?node-id=196-103&t=W0dLVTIBEAcTz0y3-4)
 - [Medallia Top Tasks and Pain Points](https://www.figma.com/board/VGam7fvRjylCKJlAmXlIvI/UR-Research-Review-1-26?node-id=286-193&t=W0dLVTIBEAcTz0y3-4)
 - [Data Dog and Monthly Metrics Jan 2026-Feb 2026](https://www.figma.com/board/VGam7fvRjylCKJlAmXlIvI/UR-Research-Review-1-26?node-id=306-839&t=W0dLVTIBEAcTz0y3-4)
 
@@ -230,7 +229,7 @@ User Research Synthesis:Apr 8 - Apr 14
 - **Feb 5, 2026:** Initial synthesis shared with stakeholders
 - **Feb 12, 2026:** Validated 5 insights with Product/Design leads
 - **Feb 20, 2026:** Aligned on Use Case #1 prioritization
-- **[Date]:** Research plan finalized
+- **March 4, 2026:** Research plan finalized
 
 ---
 
