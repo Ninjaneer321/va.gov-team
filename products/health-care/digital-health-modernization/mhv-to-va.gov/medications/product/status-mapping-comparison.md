@@ -54,7 +54,10 @@ See [v1 vs. v2 Status Chart for MMI Designs Figma table](https://www.figma.com/d
  Here's a link to the [visual comparison chart](https://www.figma.com/design/VunyfNQ9x7Bt58D9B2qnW5/%F0%9F%92%A1-Working-file--MHV-Medications---Devices-?node-id=7471-19310&p=f&t=BpSyxdzQ48uGCk6f-0) in Figma. Image outlined below:
  
  ![Alt text](path/to/image.png)
- 
+
+## Status Mapping Benefits Regardless of V1 vs V2
+xxxx
+
 ## Recommendation
 
 - All things considered, we recommend xxxx.
