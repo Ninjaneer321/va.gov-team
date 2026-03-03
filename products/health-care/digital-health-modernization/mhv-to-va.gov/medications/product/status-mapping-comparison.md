@@ -1,4 +1,4 @@
-# UX Pros & Cons of V1 vs. V2 Statuses in the Meds Management Improvement (MMI) Designs
+# V1 vs. V2 Statuses in Meds Management Improvement (MMI) Designs
 
 **Note:** One of the motivating factors in the creation of v2 statuses was consistent feedback from Veterans that v1 statuses were confusing. However, we have solved for much of this confusion in the MMI designs by:
 
