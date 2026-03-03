@@ -3456,4 +3456,3 @@ Participant: Me too. Okay, bye.
 864
 01:22:13.480 --> 01:22:14.270
 Moderator: Bye.
-<img width="468" height="658" alt="image" src="https://github.com/user-attachments/assets/c2292e5b-de66-448b-9580-7ca86274c0cb" />
