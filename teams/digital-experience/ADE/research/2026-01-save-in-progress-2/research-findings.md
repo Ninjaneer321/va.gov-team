@@ -129,7 +129,7 @@ tags:
 ## Background
 Veterans may fill out web forms on VA.gov throughout their lives, including all stages of the Veteran Journey--Serving and separation, Living civilian life, and Retiring and aging. **Saving in-progress work while filling out an online form** is an interaction for which the current implementation on VA.gov has two known accessibility issues, and a revised design that was [usability tested in May 2025](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md) didn't work very well. Key findings from that study indicated that most participants didn't know that their information was being saved automatically, and they didn't see or remember either of the informational alerts about saving. 
 
-This research study is intended to get user feedback on a revised design that hopefully communicates more effectively to Veterans that the information they enter into forms will be saved automatically. The new design adds an [interstitial page (in Figure 1 below)](#user-content-figure-1-shows-the-new-interstitial-page) about saving that appears after the user clicks the Continue button on the first page of form fields, which is after they've started filling out the form and during a natural pause in their work (between form pages).
+This research study is intended to get user feedback on a revised design that hopefully communicates more effectively to Veterans that the information they enter into forms will be saved automatically. The new design adds an [interstitial page (in Figure 1 below)](#user-content-figure-1-shows-the-new-interstitial-page) about saving that appears after the user selects the Continue button on the first page of form fields, which is after they've started filling out the form and during a natural pause in their work (between form pages).
 
 ### Figure 1 shows the new interstitial page
 
@@ -146,9 +146,9 @@ Findings and recommendations from this research will **inform guidance and docum
 ## Research Questions
 
 ### Research goal 1: See if Veterans understand that their form data is being saved as they're filling out a form but haven't submitted it yet.
-1. What reactions/feedback do Veterans have upon encountering the interstitial page after clicking "Continue"?
+1. What reactions/feedback do Veterans have upon encountering the interstitial page after selecting "Continue"?
 1. Do Veterans think that their form data is being saved? If so, how confident are they?
-1. Do Veterans click on either of the links on the interstitial page (that go to "My VA" or the form intro page)?
+1. Do Veterans select either of the links on the interstitial page (that go to "My VA" or the form intro page)?
 1. Do Veterans remember later what the interstitial page said?
 
 ### Research goal 2: See if Veterans can stop filling out a form, get signed out, and then resume filling out a form.  
@@ -195,7 +195,7 @@ For demographic details, see [Research participants](#user-content-research-part
 ## Hypotheses and Conclusions
 
 1. With the new design, Veterans are confident that their form data will be saved.
-    - **Definitely False** because most participants said they would lose the information they entered if they didn't click the "Finish later" button or submit the form. They didn't realize that the form was saving their information every time they moved onto the next field.
+    - **Definitely False** because most participants said they would lose the information they entered if they didn't select the "Finish later" button or submit the form. They didn't realize that the form was saving their information every time they moved onto the next field.
 1. Telling Veterans about auto saving after the first form page is a time when they are receptive and likely to remember.
     - **Definitely False** because most participants skipped past the interstitial page in their zeal to fill out the form. 
 1. With the new design, Veterans will be able to stop filling out a form, get signed out, and then resume filling out a form.
@@ -243,9 +243,9 @@ While looking at the interstitial page again at the end of the research session,
 - One participant didn't realize that "after every change you make"  applied to entering information the first time.
 
   > *"I'm starting this, and I'm making entries. And it's talking about I'm making changes" (p7).*
-- Another participant said that if form information is being saved  all the time, why would we ever need to click "Finish later"? It seems like we're conflating two messages in the interstitial page: (1) your information is being automatically saved, and (2) how to get back to your in-progress form after selecting "Finish later".
+- Another participant said that if form information is being saved  all the time, why would we ever need to select "Finish later"? It seems like we're conflating two messages in the interstitial page: (1) your information is being automatically saved, and (2) how to get back to your in-progress form after selecting "Finish later".
 
-- Four participants didn't understand the "form introduction" link. Two clicked on it and were confused when it took them to the page they already saw. One participant thought it might open a new introduction, such as a video.
+- Four participants didn't understand the "form introduction" link. Two selected it and were confused when it took them to the page they already saw. One participant thought it might open a new introduction, such as a video.
 
 - One participant didn't understand the "My VA" link. She has a VA account but wasn't familiar with the term "My VA".
 
@@ -268,7 +268,7 @@ After participants finished filling out the form, we asked when they thought the
 
 One participant interpreted the accordions as providing extra information to help the VA find their records, and he was surprised when he saw that it was only the information that he had already entered.
 
-Two participants didn't notice the "Expand all" link, one of whom said that the text was too small. That participant said that he would have clicked on "Expand all" if he had seen it, instead of opening each accordion one at a time. A third participant said that he never uses "Expand all" because he gets too overwhelmed by the length of what might expand, so it's better for him to expand each accordion, one at a time.
+Two participants didn't notice the "Expand all" link, one of whom said that the text was too small. That participant said that he would have selected "Expand all" if he had seen it, instead of opening each accordion one at a time. A third participant said that he never uses "Expand all" because he gets too overwhelmed by the length of what might expand, so it's better for him to expand each accordion, one at a time.
 
 One participant said that he liked the "Edit" buttons so you don't have to go back to previous form pages to make changes.
 
@@ -343,7 +343,7 @@ Eight participants said they wanted to be able to delete a form they started but
         </details>
 
 
-     1. Two screenreader users **expected to be able to click on one of the record types listed on the form intro page**, but they weren't clickable. This also happened to one screenreader user in the previous round of usability research.
+     1. Two screenreader users **expected to be able to select one of the record types listed on the form intro page**, but they weren't selectable. This also happened to one screenreader user in the previous round of usability research.
         > *"But these are only bullets, not checkmarks, so I know I have to go to the form" (p4).*
 
     1. One participant **didn't know what "Fiduciary services" means** and how it's different from "Financial records". These were two of the items listed under "Types of information you can request". 
@@ -375,7 +375,7 @@ Eight participants said they wanted to be able to delete a form they started but
 
 1. Three participants had technical issues with Zoom and their assistive tech:
 
-     1. **Zoom silently kicked p4 out of the session when he clicked the "Sign in" or "Continue" button in the Codespace**. This happened repeatedly with him, and then he would rejoin the Zoom meeting. The participant was using VoiceOver on an iPhone 15 Pro running iOS 26.2, in Safari then Chrome--and tried both with and without sharing his screen. Jeana and Darby tried to reproduce this on their own iPhones with the same iOS version (26.2) but were unable to. It might have been caused by a RAM issue with running Zoom and the Codespace prototype at the same time, as the participant made it farther through the form when he wasn't screen sharing.
+     1. **Zoom silently kicked p4 out of the session when he selected the "Sign in" or "Continue" button in the Codespace**. This happened repeatedly with him, and then he would rejoin the Zoom meeting. The participant was using VoiceOver on an iPhone 15 Pro running iOS 26.2, in Safari then Chrome--and tried both with and without sharing his screen. Jeana and Darby tried to reproduce this on their own iPhones with the same iOS version (26.2) but were unable to. It might have been caused by a RAM issue with running Zoom and the Codespace prototype at the same time, as the participant made it farther through the form when he wasn't screen sharing.
      
      1. P11 was using Microsoft Magnifier (a screen magnifier) on an external monitor attached to his Windows computer, extending his display horizontally. **Every time he typed any character into a text field in the Codespace prototype, his viewport shifted way over to the right so he couldn't see what he was typing**. Focus remained in the input field, but p11 couldn't see it. This made filling out the form nearly impossible, so after some troubleshooting, p11 moved the prototype to his Windows laptop screen and then zoomed in.
 
@@ -449,7 +449,7 @@ Eight participants said they wanted to be able to delete a form they started but
    - _Supporting evidence_: P6 said that they were trying to highlight the entire page to read but could only select "3 of 6 records requested".
 
 1. **Consider researching the issue with Zoom silently kicking out an iPhone VoiceOver user** (iPhone 15 Pro running iOS 26.2 with both Safari and Chrome) to make sure this doesn't happen in Production. Is it only an issue with the Codespace?  
-   - _Supporting evidence_: Zoom silently kicked p4 out of the session when he clicked the "Sign in" or "Continue" button in the Codespace. 
+   - _Supporting evidence_: Zoom silently kicked p4 out of the session when he selected the "Sign in" or "Continue" button in the Codespace. 
 
 
 ### For the Request Personal Records form
@@ -609,7 +609,7 @@ The form we tested has 9 pages of questions, and each page has at the bottom a *
 </details>
 
 <details>
-  <summary>Figure 17: After clicking the "Finish later" button, the user sees a blue informational alert that says your information has been saved".</summary>
+  <summary>Figure 17: After selecting the "Finish later" button, the user sees a blue informational alert that says your information has been saved".</summary>
    <img src="./images/after-click-finish-later.png" width="75%" height="75%" alt="A blue informational alert that says 'Your Personal records request has been saved' and contains the date and time of the last save, and the date two months later that the incomplete request will expire. Below the text are two buttons: a blue 'Continue your request' button on the left, and a white 'Start a new request' button on the right.">
 
 </details>
