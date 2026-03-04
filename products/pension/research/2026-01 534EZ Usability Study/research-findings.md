@@ -178,6 +178,8 @@ We used remote, moderated usability testing to observe research participants usi
     - People were disconcerted by the current form-submit confirmation, “Your submission is in progress. It can take up to 30 days for us to receive your form”:
         - This gives the impression of inefficiency and long wait times and does not align with expectations for online services.
 
+> So they are asking me for my name again…I just missed it; I assumed it would be my name. - P7, in the first Veteran’s and Claimant’s information sections
+
 ### 2. Participants reacted negatively to language about death and family relationships. 
 - Some participants considered equating death with the end of marriage to be disrespectful, with one person characterizing it as “very cold” and another, “my marriage didn’t end when he died.” 
 - They had similar sentiments about the requirement to describe the Veteran’s previous marriages, about which some had little information. 
@@ -251,6 +253,7 @@ Participants encountered questions that required not only additional context but
 
 ### Findings unrelated to digital experience 
 
+- A lot of information is requested from the user. They felt they should be shown a list of benefits they qualify for with minimal input, and not have to figure out their eligibility via the workflow. 
 - Many of the responses are required, however, this can become a roadblock if the response the person needs is not permitted. 
 
 ## Recommendations
