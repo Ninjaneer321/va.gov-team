@@ -171,8 +171,8 @@ Research sessions were conducted over Zoom during January 12-21, 2026. Sessions 
  - **5 were assistive technology users**:
    - 4 used a screen reader
    - 1 used a screen magnifier
-  - 4 were on a computer, and 5 were on a smart phone
-  - 4 had never filled out a VA form online before
+   - 4 were on a computer, and 5 were on a smart phone
+   - 4 had never filled out a VA form online before
 
 The assistive technology used by the 5 participants is summarized in the table below. 
 
@@ -411,7 +411,7 @@ Eight participants said they wanted to be able to delete a form they started but
 ## Recommendations   
 
 ### For the Design System and Forms team
-1. **Remove the interstitial page and consider adding something very short just above the Continue button on every page** (e.g., "Your information is being saved automatically"). 
+1. **Remove the interstitial page and consider adding something very short just above the Continue button on every page** (e.g., "Your information is being saved automatically"). Hopefully this will convey the message, but if some people miss it, maybe that's OK.
    - _Supporting evidence_: Most participants ignored the interstitial page when it came up or forgot what it said because it appeared as an interruption to their task of filling out a VA form and didn't seem relevant.  
 
 1. **Stop the automatic scrolling down when you open an accordion on the "Review and submit" page**. --> *Remove scrollToFocus from all accordions on the page*
