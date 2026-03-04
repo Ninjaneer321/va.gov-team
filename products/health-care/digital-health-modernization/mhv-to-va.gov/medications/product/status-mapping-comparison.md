@@ -80,24 +80,24 @@ See [V1 vs. V2 Status Chart for MMI Designs Figma table](https://www.figma.com/d
 
 ## Status Mapping Benefits Regardless of V1 vs V2
 
-Even if we keep V1 for launch, this status mapping work still gives us important long-term value:
+Even if we stick with V1, the status mapping work we've been doing still gives us important long-term value:
 
 1. **Cross-system consistency remains useful**
-   - Status mapping work helps normalize data across VistA and Oracle Health sources.
+   - Status mapping artifacts help normalize data across VistA and Oracle Health sources.
    - Visual artifacts designed ensure all scenarios that could occur are accounted for in MMI designs.
 
-2. **The V2 path is preserved for future testing**
-   - We can still enable V2 behind feature flags later, after launch, when we have more capacity for controlled testing.
+2. **The V2 path can always be pursued later**
+   - We can still continue on with V2 status mapping, after MMI launch, when we **(a)** have more capacity; and **(b)** are able to better control our testing environment.
 
-3. **MMI improvements still deliver value without immediate V2 activation**
+3. **MMI improvements still deliver value without V2 activation**
    - The core user-facing improvements (cleaner cards, simpler filtering approach, in-progress experience) are not blocked by deferring V2.
 
 4. **Lower risk now, flexibility later**
-   - Choosing V1 now does not remove V2; it simply sequences the work in a safer order.
+   - Choosing V1 now does not remove V2 as a viable path forward down the line; it simply optimizes for safety while enabling us to come back to this work if deemed valuable.
 
 ## Recommendation
 
-- **Recommendation:** launch MMI with **V1 statuses first**. Keep the V2 status work available behind feature flags, and evaluate it after launch.
+- **Recommendation:** Finish our work to clarify V1 statuses; pause our V2 status mapping work; and launch MMI with **V1 statuses**. We can then revist the V2 status work, and determine if we want to move it forward again, at some point after MMI release.
 
 - **Why this is the safer choice right now:**
   - It avoids launching two major changes at once (new MMI experience + new status model), which makes troubleshooting much harder.
