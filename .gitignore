@@ -9,3 +9,5 @@ scripts/repo-deprecation.log.csv
 .claude/settings.local.json
 package-lock.json
 package.json
+__pycache__/
+*.pyc

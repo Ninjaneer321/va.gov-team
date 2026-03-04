@@ -4,7 +4,8 @@ Last updated: 11/20/2025
 - [ADR 001 - Limiting the built-in functionality for encrypted and password-protected files](#ADR-001---Limiting-the-built-in-functionality-for-encrypted-and-password-protected-files)
 - [ADR 002 - Display static thumbnail for PDF files](#ADR-002---Display-static-thumbnail-for-PDF-files)
 - [ADR 003 - Password Encryption](#ADR-003---Password-Encryption)
-- [ADR 004 - File Type Validation](#ADR-004---File-Type-Validation)]
+- [ADR 004 - File Type Validation](#ADR-004---File-Type-Validation)
+- [ADR 005 - Display read-only data via dt instead of inert](#ADR-005---Display-read--only-data-via-dt-instead-of-inert)
 
 
 ## ADR 001 - Limiting the built-in functionality for encrypted and password protected files
@@ -160,4 +161,76 @@ The following standardized error messages will be displayed:
 **Custom Error Handling outside of forms library**
 
 Applications requiring custom error handling outside the forms library can refer to the [implementation example in the DS v3 playground](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/applications/ds-v3-playground/pages/VaFileInputMultiple.jsx).
+
+
+## ADR 005 - Display read-only data via dt instead of inert
+
+**Status**: Accepted
+
+Date: 03/03/2026
+
+**Context**
+
+`va-file-input` and `va-file-input-multiple` allow users to upload a file and assign it a document type (e.g. "Birth certificate", "Utility bill") via a `<select>` element in the slot. Once the file is uploaded and enters a review state, the document type selection becomes immutable — the user can no longer change it.
+
+Previously, the review state applied the `inert` attribute to the `<select>` to prevent interaction. While inert correctly removes the element from tab order and blocks pointer interaction, it also removes the element from the accessibility tree entirely. Screen reader users receive no indication that a document type was selected or what that value is.
+This is a WCAG 2.2 failure under:
+
+* 1.3.1 Info and Relationships — the selected value is not conveyed to AT
+* 4.1.2 Name, Role, Value — the value of the control is not exposed
+
+**Decision**
+In the review state of `va-file-input` and `va-file-input-multiple`, replace the inert-disabled `<select>` with a `<dl>` displaying the document type label and the user's selected value.
+
+```
+<dl>
+  <dt>Document type</dt>
+  <dd>[User-selected document type label]</dd>
+</dl>
+```
+
+This pattern is scoped to the file card context. It is not a general-purpose read-only select pattern for other components or use cases.
+
+**Rationale**
+
+Why not keep `<select>` in a disabled or read-only state?
+
+`<select>` has no native readonly attribute. The available alternatives each carry a meaningful cost:
+
+* **inert** — removes the element from the accessibility tree. AT users cannot perceive the value. Not acceptable.
+* **disabled** — semantically incorrect here. disabled signals the field is unavailable for interaction, not that the user already made a confirmed choice. It also excludes the value from form submission, requiring a hidden input workaround. AT announces it as "dimmed" or "unavailable," which misrepresents the state.
+* **aria-disabled + pointer-events**: none — does not reliably prevent keyboard interaction. AT can still open the select in some browser/AT combos.
+* **aria-readonly** — not a valid ARIA property on listbox or combobox roles. Silently ignored by AT.
+
+None of these correctly communicate "this is a confirmed, immutable value the user previously set."
+
+**Why `<dl>`?**
+
+In the review state, the document type is no longer a form input — it is a confirmed data point associated with a specific file. A description list is semantically appropriate for a label/value pair and is well-supported across AT/browser combinations.
+
+The `<dl>` pattern:
+
+* Announces correctly in both browse mode and when navigated to directly
+* Requires no ARIA overrides
+* Accurately represents the information architecture: this is a fact about the file, not an editable field
+* Is consistent with how other confirmed metadata is displayed in card/summary contexts
+
+**Why not `<dl>` everywhere?**
+
+This decision is intentionally scoped. Read-only select states elsewhere in VADS (e.g. system-controlled field locks, partially editable forms) have different semantic requirements and must be evaluated independently. See UC1 (military base → country field) as a counterexample where `disabled` with an associated reason string is the correct pattern.
+
+**Consequences**
+
+Positive
+
+* Screen reader users can now perceive the confirmed document type value
+* Eliminates WCAG 1.3.1 and 4.1.2 failures in the review state
+* No ARIA workarounds or hidden input hacks required
+* Pattern is stable across AT/browser combinations
+
+Negative / watch items
+
+* The visual and interaction pattern shifts from a form control to static content — consuming teams should ensure the surrounding UI makes the review state clear to sighted users as well
+* If the component ever needs to support editing the document type after upload (inline edit pattern), the `<dl>` approach will need to be revisited in favor of a toggled edit state
+* JAWS in forms mode will skip `<dl>` content — acceptable here since the review state is not inside an active form submission context, but should be verified if that assumption changes
 

@@ -1,5 +1,24 @@
 # Sprint Planning for VFMP Health Status Tool
 
+## 📆 Sprint 4 (Mar 4 – Mar 17) 
+
+### Sprint Goal summary
+
+- **SPRINT GOAL (Eng):** Deploy CHAMPVA submission-level status implementation to production in My VA.
+- **SPRINT GOAL (Eng):** Establish and validate integration with the PEGA API for CHAMPVA submission status retrieval.
+- **SPRINT GOAL (UX):** Partner with VA UX to deliver finalized Release 1 PEGA integration mocks and begin updating mocks reflecting VES technical constraints.
+
+##
+### WHAT'S NEXT
+- **PRODUCT**
+- **UX**
+  - **SPRINT GOAL (UX):** Explore and document user experience for Status Tool User with a 10-10d submission rejected due to missing OHI/school cert
+  - **SPRINT GOAL (UX):** Synthesize and document CHAMPVA status, rejection, and follow-up edge cases identified across UX and engineering work to inform future design and implementation.
+  - **STRETCH GOAL (UX):** Review and provide feedback on CHAMPVA send-back letters shared by the VA team, and how they might influence the Status Tool.
+- **ENG**
+
+
+
 ## 📆 Sprint 3 (Feb 18 – Mar 3) 
 
 ### Sprint Goal summary
@@ -8,7 +27,6 @@
 - **SPRINT GOAL (Eng):** Partner with My VA SME Engineer to document testing, validation, and deployment (or approval for deployment) of CHAMPVA submission-level status implementation in My VA.
 - **SPRINT GOAL (Eng):** Create written technical approach document(s) outlining proposed integration strategy based on current CST documentation for integrating CHAMPVA into CST.
 - **SPRINT GOAL (UX):** Create documentation for edge cases, starting with the logged-in experience for CHAMPVA users (including non-Veterans) across My VA and the Status Tool, identifying access constraints and necessary user flow updates. Include and socialize any recommended updates to the UX.
-
 
 
 ##
@@ -21,8 +39,6 @@
 - **ENG**
 
 
-
-# Sprint Planning for VFMP Health Status Tool
 
 ## 📆 Sprint 2 (Feb 4 – Feb 17) 
 

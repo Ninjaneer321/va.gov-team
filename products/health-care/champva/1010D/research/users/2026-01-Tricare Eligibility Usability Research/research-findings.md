@@ -349,13 +349,26 @@ One participant (P14) commented on language used around Veteran living question 
 
 ## Recommendations
 
+
 Design recommendations are broken down by proposed v1 (VADS only design) and v2 (hybrid API) releases:
 
-
-1. **Recommendation:** [Insert action]  
-   - _Supporting evidence: [Insert data]_  
-2. **Recommendation:** [Insert action]  
+1. **Recommendation:** [Form Introduction and CHAMPVA Program Pages Content Updates (v1 and v2)]  
    - _Supporting evidence: [Insert data]_
+   - Make sure eligibility criteria is clear and easy to understand before starting the form and making areas more prominent when needed. Will work with the C+IA content partner to make minor adjustments to intro and program pages used during the study before v1 release.
+2. **Recommendation:** [Check Eligibility Pattern Updates (v1)]  
+   - _Supporting evidence: [Insert data]_
+   - Simplify and make the eligibility card more dynamic and clear to the applicant’s situation.
+   - Figma mock including paired down version
+   - Design office hours on 3/3
+   - Experimental process to suggest updates to “Check eligibility pattern”
+   - Meet with team to determine possibilities around definitive language
+   - Work with C+IA content partner on adjustments to pattern content before meeting with Design System Council
+3. **Recommendation:** [Alert Content Updates (v2)]  
+   - _Supporting evidence: [Insert data]_
+   - When the API integration is in place, make adjustments to the content in the alerts presented to applicants:
+   - Contact, link or resolution included - one clear resolution, not multiple. Tricare path: provide a link to Tricare since they’re there to seek health care. 
+
+
 
 
 
@@ -563,13 +576,13 @@ This research does not include the perspectives of the following marginalized Ve
 * Other than honorable discharge
 * Expat (living abroad)
 
-➡️ _[insert screenshot of completed recruitment checker in the format below]_
+---- 
 
-![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](link - add image to github folder and link here with .png)
+<img width="1170" height="598" alt="Screenshot 2026-03-02 at 7 12 56 AM" src="https://github.com/user-attachments/assets/a0d05617-11ab-4f07-8e7c-c93e795e3530" />
 
 #### A more accessible version of the table in the above image
 
-### Recruitment of underserved groups in [Study name]
+### Recruitment of underserved groups in [10-10d TRICARE Eligibility Usabilty Study]
 
 | **Demographic**                                                                                            | **Category** | **Target %** | **Target #** | **\# in Study** | **Target Achieved?** | **p1** | **p2** | **p3** | **p4** | **p5** | **p6** | **p7** | **p8** | **p9** | **p10** | **p11** | **p12** | **p13** | **p14** | **p15** | **p16** |
 | ---------------------------------------------------------------------------------------------------------- | ------------ | ------------ | ------------ | --------------- | -------------------- | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------- | ------- | ------- | ------- | ------- | ------- | ------- |

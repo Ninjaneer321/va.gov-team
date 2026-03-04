@@ -44,9 +44,9 @@ The following assumptions have been made when creating our solution:
 ## Solution Approach
 
 - We've updated the functionality for an existing application to account for Veterans who may be eligible for multiple benefits. By iterating on an existing flow, we can leverage:
-- the existing UI to reduce the development time
-- the existing entry points to the form, reducing fatigue for users
-- the existing claim adjudication logic to give users an instant decision, when applicable, reducing wait times and ultimately streamlining the application process
+  - The existing UI to reduce the development time
+  - The existing entry points to the form, reducing fatigue for users
+  - The existing claim adjudication logic to give users an instant decision, when applicable, reducing wait times and ultimately streamlining the application process
 
 - We have developed a solution that:
   - Presents information we have on file for the user to them, to build their trust in the tool
@@ -58,12 +58,12 @@ The following assumptions have been made when creating our solution:
 
 ### Supporting research
    
-- Not planning to do user research
+- N/A
 
 --- 
 
 ## Launch Strategy
-- TBD but will include Organizational Change Management, Training, and Communications package
+- Updates to the application instructions page
 
 ## Launch Dates
 - *Target Launch Date*
@@ -76,21 +76,9 @@ The following assumptions have been made when creating our solution:
 ---
    
 ## Screenshots
+[Rudisill - Mobile.zip](https://github.com/user-attachments/files/25695974/Rudisill.-.Mobile.zip)
 
-### Before (None available since this solution is a experimental design)
 
-### After
-<img width="320" height="4032" alt="image" src="https://github.com/user-attachments/assets/3ab67c98-c32b-4b6b-9afa-c340aff83d71" />
-<img width="320" height="3800" alt="image" src="https://github.com/user-attachments/assets/4f649a6d-694a-4c5a-9ab6-56a1414162a7" />
-<img width="320" height="2482" alt="image" src="https://github.com/user-attachments/assets/3dfa5aae-50d3-4f2e-98e1-84bacb7524c4" />
-<img width="320" height="1883" alt="image" src="https://github.com/user-attachments/assets/8307bf1c-a436-4d46-b5b7-19a495a762d1" />
-<img width="320" height="2375" alt="image" src="https://github.com/user-attachments/assets/9f0a1eb5-216b-4cb1-bc68-9793dbe308c8" />
-<img width="320" height="3093" alt="image" src="https://github.com/user-attachments/assets/dcbfd593-c398-4356-9f6a-d4024e1c4151" />
-<img width="320" height="3210" alt="image" src="https://github.com/user-attachments/assets/544b33c5-f67c-41bd-9ce3-9f0d8b247c71" />
-<img width="320" height="3083" alt="image" src="https://github.com/user-attachments/assets/c6178966-7b0d-4d3d-9528-475c1288f3e7" />
-<img width="320" height="3083" alt="image" src="https://github.com/user-attachments/assets/72e8632b-1575-42a8-8e64-563fc22fd353" />
-<img width="320" height="2733" alt="image" src="https://github.com/user-attachments/assets/7772ac09-3c49-496c-9821-6d7070efefb8" />
-<img width="320" height="2151" alt="image" src="https://github.com/user-attachments/assets/cd86b852-c8fe-49ef-8ede-c89beb75ce7f" />
 
 ---
 

@@ -161,7 +161,7 @@ We will be performing a progressive rollout to be able to minimize the productio
 - Number of users: 13,5700 push notifications
 - Metrics at this stage (per your "success criteria"):
     - [x] DataDog errors < 5% (4.6% observed)
-    - [x] 12.6% click through rate overall (estimated x clicks, 9840 sent)
+    - [x] 12.6% click through rate overall (estimated 1240 clicks, 9840 sent)
     - [x] No increase in email sending errors
         - Initial email error percentage rate: 7.83%
     - [x] Push notification error rate < 5% (0% observed)
@@ -186,15 +186,27 @@ We will be performing a progressive rollout to be able to minimize the productio
 
 #### Results
 
-- Turned on 2/23 3:00p PT - 
-- Number of unique users: ___
+- Turned on 2/23 3:00p - 2/26 10:56a PT
+- Number of unique users: 26,910 notifications sent
 - Metrics at this stage (per your "success criteria"):
-    - [ ] DataDog errors < 5%
-    - [ ] xx.x% click through rate overall
-    - [ ] No increase in email sending errors
-- Was any downstream service affected by the change?: ___
-- Types of errors logged:
-- What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? ___
+    - [x] DataDog errors < 5% (Removing data from outage)
+        - See notes below regarding outage
+    - [x] 11.7% click through rate overall (estimated using 2 full days 2/24-2/25 2358 clicks, 20100 sent)
+    - [x] No increase in email sending errors (Removing data from outage)
+        - Initial email error percentage rate: 6.64%
+    - [x] Push notification error rate < 5% (1% observed)
+- Was any downstream service affected by the change?: _NO__
+- Types of notification errors logged:
+    - Outage: 2/25 4:40a-8:55a PT
+        - On the morning of February 25th, we experienced an event consumption outage in eventbus-gateway from 4:40–8:55 AM PT. The ArgoCD upgrade introduced a configuration mismatch that caused the eventbus-gateway Service Account to become inaccessible, which broke IAM-protected resource access and is the likely root cause of the Token Auth errors and EFS MountVolume failures we observed. Our team resolved the immediate issues by deleting pods, syncing, and restarting the service; the platform team corrected the ArgoCD permissions mismatch. All failed events were requeued and sent, and other applications were affected by the same upgrade issue.
+    - Outside of outage error counts:
+        - EventBus: 9 errors within eventbus, no errors calling to the Email or Push job
+        - vets-api
+            - 1945 MPI profile not found errors
+            - 99 other errors (504, MPI Error, missing ssn)
+
+
+- What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? None
 
 ### Stage E: 75% of users
 
@@ -202,25 +214,32 @@ We will be performing a progressive rollout to be able to minimize the productio
 
 #### Planning
 
-- Length of time: 8 hours (one day)
 - Percentage of Users (and roughly how many users do you expect this to be): 75%
 
 #### Results
 
-- Number of unique users: ____
+- Turned on 2/26 10:56a - 3/2 9:50a PT
+- Number of unique users: 29,700 notifications sent
 - Metrics at this stage (per your "success criteria"):
-    - [ ] DataDog errors < 5%
-    - [ ] xx.x% click through rate overall
-    - [ ] No increase in email sending errors
-- Was any downstream service affected by the change?: __
+    - [x] DataDog errors < 5% (3.6% observed)
+    - [x] 12.1% click through rate overall (estimated using 3 fulls days 2/27-3/1 1998 clicks, 16530 sent)
+    - [x] No increase in email sending errors
+        - Initial email error percentage rate: 7.87% 
+    - [x] Push notification error rate < 5% (0% observed)
+- Was any downstream service affected by the change?:  NO
 - Types of errors logged:
-- What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? ___
+    - Error counts:
+        - EventBus: 0 error logs
+        - vets-api:
+            - Expected number of MPI profile not found (1349 errors)
+            - 4 other errors (502s, MPI Service Errors)
+- What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? None
 
 ### Stage F: 100% of users
 
 #### Planning
 
-- Length of time: 8 hours (one day)
+- Turned on 3/2 9:50a PT
 - Percentage of Users (and roughly how many users do you expect this to be): 100%
 
 #### Results

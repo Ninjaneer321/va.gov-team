@@ -52,21 +52,16 @@ Possible reasons:
 
 ## Veterans and vision loss
 
-* More than **158,000 blind or visually impaired veterans now live among us**, according to the [Blinded Veterans Association](http://visionaware.org/everyday-living/essential-skills/information-for-veterans-coping-with-vision-loss/blinded-veterans-association-bva/). That’s about 1% of all vets.
+* Current VHA research estimates that there are approximately 130,000 legally blind veterans in the United States, with another 1.1 million low-vision veterans possessing a visual acuity of 20/70 or worse, according to [Blinded Veterans Association in their March 2026 Congressional testimony](https://docs.house.gov/meetings/VR/VR00/20260303/118976/HHRG-119-VR00-Wstate-DavisW-20260303.pdf)
 * **Each year, some 7,000 veterans become newly blind or visually impaired** as age-related macular degeneration, retinitis pigmentosa, glaucoma, and diabetic retinopathy affect their lives more profoundly.
 * Some **17 percent of the evacuated wounded service members in Iraq and Afghanistan have suffered a serious eye injury** of one type or another.  
-
-    > Source<br/>
-    > https://visionaware.org/everyday-living/essential-skills/information-for-veterans-coping-with-vision-loss/123/ 
+* [Resources for blind and low vision Veterans](https://aphconnectcenter.org/visionaware/living-with-blindness-or-low-vision/adjusting-to-blindness-low-vision/resources-blind-veterans/)
 
 ## Personal stories of Veterans with vision loss
 
-| <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/images/mittman.png" alt="Master Sergeant Jeffrey Mittman speaking before a crowd" width="250px;" />                                                        | <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/images/pearce.png" alt="Staff Sergeant Brian Pearce sitting on the house steps with his family" width="250px;" />                                                        | <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/images/hornik.png" alt="Retired U.S. Army Captain Timothy E. Hornik playing with his daughter" width="250px;" />                                                        |
+| <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/images/mittman.png" alt="Master Sergeant Jeffrey Mittman speaking before a crowd" width="250px;" />                                                        | <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/images/pearce.png" alt="Staff Sergeant Brian Pearce sitting on the house steps with his family" width="250px;" />                                                        | <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/images/hornik.png" alt="Retired U.S. Army Captain Timothy E. Hornik playing with his daughter" width="250px;" />                                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Read Master Sgt. Jeffrey Mittman’s story](https://visionaware.org/emotional-support/personal-stories/veterans-personal-stories/master-sgt-jeffrey-mittman/), wounded by a roadside bomb in Baghdad, Iraq, in 2005 | [Read Staff Sgt. Brian Pearce, USA-Ret.—SSG's story](https://visionaware.org/emotional-support/personal-stories/veterans-personal-stories/staff-sgt-brian-pearce-usa-ret/), lost his vision and much of his hearing due to a traumatic brain injury | [Read the story of Timothy E. Hornik, LMSW CPT, US Army, Retired](https://visionaware.org/emotional-support/personal-stories/veterans-personal-stories/timothy-e-hornik-retired-veteran/)— shot by a sniper in 2004, causing his blindness |
-
-   > Source <br/>
-   > https://visionaware.org/everyday-living/essential-skills/information-for-veterans-coping-with-vision-loss/visionaware-profiles-of-veterans-and-those-who-serve-them/ 
+| [Read Master Sgt. Jeffrey Mittman’s story](https://usveteransmagazine.com/usvm/the-luckiest-man-alive/), wounded by a roadside bomb in Baghdad, Iraq, in 2005 | [Read Staff Sgt. Brian Pearce, USA-Ret.—SSG's story](https://washingtonian.com/2014/06/04/how-did-a-7-year-old-boy-catch-his-fathers-ptsd/), lost his vision and much of his hearing due to a traumatic brain injury | [Read the story of Timothy E. Hornik, LMSW CPT, US Army, Retired](https://www.today.com/series/veterans/blind-army-veteran-reinvents-himself-after-devastating-injury-t166852)— shot by a sniper in 2004, causing his blindness |
 
 
 ## Lack of access to mental health services contributing to high suicide rates among veterans
@@ -90,7 +85,7 @@ Possible reasons:
 
 ## Personal stories of Veterans with disabilities
 
-| <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/images/barbiere.png" alt="Jason Barbiere, a U.S. Marine Corps veteran" width="250px;" />                                                        | <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/images/albarran.png" alt="Armando Albarran, a Vietnam veteran" width="250px;" />                                                        | <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/images/mazyck.png" alt="CeCe Mazyck, U.S. Army Veteran" width="250px;" />                                                        |
+| <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/images/barbiere.png" alt="Jason Barbiere, a U.S. Marine Corps veteran" width="250px;" />                                                        | <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/images/albarran.png" alt="Armando Albarran, a Vietnam veteran" width="250px;" />                                                        | <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/images/mazyck.png" alt="CeCe Mazyck, U.S. Army Veteran" width="250px;" />                                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Watch a video interview with Jason Barbiere, a U.S. Marine Corps veteran](https://youtu.be/xtale6SIz3g), suffers from PTSD after returning home from service | [Watch a video profile of Armando Albarran](https://youtu.be/0KMRYQqpn-s), a Vietnam veteran, drafted in 1966 right out of high school, was hit in an explosion and lost both legs. | [Watch CeCe Mazyck share her story ](https://youtu.be/XnCzL4sg5x4)of how she overcame disabling injuries received in a parachute accident while serving in the military |
 
@@ -99,7 +94,7 @@ Possible reasons:
 
 ## More Veteran stories to read, orgs to follow
 
-| <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/images/Calderon.png" alt="Leslie Calderon, U.S. Army Veteran" width="250px;" /> | <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/images/DeLion.png" alt="Eric DeLion, U.S. Marine Corps Veteran" width="250px;" /> | <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/images/Rodriguez.png" alt="SFC Michael Rodriguez, Army Special Operations OEF Veteran" width="250px;" /> |
+| <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/images/Calderon.png" alt="Leslie Calderon, U.S. Army Veteran" width="250px;" /> | <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/images/DeLion.png" alt="Eric DeLion, U.S. Marine Corps Veteran" width="250px;" /> | <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/images/Rodriguez.png" alt="SFC Michael Rodriguez, Army Special Operations OEF Veteran" width="250px;" /> |
 | ----- | ----- | ----- |
 |       |       |       |
 

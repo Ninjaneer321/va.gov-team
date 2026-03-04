@@ -25,9 +25,13 @@ List the feature toggles here.
   * **Note**: For the mobile release to occur on March  24, 2026 all work needs to be finalized by the release branch of **March 11, 2026\.**  
 * How will you make the product available in production while limiting the number of users who can find/access it:   
   * We will be turning on the feature flag for a small percentage of users and increasing every few days as long if metrics meet our success criteria.   
-  * We will plan to check the metrics around 11:00am ET and then determine to increase at that time, so that the MFS and CVE team can immediately identify any issues.   
+  * We will plan to check the metrics around 10:00am ET and then determine to increase at that time, so that the MFS and CVE team can immediately identify any issues.   
 * What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")**?: **Work in Progress**  
-  * Percentage of API errors: <1%
+  * Vet verification service: <1%
+  * Profile Military service: <1%
+  * VSC service failure rate: <1%
+  * Confirmed % of VSC **(mobile)**: >87%
+  * Confirmed % of VSC **(web)**: >75%
 * Who is monitoring the dashboard: Natalie Gibbons, Matt Guest, Michael Harmer, Megan Commons, Janet Van, and Jesse Berman.  
 
 ### **Stage A: Canary**

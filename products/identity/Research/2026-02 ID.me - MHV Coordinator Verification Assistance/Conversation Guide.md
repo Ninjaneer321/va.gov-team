@@ -94,27 +94,31 @@ Before we start, I have a few quick things to go over:
    - How long have you been in this role?
 
 2. How do Veterans typically reach you for help (phone, in-person, secure message, etc.)?
-   - Does ID.me support differ depending on the channel?
+   - Does how you support the Veteran differ depending on the outreach channel?
+   - Are you usually assisting a Veteran in person or remotely?  Can you explain your process?
 
 ---
 
 ## Task 1: Volume + segmentation of ID.me support requests - 7 minutes
 
 1. In a typical week, about how many **ID.me-related** support cases do you handle?
-   - About how many involve **verification not completing successfully** on the first try?
+2. What are the top 2–3 ID.me issues you see most often?
+   - Which ones take the most time to resolve? (Break down into the types of issues and how they work through it
+   - How much time to you typically spend on each case?
+   - What types of Veterans seem to be the most negatively affected?
+   - How often is a caregiver involved in this type of support?
 
-2. For the ID.me-related cases you see, how often are Veterans:
+3. Let's talk about specific issues related to verification
+   - About how many issues involve verfication issues?  
+   - **verification not completing successfully** on the first try/ returning to get help with the verification process?
    - Verifying for the first time?
-   - “Already have an ID.me account” but are blocked?
+   - “Already have an ID.me account” but are blocked?  How do you know whether they have an ID.me account?
 
    *(Follow-up for clarity)* When someone “already has an account,” what’s most commonly going on?
    - Account exists but not identity-verified
    - Identity-verified but cannot sign in / link / access
    - Account recovery (lost email/phone/new device)
    - Something else?
-
-3. What are the top 2–3 ID.me issues you see most often?
-   - Which ones take the most time to resolve?
 
 > [!NOTE]
 > ### Things to watch for:
@@ -131,10 +135,13 @@ Think of a recent situation you remember well (no personal details needed). A Ve
 1. **Intake / diagnosis**
    - What’s the first thing you try to understand?
    - What questions do you ask to determine where they’re stuck?
+   - Are there any differences if a caregiver is helping?
 
 2. **Troubleshooting**
    - What steps do you typically try first?
    - What information do you need from the Veteran (without sharing any sensitive details today)?
+      - How do you prepare a Veteran for an in-person session? What do you tell them ahead of time?
+         - (documents, device requirements, email info)
    - What do you do if the Veteran has limited technology skills or limited device access?
 
 3. **Workarounds + constraints**
@@ -144,6 +151,8 @@ Think of a recent situation you remember well (no personal details needed). A Ve
 4. **Closeout**
    - How do you know it’s resolved?
    - What do you document (if anything), and do you do any follow-up?
+   - If the verification fails even with your help, what do you do next?
+      - What would be your ideal setup to get a veteran past this point?
 
 > [!NOTE]
 > ### Things to watch for:
@@ -200,6 +209,32 @@ Think of a recent situation you remember well (no personal details needed). A Ve
 > - Lack of status visibility after handoff
 > - Inconsistent paths or “it depends” rules
 > - Missing info that causes rework
+
+---
+# Task 5: Coordinator ability to verify an ID.me account
+
+1. Let's assume that ID.me were able to extend to you the ability and authority to mark a veteran as verified on their ID.me account.
+   - What thoughts or questions would you have about that?
+   - What concerns would you have about this set up?
+      - Liability, fraud risk, privacy, audits, training, time commitment?
+
+2. Assuming this could happen in a way that addressed your concerns, what would the ideal experience for this look like from your perspective?
+   - ID.me portal access, trusted referee or "attestation" flow, a special code you submit, co-verify with ID.me on the line?
+   - What tools, systems, or permissions do you have currently that could support verifying the identity of a veteran?
+   - What would make this process, you being able to mark a Veteran verified in some way, what would make that successfull?
+      - If this was only an in-person option, would Veterans want you to be able to help then on a video call?
+   - What would make that too burdensome for you and other Coordinators?
+      - Any concerns with internet or wifi connection in the VA facilities you work in?
+
+3. What kind of training could you realistically take part in for this?
+    - time, format, would earning a certificate help
+    - would you prefer to see access to this specialized verify process available to others at the VA, or would it make more sense to only have a 1-2 people for each VISN?
+
+> [!NOTE]
+> ### Things to watch for:
+> - Hesitations on being part of the verify process
+> - Viability of coordinator being part of the verify solution
+> - Additional tools or access that is needed
 
 ---
 # ID.me: Questions from ID.me folks - 5-10 minutes

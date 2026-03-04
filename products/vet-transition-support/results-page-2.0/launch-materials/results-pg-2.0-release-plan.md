@@ -1,5 +1,5 @@
 # Release Plan: Results Page 2.0
-**Last updated: October 14, 2025 - published** 
+**Last updated: February 2025 - updated procedure for launch and linked JIRA tickets** 
 
 ### Table of Contents
 - [Phase I: UAT](#Phase-i-uat)
@@ -40,17 +40,8 @@
 ### Planning
 **Launch Go/No-go:** 
 - _Completed mm/dd/yyyy_
-- Launch go/no-go ticket: link to JIRA ticket tk
-- Launch readiness checklist: link checklist in GH tk
-
-**Desired date range:** _weeks of mm/dd/yyyy - mm/dd/yyyy_
-
-**Phased rollout:** 
-|Launch % |Time Frame | Planned Date Range | Ticket | 
-|-------|-----------|-----------|------|
-| Launch to 25% | _n days/n weeks_ | ~mm/dd/yyyy| link to phased launch JIRA ticket: 25% |
-| Launch to 50% | _n days/n weeks_ | ~mm/dd/yyyy| link to phased launch JIRA ticket: 50% |
-| Launch to 100% | _n days/n weeks_ | ~mm/dd/yyyy| link to phased launch JIRA ticket: all users |
+- Launch go/no-go ticket: [PTEMSVT-740](https://jira.devops.va.gov/browse/PTEMSVT-740)
+- [Launch readiness checklist](https://jira.devops.va.gov/browse/PTEMSVT-740)
 
 
 ## Go Live!
@@ -58,9 +49,9 @@
 ### Planning & Execution:
 |Launch % |Desired Date | _Actual Date_ | 
 |-------|-----------|-----------|
-| Launch to 25% | mm/dd/yyyy | _mm/dd/yyyy_ |
-| Launch to 50% | mm/dd/yyyy | _mm/dd/yyyy_|
-| Launch to 100% | mm/dd/yyyy | _mm/dd/yyyy_ |
+| Launch to 100% | week of 03/16/2026 | _mm/dd/yyyy_ |
+
+**Launch ticket** [PTEMSVT-740](https://jira.devops.va.gov/browse/PTEMSVT-741) 
 
 ### 1-week results (at 100%):
 - **Number of unique users :**
