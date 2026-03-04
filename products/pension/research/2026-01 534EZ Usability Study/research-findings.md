@@ -170,15 +170,13 @@ We used remote, moderated usability testing to observe research participants usi
 ## Details of Findings 
 
 ### 1. Participants struggled with the logic and found the workflow hard to follow, especially in the Household information / Marriage section. 
-- 6 of 9 participants and two pilot participants had problems understanding questions and/or the order in which they were asked.
+- 7 of 9 participants and two pilot participants had problems understanding questions and/or the order in which they were asked.
     - The Veteran’s name and information were asked before the claimant’s - the one filling out the form. 
         - People often started with their own information and had to go back. 
     - After the remarriage questions, we go back in time to previous marriages for either / both survivor and deceased Veteran. 
-        - People hesitated here - it did not make intuitive sense. 
-
-> “What if your veteran was deployed? What if he was in a nursing home?” - P6
-
-> “It's important for the form to be clear and concise, especially if it's a sudden passing.” - P3  
+        - People hesitated here - it did not make intuitive sense.
+    - People were disconcerted by the current form-submit confirmation, “Your submission is in progress. It can take up to 30 days for us to receive your form”:
+        - This gives the impression of inefficiency and long wait times and does not align with expectations for online services.
 
 ### 2. Participants reacted negatively to language about death and family relationships. 
 - Some participants considered equating death with the end of marriage to be disrespectful, with one person characterizing it as “very cold” and another, “my marriage didn’t end when he died.” 
@@ -194,25 +192,16 @@ We used remote, moderated usability testing to observe research participants usi
 
 > “Why don’t they have 1 button, then you fill it out, and then they tell you what you are eligible [for] instead of having to fill out multiple? Just have one form, then they tell you what you are eligible for. Why make it so hard on the surviving spouse?” - P6
 
-> “The hoops and time it takes is frustrating. They expect that you know what the VA does and has. I don’t work there; I am just the spouse, and it’s a crap shoot. Half the people who do it probably don’t know that they could apply or could be eligible. They don’t do that. I am nosy and have a lot of military people, so I dug. When your spouse dies, you won't think of it, but there goes half the income, and you are trying to figure it out.” - P6
-
-> “I could either cancel adding the VA medical center or finish the application later, but they are the VA, they should know this. The records they keep are incredible. They keep notes about everything, even about when you call in, what you said, and the manner in which it was said, or what happened during the VA visit. They should have all of this.“ - P6
-
 ## Secondary Findings
 
 ### 1. Rationale for questions and their implications was unclear and somewhat fraught. 
 Most participants had questions about why certain information was requested. Without sufficient context:
   - Some were otherwise unexplained or unknown, for example, questions about a claimant’s previous marriages, or the Veteran’s ex-spouse’s name and dates of that marriage. 
   - Some seemed irrelevant or esoteric, like descriptions of assets like a home or land lot size. 
-  - The final submission confirmation, “Your submission is in progress. It can take up to 30 days for us to receive your form”:
-      - Gives the impression of inefficiency and long wait times
-      - Does not align with expectations for online services
 
 > “I am not sure why you need to know about my previous marriage….I am not sure why you need to know my previous spouse's name. I don’t know why you need to know that.” - P2
 
 > “Why would land lot size matter? Oh, my god. The confusing part is I'm filling this out on the assumption that I'm entitled to receive accrued benefits or pension, so why is it asking me about my personal information? If my farm is 2.1 acres am I not eligible then?” - P5
-
-> “It could take up to 30 days to receive your form??? That's CRAZY TRAIN!” - P6
 
 ### 2. Simple, explanatory language is essential
 Participants encountered questions that required not only additional context but simpler language; they asked for clarification for terms like “claimant” and “living continuously” with the veteran.
@@ -221,18 +210,17 @@ Participants encountered questions that required not only additional context but
 
 > “Well what if your veteran was deployed? What if he was in a nursing home?” - questioning “living continuously” - P6
 
-### 3. Audience ambiguity, especially in the financial section, was a significant problem.
+### 3. Audience ambiguity is a problem.
 - At some points,  participants expressed frustration when addressed as “you”; they weren’t sure if they were being addressed as the beneficiary or the caregiver of a beneficiary. 
 - Some participants said it seemed like the role of the person completing the form was  changed in the course of the workflow. 
-- Some users started the form by putting in their own name and information instead of Veteran's, then would have to backtrack. 
+- Some users started the form by putting in their own name and information instead of Veteran's, then would have to backtrack.
+- Identifiers like “you” and “a spouse” were not specific enough in some parts of the flow. 
 
-> “Do you have a care expense? Is that for the veteran or for the claimant?” - P3
+> Are they asking for the care expense for the veteran that wasn’t paid, or the person who is doing the application? - P3
 
-> “And the [assets accordion tab], do you and your dependent have 25k in assets? Again, who is the “you”? The beginning part of the form was straightforward and made me feel like I was the surviving dependent, but towards the middle and end it was confusing as to who was doing what and the roles changed. [scrolls down] This doesn't make any sense at all. Who's the you??? Who is this you? (frustration). Is it a custodian? A caregiver? What? There's a lot of different roles there. I would get lost, I wouldn't know how to fill it out.” - P5
+> The beginning part of the form was straightforward and made me feel like I was the surviving dependent. But towards the middle and end it was confusing as to who was doing what and the roles changed. - P5
 
-> “Does selecting ‘spouse’ mean they were married or divorced? Maybe they could select ‘ex-spouse’ or ‘current spouse’. The start of the marriage section was confusing at first." - Pilot 1
-
-> “But what if I was filling out for a child under 18? Whose role am I filling out? Confusing.” - P6
+> But what if I was filling out for a child under 18? Whose role am I filling out? Confusing. - P6
 
 ## Accessibility-Related Issues
 
@@ -244,7 +232,8 @@ Participants encountered questions that required not only additional context but
 
 ## Additional Insights
 
-- Many of the responses are required, however, this can become a roadblock if the response the person needs is not permitted. 
+### Nonstandard and complex formats 
+
 - Data entry patterns were not in expected and helpful formats, specifically: 
   - Date fields were not in typical MM/DD/YYYY format, resulting in errors. 
   - Users were expected to recall the name of the VA facility(ies) that treated the Veteran.
@@ -259,6 +248,10 @@ Participants encountered questions that required not only additional context but
 <img width="512" height="327" alt="delete_example" src="https://github.com/user-attachments/assets/503c0567-7fe5-43e5-976c-ef4b6b71cb5d" />
 
 </details>
+
+### Findings unrelated to digital experience 
+
+- Many of the responses are required, however, this can become a roadblock if the response the person needs is not permitted. 
 
 ## Recommendations
 
