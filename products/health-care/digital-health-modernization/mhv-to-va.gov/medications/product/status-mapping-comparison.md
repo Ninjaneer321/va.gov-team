@@ -30,7 +30,7 @@ This sequencing matters because releasing two major changes at the same time (ne
 
 By launching MMI first with V1, we reduce debugging ambiguity and can validate one variable at a time. In practical terms, this means we will need to map MMI designs to V1 statuses for launch regardless, and then evaluate V2 as a separate follow-on change.
 
-## V1 pros
+## V1 Pros
 
 - V1 statuses map better to the ideal state status table that's been created for the MMI designs because they are more granular. This allows us to provide more context for several prescription scenarios that still need to be captured in the MMI designs including:
   - Pending
@@ -45,12 +45,12 @@ By launching MMI first with V1, we reduce debugging ambiguity and can validate o
 - Therefore, we will still need to map the list page filter to V1 scenarios for MMI launch.
 
 
-## V2 pros
+## V2 Pros
 
 - Creates cleaner label-to-filter parity (for example, "In progress" filter matches "In progress" status)
 - Uses a smaller set of status labels
 
-## V1 cons
+## V1 Cons
 
 - We'd be working from a larger set of statuses than would be in use
 - Backend statuses may not exactly match the filter on the list page
@@ -58,7 +58,7 @@ By launching MMI first with V1, we reduce debugging ambiguity and can validate o
   - Example: a single list filter like "Active" can include several backend statuses (such as Active, Active: Submitted, and Active: Refill in Process).
   - Why this matters: the experience can still be correct for users, but label-to-status matching is not always a strict 1:1 relationship.
 
-## v2 cons
+## v2 Cons
 
 - Would need to come up with statuses for the meds details pages for **four** scenarios: Non-VA med; Renewable med that expired ≤120 days ago; Expired; Discontinued
   - Explanation: under V2, several different real-world situations can share the same broad label, so we need extra details-page language to explain what the Veteran should do next.
