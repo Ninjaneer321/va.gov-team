@@ -1,6 +1,143 @@
 <h1>DOCMP/PEGA & IVC FORMS WEEKLY SYNC</h1>
 
 
+# 2.25.26
+
+## 1. Reporting API
+
+### Summary
+- Last week, Kyle reported a specific PDI number that appeared to show three documents were not ingested into PEGA.
+- Cindy initially responded that the documents had been ingested.
+- The team followed up to confirm whether there might be an issue with the Reporting API.
+
+### Clarification
+- Cindy later confirmed she had initially reviewed the wrong PDI number.
+- After locating the correct PDI number Kyle referenced, she verified that the documents were properly ingested.
+
+### **Decision**
+- **No issues were identified with the Reporting API.**
+- **No concerns about data inaccuracies at this time.**
+
+---
+
+## 2. Testing for Automatic Email Logic
+
+### Summary
+- Automatic emails are triggered when there is a **missing PEGA status**.
+- Steve Long will test the logging and retry logic associated with these automatic emails.
+- Testing requires simulation of an outage in staging to validate behavior when PEGA status is unavailable.
+
+### **Timeline**
+- Cindy prefers **not to conduct testing before February 27**.
+- Testing is preferred during the **week of March 2**, aligned with UAT for the **March 3 test release**.
+
+### **Action Items**
+- Steve Long to test logging and retry logic for emails triggered by missing PEGA status.
+- Coordinate staging outage simulation during the week of March 2.
+
+---
+
+## 3. Duty to Assist (DTA)
+
+### Summary
+- No new document type is needed.
+- Submissions will use the existing **Duty to Assist** document type.
+- No routing changes are required.
+- Stakeholders asked whether documents could be merged as part of the submission.
+
+### **Decision**
+- The **VA.gov team will discuss with the DTA team during the March 3 meeting** whether it is possible to merge the documents as part of the submission for the **MVP release**.
+
+### **Timeline**
+- Discussion scheduled for the **March 3 meeting** with the DTA team.
+
+---
+
+## 4. Health Status Tool – New API Needs
+
+### Summary
+The Health Status Tool requested:
+- Form UUID status
+- Bene UUIDs
+
+Cindy is finalizing changes to expose the **form UUID status**.  
+Longer-term iterative improvements may include adding **Bene UUIDs**.
+
+### **Timeline**
+- Form UUID status is expected in the **March 3 release**, pending successful completion.
+
+### Context (Why PEGA vs. VES)
+
+**VES**
+- May not have form UUID available.
+- Focuses primarily on **Bene UUIDs**.
+- If a form UUID does exist in VES, the field may be overwritten by subsequent submissions.
+- The team is not confident in how VES maintains submission history across multiple submissions.
+
+**PEGA**
+- Maintains submission history after documents are ingested.
+- Can provide a more reliable status for the **form UUID**.
+
+### **Decision**
+- **Proceeding with an MVP where PEGA provides status for the form UUID.**
+- **Future iterations may include Bene details.**
+
+---
+
+## 5. Vendor PDI Numbers & Resubmission Logic (Upstream Combining Logic)
+
+### Summary
+- Cindy is testing improvements to the combining logic for digital resubmissions:
+  - If entered correctly → matches on ID and increments.
+  - If entered incorrectly → assigned a new VA PDI.
+
+**CIPM Concern**
+- CIPM’s reimbursement under their contract is based on the volume of documents they send to DocMP.
+- If the current logic assigns a CM prefix to VA.gov resubmissions (when the original submission came through CIPM), it can artificially inflate document counts.
+- This could result in inaccurate metrics used to determine payment.
+
+- CIPM requested limiting the resubmission feature to only previously submitted VA.gov submissions.
+
+### Concern Raised
+- Andrea raised concern about locking down a feature that could benefit broader use cases.
+
+### **Action Item**
+- Andrea to take this back to the **Premal team** to:
+  - Discuss possible solutions
+  - Determine next steps
+  - Balance CIPM reimbursement concerns with broader feature utility
+
+---
+
+## 6. PI Planning – Doc & PEGA Team
+
+### **Timeline**
+- PI Planning is scheduled for the **week of the 16th**.
+
+### Request
+- Share any work needed from the Doc & PEGA team for the next three months in the Teams channel.
+- Include:
+  - Priority level
+  - A 1–2 sentence explanation of the work required
+
+### **Action Item**
+- Provide prioritized list of upcoming work in Teams before PI Planning.
+
+---
+
+## 7. Resubmissions – PEGA-Side Post-Ingestion Combining
+
+### Summary
+- This refers specifically to **PEGA combining resubmissions after documents have been ingested into PEGA**.
+- The PEGA team previously committed to combining resubmissions within PEGA for the Claims team so related submissions are grouped appropriately post-ingestion.
+- This work is separate from the upstream resubmission combining logic discussed above.
+
+### Status
+- This work was deprioritized in favor of the Health Status Tool API work.
+- It remains in the PEGA backlog.
+- No delivery timeline has been provided.
+```
+
 
 **Date:** 01/28/2026
 
