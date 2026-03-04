@@ -236,14 +236,13 @@ Participants encountered questions that required not only additional context but
 
 ### Nonstandard and complex formats 
 
-- Data entry patterns were not in expected and helpful formats, specifically: 
-  - Date fields were not in typical MM/DD/YYYY format, resulting in errors. 
-  - Users were expected to recall the name of the VA facility(ies) that treated the Veteran.
-    - There are dropdown lists for Location and Facility on VA forms such as the [10-10EZ](https://www.va.gov/forms/10-10ez/). 
-  - Currency fields did not have comma separators.
-  - The list of documents the user needs to upload was on a separate page from the upload location. Participants had to go back and forth.
-- Where the user is prompted to review entries (e.g., dependent information, expense information), all caps can be interpreted as yelling:
-  - DELETE 
+- Data entry patterns were not in expected formats, leading to errors:
+    - Date fields not MM/DD/YYYY 
+    - Comma separators for currency not present
+- Content presentation could be simplified
+    - Text field vs list of VA facilities as exists on the [10-10EZ](https://www.va.gov/forms/10-10ez/), *Instructions and Enrollment Application for Health Benefits*
+    - List of forms and upload function on separate screens is difficult to manage
+    - Where the user is prompted to review entries (e.g., dependent information, expense information), all caps ("DELETE)" can be interpreted as yelling.
 
 <details>
 
