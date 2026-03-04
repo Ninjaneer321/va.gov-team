@@ -14,7 +14,8 @@ QA was performed manually by team members.
 - _A11y ticket: TK_
 
 ## Test URL
-The application can be accessed directly at https://staging.va.gov/discover-your-benefits/goals
+- The application can be accessed directly at https://staging.va.gov/discover-your-benefits/goals
+- Complete the questionnaire, feature under review is the results page at the end
 
 ## QA Plan 
 For QA of the Discover Your Benefits (DYB) results page we will be performing QA manually using a spreadsheet to track test cases and findings.
