@@ -24,9 +24,9 @@ All pages have ratings of 2 or below.
 ### Resources and support ratings ("good" or "bad")
 
 - **Breakdown of resources and support scores by thirds:**
-  - 45% (74 of 163) R&S pages have a 75% or higher "good" score
-  - 26% (42 of 163) R&S pages have a 51% - 74% "good" score
-  - 29% (47 of 163) R&S pages have a 50% or lower "good" score
+  - 52% (66 of 127) R&S pages have a 75% or higher "good" score
+  - 19% (24 of 127) R&S pages have a 51% - 74% "good" score
+  - 29% (37 of 127) R&S pages have a 50% or lower "good" score
     
 - **Breakdown of resources and support scores by 10s:*
 <img width="362" height="218" alt="image" src="https://github.com/user-attachments/assets/c713c94e-1303-437f-a4a9-37d7c05d6612" />
