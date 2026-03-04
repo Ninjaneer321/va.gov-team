@@ -99,15 +99,21 @@ Even if we stick with V1, the status mapping work we've been doing still gives u
 
 - **Recommendation:** Finish our work to clarify V1 statuses; pause our V2 status mapping work; and launch MMI with **V1 statuses**. We can then revist the V2 status work, and determine if we want to move it forward again, at some point after MMI release.
 
-- **Why this is the safer choice right now:**
-  - It avoids launching two major changes at once (new MMI experience + new status model), which makes troubleshooting much harder.
-  - It allows us to keep certain detailed status contexts already used for user guidance, especially on Meds Details.
-  - It reduces late-stage UX/content/QA coordination risk before launch.
+- **Why this is the better choice:**
+  - The initial reasons we decided to pursue V2 statuses are now largely obsolete.
+  - Our MMI designs achieve much of the benefit we were hoping to gain from V2 statuses.
+  - The V2 status work has introduced extreme complexity that is increasingly distracting the team.
+  - The benefit we'd gain from V2 statuses isn't, at this point at least, worth the effort required to get there.
 
-- **What this means for Veterans at launch:**
+- **Why this is the safer choice right now:**
+  - It allows us to keep certain detailed status contexts already used for user guidance, especially on Meds Details.
+  - It reduces late-stage UX/content/QA coordination risk before MMI launch.
+  - It avoids launching two major changes at once (new MMI experience + new status model), which makes troubleshooting much harder.
+
+- **What this means for Veterans at MMI launch:**
   - Veterans still get the MMI improvements (cleaner card design, improved filtering experience, and clearer progress patterns).
-  - Status language remains on the current V1 model for now, so behavior and guidance stay consistent while the new MMI design rolls out.
-  - If we later enable V2, it can be introduced as a separate, controlled change.
+  - Status language remains on the current V1 model, so behavior and guidance stay consistent while the new MMI design rolls out.
+  - If we choose to pursue V2 statuses later on, and end up enabling them, it can be introduced as a separate / controlled change.
 
 - **What this means for teams:**
   - Product/UX can focus on polishing launch-ready content instead of validating two major changes simultaneously.
@@ -115,7 +121,10 @@ Even if we stick with V1, the status mapping work we've been doing still gives u
   - Leadership still retains a path to test V2 later with clearer success criteria.
 
 - **Proposed follow-up:**
-  1. Launch MMI with V1 statuses.
+  1. Finish our work to clarify V1 statuses.
   2. Confirm details-page plain-language guidance for key edge cases.
   3. Complete in-progress data readiness work (separate from the V1/V2 decision).
-  4. Revisit V2 post-launch with a defined test plan, success metrics, and rollback criteria.
+  4. Pause our V2 status mapping work.
+  5. Launch MMI with V1 statuses.
+  6. Revisit the decision to pursue V2 status after the MMI launch
+  7. If it's decided to move forward with V2 statuses at that stage, create a defined test plan, success metrics, and rollback criteria.
