@@ -80,7 +80,7 @@ See [V1 vs. V2 Status Chart for MMI Designs Figma table](https://www.figma.com/d
 
 ## Status Mapping Benefits Regardless of V1 vs V2
 
-Even if we stick with V1, the status mapping work we've been doing still gives us important long-term value:
+Even if we stick with V1, the V1 status mapping clarification work we've been doing still gives us important long-term value:
 
 1. **Cross-system consistency remains useful**
    - Status mapping artifacts help normalize data across VistA and Oracle Health sources.
