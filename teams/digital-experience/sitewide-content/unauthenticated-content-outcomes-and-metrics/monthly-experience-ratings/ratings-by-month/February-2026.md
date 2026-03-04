@@ -1,7 +1,7 @@
 # Unauthenticated page experience ratings: February 2026
 ## Related overall scores
-- **Total customer satisfaction score:** 66.1% 
-- **Average resources and support good/bad experience score:** 75% "good" experience rating (overall 12,018 out of 16,105 total)
+- **Total customer satisfaction score:** 61.7% 
+- **Average resources and support good/bad experience score:** 75% "good" experience rating (overall 11,043 out of 14,687 total)
 
 ## Experience ratings (1 to 5 scale)
 
