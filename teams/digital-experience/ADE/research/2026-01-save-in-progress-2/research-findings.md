@@ -126,7 +126,7 @@ tags:
 - [Appendix](#user-content-appendix)
 - [Research participants](#user-content-research-participants)
 
-## Research Goals
+## Background
 Veterans may fill out web forms on VA.gov throughout their lives, including all stages of the Veteran Journey--Serving and separation, Living civilian life, and Retiring and aging. **Saving in-progress work while filling out an online form** is an interaction for which the current implementation on VA.gov has two known accessibility issues, and a revised design that was [usability tested in May 2025](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md) didn't work very well. Key findings from that study indicated that most participants didn't know that their information was being saved automatically, and they didn't see or remember either of the informational alerts about saving. 
 
 This research study is intended to get user feedback on a revised design that hopefully communicates more effectively to Veterans that the information they enter into forms will be saved automatically. The new design adds an [interstitial page (in Figure 1 below)](#user-content-figure-1-shows-the-new-interstitial-page) about saving that appears after the user clicks the Continue button on the first page of form fields, which is after they've started filling out the form and during a natural pause in their work (between form pages).
@@ -135,6 +135,7 @@ This research study is intended to get user feedback on a revised design that ho
 
 <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2026-01-save-in-progress-2/images/interstitial.PNG" width="50%" height="50%" alt="The new interstitial page explains that the information you enter in the form will saved, and that you can select the Finish later button anytime to stop">
 
+## Research Goals
 The **goals of this research** were to 
 1. See if Veterans understand that their form data is being saved as they're filling out a form but haven't submitted it yet.
 1. See if Veterans can stop filling out a form, get signed out, and then resume filling out a form.
@@ -723,11 +724,11 @@ This research does not include the perspectives of the following marginalized Ve
 * Expat (living abroad)
 * Beginner AT user
 
+### Recruitment of underserved groups in Save in Progress (2nd round usability testing)
+
 ![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2026-01-save-in-progress-2/images/VA-recruitment-checker.png)
 
 #### A more accessible version of the table in the above image
-
-### Recruitment of underserved groups in Save in Progress (2nd round usability testing)
 
 | Demographic | Category | Target % | Target # | # in Study | Target Achieved? | p1 | p2 | p3 | p4 | p5 | p6 | p7 | p8 | p9 | p10 | p11 | p12 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
