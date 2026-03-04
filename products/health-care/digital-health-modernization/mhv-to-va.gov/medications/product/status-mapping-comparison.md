@@ -30,19 +30,19 @@ This sequencing matters because releasing two major changes at the same time (ne
 
 By launching MMI first with V1, we reduce debugging ambiguity and can validate one variable at a time. In practical terms, this means we will need to map MMI designs to V1 statuses for launch regardless, and then evaluate V2 as a separate follow-on change.
 
-## v1 pros
+## V1 pros
 
-- v1 statuses map better to the ideal state status table that's been created for the MMI designs because they are more granular. This allows us to provide more context for several prescription scenarios that still need to be captured in the MMI designs including:
+- V1 statuses map better to the ideal state status table that's been created for the MMI designs because they are more granular. This allows us to provide more context for several prescription scenarios that still need to be captured in the MMI designs including:
   - Pending
   - Expired
   - Discontinued
   - Non-VA med
 
-- v1 supports more precise “taking longer than expected” logic:
+- V1 supports more precise “taking longer than expected” logic:
   - Submitted medications and refill-in-process medications can follow different timing expectations
 
-- v1 minimizes launch risk because this level of detail is already what current behavior is built around
-- Therefore, we will still need to map the list page filter to v1 scenarios for MMI launch.
+- V1 minimizes launch risk because this level of detail is already what current behavior is built around
+- Therefore, we will still need to map the list page filter to V1 scenarios for MMI launch.
 
 
 ## v2 pros
@@ -67,7 +67,7 @@ By launching MMI first with V1, we reduce debugging ambiguity and can validate o
   - Explanation: these are already designed/written around current V1 behavior, so V2 would require content and logic updates to keep instructions accurate.
   - Why this matters: this adds scope across UX, engineering, and QA close to launch.
 
-See [v1 vs. v2 Status Chart for MMI Designs Figma table](https://www.figma.com/design/VunyfNQ9x7Bt58D9B2qnW5/%F0%9F%92%A1-Working-file--MHV-Medications---Devices-?node-id=8999-22897&t=PnnwqX0LyV92GHr9-4) for full breakdown of how v1 vs. v2 statuses could be employed on the site. 
+See [V1 vs. V2 Status Chart for MMI Designs Figma table](https://www.figma.com/design/VunyfNQ9x7Bt58D9B2qnW5/%F0%9F%92%A1-Working-file--MHV-Medications---Devices-?node-id=8999-22897&t=PnnwqX0LyV92GHr9-4) for full breakdown of how V1 vs. V2 statuses could be employed on the site. 
 
  ## Visual Comparison Chart
  Here's a link to the [visual comparison chart](https://www.figma.com/design/VunyfNQ9x7Bt58D9B2qnW5/%F0%9F%92%A1-Working-file--MHV-Medications---Devices-?node-id=7471-19310&p=f&t=BpSyxdzQ48uGCk6f-0) in Figma. Image outlined below:
