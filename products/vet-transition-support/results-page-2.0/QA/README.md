@@ -48,9 +48,9 @@ We need to test all 8 test cases across the devices, operating systems, and brow
 ## Findings Summary
 | Test case No. |    Finding       | Device  | Operating System| Browser |Reporter | Resolution Ticket(s)| Status |
 |---------------|------------------|---------|-----------------|---------|---------|---------------------|--------|
-| 7 | "Clear all filters" button does not in fact clear all filters | all | all | all | AJ | PTEMSVT-736 | In review |
-| All | Incorrecting formatting on headers in benefit result cards | all | all | all | Jess | PTEMSVT-747 | Pending dev |
-| All | Incorrecting padding in benefit result cards | all | all | all | Jess | PTEMSVT-748 | Pending dev |
+| 7 | "Clear all filters" button does not in fact clear all filters | all | all | all | AJ | [PTEMSVT-736](https://jira.devops.va.gov/browse/PTEMSVT-736) | In review |
+| All | Incorrect formatting on headers in benefit result cards | all | all | all | Jess | [PTEMSVT-747](https://jira.devops.va.gov/browse/PTEMSVT-747) | Pending dev |
+| All | Incorrect padding in benefit result cards | all | all | all | Jess | [PTEMSVT-748](https://jira.devops.va.gov/browse/PTEMSVT-748) | Pending dev |
 
 
 ## Platform QA Standards
