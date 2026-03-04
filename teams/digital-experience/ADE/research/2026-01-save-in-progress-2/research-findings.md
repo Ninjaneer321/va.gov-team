@@ -110,7 +110,7 @@ tags:
 
 **Office of the CTO - Digital Experience (OCTO-DE), Accessibility Digital Experience (ADE)**
 
-**Date:** 03/02/2026
+**Date:** 03/04/2026
 
 **Contacts:** Cindy Merrill
 
@@ -150,13 +150,13 @@ Findings and recommendations from this research will **inform guidance and docum
 1. Do Veterans click on either of the links on the interstitial page (that go to "My VA" or the form intro page)?
 1. Do Veterans remember later what the interstitial page said?
 
-#### Research goal 2: See if Veterans can stop filling out a form, get signed out, and then resume filling out a form.  
+### Research goal 2: See if Veterans can stop filling out a form, get signed out, and then resume filling out a form.  
 1. Do Veterans use the "Finish later" button to stop filling out a form?
 1. What feedback do Veterans have on the revised "Finish later" page? 
 1. Are Veterans able to resume filling out a form that they previously started? If so, how?
 1. Do users realize that they have to sign in before resuming the form?
 
-#### Research goal 3: See if moving the accordion controls to the left side affects usability.
+### Research goal 3: See if moving the accordion controls to the left side affects usability.
 1. Are Veterans able to open and close accordions with controls on the left side? (especially people using a screen magnifier)
 
 
