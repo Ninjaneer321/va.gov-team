@@ -280,6 +280,10 @@ When shown an alternative eligibility summary card design (Card Style B) in a fo
 
 In Task 3, participants were shown 5 alerts that may appear in the hybrid (VADS pattern + API call) eligibility flow. These alerts map to errors or outages with the 2 APIs called in the flow, or to eligibility decisions. 
 
+- The majority of participants responded to Alerts B (11 of 15) and E (15 of 15) as intended.
+- With more than half of participants wanting to contact VA or a TRICARE representative for Alerts A (10 of 15), Alert C (7 of 15) and D (7 of 15), we believe additional content and resources are necessary to reduce friction and user burden, and increase call volume. 
+
+
 | Alert | Trigger                                                                                | Desired User Outcome                                                       | Participant Reported Action                                                                                                                                                    |
 | ----- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | A     | Veteran not found in MPI                                                               | User checks accuracy of Veteran information before continuing              | *   Continue after checking info (5) *   Continue but contact VA later (2) *   Stop form and contact VA (8)                                                          |
@@ -289,8 +293,6 @@ In Task 3, participants were shown 5 alerts that may appear in the hybrid (VADS 
 | E     | User was found in MPI and DEERS and is not eligible for TRICARE / eligible for CHAMPVA | User continues in the application                                          | *   Continue form (15)                                                                                                                                                         |
 
 
-
-The majority of participants responded to Alerts B (11 of 15) and E (15 of 15) as intended. With more than half of participants wanting to contact VA or a TRICARE representative for Alerts A (10 of 15), Alert C (7 of 15) and D (7 of 15), we believe additional content and resources are necessary to reduce friction and user burden, and increase call volume. 
 
 **Participant quotes**
 
