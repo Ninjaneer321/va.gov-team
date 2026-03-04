@@ -18,18 +18,6 @@ One of the motivating factors in the creation of V2 statuses was consistent feed
 
 **Note:** The only place of concern for V1 vs. V2 statuses from a UX design perspective is that we still surface statuses on the Meds Details pages.
 
-### Launch sequencing detail
-
-For implementation and risk management, we are planning to launch the MMI designs **before** any V2 status activation (if we decide to do V2 later).
-
-This sequencing matters because releasing two major changes at the same time (new MMI UX + new status model) makes it much harder to isolate root causes if errors occur. If something breaks in production, we need to know whether the issue came from:
-
-- the new MMI design changes,
-- the V2 status grouping/mapping changes, or
-- an interaction between both.
-
-By launching MMI first with V1, we reduce debugging ambiguity and can validate one variable at a time. In practical terms, this means we will need to map MMI designs to V1 statuses for launch regardless, and then evaluate V2 as a separate follow-on change.
-
 ## V1 Pros
 
 - V1 statuses map better to the ideal state status table that's been created for the MMI designs because they are more granular. This allows us to provide more context for several prescription scenarios that still need to be captured in the MMI designs including:
@@ -94,6 +82,16 @@ Even if we stick with V1, the V1 status mapping clarification work we've been do
 
 4. **Lower risk now, flexibility later**
    - Choosing V1 now does not remove V2 as a viable path forward down the line; it simply optimizes for safety while enabling us to come back to this work if deemed valuable.
+
+## MMI Release Sequencing
+
+For implementation and risk management, it's also preferable to launch the MMI designs **without**  V2 statuses. This sequencing matters because releasing two major changes at the same time (new MMI UX + new status model) makes it much more difficult to isolate root causes if errors occur. If something breaks in production, we need to know whether the issue came from:
+
+- the new MMI design changes,
+- V2 status grouping / mapping changes, or
+- an interaction between both.
+
+By launching MMI with V1, we reduce debugging ambiguity and can validate one variable at a time. In practical terms, this means we will need to map MMI designs to V1 statuses for launch regardless, and then evaluate whether to continue work on V2 statuses as a separate follow-up change.
 
 ## Recommendation
 
