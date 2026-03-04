@@ -45,12 +45,12 @@ By launching MMI first with V1, we reduce debugging ambiguity and can validate o
 - Therefore, we will still need to map the list page filter to V1 scenarios for MMI launch.
 
 
-## v2 pros
+## V2 pros
 
 - Creates cleaner label-to-filter parity (for example, "In progress" filter matches "In progress" status)
 - Uses a smaller set of status labels
 
-## v1 cons
+## V1 cons
 
 - We'd be working from a larger set of statuses than would be in use
 - Backend statuses may not exactly match the filter on the list page
