@@ -99,16 +99,15 @@ synthesis_tools_used:
 
 ---
 
-# [CHAMPVA Tricare Eligibility Usabilty Study] Research Findings 
+# CHAMPVA Tricare Eligibility Usabilty Study Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), 10-10D CHAMPVA application, Health Apps**
 
 **Date:** January - February 2026
 
-**Contacts:** [Health Apps UX Team - Renata K, Jessica S, Hieu V]
+**Contacts:** Health Apps UX Team - Renata K, Jessica S, Hieu V
 
 **[Research Readout (PDF)](link-here)**  
-*Add a link to your research readout deck, if available.*
 
 
 **Jump to:**
@@ -165,18 +164,18 @@ synthesis_tools_used:
 
 ## Hypotheses and Conclusions
 
-- **Hypothesis Statement:** [We assume that both Veterans and their family members will find the hybrid API-driven approach to provide more immediate, personalized feedback than the VADS pattern approach, but both may have different strengths.]  
+- **Hypothesis Statement:** We assume that both Veterans and their family members will find the hybrid API-driven approach to provide more immediate, personalized feedback than the VADS pattern approach, but both may have different strengths.  
   - **"Maybe True"**  
   - Participants self-reported a mix of preference. 6 preferred Blueberry, 5 preferred Pineapple and 4 stated they were similar or had no preference.
   - Some of those who stated Pineapple as their prferrence the reason why was due to the prototype appearing to check DEERS for their TRICARE status. 
 
 
-- **Hypothesis Statement:** [We assume that the VADS pattern will add clarity to the eligibility of CHAMPVA benefits and will be recieved positively by both Veterans and their family members.]  
+- **Hypothesis Statement:** We assume that the VADS pattern will add clarity to the eligibility of CHAMPVA benefits and will be recieved positively by both Veterans and their family members.  
   - **“Likely False”**  
   - Key finding 1: The “Check eligibility” default pattern was confusing to most participants when they were not eligible (Pineapple prototype) mostly due to the double negative statement and visual misunderstanding. 
 
  
-- **Hypothesis Statement:** [We assume that participants may find both approaches similarly confusing/helpful, suggesting content improvements are more important than flow differences.]  
+- **Hypothesis Statement:** We assume that participants may find both approaches similarly confusing/helpful, suggesting content improvements are more important than flow differences.  
   - **"Likely True"**  
   - Participants were split on their preferred preference of a prototype between Blueberry and Pineapple, but many had points of confusion or suggestions of improvement to the content.
 
@@ -190,6 +189,7 @@ synthesis_tools_used:
 2. Participants wanted a clear action or contact information when they saw the first warning alert or the eligibility review screen in the Pineapple prototype and they reported they would continue anyways or contact somebody as next steps - not exit the application.
 3. Most participants commented that more definitive language around eligibility would be helpful in understanding the review summary card and almost all preferred the alternate card option B with additional dynamic content explaining their eligibility.
 4. Participants stated actions on the various warning alerts overall were to continue on with the application or they wanted contact information to talk to somebody.
+5. One flow was not preferred more than the other, and some participants stated they were too similar to choose. However in both flows, participants provided feedback similar content and pattern feedback
 
 
 
@@ -208,6 +208,7 @@ synthesis_tools_used:
 **Double negative confusion**
 
 - 14 of 15 participants saw that they did not meet the CHAMPVA program requirements, but noticed that one of the bullet points outlining eligibility said “the Veteran and applicant is not eligible for TRICARE.” The double negative would result in participants having initial confusion and needing to re-read that line item. (Goal 3, research question 1).
+  
 - Participants did not seem to understand the mutually exclusive eligibility for TRICARE and CHAMPVA when interpreting the eligibility review screen, despite high confidence in understanding that content earlier when on the 10-10d introduction page. 
 
 **Visual system misunderstanding**
@@ -216,9 +217,11 @@ synthesis_tools_used:
 
 **Participant quotes**
 
-- _Quote [P1: Yes, if I'm not mistaken, the previous page, asked about TRICARE, and it says, are you or any applicants eligible or enrolled in TRICARE? It says yes, but when you continue here, it says the veteran applicant is not eligible for TRICARE, so…That would stand out to me, because…in the previous page, I'm telling the system that I am eligible or enrolled. And then it's saying, basically, that, I may not be eligible, as a Veteran because, you know, for TRICARE, but… It's…the previous page, I selected that I, you know, that either had or was eligible, so…I guess I would still reach out to CHAMPVA. Being that that's what I'm applying for, and as a backup, maybe reach out to TRICARE and see if there's some sort of…you know, connection between the two that may disqualify you from using the benefits.]_  
-- _Quote [P10: “The second card says may NOT be eligible, and the difference is the Veteran or applicant is not.. wait a second what? I’m so confused. (Re reads the last bullet) What in the trick-ness is going on here? What? The x’s and checks I don’t even know what they mean anymore”]_
-- _Quote P14: “I read that as, we're not eligible (for TRICARE) because of this X.” …”It just doesn't make sense. How can it be a green over here, but it's a red over here? It's the same sentence.”]_
+> Yes, if I'm not mistaken, the previous page, asked about TRICARE, and it says, are you or any applicants eligible or enrolled in TRICARE? It says yes, but when you continue here, it says the veteran applicant is not eligible for TRICARE, so…That would stand out to me, because…in the previous page, I'm telling the system that I am eligible or enrolled. And then it's saying, basically, that, I may not be eligible, as a Veteran because, you know, for TRICARE, but… It's…the previous page, I selected that I, you know, that either had or was eligible, so…I guess I would still reach out to CHAMPVA. Being that that's what I'm applying for, and as a backup, maybe reach out to TRICARE and see if there's some sort of…you know, connection between the two that may disqualify you from using the benefits. [P01]
+
+> The second card says "may NOT be eligible," and the difference is the Veteran or applicant is not.. wait a second what? I’m so confused. (Re reads the last bullet) What in the trick-ness is going on here? What? The x’s and checks I don’t even know what they mean anymore” [P10]
+
+> I read that as, "we're not eligible (for TRICARE) because of this X.”...It just doesn't make sense. How can it be a green [checkmark] over here, but it's a red [X] over here? It's the same sentence.” [P14]
 
 
 
@@ -226,23 +229,29 @@ synthesis_tools_used:
  
 When participants saw the summary card showing they were ineligible, users were divided on the next action to take. 
 
-- Some participants, 8 of 15, reported they would continue anyways and not exit the application for various reasons: to see what would happen next, if an explanation would be provided or just to go as far as the application would allow. 
-- Out of the 7 participants who did say they would stop on the eligibility screen, 5 stated they would call somebody at the VA or TRICARE next.
-- 2 stated they would check their TRICARE status on their own as a next step.
+- Some participants (8 of 15) reported they would continue the form anyways and not exit the application for various reasons:
+     - To see what would happen next
+     - To look if an explanation of eligibility determination would be provided
+     - Or, just to go as far as the application would allow
+
+- Out of the 7 participants who did say they would stop on the eligibility screen:
+     - 5 stated they would call somebody at the VA or TRICARE next
+     - 2 stated they would check their TRICARE status on their own as a next step
 
 **Clear resolution and next steps**
 
-When also reviewing the alert options at the end of the session, contacting somebody was a common response to the various warning alerts shown.
+When reviewing the alert options in Task 3, contacting someone was also a common response to the various warning states.
 
-- Participants suggested a link or contact information to talk to somebody when reviewing the eligibility summary pages (5 for Pineapple and 1 for Blueberry). It was more often suggested in the Alert review task. (Goal 1, research question 3).
+- Participants suggested a link for resources or contact information to talk to somebody when reviewing the eligibility summary pages (5 for Pineapple and 1 for Blueberry). It was more often suggested in the Alert review task. (Goal 1, research question 3).
 
 
 **Participant quotes**
 
-- _Quote [P1: I would try to find some sort of, like, help desk number, or you said TRICARE, but this is referring to CHAMPVA benefits, right?
+> I would try to find some sort of, like, help desk number, or you said TRICARE, but this is referring to CHAMPVA benefits, right?
 [Moderator: Yes.]
-P1: Okay, then I would try to find some sort of…contact number for CHAMPVA, or, you know, a…email address or something along those lines where I could reach out and basically communicate that I've attempted to apply. I believe I'm eligible, but…you know, it says that I may not be eligible, could I… how would I find out additional information?]_  
-- _Quote [P4: Need some guidance and an exit path. For disagreement. This isn’t explaining why or contact someone to find out what my next step would be.]
+Okay, then I would try to find some sort of...contact number for CHAMPVA, or, you know, a...email address or something along those lines where I could reach out and basically communicate that I've attempted to apply. I believe I'm eligible, but...you know, it says that I may not be eligible...how would I find out additional information? [P01]
+
+> [I] need some guidance and an exit path. For disagreement. This isn’t explaining why or contact someone to find out what my next step would be. [P04]
 
 
 ### Finding 3: Most participants commented that more definitive language around eligibility would be helpful in understanding the review summary card and almost all preferred the alternate card option B with additional dynamic content explaining their eligibility.
@@ -253,15 +262,16 @@ The eligibility summary screen lets users know that they “may not be eligible�
 
 **Alternate card design for “Check eligibility” pattern**
 
-When shown an alternative eligibility summary card design (Card Style B) in a follow-up task, the majority of participants (12 of 15) preferred it to the option they saw in both form flows. Reasons why included:
+When shown an alternative eligibility summary card design (Card Style B) in a follow-up task, the majority of participants (12 of 15) preferred it to the option they saw in both form flows (Card Style A). Reasons why included:
 
 - The subheader sentence was easy for participants to understand and they stated that extra clarity helped determine their preference (12 of 15 participants)
 - Two participants mentioned that the icons and wording around that bullet item was their deciding factor
 
 **Participant quotes**
 
-- _Quote [P14: But I do feel like this is helping you, you know, you might, but again, because it's not a definitive statement, you might still keep going.]_
-- _Quote [P14: So, again, I know, VA benefits are rather nuanced, but anytime you say, may not be eligible instead of you are not eligible, people might still try to continue because they think perhaps there's an error. Or, again, because they say it says.]_
+> But I do feel like this is helping you, you know, you might, but again, because it's not a definitive statement, you might still keep going. [P14]
+
+> So, again, I know, VA benefits are rather nuanced, but anytime you say, may not be eligible instead of you are not eligible, people might still try to continue because they think perhaps there's an error. Or, again, because they say it says. [P14] 
 
 
 
@@ -284,23 +294,27 @@ The majority of participants responded to Alerts B (11 of 15) and E (15 of 15) a
 
 **Participant quotes**
 
-- _Quote [P15, Alert D: It's telling me the Veteran is enrolled in TRICARE and you can't have both. I would like a link for TRICARE benefits, and I'd click on that.]_
-- _Quote [P10, Alert D this is so confusing to me, I had to read it twice just to break it down in my head. Found this information in DEERS that is good, so yes he is eligible for TRICARE. Just because we he whatever is eligible for TRICARE , does not automatically makes us eligible… I don't really like the wording. It's very confusing. I have to read it, like, twice in my head.]_
-- _Quote [P01, Alert C: P1: Yeah, it's the same, I take it's the same as the first one, Alert A. Basically, it just asks me to verify the information that I put in. And, you know, because it's saying it cannot verify me because of the… potentially because of the information I entered, so I'm gonna go back and check, and if it is correct, then, you know, you have the option to continue, or…Me, personally, I would just reach out to, either CHAMPVA or TRICARE, depending upon, you know, which one led me to believe may have caused the inability to, apply.]_
+> It's telling me the Veteran is enrolled in TRICARE and you can't have both. I would like a link for TRICARE benefits, and I'd click on that. [P15, Alert D]
+
+> This is so confusing to me, I had to read it twice just to break it down in my head. Found this information in DEERS that is good, so yes he is eligible for TRICARE. Just because we he whatever is eligible for TRICARE , does not automatically makes us eligible...I don't really like the wording. It's very confusing. I have to read it, like, twice in my head. [P10, Alert D]
+
+> Yeah, it's the same, I take it's the same as the first one, Alert A. Basically, it just asks me to verify the information that I put in. And, you know, because it's saying it cannot verify me because of the… potentially because of the information I entered, so I'm gonna go back and check, and if it is correct, then, you know, you have the option to continue, or...Me, personally, I would just reach out to, either CHAMPVA or TRICARE, depending upon, you know, which one led me to believe may have caused the inability to, apply. [P01, Alert C]
 
 
-### Finding 5: One flow was not preferred more than the other and some participants stated they were too similar to choose however in both participants provided feedback similar content and pattern feedback.
+### Finding 5: One flow was not preferred more than the other, and some participants stated they were too similar to choose. However in both flows, participants provided feedback similar content and pattern feedback.
 
-Participants were evenly split on ease of the two flows, with 6 preferring the VADS pattern, 5 preferring the hybrid VADS pattern/API option, and 4 stating they had no preference. The study used an A/B protocol to randomize prototype order and reduce recency bias; findings show no strong correlation between prototype order and participant preference. Feedback on the flow options emphasized content changes to the alerts and eligibility summary to improve decision-making and reduce the need to stop the form to contact a VA or TRICARE representative (see: Recommendations). 
+Participants were evenly split on ease of the two flows, with 6 preferring the VADS pattern, 5 preferring the hybrid VADS pattern/API option, and 4 stating they had no preference. The study used an A/B protocol to randomize prototype order and reduce recency bias.
+- About half of participants (8 of 15) preferred the second prototype that they saw
 
-- About half of participants (8 of 15) preferred the second prototype that they saw.
-
+Feedback on the flow options emphasized content changes to the alerts and eligibility summary to improve decision-making and reduce the need to stop the form to contact a VA or TRICARE representative (see: [Recommendations](#user-content-recommendations)). 
 
 **Participant quotes**
 
-- _Quote [P15: “To me, the system is time saving here. Instead of applying and finding out at the end that I'm not eligible. I like that it comes almost immediately after checking your personal information (name, DOB and social)” (Pineapple Prototype)]_
-- _Quote [P11: "I don’t think it’s intrusive - it’s just off. Right away (warning alert Pineapple Prototype). It tells you right up front instead of going further - I feel like they should explain why. Maybe like a chat service (wants contact information)]_
-- _Quote [P16: Pineapple preferred - "it does all the , it does the work for you (liked system check)"]_
+> To me, the system is time saving here. Instead of applying and finding out at the end that I'm not eligible. I like that it comes almost immediately after checking your personal information (name, DOB and social)” [P15: Pineapple Prototype]
+
+> I don’t think it’s intrusive - it’s just off. Right away (the warning alert). It tells you right up front instead of going further - I feel like they should explain why. Maybe like a chat service (or contact information). [P11: Pineapple Prototype]
+
+- It does all the, it does the work for you. [P16: Pineapple Prototype] 
 
 
 ---
@@ -313,6 +327,7 @@ Participants were split in their previous knowledge of CHAMPVA, 9 were aware of 
 
 #### Secondary 2
 Participants who interacted with the additional information component on the TRICARE question page seemed to appreciate the information and the link to check their status on that site. 
+
 
 #### Secondary 3
 One participant (P14) commented on language used around Veteran living question and that it could be adjusted to be more sensitive
@@ -332,14 +347,14 @@ One participant (P14) commented on language used around Veteran living question 
 | 6           | Family Member | Pineapple       | 3                                    |                                      | 5                                                 | 5                                                 | Similar                               | 5                         | B                         |
 | 7           | Family Member | Blueberry       |                                      | Very confident                       | 5                                                 | 5                                                 | None- didn't notice difference        | 5                         | B                         |
 | 8           | Veteran       | Pineapple       | 5                                    |                                      | 4                                                 | 5                                                 | None- but noted pattern verbiage      | 5                         | B                         |
-| 9           | Veteran       | Blueberry       |                                      | 5                                    | 5                                                 | 5                                                 | Pineapple                             | NA                        | B                         |
+| 9           | Veteran       | Blueberry       |                                      | 5                                    | 5                                                 | 5                                                 | Pineapple                             | N/A                        | B                         |
 | 10          | Family Member | Pineapple       | 5                                    |                                      | 1                                                 | 3                                                 | Same - aha moment about TRICARE       | 3                         | B                         |
 | 11          | Family Member | Blueberry       |                                      | 4                                    | 5                                                 | 2                                                 | Pineapple                             | 5                         | B                         |
 | 12          | Veteran       | Pineapple       | 4                                    |                                      | 5                                                 | 5                                                 | Blueberry                             | 5                         | B                         |
 | 13          | Veteran       | Pineapple       | 5                                    |                                      | 2                                                 | 5                                                 | Blueberry                             | 3                         | B                         |
 | 14          | Family Member | Blueberry       |                                      | 5                                    | 3                                                 | 4                                                 | Blueberry?                            | 3                         | B                         |
-| 15          | Family Member | Pineapple       | 5                                    |                                      | 5                                                 | 5                                                 | Blueberry, Pineapple was confusing    | 5                         | Same? B                   |
-| 16          | Veteran       | Blueberry       |                                      | 2                                    | 5                                                 | 4                                                 | Pineapple becuase it checked DEERS    | 3                         | B                         |
+| 15          | Family Member | Pineapple       | 5                                    |                                      | 5                                                 | 5                                                 | Blueberry, Pineapple was confusing    | 5                         | Same, B                   |
+| 16          | Veteran       | Blueberry       |                                      | 2                                    | 5                                                 | 4                                                 | Pineapple because it checked DEERS    | 3                         | B                         |
 |             |               |                 |                                      |                                      |                                                   |                                                   |                                       |                           |                           |
 |             |               |                 | 4.5 (avg)                            | 4.2 (avg)                            | 3.7 (avg)                                         | 4.3 (avg)                                         |                                       | 4.2 (avg)                 |                           |
 |             |               |                 |                                      |                                      |                                                   |                                                   | 6 prefer Blueberry, 5 prefer Pineapply (2 noting similar), 4 - none / similar                    |                           | 1 prefers A, 12 prefer B, 2 - initialy same, then B               |
@@ -355,6 +370,7 @@ Design recommendations are broken down by proposed v1 (VADS only design) and v2 
 1. **Recommendation:** [Form Introduction and CHAMPVA Program Pages Content Updates (v1 and v2)]  
    - _Supporting evidence: [Insert data]_
    - Make sure eligibility criteria is clear and easy to understand before starting the form and making areas more prominent when needed. Will work with the C+IA content partner to make minor adjustments to intro and program pages used during the study before v1 release.
+
 2. **Recommendation:** [Check Eligibility Pattern Updates (v1)]  
    - _Supporting evidence: [Insert data]_
    - Simplify and make the eligibility card more dynamic and clear to the applicant’s situation.
@@ -363,6 +379,7 @@ Design recommendations are broken down by proposed v1 (VADS only design) and v2 
    - Experimental process to suggest updates to “Check eligibility pattern”
    - Meet with team to determine possibilities around definitive language
    - Work with C+IA content partner on adjustments to pattern content before meeting with Design System Council
+
 3. **Recommendation:** [Alert Content Updates (v2)]  
    - _Supporting evidence: [Insert data]_
    - When the API integration is in place, make adjustments to the content in the alerts presented to applicants:
@@ -412,7 +429,7 @@ This research supports measurement of this KPI by....
 
 
 ## Further research needed
-- Testing with in a working staging environment - this was a study usign Figma prototypes and focused on content comprehension. We did not conduct any research sessions with assistive technology participants. 
+- Testing with the v1 and v2 flows in a working staging environment - this was a study using Figma prototypes and focused on content comprehension. We did not conduct any research sessions with Assistive Technology participants. 
 
 
 ## Appendix
@@ -444,14 +461,9 @@ This research supports measurement of this KPI by....
 - [Figma with Desktop Prototype](https://www.figma.com/design/UmAtr3ULQEInMXfNFwP0g0/Application-for-CHAMPVA---10-10d--and-OHI-Certification--10-7559c--WIP?node-id=10298-58549&t=r8QA77r1hjXJfo1Z-1)
 
 
-
-### Other supporting documents created
-
-*Include links to additional materials, e.g., personas, user flows.*  
-
 ### Secondary research
 
-*Include any relevant secondary research, e.g., web analytics, SME interviews.*  
+- [Tricare screener discovery](https://www.figma.com/design/UmAtr3ULQEInMXfNFwP0g0/Application-for-CHAMPVA---10-10d--and-OHI-Certification--10-7559c--WIP?node-id=8969-5389)
 
 
 > [!IMPORTANT]
