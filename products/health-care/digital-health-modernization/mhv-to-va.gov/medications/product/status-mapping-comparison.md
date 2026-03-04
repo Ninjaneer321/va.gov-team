@@ -58,7 +58,7 @@ By launching MMI first with V1, we reduce debugging ambiguity and can validate o
   - Example: a single list filter like "Active" can include several backend statuses (such as Active, Active: Submitted, and Active: Refill in Process).
   - Why this matters: the experience can still be correct for users, but label-to-status matching is not always a strict 1:1 relationship.
 
-## v2 Cons
+## V2 Cons
 
 - Would need to come up with statuses for the meds details pages for **four** scenarios: Non-VA med; Renewable med that expired ≤120 days ago; Expired; Discontinued
   - Explanation: under V2, several different real-world situations can share the same broad label, so we need extra details-page language to explain what the Veteran should do next.
