@@ -32,27 +32,23 @@ By launching MMI first with V1, we reduce debugging ambiguity and can validate o
 
 ## v1 pros
 
-- v1 statuses map better to the ideal state status table that's been created for the MMI designs because they are more granular. This allows us to provide more context for a handful of statuses including:
+- v1 statuses map better to the ideal state status table that's been created for the MMI designs because they are more granular. This allows us to provide more context for several prescription scenarios that still need to be captured in the MMI designs including:
   - Pending
   - Expired
   - Discontinued
   - Non-VA med
-- v1 supports step-by-step refill context for users:
-  - "Active: Submitted" tells users we received the request
-  - "Active: Refill in Process" tells users the pharmacy is actively filling it
-  - "Active" + tracking context supports shipped/arriving understanding
 
 - v1 supports more precise “taking longer than expected” logic:
   - Submitted medications and refill-in-process medications can follow different timing expectations
 
 - v1 minimizes launch risk because this level of detail is already what current behavior is built around
+- Therefore, we will still need to map the list page filter to v1 scenarios for MMI launch.
 
 
 ## v2 pros
 
-- Matches new MMI filter on list page
-- Uses a smaller set of status labels, which can feel easier to scan at first glance
 - Creates cleaner label-to-filter parity (for example, "In progress" filter matches "In progress" status)
+- Uses a smaller set of status labels
 
 ## v1 cons
 
@@ -64,17 +60,10 @@ By launching MMI first with V1, we reduce debugging ambiguity and can validate o
 
 ## v2 cons
 
-- Would need to come up with statuses for the meds details pages for **four** scenarios:
-  - Non-VA med
-  - Renewable med that expired ≤120 days ago
-  - Expired
-  - Discontinued
-  - Xxplanation: under V2, several different real-world situations can share the same broad label, so we need extra details-page language to explain what the Veteran should do next.
+- Would need to come up with statuses for the meds details pages for **four** scenarios: Non-VA med; Renewable med that expired ≤120 days ago; Expired; Discontinued
+  - Explanation: under V2, several different real-world situations can share the same broad label, so we need extra details-page language to explain what the Veteran should do next.
   - Why this matters: without that added explanation, Veterans may see the same label but need different actions.
-- Would need to edit/revise **three** scenarios:
-  - Refill requested too early
-  - Active with no refills (available for renewal w/o SM flow)
-  - Active with no refills left (available for renewal w/ SM flow)
+- Would need to edit/revise **three** scenarios: Refill requested too early; Active with no refills (available for renewal w/o SM flow); Active with no refills left (available for renewal w/ SM flow)
   - Explanation: these are already designed/written around current V1 behavior, so V2 would require content and logic updates to keep instructions accurate.
   - Why this matters: this adds scope across UX, engineering, and QA close to launch.
 
@@ -95,6 +84,7 @@ Even if we keep V1 for launch, this status mapping work still gives us important
 
 1. **Cross-system consistency remains useful**
    - Status mapping work helps normalize data across VistA and Oracle Health sources.
+   - Visual artifacts designed ensure all scenarios that could occur are accounted for in MMI designs.
 
 2. **The V2 path is preserved for future testing**
    - We can still enable V2 behind feature flags later, after launch, when we have more capacity for controlled testing.
@@ -111,7 +101,7 @@ Even if we keep V1 for launch, this status mapping work still gives us important
 
 - **Why this is the safer choice right now:**
   - It avoids launching two major changes at once (new MMI experience + new status model), which makes troubleshooting much harder.
-  - It keeps the detailed status context already used for user guidance, especially on Meds Details.
+  - It allows us to keep certain detailed status contexts already used for user guidance, especially on Meds Details.
   - It reduces late-stage UX/content/QA coordination risk before launch.
 
 - **What this means for Veterans at launch:**
