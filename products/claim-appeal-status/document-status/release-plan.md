@@ -80,27 +80,50 @@ _Test a larger user population to ensure larger usage patterns expose no issues.
 - Percentage of Users: 50%
 
 #### Results
+Dates: 2/18/2026 - 3/3/2026 
 
-- Estimated number of users: [FILL_IN]
+- Estimated number of users:
+
+  - Status Tab: `/track-claims/your-claims/*/status`
+    - total: 381,861
+    - estimated: ~191k
+  - Files Tab: `/track-claims/your-claims/*/files`
+    - total: 172,956
+    - estimated: ~86k
+  - Enabled by Feature (not estimated)
+    - /track-claims/your-claims/files-we-couldnt-receive
+      - total: 10
+
 - Metrics at this stage (per your "success criteria"):
-  - #index: [FILL_IN]
-  - #show: [FILL_IN]
-  - #files-we-couldnt-receive: [FILL_IN]
+  - Backend Metrics:
+    - No related errors logged for these endpoints
+    - #index:
+      - 4 week avg before launch: 0.336%
+      - Since start of stage: 0.47%
+    - #show:
+      - 4 week avg before launch: 1.2325%
+      - Since launch: 1.53%
+    - #files-we-couldnt-receive:
+      - No errors
+  - Frontend Metrics:
+    - No RUM issues (the increases in time also line up with our release of the content migration):
+      - Loading times comparable to weeks prior and still < 3s goal
+      - LCP/FCP unchanged from last stage
 - Was any downstream service affected by the change?:
-  - [FILL_IN]
+  - No
 - Types of errors logged:
-  - [FILL_IN]
+  - Non related to new functionality
 - What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges?
-  - [FILL_IN]
+  - None identified
 
 ### Stage C: 100% of users
-
+Start Date: 3/4/2026 @ 1000 EST
 ## Post Launch metrics
 
 Continue to check in on the KPIs of your feature at periodic intervals to ensure everything is working as expected. We recommend one-week and one-month check-ins, but this is only minimal.
 
 ### 1-week results
-
+Start Date: March
 - Estimated number of users: [FILL_IN]
 - Post-launch KPI - Error Rates:
   - #index: [FILL_IN]
