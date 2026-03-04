@@ -7,19 +7,19 @@
 
 ### 5 pages with the highest experience ratings 
 All pages have ratings of 4 or above.
-- Apply for pre-need eligibility determination (Note: This is an auth experience)
-- [Intent to file](https://www.va.gov/supporting-forms-for-claims/intent-to-file-form-21-0966/) (Note: This is an auth experience)
-- Health care/appointment check-in (Note: This is an auth experience)
-- Apply for VA health care (Note: This is an auth experience)
-- Order hearing aids or CPAP supplies (Note: This is an auth experience)
+- [Release information to VA Form 21-4142](https://www.va.gov/forms/21-4142/)
+- Health Care / Appointment Check In (Note: This is an auth experience)
+- [Burials and Memorials / Pre Need](https://www.va.gov/burials-and-memorials/pre-need/form-10007-apply-for-eligibility/confirmation)
+- Health Care / Apply for Health Care Form 10 10ez
+- Health Care / Appointment Pre Check In 
    
 ### 5 pages with the lowest experience ratings
 All pages have ratings of 2 or below.
-- [Support for common Login.gov and ID.me issues](https://www.va.gov/resources/support-for-common-logingov-and-idme-issues/)
-- [Verifying your identity on VA.gov](https://www.va.gov/resources/verifying-your-identity-on-vagov/)
-- Auth/login
-- Resources/Search
-- [Signing in to VA.gov](https://www.va.gov/resources/signing-in-to-vagov/)
+- [Verify](https://www.va.gov/verify/)
+- Auth / Login / Login
+- [Resources / Verifying Your Identity On VA.gov](https://www.va.gov/resources/verifying-your-identity-on-vagov/)
+- Resources / Search
+- [Resources / Support for Common Logingov and Idme Issues](https://www.va.gov/resources/support-for-common-logingov-and-idme-issues/)
   
 ### Resources and support ratings ("good" or "bad")
 
