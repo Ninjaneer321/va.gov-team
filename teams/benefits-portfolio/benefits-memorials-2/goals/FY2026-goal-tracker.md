@@ -85,7 +85,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 **_Delivery + Notes:_**
 - [X] All goals have been updated in the sprint chart
 - [X] Any Additional details about goals **not** completed will be documented here
-- Due to the discovery that some records will be from Cerner and others from Vista until all stations finish migrating in 2031, the team has had to alter the solution to account for the multiple data sources. This pivot will take additional work and that had impeeded teh team from QC, staging review artifacts and final work until this multiu data source mapping is complete.
+- Due to the discovery that some records will be from Cerner and others from Vista until all stations finish migrating in 2031, the team has had to alter the solution to account for the multiple data sources. This pivot will take additional work and that had impeeded the team from QC, staging review artifacts and final work until this multiu data source mapping is complete.
 
 End of Line
 </details>
