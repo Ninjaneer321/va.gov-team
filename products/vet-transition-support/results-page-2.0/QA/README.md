@@ -1,5 +1,5 @@
 # Discover Your Benefits Results Page 2.0: QA Strategy & Artifacts 
-**Last Updated: Feb 26, published**
+**Last Updated: March 4, added tests cases doc & results, updated QA standards table**
 
 ## Test Case Documentation
 QA was performed manually by team members.
