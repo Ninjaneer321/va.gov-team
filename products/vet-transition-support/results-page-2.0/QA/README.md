@@ -48,7 +48,6 @@ We need to test all 8 test cases across the devices, operating systems, and brow
 ## Findings Summary
 | Test case No. |    Finding       | Device  | Operating System| Browser |Reporter | Resolution Ticket(s)| Status |
 |---------------|------------------|---------|-----------------|---------|---------|---------------------|--------|
-| _In which test case was this problem found?_ | _Describe finding/problem_ | _On what device type was the problem found?_  | _On what operating system was the problem found?_  | _On what browser was the problem found?_  | _Who identified the problem?_  | _Link to resolving ticket(s)_ | _What is the status of the issue?_   |
 | 7 | "Clear all filters" button does not in fact clear all filters | all | all | all | AJ | PTEMSVT-736 | In review |
 | All | Incorrecting formatting on headers in benefit result cards | all | all | all | Jess | PTEMSVT-747 | Pending dev |
 | All | Incorrecting padding in benefit result cards | all | all | all | Jess | PTEMSVT-748 | Pending dev |
