@@ -405,12 +405,12 @@ _List all groups in red from the spreadsheet_
 * Group 2
 * Group 3
 
+### Recruitment of underserved groups in [Study name]
+
 ➡️ _[insert screenshot of completed recruitment checker in the format below]_
 
 ![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](link - add image to github folder and link here with .png)
 
 #### A more accessible version of the table in the above image
-
-### Recruitment of underserved groups in [Study name]
 
 ➡️ _[paste markdown table of completed recruitment checker from Github Copilot chat]_
