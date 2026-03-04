@@ -10,7 +10,7 @@ Each individual component includes:
 
 ## Identity index
 - Onboarding
-    - [Platform integration partners teams](https://depo-platform-documentation.scrollhelp.site/developer-docs/authentication)
+    - [Platform integration partners](https://depo-platform-documentation.scrollhelp.site/developer-docs/authentication)
     - [VES teams](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity#about-the-octo-identity-team)
     - [Identity team](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/internal-team/New%20Team%20Member%20Onboarding.md)
 - [Signing in on VA.gov](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity#signing-in-to-vagov)
