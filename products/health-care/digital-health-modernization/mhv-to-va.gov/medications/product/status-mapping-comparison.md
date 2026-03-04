@@ -37,7 +37,6 @@ By launching MMI first with V1, we reduce debugging ambiguity and can validate o
   - Expired
   - Discontinued
   - Non-VA med
-  - 
 - v1 supports step-by-step refill context for users:
   - "Active: Submitted" tells users we received the request
   - "Active: Refill in Process" tells users the pharmacy is actively filling it
