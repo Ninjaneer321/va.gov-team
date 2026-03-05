@@ -1,4 +1,4 @@
-# **Research Plan: Healthcare Alerts Diary Study (3 check-ins)**
+# **Research Plan: Healthcare Transition Comms Study (3 check-ins)**
 
 Cara Frissell - 3/5/26
 
