@@ -101,13 +101,7 @@ Related Profile documentation
 
 ## **Communications**
 
-1. **Team Name**: Accredited Representation Management
-2. **GitHub Label**: `accredited-representation-management-team`
-3. **Slack channel**: `#benefits-representation-management`
-
-## **Team Members**
-
-1. **DEPO Lead**: Jennifer Bertsch
-2. **PM**: Lindsay Li-Smith
-3. **Engineering**: Holden Hinkle
-4. **UX Research/Design**: Marisa Dominguez
+1. **Team Name**: Accredited Representative Crew
+2. **GitHub Label**: ar-crew
+3. **Slack channel**: ##benefits-accredited-rep-crew
+4. **DEPO Lead**: Jennifer Bertsch
