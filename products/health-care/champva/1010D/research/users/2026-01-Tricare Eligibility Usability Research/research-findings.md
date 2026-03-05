@@ -326,6 +326,7 @@ Feedback on the flow options emphasized content changes to the alerts and eligib
 
 > I prefer blueberry, it was simpler and faster. Once it imported the veterans information it goes right into the application. It feels like there was an additional 2 pages of continues to answer on the other one. [P4: Blueberry Prototype]
 
+> Prototype preference: blueberry, it's not confusing. Pineapple was confusing. It had one section where the family members were eligible, but there was a red X stating why they may not be eligible. [P15: Blueberry Prototype]
 
 ---
 
@@ -333,6 +334,9 @@ Feedback on the flow options emphasized content changes to the alerts and eligib
 
 #### Secondary 1
 Participants were split in their previous knowledge of CHAMPVA, 9 were aware of it and 6 had never heard of it before at all. However all participants were familiar with TRICARE and 4 participants even stated they were currently enrolled. 
+
+> _"(Moderator: Have you ever heard of Tricare and Champva?) I think tricare is the insurance that just works and is primary. But CHAMPVA is secondary that works as like a backup from your existing insurance." [P04]_
+> _"TRICARE is active duty military and their spouse and dependents. Some people can have it when they retire. But there's this whole group who can get CHAMPVA, but it's meant more for Veterans and their dependent spouses, and the Veteran has to bee 100% to be eligible. I have a lot of opinions about the CHAMPVA program." [P07]_
 
 
 #### Secondary 2
