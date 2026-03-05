@@ -255,6 +255,8 @@ Okay, then I would try to find some sort of...contact number for CHAMPVA, or, yo
 
 > [I] need some guidance and an exit path. For disagreement. This isn’t explaining why or contact someone to find out what my next step would be. [P04]
 
+> [Anything else I want to see here:] some kind of a link to take you to where you can talk to someone, like a phone number or a chatbot (I hate chatbots). Just some way to talk to a person to ask what does this mean, why did it pop up. [P07]
+
 
 ### Finding 3: Most participants commented that more definitive language around eligibility would be helpful in understanding the review summary card and almost all preferred the alternate card option B with additional dynamic content explaining their eligibility.
 
@@ -273,7 +275,9 @@ When shown an alternative eligibility summary card design (Card Style B) in a fo
 
 > But I do feel like this is helping you, you know, you might, but again, because it's not a definitive statement, you might still keep going. [P14]
 
-> So, again, I know, VA benefits are rather nuanced, but anytime you say, may not be eligible instead of you are not eligible, people might still try to continue because they think perhaps there's an error. Or, again, because they say it says. [P14] 
+> So, again, I know, VA benefits are rather nuanced, but anytime you say, may not be eligible instead of you are not eligible, people might still try to continue because they think perhaps there's an error. Or, again, because they say it says. [P14]
+
+> It says "may not" so I'm just gonna hit continue. [P10]
 
 
 
