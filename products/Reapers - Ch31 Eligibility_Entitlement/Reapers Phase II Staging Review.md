@@ -1,17 +1,17 @@
-# Staging Review Phase 1 - Reapers 10/17/25
+# Staging Review Phase II - Reapers 3/12/2026
 This page houses the links to all files needed for Reapers Staging Review. 
 
 ## Reapers General Documents 
-- Reapers Phase 1 Collaboration Cycle - https://github.com/department-of-veterans-affairs/va.gov-team/issues/118500
-- Figma File - https://www.figma.com/design/PSBJqTnGhWaC9orrGziVz5/Ch31-RES?node-id=51-15746&p=f&t=dDqdpBPvVFPxLKYT-0
-- Product Outline - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Reapers%20-%20Ch31%20Eligibility_Entitlement/product-outline.md
-- Release Plan - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Reapers%20-%20Ch31%20Eligibility_Entitlement/Release%20Plan.md
+- Reapers Phase II Collaboration Cycle - https://github.com/department-of-veterans-affairs/va.gov-team/issues/127317
+- Figma File - https://www.figma.com/design/T9tPpLgo9QTAE0URYJ4l9K/My-VR-E-Benefits-Tracker?node-id=1692-37125&t=Z09eHI5jCCeStgxj-0
+- Product Outline - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Reapers%20-%20Ch31%20Eligibility_Entitlement/Phase%20II%20Product%20Outline.md
+- Release Plan - 
 
 ### Design Intent Feedback 
-- Design Intent Feedback #1 - https://github.com/department-of-veterans-affairs/va.gov-team/issues/119336
-- Design Intent Feedback #2 - https://github.com/department-of-veterans-affairs/va.gov-team/issues/119483
-- Design Intent Feedback #3 - https://github.com/department-of-veterans-affairs/va.gov-team/issues/119500
-- Content Team Feedback - https://github.com/department-of-veterans-affairs/va.gov-team/issues/120296#issuecomment-3381874541
+- Design Intent Feedback #1 - https://github.com/department-of-veterans-affairs/va.gov-team/issues/129079
+- Design Intent Feedback #2 - https://github.com/department-of-veterans-affairs/va.gov-team/issues/129095
+- Design Intent Feedback #3 - https://github.com/department-of-veterans-affairs/va.gov-team/issues/129256
+- Content Team Feedback - https://github.com/department-of-veterans-affairs/va.gov-team/issues/132253#issuecomment-3934813500
 
 ### Direct link or instructions on how to access the product
 - Staging Link - https://staging.va.gov/?next=%2Fcareers-employment%2Fvocational-rehabilitation%2Fapply-vre-form-28-1900%2Fyour-eligibility-and-benefits&oauth=true
