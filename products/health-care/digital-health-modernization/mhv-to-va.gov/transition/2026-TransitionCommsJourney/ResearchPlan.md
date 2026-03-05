@@ -4,7 +4,7 @@ Cara Frissell - 3/5/26
 
 **Background**
 
-VA.gov and/or related VA digital experiences are introducing (or iterating on) new healthcare alerts intended to keep Veterans informed and help them take timely action (e.g., appointment reminders, message/notification alerts, lab result availability, prescription updates, care team communications).
+As part of transitioning EHRs, VA.gov and/or related VA digital experiences are introducing (or iterating on) new healthcare alerts intended to keep Veterans informed and help them take timely action (e.g., appointment reminders, message/notification alerts, lab result availability, prescription updates, care team communications).
 
 Because alerts are brief, time-sensitive, and often read quickly (or not at all), small issues in content clarity, timing, channel delivery, or alert behavior (e.g., frequency, dismissal, persistence) can reduce trust, increase anxiety, and/or lead to missed care actions. We need to understand Veterans’ lived experience with these alerts in the context of their real healthcare routines.
 
