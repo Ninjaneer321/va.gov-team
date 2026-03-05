@@ -73,4 +73,4 @@ All pages have ratings of 2 or below.
   - 51% of pages are meeting our goal of 75% or higher "good," while 57% of pages are scoring 70% or higher
   - 21% of pages are scoring at less than 50% "good," with 11% scoring at less than 10% "good" 
 - Sign-in and verification related content continue to be the lowest scoring pages. 
-- Content about issues at VA facilities and community providers both scored low. We'll review Medallia feedback to determine if it's the information on the page causing this or the process.
+
