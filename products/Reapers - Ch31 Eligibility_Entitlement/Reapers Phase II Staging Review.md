@@ -19,7 +19,8 @@ This page houses the links to all files needed for Reapers Staging Review.
 ### Drupal or Staging URL for updated primary entry point
 - All information provided by content and IA team can be found here - [VR.E.Eligibility.Checker_2025-10-09_16-13-54 (1).pdf](https://github.com/user-attachments/files/22850329/VR.E.Eligibility.Checker_2025-10-09_16-13-54.1.pdf)
 - Ticket from IA/Content - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/information-architecture/ia-design-docs/benefits-portfolio/track-vre-ch-31-benefits.md
-- Drupal entry point - http://preview-prod.vfs.va.gov/preview?nodeId=726
+- Drupal entry point - va.gov/careers-employment/track-your-vre-benefits/
+- Note: The log in component for the tool will be placed on this page. This page will be added to the Careers and employment hub page under the "Manage..." section
 
 ### Test users and scenarios
 - Testing information - https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/vagov-users/Reapers-VRE%20CH31%20Eligibility-Entitlement-TestUsers.md
