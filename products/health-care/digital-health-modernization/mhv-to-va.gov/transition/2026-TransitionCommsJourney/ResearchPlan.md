@@ -96,7 +96,7 @@ Moderation: Semi-structured interviews; facilitator plus notetaker/observer as a
 
 Number of participants: 6–8 Veterans
 
-Inclusion criteria: Must be attached to a transitioning VA facility in MI (Battle Creek, Ann Arbor, Detroit, Saginaw).  Total: 14 veterans, records indicate that 13 of them have VA healthcare.
+Inclusion criteria: Must be attached to a transitioning VA facility in MI (Battle Creek, Ann Arbor, Detroit, Saginaw).  Total: 14 veterans, records indicate that 13 of them have VA healthcare.  Given the small number, would prefer to work with Perigean to find time that works with those that qualify and are available.  
 
  
 
@@ -165,8 +165,7 @@ Explore timing/frequency and channel preferences
 
 Prioritization: what would they change
 
-**Key prompts:
-**
+**Key prompts:**
 
 
 * “What would make you more likely to act immediately?”
@@ -178,21 +177,15 @@ Prioritization: what would they change
 
 ### **Check-in 3 (April 13 - 18 as final alerts come out and functionality returns) — Synthesis + recommendations from Veterans**
 
-Focus:
+**Focus:**
+Overall assessment: helpfulness, trust, control, and clarity
 
+Prioritization: what would they change
 
-    ●  	Overall assessment: helpfulness, trust, control, and clarity
+**Key prompts:**
 
+If you could change one thing about these alerts, what would it be?
 
-    ●  	Prioritization: what would they change
+What would make you more likely to act on notice the changes? 
 
-Key prompts:
-
-
-    ●  	If you could change one thing about these alerts, what would it be?
-
-
-    ●  	What would make you more likely to act on notice the changes? 
-
-
-    ●  	Do you know how to act on the changes?
+Do you know how to act on the changes?
