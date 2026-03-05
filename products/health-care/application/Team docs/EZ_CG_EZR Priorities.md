@@ -1,5 +1,5 @@
 ## Planned Priorities
-- '*' denotes features planned for the current Period of Performance through May 2026
+- '*' denotes features planned for the Period of Performance August 2025 through May 2026
 
 | Product    | Initiative Epic                                 | Status                                   |
 |----------------|-------------------------------------------------|------------------------------------------|
