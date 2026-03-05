@@ -47,8 +47,7 @@ There is not currently an experience on VA.gov for Veterans to find a representa
 1. [Find a Representative](https://vagov.ddog-gov.com/dashboard/55d-sc2-bxi/arm-find-a-representative?fromUser=false&refresh_mode=sliding&from_ts=1736986754401&to_ts=1739578754401&live=true)
 
 **Domo Dashboards**
-1. [Accredited Representation Managment](https://va-gov.domo.com/page/1897070864) - User trends for ARM products
-
+1. [Accredited Representation Managment](https://va-gov.domo.com/page/1897070864) - User trends for Veteran-facing products related to accredited representatives
 
 ## **Release History**
 
