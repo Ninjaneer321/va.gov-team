@@ -34,5 +34,5 @@
 - [ ] [Accessibility Testing Issue](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133299) _(exists — needs verification)_
 
 ## Engineering artifacts
-- [ ] [Engineering and Security Checklist](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/platform/engineering/collaboration-cycle/architecture-intent/checklist/checkin-vass-01132026.md#cookies) _(exists — needs update)_
+- [ ] [Engineering and Security Checklist](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/platform/engineering/collaboration-cycle/architecture-intent/checklist/checkin-vass-01132026.md#engineering-and-security-checklist---checkin---vass-scheduling)
 - [x] [Engineering Documentation](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/appointments/va-online-scheduling/initiatives/solid-start-scheduling/engineering)
