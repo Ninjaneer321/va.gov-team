@@ -14,6 +14,7 @@
 7. [View documentation on Swagger](https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/api-reference/): Put the following in the Swagger search field - `https://dev-api.va.gov/representation_management/v0/apidocs`
 8. Lighthouse API documentation for the Power of Attorney services -- [Dev](https://dev-developer.va.gov/explore/api/benefits-claims/docs?version=current) and [Production](https://developer.va.gov/explore/api/benefits-claims/docs?version=current)
    1. [Lighthouse's planning Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1705440431964/42ea71b5405cda62ed44e95794facd94d8d266a0?sender=ubac5f0487f25bc4431288699) which gives insight into the Power of Attorney services and the related systems
+9. [Accredited Representative Portal - Form 21-22 / Manage Power of Attorney Requests - Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/product-info/manage-poa-requests/product-outline-21-22-poa-requests.md)
 
 ## **Communications**
 
