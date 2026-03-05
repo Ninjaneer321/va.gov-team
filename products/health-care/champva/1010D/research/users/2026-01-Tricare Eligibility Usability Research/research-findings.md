@@ -333,21 +333,21 @@ Feedback on the flow options emphasized content changes to the alerts and eligib
 ## Additional Insights
 
 #### Secondary 1
-Participants were split in their previous knowledge of CHAMPVA, 9 were aware of it and 6 had never heard of it before at all. However all participants were familiar with TRICARE and 4 participants even stated they were currently enrolled. 
+Participants were split in their previous knowledge of CHAMPVA, 9 were aware of it and 6 had never heard of it before at all. However all participants were familiar with TRICARE and 4 participants even stated they were currently enrolled. Both Veterans and Family Members seemed to have a better understanding of TRICARE and fit their mental model of what health care benefits they are familiar with.
 
 > _"(Moderator: Have you ever heard of Tricare and Champva?) I think tricare is the insurance that just works and is primary. But CHAMPVA is secondary that works as like a backup from your existing insurance." [P04]_
 > _"TRICARE is active duty military and their spouse and dependents. Some people can have it when they retire. But there's this whole group who can get CHAMPVA, but it's meant more for Veterans and their dependent spouses, and the Veteran has to bee 100% to be eligible. I have a lot of opinions about the CHAMPVA program." [P07]_
 
 
 #### Secondary 2
-Participants who interacted with the additional information component on the TRICARE question page seemed to appreciate the information and the link to check their status on that site. 
+Participants who interacted with the additional information component on the TRICARE question page seemed to appreciate the information and the link to check their status on that site. Some participants didn't interact with the additional component at all and could potentially miss important information.
 
 > _"So if you are eligible for TRICARE you can’t , you wouldn’t be eligible for CHAMPVA. Though what details go into that I’m not sure. Right here (opens additional info component) - I see the hyperlink to find out if you are eligible" [P02]_
 > _"It’s good (eligibility) it is a double check right, if you happen to miss that portion and you wanted to apply anyways it is a good check, I do like this portion of it." [P08]_
 
 
 #### Secondary 3
-One participant (P14) commented on language used around Veteran living question and that it could be adjusted to be more sensitive
+One participant (P14) commented on language used around the Veteran deceased or not question and that it could be adjusted to be more sensitive. 
 
 - _"They know that, and so sometimes I feel that question might hit a survivor in the wrong way. So, again, we'll ask more questions about those in detail, but I would probably remove answer to the best of your knowledge from this question specifically." (P14)_
 
