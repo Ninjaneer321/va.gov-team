@@ -8,7 +8,6 @@ VA.gov and/or related VA digital experiences are introducing (or iterating on) n
 
 Because alerts are brief, time-sensitive, and often read quickly (or not at all), small issues in content clarity, timing, channel delivery, or alert behavior (e.g., frequency, dismissal, persistence) can reduce trust, increase anxiety, and/or lead to missed care actions. We need to understand Veterans’ lived experience with these alerts in the context of their real healthcare routines.
 
-[Link to product brief](add link).
 
 
 ### **OCTO Objectives**
@@ -81,7 +80,7 @@ Diary study with 3 check-in interviews (remote, moderated).
 
 We will run a lightweight diary study anchored by three 30-minute interviews per participant. Between interviews, participants will be asked to briefly note or capture (in low-effort ways) their experiences when they receive new healthcare alerts.
 
-Session length: 30 minutes each
+Session length: 30 minutes each, confirm if they will be joining web/mobile prior
 
 Cadence: 3 check-ins per participant
 
