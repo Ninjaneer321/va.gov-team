@@ -1,6 +1,86 @@
 # Running Design and Research Agenda
 
+----
 
+## March 5, 2026
+
+Attendees: Renata, Hieu, Jessica, Andrea, John, Chantale, Premal, Alyssa 
+
+### Agenda - 
+	•	Next steps for TRICARE flow and experimental design pattern (+ timing for release)
+	•	Discovery so far on the CHAMPVA Benefits card
+	•	Adding a subflow to 1010d similar to Enhanced Claims flow
+
+
+### TRICARE - 
+Next steps - Platform team positive and receptive to iterations, however… changes via an update an Experimental Pattern to get updates official. Potential might slow down the TRICARE work. Where there is flexibility and where pushing. 
+- Question: how often they meet and would this result in Collab Cycle
+- Premal - how to make process more efficient and less burdensome 
+- Renata - the more thinned down version is the one of concern 
+- John - if we can get this through good for broader organizations 
+- Iterations possible; 1,1.5 and 2. Need to have content do a last check then submit to Design System 
+- have content review and submit for next steps 
+Premal - want to build collab in work and bring in stakeholders as needed
+
+
+### CHAMPVA BENEFITS CARD
+
+
+- Document edge cases
+- Policy that affects process
+- Status tool - only show information about dependent if you were the person who applied with them 
+- John - looking at mapping of edge cases and unique flows 
+- Both teams should work together on - next steps 
+
+- Premal = wants to see each scenario. Each scenario for status and take to policy folks, so know what learnings all. Card is further down the line 
+With John - to policy folks, health apps might pick back up again in addition to card display
+
+
+Case Studies to look into:
+
+Veteran filled out application , can they see:
+	•	Spouse?
+	•	Child over 18?
+	•	Child under 18?
+Spouse filled out application, can they see: 
+	•	Spouse? 
+	•	Child over 18?
+	•	Child under 18?
+Spouse filled out application, can Veteran see:
+	•	Spouse? 
+	•	Child over 18?
+	•	Child under 18?
+
+
+Call center interpretation of the policy - how they made it work 
+
+
+### 1010d SUBFLOW
+- Pre-status tool way to submit missing documentation 
+- Similar branching logic as enhanced claims flow 
+- Showing info for CCL letters and showing Application ID
+- Rough potential flows to start sharing for feasibility 
+
+- John - While you wait page, mentions it states what to do if we ask for more information. Mail or fax instructions are causing a problem, point back to digital format. 
+- Renata - the claims has those updates, but the application does not. Will work with content to put digital submission option at the top once it goes live. Additional page about applying previously could be causing friction - was a temporarily solution for problem addressed. 
+- Next steps: talk to engineers about these flows and business partners about minimal info need to connect to previous application
+
+
+- Premal: did want to emphasize some of the nuances of why this ask is coming to me as a slightly urgent one (as compared to the advanced claims flow).--Andrea this could help with the story
+1.) Lots of mail and fax coming in ...expensive for the VA (not a Veteran problem)
+2.) Mail and fax is getting lost--veteran problem.
+3.) CHAMPVA has advertised 100% digital application flow--this is wrong and they want to correct this.
+Lightweight MVP to solve some of these problems.
+
+Renata - make sure we are pushing back on the nice to haves; minimal information needed 
+
+
+
+
+
+
+
+-----
 
 ## February 26, 2026
 
