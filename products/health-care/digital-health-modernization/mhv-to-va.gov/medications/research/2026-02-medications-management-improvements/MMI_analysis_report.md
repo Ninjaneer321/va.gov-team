@@ -1,4 +1,4 @@
-# Topline report: Medications management improvements usability study, February 2026
+# Findings: Medications management improvements usability study, February 2026
 
 **UX Team:** Athena Bozak, Anneka Van Garza, Florence McCafftery, Cara Frissel
 
