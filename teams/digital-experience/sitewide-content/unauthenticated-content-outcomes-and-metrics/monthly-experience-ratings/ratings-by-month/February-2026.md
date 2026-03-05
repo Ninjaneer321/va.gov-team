@@ -59,11 +59,11 @@ All pages have ratings of 2 or below.
                    
 ### 5 resources and support pages with the highest volume of total responses and <50% "good" rating
 
-1. [Support for common login.gov and ID.me issues](https://www.va.gov/resources/support-for-common-logingov-and-idme-issues/) (13% good out of 245 total responses)
-2. [Creating an account for VA.gov](https://www.va.gov/resources/creating-an-account-for-vagov/) (35% good out of 237 total responses)
-3. [Verifying your identity on VA.gov](https://www.va.gov/resources/verifying-your-identity-on-vagov/) (17% good out of 215 total responses)
-4. [What to do if you haven't switched to Login.gov or ID.me yet](https://www.va.gov/resources/what-to-do-if-you-havent-switched-to-logingov-or-idme-yet/) (36% good out of 137 total responses)
-5. [How to change your legal name on file with VA](https://www.va.gov/resources/how-to-change-your-legal-name-on-file-with-va/) (49% good out of 104 total responses)
+1. [Verifying your identity on VA.gov](https://www.va.gov/resources/verifying-your-identity-on-vagov/) (11% good out of 316 total responses)
+2. [Support for common login.gov and ID.me issues](https://www.va.gov/resources/support-for-common-logingov-and-idme-issues/) (24% good out of 248 total responses)
+3. [Creating an account for VA.gov](https://www.va.gov/resources/creating-an-account-for-vagov/) (47% good out of 101 total responses)
+4. [About managing medications online](https://www.va.gov/resources/about-managing-medications-online/) (27% out of 74 responses)
+5. [Can I delete my ID.me or Login.gov account?](https://www.va.gov/resources/can-i-delete-my-logingov-or-idme-account/) (37% out of 54 responses)
    
 ## Analysis
 [Resources and support ratings spreadsheet](https://dvagov-my.sharepoint.com/:x:/r/personal/randi_hecht_va_gov/Documents/Documents/Analytics/Resources%20and%20support%20ratings%20tracking%20January%202026.xlsx?d=wd919bb6db05f4874abdb5a9cdaabc8ea&csf=1&web=1&e=HeqWxM)
