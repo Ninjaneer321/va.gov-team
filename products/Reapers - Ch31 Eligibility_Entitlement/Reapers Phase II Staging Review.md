@@ -14,11 +14,11 @@ This page houses the links to all files needed for Reapers Staging Review.
 - Content Team Feedback - https://github.com/department-of-veterans-affairs/va.gov-team/issues/132253#issuecomment-3934813500
 
 ### Direct link or instructions on how to access the product
-- Staging Link - https://staging.va.gov/?next=%2Fcareers-employment%2Fvocational-rehabilitation%2Fapply-vre-form-28-1900%2Fyour-eligibility-and-benefits&oauth=true
+- Staging Link - https://staging.va.gov/careers-employment/track-your-vre-benefits/vre-benefit-status
   
 ### Drupal or Staging URL for updated primary entry point
 - All information provided by content and IA team can be found here - [VR.E.Eligibility.Checker_2025-10-09_16-13-54 (1).pdf](https://github.com/user-attachments/files/22850329/VR.E.Eligibility.Checker_2025-10-09_16-13-54.1.pdf)
-- Ticket from IA/Content - https://github.com/department-of-veterans-affairs/va.gov-team/issues/120296#issuecomment-3381874541
+- Ticket from IA/Content - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/information-architecture/ia-design-docs/benefits-portfolio/track-vre-ch-31-benefits.md
 - Drupal entry point - http://preview-prod.vfs.va.gov/preview?nodeId=726
 
 ### Test users and scenarios
