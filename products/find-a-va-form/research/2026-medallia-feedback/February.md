@@ -7,15 +7,15 @@
 
 
 ## Summary 
-> Raw data from February 1, 2026 - February 31, 2026
+> Raw data from February 1, 2026 - February 28, 2026
 
 | Area of feedback | # of Responses | Average score | 
 | --- | :---: | :---: | 
 | Total number of responses | 67, not all with comments | 
-| VA.gov experience | X| X |
-| VA.gov Understanding | X | X |
-| General VA Trust | X | X |
-| Trust in VA Commitment to Veterans | X | X | 
+| VA.gov experience | 0| 0 |
+| VA.gov Understanding | 0 | 0 |
+| General VA Trust | 0 | 0 |
+| Trust in VA Commitment to Veterans | 0 | 0 | 
 | Overall satisfaction | 56 | 1.79 | 
 
  | "Were you able to do your task today?" | No | Yes | 
