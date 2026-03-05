@@ -87,7 +87,7 @@ Lighthouse has confirmed that an older version of the PDF will not be an issue; 
 
 But there is an OCTO goal of keeping VA Forms up to date and this scenario puts that goal at risk.
 
-**Status**: Lighthouse has begun thinking about this update, timeline TBD. [Slack conversation](https://dsva.slack.com/archives/C05SUUM4GAW/p1771521504314689)
+**Status**: Lighthouse has begun thinking about this update, timeline TBD but may be later in 2026. [Slack conversation](https://dsva.slack.com/archives/C05SUUM4GAW/p1771521504314689)
 
 ---
 
