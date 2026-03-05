@@ -69,7 +69,7 @@ All pages have ratings of 2 or below.
 [Resources and support ratings spreadsheet](https://dvagov-my.sharepoint.com/:x:/r/personal/randi_hecht_va_gov/Documents/Documents/Analytics/Resources%20and%20support%20ratings%20tracking%20January%202026.xlsx?d=wd919bb6db05f4874abdb5a9cdaabc8ea&csf=1&web=1&e=HeqWxM)
 - We met our goal this month of 75% good rating for resources and support pages.  
 - Performance isn't as high when broken down to individual pages:
-  - 26% of pages are scoring at 90% or higher "good"
+  - 34% of pages are scoring at 90% or higher "good"
   - 45% of pages are meeting our goal of 75% or higher "good," while 51% of pages are scoring 70% or higher
   - 23% of pages are scoring at less than 50% "good," with 3% scoring at less than 10% "good" 
 - Sign-in and verification related content continue to be the lowest scoring pages. 
