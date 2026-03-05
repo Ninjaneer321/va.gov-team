@@ -342,7 +342,8 @@ Participants were split in their previous knowledge of CHAMPVA, 9 were aware of 
 #### Secondary 2
 Participants who interacted with the additional information component on the TRICARE question page seemed to appreciate the information and the link to check their status on that site. 
 
-> "So if you are eligible for TRICARE you can’t , you wouldn’t be eligible for CHAMPVA. Though what details go into that I’m not sure. Right here (opens additional info component) - I see the hyperlink to find out if you are eligible" [P02]_
+> _"So if you are eligible for TRICARE you can’t , you wouldn’t be eligible for CHAMPVA. Though what details go into that I’m not sure. Right here (opens additional info component) - I see the hyperlink to find out if you are eligible" [P02]_
+> _"It’s good (eligibility) it is a double check right, if you happen to miss that portion and you wanted to apply anyways it is a good check, I do like this portion of it." [P08]_
 
 
 #### Secondary 3
