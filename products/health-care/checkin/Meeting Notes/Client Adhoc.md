@@ -5,9 +5,9 @@
 
 ## Agenda Items
 - Are we limited to optometry and primary care at launch, or could more care types be added before June? If so, which ones?
--   - .
+  - .
 - What's the actual June deadline, is there a specific date, or by end of June?
--   -.
+  - .
 - 
 
 
