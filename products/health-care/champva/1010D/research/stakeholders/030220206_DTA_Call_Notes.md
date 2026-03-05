@@ -49,11 +49,11 @@
      - Andrea: We need to talk to engineers about PII concerns and this component to query. Maybe something more general vague about use and character count in GA. If data can be gathered could help iterate on this component question. Character limit to avoid too long input
 
 
-**Outreach and communication **
+**Outreach and communication**
 - Confirmation page and confirmation email describe the process with bene outreach as being letter-based. Is that always the case, or could it be an email?
      - Lynn: One of our goals is more so email. Do not call beneficiary due to previous experiences, information required. Have a no reply email give a box.com URL way more beneficial then a letter in the email.
      - Share noreply email address (CHAMPVANoReplyGroup@va.gov)  so it can be added to content.
-- DTA outreach \process : 
+- DTA outreach/process : 
      - If doing any reach out, bene contact letter, received Duty to Assist, upfront information. What we have, what we're doing
      - Then send completion letter of outcome of DTA
      - If requesting info, still doing that by contact letter. Need to account for mail time.
