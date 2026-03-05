@@ -12,7 +12,7 @@ Main entry points:
 
 ## **Overview**
 
-Create a user-friendly, accessible tool for Veterans to digitally complete a 21-22 or 21-22a form, with the ultimate goal of appointing an accredited VSO, Attorney or Claims Agent. This experience is intended to mirror the search functionality of the older, external tool[ eBenefits](https://www.docstomarkdown.pro/convert-markdown-to-google-docs-online/%5Burl%5D\(https://www.ebenefits.va.gov/ebenefits/vso-search\)).
+Create a user-friendly, accessible tool for Veterans to digitally complete a 21-22 or 21-22a form, with the ultimate goal of appointing an accredited VSO, Attorney or Claims Agent online. This experience is intended to mirror the search functionality of the older, external tool[ eBenefits](https://www.docstomarkdown.pro/convert-markdown-to-google-docs-online/%5Burl%5D\(https://www.ebenefits.va.gov/ebenefits/vso-search\)).
 
 
 ## **Problem Statement**
@@ -25,10 +25,10 @@ There is not currently an experience on VA.gov for Veterans to appoint a represe
 ## **Desired User Outcomes**
 
 1. Veterans can select a VSO, attorney or claims agents on VA.gov for new representation.
-3. Veterans can fill out VA Form 21-22 and 21-22a on VA.gov and generate a completed PDF.
 4. Veterans can submit a VA Form 21-22 (requesting Power of Attorney) on VA.gov, to Veteran Service Organizations that are accepting online submission.
-5. For representatives that are not accepting online submission:
-   1. Veterans can download a filled-out VA Form 21-22 or 21-22a form (accessible PDF) from VA.gov.
+5. Veterans can submit a VA Form 21-22a (requesting Power of Attorney) on VA.gov, to VA accredited attorneys or claims agents that are accepting online submission.
+6. For representatives that are not accepting online submission:
+   1. Veterans can fill out VA Form 21-22 and 21-22a on VA.gov and download a completed PDF.
    2. Veterans will be given guidance on next steps, including obtaining a representative signature and submitting their form outside of VA.gov (in person, via mail, through an online tool like QuickSubmit).
 
 
@@ -36,16 +36,17 @@ There is not currently an experience on VA.gov for Veterans to appoint a represe
 
 1. Veterans are interested in appointing a representative online through VA.gov
 2. Veterans would prefer to complete a form online, compared to printing the form out and completing it by hand
+
 ---
 
 ## **Measuring Success**
 
 **Datadog Dashboards**
-1. [ARM: Appoint a Representative](https://vagov.ddog-gov.com/dashboard/iiz-nnm-2em/arm-appoint-a-representative?fromUser=false&offset=0&refresh_mode=monthly&from_ts=1751353200032&to_ts=1753980942350&live=true)
+1. [Appoint a Representative](https://vagov.ddog-gov.com/dashboard/iiz-nnm-2em/arm-appoint-a-representative?fromUser=false&offset=0&refresh_mode=monthly&from_ts=1751353200032&to_ts=1753980942350&live=true)
 
 **Domo Dashboards**
-1. [Accredited Representation Managment](https://va-gov.domo.com/page/1897070864) - User trends for ARM products
-2. [VA.gov Forms KPIs](https://va-gov.domo.com/page/447193050) - for tracking our Appoint a Representative form experience (21-22/21-22a), working with Analytics to get rid of the extra filters
+1. [Accredited Representation Managment](https://va-gov.domo.com/page/1897070864) - User trends for Veteran-facing products related to accredited representatives
+2. [VA.gov Forms KPIs](https://va-gov.domo.com/page/447193050) - for tracking our Appoint a Representative form experience (21-22/21-22a)
 
 ## **Release History**
 
@@ -57,16 +58,18 @@ Released to 100% of users on January 23, 2025. Appoint a Representative 1.0 (MVP
 
 Released to 100% of users on March 25, 2025. Appoint a Representative 2.0 enabled Veterans to submit VA Form 21-22 directly on VA.gov, so representatives can respond immediately to the POA request in the Accredited Representative Portal and, if accepted, establish the Power of Attorney relationship in the Veteran's VBMS eFolder within minutes (not days or weeks). Online submission is avaialble for LOA3 Veteran users, who choose to appoint a participating Veteran Service Organizations online.
 
-See the for additional context including: user flows, page names, sub-URLs, and specifics for each version.
+See the [Appoint a Rep Planning Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1714785369605/65b1ce20d08478615fe2ef8c347cf19305cbffab) for additional context including: user flows, page names, sub-URLs, and specifics for each version.
 
 ## Current Risks
 
-#### Appoint a Representative is capturing a Veteran email address that is not aligned with Profile.
+### Appoint a Representative is capturing a Veteran email address that is not aligned with Profile.
 Veterans may update the email address they’d like to use for receiving email notifications but because this update isn’t syncing to Profile, Lighthouse will continue to use the Profile email address for the ”Accept” email notification (and the Veteran may miss this email update).
 
-Integrating the "prefill pattern" into Appoint a Representative, where updates in the form flow are reflected in Profile, would resolve this risk.
+Integrating the "[prefill pattern](https://design.va.gov/patterns/help-users-to/know-when-their-information-is-prefilled)" into Appoint a Representative, where updates in the form flow are reflected in Profile, would resolve this risk.
 
-#### Form Versioning Discrepancy Between VA.gov and Lighthouse
+**Status**: Implementing the prefill pattern to address this risk is a Q2 2026 priority.
+
+### Form Versioning Discrepancy Between VA.gov and Lighthouse
 
 At the end of the online submission experience, users are provided with a copy of their completed VA Form 21-22. This download is the most up-to-date version of the form, but upon acceptance by the representative, Lighthouse will uploade an older version of VA Form 21-22 (pre-Oct 2023 updates) to the eFolder in VBMS when establishing the POA relationship. 
 
@@ -84,39 +87,34 @@ Lighthouse has confirmed that an older version of the PDF will not be an issue; 
 
 But there is an OCTO goal of keeping VA Forms up to date and this scenario puts that goal at risk.
 
+**Status**: Lighthouse has begun thinking about this update, timeline TBD. [Slack conversation](https://dsva.slack.com/archives/C05SUUM4GAW/p1771521504314689)
+
 ---
 
 ## **Recommended Next Steps**
 
-#### Next Version Priorities - Appoint a Representative 3.0
-A future version of Appoint a Representative should strive for:
-1. Updating the contact information entry pages, to use the prefill pattern and ensure any updates are also updated in the user's Profile.
-   1. Current implementation leans on text-input components that are pre-populated with Profile information, but any edits do not get routed back to Profile.
-2. Features that did not make the version 2.0 release date - UX and accessibility improvements, code cleanup.
+### Implement the VADS "Prefill" pattern
+The current implementation leans on text-input components that are pre-populated with Profile information, but any edits do not get routed back to Profile.
 
-Related epic with refined tickets: [Appoint a Representative 3.0](https://github.com/orgs/department-of-veterans-affairs/projects/1180/views/34)
+Updating the pages related to capturing contact information for the Veteran (and related non-Veteran claimant, when applicable) to use the [prefill pattern](https://design.va.gov/patterns/help-users-to/know-when-their-information-is-prefilled) will align with VADS form standards and ensure any updates are also updated in the user's Profile. When implementing the prefill pattern, recommending the Appoint a Representative experience also requires LOA3 authentication, to avoid maintaining two separate experiences (unauth and auth). 
+
+### Expanding the online submission of VA Form 21-22
+Currently a handful of VSOs are able to accept the online submission of VA Form 21-22 as a "pilot" initiative. As the pilot expands, or even comes to and end, there will be a need to [enable online submission for additional VSOs](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representation-management/product-documentation/appoint-a-representative/enabling-online-submission-for-vsos.md). 
+
+### Enabling the online submission of VA Form 21-22a
+To enable the online submission of VA Form 21-22a, for appointing accredited attorneys and claims agents, the following will need to be considered:
+1. UX Research to better understand how attorneys and claims agents establish POA with claimants, including expectations and pain points that can be factored into the current Appoint a Representative experience.
+2. Product discovery to understand if there are additional checks by the VA when processing the 21-22a (compared to VA Form 21-22). 
+3. Technical discovery to understand how to implement online submission of VA Form 21-22a, using [Lighthouse's Power of Attorney services around auto-establishment](https://developer.va.gov/explore/api/benefits-claims/docs?version=current). 
 
 
-#### Expanding the online submission of 21-22
-Currently a handful of VSOs are able to accept the online submission of 21-22 as a "pilot" initiative. As the pilot expands, or even comes to and end, there will be a need to [enable online submission for additional VSOs](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representation-management/product-documentation/appoint-a-representative/enabling-online-submission-for-vsos.md). 
-
-
-#### Known Bugs
+### Known Bugs
 Some bugs have been identified for our Production experience. These have not yet been addressed due to lower priority, feel free to prioritize + address as needed.
 
-[Known bugs are stored in this view of the Github project board](https://github.com/orgs/department-of-veterans-affairs/projects/1180/views/41). 
+[Known bugs are stored in this view of the Github project board](https://github.com/orgs/department-of-veterans-affairs/projects/1809/views/27). 
 
-#### Redirect Goals
-
-When [Appoint a Representative](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/accredited-representation-management/product-documentation/appoint-a-representative) is out of pilot for the online submission of VA Form 21-22 (i.e. most, or all VSOs can accept online submissions), we will work with stakeholders to redirect related pages within eBenefits:
-1. https://www.ebenefits.va.gov/ebenfits/vso-search - redirect to Find a Representative
-2. https://www.ebenefits.va.gov/ebenfits/about/feature?feature=request-vso-representative - redirect to Appoint a Representative
-3. https://www.ebenefits.va.gov/ebenfits/manage/representative - redirect to landing page
-
-Reference: [IA redirect plan - Sharepoint](https://dvagov.sharepoint.com/:w:/r/sites/SitewideCAIA/_layouts/15/Doc.aspx?sourcedoc=%7B203EE57C-1260-4A20-9981-40A7396FB36A%7D&file=0.0%20Redirect%20plan.docx&action=default&mobileredirect=true)
-
-#### Future Ideas
-Longer term ideas are stored in our[ARM Future Ideas](https://dvagov.sharepoint.com/:w:/r/sites/vaabdvro/Shared%20Documents/Accredited%20Representation%20Management/ARM%20Future%20Ideas.docx?d=wfe95a788166e4670bfda5a59798550d7&csf=1&web=1&e=7iFIw0) document.
+### Future Ideas
+Longer term ideas are stored in our [ARM Future Ideas](https://dvagov.sharepoint.com/:w:/r/sites/vaabdvro/Shared%20Documents/Accredited%20Representation%20Management/ARM%20Future%20Ideas.docx?d=wfe95a788166e4670bfda5a59798550d7&csf=1&web=1&e=7iFIw0) document.
 
 ---
 ## **Supporting Documentation**
@@ -127,17 +125,20 @@ Longer term ideas are stored in our[ARM Future Ideas](https://dvagov.sharepoint.
 4. [Appoint a Representative Playbook/Incident Response Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representation-management/product-documentation/appoint-a-representative/technical-documentation/product-playbook-incident-response-plan.md)
 5. [Contact Center Guide](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/accredited-representation-management/product-documentation/appoint-a-representative/contact-center) (with screenshots)
 6. [Appoint a Rep Planning Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1714785369605/65b1ce20d08478615fe2ef8c347cf19305cbffab) (with user flow and IA notes)
+7. [View documentation on Swagger](https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/api-reference/): Put the following in the Swagger search field - `https://dev-api.va.gov/representation_management/v0/apidocs`
+8. Lighthouse API documentation for the Power of Attorney services -- [Dev](https://dev-developer.va.gov/explore/api/benefits-claims/docs?version=current) and [Production](https://developer.va.gov/explore/api/benefits-claims/docs?version=current)
+   1. [Lighthouse's planning Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1705440431964/42ea71b5405cda62ed44e95794facd94d8d266a0?sender=ubac5f0487f25bc4431288699) which gives insight into the Power of Attorney services and the related systems
 
 ## **Communications**
 
-1. **Team Name**: Accredited Representation Management
-2. **GitHub Label**: accredited-representation-management-team
-3. **Slack channel**: #benefits-representation-management
+1. **Team Name**: Accredited Representative Crew
+2. **GitHub Label**: ar-crew
+3. **Slack channel**: ##benefits-accredited-rep-crew
 
 
 ## **Team Leads**
 
 1. **DEPO Lead**: Jennifer Bertsch
-2. **PM**: Lindsay Li-Smith
-3. **Engineering**: Holden Hinkle
-4. **UX Research/Design**: Marisa Dominguez
+2. **Product Managers**: Mia Bottcher, Lindsay Li-Smith
+3. **UX Lead**: Ian McCullough
+4. **Engineering Leads**: Nick Sprinkle, Jeff Wallace
