@@ -1,4 +1,4 @@
-# Medications Management Improvements
+# Medications management improvements
 ## Design recommendations for stakeholder review
 
 **Date:** March 4, 2026  
