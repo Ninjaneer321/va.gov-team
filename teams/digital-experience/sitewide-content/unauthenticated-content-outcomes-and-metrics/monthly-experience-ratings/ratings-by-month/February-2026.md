@@ -29,9 +29,8 @@ All pages have ratings of 2 or below.
   - 29% (37 of 127) R&S pages have a 50% or lower "good" score
     
 - **Breakdown of resources and support scores by 10s:*
-<img width="362" height="218" alt="image" src="https://github.com/user-attachments/assets/c713c94e-1303-437f-a4a9-37d7c05d6612" />
-<img width="362" height="218" alt="image" src="https://github.com/user-attachments/assets/c78c3889-d73d-49ec-a57e-2ffb86c9f9f0" />
-
+<img width="362" height="218" alt="number of pages by % of good ratings" src="https://github.com/user-attachments/assets/e68fecc4-aec5-4ead-8950-f792cb2369e9" />
+<img width="362" height="218" alt="Number of content pages by good experience rating range" src="https://github.com/user-attachments/assets/942dd180-3699-48d0-8f67-9cfb44189e54" />
 
 ### 5 resources and support pages with the highest "good" ratings percentage overall and at least 10 total responses
 
