@@ -229,20 +229,22 @@ synthesis_tools_used:
  
 When participants saw the summary card showing they were ineligible, users were divided on the next action to take. 
 
+**Continuing with the form despite eligibility check**
+
 - Some participants (8 of 15) reported they would continue the form anyways and not exit the application for various reasons:
      - To see what would happen next
      - To look if an explanation of eligibility determination would be provided
      - Or, just to go as far as the application would allow
 
+**Clear resolution and contact as next steps**
+
+The Pinapple prototype eligibilty screen resulted in about half wanting to contact somebody as a next step:
 - Out of the 7 participants who did say they would stop on the eligibility screen:
      - 5 stated they would call somebody at the VA or TRICARE next
      - 2 stated they would check their TRICARE status on their own as a next step
 
-**Clear resolution and next steps**
-
-When reviewing the alert options in Task 3, contacting someone was also a common response to the various warning states.
-
-- Participants suggested a link for resources or contact information to talk to somebody when reviewing the eligibility summary pages (5 for Pineapple and 1 for Blueberry). It was more often suggested in the Alert review task. (Goal 1, research question 3).
+When reviewing the various warning alert options shown in Task 3 of the study, contacting someone was also a common response:
+- (Finding 4) Participants suggested a link for resources or contact information to talk to somebody when reviewing as the next step they would take when reviewing the various options.
 
 
 **Participant quotes**
@@ -316,7 +318,9 @@ Feedback on the flow options emphasized content changes to the alerts and eligib
 
 > I don’t think it’s intrusive - it’s just off. Right away (the warning alert). It tells you right up front instead of going further - I feel like they should explain why. Maybe like a chat service (or contact information). [P11: Pineapple Prototype]
 
-- It does all the, it does the work for you. [P16: Pineapple Prototype] 
+> It does all the, it does the work for you. [P16: Pineapple Prototype]
+
+> I prefer blueberry, it was simpler and faster. Once it imported the veterans information it goes right into the application. It feels like there was an additional 2 pages of continues to answer on the other one. [P4: Blueberry Prototype]
 
 
 ---
