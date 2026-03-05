@@ -74,7 +74,7 @@ Introducing search filters, for users to refine their search results based on th
 ### Known Bugs
 Some bugs have been identified for our Production experience. These have not yet been addressed due to lower priority, feel free to prioritize + address as needed.
 
-[Known bugs are stored in this view of the Github project board](https://github.com/orgs/department-of-veterans-affairs/projects/1180/views/41). 
+[Known bugs are stored in this view of the Github project board](https://github.com/orgs/department-of-veterans-affairs/projects/1809/views/27). 
 
 ### Redirect Goals
 
