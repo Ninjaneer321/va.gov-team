@@ -225,9 +225,9 @@ synthesis_tools_used:
 
 
 
-### Finding 2: Participants wanted a clear action or contact information when they saw the first warning alert or the eligibility review screen in the Pineapple prototype and they reported they would continue anyways or contact somebody as next steps - not exit the application.
+### Finding 2: Participants wanted actionable instructions or contact information when they saw the API warning alert or the “Check eligibility” review screen in the negative eligibility flow (Pineapple). 
  
-When participants saw the summary card showing they were ineligible, users were divided on the next action to take. 
+When participants saw the summary card showing they were ineligible, users were divided on the next action to take. Participants reported either wanting to continue on anyways, not exit the application, or that they would want to contact somebody at the VA or TRICARE via phone.
 
 **Continuing with the form despite eligibility check**
 
