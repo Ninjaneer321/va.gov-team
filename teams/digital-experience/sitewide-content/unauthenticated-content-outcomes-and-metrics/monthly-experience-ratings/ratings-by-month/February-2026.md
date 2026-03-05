@@ -50,11 +50,12 @@ All pages have ratings of 2 or below.
        
 ### 5 resources and support pages with the highest volume of total responses and >75% "good" rating
 
-1. [What should I bring to my health care appointments?](https://www.va.gov/resources/what-should-i-bring-to-my-health-care-appointments/) (91% good out of 3,186 total responses)
-2. [VA claim exam (C&P exam)](https://www.va.gov/resources/va-claim-exam/) (92% good out of 803 total responses)
-3. [The PACT Act and your VA benefits](https://www.va.gov/resources/the-pact-act-and-your-va-benefits/) (93% good out of 603 total responses)
-4. [VEText for VA health care reminders and updates](https://www.va.gov/resources/vetext-for-va-health-care-reminders-and-updates/) (92% good out of 306 total responses)
-5. [Reimbursed VA travel expenses and mileage rate](https://www.va.gov/resources/reimbursed-va-travel-expenses-and-mileage-rate/) (82$ good out of 301 total responses)
+1. [What should I bring to my health care appointments?](https://www.va.gov/resources/what-should-i-bring-to-my-health-care-appointments/) (92% good out of 2,957 total responses)
+2. [VA claim exam (C&P exam)](https://www.va.gov/resources/va-claim-exam/) (92% good out of 831 total responses)
+3. [How to check in with your smartphone for some VA appointments](https://www.va.gov/resources/how-to-check-in-with-your-smartphone-for-some-va-appointments/) (91% out of 798 responses) 
+4. [The PACT Act and your VA benefits](https://www.va.gov/resources/the-pact-act-and-your-va-benefits/) (91% good out of 422 total responses)
+5. [VEText for VA health care reminders and updates](https://www.va.gov/resources/vetext-for-va-health-care-reminders-and-updates/) (87% good out of 362 total responses)
+
                    
 ### 5 resources and support pages with the highest volume of total responses and <50% "good" rating
 
