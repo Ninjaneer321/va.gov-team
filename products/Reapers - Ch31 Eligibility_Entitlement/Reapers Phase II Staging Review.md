@@ -29,7 +29,7 @@ This page houses the links to all files needed for Reapers Staging Review.
 - We recieved our content and IA feedback yesterday, in there giving us the correct URL to use. As a result we have to seperate our page from being inbedded in the form page. We are working on this now and should be done by the time we hit staging review, we will hold our code locally until after staging review.
   
 ### Completed accessibility testing artifact
-- Accessibility testing artifact: https://github.com/department-of-veterans-affairs/va.gov-team/issues/121844
+- Accessibility testing artifact: https://github.com/department-of-veterans-affairs/va.gov-team/issues/135194
   
 ### QA Artifacts
 - Cypress Testing - https://github.com/department-of-veterans-affairs/vets-website/pull/39297
@@ -38,4 +38,4 @@ This page houses the links to all files needed for Reapers Staging Review.
 - Logging silent failures -  Reapers hasn't made any updates that require logging of silent failures
   
 ### Completed Engineering and Security Checklist
-- Engineering and Security Checklist - https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/platform/engineering/collaboration-cycle/architecture-intent/checklist/%5BReapers%5D-%5BVRE%20Ch31%20Eligibility%20%26%20Entitlement%5D-%5B092925%5D.md
+- Engineering and Security Checklist - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Reapers%20-%20Ch31%20Eligibility_Entitlement/Reapers%20Team,%20VA.gov%20Federated%20Portal.md
