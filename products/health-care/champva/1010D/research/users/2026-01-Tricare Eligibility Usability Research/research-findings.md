@@ -1,101 +1,126 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "CHAMPVA Tricare Eligibility Usability Study Research Findings"
+product: "CHAMPVA 10-10D Application"
+team: "Health Apps UX Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2026-02-28"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Renata K"
+  - "Jessica S"
+  - "Hieu V"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Learn where there are content comprehension issues within the eligibility questions and error messages options tested"
+  - "Discovery around two flows - one using a new VADS pattern and the other with a VADS pattern and API hybrid approach - to determine usability and user preference for both"
+  - "Learn if there are any usability issues with the new VADS eligibility pattern and/or hybrid option"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Usability testing with mid-fidelity prototypes"
+  - "A/B testing protocol with randomized prototype order"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 10
+    tablet: 0
+    smartphone: 5
+    assistive_technology: 0
+participants_total: 15
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 5
+  service_members: 0
+  caregivers: 7
+  family_members: 10
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 3
+    "45-54": 8
+    "55-64": 1
+    "65+": 2
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 2
+    associates: 0
+    bachelors: 5
+    masters: 7
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 8
+    rural: 7
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 5
+    black: 6
+    hispanic: 4
+    biracial: 0
+    asian: 1
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - “The "Check eligibility" default pattern was confusing to most participants when they were not eligible (Pineapple prototype) mostly due to the double negative statement and visual misunderstanding.”
+  - “Participants wanted actionable instructions or contact information when they saw the API warning alert or the "Check eligibility" review screen in the negative eligibility flow (Pineapple prototype).”
+  - “Most participants commented that more definitive language around eligibility would be helpful in understanding the review summary card and almost all preferred the alternate card option B with additional clarity.“ 
+  - “Participants stated actions on the various warning alerts overall were to continue on with the application or they wanted contact information to talk to somebody.”
+  - “One flow was not preferred more than the other, and some participants stated they were too similar to choose. However in both flows, participants provided feedback similar content and pattern feedback.”
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - “**Check Eligibility Pattern Updates (v1 and V2)** - Supporting evidence: Key Finding 1 and 3”
+  - “**Form Introduction and CHAMPVA Program Pages Content Updates (v1)** - Supporting evidence: Secondary Finding 1”
+  - “**Alert Content Updates (v2)** - Supporting evidence: Key Findings 2 and 4”
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Percentage of CHAMPVA applications denied due to Tricare eligibility"
+  - "Total number of CHAMPVA applications submitted"
+  - "Average processing time per application"
+  - "User drop-off rates early in the application flow"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: |
+    Users understand whether Tricare eligibility may impact their ability to receive CHAMPVA benefits. Users avoid spending time on applications that are likely to be denied. Users feel informed, respected, and supported—even when guided away from applying. Users can confidently decide whether to proceed with or stop the application.
+  business: |
+    Reduce the percentage of CHAMPVA applications rejected due to Tricare eligibility. Reduce processing backlog caused by clearly ineligible submissions. Improve efficiency for CHAMPVA processing teams. Increase overall satisfaction with the CHAMPVA application experience.
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Clearer communication of mutually exclusive eligibility between TRICARE and CHAMPVA"
+  - "Improved error messaging and visual design for negative eligibility scenarios"
+  - "Addition of contact resources and support pathways when users encounter eligibility barriers"
+  - "More definitive language in eligibility determinations (move away from 'may not be eligible')"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Testing with the v1 and v2 flows in a working staging environment with actual system implementation rather than Figma prototypes"
+  - "Research sessions with Assistive Technology users to ensure pattern accessibility"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Ages 55-64 (only 3 of 8 target participants recruited)"
+  - "Participants with cognitive disabilities (0 participants, target was 50%)"
+  - "Mobile users (only 5 of 8 target participants recruited)"
+  - "Participants with no college degree (only 3 of 4 target participants recruited)"
+  - "Veterans with other than honorable discharge (0 participants, target 4)"
+  - "Immigrant origin/expat populations (0 participants, target 3-4)"
+  - "LGBTQ+ participants (0 participants across all identity categories)"
+  - "Assistive technology users (0 participants, no AT targets specified)"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Interview transcripts"
+  - "Notes from observers"
 synthesis_tools_used:
-  - "Mural"
+  - "VA Research Synthesis Tool - Feedback and notes Slack canvas"
   - "Affinity Mapping"
+tags:
+  - "AUD: Veterans"
+  - "AUD: Family Member"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "PRDT: CHAMPVA"
+  - "DSP: Error Message Guide"
+  - "DSC: Alert Boxes"
+  - "DSC: Card"
+  - "usability-testing"
+  - "evaluative"
 ---
-
-> [!TIP]
-> **Complete the frontmatter section above AFTER you've finished and saved your research findings report below.**
-> 
-> Use the [GitHub Copilot Research Findings Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md) to automatically generate structured metadata from this completed research findings report. The prompt uses natural language processing to extract key findings, participant demographics, recommendations, and apply appropriate research repository tags.
 
 ---
 
