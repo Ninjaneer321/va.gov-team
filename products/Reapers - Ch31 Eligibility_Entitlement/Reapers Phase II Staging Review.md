@@ -5,7 +5,7 @@ This page houses the links to all files needed for Reapers Staging Review.
 - Reapers Phase II Collaboration Cycle - https://github.com/department-of-veterans-affairs/va.gov-team/issues/127317
 - Figma File - https://www.figma.com/design/T9tPpLgo9QTAE0URYJ4l9K/My-VR-E-Benefits-Tracker?node-id=1692-37125&t=Z09eHI5jCCeStgxj-0
 - Product Outline - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Reapers%20-%20Ch31%20Eligibility_Entitlement/Phase%20II%20Product%20Outline.md
-- Release Plan - 
+- Release Plan - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Reapers%20-%20Ch31%20Eligibility_Entitlement/Phase%20II%20Release%20Plan.md
 
 ### Design Intent Feedback 
 - Design Intent Feedback #1 - https://github.com/department-of-veterans-affairs/va.gov-team/issues/129079
