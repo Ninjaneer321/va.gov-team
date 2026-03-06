@@ -42,11 +42,11 @@ All pages have ratings of 2 or below.
               
 ### 5 resources and support pages with the lowest "good" ratings percentage overall and at least 10 total responses
 
-1. [How do I report a complaint or concern about a community provider?](https://www.va.gov/resources/how-do-i-report-a-complaint-or-concern-about-a-community-provider/) (6% good out of 17 total responses)
-2. [How to get help with concerns at a VA health facility](https://www.va.gov/resources/how-to-get-help-with-concerns-at-a-va-health-facility/) (13% good out of 16 total responses)
-3. [Support for common Login.gov and ID.me issues](https://www.va.gov/resources/support-for-common-logingov-and-idme-issues/) (13% good out of 245 total responses)
-4. [Verifying your identity on VA.gov](https://www.va.gov/resources/verifying-your-identity-on-vagov/) (17% good out of 215 total responses)
-5. [Can I delete my Login.gov or ID.me account?](https://www.va.gov/resources/can-i-delete-my-logingov-or-idme-account/) (18% good out of 85 total responses)
+1. [Verifying your identity on VA.gov](https://www.va.gov/resources/verifying-your-identity-on-vagov/) (11% good out of 316 total responses)
+2. [Can I verify my identity in person for my Login.gov account?](https://www.va.gov/resources/can-i-verify-my-identity-in-person-for-my-logingov-account/) (0% good out of 13 total responses)
+3. [Decision reviews FAQs](https://www.va.gov/resources/decision-reviews-faqs/) (0% good out of 13 total responses)
+4. [How do I change my name in my DEERS record?](https://www.va.gov/resources/how-do-i-change-my-name-in-my-deers-record/) (0% good out of 13 total responses)
+5. [How to renew a VA prescription](https://www.va.gov/resources/how-to-renew-a-va-prescription/) (0% good out of 13 total responses)
        
 ### 5 resources and support pages with the highest volume of total responses and >75% "good" rating
 
