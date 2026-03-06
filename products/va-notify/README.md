@@ -53,7 +53,6 @@ Read our [VA Standard Operating Procedures for SMS](https://github.com/departmen
 - Track analytics per Veteran
 
 ### Business Partners
-- OIT OCTO VA Notify Team
 - VA Profile (contact information and communication preferences)
 - MPI (Veteran identity and deceased-status lookups)
 - VA.gov Authenticated Experience (notification settings on VA.gov)
