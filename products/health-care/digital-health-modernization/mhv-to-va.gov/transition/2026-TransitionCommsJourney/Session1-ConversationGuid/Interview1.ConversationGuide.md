@@ -1,3 +1,70 @@
+---
+title: "Conversation Guide for MHV to VA.gov Transition Communications Journey, Session 1: Baseline + Early Exposure (March 2026)"
+author: "[INSERT YOUR NAME]"
+date_created: "2026-03-06"
+last_modified: "2026-03-06"
+
+# Core research metadata
+team: "Digital Health Modernization - MHV to VA.gov"
+portfolio: "health"
+product: "My HealtheVet on VA.gov Transition"
+research_phase: "evaluative"
+research_method: "moderated_usability_test, semi_structured_interview"
+
+# Session details
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who actively use VA healthcare tools (appointments, secure messaging, medications, medical records) and have logged into VA.gov or My HealtheVet within the past 6 months"
+
+# Related documents
+related_research_plan: "products/health-care/digital-health-modernization/mhv-to-va.gov/transition/2026-TransitionCommsJourney/research-plan.md"
+related_prototype: "N/A - testing live production alerts in participant accounts"
+
+tags:
+  # Audience
+  - "AUD: Veterans"
+  
+  # Benefits
+  - "BNFT: Healthcare"
+  
+  # Design System Components
+  - "DSC: Alert Boxes"
+  
+  # Design System Patterns
+  - "DSP: Notifications"
+  - "DSP: Content Presentation"
+  
+  # Products
+  - "PRDT: VA.gov"
+  - "PRDT: MyHealtheVet"
+  
+  # My HealtheVet Specific
+  - "MHV: Appointments"
+  - "MHV: Secure Messaging"
+  - "MHV: Pharmacy"
+  - "MHV: Personal Health Records/Medical Records"
+  - "MHV: MyHealth (Health Hub)"
+  - "MHV: National Portal/Access"
+  
+  # Hardware
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  
+  # Research Methods
+  - "usability-testing"
+  - "semi-structured-interviews"
+  
+  # Additional Context
+  - "Content"
+  - "Navigation"
+
+description: "Session 1 conversation guide for evaluating Veteran comprehension of MHV to VA.gov transition alert messaging across appointments, secure messaging, medications, and medical records. Tests understanding of warning alerts (yellow) and critical alerts (red) during the T-60 to T-30 day transition window."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
 
 # **Conversation Guide  (3/16 - 19 after Appointments warning, T-60 to T- 30 changes)**
 
