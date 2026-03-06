@@ -3,18 +3,15 @@
 
 WORK IN PROGRESS! DRAFT! IT'S JUST A COPY OF PUSH AT THIS POINT! DISREGARD! YOU HAVE BEEN WARNED!
 
-For more details, see this [addendum](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/benefits-portfolio/benefits-management-tools/engineering/release-plans/mobile-app-push-enablement-for-decision-letters-addendum.md)
-
 ## Step 1: Development
 
 Development was done behind a feature flag, following the [best practices for creating feature toggles](https://depo-platform-documentation.scrollhelp.site/developer-docs/feature-toggles-guide).
 
 | Toggle name | Description |
 | ----------- | ----------- |
-| [va_notify_push_notifications](https://api.va.gov/flipper/features/va_notify_push_notifications) | When enabled, va-notify will lazily initialize a new Client that allows for the send_push method to be called |
-| [event_bus_gateway_push_notifications](https://api.va.gov/flipper/features/event_bus_gateway_push_notifications) | When enabled, for each non-filtered event, eventbus-gateway will call the new vets-api endpoint send_notifications which will asyncronousy send emails and push notifications |
-| [event_bus_gateway_letter_ready_push_notifications](https://api.va.gov/flipper/features/event_bus_gateway_letter_ready_push_notifications) | Flag that will be used for the progressive rollout, it can be enabled for a specifc user or a percentage of actors. We will be using the icn as the determining feature |
-
+| [event_bus_gateway_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_sms_notifications) | When enabled, for each non-filtered event, eventbus-gateway will call the new vets-api endpoint send_notifications which will asyncronousy send sms notifications |
+| [event_bus_gateway_letter_ready_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_letter_ready_sms_notifications) | Flag that will be used for the progressive rollout, it can be enabled for a specifc user or a percentage of actors. We will be using the icn as the determining feature |
+| [event_bus_gateway_retry_sms](https://api.va.gov/flipper/features/event_bus_gateway_retry_sms) | When enabled, vets-api retries event bus gateway sms that VA Notify marks temporary-failure |
 
 ## Step 2: Validation
 
@@ -22,25 +19,14 @@ Since we use a [continuous delivery](https://depo-platform-documentation.scrollh
 
 Before enabling your feature toggle in production, you'll need to:
 
-- [x] Testing of all permutations of the feature flags. Confirm no regression in the send_email endpoint as well as correct push notifications sent. Test results documented in [#122588](https://github.com/department-of-veterans-affairs/va.gov-team/issues/122588)
-- [x] Confirm that logging has not changed and that existing Dashboards are working
-- [x] Implement dashboard or add to existing dashboard to track push notifications
-- [x] Previously the eventbus-gateway sign-on token was scoped only to the `send_email` endpoint.  Confirm that the identity team has updated the config in production to accept both the `send_email` and `send_notifications` endpoints (completed 2/6 [slack thread](https://dsva.slack.com/archives/CSFV4QTKN/p1770416385156409?thread_ts=1770332773.417629&cid=CSFV4QTKN))
-- [x] Similar to above the eventbus-gateway vsp-infra-application-manifests configuration for `tokenScope` must be updated to accept both `send_email` and `send_notifications` (completed 2/9)
-- [x] Confirm that VANotify has, in production, created the preferences for "Benefits Claims and Decision Reviews".
-- [x] Confirm that VANotify has populated the preference retroactively to all users ([slack thread](https://dsva.slack.com/archives/C018V2JCWRJ/p1770247934357449?thread_ts=1770049116.138369&cid=C018V2JCWRJ))
-- [x] Confirm "What's new" content has been published (Released 2/10)
-- [x] Testing of progressive rollout of "What's new" and preference is complete
-- [x] Confirm the Mobile App team has completed any desired testing
-- [x] Confirm the Mobile App team has deployed their analytics update (released on 1/13/26)
-- [x] Confirm VetText has completed a production deployment of push template ([slack thread](https://dsva.slack.com/archives/C018V2JCWRJ/p1770247919989499?thread_ts=1770049116.138369&cid=C018V2JCWRJ))
-- [x] Confirm push template text matches "Your VA benefit decision letter is available"
-- [x] Confirm production template is set in eventbus gateway config
-- [x] Confirm BMT VANotify push service id and token are set in production
-- [x] Gather details for single user test
-- [x] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
-    - [x] review the plan with your DEPO/OCTO representative.
-    - [x] review the release plan with your team.
+- [ ] Testing of all permutations of the feature flags. Confirm no regression in the send_email endpoint as well as correct push notifications sent. Test results documented in [#135336](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135336)
+- [ ] Confirm that logging has not changed and that existing Dashboards are working
+- [ ] Implement dashboard or add to existing dashboard to track sms notifications
+- [ ] Confirm production template is set in eventbus gateway config
+- [ ] Gather details for single user test
+- [ ] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
+    - [ ] review the plan with your DEPO/OCTO representative.
+    - [ ] review the release plan with your team.
 
 ## Step 3: Production rollout
 
@@ -50,38 +36,37 @@ We will be performing a progressive rollout to be able to minimize the productio
 
 #### Planning
 
-- Desired date range or test duration: February 12, 2026
+- Desired date range or test duration: [TBD]
 - Desired number of users: 1
-- How you'll recruit the right production test users: Liana Fleming has identified a veteran who is willing to assist.
+- How you'll recruit the right production test users: Seth Darr will identify a veteran who is willing to assist.
 - How you'll conduct the testing: We will manually trigger the Event Bus Gateway to send a POST request to vets-api with the recruit's participant ID.
-- How you'll give the test users access to the product in production w/o making it live on VA.gov: Gateway will not be connected to the production Kafka topic at this time, so our manual testing will be the only push notificatio being sent. We will also set the `event_bus_gateway_letter_ready_push_notifications` to only be enabled for the recruit's icn.
+- How you'll give the test users access to the product in production w/o making it live on VA.gov: We will set the `event_bus_gateway_letter_ready_sms_notifications` to only be enabled for the recruit's icn.
 
 #### Results
 
-- Number of users: 1
-- Number of bugs identified / fixed: 1
-    - Bug found with preference showing "Claim Status Updates" instead of "Benefits claims and decision reviews" - Fixed on 2/11
-- Was any downstream service affected by the change?: No downstream issues
-- Types of errors logged:   No errors were seen
-- Any changes necessary based on the logs, feedback on user challenges, or VA challenges?: No
+- Number of users: 
+- Number of bugs identified / fixed: 
+    - 
+- Was any downstream service affected by the change?: 
+- Types of errors logged:   
+- Any changes necessary based on the logs, feedback on user challenges, or VA challenges?: 
 - If yes, what: ___
 
 ### Phase II: Staged Rollout (also known as unmoderated production testing)
 
 #### Rollout Planning
 
-- Desired date range: February 12, 2026 - February 25, 2026
-- How will you make the product available in production while limiting the number of users who can find/access it: By using the feature flag `event_bus_gateway_letter_ready_push_notifications` and the `enable_percentage_of_actors` feature to enable it for a percentages of users by icn.
+- Desired date range: [TBD]
+- How will you make the product available in production while limiting the number of users who can find/access it: By using the feature flag `event_bus_gateway_letter_ready_sms_notifications` and the `enable_percentage_of_actors` feature to enable it for a percentages of users by icn.
 - What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")?
     - [ ] DataDog error rate below 5%
     - [ ] Click through rate above 5% 
-        - This rate is purposely kept low due to the issue where many veterans may not have the app or have notifications turned on, so we do not know how many veterans actually receive the notification.
-     - [ ] Push notification error rate < 5% (this is slightly below with email initial delivery rates)
+        - This rate is purposely kept low due to contain the blast radius.
+     - [ ] Sms notification error rate < 5% (this is slightly below with email initial delivery rates)
 - Links to the dashboard(s) showing "success criteria" metrics:
-    - [DataDog Dashboard](https://vagov.ddog-gov.com/dashboard/wvx-g6k-u6c/bmt---eventbus-gateway-cloned?fromUser=false&refresh_mode=sliding&from_ts=1766512554238&to_ts=1767117354238&live=true)
-    - [Google Analytics Report](https://analytics.google.com/analytics/web/?authuser=2#/analysis/a50123418p265787033/edit/eiPeenxHRBqHVePhF1M3ow?restoreUserState=true)
-- Who is monitoring the dashboard(s)?: BMT3 (Liana Fleming)
-
+    - [DataDog Dashboard](https://vagov.ddog-gov.com/dashboard/wvx-g6k-u6c/bmt---eventbus-gateway-cloned?fromUser=false&refresh_mode=sliding&from_ts=1766512554238&to_ts=1767117354238&live=true) - Not implemented yet
+    - [Google Analytics Report](https://analytics.google.com/analytics/web/?authuser=2#/analysis/a50123418p265787033/edit/eiPeenxHRBqHVePhF1M3ow?restoreUserState=true) - N/A for SMS at this time
+- Who is monitoring the dashboard(s)?: BMT3 (Seth Darr)
 
 ### Stage A: Canary
 
@@ -93,178 +78,161 @@ We will be performing a progressive rollout to be able to minimize the productio
 
 #### Results
 
-- Number of users: 894 push notifications sent
-    - Turned on 2/12 2:34p - 3:00p PT
-    - Turned on 2/13 8:25a - 2/18 8:51a PT 
+- Number of users: ___ sms notifications sent
+    - Turned on [TBD]
 - Metrics at this stage (per your "success criteria"):
-    - [x] DataDog errors < 5% (3.97% observed)
-    - [x] 5.90% click through rate 
-        - 42 users clicked through. (Used data up to 2/17 11:59p due to GA data availability - 42 clicks out of 712 push notifications sent)
-    - [x] No increase in email sending errors 
+    - [ ] DataDog errors < 5% (3.97% observed)
+    - [ ] 5.90% click through rate 
+        - 
+    - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
-    - [x] Push notification error rate < 5%  (0% observed)
-- Was any downstream service affected by the change?: _NO_
+    - [ ] Push notification error rate < 5%  (0% observed)
+    - [ ] Sms notification error rate < 5%  (0% observed)
+- Was any downstream service affected by the change?: 
 - Types of errors logged:
-    - With initial launch we were seeing error rates on our dashboard of 100% for emails sent.  Due to this, we disabled the flag. After investigation, we determined that the errors were due to a missing field in the logs that was used to determine the count of successful email notifications. We updated the metric to use a different field and the error rate returned to normal.
-    - 2/17 9:44a-2:09p PT we noticed intermittent errors in eventbus gateway related to failed STS token generation.  These were deemed unrelated to push notifications and were due to issues within vets-api.
-    - Other errors that were seen
-        - 7 503 errors in send_notifications
-        - Expected number of MPI profile not found (1576 errors)
-        - 39 other error/warnings found (503, multiple matches from MPI)
-        - 40790 notifications requested
-
+    - 
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
-    - Dashboards were updated to correctly reflect errors and delivery percentages for emails
+    -
 
+### Stage B: Canary
 
-### Stage B: 10% of users
-
-*Test a larger user population to ensure larger usage patterns expose no issues.*
+*Test a small Veteran population to ensure any obvious bugs/edge cases are found.*
 
 #### Planning
 
-- Percentage of Users (and roughly how many users do you expect this to be): 10% of ICNs
+- Percentage of Users (and roughly how many users do you expect this to be): 10% of icns
 
 #### Results
 
-- Turned on 2/18 8:51a - 2/19 9:31a PT
-- Number of users: 2270 push notifications
+- Number of users: ___ sms notifications sent
+    - Turned on [TBD]
 - Metrics at this stage (per your "success criteria"):
-    - [x] DataDog errors < 5% (4.4% observed)
-    - [x] 7.56% click through rate overall (estimated 164 clicks, 2168 sent)
-    - [x] No increase in email sending errors
-        - Email error percentage rate: 6.67%
-    - [x] Push notification error rate < 5%  (0.96% observed)
-- Was any downstream service affected by the change?: _NO__
+    - [ ] DataDog errors < 5% (3.97% observed)
+    - [ ] 5.90% click through rate 
+        - 
+    - [ ] No increase in email sending errors 
+        - flag on 7.54% initial email delivery error
+        - previous week 7.62% initial email delivery error
+    - [ ] Push notification error rate < 5%  (0% observed)
+    - [ ] Sms notification error rate < 5%  (0% observed)
+- Was any downstream service affected by the change?: 
 - Types of errors logged:
-    - There was a spike in errors 2/18 7:10p-7:28p PT in both emails and push notifications. These appear to be due to 503 errors downstream and unrelated to our changes.  The errors resolved on it's own.
-    - Error counts:
-        - EventBus:
-            - Email job: 60 error logs (503s mentioned above)
-            - Push job: 44 error logs (503s mentioned above)
-        - vets-api:
-            - Expected number of MPI profile not found (957 errors)
-            - 61 other errors (MPI Service errors, missing ssn field)
-    - 23140 notifications requested
-- What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? None
+    - 
+- What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
+    -
 
-### Stage C: 25% of users
+### Stage C: Canary
 
-*Test a larger user population to ensure larger usage patterns expose no issues.*
+*Test a small Veteran population to ensure any obvious bugs/edge cases are found.*
 
 #### Planning
 
-- Percentage of Users (and roughly how many users do you expect this to be): 25% of ICNs
+- Percentage of Users (and roughly how many users do you expect this to be): 25% of icns
 
 #### Results
 
-- Turned on 2/19 9:30a - 2/23 3:00p PT
-- Number of users: 13,5700 push notifications
+- Number of users: ___ sms notifications sent
+    - Turned on [TBD]
 - Metrics at this stage (per your "success criteria"):
-    - [x] DataDog errors < 5% (4.6% observed)
-    - [x] 12.6% click through rate overall (estimated 1240 clicks, 9840 sent)
-    - [x] No increase in email sending errors
-        - Initial email error percentage rate: 7.83%
-    - [x] Push notification error rate < 5% (0% observed)
-- Was any downstream service affected by the change?: _NO_
-- Types of errors logged: 
-    - Error counts:
-        - EventBus:
-            - Email job: 1 error logs
-            - Push job: 1 error logs
-        - vets-api:
-            - Expected number of MPI profile not found (2116 errors)
-            - 49 other errors (503s, MPI Service Errors, missing ssn)
-- What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? None
-
-### Stage D: 50% of users
-
-*Test a larger user population to ensure larger usage patterns expose no issues.*
-
-#### Planning
-
-- Percentage of Users (and roughly how many users do you expect this to be): 50%
-
-#### Results
-
-- Turned on 2/23 3:00p - 2/26 10:56a PT
-- Number of unique users: 26,910 notifications sent
-- Metrics at this stage (per your "success criteria"):
-    - [x] DataDog errors < 5% (Removing data from outage)
-        - See notes below regarding outage
-    - [x] 11.7% click through rate overall (estimated using 2 full days 2/24-2/25 2358 clicks, 20100 sent)
-    - [x] No increase in email sending errors (Removing data from outage)
-        - Initial email error percentage rate: 6.64%
-    - [x] Push notification error rate < 5% (1% observed)
-- Was any downstream service affected by the change?: _NO__
-- Types of notification errors logged:
-    - Outage: 2/25 4:40a-8:55a PT
-        - On the morning of February 25th, we experienced an event consumption outage in eventbus-gateway from 4:40–8:55 AM PT. The ArgoCD upgrade introduced a configuration mismatch that caused the eventbus-gateway Service Account to become inaccessible, which broke IAM-protected resource access and is the likely root cause of the Token Auth errors and EFS MountVolume failures we observed. Our team resolved the immediate issues by deleting pods, syncing, and restarting the service; the platform team corrected the ArgoCD permissions mismatch. All failed events were requeued and sent, and other applications were affected by the same upgrade issue.
-    - Outside of outage error counts:
-        - EventBus: 9 errors within eventbus, no errors calling to the Email or Push job
-        - vets-api
-            - 1945 MPI profile not found errors
-            - 99 other errors (504, MPI Error, missing ssn)
-
-
-- What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? None
-
-### Stage E: 75% of users
-
-*Test a larger user population to ensure larger usage patterns expose no issues.*
-
-#### Planning
-
-- Percentage of Users (and roughly how many users do you expect this to be): 75%
-
-#### Results
-
-- Turned on 2/26 10:56a - 3/2 9:50a PT
-- Number of unique users: 29,700 notifications sent
-- Metrics at this stage (per your "success criteria"):
-    - [x] DataDog errors < 5% (3.6% observed)
-    - [x] 12.1% click through rate overall (estimated using 3 fulls days 2/27-3/1 1998 clicks, 16530 sent)
-    - [x] No increase in email sending errors
-        - Initial email error percentage rate: 7.87% 
-    - [x] Push notification error rate < 5% (0% observed)
-- Was any downstream service affected by the change?:  NO
+    - [ ] DataDog errors < 5% (3.97% observed)
+    - [ ] 5.90% click through rate 
+        - 
+    - [ ] No increase in email sending errors 
+        - flag on 7.54% initial email delivery error
+        - previous week 7.62% initial email delivery error
+    - [ ] Push notification error rate < 5%  (0% observed)
+    - [ ] Sms notification error rate < 5%  (0% observed)
+- Was any downstream service affected by the change?: 
 - Types of errors logged:
-    - Error counts:
-        - EventBus: 0 error logs
-        - vets-api:
-            - Expected number of MPI profile not found (1349 errors)
-            - 4 other errors (502s, MPI Service Errors)
-- What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? None
+    - 
+- What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
+    -
 
-### Stage F: 100% of users
+### Stage D: Canary
+
+*Test a small Veteran population to ensure any obvious bugs/edge cases are found.*
 
 #### Planning
 
-- Percentage of Users (and roughly how many users do you expect this to be): 100%
+- Percentage of Users (and roughly how many users do you expect this to be): 50% of icns
 
 #### Results
 
-- Turned on 3/2 9:50a PT (Data below calculated from 3/4 12:30p)
-- Number of unique users: 45540 notifications sent
+- Number of users: ___ sms notifications sent
+    - Turned on [TBD]
 - Metrics at this stage (per your "success criteria"):
-    - [x] DataDog errors < 5% (3.4% observed)
-    - [x] 14.7% click through rate overall (Estimated using 1 full day 3/3 2391 clicks, 16240 sent)
-    - [x] No increase in email sending errors
-        - Initial email error percentage rate: 7.07%
-    - [x] Push notification error rate < 5% (0% observed)
-- Was any downstream service affected by the change?: No
+    - [ ] DataDog errors < 5% (3.97% observed)
+    - [ ] 5.90% click through rate 
+        - 
+    - [ ] No increase in email sending errors 
+        - flag on 7.54% initial email delivery error
+        - previous week 7.62% initial email delivery error
+    - [ ] Push notification error rate < 5%  (0% observed)
+    - [ ] Sms notification error rate < 5%  (0% observed)
+- Was any downstream service affected by the change?: 
 - Types of errors logged:
-    - Error counts:
-        - Eventbus: 8 error logs - broker issues
-        - vets-api:
-            - Expected number of MPI profile not found (1505 errors)
-            - 26 other errors (Missing ssn)
-- What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? None
+    - 
+- What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
+    -
 
+### Stage E: Canary
+
+*Test a small Veteran population to ensure any obvious bugs/edge cases are found.*
+
+#### Planning
+
+- Percentage of Users (and roughly how many users do you expect this to be): 75% of icns
+
+#### Results
+
+- Number of users: ___ sms notifications sent
+    - Turned on [TBD]
+- Metrics at this stage (per your "success criteria"):
+    - [ ] DataDog errors < 5% (3.97% observed)
+    - [ ] 5.90% click through rate 
+        - 
+    - [ ] No increase in email sending errors 
+        - flag on 7.54% initial email delivery error
+        - previous week 7.62% initial email delivery error
+    - [ ] Push notification error rate < 5%  (0% observed)
+    - [ ] Sms notification error rate < 5%  (0% observed)
+- Was any downstream service affected by the change?: 
+- Types of errors logged:
+    - 
+- What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
+    -
+
+### Stage F: Canary
+
+*Full rollout!*
+
+#### Planning
+
+- Percentage of Users (and roughly how many users do you expect this to be): 100% of icns
+
+#### Results
+
+- Number of users: ___ sms notifications sent
+    - Turned on [TBD]
+- Metrics at this stage (per your "success criteria"):
+    - [ ] DataDog errors < 5% (3.97% observed)
+    - [ ] 5.90% click through rate 
+        - 
+    - [ ] No increase in email sending errors 
+        - flag on 7.54% initial email delivery error
+        - previous week 7.62% initial email delivery error
+    - [ ] Push notification error rate < 5%  (0% observed)
+    - [ ] Sms notification error rate < 5%  (0% observed)
+- Was any downstream service affected by the change?: 
+- Types of errors logged:
+    - 
+- What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
+    -
+  
 ### Rollback process
 
-Rollback will be done by disabling feature flags. To disable all push notifications we will set `event_bus_gateway_letter_ready_push_notifications` to 0%.  This will ensure that all push notifications are stopped. To be thorough we can also disable the other feature flags mentioned above.
+Rollback will be done by disabling feature flags. To disable all push notifications we will set `event_bus_gateway_letter_ready_sms_notifications` to 0%.  This will ensure that all push notifications are stopped. To be thorough we can also disable the other feature flags mentioned above.
 
 ## Post Launch metrics
 
