@@ -1,6 +1,6 @@
 # ChampVA Claims Duty to Assist - Initiative Brief
 
-- **Last updated:** 2.16.26
+- **Last updated:** 3.6.26
 - **Author:** Andrea M
 
 ---
@@ -21,8 +21,7 @@ Provide ChampVA beneficiaries with a clear, digital path to request VA assistanc
 
 ## Related/Associated Resources
 
-- [Link to Enhanced Claims Epic](https://github.com/department-of-veterans-affairs/va.gov-team/issues/112008)
-- [Link to ChampVA Claims Product Outline - Enhanced Claims] ⚠️ NEEDS INPUT
+- [Link to ChampVA Claims v2 Product Outline - Enhanced Claims](https://agilesix.slack.com/archives/D07JB10HS11)
 - [Link to DTA Epic](https://github.com/department-of-veterans-affairs/va.gov-team/issues/126751)
 
 ---
@@ -63,9 +62,7 @@ This initiative directly supports OCTO-DE's mission by digitizing a previously p
 
 - **KR1 — Applicants prefer the digital experience over manually mailing the form.** Providing a digital DTA option gives beneficiaries a clear alternative to mailing sendback letters, encouraging adoption of the digital channel.
 
-**Objective 3: Our solution will work to ensure that an accurate status of the transaction is given to the Veteran or family member.**
 
-- **KR1 — Errors due to hand-written applications decrease.** Digital DTA submissions are structured and flagged consistently, reducing misrouted or unclear requests that occur with handwritten paper submissions.
 
 ### VES FY26 OKRs
 
@@ -97,7 +94,6 @@ This initiative directly supports OCTO-DE's mission by digitizing a previously p
 | Product KPI | Baseline | Target | Post-Launch 1 week | Post-Launch 1 month |
 |---|---|---|---|---|
 | DTA-flagged submissions (digital) | NEW | [TBD] | | |
-| DTA submissions correctly routed in DocMP | NEW | 100% | | |
 | Average time from DTA request to team acknowledgment | [TBD — current paper baseline] | -7 days | | |
 | Errors on DTA submissions | NEW | 0 errors | | |
 | Enhanced Claims form abandonment rate | [TBD] | No increase | | |
@@ -149,7 +145,6 @@ This initiative directly supports OCTO-DE's mission by digitizing a previously p
 
 - DTA support within initial ("shoebox") ChampVA claims submissions — this requires separate discovery and prioritization
 - Multi-claim submissions
-- Adding an Other Health Insurance (OHI) subform
 - Large-scale redesign of the ChampVA claims form
 - Changes to DocMP's internal workflow or UI beyond receiving flagged submissions
 
@@ -160,7 +155,7 @@ This initiative directly supports OCTO-DE's mission by digitizing a previously p
 ### Incident Response
 
 - The ChampVA Enhanced Claims flow is currently in production; this initiative adds the DTA indicator and routing functionality
-- Monitoring will use existing [TBD — Datadog dashboards, etc.] ⚠️ NEEDS INPUT
+- Monitoring will use existing [Datadog dashboards](https://vagov.ddog-gov.com/dashboard/tgw-7ju-ywy/ivc-champ-va-10-7959a-claims-form-dashboard?fromUser=false&refresh_mode=paused&from_ts=1769407200000&to_ts=1771999199999&live=false)
 - If errors or issues are discovered post-launch, the DTA feature can be disabled via feature toggle, reverting the Enhanced Claims flow to its previous state
 - Triage and resolution will be fast-tracked to complete within 1–3 days
 - **Main POCs:**
@@ -172,15 +167,14 @@ This initiative directly supports OCTO-DE's mission by digitizing a previously p
 
 | Milestone | Target Date |
 |---|---|
-| Design completion | [TBD] |
-| Development complete | [TBD] |
-| Integration testing with DocMP routing | [TBD] |
-| Staging review | [TBD] |
-| Launch | [TBD] |
+| Design completion | End of Sprint 15 - March 10, 2026 |
+| Development complete | End of Sprint 16 - March 24 |
+| Integration testing with DocMP routing | End of Sprint 17 - April 7, 2026 |
+| Launch | tentatively April 8, 2026 |
 
 **Initiative Launch Dates**
 
-- **Target Launch Date:** [TBD]
+- **Target Launch Date:** April 8, 2026
 - **Actual Launch Date:** TBD
 
 ---
@@ -210,8 +204,17 @@ TBD
 
 **What offices/departments are critical to make this initiative successful?**
 
-- **Office/Department:** [TBD — e.g., DSD, DocMP team] ⚠️ NEEDS INPUT
-- **Contact(s):** [TBD] ⚠️ NEEDS INPUT
+- **Office/Department:** DocMP/Pega, CVA Claims - Duty to Assist team
+- **Contact(s):
+  - DocMP/Pega
+    - (Denise) Cindy Carr
+  - DTA Team
+    - David G
+    - Lauren T
+    - Rachel D
+    - Richard Y
+    - Angela P
+      
 
 ---
 
