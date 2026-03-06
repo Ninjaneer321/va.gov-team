@@ -52,8 +52,8 @@ demographics:
     white: 5
     black: 6
     hispanic: 4
-    biracial: 0
-    asian: 1
+    biracial: 7
+    asian: 2
     native: 1
   disability:
     cognitive: 0
@@ -577,13 +577,13 @@ Race:
 * White: 5
 * Black: 6
 * Hispanic: 4
-* Biracial: 0
-* Asian: 1
+* Biracial: 7
+* Asian: 2
 * Native: 1
 
 
 Disability and Assistive Technology (AT): 0
-* Cognitive: 0
+* Cognitive: 4
 * AT beginner: 0
 * AT advanced user: 0
 * Desktop screen reader: 0
@@ -619,7 +619,7 @@ This research does not include the perspectives of the following marginalized Ve
 | Assistive Tech (AT) users                                                                                  | Total        | n/a          | 0            |                 | 0                    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a     | n/a     | n/a     | n/a     | n/a     | n/a     | n/a     |
 | No-show participants                                                                                       | Total        | n/a          | n/a          |                 | 1                    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a     | n/a     | n/a     | n/a     | n/a     | n/a     | n/a     |
 | Age 55-64+                                                                                                 | General      | 50%          | 8            | 3               | no                   | 0      | 0      | 1      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 1       | 0       | 0       | 0       | 1       | 0       |
-| Cognitive Disability                                                                                       | General      | 50%          | n/a          | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
+| Cognitive Disability                                                                                       | General      | 50%          | n/a          | 0               | no                   | 0      | 0      | 0      | 1      | 0      | 0      | 0      | 0      | 1      | 0       | 1       | 0       | 0       | 0       | 0       | 1       |
 | Mobile user                                                                                                | General      | 50%          | 8            | 5               | no                   | 0      | 0      | 1      | 1      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 1       | 1       | 0       | 1       | 0       |
 | Rural                                                                                                      | General      | 25%          | 4            | 6               | yes                  | 1      | 0      | 0      | 0      | N      | 1      | 1      | 0      | 1      | 0       | 1       | 0       | 0       | 0       | 0       | 1       |
 | No degree                                                                                                  | General      | 25%          | 4            | 3               | no                   | 0      | 0      | 0      | 0      | N      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 1       | 0       | 1       | 1       |
@@ -629,8 +629,8 @@ This research does not include the perspectives of the following marginalized Ve
 | Expat (living abroad)                                                                                      | General      | 0.4%         | 1            | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
 | Black or African American                                                                                  | Race         | 15%          | 3            | 6               | yes                  | 1      | 0      | 0      | 1      | N      | 0      | 0      | 1      | 0      | 1       | 0       | 1       | 0       | 0       | 0       | 1       |
 | Hispanic, Latino, or Spanish origin                                                                        | Race         | 12%          | 2            | 4               | yes                  | 0      | 1      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 1       | 1       | 0       | 0       | 0       | 1       | 0       |
-| Biracial                                                                                                   | Race         | 3.9%         | 1            | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
-| Asian                                                                                                      | Race         | 2.7%         | 1            | 1               | yes                  | 0      | 0      | 0      | 0      | N      | 0      | 0      | 0      | 0      | 0       | 1       | 0       | 0       | 0       | 0       | 0       |
+| Biracial                                                                                                   | Race         | 3.9%         | 1            | 0               | no                   | 1      | 0      | 0      | 1      | N      | 0      | 0      | 0      | 0      | 1       | 1       | 1       | 1       | 0       | 1       | 0       |
+| Asian                                                                                                      | Race         | 2.7%         | 1            | 1               | yes                  | 0      | 0      | 0      | 0      | N      | 0      | 0      | 1      | 0      | 0       | 1       | 0       | 0       | 0       | 0       | 0       |
 | Native Hawaiian or other Pacific Islander                                                                  | Race         | 0.3%         | 1            | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
 | First Nations (Canada)                                                                                     | Race         | n/a          | 1            | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
 | Native, American Indian or Alaska Native                                                                   | Race         | 1.6%         | 1            | 1               | yes                  | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 1       | 0       | 0       | 0       |
