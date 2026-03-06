@@ -52,7 +52,7 @@ Read our [VA Standard Operating Procedures for SMS](https://github.com/departmen
 - Store Veteran data
 - Track analytics per Veteran
 
-### Business Partners
+### Integration Partners
 - VA Profile (contact information and communication preferences)
 - MPI (Veteran identity and deceased-status lookups)
 - VA.gov Authenticated Experience (notification settings on VA.gov)
