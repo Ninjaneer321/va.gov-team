@@ -607,7 +607,9 @@ This research does not include the perspectives of the following marginalized Ve
 
 ---- 
 
-<img width="1170" height="598" alt="Screenshot 2026-03-02 at 7 12 56 AM" src="https://github.com/user-attachments/assets/a0d05617-11ab-4f07-8e7c-c93e795e3530" />
+<img width="879" height="665" alt="Screenshot 2026-03-06 at 10 07 25 AM" src="https://github.com/user-attachments/assets/3b9e6dba-8248-49f6-8376-e4c6ddd03ab3" />
+
+
 
 #### A more accessible version of the table in the above image
 
