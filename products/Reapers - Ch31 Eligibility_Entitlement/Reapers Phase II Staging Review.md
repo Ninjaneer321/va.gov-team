@@ -23,10 +23,10 @@ This page houses the links to all files needed for Reapers Staging Review.
 - Note: The log in component for the tool will be placed on this page. This page will be added to the Careers and employment hub page under the "Manage..." section
 
 ### Test users and scenarios
-- Testing information - https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/vagov-users/Reapers-VRE%20CH31%20Eligibility-Entitlement-TestUsers.md
+- Testing information - https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/vagov-users/Reapers%20Phase%20II-%20Your%20VR&E%20Benefit%20Status.md
   
 ### List of known issues and bugs
-- 
+- Content and IA team are working on the entry point, but don't yet have a preview. The entry point page is in progress.
   
 ### Completed accessibility testing artifact
 - Accessibility testing artifact: https://github.com/department-of-veterans-affairs/va.gov-team/issues/135194
