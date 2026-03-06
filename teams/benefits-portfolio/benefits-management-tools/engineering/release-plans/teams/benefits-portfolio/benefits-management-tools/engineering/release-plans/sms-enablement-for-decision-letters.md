@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD024 -->
 # VANotify SMS Enablement for Decision Letters Release Plan
 
-WORK IN PROGRESS! DRAFT! IT'S JUST A COPY OF PUSH AT THIS POINT! DISREGARD! YOU HAVE BEEN WARNED!
+WORK IN PROGRESS! DRAFT! NON-FINAL! ETC!
 
 ## Step 1: Development
 
