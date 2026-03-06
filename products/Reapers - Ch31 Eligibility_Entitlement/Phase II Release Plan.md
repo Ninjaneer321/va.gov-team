@@ -3,9 +3,9 @@
 ## Step 1: Development
 List the features toggles here.
 
-**Toggle name: **vre_eligibility_status_updates**
+**Toggle name: **vre_eligibility_status_phase_2_updates**
 
-**Description: It will show or hide "My Eligibility and Benefits" Page based on user selection**
+**Description: It will show or hide "Your VR&E Benefit Status" Page based on user selection**
 
 ## Step 2: Validation
 
