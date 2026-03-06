@@ -1,3 +1,128 @@
+---
+# Research Plan Metadata
+title: "Research Plan for MHV to VA.gov Transition Team, Healthcare Transition Communications Study, March 2026"
+date: 2026-03-06
+last_updated: 2026-03-06
+team: "MHV to VA.gov Transition Team"
+product: "Healthcare Transition Communications and Alerts"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "As part of transitioning EHRs, VA.gov and related VA digital experiences are introducing new healthcare alerts to keep Veterans informed about temporary functionality changes (appointments, medications, secure messaging, medical records). Because alerts are brief, time-sensitive, and often read quickly (or not at all), there are concerns about content clarity, timing, channel delivery, and alert behavior that need to be validated with real Veterans over time."
+  product_location: "VA.gov authenticated experience, VA Health and Benefits mobile app (VAHB)"
+  user_familiarity: "New - these are new transition alerts and temporary functionality changes related to EHR transition"
+  product_brief_url: "Not specified"
+
+# Research Design
+methodology: "Diary study with semi-structured interviews"
+research_format:
+  location: remote
+  moderated: true
+
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand Veterans' real-world experience of receiving new healthcare alerts and changing functionality over time"
+  - goal_2: "Capture what of the changing functionality and alerts that Veterans notice on their own or unprompted"
+  - goal_3: "Document whether Veterans understand why the functionality has changed, what that means for them, what (if anything) they need to do, and where to go for more information"
+
+research_questions:
+  - "Does the Veteran notice the alert and changing functionality? If so, when and what do they notice? Do they understand the temporary nature?"
+  - "What patterns emerge over time as more alerts and changing functionality come in (e.g., growing trust, fatigue, ignoring, increased reliance)?"
+  - "When would the Veteran expect to see the next change? What kind of lead time?"
+  - "Do Veterans understand what the alert means on first read?"
+  - "Do Veterans understand what action (if any) they should take—and by when?"
+  - "Do Veterans notice the changed functionality and redirect on their own? If not, what do they do when they run into it? If they do, what visual cues do they see that tells them?"
+  - "Do Veterans understand what future functionality changes will happen? Do they infer?"
+
+hypotheses:
+  - "Alert blindness: Veterans will overlook and not read the alert, increasingly so as more alerts happen"
+  - "Users will notice the functionality changes unprompted"
+  - "Users will understand why the functionality changes have happened or will happen"
+
+expected_outcomes: "This study will produce a documentation of the journey a Veteran user goes through during the EHR transition process, with callouts of what to think about for future transition communications. Findings will inform alert timing, content clarity, channel delivery, frequency, and behavior to improve Veteran comprehension and action-taking during healthcare transitions."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Not specified - appears to be direct recruitment from existing user pool"
+  approach: "Purposive sampling from transitioning VA facilities"
+
+  primary_criteria:
+    - "Must be a Veteran"
+    - "Must be attached to a transitioning VA facility in Michigan (Battle Creek, Ann Arbor, Detroit, or Saginaw)"
+    - "Must have VA healthcare (13 of 14 available participants have VA healthcare)"
+    - "Must be willing to participate in 3 check-in interviews over approximately 4 weeks"
+    - "Must be able to share their screen showing their personal VA.gov account during sessions"
+
+  secondary_criteria:
+    - "Not specified in plan"
+
+  screener_questions: []
+    # No explicit screener questions provided in the research plan
+
+participants:
+  veterans: 8  # 6-8 Veterans targeted
+  caregivers: 0
+  dependents: 0
+  total_recruited: 8  # Recruiting 6-8 to complete
+  completed_sessions_goal: 6  # Minimum 6 Veterans completing all 3 check-ins
+
+# Timeline & Sessions
+timeline:
+  pilot_date: "Not specified"
+  pilot_participant: "TBD"
+  research_dates: "2026-03-16 to 2026-04-18"
+  research_review_submission: "TBD"
+
+session_details:
+  duration_minutes: 30  # 30 minutes per check-in interview
+  buffer_minutes: "Not specified"
+  max_sessions_per_day: "Not specified"
+
+# Strategic Alignment
+octo_priorities:
+  - objective: "Increase the usage of VA's self-service products"
+    key_results:
+      - "Veterans understand how to continue using healthcare self-service tools during transitions"
+  - objective: "Increase the quality and reliability of VA digital services"
+    key_results:
+      - "Alerts are clear, timely, and actionable for Veterans"
+  - objective: "Reduce effort and friction for Veterans completing important tasks"
+    key_results:
+      - "Veterans can successfully navigate temporary functionality changes with minimal confusion"
+
+veteran_journey_phases:
+  - "Taking Care of Myself"
+  - "Aging"
+  - "Starting Up"
+  - "Putting Down Roots"
+  - "Retiring"
+
+# Research Repository Tracking
+related_research:
+  previous_studies: []
+    # No previous studies explicitly mentioned with links in the research plan
+
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "DSC: Alert Boxes"
+  - "DSP: Notifications"
+  - "MHV: Appointments"
+  - "MHV: Pharmacy"
+  - "MHV: Secure Messaging"
+  - "MHV: Personal Health Records/Medical Records"
+  - "MHV: MyHealth (Health Hub)"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "diary-study"
+  - "semi-structured-interviews"
+  - "remote"
+  - "EHR-transition"
+  - "health-modernization"
+  - "MHV-to-VA.gov"
+---
+
 # **Research Plan: Healthcare Transition Comms Study (3 check-ins)**
 
 Cara Frissell - 3/5/26
