@@ -17,8 +17,8 @@ This page houses the links to all files needed for Reapers Staging Review.
 - Staging Link - https://staging.va.gov/careers-employment/track-your-vre-benefits/vre-benefit-status
   
 ### Drupal or Staging URL for updated primary entry point
-- All information provided by content and IA team can be found here - [VR.E.Eligibility.Checker_2025-10-09_16-13-54 (1).pdf](https://github.com/user-attachments/files/22850329/VR.E.Eligibility.Checker_2025-10-09_16-13-54.1.pdf)
-- Ticket from IA/Content - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/information-architecture/ia-design-docs/benefits-portfolio/track-vre-ch-31-benefits.md
+- All information provided by content and IA team can be found here - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/information-architecture/ia-design-docs/benefits-portfolio/track-vre-ch-31-benefits.md
+- Ticket from IA/Content - https://github.com/department-of-veterans-affairs/va.gov-team/issues/132253#event-23305523338
 - Drupal entry point - va.gov/careers-employment/track-your-vre-benefits/
 - Note: The log in component for the tool will be placed on this page. This page will be added to the Careers and employment hub page under the "Manage..." section
 
@@ -26,13 +26,12 @@ This page houses the links to all files needed for Reapers Staging Review.
 - Testing information - https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/vagov-users/Reapers-VRE%20CH31%20Eligibility-Entitlement-TestUsers.md
   
 ### List of known issues and bugs
-- We recieved our content and IA feedback yesterday, in there giving us the correct URL to use. As a result we have to seperate our page from being inbedded in the form page. We are working on this now and should be done by the time we hit staging review, we will hold our code locally until after staging review.
+- 
   
 ### Completed accessibility testing artifact
 - Accessibility testing artifact: https://github.com/department-of-veterans-affairs/va.gov-team/issues/135194
   
 ### QA Artifacts
-- Cypress Testing - https://github.com/department-of-veterans-affairs/vets-website/pull/39297
 - Test Rail - https://dsvavsp.testrail.io/index.php?/projects/overview/99
 - Endpoint monitoring playbook - Reapers hasn't made any updates that require endpoing monitoring
 - Logging silent failures -  Reapers hasn't made any updates that require logging of silent failures
