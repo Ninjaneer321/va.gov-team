@@ -1,7 +1,7 @@
 # Discover Your Benefits: Benefit Cards Content Management
 
 |Benefit Type	 | Benefit Name	 | Benefit Description  	| When to apply	| Learn More URL   |
-|--------------|---------------|---------------|---------------|---------------|
+|----------|---------------|---------------|---------------|---------------|
 | Burials and memorials	| VA national cemetery burial	| Veterans, service members, and some family members may be eligible for burial in a VA national cemetery. Reserves or National Guard members that became disabled or died from an injury or certain cardiovascular disorders caused - or made worse - by their service during a period of inactive-duty training may also be eligible.	| Before or after you separate from service |	https://www.va.gov/burials-memorials/eligibility/ |
 | Careers and Employment |	DOD SkillBridge program |	The DOD SkillBridge program can help you gain valuable civilian work experience through specific industry training, apprenticeships, or internships. |	Up to 180 days before you separate from service	| https://skillbridge.osd.mil/ |
 | Careers and Employment |	Educational and career counseling (Chapter 36) |	You can apply for free educational and career guidance, planning, and resources through the Personalized Career Planning and Guidance (PCPG) program. Your dependents may also be eligible for this benefit. |	Up to 180 days before you separate from service or up to 1 year after you separate from service |	https://www.va.gov/careers-employment/education-and-career-counseling/ |
