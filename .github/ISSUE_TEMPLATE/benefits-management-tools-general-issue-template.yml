@@ -1,6 +1,6 @@
 name: Benefits Management Tools General Issue
-description: Create a new issue (Task, Bug, Enhancement, Question, Design, Accessibility, or Spike)
-title: "[Issue Type] [Short descriptive title]"
+description: Create a new issue (Task, Bug, Enhancement, Question, Design, Spike, or Other)
+title: "[UX|ENG|Content|Product] [Issue Type] Short descriptive title"
 labels: ["benefits-management-tools"]
 assignees: []
 
@@ -34,7 +34,7 @@ body:
       description: Select the team this issue belongs to.
       options:
         - "bmt-team-1 (Mavericks)"
-        - "bmt-team-2 (Bee’s Knees)"
+        - "bmt-team-2 (Bee's Knees)"
         - "bmt-team-3 (Phoenix)"
         - "Decision Reviews"
         - other
@@ -49,6 +49,20 @@ body:
       placeholder: Enter team name…
 
   - type: dropdown
+    id: discipline
+    attributes:
+      label: Discipline
+      description: |
+        Select the primary discipline this work is for. Use these abbreviations in your issue title: UX, ENG, Content, Product.
+      options:
+        - UX
+        - Engineering
+        - Content
+        - Product
+    validations:
+      required: true
+
+  - type: dropdown
     id: issue-type
     attributes:
       label: Issue Type
@@ -59,7 +73,6 @@ body:
         - Enhancement
         - Question
         - Design
-        - Accessibility
         - Spike
         - Other
     validations:
@@ -126,23 +139,24 @@ body:
     validations:
       required: false
 
-  # ---------- Accessibility work ----------
+  # ---------- Accessibility considerations ----------
   - type: textarea
     id: accessibility
     attributes:
-      label: Accessibility Scope & Details (if applicable)
-      description: Capture any accessibility considerations or requirements for this issue.
+      label: Accessibility Considerations (if applicable)
+      description: |
+        Note any accessibility considerations relevant to this work.
+        For dedicated accessibility work requests, use Tracy's [Accessibility Practice template](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=benefits-accessibility-practice-template.md).
       placeholder: |
-        If accessibility work is required, describe the scope and details here.  
-        Examples:  
-        - Keyboard navigation & focus order  
-        - Screen reader support (NVDA/JAWS/VoiceOver/TalkBack)  
-        - Color and contrast  
-        - Semantics/landmarks/roles  
-        - Forms, labels, and error messaging  
-        - Motion/animation & prefers-reduced-motion  
-        - Reflow/zoom/responsive behavior  
-        - Other accessibility considerations  
+        If this issue has accessibility implications, note them here.
+        Examples:
+        - Keyboard navigation & focus order
+        - Screen reader support (NVDA/JAWS/VoiceOver/TalkBack)
+        - Color and contrast
+        - Semantics/landmarks/roles
+        - Forms, labels, and error messaging
+        - Motion/animation & prefers-reduced-motion
+        - Reflow/zoom/responsive behavior
     validations:
       required: false
 
@@ -151,7 +165,7 @@ body:
     id: acceptance-criteria
     attributes:
       label: Acceptance Criteria / Definition of Done
-      description: Define what “done” means for this issue. Use bullets or checkboxes.
+      description: Define what "done" means for this issue. Use bullets or checkboxes.
       placeholder: |
         - [ ] Outcome 1 met
         - [ ] Outcome 2 met
@@ -185,17 +199,17 @@ body:
         - Make sure the parent Epic clearly reflects the outcome this work contributes to.
 
         **Estimate**
-        - During refinement or sprint planning, set an **estimate in the right sidebar** using your team’s standard system (story points or similar).
+        - During refinement or sprint planning, set an **estimate in the right sidebar** using your team's standard system (story points or similar).
         - Suggested effort scale (if applicable):
-          - `1` – Very minuscule, less than a day  
-          - `2` – Small, ~1 day  
-          - `3` – Medium sized, a couple of days  
-          - `5` – Bigger effort, about a week  
-          - `8` – Likely about a full sprint  
-          - `13` – Big effort, multiple sprints (consider breaking down)  
+          - `1` – Very minuscule, less than a day
+          - `2` – Small, ~1 day
+          - `3` – Medium sized, a couple of days
+          - `5` – Bigger effort, about a week
+          - `8` – Likely about a full sprint
+          - `13` – Big effort, multiple sprints (consider breaking down)
 
         **Priority**
-        - Apply your team’s **priority / severity labels** or milestones on the right:
+        - Apply your team's **priority / severity labels** or milestones on the right:
           - Examples: `priority: high`, `priority: medium`, `priority: low`, or sprint-specific milestones.
         - Use these consistently so the backlog view reflects true urgency and impact.
 
@@ -206,7 +220,7 @@ body:
         **Team Labels**
         Apply the correct **Team label** after selecting your team above:
         - `bmt-team-1` → Mavericks
-        - `bmt-team-2` → Bee’s Knees
+        - `bmt-team-2` → Bee's Knees
         - `bmt-team-3` → Phoenix
         - Or another team label if applicable
 
@@ -217,8 +231,7 @@ body:
         - **Enhancement** → Improvement or optimization to existing functionality
         - **Question** → Clarification or decision needed
         - **Design** → UX/UI design, mockups, prototypes, content changes
-        - **Accessibility** → A11y-specific issues (WCAG, screen readers, color contrast, etc.)
-        - **Spike**
+        - **Spike** → Timeboxed research or investigation
         - **Other**
 
         **Feature Labels**
@@ -228,15 +241,14 @@ body:
         - `intent-to-file`
         - Or other feature-specific labels as appropriate
 
-        **Workstream Labels**
+        **Discipline Labels**
         Apply labels to indicate the discipline or focus area:
         - `ux`
         - `engineering`
         - `frontend`
         - `backend`
-        - `accessibility`
         - `content`
-        - Or other workstream labels as appropriate
+        - Or other discipline labels as appropriate
 
         **Organization Labels**
         Apply these labels to indicate cross-functional or process-related states that support workflow organization and team collaboration:
