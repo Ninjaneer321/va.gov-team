@@ -285,7 +285,7 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 
 
 ### Research sessions
-- `Planned dates of research:` **03/DD-03/DD**
+- `Planned dates of research:` **03/23-04/01**
 
 
 ### Length of sessions
@@ -304,11 +304,16 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 > [!TIP]
 > Please request enough dates and at ***least double the amount of time slots for the number of requested participants***. **(e.g. 3/17, Monday 9:00AM-1:00PM, 3:00PM-6:00PM EST; 3/18, Tuesday 9:00AM-6:00PM EST, etc.;** ***12 time slots for 6 participants***). This helps Perigean book participants when there are more time slots available, and when sessions need to be rescheduled or filled in with further recruitment.
 
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `[03/23, Monday, 10:30 AM - 6:00 PM] EST`
+- `[03/24, Tuesday, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `[03/25, Wednesday, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `[03/26, Thursday, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `[03/27, Friday, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `[03/30, Monday, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `[03/31, Tuesday, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `[04/01, Wednesday, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `[04/02, Thursday, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `[04/03, Friday, TT:TT AM/PM-TT:TT AM/PM] EST`
 
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
