@@ -11,7 +11,7 @@ QA was performed manually by team members.
 
 ## Accessibility Staging Review Prep
 - [A11y Staging review prep doc](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vet-transition-support/results-page-2.0/launch-materials/results-pg-2.0-a11y-staging-review-prep.md)
-- _A11y ticket: TK_
+- A11y ticket: [#135328](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135328)
 
 ## Test URL
 - The application can be accessed directly at https://staging.va.gov/discover-your-benefits/goals
