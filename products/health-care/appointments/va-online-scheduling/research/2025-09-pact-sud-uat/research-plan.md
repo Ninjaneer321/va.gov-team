@@ -271,7 +271,8 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 ### Kick-off Call with Perigean
 
 - `Available timeslots for a kick off call are below:`
-	- **TBD - Early or mid March**
+	- **03/16, 12:30 - 3:00 PM ET**
+    - **03/17, anytime after 1:30 PM ET**
 
 
 ### Prepare
