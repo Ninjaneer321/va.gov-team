@@ -30,7 +30,13 @@ List the feature toggles here.
   * VSC service failure rate: <1%
   * Confirmed % of VSC **(mobile)**: >87%
   * Confirmed % of VSC **(web)**: >75%
-  * See meaningful traffic around the SSC
+  * Is there meaningful traffic around the Service Summary Codes? Y/N
+  * Ineligibility messages that are being populated are around the following percentages:
+    * ineligible_currently_serving_ssc: 15% - 25% range
+    * ineligibile_dishonorable_ssc: <1% range
+    * ineligible_edipi_no_pnl_ssc: <1%
+    * ineligible_error_ssc: 0.5% - 1.5% range
+    * ineligible_unknown_ssc: 75% - 85% range
 * Who is monitoring the dashboard: Natalie Gibbons, Matt Guest, Michael Harmer, Megan Commons, Janet Van, and Jesse Berman.  
 
 ### **Stage A: Canary**
