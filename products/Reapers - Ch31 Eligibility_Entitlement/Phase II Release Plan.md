@@ -50,15 +50,15 @@ Even though your feature has been tested and ready, production is still a differ
 
 Robert Allender - Government Lead
 
-Ekaterina Shick - Program Manager
+Stan Gardner - Program Manager
+
+Shweta Minocha - Scrum Master
 
 **Back Up POC's**
 
-Vanson Samuel - Technical Lead 
+Taras Kurilo - Frontend
 
-Jeffrey Marks - Backend 
-
-Nicholas Hibbits - Frontend 
+Seth Solomon - Integrations/Backend 
 
 
 
