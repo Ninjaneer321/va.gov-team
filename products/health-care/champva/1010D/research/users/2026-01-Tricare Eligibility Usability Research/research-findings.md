@@ -506,19 +506,7 @@ This research supports measurement of this KPI by....
 - [Tricare screener discovery](https://www.figma.com/design/UmAtr3ULQEInMXfNFwP0g0/Application-for-CHAMPVA---10-10d--and-OHI-Certification--10-7559c--WIP?node-id=8969-5389)
 
 
-> [!IMPORTANT]
-> **After completing the demographic information below and saving this file**, use the [GitHub Copilot Research Findings Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md) to automatically populate the YAML frontmatter section at the top of this document with: 
-> - Participant demographics (counts, age ranges, education levels, etc.)
-> - Key findings and recommendations
-> - Research goals and methodology
-> - Appropriate research repository tags
->
-> The prompt will parse the demographic data from this section and structure it correctly for the frontmatter's nested YAML format. 
-
 ### Research participants 
-_Complete the demographic info below using information from the Perigean recruitment survey. For those items where you didn't have participants, please mark with "0". You can use "unknown" if you aren't sure if your participants had a characteristic._ 
-
-[Example Research participants](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md#research-participants)
 
 #### Recruitment criteria
 
@@ -608,17 +596,6 @@ Disability and Assistive Technology (AT): 0
 
 
 #### Underserved groups we haven’t talked to 
-> [!NOTE]
-_Complete the [VA recruitment checker for marginalized Veteran groups](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx):_
-> 1. Duplicate the ***Template*** worksheet
-> 1. Enter your participant information **(see the *Template Instructions* worksheet for details)**
-> 1. Make a screenshot of the cells that you want to share and paste it into this report below
-> 1. Generate an accessible version of those cells using Github Copilot Chat:
->    - Start a new Github Copilot chat
->    - Enter: "I want to convert these spreadsheet cells into a table in markdown:" 
->    - Copy and paste the cells from the recruitment checker spreadsheet that you've filled in
->    - Copy the resulting markdown table by clicking the copy icon in the Copilot chat, and paste it into this report below 
->    - (If Copilot returns an error, try using a different AI model, such as "Claude Sonnet 3.7 Thinking")
 
 This research does not include the perspectives of the following marginalized Veteran groups:
 * Ages 55-64+
