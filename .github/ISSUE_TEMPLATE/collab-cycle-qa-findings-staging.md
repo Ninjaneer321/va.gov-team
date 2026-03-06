@@ -103,12 +103,9 @@ QA -
 - [ ] Not applicable
     - The feature is not a form with a generated PDF submission.
 - [ ] Standard has been met 
-    - The PDF has been expired for 5 months or less, or the PDF is not expired.
+    - The PDF is not expired.
 - [ ] Standard has not been met 
-    - The PDF has been expired for 6 to 9 months. 
-    - **Warning, not launch-blocking**
-- [ ] Standard has not been met 
-    - The PDF has been expired for 10 months or more.
+    - The PDF is expired.
     - **Launch-blocking**
 
 ##### Explanation of failure to meet standard (if applicable):
