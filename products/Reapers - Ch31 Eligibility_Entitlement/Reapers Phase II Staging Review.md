@@ -27,6 +27,7 @@ This page houses the links to all files needed for Reapers Staging Review.
   
 ### List of known issues and bugs
 - Content and IA team are working on the entry point, but don't yet have a preview. The entry point page is in progress.
+- On Step 3 (Orientation Video), when the user makes a selection and selects 'Submit' an error message is showing, but the progress tracker is working as expected. We are working on this now and should be done by the time we hit staging review, we will hold our code locally until after staging review.
   
 ### Completed accessibility testing artifact
 - Accessibility testing artifact: https://github.com/department-of-veterans-affairs/va.gov-team/issues/135194
