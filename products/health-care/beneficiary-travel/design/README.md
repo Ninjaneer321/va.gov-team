@@ -17,6 +17,11 @@ Most of the travel pay design work is documented in Figma. Below are some of the
 - [Travel reimbursement status page](https://www.figma.com/design/RJ6OVm0MWD2WprVfO7E3lp/Travel-reimbursement-status-page?node-id=250-9661&t=T6r8C8VcKR9XdrXH-1) (archived; current designs for the detail/status page have been moved to the Complex travel reimbursement claims file)
 - [Simple mileage-only travel pay claim submission](https://www.figma.com/design/RzugGEmu4drhCSHTyQ6hjl/Simple-mileage-only-travel-pay-claim-submission?node-id=250-9661&t=F8ws5nIEun6ssKfr-1) (archived; simple mileage-only claims were replaced with the complex claims flow, shown in the Complex travel reimbursement claims file)
 
+## Content notes
+The travel pay team follows all the standard VA content guidelines. Here are a few guildelines specific to our team:
+- "community care" uses lower case letters
+- If we're referencing a claim, use the term "travel reimbursement claim." In instances where we're not referencing a specific claim, use the term "travel pay," which is more plain language. For example, we'd say "file a travel reimbursement claim" or "file for travel pay"--we wouldn't say "file for travel reimbursement."
+
 ## Other helpful resources
 - [Travel pay UX research folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel/research)
 - [Travel Claim Status Descriptions Mural board](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1741383202688/4275fca192314799dededc2a9aeae4fd383b0ace) and [Travel Claim Statuses Translation Layer Mural board](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1729029298796/b9c1bdc48809fbb04d73eed6f9d8c1e4474d56cb) - this reflects the work Cara and team began to provide better claim status descriptions to users. This work stalled because of concerns from VA stakeholders.
