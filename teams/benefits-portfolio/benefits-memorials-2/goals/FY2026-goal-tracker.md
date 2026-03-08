@@ -11,7 +11,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 **Primary Goals (May shift based on stretch goal dependencies)**
 | Priority | Title | S.Epic |  Goal + Info |  Discipline | Dependency | Status/Notes |
 |---------------|---------------|---------------|---------------|---------------|---------------|---------------|
-| P1 | **Payment History (VHA):**  | [#18859](https://github.com/department-of-veterans-affairs/va.gov-team/issues/18859) | Progress development efforts in preparation for release this quarter. | Primarily BE; may involve whole team collab| Lighthouse |   |
+| P1 | **Payment History (VHA):**  | [#18859](https://github.com/department-of-veterans-affairs/va.gov-team/issues/18859) | Progress development efforts in preparation for release this quarter. | Primarily ENG; may involve whole team collab| Lighthouse |   |
 | P2 | **Pay.gov Hosted Collection Page (HCP) for Overpayments:**  |[#105733](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105733)  |Finalize design + engineering handover.   | BE, FE | **Pay.gov + DMC for <Receivable ID> + accounting components** |   |
 | P3 | **Benefit Payment Tool**  | [#130147](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130147) | Establish product understanding that enables the team to confidently identify, debug and resolve issues moving forward. | UX/ENG |   |   |
 | P4 | **Mobile App:** Collaborate with MFS (Mobile Feature Support) team to add benifits into mobile app experience |  [#106209](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106209) | Collaborate as needed. | MFS team responsible for implementation - FM team to collaborate. |None  |  |
