@@ -66,7 +66,7 @@ All pages have ratings of 2 or below.
 5. [Can I delete my ID.me or Login.gov account?](https://www.va.gov/resources/can-i-delete-my-logingov-or-idme-account/) (37% out of 54 responses)
    
 ## Analysis
-[Resources and support ratings spreadsheet](https://dvagov-my.sharepoint.com/:x:/r/personal/randi_hecht_va_gov/Documents/Documents/Analytics/Resources%20and%20support%20ratings%20tracking%20January%202026.xlsx?d=wd919bb6db05f4874abdb5a9cdaabc8ea&csf=1&web=1&e=HeqWxM)
+[Resources and support ratings spreadsheet](https://dvagov-my.sharepoint.com/:x:/r/personal/ramiro_camarillo_va_gov/_layouts/15/Doc.aspx?sourcedoc=%7BC060A3D1-A2D7-4B74-96A3-429A15CAD016%7D&file=Resource%20and%20support%20ratings%2C%20February%202026.xlsx&action=default&mobileredirect=true)
 - We met our goal this month of 75% good rating for resources and support pages.  
 - Performance isn't as high when broken down to individual pages:
   - 38% of pages are scoring at 90% or higher "good"
