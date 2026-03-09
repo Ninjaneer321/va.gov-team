@@ -18,3 +18,13 @@
 - **Making a prototype accessible**: How to make a Figma/UXPin/DesignToolX prototype accessible? And if this is not possible, then what are the alternatives?
 - **Skip links**: Importance of, why we need them, how they work, where to make them go to
 - **Error handling and focus management**: Additional documentation on how errors are displayed and which code element receieves focus to read the error and where focus lands so the user can fix the error
+- **When to use visually hidden text:** via this flowchart:
+```mermaid
+flowchart TD
+  A["Do I need to add more words to make this understandable to non-sighted users?"]
+  A -- "No" --> B["Leave it alone"]
+  A -- "Yes" --> C["Can you add the words to the visible text?"]
+  C -- "Yes" --> D["Add the words to the visible text"]
+  C -- "No" --> E["Use as few visually hidden words as possible"]
+  E --> F["Make sure the new accName starts with the visible text"]
+```
