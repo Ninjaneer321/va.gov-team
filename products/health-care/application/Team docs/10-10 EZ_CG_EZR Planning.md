@@ -1,5 +1,120 @@
 # Sprint Planning for 10-10EZ, 10-10CG and 10-10EZR (Health Apps team)
 
+
+---
+## 📆 Sprint 20 (May 6 - May 13) (PREPLANNED) - Last sprint of the Bridge
+- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+
+### Sprint Goal summary
+- **The goal for Sprint 20 is XXXXX**
+
+#### List of Planned work
+- ...
+
+## 
+### 10-10EZR
+
+#### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
+- [ ] ...
+
+#### Obj: EZR [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117626)
+- [ ] ...
+
+#### Obj: EZR [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
+- [ ] ...
+
+##
+### 10-10EZ
+#### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
+- [ ] ...
+
+#### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
+- [ ] ...
+
+## 
+### 10-10CG
+- ...
+
+##
+### Team PTO
+- 
+
+---
+## 📆 Sprint 19 (Apr 22 - May 5) (PREPLANNED)
+- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+
+### Sprint Goal summary
+- **The goal for Sprint 19 is XXXXX**
+
+#### List of Planned work
+- ...
+
+## 
+### 10-10EZR
+
+#### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
+- [ ] ...
+
+#### Obj: EZR [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117626)
+- [ ] ...
+
+#### Obj: EZR [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
+- [ ] ...
+
+##
+### 10-10EZ
+#### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
+- [ ] ...
+
+#### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
+- [ ] ...
+
+## 
+### 10-10CG
+- ...
+
+##
+### Team PTO
+- ...
+
+---
+## 📆 Sprint 18 (Apr 8 - Apr 21) (PREPLANNED)
+- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+
+### Sprint Goal summary
+- **The goal for Sprint 18 is XXXXX**
+
+#### List of Planned work
+- ...
+
+## 
+### 10-10EZR
+
+#### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
+- [ ] ...
+
+#### Obj: EZR [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117626)
+- [ ] ...
+
+#### Obj: EZR [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
+- [ ] ...
+
+##
+### 10-10EZ
+#### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
+- [ ] ...
+
+#### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
+- [ ] ...
+
+## 
+### 10-10CG
+- ...
+
+##
+### Team PTO
+- 
+
 ---
 ## 📆 Sprint 17 (Mar 25 - Apr 7) (PREPLANNED)
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
@@ -19,22 +134,17 @@
 
 ## 
 ### 10-10EZR
+#### Obj: EZR [ECNOK on VA.gov Profile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
+- [ ] TBD
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
-
-- [ ] **SPRINT GOAL** [#121770](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121770) - [FE, PM] Launch at 5%
-- [ ] **SPRINT GOAL** [#121771](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121771) - [FE, PM] Launch at 25%
-- [ ] **SPRINT GOAL** [#121772](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121772) - [FE, PM] Launch at 50%
-- [ ] **SPRINT GOAL** [#121773](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121773) - [FE, PM] Launch at 75%
-- [ ] **SPRINT GOAL** [#121774](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121774) - [FE, PM] Launch at 100%
-- [ ] [#121764](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121764) - [UX] Update SOT to include new Service history section
+- [ ] ...
 
 #### Obj: EZR [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117626)
-- [ ] **SPRINT GOAL** [#133885](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133885) - [FE] Display EZR form statuses on MyVA
+- [ ] ...
 
 #### Obj: EZR [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
-- [ ] [#130857](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130857) - [FE/QA] Review and align with the latest QA Standards updates
-- [ ] **SPRINT GOAL** [#119890](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119890) - [FE/QA] Update file upload pattern
+- [ ] ...
 
 ##
 ### 10-10EZ
@@ -47,6 +157,10 @@
 ## 
 ### 10-10CG
 - There are no tickets scheduled
+
+##
+### Team PTO
+- 
 
 
 ---
@@ -127,9 +241,9 @@
      - [ ] Update Intro Page alerts on "pending" statuses
      - [ ] EZ Display submission statuses on MyVA
  - EZ Bug fix
-     - [ ] Update Mexico province code
+     - [x] Update Mexico province code
 - CG Improvements
-     - [ ] CG QA Standards alignment
+     - [x] CG QA Standards alignment
 
 ## 
 ### 10-10EZR
