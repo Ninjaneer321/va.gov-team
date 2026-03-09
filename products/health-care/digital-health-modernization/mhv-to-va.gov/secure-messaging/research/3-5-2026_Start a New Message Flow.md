@@ -143,16 +143,15 @@ Medallia comments were filtered for mentions of: contact lists, number of steps/
 4. **Consider conducting a research study**
    - Would users like to
    - **Hypothesis**
-   -   Users would prefer fewer screens to address and send a message
-Users are not paying attention to the interstitial content
-Users struggle with the care system → care team selection hierarchy and don't understand the distinction between these two steps
-
-Draft Research Goals
-Determine optimal information architecture and design by identifying whether users would prefer to address and compose their message on two separate pages or on a unified single-page flow. 
-Validate accessibility by gathering feedback from AT users about what flow is most accessible and intuitive
-Clarify mental models by assessing user understanding of care system vs. care team concepts and their perceived relationship
-Measure whether users notice, read, and understand the interstitial content
-Identify new and existing pain points in the message creation flow.
+   -  - Users would prefer fewer screens to address and send a message
+      - Users are not paying attention to the interstitial content
+      - Users struggle with the care system → care team selection hierarchy and don't understand the distinction between these two step
+- **Draft Research Goals**
+ -  - Determine optimal information architecture and design by identifying whether users would prefer to address and compose their message on two separate pages or on a unified single-page flow.
+    - Validate accessibility by gathering feedback from AT users about what flow is most accessible and intuitive
+    - Clarify mental models by assessing user understanding of care system vs. care team concepts and their perceived relationship
+    - Measure whether users notice, read, and understand the interstitial content
+    - Identify new and existing pain points in the message creation flow.
 
 ---
 
