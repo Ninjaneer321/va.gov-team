@@ -1,8 +1,6 @@
 <!-- markdownlint-disable MD024 -->
 # VANotify SMS Enablement for Decision Letters Release Plan
 
-WORK IN PROGRESS! DRAFT! NON-FINAL! ETC!
-
 ## Step 1: Development
 
 Development was done behind a feature flag, following the [best practices for creating feature toggles](https://depo-platform-documentation.scrollhelp.site/developer-docs/feature-toggles-guide).
