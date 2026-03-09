@@ -44,8 +44,9 @@ Optional:
 ## After the meeting
 
 ### OCTO-DE Practice Area design leads: Follow up
-- [ ] If the initiative receives OCTO alignment to proceed, add the `PO-Sync-approved` label to this ticket.
-- [ ] If the initiative does not receive OCTO alignment to proceed, comment and close this ticket.
+- [ ] Open the team's Collaboration Cycle ticket.
+- [ ] If the initiative receives OCTO alignment to proceed, add the `PO-Sync-approved` label to the Collaboration Cycle ticket.
+- [ ] If the initiative does not receive OCTO alignment to proceed, comment and close the Collaboration Cycle ticket.
 
 ## 📋 Collaboration Cycle feedback
 [Complete Collaboration Cycle feedback survey](https://ows.io/qs/o3jkwoez) at any point during your Collaboration Cycle process.
