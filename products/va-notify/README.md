@@ -102,23 +102,30 @@ How might we provide a centralized, reusable notification platform so that every
 
 ## Onboarding to VA Notify
 
-Submit an [intake form](https://github.com/department-of-Veterans-affairs/va.gov-team/issues/new?assignees=davidconlon%2C+GitSamJennings%2C+kbelikova-oddball&labels=vanotify-intake&template=VANotify-Business-Intake.md&title=Business+intake+form+for+%5BBusiness+or+team%5D) to kick off the process.
+Start the process by submitting an [intake form](https://github.com/department-of-Veterans-affairs/va.gov-team/issues/new?assignees=davidconlon%2C+GitSamJennings%2C+kbelikova-oddball&labels=vanotify-intake&template=VANotify-Business-Intake.md&title=Business+intake+form+for+%5BBusiness+or+team%5D).
 
 ### General Steps
-(*) = Your team, (**) = Joint effort between your team and VA Notify
 
-- Submit the [intake form](https://github.com/department-of-Veterans-affairs/va.gov-team/issues/new?assignees=davidconlon%2C+GitSamJennings%2C+kbelikova-oddball&labels=vanotify-intake&template=VANotify-Business-Intake.md&title=Business+intake+form+for+%5BBusiness+or+team%5D) *
-- Have your technical team review the VA Notify API docs *
-- Kick-off with VA Notify ** (during office hours - Tuesday and Thursday at 2:30pm ET)
-- Get access to the Self Service Portal **
-- Budget approval for notifications *
-- Create your notification content (Privacy Officer review required) *
-- VA Notify submits a communication preference intake for your team (if applicable)
-- SMS only: VA Notify requests applicable phone number(s)
-- Build your notification code to call the VA Notify API *
-- Test your notification *
-- Launch your notification **
-- Evaluate business outcomes and make revisions as needed *
+The table below outlines ownership for each step.
+
+| Owner | Label |
+|---|---|
+| Your team | **(You)** |
+| Joint effort with VA Notify | **(Joint)** |
+| VA Notify | **(VA Notify)** |
+
+1. **Submit the [intake form](https://github.com/department-of-Veterans-affairs/va.gov-team/issues/new?assignees=davidconlon%2C+GitSamJennings%2C+kbelikova-oddball&labels=vanotify-intake&template=VANotify-Business-Intake.md&title=Business+intake+form+for+%5BBusiness+or+team%5D)** **(You)**
+2. **Have your technical team review the VA Notify API docs** **(You)**
+3. **Kick-off meeting with VA Notify** **(Joint)** — held during office hours (Tuesdays and Thursdays at 2:30 PM ET)
+4. **Get access to the Self-Service Portal** **(Joint)**
+5. **Obtain budget approval for notifications** **(You)**
+6. **Create your notification content** **(You)** — a Privacy Officer review is required
+7. **VA Notify submits a communication preference intake for your team** **(VA Notify)** *(if applicable)*
+8. **VA Notify requests applicable sender phone number(s)** **(VA Notify)** *(SMS only)*
+9. **Build your notification integration to call the VA Notify API** **(You)**
+10. **Test your notification end-to-end** **(You)**
+11. **Launch your notification** **(Joint)**
+12. **Evaluate business outcomes and make revisions as needed** **(You)**
 
 ### Accessing the Self-Service Portal
 
@@ -127,14 +134,15 @@ The VA Notify self-service portal empowers your team to create and manage notifi
 - **Staging:** https://staging.notifications.va.gov
 - **Production:** https://notifications.va.gov
 
-Sign in with your PIV using the button at the top right. Let us know you've signed in and we will assign you to the right service for your team.
+Sign in with your PIV using the button at the top right. Once signed in, let the VA Notify team know and they will assign you to the correct service for your team.
 
 ### Timeframe
 
-Email is much quicker to launch than SMS because there are fewer steps. SMS requires acquiring sender phone number(s) for your use case (short codes or 10DLCs), which can take up to 12 weeks. If communication preferences are needed, we must account for scheduling with VA Profile and Authenticated Experience teams. Please allow ample time between intake submission and planned launch.
+Email is much quicker to launch than SMS because there are fewer steps. SMS requires acquiring sender phone number(s) for your use case (short codes or 10DLCs), which can take **up to 12 weeks**. If communication preferences are needed, additional scheduling with VA Profile and Authenticated Experience teams must be accounted for. Please allow ample time between intake submission and your planned launch date.
 
 ### Billing
-VA Notify is currently paid for by OIT and there is no charge to partners. At this time there are no plans for cost recovery.
+
+VA Notify is currently funded by OIT. There is no charge to partner teams, and there are no current plans for cost recovery.
 
 
 ## Initiatives
