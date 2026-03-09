@@ -13,8 +13,8 @@ Because the 8416 has been recently digitized and effectively functions as an ove
 
 This document is a summary of:
 * [our pension usability study](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2024%2002%20Pension%20Usability%20Evaluation/research-findings.md), 
-* [VSO research study](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2024-09%20527EZ%20VSO%20Research/research-findings.md,
-* [527 design explorations](https://www.figma.com/design/9JKK5Eo43uJWEr66JPiebc/WIP---21P-527EZ---Pension-Benefits?node-id=5699-15179)
+* [VSO research study](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2024-09%20527EZ%20VSO%20Research/research-findings.md),
+* [527 design explorations](https://www.figma.com/design/9JKK5Eo43uJWEr66JPiebc/WIP---21P-527EZ---Pension-Benefits?node-id=5699-15179),
 * [8416's MVP design](https://www.figma.com/design/UhrXwPHN1bDJwjmp6rJ3bB/VA-Form-21P-8416?node-id=755-31693&t=MqpTXuqS06JNAqm4-0).
 
 ---
