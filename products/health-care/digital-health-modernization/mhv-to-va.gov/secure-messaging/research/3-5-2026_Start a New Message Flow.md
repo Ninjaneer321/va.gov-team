@@ -3,9 +3,9 @@
 ## Background
 The **“Start a new message”** flow was redesigned to streamline care-team selection and improve accessibility through a **single-feature-per-page** approach. Since launch (**November 2025**), veterans have reported consistent usability issues:
 
-- **Information loss:** Only **6 months of contact history** is shown, making it difficult to find previously messaged providers.
 - **Flow complexity:** Extra steps and multi-page interactions feel “over-engineered” and slow message composition.
-- **Unmet needs:** A large share of users immediately click **“Select a different care team”**, indicating the initial options often don’t match expectations.
+- **Unmet "recent care team" needs:** A large share of users immediately click **“Select a different care team”**, indicating the initial options often don’t match expectations.
+- - **Provider confusion:** Users are still finding it difficult to find previously messaged providers.
 
 ---
 
@@ -60,19 +60,19 @@ Additional activity:
 Across all periods, **22–30%** of all new message attempts advance to Page 2. This indicates:
 
 - The initial **“Recent Care Teams”** list often does not contain the care team veterans intend to message.
-- High **contact-list update** activity suggests confidence in system-provided contacts is low.
-- Frequent **care-system toggling** signals mismatches between displayed care facilities and where users actually receive care.
+- **Contact-list update** activity suggests users are looking for more tools to control their visible care teams.
+- Frequent **care-system toggling** signals users may not be familiar with their care system when looking for their care team.
 
 ---
 
 ## VA Health & Benefits App (VAHB) feedback
-VAHB currently lacks analytics for this specific feature, but user feedback shows clear themes:
+VAHB currently lacks analytics for this specific feature, but limited app user feedback shows themes:
 
-- Irrelevant facilities shown by default.
-- Old or unrelated providers clutter lists with no way to remove them.
+- Old or unrelated providers and facilities clutter lists with no way to remove them.
 - Difficulty locating care teams such as **Community Care**, **Pharmacy**, **Mental Health**, and others.
 - Subject line limited to **50 characters** makes communication difficult.
-- Overall messaging interface perceived as outdated, clunky, and hard to navigate.
+- Overall messaging interface perceived as hard to navigate.
+- A request for editable contact lists if the care teams can't reliably show only relevant facilities.
 
 ---
 
@@ -84,7 +84,7 @@ Medallia comments were filtered for mentions of: contact lists, number of steps/
 - **6×** too many pages / non-urgent interstitial complaints  
   - “Too many steps… have to tap ‘START A NEW MESSAGE’ 10×10³ times… ridiculous.”
 - **6×** Recent Care Teams issues  
-  - “I need to send messages to other departments—what happened to them?”
+  - “Your app is still too cumbersome.. I need to send a message to members of my care team other than primary care. What happened to all the other departments?”
 
 ### January 2026
 - **6×** contact list / adding care team issues  
@@ -110,32 +110,29 @@ Medallia comments were filtered for mentions of: contact lists, number of steps/
 ## Cross-source synthesis
 1. **The first page often fails user intent**  
    About a quarter to a third of all users must navigate to Page 2 to find the right team.
-2. **Contact-list maintenance is excessively high**  
+2. **Contact-list maintenance occurs**  
    Veterans attempt to manually fix incorrect or missing care-team data.
 3. **Multi-screen workflow is widely criticized**  
    The flow adds friction and slows down message creation.
-4. **Limiting contact history to 6 months harms usability**  
-   Many specialists and intermittent providers disappear, making them unreachable.
+4. **The number of complaints about missing providers has decreased since the flow launched**  
+   Less users are confused about having to go to another screen, but confusion still persists.
 5. **Care-system mismatches remain common**  
    High toggle rates reflect incorrect default facility selection.
 
 ---
 
 ## Recommendations
-1. **Restore full contact history or provide one-stop access to all care teams**  
-   Reducing reliance on “Recent” lists decreases dead-ends.
-2. **Collapse or simplify the multi-page flow**  
-   Fewer screens → lower friction.
+
+1. **Collapse or simplify the multi-page flow**  
+   - Fewer screens → lower friction.
+   - A high number of users go onto the second page for care team selection.
 3. **Improve care-team accuracy**
-   - Auto-filter active providers
-   - Allow users to hide/remove outdated contacts
-   - Reduce care-system mismatches
-4. **Address core usability blockers**
-   - Remove redundant “Start a new message” screens
-   - Increase messaging subject-line character limit (VAHB)
-   - Improve performance and reduce loading delays
+   - I'm not sure the process to do this, but it could be worth looking at other tools like the contacts list
+4. **Address other usability suggestions**
+   - Examine redundant “Start a new message” screens that users may not be understanding
+   - Maybe increase subject-line character limit 
 
 ---
 
 ## Summary
-Across analytics and user feedback, the redesigned flow increases friction for many veterans. Loss of historical contacts, confusing navigation, and extra steps before message composition form a consistent pattern. Restoring discoverability of care teams and simplifying the message-start experience offer clear paths to improvement.
+Across analytics and user feedback, the redesigned flow still has friction for many veterans. Confusing navigation, only some initially visible care teams (web) and extra steps before message composition form a consistent pattern. Restoring discoverability of care teams and simplifying the message-start experience offer clear paths to improvement.
