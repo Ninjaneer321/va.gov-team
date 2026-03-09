@@ -74,7 +74,7 @@ VAHB currently lacks analytics for this specific feature, but limited app user f
 - Overall messaging interface perceived as hard to navigate.
 - A request for editable contact lists if the care teams can't reliably show only relevant facilities.
 
-Slack thread about app analytics: https://dsva.slack.com/archives/C01KBMKPJ95/p1766430040256259
+Slack thread about lack of app analytics: https://dsva.slack.com/archives/C01KBMKPJ95/p1766430040256259
 
 ---
 
