@@ -12,7 +12,7 @@ background:
     implemented into the product in staging. All implemented changes are documented in this plan.
   product_location: "Discover Your Benefits (staging)"
   user_familiarity: "Iteration - Improvements to Discover Your Benefits"
-  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va/2022-audit"
+  product_brief_url: "[Product brief](https://github.com/department-of-veterans-affairs/va.gov-team/tree/da25c0d352ce544c986600d14cf38a5735dbd831/products/vet-transition-support)"
 
 methodology: "User Acceptance Testing (UAT) with usability validation"
 
