@@ -11,16 +11,15 @@ Track notification metrics over time and iterate as needed to improve veteran co
 We offer analytics in a few places.
 
 ### VA Notify Self Service UI
-Within each template page, track your notification stats.
+Three ways to track:
 
-<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-notify/images/Template_Analytics.png" alt="template-analytics" width="400px"/>
+1. Within each template page, you can track your notification stats.
 
-
-Within the Dashboard tab, track various stats and metrics related to your Service.
+2. While on network, go to https://www.staging.notifications.va.gov, and access the Dashboard tab.
 
 <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-notify/images/Dashboard.png" alt="dashboard" width="800px"/>
 
 
-For a deep dive into notification and referral metrics visit our [Domo dashboard](https://va-gov.domo.com/page/2040841289).
+3. For a deep dive into notification and referral metrics visit our [Domo dashboard](https://va-gov.domo.com/page/2040841289).
 
 ![images](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-notify/images/Domo_highlights.png)
