@@ -37,6 +37,6 @@ For a deep dive into notification and referral metrics, visit the [Domo dashboar
 
 ## Reporting Spreadsheet
 
-For aggregated notification reporting data, refer to the [VA Notify Reporting Spreadsheet](https://docs.google.com/spreadsheets/d/1RSA6PJYP-NndbxsK26RmMgeVsMLxdDGk/edit?gid=1154273670#gid=1154273670).
+For aggregated notification reporting data, refer to the [VA Notify Reporting Spreadsheet](https://dvagov.sharepoint.com/:x:/r/sites/VANotify-internal/_layouts/15/Doc.aspx?sourcedoc=%7B1493F02D-7916-4646-B3CA-1D5BD04F9766%7D&file=Quarterly%20Reporting%20Metrics%20(Expanded).xlsx&action=default&mobileredirect=true)
 
 This spreadsheet provides a centralized view of notification metrics across business lines and can be used alongside the Domo dashboard for broader reporting and analysis.
