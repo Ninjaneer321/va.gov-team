@@ -1,5 +1,5 @@
 ---
-title: "CHAMPVA Tricare Eligibility Usability Study Research Findings"
+title: "CHAMPVA TRICARE Eligibility Usability Study Research Findings"
 product: "CHAMPVA 10-10D Application"
 team: "Health Apps UX Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
@@ -77,15 +77,15 @@ recommendations:
   - “**Form Introduction and CHAMPVA Program Pages Content Updates (v1)** - Supporting evidence: Secondary Finding 1”
   - “**Alert Content Updates (v2)** - Supporting evidence: Key Findings 2 and 4”
 kpi_alignment:
-  - "Percentage of CHAMPVA applications denied due to Tricare eligibility"
+  - "Percentage of CHAMPVA applications denied due to TRICARE eligibility"
   - "Total number of CHAMPVA applications submitted"
   - "Average processing time per application"
   - "User drop-off rates early in the application flow"
 outcomes:
   user: |
-    Users understand whether Tricare eligibility may impact their ability to receive CHAMPVA benefits. Users avoid spending time on applications that are likely to be denied. Users feel informed, respected, and supported—even when guided away from applying. Users can confidently decide whether to proceed with or stop the application.
+    Users understand whether TRICARE eligibility may impact their ability to receive CHAMPVA benefits. Users avoid spending time on applications that are likely to be denied. Users feel informed, respected, and supported—even when guided away from applying. Users can confidently decide whether to proceed with or stop the application.
   business: |
-    Reduce the percentage of CHAMPVA applications rejected due to Tricare eligibility. Reduce processing backlog caused by clearly ineligible submissions. Improve efficiency for CHAMPVA processing teams. Increase overall satisfaction with the CHAMPVA application experience.
+    Reduce the percentage of CHAMPVA applications rejected due to TRICARE eligibility. Reduce processing backlog caused by clearly ineligible submissions. Improve efficiency for CHAMPVA processing teams. Increase overall satisfaction with the CHAMPVA application experience.
 opportunity_areas:
   - "Clearer communication of mutually exclusive eligibility between TRICARE and CHAMPVA"
   - "Improved error messaging and visual design for negative eligibility scenarios"
@@ -124,7 +124,7 @@ tags:
 
 ---
 
-# CHAMPVA Tricare Eligibility Usabilty Study Research Findings 
+# CHAMPVA TRICARE Eligibility Usabilty Study Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), 10-10D CHAMPVA application, Health Apps**
 
@@ -360,7 +360,7 @@ Feedback on the flow options emphasized content changes to the alerts and eligib
 #### Secondary 1
 Participants were split in their previous knowledge of CHAMPVA, 9 were aware of it and 6 had never heard of it before at all. However all participants were familiar with TRICARE and 4 participants even stated they were currently enrolled. Both Veterans and Family Members seemed to have a better understanding of TRICARE and fit their mental model of what health care benefits they are familiar with.
 
-> _"(Moderator: Have you ever heard of Tricare and Champva?) I think tricare is the insurance that just works and is primary. But CHAMPVA is secondary that works as like a backup from your existing insurance." [P04]_
+> _"(Moderator: Have you ever heard of TRICARE and Champva?) I think TRICARE is the insurance that just works and is primary. But CHAMPVA is secondary that works as like a backup from your existing insurance." [P04]_
 > _"TRICARE is active duty military and their spouse and dependents. Some people can have it when they retire. But there's this whole group who can get CHAMPVA, but it's meant more for Veterans and their dependent spouses, and the Veteran has to bee 100% to be eligible. I have a lot of opinions about the CHAMPVA program." [P07]_
 
 
@@ -433,14 +433,14 @@ Design recommendations are broken down by proposed v1 (VADS only design) and v2 
 
 ### Desired User Outcome 
 This research supports our desired user outcome by....
-- Users understand whether Tricare eligibility may impact their ability to receive CHAMPVA benefits.
+- Users understand whether TRICARE eligibility may impact their ability to receive CHAMPVA benefits.
 - Users avoid spending time on applications that are likely to be denied.
 - Users feel informed, respected, and supported—even when guided away from applying.
 - Users can confidently decide whether to proceed with or stop the application.
 
 ### Desired Business Outcome
 This research supports our desired business outcome by....
-- Reduce the percentage of CHAMPVA applications rejected due to Tricare eligibility.
+- Reduce the percentage of CHAMPVA applications rejected due to TRICARE eligibility.
 - Reduce processing backlog caused by clearly ineligible submissions.
 - Improve efficiency for CHAMPVA processing teams.
 - Increase overall satisfaction with the CHAMPVA application experience.
@@ -450,7 +450,7 @@ This research supports our desired business outcome by....
 
 ### KPI 1
 This research supports measurement of this KPI by....
-- Percentage of CHAMPVA applications denied due to Tricare eligibility
+- Percentage of CHAMPVA applications denied due to TRICARE eligibility
 - Total number of CHAMPVA applications submitted
 - Average processing time per application
 - User drop-off rates early in the application flow
@@ -475,19 +475,19 @@ This research supports measurement of this KPI by....
 ## Appendix
 
 ### Research documents
-- [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/Product/Tricare-Eligibilty/Tricare-Eligibility-Product-Outline.md)
-- [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/research/users/2026-01-Tricare%20Eligibility%20Usability%20Research/research_plan.md)
+- [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/Product/TRICARE-Eligibilty/TRICARE-Eligibility-Product-Outline.md)
+- [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/research/users/2026-01-TRICARE%20Eligibility%20Usability%20Research/research_plan.md)
 
 **Conversation Guides**
-- [Link to conversation guide - BlueberryFirst](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/research/users/2026-01-Tricare%20Eligibility%20Usability%20Research/convo_guide_BlueberryFirst.md)
-- [Link to conversation guide - PineappleFirst](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/research/users/2026-01-Tricare%20Eligibility%20Usability%20Research/convo_guide_PineappleFirst.md)
+- [Link to conversation guide - BlueberryFirst](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/research/users/2026-01-TRICARE%20Eligibility%20Usability%20Research/convo_guide_BlueberryFirst.md)
+- [Link to conversation guide - PineappleFirst](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/research/users/2026-01-TRICARE%20Eligibility%20Usability%20Research/convo_guide_PineappleFirst.md)
 
 
 ### Tools used for Synthesis
 
-- [Interview transcripts](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/champva/1010D/research/users/2026-01-Tricare%20Eligibility%20Usability%20Research/transcripts)
-- [Notes folder from observers](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/champva/1010D/research/users/2026-01-Tricare%20Eligibility%20Usability%20Research/notes)
-- [Working synthesis folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/champva/1010D/research/users/2026-01-Tricare%20Eligibility%20Usability%20Research/synthesis)
+- [Interview transcripts](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/champva/1010D/research/users/2026-01-TRICARE%20Eligibility%20Usability%20Research/transcripts)
+- [Notes folder from observers](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/champva/1010D/research/users/2026-01-TRICARE%20Eligibility%20Usability%20Research/notes)
+- [Working synthesis folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/champva/1010D/research/users/2026-01-TRICARE%20Eligibility%20Usability%20Research/synthesis)
 - VA Research Synthesis Tool - Feedback and notes Slack canvas
   
 ### Pages and applications used
@@ -503,7 +503,7 @@ This research supports measurement of this KPI by....
 
 ### Secondary research
 
-- [Tricare screener discovery](https://www.figma.com/design/UmAtr3ULQEInMXfNFwP0g0/Application-for-CHAMPVA---10-10d--and-OHI-Certification--10-7559c--WIP?node-id=8969-5389)
+- [TRICARE screener discovery](https://www.figma.com/design/UmAtr3ULQEInMXfNFwP0g0/Application-for-CHAMPVA---10-10d--and-OHI-Certification--10-7559c--WIP?node-id=8969-5389)
 
 
 ### Research participants 
