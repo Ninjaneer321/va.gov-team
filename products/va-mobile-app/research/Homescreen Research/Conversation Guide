@@ -66,63 +66,139 @@ consent_for_clips: true
 > - When the participant is ready, begin the session with the following intro*
 
 # Intro - 5 minutes
+Thanks for joining us today! My name is **Theresa**. How are you doing today?
 
-Thanks for joining us today! My name is **Theresa** and **[NOTETAKER NAME]** is taking notes.
-I also have a couple other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them... 
+I have a colleague with us in this session who will be taking notes. 
 
-Today we're going to talk about using the Veterans Affairs Health and Benefits Mobile App.
+There are a few of my teammates who would like to observe this session as well. **Would it be OK with you if I invited them to join us?**
+- *(If participant seems hesitant or unsure or uncomfortable)* Just so you know, my teammates will be muted and off camera and you won't have to interact with them. You also have the option to keep the session just the two of us plus the notetaker (and the technical support person).
+- *(If yes, let them in--3-4 MAX. If no, post to #feedback-backchannel "Sorry, the participant doesn't want any observers in this session.")*
 
+- *(OBSERVERS JOIN w/cameras ON )* We have a few people from the team listening in today: there's [NAME] *(wave or say "hi")*, [NAME] *(wave or say "hi")*, etc. *(If I don't know the name of one of the observers, ask them to please turn on their camera and say their name aloud)*
 
-Before we start, I have a few things that I want to go over with you:
+Could the observers please turn their cameras off now to save bandwidth? 
 
-- **This entire session should take about 60 minutes.** I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
+Today we're going to talk about using the VA mobile app. I'm going to ask you a few questions, and then I'll have you do some specific tasks using the VA Health & Benefits App. 
+
+Before we start, I want to go over a few things:
+
+- **This entire session may take 60 minutes.** I want to be sure not to keep you longer, so I may occasionally prompt you with the next question or topic.
   
-- **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
-  
-- **Your participation in this interview is completely voluntary.** You do not have to participate if you don't want to. Whether you choose to participate or not will not affect your benefits in any way with the VA. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Please let me know.
-  
-- I know the folks who invited you to participate in this interview asked if it was alright to allow people to observe this interview, but I want to double-check with you before we get going. **Are you okay with a couple of additional observers during this session?**
-   - <mark>**If no:** Use Slack to kindly ask the observers to leave the Zoom.</mark>
-   - **If yes:** Admit observers.
-     
-> [!TIP]
-> - Then, ask the notetaker and observers to **give a brief, camera-on introduction, like their first name and position with VA.gov.** (This is meant to humanize the interaction of observation for the participant.)
-> - Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth
-     
-- **You'll be interacting with a prototype today.** This is a demo tool that may not work exactly the way you expect. Some areas of the prototype will be clickable, and some will not. Not all links and buttons will work, and we'll sometimes use placeholders instead of actual information. <mark>**Since it's a demo, none of your actions will affect your VA information or benefits.**</mark>
-  
-- **Are you comfortable if I record my screen and audio as we talk today?** We use the recordings to confirm that we've captured your opinions accurately. After we complete the analysis, the recordings are destroyed, and none of your comments will ever be attributed to you directly. We either report findings out in groups (i.e., 5 out of 10 participants said this), or if we want to quote you directly, we take away any identifying information and give you a participant ID, like P7.
-   - **Knowing that, are you comfortable if I record my screen and audio as we talk today?**
+- **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. We're testing an app to learn how we can make it easier to use. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
+- **Your participation in this interview is completely voluntary.** Whether or not you choose to participate will not affect your benefits with the VA. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Just let me know.
 
-   <mark>**[Record answer here]**</mark>
-     
-- **Would you be comfortable if we decided to use a clip of our session with you to help our partners understand Veterans’ experiences?** One of the ways that we share findings with our partners across the VA is by showing short video clips of sessions with Veterans. In these video clips, we blur out any information that could possibly be used to identify you, like your onscreen image. Sharing these video clips can be a compelling way for our partners to better understand what Veterans go through when using VA.gov and our digital products. These clips will not be shared outside of the VA. We don't know at this point if we will or not, but we like to ask ahead of time. At the end of the interview, I'll also confirm that this is okay with you, so you will get a chance to veto this once you know what we've discussed.
-   - **Knowing this, would you be comfortable if we decided to use a clip of our session with you to help our partners understand Veteran's experiences?**
+- Finally, I would like to record my screen and audio to confirm that I’ve captured your opinions accurately and sometimes share video clips with our colleagues at the VA to show user feedback. If we do this, we don’t link anything you choose to share in the session to any information that identifies you, and we remove your face and name from any videos that we share.
+**Knowing this, are you comfortable if I record my screen and audio as we talk today?**
+  - *(If yes:)* Once I start recording, I am going to confirm once more that you are ok with me recording this session.
+
+➡️ Select **Record**, then **Record to the cloud**.
+
+*(If participant asks you to NOT record)* Are you comfortable if I save the transcript of the session? *(If not, take good notes!)*
+
+- I have started recording. I'd like to confirm: 
+  - **Are you comfortable if I record my screen and the audio as we talk today?** Yes / No
  
-   <mark>**[Record answer here]**</mark>
+  - **Are you comfortable if we decide to use a recorded clip from our discussion today to share with other VA partners as long as we remove any information that can be used to identify you?** Yes / No
 
-   - If yes: **Once I start recording, I am going to confirm that you are okay with me recording this session once more.**
+*Moderator: In the bottom toolbar of the Zoom window, click the arrow next to **SHOW CAPTIONS** > **View Full Transcript** > Save (NEED TO DO THIS TO GET TRANSCRIPT)*
 
-➡️ **Start recording.**
+*After checking that transcription is working, close the Transcript panel by clicking **Close Full Transcript** in the Show Captions menu.*
 
-> [!TIP]
-> After you start the recording, click the Show captions (CC) button to enable transcription for the recording.
 
-- **I have started recording.** I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?
+## Troubleshooting
+- [Avoid **AI Companion**, which is a new option next to “Share” in the Zoom buttons]
 
- <mark>**[Record answer here]**</mark>
- 
-- **Are you comfortable if we decide to use a recorded clip from our discussion today to share with other VA partners if we remove any information that can be used to identify you?**
+- [If see **unpredictable jumping around** behavior and participant is using a browser other than Chrome, ask them to switch to Chrome (this helped with VoiceOver on an iPhone using Safari)]
 
- <mark>**[Record answer here]**</mark>
+- [If having **difficulty moving windows around** or opening the prototype, you could request control of the participant’s screen and mouse in Zoom: `<Name>’s screen tab > Request remote control`. Then you can move/resize browser (but not zoom windows/buttons) and type into browser bar. The participant may need to minimize the zoom video view, and drag the zoom buttons to the bottom of the screen so out of the way.]
 
-# Warm-up Questions (Optional) - 5 minutes; 5 minutes elapsed
+# Warm-up Questions - 5 minutes, 5 minutes elapsed
 
-Before we look at the app, let’s start with a few questions about your experience with the app.
+Let’s start with a few questions... 
 
-1. Thinking back to the last time you used the VA app, what were you trying to do?
-2. How was that experience? 
-- Probe: Were you able to do what you wanted to do?
+1. I understand you are a Veteran. Is that right? 
+    - Thanks for confirming that.
+
+2. What kind of device are you using today? *(Tablet / Smartphone)*
+    - *(If not the expected device, ask to rejoin that way)*
+
+3. What operating system is on your device? *(iOS / Android / _______)*
+
+4. Do you have the VA Health and Benefits mobile app on your device?
+   - If so, can you tell me what you typically use the mobile app for? How has your experience been so far?
+
+
+# User Tasks
+
+## Task 0: Share screen - 2 minutes, 10 minutes elapsed
+
+I would like you to share your screen with me so that I can see what you do during this session. Before we start, I want to make sure you know that screen share will show me your own screen, so if you'd like to close any apps or turn off notifications that you don't want me to see, you could do that now. You may also find it helpful to turn on Do Not Disturb so you're not interrupted during this session.
+- *(refer to Screen sharing instructions above, if needed)*
+- *STOP TECH TROUBLESHOOTING **< 15 min into session** if want a replacement participant from Perigean b/c not likely to be successful*
+
+We can help guide you through this if you need help. Please say what you're doing out loud so that if there are any issues, we'll know what they are.
+1. Make sure that the Zoom application has focus
+2. Navigate to the screen share button (may need to tap on mobile device to display the menu at the bottom, may have to scroll over to see menu options).
+3. Check the "share sound" checkbox (so we can hear their screen reader speaking)--may have to tab a LOT to get to this in the right pane
+4. Activate the screen share
+
+**(If video window is covering up phone screen)** It looks like my zoom video is covering up a lot of your screen. Could you please swipe it off? (Screen reader: swipe right until the video window has focus, and then double tap when you hear "Stash preview".)
+
+## Task 00: Open prototype
+**for iOS users:** 
+Did you previously receive the link and instructions to download the testing version of the mobile app today?
+
+Y - Were you able to download the app via those instructions? Y - skip down to note for all users
+
+N - I will now share in the zoom chat the URL: that takes you to download the testing app **[iOS url here](https://testflight.apple.com/join/RrO0Cw2q)** -- **[Android link](https://appdistribution.firebase.dev/i/6bea6c3fabc1a872)** Build #2726, build version 2.56.0
+- *(If asked, reassure that this is a legitimate link to what I want you to test)*
+
+Did you get the link? 
+
+- *If “unsupported browser” error, ask to try a different browser or device, or share my screen (works for anyone) and mouse control (doesn't work w/iPhones)*
+- *If prototype doesn't open, copy the URL and open in a new incognito window (Chrome), private window (Firefox, Safari) or InPrivate (Edge)*
+
+Please click the (green) "Continue" button.
+
+Instructions to access prototype (must access from your mobile device):
+1. Use the link provided to install test flight on your mobile device.
+2. Once you've installed it (or if you already have it installed), select step 2 "view in test flight" from your mobile device.
+3. Under App Informaton at the bottom of the screen, select "Previous builds"
+4. Select the VA Health and Benefits mobile app version: 2.55.1
+5. Select 'Install' button next to correct build number 2871 (may have to select Load more builds to find version).
+6. It can take a few minutes to download.
+7. Once downloaded select "next".
+8. Select "start testing" from the Share feedback screen.
+
+**for Android users:** 
+1. You will receive an email invite to the email you supplied us to download the testing app. Please navigate to your email and select that link now.
+2. Open the email and click on "Get started"
+3. It may require you to sign in again to authorize the install.
+4. Select "Download app tester".
+5. While this is downloading, go to your device homescreen > Go to settings > About > click on play store version 7 times (may need to Select "app permissions")
+10. Receive a note "You are now a developer"
+11. Scroll up and press General, click on "Developer options"
+12. Toggle the "interal app sharing"
+13. Return to the window with the steps
+14. Download the release (ensure newest one #7)
+15. If you already have the app installed you'll have to select "Uninstall"
+16. And then go ahead and "Install"
+17. Pause before signing in
+
+**Note for all users: You'll be interacting with a demo prototype today.** Since it's a demo, note that none of your actions will affect your own VA information or benefits.
+
+
+## Task 1: Login to the VA Health and Benefits mobile app
+[start on the VA Health and Benefits mobile app version: 2.54.1.QA (2825)]
+
+I'd like you to take a look at this screen, and sign in. The system will automatically generate a test user login for you and assume credentials. 
+
+As we go through the steps in this study, please talk aloud about what you're thinking BEFORE clicking on anything. And please share any thoughts, reactions, or questions you have about the current screen. 
+
+
+
+
+
 
 ## First Task: [TASK NAME] - X minutes
 
