@@ -121,25 +121,25 @@ Heather’s Brain-share document
 
           - There is a feature toggle that can turn on and off Staging Test Users for enrolled/not enrolled
 
-     - EZ Transition doc
+     - [EZ Transition Hub](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/Transition%20hub)
 
-     - ZSF playbook
+     - [ZSF playbook](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/10-10EZ%20Form/Endpoint%20Monitoring%20%26%20Zero%20Silent%20Failures/10-10EZ%20Monitor%20Playbook.md)
 
 - 10-10CG
 
-     - CG Things to Know
+     - [CG Things to Know](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/caregivers/10-10CG%20Form/10-10CG%20-%20Things%20to%20Know.md)
 
-     - CG Transition doc
+     - [CG Transition Hub](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/caregivers/Transition%20hub)
 
-     - ZSF playbook
+     - [ZSF playbook](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/caregivers/10-10CG%20Form/Endpoint%20Monitoring%20%26%20Zero%20Silent%20Failures/10-10CG%20Monitor%20Playbook.md)
 
 - 10-10EZR
 
-     - EZR Things to Know
+     - [EZR Things to Know](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/health-update-form/10-10EZR%20Form/10-10EZR%20-%20Things%20to%20know.md)
 
-     - EZR Transition doc
+     - [EZR Transition doc](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/Transition%20hub/EZR%20Transition%20Hub%20(August%202025).md)
 
-     - ZSF playbook
+     - [ZSF playbook](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/health-update-form/10-10EZR%20Form/Error%20Monitoring%20playbook/10-10EZR%20Endpoint%20Monitoring%20Playbook.md)
 
 ### List of contacts for each form
 
@@ -147,15 +147,15 @@ Heather’s Brain-share document
 
      - Amanda Scully - Director
 
-          - Nice person, overwhelmed a bit
+          - Main decision maker
 
      - Angela Fulton - HEC business SME
 
-          - knows how the staff work
+          - Knows how the staff work
 
      - Simone Gully - HEC business SME
 
-          - can come across abrupt but always thinks of the Veteran and staff impacts
+          - Always thinks of the Veteran and staff impacts
 
      - Tiffany Gaines - HEC business SME
 
@@ -192,8 +192,20 @@ Heather’s Brain-share document
      - Tiffany Puckett - Health system specialist
           - **Secondary contact** for monthly metrics
 
-### Features in progress
+### Features in progress (as of March 2026)
 
+* EZR Service History section
+     * [Initiative Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/health-update-form/Add%20Service%20History/Add%20Service%20History%20-%20Initiative%20Brief.md)
+     * [Epic](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
+* EZ Form Statuses
+     * [Initiative Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/Form%20Statuses/Form%20Statuses%20-%20Initiative%20Brief.md)
+     * [Epic](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
+* EZR Form Statuses	MyVA
+     * [Initiative Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/health-update-form/Form%20Statuses/Form%20Statuses%20-%20Initiative%20Brief.md)
+     * [Epic](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117626)
+* EZR Edit EC/NOK on Profile page
+     * [Initiative Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/health-update-form/Edit%20EC_NOK%20on%20Profile/Edit%20EC_NOK%20on%20Profile%20page%20-%20Initiative%20Brief.md)
+     * [Epic](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
 
 
 ### Features delivered (listed from newest to oldest)
@@ -263,7 +275,6 @@ Heather’s Brain-share document
 - 12/24/2025: Launched prefill for Spouse section
 - 01/22/2026: Launch read-only content to display previous year's reported financials (income, deductibles)
 - TBD: Launch Military Service History questions pages
-- TBD: Launch Form status updates on EZ Intro page to include Financial info or other info needed
 - TBD: Launch Form status updates on MyVA to include submission in progress & received
 - TBD: Launch edit function on VA.gov profile page for Emergency Contact & Next of Kin
 
@@ -307,7 +318,7 @@ Heather’s Brain-share document
 
      - Super Epic  [#134714](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134714)
 
-          - EC/NOK Epic [#120581](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
+          - [Scheduled and in progress] EC/NOK Epic [#120581](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
 
           - Insurance Epic [#134772](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134772)
 
