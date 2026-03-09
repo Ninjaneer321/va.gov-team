@@ -136,13 +136,6 @@ Email is much quicker to launch than SMS because there are fewer steps. SMS requ
 ### Billing
 VA Notify is currently paid for by OIT and there is no charge to partners. At this time there are no plans for cost recovery.
 
-## Delivery Status Callbacks
-
-See the [Delivery Status Callbacks](engineering/delivery-status-callbacks.md) documentation in the Engineering folder.
-
-## FAQ
-
-See the [FAQ](faq/README.md) for answers to common business, process, and technical questions.
 
 ## Initiatives
 - [Comp & Pen Payment Notifications](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-notify/initiatives/comp-and-pen)
