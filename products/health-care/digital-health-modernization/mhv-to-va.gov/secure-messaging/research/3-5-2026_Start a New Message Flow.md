@@ -17,9 +17,6 @@ The following data highlights web analytics, app comments, and Medallia (web) co
 
 ## Web Analytics (DataDog): User Behavior at Message Start
 
-### Key metric
-**% of users who advance to Page 2 (“Select a different care team”)** — a signal that Page 1 did not contain the care team they needed.
-
 ### Nov 10 – Dec 10
 - New messages started: **628,344**
 - Selected a recent care team: **333.84K**
@@ -88,30 +85,30 @@ Slack thread about lack of app analytics: https://dsva.slack.com/archives/C01KBM
 Medallia comments were filtered for mentions of: contact lists, number of steps/screens, Recent Care Teams issues, difficulty finding providers, and replying/addressing messages.
 
 ### February 2026
-- **10×** contact-list issues  
-- **6×** too many pages / non-urgent interstitial complaints  
+- **10×** Contact-list challenges (updating contact lists, trying to control relevant or non-relevant care teams in lists)
+- **6×** Too many pages / non-urgent interstitial complaints  
   - “Too many steps… have to tap ‘START A NEW MESSAGE’ 10×10³ times… ridiculous.”
 - **6×** Recent Care Teams issues  
   - “Your app is still too cumbersome.. I need to send a message to members of my care team other than primary care. What happened to all the other departments?”
 
 ### January 2026
-- **6×** contact list / adding care team issues  
-- **9×** too many steps  
+- **6×** Contact list / adding care team issues  
+- **9×** Too many steps  
   - “Too many steps to simply send a message.”  
   - “Start New Message page only shows Crisis Line—can’t send a non-urgent message.”
-- **3×** missing care teams  
+- **3×** Missing care teams (Recent care team challenges)  
   - “17 people on my list, only 4 appear in Recent Care Teams.”
 
 ### December 2025
-- **11×** flow frustration (multiple screens)  
+- **2×** Contact-list issues (updating contact lists, trying to control relevant or non-relevant care teams in lists)  
+- **11×** Flow frustration / Too many steps  
   - “EXTREMELY STUPID… I shouldn’t have to click Start a New Message twice.”
 - **8×** Recent Care Teams issues  
-- **2×** contact-list issues  
 
 ### November 2025 (launch month)
+- **24×** contact-list or finding-contact issues
+- **7×** Too many pages/steps   
 - **20×** Recent Care Teams problems  
-- **7×** too many pages  
-- **24×** contact-list or finding-contact issues  
 
 ---
 
