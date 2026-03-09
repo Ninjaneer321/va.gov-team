@@ -132,7 +132,8 @@ Medallia comments were filtered for mentions of: contact lists, number of steps/
    - I'm not sure the process to do this, but it could be worth looking at other tools like the contacts list
 4. **Address other usability suggestions**
    - Examine redundant “Start a new message” screens that users may not be understanding
-   - Maybe increase subject-line character limit 
+   - Maybe increase subject-line character limit
+   - Add the ability to add more than one recipient or forward messages 
 
 ---
 
