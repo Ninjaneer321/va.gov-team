@@ -35,7 +35,7 @@ All pages have ratings of 2 or below.
 
 ### 5 resources and support pages with the highest "good" ratings percentage overall and at least 10 total responses
 
-1. [Does VA cover nursing home, assisted living, and other long-term care?](https://www.va.gov/resources/does-va-cover-nursing-home-assisted-living-or-other-long-term-care/) (100% good out of 13 total responses)
+1. [Does VA cover nursing home, assisted living, or other long-term care?](https://www.va.gov/resources/does-va-cover-nursing-home-assisted-living-or-other-long-term-care/) (100% good out of 13 total responses)
 2. [Government headstones and markers FAQs](https://www.va.gov/resources/government-headstones-and-markers-faqs/) (100% good out of 15 total responses)
 3. [Presumptive cancers related to burn pit exposure](https://www.va.gov/resources/presumptive-cancers-related-to-burn-pit-exposure/) (100% good out of 18 total responses)
 4. [What does burial in a VA national cemetery include?](https://www.va.gov/resources/what-does-burial-in-a-va-national-cemetery-include/) (100% good out of 84 total responses)

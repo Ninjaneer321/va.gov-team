@@ -271,7 +271,8 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 ### Kick-off Call with Perigean
 
 - `Available timeslots for a kick off call are below:`
-	- **TBD - Early or mid March**
+	- **03/16, 12:30 - 3:00 PM ET**
+    - **03/17, anytime after 1:30 PM ET**
 
 
 ### Prepare
@@ -280,12 +281,12 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 > [!NOTE]
 > **Send pilot participant email in study Slack channel**
 
-- `Pilot participant name:` **[Enter name]**
-- `Date and time of pilot session:` **[Enter time]** 
+- `Pilot participant name:` **Athena Bozak**
+- `Date and time of pilot session:` **3/10, 5:30pm PT** 
 
 
 ### Research sessions
-- `Planned dates of research:` **03/DD-03/DD**
+- `Planned dates of research:` **03/23-04/01**
 
 
 ### Length of sessions
@@ -298,17 +299,15 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 
 
 ### Availability - 
-> [!NOTE]
-**Will add in times when we are closer to research kick-off**
 
-> [!TIP]
-> Please request enough dates and at ***least double the amount of time slots for the number of requested participants***. **(e.g. 3/17, Monday 9:00AM-1:00PM, 3:00PM-6:00PM EST; 3/18, Tuesday 9:00AM-6:00PM EST, etc.;** ***12 time slots for 6 participants***). This helps Perigean book participants when there are more time slots available, and when sessions need to be rescheduled or filled in with further recruitment.
-
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `[03/23, Monday, 10:30 AM - 4:30 PM] EST`
+- `[03/24, Tuesday, 10:30 AM - 4:30 PM] EST`
+- `[03/25, Wednesday, 10:30 AM - 4:30 PM] EST`
+- `[03/26, Thursday, 10:30 AM - 4:30 PM] EST`
+- `[03/27, Friday, 10:30 AM - 4:30 PM] EST`
+- `[03/30, Monday, 10:30 AM - 4:30 PM] EST`
+- `[03/31, Tuesday, 10:30 AM - 4:30 PM] EST`
+- `[04/01, Wednesday, 10:30 AM - 4:30 PM] EST`
 
   
 ## Team Roles  🕵️👩‍💻👩‍🔬

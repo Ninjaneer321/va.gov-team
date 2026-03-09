@@ -1,3 +1,16 @@
+# Community care kick-off discussion
+**Date:** March 5, 2026, 3:05 PM ET
+
+---
+
+## Agenda Items
+- Are we limited to optometry and primary care at launch, or could more care types be added before June? If so, which ones?
+  - .
+- What's the actual June deadline, is there a specific date, or by end of June?
+  - .
+- 
+
+
 # CC Pilot — Current Site Transition Discussion
 **Date:** March 3, 2026, 3:30 PM ET
 

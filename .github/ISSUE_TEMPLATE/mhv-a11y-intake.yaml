@@ -11,7 +11,7 @@ assignees:
   - sarahhortonadhoc
 projects:
   - department-of-veterans-affairs/1898
-type: epic
+type: task
 body:
   - type: markdown
     attributes:

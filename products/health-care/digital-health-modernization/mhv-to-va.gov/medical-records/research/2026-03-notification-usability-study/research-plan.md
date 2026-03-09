@@ -126,16 +126,16 @@ Iteration on existing Medical Records product. Veterans are familiar with access
 
 **Product Brief**
 
- "[Medical Records Research Review Synthesis - February 2026](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2026-02_Research_Review/research-synthesis.md)"
+ [MHV on Va.gov Medical Records Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records#mhv-on-vagov-medical-records-product-outline)
     
 ---
 
 ### Related Research 🔍
 
 **Previous Studies:**
-- [Medical Records Findability Synthesis - February 2026](link) - Synthesized 16 sources identifying 5 key insights and 4 use cases
-- [VA.gov Generative Research (2022-2025)](link) - Identified appointments, facilities, and conditions as natural anchors
-- [Medallia Feedback Analysis (Q3-Q4 2025)] - Documented sharp rise in "can't find" complaints post-platform switch
+- [Medical Records User Research Review Synthesis - February 2026](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2026-02_Research_Review) - Synthesized 16 sources identifying 5 key insights and 4 use cases
+- [VA.gov Generative Research (2022-2025)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2022-10_Generative-research/2022-11-medical-records-readout.md) - Identified appointments, facilities, and conditions as natural anchors
+- Medallia Feedback Analysis (Q3-Q4 2025) - Documented sharp rise in "can't find" complaints post-platform switch
 
 **Key Takeaways from Previous Research:**
 - Veterans struggle with mixed grouping and navigation (imaging buried in Labs)

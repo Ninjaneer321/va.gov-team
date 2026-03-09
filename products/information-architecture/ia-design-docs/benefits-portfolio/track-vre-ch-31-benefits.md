@@ -1,5 +1,5 @@
 # IA Design for Track your VR&E Chapter 31 benefits tool
-**STATUS: In review**
+**STATUS: Complete**
 
 **Team:** Reapers (GovCIO)
 - Slack: #reapers-team

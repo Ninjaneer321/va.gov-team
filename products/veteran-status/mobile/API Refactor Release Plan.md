@@ -27,11 +27,16 @@ List the feature toggles here.
   * We will be turning on the feature flag for a small percentage of users and increasing every few days as long if metrics meet our success criteria.   
   * We will plan to check the metrics around 10:00am ET and then determine to increase at that time, so that the MFS and CVE team can immediately identify any issues.   
 * What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")**?: **Work in Progress**  
-  * Vet verification service: <1%
-  * Profile Military service: <1%
   * VSC service failure rate: <1%
   * Confirmed % of VSC **(mobile)**: >87%
   * Confirmed % of VSC **(web)**: >75%
+  * Is there meaningful traffic around the Service Summary Codes? Y/N
+  * Ineligibility messages that are being populated are around the following percentages:
+    * ineligible_currently_serving_ssc: 15% - 25% range
+    * ineligibile_dishonorable_ssc: <1% range
+    * ineligible_edipi_no_pnl_ssc: <1%
+    * ineligible_error_ssc: 0.5% - 1.5% range
+    * ineligible_unknown_ssc: 75% - 85% range
 * Who is monitoring the dashboard: Natalie Gibbons, Matt Guest, Michael Harmer, Megan Commons, Janet Van, and Jesse Berman.  
 
 ### **Stage A: Canary**

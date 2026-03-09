@@ -1,5 +1,132 @@
 # Sprint Planning for 10-10EZ, 10-10CG and 10-10EZR (Health Apps team)
 
+
+---
+## 📆 Sprint 20 (May 6 - May 13) (PREPLANNED) - Last sprint of the Bridge
+- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+
+### Sprint Goal summary
+- **The goal for Sprint 20 is XXXXX**
+
+#### List of Planned work
+- EZR ECNOK
+     - [ ] QA
+     - [ ] Launch prep
+     - [ ] Launch
+
+## 
+### 10-10EZR
+#### Obj: EZR [ECNOK on VA.gov Profile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
+- [ ] [#135537](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135537) - [PM, Eng] Check-in with AuthExp team for launch prep
+- [ ] [#135513](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135513) - [QA] Validate functionality
+- [ ] [#135515](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135515) - [QA] Validate formatting
+- [ ] [#135523](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135523) - [QA] Accessibility testing
+- [ ] [#135534](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135534) - [PM] Create & review release plan
+- [ ] [#135540](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135540) - [Eng] Launch at 10%
+- [ ] [#135542](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135542) - [Eng] Launch at 25%
+- [ ] [#135543](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135543) - [Eng] Launch at 50%
+- [ ] [#135545](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135545) - [Eng] Launch at 75%
+- [ ] [#135546](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135546) - [Eng] Launch at 100%
+
+##
+### 10-10EZ
+#### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
+- [ ] ...
+
+## 
+### 10-10CG
+- ...
+
+##
+### Team PTO
+- Andrea: 5/8
+
+---
+## 📆 Sprint 19 (Apr 22 - May 5) (PREPLANNED)
+- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+
+### Sprint Goal summary
+- **The goal for Sprint 19 is XXXXX**
+
+#### List of Planned work
+- EZR ECNOK
+     - [ ] Set up Associations API
+     - [ ] Update UI as needed
+
+## 
+### 10-10EZR
+#### Obj: EZR [ECNOK on VA.gov Profile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
+- [ ] [#135508](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135508) - [BE] Associations API connection
+- [ ] [#135509](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135509) - [FE] UI updates
+
+
+
+##
+### 10-10EZ
+#### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
+- [ ] ...
+
+## 
+### 10-10CG
+- ...
+
+##
+### Team PTO
+- Allan: 4/8-24
+- Andrea: 4/24
+- 
+
+---
+## 📆 Sprint 18 (Apr 8 - Apr 21) (PREPLANNED)
+- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+
+### Sprint Goal summary
+- **The goal for Sprint 18 is XXXXX**
+
+#### List of Planned work
+- EZ
+     - [ ] Update File Upload pattern
+- EZR Form  statuses
+     - [ ] Display submission statuses on MyVA
+- EZR Improvements, Bugs, Performance
+     - [ ] Investigate high latency
+     - [ ] Review destructive alerts on Income/Deductible pages
+- CG Improvements, Bugs, Performance
+     - [ ] Investigate high latency
+     - [ ] Discovery on filled PDF date/time watermark
+
+## 
+### 10-10EZR
+
+#### Obj: EZR [Household section V2](https://github.com/department-of-veterans-affairs/va.gov-team/issues/98353)
+-  ]  [#134881](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134881) - [UX] Review destructive alerts on Income/Deductibles pages
+
+#### Obj: EZR [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117626)
+- [ ] [#133885](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133885) - [BE] Display submission statuses on MyVA
+
+#### Obj: EZR [Performance monitoring](https://github.com/department-of-veterans-affairs/va.gov-team/issues/60147)
+- [ ] [#133849](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133849) - [BE] Investigate high latency
+
+##
+### 10-10EZ
+#### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
+- [ ] [#119891](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119891) - [FE] Update file upload pattern - array builder
+
+## 
+### 10-10CG
+#### Obj: CG [Performance monitoring](https://github.com/department-of-veterans-affairs/va.gov-team/issues/60147)
+- [ ] [#133850](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133850) - [BE] Investigate high latency
+
+#### Obj: CG [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
+- [ ] [#134812](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134812) - [FE] Discovery on PDF date/time watermark
+
+##
+### Team PTO
+- Hieu: 4/6-14
+- Jessica 4/6-7
+- Allan: 4/8-24
+- Fara: 4/17-22
+
 ---
 ## 📆 Sprint 17 (Mar 25 - Apr 7) (PREPLANNED)
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
@@ -13,40 +140,58 @@
      - [ ] Update SOT
 - EZR Improvements/Bugs
      - [ ] EZR Update file upload pattern
+     - [ ] Update dependents page "remove" button & content
+     - [ ] Investigate 401 errors
+     - [ ] Remove old feature toggles
 - EZR Form status
-     - [ ] Display on MyVA
+     - [ ] Tech discovery Display on MyVA
      - [ ] EZR QA Standards alignment
+ - CG Bugs - investigate 503 errors (may need to recategorize them)
 
 ## 
 ### 10-10EZR
+#### Obj: EZR [ECNOK on VA.gov Profile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
+- [ ] TBD
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
-
-- [ ] **SPRINT GOAL** [#121770](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121770) - [FE, PM] Launch at 5%
-- [ ] **SPRINT GOAL** [#121771](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121771) - [FE, PM] Launch at 25%
-- [ ] **SPRINT GOAL** [#121772](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121772) - [FE, PM] Launch at 50%
-- [ ] **SPRINT GOAL** [#121773](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121773) - [FE, PM] Launch at 75%
-- [ ] **SPRINT GOAL** [#121774](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121774) - [FE, PM] Launch at 100%
-- [ ] [#121764](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121764) - [UX] Update SOT to include new Service history section
+- [ ] [#121770](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121770) - [Eng] Launch at 5%
+- [ ] [#121771](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121771) - [Eng] Launch at 25%
+- [ ] [#121772](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121772) - [Eng] Launch at 50%
+- [ ] [#121773](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121773) - [Eng] Launch at 75%
+- [ ] [#121774](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121774) - [Eng] Launch at 100%
+- [ ] [#121764](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121764) - [UX] Update SOT
 
 #### Obj: EZR [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117626)
-- [ ] **SPRINT GOAL** [#133885](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133885) - [FE] Display EZR form statuses on MyVA
+- [ ] [#118642](https://github.com/department-of-veterans-affairs/va.gov-team/issues/118642) - [Eng] Tech discovery on EZR form statuses on MyVA
+
+#### Obj: EZR [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109435)
+- [ ] [#119890](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119890) - [FE] Update file upload pattern
+- [ ] [#134867](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134867) - [FE] Update dependents review page "Remove" button
+- [ ] [#134872](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134872) - [FE] Update dependents review page content
+- [ ] [#133848](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133848) - [BE] Investigate 401 errors
 
 #### Obj: EZR [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
 - [ ] [#130857](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130857) - [FE/QA] Review and align with the latest QA Standards updates
-- [ ] **SPRINT GOAL** [#119890](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119890) - [FE/QA] Update file upload pattern
+
+#### Obj: EZR [Household section V2](https://github.com/department-of-veterans-affairs/va.gov-team/issues/98353)
+- [ ] [#121079](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121079) - [Eng] Remove `ezr_form_prefill_with_providers_and_dependents` feature toggle
+- [ ] [#121402](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121402) - [Eng] Remove `ezr_spouse_confirmation_flow_enabled` feature toggle
 
 ##
 ### 10-10EZ
-#### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
-- [ ] ...
-
-#### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
-- [ ] ...
+#### Obj: ...
 
 ## 
 ### 10-10CG
-- There are no tickets scheduled
+#### Obj: CG [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40165)
+- [ ] [#133844](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133844) - [BE] Investigate 503 errors
+
+##
+### Team PTO
+- Andrea: 3/25-27
+- Hieu: 4/6-14
+- Jessica 4/6-7
+- Allan: 4/8-24
 
 
 ---
@@ -62,12 +207,14 @@
      - [ ] Prep & review release plan
      - [ ] Update & submit product guide
      - [ ] Submit for metrics updates
-- EZR Form status
-     - [ ] MyVA discovery and begin development
+- EZ Form status on MyVA
+     - Display submission statuses on MyVA
+- EZ BUG Investigation on 422 errors
 - EZR ECNOK on Profile
-     - [ ] TBD
+     - [ ] Tech discovery on connecting Associations API
 - [ ] CG Update file upload pattern
 - [ ] EZ QA Standards alignment
+- EZR Improvements on Dependents section content
 
 ## 
 ### 10-10EZR
@@ -79,25 +226,25 @@
 - [ ] [#121775](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121775) - [PM] Update and submit Product Guide for review
 - [ ] [#121778](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121778) - [PM] Update DOMO URL funnels and add GA metrics
 - [ ] [#121766](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121766) - [PM] Prep release plan
-- [ ] [#121767](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121767) - [PM] Review release plan
 - [ ] [#113984](https://github.com/department-of-veterans-affairs/va.gov-team/issues/113984) - [FE, BE] Update/Create engineering documentation
 
-#### Obj: EZR [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117626)
-- [ ] [#118642](https://github.com/department-of-veterans-affairs/va.gov-team/issues/118642) - [Eng] Tech discovery on EZR form statuses on MyVA
+#### Obj: EZR [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109435)
+- [ ] #134864 - [FE] Update Dep education expenses content
+- [ ] #134863 - [FE] Update Dep financial support content
 
 #### Obj: EZR [ECNOK on VA.gov Profile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
-- [ ] TBD
+- [ ] [#135569](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135569) - [BE] Tech discovery to determine what is needed to connect Associations API to VA.gov Profile page
 
 ##
 ### 10-10EZ
 #### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
-- [ ] ...
+- [ ] [#130010](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130010) - [BE] Display submission statuses on MyVA
 
 #### Obj: EZ [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
 - [ ] [#130856](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130856) - [FE/QA] Review and align with the latest QA Standards updates
 
 #### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
-- [ ] ...
+- [ ] [#134813](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134813) [BE] Investigate recent increase of 422 errors
 
 ## 
 ### 10-10CG
@@ -106,7 +253,8 @@
 
 ##
 ### Team PTO
-- 
+- Renata: 3/11
+- Jessica: 3/13
 - 
 
 ---
@@ -119,17 +267,16 @@
 #### List of Planned work
 - EZR Service History
      - [ ] Testing of API in RI
-     - [ ] Review and Update file upload page logic & content
-     - [ ] Update Frontend Schema
+     - [x] Review and Update file upload page logic & content
 - EZ Form status
      - [ ] Tech discovery on additional form statuses on MyVA
      - [ ] Content feedback review for Intro page alerts
      - [ ] Update Intro Page alerts on "pending" statuses
      - [ ] EZ Display submission statuses on MyVA
  - EZ Bug fix
-     - [ ] Update Mexico province code
+     - [x] Update Mexico province code
 - CG Improvements
-     - [ ] CG QA Standards alignment
+     - [x] CG QA Standards alignment
 
 ## 
 ### 10-10EZR
@@ -144,7 +291,6 @@
 ### 10-10EZ
 #### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
 - [ ] **SPRINT GOAL** [#105829](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105829) - [Eng] Tech discovery on additional EZ form statuses on MyVA
-- [ ] **STRETCH** [#130010](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130010) - [FE] Display submission statuses on MyVA
 - [ ] **SPRINT GOAL** [#132749](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132749) - [UX] Review Content feedback for Intro page alerts (March 3rd)
 - [ ] **SPRINT GOAL** [#130693](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130693) - [FE] Update Intro page alert for "PendingMT"
 - [ ] **SPRINT GOAL** [#130694](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130694) - [FE] Update Intro page alert for "PendingOther"

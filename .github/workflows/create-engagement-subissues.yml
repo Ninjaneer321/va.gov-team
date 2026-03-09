@@ -148,9 +148,10 @@ jobs:
                 
             This is the documentation describing how to [enable online submission of a 21-22 representation request for a VSO on va.gov](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representation-management/product-documentation/appoint-a-representative/enabling-online-submission-for-vsos.md).
                 
-                ## Acceptance Criteria/Conditions of Satisfaction
-                - Veterans have the ability to submit online 21-22 requests in Appoint a Rep, for ${orgAbbr} and affiliated representatives.
-                - ${orgAbbr} representatives can receive and accept/decline online 21-22 requests in ARP.`,
+            ## Acceptance Criteria/Conditions of Satisfaction
+            - Veterans have the ability to submit online 21-22 requests in Appoint a Rep, for Rep Onboarding and affiliated representatives.
+            - Rep Onboarding representatives can receive and accept/decline online 21-22 requests in ARP.
+            - Notify VSO Engagement Manager to communicate with org leadership.`,
                 labels: ['engagement', 'engineering', 'ar-crew', 'org-onboarding']
               },
               {

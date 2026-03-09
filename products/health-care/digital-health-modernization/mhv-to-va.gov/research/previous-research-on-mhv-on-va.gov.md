@@ -46,6 +46,8 @@ Below is a list of research that has been carried out to develop and support the
 - [Medical Records Discovery](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2022-09-informational-interviews) (September 2022)
 
 ## Medications & supply reordering research
+- [Medications management improvements concept testing](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2026-02-medications-management-improvements) (February-March 2026)
+- [Renewals flow and status labels usability testing](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-11-medications-messaging-and-status-labels-usability-study) (November 2025)
 - [In product education ABC testing](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-06-IPE-ABC-testing) (June 2025)
 - [In product education study: Assistive tech users](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-03-IPE-study) (March 2025)
 - [Multistep task pattern research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/supply-reordering-tool/research/2025-02%20Multistep%20task%20pattern%20research) (February 2025)

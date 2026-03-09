@@ -6,9 +6,10 @@ The VSC eligibility and messaging rules changed. This document gives a clear ove
 - the **new approach** (one endpoint + server-side decisioning)
 - how **SSC codes** affect whether the API returns a VSC payload or an alert payload
 
-SSC mapping reference:
+SSC user flow reference:
 
-[Open the PDF](https://github.com/user-attachments/files/24809572/VSC.mapping.WIP._2026-01-16_18-43-03.pdf)
+[Open the PDF](https://github.com/user-attachments/files/25775728/SSC.user.flow.pdf)
+
 
 ---
 

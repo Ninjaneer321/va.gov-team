@@ -23,7 +23,10 @@ The [PO Sync touchpoint](https://depo-platform-documentation.scrollhelp.site/col
   - Select a date and time
   - Add your name and email
   - Schedule the event
-- [ ]  Add meeting date/time:
+
+#### Governance Team actions
+- [ ] Add link to Collaboration Cycle ticket
+- [ ] Add meeting date/time:
 
 ### :three: OCTO Product Owner: add links to artifacts at least 2 days before the meeting
 Link all artifacts here **at least two business days** before the scheduled PO Sync. Please don't add artifacts in the comments section. [See guidance on PO Sync artifacts.](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/po-sync#POSync-Whatartifactswillbeneeded?) 

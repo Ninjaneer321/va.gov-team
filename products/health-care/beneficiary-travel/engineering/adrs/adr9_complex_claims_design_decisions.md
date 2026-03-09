@@ -1,5 +1,7 @@
 # Travel Pay Design History and Decisions
 
+Note to designers: explain below that although we envision telling the users that we'll rename their PoA file, we won't tell them that we'll change their HEIC files to JPG.
+
 ## Background and timeline
 
 * In 2025, SMOC (simple-mileage only claims) was released on VA.gov and in VAHB. Users can easily file SMOC by answering three brief questions. SMOC is typically auto-adjudicated and does not require manual review by a travel clerk, but complex claims, which include documentation for additional expenses, go into manual review. 
