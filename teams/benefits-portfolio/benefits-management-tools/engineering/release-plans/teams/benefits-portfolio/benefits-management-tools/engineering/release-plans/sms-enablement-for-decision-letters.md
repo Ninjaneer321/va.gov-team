@@ -86,8 +86,8 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
-    - [ ] Push notification error rate < 5%  (0% observed)
-    - [ ] Sms notification error rate < 5%  (0% observed)
+    - [ ] Push notification error rate < 5%  (__% observed)
+    - [ ] Sms notification error rate < 5%  (__% observed)
 - Was any downstream service affected by the change?: 
 - Types of errors logged:
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
@@ -110,8 +110,8 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
-    - [ ] Push notification error rate < 5%  (0% observed)
-    - [ ] Sms notification error rate < 5%  (0% observed)
+    - [ ] Push notification error rate < 5%  (__% observed)
+    - [ ] Sms notification error rate < 5%  (__% observed)
 - Was any downstream service affected by the change?: 
 - Types of errors logged:
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
@@ -134,8 +134,8 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
-    - [ ] Push notification error rate < 5%  (0% observed)
-    - [ ] Sms notification error rate < 5%  (0% observed)
+    - [ ] Push notification error rate < 5%  (__% observed)
+    - [ ] Sms notification error rate < 5%  (__% observed)
 - Was any downstream service affected by the change?: 
 - Types of errors logged:
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
@@ -158,8 +158,8 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
-    - [ ] Push notification error rate < 5%  (0% observed)
-    - [ ] Sms notification error rate < 5%  (0% observed)
+    - [ ] Push notification error rate < 5%  (__% observed)
+    - [ ] Sms notification error rate < 5%  (__% observed)
 - Was any downstream service affected by the change?: 
 - Types of errors logged:
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
@@ -182,8 +182,8 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
-    - [ ] Push notification error rate < 5%  (0% observed)
-    - [ ] Sms notification error rate < 5%  (0% observed)
+    - [ ] Push notification error rate < 5%  (__% observed)
+    - [ ] Sms notification error rate < 5%  (__% observed)
 - Was any downstream service affected by the change?: 
 - Types of errors logged:
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
@@ -206,8 +206,8 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
-    - [ ] Push notification error rate < 5%  (0% observed)
-    - [ ] Sms notification error rate < 5%  (0% observed)
+    - [ ] Push notification error rate < 5%  (__% observed)
+    - [ ] Sms notification error rate < 5%  (__% observed)
 - Was any downstream service affected by the change?: 
 - Types of errors logged:
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
