@@ -1,6 +1,6 @@
 # Conversation Guide for UAT - Results Page 2.0
 
-This study evaluates Results Page 2.0 for usability. Participants were recruited internally instead of using standard recruitment through Perigean because they are technically savvy.
+This study evaluates Results Page 2.0 for usability. Participants were recruited internally instead of using standard recruitment through Perigean. Because they are technically savvy, we are doing an abbreviated and informal testing process.
 
 ## Moderator resources
 
