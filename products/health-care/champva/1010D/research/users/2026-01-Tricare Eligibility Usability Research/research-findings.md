@@ -229,6 +229,46 @@ tags:
 
 ### Finding 1: The “Check eligibility” default pattern was confusing to most participants when they were not eligible (Pineapple prototype) mostly due to the double negative statement and visual misunderstanding.
 
+```yaml key-finding-labels
+  finding_id: 1
+  finding_title: "The 'Check eligibility' default pattern was confusing to most participants when they were not eligible (Pineapple prototype) mostly due to the double negative statement and visual misunderstanding."
+  labels:
+    finding_types:
+      - usability_issue
+      - accessibility_barrier
+    severity_levels: high
+    research_themes:
+      - content_comprehension
+      - error_handling
+      - mental_models
+    product_areas:
+      - health_care
+      - benefits
+    journey_stages:
+      - discovery
+      - application
+    user_characteristics:
+      - first_time_user
+    emotional_states:
+      - confused
+      - frustrated
+    trust_factors:
+      - status_uncertainty
+      - confirmation_needed
+    design_system_patterns:
+      - error_messaging
+      - cards_tiles
+      - icons_imagery
+      - check_eligibility
+    temporal_patterns:
+      - recurring_issue
+  service_journey_mapping:
+    - CHAMPVA Application - Eligibility Screening
+  pattern_triggers:
+    - Double Negative Content Pattern
+    - Visual System Misalignment Pattern
+```
+
 
 **Double negative confusion**
 
