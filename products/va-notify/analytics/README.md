@@ -10,6 +10,7 @@ Business lines and VA Notify track KPIs for notifications to determine effective
 - [Self-Service UI Dashboard](#self-service-ui-dashboard)
 - [Domo Dashboard](#domo-dashboard)
 - [Reporting Spreadsheet](#reporting-spreadsheet)
+- [Metrics](metrics/README.md)
 
 ---
 
