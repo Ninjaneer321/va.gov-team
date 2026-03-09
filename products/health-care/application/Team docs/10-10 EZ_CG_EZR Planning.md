@@ -229,8 +229,8 @@
 - [ ] [#113984](https://github.com/department-of-veterans-affairs/va.gov-team/issues/113984) - [FE, BE] Update/Create engineering documentation
 
 #### Obj: EZR [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109435)
-- [ ] #134864 - [FE] Update Dep education expenses content
-- [ ] #134863 - [FE] Update Dep financial support content
+- [ ] [#134864](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134864) - [FE] Update Dep education expenses content
+- [ ] [#134863](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134863) - [FE] Update Dep financial support content
 
 #### Obj: EZR [ECNOK on VA.gov Profile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
 - [ ] [#135569](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135569) - [BE] Tech discovery to determine what is needed to connect Associations API to VA.gov Profile page
@@ -283,8 +283,8 @@
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
 - [ ] **SPRINT GOAL** [#134211](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134211) - [BE] API testing in RI
-- [ ] **SPRINT GOAL** [#132636](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132636) - [FE] Review Content feedback on File Upload page
-- [ ] **SPRINT GOAL** [#114031](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114031) - [FE] Update content on File Upload page
+- [x] **SPRINT GOAL** [#132636](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132636) - [FE] Review Content feedback on File Upload page
+- [x] **SPRINT GOAL** [#114031](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114031) - [FE] Update content on File Upload page
 
 
 ##
@@ -296,12 +296,12 @@
 - [ ] **SPRINT GOAL** [#130694](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130694) - [FE] Update Intro page alert for "PendingOther"
 
 #### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
-- [ ] [#133089](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133089) - [FE] Update Mexico province code in schema
+- [x] [#133089](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133089) - [FE] Update Mexico province code in schema
 
 ## 
 ### 10-10CG
 #### Obj: CG [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
-- [ ] [#130858](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130858) - [FE/QA] Review and align with the latest QA Standards updates
+- [x] [#130858](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130858) - [FE/QA] Review and align with the latest QA Standards updates
 
 ##
 ### Team PTO
