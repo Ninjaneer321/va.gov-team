@@ -108,4 +108,45 @@ tags:
 
 # Results Page 2.0: UAT Plan
 
-TK TK TK
+# Background Context
+background:
+  problem_statement: "Results Page 2.0 usability testing revealed usability issues and areas for improvement, which we have implemented into the product in staging. All of the implemented changes are validated by research and have undergone QA. We are conducting UAT to ensure that the redesigned tool is working as expected before launch. This is our final development stage before our TAP pilot begins with DoD."
+  product_location: "Discover Your Benefits (staging)"
+  user_familiarity: "Iteration - Improvements to Discover Your Benefits"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va/2022-audit"
+
+# Research Design
+methodology: "User Acceptance Testing (UAT) with usability validation"
+research_format: Internal usability testing
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Confirm that all functionality works as expected with updates (with exception of known workaround for filter collapse on mobile in Safari)"
+  - goal_2: "Verify that all sorting and filtering work as expected, with special attention to mobile"
+  - goal_3: "Confirm that redesigned content works as expected with no usability issues"
+
+research_questions:
+  - "Does the functionality work as expected?"
+ - “Are there significant unknown usability issues?”
+
+hypotheses:
+  - "Veterans will not encounter any unknown bugs on Discover Your Benefits"
+  - "Veterans will be able to easily navigate sort, filter, and benefit content features on the Results page."
+
+expected_outcomes: "Based on the outcome of this research study, we will either release the updates to production and/or update our design to correct any significant usability hurdles people encounter."
+
+# Recruitment & Participants
+recruitment:
+    approach: "Internal recruitment"
+  
+# Timeline & Sessions
+timeline:
+  research_dates: "3/9/2026-3/11/2026"
+   
+session_details:
+  duration_minutes: 45
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
