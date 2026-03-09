@@ -46,8 +46,8 @@ consent_for_clips: true
 
 `List and complete any project-specific setup tasks for this study below:`
 
-- [ ] Step 1
-- [ ] Step 2
+- [ ] Ensure notetakers and observers have meeting links, note taking template, and instructions
+- [ ] Ensure prototype works correctly
 - [ ] Step 3
 
 ### Day of the session
@@ -67,10 +67,10 @@ consent_for_clips: true
 
 # Intro - 5 minutes
 
-Thanks for joining us today! My name is **[NAME]** and **[NOTETAKER NAME]** is taking notes.
+Thanks for joining us today! My name is **Theresa** and **[NOTETAKER NAME]** is taking notes.
 I also have a couple other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them... 
 
-Today we're going to talk about making updates to health care information.
+Today we're going to talk about using the Veterans Affairs Health and Benefits Mobile App.
 
 
 Before we start, I have a few things that I want to go over with you:
@@ -89,9 +89,9 @@ Before we start, I have a few things that I want to go over with you:
 > - Then, ask the notetaker and observers to **give a brief, camera-on introduction, like their first name and position with VA.gov.** (This is meant to humanize the interaction of observation for the participant.)
 > - Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth
      
-- *(If applicable)* **You'll be interacting with a prototype today.** This is a demo tool that may not function exactly the way you expect. Some areas of the prototype will be clickable, and some will not. <mark>**Since it's a demo, none of your actions will affect your VA information or benefits.**</mark>
+- **You'll be interacting with a prototype today.** This is a demo tool that may not work exactly the way you expect. Some areas of the prototype will be clickable, and some will not. Not all links and buttons will work, and we'll sometimes use placeholders instead of actual information. <mark>**Since it's a demo, none of your actions will affect your VA information or benefits.**</mark>
   
-- **Are you comfortable if I record my screen and audio as we talk today?** We use the recordings to confirm that we have captured your opinions accurately. After we complete the analysis, the recordings are destroyed, and none of your comments will be attributed to you directly. We either report findings out in groups (i.e., 5 out of 10 participants said this), or if we want to quote you directly, we take away any identifying information and give you a participant ID, like P7.
+- **Are you comfortable if I record my screen and audio as we talk today?** We use the recordings to confirm that we've captured your opinions accurately. After we complete the analysis, the recordings are destroyed, and none of your comments will ever be attributed to you directly. We either report findings out in groups (i.e., 5 out of 10 participants said this), or if we want to quote you directly, we take away any identifying information and give you a participant ID, like P7.
    - **Knowing that, are you comfortable if I record my screen and audio as we talk today?**
 
    <mark>**[Record answer here]**</mark>
