@@ -25,7 +25,35 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
 
-## Sprint: 3 [02/25/26 - 03/10/26]  
+## Sprint: 4 [03/11/26 - 03/24/26]  
+| Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
+|--|--|--|--|--|
+|UX: Review the final ENG implementation of Payment History.| P1 |--|--|--|
+|UX: Assist with completing the Payment History accessibility testing.| P1 |--|--|--|
+|UX: Complete the Pay.gov Benefit Overpayment Debt Payments Usability Study.| P2 |--|--|--|
+|UX: Create the Pay.gov overpayments study Analysis & Topline summary| P2 |--|--|--|
+|ENG: Complete back end code adjustments to accommodate the Cerner/VistA data updates.| P1 |--|--|--|
+|ENG: Update final Payment History tests after implementing the Cerner/VistA data updates.| P1 |--|--|--|
+|ENG: Complete the 2 planned maintenance tickets.| P6 |--|--|--|
+
+**Sprint rollover tickets**
+| Additional work that was pulled in mid-sprint | Scope of work changed after ticket started | Work became blocked mid-sprint |  Work was underestimated and not completed |
+|---------------|---------------|---------------|---------------|
+|Ticket #|Ticket #|Ticket #|Ticket #|
+
+**_Approvals:_** _(sent via email but approvals tracked here)_
+ - [ ] Ready to be sent for approvals (02/00/26)
+ - [ ] VA PO & COR sent the Sprint Goals (02/00/26)
+ - [ ] VA PO approved the Sprint Goals (02/00/26)
+ - [ ] VA COR approved the Sprint Goals (02/00/26)
+
+**_Delivery + Notes:_**
+- [ ] All goals have been updated in the sprint chart
+- [ ] Any Additional details about goals **not** completed will be documented here
+
+
+## Sprint: 3 [02/25/26 - 03/10/26] 
+<details>
 | Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
 |UX: Finalize coded prototypes based on forthcoming feedback from the CAIA team in preparation for the upcoming Pay.gov Benefit Overpayment Debt Payments Usability Study.| P2 |--|--|--|
@@ -49,6 +77,8 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 - [ ] All goals have been updated in the sprint chart
 - [ ] Any Additional details about goals **not** completed will be documented here
 
+End of Line
+</details>
 
 ## Sprint: 2 [02/11/26 - 02/24/26]
 <details>
