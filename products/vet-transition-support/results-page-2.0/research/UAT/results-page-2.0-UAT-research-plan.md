@@ -5,7 +5,7 @@
 The Results Page 2.0 usability study revealed usability issues and areas for improving the Discover Your Benefits tool, which we have implemented into the product in staging. All implemented changes will be testing during UAT sessions to ensure usabilty.
 - **Product location:** [Discover Your Benefits in staging](https://staging.va.gov/discover-your-benefits/introduction)
 - **User familiarity:** Iteration - Improvements to Discover Your Benefits
-- **Product brief:** [Product brief](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/vet-transition-support)
+- **Product brief:** [Product brief](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/vet-transition-support/results-page-2.0)
 - **Conversation guide:** [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vet-transition-support/results-page-2.0/research/UAT/results-page-2.0-UAT-conversation-guide.md)
 
 ## Research design
