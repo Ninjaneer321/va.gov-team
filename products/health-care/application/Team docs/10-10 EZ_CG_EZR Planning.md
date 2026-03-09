@@ -233,8 +233,7 @@
 #### List of Planned work
 - EZR Service History
      - [ ] Testing of API in RI
-     - [ ] Review and Update file upload page logic & content
-     - [ ] Update Frontend Schema
+     - [x] Review and Update file upload page logic & content
 - EZ Form status
      - [ ] Tech discovery on additional form statuses on MyVA
      - [ ] Content feedback review for Intro page alerts
