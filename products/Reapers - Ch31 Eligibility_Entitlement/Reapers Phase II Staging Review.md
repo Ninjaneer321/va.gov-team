@@ -33,7 +33,10 @@ This page houses the links to all files needed for Reapers Staging Review.
 - Accessibility testing artifact: https://github.com/department-of-veterans-affairs/va.gov-team/issues/135194
   
 ### QA Artifacts
+- Cypress Testing - https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/applications/vre/track-your-vre-benefits/tests/e2e/career-planning-keyboard-only.cypress.spec.jsx **AND** https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/applications/vre/track-your-vre-benefits/tests/e2e/my-case-management-hub.cypress.spec.jsx
 - Test Rail - https://dsvavsp.testrail.io/index.php?/projects/overview/99
+- Unit Testing - https://github.com/department-of-veterans-affairs/vets-website/tree/main/src/applications/vre/track-your-vre-benefits/tests/unit
+- Unite Test Coverage - <img width="1322" height="569" alt="image" src="https://github.com/user-attachments/assets/78dc53d7-979b-40df-9e88-c2dd31e81157" />
 - Endpoint monitoring playbook - Reapers hasn't made any updates that require endpoing monitoring
 - Logging silent failures -  Reapers hasn't made any updates that require logging of silent failures
   
