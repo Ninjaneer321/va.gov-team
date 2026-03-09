@@ -58,6 +58,11 @@ Veterans currently rely on a physical VHIC card for various services and benefit
 - First API call to verify if a Veteran has a VHIC is to the VA MPI, and they do not have any issues with the number of VAHB app volume that is estimated on the Home page. 
 - Resolution and size of the Veteran image: VHIC team on 2/2 said that the image is a jpeg file with a resolution of 400 x 400 pixels.
 - VHIC team will provide MFS with user data that we can use for testing.
+- Different VHIC phases
+  - Phase 1: Display existing cards
+  - Phase 2: Request Digital VHIC (On-site): Update VHIC UI user interface to support requesting Digital VHICs
+  - Phase 3: Request Digital VHIC (Self Service): Update VHIC SS user interface to support requesting a VHIC digitally
+  - Phase 4: Reporting Capability 
 
 ### Adjacent work
 - We may explore how to improve discoverability of the digital card on VA.gov (e.g., Find a Form, R&S article updates). This effort will be handled by the VHIC team and confirmed by [this](https://dsva.slack.com/archives/C07S7TJRK0B/p1761241001047899?thread_ts=1761240690.675229&cid=C07S7TJRK0B) Slack message.
