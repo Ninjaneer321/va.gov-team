@@ -270,7 +270,28 @@ Heather’s Brain-share document
 
 ### Tech Debt that needs to get done
 
-- 
+- [ ] [#121079](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121079) - [Eng] Remove `ezr_form_prefill_with_providers_and_dependents` feature toggle
+- [ ] [#121402](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121402) - [Eng] Remove `ezr_spouse_confirmation_flow_enabled` feature toggle
+- [ ] [#134864](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134864) - [FE] Update Dep education expenses content
+- [ ] [#134863](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134863) - [FE] Update Dep financial support content
+- [ ] [#134867](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134867) - [FE] Update dependents review page "Remove" button
+- [ ] [#134872](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134872) - [FE] Update dependents review page content
+- [ ] [#130856](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130856) - [FE/QA] Review and align with the latest QA Standards updates
+- [ ] [#130857](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130857) - [FE/QA] Review and align with the latest QA Standards updates
+- [ ] [#134813](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134813) - [BE] Investigate recent increase of 422 errors
+- [ ] [#133844](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133844) - [BE] Investigate 503 errors
+- [ ] [#133848](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133848) - [BE] Investigate 401 errors
+- [ ] [#133850](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133850) - [BE] Investigate high latency
+- [ ] [#133849](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133849) - [BE] Investigate high latency
+- [ ] [#119890](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119890) - [FE] Update file upload pattern
+- [ ] [#119892](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119892) - [FE/QA] Update file upload pattern
+- [ ] [#119891](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119891) - [FE] Update file upload pattern - array builder
+- [ ] [#134812](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134812) - [FE] Discovery on PDF date/time watermark
+
+
+
+
+
 
 ### Known or reoccurring issues
 
