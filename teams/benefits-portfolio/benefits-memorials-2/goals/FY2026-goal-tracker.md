@@ -54,6 +54,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 
 ## Sprint: 3 [02/25/26 - 03/10/26] 
 <details>
+    
 | Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
 |UX: Finalize coded prototypes based on forthcoming feedback from the CAIA team in preparation for the upcoming Pay.gov Benefit Overpayment Debt Payments Usability Study.| P2 |--|--|--|
