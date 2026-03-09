@@ -76,8 +76,8 @@ timeline:
 
 session_details:
   duration_minutes: 30  # 30 minutes per check-in interview
-  buffer_minutes: "Not specified"
-  max_sessions_per_day: "Not specified"
+  buffer_minutes: "30 minutes"
+  max_sessions_per_day: "4"
 
 # Strategic Alignment
 octo_priorities:
@@ -206,6 +206,10 @@ Diary study with 3 check-in interviews (remote, moderated).
 We will run a lightweight diary study anchored by three 30-minute interviews per participant. Between interviews, participants will be asked to briefly note or capture (in low-effort ways) their experiences when they receive new healthcare alerts.
 
 Session length: 30 minutes each, confirm if they will be joining web/mobile prior
+
+Buffer time: 30 minutes
+
+Max sessions per day: 4
 
 Cadence: 3 check-ins per participant
 
