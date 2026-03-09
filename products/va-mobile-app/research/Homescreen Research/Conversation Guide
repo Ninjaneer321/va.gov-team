@@ -48,7 +48,14 @@ consent_for_clips: true
 
 - [ ] Ensure notetakers and observers have meeting links, note taking template, and instructions
 - [ ] Ensure prototype works correctly
-- [ ] Step 3
+
+**Before all sessions**:
+- Review participant list for participant name and screener question responses
+- Check Settings > In Meeting (Advanced) > Automated captions, Full transcript, Save captions are all ON
+- Check Settings > Meeting > In Meeting (Basic) > Sound notification when someone joins or leaves OFF
+  - In the Participant "more" menu, make sure "Play Join and Leave Sound" is unchecked
+- Check Settings > Meeting > In Meeting (Basic) > Screen sharing > Who can share > All Participants
+- Check Settings > Meeting > In Meeting (Basic) > Hide participant profile pictures in a meeting ON
 
 ### Day of the session
 
@@ -110,8 +117,6 @@ Before we start, I want to go over a few things:
 
 - [If see **unpredictable jumping around** behavior and participant is using a browser other than Chrome, ask them to switch to Chrome (this helped with VoiceOver on an iPhone using Safari)]
 
-- [If having **difficulty moving windows around** or opening the prototype, you could request control of the participant’s screen and mouse in Zoom: `<Name>’s screen tab > Request remote control`. Then you can move/resize browser (but not zoom windows/buttons) and type into browser bar. The participant may need to minimize the zoom video view, and drag the zoom buttons to the bottom of the screen so out of the way.]
-
 # Warm-up Questions - 5 minutes, 5 minutes elapsed
 
 Let’s start with a few questions... 
@@ -130,66 +135,27 @@ Let’s start with a few questions...
 
 # User Tasks
 
-## Task 0: Share screen - 2 minutes, 10 minutes elapsed
+## Task 0: Share screen - 3 minutes, 10 minutes elapsed
 
 I would like you to share your screen with me so that I can see what you do during this session. Before we start, I want to make sure you know that screen share will show me your own screen, so if you'd like to close any apps or turn off notifications that you don't want me to see, you could do that now. You may also find it helpful to turn on Do Not Disturb so you're not interrupted during this session.
-- *(refer to Screen sharing instructions above, if needed)*
 - *STOP TECH TROUBLESHOOTING **< 15 min into session** if want a replacement participant from Perigean b/c not likely to be successful*
 
 We can help guide you through this if you need help. Please say what you're doing out loud so that if there are any issues, we'll know what they are.
-1. Make sure that the Zoom application has focus
-2. Navigate to the screen share button (may need to tap on mobile device to display the menu at the bottom, may have to scroll over to see menu options).
-3. Check the "share sound" checkbox (so we can hear their screen reader speaking)--may have to tab a LOT to get to this in the right pane
-4. Activate the screen share
 
-**(If video window is covering up phone screen)** It looks like my zoom video is covering up a lot of your screen. Could you please swipe it off? (Screen reader: swipe right until the video window has focus, and then double tap when you hear "Stash preview".)
+**(If video window is covering up phone screen)** It looks like my zoom video is covering up a lot of your screen. Could you please swipe it off? 
 
-## Task 00: Open prototype
-**for iOS users:** 
-Did you previously receive the link and instructions to download the testing version of the mobile app today?
+## Task 00: Open prototype - 2 minutes, 13 minutes elapsed
 
-Y - Were you able to download the app via those instructions? Y - skip down to note for all users
+Today, we're going to look at a demo version of the app. This is just for us to test with, so not everything will work like it does on the real app. You might see some buttons or links not working and some placeholder words instead of real information. Since this is just the demo version, nothing you do in this app will affect your real app or VA information and benefits. 
 
-N - I will now share in the zoom chat the URL: that takes you to download the testing app **[iOS url here](https://testflight.apple.com/join/RrO0Cw2q)** -- **[Android link](https://appdistribution.firebase.dev/i/6bea6c3fabc1a872)** Build #2726, build version 2.56.0
-- *(If asked, reassure that this is a legitimate link to what I want you to test)*
+I will now share in the zoom chat the URL for the demo: Please open the chat and then click the link. 
 
-Did you get the link? 
-
-- *If “unsupported browser” error, ask to try a different browser or device, or share my screen (works for anyone) and mouse control (doesn't work w/iPhones)*
+- *If “unsupported browser” error, ask to try a different browser or device 
 - *If prototype doesn't open, copy the URL and open in a new incognito window (Chrome), private window (Firefox, Safari) or InPrivate (Edge)*
 
-Please click the (green) "Continue" button.
 
-Instructions to access prototype (must access from your mobile device):
-1. Use the link provided to install test flight on your mobile device.
-2. Once you've installed it (or if you already have it installed), select step 2 "view in test flight" from your mobile device.
-3. Under App Informaton at the bottom of the screen, select "Previous builds"
-4. Select the VA Health and Benefits mobile app version: 2.55.1
-5. Select 'Install' button next to correct build number 2871 (may have to select Load more builds to find version).
-6. It can take a few minutes to download.
-7. Once downloaded select "next".
-8. Select "start testing" from the Share feedback screen.
+## Task 1: General review of homescreen - 10 minutes, 15 minutes elapsed
 
-**for Android users:** 
-1. You will receive an email invite to the email you supplied us to download the testing app. Please navigate to your email and select that link now.
-2. Open the email and click on "Get started"
-3. It may require you to sign in again to authorize the install.
-4. Select "Download app tester".
-5. While this is downloading, go to your device homescreen > Go to settings > About > click on play store version 7 times (may need to Select "app permissions")
-10. Receive a note "You are now a developer"
-11. Scroll up and press General, click on "Developer options"
-12. Toggle the "interal app sharing"
-13. Return to the window with the steps
-14. Download the release (ensure newest one #7)
-15. If you already have the app installed you'll have to select "Uninstall"
-16. And then go ahead and "Install"
-17. Pause before signing in
-
-**Note for all users: You'll be interacting with a demo prototype today.** Since it's a demo, note that none of your actions will affect your own VA information or benefits.
-
-
-## Task 1: Login to the VA Health and Benefits mobile app
-[start on the VA Health and Benefits mobile app version: 2.54.1.QA (2825)]
 
 I'd like you to take a look at this screen, and sign in. The system will automatically generate a test user login for you and assume credentials. 
 
