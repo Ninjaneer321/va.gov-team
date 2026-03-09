@@ -156,20 +156,13 @@ I will now share in the zoom chat the URL for the demo: Please open the chat and
 
 ## Task 1: General review of homescreen - 10 minutes, 15 minutes elapsed
 
+Please go ahead and log in using ID.me. The system will automatically generate a test user login for you. 
 
-I'd like you to take a look at this screen, and sign in. The system will automatically generate a test user login for you and assume credentials. 
+As we go through the steps in this study, please talk aloud about what you're thinking BEFORE clicking on anything. And please share any thoughts, reactions, or questions you have about the current screen. Remember that we're testing how well the app is working and not you. If you're confused, I expect other people would be confused too, so we definitely want to hear when something seems confusing or not right to you. 
 
-As we go through the steps in this study, please talk aloud about what you're thinking BEFORE clicking on anything. And please share any thoughts, reactions, or questions you have about the current screen. 
-
-
-
-
-
-
-## First Task: [TASK NAME] - X minutes
-
-- [ ] Step 1
-- [ ] Step 2
+Take a look at this page [homescreen]. [Give participant a minute to look.]
+What's catching your attention?
+If you saw this when you first logged into your app, what would you do next?
 
 > [!NOTE]
 > ### Things to watch for:
