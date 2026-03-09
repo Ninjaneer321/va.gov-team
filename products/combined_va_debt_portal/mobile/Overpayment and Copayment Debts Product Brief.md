@@ -137,6 +137,7 @@ O1: VA’s digital experiences are the easiest and most efficient way to access 
 |11/20/2025| We will be releasing Overpayments and Copayments separately. | Michelle and Denise made this decision due to MFS being unblocked from VBA content updates before the new Copay API is implemented. Post to this announcement can be found [here](https://dsva.slack.com/archives/C07SD9P7XB9/p1763657482261459) and was shared with the Financial Management and Mobile App team. |
 |12/10/2025| The new Healthcare Cost and Coverage API will not be implemented until Januaryary 2026. | The FM team updated the MFS team during our weekly sync. MFS is blocked from creating the mobile API endpoint until the new Copay API is released to VA.gov. |
 |2/4/2026| Content for mobile and web alerts will align, but display of telephone numbers does not need to align.|Denise agreed to this during our FM/MFS sync since the FM team has implemented a help icon that will display the phone numbers and not the alerts. The MFS team will keep the phone numbers on alerts so that they align with other mobile alerts.|
+|3/9/2025| The copay tile will only be located on the Payment tab within the VA: Health and Benefits mobile app.|During our Design Review with Ryan he mentioned that the Copay tile should live on one of the screens. This feedback was considered launch blocking for MVP and Michelle signed off for our team to address.|
 
 ## Features to consider for v2
 This information was collected from [research findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/research-findings.md), as well as working with the FM team to understand what is currently implemented when MFS plans to release MVP. 
@@ -147,6 +148,7 @@ This information was collected from [research findings](https://github.com/depar
 |9/23/2025| Add due dates for bills and debts on the Payments page to help users manage their finances at a glance.| Not currently technically feasible.|
 |9/23/2025| Provide access to debt letters. If not possible, provide a clear explanation for why they can not be read in the app.| Research needed: will PII always block adding letters? Research needed: what is allowed to be written?|
 |9/23/2025| Notification of an overpayment debt or copayment bill.|Research needed and will want to have the new Copayment API implemented so that data is updated within a 24-hour period.|
+|
 
 ## Reference Materials
 
