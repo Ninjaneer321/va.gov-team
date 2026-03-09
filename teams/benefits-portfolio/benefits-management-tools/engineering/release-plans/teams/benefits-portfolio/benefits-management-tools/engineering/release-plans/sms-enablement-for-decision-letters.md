@@ -47,7 +47,6 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 
 - Number of users: 
 - Number of bugs identified / fixed: 
-    - 
 - Was any downstream service affected by the change?: 
 - Types of errors logged:   
 - Any changes necessary based on the logs, feedback on user challenges, or VA challenges?: 
@@ -84,7 +83,6 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 - Metrics at this stage (per your "success criteria"):
     - [ ] DataDog errors < 5% (3.97% observed)
     - [ ] 5.90% click through rate 
-        - 
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
@@ -92,9 +90,7 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - [ ] Sms notification error rate < 5%  (0% observed)
 - Was any downstream service affected by the change?: 
 - Types of errors logged:
-    - 
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
-    -
 
 ### Stage B: Canary
 
@@ -111,7 +107,6 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 - Metrics at this stage (per your "success criteria"):
     - [ ] DataDog errors < 5% (3.97% observed)
     - [ ] 5.90% click through rate 
-        - 
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
@@ -119,9 +114,7 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - [ ] Sms notification error rate < 5%  (0% observed)
 - Was any downstream service affected by the change?: 
 - Types of errors logged:
-    - 
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
-    -
 
 ### Stage C: Canary
 
@@ -138,7 +131,6 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 - Metrics at this stage (per your "success criteria"):
     - [ ] DataDog errors < 5% (3.97% observed)
     - [ ] 5.90% click through rate 
-        - 
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
@@ -146,9 +138,7 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - [ ] Sms notification error rate < 5%  (0% observed)
 - Was any downstream service affected by the change?: 
 - Types of errors logged:
-    - 
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
-    -
 
 ### Stage D: Canary
 
@@ -165,7 +155,6 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 - Metrics at this stage (per your "success criteria"):
     - [ ] DataDog errors < 5% (3.97% observed)
     - [ ] 5.90% click through rate 
-        - 
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
@@ -173,9 +162,7 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - [ ] Sms notification error rate < 5%  (0% observed)
 - Was any downstream service affected by the change?: 
 - Types of errors logged:
-    - 
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
-    -
 
 ### Stage E: Canary
 
@@ -192,7 +179,6 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 - Metrics at this stage (per your "success criteria"):
     - [ ] DataDog errors < 5% (3.97% observed)
     - [ ] 5.90% click through rate 
-        - 
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
@@ -200,9 +186,7 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - [ ] Sms notification error rate < 5%  (0% observed)
 - Was any downstream service affected by the change?: 
 - Types of errors logged:
-    - 
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
-    -
 
 ### Stage F: Canary
 
@@ -219,7 +203,6 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 - Metrics at this stage (per your "success criteria"):
     - [ ] DataDog errors < 5% (3.97% observed)
     - [ ] 5.90% click through rate 
-        - 
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
@@ -227,9 +210,7 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - [ ] Sms notification error rate < 5%  (0% observed)
 - Was any downstream service affected by the change?: 
 - Types of errors logged:
-    - 
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
-    -
   
 ### Rollback process
 
