@@ -1,39 +1,4 @@
-```markdown
----
-title: "Conversation Guide for Results Page 2.0 UAT ([Team], [Date])"
-author: "[AUTHOR NAME]"
-date_created: "YYYY-MM-DD"
-last_modified: "YYYY-MM-DD"
-
-# Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "Discover Your Benefits (Results Page 2.0)"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|UAT|etc]"
-
-# Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Internal technically savvy participants']"
-
-# Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
-tags:
-  - "UAT"
-  - "Results Page 2.0"
-  - "Discover Your Benefits"
-description: "Conversation guide for a moderated UAT session evaluating Results Page 2.0 usability, including logistics, intro script, scenarios, test paths, and wrap-up."
-
-# Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
----
-
-# Conversation Guide for UAT
+# Conversation Guide for UAT - Results Page 2.0
 
 This study evaluates Results Page 2.0 for usability. Participants were recruited internally instead of using standard recruitment through Perigean because they are technically savvy.
 
