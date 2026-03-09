@@ -35,6 +35,7 @@ _(potential steps to start a new message for users)_
     - Measure whether users notice, read, and understand the interstitial content
     - Identify new and existing pain points in the message creation flow.
 
+---
 
 The following data highlights web analytics, app comments, and Medallia (web) comments for Nov - February. 
 
