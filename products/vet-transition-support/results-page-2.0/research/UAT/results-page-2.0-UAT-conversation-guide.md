@@ -1,6 +1,6 @@
 # Conversation Guide for UAT - Results Page 2.0
 
-This study evaluates Results Page 2.0 for usability. Participants were recruited internally instead of using standard recruitment through Perigean. Because they are technically savvy, we are doing an abbreviated and informal testing process.
+This study evaluates Results Page 2.0 for usability. Participants are recruited internally instead of using standard recruitment through Perigean. Because they are technically savvy, we are doing an abbreviated and informal testing process.
 
 ## Moderator resources
 
@@ -21,11 +21,11 @@ A few logistics:
 
 ### Scenario 1 (RSV)
 
-For this UAT session, I’d like you to role play as a Veteran in your first year post-separation from military service. You have gone through the process of applying for disability benefits. All other decisions using the product are your own. 
+For this UAT session, I’d like you to role play as a Veteran in your first year post-separation from military service. You have gone through the process of applying for disability benefits. All other decisions about using the product are your own. 
 
 ### Scenario 2 (TSM)
 
-For this UAT session, I’d like you to role play as a transitioning service member in your last year of service. You are completely new to VA.gov. You anticipate receiving an honorable discharge. All other decisions using the product are your own. 
+For this UAT session, I’d like you to role play as a transitioning service member in your last year of service. You are completely new to VA.gov. You anticipate receiving an honorable discharge. All other decisions about using the product are your own. 
 
 ## Set-up
 
