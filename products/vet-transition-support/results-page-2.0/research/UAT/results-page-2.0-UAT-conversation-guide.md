@@ -4,8 +4,8 @@ This study evaluates Results Page 2.0 for usability. Participants were recruited
 
 ## Moderator resources
 
-- Product in staging: [Product link]
-- Notetaking spreadsheet: [Notes doc]
+- Product in staging: [Product link](https://staging.va.gov/discover-your-benefits/introduction)
+- Notetaking spreadsheet: [Notes doc](https://docs.google.com/spreadsheets/d/1tUU8u2tAuQJgUz26tPS3VrYXw0W32cs8jCBEbOujPGY/edit?gid=2072925936#gid=2072925936)
 
 ## Intro
 
@@ -41,9 +41,32 @@ I’m going to send you a link through the Zoom chat. Please go ahead and open t
 
 Now I’m going to ask you to use the Discover Your Benefits tool.
 
-_Moderator will follow the test paths outlined in the spreadsheet._
+Moderator prompts the participant through using the tool, while ensuring they complete all these tasks:
 
-- Test paths spreadsheet: https://docs.google.com/spreadsheets/d/1tUU8u2tAuQJgUz26tPS3VrYXw0W32cs8jCBEbOujPGY/edit?gid=2072925936#gid=2072925936
+| Task/Question | Answer type |
+| :---- | :---- |
+| TSM or Veteran | Role |
+| Device | Name of device |
+| Complete questionnaire easily (yes/no) | Yes/No |
+| Questionnaire observations | Observational |
+| Landing on results page. Are filters in the way? How do they navigate? | Observational |
+| Independently finds and interacts with sort (yes/no/yes with assistance) | Yes/No |
+| Use sort as expected? | Yes/No |
+| Notes on using sort | Observational |
+| Easily find filters (yes/no/yes with assistance) | Yes/No |
+| Notes on finding filters | Observational |
+| Use filters as expected? | Yes/No |
+| Notes on using filters | Observational |
+| Exploring and understanding recommended vs all \- Smooth or difficult? | Observational |
+| Notes on recommended vs all | Observational |
+| Independently finds and interacts with when to apply filter (yes/no/yes with assistance) | Yes/No |
+| Notes on when to apply filter | Observational |
+| Found benefit information easily | Yes/No |
+| Notes on finding benefit information | Observational |
+| Circle back on any hiccups | Observational |
+| Ask for feedback summary/general thoughts | Observational |
+
+
 
 ## Wrapping up
 
