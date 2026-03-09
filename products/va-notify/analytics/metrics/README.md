@@ -2,7 +2,7 @@
 
 This folder contains metrics data for VA Notify notifications. It serves as a centralized location for tracking and reporting on notification performance, delivery volumes, portal usage, and platform health.
 
-> **Source**: [VA Notify Reporting Spreadsheet](https://dvagov.sharepoint.com/:x:/r/sites/VANotify-internal/_layouts/15/Doc.aspx?sourcedoc=%7B1493F02D-7916-4646-B3CA-1D5BD04F9766%7D&file=Quarterly%20Reporting%20Metrics%20(Expanded).xlsx&action=default&mobileredirect=true) | **Incidents**: [GitHub Incident Log](https://github.com/department-of-veterans-affairs/vanotify-team/blob/main/Incidents/README.md) | [Analytics Overview](../README.md)
+> **Source**: [VA Notify Reporting Spreadsheet](https://dvagov.sharepoint.com/:x:/r/sites/VANotify-internal/_layouts/15/Doc.aspx?sourcedoc=%7B1493F02D-7916-4646-B3CA-1D5BD04F9766%7D&file=Quarterly%20Reporting%20Metrics%20(Expanded).xlsx&action=default&mobileredirect=true) | 
 
 ---
 
