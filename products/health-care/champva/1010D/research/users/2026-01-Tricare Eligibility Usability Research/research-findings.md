@@ -157,28 +157,28 @@ tags:
 
 ## Research Questions
 
-`Goal 1: Learn where there are content comprehension issues within the eligibility questions and error messages options tested.`
+Goal 1: Learn where there are content comprehension issues within the eligibility questions and error messages options tested.
 
-**`1.`Do participants find the introduction page eligibility content clear and easy to understand?**
+**1. Do participants find the introduction page eligibility content clear and easy to understand?**
 
-**`2.`Do participants find the eligibilty questions asked in the VADS pattern flow confusing, unclear or state they need additional information?**
+**2. Do participants find the eligibilty questions asked in the VADS pattern flow confusing, unclear or state they need additional information?**
 
-**`3.`Do participants understand the content in the error messages clear enough to state what specific action, if any, they would need to take when applying for benefits?**
-
-
-
-`Goal 2: Discovery around two flows - one using a new VADS pattern and the other with a VADS pattern and API hybrid approach - to determine usabilty and user preference for both.`
-
-**`1.`Is the flow of prototype Blueberry and the VADS eligibility pattern easy for participants - both Veterans and family members?**
-
-**`2.`What flow do participants seem to find easier via self-reported ratings and quotes?**
+**3. Do participants understand the content in the error messages clear enough to state what specific action, if any, they would need to take when applying for benefits?**
 
 
-`Goal 3: Learn if there are any usability issues with the new VADS eligibility pattern and/or hybrid option.`
 
-**`1.`Do participants clearly understand the eligibility gray results box with the icons in the pattern?**
+Goal 2: Discovery around two flows - one using a new VADS pattern and the other with a VADS pattern and API hybrid approach - to determine usabilty and user preference for both.
 
-**`2.`Do the error alerts in the hybrid option add any confusion or do participants state incorrect actions needed?**
+**1. Is the flow of prototype Blueberry and the VADS eligibility pattern easy for participants - both Veterans and family members?**
+
+**2. What flow do participants seem to find easier via self-reported ratings and quotes?**
+
+
+Goal 3: Learn if there are any usability issues with the new VADS eligibility pattern and/or hybrid option.
+
+**1. Do participants clearly understand the eligibility gray results box with the icons in the pattern?**
+
+**2. Do the error alerts in the hybrid option add any confusion or do participants state incorrect actions needed?**
 
 
 ## Methodology 
@@ -207,9 +207,6 @@ tags:
     
 ## Key Findings
 
-> **After completing your detailed findings below, you'll add metadata labels using the [Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md).**  
-
-
 1. The “Check eligibility” default pattern was confusing to most participants when they were not eligible (Pineapple prototype) mostly due to the double negative statement and visual misunderstanding.
 2. Participants wanted a clear action or contact information when they saw the first warning alert or the eligibility review screen in the Pineapple prototype and they reported they would continue anyways or contact somebody as next steps - not exit the application.
 3. Most participants commented that more definitive language around eligibility would be helpful in understanding the review summary card and almost all preferred the alternate card option B with additional dynamic content explaining their eligibility.
@@ -221,10 +218,6 @@ tags:
 
 ## Details of Findings 
 
-
-> [!TIP]
-> **After drafting your detailed findings, apply OCTO metadata labels to enable automated pattern detection and cross-study aggregation.**
-> Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
 
 
 ### Finding 1: The “Check eligibility” default pattern was confusing to most participants when they were not eligible (Pineapple prototype) mostly due to the double negative statement and visual misunderstanding.
@@ -291,6 +284,49 @@ tags:
 
 
 ### Finding 2: Participants wanted actionable instructions or contact information when they saw the API warning alert or the “Check eligibility” review screen in the negative eligibility flow (Pineapple). 
+
+```yaml key-finding-labels
+key-finding-labels:
+  finding_id: 2
+  finding_title: "Participants wanted actionable instructions or contact information when they saw the API warning alert or the 'Check eligibility' review screen in the negative eligibility flow (Pineapple prototype)."
+  labels:
+    finding_types:
+      - unmet_need
+      - usability_issue
+    severity_levels: high
+    research_themes:
+      - help_support
+      - task_completion
+      - user_expectations
+    product_areas:
+      - health_care
+      - benefits
+    journey_stages:
+      - application
+      - ongoing_management
+    user_characteristics:
+      - low_digital_literacy
+    emotional_states:
+      - anxious
+      - uncertain
+    trust_factors:
+      - guidance_needed
+      - path_clarity_needed
+    channel_switching:
+      - digital_to_phone
+      - digital_to_facility
+    design_system_patterns:
+      - alerts_notifications
+      - help_text_tooltips
+      - links_navigation
+    temporal_patterns:
+      - recurring_issue
+  service_journey_mapping:
+    - CHAMPVA Application - Eligibility Screening
+  pattern_triggers:
+    - Missing Contact Information Pattern
+    - Guidance Barrier Pattern
+```
  
 When participants saw the summary card showing they were ineligible, users were divided on the next action to take. Participants reported either wanting to continue on anyways, not exit the application, or that they would want to contact somebody at the VA or TRICARE via phone.
 
@@ -325,6 +361,45 @@ Okay, then I would try to find some sort of...contact number for CHAMPVA, or, yo
 
 ### Finding 3: Most participants commented that more definitive language around eligibility would be helpful in understanding the review summary card and almost all preferred the alternate card option B with additional dynamic content explaining their eligibility.
 
+```yaml key-finding-labels
+key-finding-labels:
+  finding_id: 3
+  finding_title: "Most participants commented that more definitive language around eligibility would be helpful in understanding the review summary card and almost all preferred the alternate card option B with additional dynamic content explaining their eligibility."
+  labels:
+    finding_types:
+      - usability_issue
+      - enhancement
+    severity_levels: high
+    research_themes:
+      - content_comprehension
+      - user_expectations
+      - mental_models
+    product_areas:
+      - health_care
+      - benefits
+    journey_stages:
+      - application
+    user_characteristics:
+      - first_time_user
+    emotional_states:
+      - uncertain
+      - confused
+    trust_factors:
+      - confirmation_needed
+      - status_uncertainty
+    design_system_patterns:
+      - cards_tiles
+      - typography_hierarchy
+      - information_hierarchy
+    temporal_patterns:
+      - recurring_issue
+  service_journey_mapping:
+    - CHAMPVA Application - Eligibility Review
+  pattern_triggers:
+    - Ambiguous Language Pattern
+    - Card Design Effectiveness Pattern
+```
+
 **Lack of definitive language**
 
 The eligibility summary screen lets users know that they “may not be eligible” for CHAMPVA. For 12 of 15 participants, the lack of definitive eligibility language at this point in the form made it difficult to make the decision whether or not to abandon the form, or continue with the application.
@@ -348,6 +423,48 @@ When shown an alternative eligibility summary card design (Card Style B) in a fo
 
 
 ### Finding 4: Participants stated actions on the various warning alerts overall were to continue on with the application or they wanted contact information to talk to somebody.
+
+```yaml key-finding-labels
+key-finding-labels:
+  finding_id: 4
+  finding_title: "Participants stated actions on the various warning alerts overall were to continue on with the application or they wanted contact information to talk to somebody."
+  labels:
+    finding_types:
+      - usability_issue
+      - unmet_need
+    severity_levels: high
+    research_themes:
+      - help_support
+      - error_handling
+      - task_completion
+    product_areas:
+      - health_care
+      - benefits
+    journey_stages:
+      - application
+    user_characteristics:
+      - low_digital_literacy
+    emotional_states:
+      - uncertain
+      - anxious
+    trust_factors:
+      - guidance_needed
+      - human_support_preference
+    channel_switching:
+      - digital_to_phone
+    design_system_patterns:
+      - alerts_notifications
+      - error_messaging
+      - help_text_tooltips
+      - links_navigation
+    temporal_patterns:
+      - recurring_issue
+  service_journey_mapping:
+    - CHAMPVA Application - API Alert Scenarios
+  pattern_triggers:
+    - Alert Clarity Pattern
+    - Contact Information Gap Pattern
+```
 
 In Task 3, participants were shown 5 alerts that may appear in the hybrid (VADS pattern + API call) eligibility flow. These alerts map to errors or outages with the 2 APIs called in the flow, or to eligibility decisions. 
 
@@ -375,6 +492,38 @@ In Task 3, participants were shown 5 alerts that may appear in the hybrid (VADS 
 
 
 ### Finding 5: One flow was not preferred more than the other, and some participants stated they were too similar to choose. However in both flows, participants provided feedback similar content and pattern feedback.
+
+```yaml key-finding-labels
+key-finding-labels:
+  finding_id: 5
+  finding_title: "One flow was not preferred more than the other, and some participants stated they were too similar to choose. However in both flows, participants provided feedback similar content and pattern feedback."
+  labels:
+    finding_types:
+      - usability_issue
+    severity_levels: medium
+    research_themes:
+      - user_expectations
+      - task_completion
+      - pain_points
+    product_areas:
+      - health_care
+      - benefits
+    journey_stages:
+      - discovery
+      - application
+    emotional_states:
+      - confused
+    design_system_patterns:
+      - flow_patterns
+      - content_patterns
+    temporal_patterns:
+      - emerging_trend
+  service_journey_mapping:
+    - CHAMPVA Application - Flow Comparison
+  pattern_triggers:
+    - Flow Similarity Pattern
+    - Content Over Flow Impact Pattern
+```
 
 Participants were evenly split on ease of the two flows, with 6 preferring the VADS pattern, 5 preferring the hybrid VADS pattern/API option, and 4 stating they had no preference. The study used an A/B protocol to randomize prototype order and reduce recency bias.
 - About half of participants (8 of 15) preferred the second prototype that they saw
