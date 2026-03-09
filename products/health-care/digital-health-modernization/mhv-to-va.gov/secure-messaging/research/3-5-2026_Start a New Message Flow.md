@@ -7,6 +7,11 @@ The **“Start a new message”** flow was redesigned to streamline care-team se
 - **Unmet "recent care team" needs:** A large share of users immediately click **“Select a different care team”**, indicating the initial options often don’t match expectations.
 - **Provider confusion:** Users are still finding it difficult to find previously messaged providers.
 
+<img width="594" height="434" alt="Screenshot 2026-03-09 at 1 03 13 PM" src="https://github.com/user-attachments/assets/82d91b95-9568-4742-ac06-f9a6cf9239b5" />
+(potential steps to start a new message for users)
+
+The following data highlights web analytics, app comments, and Medallia (web) comments for Nov - February. 
+
 ---
 
 ## Web Analytics (DataDog): User Behavior at Message Start
@@ -133,9 +138,10 @@ Medallia comments were filtered for mentions of: contact lists, number of steps/
 4. **Address other usability suggestions**
    - Examine redundant “Start a new message” screens that users may not be understanding
    - Maybe increase subject-line character limit
-   - Add the ability to add more than one recipient or forward messages 
+   - Add the ability to add more than one recipient or forward messages
 
 ---
 
-## Summary
+
+  ## Summary
 Across analytics and user feedback, the redesigned flow still has friction for many veterans. Confusing navigation, only some initially visible care teams (web) and extra steps before message composition form a consistent pattern. Restoring discoverability of care teams and simplifying the message-start experience offer clear paths to improvement.
