@@ -5,7 +5,7 @@ The **“Start a new message”** flow was redesigned to streamline care-team se
 
 - **Flow complexity:** Extra steps and multi-page interactions feel “over-engineered” and slow message composition.
 - **Unmet "recent care team" needs:** A large share of users immediately click **“Select a different care team”**, indicating the initial options often don’t match expectations.
-- - **Provider confusion:** Users are still finding it difficult to find previously messaged providers.
+- **Provider confusion:** Users are still finding it difficult to find previously messaged providers.
 
 ---
 
