@@ -1,5 +1,4 @@
-Heather’s Brain-share document
-
+## Heather’s Brain-share document
 - March 2026
 - My focus has been on the 10-10EZ, 1-0-10CG and 10-10EZR forms.
 
@@ -22,11 +21,18 @@ Heather’s Brain-share document
      - [GA4 - Explorations](https://analytics.google.com/analytics/web/#/analysis/p419143770)
      - [GA4 - Home dashboard](https://analytics.google.com/analytics/web/#/p419143770/reports/intelligenthome)
      - [GA4 EZ Start form](https://analytics.google.com/analytics/web/#/analysis/p419143770/edit/dwxhetVwQr2pSXRr341_Ow)
+          - Start Form count comes from the "No seg" tab, use Total Users count
      - [GA4 EZ Events](https://analytics.google.com/analytics/web/#/analysis/p419143770/edit/7yD42qmORqO0iVldCEuWdQ)
+          - Future date submissions
+          - Short form starts
      - [GA4 CG Events](https://analytics.google.com/analytics/web/#/analysis/p419143770/edit/ffeHfxucSzypFvNDaGArbw)
+          - Start Form count comes from the Form starts event
      - [GA4 CG Start form (WIP)](https://analytics.google.com/analytics/web/#/analysis/p419143770/edit/5QPqHO34SJm5njqGugStxQ)
+          - Not really used for anything, since we have the event already
      - [GA4 EZR Events](https://analytics.google.com/analytics/web/#/analysis/p419143770/edit/B1BuF9JgTgCgLV3cx4EB4Q)
+          - No special events captured but good to have this
      - [GA4 EZR Start form](https://analytics.google.com/analytics/web/#/analysis/p419143770/edit/ejYeYXxMRViT5UJzSEafaQ)
+          - Start Form count comes from the Unique views tab, use total views count
 
 - Datadog dashboards & Links
      - [DD - Breakers External Services - Up](https://vagov.ddog-gov.com/dashboard/8c9-p4m-7ut/breakers-external-services---up?fromUser=true&refresh_mode=sliding&view=spans&from_ts=1721138524527&to_ts=1721311324527&live=true)
