@@ -72,5 +72,5 @@ All pages have ratings of 2 or below.
   - 38% of pages are scoring at 90% or higher "good"
   - 52% of pages are meeting our goal of 75% or higher "good," while 57% of pages are scoring 70% or higher
   - 21% of pages are scoring at less than 50% "good," with 11% scoring at less than 10% "good" 
-- Pages on [identity verification](https://www.va.gov/resources/verifying-your-identity-on-vagov/), [decision reviews FAQs](https://www.va.gov/resources/decision-reviews-faqs/), [updating your name in DEERS records](https://www.va.gov/resources/how-do-i-change-my-name-in-my-deers-record/), and [renewing a prescription](https://www.va.gov/resources/how-to-renew-a-va-prescription/) received some of the lowest scores. We'll review Medallia feedback to identify opportunities to improve them.  
+- Several of the lower-scoring pages are tied to processes that require external systems or account verification steps. We'll review Medallia feedback to determine whether the lower scores reflect issues with the page content itself or challenges with the underlying process, and identify recommendations for improvement.   
 
