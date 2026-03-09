@@ -30,7 +30,10 @@ Before enabling your feature toggle in production, you'll need to:
 
 ## Step 3: Production rollout
 
-We will be performing a progressive rollout to be able to minimize the production impact of any issues.
+We will be performing a progressive rollout to be able to minimize the production impact of any issues. 
+
+Each phase/stage in the process is a task within the mini-epic [[Epic] Decision Letter Enablement
+#135521](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135521) that will be dragged to In Progress when started.
 
 ### Phase I: moderated production testing (also known as User Acceptance Testing, or UAT)
 
