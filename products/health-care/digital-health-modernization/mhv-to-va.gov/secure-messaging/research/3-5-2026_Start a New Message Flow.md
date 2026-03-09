@@ -8,7 +8,8 @@ The **“Start a new message”** flow was redesigned to streamline care-team se
 - **Provider confusion:** Users are still finding it difficult to find previously messaged providers.
 
 <img width="594" height="434" alt="Screenshot 2026-03-09 at 1 03 13 PM" src="https://github.com/user-attachments/assets/82d91b95-9568-4742-ac06-f9a6cf9239b5" />
-(potential steps to start a new message for users)
+
+_(potential steps to start a new message for users)_
 
 The following data highlights web analytics, app comments, and Medallia (web) comments for Nov - February. 
 
