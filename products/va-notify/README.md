@@ -16,11 +16,11 @@
 
 **Email:** [oitoctovanotify@va.gov](mailto:oitoctovanotify@va.gov)
 
-**Office Hours:** Tuesdays and Thursdays at 2:30 PM ET (30 minutes each). Sign-ups close 24 hours before each session. Office hours are a chance to:
-- Hold a kick-off session once your intake has been submitted
-- Ask onboarding or integration questions
-- Request quick demos of features
-- Get help with specific issues or blockers
+**Office Hours:** VA Notify holds recurring office hours for business lines and partners:
+
+- **When:** Tuesdays and Thursdays at 2:30 PM ET (30 minutes each)
+- **Sign-up:** Contact Ksenia Belikova and/or Evan Parish; sign-ups close 24 hours before each session
+- **Purpose:** Kick-off sessions, onboarding questions, feature demos, issue resolution
 
 ### Points of Contact
 
