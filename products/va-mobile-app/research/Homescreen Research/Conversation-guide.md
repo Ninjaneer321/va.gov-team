@@ -161,29 +161,36 @@ Please go ahead and log in using ID.me. The system will automatically generate a
 As we go through the steps in this study, please talk aloud about what you're thinking BEFORE clicking on anything. And please share any thoughts, reactions, or questions you have about the current screen. Remember that we're testing how well the app is working and not you. If you're confused, I expect other people would be confused too, so we definitely want to hear when something seems confusing or not right to you. 
 
 Take a look at this page [homescreen]. [Give participant a minute to look.]
+
+### Questions for testing participant: 
 1. What's catching your attention?
 2. Probe: What about it is catching your attention?
 3. If you saw this screen when you first logged into your app, what would you do next?
-4. What do you think this first section in blue is about?
-5. What kind of things would you expect to see here?
-6. What do you think the next section is for?
-7. What kind of things would you expect to see here?
-8. Is there anything confusing here?
-9. Is there anything missing?
+4. Probe: Why would you take that action?
+5. What do you think this first section in blue is about? [Action required section]
+6. What kind of things would you expect to see here?
+7. What do you think the next section is for? [Activity section]
+8. What kind of things would you expect to see here?
+9. Is there anything confusing here?
+10. Is there anything missing?
 
 > [!NOTE]
 > ### Things to watch for:
 > - Does the participant notice Action required section label?
 > - Does the participant notice Activity section label?
 
-## Second Task: Find dsability rating/payments, Veteran status card, dependents - 10 minutes, 25 minutes elapsed
+## Second Task: Find dsability rating/payments - 4 minutes, 25 minutes elapsed
 
 Now let's talk about trying to find a few things in the app. 
-1. If you had submitted some things to hopefully update your disability rating and got notice that it has been updated, where would you look for your disability rating?
+Imagine you had submitted some things to hopefully update your disability rating and got notice that it has been updated. You then got a disabiilty payment with the updated rating.
+### Questions for testing participant: 
+1. Where would you look for your disability rating?
 2. What about your disability payments history?
 3. Would you expect them to be in the same place?
-4. If you were in a store and saw a sign that they offered a military and Veterans discount and wanted to try to get the discount, where would you go in the app to find your Veteran status card to show the store?
-5. 
+
+## Second Task: Find Veteran status card, dependents - 3 minutes, 29 minutes elapsed
+5. If you were in a store and saw a sign that they offered a military and Veterans discount and wanted to try to get the discount, where would you go in the app to find your Veteran status card to show the store?
+6. 
 - [ ] Step 2
 
 > [!NOTE]
