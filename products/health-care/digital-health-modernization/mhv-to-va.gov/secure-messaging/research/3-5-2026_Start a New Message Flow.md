@@ -117,7 +117,7 @@ Medallia comments were filtered for mentions of: contact lists, number of steps/
    About a quarter to a third of all users must navigate to Page 2 to find the right team.
 2. **Contact-list maintenance occurs**  
    Veterans attempt to manually fix incorrect or missing care-team data.
-3. **Multi-screen workflow is widely criticized**  
+3. **Multi-screen workflow is criticized**  
    The flow adds friction and slows down message creation.
 4. **The number of complaints about missing providers has decreased since the flow launched**  
    Less users are confused about having to go to another screen, but confusion still persists.
