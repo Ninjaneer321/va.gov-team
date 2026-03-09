@@ -59,6 +59,20 @@
      - [EZ SIP deleted Logs](https://vagov.ddog-gov.com/logs?query=env%3A%22eks-prod%22%20service%3Avets-api%20%40message_content%3A%2A%22-%20InProgressForm%20successfully%20deleted%22%2A&agg_m=count&agg_m_source=base&agg_t=count&clustering_pattern_field_path=message&cols=host%2Cservice&messageDisplay=inline&refresh_mode=sliding&source=monitor_notif&storage=flex_tier&stream_sort=desc&viz=stream&from_ts=1758126689151&to_ts=1759422689151&live=true)
 - VA Notify (get access to the spaces)
 - Pagerduty (get access to the space)
+     - [List of services](https://ecc.pagerduty.com/service-directory/?direction=asc&query=&sort_by=name&team_ids=mine)
+          - EZ
+               - External: 10-10EZ form - PROD
+               - External: Enrollment Services (ES) - PROD
+               - Staging: External: 10-10EZ form - Staging
+               - Staging: External: ES - Staging
+          - EZR
+               - External: 10-10EZR form - PROD
+               - Staging: External: 10-10EZR form - Staging
+          - CG
+               - External: CARMA - PROD
+               - Dev: External: CARMA - DEV
+               - Staging: External: CARMA - Staging
+     - [Set up a Maintenance window](https://ecc.pagerduty.com/service-directory/maintenance-windows?team_ids=mine)
 - Figma Files
      - [EZ Working file](https://www.figma.com/file/UljiHam46o5DItC5iDgmPd/10-10EZ?type=design&node-id=109-59846&mode=design&t=NG4WSpLntVopG3ox-0)
      - [EZ Production file](https://www.figma.com/design/W1cs6Gjx3MR5VU0EjurHLZ/10-10EZ-Production?node-id=0-1&p=f&t=JhxW0BXZeM2oyPIO-0)
