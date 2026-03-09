@@ -24,8 +24,8 @@ The following data highlights web analytics, app comments, and Medallia (web) co
 - **Page-two rate: 22.4%**
 
 Additional activity:
-- **21.47K** clicked **Update your contact list**
-- **122K** toggled care systems
+- **21.47K** clicked **Update your contact list** (15.2% of the 140.92K people who made it to this page) 
+- **122K** toggled care systems (counts of a single user clicking on unique care systems - doesn't involve re-clicking a care system)
 
 ### Dec 10 – Jan 10
 - New messages started: **591,688**
@@ -34,7 +34,7 @@ Additional activity:
 - **Page-two rate: 23.5%**
 
 Additional activity:
-- **21.24K** clicked **Update your contact list**
+- **21.24K** clicked **Update your contact list** (15.3% of the 138.76K people who made it to this page) 
 - Care-system toggle data unavailable
 
 ### Jan 10 – Feb 10
@@ -44,8 +44,8 @@ Additional activity:
 - **Page-two rate: 29.1%**
 
 Additional activity:
-- **32.16K** clicked **Update your contact list**
-- **23.92K** toggled care systems
+- **32.16K** clicked **Update your contact list** (16.3% of the 196.65K people who made it to this page) 
+- **23.92K** toggled care systems (counts of a single user clicking on unique care systems - doesn't involve re-clicking a care system)
 
 ### Feb 10 – Mar 28
 - New messages started: **409,075**
@@ -54,8 +54,8 @@ Additional activity:
 - **Page-two rate: 29.9%**
 
 Additional activity:
-- **21.6K** clicked **Update your contact list**
-- **51.72K** toggled care systems
+- **21.6K** clicked **Update your contact list** (17.6% of the 122.39K people who made it to this page) 
+- **51.72K** toggled care systems (counts of a single user clicking on unique care systems - doesn't involve re-clicking a care system). 
 
 ---
 
