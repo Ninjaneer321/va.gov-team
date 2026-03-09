@@ -39,7 +39,7 @@
 
 ##
 ### Team PTO
-- 
+- Andrea: 5/8
 
 ---
 ## 📆 Sprint 19 (Apr 22 - May 5) (PREPLANNED)
@@ -72,7 +72,9 @@
 
 ##
 ### Team PTO
-- ...
+- Allan: 4/8-24
+- Andrea: 4/24
+- 
 
 ---
 ## 📆 Sprint 18 (Apr 8 - Apr 21) (PREPLANNED)
@@ -120,7 +122,10 @@
 
 ##
 ### Team PTO
-- 
+- Hieu: 4/6-14
+- Jessica 4/6-7
+- Allan: 4/8-24
+- Fara: 4/17-22
 
 ---
 ## 📆 Sprint 17 (Mar 25 - Apr 7) (PREPLANNED)
@@ -183,7 +188,10 @@
 
 ##
 ### Team PTO
-- 
+- Andrea: 3/25-27
+- Hieu: 4/6-14
+- Jessica 4/6-7
+- Allan: 4/8-24
 
 
 ---
@@ -245,7 +253,8 @@
 
 ##
 ### Team PTO
-- 
+- Renata: 3/11
+- Jessica: 3/13
 - 
 
 ---
