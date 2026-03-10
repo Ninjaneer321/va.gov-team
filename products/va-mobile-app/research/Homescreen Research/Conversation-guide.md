@@ -203,9 +203,10 @@ Say you had submitted a claim to hopefully update your disability rating and got
 Next, let's think about if you were in a store and saw a sign that they offered a military and Veterans discount and wanted to try to get the discount. 
 
 ### Questions for testing participant: 
-1. Where would you go in the app to find your Veteran status card to show the store?
+1. Where would you go to find your Veteran status card to show the store?
 2. Why?
-3. Would you look anywhere else?
+3. [If they saide outside the app] Where would you look for this in the app?
+4. Would you look anywhere else?
 
 > [!NOTE]
 > ### Things to watch for:
@@ -254,7 +255,7 @@ Next, let's take another look at the Activity section.
 6. Go ahead and click
 7. What do you think about what you see here? [Additional information on prescriptions]
 8. Without clicking yet, what would you do next?
-9. We'll say you want to refill the L-O-R prescription, tell me what you would do next.
+9. Let's say you want to refill the L-O-R prescription, tell me what you would do next.
 10. What do you expect to happen when you do that?
 11. Go ahead and go through the next steps. Talk out loud as you do please. 
 12. What did you think about that process?
@@ -269,11 +270,11 @@ Next, let's take another look at the Activity section.
 
 ## Thank You and Closing - 5 minutes, 55 minutes elapsed
 
-Now I'm going to just check in with my notetaker and observers to see if there was anything I missed they might like me to ask. Bear with me just a minute. [Check slack for any questions to include]
+Now I'm going to just check in with my notetaker and observers to see if there was anything else they might like me to ask. Bear with me just a minute. [Check Slack for any questions to include]
 
 Thanks for your patience. [If needed] I wanted to check back on...
 
-**Thinking back to everything we looked at today, is there anything we didn't already talk about that you'd like to give feedback on?**
+Thinking back to everything we looked at today, is there anything we didn't already talk about that you'd like to give feedback on?
 
 **Are you still okay if we use any video or audio clips from this session?** 
 - *(yes / no)*
