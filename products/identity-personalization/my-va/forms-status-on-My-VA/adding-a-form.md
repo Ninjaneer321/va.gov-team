@@ -39,10 +39,18 @@ Forms display _only_ **four statuses**:
 
 
 ### Start Here: Identify Your Scenario
-Use this guide to follow the correct implementation path for your form.
+This section helps determine the implementation path for your form based on how it currently interacts with Form APIs and the Form Status system.
 If unsure which path to follow, please reach out to our team channel in OCTO Slack [#accountexp-authexp](https://dsva.slack.com/archives/C909ZG2BB).
 
+> **Note on `DRAFT` Status**  
+> If your form already displays a `DRAFT` status card, your team has likely implemented **Save in Progress ([SiP](https://depo-platform-documentation.scrollhelp.site/developer-docs/va-forms-library-how-to-set-up-save-in-progress-si))**.  
+> SiP only supports the **Draft** status.  
+> To support **Submission in Progress, Received, or Action Needed**, you will still need to follow the steps in the scenario that applies to your form below.
+
+---
+
 **Scenario A - Your form already uses Lighthouse Benefits Intake API**
+> Lighthouse Benefits Intake API was the **first Form API integrated with the Form Status system**, and its implementation serves as the primary reference pattern.
 - Go to Section 5: [Existing Pattern: Lighthouse Benefits Intake API Forms](#existing-pattern-lighthouse-benefits-intake-api-forms)
 - You may only need to:
   - Add the form ID
@@ -56,7 +64,11 @@ If unsure which path to follow, please reach out to our team channel in OCTO Sla
   - Update/add tests
   - Validate status mapping
 
- **Scenario C - Your form is the first to use a brand-new Form API**
+ **Scenario C - Your Form API is not yet connected to the Form Status system**
+ 
+ Your Form API already exists, but it has **not yet been connected to the Form Status system**.
+ Your team will be the first to add that integration.
+ 
  - Go to Section 6: [Implementing Form Status for a New Form API](#implementing-form-status-for-a-new-form-api) -> [Step 4 — First Team for This Form API](#step-4--first-team-for-this-form-api)
  - You will need to:
    - Create a Gateway
