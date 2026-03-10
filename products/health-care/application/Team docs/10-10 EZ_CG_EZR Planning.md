@@ -132,7 +132,7 @@
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
-- **The goal for Sprint 17 is launch EZR Service history, wrap up form status work, update EZ File upload pattern**
+- **The goal for Sprint 17 is launch EZR Service history, wrap up EZ form status work, update EZ File upload pattern**
 
 #### List of Planned work
 - EZR Service History
