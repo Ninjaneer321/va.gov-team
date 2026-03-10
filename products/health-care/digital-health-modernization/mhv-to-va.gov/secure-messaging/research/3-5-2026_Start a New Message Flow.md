@@ -139,7 +139,7 @@ Medallia comments were filtered for mentions of: contact lists, number of steps/
 ---
 
 ## Cross-source synthesis
-1. **The first page often fails user intent**  
+1. **The first page sometimes fails user intent**  
    About a quarter to a third of all users must navigate to Page 2 to find the right team.
 2. **Contact-list maintenance occurs**  
    Veterans attempt to manually fix incorrect or missing care-team data.
