@@ -25,7 +25,7 @@ _(potential steps to start a new message for users)_
    - Add the ability to add more than one recipient or forward messages
 4. **Conducting a research study**
    - **Hypothesis**
-   -  - Users will complete their task more quickly and with fewer clicks
+      - Users can more easily send a message when all fields are on a single page, including AT users if there are minimal dynamic updates on the single page.
       - Users are not paying attention to the interstitial content
       - Users struggle with the care system → care team selection hierarchy and don't understand the distinction between these two step
    - **Draft Research Goals**
