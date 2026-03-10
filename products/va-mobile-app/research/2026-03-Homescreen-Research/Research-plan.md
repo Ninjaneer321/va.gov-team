@@ -257,16 +257,18 @@ Are there moments that matter?</summary>
 `What will I do with what I learn from this question?`
   
 `Does this question serve the goals of my study?`
+**Research goal 1: Understand users' expectations for homescreen content, navigation, and functionality**
+1. What content and functionality do users expect to find on the homescreen?
 
-**`1.`What content and functionality do users expect to find on the homescreen?**
+2. Where do users expect to find their Veteran status card, disability rating and payments, and dependents verification?
 
-**`2.`Where do users expect to find their Veteran status card, disability rating and payments, and dependents verification?**
+**Research goal 2: Understand how users interpret and use homescreen content and capabilities**
 
-**`3.`Do users notice, understand, and take action on items in "Action required" and "Activity" sections?**
+1. Do users notice, understand, and take action on items in "Action required" and "Activity" sections?
 
-**`4.`Does the homescreen provide enough information for users to take action and complete tasks?**
+2. Does the homescreen provide enough information for users to take action and complete tasks?
 
-**`5.`How do users expect to complete tasks surfaced on the homescreen?**
+3. How do users expect to complete tasks surfaced on the homescreen?
 
 > [!TIP]
 >Enter more questions as needed
