@@ -243,7 +243,7 @@ Next, let's take another look at the Action required section.
 > - How confident is the participant?
 > - Any hesitation and/or confusion
 
-## Task 6: Pay copay - 10 minutes, 45 minutes elapsed
+## Task 6: Refill prescription - 10 minutes, 45 minutes elapsed
 Next, let's take another look at the Activity section.  
 ### Questions for testing participant: 
 1. [If not already discussed in Task 1] Based on what you see, is there anything you would do?
@@ -267,7 +267,11 @@ Next, let's take another look at the Activity section.
 > - How confident is the participant?
 > - Any hesitation and/or confusion?
 
-## Thank You and Closing - 3 minutes, 55 minutes elapsed
+## Thank You and Closing - 5 minutes, 55 minutes elapsed
+
+Now I'm going to just check in with my notetaker and observers to see if there was anything I missed they might like me to ask. Bear with me just a minute. [Check slack for any questions to include]
+
+Thanks for your patience. [If needed] I wanted to check back on...
 
 **Thinking back to everything we looked at today, is there anything we didn't already talk about that you'd like to give feedback on?**
 
