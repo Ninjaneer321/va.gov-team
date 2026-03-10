@@ -132,7 +132,7 @@ tags:
 
 `Product Brief`
 
-**[Link to product brief]([url goes here](https://github.com/department-of-veterans-affairs/va-mobile-app/issues/11464)).**
+**[Link to product brief]([Homescreen Epic](https://github.com/department-of-veterans-affairs/va-mobile-app/issues/11464)).**
 
 </details>
 
