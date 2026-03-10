@@ -53,4 +53,4 @@ The resources in this repo are for members of the Mobile App and Platform (MAP) 
 ## Release Cycle
 VA Mobile App Release Calendar: https://department-of-veterans-affairs.github.io/va-mobile-app/gettingStarted/Releases/
 
-Because VSP's Collaboration Cycle is designed for web features, the VA Mobile App team is going to leverage parts of the process that make sense for mobile and create other quality control processes where it doesn't. For example, the VA Mobile App team is creating its own Accessibility review that is tailored to mobile devices.
+Because VSP's Collaboration Cycle is designed for web features, the VA Mobile App team is leveraging parts of the process that make sense for mobile and have created other quality control processes where it doesn't. For example, the VA Mobile App team has its own Accessibility review that is tailored to mobile devices.
