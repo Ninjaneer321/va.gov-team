@@ -4,24 +4,58 @@
 
 The OCTO Identity team manages the authentication integration for VA.gov. We work with identity partners to confirm who’s signing in and provide secure access to VA.gov resources. Our team understands how identity and security works across the entire platform.
 
-## **PRIORITIES**
+## FY 2026 Work
 
-| **Initiative** | **Status** | **Benefit** |
-|----------------|------------|-------------|
-| **TBA** |  |  |
-| **Sign-In Transition** |  |  |
-| [DS Logon Deprecation](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Products/DSLogon%20Deprecation) | Now | Improves Veteran sign-in experience and security by consolidating to modern credentials |
-| [Post-MHV Deprecation Work](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/4) | Now | Ensures continuity and secure access for Veterans post-MHV deprecation |
-| [Production Test Account Replacement Recommendations](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Products/Production%20Test%20Accounts)] | Now | Provides secure testing and training options for internal VA teams and contractors after MHV sunset |
-| **Other Strategic Initiatives** |  |  |
-| [Delegate Access on VA.gov](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/3) | Now | Supports caregivers and family members with secure delegated access to Veteran services |
-| [Identity Fraud Mitigation & Response](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/8) | Next | Enhances protection against identity fraud through proactive monitoring and response strategies |
-| [Improving Identity Metrics](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/5) | Next | Strengthens insight into user identity journeys through improved measurement and reporting |
-| [MHV & MVH Move into VA.gov](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/1) | As Time Allows | Streamlines access and experience for Veterans by integrating services into VA.gov |
-| [Oracle Health Provisioning Expansion](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/1) | As Time Allows | Expands secure access to Oracle Health records and tools |
-| [Operational Readiness: Internal Processes](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/10) | Ongoing | Improves team coordination, documentation, and support efficiency |
-| [Identity Dashboard: STS Focus](https://github.com/orgs/department-of-veterans-affairs/projects/1646/views/10?pane=issue&itemId=111916085&issue=department-of-veterans-affairs%7Cidentity-documentation%7C323) | In Intake | Provides VA teams with self-service tools for managing STS integrations securely |
+### Our strategic position
+By leveraging SiS and user research data, we aim to proactively reduce veteran dissatisfaction and lead VA's authentication modernization.
 
+### How we prioritize
+Every priority is currently evaluated against one question:
+
+**Will this measurably reduce veteran dissatisfaction or position us to be leaders in VA's authentication modernization?**
+
+---
+
+## OCTO Objective 1: Reduce dissatisfaction with sign-in
+***Veterans experience less friction when accessing their benefits and services.***
+
+- **Quarterly sign-in pulse**: Pinpoint the sources of user dissatisfaction with sign-in. *SUCCESS METRICS*
+    -  [Initial process and findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-01%20dissatisfaction%20discovery/2026-01%20Dissatisfaction%20Discovery%20-%20Research%20Findings.md)
+    -  [Quantitative data](https://dsva.slack.com/docs/T03FECE8V/F0AEHS5SW03)
+
+- **Insight-informed error improvements**: Leverage our SiS visibility to fix problems causing veteran dissatisfaction with sign-in. *SUCCESS METRICS*
+    -  Data mismatch errors
+	- [FE/UX](https://github.com/department-of-veterans-affairs/identity-documentation/issues/1076) — release of `error 113`
+	- [BE](https://github.com/department-of-veterans-affairs/identity-documentation/issues/1087) — demonstrating the power of SiS
+	- Looping issue (silent error) — *(link needs a valid URL; current one is malformed)*
+
+---
+
+## OCTO Objective 2: Provide leadership, guidance, and support on VA’s login and identity modernization efforts
+***Veterans access services through a secure and modern system with fewer disruptions as old infrastructure is retired.***
+
+- **Enhance identity verification standards**: We will protect veteran accounts with stronger verification while maintaining seamless access for existing users. *SUCCESS METRICS*
+    -  [Identity verification dashboard](https://vagov.ddog-gov.com/account/login?next=%2Fdashboard%2Fxq8-m43-tmx%2Fvagov-identity-verification%3FfromUser%3Dfalse%26refresh_mode%3Dsliding%26from_ts%3D1769355767739%26to_ts%3D1769528567739%26live%3Dtrue)
+	- [IAL2 for new users](https://dsva.slack.com/docs/T03FECE8V/F0A829EKR6D) release to production
+
+- **Retire outdated services and infrastructure**: We will ensure veteran data migrates seamlessly from retiring systems without service disruption or data loss. *SUCCESS METRICS*
+    -  GHEC migration
+	-  Oracle Health transition assistance
+	-  Migrating services from SSOe to SiS
+
+---
+
+## OCTO Objective 3: Get our operational house in order
+***A well organized, aligned team means faster delivery of improvements that matter most to veterans.***
+
+- **Knowledge base navigation and consistency**: We will create documentation standards to make information accessible and useful. *SUCCESS METRICS*
+    -  Audit and cleanup
+    -  IA structure and reorg
+	-  Establish maintenance process
+
+- **Visible roadmap and performance tracking**: We will share our roadmap to ensure everyone is aligned and focused on maximizing veteran impact.
+	-  Roadmap
+	-  Success metrics tracking
 
 
 
@@ -106,8 +140,7 @@ Any product involving identity should review the relevant [identity error handli
 ### Contact our team
 
 - Slack channel: [#identity-support](https://dsva.slack.com/archives/CSFV4QTKN)
-- Product managers:
-    - Joelle Wells
+- Product manager:
     - Lainey Trahan
 - VA point of contact:
     - Tom Black ([thomas.black2@va.gov](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/thomas.black2@va.gov))
