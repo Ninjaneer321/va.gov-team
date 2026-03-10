@@ -167,7 +167,7 @@ Applications requiring custom error handling outside the forms library can refer
 
 **Status**: Accepted
 
-Date: 03/03/2026
+Udated Date: 03/10/2026
 
 **Context**
 
@@ -217,7 +217,13 @@ The `<dl>` pattern:
 
 **Why not `<dl>` everywhere?**
 
-This decision is intentionally scoped. Read-only select states elsewhere in VADS (e.g. system-controlled field locks, partially editable forms) have different semantic requirements and must be evaluated independently. See UC1 (military base → country field) as a counterexample where `disabled` with an associated reason string is the correct pattern.
+This decision is intentionally scoped. Read-only select states elsewhere in VADS (e.g. system-controlled field locks, partially editable forms) have different semantic requirements and must be evaluated independently.
+
+**Where else are we using `<dl>` today?**
+
+The same pattern can be found in a forms review page, that displays static content of entered data. The same use case here.
+
+
 
 **Consequences**
 
@@ -233,4 +239,5 @@ Negative / watch items
 * The visual and interaction pattern shifts from a form control to static content — consuming teams should ensure the surrounding UI makes the review state clear to sighted users as well
 * If the component ever needs to support editing the document type after upload (inline edit pattern), the `<dl>` approach will need to be revisited in favor of a toggled edit state
 * JAWS in forms mode will skip `<dl>` content — acceptable here since the review state is not inside an active form submission context, but should be verified if that assumption changes
+* DL/DT is not nicely announced using voice over on chrome. This use case may not also be a true representation of a definition for a term.  More exploration is encouraged, but this is the state as of today 3/10/2026.
 
