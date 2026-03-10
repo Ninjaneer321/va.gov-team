@@ -274,7 +274,7 @@
 - **iOS Installs**: 
 - **Average App Store Rating**: 
 
-## Februrary 2026
+## February 2026
 
 **Date range for metrics**: February 1, 2026 - February 28, 2026
 
