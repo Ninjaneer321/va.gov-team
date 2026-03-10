@@ -132,7 +132,7 @@ tags:
 
 `Product Brief`
 
-**[Link to product brief]([Homescreen Epic](https://github.com/department-of-veterans-affairs/va-mobile-app/issues/11464)).**
+**Link to product brief([Homescreen Epic](https://github.com/department-of-veterans-affairs/va-mobile-app/issues/11464)).**
 
 </details>
 
@@ -214,8 +214,6 @@ tags:
 <details><summary>Where does your product fit into the Veteran journey?
 Are there moments that matter?</summary>
 	
-- `Joining`
-- `Serving`
 - `Getting Out`
 - `Starting Up`
 - `Taking Care of Myself`
@@ -223,7 +221,6 @@ Are there moments that matter?</summary>
 - `Putting Down Roots`
 - `Retiring`
 - `Aging`
-- `Dying`
 
 </details>
 
@@ -238,18 +235,16 @@ Are there moments that matter?</summary>
 
 ### Goals
 
-`1.` **[Enter answer here]**
+`1.` **Understand users' expectations for homescreen content, navigation, and functionality**
 
-`2.` **[Enter answer here]**
-
-`3.` **[Enter answer here]** 
+`2.` **Understand how users interpret and use homescreen content and capabilities**
   
 ### Outcome
 `How will this research advance your product to the next phase in the design process? What will you do with your learnings?`
 
 ---
 
-**[Enter outcome here]** 
+**We plan to incorporate insights to guide design decisions for homescreen and related actions so that we design based on Veterans' input.** 
 
 ---
 
