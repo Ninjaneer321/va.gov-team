@@ -227,6 +227,48 @@ Number of participants: 6–8 Veterans
 
 Inclusion criteria: Must be attached to a transitioning VA facility in MI (Battle Creek, Ann Arbor, Detroit, Saginaw).  Total: 14 veterans, records indicate that 13 of them have VA healthcare.  Given the small number, would prefer to work with Perigean to find time that works with those that qualify and are available.  
 
+Time slots for Session 1
+
+**Monday, 3/16**
+10:30am EST
+
+12:30pm EST
+
+4pm EST
+
+5pm EST
+
+
+**Tuesday, 3/17**
+
+10:30am EST
+
+12:30pm EST
+
+4pm EST
+
+5pm EST
+
+
+**Wednesday, 3/18**
+10:30am EST
+
+12:30pm EST
+
+2pm EST
+
+5pm EST
+
+
+**Thursday, 3/19**
+10:30am EST
+
+12:30pm EST
+
+4pm EST
+
+5pm EST
+
  
 
 **High-level outline of check-ins**

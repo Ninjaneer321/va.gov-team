@@ -73,8 +73,8 @@ Use "balance" when you refer to the total amount owed for copay bills or overpay
 
 Updated these entries:
 
-- verify and verification: Specified that **ID.me** and **Login.gov** are accounts
-- Veterans Service Organization (VSO): Fixed typo
+- **verify and verification:** Specified that **ID.me** and **Login.gov** are accounts
+- **Veterans Service Organization (VSO):** Fixed typo
 
 Added these new entries:
 
@@ -104,6 +104,12 @@ MOVE! is all capital letters, with an exclamation point at the end. There's no s
 - Added guidance on slim alert length:
   > Keep slim alerts to 100 characters (with spaces) when possible. If you have a slim alert that’s longer than 100 characters, contact the VA.gov content and IA team. The team will work with you to edit the alert or determine if we need to make an exception (up to 150 characters).
 - Made edits to the **Content considerations** to align with the style guide.
+
+### IA
+
+#### [VA website organization](https://design.va.gov/ia/va-website-organization)
+
+This new section explains how and why we organize content on the VA.gov website. The **VA website organization** section also provides links and descriptions for key categories on the website.
 
 ## February 2026
 

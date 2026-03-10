@@ -25,14 +25,14 @@ _(potential steps to start a new message for users)_
    - Add the ability to add more than one recipient or forward messages
 4. **Conducting a research study**
    - **Hypothesis**
-   -  - Users will complete their task more quickly and with fewer clicks
+      - Users can more easily send a message when all fields are on a single page, including AT users if there are minimal dynamic updates on the single page.
       - Users are not paying attention to the interstitial content
       - Users struggle with the care system → care team selection hierarchy and don't understand the distinction between these two step
    - **Draft Research Goals**
-   - Determine optimal information architecture and design by identifying whether users would prefer to address and compose their message on two separate pages or on a unified single-page flow.
-    - Validate accessibility by gathering feedback from AT users about what flow is most accessible and intuitive
-    - Clarify mental models by assessing user understanding of care system vs. care team concepts and their perceived relationship
-    - Measure whether users notice, read, and understand the interstitial content
+   - Determine optimal information architecture and design of whether addressing and composing a message is easier for veterans on two separate pages or on a unified single-page flow. 
+    - Validate accessibility by gathering feedback from AT users about what flow is most accessible and intuitive.
+    - Assess user user understanding of care system vs. care team concepts and their perceived relationship with different UI concepts.
+    - Measure whether users notice, read, and understand the interstitial content.
     - Identify new and existing pain points in the message creation flow.
 
 ---
@@ -73,7 +73,7 @@ Additional activity:
 - **32.16K** clicked **Update your contact list** (16.3% of the 196.65K people who made it to this page) 
 - **23.92K** toggled care systems (counts of a single user clicking on unique care systems - doesn't involve re-clicking a care system)
 
-### Feb 10 – Mar 28
+### Feb 10 – Mar 8
 - New messages started: **409,075**
 - Selected a recent care team: **271.91K**
 - Went to page 2: **122.39K**
@@ -88,7 +88,7 @@ Additional activity:
 ## Analytics takeaways
 Across all periods, **22–30%** of all new message attempts advance to Page 2. This indicates:
 
-- The initial **“Recent Care Teams”** list often does not contain the care team veterans intend to message.
+- The initial **“Recent Care Teams”** list does not always contain the care team veterans intend to message.
 - **Contact-list update** activity suggests users are looking for more tools to control their visible care teams.
 - Frequent **care-system toggling** signals users may not be familiar with their care system when looking for their care team.
 
@@ -139,7 +139,7 @@ Medallia comments were filtered for mentions of: contact lists, number of steps/
 ---
 
 ## Cross-source synthesis
-1. **The first page often fails user intent**  
+1. **The first page sometimes fails user intent**  
    About a quarter to a third of all users must navigate to Page 2 to find the right team.
 2. **Contact-list maintenance occurs**  
    Veterans attempt to manually fix incorrect or missing care-team data.

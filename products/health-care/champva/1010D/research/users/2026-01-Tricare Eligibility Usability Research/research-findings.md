@@ -354,7 +354,7 @@ When reviewing the various warning alert options shown in Task 3 of the study, c
 [Moderator: Yes.]
 Okay, then I would try to find some sort of...contact number for CHAMPVA, or, you know, a...email address or something along those lines where I could reach out and basically communicate that I've attempted to apply. I believe I'm eligible, but...you know, it says that I may not be eligible...how would I find out additional information? [P01]
 
-> [I] need some guidance and an exit path. For disagreement. This isn’t explaining why or contact someone to find out what my next step would be. [P04]
+> [The API warning alert] doesn’t give me the option to disagree with it or to contact somebody to find out my next step would be. [P04]
 
 > [Anything else I want to see here:] some kind of a link to take you to where you can talk to someone, like a phone number or a chatbot (I hate chatbots). Just some way to talk to a person to ask what does this mean, why did it pop up. [P07]
 
@@ -413,9 +413,9 @@ When shown an alternative eligibility summary card design (Card Style B) in a fo
 
 **Participant quotes**
 
-> But I do feel like this is helping you, you know, you might, but again, because it's not a definitive statement, you might still keep going. [P14]
+> So I think that the Card style B was more straightforward in that “your responses did not meet all of the requirements”. So I can tell that those sentences  right there, that your response met or did not meet...was the difference between the two [cards].  And, I do think that Card Style B is more straightforward and more helpful seeing it up against Card Style A. [P06]
 
-> So, again, I know, VA benefits are rather nuanced, but anytime you say, may not be eligible instead of you are not eligible, people might still try to continue because they think perhaps there's an error. Or, again, because they say it says. [P14]
+> So, again, I know, VA benefits are rather nuanced, but any time you say, “may not be eligible” instead of “you are not eligible,” people might still try to continue because they think perhaps there's an error…It doesn't say, you are absolutely not eligible for CHAMP VA benefits. [P14]
 
 > It says "may not" so I'm just gonna hit continue. [P10]
 

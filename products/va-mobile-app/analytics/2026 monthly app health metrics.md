@@ -278,25 +278,25 @@
 
 **Date range for metrics**: February 1, 2026 - February 28, 2026
 
-- **Total downloads since launch (01/01/2020)**: 
-- **New monthly downloads**: 
-- **Monthly active users**: 
-- **Monthly new users**: 
-- **Monthly appointment detail views**: 
-- **Monthly Rx Refill**: 
-- **Monthly Letter Downloads**: 
-- **Monthly Secure Messages Sent**: 
-- **Monthly Veteran Status Views**: 
+- **Total downloads since launch (01/01/2020)**: 1,633,314(A)
+- **New monthly downloads**: 34,508(A)
+- **Monthly active users**: 1,727,531
+- **Monthly new users**: 175,199
+- **Monthly appointment detail views**: 12,867,747
+- **Monthly Rx Refill**: 601,444
+- **Monthly Letter Downloads**: 693,510
+- **Monthly Secure Messages Sent**: 776,345
+- **Monthly Veteran Status Views**: 656,700
 
 ### Android
 
-- **Android installs**: 
-- **Average Play Store Rating**: 
+- **Android installs**: 34,508
+- **Average Play Store Rating**: 4.7
 
 ### iOS
 
 - **iOS Installs**: 
-- **Average App Store Rating**: 
+- **Average App Store Rating**: 4.8
 
 ## January 2026
 

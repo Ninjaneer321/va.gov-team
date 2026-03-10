@@ -14,6 +14,8 @@
      - [ ] Launch prep
      - [ ] Launch
 
+
+
 ## 
 ### 10-10EZR
 #### Obj: EZR [ECNOK on VA.gov Profile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
@@ -49,13 +51,17 @@
 - **The goal for Sprint 19 is XXXXX**
 
 #### List of Planned work
-- EZR ECNOK
+- EZ
+     - [ ] Update File Upload pattern
+- EZR ECNOK on Profile
+     - [ ] Tech discovery on connecting Associations API
      - [ ] Set up Associations API
      - [ ] Update UI as needed
 
 ## 
 ### 10-10EZR
 #### Obj: EZR [ECNOK on VA.gov Profile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
+- [ ] [#135569](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135569) - [BE] Tech discovery to determine what is needed to connect Associations API to VA.gov Profile page
 - [ ] [#135508](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135508) - [BE] Associations API connection
 - [ ] [#135509](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135509) - [FE] UI updates
 
@@ -64,7 +70,7 @@
 ##
 ### 10-10EZ
 #### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
-- [ ] ...
+- [ ] [#119891](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119891) - [FE] Update file upload pattern - array builder
 
 ## 
 ### 10-10CG
@@ -84,11 +90,10 @@
 - **The goal for Sprint 18 is XXXXX**
 
 #### List of Planned work
-- EZ
-     - [ ] Update File Upload pattern
 - EZR Form  statuses
      - [ ] Display submission statuses on MyVA
 - EZR Improvements, Bugs, Performance
+     - [ ] EZR Update file upload pattern
      - [ ] Investigate high latency
      - [ ] Review destructive alerts on Income/Deductible pages
 - CG Improvements, Bugs, Performance
@@ -107,10 +112,12 @@
 #### Obj: EZR [Performance monitoring](https://github.com/department-of-veterans-affairs/va.gov-team/issues/60147)
 - [ ] [#133849](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133849) - [BE] Investigate high latency
 
+#### Obj: EZR [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109435)
+- [ ] [#119890](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119890) - [FE] Update file upload pattern
+
 ##
 ### 10-10EZ
-#### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
-- [ ] [#119891](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119891) - [FE] Update file upload pattern - array builder
+- No EZ work scheduled
 
 ## 
 ### 10-10CG
@@ -138,8 +145,9 @@
 - EZR Service History
      - [ ] Launch Service History
      - [ ] Update SOT
+- CG Improvements/Bugs
+     - [ ] Update file upload pattern
 - EZR Improvements/Bugs
-     - [ ] EZR Update file upload pattern
      - [ ] Update dependents page "remove" button & content
      - [ ] Investigate 401 errors
      - [ ] Remove old feature toggles
@@ -148,7 +156,8 @@
 - EZR Form status
      - [ ] Tech discovery Display on MyVA
      - [ ] EZR QA Standards alignment
-- CG Bugs - investigate 503 errors (may need to recategorize them)
+- CG Bugs
+     - [ ] Investigate 503 errors (may need to recategorize them)
 - EZR ECNOK on Profile
      - [ ] Initiate Collab Cycle
 
@@ -169,7 +178,6 @@
 - [ ] [#118642](https://github.com/department-of-veterans-affairs/va.gov-team/issues/118642) - [Eng] Tech discovery on EZR form statuses on MyVA
 
 #### Obj: EZR [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109435)
-- [ ] [#119890](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119890) - [FE] Update file upload pattern
 - [ ] [#134867](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134867) - [FE] Update dependents review page "Remove" button
 - [ ] [#134872](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134872) - [FE] Update dependents review page content
 - [ ] [#133848](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133848) - [BE] Investigate 401 errors
@@ -189,6 +197,7 @@
 ## 
 ### 10-10CG
 #### Obj: CG [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40165)
+- [ ] **SPRINT GOAL** [#119892](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119892) - [FE/QA] Update file upload pattern
 - [ ] [#133844](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133844) - [BE] Investigate 503 errors
 
 ##
@@ -215,9 +224,6 @@
 - [ ] EZ BUG Investigation on 422 errors
 - EZ Form Statuses
      - [ ] Discuss process with VFMP team
-- EZR ECNOK on Profile
-     - [ ] Tech discovery on connecting Associations API
-- [ ] CG Update file upload pattern
 - [ ] EZ QA Standards alignment
 - [ ] EZR Improvements on Dependents section content
 
@@ -237,9 +243,6 @@
 - [ ] [#134864](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134864) - [FE] Update Dep education expenses content
 - [ ] [#134863](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134863) - [FE] Update Dep financial support content
 
-#### Obj: EZR [ECNOK on VA.gov Profile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
-- [ ] [#135569](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135569) - [BE] Tech discovery to determine what is needed to connect Associations API to VA.gov Profile page
-
 ##
 ### 10-10EZ
 #### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
@@ -253,8 +256,7 @@
 
 ## 
 ### 10-10CG
-#### Obj: CG [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40165)
-- [ ] **SPRINT GOAL** [#119892](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119892) - [FE/QA] Update file upload pattern
+- No CG work scheduled
 
 ##
 ### Team PTO

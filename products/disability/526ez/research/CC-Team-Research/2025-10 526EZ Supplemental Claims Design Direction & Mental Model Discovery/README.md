@@ -5,22 +5,22 @@ _(add links as these are created)_
 
 #### Main folders:
 - [Google folder for drafts](https://drive.google.com/drive/folders/14rY-ZqtqptcllLbHS6USnNDwWjovVvLI?usp=drive_link)
-- [Research folder on GitHub](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim)
+- [Research folder on GitHub](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/526ez/research/CC-Team-Research/2025-10%20526EZ%20Supplemental%20Claims%20Design%20Direction%20%26%20Mental%20Model%20Discovery)
 - [Study folder on SharePoint](https://dvagov.sharepoint.com/:f:/r/sites/vaabdvro/Shared%20Documents/0%20-%20Benefits%20Portfolio%20-%20General/Research%20Recordings%20-%20Veteran-Staff-VSO/2025-11%20526EZ%20Supplemental%20Claims%20Design%20Direction?csf=1&web=1&e=bXiWUN)
 
 #### Research planning artifacts:
 - [Ticket in the OCTO Research Repository - #1544](https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/1544)
 - [Research approach (optional) _(google doc)_](https://docs.google.com/document/d/1Tsp1OxADdpfLkD85HBwGbEZxgHhSjNMMBpfdRpkFjvs/edit?tab=t.0#heading=h.2t7hbxkpf82k)
-- [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Research%20Plan%20-%202025-10-Supplemental-Claim.md)
-- [Conversation guide v2](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Conversation%20guide%20v2%20-%202025-10-Supplemental-Claim.md) 
-   - [OLD - Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Conversation%20guide%20-%202025-10-Supplemental-Claim.md)
+- [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10%20526EZ%20Supplemental%20Claims%20Design%20Direction%20%26%20Mental%20Model%20Discovery/Research%20Plan%20-%202025-10-Supplemental-Claim.md)
+- [Conversation guide v2](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10%20526EZ%20Supplemental%20Claims%20Design%20Direction%20%26%20Mental%20Model%20Discovery/Conversation%20guide%20v2%20-%202025-10-Supplemental-Claim.md) 
+   - [OLD - Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10%20526EZ%20Supplemental%20Claims%20Design%20Direction%20%26%20Mental%20Model%20Discovery/Conversation%20guide%20-%202025-10-Supplemental-Claim.md)
 - [Prototype(s)](https://www.figma.com/proto/P6IUm8gN00H3Yi1XzN80fj/-526ez--Condition-information-entry?page-id=6174%3A18589&node-id=6524-47192&viewport=487%2C-7286%2C0.7&t=iysFGHlWrbJqCNTW-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=6524%3A47192&show-proto-sidebar=1)
 
 #### Research summation artifacts:
-- [Top-line summary](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Top-line-Summary.md)
+- [Top-line summary](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10%20526EZ%20Supplemental%20Claims%20Design%20Direction%20%26%20Mental%20Model%20Discovery/Top-line%20Summary.md)
 - [VA recruitment checker for equality](https://docs.google.com/spreadsheets/d/1pq7TSHZonfpzAQBJj6B2geGHlNUwZEs4DzEvxcRgu0o/edit?gid=1601397161#gid=1601397161&range=A1)
-- [Final report - Usability](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Research%20Findings%20-%20Usability.md)
-- [Final report - Mental Model](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Research%20Findings%20-%20Mental%20Model.md)
+- [Final report - Usability](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10%20526EZ%20Supplemental%20Claims%20Design%20Direction%20%26%20Mental%20Model%20Discovery/Research%20Findings%20-%20Usability.md)
+- [Final report - Mental Model](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10%20526EZ%20Supplemental%20Claims%20Design%20Direction%20%26%20Mental%20Model%20Discovery/Research%20Findings%20-%20Mental%20Model.md)
 - [Presentation PDF (optional) - SharePoint](https://dvagov.sharepoint.com/:b:/r/sites/vaabdvro/Shared%20Documents/Disability%20Benefits%20Experience/5%20-%20Research%20and%20Design/2025-10%20526EZ%20Supplemental%20Claims%20Design%20Direction%20%26%20Mental%20Model%20Discovery/Supplemental%20Claims%20+%20Veterans%E2%80%99%20mental%20models%20around%20disability%20benefits_%20Monday%20Design%20and%20Research%20Share.pdf?csf=1&web=1&e=WggHWo)
 - [Research recordings, transcripts, and notes on SharePoint](https://dvagov.sharepoint.com/:f:/r/sites/vaabdvro/Shared%20Documents/0%20-%20Benefits%20Portfolio%20-%20General/Research%20Recordings%20-%20Veteran-Staff-VSO/2025-11%20526EZ%20Supplemental%20Claims%20Design%20Direction?csf=1&web=1&e=bXiWUN)
 - [Synthesis Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1763754263362/8090932e8c64bf7b1ce609df56a7f1ab1170e1ed)

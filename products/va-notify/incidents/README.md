@@ -21,6 +21,7 @@ This folder contains incident reports and postmortems for the VA Notify platform
 | March 2025 | [Callback status update failures](./20250320-callbacks-queue-visibility-timeout.md) — Visibility timeout change | TBD | Resolved |
 | January 2025 | [Email template formatting regression](./20250115-email-template-formatting.md) — 84,482 emails misformatted | TBD | Resolved |
 | November 2024 | [Comp & Pen duplicate SMS sends](./20241122-comp-pen-duplicate-sms.md) — Duplicate messages sent | TBD | Resolved |
+| October 2024 | [API degradation due to client request spike](./20241022-api-degradation-client-request-spike.md) — P50 response times 10x normal for ~4 hours | High | Resolved |
 | October 2024 | [Comp and Pen SMS delayed by payments connector issues](./20241021-comp-pen-sms-delay-payments-connector.md) — Notifications delayed to 10/24 | TBD | Resolved |
 | August 2024 | [Comp and Pen SMS sent from wrong number](./20240822-comp-pen-wrong-from-number.md) — Toll-free number used, causing throttling | TBD | Resolved |
 | July 2024 | [ALB rule deploy failure](./20240708-alb-rule-deploy-failure.md) — Terraform deploy failed, rolled back in 6 minutes | TBD | Resolved |
@@ -28,6 +29,7 @@ This folder contains incident reports and postmortems for the VA Notify platform
 | May 2024 | [Forms confirmation email errors](./20240529-forms-confirmation-email-errors.md) — Submission errors with flipper off | TBD | Resolved |
 | May 2024 | [Twilio inbound validation missing second account key](./20240522-twilio-inbound-validation-second-account.md) — Inbound SMS validation failures | TBD | Resolved |
 | May 2024 | [Accidental production deploys from release workflows](./20240520-accidental-prod-deploys-release-workflows.md) — Deploys triggered by release publish | TBD | Resolved |
+| May 2024 | [CareCentra launched notifications in Staging instead of Production](./20240509-carecentra-staging-vs-production.md) — Daily send limit hit in Staging | TBD | Resolved |
 | April 2024 | [VA logo missing from emails](./20240425-va-logo-missing-email-assets.md) — Email logo unavailable for ~4 hours | TBD | Resolved |
 | August 2023 | [VA Profile misconfiguration triggered test emails](./20230809-va-profile-test-emails-misconfig.md) — Invalid test sends prevented | TBD | Resolved |
 | July 2023 | [Easy DKIM failure causing email soft bounces](./20230703-easy-dkim-soft-bounces.md) — DNS issue caused unsigned emails | TBD | Resolved |
@@ -36,6 +38,7 @@ This folder contains incident reports and postmortems for the VA Notify platform
 | March 2023 | [Education forms submission errors](./20230309-education-forms-after-submit-errors.md) — Errors for multiple VBA Education forms | TBD | Resolved |
 | January 2023 | [VA Profile JWT public key not updated in production](./20230131-va-profile-jwt-public-key.md) — 401 response during VA Profile integration verification; no Veterans impacted | Low | Resolved |
 | August 2022 | [VEText forwarding lambda VPC conflict](./20220824-vetext-forwarding-lambda-vpc-conflict.md) — Security groups pointed to dev VPC | TBD | Resolved |
+| July 2022 | [VEText reverse proxy token overwrite](./20220713-vetext-reverse-proxy-token-overwrite.md) — SSM token overwritten during portal deploy; inbound VEText routing blocked | TBD | Resolved |
 | May 2022 | [MPI certificate renewal broke Staging integration](./20220519-mpi-certificate-renewal.md) — MPI renewed certificates without notice; Staging testing blocked for ~1 week | Medium | Resolved |
 | May 2022 | [Self Service UI login white page](./20220510-self-service-ui-login-white-page.md) — Users unable to proceed after GitHub SSO login | TBD | Resolved |
 
