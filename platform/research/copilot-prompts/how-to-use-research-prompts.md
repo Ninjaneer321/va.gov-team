@@ -10,6 +10,22 @@ This guide explains how VA.gov researchers and designers can use the Copilot pro
 
 In GitHub Copilot Chat (browser), the most consistent way to use this prompt library is to begin at the **prompt location** (so you’re always using the canonical, up-to-date instructions), then attach the files Copilot should analyze.
 
+*Workflow overview — the diagram below shows the recommended 6-step flow. Details for each step follow.*
+
+```mermaid
+flowchart TD
+    A["📂 Step 1: Open the prompt file\n(your 'recipe card')"] --> B["📋 Step 2: Copy/paste prompt text\ninto Copilot Chat"]
+    B --> C["📎 Step 3: Attach research artifacts\n(targets + constraints)"]
+    C --> D["🛡️ Step 4: Add study-specific guardrails\n(1–3 lines)"]
+    D --> E["🔍 Step 5: Review output against\nevidence + accessibility standards"]
+    E --> F{Output meets\nstandards?}
+    F -->|"❌ No"| G["🔄 Iterate and refine\n(small chunks)"]
+    G --> E
+    F -->|"✅ Yes"| H["💾 Step 6: Commit changes"]
+```
+
+*Diagram: Recommended 6-step workflow for using the Copilot prompt library. Steps 1–4 set up the session; Step 5 reviews the draft; Step 6 commits only after quality is confirmed. Loop back to Step 5 if the output needs refinement.*
+
 ### **Step 1: open the prompt file (your “recipe card”)**
 
 Navigate to the prompt file you want to use (for example):
@@ -24,14 +40,13 @@ Research Prompts
 - [Conversation guide frontmatter completion](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/conversation-guide-frontmatter-completion-prompt.md)
 - [Research plan frontmatter completion](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md)
 - [Research findings front matter completion](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md)
-- [Add metadata labels to findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md)
 
 #### Research plan & Conversation guide analysis
-- [Research short story](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-short-story-prompt.md)
 - [Research plan analysis](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-review/research-plan-analysis-prompt.md) 
 - [Conversation guide analysis](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-review/conversation-guide-analysis-prompt.md)
 
 #### Post-research
+- [Research short story](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-short-story-prompt.md)
 - [Create issues from research findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/create-issues-from-research-findings-prompt.md)
 - [Synthesis guidelines](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/synthesis/copilot-ux-research-synthesis-guidelines.md)  
 
@@ -62,10 +77,27 @@ Attach the file Copilot should operate on (the “target”), plus any related m
 **Common constraints (attach when the prompt calls for it)**
 
 - Related research plan (when analyzing a conversation guide)  
-- Metadata taxonomy file (when applying labels)  
 - Any repo standards or guidelines that must be followed
 
 **Rule of thumb:** If you want Copilot to use it, attach it. Don’t assume it will search or infer.
+
+```mermaid
+flowchart LR
+    subgraph Targets ["📎 Target files (what Copilot works ON)"]
+        T1["research-plan.md"]
+        T2["conversation-guide.md"]
+        T3["research-findings.md"]
+    end
+    subgraph Constraints ["🛡️ Constraint files (what guides the work)"]
+        C1["Related research plan
+(when analyzing conversation guide)"]
+        C2["Repo standards / guidelines"]
+    end
+    Targets -->|"attach both to"| Copilot["🤖 Copilot Chat"]
+    Constraints -->|"attach both to"| Copilot
+```
+
+*Diagram: Attach a target file (what Copilot should work on) and one or more constraint files (what should guide the output). If you want Copilot to use a file, attach it explicitly.*
 
 ### **Step 4: add study-specific guardrails (1–3 lines)**
 
@@ -104,6 +136,48 @@ Instead of generating an entire deliverable in one go, run prompts section-by-se
 ## Quick start decision tree (pick the right prompt)
 
 Use this “if you are here, do this” flow to choose a prompt quickly.
+
+```mermaid
+flowchart TD
+    Start(["🤔 What are you
+trying to do?"]) --> A
+    Start --> B
+    Start --> C
+    Start --> D
+    Start --> E
+    Start --> F
+    Start --> G
+    Start --> H
+    Start --> J
+    Start --> K
+
+    A["A) Explore a new space"] --> A1[/"past-research-discovery"/]
+    B["B) Ground a draft research plan
+in prior studies"] --> B1[/"past-research-analysis-
+for-new-research-plan"/]
+    C["C) Fill YAML metadata
+for a research plan"] --> C1[/"research-plan-
+frontmatter-completion"/]
+    D["D) Fill YAML metadata
+for a conversation guide"] --> D1[/"conversation-guide-
+frontmatter-completion"/]
+    E["E) Check if conv. guide
+answers research plan"] --> E1[/"conversation-guide-analysis"/]
+    F["F) Quality-check
+a research plan"] --> F1[/"research-plan-analysis"/]
+    G["G) Synthesize findings
+with rigor guardrails"] --> G1[/"synthesis guidelines"/]
+    H["H) Fill frontmatter
+for findings report"] --> H1[/"research-findings-
+frontmatter-completion"/]
+    J["J) Write stakeholder
+summary ('short story')"] --> J1[/"research-short-story"/]
+    K["K) Turn recommendations
+into trackable issues"] --> K1[/"create-issues-from-
+research-findings"/]
+```
+
+*Diagram: Decision tree — find your current task on the left, then follow the arrow to the prompt file name on the right. Full details and attachment requirements for each option are in the sections below.*
 
 ### **1\) What are you trying to do right now?**
 
@@ -233,23 +307,6 @@ Then do:
 
 ---
 
-#### **I) “My key findings are finalized and I want standardized labels for aggregation/pattern detection.”**
-
-Use:
-
-- `research-report/add-metadata-labels-to-findings-prompt.md`
-
-Attach:
-
-- Findings report (required)  
-- The taxonomy file referenced in the prompt (required)
-
-Then do:
-
-- Verify every label exists in taxonomy (no invented labels)
-
----
-
 #### **J) “I need a stakeholder-friendly summary (‘short story’) of a report.”**
 
 Use:
@@ -295,7 +352,6 @@ Model note:
 - **Standardizing** metadata and formatting (especially YAML frontmatter)  
 - **Converting** structured research outputs into consistent, scannable documentation  
 - **Generating** issue drafts from recommendations (with human review)  
-- **Applying** taxonomy labels to improve discoverability and aggregation
 
 ### **These prompts are not good for (and should not be used for)**
 
@@ -347,6 +403,59 @@ Add these lines to the top of prompts when appropriate:
 ---
 
 ## Quick QA checklist (before you commit anything Copilot helped draft)
+
+```mermaid
+flowchart TD
+    Start(["🔍 Ready to commit?"]) --> Q1
+
+    Q1{"✅ All quotes verbatim
+and attributed?
+(P#, method, date)"} -->|"No ❌"| Fix1["Fix: trace each quote
+back to source"]
+    Q1 -->|"Yes ✅"| Q2
+
+    Q2{"✅ Counts and percentages
+exact and traceable?"} -->|"No ❌"| Fix2["Fix: verify against
+raw data / notes"]
+    Q2 -->|"Yes ✅"| Q3
+
+    Q3{"✅ No vague quantifiers
+('most/many/some')
+without numbers?"} -->|"No ❌"| Fix3["Fix: add exact counts
+or flag as qualitative"]
+    Q3 -->|"Yes ✅"| Q4
+
+    Q4{"✅ YAML valid and
+correctly quoted?"} -->|"No ❌"| Fix4["Fix: validate YAML
+formatting"]
+    Q4 -->|"Yes ✅"| Q5
+
+    Q5{"✅ All links descriptive
+and working?"} -->|"No ❌"| Fix5["Fix: update link text
+and verify URLs"]
+    Q5 -->|"Yes ✅"| Q6
+
+    Q6{"✅ Findings prioritized
+and actionable?"} -->|"No ❌"| Fix6["Fix: reduce to 5–7
+most important findings"]
+    Q6 -->|"Yes ✅"| Q7
+
+    Q7{"✅ Accessibility:
+headings, link text,
+tables readable?"} -->|"No ❌"| Fix7["Fix: apply accessible
+heading/link conventions"]
+    Q7 -->|"Yes ✅"| Done(["💾 Safe to commit"])
+
+    Fix1 --> Q1
+    Fix2 --> Q2
+    Fix3 --> Q3
+    Fix4 --> Q4
+    Fix5 --> Q5
+    Fix6 --> Q6
+    Fix7 --> Q7
+```
+
+*Diagram: QA flow — work through each checkpoint top-to-bottom. If a check fails, apply the fix and re-check before moving on. Only commit after all seven checks pass.*
 
 - [ ] All quotes are verbatim and attributed (P\#, method, date).  
 - [ ] Counts and percentages are exact (not rounded; not inferred).  
