@@ -160,19 +160,21 @@ Please go ahead and log in using ID.me. The system will automatically generate a
 
 As we go through the steps in this study, please talk aloud about what you're thinking BEFORE clicking on anything. And please share any thoughts, reactions, or questions you have about the current screen. Remember that we're testing how well the app is working and not you. If you're confused, I expect other people would be confused too, so we definitely want to hear when something seems confusing or not right to you. 
 
-Take a look at this page [homescreen]. [Give participant a minute to look.]
+Take a look at this page without clicking anything [homescreen]. [Give participant a minute to look.]
 
 ### Questions for testing participant: 
 1. What's catching your attention?
 2. Probe: What about it is catching your attention?
-3. If you saw this screen when you first logged into your app, what would you do next?
-4. Probe: Why would you take that action?
+3. Without clicking, tell me what you would do if you saw this screen when you first logged into your app.
+4. Probe: Could you tell me why you would do that?
 5. What do you think this first section in blue is about? [Action required section]
 6. What kind of things would you expect to see here?
-7. What do you think the next section is for? [Activity section]
-8. What kind of things would you expect to see here?
-9. Is there anything confusing here?
-10. Is there anything missing?
+7. Take a closer look at the items here. Is there anything confusing or surprising?
+9. What do you think the next section is for? [Activity section]
+10. What kind of things would you expect to see here?
+11. Take a closer look at the items. Anything confusing or surprising?
+12. Is there anything confusing overall about this app homepage?
+13. Is there anything missing?
 
 > [!NOTE]
 > ### Things to watch for:
@@ -185,20 +187,24 @@ Now let's talk about trying to find a few things in the app.
 Say you had submitted a claim to hopefully update your disability rating and got a notice that your rating has been changed. You then got a disabiilty payment with the updated rating.
 ### Questions for testing participant: 
 1. Where would you look for your current disability rating?
-2. Is there anywhere else you would look?
-3. What about your disability payments history?
-4. Anywhere else you'd look?
-5. Would you expect them to be in the same place?
+2. Why?
+3. Is there anywhere else you would look?
+4. What about your disability payments history?
+5. Why?
+6. Anywhere else you'd look?
+7. Would you expect them to be in the same place?
 
 > [!NOTE]
 > ### Things to watch for:
 > - How confident is the participant?
+> - What informs their expectations? E.g., prior experience with VA site, app, etc.?
 
 ## Task 3: Find Veteran status card - 3 minutes, 29 minutes elapsed
 Next, let's think about if you were in a store and saw a sign that they offered a military and Veterans discount and wanted to try to get the discount. 
 
 ### Questions for testing participant: 
 1. Where would you go in the app to find your Veteran status card to show the store?
+2. Why?
 
 > [!NOTE]
 > ### Things to watch for:
@@ -209,28 +215,65 @@ Next, imagine you've recently adopted a child and submitted the paperwork to get
 
 ### Questions for testing participant: 
 1. Where would you look for that in the app?
+2. Why?
 
 > [!NOTE]
 > ### Things to watch for:
 > - How confident is the participant?
 
+## Task 5: Pay copay - 10 minutes, 35 minutes elapsed
+Next, let's take another look at the Action required section.  
+### Questions for testing participant: 
+1. [If not already discussed in Task 1] Based on what you see, is there anything you would do?
+2. [If yes], what would you do?
+3. Why?
+4. Is there anything confusing or unclear for any of the items here?
+5. Say you wanted to deal with the copayment due item. Without clicking yet, what would you do?
+6. What do you expect to happen when you do that?
+7. [If needed] What do you expect to happen when you tap the pay copay button?
+   *Direct to tap *pay copay button* if needed*
+   *Direct participant to complete pay copay flow and return to Homescreen.*
+8. What did you think about that process?
+9. What worked well?
+10. What could be improved?
+   
+> [!NOTE]
+> ### Things to watch for:
+> - How confident is the participant?
+> - Any hesitation and/or confusion
 
-# Post-Task Interview - X minutes
+## Task 6: Pay copay - 10 minutes, 45 minutes elapsed
+Next, let's take another look at the Activity section.  
+### Questions for testing participant: 
+1. [If not already discussed in Task 1] Based on what you see, is there anything you would do?
+2. [If yes], what would you do?
+3. Why?
+4. Is there anything confusing or unclear for any of the items here?
+5. Let's explore this Prescription updates item. What do you expect to see if you click here?
+6. Go ahead and click
+7. What do you think about what you see here? [Additional information on prescriptions]
+8. Without clicking yet, what would you do next?
+9. We'll say you want to refill the L-O-R prescription, tell me what you would do next.
+10. What do you expect to happen when you do that?
+11. Go ahead and go through the next steps. Talk out loud as you do please. 
+12. What did you think about that process?
+13. What worked well?
+14. What could be improved?
+15. Now that we're back on the Homescreen, take another look, and let me know if there's anything you would change about it overall or any of the information displayed for each item. 
 
-- Question 1
-- Question 2
-- Any questions for me? 
+> [!NOTE]
+> ### Things to watch for:
+> - How confident is the participant?
+> - Any hesitation and/or confusion?
 
-## Consent to use video clips
+## Thank You and Closing - 3 minutes, 55 minutes elapsed
 
-- I want to circle back and re-confirm that **you are comfortable if we were to share a video clip of this session with our VA partners?** Just to remind you, we will remove all information that could be used to identify you before sharing and will only share the videos with VA partners with the purpose of improving VA.gov and other digital experiences.
-   - **If yes:** Is there any part of our discussion you would NOT want shared in a video clip?
- 
-   <mark>**[Record answer here]**</mark>
+**Thinking back to everything we looked at today, is there anything we didn't already talk about that you'd like to give feedback on?**
 
-
-## Thank-You and Closing - X minutes
-
+**Are you still okay if we use any video or audio clips from this session?** 
+- *(yes / no)*
+- *(If participant says yes)* Is there any part of our discussion that you would NOT want shared in a video clip?
+  
 Well we really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we continue to work on the site and make sure it really works for Veterans.
 
 Thanks! Lastly, Perigean will be sending you a thank you note with a little blurb that you can pass along to other Veterans you may know to provide them the chance to participate in future research studies.
@@ -238,18 +281,27 @@ Thanks! Lastly, Perigean will be sending you a thank you note with a little blur
 Thank you so much again, and enjoy the rest of your day!
 
 
+*Open the Transcript panel, click **Save Transcript***
+
+*End meeting for all*
+
+## After Session 
+- Click "End" on zoom website
+- Download recording and closed caption (.vtt file)
+- Rename and save transcript file from Finder
+- Download notes
+- Debrief and capture insights
+
+
+
 # Emergency Exit 🚨
 
-In the rare case of an emergency during a session, be prepared with an [emergency exit strategy](https://depo-platform-documentation.scrollhelp.site/research-design/Research-Safety-and-Emergency-Exit-Strategies.2143649793.html#ResearchSafetyandEmergencyExitStrategies-Sampleexitstrategies). <mark>**Plan to include here at least one option, so its easy to find during a session. Take some time to practice so it feels more comfortable.**</mark>
+We have covered all the questions I have for you today. Thank you so much for your time and feedback!
 
----
+
 
 ## After You Save This Convo Guide ✅
 
 - [ ] Complete the YAML frontmatter at the top of this file using the [Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/conversation-guide-frontmatter-completion-prompt.md)
 - [ ] Review alignment with your research plan tags
 - [ ] Update the last_modified date
-
-### Sample Conversation Guide _(note: this link points to resources in the va.gov-team GitHub repo)_
-
-- [Veteran ID Card Discovery Interview](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-id-cards/research/discovery/discovery-conversation-guide.md)
