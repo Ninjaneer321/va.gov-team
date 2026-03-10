@@ -1,4 +1,4 @@
-# Release Plan: FAR V3
+# Release Plan: Find a Representative V3
 
 Feature Toggle/flag:
 `find_a_representative_enabled` will control visibility of the VSO Search Filter feature, for Find a Represenatative. This will be disabled in Production prior to release.
