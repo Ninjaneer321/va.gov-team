@@ -1,11 +1,11 @@
 # Conversation Guide for UAT - Results Page 2.0
 
-This study evaluates Results Page 2.0 for usability. Participants were recruited internally instead of using standard recruitment through Perigean because they are technically savvy.
+This study evaluates Results Page 2.0 for usability. Participants are recruited internally instead of using standard recruitment through Perigean. Because they are technically savvy, we are doing an abbreviated and informal testing process.
 
 ## Moderator resources
 
-- Product in staging: [Product link]
-- Notetaking spreadsheet: [Notes doc]
+- Product in staging: [Product link](https://staging.va.gov/discover-your-benefits/introduction)
+- Notetaking spreadsheet: [Notes doc](https://docs.google.com/spreadsheets/d/1tUU8u2tAuQJgUz26tPS3VrYXw0W32cs8jCBEbOujPGY/edit?gid=2072925936#gid=2072925936)
 
 ## Intro
 
@@ -21,11 +21,11 @@ A few logistics:
 
 ### Scenario 1 (RSV)
 
-For this UAT session, I’d like you to role play as a Veteran in your first year post-separation from military service. You have gone through the process of applying for disability benefits. You [...]
+For this UAT session, I’d like you to role play as a Veteran in your first year post-separation from military service. You have gone through the process of applying for disability benefits. All other decisions about using the product are your own. 
 
 ### Scenario 2 (TSM)
 
-For this UAT session, I’d like you to role play as a transitioning service member in your last year of service. You are completely new to VA.gov. You anticipate receiving an honorable discharge. [...]
+For this UAT session, I’d like you to role play as a transitioning service member in your last year of service. You are completely new to VA.gov. You anticipate receiving an honorable discharge. All other decisions about using the product are your own. 
 
 ## Set-up
 
@@ -41,9 +41,32 @@ I’m going to send you a link through the Zoom chat. Please go ahead and open t
 
 Now I’m going to ask you to use the Discover Your Benefits tool.
 
-_Moderator will follow the test paths outlined in the spreadsheet._
+Moderator prompts the participant through using the tool, while ensuring they complete all these tasks:
 
-- Test paths spreadsheet: https://docs.google.com/spreadsheets/d/1tUU8u2tAuQJgUz26tPS3VrYXw0W32cs8jCBEbOujPGY/edit?gid=2072925936#gid=2072925936
+| Task/Question | Answer type |
+| :---- | :---- |
+| TSM or Veteran | Role |
+| Device | Name of device |
+| Complete questionnaire easily (yes/no) | Yes/No |
+| Questionnaire observations | Observational |
+| Landing on results page. Are filters in the way? How do they navigate? | Observational |
+| Independently finds and interacts with sort (yes/no/yes with assistance) | Yes/No |
+| Use sort as expected? | Yes/No |
+| Notes on using sort | Observational |
+| Easily find filters (yes/no/yes with assistance) | Yes/No |
+| Notes on finding filters | Observational |
+| Use filters as expected? | Yes/No |
+| Notes on using filters | Observational |
+| Exploring and understanding recommended vs all \- Smooth or difficult? | Observational |
+| Notes on recommended vs all | Observational |
+| Independently finds and interacts with when to apply filter (yes/no/yes with assistance) | Yes/No |
+| Notes on when to apply filter | Observational |
+| Found benefit information easily | Yes/No |
+| Notes on finding benefit information | Observational |
+| Circle back on any hiccups | Observational |
+| Ask for feedback summary/general thoughts | Observational |
+
+
 
 ## Wrapping up
 

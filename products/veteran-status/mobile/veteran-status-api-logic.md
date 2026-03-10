@@ -8,8 +8,7 @@ The VSC eligibility and messaging rules changed. This document gives a clear ove
 
 SSC user flow reference:
 
-[Open the PDF](https://github.com/user-attachments/files/25775728/SSC.user.flow.pdf)
-
+[Open the PDF](https://github.com/user-attachments/files/25853698/User.flow.pdf)
 
 ---
 

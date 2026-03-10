@@ -132,7 +132,7 @@
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
-- **The goal for Sprint 17 is launch EZR Service history, wrap up form status work, update EZ File upload pattern**
+- **The goal for Sprint 17 is launch EZR Service history, wrap up EZ form status work, update EZ File upload pattern**
 
 #### List of Planned work
 - EZR Service History
@@ -143,15 +143,19 @@
      - [ ] Update dependents page "remove" button & content
      - [ ] Investigate 401 errors
      - [ ] Remove old feature toggles
+- EZ Form status on MyVA
+     - [ ] Display submission statuses on MyVA
 - EZR Form status
      - [ ] Tech discovery Display on MyVA
      - [ ] EZR QA Standards alignment
- - CG Bugs - investigate 503 errors (may need to recategorize them)
+- CG Bugs - investigate 503 errors (may need to recategorize them)
+- EZR ECNOK on Profile
+     - [ ] Initiate Collab Cycle
 
 ## 
 ### 10-10EZR
 #### Obj: EZR [ECNOK on VA.gov Profile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
-- [ ] TBD
+- [ ] [#135708](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135708) - [PM] Initiate Collab Cycle
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
 - [ ] [#121770](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121770) - [Eng] Launch at 5%
@@ -179,7 +183,8 @@
 
 ##
 ### 10-10EZ
-#### Obj: ...
+#### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
+- [ ] [#130010](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130010) - [BE] Display submission statuses on MyVA
 
 ## 
 ### 10-10CG
@@ -207,14 +212,14 @@
      - [ ] Prep & review release plan
      - [ ] Update & submit product guide
      - [ ] Submit for metrics updates
-- EZ Form status on MyVA
-     - Display submission statuses on MyVA
-- EZ BUG Investigation on 422 errors
+- [ ] EZ BUG Investigation on 422 errors
+- EZ Form Statuses
+     - [ ] Discuss process with VFMP team
 - EZR ECNOK on Profile
      - [ ] Tech discovery on connecting Associations API
 - [ ] CG Update file upload pattern
 - [ ] EZ QA Standards alignment
-- EZR Improvements on Dependents section content
+- [ ] EZR Improvements on Dependents section content
 
 ## 
 ### 10-10EZR
@@ -229,8 +234,8 @@
 - [ ] [#113984](https://github.com/department-of-veterans-affairs/va.gov-team/issues/113984) - [FE, BE] Update/Create engineering documentation
 
 #### Obj: EZR [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109435)
-- [ ] #134864 - [FE] Update Dep education expenses content
-- [ ] #134863 - [FE] Update Dep financial support content
+- [ ] [#134864](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134864) - [FE] Update Dep education expenses content
+- [ ] [#134863](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134863) - [FE] Update Dep financial support content
 
 #### Obj: EZR [ECNOK on VA.gov Profile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
 - [ ] [#135569](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135569) - [BE] Tech discovery to determine what is needed to connect Associations API to VA.gov Profile page
@@ -238,7 +243,7 @@
 ##
 ### 10-10EZ
 #### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
-- [ ] [#130010](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130010) - [BE] Display submission statuses on MyVA
+- [ ] [#135709](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135709) - [Eng] Discuss MyVA onboarding with VFMP team
 
 #### Obj: EZ [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
 - [ ] [#130856](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130856) - [FE/QA] Review and align with the latest QA Standards updates
@@ -283,8 +288,8 @@
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
 - [ ] **SPRINT GOAL** [#134211](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134211) - [BE] API testing in RI
-- [ ] **SPRINT GOAL** [#132636](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132636) - [FE] Review Content feedback on File Upload page
-- [ ] **SPRINT GOAL** [#114031](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114031) - [FE] Update content on File Upload page
+- [x] **SPRINT GOAL** [#132636](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132636) - [FE] Review Content feedback on File Upload page
+- [x] **SPRINT GOAL** [#114031](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114031) - [FE] Update content on File Upload page
 
 
 ##
@@ -296,12 +301,12 @@
 - [ ] **SPRINT GOAL** [#130694](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130694) - [FE] Update Intro page alert for "PendingOther"
 
 #### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
-- [ ] [#133089](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133089) - [FE] Update Mexico province code in schema
+- [x] [#133089](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133089) - [FE] Update Mexico province code in schema
 
 ## 
 ### 10-10CG
 #### Obj: CG [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
-- [ ] [#130858](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130858) - [FE/QA] Review and align with the latest QA Standards updates
+- [x] [#130858](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130858) - [FE/QA] Review and align with the latest QA Standards updates
 
 ##
 ### Team PTO

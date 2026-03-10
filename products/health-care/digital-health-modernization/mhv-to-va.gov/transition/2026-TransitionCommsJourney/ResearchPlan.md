@@ -4,6 +4,7 @@ title: "Research Plan for MHV to VA.gov Transition Team, Healthcare Transition C
 date: 2026-03-06
 last_updated: 2026-03-06
 team: "MHV to VA.gov Transition Team"
+researcher: "Cara Frissell"
 product: "Healthcare Transition Communications and Alerts"
 product_area: "authenticated"
 
@@ -76,8 +77,8 @@ timeline:
 
 session_details:
   duration_minutes: 30  # 30 minutes per check-in interview
-  buffer_minutes: "Not specified"
-  max_sessions_per_day: "Not specified"
+  buffer_minutes: "30 minutes"
+  max_sessions_per_day: "4"
 
 # Strategic Alignment
 octo_priorities:
@@ -207,6 +208,10 @@ We will run a lightweight diary study anchored by three 30-minute interviews per
 
 Session length: 30 minutes each, confirm if they will be joining web/mobile prior
 
+Buffer time: 30 minutes
+
+Max sessions per day: 4
+
 Cadence: 3 check-ins per participant
 
 Sample: 6–8 Veterans
@@ -313,3 +318,7 @@ If you could change one thing about these alerts, what would it be?
 What would make you more likely to act on notice the changes? 
 
 Do you know how to act on the changes?
+
+
+### Team Roles
+- Moderator: Cara Frissell

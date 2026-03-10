@@ -11,6 +11,32 @@ The **“Start a new message”** flow was redesigned to streamline care-team se
 
 _(potential steps to start a new message for users)_
 
+---
+
+## Recommendations
+
+1. **Collapse or simplify the multi-page flow**  
+   - A high number of users go onto the second page for care team selection.
+   - Remove the screen only for recent care teams → combine it with the "select a different care team" page **or** on the compose message page itself.
+3. **Improve care-team accuracy**
+   - Maybe look at the option of adding other tools like the contacts list, especially as the contact list is being phased out.
+4. **Address other usability suggestions**
+   - Examine redundant “only use message for urgent needs” screens that users may not be understanding
+   - Add the ability to add more than one recipient or forward messages
+4. **Conducting a research study**
+   - **Hypothesis**
+   -  - Users will complete their task more quickly and with fewer clicks
+      - Users are not paying attention to the interstitial content
+      - Users struggle with the care system → care team selection hierarchy and don't understand the distinction between these two step
+   - **Draft Research Goals**
+   - Determine optimal information architecture and design by identifying whether users would prefer to address and compose their message on two separate pages or on a unified single-page flow.
+    - Validate accessibility by gathering feedback from AT users about what flow is most accessible and intuitive
+    - Clarify mental models by assessing user understanding of care system vs. care team concepts and their perceived relationship
+    - Measure whether users notice, read, and understand the interstitial content
+    - Identify new and existing pain points in the message creation flow.
+
+---
+
 The following data highlights web analytics, app comments, and Medallia (web) comments for Nov - February. 
 
 ---
@@ -24,8 +50,8 @@ The following data highlights web analytics, app comments, and Medallia (web) co
 - **Page-two rate: 22.4%**
 
 Additional activity:
-- **21.47K** clicked **Update your contact list**
-- **122K** toggled care systems
+- **21.47K** clicked **Update your contact list** (15.2% of the 140.92K people who made it to this page) 
+- **122K** toggled care systems (counts of a single user clicking on unique care systems - doesn't involve re-clicking a care system)
 
 ### Dec 10 – Jan 10
 - New messages started: **591,688**
@@ -34,7 +60,7 @@ Additional activity:
 - **Page-two rate: 23.5%**
 
 Additional activity:
-- **21.24K** clicked **Update your contact list**
+- **21.24K** clicked **Update your contact list** (15.3% of the 138.76K people who made it to this page) 
 - Care-system toggle data unavailable
 
 ### Jan 10 – Feb 10
@@ -44,8 +70,8 @@ Additional activity:
 - **Page-two rate: 29.1%**
 
 Additional activity:
-- **32.16K** clicked **Update your contact list**
-- **23.92K** toggled care systems
+- **32.16K** clicked **Update your contact list** (16.3% of the 196.65K people who made it to this page) 
+- **23.92K** toggled care systems (counts of a single user clicking on unique care systems - doesn't involve re-clicking a care system)
 
 ### Feb 10 – Mar 28
 - New messages started: **409,075**
@@ -54,8 +80,8 @@ Additional activity:
 - **Page-two rate: 29.9%**
 
 Additional activity:
-- **21.6K** clicked **Update your contact list**
-- **51.72K** toggled care systems
+- **21.6K** clicked **Update your contact list** (17.6% of the 122.39K people who made it to this page) 
+- **51.72K** toggled care systems (counts of a single user clicking on unique care systems - doesn't involve re-clicking a care system). 
 
 ---
 
@@ -126,28 +152,6 @@ Medallia comments were filtered for mentions of: contact lists, number of steps/
 
 ---
 
-## Recommendations
-
-1. **Collapse or simplify the multi-page flow**  
-   - Remove the screen only for recent care teams → combine it with the "select a different care team" page or on compose message page itself.
-   - A high number of users go onto the second page for care team selection.
-3. **Improve care-team accuracy**
-   - I'm not sure the process to do this, but it could be worth looking at other tools like the contacts list
-4. **Address other usability suggestions**
-   - Examine redundant “only use message for urgent needs” screens that users may not be understanding
-   - Maybe increase subject-line character limit
-   - Add the ability to add more than one recipient or forward messages
-4. **Consider conducting a research study**
-   - **Hypothesis**
-   -  - Users would prefer fewer screens to address and send a message
-      - Users are not paying attention to the interstitial content
-      - Users struggle with the care system → care team selection hierarchy and don't understand the distinction between these two step
-   - **Draft Research Goals**
-   -  - Determine optimal information architecture and design by identifying whether users would prefer to address and compose their message on two separate pages or on a unified single-page flow.
-    - Validate accessibility by gathering feedback from AT users about what flow is most accessible and intuitive
-    - Clarify mental models by assessing user understanding of care system vs. care team concepts and their perceived relationship
-    - Measure whether users notice, read, and understand the interstitial content
-    - Identify new and existing pain points in the message creation flow.
 
 ---
 
