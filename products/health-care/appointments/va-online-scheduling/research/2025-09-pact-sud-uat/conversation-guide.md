@@ -255,7 +255,9 @@ clinicians—including your primary care provider, nurse practitioner, physician
   - How do you imagine this team would fit into scheduling your appointments?
 
 What questions do you have about how your primary care team might change where or
-when you book care?
+when you book care? _If confused, give an example - if there is a provider outside of your dedicated care team who has availability sooner than one on your team. Would knowing that you have a team change you who pick? How might it affect scheduling habits? e.g., would you prioritize a PACT member over soonest available._
+
+
 
 ## Fourth Task: [Schedule a Mental Health Appointment] - 10 minutes
 
