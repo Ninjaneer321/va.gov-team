@@ -21,6 +21,7 @@ This folder contains incident reports and postmortems for the VA Notify platform
 | March 2025 | [Callback status update failures](./20250320-callbacks-queue-visibility-timeout.md) — Visibility timeout change | TBD | Resolved |
 | January 2025 | [Email template formatting regression](./20250115-email-template-formatting.md) — 84,482 emails misformatted | TBD | Resolved |
 | November 2024 | [Comp & Pen duplicate SMS sends](./20241122-comp-pen-duplicate-sms.md) — Duplicate messages sent | TBD | Resolved |
+| October 2024 | [API degradation due to client request spike](./20241022-api-degradation-client-request-spike.md) — P50 response times 10x normal for ~4 hours | High | Resolved |
 | October 2024 | [Comp and Pen SMS delayed by payments connector issues](./20241021-comp-pen-sms-delay-payments-connector.md) — Notifications delayed to 10/24 | TBD | Resolved |
 | August 2024 | [Comp and Pen SMS sent from wrong number](./20240822-comp-pen-wrong-from-number.md) — Toll-free number used, causing throttling | TBD | Resolved |
 | July 2024 | [ALB rule deploy failure](./20240708-alb-rule-deploy-failure.md) — Terraform deploy failed, rolled back in 6 minutes | TBD | Resolved |
