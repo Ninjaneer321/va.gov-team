@@ -28,6 +28,7 @@ The [Architecture Intent touchpoint](https://depo-platform-documentation.scrollh
   - Schedule the event
      
 #### Governance Team actions
+- [ ] Add link to Collaboration Cycle
 - [ ] Add meeting date/time:
 
 ### :three: VFS team: add links to artifacts at least 2 days before the meeting
