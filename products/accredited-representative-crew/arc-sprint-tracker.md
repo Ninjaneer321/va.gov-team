@@ -17,10 +17,10 @@ Recording Link TBD
 
 - [ ] Sprint Delivery Approved by Enablement
 
-Total Completed in Sprint 9: 51 tickets, 150 points + 2 spikes\
-Crew Count in Sprint 9: 20 active teammates \
-Average Teammate Velocity in Sprint 9: 150 points / 20 teammates = 7.5 points / teammate \
-Carrying into Sprint 10: 17 tickets, 63 points + 3 spikes
+Total Completed in Sprint 10: 51 tickets, 131 points + 5 spikes\
+Active Teammates in Sprint 10: 21 active teammates\
+Average Teammate Velocity in Sprint 10: 150 points / 21 teammates = 6.2 points / teammate\
+Carrying into Sprint 11: 23 tickets, 86 points + 2 spikes
 
 ## Sprint 10 Tickets
 
@@ -293,9 +293,14 @@ TBD
 **Monthly Metrics Review (Lindsay)**
 
 
-
 ## Sprint 11 Delivery
-TBD
+
+- [ ] Sprint Delivery Approved by Enablement
+
+Total Completed in Sprint 11: 57 tickets, 154 points + 5 spikes\
+Active Teammates in Sprint 11: 22 active teammates \
+Average Teammate Velocity in Sprint 11: 154 points / 22 teammates = 7 points / teammate \
+Carrying into Sprint 12: 24 tickets, 85 points + 2 spikes
 
 ## Sprint 11 Tickets
 
@@ -321,9 +326,7 @@ TBD
 |Prep list of open issues in prod for GCLAWS                                                                              |https://github.com/department-of-veterans-affairs/va.gov-team/issues/134758|Blocked        |SPIKE   |Yes          |Blocked                              |
 |Include representatives with an invalid full address, but valid zip code or city/state combo in Find a Rep search results|https://github.com/department-of-veterans-affairs/va.gov-team/issues/120822|Blocked        |5       |             |Blocked                              |
 |ARP - Individual acceptance permissions for Representation Requests                                                      |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133713|In Progress    |5       |             |Work still in progress               |
-|v2: ARP Permissions Diagram (continuation)                                                                               |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135789|In Progress    |5       |             |                                     |
 |21a Research Plan                                                                                                        |https://github.com/department-of-veterans-affairs/va.gov-team/issues/134229|In Progress    |8       |             |Pending Enablement review            |
-|Prepare artifacts for Team QA of Individual Accept feature                                                               |https://github.com/department-of-veterans-affairs/va.gov-team/issues/134121|In Progress    |3       |             |                                     |
 |Investigation: Monitoring / reporting for Individual Acceptance of Representation Reqs                                   |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132317|Sprint Backlog |SPIKE   |             |Over-planned / capacity reached      |
 
 
@@ -359,12 +362,9 @@ TBD
 |Caseload Management - Process Flow Diagram                                                                               |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133668|Done           |8       |             |                                     |
 |Benefits Delivery at Discharge &#124; Finalize Content                                                                        |https://github.com/department-of-veterans-affairs/va.gov-team/issues/134289|QA             |5       |             |Pending Enablement review            |
 |Add Capability to Disable ARP                                                                                            |https://github.com/department-of-veterans-affairs/va.gov-team/issues/129407|External Review|3       |             |Work still in progress               |
-|Claimant ID returned with POA requests data                                                                              |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135694|External Review|2       |             |                                     |
-|Claimant Overview tab: Add link to Overview page from Submissions cards                                                  |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133488|PR Review      |2       |Yes          |                                     |
 |Trigger VA Notify when a ITF is recorded                                                                                 |https://github.com/department-of-veterans-affairs/va.gov-team/issues/131253|In Progress    |3       |             |Work still in progress               |
 |Create Architecture Intent artifacts for Claimant Details MVP                                                            |https://github.com/department-of-veterans-affairs/va.gov-team/issues/126830|In Progress    |2       |             |Work still in progress               |
 |Representative 686c Research Plan & Convo Guide                                                                          |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133667|In Progress    |8       |             |Work still in progress               |
-|Design / Create Dashboard Prototype for 686C Research                                                                    |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135322|In Progress    |2       |             |                                     |
 |Datadog: Monitor VA Notify Callbacks and Surface Failures for ITF email                                                  |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132142|Sprint Backlog |2       |             |Over-planned / capacity reached      |
 |Review `AccreditedRepresentativePortal::SavedClaim::BenefitsIntake` records flagged for deletion and enable deletion job in Production|https://github.com/department-of-veterans-affairs/va.gov-team/issues/133403|Sprint Backlog |3       |             |Over-planned / capacity reached      |
 |Add email notification content back                                                                                      |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132384|Sprint Backlog |1       |             |Blocked                              |
@@ -406,9 +406,8 @@ TBD
 |[ Illinois Department of Veterans Affairs ] Coordinate bulk contact info update                                          |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133737|Done           |1       |Yes          |                                     |
 |[ Illinois Department of Veterans Affairs ] Run the Trexler file                                                         |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133742|Done           |1       |Yes          |                                     |
 |[ NOVA Spring 2026 ] Draft an ARP blurb and provide logo for NOVA conference rep                                         |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135444|Done           |2       |             |                                     |
-|[ Colorado Division of Veteran Affairs ] Send second follow-up email                                                     |https://github.com/department-of-veterans-affairs/va.gov-team/issues/129147|Blocked        |1       |             |                                     |
-|[ Fleet Reserve Association ] Send follow-up email                                                                       |https://github.com/department-of-veterans-affairs/va.gov-team/issues/130954|Blocked        |1       |             |                                     |
-|[ NACVSO 2026 ] Obtain approvals for attendance and providing training                                                   |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135434|PR Review      |1       |             |                                     |
+|[ Colorado Division of Veteran Affairs ] Send second follow-up email                                                     |https://github.com/department-of-veterans-affairs/va.gov-team/issues/129147|Blocked        |1       |             |Blocked                              |
+|[ Fleet Reserve Association ] Send follow-up email                                                                       |https://github.com/department-of-veterans-affairs/va.gov-team/issues/130954|Blocked        |1       |             |Blocked                              |
 |Investigate shared support mailbox                                                                                       |https://github.com/department-of-veterans-affairs/va.gov-team/issues/129595|Blocked        |2       |Yes          |Over-planned / capacity reached      |
 |Determine how to utilize the representative research panel, with recruitment in mind                                     |https://github.com/department-of-veterans-affairs/va.gov-team/issues/122143|In Progress    |5       |             |Work still in progress               |
 
