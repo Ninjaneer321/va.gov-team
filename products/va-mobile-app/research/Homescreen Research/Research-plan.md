@@ -132,7 +132,7 @@ tags:
 
 `Product Brief`
 
-**Link to product brief([Homescreen Epic](https://github.com/department-of-veterans-affairs/va-mobile-app/issues/11464)).**
+**Link to product brief: [Homescreen Epic](https://github.com/department-of-veterans-affairs/va-mobile-app/issues/11464).**
 
 </details>
 
@@ -258,15 +258,15 @@ Are there moments that matter?</summary>
   
 `Does this question serve the goals of my study?`
 
-**`1.`[Enter Q1]**
+**`1.`What content and functionality do users expect to find on the homescreen?**
 
-**`2.`[Enter Q2]**
+**`2.`Where do users expect to find their Veteran status card, disability rating and payments, and dependents verification?**
 
-**`3.`[Enter Q3]**
+**`3.`Do users notice, understand, and take action on items in "Action required" and "Activity" sections?**
 
-**`4.`[Enter Q4]**
+**`4.`Does the homescreen provide enough information for users to take action and complete tasks?**
 
-**`5.`[Enter Q5]**
+**`5.`How do users expect to complete tasks surfaced on the homescreen?**
 
 > [!TIP]
 >Enter more questions as needed
