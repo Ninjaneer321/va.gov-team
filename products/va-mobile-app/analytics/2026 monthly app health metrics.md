@@ -1,7 +1,7 @@
 # 2026 Monthly Mobile Metrics
 
 - [January 2026 (1/1-1/31)](#january-2026)
-- [February 2026 (2/1-2/28)](#februrary-2026)
+- [February 2026 (2/1-2/28)](#february-2026)
 - [March 2026 (3/1-3/31)](#march-2026)
 - [April 2026 (4/1-4/30)](#april-2026)
 - [May 2026 (5/1-5/31)](#may-2026)
