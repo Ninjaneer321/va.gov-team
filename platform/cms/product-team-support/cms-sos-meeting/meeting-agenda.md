@@ -2,7 +2,8 @@
 This Scrum of Scrum (SoS) meeting is to ensure all teams working with the Drupal CMS for VA.gov are aligned on any shared work or dependencies.
 
 ### Running Agenda
-
+3/16/2026
+* Next Build/ Content Build development is creating some confusion and backwork - we'd like to discuss a process for communication/clarity around this 
 3/2/2026
 *  CMS team is cleaning up backlog and confirming [this defect](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/21263) will be owned by Public Websites team
     * Dave Picket made adjustments to the ticket
