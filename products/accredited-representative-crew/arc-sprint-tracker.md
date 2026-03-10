@@ -10,12 +10,6 @@ TEMPLATE - Copy/adjust content below for a new sprint
 
 - [ ] Sprint Goals Approved by Enablement
 
-**Team Accreditation**  
-**Team Benefits**
-**Team Appoint**
-**Engagement**
-**General Crew**
-
 ## Sprint 10 Demos
 Recording Link TBD
 
@@ -37,6 +31,87 @@ Carrying into Sprint 10: 17 tickets, 63 points + 3 spikes
 **General Crew**
 -->
 
+# Sprint 12 (March 10-23, 2026)
+
+## Sprint 12 Goals
+
+- [ ] Sprint Goals Approved by Enablement
+
+**Team Accreditation**
+* [ARP Post-MVP] Enable Individual Acceptance of Representation Requests
+    * Continue development and begin preparation for QA and release
+* [Rep Data] GCLAWS SQL Server API Integration
+    * Release during week of 3/9 -- turning data updates for FAR/AAR into a fully automated daily job instead of a weekly manual one
+* [VSO Onboarding] Enable online submission of form 21-22 for additional organizations (Catholic War Veterans of America and Illinois Department of Veterans Affairs)
+* [21a] Research
+    * Assessing improvements we could make to 21a v4 that would improve experience (without adding content beyond paper form)
+
+**Team Benefits**
+* [ITF] MVP — Development
+    * Finishing ITF email notification via VA Notify and content updates.
+* [ARP Post-MVP] Cleanup Tasks
+    * Finish adding capability to disable ARP and reviewing benefits intake records before enabling the deletion of expired records. 
+* [ARP Post-MVP] Accessibility Testing & Cleanup
+    * Compile and Prioritize ARP accessibility findings
+* [Claimant Details] MVP - Development
+    * Continuing to carve out scenarios for claimant overview tab, updating search results based on POA, updating endpoints, implementing datadog instrumentation, and preparing product docs for pre-release.
+* [BDD] - Promote SHA Part A in 526ez
+    * Finalize content and include SHA as part of 21-526ez submission page
+* [Rep-Facing 686c] v2 - UX Research
+    * Research plan & Convo guide, begin recruitment, and design/create dashboard prototype for research efforts
+* [Discovery Research] Understanding how Reps manage the claims cycle across all clients
+    * Finish process flow diagram
+* [Claims Status] Notifications in Dashboard - UX Design
+    * Exploration on designs based on feedback and Claims Status Tool team insight
+
+**Team Appoint**
+* [Filter & Details]: Find a Rep V3 Development
+    * Adding functionality to clear out the combo box if a selection isn't made
+    * Removing old code from the frontend for the "report outdated information" button
+    * Analytics for FAR V3: Build DataDog monitors for new VSO combo box & add in Google Analytics tracking for combo box usage
+    * FAR Launch Prep including unit test rendering of combo box, E2E test for functionality, Team QA & Contact Center Review
+* [21-22a]
+    * Designs for digital submission user flow
+    * User interviews with claims agents/attorneys 
+* [Measure Impact]
+    * Improving actionability for all DataDog Alerts
+
+**Engagement**
+* Continuing
+    * Shared inbox 
+        * Enable others to email from shared inbox
+    * Continue Rep panel
+        * Review feedback 
+        * Create Microsoft List and import existing data
+* New work
+    * Onboarding
+        * Start Batch 2 outreach - national orgs first (6)
+        * Bulk update
+            * American Vets 
+            * NC DMVA
+        * Remaining onboarding after Representation Requests are enabled
+            * Illinois DVA
+            * Catholic War Veterans
+    * Conference prep
+        * Host kickoff with NOVA attendees
+        * Approvals for NACVSO
+    * Identify participant for smoke test individual Representation Requests
+
+
+
+## Sprint 12 Demos
+Recording Link TBD
+
+## Sprint 12 Delivery
+TBD
+
+## Sprint 12 Tickets
+
+**Team Accreditation**
+**Team Benefits**
+**Team Appoint**
+**Engagement**
+**General Crew**
 
 # Sprint 11 (Feb 24 - March 9, 2026)
 
@@ -84,7 +159,46 @@ Carrying into Sprint 10: 17 tickets, 63 points + 3 spikes
 
 
 ## Sprint 11 Demos
-TBD
+[Recording Link](https://dvagov-my.sharepoint.com/:v:/r/personal/lindsay_li-smith_va_gov/Documents/Recordings/ARC%20Sprint%20Demo-20260310_130717-Meeting%20Recording.mp4?csf=1&web=1&e=mTNJaL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Team Accreditation**
+1. Content updates to reflect new 16A-only permission level 
+
+**Team Benefits**
+1. Search Results: No POA / No results found 
+2. Search Results: Established POA 
+3. ADE Finding: Visible "required" text skipped over using iOS Voiceover 
+4. Section 508 Finding: ITF confirmation card announced as unstructured text. 
+5. Section 508 Finding: "Start the Submission" link incorrectly announced as a same page link. 
+6. Claimant Overview tab: Established POA 
+7. Claimant Overview tab: No POA (No Permission) 
+8. Claimant Overview tab: Established POA, without an established ITF state 
+9. Submissions History tab: Creation of endpoint may go hand in hand w/ Submissions History tab: Existing Submissions 
+
+**Team Appoint**
+1. Troubleshooting and investigating Error Rates using DataDog 
+2. Adding the Combo Box & some roadblocks of using it 
+
+**Engagement**
+* Onboarding
+    * Arizona - Officially onboarded :tada:  
+    * Catholic War Veterans - Waiting to enable Representation Requests in upcoming sprint
+    * Illinois Department of Veterans Affairs - Waiting to enable Representation Requests in upcoming sprint
+    * NACVSO - Org currently retrieving missing contact info for reps
+    * DAV - Conducting another demo with the latest features on Mar 20th
+    * Fleet Reserve Association - Org paused bulk contact info update, due to other priorities
+    * American Veterans - Sent all rep contact info sheet and waiting for updated info
+    * Veterans Voice of America - Sent missing email sheet and waiting for updated info
+    * North Carolina Dept Military and Veteran Affairs - Working with director for next steps (bulk contact info update)
+    * Will follow-up with the list of state orgs:
+        * Texas Veterans Commission
+        * Minnesota Department of Veteran Affairs
+        * Wisconsin Department of Veterans Affairs
+        * Pennsylvania Department of Military and Veterans Affairs
+
+**Monthly Metrics Review (Lindsay)**
+
+
 
 ## Sprint 11 Delivery
 TBD
