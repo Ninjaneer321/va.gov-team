@@ -88,7 +88,7 @@ Additional activity:
 ## Analytics takeaways
 Across all periods, **22–30%** of all new message attempts advance to Page 2. This indicates:
 
-- The initial **“Recent Care Teams”** list often does not contain the care team veterans intend to message.
+- The initial **“Recent Care Teams”** list does not always contain the care team veterans intend to message.
 - **Contact-list update** activity suggests users are looking for more tools to control their visible care teams.
 - Frequent **care-system toggling** signals users may not be familiar with their care system when looking for their care team.
 
