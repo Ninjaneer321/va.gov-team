@@ -53,13 +53,15 @@
 #### List of Planned work
 - EZ
      - [ ] Update File Upload pattern
-- EZR ECNOK
+- EZR ECNOK on Profile
+     - [ ] Tech discovery on connecting Associations API
      - [ ] Set up Associations API
      - [ ] Update UI as needed
 
 ## 
 ### 10-10EZR
 #### Obj: EZR [ECNOK on VA.gov Profile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
+- [ ] [#135569](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135569) - [BE] Tech discovery to determine what is needed to connect Associations API to VA.gov Profile page
 - [ ] [#135508](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135508) - [BE] Associations API connection
 - [ ] [#135509](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135509) - [FE] UI updates
 
@@ -222,8 +224,6 @@
 - [ ] EZ BUG Investigation on 422 errors
 - EZ Form Statuses
      - [ ] Discuss process with VFMP team
-- EZR ECNOK on Profile
-     - [ ] Tech discovery on connecting Associations API
 - [ ] EZ QA Standards alignment
 - [ ] EZR Improvements on Dependents section content
 
@@ -242,9 +242,6 @@
 #### Obj: EZR [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109435)
 - [ ] [#134864](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134864) - [FE] Update Dep education expenses content
 - [ ] [#134863](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134863) - [FE] Update Dep financial support content
-
-#### Obj: EZR [ECNOK on VA.gov Profile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
-- [ ] [#135569](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135569) - [BE] Tech discovery to determine what is needed to connect Associations API to VA.gov Profile page
 
 ##
 ### 10-10EZ
