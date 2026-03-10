@@ -34,6 +34,7 @@ This folder contains incident reports and postmortems for the VA Notify platform
 | May 2023 | [Domo/BigQuery lambda dependency failure](./20230508-domo-bigquery-lambda-dependency-failure.md) — Client data missing for ~6 hours | TBD | Resolved |
 | April 2023 | [Twilio SMS blocked by Palo Alto update](./20230417-twilio-sms-blocked-palo-alto.md) — Outbound SMS blocked for ~4.5 hours | TBD | Resolved |
 | March 2023 | [Education forms submission errors](./20230309-education-forms-after-submit-errors.md) — Errors for multiple VBA Education forms | TBD | Resolved |
+| January 2023 | [VA Profile JWT public key not updated in production](./20230131-va-profile-jwt-public-key.md) — 401 response during VA Profile integration verification; no Veterans impacted | Low | Resolved |
 | August 2022 | [VEText forwarding lambda VPC conflict](./20220824-vetext-forwarding-lambda-vpc-conflict.md) — Security groups pointed to dev VPC | TBD | Resolved |
 | May 2022 | [MPI certificate renewal broke Staging integration](./20220519-mpi-certificate-renewal.md) — MPI renewed certificates without notice; Staging testing blocked for ~1 week | Medium | Resolved |
 | May 2022 | [Self Service UI login white page](./20220510-self-service-ui-login-white-page.md) — Users unable to proceed after GitHub SSO login | TBD | Resolved |
