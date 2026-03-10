@@ -115,6 +115,16 @@ QA -
 - [ ] Standard has been met
 - [ ] Standard has not been met
 
+#### Team is listed in Teams Manifest
+
+- [ ] Standard has been met
+- [ ] Standard has not been met
+
+#### Product is listed in Product Directory
+
+- [ ] Standard has been met
+- [ ] Standard has not been met
+
 ---
 
 ### Next Steps for the VFS team
