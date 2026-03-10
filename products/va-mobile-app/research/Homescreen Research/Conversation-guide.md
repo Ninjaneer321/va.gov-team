@@ -179,36 +179,41 @@ Take a look at this page [homescreen]. [Give participant a minute to look.]
 > - Does the participant notice Action required section label?
 > - Does the participant notice Activity section label?
 
-## Second Task: Find dsability rating/payments - 4 minutes, 25 minutes elapsed
+## Task 2: Find dsability rating/payments - 4 minutes, 25 minutes elapsed
 
 Now let's talk about trying to find a few things in the app. 
-Imagine you had submitted some things to hopefully update your disability rating and got notice that it has been updated. You then got a disabiilty payment with the updated rating.
+Say you had submitted a claim to hopefully update your disability rating and got a notice that your rating has been changed. You then got a disabiilty payment with the updated rating.
 ### Questions for testing participant: 
-1. Where would you look for your disability rating?
-2. What about your disability payments history?
-3. Would you expect them to be in the same place?
-
-## Second Task: Find Veteran status card, dependents - 3 minutes, 29 minutes elapsed
-5. If you were in a store and saw a sign that they offered a military and Veterans discount and wanted to try to get the discount, where would you go in the app to find your Veteran status card to show the store?
-6. 
-- [ ] Step 2
+1. Where would you look for your current disability rating?
+2. Is there anywhere else you would look?
+3. What about your disability payments history?
+4. Anywhere else you'd look?
+5. Would you expect them to be in the same place?
 
 > [!NOTE]
 > ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Etc]
+> - How confident is the participant?
 
-## Third Task: [TASK NAME] - X minutes
+## Task 3: Find Veteran status card - 3 minutes, 29 minutes elapsed
+Next, let's think about if you were in a store and saw a sign that they offered a military and Veterans discount and wanted to try to get the discount. 
 
-- [ ] Step 1
-- [ ] Step 2
+### Questions for testing participant: 
+1. Where would you go in the app to find your Veteran status card to show the store?
 
 > [!NOTE]
 > ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Etc]
+> - How confident is the participant?
+
+## Task 4: Find dependents - 3 minutes, 32 minutes elapsed
+Next, imagine you've recently adopted a child and submitted the paperwork to get them added as a dependent. You want to double check that they're now reflected as dependents. 
+
+### Questions for testing participant: 
+1. Where would you look for that in the app?
+
+> [!NOTE]
+> ### Things to watch for:
+> - How confident is the participant?
+
 
 # Post-Task Interview - X minutes
 
