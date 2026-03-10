@@ -29,6 +29,7 @@ This folder contains incident reports and postmortems for the VA Notify platform
 | May 2024 | [Forms confirmation email errors](./20240529-forms-confirmation-email-errors.md) — Submission errors with flipper off | TBD | Resolved |
 | May 2024 | [Twilio inbound validation missing second account key](./20240522-twilio-inbound-validation-second-account.md) — Inbound SMS validation failures | TBD | Resolved |
 | May 2024 | [Accidental production deploys from release workflows](./20240520-accidental-prod-deploys-release-workflows.md) — Deploys triggered by release publish | TBD | Resolved |
+| May 2024 | [CareCentra launched notifications in Staging instead of Production](./20240509-carecentra-staging-vs-production.md) — Daily send limit hit in Staging | TBD | Resolved |
 | April 2024 | [VA logo missing from emails](./20240425-va-logo-missing-email-assets.md) — Email logo unavailable for ~4 hours | TBD | Resolved |
 | August 2023 | [VA Profile misconfiguration triggered test emails](./20230809-va-profile-test-emails-misconfig.md) — Invalid test sends prevented | TBD | Resolved |
 | July 2023 | [Easy DKIM failure causing email soft bounces](./20230703-easy-dkim-soft-bounces.md) — DNS issue caused unsigned emails | TBD | Resolved |
