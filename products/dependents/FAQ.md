@@ -78,7 +78,8 @@ Source: [Amy Grace Wells, July 2025](https://dsva.slack.com/archives/C07RB9N9M6J
   - Action needed: 21-686, 21-674, 21-686+674, 21-0538
      - Sent if the happy path sidekiq job fails 16 times or an error occurs beforehand (sometimes during pdf generation) that sends it to the backup job. The backup job runs (with 16 attempts as well). If that fails, the Veteran gets an "action needed" email. There is [remaining work](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1419) in the backlog to potentially try re-sending the "action needed" email to a different email address if the email bounces back, but a Platform-wide approach should be implemented within VA Notify.
   - Reminder email: 221-686, 21-674, 21-686+674.
-     - Sent once if a claim has not been submitted after 7 days. The current email template for this does not distinguish between the form type that was submitted. Design work was completed to create three seperate email templates (686, 674, 686+674), but [the triggers](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1659) for those templates were never completed. 
+     - Sent once if a claim has not been submitted after 7 days. The current email template for this does not distinguish between the form type that was submitted. Design work was completed to create three seperate email templates (686, 674, 686+674), but [the triggers](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1659) for those templates were never completed.
+  - Examples of the email templates we leveraged are [here](https://design.va.gov/patterns/help-users-to/stay-informed-of-their-application-status). Draft and production versions are on VA Notify.
 </details>
 
 ## Claim Creation
