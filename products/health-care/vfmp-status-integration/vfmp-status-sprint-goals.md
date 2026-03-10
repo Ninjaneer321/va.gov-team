@@ -7,6 +7,8 @@
 - **SPRINT GOAL (Eng):** Deploy CHAMPVA submission-level status implementation to production in My VA.
 - **SPRINT GOAL (Eng):** Establish and validate integration with the PEGA API for CHAMPVA submission status retrieval.
 - **SPRINT GOAL (UX):** Partner with VA UX to deliver finalized Release 1 PEGA integration mocks and begin updating mocks reflecting VES technical constraints.
+- **SPRINT GOAL (UX):** Create documentation for OHI edge case, identifying access constraints and necessary user flow updates. Include and socialize any recommended updates to the UX.
+
 
 ##
 ### WHAT'S NEXT
