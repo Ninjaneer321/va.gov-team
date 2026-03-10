@@ -108,10 +108,104 @@ TBD
 ## Sprint 12 Tickets
 
 **Team Accreditation**
+
+|Title                                                                                                                    |URL                                                                        |Status         |Estimate|
+|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------|--------|
+|Feature flag for Individual Accept                                                                                       |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133392|QA             |2       |
+|Update existing Accreditation API job to include fallback (SQL API)                                                      |https://github.com/department-of-veterans-affairs/va.gov-team/issues/126324|External Review|3       |
+|Create rake task to manage rep permissions                                                                               |https://github.com/department-of-veterans-affairs/va.gov-team/issues/130646|External Review|5       |
+|Implementing content changes for Individual Accept                                                                       |https://github.com/department-of-veterans-affairs/va.gov-team/issues/130647|PR Review      |3       |
+|Prep list of open issues in prod for GCLAWS                                                                              |https://github.com/department-of-veterans-affairs/va.gov-team/issues/134758|Blocked        |SPIKE   |
+|Include representatives with an invalid full address, but valid zip code or city/state combo in Find a Rep search results|https://github.com/department-of-veterans-affairs/va.gov-team/issues/120822|Blocked        |5       |
+|ARP - Individual acceptance permissions for Representation Requests                                                      |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133713|In Progress    |5       |
+|v2: ARP Permissions Diagram (continuation)                                                                               |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135789|In Progress    |5       |
+|21a Research Plan                                                                                                        |https://github.com/department-of-veterans-affairs/va.gov-team/issues/134229|In Progress    |8       |
+|Prepare artifacts for Team QA of Individual Accept feature                                                               |https://github.com/department-of-veterans-affairs/va.gov-team/issues/134121|In Progress    |3       |
+|Investigation: Monitoring / reporting for Individual Acceptance of Representation Reqs                                   |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132317|Sprint Backlog |SPIKE   |
+|Frontend: Support Individual Accept in ARP                                                                               |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135275|Sprint Backlog |3       |
+|[ Catholic War Veterans of America ] Enable Form 21-22 online submission for org                                         |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132623|Sprint Backlog |1       |
+|[ Illinois Department of Veterans Affairs ] Enable Form 21-22 online submission for org                                  |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133743|Sprint Backlog |1       |
+|Backend: Add acceptance_mode to ARP data layer                                                                           |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135254|Sprint Backlog |3       |
+|Pre-seed production permissions table using current-state values                                                         |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135461|Sprint Backlog |1       |
+|Add instrumentation to Appoint a Rep                                                                                     |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135460|Sprint Backlog |5       |
+|Content: Permissions errors, alerts, and edge-cases                                                                      |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135285|Sprint Backlog |5       |
+|21a Conversation Guide                                                                                                   |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135227|Sprint Backlog |3       |
+|Release Plan for Individual Accept                                                                                       |https://github.com/department-of-veterans-affairs/va.gov-team/issues/134140|Sprint Backlog |3       |
+|Stakeholder Artifacts for Individual Accept                                                                              |https://github.com/department-of-veterans-affairs/va.gov-team/issues/134326|Sprint Backlog |3       |
+|21a Research Recruitment                                                                                                 |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135229|Prioritized Backlog|5       |
+|Prepare for Staging Review with Platform team (of Individual Accept feature)                                             |https://github.com/department-of-veterans-affairs/va.gov-team/issues/134129|Prioritized Backlog|2       |
+
+
 **Team Benefits**
+
+|Title                                                                                                                    |URL                                                                        |Status         |Estimate|
+|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------|--------|
+|Caseload Management - Process Flow Diagram                                                                               |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133668|Done           |8       |
+|Benefits Delivery at Discharge &#124; Finalize Content                                                                        |https://github.com/department-of-veterans-affairs/va.gov-team/issues/134289|QA             |5       |
+|Add Capability to Disable ARP                                                                                            |https://github.com/department-of-veterans-affairs/va.gov-team/issues/129407|External Review|3       |
+|Claimant ID returned with POA requests data                                                                              |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135694|External Review|2       |
+|Claimant Overview tab: Add link to Overview page from Submissions cards                                                  |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133488|PR Review      |2       |
+|Trigger VA Notify when a ITF is recorded                                                                                 |https://github.com/department-of-veterans-affairs/va.gov-team/issues/131253|In Progress    |3       |
+|Create Architecture Intent artifacts for Claimant Details MVP                                                            |https://github.com/department-of-veterans-affairs/va.gov-team/issues/126830|In Progress    |2       |
+|Representative 686c Research Plan & Convo Guide                                                                          |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133667|In Progress    |8       |
+|Design / Create Dashboard Prototype for 686C Research                                                                    |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135322|In Progress    |2       |
+|Datadog: Monitor VA Notify Callbacks and Surface Failures for ITF email                                                  |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132142|Sprint Backlog |2       |
+|Review `AccreditedRepresentativePortal::SavedClaim::BenefitsIntake` records flagged for deletion and enable deletion job in Production|https://github.com/department-of-veterans-affairs/va.gov-team/issues/133403|Sprint Backlog |3       |
+|Add email notification content back                                                                                      |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132384|Sprint Backlog |1       |
+|Search Results: No POA, Pending request                                                                                  |https://github.com/department-of-veterans-affairs/va.gov-team/issues/134672|Sprint Backlog |3       |
+|Search Results: Include POA check in response payload                                                                    |https://github.com/department-of-veterans-affairs/va.gov-team/issues/134977|Sprint Backlog |3       |
+|Compile and Prioritize ARP accessibility findings                                                                        |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133305|Sprint Backlog |5       |
+|686c v2 User Research &#124; Recruitment                                                                                      |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135078|Sprint Backlog |5       |
+|Claimant Overview tab: Add link to Overview page from Rep Request detail page                                            |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135265|Sprint Backlog |2       |
+|Claimant Overview tab: Add link to Overview page from Submissions Confirmation pages                                     |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135266|Sprint Backlog |2       |
+|BDD: Include SHA content on 21-526ez submission page                                                                     |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135747|Sprint Backlog |2       |
+|Additional Design Discovery &#124; Claims Status Notifications                                                                |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135658|Sprint Backlog |5       |
+|Claimant Overview Tab: Adding Email to Claimant Overview Endpoint                                                        |https://github.com/department-of-veterans-affairs/va.gov-team/issues/134971|Sprint Backlog |3       |
+|Datadog: Surface error rates for Claimant Details Endpoints                                                              |https://github.com/department-of-veterans-affairs/va.gov-team/issues/134112|Sprint Backlog |3       |
+|Datadog: Surface latency for Claimant Details Endpoints                                                                  |https://github.com/department-of-veterans-affairs/va.gov-team/issues/134115|Sprint Backlog |3       |
+|Claimant Overview tab: Established POA, with multiple established ITFs                                                   |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133276|Sprint Backlog |1       |
+|Claimant Overview tab: UX Finding(s)                                                                                     |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135683|Sprint Backlog |        |
+
+
 **Team Appoint**
+
+|Title                                                                                                                    |URL                                                                        |Status         |Estimate|
+|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------|--------|
+|Add the combo-box selection to state and use the value as a query parameter for the VSO rep endpoint                     |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133252|PR Review      |3       |
+|21-22a User Research &#124; Recruitment                                                                                       |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133424|Blocked        |3       |
+|Create a FAR V3 Release Plan                                                                                             |https://github.com/department-of-veterans-affairs/va.gov-team/issues/134076|Blocked        |SPIKE   |
+|21-22a User Research &#124; Research Plan & Convo Guide                                                                       |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133421|In Progress    |3       |
+|Remove code from the frontend for the "Report Outdated Information" buttons in search results                            |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133898|In Progress    |3       |
+|FAR V3 Team QA &#124; Darby                                                                                                   |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135637|Sprint Backlog |1       |
+|21-22a Designs &#124; Digital Submission User Flow Design                                                                     |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135023|Sprint Backlog |8       |
+|FAR V3 Team QA &#124; Lena/David                                                                                              |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135636|Sprint Backlog |1       |
+|Improve Actionability of All Current Datadog Alerts                                                                      |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133955|Sprint Backlog |5       |
+|Create VSO Combo Box Monitoring &#124; DataDog                                                                                |https://github.com/department-of-veterans-affairs/va.gov-team/issues/134809|Sprint Backlog |3       |
+|21-22a User Research &#124; User Interviews                                                                                   |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135027|Sprint Backlog |5       |
+|FAR V3 Team QA &#124; Mia                                                                                                     |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135405|Sprint Backlog |1       |
+|FAR V3 Contact Center Review                                                                                             |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135417|Sprint Backlog |2       |
+|Unit Test Rendering of Combo Box and E2E test for Functionality &#124; Front End                                              |https://github.com/department-of-veterans-affairs/va.gov-team/issues/134072|Sprint Backlog |2       |
+|FAR V3 Team QA &#124; Nick                                                                                                    |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135635|Sprint Backlog |1       |
+|Update Google Analytics for combo box usage                                                                              |https://github.com/department-of-veterans-affairs/va.gov-team/issues/134814|Sprint Backlog |3       |
+|Clear combo-box when a user clicks "Search" but hasn't selected a VSO from the drop down                                 |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135375|Sprint Backlog |SPIKE   |
+|Unit Test Rendering of Combo Box and E2E test for Functionality &#124; Backend                                                |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135823|Sprint Backlog |2       |
+
+
 **Engagement**
-**General Crew**
+
+|Title                                                                                                                    |URL                                                                        |Status         |Estimate|
+|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------|--------|
+|[ NACVSO 2026 ] Obtain approvals for attendance and providing training                                                   |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135434|PR Review      |1       |
+|Investigate shared support mailbox                                                                                       |https://github.com/department-of-veterans-affairs/va.gov-team/issues/129595|Blocked        |2       |
+|Determine how to utilize the representative research panel, with recruitment in mind                                     |https://github.com/department-of-veterans-affairs/va.gov-team/issues/122143|In Progress    |5       |
+|[ NOVA Spring 2026 ] Host conference kickoff                                                                             |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135624|In Progress    |2       |
+|Coordinate with VSO Liaison for Batch 2 outreach - National                                                              |https://github.com/department-of-veterans-affairs/va.gov-team/issues/126516|Prioritized Backlog|1       |
+|[ Catholic War Veterans of America ] Confirm access                                                                      |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132624|Prioritized Backlog|1       |
+|[ Illinois Department of Veterans Affairs ] Confirm access                                                               |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133744|Prioritized Backlog|1       |
+|[ American Veterans ] Coordinate bulk contact info update                                                                |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132687|Prioritized Backlog|1       |
+|[ North Carolina DMVA ] Generate spreadsheet with missing emails                                                         |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135680|Prioritized Backlog|1       |
+|Identify user for smoke test / launch-day org using new permission level                                                 |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135282|Draft          |1       |
+
 
 # Sprint 11 (Feb 24 - March 9, 2026)
 
