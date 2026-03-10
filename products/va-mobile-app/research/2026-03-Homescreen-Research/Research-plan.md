@@ -225,7 +225,7 @@ Are there moments that matter?</summary>
 
 ---
 
-**We plan to incorporate insights to guide design decisions for homescreen and related actions so that we design based on Veterans' input.** 
+**We plan to incorporate insights to guide design decisions for homescreen and related actions so that we evolve designs based on Veterans' needs and expectations.** 
 
 ---
 
@@ -350,15 +350,19 @@ Provide a link to any materials you need to run your study, including any materi
 - Perigean can also support remote, [unmoderated studies](https://depo-platform-documentation.scrollhelp.site/research-design/perigean-recruiting-process-for-unmoderated-studie), however, these studies require strict recruitment requirements. 
 - Which inclusive research strategies are you leveraging for this study? OCTO recommends using a lean maximum variation strategy for most studies. Read this [introduction to inclusive research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/introduction.md) and download the [recruitment checker (Excel)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx) to understand OCTO's targets for inclusivity and use it to plan your participant demographics for this study.
 
+We would like Perigean to recruit Veterans as participants. Target 14 to seat and complete 9 sessions total. 
 ### Recruitment criteria
 
-- **Write any recruitment criteria for experience or scenarios as screener questions with qualifying responses. Perigean will use these verbatim to recruit participants.**
-- Consider providing links to products and/or clear descriptions to ensure participants understand the question.
-  Example: Have you been to a VA urgent care facility in the last 6 months? [answer should be yes to qualify.]
+- Must have interacted with the mobile app at least once
+- Have a service-connected disability rating of at least 10%
 
-- The more recruitment criteria you have, the less likely that a small sample of participants will be able to meet all criteria.
-- Consider how you could leverage the [lean maximum variation sampling (MVS) approach](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/recruitment.md#lean-mvs-strategy) by breaking up criteria for your study into multiple cohorts that each isolate one primary criteria.
-- Perigean will consider each cohort as a separate recruitment effort, increasing the chances of meeting all criteria for your study. [Review an example of the multiple cohort approach.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/pre-mhv-prototype/generative-research-study-1/2020-12.research-plan1.md)
+Please make sure that ALL participants are willing to complete the session on the mobile or tablet device they specify during the screener questions and:
+During the session:
+- Are willing to share their screen.
+- Have a working microphone on their device.
+
+
+- 
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 > [!NOTE]
@@ -374,43 +378,46 @@ Provide a link to any materials you need to run your study, including any materi
 ### Primary criteria (must-haves)
 *What demographics, experience, and scenarios do you need participants to meet to effectively run your study?* 
 
-- `[Place primary criteria here between hash marks when in edit mode]`
-- `primary criteria`
-- `primary criteria`
-- **`Add more criteria as needed`**
+**All participants must:**
+- Be on a mobile device or tablet (recruit mix of device types)
+- During the session, be willing to share a web browser window on their device
+- Have a working microphone
+- Have Zoom downloaded to their device prior to the session and know how to share their screen
+- Have used the VAHB app at least once in the last year
+- Have a service-related disability rating of at least 10%
 
 #### Secondary criteria (nice-to-haves)
 *What criteria would strengthen your results?* 
 
-- `[Place secondary criteria here between hash marks when in edit mode]`
-- `secondary criteria`
-- `secondary criteria`
-- **`Add more criteria as needed`**
+- At least 5, age 55 or older
+- At least 5, self-reported cognitive disability
+- At least 3, rural
+- At least 1, identifies as woman
+- At least 6, identifies as Black or African American, Hispanic or Latino, Asian, or Biracial
+
 
 ## Screener Questions 📋
 
 > [!NOTE]
 > Perigean will use these screener questions **verbatim** to recruit and qualify participants. Write them as you want them asked.
 
-> [!TIP]
-> - Write questions in plain language that participants will easily understand. [**Examples of General and Assistive Tech Screener Questions**](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/example-screener-questions.md) 
-> - Clearly indicate the **qualifying response** that will make someone eligible
-> - Include links to products or clear descriptions so participants understand what they're being asked about
-> - The more screener questions you have, the harder it will be to recruit - prioritize your must-haves
 
-### Screener Question Template
 
-**`[Number].` [Screener Question Text]**
-- **Qualifying response:** `[The answer that qualifies the participant]`
-- **Disqualifying response:** `[Optional: The answer that disqualifies]`
 
 ### Your Study's Screener Questions
 
-**`1.` [Enter your first screener question]**
-- **Qualifying response:** 
+**1. Are you able to join the session from a smartphone or tablet?**
+   
+- Yes: Qualify 
+- No: Disqualify 
 
-**`2.` [Enter your second screener question]**
-- **Qualifying response:** 
+
+**2. What device will you use to join the session?** (Recruit mix)
+   
+- Mobile phone – Android
+- Mobile phone – iPhone
+- Tablet – Android
+- Tablet – iPad
 
 **`3.` [Enter your third screener question]**
 - **Qualifying response:** 
