@@ -143,6 +143,8 @@
      - [ ] Update dependents page "remove" button & content
      - [ ] Investigate 401 errors
      - [ ] Remove old feature toggles
+- EZ Form status on MyVA
+     - [ ] Display submission statuses on MyVA
 - EZR Form status
      - [ ] Tech discovery Display on MyVA
      - [ ] EZR QA Standards alignment
@@ -181,7 +183,8 @@
 
 ##
 ### 10-10EZ
-#### Obj: ...
+#### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
+- [ ] [#130010](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130010) - [BE] Display submission statuses on MyVA
 
 ## 
 ### 10-10CG
@@ -209,8 +212,6 @@
      - [ ] Prep & review release plan
      - [ ] Update & submit product guide
      - [ ] Submit for metrics updates
-- EZ Form status on MyVA
-     - Display submission statuses on MyVA
 - EZ BUG Investigation on 422 errors
 - EZR ECNOK on Profile
      - [ ] Tech discovery on connecting Associations API
@@ -240,7 +241,7 @@
 ##
 ### 10-10EZ
 #### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
-- [ ] [#130010](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130010) - [BE] Display submission statuses on MyVA
+- [ ] [#135709](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135709) - [Eng] Discuss MyVA onboarding with VFMP team
 
 #### Obj: EZ [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
 - [ ] [#130856](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130856) - [FE/QA] Review and align with the latest QA Standards updates
