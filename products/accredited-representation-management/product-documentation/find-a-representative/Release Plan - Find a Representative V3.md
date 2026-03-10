@@ -21,6 +21,8 @@ Feature Toggle/flag:
       -    [ ] Ensure `sort by` button was removed and you can now sort just by updating that drop down
       -    [ ] Ensure the Name/Mileage on the contact cards align with figma designs
       -    [ ] Ensure the icons align with the figma designs.
+   - Accessability Testing
+      -    [ ] Accessability has been tested and any findings have been documented.
 - [ ] Any "launch blocking" findings from Team QA have been addressed.
 - [ ] The feature flag `find_a_representative_enabled` has been set to `Off` 
 - [ ] Datadog monitoring is set up to track submission attempts, successes and errors.
