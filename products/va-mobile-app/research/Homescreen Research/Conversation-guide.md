@@ -181,7 +181,7 @@ Take a look at this page without clicking anything [homescreen]. [Give participa
 > - Does the participant notice Action required section label?
 > - Does the participant notice Activity section label?
 
-## Task 2: Find dsability rating/payments - 4 minutes, 25 minutes elapsed
+## Task 2: Find disability rating/payments - 4 minutes, 25 minutes elapsed
 
 Now let's talk about trying to find a few things in the app. 
 Say you had submitted a claim to hopefully update your disability rating and got a notice that your rating has been changed. You then got a disabiilty payment with the updated rating.
