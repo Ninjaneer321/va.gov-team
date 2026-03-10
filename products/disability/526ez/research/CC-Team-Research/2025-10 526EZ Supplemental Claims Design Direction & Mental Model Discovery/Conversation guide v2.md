@@ -22,7 +22,7 @@ description: "A script and session outline for conducting prototype testing with
 ## Moderator logistics 📋✅
 [Link to prototype](https://www.figma.com/proto/P6IUm8gN00H3Yi1XzN80fj/-526ez--Condition-information-entry?page-id=6174%3A18589&node-id=6524-47192&viewport=653%2C-7741%2C0.75&t=UWlAy6DgYnnYEKOL-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=6524%3A47192&show-proto-sidebar=1)
 
-[Link to research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Research%20Plan%20-%202025-10-Supplemental-Claim.md)
+[Link to research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10%20526EZ%20Supplemental%20Claims%20Design%20Direction%20%26%20Mental%20Model%20Discovery/Research%20Plan.md)
 ### Day of the session
 
 * Use [\#feedback-backchannel](https://dsva.slack.com/archives/feedback-backchannel) in Slack for real-time feedback from observers.  
