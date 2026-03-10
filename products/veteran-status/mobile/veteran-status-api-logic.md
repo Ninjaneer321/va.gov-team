@@ -148,4 +148,5 @@ Support guidance should direct users to **VA.gov technical support** (instead of
 > Notes:
 > - If the upstream eligibility check is confirmed, the endpoint returns the VSC regardless of SSC.
 > - If the upstream eligibility check is not confirmed, SSC determines whether the endpoint still returns the VSC (allowlist) or returns an alert payload (groups above).
+> - If there are any unknown Lighthouse Not Confirmed reasons, it will try to find eligibility by SSC code and continue to checking for a SSC. 
 
