@@ -184,7 +184,7 @@ Take a look at this page without clicking anything [homescreen]. [Give participa
 ## Task 2: Find disability rating/payments - 4 minutes, 25 minutes elapsed
 
 Now let's talk about trying to find a few things in the app. 
-Say you had submitted a claim to hopefully update your disability rating and got a notice that your rating has been changed. You then got a disabiilty payment with the updated rating.
+Say you had submitted a claim to hopefully update your disability rating and got a notice that your rating has been changed. You then got a disabiilty payment reflecting the updated rating.
 ### Questions for testing participant: 
 1. Where would you look for your current disability rating?
 2. Why?
@@ -205,6 +205,7 @@ Next, let's think about if you were in a store and saw a sign that they offered 
 ### Questions for testing participant: 
 1. Where would you go in the app to find your Veteran status card to show the store?
 2. Why?
+3. Would you look anywhere else?
 
 > [!NOTE]
 > ### Things to watch for:
@@ -216,6 +217,7 @@ Next, imagine you've recently adopted a child and submitted the paperwork to get
 ### Questions for testing participant: 
 1. Where would you look for that in the app?
 2. Why?
+3. Would you look anywhere else?
 
 > [!NOTE]
 > ### Things to watch for:
@@ -231,8 +233,7 @@ Next, let's take another look at the Action required section.
 5. Say you wanted to deal with the copayment due item. Without clicking yet, what would you do?
 6. What do you expect to happen when you do that?
 7. [If needed] What do you expect to happen when you tap the pay copay button?
-   *Direct to tap *pay copay button* if needed*
-   *Direct participant to complete pay copay flow and return to Homescreen.*
+   *Direct to tap pay copay button if needed. Direct participant to complete pay copay flow and return to Homescreen.*
 8. What did you think about that process?
 9. What worked well?
 10. What could be improved?
