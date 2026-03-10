@@ -73,7 +73,7 @@ Additional activity:
 - **32.16K** clicked **Update your contact list** (16.3% of the 196.65K people who made it to this page) 
 - **23.92K** toggled care systems (counts of a single user clicking on unique care systems - doesn't involve re-clicking a care system)
 
-### Feb 10 – Mar 28
+### Feb 10 – Mar 8
 - New messages started: **409,075**
 - Selected a recent care team: **271.91K**
 - Went to page 2: **122.39K**
