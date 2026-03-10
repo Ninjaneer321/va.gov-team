@@ -77,8 +77,8 @@ The online pension application is available in the [production environment](http
 - [Sprint Planning](https://github.com/orgs/department-of-veterans-affairs/projects/1237/views/35?sliceBy%5Bvalue%5D=PBB)
 - [Roadmap](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1692908527043/0da94b7ded52e8a943d798bcb8ae39697c2fb56f?wid=120-1729780466015) (Mural)
 - Ticketing
-   - Team label: dependents-benefits
-   - Product label: 686, 674, dependent-verification
+   - Team label: benefits-pension-burial
+   - Product label: 527, pension
    - Workstream label: discovery, product, design, or engineering + frontend or backend
 
 ## Roadmap
