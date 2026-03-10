@@ -28,10 +28,10 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 ## Sprint: 4 [03/11/26 - 03/24/26]  
 | Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX: Review the final ENG implementation of Payment History.| P1 |--|--|--|
-|UX: Assist with completing the Payment History accessibility testing.| P1 |--|--|--|
+|UX: Pending access in staging - Review the final ENG implementation of Payment History.| P1 |--|--|--|
+|UX: Pending access in staging - Assist with completing the Payment History accessibility testing.| P1 |--|--|--|
 |UX: Complete the Pay.gov Benefit Overpayment Debt Payments Usability Study.| P2 |--|--|--|
-|UX: Create the Pay.gov overpayments study Analysis & Topline summary| P2 |--|--|--|
+|UX: Begin analysis and create and publish Topline Summary for Pay.gov overpayments study.| P2 |--|--|--|
 |ENG: Complete back end code adjustments to accommodate the Cerner/VistA data updates.| P1 |--|--|--|
 |ENG: Update final Payment History tests after implementing the Cerner/VistA data updates.| P1 |--|--|--|
 |ENG: Complete the 2 planned maintenance tickets.| P6 |--|--|--|
