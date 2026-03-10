@@ -216,7 +216,7 @@ Are there moments that matter?</summary>
 
 ### Goals
 
-`1.` **Understand users' expectations for homescreen content, navigation, and functionality**
+`1.` **Understand users' expectations for homescreen content and navigation?**
 
 `2.` **Understand how users interpret and use homescreen content and capabilities**
   
@@ -239,10 +239,11 @@ Are there moments that matter?</summary>
   
 `Does this question serve the goals of my study?`
 
-**Research goal 1: Understand users' expectations for homescreen content, navigation, and functionality**
-1. What content and functionality do users expect to find on the homescreen?
+**Research goal 1: Understand users' expectations for homescreen content and navigation**
+1. What content do users expect to find on the homescreen?
 
 2. Where do users expect to find their Veteran status card, disability rating and payments, and dependents verification?
+   
 
 **Research goal 2: Understand how users interpret and use homescreen content and capabilities**
 
@@ -270,8 +271,21 @@ Are there moments that matter?</summary>
 `Write a generalized statement that combines what you know + what you think will happen during the study.`
 
 ---
+**Research goal 1: Understand users' expectations for homescreen content and navigation**
+1. Users will expect to find new content such as new Secure messages and notices requiring their review and action on the homescreen.
+2. Users very familiar with the app will expect to find Veteran status card, dependents, and disability rating and payments on the homescreen as reflects the current layout.
+3. Users less familiar with the app will expect to find Veteran status card and dependents verification in Profile.
+4. Users less familiar with the app will expect to find disability payments and rating in Profile or in Payments.
+5. Users will expect to easily navigate the homescreen to find what they need.
+6. Users will expect to be led as directly as possible to needed features and tasks.
 
-**[Enter hypotheses here]** 
+**Research goal 2: Understand how users interpret and use homescreen content and capabilities**
+
+1. Users will notice and give more weight to Action required items because of the label and design styling of the section.
+2. Users will want to take action on both Action required items and Activity items that usually are of top concern to Veterans such as new appointment information, prescription updates, copay due.
+3. Users will sometimes want more information than is presented on homescreen to help them with some tasks such as managing prescriptions. 
+4. Users will want to complete tasks directly from the homescreen when possible.
+5. Users more familiar with the app will expect to be taken to the relevant feature to complete tasks.
 
 ---
   
@@ -289,7 +303,7 @@ Are there moments that matter?</summary>
 
 </details>
 
-**[Enter methodology here]**
+**Usability testing**
 
 <details><summary>Additional resources</summary> 
 	
