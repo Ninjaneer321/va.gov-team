@@ -120,12 +120,7 @@ tags:
 	
 `What problem is your product trying to solve?`
 
-**VAHB Mobile App is planning changes to the homescreen to make better use of the limited real estate of the homescreen to meet users' needs to:
-
-1. Quickly find and understand relevant information on the homescreen
-2. To complete key tasks and actions in the app as needed
-
-The team seeks to understand whether current homescreen concepts align with Veterans' expectations and priorities and successfully helps them complete needed actions.**
+**VAHB Mobile app has limited real estate on the homescreen. The team seeks to understand whether planned homescreen design concepts align with Veterans expectations and priorities and successfully helps them complete tasks.**
   
 `Where is your product situated on VA.gov? (ex: auth vs. unauth)`
 
