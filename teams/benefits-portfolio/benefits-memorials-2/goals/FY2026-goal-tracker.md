@@ -33,7 +33,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 |UX: Complete the Pay.gov Benefit Overpayment Debt Payments Usability Study.| P2 |--|--|--|
 |UX: Begin analysis and create and publish Topline Summary for Pay.gov Benefit Overpayment Debt Payments Usability Study.| P2 |--|--|--|
 |ENG: Complete back end code adjustments to accommodate the Cerner/VistA data updates.| P1 |--|--|--|
-|ENG: Update final Payment History tests after implementing the Cerner/VistA data updates.| P1 |--|--|--|
+|ENG: Update Payment History tests after implementing the Cerner/VistA data updates.| P1 |--|--|--|
 |ENG: Complete the 2 planned maintenance tickets.| P6 |--|--|--|
 
 **Sprint rollover tickets**
