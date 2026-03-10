@@ -1,8 +1,8 @@
-# 2025-10 Supplemental Claim Design Direction in 526EZ Top-line Summary
+# 2025-10 526EZ Supplemental Claims Design Direction & Mental Model Discovery Top-line Summary
 - [Testing prototypes](https://www.figma.com/proto/P6IUm8gN00H3Yi1XzN80fj/-526ez--Condition-information-entry?page-id=6174%3A18589&node-id=6524-47192&viewport=653%2C-7741%2C0.75&t=lVGxess9idiVg78M-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=6524%3A47192&show-proto-sidebar=1)
-- [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Research%20Plan%20-%202025-10-Supplemental-Claim.md)
-- [Conversation guide v2](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Conversation%20guide%20v2%20-%202025-10-Supplemental-Claim.md)
-- [Conversation guide v1](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Conversation%20guide%20-%202025-10-Supplemental-Claim.md)
+- [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10%20526EZ%20Supplemental%20Claims%20Design%20Direction%20%26%20Mental%20Model%20Discovery/Research%20Plan%20-%202025-10-Supplemental-Claim.md)
+- [Conversation guide v2](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10%20526EZ%20Supplemental%20Claims%20Design%20Direction%20%26%20Mental%20Model%20Discovery/Conversation%20guide%20v2%20-%202025-10-Supplemental-Claim.md)
+- [Conversation guide v1](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10%20526EZ%20Supplemental%20Claims%20Design%20Direction%20%26%20Mental%20Model%20Discovery/Conversation%20guide%20-%202025-10-Supplemental-Claim.md)
 - [Interview transcripts](https://dvagov.sharepoint.com/:f:/r/sites/vaabdvro/Shared%20Documents/0%20-%20Benefits%20Portfolio%20-%20General/Research%20Recordings%20-%20Veteran-Staff-VSO/2025-11%20526EZ%20Supplemental%20Claims%20Design%20Direction?csf=1&web=1&e=bXiWUN)
 
 
