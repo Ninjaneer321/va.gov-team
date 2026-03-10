@@ -68,7 +68,7 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - [Google Analytics Report](https://analytics.google.com/analytics/web/?authuser=2#/analysis/a50123418p265787033/edit/eiPeenxHRBqHVePhF1M3ow?restoreUserState=true) - N/A for SMS at this time
 - Who is monitoring the dashboard(s)?: BMT3 (Seth Darr)
 
-### Stage A: Canary
+### Stage A
 
 *Test a small Veteran population to ensure any obvious bugs/edge cases are found.*
 
@@ -92,7 +92,7 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 - Types of errors logged:
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
 
-### Stage B: Canary
+### Stage B
 
 *Test a small Veteran population to ensure any obvious bugs/edge cases are found.*
 
@@ -116,7 +116,7 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 - Types of errors logged:
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
 
-### Stage C: Canary
+### Stage C
 
 *Test a small Veteran population to ensure any obvious bugs/edge cases are found.*
 
@@ -140,7 +140,7 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 - Types of errors logged:
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
 
-### Stage D: Canary
+### Stage D
 
 *Test a small Veteran population to ensure any obvious bugs/edge cases are found.*
 
@@ -164,7 +164,7 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 - Types of errors logged:
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
 
-### Stage E: Canary
+### Stage E
 
 *Test a small Veteran population to ensure any obvious bugs/edge cases are found.*
 
@@ -188,7 +188,7 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 - Types of errors logged:
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
 
-### Stage F: Canary
+### Stage F
 
 *Full rollout!*
 
