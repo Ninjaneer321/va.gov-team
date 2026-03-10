@@ -1,4 +1,4 @@
-# Release Plan: Intent to File
+# Release Plan: FAR V3
 
 Feature Toggle/flag:
 `find_a_representative_enabled` will control visibility of the Intent to File feature, for Accredited Representative Portal users. This will be disabled in Production prior to release.
