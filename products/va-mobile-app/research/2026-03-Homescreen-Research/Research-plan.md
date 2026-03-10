@@ -216,7 +216,7 @@ Are there moments that matter?</summary>
 
 ### Goals
 
-`1.` **Understand users' expectations for homescreen content and navigation?**
+`1.` **Understand users' expectations for homescreen content and navigation**
 
 `2.` **Understand how users interpret and use homescreen content and capabilities**
   
@@ -241,21 +241,16 @@ Are there moments that matter?</summary>
 
 **Research goal 1: Understand users' expectations for homescreen content and navigation**
 1. What content do users expect to find on the homescreen?
-
 2. Where do users expect to find their Veteran status card, disability rating and payments, and dependents verification?
-   
+3. Do users expect due dates for some or all "Action required" items?
+4. What level of detail do users need for homescreen content so that they can take action and complete tasks?
 
 **Research goal 2: Understand how users interpret and use homescreen content and capabilities**
 
 1. Do users notice, understand, and take action on items in "Action required" and "Activity" sections?
-
-2. What level of detail do users need for homescreen content so that they can take action and complete tasks?
-   
-3. Do users expect due dates for some or all "Action required" items?
-
-4. When tasks are surfaced on the homescreen, how do users want and expect to complete them?
-
-5. When provided with the opportunity to complete tasks such as paying copay and refilling prescription without leaving the homescreen, do users understand what to do and choose to do that instead of navigating to the feature?
+2. When tasks are surfaced on the homescreen, how do users want and expect to complete them?
+3. Does homescreen information architecture affect how users prioritize items and tasks?
+4. When provided with the opportunity to complete tasks such as paying copay and refilling prescription without leaving the homescreen, do users understand what to do and choose to do that instead of navigating to the feature?
 
 > [!TIP]
 >Enter more questions as needed
@@ -280,9 +275,7 @@ Are there moments that matter?</summary>
 2. Users very familiar with the app will expect to find Veteran status card, dependents, and disability rating and payments on the homescreen as reflects the current layout.
 3. Users less familiar with the app will expect to find Veteran status card and dependents verification in Profile.
 4. Users less familiar with the app will expect to find disability payments and rating in Profile or in Payments.
-5. Users will expect to easily navigate the homescreen to find what they need.
-6. Users will expect to be led as directly as possible to needed features and tasks.
-7. Users will sometimes want more information than is presented on homescreen to help them with some tasks such as managing prescriptions. 
+5. Users will sometimes want more information than is presented on homescreen to help them with some tasks such as managing prescriptions, due dates for Action required items, or for appointments preparation. 
 
 **Research goal 2: Understand how users interpret and use homescreen content and capabilities**
 
@@ -340,7 +333,7 @@ Provide a link to any materials you need to run your study, including any materi
 
 **For moderated usability tests:** 
 - [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/4717498a59003842567808e70dc87d1a79614656/products/va-mobile-app/research/2026-03-Homescreen-Research/Conversation-guide.md))
-- [Link to prototype](url goes here)
+- [Link to prototype](https://www.figma.com/proto/qVqjxULrC26YoIbvnZKOwp/IA---Nav?node-id=673-114466&t=Bp35KWcWPBYzxcWt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=673%3A114466&show-proto-sidebar=1))
 
 	
 ## Recruitment 🎯	
