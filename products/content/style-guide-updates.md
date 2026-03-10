@@ -73,8 +73,8 @@ Use "balance" when you refer to the total amount owed for copay bills or overpay
 
 Updated these entries:
 
-- verify and verification: Specified that **ID.me** and **Login.gov** are accounts
-- Veterans Service Organization (VSO): Fixed typo
+- **verify and verification:** Specified that **ID.me** and **Login.gov** are accounts
+- **Veterans Service Organization (VSO):** Fixed typo
 
 Added these new entries:
 
