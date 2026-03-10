@@ -6,11 +6,12 @@ require 'yaml'
 
 # Sync Collaboration Cycle Team Dropdown
 #
-# Reads team-lookup.json and regenerates the team dropdown in
-# .github/ISSUE_TEMPLATE/collaboration-cycle-request.yml
+# Reads team-lookup.json and regenerates the product-team dropdown options
+# in a collaboration cycle issue template.
 #
 # Usage:
-#   ruby .github/scripts/sync-collab-cycle-teams.rb [path/to/team-lookup.json]
+#   ruby scripts/manifest/sync-collab-cycle-teams.rb [path/to/team-lookup.json]
+#   ruby scripts/manifest/sync-collab-cycle-teams.rb team-lookup.json --template .github/ISSUE_TEMPLATE/collaboration-cycle-kickoff.yml
 
 class CollabCycleTeamSync
   attr_reader :team_lookup_path, :template_path, :verbose
@@ -65,15 +66,18 @@ class CollabCycleTeamSync
       raise "Could not find product-team field in template"
     end
 
-    # Convert from input to dropdown
-    team_field['type'] = 'dropdown'
-    team_field['attributes']['label'] = 'VFS team name'
-    team_field['attributes']['description'] = 'Select your team from the list (sorted alphabetically). Not seeing your team here? [Add your team to the manifest](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/teams-manifest-user-guide.md)'
-    # Remove input-specific attributes that aren't valid for dropdowns
-    team_field['attributes'].delete('placeholder')
-    team_field['attributes']['options'] = dropdown_options
-    team_field['validations'] ||= {}
-    team_field['validations']['required'] = true
+    # Only update the options for the kickoff template to preserve its field attributes
+    if template_path.include?('collaboration-cycle-kickoff.yml')
+      team_field['attributes']['options'] = dropdown_options
+    else
+      team_field['type'] = 'dropdown'
+      team_field['attributes']['label'] = 'VFS team name'
+      team_field['attributes']['description'] = 'Select your team from the list (sorted alphabetically). Not seeing your team here? [Add your team to the manifest](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/teams-manifest-user-guide.md)'
+      team_field['attributes'].delete('placeholder')
+      team_field['attributes']['options'] = dropdown_options
+      team_field['validations'] ||= {}
+      team_field['validations']['required'] = true
+    end
 
     # Write back to file
     File.write(template_path, YAML.dump(template))
