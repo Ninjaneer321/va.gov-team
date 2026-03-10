@@ -35,6 +35,7 @@ This folder contains incident reports and postmortems for the VA Notify platform
 | April 2023 | [Twilio SMS blocked by Palo Alto update](./20230417-twilio-sms-blocked-palo-alto.md) — Outbound SMS blocked for ~4.5 hours | TBD | Resolved |
 | March 2023 | [Education forms submission errors](./20230309-education-forms-after-submit-errors.md) — Errors for multiple VBA Education forms | TBD | Resolved |
 | August 2022 | [VEText forwarding lambda VPC conflict](./20220824-vetext-forwarding-lambda-vpc-conflict.md) — Security groups pointed to dev VPC | TBD | Resolved |
+| May 2022 | [MPI certificate renewal broke Staging integration](./20220519-mpi-certificate-renewal.md) — MPI renewed certificates without notice; Staging testing blocked for ~1 week | Medium | Resolved |
 | May 2022 | [Self Service UI login white page](./20220510-self-service-ui-login-white-page.md) — Users unable to proceed after GitHub SSO login | TBD | Resolved |
 
 > **Note:** Detailed incident data (exact dates, timelines, root cause, action items) is sourced from the private [vanotify-team/Incidents/README.md](https://github.com/department-of-veterans-affairs/vanotify-team/blob/main/Incidents/README.md). The files above were seeded from the [Platform Health Statistics](../analytics/metrics/README.md#platform-health-statistics) table in this repo. Team members with access to the vanotify-team repository should update the individual incident files with complete information.
