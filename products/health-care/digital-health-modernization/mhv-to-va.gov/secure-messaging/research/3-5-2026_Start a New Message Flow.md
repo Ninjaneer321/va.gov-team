@@ -30,9 +30,9 @@ _(potential steps to start a new message for users)_
       - Users struggle with the care system → care team selection hierarchy and don't understand the distinction between these two step
    - **Draft Research Goals**
    - Determine optimal information architecture and design of whether addressing and composing a message is easier for veterans on two separate pages or on a unified single-page flow. 
-    - Validate accessibility by gathering feedback from AT users about what flow is most accessible and intuitive
-    - Clarify mental models by assessing user understanding of care system vs. care team concepts and their perceived relationship
-    - Measure whether users notice, read, and understand the interstitial content
+    - Validate accessibility by gathering feedback from AT users about what flow is most accessible and intuitive.
+    - Assess user user understanding of care system vs. care team concepts and their perceived relationship with different UI concepts.
+    - Measure whether users notice, read, and understand the interstitial content.
     - Identify new and existing pain points in the message creation flow.
 
 ---
