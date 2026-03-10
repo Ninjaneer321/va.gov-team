@@ -212,12 +212,14 @@
      - [ ] Prep & review release plan
      - [ ] Update & submit product guide
      - [ ] Submit for metrics updates
-- EZ BUG Investigation on 422 errors
+- [ ] EZ BUG Investigation on 422 errors
+- EZ Form Statuses
+     - [ ] Discuss process with VFMP team
 - EZR ECNOK on Profile
      - [ ] Tech discovery on connecting Associations API
 - [ ] CG Update file upload pattern
 - [ ] EZ QA Standards alignment
-- EZR Improvements on Dependents section content
+- [ ] EZR Improvements on Dependents section content
 
 ## 
 ### 10-10EZR
