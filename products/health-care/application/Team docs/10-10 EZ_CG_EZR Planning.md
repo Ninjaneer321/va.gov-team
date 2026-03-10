@@ -146,12 +146,14 @@
 - EZR Form status
      - [ ] Tech discovery Display on MyVA
      - [ ] EZR QA Standards alignment
- - CG Bugs - investigate 503 errors (may need to recategorize them)
+- CG Bugs - investigate 503 errors (may need to recategorize them)
+- EZR ECNOK on Profile
+     - [ ] Initiate Collab Cycle
 
 ## 
 ### 10-10EZR
 #### Obj: EZR [ECNOK on VA.gov Profile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
-- [ ] TBD
+- [ ] [#135708](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135708) - [PM] Initiate Collab Cycle
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
 - [ ] [#121770](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121770) - [Eng] Launch at 5%
