@@ -4,6 +4,7 @@ title: "Research Plan for MHV to VA.gov Transition Team, Healthcare Transition C
 date: 2026-03-06
 last_updated: 2026-03-06
 team: "MHV to VA.gov Transition Team"
+researcher" "Cara Frissell"
 product: "Healthcare Transition Communications and Alerts"
 product_area: "authenticated"
 
@@ -317,3 +318,7 @@ If you could change one thing about these alerts, what would it be?
 What would make you more likely to act on notice the changes? 
 
 Do you know how to act on the changes?
+
+
+### Team Roles
+- Moderator: Cara Frissell
