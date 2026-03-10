@@ -249,9 +249,13 @@ Are there moments that matter?</summary>
 
 1. Do users notice, understand, and take action on items in "Action required" and "Activity" sections?
 
-2. Does the homescreen provide enough information for users to take action and complete tasks?
+2. What level of detail do users need for homescreen content so that they can take action and complete tasks?
+   
+3. Do users expect due dates for some or all "Action required" items?
 
-3. How do users expect to complete tasks surfaced on the homescreen?
+4. When tasks are surfaced on the homescreen, how do users want and expect to complete them?
+
+5. When provided with the opportunity to complete tasks such as paying copay and refilling prescription without leaving the homescreen, do users understand what to do and choose to do that instead of navigating to the feature?
 
 > [!TIP]
 >Enter more questions as needed
@@ -272,20 +276,20 @@ Are there moments that matter?</summary>
 
 ---
 **Research goal 1: Understand users' expectations for homescreen content and navigation**
-1. Users will expect to find new content such as new Secure messages and notices requiring their review and action on the homescreen.
+1. Users will expect to find new content such as new Secure messages and items requiring their review and action on the homescreen.
 2. Users very familiar with the app will expect to find Veteran status card, dependents, and disability rating and payments on the homescreen as reflects the current layout.
 3. Users less familiar with the app will expect to find Veteran status card and dependents verification in Profile.
 4. Users less familiar with the app will expect to find disability payments and rating in Profile or in Payments.
 5. Users will expect to easily navigate the homescreen to find what they need.
 6. Users will expect to be led as directly as possible to needed features and tasks.
+7. Users will sometimes want more information than is presented on homescreen to help them with some tasks such as managing prescriptions. 
 
 **Research goal 2: Understand how users interpret and use homescreen content and capabilities**
 
-1. Users will notice and give more weight to Action required items because of the label and design styling of the section.
-2. Users will want to take action on both Action required items and Activity items that usually are of top concern to Veterans such as new appointment information, prescription updates, copay due.
-3. Users will sometimes want more information than is presented on homescreen to help them with some tasks such as managing prescriptions. 
-4. Users will want to complete tasks directly from the homescreen when possible.
-5. Users more familiar with the app will expect to be taken to the relevant feature to complete tasks.
+1. Users will notice and give more weight to "Action required" items because of the label and design styling of the section.
+2. Users will want to take action on both "Action required" items and "Activity" items that usually are of top concern to Veterans such as new appointment information, prescription updates, travel pay claims.
+3. Users will want to complete tasks directly from the homescreen when possible.
+4. Users will expect to be able to complete tasks directly from the homescreen when there is a call to action button associated with the item such as "Pay copay" for a medical copayment. 
 
 ---
   
@@ -303,7 +307,7 @@ Are there moments that matter?</summary>
 
 </details>
 
-**Usability testing**
+This research will be a remote moderated study using Zoom. Participants will be guided to give general feedback on a low-fidelity Figma prototype of the proposed homescreen redesign. Participants will then be asked for targeted feedback on where to find items moved off the homescreen with the redesign, and to try to complete the tasks of paying a copay and refilling a prescription directly from the homescreen through a newly designed user flow concept.  
 
 <details><summary>Additional resources</summary> 
 	
