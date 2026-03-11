@@ -1,36 +1,71 @@
 # CX Platform Pain Point Catalog
 
-## When & How to Update This Catalogue
+## When & How to Update This Catalog
 
-**Update this catalogue when new feedback is received** from platform users (experience teams, mobile team members, engineers, designers) via: platform surveys, retros, direct user feedback, design critiques, and ad-hoc reports. 
+### Ownership
 
-**When to update:** After quarterly or periodic platform feedback cycles; when retros surface recurring blockers; when new teams onboard and report friction; and when tooling, processes, or documentation changes affect platform workflows. Add new pain points, refresh evidence, adjust severity/trending based on frequency, and note mitigations or status changes. Include a change log entry for any substantive updates.
+**[TBD — assign owner]** owns the CX Pain Point Library and is responsible for keeping this catalog current. The owner reviews incoming feedback, adds or updates pain points, and maintains the change log.
+
+### Sources & When to Update
+
+**Update this catalog when new feedback is received** from platform users (experience teams, mobile team members, engineers, designers) via: platform surveys, retros, direct user feedback, design critiques, and ad-hoc reports.
+
+**When to update:** After quarterly or periodic platform feedback cycles; when retros surface recurring blockers; when new teams onboard and report friction; and when tooling, processes, or documentation changes affect platform workflows.
+
+### Ranking Factors
+
+Use these factors to assess and rank each pain point when adding or updating entries. Each factor maps to a column in the pain point table below.
+
+| Factor | Definition | Table Column |
+|--------|-------------|--------------|
+| **Severity** | High = user cannot accomplish main task or would do it wrong; Medium = can accomplish but with confusion/workarounds/minor errors; Low = would be better UX if resolved | Severity |
+| **Trending/Frequency** | First-time issue vs. found in multiple research reports/sources | Trending/Frequency |
+| **Users Impacted** | Edge case/1 team, some platform users, majority of users, impacts all platform users | Users Impacted |
+| **Legal/Risk Obligation** | e.g., accessibility issue, data privacy issue | Legal/Risk |
+
+### Process for Adding to the Library
+
+1. Add new pain points as rows in the table below. Assess each pain point against the ranking factors above and populate the corresponding columns.
+2. Link evidence (e.g., platform surveys, retro notes) in the Evidence column.
+3. Document the catalog in the research folder of the GitHub repo. All pain point catalogs live in the Mobile Platform research documentation.
+4. Add a change log entry for any substantive update (new pain point, status change, or significant edit).
+
+## Pain Point Lifecycle (Status)
+
+
+| Status             | Meaning                                                                                                                                                      |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| *(blank)*          | Not yet triaged or no mitigation in progress                                                                                                                 |
+| Planning research  | Research or discovery planned to inform mitigation                                                                                                           |
+| In progress        | Mitigation actively being built or implemented                                                                                                               |
+| Partially resolved | Some mitigation deployed; may need further work                                                                                                              |
+| Resolved           | Pain point addressed; platform users no longer report the issue. Remove from active table or move to an "Archived/Resolved" section and add change log entry |
+
+
+**How a pain point gets marked as resolved:** The owner confirms that the mitigation has been deployed and that feedback sources (surveys, retros, etc.) no longer report the issue. Update the Status column to "Resolved," add a change log entry, and either archive the row or move it to a resolved section.
 
 ---
 
-## Ranking Factors
+## Pain Points
 
-- **Severity:** High (user cannot accomplish main task or would do it wrong), Medium (can accomplish but with some confusion/workarounds/minor errors), Low (would be better user experience if pain point resolved)
-- **Trending/Frequency:** First time issue vs. found in multiple research reports/sources
-- **Number of Users Impacted:** Edge case/1 team, some platform users, majority of users, impacts all platform users
-- **Legal/Risk Obligation:** e.g., accessibility issue or data privacy issue
+| Rank | Pain Point                                                                                                                                                                                                                                        | Severity | Trending/Frequency                                                                            | Users Impacted                                                                                            | Legal/Risk                                                                                 | Evidence | Key Mitigation                                                                                                                                                                                                                                     | Status                                                                                    |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| 1    | As a member of an experience team, I want to self-serve and find answers to my questions, but I am blocked by the inability to find documentation or trust that it is up to date.                                                                 | High     | Found in multiple research reports/sources                                                    | Majority of platform users                                                                                | None                                                                                       |          | Create documentation in response to user requests and proactively create documentation for anticipated user needs                                                                                                                                  | In progress — early stages, long way to go                                                |
+| 2    | As a mobile team member, I want to ensure each feature is compliant with our design and engineering best practices before release, but I am blocked by not having visibility into what is being built or planned for the app.                     | High     | Reported multiple times by multiple users; will become increasingly severe as platform scales | Majority of platform users (especially designers and engineers building new or larger features)           | None                                                                                       |          | 1) Design critiques to give cross-app visibility into what is being built; 2) Improved communication about what is being released; 3) Accelerate getting the mobile design system fully up to date                                                 | In progress — actively working on mitigations                                             |
+| 3    | As a mobile or experience team member, I need test users to validate or demo my feature, but I am blocked by not knowing how to find or create test users for all the use cases.                                                                  | Medium   | Frequently reported                                                                           | Majority of engineers building into the app                                                               | None identified (production test user restrictions may have policy implications — TBD)     |          | 1) Gain more ownership over test users on the mobile platform; 2) Identify the right contacts for requesting test user access; 3) Document how to create new test users for various use cases; 4) Explore a self-service test user catalog or tool |                                                                                           |
+| 4    | As a backend engineer, I want to have access to all upstream service documentation, but I am blocked by teams that have integrated with these services not properly documenting or retaining information.                                         | Medium   | Multiple backend users have reported this                                                     | Backend engineers (smaller but significant portion of platform audience)                                  | None                                                                                       |          | Currently creating documentation to address gaps                                                                                                                                                                                                   | In progress                                                                               |
+| 5    | As a member of an experience team, I want to avoid rework or delays in having my code approved, but I am blocked by not knowing how to meet expected accessibility best practices.                                                                | Medium   | Low frequency of reports currently, but high risk if not addressed proactively                | Designers and engineers (majority of platform users are aware of the requirement but need proper tooling) | Yes — legal requirement to deliver a fully accessible app                                  |          | 1) Updated PR template to include additional accessibility details (partially resolved); 2) Review and update accessibility documentation to prevent surprises when work is sent back for rework                                                   | Partially resolved — PR template updated; accessibility documentation review still needed |
+| 6    | As a mobile team member, I want to be sure the list of users with access to our tools and systems is up to date and accurate, but I am blocked by not having any easy way to know when someone has changed roles or left their company or the VA. | Medium   | Has happened multiple times — systems out of date during gaps in awareness                    | Mobile team                                                                                               | Yes — risk of unauthorized access to systems if off-boarded users are not removed promptly |          | Find ways to be notified of off-boarding events and maintain visibility into who has access to tools and systems at any given time                                                                                                                 |                                                                                           |
 
----
-
-| Rank | Pain Point | Severity | Trending/Frequency | Users Impacted | Legal/Risk | Evidence | Key Mitigation | Status |
-|---|---|---|---|---|---|---|---|---|
-| 1 | As a member of an experience team, I want to self-serve and find answers to my questions, but I am blocked by the inability to find documentation or trust that it is up to date. | High | Found in multiple research reports/sources | Majority of platform users | None | | Create documentation in response to user requests and proactively create documentation for anticipated user needs | In progress — early stages, long way to go |
-| 2 | As a mobile team member, I want to ensure each feature is compliant with our design and engineering best practices before release, but I am blocked by not having visibility into what is being built or planned for the app. | High | Reported multiple times by multiple users; will become increasingly severe as platform scales | Majority of platform users (especially designers and engineers building new or larger features) | None | | 1) Design critiques to give cross-app visibility into what is being built; 2) Improved communication about what is being released; 3) Accelerate getting the mobile design system fully up to date | In progress — actively working on mitigations |
-| 3 | As a mobile or experience team member, I need test users to validate or demo my feature, but I am blocked by not knowing how to find or create test users for all the use cases. | Medium | Frequently reported | Majority of engineers building into the app | None identified (production test user restrictions may have policy implications — TBD) | | 1) Gain more ownership over test users on the mobile platform; 2) Identify the right contacts for requesting test user access; 3) Document how to create new test users for various use cases; 4) Explore a self-service test user catalog or tool | |
-| 4 | As a backend engineer, I want to have access to all upstream service documentation, but I am blocked by teams that have integrated with these services not properly documenting or retaining information. | Medium | Multiple backend users have reported this | Backend engineers (smaller but significant portion of platform audience) | None | | Currently creating documentation to address gaps | In progress |
-| 5 | As a member of an experience team, I want to avoid rework or delays in having my code approved, but I am blocked by not knowing how to meet expected accessibility best practices. | Medium | Low frequency of reports currently, but high risk if not addressed proactively | Designers and engineers (majority of platform users are aware of the requirement but need proper tooling) | Yes — legal requirement to deliver a fully accessible app | | 1) Updated PR template to include additional accessibility details (partially resolved); 2) Review and update accessibility documentation to prevent surprises when work is sent back for rework | Partially resolved — PR template updated; accessibility documentation review still needed |
-| 6 | As a mobile team member, I want to be sure the list of users with access to our tools and systems is up to date and accurate, but I am blocked by not having any easy way to know when someone has changed roles or left their company or the VA. | Medium | Has happened multiple times — systems out of date during gaps in awareness | Mobile team | Yes — risk of unauthorized access to systems if off-boarded users are not removed promptly | | Find ways to be notified of off-boarding events and maintain visibility into who has access to tools and systems at any given time | |
 
 ---
 
 ## Change Log
 
-| Date | Change |
-|------|--------|
-| March 2026 | Added "When & How to Update This Catalogue" quick guide. No new pain points from Q4 App Review Analysis (Q4 focuses on Veteran-facing app feedback; Platform catalogue sources are internal platform users). |
-bility into who has access to tools and systems at any given time | |
+
+| Date       | Change                                                                                                                                                                                                       |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| March 2026 | Added "When & How to Update This Catalog" quick guide. No new pain points from Q4 App Review Analysis (Q4 focuses on Veteran-facing app feedback; Platform catalog sources are internal platform users). |
+
+
+ has access to tools and systems at any given time | |
