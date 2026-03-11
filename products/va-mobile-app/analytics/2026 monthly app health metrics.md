@@ -2,7 +2,7 @@
 
 - [January 2026 (1/1-1/31)](#january-2026)
 - [February 2026 (2/1-2/28)](#february-2026)
-- [March 2026 (3/1-3/31)](#march-2026)
+<!-- - [March 2026 (3/1-3/31)](#march-2026)
 - [April 2026 (4/1-4/30)](#april-2026)
 - [May 2026 (5/1-5/31)](#may-2026)
 - [June 2026 (6/1-6/30)](#june-2026)
@@ -11,7 +11,7 @@
 - [September 2026 (9/1-9/30)](#September-2026)
 - [October 2026 (10/1-10/31)](#October-2026)
 - [November 2026 (11/1-11/30)](#November-2026)
-- [December 2026 (12/1-12/31)](#December-2026)
+- [December 2026 (12/1-12/31)](#December-2026) -->
 
 ## Where to gather the data
 
@@ -33,7 +33,7 @@
 - Average App Store Rating ([App store](https://apps.apple.com/us/app/va-health-and-benefits/id1559609596))
 - Average Play Store Rating ([Play store](https://play.google.com/store/apps/details?id=gov.va.mobileapp&hl=en_US))
 
-## December 2026
+<!-- ## December 2026
 
 **Date range for metrics**: December 1, 2026 - December 31, 2026
 
@@ -272,7 +272,7 @@
 ### iOS
 
 - **iOS Installs**: 
-- **Average App Store Rating**: 
+- **Average App Store Rating**:  -->
 
 ## February 2026
 
