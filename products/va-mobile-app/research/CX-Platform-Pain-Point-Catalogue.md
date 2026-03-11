@@ -4,7 +4,7 @@
 
 ### Ownership
 
-**[TBD — assign owner]** owns the CX Pain Point Library and is responsible for keeping this catalog current. The owner reviews incoming feedback, adds or updates pain points, and maintains the change log.
+**Mobile Platform** owns the CX Pain Point Library and is responsible for keeping this catalog current. The owner reviews incoming feedback, adds or updates pain points, and maintains the change log.
 
 ### Sources & When to Update
 
