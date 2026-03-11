@@ -17,7 +17,7 @@ permissions:
 
 jobs:
   create-milestone:
-    name: Create collaboration cycle milestone
+    name: Process collaboration cycle intake
     runs-on: ubuntu-latest
     # if: contains(github.event.issue.labels.*.name, 'collaboration-cycle-testing')
 
@@ -27,6 +27,7 @@ jobs:
         with:
           sparse-checkout: |
             .github
+            team-lookup.json
             scripts/github-actions/gov-team/cc-intake
 
       - name: Configure AWS Credentials with OIDC
@@ -64,10 +65,7 @@ jobs:
           # ISSUE_NUMBER: ${{ github.event.issue.number || github.event.inputs.issue-number }}
           # GITHUB_TOKEN: ${{ env.VA_VFS_BOT_GITHUB_TOKEN }}
 
-      # TODO: Other scripts needed, or run this all in one script?
-      # Pull in Slack channel and GitHub labels from team manifest
-      # Code blocks script
-      # Needs to do a find/replace on the "Initiate (touchpoint)" links
+      # TODO: Needs to do a find/replace on the "Initiate (touchpoint)" links
 
 #   slack-notify:
 #     runs-on: ubuntu-latest

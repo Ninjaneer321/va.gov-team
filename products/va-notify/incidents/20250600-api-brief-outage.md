@@ -3,7 +3,7 @@
 **Date:** June 2025 _(exact date TBD — retrieve from [vanotify-team/Incidents/README.md](https://github.com/department-of-veterans-affairs/vanotify-team/blob/main/Incidents/README.md) and rename this file to `YYYYMMDD-api-brief-outage.md`)_
 **Severity:** Low
 **Status:** Resolved
-**Incident Commander:** _[See vanotify-team/Incidents/README.md]_
+**Reporter:** _[See vanotify-team/Incidents/README.md]_
 **Authors:** _[See vanotify-team/Incidents/README.md]_
 
 ---

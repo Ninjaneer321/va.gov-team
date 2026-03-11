@@ -3,7 +3,7 @@
 **Date:** 2023-01-31  
 **Severity:** Low  
 **Status:** Resolved  
-**Incident Commander:**  
+**Reporter:**  
 **Authors:** Dave Kalbfled
 
 ---

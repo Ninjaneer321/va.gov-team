@@ -135,6 +135,8 @@ body:
       options:
         - "Individuals (Veterans, their caregivers, families, survivors, or representatives directly supporting a Veteran)"
         - "Organizations (e.g., VA employees, contractors, representatives working in an organizational capacity, etc.)"
+    validations:
+      required: true
   - type: dropdown
     id: visible-changes
     attributes:

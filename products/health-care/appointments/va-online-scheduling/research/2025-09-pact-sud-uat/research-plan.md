@@ -282,7 +282,7 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 > **Send pilot participant email in study Slack channel**
 
 - `Pilot participant name:` **Athena Bozak**
-- `Date and time of pilot session:` **3/10, 5:30pm PT** 
+- `Date and time of pilot session:` **3/10, 5:30pm ET** 
 
 
 ### Research sessions

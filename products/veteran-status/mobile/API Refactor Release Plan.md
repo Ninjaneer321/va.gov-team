@@ -30,13 +30,7 @@ List the feature toggles here.
   * VSC service failure rate: <1%
   * Confirmed % of VSC **(mobile)**: >87%
   * Confirmed % of VSC **(web)**: >75%
-  * Is there meaningful traffic around the Service Summary Codes? Y/N
-  * Ineligibility messages that are being populated are around the following percentages:
-    * ineligible_currently_serving_ssc: 15% - 25% range
-    * ineligibile_dishonorable_ssc: <1% range
-    * ineligible_edipi_no_pnl_ssc: <1%
-    * ineligible_error_ssc: 0.5% - 1.5% range
-    * ineligible_unknown_ssc: 75% - 85% range
+  * Is there data confirming that users received the ineligibility messages? Y/N
 * Who is monitoring the dashboard: Natalie Gibbons, Matt Guest, Michael Harmer, Megan Commons, Janet Van, and Jesse Berman.  
 
 ### **Stage A: Canary**
@@ -50,8 +44,10 @@ List the feature toggles here.
 
 * Number of unique users: \[FILL\_IN\]  
 * Metrics at this stage (per your "success criteria"):  
-  * Percentage of API errors: 
-  * Update once finalized  
+  * VSC service failure rate: <1%
+  * Confirmed % of VSC **(mobile)**: >87%
+  * Confirmed % of VSC **(web)**: >75%
+  * Is there data confirming that users received the ineligibility messages? Y/N
 * Was any downstream service affected by the change?:   
 * Types of errors logged:   
 * What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? 
@@ -67,8 +63,10 @@ List the feature toggles here.
 
 * Number of unique users: \[FILL\_IN\]  
 * Metrics at this stage (per your "success criteria"):  
-  * Percentage of API errors:
-  * Update once finalized  
+  * VSC service failure rate: <1%
+  * Confirmed % of VSC **(mobile)**: >87%
+  * Confirmed % of VSC **(web)**: >75%
+  * Is there data confirming that users received the ineligibility messages? Y/N
 * Was any downstream service affected by the change?:   
 * Types of errors logged:   
 * What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? 
@@ -84,8 +82,10 @@ List the feature toggles here.
 
 * Number of unique users: \[FILL\_IN\]  
 * Metrics at this stage (per your "success criteria"):  
-  * Percentage of API errors:
-  * Update once finalized  
+  * VSC service failure rate: <1%
+  * Confirmed % of VSC **(mobile)**: >87%
+  * Confirmed % of VSC **(web)**: >75%
+  * Is there data confirming that users received the ineligibility messages? Y/N
 * Was any downstream service affected by the change?:   
 * Types of errors logged:  
 * What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? 
@@ -101,8 +101,10 @@ List the feature toggles here.
 
 * Number of unique users: \[FILL\_IN\]  
 * Metrics at this stage (per your "success criteria"):  
-  * Percentage of API errors:
-  * Update once finalized  
+  * VSC service failure rate: <1%
+  * Confirmed % of VSC **(mobile)**: >87%
+  * Confirmed % of VSC **(web)**: >75%
+  * Is there data confirming that users received the ineligibility messages? Y/N
 * Was any downstream service affected by the change?:   
 * Types of errors logged:   
 * What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? 

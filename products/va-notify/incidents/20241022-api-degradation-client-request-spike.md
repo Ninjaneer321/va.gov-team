@@ -3,7 +3,7 @@
 **Date:** 2024-10-22  
 **Severity:** High  
 **Status:** Resolved  
-**Incident Commander:**  
+**Reporter:**  
 **Authors:** Kyle MacMillan
 
 ---

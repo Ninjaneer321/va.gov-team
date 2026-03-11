@@ -7,6 +7,7 @@
     "start": "node cc-intake.js"
   },
   "dependencies": {
+    "marked": "^17.0.4",
     "octokit": "^5.0.5"
   },
   "engines": {

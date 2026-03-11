@@ -110,7 +110,7 @@ tags:
 
 **Office of the CTO - Digital Experience (OCTO-DE), Accessibility Digital Experience (ADE)**
 
-**Date:** 03/04/2026
+**Date:** 03/10/2026
 
 **Contacts:** Cindy Merrill
 
@@ -281,11 +281,11 @@ Eight participants said they wanted to be able to delete a form they started but
 ### Finding 6: All participants who encountered an error while filling out the form were able to fix it themselves.
 6 of 7 participants encountered errors, some of which likely resulted because the participants were entering fake data (e.g., name, social security number) as instructed, in order to not share PII. Below are descriptions of some of the issues.
 
-1. Six of 7 participants didn't enter their name correctly in the **name field on the "Review and submit" page**. 4 people corrected the name by using what the error message said, one of whom was glad to see that (see quote below); someone else was annoyed that he couldn't copy/paste the name from the error message and had to retype it (see quote below). 2 people didn't notice the name within the error text and instead expanded the "Your personal information" accordion to see what they entered before. 
+1. Six of 7 participants didn't enter their name correctly in the **name field on the "Review and submit" page**. 4 people corrected the name by using what the error message said, one of whom was glad to see that (see quote below). Someone else was annoyed that he couldn't copy/paste the name from the error message and had to retype it (see quote from p8 below). 2 people didn't notice the name within the error text and instead expanded the "Your personal information" accordion to see what they entered before. 
 
     > p3 liked that the error told you what it the name was supposed to be: *"Great! Wish more forms did it that way" (p3).*
 
-    > p8 wanted to copy/paste the name in the error: *"It won't let me even copy that" (p8).*
+    > p8 (using TalkBack on an Android phone) wanted to copy/paste the name in the error: *"It won't let me even copy that" (p8).*
 1. A screen reader user entered the postal code and then a space in order to hear JAWS read it. This triggered an error because there was a space entered into that field and so too many characters. The participant said that they encounter this same issue on many forms, so they realized what the problem was and how to correct it.
 1. One participant entered "1-" at beginning of phone number, which resulted in an error because there were more than 10 digits.
 
@@ -412,7 +412,7 @@ Eight participants said they wanted to be able to delete a form they started but
 ## Recommendations   
 
 ### For the Design System and Forms team
-1. **Remove the interstitial page and consider adding something very short just above the Continue button on every page** (e.g., "Your information is being saved automatically"). Hopefully this will convey the message, but if some people miss it, maybe that's OK.
+1. **Do not roll out the interstitial page to forms. Instead, consider adding short text just above the Continue button on every page** (e.g., "Your information is being saved automatically"). Hopefully this will convey the message, but if some people miss it, maybe that's OK.
    - _Supporting evidence_: Most participants ignored the interstitial page when it came up or forgot what it said because it appeared as an interruption to their task of filling out a VA form and didn't seem relevant.  
 
 1. **Stop the automatic scrolling down when you open an accordion on the "Review and submit" page**. --> *Remove scrollToFocus from all accordions on the page*
@@ -421,8 +421,8 @@ Eight participants said they wanted to be able to delete a form they started but
 1. **Consider moving the accordion controls to the left side so as to increase visibility for screen magnifier users who may not see any controls on the right.** --> *Cindy shared this finding with Chandra Carney from the US Web Design System team on 2/17/2026.*
    - _Supporting evidence_: 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side, including the participant who was using a screen magnifier.
 
-1. **Consider prefilling the Veteran's name, address, and other information** after they've signed in. --> *Is this being worked on?*
-     - _Supporting evidence_: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. A participant in the previous round of usability testing had the same expectation.
+1. **Consider prefilling the Veteran's name, address, and other information** after they've signed in. --> *The Design System and Forms team is finalizing the Prefill component in the forms library so that all teams will be able to easily and automatically prefill in their forms. Existing forms will need some code refactoring.*
+     - _Supporting evidence_: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. A participant in the previous round of usability testing stated the same expectation.
 
 1. **Standardize whether the word "optional" will be always or never be shown**, and be consistent about it.
    - _Supporting evidence_: Some participants were confused about whether they needed to fill out fields that say neither "Required" nor "optional", such as "VA file number".

@@ -42,19 +42,20 @@ jobs:
           echo "✅ team-lookup.json found"
           echo "📊 Team count: $(ruby -rjson -e 'puts JSON.parse(File.read("team-lookup.json")).keys.size')"
 
-      - name: Update collaboration cycle template
+      - name: Update collaboration cycle templates
         run: |
-          echo "🔄 Updating collaboration cycle team dropdown"
+          echo "🔄 Updating collaboration cycle team dropdowns"
           ruby scripts/manifest/sync-collab-cycle-teams.rb team-lookup.json --verbose
+          ruby scripts/manifest/sync-collab-cycle-teams.rb team-lookup.json --verbose --template .github/ISSUE_TEMPLATE/collaboration-cycle-kickoff.yml
 
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff --quiet .github/ISSUE_TEMPLATE/collaboration-cycle-request.yml; then
-            echo "No changes to template"
+          if git diff --quiet .github/ISSUE_TEMPLATE/collaboration-cycle-request.yml .github/ISSUE_TEMPLATE/collaboration-cycle-kickoff.yml; then
+            echo "No changes to templates"
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
-            echo "Template updated"
+            echo "Templates updated"
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
 
@@ -64,10 +65,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add .github/ISSUE_TEMPLATE/collaboration-cycle-request.yml
-          git commit -m "chore: regenerate collaboration cycle template from team-lookup.json
+          git add .github/ISSUE_TEMPLATE/collaboration-cycle-request.yml .github/ISSUE_TEMPLATE/collaboration-cycle-kickoff.yml
+          git commit -m "chore: regenerate collaboration cycle templates from team-lookup.json
 
-          Automatically updated team dropdown with latest teams."
+          Automatically updated team dropdowns with latest teams."
 
           git push
 
@@ -80,7 +81,7 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: '✅ Collaboration cycle template automatically updated with latest teams from `team-lookup.json`'
+              body: '✅ Collaboration cycle templates automatically updated with latest teams from `team-lookup.json`'
             })
 
       - name: Comment on PR (no changes)
@@ -92,5 +93,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: 'ℹ️ No changes needed to collaboration cycle template (already up to date)'
+              body: 'ℹ️ No changes needed to collaboration cycle templates (already up to date)'
             })

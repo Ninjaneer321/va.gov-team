@@ -3,7 +3,7 @@
 **Date:** 2022-05-19 (noticed 2022-05-25)  
 **Severity:** Medium  
 **Status:** Resolved  
-**Incident Commander:** Dave  
+**Reporter:** Dave  
 **Authors:** Dave
 
 ---

@@ -137,31 +137,24 @@ Okay, now I will have you log in to your VA.gov account. Once you are logged in,
 Imagine that you want to schedule a primary care appointment. Use the screen to
 navigate and schedule that appointment. Please “think out loud” as you go and share anything you like or if anything is confusion. 
 
-**Reminder for moderator to stop the user after the Calendar page**
+**Reminder for moderator to let participants select a clinic, and stop them after the Calendar page**
 
-- (Optional) Possible probing questions:
+- Possible probing questions:
   - Why did you click there?
-  - What do you think about the information displayed on the clinics selection screen?
+  - What do you think about the information displayed on the clinics selection screen? If they pause and start questioning clinics on the page, let them talk and jump to 2nd follow-up question below. 
     
 **Follow-ups After Task Completion:**
-- On a scale of 1-5, 1 being very challenging and 5 being very easy, how did you
-find it to select a clinic for a primary care appointment, and why?
-- Does your primary care office have physician assistants or nurse practitioners
-available to meet?
-    - If yes - have you ever met with one of them?
 - Go back to the clinic selection page.
-  - How did you know which clinic to select?
-  - Do you recognize any clinics? If yes, what’s your experience with the
-clinic?
-  - How would you know which clinic is for a nurse practitioner vs. physician
-assistant vs. physician/medical doctor/MD?
   - What do you think about this page?
     - Do you like having a list of clinics to choose from? Why? Why not?
-      - If they say no and mention that the list is long or that they’re
-unsure which option to choose - Ask: How would you make
-this list easier to choose from?
-    - What do you think about the connection between clinics and types
-of care?
+      - If they say no and mention that the list is long or that they’re unsure which option to choose - Ask: How would you make this list easier to choose from?
+    - What do you think about the connection between clinics and types of care? _If confused, ask about a specific type of care and clinics to make it more concrete. For example, these clinics shown here for primary care, do you expect the same clinics show up if you were to select another type of care?_
+  - Do you recognize any clinics? If yes, what’s your experience with the clinic?
+  - How did you know which clinic to select?
+  - When you look at the clinic options here, is there any way for you to understand what type of provider you may see? E.g., NP, PA, MD? 
+- On a scale of 1-5, 1 being very challenging and 5 being very easy, how did you find it to select a clinic for a primary care appointment, and why?
+- Does your primary care office have physician assistants or nurse practitioners available to meet?
+    - If yes - have you ever met with one of them?
 
 > [!NOTE]
 > ### Things to watch for:
@@ -177,23 +170,22 @@ confusion?]
 Imagine that you want to schedule a social work appointment. UsUse the screen to
 navigate and schedule that appointment. Please “think out loud” as you go and share anything you like or if anything is confusion. 
 
-**Reminder for moderator to stop the user after the Calendar page**
+**Reminder for moderator to let participants select a clinic, and stop them after the Calendar page**
 
-- (Optional) Possible probing questions:
+- Possible probing questions:
   - Why did you click there?
-  - What do you think about the information displayed on the clinics selection screen?
- 
+  - What do you think about the information displayed on the clinics selection screen? If they pause and start questioning clinics on the page, let them talk and jump to 2nd follow-up question below. 
+    
 **Follow-ups After Task Completion:**
-- On a scale of 1-5, 1 being very challenging and 5 being very easy, how did you find it to schedule a social work appointment, and why?
 - Go back to the clinic selection page.
-  - How did you know which clinic to select?
-  - Do you recognize any clinics? If yes, what’s your experience with the
-clinic?
-  - How would you know which clinic is for a social worker?
   - What do you think about this page?
     - Do you like having a list of clinics to choose from? Why? Why not?
-    - What do you think about the connection between clinics and types
-of care?
+      - If they say no and mention that the list is long or that they’re unsure which option to choose - Ask: How would you make this list easier to choose from?
+    - What do you think about the connection between clinics and types of care? _If confused, ask about a specific type of care and clinics to make it more concrete. For example, these clinics shown here for primary care, do you expect the same clinics show up if you were to select another type of care?_
+  - Do you recognize any clinics? If yes, what’s your experience with the clinic?
+  - How did you know which clinic to select?
+  - When you look at the clinic options here, is there any way for you to understand what type of provider you may see? E.g., NP, PA, MD? 
+- On a scale of 1-5, 1 being very challenging and 5 being very easy, how did you find it to select a clinic for a social worker appointment, and why?
 
 > [!NOTE]
 > ### Things to watch for:
@@ -209,23 +201,24 @@ confusion?]
 Imagine that you want to schedule a pharmacy appointment. Use the screen to
 navigate and schedule that appointment. Please “think out loud” as you go and share anything you like or if anything is confusion. 
 
-**Reminder for moderator to stop the user after the Calendar page**
+**Reminder for moderator to let participants select a clinic, and stop them after the Calendar page**
 
-- (Optional) Possible probing questions:
+- Possible probing questions:
   - Why did you click there?
-  - What do you think about the information displayed on the clinics selection screen?
-
+  - What do you think about the information displayed on the clinics selection screen? If they pause and start questioning clinics on the page, let them talk and jump to 2nd follow-up question below. 
+    
 **Follow-ups After Task Completion:**
-- On a scale of 1-5, 1 being very challenging and 5 being very easy, how did you find it to schedule a pharmacy appointment, and why?
 - Go back to the clinic selection page.
-  - How did you know which clinic to select?
-  - Do you recognize any clinics? If yes, what’s your experience with the
-clinic?
-  - How would you know which clinic is for a pharmacist?
   - What do you think about this page?
     - Do you like having a list of clinics to choose from? Why? Why not?
-    - What do you think about the connection between clinics and types
-of care?
+      - If they say no and mention that the list is long or that they’re unsure which option to choose - Ask: How would you make this list easier to choose from?
+    - What do you think about the connection between clinics and types of care? _If confused, ask about a specific type of care and clinics to make it more concrete. For example, these clinics shown here for primary care, do you expect the same clinics show up if you were to select another type of care?_
+  - Do you recognize any clinics? If yes, what’s your experience with the clinic?
+  - How did you know which clinic to select?
+  - When you look at the clinic options here, is there any way for you to understand what type of provider you may see? E.g., NP, PA, MD? 
+- On a scale of 1-5, 1 being very challenging and 5 being very easy, how did you find it to select a clinic for a pharmacist appointment, and why?
+- Does your primary care office have physician assistants or nurse practitioners available to meet?
+    - If yes - have you ever met with one of them?
 
 > [!NOTE]
 > ### Things to watch for:
@@ -262,7 +255,9 @@ clinicians—including your primary care provider, nurse practitioner, physician
   - How do you imagine this team would fit into scheduling your appointments?
 
 What questions do you have about how your primary care team might change where or
-when you book care?
+when you book care? _If confused, give an example - if there is a provider outside of your dedicated care team who has availability sooner than one on your team. Would knowing that you have a team change you who pick? How might it affect scheduling habits? e.g., would you prioritize a PACT member over soonest available._
+
+
 
 ## Fourth Task: [Schedule a Mental Health Appointment] - 10 minutes
 
