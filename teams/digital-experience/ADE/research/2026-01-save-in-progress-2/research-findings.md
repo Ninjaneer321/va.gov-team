@@ -439,11 +439,11 @@ Eight participants said they wanted to be able to delete a form they started but
 
 ### *Not* directly related to research goals
 #### For the Design System and Forms team
-1. **Consider making the "Back to previous page" link easier to notice**. Perhaps check its font size and consider increasing it if it's smaller than other text on the page. Perhaps add a duplicate link to the bottom of the page.
+1. **Consider making the "Back to previous page" link easier to notice**. The current font size is smaller than it should be--16 pixels instead of 16.96. Also could consider adding a second "Back to previous page" link on the bottom of the page. --> *Fix the font size bug*. 
    - _Supporting evidence_: One non-AT participant said that they didn't notice this link at the top of the page because it was so small.  
 
 
-1. **Stop the automatic scrolling down when you open an accordion on the "Review and submit" page**. --> *Remove scrollToFocus from all accordions on the page*
+1. **Consider disabling the scrolling of accordions to the top of the viewport when you open an accordion on the "Review and submit" page**. --> *Remove scrollToFocus from all accordions on the page*
    - _Supporting evidence_: The scrolling is disorienting when focus lands on  content that isn't in the accordion (e.g., "Statement of truth" when you open the "Additional information" accordion) or scrolls so far that the accordion content is no longer in view when using a screen magnifier.  
 
 1. **Consider prefilling the Veteran's name, address, and other information** after they've signed in. --> *The Design System and Forms team is finalizing the Prefill component in the forms library so that all teams will be able to easily and automatically prefill in their forms. Existing forms will need some code refactoring.*
