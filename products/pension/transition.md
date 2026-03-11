@@ -11,6 +11,8 @@
 
 [Features and initiatives we worked on](#Features-and-initiatives-we-worked-on)
 
+[Design opportunities](##Design opportunities)
+
 [Our team, VA relationships, and stakeholder meeting cadence](#Our-team-2024/25-roster)
 
 ## Product context 
@@ -132,9 +134,58 @@ This table includes links to the individual feature directory and the latest ite
 |[Implemented “action needed” emails to alert Veterans of a claim failure](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1418?closed=1)|Nov 12, 2024|
 |[Updated annual net worth value from $155,356 to $159,240.](https://github.com/department-of-veterans-affairs/va.gov-team/issues/96647) It needs to be manually updated every year by November 30. Ticket to automate update is [here](https://github.com/department-of-veterans-affairs/va.gov-team/issues/96876).| Dec 2, 2024|
 |[Update 686/674 form to v3 components](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/form_updates/Initiative-Brief-686-674-Form-Updates.md)| Mar 2025|
-|User research on dependency verification tool prototype|Feb/Mar 2025| 
+|User research on dependency verification tool prototype|Feb/Mar 2025|
 
-### Collab Cycle Artifacts
+## Design opportunities
+This is a collection of notes on design work that we started and set aside for various reasons. It should help add context if picked up again.
+### Improving the unreimbursed care and medical expenses step
+
+#### Problem it solves  
+Applicants often don’t understand what medical expenses to report and end up estimating and/or reporting expenses that are not retroactively reimbursed, not considered recurring, and in many cases are not eligible for reimbursement. This is the #2 reason why claims go into development.
+#### What we did
+* 2024
+	* Conducted a [usability test](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2024%2002%20Pension%20Usability%20Evaluation/research-findings.md) of the pension form's MVP, documented findings related to this step
+* 2025
+	* Conducted [VSO research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/pension/research/2024-09%20527EZ%20VSO%20Research) to further understand pain points in the application process
+	* [Explored potential designs](https://www.figma.com/design/9JKK5Eo43uJWEr66JPiebc/WIP---21P-527EZ---Pension-Benefits?node-id=5699-15179) and language changes (before multiple page list-and-loop pattern was established)
+* 2026
+	* Reviewed historical artifacts and the digitized 8416 to propose recommendations
+#### Why it was stopped
+This work has historically been deprioritized for several reasons. The multiple page list-and-loop pattern was being formalized, our priorities shifted to digitizing the 0969 form, and the BIO Huntridge team took on digitizing the 8416, which is redundant to this step's requirements. 
+#### Next steps
+* Collaborate with C/IA to further define care expenses vs. medical expenses
+	* Evaluate Veterans' comprehension of this distinction
+* Apply the multiple page list-and-loop treatment to the step
+* Review our [design brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/design/unreimbursed-care-and-medical-expenses-brief.md) for more details and recommended enhancements
+### Embedding the 0969 in the pension form
+#### Problem it solves  
+Veterans don’t complete the required income and asset statement with their pension application, which leads to their claim going into development for additional evidence. This is the #3 reason why claims go into development.
+#### What we did
+* An audit to compare the 0969 form with the **Financial information** step in the pension application
+* Addressed and resolved questions with VBA for clarification
+* Met from the 526 team and the 1010-D team for their approaches to forms-within-forms and what they've learned from it
+* Identified features for an MVP and potential enhancements
+All of these notes are available in a [Mural board here](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1745620624724/70ee36c200a3b66b426c33aa189dcdcc5a4a0192?wid=0-1763522503702)  .
+#### Why it was stopped  
+We conducted discovery relatively recently and wanted to avoid partial design or implementation for this large initiative.
+#### Next step
+* Review our [design brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/embedded-0969-brief.md#design-brief--embedding-the-0969-into-the-527ez) and its recommended scope to define an MVP. This document includes both design enhancements and spikes to evaluate technical feasibility and approach.
+
+### Update marriage history list-and-loop
+
+#### Problem it solves  
+Similar to the unreimbursed medical expenses step, the step to report current and previous marriages is outdated. The VADS design system has since released a marriage history pattern.
+#### What we did
+* Reviewed the VADS marriage history pattern to ensure it was applicable and relevant to our use case
+* Developed [design specs](https://www.figma.com/design/9JKK5Eo43uJWEr66JPiebc/WIP---21P-527EZ---Pension-Benefits?node-id=14174-6517) to document new flows and pages, using the multiple page list-and-loop
+
+#### Why it was stopped
+Due to implementation 
+#### Next steps
+* Validate new content with C/IA and/or VBA (although nearly all of the content was taken from VADS, there are some questions that were not covered in the pattern)
+*  Implement flows according to design specifications
+
+## Collab Cycle Artifacts
 - [Dependent Verification](https://github.com/department-of-veterans-affairs/va.gov-team/issues/83353) | [Initiative Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/dependency_verification/initiative-brief-dependent-verification-tool.md) | [CAIA Request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/84170)
 - [Dependent form updates](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74059) | [Initiative Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/form_updates/Initiative-Brief-686-674-Form-Updates.md) | [CAIA Request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/75068)
 - [CAIA Request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/89314) for dependent card updates
