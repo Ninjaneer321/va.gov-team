@@ -113,11 +113,11 @@ The tool successfully drives the discovery of new, unknown benefits. All but 2 p
 * Participant 9 noted the tool helps younger veterans "see ourselves more in the veteran space" and realize they are eligible for benefits
 * Participant 16, a veteran mentor, said she would refer other veterans to the tool because it consolidates information she didn't know about previously
 - *Supporting data:* Participant 4 praised the tool for consolidating information, noting, "I didn't even know about some of these things. And I even worked at the veteran's office at my school".
-“I didn't even know about some of these things. And I worked… I even worked at the Veterans' office at my school. And I had no idea some of these things are out there." – P4
-"Oh, without a doubt, a 5. Very easy to use. Very user-friendly. I like the fact that it has multiple things that you can use to filter out certain things... It seems like you guys put a lot of thought and consideration into some of the different, benefits that you guys are putting on there." –P5
-"I want VA to know, like, I'm glad they're moving in a better direction. Everything is getting centralized. I would have loved this page. Like, it's way better than what we had before. Especially if all the benefits is on one page." –P6
-"It's so handy, and it's way better than having the 8,000 little pamphlets and flyers that we ended up with." –P18
-"I really like the language around this. Like, what goals do you want to accomplish? It sounds collaborative." “I'm literally sending it to my friend now." –P9
+- “I didn't even know about some of these things. And I worked… I even worked at the Veterans' office at my school. And I had no idea some of these things are out there." – P4
+- "Oh, without a doubt, a 5. Very easy to use. Very user-friendly. I like the fact that it has multiple things that you can use to filter out certain things... It seems like you guys put a lot of thought and consideration into some of the different, benefits that you guys are putting on there." –P5
+- "I want VA to know, like, I'm glad they're moving in a better direction. Everything is getting centralized. I would have loved this page. Like, it's way better than what we had before. Especially if all the benefits is on one page." –P6
+- "It's so handy, and it's way better than having the 8,000 little pamphlets and flyers that we ended up with." –P18
+- "I really like the language around this. Like, what goals do you want to accomplish? It sounds collaborative." “I'm literally sending it to my friend now." –P9
 
 ### 4. Significant accessibility barriers remain for screen magnification users
 * Filter placement is a barrier to mobile and screen magnification users finding the main benefit content of the page and impacted their ability to explore benefits  
