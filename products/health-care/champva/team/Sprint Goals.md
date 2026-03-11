@@ -3,8 +3,96 @@
 - Current Sprint first
 
 
+## 📆 Sprint 16 (Mar 11 - Mar 24) 
+- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
-## 📆 Sprint 14 (Feb 25 - Mar 10) 
+### Sprint Goals
+- [ ] **SPRINT GOAL** 10-10d: Deliver design recommendations for 10-10d Enhanced Flow
+  - [ ] [[UX] 10-10D: Mock Up Enhanced Application Flow](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135807)
+- [ ] **SPRINT GOAL** 10-7959a: DTA - Generate DTA information doc, assign attachment ids, and Begin QA
+  - [ ] [[FE] 10-7959a: Add custom events for Duty to Assist flow selections](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135931)
+  - [ ] [[FE] 10-7959A: Implement final Duty to Assist content updates](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135360)
+  - [ ] [[BE] 10-7959A: Generate PDF containing Duty to Assist (DTA) subflow information](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135469)
+  - [ ] [[BE] 10-7959a: Assign attachment id for Duty to Assist (DTA) submissions](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135471)
+  - [ ] [[QA] Duty to Assist Subflow: End-to-End Validation of Form Flow and Pega Ingest](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135475)
+- [ ] **SPRINT GOAL** 10-7959c: Complete first pass testing of VES/OHI integration SQA 
+  - [ ] [[BE] 10-7959c: Update VesRetryFailuresJob for form-type routing and reconstruction](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133985)
+  - [ ] [[BE] 10-7959c: Configure Staging Environment to Point to VES SQA to enable Integration Testing](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135256)
+  - [ ] [[BE] VES/OHI: End-to-end testing for OHI VES submission flow (SQA env)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133986)
+  - [ ] 
+
+
+
+
+##
+### 10-10d
+- [ ] **SPRINT GOAL** 10-10d: Deliver design recommendations for 10-10d Enhanced Flow
+  - [ ] [[UX] 10-10D: Mock Up Enhanced Application Flow](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135807)
+- [ ] **Other Planned Work** 
+  - [ ] [[Research] 10-10D: Finalize TRICARE Study Findings Presentation and Submit Design System Intake](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135920)
+  - [ ] [[FE] 10-10d: Update conditionals to collect certifier information in the appropriate chapter](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117675)
+  - [ ] [[FE] 10-10D: Enable RUM Recording for 10-10D v2 and address any PII issues](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135929)
+  - [ ] [[BE] 1010d: VES - Assign correct application_uuid](https://github.com/department-of-veterans-affairs/va.gov-team/issues/127379)
+  - [ ] [[UX]: 10-7959a: CHAMPVA claims resub fast-follows mocks](https://github.com/department-of-veterans-affairs/va.gov-team/issues/110247)
+  - [ ] [[BE] 10-10d: "USA" is not stamped in the proper fields in the generated PDF in PEGA](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131331)
+
+##
+### 10-7959a
+- [ ] **SPRINT GOAL** 10-7959a: DTA - Generate DTA information doc, assign attachment ids, and Begin QA
+  - [ ] [[FE] 10-7959a: Add custom events for Duty to Assist flow selections](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135931)
+  - [ ] [[FE] 10-7959A: Implement final Duty to Assist content updates](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135360)
+  - [ ] [[BE] 10-7959A: Generate PDF containing Duty to Assist (DTA) subflow information](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135469)
+  - [ ] [[BE] 10-7959a: Assign attachment id for Duty to Assist (DTA) submissions](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135471)
+  - [ ] [[QA] Duty to Assist Subflow: End-to-End Validation of Form Flow and Pega Ingest](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135475)
+- [ ] **Other Planned Work** 
+  - [ ] [[UX] 10-7959a: Add Effective Date and Termination Date fields to CHAMPVA Claims Figma](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135512)
+  - [ ] [[FE] 10-7959a: Additional Hide PII for CHAMPVA Claims in RUM Dashboard](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116567)
+  - [ ] [[BE] 10-7959a: Add custom Datadog tag for tracking Duty to Assist submissions](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135932)
+
+
+## 
+### 10-7959c
+- [ ] **SPRINT GOAL** 10-7959c: Complete first pass testing of VES/OHI integration SQA 
+
+- [ ] **Other Planned Work** 
+  -[ ] [[FE] 10-7959c: Enable RUM Recording in Staging with PII Protections](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116731)
+
+ 
+## 
+### 10-7959f-1 FMP Enrollment
+- No work this sprint
+
+
+##
+### 10-7959f-2 FMP Claims
+- No work this sprint
+     
+
+##
+### All forms or Tech Debt
+- [ ] **Other Planned Work**
+  - [ ] [[BE] Add additional logging to NotifyPegaMissingFormStatusJob and retest email sending](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135276)
+
+
+## 
+### STRETCH GOALS/UP NEXT
+- FE
+  - [ ] [[FE] 10-7959f-1: Enable RUM Recording in Staging with PII Protections](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116734)
+  - [ ] [[FE] 10-7959f-2: Enable RUM Recording in Staging with PII Protections](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135930)
+- BE
+  - [ ] [[BE] 10-10d/10-7959c - Form merge: Update applicant birth sex data structure](https://github.com/department-of-veterans-affairs/va.gov-team/issues/126921)
+  - [ ] [[BE] 10-10d: Spike - Plan to remove 10-10d v1](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131925)
+  - [ ] [[BE] 10-7959C: Generate and send VES JSON payload for OHI submissions to Pega](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135476)
+- UX
+  - [ ] [[UX] CHAMPVA Forms - Appeals Discovery](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131586)
+  
+
+##
+### Team PTO
+- Jessica 3.13
+
+
+## 📆 Sprint 15 (Feb 25 - Mar 10) 
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goals
