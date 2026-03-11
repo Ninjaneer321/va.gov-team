@@ -1,18 +1,9 @@
 # Warm-up Questions
 
-Before we look at the website, let’s start with a few warm-up questions.
-
 1. How often do you schedule healthcare appointments online?
 2. Can you tell us what your experience was like the last time you scheduled an
 appointment online?
 
-Today, we are going to have you go through several appointments scheduling scenarios. We will ask you to give your thoughts as you go.
-
-Please note, if you go all the way through, you will end up scheduling an appointment. So, unless you actually want that appointment, we will not have you actually click for the last step.
-
-Since the interview is about health care appointments, please know that your comfort is very important. If at any point you feel uncomfortable discussing something or completing a task, just let me know. We can pause or stop the session at any time.
-
-Okay, now I will have you log in to your VA.gov account. Once you are logged in, please share your screen. And please make sure that anything else you don’t want me to see is not up on your screen.
 
 ## First Task: [Schedule a primary care appoinment] 
 
@@ -151,7 +142,6 @@ health?
   - Possible probing questions:
     - Why did you click there?
     - What do you think about the information displayed on this screen?
-    -   **Reminder for moderator to stop the user at the sub type of care page**
 
 **Follow-up After Task Completion:**
 While on the sub-type page:
