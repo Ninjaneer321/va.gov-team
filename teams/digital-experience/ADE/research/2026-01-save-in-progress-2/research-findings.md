@@ -286,6 +286,8 @@ Eight participants said they wanted to be able to delete a form they started but
     > p3 liked that the error told you what it the name was supposed to be: *"Great! Wish more forms did it that way" (p3).*
 
     > p8 (using TalkBack on an Android phone) wanted to copy/paste the name in the error: *"It won't let me even copy that" (p8).*
+
+    (Upon further research we found that it is possible to copy/paste the error message text in TalkBack, but it will be the *entire* error message, *not* only the name part of it.)
 1. A screen reader user entered the postal code and then a space in order to hear JAWS read it. This triggered an error because there was a space entered into that field and so too many characters. The participant said that they encounter this same issue on many forms, so they realized what the problem was and how to correct it.
 1. One participant entered "1-" at beginning of phone number, which resulted in an error because there were more than 10 digits.
 
