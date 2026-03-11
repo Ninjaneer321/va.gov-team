@@ -1,5 +1,13 @@
 # CX App Pain Point Catalog
 
+## When & How to Update This Catalogue
+
+**Update this catalogue when new user feedback is received** from any of these sources: App Store and Google Play reviews, in-app surveys, platform surveys, retros, direct user feedback, quarterly app review analyses, and monthly research reports. 
+
+**When to update:** After each quarterly app review analysis; when monthly reports reveal recurring themes not yet captured; when retros or direct feedback surface new or escalating issues; and when significant product changes (e.g., new features, integrations) may affect existing pain points. Add new pain points, refresh evidence links, adjust severity/trending based on frequency, and note mitigations or status changes. Include a change log entry for any substantive updates.
+
+---
+
 ## Ranking Factors
 
 - **Severity:** High (user cannot accomplish main task or would do it wrong), Medium (can accomplish but with some confusion/workarounds/minor errors), Low (would be better user experience if pain point resolved)
@@ -16,6 +24,18 @@
 | 3 | As a Veteran who has medical travel I want reimbursement for, I want to easily find and submit travel pay in the app for all my eligible appointments, but I am blocked by it being difficult to find the travel pay area in the app. | Medium | Moderate negative feedback, less than sign-in issues | Subset of users (those with mileage eligible for reimbursement) | None (workaround exists via website) | [Mobile App Q3 Analysis](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/Quarterly%20User%20Research%20/Q3/Mobile%20App%20Q3%20Analysis.pdf) | Highlight travel pay on the home screen; conduct research with Veteran users to identify the most logical placement for travel pay | Planning research | 
 | 4 | As a Veteran who has medical appointments, I want to manage all appointment based tasks directly in the app, but am blocked by my inability to book or cancel appointments in the app. | Medium | Recurring in multiple monthly reports | Majority of users (those with VA medical appointments; exact % TBD) | None (available on website) | [Mobile App Q3 Analysis](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/Quarterly%20User%20Research%20/Q3/Mobile%20App%20Q3%20Analysis.pdf) | Build feature allowing users to make and cancel appointments within the app | Partially in progress — "Start Scheduling" button has been built and may be released, but is not yet live in the app. Will need to test if this sufficiently meets Veterans' needs | |
 | 5 | As a Veteran, I want to delete old secure messages so I can focus on new and relevant messages, but I am blocked by the app not providing me the ability to delete. | Low | Multiple monthly reports | Majority of users (not all app users use secure messaging) | None | [Mobile App Q3 Analysis](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/Quarterly%20User%20Research%20/Q3/Mobile%20App%20Q3%20Analysis.pdf) | Create functionality to delete messages; evaluate usage and whether this fully resolves user pain point | |
+| 6 | As a Veteran, I want to access my VA letters and documents (claims decision letters, payment history, disability letters) in the app, but I am blocked by letters being missing, payment history only loading for certain years, and incorrect dates on printed letters. | Medium | Emerging in Q4; ~15+ mentions across Oct–Dec 2025 | Subset of users (those who need letters/documents) | None (workaround exists via website) | [Q4 App Review Analysis](Q4-App-Review-Analysis.md) | Audit backend data loading for historical documents and payment records; correct date display on printed disability letters; ensure parity between app and VA.gov | New — Q4 2025 |
+| 7 | As a Veteran, I want to send a message to my provider, but I am blocked by my provider not appearing in the recipient list and difficulty locating the messaging feature in the app. | Medium | Recurring since Q3 (MHV list change); ~10+ mentions in Q4 | Subset of users (those who use secure messaging) | None | [Q4 App Review Analysis](Q4-App-Review-Analysis.md) [Mobile App Q3 Analysis](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/Quarterly%20User%20Research%20/Q3/Mobile%20App%20Q3%20Analysis.pdf) | Allow users to search or manually connect to needed providers; direct users to messaging from homepage; continue case analysis for messaging list issues | New — Q4 2025 |
+| 8 | As a Veteran, I want to clearly understand my prescription status (shipped, pending, available for refill), but I am blocked by confusing refill lists, unclear status labels, outdated pharmacy information, and lack of medication descriptions or prescribing doctor information. | Medium | Reported in Q4; prescriptions remain highest-rated feature but status clarity is a gap | Subset of users (those who refill prescriptions) | None | [Q4 App Review Analysis](Q4-App-Review-Analysis.md) | Enhance refill status visibility with clearer labels; add prescribing doctor and medication description where available; consider removing cancelled/expired medications from refill list | New — Q4 2025 |
+| 9 | As a Veteran, I want the app to work reliably after updates, but I am blocked by the app no longer working properly after updates, including crashes and extended loading times. | Medium | Small but impactful subset of Q4 reviews | Edge case / some users | None | [Q4 App Review Analysis](Q4-App-Review-Analysis.md) | Investigate post-update stability; improve error handling and loading states | New — Q4 2025 |
+
+---
+
+## Change Log
+
+| Date | Change |
+|------|--------|
+| March 2026 | Added pain points #6–9 from Q4 App Review Analysis: Letters/Documents Access, Messaging Provider Access, Prescription Status Clarity, App Errors/Crashes. Added "When & How to Update This Catalogue" quick guide. |
 
 ---
 
@@ -24,4 +44,5 @@
 - [ ] Work with engineering to pull specific metrics on percentage of users impacted for each pain point (appointments, secure messaging, travel pay, etc.)
 - [ ] Determine percentage of app users who use the app for healthcare vs. benefits only
 - [ ] (Pain point #4) Check with Binny / Appointments PO on the status of the "Start Scheduling" button and timeline for going live
+
 
