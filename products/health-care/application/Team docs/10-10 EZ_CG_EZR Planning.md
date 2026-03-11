@@ -226,6 +226,8 @@
      - [ ] Discuss process with VFMP team
 - [ ] EZ QA Standards alignment
 - [ ] EZR Improvements on Dependents section content
+- [ ] All Forms
+     - [ ]  Update playbook & create quick-reference doc
 
 ## 
 ### 10-10EZR
@@ -257,6 +259,11 @@
 ## 
 ### 10-10CG
 - No CG work scheduled
+
+##
+### All Forms
+#### Obj: [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
+- [ ] [#135970](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135970) - [Team] Create Quick-reference document & Update Playbooks
 
 ##
 ### Team PTO
