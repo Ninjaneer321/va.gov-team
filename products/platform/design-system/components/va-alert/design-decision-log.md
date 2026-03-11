@@ -15,15 +15,10 @@ messaging to users.
 
 ### Current differences
 
-  -----------------------------------------------------------------------
-  Component               Width Behavior          Other Props
-  ----------------------- ----------------------- -----------------------
-  Alert                   Width contrained to container, optional         
-                          `fullWidth` prop        
-
-  Banner                  Always full-width with  Does not support `slim`
-                          centered content        
-  -----------------------------------------------------------------------
+| Component | Width Behavior | Other Props |
+|-----------|---------------|-------------|
+| Alert | Default constrained width. Optional `fullWidth` prop. | Supports `slim` |
+| Banner | Always full-width with centered content. | Does not support `slim` |
 
 The **Banner component internally uses the Alert component** in the
 codebase.
@@ -122,6 +117,7 @@ primary full-width pattern.**
 -   Keeping the prop ensures compatibility and stability.
 -   Documentation and Storybook can clarify that **Banner is the
     preferred component for full-width messaging**.
+-   The Figma Alert component will not add a full-width property.
 
 ### Consequences
 
