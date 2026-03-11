@@ -321,5 +321,5 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 
 
 ## Approvals ✅
-- `Reviewed by [OCTO Product Owner, Kristen McConnell] on 08/06/2025`
+- `Reviewed by [OCTO Product Owner, Kristen McConnell] on 08/06/2025. Updated review and approvals by Kristen McConnell on 3/11/2026.`
 - `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`
