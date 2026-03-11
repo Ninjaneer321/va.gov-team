@@ -11,7 +11,7 @@
 
 [Features and initiatives we worked on](#Features-and-initiatives-we-worked-on)
 
-[Design opportunities](##Design opportunities)
+[Design opportunities](#design-opportunities)
 
 [Our team, VA relationships, and stakeholder meeting cadence](#Our-team-2024/25-roster)
 
