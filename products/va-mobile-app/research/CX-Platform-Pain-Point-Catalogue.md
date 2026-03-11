@@ -67,5 +67,3 @@ Use these factors to assess and rank each pain point when adding or updating ent
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | March 2026 | Added "When & How to Update This Catalog" quick guide. No new pain points from Q4 App Review Analysis (Q4 focuses on Veteran-facing app feedback; Platform catalog sources are internal platform users). |
 
-
- has access to tools and systems at any given time | |
