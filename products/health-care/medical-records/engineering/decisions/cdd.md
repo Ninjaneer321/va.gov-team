@@ -35,3 +35,13 @@ sequenceDiagram
 - We are not doing notifciations yet until we need to see it happen
 - Messing on the `Show Spinner` screen will let the users know its coming
 - We need to figure out a `max wait time` and a `timeout` for the user experience. We don't want to leave the user hanging for too long, but we also don't want to timeout too early if the job is still processing.
+
+## New vets-api endpoints
+
+- POST /v2/cdd/generate
+  - Request body: { veteran_id }
+  - Response: { task_id }
+- GET /v2/cdd/{task_id}
+  - Response: { status }
+- GET /v2/cdd/download/{task_id}
+  - Response: the file
