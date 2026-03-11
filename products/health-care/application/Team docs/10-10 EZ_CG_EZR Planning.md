@@ -209,7 +209,7 @@
 
 
 ---
-## 📆 Sprint 16 (Mar 11 - Mar 24) (PREPLANNED)
+## 📆 Sprint 16 (Mar 11 - Mar 24)
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
