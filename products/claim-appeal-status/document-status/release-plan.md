@@ -80,7 +80,7 @@ _Test a larger user population to ensure larger usage patterns expose no issues.
 - Percentage of Users: 50%
 
 #### Results
-Dates: 2/18/2026 - 3/3/2026 
+Dates: 2/18/2026 - 3/3/2026
 
 - Estimated number of users:
 
@@ -123,16 +123,38 @@ Start Date: 3/4/2026 @ 1000 EST
 Continue to check in on the KPIs of your feature at periodic intervals to ensure everything is working as expected. We recommend one-week and one-month check-ins, but this is only minimal.
 
 ### 1-week results
-Start Date: March
-- Estimated number of users: [FILL_IN]
-- Post-launch KPI - Error Rates:
-  - #index: [FILL_IN]
-  - #show: [FILL_IN]
-  - #files-we-couldnt-receive: [FILL_IN]
-- Any issues with VA handling/processing?: [PICK_ONE]: yes | no | N/A
-- Types of errors logged: [FILL_IN]
-- Any changes necessary based on the logs, feedback on user challenges, or VA challenges? [PICK_ONE]: yes | no | N/A
-- If yes, what: [FILL_IN]
+Dates: 3/4/2026 - 3/10/2026
+
+- Estimated number of users from [GA](https://analytics.google.com/analytics/web/#/analysis/a50123418p419143770/edit/SsCbWVy-RTuuMr0XNIXugw?restoreUserState=true):
+
+  - Status Tab: `/track-claims/your-claims/*/status`
+    - total: 222,733
+  - Files Tab: `/track-claims/your-claims/*/files`
+    - total: 97,128
+  - Files We Couldn't Receive: `/track-claims/your-claims/files-we-couldnt-receive`
+    - total: 11
+
+- Metrics at this stage (per your "success criteria"):
+  - Backend Metrics [Datadog](https://vagov.ddog-gov.com/dashboard/8me-h86-qmb/benefits-claim-status-tool-dashboard?fromUser=true&fullscreen_end_ts=1773201599999&fullscreen_paused=true&fullscreen_refresh_mode=paused&fullscreen_section=edit&fullscreen_start_ts=1772600400000&fullscreen_widget=567403049827625&refresh_mode=paused&from_ts=1772600400000&to_ts=1773201599999&live=false):
+    - No related errors logged for these endpoints
+    - #index:
+      - 4 week avg before launch: 0.336%
+      - Since start of stage: 0.104%
+    - #show:
+      - 4 week avg before launch: 1.2325%
+      - Since start of stage: 1.323%
+    - #files-we-couldnt-receive:
+      - No errors
+  - Frontend Metrics [Datadog](https://vagov.ddog-gov.com/rum/performance-monitoring?query=%40application.id%3A75bb17aa-34f0-4366-b196-eb11eda75425%20%40session.type%3Auser%20env%3Aproduction%20%40view.name%3A%28%2Ftrack-claims%2Fappeals%2F%3F%2Fstatus%20OR%20%2Ftrack-claims%2Fyour-claims%2F%3F%2Ffiles%29&agg_m=%40view.loading_time&fromUser=true&from_ts=1772600400000&to_ts=1773201599999&live=false):
+    - No performance issues (the increases in time also line up with our release of the content migration):
+      - Loading times comparable to weeks prior and still < 3s goal
+      - LCP/FCP comparable from last stage
+- Was any downstream service affected by the change?:
+  - No
+- Types of errors logged:
+  - Some Datadog issues, maybe due to outage and 429s from vets-api. However, the polling and updating from lighthouse  is designed in such a way that the system degrades gracefully. No user-facing failures, just temporary stale data regarding upload statuses that resolve on the next page load or via the hourly cron job.
+- What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges?
+  - None identified
 
 ### 1-month results
 

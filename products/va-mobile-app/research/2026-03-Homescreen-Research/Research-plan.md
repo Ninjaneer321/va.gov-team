@@ -69,7 +69,7 @@ recruitment:
     - "At least 3, rural"
     - "At least 3, identifies as gender other than male"
     - "At least 6, identifies as other than white/Caucasian"
-
+    - "At least 3, no degree"
   screener_questions:
     - question: "Which device(s) would you use to join the research session?"
       qualifying_response: "Mobile phone – Android, Mobile phone – iPhone, Tablet – Android, or Tablet – iPad"
@@ -429,7 +429,8 @@ During the session:
 - `At least 5, self-reported cognitive disability`
 - `At least 3, rural`
 -` At least 3, identifies as gender other than male`
-- `At least 6, identifies as other than white/Caucasian` 
+- `At least 6, identifies as other than white/Caucasian`
+- `At least 3, no degree`
 
 ## Screener Questions 📋
 
