@@ -36,7 +36,7 @@ consent_for_clips: true
 > 
 > Use the [GitHub Copilot Conversation Guide Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/conversation-guide-frontmatter-completion-prompt.md) to automatically generate structured metadata from your completed conversation guide.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags based on your tasks and research objectives. This ensures consistency and completeness across all research documentation.
 
-# Conversation Guide for [initiative]
+# Conversation Guide for VA Health & Benefits App Homescreen Research
 
 ## Moderator logistics 📋✅
 ### 2-3 days before the session
