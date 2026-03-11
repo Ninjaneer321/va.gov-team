@@ -3,7 +3,7 @@
 **Date:** 2022-06-17 (began); 2022-06-22 (discovered and resolved)  
 **Severity:** High  
 **Status:** Resolved  
-**Incident Commander:** _[TBD]_  
+**Reporter:** _[TBD]_  
 **Authors:** _[TBD]_
 
 ---

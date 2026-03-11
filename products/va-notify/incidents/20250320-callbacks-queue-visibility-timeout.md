@@ -3,7 +3,7 @@
 **Date:** 2025-03-20 to 2025-03-24  
 **Severity:** _[TBD]_  
 **Status:** Resolved  
-**Incident Commander:** _[TBD]_  
+**Reporter:** _[TBD]_  
 **Authors:** _[TBD]_
 
 ---

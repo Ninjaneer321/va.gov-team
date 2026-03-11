@@ -41,6 +41,7 @@ This folder contains incident reports and postmortems for the VA Notify platform
 | July 2022 | [VEText reverse proxy token overwrite](./20220713-vetext-reverse-proxy-token-overwrite.md) — SSM token overwritten during portal deploy; inbound VEText routing blocked | TBD | Resolved |
 | June 2022 | [VEText reverse proxy SSM token overwrite (Check-in Experience)](./20220622-vetext-reverse-proxy-ssm-token-overwrite.md) — SSM token overwritten during deployment; Check-in Experience texts not reaching VEText on Staging and Production | TBD | Resolved |
 | June 2022 | [Amazon Pinpoint SMS spend limit reached](./20220617-pinpoint-sms-spend-limit.md) — Monthly spending limit exceeded; all SMS sends blocked for ~5 days | High | Resolved |
+| June 2022 | [Self Service UI template preview issues](./20220615-self-service-ui-template-preview.md) — Broken template preview, error flashing, typo, and incorrect Sample Template link on Staging | Low | Resolved |
 | May 2022 | [MPI certificate renewal broke Staging integration](./20220519-mpi-certificate-renewal.md) — MPI renewed certificates without notice; Staging testing blocked for ~1 week | Medium | Resolved |
 | May 2022 | [Self Service UI login white page](./20220510-self-service-ui-login-white-page.md) — Users unable to proceed after GitHub SSO login | TBD | Resolved |
 
@@ -70,7 +71,7 @@ Use the [incident report template](#incident-report-template) below.
 **Date:** YYYY-MM-DD  
 **Severity:** Critical / High / Medium / Low  
 **Status:** Open / Resolved  
-**Incident Commander:**  
+**Reporter:**  
 **Authors:**  
 
 ---

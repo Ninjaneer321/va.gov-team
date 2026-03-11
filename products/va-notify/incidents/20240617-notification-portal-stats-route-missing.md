@@ -3,7 +3,7 @@
 **Date:** 2024-06-17  
 **Severity:** _[TBD]_  
 **Status:** Resolved  
-**Incident Commander:** _[TBD]_  
+**Reporter:** _[TBD]_  
 **Authors:** _[TBD]_
 
 ---
