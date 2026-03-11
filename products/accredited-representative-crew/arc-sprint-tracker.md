@@ -35,7 +35,7 @@ Carrying into Sprint 11: 23 tickets, 86 points + 2 spikes
 
 ## Sprint 12 Goals
 
-- [ ] Sprint Goals Approved by Enablement
+- [x] Sprint Goals Approved by Enablement - Jen Bertsch on March 11, 2026 ([Slack conversation](https://dsva.slack.com/archives/C06GE5N7QJ0/p1773263330468539?thread_ts=1773244969.164669&cid=C06GE5N7QJ0)) 
 
 **Team Accreditation**
 * [ARP Post-MVP] Enable Individual Acceptance of Representation Requests
@@ -211,7 +211,7 @@ TBD
 
 ## Sprint 11 Goals
 
-- [ ] Sprint Goals Approved by Enablement
+- [x] Sprint Goals Approved by Enablement - Jen Bertsch on March 10, 2026 ([Slack conversation](https://dsva.slack.com/archives/C06GE5N7QJ0/p1773185683114359?thread_ts=1772031608.589139&cid=C06GE5N7QJ0)) 
 
 **Team Accreditation**
 
@@ -295,7 +295,7 @@ TBD
 
 ## Sprint 11 Delivery
 
-- [ ] Sprint Delivery Approved by Enablement
+- [x] Sprint Delivery Approved by Enablement - Jen Bertsch on March 11, 2026 ([Slack conversation](https://dsva.slack.com/archives/C06GE5N7QJ0/p1773263330468539?thread_ts=1773244969.164669&cid=C06GE5N7QJ0)) 
 
 Total Completed in Sprint 11: 57 tickets, 154 points + 5 spikes\
 Active Teammates in Sprint 11: 22 active teammates \
