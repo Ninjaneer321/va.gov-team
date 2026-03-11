@@ -120,14 +120,18 @@ View mock ups [in this Figma file](https://www.figma.com/design/gGU9oX4QVqbYdxzX
 
 **Communications**
 <details>
+   
 - Team Name: MHV Medical Records  
 - GitHub Label(s): TEAM-mhv-medical-records
 - Slack channel:  #mhv-medical-records-team 
-- Product POCs: Marci McGuire 
+- Product POCs: Marci McGuire
+  
 </details>
 
 **Stakeholders**
 <details>
+   
 - Office/Department: VHA OCC
 - Contact(s): Bresha Lipscomb
+  
 </details>
