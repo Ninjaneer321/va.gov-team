@@ -264,9 +264,6 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 
 
 ## Timeline 🗓️
-> [!NOTE]
-> **Please submit artifacts for [Research Review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Research-review.1781891143.html) 8-9 days prior to the first planned research day for remote studies so Perigean can begin recruiting one week prior. Perigean requires 2+ weeks for in-person.** 
-
 
 ### Kick-off Call with Perigean
 
@@ -276,10 +273,6 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 
 
 ### Prepare
-
-**A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.** 
-> [!NOTE]
-> **Send pilot participant email in study Slack channel**
 
 - `Pilot participant name:` **Athena Bozak**
 - `Date and time of pilot session:` **3/10, 5:30pm ET** 
