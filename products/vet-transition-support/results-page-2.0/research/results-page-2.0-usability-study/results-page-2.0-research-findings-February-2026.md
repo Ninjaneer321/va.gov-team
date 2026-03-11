@@ -15,7 +15,7 @@
 - [Research participants](#user-content-research-participants)
 
 ## Research Goals
-The Discover Your Benefits tool aims to consolidate complex VA benefit information into an intuitive, personalized discovery experience for Veterans and transitioning service members. The goals of this study were to evaluate Version 3 of the unauthenticated prototype, specifically testing:
+The [Discover Your Benefits tool](https://www.va.gov/discover-your-benefits/introduction) aims to consolidate complex VA benefit information into an intuitive, personalized discovery experience for Veterans and transitioning service members. The goals of this study were to evaluate Version 3 of the unauthenticated prototype, specifically testing:
 - If design changes help users accomplish their goals of discovering, exploring, and understanding relevant benefits.
 - The usability and accessibility of redesigned filters, sorting mechanisms, and benefit cards.
 - Comprehension of time sensitivity, recommendation status, and eligibility framing.
@@ -108,16 +108,16 @@ While this was not a common response in this study, we confirmed the insight fro
 * Participants rated their experience 4.3 out of 5  
 
 The tool successfully drives the discovery of new, unknown benefits. All but 2 participants (both of whom work with Veterans benefits professionally) discovered a benefit they were unaware of during the session
-* Participant 15, who is blind, discovered the Specially Adapted Housing (SAH) grant through the tool,
-* Participant 16 found the foreign medical program interesting and relevant for other veterans she knows
-* Participant 9 noted the tool helps younger veterans "see ourselves more in the veteran space" and realize they are eligible for benefits
-* Participant 16, a veteran mentor, said she would refer other veterans to the tool because it consolidates information she didn't know about previously
-- *Supporting data:* Participant 4 praised the tool for consolidating information, noting, "I didn't even know about some of these things. And I even worked at the veteran's office at my school".
-“I didn't even know about some of these things. And I worked… I even worked at the Veterans' office at my school. And I had no idea some of these things are out there." – P4
-"Oh, without a doubt, a 5. Very easy to use. Very user-friendly. I like the fact that it has multiple things that you can use to filter out certain things... It seems like you guys put a lot of thought and consideration into some of the different, benefits that you guys are putting on there." –P5
-"I want VA to know, like, I'm glad they're moving in a better direction. Everything is getting centralized. I would have loved this page. Like, it's way better than what we had before. Especially if all the benefits is on one page." –P6
-"It's so handy, and it's way better than having the 8,000 little pamphlets and flyers that we ended up with." –P18
-"I really like the language around this. Like, what goals do you want to accomplish? It sounds collaborative." “I'm literally sending it to my friend now." –P9
+- *Supporting data:* Participant 15, who is blind, discovered the Specially Adapted Housing (SAH) grant through the tool,
+- *Supporting data:* Participant 9 noted the tool helps younger veterans "see ourselves more in the veteran space" and realize they are eligible for benefits
+- *Supporting data:* Participant 16, a veteran mentor, said she would refer other veterans to the tool because it consolidates information she didn't know about previously
+
+#### Participant quotes
+- “I didn't even know about some of these things. And I worked… I even worked at the Veterans' office at my school. And I had no idea some of these things are out there." – P4
+- "Oh, without a doubt, a 5. Very easy to use. Very user-friendly. I like the fact that it has multiple things that you can use to filter out certain things... It seems like you guys put a lot of thought and consideration into some of the different, benefits that you guys are putting on there." –P5
+- "I want VA to know, like, I'm glad they're moving in a better direction. Everything is getting centralized. I would have loved this page. Like, it's way better than what we had before. Especially if all the benefits is on one page." –P6
+- "It's so handy, and it's way better than having the 8,000 little pamphlets and flyers that we ended up with." –P18
+- "I really like the language around this. Like, what goals do you want to accomplish? It sounds collaborative." “I'm literally sending it to my friend now." –P9
 
 ### 4. Significant accessibility barriers remain for screen magnification users
 * Filter placement is a barrier to mobile and screen magnification users finding the main benefit content of the page and impacted their ability to explore benefits  
@@ -131,14 +131,14 @@ Users relying on screen magnification software encountered blocking errors and h
 While some users initially looked for an "Apply" button, they ultimately validated the design decision to use "Learn More" links that offer summaries of complex benefits.
 - *Supporting data:* Participant 2 stated, "y'all made the right call to click on the Learn More... apply is a big step forward, you know? But I'm going in... kind of blind... And if this just goes to apply, I may feel, again, overwhelmed".
 - *Supporting data:* Participant 6 admitted he initially looked for an apply button, but conceded that after using the tool, "you'll know exactly what the Learn More button does".
-Participant 9 said that because benefits like the GI Bill are complex, a general description page is necessary
+- *Supporting data:* Participant 9 said that because benefits like the GI Bill are complex, a general description page is necessary
 
 ### 6. Users expressed a strong desire for more prominent dependent and family benefit information
 * Participants expect to see benefits for family members and dependents, which they felt was currently lacking or hard to find.
 * They were not expecting the tool to be for dependents, but they expect to see benefits they could use or apply for to help their dependents like spouse eligibility for DOL’s vocational training.
-* Participant 2 said there needs to be text that "screams dependents" because taking care of family is a priority
-* Participant 16 expected to see benefits for her daughter, such as CHAMPVA or the caregiver program, under the "plan for my family's future" goal
-* Participant 9 suggested adding a filter or category specifically for children or dependents
+- *Supporting data:* * Participant 2 said there needs to be text that "screams dependents" because taking care of family is a priority
+- *Supporting data:* * Participant 16 expected to see benefits for her daughter, such as CHAMPVA or the caregiver program, under the "plan for my family's future" goal
+- *Supporting data:* * Participant 9 suggested adding a filter or category specifically for children or dependents
 
 ### 7. This study strengthened our previous study’s findings about wanting to save and return to results. These findings are informing our current work on an authenticated experience MVP.
 
@@ -195,10 +195,10 @@ This research highlights critical failure points for this KPI. By identifying bl
 ## Appendix
 
 ### Research documents
-- [Product Outline]
-- [Research plan]
-- [Conversation guide]
-- [Interview transcripts]
+- [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/vet-transition-support/results-page-2.0/research/results-page-2.0-usability-study/session-notes)
+- [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vet-transition-support/results-page-2.0/research/results-page-2.0-usability-study/results-page-2.0-conversation-guide.md)
+- [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vet-transition-support/results-page-2.0/research/results-page-2.0-usability-study/results-page-2.0-conversation-guide.md)
+- [Interview transcripts](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/vet-transition-support/results-page-2.0/research/results-page-2.0-usability-study/session-notes)
 
 ### Tools used for Synthesis
 - Spreadsheet Synthesis
@@ -226,7 +226,7 @@ Gender:
 * Female: 4
 * LGBTQ+: (Not explicitly tracked in provided data, defaulting to 0)
 * Transgender: 0
-* Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: 0
+* Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: Unknown
 * Gay, lesbian, or bisexual: 0
 * Prefer not to answer: 1
 
