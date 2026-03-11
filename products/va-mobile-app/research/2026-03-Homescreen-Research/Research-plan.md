@@ -378,21 +378,21 @@ During the session:
 *What demographics, experience, and scenarios do you need participants to meet to effectively run your study?* 
 
 **All participants must:**
-- Be on a mobile device or tablet (recruit mix of device types)
-- During the session, be willing to share a web browser window on their device
-- Have a working microphone
-- Have Zoom downloaded to their device prior to the session and know how to share their screen
-- Have used the VA Health and Benefits app at least once in the last year
-- Have a service-related disability rating of at least 10%
+- `Be on a mobile device or tablet (recruit mix of device types)`
+- `During the session, be willing to share a web browser window on their device`
+- `Have a working microphone`
+- `Have Zoom downloaded to their device prior to the session and know how to share their screen`
+- `Have used the VA Health and Benefits app at least once in the last year`
+- `Have a service-related disability rating of at least 10%`
 
 #### Secondary criteria (nice-to-haves)
 *What criteria would strengthen your results?* 
 
-- 'At least 4, age 55 or older'
-- At least 3, self-reported cognitive disability
-- At least 3, rural
-- At least 1, identifies as woman
-- At least 5, identifies as Black or African American, Hispanic or Latino, Asian, or Biracial
+- `At least 4, age 55 or older`
+- `At least 3, self-reported cognitive disability`
+- `At least 3, rural`
+-` At least 1, identifies as woman`
+- `At least 5, identifies as Black or African American, Hispanic or Latino, Asian, or Biracial`
 
 
 ## Screener Questions 📋
@@ -426,8 +426,8 @@ During the session:
 - I don't know my rating: Disqualify
 
 **4. Do you find it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these.** (Recruit mix)
--Yes: Qualify; Recruit at least 3
--No: Qualify
+- Yes: Qualify; Recruit at least 3
+- No: Qualify
 
 
 ## Timeline 🗓️
@@ -454,19 +454,14 @@ During the session:
 - `Planned dates of research:` **03/30-04/03**
 
 ### Length of sessions
-- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **60 minutes**
+- `Session length:` **60 minutes**
   
-- `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **30 minutes**
+- `Buffer time between sessions:` **30 minutes**
   
-- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **4**
+- `Maximum Sessions per day:` **4**
 
 ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
-- 03/30/26, Monday, 11:00am-noon, 1pm-6:00pm EST
-- 03/31/26, Tuesday, 11:00am-1:30pm, 2:30pm-6:00pm EST
-- 04/01/26, Wednesday, 11:00am-1:30pm, 2:30pm-6:00pm EST
-- 04/02/26, Thursday, noon-6:00pm EST
-- 04/03/26, Friday, 11:00am-noon, 2:00pm-6:00pm EST
 
 > [!NOTE]
 > We recommend providing availability outside of work hours, as many Veterans are only available before and after working times, and live across the U.S. 
@@ -476,12 +471,16 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 >
 > **Place time slots between `hash marks` when in edit mode.**
 
-- `03/30, Monday, 11:00 AM-12:00 PM, 1:00 PM-6:00 PM EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `Add more slots as needed`
+- `03/30, Monday, 11:00 AM-12:00 PM EST`
+- `03/30, Monday, 1:00 PM-6:00 PM EST`
+- `03/31, Tuesday, 11:00 AM-1:30 PM EST`
+- `03/31, Tuesday, 2:30 PM-6:00 PM EST`
+- `04/01, Wednesday, 11:00 AM-1:30 PM EST`
+- `04/01, Wednesday, 2:30 PM-6:00 PM EST`
+- `04/02, Thursday, 12:00 PM-6:00 PM EST`
+- `04/03, Friday, 11:00 AM-12:00 PM EST`
+- `04/03, Friday, 2:00 PM-6:00PM EST`
+
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
