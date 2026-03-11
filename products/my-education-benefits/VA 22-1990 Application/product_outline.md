@@ -4,7 +4,7 @@
 
 ## Overview
 
-Streamlining the Veteran experience by expanding the capability of the My Education Benefits VA 22-1990 online education application to allow beneficiaries who may be eligible for multiple benefits to be informed of their eligibility details in real time and apply for them online. 
+Streamlining the Veteran experience by expanding the capability of the My Education Benefits VA 22-1990 online education application. Updated functionality will allow beneficiaries who may be eligible for multiple benefits to be informed of their eligibility details in real time and apply for them online. 
 
 ## Problem Statement
 
