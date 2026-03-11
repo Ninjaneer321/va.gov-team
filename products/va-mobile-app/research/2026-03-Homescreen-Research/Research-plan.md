@@ -1,5 +1,145 @@
 ---
 # Research Plan Metadata
+title: "Research Plan for VA Mobile App Homescreen Redesign, March 2026"
+date: 2026-03-11
+last_updated: 2026-03-11
+team: "VA Mobile App (Core Mobile)"
+product: "VA Health and Benefits Mobile App"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "VA Health and Benefits Mobile App has limited real estate on the homescreen. The team seeks to understand whether planned homescreen design concepts align with Veterans' expectations and priorities and successfully help Veterans access key information and complete important tasks."
+  product_location: "VA Health and Benefits Mobile App (authenticated experience)"
+  user_familiarity: "Iteration on existing product that Veterans currently use"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va-mobile-app/issues/11464"
+
+# Research Design
+methodology: "Remote moderated usability testing with Figma prototype"
+research_format:
+  location: remote
+  moderated: true
+
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand users' expectations for homescreen content and navigation"
+  - goal_2: "Understand how users interpret and use new design concept's homescreen content and capabilities"
+
+research_questions:
+  - "What content do users expect to find on the homescreen?"
+  - "Where do users expect to find their Veteran status card, disability rating and payments, and dependents verification?"
+  - "Do users expect due dates for some or all 'Action required' items?"
+  - "What level of detail do users need for homescreen content so that they can take action and complete tasks?"
+  - "Do users notice, understand, and take action on items in 'Action required' and 'Activity' sections?"
+  - "When tasks are surfaced on the homescreen, how do users want and expect to complete them?"
+  - "Does homescreen information architecture affect how users prioritize items and tasks?"
+  - "When provided with the opportunity to complete tasks such as paying copay and refilling prescription without leaving the homescreen, do users understand what to do and choose to do that instead of navigating away?"
+
+hypotheses:
+  - "Users will expect to find new content such as new Secure messages and items requiring their review and action on the homescreen."
+  - "Users very familiar with the app will expect to find Veteran status card, dependents, and disability rating and payments on the homescreen as reflects the current live app layout."
+  - "Users less familiar with the app will expect to find Veteran status card and dependents verification in Profile."
+  - "Users less familiar with the app will expect to find disability payments and rating in Profile or in Payments."
+  - "Users will sometimes want more information than is presented on homescreen to help them with some tasks such as managing prescriptions, due dates for Action required items, or for appointments prep."
+  - "Users will notice and give more weight to 'Action required' items because of the label and design styling of the section."
+  - "Users will be able to describe in their own words what the 'Action required' section is for."
+  - "Users will want to take action on both 'Action required' items and 'Activity' items that usually are of top concern to Veterans such as new appointment information, prescription updates, travel pay."
+  - "Users may not be able to articulate exactly what kind of items belong in the 'Activity' section."
+  - "Users will want to complete tasks directly from the homescreen when possible."
+  - "Users will expect to be able to complete tasks directly from the homescreen when there is a call to action button associated with the item such as 'Pay copay' for a medical copayment."
+
+expected_outcomes: "We plan to incorporate insights to guide design decisions for homescreen and related actions so that we evolve current design concepts based on Veterans' needs and expectations. Insights will impact design refinements and influence future feature prioritization for homescreen functionality."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Lean maximum variation"
+
+  primary_criteria:
+    - "Be on a mobile device or tablet (recruit mix of device types)"
+    - "During the session, be willing to share a web browser window on their device"
+    - "Have a working microphone"
+    - "Have Zoom downloaded to their device prior to the session and know how to share their screen"
+    - "Have used the VA Health and Benefits app at least once in the last year"
+    - "Have a service-related disability rating of at least 10%"
+
+  secondary_criteria:
+    - "At least 5, age 55 or older"
+    - "At least 5, self-reported cognitive disability"
+    - "At least 3, rural"
+    - "At least 3, identifies as gender other than male"
+    - "At least 6, identifies as other than white/Caucasian"
+
+  screener_questions:
+    - question: "Which device(s) would you use to join the research session?"
+      qualifying_response: "Mobile phone – Android, Mobile phone – iPhone, Tablet – Android, or Tablet – iPad"
+    - question: "How often did you use the Veterans Affairs Health and Benefits App on your smartphone or tablet in the past year?"
+      qualifying_response: "I used it rarely, I used it at least once a month, or I used it at least once a week"
+    - question: "What is your service-related disability rating?"
+      qualifying_response: "10% or higher"
+    - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
+      qualifying_response: "Yes (qualify and recruit at least 3) or No (qualify)"
+
+participants:
+  veterans: 14
+  caregivers: 0
+  dependents: 0
+  total_recruited: 14
+  completed_sessions_goal: 9
+
+# Timeline & Sessions
+timeline:
+  pilot_sessions:
+    - date: "2026-03-17"
+      participant: "Matthew Sweeney"
+  
+  research_dates: "2026-03-30 to 2026-04-03"
+  research_review_submission: "TBD (recommend 8-9 days before research start)"
+
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+
+# Strategic Alignment
+octo_priorities:
+  - objective: "Objective 1: Optimize software delivery for Veteran impact"
+    key_results:
+      - "Delivered 25 or more releases that have measurably improved a product's Veteran-impacting KPIs (Supports a production release that will measurably improve a product's Veteran-impacting KPIs)"
+  - objective: "Objective 3: Relentlessly improve the user experience"
+    key_results:
+      - "Key Result 3.1: Each OIT portfolio will improve customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more"
+      - "Key Result 3.3: 100% of C-100 systems have delivered at least one release that directly addresses a documented user pain point with that system"
+
+veteran_journey_phases:
+  - "Taking Care of Myself"
+
+# Research Repository Tracking
+related_research:
+  previous_studies:
+    - "Personalized Home Screen Evaluative Research, April 2024 - https://github.com/department-of-veterans-affairs/va.gov-team/blob/35af580d97e75798e00779173cdd133e18870dd0/products/va-mobile-app/research/[research-plan-link]"
+    - "VA Mobile App Information Architecture & Navigation: Evaluative Research - Usability Study, August 2022 - https://github.com/department-of-veterans-affairs/va.gov-team/blob/35af580d97e[research-plan-link]"
+
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "BNFT: Finances"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "PRDT: VA-Mobile-App"
+  - "DSP: Content Presentation"
+  - "DSP: Help users to navigate a long list"
+  - "usability-testing"
+  - "moderated-research"
+  - "mobile-research"
+  - "information-architecture"
+  - "navigation-design"
+  - "homescreen-design"
+  - "prototype-testing"
+---
+
+# Research Plan Metadata
 title: "Research Plan for [Team, Product, Date]"
 date: YYYY-MM-DD
 last_updated: YYYY-MM-DD
