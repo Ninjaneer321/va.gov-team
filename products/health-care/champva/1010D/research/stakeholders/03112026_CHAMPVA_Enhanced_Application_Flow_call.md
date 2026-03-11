@@ -33,8 +33,8 @@
 * Insurance card scenario:
     * It's dependent on matching back to the original OHI submission. If it doesn't match back to the OG submission, it creates duplicate work for the OHI team.
     * I don't think we do sendbacks for missing a health insurance card
-    * Andrea asks if OHI issues prevent a user from enrolling (SMEs confirm that's the case)
-    * When we receive an application there's the checkbox that asks about health insurance. If they say they don't health insurance, no action on the business end. If they check that box but submit nothing, they receive a CCL and OHI at the time of enrollment. 
+    * Andrea asks if OHI issues prevent a user from enrolling (SMEs confirm that's not the case - enrollment goes through)
+         * When we receive an application there's the checkbox that asks about health insurance. If they say they don't health insurance, no action on the business end. If they check that box but submit nothing, they receive a CCL and OHI at the time of enrollment. 
 * **Decision:** Katrina and Andrea agree on updating the CCLs:
     * OHI CCL should point directly to the standalone OHI
     * All other CCLs should point to this new flow inside the 10-10D
