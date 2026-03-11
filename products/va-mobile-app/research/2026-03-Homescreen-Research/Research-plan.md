@@ -142,24 +142,23 @@ tags:
 
 `Link to relevant past research studies that inform this work. This helps build institutional knowledge and prevents duplicate efforts.`
 
-> [!TIP]
-> **Use the [Past Research Analysis Copilot Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-discovery/past-research-analysis-for-new-research-plan-prompt.md) to automatically find relevant research!**
->
-> 1. Draft and commit your research plan
-> 2. Open GitHub Copilot for your research plan. Click the Copilot icon on your file toolbar.
-> 3. Copy and paste the prompt from the link above
-> 4. Review the suggested studies and add the most relevant ones below
 
 **Previous Studies:**
 - Personalized Home Screen Evaluative Research, April 2024 [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/35af580d97e75798e00779173cdd133e18870dd0/products/va-mobile-app/research/ux/personalized-homescreen/2024-04%20evaluative%20research/personalized%20home%20screen%20-%20research%20plan.md) [Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/35af580d97e75798e00779173cdd133e18870dd0/products/va-mobile-app/research/ux/personalized-homescreen/2024-04%20evaluative%20research/personalized%20home%20screen%20-%20findings.md)
-- [Link to Study 2 - Brief description, Date](url goes here)
-- [Link to Study 3 - Brief description, Date](url goes here)
+- VA Mobile App Information Architecture & Navigation: Evaluative Research - Usability Study, August 2022 [Research Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/35af580d97e75798e00779173cdd133e18870dd0/products/va-mobile-app/research/ux/navigation/new%20navigation%20usability/usability-research-plan.md) [Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/35af580d97e75798e00779173cdd133e18870dd0/products/va-mobile-app/research/ux/navigation/new%20navigation%20usability/2022%20-%20VA%20Mobile%20App_%20Information%20Architecture%20%26%20Navigation%20User%20Research%20-%20Findings%20Report.pdf)
+
 
 **Key Takeaways from Previous Research:**
+Personalized Home Screen Evaluative Research:
 - `When asked to imagine how they might use the homescreen of the app to help them with something in their life, participants described using the home screen as the entry point to: 1. give them access to a specific task, be reminded of an outstanding task, use the information on the home screen itself to accomplish a task.`
 - `5 of 13 participants found it useful to see disability rating and monthly compensation displayed together, and 1 said it was specifically helpful to see it on the home screen`
 - `Nearly all participants expected to tap and then used the home screen modules successfully to begin their tasks (and arrived where they predicted they would be). In the case of one task (prescriptions), most participants’ expectations of the module destination was different from what they experienced when using the app. (They didn't expect to see the full list of prescriptions.)`
 - `6 of the 8 participants that saw Proof of Veteran status on homescreen commented on its usefulness`
+
+Information Architecture & Navigation Evaluative Research:
+
+- `All participants directly or indirectly found their Disability Rating and Disability Payments though they had moved to Benefits and Payments respectively from their original location in Profile.`
+- `Recommendation: Investigate moving Manage dependents into the Profile section in the future`
 
 
 
