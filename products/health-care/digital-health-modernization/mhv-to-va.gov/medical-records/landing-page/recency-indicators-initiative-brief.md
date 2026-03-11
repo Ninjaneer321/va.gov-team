@@ -113,7 +113,8 @@ View mock ups [in this Figma file](https://www.figma.com/design/gGU9oX4QVqbYdxzX
 
 **Before**
 [insert mock]
-**After**
+<img width="842" height="816" alt="image" src="https://github.com/user-attachments/assets/bf0d9aea-4147-4626-aca6-03f84567f72b" />
+
 [insert mock]
 
 **Communications**
