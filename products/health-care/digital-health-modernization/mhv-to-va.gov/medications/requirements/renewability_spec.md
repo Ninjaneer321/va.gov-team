@@ -1,14 +1,61 @@
-# Oracle Health VA Dispensed Medications - Renewability Specification
+# VA Medications - Renewability Specification
 
 ## Overview
 
-A medication is **renewable** only if **ALL** of the following conditions are met. The checks are ordered from most fundamental to most specific.
+This specification defines when a VA medication is eligible for renewal. The rules differ by pharmacy system — **VistA** and **Oracle Health** — because the underlying data models and business logic differ between systems.
+
+In both systems, renewal is the process of requesting a new prescription from a provider when the current prescription can no longer be refilled (either because refills are exhausted or the prescription has expired).
 
 ---
 
-## Renewability Gate Checks (In Order)
+## VistA Medications
 
-### Gate 1: MedicationRequest Status (Primary Gate)
+### Renewability Rules
+
+A VistA medication is **renewable** if it is a **VA prescription** AND **EITHER** of the following conditions is met:
+
+| #   | Condition                                                | Renewable?      |
+| --- | -------------------------------------------------------- | --------------- |
+| 1   | Prescription is **active** with **no refills remaining** | **RENEWABLE ✓** |
+| 2   | Prescription **expired within the last 120 days**        | **RENEWABLE ✓** |
+
+If the medication is a non-VA (documented) prescription, or neither condition is met, the medication is **NOT RENEWABLE**.
+
+_Rationale: Non-VA (documented) prescriptions are not managed through VA renewal. An active VA prescription with refills remaining should use the refill process instead. Prescriptions expired more than 120 days ago require a new prescription from a provider rather than a renewal._
+
+### Decision Tree
+
+```mermaid
+flowchart TD
+    Start([Is VistA Medication Renewable?]) --> ClassCheck
+
+    ClassCheck{VA prescription?}
+    ClassCheck -->|No| NotRenewable[NOT RENEWABLE]
+    ClassCheck -->|Yes| Check1
+
+    Check1{Active with<br/>0 refills remaining?}
+    Check1 -->|Yes| Renewable[RENEWABLE ✓]
+    Check1 -->|No| Check2
+
+    Check2{Expired within<br/>the last 120 days?}
+    Check2 -->|Yes| Renewable
+    Check2 -->|No| NotRenewable
+
+    style Renewable fill:#28a745,color:#fff
+    style NotRenewable fill:#dc3545,color:#fff
+```
+
+---
+
+## Oracle Health Medications
+
+Oracle Health renewability requires passing through multiple gate checks because the FHIR-based data model requires explicit validation of classification, dispense history, and processing state.
+
+A medication is **renewable** only if **ALL** of the following gates pass. The checks are ordered from most fundamental to most specific.
+
+### Gate Checks (In Order)
+
+#### Gate 1: MedicationRequest Status (Primary Gate)
 
 **Condition:** `MedicationRequest.status` must be `'active'`
 
@@ -21,13 +68,13 @@ _Rationale: Inactive, cancelled, or completed requests cannot be renewed._
 
 ---
 
-### Gate 2: Medication Classification
+#### Gate 2: Medication Classification
 
 **Condition:** Must be classified as a **VA Prescription** (NOT Documented/Non-VA Medication, Clinic Administered Medication, Inpatient, or Pharmacy Charges)
 
 Medication classification is determined by the `MedicationRequest.category` array. See [Oracle Health Medications - Categorization and Filtering Specification](oracle_health_categorization_spec.md) for complete categorization rules.
 
-#### Classification for Renewability
+##### Classification for Renewability
 
 | Display Category                                                    | Renewable?            |
 | ------------------------------------------------------------------- | --------------------- |
@@ -38,7 +85,7 @@ Medication classification is determined by the `MedicationRequest.category` arra
 | **Inpatient Medication** (`inpatient`)                              | **NOT RENEWABLE**     |
 | **Uncategorized**                                                   | **NOT RENEWABLE**     |
 
-#### Additional Classification Criteria
+##### Additional Classification Criteria
 
 Beyond category, the following `MedicationRequest` fields must also match for **VA Prescription**:
 
@@ -49,7 +96,7 @@ _Rationale: VA Prescriptions (prescriptions dispensed for home use) are eligible
 
 ---
 
-### Gate 3: Dispense History
+#### Gate 3: Dispense History
 
 **Condition:** Must have at least one `MedicationDispense` resource associated with the `MedicationRequest`
 
@@ -62,7 +109,7 @@ _Rationale: A medication that has never been dispensed cannot be renewed._
 
 ---
 
-### Gate 4: Validity Period Exists
+#### Gate 4: Validity Period Exists
 
 **Condition:** `MedicationRequest.dispenseRequest.validityPeriod.end` must exist
 
@@ -75,7 +122,7 @@ _Rationale: Prescriptions without a validity period end date cannot be evaluated
 
 ---
 
-### Gate 5: Validity Period Window
+#### Gate 5: Validity Period Window
 
 **Condition:** Must NOT be more than 120 days past `MedicationRequest.dispenseRequest.validityPeriod.end`
 
@@ -94,7 +141,7 @@ _Rationale: Prescriptions expired more than 120 days ago require a new prescript
 
 ---
 
-### Gate 6: Refills Remaining
+#### Gate 6: Refills Remaining
 
 **Condition:** Refills remaining must be zero OR prescription is expired (validity period has ended)
 
@@ -111,7 +158,7 @@ _Rationale: If refills are available AND the prescription is still valid (not ex
 
 ---
 
-### Gate 7: Active Processing
+#### Gate 7: Active Processing
 
 **Condition:** No active refill request or in-progress dispense
 
@@ -130,13 +177,11 @@ The medication is **NOT RENEWABLE** if ANY of the following are true:
 
 _Rationale: Cannot request renewal while a previous request is still being processed._
 
----
-
-## Decision Tree
+### Decision Tree
 
 ```mermaid
 flowchart TD
-    Start([Is Medication Renewable?]) --> Gate1
+    Start([Is Oracle Health Medication Renewable?]) --> Gate1
 
     Gate1{Gate 1:<br/>Status == 'active'?}
     Gate1 -->|No| NotRenewable1[NOT RENEWABLE]
@@ -177,9 +222,7 @@ flowchart TD
     style NotRenewable7 fill:#dc3545,color:#fff
 ```
 
----
-
-## Summary Table
+### Summary Table
 
 | Gate | Condition (must be TRUE to pass)                                                                                        | Fail Result   |
 | ---- | ----------------------------------------------------------------------------------------------------------------------- | ------------- |
