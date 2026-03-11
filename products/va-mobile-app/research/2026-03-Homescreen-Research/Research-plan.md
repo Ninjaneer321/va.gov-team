@@ -151,17 +151,21 @@ tags:
 > 4. Review the suggested studies and add the most relevant ones below
 
 **Previous Studies:**
-- [Link to Study 1 - Brief description, Date](url goes here)
+- [Personalized Home Screen Evaluative Research, April 2024](https://github.com/department-of-veterans-affairs/va.gov-team/blob/35af580d97e75798e00779173cdd133e18870dd0/products/va-mobile-app/research/ux/personalized-homescreen/2024-04%20evaluative%20research/personalized%20home%20screen%20-%20research%20plan.md))
 - [Link to Study 2 - Brief description, Date](url goes here)
 - [Link to Study 3 - Brief description, Date](url goes here)
 
 **Key Takeaways from Previous Research:**
-- `[Major finding or insight that informs this study]`
-- `[Major finding or insight that informs this study]`
-- `[Major finding or insight that informs this study]`
+- `When asked to imagine how they might use the homescreen of the app to help them with something in their life, participants described using the home screen as the entry point to:
 
-> [!NOTE]
-> If this is the first research study for this product, you can note that here. You may also want to reference research from similar products or features that could provide relevant insights.
+- give them access to a specific task (12 participants)
+- be reminded (but not notified)* of an outstanding task (4 participants)
+- use the information on the home screen itself to accomplish a task (3 participants)
+*All of the participants who described using the home screen to remind them of an outstanding task also described being initially notified by VA about that task using email, SMS, or push, and using the home screen as a backup.`
+- `5 of 13 participants found it useful to see disability rating and monthly compensation displayed together, and 1 said it was specifically helpful to see it on the home screen`
+- `Nearly all participants expected to tap and then used the home screen modules successfully to begin their tasks (and arrived where they predicted they would be). In the case of one task (prescriptions), most participants’ expectations of the module destination was different from what they experienced when using the app.`
+
+
 
 </details>
 
@@ -218,7 +222,7 @@ Are there moments that matter?</summary>
 
 `1.` **Understand users' expectations for homescreen content and navigation**
 
-`2.` **Understand how users interpret and use homescreen content and capabilities**
+`2.` **Understand how users interpret and use new design concept's homescreen content and capabilities**
   
 ### Outcome
 `How will this research advance your product to the next phase in the design process? What will you do with your learnings?`
@@ -245,7 +249,7 @@ Are there moments that matter?</summary>
 3. Do users expect due dates for some or all "Action required" items?
 4. What level of detail do users need for homescreen content so that they can take action and complete tasks?
 
-**Research goal 2: Understand how users interpret and use homescreen content and capabilities**
+**Research goal 2: Understand how users interpret and use new design concept's homescreen content and capabilities**
 
 1. Do users notice, understand, and take action on items in "Action required" and "Activity" sections?
 2. When tasks are surfaced on the homescreen, how do users want and expect to complete them?
@@ -390,12 +394,11 @@ During the session:
 #### Secondary criteria (nice-to-haves)
 *What criteria would strengthen your results?* 
 
-- `At least 4, age 55 or older`
-- `At least 3, self-reported cognitive disability`
+- `At least 5, age 55 or older`
+- `At least 5, self-reported cognitive disability`
 - `At least 3, rural`
--` At least 1, identifies as woman`
-- `At least 5, identifies as Black or African American, Hispanic or Latino, Asian, or Biracial`
-
+-` At least 3, identifies as gender other than male`
+- `At least 6, identifies as other than white/Caucasian` 
 
 ## Screener Questions 📋
 
@@ -406,7 +409,7 @@ During the session:
 
 ### Your Study's Screener Questions
 
-**1. Which device(s) are available for you to use to join the research session?** (Recruit mix)
+**1. Which device(s) would you use to join the research session?** (Recruit mix)
    
 - Mobile phone – Android: Qualify
 - Mobile phone – iPhone: Qualify
@@ -494,7 +497,10 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 - `Research guide writing and task development (usually but not always same as moderator):` **Theresa Wang**		
 - `Participant recruiting & screening:`	**Perigean**	
 - `Project point of contact:` **Theresa Wang**		
-- `Note-takers:` **Maria Kravets** **Brenda Rocha Barraza**
+- `Note-takers:`
+- **Maria Kravets**
+- **Brenda Rocha Barraza**
+  
 - `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 5 to 6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.`
 
 - **Ryan Thurwell**
