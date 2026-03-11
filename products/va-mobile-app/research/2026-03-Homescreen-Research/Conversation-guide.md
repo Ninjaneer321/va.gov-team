@@ -121,7 +121,7 @@ Before we start, I want to go over a few things:
 
 Let’s start with a few questions... 
 
-1. I understand you are a Veteran. Is that right? 
+1. I understand you're a Veteran. Is that right? 
     - Thanks for confirming that.
 
 2. What kind of device are you using today? *(Tablet / Smartphone)*
@@ -148,7 +148,8 @@ We can help guide you through this if you need help. Please say what you're doin
 
 Today, we're going to look at a demo version of the app. This is just for us to test with, so not everything will work like it does on the real app. You might see some buttons or links not working and some placeholder words instead of real information. Since this is just the demo version, nothing you do in this app will affect your real app or VA information and benefits. 
 
-I will now share in the zoom chat the URL for the demo: Please open the chat and then click the link. 
+I will now share in the zoom chat the URL for the demo: [Prototype link](https://www.figma.com/proto/qVqjxULrC26YoIbvnZKOwp/IA---Nav?node-id=673-114466&t=Bp35KWcWPBYzxcWt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=673%3A114466&show-proto-sidebar=1)
+Please open the chat and then click the link. 
 
 - *If “unsupported browser” error, ask to try a different browser or device 
 - *If prototype doesn't open, copy the URL and open in a new incognito window (Chrome), private window (Firefox, Safari) or InPrivate (Edge)*
