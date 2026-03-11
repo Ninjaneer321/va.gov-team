@@ -110,10 +110,12 @@ Learn more in our [February 2026 research review (GitHub)](https://github.com/de
   
 ## Screenshots
 
-**Before**
+### Before
+
 <img width="842" height="816" alt="image" src="https://github.com/user-attachments/assets/bf0d9aea-4147-4626-aca6-03f84567f72b" />
 
-**After**
+### After
+
 View mock ups [in this Figma file](https://www.figma.com/design/gGU9oX4QVqbYdxzXfTqTEj/Medical-Records---Milestone-2?node-id=24715-18943&t=Zo5ljmZx6JbfmXsT-1)
 
 **Communications**
