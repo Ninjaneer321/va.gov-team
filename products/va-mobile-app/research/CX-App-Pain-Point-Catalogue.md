@@ -1,21 +1,50 @@
 # CX App Pain Point Catalog
 
-## When & How to Update This Catalogue
+## When & How to Update This Catalog
 
-**Update this catalogue when new user feedback is received** from any of these sources: App Store and Google Play reviews, in-app surveys, platform surveys, retros, direct user feedback, quarterly app review analyses, and monthly research reports. 
+### Ownership
 
-**When to update:** After each quarterly app review analysis; when monthly reports reveal recurring themes not yet captured; when retros or direct feedback surface new or escalating issues; and when significant product changes (e.g., new features, integrations) may affect existing pain points. Add new pain points, refresh evidence links, adjust severity/trending based on frequency, and note mitigations or status changes. Include a change log entry for any substantive updates.
+**[TBD — assign owner]** owns the CX Pain Point Library and is responsible for keeping this catalog current. The owner reviews incoming feedback, adds or updates pain points, and maintains the change log.
+
+### Sources & When to Update
+
+**Update this catalog when new user feedback is received** from any of these sources: App Store and Google Play reviews, in-app surveys, platform surveys, retros, direct user feedback, quarterly app review analyses, and monthly research reports.
+
+**When to update:** After each quarterly app review analysis; when monthly reports reveal recurring themes not yet captured; when retros or direct feedback surface new or escalating issues; and when significant product changes (e.g., new features, integrations) may affect existing pain points.
+
+### Ranking Factors
+
+Use these factors to assess and rank each pain point when adding or updating entries. Each factor maps to a column in the pain point table below.
+
+| Factor | Definition | Table Column |
+|--------|-------------|--------------|
+| **Severity** | High = user cannot accomplish main task or would do it wrong; Medium = can accomplish but with confusion/workarounds/minor errors; Low = would be better UX if resolved | Severity |
+| **Trending/Frequency** | First-time issue vs. found in multiple research reports/sources | Trending/Frequency |
+| **Users Impacted** | Edge case, some users, majority of users | Users Impacted |
+| **Legal/Risk Obligation** | e.g., accessibility issue, data privacy issue | Legal/Risk |
+
+### Process for Adding to the Library
+
+1. Add new pain points as rows in the table below. Assess each pain point against the ranking factors above and populate the corresponding columns.
+2. Link evidence (e.g., quarterly analysis, monthly reports) in the Evidence column.
+3. Document the catalog in the research folder of the GitHub repo. All pain point catalogs live in the Mobile Platform research documentation.
+4. Add a change log entry for any substantive update (new pain point, status change, or significant edit).
+
+### Pain Point Lifecycle (Status)
+
+| Status | Meaning |
+|--------|---------|
+| *(blank)* | Not yet triaged or no mitigation in progress |
+| Planning research | Research or discovery planned to inform mitigation |
+| In progress | Mitigation actively being built or implemented |
+| Partially resolved | Some mitigation deployed; may need further work |
+| Resolved | Pain point addressed; user feedback no longer reports the issue. Remove from active table or move to an "Archived/Resolved" section and add change log entry |
+
+**How a pain point gets marked as resolved:** The owner confirms that the mitigation has been deployed and that feedback sources (app reviews, surveys, etc.) no longer report the issue. Update the Status column to "Resolved," add a change log entry, and either archive the row or move it to a resolved section.
 
 ---
 
-## Ranking Factors
-
-- **Severity:** High (user cannot accomplish main task or would do it wrong), Medium (can accomplish but with some confusion/workarounds/minor errors), Low (would be better user experience if pain point resolved)
-- **Trending/Frequency:** First time issue vs. found in multiple research reports/sources
-- **Number of Users Impacted:** Edge case, some users, majority of users
-- **Legal/Risk Obligation:** e.g., accessibility issue or data privacy issue
-
----
+## Pain Points
 
 | Rank | Pain Point | Severity | Trending/Frequency | Users Impacted | Legal/Risk | Evidence | Key Mitigation | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -35,7 +64,7 @@
 
 | Date | Change |
 |------|--------|
-| March 2026 | Added pain points #6–9 from Q4 App Review Analysis: Letters/Documents Access, Messaging Provider Access, Prescription Status Clarity, App Errors/Crashes. Added "When & How to Update This Catalogue" quick guide. |
+| March 2026 | Added pain points #6–9 from Q4 App Review Analysis: Letters/Documents Access, Messaging Provider Access, Prescription Status Clarity, App Errors/Crashes. Added "When & How to Update This Catalog" quick guide. |
 
 ---
 
@@ -44,5 +73,4 @@
 - [ ] Work with engineering to pull specific metrics on percentage of users impacted for each pain point (appointments, secure messaging, travel pay, etc.)
 - [ ] Determine percentage of app users who use the app for healthcare vs. benefits only
 - [ ] (Pain point #4) Check with Binny / Appointments PO on the status of the "Start Scheduling" button and timeline for going live
-
 
