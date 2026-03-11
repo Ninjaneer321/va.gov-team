@@ -17,7 +17,7 @@ messaging to users.
 
 | Component | Width Behavior | Other Props |
 |-----------|---------------|-------------|
-| Alert | Default constrained width. Optional `fullWidth` prop. | Supports `slim` |
+| Alert | Width constrained to the container. Optional `fullWidth` prop. | Supports `slim` |
 | Banner | Always full-width with centered content. | Does not support `slim` |
 
 The **Banner component internally uses the Alert component** in the
