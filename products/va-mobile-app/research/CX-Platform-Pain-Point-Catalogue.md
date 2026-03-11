@@ -1,5 +1,13 @@
 # CX Platform Pain Point Catalog
 
+## When & How to Update This Catalogue
+
+**Update this catalogue when new feedback is received** from platform users (experience teams, mobile team members, engineers, designers) via: platform surveys, retros, direct user feedback, design critiques, and ad-hoc reports. 
+
+**When to update:** After quarterly or periodic platform feedback cycles; when retros surface recurring blockers; when new teams onboard and report friction; and when tooling, processes, or documentation changes affect platform workflows. Add new pain points, refresh evidence, adjust severity/trending based on frequency, and note mitigations or status changes. Include a change log entry for any substantive updates.
+
+---
+
 ## Ranking Factors
 
 - **Severity:** High (user cannot accomplish main task or would do it wrong), Medium (can accomplish but with some confusion/workarounds/minor errors), Low (would be better user experience if pain point resolved)
@@ -17,3 +25,12 @@
 | 4 | As a backend engineer, I want to have access to all upstream service documentation, but I am blocked by teams that have integrated with these services not properly documenting or retaining information. | Medium | Multiple backend users have reported this | Backend engineers (smaller but significant portion of platform audience) | None | | Currently creating documentation to address gaps | In progress |
 | 5 | As a member of an experience team, I want to avoid rework or delays in having my code approved, but I am blocked by not knowing how to meet expected accessibility best practices. | Medium | Low frequency of reports currently, but high risk if not addressed proactively | Designers and engineers (majority of platform users are aware of the requirement but need proper tooling) | Yes — legal requirement to deliver a fully accessible app | | 1) Updated PR template to include additional accessibility details (partially resolved); 2) Review and update accessibility documentation to prevent surprises when work is sent back for rework | Partially resolved — PR template updated; accessibility documentation review still needed |
 | 6 | As a mobile team member, I want to be sure the list of users with access to our tools and systems is up to date and accurate, but I am blocked by not having any easy way to know when someone has changed roles or left their company or the VA. | Medium | Has happened multiple times — systems out of date during gaps in awareness | Mobile team | Yes — risk of unauthorized access to systems if off-boarded users are not removed promptly | | Find ways to be notified of off-boarding events and maintain visibility into who has access to tools and systems at any given time | |
+
+---
+
+## Change Log
+
+| Date | Change |
+|------|--------|
+| March 2026 | Added "When & How to Update This Catalogue" quick guide. No new pain points from Q4 App Review Analysis (Q4 focuses on Veteran-facing app feedback; Platform catalogue sources are internal platform users). |
+bility into who has access to tools and systems at any given time | |
