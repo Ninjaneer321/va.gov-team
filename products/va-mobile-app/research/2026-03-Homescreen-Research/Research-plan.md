@@ -350,7 +350,8 @@ Provide a link to any materials you need to run your study, including any materi
 - Perigean can also support remote, [unmoderated studies](https://depo-platform-documentation.scrollhelp.site/research-design/perigean-recruiting-process-for-unmoderated-studie), however, these studies require strict recruitment requirements. 
 - Which inclusive research strategies are you leveraging for this study? OCTO recommends using a lean maximum variation strategy for most studies. Read this [introduction to inclusive research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/introduction.md) and download the [recruitment checker (Excel)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx) to understand OCTO's targets for inclusivity and use it to plan your participant demographics for this study.
 
-We would like Perigean to recruit Veterans as participants. Target 14 to seat and complete 9 sessions total. 
+**We would like Perigean to recruit Veterans as participants. Target 14 to seat and complete 9 sessions total.**
+
 ### Recruitment criteria
 
 - Must have interacted with the mobile app at least once
@@ -361,8 +362,6 @@ During the session:
 - Are willing to share their screen.
 - Have a working microphone on their device.
 
-
-- 
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 > [!NOTE]
@@ -383,13 +382,13 @@ During the session:
 - During the session, be willing to share a web browser window on their device
 - Have a working microphone
 - Have Zoom downloaded to their device prior to the session and know how to share their screen
-- Have used the VAHB app at least once in the last year
+- Have used the VA Health and Benefits app at least once in the last year
 - Have a service-related disability rating of at least 10%
 
 #### Secondary criteria (nice-to-haves)
 *What criteria would strengthen your results?* 
 
-- At least 4, age 55 or older
+- 'At least 4, age 55 or older'
 - At least 3, self-reported cognitive disability
 - At least 3, rural
 - At least 1, identifies as woman
@@ -415,7 +414,7 @@ During the session:
 - None of the above: Disqualify
 
 **2. How often did you use the [Veterans Affairs Health and Benefits App](https://mobile.va.gov/app/va-health-and-benefits) on your smartphone or tablet in the past year?**
-- I didn't use the app at all in the past year: Disqualify
+- I never used the app: Disqualify
 - I used it rarely: Qualify
 - I used it at least once a month: Qualify
 - I used it at least once a week: Qualify
@@ -423,21 +422,13 @@ During the session:
 **3. What is your service-related disability rating?**
 - Less than 10%: Disqualify
 - 10% or higher: Qualify
+- I don't have a disability rating: Disqualify
 - I don't know my rating: Disqualify
 
-**4. What is your age?** (Recruit mix)
-- Under 18: Disqualify
-- 18-34: Qualify
-- 35-54: Qualify
-- 55 and older: Qualify; Recruit at least 5
-
-**5. Do you find it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these.** (Recruit mix)
+**4. Do you find it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these.** (Recruit mix)
 -Yes: Qualify; Recruit at least 3
 -No: Qualify
 
-
-> [!TIP]
-> Add more screener questions as needed to address your primary and secondary recruitment criteria
 
 ## Timeline 🗓️
 > [!NOTE]
@@ -485,7 +476,7 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 >
 > **Place time slots between `hash marks` when in edit mode.**
 
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `03/30, Monday, 11:00 AM-12:00 PM, 1:00 PM-6:00 PM EST`
 - `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
 - `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
 - `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
