@@ -149,13 +149,13 @@ tags:
 
 
 **Key Takeaways from Previous Research:**
-Personalized Home Screen Evaluative Research:
+1. Personalized Home Screen Evaluative Research:
 - `When asked to imagine how they might use the homescreen of the app to help them with something in their life, participants described using the home screen as the entry point to: 1. give them access to a specific task, be reminded of an outstanding task, use the information on the home screen itself to accomplish a task.`
 - `5 of 13 participants found it useful to see disability rating and monthly compensation displayed together, and 1 said it was specifically helpful to see it on the home screen`
 - `Nearly all participants expected to tap and then used the home screen modules successfully to begin their tasks (and arrived where they predicted they would be). In the case of one task (prescriptions), most participants’ expectations of the module destination was different from what they experienced when using the app. (They didn't expect to see the full list of prescriptions.)`
 - `6 of the 8 participants that saw Proof of Veteran status on homescreen commented on its usefulness`
 
-Information Architecture & Navigation Evaluative Research:
+2. Information Architecture & Navigation Evaluative Research:
 
 - `All participants directly or indirectly found their Disability Rating and Disability Payments though they had moved to Benefits and Payments respectively from their original location in Profile.`
 - `Recommendation: Investigate moving Manage dependents into the Profile section in the future`
