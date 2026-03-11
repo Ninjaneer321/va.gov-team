@@ -18,7 +18,7 @@
 - [ ] **SPRINT GOAL** 10-7959c: Complete first pass testing of VES/OHI integration SQA 
   - [ ] [[BE] 10-7959c: Update VesRetryFailuresJob for form-type routing and reconstruction](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133985)
   - [ ] [[BE] 10-7959c: Configure Staging Environment to Point to VES SQA to enable Integration Testing](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135256)
-  - [ ] [[BE] VES/OHI: End-to-end testing for OHI VES submission flow (SQA env)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133986)
+  - [ ] [[BE] 10-7959c: End-to-end testing for OHI VES submission flow (SQA env)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133986)
   - [ ] 
 
 
