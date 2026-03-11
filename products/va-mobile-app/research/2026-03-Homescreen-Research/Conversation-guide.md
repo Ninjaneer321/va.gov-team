@@ -1,34 +1,48 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VA Mobile App Homescreen Research - March 2026"
+author: "Theresa"
+date_created: "2026-03-11"
+last_modified: "2026-03-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "VA Mobile App Team"
+portfolio: "digital-experience"
+product: "VA Health and Benefits Mobile App"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with VA benefits (disability, health care, and/or payment access)"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/va-mobile-app/research/2026-03-Homescreen-Research/Research-Plan.md"
+related_prototype: "https://www.figma.com/proto/qVqjxULrC26YoIbvnZKOwp/IA---Nav"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "BNFT: Healthcare"
+  - "BNFT: Finances"
+  - "PRDT: VA Health and Benefits Mobile App"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "DSP: Content Presentation"
+  - "DSP: Help users to navigate a long list"
+  - "DSC: Card"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "MHV: Pharmacy"
+  - "MHV: Appointments"
 
-# NEW: Compliance flags
+description: "Usability testing conversation guide for evaluating VA Mobile App homescreen information architecture, task completion, and user mental models for accessing disability ratings, payments, prescriptions, and dependent information."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true
+---
 ---
 
 > [!TIP]
