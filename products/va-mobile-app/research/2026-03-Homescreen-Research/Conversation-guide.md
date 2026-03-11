@@ -171,16 +171,16 @@ Take a look at this page without clicking anything [homescreen]. [Give participa
 5. What do you think this first section in blue is about? [Action required section]
 6. What kind of things would you expect to see here?
 7. Take a closer look at the items here. Is there anything confusing or surprising?
-9. What do you think the next section is for? [Activity section]
-10. What kind of things would you expect to see here?
-11. Take a closer look at the items. Anything confusing or surprising?
-12. Is there anything confusing overall about this app homepage?
-13. Is there anything missing?
+8. What do you think the next section is for? [Activity section]
+9. What kind of things would you expect to see here?
+10. Take a closer look at the items. Anything confusing or surprising?
+11. Is there anything confusing overall about this app homepage?
+12. Is there anything missing?
 
 > [!NOTE]
 > ### Things to watch for:
-> - Does the participant notice Action required section label?
-> - Does the participant notice Activity section label?
+> - Does the participant notice Action required section label without moderator prompting?
+> - Does the participant notice Activity section label without moderator prompting?
 
 ## Task 2: Find disability rating/payments - 4 minutes, 25 minutes elapsed
 
@@ -206,7 +206,7 @@ Next, let's think about if you were in a store and saw a sign that they offered 
 ### Questions for testing participant: 
 1. Where would you go to find your Veteran status card to show the store?
 2. Why?
-3. [If they saide outside the app] Where would you look for this in the app?
+3. [If they said outside the app] Where would you look for this in the app?
 4. Would you look anywhere else?
 
 > [!NOTE]
@@ -225,7 +225,7 @@ Next, imagine you've recently adopted a child and submitted the paperwork to get
 > ### Things to watch for:
 > - How confident is the participant?
 
-## Task 5: Pay copay - 10 minutes, 35 minutes elapsed
+## Task 5: Pay copay directly from homescreen - 10 minutes, 35 minutes elapsed
 Next, let's take another look at the Action required section.  
 ### Questions for testing participant: 
 1. [If not already discussed in Task 1] Based on what you see, is there anything you would do?
@@ -242,6 +242,7 @@ Next, let's take another look at the Action required section.
    
 > [!NOTE]
 > ### Things to watch for:
+> - We are more concerned with if the user *expects* to pay directly from the homescreen and chooses to go down that path than if they're successful in going through the process of completing payment.
 > - How confident is the participant?
 > - Any hesitation and/or confusion
 
@@ -252,20 +253,22 @@ Next, let's take another look at the Activity section.
 2. [If yes], what would you do?
 3. Why?
 4. Is there anything confusing or unclear for any of the items here?
-5. Let's explore this Prescription updates item. What do you expect to see if you click here?
-6. Go ahead and click
-7. What do you think about what you see here? [Additional information on prescriptions]
-8. Without clicking yet, what would you do next?
-9. Let's say you want to refill the L-O-R prescription, tell me what you would do next.
-10. What do you expect to happen when you do that?
-11. Go ahead and go through the next steps. Talk out loud as you do please. 
-12. What did you think about that process?
-13. What worked well?
-14. What could be improved?
-15. Now that we're back on the Homescreen, take another look, and let me know if there's anything you would change about it overall or any of the information displayed for each item. 
+5. Let's explore this Prescription updates item. What would you do if you saw this?
+6. What do you expect to see if you click here?
+7. Go ahead and click
+8. What do you think about what you see here? [Additional information on prescriptions]
+9. Without clicking yet, what would you do next?
+10. Let's say you want to refill the L-O-R prescription, tell me what you would do next.
+11. What do you expect to happen when you do that?
+12. Go ahead and go through the next steps. Talk out loud as you do please. 
+13. What did you think about that process?
+14. What worked well?
+15. What could be improved?
+16. Now that we're back on the Homescreen, take another look, and let me know if there's anything you would change about it overall or any of the information displayed for each item. 
 
 > [!NOTE]
 > ### Things to watch for:
+> - We're more concerned with if the participant expects the information they see under the Prescription item and their interest in being able to refill precriptions from homescreen directly than if they're successful in completing the refill task.
 > - How confident is the participant?
 > - Any hesitation and/or confusion?
 
