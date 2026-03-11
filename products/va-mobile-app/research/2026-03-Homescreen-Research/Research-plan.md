@@ -280,9 +280,11 @@ Are there moments that matter?</summary>
 **Research goal 2: Understand how users interpret and use homescreen content and capabilities**
 
 1. Users will notice and give more weight to "Action required" items because of the label and design styling of the section.
-2. Users will want to take action on both "Action required" items and "Activity" items that usually are of top concern to Veterans such as new appointment information, prescription updates, travel pay claims.
-3. Users will want to complete tasks directly from the homescreen when possible.
-4. Users will expect to be able to complete tasks directly from the homescreen when there is a call to action button associated with the item such as "Pay copay" for a medical copayment. 
+2. Users will be able to describe in their own words what the "Action required" section is for. 
+3. Users will want to take action on both "Action required" items and "Activity" items that usually are of top concern to Veterans such as new appointment information, prescription updates, travel pay claims.
+4. Users may not be able to articulate exactly what kind of items belong in the "Activity" section.
+5. Users will want to complete tasks directly from the homescreen when possible.
+6. Users will expect to be able to complete tasks directly from the homescreen when there is a call to action button associated with the item such as "Pay copay" for a medical copayment. 
 
 ---
   
@@ -300,7 +302,7 @@ Are there moments that matter?</summary>
 
 </details>
 
-This research will be a remote moderated study using Zoom. Participants will be guided to give general feedback on a low-fidelity Figma prototype of the proposed homescreen redesign. Participants will then be asked for targeted feedback on where to find items moved off the homescreen with the redesign, and to try to complete the tasks of paying a copay and refilling a prescription directly from the homescreen through a newly designed user flow concept.  
+This research will be a remote moderated study using Zoom. Participants will be guided to give general feedback on a medium-fidelity Figma prototype of the proposed homescreen redesign. Participants will then be asked for targeted feedback on where to find items moved off the homescreen with the redesign, and to try to complete the tasks of paying a copay and refilling a prescription directly from the homescreen through a newly designed user flow concept.  
 
 <details><summary>Additional resources</summary> 
 	
