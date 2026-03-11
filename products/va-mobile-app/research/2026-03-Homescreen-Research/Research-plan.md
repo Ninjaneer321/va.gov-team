@@ -389,11 +389,11 @@ During the session:
 #### Secondary criteria (nice-to-haves)
 *What criteria would strengthen your results?* 
 
-- At least 5, age 55 or older
-- At least 5, self-reported cognitive disability
+- At least 4, age 55 or older
+- At least 3, self-reported cognitive disability
 - At least 3, rural
 - At least 1, identifies as woman
-- At least 6, identifies as Black or African American, Hispanic or Latino, Asian, or Biracial
+- At least 5, identifies as Black or African American, Hispanic or Latino, Asian, or Biracial
 
 
 ## Screener Questions 📋
@@ -406,21 +406,35 @@ During the session:
 
 ### Your Study's Screener Questions
 
-**1. Are you able to join the session from a smartphone or tablet?**
+**1. Which device(s) are available for you to use to join the research session?** (Recruit mix)
    
-- Yes: Qualify 
-- No: Disqualify 
+- Mobile phone – Android: Qualify
+- Mobile phone – iPhone: Qualify
+- Tablet – Android: Qualify
+- Tablet – iPad: Qualify
+- None of the above: Disqualify
 
+**2. How often did you use the [Veterans Affairs Health and Benefits App](https://mobile.va.gov/app/va-health-and-benefits) on your smartphone or tablet in the past year?**
+- I didn't use the app at all in the past year: Disqualify
+- I used it rarely: Qualify
+- I used it at least once a month: Qualify
+- I used it at least once a week: Qualify
 
-**2. What device will you use to join the session?** (Recruit mix)
-   
-- Mobile phone – Android
-- Mobile phone – iPhone
-- Tablet – Android
-- Tablet – iPad
+**3. What is your service-related disability rating?**
+- Less than 10%: Disqualify
+- 10% or higher: Qualify
+- I don't know my rating: Disqualify
 
-**`3.` [Enter your third screener question]**
-- **Qualifying response:** 
+**4. What is your age?** (Recruit mix)
+- Under 18: Disqualify
+- 18-34: Qualify
+- 35-54: Qualify
+- 55 and older: Qualify; Recruit at least 5
+
+**5. Do you find it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these.** (Recruit mix)
+-Yes: Qualify; Recruit at least 3
+-No: Qualify
+
 
 > [!TIP]
 > Add more screener questions as needed to address your primary and secondary recruitment criteria
@@ -431,7 +445,9 @@ During the session:
 
 ### Optional Kick-off Call with Perigean
 
-- `Suggested dates and times:` **[Enter dates and times MM/DD HH:MM]**
+- `Suggested dates and times:`
+- **03/20, Friday, 9:30am-5:00pm ET**
+- **03/23, Monday, 9:30am-6:00pm ET**
 
 ### Prepare
 *When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).*
@@ -440,21 +456,26 @@ During the session:
 > [!NOTE]
 > **Send pilot participant email in study Slack channel**
 
-- `Pilot participant name:` **[Enter name]**
+- `Pilot participant name:` **Matthew Sweeney**
 - `Date and time of pilot session:` **[Enter time]** 
 
 ### Research sessions
-- `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
+- `Planned dates of research:` **03/30-04/03**
 
 ### Length of sessions
-- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **[Enter time length]**
+- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **60 minutes**
   
-- `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **[Enter buffer time]**
+- `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **30 minutes**
   
-- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **[Enter NUM per day]**
+- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **4**
 
 ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
+- 03/30/26, Monday, 11:00am-noon, 1pm-6:00pm EST
+- 03/31/26, Tuesday, 11:00am-1:30pm, 2:30pm-6:00pm EST
+- 04/01/26, Wednesday, 11:00am-1:30pm, 2:30pm-6:00pm EST
+- 04/02/26, Thursday, noon-6:00pm EST
+- 04/03/26, Friday, 11:00am-noon, 2:00pm-6:00pm EST
 
 > [!NOTE]
 > We recommend providing availability outside of work hours, as many Veterans are only available before and after working times, and live across the U.S. 
