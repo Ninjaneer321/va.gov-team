@@ -14,14 +14,16 @@ In both systems, renewal is the process of requesting a new prescription from a 
 
 A VistA medication is **renewable** if it is a **VA prescription** AND **EITHER** of the following conditions is met:
 
-| #   | Condition                                                | Renewable?      |
-| --- | -------------------------------------------------------- | --------------- |
-| 1   | Prescription is **active** with **no refills remaining** | **RENEWABLE ✓** |
-| 2   | Prescription **expired within the last 120 days**        | **RENEWABLE ✓** |
+| #   | Condition                                                                          | Renewable?      |
+| --- | ---------------------------------------------------------------------------------- | --------------- |
+| 1   | Status is **active** with **no refills remaining**                                 | **RENEWABLE ✓** |
+| 2   | Status is **expired** AND expiration date is within the last **120 days**           | **RENEWABLE ✓** |
+
+Prescriptions with any other status (e.g., discontinued, hold, suspended) are **NOT RENEWABLE**, regardless of their expiration date.
 
 If the medication is a non-VA (documented) prescription, or neither condition is met, the medication is **NOT RENEWABLE**.
 
-_Rationale: Non-VA (documented) prescriptions are not managed through VA renewal. An active VA prescription with refills remaining should use the refill process instead. Prescriptions expired more than 120 days ago require a new prescription from a provider rather than a renewal._
+_Rationale: Non-VA (documented) prescriptions are not managed through VA renewal. An active VA prescription with refills remaining should use the refill process instead. Only prescriptions with an **expired** status qualify for the 120-day renewal window — discontinued prescriptions also have expiration dates but are not eligible for renewal. Prescriptions expired more than 120 days ago require a new prescription from a provider rather than a renewal._
 
 ### Decision Tree
 
@@ -33,11 +35,11 @@ flowchart TD
     ClassCheck -->|No| NotRenewable[NOT RENEWABLE]
     ClassCheck -->|Yes| Check1
 
-    Check1{Active with<br/>0 refills remaining?}
+    Check1{Status == active<br/>AND 0 refills remaining?}
     Check1 -->|Yes| Renewable[RENEWABLE ✓]
     Check1 -->|No| Check2
 
-    Check2{Expired within<br/>the last 120 days?}
+    Check2{Status == expired<br/>AND within last 120 days?}
     Check2 -->|Yes| Renewable
     Check2 -->|No| NotRenewable
 
