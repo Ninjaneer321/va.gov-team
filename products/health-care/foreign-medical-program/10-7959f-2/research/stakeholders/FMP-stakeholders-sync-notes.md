@@ -3,7 +3,7 @@ Every other Wednesday at 2:35pm ET
 
 ## 03/11/2026
 
-**Attendees:** Renata, Rebevva B., Leticia, Hieu, Jessica, Andrea, Dirk, Joe S., Stephanie, Andrew
+**Attendees:** Renata, Rebecca B., Leticia, Hieu, Jessica, Andrea, Dirk, Joe S., Stephanie, Andrew
 
 **Anything happening with digital submissions?**
 
