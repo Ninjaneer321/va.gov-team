@@ -12,6 +12,9 @@
 - [Desired business outcomes](#desired-business-outcomes)
 - [Undesired business outcomes](#undesired-business-outcomes)
 - [Measuring success](#measuring-success)
+- [Discovery](#discovery)
+- [Launch planning](#launch-planning)
+- [Screenshots](#screenshots)
 
 ## Outcome summary
 Veterans will be able to review their latest health updates and results after receiving a notification or review their records following a recent visit.
