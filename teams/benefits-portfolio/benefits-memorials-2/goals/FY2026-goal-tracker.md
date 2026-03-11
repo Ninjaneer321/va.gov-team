@@ -16,6 +16,8 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 | P3 | **Benefit Payment Tool**  | [#130147](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130147) | Establish product understanding that enables the team to confidently identify, debug and resolve issues moving forward. | UX/ENG |   |   |
 | P4 | **Mobile App:** Collaborate with MFS (Mobile Feature Support) team to add benifits into mobile app experience |  [#106209](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106209) | Collaborate as needed. | MFS team responsible for implementation - FM team to collaborate. |None  |  |
 | P5 | **Veteran Request for Hardship Suspension (VBA):** |[#106207](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106207)  |Initiate Design Prototyping & Development handover UX to finalize engineering handover by next quarter.  | Design- FE | **DMC** |  |
+| PX | **New for Q3** |  |  |  |  |  |
+| PX | **New for Q3** |  |  |  |  |  |
 | P6 | **Prioritized Maintenance**  |[#130107](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130107)|Complete and launch priority work listed in the epic. | UX-FE-BE |None  |  |
 
 
