@@ -432,12 +432,15 @@ Eight participants said they wanted to be able to delete a form they started but
      - _Supporting evidence_: Two participants mentioned frustrations with their assistive tech and didn't know that a different tool might meet their needs better. 
      
      Some ideas are listed below:
-     1. Meet with Martha's VA Blind Rehab Center contacts to learn how they help Veterans who are blind or low vision, how to assess eligibility, and how to mention their services to research participants who could benefit from their services. --> *Martha will schedule a meeting*
+     1. Meet with Martha's VA Blind Rehab Center contacts to learn how they help Veterans who are blind or low vision, how to assess eligibility, and how to mention their services to research participants who could benefit from their services. --> *Meeting scheduled for March 17, 2026*
      1. Add an optional blurb to conversation guides that could be shared with participants who might benefit from AT assistance
      1. Consider adding messaging on VA.gov about how to better use the website (i.e., see this page on [gov.uk](https://www.gov.uk/help/accessibility-statement#how-you-should-be-able-to-use-this-website)). Could maybe add to the [508 compliance (Accessibility) page](https://www.va.gov/accessibility-at-va/) --> *Create a ticket to discuss with Danielle.*
      1. Learn more about Veterans' needs by conducting a survey of Veterans who are blind or low vision about their AT tools and experiences with VA.gov. --> *Future work for Cindy*
 
 ### *Not* directly related to research goals
+#### For the Design System and Forms team
+1. **Consider making the "Back to previous page" link easier to notice**. Perhaps check its font size and consider increasing it if it's smaller than other text on the page. Perhaps add a duplicate link to the bottom of the page.
+   - _Supporting evidence_: One non-AT participant said that they didn't notice this link at the top of the page because it was so small.  
 
 
 1. **Stop the automatic scrolling down when you open an accordion on the "Review and submit" page**. --> *Remove scrollToFocus from all accordions on the page*
@@ -460,9 +463,6 @@ Eight participants said they wanted to be able to delete a form they started but
 
 1. **Consider keeping the accordions in the "Review and submit" page.**
    - _Supporting evidence:_ One participant said that he never uses "Expand all" because he gets too overwhelmed by the length of what might expand, so he prefers to expand each accordion, one at a time.
-
-1. **Consider making the "Back to previous page" link easier to notice**. Perhaps check its font size and consider increasing it if it's smaller than other text on the page. Perhaps add a duplicate link to the bottom of the page.
-   - _Supporting evidence_: One non-AT participant said that they didn't notice this link at the top of the page because it was so small.  
 
 1. **Investigate why P6 was unable to highlight past "3 of 6 records requested" on the page of record checkboxes**. 
    - _Supporting evidence_: P6 said that they were trying to highlight the entire page to read but could only select "3 of 6 records requested".
