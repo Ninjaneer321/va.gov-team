@@ -412,16 +412,36 @@ Eight participants said they wanted to be able to delete a form they started but
    At the end of the session, this participant said that **this session had helped her learn how to navigate back to an in-progress form**. She had been planning to print out a paper form from an online form she already started because she needed to upload 15 documents, but at the end of the session, she said that she might try to upload them online, given that she already completed most of the form online and now has learned that it's been saved. 
 
 ## Recommendations   
-
-### For the Design System and Forms team
-1. **Do not roll out the interstitial page to forms. Instead, consider adding short text just above the Continue button on every page** (e.g., "Your information is being saved automatically"). Hopefully this will convey the message, but if some people miss it, maybe that's OK.
+### Directly related to research goals
+#### For the Design System and Forms team
+1. **Don't roll out the interstitial page to forms. Instead, consider adding short text just above the Continue button on every page** (e.g., "Your information is being saved automatically"). Hopefully this will convey the message, but if some people miss it, maybe that's OK.
    - _Supporting evidence_: Most participants ignored the interstitial page when it came up or forgot what it said because it appeared as an interruption to their task of filling out a VA form and didn't seem relevant.  
+
+1. **Investigate ways of deleting in-progress forms and notifying users about forms in progress within a certain time frame before they are deleted**.
+   - _Supporting evidence_: Almost all participants wanted to be notified before their forms were deleted via email and/or text, with one participant suggesting a notification in the VA mobile app. Most people wanted the first notification within 1-7 days of having selected "Finish later", and then once a week after that. All 8 participants asked said they wanted to be able to delete a form they started but never finished.
+
+1. **Consider moving the accordion controls to the left side so as to increase visibility for screen magnifier users who may not see any controls on the right.** --> *Cindy shared this finding with Chandra Carney from the US Web Design System team on 2/17/2026 via email, but hasn't yet received a reply.*
+   - _Supporting evidence_: 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side, including the participant who was using a screen magnifier.
+
+1. **Investigate why the "Finish later" message is read so haltingly in small segments when using JAWS with a mouse**. --> *Jeana will investigate to see if each segment is wrapped in a span, and if so, why -- Feature request for the forms library*
+   - _Supporting evidence_: P3 had to keep moving his mouse in order to hear each of the 6 small segments of text in the "Finish later" informational alert.  
+
+#### For the ADE team
+1. **Explore opportunities to help Veterans who are struggling with their assistive tech and may be unaware of other options**. 
+
+     - _Supporting evidence_: Two participants mentioned frustrations with their assistive tech and didn't know that a different tool might meet their needs better. 
+     
+     Some ideas are listed below:
+     1. Meet with Martha's VA Blind Rehab Center contacts to learn how they help Veterans who are blind or low vision, how to assess eligibility, and how to mention their services to research participants who could benefit from their services. --> *Martha will schedule a meeting*
+     1. Add an optional blurb to conversation guides that could be shared with participants who might benefit from AT assistance
+     1. Consider adding messaging on VA.gov about how to better use the website (i.e., see this page on [gov.uk](https://www.gov.uk/help/accessibility-statement#how-you-should-be-able-to-use-this-website)). Could maybe add to the [508 compliance (Accessibility) page](https://www.va.gov/accessibility-at-va/) --> *Create a ticket to discuss with Danielle.*
+     1. Learn more about Veterans' needs by conducting a survey of Veterans who are blind or low vision about their AT tools and experiences with VA.gov. --> *Future work for Cindy*
+
+### *Not* directly related to research goals
+
 
 1. **Stop the automatic scrolling down when you open an accordion on the "Review and submit" page**. --> *Remove scrollToFocus from all accordions on the page*
    - _Supporting evidence_: The scrolling is disorienting when focus lands on  content that isn't in the accordion (e.g., "Statement of truth" when you open the "Additional information" accordion) or scrolls so far that the accordion content is no longer in view when using a screen magnifier.  
-
-1. **Consider moving the accordion controls to the left side so as to increase visibility for screen magnifier users who may not see any controls on the right.** --> *Cindy shared this finding with Chandra Carney from the US Web Design System team on 2/17/2026.*
-   - _Supporting evidence_: 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side, including the participant who was using a screen magnifier.
 
 1. **Consider prefilling the Veteran's name, address, and other information** after they've signed in. --> *The Design System and Forms team is finalizing the Prefill component in the forms library so that all teams will be able to easily and automatically prefill in their forms. Existing forms will need some code refactoring.*
      - _Supporting evidence_: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. A participant in the previous round of usability testing stated the same expectation.
@@ -444,9 +464,6 @@ Eight participants said they wanted to be able to delete a form they started but
 1. **Consider making the "Back to previous page" link easier to notice**. Perhaps check its font size and consider increasing it if it's smaller than other text on the page. Perhaps add a duplicate link to the bottom of the page.
    - _Supporting evidence_: One non-AT participant said that they didn't notice this link at the top of the page because it was so small.  
 
-1. **Investigate why the "Finish later" message is read so haltingly in small segments when using JAWS with a mouse**. --> *Jeana will investigate to see if each segment is wrapped in a span, and if so, why.*
-   - _Supporting evidence_: P3 had to keep moving his mouse in order to hear each of the 6 small segments of text in the "Finish later" informational alert.  
-
 1. **Investigate why P6 was unable to highlight past "3 of 6 records requested" on the page of record checkboxes**. 
    - _Supporting evidence_: P6 said that they were trying to highlight the entire page to read but could only select "3 of 6 records requested".
 
@@ -454,7 +471,7 @@ Eight participants said they wanted to be able to delete a form they started but
    - _Supporting evidence_: Zoom silently kicked p4 out of the session when he selected the "Sign in" or "Continue" button in the Codespace. 
 
 
-### For the Request Personal Records form
+#### For the Request Personal Records form
 
 14. **Consider revising the "Your full name" prompt on the "Review and submit" page** to include a reference to what you entered before: "Your name as entered previously", **and also consider changing the "Middle initial" prompt to "Middle name"**.
     - _Supporting evidence_: Participants didn't realize that the name that you enter for "Your full name" must exactly match what they entered as their name at the beginning of the form. One participant called out that "Full name" requires your full middle name, not just your middle initial, as asked for earlier.
@@ -474,16 +491,7 @@ Eight participants said they wanted to be able to delete a form they started but
 1. **Consider separating the "Place of birth" field into separate "City" and "State" fields** (and "Country"?).
      - _Supporting evidence_: One participant was unsure how to enter both city and state into the "Place of birth" field because it's a single text box. A participant in the previous round of usability testing expressed the same concern.
 
-### For the ADE team
-20. **Explore opportunities to help Veterans who are struggling with their assistive tech and may be unaware of other options**. 
 
-     - _Supporting evidence_: Two participants mentioned frustrations with their assistive tech and didn't know that a different tool might meet their needs better. 
-     
-     Some ideas are listed below:
-     1. Meet with Martha's VA Blind Rehab Center contacts to learn how they help Veterans who are blind or low vision, how to assess eligibility, and how to mention their services to research participants who could benefit from their services. --> *Martha will schedule a meeting*
-     1. Add an optional blurb to conversation guides that could be shared with participants who might benefit from AT assistance
-     1. Consider adding messaging on VA.gov about how to better use the website (i.e., see this page on [gov.uk](https://www.gov.uk/help/accessibility-statement#how-you-should-be-able-to-use-this-website)). Could maybe add to the [508 compliance (Accessibility) page](https://www.va.gov/accessibility-at-va/) --> *Create a ticket to discuss with Danielle.*
-     1. Learn more about Veterans' needs by conducting a survey of Veterans who are blind or low vision about their AT tools and experiences with VA.gov. --> *Future work for Cindy*
   
 
 ## Next Steps
