@@ -8,7 +8,7 @@ The My Education Benefits team is looking to streamline the Veteran experience f
 
 ## Problem Statement
 
-Education benefits can be hard to navigate for the Veteran population due to stipulations of eligibility criteria and changes in their circumstances or service information; this becomes more complicated when legislation changes impact eligibility criteria. The Rudisill court decision has had a major impact on a Veteran's eligibility by allowing them to receive eligibiity under multiple benefits. Eligible Veterans need an easy and accessible way to view their eligibility translated to GI Bill benefits in real time and be able to apply for them.  
+Education benefits can be hard to navigate for the Veteran population due to stipulations of eligibility criteria and changes in their circumstances or service information; this becomes more complicated when legislation changes impact eligibility criteria. The Rudisill court decision has had a major impact on a Veteran's eligibility by allowing them to receive eligibility under multiple benefits. Eligible Veterans need an easy and accessible way to view their eligibility translated to GI Bill benefits in real time and be able to apply for them.  
  
 ## Desired User Outcomes
 
@@ -28,7 +28,7 @@ Education benefits can be hard to navigate for the Veteran population due to sti
 ## Undesired Business Outcomes
 
 - Users may have increased fatigue when applying due to the potential maximum number of eligibility options.
-  - Business logic will be well considered to ensure we providing the best recommendation for users. We will provide clear instruction and clear descriptions so that users have the neccessary information to choose the best eligibility option.
+  - Business logic will be well considered to ensure we are providing the best opportunity for users. We will provide clear instruction and descriptions so that users have the necessary information to choose the best eligibility option.
 
 ---
 
@@ -36,7 +36,7 @@ Education benefits can be hard to navigate for the Veteran population due to sti
 
 The following assumptions have been made when creating our solution:
 - Users have some understanding of the education application they are using and the benefits they are intending to apply for.
-- Users have an existing VA.gov or Login.gov account and have authenticated, allowing us to calculcate their eligibilty options from their service history.
+- Users have an existing VA.gov or Login.gov account and have authenticated, allowing us to calculate their eligibility options from their service history.
 
 
 ## Solution Approach
@@ -48,14 +48,14 @@ The following assumptions have been made when creating our solution:
 
 - We have developed a solution that:
   - Presents information we have on file back to the Veteran, to build their trust in the form
-  - Prefills contact information and direct deposit information, if it exists in Veteran's VA profile, to reduce fatigue
+  - Prefills contact information and direct deposit information, if it exists in a Veteran's VA profile, to reduce fatigue
   - Asks questions about the Veteran's education goals, that will inform the recommended eligibility option 
   - Provide a recommended eligibility option, to help guide Veterans in their decision making and reduce mental fatigue
   - Clearly displays eligibility options and provides a comparison table in another window to help digest and understand the trade-offs between options
 
 ### Supporting research
    
-- The Rudisill court decision impacts past, current, and future GI Bill beneficiaries. The HCD team conducted user research for the [Dual Benefit Eligibility Tool](https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/1334#issuecomment-3382801010) with an intended goal of understanding how Veterans interact with a tool, designed for past beneficiaries, that givees them the opportunity to reverse their previous relinquishment and customize their remaining service days for additional GI Bill benefits. Findings related to Veteran's understanding of Rudisill, common education benefit terminology, and education goals were leveraged when updating the 22-1990 form flow.
+- The Rudisill court decision impacts past, current, and future GI Bill beneficiaries. The HCD team conducted user research for the [Dual Benefit Eligibility Tool](https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/1334#issuecomment-3382801010) with an intended goal of understanding how Veterans interact with a tool, designed for past beneficiaries, that gives them the opportunity to reverse their previous relinquishment and customize their remaining service days for additional GI Bill benefits. The HCD team leveraged findings related to Veteran's understanding of Rudisill, commonly used education benefit terminology, and common education goals when updating the 22-1990 form flow.
 
 --- 
 
