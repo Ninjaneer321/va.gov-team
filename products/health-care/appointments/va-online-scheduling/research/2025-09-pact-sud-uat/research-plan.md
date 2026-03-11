@@ -310,7 +310,7 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 - `Participant recruiting & screening:`	**Perigean**	
 - `Project point of contact:` **Jenny Wang, Lena Cardoso**		
 - `Note-takers:` **Enter full name** ***or*** **[Designate Perigean**	
-- `Observers:` [Link to sign-up sheet]([insert URL here](https://dsva.slack.com/docs/T03FECE8V/F0AL0B6E29Y))
+- `Observers:` [Sign-up sheet[(https://dsva.slack.com/docs/T03FECE8V/F0AL0B6E29Y)
 
 
 ## Approvals ✅
