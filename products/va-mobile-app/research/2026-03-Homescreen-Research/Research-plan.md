@@ -402,7 +402,6 @@ During the session:
 
 
 
-
 ### Your Study's Screener Questions
 
 **1. Which device(s) are available for you to use to join the research session?** (Recruit mix)
@@ -448,7 +447,7 @@ During the session:
 > **Send pilot participant email in study Slack channel**
 
 - `Pilot participant name:` **Matthew Sweeney**
-- `Date and time of pilot session:` **[Enter time]** 
+- `Date and time of pilot session:` **03/17, Tuesday, 3:05 PM - 4:00PM EST** 
 
 ### Research sessions
 - `Planned dates of research:` **03/30-04/03**
@@ -489,17 +488,18 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 >
 > **Please list the names of people in each role.** In the Slack study channel, send an email and primary phone number for the moderator. Also send emails for the notetaker, accessibility specialist, and observers. If you need Perigean to take notes for you, indicate that next to Notetaker.
 
-- `Moderator:` **[Enter full name]**	
-- `Research guide writing and task development (usually but not always same as moderator):` **[Enter full name]**		
-- `Participant recruiting & screening:`	**[Enter full name]**	
-- `Project point of contact:` **[Enter full name]**		
-- `Accessibility specialist (for sessions where support for assistive technology may be needed):` **[Enter full name]**	
-- `Note-takers:` **[Enter full name]** ***or*** **[Designate Perigean]**	
+- `Moderator:` **Theresa Wang**	
+- `Research guide writing and task development (usually but not always same as moderator):` **Theresa Wang**		
+- `Participant recruiting & screening:`	**Perigean**	
+- `Project point of contact:` **Theresa Wang**		
+- `Note-takers:` **Maria Kravets** **Brenda Rocha Barraza**
 - `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 5 to 6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.`
 
-- **[Enter full name]**
-- **[Enter full name]**
-- **[Enter full name]**
+- **Ryan Thurwell**
+- **Michelle Middaugh**
+- **Matthew Sweeney**
+- **Jonathan David Post**
+- **Courtney Stubbert**
 
 ## Approvals ✅
 > [!NOTE]
