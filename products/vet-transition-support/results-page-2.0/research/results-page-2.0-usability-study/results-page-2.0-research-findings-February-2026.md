@@ -15,7 +15,7 @@
 - [Research participants](#user-content-research-participants)
 
 ## Research Goals
-The Discover Your Benefits tool aims to consolidate complex VA benefit information into an intuitive, personalized discovery experience for Veterans and transitioning service members. The goals of this study were to evaluate Version 3 of the unauthenticated prototype, specifically testing:
+The [Discover Your Benefits tool](https://www.va.gov/discover-your-benefits/introduction) aims to consolidate complex VA benefit information into an intuitive, personalized discovery experience for Veterans and transitioning service members. The goals of this study were to evaluate Version 3 of the unauthenticated prototype, specifically testing:
 - If design changes help users accomplish their goals of discovering, exploring, and understanding relevant benefits.
 - The usability and accessibility of redesigned filters, sorting mechanisms, and benefit cards.
 - Comprehension of time sensitivity, recommendation status, and eligibility framing.
