@@ -151,19 +151,15 @@ tags:
 > 4. Review the suggested studies and add the most relevant ones below
 
 **Previous Studies:**
-- [Personalized Home Screen Evaluative Research, April 2024](https://github.com/department-of-veterans-affairs/va.gov-team/blob/35af580d97e75798e00779173cdd133e18870dd0/products/va-mobile-app/research/ux/personalized-homescreen/2024-04%20evaluative%20research/personalized%20home%20screen%20-%20research%20plan.md))
+- Personalized Home Screen Evaluative Research, April 2024 [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/35af580d97e75798e00779173cdd133e18870dd0/products/va-mobile-app/research/ux/personalized-homescreen/2024-04%20evaluative%20research/personalized%20home%20screen%20-%20research%20plan.md) [Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/35af580d97e75798e00779173cdd133e18870dd0/products/va-mobile-app/research/ux/personalized-homescreen/2024-04%20evaluative%20research/personalized%20home%20screen%20-%20findings.md)
 - [Link to Study 2 - Brief description, Date](url goes here)
 - [Link to Study 3 - Brief description, Date](url goes here)
 
 **Key Takeaways from Previous Research:**
-- `When asked to imagine how they might use the homescreen of the app to help them with something in their life, participants described using the home screen as the entry point to:
-
-- give them access to a specific task (12 participants)
-- be reminded (but not notified)* of an outstanding task (4 participants)
-- use the information on the home screen itself to accomplish a task (3 participants)
-*All of the participants who described using the home screen to remind them of an outstanding task also described being initially notified by VA about that task using email, SMS, or push, and using the home screen as a backup.`
+- `When asked to imagine how they might use the homescreen of the app to help them with something in their life, participants described using the home screen as the entry point to: 1. give them access to a specific task, be reminded of an outstanding task, use the information on the home screen itself to accomplish a task.`
 - `5 of 13 participants found it useful to see disability rating and monthly compensation displayed together, and 1 said it was specifically helpful to see it on the home screen`
-- `Nearly all participants expected to tap and then used the home screen modules successfully to begin their tasks (and arrived where they predicted they would be). In the case of one task (prescriptions), most participants’ expectations of the module destination was different from what they experienced when using the app.`
+- `Nearly all participants expected to tap and then used the home screen modules successfully to begin their tasks (and arrived where they predicted they would be). In the case of one task (prescriptions), most participants’ expectations of the module destination was different from what they experienced when using the app. (They didn't expect to see the full list of prescriptions.)`
+- `6 of the 8 participants that saw Proof of Veteran status on homescreen commented on its usefulness`
 
 
 
@@ -229,7 +225,7 @@ Are there moments that matter?</summary>
 
 ---
 
-**We plan to incorporate insights to guide design decisions for homescreen and related actions so that we evolve designs based on Veterans' needs and expectations.** 
+**We plan to incorporate insights to guide design decisions for homescreen and related actions so that we evolve current design concepts based on Veterans' needs and expectations. Insights will impact amount and type of information displayed on homescreen, the organization of homescreen sections, and functionality including direct action from the homescreen on simple tasks versus going to the category screen.** 
 
 ---
 
@@ -276,7 +272,7 @@ Are there moments that matter?</summary>
 ---
 **Research goal 1: Understand users' expectations for homescreen content and navigation**
 1. Users will expect to find new content such as new Secure messages and items requiring their review and action on the homescreen.
-2. Users very familiar with the app will expect to find Veteran status card, dependents, and disability rating and payments on the homescreen as reflects the current layout.
+2. Users very familiar with the app will expect to find Veteran status card, dependents, and disability rating and payments on the homescreen as reflects the current live app layout.
 3. Users less familiar with the app will expect to find Veteran status card and dependents verification in Profile.
 4. Users less familiar with the app will expect to find disability payments and rating in Profile or in Payments.
 5. Users will sometimes want more information than is presented on homescreen to help them with some tasks such as managing prescriptions, due dates for Action required items, or for appointments preparation. 
@@ -306,7 +302,7 @@ Are there moments that matter?</summary>
 
 </details>
 
-This research will be a remote moderated study using Zoom. Participants will be guided to give general feedback on a medium-fidelity Figma prototype of the proposed homescreen redesign. Participants will then be asked for targeted feedback on where to find items moved off the homescreen with the redesign, and to try to complete the tasks of paying a copay and refilling a prescription directly from the homescreen through a newly designed user flow concept.  
+This research will be a remote moderated study using Zoom. Participants will be guided to give general feedback on a -fidelity Figma prototype of the proposed homescreen redesign. Participants will then be asked for targeted feedback on where to find items moved off the homescreen with the redesign, and to try to complete the tasks of paying a copay and refilling a prescription directly from the homescreen through a newly designed user flow concept.  
 
 <details><summary>Additional resources</summary> 
 	
