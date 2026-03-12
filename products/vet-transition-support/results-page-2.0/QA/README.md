@@ -49,10 +49,11 @@ We need to test all 8 test cases across the devices, operating systems, and brow
 ## Findings Summary
 | Test case No. |    Finding       | Device  | Operating System| Browser |Reporter | Resolution Ticket(s)| Status |
 |---------------|------------------|---------|-----------------|---------|---------|---------------------|--------|
-| 7 | "Clear all filters" button does not in fact clear all filters | all | all | all | AJ | [PTEMSVT-736](https://jira.devops.va.gov/browse/PTEMSVT-736) | In review |
-| All | Incorrect formatting on headers in benefit result cards | all | all | all | Jess | [PTEMSVT-747](https://jira.devops.va.gov/browse/PTEMSVT-747) | Pending dev |
-| All | Incorrect padding in benefit result cards | all | all | all | Jess | [PTEMSVT-748](https://jira.devops.va.gov/browse/PTEMSVT-748) | Pending dev |
-| NA | Test coverage expansion & fixes |  all | all | all | Mikal |[PTEMSVT-751](https://jira.devops.va.gov/browse/PTEMSVT-751)|In progress |
+| 7 | "Clear all filters" button does not in fact clear all filters | all | all | all | AJ | [PTEMSVT-736](https://jira.devops.va.gov/browse/PTEMSVT-736) | Resolved |
+| All | Incorrect formatting on headers in benefit result cards | all | all | all | Jess | [PTEMSVT-747](https://jira.devops.va.gov/browse/PTEMSVT-747) | In progress |
+| All | Incorrect padding in benefit result cards | all | all | all | Jess | [PTEMSVT-748](https://jira.devops.va.gov/browse/PTEMSVT-748) | In progress |
+| NA | Test coverage expansion & fixes |  all | all | all | Mikal |[PTEMSVT-751](https://jira.devops.va.gov/browse/PTEMSVT-751)| Resolved |
+| All | Filter menu on mobile flickering and collapsing incorrectly | iphone, desktop | all | discovered on chrome (confirmed on all) | Mikal & Theo |  [PTEMSVT-752](https://jira.devops.va.gov/browse/PTEMSVT-752) | In progress | 
 
 
 ## Platform QA Standards
