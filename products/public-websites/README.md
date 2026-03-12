@@ -42,15 +42,15 @@ Monitors for each product are described within product folders. e.g.
 | [Find a form / VA Forms (+ Forms DB import)](#find-a-form--va-forms) | [Translation React widgets](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/public-websites/README.md#translation-react-widgets) | [React widgets use within CMS](#react-widgets-use-within-cms) |
 | [Full-width Alert](#full-width-alert) |[Translation React widgets](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/public-websites/README.md#translation-react-widgets)  | [BTSSS react widget](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/travel-reimbursement-btsss) |
 | [VA.gov Homepage](#vagov-homepage) | . | [Promo Banner](#promo-banner) | 
-| [Outreach Materials Library (Publication listing & page)](#outreach-materials-library-publication-listing-page--publications) | . | . |
-| [Resources & Support](#resources-and-support) |  . | . |
+| [Outreach Materials Library (Publication listing & page)](#outreach-materials-library-publication-listing-page--publications) | . | On-site Search |
+| [Resources & Support](#resources-and-support) |  . | Global Header and footer |
 | [Reusable Q&A](#reusable-qa) | . | .  |
 | [Support Services](#resources-and-support) | . | .  |
 | [VA Benefits taxonomy](#va-benefits-taxonomy) | | 
-| - | - | On-site Search |
-| - | - | Global Header and footer |
-| - | - | [Event - Currently published Events](https://prod.cms.va.gov/admin/content??title=&type=event&moderation_state=published&owner=All) |
-| - | - | [Events listings](https://www.va.gov/outreach-and-events/events) |
+| - | - | - |
+| - | - | - |
+| - | - | - |
+| - | - | - |
 
 
 The Public Websites team also supports most of the portfolio of the previous Decision Tools and Search & Discovery Team products, which may include products not listed here that we are not yet aware of. 
@@ -59,37 +59,40 @@ The Public Websites team also supports most of the portfolio of the previous Dec
 <details><summary>List in accordion. Please update with any product ownership changes</summary>
     
 ### P1 Products
-- [ ] VA.gov homepage
-- [ ] Header / footer injection - https://benefits.va.gov
-- [ ] Find a Form - https://www.va.gov/find-forms/
-- [ ] Form detail page - e.g. https://www.va.gov/find-forms/about-form-21p-534/
-- [ ] Breadcrumbs on PW products
+- VA.gov homepage
+- Header / footer injection - https://benefits.va.gov
+- Find a Form - https://www.va.gov/find-forms/
+- Form detail page - e.g. https://www.va.gov/find-forms/about-form-21p-534/
+- Breadcrumbs on PW products
 
 ### CMS / Content driven products: 
-- [ ] Benefits Detail Page - e.g. https://www.va.gov/health-care/
-- [ ] Benefits Hub Landing Page - e.g. https://www.va.gov/health-care/about-va-health-benefits/
-- [ ] Campaign Landing Page - Currently published CLPs: https://prod.cms.va.gov/admin/content?title=&type=campaign_landing_page&moderation_state=published&owner=All
+- Benefits Detail Page - e.g. https://www.va.gov/health-care/
+- Benefits Hub Landing Page - e.g. https://www.va.gov/health-care/about-va-health-benefits/
+- Campaign Landing Page - Currently published CLPs: https://prod.cms.va.gov/admin/content?title=&type=campaign_landing_page&moderation_state=published&owner=All
 - Resources & Support content types
-    - [ ] FAQ page - CMS examples: https://prod.cms.va.gov/admin/content?title=&type=faq_multiple_q_a&moderation_state=published&owner=All
-    - [ ] Resources and Support Detail Page - CMS examples: https://prod.cms.va.gov/admin/content?title=&type=support_resources_detail_page&moderation_state=published&owner=All
-    - [ ] Reusable Q&A - CMS examples: https://prod.cms.va.gov/admin/content?title=&type=q_a&moderation_state=published&owner=All
-    - [ ] Checklist
-    - [ ] Video list
-    - [ ] Image list
-    - [ ] Step-by-step
-    - [ ] Checklist
-    - [ ] Support Services
-- [ ] Full width alert - [Currently published examples](https://prod.cms.va.gov/admin/content?title=&type=banner&moderation_state=published&owner=All)
-- [ ] Promo banner - [Currently published examples](https://prod.cms.va.gov/admin/content?title=&type=promo_banner&moderation_state=published&owner=All)
-- [ ] News block - (Currently published example: https://www.va.gov/ (the VA News block half-way down the page)
-- [ ] Outreach Hub (Until deprecation) - https://www.va.gov/outreach-and-events/outreach-materials/
-- [ ] Translations widget - e.g. https://www.va.gov/family-member-benefits/comprehensive-assistance-for-family-caregivers-esp/
-- [ ] VA Benefits taxonomy - (Drupal only) - https://prod.cms.va.gov/admin/structure/taxonomy/manage/va_benefits_taxonomy/overview
+  - Technical TL;DR: The Landing page and Taxonomy listing each relate to individual parts of R&S with their own unique logic and template, whereas the other 7 node types are all connected and share basically the same front-end logic and templates.
+    - R&S Article Detail page (e.g. https://www.va.gov/resources/how-to-create-an-idme-account-for-va/)
+      - Reusable Q&A: CMS examples: https://prod.cms.va.gov/admin/content?title=&type=q_a&moderation_state=published&owner=All
+      - FAQ page: CMS examples: https://prod.cms.va.gov/admin/content?title=&type=faq_multiple_q_a&moderation_state=published&owner=All
+      - Step-by-Step
+      - Checklist
+      - Video list
+      - Image list
+    - R&S landing page (https://www.va.gov/resources/)
+      - Landing page
+    - R&S tag listing page (e.g. https://www.va.gov/resources/va-account-and-profile/)
+      - Taxonomy listing 
+- Full width alert - [Currently published examples](https://prod.cms.va.gov/admin/content?title=&type=banner&moderation_state=published&owner=All)
+- Promo banner - [Currently published examples](https://prod.cms.va.gov/admin/content?title=&type=promo_banner&moderation_state=published&owner=All)
+- News block - (Currently published example: https://www.va.gov/ (the VA News block half-way down the page)
+- Outreach Hub (Until deprecation) - https://www.va.gov/outreach-and-events/outreach-materials/
+- Translations widget - e.g. https://www.va.gov/family-member-benefits/comprehensive-assistance-for-family-caregivers-esp/
+- VA Benefits taxonomy - (Drupal only) - https://prod.cms.va.gov/admin/structure/taxonomy/manage/va_benefits_taxonomy/overview
 
 ### React Applications: 
-- [ ] Discharge upgrade wizard - https://www.va.gov/discharge-upgrade-instructions/
-- [ ] Income Limits app - https://www.va.gov/health-care/income-limits/introduction
-- [ ] PACT Act app - Not released to Prod - mothballed (12/24): https://staging.va.gov/pact-act-eligibility/introduction
+- Discharge upgrade wizard - https://www.va.gov/discharge-upgrade-instructions/
+- Income Limits app - https://www.va.gov/health-care/income-limits/introduction
+- PACT Act app - Not released to Prod - mothballed (12/24): https://staging.va.gov/pact-act-eligibility/introduction
   
 </details>
 
@@ -355,14 +358,20 @@ As of Aug 2023, there is intent to deprecate Outreach Materials: https://github.
 * Primary editors: Sitewide Content team
 
 ## Resources and support
-Resources & Support is a broad category of content managed by the Sitewide Content team. R&S content on VA.gov all appear within the https://www.va.gov/resources/ area of the site, and use the `/resources` path. However, within Drupal, content in this area can be created using multiple different content types, including (in order of usage): 
-* FAQ
-* Resources & Support Detail pages
-* Reusable Q&A
-* Support service
-* Checklist - 12/24: 2 published in production
-* Image list - 12/24: none published in production
-* Media list - 12/24: none published in production
+Resources & Support is a broad category of content managed by the Sitewide Content team. R&S content on VA.gov all appear within the https://www.va.gov/resources/ area of the site, and use the `/resources` path. However, within Drupal, content in this area can be created using multiple different content types, including (in order of usage).
+
+Technical TL;DR: The Landing page and Taxonomy listing each relate to individual parts of R&S with their own unique logic and template, whereas the other 7 node types are all connected and share basically the same front-end logic and templates.
+    - R&S Article Detail page (e.g. https://www.va.gov/resources/how-to-create-an-idme-account-for-va/)
+      - Reusable Q&A: CMS examples: https://prod.cms.va.gov/admin/content?title=&type=q_a&moderation_state=published&owner=All
+      - FAQ page: CMS examples: https://prod.cms.va.gov/admin/content?title=&type=faq_multiple_q_a&moderation_state=published&owner=All
+      - Step-by-Step
+      - Checklist
+      - Video list
+      - Image list
+    - R&S landing page (https://www.va.gov/resources/)
+      - Landing page
+    - R&S tag listing page (e.g. https://www.va.gov/resources/va-account-and-profile/)
+      - Taxonomy listing  
 
 **Product documentaiton**
 * [Resources & Support Product Brief](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/resources-and-support)
