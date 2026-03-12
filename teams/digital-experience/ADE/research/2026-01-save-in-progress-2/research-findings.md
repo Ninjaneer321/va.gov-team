@@ -427,7 +427,7 @@ Eight participants said they wanted to be able to delete a form they started but
    - _Supporting evidence_: P3 had to keep moving his mouse in order to hear each of the 6 small segments of text in the "Finish later" informational alert.  
 
 #### For the ADE team
-1. **Explore opportunities to help Veterans who are struggling with their assistive tech and may be unaware of other options**. 
+5. **Explore opportunities to help Veterans who are struggling with their assistive tech and may be unaware of other options**. 
 
      - _Supporting evidence_: Two participants mentioned frustrations with their assistive tech and didn't know that a different tool might meet their needs better. 
      
@@ -439,7 +439,7 @@ Eight participants said they wanted to be able to delete a form they started but
 
 ### *Not* directly related to research goals
 #### For the Design System and Forms team
-1. **Consider making the "Back to previous page" link easier to notice**. The current font size is smaller than it should be--16 pixels instead of 16.96. Also could consider adding a second "Back to previous page" link on the bottom of the page. --> *Fix the font size bug*. 
+6. **Consider making the "Back to previous page" link easier to notice**. The current font size is smaller than it should be--16 pixels instead of 16.96. Also could consider adding a second "Back to previous page" link on the bottom of the page. --> *Fix the font size bug*. 
    - _Supporting evidence_: One non-AT participant said that they didn't notice this link at the top of the page because it was so small.  
 
 1. **Consider disabling the scrolling of accordions to the top of the viewport when you open an accordion on the "Review and submit" page**. --> *Remove scrollToFocus from all accordions on the page*
@@ -452,7 +452,7 @@ Eight participants said they wanted to be able to delete a form they started but
    - _Supporting evidence_: Some participants were confused about whether they needed to fill out fields that say neither "Required" nor "Optional", such as "VA file number".
 
 #### For the Content team
-1. **Consider revising the "Your full name" prompt on the "Review and submit" page to refer to what you entered before** (e.g., "Your name as entered earlier in the form")  
+10. **Consider revising the "Your full name" prompt on the "Review and submit" page to refer to what you entered before** (e.g., "Your name as entered earlier in the form")  
     - _Supporting evidence_: Participants didn't realize that the name that you enter for "Your full name" must exactly match what they entered as their name at the beginning of the form. One participant called out that "Full name" requires your full middle name, not just your middle initial, as the form asked for earlier.
 
 1. **Avoid using the phrases "My VA" and "form introduction" in Veteran-facing web pages because they're not intuitive.**
@@ -467,7 +467,7 @@ Eight participants said they wanted to be able to delete a form they started but
 
 #### For the Request Personal Records form
 
-1. **Consider adding details in the helper text about what types of information would be helpful to enter in the "Additional records information"** field.
+14. **Consider adding details in the helper text about what types of information would be helpful to enter in the "Additional records information"** field.
    - _Supporting evidence_: Three of 7 participants said that they didn't know what kind of information would be helpful to include.
 
 1. **Consider providing a dropdown list of VA regional offices from which users can select.**      
@@ -481,7 +481,7 @@ Eight participants said they wanted to be able to delete a form they started but
 
 
 #### For the ADE team
-1. **Consider researching the issue with Zoom silently kicking out an iPhone VoiceOver user** (iPhone 15 Pro running iOS 26.2 with both Safari and Chrome) to make sure this doesn't happen in Production and is only an issue with the Codespace. --> *Jeana is unable to reproduce this in our Codespace, on Staging, or on Production. Cindy will ask some people in ADE to try to reproduce the issue*.
+18. **Consider researching the issue with Zoom silently kicking out an iPhone VoiceOver user** (iPhone 15 Pro running iOS 26.2 with both Safari and Chrome) to make sure this doesn't happen in Production and is only an issue with the Codespace. --> *Jeana is unable to reproduce this in our Codespace, on Staging, or on Production. Cindy will ask some people in ADE to try to reproduce the issue*.
    - _Supporting evidence_: Zoom silently kicked p4 out of the session when he selected the "Sign in" or "Continue" button in the Codespace. 
   
 
