@@ -1,5 +1,22 @@
 P9 Transcript Redacted
-March 10, 2026
+
+| Date | 03-10-26 |
+| :---- | :---- |
+| **Gender** | Male |
+| **Age** | 65-69 |
+| **Race/ethnicity** | White or Caucasian |
+| **Education level** | Associate's degree, academic |
+| **Branch** | Navy |
+| **Location** | West |
+| **Device** | Desktop or laptop computer |
+| **Debts** | Disability compensation and pension overpayment |
+| **Payment plan** | Yes |
+| **Hardship statement** | I have never experienced financial hardship. |
+| **Income less than 50K?** | No |
+| **LGBTQ+** | No |
+| **Cognitive disability** | No |
+| **Resides** | Urban |
+
 
 1
 00:00:02.140 --> 00:00:07.870
