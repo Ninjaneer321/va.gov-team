@@ -45,14 +45,14 @@ Rick confirmed: **no new auth/API integration required** for this approach.
 - Veterans with an **already-approved CC consult** (CC eligibility already determined, consult already submitted) will see a combined view of:
   - Available community care providers within 25 miles for their care type
   - Available VA clinic options at the facility where the referral originated (Charleston or Atlanta)
-- Veteran self-schedules online — no staff phone call
+- Veteran self-schedules online no staff phone call
 - If a CC provider is not digitally connected (no online grid), surface their contact info so the veteran can call directly
 - Care types: **optometry and primary care only**
 - In-person appointments only (no telehealth for MVP)
-- VA clinic options follow existing direct scheduling eligibility logic (to be confirmed — see open items)
+- VA clinic options follow existing direct scheduling eligibility logic (to be confirmed)
 
 **Out of scope for May:**
-- Self-referring patients (PSDS flow) — requires sorting questions, being handled separately
+- Self-referring patients (PSDS flow) requires sorting questions, being handled separately
 - Sorting questions for optometry (not required when starting from an approved consult)
 - New entry points on My VA / MHV landing pages
 - Calendar redesign / fixes
@@ -61,22 +61,22 @@ Rick confirmed: **no new auth/API integration required** for this approach.
 - Full provider list (all EPS providers, not just referred one) future iteration
 
 **Mobile app:**
-- Still targeting May 13 but scope unconfirmed
+- Still targeting May 15 but scope unconfirmed
 
 ---
 
 ### Discussion Points
 
 **Sorting questions:**
-- For MVP starting from an approved consult, sorting questions are NOT required — the patient has already been identified as CC eligible
+- For MVP starting from an approved consult, sorting questions are NOT required, the patient has already been identified as CC eligible
 - If self-referral (PSDS) is added in the future, sorting questions would be required online
 - Mia and TT have different interpretations of whether PSDS patients should be able to self-schedule without a consult — being taken offline with OCTO
 
 **VA clinic eligibility logic:**
-- Current va.gov logic requires an established patient relationship between the veteran and a specific clinic for most specialty types (optometry, audiology, ophthalmology)
+- Current va.gov logic requires an established patient relationship between the veteran and a specific clinic for most specialty types
 - This may conflict with the goal of showing all available optometry clinics to a new patient coming in via CC consult
 - Mia flagged this should be consistent: if a patient can walk in new to optometry (PSDS), they should be able to self-schedule new as well
-- To be discussed offline with OCTO — logic may need to be adjusted for pilot sites
+- To be discussed offline with OCTO logic may need to be adjusted for pilot sites
 
 **Non-digitally connected providers:**
 - Rick proposed: if a veteran selects a provider without a digital grid, surface their contact information so the veteran can call to schedule themselves
