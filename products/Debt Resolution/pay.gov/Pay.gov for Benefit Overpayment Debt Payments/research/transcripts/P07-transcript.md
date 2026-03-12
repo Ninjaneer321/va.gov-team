@@ -1,5 +1,23 @@
 P7 Transcript - redacted
 
+| Date | 03-05-26 |
+| :---- | :---- |
+| **Gender** | Male |
+| **Age** | 35-39 |
+| **Race/ethnicity** | Black or African American |
+| **Education level** | Bachelor's degree |
+| **Branch** | Marine Corps |
+| **Location** | Southwest |
+| **Device** | Desktop or laptop computer |
+| **Debts** | Post-9/11 GI Bill overpayment (books and supplies, housing, or tuition) |
+| **Payment plan** | Yes |
+| **Hardship statement** | I am currently experiencing financial hardship. \-I have experienced financial hardship in the past. |
+| **Income less than 50K?** | Yes |
+| **LGBTQ+** | No |
+| **Cognitive disability** | Yes |
+| **Resides** | Urban |
+
+
 1
 00:00:02.230 --> 00:00:07.590
 Moderator: So, I'd like to confirm, are you comfortable if I record my screen and audio as we talk today?
