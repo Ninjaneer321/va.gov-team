@@ -1,5 +1,21 @@
 P3 – transcript redacted
-03.03.26
+
+| Date | 03-03-26 |
+| :---- | :---- |
+| **Gender** | Male |
+| **Age** | 40-44 |
+| **Race/ethnicity** | American Indian or Alaska Native |
+| **Education level** | Some college, no college degree |
+| **Branch** | Coast Guard |
+| **Location** | Midwest |
+| **Device** | Smartphone |
+| **Debts** | Post-9/11 GI Bill overpayment (books and supplies, housing, or tuition) |
+| **Payment plan** | Yes |
+| **Hardship statement** | I have never experienced financial hardship. |
+| **Income less than 50K?** | No |
+| **LGBTQ+** | No |
+| **Cognitive disability** | Yes |
+| **Resides** | Rural |
 
 1
 00:00:02.330 --> 00:00:08.450
