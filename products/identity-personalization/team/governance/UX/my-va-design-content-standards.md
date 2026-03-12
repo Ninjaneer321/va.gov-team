@@ -114,7 +114,7 @@ Below are sections that have individual guidance. [Universal standards](#univers
 
 #### Claims and appeals card  
 
-Cards are made up of 4 sections:
+Cards are made up of 3 sections:
 
 1. (Required) Card header to include  
    1.  Claim or appeal title  
