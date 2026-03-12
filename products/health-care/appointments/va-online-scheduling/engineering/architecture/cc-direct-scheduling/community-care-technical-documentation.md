@@ -74,7 +74,7 @@ graph TB
     end
 
     subgraph "VA Systems (Expansion)"
-        LIGHTHOUSE[Lighthouse Facilities API<br/>VA facility discovery by address]
+        LIGHTHOUSE[VA Facilities API aka Lighthouse<br/>Facility discovery by address]
         VAOS_UPSTREAM[VAOS / VPG Upstream<br/>Clinics, slots, eligibility, appointments]
     end
 
@@ -1093,7 +1093,8 @@ sequenceDiagram
     - https://wellhive.github.io/api-docs/
 
 ### Additional Integration Points (Expansion)
-4. Lighthouse Facilities API: For VA facility discovery by veteran's residential address within 25-mile default radius (used by unified provider search)
+4. VA Facilities API (Lighthouse): For VA facility discovery by veteran's residential address within 25-mile default radius (used by unified provider search)
+    - https://developer.va.gov/explore/api/va-facilities
 5. VAOS / VPG Upstream: For VA clinic listings, slot availability, eligibility checks, and direct appointment creation (called via existing VAOS services, not modified)
 
 ## Performance Considerations
