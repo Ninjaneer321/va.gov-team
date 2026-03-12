@@ -78,7 +78,7 @@ recruitment:
     - question: "What is your service-related disability rating?"
       qualifying_response: "10% or higher"
     - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
-      qualifying_response: "Yes (qualify and recruit at least 3) or No (qualify)"
+      qualifying_response: "Yes (qualify and recruit at least 5) or No (qualify)"
 
 participants:
   veterans: 14
@@ -462,7 +462,7 @@ During the session:
 - I don't know my rating: Disqualify
 
 **4. Do you find it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these.** (Recruit mix)
-- Yes: Qualify; Recruit at least 3
+- Yes: Qualify; Recruit at least 5
 - No: Qualify
 
 
