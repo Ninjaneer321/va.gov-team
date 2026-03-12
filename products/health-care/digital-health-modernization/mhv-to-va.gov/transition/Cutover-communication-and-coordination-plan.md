@@ -27,7 +27,7 @@ For every task listed below, the responsible team member should post **two updat
 If a task encounters a problem or delay, post immediately:
 > `🚨 ISSUE | T-0 | [Brief description of problem] | [Name] — escalating to [contact]`
 
-For tasks that also need to be reported out on the **Oracle bridge line**, the person responsible should post in Slack first, then report on the bridge line.
+For tasks that also need to be reported out on the **Oracle bridge line**, the person responsible should post in Slack first, then coordinate with POC to report on the bridge line.
 
 ---
 
