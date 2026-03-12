@@ -64,7 +64,7 @@ This is the highest-coordination period. All updates go to Slack **and** the Ora
 
 Once the interface is live, a production validation step is required to officially mark VA.gov as **"Operational"** in the Oracle cutover dashboard. This is tracked in the Oracle cutover plan as a "Production Validation" step.
 
-- VA.gov/OCTO will use **trusted users** (VA staff who are also veterans at Michigan facilities - already identified) to validate that the experience is working as expected after go-live
+- VA.gov/OCTO will use **trusted users** (VA staff who are also Veterans at Michigan facilities - already identified) to validate that the experience is working as expected after go-live
 - Once validated, report **✅ VALIDATED — VA.gov operational** in Slack and on the bridge line
 - Larry Thorne can assist with tagging this step in the Oracle cutover plan so it reflects as validated on the dashboard
 
