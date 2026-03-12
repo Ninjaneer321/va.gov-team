@@ -12,7 +12,7 @@ Last updated: March 2026
 
 * [Claims and appeals](#claims-and-appeals)
 
-   * [What the claim and appeals section is NOT …](#what-the-claim-and-appeals-section-is-not-…)
+   * [What the claim and appeals section is NOT …](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/UX/my-va-design-content-standards.md#what-the-claim-and-appeals-section-is-not-)
 
    * [Content standards](#content-standards)
 
@@ -24,7 +24,7 @@ Last updated: March 2026
 
 * [Forms and applications](#forms-and-applications)
 
-   * [What the forms and applications section is NOT …](#what-the-forms-and-applications-section-is-not-…)
+   * [What the forms and applications section is NOT …](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/UX/my-va-design-content-standards.md#what-the-forms-and-applications-section-is-not-)
 
    * [Content standards](#content-standards-1)
 
@@ -74,9 +74,9 @@ Last updated: March 2026
 
    * [Warning alerts](#warning-alerts)
 
-   * [System down, page level error](#system-down,-page-level-error)
+   * [System down, page level error](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/UX/my-va-design-content-standards.md#system-down-page-level-error)
 
-   * [System down, page section error](#full-api-system-down,-page-section-error)
+   * [System down, page section error](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/UX/my-va-design-content-standards.md#full-api-system-down-page-section-error-full-api-system-down-page-section-error)
 
 # 
 
