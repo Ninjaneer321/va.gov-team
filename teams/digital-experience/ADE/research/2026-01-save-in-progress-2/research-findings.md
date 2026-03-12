@@ -423,7 +423,7 @@ Eight participants said they wanted to be able to delete a form they started but
 1. **Consider moving the accordion controls to the left side so as to increase visibility for screen magnifier users who may not see any controls on the right.** --> *Cindy shared this finding with Chandra Carney from the US Web Design System team on 2/17/2026 via email, but hasn't yet received a reply.*
    - _Supporting evidence_: 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side, including the participant who was using a screen magnifier.
 
-1. **Update the source code so that the "Finish later" message is read as one continuous sentence** (vs. separate chunks, which causes the browser to display them on separate lines, which caused pauses with mouse echo). --> *Feature request for the forms library*
+1. **Try to update the source code so that the "Finish later" message is read as one continuous sentence** (vs. separate chunks, which causes the browser to display them on separate lines, which caused pauses with mouse echo). --> *Feature request for the Forms Library*
    - _Supporting evidence_: P3 had to keep moving his mouse in order to hear each of the 6 small segments of text in the "Finish later" informational alert.  
 
 #### For the ADE team
@@ -473,7 +473,7 @@ Eight participants said they wanted to be able to delete a form they started but
 1. **Consider separating the "Place of birth" field into separate "City" and "State" fields** (and "Country"?).
      - _Supporting evidence_: One participant was unsure how to enter both city and state into the "Place of birth" field because it's a single text box. A participant in the previous round of usability testing expressed the same concern.
 
-1. **Prioritize adding the prefill pattern to this form**. --> *The Design System and Forms team is finalizing the Prefill pattern in the forms library so that all teams will be able to easily add it to their forms. Existing forms will need some code refactoring.*
+1. **Prioritize adding the prefill pattern to this form**. --> *The Design System and Forms team is finalizing the Prefill pattern in the Forms Library so that all teams will be able to easily add it to their forms. Existing forms will need some code refactoring.*
      - _Supporting evidence_: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. A participant in the previous round of usability testing stated the same expectation.
 
 1. **Consider keeping the accordions in the "Review and submit" page.**
