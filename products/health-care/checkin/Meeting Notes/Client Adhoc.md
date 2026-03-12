@@ -1,4 +1,4 @@
-## Community Care Combined Scheduling — Stakeholder Sync
+## Community Care Combined Scheduling-Stakeholder Sync
 ## March 12, 2026
 
 ### Initiative Goals (Confirmed???)
@@ -22,7 +22,7 @@ The current CC scheduling process has a circular dependency:
 
 This is what drives the manual phone call and the current "wacky" process.
 
-**Key clarification:** A referral number IS actually generated in HSRM as soon as a Community Care consult is submitted — it just isn't published or accessible yet at that point.
+**Key clarification:** A referral number IS actually generated in HSRM as soon as a Community Care consult is submitted, it just isn't published or accessible yet at that point.
 
 ---
 
