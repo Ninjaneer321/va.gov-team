@@ -318,7 +318,7 @@ Eight participants said they wanted to be able to delete a form they started but
 
         > *"I'd like to read it all, but I don't know how to make it do that...It will only let me highlight the first item that appears…'3 of 6 records requested.' Okay, so there's way more information than what you just heard. It looks like it's gonna make me highlight every little bit. I like to do the whole page" (p6).*
 
-        P6's phone is reading only one item at a time because it's reading the one checkbox option that he's currently selecting, which is expected behavior.     He didn't know that a screenreader would enable him to read everything on the page.
+        P6's phone read only one item at a time because it was reading the one checkbox option that he had currently selected, which is expected behavior. He didn't know that a screenreader would enable him to read everything on the page without highlighting text.
 
      1. P8 with low vision was using the TalkBack screenreader on his Android phone to qualify for the AT session, but normally he uses it only as a last resort. He **dislikes TalkBack because it talks too much, is difficult to stop, and scrolling is different**. He didn't know that there were tools that can read text for you without announcing so much about the page and navigation. 
 
@@ -437,9 +437,6 @@ Eight participants said they wanted to be able to delete a form they started but
      1. Consider adding messaging on VA.gov about how to better use the website (i.e., see this page on [gov.uk](https://www.gov.uk/help/accessibility-statement#how-you-should-be-able-to-use-this-website)). Could maybe add to the [508 compliance (Accessibility) page](https://www.va.gov/accessibility-at-va/) --> *Create a ticket to discuss with Danielle.*
      1. Learn more about Veterans' needs by conducting a survey of Veterans who are blind or low vision about their AT tools and experiences with VA.gov. --> *Future work for Cindy*
 
-
-
-
 ### *Not* directly related to research goals
 #### For the Design System and Forms team
 1. **Consider making the "Back to previous page" link easier to notice**. The current font size is smaller than it should be--16 pixels instead of 16.96. Also could consider adding a second "Back to previous page" link on the bottom of the page. --> *Fix the font size bug*. 
@@ -478,11 +475,6 @@ Eight participants said they wanted to be able to delete a form they started but
 
 1. **Prioritize adding the prefill pattern to this form**. --> *The Design System and Forms team is finalizing the prefill pattern in the Forms Library, and then all teams will be able to easily add it to their forms. Existing forms will need some code refactoring.*
      - _Supporting evidence_: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. A participant in the previous round of usability testing stated the same expectation.
-
-1. **Consider keeping the accordions in the "Review and submit" page.**
-   - _Supporting evidence:_ One participant said that he never uses "Expand all" because he gets too overwhelmed by the length of what might expand, so he prefers to expand each accordion, one at a time.
-
-
 
 14. **Consider revising the "Your full name" prompt on the "Review and submit" page** to include a reference to what you entered before: "Your name as entered previously", **and also consider changing the "Middle initial" prompt to "Middle name"**.
     - _Supporting evidence_: Participants didn't realize that the name that you enter for "Your full name" must exactly match what they entered as their name at the beginning of the form. One participant called out that "Full name" requires your full middle name, not just your middle initial, as asked for earlier.
