@@ -1,3 +1,23 @@
+P6 Transcript
+
+
+| Date | 03-04-26 |
+| :---- | :---- |
+| **Gender** | Male |
+| **Age** | 40-44 |
+| **Race/ethnicity** | Black or African American |
+| **Education level** | Some college, no college degree |
+| **Branch** | Army |
+| **Location** | Northeast |
+| **Device** | Desktop or laptop computer |
+| **Debts** | Chapter 35 education overpayment |
+| **Payment plan** | Yes |
+| **Hardship statement** | I am currently experiencing financial hardship. |
+| **Income less than 50K?** | Yes |
+| **LGBTQ+** | No |
+| **Cognitive disability** | No |
+| **Resides** | Rural |
+
 1
 00:00:02.410 --> 00:00:07.799
 Moderator: So, just want to confirm, are you comfortable if I record my screen and the audio as we talk today?
