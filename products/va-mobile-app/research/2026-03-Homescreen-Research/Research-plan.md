@@ -9,7 +9,7 @@ product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "VA Health and Benefits Mobile App has limited real estate on the homescreen. The team seeks to understand whether planned homescreen design concepts align with Veterans' expectations and priorities and successfully help Veterans access key information and complete important tasks."
+  problem_statement: "VA Health and Benefits Mobile App has limited real estate on the homescreen, and additional features expected to be added this will will further take up homescreen space. The team seeks to understand whether planned homescreen design concepts align with Veterans' expectations and priorities and successfully help Veterans access key information and complete important tasks."
   product_location: "VA Health and Benefits Mobile App (authenticated experience)"
   user_familiarity: "Iteration on existing product that Veterans currently use"
   product_brief_url: "https://github.com/department-of-veterans-affairs/va-mobile-app/issues/11464"
@@ -156,7 +156,7 @@ tags:
 	
 `What problem is your product trying to solve?`
 
-**VAHB Mobile app has limited real estate on the homescreen. The team seeks to understand whether planned homescreen design concepts align with Veterans expectations and priorities and successfully helps them complete tasks.**
+**VA Health and Benefits Mobile App has limited real estate on the homescreen, and additional features expected to be added this will will further take up homescreen space. The team seeks to understand whether planned homescreen design concepts align with Veterans expectations and priorities and successfully helps them complete tasks.**
   
 `Where is your product situated on VA.gov? (ex: auth vs. unauth)`
 
