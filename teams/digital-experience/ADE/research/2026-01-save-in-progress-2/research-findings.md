@@ -445,11 +445,11 @@ Eight participants said they wanted to be able to delete a form they started but
 1. **Consider disabling the scrolling of accordions to the top of the viewport when you open an accordion on the "Review and submit" page**. --> *Remove scrollToFocus from all accordions on the page*
    - _Supporting evidence_: The scrolling is disorienting when focus lands on  content that isn't in the accordion (e.g., "Statement of truth" when you open the "Additional information" accordion) or scrolls so far that the accordion content is no longer in view when using a screen magnifier.  
 
-1. **Make the capitalization for "VA file number" consistent on the "SSN/VA file number" page**.
+1. **Fix the capitalization of "VA file number" in the hint text on the "SSN/VA file number" page**. --> *Fix this bug*
    - _Supporting evidence_:  The prompt "VA file number" has only "VA" capitalized, but the hint text also capitalizes the word "File".
 
-1. **Standardize whether the word "optional" will be always or never be shown**, and be consistent about it.
-   - _Supporting evidence_: Some participants were confused about whether they needed to fill out fields that say neither "Required" nor "optional", such as "VA file number".
+1. **Be consistent about indicating optional fields**. --> *Fix bug: Remove the word "optional" from the 'Additional records information' and 'VA regional office' fields , per current Collaboration Cycle guidance*
+   - _Supporting evidence_: Some participants were confused about whether they needed to fill out fields that say neither "Required" nor "Optional", such as "VA file number".
 
 #### For the Content team
 1. **Avoid using the phrases "My VA" and "form introduction" in Veteran-facing web pages because they're not intuitive.**
@@ -473,7 +473,7 @@ Eight participants said they wanted to be able to delete a form they started but
 1. **Consider separating the "Place of birth" field into separate "City" and "State" fields** (and "Country"?).
      - _Supporting evidence_: One participant was unsure how to enter both city and state into the "Place of birth" field because it's a single text box. A participant in the previous round of usability testing expressed the same concern.
 
-1. **Consider prefilling the Veteran's name, address, and other information** after they've signed in. --> *The Design System and Forms team is finalizing the Prefill component in the forms library so that all teams will be able to easily and automatically prefill in their forms. Existing forms will need some code refactoring.*
+1. **Prioritize adding the prefill pattern to this form**. --> *The Design System and Forms team is finalizing the Prefill pattern in the forms library so that all teams will be able to easily add it to their forms. Existing forms will need some code refactoring.*
      - _Supporting evidence_: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. A participant in the previous round of usability testing stated the same expectation.
 
 1. **Consider keeping the accordions in the "Review and submit" page.**
