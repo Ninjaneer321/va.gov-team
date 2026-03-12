@@ -1,5 +1,21 @@
 Participant 2 – Transcript
-03-02-26
+
+| Date | 03-02-26 |
+| :---- | :---- |
+| **Gender** | Female |
+| **Age** | 55-59 |
+| **Race/ethnicity** | White or Caucasian |
+| **Education level** | Master's degree, Master’s degree |
+| **Branch** | Marine Corps, Navy |
+| **Location** | West |
+| **Device** | Desktop or laptop computer |
+| **Debts** | Disability compensation and pension overpayment |
+| **Payment plan** | Yes |
+| **Hardship statement** | I have experienced financial hardship. |
+| **Income less than 50K?** | No |
+| **LGBTQ+** | No |
+| **Cognitive disability** | No |
+| **Resides** | Urban |
 
 1
 00:00:00.000 --> 00:00:01.310
