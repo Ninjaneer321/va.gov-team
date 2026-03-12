@@ -315,7 +315,7 @@ The copay bills card displays the most up to date number of copay bills. The car
 | When to use | When the  entire page of My VA is down. |
 | Content | Header: This page isn't working right now Body: We're sorry. Something went wrong on our end. Refresh this page or try again later. |
 
-##### Full API system down, page section error {#full-api-system-down,-page-section-error}
+##### Full API system down, page section error
 
 | Component | Warning alert slim |
 | :---- | :---- |
