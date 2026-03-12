@@ -9,6 +9,9 @@ assignees: artsymartha68, lakper, sara-amanda
 
 # ADE Plus + Testing
 
+> [!CAUTION]
+> THIS IS A WIP DRAFT ONLY
+
 - **Product/Feature:** [Name]
 - **Product Team:** [Team Name]
 - **Test Date:** YYYY-MM-DD
@@ -1553,6 +1556,9 @@ If a test **fails**, expand the Details section below the table and fill in the 
 | Post-launch defects (a11y-defect-2, a11y-defect-3, a11y-defect-4) | |
 
 ## Defect severity reference
+
+> [!CAUTION]
+> THIS IS SUBJECT TO CHANGE AND BEING DISCUSSED. 
 
 | Category | VA Defect Level | Severity | Timeline | Description |
 |----------|-----------------|----------|----------|-------------|
