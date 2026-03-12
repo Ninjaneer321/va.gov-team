@@ -149,32 +149,71 @@ The card in the Disability rating section appears with the most up to date disab
 
 #### In-progress cards 
 
-Cards appear in chronological order within this subsection, with the newest information presented first. Cards have 4 sections:
+Cards appear in chronological order within this subsection, with the newest information presented first. Information that can change per form is shown in brackets in the Figma files, and marked as Editable in the following list. Cards have the following sections:
 
-1. (Required) Card status tag (DRAFT or ACTION NEEDED)  
-2. (Required) Card header (Form name)  
+##### DRAFT status
+
+1. (Required) Card status tag (DRAFT)  
+2. (Required, Editable) Card header (Form name)  
 3. (Required) Card body text to include  
-   1. Form number   
+   1. (Editable) Form number   
    2. Application expiration date  
    3. Last save date  
 4. (Required) Link text   
    1. Links user to in progress application or form
 
-#### Completed forms cards  
+##### ACTION NEEDED status
 
-Cards appear in chronological order within this subsection, with the newest information presented first. Cards have 4 sections:
+1. (Required) Card status tag (ACTION NEEDED)  
+2. (Required, Editable) Card header (Form name)  
+3. (Required) Card body text to include  
+   1. (Editable) Form number   
+4. (IF form has PDF download option) PDF link  
+   1. Links to user to view their completed form in a new window   
+   2. The PDF link expires after 30 minutes of inactivity. The link automatically renews at 29 minutes. No actions are required from the user to update the link.  
+5. (Required) Card body text to include  
+   1. Submitted on date  
+   2. Submission failed on date  
+6. (Required) Alert  
+   1. Instructs user to call the help desk to proceed  
+   2. (Editable) Phone number, dates, and times only
 
-1. (Required) Card status tag (SUBMISSION IN PROGRESS or RECEIVED)  
-2. (Required) Card header (Form name)  
-3. (IF form is in LH BH API) PDF link  
+#### Completed forms cards  {#completed-forms-cards}
+
+Cards appear in chronological order within this subsection, with the newest information presented first. Information that can change per form is shown in brackets in the Figma files, and marked as Editable in the following list. Cards have the following sections:
+
+##### SUBMISSION IN PROGRESS status
+
+1. (Required) Card status tag (SUBMISSION IN PROGRESS)  
+2. (Required, Editable) Card header (Form name)  
+3. (Required) Card body text to include  
+   1. (Editable) Form number  
+4. (IF form has PDF download option) PDF link  
    1. Links to user to view their completed form in a new window   
    2. The PDF link expires after 30 minutes of inactivity. The link automatically renews at 29 minutes. No actions are required from the user to update the link.    
-4. (Required) Card body text to include  
+5. (Required) Card body text to include  
+   1. Submitted on date  
+   2. Next step  
+      1. (Editable) Number of days only  
+   3. Help desk number  
+      1. (Editable) Phone number, dates, and times only
+
+##### RECEIVED status
+
+1. (Required) Card status tag (RECEIVED)  
+2. (Required, Editable) Card header (Form name)  
+3. (Required) Card body text to include  
+   1. (Editable) Form number  
+4. (IF form has PDF download option) PDF link  
+   1. Links to user to view their completed form in a new window   
+   2. The PDF link expires after 30 minutes of inactivity. The link automatically renews at 29 minutes. No actions are required from the user to update the link.    
+5. (Required) Card body text to include  
    1. Submitted on date  
    2. Received on date  
-   3. Download available date  
-   4. Next step  
-   5. Help desk number
+   3. Next step  
+   4. Help desk number  
+      1. (Editable) Phone number, dates, and times only
+
 
 ## Health care 
 
