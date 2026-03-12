@@ -452,6 +452,9 @@ Eight participants said they wanted to be able to delete a form they started but
    - _Supporting evidence_: Some participants were confused about whether they needed to fill out fields that say neither "Required" nor "Optional", such as "VA file number".
 
 #### For the Content team
+1. **Consider revising the "Your full name" prompt on the "Review and submit" page to refer to what you entered before** (e.g., "Your name as entered earlier in the form")  
+    - _Supporting evidence_: Participants didn't realize that the name that you enter for "Your full name" must exactly match what they entered as their name at the beginning of the form. One participant called out that "Full name" requires your full middle name, not just your middle initial, as the form asked for earlier.
+
 1. **Avoid using the phrases "My VA" and "form introduction" in Veteran-facing web pages because they're not intuitive.**
    - _Supporting evidence:_ 4 of 8 participants didn't know what these phrases meant when seeing them in links on the interstitial page.
 
@@ -476,8 +479,6 @@ Eight participants said they wanted to be able to delete a form they started but
 1. **Prioritize adding the prefill pattern to this form**. --> *The Design System and Forms team is finalizing the prefill pattern in the Forms Library, and then all teams will be able to easily add it to their forms. Existing forms will need some code refactoring.*
      - _Supporting evidence_: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. A participant in the previous round of usability testing stated the same expectation.
 
-14. **Consider revising the "Your full name" prompt on the "Review and submit" page** to include a reference to what you entered before: "Your name as entered previously", **and also consider changing the "Middle initial" prompt to "Middle name"**.
-    - _Supporting evidence_: Participants didn't realize that the name that you enter for "Your full name" must exactly match what they entered as their name at the beginning of the form. One participant called out that "Full name" requires your full middle name, not just your middle initial, as asked for earlier.
 
 #### For the ADE team
 1. **Consider researching the issue with Zoom silently kicking out an iPhone VoiceOver user** (iPhone 15 Pro running iOS 26.2 with both Safari and Chrome) to make sure this doesn't happen in Production and is only an issue with the Codespace. --> *Jeana is unable to reproduce this in our Codespace, on Staging, or on Production. Cindy will ask some people in ADE to try to reproduce the issue*.
