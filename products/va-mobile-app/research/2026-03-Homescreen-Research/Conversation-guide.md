@@ -251,8 +251,9 @@ Next, let's take another look at the Action required section.
 7. [If needed] What do you expect to happen when you tap the pay copay button?
    *Direct to tap pay copay button if needed. Direct participant to complete pay copay flow and return to Homescreen.*
 8. What did you think about that process?
-9. What worked well?
-10. What could be improved?
+9. If you wanted to see confirmation of the copay payment you just did or your full history of copayments, where would you go?
+10. What worked well?
+11. What could be improved?
    
 > [!NOTE]
 > ### Things to watch for:
