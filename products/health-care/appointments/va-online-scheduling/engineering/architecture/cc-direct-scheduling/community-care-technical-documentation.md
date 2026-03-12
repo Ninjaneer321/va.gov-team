@@ -61,7 +61,7 @@ graph TB
 
 ### Unified Scheduling System Architecture (Expansion)
 
-The following diagram extends the existing architecture to include the unified scheduling flow. This expansion adds the Lighthouse Facilities API for VA facility discovery by location, the VAOS upstream service for VA direct scheduling (clinics, slots, eligibility, and appointment creation), and a unified orchestration layer within vets-api that merges both VA and EPS providers into a single search and booking experience. All existing CC/referral paths remain unchanged.
+The following diagram extends the existing architecture to include the unified scheduling flow. This expansion adds the Lighthouse Facilities API for VA facility discovery by location, the VAOS upstream service for VA direct scheduling (clinics, slots, eligibility, and appointment creation), and a unified orchestration layer within vets-api that merges both VA and EPS providers into a single provider list for the veteran. The flow remains referral-driven — the veteran's referral determines the category of care and the primary matched provider, while the unified list surfaces additional VA facilities and CC providers nearby that offer the same service. All existing CC/referral paths remain as documented for reference, but the unified provider list replaces the previous EPS-only provider display.
 
 ```mermaid
 graph TB
@@ -74,7 +74,7 @@ graph TB
     end
 
     subgraph "VA Systems (Expansion)"
-        LIGHTHOUSE[Lighthouse Facilities API<br/>Facility discovery by address/coordinates]
+        LIGHTHOUSE[Lighthouse Facilities API<br/>VA facility discovery by address]
         VAOS_UPSTREAM[VAOS / VPG Upstream<br/>Clinics, slots, eligibility, appointments]
     end
 
@@ -87,31 +87,33 @@ graph TB
         subgraph "vets-api"
             VA_API_EXISTING[Existing VAOS Services<br/>AppointmentsService, SystemsService,<br/>MobileFacilityService]
             VA_API_EPS[Existing EPS Services<br/>Eps::AppointmentService,<br/>Eps::ProviderService]
+            VA_API_CCRA[Existing CCRA/MAP Services<br/>Referral data, category of care]
             VA_API_UNIFIED[Unified Orchestration Layer<br/>BaseProvider, SlotAdapter,<br/>BaseBookingService]
         end
     end
 
-    User -->|HTTPS| VW
+    User -->|SMS/Email link or<br/>direct navigation| VW
     VW -->|HTTPS| VA_API_UNIFIED
 
-    VA_API_UNIFIED -->|VA facility search| LIGHTHOUSE
+    VA_API_UNIFIED -->|Referral + category of care| VA_API_CCRA
+    VA_API_CCRA -->|Fetch referrals| MAP
+    MAP -->|Retrieves Referral Data| HSRM
+
+    VA_API_UNIFIED -->|VA facilities near veteran<br/>filtered by service type| LIGHTHOUSE
     VA_API_UNIFIED -->|VA clinics, slots, booking| VA_API_EXISTING
-    VA_API_UNIFIED -->|CC provider search, slots, booking| VA_API_EPS
+    VA_API_UNIFIED -->|CC providers near veteran<br/>filtered by specialty| VA_API_EPS
 
     VA_API_EXISTING -->|Clinics, slots, eligibility,<br/>direct schedule| VAOS_UPSTREAM
     VA_API_EPS -->|Provider search, slots,<br/>draft/submit| EPS
 
-    VA_API_EXISTING -->|Send Notifications| VA_NOTIFY
-    VA_API_EPS -->|Send Notifications| VA_NOTIFY
-    VA_API_EXISTING -->|Access Referral Data| MAP
-    MAP -->|Retrieves Referral Data| HSRM
+    VA_API_UNIFIED -->|Booking confirmations| VA_NOTIFY
     EPS -- "Manual Entry (Air Gap)" --> HSRM
 
     classDef vaSystem fill:#e6f3ff,stroke:#333,stroke-width:2px;
     classDef expansion fill:#e6ffe6,stroke:#2d8a2d,stroke-width:2px;
     classDef external fill:#f9f9f9,stroke:#333,stroke-width:2px;
     classDef unified fill:#fff3e6,stroke:#cc7a00,stroke-width:2px;
-    class VW,VA_NOTIFY,VA_API_EXISTING,VA_API_EPS vaSystem;
+    class VW,VA_NOTIFY,VA_API_EXISTING,VA_API_EPS,VA_API_CCRA vaSystem;
     class LIGHTHOUSE,VAOS_UPSTREAM expansion;
     class MAP,EPS,HSRM external;
     class VA_API_UNIFIED unified;
@@ -177,6 +179,7 @@ classDiagram
         +scheduling_config: Hash
         +facility_type: String
         +provider_type = "va"
+        +kind = "clinic"
         +from_lighthouse_facility(facility) VaProvider
     }
 
@@ -234,12 +237,12 @@ classDiagram
         +book(provider, slot, params) AppointmentConfirmation
         #log_booking_attempt()
         #handle_error(error)
+        #send_confirmation_email(appointment)
     }
 
     class VaBookingService {
         -appointments_service: AppointmentsService
         +book(provider, slot, params) AppointmentConfirmation
-        -determine_kind(provider, params) String
         -build_va_params(provider, slot, params) Hash
     }
 
@@ -257,6 +260,8 @@ classDiagram
     VaBookingService ..> AppointmentsService : delegates to (not modified)
     EpsBookingService ..> EpsAppointmentService : delegates to (not modified)
 ```
+
+**Note:** Both booking services send confirmation emails via VA Notify through the base class. For VA bookings this happens immediately after the synchronous booking succeeds. For EPS bookings this happens via the existing Sidekiq polling job after async confirmation.
 
 ## Sequence Diagrams
 
@@ -351,81 +356,101 @@ sequenceDiagram
 
 ### Unified Provider Search & Booking Flow (Expansion)
 
-This sequence diagram describes the new unified scheduling flow where a veteran searches for providers by location and receives both VA facilities and EPS community care providers in a single list. The veteran selects a provider, picks a time slot, and books — with the backend routing to the correct booking path (VA direct schedule or EPS draft/submit) transparently. This flow runs alongside the existing referral-based CC flow above; it does not replace it.
+This sequence diagram describes the unified scheduling flow that replaces the EPS-only provider display. The veteran still enters through the same referral-driven path (SMS/email notification or direct navigation to the Referrals and Requests page). When the veteran selects a referral and begins scheduling, the system uses the referral's category of care and the veteran's residential address (from their profile) to search for both the referral's matched CC provider (pinned to the top), additional CC providers with the same specialty, and VA facilities offering the same service type — all within a 25-mile radius. The veteran selects a provider, picks a time slot, and books. The backend routes to the correct booking path (VA direct schedule or EPS draft/submit) transparently.
 
 ```mermaid
 sequenceDiagram
     participant User
     participant FE as vets-website
     participant API as vets-api<br/>(Unified Layer)
+    participant CCRA as CCRA / MAP
     participant LH as Lighthouse<br/>Facilities API
-    participant VAOS as VAOS / VPG<br/>Upstream
+    participant VAOS as VAOS / VPG
     participant EPS as EPS System
+    participant VANotify as VA Notify
 
-    Note over User: Unified Provider Search
-    User->>FE: Enter address / use current location
-    FE->>API: GET /vaos/v2/unified/providers?lat=...&long=...&radius=...
+    Note over User: User receives SMS/Email or<br/>navigates to Referrals and Requests page
+    User->>FE: Opens referrals and requests page
+    FE->>API: GET /vaos/v2/referrals
+    API->>CCRA: Fetch referral list
+    CCRA-->>API: Return referrals
+    API-->>FE: Return referrals
+    User->>FE: Selects a referral
 
-    par VA Facility Discovery
-        API->>LH: GET /facilities?lat=...&long=...&radius=...&type=health
-        LH-->>API: Return VA facilities (vha_983, vha_648A4, ...)
-        API->>API: Strip vha_ prefix, map service types,<br/>build VaProvider objects
-    and EPS Provider Discovery
-        API->>EPS: GET /eps/provider-services?nearLocation=...&maxMiles=...
-        EPS-->>API: Return CC providers
-        API->>API: Build EpsProvider objects
-    end
+    FE->>API: GET /vaos/v2/referrals/{id}
+    API->>CCRA: Fetch referral details (category of care, provider NPI, address)
+    CCRA-->>API: Return referral data
+    API->>EPS: Check for existing appointments
+    EPS-->>API: Return appointment status
+    API-->>FE: Return referral data with appointment status
 
-    API-->>FE: Return combined provider list<br/>(BaseProvider shape, sorted by distance)
-    FE->>User: Display unified provider list<br/>(VA and CC providers together)
+    alt Referral already has a booked appointment
+        FE->>User: Display already scheduled alert
+    else No existing appointment — scheduling allowed
+        User->>FE: Click schedule appointment
 
-    User->>FE: Select a provider
+        Note over FE,API: Unified Provider Search<br/>Uses veteran's profile address + referral category of care<br/>Default 25-mile radius
+        FE->>API: GET /vaos/v2/unified/providers<br/>category_of_care from referral, address from profile
 
-    Note over User: Slot Selection
-    alt Selected provider is VA (provider_type = "va")
-        FE->>API: GET /vaos/v2/unified/slots?provider_id=983&provider_type=va&start=...&end=...
-        API->>VAOS: GET /locations/983/clinics?clinicalService=primaryCare
-        VAOS-->>API: Return clinics (IEN 999, 455, ...)
-        API->>VAOS: GET /locations/983/clinics/999/slots?start=...&end=...
-        VAOS-->>API: Return available slots
-        API->>API: Build VaSlot objects
-        API-->>FE: Return normalized slots (BaseSlot shape)
-    else Selected provider is CC (provider_type = "community_care")
-        FE->>API: GET /vaos/v2/unified/slots?provider_id=9mN718pH&provider_type=cc&start=...&end=...
-        API->>EPS: GET /eps/provider-services/9mN718pH/slots
-        EPS-->>API: Return available slots
-        API->>API: Build EpsSlot objects
-        API-->>FE: Return normalized slots (BaseSlot shape)
-    end
+        par Referral's matched CC provider + nearby CC providers
+            API->>EPS: Search providers by referral NPI (matched provider)<br/>+ by specialty + nearLocation (additional providers)
+            EPS-->>API: Return matched provider + additional CC providers
+        and Nearby VA facilities with matching service type
+            API->>LH: GET /facilities near veteran address<br/>type=health, radius=25mi
+            LH-->>API: Return VA facilities
+            API->>API: Strip vha_ prefix, filter to facilities<br/>offering referral's service type
+        end
 
-    FE->>User: Display available time slots
-    User->>FE: Select time slot and review
+        API->>API: Pin referral's matched provider at top,<br/>merge remaining by distance
+        API-->>FE: Return unified provider list (BaseProvider shape)
+        FE->>User: Display provider list<br/>(matched provider pinned at top,<br/>VA + CC providers sorted by distance below)
 
-    Note over User: Booking
-    User->>FE: Click confirm / submit
-    FE->>API: POST /vaos/v2/unified/book<br/>{provider_id, provider_type, slot_id, ...}
+        User->>FE: Select a provider
 
-    alt VA Booking (single step)
-        API->>API: VaBookingService.book()
-        API->>VAOS: POST /patients/{icn}/appointments<br/>{kind: "clinic", location_id, clinic, slot}
-        VAOS-->>API: Return booked appointment
-        API-->>FE: Return confirmation (BaseProvider shape)
-        FE->>User: Display VA appointment confirmation
-    else EPS Booking (draft + submit)
-        API->>API: EpsBookingService.book()
-        API->>EPS: POST /eps/appointments (create draft)
-        EPS-->>API: Return draft appointment
-        API->>EPS: POST /eps/appointments/{id}/submit<br/>{provider_service_id, slot_ids, network_id}
-        EPS-->>API: Return preliminary success
-        API-->>FE: Return appointment ID
-        Note over FE,EPS: EPS async polling begins<br/>(see existing Submit Async Process diagram)
-        FE->>User: Display confirmation or poll for status
+        Note over FE,API: Slot Fetching
+        alt Selected provider is VA
+            FE->>API: GET /vaos/v2/unified/slots<br/>provider_type=va
+            API->>VAOS: GET /locations/{id}/clinics?clinicalService=...
+            VAOS-->>API: Return clinics
+            API->>VAOS: GET /locations/{id}/clinics/{ien}/slots?start=...&end=...
+            VAOS-->>API: Return available slots
+            API-->>FE: Return normalized slots (BaseSlot shape)
+        else Selected provider is CC
+            FE->>API: GET /vaos/v2/unified/slots<br/>provider_type=community_care
+            API->>EPS: GET /eps/provider-services/{id}/slots
+            EPS-->>API: Return available slots
+            API-->>FE: Return normalized slots (BaseSlot shape)
+        end
+
+        FE->>User: Display available time slots
+        User->>FE: Select time slot
+        FE->>User: Display review page
+        User->>FE: Click confirm
+
+        Note over FE,API: Booking
+        FE->>API: POST /vaos/v2/unified/book
+
+        alt VA Booking (synchronous)
+            API->>VAOS: POST /patients/{icn}/appointments<br/>{kind: "clinic", location_id, clinic, slot}
+            VAOS-->>API: Return booked appointment
+            API->>VANotify: Send confirmation email
+            API-->>FE: Return confirmation
+            FE->>User: Display VA appointment confirmation
+        else EPS Booking (asynchronous)
+            API->>EPS: Create draft appointment
+            EPS-->>API: Return draft
+            API->>EPS: Submit appointment<br/>{provider_service_id, slot_ids, network_id}
+            EPS-->>API: Return preliminary success
+            API-->>FE: Return appointment ID
+            Note over FE,EPS: Async polling begins<br/>(see Submit Async Process section)
+            FE->>User: Display confirmation or poll for status
+        end
     end
 ```
 
 ### Unified Booking — VA vs EPS Path Comparison (Expansion)
 
-This diagram highlights the key differences between the two booking paths that the unified orchestration layer handles transparently.
+This diagram highlights the key differences between the two booking paths that the unified orchestration layer handles transparently. Both paths are in-person appointments only.
 
 ```mermaid
 graph LR
@@ -437,23 +462,25 @@ graph LR
 
     subgraph "VA Path (Synchronous)"
         ROUTE -->|va| VA_CHECK[Check eligibility<br/>via existing endpoint]
-        VA_CHECK --> VA_BOOK[AppointmentsService<br/>.post_appointment<br/>kind, location_id, clinic, slot]
-        VA_BOOK --> VA_DONE[Appointment booked<br/>Single response]
+        VA_CHECK --> VA_BOOK[AppointmentsService<br/>.post_appointment<br/>kind: clinic, location_id, clinic, slot]
+        VA_BOOK --> VA_NOTIFY_VA[Send confirmation email<br/>via VA Notify]
+        VA_NOTIFY_VA --> VA_DONE[Appointment booked<br/>Single response]
     end
 
     subgraph "EPS Path (Asynchronous)"
         ROUTE -->|community_care| EPS_DRAFT[Eps::AppointmentService<br/>.create_draft_appointment]
         EPS_DRAFT --> EPS_SUBMIT[Eps::AppointmentService<br/>.submit_appointment<br/>provider_service_id, slot_ids, network_id]
         EPS_SUBMIT --> EPS_POLL[Sidekiq polling job<br/>+ frontend polling]
-        EPS_POLL --> EPS_DONE[Appointment booked<br/>After async confirmation]
+        EPS_POLL --> EPS_NOTIFY[Send confirmation/failure email<br/>via VA Notify]
+        EPS_NOTIFY --> EPS_DONE[Appointment booked<br/>After async confirmation]
     end
 
     classDef unified fill:#fff3e6,stroke:#cc7a00,stroke-width:2px;
     classDef va fill:#e6f3ff,stroke:#333,stroke-width:2px;
     classDef eps fill:#f9f9f9,stroke:#333,stroke-width:2px;
     class UNIFIED_BOOK,ROUTE unified;
-    class VA_CHECK,VA_BOOK,VA_DONE va;
-    class EPS_DRAFT,EPS_SUBMIT,EPS_POLL,EPS_DONE eps;
+    class VA_CHECK,VA_BOOK,VA_NOTIFY_VA,VA_DONE va;
+    class EPS_DRAFT,EPS_SUBMIT,EPS_POLL,EPS_NOTIFY,EPS_DONE eps;
 ```
 
 ## Key Processes
@@ -472,21 +499,24 @@ graph LR
 
 ### Unified Provider Search & Booking Flow (Expansion)
 
-This flow runs alongside the referral-based flow above. It provides a location-based entry point for scheduling rather than a referral-based entry point.
+This flow replaces the EPS-only provider display within the existing referral-driven scheduling path. The entry point remains the same — the veteran receives an SMS/email or navigates directly to the Referrals and Requests page.
 
-1. The user navigates to the unified scheduling page and enters their address or allows location access.
-2. **vets-api** queries both the **Lighthouse Facilities API** (for nearby VA health facilities) and **EPS** (for nearby community care providers) in parallel.
-3. Results are normalized into a unified provider list (using `BaseProvider` shape) and returned sorted by distance.
-4. The user selects a provider from the combined list.
-5. **vets-api** fetches available time slots from the appropriate source:
+1. The user receives an SMS or email notification, or navigates directly to the **Referrals and Requests** page on **vets-website**.
+2. The user selects a referral from the list. **vets-api** retrieves referral details including the category of care, matched provider NPI, and checks for existing appointments.
+3. If no appointment exists, the user clicks **Schedule Appointment**.
+4. **vets-api** uses the veteran's residential address from their profile and the referral's category of care to search for providers within a **25-mile radius**:
+   - The referral's **matched CC provider** (by NPI via EPS) is pinned to the top of the list.
+   - Additional **CC providers** with the same specialty are fetched from EPS via geographic search.
+   - **VA facilities** offering the same service type are fetched from the Lighthouse Facilities API.
+5. The combined provider list is displayed with the matched provider pinned at the top and remaining providers sorted by distance.
+6. The user selects a provider. **vets-api** fetches available time slots from the appropriate source:
    - **VA provider**: existing VAOS clinics endpoint → existing VAOS slots endpoint
    - **CC provider**: existing EPS provider slots endpoint
-6. Slots are normalized into a unified shape (`BaseSlot`) and displayed to the user.
-7. The user selects a slot and reviews the appointment details.
-8. On confirmation, **vets-api** routes to the correct booking service:
-   - **VA provider**: `VaBookingService` calls existing `AppointmentsService#post_appointment` (single synchronous step)
-   - **CC provider**: `EpsBookingService` calls existing `Eps::AppointmentService` draft + submit flow (asynchronous, with polling)
-9. The user sees a confirmation screen. For EPS bookings, the existing async polling process applies (see Submit Asynchronous Process section).
+7. The user selects a time slot and reviews the appointment details.
+8. On confirmation, **vets-api** routes to the correct booking path:
+   - **VA provider**: `VaBookingService` calls existing `AppointmentsService#post_appointment` with `kind: "clinic"` (synchronous, in-person only). A confirmation email is sent via VA Notify immediately.
+   - **CC provider**: `EpsBookingService` calls existing `Eps::AppointmentService` draft + submit flow (asynchronous). The existing polling process handles status confirmation and VA Notify email.
+9. The user sees a confirmation screen with appointment details.
 
 
 ## Resources
@@ -780,33 +810,54 @@ All endpoints may return error responses in the following format:
 
 ## Unified Scheduling API Specifications (Expansion)
 
-These endpoints are new additions for the unified scheduling flow. They do not modify or replace any existing endpoints. All existing referral and appointment endpoints continue to function as documented above.
+These endpoints are new additions for the unified scheduling flow. They replace the EPS-only provider display within the referral scheduling path. All existing referral and appointment endpoints continue to function as documented above. The flow remains referral-driven — the referral's category of care and the veteran's profile address are used to drive the provider search.
 
 ### API Endpoints
 
 #### GET /vaos/v2/unified/providers
 
-Searches for both VA facilities and EPS community care providers near a given location. Returns a combined, normalized list.
+Searches for both VA facilities and EPS community care providers near the veteran's residential address, filtered by the referral's category of care. The referral's matched CC provider (by NPI) is pinned to the top of the results. Additional CC providers with the same specialty and VA facilities offering the same service type are returned below, sorted by distance.
 
 **Request Parameters:**
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
-| lat | Float | Yes | Latitude of user's location |
-| long | Float | Yes | Longitude of user's location |
-| radius | Integer | No | Search radius in miles (default TBD) |
-| service_type | String | No | Filter by care type (e.g. "primaryCare") |
+| referral_id | String | Yes | Referral ID — used to determine category of care and matched provider NPI |
+| radius | Integer | No | Search radius in miles (default: 25) |
+
+**Note:** The veteran's residential address is retrieved from their authenticated profile — it is not passed as a request parameter.
 
 **Response:**
 ```json
 {
   "data": [
     {
+      "id": "9mN718pH",
+      "type": "unified_provider",
+      "attributes": {
+        "name": "Dr. Bones @ FHA South Melbourne Medical Complex",
+        "providerType": "community_care",
+        "isReferralProvider": true,
+        "address": {
+          "street1": "1105 Palmetto Ave",
+          "city": "Melbourne",
+          "state": "FL",
+          "zip": "32901"
+        },
+        "phone": "555-555-0001",
+        "latitude": 28.08061,
+        "longitude": -80.60322,
+        "distanceInMiles": 2.1,
+        "schedulableServices": ["urology"]
+      }
+    },
+    {
       "id": "983",
       "type": "unified_provider",
       "attributes": {
         "name": "Cheyenne VA Medical Center",
         "providerType": "va",
+        "isReferralProvider": false,
         "address": {
           "street1": "2360 East Pershing Boulevard",
           "city": "Cheyenne",
@@ -817,24 +868,25 @@ Searches for both VA facilities and EPS community care providers near a given lo
         "latitude": 41.1456,
         "longitude": -104.7892,
         "distanceInMiles": 3.2,
-        "schedulableServices": ["primaryCare", "audiology", "outpatientMentalHealth"]
+        "schedulableServices": ["urology", "primaryCare", "audiology"]
       }
     },
     {
-      "id": "9mN718pH",
+      "id": "xK7mP2qR",
       "type": "unified_provider",
       "attributes": {
-        "name": "Dr. Bones @ FHA South Melbourne Medical Complex",
+        "name": "Dr. Smith @ Acme Urology - Melbourne, FL",
         "providerType": "community_care",
+        "isReferralProvider": false,
         "address": {
-          "street1": "1105 Palmetto Ave",
+          "street1": "7500 Central Ave",
           "city": "Melbourne",
           "state": "FL",
           "zip": "32901"
         },
-        "phone": "555-555-0001",
-        "latitude": 28.08061,
-        "longitude": -80.60322,
+        "phone": "555-555-0002",
+        "latitude": 28.09123,
+        "longitude": -80.61456,
         "distanceInMiles": 5.7,
         "schedulableServices": ["urology"]
       }
@@ -853,7 +905,7 @@ Fetches available time slots for a provider from the unified list. Routes intern
 |-----------|------|----------|-------------|
 | provider_id | String | Yes | Provider ID from unified list |
 | provider_type | String | Yes | "va" or "community_care" |
-| service_type | String | Yes (VA) | Clinical service (e.g. "primaryCare"); required for VA path |
+| service_type | String | Yes (VA) | Clinical service (e.g. "urology"); required for VA path to filter clinics |
 | start | DateTime | Yes | Slot search window start (ISO8601) |
 | end | DateTime | Yes | Slot search window end (ISO8601) |
 
@@ -870,16 +922,6 @@ Fetches available time slots for a provider from the unified list. Routes intern
         "providerId": "983",
         "providerType": "va"
       }
-    },
-    {
-      "id": "5vuTac8v-practitioner-1-role-2|...|ov0",
-      "type": "unified_slot",
-      "attributes": {
-        "start": "2026-04-01T10:00:00Z",
-        "end": "2026-04-01T10:30:00Z",
-        "providerId": "9mN718pH",
-        "providerType": "community_care"
-      }
     }
   ]
 }
@@ -887,16 +929,16 @@ Fetches available time slots for a provider from the unified list. Routes intern
 
 #### POST /vaos/v2/unified/book
 
-Books an appointment with the selected provider and slot. Routes internally to the VA direct-schedule path or EPS draft/submit path based on `provider_type`.
+Books an in-person appointment with the selected provider and slot. Routes internally to the VA direct-schedule path or EPS draft/submit path based on `provider_type`. Both paths send a confirmation email via VA Notify.
 
 **Request:**
 ```json
 {
+  "referralId": "6cg8T26YivnL68JzeTaV0w==00",
   "providerId": "983",
   "providerType": "va",
   "slotId": "3230323231313330323034353A323032323131333032313030",
-  "serviceType": "primaryCare",
-  "kind": "clinic",
+  "serviceType": "urology",
   "contact": {
     "phone": "555-555-1234",
     "email": "veteran@example.com"
@@ -915,7 +957,7 @@ Books an appointment with the selected provider and slot. Routes internally to t
       "providerType": "va",
       "start": "2026-04-01T09:00:00Z",
       "locationName": "Cheyenne VA Medical Center",
-      "clinicName": "Primary Care Clinic 1",
+      "clinicName": "Urology Clinic 1",
       "kind": "clinic"
     }
   }
@@ -937,7 +979,7 @@ Books an appointment with the selected provider and slot. Routes internally to t
 }
 ```
 
-**Note:** For EPS bookings, the existing asynchronous polling process applies. The frontend should poll via the existing `GET /vaos/v2/eps_appointments/{appointmentId}` endpoint as described in the Submit Asynchronous Process section. VA bookings return a final `"booked"` status immediately with no polling required.
+**Note:** For EPS bookings, the existing asynchronous polling process applies. The frontend should poll via the existing `GET /vaos/v2/eps_appointments/{appointmentId}` endpoint as described in the Submit Asynchronous Process section. VA bookings return a final `"booked"` status immediately with no polling required. A confirmation email is sent via VA Notify for both paths.
 
 
 ## Removing duplicates and preventing duplicates of referrals
@@ -991,7 +1033,7 @@ The dual approach provides:
 - **Graceful degradation**: If the frontend times out, the user still gets notified via email if it failed
 - **Clear guidance**: Users know whether to refresh, or call for assistance
 
-> **Expansion note:** The Submit Asynchronous Process above applies only to EPS (community care) bookings. VA direct-schedule appointments made through the unified booking endpoint (`POST /vaos/v2/unified/book`) return a final `"booked"` status synchronously and do not require polling or async status checks.
+> **Expansion note:** The Submit Asynchronous Process above applies only to EPS (community care) bookings. VA direct-schedule appointments made through the unified booking endpoint (`POST /vaos/v2/unified/book`) return a final `"booked"` status synchronously and do not require polling or async status checks. A confirmation email is sent via VA Notify immediately upon successful VA booking.
 
 ```mermaid
 sequenceDiagram
@@ -1051,7 +1093,7 @@ sequenceDiagram
     - https://wellhive.github.io/api-docs/
 
 ### Additional Integration Points (Expansion)
-4. Lighthouse Facilities API: For VA facility discovery by address/coordinates (used by unified provider search)
+4. Lighthouse Facilities API: For VA facility discovery by veteran's residential address within 25-mile default radius (used by unified provider search)
 5. VAOS / VPG Upstream: For VA clinic listings, slot availability, eligibility checks, and direct appointment creation (called via existing VAOS services, not modified)
 
 ## Performance Considerations
@@ -1073,10 +1115,9 @@ sequenceDiagram
 
 ### Additional Open Questions (Expansion)
 3. Confirm the full set of Lighthouse `serviceId` values and verify which ones map to VAOS `SCHEDULABLE_SERVICE_TYPES` — any that don't match need to be excluded or a new mapping agreed upon with the VAOS team.
-4. Determine default and maximum search radius for the unified provider search.
-5. Decide whether the unified endpoints live under `/vaos/v2/unified/` or a different namespace.
-6. Clarify whether VA direct-schedule appointments through the unified flow should also trigger VA Notify confirmation emails (currently only EPS bookings send emails via the polling job).
-7. Determine how `kind` (clinic, phone, telehealth) is selected for VA bookings — user preference, facility configuration, or both.
+4. Determine whether the unified endpoints live under `/vaos/v2/unified/` or a different namespace.
+5. Determine the source of the veteran's residential address — profile object, referral data, or both (with priority/fallback logic).
+6. Two VA pilot sites will be used initially. Determine how to restrict the unified provider list to only those sites during the pilot phase (feature toggle, allowlist, or configuration), while ensuring the full architecture supports all VA facilities for general rollout.
 
 ## Proposed Cancellation Feature
 
