@@ -1,181 +1,185 @@
-# Google Analytics Documentation — Missing Contact Information Flow
+# Google Analytics Exploration Configuration
+## Missing Contact Information Flow
 
-## Purpose
+This document describes the current configuration of the Google Analytics explorations used to analyze the Missing Contact Information flow.
 
-This document explains how to interpret and use the Google Analytics explorations related to the **Missing Contact Information flow** in VA.gov. These tabs measure user interaction with prompts to update contact information, navigation within the contact information pages, and successful saves of updated information.
-
-The dataset is organized into **six tabs**, each measuring a different type of user behavior.
+Each tab represents a different part of the user journey and tracks specific events or page interactions.
 
 ---
 
-# Tab 1 — Alert Clicks (Add Your Contact Information)
+# Tab 1 — Add Your Contact Information Alert
 
-## Description
+## Purpose
+Measures interaction with the **"Add your contact information" alert** on the MyVA homepage.
 
-This tab measures interaction with the **“Add your contact information” alert** shown to users when required contact details are missing.
+## Segment Comparison
+MyVA Homepage
 
-## What is Measured
+## Rows
+Link Text
 
-- Event: **Click on the alert**
-- Metric: **Event count**
+## Values
+Event Count
 
-This represents how many times users **clicked the alert prompting them to update contact information**.
+## Filters
+Link text exactly matches the API call associated with the alert.
 
-## Important Notes
+## Interpretation
+This tab measures the **number of times users click the alert prompting them to add missing contact information**.
 
-- This tab measures **clicks only**, not whether the user actually updated their information.
-- A click does not guarantee completion of the flow.
+Important notes:
+- This tracks **click interaction only**.
+- It does not measure whether the user successfully updates their contact information.
 
 ---
 
 # Tab 2 — Contact Information Page Views
 
-## Description
+## Purpose
+Measures **page views within the contact information flow**.
 
-This tab records **page views within the contact information flow**.
+## Rows
+Page Path and Screen Class
 
-## What is Measured
+## Values
+Views
 
-- Metric: **Total page views**
-- These are **views only**, not interactions.
+## Filters
+Applied to limit results to pages within the contact information flow.
 
-## Key Page
+## Interpretation
+This tab measures **how often each page in the contact information flow is viewed**.
 
-`myVA-welcome-va-setup/contact-information`
+These metrics represent:
+- Total views
+- Not interactions or actions taken
 
-This page typically has the **highest number of views** because:
+Because the main contact information page is both:
+- The **entry point to the flow**
+- A page users return to during navigation
 
-- It is the **entry point to the contact information flow**
-- Users return here when navigating backward in the flow
-
-## Other Pages in This Dataset
-
-Examples include:
-
-- Edit mobile phone
-- Edit mailing address
-- Edit email
-- Mailing address
-- Confirmation page
-
-Additional pages may exist and should be explored to confirm full coverage of the flow.
+It will typically have the **highest view count**.
 
 ---
 
 # Tab 3 — Saves on Contact Information Page
 
-## Description
+## Purpose
+Measures **save actions taken from the contact information page**.
 
-This tab tracks **when users save updated contact information from the contact information page**.
+## Segment Comparison
+Contact Information Page
 
-## What is Measured
+## Rows
+API Names
 
-Save events including:
+## Values
+Event Count
 
-- `profile_saved_mobile_telephone`
-- `profile_saved_mailing_address`
-- `profile_saved_email`
+## Interpretation
+This tab records the number of times users successfully **save updated contact information from the contact information page**.
 
-These represent **successful saves of updated contact information**.
+Examples include:
+- Saved mobile phone
+- Saved email
+- Saved mailing address
 
-## Events to Ignore
-
-The following events are not relevant to this analysis:
-
-- `not set`
-- `get-vo-users`
+These represent **completed actions** rather than page visits.
 
 ---
 
 # Tab 4 — Saves Anywhere on VA
 
-## Description
+## Purpose
+Measures **contact information saves across the entire VA platform**, not only within the missing contact information flow.
 
-This tab tracks **contact information saves across the entire VA platform**, not only the missing contact information flow.
+## Rows
+API Name
 
-## Metrics
+## Values
+Event Count
+
+## Interpretation
+This tab provides the total number of contact information updates occurring across VA.gov.
 
 Examples include:
-
-- Total profiles saved
-- Total mobile phones saved
-- Total emails saved
-- Total addresses saved
-- Total telephones saved
-- Total work phones saved
-
-## Purpose
+- Mobile phone saves
+- Email saves
+- Mailing address saves
+- Work phone saves
 
 This dataset allows comparison between:
 
-- Contact updates triggered by the **missing contact information flow**
-- All contact updates across VA.gov
-
-This enables calculation of **the percentage of total contact information updates driven by this experience**.
+- Saves triggered from the **missing contact information flow**
+- Saves occurring anywhere across VA.gov
 
 ---
 
-# Tab 5 — Post-Confirmation Click Behavior
+# Tab 5 — Confirmation Page Behavior
 
-## Description
+## Purpose
+Measures **user actions after reaching the confirmation page** following a successful contact information update.
 
-This tab measures **what users click after reaching the confirmation page**.
+## Segment Comparison
+Confirmation Page
 
-The confirmation page appears after users successfully save updated contact information.
+## Rows
+Link Text
 
-## Common Next Actions
+## Values
+Event Count
 
-Examples include:
+## Interpretation
+This tab shows **what users click after completing the contact information update flow**.
 
-- Go back to VA
-- Go to notification settings
-- Return to profile
+Examples include navigation actions such as:
+- Returning to VA
+- Opening notification settings
+- Returning to profile pages
 
-Additional actions can be explored in this dataset.
+This helps understand **user behavior immediately after completing the flow**.
 
 ---
 
-# Tab 6 — Profile Activity Over Time
+# Tab 6 — Profile Page Activity
 
-## Description
+## Purpose
+Tracks broader **profile-related activity events**.
 
-This tab tracks broader profile activity events.
+## Rows
+Data Layer Event Name
 
-## Events Included
+## Values
+Event Count
+
+## Filters
+Event name exactly matches the API call.
+
+## Interpretation
+This tab records system-level events such as:
 
 - Profile saves
 - Profile deletes
-- Profile save failures
+- Profile failures
 
-## Current Status
-
-This tab **is not currently used for reporting**, but it provides historical event tracking if deeper analysis is required.
+This tab currently serves as **background activity tracking** and is not actively used in reporting.
 
 ---
 
 # Sampling Considerations
 
-Google Analytics explorations may apply **sampling when querying large datasets**.
+Some explorations may return **sampled results when querying large datasets**.
 
-In the current dataset:
+If sampling occurs, results should be interpreted as **directional rather than exact counts**.
 
-- Approximately **15% of events are being sampled**.
+Sampled results remain useful for:
+- Identifying behavior patterns
+- Understanding relative distribution of events
+- Exploring user flows
 
-## Implications
-
-Sampling provides **directional insight rather than exact counts**.
-
-The data is generally reliable for:
-
-- Pattern discovery
-- Relative comparisons
-- Behavioral insights
-
-However, sampling should be avoided for:
-
+However, sampled datasets should not be used for:
 - Official reporting
-- Exact conversion rates
 - KPI measurement
-- Product impact metrics
+- Exact conversion rates
 
-When precise metrics are required, **unsampled data should be requested or queried from the raw analytics export (e.g., BigQuery)**.
+For precise analysis, unsampled data should be queried from the analytics export or data warehouse.
