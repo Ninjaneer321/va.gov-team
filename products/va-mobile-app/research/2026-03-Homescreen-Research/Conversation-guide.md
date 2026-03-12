@@ -184,12 +184,14 @@ Take a look at this page without clicking anything [homescreen]. [Give participa
 4. Probe: Could you tell me why you would do that?
 5. What do you think this first section in blue is about? [Action required section]
 6. What kind of things would you expect to see here?
-7. Take a closer look at the items here. Is there anything confusing or surprising?
-8. What do you think the next section is for? [Activity section]
-9. What kind of things would you expect to see here?
-10. Take a closer look at the items. Anything confusing or surprising?
-11. Is there anything confusing overall about this app homepage?
-12. Is there anything missing?
+7. Why would those go here?
+8. Take a closer look at the items here. Is there anything confusing or surprising?
+9. What do you think the next section is for? [Activity section]
+10. What kind of things would you expect to see here?
+11. Why do you think those would go here?
+12. Take a closer look at the items. Anything confusing or surprising?
+13. Is there anything confusing overall about this app homepage?
+14. Is there anything missing?
 
 > [!NOTE]
 > ### Things to watch for:
@@ -204,10 +206,12 @@ Say you had submitted a claim to hopefully update your disability rating and got
 1. Where would you look for your current disability rating?
 2. Why?
 3. Is there anywhere else you would look?
-4. What about your disability payments history?
-5. Why?
-6. Anywhere else you'd look?
-7. Would you expect them to be in the same place?
+4. Probe: Would you expect to see that directly here on the homescreen?
+5. What about your disability payments history?
+6. Why?
+7. Anywhere else you'd look?
+8. Probe: Would you expect to see that on the homescreen?
+9. Would you expect disability rating and payments to be in the same place?
 
 > [!NOTE]
 > ### Things to watch for:
@@ -222,6 +226,7 @@ Next, let's think about if you were in a store and saw a sign that they offered 
 2. Why?
 3. [If they said outside the app] Where would you look for this in the app?
 4. Would you look anywhere else?
+5. Probe: Would you expect this on the homescreen?
 
 > [!NOTE]
 > ### Things to watch for:
@@ -246,14 +251,17 @@ Next, let's take another look at the Action required section.
 2. [If yes], what would you do?
 3. Why?
 4. Is there anything confusing or unclear for any of the items here?
-5. Say you wanted to deal with the copayment due item. Without clicking yet, what would you do?
-6. What do you expect to happen when you do that?
-7. [If needed] What do you expect to happen when you tap the pay copay button?
+5. [If not discussed in Task 1] What do you think about having the due date for your evidence request?
+6. Is there anything else you'd really want a due date for here?
+7. Is there any other information you'd want up front here for any of the other Action required items?
+8. Say you wanted to deal with the copayment due item. Without clicking yet, what would you do?
+9. What do you expect to happen when you do that?
+10. [If needed] What do you expect to happen when you tap the pay copay button?
    *Direct to tap pay copay button if needed. Direct participant to complete pay copay flow and return to Homescreen.*
-8. What did you think about that process?
-9. If you wanted to see confirmation of the copay payment you just did or your full history of copayments, where would you go?
-10. What worked well?
-11. What could be improved?
+11. What did you think about that process?
+12. If you wanted to see confirmation of the copay payment you just did or your full history of copayments, where would you go?
+13. What worked well?
+14. What could be improved?
    
 > [!NOTE]
 > ### Things to watch for:
@@ -279,7 +287,8 @@ Next, let's take another look at the Activity section.
 13. What did you think about that process?
 14. What worked well?
 15. What could be improved?
-16. Now that we're back on the Homescreen, take another look, and let me know if there's anything you would change about it overall or any of the information displayed for each item. 
+16. Now that we're back on the Homescreen, take another look, and let me know if there's anything you would change about it overall or any of the information displayed for each item.
+17. Probe: Is there more information you'd want up front here for your 2 upcoming appointments?
 
 > [!NOTE]
 > ### Things to watch for:
