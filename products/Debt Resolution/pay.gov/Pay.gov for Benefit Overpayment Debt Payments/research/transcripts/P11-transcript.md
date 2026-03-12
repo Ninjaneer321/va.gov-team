@@ -1,5 +1,22 @@
 P11 Transcript redacted
 
+| Date | 03-11-26 |
+| :---- | :---- |
+| **Gender** | Female |
+| **Age** | 30-34 |
+| **Race/ethnicity** | Asian; White or Caucasian |
+| **Education level** | Master's degree |
+| **Branch** | Army |
+| **Location** | South |
+| **Device** | Desktop or laptop computer |
+| **Debts** | Disability compensation and pension overpayment |
+| **Payment plan** | No |
+| **Hardship statement** | I am currently experiencing financial hardship. |
+| **Income less than 50K?** | No |
+| **LGBTQ+** | Yes |
+| **Cognitive disability** | Decline to answer |
+| **Resides** | Urban |
+
 1
 00:00:01.950 --> 00:00:08.430
 Moderator: Okay, I've started recording. I'd like to confirm, are you comfortable if I record my screen and audio as we talk today?
