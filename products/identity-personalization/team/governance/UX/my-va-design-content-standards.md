@@ -10,73 +10,73 @@ Last updated: March 2026
 
 [My VA Section guidance](#my-va-section-guidance)
 
-[Claims and appeals](#claims-and-appeals)
+* [Claims and appeals](#claims-and-appeals)
 
-[What the claim and appeals section is NOT …](#what-the-claim-and-appeals-section-is-not-…)
+   * [What the claim and appeals section is NOT …](#what-the-claim-and-appeals-section-is-not-…)
 
-[Content standards](#content-standards)
+   * [Content standards](#content-standards)
 
-[Subsections](#subsections)
+   * [Subsections](#subsections)
 
-[Claims and appeals Card](#claims-and-appeals-card)
+   * [Claims and appeals Card](#claims-and-appeals-card)
 
-[Disability rating card](#disability-rating-card)
+   * [Disability rating card](#disability-rating-card)
 
-[Forms and applications](#forms-and-applications)
+* [Forms and applications](#forms-and-applications)
 
-[What the forms and applications section is NOT …](#what-the-forms-and-applications-section-is-not-…)
+   * [What the forms and applications section is NOT …](#what-the-forms-and-applications-section-is-not-…)
 
-[Content standards](#content-standards-1)
+   * [Content standards](#content-standards-1)
 
-[Subsections](#subsections-1)
+   * [Subsections](#subsections-1)
 
-[In-progress cards](#in-progress-cards)
+   * [In-progress cards](#in-progress-cards)
 
-[Completed forms cards](#completed-forms-cards)
+   * [Completed forms cards](#completed-forms-cards)
 
-[Health care](#health-care)
+* [Health care](#health-care)
 
-[Content standards](#content-standards-2)
+   * [Content standards](#content-standards-2)
 
-[Subsections](#subsections-2)
+   * [Subsections](#subsections-2)
 
-[Appointments cards](#appointments-cards)
+   * [Appointments cards](#appointments-cards)
 
-[Messages cards](#messages-card)
+   * [Messages cards](#messages-card)
 
-[Payments and debts](#payments-and-debts)
+* [Payments and debts](#payments-and-debts)
 
-[Content standards](#content-standards-3)
+   * [Content standards](#content-standards-3)
 
-[Subsections](#subsections-3)
+   * [Subsections](#subsections-3)
 
-[Benefit payment card](#benefit-payment-card)
+   * [Benefit payment card](#benefit-payment-card)
 
-[Overpayment and copay bill cards](#benefit-overpayment-and-copay-bill-cards)
+   * [Overpayment and copay bill cards](#benefit-overpayment-and-copay-bill-cards)
 
-[Universal My VA standards](#universal-my-va-standards)
+* [Universal My VA standards](#universal-my-va-standards)
 
-[Design](#design)
+   * [Design](#design)
 
-[Components](#components)
+   * [Components](#components)
 
-[Alerts](#alerts)
+   * [Alerts](#alerts)
 
-[Cards](#cards)
+   * [Cards](#cards)
 
-[Headers](#headers)
+   * [Headers](#headers)
 
-[Links](#links)
+   * [Links](#links)
 
-[Components](#components-1)
+   * [Components](#components-1)
 
-[Alerts](#alerts-1)
+   * [Alerts](#alerts-1)
 
-[Warning alerts](#warning-alerts)
+   * [Warning alerts](#warning-alerts)
 
-[System down, page level error](#system-down,-page-level-error)
+   * [System down, page level error](#system-down,-page-level-error)
 
-[System down, page section error](#full-api-system-down,-page-section-error)
+   * [System down, page section error](#full-api-system-down,-page-section-error)
 
 # 
 
