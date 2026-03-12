@@ -105,14 +105,17 @@ The online pension application is available in the [production environment](http
 - [Migrate](https://github.com/department-of-veterans-affairs/va.gov-team/issues/83272) off of depreciated document upload API.
 
 ### Next
-- Test pension-related [income questions and API](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1524). This would enable RBPS to process pension-related dependency claims automatically (right now they're off-ramped for manual review).
-- [Prevent multiple EPs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/25030). When a 686 and 674 claim are submitted at the same time, VA.gov generates two EPs, which then have to be manually merged downstream.
-- Code modularization (no tickets yet)
-- Auto fill spouse and dependent information ([discovery ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/102343))
-- Determine why submission and saved dates do not match MyVA. ([submission date](https://github.com/department-of-veterans-affairs/va.gov-team/issues/101056) and [saved date](https://github.com/department-of-veterans-affairs/va.gov-team/issues/101040))
-- Work with Infrastructure and Arcitecture team to [improve findability of forms](https://github.com/department-of-veterans-affairs/va.gov-team/issues/102744) (initial AI work in [GitHub](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/information-architecture/ia-design-docs/verify-dependents.md) and [Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1689863079145/5b97ba9ea11077f983f3413167f6324f11aa04a8))
-- Create [analytics dashboards](https://github.com/department-of-veterans-affairs/va.gov-team/issues/102886) to better understand user and form behavior
-- [Test and review design](https://github.com/department-of-veterans-affairs/va.gov-team/issues/103842) of the pension-related income questions in the 686/674 for flow. These questions were added when the forms were originally launched on VA.gov, but never turned on in production. They capture the answers needed for the pension line of business to adjust changes in benefits.
+* Update marriage history to VADS pattern
+	* Design spec: [Figma](https://www.figma.com/design/9JKK5Eo43uJWEr66JPiebc/WIP---21P-527EZ---Pension-Benefits?node-id=14174-6517) (Note: May need input from C/IA)
+	* Engineering tickets:
+		* [Previous Marriages - Multiple Page List & Loop Pattern #109093](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109093)
+		* [Pension | Marriage Info - Current Marriage #103928](https://github.com/department-of-veterans-affairs/va.gov-team/issues/103928)
+		* [Current Spouse Marital History - Multiple Page List & Loop Pattern #109092](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109092)
+* Apply pre-fill pattern
+	* Design spec: [Figma]()
+	* Engineering ticket: [Pension | Apply pre-fill pattern #111588](https://github.com/department-of-veterans-affairs/va.gov-team/issues/111588)
+* Remove 65+ age question from flow
+	* Engineering ticket: [PBB | Backend: Implement removal 65+ age question from flow #134365](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134365)
 
 ### Future
 - Add the ability to [download a pdf of the submitted claim](https://github.com/orgs/department-of-veterans-affairs/projects/1237/views/13?sliceBy%5Bvalue%5D=ND%2FD+ZSF+%7C+Stage+5+%28Confirmation+page+full+update%29) from the confirmation page (as part of the Zero Silent Failure initiative). This work was put on hold until another team implements a solution.
@@ -155,8 +158,9 @@ This work has historically been deprioritized for several reasons. The multiple 
 #### Next steps
 * Collaborate with C/IA to further define care expenses vs. medical expenses
 	* Evaluate Veterans' comprehension of this distinction
-* Apply the multiple page list-and-loop treatment to the step
+* Apply the [multiple page list-and-loop](https://design.va.gov/patterns/ask-users-for/multiple-responses) pattern to the step
 * Review our [design brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/design/unreimbursed-care-and-medical-expenses-brief.md) for more details and recommended enhancements
+
 ### Embedding the 0969 in the pension form
 #### Problem it solves  
 Veterans don’t complete the required income and asset statement with their pension application, which leads to their claim going into development for additional evidence. This is the #3 reason why claims go into development.
