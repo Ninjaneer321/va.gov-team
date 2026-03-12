@@ -258,7 +258,10 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 4. Have you scheduled or attempted to schedule a medical appointment in the last 12 months?
 	- Yes (go on to Screener question 5)
 	- No (Disqualify)
-5. Have you ever scheduled a mental health appointment?
+5. Have you scheduled at least one of the following, a primary care appointment, social work appointment, or a pharmacy appointment?
+    - Yes (go on to Screener question 6)
+    - No (Disqualify)
+6. Have you ever scheduled a mental health appointment?
 	- Yes (recruit 7)
 	- No (recruit 8)
 
