@@ -168,10 +168,9 @@ Cards appear in chronological order within this subsection, with the newest info
 2. (Required, Editable) Card header (Form name)  
 3. (Required) Card body text to include  
    1. (Editable) Form number   
-4. (Required) Card body text to include  
-   1. Submitted on date  
-   2. Submission failed on date  
-5. (Required) Alert  
+   2. Submitted on date  
+   3. Submission failed on date  
+4. (Required) Alert  
    1. Instructs user to call the help desk to proceed  
    2. (Editable) Phone number, dates, and times only
 
