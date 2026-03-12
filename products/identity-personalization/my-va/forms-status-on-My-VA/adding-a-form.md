@@ -372,35 +372,47 @@ If you are unable to edit this document to add your team's decisions, please let
 
 ## Quick Implementation Checklist
 
-Lighthouse Benefits Intake Form
-- [ ] FormSubmission created with UUID + form_type
+### Scenario A — Your form already uses Lighthouse Benefits Intake API
+
+- [ ] `FormSubmission` created with UUID + `form_type`
 - [ ] Form ID added to restricted list (if needed)
 - [ ] Form ID added to FE
 - [ ] Feature toggle verified
 - [ ] Tested locally
-- [ ] Any issues/unexpected results discussed with Authenticated Experience team (if applicable)
+- [ ] Any issues/unexpected results discussed with the Authenticated Experience team (if applicable)
+- [ ] Update the [Team Implementations Tracker](#team-implementations-tracker)
+- [ ] Share planned release timeline with the Authenticated Experience team
+- [ ] Notify the Authenticated Experience team once the feature has been released
 
-⸻
+---
 
-Existing Gateway Form API
+### Scenario B — Your Form API already has a Gateway & Formatter
+
 - [ ] Form ID added to restricted list
 - [ ] Status mapping checked in FE
 - [ ] Tests updated
 - [ ] Verified locally
-- [ ] Any issues/unexpected results discussed with Authenticated Experience team (if applicable)
+- [ ] Any issues/unexpected results discussed with the Authenticated Experience team (if applicable)
+- [ ] Update the [Team Implementations Tracker](#team-implementations-tracker)
+- [ ] Share planned release timeline with the Authenticated Experience team
+- [ ] Notify the Authenticated Experience team once the feature has been released
 
-⸻
+---
 
-New Gateway & Formatter
+### Scenario C — Your Form API is not yet connected to the Form Status system
+
 - [ ] Platform Security consulted
 - [ ] Gateway created
 - [ ] Formatter created
-- [ ] Gateway registered in Report
+- [ ] Gateway registered in `Report`
 - [ ] Formatter registered in `FORMATTERS`
 - [ ] Restricted vs unrestricted decided
 - [ ] Full test coverage added
 - [ ] Verified locally
-- [ ] Any issues/unexpected results discussed with Authenticated Experience team (if applicable)
+- [ ] Any issues/unexpected results discussed with the Authenticated Experience team (if applicable)
+- [ ] Update the [Team Implementations Tracker](#team-implementations-tracker)
+- [ ] Share planned release timeline with the Authenticated Experience team
+- [ ] Notify the Authenticated Experience team once the feature has been released
 
 
 ## Other References:
