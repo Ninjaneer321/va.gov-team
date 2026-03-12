@@ -15,7 +15,7 @@ background:
   product_brief_url: "https://github.com/department-of-veterans-affairs/va-mobile-app/issues/11464"
 
 # Research Design
-methodology: "Remote moderated usability testing with Figma prototype"
+methodology: "Remote moderated usability testing with clickable medium-fidelity Figma prototype"
 research_format:
   location: remote
   moderated: true
@@ -48,7 +48,7 @@ hypotheses:
   - "Users will want to complete tasks directly from the homescreen when possible."
   - "Users will expect to be able to complete tasks directly from the homescreen when there is a call to action button associated with the item such as 'Pay copay' for a medical copayment."
 
-expected_outcomes: "We plan to incorporate insights to guide design decisions for homescreen and related actions so that we evolve current design concepts based on Veterans' needs and expectations. Insights will impact design refinements and influence future feature prioritization for homescreen functionality."
+expected_outcomes: "We plan to incorporate insights to guide design decisions for homescreen and related actions so that we evolve current design concepts based on Veterans' needs and expectations. Insights will impact design refinements and influence future feature prioritization for homescreen functionality. We will base homescreen updates on mental model alignment for where users expect to find featues and how users expect to interact with homescreen content. We will work with ADE on ptoential addtional research as designs become more developed."
 
 # Recruitment & Participants
 recruitment:
@@ -260,7 +260,7 @@ Are there moments that matter?</summary>
 
 ---
 
-**We plan to incorporate insights to guide design decisions for homescreen and related actions so that we evolve current design concepts based on Veterans' needs and expectations. Insights will impact amount and type of information displayed on homescreen, the organization of homescreen sections, and functionality including direct action from the homescreen on simple tasks versus going to the category screen.** 
+**We plan to incorporate insights to guide design decisions for homescreen and related actions so that we evolve current design concepts based on Veterans' needs and expectations. Insights will impact amount and type of information displayed on homescreen, the organization of homescreen sections, and functionality including direct action from the homescreen on simple tasks versus going to the category screen. We will base homescreen updates on mental model alignment for where users expect to find features and how users expect to interact with homescreen content. We will work with ADE on potential additional research as designs become more developed.** 
 
 ---
 
@@ -337,7 +337,7 @@ Are there moments that matter?</summary>
 
 </details>
 
-This research will be a remote moderated study using Zoom. Participants will be guided to give general feedback on a -fidelity Figma prototype of the proposed homescreen redesign. Participants will then be asked for targeted feedback on where to find items moved off the homescreen with the redesign, and to try to complete the tasks of paying a copay and refilling a prescription directly from the homescreen through a newly designed user flow concept.  
+This research will be a remote moderated study using Zoom. Participants will be asked to narrate their thoughts as they navigate the clickable, medium-fidelity Figma prototype of the proposed homescreen redesign. Participants will then be asked for targeted feedback on where to find items moved off the homescreen with the redesign, and to try to complete the tasks of paying a copay and refilling a prescription directly from the homescreen through a newly designed user flow concept. Since Figma prototypes cannot be used with screen readers, we will prioritize recruiting at least 5 participants with cognitive disabilities and assess accessibility of content and navigation from their point of view. The conversation guide is written to be plain language and to allot ample time for each task to account for participants with cognitive disabilities who may need additional time to review and respond to designs. 
 
 <details><summary>Additional resources</summary> 
 	
