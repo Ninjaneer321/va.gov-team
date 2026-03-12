@@ -468,7 +468,7 @@ Eight participants said they wanted to be able to delete a form they started but
 #### For the Request Personal Records form
 
 14. **Consider adding details in the helper text about what types of information would be helpful to enter in the "Additional records information"** field.
-   - _Supporting evidence_: Three of 7 participants said that they didn't know what kind of information would be helpful to include.
+    - _Supporting evidence_: Three of 7 participants said that they didn't know what kind of information would be helpful to include.
 
 1. **Consider providing a dropdown list of VA regional offices from which users can select.**      
      - _Supporting evidence_: Two participants weren't sure what to enter. One said that he only interacts with VA hospitals and didn't know the name of the regional office. The other wanted to select from a list of offices. 
@@ -482,7 +482,7 @@ Eight participants said they wanted to be able to delete a form they started but
 
 #### For the ADE team
 18. **Consider researching the issue with Zoom silently kicking out an iPhone VoiceOver user** (iPhone 15 Pro running iOS 26.2 with both Safari and Chrome) to make sure this doesn't happen in Production and is only an issue with the Codespace. --> *Jeana is unable to reproduce this in our Codespace, on Staging, or on Production. Cindy will ask some people in ADE to try to reproduce the issue*.
-   - _Supporting evidence_: Zoom silently kicked p4 out of the session when he selected the "Sign in" or "Continue" button in the Codespace. 
+    - _Supporting evidence_: Zoom silently kicked p4 out of the session when he selected the "Sign in" or "Continue" button in the Codespace. 
   
 
 ## Next Steps
