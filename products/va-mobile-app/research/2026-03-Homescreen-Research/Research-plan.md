@@ -24,7 +24,7 @@ research_format:
 research_goals:
   - goal_1: "Understand users' expectations for homescreen content and navigation"
   - goal_2: "Understand how users interpret and use new design concept's homescreen content and capabilities"
-
+  - goal_3: "Assess if users have trouble understanding content used on homescreen, including users with cognitive disabilities"
 research_questions:
   - "What content do users expect to find on the homescreen?"
   - "Where do users expect to find their Veteran status card, disability rating and payments, and dependents verification?"
@@ -34,6 +34,7 @@ research_questions:
   - "When tasks are surfaced on the homescreen, how do users want and expect to complete them?"
   - "Does homescreen information architecture affect how users prioritize items and tasks?"
   - "When provided with the opportunity to complete tasks such as paying copay and refilling prescription without leaving the homescreen, do users understand what to do and choose to do that instead of navigating away?"
+  - "Do users experience any confusion or misundersanding with the content presented on homescreen?"
 
 hypotheses:
   - "Users will expect to find new content such as new Secure messages and items requiring their review and action on the homescreen."
@@ -47,6 +48,7 @@ hypotheses:
   - "Users may not be able to articulate exactly what kind of items belong in the 'Activity' section."
   - "Users will want to complete tasks directly from the homescreen when possible."
   - "Users will expect to be able to complete tasks directly from the homescreen when there is a call to action button associated with the item such as 'Pay copay' for a medical copayment."
+  - "Since homescreen content uses plain language and short, to-the-point phrases, users will understand terms and calls to action used on homescreen."
 
 expected_outcomes: "We plan to incorporate insights to guide design decisions for homescreen and related actions so that we evolve current design concepts based on Veterans' needs and expectations. Insights will impact design refinements and influence future feature prioritization for homescreen functionality. We will base homescreen updates on mental model alignment for where users expect to find featues and how users expect to interact with homescreen content. We will work with ADE on ptoential addtional research as designs become more developed."
 
