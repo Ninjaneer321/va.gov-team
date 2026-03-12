@@ -1,8 +1,5 @@
 # PagerDuty / Datadog / Slack Integration Discovery
 
-**Date:** March 12, 2026
-**Author:** Cross-Tool Engineering, MHV-to-VA.gov
-
 ---
 
 ## Context
@@ -56,7 +53,7 @@ When the monitor was manually triggered, the following occurred:
 
 ## Recommendation
 
-The integration works well end-to-end. **We recommend moving forward** with a deliberate, safe rollout that allows room for iteration.
+The integration works well end-to-end. **I recommend moving forward** with a deliberate, safe rollout that allows room for iteration.
 
 ### Suggested Rollout Plan
 
