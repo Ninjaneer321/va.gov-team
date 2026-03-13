@@ -154,21 +154,81 @@ The goal of this research is to assess the usability of the form flow that allow
 
 ## Details of Findings 
 
-*Provide detailed descriptions and supporting evidence for each key finding.*  
-
 > [!TIP]
 > **After drafting your detailed findings, apply OCTO metadata labels to enable automated pattern detection and cross-study aggregation.**
 > Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
 
 ### Finding 1
-Brief description  
-- _Supporting data: Quote [add context]_  
-- _Supporting data: ![description of the image (image)](link - add image to github folder and link here with .png)_  
+Participants looking to make updates found the “Add or remove dependents” call to action to be incomplete.  
+- The  we ask them about remove, keep, add back, and add on separate screens and then cycle through the workflows). While no participants failed to complete the task with this design, some experienced confusion and friction. But others found the check-ins to be helpful reminders of possible dependent actions.
 
-> **TIP:** For details on how to write descriptive links that are accessible to assistive technology users, see Platform documentation on [How to create accessible GitHub Markdown files](https://depo-platform-documentation.scrollhelp.site/research-design/how-to-create-accessible-github-markdown-files).
+- _"I would be frustrated at this point if I were trying to add information about a disability as to why I would be in a form that says add or remove dependents . . . I'm just trying to provide more information to keep her on. I'm not trying to add her because she's already part of the benefit." - P8_
 
+- _“[The Add/Remove link] looks like what I should click on but my goal is to add information about a dependent, not to add or remove one. That doesn't make sense to me" - P16_
+
+- **Recommendation:** Update static content and content on My VA Dependents page to encompass the ‘update’ functionality of the 686 form. Ex: instead of “Add or remove dependents”, use the phrase “Add, remove, or update dependents”. This would apply to the form title, step titles, etc. We could also look at updating the paper form name as well
+
+- **Effort:** Small - simple change to the CTA. Larger changes to VA as a whole could bump up the coordination effort, but we wouldn’t be directly responsible for those changes.
+  
 ### Finding 2  
-Brief description  
+The link to start the 686/674 forms is at the bottom of a long intro page. Three participants felt that the content was overwhelming and made it difficult to find the link. 
+
+- The intro page also emphasizes the info needed to add dependents. But if a user is making a change or removing, they don’t actually need all of this info. The intro page could lead users to over-prepare for the task and waste their time.
+
+- _“I like to read all of [the content], but someone with significant PTSD might have trouble with it” - P17_  
+
+### Finding 3  
+Participants' opinions were split on the prototype’s ‘check-in’ form structure.
+- The 'check-in' structure involves asking users about removing, keeping, adding back, and adding on separate screens and then cycling them through the workflows for each change that they indicated that they needed to make. While no participants failed to complete the task with this design, some experienced confusion and friction. But others found the check-ins to be helpful reminders of possible dependent actions.
+
+- Examples of friction
+     - _“If I'm going into a form to add dependents, I don't want to be concerned with removing dependents also . . . now I'm trying to add my child and they're just trying to take more of my benefit away with these remove questions." - P8_
+
+     - _“I prefer that you just ask about Jen because if you ask me this question [about removals] first . . . you'll lose me because I have to stay focused." - P17_
+
+- Examples of confusion
+     - _“Why is Porshia being brought up here while I'm in the middle of trying to make sure Jen is OK?" - P13_
+
+     - _“It feels like I skipped a step, then I'm all of a sudden in Jen's questions again . . . I know this is what I want to do, but I'm confused as to why I jumped from "No, I don't want to delete anybody" to this question about Jen . . . I would have figured I'd go to a page with all three and it would be like, "What do you want to do with who" - P16_
+
+     - _“How come it doesn’t give me options to add dependents? It asked me about removing, and now I have this random question about Jen – what is happening?” - P5_
+
+- Examples of positive responses
+     - _“I do like that even though you come here for one thing, it is checking whether the other things apply. If it don't pertain to you, just answer no. I’d rather have it asked versus not." - P14_
+
+     - _“I think it's cool that they ask [about Porshia], just in case you might be able to get extra money and you didn’t realize.” - P14_
+
+     - _"I guess they figured, well, since you're here managing your other dependents, you have any other changes? So I do like that they prompt you for that. . . . Thanks for checking in VA." - P15_
+
+### Finding 4  
+On the Veteran address screen, participants had inconsistent understandings of what “I agree to receive electronic correspondence from VA about my claim” meant.
+- _Supporting data: Quote [add context]_  
+
+### Finding 5  
+Participants wanted more specific information about which medical records VA needs to determine a dependent’s disability status.
+
+- Participants want more specificity about medical records the VA needs to determine a dependent’s disabled status. The doctor's statement was clearer to users.
+
+- _“Are they looking for when it first started? Over a period of time? The diagnosis codes? IEP records? Medications they’re on?...What do they actually need?” - P2_
+
+- _“I am not sure what the difference is between a note from the doctor and the medical record. If I have the medical record, that is a statement from the doctor. If I need this doctors statement, I have to pay to go to the doctor and take a sick person’s appointment for this confusing reason.” - P8_
+
+- **Recommendation:** Talk to David Reis/VSRs to understand more specifically what the necessary elements of a medical record are. Include that information in static content on VA.gov, and contextually within the medical records upload section.
+
+- **Effort:** Medium - inter-agency coordination w/ VSRs to understand policy, but then easy to implement as content changes on VA.gov
+
+### Finding 6  
+Three of five participants who saw the screen were confused by the informational page listing the required evidence types being separate from the upload screens.
+- _Supporting data: Quote [add context]_  
+
+### Finding 7  
+Three of five participants who saw the screens were unclear whether they could upload multiple files in each upload screen.
+
+### Finding 8
+Six participants found content callouts about "Overpayments" and "Reasons to add/remove dependent helpful".
+
+### Finding 9
+Most users would want to know if their answer might trigger an automatic denial.
 - _Supporting data: Quote [add context]_  
 
 ---
