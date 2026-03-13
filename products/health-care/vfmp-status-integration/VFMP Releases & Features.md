@@ -13,14 +13,15 @@ Allow applicants to confirm that their CHAMPVA application was successfully subm
 
 This release focuses on **submission-level visibility only**.
 
+MyVA 2.0
 ## In Scope
 
 - CHAMPVA applications appear in **MyVA** after submission.
 - Basic application states such as:
   - Draft
-  - In progress
-  - Submitted / received
-- Navigation from **MyVA to the CHAMPVA Status Tool**.
+  - Submission In progress
+  - Received
+  - Action Needed
 - Compatibility with **both Old MyVA and New MyVA interfaces**.
 
 ## Out of Scope
@@ -31,6 +32,10 @@ This release focuses on **submission-level visibility only**.
 - Eligibility information
 - Decision or rejection details
 
+
+MyVA 3.0
+## In Scope
+- Navigation from **MyVA to the CHAMPVA Status Tool**.
 ---
 
 # Release 2 — PEGA Processing Status
