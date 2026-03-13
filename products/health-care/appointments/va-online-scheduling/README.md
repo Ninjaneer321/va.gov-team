@@ -21,20 +21,19 @@ A very small percentage of Veteran appointments with VA Medical Centers are sche
 - Kristen McConnell - UX Lead
 
 **Product Management**
-- TBD
+- Alayna Abel
 
 **User Experience**
 - Peter Russo (lead)
-- Ciera Maddox
-- Melissa Lefevre
+- Jenny Wang
 
 **Engineering**
 - Simi Adebowale (lead)
 - Corey Ferris
 - Ryan Shaw
-- Jennie McGibney
 - Tony Williams
 - John Lou
+- Eli Selkin
 
 ### How we we work together
 
@@ -70,9 +69,8 @@ Find team members and channels in the [DSVA Slack Space](https://dsva.slack.com)
 GitHub label = `vaos` 
 
 High-level overview of our current projects:
-- [Product roadmap]()
-- [Main epics Zenhub board](https://app.zenhub.com/workspaces/vaos-team-603fdef281af6500110a1691/board?repos=133843125,194202180&showPRs=false&showReleases=false&showReviewers=false)
+- [Product roadmap]()[
+](https://github.com/orgs/department-of-veterans-affairs/projects/1713/views/1?filterQuery=team%3A%22%F0%9F%97%93+Orion+%28Appointments+FE%29%22)- 
 
 The main board rolls up tickets from two other boards: 
-- [Engineering board](https://app.zenhub.com/workspaces/vaos-team-603fdef281af6500110a1691/board)
-- [Product, design, and research board](https://app.zenhub.com/workspaces/vaos---productdesign-5fff340c2d80a4000fb6f69c/board) 
+- [Engineering board](https://github.com/orgs/department-of-veterans-affairs/projects/1554/views/1)
