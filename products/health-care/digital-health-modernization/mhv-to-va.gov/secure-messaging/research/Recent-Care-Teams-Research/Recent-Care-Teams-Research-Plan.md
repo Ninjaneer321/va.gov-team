@@ -34,7 +34,7 @@ Objective 3: Relentlessly improve the user experience.
 
 ### Outcomes
 
-The desired outcome of this research is to inform the functioning of the start a new message flow on web.  This work will inform 1) how many pages a user should go through to write a message 2) the most accessible design for AT users 3) the layout of care systems and the way they are explained when users select care teams 4) next steps based on whether users notice, read, and understand the interstitial content 5) identifying new and existing pain points in the message creation flow.  
+The desired outcome of this research is to inform the functioning of the start a new message flow on web.  This work will inform 1) how many pages a user should go through to write a message 2) the most accessible design for AT users 3) the layout of care systems and the way they are explained when users select care teams 4) the next steps based on whether users notice, read, and understand the interstitial content 5) the identification of new and existing pain points in the message creation flow.  
 
 ### Research Questions
 
