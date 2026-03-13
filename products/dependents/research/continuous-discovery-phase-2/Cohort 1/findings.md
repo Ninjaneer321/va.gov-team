@@ -160,7 +160,6 @@ The goal of this research is to assess the usability of the form flow that allow
 
 ### Finding 1
 Participants looking to make updates found the “Add or remove dependents” call to action to be incomplete.  
-- The  we ask them about remove, keep, add back, and add on separate screens and then cycle through the workflows). While no participants failed to complete the task with this design, some experienced confusion and friction. But others found the check-ins to be helpful reminders of possible dependent actions.
 
 - _"I would be frustrated at this point if I were trying to add information about a disability as to why I would be in a form that says add or remove dependents . . . I'm just trying to provide more information to keep her on. I'm not trying to add her because she's already part of the benefit." - P8_
 
@@ -175,7 +174,11 @@ The link to start the 686/674 forms is at the bottom of a long intro page. Three
 
 - The intro page also emphasizes the info needed to add dependents. But if a user is making a change or removing, they don’t actually need all of this info. The intro page could lead users to over-prepare for the task and waste their time.
 
-- _“I like to read all of [the content], but someone with significant PTSD might have trouble with it” - P17_  
+- _“I like to read all of [the content], but someone with significant PTSD might have trouble with it” - P17_
+
+- **Recommendation:** Consider shortening the intro page content, hiding some content in accordions or other static pages on va.gov, or providing a link to start the form nearer the top of the page.
+
+- **Effort:** Medium - This is a unique situation where the form does many things. The biggest effort would probably be coordinating with the content team since this page is an established VA pattern.
 
 ### Finding 3  
 Participants' opinions were split on the prototype’s ‘check-in’ form structure.
@@ -200,14 +203,23 @@ Participants' opinions were split on the prototype’s ‘check-in’ form struc
 
      - _"I guess they figured, well, since you're here managing your other dependents, you have any other changes? So I do like that they prompt you for that. . . . Thanks for checking in VA." - P15_
 
+  - **Recommendation:** Weigh the pros and cons of this design vs other possibilities (See appendix) – it may decrease overpayments by catching removals, but it does add friction for the user to review each action. Are the potential avoided overpayments worth the additional friction for ½ of users? As a first pass, design team thinks maybe yes. Is there quant data we could look at or collect to help us make a decision? Additional testing? If we do decide to go with this design, we recommend changing the way the steps and questions are organized to alleviate the confusion users had.
+
 ### Finding 4  
 On the Veteran address screen, participants had inconsistent understandings of what “I agree to receive electronic correspondence from VA about my claim” meant.
-- _Supporting data: Quote [add context]_  
+
+- Users were unclear on whether they would continue to receive paper correspondence if they check the box, or if this preference applies only to this submission, or to all VA correspondence moving forward.
+
+- Context – this field was added to all PDF forms in 2024, but not all business lines actually use it. It is present on the 686c.
+
+- **Recommendation:** Figure out what this checkbox actually does for the 686c and 674. If it IS necessary, clarify that users will continue to receive paper correspondence no matter what. Consider checking the box by default. If it is NOT necessary or does nothing, remove it!
+
+- **Effort:** Small - inter-agency sleuthing could get us answers, but there might be OCTO-level coordination needed for what VA should do across teams, since this is a standard question.
 
 ### Finding 5  
 Participants wanted more specific information about which medical records VA needs to determine a dependent’s disability status.
 
-- Participants want more specificity about medical records the VA needs to determine a dependent’s disabled status. The doctor's statement was clearer to users.
+- The doctor's statement was clearer to users.
 
 - _“Are they looking for when it first started? Over a period of time? The diagnosis codes? IEP records? Medications they’re on?...What do they actually need?” - P2_
 
@@ -219,32 +231,57 @@ Participants wanted more specific information about which medical records VA nee
 
 ### Finding 6  
 Three of five participants who saw the screen were confused by the informational page listing the required evidence types being separate from the upload screens.
-- _Supporting data: Quote [add context]_  
+
+- The card design and alert seemed to imply some kind of action, but there was actually no action on this page. 
+For context – we designed this informational page for the edge-case situations where a user might need to provide 5+ different types of evidence. And, for a situation where a user might want to see what’s needed and go get it. In the user-research setting, users didn’t have to go find documents.
+
+- **Recommendation:** Revisit the design of this page - we may have reached the limit of what the current design system affords us re: components for this complex task. Consider an alternate design like a task-list to upload evidence.
+
+- **Effort:** Medium - We may need to redesign the UI for the page informing users of evidence requirements. This work could benefit the whole VA, so could be slowed down by collab cycle etc.
 
 ### Finding 7  
 Three of five participants who saw the screens were unclear whether they could upload multiple files in each upload screen.
 
+- **Recommendation:** Clarify whether they can add multiple files, and if the 99MB limit is total, or per file. Note: full limit for a single form is 5GB
+
+- **Effort:** Small - We need to clarify the requirements and then add content that supports it.
+
 ### Finding 8
 Six participants found content callouts about "Overpayments" and "Reasons to add/remove dependent helpful".
 
+- _“A lot of Veterans struggle to understand the nuances of the benefits, so it’s helpful to explain some of this stuff” - P4_
+
+- **Recommendations:** Continue to call out overpayments and add/removal reason reminders in dependents designs where appropriate.
+
+- **Effort:** No action needed.
+
 ### Finding 9
 Most users would want to know if their answer might trigger an automatic denial.
-- _Supporting data: Quote [add context]_  
 
+- Users were split on whether they wanted the form to stop them from continuing despite the probable denial, or allow them to continue.
+
+- _“If the system is going to automatically deny my application then don't let me continue now, but if there is a gray area then let me continue. I could take action like talking to my child about the school they are going to, or double-check that the school is accredited“ - P16_
+
+- _“I would like to be notified [that my answer may result in a denial], but allowed to continue. That would help me make sure I didn’t make an error.” - P17_
+
+- **Recommendations:** Continue with our plan to explain potential for denials based on answers in our various forms (content team is working on how to do this gracefully). 
+
+- **Effort:** No action needed
+  
 ---
 
 ## Additional Insights
 *Include insights that do not represent patterns but are still valuable.*  
-> **TIP:** These could be powerful user comments or unexpected issues worth noting
 
-- 3. Users want the ability to report the disability when the child acquires it, and not have to wait until the child turns 18
-4. Users might benefit from examples of qualifying disabilities
+1. Users want the ability to report the disability when the child acquires it, and not have to wait until the child turns 18.
+   
+2. Users might benefit from examples of qualifying disabilities
 5. Users wondered if the student needed to be in school full-time or not
 6. One user mentioned wanting to be able to add dependent parents (or at least find out how to do so) in the 686c/674 flow.
 Most users would want to know if their answer might trigger an automatic denial.
 2 users assumed that dependents from military service will transfer over to VA dependents automatically, and reported delayed payments because of the misunderstanding
 One participant mentioned that having the form in spanish would be really important, especially for programs that would apply to caregivers or family members.
-Having separate upload components for the different types of evidence was helpful, but 2 users didn’t realize that the 2nd screen would appear, and would have uploaded all documents on the first one
+Having separate upload components for the different types of evidence was helpful, but two users didn’t realize that the 2nd screen would appear, and would have uploaded all documents on the first one
 
 
 
