@@ -467,7 +467,10 @@ Eight participants said they wanted to be able to delete a form they started but
 
 #### For the Request Personal Records form
 
-14. **Consider adding details in the helper text about what types of information would be helpful to enter in the "Additional records information"** field.
+14. **Prioritize adding the prefill pattern to this form**. --> *The Design System and Forms team is finalizing the prefill pattern in the Forms Library, and then all teams will be able to easily add it to their forms. Existing forms will need some code refactoring.*
+     - _Supporting evidence_: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. A participant in the previous round of usability testing stated the same expectation.
+
+1. **Consider adding details in the helper text about what types of information would be helpful to enter in the "Additional records information"** field.
     - _Supporting evidence_: Three of 7 participants said that they didn't know what kind of information would be helpful to include.
 
 1. **Consider providing a dropdown list of VA regional offices from which users can select.**      
@@ -475,9 +478,6 @@ Eight participants said they wanted to be able to delete a form they started but
 
 1. **Consider separating the "Place of birth" field into separate "City" and "State" fields** (and "Country"?).
      - _Supporting evidence_: One participant was unsure how to enter both city and state into the "Place of birth" field because it's a single text box. A participant in the previous round of usability testing expressed the same concern.
-
-1. **Prioritize adding the prefill pattern to this form**. --> *The Design System and Forms team is finalizing the prefill pattern in the Forms Library, and then all teams will be able to easily add it to their forms. Existing forms will need some code refactoring.*
-     - _Supporting evidence_: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. A participant in the previous round of usability testing stated the same expectation.
 
 
 #### For the ADE team
