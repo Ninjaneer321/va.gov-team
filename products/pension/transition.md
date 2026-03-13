@@ -195,15 +195,13 @@ Due to implementation
 - [CAIA Request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/89314) for dependent card updates
 
 ### Our team 2024/25 roster
-- Delivery Lead: Amy Plange | amy.plange@va.gov/ amy.plange@coforma.io
-- Product manager: Laura Steele | laura.steele1@va.gov / laura.steele@coforma.io
+- Delivery Lead: Ahn Platt | anh.platt@va.gov/ anh.platt@coforma.io
+- Product manager: Matt Reilly | matthew.reilly1@va.gov/ matt.reilly@adhocteam.us
 - Engineering Lead: Matthew Knight | matthew.knight3@va.gov / matt.knight@coforma.io
-- UX Design/Research Lead: Ruben Sun | ruben.sun@va.gov / ruben@coforma.io
-- UX Design/Research: Fiorella Geedi | fiorella.GeediCotrina@va.gov / fiorella.geedi@coforma.io
-- UX Design/Research: Ajia Wallace | ajia.wallace@va.gov / ajia.wallace@softrams.com
-- Full Stack Engineer: Evan Smith | evan.smith6@va.gov / evan.smith@oddball.io
-- Full Stack Engineer: Micah Frazier | micah.frazier@va.gov / micah.frazier@oddball.io
-- Frontend Engineer: Sean Midgley | sean.midgley3@va.gov / sean.midgley@oddball.io
+- UX Design/Research Lead: Elisabeth Chin | elisabeth.chin@va.gov / elisabeth.chin@coforma.io
+- UX Design/Research: A'nita Evans | anita.evans1@va.gov / anita.evans@coforma.io
+- Full Stack Engineer: Bryan Alexander | bryan.alexander@va.gov / bryan.alexander@va.gov
+- Frontend Engineer: Todd Rizzolo | sean.midgley3@va.gov / todd.rizzolo@adhocteam.us
 - Frontend Engineer: Dakota Larson | dakota.larson@va.gov / dakota.larson@oddball.io
 - QA Engineer: Jon Keister | jonathan.keister@va.gov / jonathan.keister@oddball.io
 
