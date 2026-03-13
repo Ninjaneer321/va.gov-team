@@ -93,7 +93,7 @@ Concept C: (can add one more concept if necessary)
 
 ## Methodology 
 
-Moderated usability testing with multiple concepts.  **10 completed sessions are required for the study to be considered complete.**
+Moderated usability testing with multiple concepts.  **8 completed sessions are required for the study to be considered complete.**
 
 Proposal - work with users from MI pre-transitioned cutover users, rural users, AT users. Have them walk through real data. Then use either AI-coded prototypes or engineer feature-toggle prototypes to test the other "concepts."
 
