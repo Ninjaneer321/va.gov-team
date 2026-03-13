@@ -453,7 +453,7 @@ Eight participants said they wanted to be able to delete a form they started but
 
 #### For the Content team
 10. **Consider revising the "Your full name" prompt on the "Review and submit" page to refer to what you entered before** (e.g., "Your name as entered earlier in the form")  
-    - _Supporting evidence_: Participants didn't realize that the name that you enter for "Your full name" must exactly match what they entered as their name at the beginning of the form. One participant called out that "Full name" requires your full middle name, not just your middle initial, as the form asked for earlier.
+    - _Supporting evidence_: Six of 7 participants didn't realize that the name that you enter for "Your full name" must exactly match what they entered as their name at the beginning of the form. One participant called out that "Full name" requires your full middle name, not just your middle initial, as the form asked for earlier.
 
 1. **Avoid using the phrases "My VA" and "form introduction" in Veteran-facing web pages because they're not intuitive.**
    - _Supporting evidence:_ 4 of 8 participants didn't know what these phrases meant when seeing them in links on the interstitial page.
