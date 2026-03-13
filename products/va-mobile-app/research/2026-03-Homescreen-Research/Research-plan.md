@@ -97,7 +97,7 @@ timeline:
       participant: "Matthew Sweeney"
   
   research_dates: "2026-03-30 to 2026-04-03"
-  research_review_submission: "TBD (recommend 8-9 days before research start)"
+  research_review_submission: "2026-03-13"
 
 session_details:
   duration_minutes: 60
