@@ -85,45 +85,14 @@ The online pension application is available in the [production environment](http
 
 ## Roadmap
 ### Done (recently)
-- Updated form flow to produce Aug 2022 version of pdf on Aug 13, 2024.
-- Send [674-only claims from VA.gov directly to RBPS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/97875) rather than flagging them for manual processing on March 21, 2025.
-- Completed concept testing for the [MVP prototype](https://www.figma.com/design/bvj72inycD0iZkuCbjYTWL/Dependent-Verification-MVP?node-id=59-960&t=yWIz3IUP2uFChYib-0) of dependent verification tool. Intent is to capture “no changes to dependents” through an online tool on VA.gov and submit a 21-0538 (dependent verification) form on the Veteran’s behalf.
-- [Met with CAIA](https://github.com/department-of-veterans-affairs/va.gov-team/issues/84170) in January 2025 to discuss [IA of dependent experience](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1709582312238/ae3de21fd188beba8c28668ee37a31841c6203bf?wid=91-1737736233308) and [improvement opportunities](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1709582312238/ae3de21fd188beba8c28668ee37a31841c6203bf?wid=522-1737736233308).
+- 0969 Post MVP improvements - Improvements to the content and format of the Income and Asset statement focused on plain language updates and content chunking to ease form filling burden. Released 3/4/26
+- Pension - 100% service-connected disability alert - Updated Pension service-connected disability alerts to include "100% service-connected disability rating" to avoid confusion with applicants that have non-service connected disability conditions. 
+- Minimal header update - The Minimal header is the latest standard header for usage in forms. The goal is to help the user focus on the task at hand.
+
 
 ### Now
-- Test and release [updated form flow](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1292) to use v3 design system components, improve user experience, and comply with current accessibility requirements. See general testing guidelines [here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/form_updates/general_testing_plan.md).
-   - The form updates have gone through a final [Collaboration Cycle staging review](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74059) stage gate, and there are a [handful of launch-blocking issues](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1253) that need to be addressed (see launch-blocking label).
-   - The initial release was postponed due to ongoing issues with some of the new v3 design system components, but workarounds were implmented where needed. Given the time invested in fixing or working around the component limitations, we ran out of runway to complete end-to-end testing with OBI/RBPS stakeholders, so the release was delayed. We have developed workarounds for the following issues, and tickets have been submitted to fix the component-related issues at the Platform level:
-      - [#103781](https://github.com/department-of-veterans-affairs/va.gov-team/issues/103781): Validation error
-      - [#103778](https://github.com/department-of-veterans-affairs/va.gov-team/issues/103778): Remove additional info (this workflow needs to be reviewed)
-      - [#103783](https://github.com/department-of-veterans-affairs/va.gov-team/issues/103783): Button imposter component
-      - [#103784](https://github.com/department-of-veterans-affairs/va.gov-team/issues/103784): File input imposter component
-  - Post release, an [accessibility audit needs to be requested from the VA 508 Office](https://depo-platform-documentation.scrollhelp.site/developer-docs/request-support-from-the-va-508-office#RequestsupportfromtheVA508office-AuditRequest). This is required even if no accessibility issues were found during the Staging Review. Once the audit has been requested, add a comment to the [collab cycle ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74059) with the 508 ticket number and close the collab cycle review ticket.
-- Build out [MVP](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/dependency_verification/initiative-brief-dependent-verification-tool.md#whatre-you-building) of dependent verification tool to capture “no changes to dependents” and auto-submit a 21-0538 form. ([milestone for this project](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1409)).
-- Add claim submission in-progress email and update confirmation email to align with requirements from Zero Silent Failure initiative. Seperate existing confirmation email into seperate emails for each claim submission type. ([milestone for this project](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1420))
-- [Migrate to RESTful APIs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/91282)
-- [Migrate](https://github.com/department-of-veterans-affairs/va.gov-team/issues/83272) off of depreciated document upload API.
+- BPDS for 0969 and 530 - For 0969 and 530 applications, VA.gov will sendstructured JSON data directly to BPDS. POI then retrieves and uses this data for processing, eliminating the need to perform OCR on submitted PDF forms.
 
-### Next
-* Update marriage history to VADS pattern
-	* Design spec: [Figma](https://www.figma.com/design/9JKK5Eo43uJWEr66JPiebc/WIP---21P-527EZ---Pension-Benefits?node-id=14174-6517) (Note: May need input from C/IA)
-	* Engineering tickets:
-		* [Previous Marriages - Multiple Page List & Loop Pattern #109093](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109093)
-		* [Pension | Marriage Info - Current Marriage #103928](https://github.com/department-of-veterans-affairs/va.gov-team/issues/103928)
-		* [Current Spouse Marital History - Multiple Page List & Loop Pattern #109092](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109092)
-* Apply pre-fill pattern
-	* Design spec: [Figma]()
-	* Engineering ticket: [Pension | Apply pre-fill pattern #111588](https://github.com/department-of-veterans-affairs/va.gov-team/issues/111588)
-* Remove 65+ age question from flow
-	* Engineering ticket: [PBB | Backend: Implement removal 65+ age question from flow #134365](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134365)
-
-### Future
-- Add the ability to [download a pdf of the submitted claim](https://github.com/orgs/department-of-veterans-affairs/projects/1237/views/13?sliceBy%5Bvalue%5D=ND%2FD+ZSF+%7C+Stage+5+%28Confirmation+page+full+update%29) from the confirmation page (as part of the Zero Silent Failure initiative). This work was put on hold until another team implements a solution.
-- Work with MyVA to update the [status card](https://design.va.gov/patterns/help-users-to/stay-informed-of-their-application-status#status-in-myva) shown to claimants as part of the Zero Silent Failure initiative.
-- Integrate dependent management into the MyVA profile experience. ([milestone for this project](https://github.com/department-of-veterans-affairs/va.gov-team/issues/102346))
-- Integrate dependent parent form (21-509) into 686/674 form flow on VA.gov. ([discovery ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/102348))
-- Expand functionality of dependency verification tool (21-0538) to capture "yes, I have changes to my dependents). (No existing tickets, but there is a [general milestone](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1409).)
-- Explore reminders for life events ([discovery ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/102351))
 
 
 ## Features and initiatives we worked on
