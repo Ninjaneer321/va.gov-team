@@ -495,11 +495,17 @@ Eight participants said they wanted to be able to delete a form they started but
 > 
 > If you need Github Copilot Enterprise Access, please complete this [Issue](https://github.com/department-of-veterans-affairs/copilot-onboarding/issues/new?template=copilot-onboarding.yml).
 
-1. Work with the Design System and Forms team to revise the recommended Save in Progress messaging in VA forms.
-1. Reach out to the Content team to share relevant findings and recommendations.
-1. Follow up with the Design System and Forms team about usability and accessibility revisions to the Request personal records form.
-1. Discuss and coordinate the location of USWDS accordion controls with VADS and the US Web Design System team.
-1. Work with the ADE team on opportunities to help Veterans who are struggling with their assistive tech.
+### For the VA Design System and Forms Team
+
+1. Explore more accessible approaches to inform users that their form is being saved based on these research findings.
+1. Discuss content-related findings and recommendations with the Content team.
+1. Review and prioritize the usability and accessibility revisions to the Request personal records form.
+1. Followup with the US Web Design System team about the location of accordion controls.
+
+### For the ADE team
+
+5. Work on opportunities to help Veterans who are struggling with their assistive tech.
+1. Try to reproduce the Zoom/iPhone/VoiceOver issue.
 
 ## Further research needed
 
