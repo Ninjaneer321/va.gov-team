@@ -109,7 +109,7 @@ This is going to take time. It can take a month, or even longer, to get fully on
 ### Technology
 Some accessibility specialists use government-furnished equipment, or "GFE", to access VA systems or use Windows-only applications like JAWS. If you need GFE, talk to your product owner. It may already be included in your company's contract. And many VA contractors use their company computers for all, or the vast majority, of their work. 
 
-Be sure to [opt out of VA.gov analytics](https://www.va.gov/analytics-opt-out.html) on your work computer.
+Be sure to [opt out of VA.gov analytics](https://depo-platform-documentation.scrollhelp.site/analytics-monitoring/google-analytics-opt-out) on your work computer.
 
 </details>
 
