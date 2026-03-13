@@ -66,9 +66,11 @@ The desired outcome of this research is to inform the functioning of the start a
 Concept A (2-page): Combined addressing page (care system + team selection) → message composition
 - What are your reactions to this version?
 - What would you imagine would happen next?
+  
 Concept B (1-page: User addresses and writes the message all in one place
 - What are your reactions to this version?
 - What would you imagine would happen next?
+  
 Concept C: (can add one more concept if necessary)
 
 
