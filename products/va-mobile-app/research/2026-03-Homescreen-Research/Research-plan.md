@@ -295,7 +295,8 @@ Are there moments that matter?</summary>
 
 **Research goal 3: Understand any points of confusion for users on the homescreen content and navigation, including for users with cognitive disabilities**
 
-1. What causes users confusion or misunderstandings, including for users with cognitive disabilities?
+1. What causes users confusion or misunderstandings?
+2. Are there any terms or processes that cause particular confusion for users with cognitive disabilities?
 
 > [!TIP]
 >Enter more questions as needed
@@ -332,7 +333,8 @@ Are there moments that matter?</summary>
 6. Users will expect to be able to complete tasks directly from the homescreen when there is a call to action button associated with the item such as "Pay copay" for a medical copayment. 
 
 **Research goal 3: Understand how users interpret and use homescreen content and capabilities**
-1. Since homescreen content uses plain language and short, to-the-point phrases, users will generally understand terms and calls action used on homescreen and experience minor confusion.
+1. Since homescreen content uses plain language and short, to-the-point phrases, users will generally understand terms and calls action.
+2. Users may experience minor confusion due to lack of familiarity with specific items such as 'evidence request.'
 ---
   
 ## Methodology  🛠️
