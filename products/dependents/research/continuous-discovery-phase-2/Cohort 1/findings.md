@@ -1,162 +1,9 @@
-
----
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
-research_goals:
-  - "Goal 1"
-  - "Goal 2"
-methodology:
-  - "Method 1"
-  - "Method 2"
-devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
-demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
-  race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
-  disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
-key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
-recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
-outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
----
-
-> [!TIP]
-> **Complete the frontmatter section above AFTER you've finished and saved your research findings report below.**
-> 
-> Use the [GitHub Copilot Research Findings Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md) to automatically generate structured metadata from this completed research findings report. The prompt uses natural language processing to extract key findings, participant demographics, recommendations, and apply appropriate research repository tags.
-
----
-
-# [Study] Research Findings 
-
-**Office of the CTO - Digital Experience (OCTO-DE), Dependents Management, Lifestage**
-
-**Date:** 03/2026
-
-**Contacts:** Megan Graham
-
-**Jump to:**
-- [Hypotheses and conclusions](#user-content-hypotheses-and-conclusions)
-- [Key findings](#user-content-key-findings)
-- [Recommendations](#user-content-recommendations)
-- [Product User and Business Outcomes](#user-content-product-user-and-business-outcomes)
-- [Key Performance Indicators](#user-content-key-performance-indicators)
-- [Next Steps](#user-content-next-steps)
-- [Further research needed](#user-content-further-research-needed)
-- [Appendix](#user-content-appendix)
-- [Research participants](#user-content-research-participants)
-
-## Research Goals
-*Provide context for this research by explaining how it fits into the Veteran’s journey.*  
-
-The goal of this research is to assess the usability of the form flow that allows Veterans to keep their dependent on the disability compensation benefit after the turn 18 as a student dependent or disabled dependent. Dependents management is relevant to many life stages but is especially relevant to putting down roots which includes the "Starting, growing, or maintaining my family" and "Engaging VA to access benefits and services moments" that matter.
-
-## Research Questions
-
-* Do participants understand how to keep a dependent on the disability compensation benefit past their 18th birthday as a disabled or student dependent? 
-* Do participants understand how to add back inactive dependents? 
-* Do participants understand that they can submit the form without uploading documents? 
-
-## Methodology 
-
-*Provide a brief description of the research methods used (e.g., usability testing, interviews).*  
-
-- Method 1: Moderated testing 
-- Method 2: Usability testing  
-
-
-## Key Findings
-
-> **After completing your detailed findings below, you'll add metadata labels using the [Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md).**  
-
-1. Participants looking to make updates found the “Add or remove dependents” call to action to be incomplete.
-2. The link to start the 686/674 forms is at the bottom of a long intro page. Three participants felt that the content was overwhelming and made it difficult to find the link.
-3. Participants' opinions were split on the prototype’s ‘check-in’ form structure.
-4. On the Veteran address screen, participants had inconsistent understandings of what “I agree to receive electronic correspondence from VA about my claim” meant.
-5. Participants wanted more specific information about which medical records VA needs to determine a dependent’s disability status.
-6. Three of five participants who saw the screen were confused by the informational page listing the required evidence types being separate from the upload screens. 
-7. Three of five participants who saw the screens were unclear whether they could upload multiple files in each upload screen.
-8. Six participants found content callouts about "Overpayments" and "Reasons to add/remove dependent helpful".
-9. Most users would want to know if their answer might trigger an automatic denial.
-
-## Details of Findings 
-
-> [!TIP]
-> **After drafting your detailed findings, apply OCTO metadata labels to enable automated pattern detection and cross-study aggregation.**
-> Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
+# Continuous Discovery- Keeping Disabled and Student Dependents Top-line Summary
+[link research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/research/continuous-discovery-phase-2/Cohort%201/research-plan.md)
+[link conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/research/continuous-discovery-phase-2/Cohort%201/conversation-guide.md)
+[link interview transcripts]()
+ 
+## Initial Findings
 
 ### Finding 1
 Participants looking to make updates found the “Add or remove dependents” call to action to be incomplete.  
@@ -258,7 +105,7 @@ Six participants found content callouts about "Overpayments" and "Reasons to add
 ### Finding 9
 Most users would want to know if their answer might trigger an automatic denial.
 
-- Users were split on whether they wanted the form to stop them from continuing despite the probable denial, or allow them to continue.
+- Participants were split on whether they wanted the form to stop them from continuing despite the probable denial, or allow them to continue.
 
 - _“If the system is going to automatically deny my application then don't let me continue now, but if there is a gray area then let me continue. I could take action like talking to my child about the school they are going to, or double-check that the school is accredited“ - P16_
 
@@ -273,212 +120,48 @@ Most users would want to know if their answer might trigger an automatic denial.
 ## Additional Insights
 *Include insights that do not represent patterns but are still valuable.*  
 
-1. Users want the ability to report the disability when the child acquires it, and not have to wait until the child turns 18.
+1. Participants want the ability to report the disability when the child acquires it, and not have to wait until the child turns 18.
+   - Participants shared that needing to wait results in confusion, stress, and automated dependent removals that don’t need to happen.
+     
+   - **Recommendation:** Discuss possible procedure changes with David Reis. This may go along with the recommendation below about clarifying what medical records are required. We could consider changing the VBMS child types and accepted values in RBPS so that a user can report a child’s disability at any time.
+     
+   - **Effort:** Large - inter-agency coordination of service change affecting multiple procedures and data systems
+
+2. Participants might benefit from examples of qualifying disabilities.
+   - Only one participant mentioned this. Veterans may not realize that common conditions might qualify their child to remain on the benefit. 
+  
+   - **Recommendation:** Listen in future studies to see whether this comes up. Consider providing a list of common disabilities that meet the criteria for 18+ child dependency, both on VA.gov static content and the 686 form.
+     
+   - **Effort:** Medium - getting this type of data from VA has been really hard historically, it might not even exist. Beyond finding the data, simple content change on our end.
+     
+3. Participants wondered if the student needed to be in school full-time or not.
+   - Two participants incorrectly assumed that the school would need to be full time, and the form doesn’t specify.
+  
+   - **Recommendation:** Add content to the website and 674 form clarifying that school doesn’t have to be full time. 
+     
+   - **Effort:** Small - quick content change, and we have already confirmed the accuracy of this with David Reis
    
-2. Users might benefit from examples of qualifying disabilities
-5. Users wondered if the student needed to be in school full-time or not
-6. One user mentioned wanting to be able to add dependent parents (or at least find out how to do so) in the 686c/674 flow.
-Most users would want to know if their answer might trigger an automatic denial.
-2 users assumed that dependents from military service will transfer over to VA dependents automatically, and reported delayed payments because of the misunderstanding
-One participant mentioned that having the form in spanish would be really important, especially for programs that would apply to caregivers or family members.
-Having separate upload components for the different types of evidence was helpful, but two users didn’t realize that the 2nd screen would appear, and would have uploaded all documents on the first one
+4.  One participant mentioned wanting to be able to add dependent parents (or at least find out how to do so) in the 686c/674 flow.
+   - They used the language “became a caregiver for your parent” to describe that life change.
+     
+   - **Recommendation:** Short term: Add some pathway for users in the 686c to add parents – it could be an additional info component directing them to the form, more content about dependent parents on the site, of an offramp to 509. Long term: incorporate 509 into the 686/674 flow.
+     
+   - **Effort:** Medium-Large - Adding an offramp or info component to the existing form would probably be easy. The 509 asks for complex financial info (similar to pension), so building out the form might be challenging (the 509 is not digitized as a standalone yet, either).
 
-
-
-
-## Recommendations
-
-*Summarize actionable recommendations based on findings.*  
-
-1. **Recommendation:** [Insert action]  
-   - _Supporting evidence: [Insert data]_  
-2. **Recommendation:** [Insert action]  
-   - _Supporting evidence: [Insert data]_
-
-## Product User and Business Outcomes
-
-*Explain how findings and recommendations align with the product's goals.*
-
-> [!NOTE] 
-> Refer back to your Product Outline. 
-
-### Desired User Outcome 
-This research supports our desired user outcome by....
- 
-### Desired Business Outcome
-This research supports our desired business outcome by....
-
-
-## Key Performance Indicators
-
-*Explain how findings will support KPI measurement.*  
-
-> [!NOTE]
-> Refer back to your Product Outline. 
-
-### KPI 1
-This research supports measurement of this KPI by....
+5. Two users assumed that dependents from military service will transfer over to VA dependents automatically, and reported delayed payments because of the misunderstanding.
+   - **Recommendation:** Consider adding a FAQ about this to static content on the site.
   
+   - **Effort:** Small - we could recommend this change to the content team at any time.
 
-## Next Steps
-
-*Outline immediate actions based on findings, including owners if applicable.*  
-
-> [!TIP]
-> Once your **Recommendations** and **Next Steps** are finalized, you can quickly turn them into GitHub issues using the reusable Copilot prompt in [`create-issues-from-research-findings-prompt.md`](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/create-issues-from-research-findings-prompt.md).  
-> **After creating issues, add their hyperlinks back here under their corresponding "Recommendation" or "Next Step."**
-> 
-> If you need Github Copilot Enterprise Access, please complete this [Issue](https://github.com/department-of-veterans-affairs/copilot-onboarding/issues/new?template=copilot-onboarding.yml).
-
-## Further research needed
-
-*Identify gaps in the current study and areas requiring additional investigation––such as demographics that were not included in this study.* 
-
-
-## Appendix
-
-### Research documents
-- [Product Outline](link here)
-- [Research plan](link here)
-- [Conversation guide](link here)
-- [Interview transcripts](link here)
-
-### Tools used for Synthesis
-
-*List tools or techniques used, e.g., Mural, affinity mapping.*  
+6. One participant mentioned that having the form in Spanish would be really important, especially for programs that would apply to caregivers or family members.
+   - **Recommendation:** Check in on the Spanish translation situation of this form.
   
-### Pages and applications used
+   - **Effort:** Small - checking in on where 686c falls in  translation prioritization would be a small lift in itself.
 
-*Link to prototypes or pages tested during the study.*  
+7. Having separate upload components for the different types of evidence was helpful, but two users didn’t realize that the second screen would appear, and would have uploaded all documents on the first one.
 
-
-### Other supporting documents created
-
-*Include links to additional materials, e.g., personas, user flows.*  
-
-
-### Secondary research
-
-*Include any relevant secondary research, e.g., web analytics, SME interviews.*  
-
-> [!IMPORTANT]
-> **After completing the demographic information below and saving this file**, use the [GitHub Copilot Research Findings Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md) to automatically populate the YAML frontmatter section at the top of this document with: 
-> - Participant demographics (counts, age ranges, education levels, etc.)
-> - Key findings and recommendations
-> - Research goals and methodology
-> - Appropriate research repository tags
->
-> The prompt will parse the demographic data from this section and structure it correctly for the frontmatter's nested YAML format. 
-
-### Research participants 
-_Complete the demographic info below using information from the Perigean recruitment survey. For those items where you didn't have participants, please mark with "0". You can use "unknown" if you aren't sure if your participants had a characteristic._ 
-
-[Example Research participants](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md#research-participants)
-
-#### Recruitment criteria
-
-_If you had specific criteria that you recruited for, use this space to explain what those were along with other information you feel would be important to understanding your participants._
-
-#### Demographics 
-
-We talked to **x participants.**
-
-Audience segment:
-* Veterans: x 
-* Caregivers: x 
-* Family members of a Veteran: x  
-
-
-Gender:
-* Male: x 
-* Female: x 
-
-
-LGBTQ+:
-* Transgender: x 
-* Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: x
-* Gay, lesbian, or bisexual: x
-
-
-Devices used during study: 
-* Desktop: x 
-* Tablet: x 
-* Smart phone: x 
-* Assistive Technology: x
-
-
-Age:
-* 25-34: x
-* 35-44: x
-* 45-54: x
-* 55-64: x
-* 65+: x
-* Unknown: x
-
-
-Education:
-* High school degree or equivalent: x
-* Some college (no degree): x
-* Associate's degree, trade certificate or vocational training: x
-* Bachelor's degree: x
-* Master's degree: x
-* Doctorate degree: x
-* Unknown: x
-
-
-Geographic location:
-* Urban: x
-* Rural: x
-* Unknown: x
-
-
-Race:
-* White: x
-* Black: x
-* Hispanic: x
-* Biracial: x
-* Asian: x
-* Native: x
-
-
-Disability and Assistive Technology (AT):
-* Cognitive: x
-* AT beginner: x
-* AT advanced user: x
-* Desktop screen reader: x
-* Mobile screen reader: x
-* Magnification/Zoom: x
-* [Speech Input Technology](https://www.w3.org/WAI/perspective-videos/voice/) like Siri/Dragon Naturally Speaking: x
-* Hearing aids: x
-* Sighted keyboard: x
-* Captions: x
-
-
-#### Underserved groups we haven’t talked to 
-> [!NOTE]
-_Complete the [VA recruitment checker for marginalized Veteran groups](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx):_
-> 1. Duplicate the ***Template*** worksheet
-> 1. Enter your participant information **(see the *Template Instructions* worksheet for details)**
-> 1. Make a screenshot of the cells that you want to share and paste it into this report below
-> 1. Generate an accessible version of those cells using Github Copilot Chat:
->    - Start a new Github Copilot chat
->    - Enter: "I want to convert these spreadsheet cells into a table in markdown:" 
->    - Copy and paste the cells from the recruitment checker spreadsheet that you've filled in
->    - Copy the resulting markdown table by clicking the copy icon in the Copilot chat, and paste it into this report below 
->    - (If Copilot returns an error, try using a different AI model, such as "Claude Sonnet 3.7 Thinking")
-
-This research does not include the perspectives of the following marginalized Veteran groups:
-_List all groups in red from the spreadsheet_
-* Group 1
-* Group 2
-* Group 3
-
-### Recruitment of underserved groups in [Study name]
-
-➡️ _[insert screenshot of completed recruitment checker in the format below]_
-
-![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](link - add image to github folder and link here with .png)
-
-#### A more accessible version of the table in the above image
-
-➡️ _[paste markdown table of completed recruitment checker from Github Copilot chat]_
+   - _“I would prefer [medical records] and [doctor’s letter] to be on different screens, so I can keep track of them easier.” - P13_
+  
+   - **Recommendation:** Keep a separate upload component per document type (whether they are on the same or different screens).
+  
+   - **Effort:** No action needed
