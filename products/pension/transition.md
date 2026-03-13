@@ -201,19 +201,18 @@ Due to implementation
 - UX Design/Research Lead: Elisabeth Chin | elisabeth.chin@va.gov / elisabeth.chin@coforma.io
 - UX Design/Research: A'nita Evans | anita.evans1@va.gov / anita.evans@coforma.io
 - Full Stack Engineer: Bryan Alexander | bryan.alexander@va.gov / bryan.alexander@va.gov
-- Frontend Engineer: Todd Rizzolo | sean.midgley3@va.gov / todd.rizzolo@adhocteam.us
-- Frontend Engineer: Dakota Larson | dakota.larson@va.gov / dakota.larson@oddball.io
-- QA Engineer: Jon Keister | jonathan.keister@va.gov / jonathan.keister@oddball.io
+- Frontend Engineer: Todd Rizzolo | todd.rizzolo@va.gov / todd.rizzolo@adhocteam.us
+- QA Engineer: Scott Draper | Scott.Draper@va.gov / scott.draper@adhocteam.us
 
 ### VA Leads
 - Product Crew Lead: Sanja Bajovic | Sanja.Bajovic2@va.gov
 - Engineering Crew Lead: Sanja Bajovic | Sanja.Bajovic2@va.gov
-- Design Crew Lead: Dene Gabaldon | dene.gabaldon@va.gov
+- Design Crew Lead: Christine Miller Kelly | Christine.millerkelly@va.gov
 
 ### VBA stakeholders
 |Name|Title|Office|Email|Description|
 |----|-----|------|-----|-----------|
-|Kevin Schneider |Senior Automation Strategist |Office of Benefits Automation (OBA) | Kevin.schneider1@va.gov |SME on dependency claim submissions and dependency verification.|
+|Daniel Gifford |P&F forms team | daniel.gifford@va.gov |Key SME on Pension and Burial forms |
 |David Reis |Senior Automation Strategist| Office of Benefits Automation (OBA)|david.reis@va.gov |Kevin’s backup. SME on dependency claim submissions and dependency verification. Expert on VBMS diary entries.|
 |Kayce White|Program Analyst|Compensation Services|Kayce.White@va.gov|SME on form pdfs. Manages the pdf forms. Makes updates to the pdfs, fixes fields and formatting.|
 |Linda Ciston|Contractor|RBPS|linda.ciston@va.gov |RBPS expert, retired from VA, but still works limited hours.|
