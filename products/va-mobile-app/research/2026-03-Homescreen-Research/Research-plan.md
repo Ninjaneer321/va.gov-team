@@ -383,8 +383,8 @@ Provide a link to any materials you need to run your study, including any materi
 
 
 **For moderated usability tests:** 
-- [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/4717498a59003842567808e70dc87d1a79614656/products/va-mobile-app/research/2026-03-Homescreen-Research/Conversation-guide.md))
-- [Link to prototype](https://www.figma.com/proto/qVqjxULrC26YoIbvnZKOwp/IA---Nav?node-id=673-114466&t=Bp35KWcWPBYzxcWt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=673%3A114466&show-proto-sidebar=1))
+- [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/4717498a59003842567808e70dc87d1a79614656/products/va-mobile-app/research/2026-03-Homescreen-Research/Conversation-guide.md)
+- [Link to prototype](https://www.figma.com/proto/qVqjxULrC26YoIbvnZKOwp/IA---Nav?node-id=673-114466&t=Bp35KWcWPBYzxcWt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=673%3A114466&show-proto-sidebar=1)
 
 	
 ## Recruitment 🎯	
@@ -401,7 +401,7 @@ Provide a link to any materials you need to run your study, including any materi
 - Perigean can also support remote, [unmoderated studies](https://depo-platform-documentation.scrollhelp.site/research-design/perigean-recruiting-process-for-unmoderated-studie), however, these studies require strict recruitment requirements. 
 - Which inclusive research strategies are you leveraging for this study? OCTO recommends using a lean maximum variation strategy for most studies. Read this [introduction to inclusive research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/introduction.md) and download the [recruitment checker (Excel)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx) to understand OCTO's targets for inclusivity and use it to plan your participant demographics for this study.
 
-**We would like Perigean to recruit Veterans as participants. Target 14 to seat and complete 9 sessions total.**
+**We would like Perigean to recruit Veterans as participants using lean maximum variation. Target 14 to seat and complete 9 sessions total.**
 
 ### Recruitment criteria
 
