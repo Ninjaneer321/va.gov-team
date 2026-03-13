@@ -61,6 +61,12 @@ The desired outcome of this research is to inform the functioning of the start a
 **Accessibility**
 - For assistive technology users, does the multi-step flow create cognitive overload or navigation challenges?
 
+**Contact List**
+- What do you expect to happen when you click on "update your contact list"?
+
+**Category**
+- How do you decide what to select here?
+
 **Section 2: Future Experience & Flow Concepts**
 - What would be your most ideal experience starting a new message to a care team?
 
