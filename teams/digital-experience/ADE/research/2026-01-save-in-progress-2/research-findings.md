@@ -467,7 +467,7 @@ Eight participants said they wanted to be able to delete a form they started but
 13. **Prioritize adding the prefill pattern to this form**. --> *The Design System and Forms team is finalizing the prefill pattern in the Forms Library, and then all teams will be able to easily add it to their forms. Existing forms will need some code refactoring.*
      - _Supporting evidence_: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. A participant in the previous round of usability testing stated the same expectation.
 
-1. **Be consistent about indicating optional fields**. --> *Fix bug: Remove the word "optional" from the 'Additional records information' and 'VA regional office' fields , per current Collaboration Cycle guidance*
+1. **Be consistent about indicating optional fields**. --> *Fix bug: Remove the word "optional" from the "Additional records information" and "VA regional office" fields , per current Collaboration Cycle guidance*
    - _Supporting evidence_: Some participants were confused about whether they needed to fill out fields that say neither "Required" nor "Optional", such as "VA file number".
 
 1. **Consider adding details in the helper text about what types of information would be helpful to enter in the "Additional records information"** field.
