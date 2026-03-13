@@ -121,13 +121,8 @@ synthesis_tools_used:
 
 ## Research Goals
 *Provide context for this research by explaining how it fits into the Veteran’s journey.*  
-[See the Veteran journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)  
 
-**Guiding Questions:**  
-- What are the key moments this tool supports in the Veteran’s journey?  
-- What outcomes are we aiming to achieve for Veterans and stakeholders?  
-
-[Example Research Goals](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#research-goals) 
+The goal of this research is to assess the usability of the form flow that allows Veterans to keep their dependent on the disability compensation benefit after the turn 18 as a student dependent or disabled dependent. Dependents management is relevant to many life stages but is especially relevant to putting down roots which includes the "Starting, growing, or maintaining my family" and "Engaging VA to access benefits and services moments" that matter.
 
 ## Research Questions
 
@@ -142,46 +137,20 @@ synthesis_tools_used:
 - Method 1: Moderated testing 
 - Method 2: Usability testing  
 
-## Hypotheses and Conclusions
-
-*List hypotheses explored in the research and the conclusions drawn. If applicable, list the success or task completion rate.*
-
-> [!TIP]
-> Place true or false statements in bold for easier scanability
-
-- **Hypothesis Statement:** [Insert statement]  
-  - **"Maybe True", “Likely True”, “Definitely True”, “Likely False”, “Definitely False” or “Not enough information”**  
-  - Supporting evidence  
-
-[Example Hypotheses and Conclusions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#hypotheses-and-conclusions)
-
 
 ## Key Findings
 
-*Summarize the 5–10 most impactful findings from your study.* 
-
-> [!TIP] 
-> Write findings as stand-alone insights that are easy to scan. For example:  
-> - "Most participants used the search field to locate forms, often searching for 'veteran health.'"  
-> - "Participants struggled with the secondary caregiver section on the form."  
-> 
 > **After completing your detailed findings below, you'll add metadata labels using the [Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md).**  
 
-[Example Key Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#key-findings)
-
-1. Users were split on the prototype’s ‘check-in’ form structure
-2. Users want more specificity about medical records the VA needs to determine a dependent’s disabled status
-3. Users looking to make updates found the CTA “Add or remove dependents” to be incomplete.
-4. On the Veteran address screen, users had inconsistent understandings of what “I agree to receive electronic correspondence from VA about my claim” meant.
-5. 6 users found content callouts about the following helpful:
-Overpayments
-Reasons to add/remove dependent
-6. The link to start the 686/674 is at the very bottom of a long intro page. 3 users felt so overwhelmed by the content that it was difficult to find the link.
-6. 3 / 5 users were confused by the informational page listing the required evidence types
-7. Having separate upload components for the different types of evidence was helpful, but 2 users didn’t realize that the 2nd screen would appear, and would have uploaded all documents on the first one
-8. 3/5 users were unclear whether they could upload multiple files in each upload screen
+1. Participants looking to make updates found the “Add or remove dependents” call to action to be incomplete.
+2. The link to start the 686/674 forms is at the bottom of a long intro page. Three participants felt that the content was overwhelming and made it difficult to find the link.
+3. Participants' opinions were split on the prototype’s ‘check-in’ form structure.
+4. On the Veteran address screen, participants had inconsistent understandings of what “I agree to receive electronic correspondence from VA about my claim” meant.
+5. Participants wanted more specific information about which medical records VA needs to determine a dependent’s disability status.
+6. Three of five participants who saw the screen were confused by the informational page listing the required evidence types being separate from the upload screens. 
+7. Three of five participants who saw the screens were unclear whether they could upload multiple files in each upload screen.
+8. Six participants found content callouts about "Overpayments" and "Reasons to add/remove dependent helpful".
 9. Most users would want to know if their answer might trigger an automatic denial.
-10. 
 
 ## Details of Findings 
 
@@ -214,7 +183,8 @@ Brief description
 6. One user mentioned wanting to be able to add dependent parents (or at least find out how to do so) in the 686c/674 flow.
 Most users would want to know if their answer might trigger an automatic denial.
 2 users assumed that dependents from military service will transfer over to VA dependents automatically, and reported delayed payments because of the misunderstanding
-One participant mentioned that having the form in spanish would be really important, especially for programs that would apply to caregivers or family members. 
+One participant mentioned that having the form in spanish would be really important, especially for programs that would apply to caregivers or family members.
+Having separate upload components for the different types of evidence was helpful, but 2 users didn’t realize that the 2nd screen would appear, and would have uploaded all documents on the first one
 
 
 
