@@ -20,8 +20,8 @@ About every quarter we plan to request new survey and support data from the Vete
 | Jan - Apr 2024 | MyVA411, support | May 7 | [82569](https://github.com/department-of-veterans-affairs/va.gov-team/issues/82569) | Part of [2024-08 Sign In Experience](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research/2024-08%20Sign%20In%20Experience%20-%20Call%20Center%20Data%20Analysis) |
 
 ## Documentation
-- [Intake request for Medallia survey data](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=jwoodman5%2C+ianMcCullough-ob&labels=VSP-contact-center%2Ccc-data-request&template=qualitative-data-request.yml&title=Qualitative+Data+Request) (same ticket link for both)
-- [Intake request for MyVA.411 support data](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=jwoodman5%2C+ianMcCullough-ob&labels=VSP-contact-center%2Ccc-data-request&template=qualitative-data-request.yml&title=Qualitative+Data+Request) (same ticket link for both)
+- [Intake request for Medallia survey data](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=newworld2616%2C+ATMiddleton&labels=VSP-contact-center%2Ccc-data-request&projects=&template=qualitative-data-request.yml&title=Qualitative+Data+Request) (same ticket link for both)
+- [Intake request for MyVA.411 support data](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=newworld2616%2C+ATMiddleton&labels=VSP-contact-center%2Ccc-data-request&projects=&template=qualitative-data-request.yml&title=Qualitative+Data+Request) (same ticket link for both)
 - [Platform documentation on Veteran Support team data](https://depo-platform-documentation.scrollhelp.site/analytics-monitoring/accessing-and-utilizing-contact-center-data)
 
 ## Template info for data request for Medallia survey
