@@ -171,7 +171,7 @@ tags:
 
 `Product Brief`
 
-**Link to product brief: [Homescreen Epic](https://github.com/department-of-veterans-affairs/va-mobile-app/issues/11464).**
+**Link to product brief: [Product brief](https://github.com/department-of-veterans-affairs/va-mobile-app/issues/11464](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/product/Homescreen%20Redesign%20Product%20Brief).**
 
 </details>
 
