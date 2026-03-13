@@ -48,27 +48,31 @@ Most participants initially navigated to "Refill VA medications" expecting it to
 All participants who encountered the grey Lipitor card correctly interpreted it as meaning the refill was submitted too soon and no action was needed. However, 3 participants scrolled past or initially missed the grey card on the In-Progress Medications page, suggesting its visual treatment makes it easy to overlook among the other status groupings.
 
 **Participants who understood:** P1, P4, P5, P7, P8, P12, P13, P15, P16
-**Participants who had difficulty locating:** P1, P8, P13
+<!-- CHANGED: P8 → P12 to match MMI Finding 5 which says "3 of 9 (P1, P12, P13) had difficulty initially locating it" -->
+**Participants who had difficulty locating:** P1, P12, P13
 
 - P4: "So, they're not gonna send it... they're not gonna ship it yet. I don't need to do anything, because it's already in progress."
 - P7: "It's telling that you, that you ordered it too soon. And, it'll be shipped when it reaches its, its, time to be submitted."
 - P8: "It says submitted December 13-25, let's say that I... I did submit it on December 13-25, and it says 2 ready to refill, no action needed. I wouldn't... I would just go on to something else, because I already know that when it tells me no action needed, that means it's already on the computer to be shipped to me."
 - P13: "I guess I requested it too soon. Because I... According to the prescribed dosages and everything that the pharmacist calculates, I shouldn't have run out of that medication yet, so when that calculation is made, and that date is hit, they'll ship it out."
-- P1 (after missing it): "Oh, wait, yeah, Lipperto is there. Oh my god, I missed it. Wow, maybe I need to put on my extra goggles."
+<!-- CHANGED: "Lipperto" → "Lipitor" to match MMI Finding 5 quote -->
+- P1 (after missing it): "Oh, wait, yeah, Lipitor is there. Oh my god, I missed it. Wow, maybe I need to put on my extra goggles."
 - P1: "Request submitted. Okay, so these are probably the medications that I've already submitted for. These are the ones that are in progress, and these are the ones that are heading to me, so that's helpful, but I still don't see my Lipitor."
 
 ### Theme 3: Veterans trust the system will automatically process and ship the medication but want an estimated date (5 of 9 trust auto-processing; 3 of 9 want a date)
 
 After reading the grey card, 5 participants expressed confidence that the VA would handle the refill automatically once eligible and that they would not need to take further action (P1, P4, P7, P13, P15). However, 3 participants wanted more specificity, such as an expected refill eligibility date or delivery window, rather than simply being told "too early" (P1, P8, P16). Notably, P1 expressed both trust in the automatic process and a desire for a projected date, suggesting these sentiments are not mutually exclusive.
 
-- P1: "It's kind of reassuring that once we're able to, we'll ship... we'll ship these medications to you, you don't have to do anything. So, I like that part. I think, for me, that's... that's very helpful."
+<!-- CHANGED: Trimmed P1 quote to match MMI Finding 3 — removed trailing "I think, for me, that's... that's very helpful." -->
+- P1: "It's kind of reassuring that once we're able to, we'll ship... we'll ship these medications to you, you don't have to do anything. So, I like that part."
 - P15: "It tells me... it looks like it's going to automatically ship it when it's when it's, time to do so."
 - P13: "When that calculation is made, and that date is hit, they'll ship it out."
 - P4: "I don't need to do anything, because it's already in progress."
 - P8: "It's too early to refill... we will expect it to be refilled between a certain date and a certain date."
 - P16: "So depending on when I submitted that, December 20th, depending on what today is, if it's within 7 days, I'm gonna give it 7 days and then start calling and following up to figure out where it is."
 
-### Theme 4: In-progress medications page statuses are generally well understood (7 of 9)
+<!-- CHANGED: Updated count from (7 of 9) to (7 of 8; P7 excluded due to screen freeze) to match MMI report which consistently uses 7 of 8 for this metric -->
+### Theme 4: In-progress medications page statuses are generally well understood (7 of 8; P7 excluded due to screen freeze)
 
 When participants reached the In-Progress Medications page, most correctly interpreted the three progress states (Request Submitted, Fill in Progress, Medication Shipped) and understood the sequential flow. Participants found the page valuable for confirming what had been requested and tracking order status.
 
@@ -137,11 +141,12 @@ Most participants were able to find Metformin and complete the refill request, t
 - P15: "Actually, I wouldn't... I probably wouldn't go here. I would probably, look, on the bottle. Call to the... call to the pharmacy and tell them what the situation is and get their help in getting a new prescription."
 - P8: "If I see anything else while I'm doing this, I'd click on that as well. That's why I like the list because there might be things there I didn't think of."
 
+<!-- CHANGED: Updated participant list from P1, P4, P5, P8, P13, P16 → P1, P5, P8, P12, P13, P16 to match MMI report Key Finding 1 Part E which states "6 of 7 (P1, P5, P8, P12, P13, P16) clicked the 'Go to your in-progress medications' link." P4 understood the alert as confirmation but did not click the link. -->
 ### Theme 2: The green success alert is immediately noticed and builds confidence, and the "Go to in-progress medications" link within it is used to verify the request (6 of 8)
 
-After submitting the refill, participants consistently noticed the green success alert and interpreted it as confirmation that the request went through. Most then clicked the "Go to your in-progress medications" link within the alert to verify the status of their submission. This was a natural trust-building step, with several participants stating they wanted to make sure there were no glitches or that the request actually "dropped in."
+After submitting the refill, participants consistently noticed the green success alert and interpreted it as confirmation that the request went through. Most then clicked the "Go to your in-progress medications" link within the alert to verify the status of their submission. This was a natural trust-building step, with several participants stating they wanted to make sure there were no glitches or that the request actually "dropped in." P4 did not click the link but understood the alert as confirmation.
 
-**Participants:** P1, P4, P5, P8, P13, P16
+**Participants:** P1, P5, P8, P12, P13, P16
 
 - P16: "Says it's good so it's not too early."
 - P16: "Just wanting to make sure that there's no glitch in system, I would probably click on that in-progress medication."
@@ -176,11 +181,12 @@ By this point in the session, most participants had already visited the Medicati
 - P16 (on why not Active): "Yeah, because I want them to see what I was on... just for me being thorough, I would probably do that so he has the history."
 - P16: Says it depends on the goal: if only bringing current medications, would select Active; if wanting to be thorough, would print all medications.
 
-### Theme 2: The print feature at the bottom of the page is difficult to find and does not match Veterans' expectations for where a print function should be (5 of 8)
+<!-- CHANGED: Updated count from "5 of 8" to "4 of 8" and removed P8 from participant list. MMI Finding 4 states P1, P8, P13, P16 found print with relative ease while P4, P5, P12, P15 had notable difficulty. -->
+### Theme 2: The print feature at the bottom of the page is difficult to find and does not match Veterans' expectations for where a print function should be (4 of 8)
 
 Multiple participants had difficulty locating the print feature, which sits at the bottom of the medication list. Some scrolled past it, others expected to find it higher on the page or assumed they would use their browser's built-in print function (e.g., right-click to print). The print feature's placement below a potentially long medication list means Veterans must scroll through every entry before discovering it.
 
-**Participants who had difficulty locating print:** P4, P5, P8, P12, P15
+**Participants who had difficulty locating print:** P4, P5, P12, P15
 
 - P4: "I would go to review and print list of medications. And I would do all medications that's listed, then I'd look for... the print... Which I don't see. Let me go down to the bottom. Oh, there it is! Print or download medications list. Then I would select that."
 - P15: "Let's see, is there a print capability in this? Don't see it."
@@ -200,7 +206,8 @@ Consistent with findings from Tasks 2 and 3, participants selected a radio butto
 
 ## Task 5: Refill all eligible medications at once
 
-### Theme 1: The bulk refill flow is intuitive and well-received (6 of 6; P1, P7, P15 excluded)
+<!-- CHANGED: Added specific exclusion reasons to match MMI report: "P1 and P15 excluded as task was added after their sessions; P7 excluded due to screen freeze" -->
+### Theme 1: The bulk refill flow is intuitive and well-received (6 of 6; P1, P15 excluded as task was added after their sessions; P7 excluded due to screen freeze)
 
 All participants who completed this task were able to locate the refillable medications list and understood how to use the "Select all" checkbox to request multiple refills at once. The interaction pattern (select checkbox, click "Request refills" button) was straightforward, and participants reacted positively to the ability to refill all medications in one action rather than going through each one individually.
 
@@ -256,7 +263,8 @@ While overall feedback was positive, a few participants noted that the experienc
 
 ## Wrap-up: What users said worked well
 
-4 of 9 participants provided direct feedback on what worked well. Users called out three strengths: the progress timelines for tracking medication status, the visibility into what has already been ordered (preventing duplicate requests), and the ability to print medications.
+<!-- CHANGED: Updated count from "4 of 9" to "5 of 9" since 5 distinct participants (P1, P4, P5, P15) are listed with quotes/evidence below -->
+5 of 9 participants provided direct feedback on what worked well. Users called out three strengths: the progress timelines for tracking medication status, the visibility into what has already been ordered (preventing duplicate requests), and the ability to print medications.
 
 - P1: Appreciates the timelines on the design and finds them helpful to see progress of meds.
 - P4: "I like knowing that whatever I've already ordered, I won't try to reorder it again, that it shows me what's on its way, what's in progress, so that if, you know, I haven't gotten it in a reasonable time, I can question where it is."
