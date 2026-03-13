@@ -52,10 +52,12 @@ The desired outcome of this research is to inform the functioning of the start a
 - How do users react when the care team they want isn't visible on the first page?
 - What do users say about the multi-step flow?
 - Are there care teams users frequently seek but cannot find through the current interface?
+  
 **Interstitial Content Engagement**
 - Do users notice and read the interstitial page content?
 - Of users who see the interstitial, how much information do they retain immediately after?
 - Would users prefer this information presented differently (e.g., tooltip, expandable section, pre-message warning)?
+  
 **Accessibility**
 - For assistive technology users, does the multi-step flow create cognitive overload or navigation challenges?
 
