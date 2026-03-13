@@ -159,6 +159,9 @@ I would like you to share your screen with me so that I can see what you do duri
 
 We can help guide you through this if you need help. Please say what you're doing out loud so that if there are any issues, we'll know what they are.
 
+[Iphone screenshare instructions](https://depo-platform-documentation.scrollhelp.site/research-design/iphone-start-screen-share)
+[Android screenshare instructions]([https://depo-platform-documentation.scrollhelp.site/research-design/iphone-start-screen-share)](https://depo-platform-documentation.scrollhelp.site/research-design/android-start-screen-share)
+
 **(If video window is covering up phone screen)** It looks like my zoom video is covering up a lot of your screen. Could you please swipe it off? 
 
 ## Task 00: Open prototype - 2 minutes, 13 minutes elapsed
