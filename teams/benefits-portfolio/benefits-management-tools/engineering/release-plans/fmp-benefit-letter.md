@@ -1,8 +1,3 @@
----
-name: Foreign Medical Program Benefit Letter Release Plan
-title: "Foreign Medical Program Benefit Letter: Release Plan"
----
-
 # Foreign Medical Program Benefit Letter Release Plan
 
 ## Overview
