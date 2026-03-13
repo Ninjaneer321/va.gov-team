@@ -18,7 +18,7 @@ participant_criteria: "Veterans with VA benefits (disability, health care, and/o
 
 # Related documents
 related_research_plan: "products/va-mobile-app/research/2026-03-Homescreen-Research/Research-Plan.md"
-related_prototype: "https://www.figma.com/proto/qVqjxULrC26YoIbvnZKOwp/IA---Nav"
+related_prototype: "https://www.figma.com/proto/qVqjxULrC26YoIbvnZKOwp/IA---Nav?node-id=673-114466&t=pQwr9jv43JXUQBuc-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=673%3A114466&show-proto-sidebar=1"
 
 tags:
   - "AUD: Veterans"
