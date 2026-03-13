@@ -26,7 +26,6 @@ This release focuses on **submission-level visibility only**.
 
 ## Out of Scope
 
-- Application processing status
 - Evidence requests
 - Evidence uploads
 - Eligibility information
@@ -54,9 +53,10 @@ This release integrates the Status Tool with the **PEGA Reporting API**.
   - on the **Status Tool homepage card**
   - on the **detailed application status page**.
 - Basic processing steps such as:
-  - Application received
-  - Application under review
-  - Application completed.
+  - Step 1: Application Received
+  - Step 2: Application Decided
+- Basic Status Pill/tag such as:
+  - In Progress
 
 ## Out of Scope
 
@@ -80,11 +80,15 @@ This release integrates the Status Tool with **VES evidence request data**.
 - Integration with **VES APIs** for evidence request information.
 - Display of **evidence request indicators** in the Status Tool.
 - Messaging informing applicants that additional documentation is required.
+- Expanding steps from 2 to 4
+  - Application received
+  - Information gathering
+  - Information review
+  - Application decided
 
 ## Out of Scope
 
 - Uploading documents through the Status Tool
-- Detailed deficiency explanations
 - Eligibility display
 - Rejection reasoning
 
@@ -120,6 +124,9 @@ Allow applicants and beneficiaries to see CHAMPVA eligibility results.
 - Retrieval of eligibility information from **VES**
 - Display of eligibility status for applicants and beneficiaries
 - UI patterns for showing eligibility outcomes
+- Eligibility cards and status tags
+  - Enrolled
+  - Not Eligible 
 
 ## Out of Scope
 
