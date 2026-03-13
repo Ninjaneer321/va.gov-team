@@ -2,12 +2,15 @@
 
 - **Source file:** search-survey-030926-redacted.md
 - **Total rows analyzed:** ~3,815
-- **URL categories:**
+
+Each response contains the following
+- **Verbatum quote**
+- **URL category:**
  - `/search/` (VA.gov site search)
  - `/find-locations/` (Facility Locator)
  - `/find-locations/facility/` (specific facility pages)
  - `/forms/` (Find a VA Form)
-- **Context:** Informing a transition from keyword-based search (Search.gov) to a modern semantic search platform
+- **Query:** What the person was searching for when they answered the survey. This is only documented when available.
 
 ---
 
