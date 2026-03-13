@@ -1,8 +1,8 @@
-# 0969Transition Hub
+# 0969 Transition Hub
 
 **Updated March 2026**
 
-> The purpose of this transition document is to outline the current state of 0969 forms' product development. It serves as a "front door" to documentation and resources collected during the course of product design and development from January 2025 through March 2026. Included are links to more specific transition hubs where you can find direct links to resources and references used during design and development. These Transition Docs are "point in time" documents, and may not reflect current progress, deployments or upcoming efforts.
+> The purpose of this transition document is to outline the current state of 0969 forms' product development. It serves as a "front door" to documentation and resources collected during the course of product design and development from March 2025 through March 2026. Included are links to more specific transition hubs where you can find direct links to resources and references used during design and development. These Transition Docs are "point in time" documents, and may not reflect current progress, deployments or upcoming efforts.
 
 ## Table of Contents
 [Product context, portfolio, and artifacts](#product-context)
