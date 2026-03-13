@@ -499,12 +499,13 @@ Eight participants said they wanted to be able to delete a form they started but
 
 1. Explore more accessible approaches to inform users that their form is being saved based on these research findings.
 1. Discuss content-related findings and recommendations with the Content team.
+1. Review and prioritize the usability and accessibility revisions to the Forms Library.
 1. Review and prioritize the usability and accessibility revisions to the Request personal records form.
 1. Followup with the US Web Design System team about the location of accordion controls.
 
 ### For the ADE team
 
-5. Work on opportunities to help Veterans who are struggling with their assistive tech.
+6. Work on opportunities to help Veterans who are struggling with their assistive tech.
 1. Try to reproduce the Zoom/iPhone/VoiceOver issue.
 
 ## Further research needed
