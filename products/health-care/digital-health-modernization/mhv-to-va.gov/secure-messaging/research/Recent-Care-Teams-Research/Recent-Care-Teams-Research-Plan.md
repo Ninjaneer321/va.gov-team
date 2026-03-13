@@ -42,7 +42,7 @@ The desired outcome of this research is to inform the functioning of the start a
 
 **Care Team Selection & Discovery**
 - How do users currently decide which care team to select when composing a message?
-- What do users think about the recent care teams?
+- What do you think the first page is showing? Is it helpful? (about recent care teams)
 - How do users mentally organize or categorize care teams (by specialty, location, frequency of contact, provider name)?
 - For users with multiple care systems, how do they know which system their desired care team belongs to?
 - Do users understand why they need to select a care system before selecting a care team?
