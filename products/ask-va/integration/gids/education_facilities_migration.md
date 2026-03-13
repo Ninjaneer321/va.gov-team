@@ -173,7 +173,7 @@ When the request returns a single facility record, the response shape is:
       "facility_code": "ABC123",
       "name": "Example University",
       "physical_state": "CA",
-      "physical_zip": "94105"
+      "physical_zip": ""
     }
   },
   "links": {
