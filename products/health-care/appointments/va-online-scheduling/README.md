@@ -17,7 +17,7 @@ A very small percentage of Veteran appointments with VA Medical Centers are sche
 
 **OCTO Product Leads**
 - Kay Lawyer - Product Owner
-- Stephen Barrs - Engineering Lead
+- Mark Dewey - Engineering Lead
 - Kristen McConnell - UX Lead
 
 **Product Management**
