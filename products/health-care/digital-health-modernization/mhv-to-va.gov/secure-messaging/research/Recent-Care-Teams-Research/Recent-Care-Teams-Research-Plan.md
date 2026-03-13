@@ -10,7 +10,7 @@ The **“Start a new message”** flow was redesigned to streamline care-team se
 
 <img width="594" height="434" alt="Screenshot 2026-03-09 at 1 03 13 PM" src="https://github.com/user-attachments/assets/82d91b95-9568-4742-ac06-f9a6cf9239b5" />
 
-_(potential steps to start a new message for users)_
+_(Possible steps to start a new message for users)_
 
 
 ### OCTO Priorities
