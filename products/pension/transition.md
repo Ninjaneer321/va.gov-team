@@ -212,17 +212,13 @@ Due to implementation
 ### VBA stakeholders
 |Name|Title|Office|Email|Description|
 |----|-----|------|-----|-----------|
-|Daniel Gifford |P&F forms team | daniel.gifford@va.gov |Key SME on Pension and Burial forms |
-|David Reis |Senior Automation Strategist| Office of Benefits Automation (OBA)|david.reis@va.gov |Kevin’s backup. SME on dependency claim submissions and dependency verification. Expert on VBMS diary entries.|
-|Kayce White|Program Analyst|Compensation Services|Kayce.White@va.gov|SME on form pdfs. Manages the pdf forms. Makes updates to the pdfs, fixes fields and formatting.|
-|Linda Ciston|Contractor|RBPS|linda.ciston@va.gov |RBPS expert, retired from VA, but still works limited hours.|
-|Bahaeddin (Baha) Abukhaled|Contractor|RBPS |BahaEddin.AbuKhaled@va.gov | Linda’s replacement. RBPS SME.|
-|I. Tara L.|Program Analyst|OBI|tara.i@va.gov|Project Manager of sorts. Organizes testing with OBI/RBPS resources.|
-|Elizabeth Reeher|Contractor||elizabeth.reeher@va.gov|Project manager|
-|Yvette Allmond|Management Analyst|Office of Mission Support|yvette.allmond@va.gov | Source for providing unlocked pdf files that can be edited by VA.gov.|
+|Daniel Gifford |Program Analyst |P&F forms team | daniel.gifford@va.gov |Key SME on Pension and Burial forms |
+|Eric Henne |Lead Program Analyst| Head of P&F forms team |eric.henne@va.gov  |Key SME on Pension and Burial forms |
+|Derek Uttley |Program Analyst|Data and Project Management Team |derek.uttley@va.gov |Key SME for forms, data, and analytics |
+|Alex Mikuliak |Lead Architect|VBA Corp Data|mikuliak_alex@bah.com |Data and processing|
+
 
 #### Reoccuring Stakeholders Meetings
-- [Bi-weekly Dependents Design Sync](https://dsva.slack.com/docs/T03FECE8V/F0839KD75K8) with Kevin, design/research, product, and VA Leads
-- Bi-weekly Product Sync with VA Leads, product manager, and delivery lead
+- Bi weekly Design Sync with Christie design/research, product
+- Bi-weekly Product Sync with VBA Leads, product manager, OCTO leads and delivery lead
 - Weekly engineering sync with VA Engineering Crew Lead and team Engineering Lead
-- [Weekly design sync](https://dsva.slack.com/docs/T03FECE8V/F0839KD75K8) with VA Design Crew Lead, team design/researchers, product manager
