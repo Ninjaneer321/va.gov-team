@@ -12,7 +12,7 @@ background:
   problem_statement: "VA Health and Benefits Mobile App has limited real estate on the homescreen, and additional features expected to be added this year will further take up homescreen space. The team seeks to understand whether planned homescreen design concepts align with Veterans' expectations and priorities and successfully help Veterans access key information and complete important tasks."
   product_location: "VA Health and Benefits Mobile App (authenticated experience)"
   user_familiarity: "Iteration on existing product that Veterans currently use"
-  product_brief_url: "https://github.com/department-of-veterans-affairs/va-mobile-app/issues/11464"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/product/Homescreen%20Redesign%20Product%20Brief"
 
 # Research Design
 methodology: "Remote moderated usability testing with clickable medium-fidelity Figma prototype"
@@ -171,7 +171,7 @@ tags:
 
 `Product Brief`
 
-**Link to product brief: [Product brief](https://github.com/department-of-veterans-affairs/va-mobile-app/issues/11464](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/product/Homescreen%20Redesign%20Product%20Brief).**
+**Link to product brief: [Product brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/product/Homescreen%20Redesign%20Product%20Brief).**
 
 </details>
 
