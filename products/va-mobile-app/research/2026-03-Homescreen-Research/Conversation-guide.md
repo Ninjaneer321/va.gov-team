@@ -146,6 +146,9 @@ Let’s start with a few questions...
 4. Do you have the VA Health and Benefits mobile app on your device?
    - If so, can you tell me what you typically use the mobile app for? How has your experience been so far?
 
+5. [If not] Have you ever used it?
+   - If so, what did you use it for? How was your experience?
+
 
 # User Tasks
 
@@ -162,7 +165,7 @@ We can help guide you through this if you need help. Please say what you're doin
 
 Today, we're going to look at a demo version of the app. This is just for us to test with, so not everything will work like it does on the real app. You might see some buttons or links not working and some placeholder words instead of real information. Since this is just the demo version, nothing you do in this app will affect your real app or VA information and benefits. 
 
-I will now share in the zoom chat the URL for the demo: [Prototype link](https://www.figma.com/proto/qVqjxULrC26YoIbvnZKOwp/IA---Nav?node-id=673-114466&t=Bp35KWcWPBYzxcWt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=673%3A114466&show-proto-sidebar=1)
+I will now share in the zoom chat the URL for the demo: [Prototype link]([https://www.figma.com/proto/qVqjxULrC26YoIbvnZKOwp/IA---Nav?node-id=673-114466&t=Bp35KWcWPBYzxcWt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=673%3A114466&show-proto-sidebar=1](https://www.figma.com/proto/qVqjxULrC26YoIbvnZKOwp/IA---Nav?node-id=673-114466&t=pQwr9jv43JXUQBuc-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=673%3A114466&show-proto-sidebar=1))
 Please open the chat and then click the link. 
 
 - *If “unsupported browser” error, ask to try a different browser or device 
