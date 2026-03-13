@@ -2,7 +2,7 @@
 
 **Updated March 2026**
 
-> The purpose of this transition document is to outline the current state of 530EZ forms' product development. It serves as a "front door" to documentation and resources collected during the course of product design and development from January 2024 through March 2025. Included are links to more specific transition hubs where you can find direct links to resources and references used during design and development. These Transition Docs are "point in time" documents, and may not reflect current progress, deployments or upcoming efforts.
+> The purpose of this transition document is to outline the current state of 530EZ forms' product development. It serves as a "front door" to documentation and resources collected during the course of product design and development from January 2025 through March 2026. Included are links to more specific transition hubs where you can find direct links to resources and references used during design and development. These Transition Docs are "point in time" documents, and may not reflect current progress, deployments or upcoming efforts.
 
 ## Table of Contents
 [Product context, portfolio, and artifacts](#product-context)
@@ -26,10 +26,10 @@ Make the online Burial experience as easy to complete and cohesive as possible, 
 
 
 #### 21-527EZ Application for Veterans Pension
-The online pension application is available in the [production environment](https://www.va.gov/pension/apply-for-veteran-pension-form-21p-527ez/introduction).  The staging environment version of the form is [here](https://staging.va.gov/pension/apply-for-veteran-pension-form-21p-527ez/introduction).
+The online Burial application is available in the [production environment](https://www.va.gov/burials-memorials/veterans-burial-allowance/apply-for-allowance-form-21p-530ez/introduction).  The staging environment version of the form is [here](https://staging.va.gov/burials-memorials/veterans-burial-allowance/apply-for-allowance-form-21p-530ez/introduction).
 
-- [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/527EZ-reactivation-initiative-brief.md)
-- [Form Flow (proposed)](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1709582312238/ae3de21fd188beba8c28668ee37a31841c6203bf?wid=0-1716382766670)
+- [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/burials-memorials/burial-allowance/530-initiative-brief-2024-updates.md)
+- [Form Flow (proposed)](products/burials-memorials/burial-allowance/BurialFlow.png)
 - [Wireframes (proposed)](https://www.figma.com/design/bvj72inycD0iZkuCbjYTWL/Dependent-Verification-MVP?node-id=59-960&t=yWIz3IUP2uFChYib-0) (Figma)
 - [MVP Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1709582312238/ae3de21fd188beba8c28668ee37a31841c6203bf?wid=0-1723479332670)
 - [IA/User Flow Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1709582312238/ae3de21fd188beba8c28668ee37a31841c6203bf?wid=522-1737736233308)
@@ -40,7 +40,7 @@ The online pension application is available in the [production environment](http
 
 ### Product artifacts 
 - [Backlog](https://github.com/orgs/department-of-veterans-affairs/projects/1237/views/39)
-- [General testing plan](https://docs.google.com/spreadsheets/d/1mZCnm1Cc6lBIGRIjxw5FzmHa9yQRDBfHquKKLsNlHfo/edit?gid=2009661867#gid=2009661867) for product updates
+- [General testing plan](https://docs.google.com/spreadsheets/d/10SQSGnTPfXMFWd1OzoEhGa4y0cpn49kD4JS6liehalE/edit?gid=154291457#gid=154291457) for product updates
 
 ### Design artifacts
 - Design [readme](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/design/README.md)
@@ -68,9 +68,9 @@ The online pension application is available in the [production environment](http
 ### Analytics dashboard:
 - Domo (none), [general forms dashboard](https://va-gov.domo.com/page/447193050)
 - Google Analytics (none)
-- [Backend Stats on DataDog Dashboard](https://vagov.ddog-gov.com/dashboard/55q-ksa-tvq/benefits---pension---527---controller?fromUser=false&refresh_mode=paused&from_ts=1759294800000&to_ts=1767247199999&live=false)
-- [Backend lighthouse monitoring](https://vagov.ddog-gov.com/dashboard/atf-ppf-aky/benefits---pension---527---benefits-intake?fromUser=true&refresh_mode=sliding&from_ts=1773157902524&to_ts=1773172302524&live=true)
-- [Submission reporting](https://vagov.ddog-gov.com/dashboard/vk2-6zi-zzu/benefits-form-527-pension-benefits?fromUser=false&refresh_mode=paused&from_ts=1735711200000&to_ts=1767247199999&live=false) 
+- [Backend Stats on DataDog Dashboard]([https://vagov.ddog-gov.com/dashboard/55q-ksa-tvq/benefits---pension---527---controller?fromUser=false&refresh_mode=paused&from_ts=1759294800000&to_ts=1767247199999&live=false]
+- [Backend lighthouse monitoring]([https://vagov.ddog-gov.com/dashboard/atf-ppf-aky/benefits---pension---527---benefits-intake?fromUser=true&refresh_mode=sliding&from_ts=1773157902524&to_ts=1773172302524&live=true](https://docs.google.com/spreadsheets/d/10SQSGnTPfXMFWd1OzoEhGa4y0cpn49kD4JS6liehalE/edit?gid=154291457#gid=154291457))
+- [Submission reporting]([https://vagov.ddog-gov.com/dashboard/vk2-6zi-zzu/benefits-form-527-pension-benefits?fromUser=false&refresh_mode=paused&from_ts=1735711200000&to_ts=1767247199999&live=false] 
 - [Pension Funnel dashboard](https://vagov.ddog-gov.com/dashboard/d59-e32-q3v?fromUser=false&refresh_mode=sliding&from_ts=1770756825443&to_ts=1773172425443&live=true)
 
 ### Team resources
@@ -79,12 +79,11 @@ The online pension application is available in the [production environment](http
 - [Roadmap](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1692908527043/0da94b7ded52e8a943d798bcb8ae39697c2fb56f?wid=120-1729780466015) (Mural)
 - Ticketing
    - Team label: benefits-pension-burial
-   - Product label: 527, pension
+   - Product label: 530, burial
    - Workstream label: discovery, product, design, or engineering + frontend or backend
 
 ## Roadmap
 ### Done (recently)
-- Pension - 100% service-connected disability alert - Updated Pension service-connected disability alerts to include "100% service-connected disability rating" to avoid confusion with applicants that have non-service connected disability conditions. Released 2/1/26.
 - Minimal header update - The Minimal header is the latest standard header for usage in forms. The goal is to help the user focus on the task at hand. Released 3/12/26.
 - BPDS for Pension - VA.gov now sends tructured JSON data directly to BPDS. POI then retrieves and uses this data for processing, eliminating the need to perform OCR on submitted PDF forms. Released January 2026.
 -  0969 Post MVP improvements (closely adjacent form) - Improvements to the content and format of the Income and Asset statement focused on plain language updates and content chunking to ease form filling burden. Released 3/4/26.
