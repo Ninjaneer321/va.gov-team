@@ -110,7 +110,7 @@ tags:
 
 **Office of the CTO - Digital Experience (OCTO-DE), Accessibility Digital Experience (ADE)**
 
-**Date:** 03/12/2026
+**Date:** 03/13/2026
 
 **Contacts:** Cindy Merrill
 
@@ -299,7 +299,7 @@ Eight participants said they wanted to be able to delete a form they started but
 
      1. P3 was using the JAWS screenreader on desktop with mouse echo (which announces whatever is under the mouse), and **JAWS didn't announce any "Country" select/dropdown options when the dropdown was open and the mouse was over an item**. He had to click to select an option before the screen reader announced it. This is a known issue that affects screen readers and mouse control of dropdown menus, which unfortunately is not fixable.
 
-     1. Another issue P3 encountered (JAWS with mouse echo) is that text that looked like **one sentence was announced in small chunks** instead of as a single sentence, resulting in awkward pauses and missed information. For example, here's how the "Finish later" message sounded (each ellipsis required a mouse movement): "Your personal records request has been saved...Jan 13, 2026 at 5:43 pm...Your saved...request...will expire on...March 14, 2026."
+     1. Another issue P3 encountered (JAWS with mouse echo) is that text that looked like **one sentence was announced in small chunks** instead of as a single sentence, resulting in awkward pauses and missed information. For example, here's how the "Finish later" message  on the "form-saved" page sounded (each ellipsis required a mouse movement): "Your personal records request has been saved...Jan 13, 2026 at 5:43 pm...Your saved...request...will expire on...March 14, 2026."
 
      1. P4 (VoiceOver screenreader on an iPhone in Safari browser) experienced the **form intro page load with focus in the wrong place**--it was in the footer instead of the top of the page where it was supposed to be. This is a known issue with VoiceOver and Safari that has no known fix.
 
@@ -423,7 +423,7 @@ Eight participants said they wanted to be able to delete a form they started but
 1. **Consider moving the accordion controls to the left side so as to increase visibility for screen magnifier users who may not see any controls on the right.** --> *Cindy shared this finding with Chandra Carney from the US Web Design System team on 2/17/2026 via email, but hasn't yet received a reply.*
    - _Supporting evidence_: 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side, including the participant who was using a screen magnifier.
 
-1. **Try to update the source code so that the "Finish later" message is read as one continuous sentence** (vs. separate chunks, which causes the browser to display them on separate lines, which caused pauses with mouse echo). --> *Feature request for the Forms Library*
+1. **Try to update the source code so that the "Finish later" message on the "form-saved" page is read as one continuous sentence** (vs. separate chunks, which causes the browser to display them on separate lines, which caused pauses with mouse echo). --> *Feature request for the Forms Library*
    - _Supporting evidence_: P3 had to keep moving his mouse in order to hear each of the 6 small segments of text in the "Finish later" informational alert.  
 
 #### For the ADE team
@@ -448,9 +448,6 @@ Eight participants said they wanted to be able to delete a form they started but
 1. **Fix the capitalization of "VA file number" in the hint text on the "SSN/VA file number" page**. --> *Fix this bug*
    - _Supporting evidence_:  The prompt "VA file number" has only "VA" capitalized, but the hint text also capitalizes the word "File".
 
-1. **Be consistent about indicating optional fields**. --> *Fix bug: Remove the word "optional" from the 'Additional records information' and 'VA regional office' fields , per current Collaboration Cycle guidance*
-   - _Supporting evidence_: Some participants were confused about whether they needed to fill out fields that say neither "Required" nor "Optional", such as "VA file number".
-
 #### For the Content team
 10. **Consider revising the "Your full name" prompt on the "Review and submit" page to refer to what you entered before** (e.g., "Your name as entered earlier in the form")  
     - _Supporting evidence_: Six of 7 participants didn't realize that the name that you enter for "Your full name" must exactly match what they entered as their name at the beginning of the form. One participant called out that "Full name" requires your full middle name, not just your middle initial, as the form asked for earlier.
@@ -469,6 +466,9 @@ Eight participants said they wanted to be able to delete a form they started but
 
 14. **Prioritize adding the prefill pattern to this form**. --> *The Design System and Forms team is finalizing the prefill pattern in the Forms Library, and then all teams will be able to easily add it to their forms. Existing forms will need some code refactoring.*
      - _Supporting evidence_: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. A participant in the previous round of usability testing stated the same expectation.
+
+1. **Be consistent about indicating optional fields**. --> *Fix bug: Remove the word "optional" from the 'Additional records information' and 'VA regional office' fields , per current Collaboration Cycle guidance*
+   - _Supporting evidence_: Some participants were confused about whether they needed to fill out fields that say neither "Required" nor "Optional", such as "VA file number".
 
 1. **Consider adding details in the helper text about what types of information would be helpful to enter in the "Additional records information"** field.
     - _Supporting evidence_: Three of 7 participants said that they didn't know what kind of information would be helpful to include.
@@ -494,8 +494,6 @@ Eight participants said they wanted to be able to delete a form they started but
 > **After creating issues, add their hyperlinks back here under their corresponding "Recommendation" or "Next Step."**
 > 
 > If you need Github Copilot Enterprise Access, please complete this [Issue](https://github.com/department-of-veterans-affairs/copilot-onboarding/issues/new?template=copilot-onboarding.yml).
-
-***DISCUSS WITH JEANA!***
 
 1. Work with the Design System and Forms team to revise the recommended Save in Progress messaging in VA forms.
 1. Reach out to the Content team to share relevant findings and recommendations.
