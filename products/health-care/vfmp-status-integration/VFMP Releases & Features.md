@@ -13,7 +13,7 @@ Allow applicants to confirm that their CHAMPVA application was successfully subm
 
 This release focuses on **submission-level visibility only**.
 
-MyVA 2.0
+## MyVA 2.0
 ## In Scope
 
 - CHAMPVA applications appear in **MyVA** after submission.
@@ -33,7 +33,7 @@ MyVA 2.0
 - Decision or rejection details
 
 
-MyVA 3.0
+## MyVA 3.0
 ## In Scope
 - Navigation from **MyVA to the CHAMPVA Status Tool**.
 ---
