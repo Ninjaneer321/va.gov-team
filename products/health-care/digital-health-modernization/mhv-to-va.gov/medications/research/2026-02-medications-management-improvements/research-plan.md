@@ -154,10 +154,14 @@ tags:
 
 ### [OCTO-DE Priorities](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/strategy/OCTO%20FY26%20goals%20supported.md)
 
-<details><summary>Which OCTO priorities does this research support? Work with your VA lead and product manager as needed. </summary>
+<details><summary>Which OCTO priorities does this research support? </summary>
 
-**Objective 1:** Our digital experiences are the best way to access VA health care and benefits.  
-- **Key Result 1:** CSAT for our web products have increased by 5 points.
+**Objective 1.1:** Supports up to three Veteran-impacting Key Performance Indicators documented for this on Product.VA.gov.
+
+**Objective 3.1:** Supports this product's OIT portfolio (Health, Benefits, etc.) in improving customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more.
+
+</details>
+
 
 </details>
 
