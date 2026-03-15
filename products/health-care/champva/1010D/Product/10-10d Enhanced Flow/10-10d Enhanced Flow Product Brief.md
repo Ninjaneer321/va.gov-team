@@ -1,9 +1,9 @@
 # 10-10d Enhanced Application Flow – Product Brief
 
-> **Last updated:** [TBD]
-> **Product POC:** [TBD]
-> **GitHub Label(s):** [TBD]
-> **Slack channel:** #1010-health-apps
+- **Last updated:** 03.15.26
+- **Product POC:** Andrea Merrill
+- **GitHub Label(s):** ivc-forms, health-applications, 10-10d
+- **Slack channel:** #1010-health-apps
 
 ---
 
