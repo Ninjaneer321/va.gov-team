@@ -38,47 +38,55 @@ The desired outcome of this research is to inform the functioning of the start a
 
 ### Research Questions
 
-**Section 1: Current experience**
+_**Section 1: Current experience**_
 
 **Care Team Selection & Discovery**
-- How do users currently decide which care team to select when composing a message?
-- What do you think the first page is showing? Is it helpful? (about recent care teams)
-- How do users mentally organize or categorize care teams (by specialty, location, frequency of contact, provider name)?
-- For users with multiple care systems, how do they know which system their desired care team belongs to?
-- Do users understand why they need to select a care system before selecting a care team?
-- What would help users find the "right" care team faster (search, filters, categories, descriptions)?
+1. How do users currently decide which care team to select when composing a message?
+   
+    a. Do users with multiple care systems express uncertainty about the purpose of the care systems option or which one to select?
 
+    b. How do users mentally organize or categorize care teams (by specialty, location, frequency of contact, provider name)?
+       
+    c. Do users notice the recent care teams or look for other teams?
+
+    d. What would help users find the "right" care team faster (search, filters, categories, descriptions)?
+   
 **Task Flow & Friction Points**
-- How do users react when the care team they want isn't visible on the first page?
-- What do users say about the multi-step flow?
-- Are there care teams users frequently seek but cannot find through the current interface?
+2. What do users say about the multi-step flow?
+
+    a. How do users react when the care team they want isn't visible on the first page?
+
+    b. Are there care teams users frequently seek but cannot find through the current interface?
   
 **Interstitial Content Engagement**
-- Do users notice and read the interstitial page content?
-- Of users who see the interstitial, how much information do they retain immediately after?
-- Would users prefer this information presented differently (e.g., tooltip, expandable section, pre-message warning)?
+3. Do users notice and read the interstitial page content?
+
+    a. Of users who see the interstitial, how much information do they retain immediately after?
   
 **Accessibility**
-- For assistive technology users, does the multi-step flow create cognitive overload or navigation challenges?
+4. For assistive technology users, how does having one feature per page impact message completion?
 
 **Contact List**
-- What do you expect to happen when you click on "update your contact list"?
+5. Do users update their contact list if they do not see a relevant care team on the recent care team page?
 
 **Category**
-- How do you decide what to select here?
+6. Do users express confusion about this field and mostly select "general"?
 
-**Section 2: Future Experience & Flow Concepts**
-- What would be your most ideal experience starting a new message to a care team?
+_**Section 2: Future Experience & Flow Concepts**_
 
 **Concept Testing for Alternative Flows**
 
 Concept A (2-page): Combined addressing page (care system + team selection) → message composition
-- What are your reactions to this version?
-- What would you imagine would happen next?
+- How easy or difficult was it to complete the task? Why?
+- What confused the user? 
+- What would the user imagine would happen next?
+- What would the user change?
   
 Concept B (1-page: User addresses and writes the message all in one place
-- What are your reactions to this version?
-- What would you imagine would happen next?
+- How easy or difficult was it to complete the task? Why?
+- What confused the user? 
+- What would the user imagine would happen next?
+- What would the user change?
   
 Concept C: (can add one more concept if necessary)
 
