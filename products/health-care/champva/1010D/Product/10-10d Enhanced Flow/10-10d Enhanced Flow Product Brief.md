@@ -37,11 +37,10 @@ CHAMPVA applicants struggle to provide missing documentation required to complet
 
 ## Usage and Scale
 
-- CHAMPVA serves approximately [TBD – confirm with CHAMPVA program office] beneficiaries, with [TBD] new applications submitted annually.
+- CHAMPVA serves approximately 900,000 beneficiaries, with 4,000 new applications submitted weekly.
 - The Contact Center currently handles a significant volume of inbound inquiries related to missing documentation and application status — this flow is expected to reduce that contact volume over time.
 - Three distinct user groups will access this flow: Veteran sponsors, CHAMPVA applicants/beneficiaries, and third-party representatives (e.g., parents of minor beneficiaries).
 
-> ⚠️ **NEEDS INPUT:** Confirm annual 10-10d submission volume and average CCL issuance rate with CHAMPVA program office or Contact Center.
 
 ---
 
