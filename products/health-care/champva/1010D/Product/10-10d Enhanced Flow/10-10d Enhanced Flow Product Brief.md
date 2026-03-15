@@ -5,6 +5,7 @@
 - **GitHub Label(s):** ivc-forms, health-applications, 10-10d
 - **Slack channel:** #1010-health-apps
 - **[Epic](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136340)**
+- **[Discovery Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1772733681674/6bff6cd9bbf88532b07766431d226f9daf0c5853)**
 
 ---
 
