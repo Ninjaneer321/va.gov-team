@@ -1,7 +1,7 @@
 ## Product Name  
 **CHAMPVA Digital Benefits Card**
 
-- [Epic] (tbd) 
+- [Epic](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136341) 
 - [Research Folder] (tbd)
 - [Figma] (tbd)
 - [Launch Plan] (tbd)
