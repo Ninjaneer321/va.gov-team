@@ -73,7 +73,7 @@ UX agreed to build out all three options in FigJam to present trade-offs clearly
 
 ### Technical Deep Dive — VA Clinic API Call Chain
 
-John walked through the four API calls required to surface VA clinic availability:
+Walked through the four API calls required to surface VA clinic availability:
 
 **Step 1: Facilities call**
 - Input: user facility ID (parent)
