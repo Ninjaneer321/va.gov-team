@@ -137,12 +137,12 @@ Walked through the four API calls required to surface VA clinic availability:
 - [ ] What is the new trigger for the veteran SMS notification (replacing Consult Toolbox dropdown)?
 
 **Engineering (internal follow-up this week):**
-- [ ] **Lee** — Confirm: does the referral object contain the referring facility ID? Is it parent or child facility?
-- [ ] **John** — Test latency with Ben Morgan (more representative test user); gather additional data points
-- [ ] **John/Lee** — Investigate: if we pre-cache Charleston/Atlanta facility + clinic data, what does that implementation look like?
-- [ ] **John/Simi** — Identify which back-end team owns the eligibility endpoint (avails service) and initiate conversation about removing history check for referral workflow
-- [ ] **John/Lee** — Explore Wellhive: does a batch/sorted availability endpoint exist for CC providers?
-- [ ] **All engineers** — Explore shared component architecture between Hydra referral flow and Orion VA scheduling flow to avoid code duplication
+- [ ] Confirm: does the referral object contain the referring facility ID? Is it parent or child facility?
+- [ ] Test latency with Ben Morgan (more representative test user); gather additional data points
+- [ ] Investigate: if we pre-cache Charleston/Atlanta facility + clinic data, what does that implementation look like?
+- [ ] Identify which back-end team owns the eligibility endpoint (avails service) and initiate conversation about removing history check for referral workflow
+- [ ] Explore Wellhive: does a batch/sorted availability endpoint exist for CC providers?
+- [ ] Explore shared component architecture between Hydra referral flow and Orion VA scheduling flow to avoid code duplication
 
 **Mobile:**
 - [ ] Kristen meeting with mobile team (Michelle and Ryan) Wednesday 3:30 ET — will bring whatever proposal emerges from Mon/Tue workshops
@@ -151,8 +151,7 @@ Walked through the four API calls required to surface VA clinic availability:
 
 ### Next Steps
 
-- [ ] **UX (Christina, Peter, Steve, Jenny)** — Build out three flow options (hunt and peck, middle ground, ideal) in FigJam with engineering notes annotated; present Tuesday
+- [ ] **UX** — Build out three flow options (hunt and peck, middle ground, ideal) in FigJam with engineering notes annotated; present Tuesday
 - [ ] **Mike** — Schedule Tuesday 1PM ET follow-up workshop (same group)
-- [ ] **Mike** — Schedule or confirm Thursday VHA meeting to get answers on business/eligibility questions
-- [ ] **All** — Document questions, decisions, and proposals in FigJam (temp integrated online scheduling pilot Slack canvas) as single source of truth for Kay/Kristen
-- [ ] **Mike/Kristen** — Present consolidated proposal to Kay by end of week
+- [ ] Document questions, decisions, and proposals in FigJam (temp integrated online scheduling pilot Slack canvas) as single source of truth for Kay/Kristen
+- [ ] Present consolidated proposal to Kay by end of week
