@@ -17,7 +17,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 | P4 | **Mobile App:** Collaborate with MFS (Mobile Feature Support) team to add benifits into mobile app experience |  [#106209](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106209) | Collaborate as needed. | MFS team responsible for implementation - FM team to collaborate. |None  |  |
 | P5 | **Veteran Request for Hardship Suspension (VBA):** |[#106207](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106207)  |Initiate Design Prototyping & Development handover UX to finalize engineering handover by next quarter.  | Design- FE | **DMC** |  |
 | New for Q3  | **(SPIKE UX-ENG) Make VBA Debt Letters Viewable** | [#136402](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136402) |  |  |  |  |
-| New for Q3  | **New for Q3** |  |  |  |  |  |
+| New for Q3  | **(SPIKE UX-ENG) Supporting Documentation/Attachments - VBA** |[136450](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136450)  |  |  |  |  |
 | P6 | **Prioritized Maintenance**  |[#130107](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130107)|Complete and launch priority work listed in the epic. | UX-FE-BE |None  |  |
 
 
