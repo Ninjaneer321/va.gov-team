@@ -103,5 +103,10 @@ Concept C: (can add one more concept if necessary)
 
 Moderated usability testing with multiple concepts.  **8 completed sessions are required for the study to be considered complete.**
 
-Proposal - work with users from MI pre-transitioned cutover users, rural users, AT users. Have them walk through real data. Then use either AI-coded prototypes or engineer feature-toggle prototypes to test the other "concepts."
+First Task: Walk through the process of sending a message to a frequently messaged provider with the user's own data. **As you log into your portal, how would you complete this task?**
+
+Secondary Task: Imagine that you want to send a message to that same provider. You need to find the provider, and address the message. **Using these two prototypes, explain how you would send the message**
+
+Target users - MI pre-transitioned cutover users, rural users, AT users. 
+Prototypes - Use either AI-coded prototypes, engineer feature-toggle prototypes, or Figma prototypes to test the "concepts."
 
