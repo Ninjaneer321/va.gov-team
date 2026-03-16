@@ -1,7 +1,7 @@
 # Continuous Discovery- Keeping Disabled and Student Dependents Top-line Summary
 [link research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/research/continuous-discovery-phase-2/Cohort%201/research-plan.md)
 [link conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/research/continuous-discovery-phase-2/Cohort%201/conversation-guide.md)
-[link interview transcripts]()
+[link recruitment checker](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/research/continuous-discovery-phase-2/Cohort%201/Recruitment%20Checker.md)
  
 ## Initial Findings
 
