@@ -3,8 +3,31 @@ This Scrum of Scrum (SoS) meeting is to ensure all teams working with the Drupal
 
 ### Running Agenda
 3/16/2026
-* Next Build/ Content Build development is creating some confusion and backwork - we'd like to discuss a process for communication/clarity around this
+
+**Announcements**
+Sofia Kirkman is the new Product Lead for Drupal CMS
+Help desk is currently unavailable so updates on flagged facilities may be delayed - Sofia will work on cleaning up the Github board.
+Editors will be referred to Outlook inbox.
+
+
+* Next Build/ Content Build development is creating some confusion and backwork - we'd like to discuss a process for communication/clarity around this 
+*   This is mostly resolved. Templates have been migrated but not launched.
+*   Alex talked with Kayla last week to talk about a banner.
+*   There is more clarity now around which templates to migrate
+
 * CMS Deploy time change
+*   Editors have requested for CMS downtime to move to later in the day
+*   We are looking to move CMS deploy to early in the morning (7am ET) or evening (6pm ET)
+*   We want to avoid disruptions so we want to move it out of afternoon block
+*   Coordination needs to happen between our different repos and deploy times
+*   Randi: question thinking of content IA team - if it winds up being no different, 6pm may be harder if someone needs content to go out soon. Morning may be preferable.
+*   Tim: main thing against morning deploy is majority of the team is MST and PST. We will be on call but we will try to prevent deployment problems. This is still a couple of months out because we are in the process of moving CMS to EKS (new containerized hosting environment) and away from BRD/Jenkins. We expect EKS to be more stable, faster, and easier to roll back if there are issues. The downtime could also go down but we still want to move it out of the way. We may not be on EKS for up to a couple of months. We want to make sure everyting is stable before we make the maintenance time shift.
+*   Daniel: Feature flags and flippers being available to CMS would be helpful to coordinate releases because at the moment we don't have access to vets API flippers. We could do a better job ensuring the deployment is successful and having a rollback option. We could coordinate more carefully what we're rolling out as a team.
+*   Tim: we still need a clearer idea of how to use flippers and flags to coordinate this work but we will take a look at it and see if CMS can be responsive to this work. We are hoping that this is feasible because CMS has its own feature tags. There are flags we can use in each location but it's a matter of coordinating flags between two systems. 
+
+  
+* Left Menu items
+*   sitewide will own this defect. We can bring issues to biweekly template migration so things don't float into the backlog with low visibility.
   
 3/2/2026
 *  CMS team is cleaning up backlog and confirming [this defect](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/21263) will be owned by Public Websites team
