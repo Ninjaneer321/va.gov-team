@@ -156,12 +156,13 @@ This research plan focuses on evaluating the new centralized experience rather t
 <details><summary>What research has been done on this product or similar products in the past?</summary>
 
 **Previous Studies:**
-- [Link to Study 1 - Brief description, Date](url goes here)
+- [Research Spike reviewed 12 prior studies, 12/2025]((https://dvagov.sharepoint.com/:w:/r/sites/SitewidePublicWebsites/Shared%20Documents/UX%20Research/Centralized%20Forms/Centralized%20Forms%20Research%20Spike%20Summary.docx?d=w303c79af8a1b46d28c28fbb96f08e3ff&csf=1&web=1&e=mNjDgw))
+- [Cognitive Walkthrough, 2/2026](([https://dvagov.sharepoint.com/:w:/r/sites/SitewidePublicWebsites/Shared%20Documents/UX%20Research/Centralized%20Forms/Centralized%20Forms%20Research%20Spike%20Summary.docx?d=w303c79af8a1b46d28c28fbb96f08e3ff&csf=1&web=1&e=mNjDgw](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1764691902261/a47e9e479d0879a4b3ef84b84cda4567588423b0)))
 
 **Key Takeaways from Previous Research:**
-- `[Major finding or insight that informs this study]`
-- `[Major finding or insight that informs this study]`
-- `[Major finding or insight that informs this study]`
+- `Navigation challenges are present to find all needed in formation and moving between auth and unauth content. INconsistent language and visuals for wayfinding.`
+- `Missing clear, up-front call to action sometimes buried in information- reduce cognitive load with clear actions and progressive disclosure for detail`
+- `Difficulty quickly and clearly identifying criteria and required documents/related forms`
 </details>
 
 ### [OCTO-DE Priorities](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/strategy/OCTO%20FY26%20goals%20supported.md) 
@@ -220,17 +221,21 @@ In order to proceed, we would like to see the following:
 
 ### Research questions
 
-**`1.`Can users identify and access the form they need in the new centralized flow? Sub-questions: 1A. How do users conceptualize the navigation and relationship between forms, benefits, and site sections (task, benefit, forms library, etc.)?
-1B. Are users confused by the transition between benefit hubs and centralized forms?
-1C. What navigational elements help or confuse users (breadcrumbs, links, Headers, TOC, CTAs)?
+**`1.`Can users identify and access the form they need in the new centralized flow? 
+Sub-questions: 
+- 1A. How do users conceptualize the navigation and relationship between forms, benefits, and site sections (task, benefit, forms library, etc.)?
+- 1B. Are users confused by the transition between benefit hubs and centralized forms?
+- 1C. What navigational elements help or confuse users (breadcrumbs, links, Headers, TOC, CTAs)?
 **
 
-**`2.`Is information presented in the new centralized/Form About page at the right step, in the right detail? Sub-questions: 2A. Where do users expect to find “what do I need”, “am I eligible”, “how to submit”, and “what happens next” content? In what order?
-2B. - Does combining "About" and "How to Apply" content enable users to more easily find the information they need to be prepared to complete their form?
-2C. Are the different options for form submission clear, understandable and easy to identify?
+**`2.`Is information presented in the new centralized/Form About page at the right step, in the right detail? Sub-questions: 
+- 2A. Where do users expect to find “what do I need”, “am I eligible”, “how to submit”, and “what happens next” content? In what order?
+- 2B. - Does combining "About" and "How to Apply" content enable users to more easily find the information they need to be prepared to complete their form?
+- 2C. Are the different options for form submission clear, understandable and easy to identify?
 **
 
-**`3.`What risks, if any, are there of combining the About forms and How to Apply pages for Veterans and their families? 3A. **Special Cases & Edge Scenarios:** Identify any confusion around forms that are combined (serve multiple benefits/audiences), non-VA forms, or forms without numbers.**
+**`3.`What risks, if any, are there of combining the About forms and How to Apply pages for Veterans and their families? 
+- 3A. Special Cases & Edge Scenarios: Identify any confusion around forms that are combined (serve multiple benefits/audiences), non-VA forms, or forms without numbers.**
 
 **`4.`Does the new Detail Page template overall work for both simple and complex forms (minimal/maximal?)**
 
@@ -354,21 +359,6 @@ Nice to have: Form submission type
 
 ## Screener Questions 📋
 
-> [!NOTE]
-> Perigean will use these screener questions **verbatim** to recruit and qualify participants. Write them as you want them asked.
-
-> [!TIP]
-> - Write questions in plain language that participants will easily understand. [**Examples of General and Assistive Tech Screener Questions**](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/example-screener-questions.md) 
-> - Clearly indicate the **qualifying response** that will make someone eligible
-> - Include links to products or clear descriptions so participants understand what they're being asked about
-> - The more screener questions you have, the harder it will be to recruit - prioritize your must-haves
-
-### Screener Question Template
-
-**`[Number].` [Screener Question Text]**
-- **Qualifying response:** `[The answer that qualifies the participant]`
-- **Disqualifying response:** `[Optional: The answer that disqualifies]`
-
 ### Your Study's Screener Questions
 
 **`1.` Which of the following VA forms have you submitted in the last 5 years? (Select all that apply)**
@@ -380,11 +370,11 @@ Nice to have: Form submission type
 - **Qualifying response: After meeting recruitment quota** 
 
 **`2.` How do you typically submit forms to the VA? Select all that apply**
--Print a PDF and submit by mail
--Download and upload a PDF
--In person at a VA facility
--Using a VSO or Accredited Representative
--Online forms
+- Print a PDF and submit by mail
+- Download and upload a PDF
+- In person at a VA facility
+- Using a VSO or Accredited Representative
+- Online forms
 - **Qualifying response: After meeting recruitment quota** 
 ## Timeline 🗓️
 
