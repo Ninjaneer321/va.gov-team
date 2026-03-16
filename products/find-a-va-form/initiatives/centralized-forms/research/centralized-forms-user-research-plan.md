@@ -186,67 +186,53 @@ This research plan focuses on evaluating the new centralized experience rather t
 <details><summary>Where does your product fit into the Veteran journey?
 Are there moments that matter?</summary>
 	
-- `Joining`
-- `Serving`
-- `Getting Out`
 - `Starting Up`
 - `Taking Care of Myself`
 - `Reinventing Myself`
-- `Putting Down Roots`
 - `Retiring`
 - `Aging`
-- `Dying`
 
 </details>
-
-> [!TIP]
-> Delete journeys not supported by this research.
 
 ## Research Goals 🥅	
 `What are you trying to learn from this research?` 
 
-> [!NOTE]
-> Limit 3 goals per study. If you have more than 3 goals, consider how to break up your research into iterative studies.
-
 ### Goals
 
-`1.` **[Enter answer here]**
+`1.` **Assess Findability & Navigation: Determine whether users can successfully locate forms and critical information.**
 
-`2.` **[Enter answer here]**
-
-`3.` **[Enter answer here]** 
+`2.` **Evaluate Comprehension & Timing of Information on the Form Detail page: Assess if users understand form eligibility, associated tasks, what is needed to complete pre/post form submission, and the intended audience for each form at the right moments in their journey.**
   
 ### Outcome
 `How will this research advance your product to the next phase in the design process? What will you do with your learnings?`
 
 ---
 
-**[Enter outcome here]** 
+**This research will help optimize the design of the Form Detail page. It will identify user requirements for form centralization (e.g. navigational elements/interaction patterns, relationship between different components of form information such as eligibility, supporting documentation, next steps, other forms and application CTA’s) and enable a comprehensive design iteration.
+
+In order to proceed, we would like to see the following: 
+- ≥80% participants can confirm if a form applies to them within 2 interactions.
+- ≥75% can correctly identify and initiate their preferred submission option (online/PDF/help) within 2 interactions.
+- Confidence to start the form ≥4/5 for ≥70% of participants.
+** 
 
 ---
 
 ### Research questions
-> [!NOTE]
-> Do not write out all questions you plan to ask participants -- that should go in the` [conversation guide.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/conversation-guide-template.md)
 
-***Consider bucketing research questions under research goals and think about:***
-	
-`What will I do with what I learn from this question?`
-  
-`Does this question serve the goals of my study?`
+**`1.`Can users identify and access the form they need in the new centralized flow? Sub-questions: 1A. How do users conceptualize the navigation and relationship between forms, benefits, and site sections (task, benefit, forms library, etc.)?
+1B. Are users confused by the transition between benefit hubs and centralized forms?
+1C. What navigational elements help or confuse users (breadcrumbs, links, Headers, TOC, CTAs)?
+**
 
-**`1.`[Enter Q1]**
+**`2.`Is information presented in the new centralized/Form About page at the right step, in the right detail? Sub-questions: 2A. Where do users expect to find “what do I need”, “am I eligible”, “how to submit”, and “what happens next” content? In what order?
+2B. - Does combining "About" and "How to Apply" content enable users to more easily find the information they need to be prepared to complete their form?
+2C. Are the different options for form submission clear, understandable and easy to identify?
+**
 
-**`2.`[Enter Q2]**
+**`3.`What risks, if any, are there of combining the About forms and How to Apply pages for Veterans and their families? 3A. **Special Cases & Edge Scenarios:** Identify any confusion around forms that are combined (serve multiple benefits/audiences), non-VA forms, or forms without numbers.**
 
-**`3.`[Enter Q3]**
-
-**`4.`[Enter Q4]**
-
-**`5.`[Enter Q5]**
-
-> [!TIP]
->Enter more questions as needed
+**`4.`Does the new Detail Page template overall work for both simple and complex forms (minimal/maximal?)**
 
 ### Hypotheses
 > [!NOTE]
@@ -264,7 +250,18 @@ Are there moments that matter?</summary>
 
 ---
 
-**[Enter hypotheses here]** 
+**1. Centralizing forms will reduce user frustration and confusion with duplicate information. Users will prefer to have a single page with this information.** 
+
+**2. Increased detail on the Form Detail page will help Veterans & their families have more confidence (>4/5) that they are prepared to fill out and submit forms regardless of where they navigated from.** 
+
+**3. Standardizing CTAs (online form, download, find eligibility information) with key instructions and will improve findability and streamline critical actions so that users can:
+Identify whether it is the right form for them
+Understand available submission options
+Identify what is needed to submit and prepare before starting form
+Identify related or supporting forms
+Identify options for getting help with the form**
+
+**4. The PDF download process is clear and easy to use with sufficient detail.**
 
 ---
   
@@ -282,7 +279,20 @@ Are there moments that matter?</summary>
 
 </details>
 
-**[Enter methodology here]**
+**Moderated usability test. 12 participants including 4 using AT (2 screenreader and 2 screen magnifier). Mix of 8 Veterans and 4 family/caregivers.
+5 min warm up/background questions
+5 minutes discussion on current navigation (search engine or homepage to a form to help ground user in real-world use & context)
+40 minutes prototype evaluation
+Complex form- 25 minutes- either 526 or Education Benefits
+Identifying and recalling key information, evaluation of preparedness & confidence
+Evaluate information hierarchy and visibility of key actions
+Complete task of moving on to the online introduction
+Minimal form- 15 minutes
+Identifying and recalling key information, evaluation of preparedness & confidence
+Evaluation of download flow
+10 minutes wrap-up discussion
+
+**
 
 <details><summary>Additional resources</summary> 
 	
@@ -298,19 +308,9 @@ Are there moments that matter?</summary>
 ### Location
 Where will you be holding the research sessions? Be sure to include whether this is remote or in-person research. [Learn more about setting up in-person research.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/planning-in-person-research.md)
 
-> [!TIP]
-> Place [X] between brackets in edit mode to leave a checkmark in the correct box.
-
-- [ ] **Remote**
+- [X] **Remote**
 - [ ] **In-person**
       
-> [!NOTE]
-> If in-person, include:
-
-- `Location:` **[Enter text]**
-- `Point of contact:` **[Enter text]**
-- `Equipment used for research:` **[Enter text]**
-
 ## Research materials 📔
 
 > [!NOTE]
@@ -326,15 +326,6 @@ Provide a link to any materials you need to run your study, including any materi
 - [Link to conversation guide](url goes here)
 - [Link to prototype](url goes here)
 
-**For [unmoderated testing:](https://depo-platform-documentation.scrollhelp.site/research-design/Planning-Unmoderated-Studies.1904738369.html)**
-- [Link to email with instructions](url goes here)
-- [Link to prototype or OptimalSort session for group A](url goes here)
-- [Link to prototype or OptimalSort session for group B](url goes here)
-
-
-
-**If recruiting outside of Perigean’s participant database:**
-- [Link to recruitment flyer](url goes here)
 	
 ## Recruitment 🎯	
 *OCTO works with Perigean, a small business, to handle the [recruitment](https://veteranusability.us/), scheduling, and compensation of Veterans and caregivers.*
