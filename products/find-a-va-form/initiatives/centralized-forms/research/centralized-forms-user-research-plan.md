@@ -301,17 +301,12 @@ Identify options for getting help with the form**
 </details>
 
 **Moderated usability test. 12 participants including 4 using AT (2 screenreader and 2 screen magnifier). Mix of 8 Veterans and 4 family/caregivers.
-5 min warm up/background questions
-5 minutes discussion on current navigation (search engine or homepage to a form to help ground user in real-world use & context)
-40 minutes prototype evaluation
-Complex form- 25 minutes- either 526 or Education Benefits
-Identifying and recalling key information, evaluation of preparedness & confidence
-Evaluate information hierarchy and visibility of key actions
-Complete task of moving on to the online introduction
-Minimal form- 15 minutes
-Identifying and recalling key information, evaluation of preparedness & confidence
-Evaluation of download flow
-10 minutes wrap-up discussion
+- 5 min warm up/background questions
+- 5 minutes discussion on current navigation (search engine or homepage to a form to help ground user in real-world use & context)
+- 40 minutes prototype evaluation
+- Complex form- 25 minutes- either 526 or Education Benefits. Identifying and recalling key information, evaluation of preparedness & confidence. Evaluate information hierarchy and visibility of key actions. Complete task of moving on to the online introduction
+- Minimal form- 15 minutes. Identifying and recalling key information, evaluation of preparedness & confidence. Evaluation of download flow.
+- 10 minutes wrap-up discussion
 
 **
 
