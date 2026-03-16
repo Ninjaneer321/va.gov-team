@@ -83,6 +83,7 @@ Veterans will be able to review their latest health updates and results after re
 
 **Supporting research**
 This work is supported by existing research and the metasynthesis review of the existing research. 
+
 Learn more in our [February 2026 research review (GitHub)](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2026-02_Research_Review).
 
 **What're you building**
@@ -96,12 +97,11 @@ Learn more in our [February 2026 research review (GitHub)](https://github.com/de
 - **Assumptions & Risks**: Dot notification/tag status has proven success in other products already. Surfacing "recent" card section at top of page is also similar to the VAHB model of surfacing recent information, which is also successful.
 - **Go-to-market**: We will make sure we communicate this design to OCC, so OCC can socialize the change if necessary before release.
 
-
 ## Launch Planning
 **Collaboration Cycle**
-- Link to Kickoff ticket (tbd)
+- [Link to Kickoff ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136037)
+
 **Timeline**
-> Describe any major milestones for this initiative including organizational, legislative, etc. constraints.
 - Link to release plan (tbd)
 
 **Initiative Launch Dates**
