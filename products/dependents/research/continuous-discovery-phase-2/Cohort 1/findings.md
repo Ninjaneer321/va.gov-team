@@ -2,6 +2,9 @@
 [link research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/research/continuous-discovery-phase-2/Cohort%201/research-plan.md)
 [link conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/research/continuous-discovery-phase-2/Cohort%201/conversation-guide.md)
 [link recruitment checker](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/research/continuous-discovery-phase-2/Cohort%201/Recruitment%20Checker.md)
+
+[link disabled dependent prototype](https://www.figma.com/proto/s3wGkxbhHEKTcggOHenNlN/-%F0%9F%9A%A7----DMT-Usability-Prototypes?node-id=4321-18685&t=H6dHrmlGeuj1IKut-0&scaling=min-zoom&content-scaling=fixed&page-id=4015%3A10652&starting-point-node-id=4321%3A18685)
+[link student dependent prototype](https://www.figma.com/proto/s3wGkxbhHEKTcggOHenNlN/-%F0%9F%9A%A7----DMT-Usability-Prototypes?node-id=4330-53300&t=H6dHrmlGeuj1IKut-0&scaling=min-zoom&content-scaling=fixed&page-id=4015%3A10652&starting-point-node-id=4330%3A53300)
  
 ## Initial Findings
 
