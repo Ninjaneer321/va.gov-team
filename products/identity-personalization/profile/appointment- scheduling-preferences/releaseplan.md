@@ -17,8 +17,8 @@
 - Relevant Use Cases
   - [Healthcare Settings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/health-care-settings/health-care-settings-landingpg.md)
   - [Scheduling Preferences](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/health-care-settings/scheduling-preferences.md)
-- QA Test Plan - in progress
-- Staging Users - in progress
+- [QA Test Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/Profile2.0/test-plan.md)
+- [Staging Users](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/vagov-users/staging-test-accounts-profile2.0.md)
 
 
 
