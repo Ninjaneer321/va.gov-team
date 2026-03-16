@@ -1,115 +1,144 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Public Websites, Centralized Forms, March 2026"
+date: 2026-03-16
+last_updated: 2026-03-16
+team: "Public Websites"
+product: "Find a VA Form (Centralized Forms initiative)"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Centralizing form-related content to simplify navigation, reduce duplicative content/maintenance, improve findability of forms and form-related information, and improve user preparedness/confidence to complete and submit forms."
+  product_location: "VA.gov unauthenticated experience; centralized forms experience / Form Detail (Form About) page (including consolidation of 'About' and 'How to Apply' content)."
+  user_familiarity: "Iteration"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/97c053f843f45bdb92f7576a98ef64f7d192369f/products/find-a-va-form/initiatives/centralized-forms/centralized-[...]"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
-  
+methodology: "Moderated usability testing"
+research_format:
+  location: remote
+  moderated: true
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Assess Findability & Navigation: Determine whether users can successfully locate forms and critical information."
+  - goal_2: "Evaluate Comprehension & Timing of Information on the Form Detail page: Assess if users understand form eligibility, associated tasks, what is needed to complete pre/post form submission, and the timing/order/placement of information."
+  - goal_3: "Evaluate information hierarchy and visibility of key actions/CTAs (online form, download PDF, help) and whether users can identify and initiate preferred submission option."
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can users identify and access the form they need in the new centralized flow?"
+  - "How do users conceptualize the navigation and relationship between forms, benefits, and site sections (task, benefit, forms library, etc.)?"
+  - "Are users confused by the transition between benefit hubs and centralized forms?"
+  - "What navigational elements help or confuse users (breadcrumbs, links, headers, TOC, CTAs)?"
+  - "Is information presented in the new centralized/Form About page at the right step, in the right detail?"
+  - "Where do users expect to find “what do I need”, “am I eligible”, “how to submit”, and “what happens next” content? In what order?"
+  - "Does combining 'About' and 'How to Apply' content enable users to more easily find the information they need to be prepared to complete their form?"
+  - "Are the different options for form submission clear, understandable and easy to identify?"
+  - "What risks, if any, are there of combining the About forms and How to Apply pages for Veterans and their families?"
+  - "Special Cases & Edge Scenarios: Identify any confusion around forms that are combined (serve multiple benefits/audiences), non-VA forms, or forms without numbers."
+  - "Does the new Detail Page template overall work for both simple and complex forms (minimal/maximal?)"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Centralizing forms will reduce user frustration and confusion with duplicate information. Users will prefer to have a single page with this information."
+  - "Increased detail on the Form Detail page will help Veterans & their families have more confidence (>4/5) that they are prepared to fill out and submit forms regardless of where they navigated from."
+  - "Standardizing CTAs (online form, download, find eligibility information) with key instructions will improve findability and streamline critical actions so that users can: identify whether it is the right form for them; understand available submission options; identify what is needed to submit and prepare before starting form; identify related or supporting forms; identify options for getting help with the form."
+  - "The PDF download process is clear and easy to use with sufficient detail."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will be used to optimize the Form Detail page template and centralized forms experience by clarifying user mental models and navigation expectations, improving the information hierarchy and placement/timing of key content (eligibility, what you need, how to submit, what happens next), and validating that users can quickly determine fit, choose a submission option, and feel prepared/confident to start. Success criteria include ≥80% confirming applicability within 2 interactions, ≥75% initiating preferred submission option within 2 interactions, and ≥70% reporting confidence ≥4/5 to start the form."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
-  
+  approach: "Not specified"
+
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
-    
+    - "Veterans and family members/caregivers (mix of 8 Veterans and 4 family/caregivers planned for completes)."
+    - "Target completes: 12; Total recruited: 18 (including ≥6 AT recruited to ensure ≥4 AT completes)."
+    - "Assistive technology mix (at least 4 completes using AT; includes 2 screenreader users and 2 screen magnifier users; recruitment note also says ≥6 AT recruited)."
+    - "Veterans/caregivers/family with recent form experience or near-term need."
+    - "9 have filled out at least one form with VA in the last year."
+    - "3 participants have never filled out a VA form but are eligible to."
+    - "6 have not filled out a VA form in the last year."
+    - "2 screenreader users."
+    - "Recruit a mix of gender, ages, cognitive abilities, etc."
+
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
+    - "No prior 526 or education form experience; submission mode preferences."
+    - "3 Veteran participants who have never completed the 526 Disability Form (or in the last five years)."
+    - "3 participants who have never completed the Education Benefits form (or in the last five years)."
+    - "3 participants who typically complete forms using a PDF/paper."
+    - "3 participants who typically complete forms online."
+    - "3 participants who have done both in the past."
+    - "3 participants who have previously had VA staff help them complete a form."
+
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
+    - question: "Which of the following VA forms have you submitted in the last 5 years? (Select all that apply)"
+      qualifying_response: "After meeting recruitment quota"
+    - question: "How do you typically submit forms to the VA? Select all that apply"
+      qualifying_response: "After meeting recruitment quota"
+
 participants:
-  veterans: 0
-  caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
+  veterans: 12
+  caregivers: 3
+  dependents: 3
+  total_recruited: 18
+  completed_sessions_goal: 12
+
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
-  
+  pilot_date: "2026-03-30"
+  pilot_participant: "TBD"
+  research_dates: "2026-04-06 to 2026-04-15"
+  research_review_submission: "2026-03-23"
+
 session_details:
-  duration_minutes: 60
+  duration_minutes_at_users: 90
+  duration_minutes_non_at_users: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
-  
+  max_sessions_per_day: 3
+
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+  - objective: "Objective 3: Relentlessly improve the user experience."
     key_results:
-      - "[Specific KR if applicable]"
-      
+      - "Key Result 3.1: Each OIT portfolio will improve customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more."
+      - "Key Result 3.2: 100% of end-user facing C100 systems maintain a ranked list of user pain points."
+      - "Key Result 3.3: 100% of C-100 systems have delivered at least one release that directly addresses a documented user pain point with that system."
+
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Reinventing Myself"
+  - "Retiring"
+  - "Aging"
+
 # Research Repository Tracking
 related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
-tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
----
+  previous_studies:
+    - "[Research Spike reviewed 12 prior studies, 12/2025]((https://dvagov.sharepoint.com/:w:/r/sites/SitewidePublicWebsites/Shared%20Documents/UX%20Research/Centralized%20Forms/Centralized%20Forms%20Resea[...])"
+    - "[Cognitive Walkthrough, 2/2026](([https://dvagov.sharepoint.com/:w:/r/sites/SitewidePublicWebsites/Shared%20Documents/UX%20Research/Centralized%20Forms/Centralized%20Forms%20Research%20Spike%20Summa[...]"
 
-> [!TIP]
-> **Complete the frontmatter section above AFTER you've filled out your research plan below.** 
-> 
-> Use the [GitHub Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md) to automatically generate structured metadata from your completed research plan.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags. 
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Family Member"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Healthcare"
+  - "PRDT: Find-a-va-form"
+  - "PRDT: Benefit Hubs"
+  - "PRDT: Content"
+  - "DSC: Accordions"
+  - "DSC: Links"
+  - "DSC: Button"
+  - "DSC: Search Input"
+  - "DSP: Content Presentation"
+  - "Accessibility"
+  - "usability-testing"
+  - "moderated"
+  - "remote"
+---
 
 	# Research Plan for Public Websites, Centralized Forms, March 2026
 
