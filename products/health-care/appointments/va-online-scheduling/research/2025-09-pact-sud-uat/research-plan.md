@@ -236,7 +236,6 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 - `All participants must have a MHV premium account, OR an authenticated / identity-proofed ID.me account. In the email sent by Perigean, they should be informed that you will need to log in to their accounts either before or during the interview session so they should have their account details handy for the session, as they will be required to sign in.`
 - `Must identify as a gender other than male (recruit no less than 6)`
 - `Must be over the age of 55 (recruit no less than 6, and at least 3 over the age of 70)`
-- `Must have scheduled a mental health appointment (recruit no less than 7)`
 
 #### Secondary criteria (nice-to-haves)
 
