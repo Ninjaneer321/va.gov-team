@@ -9,7 +9,7 @@ P6 Transcript
 | **Education level** | Some college, no college degree |
 | **Branch** | Army |
 | **Location** | Northeast |
-| **Device** | Desktop or laptop computer |
+| **Device** | Mobile |
 | **Debts** | Chapter 35 education overpayment |
 | **Payment plan** | Yes |
 | **Hardship statement** | I am currently experiencing financial hardship. |
