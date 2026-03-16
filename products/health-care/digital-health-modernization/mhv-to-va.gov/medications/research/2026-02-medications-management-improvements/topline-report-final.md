@@ -1,3 +1,130 @@
+---
+title: "Medications Management Improvements Usability Study Topline Report"
+product: "MHV on VA.gov - Medications"
+team: "MHV Medications"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2026-02-28"
+researchers:
+  - "Athena Bozak"
+  - "Anneka Van Garza"
+  - "Florence McCafftery"
+  - "Cara Frissel"
+research_goals:
+  - "Determine if users can understand the VA's medication processes well enough to complete their key tasks"
+  - "Determine if users can accurately locate information about where a medication is in the process"
+  - "Understand how users move between the different medication management interfaces"
+methodology:
+  - "Remote moderated usability testing"
+  - "Task-based scenarios"
+  - "Prototype testing"
+devices_used:
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 9
+demographics:
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 9
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 9
+  location:
+    urban: 0
+    rural: 0
+    unknown: 9
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - |
+    Navigation between medication pages was not always clear. Many participants expected a single medications page and did not initially recognize that medication tasks were distributed across multiple pages. 7 of 9 participants landed on the refill-only Medications Page as their first destination in Task 1. Cross-links were the primary recovery mechanism but were frequently missed by 3 of 9 participants. The success alert after refill submission was the most reliable pathway to the In-Progress page.
+  - |
+    The filter "Update list" button was frequently overlooked. 7 of 8 participants missed the "Update list" button at least once when selecting a filter. Participants expected the list to update automatically after selecting a filter. This led to downstream risks where participants believed filters had been applied when they had not.
+  - |
+    The "Too early to refill" card content could benefit from clearer timing information. All 9 participants correctly understood its meaning, but 3 of 9 participants wanted an estimated date for when the medication would become eligible for refill or shipment.
+  - |
+    Some participants had difficulty locating the print feature. 4 of 8 participants who attempted the print task had difficulty finding the feature because it appears below a potentially long list of medications. The "Submit" button label within the print dropdown caused confusion.
+  - |
+    The grey "Too early to refill" card's visual treatment may cause it to be overlooked. 3 of 9 participants initially scrolled past or did not notice the grey card on the In-Progress Medications Page due to its muted styling.
+  - |
+    The term "in-progress medications" was not immediately clear to some participants before opening the page. 2 of 9 participants were unsure what "in-progress medications" meant until they opened the page and saw its content.
+recommendations:
+  - "Increase visual prominence of cross-links significantly; consider button-style treatment instead of text links"
+  - "Add contextual guidance when users land on a page that may not have what they need"
+  - "Evaluate whether link labels clearly communicate destination"
+  - |
+    Auto-apply filters on radio button selection to match user expectations. If a manual apply button must remain, make it visually unmissable with a prominent button near the selected filter.
+  - "Add estimated eligibility date or refill window to the 'Too early to refill' grey card"
+  - "Move print feature higher on page and relabel 'Submit' to 'Print'"
+  - "Evaluate contrast and visual prominence of the grey 'Too early to refill' card"
+  - |
+    Consider more descriptive link text for the In-Progress page, such as "Track your refill requests" or "See refill status"
+  - "Evaluate whether the three-page architecture needs clearer orientation or onboarding"
+  - "Monitor whether users continue to default to calling or messaging when they encounter friction"
+  - "Consider persistent navigation that shows users where they are in the medications experience"
+kpi_alignment: []
+outcomes:
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas:
+  - "Cross-links need significantly higher visual prominence to connect the three medication pages"
+  - "Filter interaction model does not match user expectations of auto-apply behavior"
+  - "Users need clearer timing information on the 'Too early to refill' card"
+  - "Print feature discoverability needs improvement"
+  - "Three-page architecture may need onboarding or persistent navigation"
+further_research_needed:
+  - "Evaluate whether the three-page architecture needs clearer orientation or onboarding"
+  - "Monitor whether users continue to default to calling or messaging when they encounter friction"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: Pharmacy"
+  - "DSC: Links"
+  - "DSC: Card"
+  - "DSC: Button"
+  - "DSP: Help users to navigate a long list"
+  - "DSP: Notifications"
+  - "usability-testing"
+  - "evaluative"
+---
+
+
+
 # Topline report: Medications management improvements usability study, February 2026
 
 **UX Team:** Athena Bozak, Anneka Van Garza, Florence McCafftery, Cara Frissel
