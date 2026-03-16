@@ -64,12 +64,15 @@ _**Section 1: Current experience**_
     a. Of users who see the interstitial, how much information do they retain immediately after?
   
 **Accessibility**
+
 4. For assistive technology users, how does having one feature per page impact message completion?
 
 **Contact List**
+
 5. Do users update their contact list if they do not see a relevant care team on the recent care team page?
 
 **Category**
+
 6. Do users express confusion about this field and mostly select "general"?
 
 
