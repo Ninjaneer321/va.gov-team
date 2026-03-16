@@ -217,3 +217,31 @@ Staging Test User
 
 User: vets.gov.user+228@gmail.com
 Staging users: https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/vagov-users/mvi-staging-users.csv
+
+To view on Staging
+    * Login as user 228
+    * Visit VA.gov homepage and click on "Review your payment history" under Top Pages
+    * You are signed in but will be taken to a "preview" page that reads 
+    * "What VA payment information can I view when I sign in?". Other sections include information that is usually included on the Resources and Support section of VA.gov:
+        * When can I expect my first disability compensation payment?
+        * Can I get a notification every time I receive a recurring VA payment?
+        * What should I do if I need to change my direct deposit or contact information?
+        * Should I contact VA if I have other changes to my information?
+        * And links to the Debt Portal and to verify GI Bill enrollment
+    * Click the View your VA payment history action link.
+    * You will see the Your VA payments page with
+        * Payments you received
+        * What if I find a check that I reported missing?
+        * What if I need to change my direct deposit or contact information?
+        * What if I’m missing a payment?
+
+
+
+Handy Links
+
+* Slack channel: https://slack.com/archives/C04KHCT3ZMY
+* Figma: https://www.figma.com/design/AMsEAbhbHtrahQTp6GzVkQ/Payment-History?node-id=0-1&p=f&t=dXvnpLQbZbYJCfDd-0
+* More information about the type of benefits displayed available: https://www.va.gov/va-payment-history/
+* https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/payment-history
+* https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/payment-history/engineering/payment-history-architecture.md
+* https://github.com/department-of-veterans-affairs/vets-website/tree/f6766025601416fbac183c30edcf5b024e43cd26/src/applications/disability-benefits/view-payments
