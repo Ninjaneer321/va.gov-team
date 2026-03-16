@@ -305,18 +305,9 @@ Where will you be holding the research sessions? Be sure to include whether this
       
 ## Research materials 📔
 
-> [!NOTE]
-> **Your OCTO/VA lead must review and approve all research materials – including this plan –  prior to submitting a recruitment request.**
-
-Provide a link to any materials you need to run your study, including any materials needed for set up and recruitment.  
-
-**For moderated interviews:** 
-	
-- [Link to conversation guide](url goes here)
-
 **For moderated usability tests:** 
-- [Link to conversation guide](url goes here)
-- [Link to prototype](url goes here)
+- [Link to conversation guide]([url goes here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/e323dfc95965daf5562260cdd856d8ef90139b31/products/find-a-va-form/initiatives/centralized-forms/research/centralized-forms-conversation-guide.md)
+- [Link to prototype](https://www.figma.com/design/k5j6J4x7HG8oiTIS5UHHUY/VA-forms-redesign?node-id=1491-50167&p=f&t=kJslZ90tR1o4VxxQ-0)
 
 	
 ## Recruitment 🎯	
