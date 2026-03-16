@@ -115,31 +115,31 @@ tags:
 ## Research Goals
 
 Primary goals:
-- 
+- Capture time on task for the online version and the CDS version of AMPREDICT and PROPREDICT calculators
+- Determine if auto-population in CDS calculators saves time for clinicians
 
 Secondary goals:
-- 
-
-- What outcomes are we aiming to achieve for clinicians?  
-
+- Capture ease of use metrics via surveys for the online calculators vs. the CDS calculators
+- Gather qualitative feedback through observing and speaking to users, as well as in post-task surveys
 
 ## Research Questions
 
-* How intuitive is it to see a CTA to access lab history below the calculator input field?
-    * Do clinicians notice this option?
-    * What do clinicians expect to have happen when they click the link?
-    * Do they click the link to open graphs?
-
+* How long does it take to complete a calculation in the online calculator vs. the CDS calculator?
+* How does auto-population in the CDS calculator impact the clinical workflow?
+* How long does it take to manually populate a Lab field in the AMPREDICT calculator? 
 
 ## Methodology 
 
+This case study included moderated sessions bookended by pre- and post-task surveyrs. Prior to the moderated test we shared introductory content, including instructions on accessing the CDS tools. The moderated portion of the study included a moderator and note-taker who observed clinicians completing calculations in AMPREDICT and PROPREDICT calculators, both the online and CDS versions. We asked clinicians to use two different patients between the online and CDS calculator so that each calculation began on a “clean slate” without bias or memory affecting the time to calculation in the CDS calculator. To protect patient privacy, we did not record these sessions. We used an online stopwatch to capture the time it took to calculate a result in both the online and CDS version of each calculator. 
+
+We asked participants to complete a pre-task survey before the moderated portion of the test. The pre-task questionnaire captured background information and participants' history using the online calculator and CDS calculator. It also captured ease-of-use feedback for the online version of each calculator. Immediately following the moderated test, we sent a link to the post-task survey in the chat and asked participants to complete it while were still on the call. Screen sharing was stopped to allow for privacy when completing the post-task survey. The post-task survey captured ease-of-use feedback for the CDS calculator, as well as feedback on auto-population. 
   
 
 ## Hypotheses and Conclusions
 
-- Clinicians will find that having the lab history data with a specific input field will improve their workflow
+- Auto-population in the CDS calculators will save time when completing a calculation. 
   
-    **TRUE** All clinicians reported that having the lab history data would improve their workflow by not requiring them to look for data in other tools.
+    **TRUE** Every test result indicated minor to significant time saved in the CDS calculator vs. the original online version of the calculator.
 
 
 ## Key Findings
