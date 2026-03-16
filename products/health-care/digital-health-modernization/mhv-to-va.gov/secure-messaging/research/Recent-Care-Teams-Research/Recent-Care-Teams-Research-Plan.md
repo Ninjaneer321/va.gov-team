@@ -105,7 +105,7 @@ Moderated usability testing with multiple concepts.  **8 completed sessions are 
 
 First Task: Walk through the process of sending a message to a frequently messaged provider with the user's own data. **As you log into your portal, how would you complete this task?**
 
-Secondary Task: Imagine that you want to send a message to that same provider. You need to find the provider, and address the message. **Using these two prototypes, explain how you would send the message**
+Secondary Task: Imagine that you want to send a message to that same provider. You need to find the provider, and address the message. **Using these two prototypes, explain how you would send the message and each of the steps.**
 
 Target users - MI pre-transitioned cutover users, rural users, AT users. 
 Prototypes - Use either AI-coded prototypes, engineer feature-toggle prototypes, or Figma prototypes to test the "concepts."
