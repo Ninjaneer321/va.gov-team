@@ -306,7 +306,7 @@ Where will you be holding the research sessions? Be sure to include whether this
 ## Research materials 📔
 
 **For moderated usability tests:** 
-- [Link to conversation guide]([url goes here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/e323dfc95965daf5562260cdd856d8ef90139b31/products/find-a-va-form/initiatives/centralized-forms/research/centralized-forms-conversation-guide.md)
+- [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/e323dfc95965daf5562260cdd856d8ef90139b31/products/find-a-va-form/initiatives/centralized-forms/research/centralized-forms-conversation-guide.md)
 - [Link to prototype](https://www.figma.com/design/k5j6J4x7HG8oiTIS5UHHUY/VA-forms-redesign?node-id=1491-50167&p=f&t=kJslZ90tR1o4VxxQ-0)
 
 	
