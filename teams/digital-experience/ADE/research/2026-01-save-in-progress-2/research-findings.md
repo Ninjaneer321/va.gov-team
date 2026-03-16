@@ -136,12 +136,10 @@ kpi_alignment: []
 outcomes:
   user: "Not specified"
   business: "Not specified"
-opportunity_areas:
-  - "Investigate ways of deleting in-progress forms and notifying users about forms in progress within a certain time frame before they are deleted."
-  - "Explore opportunities to help Veterans who are struggling with their assistive tech and may be unaware of other options."
+opportunity_areas: []
 further_research_needed:
-  - "Any additional research should **include some participants who are 35 years old or younger**. The two such participants recruited for this study didn't show up."
-  - "Any additional research should **include more participants who use screen magnification**. We would have had two more such participants if p2 had used her magnifier during the session, and if p12 h[...]"
+  - "Any additional research should **include some participants who are 35 years old or younger**."
+  - "Any additional research should **include more participants who use screen magnification**."
   - "Consider checking analytics for the existing \"Finish this request later\" link on VA forms to see how much it's being used. Then see if changing this link to a button (as tested in this study) resul[...]"
 underserved_groups_missing:
   - "Identify as Hispanic, Biracial, Asian, Pacific Islander, or First Nations"
@@ -166,12 +164,7 @@ tags:
   - "DSP: Notifications"
   - "PRDT: Save-in-progress"
 ---
-> [!TIP]
-> **Complete the frontmatter section above AFTER you've finished and saved your research findings report below.**
-> 
-> Use the [GitHub Copilot Research Findings Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md) to automatically generate structured metadata from this completed research findings report. The prompt uses natural language processing to extract key findings, participant demographics, recommendations, and apply appropriate research repository tags.
 
----
 
 # 2026-01 Save in Progress (2nd round of usability testing) Research Findings 
 
