@@ -114,7 +114,7 @@ Most users would want to know if their answer might trigger an automatic denial.
 
 - _“I would like to be notified [that my answer may result in a denial], but allowed to continue. That would help me make sure I didn’t make an error.” - P17_
 
-- **Recommendations:** Continue with our plan to explain potential for denials based on answers in our various forms (content team is working on how to do this gracefully). 
+- **Recommendations:** Continue with our plan to explain potential for denials based on answers in our various forms. The content team is working on how to do this gracefully. The team will also need to work with VSRs to make sure the content is not implying a claim decision.
 
 - **Effort:** No action needed
   
