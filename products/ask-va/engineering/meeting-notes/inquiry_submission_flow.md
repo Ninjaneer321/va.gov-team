@@ -19,3 +19,20 @@ at a later time.
       H --> I["CRM returns success or rejection"]
       I --> J["Checkpoint 4: what CRM returned"]
 ```
+
+### Proposed Payload Audit Shape
+
+| Field | Checkpoint | What is captured |
+| --- | --- | --- |
+| `id` | All checkpoints | Unique ID for the audit record |
+| `raw_payload` | Raw inbound request | Submitted payload from frontend before strong params |
+| `accepted_payload` | After strong params | Backend accepted payload after strong params |
+| `crm_payload` | Outbound to CRM | Transformed payload prepared for CRM |
+| `inquiry_number` | CRM success | Returned by CRM on success |
+| `crm_message_id` | CRM rejection | Returned by CRM on success/rejection |
+| `crm_response` | CRM response | CRM response body |
+| `raw_received_at` | Raw inbound request | Timestamp for raw payload |
+| `accepted_received_at` | After stron params | Timestamp for accepted payload |
+| `crm_payload_prepared_at` | Outbound to CRM | Timestamp for outbound CRM payload |
+| `crm_response_received_at` | CRM response | Timestamp for CRM response |
+| `failed_at` | CRM response | Timestamp for failed CRM submission |
