@@ -82,7 +82,7 @@ Through the cross-functional discussions, the team identified several key decisi
   - Do not expose all facilities
 - **Open Question**
   - How do we programmatically get the home facility?  
-    - Might exist in contact profile; API team needs to investigate
+    - API Team investigated this afterwards and they do not currently return the home facility to us. Ken said that they could update the user contact endpoint to return the  home facility
 
 #### Timing & Process Notes
 
