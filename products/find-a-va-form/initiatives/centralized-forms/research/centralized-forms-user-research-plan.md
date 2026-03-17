@@ -8,24 +8,24 @@
 - **Product_area:**"unauthenticated"
 
 # Background Context
- -  Problem statement: "Centralizing form-related content to simplify navigation, reduce duplicative content/maintenance, improve findability of forms and form-related information, and improve user preparedness/confidence to complete and submit forms."
- -  Product location: "VA.gov unauthenticated experience; centralized forms experience / Form Detail (Form About) page (including consolidation of 'About' and 'How to Apply' content)."
- -  User familiarity: "Iteration"
- -  Product brief url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/97c053f843f45bdb92f7576a98ef64f7d192369f/products/find-a-va-form/initiatives/centralized-forms/centralized-[...]"
+ -  **Problem statement:** "Centralizing form-related content to simplify navigation, reduce duplicative content/maintenance, improve findability of forms and form-related information, and improve user preparedness/confidence to complete and submit forms."
+ -  **Product location:** "VA.gov unauthenticated experience; centralized forms experience / Form Detail (Form About) page (including consolidation of 'About' and 'How to Apply' content)."
+ -  **User familiarity:** "Iteration"
+ -  **Product brief url:** "https://github.com/department-of-veterans-affairs/va.gov-team/blob/97c053f843f45bdb92f7576a98ef64f7d192369f/products/find-a-va-form/initiatives/centralized-forms/centralized-[...]"
 
 # Research Design
-- Methodology: "Moderated usability testing"
-- Research_format:
-  - Location: remote
-  - Moderated: true
+- **Methodology:** "Moderated usability testing"
+- **Research format:**
+  - **Location:** remote
+  - **Moderated:** true
 
 # Research Goals & Questions
-research_goals:
-  - goal_1: "Assess Findability & Navigation: Determine whether users can successfully locate forms and critical information."
-  - goal_2: "Evaluate Comprehension & Timing of Information on the Form Detail page: Assess if users understand form eligibility, associated tasks, what is needed to complete pre/post form submission, and the timing/order/placement of information."
-  - goal_3: "Evaluate information hierarchy and visibility of key actions/CTAs (online form, download PDF, help) and whether users can identify and initiate preferred submission option."
+- Research goals
+  - **Goal 1:** Assess Findability & Navigation: Determine whether users can successfully locate forms and critical information.
+  - **Goal 2:** Evaluate Comprehension & Timing of Information on the Form Detail page: Assess if users understand form eligibility, associated tasks, what is needed to complete pre/post form submission, and the timing/order/placement of information.
+  - **Goal 3:** Evaluate information hierarchy and visibility of key actions/CTAs (online form, download PDF, help) and whether users can identify and initiate preferred submission option.
 
-research_questions:
+**Research questions:**
   - "Can users identify and access the form they need in the new centralized flow?"
   - "How do users conceptualize the navigation and relationship between forms, benefits, and site sections (task, benefit, forms library, etc.)?"
   - "Are users confused by the transition between benefit hubs and centralized forms?"
@@ -38,20 +38,22 @@ research_questions:
   - "Special Cases & Edge Scenarios: Identify any confusion around forms that are combined (serve multiple benefits/audiences), non-VA forms, or forms without numbers."
   - "Does the new Detail Page template overall work for both simple and complex forms (minimal/maximal?)"
 
-hypotheses:
+**Hypotheses:**
   - "Centralizing forms will reduce user frustration and confusion with duplicate information. Users will prefer to have a single page with this information."
   - "Increased detail on the Form Detail page will help Veterans & their families have more confidence (>4/5) that they are prepared to fill out and submit forms regardless of where they navigated from."
   - "Standardizing CTAs (online form, download, find eligibility information) with key instructions will improve findability and streamline critical actions so that users can: identify whether it is the right form for them; understand available submission options; identify what is needed to submit and prepare before starting form; identify related or supporting forms; identify options for getting help with the form."
   - "The PDF download process is clear and easy to use with sufficient detail."
 
-expected_outcomes: "Findings will be used to optimize the Form Detail page template and centralized forms experience by clarifying user mental models and navigation expectations, improving the information hierarchy and placement/timing of key content (eligibility, what you need, how to submit, what happens next), and validating that users can quickly determine fit, choose a submission option, and feel prepared/confident to start. Success criteria include ≥80% confirming applicability within 2 interactions, ≥75% initiating preferred submission option within 2 interactions, and ≥70% reporting confidence ≥4/5 to start the form."
+**Expected outcomes:**
+- "Findings will be used to optimize the Form Detail page template and centralized forms experience by clarifying user mental models and navigation expectations, improving the information hierarchy and placement/timing of key content (eligibility, what you need, how to submit, what happens next), and validating that users can quickly determine fit, choose a submission option, and feel prepared/confident to start.
+- Success criteria include ≥80% confirming applicability within 2 interactions, ≥75% initiating preferred submission option within 2 interactions, and ≥70% reporting confidence ≥4/5 to start the form.
 
 # Recruitment & Participants
-recruitment:
-  recruiting_partner: "Perigean"
-  approach: "Not specified"
+- Recruitment:
+  - Recruiting partner: "Perigean"
+  - Approach: "Not specified"
 
-  primary_criteria:
+- Primary criteria:
     - "Veterans and family members/caregivers (mix of 8 Veterans and 4 family/caregivers planned for completes)."
     - "Target completes: 12; Total recruited: 18 (including ≥6 AT recruited to ensure ≥4 AT completes)."
     - "Assistive technology mix (at least 4 completes using AT; includes 2 screenreader users and 2 screen magnifier users; recruitment note also says ≥6 AT recruited)."
@@ -62,7 +64,7 @@ recruitment:
     - "2 screenreader users."
     - "Recruit a mix of gender, ages, cognitive abilities, etc."
 
-  secondary_criteria:
+- Secondary criteria:
     - "No prior 526 or education form experience; submission mode preferences."
     - "3 Veteran participants who have never completed the 526 Disability Form (or in the last five years)."
     - "3 participants who have never completed the Education Benefits form (or in the last five years)."
@@ -71,25 +73,25 @@ recruitment:
     - "3 participants who have done both in the past."
     - "3 participants who have previously had VA staff help them complete a form."
 
-  screener_questions:
-    - question: "Which of the following VA forms have you submitted in the last 5 years? (Select all that apply)"
+- Screener questions:
+    - Question: "Which of the following VA forms have you submitted in the last 5 years? (Select all that apply)"
       qualifying_response: "After meeting recruitment quota"
-    - question: "How do you typically submit forms to the VA? Select all that apply"
+    - Question: "How do you typically submit forms to the VA? Select all that apply"
       qualifying_response: "After meeting recruitment quota"
 
-participants:
-  veterans: 12
-  caregivers: 3
-  dependents: 3
-  total_recruited: 18
-  completed_sessions_goal: 12
+- Participants:
+ -  Veterans: 12
+ -  Caregivers: 3
+ -  Dependents: 3
+ -  Total recruited: 18
+  - Completed sessions goal: 12
 
 # Timeline & Sessions
-timeline:
-  pilot_date: "2026-03-30"
-  pilot_participant: "TBD"
-  research_dates: "2026-04-06 to 2026-04-15"
-  research_review_submission: "2026-03-23"
+- Timeline:
+  - Pilot date: 2026-03-30
+  - Pilot participant: TBD
+ -  Research dates: 2026-04-06 to 2026-04-15
+ -  Research review_submission: 2026-03-23
 
 session_details:
   duration_minutes_at_users: 90
