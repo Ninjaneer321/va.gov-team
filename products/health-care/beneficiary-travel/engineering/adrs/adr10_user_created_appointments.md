@@ -99,6 +99,9 @@ Through the cross-functional discussions, the team identified several key decisi
   - Home facility
   - Preferred facility
   - Must be monitored to prevent errors in facility selection
+  - A parent facility cannot become a child facility of another parent facility.
+    - Ex: If my home facility is `Idaho VAMC` and I go to New York for an appointment and the appointment is at a `New York VAMC`. Then the when I get home and make a user created appointment I will only see the children facilities for `Idaho VAMC` and not for  `New York VAMC` so I will have to call a clerk and they will change my home facility to the  `New York VAMC`. This is a temporary change so that I can make this appointment and claim.
+    - Now if my appointment is instead in a New York child facility like `New York Test 123 CC` then when I get home to make a user created appointment I will only see the children facilities for `Idaho VAMC` and not for  `New York VAMC` so I will have to call a clerk and they will create a new child facility for my home facility called  ``New York Test 123 CC` and the station number will have the first 3 as my home facility (home: 550, new child: 550CC123nunfw. Then when I log back in to make an appointment I will see the new faciliity in my list.
 
 ---
 
