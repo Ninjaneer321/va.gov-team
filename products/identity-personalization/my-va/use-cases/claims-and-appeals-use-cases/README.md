@@ -32,7 +32,11 @@
 <details><summary>User does not have an open claim or appeal, or one that has been closed in the last 60 days</summary>
 
 - **Use case:** If a logged in LOA3 user does not have an open claim or appeal or one that has been closed in the last 60 days, they will see informational text and be provided a link to check all claims and appeals.
-- **Status code:** TBD
+- **Status code:**
+  - 200 GET /v0/benefits_claims
+  - 200 GET /v0/appeals
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/claims-and-appeals/ClaimsAndAppeals.jsx
 - **Format:** Paragraph copy. See designs.
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5165-13907&t=Qplg9wUFJEDlP70M-1)
 - [Link to code]
