@@ -130,8 +130,8 @@ The insights that come out of this research will inform the structure and usabil
 
 ## Methodology 🛠️
 
-- Moderated usability testing with current experience and multiple concepts  
-- 8 completed sessions required  
+- 60-minute moderated usability sessions via Zoom  
+- Target of 8 completed sessions with Veterans  
 
 ---
 
@@ -155,10 +155,29 @@ The insights that come out of this research will inform the structure and usabil
 
 We will partner with Perigean to recruit a diverse sample of Veterans for moderated remote usability testing. We will use a lean maximum variation approach to include:
 
-- Mix of participants under and over 55  
-- Rural and urban Veterans  
-- Assistive technology users  
-- Oracle Health pre-transition users  
+### Recruitment criteria
+
+- `Veterans:` **12**
+- `Caregivers:` **0**
+- `Dependents:` **0**
+- `Total:` **12**
+- `Ideal completed sessions:` **8 (minimum)**
+
+### Primary criteria (must-haves)
+
+• All participants have VA health care as a benefit
+• 8 (minimum) use the VA for their messaging their care team/provider   
+• 6 are over 55 years old 
+• 3 live in a rural area
+• (TBD) Assistive technology users  
+• (TBD) Oracle Health pre-transition users 
+• 6 have a traumatic brain injury or cognitive disability  
+• 3 Women
+• 3 Black or African American  
+• 3 Hispanic, Latino, or Spanish origin  
+• 2 Asian  
+• 1 Gay, lesbian, or bisexual  
+• 4 have high school diploma as terminal degree  
 
 ---
 
@@ -169,16 +188,6 @@ We will partner with Perigean to recruit a diverse sample of Veterans for modera
 - `Dependents:` **[0]**  
 - `Total:` **[12]**  
 - `Ideal completed sessions:` **[8]**
-
----
-
-### Primary criteria
-
-- Veterans enrolled in VA health care  
-- Veterans who use secure messaging  
-- Mix of ages and locations  
-- Include assistive technology users  
-- Include Oracle Health transition users  
 
 ---
 
