@@ -1,10 +1,10 @@
 ---
 # Research Plan Metadata
-title: "Medical Records: Recent Results Findability - March 2026"
+title: "Medical Records: Recency Indicators Usability Study - March 2026"
 date: 2026-03-03
 last_updated: 2026-03-17
 team: "MHV Medical Records"
-product: "Medical Records: Recent Results Indicators"
+product: "Medical Records: Recency Indicators"
 product_area: "authenticated"
 
 # Background Context
@@ -260,8 +260,8 @@ This method is appropriate because:
 ## Research materials 📔
 
 **For moderated usability tests:**
-- [Link to conversation guide](url goes here) - *In progress*
-- [Link to prototype](url goes here) - *In progress, expected by March 7*
+- [Link to conversation guide]([url goes here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2026-03-notification-usability-study/conversation-guide.md)) - *In progress*
+- [Link to prototype](url goes here) - *In progress, expected by March 20*
 
 **Prototype will show:**
 - Medical Records landing page with "Recent Results" cards (Labs, Care Notes)
