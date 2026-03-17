@@ -9,7 +9,7 @@
 
 # Background Context
  -  **Problem statement:** "Centralizing form-related content to simplify navigation, reduce duplicative content/maintenance, improve findability of forms and form-related information, and improve user preparedness/confidence to complete and submit forms."
- -  **Product location:** "VA.gov unauthenticated experience; centralized forms experience / Form Detail (Form About) page (including consolidation of 'About' and 'How to Apply' content)."
+ -  **Product location:** "VA.gov unauthenticated experience; centralized forms experience / Form Detail (About Form) page (including consolidation of 'About' and 'How to Apply' content)."
  -  **User familiarity:** "Iteration"
  -  **Product brief url:** "https://github.com/department-of-veterans-affairs/va.gov-team/blob/97c053f843f45bdb92f7576a98ef64f7d192369f/products/find-a-va-form/initiatives/centralized-forms/centralized-[...]"
 
@@ -30,7 +30,7 @@
   - "How do users conceptualize the navigation and relationship between forms, benefits, and site sections (task, benefit, forms library, etc.)?"
   - "Are users confused by the transition between benefit hubs and centralized forms?"
   - "What navigational elements help or confuse users (breadcrumbs, links, headers, TOC, CTAs)?"
-  - "Is information presented in the new centralized/Form About page at the right step, in the right detail?"
+  - "Is information presented in the new centralized/Form Detail page at the right step, in the right detail?"
   - "Where do users expect to find “what do I need”, “am I eligible”, “how to submit”, and “what happens next” content? In what order?"
   - "Does combining 'About' and 'How to Apply' content enable users to more easily find the information they need to be prepared to complete their form?"
   - "Are the different options for form submission clear, understandable and easy to identify?"
@@ -162,24 +162,22 @@ This deduplication of information and simplified navigation should have the foll
   - Decreased IA design time
     
 This research plan focuses on evaluating the new centralized experience rather than comparing several divergent prototypes, but it is still essential to probe user mental models, navigation expectations, and informational needs.
-
-</summary>
 	
 `What problem is your product trying to solve?`
 
-**Centralizing form-related content to simplify navigation, maintenance, and improve user preparedness to complete forms.**
+  - `Centralizing form-related content to simplify navigation, maintenance, and improve user preparedness to complete forms.`
   
 `Where is your product situated on VA.gov? (ex: auth vs. unauth)`
 
-**Unauthenticated**
+  - `Unauthenticated`
   
 `What is Veterans’ familiarity with this tool? Is this a new product or an iteration on an existing one?`
 
-**Iteration**
+  - `Iteration`
 
 `Product Brief`
 
-**[Link to product brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/97c053f843f45bdb92f7576a98ef64f7d192369f/products/find-a-va-form/initiatives/centralized-forms/centralized-forms-iteration.md#L4).**
+  - [Link to product brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/97c053f843f45bdb92f7576a98ef64f7d192369f/products/find-a-va-form/initiatives/centralized-forms/centralized-forms-iteration.md#L4).
 
 </details>
 
@@ -188,13 +186,15 @@ This research plan focuses on evaluating the new centralized experience rather t
 <details><summary>What research has been done on this product or similar products in the past?</summary>
 
 **Previous Studies:**
-- [Research Spike reviewed 12 prior studies, 12/2025]((https://dvagov.sharepoint.com/:w:/r/sites/SitewidePublicWebsites/Shared%20Documents/UX%20Research/Centralized%20Forms/Centralized%20Forms%20Research%20Spike%20Summary.docx?d=w303c79af8a1b46d28c28fbb96f08e3ff&csf=1&web=1&e=mNjDgw))
-- [Cognitive Walkthrough, 2/2026](([https://dvagov.sharepoint.com/:w:/r/sites/SitewidePublicWebsites/Shared%20Documents/UX%20Research/Centralized%20Forms/Centralized%20Forms%20Research%20Spike%20Summary.docx?d=w303c79af8a1b46d28c28fbb96f08e3ff&csf=1&web=1&e=mNjDgw](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1764691902261/a47e9e479d0879a4b3ef84b84cda4567588423b0)))
+- [Research Spike reviewed 12 prior studies, 12/2025](https://dvagov.sharepoint.com/:w:/r/sites/SitewidePublicWebsites/Shared%20Documents/UX%20Research/Centralized%20Forms/Centralized%20Forms%20Research%20Spike%20Summary.docx?d=w303c79af8a1b46d28c28fbb96f08e3ff&csf=1&web=1&e=mNjDgw)
+- Cognitive Walkthrough, 2/2026
+  - [Research summary](https://dvagov.sharepoint.com/:w:/r/sites/SitewidePublicWebsites/Shared%20Documents/UX%20Research/Centralized%20Forms/Centralized%20Forms%20Research%20Spike%20Summary.docx?d=w303c79af8a1b46d28c28fbb96f08e3ff&csf=1&web=1&e=mNjDgw0)
+  - [Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1764691902261/a47e9e479d0879a4b3ef84b84cda4567588423b0)
 
 **Key Takeaways from Previous Research:**
-- `Navigation challenges are present to find all needed in formation and moving between auth and unauth content. INconsistent language and visuals for wayfinding.`
-- `Missing clear, up-front call to action sometimes buried in information- reduce cognitive load with clear actions and progressive disclosure for detail`
-- `Difficulty quickly and clearly identifying criteria and required documents/related forms`
+- `Navigation challenges are present to find all needed information and moving between auth and unauth content. Inconsistent language and visuals for wayfinding.`
+- `Missing clear, up-front call to action sometimes buried in information; reduce cognitive load with clear actions and progressive disclosure for detail.`
+- `Difficulty in quickly and clearly identifying criteria and required documents/related forms.`
 </details>
 
 ### [OCTO-DE Priorities](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/strategy/OCTO%20FY26%20goals%20supported.md) 
@@ -257,19 +257,19 @@ In order to proceed, we would like to see the following:
 Sub-questions: 
 - 1A. How do users conceptualize the navigation and relationship between forms, benefits, and site sections (task, benefit, forms library, etc.)?
 - 1B. Are users confused by the transition between benefit hubs and centralized forms?
-- 1C. What navigational elements help or confuse users (breadcrumbs, links, Headers, TOC, CTAs)?
+- 1C. What navigational elements help or confuse users (breadcrumbs, links, headers, TOC, CTAs)?
 **
 
-**`2.`Is information presented in the new centralized/Form About page at the right step, in the right detail? Sub-questions: 
+**`2.`Is information presented in the new centralized/Form Detail page at the right step, in the right detail? Sub-questions: 
 - 2A. Where do users expect to find “what do I need”, “am I eligible”, “how to submit”, and “what happens next” content? In what order?
-- 2B. - Does combining "About" and "How to Apply" content enable users to more easily find the information they need to be prepared to complete their form?
+- 2B. Does combining "About" and "How to Apply" content enable users to more easily find the information they need to be prepared to complete their form?
 - 2C. Are the different options for form submission clear, understandable and easy to identify?
 **
 
 **`3.`What risks, if any, are there of combining the About forms and How to Apply pages for Veterans and their families? 
 - 3A. Special Cases & Edge Scenarios: Identify any confusion around forms that are combined (serve multiple benefits/audiences), non-VA forms, or forms without numbers.**
 
-**`4.`Does the new Detail Page template overall work for both simple and complex forms (minimal/maximal?)**
+**`4.`Does the new Form Detail Page template overall work for both simple and complex forms (minimal/maximal?)**
 
 ### Hypotheses
 ---
@@ -278,12 +278,12 @@ Sub-questions:
 
 **2. Increased detail on the Form Detail page will help Veterans & their families have more confidence (>4/5) that they are prepared to fill out and submit forms regardless of where they navigated from.** 
 
-**3. Standardizing CTAs (online form, download, find eligibility information) with key instructions and will improve findability and streamline critical actions so that users can:
-Identify whether it is the right form for them
-Understand available submission options
-Identify what is needed to submit and prepare before starting form
-Identify related or supporting forms
-Identify options for getting help with the form**
+**3. Standardizing CTAs (online form, download, find eligibility information) with key instructions and will improve findability and streamline critical actions so that users can:**
+- Identify whether it is the right form for them
+- Understand available submission options
+- Identify what is needed to submit and prepare before starting form
+- Identify related or supporting forms
+- Identify options for getting help with the form
 
 **4. The PDF download process is clear and easy to use with sufficient detail.**
 
