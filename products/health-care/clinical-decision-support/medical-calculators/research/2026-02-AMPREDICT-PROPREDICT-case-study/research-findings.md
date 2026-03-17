@@ -70,9 +70,7 @@ outcomes:
   user: "Reduced cognitive burden created by context switching between the CDS Medical Calculator application and the EHR"
   business: "Improved clinician efficiency and accuracy when using medical calculators"
 opportunity_areas:
-  - "Integration of medical calculators into established workflows and leveraging with AI (such as ambient scribe)"
   - "Auto-populating answers when lab history data is available (e.g., for bilirubin 2x normal)"
-  - "Helping clinicians stay up to date on changing recommendations and society guidelines"
 further_research_needed: []
 underserved_groups_missing: []
 secondary_research: []
@@ -98,7 +96,7 @@ tags:
 
 **Contacts:** Natalie Hill
 
-**[Research Readout (Mural)]()**  
+**[Research Readout TBA]()**  
 
 
 **Jump to:**
@@ -117,9 +115,10 @@ tags:
 Primary goals:
 - Capture time on task for the online version and the CDS version of AMPREDICT and PROPREDICT calculators
 - Determine if auto-population in CDS calculators saves time for clinicians
+- Guage level of trust clincians have with auto-populated data
 
 Secondary goals:
-- Capture ease of use metrics via surveys for the online calculators vs. the CDS calculators
+- Capture ease of use metrics for the online calculators vs. the CDS calculators
 - Gather qualitative feedback through observing and speaking to users, as well as in post-task surveys
 
 ## Research Questions
@@ -130,21 +129,28 @@ Secondary goals:
 
 ## Methodology 
 
-This case study included moderated sessions bookended by pre- and post-task surveyrs. Prior to the moderated test we shared introductory content, including instructions on accessing the CDS tools. The moderated portion of the study included a moderator and note-taker who observed clinicians completing calculations in AMPREDICT and PROPREDICT calculators, both the online and CDS versions. We asked clinicians to use two different patients between the online and CDS calculator so that each calculation began on a “clean slate” without bias or memory affecting the time to calculation in the CDS calculator. To protect patient privacy, we did not record these sessions. We used an online stopwatch to capture the time it took to calculate a result in both the online and CDS version of each calculator. 
+This case study included moderated sessions bookended by pre- and post-task surveyrs. Prior to the moderated test we shared introductory content, including instructions on accessing the CDS tools. The moderated portion of the study included a facilitator and note-taker who observed clinicians completing calculations in AMPREDICT and PROPREDICT calculators, both the online and CDS versions. We asked clinicians to use two different patients between the online and CDS calculator so that each calculation began on a “clean slate” without bias or memory affecting the time to calculation in the CDS calculator. To protect patient privacy, we did not record these sessions. We used an online stopwatch to capture the time it took to calculate a result in both the online and CDS version of each calculator. 
 
 We asked participants to complete a pre-task survey before the moderated portion of the test. The pre-task questionnaire captured background information and participants' history using the online calculator and CDS calculator. It also captured ease-of-use feedback for the online version of each calculator. Immediately following the moderated test, we sent a link to the post-task survey in the chat and asked participants to complete it while were still on the call. Screen sharing was stopped to allow for privacy when completing the post-task survey. The post-task survey captured ease-of-use feedback for the CDS calculator, as well as feedback on auto-population. 
   
-
 ## Hypotheses and Conclusions
 
 - Auto-population in the CDS calculators will save time when completing a calculation. 
   
     **TRUE** Every test result indicated minor to significant time saved in the CDS calculator vs. the original online version of the calculator.
 
+- Clinicians will want to explore the source of auto-populated data.
+
+    **TRUE** When an auto-populated field for a condition with a Yes/No answer populated as "No", most participants found the ICD-10 link text under the input field and clicked to open the modal that lists the codes being mapped to.
+
 
 ## Key Findings
 
-1. 
+1. Average time to complete a calculation using the online version of AMPREDICT: 5 minutes and 50 seconds (5:50)
+2. Average time to complete a calculation using the CDS version of AMPREDICT: 2 minutes and 54 seconds (2:54)
+3. Average time to complete a calculation using the online version of PROPREDICT: 8 minutes and 38 seconds (8:38)
+4. Average time to complete a calculation using the CDS version of PROPREDICT: 5 minutes and 38 seconds (5:38)
+5. 
 
 ## Details of Findings 
 
