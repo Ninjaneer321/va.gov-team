@@ -9,7 +9,8 @@ In Progress - 2026-03-17
 ### Context
 In order for a veteran to create a user created appointment via the BTSSS API they have to select a facility. There are several ways that we can go about getting a list of facilities.
 
-### Findings from Stakeholder Alignment Meeting
+---
+### Findings from Stakeholder Alignment Meeting (3/16/2026)
 
 Through discussions with stakeholders and follow-up investigation, we identified the following key details about available data sources:
 
@@ -37,51 +38,153 @@ Through discussions with stakeholders and follow-up investigation, we identified
     - No known public-facing API currently available to us
   - Mark is going to follow up with them
 ---
+### Findings from BTSSS Cross-Functional Working Session Meeting (3/17/2026)
 
-### Options Considered
+Through the cross-functional discussions, the team identified several key decisions, assumptions, and open questions related to user-created appointments.
+
+#### Appointment Type Handling
+
+- **Current Direction**
+  - Do **not display appointment type in the FE**
+  - Default to sending `"Other"` as the appointment type in the BE
+
+- **Open Concern**
+  - Users may want to enter a specific appointment type
+  - Could impact **auto-adjudication rates**
+  - Daryl will discuss with leadership before finalizing
+
+- **Clarifications**
+  - Labs appointments → `"Other"` in backend
+
+#### Appointment Name Guidance
+
+- **Appointment Name** field should contain:
+  - A **description of the appointment**
+
+#### Facility Knowledge & Veteran Experience
+
+- Veterans **should know** their:
+  - Facility name (from official VA letters)
+  - Facility zip code (from official VA letters)
+- Veterans **do not know** their facility station number
+  - This is not shown in the FE dropdown
+
+#### Facility Selection Constraints
+
+- Every veteran has:
+  - A **home facility**
+  - A **preferred facility**
+- These values **may differ**
+  - Clerks must manually correct records in a monthly check
+  - Corrections are based on BTSSS portal investigation
+- **Current Direction**
+  - Only show **child facilities** associated with the veteran
+  - Do not expose all facilities
+- **Open Question**
+  - How do we programmatically get the home facility?  
+    - Might exist in contact profile; API team needs to investigate
+
+#### Timing & Process Notes
+
+- Facilities are added for veterans **immediately when clerks save them**
+- Veterans should know facility name and zip code; station number is hidden
+
+#### Risks / Considerations
+
+- Hiding appointment type may:
+  - Simplify the FE experience
+  - Negatively impact auto-adjudication rates
+
+- Data inconsistencies between:
+  - Home facility
+  - Preferred facility
+  - Must be monitored to prevent errors in facility selection
+
+---
+
+### Options considered for how to determine the facilities list
+Per our meeting on 3/17/2026 we now know that we will need to determine a given veterans home facility. The API Team will need to update their logic for the `GET Contact` endpoint so that the response returns a `homeFacility`.
+
+```
+// Example of desired response from /api/v3/contacts/{contactId}
+{
+  "correlationId": "string",
+  "timeStamp": "2026-03-17T18:19:34.597Z",
+  "statusCode": 0,
+  "message": "string",
+  "success": true,
+  "data": {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "firstName": "string",
+    "lastName": "string",
+    "isVeteran": true,
+    "isCareGiver": true,
+    "homeFacility": {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "name": "string",
+      "stationNumber": "string",
+      "city": "string",
+      "stateOrProvince": "string"
+    }
+  }
+}
+```
+
+Once the above change occurs and we have a way to determine the home facility we can then condsider the following approaches for getting the list of facilities:
+
+
 
 1. **Leverage CXI Data (Preferred if feasible)**
    - Coordinate with CXI stakeholders to:
      - Provide equivalent data to the BTSSS `GET Facilities` endpoint
      - Potentially expose a new API endpoint
+   - Pull all facilities (parent + children) from CXI.
+   - Use the **veteran’s `homeFacility` as the starting point** to filter:
+     - Only show child facilities for the home facility in the FE.
    - Pros:
      - Most accurate and complete dataset
+     - Aligns with FE constraints (child facilities only)
+     - Reduces reliance on zip code or veteran input
    - Cons:
-     - Dependency on external team
-     - Uncertain feasibility and timeline
+     - Dependency on CXI team
+     - Timeline uncertainty
+   - **Outstanding Questions**:
+     - Need to confirm that CXI has all children facilities; the CC and non-CC facilities
 
 2. **Create a New API Endpoint in BTSSS API (Derived from Lighthouse Parent Facilities)**
    - Use Lighthouse to retrieve parent facilities
    - The API Team `builds a new API endpoint` that:
-     - Accepts facility name or station number
-     - Returns related facilities (including children cc and non-cc)
+     - Accepts **homeFacility station number or name**
+     - Returns related facilities (including children cc and non-cc) for the given home facility
    - Pros:
-     - Controlled and tailored to our needs
-     - Avoids reliance on incomplete datasets
+     - Tailored to veteran’s home facility
+     - Avoids incomplete datasets
    - Cons:
      - Requires API team effort
-     - May require additional data stitching
+     - Still requires filtering by home facility
 
-3. **Combine Lighthouse + PPMS (Zip Code Filtering Approach)**
-   - Use both APIs together:
-     - Filter by facility zip code
+3. **Combine Lighthouse + PPMS (Home Facility Filtering Approach) – No Longer Viable**
+   - Use both APIs together: Lighthouse + PPMS
+    - Filter **only child facilities associated with veteran’s home facility**
+     - PPMS does **not have BTSSS station numbers**, so we cannot reliably map child facilities to a veteran’s home facility.
      - Return combined results to FE
    - Pros:
      - Leverages existing APIs
    - Cons:
-     - Data inconsistency risk (non 1:1 identifiers)
-       -  **Further confirmed that this is an issue on 3/17/2026 and the BTSSS station number is not in PPMS**
-     - Incomplete facility coverage
-     - Increased complexity in FE and BE
+     - Cannot ensure accurate child facility mapping
+       -  ** Confirmed that this is an issue on 3/17/2026 and the BTSSS station number is not in PPMS**
+     - Data inconsistencies make this approach unreliable
+     - Increased FE/BE complexity without benefit
 
 4. **Enhance Existing Facilities Endpoint in BTSSS API (Filtering Support)**
    - The API Team updates the current `GET facilities` endpoint to support:
-     - Filtering by facility name
-     - Filtering by station number
-     - Returning pages of a 5000 record max, instead of 50 record max
+     - Accept **homeFacility station number/name** as input
+     - Filter results to child facilities for that home facility
+     - Support paging up to 5000 records max, instead of 50 record max
    - Pros:
      - Minimal disruption to existing architecture
-     - Improves usability of current API
+     - Aligns FE filtering to home facility
+     - Simplifies user experience
    - Cons:
      - Depends on completeness of underlying dataset
      - Requires API team effort
@@ -91,13 +194,15 @@ Through discussions with stakeholders and follow-up investigation, we identified
    - Run a scheduled job to:
      - Fetch all facilities daily
      - Cache locally keyed by name/station number
+   - FE filters cached facilities by **veteran’s home facility** to return child facilities only
    - Pros:
      - Fast FE lookup after caching
+     - Allows pre-filtering by home facility
    - Cons:
      - High performance risk
      - Data staleness concerns
      - Increased maintenance burden
-     - Not scalable
+     -  Must enforce child-only filtering in cache
 
 ---
 
