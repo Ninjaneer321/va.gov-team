@@ -25,29 +25,23 @@
 ### Product Goal
 Make the online pension experience as easy to complete and cohesive as possible, while ensuring that Veterans provide sufficient supporting documentation to ensure that submissions are reliable and processed as quickly as possible.
 
-
 #### 21-527EZ Application for Veterans Pension
 The online pension application is available in the [production environment](https://www.va.gov/pension/apply-for-veteran-pension-form-21p-527ez/introduction).  The staging environment version of the form is [here](https://staging.va.gov/pension/apply-for-veteran-pension-form-21p-527ez/introduction).
 
 - [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/527EZ-reactivation-initiative-brief.md)
-- [Form Flow (proposed)](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1709582312238/ae3de21fd188beba8c28668ee37a31841c6203bf?wid=0-1716382766670)
-- [Wireframes (proposed)](https://www.figma.com/design/bvj72inycD0iZkuCbjYTWL/Dependent-Verification-MVP?node-id=59-960&t=yWIz3IUP2uFChYib-0) (Figma)
-- [MVP Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1709582312238/ae3de21fd188beba8c28668ee37a31841c6203bf?wid=0-1723479332670)
-- [IA/User Flow Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1709582312238/ae3de21fd188beba8c28668ee37a31841c6203bf?wid=522-1737736233308)
 - [VBA Verification Info](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1709582312238/ae3de21fd188beba8c28668ee37a31841c6203bf) (core goals, diary entries, mvp outline)
-- [MVP Research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/dependents/research/2025-02-dependents-verification-mvp-research)
-   - [Research cohort map](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1690311086208/96d5f59b299912bc8c69542e6943d5b2213b9c72)
-   - [Solution exploration](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1689863079145/5b97ba9ea11077f983f3413167f6324f11aa04a8)
+
 
 ### Product artifacts 
 - [Backlog](https://github.com/orgs/department-of-veterans-affairs/projects/1237/views/39)
 - [General testing plan](https://docs.google.com/spreadsheets/d/1mZCnm1Cc6lBIGRIjxw5FzmHa9yQRDBfHquKKLsNlHfo/edit?gid=2009661867#gid=2009661867) for product updates
 
 ### Design artifacts
-- Design [readme](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/design/README.md)
-- [Page/User flow](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1687976281975/2a9c6ca9ea6d955afa7977c777bbb72b15280903?sender=u934f98f179a86c76e6ee9592)
-- [Wireframes and page designs](https://www.figma.com/file/7W55oNwdVXvXOTI9SaFzQ7/686c-Add-or-Remove-Dependents?type=design&node-id=8-9&mode=design&t=kcdjZspxOR8ocdvT-0)
-- Staging users
+- [Figma project](https://www.figma.com/files/1499394822283304153/project/176170451)
+   - [527 Source of truth](https://www.figma.com/design/DRfHRBGngYrCGPAS39beFQ/Prod---21P-527EZ---Pension-Benefits?m=auto&t=tsMCpI3viN6acFtr-6)
+   - [527 Working file](https://www.figma.com/design/9JKK5Eo43uJWEr66JPiebc/WIP---21P-527EZ---Pension-Benefits?m=auto&t=tsMCpI3viN6acFtr-6)
+- [Research folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/pension/research)
+- [Mural room](https://app.mural.co/t/departmentofveteransaffairs9999/r/1613770853903?folderUuid=7f7423c1-9a73-4522-b388-d380cc8cdddd) 
 
 ### Engineering
 - Engineering [readme](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/engineering/README.md)
@@ -60,11 +54,6 @@ The online pension application is available in the [production environment](http
 - Code Repository
    - [Vets-API](https://github.com/department-of-veterans-affairs/vets-api)
    - [Vets-Website](https://github.com/department-of-veterans-affairs/vets-website)
- 
-### Latest Discovery Research
-- [Research Folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/dependents/research)
-- [General Dependents Research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/dependents/research/2023-09-dependents-research)
-- [Dependency Verification Research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/dependents/research/2025-02-dependents-verification-mvp-research)
 
 ### Analytics dashboard:
 - Domo (none), [general forms dashboard](https://va-gov.domo.com/page/447193050)
@@ -81,33 +70,41 @@ The online pension application is available in the [production environment](http
 - Ticketing
    - Team label: benefits-pension-burial
    - Product label: 527, pension
-   - Workstream label: discovery, product, design, or engineering + frontend or backend
+   - Workstream label: discovery, product, design, research, or engineering + frontend or backend
 
 ## Roadmap
 ### Done (recently)
 - Pension - 100% service-connected disability alert - Updated Pension service-connected disability alerts to include "100% service-connected disability rating" to avoid confusion with applicants that have non-service connected disability conditions. Released 2/1/26.
+- Supporting documents - Added new conditional pages informing applicants when medical records, VA forms, or supporting documents are required based on their answers. Released 3/3/26.
 - Minimal header update - The Minimal header is the latest standard header for usage in forms. The goal is to help the user focus on the task at hand. Released 3/12/26.
 - BPDS for Pension - VA.gov now sends tructured JSON data directly to BPDS. POI then retrieves and uses this data for processing, eliminating the need to perform OCR on submitted PDF forms. Released January 2026.
 -  0969 Post MVP improvements (closely adjacent form) - Improvements to the content and format of the Income and Asset statement focused on plain language updates and content chunking to ease form filling burden. Released 3/4/26.
 
-
 ### Now
 - BPDS for 0969 and 530 (closely adjacent forms to Pension) - For 0969 and 530 applications, VA.gov will sendstructured JSON data directly to BPDS. POI then retrieves and uses this data for processing, eliminating the need to perform OCR on submitted PDF forms.
 
-
+### Next
+We have several features that have design specs ready for implementation, but were not prioritized to be built.
+* Update marriage history to VADS pattern
+	* Design spec: [Figma](https://www.figma.com/design/9JKK5Eo43uJWEr66JPiebc/WIP---21P-527EZ---Pension-Benefits?node-id=14174-6517) (Note: May need input from C/IA)
+	* Engineering tickets:
+		* [Previous Marriages - Multiple Page List & Loop Pattern #109093](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109093)
+		* [Pension | Marriage Info - Current Marriage #103928](https://github.com/department-of-veterans-affairs/va.gov-team/issues/103928)
+		* [Current Spouse Marital History - Multiple Page List & Loop Pattern #109092](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109092)
+* Apply pre-fill pattern
+	* Design spec: [Figma]()
+	* Engineering ticket: [Pension | Apply pre-fill pattern #111588](https://github.com/department-of-veterans-affairs/va.gov-team/issues/111588)
+* Remove 65+ age question from flow
+	* Engineering ticket: [PBB | Backend: Implement removal 65+ age question from flow #134365](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134365)
 
 ## Features and initiatives we worked on
 This table includes links to the individual feature directory and the latest iteration (doc or code) in design or development.
 |Feature|Completed|
 |-------|---------|
-|Implemented backup submission pathway|Oct 5, 2023|
-|Supported [Code Yellow 1](https://github.com/department-of-veterans-affairs/va.gov-team/issues?q=is%3Aissue%20label%3Acode-yellow%20label%3Adependents-benefits) (find and rememdiate failed claims). Started March 2023 and closed Aug 2024.|Aug 24, 2024|
-|[Updated VA.gov to submit the Aug 2022 version of the 686c pdf](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1292?closed=1) (instead of the Sep 2018 pdf)|Aug 13, 2024|
-|[Updated VA.gov to submit the Oct 2021 version of the 674 pdf](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1292?closed=1) (instead of the Jun 2019 pdf)|Aug 13, 2024|
-|[Implemented “action needed” emails to alert Veterans of a claim failure](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1418?closed=1)|Nov 12, 2024|
-|[Updated annual net worth value from $155,356 to $159,240.](https://github.com/department-of-veterans-affairs/va.gov-team/issues/96647) It needs to be manually updated every year by November 30. Ticket to automate update is [here](https://github.com/department-of-veterans-affairs/va.gov-team/issues/96876).| Dec 2, 2024|
-|[Update 686/674 form to v3 components](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/form_updates/Initiative-Brief-686-674-Form-Updates.md)| Mar 2025|
-|User research on dependency verification tool prototype|Feb/Mar 2025|
+|Multiple page list-and-loop pattern ([Figma](https://www.figma.com/design/9JKK5Eo43uJWEr66JPiebc/WIP---21P-527EZ---Pension-Benefits?node-id=8085-29667))|November 2025|
+|Intent to file ([Figma](https://www.figma.com/design/9JKK5Eo43uJWEr66JPiebc/WIP---21P-527EZ---Pension-Benefits?node-id=2705-3543))|June 2025|
+|UX enhancements resulting from research ([Prioritization](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/Pension-Related%20Research%20Discovery%20Findings%20and%20Prioritization.md))|Ongoing, see below|
+
 
 ## Design opportunities
 This is a collection of notes on design work that we started and set aside for various reasons. It should help add context if picked up again.
@@ -145,20 +142,6 @@ We conducted discovery relatively recently and wanted to avoid partial design or
 #### Next step
 * Review our [design brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/embedded-0969-brief.md#design-brief--embedding-the-0969-into-the-527ez) and its recommended scope to define an MVP. This document includes both design enhancements and spikes to evaluate technical feasibility and approach.
 
-### Update marriage history list-and-loop
-
-#### Problem it solves  
-Similar to the unreimbursed medical expenses step, the step to report current and previous marriages is outdated. The VADS design system has since released a marriage history pattern.
-#### What we did
-* Reviewed the VADS marriage history pattern to ensure it was applicable and relevant to our use case
-* Developed [design specs](https://www.figma.com/design/9JKK5Eo43uJWEr66JPiebc/WIP---21P-527EZ---Pension-Benefits?node-id=14174-6517) to document new flows and pages, using the multiple page list-and-loop
-
-#### Why it was stopped
-Due to implementation 
-#### Next steps
-* Validate new content with C/IA and/or VBA (although nearly all of the content was taken from VADS, there are some questions that were not covered in the pattern)
-*  Implement flows according to design specifications
-
 ## Collab Cycle Artifacts
 - [Dependent Verification](https://github.com/department-of-veterans-affairs/va.gov-team/issues/83353) | [Initiative Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/dependency_verification/initiative-brief-dependent-verification-tool.md) | [CAIA Request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/84170)
 - [Dependent form updates](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74059) | [Initiative Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/form_updates/Initiative-Brief-686-674-Form-Updates.md) | [CAIA Request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/75068)
@@ -188,7 +171,7 @@ Due to implementation
 |Alex Mikuliak |Lead Architect|VBA Corp Data|mikuliak_alex@bah.com |Data and processing|
 
 
-#### Reoccuring Stakeholders Meetings
+#### Recurring Stakeholders Meetings
 - Bi weekly Design Sync with Christie design/research, product
 - Bi-weekly Product Sync with VBA Leads, product manager, OCTO leads and delivery lead
 - Weekly engineering sync with VA Engineering Crew Lead and team Engineering Lead
