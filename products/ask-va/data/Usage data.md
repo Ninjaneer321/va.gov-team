@@ -87,6 +87,11 @@ _Date of Data: Jul 2025 - Dec 2025_
 | Duplicate | 0.21% | 115 |
 Resolved | 99.81% | 55,874|
 
+Data Source: [Link](https://dvagov.sharepoint.com/:x:/r/sites/AskVA/Shared%20Documents/General/AVA%20CRM%20Team/Design%20%26%20Research/Data%20Queries/InquiriesSolvedReopenedByMonth_2025.xlsx?d=wd1d3266eab1b4f82b735f13790a27ba6&csf=1&web=1&e=h2dLPb)
+
+
+
+
 ## Unauthenticated Inquiries
 ### How many inquiries are submitted without the user logging in?
 _Date added: January 27, 2026_
