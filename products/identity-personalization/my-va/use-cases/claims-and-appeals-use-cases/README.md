@@ -120,7 +120,6 @@ There are no flags with this feature.
 - **Use case:** If an LOA3 user logs in when only /benefits_claims is down the user will see the claims alert and highlighted appeal (if one exists) A link to go to the claims tracker still shows in the section.
 - **Format:** [Warning slim alert](https://design.va.gov/components/alert/#web-2)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5074-19242&t=yjkBCJLUxO0o87bU-1)
-- [Link to code]
 - **Content:** We can't show some of your claims information right now. Refresh this page or try again later.
 - **Status codes:**
    - 400 GET /v0/benefits_claims
@@ -146,7 +145,6 @@ There are no flags with this feature.
 <details><summary>The claims and appeals API is down and we can’t display both claims and appeals information</summary>
   
 - **Use case:** If an LOA3 user logs in and there is an error with the both claims and appeals API, then we will not be able to show a card for any recent cliams or appeal updates. A link to go to the claims tracker still shows in the section.
-- **Status code:** TBD
 - **Format:** [Warning slim alert](https://design.va.gov/components/alert/#web-2)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=8247-14376&t=rznelY3nvWqXfG8v-1)
 - **Content:** We can't show some of your claims or appeals information right now. Refresh this page or try again later.
