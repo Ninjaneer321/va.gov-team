@@ -1,18 +1,17 @@
----
+
 # Research Plan Metadata
-title: "Research Plan for Public Websites, Centralized Forms, March 2026"
-date: 2026-03-16
-last_updated: 2026-03-16
-team: "Public Websites"
-product: "Find a VA Form (Centralized Forms initiative)"
-product_area: "unauthenticated"
+Title: "Research Plan for Public Websites, Centralized Forms, March 2026"
+Date: 2026-03-16
+Last_updated: 2026-03-16
+Team: "Public Websites"
+Product: "Find a VA Form (Centralized Forms initiative)"
+Product_area: "unauthenticated"
 
 # Background Context
-background:
-  problem_statement: "Centralizing form-related content to simplify navigation, reduce duplicative content/maintenance, improve findability of forms and form-related information, and improve user preparedness/confidence to complete and submit forms."
-  product_location: "VA.gov unauthenticated experience; centralized forms experience / Form Detail (Form About) page (including consolidation of 'About' and 'How to Apply' content)."
-  user_familiarity: "Iteration"
-  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/97c053f843f45bdb92f7576a98ef64f7d192369f/products/find-a-va-form/initiatives/centralized-forms/centralized-[...]"
+  Problem_statement: "Centralizing form-related content to simplify navigation, reduce duplicative content/maintenance, improve findability of forms and form-related information, and improve user preparedness/confidence to complete and submit forms."
+  Product_location: "VA.gov unauthenticated experience; centralized forms experience / Form Detail (Form About) page (including consolidation of 'About' and 'How to Apply' content)."
+  User_familiarity: "Iteration"
+  Product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/97c053f843f45bdb92f7576a98ef64f7d192369f/products/find-a-va-form/initiatives/centralized-forms/centralized-[...]"
 
 # Research Design
 methodology: "Moderated usability testing"
