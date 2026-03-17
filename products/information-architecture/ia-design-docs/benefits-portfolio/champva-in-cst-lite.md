@@ -95,7 +95,7 @@ The identified entry point is the existing xxxx page. That section is being upda
 | ------------- | ------------- | ------------- | ------------- |
 | Communicate if staged/incremental launch is planned | xxx | ASAP | initiates coordination of widget creation |
 | Communicate date of staging review | xxx | Once scheduled | Allows OCTO to prepare entry point preview links |
-| Communicate launch date | VEBT | Once scheduled | Allows OCTO to plan for updates to About and static pages |
+| Communicate launch date | xxxx | Once scheduled | Allows OCTO to plan for updates to About and static pages |
 
 
 <hr>
