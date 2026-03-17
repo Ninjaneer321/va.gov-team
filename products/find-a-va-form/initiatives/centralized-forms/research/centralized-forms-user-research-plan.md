@@ -1,23 +1,23 @@
 
 # Research Plan Metadata
-Title: "Research Plan for Public Websites, Centralized Forms, March 2026"
-Date: 2026-03-16
-Last_updated: 2026-03-16
-Team: "Public Websites"
-Product: "Find a VA Form (Centralized Forms initiative)"
-Product_area: "unauthenticated"
+- **Title:** "Research Plan for Public Websites, Centralized Forms, March 2026"
+- **Date:** 2026-03-16
+- **Last updated:** 2026-03-16
+- **Team:**"Public Websites"
+- **Product:** "Find a VA Form (Centralized Forms initiative)"
+- **Product_area:**"unauthenticated"
 
 # Background Context
-  Problem_statement: "Centralizing form-related content to simplify navigation, reduce duplicative content/maintenance, improve findability of forms and form-related information, and improve user preparedness/confidence to complete and submit forms."
-  Product_location: "VA.gov unauthenticated experience; centralized forms experience / Form Detail (Form About) page (including consolidation of 'About' and 'How to Apply' content)."
-  User_familiarity: "Iteration"
-  Product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/97c053f843f45bdb92f7576a98ef64f7d192369f/products/find-a-va-form/initiatives/centralized-forms/centralized-[...]"
+ -  Problem statement: "Centralizing form-related content to simplify navigation, reduce duplicative content/maintenance, improve findability of forms and form-related information, and improve user preparedness/confidence to complete and submit forms."
+ -  Product location: "VA.gov unauthenticated experience; centralized forms experience / Form Detail (Form About) page (including consolidation of 'About' and 'How to Apply' content)."
+ -  User familiarity: "Iteration"
+ -  Product brief url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/97c053f843f45bdb92f7576a98ef64f7d192369f/products/find-a-va-form/initiatives/centralized-forms/centralized-[...]"
 
 # Research Design
-methodology: "Moderated usability testing"
-research_format:
-  location: remote
-  moderated: true
+- Methodology: "Moderated usability testing"
+- Research_format:
+  - Location: remote
+  - Moderated: true
 
 # Research Goals & Questions
 research_goals:
