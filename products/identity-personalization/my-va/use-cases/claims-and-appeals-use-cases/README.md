@@ -35,7 +35,7 @@
 - **Format:** Paragraph copy. See designs.
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5165-13907&t=Qplg9wUFJEDlP70M-1)
 - **Content:** See designs.
-- **Status code:**
+- **Status codes:**
    - 200 GET /v0/benefits_claims
    - 200 GET /v0/appeals
 - **Frontend components:**
@@ -50,7 +50,7 @@
 - **Format:** [Card component](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5069-18389&t=Qplg9wUFJEDlP70M-1)
 - **Content:** Varies on claim and appeal type.
-- **Status code:**
+- **Status codes:**
    - 200 GET /v0/benefits_claims
    - 200 GET /v0/appeals
 - **Frontend components:**
@@ -65,7 +65,7 @@
 - **Format:** [Card component](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5069-18446&t=Qplg9wUFJEDlP70M-1)
 - **Content:** Varies on claim and appeal type. See code.
-- **Status code:**
+- **Status codes:**
    - 200 GET /v0/benefits_claims
    - 200 GET /v0/appeals
 - **Frontend components:**
@@ -80,11 +80,13 @@
 <details><summary>User does not have a disability rating</summary>
 
 - **Use case:** If a logged in LOA3 user does not have a disability rating they see information informing them they do not have a disability rating, and a link to learn more.
-- **Status code:** TBD
 - **Format:** Paragraph copy. See designs.
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5261-51052&t=KhCgIDPMpZ6FClDG-1)
-- [Link to code]
 - **Content:** See designs.
+- **Status codes:**
+   - 200 GET /v0/disability_compensation_form/rating_infos
+- **Frontend components:**
+   - src/applications/personalization/dashboard/components/claims-and-appeals/DisabilityRatingCard.jsx
 
 </details>
 
@@ -92,11 +94,13 @@
 <details><summary>User has a disability rating</summary>
 
 - **Use case:** If a logged in LOA3 user has a disability rating they see a card with their combined disability rating, and a link to review the rating breakdown.
-- **Status code:** 200
 - **Format:** [Card component](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5072-18503&t=Qplg9wUFJEDlP70M-1)
-- [Link to code]
 - **Content:** See designs.
+- **Status codes:**
+   - 200 GET /v0/disability_compensation_form/rating_infos
+- **Frontend components:**
+   - src/applications/personalization/dashboard/components/claims-and-appeals/DisabilityRatingCard.jsx
 
 </details>
 
