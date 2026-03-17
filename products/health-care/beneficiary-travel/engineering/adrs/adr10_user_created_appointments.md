@@ -130,7 +130,7 @@ Per our meeting on 3/17/2026 we now know that we will need to determine a given 
 }
 ```
 
-Once the above change occurs and we have a way to determine the home facility we can then condsider the following approaches for getting the list of facilities:
+Once the above change occurs and we have a way to determine the home facility we can then consider the following approaches for getting the list of facilities:
 
 
 
