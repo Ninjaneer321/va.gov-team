@@ -128,11 +128,12 @@ Before we look at the prototype:
 Imagine you…[based on how they usually access forms]…and found this page. I’d like you to take a look at it as if you we’re planning to complete this form to get disability benefits. Talk me through what you’re noticing and what you would do here. 
 
 Probes:
- • What drew your attention first?
- • Does anything feel confusing or unexpected?
+ • What drew your attention first?  
  
-2.2 Identify Whether It’s the Right Form
-Task: “How would you confirm whether this is the right form for your situation?”
+ • Does anything feel confusing or unexpected?  
+ 
+2.2 Identify Whether It’s the Right Form  
+Task: “How would you confirm whether this is the right form for your situation?”  
 Comprehension Checkpoint:
  • Highlight or point out the information that tells you whether this form applies to you. 
  • Is any information missing or unclear?
