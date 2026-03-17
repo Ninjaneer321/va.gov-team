@@ -78,7 +78,7 @@ Through the cross-functional discussions, the team identified several key decisi
   - Clerks must manually correct records in a monthly check
   - Corrections are based on BTSSS portal investigation
 - **Current Direction**
-  - Only show **child facilities and the home facility** associated with the veteran
+  - Only show **child facilities and the home facility** associated with the veterans home facility
   - Do not expose all facilities
 - **Open Question**
   - How do we programmatically get the home facility?  
