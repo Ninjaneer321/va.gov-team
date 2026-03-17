@@ -118,13 +118,14 @@ There are no flags with this feature.
 <details><summary>Claims API down</summary>
   
 - **Use case:** If an LOA3 user logs in when only /benefits_claims is down the user will see the claims alert and highlighted appeal (if one exists) A link to go to the claims tracker still shows in the section.
-- **Status code:** TBD
 - **Format:** [Warning slim alert](https://design.va.gov/components/alert/#web-2)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5074-19242&t=yjkBCJLUxO0o87bU-1)
 - [Link to code]
-- **Content:**
-
-We can't show some of your claims information right now. Refresh this page or try again later.
+- **Content:** We can't show some of your claims information right now. Refresh this page or try again later.
+- **Status codes:**
+   - 400 GET /v0/benefits_claims
+- **Frontend components:**
+   - src/applications/personalization/dashboard/components/claims-and-appeals/ClaimsAndAppeals.jsx
 
 </details>
 
@@ -132,13 +133,13 @@ We can't show some of your claims information right now. Refresh this page or tr
 <details><summary>Appeals API down</summary>
   
 - **Use case:** If an LOA3 user logs in and when only /appeals is down the user will see the appeals alert and highlighted claim (if one exists). A link to go to the claims tracker still shows in the section.
-- **Status code:** TBD
 - **Format:** [Warning slim alert](https://design.va.gov/components/alert/#web-2)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=8211-14362&t=yjkBCJLUxO0o87bU-1)
-- [Link to code]
-- **Content:**
-
-We can't show some of your appeals information right now. Refresh this page or try again later.
+- **Content:** We can't show some of your appeals information right now. Refresh this page or try again later.
+- **Status codes:**
+   - 400 GET /v0/appeals
+- **Frontend components:**
+   - src/applications/personalization/dashboard/components/claims-and-appeals/ClaimsAndAppeals.jsx
 
 </details>
 
@@ -148,23 +149,25 @@ We can't show some of your appeals information right now. Refresh this page or t
 - **Status code:** TBD
 - **Format:** [Warning slim alert](https://design.va.gov/components/alert/#web-2)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=8247-14376&t=rznelY3nvWqXfG8v-1)
-- [Link to code]
-- **Content:**
-
-We can't show some of your claims or appeals information right now. Refresh this page or try again later.
+- **Content:** We can't show some of your claims or appeals information right now. Refresh this page or try again later.
+- **Status codes:**
+   - 400 GET /v0/benefits_claims
+   - 400 GET /v0/appeals
+- **Frontend components:**
+   - src/applications/personalization/dashboard/components/claims-and-appeals/ClaimsAndAppeals.jsx
 
 </details>
 
 <details><summary>The API that shows the disability rating is down</summary>
   
 - **Use case:** If an LOA3 user logs in and there is an error with the API that displays the disability rating, then we show an alert informing the user the information is currently unavailable. A link to the disability page is still available in the section.
-- **Status code:** TBD
 - **Format:** [Warning slim alert](https://design.va.gov/components/alert/#warning-alert)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5072-18605&t=Qplg9wUFJEDlP70M-1)
-- [Link to code]
-- **Content:**
-
-We can't show your disability rating right now. Refresh this page or try again later.
+- **Content:** We can't show your disability rating right now. Refresh this page or try again later.
+- **Status codes:**
+   - 400 GET /v0/disability_compensation_form/rating_infos
+- **Frontend components:**
+   - src/applications/personalization/dashboard/components/claims-and-appeals/DisabilityRatingCard.jsx
 
 </details>
 
