@@ -142,7 +142,7 @@ Once the above change occurs and we have a way to determine the home facility we
      - Provide equivalent data to the BTSSS `GET Facilities` endpoint
      - Potentially expose a new API endpoint
    - Pull all facilities (parent + children) from CXI.
-   - Use the **veteran’s `homeFacility` as the starting point** to filter:
+   - Use the **veteran’s `homeFacility` as the starting point** as well as the ability to pass in a **facility name** to filter:
      - Only show child facilities for the home facility in the FE.
    - Pros:
      - Most accurate and complete dataset
@@ -156,15 +156,22 @@ Once the above change occurs and we have a way to determine the home facility we
 
 2. **Create a New API Endpoint in BTSSS API (Derived from new `GET Contact` endpoint that returns the home facility)**
    - Use home facility data that is returned from the new `GET Contact` endpoint
-   - The API Team `builds a new API endpoint` that:
-     - Accepts **homeFacility station number or name**
+   - The API Team `builds a new API GET facilities endpoint` that:
+     - Filters on **homeFacility station number**
+     - Filters on **facility name** for the station that they are looking for
      - Returns related facilities (including children cc and non-cc) for the given home facility
+     - Support paging up to 5000 records max, instead of 50 record max
    - Pros:
      - Tailored to veteran’s home facility
      - Avoids incomplete datasets
+     - Could repurpose the current endpoint for `GET facilities` and just add new filter fields
    - Cons:
      - Requires API team effort
      - Still requires filtering by home facility
+   - **Outstanding Questions**:
+     - What is the smallest character facility name?
+     - How many characters should be required for a filtering on facility name?
+     - Regarding this option how often can we hit this endpoint? Should there be a limit on the data returned?
 
 3. **Combine Lighthouse + PPMS (Home Facility Filtering Approach) – No Longer Viable**
    - Use both APIs together: Lighthouse + PPMS
@@ -181,33 +188,21 @@ Once the above change occurs and we have a way to determine the home facility we
      - Data inconsistencies make this approach unreliable
      - Increased FE/BE complexity without benefit
 
-4. **Enhance Existing Facilities Endpoint in BTSSS API (Filtering Support)**
-   - The API Team updates the current `GET facilities` endpoint to support:
-     - Accept **homeFacility station number/name** as input
-     - Filter results to child facilities for that home facility
-     - Support paging up to 5000 records max, instead of 50 record max
-   - Pros:
-     - Minimal disruption to existing architecture
-     - Aligns FE filtering to home facility
-     - Simplifies user experience
-   - Cons:
-     - Depends on completeness of underlying dataset
-     - Requires API team effort
-
-5. **Full Dataset Caching Strategy (Least Preferred)**
+4. **Full Dataset Caching Strategy (Least Preferred)**
    - The API Team increases the `GET facilities` endpoint API response limit (e.g., 5000 records/page)
    - Run a scheduled job to:
      - Fetch all facilities daily
      - Cache locally keyed by name/station number
-   - FE filters cached facilities by **veteran’s home facility** to return child facilities only
+   - FE filters cached facilities by
+     - **veteran’s home facility** and **facility name** to return child facilities only
    - Pros:
      - Fast FE lookup after caching
      - Allows pre-filtering by home facility
    - Cons:
      - High performance risk
-     - Data staleness concerns
+     - Data staleness concerns (if a clerk adds a new facility it will take 24 hours for the veteran to see that change)
      - Increased maintenance burden
-     -  Must enforce child-only filtering in cache
+     - Must enforce child-only filtering in cache
 
 ---
 
