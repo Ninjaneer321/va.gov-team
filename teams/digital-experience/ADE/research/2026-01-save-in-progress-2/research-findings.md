@@ -3,7 +3,7 @@ title: "2026-01 Save in Progress (2nd round of usability testing) Research Findi
 product: "Save in Progress for online VA.gov forms"
 team: "ADE (Accessibility Digital Experience)"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2026-03-16"
+date: "2026-03-17"
 researchers:
   - "Cindy Merrill"
 research_goals:
@@ -170,7 +170,7 @@ tags:
 
 **Office of the CTO - Digital Experience (OCTO-DE), Accessibility Digital Experience (ADE)**
 
-**Date:** 03/16/2026
+**Date:** 03/17/2026
 
 **Contacts:** Cindy Merrill
 
@@ -264,9 +264,6 @@ For demographic details, see [Research participants](#user-content-research-part
     - **Likely True** because all 6 participants who interacted with the accordions on the Review/Submit page were able to easily open and close them, which included one person using a screen magnifier.
 
 ## Key Findings
-
-> **After completing your detailed findings below, you'll add metadata labels using the [Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md).**  
-
 1. The interstitial page was NOT effective in communicating about save in progress because most users were so focused on form fields that anything else was ignored.
 1. Most participants assumed that saving happened only after selecting "Finish later" or submitting the form.
 1. All participants used the "Finish later" button to stop filling out the form, and then successfully resumed the form.
@@ -276,11 +273,6 @@ For demographic details, see [Research participants](#user-content-research-part
 
 
 ## Details of Findings 
-
-> [!TIP]
-> **After drafting your detailed findings, apply OCTO metadata labels to enable automated pattern detection and cross-study aggregation.**
-> Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
-
 
 ### Finding 1: The interstitial page was NOT effective in communicating about save in progress because most users were so focused on form fields that anything else was ignored.
 Half of the participants ignored the interstitial page when it came up because it was an **unwelcome interruption to their task of filling out a VA form and didn't seem relevant**.  
