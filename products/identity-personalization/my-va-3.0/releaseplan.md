@@ -18,7 +18,7 @@ Primary communications are taking place in the [Authenticated Experience DSVA Sl
 
 
 ## Development & Test Plan
-There are no known API changes occurring within this project. The development includes IA, content, and accessibility enhancements to the current My VA experience. The Authenticated Experience team is putting this development behind a feature flag, ** flag. These changes will impact all users with an existing va.gov account, and new users that create a va.gov account after this release takes place.
+There are no known API changes occurring within this project. The development includes IA, content, and accessibility enhancements to the current My VA experience. The Authenticated Experience team is putting this development behind a feature flag, **my_va_auth_exp_redesign_enabled**. These changes will impact all users with an existing va.gov account, and new users that create a va.gov account after this release takes place.
 
 ### Testing
 For this release we will not perform UAT testing with Veterans.
