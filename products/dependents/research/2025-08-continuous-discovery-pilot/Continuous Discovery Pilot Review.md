@@ -1,9 +1,5 @@
 # Continuous Discovery Pilot Review
 
-*   [Go to Summary](#summary)
-*   [Go to Logistics](#section-two)
-*   [Go to Findings](#section-two)
-
 # Summary
 
 **Topics covered**: 5
