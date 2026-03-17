@@ -19,7 +19,7 @@ The **'Start a new message'** flow was redesigned to streamline care-team select
 
 `Where is your product situated on VA.gov? (ex: auth vs. unauth)`
 
-**VA.gov authenticated experience**
+VA.gov authenticated experience
 
 `Product Brief`
 
@@ -53,81 +53,78 @@ The **'Start a new message'** flow was redesigned to streamline care-team select
 
 ### Goals
 
-`1.` **[Enter answer here]**  
-`2.` **[Enter answer here]**  
-`3.` **[Enter answer here]**
+`1.` Evaluate how many pages users should go through to write a message and how this impacts the overall experience.  
+`2.` Identify where assistive technology users encounter challenges in both current and proposed designs.  
+`3.` Assess how care systems and care teams are structured and explained to users.  
+`4.` Understand whether interstitial content is useful, clear, and supports task completion.  
+`5.` Identify new and existing pain points in the message creation flow.  
 
 ### Outcome
 
----
-
-The desired outcome of this research is to inform the structure and usability of the 'Start a new message' flow on web. This work will inform:
-
-1) how many pages a user should go through to write a message  
-2) where assistive technology users encounter problems in current and proposed designs  
-3) how care systems and care teams are structured and explained  
-4) whether interstitial content is useful and understood  
-5) identification of new and existing pain points in the message creation flow  
+The insights that come out of this research will inform the structure and usability of the 'Start a new message' flow and help prioritize improvements for future iterations.
 
 ---
 
-### Research questions
+## Research Questions
 
-_**Section 1: Current experience**_
+### Section 1: Current experience
 
-**Care Team Selection & Discovery**  
-`1.` **How do users currently decide which care team to select when composing a message?**
+#### Care team selection & discovery  
+**`1.` How do users determine which care team to select when composing a message?**  
+- a. Does anything about the experience make users with multiple care systems struggle to identify the correct provider?  
+- b. How do users mentally organize or categorize care teams (by specialty, location, frequency of contact, provider name)? And how do they weigh each trait?  
+- c. Do users notice the recent care teams or look for other teams?  
+- d. What navigational features help users correctly identify the appropriate care team quickly and easily?  
 
-a. Does anything about the experience make users with multiple care systems struggle to identify the correct provider?  
-b. How do users mentally organize or categorize care teams (by specialty, location, frequency of contact, provider name)?  
-c. Do users notice the recent care teams or look for other teams?  
-d. What navigational features help users identify the appropriate care team quickly?
+#### Task flow & friction points  
+**`2.` How do users experience the multi-step flow when composing a message?**  
+- a. What do users do when the care team they want isn't visible on the first page?  
+- b. Are there care teams users frequently seek but cannot find through the current interface?  
 
-**Task Flow & Friction Points**  
-`2.` **What do users say about the multi-step flow?**
+#### Interstitial content engagement  
+**`3.` To what extent do users notice, understand, and engage with interstitial content?**  
+- a. Of users who see the interstitial, what information do they notice, register, and retain—and for how long?  
 
-a. What do users do when the care team they want is not visible?  
-b. Are there care teams users frequently seek but cannot find?
+#### Accessibility  
+**`4.` How does the one-feature-per-page structure impact task completion for assistive technology users when composing a message?**
 
-**Interstitial Content Engagement**  
-`3.` **Do users notice and read the interstitial page content?**
+#### Contact list  
+**`5.` How do users use or expect to use the contact list when selecting a care team?**  
+- a. Do users update their contact list when they do not see a relevant care team?  
+- b. When users cannot find a care team, what actions do they take?  
 
-a. What information do they notice, retain, and for how long?
-
-**Accessibility**  
-`4.` **For assistive technology users, how does having one feature per page impact message completion?**
-
-**Contact List**  
-`5.` **Do users update their contact list if they do not see a relevant care team?**
-
-**Category**  
-`6.` **What about these categories do users find confusing? What do they default to when unsure?**
+#### Category selection  
+**`6.` How do users interpret and use message categories when composing a message?**  
+- a. What aspects of the categories do users find confusing?  
+- b. What choices do users default to when they are unsure?
 
 ---
 
-_**Section 2: Future Experience & Flow Concepts**_
+### Section 2: Future experience & flow concepts
 
-**Concept A (2-page):** Combined addressing page → message composition  
-- How easy or difficult was it to complete the task? Why?  
-- What confused the user?  
-- What would the user expect next?  
-- What would they change?  
+#### Concept testing for alternative flows
 
-**Concept B (1-page):** Address + write message in one place  
-- How easy or difficult was it to complete the task? Why?  
-- What confused the user?  
-- What would the user expect next?  
-- What would they change?  
+#### Concept A (2-page): Combined addressing page (care system + team selection) → message composition  
+**`7.` How does this flow support or hinder users’ ability to complete the task?**  
+- a. Where do users experience confusion or hesitation?  
+- b. How does the flow align with user expectations as they move between steps?  
+- c. What changes would improve clarity, efficiency, or overall usability?  
 
-**Concept C:** *Optional additional concept*
+#### Concept B (1-page): User addresses and writes the message all in one place  
+**`8.` How does this flow support or hinder users’ ability to complete the task?**  
+- a. Where do users experience confusion or hesitation?  
+- b. How does the single-page structure align with user expectations?  
+- c. What changes would improve clarity, efficiency, or overall usability?  
 
+#### Concept C: Optional additional concept (if needed)
 ---
 
 ### Hypotheses
+1. Users will be able to complete message composition more efficiently in a single-page flow compared to a multi-step flow, including assistive technology users when dynamic updates are minimal.  
 
-1. Users can more easily send a message when all fields are on a single page, including assistive technology users if dynamic updates are minimal  
-2. Users are not paying attention to the interstitial content  
-3. Users struggle with the care system → care team hierarchy and do not understand the distinction  
+2. Users will not notice or engage with interstitial content, and it will have little impact on task completion.  
+
+3. Users will have difficulty understanding the distinction between care systems and care teams, which will impact their ability to select the correct care team.  
 
 ---
 
@@ -209,21 +206,16 @@ We will partner with Perigean to recruit a diverse sample of Veterans for modera
 
 ## Team Roles 🕵️
 
-- Moderator: **[Enter]**  
+- Moderator: **Espy Thompson, Athena Bozak**  
 - Research guide: **[Enter]**  
 - Recruiting: **Perigean**  
-- Point of contact: **[Enter]**  
-- Accessibility specialist: **[Enter]**  
-- Note-takers: **[Enter]**
-
-Observers:
-- **[Name]**  
-- **[Name]**  
-- **[Name]**
+- Point of contact: **Espy Thomson**  
+- Accessibility specialist: **Sarah Horton?**  
+- Note-takers: **Athena Bozak**
 
 ---
 
 ## Approvals ✅
 
-- Reviewed by [Name] on [MM-DD-YYYY]  
-- Reviewed by Research Ops on [MM-DD-YYYY]
+- Reviewed by: Cara Frissell, Horizon Team  
+- Reviewed by Research Ops: Robyn Singleteon, Research lead 
