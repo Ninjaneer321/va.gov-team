@@ -177,9 +177,9 @@ Please open the chat and then click the link.
 
 ## Task 1: General review of homescreen - 10 minutes, 15 minutes elapsed
 
-Please go ahead and log in using ID.me. The system will automatically generate a test user login for you. 
-
 As we go through the steps in this study, please talk aloud about what you're thinking BEFORE clicking on anything. And please share any thoughts, reactions, or questions you have about the current screen. Remember that we're testing how well the app is working and not you. If you're confused, I expect other people would be confused too, so we definitely want to hear when something seems confusing or not right to you. 
+
+Please go ahead and log in using ID.me. The system will automatically generate a test user login for you. 
 
 Take a look at this page without clicking anything [homescreen]. [Give participant a minute to look.]
 
@@ -192,12 +192,14 @@ Take a look at this page without clicking anything [homescreen]. [Give participa
 6. What kind of things would you expect to see here?
 7. Why would those go here?
 8. Take a closer look at the items here. Is there anything confusing or surprising?
-9. What do you think the next section is for? [Activity section]
-10. What kind of things would you expect to see here?
-11. Why do you think those would go here?
-12. Take a closer look at the items. Anything confusing or surprising?
-13. Is there anything confusing overall about this app homepage?
-14. Is there anything missing?
+9. Does the section name Action required make sense to you?
+10. What do you think the next section is for? [Activity section]
+11. What kind of things would you expect to see here?
+12. Why do you think those would go here?
+13. Take a closer look at the items. Anything confusing or surprising?
+14. Does the section name Activity make sense for these items?
+15. Is there anything confusing overall about this app homepage?
+16. Is there anything missing?
 
 > [!NOTE]
 > ### Things to watch for:
@@ -206,7 +208,7 @@ Take a look at this page without clicking anything [homescreen]. [Give participa
 
 ## Task 2: Find disability rating/payments - 4 minutes, 25 minutes elapsed
 
-Now let's talk about trying to find a few things in the app. 
+Now let's talk about trying to find a few things. 
 Say you had submitted a claim to hopefully update your disability rating and got a notice that your rating has been changed. You then got a disabiilty payment reflecting the updated rating.
 ### Questions for testing participant: 
 1. Where would you look for your current disability rating?
@@ -242,7 +244,7 @@ Next, let's think about if you were in a store and saw a sign that they offered 
 Next, imagine you've recently adopted a child and submitted the paperwork to get them added as a dependent. You want to double check that they're now reflected as dependents. 
 
 ### Questions for testing participant: 
-1. Where would you look for that in the app?
+1. Where would you look for that?
 2. Why?
 3. Would you look anywhere else?
 
@@ -263,11 +265,14 @@ Next, let's take another look at the Action required section.
 8. Say you wanted to deal with the copayment due item. Without clicking yet, what would you do?
 9. What do you expect to happen when you do that?
 10. [If needed] What do you expect to happen when you tap the pay copay button?
-   *Direct to tap pay copay button if needed. Direct participant to complete pay copay flow and return to Homescreen.*
-11. What did you think about that process?
-12. If you wanted to see confirmation of the copay payment you just did or your full history of copayments, where would you go?
-13. What worked well?
-14. What could be improved?
+11. Probe: What would you expect to happen if you click the arrow on the right?
+   *Direct to tap pay copay button if needed and move through copay flow.*
+12. Without clicking yet, would you expect to see copay due in the Action required section still when we get back to the homepage screen?
+    *Direct participant to return to Homescreen.*
+13. What did you think about that process?
+14. If you wanted to see confirmation of the copay payment you just did or your full history of copayments, where would you go?
+15. What worked well?
+16. What could be improved?
    
 > [!NOTE]
 > ### Things to watch for:
