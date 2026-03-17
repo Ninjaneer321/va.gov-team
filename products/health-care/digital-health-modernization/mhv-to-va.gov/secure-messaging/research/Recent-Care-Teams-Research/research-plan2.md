@@ -165,29 +165,19 @@ We will partner with Perigean to recruit a diverse sample of Veterans for modera
 
 ### Primary criteria (must-haves)
 
-• All participants have VA health care as a benefit
-• 8 (minimum) use the VA for their messaging their care team/provider   
-• 6 are over 55 years old 
-• 3 live in a rural area
-• (TBD) Assistive technology users  
-• (TBD) Oracle Health pre-transition users 
-• 6 have a traumatic brain injury or cognitive disability  
-• 3 Women
-• 3 Black or African American  
-• 3 Hispanic, Latino, or Spanish origin  
-• 2 Asian  
-• 1 Gay, lesbian, or bisexual  
-• 4 have high school diploma as terminal degree  
-
----
-
-### Participants
-
-- `Veterans:` **[12]**  
-- `Caregivers:` **[0]**  
-- `Dependents:` **[0]**  
-- `Total:` **[12]**  
-- `Ideal completed sessions:` **[8]**
+- All participants have VA health care as a benefit  
+- At least 8 participants use VA secure messaging with their care team/provider  
+- At least 6 participants are over 55 years old  
+- At least 3 participants live in a rural area  
+- (TBD) Assistive technology users  
+- (TBD) Oracle Health pre-transition users  
+- At least 6 participants have a traumatic brain injury or cognitive disability  
+- At least 3 participants are women  
+- At least 3 participants are Black or African American  
+- At least 3 participants are Hispanic, Latino, or of Spanish origin  
+- At least 2 participants are Asian  
+- At least 1 participant identifies as gay, lesbian, or bisexual  
+- At least 4 participants have a high school diploma as their terminal degree  
 
 ---
 
