@@ -49,11 +49,11 @@
 - Success criteria include ≥80% confirming applicability within 2 interactions, ≥75% initiating preferred submission option within 2 interactions, and ≥70% reporting confidence ≥4/5 to start the form.
 
 # Recruitment & Participants
-- Recruitment:
+- **Recruitment:**
   - Recruiting partner: "Perigean"
   - Approach: "Not specified"
 
-- Primary criteria:
+- **Primary criteria:**
     - "Veterans and family members/caregivers (mix of 8 Veterans and 4 family/caregivers planned for completes)."
     - "Target completes: 12; Total recruited: 18 (including ≥6 AT recruited to ensure ≥4 AT completes)."
     - "Assistive technology mix (at least 4 completes using AT; includes 2 screenreader users and 2 screen magnifier users; recruitment note also says ≥6 AT recruited)."
@@ -64,7 +64,7 @@
     - "2 screenreader users."
     - "Recruit a mix of gender, ages, cognitive abilities, etc."
 
-- Secondary criteria:
+- **Secondary criteria:**
     - "No prior 526 or education form experience; submission mode preferences."
     - "3 Veteran participants who have never completed the 526 Disability Form (or in the last five years)."
     - "3 participants who have never completed the Education Benefits form (or in the last five years)."
@@ -73,94 +73,96 @@
     - "3 participants who have done both in the past."
     - "3 participants who have previously had VA staff help them complete a form."
 
-- Screener questions:
-    - Question: "Which of the following VA forms have you submitted in the last 5 years? (Select all that apply)"
+- **Screener questions:**
+    - **Question:** "Which of the following VA forms have you submitted in the last 5 years? (Select all that apply)"
       qualifying_response: "After meeting recruitment quota"
-    - Question: "How do you typically submit forms to the VA? Select all that apply"
+    - **Question:** "How do you typically submit forms to the VA? Select all that apply"
       qualifying_response: "After meeting recruitment quota"
 
-- Participants:
- -  Veterans: 12
- -  Caregivers: 3
- -  Dependents: 3
- -  Total recruited: 18
-  - Completed sessions goal: 12
+- **Participants:**
+  - Veterans: 12
+  - Caregivers: 3
+  - Dependents: 3
+  - **Total recruited:** 18
+  - **Completed sessions goal:** 12
 
 # Timeline & Sessions
-- Timeline:
-  - Pilot date: 2026-03-30
-  - Pilot participant: TBD
- -  Research dates: 2026-04-06 to 2026-04-15
- -  Research review_submission: 2026-03-23
+- **Timeline:**
+  -** Pilot date:** 2026-03-30
+  - **Pilot participants:** TBD
+ -  **Research dates:** 2026-04-06 to 2026-04-15
+ -  **Research review submission:** 2026-03-23
 
-session_details:
-  duration_minutes_at_users: 90
-  duration_minutes_non_at_users: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 3
+- **Session details:**
+  - Duration minutes at users: 90
+  - Duration minutes non at users: 60
+  - Buffer minutes: 30
+  - Max sessions per day: 3
 
 # Strategic Alignment
-octo_priorities:
-  - objective: "Objective 3: Relentlessly improve the user experience."
-    key_results:
-      - "Key Result 3.1: Each OIT portfolio will improve customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more."
-      - "Key Result 3.2: 100% of end-user facing C100 systems maintain a ranked list of user pain points."
-      - "Key Result 3.3: 100% of C-100 systems have delivered at least one release that directly addresses a documented user pain point with that system."
+- **Octo priorities:**
+  -  **Objective 3:** Relentlessly improve the user experience.
+    - **Key results:**
+      - **Key Result 3.1:** Each OIT portfolio will improve customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more.
+      - **Key Result 3.2:** 100% of end-user facing C100 systems maintain a ranked list of user pain points.
+      - **Key Result 3.3:** 100% of C-100 systems have delivered at least one release that directly addresses a documented user pain point with that system.
 
-veteran_journey_phases:
-  - "Starting Up"
-  - "Taking Care of Myself"
-  - "Reinventing Myself"
-  - "Retiring"
-  - "Aging"
+- **Veteran journey phases:**
+  - Starting Up
+  - Taking Care of Myself
+  - Reinventing Myself
+  - Retiring
+  - Aging
 
 # Research Repository Tracking
-related_research:
-  previous_studies:
-    - "[Research Spike reviewed 12 prior studies, 12/2025]((https://dvagov.sharepoint.com/:w:/r/sites/SitewidePublicWebsites/Shared%20Documents/UX%20Research/Centralized%20Forms/Centralized%20Forms%20Resea[...])"
-    - "[Cognitive Walkthrough, 2/2026](([https://dvagov.sharepoint.com/:w:/r/sites/SitewidePublicWebsites/Shared%20Documents/UX%20Research/Centralized%20Forms/Centralized%20Forms%20Research%20Spike%20Summa[...]"
+- **Related research:**
+  - **Previous studies:**
+    - [Research Spike reviewed 12 prior studies, 12/2025](https://dvagov.sharepoint.com/:w:/r/sites/SitewidePublicWebsites/Shared%20Documents/UX%20Research/Centralized%20Forms/Centralized%20Forms%20Resea[...])
+    - [Cognitive Walkthrough, 2/2026]([https://dvagov.sharepoint.com/:w:/r/sites/SitewidePublicWebsites/Shared%20Documents/UX%20Research/Centralized%20Forms/Centralized%20Forms%20Research%20Spike%20Summa[...]
 
-tags:
-  - "AUD: Veterans"
-  - "AUD: Caregivers"
-  - "AUD: Family Member"
-  - "BNFT: Disability"
-  - "BNFT: Education"
-  - "BNFT: Healthcare"
-  - "PRDT: Find-a-va-form"
-  - "PRDT: Benefit Hubs"
-  - "PRDT: Content"
-  - "DSC: Accordions"
-  - "DSC: Links"
-  - "DSC: Button"
-  - "DSC: Search Input"
-  - "DSP: Content Presentation"
-  - "Accessibility"
-  - "usability-testing"
-  - "moderated"
-  - "remote"
----
+- **Tags:**
+  - AUD: Veterans
+  - AUD: Caregivers
+  - AUD: Family Member
+  - BNFT: Disability
+  - BNFT: Education
+  - BNFT: Healthcare
+  - PRDT: Find-a-va-form
+  - PRDT: Benefit Hubs
+  - PRDT: Content
+  - DSC: Accordions
+  - DSC: Links
+  - DSC: Button
+  - DSC: Search Input
+  - DSP: Content Presentation
+  - Accessibility
+  - Usability-testing
+  - Moderated
+  - Remote
 
-	# Research Plan for Public Websites, Centralized Forms, March 2026
+
+# Research Plan for Public Websites, Centralized Forms, March 2026
 
 ## Background 🏗️
-<details><summary>Forms are a necessary part of managing healthcare and benefits for veterans and their families. UX Research to date suggests that users who know which form they need can usually find it, but often struggle to identify the right actions, navigate between different parts of the site, and interpret form-related information. Content redundancy and inconsistent navigation (e.g., between Benefit Hubs and the Forms area) cause cognitive load and increase time on task. A significant pain point is also the handoff when users must download, complete, and upload forms.
+Forms are a necessary part of managing healthcare and benefits for veterans and their families. UX Research to date suggests that users who know which form they need can usually find it, but often struggle to identify the right actions, navigate between different parts of the site, and interpret form-related information. Content redundancy and inconsistent navigation (e.g., between Benefit Hubs and the Forms area) cause cognitive load and increase time on task. A significant pain point is also the handoff when users must download, complete, and upload forms.
 
 The Centralized Forms initiative aims to address these issues by:
 - Centralizing all digitized forms and form-related tasks (URL updates)
 - Streamlining site navigation and reducing duplication (e.g., merging "How to Apply" content into the Form Detail page)
-This deduplication of information and simplified navigation should have the following outcomes:
 
-For Veterans and 3rd Parties
-Increased findability of specific forms
-Improved search results (SEO optimization)
-Increased discoverability of form-related information and how to submit the form
-Increased understanding of form-related content and preparation information
-For VA Staff
-Decreased content maintenance time of duplicative form related information
-Decreased maintenance of referring links
-Decreased IA design time
+This deduplication of information and simplified navigation should have the following outcomes:
+- **For Veterans and 3rd Parties:**
+  - Increased findability of specific forms
+  - Improved search results (SEO optimization)
+  - Increased discoverability of form-related information and how to submit the form
+  - Increased understanding of form-related content and preparation information
+- **For VA Staff**
+  - Decreased content maintenance time of duplicative form related information
+  - Decreased maintenance of referring links
+  - Decreased IA design time
+    
 This research plan focuses on evaluating the new centralized experience rather than comparing several divergent prototypes, but it is still essential to probe user mental models, navigation expectations, and informational needs.
+
 </summary>
 	
 `What problem is your product trying to solve?`
