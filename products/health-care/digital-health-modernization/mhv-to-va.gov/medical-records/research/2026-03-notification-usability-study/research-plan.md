@@ -24,8 +24,7 @@ research_format:
 research_goals:
   - goal_1: "Understand how veterans conceptualize 'new' or 'recent' in medical records (time-based window)"
   - goal_2: "Evaluate whether landing page indicators + list page badges help veterans find recent results"
-  - goal_3: "Identify what information veterans need on landing page cards and list page indicators"
-
+ 
 research_questions:
   - "How do veterans define 'new' or 'recent' when thinking about medical records? (7 days? 14 days? 30 days?)"
   - "Do landing page cards showing counts of new results provide helpful orientation before entering lists?"
@@ -149,6 +148,7 @@ Iteration on existing Medical Records product. Veterans are familiar with access
 ### OCTO-DE Priorities
 
 **Objective 3: Relentlessly improve the user experience**
+- **Key Result 3.1:** Supports this product’s OIT portfolio (Health, Benefits, etc) in improving customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more.
 
 - **Key Result 3.2:** 100% of end-user facing C100 systems maintain a ranked list of user pain points.
   - *Research Ops Plain Language: Supports maintaining the ranked list of user pain points for Veteran-facing Products and Services.*
@@ -171,7 +171,7 @@ Iteration on existing Medical Records product. Veterans are familiar with access
 
 ### Goals
 
-**1. Understand how veterans conceptualize "new" or "recent" in medical records**
+**1.Understand how veterans conceptualize "new" or "recent" in medical records**
 
 Learn what time window feels right (7 days? 14 days? 30 days?) and whether time-based indicators match their mental model.
 
@@ -202,19 +202,24 @@ Findings will directly inform the production release addressing Use Case #1: Fol
 
 **1. How do veterans define "new" or "recent" when thinking about medical records?**
 - Is 7 days too short? 14 days? 30 days?
+- When a badge persists after viewing, is that helpful (reminder) or confusing (feels stale)?
 - What happens when the indicator goes away—is that okay or confusing?
 
 **2. Do landing page cards showing counts of new results provide helpful orientation?**
 - Do they help veterans know where to look first?
 - Or do they feel like unnecessary extra clicks?
+- When veterans see "You have 2 new lab results," does that help them know where to go?
+- Does the card help connect to indicators on the list?
 
 **3. What information do veterans need on landing page cards?**
 - Is just the count enough ("2 new results")?
-- Do they need dates? Record names? Categories?
+- Do they need dates ("Added in last 7 days")?
+- Do they need specificity ("Chemistry Panel, Complete Blood Count")?
+- Do they need categories? 
 
 **4. Are badges on list pages sufficient to identify new items?**
 - What makes a badge noticeable vs. easy to miss?
-- What additional context helps (dates, "NEW" label, icon)?
+- What additional context helps (dates, "RECENT" label, icon)?
 
 **5. Does the breadcrumb approach work for finding recent results?**
 - Landing page card → list page → detail page
@@ -239,7 +244,7 @@ Findings will directly inform the production release addressing Use Case #1: Fol
 **Moderated usability testing with concept exploration**
 
 This method is appropriate because:
-- We have a testable prototype (low-fidelity) showing the proposed approach
+- We have a testable prototype (high-fidelity) showing the proposed approach
 - We need to evaluate whether the design supports findability (evaluative)
 - We want to understand mental models around "recency" (exploratory)
 - The product is in the design phase, ready for concept validation before build
@@ -260,9 +265,10 @@ This method is appropriate because:
 
 **Prototype will show:**
 - Medical Records landing page with "Recent Results" cards (Labs, Care Notes)
-- Cards show counts and time frame ("2 new results - last 7 days")
-- Click-through to list pages with "NEW" badges next to recent items
+- Cards show counts and time frame ("2 recent results - last 7 days")
+- Click-through to list pages with "RECENT" badges next to recent items
 - Ability to test variations in time window (7 vs. 14 days)
+- Ability to test "Recent Results" layout variations
 
 ---
 
@@ -370,7 +376,7 @@ Lab results include bloodwork, urinalysis, or other lab tests. Visit summaries a
 
 ### Prepare
 
-**Prototype finalized:** March 7, 2026(loose goal)
+**Prototype finalized:** March 20, 2026(loose goal)
 
 **Pilot session:**
 - `Pilot participant name:` [TBD - send in Slack channel]
@@ -380,7 +386,7 @@ Lab results include bloodwork, urinalysis, or other lab tests. Visit summaries a
 
 ### Research sessions
 
-- `Planned dates of research:` March 31 - April 4, 2026
+- `Planned dates of research:` March 31 - April 9, 2026
 
 ---
 
@@ -396,13 +402,16 @@ Lab results include bloodwork, urinalysis, or other lab tests. Visit summaries a
 
 **Please list exact dates and times in EASTERN Standard Time:**
 
-- `3/31, Monday, 9:00 AM-12:00 PM, 1:00 PM-3:00 PM EST`
-- `4/1, Tuesday, 9:00 AM-12:00 PM, 1:00 PM-3:00 PM EST`
-- `4/2, Wednesday, 9:00 AM-12:00 PM, 1:00 PM-3:00 PM EST`
-- `4/3, Thursday, 9:00 AM-12:00 PM, 1:00 PM-3:00 PM EST`
-- `4/4, Friday, 9:00 AM-12:00 PM, 1:00 PM-3:00 PM EST`
+- 3/27, Friday, Pilot Sessions (Team Only)
+- 3/31, Tuesday, 9:00 AM-12:00 PM, 1:00 PM-2:00 PM EST
+- 4/1, Wednesday, 9:00 AM-12:00 PM, 1:00 PM-4:00 PM EST
+- 4/2, Thursday, 9:00 AM-12:00 PM, 1:00 PM-2:00 PM EST
+- 4/3, Friday, 9:00 AM-12:00 PM, 1:00 PM-4:00 PM EST
+- 4/6, Monday, 9:00 AM-12:00 PM, 1:00 PM-2:00 PM EST
+- 4/7, Tuesday, 9:00 AM-12:00 PM, 1:00 PM-2:00 PM EST
+- 4/8, Wednesday, 9:00 AM-12:00 PM, 1:00 PM-4:00 PM EST
+- 4/9, Thursday, 9:00 AM-12:00 PM, 1:00 PM-2:00 PM EST
 
-*Note:TBD*
 
 ---
 
