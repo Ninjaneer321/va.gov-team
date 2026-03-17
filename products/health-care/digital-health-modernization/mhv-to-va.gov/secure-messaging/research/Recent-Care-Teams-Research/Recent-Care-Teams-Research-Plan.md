@@ -34,7 +34,7 @@ Objective 3: Relentlessly improve the user experience.
 
 ### Outcomes
 
-The desired outcome of this research is to inform the functioning of the start a new message flow on web.  This work will inform 1) how many pages a user should go through to write a message 2) the most accessible design for AT users 3) the layout of care systems and the way they are explained when users select care teams 4) the next steps based on whether users notice, read, and understand the interstitial content 5) the identification of new and existing pain points in the message creation flow.  
+The desired outcome of this research is to inform the functioning of the start a new message flow on web.  This work will inform 1) how many pages a user should go through to write a message 2) identifying what and where AT users encounter problems in the current and potential designs 3) the layout of care systems and the way they are explained when users select care teams 4) the design of the interstitial content based on whether users comprehension of it 5) the identification of new and existing pain points in the message creation flow.  
 
 ### Research Questions
 
@@ -43,25 +43,25 @@ _**Section 1: Current experience**_
 **Care Team Selection & Discovery**
 1. How do users currently decide which care team to select when composing a message?
    
-    a. Do users with multiple care systems express uncertainty about the purpose of the care systems option or which one to select?
+    a. Does anything about the experience make users with multiple care systems struggle to identify the correct provider?
 
-    b. How do users mentally organize or categorize care teams (by specialty, location, frequency of contact, provider name)?
+    b. How do users mentally organize or categorize care teams (by specialty, location, frequency of contact, provider name)? And how do they weigh each trait?
        
     c. Do users notice the recent care teams or look for other teams?
 
-    d. What would help users find the "right" care team faster (search, filters, categories, descriptions)?
+    d. What navigational features help users correctly identify the appropriate care team quickly and easily?
    
 **Task Flow & Friction Points**
 2. What do users say about the multi-step flow?
 
-    a. How do users react when the care team they want isn't visible on the first page?
+    a. What do users do when the care team they want isn't visible on the first page?
 
     b. Are there care teams users frequently seek but cannot find through the current interface?
   
 **Interstitial Content Engagement**
 3. Do users notice and read the interstitial page content?
 
-    a. Of users who see the interstitial, how much information do they retain immediately after?
+    a. Of users who see the interstitial, what information do they notice, register and retain and for how long
   
 **Accessibility**
 
@@ -73,7 +73,7 @@ _**Section 1: Current experience**_
 
 **Category**
 
-6. Do users express confusion about this field and mostly select "general"?
+6. What about these categories do users report finding confusing? what choices do they default to when confused?
 
 
 
@@ -108,10 +108,12 @@ Concept C: (can add one more concept if necessary)
 
 Moderated usability testing with multiple concepts.  **8 completed sessions are required for the study to be considered complete.**
 
-First Task: Walk through the process of sending a message to a frequently messaged provider with the user's own data. **As you log into your portal, how would you complete this task?**
+Warm up: Establish through conversation what providers the user sees frequently. Orient the task around this frequently messaged provider. 
+First Task: Login to VA.gov and show me how you send a message to a provider [identified during the warmup] that you see frequently. 
 
-Secondary Task: Imagine that you want to send a message to that same provider. You need to find the provider, and address the message. **Using these two prototypes, explain how you would send the message and each of the steps.**
+Warm up: Explain what a prototype is and that the data is not real. Encourage the user to think and talk out loud. 
+Secondary Task: I am going to show you two prototypes. Using this prototype, explain how you would send a message to your provider.
 
-Target users - MI pre-transitioned cutover users, rural users, AT users. 
+Target users - To account for an equitable spread of users we will aim to have users who have VA Healthcare, half are under 55 and half are over, a mix of rural (who may be less familiar with care system names) and urban users, AT users, and MI pre-transitioned cutover users (to include users who may be experiencing care team name changes). 
 Prototypes - Use either AI-coded prototypes, engineer feature-toggle prototypes, or Figma prototypes to test the "concepts."
 
