@@ -18,6 +18,7 @@
 
 ## Outcome summary
 Veterans will be able to review their latest health updates and results after receiving a notification or review their records following a recent visit.
+
 **Related/Associated product(s)**
 - MHV Medical Records | [Link to product outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/README.md)
 
