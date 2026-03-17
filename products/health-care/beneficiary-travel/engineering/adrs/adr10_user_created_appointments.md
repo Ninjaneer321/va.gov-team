@@ -151,8 +151,8 @@ Once the above change occurs and we have a way to determine the home facility we
    - **Outstanding Questions**:
      - Need to confirm that CXI has all children facilities; the CC and non-CC facilities
 
-2. **Create a New API Endpoint in BTSSS API (Derived from Lighthouse Parent Facilities)**
-   - Use Lighthouse to retrieve parent facilities
+2. **Create a New API Endpoint in BTSSS API (Derived from new `GET Contact` endpoint that returns the home facility)**
+   - Use home facility data that is returned from the new `GET Contact` endpoint
    - The API Team `builds a new API endpoint` that:
      - Accepts **homeFacility station number or name**
      - Returns related facilities (including children cc and non-cc) for the given home facility
