@@ -2,7 +2,7 @@
 # Research Plan Metadata
 title: "Medical Records: Recent Results Findability - March 2026"
 date: 2026-03-03
-last_updated: 2026-03-03
+last_updated: 2026-03-17
 team: "MHV Medical Records"
 product: "Medical Records: Recent Results Indicators"
 product_area: "authenticated"
@@ -65,8 +65,8 @@ participants:
 timeline:
   pilot_date: "2026-03-28"
   pilot_participant: "[Name TBD]"
-  research_dates: "2026-03-31 to 2026-04-04"
-  research_review_submission: "2026-03-10"
+  research_dates: "2026-03-31 to 2026-04-09"
+  research_review_submission: "2026-03-20"
   
 session_details:
   duration_minutes: 60
