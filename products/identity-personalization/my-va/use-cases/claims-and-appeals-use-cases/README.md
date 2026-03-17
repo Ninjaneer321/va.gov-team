@@ -32,15 +32,14 @@
 <details><summary>User does not have an open claim or appeal, or one that has been closed in the last 60 days</summary>
 
 - **Use case:** If a logged in LOA3 user does not have an open claim or appeal or one that has been closed in the last 60 days, they will see informational text and be provided a link to check all claims and appeals.
-- **Status code:**
-  - 200 GET /v0/benefits_claims
-  - 200 GET /v0/appeals
-- **Frontend components:**
-  - src/applications/personalization/dashboard/components/claims-and-appeals/ClaimsAndAppeals.jsx
 - **Format:** Paragraph copy. See designs.
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5165-13907&t=Qplg9wUFJEDlP70M-1)
-- [Link to code]
 - **Content:** See designs.
+- **Status code:**
+   - 200 GET /v0/benefits_claims
+   - 200 GET /v0/appeals
+- **Frontend components:**
+   - src/applications/personalization/dashboard/components/claims-and-appeals/ClaimsAndAppeals.jsx
 
 </details>
 
@@ -48,23 +47,30 @@
 <details><summary>User has an open claim or appeal</summary>
 
 - **Use case:** If a LOA3 user has an open claim or appeal, they will see a card in this section that tells them the type of claim or appeal, the date the application was received, a current status update, and a link to "Review details" which links to the details page for that specific claim in the claims tool. The claim details link is specific to the claim card. It is in the following format and the ###### is the claim number: https://va.gov/track-claims/your-claims/########/status.
-- **Status code:** TBD
 - **Format:** [Card component](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5069-18389&t=Qplg9wUFJEDlP70M-1)
-- [Link to code]
 - **Content:** Varies on claim and appeal type.
-
+- **Status code:**
+   - 200 GET /v0/benefits_claims
+   - 200 GET /v0/appeals
+- **Frontend components:**
+   - src/applications/personalization/dashboard/components/claims-and-appeals/Claim.jsx
+   - src/applications/personalization/dashboard/components/claims-and-appeals/Appeal.jsx
 </details>
 
 
 <details><summary>User has a claim or appeal that has been closed in the last 60 days</summary>
 
 - **Use case:** If a logged in LOA3 user has a claim or appeal that has been closed in the last 60 days, they will see a card in this section that tells them the type of claim or appeal, the date the application was received, a current status update of “Complete”, and a link to "Review details" which links to the details page for that specific claim in the claims tool. The claim details link is specific to the claim card. It is in the following format and the ###### is the claim number: https://va.gov/track-claims/your-claims/########/status. Once a claim or appeal has been closed for longer than 60 days, the status card will no longer show on My VA.
-- **Status code:** TBD
 - **Format:** [Card component](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5069-18446&t=Qplg9wUFJEDlP70M-1)
-- [Link to code]
 - **Content:** Varies on claim and appeal type. See code.
+- **Status code:**
+   - 200 GET /v0/benefits_claims
+   - 200 GET /v0/appeals
+- **Frontend components:**
+   - src/applications/personalization/dashboard/components/claims-and-appeals/Claim.jsx
+   - src/applications/personalization/dashboard/components/claims-and-appeals/Appeal.jsx
 
 </details>
 
