@@ -166,10 +166,12 @@ Once the above change occurs and we have a way to determine the home facility we
 3. **Combine Lighthouse + PPMS (Home Facility Filtering Approach) – No Longer Viable**
    - Use both APIs together: Lighthouse + PPMS
     - Filter **only child facilities associated with veteran’s home facility**
+    - Per investigation into PPMS found the following:
      - PPMS does **not have BTSSS station numbers**, so we cannot reliably map child facilities to a veteran’s home facility.
-     - Return combined results to FE
+     - PPMS has a 10 digit id for facilities that looks like this `1144688854` where as BTSSS returns guids for the facility id that look like this `e5e2ca33-7f04-ee11-8f6d-001dd806ee99`. There is no way to match up PPMS data to BTSSS so that we could even get the station id
+    - Return combined results to FE
    - Pros:
-     - Leverages existing APIs
+     - N/A
    - Cons:
      - Cannot ensure accurate child facility mapping
        -  ** Confirmed that this is an issue on 3/17/2026 and the BTSSS station number is not in PPMS**
