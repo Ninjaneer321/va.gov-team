@@ -361,19 +361,18 @@ Veterans and Family members/caregivers who have and have not previously complete
 - `9 Have filled out at least one form with VA in the last year`
 - `3 participants have never filled out a VA form but are eligible to`
 - `6 have not filled out a VA form in the last year`
-- '2 screenreader users'
+- `2 screenreader users`
 - **`Recruit a mix of gender, ages, cognitive abilities, etc.`**
 
 #### Secondary criteria (nice-to-haves)
 *What criteria would strengthen your results?* 
-
-- `3 Veteran participants who have never completed the 526 Disability Form (or in the last five years)
-- '3 Participants who have never completed the Education Benefits form (or in the last five years)
+- `3 Veteran participants who have never completed the 526 Disability Form (or in the last five years)`
+- `3 Participants who have never completed the Education Benefits form (or in the last five years)`
 Nice to have: Form submission type
-- `3 Participants who typically complete forms using a PDF/paper
-- '3 Participants who typically complete forms online'
-- '3 Participants who have done both in the past'
-- '3 participants who have previously had VA staff help them complete a form'
+- `3 Participants who typically complete forms using a PDF/paper`
+- `3 Participants who typically complete forms online`
+- `3 Participants who have done both in the past`
+- `3 participants who have previously had VA staff help them complete a form`
 
 ## Screener Questions 📋
 
@@ -393,7 +392,8 @@ Nice to have: Form submission type
 - In person at a VA facility
 - Using a VSO or Accredited Representative
 - Online forms
-- **Qualifying response: After meeting recruitment quota** 
+- **Qualifying response: After meeting recruitment quota**
+
 ## Timeline 🗓️
 
 ### Optional Kick-off Call with Perigean
@@ -434,12 +434,13 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 - `Participant recruiting & screening:`	**Perigean**	
 - `Project point of contact:` **Tina Kambil**		
 - `Accessibility specialist (for sessions where support for assistive technology may be needed):` **Jacqueline Quintanilla**	
-- `Note-takers:` **Tean** ***and*** **Designate Perigean**	
+- `Note-takers:` **Team** ***and*** **Designate Perigean**	
 - `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 5 to 6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.`
 
 - **Tim Shundo**
 - **Dave Pickett**
 - **Randi Hecht**
+- **Fran Cross**
 - **Team members**
 
 ## Approvals ✅
