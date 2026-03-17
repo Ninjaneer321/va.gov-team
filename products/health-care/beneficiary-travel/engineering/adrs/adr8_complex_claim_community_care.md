@@ -1,11 +1,12 @@
 # Complex Claims Community Care Investigation and Analysis
 
-Throughout this document we will discuss various community care issues that we have ran into, our investigation of that issue and how we have chosen to resolve them.
+Throughout this document we will discuss various community care issues that we have ran into, our investigation of those issues and how we have chosen to resolve them.
 
 ## Investigation into how we will determine that a document is for Proof of Attendence (POA) and not an unassociated document
 
 ### Status
 Proposed – 2026-02-17
+Resolved - 2026-03-15
 
 ### Context
 
@@ -121,4 +122,5 @@ If a filename-based solution is implemented:
 - On 2/26/26 we met with stakeholders and the API team and discussed our ADR and the options (we had previously shared the aDR link to them asking for them to review). The API team said they were going to look at how long it'd take to add a POA field and will provide us with an answer on 3/5/26
 - On 2/27/26 Ken reached out asking for clarification around what we were asking for. He was wondering if we just wanted a POA boolean field or if we also needed to connect a POA document to an expense and if we needed to share that it was POA with clerks. I clarified that we just needed th POA boolean field so that we could determine it was POA in va.gov.
 - On 3/5/26 we met with stakeholders and the API team and discussed the API teams investigation into adding the isPOA field on their side. They explained that it is possible but there are constraints with the current table called `annotations` in Microsoft DB looking like it cannot be changed and so they'd have to make a new table that is associated to the `annotations` table that would have the `isPOA` field. The API team was concerned that this could cause more latency issues. Mark Dewey brought up that hes been talking to the API team about this issue over the last week and there are more future scenarios that are coming up that will require the API to need some sort of metadata field. The API team is going to create a ticket on their side for this and we are going to repurpose the [isPOA ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133116) on our side to be for this work. For now we are going to move forward with **Option #2 (Filename-based identification)** which was our fallback strategy/techincal work around.
+- On 3/17/2025 we met in a BTSSS Cross-functional Working Sessions and Daryl brought up that he would liek us to rename anything with `proof of attendance` to `Verification of Care Received`. UX team will further investigate and if it is decided that we will add this change they will make the necesssary tickets. 
 
