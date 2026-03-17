@@ -1,0 +1,187 @@
+name: "ADE+ Testing (Internal)"
+description: "Structured ADE+ accessibility testing template with progress tracking"
+title: "[ADE+] <product/feature> — Testing"
+labels:
+  - "ADE"
+  - "accessibility"
+assignees:
+  - "lakper"
+  - "sara-amanda"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!IMPORTANT]
+        > This is the Issue Form version of the ADE+ internal testing template.
+        > - Select **Pass / Fail / N/A** for each test.
+        > - If you select **Fail** for any test, an automation can create bug tickets (requires a workflow).
+
+  - type: input
+    id: product_feature
+    attributes:
+      label: Product / Feature
+      placeholder: "e.g., 10-10EZR online form"
+    validations:
+      required: true
+
+  - type: input
+    id: product_team
+    attributes:
+      label: Product Team
+      placeholder: "e.g., Health Care Enrollment"
+    validations:
+      required: true
+
+  - type: input
+    id: test_date
+    attributes:
+      label: Test date (YYYY-MM-DD)
+      placeholder: "2026-03-17"
+    validations:
+      required: true
+
+  - type: input
+    id: testers
+    attributes:
+      label: Tester(s)
+      placeholder: "@username1, @username2"
+    validations:
+      required: true
+
+  - type: textarea
+    id: environments
+    attributes:
+      label: Test environments (AT / Browser / OS / Version)
+      description: "List the combinations you tested. Example: JAWS 2024 + Chrome 122 + Windows 11"
+      placeholder: |
+        - No AT (keyboard only): Chrome 122 / macOS 14
+        - JAWS: JAWS 2024 / Chrome 122 / Windows 11
+        - iOS VoiceOver: iOS 17 / Safari
+        - Other AT SR:
+        - Voice Input:
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## Automated testing
+
+  - type: dropdown
+    id: automated_001
+    attributes:
+      label: "Automated-001 — Axe DevTools has been executed for every page"
+      description: "If Fail, capture details in Findings and (optionally) create a bug ticket."
+      options:
+        - Pass
+        - Fail
+        - N/A
+      default: 2
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## 1.1 — Non-text Content (WCAG 1.1.1)
+
+  - type: dropdown
+    id: web_111_001
+    attributes:
+      label: "WEB-111-001 — Meaningful descriptions are provided for informative images (Required)"
+      options:
+        - Pass
+        - Fail
+        - N/A
+      default: 2
+    validations:
+      required: true
+
+  - type: dropdown
+    id: web_111_002
+    attributes:
+      label: "WEB-111-002 — Brief and detailed descriptions are provided for complex images (Recommended)"
+      options:
+        - Pass
+        - Fail
+        - N/A
+      default: 2
+    validations:
+      required: true
+
+  - type: dropdown
+    id: web_111_003
+    attributes:
+      label: "WEB-111-003 — Decorative images are hidden from screen readers (Recommended)"
+      options:
+        - Pass
+        - Fail
+        - N/A
+      default: 2
+    validations:
+      required: true
+
+  - type: dropdown
+    id: web_111_004
+    attributes:
+      label: "WEB-111-004 — Background images are not used for informative content (Recommended)"
+      options:
+        - Pass
+        - Fail
+        - N/A
+      default: 2
+    validations:
+      required: true
+
+  - type: dropdown
+    id: web_111_005
+    attributes:
+      label: "WEB-111-005 — Brief descriptions are provided for videos and audio files"
+      options:
+        - Pass
+        - Fail
+        - N/A
+      default: 2
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## Findings / notes
+        Provide enough detail to reproduce any failures. If automation is enabled, these notes will be copied into created bug tickets.
+
+  - type: textarea
+    id: findings
+    attributes:
+      label: Findings (required if any Fail)
+      description: |
+        For each failure, include:
+        - Test case id (e.g., WEB-111-001)
+        - What was expected
+        - What actually happened
+        - Steps to reproduce
+        - Recommendation
+        - Evidence (screenshots/video)
+      placeholder: |
+        - WEB-111-001
+          - Expected:
+          - Actual:
+          - Steps:
+          - Recommendation:
+          - Evidence:
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: progress
+    attributes:
+      label: Progress
+      options:
+        - label: "Testing started"
+        - label: "Testing in progress"
+        - label: "Testing complete"
+        - label: "Bugs created (if applicable)"
