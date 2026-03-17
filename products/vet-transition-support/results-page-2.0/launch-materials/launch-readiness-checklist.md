@@ -1,6 +1,6 @@
 # DYB Results Pg 2.0: Launch Readiness Checklist
 
-### Launch Go / No Go | mm/dd/yyyy
+### Launch Go / No Go | 03/17/2026
 
 ## Decision:  
 
