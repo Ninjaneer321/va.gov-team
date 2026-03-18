@@ -44,12 +44,19 @@
 ## User does not have any drafts or completed forms</summary>
 
 * **Description:** When a user does not have any form or application drafts or completed forms they will see information informing them of such, and an additional information component on what to do if they think there are missing forms.
-* **Status code:** TBD
 * **Format:** See designs
 * [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5077-16410&t=KhCgIDPMpZ6FClDG-1)
-* [Link to code]
 * **Content:** See designs.
-
+- **Status codes:**
+  - 200 GET /v0/my_va/submission_statuses
+  - 200 GET /v0/user
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/FormsAndApplications.jsx
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/MissingApplicationHelp.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/BenefitApplications.jsx
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/ApplicationsInProgress.jsx
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/MissingApplicationHelp.jsx
 
 ## User has a benefit application or form draft saved but not yet submitted
 
