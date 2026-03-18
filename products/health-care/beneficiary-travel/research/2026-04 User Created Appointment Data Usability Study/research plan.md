@@ -111,9 +111,7 @@ tags:
 > 
 > Use the [GitHub Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md) to automatically generate structured metadata from your completed research plan.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags. 
 
-	# Research Plan for [Team, Product, Date]
-> [!NOTE]
-> *Questions about how to set up your research study? Reach out in the [#research-ops](https://dsva.slack.com/archives/C0216PL32HJ) Slack channel.* 
+# Research Plan for Travel Pay User Created Appointment Data Usability Study - March/April 2026
 
 ## Background 🏗️
 <details><summary>Briefly describe the background of your product.</summary>
@@ -134,7 +132,7 @@ This is an iteration and enhancement of existing VA.gov travel pay functionality
 
 `Product Brief`
 
-**[Link to product brief](url goes here).**
+**[Link to product brief](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel/product).**
 
 </details>
 
@@ -169,6 +167,8 @@ This is an iteration and enhancement of existing VA.gov travel pay functionality
 > - **Key Result 3.2:** Supports maintaining the ranked list of user pain points by investigating a documented pain point, i.e. Veterans' inability to file claims for appointments not appearing in their list on VA.gov.    
 > - **Key Result 3.3:** Supports the delivery of at least one release that directly addresses this documented user pain point by enabling Veterans to create missing appointments and file associated travel claims entirely within VA.gov.   
   - ***Research Ops Plain Language:** Letting Veterans create missing appointments so they can file travel claims for them fixes a pain point and makes filing easier.*
+
+</details>
 
 ### [Veteran Journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)
 
@@ -209,14 +209,6 @@ Validate related community care work, which is a primary use case for this new f
 ---
 
 ### Research questions
-> [!NOTE]
-> Do not write out all questions you plan to ask participants -- that should go in the` [conversation guide.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/conversation-guide-template.md)
-
-***Consider bucketing research questions under research goals and think about:***
-	
-`What will I do with what I learn from this question?`
-  
-`Does this question serve the goals of my study?`
 
 **`1.`Where do Veterans expect to start when filing a travel claim for an appointment that doesn't appear in their list?**    
 
@@ -249,8 +241,6 @@ Validate related community care work, which is a primary use case for this new f
 * We think that while Veterans may be slightly confused by their user generated appointments not appearing in the past appointments list, they will be able to easily identify the claims associated with those appointments in their claims list. However, we recognize there is a risk of duplicate claims due to the separate views.
 * _WORKING NOTE: Do we think users will be able to navigate back to their claim? Should we add something about that in this study?_
 
-`Write a generalized statement that combines what you know + what you think will happen during the study.`
-
 ---
 **Hypothesis**   
 
@@ -261,6 +251,7 @@ We anticipate that Veterans will be able to successfully enter the required appo
 ---
   
 ## Methodology  🛠️   
+<details>
 We will conduct **moderated usability testing sessions with 10-12 Veterans using a clickable Figma prototype.** This study will be a hybrid study. The first part will evaluate participants’ mental models around where they expect to create an appointment, then we’ll move into a usability test of the user-created appointment data screens. Finally, we will show the participants the alternate entry-point option and ask questions for a comparative analysis.
 
 ### Structure      
@@ -297,12 +288,7 @@ We’ll wrap up with some closing questions and allow the participants time to e
 - [Link to prototype](url goes here)
 
 ## Recruitment 🎯	
-*OCTO works with Perigean, a small business, to handle the [recruitment](https://veteranusability.us/), scheduling, and compensation of Veterans and caregivers.*
-
-> [!NOTE]
-> Before writing your recruitment criteria, be sure to review the following resources: 
-> - [Refer to the Perigean Recruitment Guidance](https://depo-platform-documentation.scrollhelp.site/research-design/recruiting-participants) to learn how Perigean recruits, screens, and prepares participants for research. 
-> - [Refer to the inclusive recruitment strategies](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/recruitment.md) to learn how to be inclusive of underserved Veteran communities.
+We will work with Perigean to recruit participants for this study.   
 
 ### Recruitment approach
 
@@ -343,8 +329,8 @@ We’ll wrap up with some closing questions and allow the participants time to e
 ### Your Study's Screener Questions
 
 **`1.` Do you use VA healthcare (including community care)?**
-- Qualifying response: Yes.   
-- If no, participant is ineligible for this study.   
+- _Qualifying response: Yes._   
+- _Disqualitfying response: If no, participant is ineligible for this study._   
 
 **`2.` In the past 12 months, have you attended any of the following types of appointments? [single select/radio button field]**  
 
