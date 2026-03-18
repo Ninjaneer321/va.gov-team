@@ -54,8 +54,15 @@
 * Use case: If a LOA3 user signs in and has not received any benefit payments from VA in the last 60 days, they will see a card in the Benefit payments section stating that they have no recent payments as well as a link to review their payment history.  
 * Format: [Card component](https://design.va.gov/components/card)  
 * [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5414-19152&t=cZLTEcVoQuXx90AV-1)  
-* Request: GET /v0/profile/payment\_history  
-  * Response: 200 [no recent payment mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/payment-history/index.js#L14)
+- **Status codes:**
+  - 200 GET /v0/profile/payment_history
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/benefit-payments/PaymentsAndDebts.jsx
+  - src/applications/personalization/dashboard/components/benefit-payments/BenefitPayments.jsx
+  - src/applications/personalization/dashboard/components/benefit-payments/PaymentsCard.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/benefit-payments/BenefitPaymentsLegacy.jsx
+  - src/applications/personalization/dashboard/components/benefit-payments/PaymentsCardLegacy.jsx
  
 </details>
 
@@ -65,8 +72,15 @@
   * If a user received the payment via direct deposit, then the date text will read "Deposited on" whereas if they received it via mailed paper check, the date text will read "Checked mailed on".  
 * Format: [Card component](https://design.va.gov/components/card)  
 * [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5414-19238&t=cZLTEcVoQuXx90AV-1)  
-* Request: GET /v0/profile/payment\_history  
-  * Response: 200 [recent payment mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/payment-history/index.js#L13)
+- **Status codes:**
+  - 200 GET /v0/profile/payment_history
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/benefit-payments/PaymentsAndDebts.jsx
+  - src/applications/personalization/dashboard/components/benefit-payments/BenefitPayments.jsx
+  - src/applications/personalization/dashboard/components/benefit-payments/PaymentsCard.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/benefit-payments/BenefitPaymentsLegacy.jsx
+  - src/applications/personalization/dashboard/components/benefit-payments/PaymentsCardLegacy.jsx
 
 </details>
 
@@ -106,10 +120,18 @@ There are no flags with this feature.
 * Use case: If a logged in LOA3 user has no history of outstanding benefit overpayments or copay bills they will see two cards in this section. One for no benefits overpayments with a link to the overpayment balances tool. One for no copay bills with a link to the copay balances tool.  
 * Format: [Card component](https://design.va.gov/components/card)  
 * [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5125-15049&t=cZLTEcVoQuXx90AV-1)  
-* Request: GET /v0/debts  
-  * Response: 200 [empty mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/debts/index.js#L254)  
-* Request: GET /v0/medical\_copays  
-  * Response: 200 [empty mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/medical-copays/index.js#L1661)
+- **Status codes:**
+  - 200 GET /v0/debts?countOnly=true
+  - 200 GET /v0/medical_copays
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/benefit-payments/PaymentsAndDebts.jsx
+  - src/applications/personalization/dashboard/components/debts/Debts.jsx
+  - src/applications/personalization/dashboard/components/debts/DebtsCard.jsx
+  - src/applications/personalization/dashboard/components/debts/CopaysCard.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/debts/DebtsLegacy.jsx
+  - src/applications/personalization/dashboard/components/debts/DebtsCardLegacy.jsx
+  - src/applications/personalization/dashboard/components/debts/CopaysCardLegacy.jsx
 
 </details>
 
@@ -120,10 +142,14 @@ There are no flags with this feature.
 * Use case: If a logged in LOA3 user does not have any benefit overpayments in the combined debt portal or their total debt equals 0, they will see a card informing them that they have no outstanding benefit overpayments and a link to the overpayment balances tool within the card.  
 * Format: [Card component](https://design.va.gov/components/card)  
 * [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5414-19152&t=cZLTEcVoQuXx90AV-1)  
-* Request: GET /v0/debts  
-  * Response: 200 [debt count zero mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/debts/index.js#L1) (dev mock data wip)  
-* Request: GET /v0/medical\_copays  
-  * Response: 200 [copay count zero mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/medical-copays/index.js#L459) (dev mock data wip)
+- **Status codes:**
+  - 200 GET /v0/debts?countOnly=true
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/debts/Debts.jsx
+  - src/applications/personalization/dashboard/components/debts/DebtsCard.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/debts/DebtsLegacy.jsx
+  - src/applications/personalization/dashboard/components/debts/DebtsCardLegacy.jsx
 
 </details>
 
@@ -132,10 +158,14 @@ There are no flags with this feature.
 * Use case: If a logged in LOA3 user has any outstanding benefit overpayment debts in the debt portal, they will see a card in this section that tells them how many benefit overpayments they have and a link to the overpayment balances page of the combined debt portal.  
 * Format: [Card component](https://design.va.gov/components/card)  
 * [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5414-19238&t=cZLTEcVoQuXx90AV-1)  
-* Request: GET /v0/debts  
-  * Response: 200 [success mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/debts/index.js#L7)  
-* Request: GET /v0/medical\_copays  
-  * Response: 200 [success mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/medical-copays/index.js#L459)
+- **Status codes:**
+  - 200 GET /v0/debts?countOnly=true
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/debts/Debts.jsx
+  - src/applications/personalization/dashboard/components/debts/DebtsCard.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/debts/DebtsLegacy.jsx
+  - src/applications/personalization/dashboard/components/debts/DebtsCardLegacy.jsx
 
 </details>
 
@@ -146,10 +176,14 @@ There are no flags with this feature.
 * Use case: If a logged in LOA3 user does not have any copay bills in the combined debt portal or their total copays equals 0, they will see a card informing them that they have no copay bills and a link to the copay balances tool.  
 * Format: [Card component](https://design.va.gov/components/card)  
 * [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5414-19152&t=cZLTEcVoQuXx90AV-1)  
-* Request: GET /v0/debts  
-  * Response: 200 [debt count zero mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/debts/index.js#L1) (dev mock data wip)  
-* Request: GET /v0/medical\_copays  
-  * Response: 200 [copay count zero mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/medical-copays/index.js#L459) (dev mock data wip)
+- **Status codes:**
+  - 200 GET /v0/medical_copays
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/debts/Debts.jsx
+  - src/applications/personalization/dashboard/components/debts/CopaysCard.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/debts/DebtsLegacy.jsx
+  - src/applications/personalization/dashboard/components/debts/CopaysCardLegacy.jsx
 
 </details>
 
@@ -159,10 +193,12 @@ There are no flags with this feature.
 * Use case: If a logged in LOA3 user has any outstanding copay bills in the debt portal, they will see a card in this section that tells them how many copay bills they have, the date this information was last updated, and a link to the copays page of the combined debt portal.  
 * Format: [Card component](https://design.va.gov/components/card)  
 * [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5414-19238&t=cZLTEcVoQuXx90AV-1)  
-* Request: GET /v0/debts  
-  * Response: 200 [success mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/debts/index.js#L7)  
-* Request: GET /v0/medical\_copays  
-  * Response: 200 [success mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/medical-copays/index.js#L459)
+- **Status codes:**
+  - 200 GET /v0/medical_copays
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/debts/CopaysCard.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/debts/CopaysCardLegacy.jsx
 
 </details>
 
@@ -183,10 +219,13 @@ There are no flags with this feature.
 * Use case: If an LOA3 user logs in and there is an error with the Lighthouse API showing benefit overpayments and copay bills, show a warning alert to the user in the card with a link to the overpayments and copay bills page ([va.gov/manage-va-debt/summary](http://va.gov/manage-va-debt/summary)).   
 * Format: [Warning slim alert](https://design.va.gov/components/alert/#web-2)  
 * [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5416-47879&t=cZLTEcVoQuXx90AV-1)  
-* Request: GET /v0/debts  
-  * Response: 500 [failure mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/debts/index.js#L261)  
-* Request: GET /v0/medical\_copays  
-  * Response: 500 [failure mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/medical-copays/index.js#L1666)
+- **Status codes:**
+  - 500 GET /v0/debts
+  - 500 GET /v0/medical_copays
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/debts/Debts.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/debts/DebtsLegacy.jsx
 
 </details>
 
@@ -196,8 +235,14 @@ There are no flags with this feature.
 * Format: [Warning slim alert](https://design.va.gov/components/alert/#web-2)  
 * [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5125-15744&t=cZLTEcVoQuXx90AV-1)  
 * [Link to code](https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/api-reference/#/debts/getDebts)  
-* Request: GET /v0/debts  
-  * Response: 500 [failure mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/debts/index.js#L261)
+- **Status codes:**
+  - 500 GET /v0/debts
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/debts/Debts.jsx
+  - src/applications/personalization/dashboard/components/debts/DebtsCard.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/debts/DebtsLegacy.jsx
+  - src/applications/personalization/dashboard/components/debts/DebtsCardLegacy.jsx
 
 </details>
 
@@ -207,8 +252,14 @@ There are no flags with this feature.
 * Format: [Warning slim alert](https://design.va.gov/components/alert/#web-2)  
 * [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5416-19340&t=cZLTEcVoQuXx90AV-1)  
 * [Link to code](https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/api-reference/#/medical_copays/getMedicalCopays)  
-* Request: GET /v0/medical\_copays  
-  * Response: 500
+- **Status codes:**
+  - 500 GET /v0/medical_copays
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/debts/Debts.jsx
+  - src/applications/personalization/dashboard/components/debts/CopaysCard.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/debts/DebtsLegacy.jsx
+  - src/applications/personalization/dashboard/components/debts/CopaysCardLegacy.jsx
  
 </details>
 
