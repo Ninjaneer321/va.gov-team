@@ -247,8 +247,11 @@ Probe:
 
 # Post-Task Interview - 5 minutes
 Overall reflection:
+
  • How easy or difficult was it to understand what you needed to do for forms one a scale of 1 to 5 where 1 is very difficult and 5 is very easy?
+ 
  • What, if anything, would improve your confidence in completing forms on VA.gov?
+ 
  • Did you prefer having everything on one page or would you prefer separate pages?
 
 - Any questions for me? 
@@ -282,7 +285,5 @@ In the rare case of an emergency during a session, be prepared with an [emergenc
 - [ ] Review alignment with your research plan tags
 - [ ] Update the last_modified date
 
-### Sample Conversation Guide _(note: this link points to resources in the va.gov-team GitHub repo)_
 
-- [Veteran ID Card Discovery Interview](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-id-cards/research/discovery/discovery-conversation-guide.md)
 
