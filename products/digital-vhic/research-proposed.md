@@ -1,6 +1,6 @@
 # Proposed research for VHIC: Veteran Healthcare Identification Card
 
-* August 2025
+* March 2026
 * Team: Mobile Feature Support
 * UX Researcher: Emily DeWan
 * UX Designer: Natasha Huckleberry
@@ -8,8 +8,57 @@
 * Product Manager: Natalie Gibbons
 
 
-## Proposed research: August 2025
-<details><summary>Previous prosposed research</summary>
+## Research goals
+
+### Goal 1: Making sure the digital card works at VA locations
+To ensure the digital card fits VA staff’s daily tools and habits, we must understand how they use the physical card today—otherwise it could create long lines and frustrate Veterans.
+
+What we want to learn:
+
+* How do different locations use the card?
+    * Self-service kiosk, manually swiping, visual check. The designs need to work for all use cases.
+* Can scanners read the phone screens?
+    * See if the barcode in potential designs can be read by the scanners at VA front desks. (Phone screens are shiny and can be hard for older scanners to read.)
+* What are staff members looking for at a glance?
+    * What do they need to find quickly (e.g., Service Connected status, Branch seal, or Expiration date) to verify benefits without scanning?
+    * Show them potential designs to see if these specific "priority markers" are as easy to find as they are on the physical cards.
+* What might slow things down?
+    * What if they can’t swipe? Would they ever need to manually type an ID number? Would they ever need to ask the Veteran questions?
+
+
+## Goal 2: Veteran Trust & Reliability
+Ensure Veterans feel confident using the digital card and know exactly what to do if the technology fails.
+
+What we want to learn:
+
+* How will Veterans handle technical failures?
+    * Determine how they will check in with no cell service or the app crashes.
+* Do Veterans trust a digital-only ID?
+    * Do they feel safe leaving the physical card at home (or not having one at all) and do they trust that the digital card is official?
+    * Will the removal of their SSN affect their sense of security?
+* Is the guidance clear when things go wrong?
+    * When the app shows a system error or inactive status, do Veterans know what to do?
+
+
+
+## Research approach
+
+* In-person observations at NYC-area VA facilities
+    * See how staff are interacting with the physical cards now
+    * Testing digital designs with the staff and local hardware
+    * See how Veterans currently use their phones in dead zones (elevators, basements).
+    * Watch the physical hand-off to see how Veterans naturally hold or present their phones to staff.
+* Remote interviews with staff nationwide (to get a broader sample)
+    * Learn how staff are interacting with physical cards now
+    * Show staff digital designs for feedback
+* Remote interviews with Veterans
+    * Interview Veterans for feedback on language for technical issues.
+    * Ask about thoughts on trust and security of digital card designs
+
+
+
+## Previous suggestions
+<details><summary>Initial draft of proposed research: August 2025</summary>
 
 
 
@@ -48,7 +97,6 @@
 Timeline options of each study within product process:
 ![Timeline options of each study within product process](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/digital-vhic/supporting_files/VHIC%20proposed%20research%20timeline%20options.png)
 
-</details>
 
 ## Additional notes
 
@@ -60,3 +108,4 @@ Timeline options of each study within product process:
         * Using the card in the test also tested well
     * Privacy concerns for showing disability rating – it’s possible there would be similar concerns for info on the VHIC
 
+</details>
