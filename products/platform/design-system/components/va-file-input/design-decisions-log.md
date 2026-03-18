@@ -6,6 +6,7 @@ Last updated: 11/20/2025
 - [ADR 003 - Password Encryption](#ADR-003---Password-Encryption)
 - [ADR 004 - File Type Validation](#ADR-004---File-Type-Validation)
 - [ADR 005 - Display read-only data via dt instead of inert](#ADR-005---Display-read--only-data-via-dt-instead-of-inert)
+- [ADR 006 - Make available older password version for claim-status only](#ADR-006---Make-available-older-password-version-for-claim--status-only)
 
 
 ## ADR 001 - Limiting the built-in functionality for encrypted and password protected files
@@ -167,7 +168,7 @@ Applications requiring custom error handling outside the forms library can refer
 
 **Status**: Accepted
 
-Udated Date: 03/10/2026
+Updated Date: 03/10/2026
 
 **Context**
 
@@ -240,4 +241,43 @@ Negative / watch items
 * If the component ever needs to support editing the document type after upload (inline edit pattern), the `<dl>` approach will need to be revisited in favor of a toggled edit state
 * JAWS in forms mode will skip `<dl>` content — acceptable here since the review state is not inside an active form submission context, but should be verified if that assumption changes
 * DL/DT is not nicely announced using voice over on chrome. This use case may not also be a true representation of a definition for a term.  More exploration is encouraged, but this is the state as of today 3/10/2026.
+
+
+## ADR 006 - Make available older password version for claim-status team only
+
+**Status**: Accepted
+
+Updated Date: 03/18/2026
+
+**Context**
+
+The `claim-status` tool team is asking for a change to va-file-input with the password enhancement as their backend and front end are not set up to handle the additional button. 
+
+`claim-status` uses the `va-file-input-multiple` component outside of the forms-system. In contrast to the form-system, `claim-status` does not immediately upload files. A user will add multiple files, specify file type, and add a password (if relevant) then upload all files together.
+
+Unlike the forms-system there is no debouncing or delayed action taken after a user types a password. Meaning that right now the accessibility issues with the forms-system implementation of an encrypted pdf upload may not exist.
+
+For `claim-status` to use the new design of the file-input (which requires immediate file upload) the `claim-status` team would have to re-architect their front end and modify their backend significantly.
+
+**Decision**
+We decided to re-implement the updates to  `va-file-input`  and  `va-file-input-multiple` that introduced the new password submit button pattern from PR #1997, while adding backward compatibility for the existing pattern that uses only a password text input and emits  `vaPasswordChange`.
+
+Backward compatibility is supported through a new `usePasswordSubmitButtonPattern` prop (default: false) on both components. When this prop is true, the password section conditionally renders a submit button, emits `vaPasswordSubmit` on button click, and uses updated event-handler logic.
+
+Nothing in this PR changes the submission behavior for the non-submit button version. Extracting the entered password will still take place within the component/container where file input/file input multiple is being consumed.
+
+Under the hood, the teams using this version (should just be claims status tool) would still listen to the `vaPasswordChange` event and use that in their own business logic to determine if the password is correct or not. We will test against vets-website, but none of these changes should be breaking for existing implementations.
+
+Because we do not want other teams adopting the default non-submit-button pattern, we are not documenting it in Figma or Storybook. The `claim-status` tool is the only approved consumer of the default behavior.
+
+**Rationale**
+The `claim-status` version relies on implicit submit to determine if the password is successful or not. This can cause some accessibility issues if teams don't implement it correctly. We would rather give the user control of when the submit action takes place through the use of a submit button. But, because of the work that it would take the `claim-status` tool to refactor their code and processes, we've granted them an exception. 
+
+**Consequences**
+More teams may want to implement the non `usePasswordSubmitButtonPattern` now that we have one product using it. But we will have to evaluate each use case. The example may also still be in storybook causing more teams to ask about it.
+
+**Related issues & PRs**
+- https://github.com/department-of-veterans-affairs/component-library/pull/2027
+- https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/5851
+- https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/5849
 
