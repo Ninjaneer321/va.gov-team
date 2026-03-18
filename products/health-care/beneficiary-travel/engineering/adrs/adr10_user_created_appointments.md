@@ -105,7 +105,7 @@ Through the cross-functional discussions, the team identified several key decisi
 
 ---
 
-### Things learned from slack conversations
+### Findings from slack conversations
 
 What is the largest count of "children" facilities for a given VAMC aka "parent" facility?
 - NASHVILLE VA MEDICAL CENTER - 3123 records
@@ -114,6 +114,12 @@ What is the smallest count of "children" facilities for a given VAMC aka "parent
 - Over 20 VAMCs have a count of 1 record
 
 The BTSSS system has a field called `btsss_preferredfacility` which correlates to the `home facility` and `btsss_preferredfacility2` which correlates to the `preferred facility`.
+
+What is the smallest character facility name?
+- 2 characters
+
+How many characters should be required for a filtering on facility name?
+- at least 2 
 
 ___
 
