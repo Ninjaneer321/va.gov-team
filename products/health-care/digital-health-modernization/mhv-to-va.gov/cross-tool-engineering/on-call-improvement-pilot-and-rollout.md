@@ -43,17 +43,8 @@ The purpose of this phase is to expand the improvements to a "real-world" situat
 - Mean time to acknowledge is < 15 minutes
 - True positive rate is >= 80%
 
-## Phase 3 - General Availability (ongoing)
-This is the final phase in the rollout. It may take several weeks to get all teams set up.
-
-### Parameters
-- All teams on real PD services
-- All real (tuned) DD monitors
-- **Time to deliver**: aim to be set up within 4 weeks and then ongoing
-
-## Responsibilities
-- Ensure all monitors are properly configured
-- Set expectations for on call responsibilities
+## Phase 3 - Rollout
+This phase is where we begin to roll out the improvements to all MHV teams. See more detail in the [rollout plan](#forthcoming).
 
 ### KPIs
 - Mean time to acknowledge (MTTA) is < 15 minutes
