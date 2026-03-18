@@ -153,14 +153,14 @@ This is an iteration and enhancement of existing VA.gov travel pay functionality
 > 4. Review the suggested studies and add the most relevant ones below
 
 **Previous Studies:**
-- [Link to Study 1 - Brief description, Date](url goes here)
-- [Link to Study 2 - Brief description, Date](url goes here)
-- [Link to Study 3 - Brief description, Date](url goes here)
+- [Reimbursement Status Look and Feel Study-2024-04](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/research/2024-04-Reimbursement-Status-Look-and-Feel-Study/ResearchFindings.md)
+- [Travel Claim Status Language Generative Study-2024-06](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/research/2024-06-Travel-Claim-Status-Language-Generative-Study/ResearchFindings.md)
+- [Travel Complex Claims Concept Study-08-2025](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/research/08-2025--Travel%20Complex%20Claims%20Concept%20Study/09-2025%20Travel%20Pay%20Complex%20Claims%20Concept%20Study%20Research%20Findings.md)
 
 **Key Takeaways from Previous Research:**
-- `[Major finding or insight that informs this study]`
-- `[Major finding or insight that informs this study]`
-- `[Major finding or insight that informs this study]`
+- `Reimbursement Status Takeaway: Navigation Patterns: 6 of 9 participants "satisfice" - taking the first available option from Top Pages rather than thinking deeply about navigation`
+- `Status Language Takeaway: Participants struggled to connect individual claim statuses within the larger process - they wanted proactive notifications about critical phases.`
+- `Concept Study Takeaway: Participants had clear preferences for continued communication and visibility about their claim post-submission.`
 
 > [!NOTE]
 > If this is the first research study for this product, you can note that here. You may also want to reference research from similar products or features that could provide relevant insights.
