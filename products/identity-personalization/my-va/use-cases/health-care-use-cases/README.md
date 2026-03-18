@@ -125,7 +125,9 @@
 This feature has no validation use cases.
 
 ### Flags
-There are no flags with this feature.
+
+- `myVaUpdateErrorsWarnings`: Switches `error` or `warning` severity of alerts for the section
+- `travelPaySubmitMileageExpense`: Legacy CTA link condition
 
 ### System errors
 
