@@ -331,7 +331,8 @@ Last updated: February 16, 2024 \- added Figma link
 
 ### Flags
 
-There are no flags associated with this feature.
+- `myVaUpdateErrorsWarnings`: Switches `error` or `warning` severity of alerts for the section
+- `showGenericDebtCard`
 
 ### System
 
