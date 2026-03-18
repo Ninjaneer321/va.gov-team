@@ -10,7 +10,8 @@ UX Research: initial notes, thoughts, and questions
 * Product Manager: Natalie Gibbons
 
 
-## Proposed research
+## Proposed research: August 2025
+<details><summary>Previous prosposed research</summary>
 
 
 
@@ -49,7 +50,7 @@ UX Research: initial notes, thoughts, and questions
 Timeline options of each study within product process:
 ![Timeline options of each study within product process](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/digital-vhic/supporting_files/VHIC%20proposed%20research%20timeline%20options.png)
 
-
+</details>
 ## Additional notes
 
 
