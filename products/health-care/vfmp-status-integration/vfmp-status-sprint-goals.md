@@ -6,7 +6,7 @@
 
 - **SPRINT GOAL (Eng):** Deliver a functional (but not yet production ready) CST experience that renders PEGA status on the homepage and within the Status, Files, and Overview tabs for CHAMPVA applications.
 - **SPRINT GOAL (UX):** Request and initiate content review of current CHAMPVA sendback letters to inform Status Tool messaging and identify recommended content revisions.
-- **SPRINT GOAL (VA UX):** Launch recruitment for the CHAMPVA Status Tool research study.
+- **SPRINT GOAL (UX):** Review and provide feedback on research plan, conversation guide, and recruitment for the CHAMPVA Status Tool research study to enable VA UX to launch recruitment by end of sprint.
 
 
 ##
