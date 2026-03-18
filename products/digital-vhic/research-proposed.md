@@ -15,6 +15,14 @@ The Veteran Health Identification Card (VHIC) is a photo ID currently issued in 
 [Product brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/digital-vhic/product-brief.md)
 
 
+## Purpose
+
+The digital VHIC will only succeed if two things happen:
+1. VA staff can use it as easily as the physical card
+2. Veterans trust it enough to leave the physical card at home.
+Without testing these assumptions, we risk building something that creates long lines at check-in or fails when Veterans need it most. This research tells us what to build before development starts, saving time and rework.
+
+
 ## Research goals
 
 ### Goal 1: Making sure the digital card works at VA locations
@@ -50,12 +58,12 @@ What we want to learn:
 
 ## Research approach
 
-* In-person observations at NYC-area VA facilities
+* In-person observations at NYC-area VA facilities: See how the card actually works in real conditions with real equipment
     * See how staff are interacting with the physical cards now
     * Testing digital designs with the staff and local hardware
     * See how Veterans currently use their phones in dead zones (elevators, basements).
     * Watch the physical hand-off to see how Veterans naturally hold or present their phones to staff.
-* Remote interviews with staff nationwide (to get a broader sample)
+* Remote interviews with staff nationwide: get feedback from different facility types
     * Learn how staff are interacting with physical cards now
     * Show staff digital designs for feedback
 * Remote interviews with Veterans
@@ -65,11 +73,9 @@ What we want to learn:
 
 ## Timeline
 
-We recommend starting this research while the designs are still being worked on, and finish before the developers begin building the card in the mobile app.
+We recommend starting this research while designs are still being worked on, and finishing before developers build the card in the mobile app.
 
-The best time to test these ideas is while we can still easily change the designs based on what we learn.
-
-We want to give our developers a plan that we know works for Veterans and VA staff, so we don't have to go back and fix expensive mistakes later
+If we wait until development starts and then discover the barcode doesn't scan on phones, or Veterans don't trust it, we'll need expensive rework.
 
 
 ## Archive
