@@ -1,6 +1,4 @@
-    # VHIC: Veteran Healthcare Identification Card
-
-UX Research: initial notes, thoughts, and questions
+# Proposed research for VHIC: Veteran Healthcare Identification Card
 
 * August 2025
 * Team: Mobile Feature Support
