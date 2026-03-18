@@ -6,7 +6,7 @@ Last updated: 11/20/2025
 - [ADR 003 - Password Encryption](#ADR-003---Password-Encryption)
 - [ADR 004 - File Type Validation](#ADR-004---File-Type-Validation)
 - [ADR 005 - Display read-only data via dt instead of inert](#ADR-005---Display-read--only-data-via-dt-instead-of-inert)
-- [ADR 006 - Make available older password version for claim-status only](#ADR-006---Make-available-older-password-version-for-claim--status-only)
+- [ADR 006 - Make available older password version for claim-status only](#ADR-006---Make-available-older-password-version-for-claim---status-only)
 
 
 ## ADR 001 - Limiting the built-in functionality for encrypted and password protected files
