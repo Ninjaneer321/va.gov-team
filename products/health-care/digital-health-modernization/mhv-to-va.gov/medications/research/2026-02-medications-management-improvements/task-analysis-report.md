@@ -28,11 +28,11 @@ Participants are split on how they refill: 5 primarily use VA.gov on a computer,
 
 ## Task 1: Find the refill status of Lipitor
 
-### Theme 1: Veterans default to the refill page first and must redirect to find submitted requests (6 of 9)
+### Theme 1: Veterans default to the refill page first and must redirect to find submitted requests (7 of 9)
 
 Most participants initially navigated to "Refill VA medications" expecting it to show all medications, including those already submitted. When Lipitor wasn't listed, they had to find an alternate path to either the In-Progress Medications page or Medication History page. The distinction between "refill" (action), "in-progress" (tracking), and "review" (history) was not intuitive, and several participants were confused about which option to choose. Cross-links like "Go to in-progress medications" were often missed or not understood without moderator prompting.
 
-**Participants:** P1, P5, P7, P8, P12, P15
+**Participants:** P1, P4, P5, P7, P12, P13, P15
 
 - P1: "Because I anticipate that if I click on it, it will give me all of my medications, and hopefully the ones that, might need... are probably pending in that regard. But I see here that my Lipitor is not here, so I'm probably in the wrong tab."
 - P1: "The reason why is because, like, medications you can refill now, and I think for me, I just gravitate towards, like the things that are in bold right away, so I look at my metformin, in this case, metformin, Zantac, and Zenbound, but I don't see my Lipitor."
@@ -48,27 +48,27 @@ Most participants initially navigated to "Refill VA medications" expecting it to
 All participants who encountered the grey Lipitor card correctly interpreted it as meaning the refill was submitted too soon and no action was needed. However, 3 participants scrolled past or initially missed the grey card on the In-Progress Medications page, suggesting its visual treatment makes it easy to overlook among the other status groupings.
 
 **Participants who understood:** P1, P4, P5, P7, P8, P12, P13, P15, P16
-**Participants who had difficulty locating:** P1, P8, P13
+**Participants who had difficulty locating:** P1, P12, P13
 
 - P4: "So, they're not gonna send it... they're not gonna ship it yet. I don't need to do anything, because it's already in progress."
 - P7: "It's telling that you, that you ordered it too soon. And, it'll be shipped when it reaches its, its, time to be submitted."
 - P8: "It says submitted December 13-25, let's say that I... I did submit it on December 13-25, and it says 2 ready to refill, no action needed. I wouldn't... I would just go on to something else, because I already know that when it tells me no action needed, that means it's already on the computer to be shipped to me."
 - P13: "I guess I requested it too soon. Because I... According to the prescribed dosages and everything that the pharmacist calculates, I shouldn't have run out of that medication yet, so when that calculation is made, and that date is hit, they'll ship it out."
-- P1 (after missing it): "Oh, wait, yeah, Lipperto is there. Oh my god, I missed it. Wow, maybe I need to put on my extra goggles."
+- P1 (after missing it): "Oh, wait, yeah, Lipitor is there. Oh my god, I missed it. Wow, maybe I need to put on my extra goggles."
 - P1: "Request submitted. Okay, so these are probably the medications that I've already submitted for. These are the ones that are in progress, and these are the ones that are heading to me, so that's helpful, but I still don't see my Lipitor."
 
 ### Theme 3: Veterans trust the system will automatically process and ship the medication but want an estimated date (5 of 9 trust auto-processing; 3 of 9 want a date)
 
 After reading the grey card, 5 participants expressed confidence that the VA would handle the refill automatically once eligible and that they would not need to take further action (P1, P4, P7, P13, P15). However, 3 participants wanted more specificity, such as an expected refill eligibility date or delivery window, rather than simply being told "too early" (P1, P8, P16). Notably, P1 expressed both trust in the automatic process and a desire for a projected date, suggesting these sentiments are not mutually exclusive.
 
-- P1: "It's kind of reassuring that once we're able to, we'll ship... we'll ship these medications to you, you don't have to do anything. So, I like that part. I think, for me, that's... that's very helpful."
+- P1: "It's kind of reassuring that once we're able to, we'll ship... we'll ship these medications to you, you don't have to do anything. So, I like that part."
 - P15: "It tells me... it looks like it's going to automatically ship it when it's when it's, time to do so."
 - P13: "When that calculation is made, and that date is hit, they'll ship it out."
 - P4: "I don't need to do anything, because it's already in progress."
 - P8: "It's too early to refill... we will expect it to be refilled between a certain date and a certain date."
 - P16: "So depending on when I submitted that, December 20th, depending on what today is, if it's within 7 days, I'm gonna give it 7 days and then start calling and following up to figure out where it is."
 
-### Theme 4: In-progress medications page statuses are generally well understood (7 of 9)
+### Theme 4: In-progress medications page statuses are generally well understood (7 of 8; P7 excluded due to screen freeze)
 
 When participants reached the In-Progress Medications page, most correctly interpreted the three progress states (Request Submitted, Fill in Progress, Medication Shipped) and understood the sequential flow. Participants found the page valuable for confirming what had been requested and tracking order status.
 
@@ -98,12 +98,12 @@ Most participants did not have a clear or direct path to the Medication History 
 - P8: "I don't have a whole lot of faith that this site will have all my medications, that's the problem."
 - P4: "In the civilian world, and they usually have, like, the doctor's notes written up, and that tells me usually what prescriptions they've given me. So, if it's under the appointments, which I'm not sure of, I would look under that as well."
 
-### Theme 2: "Inactive medications" is the most intuitive filter for old medications, but the radio button plus "Update list" pattern causes friction (7 of 9 identified "Inactive" as the right filter; 4 of 9 did not click "Update list")
+### Theme 2: "Inactive medications" is the most intuitive filter for old medications, but the radio button plus "Update list" pattern causes friction (7 of 9 identified "Inactive" as the right filter; 4 of 8 did not click "Update list")
 
 Most participants correctly associated "Inactive medications" with older or discontinued medications. However, nearly half selected the radio button but did not click the "Update list" button, expecting the list to update automatically. When the page appeared unchanged, participants became confused or assumed the medication was not there. A few participants chose "All medications" instead as a safety net because they were unsure which category the cream would fall into and did not want to miss it (P1, P13, P16).
 
-**Identified "Inactive" as the right filter:** P1, P5, P7, P8, P12, P15, P16
-**Did not click "Update list":** P5, P8, P12, P15
+**Identified "Inactive" as the right filter:** P1, P5, P7, P8, P12, P15, P16  
+**Did not click "Update list":** P5, P8, P12, P15  
 **Chose "All medications" instead:** P1, P13, P16
 
 - P1 (on what "Inactive" means): "Medications that have expired or maybe I'm no longer using."
@@ -130,18 +130,18 @@ Once participants located the rash cream and confirmed it was inactive, most und
 
 Most participants were able to find Metformin and complete the refill request, though they arrived at the refillable medication list through different paths. Some navigated directly to the Medications page, while others started on the Medication History page and had to redirect. Two participants (P12, P15) initially considered non-digital paths like calling the pharmacy or messaging their doctor before being redirected to the refill flow. Once on the correct page, the refill interaction (checkbox plus "Request refill" button) was familiar and straightforward for most.
 
-**Completed successfully:** P1, P4, P5, P8, P12, P13, P16
+**Completed successfully:** P1, P4, P5, P8, P12, P13, P16  
 **Initially considered alternate paths:** P12, P15
 
 - P8: "This is in the territory I'm acquainted with because I do this all the time."
 - P15: "Actually, I wouldn't... I probably wouldn't go here. I would probably, look, on the bottle. Call to the... call to the pharmacy and tell them what the situation is and get their help in getting a new prescription."
 - P8: "If I see anything else while I'm doing this, I'd click on that as well. That's why I like the list because there might be things there I didn't think of."
 
-### Theme 2: The green success alert is immediately noticed and builds confidence, and the "Go to in-progress medications" link within it is used to verify the request (6 of 8)
+### Theme 2: The green success alert is immediately noticed and builds confidence, and the "Go to your in-progress medications" link within it is used to verify the request (6 of 7)
 
-After submitting the refill, participants consistently noticed the green success alert and interpreted it as confirmation that the request went through. Most then clicked the "Go to your in-progress medications" link within the alert to verify the status of their submission. This was a natural trust-building step, with several participants stating they wanted to make sure there were no glitches or that the request actually "dropped in."
+After submitting the refill, all 7 participants who completed the refill noticed the green success alert and interpreted it as confirmation that the request went through. 6 of 7 then clicked the "Go to your in-progress medications" link within the alert to verify the status of their submission. This was a natural trust-building step, with several participants stating they wanted to make sure there were no glitches or that the request actually "dropped in." P4 did not click the link but understood the alert as confirmation.
 
-**Participants:** P1, P4, P5, P8, P13, P16
+**Participants who clicked the link:** P1, P5, P8, P12, P13, P16
 
 - P16: "Says it's good so it's not too early."
 - P16: "Just wanting to make sure that there's no glitch in system, I would probably click on that in-progress medication."
@@ -168,7 +168,7 @@ Consistent with Task 2 findings, participants who began the refill task from the
 
 By this point in the session, most participants had already visited the Medication History page during earlier tasks and were able to return to it with less difficulty. However, once there, participants were divided on which filter represented their "current medications." Some equated "current" with "Active medications," while others preferred "All medications" to be thorough and ensure nothing was missed, particularly if they wanted their doctor to see the full picture. This suggests the term "current medications" means different things to different Veterans depending on the context of why they need the list.
 
-**Selected "Active medications":** P1, P5, P8, P12, P15
+**Selected "Active medications":** P1, P5, P8, P12, P15  
 **Selected "All medications":** P4, P13, P16
 
 - P13: "I could just print the whole list out, and anything that was... that I wasn't currently taking, or had no questions about, I could just cross it off the list, so I had a solid list to bring with me."
@@ -176,22 +176,22 @@ By this point in the session, most participants had already visited the Medicati
 - P16 (on why not Active): "Yeah, because I want them to see what I was on... just for me being thorough, I would probably do that so he has the history."
 - P16: Says it depends on the goal: if only bringing current medications, would select Active; if wanting to be thorough, would print all medications.
 
-### Theme 2: The print feature at the bottom of the page is difficult to find and does not match Veterans' expectations for where a print function should be (5 of 8)
+### Theme 2: The print feature at the bottom of the page is difficult to find and does not match Veterans' expectations for where a print function should be (4 of 8)
 
 Multiple participants had difficulty locating the print feature, which sits at the bottom of the medication list. Some scrolled past it, others expected to find it higher on the page or assumed they would use their browser's built-in print function (e.g., right-click to print). The print feature's placement below a potentially long medication list means Veterans must scroll through every entry before discovering it.
 
-**Participants who had difficulty locating print:** P4, P5, P8, P12, P15
+**Participants who had difficulty locating print:** P4, P5, P12, P15
 
 - P4: "I would go to review and print list of medications. And I would do all medications that's listed, then I'd look for... the print... Which I don't see. Let me go down to the bottom. Oh, there it is! Print or download medications list. Then I would select that."
 - P15: "Let's see, is there a print capability in this? Don't see it."
 - P12: States the print feature did not pop out to her; says she would right-click to print instead.
 - P5: States he would not normally scroll to the bottom of the page to print and would instead use the browser print function.
 
-### Theme 3: The "Update list" button continues to be a persistent usability issue across tasks (3 of 8)
+### Theme 3: The "Update list" button continues to be a persistent usability issue across tasks (2 of 8)
 
 Consistent with findings from Tasks 2 and 3, participants selected a radio button filter but did not click "Update list" to apply it. In this task, the issue directly impacted the print goal because participants believed they were viewing a filtered list (e.g., "All medications") when the page had not actually changed, meaning any printout would not reflect their intended selection.
 
-**Participants:** P4, P12, P16
+**Participants:** P4, P16
 
 - P16: Selected "All medications" but did not click "Update list," preventing him from seeing the full list he expected to print.
 - P4: Clicked "All medications" but did not apply the filter; scrolled down believing she was viewing all medications.
@@ -200,9 +200,9 @@ Consistent with findings from Tasks 2 and 3, participants selected a radio butto
 
 ## Task 5: Refill all eligible medications at once
 
-### Theme 1: The bulk refill flow is intuitive and well-received (6 of 6; P1, P7, P15 excluded)
+### Theme 1: The bulk refill flow is intuitive and well-received (6 of 6; P1 and P15 excluded as task was added after their sessions; P7 excluded due to screen freeze)
 
-All participants who completed this task were able to locate the refillable medications list and understood how to use the "Select all" checkbox to request multiple refills at once. The interaction pattern (select checkbox, click "Request refills" button) was straightforward, and participants reacted positively to the ability to refill all medications in one action rather than going through each one individually.
+All participants who completed this task were able to locate the refillable medications list and understood how to use the "Select all" checkbox to request multiple refills at once. The interaction pattern (select checkbox, click "Request refills" button) was straightforward, and participants reacted positively to the ability to refill all medications in one action rather than going through each individual one.
 
 **Participants:** P4, P5, P8, P12, P13, P16
 
@@ -216,7 +216,7 @@ All participants who completed this task were able to locate the refillable medi
 
 Consistent with Task 3 findings, participants relied on the green success alert as confirmation that the request went through and then wanted to navigate to the In-Progress Medications page to verify their submissions appeared. However, the path to verification varied: some used the "Go to your in-progress medications" link within the success alert, while others navigated back through the landing page or other links, suggesting the most direct verification path is not always the one Veterans choose.
 
-**Participants:** P5, P13, P16, P12
+**Participants:** P5, P12, P13, P16
 
 - P5 (on why he would click the renewable medications link instead of the in-progress link): "Because I would see it as a... Kind of like going back to the start, I like a refreshed page."
 - P16: "I'm assuming once I click that, all three of them auto-populate, and then I request the refills in bulk."
@@ -240,9 +240,9 @@ All participants who completed the session described the experience positively, 
 - P15: "Seems to be pretty intuitive." "This actually looks... Not sure I've seen some of this screen before, but this seems to be pretty intuitive."
 - P16: "I've really enjoyed being able to not have to call and submit prescriptions, or do the automated telephone number where you have to enter your prescription number, and now I have to go find my prescription to figure out what that is, and enter my birthday and all that. It's so much easier to go on the app."
 
-### Theme 2: Despite positive sentiment, Veterans acknowledge the experience could be simpler for older or less tech-savvy users (3 of 8)
+### Theme 2: Despite positive sentiment, some Veterans noted the experience may require a learning curve for older users (3 of 8)
 
-While overall feedback was positive, a few participants noted that the experience still requires a learning curve and may present challenges for older Veterans or those less comfortable with technology. P8 in particular emphasized that simplification would benefit elderly Veterans, even though he himself was able to complete the tasks. P12's reflection that the session was a "learning experience" suggests there are features she had not previously discovered on her own despite years of use.
+While overall feedback was positive, a few participants noted that the experience still requires a learning curve and may present challenges for older Veterans. P8 in particular emphasized that simplification would benefit elderly Veterans, even though he himself was able to complete the tasks. P12's reflection that the session was a "learning experience" suggests there are features she had not previously discovered on her own despite years of use. P4 noted that the experience felt easy once understood, which also points to some initial learnability.
 
 **Participants:** P8, P12, P4
 
@@ -268,7 +268,7 @@ While overall feedback was positive, a few participants noted that the experienc
 
 ## Wrap-up: Difficulties and what users would change
 
-7 of 9 participants provided feedback (P13 did not respond; P4 and P5 stated they would not change anything). Two recurring themes emerged:
+8 of 9 participants provided feedback (P13 did not respond). P4 and P5 stated they would not change anything. Two recurring themes emerged:
 
 - **Make cross-links and print feature more visible.** P12 suggested making the "blue section" (cross-links) bigger across pages: "Most people are probably older now, and we really can't see anything." P16 recommended relabeling the "Submit" button to "Print." Both echo discoverability issues seen in Tasks 1 and 4.
-- **Add timing information to "too early to refill" status.** P1 requested estimated ship dates on the grey card and P15 described repeatedly checking the site to confirm refill status because he has no way of knowing when to expect medications. This reinforces Finding 3 from Tasks 1 and 5.
+- **Add timing information to "too early to refill" status.** P1 requested estimated ship dates on the grey card and P15 described repeatedly checking the site to confirm refill status because he has no way of knowing when to expect medications. This reinforces Finding 3 from Task 1.

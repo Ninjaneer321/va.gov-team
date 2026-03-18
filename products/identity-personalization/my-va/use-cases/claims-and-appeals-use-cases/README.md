@@ -32,11 +32,14 @@
 <details><summary>User does not have an open claim or appeal, or one that has been closed in the last 60 days</summary>
 
 - **Use case:** If a logged in LOA3 user does not have an open claim or appeal or one that has been closed in the last 60 days, they will see informational text and be provided a link to check all claims and appeals.
-- **Status code:** TBD
 - **Format:** Paragraph copy. See designs.
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5165-13907&t=Qplg9wUFJEDlP70M-1)
-- [Link to code]
 - **Content:** See designs.
+- **Status codes:**
+   - 200 GET /v0/benefits_claims
+   - 200 GET /v0/appeals
+- **Frontend components:**
+   - src/applications/personalization/dashboard/components/claims-and-appeals/ClaimsAndAppeals.jsx
 
 </details>
 
@@ -44,23 +47,30 @@
 <details><summary>User has an open claim or appeal</summary>
 
 - **Use case:** If a LOA3 user has an open claim or appeal, they will see a card in this section that tells them the type of claim or appeal, the date the application was received, a current status update, and a link to "Review details" which links to the details page for that specific claim in the claims tool. The claim details link is specific to the claim card. It is in the following format and the ###### is the claim number: https://va.gov/track-claims/your-claims/########/status.
-- **Status code:** TBD
 - **Format:** [Card component](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5069-18389&t=Qplg9wUFJEDlP70M-1)
-- [Link to code]
 - **Content:** Varies on claim and appeal type.
-
+- **Status codes:**
+   - 200 GET /v0/benefits_claims
+   - 200 GET /v0/appeals
+- **Frontend components:**
+   - src/applications/personalization/dashboard/components/claims-and-appeals/Claim.jsx
+   - src/applications/personalization/dashboard/components/claims-and-appeals/Appeal.jsx
 </details>
 
 
 <details><summary>User has a claim or appeal that has been closed in the last 60 days</summary>
 
 - **Use case:** If a logged in LOA3 user has a claim or appeal that has been closed in the last 60 days, they will see a card in this section that tells them the type of claim or appeal, the date the application was received, a current status update of “Complete”, and a link to "Review details" which links to the details page for that specific claim in the claims tool. The claim details link is specific to the claim card. It is in the following format and the ###### is the claim number: https://va.gov/track-claims/your-claims/########/status. Once a claim or appeal has been closed for longer than 60 days, the status card will no longer show on My VA.
-- **Status code:** TBD
 - **Format:** [Card component](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5069-18446&t=Qplg9wUFJEDlP70M-1)
-- [Link to code]
 - **Content:** Varies on claim and appeal type. See code.
+- **Status codes:**
+   - 200 GET /v0/benefits_claims
+   - 200 GET /v0/appeals
+- **Frontend components:**
+   - src/applications/personalization/dashboard/components/claims-and-appeals/Claim.jsx
+   - src/applications/personalization/dashboard/components/claims-and-appeals/Appeal.jsx
 
 </details>
 
@@ -70,11 +80,13 @@
 <details><summary>User does not have a disability rating</summary>
 
 - **Use case:** If a logged in LOA3 user does not have a disability rating they see information informing them they do not have a disability rating, and a link to learn more.
-- **Status code:** TBD
 - **Format:** Paragraph copy. See designs.
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5261-51052&t=KhCgIDPMpZ6FClDG-1)
-- [Link to code]
 - **Content:** See designs.
+- **Status codes:**
+   - 200 GET /v0/disability_compensation_form/rating_infos
+- **Frontend components:**
+   - src/applications/personalization/dashboard/components/claims-and-appeals/DisabilityRatingCard.jsx
 
 </details>
 
@@ -82,11 +94,13 @@
 <details><summary>User has a disability rating</summary>
 
 - **Use case:** If a logged in LOA3 user has a disability rating they see a card with their combined disability rating, and a link to review the rating breakdown.
-- **Status code:** 200
 - **Format:** [Card component](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5072-18503&t=Qplg9wUFJEDlP70M-1)
-- [Link to code]
 - **Content:** See designs.
+- **Status codes:**
+   - 200 GET /v0/disability_compensation_form/rating_infos
+- **Frontend components:**
+   - src/applications/personalization/dashboard/components/claims-and-appeals/DisabilityRatingCard.jsx
 
 </details>
 
@@ -104,13 +118,13 @@ There are no flags with this feature.
 <details><summary>Claims API down</summary>
   
 - **Use case:** If an LOA3 user logs in when only /benefits_claims is down the user will see the claims alert and highlighted appeal (if one exists) A link to go to the claims tracker still shows in the section.
-- **Status code:** TBD
 - **Format:** [Warning slim alert](https://design.va.gov/components/alert/#web-2)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5074-19242&t=yjkBCJLUxO0o87bU-1)
-- [Link to code]
-- **Content:**
-
-We can't show some of your claims information right now. Refresh this page or try again later.
+- **Content:** We can't show some of your claims information right now. Refresh this page or try again later.
+- **Status codes:**
+   - 400 GET /v0/benefits_claims
+- **Frontend components:**
+   - src/applications/personalization/dashboard/components/claims-and-appeals/ClaimsAndAppeals.jsx
 
 </details>
 
@@ -118,39 +132,40 @@ We can't show some of your claims information right now. Refresh this page or tr
 <details><summary>Appeals API down</summary>
   
 - **Use case:** If an LOA3 user logs in and when only /appeals is down the user will see the appeals alert and highlighted claim (if one exists). A link to go to the claims tracker still shows in the section.
-- **Status code:** TBD
 - **Format:** [Warning slim alert](https://design.va.gov/components/alert/#web-2)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=8211-14362&t=yjkBCJLUxO0o87bU-1)
-- [Link to code]
-- **Content:**
-
-We can't show some of your appeals information right now. Refresh this page or try again later.
+- **Content:** We can't show some of your appeals information right now. Refresh this page or try again later.
+- **Status codes:**
+   - 400 GET /v0/appeals
+- **Frontend components:**
+   - src/applications/personalization/dashboard/components/claims-and-appeals/ClaimsAndAppeals.jsx
 
 </details>
 
 <details><summary>The claims and appeals API is down and we can’t display both claims and appeals information</summary>
   
 - **Use case:** If an LOA3 user logs in and there is an error with the both claims and appeals API, then we will not be able to show a card for any recent cliams or appeal updates. A link to go to the claims tracker still shows in the section.
-- **Status code:** TBD
 - **Format:** [Warning slim alert](https://design.va.gov/components/alert/#web-2)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=8247-14376&t=rznelY3nvWqXfG8v-1)
-- [Link to code]
-- **Content:**
-
-We can't show some of your claims or appeals information right now. Refresh this page or try again later.
+- **Content:** We can't show some of your claims or appeals information right now. Refresh this page or try again later.
+- **Status codes:**
+   - 400 GET /v0/benefits_claims
+   - 400 GET /v0/appeals
+- **Frontend components:**
+   - src/applications/personalization/dashboard/components/claims-and-appeals/ClaimsAndAppeals.jsx
 
 </details>
 
 <details><summary>The API that shows the disability rating is down</summary>
   
 - **Use case:** If an LOA3 user logs in and there is an error with the API that displays the disability rating, then we show an alert informing the user the information is currently unavailable. A link to the disability page is still available in the section.
-- **Status code:** TBD
 - **Format:** [Warning slim alert](https://design.va.gov/components/alert/#warning-alert)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5072-18605&t=Qplg9wUFJEDlP70M-1)
-- [Link to code]
-- **Content:**
-
-We can't show your disability rating right now. Refresh this page or try again later.
+- **Content:** We can't show your disability rating right now. Refresh this page or try again later.
+- **Status codes:**
+   - 400 GET /v0/disability_compensation_form/rating_infos
+- **Frontend components:**
+   - src/applications/personalization/dashboard/components/claims-and-appeals/DisabilityRatingCard.jsx
 
 </details>
 

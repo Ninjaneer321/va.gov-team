@@ -3,6 +3,8 @@
 ## Summary
 
 - [Template](#template-topic)
+- [Agent Resolution Description Field](#agent-resolution-description-field)
+- [Inquiry Status Audit](#inquiry-status-audit)
 - [Unauthenticated Inquiries](#unauthenticated-inquiries)
 - [Mobile Usage](#mobile-usage)
 - [Business vs Personal](#business-vs-personal)
@@ -55,6 +57,38 @@ _Date of Data: Dec 1, 2025-Jan 31, 2026_
 
 
 Data Source: [Link](https://dvagov.sharepoint.com/:x:/r/sites/AskVA/Shared%20Documents/General/AVA%20VA.gov%20Team/Research%20%26%20Design/CRM%20Data%20Reports/Elena%20Inquiry%202-2-2026%20Description%20Field%20On%20Resolved%20Inqs.xlsx?d=w61cab9775d08416597f2c64f8d248bf0&csf=1&web=1&e=dsvNYh)
+
+## Inquiry Status Audit
+### How often are Solved inquiries sent without a response, reopened, and marked as a duplicate? 
+_March 17, 2026_
+
+**Description:** I was trying to better understand how to reconcile different inquiry statuses in order to understand if we need to update the labels on the VA.gov side in particular. 
+
+_Date of Data: Jul 2025 - Dec 2025_
+
+### Monthly Average Solved Inquiries by Number of Responses Sent 
+| Responses sent | %  | Count |
+|---|---:|---:|
+| 0 responses | 0.02% | 9 |
+| 1–2 responses | 3.79% | 2,162 |
+| 3–5 responses | 88.17% | 49,279 |
+| 6+ responses | 8.02% | 4,528 |
+
+### Monthly Average Solved Inquiries by Times Reopened
+| Times Reopened | %  | Count |
+|---|---:|---:|
+| 0 times | 92.67% | 51,834 |
+| 1 time | 5.66% | 3,197 |
+| 2+ times | 1.66% | 946 |
+
+### Monthly Average Solved Inquiries by Solved Reason 
+| Reason | %  | Count |
+|---|---:|---:|
+| Duplicate | 0.21% | 115 |
+Resolved | 99.81% | 55,874|
+
+Data Source: [Link](https://dvagov.sharepoint.com/:x:/r/sites/AskVA/Shared%20Documents/General/AVA%20CRM%20Team/Design%20%26%20Research/Data%20Queries/InquiriesSolvedReopenedByMonth_2025.xlsx?d=wd1d3266eab1b4f82b735f13790a27ba6&csf=1&web=1&e=h2dLPb)
+
 
 
 

@@ -196,10 +196,6 @@ synthesis_tools_used:
 
 *Provide detailed descriptions and supporting evidence for each key finding.*  
 
-> [!TIP]
-> **After drafting your detailed findings, apply OCTO metadata labels to enable automated pattern detection and cross-study aggregation.**
-> Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
-
 ### Finding 1
 Brief description  
 - _Supporting data: Quote [add context]_  

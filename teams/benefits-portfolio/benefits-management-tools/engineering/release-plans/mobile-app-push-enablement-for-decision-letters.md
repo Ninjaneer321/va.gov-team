@@ -243,7 +243,7 @@ We will be performing a progressive rollout to be able to minimize the productio
 
 #### Results
 
-- Turned on 3/2 9:50a PT (Data below calculated from 3/4 12:30p)
+- Turned on 3/2 9:50a PT (Data below calculated as of 3/4 12:30p)
 - Number of unique users: 45540 notifications sent
 - Metrics at this stage (per your "success criteria"):
     - [x] DataDog errors < 5% (3.4% observed)
@@ -270,13 +270,13 @@ Continue to check in on the KPIs of your feature at periodic intervals to ensure
 
 ### 1-week results
 
-- Number of unique users: [FILL_IN]
-- Post-launch KPI 1 actual: [FILL_IN]
-- Post-launch KPI 2 actual: [FILL_IN]
-- Post-launch KPI 3 actual: [FILL_IN]
-- Any issues with VA handling/processing?:  [PICK_ONE]: yes | no |  N/A
-- Types of errors logged: [FILL_IN]
-- Any changes necessary based on the logs, feedback on user challenges, or VA challenges? [PICK_ONE]: yes | no |  N/A
+Dates: 3/2 9:50a - 3/11 11:59p
+- Number of unique users: 156,340 push notifications sent
+- Post-launch KPI 1 actual:  DataDog errors < 5% (4.1% observed)
+- Post-launch KPI 2 actual: 11.9% click through rate overall (Estimated 3/3-3/11 17174 clicks, 14410 sent)
+- Any issues with VA handling/processing?:  No
+- Types of errors logged: No new error types observed (MPI Profile, missing ssn, )
+- Any changes necessary based on the logs, feedback on user challenges, or VA challenges? no
 - If yes, what: [FILL_IN]
 
 ### 1-month results
@@ -295,7 +295,8 @@ Continue to check in on the KPIs of your feature at periodic intervals to ensure
 *To be completed once you have gathered your initial set of data, as outlined above.*
 
 1. How do the KPIs you gathered compare to your pre-launch definition(s) of "success"?
-1. What qualitative feedback have you gathered from users or other stakeholders?
-1. Which assumptions you listed in your product outline were/were not validated?
-1. How might your product evolve now or in the future based on these results?
-1. What technical tasks are needed to clean up (i.e., removal of feature toggles)?
+2. What qualitative feedback have you gathered from users or other stakeholders?
+3. How might your product evolve now or in the future based on these results?
+    - No know improvements at this time
+4. What technical tasks are needed to clean up (i.e., removal of feature toggles)? 
+    - Feature flag removal

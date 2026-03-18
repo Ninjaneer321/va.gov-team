@@ -118,10 +118,6 @@ This initiative directly supports the OKR "VA's digital experiences are the easi
 - Enhanced file upload capability for DD-214/other military documents
 - Responsive design across devices
 
-     - **Decisions made**
-          - We will have a single file upload page conditional upon whether the Veteran answers Yes to adding service history (either/or) TERA questions
-          - 1/8/2026 - Decision made to use VA Profile as data source
-
 **Explicitly not included:**
 - Historical service record corrections (focuses on new/recent periods)
      - Any DOD records that need corrections can only be initiated by the Veteran through specific channels
@@ -130,6 +126,12 @@ This initiative directly supports the OKR "VA's digital experiences are the easi
 **Mobile application consideration:**
 Should be designed mobile-first given the form-filling nature of the experience and ensure consistency with existing 10-10EZ mobile patterns.
 
+### Decisions made
+- We will have a single file upload page conditional upon whether the Veteran answers Yes to adding service history (either/or) TERA questions
+- 1/8/2026 - Decision made to use VA Profile as data source
+- 3/17/2026 - For display of service history, we will pull and display the latest concluded episode (the last service period with an end date).  If the data from VA Profile does not include a service period with an end date, we will display nothing.  This will result in the Veteran being prompted to add their latest service history.
+     - We expect this scenario to be rare in occurrence.
+     - Feedback and survey results are captured on a monthly basis and the team will watch for anything regarding the service history section, revisiting this decision if needed.
 ---
 
 ## Launch Planning

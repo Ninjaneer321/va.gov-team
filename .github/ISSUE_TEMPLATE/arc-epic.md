@@ -14,14 +14,10 @@ type: Epic
 **Deliverable(s) / Acceptance criteria**: 
 - [ ] <!-- What results will confirm this work is complete? -->
 
-**Estimated time**: 
-<!-- How many sprints do you anticipate this project spanning? Break down your estimate (what would you do each sprint, to get to the total?) -->
-
-**Status**: 
-<!-- What is the status of this epic? What should new teams who are just seeing this epic know, when planning to pick up this work? -->
-
 **Resources**: 
 <!-- Include links to product documentation, Figma design files, Mural boards, etc. -->
+- Product Outline:
+- Slack Planning Canvas:
 
 ---
 

@@ -1,4 +1,4 @@
-# Michigan Cutover Weekend Communication & Coordination Plan - WIP
+# Michigan Cutover Weekend Communication & Coordination Plan
 **Go-Live Date:** April 11, 2025 | **Anticipated all clear:** 7:00 AM ET
 
 ---
@@ -27,7 +27,7 @@ For every task listed below, the responsible team member should post **two updat
 If a task encounters a problem or delay, post immediately:
 > `🚨 ISSUE | T-0 | [Brief description of problem] | [Name] — escalating to [contact]`
 
-For tasks that also need to be reported out on the **Oracle bridge line**, the person responsible should post in Slack first, then report on the bridge line.
+For tasks that also need to be reported out on the **Oracle bridge line**, the person responsible should post in Slack first, then coordinate with POC to report on the bridge line.
 
 ---
 
@@ -58,15 +58,13 @@ This is the highest-coordination period. All updates go to Slack **and** the Ora
 | **7:00 AM** | Update medication statuses to "transferred" in VA.gov database so Oracle Health medications populate in UI | Rx API | Slack |
 | **8:00 AM onward** | Perform final PHR VPR extract (full PHR refresh) on all Active MHV Patients from the site and load into Evault. | MR API | Slack |
 
-**⚠️ Key Dependency Note:** The VA.gov sign-up service job and Is_Messageable flag tasks **cannot begin until the 200CRNR field is confirmed set**. Monitor the Bridge Line and Slack for this confirmation. If there is any timing discrepancy (previous information suggested it might not be set until 10:00 AM April 11), this needs to be escalated immediately.
-
 ---
 
 ## Validation
 
 Once the interface is live, a production validation step is required to officially mark VA.gov as **"Operational"** in the Oracle cutover dashboard. This is tracked in the Oracle cutover plan as a "Production Validation" step.
 
-- VA.gov/OCTO will use **trusted users** (VA staff who are also veterans at Michigan facilities - already identified) to validate that the experience is working as expected after go-live
+- VA.gov/OCTO will use **trusted users** (VA staff who are also Veterans at Michigan facilities - already identified) to validate that the experience is working as expected after go-live
 - Once validated, report **✅ VALIDATED — VA.gov operational** in Slack and on the bridge line
 - Larry Thorne can assist with tagging this step in the Oracle cutover plan so it reflects as validated on the dashboard
 

@@ -216,7 +216,7 @@ Did you get the link?
 
 I’d like you to pretend that you are looking for the closest Veteran cemetery to you. Please go ahead and try clicking through to find that, still thinking aloud. 
 
-* *Input zip code or city, state*  
+* *Input zip code or city, state*  [FOR AT TESTING: Did you notice the locate me link? Did that work the way you expected?]
 * *Select VA cemeteries as facility type*  
 * *Select search*
 

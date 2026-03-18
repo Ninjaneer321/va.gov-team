@@ -1,5 +1,21 @@
 Participant 2 – Transcript
-03-02-26
+
+| Date | 03-02-26 |
+| :---- | :---- |
+| **Gender** | Female |
+| **Age** | 55-59 |
+| **Race/ethnicity** | White or Caucasian |
+| **Education level** | Master's degree, Master’s degree |
+| **Branch** | Marine Corps, Navy |
+| **Location** | West |
+| **Device** | Desktop or laptop computer |
+| **Debts** | Disability compensation and pension overpayment |
+| **Payment plan** | Yes |
+| **Hardship statement** | I have experienced financial hardship. |
+| **Income less than 50K?** | No |
+| **LGBTQ+** | No |
+| **Cognitive disability** | No |
+| **Resides** | Urban |
 
 1
 00:00:00.000 --> 00:00:01.310
@@ -3343,7 +3359,7 @@ Moderator: Right.
 
 836
 01:19:16.180 --> 01:19:27.849
-Participant: And then, now you want to clot back, but you don't have the tech systems in place to show payment, or if I wanted to… why would I make a payment when you're just going to take it off the top anyways?
+Participant: And then, now you want to claw it back, but you don't have the tech systems in place to show payment, or if I wanted to… why would I make a payment when you're just going to take it off the top anyways?
 
 837
 01:19:28.260 --> 01:19:28.880

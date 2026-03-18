@@ -167,7 +167,7 @@ confusion?]
 
 ## Second Task: [Schedule an appointment with a social worker] - 10 minutes
 
-Imagine that you want to schedule a social work appointment. UsUse the screen to
+Imagine that you want to schedule a social work appointment. Use the screen to
 navigate and schedule that appointment. Please “think out loud” as you go and share anything you like or if anything is confusion. 
 
 **Reminder for moderator to let participants select a clinic, and stop them after the Calendar page**
@@ -255,7 +255,7 @@ clinicians—including your primary care provider, nurse practitioner, physician
   - How do you imagine this team would fit into scheduling your appointments?
 
 What questions do you have about how your primary care team might change where or
-when you book care? _If confused, give an example - if there is a provider outside of your dedicated care team who has availability sooner than one on your team. Would knowing that you have a team change you who pick? How might it affect scheduling habits? e.g., would you prioritize a PACT member over soonest available._
+when you book care? _If confused, give an example - if there is a provider outside of your dedicated care team who has availability sooner than one on your team, would knowing that you have a team change you who pick? How might it affect scheduling habits? e.g., would you prioritize a PACT member over soonest available._
 
 
 

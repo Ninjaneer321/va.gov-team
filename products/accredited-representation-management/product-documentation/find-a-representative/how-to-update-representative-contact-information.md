@@ -3,7 +3,7 @@ Note: The below content is only to be used on an individual basis to those who r
 
 1. Inform the Accredited Representation Management team
     1. If you have OCTO Slack access, post in #benefits-representation-management 
-    2. If not, email jennifer.bertsch@va.gov, shannon.ford1@va.gov, lindsay.li-smith@va.gov, marisa.dominguez@va.gov
+    2. If not, email jennifer.bertsch@va.gov, shannon.ford1@va.gov, lindsay.li-smith@va.gov, ian.mccullough@va.gov
 2. Provide the below "Guidance for Representatives" content to the individual who reached out on how to update the representative contact information.
 3. ARM team only: Log the occurrence in the "Occurrences" section below.
 4. ARM team only: If more than 5 occurrences happen within 7 days contact OGC (Jonathan Taylor and Nathan Kroes).

@@ -1,6 +1,21 @@
 ## FMP stakeholder sync
 Every other Wednesday at 2:35pm ET
 
+## 03/11/2026
+
+**Attendees:** Renata, Rebecca B., Leticia, Hieu, Jessica, Andrea, Dirk, Joe S., Stephanie, Andrew
+
+**Anything happening with digital submissions?**
+
+* It's FIFO, so it'll be a while before we start processing digital claims, but spot-checks have revealed nothing.
+* May 19 is roughly when the FMP team anticipates actively processing digital claims.
+
+
+Andrea stresses continuing to do more spot-checks in the next month to make sure there's no problems with the initial implementation
+
+**Decision:** In 2 weeks we can do an async check-in for spot-checks rather than a call
+
+
 ## 12/03/2025
 
 **Attendees:** Andrew S., Andrea B., Dirk R., Jennifer R., Richard M., Eileen M., Leticia D., Premal S., Andrea M., Jessica S., Mike M., Hieu V., Cindy C.

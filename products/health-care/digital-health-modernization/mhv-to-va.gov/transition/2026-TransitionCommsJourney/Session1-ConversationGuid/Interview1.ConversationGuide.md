@@ -199,7 +199,7 @@ Probes:
 
 
 
-* If you’re comfortable, please share your screen. We’ll look at what you’re seeing in your account.
+* If you’re comfortable, please share your screen. We’ll look at what you’re seeing in your account.  Please tell me what is going on with your medical appointments.
 
 **View the changes**
 

@@ -1,64 +1,61 @@
 
-# Rudisill Reconciliation - Dual Benefit Eligibility Tool Product Outline
+# Rudisill - VA Form 22-1990 Update to Include Multiple Benefit Eligibility
 ---
 
 ## Overview
 
-Streamlining the Veteran experience by expanding the capability of the My Education Benefits VA 22-1990 online education application to allow beneficiaries who may be eligible for multiple benefits to be informed of their eligibility details in real time and apply for them online. 
+The My Education Benefits team is looking to streamline the Veteran experience further by expanding the capability of the 22-1990 online education application. Updated functionality will allow beneficiaries who may be eligible for multiple benefits to be informed of their eligibility details in real time and apply for them online. 
 
 ## Problem Statement
 
-Education benefits can be hard to navigate for the Veteran population due to the variation of their circumstances; this can become more complicated when legislation changes impact eligibility criteria. Veterans who may be eligible for multiple benefits due to the Rudisill court decision, should be able to apply for the benefits they are entited to in a streamlined and accessible way. 
-
-and may bthe existing 22-1990 online application will be updated to calculate a beneficiaries eligibility (using their profile and service data) to inform them of their potential eligibility options and apply for them within the same application flow. developed to help Veterans maximize the education benefits they are entitled to. 
+Education benefits can be hard to navigate for the Veteran population due to stipulations of eligibility criteria and changes in their circumstances or service information; this becomes more complicated when legislation changes impact eligibility criteria. The Rudisill court decision has had a major impact on a Veteran's eligibility by allowing them to receive eligibility under multiple benefits. Eligible Veterans need an easy and accessible way to view their eligibility translated to GI Bill benefits in real time and be able to apply for them.  
  
 ## Desired User Outcomes
 
 - Veterans eligible for multiple benefits will have the same application options as Veterans who are eligible for a single benefit, by expanding the existing claims application approval process and UI application.
 - Veterans will be able to maximize the benefits they are entitled to through this application.
-
+- Veterans will be able to easily understand and make a decision about their GI Bill benefits that best fits their circumstances and education goals.
 
 ## Undesired User Outcomes
 
-- Veterans may have a maximum of 6 eligibility options to choose from which has the potential to cause fatigue and the wrong decision when applying for benefits.
+- Veterans may have a maximum of 6 eligibility options to choose from which has the potential to cause fatigue and increased mental load when applying for benefits.
 
 ## Desired Business Outcomes
 
-- The updated application flow aims to help Veterans understand their eligibility options, provide a recommendation to help Veterans maximize their education benefits, and give them an immediate decision streamlining the Veteran education application experience. 
+- The updated application flow aims to help Veterans easily understand their eligibility options, provide a recommendation (that both aligns with their goals and maximizes their entitlement), and in some cases gives the Veteran an immediate decision. Ultimately, streamlining the Veteran education application experience. 
 
    
 ## Undesired Business Outcomes
 
-- Users may choose an eligibility option that does not meet their education goals.
-  - Business logic will be well considered to ensure we providing the best recommendation for users. We will provide clear instruction and descriptions such that users have the neccessary to choose the best eligibility option for themselves.
+- Users may have increased fatigue when applying due to the potential maximum number of eligibility options.
+  - Business logic will be well considered to ensure we are providing the best opportunity for users. We will provide clear instruction and descriptions so that users have the necessary information to choose the best eligibility option.
 
 ---
 
 ## Assumptions
 
 The following assumptions have been made when creating our solution:
-- Users have some understanding of the education application they are using and the benefits they are intending to apply for
-- Users have an existing VA.gov or Login.gov account and have authenticated, allowing us to calculcate their eligibilty options from their service history.
+- Users have some understanding of the education application they are using and the benefits they are intending to apply for.
+- Users have an existing VA.gov or Login.gov account and have authenticated, allowing us to calculate their eligibility options from their service history.
 
 
 ## Solution Approach
 
 - We've updated the functionality for an existing application to account for Veterans who may be eligible for multiple benefits. By iterating on an existing flow, we can leverage:
   - The existing UI to reduce the development time
-  - The existing entry points to the form, reducing fatigue for users
+  - The existing entry points to the form
   - The existing claim adjudication logic to give users an instant decision, when applicable, reducing wait times and ultimately streamlining the application process
 
 - We have developed a solution that:
-  - Presents information we have on file for the user to them, to build their trust in the tool
-  - Prefills their contact information and direct deposit information, if it is in their VA profile to reduce fatigue
-  - Asks questions about their education goals, that will inform the recommended eligibility option we'll provide to them
-  - Provide them with a recommended eligibility option, to help guide users in their decision making and reduce mental fatigue
+  - Presents information we have on file back to the Veteran, to build their trust in the form
+  - Prefills contact information and direct deposit information, if it exists in a Veteran's VA profile, to reduce fatigue
+  - Asks questions about the Veteran's education goals, that will inform the recommended eligibility option 
+  - Provide a recommended eligibility option, to help guide Veterans in their decision making and reduce mental fatigue
   - Clearly displays eligibility options and provides a comparison table in another window to help digest and understand the trade-offs between options
-  - Asks questions to gather further information about the user's goals, to better inform the recommendation we'll provide
 
 ### Supporting research
    
-- N/A
+- The Rudisill court decision impacts past, current, and future GI Bill beneficiaries. The HCD team conducted user research for the [Dual Benefit Eligibility Tool](https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/1334#issuecomment-3382801010) with an intended goal of understanding how Veterans interact with a tool, designed for past beneficiaries, that gives them the opportunity to reverse their previous relinquishment and customize their remaining service days for additional GI Bill benefits. The HCD team leveraged findings related to Veteran's understanding of Rudisill, commonly used education benefit terminology, and common education goals when updating the 22-1990 form flow.
 
 --- 
 
@@ -77,6 +74,8 @@ The following assumptions have been made when creating our solution:
    
 ## Screenshots
 [Rudisill - Mobile.zip](https://github.com/user-attachments/files/25695974/Rudisill.-.Mobile.zip)
+
+[Rudisill VA Form 22-1990 Updates - Desktop.pdf.zip](https://github.com/user-attachments/files/25920432/Rudisill.VA.Form.22-1990.Updates.-.Desktop.pdf.zip)
 
 
 

@@ -236,7 +236,6 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 - `All participants must have a MHV premium account, OR an authenticated / identity-proofed ID.me account. In the email sent by Perigean, they should be informed that you will need to log in to their accounts either before or during the interview session so they should have their account details handy for the session, as they will be required to sign in.`
 - `Must identify as a gender other than male (recruit no less than 6)`
 - `Must be over the age of 55 (recruit no less than 6, and at least 3 over the age of 70)`
-- `Must have scheduled a mental health appointment (recruit no less than 7)`
 
 #### Secondary criteria (nice-to-haves)
 
@@ -258,15 +257,15 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 4. Have you scheduled or attempted to schedule a medical appointment in the last 12 months?
 	- Yes (go on to Screener question 5)
 	- No (Disqualify)
-5. Have you ever scheduled a mental health appointment?
+5. Have you scheduled at least one of the following, a primary care appointment, social work appointment, or a pharmacy appointment?
+    - Yes (go on to Screener question 6)
+    - No (Disqualify)
+6. Have you ever scheduled a mental health appointment?
 	- Yes (recruit 7)
 	- No (recruit 8)
 
 
 ## Timeline 🗓️
-> [!NOTE]
-> **Please submit artifacts for [Research Review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Research-review.1781891143.html) 8-9 days prior to the first planned research day for remote studies so Perigean can begin recruiting one week prior. Perigean requires 2+ weeks for in-person.** 
-
 
 ### Kick-off Call with Perigean
 
@@ -276,10 +275,6 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 
 
 ### Prepare
-
-**A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.** 
-> [!NOTE]
-> **Send pilot participant email in study Slack channel**
 
 - `Pilot participant name:` **Athena Bozak**
 - `Date and time of pilot session:` **3/10, 5:30pm ET** 
@@ -317,9 +312,9 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 - `Participant recruiting & screening:`	**Perigean**	
 - `Project point of contact:` **Jenny Wang, Lena Cardoso**		
 - `Note-takers:` **Enter full name** ***or*** **[Designate Perigean**	
-- `Observers:` [Link to sign-up sheet](insert URL here)
+- `Observers:` [Sign-up sheet](https://dsva.slack.com/docs/T03FECE8V/F0AL0B6E29Y)
 
 
 ## Approvals ✅
-- `Reviewed by [OCTO Product Owner, Kristen McConnell] on 08/06/2025`
+- `Reviewed by [OCTO Product Owner, Kristen McConnell] on 08/06/2025. Updated review and approvals by Kristen McConnell on 3/11/2026.`
 - `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`

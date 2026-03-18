@@ -104,7 +104,6 @@ Introduce logic that reroutes the user to the /intro page if they do either of t
 
 ### Consequences
 
-
 ### Open Questions
 N/A
 
@@ -131,14 +130,13 @@ N/A
 ### Status: Proposed
 
 - Date issue raised: 12/17/2025
-- Decision date: 12/17/2025
+- Decision date: 3/16/2026
 
 ### Context
-When discussing how multiple errors would be surfaced if there are several areas with required fields missing, the error summary experimental ticket was brought up to address possible focus issues. Currently the error only shows within the card itself, with the card state changed to error.
+Test the error summary in prefill design as a way to manage multiple errors on a page.
 
 ### Decision
+Remove error summary from prefill pattern because card-status will manage focus
 
-### Open Questions
-Are we implementing the error summary pattern(currently an experimental design) into the first release of prefill?
 
 

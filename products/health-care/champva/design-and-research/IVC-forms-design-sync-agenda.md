@@ -2,6 +2,66 @@
 
 ----
 
+
+
+## March 12, 2026
+
+Attendees: Renata, Hieu, Jessica, Andrea, John, Chantale, Premal 
+
+### Agenda - 
+- Enhanced application flow 
+- Move Signer section for CHAMPVA form
+
+
+### Enhanced application flow
+
+- UX team, Andrea met with small business team group to go over use cases for accuracy
+- Some supplemental info not accurate - anything related to an OHI, submitted through that OHI form
+
+Will work for 3 use cases
+- Pending but no CCL
+- Pending with CCL
+- Enrolled bene, submit an update (school cert, some status or life changes)
+
+
+Premal - Working in environment where they want to give us requirements now, have some ambiguity there. 
+
+
+VA meeting Katrina, Anne, Angela, Rebecca - 
+Usual meeting time for status tool questions?
+Async options (Renata mentioned)
+
+- Renata walks through Enhanced Application flow in Mural
+- flows split by enrollment status, optional ccl for enrolled
+- if CCL is optional, lets remove it 
+- Nothing identified by people on call yesterday - John's question if it adds value downstream or helps there 
+
+John - benefit to stream line anything keep, if not try and remove as much as possible 
+
+Renata - don't need to capture details in signer section 
+Intro screen be clear that users know who to use enhanced application flow, not open flood gates to unlimited uploads. Content to make it really clear about when to use.
+
+John - something that would clearly indicate that this is the primary way, specific path. VADS patterns that can be leveraged to warn that this is a different flow 
+
+
+Next steps:
+- Chat with VA side about requirements
+- Future use case for updates to benes 
+- business seems like it aligns and excited about 
+
+
+### Move Signer Section Walkthrough
+
+- Figma link
+https://www.figma.com/design/UmAtr3ULQEInMXfNFwP0g0/Application-for-CHAMPVA---10-10d--and-OHI-Certification--10-7559c--WIP?node-id=11669-45440&p=f&t=KaBsc5cIWKYYbQhI-0
+
+Decisions: 
+- No need to have Veteran confirm they are signing, they will skip that step
+- Applicants will only see a variation of the Sign Application step, when there are multiple applicants over 18
+- Event tracking added to Other checkboxes on question in signer section about relationships (other category)
+
+----
+
 ## March 5, 2026
 
 Attendees: Renata, Hieu, Jessica, Andrea, John, Chantale, Premal, Alyssa 

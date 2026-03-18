@@ -359,11 +359,11 @@ If you are unable to edit this document to add your team's decisions, please let
  <details>
   <summary>Click to expand: Team Implementations Tracker</summary>
 
-| Team Name | Form API | First Team for API? | Restricted or Unrestricted? | Form(s) Added | Epic/Ticket Link | Notes / Useful Info |
-|-----------|----------|----------------------|-----------------------------|---------------|------------------|----------------------|
-| Example Team A | Lighthouse Benefits Intake | Yes | Unrestricted | All | Epic-1234 | Used feature toggle `flipper_name` |
-| Example Team B | Forms API XYZ | No | Restricted | 21-4138 | Ticket-5678 | Continuing restricted path |
-| Example Team C | Forms API ABC | Yes | Restricted | 20-10206, 21-4142 | Epic-9876 | `#slack-team-channel` |
+| Team Name | Form API | First Team Integrating This API? | Gateway / Formatter | Restricted or Unrestricted? | Form(s) Added | Feature Toggle | Epic/Ticket Link | Notes / Useful Info |
+|-----------|----------|----------------------------------|--------------------|------------------------------|---------------|----------------|------------------|---------------------|
+| Example Team A | Lighthouse Benefits Intake | Yes | Created | Unrestricted | All | `my_va_display_all_lighthouse_benefits_intake_forms` | Epic-1234 | First implementation of Form Status pattern |
+| Example Team B | Forms API XYZ | No | Existing | Restricted | 21-4138 | none | Ticket-5678 | Added form to `restricted_list_of_forms` |
+| Example Team C | Forms API ABC | Yes | Created | Restricted | 20-10206, 21-4142 | `example_feature_toggle` | Epic-9876 | Team channel: `#slack-team-channel` |
 
  </details>
 
@@ -372,35 +372,47 @@ If you are unable to edit this document to add your team's decisions, please let
 
 ## Quick Implementation Checklist
 
-Lighthouse Benefits Intake Form
-- [ ] FormSubmission created with UUID + form_type
+### Scenario A — Your form already uses Lighthouse Benefits Intake API
+
+- [ ] `FormSubmission` created with UUID + `form_type`
 - [ ] Form ID added to restricted list (if needed)
 - [ ] Form ID added to FE
 - [ ] Feature toggle verified
 - [ ] Tested locally
-- [ ] Any issues/unexpected results discussed with Authenticated Experience team (if applicable)
+- [ ] Any issues/unexpected results discussed with the Authenticated Experience team (if applicable)
+- [ ] Update the [Team Implementations Tracker](#team-implementations-tracker)
+- [ ] Share planned release timeline with the Authenticated Experience team
+- [ ] Notify the Authenticated Experience team once the feature has been released
 
-⸻
+---
 
-Existing Gateway Form API
+### Scenario B — Your Form API already has a Gateway & Formatter
+
 - [ ] Form ID added to restricted list
 - [ ] Status mapping checked in FE
 - [ ] Tests updated
 - [ ] Verified locally
-- [ ] Any issues/unexpected results discussed with Authenticated Experience team (if applicable)
+- [ ] Any issues/unexpected results discussed with the Authenticated Experience team (if applicable)
+- [ ] Update the [Team Implementations Tracker](#team-implementations-tracker)
+- [ ] Share planned release timeline with the Authenticated Experience team
+- [ ] Notify the Authenticated Experience team once the feature has been released
 
-⸻
+---
 
-New Gateway & Formatter
+### Scenario C — Your Form API is not yet connected to the Form Status system
+
 - [ ] Platform Security consulted
 - [ ] Gateway created
 - [ ] Formatter created
-- [ ] Gateway registered in Report
+- [ ] Gateway registered in `Report`
 - [ ] Formatter registered in `FORMATTERS`
 - [ ] Restricted vs unrestricted decided
 - [ ] Full test coverage added
 - [ ] Verified locally
-- [ ] Any issues/unexpected results discussed with Authenticated Experience team (if applicable)
+- [ ] Any issues/unexpected results discussed with the Authenticated Experience team (if applicable)
+- [ ] Update the [Team Implementations Tracker](#team-implementations-tracker)
+- [ ] Share planned release timeline with the Authenticated Experience team
+- [ ] Notify the Authenticated Experience team once the feature has been released
 
 
 ## Other References:

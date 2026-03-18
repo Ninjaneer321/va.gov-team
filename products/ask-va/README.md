@@ -27,7 +27,8 @@ You can reach Ask VA at [va.gov/contact-us/ask-va](https://va.gov/contact-us/ask
 |Role|Assigned|Contact|
 |:---|:---|:---|
 |Product Owner (OCTO)|Becky Phung|becky.phung@va.gov|
-|Delivery Lead|Megan Salerno|megan.salerno@va.gov|
+|Delivery Lead (outgoing)|Megan Salerno|megan.salerno@va.gov|
+|Delivery Lead (incoming)|Kaci Bowen|kaci.bowen@va.gov|
 |Product Manager|Stephanie Vargo|stephanie.vargo@va.gov|
 |Technical Lead|Jerek Shoemaker|jerek.shoemaker@va.gov|
 |AI Lead/Engineer|Matt Floyd|matthew.floyd@va.gov|

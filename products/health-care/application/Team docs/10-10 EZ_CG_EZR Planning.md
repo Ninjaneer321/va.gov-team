@@ -104,7 +104,7 @@
 ### 10-10EZR
 
 #### Obj: EZR [Household section V2](https://github.com/department-of-veterans-affairs/va.gov-team/issues/98353)
--  ]  [#134881](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134881) - [UX] Review destructive alerts on Income/Deductibles pages
+- [ ]  [#134881](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134881) - [UX] Review destructive alerts on Income/Deductibles pages
 
 #### Obj: EZR [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117626)
 - [ ] [#133885](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133885) - [BE] Display submission statuses on MyVA
@@ -209,11 +209,11 @@
 
 
 ---
-## 📆 Sprint 16 (Mar 11 - Mar 24) (PREPLANNED)
+## 📆 Sprint 16 (Mar 11 - Mar 24)
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
-- **The goal for Sprint 16 is complete EZR Service history QA and address findings, Update CG File upload pattern**
+- **The goal for Sprint 16 is complete EZR Service history QA and address findings, complete 422 error investigation and start EZ form status development**
 
 #### List of Planned work
 - EZR Service History
@@ -226,14 +226,16 @@
      - [ ] Discuss process with VFMP team
 - [ ] EZ QA Standards alignment
 - [ ] EZR Improvements on Dependents section content
+- [ ] All Forms
+     - [ ]  Update playbook & create quick-reference doc
 
 ## 
 ### 10-10EZR
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
-- [ ] **SPRINT GOAL** [#121748](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121748) - [QA] Functional QA
-- [ ] **SPRINT GOAL** [#121749](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121749) - [QA] Formatting QA
-- [ ] **SPRINT GOAL** [#121750](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121750) - [QA] Accessibility QA
+- [ ] [#121748](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121748) - [QA] Functional QA
+- [ ] [#121749](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121749) - [QA] Formatting QA
+- [ ] [#121750](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121750) - [QA] Accessibility QA
 - [ ] [#121775](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121775) - [PM] Update and submit Product Guide for review
 - [ ] [#121778](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121778) - [PM] Update DOMO URL funnels and add GA metrics
 - [ ] [#121766](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121766) - [PM] Prep release plan
@@ -259,26 +261,29 @@
 - No CG work scheduled
 
 ##
+### All Forms
+#### Obj: [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
+- [ ] [#135970](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135970) - [Team] Create Quick-reference document & Update Playbooks
+
+##
 ### Team PTO
-- Renata: 3/11
 - Jessica: 3/13
-- 
 
 ---
 ## 📆 Sprint 15 (Feb 25 - Mar 10) 
-- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+- [x] 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
 - **The goal for Sprint 15 is to prepare EZR Service history for QA and start EZ form status development**
 
 #### List of Planned work
 - EZR Service History
-     - [ ] Testing of API in RI
+     - [x] Testing of API in RI
      - [x] Review and Update file upload page logic & content
 - EZ Form status
-     - [ ] Tech discovery on additional form statuses on MyVA
-     - [ ] Content feedback review for Intro page alerts
-     - [ ] Update Intro Page alerts on "pending" statuses
+     - [x] Tech discovery on additional form statuses on MyVA
+     - [x] Content feedback review for Intro page alerts
+     - [x] Update Intro Page alerts on "pending" statuses
      - [ ] EZ Display submission statuses on MyVA
  - EZ Bug fix
      - [x] Update Mexico province code

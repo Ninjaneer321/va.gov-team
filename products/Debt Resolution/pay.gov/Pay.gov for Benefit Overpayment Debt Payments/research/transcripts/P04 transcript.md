@@ -1,5 +1,22 @@
 P4 Transcript redacted
-03.03.26
+
+
+| Date | 03-03-26 |
+| :---- | :---- |
+| **Gender** | Male |
+| **Age** | 55-59 |
+| **Race/ethnicity** | Asian; White or Caucasian |
+| **Education level** | High school graduate or equivalent |
+| **Branch** | Army |
+| **Location** | South |
+| **Device** | Desktop or laptop computer |
+| **Debts** | Disability compensation and pension overpayment |
+| **Payment plan** | Yes |
+| **Hardship statement** | I have never experienced financial hardship. |
+| **Income less than 50K?** | No |
+| **LGBTQ+** | No |
+| **Cognitive disability** | No |
+| **Resides** | Rural |
 
 1
 00:00:00.310 --> 00:00:01.279

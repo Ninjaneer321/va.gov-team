@@ -8,10 +8,7 @@ This document provides a snapshot in time of how certain test user information c
 ## MPI
 
 ### Contact/Process:
-* Details on how to make user data requests for lower environments (DEV, iDEV, SQA/Stage1A, PreProd) can be found [here](https://dvagov.sharepoint.com/sites/oitiam/SitePages/VA-MPI-Special-Data-Requests.aspx).
-* Requestor completes the [request form](https://dvagov.sharepoint.com/sites/oitiam/Pages/VAMPI/IAM%20Data%20Request%20Fillable%20Form.docx) and submits the form to IAMIntegrationProjectManagers@va.gov  
-* The supporting iPM will review the request form and work with the requestor for completeness, if necessary, before the iPM forwards the request to the appropriate IAM POCs for processing.  
-* The appointed IAM resource will provide the requested data.
+See [this resource](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/vsp/teams/Identity/Test%20Documentation/test-user-data.md) hosted in the sensitive repository.
 
 ### User Values
 
@@ -27,8 +24,7 @@ This document provides a snapshot in time of how certain test user information c
 
 ### Contact:
 
-*  Contact/Process [Link](https://dvagov.sharepoint.com/sites/OITEPMOVAPROPUB/SitePages/Development-and-Testing-Support.aspx)
-*  Select the Request Test Data button and fill out the form at the link above.
+See [this resource](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/vsp/teams/Identity/Test%20Documentation/test-user-data.md)
 
 ### User Values
 
@@ -47,7 +43,6 @@ This document provides a snapshot in time of how certain test user information c
 ### Contact:
 
 * Trevor Bosaw (Contractor), Tom Black, Samara Strauss  
-* Process link:
 
 ### User Values
 
@@ -58,7 +53,6 @@ This document provides a snapshot in time of how certain test user information c
 ### Contact:
 
 * Trevor Bosaw (Contractor), Tom Black, Samara Strauss  
-* Process link:
 
 ### User Values
 
@@ -81,8 +75,7 @@ This document provides a snapshot in time of how certain test user information c
 
 ### Contact:
 
-* unknown  
-* Process link:
+* unknown 
 
 ### User Values
 
@@ -97,7 +90,7 @@ This document provides a snapshot in time of how certain test user information c
 
 ### Contact:
 
-* Lighthouse, send an email to api@va.gov asking for modifications to be made to a given account for these attributes.
+See [this resource](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/vsp/teams/Identity/Test%20Documentation/test-user-data.md)
 
 ### User Values
 
@@ -296,8 +289,7 @@ This document provides a snapshot in time of how certain test user information c
 
 ### Contact:
 
-*  Contact/Process [Link](https://dvagov.sharepoint.com/sites/OITEPMOVAPROPUB/SitePages/Development-and-Testing-Support.aspx)
-*  Select the Request Test Data button and fill out the form at the link above.
+See [this resource](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/vsp/teams/Identity/Test%20Documentation/test-user-data.md)
 
 ### User Values
 
@@ -460,7 +452,7 @@ This document provides a snapshot in time of how certain test user information c
 
 ## MHV Data
 ### Contact/Process:
-- An issue can be creating following the example ticket [here](https://github.com/department-of-veterans-affairs/mhv-platform/issues/102). Add the description by creating a new issue and add some details.
+See [this resource](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/vsp/teams/Identity/Test%20Documentation/test-user-data.md)
 
 ### User Values
 * "va\_patient": true,  

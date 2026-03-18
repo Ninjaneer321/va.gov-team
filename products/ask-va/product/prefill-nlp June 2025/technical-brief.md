@@ -376,47 +376,51 @@ AskVA has an existing API that captures inquiries in MS Dynamics.  0The data is 
 ### Entity Design - Non Normalized Option
 
 
-| Field Name | Data Type | Length | Required | Description |
-|-----------|-----------|--------|----------|-------------|
-| inquiry_id | Lookup | - | Yes | Reference to related inquiry record - iris_inquiry, iris_inquirynumber |
-| model_version | Whole Number | - | Yes | Version identifier of the model used for prediction |
-| user_adoption | Whole Number | - | No | The prediction the user accepted - 1,2,or 3 - 0 if they didn't accept it|
-| prediction_rank_1_confidence | Decimal | - | Yes | Confidence level (0-1) for top prediction |
-| prediction_rank_1_category_name | Text | 1000 | Yes | Category name for top prediction |
-| prediction_rank_1_category_model_id | Whole Number | - | Yes | Model ID for top prediction category |
-| prediction_rank_2_confidence | Decimal | - | Yes | Confidence level (0-1) for second prediction |
-| prediction_rank_2_category_name | Text | 1000 | Yes | Category name for second prediction |
-| prediction_rank_2_category_model_id | Whole Number | - | Yes | Model ID for second prediction category |
-| prediction_rank_3_confidence | Decimal | - | Yes | Confidence level (0-1) for third prediction |
-| prediction_rank_3_category_name | Text | 1000 | Yes | Category name for third prediction |
-| prediction_rank_3_category_model_id | Whole Number | - | Yes | Model ID for third prediction category |
-| created_on | Date Time | - | Yes | Timestamp when prediction was captured |
+| Field Name | Data Type | Length | Required | Description | Bytes |
+|-----------|-----------|--------|----------|-------------|----|
+| inquiry_id | Lookup | - | Yes | Reference to related inquiry record - iris_inquiry, iris_inquirynumber | 16 |
+| model_version | Whole Number | - | Yes | Version identifier of the model used for prediction | 4 |
+| user_adoption | Whole Number | - | No | The prediction the user accepted - 1,2,or 3 - 0 if they didn't accept it | 4 |
+| prediction_rank_1_confidence | Whole Number | - | Yes | Confidence level (0-1) for top prediction | 4 |
+| prediction_rank_1_category_name | Text | 100 | Yes | Category name for top prediction | 200 |
+| prediction_rank_1_category_model_id | Whole Number | - | Yes | Model ID for top prediction category | 4 |
+| prediction_rank_2_confidence | Whole Number | - | Yes | Confidence level (0-1) for second prediction | 4 |
+| prediction_rank_2_category_name | Text | 100 | Yes | Category name for second prediction | 200 |
+| prediction_rank_2_category_model_id | Whole Number | - | Yes | Model ID for second prediction category | 4 |
+| prediction_rank_3_confidence | Whole Number | - | Yes | Confidence level (0-1) for third prediction | 4 |
+| prediction_rank_3_category_name | Text | 100 | Yes | Category name for third prediction | 200 |
+| prediction_rank_3_category_model_id | Whole Number | - | Yes | Model ID for third prediction category | 4 |
+| created_on | Date Time | - | Yes | Timestamp when prediction was captured | 8 |
 
+Total Bytes - 652 Bytes x 9,000 predictions / monthly in Production = *5.8 MB / month*
+We will need to have other environments as well, but not nearly the traffic
 
 ### Entity Design - Normalized Option
 
 
 **AskVA Model Prediction (Parent Entity)**
 
-| Field Name | Data Type | Length | Required | Description |
-|-----------|-----------|--------|----------|-------------|
-| prediction_id | Primary Key | - | Yes | Unique identifier for prediction record |
-| inquiry_id | Lookup | - | Yes | Reference to related inquiry record - iris_inquiry, iris_inquirynumber |
-| model_version | Whole Number | - | Yes | Version identifier of the model used for prediction |
-| user_adoption | Whole Number | - | No | The prediction the user accepted - 1,2,or 3 - 0 if they didn't accept it|
-| created_on | Date Time | - | Yes | Timestamp when prediction was captured |
+| Field Name | Data Type | Length | Required | Description | Bytes |
+|-----------|-----------|--------|----------|-------------|-----|
+| prediction_id | Primary Key | - | Yes | Unique identifier for prediction record | 4 |
+| inquiry_id | Lookup | - | Yes | Reference to related inquiry record - iris_inquiry, iris_inquirynumber | 16 |
+| model_version | Whole Number | - | Yes | Version identifier of the model used for prediction | 4 |
+| user_adoption | Whole Number | - | No | The prediction the user accepted - 1,2,or 3 - 0 if they didn't accept it| 4 |
+| created_on | Date Time | - | Yes | Timestamp when prediction was captured | 8 |
 
 **AskVA Model Prediction Rank (Child Entity)**
 
-| Field Name | Data Type | Length | Required | Description |
-|-----------|-----------|--------|----------|-------------|
-| prediction_rank_id | Primary Key | - | Yes | Unique identifier for prediction rank record |
-| prediction_id | Lookup | - | Yes | Reference to parent AskVA Model Prediction record |
-| rank | Whole Number | - | Yes | Ranking position (1, 2, or 3) |
-| confidence_level | Decimal | - | Yes | Confidence level (0-1) for prediction |
-| category_name | Text | 1000 | Yes | Category name for prediction |
-| category_model_id | Whole Number | - | Yes | Model ID for prediction category |
+| Field Name | Data Type | Length | Required | Description | Bytes |
+|-----------|-----------|--------|----------|-------------|------|
+| prediction_rank_id | Primary Key | - | Yes | Unique identifier for prediction rank record | 8 |
+| prediction_id | Lookup | - | Yes | Reference to parent AskVA Model Prediction record | 8 |
+| rank | Whole Number | - | Yes | Ranking position (1, 2, or 3) | 4 | 
+| confidence_level | Whole Number | - | Yes | Confidence level (0-1) for prediction | 4 |
+| category_name | Text | 100 | Yes | Category name for prediction | 200 |
+| category_model_id | Whole Number | - | Yes | Model ID for prediction category | 4 |
 
+Total Bytes: 36 + 228 = 264 bytes x 9,000 prediction / monthly in Production = *2.4 MB/month*
+We will need to have other environments as well, but not nearly the traffic
 
 ### Power BI Reporting
 

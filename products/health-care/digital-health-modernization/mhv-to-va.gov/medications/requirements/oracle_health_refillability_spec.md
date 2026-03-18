@@ -242,11 +242,11 @@ Understanding when to use refill vs renewal:
 | Expired AND within 120 days of expiration                      | **RENEW**                 |
 | Expired > 120 days                                             | New prescription required |
 
-See [Oracle Health VA Dispensed Medications - Renewability Specification](oracle_health_renewability_spec.md) for renewal eligibility rules.
+See [VA Medications - Renewability Specification](renewability_spec.md) for renewal eligibility rules.
 
 ---
 
 ## Related Specifications
 
 - [Oracle Health Medications - Categorization and Filtering Specification](oracle_health_categorization_spec.md) - Medication category definitions
-- [Oracle Health VA Dispensed Medications - Renewability Specification](oracle_health_renewability_spec.md) - Renewal eligibility rules
+- [VA Medications - Renewability Specification](renewability_spec.md) - Renewal eligibility rules

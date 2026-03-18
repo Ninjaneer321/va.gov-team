@@ -16,6 +16,8 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 | P3 | **Benefit Payment Tool**  | [#130147](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130147) | Establish product understanding that enables the team to confidently identify, debug and resolve issues moving forward. | UX/ENG |   |   |
 | P4 | **Mobile App:** Collaborate with MFS (Mobile Feature Support) team to add benifits into mobile app experience |  [#106209](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106209) | Collaborate as needed. | MFS team responsible for implementation - FM team to collaborate. |None  |  |
 | P5 | **Veteran Request for Hardship Suspension (VBA):** |[#106207](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106207)  |Initiate Design Prototyping & Development handover UX to finalize engineering handover by next quarter.  | Design- FE | **DMC** |  |
+| New for Q3  | **(SPIKE UX-ENG) Make VBA Debt Letters Viewable** | [#136402](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136402) |  |  |  |  |
+| New for Q3  | **(SPIKE UX-ENG) Supporting Documentation/Attachments - VBA** |[#136450](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136450)  |  |  |  |  |
 | P6 | **Prioritized Maintenance**  |[#130107](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130107)|Complete and launch priority work listed in the epic. | UX-FE-BE |None  |  |
 
 
@@ -45,8 +47,8 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [X] Ready to be sent for approvals (02/09/26)
  - [X] VA PO & COR sent the Sprint Goals (02/09/26)
- - [ ] VA PO approved the Sprint Goals (02/00/26)
- - [ ] VA COR approved the Sprint Goals (02/00/26)
+ - [X] VA PO approved the Sprint Goals (02/11/26)
+ - [X] VA COR approved the Sprint Goals (02/11/26)
 
 **_Delivery + Notes:_**
 - [ ] All goals have been updated in the sprint chart

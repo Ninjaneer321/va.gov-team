@@ -24,7 +24,7 @@ Medication category is determined by evaluating the following `MedicationRequest
 | —               | —       | `charge-only`                    | **Pharmacy Charges**               | ✗ No              | Billing-only pharmacy entries                                                |
 | —               | —       | `inpatient`                      | **Inpatient Medication**           | ✗ No              | Medications administered during inpatient stays                              |
 
-_\*Renewal eligibility requires additional criteria to be met. See [Renewability Specification](oracle_health_renewability_spec.md)._
+_\*Renewal eligibility requires additional criteria to be met. See [Renewability Specification](renewability_spec.md)._
 
 ### Categorization Logic
 
@@ -73,7 +73,7 @@ Only specific medication categories are visible to Veterans in the medication li
 | **Inpatient Medication**           | ✗ No                | ✗ No              | Administered during hospital stays, not self-managed               |
 | **Uncategorized**                  | ✓ Yes               | —                 | Included pending further testing to determine appropriate handling |
 
-_\*Additional criteria must be met for renewal eligibility. See [Renewability Specification](oracle_health_renewability_spec.md)._
+_\*Additional criteria must be met for renewal eligibility. See [Renewability Specification](renewability_spec.md)._
 
 ### Filtering Logic
 
@@ -102,7 +102,7 @@ EXCLUDE medication IF category is:
 | —               | —       | `inpatient`                      | Inpatient Medication           | ✗ No     | ✗ No              |
 | —               | —       | Other/None                       | Uncategorized                  | ✓ Yes    | —                 |
 
-_\*Additional criteria must be met. See [Renewability Specification](oracle_health_renewability_spec.md)._
+_\*Additional criteria must be met. See [Renewability Specification](renewability_spec.md)._
 
 ---
 
@@ -112,4 +112,4 @@ _\*Additional criteria must be met. See [Renewability Specification](oracle_heal
 2. **Field evaluation order**: Check `reportedBoolean`, `intent`, then `category` in combination
 3. **First match wins** - once a category is determined, stop evaluation
 4. **Uncategorized medications** should be logged for review to determine appropriate long-term handling
-5. **Renewal eligibility** is determined first by category, then by additional business rules defined in the [Renewability Specification](oracle_health_renewability_spec.md)
+5. **Renewal eligibility** is determined first by category, then by additional business rules defined in the [Renewability Specification](renewability_spec.md)

@@ -74,7 +74,7 @@ body:
         - label: Request [access to tools](https://depo-platform-documentation.scrollhelp.site/getting-started/Request-access-to-tools.969605215.html)
           required: true
         - label: Confirm that you have access to the [VA GitHub Organization](https://depo-platform-documentation.scrollhelp.site/getting-started/request-access-to-tools#Requestaccesstotools-GettingaccesstotheVAGitHuborganization).
-        - label: Opt out of [Google Analytics](https://www.va.gov/analytics-opt-out.html) on all of your browsers on your work machines, personal machines (if you are not a Veteran yourself using the site for your own applications), and mobile devices
+        - label: Opt out of [Google Analytics](https://depo-platform-documentation.scrollhelp.site/analytics-monitoring/google-analytics-opt-out) on all of your browsers on your work machines, personal machines (if you are not a Veteran yourself using the site for your own applications), and mobile devices
           required: true
         - label: Are you a Veteran? Consider adding your name to the [Veterans willing to help VA teams with product testing](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/vagov-users/team-veterans.md) document
           required: true
