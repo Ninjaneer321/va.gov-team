@@ -9,13 +9,13 @@ product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "VA Health and Benefits Mobile App has limited real estate on the homescreen. The team seeks to understand whether planned homescreen design concepts align with Veterans' expectations and priorities and successfully help Veterans access key information and complete important tasks."
+  problem_statement: "VA Health and Benefits Mobile App has limited real estate on the homescreen, and additional features expected to be added this year will further take up homescreen space. The team seeks to understand whether planned homescreen design concepts align with Veterans' expectations and priorities and successfully help Veterans access key information and complete important tasks."
   product_location: "VA Health and Benefits Mobile App (authenticated experience)"
   user_familiarity: "Iteration on existing product that Veterans currently use"
-  product_brief_url: "https://github.com/department-of-veterans-affairs/va-mobile-app/issues/11464"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/product/Homescreen%20Redesign%20Product%20Brief"
 
 # Research Design
-methodology: "Remote moderated usability testing with Figma prototype"
+methodology: "Remote moderated usability testing with clickable medium-fidelity Figma prototype"
 research_format:
   location: remote
   moderated: true
@@ -24,7 +24,7 @@ research_format:
 research_goals:
   - goal_1: "Understand users' expectations for homescreen content and navigation"
   - goal_2: "Understand how users interpret and use new design concept's homescreen content and capabilities"
-
+  - goal_3: "Understand any points of confusion for users on the homescreen content and navigation, including for users with cognitive disabilities"
 research_questions:
   - "What content do users expect to find on the homescreen?"
   - "Where do users expect to find their Veteran status card, disability rating and payments, and dependents verification?"
@@ -34,6 +34,8 @@ research_questions:
   - "When tasks are surfaced on the homescreen, how do users want and expect to complete them?"
   - "Does homescreen information architecture affect how users prioritize items and tasks?"
   - "When provided with the opportunity to complete tasks such as paying copay and refilling prescription without leaving the homescreen, do users understand what to do and choose to do that instead of navigating away?"
+  - "What causes users confusion or misunderstandings?"
+  - "Are there any terms or processes that cause particular confusion for users with cognitive disabilities?"
 
 hypotheses:
   - "Users will expect to find new content such as new Secure messages and items requiring their review and action on the homescreen."
@@ -47,8 +49,9 @@ hypotheses:
   - "Users may not be able to articulate exactly what kind of items belong in the 'Activity' section."
   - "Users will want to complete tasks directly from the homescreen when possible."
   - "Users will expect to be able to complete tasks directly from the homescreen when there is a call to action button associated with the item such as 'Pay copay' for a medical copayment."
-
-expected_outcomes: "We plan to incorporate insights to guide design decisions for homescreen and related actions so that we evolve current design concepts based on Veterans' needs and expectations. Insights will impact design refinements and influence future feature prioritization for homescreen functionality."
+  - "Since homescreen content uses plain language and short, to-the-point phrases, users will generally understand terms and calls to action."
+  - "Users may experience minor confusion due to lack of familiarity with specific items such as 'evidence request.'"
+expected_outcomes: "We plan to incorporate insights to guide design decisions for homescreen and related actions so that we evolve current design concepts based on Veterans' needs and expectations. Insights will impact design refinements and influence future feature prioritization for homescreen functionality. We will base homescreen updates on mental model alignment for where users expect to find featues and how users expect to interact with homescreen content. We will work with ADE on ptoential addtional research as designs become more developed."
 
 # Recruitment & Participants
 recruitment:
@@ -78,7 +81,7 @@ recruitment:
     - question: "What is your service-related disability rating?"
       qualifying_response: "10% or higher"
     - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
-      qualifying_response: "Yes (qualify and recruit at least 3) or No (qualify)"
+      qualifying_response: "Yes (qualify and recruit at least 5) or No (qualify)"
 
 participants:
   veterans: 14
@@ -94,7 +97,7 @@ timeline:
       participant: "Matthew Sweeney"
   
   research_dates: "2026-03-30 to 2026-04-03"
-  research_review_submission: "TBD (recommend 8-9 days before research start)"
+  research_review_submission: "2026-03-13"
 
 session_details:
   duration_minutes: 60
@@ -156,7 +159,7 @@ tags:
 	
 `What problem is your product trying to solve?`
 
-**VAHB Mobile app has limited real estate on the homescreen. The team seeks to understand whether planned homescreen design concepts align with Veterans expectations and priorities and successfully helps them complete tasks.**
+**VA Health and Benefits Mobile App has limited real estate on the homescreen, and additional features expected to be added this year will further take up homescreen space. The team seeks to understand whether planned homescreen design concepts align with Veterans expectations and priorities and successfully helps them complete tasks.**
   
 `Where is your product situated on VA.gov? (ex: auth vs. unauth)`
 
@@ -168,7 +171,7 @@ tags:
 
 `Product Brief`
 
-**Link to product brief: [Homescreen Epic](https://github.com/department-of-veterans-affairs/va-mobile-app/issues/11464).**
+**Link to product brief: [Product brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/product/Homescreen%20Redesign%20Product%20Brief).**
 
 </details>
 
@@ -254,13 +257,16 @@ Are there moments that matter?</summary>
 `1.` **Understand users' expectations for homescreen content and navigation**
 
 `2.` **Understand how users interpret and use new design concept's homescreen content and capabilities**
+
+`3.` **Understand any points of confusion for users on the homescreen content and navigation, including for users with cognitive disabilities**
+
   
 ### Outcome
 `How will this research advance your product to the next phase in the design process? What will you do with your learnings?`
 
 ---
 
-**We plan to incorporate insights to guide design decisions for homescreen and related actions so that we evolve current design concepts based on Veterans' needs and expectations. Insights will impact amount and type of information displayed on homescreen, the organization of homescreen sections, and functionality including direct action from the homescreen on simple tasks versus going to the category screen.** 
+**We plan to incorporate insights to guide design decisions for homescreen and related actions so that we evolve current design concepts based on Veterans' needs and expectations. Insights will impact amount and type of information displayed on homescreen, the organization of homescreen sections, and functionality including direct action from the homescreen on simple tasks versus going to the category screen. We will base homescreen updates on mental model alignment for where users expect to find features and how users expect to interact with homescreen content. We will work with ADE on potential additional research as designs become more developed.** 
 
 ---
 
@@ -286,6 +292,11 @@ Are there moments that matter?</summary>
 2. When tasks are surfaced on the homescreen, how do users want and expect to complete them?
 3. Does homescreen information architecture affect how users prioritize items and tasks?
 4. When provided with the opportunity to complete tasks such as paying copay and refilling prescription without leaving the homescreen, do users understand what to do and choose to do that instead of navigating to the feature?
+
+**Research goal 3: Understand any points of confusion for users on the homescreen content and navigation, including for users with cognitive disabilities**
+
+1. What causes users confusion or misunderstandings?
+2. Are there any terms or processes that cause particular confusion for users with cognitive disabilities?
 
 > [!TIP]
 >Enter more questions as needed
@@ -321,6 +332,9 @@ Are there moments that matter?</summary>
 5. Users will want to complete tasks directly from the homescreen when possible.
 6. Users will expect to be able to complete tasks directly from the homescreen when there is a call to action button associated with the item such as "Pay copay" for a medical copayment. 
 
+**Research goal 3: Understand how users interpret and use homescreen content and capabilities**
+1. Since homescreen content uses plain language and short, to-the-point phrases, users will generally understand terms and calls action.
+2. Users may experience minor confusion due to lack of familiarity with specific items such as 'evidence request.'
 ---
   
 ## Methodology  🛠️
@@ -337,7 +351,7 @@ Are there moments that matter?</summary>
 
 </details>
 
-This research will be a remote moderated study using Zoom. Participants will be guided to give general feedback on a -fidelity Figma prototype of the proposed homescreen redesign. Participants will then be asked for targeted feedback on where to find items moved off the homescreen with the redesign, and to try to complete the tasks of paying a copay and refilling a prescription directly from the homescreen through a newly designed user flow concept.  
+This research will be a remote moderated study using Zoom. Participants will be asked to narrate their thoughts as they navigate the clickable, medium-fidelity Figma prototype of the proposed homescreen redesign. Participants will then be asked for targeted feedback on where to find items moved off the homescreen with the redesign, and to try to complete the tasks of paying a copay and refilling a prescription directly from the homescreen through a newly designed user flow concept. Since Figma prototypes cannot be used with screen readers, we will prioritize recruiting at least 5 participants with cognitive disabilities and assess accessibility of content and navigation from their point of view. The conversation guide is written to be plain language and to allot ample time for each task to account for participants with cognitive disabilities who may need additional time to review and respond to designs. 
 
 <details><summary>Additional resources</summary> 
 	
@@ -369,8 +383,8 @@ Provide a link to any materials you need to run your study, including any materi
 
 
 **For moderated usability tests:** 
-- [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/4717498a59003842567808e70dc87d1a79614656/products/va-mobile-app/research/2026-03-Homescreen-Research/Conversation-guide.md))
-- [Link to prototype](https://www.figma.com/proto/qVqjxULrC26YoIbvnZKOwp/IA---Nav?node-id=673-114466&t=Bp35KWcWPBYzxcWt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=673%3A114466&show-proto-sidebar=1))
+- [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/4717498a59003842567808e70dc87d1a79614656/products/va-mobile-app/research/2026-03-Homescreen-Research/Conversation-guide.md)
+- [Link to prototype](https://www.figma.com/proto/qVqjxULrC26YoIbvnZKOwp/IA---Nav?node-id=673-114466&t=Bp35KWcWPBYzxcWt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=673%3A114466&show-proto-sidebar=1)
 
 	
 ## Recruitment 🎯	
@@ -387,7 +401,7 @@ Provide a link to any materials you need to run your study, including any materi
 - Perigean can also support remote, [unmoderated studies](https://depo-platform-documentation.scrollhelp.site/research-design/perigean-recruiting-process-for-unmoderated-studie), however, these studies require strict recruitment requirements. 
 - Which inclusive research strategies are you leveraging for this study? OCTO recommends using a lean maximum variation strategy for most studies. Read this [introduction to inclusive research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/introduction.md) and download the [recruitment checker (Excel)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx) to understand OCTO's targets for inclusivity and use it to plan your participant demographics for this study.
 
-**We would like Perigean to recruit Veterans as participants. Target 14 to seat and complete 9 sessions total.**
+**We would like Perigean to recruit Veterans as participants using lean maximum variation. Target 14 to seat and complete 9 sessions total.**
 
 ### Recruitment criteria
 
@@ -462,7 +476,7 @@ During the session:
 - I don't know my rating: Disqualify
 
 **4. Do you find it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these.** (Recruit mix)
-- Yes: Qualify; Recruit at least 3
+- Yes: Qualify; Recruit at least 5
 - No: Qualify
 
 

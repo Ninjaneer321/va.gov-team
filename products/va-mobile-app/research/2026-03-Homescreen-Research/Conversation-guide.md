@@ -18,7 +18,7 @@ participant_criteria: "Veterans with VA benefits (disability, health care, and/o
 
 # Related documents
 related_research_plan: "products/va-mobile-app/research/2026-03-Homescreen-Research/Research-Plan.md"
-related_prototype: "https://www.figma.com/proto/qVqjxULrC26YoIbvnZKOwp/IA---Nav"
+related_prototype: "https://www.figma.com/proto/qVqjxULrC26YoIbvnZKOwp/IA---Nav?node-id=673-114466&t=pQwr9jv43JXUQBuc-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=673%3A114466&show-proto-sidebar=1"
 
 tags:
   - "AUD: Veterans"
@@ -146,6 +146,9 @@ Let’s start with a few questions...
 4. Do you have the VA Health and Benefits mobile app on your device?
    - If so, can you tell me what you typically use the mobile app for? How has your experience been so far?
 
+5. [If not] Have you ever used it?
+   - If so, what did you use it for? How was your experience?
+
 
 # User Tasks
 
@@ -156,13 +159,16 @@ I would like you to share your screen with me so that I can see what you do duri
 
 We can help guide you through this if you need help. Please say what you're doing out loud so that if there are any issues, we'll know what they are.
 
+[Iphone screenshare instructions](https://depo-platform-documentation.scrollhelp.site/research-design/iphone-start-screen-share)
+[Android screenshare instructions](https://depo-platform-documentation.scrollhelp.site/research-design/android-start-screen-share)
+
 **(If video window is covering up phone screen)** It looks like my zoom video is covering up a lot of your screen. Could you please swipe it off? 
 
 ## Task 00: Open prototype - 2 minutes, 13 minutes elapsed
 
 Today, we're going to look at a demo version of the app. This is just for us to test with, so not everything will work like it does on the real app. You might see some buttons or links not working and some placeholder words instead of real information. Since this is just the demo version, nothing you do in this app will affect your real app or VA information and benefits. 
 
-I will now share in the zoom chat the URL for the demo: [Prototype link](https://www.figma.com/proto/qVqjxULrC26YoIbvnZKOwp/IA---Nav?node-id=673-114466&t=Bp35KWcWPBYzxcWt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=673%3A114466&show-proto-sidebar=1)
+I will now share in the zoom chat the URL for the demo: [Prototype link](https://www.figma.com/proto/qVqjxULrC26YoIbvnZKOwp/IA---Nav?node-id=673-114466&t=Bp35KWcWPBYzxcWt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=673%3A114466&show-proto-sidebar=1])
 Please open the chat and then click the link. 
 
 - *If “unsupported browser” error, ask to try a different browser or device 
@@ -171,9 +177,9 @@ Please open the chat and then click the link.
 
 ## Task 1: General review of homescreen - 10 minutes, 15 minutes elapsed
 
-Please go ahead and log in using ID.me. The system will automatically generate a test user login for you. 
-
 As we go through the steps in this study, please talk aloud about what you're thinking BEFORE clicking on anything. And please share any thoughts, reactions, or questions you have about the current screen. Remember that we're testing how well the app is working and not you. If you're confused, I expect other people would be confused too, so we definitely want to hear when something seems confusing or not right to you. 
+
+Please go ahead and log in using ID.me. The system will automatically generate a test user login for you. 
 
 Take a look at this page without clicking anything [homescreen]. [Give participant a minute to look.]
 
@@ -184,12 +190,16 @@ Take a look at this page without clicking anything [homescreen]. [Give participa
 4. Probe: Could you tell me why you would do that?
 5. What do you think this first section in blue is about? [Action required section]
 6. What kind of things would you expect to see here?
-7. Take a closer look at the items here. Is there anything confusing or surprising?
-8. What do you think the next section is for? [Activity section]
-9. What kind of things would you expect to see here?
-10. Take a closer look at the items. Anything confusing or surprising?
-11. Is there anything confusing overall about this app homepage?
-12. Is there anything missing?
+7. Why would those go here?
+8. Take a closer look at the items here. Is there anything confusing or surprising?
+9. Does the section name Action required make sense to you?
+10. What do you think the next section is for? [Activity section]
+11. What kind of things would you expect to see here?
+12. Why do you think those would go here?
+13. Take a closer look at the items. Anything confusing or surprising?
+14. Does the section name Activity make sense for these items?
+15. Is there anything confusing overall about this app homepage?
+16. Is there anything missing?
 
 > [!NOTE]
 > ### Things to watch for:
@@ -198,16 +208,18 @@ Take a look at this page without clicking anything [homescreen]. [Give participa
 
 ## Task 2: Find disability rating/payments - 4 minutes, 25 minutes elapsed
 
-Now let's talk about trying to find a few things in the app. 
+Now let's talk about trying to find a few things. 
 Say you had submitted a claim to hopefully update your disability rating and got a notice that your rating has been changed. You then got a disabiilty payment reflecting the updated rating.
 ### Questions for testing participant: 
 1. Where would you look for your current disability rating?
 2. Why?
 3. Is there anywhere else you would look?
-4. What about your disability payments history?
-5. Why?
-6. Anywhere else you'd look?
-7. Would you expect them to be in the same place?
+4. Probe: Would you expect to see that directly here on the homescreen?
+5. What about your disability payments history?
+6. Why?
+7. Anywhere else you'd look?
+8. Probe: Would you expect to see that on the homescreen?
+9. Would you expect disability rating and payments to be in the same place?
 
 > [!NOTE]
 > ### Things to watch for:
@@ -222,6 +234,7 @@ Next, let's think about if you were in a store and saw a sign that they offered 
 2. Why?
 3. [If they said outside the app] Where would you look for this in the app?
 4. Would you look anywhere else?
+5. Probe: Would you expect this on the homescreen?
 
 > [!NOTE]
 > ### Things to watch for:
@@ -231,7 +244,7 @@ Next, let's think about if you were in a store and saw a sign that they offered 
 Next, imagine you've recently adopted a child and submitted the paperwork to get them added as a dependent. You want to double check that they're now reflected as dependents. 
 
 ### Questions for testing participant: 
-1. Where would you look for that in the app?
+1. Where would you look for that?
 2. Why?
 3. Would you look anywhere else?
 
@@ -246,14 +259,20 @@ Next, let's take another look at the Action required section.
 2. [If yes], what would you do?
 3. Why?
 4. Is there anything confusing or unclear for any of the items here?
-5. Say you wanted to deal with the copayment due item. Without clicking yet, what would you do?
-6. What do you expect to happen when you do that?
-7. [If needed] What do you expect to happen when you tap the pay copay button?
-   *Direct to tap pay copay button if needed. Direct participant to complete pay copay flow and return to Homescreen.*
-8. What did you think about that process?
-9. If you wanted to see confirmation of the copay payment you just did or your full history of copayments, where would you go?
-10. What worked well?
-11. What could be improved?
+5. [If not discussed in Task 1] What do you think about having the due date for your evidence request?
+6. Is there anything else you'd really want a due date for here?
+7. Is there any other information you'd want up front here for any of the other Action required items?
+8. Say you wanted to deal with the copayment due item. Without clicking yet, what would you do?
+9. What do you expect to happen when you do that?
+10. [If needed] What do you expect to happen when you tap the pay copay button?
+11. Probe: What would you expect to happen if you click the arrow on the right?
+   *Direct to tap pay copay button if needed and move through copay flow.*
+12. Without clicking yet, would you expect to see copay due in the Action required section still when we get back to the homepage screen?
+    *Direct participant to return to Homescreen.*
+13. What did you think about that process?
+14. If you wanted to see confirmation of the copay payment you just did or your full history of copayments, where would you go?
+15. What worked well?
+16. What could be improved?
    
 > [!NOTE]
 > ### Things to watch for:
@@ -279,7 +298,8 @@ Next, let's take another look at the Activity section.
 13. What did you think about that process?
 14. What worked well?
 15. What could be improved?
-16. Now that we're back on the Homescreen, take another look, and let me know if there's anything you would change about it overall or any of the information displayed for each item. 
+16. Now that we're back on the Homescreen, take another look, and let me know if there's anything you would change about it overall or any of the information displayed for each item.
+17. Probe: Is there more information you'd want up front here for your 2 upcoming appointments?
 
 > [!NOTE]
 > ### Things to watch for:

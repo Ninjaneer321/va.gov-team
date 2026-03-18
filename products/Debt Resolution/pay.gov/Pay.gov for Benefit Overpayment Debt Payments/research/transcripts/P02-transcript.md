@@ -3359,7 +3359,7 @@ Moderator: Right.
 
 836
 01:19:16.180 --> 01:19:27.849
-Participant: And then, now you want to clot back, but you don't have the tech systems in place to show payment, or if I wanted to… why would I make a payment when you're just going to take it off the top anyways?
+Participant: And then, now you want to claw it back, but you don't have the tech systems in place to show payment, or if I wanted to… why would I make a payment when you're just going to take it off the top anyways?
 
 837
 01:19:28.260 --> 01:19:28.880

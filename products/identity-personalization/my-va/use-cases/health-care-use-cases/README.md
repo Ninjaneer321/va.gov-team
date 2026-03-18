@@ -27,11 +27,17 @@
 <details><summary>User does not have VA health care</summary>
 
 - **Use case:** When a LOA3 user does not have VA health care, they will see text in the section informing them they have no health care information at this time, and a link to My HealtheVet.
-- **Status code:** TBD
 - **Format:** Paragraph copy. See designs
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5069-18072&t=hwoiHCaMFjyRAOid-1)
-- [Link to code]
 - **Content:** See designs
+- **Status codes:**
+  - 200 GET /v0/user
+  - 200 GET /v0/health_care_applications/enrollment_status
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCare.jsx
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContent.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContentLegacy.jsx
 
 </details>
 
@@ -41,11 +47,17 @@
 <details><summary>User does not have any upcoming appointments</summary>
 
 - **Use case:** When a user does not have any upcoming appointments, they will see a card that informs them they have no appointments and a link to manage appointments.
-- **Status code:** TBD
 - **Format:** [Card component](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=7605-14422&t=s9B47tQIghdkIdzp-1)
-- [Link to code]
 - **Content:** See designs
+- **Status codes:**
+  - 200 GET /vaos/v2/appointments
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCare.jsx
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContent.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContentLegacy.jsx
+  - src/applications/personalization/dashboard/components/health-care/HealthCareCTA.jsx
 
 </details>
 
@@ -53,12 +65,19 @@
 <details><summary>User has upcoming appointments</summary>
 
 - **Use case:** If a user has a confirmed upcoming appointment, they will see **up to** two cards in this section that tells them the date, time, and location of the appointment, as well as a link to the details of the appointment. A link to manage all appointments always shows.
-- **Status code:** 200
 - **Format:** [Card component](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5022-17383&t=cZLTEcVoQuXx90AV-1)
-- [Link to code]
 - **Content:** See designs
-
+- **Status codes:**
+  - 200 GET /vaos/v2/appointments
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCare.jsx
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContent.jsx
+  - src/applications/personalization/dashboard/components/health-care/AppointmentsCard.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContentLegacy.jsx
+  - src/applications/personalization/dashboard/components/health-care/AppointmentsCardLegacy.jsx
+  - src/applications/personalization/dashboard/components/health-care/HealthCareCTA.jsx
 </details>
 
 
@@ -67,11 +86,17 @@
 <details><summary>User does not have any unread messages</summary>
 
 - **Use case:** When a user does not have any unread messages, they will see a card telling them and a link to their inbox.
-- **Status code:** TBD
 - **Format:** [Card component](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=7605-14422&t=aKgIoEodncS5nQS1-1)
-- [Link to code]
 - **Content:** See designs
+- **Status codes:**
+  - 200 GET /my_health/v1/messaging/folders
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCare.jsx
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContent.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContentLegacy.jsx
+  - src/applications/personalization/dashboard/components/health-care/HealthCareCTA.jsx
 
 </details>
 
@@ -79,11 +104,17 @@
 <details><summary>User has unread messages</summary>
 
 - **Use case:** When a user has unread messages, they will see a card informing them they have unread messages, and a link to their inbox.
-- **Status code:** TBD
 - **Format:** [Card component](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5022-17383&t=aKgIoEodncS5nQS1-1)
-- [Link to code]
 - **Content:** See designs
+- **Status codes:**
+  - 200 GET /my_health/v1/messaging/folders
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCare.jsx
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContent.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContentLegacy.jsx
+  - src/applications/personalization/dashboard/components/health-care/HealthCareCTA.jsx
 
 </details>
 
@@ -94,7 +125,9 @@
 This feature has no validation use cases.
 
 ### Flags
-There are no flags with this feature.
+
+- `myVaUpdateErrorsWarnings`: Switches `error` or `warning` severity of alerts for the section
+- `travelPaySubmitMileageExpense`: Legacy CTA link condition
 
 ### System errors
 
@@ -102,11 +135,16 @@ There are no flags with this feature.
 
 - **Use case:** If an LOA3 user logs in and the main user call fails, then we will not be able to detect if a user has VA health care or not. If this error occurs, in most cases the entire page will fail to load and the user will see a full page error.
    - In rare cases, this error could occur and the page may still load. If this occurs, we display an error in the health care section.
-- **Status code:** TBD
 - **Format:** [Slim warning alert component](https://design.va.gov/components/alert/#web-2)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5333-17024&t=aKgIoEodncS5nQS1-1)
-- [Link to code]
 - **Content:** See designs 
+- **Status codes:**
+  - 500 GET /v0/health_care_applications/enrollment_status
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCare.jsx
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContent.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContentLegacy.jsx
 
 </details>
 
@@ -114,11 +152,16 @@ There are no flags with this feature.
 <details><summary>The appointments API is down and the system can't tell if the user has appointments scheduled but can tell they have VA health care</summary>
 
 - **Use case:** If an LOA3 user logs in who has VA health care and there is an error with the appointments API, then we will be able to detect that they have VA health care but we will not be able to show any upcoming appointment information. If this error occurs, we display a warning alert in the Appointments section.
-- **Status code:** TBD
 - **Format:** [Slim warning alert component](https://design.va.gov/components/alert/#web-2)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5362-14384&t=aKgIoEodncS5nQS1-1)
-- [Link to code]
-- **Content:** See designs 
+- **Content:** See designs
+- **Status codes:**
+  - 400 GET /vaos/v2/appointments
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCare.jsx
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContent.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContentLegacy.jsx
 
 </details>
 
@@ -126,11 +169,17 @@ There are no flags with this feature.
 <details><summary>The messaging API is down and we can’t tell if the user has any unread messages</summary>
 
 - **Use case:** If an LOA3 user logs in who has VA health care and the messaging API is down, then we will not be able to detect if a user has unread messages or not. If this error occurs, we provide a warning alert in the Messages section.
-- **Status code:** TBD
 - **Format:** [Slim warning alert component](https://design.va.gov/components/alert/#web-2)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5393-14001&t=aKgIoEodncS5nQS1-1)
-- [Link to code]
-- **Content:** See designs 
+- **Content:** See designs
+- **Status codes:**
+  - 500 GET /my_health/v1/messaging/folders
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCare.jsx
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContent.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContentLegacy.jsx
+  - src/applications/personalization/dashboard/components/health-care/HealthCareCTA.jsx
 
 </details>
 

@@ -236,7 +236,6 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 - `All participants must have a MHV premium account, OR an authenticated / identity-proofed ID.me account. In the email sent by Perigean, they should be informed that you will need to log in to their accounts either before or during the interview session so they should have their account details handy for the session, as they will be required to sign in.`
 - `Must identify as a gender other than male (recruit no less than 6)`
 - `Must be over the age of 55 (recruit no less than 6, and at least 3 over the age of 70)`
-- `Must have scheduled a mental health appointment (recruit no less than 7)`
 
 #### Secondary criteria (nice-to-haves)
 
@@ -258,7 +257,10 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 4. Have you scheduled or attempted to schedule a medical appointment in the last 12 months?
 	- Yes (go on to Screener question 5)
 	- No (Disqualify)
-5. Have you ever scheduled a mental health appointment?
+5. Have you scheduled at least one of the following, a primary care appointment, social work appointment, or a pharmacy appointment?
+    - Yes (go on to Screener question 6)
+    - No (Disqualify)
+6. Have you ever scheduled a mental health appointment?
 	- Yes (recruit 7)
 	- No (recruit 8)
 

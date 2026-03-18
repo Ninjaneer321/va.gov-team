@@ -157,7 +157,7 @@ In this research we are specifically exploring Veteran and business (education) 
    - _Supporting data: **P3:** "It is tedious to do. Click, click. Click. Click, click when every single time it's the same thing." (Work Study Site Supervisor)_
 
 **Subject:**
-- As a Veteran, the subject field is redundant to the category and topic, but I am required to enter it in anyway for education submissions. As a Veteran, the subject field is redundant to the category and topic, but I am required to enter it in anyway for education submissions. (6/9 participants)
+- As a Veteran, the subject field is redundant to the category and topic, but I am required to enter it in anyway for education submissions. (6/9 participants)
 - As a Business Submitter, I primarily use subject to identify the student I am submitting something for, but the subject field is not reflected in the inbox. (4/4 participants)
 
 **Attachments:**

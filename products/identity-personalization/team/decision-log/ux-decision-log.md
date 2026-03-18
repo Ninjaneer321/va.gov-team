@@ -15,6 +15,11 @@
 - [Link to the conversation](https://dsva.slack.com/archives/C01DBGX4P45/p1762530150287459)
 
 ### Forms and applications
+#### 03/13/2026 ACTION NEEDED having the PDF link
+- Identified that the current PDF link on the ACTION NEEDED status does not work. Additional work would be needed to make the link functional.
+- PO confirmed that having the PDF generate on ACTION NEEDED is not mission critical. If it's a low lift fix, continue with fix, if it's high lift, add to backlog.
+- Verbal confirmation in team meeting.
+
 #### 02/23/2026 Updating Forms and Applications Download Button to Link 
 - Platform team gave direction on utilizing the loading spinner on the download loading link
 -  [Link to conversation](https://dsva.slack.com/archives/C01DBGX4P45/p1769091910696729)

@@ -1,11 +1,11 @@
 # VA Mobile App Review Analysis
-## Q4 App Review & Feedback
+## Q1 FY26 App Review & Feedback (Oct–Dec 2025)
 
 ---
 
 ## Analysis Motivation & Approach
 
-**VA Mobile App Analysis | Q4 2025**
+**VA Mobile App Analysis | Q1 FY26**
 
 ### Why We Conducted This Review
 
@@ -36,7 +36,7 @@ To gain insights into Veterans' experiences with the VA Mobile App by analyzing 
 
 ## FY25 OCTO Goals Supported
 
-**VA Mobile App Analysis | Q4 2025**
+**VA Mobile App Analysis | Q1 FY26**
 
 | Goal | Supported |
 |---|---|
@@ -50,13 +50,13 @@ To gain insights into Veterans' experiences with the VA Mobile App by analyzing 
 
 ---
 
-## Learnings from Q4 2025
+## Learnings from Q1 FY26
 
 ---
 
 ## At-a-Glance
 
-**VA Mobile App Analysis | Q4 2025**
+**VA Mobile App Analysis | Q1 FY26**
 
 ### Veteran satisfaction remains consistently high, with over 75% positive ratings.
 
@@ -64,7 +64,7 @@ Users continue to describe the app as easy to use, convenient, and reliable. Pos
 
 ### Login and authentication continue to be the most reported pain point.
 
-Across all three months of Q4, login issues remained the most frequently cited frustration. Veterans report biometric failures, credential lockouts, sign-in loops, and challenges with ID.me and Login.gov. In November, login received an average feature rating of 2.86 — the lowest of any feature tracked. This aligns with findings from Q1–Q3.
+Across all three months of Q1 FY26, login issues remained the most frequently cited frustration. Veterans report biometric failures, credential lockouts, sign-in loops, and challenges with ID.me and Login.gov. In November, login received an average feature rating of 2.86 — the lowest of any feature tracked. This aligns with findings from Q2–Q4 FY25.
 
 ### Missing appointment details and document accessibility emerge as growing concerns.
 
@@ -74,7 +74,7 @@ While appointment access is a valued feature, Veterans increasingly report frust
 
 ## Data Snapshot
 
-**VA Mobile App Analysis | Q4 2025**
+**VA Mobile App Analysis | Q1 FY26**
 
 ### Ratings Distribution (October–November 2025)
 
@@ -94,19 +94,19 @@ _Note: December 2025 data did not include a ratings distribution breakdown. The 
 
 ### Key Results
 
-Veteran satisfaction scores remain consistent with Q3 (75.5% positive) and continue the positive trend observed throughout FY25. The ratio of negative ratings (~17%) also remains stable, indicating that while the app broadly works well for the majority, a persistent subset of users encounter blocking issues — most commonly related to sign-in.
+Veteran satisfaction scores remain consistent with Q4 FY25 (75.5% positive) and continue the positive trend observed throughout FY25 and into FY26. The ratio of negative ratings (~17%) also remains stable, indicating that while the app broadly works well for the majority, a persistent subset of users encounter blocking issues — most commonly related to sign-in.
 
 ---
 
 ## Positive Sentiments
 
-**VA Mobile App Analysis | Q4 2025**
+**VA Mobile App Analysis | Q1 FY26**
 
 ### Over 75% of Reviews Praised the Mobile App for Ease of Use, Simplicity, and Convenience
 
 Veterans who gave the app a positive rating (4 or 5 stars) consistently praise the app as valuable because of its simplicity and ease of use. Many Veterans note that the app centralizes critical VA tools — prescriptions, messaging, appointments, claims, and letters — in one place that is easier to use than the website.
 
-The reviews from October through December 2025 show that the following elements of the app are highly valued by Veterans:
+The reviews from Q1 FY26 (October through December 2025) show that the following elements of the app are highly valued by Veterans:
 
 - **Prescriptions:** Continues to be the highest-rated feature. Veterans praise how easy it is to view and refill medications from their phones. November data showed prescriptions with a 4.55 average rating.
 - **Navigation:** Most navigation-related comments remain positive, with Veterans noting intuitive design and easy access to information from the home screen.
@@ -125,14 +125,14 @@ The reviews from October through December 2025 show that the following elements 
 
 ## Negative Sentiments
 
-**VA Mobile App Analysis | Q4 2025**
+**VA Mobile App Analysis | Q1 FY26**
 
 ### Approximately 17% of Reviews Reported Frustrations — Primarily Linked to Login, Missing Information, and App Errors
 
-Veterans who rated the app 3-stars or less shared several recurring challenges during Q4. These challenges are consistent with those identified in Q1–Q3:
+Veterans who rated the app 3-stars or less shared several recurring challenges during Q1 FY26. These challenges are consistent with those identified in Q2–Q4 FY25:
 
-- **Sign-in Issues (~50+ mentions across Q4):** Veterans continue to struggle with login — biometric failures, credential lockouts, sign-in loops, and confusion around ID.me/Login.gov. Login received the lowest feature rating in November (2.86 avg) and remained a dominant theme in December reviews.
-- **Missing or Incomplete Appointment Details (~25+ mentions):** Veterans report that appointment entries lack provider name, department, room number, and reason for visit. This was flagged across all three months and is one of the most consistent themes across Q4.
+- **Sign-in Issues (~50+ mentions across Q1 FY26):** Veterans continue to struggle with login — biometric failures, credential lockouts, sign-in loops, and confusion around ID.me/Login.gov. Login received the lowest feature rating in November (2.86 avg) and remained a dominant theme in December (Q1 FY26) reviews.
+- **Missing or Incomplete Appointment Details (~25+ mentions):** Veterans report that appointment entries lack provider name, department, room number, and reason for visit. This was flagged across all three months and is one of the most consistent themes across Q1 FY26.
 - **Letters and Documents Inaccessible (~15+ mentions):** Veterans could not find claims decision letters, or found that payment history only loaded for certain years. December reviews also noted incorrect dates on printed disability letters.
 - **Messaging Difficulties (~10+ mentions):** Some Veterans could not find their providers in the messaging recipient list or struggled to locate the messaging feature within the app. Others requested the ability to delete old messages.
 - **App Errors and Glitches:** A small but impactful subset of users reported the app "no longer working" after updates, including crashes and extended loading times.
@@ -149,7 +149,7 @@ Veterans who rated the app 3-stars or less shared several recurring challenges d
 
 ## Key Opportunities of Improvement
 
-**VA Mobile App Analysis | Q4 2025**
+**VA Mobile App Analysis | Q1 FY26**
 
 | Issue | Sign-in Issues | Missing Appointment Details | Letters/Documents Access | Messaging Provider Access |
 |---|---|---|---|---|
@@ -164,7 +164,7 @@ Veterans who rated the app 3-stars or less shared several recurring challenges d
 
 ## Detailed List of Opportunities
 
-**VA Mobile App Analysis | Q4 2025**
+**VA Mobile App Analysis | Q1 FY26**
 
 ### Sign In (Critical)
 
@@ -185,8 +185,8 @@ Veterans who rated the app 3-stars or less shared several recurring challenges d
 | | - Sign-in Failure Rates (broken down by cause) |
 | | - Biometric Authentication Usage & Failure Rates |
 | | - Time to Login |
-| **Suggestions/Next Steps** | - Continue root cause analysis initiated in Q3 |
-| | - Review login feedback survey results (collected December per Q3 roadmap) |
+| **Suggestions/Next Steps** | - Continue root cause analysis initiated in Q4 FY25 |
+| | - Review login feedback survey results (collected December per Q4 FY25 roadmap) |
 | | - Test across device versions and OS (Android vs. iOS) |
 | | - Improve error messaging and credential reset guidance |
 
@@ -209,7 +209,7 @@ Veterans who rated the app 3-stars or less shared several recurring challenges d
 | | - After-appointment notes or summary |
 | **Metrics to Track** | - Appointment Issue Rate (monitor by location, appointment type, date) |
 | | - Reported appointment detail complaints month-over-month |
-| **Suggestions/Next Steps** | - Continue data analysis recommended in Q3 (appointment data mapping from source systems) |
+| **Suggestions/Next Steps** | - Continue data analysis recommended in Q4 FY25 (appointment data mapping from source systems) |
 | | - Compare data reflected in app vs. VA.gov for inconsistencies |
 | | - Prioritize surfacing provider name and department as highest-impact additions |
 
@@ -254,7 +254,7 @@ Veterans who rated the app 3-stars or less shared several recurring challenges d
 | **Metrics to Track** | - Messaging funnel drop-off rates |
 | | - Reported cases of missing providers post-MHV list change |
 | | - Message send success/failure rates |
-| **Suggestions/Next Steps** | - Continue case analysis initiated in Q3 for messaging list issues |
+| **Suggestions/Next Steps** | - Continue case analysis initiated in Q4 FY25 for messaging list issues |
 | | - Allow users to search or manually connect to needed providers |
 | | - Direct users to messaging from the homepage |
 | | - Explore message management capabilities (delete, folders) |
@@ -280,7 +280,7 @@ Veterans who rated the app 3-stars or less shared several recurring challenges d
 | | - Time on Task for refill workflow |
 | | - Funnel drop-off rates |
 | **Suggestions/Next Steps** | - Enhance refill status visibility with clearer labels |
-| | - Consider competitive audit recommended in Q3 |
+| | - Consider competitive audit recommended in Q4 FY25 |
 | | - Add prescribing doctor and medication description where available |
 | | - Explore notification enhancements for prescription status changes |
 
@@ -302,7 +302,7 @@ Veterans who rated the app 3-stars or less shared several recurring challenges d
 | **Metrics to Track** | - Travel Pay Submission Completion Rate |
 | | - Travel Pay Click Rate from appointment details |
 | | - User Path Flow from Travel Pay links |
-| **Suggestions/Next Steps** | - Conduct tree testing recommended in Q3 to assess findability |
+| **Suggestions/Next Steps** | - Conduct tree testing recommended in Q4 FY25 to assess findability |
 | | - Ensure accurate claim tracking and status visibility |
 | | - Consider surfacing travel pay from the homepage |
 
@@ -321,7 +321,7 @@ Veterans who rated the app 3-stars or less shared several recurring challenges d
 | | - Ability to easily find what is available in the app |
 | | - Clear identification of new features |
 | **Metrics to Track** | - User path monitoring (backtracking rates, drop-off rates, navigation paths) |
-| **Suggestions/Next Steps** | - Conduct Navigation Path Analytics Study (per Q3 roadmap, planned Feb 2026) |
+| **Suggestions/Next Steps** | - Conduct Navigation Path Analytics Study (per Q4 FY25 roadmap, planned Feb 2026) |
 | | - Implement a search function |
 | | - Highlight new features on the homepage |
 
@@ -344,17 +344,17 @@ _Note: Feature-level average ratings were available only for November. October p
 | Letters and Documents | NA | NA |
 | Profile | NA | NA |
 
-**Strongest feature:** Prescriptions (4.55) — consistently the highest-rated feature across all quarters of FY25.
+**Strongest feature:** Prescriptions (4.55) — consistently the highest-rated feature across FY25 and Q1 FY26.
 
-**Weakest feature:** Login (2.86) — consistently the lowest-rated feature across all quarters of FY25.
+**Weakest feature:** Login (2.86) — consistently the lowest-rated feature across FY25 and Q1 FY26.
 
 ---
 
-## Q4 Comparison to Previous Quarters
+## Q1 FY26 Comparison to Previous Quarters
 
-**VA Mobile App Analysis | Q4 2025**
+**VA Mobile App Analysis | Q1 FY26**
 
-| Metric | Q1/Q2 (Jan–May) | Q3 (Jul–Sep) | Q4 (Oct–Dec) |
+| Metric | Q2–Q3 FY25 (Jan–May) | Q4 FY25 (Jul–Sep) | Q1 FY26 (Oct–Dec) |
 |---|---|---|---|
 | Positive sentiment | ~60%+ | 75.5% | 75.2% |
 | Top pain point | Login (41 instances) | Sign in (most reported) | Sign in (~50+ mentions) |
@@ -364,30 +364,31 @@ _Note: Feature-level average ratings were available only for November. October p
 
 ### Key Trends Across FY25
 
-1. **Login remains the persistent #1 pain point** across all four quarters. Root cause analysis was initiated in Q3 and login survey data was collected in December — results should be reviewed in Q1 FY26.
+1. **Login remains the persistent #1 pain point** across FY25 and Q1 FY26. Root cause analysis was initiated in Q4 FY25 and login survey data was collected in December — results should be reviewed in Q2 FY26.
 2. **Prescriptions are consistently the strongest feature**, maintaining high satisfaction throughout the year.
-3. **Appointment detail completeness** has been a recurring request since Q1/Q2 and became more prominent in Q3 and Q4.
-4. **Travel pay findability** emerged in Q3 following marketing campaigns and continued into Q4, though with lower volume.
-5. **Messaging provider access** issues that surfaced in Q3 (September MHV list change) persisted into Q4.
-6. **Document and letter accessibility** became more prominent in Q4, with Veterans reporting inconsistencies between the app, website, and mail.
+3. **Appointment detail completeness** has been a recurring request since Q2–Q3 FY25 and became more prominent in Q4 FY25 and Q1 FY26.
+4. **Travel pay findability** emerged in Q4 FY25 following marketing campaigns and continued into Q1 FY26, though with lower volume.
+5. **Messaging provider access** issues that surfaced in Q4 FY25 (September MHV list change) persisted into Q1 FY26.
+6. **Document and letter accessibility** became more prominent in Q1 FY26, with Veterans reporting inconsistencies between the app, website, and mail.
 
 ---
 
-## Recommendations for Q1 FY26
+## Recommendations for Q2 FY26
 
-**VA Mobile App Analysis | Q4 2025**
+**VA Mobile App Analysis | Q1 FY26**
 
-### Priorities Carried Forward from Q3 Roadmap
+### Priorities Carried Forward from Q4 FY25 Roadmap
 
-Per the Q3 research roadmap, the following were planned for Q1 FY26 (January–March 2026):
+Per the Q4 FY25 research roadmap, the following were planned for Q2 FY26 (January–March 2026):
 
 - **January:** Monthly app review analysis, Quarterly app review analysis, Sign-in root cause analysis
 - **February:** Monthly app review analysis, Surface AskVA link exploration, Navigation Path Analytics Study, Dedicated app support channel (through March)
 - **March:** Monthly app review analysis, Dedicated app support channel
 
-### Additional Q4-Informed Recommendations
+### Additional Q1 FY26-Informed Recommendations
 
 1. **Letters and Documents Audit:** Investigate backend data loading for historical payment records and claims letters. Correct date display on printed disability letters. Ensure parity between app and VA.gov.
-2. **Appointment Detail Enhancement:** Prioritize surfacing provider name and department as highest-impact additions based on consistent Q3 and Q4 feedback.
-3. **Prescription Status Clarity:** Differentiate between "shipped," "pending," and "available for refill" to reduce confusion reported throughout Q4.
+2. **Appointment Detail Enhancement:** Prioritize surfacing provider name and department as highest-impact additions based on consistent Q4 FY25 and Q1 FY26 feedback.
+3. **Prescription Status Clarity:** Differentiate between "shipped," "pending," and "available for refill" to reduce confusion reported throughout Q1 FY26.
 4. **Messaging Search/Connect:** Allow users to search or manually connect to needed providers to address persistent post-MHV list change issues.
+

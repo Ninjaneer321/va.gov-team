@@ -44,21 +44,36 @@
 ## User does not have any drafts or completed forms</summary>
 
 * **Description:** When a user does not have any form or application drafts or completed forms they will see information informing them of such, and an additional information component on what to do if they think there are missing forms.
-* **Status code:** TBD
 * **Format:** See designs
 * [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5077-16410&t=KhCgIDPMpZ6FClDG-1)
-* [Link to code]
 * **Content:** See designs.
-
+- **Status codes:**
+  - 200 GET /v0/my_va/submission_statuses
+  - 200 GET /v0/user
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/FormsAndApplications.jsx
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/MissingApplicationHelp.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/BenefitApplications.jsx
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/ApplicationsInProgress.jsx
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/MissingApplicationHelp.jsx
 
 ## User has a benefit application or form draft saved but not yet submitted
 
 * **Description:** When a user has a benefit application draft saved in progress, the card appears in the in-progress section.
-* **Status code:** TBD
 * **Format:** [Card component](https://design.va.gov/components/card)
 * [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5077-16011&t=KhCgIDPMpZ6FClDG-1)
 * [Link to code](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/engineering-docs/frontend/benefit-applications-and-forms.md)
 * **Content:** See designs
+- **Status codes:**
+  - 200 GET /v0/user
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/FormsAndApplications.jsx
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/ApplicationCard.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/BenefitApplications.jsx
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/ApplicationsInProgress.jsx
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/DraftCard.jsx
 
 
 ## User has submitted a benefit application and/or form not on LH BI API
@@ -66,11 +81,19 @@
 * **Description:** When a user has submitted a supported application or form **not** on Lighthouse Benefits Intake API they will see a card.
    - Submission in progress and Received statuses appear in the Completed forms section.
    - Action needed statuses appear in the In-progress section.
-* **Status code:** TBD
 * **Format:** [Card component](https://design.va.gov/components/card)
 * [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5077-16246&t=KhCgIDPMpZ6FClDG-1)
 * [Link to code](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/engineering-docs/frontend/benefit-applications-and-forms.md)
 * **Content:** See designs
+- **Status codes:**
+  - 200 GET /v0/my_va/submission_statuses
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/FormsAndApplications.jsx
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/ApplicationCard.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/BenefitApplications.jsx
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/ApplicationsInProgress.jsx
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/SubmissionCard.jsx
 
 </details>
 
@@ -80,11 +103,19 @@
 * **Use case:** When a user has submitted a supported application or form on the Lighthouse Benefits Intake API, they will see a card.
    - Submission in progress and Received statuses appear in the Completed forms section.
    - Action needed statuses appear in the In-progress section.
-* **Status code:** TBD
 * **Format:** [Card component](https://design.va.gov/components/card)
 * [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5077-16327&t=vSC00tzVjcFZ2rHY-1)
 * [Link to code](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/engineering-docs/frontend/benefit-applications-and-forms.md)
 * **Content:** See designs
+- **Status codes:**
+  - 200 GET /v0/my_va/submission_statuses
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/FormsAndApplications.jsx
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/ApplicationCard.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/BenefitApplications.jsx
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/ApplicationsInProgress.jsx
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/SubmissionCard.jsx
 
 
 # Edge cases
@@ -95,18 +126,25 @@ This feature has no validation use cases.
 ## Flags
 
 - `myVaFormPdfLink`: Allows the render of the PDF download UI button
+- `benefitsClaimsIvcChampVaProvider`: Overrides for texts such as titles and labels
 
 ## Errors
 
 ### The API that shows forms is down
   
 * **Description:** If an LOA3 user logs in and there is an error with the API that displays forms and applications, then we show an alert informing the user the information is currently unavailable. No other information shows in the section.
-* **Status code:** TBD
 * **Format:** [Warning slim alert](https://design.va.gov/components/alert/#warning-alert)
 * [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5350-14507&t=vSC00tzVjcFZ2rHY-1)
-* [Link to code]
 * **Content:** See designs 
-
+- **Status codes:**
+  - 400 GET /v0/my_va/submission_statuses
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/FormsAndApplications.jsx
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/Error.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/BenefitApplications.jsx
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/ApplicationsInProgress.jsx
+  - src/applications/personalization/dashboard/components/benefit-application-drafts/Error.jsx
 
 ---
 

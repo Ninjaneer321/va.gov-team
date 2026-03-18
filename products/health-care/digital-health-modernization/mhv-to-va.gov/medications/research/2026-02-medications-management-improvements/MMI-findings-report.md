@@ -40,7 +40,7 @@
 
 ### RQ1: Can users understand the VA's medication processes well enough to complete their key tasks?
 
-**Yes, with significant caveats around navigation.**
+**Yes, with caveats around navigation.**
 
 - The In-Progress page's three-phase tracker (Request Submitted > Fill in Progress > Medication Shipped) was well understood by 7 of 8 participants who viewed it (P7 excluded due to screen freeze; P5 did not navigate to the In-Progress page during Task 1 but viewed it during Task 3). Users correctly described the sequential flow and what each status meant.
 - The "Too early to refill" grey card was correctly interpreted by all 9 participants as meaning their request was acknowledged and would ship automatically when eligible.

@@ -82,16 +82,14 @@ Because users could have multiple facilities in their profile (some of which are
 
 Instead, in-product tactics within the tools themselves will be more advantageous from a user-experience perspective. For example, within the appointments flow, direct-schedule appointment types could suppress _specific facility names_ within the flow, or even allow them but lead the user to a page that requires a phone-call to complete scheduling instead of allowing direct online scheduling. For Secure messaging, teams should evaluate whether they can suppress the health care system (facilities) from the care team drop-down list in the new message flow (and also disallow replies during this time frame on existing message threads that would otherwise be routed to any of these care teams underneath that facility). 
 
-### Competing alert logic 
-Maintenance window alerts related to this effort could compete with other alerts in the user experience. Horizon team IA lead met with a small team of engineers and determined that the benefits of a shared pattern for all teams outweighs the possibility of inconsistent alert hierarchy during the transition window. We will not worry about competing alert hierarchy at a portal-wide standardization level. 
-
-
 # <a name="decisions">Design decisions</a>
 
 **January 15, 2026** - OH cutover information will be presented to users at the tool-level ONLY
   * We will not put alerts on the My healtheVet landing page (Web) or Health menu (VAHB) related to the OH cutover work - we would have to default to the longest-running alert timeframes (appointments) which is a really long time to show users alerts on this page that is the gateway to the entire health portal.
   * Many users can have "hybrid" profiles, with facilities in their account that are unaffected by this transition. It's important that they understand they can still do everything as normal for the unaffected facilities.
   * Some health tools included on the landing page are entirely unaffected by the transition, including: travel pay, copays, medical supply re-ordering, updating the 10-10EZR. We don't want to suggest that everything is "down" from this page, when it's not an accurate.
+  * Competing alert logic 
+    * Maintenance window alerts related to this effort could compete with other alerts in the user experience. Horizon team IA lead met with a small team of engineers and determined that the benefits of a shared pattern for all teams outweighs the possibility of inconsistent alert hierarchy during the transition window. We will not worry about competing alert hierarchy at a portal-wide standardization level. 
 
 **January 9, 2026** - We do not need alerts for travel pay, which will not be affected by the transition.
 

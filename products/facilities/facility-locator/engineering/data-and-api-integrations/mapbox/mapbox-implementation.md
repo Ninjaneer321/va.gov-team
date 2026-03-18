@@ -3,61 +3,97 @@
 ## Overview
 - **Mapbox APIs that are used on VA.gov**: Temporary Geocoding V5, Map Loads for Web, Static Images, Matrix
 
-We use Mapbox to render maps, most notably on the Facility Locator. In order to use Mapbox, an API key is required. One critical piece to understanding the architectural approach mapped out below is to understand that these Mapbox API keys are [visible to the public](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/issues/462#issue-1205626603). Mapbox knows this and accounts for this by allowing (and suggesting) URL restrictions on the keys. So, for example, we can restrict our API keys to only work on API calls initiated from va.gov.
+We use Mapbox to render maps, most notably on the Facility Locator. In order to use Mapbox, an [access token](https://docs.mapbox.com/accounts/guides/tokens/) is required. One critical piece to understanding the architectural approach mapped out below is to understand that these Mapbox access tokens are [visible to the public](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/issues/462#issue-1205626603). Mapbox knows this and accounts for this by allowing (and suggesting) URL restrictions on the tokens. So, for example, we can restrict our tokens to only work on API calls initiated from va.gov.
 
-This is great, and works for our public-facing sites. But the problem grows in scope when we recognize that this will not work for some of our non-production environments (CI, local). In these cases, we are working without a typical URL, so we cannot use URL restriction. Luckily, in these cases, the front ends are not viewable by the world, so we don't need to worry about the key being viewable in that context. We simply need to ensure that the key is not in the source code.
+This is great, and works for our public-facing sites. But the problem grows in scope when we recognize that this will not work for some of our non-production environments (CI, local). In these cases, we are working without a typical URL, so we cannot use URL restriction. Luckily, in these cases, the front ends are not viewable by the world, so we don't need to worry about the token being viewable in that context. We simply need to ensure that the token is not in the source code.
 
-So, we need [two separate keys](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/issues/457#issuecomment-1513272716). A production key that is URL restricted and a development key that is not URL restricted. As noted above, keys that are not URL restricted must never be visible to the world, so it is imperative that we not store these values in our repository. So, the architectural challenge amounts to storing the value elsewhere, and then retrieving the value in an appropriate fashion.
+So, we need [two separate tokens](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/issues/457#issuecomment-1513272716). A production token that is URL restricted and a development token that is not URL restricted. As noted above, tokens that are not URL restricted must never be visible to the world, so it is imperative that we not store these values in our repository. So, the architectural challenge amounts to storing the value elsewhere, and then retrieving the value in an appropriate fashion.
 
 ## Architecture
-### Key Storage
-The keys are stored in AWS Parameter Store. 
-* Dev VA.gov token: /dsva-vagov/vets-website/dev/mapbox_token
-* Prod VA.gov token: [/dsva-vagov/vets-website/prod/mapbox_token](https://console.amazonaws-us-gov.com/systems-manager/parameters/%252Fdsva-vagov%252Fvets-website%252Fprod%252Fmapbox_token/description?region=us-gov-west-1&tab=Table#list_parameter_filters=Name:Contains:mapbox_token) 
+### Token Storage
+Tokens are stored in AWS Parameter Store. Each Mapbox-consuming application now has its own dedicated token, allowing independent rotation, URL restriction, and usage tracking per team.
+
+#### Per-application production tokens
+
+| Application | SSM Parameter | Env Variable |
+| --- | --- | --- |
+| Facility Locator | `/dsva-vagov/vets-website/prod/mapbox_token_facility_locator` | `MAPBOX_TOKEN_FACILITY_LOCATOR` |
+| Static Pages | `/dsva-vagov/vets-website/prod/mapbox_token_static_pages` | `MAPBOX_TOKEN_STATIC_PAGES` |
+| GI Bill Comparison Tool | `/dsva-vagov/vets-website/prod/mapbox_token_gi` | `MAPBOX_TOKEN_GI` |
+| Ask VA | `/dsva-vagov/vets-website/prod/mapbox_token_ask_va` | `MAPBOX_TOKEN_ASK_VA` |
+| Caregivers | `/dsva-vagov/vets-website/prod/mapbox_token_caregivers` | `MAPBOX_TOKEN_CAREGIVERS` |
+| Representative Search | `/dsva-vagov/vets-website/prod/mapbox_token_representative_search` | `MAPBOX_TOKEN_REPRESENTATIVE_SEARCH` |
+
+#### Other tokens
+
+* Shared dev fallback: `/dsva-vagov/vets-website/dev/mapbox_token` → `MAPBOX_TOKEN`
 * Production CMS token: [/cms/prod/MAPBOX_TOKEN_CMS](https://console.amazonaws-us-gov.com/systems-manager/parameters/%252Fcms%252Fprod%252FMAPBOX_TOKEN_CMS/description?region=us-gov-west-1&tab=Table#list_parameter_filters=Name:Contains:mapbox_token)
     * There is no token for CMS lower environments
 
 Accessing and editing values in the AWS Parameter Store is not a matter that is specific to the Facilities products. Rather, it is available [throughout the VA ecosystem](https://vfs.atlassian.net/wiki/spaces/pilot/pages/1474595172/Store+a+secret+in+Parameter+Store).
 
-### Key Retrieval
-##### ❌ Option 1: Load the keys at run time (not implemented -- also not implemented on any other system) 
+### Token Retrieval
+##### ❌ Option 1: Load the tokens at run time (not implemented -- also not implemented on any other system) 
 Noting this option here because it was discussed in [at least one place](https://vfs.atlassian.net/wiki/spaces/FTT/pages/2139783260/MapboxToken+Conversion+Guide+Proposal+draft) throughout the discovery process. Ultimately, this did not make sense. The option below was much more feasible.
 
-##### ✔️ Option 2: Load the keys at build time (implemented)
-**First, a caveat**: This problem space is interesting because, contrary to what we're likely conditioned to think, our prod API key is not sensitive information but our dev key is sensitive. This is because our prod key can be URL restricted while our dev key cannot be. Prior to this exploration, the prod key was hard-coded into the browser-run javascript. That's not problematic, at least from a security perspective, so, at least for now, that solution remains. For the other environments where the dev API key is needed, we load that key at build time and package that with the javascript code that is sent to the browser. For now, that's fine, but it's likely useful to consider whether the two keys should eventually be [handled in the same way](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/13336).
+##### ✔️ Option 2: Load the tokens at build time (implemented)
+**First, a caveat**: This problem space is interesting because, contrary to what we're likely conditioned to think, our prod token is not sensitive information but our dev token is sensitive. This is because our prod token can be URL restricted while our dev token cannot be.
 
-So, the process by which the keys are fetched from AWS Parameter Store and ultimately packaged in the browser code is outlined below:
-1. Fetch from AWS Parameter Store in required workflows (e.g. [continuous-integration](https://github.com/department-of-veterans-affairs/vets-website/blob/8de1ed2fa5b6a462323c2c482e6e2115ac666556/.github/workflows/continuous-integration.yml#L61), [e2e-tests](https://github.com/department-of-veterans-affairs/vets-website/blob/8de1ed2fa5b6a462323c2c482e6e2115ac666556/.github/workflows/e2e-tests.yml#L104))
-```
-      - name: Get Mapbox Token
-        uses: department-of-veterans-affairs/action-inject-ssm-secrets@<MS_ID> # latest
+**Update (2026):** Production tokens are no longer hardcoded in source. All tokens — both dev and prod — are now injected at build time from AWS SSM, with each application receiving its own dedicated token. This resolved the earlier open question about [handling both tokens the same way](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/13336).
+
+So, the process by which the tokens are fetched from AWS Parameter Store and ultimately packaged in the browser code is outlined below:
+
+1. **Fetch per-app tokens from AWS Parameter Store** in the CI workflows ([continuous-integration](https://github.com/department-of-veterans-affairs/vets-website/blob/main/.github/workflows/continuous-integration.yml), [build-and-tag](https://github.com/department-of-veterans-affairs/vets-website/blob/main/.github/workflows/build-and-tag.yml), [manual-deploy-dev-staging](https://github.com/department-of-veterans-affairs/vets-website/blob/main/.github/workflows/manual-deploy-dev-staging.yml)):
+```yaml
+      # Shared fallback (format-valid placeholder that prevents @mapbox/mapbox-sdk from
+      # throwing at import time when no real token is available)
+      - name: Set Mapbox Token fallback
+        run: echo "MAPBOX_TOKEN=pk.eyJ1IjoicGxhY2Vob2xkZXIifQ==" >> "$GITHUB_ENV"
+
+      # Per-app tokens — each fetched from its own SSM parameter
+      - name: Get Mapbox Token (Facility Locator)
+        uses: ./.github/workflows/inject-secrets
         with:
-          ssm_parameter: /dsva-vagov/vets-website/dev/mapbox_token
-          env_variable_name: MAPBOX_TOKEN
-```
-Notice that this is loading the _dev_ API key (`/dsva-vagov/vets-website/dev/mapbox_token`). The result of this process is that this value is now stored in an environment variable called `MAPBOX_TOKEN`. We can access that in the next step.
+          ssm_parameter: /dsva-vagov/vets-website/prod/mapbox_token_facility_locator
+          env_variable_name: MAPBOX_TOKEN_FACILITY_LOCATOR
 
-2. Tell [Webpack about the environment variable](https://github.com/department-of-veterans-affairs/vets-website/blob/8de1ed2fa5b6a462323c2c482e6e2115ac666556/config/webpack.config.js#L416). Webpack will then perform a string replacement in all places in code.
+      - name: Get Mapbox Token (GI)
+        uses: ./.github/workflows/inject-secrets
+        with:
+          ssm_parameter: /dsva-vagov/vets-website/prod/mapbox_token_gi
+          env_variable_name: MAPBOX_TOKEN_GI
+
+      # ... and so on for Static Pages, Ask VA, Caregivers, Representative Search
 ```
+
+2. **Webpack string-replaces both the shared fallback and every per-app token** ([webpack.config.js](https://github.com/department-of-veterans-affairs/vets-website/blob/main/config/webpack.config.js)):
+```js
         'process.env.MAPBOX_TOKEN': JSON.stringify(
-          process.env.MAPBOX_TOKEN || '',
+          process.env.MAPBOX_TOKEN || 'pk.eyJ1IjoicGxhY2Vob2xkZXIifQ==',
         ),
+        'process.env.MAPBOX_TOKEN_FACILITY_LOCATOR': JSON.stringify(
+          process.env.MAPBOX_TOKEN_FACILITY_LOCATOR,
+        ),
+        // ... one entry per app
 ```
-3. In the code where we actually want to reference this value, `process.env.MAPBOX_TOKEN` will be string-replaced by Webpack (in build):
-```
-export const mapboxToken =
-  process.env.MAPBOX_TOKEN ||
-  '<Contact Facilities Team>'; //prod key is fallback
-```
-will become:
 
-👇 This is what is sent to the browser.
-```
+3. **Each application has its own `mapboxToken.js`** that prefers its dedicated token and falls back to the shared one:
+```js
+// src/applications/facility-locator/utils/mapboxToken.js
 export const mapboxToken =
-  {injected_dev_api_key} ||
-  '<Contact Facilities Team>; //prod key is fallback
+  process.env.MAPBOX_TOKEN_FACILITY_LOCATOR || process.env.MAPBOX_TOKEN;
 ```
-☝️ This is what is sent to the browser.
+All other Mapbox-consuming apps follow the same pattern:
+| App | Token module |
+| --- | --- |
+| Facility Locator | `src/applications/facility-locator/utils/mapboxToken.js` |
+| Static Pages | `src/applications/static-pages/facilities/mapboxToken.js` |
+| GI Bill | `src/applications/gi/utils/mapboxToken.js` |
+| Ask VA | `src/applications/ask-va/utils/mapboxToken.js` |
+| Caregivers | `src/applications/caregivers/utils/mapbox/mapboxToken.js` |
+| Representative Search | `src/applications/representative-search/utils/mapboxToken.js` |
+
+After Webpack's string replacement, the browser receives the resolved token value directly — no `process.env` reference survives to runtime.
 
 ## Facility Locator location search
 In Mapbox there are `place_types`, and [their docs](https://docs.mapbox.com/api/search/geocoding-v5/#geographical-feature-types) spell out what each of these means in API terms. We currently (2/2025) limit `place_type` to matches on:

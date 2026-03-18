@@ -54,7 +54,7 @@ We recommend that the rollout plan has five stages, each increasing the number o
 
 #### **Rollout Planning**
 
-* Desired date range: **February 24 \- March 2, 2026**  
+* Desired date range: **May 19, 2026 \- May 26, 2026**  
   * **Note**: For the mobile release to occur on February 24, 2026 all work needs to be finalized by the release branch of **February 11, 2026\.**  
 * How will you make the product available in production while limiting the number of users who can find/access it:   
   * We will be turning on the feature flag for a small percentage of users and increasing every few days as long if metrics meet our success criteria.   
@@ -70,7 +70,7 @@ We recommend that the rollout plan has five stages, each increasing the number o
 
 #### **Planning**
 
-* Length of time: **February 24, 2026**  
+* Length of time: **May 19, 2026**  
 * Percentage of Users: 10% of users
 
 #### **Results**
@@ -86,7 +86,7 @@ We recommend that the rollout plan has five stages, each increasing the number o
 
 #### **Planning**
 
-* Length of time: **February 25, 2026**  
+* Length of time: **May 20, 2026**  
 * Percentage of Users (and roughly how many users do you expect this to be): 25%
 
 #### **Results**
@@ -102,7 +102,7 @@ We recommend that the rollout plan has five stages, each increasing the number o
 
 #### **Planning**
 
-* Length of time: **February 26, 2026**  
+* Length of time: **May 21, 2026**  
 * Percentage of Users (and roughly how many users do you expect this to be): 50%
 
 #### **Results**
@@ -118,7 +118,7 @@ We recommend that the rollout plan has five stages, each increasing the number o
 
 #### **Planning**
 
-* Length of time: **February 27, 2026**  
+* Length of time: **May 22, 2026**  
 * Percentage of Users (and roughly how many users do you expect this to be): 75%
 
 #### **Results**
@@ -134,7 +134,7 @@ We recommend that the rollout plan has five stages, each increasing the number o
 
 #### **Planning**
 
-* Length of time: **March 2, 2026**  
+* Length of time: **May 26, 2026**  
 * Percentage of Users (and roughly how many users do you expect this to be): 100%
 
 #### **Results**

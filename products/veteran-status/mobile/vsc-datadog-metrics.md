@@ -19,13 +19,13 @@ The metrics and graphs shown for each of these categories are the same.
 | Veteran Status Cards Latency | The average of the Veteran Status Card Controller total request times in seconds |
 | Eligible or Ineligible % | The total number of confirmed versus not confirmed verification statuses |
 | VSC Rum Views and Errors | The total number of frontend views and client errors recorded by Real User Monitoring for the Veteran Status Card experience over a 4 hour time period |
-| VSC Serice Failure Rate | The average error rate of the Veteran Status Card Service over a 4 hour time period |
+| VSC Service Failure Rate | The average error rate of the Veteran Status Card Service over a 4 hour time period |
 | Confirmed Statuses Breakdown | The total number of each type of confirmed verification status |
 | Vet Verification Service Failure Rate | The average error rate of the Vet Verification Service over a 4 hour time period |
 | VAProfile Military Personnel Service Failure Rate | The average error rate of the VAProfile Military Personnel Service over a 4 hour time period |
 | Ineligible Message Reasons | The total number of each type ineligibility reason |
 | Vets API Memory Usage | The average memory consumption of Vets API pods over time |
-| Vets API CPU Throttling | The total amount of CPU throttling occuring on Vets API containers when they exceed their configured CPU limits |
+| Vets API CPU Throttling | The total amount of CPU throttling occurring on Vets API containers when they exceed their configured CPU limits |
 | Vets API CPU Usage | The average CPU usage of Vets API pods per second |
 | Vets API Pod Restarts | The total number of container restarts across Vets API pods over time |
 | Vets API Autoscaling Replicas | The total number of running Vets API pods managed by the Horizontal Pod Autoscaler over time |

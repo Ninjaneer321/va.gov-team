@@ -17,14 +17,14 @@ Since we use a [continuous delivery](https://depo-platform-documentation.scrollh
 
 Before enabling your feature toggle in production, you'll need to:
 
-- [ ] Testing of all permutations of the feature flags. Confirm no regression in the send_email endpoint as well as correct push notifications sent. Test results documented in [#135336](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135336)
-- [ ] Confirm that logging has not changed and that existing Dashboards are working
+- [x] Testing of all permutations of the feature flags. Confirm no regression in the send_email endpoint as well as correct push notifications sent. Test results documented in [#135336](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135336)
+- [x] Confirm that logging has not changed and that existing Dashboards are working
 - [ ] Implement dashboard or add to existing dashboard to track sms notifications
-- [ ] Confirm production template is set in eventbus gateway config
+- [x] Confirm production template is set in eventbus gateway config
 - [ ] Gather details for single user test
 - [ ] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
-    - [ ] review the plan with your DEPO/OCTO representative.
-    - [ ] review the release plan with your team.
+    - [x] review the plan with your DEPO/OCTO representative.
+    - [x] review the release plan with your team.
 
 ## Step 3: Production rollout
 
