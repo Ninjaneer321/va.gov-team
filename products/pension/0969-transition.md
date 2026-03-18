@@ -18,10 +18,11 @@
 ## Product context 
 - The online **21P-0969** form allows Veterans to fill out and submit the Income and Asset Statement for Pension or Parents’ Dependency and Indemnity Compensation (DIC) Claims. Applicants use VA Form 21P-0969 when instructed to while completing VA Forms 21P-527EZ or 21P-534EZ.  They can also submit it when you need to verify or update your income or net worth. If you need to report changes over multiple years, submit a separate VA Form 21P-0969 each year.
    - [0969 Introduction page](https://www.va.gov/supporting-forms-for-claims/submit-income-and-asset-statement-form-21p-0969/introduction)
-   - Launched on VA.gov: September 2025
+   - Usability research (with post-MVP designs) conducted: July 2025
+   - MVP launched on VA.gov: September 2025
    - Post-MVP launched on VA.gov: March 2026
-   - Annual submission volume: 10,665 (2025)
-   - Current pdf version on VA.gov: DEC 2025
+   - Annual submission volume: ###
+   - Current pdf version on VA.gov: MM/YYYY
 
 ### Product Goal
 Make the online pension experience as easy to complete and cohesive as possible, while ensuring that Veterans provide sufficient supporting documentation to ensure that submissions are reliable and processed as quickly as possible.
@@ -31,7 +32,7 @@ The online pension application is available in the [production environment](http
 - [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/21P-0969-product-outline.md)
 - [General testing plan](https://docs.google.com/spreadsheets/d/1mZCnm1Cc6lBIGRIjxw5FzmHa9yQRDBfHquKKLsNlHfo/edit?gid=2009661867#gid=2009661867) for product updates
 
-### Design artifacts
+### Design and research artifacts
 These files capture the post-MVP designs, primarily with enhanced content as a collaboration and review with C/IA. The content changes further explain each type of income to report, how we consider dependents based on the claimant type, and improvements to the list-and-loop structure for clarity.  
 - [Working design file](https://www.figma.com/design/tJhSwyQorlgdVPC2UKx1fQ/21P-0969-Pension-or-DIC-Income-and-asset-statement?node-id=452-141959&p=f&t=OM2fZ6Nf1NbpQYr7-0)
    - [Array Builder specs and semantic headings guide](https://www.figma.com/design/yFkPW92yXTgVUUNfgHekcp/Form-Pages---Array-Builder-Specs?node-id=0-1&p=f&t=nzotqqjuKmVudrfG-0)
