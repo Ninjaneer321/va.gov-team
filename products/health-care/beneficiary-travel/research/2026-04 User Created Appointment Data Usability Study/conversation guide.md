@@ -155,7 +155,7 @@ Do they use the main menu, account dropdown, links under the “Top pages” sec
 **Entry point: past appointments or travel claims list**
 
 ### Past appointments page
-`Moderator: Let’s take a pause for just a moment before you click on anything else. Tell me about this page.'
+`Moderator: Let’s take a pause for just a moment before you click on anything else. Tell me about this page.`
 
 1. What are you looking for?
 
@@ -167,7 +167,7 @@ _After participant reviews page_
 2. What do you expect to happen after you click on that?
 
 ### Claims list page   
-`Moderator: Let’s take a pause for just a moment before you click on anything else. Tell me about this page.'   
+`Moderator: Let’s take a pause for just a moment before you click on anything else. Tell me about this page.`   
 
 1. What are you looking for?    
 2. What do you see here that might help you with your task?
@@ -177,10 +177,10 @@ _After participant reviews page_
 - If participant decides to then click “Go to BTSSS website,” explain that they can now file on VA.gov, and ask where they would expect to do this.   
 4. What do you expect to happen after you click on that?
 
-`Moderator: Okay, go ahead and continue your task.'   
+`Moderator: Okay, go ahead and continue your task.`   
 
 > [!NOTE]
-> ### Things to watch for:
+> #### Things to watch for:
 > - 1. What do they notice first on the page? 
 > - a. If it’s the past appointments page, are they able to locate the link at the bottom of the page?
 > - b. If it’s the travel claims list page, do they notice the link to past appointments first or the link to file a claim first?
@@ -188,6 +188,72 @@ _After participant reviews page_
 > - If they choose to create a claim first rather than view past appointments, what is their reasoning?
 > - 2. Do they read instructional text aloud, ignore it, or paraphrase?
 
+### Intro page   
+`Moderator: Take a moment to look at this page, but don’t click on anything just yet. Is this what you expected?`   
+
+1. What is the page telling you?
+2. Based on what you’re reading, does it seem like this is the correct path for your scenario?
+3. Is there anything here that gives you pause or makes you uncertain?
+4. What do you think you need to do next?
+
+> [!NOTE]
+> #### Things to watch for:
+> - 1. What content do they read versus scroll past on the page?   
+> - 2. Do they notice the alert box? How do they respond to it?   
+> - 3. Do they express any concern about this process?
+> - 4. Do they seem to understand that this is for a specific scenario of missing appointments?
+
+### Appointment information page <mark>Working note: May be split up further with facilities selection</mark>
+`Moderator: Moderator: Go ahead and take some time to observe this page. Because this is a prototype, you won’t be able to actually input anything, so the fields will be prepopulated when you click on them. But it helps us if you speak out loud and pretend to fill out this form as you would normally.`   
+
+#### Page sections   
+**Facility selection**   
+* What would you do if you couldn’t find your facility in this list?
+* <mark>Working note: Designs still in progress, so additional questions may be added.</mark>
+
+**Appointment type**   
+* What do these “types” listed here mean to you?
+* Do you know which kind you would choose?   
+
+**Appointment name:**
+* What would you put in this field?
+
+**Did you attend your appointment? question:**
+* Why do you think we’re asking for this information?
+
+**Prior to submission:**   
+* What do you think will happen once you continue?
+* What do you think would happen if you left or went back a step? Would your information here be saved?   
+
+_If earlier in the session, they indicated that they have filed for travel pay on community care appointment_
+`You mentioned that you have filed for community care before. How do you typically recall or keep track  of your community care appointment information when filing for travel pay?`
+
+> [!NOTE]
+> #### Things to watch for:
+> - 1. Do they read any of the intro text/helper text about contacting a travel clerk?
+> - 2. Do they notice that the time selector has AM/PM, but no question about timezone?
+> - 3. Is the hint text helpful or do participants still express confusion?
+
+### Review page
+`Moderator: Take a look at this page. What do you see here?`   
+1. What is this page asking you to do?
+2. What do you think the “edit” button does?
+3. What do you expect to happen after you continue?
+4. What do you think will happen to your information if you left this page?
+
+`Moderator: Now I’d like to pause again for a minute and imagine a new scenario. Let’s pretend that this dermatology appointment was actually in VA’s system already, but you were in a hurry and just missed seeing it. So the appointment is there, but you just didn’t notice it.`   
+
+1. What do you think will happen if you continue with this appointment information, even though it's already in the system?
+2. Are you concerned about creating a duplicate appointment?
+
+`Thank you for sharing that. Okay, let's return to our original scenario: the appointment really is not in your list. Go and continue with what you'd do next.`
+
+> [!NOTE]
+> #### Things to watch for:
+> - 1. Do they notice the alert at the top?
+> - 2. Do they understand that they won’t be able to edit the appointment information later? If so, how do they feel about that?
+> - 3. Do they think their claim is filed after continuing or do they recognize there is more to do?
+> - 4. Do users imagine that the system will check them or prevent them from creating duplicate appointments?   
 
 
 ## Third Task: [TASK NAME] - X minutes
