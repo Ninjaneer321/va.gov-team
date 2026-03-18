@@ -168,16 +168,18 @@ We can help guide you through this if you need help. Please say what you're doin
 
 Today, we're going to look at a demo version of the app. This is just for us to test with, so not everything will work like it does on the real app. You might see some buttons or links not working and some placeholder words instead of real information. Since this is just the demo version, nothing you do in this app will affect your real app or VA information and benefits. 
 
-I will now share in the zoom chat the URL for the demo: [Prototype link](https://www.figma.com/proto/qVqjxULrC26YoIbvnZKOwp/IA---Nav?node-id=673-114466&t=Bp35KWcWPBYzxcWt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=673%3A114466&show-proto-sidebar=1])
-Please open the chat and then click the link. 
+The recruiter, Perigean shared this with you via email. If you already have this up in your browser, we'll go to your browser. Otherwise, I will now share in the zoom chat the URL for the demo: [Prototype link](https://www.figma.com/proto/qVqjxULrC26YoIbvnZKOwp/IA---Nav?node-id=673-114466&t=Bp35KWcWPBYzxcWt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=673%3A114466&show-proto-sidebar=1])
+Please open the chat and then click the link. I'll give you the password. 
 
 - *If “unsupported browser” error, ask to try a different browser or device 
 - *If prototype doesn't open, copy the URL and open in a new incognito window (Chrome), private window (Firefox, Safari) or InPrivate (Edge)*
-
+- *If can't find or open chat. Ask to go back to email from recruiter and click the link.*
 
 ## Task 1: General review of homescreen - 10 minutes, 15 minutes elapsed
 
 As we go through the steps in this study, please talk aloud about what you're thinking BEFORE clicking on anything. And please share any thoughts, reactions, or questions you have about the current screen. Remember that we're testing how well the app is working and not you. If you're confused, I expect other people would be confused too, so we definitely want to hear when something seems confusing or not right to you. 
+
+We'll put the password in. It's the numbers "123."
 
 Please go ahead and log in using ID.me. The system will automatically generate a test user login for you. 
 
