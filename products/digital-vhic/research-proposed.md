@@ -51,6 +51,7 @@ Timeline options of each study within product process:
 ![Timeline options of each study within product process](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/digital-vhic/supporting_files/VHIC%20proposed%20research%20timeline%20options.png)
 
 </details>
+
 ## Additional notes
 
 
