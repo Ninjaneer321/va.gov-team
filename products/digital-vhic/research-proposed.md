@@ -65,7 +65,7 @@ The best time to test these ideas is while we can still easily change the design
 We want to give our developers a plan that we know works for Veterans and VA staff, so we don't have to go back and fix expensive mistakes later
 
 
-## Previous suggestions
+## Archive
 <details><summary>Initial draft of proposed research: August 2025</summary>
 
 
