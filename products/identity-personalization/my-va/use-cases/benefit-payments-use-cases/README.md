@@ -38,8 +38,13 @@
 * Use case: If a logged in LOA3 user has no history of benefit payments they receive a message informing them they don't have any and a link to the general payment history tool.  
 * Format: [Card component](https://design.va.gov/components/card)  
 * [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5125-15049&t=cZLTEcVoQuXx90AV-1)  
-* Request: GET /v0/profile/payment\_history  
-  * Response: 200 [empty mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/payment-history/index.js#L134)
+- **Status codes:**
+  - 200 GET /v0/profile/payment_history
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/benefit-payments/PaymentsAndDebts.jsx
+  - src/applications/personalization/dashboard/components/benefit-payments/BenefitPayments.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/benefit-payments/BenefitPaymentsLegacy.jsx
 
 </details>
 
