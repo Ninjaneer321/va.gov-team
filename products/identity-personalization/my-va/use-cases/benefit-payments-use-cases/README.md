@@ -101,8 +101,13 @@ There are no flags with this feature.
 * Use case: If an LOA3 user logs in and there is an error with the benefit payments API we hide the benefit payment card, show a warning alert, and a link to the payment tool.   
 * Format: [Warning slim alert](https://design.va.gov/components/alert/#web-2)  
 * [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5125-15183&t=cZLTEcVoQuXx90AV-1)  
-* Request: GET /v0/profile/payment\_history  
-  * Response: 500 [failure mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/payment-history/index.js#L147)
+- **Status codes:**
+  - 500 GET /v0/profile/payment_history
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/benefit-payments/PaymentsAndDebts.jsx
+  - src/applications/personalization/dashboard/components/benefit-payments/BenefitPayments.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/benefit-payments/BenefitPaymentsLegacy.jsx
  
 </details>
 
