@@ -1,0 +1,629 @@
+openapi: 3.1.0
+info:
+  title: BTSSS Beneficiary Travel API - Facilities & Appointments
+  description: VA Beneficiary Travel Self Service System (BTSSS) Facilities and Appointments endpoints.
+  version: 3.0.0
+  contact:
+    name: VA BTSSS Team
+
+security:
+  - bearerAuth: []
+
+paths:
+  /api/v3/facilities:
+    get:
+      operationId: getFacilities
+      summary: Get all facilities
+      description: >
+        Returns a paginated list of VA facilities. Requires an authenticated
+        veteran user with an active route contact. Responses are cached for 30
+        minutes.
+      tags:
+        - Facilities
+      parameters:
+        - name: X-Correlation-ID
+          in: header
+          required: true
+          description: A unique identifier (UUID) for correlating the request.
+          schema:
+            type: string
+            format: uuid
+          example: "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+        - name: pageNumber
+          in: query
+          required: false
+          description: The page number to retrieve.
+          schema:
+            type: integer
+            minimum: 1
+            default: 1
+          example: 1
+        - name: pageSize
+          in: query
+          required: false
+          description: The number of records per page.
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 50
+            default: 25
+          example: 25
+        - name: sortField
+          in: query
+          required: false
+          description: The field name to sort results by (e.g. `name`, `stationNumber`, `city`, `stateOrProvince`).
+          schema:
+            type: string
+          example: "name"
+        - name: sortDirection
+          in: query
+          required: false
+          description: The direction to sort results.
+          schema:
+            $ref: "#/components/schemas/FieldSortDirection"
+          example: "Ascending"
+      responses:
+        "200":
+          description: Facilities retrieved successfully.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/FacilitiesQueryResponse"
+              examples:
+                success:
+                  summary: Successful response with facilities
+                  value:
+                    correlationId: "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+                    timeStamp: "2026-03-18T12:00:00Z"
+                    statusCode: 200
+                    message: ""
+                    success: true
+                    data:
+                      - id: "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+                        name: "VA Medical Center - Washington"
+                        stationNumber: "688"
+                        city: "Washington"
+                        stateOrProvince: "DC"
+                      - id: "b2c3d4e5-f6a7-8901-bcde-f12345678901"
+                        name: "VA Medical Center - Baltimore"
+                        stationNumber: "512"
+                        city: "Baltimore"
+                        stateOrProvince: "MD"
+                    pageNumber: 1
+                    pageSize: 25
+                    totalRecordCount: 2
+                noResults:
+                  summary: Successful response with no facilities
+                  value:
+                    correlationId: "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+                    timeStamp: "2026-03-18T12:00:00Z"
+                    statusCode: 200
+                    message: "No facilities found."
+                    success: true
+                    data: []
+                    pageNumber: 1
+                    pageSize: 25
+                    totalRecordCount: 0
+        "400":
+          description: Invalid request parameters (e.g. invalid page number, page size, or correlation ID).
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              example:
+                correlationId: "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+                timeStamp: "2026-03-18T12:00:00Z"
+                statusCode: 400
+                message: "The X-Correlation-ID is missing or invalid."
+                success: false
+                data: null
+        "401":
+          description: Unauthorized. Missing or invalid authentication token.
+        "403":
+          description: Forbidden. The authenticated user does not have the required VeteranUser role or an active route contact.
+        "408":
+          description: Request timeout. The upstream CRM service did not respond in time.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              example:
+                correlationId: "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+                timeStamp: "2026-03-18T12:00:00Z"
+                statusCode: 408
+                message: "Request timed out."
+                success: false
+                data: null
+        "429":
+          description: Too many requests. Rate limit exceeded.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              example:
+                correlationId: "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+                timeStamp: "2026-03-18T12:00:00Z"
+                statusCode: 429
+                message: "Too many requests."
+                success: false
+                data: null
+        "500":
+          description: Internal server error.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              example:
+                correlationId: "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+                timeStamp: "2026-03-18T12:00:00Z"
+                statusCode: 500
+                message: "An unexpected error occurred."
+                success: false
+                data: null
+        "502":
+          description: Bad gateway. The upstream CRM service is unavailable.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              example:
+                correlationId: "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+                timeStamp: "2026-03-18T12:00:00Z"
+                statusCode: 502
+                message: "Bad gateway."
+                success: false
+                data: null
+
+  /api/v5/appointments/find-or-add:
+    post:
+      operationId: findOrAddAppointment
+      summary: Find or create an appointment
+      description: >
+        Searches for an existing appointment matching the facility station number
+        and date. If found, returns the existing appointment(s). If not found,
+        looks up the facility, creates a new appointment in CRM, and returns it.
+
+
+        For community care appointments, set `IsCommunityCare` to `true` in the
+        request body. This causes the appointment name to be generated using the
+        veteran's home facility station number (fetched from their contact record)
+        in the format: `"Customer created appointment {homeFacilityCode} Community Care"`.
+        The `FacilityStationNumber` should still be the community care facility
+        (e.g., `688CC00001`), as this determines facility linkage and downstream
+        payment routing via the facility's `ObligationFacility` in CRM.
+      tags:
+        - Appointments
+      parameters:
+        - name: X-Correlation-ID
+          in: header
+          required: true
+          description: A unique identifier (UUID) for correlating the request.
+          schema:
+            type: string
+            format: uuid
+          example: "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+        - name: pageNumber
+          in: query
+          required: false
+          description: The page number to retrieve (used when returning existing appointments).
+          schema:
+            type: integer
+            minimum: 1
+            default: 1
+          example: 1
+        - name: pageSize
+          in: query
+          required: false
+          description: The number of records per page.
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 50
+            default: 25
+          example: 25
+        - name: sortField
+          in: query
+          required: false
+          description: The field name to sort results by.
+          schema:
+            type: string
+          example: "appointmentDateTime"
+        - name: sortDirection
+          in: query
+          required: false
+          description: The direction to sort results.
+          schema:
+            $ref: "#/components/schemas/FieldSortDirection"
+          example: "Ascending"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/FindOrAddAppointmentRequest"
+            examples:
+              standardAppointment:
+                summary: Standard VA facility appointment
+                value:
+                  appointmentName: "Customer created appointment at VA Medical Center - Washington"
+                  appointmentDateTime: "2026-04-15T09:00:00Z"
+                  facilityStationNumber: "688"
+                  facilityName: "VA Medical Center - Washington"
+                  appointmentType: "Other"
+                  isComplete: false
+                  isCommunityCare: false
+              communityCareAppointment:
+                summary: Community care appointment
+                description: >
+                  For community care, pass the CC facility's station number.
+                  The appointment name will be auto-generated using the veteran's
+                  home facility code.
+                value:
+                  appointmentDateTime: "2026-04-15T09:00:00Z"
+                  facilityStationNumber: "688CC00001"
+                  facilityName: "Community Care Provider - Florida"
+                  appointmentType: "Care"
+                  isComplete: true
+                  isCommunityCare: true
+      responses:
+        "200":
+          description: >
+            Appointment(s) found or created successfully. If existing appointments
+            matched the search criteria, they are returned. If no match was found,
+            a new appointment is created and returned.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AppointmentsQueryResponse"
+              examples:
+                existingAppointment:
+                  summary: Existing appointment found
+                  value:
+                    correlationId: "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+                    timeStamp: "2026-03-18T12:00:00Z"
+                    statusCode: 200
+                    message: ""
+                    success: true
+                    data:
+                      - id: "c3d4e5f6-a7b8-9012-cdef-234567890123"
+                        appointmentSource: 100000000
+                        appointmentDateTime: "2026-04-15T09:00:00Z"
+                        appointmentName: "Customer created appointment 688 Community Care"
+                        appointmentType: "Care"
+                        facilityId: "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+                        facilityName: "Community Care Provider - Florida"
+                        serviceConnectedDisability: 0
+                        currentStatus: ""
+                        appointmentStatus: ""
+                        externalAppointmentId: null
+                        associatedClaimId: null
+                        associatedClaimNumber: null
+                        isCompleted: true
+                    pageNumber: 1
+                    pageSize: 25
+                    totalRecordCount: 1
+        "400":
+          description: >
+            Invalid request parameters. Returned when validation fails (e.g.,
+            missing required fields) or when the facility cannot be found by
+            station number or name.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              examples:
+                missingField:
+                  summary: Missing required field
+                  value:
+                    correlationId: "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+                    timeStamp: "2026-03-18T12:00:00Z"
+                    statusCode: 400
+                    message: "The FacilityStationNumber field is missing or invalid."
+                    success: false
+                    data: null
+                facilityNotFound:
+                  summary: Facility not found in CRM
+                  value:
+                    correlationId: "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+                    timeStamp: "2026-03-18T12:00:00Z"
+                    statusCode: 400
+                    message: "Validation failed: A facility was not found with the station number 999XX00001 or name 'Unknown Facility'."
+                    success: false
+                    data: null
+        "401":
+          description: Unauthorized. Missing or invalid authentication token.
+        "403":
+          description: Forbidden. The authenticated user does not have permission to read or create appointments.
+        "408":
+          description: Request timeout. The upstream CRM service did not respond in time.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "422":
+          description: Unprocessable entity.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "429":
+          description: Too many requests. Rate limit exceeded.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "500":
+          description: Internal server error.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "502":
+          description: Bad gateway. The upstream CRM service is unavailable.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: VEIS authentication token.
+
+  schemas:
+    FieldSortDirection:
+      type: string
+      enum:
+        - None
+        - Ascending
+        - Descending
+      default: "None"
+      description: The direction to sort results.
+
+    FacilitySummaryDto:
+      type: object
+      description: Summary representation of a VA facility.
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: The unique identifier of the facility.
+        name:
+          type: string
+          description: The name of the facility.
+        stationNumber:
+          type: string
+          description: The VA station number of the facility.
+        city:
+          type: string
+          description: The city where the facility is located.
+        stateOrProvince:
+          type: string
+          description: The state or province where the facility is located.
+
+    FacilitiesQueryResponse:
+      type: object
+      description: Paginated response containing a list of facility summaries.
+      properties:
+        correlationId:
+          type: string
+          format: uuid
+          description: The correlation ID echoed back from the request header.
+        timeStamp:
+          type: string
+          format: date-time
+          description: The timestamp of the response.
+        statusCode:
+          type: integer
+          description: The HTTP status code.
+          example: 200
+        message:
+          type: string
+          description: A human-readable message about the response.
+        success:
+          type: boolean
+          description: Whether the request was successful.
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/FacilitySummaryDto"
+          description: The list of facility summaries.
+        pageNumber:
+          type: integer
+          description: The current page number.
+          example: 1
+        pageSize:
+          type: integer
+          description: The number of records per page.
+          example: 25
+        totalRecordCount:
+          type: integer
+          description: The total number of records available.
+          example: 100
+
+    FindOrAddAppointmentRequest:
+      type: object
+      description: Request body for finding or creating an appointment.
+      required:
+        - appointmentDateTime
+        - facilityStationNumber
+        - facilityName
+      properties:
+        appointmentName:
+          type: string
+          minLength: 5
+          maxLength: 100
+          description: >
+            Name of the appointment. If omitted, a system-generated name is used.
+            For community care appointments (`isCommunityCare: true`), this field
+            is ignored and the name is auto-generated as
+            `"Customer created appointment {homeFacilityCode} Community Care"`.
+        appointmentDateTime:
+          type: string
+          format: date-time
+          description: The date and time of the appointment.
+        facilityStationNumber:
+          type: string
+          description: >
+            The station number of the facility where the appointment takes place.
+            For community care, this should be the CC facility's station number
+            (e.g., `688CC00001`), not the veteran's home facility.
+        facilityName:
+          type: string
+          description: >
+            The name of the facility. Used in conjunction with
+            `facilityStationNumber` for facility lookup (matches on either field).
+        appointmentType:
+          $ref: "#/components/schemas/AppointmentType"
+        isComplete:
+          type: boolean
+          default: false
+          description: Whether the appointment is completed.
+        isCommunityCare:
+          type: boolean
+          default: false
+          description: >
+            If true, the appointment is flagged as community care. The appointment
+            name will be auto-generated using the veteran's home facility station
+            number from their contact record. This flag only affects naming -- the
+            facility linkage and payment routing are determined by
+            `facilityStationNumber`.
+
+    AppointmentType:
+      type: string
+      enum:
+        - CompensationAndPensionExamination
+        - Examination
+        - Treatment
+        - Care
+        - WalkIn
+        - EnvironmentalHealth
+        - Other
+      default: "Other"
+      description: >
+        The type of appointment. Invalid or unspecified values default to `Other`.
+
+    AppointmentDto:
+      type: object
+      description: Appointment details.
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: The unique identifier of the appointment.
+        appointmentSource:
+          type: integer
+          description: >
+            The source system of the appointment (e.g., 100000000 = API,
+            421750001 = TCP, 421750003 = VISTA, 421750004 = EHRM).
+        appointmentDateTime:
+          type: string
+          format: date-time
+          description: The date and time of the appointment.
+        appointmentName:
+          type: string
+          description: The name of the appointment.
+        appointmentType:
+          $ref: "#/components/schemas/AppointmentType"
+        facilityId:
+          type: string
+          format: uuid
+          description: The unique identifier of the linked facility.
+        facilityName:
+          type: string
+          description: The name of the linked facility.
+        serviceConnectedDisability:
+          type: integer
+          description: Service-connected disability rating.
+        currentStatus:
+          type: string
+          description: The current status of the appointment.
+        appointmentStatus:
+          type: string
+          description: The appointment status.
+        externalAppointmentId:
+          type:
+            - string
+            - "null"
+          description: External appointment identifier from the source system.
+        associatedClaimId:
+          type:
+            - string
+            - "null"
+          format: uuid
+          description: The ID of the associated claim, if any.
+        associatedClaimNumber:
+          type:
+            - string
+            - "null"
+          description: The claim number of the associated claim, if any.
+        isCompleted:
+          type: boolean
+          description: Whether the appointment is completed.
+
+    AppointmentsQueryResponse:
+      type: object
+      description: Paginated response containing a list of appointments.
+      properties:
+        correlationId:
+          type: string
+          format: uuid
+          description: The correlation ID echoed back from the request header.
+        timeStamp:
+          type: string
+          format: date-time
+          description: The timestamp of the response.
+        statusCode:
+          type: integer
+          description: The HTTP status code.
+          example: 200
+        message:
+          type: string
+          description: A human-readable message about the response.
+        success:
+          type: boolean
+          description: Whether the request was successful.
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/AppointmentDto"
+          description: The list of appointments.
+        pageNumber:
+          type: integer
+          description: The current page number.
+          example: 1
+        pageSize:
+          type: integer
+          description: The number of records per page.
+          example: 25
+        totalRecordCount:
+          type: integer
+          description: The total number of records available.
+
+    ErrorResponse:
+      type: object
+      description: Standard error response.
+      properties:
+        correlationId:
+          type: string
+          format: uuid
+          description: The correlation ID echoed back from the request header.
+        timeStamp:
+          type: string
+          format: date-time
+          description: The timestamp of the response.
+        statusCode:
+          type: integer
+          description: The HTTP status code.
+        message:
+          type: string
+          description: A human-readable error message.
+        success:
+          type: boolean
+          description: Always false for error responses.
+        data:
+          type: "null"
+          description: Always null for error responses.
