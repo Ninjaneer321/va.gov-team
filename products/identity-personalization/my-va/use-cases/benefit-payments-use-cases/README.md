@@ -92,7 +92,8 @@ This feature has no validation use cases.
 
 #### Flags
 
-There are no flags with this feature.
+- `myVaUpdateErrorsWarnings`: Switches `error` or `warning` severity of alerts for the section
+- `showGenericDebtCard`
 
 #### Errors
 
@@ -331,8 +332,7 @@ Last updated: February 16, 2024 \- added Figma link
 
 ### Flags
 
-- `myVaUpdateErrorsWarnings`: Switches `error` or `warning` severity of alerts for the section
-- `showGenericDebtCard`
+There are no flags with this feature.
 
 ### System
 
