@@ -61,7 +61,7 @@ VA.gov authenticated experience
 
 ### Outcome
 
-The insights that come out of this research will inform the structure and usability of the 'Start a new message' flow and help prioritize improvements for future iterations.
+The insights that come out of this research will inform the structure and usability of the 'Start a new message' flow and help prioritize improvements for future iterations. Design decisions will be made around the number of pages to start a new message, and the other components of selecting a care team to start a new message. 
 
 ---
 
