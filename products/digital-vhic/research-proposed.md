@@ -26,7 +26,7 @@ What we want to learn:
     * What if they can’t swipe? Would they ever need to manually type an ID number? Would they ever need to ask the Veteran questions?
 
 
-## Goal 2: Veteran Trust & Reliability
+### Goal 2: Veteran Trust & Reliability
 Ensure Veterans feel confident using the digital card and know exactly what to do if the technology fails.
 
 What we want to learn:
@@ -55,6 +55,14 @@ What we want to learn:
     * Interview Veterans for feedback on language for technical issues.
     * Ask about thoughts on trust and security of digital card designs
 
+
+## Timeline
+
+We recommend starting this research while the designs are still being worked on, and finish before the developers begin building the card in the mobile app.
+
+The best time to test these ideas is while we can still easily change the designs based on what we learn.
+
+We want to give our developers a plan that we know works for Veterans and VA staff, so we don't have to go back and fix expensive mistakes later
 
 
 ## Previous suggestions
