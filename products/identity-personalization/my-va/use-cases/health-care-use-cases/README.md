@@ -27,11 +27,17 @@
 <details><summary>User does not have VA health care</summary>
 
 - **Use case:** When a LOA3 user does not have VA health care, they will see text in the section informing them they have no health care information at this time, and a link to My HealtheVet.
-- **Status code:** TBD
 - **Format:** Paragraph copy. See designs
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5069-18072&t=hwoiHCaMFjyRAOid-1)
-- [Link to code]
 - **Content:** See designs
+- **Status codes:**
+  - 200 GET /v0/user
+  - 200 GET /v0/health_care_applications/enrollment_status
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCare.jsx
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContent.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContentLegacy.jsx
 
 </details>
 
@@ -41,11 +47,17 @@
 <details><summary>User does not have any upcoming appointments</summary>
 
 - **Use case:** When a user does not have any upcoming appointments, they will see a card that informs them they have no appointments and a link to manage appointments.
-- **Status code:** TBD
 - **Format:** [Card component](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=7605-14422&t=s9B47tQIghdkIdzp-1)
-- [Link to code]
 - **Content:** See designs
+- **Status codes:**
+  - 200 GET /vaos/v2/appointments
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCare.jsx
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContent.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContentLegacy.jsx
+  - src/applications/personalization/dashboard/components/health-care/HealthCareCTA.jsx
 
 </details>
 
@@ -53,12 +65,19 @@
 <details><summary>User has upcoming appointments</summary>
 
 - **Use case:** If a user has a confirmed upcoming appointment, they will see **up to** two cards in this section that tells them the date, time, and location of the appointment, as well as a link to the details of the appointment. A link to manage all appointments always shows.
-- **Status code:** 200
 - **Format:** [Card component](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5022-17383&t=cZLTEcVoQuXx90AV-1)
-- [Link to code]
 - **Content:** See designs
-
+- **Status codes:**
+  - 200 GET /vaos/v2/appointments
+- **Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCare.jsx
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContent.jsx
+  - src/applications/personalization/dashboard/components/health-care/AppointmentsCard.jsx
+- **Legacy Frontend components:**
+  - src/applications/personalization/dashboard/components/health-care/HealthCareContentLegacy.jsx
+  - src/applications/personalization/dashboard/components/health-care/AppointmentsCardLegacy.jsx
+  - src/applications/personalization/dashboard/components/health-care/HealthCareCTA.jsx
 </details>
 
 
