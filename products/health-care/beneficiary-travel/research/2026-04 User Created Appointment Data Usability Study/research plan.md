@@ -110,22 +110,22 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/research/08-2025--Travel%20Complex%20Claims%20Concept%20Study/09-2025%20Travel%20Pay%20Complex%20Claims%20Concept%20Study%20Research%20Findings.md"
     
 tags:
-  - AUD: Veterans
-  - BNFT: Healthcare
-  - PRDT: Travel-pay
-  - MHV: Appointments
-  - DSP: Ask users for dates
-  - DSP: Content Presentation
-  - DSP: Help users to check answers
-  - DSC: Form
-  - usability-testing
-  - comparative-analysis
-  - remote
-  - authenticated-experience
-  - travel-reimbursement
-  - community-care
-  - appointment-data-entry
-  - legacy-system-migration
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Travel-pay"
+  - "MHV: Appointments"
+  - "DSP: Ask users for dates"
+  - "DSP: Content Presentation"
+  - "DSP: Help users to check answers"
+  - "DSC: Form"
+  - "usability-testing"
+  - "comparative-analysis"
+  - "remote"
+  - "authenticated-experience"
+  - "travel-reimbursement"
+  - "community-care"
+  - "appointment-data-entry"
+  - "legacy-system-migration"
 ---
 
 
