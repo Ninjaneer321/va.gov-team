@@ -19,6 +19,7 @@
 - The online **21P-0969** form allows Veterans to fill out and submit the Income and Asset Statement for Pension or Parents’ Dependency and Indemnity Compensation (DIC) Claims. Applicants use VA Form 21P-0969 when instructed to while completing VA Forms 21P-527EZ or 21P-534EZ.  They can also submit it when you need to verify or update your income or net worth. If you need to report changes over multiple years, submit a separate VA Form 21P-0969 each year.
    - [0969 Introduction page](https://www.va.gov/supporting-forms-for-claims/submit-income-and-asset-statement-form-21p-0969/introduction)
    - Launched on VA.gov: September 2025
+   - Post-MVP launched on VA.gov: March 2026
    - Annual submission volume: 10,665 (2025)
    - Current pdf version on VA.gov: DEC 2025
 
@@ -26,28 +27,20 @@
 Make the online pension experience as easy to complete and cohesive as possible, while ensuring that Veterans provide sufficient supporting documentation to ensure that submissions are reliable and processed as quickly as possible.
 
 
-#### 21-527EZ Application for Veterans Pension
-The online pension application is available in the [production environment](https://www.va.gov/pension/apply-for-veteran-pension-form-21p-527ez/introduction).  The staging environment version of the form is [here](https://staging.va.gov/pension/apply-for-veteran-pension-form-21p-527ez/introduction).
-
-- [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/527EZ-reactivation-initiative-brief.md)
-- [Form Flow (proposed)](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1709582312238/ae3de21fd188beba8c28668ee37a31841c6203bf?wid=0-1716382766670)
-- [Wireframes (proposed)](https://www.figma.com/design/bvj72inycD0iZkuCbjYTWL/Dependent-Verification-MVP?node-id=59-960&t=yWIz3IUP2uFChYib-0) (Figma)
-- [MVP Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1709582312238/ae3de21fd188beba8c28668ee37a31841c6203bf?wid=0-1723479332670)
-- [IA/User Flow Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1709582312238/ae3de21fd188beba8c28668ee37a31841c6203bf?wid=522-1737736233308)
-- [VBA Verification Info](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1709582312238/ae3de21fd188beba8c28668ee37a31841c6203bf) (core goals, diary entries, mvp outline)
-- [MVP Research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/dependents/research/2025-02-dependents-verification-mvp-research)
-   - [Research cohort map](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1690311086208/96d5f59b299912bc8c69542e6943d5b2213b9c72)
-   - [Solution exploration](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1689863079145/5b97ba9ea11077f983f3413167f6324f11aa04a8)
+#### 21P-0969 Income and Asset Statement
+The online pension application is available in the [production environment](https://va.gov/supporting-forms-for-claims/submit-income-and-asset-statement-form-21p-0969/).  The staging environment version of the form is [here](https://staging.va.gov/supporting-forms-for-claims/submit-income-and-asset-statement-form-21p-0969/).
+- [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/21P-0969-product-outline.md)
 
 ### Product artifacts 
 - [Backlog](https://github.com/orgs/department-of-veterans-affairs/projects/1237/views/39)
 - [General testing plan](https://docs.google.com/spreadsheets/d/1mZCnm1Cc6lBIGRIjxw5FzmHa9yQRDBfHquKKLsNlHfo/edit?gid=2009661867#gid=2009661867) for product updates
 
 ### Design artifacts
-- Design [readme](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/design/README.md)
-- [Page/User flow](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1687976281975/2a9c6ca9ea6d955afa7977c777bbb72b15280903?sender=u934f98f179a86c76e6ee9592)
-- [Wireframes and page designs](https://www.figma.com/file/7W55oNwdVXvXOTI9SaFzQ7/686c-Add-or-Remove-Dependents?type=design&node-id=8-9&mode=design&t=kcdjZspxOR8ocdvT-0)
-- Staging users
+- [Working design file](https://www.figma.com/design/tJhSwyQorlgdVPC2UKx1fQ/21P-0969-Pension-or-DIC-Income-and-asset-statement?node-id=452-141959&p=f&t=OM2fZ6Nf1NbpQYr7-0)
+   - [Array Builder specs and semantic headings guide](https://www.figma.com/design/yFkPW92yXTgVUUNfgHekcp/Form-Pages---Array-Builder-Specs?node-id=0-1&p=f&t=nzotqqjuKmVudrfG-0)
+   - [Guide to list & loop summary cards](https://www.figma.com/design/tJhSwyQorlgdVPC2UKx1fQ/21P-0969-Pension-or-DIC-Income-and-asset-statement?node-id=6058-82726&t=OM2fZ6Nf1NbpQYr7-4)
+- [0969 research findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2025-07%200969%20Usability%20Study/research-findings.md)
+- [Q&A discovery with VBA](https://dsva.slack.com/docs/T03FECE8V/F08T9M220MS)
 
 ### Engineering
 - Engineering [readme](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/engineering/README.md)
@@ -60,11 +53,6 @@ The online pension application is available in the [production environment](http
 - Code Repository
    - [Vets-API](https://github.com/department-of-veterans-affairs/vets-api)
    - [Vets-Website](https://github.com/department-of-veterans-affairs/vets-website)
- 
-### Latest Discovery Research
-- [Research Folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/dependents/research)
-- [General Dependents Research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/dependents/research/2023-09-dependents-research)
-- [Dependency Verification Research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/dependents/research/2025-02-dependents-verification-mvp-research)
 
 ### Analytics dashboard:
 - Domo (none), [general forms dashboard](https://va-gov.domo.com/page/447193050)
@@ -80,56 +68,15 @@ The online pension application is available in the [production environment](http
 - [Roadmap](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1692908527043/0da94b7ded52e8a943d798bcb8ae39697c2fb56f?wid=120-1729780466015) (Mural)
 - Ticketing
    - Team label: benefits-pension-burial
-   - Product label: 527, pension
+   - Product label: Income & Asset
    - Workstream label: discovery, product, design, or engineering + frontend or backend
 
 ## Roadmap
 ### Done (recently)
-- Pension - 100% service-connected disability alert - Updated Pension service-connected disability alerts to include "100% service-connected disability rating" to avoid confusion with applicants that have non-service connected disability conditions. Released 2/1/26.
-- Minimal header update - The Minimal header is the latest standard header for usage in forms. The goal is to help the user focus on the task at hand. Released 3/12/26.
-- BPDS for Pension - VA.gov now sends tructured JSON data directly to BPDS. POI then retrieves and uses this data for processing, eliminating the need to perform OCR on submitted PDF forms. Released January 2026.
--  0969 Post MVP improvements (closely adjacent form) - Improvements to the content and format of the Income and Asset statement focused on plain language updates and content chunking to ease form filling burden. Released 3/4/26.
-
 
 ### Now
-- BPDS for 0969 and 530 (closely adjacent forms to Pension) - For 0969 and 530 applications, VA.gov will sendstructured JSON data directly to BPDS. POI then retrieves and uses this data for processing, eliminating the need to perform OCR on submitted PDF forms.
-
-
-
-## Features and initiatives we worked on
-This table includes links to the individual feature directory and the latest iteration (doc or code) in design or development.
-|Feature|Completed|
-|-------|---------|
-|Implemented backup submission pathway|Oct 5, 2023|
-|Supported [Code Yellow 1](https://github.com/department-of-veterans-affairs/va.gov-team/issues?q=is%3Aissue%20label%3Acode-yellow%20label%3Adependents-benefits) (find and rememdiate failed claims). Started March 2023 and closed Aug 2024.|Aug 24, 2024|
-|[Updated VA.gov to submit the Aug 2022 version of the 686c pdf](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1292?closed=1) (instead of the Sep 2018 pdf)|Aug 13, 2024|
-|[Updated VA.gov to submit the Oct 2021 version of the 674 pdf](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1292?closed=1) (instead of the Jun 2019 pdf)|Aug 13, 2024|
-|[Implemented “action needed” emails to alert Veterans of a claim failure](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1418?closed=1)|Nov 12, 2024|
-|[Updated annual net worth value from $155,356 to $159,240.](https://github.com/department-of-veterans-affairs/va.gov-team/issues/96647) It needs to be manually updated every year by November 30. Ticket to automate update is [here](https://github.com/department-of-veterans-affairs/va.gov-team/issues/96876).| Dec 2, 2024|
-|[Update 686/674 form to v3 components](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/form_updates/Initiative-Brief-686-674-Form-Updates.md)| Mar 2025|
-|User research on dependency verification tool prototype|Feb/Mar 2025|
 
 ## Design opportunities
-This is a collection of notes on design work that we started and set aside for various reasons. It should help add context if picked up again.
-### Improving the unreimbursed care and medical expenses step
-
-#### Problem it solves  
-Applicants often don’t understand what medical expenses to report and end up estimating and/or reporting expenses that are not retroactively reimbursed, not considered recurring, and in many cases are not eligible for reimbursement. This is the #2 reason why claims go into development.
-#### What we did
-* 2024
-	* Conducted a [usability test](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2024%2002%20Pension%20Usability%20Evaluation/research-findings.md) of the pension form's MVP, documented findings related to this step
-* 2025
-	* Conducted [VSO research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/pension/research/2024-09%20527EZ%20VSO%20Research) to further understand pain points in the application process
-	* [Explored potential designs](https://www.figma.com/design/9JKK5Eo43uJWEr66JPiebc/WIP---21P-527EZ---Pension-Benefits?node-id=5699-15179) and language changes (before multiple page list-and-loop pattern was established)
-* 2026
-	* Reviewed historical artifacts and the digitized 8416 to propose recommendations
-#### Why it was stopped
-This work has historically been deprioritized for several reasons. The multiple page list-and-loop pattern was being formalized, our priorities shifted to digitizing the 0969 form, and the BIO Huntridge team took on digitizing the 8416, which is redundant to this step's requirements. 
-#### Next steps
-* Collaborate with C/IA to further define care expenses vs. medical expenses
-	* Evaluate Veterans' comprehension of this distinction
-* Apply the [multiple page list-and-loop](https://design.va.gov/patterns/ask-users-for/multiple-responses) pattern to the step
-* Review our [design brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/design/unreimbursed-care-and-medical-expenses-brief.md) for more details and recommended enhancements
 
 ### Embedding the 0969 in the pension form
 #### Problem it solves  
@@ -145,24 +92,9 @@ We conducted discovery relatively recently and wanted to avoid partial design or
 #### Next step
 * Review our [design brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/embedded-0969-brief.md#design-brief--embedding-the-0969-into-the-527ez) and its recommended scope to define an MVP. This document includes both design enhancements and spikes to evaluate technical feasibility and approach.
 
-### Update marriage history list-and-loop
-
-#### Problem it solves  
-Similar to the unreimbursed medical expenses step, the step to report current and previous marriages is outdated. The VADS design system has since released a marriage history pattern.
-#### What we did
-* Reviewed the VADS marriage history pattern to ensure it was applicable and relevant to our use case
-* Developed [design specs](https://www.figma.com/design/9JKK5Eo43uJWEr66JPiebc/WIP---21P-527EZ---Pension-Benefits?node-id=14174-6517) to document new flows and pages, using the multiple page list-and-loop
-
-#### Why it was stopped
-Due to implementation 
-#### Next steps
-* Validate new content with C/IA and/or VBA (although nearly all of the content was taken from VADS, there are some questions that were not covered in the pattern)
-*  Implement flows according to design specifications
-
 ## Collab Cycle Artifacts
-- [Dependent Verification](https://github.com/department-of-veterans-affairs/va.gov-team/issues/83353) | [Initiative Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/dependency_verification/initiative-brief-dependent-verification-tool.md) | [CAIA Request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/84170)
-- [Dependent form updates](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74059) | [Initiative Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/form_updates/Initiative-Brief-686-674-Form-Updates.md) | [CAIA Request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/75068)
-- [CAIA Request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/89314) for dependent card updates
+- [Digitizing 0969 Milestone](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1531)
+- [CAIA intake and epic](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106335)
 
 ### Our team 2024/25 roster
 - Delivery Lead: Ahn Platt | anh.platt@va.gov/ anh.platt@coforma.io
