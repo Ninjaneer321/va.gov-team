@@ -64,15 +64,15 @@ If there was any chance that users were hoping to verify they uploaded the right
 
 ## **ADR 003 \- Password Encryption**
  
-**Status**: Accepted
+**Status:** Accepted
 
-Date: 09/2025
+**Date:** 09/2025
 
-**Context**
+### Context
 
 Users occasionally need to upload password-protected files, particularly encrypted PDFs, as part of their applications. The `va-file-input` web component needed a mechanism to collect passwords for encrypted files without handling the actual decryption logic.
 
-**Key requirements include:**
+#### Key requirements include:
 
 * Providing a user interface for password entry when encrypted files are uploaded  
 * Maintaining separation of concerns between the web component (presentation) and business logic (decryption/processing)  
@@ -81,11 +81,11 @@ Users occasionally need to upload password-protected files, particularly encrypt
 
 The challenge was determining where password collection, transmission, and file decryption responsibilities should reside within the platform architecture.
 
-## **Decision**
+### **Decision**
 
 We have decided to implement a distributed approach to handling password-protected files:
 
-### **Web Component (va-file-input)**
+#### **Web Component (va-file-input)**
 
 The `va-file-input` web component will support an `encrypted` property. When set to `true`:
 
@@ -94,7 +94,7 @@ The `va-file-input` web component will support an `encrypted` property. When set
 * Password changes will be emitted through the `vaPasswordChange` event  
 * The component will NOT handle any decryption or password validation logic
 
-### **Forms Library**
+#### **Forms Library**
 
 The forms library will be responsible for:
 
@@ -103,7 +103,7 @@ The forms library will be responsible for:
 * Transmitting the password securely to the backend along with the file
 
 
-### **Backend**
+#### **Backend**
 
 The backend will handle:
 
@@ -112,7 +112,7 @@ The backend will handle:
 * Validating the decryption was successful  
 * Processing the decrypted file for submission
 
-### **PDF Encryption Specifically**
+#### **PDF Encryption Specifically**
 
 For PDF files with encryption:
 
@@ -122,11 +122,11 @@ For PDF files with encryption:
 
 ## ADR 004 - File Type Validation
 
-**Status**: Accepted
+**Status:** Accepted
 
-Date: 09/2025
+**Date:** 09/2025
 
-**Context**
+### Context
 
 The `va-file-input` component is designed as a presentation component and does not handle business logic such as file type validation. As applications using this component need to validate uploaded files for security and data integrity, a decision was needed on where to implement file type validation logic.
 
@@ -138,7 +138,7 @@ Key validation requirements include:
 
 Without centralized validation logic, each application would need to implement its own validation, leading to inconsistent error handling and duplicate code across the platform.
 
-**Decision**
+### Decision
 
 We have decided to implement file type validation logic in the forms library rather than in the `va-file-input` web component itself.
 
@@ -152,14 +152,14 @@ This validation will be available for both:
 * [Single file input pattern](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/platform/forms-system/src/js/web-component-patterns/fileInputPattern.jsx)  
 * [Multi-file input pattern](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/platform/forms-system/src/js/web-component-patterns/fileInputMultiplePattern.jsx)
 
-**Standard Error Messages**
+### Standard Error Messages
 
 The following standardized error messages will be displayed:
 
 * UTF encoding error: "The file's encoding is not valid"  
 * MIME type/extension mismatch: "The file extension doesn't match the file format. Please choose a different file."
 
-**Custom Error Handling outside of forms library**
+### Custom Error Handling outside of forms library
 
 Applications requiring custom error handling outside the forms library can refer to the [implementation example in the DS v3 playground](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/applications/ds-v3-playground/pages/VaFileInputMultiple.jsx).
 
@@ -168,9 +168,9 @@ Applications requiring custom error handling outside the forms library can refer
 
 **Status**: Accepted
 
-Updated Date: 03/10/2026
+**Decision Date**: 03/10/2026
 
-**Context**
+### Context
 
 `va-file-input` and `va-file-input-multiple` allow users to upload a file and assign it a document type (e.g. "Birth certificate", "Utility bill") via a `<select>` element in the slot. Once the file is uploaded and enters a review state, the document type selection becomes immutable — the user can no longer change it.
 
@@ -180,7 +180,7 @@ This is a WCAG 2.2 failure under:
 * 1.3.1 Info and Relationships — the selected value is not conveyed to AT
 * 4.1.2 Name, Role, Value — the value of the control is not exposed
 
-**Decision**
+### Decision
 In the review state of `va-file-input` and `va-file-input-multiple`, replace the inert-disabled `<select>` with a `<dl>` displaying the document type label and the user's selected value.
 
 ```
@@ -192,7 +192,7 @@ In the review state of `va-file-input` and `va-file-input-multiple`, replace the
 
 This pattern is scoped to the file card context. It is not a general-purpose read-only select pattern for other components or use cases.
 
-**Rationale**
+### Rationale
 
 Why not keep `<select>` in a disabled or read-only state?
 
@@ -205,7 +205,7 @@ Why not keep `<select>` in a disabled or read-only state?
 
 None of these correctly communicate "this is a confirmed, immutable value the user previously set."
 
-**Why `<dl>`?**
+#### Why `<dl>`?
 
 In the review state, the document type is no longer a form input — it is a confirmed data point associated with a specific file. A description list is semantically appropriate for a label/value pair and is well-supported across AT/browser combinations.
 
@@ -216,26 +216,26 @@ The `<dl>` pattern:
 * Accurately represents the information architecture: this is a fact about the file, not an editable field
 * Is consistent with how other confirmed metadata is displayed in card/summary contexts
 
-**Why not `<dl>` everywhere?**
+#### Why not `<dl>` everywhere?
 
 This decision is intentionally scoped. Read-only select states elsewhere in VADS (e.g. system-controlled field locks, partially editable forms) have different semantic requirements and must be evaluated independently.
 
-**Where else are we using `<dl>` today?**
+#### Where else are we using `<dl>` today?
 
 The same pattern can be found in a forms review page, that displays static content of entered data. The same use case here.
 
 
 
-**Consequences**
+### Consequences**
 
-Positive
+#### Positive
 
 * Screen reader users can now perceive the confirmed document type value
 * Eliminates WCAG 1.3.1 and 4.1.2 failures in the review state
 * No ARIA workarounds or hidden input hacks required
 * Pattern is stable across AT/browser combinations
 
-Negative / watch items
+#### Negative / watch items
 
 * The visual and interaction pattern shifts from a form control to static content — consuming teams should ensure the surrounding UI makes the review state clear to sighted users as well
 * If the component ever needs to support editing the document type after upload (inline edit pattern), the `<dl>` approach will need to be revisited in favor of a toggled edit state
@@ -247,9 +247,9 @@ Negative / watch items
 
 **Status**: Accepted
 
-Updated Date: 03/18/2026
+**Decision Date**: 03/18/2026
 
-**Context**
+### Context
 
 The `claim-status` tool team is asking for a change to va-file-input with the password enhancement as their backend and front end are not set up to handle the additional button. 
 
@@ -259,7 +259,7 @@ Unlike the forms-system there is no debouncing or delayed action taken after a u
 
 For `claim-status` to use the new design of the file-input (which requires immediate file upload) the `claim-status` team would have to re-architect their front end and modify their backend significantly.
 
-**Decision**
+### Decision
 We decided to re-implement the updates to  `va-file-input`  and  `va-file-input-multiple` that introduced the new password submit button pattern from PR #1997, while adding backward compatibility for the existing pattern that uses only a password text input and emits  `vaPasswordChange`.
 
 Backward compatibility is supported through a new `usePasswordSubmitButtonPattern` prop (default: true) on both components. When this prop is true, the password section renders a submit button, emits `vaPasswordSubmit` on button click, and uses updated event-handler logic. When this prop is false, there is no rendered submit button. This is the version that we are making available to `claim-status`.
@@ -268,13 +268,13 @@ Under the hood, the teams using this version (should just be claims status tool)
 
 Because we do not want other teams setting `usePasswordSubmitButtonPattern` to false, we are not displaying it as an option in Figma or VADS. The `claim-status` tool is the only approved consumer of `usePasswordSubmitButtonPattern="false"`.
 
-**Rationale**
+### Rationale
 The `claim-status` version relies on implicit submit to determine if the password is successful or not. This can cause some accessibility issues if teams don't implement it correctly. We would rather give the user control of when the submit action takes place through the use of a submit button. But, because of the work that it would take the `claim-status` tool to refactor their code and processes, we've granted them an exception. 
 
-**Consequences**
+### Consequences
 More teams may want to set `usePasswordSubmitButtonPattern` to false now that we have one product using it. But we will have to evaluate each use case. 
 
-**Related issues & PRs**
+### Related issues & PRs
 - https://github.com/department-of-veterans-affairs/component-library/pull/2027
 - https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/5851
 - https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/5849
