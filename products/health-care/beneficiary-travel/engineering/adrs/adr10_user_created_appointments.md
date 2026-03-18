@@ -105,6 +105,18 @@ Through the cross-functional discussions, the team identified several key decisi
 
 ---
 
+### Things learned from slack conversations
+
+What is the largest count of "children" facilities for a given VAMC aka "parent" facility?
+- NASHVILLE VA MEDICAL CENTER - 3123 records
+
+What is the smallest count of "children" facilities for a given VAMC aka "parent" facility?
+- Over 20 VAMCs have a count of 1 record
+
+The BTSSS system has a field called `btsss_preferredfacility` which correlates to the `home facility` and `btsss_preferredfacility2` which correlates to the `preferred facility`.
+
+___
+
 ### Options considered for how to determine the facilities list
 Per our meeting on 3/17/2026 we now know that we will need to determine a given veterans home facility. The API Team will need to update their logic for the `GET Contact` endpoint so that the response returns a `homeFacility`.
 
