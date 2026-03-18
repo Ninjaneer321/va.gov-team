@@ -142,16 +142,6 @@ This is an iteration and enhancement of existing VA.gov travel pay functionality
 
 <details><summary>What research has been done on this product or similar products in the past?</summary>
 
-`Link to relevant past research studies that inform this work. This helps build institutional knowledge and prevents duplicate efforts.`
-
-> [!TIP]
-> **Use the [Past Research Analysis Copilot Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-discovery/past-research-analysis-for-new-research-plan-prompt.md) to automatically find relevant research!**
->
-> 1. Draft and commit your research plan
-> 2. Open GitHub Copilot for your research plan. Click the Copilot icon on your file toolbar.
-> 3. Copy and paste the prompt from the link above
-> 4. Review the suggested studies and add the most relevant ones below
-
 **Previous Studies:**
 - [Reimbursement Status Look and Feel Study-2024-04](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/research/2024-04-Reimbursement-Status-Look-and-Feel-Study/ResearchFindings.md)
 - [Travel Claim Status Language Generative Study-2024-06](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/research/2024-06-Travel-Claim-Status-Language-Generative-Study/ResearchFindings.md)
@@ -161,9 +151,6 @@ This is an iteration and enhancement of existing VA.gov travel pay functionality
 - `Reimbursement Status Takeaway: Navigation Patterns: 6 of 9 participants "satisfice" - taking the first available option from Top Pages rather than thinking deeply about navigation`
 - `Status Language Takeaway: Participants struggled to connect individual claim statuses within the larger process - they wanted proactive notifications about critical phases.`
 - `Concept Study Takeaway: Participants had clear preferences for continued communication and visibility about their claim post-submission.`
-
-> [!NOTE]
-> If this is the first research study for this product, you can note that here. You may also want to reference research from similar products or features that could provide relevant insights.
 
 </details>
 
