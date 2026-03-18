@@ -7,17 +7,17 @@ assignees: ''
 
 ---
 
-## Is this ticket being created for the current sprint?
-_Yes or No
-
 ## Context
-_How did the need for this ticket arise? What is currently happening?_
+_Why is this work needed? What problem are we solving?_
 
-## Purpose
-_What impact does this work have?_
+### Design
+_Figma files here_
 
-### Notes
-_What else would be useful to know? Any code locations, ideas, etc?_
+### Notes / References
+_What else would be useful to know? Links to relevant code, Slack threads, docs, etc_
+
+### Bug Reproduction Steps
+_If this is a bug, list steps to reproduce_
 
 ## Acceptance Criteria
 - [ ] Specific definitions of done
