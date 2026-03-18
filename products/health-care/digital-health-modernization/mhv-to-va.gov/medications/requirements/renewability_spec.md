@@ -100,14 +100,14 @@ _Rationale: VA Prescriptions (prescriptions dispensed for home use) are eligible
 
 #### Gate 3: Dispense History
 
-**Condition:** Must have at least one `MedicationDispense` resource associated with the `MedicationRequest`
+**Condition:** Must have at least one `MedicationDispense` resource with `status == 'completed'` associated with the `MedicationRequest`
 
-| MedicationDispense Count | Renewable?            |
-| ------------------------ | --------------------- |
-| `> 0`                    | Continue to next gate |
-| `0`                      | **NOT RENEWABLE**     |
+| Completed MedicationDispense Count | Renewable?            |
+| ---------------------------------- | --------------------- |
+| `> 0`                              | Continue to next gate |
+| `0`                                | **NOT RENEWABLE**     |
 
-_Rationale: A medication that has never been dispensed cannot be renewed._
+_Rationale: A medication that has never been successfully dispensed cannot be renewed. Dispenses that are in-progress, cancelled, or otherwise incomplete do not qualify._
 
 ---
 
@@ -194,7 +194,7 @@ flowchart TD
     Gate2 -->|Clinic Administered/Inpatient/Pharmacy Charges/Uncategorized| NotRenewable2
     Gate2 -->|VA Prescription| Gate3
 
-    Gate3{Gate 3:<br/>MedicationDispense count > 0?}
+    Gate3{Gate 3:<br/>Completed MedicationDispense<br/>count > 0?}
     Gate3 -->|No| NotRenewable3[NOT RENEWABLE]
     Gate3 -->|Yes| Gate4
 
@@ -230,7 +230,7 @@ flowchart TD
 | ---- | ----------------------------------------------------------------------------------------------------------------------- | ------------- |
 | 1    | `MedicationRequest.status == 'active'`                                                                                  | NOT RENEWABLE |
 | 2    | Medication is classified as **VA Prescription** (see [categorization spec](oracle_health_categorization_spec.md))       | NOT RENEWABLE |
-| 3    | `MedicationDispense` count > 0                                                                                          | NOT RENEWABLE |
+| 3    | `MedicationDispense` count where `status == 'completed'` > 0                                                            | NOT RENEWABLE |
 | 4    | `MedicationRequest.dispenseRequest.validityPeriod.end` exists                                                           | NOT RENEWABLE |
 | 5    | Current date ≤ `MedicationRequest.dispenseRequest.validityPeriod.end` + 120 days                                        | NOT RENEWABLE |
 | 6    | Current date > `MedicationRequest.dispenseRequest.validityPeriod.end`, OR refills remaining == 0                        | NOT RENEWABLE |
