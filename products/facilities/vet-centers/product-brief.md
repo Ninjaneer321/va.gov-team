@@ -11,14 +11,14 @@
 * [Vet Center 2.0](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/vet-centers/product-brief.md#vet-centers-20)
 
 ## About the product
-- **Product owner:** Michelle Middaugh
+- **Product owner:** Jonathan Katora
 - **Business partner:** Jessica Schiefer, VHA Vet Center Communications Officer (Jessica.Schiefer@va.gov)
 
 ## Vet Center Foundational information
 - Vet Centers are stand-alone, community-based counseling centers that guide Veterans and their families through many of the major adjustments in lifestyle that often occur after a Veteran returns from combat. They provide a wide range of social and psychological services, including professional counseling to eligible Veterans, service members, including National Guard and Reserve components, and their families.
 - Vet Center benefits never expire so Veterans can be engaged in services off/on or continuously throughout the journey.
-- Vet Centers are under the VHA umbrella but they are not integrated into VAMC health care systems. Vet Centers 
-- Vet Centers are under-utilized and under-promoted benefit/service for Veterans, even through they are often the first touchpoint an active service member and/or family has with the VA.
+- Vet Centers are under the VHA umbrella but they are not integrated into VAMC health care systems.
+- Vet Centers are _under-utilized_ and under-promoted benefit/service for Veterans, even through they are often the first touchpoint an active service member and/or family has with the VA.
 
 ### Vet Centers and Satellites
 - As of April 2024, there are 300 Vet Centers with three new locations planned this year.
