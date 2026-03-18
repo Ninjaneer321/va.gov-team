@@ -58,4 +58,4 @@ at a later time.
 | `checkpoint_type` | At record creation | Submission lifecycle checkpoint (e.g., inbound payload) |
 | `payload_ciphertext` | At record creation | Encrypted checkpoint data |
 | `created_at` | At record creation | When the checkpoint record is created |
-| `updated_at` | On child record update | WHen the record is last updated |
+| `updated_at` | On child record update | When the record is last updated |
