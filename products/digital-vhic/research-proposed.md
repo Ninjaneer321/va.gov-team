@@ -12,6 +12,8 @@
 
 The Veteran Health Identification Card (VHIC) is a photo ID currently issued in physical form to Veterans enrolled in VA healthcare, used for check-ins, commissary/exchange access, and proving Veteran status. The Digital VHIC project aims to create a mobile app version of this card within the VA Health Benefits app to address issues with lost, forgotten, or damaged physical cards, which currently require 7-14 days for replacement.
 
+[Product brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/digital-vhic/product-brief.md)
+
 
 ## Research goals
 
