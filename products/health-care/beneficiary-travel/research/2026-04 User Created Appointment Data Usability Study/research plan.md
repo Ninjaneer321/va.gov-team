@@ -1,115 +1,132 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Travel Pay Team, User Created Appointment Data, March/April 2026"
+date: 2026-03-18
+last_updated: 2026-03-18
+team: "Travel Pay"
+product: "Travel Pay Reimbursement"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Some medical appointments (community care and unscheduled VA appointments like walk-ins or emergency visits) do not appear in a Veteran's past appointment list. Veterans cannot file for travel pay on VA.gov for these appointments and must use the legacy BTSSS system to manually enter appointment information. This creates a fragmented user experience and prevents VA.gov from being a complete travel reimbursement solution."
+  product_location: "Authenticated VA.gov experience - Health care benefits section, specifically within the Travel Pay claim filing flow"
+  user_familiarity: "Iteration on existing product. Veterans are already familiar with filing travel pay claims on VA.gov (complex claims launched February 2026), but this adds new functionality to manually create missing appointments."
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel/product"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Moderated usability testing with comparative analysis"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine the optimal entry point for user-generated appointment data functionality"
+  - goal_2: "Validate that Veterans can successfully enter appointment data and claim information to file travel claims"
+  - goal_3: "Evaluate how Veterans perceive user-generated appointment data in relation to system generated appointments"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Where do Veterans expect to start when filing a travel claim for an appointment that doesn't appear in their list?"
+  - "How do Veterans perceive and distinguish user-generated appointments from system-generated appointments?"
+  - "How do Veterans remember or keep track of the information they need to enter for missing appointments?"
+  - "Do Veterans understand that once they enter appointment data, they cannot edit it?"
+  - "Do Veterans expect VA to tell them if they enter data about an appointment that already exists?"
+  - "Can Veterans successfully create an appointment and file a travel claim using user-entered data?"
+  - "Do Veterans expect their appointment to be displayed in their list of appointments?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will not have a strong preference for where they begin filing a travel claim for a missing appointment, as they may view both past appointments and claims as valid entry points. However, the past appointments page may feel slightly more intuitive given the existing pattern of filing from past appointments on VA.gov."
+  - "Veterans will be able to successfully enter the required appointment information and create a claim, but may be confused by the user-generated appointment not appearing in the past appointments list."
+  - "Veterans will expect VA to prevent them from creating duplicates, which could indicate a moderate risk of increased appointment and claim duplication."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will directly inform design and development decisions for releasing user-generated appointment functionality on VA.gov. Findings will determine where to place the entry point for user-generated appointment data, identify issues in the appointment data creation flow, refine designs based on user feedback, and validate related community care work."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Stratified purposive sampling to ensure representation across appointment types and travel pay filing experience"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants must be Veterans who use VA health care"
+    - "Veterans who have only attended VA appointment(s) at VA facilities: 4-6 participants total (2-3 who have filed for travel pay, 2-3 who have not)"
+    - "Veterans who have only attended community care appointment(s): 4-6 participants total (2-3 who have filed for travel pay, 2-3 who have not)"
+    - "Veterans who have attended both VA appointments and community care appointment(s): 4-6 participants total (2-3 who have filed for travel pay for both types, 2-3 who have not filed for either type)"
+    - "All participants must have attended at least one VA or community care appointment in the past 12 months"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Not specified in plan"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you use VA healthcare (including community care)?"
+      qualifying_response: "Yes"
+    - question: "In the past 12 months, have you attended any of the following types of appointments? [single select] (1) VA appointments at VA facility, (2) Community care appointments, (3) Both VA appointments and community care appointments, (4) Neither"
+      qualifying_response: "Options 1, 2, or 3 qualify. Option 4 disqualifies."
+    - question: "In the past 12 months, have you filed for travel reimbursement for any VA or community care appointments? [single select] (1) I have filed for travel reimbursement for VA appointments at a VA facility, (2) I have filed for travel reimbursement for community care appointments, (3) I have filed for travel pay for both VA facility and community care appointments, (4) I have not filed for travel reimbursement for VA or community care appointments"
+      qualifying_response: "All options qualify"
       
 participants:
-  veterans: 0
+  veterans: 15
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 15
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "TBD"
+  research_review_submission: "TBD - should be 8-9 days prior to first research session"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: "TBD"
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+  - objective: "Objective 1: Optimize software delivery for Veteran impact"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Key Result 1.3: Supports the decommissioning of a legacy system by enabling Veterans to complete travel pay tasks on VA.gov that currently require BTSSS"
+  - objective: "Objective 3: Relentlessly improve the user experience"
+    key_results:
+      - "Key Result 3.1: Supports the Health portfolio in improving customer satisfaction by removing barriers to filing travel reimbursement claims"
+      - "Key Result 3.2: Supports maintaining the ranked list of user pain points by investigating Veterans' inability to file claims for appointments not appearing in their list"
+      - "Key Result 3.3: Supports the delivery of at least one release that directly addresses this documented user pain point"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
-  previous_studies: 
-    - "[Link to related past research]"
+  previous_studies:
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/research/2024-04-Reimbursement-Status-Look-and-Feel-Study/ResearchFindings.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/research/2024-06-Travel-Claim-Status-Language-Generative-Study/ResearchFindings.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/research/08-2025--Travel%20Complex%20Claims%20Concept%20Study/09-2025%20Travel%20Pay%20Complex%20Claims%20Concept%20Study%20Research%20Findings.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - AUD: Veterans
+  - BNFT: Healthcare
+  - PRDT: Travel-pay
+  - MHV: Appointments
+  - DSP: Ask users for dates
+  - DSP: Content Presentation
+  - DSP: Help users to check answers
+  - DSC: Form
+  - usability-testing
+  - comparative-analysis
+  - remote
+  - authenticated-experience
+  - travel-reimbursement
+  - community-care
+  - appointment-data-entry
+  - legacy-system-migration
 ---
-
-> [!TIP]
-> **Complete the frontmatter section above AFTER you've filled out your research plan below.** 
-> 
-> Use the [GitHub Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md) to automatically generate structured metadata from your completed research plan.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags. 
 
 # Research Plan for Travel Pay User Created Appointment Data Usability Study - March/April 2026
 
