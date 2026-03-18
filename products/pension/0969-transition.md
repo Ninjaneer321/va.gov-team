@@ -26,7 +26,6 @@
 ### Product Goal
 Make the online pension experience as easy to complete and cohesive as possible, while ensuring that Veterans provide sufficient supporting documentation to ensure that submissions are reliable and processed as quickly as possible.
 
-
 #### 21P-0969 Income and Asset Statement
 The online pension application is available in the [production environment](https://va.gov/supporting-forms-for-claims/submit-income-and-asset-statement-form-21p-0969/).  The staging environment version of the form is [here](https://staging.va.gov/supporting-forms-for-claims/submit-income-and-asset-statement-form-21p-0969/).
 - [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/21P-0969-product-outline.md)
@@ -36,11 +35,13 @@ The online pension application is available in the [production environment](http
 - [General testing plan](https://docs.google.com/spreadsheets/d/1mZCnm1Cc6lBIGRIjxw5FzmHa9yQRDBfHquKKLsNlHfo/edit?gid=2009661867#gid=2009661867) for product updates
 
 ### Design artifacts
+These files capture the post-MVP designs, primarily with enhanced content as a collaboration and review with C/IA. The content changes further explain each type of income to report, how we consider dependents based on the claimant type, and improvements to the list-and-loop structure for clarity.  
 - [Working design file](https://www.figma.com/design/tJhSwyQorlgdVPC2UKx1fQ/21P-0969-Pension-or-DIC-Income-and-asset-statement?node-id=452-141959&p=f&t=OM2fZ6Nf1NbpQYr7-0)
    - [Array Builder specs and semantic headings guide](https://www.figma.com/design/yFkPW92yXTgVUUNfgHekcp/Form-Pages---Array-Builder-Specs?node-id=0-1&p=f&t=nzotqqjuKmVudrfG-0)
    - [Guide to list & loop summary cards](https://www.figma.com/design/tJhSwyQorlgdVPC2UKx1fQ/21P-0969-Pension-or-DIC-Income-and-asset-statement?node-id=6058-82726&t=OM2fZ6Nf1NbpQYr7-4)
 - [0969 research findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2025-07%200969%20Usability%20Study/research-findings.md)
 - [Q&A discovery with VBA](https://dsva.slack.com/docs/T03FECE8V/F08T9M220MS)
+- [MVP vs. Post-MVP Comparison](https://www.figma.com/design/tJhSwyQorlgdVPC2UKx1fQ/21P-0969-Pension-or-DIC-Income-and-asset-statement?node-id=11016-28943)
 
 ### Engineering
 - Engineering [readme](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/engineering/README.md)
