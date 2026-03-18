@@ -20,7 +20,7 @@ at a later time.
       I --> J["Checkpoint 4: what CRM returned"]
 ```
 
-### 🚫 Proposed Payload Audit Shape 🚫
+## 🚫 Single Table Approach 🚫
 
 | Field | Checkpoint | What is captured |
 | --- | --- | --- |
@@ -37,9 +37,9 @@ at a later time.
 | `crm_response_received_at` | CRM response | Timestamp for CRM response |
 | `failed_at` | CRM response | Timestamp for failed CRM submission |
 
-### ✅ Parent/Child Table Approach ✅
+## ✅ Parent/Child Table Approach ✅
 
-## Inquiry Submissions
+### Inquiry Submissions
 
 | Field | Available | What is captured |
 | --- | --- | --- |
@@ -49,7 +49,7 @@ at a later time.
 | `created_at` | At record creation | When the record is first created |
 | `updated_at` | On parent record update | When the record is last updated (e.g., after CRM response data is recorded) |
 
-## Inquiry Submission Checkpoints
+### Inquiry Submission Checkpoints
 
 | Field | Available | What is captured |
 | --- | --- | --- |

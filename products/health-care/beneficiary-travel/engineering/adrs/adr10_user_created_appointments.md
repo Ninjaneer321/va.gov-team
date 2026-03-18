@@ -119,7 +119,13 @@ What is the smallest character facility name?
 - 2 characters
 
 How many characters should be required for a filtering on facility name?
-- at least 2 
+- at least 2
+
+Why cant we use the PPMS list to get the community care facilities?
+- The PPMS list does not have a station id field
+  - This field is required in order for us to filter on the `home facility`.
+  - There are over 100,000 records so we need to filter these records down. Given the "parent" and "child" relationship between facilities we need the station number so that we can do that.
+  - The PPMS list also does not have the same facility id that is in BTSSS. PPMS has a 10 digit id for facilities that looks like this `1144688854` where as BTSSS returns guids for the facility id that look like this `e5e2ca33-7f04-ee11-8f6d-001dd806ee99`. There is no way to match up PPMS data to BTSSS so that we could even get the station id
 
 ___
 
