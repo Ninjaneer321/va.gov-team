@@ -29,9 +29,6 @@ Make the online pension experience as easy to complete and cohesive as possible,
 #### 21P-0969 Income and Asset Statement
 The online pension application is available in the [production environment](https://va.gov/supporting-forms-for-claims/submit-income-and-asset-statement-form-21p-0969/).  The staging environment version of the form is [here](https://staging.va.gov/supporting-forms-for-claims/submit-income-and-asset-statement-form-21p-0969/).
 - [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/21P-0969-product-outline.md)
-
-### Product artifacts 
-- [Backlog](https://github.com/orgs/department-of-veterans-affairs/projects/1237/views/39)
 - [General testing plan](https://docs.google.com/spreadsheets/d/1mZCnm1Cc6lBIGRIjxw5FzmHa9yQRDBfHquKKLsNlHfo/edit?gid=2009661867#gid=2009661867) for product updates
 
 ### Design artifacts
@@ -55,7 +52,7 @@ These files capture the post-MVP designs, primarily with enhanced content as a c
    - [Vets-API](https://github.com/department-of-veterans-affairs/vets-api)
    - [Vets-Website](https://github.com/department-of-veterans-affairs/vets-website)
 
-### Analytics dashboard:
+### Analytics dashboard
 - Domo (none), [general forms dashboard](https://va-gov.domo.com/page/447193050)
 - Google Analytics (none)
 - [Backend Stats on DataDog Dashboard](https://vagov.ddog-gov.com/dashboard/55q-ksa-tvq/benefits---pension---527---controller?fromUser=false&refresh_mode=paused&from_ts=1759294800000&to_ts=1767247199999&live=false)
@@ -75,30 +72,31 @@ These files capture the post-MVP designs, primarily with enhanced content as a c
 ## Roadmap
 ### Done (recently)
 
-### Now
-
-## Design opportunities
-
-### Embedding the 0969 in the pension form
-#### Problem it solves  
+### Next
+#### Embedding the 0969 in the pension form
+##### Problem it solves  
 Veterans don’t complete the required income and asset statement with their pension application, which leads to their claim going into development for additional evidence. This is the #3 reason why claims go into development.
-#### What we did
+##### What we did
 * An audit to compare the 0969 form with the **Financial information** step in the pension application
 * Addressed and resolved questions with VBA for clarification
 * Met from the 526 team and the 1010-D team for their approaches to forms-within-forms and what they've learned from it
 * Identified features for an MVP and potential enhancements
 All of these notes are available in a [Mural board here](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1745620624724/70ee36c200a3b66b426c33aa189dcdcc5a4a0192?wid=0-1763522503702)  .
-#### Why it was stopped  
+##### Why it was stopped  
 We conducted discovery relatively recently and wanted to avoid partial design or implementation for this large initiative.
-#### Next step
+##### Next step
 * Review our [design brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/embedded-0969-brief.md#design-brief--embedding-the-0969-into-the-527ez) and its recommended scope to define an MVP. This document includes both design enhancements and spikes to evaluate technical feasibility and approach.
+
+### Later
+The tickets in the milestone primarily consist of front-end enhnacements to apply the latest design patterns and components to the form and small content fixes for consistency. 
+[Backlog for Future 21P-0969](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1610)
 
 ## Collab Cycle Artifacts
 - [Digitizing 0969 Milestone](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1531)
 - [CAIA intake and epic](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106335)
 
 ### Our team 2024/25 roster
-- Delivery Lead: Ahn Platt | anh.platt@va.gov/ anh.platt@coforma.io
+- Delivery Lead: Anh Platt | anh.platt@va.gov/ anh.platt@coforma.io
 - Product manager: Matt Reilly | matthew.reilly1@va.gov/ matt.reilly@adhocteam.us
 - Engineering Lead: Matthew Knight | matthew.knight3@va.gov / matt.knight@coforma.io
 - UX Design/Research Lead: Elisabeth Chin | elisabeth.chin@va.gov / elisabeth.chin@coforma.io
