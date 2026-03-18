@@ -312,6 +312,8 @@ Because results are displayed at **10 results per page**, the UI effectively lim
 
 This is significantly more restrictive than the GI Bill Comparison Tool, which can expose many more result pages for the same query.
 
+This can result in a difference in results shown to the submitter compared to v0 results.
+
 ### Relevance to the Migration
 
 This pagination cap is not introduced by the GIDS v1 migration itself, but it is relevant to understanding why Ask VA search behavior may still differ from the GI Bill Comparison Tool even after aligning both systems to GIDS v1.
