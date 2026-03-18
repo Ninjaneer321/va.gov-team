@@ -273,74 +273,42 @@ We anticipate that Veterans will be able to successfully enter the required appo
 
 ---
   
-## Methodology  🛠️
-***Describe the method you’re planning. You should be able to explain why this method is appropriate for the goals of the research and maturity of the design.*** 
+## Methodology  🛠️   
+We will conduct **moderated usability testing sessions with 10-12 Veterans using a clickable Figma prototype.** This study will be a hybrid study. The first part will evaluate participants’ mental models around where they expect to create an appointment, then we’ll move into a usability test of the user-created appointment data screens. Finally, we will show the participants the alternate entry-point option and ask questions for a comparative analysis.
 
-<details><summary>Examples of common research methods include</summary> 
-	
-- `Semi-structured interviews - appropriate for generative research`
-- `Contextual inquiry - appropriate for generative research`
-- `Card sorts - appropriate for generative and evaluative research; depending on the study design` 
-- `Tree tests - appropriate for evaluative research`
-- `Usability testing - appropriate for evaluative research`
-- `User acceptance testing (UAT) - required before product release`
+### Structure      
 
-</details>
+**Warm-up (5 minutes)**
+We will begin each session with introductory questions to understand participants’ familiarity with travel reimbursement, their experience filing claims on VA.gov, BTSSS, or in VAHB.
 
-**[Enter methodology here]**
+**Entry-point navigation (5-10 minutes)**
+We will provide a brief scenario, then ask participants to navigate from VA.gov’s homepage using our prototype to find where they would file a claim for an appointment that doesn’t appear in their past appointments list. The entry point locations are past appointments and the travel claims list page.
 
-<details><summary>Additional resources</summary> 
-	
-- Please review the [PRA primer](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/what-is-paperwork-reduction-act.md) to educate yourself on how PRA impacts the research we do as a government project. 
-- Review the [Perigean recruitment guidance](https://depo-platform-documentation.scrollhelp.site/research-design/Recruiting-Participants.1958773044.html) to understand how Perigean recruits, and what types of research they can support. 
-- If conducting testing on mobile, refer to the [mobile research guidelines.](https://depo-platform-documentation.scrollhelp.site/research-design/Conducting-Research-Sessions.1958773061.html#ConductingResearchSessions-Researchingwithmobileusers)
-- If conducting [unmoderated usability research, refer to the guidance here.](https://depo-platform-documentation.scrollhelp.site/research-design/Planning-Unmoderated-Studies.1904738369.html) 
-- If conducting [research with disabled Veterans, refer to this checklist](https://depo-platform-documentation.scrollhelp.site/research-design/research-with-assistive-technology-users) and [follow disability etiquette guidelines.](https://depo-platform-documentation.scrollhelp.site/research-design/disability-etiquette)
-- In the rare event of an emergency during research, be prepared by reviewing guidelines for [research safety and emergency exit strategies](https://depo-platform-documentation.scrollhelp.site/research-design/Research-Safety-and-Emergency-Exit-Strategies.2143649793.html).
+**Primary usability testing (25-30 minutes)**
+Once the participant has reached an entry point, we will observe them as they complete the full flow: creating an appointment using the required fields, adding proof of attendance, and a mileage expense, and then submitting the claim. 
+
+**Alternate entry-point evaluation (5-8 minutes)**
+After completing the flow from the self-selected entry point, we’ll guide participants to the alternative entry point. We’ll ask them to evaluate whether this path feels natural and whether it conflicts with their mental model of where travel claims functionality lives on the site.
+
+**4a. Comparative entry point assessment (5-8 minutes**
+Time permitting, we will also show participants the static mock ups of both entry points side-by-side and ask what works well or doesn’t work well for each page. This will help us distinguish between preferences for navigation path versus preferences for the content, call to action placement, and messaging on each page itself.
+
+**Wrap up (3 minutes)**
+We’ll wrap up with some closing questions and allow the participants time to express any final thoughts.
 
 </details>
 
 ### Location
-Where will you be holding the research sessions? Be sure to include whether this is remote or in-person research. [Learn more about setting up in-person research.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/planning-in-person-research.md)
 
-> [!TIP]
-> Place [X] between brackets in edit mode to leave a checkmark in the correct box.
-
-- [ ] **Remote**
+- [x] **Remote**
 - [ ] **In-person**
-      
-> [!NOTE]
-> If in-person, include:
-
-- `Location:` **[Enter text]**
-- `Point of contact:` **[Enter text]**
-- `Equipment used for research:` **[Enter text]**
 
 ## Research materials 📔
-
-> [!NOTE]
-> **Your OCTO/VA lead must review and approve all research materials – including this plan –  prior to submitting a recruitment request.**
-
-Provide a link to any materials you need to run your study, including any materials needed for set up and recruitment.  
-
-**For moderated interviews:** 
-	
-- [Link to conversation guide](url goes here)
 
 **For moderated usability tests:** 
 - [Link to conversation guide](url goes here)
 - [Link to prototype](url goes here)
 
-**For [unmoderated testing:](https://depo-platform-documentation.scrollhelp.site/research-design/Planning-Unmoderated-Studies.1904738369.html)**
-- [Link to email with instructions](url goes here)
-- [Link to prototype or OptimalSort session for group A](url goes here)
-- [Link to prototype or OptimalSort session for group B](url goes here)
-
-
-
-**If recruiting outside of Perigean’s participant database:**
-- [Link to recruitment flyer](url goes here)
-	
 ## Recruitment 🎯	
 *OCTO works with Perigean, a small business, to handle the [recruitment](https://veteranusability.us/), scheduling, and compensation of Veterans and caregivers.*
 
@@ -350,58 +318,34 @@ Provide a link to any materials you need to run your study, including any materi
 > - [Refer to the inclusive recruitment strategies](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/recruitment.md) to learn how to be inclusive of underserved Veteran communities.
 
 ### Recruitment approach
-*Who is your intended audience for this research (e.g. Veterans, caregivers, VSOs, SMEs), and how will you recruit them?* 
-- Perigean **CANNOT** recruit VA employees or VSOs. Work with your VA lead to recruit these groups. 
-- Perigean can also support remote, [unmoderated studies](https://depo-platform-documentation.scrollhelp.site/research-design/perigean-recruiting-process-for-unmoderated-studie), however, these studies require strict recruitment requirements. 
-- Which inclusive research strategies are you leveraging for this study? OCTO recommends using a lean maximum variation strategy for most studies. Read this [introduction to inclusive research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/introduction.md) and download the [recruitment checker (Excel)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx) to understand OCTO's targets for inclusivity and use it to plan your participant demographics for this study.
-
-### Recruitment criteria
-
-- **Write any recruitment criteria for experience or scenarios as screener questions with qualifying responses. Perigean will use these verbatim to recruit participants.**
-- Consider providing links to products and/or clear descriptions to ensure participants understand the question.
-  Example: Have you been to a VA urgent care facility in the last 6 months? [answer should be yes to qualify.]
-
-- The more recruitment criteria you have, the less likely that a small sample of participants will be able to meet all criteria.
-- Consider how you could leverage the [lean maximum variation sampling (MVS) approach](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/recruitment.md#lean-mvs-strategy) by breaking up criteria for your study into multiple cohorts that each isolate one primary criteria.
-- Perigean will consider each cohort as a separate recruitment effort, increasing the chances of meeting all criteria for your study. [Review an example of the multiple cohort approach.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/pre-mhv-prototype/generative-research-study-1/2020-12.research-plan1.md)
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
-> [!NOTE]
-> Your total number should equal **1.5x** your ideal completed sessions number *(e.g. for 10 ideal completed sessions, request 15 total participants)*
 
-
-- `Veterans:` **[n]**
-- `Caregivers:` **[n]**
-- `Dependents:` **[n]**
-- `Total:` **[n]**
-- `Ideal completed sessions:` **[n]**
+- `Veterans:` **15**
+- `Caregivers:` **0**
+- `Dependents:` **0**
+- `Total:` **15**
+- `Ideal completed sessions:` **15**
 
 ### Primary criteria (must-haves)
 *What demographics, experience, and scenarios do you need participants to meet to effectively run your study?* 
 
-- `[Place primary criteria here between hash marks when in edit mode]`
-- `primary criteria`
-- `primary criteria`
-- **`Add more criteria as needed`**
+- `Veterans who use VA health care`   
+- `Veterans who have only attended VA appointment(s)   
+  * Those who have filed for travel pay: 2-3 participants   
+  * Those who have not filed for travel pay: 2-3 participants   
+  * Veterans who have only attended community care appointment(s)   
+  * Those who have filed for travel pay: 2-3 participants   
+  * Those who have not filed for travel pay: 2-3 participants   
+  * Veterans who have attended both VA appointments or community care appointment(s)   
+  * Those who have filed for travel pay for both VA or community care appointments: 2-3 participants   
+  * Those who have not filed for travel pay for VA or community care appointments: 2-3 participants`   
 
 #### Secondary criteria (nice-to-haves)
 *What criteria would strengthen your results?* 
 
-- `[Place secondary criteria here between hash marks when in edit mode]`
-- `secondary criteria`
-- `secondary criteria`
-- **`Add more criteria as needed`**
 
 ## Screener Questions 📋
-
-> [!NOTE]
-> Perigean will use these screener questions **verbatim** to recruit and qualify participants. Write them as you want them asked.
-
-> [!TIP]
-> - Write questions in plain language that participants will easily understand. [**Examples of General and Assistive Tech Screener Questions**](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/example-screener-questions.md) 
-> - Clearly indicate the **qualifying response** that will make someone eligible
-> - Include links to products or clear descriptions so participants understand what they're being asked about
-> - The more screener questions you have, the harder it will be to recruit - prioritize your must-haves
 
 ### Screener Question Template
 
@@ -411,17 +355,28 @@ Provide a link to any materials you need to run your study, including any materi
 
 ### Your Study's Screener Questions
 
-**`1.` [Enter your first screener question]**
-- **Qualifying response:** 
+**`1.` Do you use VA healthcare (including community care)?**
+- Qualifying response: Yes.   
+- If no, participant is ineligible for this study.   
 
-**`2.` [Enter your second screener question]**
-- **Qualifying response:** 
+**`2.` In the past 12 months, have you attended any of the following types of appointments? [single select/radio button field]**  
 
-**`3.` [Enter your third screener question]**
-- **Qualifying response:** 
+- VA appointments at VA facility (VA hospital, VA clinic, or other facility)
+- Community care appointments (appointments at non-VA facilities that VA referred you to for care)
+- Both VA appointments and community care appointments
+- Neither
 
-> [!TIP]
-> Add more screener questions as needed to address your primary and secondary recruitment criteria
+- _Qualifying responses: VA appointments/community care appointments/Both (first 3 options)_
+- _Disqualifying responses: “Neither” (4th option)_
+
+
+**`3.` In the past 12 months, have you filed for travel reimbursement for any VA or community care appointments? [single select/radio button field]**
+- I have filed for travel reimbursement for VA appointments at a VA facility
+- I have filed for travel reimbursement for community care appointments
+- I have filed for travel pay for both VA facility and community care appointments
+- I have not filed for travel reimbursement for VA or community care appointments
+
+- _Qualifying responses: All_
 
 ## Timeline 🗓️
 > [!NOTE]
@@ -471,17 +426,12 @@ When would you like sessions scheduled? Please list exact dates and times in **E
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
-> [!NOTE]
-> **Please do not include email addresses in this section.** We previously required email addresses. VA's GitHub policy ([see announcement](https://github.com/orgs/department-of-veterans-affairs/discussions/13)) has changed. VA.gov email addresses cannot be in public repositories.
->
-> **Please list the names of people in each role.** In the Slack study channel, send an email and primary phone number for the moderator. Also send emails for the notetaker, accessibility specialist, and observers. If you need Perigean to take notes for you, indicate that next to Notetaker.
-
-- `Moderator:` **[Enter full name]**	
-- `Research guide writing and task development (usually but not always same as moderator):` **[Enter full name]**		
-- `Participant recruiting & screening:`	**[Enter full name]**	
-- `Project point of contact:` **[Enter full name]**		
+- `Moderator:` **Kristen Faiferlick and Liza McRuer**	
+- `Research guide writing and task development (usually but not always same as moderator):` **Kristen Faiferlick and Liza McRuer**		
+- `Participant recruiting & screening:`	**Perigean**	
+- `Project point of contact:` **Kristen Faiferlick and Liza McRuer**		
 - `Accessibility specialist (for sessions where support for assistive technology may be needed):` **[Enter full name]**	
-- `Note-takers:` **[Enter full name]** ***or*** **[Designate Perigean]**	
+- `Note-takers:` **Kristen Faiferlick and Liza McRuer**	
 - `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 5 to 6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.`
 
 - **[Enter full name]**
