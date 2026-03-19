@@ -12,13 +12,13 @@ More information about Engineering and Security standards is available in the [L
 
 - Product description
     + Brief overview of motivation for the change from an engineering & security point of view
-    + Link to Collaboration Cycle Request issue
+    + Link to Collaboration Cycle Request issue, https://github.com/department-of-veterans-affairs/va.gov-team/issues/133300 
 - UX design description
-    + For user-facing changes, link to UX prototype or wireframes if available
+    + For user-facing changes, link to UX prototype or wireframes if available, [Wireframes](https://www.figma.com/design/YoeGJtWzHEH2bX2S4EGyBG/Ask-VA-Form---Future-exploration?node-id=2552-36644&t=FxIyQxbSty9sEKdG-1)
     + Call out any engineering challenges; UX is reviewed in the [Design Intent meeting][DI]
 - Frontend changes
     + Identify any significant code changes.  Does this add a new function, or substantially refactor existing code?
-    + Identify any new design system components needed or changes to current components
+    + Identify any new design system components needed or changes to current components, none
     + Does this update change shared code?
     + Describe any product analytics being gathered.  How will errors in the FE system be detected?
 - Backend changes
@@ -90,6 +90,26 @@ Please complete all of Part 1 before submitting for Architechture Intent Review.
 ### 1. Product Overview
 
 - [ ] **Problem Statement**: What problem does this product/feature solve?
+
+## Problem statement
+**Background**
+
+Ask VA users are internally classified by two distinct personas, using Ask VA as a personal user or a business user/veteran liaison.  The current user experience does not promote an obvious distinction between these two users and offers categories and topics that are not relevant for the different user types.  The existing UI experience leads to user confusion on how to complete the form to submit a question.   Additionally, because the two user types are entangled throughout the existing experience there is back end code complexity that should be reduced.
+
+It is not clear to a business user the form options that should be selected to ensure their inquiry is categorized as "business" vs. "personal" so that it is routed property to AVA CRM agents
+
+Current [business vs. personal rules](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/Fields,%20options%20and%20labels/Business%20vs.%20Personal.md) (unknown to the Ask VA user).
+
+|User Type|Primary Issues|
+|:---|:---|
+|Personal User|Category and topic lists offer selection reassurance to this user, but the amount of current options causes overload to the user.|
+|Business User|Category and topic lists are burdonsome because this user repeats the same selection(s) when using Ask VA.|
+|Business User|Current required fields are not neccessary for this user to submit inquiries (i.e. - subject field), forcing additional and duplicative data entry which reduces the user's workflow efficiency.|
+
+**End State Solution**
+
+Decouple the existing form flow into two distinct personal and business user form flows.  Implement a business user form flow tailored to business user needs with focus on minimizing repetative data entry.  Implement a personal user form flow tailored to personal user needs with focus on user experience assurance while reducing category and topic lists overload.
+
 - [ ] **Scope Definition**: Which portions of the architecture are in-scope for this review?
 
 ### 2. Authentication & Authorization
