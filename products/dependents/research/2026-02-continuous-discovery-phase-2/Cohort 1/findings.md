@@ -58,7 +58,7 @@ Participants' opinions were split on the prototype’s ‘check-in’ form struc
 ### Finding 4  
 On the Veteran address screen, participants had inconsistent understandings of what “I agree to receive electronic correspondence from VA about my claim” meant.
 
-- Users were unclear on whether they would continue to receive paper correspondence if they check the box, or if this preference applies only to this submission, or to all VA correspondence moving forward.
+- Participants were unclear on whether they would continue to receive paper correspondence if they check the box, or if this preference applies only to this submission, or to all VA correspondence moving forward.
 
 - Context – this field was added to all PDF forms in 2024, but not all business lines actually use it. It is present on the 686c.
 
@@ -69,7 +69,7 @@ On the Veteran address screen, participants had inconsistent understandings of w
 ### Finding 5  
 Participants wanted more specific information about which medical records VA needs to determine a dependent’s disability status.
 
-- The doctor's statement was clearer to users.
+- The doctor's statement was clearer to participants.
 
 - _“Are they looking for when it first started? Over a period of time? The diagnosis codes? IEP records? Medications they’re on?...What do they actually need?” - P2_
 
@@ -83,7 +83,7 @@ Participants wanted more specific information about which medical records VA nee
 Three of five participants who saw the screen were confused by the informational page listing the required evidence types being separate from the upload screens.
 
 - The card design and alert seemed to imply some kind of action, but there was actually no action on this page. 
-For context – we designed this informational page for the edge-case situations where a user might need to provide 5+ different types of evidence. And, for a situation where a user might want to see what’s needed and go get it. In the user-research setting, users didn’t have to go find documents.
+For context – we designed this informational page for the edge-case situations where a user might need to provide 5+ different types of evidence. And, for a situation where a user might want to see what’s needed and go get it. In the user-research setting, participants didn’t have to go find documents.
 
 - **Recommendation:** Revisit the design of this page - we may have reached the limit of what the current design system affords us re: components for this complex task. Consider an alternate design like a task-list to upload evidence.
 
@@ -106,7 +106,7 @@ Six participants found content callouts about "Overpayments" and "Reasons to add
 - **Effort:** No action needed.
 
 ### Finding 9
-Most users would want to know if their answer might trigger an automatic denial.
+Most participants would want to know if their answer might trigger an automatic denial.
 
 - Participants were split on whether they wanted the form to stop them from continuing despite the probable denial, or allow them to continue.
 
