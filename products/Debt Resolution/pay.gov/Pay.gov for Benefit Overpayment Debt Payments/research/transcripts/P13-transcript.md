@@ -203,7 +203,7 @@ Participant: Mmm… a few years ago. There also was an issue with… My GI Bill�
 
 47
 00:04:58.290 --> 00:05:06.359
-Participant: So, I've been using Vogue Rehab, and I transitioned into using my GI Bill, where when you have, like, the stipend for, like, your books.
+Participant: So, I've been using VOC Rehab, and I transitioned into using my GI Bill, where when you have, like, the stipend for, like, your books.
 
 48
 00:05:06.380 --> 00:05:23.710
@@ -667,11 +667,11 @@ Participant: Yeah, so technically, I haven't, like, worked an actual job in a lo
 
 163
 00:17:51.910 --> 00:18:07.539
-Participant: And so, you know, when you're in the military, you get paid, bi-weekly. So you get paid, like, the 1st, the 15th, and so when I got out, I was working, I was working at the IRS building, and I was, still, I was using Chapter, is Vogue Rehab Chapter 33?
+Participant: And so, you know, when you're in the military, you get paid, bi-weekly. So you get paid, like, the 1st, the 15th, and so when I got out, I was working, I was working at the IRS building, and I was, still, I was using Chapter, is VOC Rehab Chapter 33?
 
 164
 00:18:08.510 --> 00:18:15.569
-Participant: Do you know? Okay, I was using my Volk Rehab benefits. I also was, I think, at that time, 80%. And so,
+Participant: Do you know? Okay, I was using my VOC Rehab benefits. I also was, I think, at that time, 80%. And so,
 
 165
 00:18:17.260 --> 00:18:19.869
