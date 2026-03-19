@@ -104,19 +104,6 @@ Six participants found content callouts about "Overpayments" and "Reasons to add
 - **Recommendations:** Continue to call out overpayments and add/removal reason reminders in dependents designs where appropriate.
 
 - **Effort:** No action needed.
-
-### Finding 9
-Most participants would want to know if their answer might trigger an automatic denial.
-
-- Participants were split on whether they wanted the form to stop them from continuing despite the probable denial, or allow them to continue.
-
-- _“If the system is going to automatically deny my application then don't let me continue now, but if there is a gray area then let me continue. I could take action like talking to my child about the school they are going to, or double-check that the school is accredited“ - P16_
-
-- _“I would like to be notified [that my answer may result in a denial], but allowed to continue. That would help me make sure I didn’t make an error.” - P17_
-
-- **Recommendations:** Continue with our plan to explain potential for denials based on answers in our various forms. The content team is working on how to do this gracefully. The team will also need to work with VSRs to make sure the content is not implying a claim decision.
-
-- **Effort:** No action needed
   
 ---
 
@@ -167,6 +154,18 @@ Most participants would want to know if their answer might trigger an automatic 
   
    - **Recommendation:** Keep a separate upload component per document type (whether they are on the same or different screens).
   
+   - **Effort:** No action needed
+
+ 8. The three participants who talked about it said that they would want to know if their answer might trigger an automatic denial.
+
+   - Participants were split on whether they wanted the form to stop them from continuing despite the probable denial, or allow them to continue.
+
+   - _“If the system is going to automatically deny my application then don't let me continue now, but if there is a gray area then let me continue. I could take action like talking to my child about the school they are going to, or double-check that the school is accredited“ - P16_
+
+   - _“I would like to be notified [that my answer may result in a denial], but allowed to continue. That would help me make sure I didn’t make an error.” - P17_
+
+   - **Recommendations:** Continue with our plan to explain potential for denials based on answers in our various forms. The content team is working on how to do this gracefully. The team will also need to work with VSRs to make sure the content is not implying a claim decision.
+
    - **Effort:** No action needed
 
 ---
