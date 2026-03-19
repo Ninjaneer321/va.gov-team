@@ -20,6 +20,7 @@ The Veteran Health Identification Card (VHIC) is a photo ID currently issued in 
 The digital VHIC will only succeed if two things happen:
 1. VA staff can use it as easily as the physical card
 2. Veterans trust it enough to leave the physical card at home.
+
 Without testing these assumptions, we risk building something that creates long lines at check-in or fails when Veterans need it most. This research tells us what to build before development starts, saving time and rework.
 
 
