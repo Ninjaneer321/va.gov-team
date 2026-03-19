@@ -37,9 +37,10 @@ These files capture the post-MVP designs, primarily with enhanced content as a c
 - [Working design file](https://www.figma.com/design/tJhSwyQorlgdVPC2UKx1fQ/21P-0969-Pension-or-DIC-Income-and-asset-statement?node-id=452-141959&p=f&t=OM2fZ6Nf1NbpQYr7-0)
    - [Array Builder specs and semantic headings guide](https://www.figma.com/design/yFkPW92yXTgVUUNfgHekcp/Form-Pages---Array-Builder-Specs?node-id=0-1&p=f&t=nzotqqjuKmVudrfG-0)
    - [Guide to list & loop summary cards](https://www.figma.com/design/tJhSwyQorlgdVPC2UKx1fQ/21P-0969-Pension-or-DIC-Income-and-asset-statement?node-id=6058-82726&t=OM2fZ6Nf1NbpQYr7-4)
+   - [MVP vs. Post-MVP Comparison](https://www.figma.com/design/tJhSwyQorlgdVPC2UKx1fQ/21P-0969-Pension-or-DIC-Income-and-asset-statement?node-id=11016-28943)
 - [0969 research findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2025-07%200969%20Usability%20Study/research-findings.md)
 - [Q&A discovery with VBA](https://dsva.slack.com/docs/T03FECE8V/F08T9M220MS)
-- [MVP vs. Post-MVP Comparison](https://www.figma.com/design/tJhSwyQorlgdVPC2UKx1fQ/21P-0969-Pension-or-DIC-Income-and-asset-statement?node-id=11016-28943)
+
 
 ### Engineering
 - Engineering [readme](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/engineering/README.md)
