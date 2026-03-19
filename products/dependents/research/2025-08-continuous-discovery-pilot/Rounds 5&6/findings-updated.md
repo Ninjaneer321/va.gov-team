@@ -9,13 +9,13 @@
   - Submitting information for an existing dependent who is about to turn 18 and is still in school  
   - Submitting information for a new student dependent because the Veteran’s disability rating increased and they now qualify to have dependents on their disability compensation benefit  
 - Two prototypes  
-  - Current Design with two options- "Add one or more dependents" and "Remove one or more dependents"  
+  - Current design with two options- "Add one or more dependents" and "Remove one or more dependents"  
   - Potential future design with three options- "Remove one or more dependents", "Add one or more dependents", and "Keep or add back a dependent child who is in school (ages 18-23)"
 
 **Findings Headline:** All 7 Veterans preferred the design with three options- "Remove one or more dependents", "Add one or more dependents", and "Keep or add back a dependent child who is in school (ages 18-23)"
 
 **Findings Summary:**
-Current Design with two options- "Add one or more dependents" and "Remove one or more dependents"
+Current design with two options- "Add one or more dependents" and "Remove one or more dependents"
 
 | Use case: submitting information for an existing dependent | 5 of 7 Veterans said that they would choose the add option The two Veterans who did not choose add said: They would expect to see a "separate box" because "we are trying to recertify he is a student" "It doesn't give me an option to… remove a dependent. I'm certainly not adding one. So I wouldn't know what to click on, to be honest." All of the Veterans were confused or expressed that the action they needed to take was a third option, not adding or removing Two Veterans shared they thought of this use case as "update" |
 | :---- | :---- |
@@ -35,11 +35,13 @@ Potential future design with three options- "Remove one or more dependents", "Ad
   * Can dependents be added to the disability compensation benefit again after they have finished using the education benefit that previously disqualified them?
 
 **Design Screenshots:**
-* Current Design with two options- "Add one or more dependents" and "Remove one or more dependents"
-<img width="960" height="6455" alt="image" src="https://github.com/user-attachments/assets/f1b6a2ae-9664-4d94-9ba5-6029fbda8750" />
+* Current design with two options- "Add one or more dependents" and "Remove one or more dependents"
+<img width="960" height="6455" alt="Current-Screenshot" src="https://github.com/user-attachments/assets/576c4bcc-7ffd-4367-adae-233c0ae01cc3" />
+
 
 
 * Potential future design with three options- "Remove one or more dependents", "Add one or more dependents", and "Keep or add back a dependent child who is in school (ages 18-23)"
-<img width="960" height="6962" alt="image" src="https://github.com/user-attachments/assets/ce9ddeda-46da-4115-874f-6b9c95f53dad" />
+<img width="960" height="6962" alt="Design-Future-State" src="https://github.com/user-attachments/assets/3408f6a2-6005-4667-b367-a2d863fc8e3f" />
+
 
 
