@@ -25,28 +25,15 @@
 Make the online Burial experience as easy to complete and cohesive as possible, while ensuring that applicants provide sufficient supporting documentation to ensure that submissions are reliable and processed as quickly as possible.
 
 
-#### 21-527EZ Application for Veterans Pension
+#### 21-530EZ Application for Veterans Pension
 The online Burial application is available in the [production environment](https://www.va.gov/burials-memorials/veterans-burial-allowance/apply-for-allowance-form-21p-530ez/introduction).  The staging environment version of the form is [here](https://staging.va.gov/burials-memorials/veterans-burial-allowance/apply-for-allowance-form-21p-530ez/introduction).
-
 - [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/burials-memorials/burial-allowance/530-initiative-brief-2024-updates.md)
-- [Form Flow (proposed)](products/burials-memorials/burial-allowance/BurialFlow.png)
-- [Wireframes (proposed)](https://www.figma.com/design/bvj72inycD0iZkuCbjYTWL/Dependent-Verification-MVP?node-id=59-960&t=yWIz3IUP2uFChYib-0) (Figma)
-- [MVP Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1709582312238/ae3de21fd188beba8c28668ee37a31841c6203bf?wid=0-1723479332670)
-- [IA/User Flow Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1709582312238/ae3de21fd188beba8c28668ee37a31841c6203bf?wid=522-1737736233308)
-- [VBA Verification Info](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1709582312238/ae3de21fd188beba8c28668ee37a31841c6203bf) (core goals, diary entries, mvp outline)
-- [MVP Research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/dependents/research/2025-02-dependents-verification-mvp-research)
-   - [Research cohort map](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1690311086208/96d5f59b299912bc8c69542e6943d5b2213b9c72)
-   - [Solution exploration](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1689863079145/5b97ba9ea11077f983f3413167f6324f11aa04a8)
-
-### Product artifacts 
 - [Backlog](https://github.com/orgs/department-of-veterans-affairs/projects/1237/views/39)
 - [General testing plan](https://docs.google.com/spreadsheets/d/10SQSGnTPfXMFWd1OzoEhGa4y0cpn49kD4JS6liehalE/edit?gid=154291457#gid=154291457) for product updates
 
 ### Design artifacts
 - [Figma Working File](https://www.figma.com/design/jpJQSCKiGegacdW4RH5uQB/21P-530EZ---Burial-Benefits?node-id=1796-26776&p=f&t=Y1Hu6A5omqkIAhw1-0)
 - [February 2025 desk research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/e2eb3669205a1aca17126338d3577ff3f8ce8977/products/burials-memorials/Desk%20Research/Burial%20Benefit%20Desk%20Research%20Findings%20Presentation_PDF.pdf)
-   - [[INTAKE] PBB: Burial allowance form content updates #130650](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130650)
-   - [[INTAKE] Pension and burial benefits: Burial allowance content updates #123182](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123182)
 - [December 2024 VSO research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/9cbf1ec5b697e301a25de2bd843fdd01d68d31a2/products/burials-memorials/burial-allowance/research/2024-09-VSO-Research/research-findings.md)
 #### Design backlog tickets
 - [International Phone Number Support #113576](https://github.com/department-of-veterans-affairs/va.gov-team/issues/113576)
@@ -83,10 +70,13 @@ The online Burial application is available in the [production environment](https
 
 ## Roadmap
 ### Done (recently)
-- Minimal header update - The Minimal header is the latest standard header for usage in forms. The goal is to help the user focus on the task at hand. Released 3/12/26.
 - Enhancements to the Burial form have focused on alignment to the latest paper form provided by VBA on December 2025.These changes have been implemented on Staging but have not been released to production yet. [See tickets related to the milestone here.](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1588)
    - We conducted several audits of the burial form to identify changes that impact the digital form and clarified requirements with VBA. [[Sharepoint] Paper form audit]()
    - [[Figma] Design enhancements](https://www.figma.com/design/jpJQSCKiGegacdW4RH5uQB/21P-530EZ---Burial-Benefits?node-id=1796-26776)
+- Minimal header update - The Minimal header is the latest standard header for usage in forms. The goal is to help the user focus on the task at hand. Released 3/12/26.
+- Based on the February 2025 desk research, we made plain language updates throughout the form and its resource page with C/IA.
+   - [[INTAKE] PBB: Burial allowance form content updates #130650](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130650)
+   - [[INTAKE] Pension and burial benefits: Burial allowance content updates #123182](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123182)
 
 ### Our team 2024/25 roster
 - Delivery Lead: Ahn Platt | anh.platt@va.gov/ anh.platt@coforma.io
