@@ -246,6 +246,9 @@ If keeping a video clip from a user session, [review the tips here on how to scr
 
 For details on how to write descriptive links that are accessible to assistive technology users, see Platform documentation on [How to create accessible GitHub Markdown files](https://depo-platform-documentation.scrollhelp.site/research-design/how-to-create-accessible-github-markdown-files).
 
+**Other templates:**
+
+[Mural Template for Task/User Flows](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1765317101972/b60178590de591cf95d76ab6bceadcde50dc375b?wid=4-1766510109117)
 
 ---
 
