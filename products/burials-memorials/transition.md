@@ -43,11 +43,8 @@ The online Burial application is available in the [production environment](https
 - [General testing plan](https://docs.google.com/spreadsheets/d/10SQSGnTPfXMFWd1OzoEhGa4y0cpn49kD4JS6liehalE/edit?gid=154291457#gid=154291457) for product updates
 
 ### Design artifacts
-- Design [readme](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/design/README.md)
-- [Page/User flow](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1687976281975/2a9c6ca9ea6d955afa7977c777bbb72b15280903?sender=u934f98f179a86c76e6ee9592)
-- [Wireframes and page designs](https://www.figma.com/file/7W55oNwdVXvXOTI9SaFzQ7/686c-Add-or-Remove-Dependents?type=design&node-id=8-9&mode=design&t=kcdjZspxOR8ocdvT-0)
-- Staging users
-
+- Figma Working File
+- Research Folder 
 ### Engineering
 - Engineering [readme](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/engineering/README.md)
 - High level view of systems
@@ -60,11 +57,6 @@ The online Burial application is available in the [production environment](https
    - [Vets-API](https://github.com/department-of-veterans-affairs/vets-api)
    - [Vets-Website](https://github.com/department-of-veterans-affairs/vets-website)
  
-### Latest Discovery Research
-- [Research Folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/dependents/research)
-- [General Dependents Research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/dependents/research/2023-09-dependents-research)
-- [Dependency Verification Research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/dependents/research/2025-02-dependents-verification-mvp-research)
-
 ### Analytics dashboard:
 - Domo (none), [general forms dashboard](https://va-gov.domo.com/page/447193050)
 - Google Analytics (none)
@@ -85,49 +77,21 @@ The online Burial application is available in the [production environment](https
 ## Roadmap
 ### Done (recently)
 - Minimal header update - The Minimal header is the latest standard header for usage in forms. The goal is to help the user focus on the task at hand. Released 3/12/26.
-- BPDS for Pension - VA.gov now sends tructured JSON data directly to BPDS. POI then retrieves and uses this data for processing, eliminating the need to perform OCR on submitted PDF forms. Released January 2026.
--  0969 Post MVP improvements (closely adjacent form) - Improvements to the content and format of the Income and Asset statement focused on plain language updates and content chunking to ease form filling burden. Released 3/4/26.
-
 
 ### Now
-- BPDS for 0969 and 530 (closely adjacent forms to Pension) - For 0969 and 530 applications, VA.gov will sendstructured JSON data directly to BPDS. POI then retrieves and uses this data for processing, eliminating the need to perform OCR on submitted PDF forms.
-
-
 
 ## Features and initiatives we worked on
-This table includes links to the individual feature directory and the latest iteration (doc or code) in design or development.
-|Feature|Completed|
-|-------|---------|
-|Implemented backup submission pathway|Oct 5, 2023|
-|Supported [Code Yellow 1](https://github.com/department-of-veterans-affairs/va.gov-team/issues?q=is%3Aissue%20label%3Acode-yellow%20label%3Adependents-benefits) (find and rememdiate failed claims). Started March 2023 and closed Aug 2024.|Aug 24, 2024|
-|[Updated VA.gov to submit the Aug 2022 version of the 686c pdf](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1292?closed=1) (instead of the Sep 2018 pdf)|Aug 13, 2024|
-|[Updated VA.gov to submit the Oct 2021 version of the 674 pdf](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1292?closed=1) (instead of the Jun 2019 pdf)|Aug 13, 2024|
-|[Implemented “action needed” emails to alert Veterans of a claim failure](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1418?closed=1)|Nov 12, 2024|
-|[Updated annual net worth value from $155,356 to $159,240.](https://github.com/department-of-veterans-affairs/va.gov-team/issues/96647) It needs to be manually updated every year by November 30. Ticket to automate update is [here](https://github.com/department-of-veterans-affairs/va.gov-team/issues/96876).| Dec 2, 2024|
-|[Update 686/674 form to v3 components](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/form_updates/Initiative-Brief-686-674-Form-Updates.md)| Mar 2025|
-|User research on dependency verification tool prototype|Feb/Mar 2025|
+Enhancements to the Burial form have focused on alignment to the latest paper form provided by VBA on December 2025.
+We conducted several audits of the burial form to identify changes that impact the digital form and clarified requirements with VBA.
+* [Sharepoint] Paper form audit
+* [[Figma] Design enhancements](https://www.figma.com/design/jpJQSCKiGegacdW4RH5uQB/21P-530EZ---Burial-Benefits?node-id=1796-26776)
+
+These changes have been implemented on Staging but have not been released to production yet. 
+[See tickets related to the milestone here.](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1588)
 
 ## Design opportunities
 This is a collection of notes on design work that we started and set aside for various reasons. It should help add context if picked up again.
-### Improving the unreimbursed care and medical expenses step
 
-#### Problem it solves  
-Applicants often don’t understand what medical expenses to report and end up estimating and/or reporting expenses that are not retroactively reimbursed, not considered recurring, and in many cases are not eligible for reimbursement. This is the #2 reason why claims go into development.
-#### What we did
-* 2024
-	* Conducted a [usability test](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2024%2002%20Pension%20Usability%20Evaluation/research-findings.md) of the pension form's MVP, documented findings related to this step
-* 2025
-	* Conducted [VSO research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/pension/research/2024-09%20527EZ%20VSO%20Research) to further understand pain points in the application process
-	* [Explored potential designs](https://www.figma.com/design/9JKK5Eo43uJWEr66JPiebc/WIP---21P-527EZ---Pension-Benefits?node-id=5699-15179) and language changes (before multiple page list-and-loop pattern was established)
-* 2026
-	* Reviewed historical artifacts and the digitized 8416 to propose recommendations
-#### Why it was stopped
-This work has historically been deprioritized for several reasons. The multiple page list-and-loop pattern was being formalized, our priorities shifted to digitizing the 0969 form, and the BIO Huntridge team took on digitizing the 8416, which is redundant to this step's requirements. 
-#### Next steps
-* Collaborate with C/IA to further define care expenses vs. medical expenses
-	* Evaluate Veterans' comprehension of this distinction
-* Apply the [multiple page list-and-loop](https://design.va.gov/patterns/ask-users-for/multiple-responses) pattern to the step
-* Review our [design brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/design/unreimbursed-care-and-medical-expenses-brief.md) for more details and recommended enhancements
 
 ### Embedding the 0969 in the pension form
 #### Problem it solves  
