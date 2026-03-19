@@ -270,7 +270,7 @@ We anticipate that Veterans will be able to successfully enter the required appo
   
 ## Methodology  🛠️   
 <details>
-We will conduct **moderated usability testing sessions with 10-12 Veterans using a clickable Figma prototype.** This study will be a hybrid study. The first part will evaluate participants’ mental models around where they expect to create an appointment, then we’ll move into a usability test of the user-created appointment data screens. Finally, we will show the participants the alternate entry-point option and ask questions for a comparative analysis.
+We will conduct **moderated usability testing sessions with 10-12 Veterans using a clickable Figma prototype**. This study will be a hybrid study. The first part will evaluate participants’ mental models around where they expect to create an appointment, then we’ll move into a usability test of the user-created appointment data screens. Finally, we will show the participants the alternate entry-point option and ask questions for a comparative analysis.
 
 ### Structure      
 
