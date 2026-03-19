@@ -140,7 +140,7 @@ All of these notes are available in a [Mural board here](https://app.mural.co/t/
 #### Why it was stopped  
 We conducted discovery relatively recently and wanted to avoid partial design or implementation for this large initiative.
 #### Next step
-* Review our [design brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/embedded-0969-brief.md#design-brief--embedding-the-0969-into-the-527ez) and its recommended scope to define an MVP. This document includes both design enhancements and spikes to evaluate technical feasibility and approach.
+* Review our [design brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/design/embedded-0969-brief.md#design-brief--embedding-the-0969-into-the-527ez) and its recommended scope to define an MVP. This document includes both design enhancements and spikes to evaluate technical feasibility and approach.
 
 ## Collab Cycle Artifacts
 -
