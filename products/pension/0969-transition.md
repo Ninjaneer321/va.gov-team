@@ -72,8 +72,11 @@ These files capture the post-MVP designs, primarily with enhanced content as a c
 
 ## Roadmap
 ### Done (recently)
+-  0969 Post MVP improvements (closely adjacent form) - Improvements to the content and format of the Income and Asset statement focused on plain language updates and content chunking to ease form filling burden. Released 3/4/26.
 
 ### Next
+- 
+
 #### Embedding the 0969 in the pension form
 ##### Problem it solves  
 Veterans don’t complete the required income and asset statement with their pension application, which leads to their claim going into development for additional evidence. This is the #3 reason why claims go into development.
