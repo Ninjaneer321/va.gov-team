@@ -503,6 +503,8 @@ Recruitment will be broken into two cohorts:
 ### Prepare
 *When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).*
 
+Study will be conducted on VA.gov production. Experience went live 03/13/2026.
+
 **A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.** 
 > [!NOTE]
 > **Send pilot participant email in study Slack channel**
@@ -523,6 +525,160 @@ Recruitment will be broken into two cohorts:
 - `Maximum Sessions per day:` **2 per day**
 
 #### Cohort 2: Magnification participants
+- `Session length:` **60 minutes**
+  
+- `Buffer time between sessions:` **30 minutes**
+  
+- `Maximum Sessions per day:` **2 per day**
+
+### Availability
+When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
+
+> [!TIP]
+> Please request enough dates and at ***least double the amount of time slots for the number of requested participants***. **(e.g. 3/17, Monday 9:00AM-1:00PM, 3:00PM-6:00PM EST; 3/18, Tuesday 9:00AM-6:00PM EST, etc.;** ***12 time slots for 6 participants***). This helps Perigean book participants when there are more time slots available, and when sessions need to be rescheduled or filled in with further recruitment.
+>
+> **Place time slots between `hash marks` when in edit mode.**
+
+- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `Add more slots as needed`
+
+## Mobile recruitment 🎯	
+*OCTO works with Perigean, a small business, to handle the [recruitment](https://veteranusability.us/), scheduling, and compensation of Veterans and caregivers.*
+
+### Recruitment approach
+*Who is your intended audience for this research (e.g. Veterans, caregivers, VSOs, SMEs), and how will you recruit them?* 
+
+Our intended audience are Veterans recruited by Perigean. With a focus on mobile participants. Recruitment demographics will be driven by OCTO’s target demographics outlined in the recruitment checker.
+
+### Recruitment criteria
+
+### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
+> [!NOTE]
+> Your total number should equal **1.5x** your ideal completed sessions number *(e.g. for 10 ideal completed sessions, request 15 total participants)*
+
+- `Veterans:` **[5]**
+- `Caregivers:` **[0]**
+- `Dependents:` **[0]**
+- `Total:` **[5]**
+- `Ideal completed sessions:` **[3]**
+
+### Primary criteria (must-haves)
+*What demographics, experience, and scenarios do you need participants to meet to effectively run your study?* 
+
+- `ALL participants have a verified VA.gov account`
+- `ALL participants have signed into VA.gov in the last 3 months`
+- `ALL participants participate through their mobile device, tablets are allowed`
+- `Half of participants have VA health care`
+
+#### Secondary criteria (nice-to-haves)
+*What criteria would strengthen your results?* 
+
+##### All cohorts
+* `3 are age 55 - 64+`
+* `3 identify as having a cognitive disability`
+* `2 live in a rural area`
+* `2 have no degree`
+* `1 identifies as being Black or African American`
+* `1 identifies as being Hispanic, Latino, or Spanish origin`
+* `1 identifies as a woman`
+* `1 identifies as being LGBTQ+`
+* `1 identifies as being Asian`
+* `1 identifies as being Native Hawaiian or other Pacific Islander`
+* `1 identifies as being Native, American Indian or Alaska Native`
+
+## Screener Questions 📋
+
+### Screener Question Template
+
+**`[Number].` [Screener Question Text]**
+- **Qualifying response:** `[The answer that qualifies the participant]`
+- **Disqualifying response:** `[Optional: The answer that disqualifies]`
+
+### Your Study's Screener Questions
+
+**`1.` Have you signed into VA.gov with an ID.me or Login.gov account in the last 3 months?**
+- **Yes, I have signed into the VA.gov website in the last 3 months**
+- No, I have not signed into the VA.gov website in the last 3 months (DISQUALIFY)
+- I’m not sure (DISQUALIFY)
+
+**`2.` Being able to access your profile will be required to participate in this study. You can check your profile access by going to va.gov/profile/personal-information. Are you able to see your name and date of birth in your profile?**
+- **Yes, I am able to check my name and date of birth in my VA.gov profile**
+- No, I am not able to check my name and date of birth in my VA.gov profile (DISQUALIFY)
+- I’m not sure (DISQUALIFY)
+
+**`3.` To participate in this study you will be required to sign into VA.gov using your ID.me or Login.gov account and share your screen on Zoom. All sessions will be conducted in a secure setting and recordings deleted once the study is complete. To learn more about sharing your screen on Zoom you can go to this link: https://tinyurl.com/zoomshare2026. Are you willing, and able, to sign into VA.gov and share your screen during the session?**
+- **Yes, I am willing and able to sign into my account and share my screen through Zoom**
+- No, I am not willing and able to sign into my account and share my screen through Zoom (DISQUALIFY)
+- I’m not sure (DISQUALIFY)
+
+**`4.` Are you able to join the research session from a smartphone, such as a Samsung Galaxy or Apple iPhone? Any kind of smartphone will work as long as it connects to the internet.**
+* **Yes, I can join from a smartphone**
+* No, I cannot join from a smartphone (DISQUALIFY)
+* I’m not sure (DISQUALIFY)
+
+**`5.` What VA benefits do you currently have or utilize? Select all that apply.**
+* **Disability compensation**
+* **Education and training**
+* **Health care**
+* **Housing assistance**
+* **Life insurance**
+* **Pension**
+* **Other**
+
+**`6.` Have you been diagnosed with (formally or informally) a cognitive disability? This includes any intellectual disability, ADHD, Autism Spectrum Disorder, severe, persistent mental illness, brain injury, stroke, Alzheimer's disease and other dementias, or others not listed. This question helps us make sure we get feedback from all the people we serve.**
+* **Yes**
+* **No**
+* **I prefer not to answer**
+
+**`7.` Do you identify as a member of the LGBTQ+ community? We ask this question because we want to make sure the feedback we get from these sessions represents all the people we serve.**
+* **Yes**
+* **No**
+* **I prefer not to answer**
+
+## Timeline 🗓️
+> [!NOTE]
+> **Please submit artifacts for [Research Review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Research-review.1781891143.html) 8-9 days prior to the first planned research day for remote studies so Perigean can begin recruiting one week prior. Perigean requires 2+ weeks for in-person.** 
+
+### Optional Kick-off Call with Perigean
+
+- `Suggested dates and times:` **[Enter dates and times MM/DD HH:MM]**
+
+**During kick-off**
+
+- Review screener questions.
+- Review recruitment email.
+- Align on recruitment approach and timing.
+- Review after kick-off tasks.
+
+**After kick-off**
+
+- Requesting Perigean to confirm and prepare participants prior to the session.
+
+- To confirm with each participant:
+
+  - Device they’ll be using for the session. Mobile (iOS or Android) or Desktop.
+
+  - If participants have any additional accommodations they need for the session.
+
+- Walk participants through setting up, and using, Zoom share prior to the session starting. [Link to platform guidance.](https://depo-platform-documentation.scrollhelp.site/research-design/recruiting-participants#Recruiting-Recruitingformobilestudies)
+
+
+### Prepare
+*When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).*
+
+Study will be conducted on VA.gov production. Experience went live 03/13/2026.
+
+**Pilot completed with AT participant recruitment.**
+
+### Research sessions
+- `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
+
+### Length of sessions
+
 - `Session length:` **60 minutes**
   
 - `Buffer time between sessions:` **30 minutes**
