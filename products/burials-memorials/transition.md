@@ -2,7 +2,7 @@
 
 **Updated March 2026**
 
-> The purpose of this transition document is to outline the current state of 530EZ forms' product development. It serves as a "front door" to documentation and resources collected during the course of product design and development from January 2025 through March 2026. Included are links to more specific transition hubs where you can find direct links to resources and references used during design and development. These Transition Docs are "point in time" documents, and may not reflect current progress, deployments or upcoming efforts.
+> The purpose of this transition document is to outline the current state of 530EZ forms' product development. It serves as a "front door" to documentation and resources collected during the course of product design and development from August 2024 through March 2026. Included are links to more specific transition hubs where you can find direct links to resources and references used during design and development. These transition docs are "point in time" documents, and may not reflect current progress, deployments or upcoming efforts.
 
 ## Table of Contents
 [Product context, portfolio, and artifacts](#product-context)
@@ -43,8 +43,13 @@ The online Burial application is available in the [production environment](https
 - [General testing plan](https://docs.google.com/spreadsheets/d/10SQSGnTPfXMFWd1OzoEhGa4y0cpn49kD4JS6liehalE/edit?gid=154291457#gid=154291457) for product updates
 
 ### Design artifacts
-- Figma Working File
-- Research Folder 
+- [Figma Working File](https://www.figma.com/design/jpJQSCKiGegacdW4RH5uQB/21P-530EZ---Burial-Benefits?node-id=1796-26776&p=f&t=Y1Hu6A5omqkIAhw1-0)
+- [February 2025 desk research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/e2eb3669205a1aca17126338d3577ff3f8ce8977/products/burials-memorials/Desk%20Research/Burial%20Benefit%20Desk%20Research%20Findings%20Presentation_PDF.pdf)
+   - [[INTAKE] PBB: Burial allowance form content updates #130650](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130650)
+   - [[INTAKE] Pension and burial benefits: Burial allowance content updates #123182](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123182)
+
+- [December 2024 VSO research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/9cbf1ec5b697e301a25de2bd843fdd01d68d31a2/products/burials-memorials/burial-allowance/research/2024-09-VSO-Research/research-findings.md)
+
 ### Engineering
 - Engineering [readme](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/engineering/README.md)
 - High level view of systems
