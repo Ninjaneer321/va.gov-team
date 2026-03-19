@@ -1,7 +1,6 @@
 # Proposed research for VHIC: Veteran Healthcare Identification Card
 
-* March 2026
-* Team: Mobile Feature Support
+Mobile Feature Support team | March 2026
 * UX Researcher: Emily DeWan
 * UX Designer: Natasha Huckleberry
 * Product Owner: Michelle Middaugh
