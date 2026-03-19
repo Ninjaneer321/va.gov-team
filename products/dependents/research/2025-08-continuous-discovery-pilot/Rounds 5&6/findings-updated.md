@@ -4,7 +4,8 @@
 - How do Veterans conceptualize making changes to their dependents’ information? (For example: providing information about a dependent’s disability or student status when they are about to turn 18, changing the graduation date of a student dependent, etc)   
 - Does their mental model fit with the existing digital forms design which has two options, add and remove?
 
-**Research Methodology:** Usability test of two scenarios with two different design prototypes
+**Research Methodology:**  
+Usability test of two scenarios with two different design prototypes
 - Two scenarios  
   - Submitting information for an existing dependent who is about to turn 18 and is still in school  
   - Submitting information for a new student dependent because the Veteran’s disability rating increased and they now qualify to have dependents on their disability compensation benefit  
@@ -12,9 +13,10 @@
   - Current design with two options- "Add one or more dependents" and "Remove one or more dependents"  
   - Potential future design with three options- "Remove one or more dependents", "Add one or more dependents", and "Keep or add back a dependent child who is in school (ages 18-23)"
 
-**Findings Headline:** All 7 Veterans preferred the design with three options- "Remove one or more dependents", "Add one or more dependents", and "Keep or add back a dependent child who is in school (ages 18-23)"
+**Findings Headline:**  
+All 7 Veterans preferred the design with three options- "Remove one or more dependents", "Add one or more dependents", and "Keep or add back a dependent child who is in school (ages 18-23)"
 
-**Findings Summary:**
+**Findings Summary:**  
 Current design with two options- "Add one or more dependents" and "Remove one or more dependents"
 
 | Use case: submitting information for an existing dependent | 5 of 7 Veterans said that they would choose the add option The two Veterans who did not choose add said: They would expect to see a "separate box" because "we are trying to recertify he is a student" "It doesn't give me an option to… remove a dependent. I'm certainly not adding one. So I wouldn't know what to click on, to be honest." All of the Veterans were confused or expressed that the action they needed to take was a third option, not adding or removing Two Veterans shared they thought of this use case as "update" |
