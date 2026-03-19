@@ -77,6 +77,9 @@ We recommend starting this research while designs are still being worked on, and
 
 If we wait until development starts and then discover the barcode doesn't scan on phones, or Veterans don't trust it, we'll need expensive rework.
 
+<!-----
+
+NOTE: below is the original document written for proposed research.
 
 ## Archive
 <details><summary>Initial draft of proposed research: August 2025</summary>
@@ -130,3 +133,5 @@ Timeline options of each study within product process:
     * Privacy concerns for showing disability rating – it’s possible there would be similar concerns for info on the VHIC
 
 </details>
+
+----->
