@@ -163,7 +163,9 @@ jobs:
             - [ ] Contact org POC to verify
               - [ ] Ability to log into the portal 
               - [ ] View Representation requests, Find claimant, and Submissions
-            - [ ] Address any issues`,
+              - [ ] Address any issues
+              - [ ] Send announcement to stakeholders
+              - [ ] Update monthly report with the number of representatives`,
                 labels: ['engagement','org-onboarding','ar-crew']
               },
               {
