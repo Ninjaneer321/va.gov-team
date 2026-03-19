@@ -49,8 +49,7 @@ recruitment:
 
   primary_criteria:
     - "Veterans and family members/caregivers (mix of 8 Veterans and 4 family/caregivers planned for completes)."
-    - "Target completes: 12; Total recruited: 18 (including ≥6 AT recruited to ensure ≥4 AT completes)."
-    - "Assistive technology mix (at least 4 completes using AT; includes 2 screenreader users and 2 screen magnifier users; recruitment note also says ≥6 AT recruited)."
+    - "Target completes: 12; Total recruited: 18."
     - "Veterans/caregivers/family with recent form experience or near-term need."
     - "9 have filled out at least one form with VA in the last year."
     - "3 participants have never filled out a VA form but are eligible to."
@@ -298,7 +297,7 @@ Sub-questions:
 
 </details>
 
-**Moderated usability test. 12 participants including 4 using AT (2 screenreader and 2 screen magnifier). Mix of 8 Veterans and 4 family/caregivers.
+**Moderated usability test. 12 participants. Mix of 8 Veterans and 4 family/caregivers.
 - 5 min warm up/background questions
 - 5 minutes discussion on current navigation (search engine or homepage to a form to help ground user in real-world use & context)
 - 40 minutes prototype evaluation
@@ -338,8 +337,8 @@ Where will you be holding the research sessions? Be sure to include whether this
 Veterans and Family members/caregivers who have and have not previously completed similar forms with the VA.
 
 ### Recruitment criteria
-- Target completes: 12; **Total recruited: 18** (including **≥6 AT** to ensure ≥4 AT completes).
-- Must-have: Veteran/caregiver/family; recent form experience *or* near-term need; AT mix.
+- Target completes: 12; **Total recruited: 18** 
+- Must-have: Veteran/caregiver/family; recent form experience *or* near-term need
 - Nice-to-have: No prior 526 or education form experience; submission mode preferences.
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
@@ -356,7 +355,6 @@ Veterans and Family members/caregivers who have and have not previously complete
 - `9 Have filled out at least one form with VA in the last year`
 - `3 participants have never filled out a VA form but are eligible to`
 - `6 have not filled out a VA form in the last year`
-- `2 screenreader users`
 - **`Recruit a mix of gender, ages, cognitive abilities, etc.`**
 
 #### Secondary criteria (nice-to-haves)
@@ -406,7 +404,7 @@ Nice to have: Form submission type
 - `Planned dates of research:` **April,6,2026 - April 15, 2026**
 
 ### Length of sessions
-- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **1 hour (1.5 hour AT)**
+- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **1 hour**
   
 - `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **30 mins**
   
