@@ -275,28 +275,97 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 > - 3. Do they interact with or notice  the “more info” component?
 
 ### Expense selection   
+`Moderator: In this scenario, you just drove there and back from your home address. How would you continue to file a travel reimbursement claim from this page?`   
+
+_Participant selects mileage_   
+
+1. What do you expect to happen next?   
+
+`Moderator: Go ahead and continue.'   
+
+> [!NOTE]
+> #### Things to watch for:
+> - 1. Do they select mileage immediately?   
+> - 2. Do they comment on any of the other expense types?   
+> - 3. What do they notice about the language on this page?
+
+### Mileage questions   
+`Moderator: Go ahead and click to fill this out. As a reminder, in our pretend scenario, you just drove there and back from the address we have on file.`     
+
+> [!NOTE]
+> #### Things to watch for:
+> - 1. Do they expand the “more info” component and have any questions about the language?
+
+### Unsubmitted expenses/your in-progress claim   
+`Moderator: Take a look at this page. What do you see here?`   
+
+1. What do you think you need to do next?
+2. What would you do if the appointment information looked incorrect or you noticed something that you need to change?
+3. If you hit the “Sign the agreement” button, what do you expect will happen?   
+
+> [!NOTE]
+> #### Things to watch for:
+> - 1. Does the user recognize the proof of attendance file as something they previously added?
+> - 2. Does the user expect to be able to edit the appointment information as they would any of the other information section on this page?
+
+### Confirmation page    
+`Moderator: Now take a look at this page.`   
+
+1. What is happening here? What does this page tell you?
+2. Have you submitted your claim or is there more you need to do?
+3. Does this page show you what you expect to see?
+4. If you came back in a few days and wanted to track the status of your submission, where would you go to find it? _If time:_ Let’s go back to the home page and you can show us where you’d click.
+5. Looking at this page, did you create an appointment, file a claim, or both?
+
+> [!NOTE]
+> #### Things to watch for:
+> - 1. Do they notice the messaging in the alert?
+> - 2. What do they think about the appointment not appearing in their past appointment list?
+> - 3. Do they know where to navigate for updates?
 
 
 
+## Section 4: Alternate entry-point evaluation (5-10 minutes)   
+`Moderator: Thank you so much for walking through that with me! Now that you’ve filed through one path, let’s take a look at another way we could file. We’re going to go back to the VA.gov homepage so we can explore another path.`   
 
+<mark>Working note: Path and language here still TBD; list the path moderator will follow or participant will be guided through</mark>
 
+`Moderator: Here’s the other page where someone could start a travel claim.`
 
-## Third Task: [TASK NAME] - X minutes
-
-- [ ] Step 1
-- [ ] Step 2
+1. Could you see yourself taking this pathway? Why or why not?   
+2. Does this path feel as natural to you as the path you took?   
+3. What do you see here that could help you file a claim for your appointment?   
+4. Is there anything confusing about this page or how we got here?   
+5. If you had to file another community care claim tomorrow, which path would you take?   
+6. What works well about having the entry point here? What doesn’t work well?   
 
 > [!NOTE]
 > ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Etc]
+> - 1. Can they identify the entry point on the alternative page?
+> - 2. What reasoning do they provide for a preference?
 
-# Post-Task Interview - X minutes
+## Section 4A: Comparative entry point assessment (5-10 minutes)   
+`Moderator: Now that you’ve seen both pages, I’d like to show them to you side-by-side. Take a moment to look at both pages again.`   
 
-- Question 1
-- Question 2
-- Any questions for me? 
+1. What stands out to you? What do you notice?
+2. Which page makes it clearer that you can file for an appointment that isn’t on your list?
+3. If you could only pick one version, which one would you pick? Why would you pick that one?
+4. Is there anything you’d change about the entry point on either page?  
+
+> [!NOTE]
+> ### Things to watch for:
+> - 1. Is there a clear preference for one page over the other?
+> - 2. Why does the user pick one version over the other?
+> - 3. Does mental modal have a bearing on that preference - claim-centric vs appointment-centric thinking?
+
+## Section 5: Wrap up / Post-task interview   
+`Moderator: Moderator: Thank you so much for everything you’ve shared! We’re about to wrap up, so I have some final questions for you.`
+
+1. If you had an appointment that wasn’t showing up on your list, how likely would you be to use this process to file for travel pay? On a scale of 1-5, where 1 is “not at all likely” and 5 is “very likely.”   
+2. In your own words, can you explain what you did today, as if you were telling another Veteran about it?   
+3. Is there anything that could make you more comfortable about using this process?   
+4. Do you have any questions for me?   
+
 
 ## Consent to use video clips
 
@@ -306,7 +375,7 @@ _If earlier in the session, they indicated that they have filed for travel pay o
    <mark>**[Record answer here]**</mark>
 
 
-## Thank-You and Closing - X minutes
+## Thank-You and Closing - 1 minute
 
 Well we really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we continue to work on the site and make sure it really works for Veterans.
 
