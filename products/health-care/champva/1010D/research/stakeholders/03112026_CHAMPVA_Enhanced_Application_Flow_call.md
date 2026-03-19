@@ -11,14 +11,15 @@ Andrea M,
 Angela D. Pinon,
 Mary H. Lynch (Trilogy Federal)
 
-**Notes:**
+## Notes:
 * Went through the screens for the advanced flow.
 * May need to update the text about what it means to update an application.  The language may need to be tweaked.
 * There is a question about OHI uploads, and if we want to push them to the standalone OHI or allow folks to upload it. The suggestion was to change the language on updating health insurance, something like please go to the OHI form.
 * There's discussion on updating the sendback letters to point to online application.
 * Note that we don't call the CHAMPVA enrollment card, an "A card". We should call it an ID card.
-**Decision**  Remove OHI from the dropdown list of doctypes for uploading.
-**Follow up**:
+## Decision:
+Remove OHI from the dropdown list of doctypes for uploading.
+## Follow up
 No major concerns, but the CHAMPVA team wants to meet internally to talk through some things. Will schedule a call.
 
 
