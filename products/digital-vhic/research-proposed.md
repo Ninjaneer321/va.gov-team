@@ -59,16 +59,16 @@ What we want to learn:
 ## Research approach
 
 * In-person observations at NYC-area VA facilities: See how the card actually works in real conditions with real equipment
-    * See how staff are interacting with the physical cards now
-    * Testing digital designs with the staff and local hardware
+    * See how staff are interacting with the physical cards now.
+    * Testing digital designs with the staff and local hardware.
     * See how Veterans currently use their phones in dead zones (elevators, basements).
     * Watch the physical hand-off to see how Veterans naturally hold or present their phones to staff.
 * Remote interviews with staff nationwide: get feedback from different facility types
-    * Learn how staff are interacting with physical cards now
-    * Show staff digital designs for feedback
+    * Learn how staff are interacting with physical cards now.
+    * Show staff digital designs for feedback.
 * Remote interviews with Veterans
     * Interview Veterans for feedback on language for technical issues.
-    * Ask about thoughts on trust and security of digital card designs
+    * Ask about thoughts on trust and security of digital card designs.
 
 
 ## Timeline
