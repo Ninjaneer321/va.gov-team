@@ -10,7 +10,7 @@ product_area: "unauthenticated"
 # Background Context
 background:
   problem_statement: "Centralizing form-related content to simplify navigation, reduce duplicative content/maintenance, improve findability of forms and form-related information, and improve user preparedness/confidence to complete and submit forms."
-  product_location: "VA.gov unauthenticated experience; centralized forms experience / Form Detail (Form About) page (including consolidation of 'About' and 'How to Apply' content)."
+  product_location: "VA.gov unauthenticated experience; centralized forms experience / Form Detail (Form About) page (including consolidation of Detail/'About' and 'How to Apply' content)."
   user_familiarity: "Iteration"
   product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/97c053f843f45bdb92f7576a98ef64f7d192369f/products/find-a-va-form/initiatives/centralized-forms/centralized-[...]"
 
@@ -29,9 +29,9 @@ research_goals:
 research_questions:
   - "Can users identify and access the form they need in the new centralized flow?"
   - "What navigational elements help or confuse users (breadcrumbs, links, headers, TOC, CTAs)?"
-  - "Is information presented in the new centralized/Form About page at the right step, in the right detail?"
+  - "Is information presented in the new centralized/Form Detail page at the right step, in the right detail?"
   - "Where do users expect to find “what do I need”, “am I eligible”, “how to submit”, and “what happens next” content? In what order?"
-  - "Does combining 'About' and 'How to Apply' content enable users to more easily find the information they need to be prepared to complete their form?"
+  - "Does combining Form Detail 'About' and 'How to Apply' content enable users to more easily find the information they need to be prepared to complete their form?"
   - "Are the different options for form submission clear, understandable and easy to identify?"
   
 hypotheses:
@@ -256,12 +256,12 @@ Sub-questions:
 
 **`2.`Is information presented in the new centralized/Form Detail page at the right step, in the right detail? Sub-questions: 
 - 2A. Where do users expect to find “what do I need”, “am I eligible”, “how to submit”, and “what happens next” content? In what order?
-- 2B. Does combining "About" and "How to Apply" content enable users to more easily find the information they need to be prepared to complete their form?
+- 2B. Does combining Form Detail "About" and "How to Apply" content enable users to more easily find the information they need to be prepared to complete their form?
 - 2C. Are the different options for form submission clear, understandable and easy to identify?
 **
 
-**`3.`What risks, if any, are there of combining the About forms and How to Apply pages for Veterans and their families? 
-- 3A. Special Cases & Edge Scenarios: Identify any confusion around forms that are combined (serve multiple benefits/audiences), non-VA forms, or forms without numbers.**
+**`3.`What risks, if any, are there of combining the Form Detail and How to Apply pages for Veterans and their families? 
+- 3A. Special Cases & Edge Scenarios: Identify any confusion around forms that are combined (serve multiple benefits/audiences).**
 
 **`4.`Does the new Form Detail Page template overall work for both simple and complex forms (minimal/maximal?)**
 
