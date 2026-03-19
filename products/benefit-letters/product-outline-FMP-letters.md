@@ -83,7 +83,7 @@ Github Epic: https://github.com/department-of-veterans-affairs/va.gov-team/issue
 As of March 19, 2026: FMP letters can be tested in staging (test plan: https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/vagov-users/staging-test-accounts-FMP-letter-03302026.md)
 
 ### Key Decisions
-We're phasing roll out to start with a select group of internal testers, 
+We're phasing roll out to start with a select group of internal testers, followed by a percentage roll out over the course of a week.
 
 ---
    
