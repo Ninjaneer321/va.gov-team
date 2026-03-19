@@ -253,7 +253,32 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 > - 1. Do they notice the alert at the top?
 > - 2. Do they understand that they won’t be able to edit the appointment information later? If so, how do they feel about that?
 > - 3. Do they think their claim is filed after continuing or do they recognize there is more to do?
-> - 4. Do users imagine that the system will check them or prevent them from creating duplicate appointments?   
+> - 4. Do users imagine that the system will check them or prevent them from creating duplicate appointments?
+
+### Community care proof page
+`Moderator: Take a look at this page and think aloud again. What is this page asking you to do?`    
+
+1. What kind of document would you upload here?
+2. _If the user has been to a community care appointment:_ Do you typically have this kind of document after a community care appointment?
+3. What would you do if you didn’t have this type of documentation?   
+4. <mark>Working note: If we're testing new language here, as well, we can add questions about the content.</mark>
+5. _If they notice the hint text:_Do you have an concerns about what this is telling you?
+
+`Moderator: Since this is a prototype, we won’t actually upload a document, but you can click on the box and imagine it was a file that you selected and added.`
+
+<mark>Working note: We’re going to try to simulate this as best we can. Will revisit this section after we complete the prototype to see what we can ask.</mark> 
+   
+> [!NOTE]
+> #### Things to watch for:
+> - 1. Do they have past experiences to share about community care documentation?
+> - 2. Do they notice the hint text about renaming the file?
+> - 3. Do they interact with or notice  the “more info” component?
+
+### Expense selection   
+
+
+
+
 
 
 ## Third Task: [TASK NAME] - X minutes
