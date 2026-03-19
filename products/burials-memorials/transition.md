@@ -47,8 +47,10 @@ The online Burial application is available in the [production environment](https
 - [February 2025 desk research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/e2eb3669205a1aca17126338d3577ff3f8ce8977/products/burials-memorials/Desk%20Research/Burial%20Benefit%20Desk%20Research%20Findings%20Presentation_PDF.pdf)
    - [[INTAKE] PBB: Burial allowance form content updates #130650](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130650)
    - [[INTAKE] Pension and burial benefits: Burial allowance content updates #123182](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123182)
-
 - [December 2024 VSO research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/9cbf1ec5b697e301a25de2bd843fdd01d68d31a2/products/burials-memorials/burial-allowance/research/2024-09-VSO-Research/research-findings.md)
+#### Design backlog tickets
+- [International Phone Number Support #113576](https://github.com/department-of-veterans-affairs/va.gov-team/issues/113576)
+- [Design spike: Explore content about accredited representatives #95794](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95794)
 
 ### Engineering
 - Engineering [readme](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/engineering/README.md)
@@ -82,54 +84,9 @@ The online Burial application is available in the [production environment](https
 ## Roadmap
 ### Done (recently)
 - Minimal header update - The Minimal header is the latest standard header for usage in forms. The goal is to help the user focus on the task at hand. Released 3/12/26.
-
-### Now
-
-## Features and initiatives we worked on
-Enhancements to the Burial form have focused on alignment to the latest paper form provided by VBA on December 2025.
-We conducted several audits of the burial form to identify changes that impact the digital form and clarified requirements with VBA.
-* [Sharepoint] Paper form audit
-* [[Figma] Design enhancements](https://www.figma.com/design/jpJQSCKiGegacdW4RH5uQB/21P-530EZ---Burial-Benefits?node-id=1796-26776)
-
-These changes have been implemented on Staging but have not been released to production yet. 
-[See tickets related to the milestone here.](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1588)
-
-## Design opportunities
-This is a collection of notes on design work that we started and set aside for various reasons. It should help add context if picked up again.
-
-
-### Embedding the 0969 in the pension form
-#### Problem it solves  
-Veterans don’t complete the required income and asset statement with their pension application, which leads to their claim going into development for additional evidence. This is the #3 reason why claims go into development.
-#### What we did
-* An audit to compare the 0969 form with the **Financial information** step in the pension application
-* Addressed and resolved questions with VBA for clarification
-* Met from the 526 team and the 1010-D team for their approaches to forms-within-forms and what they've learned from it
-* Identified features for an MVP and potential enhancements
-All of these notes are available in a [Mural board here](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1745620624724/70ee36c200a3b66b426c33aa189dcdcc5a4a0192?wid=0-1763522503702)  .
-#### Why it was stopped  
-We conducted discovery relatively recently and wanted to avoid partial design or implementation for this large initiative.
-#### Next step
-* Review our [design brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/embedded-0969-brief.md#design-brief--embedding-the-0969-into-the-527ez) and its recommended scope to define an MVP. This document includes both design enhancements and spikes to evaluate technical feasibility and approach.
-
-### Update marriage history list-and-loop
-
-#### Problem it solves  
-Similar to the unreimbursed medical expenses step, the step to report current and previous marriages is outdated. The VADS design system has since released a marriage history pattern.
-#### What we did
-* Reviewed the VADS marriage history pattern to ensure it was applicable and relevant to our use case
-* Developed [design specs](https://www.figma.com/design/9JKK5Eo43uJWEr66JPiebc/WIP---21P-527EZ---Pension-Benefits?node-id=14174-6517) to document new flows and pages, using the multiple page list-and-loop
-
-#### Why it was stopped
-Due to implementation 
-#### Next steps
-* Validate new content with C/IA and/or VBA (although nearly all of the content was taken from VADS, there are some questions that were not covered in the pattern)
-*  Implement flows according to design specifications
-
-## Collab Cycle Artifacts
-- [Dependent Verification](https://github.com/department-of-veterans-affairs/va.gov-team/issues/83353) | [Initiative Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/dependency_verification/initiative-brief-dependent-verification-tool.md) | [CAIA Request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/84170)
-- [Dependent form updates](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74059) | [Initiative Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/form_updates/Initiative-Brief-686-674-Form-Updates.md) | [CAIA Request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/75068)
-- [CAIA Request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/89314) for dependent card updates
+- Enhancements to the Burial form have focused on alignment to the latest paper form provided by VBA on December 2025.These changes have been implemented on Staging but have not been released to production yet. [See tickets related to the milestone here.](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1588)
+   - We conducted several audits of the burial form to identify changes that impact the digital form and clarified requirements with VBA. [[Sharepoint] Paper form audit]()
+   - [[Figma] Design enhancements](https://www.figma.com/design/jpJQSCKiGegacdW4RH5uQB/21P-530EZ---Burial-Benefits?node-id=1796-26776)
 
 ### Our team 2024/25 roster
 - Delivery Lead: Ahn Platt | anh.platt@va.gov/ anh.platt@coforma.io
