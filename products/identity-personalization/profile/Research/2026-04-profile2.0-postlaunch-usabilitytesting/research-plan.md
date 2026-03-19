@@ -476,27 +476,18 @@ Recruitment will be broken into two cohorts:
 **During kick-off**
 
 - Review screener questions.
-
 - Review recruitment email.
-
 - Align on recruitment approach and timing.
-
 - Review after kick-off tasks.
 
 **After kick-off**
 
 - Requesting Perigean to confirm and prepare participants prior to the session.
-
 - To confirm with each participant:
-
   - The assistive technology matches what the participant marked on the survey.
-
   - Device they’ll be using for the session. Mobile (iOS or Android) or Desktop.
-
   - The participants level of experience with assistive technology. Do they describe themselves as beginner, intermediate, or expert?
-
   - If participants have any additional accommodations they need for the session.
-
 - Walk participants through setting up, and using, Zoom share prior to the session starting. [Link to platform guidance.](https://depo-platform-documentation.scrollhelp.site/research-design/recruiting-participants#Recruiting-Recruitingformobilestudies)
 
 
@@ -657,13 +648,9 @@ Our intended audience are Veterans recruited by Perigean. With a focus on mobile
 **After kick-off**
 
 - Requesting Perigean to confirm and prepare participants prior to the session.
-
 - To confirm with each participant:
-
   - Device they’ll be using for the session. Mobile (iOS or Android) or Desktop.
-
   - If participants have any additional accommodations they need for the session.
-
 - Walk participants through setting up, and using, Zoom share prior to the session starting. [Link to platform guidance.](https://depo-platform-documentation.scrollhelp.site/research-design/recruiting-participants#Recruiting-Recruitingformobilestudies)
 
 
