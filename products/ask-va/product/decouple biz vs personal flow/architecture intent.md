@@ -12,10 +12,15 @@ More information about Engineering and Security standards is available in the [L
 
 - Product description
     + Brief overview of motivation for the change from an engineering & security point of view
-    + Link to Collaboration Cycle Request issue **(Ask VA will have multiple iterations of this initiative and will include all CC links for reference, not every CC requires an architecture intent review)**,
-    + [CC Request Iteration 1 - Arch intent not required](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133300)
+    + Link to Collaboration Cycle Request issue **(Ask VA will have multiple iterations of this initiative and will include all CC links for reference, not every CC requires an architecture intent review)**
+
+      [CC Request Iteration 1 - Arch intent not required](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133300)
+      
 - UX design description
-    + For user-facing changes, link to UX prototype or wireframes if available, [Wireframes](https://www.figma.com/design/YoeGJtWzHEH2bX2S4EGyBG/Ask-VA-Form---Future-exploration?node-id=2552-36644&t=FxIyQxbSty9sEKdG-1)
+    + For user-facing changes, link to UX prototype or wireframes if available
+
+      [Iteration 1 - Wireframes](https://www.figma.com/design/YoeGJtWzHEH2bX2S4EGyBG/Ask-VA-Form---Future-exploration?node-id=2552-36644&t=FxIyQxbSty9sEKdG-1)
+      
     + Call out any engineering challenges; UX is reviewed in the [Design Intent meeting][DI]
 - Frontend changes
     + Identify any significant code changes.  Does this add a new function, or substantially refactor existing code?
