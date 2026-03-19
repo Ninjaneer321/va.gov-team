@@ -74,10 +74,10 @@ The online pension application is available in the [production environment](http
 
 ## Roadmap
 ### Done (recently)
-- Pension - 100% service-connected disability alert - Updated Pension service-connected disability alerts to include "100% service-connected disability rating" to avoid confusion with applicants that have non-service connected disability conditions. Released 2/1/26.
-- Supporting documents - Added new conditional pages informing applicants when medical records, VA forms, or supporting documents are required based on their answers. Released 3/3/26.
-- Minimal header update - The Minimal header is the latest standard header for usage in forms. The goal is to help the user focus on the task at hand. Released 3/12/26.
-- BPDS for Pension - VA.gov now sends tructured JSON data directly to BPDS. POI then retrieves and uses this data for processing, eliminating the need to perform OCR on submitted PDF forms. Released January 2026.
+- **Alerts for 100% disability ratings** - Updated Pension service-connected disability alerts to include "100% service-connected disability rating" to avoid confusion with applicants that have non-service connected disability conditions. Released 2/1/26.
+- **New pages for supporting documents** - Added new conditional pages informing applicants when medical records, VA forms, or supporting documents are required based on their answers. Released 3/3/26.
+- **Minimal header update** - The Minimal header is the latest standard header for usage in forms. The goal is to help the user focus on the task at hand. Released 3/12/26.
+- **BPDS for Pension** - VA.gov now sends tructured JSON data directly to BPDS. POI then retrieves and uses this data for processing, eliminating the need to perform OCR on submitted PDF forms. Released January 2026.
 
 ### Now
 - BPDS for 0969 and 530 (closely adjacent forms to Pension) - For 0969 and 530 applications, VA.gov will sendstructured JSON data directly to BPDS. POI then retrieves and uses this data for processing, eliminating the need to perform OCR on submitted PDF forms.
