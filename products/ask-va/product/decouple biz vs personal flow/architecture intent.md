@@ -89,7 +89,7 @@ Please complete all of Part 1 before submitting for Architechture Intent Review.
 
 ### 1. Product Overview
 
-- [ ] **Problem Statement**: What problem does this product/feature solve?
+- [x] **Problem Statement**: What problem does this product/feature solve?
 
 ## Problem statement
 **Background**
