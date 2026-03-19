@@ -173,9 +173,12 @@ Most participants would want to know if their answer might trigger an automatic 
 
 ## AI Experiment
 
-After I finished analyzing the findings, I ran the transcripts from the five research sessions with Veterans with disabled dependents through Microsoft Copilot. I asked it to product an Executive Summary and a summary of UX findings and potential changes.  
+After I finished analyzing the findings, I ran the transcripts from the five research sessions with Veterans with disabled dependents through Microsoft Copilot. I asked it to produce an Executive Summary and a summary of UX findings and potential changes.  
+
 There were several points where our findings aligned, such as Veteran confusion with the Add/Remove language and the proposed updates to the upload flow.  
-The major point where our analysis differed was on Veterans' feedback on the prototype’s ‘check-in’ form structure. Copilot summarized the feedback as "Veterans wanted to finish the task they came for before reviewing other dependent statuses. Showing 'children no longer on benefits' or removal options mid‑flow felt distracting." In my analysis their feedback was more nuanced. Two Veterans liked the flow, two Veterans did not like it, and one Veteran did not voice an opinion.  
+
+The major point where our analysis differed was on Veterans' feedback on the prototype’s ‘check-in’ form structure. Copilot summarized the feedback as "Veterans wanted to finish the task they came for before reviewing other dependent statuses. Showing 'children no longer on benefits' or removal options mid‑flow felt distracting." In my analysis their feedback was more nuanced. Two Veterans liked the flow, two Veterans did not like it, and one Veteran did not voice an opinion. 
+
 Another major gap was that Copilot had no way of knowing which prototype screens a Veteran participant was looking at when they gave their feedback, which limited the precision of its summary and suggestions.
 
 **Next Steps:**
