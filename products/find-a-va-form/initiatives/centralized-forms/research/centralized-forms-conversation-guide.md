@@ -190,43 +190,43 @@ First impressions of this page.
 Task: “What is this form about, and how would you know if it’s right for you?”
 
 Probes:
- • What information do you look at first?
- • Does this feel like enough information?
+- • What information do you look at first?
+- • Does this feel like enough information?
  
 3.2: Identify What’s Needed to Prepare
 Task: “Before starting the form, what would you need to prepare?”
 
 Comprehension Checkpoint:
- • Please highlight or call out the content that helps you understand the requirements.
- • Is the timing of this information appropriate? Too early? Too late?
+- • Please highlight or call out the content that helps you understand the requirements.
+- • Is the timing of this information appropriate? Too early? Too late?
  
 3.3: Understand Available Submission Options
 Task: “Show me how you would begin completing this form.”
 
 Probes:
- • Which option would you choose? Why?
- • Ease of Use Submission Options Checkpoint: On a scale of 1 to 5, where 1 is very difficult and 5 is very easy, how easy or difficult is it to identify the right option for you to get started with the form? [Why?]
+- • Which option would you choose? Why?
+- • Ease of Use Submission Options Checkpoint: On a scale of 1 to 5, where 1 is very difficult and 5 is very easy, how easy or difficult is it to identify the right option for you to get started with the form? [Why?]
  
 **Task Additional:** Download Form Flow (2 screens)
 Task: Imagine you want to download this form to submit it. “Show me how you would download this form.”
 
 Screen 1 probes:
- • What is this screen telling you?
- • What would you do next?
+- • What is this screen telling you?
+- • What would you do next?
 
-Standard Ease of use scale question on download process 1-5 where 1 is very difficult and 5 is very easy. 
+- Standard Ease of use scale question on download process 1-5 where 1 is very difficult and 5 is very easy. 
 
-Task/Probe back to Detail Page: “Once you've downloaded the form, what would you expect to do next?”
+- Task/Probe back to Detail Page: “Once you've downloaded the form, what would you expect to do next?”
 
 Probe:
- • Where would you go if you needed help submitting this form?
+- • Where would you go if you needed help submitting this form?
 
 3.5: Identify Next steps/Related/Supporting Forms
 Task: User need/comprehension check. What do you need to know about what happens next (if anything) before staring the form? (e.g. timeline, related forms, how you’ll hear back)
  
- “If you needed to find other forms related to this one, where would you expect them to be?”
+- “If you needed to find other forms related to this one, where would you expect them to be?”
 Probe:
- • Do you see anything here you’d expect to help you?
+- • Do you see anything here you’d expect to help you?
 
 
 > [!NOTE]
