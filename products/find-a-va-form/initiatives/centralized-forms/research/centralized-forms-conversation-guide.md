@@ -109,18 +109,18 @@ Before we start, I have a few things that I want to go over with you:
 
 Before we look at the website, I have a couple questions about how you usually do VA forms. 
 
- • Can you briefly describe the last time you needed to complete a VA form?
- • How did you find the form you needed?
- • How confident did you feel about understanding what you needed before starting the form?
- • Do you normally complete forms online, on paper/PDF, or both?
+- • Can you briefly describe the last time you needed to complete a VA form?
+- • How did you find the form you needed?
+- • How confident did you feel about understanding what you needed before starting the form?
+- • Do you normally complete forms online, on paper/PDF, or both?
 
 
 ## First Task: Current State Navigation discussion - 5 minutes
 
 Before we look at the prototype:
- • If you needed a VA form today, where would you start looking?
- • How long does it typically take for you to find the right form?
- • What kinds of information do you look for before beginning a form?
+- • If you needed a VA form today, where would you start looking?
+- • How long does it typically take for you to find the right form?
+- • What kinds of information do you look for before beginning a form?
 
 ## Second Task: Maximal Form - 25 minutes
 
@@ -128,18 +128,15 @@ Before we look at the prototype:
 Imagine you…[based on how they usually access forms]…and found this page. I’d like you to take a look at it as if you we’re planning to complete this form to get disability benefits. Talk me through what you’re noticing and what you would do here. 
 
 Probes:
- • What drew your attention first?  
- 
- • Does anything feel confusing or unexpected?  
+- • What drew your attention first?  
+- • Does anything feel confusing or unexpected?  
  
 2.2 Identify Whether It’s the Right Form  
 Task: “How would you confirm whether this is the right form for your situation?”
 
 Comprehension Checkpoint:
-
- • Highlight or point out the information that tells you whether this form applies to you. 
- 
- • Is any information missing or unclear?
+- • Highlight or point out the information that tells you whether this form applies to you. 
+- • Is any information missing or unclear?
  
  Where would you expect to go for futher information (if they needed it)? (What helps you know that/navigate?)
 
@@ -147,10 +144,8 @@ Comprehension Checkpoint:
 Task: “Show me how you would begin completing this form.”
 
 Probes:
-
- • Which option would you choose (online, PDF, help from a professional)? Why?
- 
- • Ease of Use Submission Options Checkpoint: On a scale of 1 to 5, where 1 is very difficult and 5 is very easy, how easy or difficult is it to identify the right option for you to get started with the form? [Why?]
+- • Which option would you choose (online, PDF, help from a professional)? Why?
+- • Ease of Use Submission Options Checkpoint: On a scale of 1 to 5, where 1 is very difficult and 5 is very easy, how easy or difficult is it to identify the right option for you to get started with the form? [Why?]
  
  
 2.4: Identify Options for Getting Help
@@ -160,22 +155,22 @@ Probes:
  Ease of Use Getting Help Checkpoint: On a scale of 1 to 5, where 1 is very difficult and 5 is very easy, how easy or difficult is it to identify how to get help with the form? [Why?]
  
 2.5: Identify Next steps/Related/Supporting Forms
-User need/comprehension check. What do you need to know about what happens next (if anything) before staring the form? (e.g. timeline, related forms, how you’ll hear back)
-
-“If you needed to find other forms related to this one, where would you expect them to be?”
+User need/comprehension check.
+- What do you need to know about what happens next (if anything) before staring the form? (e.g. timeline, related forms, how you’ll hear back)
+- “If you needed to find other forms related to this one, where would you expect them to be?”
 
 Probe:
- • Do you see anything here you’d expect to help you?
+- • Do you see anything here you’d expect to help you?
 
 
 Stopping Point: Information Hierarchy & Comprehension Review
 
 Prompt:
- • Tell me the three most important pieces of information on this page.
- • Is anything too detailed, too repetitive, or missing?
- • How confident on a scale of 1-5 do you feel that you could start the form now where 1 is not at all confident and 5 is extremely confident? Why?
+- • Tell me the three most important pieces of information on this page.
+- • Is anything too detailed, too repetitive, or missing?
+- • How confident on a scale of 1-5 do you feel that you could start the form now where 1 is not at all confident and 5 is extremely confident? Why?
 
-If time, go ahead and imagine that you are going to fill out this form online (click through to online intro page)
+- If time, go ahead and imagine that you are going to fill out this form online (click through to online intro page)
 First impressions of this page.
 
 
