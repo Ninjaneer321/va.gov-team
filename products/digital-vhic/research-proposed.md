@@ -49,7 +49,7 @@ What we want to learn:
 * How will Veterans handle technical failures?
     * Determine how they will check in with no cell service or the app crashes.
 * Do Veterans trust a digital-only ID?
-    * Do they feel safe leaving the physical card at home (or not having one at all)
+    * Do they feel safe leaving the physical card at home (or not having one at all)?
     * Do they trust that the digital card is official?
 * Is the guidance clear when things go wrong?
     * When the app shows a system error or inactive status, do Veterans know what to do?
