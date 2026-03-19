@@ -97,7 +97,7 @@ Three of five participants who saw the screens were unclear whether they could u
 - **Effort:** Small - We need to clarify the requirements and then add content that supports it.
 
 ### Finding 8
-Six participants found content callouts about "Overpayments" and "Reasons to add/remove dependent helpful".
+Six participants found content callouts about "Overpayments" and "Reasons to add/remove dependent" helpful.
 
 - _“A lot of Veterans struggle to understand the nuances of the benefits, so it’s helpful to explain some of this stuff” - P4_
 
