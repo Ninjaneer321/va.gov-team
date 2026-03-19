@@ -260,19 +260,20 @@ Unlike the forms-system there is no debouncing or delayed action taken after a u
 For `claim-status` to use the new design of the file-input (which requires immediate file upload) the `claim-status` team would have to re-architect their front end and modify their backend significantly.
 
 ### Decision
-We decided to re-implement the updates to  `va-file-input`  and  `va-file-input-multiple` that introduced the new password submit button pattern from PR #1997, while adding backward compatibility for the existing pattern that uses only a password text input and emits  `vaPasswordChange`.
+We decided to re-implement the updates to `va-file-input` and `va-file-input-multiple` that introduced the new password submit button pattern from PR #1997, while adding backward compatibility for the existing pattern that uses only a password text input and emits `vaPasswordChange`.
 
-Backward compatibility is supported through a new `usePasswordSubmitButtonPattern` prop (default: true) on both components. When this prop is true, the password section renders a submit button, emits `vaPasswordSubmit` on button click, and uses updated event-handler logic. When this prop is false, there is no rendered submit button. This is the version that we are making available to `claim-status`.
+Backward compatibility is supported through a new `disablePasswordSubmitPattern` prop (default: false) on both components. When this prop is false, the password section renders a submit button, emits `vaPasswordSubmit` on button click, and uses updated event-handler logic. When this prop is true, there is no rendered submit button. This is the version that we are making available to `claim-status`.
 
-Under the hood, the teams using this version (should just be claims status tool) would still listen to the `vaPasswordChange` event and use that in their own business logic to determine if the password is correct or not. We will test against vets-website, but none of these changes should be breaking for existing implementations.
+Under the hood, the teams using this version (should just be claims status tool) would still listen to the `vaPasswordChange` event and use that in their own business logic to
+determine if the password is correct or not. We will test against vets-website, but none of these changes should be breaking for existing implementations.
 
-Because we do not want other teams setting `usePasswordSubmitButtonPattern` to false, we are not displaying it as an option in Figma or VADS. The `claim-status` tool is the only approved consumer of `usePasswordSubmitButtonPattern="false"`.
+Because we do not want other teams setting `disablePasswordSubmitPattern` to true, we are not displaying it as an option in Figma or VADS. The `claim-status` tool is the only approved consumer of `disablePasswordSubmitPattern="true"`.
 
 ### Rationale
 The `claim-status` version relies on implicit submit to determine if the password is successful or not. This can cause some accessibility issues if teams don't implement it correctly. We would rather give the user control of when the submit action takes place through the use of a submit button. But, because of the work that it would take the `claim-status` tool to refactor their code and processes, we've granted them an exception. 
 
 ### Consequences
-More teams may want to set `usePasswordSubmitButtonPattern` to false now that we have one product using it. But we will have to evaluate each use case. 
+More teams may want to set `disablePasswordSubmitButtonPattern` to true now that we have one product using it. But we will have to evaluate each use case. 
 
 ### Related issues & PRs
 - https://github.com/department-of-veterans-affairs/component-library/pull/2027
