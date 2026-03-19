@@ -88,15 +88,17 @@ We're phasing roll out to start with a select group of internal testers,
 ---
    
 ## Screenshots
-
+Final content source of truth: https://www.figma.com/design/61I2UcRPJDXdw0xCl9BlEe/Your-VA-benefit-letters-and-documents?t=Jhj34oK17KJYlkgF-0
+User Flows: https://www.figma.com/design/61I2UcRPJDXdw0xCl9BlEe/Your-VA-benefit-letters-and-documents?node-id=6352-10057&t=YOsQJlMslGVmXk5Q-11
 ### Before
 ![m-benefit-letters-and-documents](https://github.com/user-attachments/assets/807da806-b0bf-4657-88f3-2f480807c9e2)
 
 
 ### After
-<img width="402" height="4096" alt="49033f73076bc0d6128eb192f6214fa16c966de5" src="https://github.com/user-attachments/assets/79df2df4-7b2a-426e-9ec8-b3204899c7c1" />
+![fmp-letter-new](https://github.com/user-attachments/assets/5b568667-c38b-4909-b87e-317346de62a3)
 
-<img width="256" height="4096" alt="7798825de0d1b2fe95b9a04d19e23816c1280e0d" src="https://github.com/user-attachments/assets/765d8ed4-9073-45b1-aaa4-213f8ee19aa1" />
+![fmp-letter-expanded](https://github.com/user-attachments/assets/c26cd7c9-7682-4a35-85ca-d0498c796994)
+
 
 ---
 
