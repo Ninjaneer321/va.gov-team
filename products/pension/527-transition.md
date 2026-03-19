@@ -78,7 +78,6 @@ The online pension application is available in the [production environment](http
 - Supporting documents - Added new conditional pages informing applicants when medical records, VA forms, or supporting documents are required based on their answers. Released 3/3/26.
 - Minimal header update - The Minimal header is the latest standard header for usage in forms. The goal is to help the user focus on the task at hand. Released 3/12/26.
 - BPDS for Pension - VA.gov now sends tructured JSON data directly to BPDS. POI then retrieves and uses this data for processing, eliminating the need to perform OCR on submitted PDF forms. Released January 2026.
--  0969 Post MVP improvements (closely adjacent form) - Improvements to the content and format of the Income and Asset statement focused on plain language updates and content chunking to ease form filling burden. Released 3/4/26.
 
 ### Now
 - BPDS for 0969 and 530 (closely adjacent forms to Pension) - For 0969 and 530 applications, VA.gov will sendstructured JSON data directly to BPDS. POI then retrieves and uses this data for processing, eliminating the need to perform OCR on submitted PDF forms.
@@ -144,12 +143,10 @@ We conducted discovery relatively recently and wanted to avoid partial design or
 * Review our [design brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/embedded-0969-brief.md#design-brief--embedding-the-0969-into-the-527ez) and its recommended scope to define an MVP. This document includes both design enhancements and spikes to evaluate technical feasibility and approach.
 
 ## Collab Cycle Artifacts
-- [Dependent Verification](https://github.com/department-of-veterans-affairs/va.gov-team/issues/83353) | [Initiative Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/dependency_verification/initiative-brief-dependent-verification-tool.md) | [CAIA Request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/84170)
-- [Dependent form updates](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74059) | [Initiative Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/form_updates/Initiative-Brief-686-674-Form-Updates.md) | [CAIA Request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/75068)
-- [CAIA Request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/89314) for dependent card updates
+-
 
 ### Our team 2024/25 roster
-- Delivery Lead: Ahn Platt | anh.platt@va.gov/ anh.platt@coforma.io
+- Delivery Lead: Anh Platt | anh.platt@va.gov/ anh.platt@coforma.io
 - Product manager: Matt Reilly | matthew.reilly1@va.gov/ matt.reilly@adhocteam.us
 - Engineering Lead: Matthew Knight | matthew.knight3@va.gov / matt.knight@coforma.io
 - UX Design/Research Lead: Elisabeth Chin | elisabeth.chin@va.gov / elisabeth.chin@coforma.io
