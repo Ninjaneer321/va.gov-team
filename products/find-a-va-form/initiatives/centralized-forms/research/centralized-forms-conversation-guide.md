@@ -257,7 +257,7 @@ Probe:
 # Post-Task Interview - 5 minutes
 Overall reflection:
 
- • How easy or difficult was it to understand what you needed to do for forms one a scale of 1 to 5 where 1 is very difficult and 5 is very easy?
+ • How easy or difficult was it to understand what you needed to do for forms on a scale of 1 to 5 where 1 is very difficult and 5 is very easy?
  
  • What, if anything, would improve your confidence in completing forms on VA.gov?
  
