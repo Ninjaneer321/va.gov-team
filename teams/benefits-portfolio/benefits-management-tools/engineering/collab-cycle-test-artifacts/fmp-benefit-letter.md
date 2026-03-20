@@ -69,7 +69,7 @@ Use this report to show that each defect came from an executed test case and was
 |---|---|---|---|---|---|
 |TBD|---|---|---|---|---|
 
-Note: No defects have been found so far during executed QA test case runs.
+**Note**: No defects have been found so far during executed QA test case runs.
 
 
 ## Tests
@@ -148,7 +148,7 @@ This has been completed: the application is built in isolation with no cross-app
 
 | Step | Expected Result | Pass | Screenshot |
 |------|----------------|------|------------|
-| Navigate to `/records/download-va-letters/letters` | FMP letter does NOT appear in the letter list | - [x] | <img src="./fmp_test_screenshots/web_letter_unavailable.png" width="700" alt="web all flags disabled"> |
+| Navigate to `/records/download-va-letters/letters` | FMP letter does NOT appear in the letter list | ✅ | <img src="./fmp_test_screenshots/web_letter_unavailable.png" width="700" alt="web all flags disabled"> |
 
 #### Scenario W-2a: Master flag ON – single user targeting
 
@@ -157,11 +157,11 @@ This has been completed: the application is built in isolation with no cross-app
 
 | Step | Expected Result | Pass | Screenshot |
 |------|----------------|------|------------|
-| Log in as staging user 64, navigate to `/records/download-va-letters/letters` | FMP letter appears in the letter list | - [x] | <img src="./fmp_test_screenshots/web_letter_available.png" width="700" alt="web single user enabled"> |
-| Click **Download** on FMP letter | PDF downloads successfully | - [x] | |
-| Verify letter content | Letter contains correct veteran info, FMP benefit details, and proper formatting | - [x] | |
-| Check download progress UX | Progress indicator displays during generation; dismisses on completion | - [x] | |
-| Log in as a user NOT in the targeted list | FMP letter does NOT appear (used user 54) | - [x] | <img src="./fmp_test_screenshots/web_letter_unavailable_other_user.png" width="700" alt="web disabled user"> |
+| Log in as staging user 64, navigate to `/records/download-va-letters/letters` | FMP letter appears in the letter list | ✅ | <img src="./fmp_test_screenshots/web_letter_available.png" width="700" alt="web single user enabled"> |
+| Click **Download** on FMP letter | PDF downloads successfully | ✅ | |
+| Verify letter content | Letter contains correct veteran info, FMP benefit details, and proper formatting | ✅ | |
+| Check download progress UX | Progress indicator displays during generation; dismisses on completion | ✅ | |
+| Log in as a user NOT in the targeted list | FMP letter does NOT appear (used user 54) | ✅ | <img src="./fmp_test_screenshots/web_letter_unavailable_other_user.png" width="700" alt="web disabled user"> |
 
 #### Scenario W-2b: Master flag ON – percentage rollout
 
@@ -169,7 +169,7 @@ This has been completed: the application is built in isolation with no cross-app
 
 | Step | Expected Result | Pass | Screenshot |
 |------|----------------|------|------------|
-| Log in as staging user 64 | Verify letter presence matches expected rollout behavior for this user | - [x] | |
+| Log in as staging user 64 | Verify letter presence matches expected rollout behavior for this user | ✅ | |
 
 #### Scenario W-3: Non-eligible veteran
 
@@ -178,13 +178,13 @@ This has been completed: the application is built in isolation with no cross-app
 
 | Step | Expected Result | Pass | Screenshot |
 |------|----------------|------|------------|
-| Navigate to letters page | FMP letter does NOT appear (eligibility-gated, not just flag-gated) | - [x] | <img src="./fmp_test_screenshots/web_letter_unavailable.png" width="700" alt="web no letter"> |
+| Navigate to letters page | FMP letter does NOT appear (eligibility-gated, not just flag-gated) | ✅ | <img src="./fmp_test_screenshots/web_letter_unavailable.png" width="700" alt="web no letter"> |
 
 #### Scenario W-4: Download error handling
 
 | Step | Expected Result | Pass | Screenshot |
 |------|----------------|------|------------|
-| Simulate backend error (or use an ineligible account mid-session) | User-friendly error message displayed; no crash | - [x] | <img src="./fmp_test_screenshots/web_error.png" width="700" alt="web no letter">|
+| Simulate backend error (or use an ineligible account mid-session) | User-friendly error message displayed; no crash | ✅ | <img src="./fmp_test_screenshots/web_error.png" width="700" alt="web no letter">|
 ---
 
 ### 1.3 Mobile – App NOT Updated (old build)
@@ -197,7 +197,7 @@ These scenarios confirm that `fmp_benefits_authorization_letter_mobile` is the s
 
 | Step | Expected Result | Pass | Screenshot |
 |------|----------------|------|------------|
-| Open Letters section in old app build | FMP letter not present | - [x] | <img src="./fmp_test_screenshots/mobile_updated_letter_unavailable.png" width="280" alt="mobile disabled">|
+| Open Letters section in old app build | FMP letter not present | ✅ | <img src="./fmp_test_screenshots/mobile_updated_letter_unavailable.png" width="280" alt="mobile disabled">|
 
 #### Scenario M-2: Master ON, mobile flag OFF
 
@@ -205,8 +205,8 @@ These scenarios confirm that `fmp_benefits_authorization_letter_mobile` is the s
 
 | Step | Expected Result | Pass | Screenshot |
 |------|----------------|------|------------|
-| Open Letters section in old app build | FMP letter not present | - [x] | <img src="./fmp_test_screenshots/mobile_updated_letter_unavailable.png" width="280" alt="mobile disabled"> |
-| Web letters page | FMP letter IS present (web unaffected by mobile flag) | - [x] | |
+| Open Letters section in old app build | FMP letter not present | ✅ | <img src="./fmp_test_screenshots/mobile_updated_letter_unavailable.png" width="280" alt="mobile disabled"> |
+| Web letters page | FMP letter IS present (web unaffected by mobile flag) | ✅ | |
 
 ---
 
@@ -222,8 +222,8 @@ For updated app users, **both** `fmp_benefits_authorization_letter_mobile` and `
 
 | Step | Expected Result | Pass | Screenshot |
 |------|----------------|------|------------|
-| Open Letters section in updated app | FMP letter not present (`FMPAvailable` gates it off) | - [x] | <img src="./fmp_test_screenshots/mobile_updated_letter_unavailable.png" width="280" alt="mobile disabled"> |
-| Web letters page | FMP letter IS present | - [x] | |
+| Open Letters section in updated app | FMP letter not present (`FMPAvailable` gates it off) | ✅ | <img src="./fmp_test_screenshots/mobile_updated_letter_unavailable.png" width="280" alt="mobile disabled"> |
+| Web letters page | FMP letter IS present | ✅ | |
 
 #### Scenario M-5: Master ON, mobile flag OFF, `FMPAvailable` ON
 
@@ -231,8 +231,8 @@ For updated app users, **both** `fmp_benefits_authorization_letter_mobile` and `
 
 | Step | Expected Result | Pass | Screenshot |
 |------|----------------|------|------------|
-| Open Letters section in updated app | FMP letter NOT present (`fmp_benefits_authorization_letter_mobile` is required even for updated app) | - [x] | <img src="./fmp_test_screenshots/mobile_updated_letter_unavailable.png" width="280" alt="mobile disabled"> |
-| Web letters page | FMP letter IS present | - [x] | |
+| Open Letters section in updated app | FMP letter NOT present (`fmp_benefits_authorization_letter_mobile` is required even for updated app) | ✅ | <img src="./fmp_test_screenshots/mobile_updated_letter_unavailable.png" width="280" alt="mobile disabled"> |
+| Web letters page | FMP letter IS present | ✅ | |
 
 #### Scenario M-6: Master ON, mobile flag ON, `FMPAvailable` ON
 
@@ -240,9 +240,9 @@ For updated app users, **both** `fmp_benefits_authorization_letter_mobile` and `
 
 | Step | Expected Result | Pass | Screenshot |
 |------|----------------|------|------------|
-| Open Letters section in updated app | FMP letter present | - [x] | <img src="./fmp_test_screenshots/mobile_updated_letter_available.png" width="280" alt="mobile enabled"> |
-| Tap to download | Letter downloads successfully | - [x] | |
-| Verify letter content | Matches expected FMP letter content | - [x] | |
+| Open Letters section in updated app | FMP letter present | ✅ | <img src="./fmp_test_screenshots/mobile_updated_letter_available.png" width="280" alt="mobile enabled"> |
+| Tap to download | Letter downloads successfully | ✅ | |
+| Verify letter content | Matches expected FMP letter content | ✅ | |
 
 #### Scenario M-7: Master OFF, mobile flag ON, `FMPAvailable` ON
 
@@ -250,8 +250,8 @@ For updated app users, **both** `fmp_benefits_authorization_letter_mobile` and `
 
 | Step | Expected Result | Pass | Screenshot |
 |------|----------------|------|------------|
-| Open Letters section in updated app | FMP letter NOT present (master flag takes precedence) | - [x] | <img src="./fmp_test_screenshots/mobile_updated_letter_unavailable.png" width="280" alt="master disabled"> |
-| Web letters page | FMP letter NOT present | - [x] | |
+| Open Letters section in updated app | FMP letter NOT present (master flag takes precedence) | ✅ | <img src="./fmp_test_screenshots/mobile_updated_letter_unavailable.png" width="280" alt="master disabled"> |
+| Web letters page | FMP letter NOT present | ✅ | |
 
 ---
 
@@ -301,11 +301,11 @@ Staging tests should follow the intended production rollout order. The master fl
 
 | Step | Expected Result | Pass | Screenshot |
 |------|----------------|------|------------|
-| Log in as eligible veteran on staging (staging user 64) | | - [x] | |
-| Navigate to `/records/download-va-letters/letters` | FMP letter present in list | - [x] |<img src="./fmp_test_screenshots/staging_web_letter_available.png" width="700" alt="staging web letter"> |
-| Download letter | PDF generates and downloads | - [x] | |
-| Inspect PDF | Correct veteran data, correct FMP benefit content | - [x] | |
-| Check for errors in browser console / network tab | No 4xx/5xx errors | - [x] | |
+| Log in as eligible veteran on staging (staging user 64) | | ✅ | |
+| Navigate to `/records/download-va-letters/letters` | FMP letter present in list | ✅ |<img src="./fmp_test_screenshots/staging_web_letter_available.png" width="700" alt="staging web letter"> |
+| Download letter | PDF generates and downloads | ✅ | |
+| Inspect PDF | Correct veteran data, correct FMP benefit content | ✅ | |
+| Check for errors in browser console / network tab | No 4xx/5xx errors | ✅ | |
 
 #### Scenario SW-1b: Letter not visible for non-targeted user during partial rollout
 
@@ -313,14 +313,14 @@ Staging tests should follow the intended production rollout order. The master fl
 
 | Step | Expected Result | Pass | Screenshot |
 |------|----------------|------|------------|
-| Log in as a user outside the targeted set | FMP letter NOT present in letters list | - [x] |<img src="./fmp_test_screenshots/staging_web_letter_unavailable.png" width="700" alt="staging web letter unavailable"> |
+| Log in as a user outside the targeted set | FMP letter NOT present in letters list | ✅ |<img src="./fmp_test_screenshots/staging_web_letter_unavailable.png" width="700" alt="staging web letter unavailable"> |
 
 #### Scenario SW-2: Letter absent for ineligible veteran
 
 | Step | Expected Result | Pass | Screenshot |
 |------|----------------|------|------------|
-| Log in as ineligible veteran on staging (staging user 100) | | - [x] |  |
-| Navigate to letters page | FMP letter not in list; no JS errors | - [x] | <img src="./fmp_test_screenshots/staging_web_user_100_no_letter.png" width="700" alt="staging web no letter"> |
+| Log in as ineligible veteran on staging (staging user 100) | | ✅ |  |
+| Navigate to letters page | FMP letter not in list; no JS errors | ✅ | <img src="./fmp_test_screenshots/staging_web_user_100_no_letter.png" width="700" alt="staging web no letter"> |
 
 ---
 
@@ -330,31 +330,31 @@ Staging tests should follow the intended production rollout order. The master fl
 
 | Step | Expected Result | Pass | Screenshot |
 |------|----------------|------|------------|
-| Use old app build on staging | FMP letter absent from Letters section | - [x] | |
-| Use updated app build on staging | FMP letter absent from Letters section | - [ ] | Pending |
+| Use old app build on staging | FMP letter absent from Letters section | ✅ | |
+| Use updated app build on staging | FMP letter absent from Letters section | ⬜ | Pending |
 
 #### Scenario SM-2: Old app, mobile flag OFF
 
 | Step | Expected Result | Pass | Screenshot |
 |------|----------------|------|------------|
-| Disable `fmp_benefits_authorization_letter_mobile` on staging | | - [x] | <img src="./fmp_test_screenshots/staging_old_mobile_flag_off.png" width="280" alt="staging old mobile disabled"> |
-| Use old app build | FMP letter not present | - [x] | |
+| Disable `fmp_benefits_authorization_letter_mobile` on staging | | ✅ | <img src="./fmp_test_screenshots/staging_old_mobile_flag_off.png" width="280" alt="staging old mobile disabled"> |
+| Use old app build | FMP letter not present | ✅ | |
 
 #### Scenario SM-3: Updated app, mobile flag ON, `FMPAvailable` OFF
 
 | Step | Expected Result | Pass | Screenshot |
 |------|----------------|------|------------|
-| `fmp_benefits_authorization_letter_mobile` = enabled, `FMPAvailable` = disabled | | - [ ] | |
-| Use updated app build | FMP letter absent (`FMPAvailable` still required) | - [ ] | |
+| `fmp_benefits_authorization_letter_mobile` = enabled, `FMPAvailable` = disabled | | ⬜ | |
+| Use updated app build | FMP letter absent (`FMPAvailable` still required) | ⬜ | |
 
 #### Scenario SM-4: Updated app, mobile flag ON, `FMPAvailable` ON
 
 | Step | Expected Result | Pass | Screenshot |
 |------|----------------|------|------------|
-| Both `fmp_benefits_authorization_letter_mobile` and `FMPAvailable` enabled | | - [ ] | |
-| Use updated app build | FMP letter present | - [ ] | |
-| Download letter | Success | - [ ] | |
-| Cross-check with web and old app | Same letter content | - [ ] | |
+| Both `fmp_benefits_authorization_letter_mobile` and `FMPAvailable` enabled | | ⬜ | |
+| Use updated app build | FMP letter present | ⬜ | |
+| Download letter | Success | ⬜ | |
+| Cross-check with web and old app | Same letter content | ⬜ | |
 
 ---
 
@@ -364,9 +364,9 @@ After all flags are fully enabled in staging:
 
 | Check | Expected | Pass | Screenshot |
 |-------|----------|------|------------|
-| Letter content matches between web and mobile downloads | ✅ Identical | - [x] | |
-| Letter content matches between old app and updated app | ✅ Identical | - [x] | |
-| PDF is accessible (passes basic screen reader / PDF accessibility check) | ✅ Pass | - [x] | |
+| Letter content matches between web and mobile downloads | ✅ Identical | ✅ | |
+| Letter content matches between old app and updated app | ✅ Identical | ✅ | |
+| PDF is accessible (passes basic screen reader / PDF accessibility check) | ✅ Pass | ✅ | |
 
 ---
 
