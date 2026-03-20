@@ -2,7 +2,7 @@
 
 **STATUS: NOT STARTED**
 
-**Team:** xxx
+**Team:** BMT 1
 
 **CAIA Intake ticket:** https://github.com/department-of-veterans-affairs/va.gov-team/issues/130609
 
