@@ -17,6 +17,7 @@
 | :-------------  | :-------------          | :-------------       | :----------- |
 | Jan 2025 | Sign-in page updates | comparative analysis across government sign-in pages  | [findings report]() |
 | Feb 2025 |  Discovery into sign in looping errors | contextual inquiry with 8 remote sessions with veterans to walk through encountering sign in errors | in progress |
+| Mar 2025 | MHV coordinator discussions | Espcially concerned with issues they have with ID.me around verify, password resets, escalation, and the like | in progress |
 | upcoming |  Sign-in page updates | remote, usibility testing  |  |
 
 ## CY 2025
