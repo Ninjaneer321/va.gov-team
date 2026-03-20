@@ -7,52 +7,59 @@ assignees: ''
 
 ---
 
-> [!WARNING]
-> Do not use this ticket unless directed to do so by the Content and IA team.
-
 ## Content and IA Product Support Epic
 
 ### Team info
 
 #### Product team
 
-- Product name: 
-- Team name: 
-- OCTO product owner: 
-- Product manager:
-- Designer(s): 
-- Slack channel:
-- Dedicated content writer on team (if they have one):
+- **Product name:** 
+- **Team name:** 
+- **Slack channel:** 
+- **OCTO product owner:** 
+- **Product manager:** 
+- **Designer(s):** 
+- **SME**: 
+- **Dedicated content writer on team (if they have one):** 
+- **Other stakeholders:** 
 
 #### Content and IA team
-- IA:
-- Content:
+- **Content:** 
+- **IA:** 
  
-### About this initiative
+### About the initiative
 
-#### Type of work expected
+#### Audience
 
-- Digitizing a new form Creating a new digital tool
-- Updating an existing form or tool
-- Translating a form or tool into Spanish
-- Adding new unauthenticated content to VA.gov
-- Updating existing unauthenticated content on VA.gov
+- [ ] VA.gov users
+- [ ] VA mobile app users
+- [ ] Internal designers and product team members (i.e. pattern or standards work)
+- [ ] Other
+
+#### Type of work
+
+- [ ] Digitizing a new form
+- [ ] Creating a new digital tool
+- [ ] Updating an existing form or tool
+- [ ] Translating a form or tool into Spanish
+- [ ] Adding new unauthenticated content to VA.gov
+- [ ] Updating existing unauthenticated content on VA.gov
+- [ ] Creating or updating components, patterns, or general standards
+- [ ] Other
 
 #### Supporting artifacts
-- [CC Ticket #]()
-- [Product outline]()
-- [Figma]()
-- [Mural]()
+- CC Ticket #
+- Product outline
+- Figma
+- Mural
+- Relevant research
 
 #### Related laws and/or policies
-- [Name]()
-  
+_Enter related laws/and/or policies here._
 
 #### Timeframe and prioritization
-
-- Estimated launch or description of timeframe
-- Incremental release plan
-
+- _Describe the estimated launch or description of timeframe._
+- _Describe the incremental release plan, if applicable._
 
 ### Tasks
 
@@ -77,8 +84,5 @@ assignees: ''
 - [ ] All associated tickets are closed
 - [ ] All documentation updates are made (i.e. artifacts are marked final, sitemaps are updated, etc.)
 
-
-### Deliverable
-The Content and IA team will update this section with specific items we've delivered to product teams for their project, such as IA specs and final copy. We'll update this section as best we can as we iterate throughout the project lifecycle.
-
-
+### Deliverables
+_Update this section with specific items we've delivered to product teams for their project, such as IA specs and final copy. Update this section as we iterate throughout the project lifecycle._
