@@ -32,18 +32,19 @@ Potential future design with three options- "Remove one or more dependents", "Ad
 **Next Steps:**
 * Move forward with the 3-option design  
 * Follow up with David Reis on questions that were raised:  
-  * Which benefits can and cannot be used at the same time as disability dependent student compensation?  
-  * Will student dependents automatically be removed on the graduation date that the Veteran provides?  
+  * Which benefits can and cannot be used at the same time as disability dependent student compensation?
+  * Will student dependents automatically be removed on the graduation date that the Veteran provides?
+    * The Veteran needs to inform the VA that the child graduated before age 23 and they will be removed from the Veterans benefits.
   * Can dependents be added to the disability compensation benefit again after they have finished using the education benefit that previously disqualified them?
 
 **Design Screenshots:**
 * Current design with two options- "Add one or more dependents" and "Remove one or more dependents"
-<img width="960" height="6455" alt="Current-Screenshot" src="https://github.com/user-attachments/assets/576c4bcc-7ffd-4367-adae-233c0ae01cc3" />
+<img alt="Current-Screenshot" src="https://github.com/user-attachments/assets/576c4bcc-7ffd-4367-adae-233c0ae01cc3" />
 
 
 
 * Potential future design with three options- "Remove one or more dependents", "Add one or more dependents", and "Keep or add back a dependent child who is in school (ages 18-23)"
-<img width="960" height="6962" alt="Design-Future-State" src="https://github.com/user-attachments/assets/3408f6a2-6005-4667-b367-a2d863fc8e3f" />
+<img alt="Design-Future-State" src="https://github.com/user-attachments/assets/3408f6a2-6005-4667-b367-a2d863fc8e3f" />
 
 
 
