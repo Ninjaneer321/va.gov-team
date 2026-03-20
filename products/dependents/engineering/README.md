@@ -10,9 +10,11 @@
 ## Technical Diagrams
 - https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1727757799534/c7c5f5a6dc1b8f451ecab5f02afa70a9325b93c8?sender=u070fbdc641c5ca111da83793
 - [Documentation & diagrams](https://github.com/department-of-veterans-affairs/vets-api/tree/master/modules/dependents_benefits/documentation)
-- [Frontend 686c-674 Readme](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/applications/dependents/686c-674/README.md)
-- [Frontend 21-0538 Readme](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/applications/dependents/dependents-verification/README.MD)
-- [Frontend View Dependents Readme](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/applications/dependents/view-dependents/README.MD)
+
+## Frontend Documentation
+- [686c-674 Readme](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/applications/dependents/686c-674/README.md)
+- [21-0538 Readme](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/applications/dependents/dependents-verification/README.MD)
+- [View Dependents Readme](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/applications/dependents/view-dependents/README.MD)
 
 ## Endpoints
 - [Documentation](https://dvagov.sharepoint.com/:w:/r/sites/vaabdvro/Shared%20Documents/Dependents%20Management/Documentation/BGS%20686C-674%20Documentation.docx?d=w1707457645dc4eb191a0ea89fb73453b&csf=1&web=1&e=dvkS2w) (sharepoint) of calls made for 686C and 674 claims from vets-api through the bgs-ext repository. 
