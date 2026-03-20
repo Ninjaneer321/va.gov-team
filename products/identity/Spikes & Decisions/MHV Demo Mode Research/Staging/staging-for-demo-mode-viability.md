@@ -87,7 +87,6 @@ If a no-credential option is preferred, `dev.va.gov` supports mocked-auth (`/sig
 | Fidelity to production UI | Moderate — mostly accurate, structurally diverges on feature flags and auth |
 | Stability | Variable — subject to continuous deployment and data resets |
 | Maintenance burden | Low for engineering; operational burden for whoever manages credentials and monitors staging |
-|
 
 ## Verdict
 
