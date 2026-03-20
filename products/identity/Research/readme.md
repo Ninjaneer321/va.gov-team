@@ -1,7 +1,7 @@
 # Identity Research
 
 ## Identity related research topics, from across VA teams
-- Many sign-in options creates confusion
+- Having many sign-in options creates confusion
    - [2019 sign-in research breif](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/login/ds-logon/research/research_brief.md#veterans-and-caregivers-desire-a-single-better-system) - Conclusion 3
    - [2021.03 Veteran Health Experience and Patient Portal Study](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/login.gov-adoption/discovery/research/Pre-Discovery%20Research/2021.03%20%E2%80%93%C2%A0Veteran%20Health%20Experience%20and%20Patient%20Portal%20Study.pdf) - Insight 4.2
    - [2023-03 Deferred Identity Proofing](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/login.gov-adoption/discovery/research/2023-03-Deferred-Identity-Proofing-Round-1-Usability/research%20findings.md#confusion-between-credentials-and-applications) - Theme 3
