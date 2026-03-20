@@ -73,7 +73,7 @@ Staging receives continuous deployment from every merged PR. It is intentionally
 
 ## Credential Distribution
 
-This demo mode is intended for VA internal employees to use when teaching non-technical veterans how to access their benefits and navigate VA.gov. For that audience, test account credentials can be distributed via VA email — institutionally controlled, already familiar, and appropriate for the use case.
+This demo mode is intended for VA internal employees to use when teaching non-technical veterans how to access their benefits and navigate VA.gov. For that audience, test account credentials can be distributed via VA email.
 
 If a no-credential option is preferred, `dev.va.gov` supports mocked-auth (`/sign-in/mocked-auth`), which lets users sign in by selecting a pre-seeded mock profile with no username or password required. The tradeoff is that `dev.va.gov` is less stable and has even less production fidelity than staging. A version of mocked-auth adapted for staging could be explored, but would require engineering work.
 
