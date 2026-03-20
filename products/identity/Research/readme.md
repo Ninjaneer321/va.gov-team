@@ -16,9 +16,9 @@
 | When            | Subject                 | Description          | Findings     |
 | :-------------  | :-------------          | :-------------       | :----------- |
 | Jan 2025 | Sign-in page updates | comparative analysis across government sign-in pages  | [findings report]() |
-| Feb 2025 |  Discovery into sign in looping errors | contextual inquiry with 8 remote sessions with veterans to walk through encountering sign in errors | in progress |
-| Mar 2025 | MHV coordinator discussions | Espcially concerned with issues they have with ID.me around verify, password resets, escalation, and the like | in progress |
-| upcoming |  Sign-in page updates | remote, usibility testing  |  |
+| Feb 2025 |  Discovery into sign in looping errors | contextual inquiry with 8 remote sessions with veterans to walk through encountering sign in errors | [research summary](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-01%20Sign-in%20Looping/Call%20Center%20Deep%20Dive.md) |
+| Mar 2025 | MHV coordinator discussions | Espcially concerned with issues they have with ID.me around verify, password resets, escalation, and the like | [in progress](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research/2026-02%20ID.me%20-%20MHV%20Coordinator%20Verification%20Assistance) |
+| upcoming |  Sign-in page updates | remote, usibility testing  | [research folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research/2026-02%20Sign-in%20page%20updates) |
 
 ## CY 2025
 
