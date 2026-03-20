@@ -64,12 +64,6 @@ consent_for_clips: true
 - [ ] Ensure prototype works correctly
 
 **Before all sessions**:
-- Review participant list for participant name and screener question responses
-- Check Settings > In Meeting (Advanced) > Automated captions, Full transcript, Save captions are all ON
-- Check Settings > Meeting > In Meeting (Basic) > Sound notification when someone joins or leaves OFF
-  - In the Participant "more" menu, make sure "Play Join and Leave Sound" is unchecked
-- Check Settings > Meeting > In Meeting (Basic) > Screen sharing > Who can share > All Participants
-- Check Settings > Meeting > In Meeting (Basic) > Hide participant profile pictures in a meeting ON
 
 ### Day of the session
 
@@ -82,7 +76,6 @@ consent_for_clips: true
 
 > [!TIP]
 > - In the Attendees section, make sure everyone except the participant is on mute.
-> - In the Participant "more" menu, make sure "Play Join and Leave Sound" is unchecked
 > - Check your [screensharing setup] and share permissions for participants.
 > - When the participant is ready, begin the session with the following intro*
 
