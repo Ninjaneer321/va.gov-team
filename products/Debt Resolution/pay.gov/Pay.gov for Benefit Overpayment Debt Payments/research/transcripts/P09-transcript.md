@@ -1188,7 +1188,7 @@ Participant: I mean, everybody, yeah, I mean, your other guests on this… that 
 
 293
 00:25:34.700 --> 00:25:39.000
-Moderator: I mean, they're probably much, much younger than I, and they probably do it from their phone.
+Participant: I mean, they're probably much, much younger than I, and they probably do it from their phone.
 
 294
 00:25:39.270 --> 00:25:40.170

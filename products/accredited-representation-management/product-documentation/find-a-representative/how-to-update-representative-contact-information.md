@@ -2,11 +2,11 @@
 Note: The below content is only to be used on an individual basis to those who reach out to the team or adjacent teams directly. OGC is working on a larger task of creating a fact sheet for VSOs which we could then send to larger teams such as the contact center.
 
 1. Inform the Accredited Representation Management team
-    1. If you have OCTO Slack access, post in #benefits-representation-management 
+    1. If you have OCTO Slack access, post in #benefits-accredited-rep-crew
     2. If not, email jennifer.bertsch@va.gov, shannon.ford1@va.gov, lindsay.li-smith@va.gov, ian.mccullough@va.gov
 2. Provide the below "Guidance for Representatives" content to the individual who reached out on how to update the representative contact information.
-3. ARM team only: Log the occurrence in the "Occurrences" section below.
-4. ARM team only: If more than 5 occurrences happen within 7 days contact OGC (Jonathan Taylor and Nathan Kroes).
+3. ARC team only: Log the occurrence in the "Occurrences" section below.
+4. ARC team only: If more than 5 occurrences happen within 7 days contact OGC (Jonathan Taylor and Nathan Kroes).
 
 ## Guidance for Representatives
 The messaging below can be copied/pasted into an email response, to the representative seeking help updating their information.

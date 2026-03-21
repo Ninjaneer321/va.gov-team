@@ -32,7 +32,6 @@ research_questions:
   - "What level of detail do users need for homescreen content so that they can take action and complete tasks?"
   - "Do users notice, understand, and take action on items in 'Action required' and 'Activity' sections?"
   - "When tasks are surfaced on the homescreen, how do users want and expect to complete them?"
-  - "Does homescreen information architecture affect how users prioritize items and tasks?"
   - "When provided with the opportunity to complete tasks such as paying copay and refilling prescription without leaving the homescreen, do users understand what to do and choose to do that instead of navigating away?"
   - "What causes users confusion or misunderstandings?"
   - "Are there any terms or processes that cause particular confusion for users with cognitive disabilities?"
@@ -47,7 +46,7 @@ hypotheses:
   - "Users will be able to describe in their own words what the 'Action required' section is for."
   - "Users will want to take action on both 'Action required' items and 'Activity' items that usually are of top concern to Veterans such as new appointment information, prescription updates, travel pay."
   - "Users may not be able to articulate exactly what kind of items belong in the 'Activity' section."
-  - "Users will want to complete tasks directly from the homescreen when possible."
+  - "Users will want to complete tasks as directly as possible."
   - "Users will expect to be able to complete tasks directly from the homescreen when there is a call to action button associated with the item such as 'Pay copay' for a medical copayment."
   - "Since homescreen content uses plain language and short, to-the-point phrases, users will generally understand terms and calls to action."
   - "Users may experience minor confusion due to lack of familiarity with specific items such as 'evidence request.'"
@@ -290,8 +289,7 @@ Are there moments that matter?</summary>
 
 1. Do users notice, understand, and take action on items in "Action required" and "Activity" sections?
 2. When tasks are surfaced on the homescreen, how do users want and expect to complete them?
-3. Does homescreen information architecture affect how users prioritize items and tasks?
-4. When provided with the opportunity to complete tasks such as paying copay and refilling prescription without leaving the homescreen, do users understand what to do and choose to do that instead of navigating to the feature?
+3. When provided with the opportunity to complete tasks such as paying copay and refilling prescription without leaving the homescreen, do users understand what to do and choose to do that instead of navigating to the feature?
 
 **Research goal 3: Understand any points of confusion for users on the homescreen content and navigation, including for users with cognitive disabilities**
 
@@ -329,7 +327,7 @@ Are there moments that matter?</summary>
 2. Users will be able to describe in their own words what the "Action required" section is for. 
 3. Users will want to take action on both "Action required" items and "Activity" items that usually are of top concern to Veterans such as new appointment information, prescription updates, travel pay claims.
 4. Users may not be able to articulate exactly what kind of items belong in the "Activity" section.
-5. Users will want to complete tasks directly from the homescreen when possible.
+5. Users will want to complete tasks as directly as possible.
 6. Users will expect to be able to complete tasks directly from the homescreen when there is a call to action button associated with the item such as "Pay copay" for a medical copayment. 
 
 **Research goal 3: Understand how users interpret and use homescreen content and capabilities**

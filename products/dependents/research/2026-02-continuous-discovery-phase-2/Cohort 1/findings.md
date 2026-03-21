@@ -58,7 +58,7 @@ Participants' opinions were split on the prototype’s ‘check-in’ form struc
 ### Finding 4  
 On the Veteran address screen, participants had inconsistent understandings of what “I agree to receive electronic correspondence from VA about my claim” meant.
 
-- Users were unclear on whether they would continue to receive paper correspondence if they check the box, or if this preference applies only to this submission, or to all VA correspondence moving forward.
+- Participants were unclear on whether they would continue to receive paper correspondence if they check the box, or if this preference applies only to this submission, or to all VA correspondence moving forward.
 
 - Context – this field was added to all PDF forms in 2024, but not all business lines actually use it. It is present on the 686c.
 
@@ -69,7 +69,7 @@ On the Veteran address screen, participants had inconsistent understandings of w
 ### Finding 5  
 Participants wanted more specific information about which medical records VA needs to determine a dependent’s disability status.
 
-- The doctor's statement was clearer to users.
+- The doctor's statement was clearer to participants.
 
 - _“Are they looking for when it first started? Over a period of time? The diagnosis codes? IEP records? Medications they’re on?...What do they actually need?” - P2_
 
@@ -83,7 +83,7 @@ Participants wanted more specific information about which medical records VA nee
 Three of five participants who saw the screen were confused by the informational page listing the required evidence types being separate from the upload screens.
 
 - The card design and alert seemed to imply some kind of action, but there was actually no action on this page. 
-For context – we designed this informational page for the edge-case situations where a user might need to provide 5+ different types of evidence. And, for a situation where a user might want to see what’s needed and go get it. In the user-research setting, users didn’t have to go find documents.
+For context – we designed this informational page for the edge-case situations where a user might need to provide 5+ different types of evidence. And, for a situation where a user might want to see what’s needed and go get it. In the user-research setting, participants didn’t have to go find documents.
 
 - **Recommendation:** Revisit the design of this page - we may have reached the limit of what the current design system affords us re: components for this complex task. Consider an alternate design like a task-list to upload evidence.
 
@@ -97,26 +97,13 @@ Three of five participants who saw the screens were unclear whether they could u
 - **Effort:** Small - We need to clarify the requirements and then add content that supports it.
 
 ### Finding 8
-Six participants found content callouts about "Overpayments" and "Reasons to add/remove dependent helpful".
+Six participants found content callouts about "Overpayments" and "Reasons to add/remove dependent" helpful.
 
 - _“A lot of Veterans struggle to understand the nuances of the benefits, so it’s helpful to explain some of this stuff” - P4_
 
 - **Recommendations:** Continue to call out overpayments and add/removal reason reminders in dependents designs where appropriate.
 
 - **Effort:** No action needed.
-
-### Finding 9
-Most users would want to know if their answer might trigger an automatic denial.
-
-- Participants were split on whether they wanted the form to stop them from continuing despite the probable denial, or allow them to continue.
-
-- _“If the system is going to automatically deny my application then don't let me continue now, but if there is a gray area then let me continue. I could take action like talking to my child about the school they are going to, or double-check that the school is accredited“ - P16_
-
-- _“I would like to be notified [that my answer may result in a denial], but allowed to continue. That would help me make sure I didn’t make an error.” - P17_
-
-- **Recommendations:** Continue with our plan to explain potential for denials based on answers in our various forms. The content team is working on how to do this gracefully. The team will also need to work with VSRs to make sure the content is not implying a claim decision.
-
-- **Effort:** No action needed
   
 ---
 
@@ -168,3 +155,34 @@ Most users would want to know if their answer might trigger an automatic denial.
    - **Recommendation:** Keep a separate upload component per document type (whether they are on the same or different screens).
   
    - **Effort:** No action needed
+
+ 8. The three participants who talked about it said that they would want to know if their answer might trigger an automatic denial.
+
+   - Participants were split on whether they wanted the form to stop them from continuing despite the probable denial, or allow them to continue.
+
+   - _“If the system is going to automatically deny my application then don't let me continue now, but if there is a gray area then let me continue. I could take action like talking to my child about the school they are going to, or double-check that the school is accredited“ - P16_
+
+   - _“I would like to be notified [that my answer may result in a denial], but allowed to continue. That would help me make sure I didn’t make an error.” - P17_
+
+   - **Recommendations:** Continue with our plan to explain potential for denials based on answers in our various forms. The content team is working on how to do this gracefully. The team will also need to work with VSRs to make sure the content is not implying a claim decision.
+
+   - **Effort:** No action needed
+
+---
+
+## AI Experiment
+
+After I finished analyzing the findings, I ran the transcripts from the five research sessions with Veterans with disabled dependents through Microsoft Copilot. I asked it to produce an Executive Summary and a summary of UX findings and potential changes.  
+
+There were several points where our findings aligned, such as Veteran confusion with the Add/Remove language and the proposed updates to the upload flow.  
+
+The major point where our analysis differed was on Veterans' feedback on the prototype’s ‘check-in’ form structure. Copilot summarized the feedback as "Veterans wanted to finish the task they came for before reviewing other dependent statuses. Showing 'children no longer on benefits' or removal options mid‑flow felt distracting." In my analysis their feedback was more nuanced. Two Veterans liked the flow, two Veterans did not like it, and one Veteran did not voice an opinion. 
+
+Another major gap was that Copilot had no way of knowing which prototype screens a Veteran participant was looking at when they gave their feedback, which limited the precision of its summary and suggestions.
+
+**Next Steps:**
+- Continue using Copilot as part of reserach analysis
+- Use Copilot in collaboration with researcher analysis
+- Iterate on the prompts used to improve the analysis received
+- Copilot may be more useful when analyzing generative research, or other research without a significant visual component
+

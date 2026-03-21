@@ -9,7 +9,6 @@ We will create a site for accredited representatives hosted on VA.gov yet visual
 Objectives:
 - Develop a user-friendly website that enables Veteran Service Organizations (VSOs) to manage power of attorney (POA) requests from veterans efficiently.
 - Ensure the site's design accommodates future expansions for additional tasks accredited representatives perform.
-- *Accommodate VSOs with different procedures and preferences for POA request acceptance -- an organization can either choose to allow all accredited reps to accept/decline any POA request or only to allow the preferred rep named in Field 16A of Form 21-22 to accept/decline the request.*
 
 ## Problem Statement
 The current systems for accepting or denying representation requests by Form 21-22 are either hosted on a deprecated site (SEP) or are entirely on paper. It is very slow process and does not provide a method for notifying the Veteran if the request has been accepted or rejected.
@@ -26,11 +25,12 @@ This project asks how might we digitize the acceptance of Form 21-22 and host it
  - VSO representatives begin to use and trust the site
  - VSO representatives are able to immediately start working on a claimant's needs as soon as they accept the representation request
  - National Veteran Service Organizations have administrative control over who can manage POA requests within their organization
+ - VSOs can either choose to allow all accredited reps to accept/decline any POA request, or only to allow the preferred rep named in Field 16A of Form 21-22 to accept/decline the request
 
 ## Desired Business Outcomes
  - Increased use of digital forms which is a current OCTO priority
  - Decrease in forms that are unanswered or unresponded to
- - *Increase VSO / accredited rep participation in the portal for POA requests*
+ - Drive VSO interest in and use of ARP
 
 ## Measuring Success
 
@@ -62,8 +62,7 @@ We will collaborate with Office of General Counsel and VBA VSO liaison (Marty Ca
 
 ## Launch Dates
 Target Launch Date: Mar 11, 2025
-
-*Permissions feature: Mar 19, 2026*
+*Permissions feature: Apr 2, 2026*
 
 ## Supporting Documentation
 - [Product Playbook/Incident Response Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/product-info/manage-poa-requests/launch-materials/product-playbook-incident-response-plan.md)

@@ -1,12 +1,15 @@
 ---
-name: Content and IA Centralized Team Product Support Request Form
-about: Use this ticket to request support from the centralized content and information
+name: OLD VERSION. Content and IA Centralized Team Product Support Request Form
+about: OLD VERSION - Use new YAML template. Use this ticket to request support from the centralized content and information
   architecture team.
 title: "[INTAKE] Team Name: Initiative Name"
 labels: content-ia-centralized-team
 assignees: ''
 
 ---
+
+> [!WARNING]
+> This is an old version of the Content and IA ticket. Use the [new version](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=Content-IA-intake-form.yml) instead.
 
 # Content and IA Product Support Request
 

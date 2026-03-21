@@ -17,7 +17,7 @@ Follow these steps to use the reusable prompt effectively:
 ## Reusable Copilot Prompt Template
 
 ```
-Follow the below instructions. Only check the codebase on the master branch of the va.gov-team repository. If a referenced hyperlink does not contain a path on the master branch of the va.gov-team repository, do not include it, but do try to find and include the correct path.
+Follow the below instructions. Only check the codebase on the master branch of the va.gov-team repository. If a referenced hyperlink does not contain a path on the master branch of the va.gov-team repository, do not include it, but do try to find and include the correct path. Avoid verbose explanations, but be clear when recommendations, biases or gaps for the plan should be addressed.
 
 #### **1. Background Analysis**
 * "Summarize the problem this product is trying to solve. Highlight any assumptions or gaps that might need further exploration."

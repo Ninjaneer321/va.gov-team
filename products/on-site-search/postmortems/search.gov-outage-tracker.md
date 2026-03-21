@@ -3,4 +3,4 @@
 |---|---|---|---|---|---|
 | 11/25/2025 |	7:54 am EST | 11:03 am EST| Enabled: 10:55 am EST, Disabled: 12:59 pm EST |  |	Status had been Fully Operational until 11:00 am EST then went to Outage status and remained on until 12:42 pm EST |
 | 12/2/2025 |	12:09 pm EST |	Thrashing still |	Enabled: 12:21 pm EST, Disabled: Dec 5th @ 10:40 am EST | |	Status had been Fully Operational until 3:35 pm EST when it changed to Outage |
-
+| 3/19/2026 | 12:11 pm EST | Thrashing still | Enabled: 12:24 pm EST, Disabled: March 19th @ 1:15 pm EST | | Status has been marked as Fully Operational the whole time but Search team mentioned something odd has been happening |

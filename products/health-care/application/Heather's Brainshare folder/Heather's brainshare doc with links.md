@@ -57,8 +57,25 @@
      - [EZ-CG Schema validation logs](https://vagov.ddog-gov.com/logs?query=env%3A%22eks-prod%22%20service%3Avets-api%20%40message_content%3A%2A%22Form%20validation%20in%22%2A&agg_m=count&agg_m_source=base&agg_t=count&cols=host%2Cservice&fromUser=true&messageDisplay=inline&refresh_mode=sliding&source=monitor_notif&storage=hot&stream_sort=desc&viz=stream&from_ts=1737664958446&to_ts=1738269758446&live=true)
      - [EZ_EZR Payload w attachments](https://vagov.ddog-gov.com/logs?query=env%3A%22eks-prod%22%20service%3Avets-api%20%40message_content%3A%2A%22Payload%20for%20submitted%22%2A&agg_m=count&agg_m_source=base&agg_t=count&cols=host%2Cservice&fromUser=true&messageDisplay=inline&refresh_mode=sliding&source=monitor_notif&storage=hot&stream_sort=desc&viz=stream&from_ts=1739466620077&to_ts=1739481020077&live=true)
      - [EZ SIP deleted Logs](https://vagov.ddog-gov.com/logs?query=env%3A%22eks-prod%22%20service%3Avets-api%20%40message_content%3A%2A%22-%20InProgressForm%20successfully%20deleted%22%2A&agg_m=count&agg_m_source=base&agg_t=count&clustering_pattern_field_path=message&cols=host%2Cservice&messageDisplay=inline&refresh_mode=sliding&source=monitor_notif&storage=flex_tier&stream_sort=desc&viz=stream&from_ts=1758126689151&to_ts=1759422689151&live=true)
-- VA Notify (get access to the spaces)
-- Pagerduty (get access to the space)
+- VA Notify links (on VA network)
+     - [VA Notify - Staging & Production](https://staging.notifications.va.gov/services)
+          * [10-10 Health Apps service](https://staging.notifications.va.gov/services/0c8ba8e7-f876-448c-8cba-d7e592ec4a06/templates)
+              * CG Submission failure
+              * EZ Submission failure
+              * EZR Submission failure
+              * CARMA Please resubmit your application (submission failure on CARMA side)
+                   * CG Tech team owns this
+              * CARMA We've received your application (submission success on CARMA side)
+                   * CG Tech team owns this
+          * [VA.gov service](https://staging.notifications.va.gov/services/5e5cded3-3c76-46a3-9eef-cb63589e76be/templates)
+              * 10-10EZ Application Reminder
+                   * Email sent when logged-in Veteran starts but does not submit the EZ application
+                   * Only time an email is sent is after 7 days of not coming back to the form and at least clicking inside a field (activity)
+                   * Once Veteran goes back to the form and performs activity, the clock resets
+                   * SIP (saved-in-progress) forms expire after 60 days of no activity
+
+
+- Pagerduty
      - [List of services](https://ecc.pagerduty.com/service-directory/?direction=asc&query=&sort_by=name&team_ids=mine)
           - EZ
                - External: 10-10EZ form - PROD

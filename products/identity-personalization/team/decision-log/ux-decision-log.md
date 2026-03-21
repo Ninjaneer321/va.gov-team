@@ -10,11 +10,23 @@
 ## My VA
 
 ### All My VA
-#### 11/07/2025, Direction on the List item component for Notifications
+#### 11/07/2025 Direction on the List item component for Notifications
 - Platform team verfied that using "Shift + return" to create two lines of text in the simple content version of the List item component instead of two seperape text box comomponents. 
 - [Link to the conversation](https://dsva.slack.com/archives/C01DBGX4P45/p1762530150287459)
 
+#### 05/04/2025 Make header content more specific and actionable
+- Feedback provided during Design intent.
+- Original designs followed mobile, but it was determined that since we have more real estate we can provide more context to our users.
+- Headers were updated to be more specific and actionable with C&IA team after recieving feedback.
+- [Link to Design intent ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109779)
+
 ### Forms and applications
+#### 03/20/2026 Two alerts in ACTION NEEDED card is okay
+- Met with VADS team and confirmed that including two alerts in the ACTION NEEDED card is ok because:
+   - Alerts in close proximity are allowed in some use cases.
+   - The second alert only appears after a user action and is a small segment of users.
+- [Link to conversation](https://dsva.slack.com/archives/C01DBGX4P45/p1773882473013899)
+
 #### 03/13/2026 ACTION NEEDED having the PDF link
 - Identified that the current PDF link on the ACTION NEEDED status does not work. Additional work would be needed to make the link functional.
 - PO confirmed that having the PDF generate on ACTION NEEDED is not mission critical. If it's a low lift fix, continue with fix, if it's high lift, add to backlog.

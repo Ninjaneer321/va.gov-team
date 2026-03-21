@@ -248,7 +248,7 @@ Validate related community care work, which is a primary use case for this new f
 `What do you intend to learn and measure from this study?` 
 * We will measure entry-point preference, by comparing the number of people who choose to create their appointment on the past appointment list to those who prefer to create their appointment from the travel claims list.
 * We will measure task completion, by the number of people who are able to successfully complete the flow to create an appointment and then file the corresponding claim.
-* _WORKING NOTE: Possibly add portion about learning about perceptions_   
+* <mark>Working note: Possibly add portion about learning about perceptions</mark>
 
 `What do you already know about this problem space?`
 * Veterans are more familiar with creating claims from their past appointment list, as that is the current pattern.   
@@ -257,7 +257,7 @@ Validate related community care work, which is a primary use case for this new f
 `What do you think users will do or think about this product?`   
 * We assume that Veterans will be able to successfully create claims from either entry point and will not have a definitive preference, although they may find creating claims from the past appointment list is more familiar. We also expect that when starting from the past appointments list, they will expect the appointment to be added to this list.   
 * We think that while Veterans may be slightly confused by their user generated appointments not appearing in the past appointments list, they will be able to easily identify the claims associated with those appointments in their claims list. However, we recognize there is a risk of duplicate claims due to the separate views.
-* _WORKING NOTE: Do we think users will be able to navigate back to their claim? Should we add something about that in this study?_
+* <mark>Working note: Do we think users will be able to navigate back to their claim? Should we add something about that in this study?</mark>
 
 ---
 **Hypothesis**   
@@ -270,7 +270,7 @@ We anticipate that Veterans will be able to successfully enter the required appo
   
 ## Methodology  🛠️   
 <details>
-We will conduct **moderated usability testing sessions with 10-12 Veterans using a clickable Figma prototype.** This study will be a hybrid study. The first part will evaluate participants’ mental models around where they expect to create an appointment, then we’ll move into a usability test of the user-created appointment data screens. Finally, we will show the participants the alternate entry-point option and ask questions for a comparative analysis.
+We will conduct **moderated usability testing sessions with 10-12 Veterans using a clickable Figma prototype**. This study will be a hybrid study. The first part will evaluate participants’ mental models around where they expect to create an appointment, then we’ll move into a usability test of the user-created appointment data screens. Finally, we will show the participants the alternate entry-point option and ask questions for a comparative analysis.
 
 ### Structure      
 

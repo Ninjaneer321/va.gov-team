@@ -1,7 +1,7 @@
 # Identity Research
 
 ## Identity related research topics, from across VA teams
-- Many sign-in options creates confusion
+- Having many sign-in options creates confusion
    - [2019 sign-in research breif](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/login/ds-logon/research/research_brief.md#veterans-and-caregivers-desire-a-single-better-system) - Conclusion 3
    - [2021.03 Veteran Health Experience and Patient Portal Study](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/login.gov-adoption/discovery/research/Pre-Discovery%20Research/2021.03%20%E2%80%93%C2%A0Veteran%20Health%20Experience%20and%20Patient%20Portal%20Study.pdf) - Insight 4.2
    - [2023-03 Deferred Identity Proofing](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/login.gov-adoption/discovery/research/2023-03-Deferred-Identity-Proofing-Round-1-Usability/research%20findings.md#confusion-between-credentials-and-applications) - Theme 3
@@ -16,8 +16,9 @@
 | When            | Subject                 | Description          | Findings     |
 | :-------------  | :-------------          | :-------------       | :----------- |
 | Jan 2025 | Sign-in page updates | comparative analysis across government sign-in pages  | [findings report]() |
-| Feb 2025 |  Discovery into sign in looping errors | contextual inquiry with 8 remote sessions with veterans to walk through encountering sign in errors | in progress |
-| upcoming |  Sign-in page updates | remote, usibility testing  |  |
+| Feb 2025 |  Discovery into sign in looping errors | contextual inquiry with 8 remote sessions with veterans to walk through encountering sign in errors | [research summary](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-01%20Sign-in%20Looping/Call%20Center%20Deep%20Dive.md) |
+| Mar 2025 | MHV coordinator discussions | Espcially concerned with issues they have with ID.me around verify, password resets, escalation, and the like | [in progress](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research/2026-02%20ID.me%20-%20MHV%20Coordinator%20Verification%20Assistance) |
+| upcoming |  Sign-in page updates | remote, usibility testing  | [research folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research/2026-02%20Sign-in%20page%20updates) |
 
 ## CY 2025
 

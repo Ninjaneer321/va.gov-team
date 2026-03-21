@@ -10,7 +10,7 @@ product_area: "unauthenticated"
 # Background Context
 background:
   problem_statement: "Centralizing form-related content to simplify navigation, reduce duplicative content/maintenance, improve findability of forms and form-related information, and improve user preparedness/confidence to complete and submit forms."
-  product_location: "VA.gov unauthenticated experience; centralized forms experience / Form Detail (Form About) page (including consolidation of 'About' and 'How to Apply' content)."
+  product_location: "VA.gov unauthenticated experience; centralized forms experience / Form Detail (Form About) page (including consolidation of Detail/'About' and 'How to Apply' content)."
   user_familiarity: "Iteration"
   product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/97c053f843f45bdb92f7576a98ef64f7d192369f/products/find-a-va-form/initiatives/centralized-forms/centralized-[...]"
 
@@ -29,9 +29,9 @@ research_goals:
 research_questions:
   - "Can users identify and access the form they need in the new centralized flow?"
   - "What navigational elements help or confuse users (breadcrumbs, links, headers, TOC, CTAs)?"
-  - "Is information presented in the new centralized/Form About page at the right step, in the right detail?"
+  - "Is information presented in the new centralized/Form Detail page at the right step, in the right detail?"
   - "Where do users expect to find “what do I need”, “am I eligible”, “how to submit”, and “what happens next” content? In what order?"
-  - "Does combining 'About' and 'How to Apply' content enable users to more easily find the information they need to be prepared to complete their form?"
+  - "Does combining Form Detail 'About' and 'How to Apply' content enable users to more easily find the information they need to be prepared to complete their form?"
   - "Are the different options for form submission clear, understandable and easy to identify?"
   
 hypotheses:
@@ -49,8 +49,7 @@ recruitment:
 
   primary_criteria:
     - "Veterans and family members/caregivers (mix of 8 Veterans and 4 family/caregivers planned for completes)."
-    - "Target completes: 12; Total recruited: 18 (including ≥6 AT recruited to ensure ≥4 AT completes)."
-    - "Assistive technology mix (at least 4 completes using AT; includes 2 screenreader users and 2 screen magnifier users; recruitment note also says ≥6 AT recruited)."
+    - "Target completes: 12; Total recruited: 18."
     - "Veterans/caregivers/family with recent form experience or near-term need."
     - "9 have filled out at least one form with VA in the last year."
     - "3 participants have never filled out a VA form but are eligible to."
@@ -248,21 +247,21 @@ In order to proceed, we would like to see the following:
 
 ### Research questions
 
-**`1.`Can users identify and access the form they need in the new centralized flow? 
+**`1.`Can users identify and access the form they need in the new centralized flow?**
 Sub-questions: 
 - 1A. How do users conceptualize the navigation and relationship between forms, benefits, and site sections (task, benefit, forms library, etc.)?
 - 1B. Are users confused by the transition between benefit hubs and centralized forms?
 - 1C. What navigational elements help or confuse users (breadcrumbs, links, headers, TOC, CTAs)?
 **
 
-**`2.`Is information presented in the new centralized/Form Detail page at the right step, in the right detail? Sub-questions: 
+**`2.`Is information presented in the new centralized/Form Detail page at the right step, in the right detail?** Sub-questions: 
 - 2A. Where do users expect to find “what do I need”, “am I eligible”, “how to submit”, and “what happens next” content? In what order?
-- 2B. Does combining "About" and "How to Apply" content enable users to more easily find the information they need to be prepared to complete their form?
+- 2B. Does combining Form Detail "About" and "How to Apply" content enable users to more easily find the information they need to be prepared to complete their form?
 - 2C. Are the different options for form submission clear, understandable and easy to identify?
 **
 
-**`3.`What risks, if any, are there of combining the About forms and How to Apply pages for Veterans and their families? 
-- 3A. Special Cases & Edge Scenarios: Identify any confusion around forms that are combined (serve multiple benefits/audiences), non-VA forms, or forms without numbers.**
+**`3.`What risks, if any, are there of combining the Form Detail and How to Apply pages for Veterans and their families?** 
+- 3A. Special Cases & Edge Scenarios: Identify any confusion around forms that are combined (serve multiple benefits/audiences).**
 
 **`4.`Does the new Form Detail Page template overall work for both simple and complex forms (minimal/maximal?)**
 
@@ -273,7 +272,7 @@ Sub-questions:
 
 **2. Increased detail on the Form Detail page will help Veterans & their families have more confidence (>4/5) that they are prepared to fill out and submit forms regardless of where they navigated from.** 
 
-**3. Standardizing CTAs (online form, download, find eligibility information) with key instructions and will improve findability and streamline critical actions so that users can:**
+**3. Standardizing CTAs (online form, download, find eligibility information) with key instructions will improve findability and streamline critical actions so that users can:**
 - Identify whether it is the right form for them
 - Understand available submission options
 - Identify what is needed to submit and prepare before starting form
@@ -298,7 +297,7 @@ Sub-questions:
 
 </details>
 
-**Moderated usability test. 12 participants including 4 using AT (2 screenreader and 2 screen magnifier). Mix of 8 Veterans and 4 family/caregivers.
+**Moderated usability test.** 12 participants. Mix of 8 Veterans and 4 family/caregivers.
 - 5 min warm up/background questions
 - 5 minutes discussion on current navigation (search engine or homepage to a form to help ground user in real-world use & context)
 - 40 minutes prototype evaluation
@@ -306,7 +305,6 @@ Sub-questions:
 - Minimal form- 15 minutes. Identifying and recalling key information, evaluation of preparedness & confidence. Evaluation of download flow.
 - 10 minutes wrap-up discussion
 
-**
 
 <details><summary>Additional resources</summary> 
 	
@@ -338,8 +336,8 @@ Where will you be holding the research sessions? Be sure to include whether this
 Veterans and Family members/caregivers who have and have not previously completed similar forms with the VA.
 
 ### Recruitment criteria
-- Target completes: 12; **Total recruited: 18** (including **≥6 AT** to ensure ≥4 AT completes).
-- Must-have: Veteran/caregiver/family; recent form experience *or* near-term need; AT mix.
+- Target completes: 12; **Total recruited: 18** 
+- Must-have: Veteran/caregiver/dependents; recent form experience *or* near-term need
 - Nice-to-have: No prior 526 or education form experience; submission mode preferences.
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
@@ -356,7 +354,6 @@ Veterans and Family members/caregivers who have and have not previously complete
 - `9 Have filled out at least one form with VA in the last year`
 - `3 participants have never filled out a VA form but are eligible to`
 - `6 have not filled out a VA form in the last year`
-- `2 screenreader users`
 - **`Recruit a mix of gender, ages, cognitive abilities, etc.`**
 
 #### Secondary criteria (nice-to-haves)
@@ -376,7 +373,7 @@ Nice to have: Form submission type
 **`1.` Which of the following VA forms have you submitted in the last 5 years? (Select all that apply)**
 - 21-526EZ Application for Disability Benefits
 - 22-1990 Application for VA Education Benefits
-- 10-10EZ Application for Healthcare Benefits
+- 10-10EZ Application for Health Benefits
 - None of the above forms, but another form (specify an example)
 - I’ve never filled out and submitted a form with VA
 - **Qualifying response: After meeting recruitment quota** 
@@ -406,7 +403,7 @@ Nice to have: Form submission type
 - `Planned dates of research:` **April,6,2026 - April 15, 2026**
 
 ### Length of sessions
-- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **1 hour (1.5 hour AT)**
+- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **1 hour**
   
 - `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **30 mins**
   

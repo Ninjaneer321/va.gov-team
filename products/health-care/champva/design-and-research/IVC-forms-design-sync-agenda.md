@@ -1,8 +1,42 @@
 # Running Design and Research Agenda
 
 ----
+## March 19, 2026
 
 
+Attendees: Renata, Hieu, Jessica, Chantale, Andrea, John
+
+### AGENDA: 
+
+Move signer section work on 10-10d - [Figma link](https://www.figma.com/design/UmAtr3ULQEInMXfNFwP0g0/Application-for-CHAMPVA---10-10d--and-OHI-Certification--10-7559c--WIP?node-id=11781-43081&t=KaBsc5cIWKYYbQhI-4)
+	•	Designs drafted and ready to submit content intake ticket (will add link once opened)
+	•	Add anymore comments to the file that we need to address before content review
+
+
+Add effective date and termination date to 10-7959a - [Figma Link](https://www.figma.com/design/Tfhq5h2LwXEeEEtFBAAFOv/CHAMPVA-Claims--10-7959a--WIP?node-id=7835-12)
+	•	Adds missing form fields to bring the digital form into compliance with the new PDF
+	•	I recommend to confirm with our partners that policy number and provider phone number are still optional fields, and if effective date needs to allow future-dated fields (for the latter my assumption is no).
+
+
+Enhanced Application Flow for 10-10d - [Figma link](https://www.figma.com/design/UmAtr3ULQEInMXfNFwP0g0/Application-for-CHAMPVA---10-10d--and-OHI-Certification--10-7559c--WIP?node-id=11852-3426&t=KaBsc5cIWKYYbQhI-4)
+	•	Drafted content area - we will be ready to submit content intake ticket soon
+	•	Same - add any comments to the Figma file please
+	•	Adding notes and changes post stakeholder call today, 3.18
+
+
+### NOTES:
+- Phase 2 for Enhanced App > Multiple beneficiaries and not having to enter in Veteran sponsor information twice
+- For MVP, content updates around other beneficiary updates on confirmation page if they have another update/missing info to provide
+  
+- John - Research data on reaction to amount of content within forms
+
+
+#### FUTURE USER STORY OF FOCUS
+
+> I have multiple applicants in the family who I need to provide updated information for and I want to do so without having to enter in the same information multiple times. 
+
+
+---
 
 ## March 12, 2026
 

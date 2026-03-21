@@ -1,4 +1,4 @@
-# Digital VHIC (Veteran Health Identification Card)
+# Digital VHIC (Veteran Health Identification Card) - Work in progress
 
 ## Overview
 The Veteran Health Identification Card is a photo ID card which offers Veterans convenient and secure access to their identification for VA healthcare services, commissary/exchange privileges, and verification of Veteran status for discounts. This work will create a digital card, accessible via the VA Health and Benefits (VAHB) mobile app, with future consideration for web wallet integration.
@@ -41,16 +41,29 @@ Veterans currently rely on a physical VHIC card for various services and benefit
 ## Solution Approach
 
 ### MVP (work in progress): Phase 1
-- Build and release a Digital VHIC feature in the VAHB app for Veterans who **currently** have a VHIC issued to them. The experience mirrors the Veteran Status Card experience already available.
+- Build and release a Digital VHIC feature in the VAHB app for Veterans who have a VHIC issued to them. The experience mirrors the Veteran Status Card experience already available.
   - Allow Veterans to view their VHIC in-app.
-  - In Phase 1, we will not be providing Veterans with a Digital VHIC option if they are issued a card post-release. 
 - The VHIC team would like the digital VHIC card to match the physical card. The MFS team is assessing technical feasibility and making adjustments due to design restrictions. Therefore, this requirement will need to be negotiated with the VHIC team as the MFS team understands what is technically possible.   
-- Chose this approach due to high Veteran mobile usage and proven success with the digital Veteran Status Card.
+- Data requirements for the digital VHIC card:
+  - Veteran image
+  - Veteran name
+  - Veteran EDIPI, which is the number listed as the Member ID
+  - VA Plan ID
+  - Expiration Date
+  - Veteran Branch of Service
+  - DOD Barcode
+  - VA Compliant Magnetic Strip  
+  - Service Connected Identifier
+  - VA Healthcare Enrollee Identifier
+  - Medal of Honor Identifier
+  - Purple Heart Identifier
+  - Prisoner of War Identifier  
 - Error states:
-  - An error message for when the API is down.
+  - An error message for when the API is down. 
   - An error message for when the digital card is missing data ??
+    - Will we have enough data to display specific missing information from a VHIC?
   - An error message for the expired date on the VHIC???
-  - An error message for a Veteran who does not have a VHIC card. We will provide a message to Veterans explaining how to obtain a VHIC.  
+  - An error message for a Veteran who does not have a VHIC card. We will provide Veterans with a message explaining how to obtain a VHIC.  
 - Getting content approved and added to the unauthenticated VA.gov VHIC [page](https://www.va.gov/health-care/get-health-id-card/)
 - The barcode on the digital VHIC needs to be scannable.
 

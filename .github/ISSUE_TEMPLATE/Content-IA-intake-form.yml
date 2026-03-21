@@ -1,0 +1,108 @@
+---
+name: Content and IA Centralized Team Product Support Request Form
+description: Use this ticket to request support from the Centralized Content and Information Architecture team.
+title: "[INTAKE] Team Name: Initiative Name"
+labels: content-ia-centralized-team
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Content and IA Product Support Request
+  - type: textarea
+    attributes:
+      label: Team info
+      description: "Enter information about your team"
+      value: |
+        - **Product name:**
+        - **Team name:** 
+        - **Slack channel:** 
+        - **OCTO product owner:** 
+        - **Product manager:** 
+        - **Designer(s):** 
+        - **SME**: 
+        - **Content designer (if you have one):** 
+        - **Other stakeholders:** 
+  - type: checkboxes
+    attributes:
+      label: Audience
+      options:
+        - label: VA.gov users
+        - label: VA mobile app users
+        - label: Internal designers and product team members (i.e. pattern or standards work)
+        - label: Other (please describe)
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Other audience
+      placeholder: Describe the other audience if checked above
+  - type: checkboxes
+    attributes:
+      label: Type of work
+      options:
+        - label: Digitizing a new form
+        - label: Creating a new digital tool
+        - label: Updating an existing form or tool
+        - label: Translating a form or tool (temporarily on hold)
+        - label: Adding new unauthenticated content to VA.gov
+        - label: Updating existing unauthenticated content on VA.gov
+        - label:  Creating or updating components, patterns, or general standards
+        - label: Other (please describe)
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Other type of work
+      placeholder: Describe the other type of work if checked above
+  - type: textarea
+    attributes:
+      label: Supporting artifacts
+      description: "Add links to all applicable artifacts and issues. Feel free to add others."
+      value: |
+        - **Product outline:** 
+        - **Content source of truth doc:** 
+        - **Figma file:** 
+        - **Mural:** 
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Project background
+      placeholder: "What problem are you trying to solve? What's the user story?"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Content ask
+      placeholder: |
+        What do you need from the Content and IA team? Be as detailed as possible.
+        Include info on specific pages/screens within your Figma file that need to be addressed.
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: How do you want our content feedback delivered?
+      options:
+        - Leave Figma comments
+        - Edit Figma file directly
+        - Provide our own Figma doc
+        - Provide our own Word doc
+        - Edit your content source of truth doc
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Where are you at in your design/development process?
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Estimated launch timeline
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Hard deadline for Content and IA delivery (if applicable)
+  - type: input
+    attributes:
+      label: If a staged launch is planned, provide details
