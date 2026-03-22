@@ -60,11 +60,11 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
     
 | Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX: Finalize coded prototypes based on forthcoming feedback from the CAIA team in preparation for the upcoming Pay.gov Benefit Overpayment Debt Payments Usability Study.| P2 |--|--|--|
-|UX: Begin to field the Usability Study for the Pay.gov Overpayments project.| P2 |--|--|--|
-|ENG: Update the back end code to accommodate data and routing for both Cerner and Vista Payment History records.| P1 |--|--|--|
-|ENG: Complete Front End engineering transition tickets (not including final migration) to prepare for Benefit Payment Tool handoff in Sprint 5.| P3 |--|--|--|
-|ENG: Complete the 3 planned maintenance/bug tickets.| P6 |--|--|--|
+|UX: Finalize coded prototypes based on forthcoming feedback from the CAIA team in preparation for the upcoming Pay.gov Benefit Overpayment Debt Payments Usability Study.| P2 |--|--|Complete|
+|UX: Begin to field the Usability Study for the Pay.gov Overpayments project.| P2 |--|--|Complete|
+|ENG: Update the back end code to accommodate data and routing for both Cerner and Vista Payment History records.| P1 |--|--Complete|
+|ENG: Complete Front End engineering transition tickets (not including final migration) to prepare for Benefit Payment Tool handoff in Sprint 5.| P3 |--|--|Complete|
+|ENG: Complete the 3 planned maintenance/bug tickets.| P6 |--|--|Incomplete|
 
 **Sprint rollover tickets**
 | Additional work that was pulled in mid-sprint | Scope of work changed after ticket started | Work became blocked mid-sprint |  Work was underestimated and not completed |
