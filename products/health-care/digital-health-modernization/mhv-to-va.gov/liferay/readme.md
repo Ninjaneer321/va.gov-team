@@ -31,9 +31,11 @@ Veterans and VA Staff use Secure Messaging to communicate, and Liferay portals s
 ## Requirements
 #### In Scope 
 - Response to any Liferay needs
+- Clinician facing issues
+- Admin facing issues
 
 #### Out of Scope
-- 
+- Patient facing issues
 
 
 ## KPIs
