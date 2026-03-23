@@ -56,7 +56,6 @@ Last updated: 4/29/2025
 
 | Event Name | Purpose |
 | -------- | ------- |
-| `vama_ddl_landing_click ` | User selects "Claim Letters" from the Claims landing screen |
 | `vama_ddl_letter_view ` | User views a letter |
 | `vama_ddl_status_click ` | User selects "Get Claim Letters" from the claim details screen |
 | `vama_letter_download ` | User clicks to download letter |
@@ -75,7 +74,6 @@ Last updated: 4/29/2025
 | `vama_login_token_fetch ` | Debug event, error fetching the login token |
 | `vama_login_token_refresh ` | Debug error attempting to initialize authentication with a refresh token |
 | `vama_login_token_store ` | The success or failure of storing a refresh token |
-| `vama_sso_cookie_received ` | Successful fetching of SSO cookies |
 
 ### Availability Framework
 
@@ -96,14 +94,6 @@ Last updated: 4/29/2025
 | `vama_link_confirm ` | A link to leave the app was clicked (not a webview) |
 | `vama_find_location ` | The find a location link was clicked |
 
-### Encouraged Update
-
-| Event Name | Purpose |
-| -------- | ------- |
-| `vama_eu_shown ` | Encouraged update nudge was shown to user |
-| `vama_eu_skipped ` | User clicked to dismiss prompt to update app version |
-| `vama_eu_updated ` | User clicked to update their app version |
-
 ### Feedback Collection
 
 | Event Name | Purpose |
@@ -114,16 +104,6 @@ Last updated: 4/29/2025
 | `vama_feedback_ask ` | Runs on cancel and OK for in app feedback |
 | `vama_feedback_closed ` | User get the feedback screen, but closes without submitting |
 | `vama_feedback_submitted ` | In app feedback submitted with screen, task, satisfaction |
-
-### Homescreen
-
-| Event Name | Purpose |
-| -------- | ------- |
-| `vama_hs_appts_load_time ` | Time from login to loading appointments on the homescreen |
-| `vama_hs_claims_load_time ` | Time from login to loading active claims on the homescreen |
-| `vama_hs_load_time ` | Time from login to all completed API calls on the homescreen |
-| `vama_hs_rx_load_time ` | Time from login to loading refillable prescriptions on the homescreen |
-| `vama_hs_sm_load_time ` | Time from login to loading unread messages on the homescreen |
 
 ### Push Notifications
 
