@@ -271,9 +271,7 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 5. How might that change if it said "Proof of attendance"?
 6. _If they notice the hint text:_ Do you have an concerns about what this is telling you?
 
-`Moderator: Since this is a prototype, we won’t actually upload a document, but you can click on the box and imagine it was a file that you selected and added.`
-
-<mark>Working note: We’re going to try to simulate this as best we can. Will revisit this section after we complete the prototype to see what we can ask.</mark> 
+`Moderator: Since this is a prototype, we won’t actually upload a real document, but you can click on the box and the prototype will walk you through what it might look like.`
    
 > [!NOTE]
 > #### Things to watch for:
@@ -350,7 +348,7 @@ _Participant selects mileage_
 > - 1. Can they identify the entry point on the alternative page?
 > - 2. What reasoning do they provide for a preference?
 
-## Section 4A: Comparative entry point assessment (5-10 minutes)   
+## Section 4A: Comparative entry point assessment (Optional, if time permits, 5-10 minutes)   
 `Moderator: Now that you’ve seen both pages, I’d like to show them to you side-by-side. Take a moment to look at both pages again.`   
 
 1. What stands out to you? What do you notice?
