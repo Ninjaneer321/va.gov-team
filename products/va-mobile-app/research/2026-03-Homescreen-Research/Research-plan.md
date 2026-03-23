@@ -2,7 +2,7 @@
 # Research Plan Metadata
 title: "Research Plan for VA Mobile App Homescreen Redesign, March 2026"
 date: 2026-03-11
-last_updated: 2026-03-11
+last_updated: 2026-03-23
 team: "VA Mobile App (Core Mobile)"
 product: "VA Health and Benefits Mobile App"
 product_area: "authenticated"
