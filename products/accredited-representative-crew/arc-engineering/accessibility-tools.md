@@ -17,6 +17,8 @@ axe DevTools is an extension for Google Chrome that can run automated accessibil
 6. Under “Rules and issues,” ensure that:
     1. “Best Practices” are enabled, and
     2. “WCAG 2.2 AA” is selected.
+    3. <img width="850" height="276" alt="image" src="https://github.com/user-attachments/assets/1d5860f1-241c-4b7e-952f-7d7bfa16e0c9" />
+
 
 ### Running a Scan
 1. Open the Developer Tools in Google Chrome
