@@ -395,8 +395,8 @@ These are checked on a schedule during normal reporting.
 |---|---|
 | **Product (Kay Lawyer, PO)** | Sets KPI targets with stakeholder input. Reviews the monthly KPI scorecard. Escalates findings to stakeholders. Owns quarterly updates to this plan. |
 | **UX / UCD (Robyn Singleton + team)** | Owns ongoing monitoring of GA4 click data, Medallia feedback, and DOMO dashboards (weekly and monthly reviews). Does daily Medallia triage. Writes weekly sentiment reports. Pulls baselines for KPIs 4, 5, and 6 from Medallia and DOMO. Flags UX patterns to Product and Engineering. Does **not** own the technical setup of GA4 events, Datadog monitors, or Medallia survey configuration. |
-| **Engineering** | Builds all custom GA4 events listed in the [dev work section](#dev-work-needed). Sets up Datadog RUM funnels and APM monitors. Configures Medallia survey URLs for new pages. Responds to real-time Datadog alerts. Owns API reliability. Pulls baselines for KPIs 9 and 10 from Datadog. |
-| **Analytics / Data** | Pulls Oracle SQL data weekly (Anne Kennedy has access). Maintains DOMO dashboards and data pipelines. Pulls baselines for KPIs 2 and 3 from Oracle SQL. Supports GA4 exploration setup when needed. Produces monthly KPI scorecard data for Product. |
+| **Engineering** | Builds all custom GA4 events listed in the [dev work section](#dev-work-needed). Sets up Datadog RUM funnels and APM monitors. Responds to real-time Datadog alerts. Owns API reliability. Pulls baselines for KPIs 9 and 10 from Datadog. |
+| **VFS PLatform Support** | Configures new Meds URLS for Medallia reporting in VSignals. |
 | **Stakeholders (Dr. Spahn, OCC)** | Reviews monthly KPI scorecard. Provides clinical context for interpreting the numbers. Approves KPI targets set by Product. |
 
 ---
