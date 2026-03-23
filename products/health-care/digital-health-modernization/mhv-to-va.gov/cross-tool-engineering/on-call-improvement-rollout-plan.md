@@ -12,6 +12,11 @@ The purpose of this document is to outline a rollout plan for each of the tool t
  
 ## Quick Setup Guide
 
+Note: Before fully integrating these systems, it is a good idea to either fine-tune your monitors so your team doesn't get paged constantly. You can do this by:
+1. Fine-tuning the thresholds so they're not noisy in the first place
+2. Create a separate set of monitors with higher thresholds
+3. Conditionally render PagerDuty integration on alerts but leave it off for warnings
+
 ### PagerDuty
 1. **Ensure you have a Pager Duty service created for your team**
     1. Go to the [service directory page](https://ecc.pagerduty.com/service-directory?direction=asc&query=&team_ids=mine) to check
