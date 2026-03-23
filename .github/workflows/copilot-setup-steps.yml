@@ -83,7 +83,7 @@ jobs:
     
     steps:
       - name: Sparse Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: ${{ inputs.ref }}
           sparse-checkout: ${{ inputs.sparse_checkout_paths }}
@@ -170,10 +170,12 @@ jobs:
 
       - name: Display Checkout Info
         run: |
+          set +o pipefail
           echo "Repository checked out successfully"
           echo ""
           echo "Checked out files (sample):"
           git ls-files | grep -E '\.(md|txt|json|yml|yaml|js|jsx|ts|tsx|py|rb|sh)$' | head -20 || git ls-files | head -20
+          set -o pipefail
           TOTAL_FILES=$(git ls-files | wc -l)
           if [ $TOTAL_FILES -gt 20 ]; then
             echo "... and $(( $TOTAL_FILES - 20 )) more files"
