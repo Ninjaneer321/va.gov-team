@@ -58,7 +58,7 @@ recruitment:
   approach: "Lean maximum variation"
 
   primary_criteria:
-    - "Be on a mobile device or tablet (recruit mix of device types)"
+    - "Be on a mobile device (recruit mix of device types)"
     - "During the session, be willing to share a web browser window on their device"
     - "Have a working microphone"
     - "Have Zoom downloaded to their device prior to the session and know how to share their screen"
@@ -74,7 +74,7 @@ recruitment:
     - "At least 3, no degree"
   screener_questions:
     - question: "Which device(s) would you use to join the research session?"
-      qualifying_response: "Mobile phone – Android, Mobile phone – iPhone, Tablet – Android, or Tablet – iPad"
+      qualifying_response: "Mobile phone – Android, Mobile phone – iPhone"
     - question: "How often did you use the Veterans Affairs Health and Benefits App on your smartphone or tablet in the past year?"
       qualifying_response: "I used it rarely, I used it at least once a month, or I used it at least once a week"
     - question: "What is your service-related disability rating?"
@@ -427,7 +427,7 @@ During the session:
 *What demographics, experience, and scenarios do you need participants to meet to effectively run your study?* 
 
 **All participants must:**
-- `Be on a mobile device or tablet (recruit mix of device types)`
+- `Be on a mobile device (recruit mix of device types)`
 - `During the session, be willing to share a web browser window on their device`
 - `Have a working microphone`
 - `Have Zoom downloaded to their device prior to the session and know how to share their screen`
@@ -457,8 +457,6 @@ During the session:
    
 - Mobile phone – Android: Qualify
 - Mobile phone – iPhone: Qualify
-- Tablet – Android: Qualify
-- Tablet – iPad: Qualify
 - None of the above: Disqualify
 
 **2. How often did you use the [Veterans Affairs Health and Benefits App](https://mobile.va.gov/app/va-health-and-benefits) on your smartphone or tablet in the past year?**
