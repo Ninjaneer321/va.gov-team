@@ -36,13 +36,13 @@ This document is a summary of:
 	- **Educational or vocational rehabilitation expenses** such as tuition and materials for educational courses or vocational rehabilitation over the past year
 	- **Burial expenses** for a spouse or a child over the past year
 	- **Legal expenses** over the past year that resulted in a financial settlement or award (like Social Security disability benefits)
-- Care and medical expenses can cover "constructive members of a household", which is a broader definition than dependents. These could be people that have a societal or legal obligation to the Veteran, such as children that ore older or dependent parents.
+- Care and medical expenses can cover **"constructive members of a household"**, which is a broader definition than dependents. These could be people that have a societal or legal obligation to the Veteran, such as children that ore older or dependent parents.
 - VBA is working on consistency between 527 and 8416 to avoid discrepant informaton and get consistent information from the same questions. The 8416 needs to be renewed at the end of this calendar year, and they're looking at significant changes to the structure of the form to make it more user-friendly. 
 
 **Recommended action:**
 - Work with VBA and their timeline to:
     - Clarify **medical vs. care expense** categories in policy and in plain language.
-    - Clarify **dependents vs. constructive household members** and align definitions across forms and help content.
+    - Clarify **dependents vs. constructive household members** and ensure consistent definitions across resource and support pages.
     - Align language for new questions across the standalone 8416 form and the step in 527.
 - Conduct research to test whether users understand these categories, and can reliably place real‑world expenses into the right buckets.
 
