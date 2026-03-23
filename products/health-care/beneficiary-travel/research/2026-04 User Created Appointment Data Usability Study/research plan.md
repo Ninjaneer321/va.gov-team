@@ -389,7 +389,7 @@ We will work with Perigean to recruit participants for this study.
 - `Date and time of pilot session:` **TBD** 
 
 ### Research sessions
-- `Planned dates of research:` **[Enter dates 03/31-04/06]**
+- `Planned dates of research:` **[Enter dates 03/31-04/08]**
 
 ### Length of sessions
 - `Session length: 1 hour.
