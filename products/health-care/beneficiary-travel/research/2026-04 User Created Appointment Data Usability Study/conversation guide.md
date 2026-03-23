@@ -126,9 +126,9 @@ If yes: Tell me more about it.
 If no: Can you share more about why you haven’t filed?
 3. If yes to 1: Which system did you use to file for travel pay? (VAHB, VA.gov, BTSSS)
 4. If yes to 1: Are you familiar with “community care”? What does that phrase mean to you?
-If no: Briefly explain that if VA can’t provide the healthcare you need, they sometimes approve you to go to other health care facilities in the community. These are called “community care” appointments. [This is important to explain to the participant so that they can understand the testing scenario we present to them below.]
-5. If yes to 1: Have you filed for VA appointment(s) or community care appointment(s)?
-6. If yes to 1:  Were the appointment(s) scheduled ahead of time, or walk-in appointments?
+If no, explain: In certain scenarios, for example, if the VA facility is outside a certain distance, or if there is an extended wait time for VA Care, sometimes VA will approve you to go to other health care facilities in the community. These are called “community care” appointments. [This is important to explain to the participant so that they can understand the testing scenario we present to them below.]
+5. If yes to 1:  Were the appointment(s) scheduled ahead of time, or walk-in appointments?
+6. If yes to 1: Have you filed for VA appointment(s) or community care appointment(s)?
 7. If the participant has filed for community care: Can you tell me more about your experience filing for community care?
 8. If no to 1: If you were going to file for travel reimbursement today, where would you go or what would you do first?   
 
@@ -153,11 +153,12 @@ Do they use the main menu, account dropdown, links under the “Top pages” sec
 
 ## Section 3: Primary usability testing (25-30 minutes)   
 **Entry point: past appointments or travel claims list**
+_Note for moderator: Remind participant to talk aloud, but only ask follow up questions if they seem lost. If they find the link quickly, we can move on._   
 
 ### Past appointments page
 `Moderator: Let’s take a pause for just a moment before you click on anything else. Tell me about this page.`
 
-1. What are you looking for?
+1. What do you see here that might help you with your task?
 
 _After participant reviews page_
 
@@ -169,9 +170,8 @@ _After participant reviews page_
 ### Claims list page   
 `Moderator: Let’s take a pause for just a moment before you click on anything else. Tell me about this page.`   
 
-1. What are you looking for?    
-2. What do you see here that might help you with your task?
-3. What would you click on or do next?   
+1. What do you see here that might help you with your task?
+2. What would you click on or do next?   
 - If participant decides to click “create claim” link first: What made you decide to click that?
 - If participant decides to then click “past appointments,” see the above process and questions.
 - If participant decides to then click “Go to BTSSS website,” explain that they can now file on VA.gov, and ask where they would expect to do this.   
@@ -332,12 +332,11 @@ _Participant selects mileage_
 
 `Moderator: Here’s the other page where someone could start a travel claim.`
 
-1. Could you see yourself taking this pathway? Why or why not?   
-2. Does this path feel as natural to you as the path you took?   
-3. What do you see here that could help you file a claim for your appointment?   
-4. Is there anything confusing about this page or how we got here?   
-5. If you had to file another community care claim tomorrow, which path would you take?   
-6. What works well about having the entry point here? What doesn’t work well?   
+1. Which path feels the most natural to you and why?
+2. What do you see here that could help you file a claim for your appointment?   
+3. Is there anything confusing about this page or how we got here?   
+4. If you had to file another community care claim tomorrow, which path would you take?   
+5. What works well about having the entry point here? What doesn’t work well?   
 
 > [!NOTE]
 > ### Things to watch for:
