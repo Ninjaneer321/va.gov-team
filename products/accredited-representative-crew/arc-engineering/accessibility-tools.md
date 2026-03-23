@@ -17,10 +17,12 @@ axe DevTools is an extension for Google Chrome that can run automated accessibil
     2. “WCAG 2.2 AA” is selected.
 
 ### Running a Scan
-1. Open the Developer Tools in Google Chrome and click on the axe DevTools tab.
-2. Click “Full page scan” and wait for the results to appear.
-3. If any issues are found, either:
+1. Open the Developer Tools in Google Chrome
+2. Click on the axe DevTools tab within the Developer Tools.
+   1. <img width="714" height="265" alt="image" src="https://github.com/user-attachments/assets/2f9116fe-fe72-4468-8791-be15a5f3d640" />
+3. Click “Full page scan” and wait for the results to appear.
+4. If any issues are found, either:
     1. Fix the issue before submitting a PR (preferred), or
     2. Create a backlog ticket to address the issue. Include a screenshot of the issue in the ticket.
-4. To run the scan again, click “Re-run scan.”
-5. A modal will appear prompting you to put the page in the state you want to test. When you’re ready, click “Ready” and another scan will run.
+5. To run the scan again, click “Re-run scan.”
+6. A modal will appear prompting you to put the page in the state you want to test. When you’re ready, click “Ready” and another scan will run.
