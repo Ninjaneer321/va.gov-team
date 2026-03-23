@@ -270,7 +270,7 @@ Sub-questions:
 
 **1. Centralizing forms will reduce user frustration and confusion with duplicate information. Users will prefer to have a single page with this information.** 
 
-**2. Increased detail on the Form Detail page will help Veterans & their families have more confidence (>4/5) that they are prepared to fill out and submit forms regardless of where they navigated from.** 
+**2. Appropriately scoped detail on the Form Detail page will help Veterans & their families have more confidence (>4/5) that they are prepared to fill out and submit forms regardless of where they navigated from.** 
 
 **3. Standardizing CTAs (online form, download, find eligibility information) with key instructions will improve findability and streamline critical actions so that users can:**
 - Identify whether it is the right form for them
@@ -354,6 +354,7 @@ Veterans and Family members/caregivers who have and have not previously complete
 - `9 Have filled out at least one form with VA in the last year`
 - `3 participants have never filled out a VA form but are eligible to`
 - `6 have not filled out a VA form in the last year`
+- `9 recruited participants typically use a mobile device or tablet when interacting with VA forms (9 desktop)`
 - **`Recruit a mix of gender, ages, cognitive abilities, etc.`**
 
 #### Secondary criteria (nice-to-haves)
@@ -376,9 +377,16 @@ Nice to have: Form submission type
 - 10-10EZ Application for Health Benefits
 - None of the above forms, but another form (specify an example)
 - I’ve never filled out and submitted a form with VA
-- **Qualifying response: After meeting recruitment quota** 
+- **Qualifying response: After meeting recruitment quota**
 
-**`2.` How do you typically submit forms to the VA? Select all that apply**
+  **`2.`What type of device do you typically use to access VA forms?**
+- Desktop/Laptop computer
+- Mobile device - Apple
+- Mobile device - Android
+- Tablet
+- **Qualifying response: After meeting recruitment quota**
+
+**`3.` How do you typically submit forms to the VA? Select all that apply**
 - Print a PDF and submit by mail
 - Download and upload a PDF
 - In person at a VA facility
