@@ -506,21 +506,15 @@ Study will be conducted on VA.gov production. Experience went live 03/13/2026.
 ### Research sessions
 - `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
 
+
 ### Length of sessions
 
-#### Cohort 1: Screen reader participants
 - `Session length:` **90 minutes**
   
 - `Buffer time between sessions:` **30 minutes**
   
 - `Maximum Sessions per day:` **2 per day**
 
-#### Cohort 2: Magnification participants
-- `Session length:` **60 minutes**
-  
-- `Buffer time between sessions:` **30 minutes**
-  
-- `Maximum Sessions per day:` **2 per day**
 
 ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
