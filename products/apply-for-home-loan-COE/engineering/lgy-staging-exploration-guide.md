@@ -1,11 +1,5 @@
 # LGY Service Exploration via Argo CD Staging Console
 
-> **For:** Kyle Henson (COE form rebuild, BE data contract work)
-> **Created:** 2026-03-19
-> **Prerequisites:** PIV card, Argo CD access
-> **Related:** [Staging Service Exploration](staging-service-exploration.md) (general workflow), [COE / Form 26-1880](coe.md) (project context), [COE LGY Nil Validation Investigation](coe-lgy-nil-validation-investigation.md) ([#2495](https://va.ghe.com/software/va-cve/issues/2495) -- paidOffDate/releasedActiveDuty nil bug)
-> **Findings:** [LGY Staging Exploration Findings](lgy-staging-exploration-findings.md) (results from the 2026-03-22 session -- user reference table, response shapes, cassette status)
-
 ## Overview
 
 This guide walks you through exploring the LGY (Loan Guaranty) service from a staging Rails console via Argo CD. The goal is to build confidence that our code accurately handles the real responses from the LGY service, and to produce artifacts that the whole team can use.
