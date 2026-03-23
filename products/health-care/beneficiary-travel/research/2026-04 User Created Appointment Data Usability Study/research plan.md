@@ -303,8 +303,8 @@ We’ll wrap up with some closing questions and allow the participants time to e
 ## Research materials 📔
 
 **For moderated usability tests:** 
-- [Link to conversation guide](url goes here)
-- [Link to prototype](url goes here)
+- [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/research/2026-04%20User%20Created%20Appointment%20Data%20Usability%20Study/conversation%20guide.md)
+- [Link to prototype](https://www.figma.com/proto/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?node-id=16385-16517&viewport=429%2C8%2C0.19&t=Xw9GVznjZZiIbnsy-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=16385%3A16517&show-proto-sidebar=1&page-id=16385%3A16515)
 
 ## Recruitment 🎯	
 We will work with Perigean to recruit participants for this study.   
@@ -376,27 +376,27 @@ We will work with Perigean to recruit participants for this study.
 
 ### Optional Kick-off Call with Perigean
 
-- `Suggested dates and times:` **[Enter dates and times MM/DD HH:MM]**
+- `Suggested dates and times:`
+03/26 10 AM to 4 PM EST
+03/27 10 AM to 4 PM EST
 
 ### Prepare
 *When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).*
 
-**A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.** 
-> [!NOTE]
-> **Send pilot participant email in study Slack channel**
+**A pilot session is required** We would like to request a pilot participant scheduled by Perigean.
 
-- `Pilot participant name:` **[Enter name]**
-- `Date and time of pilot session:` **[Enter time]** 
+- `Pilot participant name:` **TBD**
+- `Date and time of pilot session:` **TBD** 
 
 ### Research sessions
-- `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
+- `Planned dates of research:` **[Enter dates 03/31-04/06]**
 
 ### Length of sessions
-- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **[Enter time length]**
+- `Session length: 1 hour.
   
-- `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **[Enter buffer time]**
+- `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)`: 30 minutes.
   
-- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **[Enter NUM per day]**
+- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **3**
 
 ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
@@ -409,12 +409,13 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 >
 > **Place time slots between `hash marks` when in edit mode.**
 
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `Add more slots as needed`
+- `[03/31, Tuesday, 9 AM to 5 PM EST`
+- `[04/01, Wednesday, 9 AM to 5 PM EST`
+- `[04/02, Thursday, 9 AM to 5 PM EST`
+- `[04/06, Monday, 9 AM to 5 PM EST`
+- `[04/07, Tuesday, 9 AM to 5 PM EST`
+- `[04/08, Wednesday, 9 AM to 5 PM EST`
+- We can add additional slots the week of 04/06 as needed
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
@@ -426,6 +427,7 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 - `Note-takers:` **Kristen Faiferlick and Liza McRuer**	
 - `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 5 to 6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.`
 
+**Observer names TBD; will create sign-up sheet once we have confirmed sessions**
 - **[Enter full name]**
 - **[Enter full name]**
 - **[Enter full name]**
