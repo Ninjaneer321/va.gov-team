@@ -262,12 +262,14 @@ Next, let's take another look at the Action required section.
 10. [If needed] What do you expect to happen when you tap the pay copay button?
 11. Probe: What would you expect to happen if you click the arrow on the right?
    *Direct to tap pay copay button if needed and move through copay flow.*
-12. Without clicking yet, would you expect to see copay due in the Action required section still when we get back to the homepage screen?
-    *Direct participant to return to Homescreen.*
-13. What did you think about that process?
-14. If you wanted to see confirmation of the copay payment you just did or your full history of copayments, where would you go?
-15. What worked well?
-16. What could be improved?
+12. Without clicking yet, what would you expect to see when you close out of here?
+13. Probe: Would you expect to be back on the homescreen?
+14. Probe: Would you expect to see copay due in the Action required section still when we get back to the homepage screen?
+    *Direct participant to close the payment screen.*
+15. What did you think about that process?
+16. If you wanted to see confirmation of the copay payment you just did or your full history of copayments, where would you go?
+17. What worked well?
+18. What could be improved?
    
 > [!NOTE]
 > ### Things to watch for:
@@ -289,12 +291,13 @@ Next, let's take another look at the Activity section.
 9. Without clicking yet, what would you do next?
 10. Let's say you want to refill the L-O-R prescription, tell me what you would do next.
 11. What do you expect to happen when you do that?
-12. Go ahead and go through the next steps. Talk out loud as you do please. 
-13. What did you think about that process?
-14. What worked well?
-15. What could be improved?
-16. Now that we're back on the Homescreen, take another look, and let me know if there's anything you would change about it overall or any of the information displayed for each item.
-17. Probe: Is there more information you'd want up front here for your 2 upcoming appointments?
+12. Go ahead and go through the next steps. Talk out loud as you do please.
+13. What do you expect to happen when you close the prescription screen?
+14. What did you think about that process?
+15. What worked well?
+16. What could be improved?
+17. Now that we're back on the Homescreen, take another look, and let me know if there's anything you would change about it overall or any of the information displayed for each item.
+18. Probe: Is there more information you'd want up front here for your 2 upcoming appointments?
 
 > [!NOTE]
 > ### Things to watch for:
