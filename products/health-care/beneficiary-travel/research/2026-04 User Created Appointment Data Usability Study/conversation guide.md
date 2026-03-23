@@ -260,9 +260,10 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 
 1. What kind of document would you upload here?
 2. _If the user has been to a community care appointment:_ Do you typically have this kind of document after a community care appointment?
-3. What would you do if you didn’t have this type of documentation?   
-4. <mark>Working note: If we're testing new language here, as well, we can add questions about the content.</mark>
-5. _If they notice the hint text:_Do you have an concerns about what this is telling you?
+3. What would you do if you didn’t have this type of documentation?
+4. What does the phrase "Proof of care received" mean to you?
+5. How might that change if it said "Proof of attendance"?
+6. _If they notice the hint text:_ Do you have an concerns about what this is telling you?
 
 `Moderator: Since this is a prototype, we won’t actually upload a document, but you can click on the box and imagine it was a file that you selected and added.`
 
