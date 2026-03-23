@@ -1,4 +1,4 @@
-# MMI (Medications Management Improvements) - Monitoring & Instrumentation Plan
+# MMI (Medications Management Improvements) - Monitoring Coordination Plan
 
 **Last updated:** 2026-03-23  
 **Initiative brief:** [Meds Management Improvements](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medications/product/meds-management-improvements.md)  
