@@ -6,6 +6,23 @@ The purpose of the annual IA audit is to quickly review all pages and features w
 
 [Auditing checklist](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/information-architecture/process/ia-audits/audit-checklist.md)
 
+###2025-6 audits###
+Focus area | Month completed | Audit File
+--- | --- | --- 
+Health care hub |   |  | 
+Disability hub |  | | 
+Education and training hub |  |  | 
+Careers and employment hub |  |  |
+Pension hub| March 2026 |  | 
+Housing assistance hub| March 2026 | | 
+Life insurance hub| March 2026 | |
+Burials and memorials hub| | |
+Records hub | In progress |  | 
+Decision reviews hub| | | 
+Root level | | | 
+Family and caregiver | February 2026 | | 
+
+###2023 audits###
 Focus area | Date Uploaded | Audit File
 --- | --- | --- 
 Health care hub | July 2024 | [Health Care Hub 2023](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/information-architecture/process/ia-audits/2023/Health%20care%20Hub%20Audit.xlsx) | 
