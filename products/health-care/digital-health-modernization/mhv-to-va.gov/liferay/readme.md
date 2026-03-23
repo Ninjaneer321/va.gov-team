@@ -4,7 +4,6 @@
 - Team GitHub Labels:
   - Liferay/SM Clinician Portal
   - Liferay/SM Admin Portal
-  - Liferay Admin Portal
   - Liferay National Portal
 - Slack channel: mhv-liferay-portals
 - Product POCs: 
