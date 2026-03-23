@@ -14,8 +14,8 @@ Disability hub |  | |
 Education and training hub |  |  | 
 Careers and employment hub |  |  |
 Pension hub| March 2026 |  | 
-Housing assistance hub| March 2026 | | 
-Life insurance hub| March 2026 | |
+Housing assistance hub| March 2026 | [Housing audit](https://dvagov.sharepoint.com/:x:/r/sites/oitcontentiateam/Shared%20Documents/Site%20audits/IA%20audits/Housing%20Audit.xlsx?d=wd524ce21ef8b44bba9ff376f77002aa6&csf=1&web=1&e=piHwmb) | 
+Life insurance hub| March 2026 | [Life insurance audit](https://dvagov.sharepoint.com/:x:/r/sites/oitcontentiateam/Shared%20Documents/Site%20audits/IA%20audits/Life%20Insurance%20Audit.xlsx?d=w37dfbdeeb939466c8350a052159d6f36&csf=1&web=1&e=273Cwi) |
 Burials and memorials hub| | |
 Records hub | In progress |  | 
 Decision reviews hub| | | 
