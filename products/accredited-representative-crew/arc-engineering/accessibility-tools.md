@@ -11,9 +11,10 @@ axe DevTools is an extension for Google Chrome that can run automated accessibil
 2. Open the Developer Tools in Google Chrome (More tools > Developer Tools)
    1. <img width="584" height="350" alt="image" src="https://github.com/user-attachments/assets/0a5b3322-9f15-4de8-b5bb-739a7aa5d0a1" />
 3. Click on the axe DevTools tab
-4. Click on the kabab menu icon within axe DevTools and click on “Settings.”
+   1. <img width="794" height="127" alt="image" src="https://github.com/user-attachments/assets/8a3e3d49-ce14-4359-bf32-52ef0eab256a" />
+5. Click on the kabab menu icon within axe DevTools and click on “Settings.”
    1. <img width="863" height="120" alt="image" src="https://github.com/user-attachments/assets/b7254c3f-1e13-449a-a41b-41a3d360d84d" />
-5. Under “Rules and issues,” ensure that:
+6. Under “Rules and issues,” ensure that:
     1. “Best Practices” are enabled, and
     2. “WCAG 2.2 AA” is selected.
 
