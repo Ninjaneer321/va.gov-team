@@ -23,7 +23,6 @@ axe DevTools is an extension for Google Chrome that can run automated accessibil
 ### Running a Scan
 1. Open the Developer Tools in Google Chrome
 2. Click on the axe DevTools tab within the Developer Tools.
-   1. <img width="714" height="265" alt="image" src="https://github.com/user-attachments/assets/2f9116fe-fe72-4468-8791-be15a5f3d640" />
 3. Click “Full page scan” and wait for the results to appear.
 4. If any issues are found, either:
     1. Fix the issue before submitting a PR (preferred), or
