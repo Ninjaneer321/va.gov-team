@@ -136,7 +136,7 @@ tags:
 	
 `What problem is your product trying to solve?`
 
-Some medical appointments, such as community care and other unscheduled VA appointments like walk-ins or emergency visits, do not appear in a Veteran’s past appointment list. This means that Veterans cannot file for travel pay on VA.gov and are instead required to go to the legacy Beneficiary Travel Self-Service System (BTSSS) to enter their appointment info in order to input a user-created appointment as a starting point for their travel claim. 
+Some medical appointments, such as community care and other unscheduled VA appointments like walk-ins, do not appear in a Veteran’s past appointment list. This means that Veterans cannot file for travel pay on VA.gov and are instead required to go to the legacy Beneficiary Travel Self-Service System (BTSSS) to enter their appointment info in order to input a user-created appointment as a starting point for their travel claim. 
 
 We need to enable Veterans to file travel reimbursement claims on VA.gov for appointments that don’t appear in their appointments list, consolidating more travel pay functionality on VA.gov and reducing reliance on BTSSS. Our goal is to create a complete, self-contained travel reimbursement claim experience on VA.gov.
   
@@ -255,7 +255,8 @@ Validate related community care work, which is a primary use case for this new f
 * Veterans will have preconceived ideas about how the process should function, depending on their familiarity with BTSSS, the VA Health and Benefits app (VAHB), and simple mileage only claims (SMOC).    
  
 `What do you think users will do or think about this product?`   
-* We assume that Veterans will be able to successfully create claims from either entry point and will not have a definitive preference, although they may find creating claims from the past appointment list is more familiar. We also expect that when starting from the past appointments list, they will expect the appointment to be added to this list.   
+* We assume that Veterans will be able to successfully create claims from either entry point and will not have a definitive preference, although they may find creating claims from the past appointment list is more familiar. We also expect that when starting from the past appointments list, they will expect the appointment to be added to this list.
+* We expect Veterans will successfully complete the form fields, but may question the purpose of certain fields (i.e. appointment name, type).  
 * We think that while Veterans may be slightly confused by their user generated appointments not appearing in the past appointments list, they will be able to easily identify the claims associated with those appointments in their claims list. However, we recognize there is a risk of duplicate claims due to the separate views.
 * <mark>Working note: Do we think users will be able to navigate back to their claim? Should we add something about that in this study?</mark>
 
