@@ -287,7 +287,7 @@ Once the participant has reached an entry point, we will observe them as they co
 **Alternate entry-point evaluation (5-8 minutes)**
 After completing the flow from the self-selected entry point, we’ll guide participants to the alternative entry point. We’ll ask them to evaluate whether this path feels natural and whether it conflicts with their mental model of where travel claims functionality lives on the site.
 
-**4a. Comparative entry point assessment (5-8 minutes**
+**4a. Comparative entry point assessment (Optional, if time permits, 5-8 minutes)**
 Time permitting, we will also show participants the static mock ups of both entry points side-by-side and ask what works well or doesn’t work well for each page. This will help us distinguish between preferences for navigation path versus preferences for the content, call to action placement, and messaging on each page itself.
 
 **Wrap up (3 minutes)**
