@@ -52,5 +52,5 @@ These should be cross-checked against real staging data once the LGY SQA team (N
 
 ## PRs
 
-[vets-api-mockdata PR](https://github.com/department-of-veterans-affairs/vets-api-mockdata/pull/677) - create mock responses which match current state of Staging env (plus added a couple hand-written ones)
-[vets-api PR](https://github.com/department-of-veterans-affairs/vets-api/pull/27202) - update VCR cassettes used in tests
+- [vets-api-mockdata PR](https://github.com/department-of-veterans-affairs/vets-api-mockdata/pull/677) - create mock responses which match current state of Staging env (plus added a couple hand-written ones)
+- [vets-api PR](https://github.com/department-of-veterans-affairs/vets-api/pull/27202) - update VCR cassettes used in tests
