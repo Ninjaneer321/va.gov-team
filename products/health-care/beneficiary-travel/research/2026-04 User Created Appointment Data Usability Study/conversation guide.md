@@ -234,7 +234,7 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 > - 2. Do they notice that the time selector has AM/PM, but no question about timezone?
 > - 3. Is the hint text helpful or do participants still express confusion?
 
-### Review page
+### Appointment confirmation page
 `Moderator: Take a look at this page. What do you see here?`   
 1. What is this page asking you to do?
 2. What do you think the “edit” button does?
@@ -254,6 +254,12 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 > - 2. Do they understand that they won’t be able to edit the appointment information later? If so, how do they feel about that?
 > - 3. Do they think their claim is filed after continuing or do they recognize there is more to do?
 > - 4. Do users imagine that the system will check them or prevent them from creating duplicate appointments?
+
+### Community care page
+`Moderator: Take a look at this page. What do you see here?`   
+1. What is this page asking you?
+2. Do you know what community care means?
+3. What would you do if you didn't understand the question?
 
 ### Community care proof page
 `Moderator: Take a look at this page and think aloud again. What is this page asking you to do?`    
