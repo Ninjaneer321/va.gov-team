@@ -7,7 +7,7 @@ This release plan covers the rollout of Intent to File (ITF) status visibility i
 ## Resources
 - [Collaboration Cycle Ticket #123042](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123042)
 - [Architecture Intent Ticket #135672](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135672)
-  - [Engineering & Security Checklist](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/platform/engineering/collaboration-cycle/architecture-intent/checklist/B
+  - [Engineering & Security Checklist](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/platform/engineering/collaboration-cycle/architecture-intent/checklist/Benefits%20Management%20Tools%202%20-%20Intents%20to%20File%20-%2003232026.md)
 - [ITF API Spike Findings #133381](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133381)
 - [Product Outline (Super Epic #110236)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/110236)
 - [Incident Response](./incident-response.md)
