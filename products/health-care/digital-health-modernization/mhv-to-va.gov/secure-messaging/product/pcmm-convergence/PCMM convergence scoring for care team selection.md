@@ -56,8 +56,8 @@ Instead of alphabetical, we put Green Kitchen at the top. You still see all 80 r
 Missing piece is a direct, authoritative link between PCMM team IDs and OH pool IDs. 
 
 Some options:
-1. OH product change: Oracle Health adds a PCMM team ID field to pool configuration.
-2. PCMM product change: PCMM adds an OH pool ID field. 
-3. VA-managed crosswalk table: We maintain a PCMM_TEAM_ID → OH_POOL_ID mapping ourselves. 100% accurate when maintained, but requires a curation process for ~2,000+ pools across all OH sites.
+1. **OH product change**: Oracle Health adds a PCMM team ID field to pool configuration.
+2. **PCMM product change**: PCMM adds an OH pool ID field. 
+3. **VA-managed crosswalk table**: We maintain a PCMM_TEAM_ID → OH_POOL_ID mapping ourselves. 100% accurate when maintained, but requires a curation process for ~2,000+ pools across all OH sites.
 
 Convergence scoring is "good enough now". Any of the 100% paths could layer on top later as a scoring boost.
