@@ -184,7 +184,7 @@ The research case for adding crisis and basic-needs resources to DYB is compelli
 | Empty links with no text or alt text | Assistive technology encounters unlabeled interactive elements | Critical |
 | "Not for emergency or crisis intervention" disclaimer prominent on a page about basic needs | Potentially discouraging for Veterans directed here when in crisis | Critical |
 | No mobile-responsive design on a legacy .asp platform | Majority of crisis interactions are mobile; page likely unusable on phone | Critical |
-| Visual design completely inconsistent with VA.gov | Jarring context switch from DYB erodes trust;. The page may appear abandoned or unofficial. | High |
+| Visual design completely inconsistent with VA.gov | Jarring context switch from DYB erodes trust. The page may appear abandoned or unofficial. | High |
 | No way to navigate between basic-needs subcategories without returning to parent page | Increases clicks and cognitive load for someone exploring multiple resource categories | High |
 | "Find your path to financial success" tagline on a crisis-adjacent page | Tone mismatch. A Veteran seeking food or shelter is not on a "financial success journey" | High |
 | Generic "Learn more" link text repeated | Non-descriptive for screen reader users | Medium |
