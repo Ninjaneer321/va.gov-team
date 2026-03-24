@@ -299,42 +299,42 @@ We would like Perigean to recruit Veterans with current overpayment debt who are
 Screener question 1
 
 * Do you currently owe any of the following types of VA debt? If so, please select all that apply.
-    * Medical debt [DISQUALIFY IF THIS IS THE ONLY SELECTION]
+    * Medical debt _[DISQUALIFY IF THIS IS THE ONLY SELECTION]_
     * Post-9/11 GI Bill overpayment (books and supplies, housing, or tuition)
     * Disability compensation and pension overpayment
     * Education Ch 33-Ch 1606/Ch30 Kickers
     * Chapter 34 education overpayment
     * Chapter 35 education overpayment
-    * I do not currently owe any of the above types of VA debt. [DISQUALIFY]
+    * I do not currently owe any of the above types of VA debt. _[DISQUALIFY]_
 
 Screener question 2
 
 * When you sign in to VA.gov and go to My VA, do you see details about "overpayment debts" under the section "Outstanding debts"? (This is different from copay bills.)
     * Yes, I see a listing of 1 or more overpayment debts on VA.gov.
-    * No, I don’t see any overpayment debt details on VA.gov [DISQUALIFY]
-    * I don’t have a VA.gov account / I can’t sign in right now [DISQUALIFY]
+    * No, I don’t see any overpayment debt details on VA.gov _[DISQUALIFY]_
+    * I don’t have a VA.gov account / I can’t sign in right now _[DISQUALIFY]_
 
     _NOTE: Please make sure the link in question 2 is included in the invitation_
 
 Screener question 3
 
 * To participate in this study, you’ll need to sign in to the VA mobile app using your real Login.gov or ID.me credentials so we can confirm everything is working correctly. Please confirm if you are comfortable with this:
-    * I am willing to log in to the mobile app with my real credentials and share my screen during the session. [PRIORITIZE THIS OVER NEXT ANSWER]
-    * I am willing to log in to the mobile app with my real credentials, describe what I am seeing on screen, but NOT share my screen. [ONLY SELECT IF WE DON'T HAVE ENOUGH FROM PREVIOUS ANSWER]
-    * I am not comfortable logging in with my real credentials for this study. [DISQUALIFY]
+    * I am willing to log in to the mobile app with my real credentials and share my screen during the session. _[PRIORITIZE THIS OVER NEXT ANSWER]_
+    * I am willing to log in to the mobile app with my real credentials, describe what I am seeing on screen, but NOT share my screen. _[ONLY SELECT IF WE DON'T HAVE ENOUGH FROM PREVIOUS ANSWER]_
+    * I am not comfortable logging in with my real credentials for this study. _[DISQUALIFY]_
 
 Screener question 4
 
 * Participation requires downloading specific testing tools and a pre-release version of the VA app which will temporarily replace your current version. If you use an Android, you must also be comfortable temporarily adjusting your security settings to allow the installation. We will guide you through restoring the original app and returning your device to its original state at the end.
     * Yes, I am comfortable with this.
-    * No, I would prefer not to change my phone/tablet settings or apps. [DISQUALIFY]
+    * No, I would prefer not to change my phone/tablet settings or apps. _[DISQUALIFY]_
 
 Screener question 5
 
 * Are you able to join the Zoom session from a smartphone or tablet? Any kind of smartphone or tablet will work as long as it connects to the internet.
-    * Yes, I have an iPhone where I can join the session
+    * Yes, I have an iPhone where I can join the session _[recruit 6 iOS: can be a mix of phone and tablet]_
     * Yes, I have an iPad where I can join the session
-    * Yes, I have an Android phone where I can join the session (for example: Samsung, Google, Motorola, or LG)
+    * Yes, I have an Android phone where I can join the session (for example: Samsung, Google, Motorola, or LG) _[recruit 6 Android: can be a mix of phone and tablet]_
     * Yes, I have an Android tablet where I can join the session
     * No [DISQUALIFY]
 
