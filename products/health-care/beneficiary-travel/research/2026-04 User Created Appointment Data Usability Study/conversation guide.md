@@ -269,7 +269,7 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 3. What would you do if you didn’t have this type of documentation?
 4. What does the phrase "Proof of care received" mean to you?
 5. How might that change if it said "Proof of attendance"?
-6. _If they notice the hint text:_ Do you have an concerns about what this is telling you?
+6. _If they notice the hint text:_ Do you have any concerns about what this is telling you?
 
 `Moderator: Since this is a prototype, we won’t actually upload a real document, but you can click on the box and the prototype will walk you through what it might look like.`
    
