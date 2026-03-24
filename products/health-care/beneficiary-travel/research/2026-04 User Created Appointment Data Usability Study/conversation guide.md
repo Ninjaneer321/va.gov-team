@@ -263,20 +263,21 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 ### Community care proof page
 `Moderator: Take a look at this page and think aloud again. What is this page asking you to do?`    
 
+`Moderator: Since this is a prototype, we won’t actually upload a real document, but you can click on the box and the prototype will walk you through what it might look like.`
+
 1. What kind of document would you upload here?
 2. _If the user has been to a community care appointment:_ Do you typically have this kind of document after a community care appointment?
 3. What would you do if you didn’t have this type of documentation?
 4. What does the phrase "Proof of care received" mean to you?
 5. How might that change if it said "Proof of attendance"?
-6. _If they notice the hint text:_ Do you have any concerns about what this is telling you?
-
-`Moderator: Since this is a prototype, we won’t actually upload a real document, but you can click on the box and the prototype will walk you through what it might look like.`
+6. _If they notice the explanation text:_ Do you have any concerns about what this is telling you?
    
 > [!NOTE]
 > #### Things to watch for:
 > - 1. Do they have past experiences to share about community care documentation?
-> - 2. Do they notice the hint text about renaming the file?
-> - 3. Do they interact with or notice  the “more info” component?
+> - 2. Do they notice the text about renaming the file?
+> - 3. Do they notice that the file name changes at all?
+> - 4. Do they interact with or notice  the “more info” component?
 
 ### Expense selection   
 `Moderator: In this scenario, you just drove there and back from your home address. How would you continue to file a travel reimbursement claim from this page?`   
