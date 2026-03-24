@@ -8,7 +8,7 @@ In this doc:
 - [Data sources](#data-sourcess)
 - [UX options](#ux-options)
 - [Limitations](#limitations)
-- [Future (100% confidence path)]
+- [Future (100% confidence path)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/product/pcmm-convergence/PCMM%20convergence%20scoring%20for%20care%20team%20selection.md#future-100-confidence-path)
 
 
 ## Solution description
