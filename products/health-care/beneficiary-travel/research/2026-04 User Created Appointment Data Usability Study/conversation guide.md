@@ -330,9 +330,9 @@ _Participant selects mileage_
 
 
 ## Section 4: Alternate entry-point evaluation (5-10 minutes)   
-`Moderator: Thank you so much for walking through that with me! Now that you’ve filed through one path, let’s take a look at another way we could file. We’re going to go back to the VA.gov homepage so we can explore another path.`   
+`Moderator: Thank you so much for walking through that with me! Now that you’ve filed through one path, let’s take a look at another way we could file. We’re going to go back to the VA.gov homepage so we can explore another path. Click at the top of the screen, and we'll go back to VA.gov. Now scroll down a little and click on Manage and file travel reimbursement claims.` 
 
-<mark>Working note: Path and language here still TBD; list the path moderator will follow or participant will be guided through</mark>
+_Instruct user to click on the option they did not start from last time, either "Go to your past appointments" or "Review your travel reimbursement claims"_
 
 `Moderator: Here’s the other page where someone could start a travel claim.`
 
