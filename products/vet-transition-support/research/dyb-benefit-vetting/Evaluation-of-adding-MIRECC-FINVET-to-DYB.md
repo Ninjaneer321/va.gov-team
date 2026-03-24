@@ -2,11 +2,11 @@
 
 ## Summary
 
-After reviewing evidence from five DYB studies, cross-product VA.gov research, and the FINVET resource itself, I recommend **Not Right Now** for adding a direct link to the MIRECC FINVET "Meet Your Basic Needs" page to DYB.
+After reviewing evidence from DYB studies, cross-product VA.gov research, and the FINVET resource itself, I recommend **Not Right Now** for adding a direct link to the MIRECC FINVET "Meet Your Basic Needs" page to DYB.
 
-The research evidence strongly supports the need for crisis and basic-needs resources in DYB. Our own Feb 2026 study calls for it. Cross-product research review consistently shows that Veterans in transition face compounding stressors (financial, housing, family, social adjustment) and need prominent, accessible crisis pathways beyond the help with suicidality and mental health crisis offered by the Veteran Crisis Line.
+The research evidence strongly supports the need for crisis and basic-needs resources in DYB. Our Feb 2026 study recommends adding it. Cross-product research review consistently shows that Veterans in transition face compounding stressors (financial, housing, family, social adjustment) and need accessible crisis pathways beyond the help with suicidality and mental health crisis offered by the Veteran Crisis Line.
 
-However, the FINVET resource itself has significant usability problems: confusing navigation, legacy visual design that doesn't match VA.gov standards, and a structure that may increase cognitive load for Veterans already in distress. Linking Veterans in crisis to a poorly usable resource risks eroding the trust DYB has established. Instead, we should pursue a broader crisis/basic-needs resource strategy that the research supports, and consider FINVET's content categories as a model for what to include — even if FINVET itself is not the right destination.
+However, the FINVET resource itself has significant usability problems: Confusing navigation, legacy visual design that doesn't match VADS or VA.gov standards, and a structure that may increase cognitive load for Veterans already in distress. Linking Veterans in crisis to a poorly usable resource risks eroding the trust DYB has established. Instead, we should pursue a broader crisis resource strategy supported by our and other teams' research, and consider FINVET's content categories as a model for including help with basic needs.
 
 ## Pros and Cons of Adding
 
