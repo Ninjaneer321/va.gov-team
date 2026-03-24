@@ -122,7 +122,7 @@ The TBD values in this table are intentional. This plan defines **what** to meas
 
 | What needs to be filled in | Who owns it | How they get it |
 |---|---|---|
-| **Baselines for KPIs 2, 3** (refill volume, unique Veterans) | Analytics / Data (Anne Kennedy has Oracle SQL access) | Run existing Oracle SQL queries and record current values |
+| **Baselines for KPIs 2, 3** (refill volume, unique Veterans) | Analytics / Data (TBD) | Run existing Oracle SQL queries and record current values |
 | **Baselines for KPIs 4, 5** (CSAT, Medallia complaint volume) | UX team | Pull current values from Medallia and DOMO dashboards |
 | **Baseline for KPI 6** (call center volume) | UX team | Pull current Rx-related contact volume from Salesforce via DOMO |
 | **Baselines for KPIs 9, 10** (API error rate, page load speed) | Engineering | Pull current values from the Datadog Rx dashboard |
