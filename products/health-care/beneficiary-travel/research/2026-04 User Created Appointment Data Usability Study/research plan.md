@@ -323,7 +323,7 @@ We will work with Perigean to recruit participants for this study.
 *What demographics, experience, and scenarios do you need participants to meet to effectively run your study?* 
 
 - `Veterans who use VA health care`   
-- `Veterans who have only attended VA appointment(s)   
+- `Veterans who have only attended VA appointment(s)`
   * Those who have filed for travel pay: 2-3 participants   
   * Those who have not filed for travel pay: 2-3 participants   
   * Veterans who have only attended community care appointment(s)   
