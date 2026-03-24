@@ -16,7 +16,7 @@ However, the FINVET resource itself has significant usability problems: Confusin
 * Partially fills the gap identified in our Feb 2026 research findings: "We need to conduct specific testing with users experiencing cognitive or high-stress loads to evaluate the implementation of crisis/unhoused resources on the discovery page"  
 * FINVET covers categories such as food, housing, financial assistance, clothing, and transportation, which are unmet needs that extend beyond what the Veterans Crisis Line offers.  
 * Would be a low-effort addition of a single benefit card  
-* The content scope of FINVET aligns with what P5 from our February study, and other participants who have raised crisis support as a missing resource described as a missing area of support: Resources that not only address suicidality, but also housing and financial crises.  
+* The content scope of FINVET aligns with what P5 from our February study, and other participants who have raised crisis support as a missing resource described as a missing area of support, which is resources that not only address suicidality, but also housing and financial crises.  
 * FINVET is new within the VA.gov digital ecosystem. No other product references it or provides overlapping services.
 
 ### Cons
