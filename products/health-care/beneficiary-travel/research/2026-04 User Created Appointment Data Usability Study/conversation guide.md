@@ -203,13 +203,12 @@ _After participant reviews page_
 > - 3. Do they express any concern about this process?
 > - 4. Do they seem to understand that this is for a specific scenario of missing appointments?
 
-### Appointment information page <mark>Working note: May be split up further with facilities selection</mark>
-`Moderator: Moderator: Go ahead and take some time to observe this page. Because this is a prototype, you won’t be able to actually input anything, so the fields will be prepopulated when you click on them. But it helps us if you speak out loud and pretend to fill out this form as you would normally.`   
+### Appointment information page
+`Moderator: Go ahead and take some time to observe this page. Because this is a prototype, you won’t be able to actually input anything, so the fields will be prepopulated when you click on them. But it helps us if you speak out loud and pretend to fill out this form as you would normally.`   
 
 #### Page sections   
 **Facility selection**   
 * What would you do if you couldn’t find your facility in this list?
-* <mark>Working note: Designs still in progress, so additional questions may be added.</mark>
 
 **Appointment type**   
 * What do these “types” listed here mean to you?
