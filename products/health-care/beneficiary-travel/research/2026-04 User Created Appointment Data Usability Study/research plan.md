@@ -433,3 +433,4 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 - **[Enter full name]**
 
 ## Approvals ✅
+- Kristen McConnell, OCTO Design/Research Lead, 3/24/2026
