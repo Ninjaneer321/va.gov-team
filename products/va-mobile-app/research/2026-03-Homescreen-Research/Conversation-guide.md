@@ -112,10 +112,6 @@ Before we start, I want to go over a few things:
  
   - **Are you comfortable if we decide to use a recorded clip from our discussion today to share with other VA partners as long as we remove any information that can be used to identify you?** Yes / No
 
-*Moderator: In the bottom toolbar of the Zoom window, click the arrow next to **SHOW CAPTIONS** > **View Full Transcript** > Save (NEED TO DO THIS TO GET TRANSCRIPT)*
-
-*After checking that transcription is working, close the Transcript panel by clicking **Close Full Transcript** in the Show Captions menu.*
-
 
 ## Troubleshooting
 - [Avoid **AI Companion**, which is a new option next to “Share” in the Zoom buttons]
@@ -129,15 +125,13 @@ Let’s start with a few questions...
 1. I understand you're a Veteran. Is that right? 
     - Thanks for confirming that.
 
-2. What kind of device are you using today? *(Tablet / Smartphone)*
+2. What kind of device are you using today? *(iPhone, Android phone)*
     - *(If not the expected device, ask to rejoin that way)*
 
-3. What operating system is on your device? *(iOS / Android / _______)*
-
-4. Do you have the VA Health and Benefits mobile app on your device?
+3. Do you have the VA Health and Benefits mobile app on your device?
    - If so, can you tell me what you typically use the mobile app for? How has your experience been so far?
 
-5. [If not] Have you ever used it?
+4. [If not] Have you ever used it?
    - If so, what did you use it for? How was your experience?
 
 
