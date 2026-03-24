@@ -1,42 +1,60 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Travel Pay Team, User Created Appointment Data Usability Study, March/April 2026"
+author: "Kristen Faiferlick and Liza McRuer"
+date_created: "2026-03-24"
+last_modified: "2026-03-24"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Travel Pay"
+portfolio: "health"
+product: "Travel Pay Reimbursement"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use VA health care and have attended VA appointments and/or community care appointments in the past 12 months, with varied experience filing for travel pay reimbursement"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/health-care/beneficiary-travel/research/2026-04 User Created Appointment Data Usability Study/research plan.md"
+related_prototype: "https://www.figma.com/proto/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?node-id=16385-16517"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Travel-pay"
+  - "MHV: Appointments"
+  - "DSP: Ask users for dates"
+  - "DSP: Ask users for files"
+  - "DSP: Content Presentation"
+  - "DSP: Help users to check answers"
+  - "DSP: Contextual Help"
+  - "DSC: Form"
+  - "DSC: Form - Date Input"
+  - "DSC: Form - File Input"
+  - "DSC: Form - Radio Button"
+  - "DSC: Form - Select"
+  - "DSC: Alert Boxes"
+  - "DSC: Button"
+  - "Initiative: CX Executive Order"
+  - "usability-testing"
+  - "comparative-analysis"
+  - "remote"
+  - "authenticated-experience"
+  - "travel-reimbursement"
+  - "community-care"
+  - "appointment-data-entry"
+  - "legacy-system-migration"
+description: "Moderated usability testing to evaluate Veterans' ability to enter missing appointment data and file travel reimbursement claims, determine optimal entry point placement, and assess perception of user-generated versus system-generated appointments."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true
 ---
 
-> [!TIP]
-> **Complete the frontmatter section above AFTER you've filled out your conversation guide below.**
-> 
-> Use the [GitHub Copilot Conversation Guide Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/conversation-guide-frontmatter-completion-prompt.md) to automatically generate structured metadata from your completed conversation guide.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags based on your tasks and research objectives. This ensures consistency and completeness across all research documentation.
-
-# Conversation Guide for [initiative]
+# Conversation Guide for User Created Appointment Data Usability Study
 
 ## Moderator logistics 📋✅
 ### 2-3 days before the session
@@ -46,7 +64,7 @@ consent_for_clips: true
 
 `List and complete any project-specific setup tasks for this study below:`
 
-- [ ] Step 1
+- [ ] Step
 - [ ] Step 2
 - [ ] Step 3
 
