@@ -358,8 +358,10 @@ Cohort 2 (recruit 12 people):
 ## Timeline 🗓️
 
 ### Optional Kick-off Call with Perigean
-We would like a kick-off call with Perigean to discuss recruitment criteria. Suggested dates and times: 
-- `Monday - Friday 11:30am-4:30pm ET`
+We would like a kick-off call with Perigean to discuss recruitment criteria. Suggested dates and times, all in EST: 
+> - Monday 3/30: 12:30-1pm, 4-4:30pm
+> - Tuesday 3/31: 3-4pm 
+> - Wednesday 4/1: 12-1pm, 2:30-3:30pm 
 
 ### Prepare
 **A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.** 
@@ -367,7 +369,7 @@ We would like a kick-off call with Perigean to discuss recruitment criteria. Sug
 > **Send pilot participant email in study Slack channel**
 
 - `Pilot participant name:` 
-- `Date and time of pilot session:` 
+- `Date and time of pilot session:` Will schedule between 3/30 and 4/2
 
 ### Research sessions
 - `Planned dates of research:`
@@ -415,5 +417,5 @@ Cohort 2
 ## Approvals ✅
 > [!NOTE]
 > Before submitting for review, ensure you've completed the YAML frontmatter section at the top of this document using the [Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md).
-- `Reviewed by [OCTO Product Owner, Team Lead] on [MM-DD-YYYY]`
+- `Reviewed by John Riggin on [MM-DD-YYYY]`
 - `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`
