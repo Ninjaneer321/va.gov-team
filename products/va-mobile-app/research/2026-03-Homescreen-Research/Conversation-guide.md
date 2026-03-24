@@ -2,7 +2,7 @@
 title: "Conversation Guide for VA Mobile App Homescreen Research - March 2026"
 author: "Theresa"
 date_created: "2026-03-11"
-last_modified: "2026-03-11"
+last_modified: "2026-03-23"
 
 # Core research metadata
 team: "VA Mobile App Team"
@@ -106,8 +106,6 @@ Before we start, I want to go over a few things:
   - *(If yes:)* Once I start recording, I am going to confirm once more that you are ok with me recording this session.
 
 ➡️ Select **Record**, then **Record to the cloud**.
-
-*(If participant asks you to NOT record)* Are you comfortable if I save the transcript of the session? *(If not, take good notes!)*
 
 - I have started recording. I'd like to confirm: 
   - **Are you comfortable if I record my screen and the audio as we talk today?** Yes / No
