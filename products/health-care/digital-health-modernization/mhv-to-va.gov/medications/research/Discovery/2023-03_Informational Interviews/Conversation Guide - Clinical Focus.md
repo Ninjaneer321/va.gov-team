@@ -1,3 +1,41 @@
+---
+title: "Conversation Guide for health-care, health-care, 2026-03-23"
+author: with the
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "health-care"
+portfolio: "Health Care"
+product: "health-care"
+research_phase: "Generative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Clinical staff working with medications"
+
+# Related documents
+related_research_plan: "Medications Discovery Research Plan March 2023"
+related_prototype: "N/A"
+
+tags:
+  - health-care
+  - MHV
+  - medications
+  - discovery
+  - clinical
+  - informational-interviews
+  - conversation-guide
+description: "Clinical focus conversation guide for medications discovery"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide - Clinical Focus
 
 ### Starting the session

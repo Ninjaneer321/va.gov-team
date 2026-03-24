@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for Appointments on MHV on VA.gov UAT - Phase 2B, November 2023"
-date: 2023-11-17
+date: 2023-11-01
 last_updated: 2023-11-17
 team: "VA Online Scheduling (VAOS)"
 product: "VA Online Scheduling"
@@ -115,16 +115,16 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/appointments/va-online-scheduling"
     
 tags:
-  - "VAOS"
-  - "appointments"
-  - "UAT"
-  - "MHV-on-VA-gov"
-  - "navigation"
-  - "print"
-  - "cerner"
-  - "authenticated"
-  - "veterans"
-  - "health-care"
+  - HCE
+  - UAT
+  - VAOS
+  - accessibility
+  - appointments
+  - caregivers
+  - community-care
+  - mobile
+study: Appointments on MHV on VA.gov UAT - Phase 2B
+type: UAT
 ---
 
 # Research Plan for Appointments on MHV on VA.gov UAT

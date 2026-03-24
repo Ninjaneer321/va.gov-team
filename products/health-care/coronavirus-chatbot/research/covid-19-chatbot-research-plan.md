@@ -1,109 +1,104 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for COVID-19 Chatbot, March 2020"
+date: 2020-03-30
+last_updated: 2020-03-30
+team: "VA.gov Public Websites Team"
+product: "COVID-19 Chatbot"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The COVID-19 pandemic has resulted in increased Veterans and care teams seeking information from VA about COVID-19 symptoms, exposure, testing, quarantine, prevention, and other topics. Need to provide accessible information and reduce calls to VA call centers."
+  product_location: "VA.gov"
+  user_familiarity: "New product - prototype chatbot for COVID-19 information"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/coronavirus-chatbot/product-brief.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand how Veterans seek out information about COVID-19"
+  - goal_2: "Validate if a chatbot provides satisfactory information and positive experience"
+  - goal_3: "Identify the preferred experience to interact with a chatbot (guided prompts, free text, or hybrid)"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do Veterans currently seek COVID-19 information from VA?"
+  - "Does a chatbot provide satisfactory COVID-19 information?"
+  - "What interaction patterns work best for the chatbot (guided vs free text)?"
+  - "Can a chatbot reduce calls to VA call centers?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "A chatbot can provide many Veterans with COVID-19 information they are seeking and reduce calls to VA call centers"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate chatbot concept and identify optimal interaction patterns for delivering COVID-19 information to Veterans"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans or those who care for a Veteran"
+    - "Mix of genders and ages"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Bonus: participants who have sought information from VA about COVID-19"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you sought information from VA about COVID-19?"
+      qualifying_response: "Yes (bonus criterion)"
       
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 5
+  caregivers: 1
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 6
+  completed_sessions_goal: 5
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-04-01"
+  pilot_participant: "Ramya Ramesh or Katie Ho"
+  research_dates: "2020-04-02 to 2020-04-10"
+  research_review_submission: "2020-03-30"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 30
+  buffer_minutes: 0
+  max_sessions_per_day: 6
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Provide accessible COVID-19 information"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Living civilian life"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/products/health-care/coronavirus-chatbot/"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "usability-testing"
+  - "veterans"
+  - "caregivers"
+  - "evaluative"
+  - "COVID-19"
+  - "chatbot"
 ---
 
 # Research Plan for COVID-19 Chatbot

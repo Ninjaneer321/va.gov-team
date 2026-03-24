@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Technical Planning
+title: 🥖 Team Carbs Planning 🥖
+services: Disability
+tags: 526EZ, disability
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/product/CarbsPlanning/🥖 Team Carbs Planning .md
+---
 # 🥖 Team Carbs Planning 🥖
 
 | OCTO-DE Vision | Veterans get benefits in minutes, not months. |

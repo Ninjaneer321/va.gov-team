@@ -1,109 +1,112 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Understanding Board Appeal Hearings on VA.gov, July 2021"
+date: 2021-07-01
+last_updated: 2021-07-01
+team: "Caseflow Team"
+product: "Board Appeal Virtual Hearings"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Enable Veterans with existing appeals to self-service notify the Board they would like to change to a virtual hearing, eliminating inefficient manual outreach by Hearing Coordinators"
+  product_location: "VA.gov authenticated experience (claims tracking area)"
+  user_familiarity: "New self-service feature for existing Board appeal process"
+  product_brief_url: "https://vajira.max.gov/browse/CASEFLOW-51"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Semi-structured interviews and usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand where in VA.gov authenticated experience Veterans expect to find and change information about their Board hearing"
+  - goal_2: "Identify what information Veterans need to confidently make a decision about virtual hearing"
+  - goal_3: "Learn how Veterans currently find and manage information about their Board hearing"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Where in the VA.gov authenticated experience do Veterans expect to be able to change their existing hearing request type to virtual?"
+  - "What information do Veterans need to confidently make a decision about whether they'd like a virtual hearing?"
+  - "How do Veterans find and manage information about their Board hearing now?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will expect to see and make changes to their existing hearing request within the Track Claims section of the VA.gov authenticated experience"
+  - "Veterans may have concerns about virtual hearing technology requirements that would impact their willingness to choose the virtual hearing format"
+  - "Veterans will want to receive clear guidance on next steps"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Inform next stages of design for choosing a virtual hearing on VA.gov"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment for Veterans with Board appeal hearings"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who have requested or participated in a hearing with a Judge from the Board of Veterans' Appeals"
+    - "Must be able to participate via laptop or desktop and screenshare via Zoom"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mix of hearing not held and hearing already held"
+    - "Mix of participants who had virtual hearing vs VA facility"
+    - "Mix of those with VA.gov accounts (LOA3) and those without"
+    - "At least 2 non-male"
+    - "At least 2 non-white"
+    - "At least 3 who are 60 years and over"
+    - "At least 1 with cognitive impairments or functional disabilities"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you requested or participated in a hearing with a Judge from the Board of Veterans' Appeals to review a VA claims decision?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 6
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-07-20"
+  pilot_participant: "Kim Ladin, Risha Parikh, Kavitha Krishnan"
+  research_dates: "2021-07-26 to 2021-07-30"
+  research_review_submission: "2021-07-20"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Logged-in users can easily track applications, claims, or appeals online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Enable self-service virtual hearing selection"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Consolidated Board appeal information on VA.gov"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Living Civilian Life"
+  - "Retiring"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "TBD"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "board-appeals"
+  - "virtual-hearings"
+  - "semi-structured-interviews"
+  - "authenticated-experience"
+  - "caseflow"
 ---
 
 # **Research Plan: Understanding Board Appeal Hearings on VA.gov**

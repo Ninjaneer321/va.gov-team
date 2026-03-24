@@ -1,3 +1,40 @@
+---
+title: "Conversation Guide for disability, disability, 2026-03-23"
+author: Disability Experience Team
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "disability"
+portfolio: "Benefits and Claims"
+product: "disability"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with PTSD claims experience"
+
+# Related documents
+related_research_plan: "Form 21-0781 Research Plan June 2024"
+related_prototype: "N/A"
+
+tags:
+  - disability
+  - 526ez
+  - 0781
+  - PTSD
+  - usability-testing
+  - conversation-guide
+description: "Conversation guide B for Form 21-0781 PTSD claims research"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide - Version B: 0781 in Step 4 “additional forms” section
 
 Note: Headers and text in italics are for our moderator’s reference and not part of the script we will read with Veterans

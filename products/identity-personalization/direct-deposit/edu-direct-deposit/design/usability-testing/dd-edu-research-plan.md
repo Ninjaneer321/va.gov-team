@@ -1,109 +1,123 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VSA AuthdExp/eBenefits Teams, Direct Deposit for Educational Payments Usability Testing, November 2020"
+date: 2020-11-01
+last_updated: 2020-12-07
+team: "VSA Authenticated Experience / eBenefits"
+product: "Direct Deposit for Educational Payments (DD-EDU)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Management of educational payment direct deposit is being migrated from eBenefits to VA.gov profile to be co-located with C&P direct deposit feature. Need to assess how easily users can locate, understand, and change their direct deposit information."
+  product_location: "VA.gov Profile > Direct deposit section"
+  user_familiarity: "Migration - moving existing eBenefits feature to VA.gov profile"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/direct-deposit/edu-direct-deposit"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Remote moderated usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Assess how easily participants locate, understand and can change their direct deposit information"
+  - goal_2: "Determine what value users place on having both DD payment types displayed"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Where on VA.gov do users expect to find direct deposit (DD) information?"
+  - "How often do users expect to review and/or update their DD information?"
+  - "What barriers prevent users from easily submitting changes to their DD info?"
+  - "How do users react to the two different categories of payments and having to change them separately?"
+  - "What other features do users expect on the DD screen?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users may have some difficulty locating their direct deposit information"
+  - "Users will rarely, some occasionally, change their direct deposit information"
+  - "Participants will accept and easily navigate the DD edit function"
+  - "Participants will have some questions/hesitation about two distinct Direct Deposit features"
+  - "Users may want more information about the DD change process"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Assess usability and inform design iterations before launching DD-EDU feature in VA.gov profile."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Recruit for 5 fulfilled sessions"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Participants must receive some type of VA payments"
+    - "At least 1 woman of color"
+    - "At least 1 participant 55 or older"
+    - "At least one person without college degree (including enlisted Veterans)"
+    - "At least one person with disability rating of 80% or greater"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 1 participant 35 or under and 1 over 55"
+    - "At least one person with college degree (including officer Veterans)"
+    - "At least one person who lives in major metropolitan area"
+    - "At least one person who lives in rural or remote area"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you receive any type of VA payments?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 5
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 6
+  completed_sessions_goal: 5
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2020-11-30 to 2020-12-07"
+  research_review_submission: "2020-11-01"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Migrate eBenefits features to VA.gov"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Successfully migrate DD-EDU management to VA.gov profile"
+      - "Ensure usability meets Veteran needs"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Living Civilian Life"
+  - "Putting Down Roots"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "N/A"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - direct-deposit
+  - education-benefits
+  - ch33
+  - usability-testing
+  - authenticated-experience
+  - payment-information
+  - profile
+  - authenticated
+  - research-plan
+  - "profile"
+  - "direct-deposit"
+  - "education-payments"
+  - "usability-testing"
+  - "authenticated-experience"
 ---
 
 # Research plan for usability testing of Direct Deposit for Educational Payments (DD-EDU) feature

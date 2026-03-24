@@ -1,109 +1,89 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Certificate of Eligibility (COE) Usability Testing Research Plan"
+date: 2021-06-01
+last_updated: 2021-07-31
+team: "VSA eBenefits"
+product: "Certificate of Eligibility (COE)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans and service members need a VA-issued Certificate of Eligibility to get a VA-backed home loan, but the eBenefits tool needs to be migrated to VA.gov for better user experience."
+  product_location: "VA.gov - VA Form 26-1880"
+  user_familiarity: "Migration of existing feature with improvements"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/apply-for-home-loan-COE"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Assess how easily participants locate and apply for a Certificate of Eligibility in a VA.gov-based tool/form"
+  - goal_2: "Evaluate user understanding of the automatic COE feature"
+  - goal_3: "Identify barriers in UX and UI that prevent easy COE application"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Starting on the VA.gov home page, where do users expect to find the COE tool?"
+  - "How do users feel about the automatic COE feature?"
+  - "What barriers in the UX and UI prevent users from easily applying for a COE?"
+  - "Where does confusing language prevent users from understanding the form?"
+  - "Where do users expect to have their COE available after it has been granted?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will initially look for a direct link in the white quadrant on the home page"
+  - "The form itself will be relatively easy for users to navigate"
+  - "Biographical, contact and service language will be clear; loan options language will be confusing"
+  - "Users will expect their COE to be available in various ways: physical letter, email, printed, and/or within profile"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Identify usability issues before launch and improve the COE application experience"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans or service members who have or will need a COE"
+    - "Familiarity with VA-backed home loans"
     
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-06-28"
+  research_dates: "2021-07-06 to 2021-07-16"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans and their families can apply for all benefits online"
+  - objective: "Logged-in users have a personalized experience"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting out"
+  - "Starting up"
+  - "Putting down roots"
     
 # Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "COE"
+  - "certificate-of-eligibility"
+  - "home-loans"
+  - "usability-testing"
+  - "eBenefits-migration"
 ---
 
 # Certificate of eligibility (COE) usability testing research plan

@@ -1,31 +1,36 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Digital Experience, Additional Info Tooltip Modal Usability Study, 2019"
+author: "Emily Waggoner"
+date_created: "2019-01-01"
+last_modified: "2019-01-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Digital Experience - Product Development Support"
+portfolio: "digital-experience"
+product: "Additional Info Component (Tooltips and Modals)"
+research_phase: "usability"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use VA.gov and complete online forms"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "Additional Info Component prototypes"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "design-system"
+  - "additional-info"
+  - "tooltips"
+  - "modals"
+  - "usability-testing"
+  - "forms-library"
+  - "learn-more"
+description: "Usability testing of additional info components (tooltips vs modals) to determine most effective way to present contextual help in forms."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

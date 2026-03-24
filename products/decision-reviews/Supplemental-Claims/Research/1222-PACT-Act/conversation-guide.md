@@ -1,31 +1,27 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: Conversation Guide for Benefits Decision Reviews, Supplemental Claims (20-0995),
+  2022 12
+author: Eileen Chi
+date_created: '2022-12-01'
+last_modified: '2022-12-01'
+team: Benefits Decision Reviews
+portfolio: benefits
+product: Supplemental Claims (20-0995)
+research_phase: usability
+research_method: usability_test
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: Veterans eligible for PACT Act benefits who may file Supplemental
+  Claims
+related_research_plan: products/decision-reviews/Supplemental-Claims/Research/1222-PACT-Act/research-plan.md
+related_prototype: N/A
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+- supplemental-claims
+- 20-0995
+- decision-reviews
+- PACT-Act
+- usability-testing
+description: Usability testing of PACT Act integration in Supplemental Claims form.
 recording_required: true
 observer_support: true
 consent_for_clips: true

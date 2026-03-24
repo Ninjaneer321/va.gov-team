@@ -1,10 +1,36 @@
 ---
-# Research Plan Metadata
 title: "Research Plan for PACT Act Wizard Usability Testing, September 2023"
-date: 2023-09-19
+type: "Research Plan"
+study_date: "2023-10-02"
+authors:
+  - "Cindy Merrill"
+  - "Florence McCafferty"
+tags:
+  - "AUD: Veterans"
+  - "AUD: Family Members"
+  - "PRDT: PACT Act Wizard"
+  - "PRDT: Interactive Tool"
+  - "RESRCH: Usability Testing"
+  - "RESRCH: Remote"
+  - "HDW: Smartphone"
+  - "BNFT: Disability"
+  - "BNFT: Health Care"
+  - "PACT Act"
+  - "Presumptive Conditions"
+  - "Gulf War"
+team: "Facilities Team / CAIA"
+portfolio: "Health and Benefits"
+product:
+  - "PACT Act Wizard"
+research_round: "usability testing"
+participant_count: 11
+study_length: "60 minutes"
+date: "2023-10"
+# Research Plan Metadata (legacy)
+legacy_date: 2023-09-19
 last_updated: 2023-09-20
-team: "PACT Act Wizard"
-product: "PACT Act Wizard"
+legacy_team: "PACT Act Wizard"
+legacy_product: "PACT Act Wizard"
 product_area: "unauthenticated"
 
 # Background Context

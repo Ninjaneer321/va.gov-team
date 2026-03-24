@@ -1,10 +1,30 @@
 ---
-# Research Plan Metadata
 title: "Research Plan for VAOS and Profile, Facilities Personalization, May 2021"
-date: 2021-05-26
-last_updated: 2026-02-10
+type: "Research Plan"
+study_date: "2021-05-26"
+authors:
+  - "Peter Russo"
+  - "Liz Lantz"
+tags:
+  - "AUD: Veterans"
+  - "PRDT: VAOS"
+  - "PRDT: Profile"
+  - "PRDT: Appointments"
+  - "PRDT: Facilities"
+  - "RESRCH: Concept-testing"
+  - "RESRCH: Interviews"
+  - "RESRCH: Remote"
+  - "HCE: Health-care"
 team: "VA Online Scheduling (VAOS) & Authenticated Experience"
-product: "VA Online Scheduling & Profile"
+portfolio: "Health Care"
+product:
+  - "VA Online Scheduling"
+  - "VA Profile"
+research_round: "Concept Testing"
+participant_count: 10
+study_length: "1 hour"
+date: "2021-05"
+last_updated: 2026-02-10
 product_area: "authenticated"
 
 # Background Context
@@ -118,18 +138,14 @@ related_research:
     - "products/health-care/appointments/va-online-scheduling/research/"
     
 tags:
-  - "AUD: Veterans"
-  - "PRDT: Appointments"
-  - "PRDT: VAOS"
-  - "PRDT: Profile"
-  - "PRDT: Health care"
-  - "RESRCH: Interviews"
-  - "RESRCH: Usability"
-  - "RESRCH: Concept test"
-  - "DSP: Personalization"
-  - "authenticated"
-  - "facility-selection"
-  - "profile"
+  - HCE
+  - UAT
+  - VAOS
+  - appointments
+  - caregivers
+  - usability-testing
+study: VAOS and Profile, Facilities Personalization
+type: UAT
 ---
 
 Facilities personalization research plan

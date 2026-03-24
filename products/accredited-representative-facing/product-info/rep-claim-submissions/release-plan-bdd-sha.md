@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Release Plan: BDD/SHA
+services: Accredited Representative Facing
+tags: accredited-representative, claims, release, testing
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/product-info/rep-claim-submissions/release-plan-bdd-sha.md
+---
 # Release Plan: BDD/SHA
 
 Feature Toggle/flag:

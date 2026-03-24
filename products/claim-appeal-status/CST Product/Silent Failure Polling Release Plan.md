@@ -1,3 +1,13 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Phased rollout of back-end tables
+date: 3/11/24
+services: Claim Appeal Status
+tags: appeals, claims, release, testing
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/CST Product/Silent Failure Polling Release Plan.md
+---
 # Phased rollout of back-end tables
 ## Phase I: Canary (1%)
 ### Planning: 

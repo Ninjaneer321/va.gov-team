@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Document Status Release Plan
+services: Claim Appeal Status
+tags: appeals, claims, release
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/document-status/release-plan.md
+---
 # Document Status Release Plan
 
 | Toggle name                                                                                                            | Description                                                                                    |

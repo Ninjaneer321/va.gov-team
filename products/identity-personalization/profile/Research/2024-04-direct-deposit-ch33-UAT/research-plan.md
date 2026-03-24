@@ -106,6 +106,16 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/direct-deposit/ch33-bdn-corpdb-migration"
     
 tags:
+  - profile
+  - direct-deposit
+  - ch33
+  - education-benefits
+  - uat
+  - user-acceptance-testing
+  - authenticated-experience
+  - payment-information
+  - authenticated
+  - research-plan
   - "profile"
   - "direct-deposit"
   - "authenticated-experience"

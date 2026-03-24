@@ -1,109 +1,110 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Personalization, HCA Notifications MVP, March 2018"
+date: 2018-03-01
+last_updated: 2018-03-01
+team: "Personalization"
+product: "Notifications"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need external notifications to confirm benefit applications and stay updated on their VA interactions without having to constantly check VA.gov."
+  product_location: "Email notifications for healthcare application (HCA) submission"
+  user_familiarity: "New feature - first external notification on vets.gov"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Products/Identity/Personalization/Notifications/HCA%20MVP/Research/MVP%20Discovery%20Brief.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing, semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand how users react to email confirmation for HCA submission"
+  - goal_2: "Evaluate new copy on the HCA submission confirmation page"
+  - goal_3: "Gather insights on general notification needs and preferences"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do users want an email confirmation for HCA submission?"
+  - "Does the email content make sense and is it relevant?"
+  - "How might notifications have been helpful in previous VA experiences?"
+  - "What other notifications would be useful on vets.gov?"
+  - "How do users prefer to receive notifications (email, text, etc.)?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will find value in a confirmation email for HCA submission"
+  - "Email content will be clear and useful to veterans"
+  - "Veterans will want notifications for claims, prescriptions, and messaging updates"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Insights will guide implementation of vets.gov's first external notification and serve as foundation for sitewide notification strategy."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Cohorts database"
+  approach: "Targeted recruitment of veterans with benefit application experience"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who have applied for healthcare, education, or disability benefits"
+    - "Have their own email account and use it regularly"
+    - "Have phone for checking email and text messages"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 1 woman veteran"
+    - "At least 1 person 35 or under"
+    - "Familiarity with vets.gov preferred but not required"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you applied for VA benefits (healthcare, education, or disability)?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 5
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2018-02-27"
+  pilot_participant: "TBD"
+  research_dates: "2018-03-01 to 2018-03-15"
+  research_review_submission: ""
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Improve veteran communication through external notifications"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Launch first external notification on vets.gov"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "VIC 2.0 testing - confirmation email feedback"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "authenticated"
+  - "usability-testing"
+  - "interviews"
+  - "MVP"
+  - "notifications"
+  - "email"
 ---
 
 # Instructions

@@ -1,36 +1,38 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: "Conversation Guide for Debt Resolution, Debt Letters MVP UAT, August 2020"
+author: "Riley Orr"
+date_created: "2020-08-01"
+last_modified: "2020-08-01"
+team: "Debt Resolution"
+portfolio: "benefits"
+product: "Debt Letters"
+product_area: "authenticated"
+research_phase: "validation"
+research_method: "uat"
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with VA debt who have received debt letters"
+related_research_plan: "products/debt-letters-mvp/research/uat-aug20/research-plan.md"
+related_prototype: "Production environment (https://www.va.gov/manage-va-debt/your-debt/)"
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
-recording_required: true
+  - "debt-resolution"
+  - "debt-letters"
+  - "debt-management"
+  - "MVP"
+  - "UAT"
+  - "validation"
+  - "production"
+  - "authenticated"
+  - "veterans"
+  - "AUD: Veterans"
+  - "BNFT: Debt"
+  - "PRDT: Debt Letters"
+description: "User acceptance testing for debt letters MVP on VA.gov production environment to verify correct display of debt information and letter downloads."
+recording_required: false
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
+date: "2020-08"
 ---
-
 # Debt Letters MVP UAT Conversation Guide
 
 ### Project-specific setup

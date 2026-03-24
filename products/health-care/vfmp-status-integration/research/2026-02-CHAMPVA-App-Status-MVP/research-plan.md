@@ -100,6 +100,13 @@ related_research:
     - "[Link to related past research]"
     
 tags:
+  - CHAMPVA
+  - vfmp-status
+  - form-status
+  - usability-testing
+  - health-care
+  - authenticated
+  - research-plan
   - "[product-area]"
   - "[methodology]"
   - "[participant-type]"

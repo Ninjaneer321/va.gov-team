@@ -1,6 +1,6 @@
 ---
 title: "Conversation Guide for Login.gov Adoption Discovery - Scenario 3: Proactive Creation, November 2022"
-author: "[TBD - not specified in document]"
+author: Login.gov Adoption Team
 date_created: "2022-11-01"
 last_modified: "2024-12-20"
 

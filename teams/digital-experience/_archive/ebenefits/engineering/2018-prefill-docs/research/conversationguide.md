@@ -1,3 +1,24 @@
+---
+type: conversation_guide
+study_name: Save in Progress (SiP) Usability Testing
+team: eBenefits
+product: Prefill and Save in Progress
+platform: Vets.gov
+moderator: eBenefits engineering team
+date: 2018
+research_method: Usability testing
+session_type: moderated_remote
+session_duration_minutes: 45
+number_of_participants: TBD
+tags:
+  - ebenefits
+  - save-in-progress
+  - prefill
+  - form-experience
+  - usability-testing
+  - vets-gov
+---
+
 # Conversation Guide for SiP
 
 ## GoToMeeting logistics

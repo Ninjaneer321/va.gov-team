@@ -1,3 +1,26 @@
+---
+type: conversation_guide_template
+study_name: Trauma-Informed Conversation Guide Template
+team: Platform Research
+product: Platform - Research Templates
+platform: Platform
+moderator: N/A
+date: 2024
+research_method: Template - Trauma-informed research approach
+session_type: N/A
+session_duration_minutes: N/A
+number_of_participants: N/A
+tags:
+  - platform
+  - research-templates
+  - trauma-informed
+  - research-safety
+  - participant-safety
+  - conversation-guide-template
+  - research-methodology
+  - inclusive-research
+---
+
 # Trauma-Informed Conversation Guide TEMPLATE
 
 ## Moderator logistics

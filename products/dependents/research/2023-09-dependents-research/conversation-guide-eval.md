@@ -1,35 +1,25 @@
 ---
-title: "Dependents Email Evaluation Conversation Guide"
-author: "Ajia Wallace, Nichole Nicholas, Julie Pedtke"
-date_created: "2023-09-01"
-last_modified: "2023-09-01"
-
-# Core research metadata
-team: "Dependents Team"
-portfolio: "benefits"
-product: "Dependents Management"
-research_phase: "evaluative"
-research_method: "moderated_interview"
-
-# Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans with dependents on their VA benefits (spouse and/or children)"
-
-# Related documents
-related_research_plan: "products/dependents/research/2023-09-dependents-research/research-plan.md"
-related_prototype: "N/A"
-
+title: Conversation Guide for Benefits Dependents, 686c Dependents Application, 2023
+  09
+author: Ajia Wallace
+date_created: '2023-09-01'
+last_modified: '2023-09-01'
+team: Benefits Dependents
+portfolio: benefits
+product: 686c Dependents Application
+research_phase: evaluative
+research_method: moderated_interview
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: Veterans who have added or removed dependents
+related_research_plan: products/dependents/research/2023-09-dependents-research/research-plan.md
+related_prototype: N/A
 tags:
-  - "dependents"
-  - "email-evaluation"
-  - "communications"
-  - "benefits-management"
-  - "static-page-testing"
-  - "notification-research"
-description: "Conversation guide for evaluating email communications about dependents management. Tests participant understanding of email notifications, static page content, and actions needed to update dependent information on VA benefits."
-
-# Compliance flags
+- 686c
+- dependents
+- evaluative-research
+- add-remove-dependents
+description: Evaluative research on dependents management experience.
 recording_required: true
 observer_support: true
 consent_for_clips: true

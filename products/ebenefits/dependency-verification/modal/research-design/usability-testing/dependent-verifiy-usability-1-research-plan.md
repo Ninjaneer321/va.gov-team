@@ -1,110 +1,56 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Dependency Verification Usability Testing"
+date: 2021-05-01
+last_updated: 2026-03-23
+team: "eBenefits"
+product: "Dependency Verification Modal"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans receiving disability payments need to notify VA when family members leave the household to prevent debt. An intercept modal on the View Dependents page prompts Veterans to review their dependents and add/remove as necessary. Need to test if modal is effective and users understand their options."
+  product_location: "VA.gov - View Dependents page (staging: https://staging.va.gov/view-change-dependents)"
+  user_familiarity: "New feature - dependency verification modal"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ebenefits/dependency-verification"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
-  
+methodology: "Usability Testing"
+research_format:
+  location: remote
+  moderated: true
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine the effectiveness of the intercept modal in prompting users to confirm or change their dependents"
+  - goal_2: "Gauge user acceptance of this notification method"
+  - goal_3: "Assess how easily users locate the 'add' and 'remove' dependents features"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What are users reactions to the appearance of the intercept modal?"
+  - "Why do participants think they're being asked to confirm their dependents?"
+  - "What do users think happens when they click and choose the 'confirm' path?"
+  - "Can participants identify their options when they choose the 'change' path?"
+  - "What do users expect will happen when they choose to remove or add a dependent?"
 
-hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+# Methodology Details
+research_type: "Evaluative"
+session_format: "Remote moderated usability testing with staging environment"
+timeline: "2021-08-19 to 2021-08-27"
 
-expected_outcomes: "[How will findings advance the product?]"
+# Participants
+participant_count: 5
+recruitment_criteria: "Veterans who receive VA compensation payments"
 
-# Recruitment & Participants
-recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
-  
-  primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
-    
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
-participants:
-  veterans: 0
-  caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
-# Timeline & Sessions
-timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
-  
-session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
-  
-# Strategic Alignment
-octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
-      
-veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
-# Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
-tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+# Team
+moderator: "James Adams, Candy Clark"
+notetaker: "Perigean, various"
+observers: "Jason Wolf, Kathleen Crawford, Kevin Musiorski, Micah Chiang, Jesse Cohn, Sabrina Mohamed, Matt Self, Shawna Hein"
+
+# Tags
+tags: ['research', 'usability-testing', 'ebenefits', 'dependency-verification', 'modal', 'dependents', 'authenticated', 'view-dependents', 'research-plan']
 ---
+
 
 # Dependency verification usability testing research plan
 **VSA eBenefits Team | May 2021**

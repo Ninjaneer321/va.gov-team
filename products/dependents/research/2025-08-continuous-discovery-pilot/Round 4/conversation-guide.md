@@ -1,34 +1,25 @@
 ---
-title: "Conversation Guide for Dependents Management Team, Email Content Testing Round 4, August 2025"
-author: "Megan Graham"
-date_created: "2025-08-14"
-last_modified: "2025-08-14"
-
-# NEW: Core research metadata
-team: "Dependents Management Team"
-portfolio: "benefits"
-product: "Dependents Management Tools"
-research_phase: "evaluative"
-research_method: "moderated_interview"
-
-# NEW: Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans with dependents on disability compensation benefits"
-
-# NEW: Related documents
-related_research_plan: "products/dependents/research/2025-08-continuous-discovery-pilot/Round 1/research-plan.md"
-related_prototype: "N/A"
-
+title: Conversation Guide for Benefits Dependents, 686c Dependents Application, 2025
+  08
+author: Ajia Wallace
+date_created: '2025-08-01'
+last_modified: '2025-08-01'
+team: Benefits Dependents
+portfolio: benefits
+product: 686c Dependents Application
+research_phase: discovery
+research_method: moderated_interview
+session_duration: 45 minutes
+session_type: remote_moderated
+participant_criteria: Veterans managing dependents
+related_research_plan: products/dependents/research/2025-08-continuous-discovery-pilot/research-plan.md
+related_prototype: N/A
 tags:
-  - "AUD: Veterans"
-  - "BNFT: Disability"
-  - "PRDT: Dependents"
-  - "semi-structured-interviews"
-  - "content-testing"
-description: "Round 4 of continuous discovery pilot testing email content variations (verification language, form references, rationale) for dependent verification communications."
-
-# NEW: Compliance flags
+- 686c
+- dependents
+- continuous-discovery
+- round-4
+description: Round 4 of continuous discovery pilot for dependents research.
 recording_required: true
 observer_support: true
 consent_for_clips: true

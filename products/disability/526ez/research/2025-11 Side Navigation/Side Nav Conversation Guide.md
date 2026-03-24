@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for disability, disability, 2026-03-23"
+author: Disability Experience Team
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "disability"
+portfolio: "Benefits and Claims"
+product: "disability"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans filing disability claims"
+
+# Related documents
+related_research_plan: "Side Navigation Research Plan November 2025"
+related_prototype: "N/A"
+
+tags:
+  - disability
+  - 526ez
+  - side-navigation
+  - usability-testing
+  - conversation-guide
+description: "Conversation guide for 526ez side navigation usability testing"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # **Conversation Guide for Side Navigation**
 
 ## **Moderator logistics 📋✅**

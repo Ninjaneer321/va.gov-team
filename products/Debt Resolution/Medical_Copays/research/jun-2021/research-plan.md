@@ -116,7 +116,16 @@ related_research:
   previous_studies: 
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/Medical_Copays/research/apr-2021/readout.md"
     
+
+study: "Debt Resolution Team, Medical Copayments Usability, June"
 tags:
+  - debt-resolution
+  - medical-copays
+  - copay-debt
+  - usability-testing
+  - health-care
+  - authenticated
+  - research-plan
   - "AUD: Veterans"
   - "PRDT: Medical Copays"
   - "PRDT: Debt Portal"

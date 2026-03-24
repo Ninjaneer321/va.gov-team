@@ -1,40 +1,30 @@
 ---
-title: "Conversation Guide for Veterans, Program of Comprehensive Assistance for Family Caregivers Discovery, August 2019"
-author: "Unknown"
-date_created: "2019-08-01"
-last_modified: "2026-02-11"
-
-# Core research metadata
-team: "Caregivers"
-portfolio: "health"
-product: "Program of Comprehensive Assistance for Family Caregivers"
-research_phase: "discovery"
-research_method: "moderated_interview"
-
-# Session details
-session_duration: "45 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans who have caregivers and are receiving or not receiving VA caregiver benefits"
-
-# Related documents
-related_research_plan: "./research-plan.md"
-related_prototype: "N/A"
-
+title: "Conversation Guide for 10-10 Health Apps, 10-10CG Caregiver Application, Veteran Discovery, August 2019"
+type: "Conversation Guide"
+study_date: "2019-08-01"
+authors:
+  - "Jonathan Nelson"
 tags:
-  - "AUD: Veterans"
-  - "AUD: Caregivers"
-  - "BNFT: Healthcare"
-  - "PRDT: Caregivers"
-  - "discovery-research"
-  - "moderated-interview"
-  - "semi-structured-interviews"
-  - "DSC: Form"
-description: "Discovery research conversation guide for understanding Veterans' perspectives on their caregivers applying for and receiving VA caregiver benefits through the Program of Comprehensive Assistance for Family Caregivers."
-
-# Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: false
+  - "AUD:Veterans"
+  - "PRDT:10-10CG"
+  - "PRDT:Caregiver"
+  - "PRDT:CSP"
+  - "RESRCH:Discovery"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "BNFT:Health-care"
+  - "DSC:Interview"
+  - "VETJNY:Taking-care-of-themselves"
+team: "10-10 Health Apps"
+portfolio: "Health"
+product:
+  - "10-10CG Caregiver Application"
+  - "Caregiver Support Program"
+  - "Family Caregiver Benefits"
+research_round: "Veteran Discovery"
+participant_count: 5
+study_length: "60 minutes"
+date: "2019-08"
 ---
 
 # Veteran conversation guide

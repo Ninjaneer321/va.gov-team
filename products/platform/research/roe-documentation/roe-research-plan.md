@@ -1,10 +1,10 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
+title: "Research Plan for VSP Platform, Rules of Engagement Documentation, October 2019"
+date: 2019-10-09
+last_updated: 2019-10-09
+team: "VSP Platform Team"
+product: "Rules of Engagement Documentation"
 product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
@@ -15,7 +15,7 @@ background:
   product_brief_url: "[URL]"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "mixed-methods: survey and semi-structured interviews"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
@@ -100,10 +100,14 @@ related_research:
     - "[Link to related past research]"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "VSP"
+  - "platform"
+  - "rules-of-engagement"
+  - "documentation"
+  - "semi-structured-interviews"
+  - "survey"
+  - "VFS-teams"
+  - "process-improvement"
 ---
 
 # **Research Plan - Rules of Engagement (ROE)** 

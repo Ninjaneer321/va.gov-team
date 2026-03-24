@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Evidence Request Updates (Mobile App) Release Plan
+services: Claim Appeal Status
+tags: appeals, claims, release
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/evidence-requests-improvements/release-plan.md
+---
 # Evidence Request Updates (Mobile App) Release Plan
 
 ## Overview

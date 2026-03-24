@@ -100,10 +100,19 @@ related_research:
     - "[Link to related past research]"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "clinical-decision-support"
+  - "CDS"
+  - "task-manager"
+  - "post-launch"
+  - "generative"
+  - "remote"
+  - "moderated"
+  - "clinicians"
+  - "staff-facing"
+  - "enhancements"
+  - "AUD: VA Staff"
+  - "BNFT: Healthcare"
 ---
 
 | Study   | Use cases and Post Launch Enhancements Research |

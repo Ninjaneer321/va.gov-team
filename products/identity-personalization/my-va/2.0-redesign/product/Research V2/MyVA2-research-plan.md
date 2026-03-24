@@ -1,109 +1,132 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "My VA Redesign Usability Testing, February 2021"
+date: 2021-02-01
+last_updated: 2021-02-01
+team: "Authenticated Experience"
+product: "My VA 2.0 Redesign"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Understand user comprehension of MyVA page after full re-structure and re-design to better integrate Veteran-provided data"
+  product_location: "My VA dashboard on VA.gov"
+  user_familiarity: "Major redesign of existing dashboard"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/2.0-redesign/README.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Remote moderated usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Assess if there is enough relevant information on the dashboard to be valuable"
+  - goal_2: "Evaluate if users can find the tools and tasks they are looking for effectively"
+  - goal_3: "Determine if users can easily access and understand personal updates for claims, health care, or forms"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Did we correctly prioritize this page?"
+  - "Is this page useful with the information and actions it needs?"
+  - "What would people use My VA for vs. the homepage?"
+  - "Can people find their disability rating in the name tag?"
+  - "Do they understand the featured claim is the most recently-updated claim?"
+  - "Did we correctly prioritize information in health care section?"
+  - "Do people understand applications in progress?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The new myVA dashboard layout will overall be intuitive and scan-able"
+  - "Users will understand how to navigate to tools to manage their information"
+  - "Users may want to see some additional information on the dashboard that we did not include"
+  - "Participants might be confused about some of the verbiage used (most likely in prescriptions)"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate overall design direction and identify any major usability issues before launch"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling for diverse perspectives"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Eligible for or receive VA health care, have active or past claims, or receive VA benefits"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 1 iOS mobile device owner"
+    - "At least 1 Android mobile device owner"
+    - "At least 2 women"
+    - "At least 1 person of color"
+    - "At least 1 person with disability rating of 70% or greater"
+    - "At least 1 person with cognitive consideration (PTSD or TBI)"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you eligible for/receive VA health care, have active or past claims or receive any benefits from the VA?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-02-22"
+  pilot_participant: "TBD"
+  research_dates: "2021-02-22 to 2021-02-26"
+  research_review_submission: "2021-02-15"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 75
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 8
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Logged-in users can update their personal information easily and instantly"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Improved personalized dashboard experience"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Consolidated view of benefits and status"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/personalization%202.0/discovery-research/README.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/logged-in-homepage/2.0-redesign/discovery-and-research/discovery-summary.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - my-va
+  - my-va-2.0
+  - redesign
+  - usability-testing
+  - authenticated-experience
+  - personalization
+  - dashboard
+  - claims
+  - health-care
+  - disability-rating
+  - prescriptions
+  - applications
+  - mobile
+  - desktop
+  - research-plan
+  - "my-va"
+  - "usability-testing"
+  - "mobile"
+  - "authenticated-experience"
 ---
 
 # Research Plan for VSA Authenticated Experience: MyVA Redesign February 2021

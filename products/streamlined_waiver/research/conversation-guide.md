@@ -1,31 +1,34 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Debt Resolution, Streamlined Waiver (eFSR) Usability Study, August 2023"
+author: "Charlotte Cesana"
+date_created: "2023-08-01"
+last_modified: "2023-08-17"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Debt Resolution"
+portfolio: "benefits"
+product: "Streamlined Waiver (eFSR)"
+research_phase: "usability"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with VA copay debt who need to request debt relief"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/streamlined_waiver/research/research-plan.md"
+related_prototype: "Prototype URL"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "debt-resolution"
+  - "streamlined-waiver"
+  - "eFSR"
+  - "5655"
+  - "usability-testing"
+description: "Usability testing of streamlined waiver (eFSR) digital form to evaluate how Veterans request relief from VA copay debt and identify areas for improvement."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

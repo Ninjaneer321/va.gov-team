@@ -65,8 +65,8 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "TBD"
-  pilot_participant: "TBD"
+  pilot_date: "2026-02-18"
+  pilot_participant: "Internal team member"
   research_dates: "2026-02-19 to 2026-02-27"
   research_review_submission: "2026-02-12"
   
@@ -90,13 +90,14 @@ veteran_journey_phases:
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Dependents Verification research and continuous discovery pilot"
     
 tags:
-  - "[product-area]"
+  - "dependents"
   - "usability testing"
   - "Veterans"
-  - "[research-phase]"
+  - "student-dependents"
+  - "disabled-dependents"
 ---
 
 

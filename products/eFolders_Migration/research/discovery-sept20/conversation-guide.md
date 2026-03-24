@@ -1,31 +1,38 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: eFolders Migration Discovery Research, September 2020"
+author: "BAM2 Team"
+date_created: "2020-09-01"
+last_modified: "2020-09-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Benefits and Memorial Services 2 (BAM2)"
+portfolio: "bam"
+product: "My Documents (eFolders Migration)"
+research_phase: "discovery"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have VA claim documents or interact with VA records"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/eFolders_Migration/research/discovery-sept20/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Other"
+  - "PRDT: eFolders"
+  - "PRDT: My-documents"
+  - "discovery-research"
+  - "semi-structured-interviews"
+  - "document-management"
+  - "records"
+  - "migration"
+description: "Discovery research conversation guide for eFolders migration to My Documents, understanding Veteran needs for accessing VA benefit documents online."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

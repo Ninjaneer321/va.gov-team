@@ -1,31 +1,37 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: IRIS Discovery Interviews, July 2020"
+author: "Rachel M. Murray"
+date_created: "2020-07-21"
+last_modified: "2020-07-21"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Contact Centers Team"
+portfolio: "digital-experience"
+product: "IRIS - Inquiry Routing & Information System"
+research_phase: "discovery"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have used IRIS contact system"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/iris/research/discovery-interviews/research-plan.md"
+related_prototype: "https://iris.custhelp.va.gov/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: IRIS"
+  - "PRDT: Contact-center"
+  - "discovery-research"
+  - "semi-structured-interviews"
+  - "contact-us"
+  - "customer-service"
+  - "inquiry-system"
+description: "Discovery research conversation guide for IRIS system, exploring Veteran experiences with the inquiry routing and information system."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

@@ -1,36 +1,29 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: Facility Operating Status Card Sort Conversation Guide
+author: Facilities Team
+date_created: 2020-06-01
+last_modified: 2020-06-01
+team: "Facilities"
+portfolio: "health"
+product: "Facility Locator"
+research_phase: "discovery"
+research_method: "card_sort"
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use VA facilities"
+related_research_plan: "products/facilities/facility-locator/research/user-research/facility-status/research-plan.md"
+related_prototype: "https://adhoc.optimalworkshop.com/optimalsort/docaar20"
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+- facilities
+- facility-locator
+- operating-status
+- card-sort
+description: "Moderated card sort study to understand how Veterans interpret and categorize facility operating status information."
 recording_required: true
 observer_support: true
 consent_for_clips: true
+date: '2020-06-01'
 ---
-
 # Conversation Guide for Moderated Card Sort - Facility Locator, Operating Status
 
 **June 2020 Discovery**<br>

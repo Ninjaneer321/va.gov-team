@@ -109,6 +109,21 @@ related_research:
     - "MHV user research"
     
 tags:
+  - va-gov-relaunch
+  - website-merger
+  - mixed-methods
+  - card-sort
+  - tree-test
+  - usability-testing
+  - interviews
+  - information-architecture
+  - navigation
+  - mega-menu
+  - benefit-hubs
+  - homepage
+  - mobile
+  - unauthenticated
+  - research-plan
   - "AUD: Veterans"
   - "AUD: Family Member"
   - "AUD: Caregivers"

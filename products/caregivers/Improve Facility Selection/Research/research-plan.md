@@ -1,104 +1,103 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for 1010 Team, 10-10CG Facility Selection Study, February 2023"
+date: 2023-02-01
+last_updated: 2023-02-01
+team: "1010 Team"
+product: "Family Caregiver Benefits Application (10-10CG)"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Facility selection page causes confusion for users. Users unsure which facility to select, confused about why their familiar facility isn't listed, and state border issues create complexity. Need to improve facility search functionality and API."
+  product_location: "VA.gov - Family Member Benefits - Apply for Caregiver Assistance"
+  user_familiarity: "Iteration - testing updates to facilities question"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/caregivers/10-10CG%20Caregiver%20application%20product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "moderated usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Discover if facility content updates are clear and understandable for participants"
+  - goal_2: "Determine if facility search functionality is easy to use and accessible"
+  - goal_3: "Understand overall usability of 10-10CG facility selection"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Is the new version of the facility question easy to understand and answer?"
+  - "Does the new version clarify why users are selecting a facility?"
+  - "Can users navigate facility selection without difficulty?"
+  - "Do participants know what to input in the text search field?"
+  - "Does the confirmation screen add clarity or confusion?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Updated facility selection will reduce user confusion about which facility to select"
+  - "Improved search functionality will help users find the correct facility"
+  - "Clearer content will help users understand the purpose of facility selection"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate improvements to facility selection before implementation"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans and family caregivers"
+    - "Mix of those familiar and unfamiliar with PCAFC program"
+    - "Geographic diversity including near state borders"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse age range"
+    - "Various levels of digital literacy"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you a Veteran or family caregiver?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 5
+  caregivers: 5
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-02-20"
+  pilot_participant: "TBD"
+  research_dates: "2023-02-27 to 2023-03-10"
+  research_review_submission: "2023-02-13"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Our digital experiences are the best way to access VA health care and benefits"
+    key_results: []
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
     - "[Link to related past research]"
     
+
+study: "1010 Team, 10-10CG Facility Selection Study, February"
 tags:
   - "[product-area]"
   - "[methodology]"

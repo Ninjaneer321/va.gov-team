@@ -1,109 +1,112 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "UAT for Forms Status on My VA, October 2024"
+date: 2024-10-01
+last_updated: 2024-10-01
+team: "Authenticated Experience"
+product: "My VA - Forms Status"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Testing the success of form status implementation with limited participant availability due to requirement for users with recently submitted forms"
+  product_location: "My VA dashboard on VA.gov"
+  user_familiarity: "New feature addition"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va/forms-status-on-My-VA"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "User Acceptance Testing (UAT)"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Confirm that form status functionality works as expected in production"
+  - goal_2: "Verify form statuses display correctly for users"
+  - goal_3: "Test PDF download functionality if in scope"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do form statuses display as intended?"
+  - "Can PDF copies of forms be downloaded if in scope?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Functionality will work as intended"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Either release updates to production or update design to correct any issues with functionality"
+
+tags:
+  - "authenticated-experience"
+  - "my-va"
+  - "personalization"
+  - "dashboard"
+  - "forms"
+  - "form-status"
+  - "uat"
+  - "user-acceptance-testing"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Internal recruitment via Slack"
+  approach: "Convenience sampling from OCTO and USDS"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who have submitted one of the seven forms in the MVP"
+    - "OCTO or USDS employees willing to test with personal VA.gov accounts"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Recent form submissions"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you recently submitted one of the seven forms in the forms status MVP?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 5
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 5
+  completed_sessions_goal: 5
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-09-10"
+  pilot_participant: "Internal team"
+  research_dates: "2024-10-10 to 2024-10-12"
+  research_review_submission: "2024-09-01"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 45
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans and their families can apply for all benefits online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increased form submission tracking"
+  - objective: "Logged-in users can easily track applications, claims, or appeals online"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Improved visibility of form submission status"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Living Civilian Life"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "my-va"
+  - "forms-status"
+  - "uat"
+  - "authenticated-experience"
 ---
 
 # 2024-10 UAT Forms Status on My VA Research Plan

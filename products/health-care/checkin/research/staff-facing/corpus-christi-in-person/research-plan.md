@@ -1,109 +1,124 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Check-In Corpus Christi Staff Interviews, June-July 2022"
+date: 2022-06-30
+last_updated: 2022-06-30
+team: "Check-In Experience"
+product: "Check-In"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Understand how high-performing VISN implemented check-in to share best practices and gather insights on travel reimbursement integration and Spanish language support"
+  product_location: "VA.gov check-in and pre-check-in experience"
+  user_familiarity: "Iteration - evaluating implementation at high-utilization facility"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/product/product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: in-person
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "Corpus Christi VA Clinic, South Enterprize VA Clinic, Old Brownsville VA Clinic"
+    point_of_contact: "Facility staff coordination"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate effectiveness of pre-check-in and check-in with MSAs at high-utilization facility (11% utilization vs 1.2% average)"
+  - goal_2: "Understand percentage of Spanish speakers and nuances within that population about patient check-in"
+  - goal_3: "Gain insights on incorporating travel reimbursement into check-in experience"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What's working and not working with pre-check-in and check-in?"
+  - "How often are MSAs interacting with Veterans during the check-in process?"
+  - "What's been the impact on MSA workload and what are the issues MSAs are helping Veterans troubleshoot?"
+  - "What's the percentage of Veterans that are bi-lingual and low English proficient Spanish speakers?"
+  - "When do Veterans expect to complete a travel reimbursement claim in relation to their appointment?"
+  - "What information do travel assistants use to review and approve reimbursement requests?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The pre-check-in experience makes day-of check-in easier for staff since contact information has been reviewed"
+  - "MSAs will have shorter lines of Veterans waiting to be checked in"
+  - "MSAs are comfortable with troubleshooting error messages with Veterans and know how to clear appropriate review flags in VSE"
+  - "MSAs provide Spanish translation support in an ad-hoc fashion to Veterans/caregivers when needed"
+  - "MSAs will indicate that Veterans would prefer to file a travel reimbursement with their check-in versus a separate encounter"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will inform best practices for check-in implementation, Spanish language support, and travel reimbursement integration decisions"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "On-site recruitment"
+  approach: "Convenience sampling of MSAs and travel assistants at high-performing facilities"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Medical Support Assistants (MSAs) at Corpus Christi area facilities"
+    - "Travel assistants at Corpus Christi area facilities"
+    - "Staff involved in check-in process"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Spanish-speaking staff"
+    - "Staff with varying levels of experience"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "N/A - on-site recruitment"
+      qualifying_response: "N/A"
       
 participants:
   veterans: 0
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: TBD
+  completed_sessions_goal: TBD
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "N/A"
+  pilot_participant: "N/A"
+  research_dates: "2022-07-19 to 2022-07-20"
+  research_review_submission: "TBD"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: TBD
+  buffer_minutes: TBD
+  max_sessions_per_day: TBD
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increase usage of digital, self-service tools"
+  - objective: "Increase completion rate of online transactions"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Decrease time to successfully complete and submit online transactions"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/staff-facing/st-louis/pilot-feedback/research-plan.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/staff-facing/bay-pines-in-person/research-plan.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "patient-check-in"
+  - "PCI"
+  - "HCE"
+  - "check-in"
+  - "staff-facing"
+  - "in-person"
+  - "Corpus-Christi"
+  - "generative"
+  - "moderated"
+  - "staff"
+  - "semi-structured-interviews"
+  - "discovery"
+  - "AUD: VA Staff"
+  - "BNFT: Healthcare"
+  - "PRDT: Check-in"
 ---
 
 # Check-In Research Plan for In-Person Staff Interviews at Corpus Christi, TX

@@ -1,3 +1,40 @@
+---
+title: "Conversation Guide for health-care, health-care, 2026-03-23"
+author: Lauren and
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "health-care"
+portfolio: "Health Care"
+product: "health-care"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans receiving COVID vaccine notifications"
+
+# Related documents
+related_research_plan: "VEText Vaccine Notifications Research Plan"
+related_prototype: "N/A"
+
+tags:
+  - health-care
+  - COVID-19
+  - vaccine
+  - VEText
+  - notifications
+  - conversation-guide
+description: "Conversation guide for VEText vaccine notification research"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Vaccine outreach VEText User research Feb 2021 
 
 ## Moderator logistics

@@ -1,3 +1,26 @@
+---
+type: conversation_guide
+study_name: Virtual Agent Spanish Speaking Veterans Research (English Version)
+team: Virtual Agent
+product: Chatbot
+platform: VA.gov
+moderator: Pilar Moreno
+date: 2021
+research_method: Moderated usability testing
+session_type: moderated_remote
+session_duration_minutes: 30-45
+number_of_participants: TBD
+tags:
+  - virtual-agent
+  - chatbot
+  - spanish-language
+  - bilingual
+  - language-access
+  - usability-testing
+  - inclusive-design
+  - spanish-speaking-veterans
+---
+
 # Conversation Guide Template for Moderated Research
 
 ## Moderator logistics

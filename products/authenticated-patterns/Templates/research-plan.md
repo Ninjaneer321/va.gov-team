@@ -99,7 +99,13 @@ related_research:
   previous_studies: 
     - "[Link to related past research]"
     
+
+study: "[Team, Product, Date]"
 tags:
+  - template
+  - research-plan-template
+  - authenticated-patterns
+  - research-plan
   - "[product-area]"
   - "[methodology]"
   - "[participant-type]"

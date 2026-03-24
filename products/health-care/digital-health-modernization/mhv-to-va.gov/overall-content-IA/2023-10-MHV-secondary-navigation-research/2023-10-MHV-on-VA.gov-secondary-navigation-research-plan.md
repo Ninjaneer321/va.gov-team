@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for MHV on VA.gov Secondary Navigation, October/November 2023"
-date: 2023-10-30
+date: 2023-10-01
 last_updated: 2023-10-30
 team: "Digital Health Modernization"
 product: "My HealtheVet on VA.gov"
@@ -105,15 +105,11 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/overall-content-IA"
     
 tags:
-  - "MHV"
-  - "health-care"
-  - "navigation"
-  - "secondary-nav"
-  - "breadcrumbs"
-  - "mobile"
-  - "interviews"
-  - "authenticated"
-  - "veterans"
+  - UAT
+  - caregivers
+  - mobile
+study: MHV on VA.gov Secondary Navigation
+type: UAT
 ---
 
 # Research Plan for MHV on VA.gov secondary navigation, October/November 2023

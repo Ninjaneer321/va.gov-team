@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for MHV on VA.gov, Medications, Feb - Apr 2025"
-date: 2025-02-18
+date: 2025-04-01
 last_updated: 2025-02-18
 team: "Digital Health Modernization - MHV on VA.gov"
 product: "Medications on VA.gov"
@@ -102,18 +102,23 @@ study_materials:
   mural: "https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1741373424931/5441344c74ed238bcec1540gb73166a204dd514f"
     
 tags:
+  - "health-care"
+  - "MHV"
+  - "My-HealtheVet"
+  - "migration"
   - "medications"
-  - "MHV-on-VA.gov"
-  - "metrics-monitoring"
-  - "veteran-facing"
+  - "prescriptions"
+  - "pharmacy"
+  - "metrics"
+  - "feedback"
   - "analytics"
-  - "feedback-analysis"
-  - "Datadog-RUM"
-  - "Google-Analytics"
-  - "Medallia"
-  - "refill-prescriptions"
-  - "digital-health-modernization"
-  - "authenticated"
+  - "evaluative"
+  - "veterans"
+  - "post-launch"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: My-HealtheVet"
+  - "PRDT: Medications"
   
 team_roles:
   moderator: "N/A"
@@ -129,6 +134,8 @@ team_roles:
 approvals:
   reviewed_by: "TBD"
   review_date: "TBD"
+study: MHV on VA.gov, Medications, Feb - Apr 2025
+type: Usability
 ---
 
 # **Research Plan for MHV on VA.gov, Medications, Feb - Apr 2025**

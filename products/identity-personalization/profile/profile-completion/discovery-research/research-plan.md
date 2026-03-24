@@ -1,66 +1,65 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience, Profile Completion, Summer 2024"
+date: 2024-06-01
+last_updated: 2024-06-30
+team: "Authenticated Experience - Profile"
+product: "Profile Completion"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Profile completion is an opportunity to increase engagement with VA.gov and improve VA's communication with Veterans. Veterans need to complete contact information to enable better communication."
+  product_location: "VA.gov Profile (authenticated area)"
+  user_familiarity: "New feature - MVP focused on completing contact information"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/profile-completion"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Collaborative research with IIR team - feedback session"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Better understand what Veterans think about providing contact information to VA"
+  - goal_2: "Learn how MVP design impacts the Veterans experience of managing contact information"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Is anything confusing about the workflow we're proposing?"
+  - "What is the Veteran mental model around sharing contact information with VA?"
+  - "Are the benefits of providing information clear to people?"
+  - "Are our entry points and calls to action effective (particularly from the profile)?"
+  - "How do Veterans react to a guided flow that gives them specific step numbers?"
+  - "What do Veterans expect from 'remind me later' and 'finish this later' functionality?"
+  - "Is it clear to Veterans that each piece of contact information is optional?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will understand the guided workflow for profile completion"
+  - "Veterans will appreciate having clear steps to complete their contact information"
+  - "There may be concerns about providing contact information that we need to address through clear benefit statements"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "We'll use this outcomes from this research to inform design and content iterations on our profile completion flow."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Collaborated with IIR team recruitment"
+  approach: "Piggyback on IIR team's planned study"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must be Veterans"
+    - "Recruited by IIR team for their study"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "N/A - using IIR team recruitment"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "N/A - coordinated with IIR team"
+      qualifying_response: "N/A"
       
 participants:
   veterans: 0
@@ -71,10 +70,10 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2024-06-15 to 2024-06-30"
+  research_review_submission: "2024-06-01"
   
 session_details:
   duration_minutes: 60
@@ -83,27 +82,35 @@ session_details:
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Enhance Veterans' personalized online experience"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Increase profile completion and engagement"
+      - "Improve VA communication with Veterans through complete contact information"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Living Civilian Life"
+  - "Taking Care of Myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-onboarding/research%20plan%202024.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - profile
+  - profile-completion
+  - discovery
+  - authenticated-experience
+  - personalization
+  - onboarding
+  - authenticated
+  - research-plan
+  - "profile"
+  - "profile-completion"
+  - "discovery"
+  - "usability-testing"
+  - "authenticated-experience"
 ---
 
 # Research notes for Authenticated Experience, Profile Completion, Summer 2024

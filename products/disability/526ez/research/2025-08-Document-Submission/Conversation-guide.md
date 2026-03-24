@@ -1,6 +1,6 @@
 ---
 title: "Conversation Guide for Disability Benefits Core Form Team, Form 526EZ Document Submission, August 2025"
-author: "TBD"
+author: Disability Experience Team
 date_created: "2025-08-01"
 last_modified: "2025-09-25"
 

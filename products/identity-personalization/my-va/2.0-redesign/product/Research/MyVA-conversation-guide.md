@@ -1,29 +1,32 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Authenticated Experience Team, My VA Usability Research V1, July 2020"
+author: "Tressa Furner, Cassandra Allen"
+date_created: "2020-07-01"
+last_modified: "2020-07-31"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Authenticated Experience"
+portfolio: "digital-experience"
+product: "My VA"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have filed claims or appeals and/or receive VA benefits or health care"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "../MyVA-research-plan.md"
+related_prototype: "https://vsateams.invisionapp.com/share/EDZFDJ7UWTC#/437719085_myVA_Mobile_A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "authenticated-experience"
+  - "my-va"
+  - "personalization"
+  - "usability-testing"
+  - "mobile"
+description: "Usability testing of My VA 2.0 mobile prototypes comparing two design approaches for personalized dashboard."
 
 # NEW: Compliance flags
 recording_required: true

@@ -1,109 +1,113 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience, My VA Benefit Payments and Debts UAT, October 2022"
+date: 2022-10-01
+last_updated: 2022-11-23
+team: "Authenticated Experience"
+product: "My VA - Benefit Payments and Debts"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans want to manage VA debt on VA.gov rather than through mail and phone. This effort adds more detail around debt and payment information to My VA, including copays."
+  product_location: "My VA dashboard (authenticated area of VA.gov)"
+  user_familiarity: "Iteration - adding Outstanding debts and Benefit payments sections with copays"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va/payment-history"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "User Acceptance Testing (UAT)"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Confirm that functionality works as expected in new Outstanding debts and Benefit payments sections"
+  - goal_2: "Validate that no usability hurdles exist with red/green color elimination"
+  - goal_3: "Learn about challenges experienced by people who use magnification, have cognitive considerations, and use screen readers"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Does the functionality work as expected?"
+  - "Are Veterans able to take action on their payment or debt information without any usability hurdles?"
+  - "Has the elimination of red and green colors decreased the scannability of the page?"
+  - "Is any of the copy confusing to users?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will not encounter any bugs in the payments and debts sections"
+  - "Veterans will be able to easily take action on their payment and debt information from My VA"
+  - "Veterans will not be confused by the terminology used for debts and payments"
+  - "It will be clear what is due to VA from Veterans and what has been paid to them without the use of color to delineate"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Based on the outcome of this research study, we will either release the two new sections to production and/or update our design to correct any significant usability hurdles."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Focus on BIPOC Veterans, assistive tech users, and Veterans with cognitive disabilities"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All must receive education, compensation, or pension payments OR have education, compensation, pension debts, or copay balance"
+    - "At least 8 participants must currently have a form of debt"
+    - "Must be LOA3 (identity verified)"
+    - "Must be able to use assistive technology or join from smartphone/desktop"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 4 participants with cognitive impairments"
+    - "At least 4 participants using assistive technology"
+    - "At least 4 participants in rural areas"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you currently receive an education, compensation, or pension payment from the VA OR have education, compensation, pension debt, or health care related debt?"
+      qualifying_response: "Yes to at least one"
       
 participants:
-  veterans: 0
+  veterans: 8
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-11-14"
+  pilot_participant: "Heather Catalano (heather@adhocteam.us)"
+  research_dates: "2022-11-17 to 2022-11-23"
+  research_review_submission: "2022-10-01"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 45
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Move toward My VA being the one-stop shop for action items and benefit status"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Provide more direct, personalized routes to Veterans' most critical updates and tasks"
+      - "Cut down on necessary phone and mail communication"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/payment-history/discovery-and-research/june-2022-research/research-findings.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va/2.0-redesign/discovery-and-research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "my-va"
+  - "payment-history"
+  - "debts"
+  - "uat"
+  - "authenticated-experience"
 ---
 
 # Research Plan for Authenticated Experience, My VA Benefit Payments and Debts UAT, October 2022

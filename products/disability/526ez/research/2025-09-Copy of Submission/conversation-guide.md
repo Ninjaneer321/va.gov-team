@@ -1,43 +1,36 @@
 ---
-title: "Conversation Guide for Disability Benefits Core Form Team, 21-526ez, 2025-09-11"
-author: "Qian Chen, Irene Vailikit, Kevin Shih"
-date_created: "2025-09-11"
-last_modified: "2025-09-19"
-
-# NEW: Core research metadata
-team: "Disability Benefits Core Form Team"
-portfolio: "benefits"
-product: "Form 21-526EZ (Application for Disability Compensation)"
-research_phase: "usability"
-research_method: "moderated_usability_test"
-
-# NEW: Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans who have applied for VA disability benefits, tested on desktop and mobile devices"
-
-# NEW: Related documents
+title: "Conversation Guide for Benefits Disability Experience, 526EZ Disability Compensation Submission Copy Testing, September 2025"
+type: "Conversation Guide"
+study_date: "2025-09-01"
+authors:
+  - "Evelyn Hilbrich Davis"
+tags:
+  - "AUD:Veterans"
+  - "PRDT:526EZ"
+  - "PRDT:Disability-compensation"
+  - "RESRCH:Usability"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "RESRCH:Prototype-testing"
+  - "BNFT:Disability-compensation"
+  - "DSC:Submission-confirmation"
+  - "DSC:Form-copy"
+  - "DSP:Confirmation-page"
+  - "HDW:Desktop"
+  - "HDW:Mobile"
+  - "VETJNY:Applying-for-benefits"
+team: "Benefits Disability Experience"
+portfolio: "Benefits"
+product:
+  - "526EZ Disability Compensation"
+  - "Submission Confirmation"
+research_round: "Submission Copy Improvements"
+participant_count: 12
+study_length: "60 minutes"
+date: "2025-09"
 related_research_plan: "products/disability/526ez/research/2025-09-Copy of Submission/research-plan.md"
 related_prototype: "https://tinyurl.com/y7j36kar"
-
-tags:
-  - "AUD: Veterans"
-  - "BNFT: Disability"
-  - "PRDT: 21-526EZ"
-  - "DSC: Accordions"
-  - "DSP: Confirmation Page"
-  - "Research"
-  - "Usability Testing"
-  - "526ez"
-  - "Submission Confirmation"
-  - "Form Review"
-  - "Print Functionality"
-description: "Usability testing for Form 526EZ confirmation page focusing on content effectiveness, visual hierarchy, 'What happens next' information, and ability to save/print submission information."
-
-# NEW: Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+description: "Usability testing of submission confirmation copy improvements in 526EZ disability compensation form, evaluating content comprehension, visual hierarchy, print functionality, and understanding of next steps."
 ---
 
 # Copy of Submission: Conversation Guide

@@ -1,109 +1,120 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VA Coronavirus Volunteer List Survey, September 2020"
+date: 2020-09-23
+last_updated: 2020-09-23
+team: "Veterans Health Administration, Office of Research Protections Policy and Education (ORPP&E)"
+product: "VA Coronavirus Volunteer List Survey"
+product_area: "health-care"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Need to understand the experience of Veterans who have considered volunteering for COVID-19 vaccine trials at 3-5 sites using VSignals survey (Medallia platform)."
+  product_location: "VSignals survey platform (Medallia)"
+  user_familiarity: "New survey - question testing and validation prior to deployment"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/products/health-care/covid-vaccine-trials/"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "cognitive interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Test and validate survey questions with Veterans for clarity and comprehension"
+  - goal_2: "Refine survey questions iteratively based on Veteran feedback"
+  - goal_3: "Ensure survey captures meaningful feedback about vaccine trial volunteer experience"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans understand what each survey question is asking them about?"
+  - "Are there any questions that do not add value on the survey?"
+  - "Are there any questions that would add value and are missing?"
+  - "How might we re-word questions to arrive at desired understanding?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Survey questions will need to be refined for Veteran clarity and comprehension"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validated survey questions that are clear and comprehensive for Veterans considering participation in COVID vaccine trials"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "representative sample"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Recruit 13 Veterans (assuming 3 no-shows for 10 completed sessions)"
+    - "Can access laptop, desktop computer, or tablet with internet connection"
+    - "Must be fluent in spoken English"
+    - "Roughly 50/50 split discharge date before/after 1990"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Oversample minority groups (Black, American Indian/Alaska Native, Asian, Native Hawaiian/Pacific Islander)"
+    - "4+ women, 8+ men"
+    - "2+ Black or African American, 2+ Hispanic, 5+ White"
+    - "Geographic diversity across US"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you ever volunteered for a VA research study or trial?"
+      qualifying_response: "Record answer for research team"
+    - question: "Have you ever volunteered for a research study or trial outside VA?"
+      qualifying_response: "Record answer for research team"
+    - question: "Can you access a laptop, desktop computer, or tablet with internet connection?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 13
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-09-28"
+  pilot_participant: "Kt Gregory and Ellie Eberts"
+  research_dates: "2020-10-01 to 2020-10-06"
+  research_review_submission: "2020-09-23"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 30
+  buffer_minutes: 15
+  max_sessions_per_day: 6
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Gather feedback on COVID vaccine trial volunteer experience"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Living civilian life"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/products/health-care/covid-vaccine-trials/"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "COVID-19"
+  - "vaccine-trials"
+  - "VEO"
+  - "survey"
+  - "cognitive-interviews"
+  - "remote"
+  - "generative"
+  - "moderated"
+  - "veterans"
+  - "VSignals"
+  - "Medallia"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
 ---
 
 # Research Plan for VA Coronavirus Volunteer List Survey  September 23rd, 2020

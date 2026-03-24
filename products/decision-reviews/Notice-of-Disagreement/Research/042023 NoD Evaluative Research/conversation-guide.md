@@ -1,31 +1,27 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: Conversation Guide for Benefits Decision Reviews, Notice of Disagreement (10182),
+  2023 04
+author: Eileen Chi
+date_created: '2023-04-01'
+last_modified: '2023-04-01'
+team: Benefits Decision Reviews
+portfolio: benefits
+product: Notice of Disagreement (10182)
+research_phase: evaluative
+research_method: usability_test
+session_duration: 90 minutes
+session_type: remote_moderated
+participant_criteria: Veterans who have filed or would file Notice of Disagreement
+related_research_plan: products/decision-reviews/Notice-of-Disagreement/Research/042023
+  NoD Evaluative Research/research-plan.md
+related_prototype: N/A
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+- NOD
+- '10182'
+- decision-reviews
+- evaluative-research
+- board-review
+description: Evaluative research on Notice of Disagreement form usability and comprehension.
 recording_required: true
 observer_support: true
 consent_for_clips: true

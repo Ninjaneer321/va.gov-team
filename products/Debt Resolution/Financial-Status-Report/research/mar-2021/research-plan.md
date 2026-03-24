@@ -120,7 +120,21 @@ related_research:
   previous_studies: 
     - "TBD"
     
+
+study: "Debt Resolution Team, Financial Status Report (FSR), March"
 tags:
+  - debt-resolution
+  - financial-status-report
+  - va-form-5655
+  - FSR
+  - usability-testing
+  - interviews
+  - payment-plan
+  - waiver
+  - compromise-offer
+  - list-loop
+  - authenticated
+  - research-plan
   - "AUD: Veterans"
   - "BNFT: Financial assistance"
   - "PRDT: Debt Resolution"

@@ -1,12 +1,48 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+# Conversation Guide Metadata
+title: "Conversation Guide for VFMP Status Integration, CHAMPVA Application Status MVP, February 2026"
+author: "VFMP Status Integration Team"
+date_created: "2026-02-01"
+last_modified: "2026-02-01"
+team: "Health Apps Team"
+product: "VFMP Status Integration - CHAMPVA Application Status MVP"
+product_area: "authenticated"
+portfolio: "Health"
+
+# Research Context
+study_name: "CHAMPVA Application Status MVP Research"
+research_phase: "Usability testing"
+research_type: "Moderated usability testing"
+research_method: "Remote moderated usability testing"
+session_format: "Remote moderated sessions"
+session_duration: "60 minutes"
+participant_type: "Veterans and beneficiaries managing CHAMPVA applications"
+
+# Research Planning
+related_research_plan: ""
+related_prototype: "Health Apps Claims Status Tool prototype"
+environment: "Prototype testing environment"
+
+# Logistics
+recording_required: true
+consent_for_clips: true
+observer_support: true
+
+# Tags
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "research"
+  - "conversation-guide"
+  - "moderated-research"
+  - "usability-testing"
+  - "CHAMPVA"
+  - "application-status"
+  - "health-apps"
+  - "claims-status-tool"
+  - "VFMP"
+  - "health-benefits"
+  - "authenticated-experience"
+
+description: "Conversation guide for VFMP Status Integration research testing the CHAMPVA Application Status MVP feature integrated into the Health Apps Claims Status Tool. Tests how Veterans and beneficiaries view and track CHAMPVA application status information through the digital platform."
 ---
 
 > [!TIP]

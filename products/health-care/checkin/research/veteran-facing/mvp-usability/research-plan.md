@@ -1,109 +1,136 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Check-in Team, Check-in MVP Usability, June 2021"
+date: 2021-06-11
+last_updated: 2021-06-11
+team: "VSA Healthcare Experience - Check-in"
+product: "Patient Check-in"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need a better way to check in for medical appointments. The current process requires Veterans to check in at a physical kiosk or with staff, which can be time-consuming and inefficient. This product is reimagining the ecosystem that allows a Veteran to check in for a medical appointment using their mobile device via va.gov."
+  product_location: "VA.gov check-in experience"
+  user_familiarity: "New product"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/product/product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Test the usability and design of the proposed check-in MVP"
+  - goal_2: "Understand how Veterans feel about the proposed check-in solution, particularly the multiple modalities utilized (text, then website)"
+  - goal_3: "Determine what appointment information Veterans expect to review to complete check-in"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans understand how to check-in via their mobile device?"
+  - "How do Veterans feel about the proposed check-in solution, particularly the multiple modalities utilized (text, then website)?"
+  - "What appointment information are Veterans expecting to review, in order to complete check-in?"
+  - "Once check-in is complete, do Veterans understand what will happen/what they should do next, or how to get help if they are having trouble checking in?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will be able to complete check-in on their mobile device"
+  - "Due to our authentication method, Veterans will have no problems jumping from text to website to complete check-in"
+  - "Since Veterans are at the VA facility, they only need a few pieces of appointment information during the check-in process"
+  - "Veterans will have enough information to know what to do next or where to go if they do have questions"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate the proposed MVP check-in solution and identify any usability issues before launch"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "targeted recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Participants must use VA health care AND had an in-person medical appointment at a VA facility within the last two years"
+    - "Participants must be willing to complete the study via a mobile device"
+    - "Participants need to be able to use Zoom on their smart phone"
+    - "Participants must be willing to share their smart phone screen"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 1 woman"
+    - "At least 1 person of color"
+    - "At least 1 participant 35 or under and 1 participant over 55"
+    - "At least one person that does not have a college degree"
+    - "At least one person that has no college experience"
+    - "At least one person who lives in a rural or remote area"
+    - "At least one person who lives in a major metropolitan area"
+    - "At least one participant that has identified cognitive impairments and/or functional disabilities"
+    - "At least one non-native English speaker"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Does the following statement describe you? I currently use VA health care AND had an in-person medical appointment at a VA facility within the last two years."
+      qualifying_response: "Yes"
+    - question: "Do you have a smart phone?"
+      qualifying_response: "Yes"
+    - question: "Are you willing and able to complete this study on your smart phone?"
+      qualifying_response: "Yes"
+    - question: "Are you able to use Zoom on your smart phone and willing to share your smart phone screen via Zoom?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 15
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-06-21"
+  pilot_participant: "Dillo Raju"
+  research_dates: "2021-06-23 to 2021-06-29"
+  research_review_submission: ""
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increase use of digital self-service tools"
+  - objective: "Logged-in users have a personalized experience"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Improve Veteran experience with check-in"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Living civilian life"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/product/product-outline.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "patient-check-in"
+  - "PCI"
+  - "HCE"
+  - "check-in"
+  - "MVP"
+  - "usability-testing"
+  - "remote"
+  - "evaluative"
+  - "moderated"
+  - "veterans"
+  - "mobile"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Check-in"
+study: Check-in Team, Check-in MVP Usability
+type: Usability
 ---
 
 # Research Plan for Check-in MVP Usability

@@ -116,6 +116,16 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/notifications/notification-preferences/discovery-and-research/notifications-research-findings.md"
     
 tags:
+  - profile
+  - notification-preferences
+  - usability-testing
+  - authenticated-experience
+  - notifications
+  - communication-preferences
+  - text-messaging
+  - email
+  - authenticated
+  - research-plan
   - "AUD: Veterans"
   - "PRDT: Profile"
   - "PRDT: Notifications"

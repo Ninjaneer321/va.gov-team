@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for Secure Messaging Recent Care Teams Research, March 2026"
+author: MHV on VA.gov Team
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "Digital Health Modernization - MHV on VA.gov"
+portfolio: "health"
+product: "Secure Messaging on VA.gov"
+research_phase: "usability"
+research_method: "usability_test"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use My HealtheVet secure messaging to communicate with care teams"
+
+# Related documents
+related_research_plan: "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/Recent-Care-Teams-Research/2026-03-Recent-Care-Teams-research-plan2.md"
+related_prototype: "Figma prototype"
+
+tags:
+  - "secure-messaging"
+  - "usability-testing"
+  - "mhv-on-vagov"
+  - "care-teams"
+  - "provider-communication"
+description: "Usability study testing recent care teams feature in secure messaging to help Veterans find and message their most frequently contacted providers."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide: Recent Care Teams Research
 
 ## Moderator logistics

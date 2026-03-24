@@ -94,11 +94,21 @@ related_research:
     - "Previous Medical Records usability studies"
     
 tags:
+  - "health-care"
+  - "MHV"
+  - "My-HealtheVet"
+  - "migration"
   - "medical-records"
-  - "analytics-monitoring"
+  - "metrics"
+  - "feedback"
+  - "analytics"
+  - "evaluative"
   - "veterans"
-  - "mhv-on-vagov"
-  - "digital-health-modernization"
+  - "post-launch"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: My-HealtheVet"
+  - "PRDT: Medical-Records"
 ---
 
 # Research Plan for MHV on VA.gov, Medical Records, Feb - Apr 2025

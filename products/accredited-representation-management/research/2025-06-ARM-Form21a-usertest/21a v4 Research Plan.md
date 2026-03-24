@@ -1,109 +1,98 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Form 21a v4 Research Plan, 2025-06"
+date: 2025-06-01
+last_updated: 2025-06-23
+team: "Accredited Representative Management (ARM)"
+product: "Form 21a Digital Accreditation"
+product_area: "accredited-representative-facing"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The current process to submit a paper 21a form is outdated and inefficient. The 21a form is the application utilized by attorneys and claims agents seeking VA accreditation."
+  product_location: "Accredited Representative Portal - Digital Form 21a v4"
+  user_familiarity: "New digital product replacing paper form"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/21a-digital-accreditation.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Semi-structured interviews and usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Uncover assumptions, rumors, and myths about the accreditation process for attorneys and claims agents"
+  - goal_2: "Understand the applicant expectations upon completing the Form 21a v4"
+  - goal_3: "Understand the usability of Form 21a v4 for prospective claim agents and attorneys"
+  - goal_4: "Validate previously learned findings about applicant motivations and challenges"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What prompted the applicants to apply for accreditation?"
+  - "Did the applicant have any trouble understanding the Form 21a v4 questions?"
+  - "How long did it take the applicant to complete and submit the application?"
+  - "What are users' expectations of the digital Form 21a v4 experience?"
+  - "Do users understand the next steps after submitting the Form 21a v4?"
+  - "How do users respond to the language of potentially triggering questions?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Usability testing will show that many prospective accredited applicants can navigate the digitized Form 21a v4 on desktop devices"
+  - "If shown a substantial portion of their form, applicants will find the form long and desire to see more granular data about progress"
+  - "Applicants desire an ability to upload a pre-formatted resume that auto-fills into the appropriate form fields"
+  - "Applicants expect email confirmation along with periodic updates notifying them of changes to their application status"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will identify specific areas for improving the user experience and guide improvements in communication, including language and support materials"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "OGC and Perigean"
+  approach: "Targeted recruitment of attorneys and claims agents"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Attorneys or claims agents seeking to apply for accreditation"
+    - "In-progress completing their application for accreditation"
+    - "Recently completed application (within past 120 days)"
+    - "Recently awarded accreditation (within past 6 months)"
     
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
 participants:
   veterans: 0
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-06-10"
+  research_dates: "2025-06-11 to 2025-06-13"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 90
+  buffer_minutes: 60
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+  - objective: "Our digital experiences are the best way to access VA health care and benefits"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Number of transactions processed during our products have increased by 25%"
+      - "All new products have a faster transaction time than those they replaced"
+  - objective: "Our platforms are the best way to deliver products at VA"
+    key_results:
+      - "Our platforms power twice as many interactions compared to last year"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Not applicable - accredited representative facing"
     
 # Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "ARM"
+  - "accredited-representative"
+  - "form-21a"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "attorneys"
+  - "claims-agents"
 ---
 
 Form 21a v4 Research Plan Background\

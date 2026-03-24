@@ -1,3 +1,27 @@
+---
+type: conversation_guide
+study_name: MHV Account Creation and Blue Button Testing
+team: Identity
+product: MHV Account Creation
+platform: VA.gov
+moderator: Identity team
+date: March 2017
+research_method: Remote usability testing
+session_type: moderated_remote
+session_duration_minutes: 45
+number_of_participants: 3-5
+tags:
+  - identity
+  - MHV
+  - account-creation
+  - blue-button
+  - medical-records
+  - usability-testing
+  - prototype-testing
+  - terms-and-conditions
+  - consent
+---
+
 # March 2017 Account Creation Test with Blue Button questions
 
 ## Goals

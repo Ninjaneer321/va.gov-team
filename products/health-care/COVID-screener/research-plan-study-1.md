@@ -1,110 +1,113 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "COVID-19 Screener Usability Testing - Study 1"
+date: 2020-05-18
+last_updated: 2026-03-23
+team: "Health Care Team"
+product: "COVID-19 Screener Tool"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Raleigh/Durham VAMC created a screener tool allowing Veterans to quickly and remotely self-screen for COVID symptoms prior to entering a VA medical center. Need to validate usability with Veterans, employees, and visitors to reduce in-person interaction with staff and triage potential COVID patients."
+  product_location: "VAMC entry screening - mobile only"
+  user_familiarity: "New product - launched May 8, 2020"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/COVID-screener/project-brief.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
-  
+methodology: "Usability Testing, Semi-structured Interviews"
+research_format:
+  location: remote
+  moderated: true
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand users' (Veterans, employees, visitors) expectations for screening/intake at VAMC"
+  - goal_2: "Validate users can effectively find and complete the screener"
+  - goal_3: "Determine if users know what to do after completing the screener"
+  - goal_4: "Verify screener accomplishes VAMC staff goals"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What are users' expectations for screening/intake at the VAMC?"
+  - "Can users effectively find and complete the screener?"
+  - "Do users know what to do after completing the screener? Are their expectations met?"
+  - "Does the screener accomplish the goals of the VAMC staff?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "We have built a fast, easily understood screening tool that Veterans can find and complete quickly"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validation that the COVID screener meets user needs and VAMC operational goals for safe facility entry"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Standard recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
-    
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "5 users including mix of Veterans and non-Veteran visitors"
+    - "Must be enrolled in VA Health Care or family member/caregiver of enrolled Veteran"
+    - "Strong preference for anyone who has visited a VAMC in the last month"
+    - "Mobile devices only (XD prototypes)"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
+    - question: "Are you enrolled in VA Health Care or are you a family member/caregiver of an enrolled Veteran?"
+      qualifying_response: "Yes"
+    - question: "Have you visited a VAMC in the last month?"
+      qualifying_response: "Preference for Yes"
+
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 4
+  caregivers: 1
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
+  total_recruited: 5
+  completed_sessions_goal: 5
+
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-05-15"
+  pilot_participant: "Martha Wilkes"
+  research_dates: "2020-05-18"
+  research_review_submission: "2020-05-11"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 30
   buffer_minutes: 30
-  max_sessions_per_day: 0
-  
+  max_sessions_per_day: 8
+
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can access health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Enable safe VAMC entry during COVID-19"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
+  - "Taking care of myself"
+  - "Managing my declining health"
+  - "Aging"
+
 # Research Repository Tracking
 related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
+  previous_studies: []
+  conversation_guide: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/COVID-screener/convo-guide-study-1.md"
+  synthesis: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/COVID-screener/synthesis-study-1.md"
+
+# Team
+moderator: "Jeff Barnes"
+notetaker: "Perigean"
+observers: "Martha Wilkes, Lauren Alexanderson, Patrick Bateman"
+
+study: "COVID-19 Screener Usability Testing - Study 1, May 2020"
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - COVID-19
+  - COVID-screener
+  - health-screening
+  - usability-testing
+  - mobile-only
+  - VAMC-entry
+  - pandemic-response
+  - unauthenticated
 ---
+
 
 # Research Plan for COVID screener, May 2020
 

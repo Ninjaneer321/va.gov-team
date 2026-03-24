@@ -69,7 +69,7 @@ participants:
 # Timeline & Sessions
 timeline:
   pilot_date: "2018-11-26"
-  pilot_participant: "TBD"
+  pilot_participant: "Internal team member"
   research_dates: "2018-11-26 to 2018-11-30"
   research_review_submission: "2018-11-15"
   

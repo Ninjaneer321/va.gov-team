@@ -1,109 +1,112 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for COVID Vaccine Trial Enrollment Tool, August 2020"
+date: 2020-08-01
+last_updated: 2020-08-01
+team: "VA OCTO"
+product: "COVID-19 Vaccine Clinical Trial Intake Form"
+product_area: "health-care"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need a fast, remote way to register for VA-run COVID-19 vaccine clinical trials. The intake form enables Veterans to quickly register remotely for vaccine trials."
+  product_location: "Online intake form accessible via text message and web"
+  user_familiarity: "New product - first version of clinical trial intake form"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/covid-vaccine-trials/product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Gather first round of Veteran feedback on clinical trial intake form"
+  - goal_2: "Understand user expectations for clinical trial intake processes"
+  - goal_3: "Identify how COVID-19 affects perception of clinical trial participation"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What are users' expectations for intake at a clinical trial?"
+  - "Can users effectively find and complete the intake form?"
+  - "How does COVID-19 affect users' perception of participation in clinical trials?"
+  - "What are users' expectations after completing the intake form?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "We have built a fast, easily understood intake form that enables Veterans to register for VA-run COVID-19 vaccine clinical trials"
+  - "Veterans may have expectations or concerns about vaccine trials that may impact willingness to share personal information"
+  - "Veterans will want clear guidance on next steps after registration"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate intake form usability and identify improvements needed for clear communication about trial participation and next steps"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "targeted recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Mix of Veterans and non-Veteran visitors"
+    - "Must be enrolled in VA Health Care or family member/caregiver of enrolled Veteran"
+    - "Strong preference for anyone who has visited a VAMC in the last month"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mobile device users (testing mobile-only interface)"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you enrolled in VA Health Care or a family member/caregiver of an enrolled Veteran?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 4
+  caregivers: 1
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 5
+  completed_sessions_goal: 5
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-08-05"
+  pilot_participant: "Kaeli Yuen"
+  research_dates: "2020-08-07 to 2020-08-12"
+  research_review_submission: "2020-08-01"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 30
+  buffer_minutes: 0
+  max_sessions_per_day: 6
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Enable remote registration for COVID vaccine clinical trials"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Living civilian life"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/products/health-care/covid-vaccine-trials/"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "COVID-19"
+  - "vaccine-trials"
+  - "clinical-trials"
+  - "usability-testing"
+  - "remote"
+  - "evaluative"
+  - "moderated"
+  - "veterans"
+  - "mobile"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
 ---
 
 # Research Plan for COVID vaccine trial enrollment tool, August 2020

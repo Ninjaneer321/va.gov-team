@@ -113,6 +113,15 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/Research/2024-01-military-info-enhancement-mvp/conversation-guide.md"
     
 tags:
+  - profile
+  - military-information
+  - mvp
+  - usability-testing
+  - authenticated-experience
+  - service-history
+  - discharge-documents
+  - authenticated
+  - research-plan
   - "profile"
   - "military-information"
   - "authenticated-experience"

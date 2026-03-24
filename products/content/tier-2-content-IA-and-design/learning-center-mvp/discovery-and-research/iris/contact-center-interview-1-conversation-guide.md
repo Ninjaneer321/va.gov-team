@@ -1,31 +1,28 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: Conversation Guide for Sitewide Content and IA, Learning Center - IRIS Integration,
+  2020 01
+author: Liz Lantz
+date_created: '2020-01-01'
+last_modified: '2020-01-01'
+team: Sitewide Content and IA
+portfolio: digital-experience
+product: Learning Center - IRIS Integration
+research_phase: discovery
+research_method: moderated_interview
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: IRIS contact center content team members and stakeholders
+related_research_plan: products/content/tier-2-content-IA-and-design/learning-center-mvp/discovery-and-research/research-plan.md
+related_prototype: N/A
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+- learning-center
+- IRIS
+- contact-center
+- discovery
+- internal-research
+- content-processes
+description: Discovery interviews with IRIS contact center team to understand content
+  creation and maintenance processes for customer service articles.
 recording_required: true
 observer_support: true
 consent_for_clips: true

@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for Education, Vocational Rehabilitation and Employment Form Research, January 2018"
+author: "Elissa Frankle Olinsky"
+date_created: "2018-01-01"
+last_modified: "2018-01-01"
+
+# Core research metadata
+team: "Education Services"
+portfolio: "benefits"
+product: "Vocational Rehabilitation and Employment (VR&E)"
+research_phase: "usability"
+research_method: "usability_test"
+
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with at least 10% service-connected disability and other-than-dishonorable discharge, mix of those who have and haven't applied for VR&E"
+
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://adhoc.invisionapp.com/share/KXF2UUB3H"
+
+tags:
+  - "education"
+  - "VRE"
+  - "28-1900"
+  - "usability-testing"
+  - "eligibility"
+description: "Usability testing of VR&E application form and eligibility wizard to determine if Veterans can assess eligibility and successfully complete the application process."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: false
+---
+
 # Conversation Guide: VR&E
 
 ## Goals

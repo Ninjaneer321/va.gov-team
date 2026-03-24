@@ -100,10 +100,21 @@ related_research:
     - "[Link to related past research]"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "patient-check-in"
+  - "PCI"
+  - "HCE"
+  - "check-in"
+  - "in-person"
+  - "Corpus-Christi"
+  - "evaluative"
+  - "moderated"
+  - "veterans"
+  - "usability-testing"
+  - "mobile"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Check-in"
 ---
 
 # Check-In Research Plan for In-Person Veteran Interviews at Corpus Christi, TX

@@ -1,3 +1,40 @@
+---
+title: "Conversation Guide for Identity, MHV Rx Tracking and Account Creation, May 2017"
+author: "MHV Account Creation Team"
+date_created: "2017-05-01"
+last_modified: "2017-05-01"
+
+# Core research metadata
+team: "Identity"
+portfolio: "digital-experience"
+product: "MyHealtheVet Account Creation"
+research_phase: "usability"
+research_method: "usability_test"
+
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who want to access MHV prescription tracking and health tools"
+
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://marvelapp.com/8abe5j4"
+
+tags:
+  - "identity"
+  - "MHV"
+  - "account-creation"
+  - "prescriptions"
+  - "rx-tracking"
+  - "usability-testing"
+description: "Usability testing of MHV account creation terms and conditions flow, and prescription tracking functionality to validate Veterans understand tools available."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: false
+---
+
 # May 2017 Rx Tracking and Account Creation 
 
 ## Mockups: https://marvelapp.com/8abe5j4 (account creation) and https://marvelapp.com/88agag4 (Rx Tracking)

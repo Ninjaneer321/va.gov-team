@@ -1,110 +1,121 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "VET TEC Prototype Research for Form 22-0994"
+date: 2019-02-04
+last_updated: 2026-03-23
+team: "BAH Platform Team"
+product: "VET TEC Application (22-0994)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "VA is launching a new education program (VET TEC) for Veterans using education benefits for technology training programs. This application is new and will exist solely online with no paper equivalent. Veterans who haven't applied for educational benefits need to submit both Form 22-1990 and Form 22-0994."
+  product_location: "Vets.gov"
+  user_familiarity: "New product - first online-only VA education benefits application"
+  product_brief_url: "TBD"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
-  
+methodology: "Usability Testing"
+research_format:
+  location: remote
+  moderated: true
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand Veterans' goals, needs, expectations and behaviors related to applying for educational benefits"
+  - goal_2: "Identify how to make the form easy to understand so Veterans can determine eligibility and share needed information"
+  - goal_3: "Discover user interface issues and additional contextual help needs"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What are Veterans' goals, needs, expectations and behaviors related to applying for educational benefits?"
+  - "How can VA make this form easy to understand, so that Veterans can determine their eligibility and share the information needed to submit valid applications?"
+  - "What aspects of the user interface present issues for Veterans?"
+  - "What additional information or contextual help do Veterans need to understand how to complete this form?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "By presenting VA Form 22-0994 in an easy to use interview format, displaying only relevant questions, pre-populating data, and presenting contextual help, Vets.gov will offer a simple method for applying for educational benefits"
+  - "The online form will make applying for educational benefits easy and instill confidence in Veterans' ability to apply independently"
+  - "Learning about issues Veterans encounter will help us write instructional copy to help them complete the form correctly"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will inform improvements to form design and content to help Veterans successfully complete their VET TEC application"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Perigean (Contract recruiting)"
+  approach: "Screener questions for qualified participants"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "6 Veterans"
+    - "Age 22-45"
+    - "Interested in applying for educational benefits through the VA"
+    - "Interested in careers in the technology field"
+    - "Live in a variety of geographic locations"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Have at least 1 day of VA educational benefits remaining (optional)"
+    - "Any level of familiarity with technology"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
+    - question: "Are you interested in applying for VA educational benefits?"
+      qualifying_response: "Yes"
+    - question: "Are you interested in pursuing education in the high-tech industry?"
+      qualifying_response: "Yes"
+    - question: "What is your age range?"
+      qualifying_response: "22-45 years old"
+
 participants:
-  veterans: 0
+  veterans: 6
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
+  total_recruited: 6
+  completed_sessions_goal: 6
+
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2019-02-01"
+  pilot_participant: "Internal team pilot"
+  research_dates: "2019-02-04 to 2019-02-06"
+  research_review_submission: "2019-01-25"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 45
   buffer_minutes: 30
-  max_sessions_per_day: 0
-  
+  max_sessions_per_day: 5
+
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can apply for education benefits online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Launch online-only VET TEC application"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
+  - "Getting out"
+  - "Starting up"
+  - "Reinventing myself"
+
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
-    
+    - "Initial VET TEC discovery"
+  prototype: "InVision prototype (ready January 30, 2019)"
+
+# Team
+moderator: "Theresa McMurdo, Amy Knox"
+notetaker: "Cindy Cruz"
+observers: "TBD"
+
+study: "VET TEC Prototype Research for Form 22-0994, February 2019"
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - education
+  - VET-TEC
+  - 22-0994
+  - usability-testing
+  - prototype-testing
+  - high-tech-training
+  - education-benefits
+  - online-only-form
 ---
+
 
 # Research Plan for VET TEC Prototype Research for the BAH Platform Team, February 2019
 (This should be filled out and maintained by the designer on the team & can be cross-linked and referenced in any issues.) 

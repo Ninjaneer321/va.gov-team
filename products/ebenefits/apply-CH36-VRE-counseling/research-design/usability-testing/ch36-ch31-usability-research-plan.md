@@ -1,110 +1,55 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Usability Testing for Chapters 31 and 36"
+date: 2020-09-01
+last_updated: 2026-03-23
+team: "eBenefits"
+product: "Veteran Readiness and Employment (Chapter 31) and Personalized Career Planning and Guidance (Chapter 36)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Moving Chapter 31 (VR&E) and Chapter 36 (PCPG) features from eBenefits to VA.gov. These programs overlap, creating confusion for users. Need to test if new forms and screening wizards help Veterans decide which form is best for them."
+  product_location: "VA.gov"
+  user_familiarity: "New product - migrating from eBenefits to VA.gov"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ebenefits/apply-CH36-VRE-counseling"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
-  
+methodology: "Usability Testing"
+research_format:
+  location: remote
+  moderated: true
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Maintain existing functionality while reducing confusion between CH31 and CH36 programs"
+  - goal_2: "Determine if the new forms and wizards are intuitive and functional for users"
+  - goal_3: "Identify where and how participants expect to find CH31 and CH36 forms"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Where and how do participants expect to find CH31 and CH36 forms?"
+  - "Do participants understand the function of the wizard features?"
+  - "Will users identify the differences between the CH31 and CH36 programs and select the right form(s)?"
+  - "What challenges prevent users from quickly and accurately completing the forms?"
 
-hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+# Methodology Details
+research_type: "Evaluative"
+session_format: "Remote moderated usability testing with UXPin prototypes"
+timeline: "2020-09-24 to 2020-09-30"
 
-expected_outcomes: "[How will findings advance the product?]"
+# Participants
+participant_count: 5
+recruitment_criteria: "Veterans, service members, or dependents (no special requirements)"
 
-# Recruitment & Participants
-recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
-  
-  primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
-    
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
-participants:
-  veterans: 0
-  caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
-# Timeline & Sessions
-timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
-  
-session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
-  
-# Strategic Alignment
-octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
-      
-veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
-# Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
-tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+# Team
+moderator: "James Adams"
+notetaker: "Various"
+observers: "Steve Kovacs, Jason Wolf, Shawna Hein, Kathleen Crawford, Derek Dyer, Micah Chiang, Jesse Cohn"
+
+# Tags
+tags: ['research', 'usability-testing', 'ebenefits', 'chapter-31', 'chapter-36', 'VRE', 'PCPG', 'form-28-1900', 'form-28-8832', 'wizard', 'authenticated', 'research-plan']
 ---
+
 
 # Research plan for usability testing for Chapters 31 and 36
 **VSA eBenefits Team | September 2020**

@@ -1,60 +1,26 @@
 ---
-title: "Conversation Guide for Benefits Team 1, Claim Status Tool Document Status, November 2024"
-author: "Gary Homidas, Skyler Schain"
-date_created: "2024-11-16"
-last_modified: "2026-02-11"
-
-# NEW: Core research metadata
-team: "Benefits Team 1"
-portfolio: "benefits"
-product: "Claim Status Tool - Document Status"
-research_phase: "evaluative"
-research_method: "semi_structured_interviews"
-
-# NEW: Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans who filed a disability compensation claim within the past 5 years and have uploaded files using the Claim Status Tool on VA.gov. Must use desktop device. Mix including Black Veterans, older Veterans (55-64+), rural Veterans, and women Veterans."
-
-# NEW: Related documents
-related_research_plan: "products/claim-appeal-status/research/2024-11-Document-Status/research-plan.md"
-related_prototype: "https://www.figma.com/proto/m1Xt8XjVDjZIbliCYcCKpE/Document-status-%28formerly-silent-failures%29?node-id=2771-20256"
-
+title: Conversation Guide for Benefits Management Tools, Claim Status Tool, 2024 11
+author: Skyler Schain
+date_created: '2024-11-01'
+last_modified: '2024-11-01'
+team: Benefits Management Tools
+portfolio: benefits
+product: Claim Status Tool
+research_phase: usability
+research_method: usability_test
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: Veterans who submit documents to support their claims
+related_research_plan: products/claim-appeal-status/research/2024-11-Document-Status/research-plan.md
+related_prototype: N/A
 tags:
-  - "AUD-Veterans"
-  - "BNFT-Disability"
-  - "BNFT-Compensation"
-  - "DSC-Alert"
-  - "DSC-Button"
-  - "DSC-Link"
-  - "DSC-Progress-indicator"
-  - "DSC-Status-tag"
-  - "DSP-Alerts-and-notifications"
-  - "PRDT-Claim-status-tool"
-  - "PRDT-CST"
-  - "HDW-Desktop"
-  - "semi-structured-interviews"
-  - "remote"
-  - "moderated"
-  - "prototype"
-  - "authenticated"
-  - "disability-compensation"
-  - "document-upload"
-  - "file-upload"
-  - "document-status"
-  - "silent-failures"
-  - "evidence-submission"
-  - "upload-errors"
-  - "email-notifications"
-  - "real-time-status"
-  - "tracked-items"
-  - "trust"
-  - "transparency"
-  - "VBA"
-  - "eFolder"
-description: "Semi-structured interview and usability test for Claim Status Tool document status feature. Evaluates Veterans' understanding of document upload statuses, tests failure notification flows, assesses connection between email and in-app alerts, and explores trust in document submission process including mailed documents."
-
-# NEW: Compliance flags
+- claim-status
+- document-status
+- usability-testing
+- CST
+- evidence-tracking
+description: Usability testing of document status tracking feature in Claim Status
+  Tool.
 recording_required: true
 observer_support: true
 consent_for_clips: true

@@ -1,29 +1,33 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Authenticated Experience Team, Payment Information v2 UAT, April 2022"
+author: "Angela Agosto"
+date_created: "2022-04-01"
+last_modified: "2022-04-30"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Authenticated Experience"
+portfolio: "digital-experience"
+product: "My VA - Payment History"
+research_phase: "validation"
+research_method: "UAT"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with LOA3 accounts who have received VA payments or have education, compensation, pension, or healthcare-related debt"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "../v2-UAT-research-plan.md"
+related_prototype: "https://www.va.gov/my-va/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "authenticated-experience"
+  - "my-va"
+  - "payment-history"
+  - "debts"
+  - "copays"
+  - "UAT"
+description: "User acceptance testing for version 2 of payment and debt information feature on My VA dashboard."
 
 # NEW: Compliance flags
 recording_required: true

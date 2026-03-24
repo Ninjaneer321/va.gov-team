@@ -1,10 +1,39 @@
 ---
-# Research Plan Metadata
 title: "Research Plan for Authenticated Experience Profile team: UAT for notification settings and contact information updates, October 2023"
-date: 2023-10-10
-last_updated: 2023-10-11
+type: "Research Plan"
+study_date: "2023-10-18"
+authors:
+  - "Liz Lantz"
+  - "Lihan Li"
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Profile"
+  - "PRDT: Notification Settings"
+  - "PRDT: Contact Information"
+  - "RESRCH: UAT"
+  - "RESRCH: User Acceptance Testing"
+  - "RESRCH: Remote"
+  - "HDW: Desktop"
+  - "HDW: Mobile"
+  - "DSC: Checkbox"
+  - "DSP: Edit as Subtask"
+  - "DSP: Notifications"
+  - "Authenticated Experience"
 team: "Authenticated Experience - Profile"
-product: "VA.gov Profile - Notification Settings and Contact Information"
+portfolio: "Identity"
+product:
+  - "VA.gov Profile"
+  - "Notification Settings"
+  - "Contact Information"
+research_round: "UAT"
+participant_count: 7
+study_length: "30 minutes"
+date: "2023-10"
+# Research Plan Metadata (legacy)
+legacy_date: 2023-10-10
+last_updated: 2023-10-11
+legacy_team: "Authenticated Experience - Profile"
+legacy_product: "VA.gov Profile - Notification Settings and Contact Information"
 product_area: "authenticated"
 
 # Background Context
@@ -111,6 +140,15 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/contact-information/mobile-phone-edit-flow/README.md"
     
 tags:
+  - profile
+  - uat
+  - user-acceptance-testing
+  - edit-as-subtask
+  - checkbox-ui
+  - authenticated-experience
+  - contact-information
+  - authenticated
+  - research-plan
   - "AUD: Veterans"
   - "PRDT: VA.gov Profile"
   - "PRDT: Profile-notification-settings"

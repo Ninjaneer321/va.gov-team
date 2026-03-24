@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Plan
+title: Approachplantemplate
+services: Disability
+tags: 526EZ, disability
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/product/CarbsPlanning/ApproachPlanTemplate.md
+---
 
 ## Approach Document
 

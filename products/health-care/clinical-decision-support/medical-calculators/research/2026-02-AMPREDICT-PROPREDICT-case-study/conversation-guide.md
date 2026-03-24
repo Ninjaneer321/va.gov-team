@@ -1,12 +1,53 @@
 ---
-title: "Conversation Guide for CDS Medical Calculators,02/02/2026"
-author: "Natalie Hill"
-date_created: "02/03/2026"
-last_modified: "02/03/2026"
+# Conversation Guide Metadata
+title: "Conversation Guide for CDS Medical Calculators, AMPREDICT and PROPREDICT Time-on-Task Case Study, February 2026"
+author: "Natalie Hill, Senior Product Designer, CDS Medical Calculators Team"
+date_created: "2026-02-03"
+last_modified: "2026-02-03"
+team: "Clinical Decision Support (CDS) Medical Calculators Team"
+product: "CDS Medical Calculators - AMPREDICT and PROPREDICT"
+product_area: "authenticated"
+portfolio: "Health"
+
+# Research Context
+study_name: "AMPREDICT and PROPREDICT Time-on-Task Benchmarking Study"
+research_phase: "Usability testing - Performance metrics"
+research_type: "Moderated time-on-task testing"
+research_method: "Timed usability testing with healthcare providers"
+session_format: "Remote moderated sessions"
+session_duration: "20 minutes"
+participant_type: "VA healthcare providers using CPRS and medical calculators"
+
+# Research Planning
+related_research_plan: ""
+related_prototype: "CDS Medical Calculators tool in CPRS"
+environment: "Production CPRS environment with real patient data (PHI authorized)"
+
+# Logistics
+recording_required: false
+consent_for_clips: false
+observer_support: true
+screen_sharing: true
+
+# Tags
 tags:
-  - "time on task "
-  - "medical calculators"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "research"
+  - "conversation-guide"
+  - "moderated-research"
+  - "time-on-task"
+  - "medical-calculators"
+  - "CDS"
+  - "clinical-decision-support"
+  - "AMPREDICT"
+  - "PROPREDICT"
+  - "CPRS"
+  - "healthcare-providers"
+  - "performance-metrics"
+  - "benchmarking"
+  - "health-informatics"
+  - "authenticated-experience"
+
+description: "Conversation guide for benchmarking time-on-task research testing AMPREDICT and PROPREDICT medical calculators. Compares completion time between online calculator and new CDS Medical Calculators tool in CPRS. Healthcare providers complete calculations using both methods with real patient data to measure efficiency gains and usability improvements."
 ---
 # Conversation Guide for Testing Time to Complete Calculation in AMPREDICT and PROPREDICT
 

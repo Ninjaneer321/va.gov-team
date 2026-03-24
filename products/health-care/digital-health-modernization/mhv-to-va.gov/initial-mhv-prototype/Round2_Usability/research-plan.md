@@ -100,10 +100,20 @@ related_research:
     - "[Link to related past research]"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "MHV"
+  - "My-HealtheVet"
+  - "migration"
+  - "prototype"
+  - "usability-testing"
+  - "remote"
+  - "evaluative"
+  - "moderated"
+  - "veterans"
+  - "round-2"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: My-HealtheVet"
 ---
 
 # Research Plan for MHV on VA.gov Usability Round 2

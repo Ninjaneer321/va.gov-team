@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for benefit-letters, benefit-letters, 2026-03-23"
+author: VA Team
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "benefit-letters"
+portfolio: "Benefits Management"
+product: "benefit-letters"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans and dependents with various login credentials"
+
+# Related documents
+related_research_plan: "IAM UAT Research Plan April 2020"
+related_prototype: "N/A"
+
+tags:
+  - benefit-letters
+  - IAM
+  - authentication
+  - UAT
+  - eBenefits
+description: "User Acceptance Testing conversation guide for eBenefits IAM login with partner services"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide: User Acceptance Testing for eBenefits IAM - logging in to eBenefits with partner services
 Logging in with DS Logon, ID.me and MHV credentials. The script is identical but the different scenarios have the users logging in with the various credentials, and the users are either Veterans or dependents. The spreadsheet here https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/benefit-letters/New%20CSP%20Pilot%20Test_V1%20(2).xlsm includes all the login scenarios to test and the expected outcomes by login type
 ### April 2020

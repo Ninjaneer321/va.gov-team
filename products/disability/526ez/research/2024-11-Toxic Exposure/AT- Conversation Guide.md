@@ -1,3 +1,40 @@
+---
+title: "Conversation Guide for disability, disability, 2026-03-23"
+author: Disability Experience Team
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "disability"
+portfolio: "Benefits and Claims"
+product: "disability"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use assistive technology and have toxic exposure claims"
+
+# Related documents
+related_research_plan: "Toxic Exposure Research Plan November 2024"
+related_prototype: "N/A"
+
+tags:
+  - disability
+  - 526ez
+  - toxic-exposure
+  - assistive-technology
+  - accessibility
+  - conversation-guide
+description: "Assistive technology conversation guide for toxic exposure claims research"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # **Conversation Guide: “AT Toxic Exposure Evaluative Research Study” for Disability Experience Team, November 2024**
 
 ## **Day of the session**

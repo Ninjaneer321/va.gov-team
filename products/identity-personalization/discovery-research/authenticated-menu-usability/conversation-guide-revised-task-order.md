@@ -1,29 +1,32 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide (Revised Task Order) for Authenticated Experience Team, Authenticated Menu Usability, January 2024"
+author: "Liz Lantz"
+date_created: "2024-01-15"
+last_modified: "2024-01-31"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Authenticated Experience"
+portfolio: "digital-experience"
+product: "Authenticated Menu"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use VA.gov and have multiple types of VA benefits"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "../research-plan.md"
+related_prototype: "https://codepen.io/team/VA-gov-Applications/pen/gOEWmPo"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "authenticated-experience"
+  - "authenticated-menu"
+  - "navigation"
+  - "personalization"
+  - "usability-testing"
+description: "Revised conversation guide with updated task order to evaluate if research protocol impacts ability to find the authenticated menu."
 
 # NEW: Compliance flags
 recording_required: true

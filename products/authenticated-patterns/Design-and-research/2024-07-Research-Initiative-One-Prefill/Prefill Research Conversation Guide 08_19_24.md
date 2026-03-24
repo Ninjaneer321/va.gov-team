@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for authenticated-patterns, authenticated-patterns, 2026-03-23"
+author: from VA
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "authenticated-patterns"
+portfolio: "Authenticated Experience"
+product: "authenticated-patterns"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use VA.gov forms"
+
+# Related documents
+related_research_plan: "Prefill Research Plan 2024"
+related_prototype: "N/A"
+
+tags:
+  - authenticated-patterns
+  - prefill
+  - usability-testing
+  - forms
+  - AEDP
+description: "Conversation guide for prefill pattern research with Veterans"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # AEDP Conversation Guide
 
 ### Jump to: 

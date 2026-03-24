@@ -1,3 +1,42 @@
+---
+title: "Conversation Guide for health-care, health-care, 2026-03-23"
+author: logistics
+
+Use
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "health-care"
+portfolio: "Health Care"
+product: "health-care"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Spanish-speaking Veterans"
+
+# Related documents
+related_research_plan: "Spanish Check-in Research Plan"
+related_prototype: "N/A"
+
+tags:
+  - health-care
+  - check-in
+  - Spanish
+  - language
+  - usability-testing
+  - conversation-guide
+description: "Conversation guide for Spanish language check-in usability testing"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation guide for Spanish Check-in & Toggle Design
 
 

@@ -1,3 +1,26 @@
+---
+type: conversation_guide
+study_name: Editor-facing Alt Text Creation
+team: VFS-CMS
+product: CMS - Alt Text
+platform: CMS
+moderator: Joann
+date: "2023-06"
+research_method: Usability testing with prototype
+session_type: moderated_remote
+session_duration_minutes: 45
+number_of_participants: 6-8
+tags:
+  - CMS
+  - alt-text
+  - accessibility
+  - content-management
+  - editor-experience
+  - usability-testing
+  - prototype-testing
+  - 508-compliance
+---
+
 # Conversation Guide for Editor-facing Alt Text Creation 
 VFS-CMS June 2023
 ## Moderator logistics

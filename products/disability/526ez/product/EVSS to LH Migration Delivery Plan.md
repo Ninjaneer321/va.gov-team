@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Plan
+title: EVSS to Lighthouse Migration Delivery Plan for 526ez
+services: Disability
+tags: 526EZ, disability, migration, testing
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/product/EVSS to LH Migration Delivery Plan.md
+---
 # EVSS to Lighthouse Migration Delivery Plan for 526ez
 
 ## Goals

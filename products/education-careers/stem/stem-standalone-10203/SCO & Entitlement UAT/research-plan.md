@@ -1,110 +1,112 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "STEM Scholarship Application (22-10203) SCO Notification and Entitlement Display UAT"
+date: 2020-10-26
+last_updated: 2026-03-23
+team: "BAH Education Services Team"
+product: "STEM Scholarship Application (22-10203)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Post-MVP enhancements for STEM Scholarship application: (1) display remaining entitlement for logged-in applicants with EVSS data, and (2) send email notifications to School Certifying Officials (SCOs) upon eligible application submission to enable preemptive data gathering."
+  product_location: "VA.gov"
+  user_familiarity: "Iteration - enhancements to existing STEM application launched September 2020"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-careers/stem/stem-standalone-10203/10203_product_outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
-  
+methodology: "User Acceptance Testing"
+research_format:
+  location: remote
+  moderated: true
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate that entitlement display and SCO notification features work as expected for Veterans, SCOs, and STEM processing team"
+  - goal_2: "Test features in production environment due to unavailability of EVSS data in lower environments"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do these two features work as expected for Veterans, SCOs, and the STEM application processing team?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The features do work as expected"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Confirmation that entitlement display shows correctly for authenticated users with EVSS data and SCO email notifications are sent upon eligible application submission"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Perigean and professional networks"
+  approach: "Targeted recruitment for specific eligibility criteria"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
-    
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Group A: 6 participants with 6 months or less entitlement remaining or exhausted benefits"
+    - "Group B: 6 participants with more than 6 months entitlement remaining"
+    - "All willing to submit STEM Scholarship application"
+    - "All have remaining Post-9/11 (Chapter 33) benefits, exhausted benefits, or are Fry Scholars"
+    - "All previously or currently enrolled in educational institution using GI Bill benefits"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
+    - question: "Are you willing to submit an application for the Rogers STEM Scholarship?"
+      qualifying_response: "Yes"
+    - question: "Do you have remaining Post-9/11 (Chapter 33) GI Bill Education Benefits or are you a Fry Scholar?"
+      qualifying_response: "Yes"
+    - question: "Have you been enrolled in an educational institution using GI Bill education benefits?"
+      qualifying_response: "Yes"
+    - question: "How much entitlement do you have remaining?"
+      qualifying_response: "6 months or less / More than 6 months"
+
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
+  total_recruited: 12
+  completed_sessions_goal: 12
+
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-10-22 or 2020-10-23"
+  pilot_participant: "TBD"
+  research_dates: "2020-10-26 to 2020-11-06"
+  research_review_submission: "2020-10-15"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
-  
+  buffer_minutes: 15
+  max_sessions_per_day: 5
+
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can apply for education benefits online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve STEM application processing efficiency"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
+  - "Reinventing myself"
+  - "Finding something new to do"
+
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
-    
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/education-careers/stem/stem-standalone-10203"
+  production_url: "https://www.va.gov/education/other-va-education-benefits/stem-scholarship/"
+
+# Team
+moderator: "Desiree Turner"
+notetaker: "TBD"
+observers: "Amy Knox, Darrell Neel, Emma Waters, Jen Jones, Dan Shawkey, Will McCormack"
+
+study: "STEM Scholarship Application SCO Notification and Entitlement Display UAT, October-November 2020"
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - education
+  - STEM-scholarship
+  - 22-10203
+  - UAT
+  - entitlement-display
+  - SCO-notification
+  - authenticated
+  - production-testing
 ---
+
 
 # Research Plan for STEM Scholarship Application (for 22-10203) enhancements
 

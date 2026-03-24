@@ -1,31 +1,37 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: COVID-19 Vaccine Trial Survey Question Validation, 2020"
+author: "Lauryl Zenobi"
+date_created: "2020-09-01"
+last_modified: "2020-09-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Public Websites"
+portfolio: "health"
+product: "COVID-19 Vaccine Trials"
+research_phase: "validation"
+research_method: "cognitive_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans interested in COVID-19 vaccine trials"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/health-care/covid-vaccine-trials/research/veo-survey-research/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: COVID-vaccine-trials"
+  - "COVID-19"
+  - "cognitive-interviews"
+  - "survey-validation"
+  - "question-comprehension"
+  - "clinical-trials"
+description: "Survey validation conversation guide testing comprehension, clarity, accuracy, and relevance of COVID-19 vaccine trial survey questions."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

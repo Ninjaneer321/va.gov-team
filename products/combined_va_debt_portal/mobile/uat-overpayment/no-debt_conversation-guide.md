@@ -1,3 +1,30 @@
+---
+title: Conversation Guide for Debt Resolution, VA Debt Portal - Mobile, 2024 01
+author: Denise Coveyduc
+date_created: '2024-01-01'
+last_modified: '2024-01-01'
+team: Debt Resolution
+portfolio: benefits
+product: VA Debt Portal - Mobile
+research_phase: validation
+research_method: uat
+session_duration: 30 minutes
+session_type: remote_moderated
+participant_criteria: Veterans without debt, mobile device users
+related_research_plan: products/combined_va_debt_portal/mobile/uat-overpayment/research-plan.md
+related_prototype: N/A
+tags:
+- debt-portal
+- mobile
+- UAT
+- no-debt
+- validation
+description: User acceptance testing for no-debt state on mobile VA Debt Portal.
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide for UAT Overpayments in the VA Mobile App: No-Debt testers
 
 This study evaluates the empty state of the Overpayment feature with participants who do not currently have debt. These participants were recruited within OCTO instead of our standard recruitment through Perigean. Because these participants are technically savvy and understand the testing process, we have shortened the introductory and technical setup sections to focus directly on the core tasks.

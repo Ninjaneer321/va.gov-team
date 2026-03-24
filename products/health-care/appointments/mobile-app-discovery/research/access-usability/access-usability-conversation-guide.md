@@ -1,34 +1,37 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VA Online Scheduling, Mobile App Access and Usability, 2018"
+author: "VAOS Mobile Discovery Team"
+date_created: "2018-01-01"
+last_modified: "2018-01-12"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "VA Online Scheduling"
+portfolio: "health"
+product: "VA Online Scheduling - Mobile App Discovery"
+research_phase: "usability"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with MHV Premium or DS Logon Premium accounts who schedule VA appointments"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://veteran.mobile.va.gov/var/v4/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "appointments"
+  - "VAOS"
+  - "mobile-app"
+  - "usability-testing"
+  - "accessibility"
+description: "Usability testing of VA Online Scheduling mobile app to evaluate access, appointment creation, and overall user experience for Veterans with premium accounts."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Scheduling Accessiblity and Usability Conversation Guide

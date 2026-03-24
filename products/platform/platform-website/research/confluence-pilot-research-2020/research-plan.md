@@ -1,10 +1,10 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
+title: "Research Plan for VSP Platform, Confluence Pilot, 2020"
+date: 2020-09-01
+last_updated: 2020-09-01
+team: "VSP Platform Team"
+product: "Confluence Documentation Platform"
 product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
@@ -15,7 +15,7 @@ background:
   product_brief_url: "[URL]"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing and interviews"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
@@ -100,9 +100,11 @@ related_research:
     - "[Link to related past research]"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "VSP"
+  - "platform"
+  - "confluence"
+  - "documentation"
+  - "usability-testing"
+  - "pilot"
 ---
 

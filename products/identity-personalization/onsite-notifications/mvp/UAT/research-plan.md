@@ -1,109 +1,110 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience, Notifications MVP UAT, August 2022"
+date: 2022-08-01
+last_updated: 2022-08-31
+team: "Authenticated Experience"
+product: "My VA - Onsite Notifications MVP"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans expect to see personalized information upon login, including time-sensitive notifications at the top of the page. This effort adds a notifications MVP to My VA to elevate critical tasks."
+  product_location: "My VA dashboard (authenticated area of VA.gov)"
+  user_familiarity: "New feature - adding notifications MVP to existing My VA dashboard"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/notifications/vagov-notifications"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "User Acceptance Testing (UAT)"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Confirm that MVP functionality works as expected"
+  - goal_2: "Validate that no major usability hurdles exist with alert design changes"
+  - goal_3: "Test notifications with screen reader users to validate information presentation"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Does the functionality work as expected?"
+  - "Are Veterans able to easily take action on their notifications and dismiss them?"
+  - "Do screen reader users feel the information is presented in line with their mental model?"
+  - "Are notifications displayed as intended when triggered in VA Notify with appropriate timestamps?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will notice the Notifications section upon login before proceeding on the page"
+  - "Users will be able to easily take action on their notifications from My VA and dismiss them"
+  - "Users will not encounter any bugs in the Notifications section"
+  - "Screen reader users will feel that the information is presented in line with their mental model"
+  - "The current warning alert component will cause some confusion about whether notifications are system errors or personalized action items"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Based on the outcome of this research study, we will either release our MVP to production, or update our design to correct any significant usability hurdles."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Internal recruitment"
+  approach: "Internal veterans and employees with disabilities"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must be LOA3 (identity verified) on VA.gov"
+    - "Must either be veterans, have a cognitive disability, OR use assistive technology"
+    - "Must be able to screenshare via Zoom"
+    - "Must be comfortable providing the email address they use to sign into VA.gov"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "N/A (internal recruitment)"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you a veteran, have a cognitive disability, OR use assistive technology to access VA.gov?"
+      qualifying_response: "Yes to at least one"
       
 participants:
-  veterans: 0
+  veterans: 6
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 6
+  completed_sessions_goal: 6
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2022-08-15 to 2022-08-31"
+  research_review_submission: "2022-08-01"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 30
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Move toward My VA being the one-stop shop for action items"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Provide more direct, personalized routes to Veterans' most critical updates and tasks"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Living Civilian Life"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/2.0-redesign/discovery-and-research/user-research/findings-summary.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "my-va"
+  - "notifications"
+  - "uat"
+  - "authenticated-experience"
 ---
 
 # Research Plan for Authenticated Experience, Notifications MVP UAT, August 2022

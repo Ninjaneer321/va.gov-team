@@ -1,8 +1,8 @@
 ---
-title: "Research Plan and Conversation Guide for Accredited Representative Facing, Accredited Representative Portal, July 2025"
-author: "ARF Team"
-date_created: "2025-07-02"
-last_modified: "2025-07-14"
+title: "Research Plan and Conversation Guide for Accredited Representative Facing, NACVSO Conference, July 2025"
+author: "Accredited Representative Facing Team"
+date_created: "2025-07-01"
+last_modified: "2026-03-24"
 
 # Core research metadata
 team: "Accredited Representative Facing (ARF)"
@@ -14,26 +14,28 @@ research_method: "intercept_interviews"
 # Session details
 session_duration: "5-15 minutes"
 session_type: "in_person"
-participant_criteria: "Accredited Veteran Service Officers, particularly County VSOs attending NACVSO conference"
+participant_criteria: "County VSO representatives attending NACVSO conference"
 
 # Related documents
-related_research_plan: "N/A"
+related_research_plan: "products/accredited-representative-facing/research/2025-07 NACVSO Intercept interviews and survey/research-plan-and-conversation-guide.md"
 related_prototype: "N/A"
 
 tags:
-  - "AUD: Veteran Service Office (VSO)"
-  - "PRDT: Accredited-Reps"
-  - "BNFT: Disability"
-  - "BNFT: Pension"
-  - "PRDT: Form 21-22"
+  - "AUD: Accredited Representatives"
+  - "PRDT: Accredited Representative Portal"
+  - "PRDT: ARP"
+  - "research"
+  - "discovery"
   - "intercept-interviews"
   - "survey"
-  - "discovery"
+  - "NACVSO"
+  - "county-VSO"
   - "case-management"
-  - "power-of-attorney"
-  - "SEP"
-  - "QuickSubmit"
-description: "Mixed-methods research at NACVSO conference including brief intercept interviews and open-ended survey to grow awareness of ARP and learn about representatives' needs for future features."
+  - "form-signatures"
+  - "in-person"
+  - "conference-research"
+
+description: "Brief intercept interviews and survey at NACVSO conference to grow ARP awareness and learn about representatives' case management, communication, and digital tool needs."
 
 # Compliance flags
 recording_required: false

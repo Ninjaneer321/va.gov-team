@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Technical Planning
+title: Disability Claims
+services: Disability
+tags: 526EZ, claims, disability
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/archive/design/claims-modernization-planning.md
+---
 # Disability Claims
 We hear a lot about Turbo-Tax. A recurring refrain from Veterans is that applying for disability comp is complicated and high-stakes. We've seen first hand the mechanical difficulties that the eBenefits flow puts in front of people, but ultimately, it’s navigable. The main frustration people have is around understanding what is being asked of them and providing the right amount, not too little or to much, of supporting evidence. Veterans want to understanding what's required, and how to do it.
 

@@ -1,0 +1,906 @@
+file_type,status,path
+conversation_guide,no_frontmatter,platform/cms/accelerated_publishing/ux_research/research_plan.md
+conversation_guide,no_frontmatter,platform/cms/research/alt text/conversation-guide.md
+research_plan,no_frontmatter,platform/cms/research/alt text/research-plan.md
+research_plan,no_frontmatter,platform/cms/research/knowledge-base/research-plan.md
+research_plan,complete,platform/research/copilot-prompts/research-planning/conversation-guide-frontmatter-completion-prompt.md
+research_plan,complete,platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md
+conversation_guide,no_frontmatter,platform/research/copilot-prompts/research-review/conversation-guide-analysis-prompt.md
+research_plan,no_frontmatter,platform/research/copilot-prompts/research-review/research-plan-analysis-prompt.md
+conversation_guide,no_frontmatter,platform/research/merger/may-2018/conversation-guide.md
+conversation_guide,no_frontmatter,platform/research/planning/conversation-guide-new-observer-process.md
+conversation_guide,complete,platform/research/planning/conversation-guide-template.md
+research_plan,no_frontmatter,platform/research/research-plan-frontmatter-completion-guide.md
+research_plan,has_placeholder,platform/research/research-plan-template.md
+conversation_guide,complete,products/21-2680/research/2026-02-medical-provider-research/conversation-guide.md
+research_plan,complete,products/21-2680/research/2026-02-medical-provider-research/research-plan.md
+conversation_guide,complete,products/Debt Resolution/Financial-Status-Report/research/mar-2021/conversation-guide.md
+research_plan,complete,products/Debt Resolution/Financial-Status-Report/research/mar-2021/research-plan.md
+conversation_guide,complete,products/Debt Resolution/Medical_Copays/research/apr-2021/conversation-guide.md
+research_plan,complete,products/Debt Resolution/Medical_Copays/research/apr-2021/research-plan.md
+conversation_guide,complete,products/Debt Resolution/Medical_Copays/research/jun-2021/conversation-guide.md
+research_plan,complete,products/Debt Resolution/Medical_Copays/research/jun-2021/research-plan.md
+conversation_guide,complete,products/Debt Resolution/Medical_Copays/research/uat-nov-2021/conversation-guide.md
+research_plan,complete,products/Debt Resolution/Medical_Copays/research/uat-nov-2021/research-plan.md
+conversation_guide,complete,products/Debt Resolution/one_va_debt_letter/mobile/conversation-guide.md
+research_plan,complete,products/Debt Resolution/one_va_debt_letter/mobile/research-plan.md
+conversation_guide,complete,products/Debt Resolution/pay.gov/Pay.gov for Benefit Overpayment Debt Payments/research/conversation-guide.md
+research_plan,complete,products/Debt Resolution/pay.gov/Pay.gov for Benefit Overpayment Debt Payments/research/research-plan.md
+conversation_guide,complete,products/accredited-representation-management/research/2023-11-ARM-findarep-nav-usertest/conversation-guide.md
+research_plan,complete,products/accredited-representation-management/research/2023-11-ARM-findarep-nav-usertest/research-plan.md
+conversation_guide,complete,products/accredited-representation-management/research/2024-01-ARM-appointarep-usertest/conversation-guide.md
+research_plan,complete,products/accredited-representation-management/research/2024-01-ARM-appointarep-usertest/research-plan.md
+conversation_guide,complete,products/accredited-representation-management/research/2024-02-appointarep-unauth-usertest/conversation-guide.md
+research_plan,complete,products/accredited-representation-management/research/2024-02-appointarep-unauth-usertest/research-plan.md
+conversation_guide,complete,products/accredited-representation-management/research/2024-03-ARM-findarep-live-usertest/conversation-guide.md
+research_plan,complete,products/accredited-representation-management/research/2024-03-ARM-findarep-live-usertest/research-plan.md
+conversation_guide,complete,products/accredited-representation-management/research/2024-06-ARM-appointarep-digitalsubmit-usertest/conversation-guide.md
+research_plan,complete,products/accredited-representation-management/research/2024-06-ARM-appointarep-digitalsubmit-usertest/research-plan.md
+conversation_guide,complete,products/accredited-representation-management/research/2024-08-ARM-appointarep-crossaccreditedVSOR-usertest/conversation-guide.md
+research_plan,complete,products/accredited-representation-management/research/2024-08-ARM-appointarep-crossaccreditedVSOR-usertest/research-plan.md
+conversation_guide,complete,products/accredited-representation-management/research/2024-10-VSO-VAbenefits-interviews/conversation-guide.md
+research_plan,complete,products/accredited-representation-management/research/2024-10-VSO-VAbenefits-interviews/research-plan.md
+conversation_guide,complete,products/accredited-representation-management/research/2025-02-ARM-appointarep-live-usertest/conversation-guide-session01.md
+conversation_guide,complete,products/accredited-representation-management/research/2025-02-ARM-appointarep-live-usertest/conversation-guide-session02.md
+research_plan,complete,products/accredited-representation-management/research/2025-02-ARM-appointarep-live-usertest/research-plan.md
+conversation_guide,complete,products/accredited-representative-facing/research/2024-02 User Interviews/conversation-guide.md
+research_plan,complete,products/accredited-representative-facing/research/2024-02 User Interviews/research-plan.md
+conversation_guide,complete,products/accredited-representative-facing/research/2024-03 Single Accredited Testing/conversation-guide.md
+research_plan,complete,products/accredited-representative-facing/research/2024-03 Single Accredited Testing/research-plan.md
+conversation_guide,complete,products/accredited-representative-facing/research/2024-05 NACVSO/conversation-guide.md
+research_plan,complete,products/accredited-representative-facing/research/2024-05 NACVSO/research-plan.md
+conversation_guide,complete,products/accredited-representative-facing/research/2024-07 OGC Contact Information Updates/conversation-guide.md
+research_plan,complete,products/accredited-representative-facing/research/2024-07 OGC Contact Information Updates/research-plan.md
+research_plan,complete,products/accredited-representative-facing/research/2025-02-QuickSubmit/research-plan-conversation-guide.md
+conversation_guide,complete,products/accredited-representative-facing/research/2025-04 Accredited Rep Portal pilot/conversation-guide.md
+research_plan,complete,products/accredited-representative-facing/research/2025-04 Accredited Rep Portal pilot/research-plan.md
+conversation_guide,complete,"products/accredited-representative-facing/research/2025-04-Usability Test Claims Submission (search, 21-686c, submissions)/conversation-guide.md"
+research_plan,has_placeholder,"products/accredited-representative-facing/research/2025-04-Usability Test Claims Submission (search, 21-686c, submissions)/research-plan.md"
+conversation_guide,complete,"products/accredited-representative-facing/research/2025-06 User testing (Navigation, Find Claimant, Claimant Page to Submission)/conversation-guide.md"
+research_plan,has_placeholder,"products/accredited-representative-facing/research/2025-06 User testing (Navigation, Find Claimant, Claimant Page to Submission)/research-plan.md"
+research_plan,complete,products/accredited-representative-facing/research/2025-07 NACVSO Intercept interviews and survey/research-plan-and-conversation-guide.md
+conversation_guide,complete,products/accredited-representative-facing/research/Current and Future - 2025-08 ARP Pilot Research/conversation-guide.md
+research_plan,complete,products/accredited-representative-facing/research/Current and Future - 2025-08 ARP Pilot Research/research-plan.md
+research_plan,complete,products/accredited-representative-facing/research/Future -  21a research/research-plan.md
+research_plan,complete,products/accredited-representative-facing/research/Future - Certifying Officials/research-plan.md
+research_plan,complete,products/authenticated-patterns/Templates/research-plan.md
+conversation_guide,complete,products/benefit-letters/research/2025-06-Your-VA-benefit-letters-and-documents/conversation-guide.md
+research_plan,complete,products/benefit-letters/research/2025-06-Your-VA-benefit-letters-and-documents/research-plan.md
+conversation_guide,complete,products/burials-memorials/burial-allowance/research/2024-09-VSO-Research/conversation-guide.md
+research_plan,complete,products/burials-memorials/burial-allowance/research/2024-09-VSO-Research/research-plan.md
+conversation_guide,complete,products/burials-memorials/medallions/research/2024-10-Apply for a medallion in a private cemetery to products/conversation-guide.md
+research_plan,complete,products/burials-memorials/medallions/research/2024-10-Apply for a medallion in a private cemetery to products/research-plan.md
+conversation_guide,complete,products/burials-memorials/pre-need/discovery/conversation-guide-1.md
+conversation_guide,complete,products/burials-memorials/pre-need/mobile/research/conversation-guide.md
+research_plan,complete,products/burials-memorials/pre-need/mobile/research/research-plan.md
+conversation_guide,complete,products/burials-memorials/time-of-need/research/Conversation-Guide.md
+research_plan,complete,products/burials-memorials/time-of-need/research/Research-Plan.md
+conversation_guide,complete,products/caregivers/1010cg-mvp/Sign-as-Rep-Round2-Usability-April 2021/conversation-guide.md
+research_plan,complete,products/caregivers/1010cg-mvp/Sign-as-Rep-Round2-Usability-April 2021/research-plan.md
+conversation_guide,complete,products/caregivers/1010cg-mvp/Sign-as-a Rep-Round3-Oct2021/Usability research/conversation-guide.md
+conversation_guide,complete,products/caregivers/1010cg-mvp/Usability Study-Sign as Representative- February 2021/conversation-guide.md
+conversation_guide,complete,products/caregivers/1010cg-mvp/Usability-Test-Dec-2020/conversation-guide.md
+research_plan,complete,products/caregivers/1010cg-mvp/Usability-Test-Dec-2020/research-plan.md
+conversation_guide,complete,products/caregivers/1010cg-mvp/research-study-July2020/conversation-guide.md
+research_plan,complete,products/caregivers/1010cg-mvp/research-study-July2020/research-plan.md
+conversation_guide,complete,products/caregivers/1010cg-mvp/usability-testing-jan2020/conversation-guide.md
+research_plan,complete,products/caregivers/1010cg-mvp/usability-testing-jan2020/research-plan.md
+conversation_guide,complete,products/caregivers/Improve Facility Selection/Research/conversation-guide.md
+research_plan,complete,products/caregivers/Improve Facility Selection/Research/research-plan.md
+research_plan,complete,products/caregivers/discovery/research/discovery-aug-2019/research-plan.md
+conversation_guide,complete,products/caregivers/research/2023-04-Facilities and Overall Usability Research/conversation-guide.md
+research_plan,complete,products/caregivers/research/2023-04-Facilities and Overall Usability Research/research-plan.md
+research_plan,complete,products/caregivers/research/2024-09- Caregivers Study - form content and user interviews/research-plan.md
+research_plan,complete,products/claim-appeal-status/appeals-status/v3/research-plan.md
+conversation_guide,complete,products/claim-appeal-status/research/2022-08-Decision-Letter-Download/conversation-guide.md
+research_plan,complete,products/claim-appeal-status/research/2022-08-Decision-Letter-Download/research-plan.md
+conversation_guide,complete,products/claim-appeal-status/research/2022-11-Decision-Reviews/conversation-guide.md
+research_plan,complete,products/claim-appeal-status/research/2022-11-Decision-Reviews/research-plan.md
+research_plan,complete,products/claim-appeal-status/research/2022-Discovery/researchplan.md
+conversation_guide,complete,products/claim-appeal-status/research/2023-03-Initial-Decisions-CST/conversation-guide.md
+research_plan,complete,products/claim-appeal-status/research/2023-03-Initial-Decisions-CST/research-plan.md
+conversation_guide,complete,products/claim-appeal-status/research/2023-05-Evidence-Submission/conversation-guide.md
+research_plan,complete,products/claim-appeal-status/research/2023-05-Evidence-Submission/research-plan.md
+conversation_guide,complete,products/claim-appeal-status/research/2023-10-Claim-Contextualization/conversation-guide.md
+research_plan,complete,products/claim-appeal-status/research/2023-10-Claim-Contextualization/research-plan.md
+conversation_guide,complete,products/claim-appeal-status/research/2024-07-Development-Letters/conversation-guide.md
+research_plan,complete,products/claim-appeal-status/research/2024-07-Development-Letters/research-plan.md
+conversation_guide,complete,products/claim-appeal-status/research/2024-11-Document-Status/conversation-guide.md
+research_plan,complete,products/claim-appeal-status/research/2024-11-Document-Status/research-plan.md
+conversation_guide,complete,products/claim-appeal-status/research/2025-06-Evidence-Request/conversation-guide.md
+research_plan,complete,products/claim-appeal-status/research/2025-06-Evidence-Request/research_plan.md
+conversation_guide,complete,products/claim-appeal-status/research/discovery-SEP-2019/conversation-guide.md
+research_plan,complete,products/claim-appeal-status/research/discovery-SEP-2019/research-plan.md
+conversation_guide,complete,products/combined_fsr/research/enhanced_fsr/conversation-guide.md
+research_plan,complete,products/combined_fsr/research/enhanced_fsr/research-plan.md
+conversation_guide,complete,products/combined_fsr/wizard/research/jan-2025/conversation-guide-at.md
+conversation_guide,complete,products/combined_fsr/wizard/research/jan-2025/conversation-guide.md
+research_plan,complete,products/combined_fsr/wizard/research/jan-2025/research-plan.md
+conversation_guide,complete,products/combined_va_debt_portal/mobile/conversation_guide.md
+research_plan,complete,products/combined_va_debt_portal/mobile/research-plan.md
+conversation_guide,complete,products/combined_va_debt_portal/mobile/uat-overpayment/conversation-guide.md
+research_plan,complete,products/combined_va_debt_portal/mobile/uat-overpayment/research-plan.md
+conversation_guide,complete,products/combined_va_debt_portal/payment-history/research/2024-6-overpayment-usability/conversation-guide.md
+research_plan,complete,products/combined_va_debt_portal/payment-history/research/2024-6-overpayment-usability/research-plan.md
+conversation_guide,complete,products/combined_va_debt_portal/payment-history/research/2024-9-copay-usability/conversation-guide.md
+research_plan,complete,products/combined_va_debt_portal/payment-history/research/2024-9-copay-usability/research-plan.md
+conversation_guide,complete,products/combined_va_debt_portal/payment-history/research/2025-10-copays-usability/conversation-guide.md
+research_plan,complete,products/combined_va_debt_portal/payment-history/research/2025-10-copays-usability/research-plan.md
+conversation_guide,complete,products/combined_va_debt_portal/research/exploratory-2024/conversation-guide.md
+research_plan,complete,products/combined_va_debt_portal/research/exploratory-2024/research-plan.md
+conversation_guide,complete,products/combined_va_debt_portal/research/usability-apr-2022/conversation-guide.md
+research_plan,complete,products/combined_va_debt_portal/research/usability-apr-2022/research-plan.md
+conversation_guide,complete,products/content/audience-hubs/research/service-member/conversation-guide.md
+research_plan,complete,products/content/audience-hubs/research/service-member/research-plan.md
+research_plan,complete,products/content/content-strategy-ia-collaboration/content-placement-criteria/research-plan-r1.md
+research_plan,complete,products/content/spanish-translation/research/research-plan.md
+conversation_guide,complete,products/content/tier-2-content-IA-and-design/learning-center-mvp/discovery-and-research/conversation-guide.md
+conversation_guide,complete,products/content-localization/Research/multilingual-research-2021/conversation-guide.md
+research_plan,complete,products/content-localization/Research/multilingual-research-2021/research-plan.md
+conversation_guide,complete,products/copilot-research-prompts/research-review/conversation-guide-analysis-prompt.md
+research_plan,complete,products/copilot-research-prompts/research-review/research-plan-analysis-prompt.md
+conversation_guide,complete,products/debt-letters-mvp/research/uat-aug20/conversation-guide.md
+research_plan,complete,products/debt-letters-mvp/research/uat-aug20/research-plan.md
+conversation_guide,complete,products/debt-letters-mvp/research/usability-july20/conversation-guide.md
+research_plan,complete,products/debt-letters-mvp/research/usability-july20/research-plan.md
+research_plan,complete,products/decision-reviews/Notice-of-Disagreement/NOD_UAT_Test_June2021/ResearchPlan.md
+conversation_guide,complete,products/decision-reviews/Notice-of-Disagreement/Research/012024-accessible-submission-download/conversation-guide.md
+research_plan,complete,products/decision-reviews/Notice-of-Disagreement/Research/012024-accessible-submission-download/research-plan.md
+research_plan,complete,products/decision-reviews/Notice-of-Disagreement/Research/032021-NOD-usability/ResearchPlanNOD.md
+conversation_guide,complete,products/decision-reviews/Notice-of-Disagreement/Research/042023 NoD Evaluative Research/conversation-guide.md
+research_plan,complete,products/decision-reviews/Notice-of-Disagreement/Research/042023 NoD Evaluative Research/research-plan.md
+research_plan,complete,products/decision-reviews/Notice-of-Disagreement/Research/082023-NOD-Enhancement-Validation/research-plan.md
+conversation_guide,complete,products/decision-reviews/Supplemental-Claims/Research/0924-2024-SC-Updates/conversation-guide.md
+research_plan,complete,products/decision-reviews/Supplemental-Claims/Research/0924-2024-SC-Updates/research-plan.md
+conversation_guide,complete,products/decision-reviews/Supplemental-Claims/Research/1222-PACT-Act/conversation-guide.md
+research_plan,complete,products/decision-reviews/Supplemental-Claims/Research/1222-PACT-Act/research-plan.md
+conversation_guide,complete,products/decision-reviews/Supplemental-Claims/Research/MVP Usability Research/conversationguide.md
+research_plan,complete,products/decision-reviews/Supplemental-Claims/Research/MVP Usability Research/researchplan.md
+conversation_guide,complete,products/decision-reviews/Supplemental-Claims/Research/conversationguide_SME.md
+conversation_guide,complete,products/decision-reviews/Supplemental-Claims/Research/conversationguide_VSO.md
+research_plan,complete,products/decision-reviews/Supplemental-Claims/Research/researchplan.md
+conversation_guide,complete,products/decision-reviews/higher-level-review/research/HLR-2019/conversation-guide.md
+research_plan,complete,products/decision-reviews/higher-level-review/research/HLR-2019/research-plan-questions.md
+research_plan,complete,products/decision-reviews/higher-level-review/research/HLR-2019/research-plan.md
+conversation_guide,complete,products/decision-reviews/higher-level-review/research/UAT-October-2020/conversation-guide.md
+research_plan,complete,products/decision-reviews/higher-level-review/research/UAT-October-2020/research-plan.md
+research_plan,complete,products/decision-reviews/higher-level-review/research/Usability-HLR-Post-Launch/research-plan.md
+conversation_guide,complete,products/decision-reviews/research/ama-research/conversation-guide.md
+research_plan,complete,products/decision-reviews/research/ama-research/research-plan.md
+conversation_guide,complete,products/dependents/research/2020-11-dependency-verification-research/research_plan_11_2020.md
+conversation_guide,complete,products/dependents/research/2023-09-dependents-research/conversation-guide-eval.md
+conversation_guide,complete,products/dependents/research/2023-09-dependents-research/conversation-guide-gen.md
+research_plan,complete,products/dependents/research/2023-09-dependents-research/research-plan.md
+conversation_guide,complete,products/dependents/research/2025-02-dependents-verification-mvp-research/conversation-guide.md
+research_plan,complete,products/dependents/research/2025-02-dependents-verification-mvp-research/research-plan.md
+research_plan,complete,products/dependents/research/2025-07-dependent-management-content-study/research-plan.md
+conversation_guide,complete,products/dependents/research/2025-08-continuous-discovery-pilot/Round 4/conversation-guide.md
+conversation_guide,complete,products/dependents/research/2025-08-continuous-discovery-pilot/Rounds 1&2/conversation-guide-round-1.md
+conversation_guide,complete,products/dependents/research/2025-08-continuous-discovery-pilot/Rounds 1&2/conversation-guide-round-2.md
+research_plan,complete,products/dependents/research/2025-08-continuous-discovery-pilot/Rounds 1&2/research-plan.md
+conversation_guide,complete,products/dependents/research/2025-08-continuous-discovery-pilot/Rounds 5&6/conversation-guide.md
+conversation_guide,complete,products/dependents/research/2025-08-dependent-verification-with-picklist/conversation-guide.md
+research_plan,complete,products/dependents/research/2025-08-dependent-verification-with-picklist/research-plan.md
+conversation_guide,complete,products/dependents/research/2026-02-continuous-discovery-phase-2/Cohort 1/conversation-guide.md
+research_plan,complete,products/dependents/research/2026-02-continuous-discovery-phase-2/Cohort 1/research-plan.md
+conversation_guide,complete,products/disability/526ez/research/2023-07-Toxic-Exposure/conversation-guide.md
+research_plan,complete,products/disability/526ez/research/2023-07-Toxic-Exposure/research-plan.md
+research_plan,complete,products/disability/526ez/research/2023-11-Shadowing-Research/Research-Plan.md
+conversation_guide,complete,products/disability/526ez/research/2024-07-Submission-Status/Conversation-Guide-A.md
+conversation_guide,complete,products/disability/526ez/research/2024-07-Submission-Status/Conversation-Guide-B.md
+research_plan,complete,products/disability/526ez/research/2024-07-Submission-Status/Research-Plan.md
+conversation_guide,complete,products/disability/526ez/research/2025-09-Copy of Submission/conversation-guide.md
+research_plan,complete,products/disability/526ez/research/2025-09-Copy of Submission/research-plan.md
+conversation_guide,complete,products/disability/526ez/research/2025-10-0781-EvidenceUpload/conversation-guide.md
+research_plan,complete,products/disability/526ez/research/2025-10-0781-EvidenceUpload/research-plan.md
+conversation_guide,complete,products/disability/526ez/research/2025-11-686c-Fully-Digital-Form-Viewer-MVP-Usability-Testing/conversation-guide-a.md
+conversation_guide,complete,products/disability/526ez/research/2025-11-686c-Fully-Digital-Form-Viewer-MVP-Usability-Testing/conversation-guide-b.md
+research_plan,complete,products/disability/526ez/research/2025-11-686c-Fully-Digital-Form-Viewer-MVP-Usability-Testing/research-plan.md
+conversation_guide,complete,products/disability/526ez/research/CC-Team-Research/2023-10 Conditions List/conversation-guide.md
+research_plan,complete,products/disability/526ez/research/CC-Team-Research/2023-10 Conditions List/research-plan.md
+conversation_guide,complete,products/disability/526ez/research/CC-Team-Research/2024-07 Conditions Page Assistive Technology Testing/conversationguide-assistivetech.md
+research_plan,complete,products/disability/526ez/research/CC-Team-Research/2024-07 Conditions Page Assistive Technology Testing/researchplan-assitedtech.md
+conversation_guide,complete,products/disability/526ez/research/CC-Team-Research/202403 Improved Autosuggest/conversationguide-assistivetech.md
+conversation_guide,complete,products/disability/526ez/research/CC-Team-Research/202403 Improved Autosuggest/conversationguide.md
+research_plan,complete,products/disability/526ez/research/CC-Team-Research/202403 Improved Autosuggest/researchplan-assistedtech.md
+research_plan,complete,products/disability/526ez/research/archive/July-2021/ResearchPlan.md
+conversation_guide,complete,products/disability/526ez/research/archive/apr-2018/conversation-guide.md
+research_plan,complete,products/disability/526ez/research/archive/feb-2019/research-plan.md
+conversation_guide,complete,products/disability/526ez/research/archive/jan-2018/conversation-guide.md
+conversation_guide,complete,products/disability/526ez/research/archive/jul-2019/conversation-guide.md
+research_plan,complete,products/disability/526ez/research/archive/jul-2019/research-plan-unicorns-526-automation.md
+conversation_guide,complete,products/disability/526ez/research/archive/mar-2018/conversation-guide.md
+research_plan,complete,products/disability/526ez/research/archive/mar-2021/ResearchPlan.md
+conversation_guide,complete,products/disability/526ez/research/archive/nov-2018/conversation-guide.md
+research_plan,complete,products/disability/526ez/research/archive/nov-2018/research-plan-unicorns-526-late-nov.md
+research_plan,complete,products/disability/526ez/research/archive/nov-2020/ResearchPlan.md
+conversation_guide,complete,products/disability/526ez/research/archive/sep-oct-2018/conversation-guide.md
+research_plan,complete,products/disability/526ez/research/archive/sep-oct-2018/research-plan-unicorns-526-late-sept.md
+conversation_guide,complete,products/disability/abd-vro/2023-06-max-CFI-discovery/conversation-guide-v2.md
+conversation_guide,complete,products/disability/abd-vro/2024-7-Claim-Evidence/conversation-guide.md
+research_plan,complete,products/disability/declare-dependent/research/june-2018/research-plan.md
+research_plan,complete,products/disability/disability-compensation-claim/bdd/BDD Research/BDD-Usability-test-April2021/ResearchPlan.md
+conversation_guide,complete,products/disability/disability-compensation-claim/bdd/BDD Research/BDD-usability-test-April/conversation-guide.md
+conversation_guide,complete,products/disability/disability-compensation-claim/bdd/BDD Research/UAT-August-2020/conversation-guide-uat.md
+conversation_guide,complete,products/eFolders_Migration/research/discovery-sept20/conversation-guide.md
+research_plan,complete,products/eFolders_Migration/research/discovery-sept20/research-plan.md
+conversation_guide,complete,products/education-careers/opt-out/research/conversation-guide.md
+research_plan,has_placeholder,products/education-careers/opt-out/research/research-plan.md
+research_plan,complete,products/education-careers/school-comparison-tool/Sec103/research/research-plan.md
+research_plan,complete,products/education-careers/school-comparison-tool/estimate-your-benefits/research/research-plan.md
+research_plan,complete,products/education-careers/school-comparison-tool/redesign/research/beta-testing/research-plan.md
+research_plan,complete,products/education-careers/school-comparison-tool/redesign/research/research-plan-stakeholders.md
+research_plan,complete,products/education-careers/school-comparison-tool/redesign/research/research-plan-users.md
+research_plan,complete,products/education-careers/school-comparison-tool/redesign/research/usability-testing/research-plan.md
+research_plan,complete,products/education-careers/school-comparison-tool/redesign/research/usability-testing-june2021/research-plan.md
+research_plan,complete,products/education-careers/school-comparison-tool/redesign/research/usability-testing-may2021/research-plan.md
+research_plan,complete,products/education-careers/school-comparison-tool/redesign/research/usabilitytesting-july2021/research-plan.md
+research_plan,complete,products/education-careers/school-comparison-tool/school-ratings/research/research-plan.md
+research_plan,complete,products/education-careers/school-comparison-tool/school-ratings/research/research-plan2.md
+research_plan,complete,products/education-careers/school-comparison-tool/school-ratings/research/research-plan3.md
+conversation_guide,complete,products/education-careers/school-feedback-tool/research/conversation-guide-v2.md
+conversation_guide,complete,products/education-careers/school-feedback-tool/research/conversation-guide.md
+conversation_guide,complete,products/education-careers/school-feedback-tool/research/conversationguide.md
+research_plan,complete,products/education-careers/school-feedback-tool/research/research-plan.md
+research_plan,complete,products/education-careers/school-feedback-tool/research/researchplanversion2.md
+conversation_guide,complete,products/education-careers/statement-of-benefits/v1/research/conversation-guide-050117.md
+conversation_guide,complete,products/education-careers/statement-of-benefits/v1/research/conversation-guide-061917.md
+conversation_guide,complete,products/education-careers/statement-of-benefits/v1/research/conversation-guide-102318.md
+conversation_guide,complete,products/education-careers/statement-of-benefits/v1/research/conversation-guide.md
+research_plan,complete,products/education-careers/statement-of-benefits/v1/research/research-plan-110718.md
+conversation_guide,complete,products/education-careers/stem/stem-standalone-10203/SCO & Entitlement UAT/conversation-guide_eligible.md
+conversation_guide,complete,products/education-careers/stem/stem-standalone-10203/SCO & Entitlement UAT/conversation-guide_ineligible.md
+research_plan,complete,products/education-careers/stem/stem-standalone-10203/SCO & Entitlement UAT/research-plan.md
+conversation_guide,complete,products/education-careers/stem/stem-standalone-10203/UAT/conversation-guide.md
+research_plan,complete,products/education-careers/stem/stem-standalone-10203/research/research-plan-round2.md
+research_plan,has_placeholder,products/education-careers/stem/stem-standalone-10203/research/research-plan.md
+conversation_guide,complete,products/education-careers/vocational-rehab/research/conversation-guide-veterans.md
+conversation_guide,complete,products/education-careers/vocational-rehab/research/conversationguide-formresearchjan2018.md
+conversation_guide,complete,products/education-data-migration/research-folder-weamspublic/conversation-guide-weamspublic.md
+research_plan,complete,products/education-data-migration/research-folder-weamspublic/research-plan-weamspublic.md
+conversation_guide,complete,products/education-data-migration/research-folder-yrt/conversation-guide-yrt.md
+research_plan,complete,products/education-data-migration/research-folder-yrt/research-plan-yrt.md
+conversation_guide,complete,products/facilities/domiciliaries/discovery/conversation-guide.md
+conversation_guide,complete,products/facilities/facility-locator/initiatives/2023-2025-search-improvements/research/services-and-progressive-disclosure/conversation-guide.md
+conversation_guide,complete,products/facilities/facility-locator/research/discovery-sprints/user-research/conversation-guide.md
+research_plan,has_placeholder,products/facilities/facility-locator/research/discovery-sprints/user-research/research-plan.md
+conversation_guide,complete,products/facilities/facility-locator/research/user-research/2021-mobile-experience-research/conversation-guide-v2.md
+research_plan,has_placeholder,products/facilities/facility-locator/research/user-research/2021-mobile-experience-research/research-plan.md
+conversation_guide,complete,products/facilities/facility-locator/research/user-research/2024-01-mobile-map/conversation-guide.md
+research_plan,complete,products/facilities/facility-locator/research/user-research/2024-01-mobile-map/research-plan.md
+conversation_guide,complete,products/facilities/facility-locator/research/user-research/FL-Search-march2020/conversation-guide.md
+research_plan,complete,products/facilities/facility-locator/research/user-research/FL-Search-march2020/research-plan.md
+research_plan,has_placeholder,products/facilities/facility-locator/research/user-research/benefits-taxonomy-research-SME/research-plan-benefits-taxonomy-SME-interviews.md
+conversation_guide,complete,products/facilities/facility-locator/research/user-research/emergency-care-mashup/conversation-guide.md
+research_plan,has_placeholder,products/facilities/facility-locator/research/user-research/emergency-care-mashup/research-plan.md
+conversation_guide,complete,products/facilities/facility-locator/research/user-research/facility-status/conversation-guide.md
+research_plan,has_placeholder,products/facilities/facility-locator/research/user-research/facility-status/research-plan.md
+research_plan,has_placeholder,products/facilities/facility-locator/research/user-research/redesign/filter-categorization/research-plan.md
+research_plan,has_placeholder,products/facilities/facility-locator/research/user-research/redesign/prototype-testing/prototype-v1/research-plan.md
+conversation_guide,complete,products/facilities/facility-locator/research/user-research/screenreader-usability-study/conversation-guide.md
+research_plan,has_placeholder,products/facilities/facility-locator/research/user-research/screenreader-usability-study/research-plan.md
+conversation_guide,complete,products/facilities/facility-locator/research/user-research/services-benefits-taxonomy-USERS/conversation-guide.md
+research_plan,has_placeholder,products/facilities/facility-locator/research/user-research/services-benefits-taxonomy-USERS/research-plan.md
+research_plan,has_placeholder,products/facilities/facility-locator/research/user-research/urgent-care/research-plan.md
+conversation_guide,complete,products/facilities/facility-locator/research/user-research/urgent-care-PDF/conversation-guide.md
+research_plan,has_placeholder,products/facilities/facility-locator/research/user-research/urgent-care-PDF/research-plan.md
+conversation_guide,complete,products/facilities/facility-locator/research/user-research/urgent-care-mashup/conversation-guide.md
+research_plan,complete,products/facilities/facility-locator/research/user-research/urgent-care-mashup/research-plan.md
+conversation_guide,complete,products/facilities/medical-centers/initiatives/2020-community-care/discovery/conversation-guide.md
+research_plan,complete,products/facilities/medical-centers/initiatives/2020-community-care/discovery/research-plan.md
+conversation_guide,complete,products/facilities/medical-centers/initiatives/2022-VAMC-communication-methods/research/conversation-guide.md
+research_plan,has_placeholder,products/facilities/medical-centers/initiatives/2022-VAMC-communication-methods/research/research-plan.md
+research_plan,has_placeholder,products/facilities/medical-centers/research/VA-health-chat/research-plan.md
+research_plan,complete,products/facilities/medical-centers/research/research-plan-template.md
+conversation_guide,complete,products/facilities/regional-offices/research/2022-11-editor-facing/conversation-guide.md
+research_plan,has_placeholder,products/facilities/regional-offices/research/2022-11-editor-facing/research-plan.md
+conversation_guide,complete,products/facilities/regional-offices/research/2022-8-veteran-facing/conversation-guide.md
+research_plan,complete,products/facilities/regional-offices/research/2022-8-veteran-facing/research-plan.md
+conversation_guide,complete,products/facilities/regional-offices/research/2022-9-public-contact/conversation-guide.md
+research_plan,complete,products/facilities/regional-offices/research/2022-9-public-contact/research-plan.md
+conversation_guide,complete,products/facilities/regional-offices/research/2023-06-veteran-facing/conversation-guide.md
+research_plan,complete,products/facilities/regional-offices/research/2023-06-veteran-facing/research-plan.md
+conversation_guide,complete,products/facilities/regional-offices/research/2024-01-editor-facing/conversation-guide.md
+research_plan,has_placeholder,products/facilities/regional-offices/research/2024-01-editor-facing/research-plan.md
+conversation_guide,complete,products/facilities/vaccination-taxonomy/conversation-guide.md
+research_plan,has_placeholder,products/facilities/vaccination-taxonomy/research-plan.md
+conversation_guide,complete,products/facilities/vet-centers/initiatives/2020-2021-modernization/discovery/client-usability-tests/conversation-guide.md
+research_plan,complete,products/facilities/vet-centers/initiatives/2020-2021-modernization/discovery/client-usability-tests/research-plan.md
+conversation_guide,complete,products/facilities/vet-centers/initiatives/2020-2021-modernization/discovery/outreach-specialist-interviews/conversation-guide.md
+conversation_guide,complete,products/facilities/vet-centers/initiatives/2020-2021-modernization/discovery/veteran-interviews/conversation-guide.md
+research_plan,has_placeholder,products/facilities/vet-centers/initiatives/2020-2021-modernization/discovery/veteran-interviews/research-plan.md
+conversation_guide,complete,products/facilities/vet-centers/initiatives/2020-2021-modernization/discovery/veteran-usability-tests/conversation-guide.md
+research_plan,complete,products/facilities/vet-centers/initiatives/2020-2021-modernization/discovery/veteran-usability-tests/research-plan.md
+research_plan,has_placeholder,products/facilities/vet-centers/initiatives/2021-03-services-taxonomy/taxonomy-study/research-plan.md
+conversation_guide,complete,products/find-a-va-form/initiatives/2021-post-mvp-releases/research/conversation-guide.md
+research_plan,complete,products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-plan.md
+conversation_guide,complete,products/harassment-reporting/research/static-landing-page/conversation-guide.md
+research_plan,has_placeholder,products/harassment-reporting/research/static-landing-page/research-plan.md
+conversation_guide,complete,products/harassment-reporting/research/usability/conversation-guide.md
+research_plan,has_placeholder,products/harassment-reporting/research/usability/research-plan.md
+conversation_guide,complete,products/header-footer/initiatives/2024-federal-standardized-header-footer/research/phase1-no-AT/conversation-guide.md
+research_plan,complete,products/header-footer/initiatives/2024-federal-standardized-header-footer/research/phase1-no-AT/research-plan.md
+conversation_guide,complete,products/header-footer/initiatives/2024-federal-standardized-header-footer/research/phase2-AT/conversation-guide.md
+research_plan,complete,products/header-footer/initiatives/2024-federal-standardized-header-footer/research/phase2-AT/research-plan.md
+conversation_guide,complete,products/health-care/1095b-tax-form/research/conversation-guide.md
+research_plan,has_placeholder,products/health-care/1095b-tax-form/research/research-plan.md
+conversation_guide,complete,products/health-care/1095b-tax-form/research/round2/conversation-guide.md
+research_plan,has_placeholder,products/health-care/1095b-tax-form/research/round2/researchplan.md
+conversation_guide,complete,products/health-care/1095b-tax-form/research/uat/conversation-guide.md
+research_plan,has_placeholder,products/health-care/1095b-tax-form/research/uat/research-plan.md
+research_plan,has_placeholder,products/health-care/COVID-screener/research-plan-study-1.md
+conversation_guide,complete,products/health-care/application/va-application/research/2018-10/conversation-guide.md
+research_plan,has_placeholder,products/health-care/application/va-application/research/2018-10/research-plan.md
+conversation_guide,complete,products/health-care/application/va-application/research/2021-11-short-form-usability/conversation-guide.md
+conversation_guide,complete,products/health-care/application/va-application/research/2022-06-Short form usability/conversation-guide.md
+research_plan,has_placeholder,products/health-care/application/va-application/research/2022-06-Short form usability/research-plan.md
+conversation_guide,complete,products/health-care/application/va-application/research/2022-06-short form UAT/conversation-guide.md
+research_plan,has_placeholder,products/health-care/application/va-application/research/2022-06-short form UAT/research-plan.md
+conversation_guide,complete,products/health-care/application/va-application/research/2023-01-Baseline Task Research/conversation-guide.md
+research_plan,complete,products/health-care/application/va-application/research/2023-01-Baseline Task Research/research-plan.md
+conversation_guide,complete,products/health-care/application/va-application/research/2023-04-Household information section usability/conversation-guide.md
+research_plan,has_placeholder,products/health-care/application/va-application/research/2023-04-Household information section usability/research-plan.md
+conversation_guide,complete,products/health-care/application/va-application/research/2023-06-Priority Group and Financial Disclosure/conversation-guide.md
+research_plan,complete,products/health-care/application/va-application/research/2023-06-Priority Group and Financial Disclosure/research-plan.md
+conversation_guide,complete,products/health-care/application/va-application/research/2023-06-Registration flow exploration/conversation-guide-mental-model-cohort1.md
+conversation_guide,complete,products/health-care/application/va-application/research/2023-06-Registration flow exploration/conversation-guide-mental-model-cohort2.md
+research_plan,has_placeholder,products/health-care/application/va-application/research/2023-06-Registration flow exploration/research-plan-mental-model.md
+conversation_guide,complete,products/health-care/application/va-application/research/2023-06-Staff facing EZR and Reg Only research/conversation-guide.md
+conversation_guide,complete,products/health-care/application/va-application/research/2023-11-EZR MVP UAT/conversation-guide.md
+research_plan,complete,products/health-care/application/va-application/research/2023-11-EZR MVP UAT/research-plan.md
+research_plan,complete,products/health-care/application/va-application/research/2023-11-Registration Reasons Tree Test/research-plan.md
+conversation_guide,complete,products/health-care/application/va-application/research/2023-12-EZR Usability/conversation-guide.md
+research_plan,complete,products/health-care/application/va-application/research/2023-12-EZR Usability/research-plan.md
+conversation_guide,complete,products/health-care/application/va-application/research/2024-04-ToxicExposure-UsabilityStudy/conversation-guide.md
+research_plan,has_placeholder,products/health-care/application/va-application/research/2024-04-ToxicExposure-UsabilityStudy/research-plan.md
+research_plan,has_placeholder,products/health-care/application/va-application/research/2024-09-Social Listening/Research-Plan.md
+conversation_guide,complete,products/health-care/application/va-application/research/april-may-2021/end-user-discovery/conversation-guide.md
+research_plan,has_placeholder,products/health-care/application/va-application/research/april-may-2021/end-user-discovery/research-plan.md
+conversation_guide,complete,products/health-care/application/va-application/research/user-testing/dashboard-updates/conversation-guide.md
+research_plan,has_placeholder,products/health-care/application/va-application/research/user-testing/dashboard-updates/research-plan.md
+conversation_guide,complete,products/health-care/application/va-application/research/user-testing/mar-2019/conversation-guide.md
+research_plan,has_placeholder,products/health-care/application/va-application/research/user-testing/mar-2019/research-plan.md
+research_plan,complete,"products/health-care/appointments/appointment-reminders/research/2023-10-notification-kano/research-plan-survey-1-(travel, pre-check-in, AVS).md"
+research_plan,complete,"products/health-care/appointments/appointment-reminders/research/2023-10-notification-kano/research-plan-survey-2-(appointments, co-pay & combo).md"
+research_plan,complete,products/health-care/appointments/appointment-reminders/research/2023-10-notification-kano/research-plan-survey-3-(appointments-only).md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling/research/2024-06 Community Care Self-Scheduling - Usability and Concept Testing/conversation-guide.md
+research_plan,complete,products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling/research/2024-06 Community Care Self-Scheduling - Usability and Concept Testing/research-plan.md
+research_plan,has_placeholder,products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling/research/2025-01 Community Care Self-Scheduling - Unmoderated UAT/research-plan.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2019-09-usability-testing-new-VAOS-ux/request_usability/conversation-guide.md
+research_plan,complete,products/health-care/appointments/va-online-scheduling/research/2019-09-usability-testing-new-VAOS-ux/request_usability/research-plan.md
+research_plan,has_placeholder,products/health-care/appointments/va-online-scheduling/research/2019-11-uat-phase-1-view-appts/research_plan_phased_rollout.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2019-12-uat-phase-2-requests/conversation-guide.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2020-01-uat-phase-3-community-care/conversation-guide.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2020-01-uat-phase-3-community-care/research_plan.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2020-02-uat-phase-4-direct-schedule/conversation-guide.md
+research_plan,complete,products/health-care/appointments/va-online-scheduling/research/2020-02-uat-phase-4-direct-schedule/research-plan.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2020-05-express-care-research/conversation-guide.md
+research_plan,complete,products/health-care/appointments/va-online-scheduling/research/2020-05-express-care-research/research-plan.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2020-07-vaos-mvp-and-express-care-user-research/conversation-guide.md
+research_plan,complete,products/health-care/appointments/va-online-scheduling/research/2020-07-vaos-mvp-and-express-care-user-research/research-plan.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2020-10-cc-provider-selection-usability/conversation-guide.md
+research_plan,complete,products/health-care/appointments/va-online-scheduling/research/2020-10-cc-provider-selection-usability/research-plan.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2021-01-appts-list-test/conversation-guide.md
+research_plan,has_placeholder,products/health-care/appointments/va-online-scheduling/research/2021-01-appts-list-test/research-plan.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2021-05-facilities-personalization-research/conversation-guide.md
+research_plan,has_placeholder,products/health-care/appointments/va-online-scheduling/research/2021-05-facilities-personalization-research/research-plan.md
+research_plan,has_placeholder,products/health-care/appointments/va-online-scheduling/research/2021-08-facilities-ab-test/research-plan.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2021-11-request-clarification-research/conversation-guide.md
+research_plan,has_placeholder,products/health-care/appointments/va-online-scheduling/research/2021-11-request-clarification-research/research-plan.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2022-01-mhv-and-vaos-appts-list-discovery/conversation-guide.md
+research_plan,complete,products/health-care/appointments/va-online-scheduling/research/2022-01-mhv-and-vaos-appts-list-discovery/research-plan.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2022-09-appts-list-usability/conversation-guide.md
+research_plan,has_placeholder,products/health-care/appointments/va-online-scheduling/research/2022-09-appts-list-usability/research-plan.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2023-02-appt-list-usability-screenreader/conversation-guide.md
+research_plan,complete,products/health-care/appointments/va-online-scheduling/research/2023-02-appt-list-usability-screenreader/research-plan.md
+research_plan,complete,products/health-care/appointments/va-online-scheduling/research/2023-08-print-button-analytics/research-plan.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2023-10-appt-details-redesign/conversation-guide.md
+research_plan,has_placeholder,products/health-care/appointments/va-online-scheduling/research/2023-10-appt-details-redesign/research-plan.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2023-10-coordinator-feedback/conversation-guide.md
+research_plan,has_placeholder,products/health-care/appointments/va-online-scheduling/research/2023-10-coordinator-feedback/research-plan.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2023-11-mhv-on-va-gov-phase-2b-vaos-uat/conversation-guide.md
+research_plan,has_placeholder,products/health-care/appointments/va-online-scheduling/research/2023-11-mhv-on-va-gov-phase-2b-vaos-uat/research-plan.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2024-05-oh-scheduling/conversation-guide.md
+research_plan,has_placeholder,products/health-care/appointments/va-online-scheduling/research/2024-05-oh-scheduling/research-plan.md
+research_plan,has_placeholder,products/health-care/appointments/va-online-scheduling/research/2024-05-recent-locations-analytics/research-plan.md
+research_plan,complete,products/health-care/appointments/va-online-scheduling/research/2024-08-appointment-details-card-sort/research-plan.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2025-05-oh-scheduling-vahb/conversation-guide.md
+research_plan,has_placeholder,products/health-care/appointments/va-online-scheduling/research/2025-05-oh-scheduling-vahb/research-plan.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2025-09-pact-sud-uat/conversation-guide.md
+research_plan,has_placeholder,products/health-care/appointments/va-online-scheduling/research/2025-09-pact-sud-uat/research-plan.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2025-10-dole-act-appointment-scheduling-preferences/conversation-guide.md
+research_plan,has_placeholder,products/health-care/appointments/va-online-scheduling/research/2025-10-dole-act-appointment-scheduling-preferences/research-plan.md
+conversation_guide,complete,products/health-care/appointments/va-online-scheduling/research/2025-oh-scheduling-web-uat/conversation-guide.md
+research_plan,has_placeholder,products/health-care/appointments/va-online-scheduling/research/2025-oh-scheduling-web-uat/research-plan.md
+research_plan,complete,products/health-care/beneficiary-travel/research/08-2025--Travel Complex Claims Concept Study/ResearchPlan.md
+research_plan,has_placeholder,products/health-care/beneficiary-travel/research/2024-01-Status Visibility IA Study/ResearchPlan.md
+research_plan,has_placeholder,products/health-care/beneficiary-travel/research/2024-04-Reimbursement-Status-Look-and-Feel-Study/ResearchPlan.md
+research_plan,has_placeholder,products/health-care/beneficiary-travel/research/2024-06-Travel-Claim-Status-Language-Generative-Study/Research-Plan.md
+research_plan,has_placeholder,products/health-care/beneficiary-travel/research/2025-03-SMOC-UAT-Beta/ResearchPlan.md
+research_plan,has_placeholder,products/health-care/beneficiary-travel/research/2025-05-Travel Claim Management Usability/ResearchPlan.md
+conversation_guide,complete,products/health-care/champva/1010D/research/users/2024-01-1010D-user-interviews/conversation_guide_user_interviews.md
+conversation_guide,complete,products/health-care/champva/1010D/research/users/2025-05-1010d-supportingdocs-usability-test/conversation-guide.md
+research_plan,has_placeholder,products/health-care/champva/1010D/research/users/2025-05-1010d-supportingdocs-usability-test/research-plan-template.md
+research_plan,has_placeholder,products/health-care/champva/1010D/research/users/2025-05-1010d-supportingdocs-usability-test/research-plan.md
+research_plan,has_placeholder,products/health-care/champva/1010D/research/users/2026-01-Tricare Eligibility Usability Research/research_plan.md
+conversation_guide,complete,products/health-care/champva/1010D/status-tool/research/CHAMPVA Dependents Management/conversation-guide.md
+research_plan,has_placeholder,products/health-care/champva/1010D/status-tool/research/CHAMPVA Dependents Management/research-plan.md
+conversation_guide,complete,products/health-care/checkin/discovery/telephone-appointments/staff-interviews/conversation-guide-pcp.md
+research_plan,complete,products/health-care/checkin/research/2022-09-checkin-appointment-info-prioritization/research-plan.md
+research_plan,complete,products/health-care/checkin/research/2022-09-precheckin-appointment-info-prioritization/research-plan.md
+research_plan,complete,products/health-care/checkin/research/2022-10 Patient Check In ID Verification - SSN4 Text Input vs. Date of Birth (DoB) Memorable Date Comparison/research-plan.md
+conversation_guide,complete,products/health-care/checkin/research/2022-12 Patient Check In Travel Reimbursement Staff Interviews at Wilkes-Barre/conversation-guide.md
+research_plan,complete,products/health-care/checkin/research/2022-12 Patient Check In Travel Reimbursement Staff Interviews at Wilkes-Barre/research-plan.md
+conversation_guide,complete,products/health-care/checkin/research/2022-12 Patient Check In Travel Reimbursement Veteran Intercept at Wilkes-Barre/conversation-guide.md
+research_plan,complete,products/health-care/checkin/research/2022-12 Patient Check In Travel Reimbursement Veteran Intercept at Wilkes-Barre/research-plan.md
+conversation_guide,complete,products/health-care/checkin/research/2023-04 Unified Check-In Experience Usability Study/conversation-guide.md
+research_plan,complete,products/health-care/checkin/research/2023-04 Unified Check-In Experience Usability Study/research-plan.md
+conversation_guide,complete,products/health-care/checkin/research/2023-11 Past Appointments Travel Reimbursement Generative Usability Study/conversation-guide.md
+research_plan,complete,products/health-care/checkin/research/2023-11 Past Appointments Travel Reimbursement Generative Usability Study/research-plan.md
+conversation_guide,complete,products/health-care/checkin/research/2024-02 In-Person Travel Reimbursement Research for Oracle Health Facilities/conversation-guide.md
+research_plan,has_placeholder,products/health-care/checkin/research/2024-02 In-Person Travel Reimbursement Research for Oracle Health Facilities/research-plan.md
+research_plan,complete,products/health-care/checkin/research/2024-04 Unmoderated Content Evaluation for Multiple Facilities Selection in BT Oracle Health App/research-plan.md
+research_plan,complete,products/health-care/checkin/research/2024-10 Check in with an MSA after eCheck-in Unmoderated Survey/research-plan.md
+research_plan,has_placeholder,products/health-care/checkin/research/2024-10 Check in with an MSA after eCheck-in experiment in-person UAT with Veterans and clinic staff/research-plan.md
+research_plan,complete,products/health-care/checkin/research/2025-07-LoROTA Standalone Mileage-Only Travel Reimbursement - Unmoderated UAT/research-plan.md
+conversation_guide,complete,products/health-care/checkin/research/accessibility/conversation-guide.md
+conversation_guide,complete,products/health-care/checkin/research/remote-discovery/conversation-guide.md
+research_plan,has_placeholder,products/health-care/checkin/research/remote-discovery/research-plan.md
+conversation_guide,complete,products/health-care/checkin/research/staff-facing/bay-pines-in-person/conversation-guide.md
+research_plan,has_placeholder,products/health-care/checkin/research/staff-facing/bay-pines-in-person/research-plan.md
+conversation_guide,complete,products/health-care/checkin/research/staff-facing/corpus-christi-in-person/conversation-guide.md
+research_plan,has_placeholder,products/health-care/checkin/research/staff-facing/corpus-christi-in-person/research-plan.md
+conversation_guide,complete,products/health-care/checkin/research/staff-facing/group-interviews/conversation-guide.md
+conversation_guide,complete,products/health-care/checkin/research/staff-facing/individual-interviews/conversation-guide.md
+conversation_guide,complete,products/health-care/checkin/research/staff-facing/st-louis/nov-site-visit/conversation-guide.md
+conversation_guide,complete,products/health-care/checkin/research/staff-facing/st-louis/pilot-feedback/conversation-guide.md
+research_plan,has_placeholder,products/health-care/checkin/research/staff-facing/st-louis/pilot-feedback/research-plan.md
+research_plan,has_placeholder,products/health-care/checkin/research/veteran-facing/Martinsburg-Staff-Moderated/Research-Plan.md
+conversation_guide,complete,products/health-care/checkin/research/veteran-facing/Martinsburg-Staff-Moderated/conversation-guide.md
+conversation_guide,complete,products/health-care/checkin/research/veteran-facing/StLouis-pilot-feedback/conversation-guide.md
+research_plan,has_placeholder,products/health-care/checkin/research/veteran-facing/StLouis-pilot-feedback/research-plan.md
+research_plan,has_placeholder,products/health-care/checkin/research/veteran-facing/appointment-info-hierarchy/research-plan.md
+conversation_guide,complete,products/health-care/checkin/research/veteran-facing/bay-pines-in-person-uat/conversation-guide.md
+research_plan,has_placeholder,products/health-care/checkin/research/veteran-facing/bay-pines-in-person-uat/research-plan.md
+conversation_guide,complete,products/health-care/checkin/research/veteran-facing/corpus-christi-in-person/conversation-guide.md
+research_plan,has_placeholder,products/health-care/checkin/research/veteran-facing/corpus-christi-in-person/research-plan.md
+research_plan,has_placeholder,products/health-care/checkin/research/veteran-facing/mvp-UAT/research-plan.md
+conversation_guide,complete,products/health-care/checkin/research/veteran-facing/mvp-usability/conversation-guide.md
+research_plan,complete,products/health-care/checkin/research/veteran-facing/mvp-usability/research-plan.md
+research_plan,has_placeholder,products/health-care/checkin/research/veteran-facing/phase-2-3-4/research-plan-conversation-guide.md
+conversation_guide,complete,products/health-care/checkin/research/veteran-facing/phase2-usability/conversation-guide.md
+research_plan,complete,products/health-care/checkin/research/veteran-facing/phase2-usability/research-plan.md
+conversation_guide,complete,products/health-care/checkin/research/veteran-facing/pre-check-in-usability/conversation-guide.md
+research_plan,has_placeholder,products/health-care/checkin/research/veteran-facing/pre-check-in-usability/research-plan.md
+conversation_guide,complete,products/health-care/checkin/research/veteran-facing/telephone/conversation-guide.md
+conversation_guide,complete,products/health-care/checkin/research/veteran-facing/travel-reimbursement-mvp-remote-test/conversation-guide-prototype-tasks-for-a-b-starting-with-b.md
+conversation_guide,complete,products/health-care/checkin/research/veteran-facing/travel-reimbursement-mvp-remote-test/conversation-guide-prototype-tasks-for-b-c-starting-with-b.md
+conversation_guide,complete,products/health-care/checkin/research/veteran-facing/travel-reimbursement-mvp-remote-test/conversation-guide-prototype-tasks-for-b-c-starting-with-c.md
+conversation_guide,complete,products/health-care/checkin/research/veteran-facing/travel-reimbursement-mvp-remote-test/conversation-guide.md
+research_plan,complete,products/health-care/checkin/research/veteran-facing/travel-reimbursement-mvp-remote-test/research-plan.md
+conversation_guide,complete,products/health-care/clinical-decision-support/VA-CDS-data-visualization-patterns/patterns/data-grid/research/conversation-guide.md
+research_plan,has_placeholder,products/health-care/clinical-decision-support/VA-CDS-data-visualization-patterns/patterns/data-grid/research/research-plan.md
+conversation_guide,complete,products/health-care/clinical-decision-support/VA-CDS-data-visualization-patterns/patterns/drawer/research/conversation-guide.md
+research_plan,has_placeholder,products/health-care/clinical-decision-support/VA-CDS-data-visualization-patterns/patterns/drawer/research/research-plan.md
+conversation_guide,complete,products/health-care/clinical-decision-support/medical-calculators/research/2025-09-Calculator-Detail-Page-Line-Chart-Testing/conversation-guide.md
+research_plan,has_placeholder,products/health-care/clinical-decision-support/medical-calculators/research/2025-09-Calculator-Detail-Page-Line-Chart-Testing/research-plan.md
+conversation_guide,complete,products/health-care/clinical-decision-support/medical-calculators/research/2026-02-AMPREDICT-PROPREDICT-case-study/conversation-guide.md
+conversation_guide,complete,products/health-care/clinical-decision-support/platform/research/2025-12-Patient-Details-Testing/conversation-guide-CPRS.md
+conversation_guide,complete,products/health-care/clinical-decision-support/platform/research/2025-12-Patient-Details-Testing/conversation-guide-oracle-health.md
+research_plan,complete,products/health-care/clinical-decision-support/platform/research/2025-12-Patient-Details-Testing/research-plan.md
+conversation_guide,complete,products/health-care/clinical-decision-support/research/research-templates/conversation-guide.md
+research_plan,has_placeholder,products/health-care/clinical-decision-support/research/research-templates/research-plan.md
+conversation_guide,complete,products/health-care/clinical-decision-support/task-manager/research/2026-02-Use-Cases-and-Post-Launch-Enhancements/conversation-guide-current.md
+conversation_guide,complete,products/health-care/clinical-decision-support/task-manager/research/2026-02-Use-Cases-and-Post-Launch-Enhancements/conversation-guide-prospective.md
+research_plan,has_placeholder,products/health-care/clinical-decision-support/task-manager/research/2026-02-Use-Cases-and-Post-Launch-Enhancements/research-plan.md
+conversation_guide,complete,products/health-care/covid-vaccine-distribution/research/conversation-guide.md
+research_plan,has_placeholder,products/health-care/covid-vaccine-distribution/research/research-plan.md
+conversation_guide,complete,products/health-care/covid-vaccine-trials/research/conversation-guide-study-1.md
+research_plan,complete,products/health-care/covid-vaccine-trials/research/research-plan.md
+conversation_guide,complete,products/health-care/covid-vaccine-trials/research/veo-survey-research/conversation-guide.md
+research_plan,complete,products/health-care/covid-vaccine-trials/research/veo-survey-research/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/initial-prototype/Round1_Usability/conversation_guide.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/initial-prototype/Round1_Usability/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/initial-prototype/Round2_Usability/conversation_guide.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/initial-prototype/Round2_Usability/research-plan.md
+research_plan,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/avs/research/2023-04-MVP-Usability/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/initial-mhv-prototype/Round1_Usability/conversation_guide.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/initial-mhv-prototype/Round1_Usability/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/initial-mhv-prototype/Round2_Usability/conversation_guide.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/initial-mhv-prototype/Round2_Usability/research-plan.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/landing-page/research/2025-08-Update Email Prompt/ResearchPlan.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/landing-page/research/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2022-09-discovery-research/conversation-guide-data-focus.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2022-09-informational-interviews/conversation-guide-first-draft.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2022-09-informational-interviews/conversation-guide-product-focus.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2022-09-informational-interviews/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2023-05-usability-testing-round-1/conversation-guide.md
+research_plan,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2023-05-usability-testing-round-1/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-03-usability-testing-rd2-at/conversation-guide-AT-Veterans.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-03-usability-testing-rd2-at/conversation-guide-sighted-veterans.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-03-usability-testing-rd2-at/research-plan-AT-Veterans.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-03-usability-testing-rd2-at/research-plan-sighted-veterans.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-08-usability-testing-rd3-at/conversation-guide-at.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-08-usability-testing-rd3-at/conversation-guide.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-08-usability-testing-rd3-at/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-10-findability-study/conversation-guide.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-10-findability-study/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-11-MR-SM-RX-usability-study/conversation-guide.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-11-MR-SM-RX-usability-study/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2025-01-usability-testing-rd4-at/conversation-guide.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2025-01-usability-testing-rd4-at/research-plan.md
+research_plan,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2025-04-MR-metrics-and-feedback-study/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2026-03-notification-usability-study/conversation-guide.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2026-03-notification-usability-study/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2023-07-medications-usability-testing-round1/conversation-guide.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2023-07-medications-usability-testing-round1/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2023-11-medications-usability-testing-round2-AT/conversation-guide.md
+research_plan,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2023-11-medications-usability-testing-round2-AT/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2024-02-findability-study/conversation-guide.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2024-02-findability-study/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2024-05-medications-usability-testing-round3-AT/conversation-guide-sighted.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2024-05-medications-usability-testing-round3-AT/conversation-guide-sr-vc.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2024-05-medications-usability-testing-round3-AT/research-plan.md
+research_plan,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-02-filter-metrics-feedback-study/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-03-IPE-study/conversation-guide.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-03-IPE-study/research-plan.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-04-medications-metrics-and-feedback-study/research-plan.md
+research_plan,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-06-IPE-ABC-testing/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-11-medications-messaging-and-status-labels-usability-study/conversation-guide.md
+research_plan,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-11-medications-messaging-and-status-labels-usability-study/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2026-02-medications-management-improvements/conversation-guide.md
+research_plan,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2026-02-medications-management-improvements/research-plan.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/overall-content-IA/2022-07-health-apt-tree-test-round1/research-plan-first-click.md
+research_plan,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/overall-content-IA/2023-01-my-health-ia-tree-test/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/overall-content-IA/2024-11-adoption-study/conversation-guide.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/overall-content-IA/2025-03-SMHD-tree-test/Research-Plan.md
+research_plan,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/overall-content-IA/2025-06-appointments-and-other-tasks-tree-test/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/secondary-nav/2nd-comparison-study/conversation-guide.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/secondary-nav/2nd-comparison-study/research-plan.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/secondary-nav/2nd-comparison-study/research-plan2.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/secondary-nav/Comparison-study/conversation-guide.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/secondary-nav/Comparison-study/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2022-09-usability_testing_2/conversation-guide.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2022-09-usability_testing_2/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-01-patient-safety-notice-usability-testing/conversation-guide.md
+research_plan,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-01-patient-safety-notice-usability-testing/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-08-triage-group-generative-study/conversation-guide.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-08-triage-group-generative-study/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-09-usability-round3-phase0/conversation-guide.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-09-usability-round3-phase0/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2025-06-curated-list-usability-testing/conversation-guide.md
+research_plan,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2025-06-curated-list-usability-testing/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/Recent-Care-Teams-Research/conversation-guide.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/SecureMessaging_Round1_Usability/conversation_guide.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/SecureMessaging_Round1_Usability/research-plan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/usabilitytesting/conversation-guide.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/usabilitytesting/research-plan.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/mhv-to-va.gov/transition/2026-TransitionCommsJourney/ResearchPlan.md
+conversation_guide,complete,products/health-care/digital-health-modernization/pre-mhv-prototype/research/SecureMessaging_Round1_Usability/conversation_guide.md
+research_plan,has_placeholder,products/health-care/digital-health-modernization/pre-mhv-prototype/research/SecureMessaging_Round1_Usability/research-plan.md
+research_plan,has_placeholder,products/health-care/foreign-medical-program/10-7959f-1/research/stakeholders/research-plan-and-conversation-guide.md
+conversation_guide,complete,products/health-care/foreign-medical-program/10-7959f-2/research/2025-10-FMP-Claims-Direct-Deposit-Content-Study/conversation-guide.md
+research_plan,has_placeholder,products/health-care/foreign-medical-program/10-7959f-2/research/2025-10-FMP-Claims-Direct-Deposit-Content-Study/research-plan.md
+research_plan,has_placeholder,products/health-care/long-covid/research/research-plan.md
+research_plan,has_placeholder,products/health-care/patient-portal/get-care-mobile/research/discovery/research_plan.md
+research_plan,has_placeholder,products/health-care/patient-portal/get-care-mobile/research/usability/research_plan.md
+conversation_guide,complete,products/health-care/patient-portal/mhv/2023-03-what's-new-page-usability-testing/conversation-guide.md
+research_plan,has_placeholder,products/health-care/patient-portal/mhv/2023-03-what's-new-page-usability-testing/research-plan.md
+conversation_guide,complete,products/health-care/patient-portal/mhv/2024-06-access-sign-in-change-usability-study/conversation-guide.md
+research_plan,has_placeholder,products/health-care/patient-portal/mhv/2024-06-access-sign-in-change-usability-study/research-plan.md
+conversation_guide,complete,products/health-care/patient-portal/mhv/2024-portals-profile-sync-usability-testing/conversation-guide.md
+research_plan,has_placeholder,products/health-care/patient-portal/mhv/2024-portals-profile-sync-usability-testing/research-plan.md
+conversation_guide,complete,products/health-care/prescription-refills/mhv-prescription-refill/2023-01-pharmacy-drug-image-display/Research/conversation-guide.md
+research_plan,has_placeholder,products/health-care/prescription-refills/mhv-prescription-refill/2023-01-pharmacy-drug-image-display/Research/research-plan.md
+research_plan,has_placeholder,products/health-care/questionnaire/discovery/stakeholder-interviews/clinician-interviews/research-plan.md
+conversation_guide,complete,products/health-care/questionnaire/discovery/user-research/conversation-guide.md
+research_plan,has_placeholder,products/health-care/questionnaire/discovery/user-research/research-plan.md
+conversation_guide,complete,products/health-care/questionnaire/research/2023-10-clinical-reminders-veteran/conversation-guide.md
+research_plan,has_placeholder,products/health-care/questionnaire/research/2023-10-clinical-reminders-veteran/research-plan.md
+conversation_guide,complete,products/health-care/questionnaire/research/2023-11-clinical-reminders-staff/Staff Interviews Phase 1a/conversation-guide.md
+research_plan,complete,products/health-care/questionnaire/research/2023-11-clinical-reminders-staff/Staff Interviews Phase 1a/research-plan.md
+conversation_guide,complete,products/health-care/questionnaire/research/2023-11-clinical-reminders-staff/Staff Interviews Phase 1b/conversation-guide.md
+research_plan,has_placeholder,products/health-care/questionnaire/research/2023-11-clinical-reminders-staff/Staff Interviews Phase 1b/research-plan.md
+conversation_guide,complete,products/health-care/questionnaire/research/2025-07-clinical-reminders-notable-veterans usability sessions/conversation-guide.md
+research_plan,complete,products/health-care/questionnaire/research/2025-07-clinical-reminders-notable-veterans usability sessions/research-plan.md
+conversation_guide,complete,products/health-care/questionnaire/research/2025-08-clinical-reminders-curapatient-veterans usability sessions/conversation-guide.md
+research_plan,complete,products/health-care/questionnaire/research/2025-08-clinical-reminders-curapatient-veterans usability sessions/research-plan.md
+conversation_guide,complete,products/health-care/questionnaire/research/all-mvp-workflows/conversation-guide.md
+research_plan,has_placeholder,products/health-care/questionnaire/research/all-mvp-workflows/research-plan.md
+conversation_guide,complete,products/health-care/questionnaire/research/clinician-healthRecord-discovery/conversation-guide.md
+conversation_guide,complete,products/health-care/questionnaire/research/health-record/conversation-guide.md
+research_plan,has_placeholder,products/health-care/questionnaire/research/health-record/research-plan.md
+conversation_guide,complete,products/health-care/questionnaire/research/mvp-usability/conversation-guide.md
+research_plan,has_placeholder,products/health-care/questionnaire/research/mvp-usability/research-plan.md
+conversation_guide,complete,products/health-care/questionnaire/research/veteran-prioritization/conversation-guide.md
+research_plan,has_placeholder,products/health-care/questionnaire/research/veteran-prioritization/research-plan.md
+conversation_guide,complete,products/health-care/secure-messaging/vets-secure-messaging/discovery/past-user-testing/conversationguide-aug2016.md
+research_plan,has_placeholder,products/health-care/supply-reordering-tool/research/2025-02 Multistep task pattern research/researchplan.md
+research_plan,has_placeholder,products/health-care/supply-reordering-tool/research/2025-TBD-medical-supplies-reordering-tool-updates-usability-testing/research-plan.md
+conversation_guide,complete,products/health-care/vfmp-status-integration/research/2026-02-CHAMPVA-App-Status-MVP/conversation-guide.md
+research_plan,has_placeholder,products/health-care/vfmp-status-integration/research/2026-02-CHAMPVA-App-Status-MVP/research-plan.md
+conversation_guide,complete,products/home-page/research/2022-09-redesign-usability-round2/conversation-guide.md
+research_plan,complete,products/home-page/research/2022-09-redesign-usability-round2/research-plan.md
+conversation_guide,complete,products/home-page/research/redesign-usability/conversation-guide.md
+research_plan,complete,products/home-page/research/redesign-usability/research-plan.md
+conversation_guide,complete,products/identity/login/ds-logon/research/conversation-guide.md
+conversation_guide,no_frontmatter,products/identity/login/mhv/mhv-account-creation_2017/conversationguide-4-17-17.md
+conversation_guide,no_frontmatter,products/identity/login/mhv/mhv-account-creation_2017/conversationguide2.md
+conversation_guide,complete,products/identity/login/mhv/mhv-account-creation_2017/research/conversationguide-4-17-17.md
+conversation_guide,complete,products/identity/login/mhv/mhv-account-creation_2017/research/conversationguide2.md
+research_plan,has_placeholder,products/identity/login/sso/ux-research/alerts/research-plan.md
+conversation_guide,complete,products/identity-personalization/direct-deposit/Research/2019-06-direct-deposit-updates-usability/conversation-guide.md
+research_plan,has_placeholder,products/identity-personalization/direct-deposit/Research/2019-06-direct-deposit-updates-usability/research-plan.md
+conversation_guide,complete,products/identity-personalization/direct-deposit/Research/2019-09-direct-deposit-UAT/conversation-guide.md
+research_plan,has_placeholder,products/identity-personalization/direct-deposit/Research/2019-09-direct-deposit-UAT/research-plan.md
+conversation_guide,complete,products/identity-personalization/direct-deposit/evss-lighthouse-migration/UAT/conversation-guide.md
+research_plan,has_placeholder,products/identity-personalization/direct-deposit/evss-lighthouse-migration/UAT/research-plan.md
+conversation_guide,complete,products/identity-personalization/discovery-research/authenticated-menu-usability/conversation-guide-revised-removed-task.md
+conversation_guide,complete,products/identity-personalization/discovery-research/authenticated-menu-usability/conversation-guide-revised-task-order.md
+conversation_guide,complete,products/identity-personalization/discovery-research/authenticated-menu-usability/conversation-guide.md
+research_plan,has_placeholder,products/identity-personalization/discovery-research/authenticated-menu-usability/research-plan.md
+research_plan,has_placeholder,products/identity-personalization/my-va/2.0-redesign/discovery-and-research/research-plan.md
+conversation_guide,complete,products/identity-personalization/my-va/2.0-redesign/discovery-and-research/stakeholder-interviews/conversation-guide-stakeholders.md
+conversation_guide,complete,products/identity-personalization/my-va/2.0-redesign/discovery-and-research/user-research/conversation-guide.md
+research_plan,complete,products/identity-personalization/my-va/2.0-redesign/discovery-and-research/user-research/research-plan.md
+research_plan,complete,products/identity-personalization/my-va/forms-status-on-My-VA/UAT/research-plan.md
+conversation_guide,complete,products/identity-personalization/my-va/my-va-redirect/UAT/conversation-guide.md
+research_plan,has_placeholder,products/identity-personalization/my-va/my-va-redirect/UAT/research-plan.md
+conversation_guide,complete,products/identity-personalization/my-va/payment-history/discovery-and-research/june-2022-research/conversation-guide.md
+research_plan,complete,products/identity-personalization/my-va/payment-history/discovery-and-research/june-2022-research/research-plan.md
+conversation_guide,complete,products/identity-personalization/my-va/research/2025-08-myva3.0-phase1-usabilitytesting/conversation-guide.md
+research_plan,has_placeholder,products/identity-personalization/my-va/research/2025-08-myva3.0-phase1-usabilitytesting/research-plan.md
+research_plan,has_placeholder,products/identity-personalization/my-va/research/2026-01-myva3.0-namechange-survey/research-plan.md
+research_plan,has_placeholder,products/identity-personalization/my-va/virtual-appeal-hearings/research/ResearchPlan_BoardAppeals-on-VA-dot-gov_Interviews_withVeterans_2021-07.md
+conversation_guide,complete,products/identity-personalization/onboarding/discovery-research/2024-03-onboarding-generative-research/conversation-guide.md
+research_plan,has_placeholder,products/identity-personalization/onboarding/discovery-research/2024-03-onboarding-generative-research/research-plan.md
+conversation_guide,complete,products/identity-personalization/onsite-notifications/mvp/UAT/conversation-guide.md
+research_plan,has_placeholder,products/identity-personalization/onsite-notifications/mvp/UAT/research-plan.md
+conversation_guide,complete,products/identity-personalization/personalization 2.0/discovery-research/dashboard-interviews/conversation-guide.md
+research_plan,complete,products/identity-personalization/personalization 2.0/discovery-research/dashboard-interviews/research-plan.md
+conversation_guide,complete,products/identity-personalization/personalization 2.0/discovery-research/service-member-interviews/conversation-guide.md
+research_plan,complete,products/identity-personalization/personalization 2.0/discovery-research/service-member-interviews/research-plan.md
+research_plan,complete,products/identity-personalization/profile/Combine Profile and Account/Research/2020-03-profile-redesign/research-plan.md
+conversation_guide,complete,products/identity-personalization/profile/Research/2022-05-MHV-profile-research/mhv-user-interviews/conversation-guide.md
+research_plan,complete,products/identity-personalization/profile/Research/2022-05-MHV-profile-research/mhv-user-interviews/research-plan.md
+conversation_guide,complete,products/identity-personalization/profile/Research/2022-09-profile-editing-evaluation/conversation-guide.md
+research_plan,complete,products/identity-personalization/profile/Research/2022-09-profile-editing-evaluation/research-plan.md
+conversation_guide,complete,products/identity-personalization/profile/Research/2023-10-UAT-edit-as-subtask-default-send-checkbox-ui/conversation-guide.md
+research_plan,complete,products/identity-personalization/profile/Research/2023-10-UAT-edit-as-subtask-default-send-checkbox-ui/research-plan.md
+conversation_guide,complete,products/identity-personalization/profile/Research/2023-10-profile-hub-usability/conversation-guide.md
+research_plan,complete,products/identity-personalization/profile/Research/2023-10-profile-hub-usability/research-plan.md
+conversation_guide,complete,products/identity-personalization/profile/Research/2024-01-military-info-enhancement-mvp/conversation-guide.md
+research_plan,has_placeholder,products/identity-personalization/profile/Research/2024-01-military-info-enhancement-mvp/research-plan.md
+conversation_guide,complete,products/identity-personalization/profile/Research/2024-04-direct-deposit-ch33-UAT/conversation-guide.md
+research_plan,complete,products/identity-personalization/profile/Research/2024-04-direct-deposit-ch33-UAT/research-plan.md
+research_plan,complete,products/identity-personalization/profile/Research/2026-04-profile2.0-postlaunch-usabilitytesting/research-plan-test.md
+research_plan,has_placeholder,products/identity-personalization/profile/Research/2026-04-profile2.0-postlaunch-usabilitytesting/research-plan.md
+research_plan,complete,products/identity-personalization/profile/Research/profile-hub/2025-05-profile-hub-tree-test/research-plan.md
+conversation_guide,complete,products/identity-personalization/profile/contact-information/bad-address-indicator/research/conversation-guide-alternative.md
+conversation_guide,complete,products/identity-personalization/profile/contact-information/bad-address-indicator/research/conversation-guide.md
+research_plan,complete,products/identity-personalization/profile/contact-information/bad-address-indicator/research/research-plan.md
+conversation_guide,complete,products/identity-personalization/profile/contact-information/bad-address-indicator/uat/conversation-guide.md
+research_plan,complete,products/identity-personalization/profile/contact-information/bad-address-indicator/uat/research-plan.md
+conversation_guide,complete,products/identity-personalization/profile/contact-information/research/2020-04-address-management/conversation-guide.md
+research_plan,has_placeholder,products/identity-personalization/profile/contact-information/research/2020-04-address-management/research-plan.md
+conversation_guide,complete,products/identity-personalization/profile/military-information/discovery-and-research/2023-military-info-discovery/conversation-guide.md
+research_plan,complete,products/identity-personalization/profile/military-information/discovery-and-research/2023-military-info-discovery/research-plan.md
+conversation_guide,complete,products/identity-personalization/profile/notification-preferences/discovery-and-research/usability-study-add-email-jan-2023/conversation-guide.md
+research_plan,complete,products/identity-personalization/profile/notification-preferences/discovery-and-research/usability-study-add-email-jan-2023/research-plan.md
+conversation_guide,complete,products/identity-personalization/profile/personal-health-care-contacts/discovery-research/2023-10-personal-health-care-contacts-usability/conversation-guide.md
+research_plan,has_placeholder,products/identity-personalization/profile/personal-health-care-contacts/discovery-research/2023-10-personal-health-care-contacts-usability/research-plan.md
+conversation_guide,complete,products/identity-personalization/profile/personal-information/personal-information-revision/research/conversation-guide.md
+research_plan,complete,products/identity-personalization/profile/personal-information/personal-information-revision/research/research-plan.md
+conversation_guide,complete,products/identity-personalization/profile/personal-information/personal-information-revision/uat/conversation-guide.md
+research_plan,complete,products/identity-personalization/profile/personal-information/personal-information-revision/uat/research-plan.md
+conversation_guide,complete,products/identity-personalization/profile/preferred-facility/research/2021-05-preferred-facilities/conversation-guide.md
+research_plan,has_placeholder,products/identity-personalization/profile/preferred-facility/research/2021-05-preferred-facilities/research-plan.md
+conversation_guide,complete,products/identity-personalization/profile/profile-V1/2018-vet360-uat/conversation-guide.md
+conversation_guide,complete,products/identity-personalization/profile/profile-completion/discovery-research/conversation-guide.md
+research_plan,has_placeholder,products/identity-personalization/profile/profile-completion/discovery-research/research-plan.md
+conversation_guide,complete,products/iga/research/discovery/2025-07-ifams-discovery/conversation-guide.md
+research_plan,has_placeholder,products/iga/research/discovery/2025-07-ifams-discovery/research-plan.md
+conversation_guide,complete,products/income-limits-app/initiatives/2023-launch/research/2023-01-income-limits-usability/conversation-guide.md
+research_plan,complete,products/income-limits-app/initiatives/2023-launch/research/2023-01-income-limits-usability/research-plan.md
+conversation_guide,complete,products/income-limits-app/initiatives/2023-launch/research/conversation-guide.md
+research_plan,complete,products/income-limits-app/initiatives/2023-launch/research/research-plan.md
+research_plan,complete,products/information-architecture/research-and-analytics/2019-vamc-navigation/left-nav/research/research-plan.md
+conversation_guide,complete,products/information-architecture/research-and-analytics/2023-generative-logged-in-research/2023-logged-in-user-interviews/conversation-guide.md
+research_plan,complete,products/information-architecture/research-and-analytics/2023-generative-logged-in-research/2023-logged-in-user-interviews/research-plan.md
+research_plan,has_placeholder,products/information-architecture/research-and-analytics/sitewide-nav-research/research-plan.md
+conversation_guide,complete,products/iris/research/ava/2021-04/conversation-guide.md
+research_plan,has_placeholder,products/iris/research/ava/2021-04/research-plan.md
+conversation_guide,complete,products/iris/research/ava/2021-07/conversation-guide.md
+research_plan,has_placeholder,products/iris/research/ava/2021-07/research-plan.md
+conversation_guide,complete,products/iris/research/ava/2022-02/conversation-guide.md
+research_plan,has_placeholder,products/iris/research/ava/2022-02/research-plan.md
+conversation_guide,complete,products/live-agent/research/2023-07-Live Agent Chatbot/conversation-guide.md
+research_plan,complete,products/live-agent/research/2023-07-Live Agent Chatbot/research-plan.md
+conversation_guide,complete,products/live-agent/research/2023-07-Live Agent Chatbot_Interviews with Veterans/conversation-guide.md
+research_plan,complete,products/live-agent/research/2023-07-Live Agent Chatbot_Interviews with Veterans/research-plan.md
+conversation_guide,complete,products/login.gov-adoption/discovery/research/2025-10-login.gov-fraud-alert-communicaiton-usability-testing/conversation-guide.md
+research_plan,has_placeholder,products/login.gov-adoption/discovery/research/2025-10-login.gov-fraud-alert-communicaiton-usability-testing/research-plan.md
+conversation_guide,complete,products/login.gov-adoption/in-person-proofing/research/Co-Creation Cohort/conversationguide.md
+research_plan,has_placeholder,products/login.gov-adoption/in-person-proofing/research/Co-Creation Cohort/research-plan.md
+research_plan,has_placeholder,products/medical-device-tool/research/discovery-nov19/research-plan.md
+conversation_guide,complete,products/medical-device-tool/research/usability-march20/conversation-guide.md
+research_plan,has_placeholder,products/medical-device-tool/research/usability-march20/research-plan.md
+conversation_guide,complete,products/my-education-benefits/research/2024-12-recommender-tool/conversation-guide.md
+research_plan,complete,products/my-education-benefits/research/2024-12-recommender-tool/research-plan.md
+conversation_guide,complete,products/my-education-benefits/research/2025-08-Dual-Benefit-Eligibility-Tool/conversation-guide.md
+research_plan,has_placeholder,products/my-education-benefits/research/2025-08-Dual-Benefit-Eligibility-Tool/research-plan.md
+research_plan,has_placeholder,products/office-administration/vba/sco-migration/research/research-plan.md
+conversation_guide,complete,products/on-site-search/research/user-research/2021-Aug-research-study/conversation-guide.md
+research_plan,has_placeholder,products/on-site-search/research/user-research/2021-Aug-research-study/research-plan.md
+conversation_guide,complete,products/on-site-search/research/user-research/research-study-jan-2021/conversation-guide.md
+research_plan,has_placeholder,products/on-site-search/research/user-research/research-study-jan-2021/research-plan.md
+conversation_guide,complete,products/outreach-events/research/2021-filtering-recurring-events/conversation-guide.md
+research_plan,complete,products/outreach-events/research/2021-filtering-recurring-events/research-plan.md
+conversation_guide,complete,products/pact-act-wizard/research/2023-2024-launch/conversation-guide.md
+research_plan,has_placeholder,products/pact-act-wizard/research/2023-2024-launch/research-plan.md
+conversation_guide,complete,products/pension/research/2024 02 Pension Usability Evaluation/conversation-guide.md
+research_plan,has_placeholder,products/pension/research/2024 02 Pension Usability Evaluation/research-plan.md
+research_plan,has_placeholder,products/pension/research/2024-09 527EZ VSO Research/research-plan.md
+conversation_guide,complete,products/pension/research/2024-10 Intent to File Comprehension/conversation-guide.md
+research_plan,has_placeholder,products/pension/research/2024-10 Intent to File Comprehension/research-plan.md
+conversation_guide,complete,products/pension/research/2025 04 Pension Exploratory Research/conversation-guide.md
+research_plan,has_placeholder,products/pension/research/2025 04 Pension Exploratory Research/research-plan.md
+conversation_guide,complete,products/pension/research/2025-07 0969 Usability Study/conversation-guide.md
+research_plan,has_placeholder,products/pension/research/2025-09 Intent to File Unmoderated Study/research-plan.md
+conversation_guide,complete,products/pension/research/2025-12 Pension Disability Alert/conversation-guide.md
+research_plan,complete,products/pension/research/2025-12 Pension Disability Alert/research-plan.md
+conversation_guide,complete,products/pension/research/2026-01 534EZ Usability Study/conversation-guide-at.md
+conversation_guide,complete,products/pension/research/2026-01 534EZ Usability Study/conversation-guide.md
+research_plan,has_placeholder,products/pension/research/2026-01 534EZ Usability Study/research-plan.md
+research_plan,has_placeholder,products/platform/design-system/templates/forms/Review page/research/2024-XX VFF Review Edit by Page/research-plan-final.md
+research_plan,has_placeholder,products/platform/design-system/templates/forms/Review page/research/2024-XX VFF Review Edit by Page/research-plan.md
+conversation_guide,complete,products/platform/login-self-service-tool/research/2022-Q3/conversation-guide.md
+research_plan,complete,products/platform/login-self-service-tool/research/2022-Q3/research-plan.md
+conversation_guide,complete,products/platform/login-self-service-tool/research/2022-Q4/conversation-guide.md
+research_plan,complete,products/platform/login-self-service-tool/research/2022-Q4/research-plan.md
+conversation_guide,complete,products/platform/medallia/research/CY20-Q4/conversation-guide.md
+research_plan,has_placeholder,products/platform/medallia/research/CY20-Q4/research-plan.md
+conversation_guide,complete,products/platform/medallia/research/CY21-Q1/conversation-guide.md
+research_plan,has_placeholder,products/platform/medallia/research/CY21-Q1/research-plan.md
+conversation_guide,complete,products/platform/platform-website/research/confluence-pilot-research-2020/conversation-guide.md
+research_plan,has_placeholder,products/platform/platform-website/research/confluence-pilot-research-2020/research-plan.md
+conversation_guide,complete,products/platform/platform-website/research/forms-library-docs-research-2020/conversation-guide.md
+research_plan,has_placeholder,products/platform/platform-website/research/forms-library-docs-research-2020/research-plan-script.md
+conversation_guide,complete,products/platform/platform-website/research/research-round-1/conversation-guide.md
+research_plan,has_placeholder,products/platform/platform-website/research/research-round-1/research-plan.md
+conversation_guide,complete,products/platform/platform-website/research/research-round-2/conversation-guide.md
+research_plan,has_placeholder,products/platform/platform-website/research/research-round-2/research-plan.md
+conversation_guide,complete,products/platform/research/collab-cycle-v1/vfs-research/conversation-guide.md
+conversation_guide,complete,products/platform/research/roe-documentation/conversation-guide.md
+research_plan,has_placeholder,products/proactive-benefits/research/2023-11-Outreach Exploration/research-plan.md
+conversation_guide,complete,products/public-websites/research/202104-baseline-wayfinding/conversation-guide.md
+research_plan,has_placeholder,products/public-websites/research/202104-baseline-wayfinding/research-plan.md
+research_plan,has_placeholder,products/resources-and-support/research/2022-01-usability-study-1.0/research-plan.md
+conversation_guide,complete,products/resources-and-support/research/2023-09-rate-tool/conversation-guide-v1.md
+conversation_guide,complete,products/resources-and-support/research/2023-09-rate-tool/conversation-guide.md
+research_plan,has_placeholder,products/resources-and-support/research/2023-09-rate-tool/research-plan-v1.md
+research_plan,complete,products/resources-and-support/research/2023-09-rate-tool/research-plan.md
+conversation_guide,complete,products/resources-and-support/research/2024-search-filters/conversation-guide.md
+research_plan,has_placeholder,products/resources-and-support/research/2024-search-filters/research-plan.md
+research_plan,has_placeholder,products/resources-and-support/research/research-plan-technicalsupport.md
+conversation_guide,complete,products/single-sign-on/research/user-discovery/2025-05-non-va-dots-okta-users/conversation-guide.md
+research_plan,has_placeholder,products/single-sign-on/research/user-discovery/2025-05-non-va-dots-okta-users/research-plan.md
+conversation_guide,complete,products/single-sign-on/research/user-discovery/2025-05-ssoi-user-interviews-round1/conversation-guide.md
+research_plan,has_placeholder,products/single-sign-on/research/user-discovery/2025-05-ssoi-user-interviews-round1/research-plan.md
+conversation_guide,complete,products/single-sign-on/research/user-discovery/2025-07-ssoi-pre-migration-user-interviews/conversation-guide.md
+research_plan,has_placeholder,products/single-sign-on/research/user-discovery/2025-07-ssoi-pre-migration-user-interviews/research-plan.md
+research_plan,has_placeholder,products/single-sign-on/research/user-discovery/2025-08-AccessVA/research-plan.md
+conversation_guide,complete,products/single-sign-on/research/user-discovery/2025-08-ssoi-mid-migration-user-interviews/conversation-guide.md
+research_plan,has_placeholder,products/single-sign-on/research/user-discovery/2025-08-ssoi-mid-migration-user-interviews/research-plan.md
+conversation_guide,complete,products/single-sign-on/research/user-discovery/2025-09-ssoe-pre-migration-user-interviews/conversation-guide.md
+research_plan,has_placeholder,products/single-sign-on/research/user-discovery/2025-09-ssoe-pre-migration-user-interviews/research-plan.md
+conversation_guide,complete,products/streamlined_waiver/accessibility_research/conversation-guide.md
+research_plan,complete,products/streamlined_waiver/accessibility_research/research-plan.md
+conversation_guide,complete,products/streamlined_waiver/research/conversation-guide.md
+research_plan,complete,products/streamlined_waiver/research/research-plan.md
+research_plan,has_placeholder,products/va-gov-relaunch-2018/user-research/study-5/research-plan.md
+conversation_guide,complete,products/va-gov-relaunch-2018/user-research/study-6/conversation-guide.md
+conversation_guide,complete,products/va-gov-relaunch-2018/user-research/study-7/conversation-guide-study-7-revised.md
+conversation_guide,complete,products/va-gov-relaunch-2018/user-research/study-7/conversation-guide-study-7.md
+conversation_guide,complete,products/va-gov-relaunch-2018/user-research/study-8/conversation-guide-study-8.md
+conversation_guide,complete,products/va-mobile-app/features/medication/usability-testing/august-2022/conversation-guide.md
+research_plan,has_placeholder,products/va-mobile-app/features/medication/usability-testing/august-2022/research-plan.md
+conversation_guide,complete,products/va-mobile-app/features/medication/usability-testing/june-2022/conversation-guide.md
+research_plan,has_placeholder,products/va-mobile-app/features/medication/usability-testing/june-2022/research-plan.md
+conversation_guide,complete,products/va-mobile-app/platform/VA Mobile Docs site /conversationguide.md
+research_plan,has_placeholder,products/va-mobile-app/research/Forms MVP Research/Research-Plan.md
+research_plan,has_placeholder,products/va-mobile-app/research/ux/2021-03-mhv-co-branding research/research-plan_ad-hoc-cto-support_secure-messaging_2021-04-16.md
+conversation_guide,complete,products/va-mobile-app/research/ux/appointments/2022-04-Appointment-Scheduling/conversation-guide.md
+research_plan,complete,products/va-mobile-app/research/ux/appointments/2022-04-Appointment-Scheduling/research-plan.md
+conversation_guide,complete,products/va-mobile-app/research/ux/blind-low-vision/post-launch-research/conversation-guide.md
+research_plan,has_placeholder,products/va-mobile-app/research/ux/blind-low-vision/post-launch-research/research-plan.md
+research_plan,complete,products/va-mobile-app/research/ux/mobile-app-MVP/2020-02-discovery-sprint/veteran-desirability/research-plan.md
+research_plan,complete,products/va-mobile-app/research/ux/mobile-app-MVP/2020-05-user-interviews/research-plan.md
+research_plan,complete,products/va-mobile-app/research/ux/mobile-app-MVP/2020-06-prototype-testing/research-plan.md
+research_plan,complete,products/va-mobile-app/research/ux/mobile-app-MVP/MVP-usability-testing/2020-08-usability-testing-round-1/research-plan.md
+research_plan,has_placeholder,products/va-mobile-app/research/ux/mobile-app-MVP/MVP-usability-testing/2021-01-usability-testing-round-2/research-plan.md
+conversation_guide,complete,products/va-mobile-app/research/ux/post-launch-discovery/2022-07-current-experience-discovery/conversation-guide.md
+research_plan,has_placeholder,products/va-mobile-app/research/ux/post-launch-discovery/2022-07-current-experience-discovery/research-plan.md
+research_plan,has_placeholder,products/va-mobile-app/testing/uat/pre-launch/research-plan.md
+conversation_guide,complete,products/va-notify/research/2023-10-Email-Content-Research/conversation-guide.md
+research_plan,has_placeholder,products/va-notify/research/2023-10-Email-Content-Research/research-plan.md
+conversation_guide,complete,products/va-notify/research/conversation-guide.md
+research_plan,has_placeholder,products/va-notify/research/research-plan.md
+conversation_guide,complete,products/verify-your-enrollment/research-folder/2023-11-Research-Initiative-One/conversation-guide.md
+research_plan,complete,products/verify-your-enrollment/research-folder/2023-11-Research-Initiative-One/researchplan-unmoderated.md
+research_plan,has_placeholder,products/verify-your-enrollment/research-folder/2023-11-Research-Initiative-One/researchplan.md
+conversation_guide,complete,products/vet-transition-support/research/2024-02-discovery/conversation-guide.md
+research_plan,complete,products/vet-transition-support/research/2024-02-discovery/research-plan.md
+conversation_guide,complete,products/vet-transition-support/research/2024-07-user-testing-v1/conversation-guide.md
+research_plan,complete,products/vet-transition-support/research/2024-07-user-testing-v1/research-plan.md
+conversation_guide,complete,products/vet-transition-support/research/2024-10-user-testing-v2/conversation-guide.md
+research_plan,complete,products/vet-transition-support/research/2024-10-user-testing-v2/research-plan.md
+conversation_guide,complete,products/vet-transition-support/research/2025-07-generative-and-user-testing-study/conversation-guide.md
+research_plan,complete,products/vet-transition-support/research/2025-07-generative-and-user-testing-study/research-plan.md
+conversation_guide,complete,products/veteran-id-cards/landing-page/conversation-guide.md
+research_plan,has_placeholder,products/veteran-id-cards/landing-page/research-plan-ii.md
+research_plan,has_placeholder,products/veteran-id-cards/landing-page/research-plan.md
+research_plan,has_placeholder,products/veteran-id-cards/research/discovery/research-plan.md
+conversation_guide,complete,products/veteran-id-cards/research/usability-testing/conversation-guide.md
+conversation_guide,complete,products/veteran-military-records/discharge-upgrade-wizard/research/2024-Review-Flow/conversation-guide-at.md
+conversation_guide,complete,products/veteran-military-records/discharge-upgrade-wizard/research/2024-Review-Flow/conversation-guide.md
+research_plan,has_placeholder,products/veteran-military-records/discharge-upgrade-wizard/research/2024-Review-Flow/research-plan.md
+conversation_guide,complete,products/veteran-onboarding/research/2025-study/conversation-guide.md
+research_plan,has_placeholder,products/veteran-onboarding/research/2025-study/research-plan.md
+research_plan,has_placeholder,products/veteran-status/v2-IIR/Research/ResearchPlanVSC.md
+conversation_guide,complete,products/vetext/product/research/2025-01-VEText-MyHealtheVet-email-appointment-reminder-content-research/conversation-guide.md
+research_plan,has_placeholder,products/vetext/product/research/2025-01-VEText-MyHealtheVet-email-appointment-reminder-content-research/research-plan.md
+research_plan,has_placeholder,products/vetext/product/research/research-plan-template.md
+conversation_guide,complete,products/vetext/research/2025-01-VEText-MyHealtheVet-email-appointment-reminder-content-research/conversation-guide.md
+research_plan,has_placeholder,products/vetext/research/2025-01-VEText-MyHealtheVet-email-appointment-reminder-content-research/research-plan.md
+conversation_guide,complete,products/virtual-agent/research/2022-09-Chatbot Feature Prioritization/conversation-guide.md
+research_plan,has_placeholder,products/virtual-agent/research/2022-09-Chatbot Feature Prioritization/researchplan.md
+research_plan,has_placeholder,products/virtual-agent/research/2025-07-Chatbot User Testing/ResearchPlan.md
+research_plan,complete,products/virtual-agent/research/2025-10-Chatbot User Testing Round 2/ResearchPlan.md
+conversation_guide,complete,products/virtual-agent/research/Live Bot User Testing/conversation-guide.md
+research_plan,has_placeholder,products/virtual-agent/research/Live Bot User Testing/researchplan.md
+research_plan,has_placeholder,products/virtual-agent/research/controlled-study/research-plan.md
+conversation_guide,complete,products/virtual-agent/research/inclusive-design-interviews/conversation-guide.md
+research_plan,has_placeholder,products/virtual-agent/research/inclusive-design-interviews/research-plan.md
+conversation_guide,complete,products/virtual-agent/research/moderated-interviews/conversation-guide-tone-and-name-survey.md
+conversation_guide,complete,products/virtual-agent/research/non-auth to auth/conversationguide.md
+research_plan,has_placeholder,products/virtual-agent/research/non-auth to auth/researchplan.md
+conversation_guide,no_frontmatter,products/virtual-agent/research/spanish speaking veterans/archive/conversationguide-ES.md
+conversation_guide,no_frontmatter,products/virtual-agent/research/spanish speaking veterans/archive/conversationguide.md
+conversation_guide,complete,products/virtual-agent/research/spanish speaking veterans/conversationguide-ES-updated.md
+conversation_guide,complete,products/virtual-agent/research/spanish speaking veterans/conversationguide-updated.md
+research_plan,has_placeholder,products/virtual-agent/research/spanish speaking veterans/researchplan.md
+research_plan,has_placeholder,products/virtual-agent/research/user feedback research/researchplan.md
+research_plan,has_placeholder,teams/_archive/partner-agencies/OPM/veteran-federal-employee/research-plan.md
+research_plan,complete,teams/_archive/shared-support/accessibility/research/2022-10-a11y-feedback/research-plan.md
+research_plan,has_placeholder,teams/_archive/vsa/design/test-usability-study-march2020/research-plan.md
+conversation_guide,complete,teams/benefits-portfolio/benefits-intake-optimization/research/2025-11 BIO Heart 21P-537 User Research/conversation-guide.md
+research_plan,has_placeholder,teams/benefits-portfolio/benefits-intake-optimization/research/2025-11 BIO Heart 21P-537 User Research/research-plan.md
+conversation_guide,complete,teams/benefits-portfolio/benefits-intake-optimization/research/2025-12 BIO Heart 21P-601 User Research/conversation-guide.md
+research_plan,complete,teams/benefits-portfolio/benefits-intake-optimization/research/2025-12 BIO Heart 21P-601 User Research/research-plan.md
+conversation_guide,complete,teams/cross-team-initiatives/_archive/mobile-month/research/conversation-guide.md
+research_plan,has_placeholder,teams/cross-team-initiatives/_archive/mobile-month/research/research-plan.md
+research_plan,complete,teams/digital-experience/ADE/research/2022-10-a11y-feedback/research-plan.md
+conversation_guide,complete,teams/digital-experience/ADE/research/2025-05-save-in-progress/conversation-guide.md
+research_plan,complete,teams/digital-experience/ADE/research/2025-05-save-in-progress/research-plan.md
+conversation_guide,complete,teams/digital-experience/ADE/research/2026-01-save-in-progress-2/conversation-guide.md
+research_plan,has_placeholder,teams/digital-experience/ADE/research/2026-01-save-in-progress-2/research-plan.md
+conversation_guide,complete,teams/digital-experience/VES-EE/conversation-guide.md
+research_plan,has_placeholder,teams/digital-experience/VES-EE/research-plan.md
+conversation_guide,no_frontmatter,teams/digital-experience/_archive/ebenefits/engineering/2018-prefill-docs/2018-prefill-docs/research/conversationguide.md
+conversation_guide,no_frontmatter,teams/digital-experience/_archive/ebenefits/engineering/2018-prefill-docs/research/conversationguide.md
+conversation_guide,complete,teams/digital-experience/_archive/product-dev-support/research/additional-info-tooltip-modal-usability/conversation-guide.md
+research_plan,has_placeholder,teams/digital-experience/_archive/product-dev-support/research/additional-info-tooltip-modal-usability/research-plan.md
+research_plan,has_placeholder,teams/digital-experience/_archive/product-dev-support/research/onboarding-vsa/research-plan.md
+research_plan,has_placeholder,teams/digital-experience/contact-center/research/Q1-2021/IRIS/research-plan.md
+research_plan,complete,teams/digital-experience/contact-center/research/Q2-2022/VA_Caller/research-plan.md
+research_plan,has_placeholder,teams/digital-experience/insights-analytics/research/Product-Success-Tool_KPI_Facility-Locator/Research-Plan.md
+conversation_guide,complete,teams/digital-experience/insights-analytics/research/product-health-prototype/version-1/conversation-guide.md
+conversation_guide,complete,teams/digital-experience/insights-analytics/research/product-health-prototype/version-3/conversation-guide.md
+research_plan,has_placeholder,teams/digital-experience/insights-analytics/research/product-health-prototype/version-3/research-plan.md
+research_plan,has_placeholder,teams/digital-experience/operations/discovery/research-plan.md
+conversation_guide,complete,teams/digital-experience/public-websites-2020-2022/research/Veteran-tasks/moderated/conversation-guide.md
+research_plan,complete,teams/digital-experience/public-websites-2020-2022/research/Veteran-tasks/moderated/research-plan.md
+research_plan,has_placeholder,teams/digital-experience/public-websites-2020-2022/research/Veteran-tasks/research-plan.md
+research_plan,complete,teams/digital-experience/public-websites-2020-2022/research/Veteran-tasks/unmoderated/research-plan.md
+research_plan,has_placeholder,teams/digital-experience/public-websites-2020-2022/research/redesigned-homepage-usability/research-plan.md

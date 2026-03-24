@@ -1,8 +1,8 @@
 ---
 title: "Conversation Guide for VAOS, UAT Phase 3 - Community Care, January 2020"
-author: "To be determined"
-date_created: "2020-01"
-last_modified: "2026-02-11"
+author: "Lauren Alexanderson"
+date_created: "2020-01-01"
+last_modified: "2026-03-24"
 
 # Core research metadata
 team: "VA Online Scheduling"
@@ -17,7 +17,7 @@ session_type: "remote_moderated"
 participant_criteria: "Veterans with MHV Premium or ID.me accounts, enrolled in VA healthcare, eligible for Community Care"
 
 # Related documents
-related_research_plan: "N/A"
+related_research_plan: "products/health-care/appointments/va-online-scheduling/research/2020-01-uat-phase-3-community-care/research_plan.md"
 related_prototype: "www.va.gov/health-care/schedule-view-va-appointments/appointments"
 
 tags:

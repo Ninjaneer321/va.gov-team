@@ -1,36 +1,33 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: Conversation Guide for Debt Resolution, Mobile App Debt Portal Viewing Debts
+  and Copays, 2024
+author: Emily DeWan
+date_created: '2024-01-01'
+last_modified: '2024-01-01'
+team: Debt Resolution
+portfolio: benefits
+product: VA Mobile App - Debt Portal
+research_phase: usability
+research_method: usability_test
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: Veterans who manage VA overpayment debts and medical copays
+  through mobile devices
+related_research_plan: products/combined_va_debt_portal/mobile/research-plan.md
+related_prototype: Figma prototype for mobile app debt portal
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+- copays
+- debt
+- debt-portal
+- overpayment
+- usability-testing
+- va-mobile-app
+description: Usability testing of mobile app debt portal for viewing and managing
+  overpayment debts and medical copays to validate user flows and information clarity.
 recording_required: true
 observer_support: true
 consent_for_clips: true
 ---
-
 <!--
 # 🚧 🚧 🚧 Work in Progress 🚧 🚧 🚧 #
  <br>

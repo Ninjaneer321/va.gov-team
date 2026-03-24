@@ -1,34 +1,37 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Authenticated Experience Team, Dashboard 2.0 Discovery Interviews, July 2019"
+author: "Samara Strauss"
+date_created: "2019-07-08"
+last_modified: "2019-07-18"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Authenticated Experience"
+portfolio: "digital-experience"
+product: "Personalization 2.0 - Dashboard"
+research_phase: "discovery"
+research_method: "moderated_interview"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have VA.gov accounts and actively manage VA benefits online"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "../research-plan.md"
+related_prototype: "https://staging.va.gov"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "authenticated-experience"
+  - "personalization"
+  - "dashboard"
+  - "discovery"
+  - "interviews"
+description: "Discovery interviews with Veterans to understand how they currently manage benefits online and their needs for a personalized dashboard."
 
 # NEW: Compliance flags
 recording_required: true
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Conversation Guide: Dashboard 2.0 Veteran Interviews

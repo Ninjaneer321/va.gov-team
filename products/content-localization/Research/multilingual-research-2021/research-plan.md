@@ -105,6 +105,8 @@ related_research:
   previous_studies: 
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/content-localization/product-outline-working-drafts/markdown-version.md"
     
+
+study: "Content & Localization Team, Multilingual Content Research, August 31,"
 tags:
   - "AUD: Veterans"
   - "AUD: Family Members"

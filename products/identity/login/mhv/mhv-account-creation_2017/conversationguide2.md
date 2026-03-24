@@ -1,3 +1,27 @@
+---
+type: conversation_guide
+study_name: Rx Tracking and Account Creation Usability Testing
+team: Identity
+product: MHV - Prescription Tracking and Account Creation
+platform: VA.gov
+moderator: Identity team
+date: May 2017
+research_method: Remote usability testing with prototype
+session_type: moderated_remote
+session_duration_minutes: 45
+number_of_participants: TBD
+tags:
+  - identity
+  - MHV
+  - account-creation
+  - prescription-tracking
+  - rx-refills
+  - usability-testing
+  - prototype-testing
+  - terms-and-conditions
+  - health-tools
+---
+
 # May 2017 Rx Tracking and Account Creation 
 
 ## Mockups: https://marvelapp.com/8abe5j4 (account creation) and https://marvelapp.com/88agag4 (Rx Tracking)

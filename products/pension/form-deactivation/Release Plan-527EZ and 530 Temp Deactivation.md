@@ -1,3 +1,13 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Release Plan: Pension and Burial Form Deactivation
+date: 9/25/23
+services: Pension
+tags: pension, release, testing
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/form-deactivation/Release Plan-527EZ and 530 Temp Deactivation.md
+---
 # Release Plan: Pension and Burial Form Deactivation
 ---
 ## Components

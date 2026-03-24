@@ -106,6 +106,8 @@ related_research:
   previous_studies: 
     - "2024-01 ARM Authenticated Appoint a Representative Form User Test"
     
+
+study: "ARM Team, Appoint a Representative Form User Test (Unauthenticated), 02/2024"
 tags:
   - "AUD: Caregivers"
   - "AUD: Dependents"

@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for Patient Check In, Unified Check-In Experience Usability Study, May 2023"
-date: 2023-05-31
+date: 2023-04-01
 last_updated: 2026-02-10
 team: "Modernized Check-In Experience Team"
 product: "Patient Check In"
@@ -104,20 +104,29 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/2023-04%20Unified%20Check-In%20Experience%20Usability%20Study/conversation-guide.md"
     
 tags:
+  - "HCE"
+  - "PCI"
+  - "health-care"
+  - "patient-check-in"
+  - "check-in"
+  - "pre-check-in"
+  - "usability-testing"
+  - "unified-experience"
+  - "remote"
+  - "evaluative"
+  - "mobile"
+  - "screen-reader"
+  - "accessibility"
+  - "cognitive-impairment"
+  - "AT"
+  - "assistive-technology"
+  - "moderated"
+  - "veterans"
   - "AUD: Veterans"
   - "BNFT: Healthcare"
   - "PRDT: Check-in"
-  - "PRDT: Appointments"
-  - "HDW: Mobile"
-  - "HDW: Smartphone"
-  - "DSC: Cards"
-  - "usability-testing"
-  - "authenticated"
-  - "remote"
-  - "Accessibility"
-  - "screen-reader"
-  - "screen-magnification"
-  - "cognitive-disability"
+study: Patient Check In, Unified Check-In Experience Usability Study
+type: Usability
 ---
 
 # Patient Check In (PCI) Research Plan for Unified Check-In Generative Research Usability Study  

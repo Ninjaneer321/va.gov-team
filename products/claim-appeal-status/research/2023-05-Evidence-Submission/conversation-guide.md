@@ -1,40 +1,32 @@
 ---
-title: "Conversation Guide: Evidence Submission Usability Testing"
-author: "Skyler"
-date_created: "2023-05-01"
-last_modified: "2026-02-11"
-
-# Core research metadata
-team: "Benefits Team 1"
-portfolio: "benefits"
-product: "Claim Status Tool"
-research_phase: "usability"
-research_method: "usability_test"
-
-# Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans who have filed disability compensation claims (Form 526-EZ) with the VA, preferably with experience on VA.gov"
-
-# Related documents
-related_research_plan: "products/claim-appeal-status/research/2023-05-Evidence-Submission/research-plan.md"
-related_prototype: "https://sketch.com/s/98e35645-34eb-40cf-80c1-6c4952943584"
-
+title: "Conversation Guide for Benefits Management Tools, Claim Status Tool, Evidence Submission, May 2023"
+type: "Conversation Guide"
+study_date: "2023-05-01"
+authors:
+  - "Skyler Schain"
 tags:
   - "AUD:Veterans"
-  - "PRDT:claim-status"
-  - "PRDT:disability-compensation"
-  - "BNFT:disability"
-  - "usability-testing"
-  - "evidence-submission"
-  - "CST"
-  
-description: "Usability testing of Claim Status Tool redesign focusing on evidence submission workflows, claim status clarity, and improvements to Files and Overview tabs for in-progress disability compensation claims."
-
-# Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+  - "PRDT:Claim-status"
+  - "PRDT:CST"
+  - "RESRCH:Usability"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "RESRCH:Prototype-testing"
+  - "BNFT:Disability"
+  - "DSC:File-upload"
+  - "DSP:Evidence-submission"
+  - "HDW:Desktop"
+  - "VETJNY:Accessing-benefits"
+team: "Benefits Management Tools"
+portfolio: "Benefits"
+product:
+  - "Claim Status Tool"
+  - "Evidence Submission"
+  - "File Upload"
+research_round: "Evidence Submission Usability"
+participant_count: 8
+study_length: "60 minutes"
+date: "2023-05"
 ---
 
 # Conversation Guide: Evidence Submission Usability Testing

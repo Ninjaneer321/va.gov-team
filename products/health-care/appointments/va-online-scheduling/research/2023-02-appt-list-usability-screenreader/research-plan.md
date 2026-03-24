@@ -1,10 +1,31 @@
 ---
-# Research Plan Metadata
 title: "Research Plan for VAOS Appointments Team, Appointments List Screenreader Usability, February 2023"
-date: 2023-03-20
-last_updated: 2026-02-10
+type: "Research Plan"
+study_date: "2023-03-30"
+authors:
+  - "Ciera Maddox"
+  - "Peter Russo"
+tags:
+  - "AUD: Veterans"
+  - "PRDT: VAOS"
+  - "PRDT: Appointments"
+  - "RESRCH: Usability-testing"
+  - "RESRCH: Accessibility-testing"
+  - "RESRCH: Remote"
+  - "HCE: Health-care"
+  - "DSC: Screenreader"
+  - "DSC: Blind-low-vision"
+  - "AT: Assistive-technology"
 team: "VA Online Scheduling (VAOS) Team"
-product: "VA Online Scheduling - Appointments List"
+portfolio: "Health Care"
+product:
+  - "VA Online Scheduling"
+  - "Appointments List"
+research_round: "Accessibility"
+participant_count: 12
+study_length: "90 minutes"
+date: "2023-02"
+last_updated: 2026-02-10
 product_area: "authenticated"
 
 # Background Context
@@ -110,23 +131,16 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2022-appts-list-usability/research-findings.md"
     
 tags:
-  - "AUD: Veterans"
-  - "BNFT: Healthcare"
-  - "PRDT: Appointments"
-  - "MHV: Appointments"
-  - "authenticated"
-  - "usability-testing"
-  - "accessibility-testing"
-  - "remote"
-  - "Accessibility"
-  - "screenreader"
-  - "assistive-technology"
-  - "JAWS"
-  - "VoiceOver"
-  - "TalkBack"
-  - "HDW: Desktop"
-  - "HDW: Smartphone"
-  - "HDW: Mobile"
+  - HCE
+  - UAT
+  - VAOS
+  - accessibility
+  - appointments
+  - caregivers
+  - mobile
+  - usability-testing
+study: VAOS Appointments Team, Appointments List Screenreader Usability
+type: UAT
 ---
 
 Research plan for VAOS appointments list screenreader usability test

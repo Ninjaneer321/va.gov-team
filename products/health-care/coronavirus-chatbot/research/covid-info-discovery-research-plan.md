@@ -1,109 +1,106 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Coronavirus Chatbot Discovery, April 2020"
+date: 2020-04-30
+last_updated: 2020-04-30
+team: "VA.gov Public Websites Team"
+product: "COVID-19 Chatbot"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Previous research focused on chatbot usability. This round focuses on discoverability of coronavirus information and the chatbot itself on VA.gov, continuing to evaluate overall usability."
+  product_location: "VA.gov coronavirus information pages"
+  user_familiarity: "Iteration - testing discoverability after initial usability validation"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/coronavirus-chatbot/product-brief.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Identify areas where users look for coronavirus information on VA.gov"
+  - goal_2: "Understand awareness and discoverability of the chatbot"
+  - goal_3: "Identify usability shortcomings and potential improvements for interacting with the chatbot"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Where do participants look for coronavirus information on VA.gov?"
+  - "Can participants discover the chatbot on VA.gov?"
+  - "What paths do participants follow to find coronavirus information?"
+  - "What improvements are needed for chatbot discoverability and usability?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Participants will follow many different paths on VA.gov to find coronavirus information"
+  - "The chatbot is difficult to discover during the information-seeking process"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Identify improvements to chatbot discoverability and positioning on VA.gov to increase awareness and usage"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans or those who care for a Veteran"
+    - "Mix of genders and ages"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Bonus: participants who have sought information from VA about COVID-19"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you sought information from VA about COVID-19?"
+      qualifying_response: "Yes (bonus criterion)"
       
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 5
+  caregivers: 1
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 6
+  completed_sessions_goal: 6
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-05-04"
+  pilot_participant: "Jedda Puzon"
+  research_dates: "2020-05-05 to 2020-05-07"
+  research_review_submission: "2020-04-30"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 30
+  buffer_minutes: 0
+  max_sessions_per_day: 6
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve access to COVID-19 information"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Living civilian life"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/products/health-care/coronavirus-chatbot/research/covid-19-chatbot-research-plan.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "usability-testing"
+  - "veterans"
+  - "caregivers"
+  - "evaluative"
+  - "COVID-19"
+  - "chatbot"
+  - "discoverability"
 ---
 
 # Research Plan for Coronavirus Chatbot

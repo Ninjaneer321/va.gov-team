@@ -1,36 +1,38 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: "CHAMPVA Dependents Management Discovery Conversation Guide"
+author: "Alyssa Riesel"
+date_created: "2024-01-01"
+last_modified: "2024-01-01"
+team: "IVC Forms - CHAMPVA"
+portfolio: "benefits"
+product: "CHAMPVA - Application Status Tool"
+product_area: "authenticated"
+research_phase: "discovery"
+research_method: "stakeholder_interviews"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VA staff at CHAMPVA contact center who handle dependent application inquiries"
+related_research_plan: "products/health-care/champva/1010D/status-tool/research/CHAMPVA Dependents Management/research-plan.md"
+related_prototype: "N/A"
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+  - "CHAMPVA"
+  - "1010D"
+  - "dependent-management"
+  - "discovery"
+  - "stakeholder-interviews"
+  - "application-status"
+  - "contact-center"
+  - "privacy-rules"
+  - "IVC-forms"
+  - "AUD: Stakeholders"
+  - "BNFT: Healthcare"
+  - "PRDT: Application Status"
+description: "Discovery interviews with CHAMPVA contact center staff to understand privacy rules and information sharing protocols for different dependent types in application status tool development."
 recording_required: true
 observer_support: true
 consent_for_clips: true
+date: "2024-01"
 ---
-
 # Conversation Guide for CHAMPVA Dependents Management Discovery
 
 ## Intro - 5 minutes

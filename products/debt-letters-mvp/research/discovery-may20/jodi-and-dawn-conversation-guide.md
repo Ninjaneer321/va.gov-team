@@ -1,36 +1,37 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: "Conversation Guide for Debt Resolution, Debt Letters Discovery - Jodi and Dawn, May 2020"
+author: "Riley Orr, Rebecca Walsh"
+date_created: "2020-05-01"
+last_modified: "2020-05-01"
+team: "Debt Resolution"
+portfolio: "benefits"
+product: "Debt Letters"
+product_area: "authenticated"
+research_phase: "discovery"
+research_method: "stakeholder_interviews"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VA debt management stakeholders from Veteran Experience Division and Veteran Care Division"
+related_research_plan: "products/debt-letters-mvp/research/discovery-may20/research-plan.md"
+related_prototype: "N/A"
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+  - "debt-resolution"
+  - "debt-letters"
+  - "debt-management"
+  - "discovery"
+  - "stakeholder-interviews"
+  - "internal-research"
+  - "DMC"
+  - "call-center"
+  - "AUD: Stakeholders"
+  - "BNFT: Debt"
+  - "PRDT: Debt Letters"
+description: "Discovery stakeholder interviews with Jodi and Dawn from VA debt management divisions to understand debt letter processes, systems, and call center operations."
 recording_required: true
 observer_support: true
 consent_for_clips: true
+date: "2020-05"
 ---
-
 # Conversation Guide: Jodi & Dawn
 **Debt Letters MVP - May 2020 Discovery**<br>
 Riley Orr & Rebecca Walsh

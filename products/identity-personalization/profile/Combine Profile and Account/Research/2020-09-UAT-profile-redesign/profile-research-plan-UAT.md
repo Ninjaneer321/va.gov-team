@@ -110,6 +110,16 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/Combine%20Profile%20and%20Account/Research/2020-03-profile-redesign/research-plan.md"
     
 tags:
+  - profile
+  - profile-redesign
+  - uat
+  - user-acceptance-testing
+  - authenticated-experience
+  - personalization
+  - contact-information
+  - personal-information
+  - authenticated
+  - research-plan
   - "profile"
   - "authenticated-experience"
   - "UAT"

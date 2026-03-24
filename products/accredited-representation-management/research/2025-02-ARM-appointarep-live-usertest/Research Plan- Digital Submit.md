@@ -1,109 +1,100 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for ARM Team, Appoint a Representative Digital Submit - VA.gov User Test, 04/2025"
+date: 2025-04-01
+last_updated: 2025-04-21
+team: "Accredited Representation Management (ARM)"
+product: "Appoint a Representative"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Create a high-quality accessible service within VA.gov to serve Veterans in finding and managing their accredited representatives (Power of Attorney) and support deprecation of legacy systems."
+  product_location: "VA.gov - Appoint a Representative with Digital Submit"
+  user_familiarity: "Iteration - testing live product"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/accredited-representation-management"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Usability testing with warm-up questions"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate the usability of Appoint a Representative with Digital Submit on VA.gov"
+  - goal_2: "Evaluate usability of the Representative Status Widget on VA.gov"
+  - goal_3: "Assess accessibility for assistive technology users"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are there any usability challenges with the Appoint a Representative with Digital Submit feature?"
+  - "Do users understand the information shown and is any information missing?"
+  - "Are there any challenges with using the experience, particularly the legal portion?"
+  - "Do users correctly interpret the cancellation note on the confirmation page?"
+  - "Are assistive technology (AT) users able to successfully use the feature?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans who utilize screen readers will be able to successfully navigate Appoint a Representative"
+  - "Veterans will clearly understand whether the process concludes with a PDF or digital submission"
+  - "Veterans will find value in signing in to see their current representative"
+  - "When signed in, Veterans will expect their information to be pre-filled in the form"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "User testing will help identify and fix outstanding user pain points and system bugs, particularly for AT users"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must have used or are willing to use VA.gov"
+    - "Actively searching for attorney or claims agent OR started receiving support in last 6 months"
+    - "Must be seeking attorney or claims agent (not VSO)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "3 or more age 55+"
+    - "2 or more people of color"
+    - "2 or more in rural location"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "What type of representative are you looking for support from?"
+      qualifying_response: "Attorney or Claims agent"
       
 participants:
-  veterans: 0
+  veterans: 6
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 6
+  completed_sessions_goal: 4
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-04-21"
+  research_dates: "2025-04-21 to 2025-04-25"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 90
+  buffer_minutes: 60
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "ARM"
+  - "accredited-representative"
+  - "usability-testing"
+  - "assistive-technology"
+  - "authenticated"
+  - "digital-submit"
 ---
 
 # **Research Plan for ARM Team, Appoint a Representative Digital Submit - VA.gov User Test, 04/2025**

@@ -1,50 +1,35 @@
 ---
-title: "Conversation Guide for VA.gov Relaunch Study 8 - Remote Usability Testing, November 2018"
-author: "Unknown"
-date_created: "2018-11-01"
-last_modified: "2026-02-11"
-
-# Core research metadata
-team: "VA.gov Relaunch"
-portfolio: "digital-experience"
-product: "VA.gov Authenticated Experience and Health Tools"
-research_phase: "usability"
-research_method: "usability_test"
-
-# Session details
-session_duration: "45 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans with MyHealtheVet, DS Logon, or ID.me account credentials"
-
-# Related documents
-related_research_plan: "N/A"
-related_prototype: "https://preview.va.gov"
-
+title: "Conversation Guide for VA.gov Relaunch Team, Remote Usability Testing Study 8, November 2018"
+type: "Conversation Guide"
+study_date: "2018-11-01"
+authors:
+  - "VA.gov Relaunch Team"
 tags:
   - "AUD:Veterans"
   - "PRDT:VA.gov"
-  - "PRDT:Content"
   - "PRDT:MyHealtheVet"
-  - "PRDT:Personalized Dashboard"
-  - "PRDT:Login.gov"
-  - "BNFT:Healthcare"
+  - "RESRCH:Usability"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "BNFT:Health-care"
   - "BNFT:Disability"
-  - "BNFT:Education"
-  - "DSP:Help users to navigate"
-  - "DSP:Content Presentation"
-  - "DSC:Alert"
-  - "authentication"
-  - "usability-testing"
-  - "moderated-usability-testing"
-  - "navigation-testing"
+  - "MHV:Appointments"
+  - "MHV:Secure-messaging"
+  - "MHV:Vitals"
+  - "DSC:Navigation"
+  - "DSP:Help-users-to-navigate"
   - "HDW:Desktop"
-  - "HDW:Laptop"
-description: "Remote usability testing of authenticated experiences on Preview.va.gov including MyHealtheVet integration (appointments, secure messaging, vitals), DS Logon claim tracking, document uploads, and cross-credential authentication flows. Evaluates single sign-on and unified dashboard functionality."
-
-# Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: false
+  - "VETJNY:Taking-care-of-themselves"
+team: "VA.gov Relaunch Team"
+portfolio: "Digital Experience"
+product:
+  - "VA.gov Relaunch"
+  - "Preview.va.gov"
+  - "MyHealtheVet Integration"
+research_round: "Study 8"
+participant_count: "TBD"
+study_length: "45 minutes"
+date: "2018-11"
 ---
 
 # Conversation Guide Study 8 - Remote Usability Testing Preview.va.gov

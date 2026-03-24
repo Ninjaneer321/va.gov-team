@@ -1,109 +1,111 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Dragons, Benefits Recommendations MVP, September 2018"
+date: 2018-09-03
+last_updated: 2018-09-03
+team: "Dragons"
+product: "Benefits Recommendations MVP"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need a tool that helps them discover and understand what benefits they may be eligible for based on their indicated interests."
+  product_location: "VA.gov authenticated dashboard"
+  user_familiarity: "New product - MVP testing of benefit recommendations dashboard"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Products/Identity/Personalization/Recommendations/MVP%20Product%20Outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate whether the overall flow makes sense and feels intuitive to users"
+  - goal_2: "Assess whether users find the dashboard approach helpful for surfacing content"
+  - goal_3: "Identify which interactions feel intuitive and which feel confusing"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Does the overall flow make sense to both new and existing Vets.gov users?"
+  - "Do users find the dashboard approach helpful/useful for discovering benefits?"
+  - "Which interactions feel intuitive? Which interactions feel confusing?"
+  - "How could we make this product easier to use, more intuitive, and more valuable?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The overall flow will make sense to users"
+  - "Users will be excited by additional personalization in Vets.gov"
+  - "Users will find the dashboard information helpful in guiding them on how to apply for benefits"
+  - "There will be unforeseen areas for improvement that will come to light during user testing"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Testing will validate the MVP approach and identify improvements needed before launch to ensure the tool effectively helps veterans discover benefits."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Diverse veteran recruitment including new and existing users"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans with interest in applying for at least one benefit in the next couple of years"
+    - "Veterans or service members recently offboarded or planning to offboard"
+    - "Veterans need access to a computer (not mobile phone)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 2 veterans who are 35 years old or less"
+    - "At least 1 woman"
+    - "At least 1 person of color"
+    - "Mix of veterans with and without Vets.gov accounts"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you interested in applying for VA benefits in the next couple of years?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 7
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 7
+  completed_sessions_goal: 7
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2018-08-31"
+  pilot_participant: "TBD"
+  research_dates: "2018-09-03 to 2018-09-07"
+  research_review_submission: ""
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Improve veteran benefit discovery through personalization"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Veterans can easily discover benefits based on their interests"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Benefits Recommendations Discovery Research - July 2018"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "authenticated"
+  - "usability-testing"
+  - "MVP"
+  - "benefits"
+  - "personalization"
+  - "dashboard"
 ---
 
 # Research Plan for Benefits Recommendation MVP User Testing

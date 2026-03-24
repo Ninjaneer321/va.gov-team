@@ -1,10 +1,36 @@
 ---
-# Research Plan Metadata
 title: "Research Plan for Search & Discovery, Search Design Concepts, August 2021"
-date: 2021-08-01
-last_updated: 2021-09-03
+type: "Research Plan"
+study_date: "2021-09-10"
+authors:
+  - "Denise Coveyduc"
+  - "Megan Gayle"
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Site Search"
+  - "PRDT: Search Tools"
+  - "RESRCH: Usability Testing"
+  - "RESRCH: Remote"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "DSC: Search"
+  - "DSP: Search Landing Page"
+  - "DSP: Wayfinding"
 team: "Search & Discovery"
-product: "VA.gov Site Search"
+portfolio: "Digital Experience"
+product:
+  - "VA.gov Site Search"
+  - "Search Landing Page"
+  - "Search Tools"
+research_round: "concept testing"
+participant_count: 15
+study_length: "60 minutes"
+date: "2021-09"
+# Research Plan Metadata (legacy)
+legacy_date: 2021-08-01
+last_updated: 2021-09-03
+legacy_team: "Search & Discovery"
+legacy_product: "VA.gov Site Search"
 product_area: "unauthenticated"
 
 # Background Context

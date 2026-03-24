@@ -1,110 +1,118 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Education Data Migration - WEAMS Public Integration into Comparison Tool"
+date: 2025-01-14
+last_updated: 2026-03-23
+team: "Education Data Migration Team"
+product: "GI Bill Comparison Tool - WEAMS Public Integration"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "WEAMS Public contains licenses and certifications, national exams, and program details for institutions that are separate from the Comparison Tool. Need to consolidate this information into the Comparison Tool to allow users to access education benefits information quickly and easily in one location."
+  product_location: "GI Bill Comparison Tool - unauthenticated"
+  user_familiarity: "Migration - Veterans familiar with WEAMS Public, moving information into Comparison Tool"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-data-migration/edm-weams-public-product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
-  
+methodology: "Usability Testing"
+research_format:
+  location: remote
+  moderated: true
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Identify if users can find the content they are seeking"
+  - goal_2: "Validate if users will benefit from the presentation of WEAMS Public in Comparison Tool"
+  - goal_3: "Discover pain points or aspects of the design that need to be altered to improve the user experience"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are the users able to find what they are looking for?"
+  - "Will the users benefit from the updated presentation of the WEAMS Public in CT?"
+  - "What are the current pain points that users are facing?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Participants will easily find the information they are seeking if the presentation is intuitive and well-organized"
+  - "A clear and user-friendly format should enhance participants' comprehension and overall satisfaction with the WEAMS Public functionality within Comparison Tool"
+  - "The updated presentation will improve participants' ability to make informed decisions and participate in the program"
+  - "Participants will share potential gaps or areas for improvement that could better meet their needs and enhance their experience"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Research findings will guide final design changes before launching WEAMS Public information within Comparison Tool"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Standard recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
-    
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "10 who have used WEAMS Public national exam search, licenses and certification search, or looking up programs within institutions"
+    - "3 who have never used WEAMS Public"
+    - "2 users with PTSD"
+    - "8 users join through desktop"
+    - "7 users join through mobile"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
+    - question: "How often do you go online to access VA benefits and services?"
+      qualifying_response: "Any frequency"
+    - question: "Have you looked up a program within an institution in WEAMS Public?"
+      qualifying_response: "Yes for 10 participants"
+    - question: "Have you ever used WEAMS Public?"
+      qualifying_response: "Mix of yes/no"
+    - question: "Are you comfortable joining the session on mobile or desktop?"
+      qualifying_response: "Yes"
+
 participants:
-  veterans: 0
+  veterans: 15
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
+  total_recruited: 15
+  completed_sessions_goal: 10
+
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-02-07"
+  pilot_participant: "Will provide to Perigean"
+  research_dates: "2025-02-10 to 2025-02-12"
+  research_review_submission: "2025-02-01"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
-  
+  max_sessions_per_day: 5
+
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "VA's digital experiences are the easiest way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Consolidate education information into single tool"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
+  - "Putting down roots"
+  - "Reinventing myself"
+
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
-    
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/education-data-migration"
+  staging_environment: "Staging environment testing"
+
+# Team
+moderator: "Sneha Kulkarni"
+notetaker: "Cassidy Beach"
+observers: "Cassidy Beach, Theresa Simeone, Jennifer Drahota"
+
+study: "Education Data Migration - WEAMS Public, January 2025"
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - education
+  - WEAMS-public
+  - comparison-tool
+  - usability-testing
+  - data-migration
+  - licenses-certifications
+  - national-exams
+  - unauthenticated
 ---
+
 
 # Research Plan for [Education Data Migration, WEAMS Public, 1/14/25]
 *Questions about how to set up your research study? Reach out in the #research-ops Slack channel.* 

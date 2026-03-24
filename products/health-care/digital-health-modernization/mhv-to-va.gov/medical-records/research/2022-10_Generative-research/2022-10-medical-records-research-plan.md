@@ -105,17 +105,19 @@ tags:
   - "AUD: Veterans"
   - "AUD: Caregivers"
   - "BNFT: Healthcare"
+  - "PRDT: MHV-on-VA.gov"
   - "PRDT: Medical-records"
+  - "RESRCH: Interviews"
+  - "RESRCH: Card-sort"
+  - "RESRCH: Generative"
+  - "HCE: Health-care"
   - "MHV: Medical Records"
   - "MHV: MyHealth"
-  - "semi-structured-interviews"
-  - "card-sort"
-  - "generative-research"
-  - "terminology"
-  - "findability"
-  - "health-apartment"
-  - "authenticated-experience"
-  - "Blue-Button"
+  - terminology
+  - findability
+  - health-apartment
+  - authenticated-experience
+  - Blue-Button
 ---
 
 # Research Plan for HMI team, Medical Records, October/ November 2022

@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Technical Planning
+title: Content-focused Planning for Disability Claims Status
+services: Claim Appeal Status
+tags: appeals, claims
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/claims-status/track-claim-status/content-planning.md
+---
 # Content-focused Planning for Disability Claims Status
 
 --- --- DRAFT --- ---

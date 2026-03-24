@@ -104,6 +104,15 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/military-information/discovery-and-research/2023-military-info-discovery"
     
 tags:
+  - profile
+  - military-information
+  - stakeholder-interviews
+  - discovery
+  - authenticated-experience
+  - service-history
+  - discharge-documents
+  - authenticated
+  - research-plan
   - "stakeholder-research"
   - "discovery-research"
   - "PRDT: VA.gov Profile"

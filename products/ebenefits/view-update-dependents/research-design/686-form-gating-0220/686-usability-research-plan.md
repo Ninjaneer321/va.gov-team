@@ -1,110 +1,56 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Form 21-686c Add/Remove Dependents Workflows Usability Testing"
+date: 2020-02-01
+last_updated: 2026-03-23
+team: "eBenefits"
+product: "Dependency Claims (Form 21-686c/674)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "VA uses Form 21-686c to collect information for Veterans to add or remove dependents from disability claims. The paper form is 12 pages with eight discrete workflows. When deployed to VA.gov, it will be one of the longer, more complex forms on the site. Need to test if new digital version is clear and succinct to increase accuracy and reduce abandonment."
+  product_location: "VA.gov"
+  user_familiarity: "New product - digitizing paper form"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/ebenefits/issue-briefs/apply-modify-dependents.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
-  
+methodology: "Usability Testing"
+research_format:
+  location: remote
+  moderated: true
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine if the checkbox selection is an acceptable way for users to enter the form"
+  - goal_2: "Decide what support users need to navigate and successfully submit the form"
+  - goal_3: "Confirm the proper chaptering of the various business workflows"
+  - goal_4: "Discover any problems from longer/complicated chapter combinations"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do participants understand the 21-686c is a multi-purpose form with checkbox selection?"
+  - "Are the forms presented clearly and easy to understand?"
+  - "Where do users need examples, guidance or section headers?"
+  - "Where are the pain points in longer workflows (add-spouse/add-child, add-student)?"
 
-hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+# Methodology Details
+research_type: "Evaluative"
+session_format: "Remote moderated usability testing with high-fidelity Adobe XD prototypes"
+timeline: "2020-02-24 to 2020-03-06"
 
-expected_outcomes: "[How will findings advance the product?]"
+# Participants
+participant_count: 10
+recruitment_criteria: "Veterans with dependents (has child 18-23 in school, recently married, recently divorced, or have/had dependents benefits)"
 
-# Recruitment & Participants
-recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
-  
-  primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
-    
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
-participants:
-  veterans: 0
-  caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
-# Timeline & Sessions
-timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
-  
-session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
-  
-# Strategic Alignment
-octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
-      
-veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
-# Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
-tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+# Team
+moderator: "Aricka Lewis"
+notetaker: "Various"
+observers: "James Adams, Steve Kovacs, Jason Wolf, Shawna Hein, Kathleen Crawford, Micah Chiang, Jesse Cohn"
+
+# Tags
+tags: ['research', 'usability-testing', 'ebenefits', 'form-686c', 'form-674', 'dependents', 'add-remove-dependents', 'authenticated', 'wizard', 'research-plan']
 ---
+
 
 # Research Plan for eBenefits Form 21-686c Add/Remove Dependents Workflows, February 2020
 

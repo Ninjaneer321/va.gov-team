@@ -1,109 +1,104 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Servicemember Hub Research"
+date: 2019-01-28
+last_updated: 2026-03-23
+team: "Website Team"
+product: "Servicemember Hub"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Need to understand how and when current Servicemembers seek benefits information from VA, their mental models of available benefits/services, and establish priority of known available benefits to inform Servicemember Hub design."
+  product_location: "VA.gov Servicemember Hub"
+  user_familiarity: "New product - creating servicemember-focused content hub"
+  product_brief_url: "TBD"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
-  
+methodology: "Semi-structured Interviews, Card Sorting"
+research_format:
+  location: remote
+  moderated: true
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand how and when current Servicemembers seek benefits information from VA"
+  - goal_2: "Understand the Servicemembers mental model of the benefits and services available to them"
+  - goal_3: "Establish the priority of known available benefits for Servicemembers"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How and when do current Servicemembers seek benefits information from VA?"
+  - "What are Servicemembers' mental models of benefits and services available to them?"
+  - "What is the priority of known available benefits for Servicemembers?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Servicemembers have specific times and triggers when they seek VA benefits information"
+  - "Mental models will vary based on service status (active duty, reserve, guard) and proximity to separation"
+  - "Benefits priority will differ from Veterans due to different life stage and needs"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will inform organization and content strategy for Servicemember Hub"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Brian Moon"
+  approach: "Targeted recruitment of active servicemembers"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Current active duty, reserve, or national guard service members"
+    - "Recently separated or retired Veterans (within the last 3 months)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
+    - "Representation of service members nearing retirement or separation date"
+
 participants:
-  veterans: 0
+  veterans: 2
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
+  total_recruited: 6
+  completed_sessions_goal: 6
+
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2019-01-25"
+  pilot_participant: "Mikki Northuis"
+  research_dates: "2019-01-28 to 2019-02-01"
+  research_review_submission: "2019-01-18"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
-  
+  max_sessions_per_day: 8
+
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can access benefits online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Create servicemember-focused content hub"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
+  - "Getting out"
+  - "Starting up"
+
 # Research Repository Tracking
 related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
+  previous_studies: []
+  card_sort_tool: "Optimal Workshop"
+
+# Team
+moderator: "Jeff Barnes"
+notetaker: "Mikki Northuis, Danielle Thierry, Amy Cesal"
+observers: "Mikki Northuis, Danielle Thierry, Amy Cesal, Andy Lewandowski"
+
+study: "Servicemember Hub Research, January-February 2019"
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - content
+  - servicemember
+  - card-sort
+  - semi-structured-interviews
+  - benefits-information
+  - transition
+  - unauthenticated
+  - content-strategy
 ---
 
 # Research Plan for Website team, Servicemember Hub, Jan 28-Feb 1

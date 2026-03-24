@@ -1,3 +1,25 @@
+---
+type: conversation_guide
+study_name: Resources & Support Pilot - Community Care Content Migration
+team: VFS-CMS
+product: CMS - Resources and Support
+platform: CMS
+moderator: VFS-CMS team
+date: "2022-03"
+research_method: Semi-structured interviews with editors
+session_type: moderated_remote
+session_duration_minutes: 30
+number_of_participants: 4-6
+tags:
+  - CMS
+  - resources-and-support
+  - content-migration
+  - community-care
+  - drupal
+  - teamsite
+  - editor-experience
+---
+
 # Conversation Guide
 
 Resources & support pilot user interviews

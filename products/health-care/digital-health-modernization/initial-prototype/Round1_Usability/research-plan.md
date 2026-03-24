@@ -1,109 +1,122 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for MHV on VA.gov Usability Round 1, February-March 2022"
+date: 2022-02-01
+last_updated: 2022-02-01
+team: "MHV on VA.gov"
+product: "My HealtheVet"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Create a centralized place for Veterans to access their health information by replatforming MyHealtheVet to VA.gov as part of Digital Health Modernization strategy"
+  product_location: "VA.gov My HealtheVet health apartment"
+  user_familiarity: "New product - proof of concept for MHV on VA.gov"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine if Veterans understand the concept of MHV on VA.gov as their health apartment"
+  - goal_2: "Identify major usability or content issues with the current concept of MHV on VA.gov"
+  - goal_3: "Test desktop/laptop user experience"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Will Veterans understand the concept of the health apartment as shown in this design?"
+  - "How would Veterans expect to get to the health apartment?"
+  - "What would they expect to see in their health apartment if they were logged in? Not logged in?"
+  - "Will Veterans be able to accomplish the main health tasks related to appointments, secure messaging, pharmacy, and medical records?"
+  - "What is the Veteran perception of how the health apartment would fit into how they manage their health at the VA?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will easily understand the idea of a centralized place where they can access their VA medical information"
+  - "Veterans will expect a personalized experience if logged in, such as their specific prescriptions, appointments, or information relevant to their care"
+  - "Veterans will be able to accomplish a variety of health tasks as designed in this prototype"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Results will help determine if proof of concept is headed in the right direction and if there are any big usability concerns to inform later iterations as we move into MVP stage"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean but representative"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "At least six participants that have VA healthcare and regularly use MyHealtheVet"
+    - "Up to six participants that do not use VA healthcare or access their health information via MyHealtheVet"
+    - "Must have access to a laptop or desktop computer to interact with the prototype"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "8 participants over the age of 55 years"
+    - "4 participants from rural locations"
+    - "At least 2 women"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have VA healthcare and regularly use MyHealtheVet?"
+      qualifying_response: "Yes or No"
       
 participants:
-  veterans: 0
+  veterans: 15
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2022-03-09 to 2022-03-16"
+  research_review_submission: "TBD"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 15
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Logged-in users have a personalized experience, with relevant and time-saving features"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results:
-      - "[Specific KR if applicable]"
+      - "TBD"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/health-apartment/research/2021/homepage-guerilla-test-12-2021/2021-12-guerilla-research-report.pdf"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "MHV"
+  - "My-HealtheVet"
+  - "digital-health-modernization"
+  - "prototype"
+  - "usability-testing"
+  - "remote"
+  - "evaluative"
+  - "moderated"
+  - "veterans"
+  - "round-1"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: My-HealtheVet"
 ---
 
 # Research Plan for MHV on VA.gov Usability Round 1

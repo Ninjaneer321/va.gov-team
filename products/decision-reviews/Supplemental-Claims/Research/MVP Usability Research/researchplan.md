@@ -1,109 +1,117 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Benefits-Team-1, Supplemental Claims MVP Usability, September 2022"
+date: 2022-09-01
+last_updated: 2022-09-01
+team: "Benefits-Team-1"
+product: "Supplemental Claims (20-0995) MVP"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans and claimants need to submit new and relevant evidence to correct perceived discrepancies in their benefit awards through the supplemental claim process (VA Form 20-0995). Of the three decision review pathways, supplemental claims are the most widely used with over 32,000 filed monthly."
+  product_location: "VA.gov - Supplemental Claims submission form (20-0995)"
+  user_familiarity: "New digital product - first online version of Supplemental Claim form"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/decision-reviews/Supplemental-Claims"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine if the process of filing a Supplemental Claim is clear and actionable"
+  - goal_2: "Determine if the user can identify or successfully add the issues they need to appeal"
+  - goal_3: "Validate that users can successfully submit new and relevant evidence needed for a favorable decision"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans understand if this is the right form for them?"
+  - "Can Veterans identify or successfully add issues they need to appeal?"
+  - "Can Veterans successfully submit new and relevant evidence?"
+  - "Do Veterans feel confident completing and submitting the form?"
+  - "Are there any confusing or unclear steps in the submission process?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "All Veterans will be able to confidently complete a Supplemental Claim"
+  - "Veterans will understand the decisions they need to make with content presented to them"
+  - "Veterans are more likely to achieve favorable outcome by submitting Supplemental Claim via this digital experience"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Use findings to iterate on anything critical that impedes form completion, add notable enhancements and concerns to backlog, and refine MVP"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who have filed disability claims"
+    - "Mix of mobile and desktop users"
+    - "Representative demographics"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Variation in age, location, tech experience"
+    - "Prior experience with VA appeals process"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you filed a disability claim with VA?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 8
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-09-19"
+  pilot_participant: "Eva Floyd"
+  research_dates: "2022-09-22 to 2022-09-29"
+  research_review_submission: "2022-09-14"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Increase the usage and throughput of VA services"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Enable digital Supplemental Claims submission"
+  - objective: "Decrease the time Veterans spend waiting for an outcome"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Streamline supplemental claim process"
+  - objective: "Increase the quality and reliability of VA services"
+    key_results:
+      - "Reduce errors in supplemental claim submissions"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Serving"
+  - "Getting out"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/decision-reviews/Supplemental-Claims"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "supplemental-claims"
+  - "usability-testing"
+  - "decision-reviews"
+  - "authenticated"
+  - "20-0995"
+  - "benefits"
+  - "appeals"
+  - "MVP"
 ---
 
 # Research Plan for Benefits-Team-1, Supplemental Claims, 09/2022

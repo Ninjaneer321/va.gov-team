@@ -1,29 +1,32 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Authenticated Experience Team, My VA 2.0 Discovery, May 2020"
+author: "Liz Lantz"
+date_created: "2020-05-01"
+last_modified: "2020-05-31"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Authenticated Experience"
+portfolio: "digital-experience"
+product: "My VA"
+research_phase: "discovery"
+research_method: "card_sort"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use VA.gov and receive VA benefits"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "../research-plan.md"
+related_prototype: "https://adhoc.optimalworkshop.com/optimalsort/7o81t7ix"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "authenticated-experience"
+  - "my-va"
+  - "personalization"
+  - "card-sort"
+  - "discovery"
+description: "Discovery research using Mural boards and card sorting to understand Veteran priorities for a personalized My VA dashboard."
 
 # NEW: Compliance flags
 recording_required: true

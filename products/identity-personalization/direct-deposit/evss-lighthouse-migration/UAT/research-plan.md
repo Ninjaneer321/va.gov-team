@@ -1,109 +1,125 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience, Direct Deposit EVSS to Lighthouse Migration UAT, July 2023"
+date: 2023-07-25
+last_updated: 2023-07-25
+team: "Authenticated Experience"
+product: "Direct Deposit"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "EVSS is being retired in favor of Lighthouse platform - VA.gov profile needs to migrate direct deposit integration to prevent service disruptions."
+  product_location: "VA.gov profile - direct deposit section"
+  user_familiarity: "Backend migration - no UI changes expected"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/direct-deposit/evss-lighthouse-migration#readme"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "UAT"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Confirm Direct Deposit section functions as intended for ID.me and Login.gov users"
+  - goal_2: "Validate that users can edit and save bank information for comp & pen payments"
+  - goal_3: "Ensure confirmation emails are sent when direct deposit info is updated"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are eligible users able to successfully view and save their bank information?"
+  - "When users update their direct deposit information, do they receive a confirmation email?"
+  - "Are users able to open the edit modal, click cancel, and see previously-saved info still saved?"
+  - "Are users prevented from submitting the form with errors or a bogus routing number?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Direct Deposit will function as expected after migration to Lighthouse"
+  - "All four research questions will be answered affirmatively"
+  - "Users will not notice any difference in functionality"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Based on UAT results, either release to production or make updates to correct bugs or usability issues identified during testing."
+
+tags:
+  - authenticated-experience
+  - profile
+  - direct-deposit
+  - financial-information
+  - payments
+  - lighthouse-migration
+  - EVSS
+  - uat
+  - user-acceptance-testing
+  - API-migration
+  - authenticated
+  - research-plan
+  - "backend-migration"
+  - "uat"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "LOA3 users with direct deposit for comp & pen"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must be able to screenshare via Zoom"
+    - "Must have a disability rating (receives disability compensation via direct deposit)"
+    - "Must have identity-verified account on VA.gov"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "3 must be able to login with verified ID.me"
+    - "2 must be able to login with verified Login.gov"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you currently get disability compensation payments from the VA via direct deposit?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 7
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 7
+  completed_sessions_goal: 5
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-07-31"
+  pilot_participant: "TBD"
+  research_dates: "2023-08-02 to 2023-08-04"
+  research_review_submission: ""
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 30
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Limit service disruptions for Veterans receiving comp & pen direct deposits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Successful migration from EVSS to Lighthouse with no user impact"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Direct Deposit previous UAT and usability studies"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "authenticated"
+  - "UAT"
+  - "direct-deposit"
+  - "profile"
+  - "migration"
 ---
 
 # Research Plan: Direct deposit for compensation & pension EVSS > Lighthouse migration UAT, July 2023

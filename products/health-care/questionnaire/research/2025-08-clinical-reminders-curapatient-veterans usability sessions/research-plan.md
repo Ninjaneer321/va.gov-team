@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for Clinical Reminder Pilot: CuraPatient Prototype Usability Sessions with Veterans, August 2025"
-date: 2025-07-28
+date: 2025-08-01
 last_updated: 2025-07-28
 team: "Healthcare Questionnaires Team"
 product: "Clinical Reminders - CuraPatient Platform"
@@ -121,22 +121,14 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/questionnaire/research/2025-07-clinical-reminders-notable-veterans%20usability%20sessions"
     
 tags:
-  - "AUD: Veterans"
-  - "BNFT: Healthcare"
-  - "PRDT: Clinical reminders"
-  - "PRDT: Health questionnaires"
-  - "HDW: Desktop"
-  - "HDW: Smartphone"
-  - "HDW: Tablet"
-  - "usability-testing"
-  - "semi-structured-interviews"
-  - "moderated"
-  - "remote"
-  - "authenticated"
-  - "CuraPatient"
-  - "COTS-evaluation"
-  - "clinical-decision-support"
-  - "preventive-care"
+  - HCE
+  - UAT
+  - caregivers
+  - mobile
+  - questionnaires
+  - usability-testing
+study: Clinical Reminder Pilot: CuraPatient Prototype Usability Sessions with Veterans
+type: UAT
 ---
 
 # Research Plan for Clinical Reminder pilot: CuraPatient Prototype Usability Sessions with Veterans, August 2025

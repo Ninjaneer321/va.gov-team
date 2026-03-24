@@ -1,109 +1,111 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Dragons, Benefits Recommendations Discovery, July 2018"
+date: 2018-07-02
+last_updated: 2018-07-02
+team: "Dragons"
+product: "Benefits Recommendations"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans find VA's benefit system hard to navigate because it can be unclear what benefits are offered and what they are eligible for."
+  product_location: "VA.gov authenticated experience"
+  user_familiarity: "New product - MVP for benefit recommendations tool"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Products/Identity/Personalization/Recommendations/MVP%20Product%20Outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews, usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand how people discover benefits in real life and how to improve on this"
+  - goal_2: "Understand what veterans need to understand and trust benefit recommendations"
+  - goal_3: "Identify what actions veterans want to take after learning they are eligible for benefits"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What are the most effective ways to surface benefits?"
+  - "When is the best time to surface benefit recommendations?"
+  - "What information do veterans need to understand and trust recommendations?"
+  - "How do veterans want to know why they may be eligible?"
+  - "What next steps do veterans want after receiving a recommendation?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "To effectively surface benefits, we will need to reach out to veterans beyond Vets.gov (eg. send an email)"
+  - "People will want to apply for a benefit some time after we recommend it to them"
+  - "People will want to know why they may be eligible and how we know this"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Insights will inform the design and implementation of the benefits recommendations MVP, improving veterans' ability to discover and understand their benefit eligibility."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "VA resources"
+  approach: "Targeted recruitment for veterans with benefit experience"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who have applied for at least one benefit before"
+    - "OR Veterans who plan to apply for benefits in the future"
+    - "OR Veterans who have benefits and plan to apply for more"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Veterans ranging in age"
+    - "Veterans of different genders"
+    - "Veterans who use Vets.gov, eBenefits, or MHV"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you applied for VA benefits or plan to apply for VA benefits?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 5
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 5
+  completed_sessions_goal: 5
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2018-07-02"
+  pilot_participant: "TBD"
+  research_dates: "2018-07-09 to 2018-07-20"
+  research_review_submission: ""
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Improve veteran benefit discovery and eligibility understanding"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Veterans can easily discover what benefits they may be eligible for"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Internal research synthesis on benefit discovery"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "authenticated"
+  - "interviews"
+  - "usability-testing"
+  - "discovery"
+  - "benefits"
+  - "personalization"
 ---
 
 # Research Plan for Benefits Recommendations Discovery (July 2018)

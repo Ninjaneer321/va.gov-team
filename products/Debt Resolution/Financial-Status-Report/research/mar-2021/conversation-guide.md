@@ -1,34 +1,34 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: "Conversation Guide for Debt Resolution Team, FSR MVP Usability Testing, March 2021"
+type: "Conversation Guide"
+study_date: "2021-03-01"
+authors:
+  - "Debt Resolution Team (debt-resolution-team@va.gov)"
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+  - "AUD:Veterans"
+  - "PRDT:Debt-portal"
+  - "PRDT:FSR"
+  - "PRDT:Form-5655"
+  - "RESRCH:Usability"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "BNFT:Disability"
+  - "BNFT:Education"
+  - "DSC:Form"
+  - "DSP:Debt-management"
+  - "DSP:Wayfinding"
+  - "HDW:Desktop"
+  - "VETJNY:Taking-care-of-themselves"
+team: "Debt Resolution Team"
+portfolio: "Benefits"
+product:
+  - "Debt Portal"
+  - "Financial Status Report"
+  - "VA Form 5655"
+research_round: "MVP Usability"
+participant_count: 5
+study_length: "60 minutes"
+date: "2021-03"
 ---
 
 # FSR MVP Usability Conversation Guide

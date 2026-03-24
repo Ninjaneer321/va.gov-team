@@ -1,109 +1,118 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience Design Patterns, Prefill Pattern, August 2024"
+date: 2024-08-19
+last_updated: 2024-08-19
+team: "Authenticated Experience Design Patterns (AEDP)"
+product: "Prefill Pattern"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "A variety of digital products within the authenticated VA.gov experience prefill existing profile information to save Veterans' time and energy, but implementations vary. The team needs to review current VADS design patterns to improve guidance around implementation for consistency and ease of use across different use cases on VA.gov."
+  product_location: "Forms and digital products across authenticated VA.gov experience"
+  user_familiarity: "Pattern review and refinement for existing implementations"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/authenticated-patterns/patterns/prefill/README.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing with scenario-based concept tests"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
   moderated: true # Options: true, false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand where and when users need the prefill alert to appear"
+  - goal_2: "Understand how users expect the prefilled data to display"
+  - goal_3: "Understand users' expectations around why certain data can be edited within their profile and other data cannot"
+  - goal_4: "Understand how users expect the edit process to work, where they expect their edits to get saved, and if they want to be asked where to save their data"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Does the prefill alert in the unauthenticated experience entice them to sign in to complete the form?"
+  - "Where do they expect the prefill alert message to be located once they are authenticated?"
+  - "In what variation do they notice the prefill alert? Top of page? On the step pages?"
+  - "Which version of the data display (address block vs gray card component) helps users to more quickly understand that it contains prefilled data?"
+  - "How do they feel about the ability to edit some data but not others?"
+  - "Does the user understand why some data is not editable?"
+  - "Where do they think the new information gets saved? (profile vs form)"
+  - "Would they ever want to choose where this information gets saved?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The prefill alert on the front page will entice the user to login for a more convenient experience"
+  - "Bolding 'note' in the prefill alert messaging will help users see a block of text quicker"
+  - "Users will more easily notice the intro prefill alert when it's at the top of the page"
+  - "We will learn that the user only needs the prefill alert on the intro page"
+  - "The users will prefer the address component over the gray box for the locked data"
+  - "Users understand why we limit in screen edits for some types of data and find the messaging around this reason to be sufficient"
+  - "As long as the data is going back to their profile, they will not want to be asked if it is ok to update their profile"
+  - "Users will prefer to see in field data instead of the locked gray box displaying their current data while they are editing"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Research will inform decisions around two patterns the team is refining: Help users to know when their information is prefilled and Help users to update prefilled information. This will help refine these patterns and feel confident in recommendations when submitting them to VADS and USWDS."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum strategy for inclusivity, targeting 3 demographic criteria (age, gender, race) as primary sample distribution criteria"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants must be willing to join from their mobile devices for the study"
+    - "At least 5 Veterans who are over 55 years old"
+    - "At least 4 Veterans who identify as having a cognitive disability"
+    - "At least 3 Veterans who identify as a gender other than male"
+    - "At least 2 Veterans who are under 35 years old"
+    - "At least 1 Veteran who lives in a rural area"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Demographic diversity across race and ethnicity"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you able to join the Zoom session from a smartphone such as a Samsung Galaxy or iPhone?"
+      qualifying_response: "Yes"
+    - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
+      qualifying_response: "Yes qualifies for cognitive disability criterion"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-08-23"
+  pilot_participant: "Alexandria Parker"
+  research_dates: "2024-09-03 to 2024-09-10"
+  research_review_submission: "TBD"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "OCTO Objective 3: Our people are empowered with the knowledge and resources they need to make a sustained impact"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improved design pattern guidance for prefill implementations across VA.gov"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Full life cycle of the Veteran - pattern applicable across all phases"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Pattern research across VA.gov forms implementing prefill"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "authenticated-patterns"
+  - "usability-testing"
+  - "prefill"
+  - "design-patterns"
 ---
 
 # Research Plan for AEDP Prefill Study, August 19, 2024

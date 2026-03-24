@@ -5,7 +5,7 @@ team: "VA Online Scheduling Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
 date: "2021-11"
 researchers:
-  - "Not specified"
+  - "Peter Russo"
 research_goals:
   - "Understand if Veterans comprehend the transition from self-scheduled appointments to requests during the scheduling flow"
   - "Evaluate alternative options to making a request and determine if they help Veterans make choices about how to schedule their appointment that better fit their needs"
@@ -98,6 +98,8 @@ recommendations:
   - "Review content and UI of the review and submit page. Consider condensing the data on desktop views to increase the likelihood that the submit button will be within the viewport"
 kpi_alignment: []
 outcomes:
+  user: "Veterans better understand appointment request process and have clearer expectations for scheduler callback"
+  business: "Improved request flow design, validated scheduling preferences, reduced frustration with request process"
   user: "Increase Veteran satisfaction with VA.gov"
   business: "Decrease call center volume, wait time, time to resolution; Decrease time to successfully complete and submit online transactions"
 opportunity_areas:
@@ -118,6 +120,15 @@ tags:
   - "AUD: Veterans"
   - "AUD: Family Member"
   - "BNFT: Healthcare"
+  - "PRDT: VA-online-scheduling"
+  - "MHV: Appointments"
+  - "usability-testing"
+  - "remote-moderated"
+  - "prototype-testing"
+  - "VAOS"
+  - "appointments"
+  - "requests"
+  - "scheduling"
   - "MHV: Appointments"
   - "DSC: Button"
   - "DSC: Alert Boxes"

@@ -111,21 +111,27 @@ related_research:
     - "Refilling multiple prescriptions prototype testing"
     
 tags:
+  - "health-care"
   - "MHV"
-  - "My HealtheVet"
+  - "My-HealtheVet"
+  - "migration"
   - "medications"
   - "prescriptions"
-  - "health-care"
-  - "digital-health-modernization"
-  - "findability"
-  - "moderated-interviews"
+  - "pharmacy"
+  - "findability-study"
+  - "tree-test"
+  - "unmoderated"
+  - "remote"
+  - "evaluative"
+  - "IA"
+  - "information-architecture"
   - "veterans"
-  - "cognitive-disability"
-  - "accessibility"
-  - "authenticated-experience"
-  - "VAHB-mobile"
-  - "remote-research"
-  - "discovery"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: My-HealtheVet"
+  - "PRDT: Medications"
+study: MHV on VA.gov, Medications Findability Study
+type: UAT
 ---
 
 # **Research Plan for MHV on VA.gov, Medications Findability Study, February 2024**

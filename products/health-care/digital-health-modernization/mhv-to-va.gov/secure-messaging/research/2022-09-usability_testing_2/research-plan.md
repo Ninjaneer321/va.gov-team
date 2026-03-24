@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for HMI Team, Secure Messaging, October/November 2022"
-date: 2022-10-17
+date: 2022-09-01
 last_updated: 2022-10-17
 team: "Health Modernization Integration (HMI)"
 product: "Secure Messaging on MHV on VA.gov"
@@ -116,20 +116,15 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/SecureMessaging_Round1_Usability"
     
 tags:
-  - "AUD: Veterans"
-  - "BNFT: Healthcare"
-  - "PRDT: Secure-messaging"
-  - "MHV: Secure Messaging"
-  - "MHV: MyHealth"
-  - "usability-testing"
-  - "authenticated-experience"
-  - "mobile"
-  - "desktop"
-  - "accessibility"
-  - "cognitive-disability"
-  - "patient-safety"
-  - "health-tools"
-  - "digital-health-modernization"
+  - HCE
+  - MHV-to-VA.gov
+  - accessibility
+  - caregivers
+  - mobile
+  - secure-messaging
+  - usability-testing
+study: HMI Team, Secure Messaging
+type: Usability
 ---
 
 # Research Plan for HMI team, Secure Messaging, October/November 2022

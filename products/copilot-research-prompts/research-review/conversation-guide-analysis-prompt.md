@@ -1,34 +1,38 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Reusable Prompt: Copilot Research Guide Analysis"
+author: "VA Research Operations"
+date_created: "2024-12-01"
+last_modified: "2024-12-19"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Platform Research"
+portfolio: "digital-experience"
+product: "Research Operations - Copilot Prompts"
+research_phase: "template"
+research_method: "documentation"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "N/A - Reusable prompt template"
+session_type: "N/A"
+participant_criteria: "N/A - This is a prompt template"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A - This is a reusable prompt template"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "template"
+  - "copilot"
+  - "research-operations"
+  - "conversation-guide-analysis"
+  - "research-plan-alignment"
+  - "documentation"
+description: "Reusable prompt template for analyzing conversation guides against research plans using GitHub Copilot, ensuring alignment with research objectives."
 
-# NEW: Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+# Compliance flags
+recording_required: false
+observer_support: false
+consent_for_clips: false
 ---
 
 # Reusable Prompt for Analyzing a Conversation Guide Against a Research Plan

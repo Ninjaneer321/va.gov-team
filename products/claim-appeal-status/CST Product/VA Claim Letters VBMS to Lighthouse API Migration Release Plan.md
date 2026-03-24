@@ -1,3 +1,13 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Phased rollout
+date: 28-8/01
+services: Claim Appeal Status
+tags: appeals, claims, testing
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/CST Product/VA Claim Letters VBMS to Lighthouse API Migration Release Plan.md
+---
 # Phased rollout
 
 ## Helpful Links

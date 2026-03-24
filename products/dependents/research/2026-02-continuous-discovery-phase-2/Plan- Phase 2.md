@@ -1,3 +1,74 @@
+---
+# Research Plan Metadata
+title: "Research Plan for dependents, dependents, 2026-03-23"
+date: 2026-03-23
+last_updated: 2026-03-23
+team: "dependents"
+product: "dependents"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Continuous discovery for dependents management features - Phase 2"
+  product_location: "VA.gov Dependents"
+  user_familiarity: "Existing product iteration"
+  product_brief_url: "TBD - Add product brief URL if available"
+
+# Research Design
+methodology: "Continuous discovery"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand dependent management user needs"
+  - goal_2: "Validate feature requirements for Phase 2"
+
+research_questions:
+  - "What are Veterans' needs for managing dependents?"
+
+hypotheses:
+  - "TBD - Extract from research plan if available"
+
+expected_outcomes: "TBD - How will findings advance the product?"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "TBD"
+  
+participants:
+  veterans: 0
+  caregivers: 0
+  dependents: 0
+  total_recruited: 0
+  completed_sessions_goal: 0
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  research_dates: "TBD"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 0
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "TBD"
+
+veteran_journey_phases:
+  - "TBD"
+    
+# Research Repository Tracking
+tags:
+  - dependents
+  - continuous-discovery
+  - phase-2
+---
+
 # Plan for the Next Iteration of Continuous Discovery
 Continuous Discovery makes the process of gathering Veteran feedback more frequent and lightweight so that Veteran voices are more present in design and product decisions. 
 

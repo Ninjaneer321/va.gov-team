@@ -80,8 +80,8 @@ recommendations:
   - "Continue testing on production with Veterans"
 kpi_alignment: []
 outcomes:
-  user: "Not specified in findings report"
-  business: "Not specified in findings report"
+  user: "Veterans can better navigate and manage appointments with improved clarity and accessibility for screen reader users"
+  business: "Validated appointment list redesign for accessibility, identified critical data quality and navigation issues"
 opportunity_areas:
   - "Beginner screen reader users need better support navigating appointments"
   - "Login experience creates significant barriers for assistive technology users"
@@ -107,7 +107,7 @@ synthesis_tools_used:
 tags:
   - "AUD: Veterans"
   - "BNFT: Healthcare"
-  - "PRDT: VAOS"
+  - "PRDT: VA-online-scheduling"
   - "MHV: Appointments"
   - "PRDT: Login"
   - "PRDT: My VA"
@@ -118,6 +118,10 @@ tags:
   - "HDW: Desktop"
   - "HDW: Laptop"
   - "HDW: Smartphone"
+  - "VAOS"
+  - "screen-reader"
+  - "assistive-technology"
+  - "appointment-list"
   - "screen-reader"
   - "evaluative"
 ---

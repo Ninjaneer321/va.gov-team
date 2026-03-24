@@ -1,9 +1,9 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for UAE Team, OH Direct Appointments Scheduling and Requesting in VAHB App, TBD"
-date: 2025-01-01
+title: "UAE Team OH Direct Appointments Scheduling and Requesting in VAHB App"
+date: 2025-05-01
 last_updated: 2025-01-01
-team: "UAE Team (United Arab Emirates)"
+team: "UAE Team (Unified Appointment Experience)"
 product: "VA Health and Benefits (VAHB) Mobile App - Oracle Health Scheduling"
 product_area: "authenticated"
 
@@ -15,7 +15,7 @@ background:
   product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/vaos-product-outline.md"
 
 # Research Design
-methodology: "Semi-structured interviews and usability testing with prototype"
+methodology: "Semi-structured Interviews, Usability Testing"
 research_format: 
   location: remote
   moderated: true
@@ -116,17 +116,23 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/vaos-product-outline.md"
   conversation_guide: "TBD"
   prototype: "TBD"
-    
+
+# Team
+moderator: "Jenny Wang"
+notetaker: "TBD or Perigean"
+observers: "TBD"
+
+study: "UAE Team, OH Direct Appointments Scheduling and Requesting in VAHB App, TBD"
 tags:
-  - "health-care"
-  - "appointments"
-  - "mobile"
-  - "vahb-app"
-  - "oracle-health"
-  - "usability-testing"
-  - "semi-structured-interviews"
-  - "veterans"
-  - "authenticated"
+  - HCE
+  - VAOS
+  - appointments
+  - mobile
+  - usability-testing
+  - Oracle-Health
+  - direct-scheduling
+  - VAHB-app
+  - authenticated
 ---
 
 

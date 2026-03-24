@@ -1,47 +1,25 @@
 ---
-title: "Conversation Guide for Mobile Feature Support, Debt Portal (UAT Overpayments), 2026-02-20"
-author: "Emily DeWan"
-date_created: "2026-01-26"
-last_modified: "2026-02-20"
-
-# NEW: Core research metadata
-team: "Mobile Feature Support"
-portfolio: "digital-experience"
-product: "VA mobile app — Overpayments (Combined VA Debt Portal)"
-research_phase: "validation"
-research_method: "user_acceptance_test"
-
-# NEW: Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans with a current benefit overpayment debt visible on VA.gov who are willing to log in with real ID.me/Login.gov credentials (2FA available) and can join a Zoom session on a smartphone (iOS or Android); priority for participants willing to share their screen."
-
-# NEW: Related documents
-related_research_plan: "products/combined_va_debt_portal/mobile/uat-overpayment/research-plan.md"
-related_prototype: "N/A (pre-release/beta build distributed via TestFlight (iOS) / Firebase App Distribution (Android))"
-
+title: Conversation Guide for Debt Resolution, VA Debt Portal - Mobile, 2024 01
+author: Denise Coveyduc
+date_created: '2024-01-01'
+last_modified: '2024-01-01'
+team: Debt Resolution
+portfolio: benefits
+product: VA Debt Portal - Mobile
+research_phase: validation
+research_method: uat
+session_duration: 30 minutes
+session_type: remote_moderated
+participant_criteria: Veterans with overpayment debt, mobile device users
+related_research_plan: products/combined_va_debt_portal/mobile/uat-overpayment/research-plan.md
+related_prototype: N/A
 tags:
-  # Research plan alignment tags (conceptual)
-  - "AUD: Veterans"
-  - "PRDT: Debt-portal"
-  - "BNFT: Finances"
-  - "HDW: Smartphone"
-  - "uat"
-  - "moderated"
-  - "remote"
-  - "authenticated"
-  - "mobile"
-
-  # Patterns/components inferred from the UAT success criteria (navigation, actions, cross-channel)
-  - "DSP: Content Presentation"
-  - "DSP: Help users to sign in"
-  - "DSC: Button"
-  - "DSC: Links"
-  - "DSC: Alert Boxes"
-  - "DSC: Card"
-  - "DSC: Modal"
-
-description: "A remote moderated UAT conversation guide for validating the VA mobile app’s Overpayments experience in the Debt Portal using real user data, including installation of a pre-release build, sign-in, navigation across key screens (home/payments/list/detail), and initiation of resolution actions that may transition to web."
+- debt-portal
+- mobile
+- UAT
+- overpayment
+- validation
+description: User acceptance testing for overpayment debt on mobile VA Debt Portal.
 recording_required: true
 observer_support: true
 consent_for_clips: true

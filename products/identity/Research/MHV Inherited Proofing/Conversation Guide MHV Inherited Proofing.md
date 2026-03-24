@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for identity, identity, 2026-03-23"
+author: VA Team
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "identity"
+portfolio: "Identity"
+product: "identity"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "MHV users transitioning to VA.gov"
+
+# Related documents
+related_research_plan: "MHV Inherited Proofing Research Plan"
+related_prototype: "N/A"
+
+tags:
+  - identity
+  - MHV
+  - inherited-proofing
+  - identity-verification
+  - conversation-guide
+description: "Conversation guide for MHV inherited proofing research"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide MHV Inherited Proofing
 
 ## Moderator logistics

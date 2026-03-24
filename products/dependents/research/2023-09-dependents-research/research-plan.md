@@ -70,7 +70,7 @@ participants:
 # Timeline & Sessions
 timeline:
   pilot_date: "2023-10-16"
-  pilot_participant: "Coforma team member (TBD)"
+  pilot_participant: "Coforma team member"
   research_dates: "2023-10-30 to 2023-11-09"
   research_review_submission: "2023-10-06"
   

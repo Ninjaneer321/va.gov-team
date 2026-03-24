@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for My Health IA Tree Test, January 2023"
-date: 2023-01-09
+date: 2023-01-01
 last_updated: 2023-01-09
 team: "Digital Health Modernization"
 product: "My HealtheVet on VA.gov"
@@ -106,14 +106,12 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/overall-content-IA"
     
 tags:
-  - "MHV"
-  - "health-care"
-  - "information-architecture"
-  - "tree-test"
-  - "unmoderated"
-  - "authenticated"
-  - "veterans"
-  - "findability"
+  - UAT
+  - accessibility
+  - caregivers
+  - mobile
+study: My Health IA Tree Test
+type: UAT
 ---
 
 # Research Plan for My health IA, January 2023

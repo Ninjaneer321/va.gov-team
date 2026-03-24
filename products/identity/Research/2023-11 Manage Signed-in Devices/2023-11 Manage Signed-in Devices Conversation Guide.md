@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for identity, identity, 2026-03-23"
+author: VA Team
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "identity"
+portfolio: "Identity"
+product: "identity"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use multiple devices"
+
+# Related documents
+related_research_plan: "Manage Signed-in Devices Research Plan November 2023"
+related_prototype: "N/A"
+
+tags:
+  - identity
+  - signed-in-devices
+  - device-management
+  - usability-testing
+  - conversation-guide
+description: "Conversation guide for manage signed-in devices research"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide for Manage Signed-in Devices
 
 ## Moderator logistics

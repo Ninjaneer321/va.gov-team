@@ -1,6 +1,6 @@
 ---
 title: "Conversation Guide for Medical Records Informational Interviews, September 2022"
-author: "[TBD - not specified in document]"
+author: MHV on VA.gov Team
 date_created: "2022-09-01"
 last_modified: "2024-12-19"
 
@@ -17,7 +17,7 @@ session_type: "remote_moderated"
 participant_criteria: "VA staff including engineering/technical teams, UX teams, mobile teams, medical records leadership, appointments teams, pharmacy/vaccination teams, and privacy/legal teams"
 
 # Related documents
-related_research_plan: "[TBD - not specified in document]"
+related_research_plan: "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2022-09-informational-interviews/research-plan.md"
 related_prototype: "https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1660067365161/f540e223f49ec58a79119cd454e42b4fa963cd60"
 
 tags:

@@ -1,3 +1,40 @@
+---
+title: "Conversation Guide for ask-va, ask-va, 2026-03-23"
+author: Ask VA Team
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "ask-va"
+portfolio: "Contact Centers"
+product: "ask-va"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "School Certifying Officials (SCOs)"
+
+# Related documents
+related_research_plan: "Research plan - Form and Inbox Usability"
+related_prototype: "N/A"
+
+tags:
+  - ask-va
+  - form
+  - inbox
+  - SCO
+  - usability-testing
+  - conversation-guide
+description: "Conversation guide for Ask VA form and inbox testing with SCOs"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # SCO Conversation Guide for Form and Inbox Usability Study
 
 ## Moderator logistics 📋✅

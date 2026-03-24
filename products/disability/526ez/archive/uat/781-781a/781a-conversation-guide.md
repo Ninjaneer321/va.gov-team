@@ -1,36 +1,35 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: Conversation Guide for Benefits Disability Experience, 526EZ Disability Compensation
+  - Form 0781a, 2019 01
+author: Christian Valla
+date_created: "2018-12-01"
+last_modified: "2018-12-01"
+team: Benefits Disability Experience
+portfolio: benefits
+product: 526EZ Disability Compensation - Form 0781a
+research_phase: validation
+research_method: uat
+session_duration: 30 minutes
+session_type: remote_moderated
+participant_criteria: Veterans with PTSD from personal assault filing disability compensation
+  claims
+related_research_plan: products/disability/526ez/archive/uat/781-781a/research-plan.md
+related_prototype: N/A
+date: "2018-12"
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+- 0781a
+- 526ez
+- PTSD
+- UAT
+- disability
+- disability-compensation
+- personal-assault
+description: User acceptance testing for Form 0781a PTSD Personal Assault in 526EZ
+  application.
 recording_required: true
 observer_support: true
 consent_for_clips: true
 ---
-
 # Conversation Guide: User Acceptance Testing
 ## MVP Form 781A
 ### December 2018

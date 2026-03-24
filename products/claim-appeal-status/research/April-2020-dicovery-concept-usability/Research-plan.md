@@ -1,109 +1,90 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Claim Status Tool Research Plan - Discovery, Concept, Usability, April 2020"
+date: 2020-04-01
+last_updated: 2020-04-30
+team: "VSA Benefits and Memorials 1"
+product: "Claim Status Tool"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The Claim Status Tool was launched 3 years ago with only minor changes since. Used frequently by millions of veterans, it needs improvement. Very little research has been done on this highly-trafficked tool."
+  product_location: "VA.gov - Claim Status Tool"
+  user_familiarity: "Iteration of existing tool - major redesign"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/claim-appeal-status"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Multi-phase: Previous research review, comparative analysis, quantitative analysis, usability testing, collaborative design, concept testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Learn from existing research and recommendations"
+  - goal_2: "Understand what can be learned from other companies about claim/status tracking tools"
+  - goal_3: "Understand current use cases, pain points and what's working well"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What research and recommendations already exist?"
+  - "What can be learned from other companies about tracking tools?"
+  - "What expectations do users have towards tracking tools in general?"
+  - "What are the current use cases and pain points?"
+  - "How can the current tool be improved?"
+  - "What would users like to accomplish that they can't accomplish now?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans check claim status frequently and have high expectations for tracking"
+  - "The current tool has usability limitations that frustrate users"
+  - "Veterans want better transparency into claim progress and next steps"
+  - "Improvements can reduce call center volume"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Create a better Claim Status Tool with improved user experience and potentially broadened scope"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who have submitted at least one VA claim"
+    - "Experience using the Claim Status Tool"
     
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-04-15"
+  research_dates: "2020-04-16 to 2020-04-30"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can manage their health services online"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Managing primary care and chronic health issues"
     
 # Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "claim-status"
+  - "benefits"
+  - "discovery"
+  - "concept-testing"
+  - "usability-testing"
+  - "authenticated"
 ---
 
 # Claim Status Tool: Research plan

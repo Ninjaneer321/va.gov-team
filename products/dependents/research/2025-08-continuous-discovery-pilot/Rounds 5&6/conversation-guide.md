@@ -1,38 +1,36 @@
 ---
-title: "Conversation Guide for Dependents Management Team, Student Dependent Design Testing, August 2025"
-author: "Megan Graham"
-date_created: "2025-08-14"
-last_modified: "2025-08-14"
-
-# NEW: Core research metadata
-team: "Dependents Management Team"
-portfolio: "benefits"
-product: "Dependents Management Tools"
-research_phase: "usability"
-research_method: "moderated_interview"
-
-# NEW: Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans with dependent students aged 18-23 on disability benefits"
-
-# NEW: Related documents
-related_research_plan: "products/dependents/research/2025-08-continuous-discovery-pilot/Round 1/research-plan.md"
-related_prototype: "N/A"
-
+title: "Conversation Guide for Dependents Management Team, Student Dependent Design Testing Rounds 5-6, August 2025"
+type: "Conversation Guide"
+study_date: "2025-08-01"
+authors:
+  - "Megan Graham"
+  - "Ajia Wallace"
 tags:
-  - "AUD: Veterans"
-  - "BNFT: Disability"
-  - "PRDT: Dependents"
-  - "PRDT: form-21-674"
-  - "usability-testing"
-  - "design-testing"
-description: "Rounds 5 & 6 of continuous discovery pilot comparing current and future designs for adding dependent students (18-23) to disability benefits."
-
-# NEW: Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+  - "AUD:Veterans"
+  - "PRDT:686c"
+  - "PRDT:Dependents"
+  - "RESRCH:Usability"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "RESRCH:Semi-structured-interviews"
+  - "RESRCH:Design-testing"
+  - "BNFT:Disability-compensation"
+  - "DSC:Student-dependents"
+  - "DSC:Dependent-management"
+  - "DSP:Form-design"
+  - "VETJNY:Managing-benefits"
+team: "Dependents Management Team"
+portfolio: "Benefits"
+product:
+  - "686c Dependents Application"
+  - "Dependents Management"
+  - "Student Dependent Reporting"
+research_round: "Continuous Discovery Pilot Rounds 5-6"
+participant_count: 8
+study_length: "60 minutes"
+date: "2025-08"
+related_research_plan: "products/dependents/research/2025-08-continuous-discovery-pilot/research-plan.md"
+description: "Rounds 5 and 6 of continuous discovery pilot testing design variations for adding student dependents (ages 18-23) to disability compensation benefits, comparing current and future form designs."
 ---
 # Conversation Guide for [initiative]
 

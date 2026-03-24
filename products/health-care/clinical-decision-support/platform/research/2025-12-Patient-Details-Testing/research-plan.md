@@ -132,17 +132,19 @@ study_materials:
   prototype_oh: "https://www.figma.com/proto/YhERBZMWoqvwRgDUo6OgCx/User-Testing-Prototypes?page-id=2196%3A2&node-id=3004-21735"
     
 tags:
-  - "CDS-Console"
+  - "health-care"
+  - "clinical-decision-support"
+  - "CDS"
+  - "platform"
   - "patient-details"
   - "usability-testing"
-  - "clinician-facing"
-  - "Oracle-Health"
-  - "Vista-CPRS"
-  - "app-widgets"
-  - "platform-integration"
-  - "task-manager"
-  - "my-workweek"
-  - "medical-calculators"
+  - "remote"
+  - "evaluative"
+  - "moderated"
+  - "clinicians"
+  - "staff-facing"
+  - "AUD: VA Staff"
+  - "BNFT: Healthcare"
   
 team_roles:
   moderator: "Liz Blasi"

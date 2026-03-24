@@ -1,10 +1,36 @@
 ---
-# Research Plan Metadata
 title: "Research Plan for VSP Contact Center, Ask VA (AVA), April 2021"
-date: 2021-04-14
-last_updated: 2026-02-10
+type: "Research Plan"
+study_date: "2021-04-14"
+authors:
+  - "Ian McCullough"
+  - "Ervin Peterson"
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Ask VA"
+  - "PRDT: IRIS"
+  - "PRDT: Contact Center"
+  - "RESRCH: Usability Testing"
+  - "RESRCH: Remote"
+  - "HDW: Desktop"
+  - "HDW: Mobile"
+  - "DSC: Form"
+  - "DSP: Contact Us"
+  - "Inquiry Submission"
 team: "VSP Contact Center"
-product: "Ask VA (AVA)"
+portfolio: "Platform"
+product:
+  - "Ask VA (AVA)"
+  - "IRIS"
+research_round: "pre-launch usability testing"
+participant_count: 15
+study_length: "30 minutes"
+date: "2021-04"
+# Research Plan Metadata (legacy)
+legacy_date: 2021-04-14
+last_updated: 2026-02-10
+legacy_team: "VSP Contact Center"
+legacy_product: "Ask VA (AVA)"
 product_area: "unauthenticated"
 
 # Background Context

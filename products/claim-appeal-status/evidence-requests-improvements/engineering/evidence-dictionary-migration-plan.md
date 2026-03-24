@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Plan
+title: Evidence Request Content Migration
+services: Claim Appeal Status
+tags: appeals, claims, migration
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/evidence-requests-improvements/engineering/evidence-dictionary-migration-plan.md
+---
 # Evidence Request Content Migration
 
 ## Overview

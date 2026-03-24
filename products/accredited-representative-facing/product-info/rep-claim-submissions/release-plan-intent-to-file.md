@@ -1,3 +1,13 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Release Plan: Intent to File
+date: January 21, 2026
+services: Accredited Representative Facing
+tags: accredited-representative, claims, release, testing
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/product-info/rep-claim-submissions/release-plan-intent-to-file.md
+---
 # Release Plan: Intent to File
 
 Feature Toggle/flag:

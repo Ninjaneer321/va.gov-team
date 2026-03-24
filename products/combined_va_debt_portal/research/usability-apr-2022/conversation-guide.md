@@ -1,46 +1,24 @@
 ---
-title: "Conversation Guide for Debt Resolution Team, Combined Debt Portal Usability, June 2022"
-author: "Debt Resolution Team"
-date_created: "2022-04-01"
-last_modified: "2024-12-19"
-
-# Core research metadata
-team: "Debt Resolution Team"
-portfolio: "benefits"
-product: "Combined VA Debt Portal"
-research_phase: "usability"
-research_method: "moderated_usability_test"
-
-# Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans enrolled in VA healthcare with copays and/or Veterans with VA benefit debts"
-
-# Related documents
-related_research_plan: "N/A"
-related_prototype: "https://preview.uxpin.com/14f87574b6f025caa5d45944153e0003aa62fab4"
-
+title: Conversation Guide for Debt Resolution, VA Debt Portal, 2022 04
+author: Denise Coveyduc
+date_created: '2022-04-01'
+last_modified: '2022-04-01'
+team: Debt Resolution
+portfolio: benefits
+product: VA Debt Portal
+research_phase: usability
+research_method: usability_test
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: Veterans with VA debt
+related_research_plan: products/combined_va_debt_portal/research/usability-apr-2022/research-plan.md
+related_prototype: N/A
 tags:
-  - "AUD: Veterans"
-  - "BNFT: Healthcare"
-  - "BNFT: Disability"
-  - "BNFT: Education"
-  - "PRDT: debt-portal"
-  - "HDW: Desktop"
-  - "usability-testing"
-  - "moderated-usability-test"
-  - "VA debt"
-  - "Copay bills"
-  - "Medical copays"
-  - "Financial assistance"
-  - "Payment"
-  - "DSP: Content Presentation"
-  - "Navigation"
-  - "Information architecture"
-
-description: "Usability testing of the Combined VA Debt Portal to assess Veterans' ability to access and manage information about VA debts and copay bills in a single unified portal."
-
-# Compliance flags
+- debt-portal
+- usability-testing
+- debt-management
+description: Usability testing of combined VA debt portal for managing various debt
+  types.
 recording_required: true
 observer_support: true
 consent_for_clips: true

@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for Decision Reviews, Supplemental Claims VSO Discovery, 2022"
+author: "Pamela Hastings"
+date_created: "2022-06-01"
+last_modified: "2022-06-01"
+
+# Core research metadata
+team: "Benefits Crew 1"
+portfolio: "benefits"
+product: "Decision Reviews - Supplemental Claims"
+research_phase: "discovery"
+research_method: "stakeholder_interviews"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans Service Officers who help Veterans file Supplemental Claims"
+
+# Related documents
+related_research_plan: "products/decision-reviews/Supplemental-Claims/Research/researchplan.md"
+related_prototype: "N/A"
+
+tags:
+  - "decision-reviews"
+  - "supplemental-claims"
+  - "0995"
+  - "VSO"
+  - "stakeholder-research"
+description: "Discovery interviews with VSOs to understand their process helping Veterans file Supplemental Claims, identify pain points, and inform digital form improvements."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: false
+---
+
 # Conversation Guide
 Supplemental Claims - VSOs
 

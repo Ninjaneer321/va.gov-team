@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Recruiting Plan
+title: Form 781 & 781a Recruiting Plan
+services: Disability
+tags: 526EZ, UAT, disability
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/archive/uat/781-781a/781-&-781a-recruiting-plan.md
+---
 # Form 781 & 781a Recruiting Plan
 We will utilize the following sources to recruit participants for UAT. 
 

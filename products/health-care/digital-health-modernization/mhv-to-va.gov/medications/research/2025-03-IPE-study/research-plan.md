@@ -118,16 +118,23 @@ study_materials:
   readout: "IPE_Readout.pdf"
     
 tags:
+  - "health-care"
+  - "MHV"
+  - "My-HealtheVet"
+  - "migration"
   - "medications"
-  - "MHV-on-VA.gov"
-  - "usability-testing"
-  - "veteran-facing"
-  - "accessibility"
-  - "screen-reader"
-  - "in-product-education"
+  - "prescriptions"
+  - "pharmacy"
   - "IPE"
-  - "digital-health-modernization"
-  - "authenticated"
+  - "information-prescription-experience"
+  - "generative"
+  - "remote"
+  - "moderated"
+  - "veterans"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: My-HealtheVet"
+  - "PRDT: Medications"
   
 team_roles:
   moderator: "Melissa Stern"
@@ -143,6 +150,8 @@ team_roles:
 approvals:
   reviewed_by: "TBD"
   review_date: "TBD"
+study: MHV on VA.gov, Medications
+type: Usability
 ---
 
 # Research Plan for MHV on VA.gov, Medications, March 2025

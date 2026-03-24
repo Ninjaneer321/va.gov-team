@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for Status updates and SM renewal flow user testing – Medications messaging and status labels usability study"
-date: 2025-11-21
+date: 2025-11-01
 last_updated: 2025-11-21
 team: "OCTO-DE – Digital Health Modernization"
 product: "Medications – Status updates and Secure Messaging (SM) renewal flow"
@@ -121,10 +121,26 @@ related_research:
     - "Prior MHV medications and devices research (see: https://www.figma.com/design/VunyfNQ9x7Bt58D9B2qnW5/%F0%9F%92%A1-Working-file--MHV-Medications---Devices-?m=auto&node-id=2090-14060&t=If8qo2rddrTHtr05-1)"
     
 tags:
-  - "authenticated"
+  - "health-care"
+  - "MHV"
+  - "My-HealtheVet"
+  - "migration"
+  - "medications"
+  - "prescriptions"
+  - "pharmacy"
+  - "messaging"
+  - "status-labels"
   - "usability-testing"
+  - "remote"
+  - "evaluative"
+  - "moderated"
   - "veterans"
-  - "evaluation"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: My-HealtheVet"
+  - "PRDT: Medications"
+study: Status updates and SM renewal flow user testing – Medications messaging and status labels usability study
+type: UAT
 ---
 
 	# Research Plan for Status updates and SM renewal flow user testing

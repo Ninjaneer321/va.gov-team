@@ -1,12 +1,51 @@
 ---
-title: "Conversation Guide for [Travel Pay, Complex Claims UAT, December 2025 / January 2026]"
-author: "[Liza McRuer, Kristen Faiferlick]"
-date_created: "[2025-11-28]"
-last_modified: "[2025-11-28]"
+# Conversation Guide Metadata
+title: "Conversation Guide for Travel Pay, Complex Claims UAT, December 2025 - January 2026"
+author: "Liza McRuer, Kristen Faiferlick"
+date_created: "2025-11-28"
+last_modified: "2025-11-28"
+team: "Beneficiary Travel (BTSSS) Team"
+product: "Travel Pay - Complex Claims"
+product_area: "authenticated"
+portfolio: "Health"
+
+# Research Context
+study_name: "Complex Claims User Acceptance Testing"
+research_phase: "UAT (User Acceptance Testing)"
+research_type: "User acceptance testing"
+research_method: "Remote moderated UAT with live submissions"
+session_format: "Remote moderated sessions"
+session_duration: "45-60 minutes"
+participant_type: "Veterans with eligible travel claims (complex scenarios)"
+
+# Research Planning
+related_research_plan: ""
+related_prototype: ""
+environment: "Production environment - live claim submission"
+
+# Logistics
+recording_required: true
+consent_for_clips: true
+observer_support: true
+screen_sharing: true
+live_data: true
+
+# Tags
 tags:
-  - "[UAT]"
-  - "[Conversation guide]"
-description: "A conversation guide for complex claims user acceptance testing."
+  - "research"
+  - "conversation-guide"
+  - "UAT"
+  - "travel-pay"
+  - "complex-claims"
+  - "BTSSS"
+  - "beneficiary-travel"
+  - "claims-submission"
+  - "health-care"
+  - "live-testing"
+  - "production-environment"
+  - "authenticated-experience"
+
+description: "User acceptance testing conversation guide for complex travel pay claims on VA.gov. Tests new complex claims product with Veterans submitting live travel reimbursement claims. Covers scenarios requiring special handling, multiple facilities, or non-standard travel situations. Live submission testing in production environment."
 ---
 # Conversation Guide for Complex Claims UAT
 

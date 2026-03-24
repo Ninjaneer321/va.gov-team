@@ -83,8 +83,8 @@ recommendations:
   - "Simplify the process of selecting a location. On the facility selection page, consider showing a Veterans 'current' facilities first. This could be any facility they've received care at in the past two years. Also, identify the facility where they've been seen most frequently."
 kpi_alignment: []
 outcomes:
-  user: "Not specified in report"
-  business: "Not specified in report"
+  user: "Veterans can successfully use new MHV on VA.gov appointments features with improved login and navigation experience"
+  business: "Validated UAT of Phase 2b VAOS features on MHV on VA.gov, identified data quality issues and navigation improvements"
 opportunity_areas: []
 further_research_needed: []
 underserved_groups_missing:
@@ -103,11 +103,15 @@ tags:
   - "MHV: Appointments"
   - "MHV: National Portal/Access"
   - "PRDT: My VA"
+  - "PRDT: VA-online-scheduling"
   - "HDW: Desktop"
   - "HDW: Smartphone"
   - "usability-testing"
   - "remote-research"
   - "UAT"
+  - "VAOS"
+  - "appointments"
+  - "migration"
 ---
 
 # Appointments on MHV on VA.gov UAT Research Findings

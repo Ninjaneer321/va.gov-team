@@ -1,43 +1,26 @@
 ---
-title: "Copilot Feedback on Conversation Guide for Pathways Team, Form 0781 Evidence Upload, October 2025"
-author: "Copilot AI"
-date_created: "2025-10-01"
-last_modified: "2025-10-01"
-
-# NEW: Core research metadata
-team: "Disability Benefits Pathways Team"
-portfolio: "benefits"
-product: "Form 21-0781 (Statement in Support of Claim for PTSD)"
-research_phase: "usability"
-research_method: "moderated_usability_test"
-
-# NEW: Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans with service-connected disabilities claiming PTSD or mental health conditions"
-
-# NEW: Related documents
-related_research_plan: "products/disability/526ez/research/2025-10-0781-EvidenceUpload/research-plan.md"
-related_prototype: "N/A"
-
+title: Conversation Guide for Benefits Disability Experience, 526EZ Disability Compensation
+  - Form 0781, 2025 10
+author: Evelyn Hilbrich Davis
+date_created: '2025-10-01'
+last_modified: '2025-10-01'
+team: Benefits Disability Experience
+portfolio: benefits
+product: 526EZ Disability Compensation - Form 0781
+research_phase: usability
+research_method: usability_test
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: Veterans with PTSD using evidence upload feature
+related_research_plan: products/disability/526ez/research/2025-10-0781-EvidenceUpload/research-plan.md
+related_prototype: N/A
 tags:
-  - "AUD: Veterans"
-  - "BNFT: Disability"
-  - "PRDT: 21-0781"
-  - "PRDT: 21-526EZ"
-  - "DSC: File Upload"
-  - "DSC: Accordions"
-  - "DSP: Form Pattern"
-  - "Research"
-  - "Research Feedback"
-  - "Mental Health"
-  - "PTSD"
-  - "Evidence Upload"
-  - "Accessibility"
-  - "Trauma-Informed Design"
-description: "AI-generated feedback and recommendations for improving the conversation guide for Form 0781 evidence upload research, including accessibility considerations, mental model testing, and trauma-informed practices."
-
-# NEW: Compliance flags
+- 526ez
+- '0781'
+- evidence-upload
+- PTSD
+- copilot-feedback
+description: Copilot-enhanced conversation guide for Form 0781 evidence upload testing.
 recording_required: true
 observer_support: true
 consent_for_clips: true

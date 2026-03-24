@@ -1,109 +1,117 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Debt Resolution, Streamlined Waiver, July 2023"
+date: 2023-07-01
+last_updated: 2023-07-01
+team: "Debt Resolution"
+product: "Streamlined Waiver"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need a streamlined process for claiming medical debt forgiveness with transparency about the automatic waiver qualification process."
+  product_location: "VA.gov debt management - Financial Status Report"
+  user_familiarity: "Iteration - adding streamlined waiver flow to existing FSR form"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing, concept testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate the usability of the Streamlined Waiver experience including transition pages"
+  - goal_2: "Evaluate comprehension of new copy additions to FSR/Streamlined Waiver pages"
+  - goal_3: "Evaluate Veterans' trust and subjective experience of FSR/Streamlined Waiver"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What do Veterans understand about the FSR form at intro, during progress, and at the end?"
+  - "Is it clear from the revised intro page what information they need to provide?"
+  - "What is their level of trust through this process?"
+  - "How do Veterans understand 'Help with your debt' without upfront reveal of possible outcomes?"
+  - "How do they feel about the transition between sections and the review/confirmation pages?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The revised intro page will be clear and set appropriate expectations"
+  - "The transition page will minimize confusion about skipped questions"
+  - "Veterans will understand and trust the streamlined waiver process"
+  - "95% of users with VHA debt (copay debt) will be approved for automatic waiver"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Gain confidence that the Streamlined Waiver approach is clear, understandable, and desirable, with opportunity for UX adjustments before frontend build."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Veterans with VA medical debt/copay experience"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans with VA medical debt or copay experience"
+    - "Mix of screen reader users and visual users"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse demographic representation"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have or have you had VA medical debt or copays?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-06-28"
+  pilot_participant: "Team member"
+  research_dates: "2023-07-10 to 2023-07-21"
+  research_review_submission: ""
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Streamlined debt relief process with online option"
+  - objective: "Logged-in users have a personalized experience with time-saving features"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Automatic waiver for qualified veterans"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking Care of Myself"
+  - "Managing my declining health"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Enhanced FSR usability study - May 2023"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - streamlined-waiver
+  - debt-resolution
+  - waiver
+  - usability-testing
+  - debt
+  - authenticated
+  - research-plan
+  - "unauthenticated"
+  - "usability-testing"
+  - "concept-testing"
+  - "debt"
+  - "FSR"
+  - "streamlined-waiver"
 ---
 
 # Research Plan for Debt Resolution Team, Streamlined Waiver, Transparency, July 2023

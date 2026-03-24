@@ -1,10 +1,42 @@
 ---
-# Research Plan Metadata
 title: "Research Plan for Cartography and Authenticated Experience Profile teams: Personal health care contacts usability, November 2023"
-date: 2023-10-06
-last_updated: 2023-10-10
+type: "Research Plan"
+study_date: "2023-11-14"
+authors:
+  - "Liz Lantz"
+  - "Jonathan Nelson"
+  - "Florence McCafferty"
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "PRDT: Profile"
+  - "PRDT: Personal Health Care Contacts"
+  - "RESRCH: Usability Testing"
+  - "RESRCH: Semi-Structured Interviews"
+  - "RESRCH: Remote"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "AT: Screen Reader"
+  - "DSP: Emergency Contact"
+  - "DSP: Next of Kin"
+  - "Health Care"
+  - "Authenticated Experience"
 team: "Authenticated Experience - Profile / Cartography"
-product: "VA.gov Profile - Personal health care contacts"
+portfolio: "Identity / Health"
+product:
+  - "VA.gov Profile"
+  - "Personal Health Care Contacts"
+  - "Emergency Contact"
+  - "Next of Kin"
+research_round: "usability testing"
+participant_count: 12
+study_length: "60 minutes"
+date: "2023-11"
+# Research Plan Metadata (legacy)
+legacy_date: 2023-10-06
+last_updated: 2023-10-10
+legacy_team: "Authenticated Experience - Profile / Cartography"
+legacy_product: "VA.gov Profile - Personal health care contacts"
 product_area: "authenticated"
 
 # Background Context
@@ -126,6 +158,16 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/Combine%20Profile%20and%20Account#readme"
     
 tags:
+  - profile
+  - personal-health-care-contacts
+  - health-contacts
+  - usability-testing
+  - authenticated-experience
+  - emergency-contact
+  - next-of-kin
+  - health-care
+  - authenticated
+  - research-plan
   - "AUD: Veterans"
   - "AUD: Caregivers"
   - "BNFT: Healthcare"

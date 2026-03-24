@@ -1,3 +1,13 @@
+---
+layout: page_breadcrumb
+type: Incident Response Plan
+title: Manage POA Request Playbook/Incident Response Plan
+authors: Candi Lemoine, candi.lemoine@oddball.io
+services: Accredited Representative Facing
+tags: accredited-representative
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/product-info/manage-poa-requests/launch-materials/product-playbook-incident-response-plan.md
+---
 # Manage POA Request Playbook/Incident Response Plan
 
 ## Product Description

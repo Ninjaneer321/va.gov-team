@@ -1,40 +1,26 @@
 ---
-title: "Conversation Guide for Higher Level Review Usability Research, 2019"
-author: "Christian Valla"
-date_created: "2019-01-01"
-last_modified: "2026-02-11"
-
-# Core research metadata
-team: "Decision Reviews"
-portfolio: "benefits"
-product: "Higher Level Review"
-research_phase: "usability"
-research_method: "usability_test"
-
-# Session details
-session_duration: "55 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans who have filed disability claims and appeals with the VA"
-
-# Related documents
-related_research_plan: "./research-plan.md"
-related_prototype: "Prototype website (URL not specified)"
-
+title: Conversation Guide for Benefits Decision Reviews, Higher-Level Review (20-0996),
+  2019 01
+author: Christian Valla
+date_created: '2019-01-01'
+last_modified: '2019-01-01'
+team: Benefits Decision Reviews
+portfolio: benefits
+product: Higher-Level Review (20-0996)
+research_phase: usability
+research_method: usability_test
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: Veterans who would file Higher-Level Review
+related_research_plan: products/decision-reviews/higher-level-review/research/HLR-2019/research-plan.md
+related_prototype: N/A
 tags:
-  - "AUD: Veterans"
-  - "BNFT: Disability"
-  - "PRDT: Decision-reviews"
-  - "usability-testing"
-  - "moderated-interview"
-  - "DSC: Form"
-  - "DSC: Form - Radio Button"
-  - "DSC: Checkbox"
-  - "DSP: Ask users for contact preferences"
-  - "DSP: Ask users for phone numbers"
-  - "DSP: Help users to check answers"
-description: "Usability testing conversation guide for the Higher Level Review online appeals process, testing the full application flow from contested issues selection through informal conference requests to submission."
-
-# Compliance flags
+- HLR
+- 20-0996
+- decision-reviews
+- usability-testing
+- baseline
+description: Initial usability testing of Higher-Level Review form in 2019.
 recording_required: true
 observer_support: true
 consent_for_clips: true

@@ -1,66 +1,63 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Education Benefits Discovery - My VA"
+date: 2024-01-01
+last_updated: TBD
+team: "Authenticated Experience"
+product: "My VA - Education Benefits"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Understanding Veterans' needs and expectations for education benefits information on My VA dashboard"
+  product_location: "My VA dashboard on VA.gov"
+  user_familiarity: "Discovery phase for education benefits integration"
+  product_brief_url: "TBD"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Discovery research"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand what Chapter 33 status means to Veterans"
+  - goal_2: "Identify education benefit eligibility information needs"
+  - goal_3: "Understand how Veterans change and manage their VA education benefits"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What is chapter 33?"
+  - "What is the status of chapter 33?"
+  - "Do Veterans need their letters for any part of the education benefit process?"
+  - "How does a user change their VA education benefits?"
+  - "How does a user know about their eligibility?"
+  - "What can we show about eligibility?"
+  - "Is there a certificate of eligibility in relation to education?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "TBD"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Insights to inform education benefits integration on My VA dashboard"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "TBD"
+  approach: "TBD"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans with education benefits"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "TBD"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "TBD"
+      qualifying_response: "TBD"
       
 participants:
   veterans: 0
@@ -71,10 +68,10 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "TBD"
+  research_review_submission: "TBD"
   
 session_details:
   duration_minutes: 60
@@ -83,27 +80,24 @@ session_details:
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans and their families can apply for all benefits online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "TBD"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Putting Down Roots"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "TBD"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "my-va"
+  - "education-benefits"
+  - "discovery"
+  - "authenticated-experience"
 ---
 
 # Education Benefits Plan/Questions - Tressa's Notes

@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for Debt Resolution, Financial Status Report VSO Discovery, October 2020"
+author: "Debt Resolution Team"
+date_created: "2020-10-15"
+last_modified: "2020-10-15"
+
+# Core research metadata
+team: "Debt Resolution"
+portfolio: "benefits"
+product: "Financial Status Report"
+research_phase: "discovery"
+research_method: "stakeholder_interviews"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans Service Officers who assist Veterans with FSR forms"
+
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "N/A"
+
+tags:
+  - "debt-resolution"
+  - "FSR"
+  - "5655"
+  - "stakeholder-research"
+  - "VSO"
+description: "Discovery interviews with Veterans Service Officers to understand their experiences helping Veterans complete the Financial Status Report form and identify pain points in the process."
+
+# Compliance flags
+recording_required: false
+observer_support: false
+consent_for_clips: false
+---
+
 # VSO Conversation 3
 October 15, 2020
 

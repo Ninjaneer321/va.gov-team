@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for identity, identity, 2026-03-23"
+author: on the
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "identity"
+portfolio: "Identity"
+product: "identity"
+research_phase: "Generative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Product team members"
+
+# Related documents
+related_research_plan: "Production Test Accounts Research Plan"
+related_prototype: "N/A"
+
+tags:
+  - identity
+  - test-accounts
+  - product-team
+  - usage
+  - conversation-guide
+description: "Product team conversation guide for test accounts usage"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide: Developer and Product Manager Testing Workflows
 
 ## Pre-Interview Setup

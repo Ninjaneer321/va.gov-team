@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for caregivers, caregivers, 2026-03-23"
+author: are on
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "caregivers"
+portfolio: "Health Care"
+product: "caregivers"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Legal representatives of Veterans"
+
+# Related documents
+related_research_plan: "10-10CG Content Comprehension Research Plan November 2021"
+related_prototype: "N/A"
+
+tags:
+  - caregivers
+  - 10-10CG
+  - content-comprehension
+  - representative
+  - document-upload
+description: "Conversation guide for 10-10CG document upload content comprehension study"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide: VSA Caregiver, Mental model and Content-specific comprehension study for the 10-10CG document upload, November 2021
 
 ## Moderator Logistics

@@ -1,110 +1,57 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Form 21-686c Usability Testing in Staging Environment"
+date: 2020-05-01
+last_updated: 2026-03-23
+team: "eBenefits"
+product: "Dependency Claims (Form 21-686c/674)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "VA Form 21-686c allows Veterans to add or remove dependents from disability claims. Including Form 21-674, the '686' supports eight discrete workflows. Follow-up usability testing on the form as deployed to VA.gov staging is critical to uncovering potential problems in the live product before launch."
+  product_location: "VA.gov staging environment (https://staging.va.gov)"
+  user_familiarity: "New product - testing developed form in staging"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/ebenefits/issue-briefs/apply-modify-dependents.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
-  
+methodology: "Usability Testing"
+research_format:
+  location: remote
+  moderated: true
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine if users understand and accept the multi-purpose structure of the form"
+  - goal_2: "Decide what support users need to navigate and successfully submit the form"
+  - goal_3: "Determine if users identify cases requiring additional documentation"
+  - goal_4: "Discover any problems from longer/complicated chapter combinations"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are the form instructions clear and complete?"
+  - "Do participants understand how the 21-686c works as a multi-purpose form?"
+  - "What are the sticking points in the various form workflows?"
+  - "Will users understand when and how to upload additional documentation?"
+  - "How will users interact with the form review accordions?"
 
-hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+# Methodology Details
+research_type: "Evaluative"
+session_format: "Remote moderated usability testing with staging environment and test accounts"
+timeline: "2020-06-08 to 2020-06-12"
 
-expected_outcomes: "[How will findings advance the product?]"
+# Participants
+participant_count: 14
+recruitment_criteria: "Veterans with dependents or who have experienced dependent status changes (14 participants divided into two groups for different workflow testing)"
 
-# Recruitment & Participants
-recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
-  
-  primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
-    
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
-participants:
-  veterans: 0
-  caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
-# Timeline & Sessions
-timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
-  
-session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
-  
-# Strategic Alignment
-octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
-      
-veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
-# Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
-tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+# Team
+moderator: "James Adams"
+notetaker: "Perigean, various"
+observers: "Steve Kovacs, Jason Wolf, Shawna Hein, Kathleen Crawford, Micah Chiang, Jesse Cohn"
+
+# Tags
+tags: ['research', 'usability-testing', 'ebenefits', 'form-686c', 'form-674', 'dependents', 'staging', 'add-remove-dependents', 'authenticated', 'research-plan']
 ---
+
 
 # Research plan for usability testing for Form 21-686c / staging environment
 **VSA eBenefits Team | May-June 2020**

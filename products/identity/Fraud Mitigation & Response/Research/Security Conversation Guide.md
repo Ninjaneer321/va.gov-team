@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for identity, identity, 2026-03-23"
+author: VA Team
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "identity"
+portfolio: "Identity"
+product: "identity"
+research_phase: "Generative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Security professionals"
+
+# Related documents
+related_research_plan: "Fraud Mitigation Security Research Plan"
+related_prototype: "N/A"
+
+tags:
+  - identity
+  - fraud-mitigation
+  - security
+  - discovery
+  - conversation-guide
+description: "Security conversation guide for fraud mitigation research"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Platform Security & CSOC Fraud Intersection Discussion Guide
 
 **Meeting Duration:** 30 minutes  

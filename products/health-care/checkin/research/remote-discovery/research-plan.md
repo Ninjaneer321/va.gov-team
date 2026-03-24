@@ -1,109 +1,121 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Check-In Remote Discovery, April 2021"
+date: 2021-04-08
+last_updated: 2021-04-08
+team: "Check-In Experience"
+product: "Check-In"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Improve the Veteran check-in process for medical appointments by providing a digital option on VA.gov to replace kiosk-based check-in"
+  product_location: "VA.gov check-in experience"
+  user_familiarity: "New product - replacing existing kiosk check-in method"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/product/product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand Veterans' feelings, pain points, and value-gained by using the current ecosystem of check-in methods for medical appointments"
+  - goal_2: "Gather feedback on kiosk method with emphasis on understanding current workflows before replacement"
+  - goal_3: "Understand accessibility challenges for non-sighted Veterans with current check-in systems"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do Veterans feel when interacting with each check-in method (focus heavily on kiosk workflows)?"
+  - "What are the Veteran-specified benefits and pain points for each method?"
+  - "How do non-sighted Veterans check-in and what are their experiences with the current kiosk system?"
+  - "How receptive are Veterans to utilizing other check-in methods?"
+  - "Do any particular kiosk workflows cause more confusion or pain points for Veterans than others?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The VA kiosks are a familiar, simple experience for Veterans. Experience with the other methods will vary"
+  - "Authentication could be a pain point for Veterans within the new check-in workflow due to how they currently authenticate when using a kiosk"
+  - "The kiosks are not accessible for Veterans, who are non-sighted"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will inform the design and development of the digital check-in solution on VA.gov by identifying pain points with current methods and understanding Veteran needs"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants must have had at least one in-person medical appointment at a VA facility within the last 6 months or before COVID"
+    - "6 participants must have used the kiosk to check-in at least once"
+    - "At least 3 participants must have had a virtual appointment within the last 3 months"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 1 woman"
+    - "At least 1 person of color"
+    - "At least 1 participant 35 or under and 1 participant over 55"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have a mobile phone or tablet?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-04-02"
+  pilot_participant: "Internal team member"
+  research_dates: "2021-04-08 to 2021-04-13"
+  research_review_submission: ""
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 15
+  max_sessions_per_day: 6
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increase usage of digital, self-service tools"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Increase the completion rate of online transactions"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/product/product-outline.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "patient-check-in"
+  - "PCI"
+  - "HCE"
+  - "check-in"
+  - "discovery"
+  - "generative"
+  - "remote"
+  - "moderated"
+  - "veterans"
+  - "semi-structured-interviews"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Check-in"
+study: Check-In Remote Discovery
+type: Generative
 ---
 
 

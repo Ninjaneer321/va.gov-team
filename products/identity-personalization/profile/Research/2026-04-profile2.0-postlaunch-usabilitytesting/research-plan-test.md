@@ -152,6 +152,15 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/Research/profile-hub/2025-05-profile-hub-tree-test"
      
 tags:
+  - profile
+  - profile-2.0
+  - usability-testing
+  - post-launch
+  - authenticated-experience
+  - personalization
+  - authenticated
+  - test
+  - research-plan
   - "profile"
   - "usability-testing"
   - "accessibility"

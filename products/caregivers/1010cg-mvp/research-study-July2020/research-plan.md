@@ -1,109 +1,92 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Caregiver, 10-10CG, June 2022"
+date: 2020-07-01
+last_updated: 2020-07-31
+team: "VSA Caregiver"
+product: "Caregiver Application (10-10CG)"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The Caregiver program requires manual input of paper applications (form 10-10CG). As the program expands to all eras of Veterans per the Mission Act, the paper process will not scale."
+  product_location: "VA.gov - VA Form 10-10CG"
+  user_familiarity: "New online version of existing paper form (MVP)"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/caregivers"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Usability testing with directed interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Document and prioritize outstanding usability issues when caregivers and Veterans fill out the online 10-10CG"
+  - goal_2: "Understand veteran and caregiver priorities for potential new features"
+  - goal_3: "Determine whether users have clear understanding of requirements and next steps after submission"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are users able to navigate through the form easily and without hiccups?"
+  - "Is information displayed in a clear and understandable manner?"
+  - "Do users understand how to fill in each field?"
+  - "Do applicants understand requirements and are next steps transparent?"
+  - "What do users think will happen after they've submitted the form?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will be able to navigate through the form relatively easily"
+  - "Users may have issues clearly understanding when they're entering veteran vs caregiver information"
+  - "Users may not understand what a secondary caregiver is"
+  - "Users may not understand what happens after submission"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Provide the Caregiver program team with recommendations for moving forward with the online form"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "7 Caregivers (some who have heard of these benefits)"
+    - "7 Veterans who have caregivers"
+    - "Mix of pre-911 and post-911 Veterans"
     
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 7
+  caregivers: 7
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 14
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-07-01"
+  research_dates: "2020-07-06 to 2020-07-17"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 45
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans and their families can apply for all benefits online"
+  - objective: "Logged-in users have a personalized experience"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
+
+study: "Caregiver, 10-10CG, June"
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "caregiver"
+  - "10-10CG"
+  - "usability-testing"
+  - "form"
+  - "unauthenticated"
 ---
 
 # Research Plan for [Caregiver, 10-10CG, June 22, 2022]

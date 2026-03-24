@@ -1,3 +1,13 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Release Plan: Accredited Representative Portal - Manage POA Requests v0
+date: March 10, 2025
+services: Accredited Representative Facing
+tags: accredited-representative, release, testing
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/product-info/manage-poa-requests/release-plan-manage-poa-requests-v0.md
+---
 # Release Plan: Accredited Representative Portal - Manage POA Requests v0
 
 

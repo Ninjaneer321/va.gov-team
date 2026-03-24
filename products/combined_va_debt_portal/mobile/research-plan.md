@@ -1,109 +1,137 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Mobile Feature Support - Debt Portal: Overpayments and Copayments"
+date: 2025-05-01
+last_updated: 2026-03-23
+team: "Mobile Feature Support Team"
+product: "VA Mobile App - Debt Portal"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The mobile app does not have any debt-related information for Veterans to access. Veterans can view overpayment and copayment debts on VA.gov but not in the mobile app. Need to provide Veterans the ability to view total amount owed for benefit overpayment and medical copayment debts in the mobile app."
+  product_location: "VA Mobile App Payments tab"
+  user_familiarity: "New feature - bringing existing VA.gov debt portal functionality to mobile app"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/Overpayment%20and%20Copayment%20Debts%20Product%20Brief.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Usability Testing, Semi-structured Interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand how users become aware of and locate information about money they owe in the app"
+  - goal_2: "Assess how well users understand and interpret their copay and overpayment information in the app"
+  - goal_3: "Identify what actions users want to take regarding money owed and evaluate how easily they can find guidance in the app"
+  - goal_4: "Evaluate the experience of completing actions outside the app"
+  - goal_5: "Prioritize features for the minimum viable product (MVP) that will handle overpayments and copayments in the app"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What prompts users to check on or take action regarding money they owe to the VA?"
+  - "How do users expect to be notified or informed about new bills or debts?"
+  - "Can users successfully locate the section of the app with information about money owed?"
+  - "Is the overview of money owed (copays and overpayments) clear, complete, and useful?"
+  - "Can users access and make sense of detailed information for each item?"
+  - "Do users feel confident they understand what they owe and why?"
+  - "Do users find access to downloadable PDF copay statements helpful, and would they use this feature?"
+  - "What types of actions do users expect to take in the app (pay, request financial help, dispute a charge)?"
+  - "How do users feel about leaving the app to complete payments or other actions?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will want notifications from the app when payments are due"
+  - "Veterans will appreciate the overview of money owed from overpayment debts and copays"
+  - "Veterans will find the details of each payment owed clear"
+  - "Veterans will find navigation confusing when redirected out of the app to complete tasks"
+  - "Veterans will be frustrated by having to copy and paste information in another site to make payments"
+  - "PDF copay statements will not be useful"
+  - "Veterans will find the help pages overwhelming with too much information"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate designs for viewing copays and overpayment debts, determine when and how to add functionality that enables Veterans to take action on debts and be notified about new debts, address and identify accessibility gaps"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "2 cohorts - overpayment debt and copayment experience"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Cohort 1: 8 had a debt balance from overpayment debt in last three years"
+    - "Cohort 2: 8 received a VA copayment bill in the last year"
+    - "Range of debt amount for Cohort 1"
+    - "Complete session on smartphone via Zoom app"
+    - "Download Figma app ahead of time (no account creation)"
+    - "No assistive technology users (due to prototype limitations)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mobile platform split"
+    - "Geographic diversity"
+    - "Age diversity"
+    - "Gender diversity"
+    - "Cognitive considerations"
+    - "Rural/urban mix"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
+    - question: "Have you had a debt balance from VA overpayment in the last three years or received a VA copayment bill in the last year?"
+      qualifying_response: "Yes - split between cohorts"
+
 participants:
-  veterans: 0
+  veterans: 16
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 16
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "May 2025"
+  research_review_submission: "TBD"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve satisfaction with our web and mobile products by 5 points"
+      - "100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up (Balancing Finances)"
+  - "Taking Care of Myself (Maintaining my health)"
+  - "Putting Down Roots (Maintaining financial, social, and emotional health)"
+  - "Retiring (Taking care of my health)"
+  - "Aging (Managing my declining health)"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
-    
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/debt-letters-mvp/research"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/combined_va_debt_portal/research"
+  conversation_guide: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/conversation_guide.md"
+  prototypes:
+    - "https://www.figma.com/proto/kRA7JHbthNrSLxTQHrzH8T/MFS---Overpayments---Copays-%7C-VA-Mobile"
+
+# Team
+moderator: "TBD"
+notetaker: "Perigean"
+observers: "TBD"
+
+study: "Mobile Feature Support - Debt Portal: Overpayments and Copayments, May 2025"
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - debt
+  - copayments
+  - overpayments
+  - mobile
+  - usability-testing
+  - figma-prototype
+  - authenticated
+  - financial-management
 ---
 
  	# Research Plan for Mobile Feature Support, Debt Portal: Overpayments and Copayments, May 2025

@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Release Plan Template
+services: Disability
+tags: 526EZ, disability, release, testing
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/release-plan-template.md
+---
 
 <!-- markdownlint-disable MD024 -->
 # Release Plan Template

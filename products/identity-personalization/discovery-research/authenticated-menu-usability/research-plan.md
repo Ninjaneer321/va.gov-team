@@ -1,109 +1,125 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience, Authenticated Menu, January 2024"
+date: 2024-01-01
+last_updated: 2024-02-01
+team: "Authenticated Experience"
+product: "Authenticated Menu"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "VA.gov is piloting a new standardized header design that significantly changes the placement of the authenticated menu on mobile. This research evaluates usability and explores expansion opportunities."
+  product_location: "Global authenticated menu in VA.gov header"
+  user_familiarity: "Iteration - new design for standardized header with nested authenticated menu on mobile"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/authenticated-menu/README.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Remote usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Learn how the new design helps Veterans find their authenticated menu options, especially on mobile"
+  - goal_2: "Learn about Veteran expectations for an authenticated menu"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Does the new menu design introduce any usability hurdles, particularly on mobile?"
+  - "What do Veterans expect to see under a logged-in user menu?"
+  - "Does the new link we're proposing for the authenticated menu make sense to Veterans?"
+  - "How can we differentiate our logged-in user as a personalized menu on mobile?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The authenticated menu will be easy for people to find when their name is in the header"
+  - "People will initially struggle to find their authenticated menu when it's collapsed but will easily understand once they see their name"
+  - "In the prototype, people will understand what the links in their authenticated menu point to"
+  - "When describing expectations for their VA.gov user menu, people will consistently mention profile and a variety of other links specific to their experience"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "We'll use this outcomes from this research to inform design and content iterations on the authenticated menu."
+
+tags:
+  - "authenticated-experience"
+  - "navigation"
+  - "authenticated-menu"
+  - "header"
+  - "ia"
+  - "mobile"
+  - "usability-testing"
+  - "moderated-research"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Recruit 12 Veterans for 8 completed sessions"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must be Veterans"
+    - "Must currently receive at least 1 benefit or service from VA"
+    - "6 must NOT currently receive health care through VA"
+    - "3 must require screenreader (at least 2 on mobile)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "4 participants should be over 55"
+    - "6 should identify as other than Caucasian"
+    - "6 should identify as a gender other than male"
+    - "4 should have no college degree"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you able to join the Zoom session from a smart phone?"
+      qualifying_response: "Yes (for 8 mobile users)"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-01-24"
+  pilot_participant: "TBD"
+  research_dates: "2024-01-29 to 2024-02-01"
+  research_review_submission: "2024-01-01"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 30
+  buffer_minutes: 45
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Solidify the VA.gov platform"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Create consistent user experience with standardized header/footer"
+  - objective: "Refresh VA.gov homepage and IA"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Improve navigation and findability"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Living Civilian Life"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/header-footer/initiatives/2024-federal-standardized-header-footer/research/phase2-AT/research-plan.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "authenticated-menu"
+  - "navigation"
+  - "usability-testing"
+  - "authenticated-experience"
+  - "standardized-header"
 ---
 
 # Research Plan for Authenticated Experience, Authenticated Menu, January 2024

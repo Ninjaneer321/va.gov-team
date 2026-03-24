@@ -1,45 +1,40 @@
 ---
-title: "Conversation Guide for Facilities Team, Progressive Disclosure and Autosuggest, 2025"
-author: "[AUTHOR NAME]"
-date_created: "2025-01-01"
-last_modified: "2025-01-01"
-
-# NEW: Core research metadata
-team: "Facilities Team"
-portfolio: "health"
-product: "Facility Locator"
-research_phase: "usability"
-research_method: "usability_test"
-
-# NEW: Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans, family members, and caregivers with experience seeking VA facilities; includes assistive technology users"
-
-# NEW: Related documents
-related_research_plan: "products/facilities/facility-locator/initiatives/2023-2025-search-improvements/research/services-and-progressive-disclosure/research-plan.md"
-related_prototype: "https://staging.va.gov/find-locations/"
-
+title: Conversation Guide for Facilities Team, Progressive Disclosure and Autosuggest,
+  2025
+author: Facilities Team
+date_created: '2025-01-01'
+last_modified: '2025-01-01'
+team: Facilities Team
+portfolio: health
+product: Facility Locator
+research_phase: usability
+research_method: usability_test
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: Veterans, family members, and caregivers with experience seeking
+  VA facilities; includes assistive technology users
+related_research_plan: products/facilities/facility-locator/initiatives/2023-2025-search-improvements/research/services-and-progressive-disclosure/research-plan.md
+related_prototype: https://staging.va.gov/find-locations/
 tags:
-  - "AUD-veterans"
-  - "AUD-family-members"
-  - "AUD-caregivers"
-  - "PRDT-facility-locator"
-  - "BNFT-health-care"
-  - "DSP-search"
-  - "DSP-autosuggest"
-  - "DSP-progressive-disclosure"
-  - "DSC-combo-box"
-  - "usability-testing"
-  - "service-taxonomy"
-description: "Usability testing of progressive disclosure and autosuggest features in Facility Locator search, evaluating service type suggestions and search ease across VA health, cemetery, and community pharmacy searches."
-
-# NEW: Compliance flags
+- AUD-caregivers
+- AUD-family-members
+- AUD-veterans
+- BNFT-health-care
+- DSC-combo-box
+- DSP-autosuggest
+- DSP-progressive-disclosure
+- DSP-search
+- PRDT-facility-locator
+- facilities
+- service-taxonomy
+- usability-testing
+description: Usability testing of progressive disclosure and autosuggest features
+  in Facility Locator search, evaluating service type suggestions and search ease
+  across VA health, cemetery, and community pharmacy searches.
 recording_required: true
 observer_support: true
 consent_for_clips: true
 ---
-
 # Conversation Guide: Progressive Disclosure and Autosuggest
 
 ## **Moderator logistics**

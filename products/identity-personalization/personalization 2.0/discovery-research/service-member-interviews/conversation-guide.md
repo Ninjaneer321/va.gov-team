@@ -1,34 +1,38 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Authenticated Experience Team, Service Member Interviews, August 2019"
+author: "Samara Strauss"
+date_created: "2019-08-07"
+last_modified: "2019-08-16"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Authenticated Experience"
+portfolio: "digital-experience"
+product: "Personalization 2.0"
+research_phase: "discovery"
+research_method: "moderated_interview"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Service members transitioning to veteran status who are scheduled to separate from military service"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
-tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+related_research_plan: "../research-plan.md"
+related_prototype: "N/A"
 
 # NEW: Compliance flags
 recording_required: true
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
+
+tags:
+  - "authenticated-experience"
+  - "personalization"
+  - "transitioning-service-members"
+  - "discovery"
+  - "interviews"
+  - "qualitative-research"
+  - "generative-research"
 ---
 
 # Conversation Guide: Personalization 2.0 Service Member Interviews

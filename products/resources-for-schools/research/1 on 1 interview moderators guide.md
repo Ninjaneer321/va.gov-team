@@ -1,3 +1,38 @@
+---
+title: "Conversation Guide for Resources for Schools, Event Editor Usability, January 2024"
+author: "Resources for Schools Team"
+date_created: "2024-01-15"
+last_modified: "2024-01-15"
+
+# Core research metadata
+team: "Sitewide Public Websites"
+portfolio: "digital-experience"
+product: "Resources for Schools"
+research_phase: "usability"
+research_method: "usability_test"
+
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "School administrators who edit events in CMS"
+
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "N/A"
+
+tags:
+  - "resources-for-schools"
+  - "CMS"
+  - "event-editor"
+  - "usability-testing"
+description: "Usability testing of the event editor CMS system with school administrators to improve the user experience for event creation and editing."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 ## Usability Test Script for Event
 
 Revised: January 15th, 2024

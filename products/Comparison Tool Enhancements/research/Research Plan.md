@@ -1,109 +1,93 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Comparison Tool Enhancements - Survey, 2022-08"
+date: 2022-08-01
+last_updated: 2022-09-13
+team: "Digital GI Bill"
+product: "GI Bill Comparison Tool"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The GI Bill Comparison Tool has unintuitive features that may make navigating the tool a suboptimal experience for students looking to compare their GI Bill benefits at approved schools, employers and VET TEC providers."
+  product_location: "VA.gov GI Bill Comparison Tool"
+  user_familiarity: "Iteration of existing product"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Comparison%20Tool%20Enhancements/Product%20Outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Unmoderated survey"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand what designs across the Comparison Tool work best for the user and reduce burden/cognitive load"
+  - goal_2: "Understand what content is most important to a user when deciding on their best suited school"
+  - goal_3: "Utilize findings to iterate on current designs and let user research drive the rest of the design process"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Before seeing designs, what are the user preferences for information within the Comparison tool?"
+  - "What does the user prefer/prioritize when presented with alternative design options?"
+  - "What is most important content on institution cards for the user?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Enhanced comparison tool features will be clearer and more intuitive for students who have used education benefits"
+  - "Updated formatting and icons will enhance the user experience"
+  - "Users will feel more confident choosing the right school with updated comparison tool"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Track both quantitative and qualitative data to help inform future design iterations"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Cohort-based recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Participant must have used or be actively using GI Bill benefits"
+    - "Participant must have access to computer or mobile phone"
+    - "Must fall into one of four cohorts: VET TEC, OJT/apprenticeship, 4-year college, or first-generation college student"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "15% identify as Black or African American"
+    - "12% Latinx"
+    - "60% Women"
+    - "50% identify as 55-64+"
     
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
 participants:
-  veterans: 0
+  veterans: 36
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 36
+  completed_sessions_goal: 36
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-09-05"
+  research_dates: "2022-09-05 to 2022-09-13"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 0
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+  - objective: "Veterans and their families trust the security accuracy and relevancy of VA.gov"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Acquiring the appropriate education, new skills, and credentials"
+  - "Finding the right job"
     
 # Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "education"
+  - "comparison-tool"
+  - "survey"
+  - "unmoderated"
+  - "veterans"
+  - "gi-bill"
 ---
 
 # Research Plan for 2022-08 Comparison Tool Enhancements - Survey 

@@ -1,31 +1,35 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Digital Experience, eBenefits Discovery Research, 2019"
+author: "Aricka Lewis"
+date_created: "2019-01-01"
+last_modified: "2019-01-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Digital Experience - eBenefits Migration Team"
+portfolio: "digital-experience"
+product: "eBenefits"
+research_phase: "discovery"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45-50 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use eBenefits for managing VA benefits"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "eBenefits"
+  - "discovery"
+  - "migration"
+  - "VA-benefits"
+  - "user-research"
+  - "benefits-management"
+description: "Discovery research with eBenefits users to understand current usage patterns and pain points before migrating features to VA.gov."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

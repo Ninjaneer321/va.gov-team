@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Technical Planning
+title: Side Nav Reset Technical Project Documentation
+services: Disability
+tags: 526EZ, disability
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/Initiatives/side-navigation/side-navigation-reset/technical-planning.md
+---
 # Side Nav Reset Technical Project Documentation
 
 | Area                          | Description                                                                                  |

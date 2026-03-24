@@ -1,3 +1,26 @@
+---
+type: conversation_guide
+study_name: Login.gov Mobile App UAT
+team: VA Mobile App
+product: VA Mobile App - Login.gov Integration
+platform: Mobile App
+moderator: VA Mobile App team
+date: 2021
+research_method: User acceptance testing (UAT)
+session_type: moderated_remote
+session_duration_minutes: 60
+number_of_participants: 12
+tags:
+  - mobile-app
+  - login-gov
+  - identity
+  - authentication
+  - UAT
+  - credential-management
+  - direct-deposit
+  - two-session-study
+---
+
 ## **Login.gov Mobile App UAT Plan and Discussion Guide**
 
 ## Objective/Summary

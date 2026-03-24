@@ -1,3 +1,38 @@
+---
+title: "Conversation Guide for Decision Reviews, Supplemental Claims MVP Usability, September 2022"
+author: "Pamela Hastings"
+date_created: "2022-08-26"
+last_modified: "2022-09-01"
+
+# Core research metadata
+team: "Benefits Crew 1"
+portfolio: "benefits"
+product: "Decision Reviews - Supplemental Claims"
+research_phase: "usability"
+research_method: "usability_test"
+
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have filed disability claims with VA and would use VA.gov to file follow-up claims"
+
+# Related documents
+related_research_plan: "products/decision-reviews/Supplemental-Claims/Research/researchplan.md"
+related_prototype: "https://www.figma.com/proto/JveclTFbNNSmx4eiYwbZdZ/Supplemental-Claims?node-id=70%3A5676"
+
+tags:
+  - "decision-reviews"
+  - "supplemental-claims"
+  - "0995"
+  - "usability-testing"
+description: "Usability testing of Supplemental Claims MVP prototype to validate the form flow and ensure Veterans understand the process of filing new evidence for denied disability claims."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 ## Supplemental Claims Conversation Guide
 
 

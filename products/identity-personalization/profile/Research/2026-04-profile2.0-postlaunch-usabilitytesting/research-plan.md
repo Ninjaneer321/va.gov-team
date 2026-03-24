@@ -100,6 +100,14 @@ related_research:
     - "[Link to related past research]"
     
 tags:
+  - profile
+  - profile-2.0
+  - usability-testing
+  - post-launch
+  - authenticated-experience
+  - personalization
+  - authenticated
+  - research-plan
   - "[product-area]"
   - "[methodology]"
   - "[participant-type]"

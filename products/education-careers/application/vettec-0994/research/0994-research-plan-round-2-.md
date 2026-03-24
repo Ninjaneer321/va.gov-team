@@ -1,110 +1,117 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Form 22-0994 VET TEC Application - Research Plan Round 2"
+date: 2019-02-27
+last_updated: 2026-03-23
+team: "BAH Platform Team"
+product: "VET TEC Application (22-0994)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans applying for VET TEC education benefits need an easy-to-use online form that displays only relevant questions, pre-populates data, and guides them through the process. Round 2 testing evaluates enhancements from Round 1 feedback."
+  product_location: "Vets.gov"
+  user_familiarity: "Iteration on existing form based on Round 1 usability testing"
+  product_brief_url: "TBD"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
-  
+methodology: "Usability Testing, User Acceptance Testing"
+research_format:
+  location: remote
+  moderated: true
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate that Round 1 enhancements effectively meet Veterans needs"
+  - goal_2: "Ensure Veterans understand the VET TEC application process involving both Form 22-0994 and Form 22-1990"
+  - goal_3: "Confirm Veterans understand they don't need to complete a second 22-1990 if previously submitted"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do the enhancements implemented from Round 1 usability testing effectively meet the needs of Veterans?"
+  - "Do users understand that the VET TEC application process involves completing both VA Form 22-0994 and VA Form 22-1990?"
+  - "Do users understand there is no need to complete a second VA Form 22-1990 if they have submitted one in the past?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "By presenting VA Form 22-0994 in an easy to use interview format, displaying only relevant questions, pre-populating data, and providing contextual help, Vets.gov will simplify applying for education benefits"
+  - "The online form will improve the application experience, save Veterans time, increase satisfaction, and make them more confident in their ability to apply independently"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Learning about issues Veterans encounter when completing the form will enable us to write instructional copy to help them complete the form correctly"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Screener questions for qualified participants"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
-    
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Veterans interested in applying for VA educational benefits"
+    - "Interest in pursuing education in the high-tech industry"
+    - "Age range 22-45 years old"
+    - "Have VA educational benefits remaining or interested in applying"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
+    - question: "Have you applied for VA educational benefits before?"
+      qualifying_response: "Yes or No (both qualify)"
+    - question: "Are you interested in applying for VA educational benefits?"
+      qualifying_response: "Yes"
+    - question: "Do you have any VA educational benefits remaining?"
+      qualifying_response: "Yes"
+    - question: "Are you interested in pursuing education in the high-tech industry?"
+      qualifying_response: "High-tech"
+    - question: "What is your age range?"
+      qualifying_response: "22-45 years old"
+
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
+  total_recruited: 12
+  completed_sessions_goal: 10
+
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2019-02-26"
+  pilot_participant: "Internal team member"
+  research_dates: "2019-02-27 to 2019-03-11"
+  research_review_submission: "2019-02-20"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 45
   buffer_minutes: 30
-  max_sessions_per_day: 0
-  
+  max_sessions_per_day: 5
+
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can apply for education benefits online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Simplify VET TEC application process"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
+  - "Getting out"
+  - "Starting up"
+  - "Reinventing myself"
+
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
-    
+    - "Round 1 Usability Testing (February 4-6, 2019)"
+
+# Team
+moderator: "Theresa McMurdo, Amy Knox"
+notetaker: "Theresa McMurdo, Amy Knox, Cindy Cruz, Jenny Walter, Desiree Turner"
+observers: "UX Team, Jenny Walter"
+
+study: "Form 22-0994 VET TEC Application - Round 2, February-March 2019"
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - education
+  - VET-TEC
+  - 22-0994
+  - usability-testing
+  - UAT
+  - high-tech-training
+  - education-benefits
+  - authenticated
 ---
+
 
 # Form 22-0994: Research Plan - Round 2 
 ## VA Form 22-0994 ##

@@ -1,31 +1,40 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: VA Mobile App Blind/Low Vision Post-Launch Research, 2021"
+author: "Ayush Chakravarty"
+date_created: "2021-11-01"
+last_modified: "2021-11-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "VA Mobile"
+portfolio: "digital-experience"
+product: "VA Mobile App"
+research_phase: "evaluative"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "90 minutes"
+session_type: "hybrid"
+participant_criteria: "Veterans with blindness or low vision who use screen readers or assistive technology"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/va-mobile-app/research/ux/blind-low-vision/post-launch-research/research-plan.md"
+related_prototype: "VA Mobile App (production)"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: VA-mobile-app"
+  - "evaluative-research"
+  - "usability-testing"
+  - "accessibility"
+  - "assistive-technology"
+  - "screen-reader"
+  - "blind"
+  - "low-vision"
+  - "post-launch"
+  - "mobile"
+description: "Post-launch evaluative research conversation guide for VA Mobile App with blind and low vision Veterans, assessing accessibility with assistive technology."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

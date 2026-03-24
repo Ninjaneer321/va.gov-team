@@ -1,3 +1,13 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Claim Details V2 Release Plan
+date: 7/23/24
+services: Claim Appeal Status
+tags: UAT, appeals, claims, release, testing
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/CST Product/Claim Phase Expansion Release Plan.md
+---
 # Claim Details V2 Release Plan 
 ## Phase I: UAT 
 ### Planning: 

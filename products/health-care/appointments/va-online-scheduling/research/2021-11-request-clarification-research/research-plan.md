@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for VAOS, Request Clarification, November 2021"
-date: 2021-11-05
+date: 2021-11-01
 last_updated: 2026-02-10
 team: "VA Online Scheduling (VAOS)"
 product: "VA Online Scheduling"
@@ -95,15 +95,15 @@ related_research:
     - "products/health-care/appointments/va-online-scheduling/research/2021-01-appts-list-test/findings-report.md"
     
 tags:
-  - "AUD: Veterans"
-  - "PRDT: Appointments"
-  - "PRDT: VAOS"
-  - "PRDT: Health care"
-  - "RESRCH: Usability"
-  - "RESRCH: Discovery"
-  - "DSP: Content presentation"
-  - "authenticated"
-  - "appointment-requests"
+  - HCE
+  - VAOS
+  - appointments
+  - caregivers
+  - discovery
+  - mobile
+  - usability-testing
+study: VAOS, Request Clarification
+type: Usability
 ---
 
 VAOS Requests Discovery - Research Plan

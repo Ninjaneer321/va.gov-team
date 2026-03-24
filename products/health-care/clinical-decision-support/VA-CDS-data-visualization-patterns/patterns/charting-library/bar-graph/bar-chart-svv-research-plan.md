@@ -1,109 +1,110 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for CDS Data Visualization, Bar Chart and SVV, October 2024"
+date: 2024-09-23
+last_updated: 2024-09-23
+team: "Clinical Decision Support Collaborative (CDSC) Data Visualization Team"
+product: "Bar Chart and Single Value Visualization Patterns"
+product_area: "CDS Console"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "During discovery with CDSC app teams, Bar Chart and Single Value Visualization were identified as patterns needed across apps to help clinicians quickly view data. Testing these patterns for My Work Week application."
+  product_location: "CDS Console - My Work Week and other applications"
+  user_familiarity: "New patterns - initial testing for CDS design system"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/clinical-decision-support/VA-CDS-data-visualization-patterns"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews with usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Assess overall usability of Bar Chart and SVV as standalone patterns"
+  - goal_2: "Assess usability and understandability of Bar Chart used alongside SVV"
+  - goal_3: "Identify opportunities for improvement to inform implementation guidance"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How easily can clinicians interpret and use the Bar Graph and SVV, both individually and together?"
+  - "How do visualizations support or hinder comprehension, decision-making, and workflow?"
+  - "How does combining Bar Graph with SVV affect ability to understand and act on data?"
+  - "Which SVV design is most effective at communicating meaning clearly?"
+  - "How easily can clinicians use patterns on small mobile screens?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Clinicians will find SVV useful for gathering quick information to plan work week"
+  - "Clinicians will be able to easily interpret information presented on Bar Charts"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Generate evidence on usability and effectiveness to determine how well patterns support clinician comprehension and workflow, and provide clear implementation guidance for CDS applications"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "My Work Week team assistance"
+  approach: "targeted recruitment from MWW users"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "My Work Week users"
+    - "Users who provided feedback about bar charts"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse clinician levels"
+    - "Various role types"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you use My Work Week application?"
+      qualifying_response: "Yes"
       
 participants:
   veterans: 0
   caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  clinicians: 5
+  va_staff: 0
+  total_recruited: 7
+  completed_sessions_goal: 5
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-09-30"
+  pilot_participant: "TBD"
+  research_dates: "2024-10-01 to 2024-10-22"
+  research_review_submission: "2024-09-23"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 50
+  buffer_minutes: 10
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Establish standardized CDS design patterns"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Validated visualization patterns for CDS applications"
       
-veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+veteran_journey_phases: []
+clinician_workflow_stages:
+  - "Planning work week"
+  - "Reviewing appointment and patient data"
+  - "Quick data comprehension for decision-making"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "My Work Week graph feedback"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "CDS"
+  - "usability-testing"
+  - "clinician-facing"
+  - "design-patterns"
+  - "bar-chart"
+  - "single-value-visualization"
+  - "evaluative"
 ---
 
 # Bar Chart and Single Value Visualization Research Plan

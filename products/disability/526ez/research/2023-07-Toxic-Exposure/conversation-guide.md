@@ -1,39 +1,30 @@
 ---
-title: "Form 526 Toxic Exposure Subsection Conversation Guide"
-author: "Form 526 Team"
-date_created: "2023-07-01"
-last_modified: "2023-07-01"
-
-# Core research metadata
-team: "Form 526 Team"
-portfolio: "benefits"
-product: "Form 526EZ - Disability Compensation Application"
-research_phase: "usability"
-research_method: "usability_test"
-
-# Session details
-session_duration: "60-75 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans who have filed or are considering filing disability compensation claims, with exposure to toxic substances during service"
-
-# Related documents
-related_research_plan: "products/disability/526ez/research/2023-07-Toxic-Exposure/research-plan.md"
-related_prototype: "Prototype mockup for toxic exposure questions in Form 526EZ"
-
+title: Conversation Guide for Benefits Disability Experience, 526EZ Disability Compensation,
+  2023 07
+author: Evelyn Hilbrich Davis
+date_created: '2023-07-01'
+last_modified: '2023-07-01'
+team: Benefits Disability Experience
+portfolio: benefits
+product: 526EZ Disability Compensation
+research_phase: usability
+research_method: usability_test
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: Veterans with toxic exposure conditions filing disability compensation
+related_research_plan: products/disability/526ez/research/2023-07-Toxic-Exposure/research-plan.md
+related_prototype: N/A
 tags:
-  - "form-526"
-  - "toxic-exposure"
-  - "usability-testing"
-  - "disability-claims"
-  - "gulf-war"
-  - "agent-orange"
-  - "PACT-Act"
-description: "Usability test conversation guide for new toxic exposure section in Form 526EZ. Evaluates Veteran understanding of toxic exposure questions, ability to enter exposure locations and dates, and overall experience with Gulf War, Agent Orange, and additional exposure entry workflows."
-
-# Compliance flags
+- 526ez
+- toxic-exposure
+- PACT-Act
+- usability-testing
+- disability-compensation
+description: Usability testing of toxic exposure questions in 526EZ disability compensation
+  form.
 recording_required: true
 observer_support: true
-consent_for_clips: false
+consent_for_clips: true
 ---
 
 # Conversation Guide - Form 526 Toxic Exposure Subsection

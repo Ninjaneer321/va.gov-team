@@ -1,43 +1,98 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [10-10d CHAMPVA Tricare Eligibility Usabilty Study - January 2026]"
-date: 2026-01-DD
+title: "Research Plan for 10-10d CHAMPVA Tricare Eligibility Usability Study, January 2026"
+date: 2026-01-15
 last_updated: 2025-12-08
-team: "[Health Applications]"
-product: "[10-10d]"
-product_area: "[authenticated and unauthenticated]"
+team: "Health Applications Team"
+product: "CHAMPVA Form 10-10d"
+product_area: "authenticated, unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Need to test eligibility questions and error messages for CHAMPVA 10-10d, comparing VADS pattern vs hybrid approach with API integration to determine best usability for Veterans and family members."
+  product_location: "Form 10-10d on VA.gov, CHAMPVA benefits application"
+  user_familiarity: "Iteration - testing new eligibility patterns for Tricare questions"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/product-outline.md"
 
 # Research Design
-methodology: "[semi-structured interviews usability test with mid-fidelity prototype]"
+methodology: "semi-structured interviews with usability testing using mid-fidelity prototype"
 research_format: 
   location: remote 
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
   moderated: true 
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[Learn where there are content comprehension issues within the eligibility questions and error messages options tested.]"
-  - goal_2: "[Discovery around two flows - one using a new VADS pattern and the other with a VADS pattern and API hybrid approach - to determine usabilty and user preference for both.]"
-  - goal_3: "[Learn if there are any usability issues with the new VADS eligibility pattern and/or hybird option.]"
+  - goal_1: "Learn where there are content comprehension issues within the eligibility questions and error messages options tested"
+  - goal_2: "Discovery around two flows - one using new VADS pattern and another with VADS pattern and API hybrid approach - to determine usability and user preference"
+  - goal_3: "Learn if there are any usability issues with the new VADS eligibility pattern and/or hybrid option"
 
 research_questions:
-  - "[Goal 1: Do participants find the introduction page eligibility content clear and easy to understand?]"
-  - "[Goal 1: Do participants find the eligibilty questions asked in the VADS pattern flow confusing, unclear or state they need additional information?]"
-  - "[Goal 1: Do participants understand the content in the error messages clear enough to state what specific action, if any, they would need to take when applying for benefits?]"
-  - "[Goal 2: Is the flow of prototype Blueberry and the VADS eligibility pattern easy for participants - both Veterans and family members?]"
-  - "[Goal 2: What flow do participants seem to find easier via self-reported ratings and quotes?]"
-  - "[Goal 3: Do participants clearly understand the eligibility gray results box with the icons in the pattern?]"
-  - "[Goal 3: Do the error alerts in the hybrid option add any confusion or do participants state incorrect actions needed?]"
+  - "Do participants find the introduction page eligibility content clear and easy to understand?"
+  - "Do participants find the eligibility questions in the VADS pattern flow confusing or unclear?"
+  - "Do participants understand the content in the error messages and what action to take?"
+  - "Is the flow of VADS eligibility pattern easy for Veterans and family members?"
+  - "What flow do participants find easier via self-reported ratings?"
+  - "Do participants clearly understand the eligibility gray results box with icons?"
+  - "Do the error alerts in the hybrid option add confusion?"
 
 hypotheses:
-  - "[We assume that both Veterans and family members will find the hybrid option the easiest to understand and will not have any issues with the alert messages presented.]"
-  - "[We assume that the VADS pattern will add clarity to the eligibility of CHAMPVA benefits and will be recieved positively by both Veterans and family members.]"
+  - "Both Veterans and family members will find the hybrid option easiest to understand without issues with alert messages"
+  - "The VADS pattern will add clarity to CHAMPVA benefits eligibility and be received positively"
+  - "Content comprehension will be higher with the hybrid approach"
+
+expected_outcomes: "Determine which eligibility pattern approach to implement for CHAMPVA 10-10d based on usability testing"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "targeted recruitment for Veterans and family members"
+  
+  primary_criteria:
+    - "Veterans and family members interested in or familiar with CHAMPVA"
+    - "Mix of those with and without Tricare experience"
+    - "Both authenticated and unauthenticated users"
+    
+  secondary_criteria:
+    - "Diverse age range"
+    - "Various education levels"
+    
+  screener_questions:
+    - question: "Are you or a family member interested in CHAMPVA benefits?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 6
+  caregivers: 0
+  dependents: 4
+  total_recruited: 12
+  completed_sessions_goal: 10
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2026-01-20"
+  pilot_participant: "TBD"
+  research_dates: "2026-01-27 to 2026-02-07"
+  research_review_submission: "2026-01-13"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Our digital experiences are the best way to access VA health care and benefits"
+    key_results: []
+      
+veteran_journey_phases:
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
   - "[The changes in the flow and the signer information section will be easy for Veterans and family mbmers to follow with less confusion than previous studies.]"
 
 expected_outcomes: "[How will findings advance the product?]"

@@ -88,8 +88,8 @@ recommendations:
 kpi_alignment:
   - "Reduce abandonment rate at the VA facility selection step in VAOS"
 outcomes:
-  user: "Not specified in report"
-  business: "Not specified in report"
+  user: "Veterans have clearer understanding of facility registration and can more easily find nearby care options"
+  business: "Informed decision not to pursue manual facility management feature, validated need for smarter facility surfacing based on Veteran data"
 opportunity_areas:
   - "Supporting Veterans who travel or have moved to multiple locations"
   - "Reducing friction in the appointment scheduling process"
@@ -118,6 +118,14 @@ tags:
   - "PRDT: My VA"
   - "PRDT: Profile"
   - "MHV: Appointments"
+  - "usability-testing"
+  - "prototype-testing"
+  - "remote-moderated"
+  - "VAOS"
+  - "facilities"
+  - "registration"
+  - "scheduling"
+  - "personalization"
   - "MHV: Secure Messaging"
   - "DSC: Accordions"
   - "DSP: Help users to navigate a long list"

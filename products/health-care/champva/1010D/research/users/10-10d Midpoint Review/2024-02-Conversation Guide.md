@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for health-care, health-care, 2026-03-23"
+author: CHAMPVA Team
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "health-care"
+portfolio: "Health Care"
+product: "health-care"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "CHAMPVA beneficiaries and family members"
+
+# Related documents
+related_research_plan: "10-10d Midpoint Review Research Plan"
+related_prototype: "N/A"
+
+tags:
+  - health-care
+  - CHAMPVA
+  - 10-10d
+  - midpoint-review
+  - conversation-guide
+description: "Midpoint review conversation guide for CHAMPVA Form 10-10d"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide
 
 

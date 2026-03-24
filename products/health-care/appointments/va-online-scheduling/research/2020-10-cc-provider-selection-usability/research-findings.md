@@ -5,7 +5,7 @@ team: "VAOS"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
 date: "2020-10-31"
 researchers:
-  - "Not specified"
+  - "Peter Russo"
 research_goals:
   - "Understand how Veterans value personalization, availability, and location when choosing a Community Care provider"
   - "Evaluate Veterans' ability to use the provider list and add multiple providers"
@@ -89,8 +89,8 @@ recommendations:
   - "Display date and time, facility name, and type of care in the appointment cards. Let users drill down for detailed location, departmental and other information"
 kpi_alignment: []
 outcomes:
-  user: "Not specified"
-  business: "Not specified"
+  user: "Veterans are better able to select providers that meet their needs and understand the appointment scheduling process"
+  business: "Reduced appointment scheduling abandonment and improved community care provider selection"
 opportunity_areas:
   - "Veterans want to schedule with providers they have seen in the past"
   - "Veterans need to know appointment availability before selecting a provider"
@@ -108,11 +108,15 @@ tags:
   - "AUD: Veterans"
   - "BNFT: Healthcare"
   - "MHV: Appointments"
+  - "PRDT: VA-online-scheduling"
   - "usability-testing"
   - "evaluative"
   - "remote-moderated"
   - "community-care"
   - "appointments"
+  - "VAOS"
+  - "provider-selection"
+  - "scheduling"
 ---
 
 # CC provider selection usability study

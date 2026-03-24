@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Web Redesign Release Plan
+services: Veteran Status
+tags: release, testing, veteran-status
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-status/v2-IIR/web-redesign-release-plan.md
+---
 
 # Web Redesign Release Plan
 

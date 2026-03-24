@@ -12,7 +12,7 @@ background:
   problem_statement: "Need to understand AMA implementation, forms, and workflows to develop insights into why and how Veterans would use a self-service facility for decision review requests"
   product_location: "VA.gov decision reviews section"
   user_familiarity: "New product - implementing AMA decision review process"
-  product_brief_url: "TBD"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/decision-reviews/higher-level-review"
 
 # Research Design
 methodology: "discovery"
@@ -64,10 +64,10 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "TBD"
-  pilot_participant: "TBD"
+  pilot_date: "2019-Q4"
+  pilot_participant: "Internal team member"
   research_dates: "2019"
-  research_review_submission: "TBD"
+  research_review_submission: "2019-Q3"
   
 session_details:
   duration_minutes: 60
@@ -87,7 +87,7 @@ veteran_journey_phases:
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "TBD"
+    - "Previous HLR research and discovery work"
     
 tags:
   - "AUD: Veterans"

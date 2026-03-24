@@ -115,7 +115,21 @@ related_research:
     - "[Research on Form 21-2680 claimant experience, if available]"
     - "[Previous studies on Aid and Attendance claims processes, if available]"
     
+
+study: "Veteran & Caregiver Research Plan for 21-2680 Provider Experience"
 tags:
+  - form-21-2680
+  - aid-and-attendance
+  - housebound
+  - provider-experience
+  - interviews
+  - usability-testing
+  - caregivers
+  - veterans
+  - dependents
+  - medical-provider
+  - authenticated
+  - research-plan
   - "benefits-claims"
   - "veteran-experience"
   - "caregiver-experience"

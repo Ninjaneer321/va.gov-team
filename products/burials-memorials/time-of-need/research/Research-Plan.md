@@ -1,109 +1,97 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for BAH-MBS-SelfServ, Time of Need Lite, July 2025"
+date: 2025-07-01
+last_updated: 2025-07-31
+team: "BAH-MBS-SelfServ"
+product: "Time of Need Lite"
+product_area: "authenticated/unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Currently, there is no way for family members, authorized organizations, or personal representatives to initiate a burial request for a deceased Veteran through VA.gov. They must call the National Cemetery Scheduling Office directly, resulting in longer processing times and added stress during a difficult time."
+  product_location: "VA.gov - Time of Need Lite digital form"
+  user_familiarity: "New product - first digital self-service option for burial requests"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/burials-memorials/time-of-need/Product-Outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate the usability and accessibility of the Time of Need Lite digital form for scheduling a burial"
+  - goal_2: "Identify pain points and barriers that Veterans' family members, personal representatives, and funeral home staff experience"
+  - goal_3: "Gauge user satisfaction with the digital experience compared to the current phone-based process"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can users successfully complete the burial request form?"
+  - "Do users understand what information is required and why?"
+  - "Are there accessibility barriers for users with disabilities?"
+  - "What pain points do users encounter during the submission process?"
+  - "How satisfied are users with the digital experience vs phone process?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will find the digital form more convenient than calling"
+  - "The form will reduce time to submit burial requests"
+  - "Users will encounter some confusion around required documentation"
+  - "The digital process will reduce stress during a difficult time"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will inform iterative improvements to the form's design, content, and workflow. Insights will optimize user experience, prioritize accessibility and clarity, and refine the MVP for public launch."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Family members of deceased Veterans"
+    - "Funeral home staff who work with VA burials"
+    - "Personal representatives authorized to handle burial arrangements"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mix of ages and technical comfort levels"
+    - "Users with disabilities who use assistive technology"
     
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
 participants:
   veterans: 0
   caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  dependents: 12
+  total_recruited: 12
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-07-15"
+  research_dates: "2025-07-16 to 2025-07-30"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results:
-      - "[Specific KR if applicable]"
+      - "70%+ of ToN requests submitted via self-service"
+      - "40%+ reduction in call center volume"
+      - "95%+ successful submission rate"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Dying"
     
 # Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
+
+study: "BAH-MBS-SelfServ, Time of Need Lite, July"
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "burials-memorials"
+  - "time-of-need"
+  - "usability-testing"
+  - "form"
+  - "MVP"
 ---
 
 # Research Plan for BAH-MBS-SelfServ, Time of Need Lite, [July 2025]

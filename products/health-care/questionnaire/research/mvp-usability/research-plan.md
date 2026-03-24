@@ -1,109 +1,114 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Healthcare Experience Team, MVP Upcoming Appointment Questionnaire Usability, October 2020"
+date: 2020-10-13
+last_updated: 2020-10-19
+team: "Healthcare Experience Team"
+product: "MVP Upcoming Appointment Questionnaire"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Need to usability test MVP upcoming appointment questionnaire design on mobile and desktop to validate content/question wording before launch"
+  product_location: "VA.gov health portal - pre-appointment questionnaire for primary care"
+  user_familiarity: "New product - MVP testing before launch"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/questionnaire/product/product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability-testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate Veterans can successfully complete the questionnaire"
+  - goal_2: "Identify any confusion from content or question wording"
+  - goal_3: "Test questionnaire on both mobile and desktop platforms"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are Veterans able to successfully complete the questionnaire?"
+  - "Is there any confusion caused by the content or question wording within the questionnaire?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will be able to successfully complete the questionnaire"
+  - "There will be minimal confusion created by the content and question wording within the questionnaire"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Confirm MVP questionnaire is easily usable by Veterans on both mobile and desktop before launch"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Split recruitment between mobile (6) and desktop (6) users"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Visited a primary care provider at VA in the last year"
+    - "At least four participants who had appointment since COVID began (mid-March 2020)"
+    - "One of the four must be a virtual visit"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least one iOS mobile device owner"
+    - "At least one Android mobile device owner"
+    - "At least 1 woman"
+    - "At least 1 person of color"
+    - "At least 1 participant 35 or under and 1 participant over 55"
+    - "At least one without college degree (enlisted Vets)"
+    - "At least one with college degree (officer Vets)"
+    - "At least one from rural or remote area"
+    - "At least one from major metropolitan area"
+    - "At least one with disability rating of 70% or greater"
+    - "At least one with identified cognitive consideration of PTSD or TBI"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you visited a primary care provider at the VA in the last year?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-10-13"
+  pilot_participant: "Team member"
+  research_dates: "2020-10-15 to 2020-10-19"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can manage their health services online"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/questionnaire/research/veteran-prioritization/research-plan.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "HCE: Health"
+  - "AUD: Veterans"
+  - "PRDT: Health-questionnaires"
+  - "usability-testing"
+  - "remote-moderated"
+  - "authenticated"
+  - "mobile"
+  - "desktop"
+  - "primary-care"
+  - "pre-appointment"
+  - "COVID-19"
+  - "PTSD"
+  - "TBI"
+study: "Healthcare Experience Team, MVP Upcoming Appointment Questionnaire Usability"
+type: "usability-testing"
 ---
 
 # Research Plan for Usability Testing the MVP Upcoming Appointment Questionnaire October 2020 

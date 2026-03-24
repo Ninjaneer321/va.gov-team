@@ -1,3 +1,40 @@
+---
+title: "Conversation Guide for identity-personalization, identity-personalization, 2026-03-23"
+author: Authenticated Experience Team
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "identity-personalization"
+portfolio: "Authenticated Experience"
+product: "identity-personalization"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans using VA.gov"
+
+# Related documents
+related_research_plan: "My VA MVP Round 2 Research Plan"
+related_prototype: "N/A"
+
+tags:
+  - my-va
+  - MVP
+  - round-2
+  - usability-testing
+  - conversation-guide
+  - identity-personalization
+description: "Round 2 conversation guide for My VA MVP user testing"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide: Testing MVP Round 2 Updates 
 
 Goal: Test MVP updates at the Pentagon to verify updates are user friendly and have not mmade things confusing.

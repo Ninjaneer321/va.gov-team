@@ -106,6 +106,21 @@ related_research:
     - "Study 4b: Tree Test for simplified mega menu"
     
 tags:
+  - va-gov-relaunch
+  - preview-va-gov
+  - usability-testing
+  - in-person
+  - MHV
+  - my-healthevet
+  - homepage
+  - navigation
+  - mega-menu
+  - benefit-hubs
+  - mobile
+  - desktop
+  - crisis-line
+  - unauthenticated
+  - research-plan
   - "AUD: Veterans"
   - "AUD: Clinicians"
   - "PRDT: Content"

@@ -111,6 +111,8 @@ related_research:
     - "VBA Debt Portal launched early 2021"
     - "Medical Copay Tool soft launched early 2022"
     
+
+study: "Debt Resolution Team, Combined VA Debt Portal, June"
 tags:
   - "AUD: Veterans"
   - "BNFT: Healthcare"

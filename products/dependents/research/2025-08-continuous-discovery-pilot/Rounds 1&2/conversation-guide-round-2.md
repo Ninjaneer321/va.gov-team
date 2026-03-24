@@ -1,38 +1,34 @@
-
 ---
-title: "Conversation Guide for Dependents Management Team, Email Content Testing, August 2025"
-author: "Megan Graham"
-date_created: "2025-08-14"
-last_modified: "2025-08-14"
-
-# NEW: Core research metadata
-team: "Dependents Management Team"
-portfolio: "benefits"
-product: "Dependents Management Tools"
-research_phase: "evaluative"
-research_method: "moderated_interview"
-
-# NEW: Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans with dependents on disability compensation benefits"
-
-# NEW: Related documents
-related_research_plan: "products/dependents/research/2025-08-continuous-discovery-pilot/Round 1/research-plan.md"
-related_prototype: "N/A"
-
+title: "Conversation Guide for Dependents Management Team, Email Content Testing Round 2, August 2025"
+type: "Conversation Guide"
+study_date: "2025-08-14"
+authors:
+  - "Megan Graham"
+  - "Ajia Wallace"
 tags:
-  - "AUD: Veterans"
-  - "BNFT: Disability"
-  - "PRDT: Dependents"
-  - "semi-structured-interviews"
-  - "content-testing"
+  - "AUD:Veterans"
+  - "PRDT:686c"
+  - "PRDT:Dependents"
+  - "RESRCH:Content-testing"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "RESRCH:Semi-structured-interviews"
+  - "BNFT:Disability-compensation"
+  - "DSC:Email-communications"
+  - "DSC:Dependent-verification"
+  - "VETJNY:Managing-benefits"
+team: "Dependents Management Team"
+portfolio: "Benefits"
+product:
+  - "686c Dependents Application"
+  - "Dependents Management"
+  - "Email Communications"
+research_round: "Continuous Discovery Pilot Round 2"
+participant_count: 8
+study_length: "60 minutes"
+date: "2025-08"
+related_research_plan: "products/dependents/research/2025-08-continuous-discovery-pilot/research-plan.md"
 description: "Round 2 of continuous discovery pilot testing email content variations for dependent verification communications with Veterans receiving disability compensation."
-
-# NEW: Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
 ---
 # Conversation Guide for [initiative]
 

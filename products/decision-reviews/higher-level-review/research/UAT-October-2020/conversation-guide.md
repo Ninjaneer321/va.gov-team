@@ -1,31 +1,26 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: Conversation Guide for Benefits Decision Reviews, Higher-Level Review (20-0996),
+  2020 10
+author: Christian Valla
+date_created: '2020-10-01'
+last_modified: '2020-10-01'
+team: Benefits Decision Reviews
+portfolio: benefits
+product: Higher-Level Review (20-0996)
+research_phase: validation
+research_method: uat
+session_duration: 30 minutes
+session_type: remote_moderated
+participant_criteria: Veterans who would file Higher-Level Review
+related_research_plan: products/decision-reviews/higher-level-review/research/UAT-October-2020/research-plan.md
+related_prototype: N/A
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+- HLR
+- 20-0996
+- decision-reviews
+- UAT
+- validation
+description: User acceptance testing for Higher-Level Review form before launch.
 recording_required: true
 observer_support: true
 consent_for_clips: true

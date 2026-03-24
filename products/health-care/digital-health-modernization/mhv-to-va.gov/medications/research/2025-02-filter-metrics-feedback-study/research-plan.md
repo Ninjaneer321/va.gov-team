@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for MHV on VA.gov, Medications - Filter (Dec - Feb 2025)"
-date: 2024-12-11
+date: 2025-02-01
 last_updated: 2025-02-18
 team: "Digital Health Modernization"
 product: "MHV on VA.gov - Medications"
@@ -107,12 +107,25 @@ related_research:
     
 tags:
   - "health-care"
+  - "MHV"
+  - "My-HealtheVet"
+  - "migration"
   - "medications"
-  - "metrics-monitoring"
-  - "feedback-collection"
-  - "filter-feature"
+  - "prescriptions"
+  - "pharmacy"
+  - "filters"
+  - "metrics"
+  - "feedback"
+  - "analytics"
+  - "evaluative"
   - "veterans"
-  - "continuous-research"
+  - "post-launch"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: My-HealtheVet"
+  - "PRDT: Medications"
+study: MHV on VA.gov, Medications - Filter (Dec - Feb 2025)
+type: Usability
 ---
 
 # Research Plan for MHV on VA.gov, Medications - Filter (Dec - Feb 2025)

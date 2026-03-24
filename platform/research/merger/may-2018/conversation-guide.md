@@ -1,3 +1,28 @@
+---
+type: conversation_guide
+study_name: Baseline Usability Testing for VA.gov - Merger Study
+team: Platform
+product: VA.gov - Merger
+platform: VA.gov
+moderator: Platform team
+date: "2018-05"
+research_method: Baseline usability testing
+session_type: moderated_remote
+session_duration_minutes: 50
+number_of_participants: 8-10
+tags:
+  - platform
+  - va-gov-merger
+  - usability-testing
+  - baseline-testing
+  - navigation
+  - benefits
+  - healthcare
+  - disability-compensation
+  - education-benefits
+  - home-loans
+---
+
 # Conversation Guide - Baseline Usability testing for VA.gov
 
 ## Moderator logistics

@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for AVS on VA.gov MVP, May 2023"
-date: 2023-06-06
+date: 2023-04-01
 last_updated: 2023-06-06
 team: "Digital Health Modernization"
 product: "After Visit Summary (AVS) on VA.gov"
@@ -110,20 +110,22 @@ related_research:
 tags:
   - "AUD: Veterans"
   - "AUD: Caregivers"
-  - "BNFT: Healthcare"
-  - "MHV: After-Visit-Summary"
-  - "MHV: Medical-Records"
   - "PRDT: MHV-on-VA.gov"
-  - "PRDT: Appointments"
-  - "RESRCH: Usability"
+  - "PRDT: AVS"
+  - "RESRCH: Usability-testing"
   - "RESRCH: Remote"
-  - "RESRCH: Prototype"
-  - "HDW: Mobile"
-  - "authenticated"
-  - "care-summaries"
-  - "appointment-summary"
-  - "medical-documentation"
-  - "digital-health-modernization"
+  - "HCE: Health-care"
+  - "BNFT: Healthcare"
+  - MHV
+  - My-HealtheVet
+  - after-visit-summary
+  - MVP
+  - evaluative
+  - moderated
+  - migration
+  - notifications
+study: AVS on VA.gov MVP
+type: Usability
 ---
 
 # Research Plan for AVS on VA.gov MVP May, 2023

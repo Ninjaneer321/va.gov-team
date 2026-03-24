@@ -90,11 +90,22 @@ related_research:
     - "[Medical Records Research Review Synthesis - February 2026](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2026-02_Research_Review/research-synthesis.md)"
     
 tags:
+  - "health-care"
+  - "MHV"
+  - "My-HealtheVet"
+  - "migration"
   - "medical-records"
+  - "notifications"
   - "usability-testing"
+  - "remote"
+  - "evaluative"
+  - "moderated"
   - "veterans"
-  - "evaluative-research"
-  - "findability"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: My-HealtheVet"
+  - "PRDT: Medical-Records"
+  - "PRDT: Notifications"
 ---
 
 

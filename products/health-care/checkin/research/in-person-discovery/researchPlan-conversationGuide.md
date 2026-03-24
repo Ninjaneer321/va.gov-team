@@ -1,109 +1,119 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Check-in Team, In-Person Discovery Research, 2020"
+date: 2020-01-01
+last_updated: 2020-01-01
+team: "VSA Healthcare Experience - Check-in"
+product: "Patient Check-in"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Need to understand how Veterans currently check in for appointments at VA facilities using kiosks, staff interactions, and 'I am here' methods to inform the design of a mobile check-in solution."
+  product_location: "VA.gov check-in experience - discovery phase"
+  user_familiarity: "Discovery research for new product"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/product/product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "observational research and intercept interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: in-person
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "San Francisco VAMC, Seattle VAMC, Durham VAMC"
+    point_of_contact: "Martha Wilkes (Durham), Ming Ligh (Seattle), Steve and Kimberly McManus (San Francisco)"
+    equipment: "Observation notes, consent forms"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Observe and understand current check-in behaviors and processes at multiple VA facilities"
+  - goal_2: "Learn about Veterans' preferences for check-in methods (kiosk, staff, mobile)"
+  - goal_3: "Identify pain points and opportunities in the current check-in experience"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do Veterans currently check in for appointments (kiosk, staff, I am here)?"
+  - "What do Veterans like and dislike about current check-in methods?"
+  - "How would Veterans feel about checking in using their mobile phone?"
+  - "What is the ideal check-in experience from a Veteran's perspective?"
+  - "How has COVID-19 changed the check-in process?"
+  - "What information do Veterans need to provide during check-in?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans have varying preferences for check-in methods based on their comfort with technology"
+  - "Current check-in processes have pain points that could be addressed with a mobile solution"
+  - "Veterans would be open to using mobile check-in if it simplified the process"
+  - "COVID-19 has created new considerations for contactless check-in"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Understand current check-in workflows and Veteran preferences to inform mobile check-in product design"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "On-site intercepts"
+  approach: "convenience sampling of Veterans arriving for appointments"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans checking in for appointments at VA facilities"
+    - "Mix of appointment types"
+    - "Various check-in methods (kiosk, staff, mobile)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Range of technology comfort levels"
+    - "Mix of facility types and locations"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you here for an appointment?"
+      qualifying_response: "Yes"
+    - question: "Do you have a few minutes to talk about your check-in experience?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 30
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 30
+  completed_sessions_goal: 20
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: ""
+  pilot_participant: ""
+  research_dates: "2020"
+  research_review_submission: ""
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 20
+  buffer_minutes: 0
+  max_sessions_per_day: 10
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Understand current state to inform digital check-in"
+  - objective: "Improve Veteran satisfaction with VA services"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Identify check-in pain points"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Living civilian life"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - ""
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "check-in"
+  - "discovery"
+  - "observational-research"
+  - "intercept-interviews"
+  - "in-person"
+  - "veterans"
+  - "kiosk"
+  - "authenticated"
+  - "health-care"
+  - "appointments"
 ---
 
 

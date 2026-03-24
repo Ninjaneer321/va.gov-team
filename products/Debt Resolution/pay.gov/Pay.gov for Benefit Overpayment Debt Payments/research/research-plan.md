@@ -139,7 +139,19 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2024-9-copay-usability/research-plan.md"
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2024-6-overpayment-usability/research-plan.md"
 
+
+study: "Financial Management, Pay.gov for Benefit Overpayment Debt Payments,"
 tags:
+  - debt-resolution
+  - pay-gov
+  - overpayment-debt
+  - payments
+  - financial-management
+  - hosted-collection-pages
+  - usability-testing
+  - interviews
+  - authenticated
+  - research-plan
   - "AUD: Veterans"
   - "BNFT: Finances"
   - "BNFT: Education"

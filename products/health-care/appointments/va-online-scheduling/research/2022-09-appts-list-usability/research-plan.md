@@ -1,10 +1,30 @@
 ---
-# Research Plan Metadata
 title: "Research Plan for VAOS Team, Appointments List Usability Test, September 2022"
-date: 2022-08-17
-last_updated: 2022-08-17
+type: "Research Plan"
+study_date: "2022-08-29"
+authors:
+  - "Peter Russo"
+  - "Ciera Maddox"
+tags:
+  - "AUD: Veterans"
+  - "PRDT: VAOS"
+  - "PRDT: Appointments"
+  - "RESRCH: Usability-testing"
+  - "RESRCH: Remote"
+  - "RESRCH: Mobile"
+  - "RESRCH: Desktop"
+  - "HCE: Health-care"
+  - "DSC: Cognitive-disability"
 team: "VA Online Scheduling (VAOS) Team"
-product: "VA Online Scheduling (VAOS) Appointments List"
+portfolio: "Health Care"
+product:
+  - "VA Online Scheduling"
+  - "Appointments List"
+research_round: "Usability"
+participant_count: 16
+study_length: "1 hour"
+date: "2022-09"
+last_updated: 2022-08-17
 product_area: "authenticated"
 
 # Background Context
@@ -95,18 +115,16 @@ related_research:
     - "MHV+VAOS Gap analysis recommendations (VA Network)"
 
 tags:
-  - "AUD: Veterans"
-  - "BNFT: Healthcare"
-  - "PRDT: Appointments"
-  - "PRDT: VA Online Scheduling"
-  - "MHV: Appointments"
-  - "usability-testing"
-  - "authenticated-experience"
-  - "mobile"
-  - "desktop"
-  - "VAOS"
-  - "MyHealtheVet"
-  - "cognitive-disability"
+  - HCE
+  - UAT
+  - VAOS
+  - appointments
+  - caregivers
+  - discovery
+  - mobile
+  - usability-testing
+study: VAOS Team, Appointments List Usability Test
+type: UAT
 ---
 
 Research plan for VAOS appointments list usabilty test

@@ -1,42 +1,37 @@
 ---
 title: "Conversation Guide for Debt Resolution Team, VHA Debt Portal Payment History, September 2024"
-author: "Charlotte Cesana"
-date_created: "2024-09-01"
-last_modified: "2024-09-01"
-
-# NEW: Core research metadata
+type: "Conversation Guide"
+study_date: "2024-09-01"
+authors:
+  - "Charlotte Cesana"
+tags:
+  - "AUD:Veterans"
+  - "PRDT:VHA-Debt-Portal"
+  - "PRDT:Payment-History"
+  - "RESRCH:Usability"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "RESRCH:Prototype-testing"
+  - "BNFT:Health-care"
+  - "DSC:Medical-Copay"
+  - "DSC:Billing"
+  - "DSC:Payment-activity"
+  - "DSP:Transaction-history"
+  - "HDW:Desktop"
+  - "VETJNY:Managing-benefits"
 team: "Debt Resolution Team"
-portfolio: "health"
-product: "VHA Debt Portal Payment History"
-research_phase: "usability"
-research_method: "usability_test"
-
-# NEW: Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans with VA medical copay bills"
-
-# NEW: Related documents
+portfolio: "Health"
+product:
+  - "VHA Debt Portal"
+  - "Payment History"
+  - "Copay Bills"
+research_round: "Copay Usability Testing"
+participant_count: 8
+study_length: "60 minutes"
+date: "2024-09"
 related_research_plan: "products/combined_va_debt_portal/payment-history/research/2024-9-copay-usability/research-plan.md"
 related_prototype: "https://codepen.io/team/Debt-Team/live/mdZZdeP"
-
-tags:
-  - "copay"
-  - "medical debt"
-  - "payment history"
-  - "debt portal"
-  - "usability testing"
-  - "health care"
-  - "VHA"
-  - "billing"
-  - "transaction history"
-  - "payment activity"
 description: "Usability and comprehension study for the VHA Debt Portal Payment History copay bills feature, testing participants' ability to understand copay bill information, payment activity, and resolution options."
-
-# NEW: Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
 ---
 
 

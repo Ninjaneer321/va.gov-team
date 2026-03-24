@@ -1,36 +1,41 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: "Conversation Guide for 534EZ Usability Testing, January 2026"
+author: "Pension Team"
+date_created: "2026-01-01"
+last_modified: "2026-01-01"
+team: "Pension and Survivor Benefits"
+portfolio: "benefits"
+product: "Form 21P-534EZ - Application for DIC, Survivors Pension, and Accrued Benefits"
+product_area: "authenticated"
+research_phase: "usability"
+research_method: "usability_test"
+session_duration: "90 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Surviving spouses or dependents of Veterans who are eligible for survivor benefits"
+related_research_plan: "products/pension/research/2026-01 534EZ Usability Study/research-plan.md"
+related_prototype: "https://staging.va.gov/family-and-caregiver-benefits/survivor-compensation/apply-for-dic-survivors-pension-accrued-benefits-form-21p-534ez/introduction"
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+  - "pension"
+  - "survivors-benefits"
+  - "survivors-pension"
+  - "534EZ"
+  - "21P-534EZ"
+  - "DIC"
+  - "dependency-indemnity-compensation"
+  - "usability-testing"
+  - "remote"
+  - "survivors"
+  - "dependents"
+  - "AUD: Survivors"
+  - "AUD: Dependents"
+  - "BNFT: Pension"
+  - "PRDT: 534EZ"
+description: "Usability testing for Form 21P-534EZ application for DIC, Survivors Pension, and Accrued Benefits to validate user flows, comprehension, and task completion for surviving spouses and dependents."
 recording_required: true
 observer_support: true
 consent_for_clips: true
+date: "2026-01"
 ---
-
 # Conversation Guide for 534EZ usability testing
 
 ## Moderator logistics 📋✅

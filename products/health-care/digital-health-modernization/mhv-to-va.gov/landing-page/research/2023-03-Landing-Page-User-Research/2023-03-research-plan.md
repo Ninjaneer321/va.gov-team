@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for Core MHV on VA.gov Landing Page User Research, March/April 2023"
-date: 2023-03-09
+date: 2023-03-01
 last_updated: 2023-03-09
 team: "Core MHV on VA.gov"
 product: "My HealtheVet Landing Page on VA.gov"
@@ -112,14 +112,20 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/overall-content-IA"
     
 tags:
-  - "MHV"
-  - "landing-page"
-  - "health-care"
-  - "wayfinding"
-  - "usability-testing"
-  - "screen-reader"
-  - "authenticated"
-  - "veterans"
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "PRDT: MHV-on-VA.gov"
+  - "PRDT: Landing-page"
+  - "RESRCH: Usability-testing"
+  - "RESRCH: Interviews"
+  - "HCE: Health-care"
+  - "BNFT: Healthcare"
+  - accessibility
+  - wayfinding
+  - mobile
+  - screenreader
+study: Core MHV on VA.gov Landing Page User Research
+type: Usability
 ---
 
 # Research Plan for Core MHV on VA.gov team, Landing Page User Research, March/April 2023

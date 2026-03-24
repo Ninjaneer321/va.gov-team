@@ -1,3 +1,13 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: **Mobile and Web: API Refactor Release Plan**
+date: March 24, 2026
+services: Veteran Status
+tags: release, veteran-status
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-status/mobile/API Refactor Release Plan.md
+---
 # **Mobile and Web: API Refactor Release Plan**
 
 ## Development

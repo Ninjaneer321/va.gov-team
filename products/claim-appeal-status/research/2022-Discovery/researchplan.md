@@ -100,6 +100,8 @@ related_research:
     - "CST Research Summary (2021) - Research with VSOs, quantitative analysis, co-design and usability sessions"
     - "https://www.notion.so/2022-June-PACT-Act-VSO-research-Report-2b1faf024d9643cd899ba0f8a00d3d3b"
     
+
+study: "Claim Status Tool Discovery, July"
 tags:
   - "AUD: Veterans"
   - "AUD: VA Staff"

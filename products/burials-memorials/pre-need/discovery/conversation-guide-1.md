@@ -1,34 +1,32 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: "Conversation Guide for Burials and Memorials, Pre-Need Burial Application (Form 40-10007), Discovery, 2018"
+type: "Conversation Guide"
+study_date: "2018-01-01"
+authors:
+  - "Emily Waggoner"
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+  - "AUD:Veterans"
+  - "PRDT:Burials-memorials"
+  - "PRDT:Pre-need"
+  - "PRDT:Form-40-10007"
+  - "RESRCH:Discovery"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "BNFT:Burial-benefits"
+  - "DSC:Form"
+  - "DSP:Wayfinding"
+  - "HDW:Desktop"
+  - "VETJNY:Planning-for-the-future"
+team: "Burials and Memorials"
+portfolio: "Benefits"
+product:
+  - "Pre-Need Burial Application"
+  - "Form 40-10007"
+  - "National Cemetery"
+research_round: "Discovery"
+participant_count: 5
+study_length: "45 minutes"
+date: "2018-01"
 ---
 
 ## Introduction

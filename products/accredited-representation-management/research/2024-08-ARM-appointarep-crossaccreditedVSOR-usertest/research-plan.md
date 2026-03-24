@@ -108,6 +108,8 @@ related_research:
     - "2024-02 ARM Appoint a Representative Unauthenticated User Test"
     - "2024-01 ARM Authenticated Appoint a Representative Form User Test"
     
+
+study: "ARM Team, Appoint a Representative - Cross-Accredited VSOR - User Test, 08/2024"
 tags:
   - "AUD: Veteran Service Organization (VSO)"
   - "BNFT: Disability"

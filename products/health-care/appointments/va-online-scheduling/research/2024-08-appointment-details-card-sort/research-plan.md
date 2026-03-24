@@ -102,26 +102,14 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2024-08-appointment-details-card-sort/card-sort-outline.md"
     
 tags:
-  - "health-care"
-  - "appointments"
-  - "VAOS"
-  - "card-sort"
-  - "unmoderated"
-  - "remote"
-  - "veterans"
-  - "authenticated-experience"
-  - "information-architecture"
-  - "appointment-details"
-  - "travel-reimbursement"
-  - "optimal-workshop"
-  - "mobile"
-  - "desktop"
-  - "cognitive-disability"
-  - "women"
-  - "diverse-demographics"
-  - "rural"
-  - "generative"
-  - "evaluative"
+  - HCE
+  - UAT
+  - VAOS
+  - appointments
+  - caregivers
+  - mobile
+study: Appointment Details Page Unmoderated Card Sort - Research Plan
+type: UAT
 ---
 
 # Appointment Details Page Unmoderated Card Sort - Research Plan

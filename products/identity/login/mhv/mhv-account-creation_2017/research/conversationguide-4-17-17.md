@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for Identity, MHV Account Creation Blue Button Testing, March 2017"
+author: "MHV Account Creation Team"
+date_created: "2017-03-01"
+last_modified: "2017-04-17"
+
+# Core research metadata
+team: "Identity"
+portfolio: "digital-experience"
+product: "MyHealtheVet Account Creation"
+research_phase: "usability"
+research_method: "usability_test"
+
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who are new to MHV and want to access health records"
+
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://marvelapp.com/3687i59"
+
+tags:
+  - "identity"
+  - "MHV"
+  - "account-creation"
+  - "blue-button"
+  - "usability-testing"
+description: "Usability testing of MHV account creation flow and Blue Button health records download, testing if MHV branding is confusing and if consent/terms are clear."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: false
+---
+
 # March 2017 Account Creation Test with Blue Button questions
 
 ## Goals

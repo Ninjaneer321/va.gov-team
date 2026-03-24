@@ -1,109 +1,125 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Check-in Team, Check-in MVP UAT, August 2021"
+date: 2021-08-01
+last_updated: 2021-08-01
+team: "VSA Healthcare Experience - Check-in"
+product: "Patient Check-in"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need a better way to check in for medical appointments that reduces wait times and improves the check-in experience. This research aims to test the MVP mobile check-in solution in a real-world environment at pilot locations with actual Veterans and staff."
+  product_location: "VA.gov check-in experience"
+  user_familiarity: "New product - MVP launch"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/product/product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "in-person UAT with intercept interviews and observational research"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: in-person
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "Martinsburg VAMC (primary MVP site)"
+    point_of_contact: "To be coordinated with MVP site"
+    equipment: "Mobile phones, observation materials"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Get feedback on the initial limited release of MVP with real users checking in and staff"
+  - goal_2: "Understand the impact to staff workflow when Veterans check in on their mobile phones"
+  - goal_3: "Understand pre-registration needs and check-in indicators needed by staff"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "After a Veteran utilizes the new mobile check-in solution, are they called back for their appointment without having to talk to a clerk/MSA?"
+  - "What is the impact to the staff workflow when Veterans check in on their mobile phones?"
+  - "How do Veterans and staff feel about the mobile check-in solution?"
+  - "Where within the facility should Veterans utilize VA.gov to check in for their appointment?"
+  - "What do MSAs need/want to be notified about related to check in?"
+  - "What is important to administration about pre-registration and insurance capture?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will successfully check in via their mobile phone and clinical staff will know the Veteran is in the waiting room without needing to speak directly to them"
+  - "Clerks/MSAs should have shorter lines of Veterans waiting to check in since Veterans will utilize this solution"
+  - "There should be minimal to no impact to clinical staff's workflow on how they know a Veteran has arrived for their appointment"
+  - "Veteran and staff responses will indicate that the mobile phone check-in solution is useful and does not negatively impact experience or clinical workflow"
+  - "Veteran should utilize VA.gov to check in for their appointment when they reach the clinic check-in area/waiting room"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate that the MVP check-in solution works in a real-world environment and identify any issues before broader rollout"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "MVP site staff (intercept interviews)"
+  approach: "in-person intercepts at pilot site"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans arriving for appointments at MVP pilot site"
+    - "Veterans with single appointment (not multiple appointments in one day)"
+    - "Staff members (MSAs, clerks, clinical staff) at MVP site"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mix of different clinic types"
+    - "Various appointment times (busy and less busy periods)"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have more than one VA appointment today that you have not already completed?"
+      qualifying_response: "No (to qualify for mobile check-in)"
       
 participants:
-  veterans: 0
+  veterans: 15
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: ""
+  pilot_participant: "MVP site coordination"
+  research_dates: "August 2021"
+  research_review_submission: ""
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 15
+  buffer_minutes: 0
+  max_sessions_per_day: 15
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increase use of digital self-service tools"
+  - objective: "Improve Veteran satisfaction with VA.gov"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Validate MVP improves check-in experience"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Living civilian life"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/veteran-facing/mvp-usability/research-findings.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "patient-check-in"
+  - "PCI"
+  - "HCE"
+  - "check-in"
+  - "MVP"
+  - "UAT"
+  - "remote"
+  - "evaluative"
+  - "moderated"
+  - "veterans"
+  - "mobile"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Check-in"
+study: Check-in Team, Check-in MVP UAT
+type: UAT
 ---
 
 # Research Plan and Conversation Guide for Check-in MVP UAT

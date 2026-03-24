@@ -1,46 +1,38 @@
 ---
-title: "Conversation Guide for VA.gov Relaunch Study 6 - Remote Usability Testing, November 2018"
-author: "Unknown"
-date_created: "2018-11-01"
-last_modified: "2026-02-11"
-
-# Core research metadata
-team: "VA.gov Relaunch"
-portfolio: "digital-experience"
-product: "VA.gov Homepage and Benefit Hubs"
-research_phase: "usability"
-research_method: "usability_test"
-
-# Session details
-session_duration: "45 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans who have visited VA websites in the past"
-
-# Related documents
-related_research_plan: "N/A"
-related_prototype: "https://preview.va.gov"
-
+title: "Conversation Guide for VA.gov Relaunch Team, Remote Usability Testing Study 6, November 2018"
+type: "Conversation Guide"
+study_date: "2018-11-01"
+authors:
+  - "VA.gov Relaunch Team"
 tags:
   - "AUD:Veterans"
   - "PRDT:VA.gov"
   - "PRDT:Content"
-  - "PRDT:Benefit Hubs"
+  - "PRDT:Benefit-hubs"
+  - "RESRCH:Usability"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
   - "BNFT:Disability"
   - "BNFT:Education"
   - "BNFT:Burials"
-  - "DSP:Help users to navigate"
-  - "DSP:Content Presentation"
-  - "usability-testing"
-  - "moderated-usability-testing"
-  - "navigation-testing"
+  - "DSC:Navigation"
+  - "DSC:Content-presentation"
+  - "DSP:Help-users-to-navigate"
   - "HDW:Desktop"
   - "HDW:Laptop"
-description: "Remote usability testing of the Preview.va.gov homepage and benefit hubs including disability, education, and burial content. Evaluates navigation patterns, information architecture, and task completion across six core Veteran scenarios."
-
-# Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: false
+  - "VETJNY:Getting-out"
+  - "VETJNY:Putting-down-roots"
+  - "VETJNY:Dying"
+team: "VA.gov Relaunch Team"
+portfolio: "Digital Experience"
+product:
+  - "VA.gov Relaunch"
+  - "Preview.va.gov"
+  - "Benefit Hubs"
+research_round: "Study 6"
+participant_count: "TBD"
+study_length: "45 minutes"
+date: "2018-11"
 ---
 
 # Conversation Guide Study 6 - Remote Usability Testing Preview.va.gov

@@ -1,34 +1,33 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: "Conversation Guide for Authenticated Experience Team, My VA Usability Research V2, September 2020"
+type: "Conversation Guide"
+study_date: "2020-09-01"
+authors:
+  - "Tressa Furner (tressa.furner@adhocteam.us)"
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+  - "AUD:Veterans"
+  - "PRDT:My-VA"
+  - "PRDT:Authenticated-experience"
+  - "RESRCH:Usability"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "BNFT:Disability"
+  - "BNFT:Health-care"
+  - "BNFT:Education"
+  - "DSP:Personalization"
+  - "DSP:Dashboard"
+  - "HDW:Smartphone"
+  - "VETJNY:Taking-care-of-themselves"
+  - "VETJNY:Putting-down-roots"
+team: "Authenticated Experience"
+portfolio: "Digital Experience"
+product:
+  - "My VA"
+  - "My VA 2.0 Redesign"
+research_round: "Usability Round 2"
+participant_count: "TBD"
+study_length: "75 minutes"
+date: "2020-09"
 ---
 
 # Conversation Guide for MyVA (2)

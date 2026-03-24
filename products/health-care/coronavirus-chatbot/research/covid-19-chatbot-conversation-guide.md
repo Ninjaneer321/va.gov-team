@@ -1,31 +1,38 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: COVID-19 Chatbot Usability Testing, March 2020"
+author: "Todd Stanich"
+date_created: "2020-03-30"
+last_modified: "2020-03-30"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Public Websites"
+portfolio: "health"
+product: "Coronavirus Chatbot"
+research_phase: "usability"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans seeking COVID-19 information"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "COVID-19 chatbot prototypes (decision tree and free text)"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Chatbot"
+  - "PRDT: Coronavirus-chatbot"
+  - "usability-testing"
+  - "prototype-testing"
+  - "COVID-19"
+  - "conversational-ai"
+  - "remote-research"
+description: "Usability testing conversation guide for COVID-19 chatbot prototype comparing decision tree and free text interaction models."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

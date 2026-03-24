@@ -107,22 +107,16 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2024-05-oh-scheduling/conversation-guide.md"
     
 tags:
-  - "health-care"
-  - "appointments"
-  - "VAOS"
-  - "oracle-health"
-  - "usability-testing"
-  - "moderated"
-  - "remote"
-  - "veterans"
-  - "authenticated-experience"
-  - "scheduling"
-  - "provider-selection"
-  - "notifications"
-  - "mobile"
-  - "desktop"
-  - "cognitive-disability"
-  - "evaluative"
+  - HCE
+  - UAT
+  - VAOS
+  - accessibility
+  - appointments
+  - caregivers
+  - mobile
+  - usability-testing
+study: Appointments Oracle Health Integration and Scheduling Improvements
+type: UAT
 ---
 
 # Research Plan for Appointments Oracle Health integration and scheduling improvements

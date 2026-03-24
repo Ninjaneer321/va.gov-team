@@ -1,36 +1,49 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+# Conversation Guide Metadata
+title: "Conversation Guide for Financial Management Team, Digital Dispute Tool and Request/Submit Page Research, May 2025"
+author: "Charlotte, Financial Management Team"
+date_created: "2025-05-01"
+last_modified: "2026-03-23"
+team: "Financial Management Team (Debt Resolution)"
+product: "Digital Dispute Tool and Request/Submit Page"
+product_area: "authenticated"
+portfolio: "Benefits"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Research Context
+study_name: "Digital Dispute Tool and R/S Page Usability Research"
+research_phase: "Usability testing"
+research_type: "Moderated usability testing"
+research_method: "Remote moderated usability testing with digital portal"
+session_format: "Remote moderated sessions"
+session_duration: "60 minutes"
+participant_type: "Veterans with VA overpayment debts"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Research Planning
+related_research_plan: ""
+related_prototype: "Digital dispute wizard prototype"
+environment: "Digital portal prototype testing"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
-tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+# Logistics
 recording_required: true
-observer_support: true
 consent_for_clips: true
----
+observer_support: true
 
+# Tags
+tags:
+  - "research"
+  - "conversation-guide"
+  - "moderated-research"
+  - "usability-testing"
+  - "debt-resolution"
+  - "digital-dispute"
+  - "dispute-wizard"
+  - "overpayment-debt"
+  - "request-submit"
+  - "financial-management"
+  - "authenticated-experience"
+
+description: "Usability testing conversation guide for Digital Dispute Tool and Request/Submit page for VA overpayment debts. Tests how easily Veterans can understand payment options, request help, and submit disputes through digital portal. Evaluates wizard flow for dispute submissions and overall experience addressing or resolving overpayment debt."
+---
     # Conversation Guide for R/S Page & Digital Dispute
 
 # Moderator logistics 📋✅

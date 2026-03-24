@@ -1,34 +1,35 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: "Conversation Guide for Sitewide Home Page Team, VA.gov Home Page Redesign Usability Testing, September 2021"
+type: "Conversation Guide"
+study_date: "2021-09-01"
+authors:
+  - "Cindy Merrill (cindy.merrill@adhocteam.us)"
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+  - "AUD:Veterans"
+  - "AUD:Service-members"
+  - "AUD:Caregivers"
+  - "PRDT:VA.gov-home-page"
+  - "PRDT:Sitewide"
+  - "RESRCH:Usability"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "DSC:Navigation"
+  - "DSC:Content-presentation"
+  - "DSP:Help-users-to-navigate"
+  - "HDW:Desktop"
+  - "HDW:Smartphone"
+  - "HDW:Tablet"
+  - "VETJNY:Taking-care-of-themselves"
+  - "VETJNY:Putting-down-roots"
+  - "VETJNY:Getting-out"
+team: "Sitewide Home Page Team (Public Websites)"
+portfolio: "Digital Experience"
+product:
+  - "VA.gov Home Page Redesign"
+research_round: "Round 1"
+participant_count: "TBD"
+study_length: "60 minutes"
+date: "2021-09"
 ---
 
 # Conversation Guide: VA.gov Home Page Redesign Usability Testing

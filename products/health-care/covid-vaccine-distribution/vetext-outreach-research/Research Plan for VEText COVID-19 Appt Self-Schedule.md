@@ -1,109 +1,102 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VEText COVID-19 Appt Self-Schedule, February 2021"
+date: 2021-02-18
+last_updated: 2021-02-18
+team: "VA OCTO, VEText Team"
+product: "VEText COVID-19 Vaccine Appointment Self-Scheduling"
+product_area: "health-care"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "VA is using VEText for direct scheduling of COVID-19 vaccine appointments, deployed in late January with over 30,000 appointments scheduled as of 2/16/21. However, we are seeing a low response rate and need to understand how to improve the notification process."
+  product_location: "VEText (text messaging system for VA appointments)"
+  user_familiarity: "Iteration - existing VEText users receiving COVID vaccine notifications"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/products/health-care/covid-vaccine-distribution/"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate effectiveness of VA's text-based outreach for COVID-19 vaccine appointments"
+  - goal_2: "Identify improvements to increase response rate to VEText notifications"
+  - goal_3: "Understand Veterans' COVID vaccine experience and expectations"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are the notifications that VA is using to reach out to Veterans about COVID-19 appointments effective?"
+  - "How can VA improve its text-based outreach to Veterans to increase response rate?"
+  - "What are current wins/pain points related to the Veterans' vaccine experience at VA?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans may not recall or know that they received a text message, or may not be aware that it is from VA"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Identify specific improvements to VEText COVID vaccine outreach to increase response rates and improve Veteran engagement"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "targeted recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who have been reached out to about the vaccine via text message"
+    - "Veterans who have not responded to VEText outreach"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Geographic diversity"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Has participant been contacted via VEText for COVID vaccine?"
+      qualifying_response: "Yes, but did not respond"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-02-17"
+  pilot_participant: "Danielle"
+  research_dates: "2021-02-18 to 2021-02-26"
+  research_review_submission: "2021-02-17"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 30
+  buffer_minutes: 0
+  max_sessions_per_day: 6
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve COVID-19 vaccine appointment scheduling"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Living civilian life"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/products/health-care/covid-vaccine-distribution/research/"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "semi-structured-interviews"
+  - "veterans"
+  - "evaluative"
+  - "VEText"
+  - "COVID-19"
 ---
 
 # Research Plan for VEText COVID-19 Appt Self-Schedule

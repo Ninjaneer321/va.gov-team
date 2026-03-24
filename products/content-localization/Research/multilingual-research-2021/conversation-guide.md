@@ -1,34 +1,39 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: "Conversation Guide for Sitewide Content and IA, Content Localization, Multilingual Research, January 2021"
+author: "Danielle Thierry, Eunice Garcia"
+date_created: "2021-01-01"
+last_modified: "2021-01-01"
+team: "Sitewide Content and IA"
+portfolio: "digital-experience"
+product: "Content Localization"
+product_area: "unauthenticated"
+research_phase: "discovery"
+research_method: "moderated_interview"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans and family members with limited English proficiency (LEP), Spanish speakers"
+related_research_plan: "products/content-localization/Research/multilingual-research-2021/research-plan.md"
+related_prototype: "VA.gov live site and COVID-19 vaccine page"
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+  - "content-localization"
+  - "multilingual"
+  - "LEP"
+  - "limited-english-proficiency"
+  - "translation"
+  - "discovery"
+  - "language-access"
+  - "Spanish"
+  - "sitewide"
+  - "veterans"
+  - "family-members"
+  - "AUD: Veterans"
+  - "AUD: Family Members"
+  - "PRDT: Content Localization"
+description: "Discovery research with limited English proficiency Veterans and family members to understand content localization needs, language preferences, and experiences with translated content on VA.gov."
 recording_required: true
 observer_support: true
 consent_for_clips: true
+date: "2021-01"
 ---
 
 # Conversation guide for multilingual research 2021

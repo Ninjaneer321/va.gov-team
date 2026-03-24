@@ -1,47 +1,42 @@
 ---
-title: "Conversation Guide for Facilities Team, Mobile Map Usability, March 2025"
-author: "[AUTHOR NAME]"
-date_created: "2025-03-01"
-last_modified: "2025-03-01"
-
-# NEW: Core research metadata
-team: "Facilities Team"
-portfolio: "health"
-product: "Facility Locator"
-research_phase: "usability"
-research_method: "usability_test"
-
-# NEW: Session details
-session_duration: "45-75 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans, family members, and caregivers using mobile devices; includes assistive technology users"
-
-# NEW: Related documents
-related_research_plan: "products/facilities/facility-locator/initiatives/2023-2025-search-improvements/research/mobile-map/research-plan.md"
-related_prototype: "N/A"
-
+title: Conversation Guide for Facilities Team, Mobile Map Usability, March 2025
+author: Facilities Team
+date_created: '2025-03-01'
+last_modified: '2025-03-01'
+team: Facilities Team
+portfolio: health
+product: Facility Locator
+research_phase: usability
+research_method: usability_test
+session_duration: 45-75 minutes
+session_type: remote_moderated
+participant_criteria: Veterans, family members, and caregivers using mobile devices;
+  includes assistive technology users
+related_research_plan: products/facilities/facility-locator/initiatives/2023-2025-search-improvements/research/mobile-map/research-plan.md
+related_prototype: Figma mobile prototype
 tags:
-  - "AUD-veterans"
-  - "AUD-family-members"
-  - "AUD-caregivers"
-  - "PRDT-facility-locator"
-  - "BNFT-health-care"
-  - "DSC-map"
-  - "DSP-search"
-  - "HW-mobile"
-  - "HW-smartphone"
-  - "HW-tablet"
-  - "usability-testing"
-  - "assistive-technology"
-  - "screen-reader"
-description: "Usability testing of mobile map view in the Facility Locator, evaluating map navigation, location selection, facility comparison, and overlapping locations on smartphones and tablets."
-
-# NEW: Compliance flags
+- AUD-caregivers
+- AUD-family-members
+- AUD-veterans
+- BNFT-health-care
+- DSC-map
+- DSP-search
+- HW-mobile
+- HW-smartphone
+- HW-tablet
+- PRDT-facility-locator
+- assistive-technology
+- facilities
+- screen-reader
+- usability-testing
+description: Usability testing of mobile map view in the Facility Locator, evaluating
+  map navigation, location selection, facility comparison, and overlapping locations
+  on smartphones and tablets.
 recording_required: true
 observer_support: true
 consent_for_clips: true
+date: "2025-03"
 ---
-
 # Conversation Guide 
 
 ## Moderator logistics

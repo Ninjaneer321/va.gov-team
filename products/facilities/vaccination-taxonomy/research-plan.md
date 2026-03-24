@@ -1,110 +1,118 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Health Services - Vaccination Services Taxonomy"
+date: 2021-01-05
+last_updated: 2026-03-23
+team: "Facilities Team"
+product: "VA Medical Centers - Health Services Taxonomy"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Facilities team needs better understanding of how Veterans expect to find health services at VA to improve Veteran search experience, specifically for vaccination services at VA health care systems."
+  product_location: "VAMC facility pages"
+  user_familiarity: "Existing service - improving taxonomy and findability"
+  product_brief_url: "TBD"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
-  
+methodology: "Card Sorting"
+research_format:
+  location: remote
+  moderated: true
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Learn the Veteran mental models for vaccination within the health service taxonomy, primarily for VAMCs"
+  - goal_2: "Understand where in the VHA service taxonomy Veterans expect vaccination services to be found"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Where in the VHA service taxonomy do Veterans expect vaccination services to be found (primary care, pharmacy, specialty, or separate taxon)?"
+  - "What words do Veterans use when searching for vaccination-related services (vaccine/vaccination vs immunization vs shot)?"
+  - "Does the expectation change based on the type of vaccination (age-based, risk-based, seasonal flu, time-based, COVID)?"
+  - "When Veterans get a vaccine, is it part of primary care visit, pharmacy visit, or community-based vaccination program?"
+  - "How many times in the last 5 years have they had the flu shot?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will have varying mental models for where vaccination services should appear in the taxonomy"
+  - "Terminology preferences (vaccine vs vaccination vs immunization) will vary by Veteran"
+  - "Vaccination type (flu, COVID, age-based, etc.) will influence where Veterans expect to find information"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Understanding of Veteran mental models will inform VHA service taxonomy structure for vaccination services"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Diverse recruitment across demographics"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Be a Veteran, active duty service member, reservist, or national guard member"
+    - "Enrolled in VA health care"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
+    - "At least 3 participants living in rural or remote area"
+    - "At least 3 participants living in major metropolitan area"
+    - "At least 2 participants without college degree"
+    - "At least 4 females"
+    - "At least 2 participants of color"
+    - "At least 2 participants 35 or under"
+    - "At least 2 participants 36-50"
+    - "At least 2 participants 51-65"
+    - "At least 2 participants 66 or over"
+    - "At least 2 participants with cognitive disabilities"
+    - "At least 2 participants with disability rating of 70% or greater"
+
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
+  total_recruited: 15
+  completed_sessions_goal: 10
+
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-01-05"
+  pilot_participant: "Internal pilot"
+  research_dates: "2021-01-05 to 2021-01-12"
+  research_review_submission: "2020-12-29"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
-  
+  max_sessions_per_day: 4
+
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can access health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve health services findability"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
+  - "Taking care of myself"
+  - "Aging"
+
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
-    
+    - "Health services taxonomy research"
+
+# Team
+moderator: "Chris Logan"
+notetaker: "Perigean"
+observers: "Dave Conlon, Michelle Middaugh, Shawna Hein, Leyda Hughes, Jenny Heiland-Luedtke, Steve Tokar, Jeff Grandon"
+
+study: "Health Services - Vaccination Services Taxonomy, January 2021"
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - facilities
+  - health-services
+  - vaccination
+  - card-sort
+  - taxonomy
+  - VAMC
+  - service-taxonomy
+  - COVID-19
+  - flu-shots
 ---
+
 
 ## Health Services - Vaccination Services Taxonomy #17522
 The Facilities needs a better understanding of how Veterans expect to find health services at VA as a foundational part of improving the Veteran search experience. 
@@ -212,8 +220,4 @@ Please list the people who will be serving in each role.
   - Jenny Heiland-Luedtke <Jennifer.Heiland-Luedtke@va.gov>
   - Steve Tokar <Steve.Tokar2@va.gov>
   - Jeff Grandon <Jeffrey.Grandon@va.gov>
-- Note-takers: Perigean 
-
-
-  
-  
+- Note-takers: Perigean

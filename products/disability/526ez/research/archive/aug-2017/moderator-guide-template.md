@@ -1,3 +1,47 @@
+---
+title: "Conversation Guide Template for Claims Modernization Discovery Sprint, August 2017"
+author: "Melissa Schaff, Andrea Schneider"
+date_created: "2017-08-01"
+last_modified: "2026-03-24"
+
+# Core research metadata
+team: "Disability Benefits Experience"
+portfolio: "benefits"
+product: "Disability Compensation Claims (526EZ)"
+research_phase: "discovery"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "in_person"
+participant_criteria: "Veterans who have filed disability compensation claims"
+
+# Related documents
+related_research_plan: "products/disability/526ez/research/archive/aug-2017/readme.md"
+related_prototype: "N/A"
+
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Disability Compensation"
+  - "PRDT: Form 526EZ"
+  - "research"
+  - "discovery"
+  - "moderated-interview"
+  - "claims-modernization"
+  - "in-person"
+  - "user-interviews"
+  - "claims-process"
+  - "template"
+
+description: "Discovery interview template for Claims Modernization Sprint focused on understanding Veterans' experiences filing disability compensation claims, including process steps, pain points, communication, and trust."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Claims Modernization Discovery Sprint User Research
 
 ## Introduction

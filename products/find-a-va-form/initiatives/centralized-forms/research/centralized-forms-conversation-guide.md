@@ -1,53 +1,36 @@
 ---
-title: "Conversation Guide for Centralized Forms, Find a VA Form, 2026-03-19"
-author: "Tina Kambil"
-date_created: "2026-03-19"
-last_modified: "2026-03-19"
-
-# NEW: Core research metadata
-team: "Centralized Forms"
-portfolio: "benefits"
-product: "Find a VA Form"
-research_phase: "usability"
-research_method: "moderated_interview"
-
-# NEW: Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans who have recently needed to find and complete a VA form (mix of online and PDF/paper behaviors), including disability-related form use"
-
-# NEW: Related documents
-related_research_plan: "products/find-a-va-form/initiatives/centralized-forms/research/[ADD-RESEARCH-PLAN-FILENAME].md"
-related_prototype: "[ADD PROTOTYPE URL or N/A]"
-
+title: "Conversation Guide for Public Websites Team, Centralized Forms Discovery Research, March 2026"
+type: "Conversation Guide"
+study_date: "2026-03-01"
+authors:
+  - "Tina Ho (tina.ho@adhocteam.us)"
 tags:
-  # Audience
-  - "AUD: Veterans"
-
-  # Benefits / domain
-  - "BNFT: Disability"
-
-  # Product
-  - "PRDT: Find-a-va-form"
-
-  # Components & patterns (inferred from tasks focusing on form detail page + starting flows)
-  - "DSC: Links"
-  - "DSC: Accordion"
-  - "DSC: Alert Boxes"
-  - "DSP: Content Presentation"
-  - "DSP: Contextual Help"
-
-  # Method + themes
-  - "usability-testing"
-  - "semi-structured-interviews"
-  - "information-architecture"
-  - "navigation"
-  - "content-comprehension"
-  - "decision-making"
-  - "form-submission-options"
-  - "download-pdf"
-
-description: "A remote, moderated conversation guide to evaluate a centralized VA form detail experience on VA.gov, focusing on how Veterans navigate to forms, confirm a form is right for their situation, choose submission options (online vs PDF vs help), and understand next steps and related forms."
+  - "AUD:Veterans"
+  - "AUD:Family-members"
+  - "PRDT:Find-a-form"
+  - "PRDT:Forms"
+  - "RESRCH:Discovery"
+  - "RESRCH:Usability"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "RESRCH:Prototype-testing"
+  - "BNFT:All-benefits"
+  - "DSC:Content-presentation"
+  - "DSP:Search-and-discovery"
+  - "DSP:Form-submission"
+  - "HDW:Desktop"
+  - "HDW:Smartphone"
+  - "VETJNY:Getting-out"
+  - "VETJNY:Taking-care-of-themselves"
+team: "Public Websites - Search & Discovery Team"
+portfolio: "Digital Experience"
+product:
+  - "Find a VA Form"
+  - "Centralized Forms Initiative"
+research_round: "Discovery"
+participant_count: "TBD"
+study_length: "60 minutes"
+date: "2026-03"
 ---
 
 # Conversation Guide for Centralized Forms

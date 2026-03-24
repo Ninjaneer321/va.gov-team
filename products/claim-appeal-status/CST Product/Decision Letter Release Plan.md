@@ -1,3 +1,13 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Download Decision Letter Release Plan
+date: 11/2/22
+services: Claim Appeal Status
+tags: UAT, appeals, claims, release, testing
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/CST Product/Decision Letter Release Plan.md
+---
 # Download Decision Letter Release Plan 
 ## Phase I: UAT 
 ### Planning: 

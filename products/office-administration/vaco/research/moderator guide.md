@@ -1,3 +1,39 @@
+---
+title: "Moderator Guide for VA Office Administration, CMS Office Research Round 1, 2019"
+author: "VA.gov CMS Team"
+date_created: "2019-01-01"
+last_modified: "2019-01-01"
+
+# Core research metadata
+team: "Sitewide CMS"
+portfolio: "digital-experience"
+product: "VA.gov CMS"
+research_phase: "discovery"
+research_method: "stakeholder_interviews"
+
+# Session details
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VA office staff and content creators who use VA-sponsored websites and content"
+
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "N/A"
+
+tags:
+  - "CMS"
+  - "content-management"
+  - "stakeholder-research"
+  - "discovery-research"
+  - "VA-offices"
+description: "Discovery research with VA office staff to understand how they seek information about the VA, use VA content, and create content for Veterans."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: false
+---
+
 # VA.gov CMS Office research round 1: Moderator guide
 
 ### Research questions

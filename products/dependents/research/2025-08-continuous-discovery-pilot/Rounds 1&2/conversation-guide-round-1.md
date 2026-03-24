@@ -1,3 +1,29 @@
+---
+title: Conversation Guide for Benefits Dependents, 686c Dependents Application, 2025
+  08
+author: Ajia Wallace
+date_created: '2025-08-01'
+last_modified: '2025-08-01'
+team: Benefits Dependents
+portfolio: benefits
+product: 686c Dependents Application
+research_phase: discovery
+research_method: moderated_interview
+session_duration: 45 minutes
+session_type: remote_moderated
+participant_criteria: Veterans managing dependents
+related_research_plan: products/dependents/research/2025-08-continuous-discovery-pilot/research-plan.md
+related_prototype: N/A
+tags:
+- 686c
+- dependents
+- continuous-discovery
+- round-1
+description: Round 1 of continuous discovery pilot for dependents research.
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
 
 ---
 title: "Conversation Guide for Dependents Management Team, Continuous Discovery Pilot Round 1, August 2025"

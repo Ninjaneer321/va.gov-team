@@ -1,109 +1,118 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "My VA Mini Usability Study, May 2021"
+date: 2021-05-01
+last_updated: 2021-05-01
+team: "Authenticated Experience"
+product: "My VA 2.0 Redesign"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Quickly validate overall design direction and identify any major pain points before launch"
+  product_location: "My VA dashboard on VA.gov"
+  user_familiarity: "Major redesign validation"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/2.0-redesign/README.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Internal mini-usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Quickly understand if we are generally going in the right direction with planned launch"
+  - goal_2: "Test for confusion or major pain points with My VA redesign"
+  - goal_3: "Validate design with real user data instead of dummy data"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Does our solution present any usability hurdles?"
+  - "Does the overall layout we are launching with make sense to users?"
+  - "How can we better elevate action items on a user dashboard?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "People will be able to find and understand their information quickly and effectively"
+  - "There might be some confusion around how to get to specific tools (i.e. scheduling an appointment from My VA)"
+  - "Users might want more emphasis on their specific action items"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate design direction and identify any critical issues before launch, supplemented by post-launch testing"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Internal recruitment"
+  approach: "Convenience sampling from Ad Hoc/GCIO Veterans"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who work on VA contract (Ad Hoc/GCIO)"
+    - "Able to test on production using feature flag with real data"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse benefit experiences"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you a Veteran working on the VA contract?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 8
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 8
+  completed_sessions_goal: 5
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "Internal team member"
+  research_dates: "2021-05-01 to TBD"
+  research_review_submission: "TBD"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 20
+  buffer_minutes: 15
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Logged-in users can update their personal information easily and instantly"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Improved personalized dashboard experience"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Consolidated My VA dashboard"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/2.0-redesign/product/Research%20V2/MyVA2-research-plan.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - my-va
+  - my-va-2.0
+  - redesign
+  - usability-testing
+  - mini-study
+  - authenticated-experience
+  - personalization
+  - dashboard
+  - internal-testing
+  - feature-flag
+  - production-testing
+  - research-plan
+  - "my-va"
+  - "mini-usability"
+  - "mobile"
+  - "authenticated-experience"
 ---
 
 # Research Plan for VSA Authenticated Experience: MyVA Redesign May 2021

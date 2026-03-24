@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for Veterans Support Team, Resources and Support, Rate your experience feedback mechanism"
-date: 2023-10-16
+date: 2023-09-01
 last_updated: 2023-10-16
 team: "Veterans Support Team"
 product: "Resources and Support"
@@ -115,16 +115,15 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/content/tier-2-content-IA-and-design/learning-center-mvp/discovery-and-research/learning-center-mvp-findings-summary.md"
     
 tags:
-  - "AUD: Veterans"
-  - "PRDT: Resources and support"
-  - "PRDT: Content"
-  - "DSP: Feedback mechanisms"
-  - "research-method: usability-testing"
-  - "research-method: moderated"
-  - "device: desktop"
-  - "device: mobile"
-  - "assistive-technology"
-  - "cognitive-disability"
+  - UAT
+  - accessibility
+  - caregivers
+  - discovery
+  - mobile
+  - resources-and-support
+  - usability-testing
+study: Veterans Support Team, Resources and Support, Rate your experience feedback mechanism
+type: UAT
 ---
 
 #  Research Plan for Veterans Support Team, Resources and Support, Rate your experience feedback mechanism.

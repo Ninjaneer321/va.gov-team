@@ -100,6 +100,8 @@ related_research:
     - "Previous research on evidence request comprehension challenges"
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/CST%20Product/Improved%20Evidence%20Requests%20UX%20Initiative%202025-05.md"
     
+
+study: "BMT-1, Evidence Requests, July"
 tags:
   - "AUD: Veterans"
   - "BNFT: Disability"

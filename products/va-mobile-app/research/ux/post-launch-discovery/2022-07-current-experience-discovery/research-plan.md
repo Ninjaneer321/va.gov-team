@@ -1,10 +1,36 @@
 ---
-# Research Plan Metadata
 title: "Research Plan for VA Mobile App, Current Experience Discovery, July 2022"
-date: 2022-07-21
-last_updated: 2022-08-03
+type: "Research Plan"
+study_date: "2022-08-04"
+authors:
+  - "Melissa Lefevre"
+  - "Liz Straghalis"
+tags:
+  - "AUD: Veterans"
+  - "PRDT: VA Mobile App"
+  - "PRDT: VA Health and Benefits App"
+  - "RESRCH: Discovery Interviews"
+  - "RESRCH: Remote"
+  - "RESRCH: Post-Launch"
+  - "DSP: Health Services"
+  - "DSP: Benefits"
+  - "Digital Trust"
+  - "Mobile"
+  - "User Feedback"
 team: "VA Mobile App Team"
-product: "VA Mobile App - Post-Launch Discovery"
+portfolio: "Mobile"
+product:
+  - "VA Mobile App"
+  - "VA Health and Benefits"
+research_round: "post-launch discovery"
+participant_count: 10
+study_length: "60 minutes"
+date: "2022-08"
+# Research Plan Metadata (legacy)
+legacy_date: 2022-07-21
+last_updated: 2022-08-03
+legacy_team: "VA Mobile App Team"
+legacy_product: "VA Mobile App - Post-Launch Discovery"
 product_area: "authenticated"
 
 # Background Context

@@ -1,31 +1,26 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: Conversation Guide for Sitewide Content and IA, Audience Hubs, 2021 01
+author: Liz Lantz
+date_created: '2021-01-01'
+last_modified: '2021-01-01'
+team: Sitewide Content and IA
+portfolio: digital-experience
+product: Audience Hubs
+research_phase: evaluative
+research_method: moderated_interview
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: Active duty service members
+related_research_plan: products/content/audience-hubs/research/service-member/research-plan.md
+related_prototype: N/A
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+- audience-hubs
+- service-member
+- content-strategy
+- IA
+- evaluative
+description: Research with service members to evaluate audience hub content and information
+  architecture.
 recording_required: true
 observer_support: true
 consent_for_clips: true

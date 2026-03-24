@@ -1,15 +1,49 @@
 ---
-title: "Conversation Guide for Memorials Self Service, Time of Need - Schedule a Burial in a National Cemetery (10/2025)"
+# Conversation Guide Metadata
+title: "Conversation Guide for Memorials Self Service, Time of Need - Schedule a Burial in a National Cemetery, October 2025"
 author: "Carly Yamrus"
 date_created: "2025-10-24"
 last_modified: "2025-10-24"
+team: "Memorials Self Service Team"
+product: "Time of Need - Schedule a Burial in a National Cemetery"
+product_area: "authenticated"
+portfolio: "Benefits"
+
+# Research Context
+study_name: "Time of Need Burial Scheduling Usability Testing"
+research_phase: "Usability testing"
+research_type: "Moderated usability testing"
+research_method: "Prototype testing with families and representatives"
+session_format: "Remote moderated sessions"
+session_duration: "45 minutes"
+participant_type: "Family members and representatives scheduling Veteran burials"
+
+# Research Planning
+related_research_plan: ""
+related_prototype: "Time of Need burial scheduling prototype"
+environment: "Prototype testing environment"
+
+# Logistics
+recording_required: true
+consent_for_clips: true
+observer_support: true
+
+# Tags
 tags:
+  - "research"
+  - "conversation-guide"
+  - "moderated-research"
+  - "usability-testing"
   - "burials-memorials"
   - "time-of-need"
-  - "usability-testing"
   - "national-cemetery"
   - "self-service"
-description: "Research conversation guide for moderated usability testing sessions focused on the Time of Need Schedule a Burial process. Includes logistics, consent procedures, warm-up questions, through tasks, and closing."
+  - "burial-scheduling"
+  - "family-members"
+  - "end-of-life"
+  - "authenticated-experience"
+
+description: "Usability testing conversation guide for the Time of Need digital burial scheduling service. Tests how families and representatives schedule burials for Veterans at national cemeteries through a new self-service digital tool. Covers the complete burial request workflow from initial request through confirmation."
 ---
 # Conversation Guide for [Memorials Self Service, Time of Need Schedule a burial in a national cemetery, 10/2025]
 

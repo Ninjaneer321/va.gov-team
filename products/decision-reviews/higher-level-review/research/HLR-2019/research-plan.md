@@ -12,7 +12,7 @@ background:
   problem_statement: "Technical changes were made to HLR designs after initial testing. Need to test latest designs for usability issues, language comprehension, and flow clarity before launch."
   product_location: "VA.gov decision reviews section"
   user_familiarity: "Iteration - testing updated designs after previous research round"
-  product_brief_url: "TBD"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/decision-reviews/higher-level-review"
 
 # Research Design
 methodology: "usability-testing"

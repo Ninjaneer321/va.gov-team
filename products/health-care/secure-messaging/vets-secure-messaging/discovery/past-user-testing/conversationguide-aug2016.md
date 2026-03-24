@@ -1,3 +1,38 @@
+---
+title: "Conversation Guide for Secure Messaging, Discovery Research, August 2016"
+author: "MHV Secure Messaging Team"
+date_created: "2016-08-01"
+last_modified: "2016-08-01"
+
+# Core research metadata
+team: "MHV Secure Messaging"
+portfolio: "health"
+product: "Secure Messaging"
+research_phase: "discovery"
+research_method: "usability_test"
+
+# Session details
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have used MHV secure messaging in the past year"
+
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "Vets.gov secure messaging prototype"
+
+tags:
+  - "secure-messaging"
+  - "MHV"
+  - "discovery-research"
+  - "usability-testing"
+description: "Discovery research evaluating the current secure messaging system on MyHealtheVet and testing a new prototype for vets.gov to identify key veteran needs and opportunities."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: false
+---
+
 # Secure Messaging discovery - existing interface & prototype
 
 ## Goal and Research Questions

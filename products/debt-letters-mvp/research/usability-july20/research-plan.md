@@ -1,11 +1,11 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Debt Letters MVP, Usability Testing, July 2020"
+date: 2020-07-01
+last_updated: 2020-07-01
+team: "Debt Resolution Team"
+product: "Debt Letters MVP"
+product_area: "authenticated"
 
 # Background Context
 background:
@@ -15,7 +15,7 @@ background:
   product_brief_url: "[URL]"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
@@ -99,11 +99,13 @@ related_research:
   previous_studies: 
     - "[Link to related past research]"
     
+
+study: "Debt Letters MVP, Usability Testing, July"
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "debt-letters"
+  - "usability-testing"
+  - "financial-services"
+  - "AUD: Veterans"
 ---
 
 # Research Plan for BAM2, Debt Letters MVP, August 2020
