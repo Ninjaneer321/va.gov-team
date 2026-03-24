@@ -24,7 +24,7 @@ Our mission is to build intuitive, high-quality features for the VA Health and B
 
 The VA Mobile App Core Team operates the mobile platform and builds mobile features for the VAHB app.
 
-See [teaming information](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app) for the team roster.
+[View information about our team](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams/digital-experience/mobile-app-and-platform)
 
 ## How we work
 
@@ -75,6 +75,7 @@ If team member is out for less than a day:
 
 If team member is out for a day or more:
 - Update PTO Tracker spreadsheet
+- Update Mobile Team Calendar
 - Update slack status (in MO and VA Slack)
 - Add to shared team calendar: Mobile Team Calendar
 - Set up automated email response
