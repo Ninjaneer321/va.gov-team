@@ -185,8 +185,8 @@ Take a look at this page without clicking anything [homescreen]. [Give participa
 12. Why do you think those would go here?
 13. Take a closer look at the items. Anything confusing or surprising?
 14. Does the section name Activity make sense for these items?
-15. Is there anything confusing overall about this app homepage?
-16. Is there anything missing?
+15. Is there anything confusing overall about this app homescreen?
+16. Is there anything missing from the homescreen here?
 
 > [!NOTE]
 > ### Things to watch for:
