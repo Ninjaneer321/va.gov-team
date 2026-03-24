@@ -1,8 +1,8 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for Travel Pay Team, User Created Appointment Data, March/April 2026"
-date: 2026-03-18
-last_updated: 2026-03-18
+date: 2026-03-24
+last_updated: 2026-03-24
 team: "Travel Pay"
 product: "Travel Pay Reimbursement"
 product_area: "authenticated"
@@ -55,7 +55,20 @@ recruitment:
     - "All participants must have attended at least one VA or community care appointment in the past 12 months"
     
   secondary_criteria:
-    - "Not specified in plan"
+    - "Minimum 3 are women"
+    - "Minimum 3 are over 55 years of age"
+    - "Minimum 3 are under 54 years of age"
+    - "Minimum 3 have a cognitive impairment"
+    - "Minimum 3 live in rural areas"
+    - "Minimum 1 has no degree"
+    - "Minimum 4 have a terminal HS degree"
+    - "Minimum 2 have a terminal AS degree"
+    - "Minimum 2 have a terminal BS degree"
+    - "Minimum 1 have a terminal MS degree"
+    - "Minimum 2 are Black/African American"
+    - "Minimum 2 are Hispanic/Latino"
+    - "Minimum 1 is Asian"
+    - "Minimum 1 is Native American"
     
   screener_questions:
     - question: "Do you use VA healthcare (including community care)?"
@@ -76,13 +89,13 @@ participants:
 timeline:
   pilot_date: "TBD"
   pilot_participant: "TBD"
-  research_dates: "TBD"
-  research_review_submission: "TBD - should be 8-9 days prior to first research session"
+  research_dates: "2026-03-31 to 2026-04-08"
+  research_review_submission: "2026-03-23 (8-9 days prior to first research session on 03/31)"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: "TBD"
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
@@ -115,9 +128,13 @@ tags:
   - "PRDT: Travel-pay"
   - "MHV: Appointments"
   - "DSP: Ask users for dates"
+  - "DSP: Ask users for files"
   - "DSP: Content Presentation"
   - "DSP: Help users to check answers"
+  - "DSP: Error Message Guide"
   - "DSC: Form"
+  - "DSC: Form - File Input"
+  - "Initiative: CX Executive Order"
   - "usability-testing"
   - "comparative-analysis"
   - "remote"
@@ -126,8 +143,8 @@ tags:
   - "community-care"
   - "appointment-data-entry"
   - "legacy-system-migration"
+  - "cognitive-disability"
 ---
-
 
 # Research Plan for Travel Pay User Created Appointment Data Usability Study - March/April 2026
 
