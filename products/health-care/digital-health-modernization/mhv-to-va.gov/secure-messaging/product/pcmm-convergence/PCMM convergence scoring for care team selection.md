@@ -14,6 +14,19 @@ In this doc:
 ## Solution description
 - Rank OH message pools by relevance to each patient, so the most relevant pools surface to the top of the list instead of being buried in 50-100+ alphabetical entries.
 
+### Here's an analogy: 
+You walk into a massive food court with 80 restaurants. You have no idea which one is "yours." You just see a giant alphabetical list: Arby's, Burger King, Chili's... Zaxby's. Good luck.
+
+But we know something about you: your family's favorite chefs. Your mom cooks at Green Kitchen, your dad cooks at Green Kitchen, your sister cooks at Green Kitchen, and your uncle cooks at the Pharmacy Cafe. Convergence scoring = we walk through every restaurant and count how many of your family's chefs work there.
+
+- Green Kitchen: 3 of your 4 chefs work here → score 0.75 → "this is probably your family restaurant"
+- Pharmacy Cafe: 1 of your 4 → score 0.25 → "maybe relevant"
+- Red Kitchen: 0 of your 4 → score 0.00 → "probably not yours"
+  
+Instead of alphabetical, we put Green Kitchen at the top. You still see all 80 restaurants, but we just made an educated guess about which one is yours based on who cooks there.
+
+**Why we can't just read the sign on the door**: The restaurants and the chef directory are managed by two completely different companies. The sign might say "Green Kitchen" but the chef directory calls your family's team "PACT Team Bravo." No shared naming. So we match on the chefs, not the signs.
+
 ## How it works
 1. At session start, SM Patient API calls the PCMM API to get the patient's assigned care team providers (IENs)
 2. Cross-reference IENs against `OHS.OH\_POOL\_PRACTITIONER`. This is an ETL table in the SM Oracle RDS that maps providers to OH message pools (loaded daily from CDW, ~22,800 rows / 2,092 pools)
