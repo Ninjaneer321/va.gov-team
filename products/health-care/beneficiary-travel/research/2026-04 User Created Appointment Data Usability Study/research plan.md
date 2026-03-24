@@ -288,7 +288,7 @@ We anticipate that Veterans will be able to successfully enter the required appo
   
 ## Methodology  🛠️   
 <details>
-We will conduct **moderated usability testing sessions with 10-12 Veterans using a clickable Figma prototype**. This study will be a hybrid study. The first part will evaluate participants’ mental models around where they expect to create an appointment, then we’ll move into a usability test of the user-created appointment data screens. Finally, we will show the participants the alternate entry-point option and ask questions for a comparative analysis.
+We will conduct moderated usability testing sessions with 10-12 Veterans using a clickable Figma prototype. This study will be a hybrid study. The first part will evaluate participants’ mental models around where they expect to create an appointment, then we’ll move into a usability test of the user-created appointment data screens. Finally, we will show the participants the alternate entry-point option and ask questions for a comparative analysis.
 
 ### Structure      
 
@@ -381,7 +381,7 @@ We will work with Perigean to recruit participants for this study.
 
 **`1.` Do you use VA healthcare (including community care)?**
 - _Qualifying response: Yes._   
-- _Disqualitfying response: If no, participant is ineligible for this study._   
+- _Disqualifying response: If no, participant is ineligible for this study._   
 
 **`2.` In the past 12 months, have you attended any of the following types of appointments? [single select/radio button field]**  
 
