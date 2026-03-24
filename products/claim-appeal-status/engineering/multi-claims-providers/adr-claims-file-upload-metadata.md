@@ -1,8 +1,5 @@
 # ADR: Adding Metadata to the Claims File Uploader
 
-## Status
-**Proposed** - Pending team review
-
 ## Context
 
 The claims-status tool file uploader (`AddFilesForm.jsx`) currently collects a file, a document type, and an optional PDF password per file. There is a need to attach additional metadata to each upload — either a data-driven list of labels (checkboxes populated from an API) or a freeform text note — and include that data in the payload sent to the file submission endpoint.
