@@ -330,10 +330,10 @@ We will work with Perigean to recruit participants for this study.
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 
-- `Veterans:` **10**
+- `Veterans:` **15**
 - `Caregivers:` **0**
 - `Dependents:` **0**
-- `Total:` **10**
+- `Total:` **15**
 - `Ideal completed sessions:` **10**
 
 ### Primary criteria (must-haves)
