@@ -301,46 +301,59 @@ Only 3 participants per cohort should be currently enrolled in the CHAMPVA progr
 **Screener Cohort 1 (Veterans with 100% service-connected disability whose spouse/dependents may or may not be enrolled in CHAMPVA benefits):**
 1. Do you get VA disability compensation for a service-connected disability rating of 100%?
 _Response options: YES or NO_
-* Yes [jump to next question]
-* No [disqualify]
+	* Yes [jump to next question]
+	* No [disqualify]
 
 2. Do you have a spouse or dependent children?
 _Response options: YES or NO_
-* Yes [jump to next question]
-* No [disqualify]
+	* Yes [jump to next question]
+	* No [disqualify]
 
 3. Is your spouse and/or dependents enrolled in the Civilian Health and Medical Program of the Department of Veterans Affairs (CHAMPVA)?
 _Response options: YES, NO, UNSURE_
-* Yes (disqualify)
-* No (Qualifies for study, RECORD as not enrolled in CHAMPVA)
-* Unsure (Qualifies for study, RECORD as unsure if enrolled in CHAMPVA)
+	* Yes (No more than 3 participants in this cohort, RECORD as enrolled in CHAMPVA)
+	* No (Qualifies for study, RECORD as not enrolled in CHAMPVA)
+	* Unsure (Qualifies for study, RECORD as unsure if enrolled in CHAMPVA)
 
 **Cohort 2 must:**
 - Identify as a spouse or dependent child of a Veteran with a service-connected disability rating of 100%
-- **Not** be currently enrolled in CHAMPVA
+- No more than 3 should be currently enrolled in CHAMPVA
 
-**Screener Cohort 2 (Spouses and dependent children of Veterans with a 100% service-connected disability):**
-1. Please select the answer that best fits you:
+**Screener Cohort 2 (Spouses and dependent children age 18+ of Veterans with a 100% service-connected disability):**
+1. What is your age? _Response options: Whatever age categories Perigean normally uses. (Answering <18 would disqualify the participant)_
+
+2. Do you identify as one of the following? 
 _Response options: Spouse of a Veteran, Dependent child of a Veteran (Answering either would qualify the participant)_
 
-2. Does the Veteran you are related to get VA disability compensation for a service-connected disability rating of 100%?
-_Response options: YES, NO (Answering YES would qualify the participant)_
+3. Does the Veteran you are related to get VA disability compensation for a service-connected disability rating of 100%?
+_Response options: YES, NO_
+	* Yes [jump to next question]
+	* No [disqualify]
 
-3. Are you enrolled in the Civilian Health and Medical Program of the Department of Veterans Affairs (CHAMPVA)?
+5. Are you enrolled in the Civilian Health and Medical Program of the Department of Veterans Affairs (CHAMPVA)?
 _Response options: YES, NO, UNSURE_
-* Yes (disqualify)
-* No (Qualifies for study, RECORD as not enrolled in CHAMPVA)
-* Unsure (Qualifies for study, RECORD as unsure if enrolled in CHAMPVA)
+	* Yes (No more than 3 participants in this cohort, RECORD as enrolled in CHAMPVA)
+	* No (Qualifies for study, RECORD as not enrolled in CHAMPVA)
+	* Unsure (Qualifies for study, RECORD as unsure if enrolled in CHAMPVA)
 
 
 #### Secondary criteria (nice-to-haves)
-- `At least 2 women`
-- `At least 2 who self-report a cognitive disabiltiy`
-- `At least 2 don't have any degree or vocational training after high school`
-- `At least 2 are 35-44`
-- `At least 2 live in a rural or remote area`
-- `At least 5 people who identify as Black or African American or Hispanic, Latino or Spanish origin, or Asian or Biracial`
 
+Cohort 1 (recruit 12 people): 
+- `At least 2 are 55-64+`
+- `At least 2 who self-report a cognitive disabiltiy`
+- `At least 2 women`
+- `At least 2 people who identify as Black or African American or Hispanic, Latino or Spanish origin, or Asian or Biracial`
+- `At least 2 who are using a mobile device`
+- `At least 2 don't have any degree or vocational training after high school`
+  
+Cohort 2 (recruit 12 people): 
+- `At least 2 are 55-64+`
+- `At least 2 who self-report a cognitive disabiltiy`
+- `At least 2 women`
+- `At least 2 people who identify as Black or African American or Hispanic, Latino or Spanish origin, or Asian or Biracial`
+- `At least 2 who are using a mobile device`
+- `At least 2 don't have any degree or vocational training after high school`
   
 ## Timeline 🗓️
 
@@ -357,7 +370,10 @@ We would like a kick-off call with Perigean to discuss recruitment criteria. Sug
 - `Date and time of pilot session:` 
 
 ### Research sessions
-- `Planned dates of research:` **Wednesday, March 11 - Tuesday, March 17**
+- `Planned dates of research:`
+	- **Cohort 1: Tuesday, April 14 - Monday, April 20**
+	- **Cohort 2: Tuesday, April 28 - Monday, May 4**
+
 
 ### Length of sessions
 - `Session length:` 60 minutes
@@ -367,7 +383,24 @@ We would like a kick-off call with Perigean to discuss recruitment criteria. Sug
 - `Maximum Sessions per day:` 3 per day
 
 ### Availability
-> - `Monday - Friday 11:30am-4:30pm ET`
+
+_All times are in EST_
+
+Cohort 1
+> - Tuesday 4/14: 11:30-1pm, 3-4:30pm
+> - Wednesday 4/15: 11:30-2pm, 2:30-3:30pm
+> - Thursday 4/16: 1-2pm, 3-4:30pm
+> - Friday 4/17: 11:30-4:30pm
+> - Monday 4/20: 11:30-2pm, 2-3pm, 3:30-4:30pm
+> - IF NEEDED Tuesday 4/21: 11:30-1pm, 3-4:30pm
+
+Cohort 2
+> - Tuesday 4/28: 11:30-1pm, 3-4:30pm
+> - Wednesday 4/29: 11:30-2pm, 2:30-3:30pm
+> - Thursday 4/30: 1-4:30pm
+> - Friday 5/1: 11:30-4:30pm
+> - Monday 5/4: 11:30-2pm, 2-3pm, 3:30-4:30pm
+> - IF NEEDED Tuesday 5/5: 11:30-1PM, 3-4:30pm 
 
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
