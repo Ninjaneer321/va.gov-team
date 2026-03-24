@@ -79,11 +79,11 @@ recruitment:
       qualifying_response: "All options qualify"
       
 participants:
-  veterans: 15
+  veterans: 10
   caregivers: 0
   dependents: 0
   total_recruited: 15
-  completed_sessions_goal: 15
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
@@ -330,14 +330,15 @@ We will work with Perigean to recruit participants for this study.
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 
-- `Veterans:` **15**
+- `Veterans:` **10**
 - `Caregivers:` **0**
 - `Dependents:` **0**
-- `Total:` **15**
-- `Ideal completed sessions:` **15**
+- `Total:` **10**
+- `Ideal completed sessions:` **10**
 
 ### Primary criteria (must-haves)
 *What demographics, experience, and scenarios do you need participants to meet to effectively run your study?* 
+We are recruiting for 15 Veterans, with a total of 10 completed sessions. 
 
 - `Veterans who use VA health care`   
 - `Veterans who have only attended VA appointment(s)`
@@ -348,7 +349,8 @@ We will work with Perigean to recruit participants for this study.
   * Those who have not filed for travel pay: 2-3 participants   
   * Veterans who have attended both VA appointments or community care appointment(s)   
   * Those who have filed for travel pay for both VA or community care appointments: 2-3 participants   
-  * Those who have not filed for travel pay for VA or community care appointments: 2-3 participants`   
+  * Those who have not filed for travel pay for VA or community care appointments: 2-3 participants`
+
 
 #### Secondary criteria (nice-to-haves)
 *What criteria would strengthen your results?* 
@@ -421,7 +423,7 @@ We will work with Perigean to recruit participants for this study.
 - `Date and time of pilot session:` **TBD** 
 
 ### Research sessions
-- `Planned dates of research:` **03/31-04/08**
+- `Planned dates of research:` **03/31-04/09**
 
 ### Length of sessions
 - `Session length: 1 hour.
@@ -447,6 +449,7 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 - `[04/06, Monday, 9 AM to 5 PM EST`
 - `[04/07, Tuesday, 9 AM to 5 PM EST`
 - `[04/08, Wednesday, 9 AM to 5 PM EST`
+- `[04/09, Thursday, 9 AM to 5 PM EST`
 - We can add additional slots the week of 04/06 as needed
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
