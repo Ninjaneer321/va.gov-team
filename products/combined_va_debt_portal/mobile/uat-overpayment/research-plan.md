@@ -371,7 +371,8 @@ _[For Perigean's communication with participants]_ Prerequisites for participant
 ### Primary criteria (must-haves)
 
 - `Currently have an overpayment debt`
-- `6 on iOS devices` / `6 on Android devices` | `note: each platform can be a mix of phone and tablet`
+- `6 on iOS devices` / `6 on Android devices`
+    - Each platform can be a mix of phone and tablet, though tablet users are not required
 - `Be willing to log in to their VA account with their own credentials`
     - Priority given to those who are willing to share their screens
 
