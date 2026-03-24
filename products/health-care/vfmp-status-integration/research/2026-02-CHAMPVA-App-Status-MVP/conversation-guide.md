@@ -53,39 +53,46 @@ description: "Conversation guide for VFMP Status Integration research testing th
 # Conversation Guide for VFMP Status Integration, Health Apps in Claims Status Tool, CHAMPVA Application Status MVP 02/2026
 
 ## Moderator logistics 📋✅
-### 2-3 days before the session
+### Before all sessions 
 
-> [!NOTE]
-> Review VA Platform's [Research Checklist](https://depo-platform-documentation.scrollhelp.site/research-design/research-checklist).
-
-`List and complete any project-specific setup tasks for this study below:`
-
-- [ ] Step 1
-- [ ] Step 2
-- [ ] Step 3
+> - Review all guidelines for moderating
+> - Review research goals
+> - Have links to both Veteran and non-Veteran prototypes ready 
 
 ### Day of the session
 
-> [!TIP]
-> - Use [#feedback-backchannel](https://dsva.slack.com/messages/C40B45NJK/details/) in Slack for real-time feedback from observers.
-> - Mute your Slack notifications.
-> - Send out the [observer instructions](https://depo-platform-documentation.scrollhelp.site/research-design/Observer-guidelines.1622311177.html) to your observers (Slackbot will do this for you if you type "observer instructions" into [#feedback-backchannel](https://dsva.slack.com/channels/feedback-backchannel)).
+> - Review participant list for name and demographics
+> - Review notetaking board and remind notetaker and observers to follow #feedback-backchannel 
+
+### 10 minutes before the session
+
+> - Start a thread in the #feedback-backchannel
+  > - @mention observers with the [observer instructions](https://depo-platform-documentation.scrollhelp.site/research-design/Observer-guidelines.1622311177.html) (Slackbot will do this for you if you type "observer instructions" into [#feedback-backchannel](https://dsva.slack.com/messages/C40B45NJK/details/))
+  > - Share brief summary of participant demographics
+  > - Github link for notetaking
+> - Sign into Perigean’s Zoom and start the meeting (see email for login details)
+> - Turn on transcriptions by clicking LIVE TRANSCRIPT and ENABLE
+> - Check Zoom settings and make sure participants have permission to share
+> - Change your name in Zoom
+> - In the Participant “more” menu, make sure “Play Join and Leave Sound” is unchecked
+> - Open conversation guide
+> - Copy prototype link into the Zoom chat (do NOT hit enter)
+> - Mute your Slack notifications 
 
 ### Starting the session
 
-> [!TIP]
-> - In the Attendees section, make sure everyone except the participant is on mute.
-> - In the Participant "more" menu, make sure "Play Join and Leave Sound" is unchecked
-> - Check your [screensharing setup] and share permissions for participants.
-> - When the participant is ready, begin the session with the following intro*
+> - Turn camera on
+> - Check your screensharing setup and share permissions for participants.
+> - If participant doesn’t arrive after 2 minutes, Slack Perigean in the study channel
+> - If participant is a no-show, Slack team in #feedback-backchannel
+> - When the participant is ready, begin the session with the intro 
 
 # Intro - 5 minutes
 
 Thanks for joining us today! My name is **[NAME]** and **[NOTETAKER NAME]** is taking notes.
 I also have a couple other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them... 
 
-Today we're going to talk about making updates to health care information.
-
+Today we're going to talk about the experience after someone submits an application for CHAMPVA benefits, which is the Civilian Health and Medical Program of the Department of Veterans Affairs. 
 
 Before we start, I have a few things that I want to go over with you:
 
@@ -130,16 +137,18 @@ Before we start, I have a few things that I want to go over with you:
 
  <mark>**[Record answer here]**</mark>
 
-# Warm-up Questions (Optional) - 5 minutes
+# Warm-up Questions - 5 minutes
 
-Before we look at the website, let’s start with a few warm-up questions.
+Before we look at the prototype, let’s start with a few warm-up questions.
 
 1. Do you have a service-connected disability at VA?
 - If yes: what is your disability rating?
 - If no, skip to question 2.
-2. 
 
-## First Task: [TASK NAME] - X minutes
+
+# Screenshare & Prototype Setup - 5 minutes
+
+## Scenario 1a: My VA homepage - 5 minutes 
 
 - [ ] Step 1
 - [ ] Step 2
@@ -151,7 +160,7 @@ Before we look at the website, let’s start with a few warm-up questions.
 > - [Is the participant aware that they may be sharing personal information on their screen, and are they okay with that? - per question as needed]
 > - [Etc]
 
-## Second Task: [TASK NAME] - X minutes
+## Scenario 1b: CHAMPVA App screens in CST - 10 minutes 
 
 - [ ] Step 1
 - [ ] Step 2
@@ -162,7 +171,7 @@ Before we look at the website, let’s start with a few warm-up questions.
 > - [Does the participant notice xyz?]
 > - [Etc]
 
-## Third Task: [TASK NAME] - X minutes
+## Scenario 2: Evidence request - 10 minutes 
 
 - [ ] Step 1
 - [ ] Step 2
@@ -173,7 +182,18 @@ Before we look at the website, let’s start with a few warm-up questions.
 > - [Does the participant notice xyz?]
 > - [Etc]
 
-# Post-Task Interview - X minutes
+## Scenario 3: CST home page+ completed application - 10 minutes 
+
+- [ ] Step 1
+- [ ] Step 2
+
+> [!NOTE]
+> ### Things to watch for:
+> - [Does the participant understand meaning of xyz?]
+> - [Does the participant notice xyz?]
+> - [Etc]
+
+# Post-Task Interview - 5 minutes
 
 - Question 1
 - Question 2
@@ -187,7 +207,7 @@ Before we look at the website, let’s start with a few warm-up questions.
    <mark>**[Record answer here]**</mark>
 
 
-## Thank-You and Closing - X minutes
+## Thank-You and Closing 
 
 Well we really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we continue to work on the site and make sure it really works for Veterans.
 
