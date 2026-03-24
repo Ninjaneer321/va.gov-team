@@ -146,7 +146,7 @@ Before we look at the prototype, let’s start with a few warm-up questions.
 - If no, skip to question 2.
 
 
-# Screenshare & Prototype Setup - 5 minutes
+## Screenshare & Prototype Setup - 5 minutes
 
 ## Scenario 1a: My VA homepage - 5 minutes 
 
