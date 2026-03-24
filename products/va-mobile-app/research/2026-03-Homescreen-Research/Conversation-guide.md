@@ -196,7 +196,7 @@ Take a look at this page without clicking anything [homescreen]. [Give participa
 ## Task 2: Find disability rating/payments - 4 minutes, 25 minutes elapsed
 
 Now let's talk about trying to find a few things. 
-Say you had submitted a claim to hopefully update your disability rating and got a notice that your rating has been changed. You then got a disabiilty payment reflecting the updated rating.
+Say you had submitted a claim to hopefully update your disability rating and got a notice that your rating has been changed. You then got a disability payment reflecting the updated rating.
 ### Questions for testing participant: 
 1. Where would you look for your current disability rating?
 2. Why?
