@@ -19,7 +19,7 @@
 ## Product context 
 
 - The online **530EZ** form allows Veterans to fill out and submit the application for Veterans Pension benefits. The burial allowance can help pay for a Veteran’s funeral services, burial, and transportation costs.  The applicant may be eligible for Veterans burial allowances if they are paying for the burial and funeral costs and won’t be reimbursed by any other organization, like another government agency or the Veteran’s employer.
-  - [About VA Form 530EZ (Application for Burial allowance and transportation benefits)](https://www.va.gov/burials-memorials/veterans-burial-allowance/#am-i-eligible-for-allowances-t)
+  - [About VA Form 530EZ (Application for Burial allowance and transportation benefits)](https://www.va.gov/forms/21p-530ez/)
   - Launched on VA.gov: January 2024
   - Annual submission volume: 19,352 (2025)
 
