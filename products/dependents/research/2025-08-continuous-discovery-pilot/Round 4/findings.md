@@ -108,7 +108,7 @@ The goal of this cohort was to learn more about how to communicate with Veterans
 
 The participants’ reactions to the language in the artifacts varied significantly across the different participants and more data is needed to determine trends. We recommend continuing to study how to message the verification process with a larger group of veterans. 
 
-### Veteran characteristics  
+### Participant characteristics  
 
 - For this continuous discovery cohort we spoke with five Veterans. All of them had dependents on their disability compensation benefit. (Four of them had spouses as dependents, two had children) 
 - Two participants said that they had been asked by VA to verify information. It was not clear if these cases were dependent verification requests or other cases such as VA working a claim to gather additional needed information
