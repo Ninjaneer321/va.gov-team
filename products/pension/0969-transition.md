@@ -86,7 +86,7 @@ Veterans don’t complete the required income and asset statement with their pen
 * Addressed and resolved questions with VBA for clarification
 * Met from the 526 team and the 1010-D team for their approaches to forms-within-forms and what they've learned from it
 * Identified features for an MVP and potential enhancements
-All of these notes are available in a [Mural board here](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1745620624724/70ee36c200a3b66b426c33aa189dcdcc5a4a0192?wid=0-1763522503702)  .
+All of these notes are available in a [Mural board here](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1742317253841/97b5418bfc632a580dcc642e3275900a98e743e3?wid=0-1769466388784).
 ##### Why it was stopped  
 We conducted discovery relatively recently and wanted to avoid partial design or implementation for this large initiative.
 ##### Next step
