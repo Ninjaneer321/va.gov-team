@@ -147,7 +147,7 @@ If no: Can you share more about why you haven’t filed?
 If no, explain: In certain scenarios, for example, if the VA facility is outside a certain distance, or if there is an extended wait time for VA Care, sometimes VA will approve you to go to other health care facilities in the community. These are called “community care” appointments. [This is important to explain to the participant so that they can understand the testing scenario we present to them below.]
 5. If yes to 1:  Were the appointment(s) scheduled ahead of time, or walk-in appointments?
 6. If yes to 1: Have you filed for VA appointment(s) or community care appointment(s)?
-7. If the participant has filed for community care: Can you tell me more about your experience filing for community care?
+7. If the participant has filed for community care: Can you tell me more about your experience filing for community care? What did you do to get ready to file?
 8. If no to 1: If you were going to file for travel reimbursement today, where would you go or what would you do first?   
 
 
@@ -244,7 +244,7 @@ _After participant reviews page_
 * What do you think would happen if you left or went back a step? Would your information here be saved?   
 
 _If earlier in the session, they indicated that they have filed for travel pay on community care appointment_
-`You mentioned that you have filed for community care before. How do you typically recall or keep track  of your community care appointment information when filing for travel pay?`
+`You mentioned that you have filed for community care before. How do you typically recall or keep track of your community care appointment information when filing for travel pay?`
 
 > [!NOTE]
 > #### Things to watch for:
