@@ -39,7 +39,7 @@ Some participants expected payment history and debt letters to be shown. Many th
 
 ### 3. Most participants do not use VA.gov to make overpayment payments, instead, they actively or passively choose to reduce their monthly benefits
 
-Most participants opted for automatic monthly deductions from their benefits, often after speaking with a VA representative over the phone. 
+Most participants opted for automatic monthly deductions from their benefits, sometimes after speaking with a VA representative over the phone or by doing nothing. 
 
 > "They sent me a piece of mail giving me my options. I opted for the option that they would just reduce my monthly income, and so that was paid out. We did the lowest amount, so it had to have been no more than, like, $30 to $50. A month, and it took about a year and a half." – P13
 
