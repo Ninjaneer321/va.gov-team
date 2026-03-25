@@ -31,7 +31,7 @@ Carrying into Sprint 11: 23 tickets, 86 points + 2 spikes
 **General Crew**
 -->
 
-# Sprint 13 (Feb 10-23, 2026)
+# Sprint 13 (March 24 - April 6, 2026)
 
 ## Sprint 13 Goals
 
