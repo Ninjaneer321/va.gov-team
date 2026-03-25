@@ -9,9 +9,9 @@ product_area: unauthenticated
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
+  problem_statement: Users find the current “decision pathways” page confusing
   product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
+  user_familiarity: Iteration
   product_brief_url: "[URL]"
 
 # Research Design
