@@ -13,8 +13,10 @@ If you do not have not have terminal access, you must first fill out the [vets-a
 1. Make sure to log in using your regular Github account and not GHEC-US
 
 1. Find the staging cluster and start a terminal session with `Exec`. Example:
-<img width="350" height="250" alt="image" src="https://github.com/user-attachments/assets/504c9888-01e4-4257-aa56-05664640e801" />
-<img width="350" height="250" alt="image" src="https://github.com/user-attachments/assets/b97a5c62-a284-4f10-a4e5-af38901eb59c" />
+
+    <img width="350" height="250" alt="image" src="https://github.com/user-attachments/assets/504c9888-01e4-4257-aa56-05664640e801" />
+    <img width="350" height="250" alt="image" src="https://github.com/user-attachments/assets/b97a5c62-a284-4f10-a4e5-af38901eb59c" />
+
 
 
 ### Creating a maintenance window record
