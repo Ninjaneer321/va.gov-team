@@ -1,21 +1,21 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for Travel Pay Team, User Created Appointment Data, March/April 2026"
+title: "Research plan to evaluate the "Choosing a Decision Review Option" page"
 date: 2026-03-24
-last_updated: 2026-03-24
-team: "Travel Pay"
-product: "Travel Pay Reimbursement"
-product_area: "authenticated"
+last_updated: 2026-03-25
+team: "Content and IA"
+product: "Content and IA"
+product_area: unauthenticated
 
 # Background Context
 background:
-  problem_statement: "Some medical appointments (community care and unscheduled VA appointments like walk-ins or emergency visits) do not appear in a Veteran's past appointment list. Veterans cannot file for travel pay on VA.gov for these appointments and must use the legacy BTSSS system to manually enter appointment information. This creates a fragmented user experience and prevents VA.gov from being a complete travel reimbursement solution."
+  problem_statement: "Users find the current “decision pathways” page confusing. The differences between the three presented choices are unclear, and not all choices are relevant to every user. Because most users only qualify for two of the three, labeling them as equal “options” creates misunderstanding and leads to incorrect or uncertain pathway selection."
   product_location: "Authenticated VA.gov experience - Health care benefits section, specifically within the Travel Pay claim filing flow"
   user_familiarity: "Iteration on existing product. Veterans are already familiar with filing travel pay claims on VA.gov (complex claims launched February 2026), but this adds new functionality to manually create missing appointments."
   product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel/product"
 
 # Research Design
-methodology: "Moderated usability testing with comparative analysis"
+methodology: "Moderated usability testing"
 research_format: 
   location: remote
   moderated: true
