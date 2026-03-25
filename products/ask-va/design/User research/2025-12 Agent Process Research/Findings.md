@@ -155,6 +155,7 @@ See [presentation](https://dvagov.sharepoint.com/:p:/r/sites/AskVA/Shared%20Docu
 2. **Usability and layout of Inquiry Report** – This is a highly repeatable task that would improve the Agents view of an inquiry’s history ([See pain points for inquiry report](https://dvagov.sharepoint.com/:p:/r/sites/AskVA/Shared%20Documents/General/AVA%20VA.gov%20Team/Research%20%26%20Design/Research%20Repository/Agent%20Process%20Findings%20and%20Recommendations.pptx?d=w03a91f16cf4e440da08fc343380a5f5d&csf=1&web=1&e=s2o719&nav=eyJzSWQiOjMyOCwiY0lkIjozNTg2MDQ3MjV9))
 3. **Reporting for total inquiry “movement” (re-routes, splits, etc.)** – This is being tracked by Agents today and will help Supervisors better diagnose recurring re-routes. ([See pain points for ongoing monitoring](https://dvagov.sharepoint.com/:p:/r/sites/AskVA/Shared%20Documents/General/AVA%20VA.gov%20Team/Research%20%26%20Design/Research%20Repository/Agent%20Process%20Findings%20and%20Recommendations.pptx?d=w03a91f16cf4e440da08fc343380a5f5d&csf=1&web=1&e=OFM4yl&nav=eyJzSWQiOjMyOSwiY0lkIjo0MTEzMzE2OTQ4fQ))
 4. **Better real-time reporting in AVA** -  Agents and Supervisors could benefit from a real-time dashboard within AVA of their of pending and opened inquiries, as well as how many inquiries a group of Agents has completed. ([See pain points for ongoing monitoring](https://dvagov.sharepoint.com/:p:/r/sites/AskVA/Shared%20Documents/General/AVA%20VA.gov%20Team/Research%20%26%20Design/Research%20Repository/Agent%20Process%20Findings%20and%20Recommendations.pptx?d=w03a91f16cf4e440da08fc343380a5f5d&csf=1&web=1&e=OFM4yl&nav=eyJzSWQiOjMyOSwiY0lkIjo0MTEzMzE2OTQ4fQ))
+5. **Local helper tools** - Including local resources (program coordinators, VAMC, ROs, etc.) within AVA and suggesting them as part of an Agent's reply.​
 
 ### Moderate Impact Recommendations
 1. **Streamlined attachment review** – About 34% of inquiries are submitted with attachments. ([See attachment data](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/data/Usage%20data.md#how-many-submissions-are-submitted-with-attachments))
@@ -201,7 +202,6 @@ See [presentation](https://dvagov.sharepoint.com/:p:/r/sites/AskVA/Shared%20Docu
 
 
 ### Research participants
-
-<img width="1086" height="565" alt="image" src="https://github.com/user-attachments/assets/a029e714-422d-48dd-af36-960a934d5871" />
-
+![Slide7](https://github.com/user-attachments/assets/df36ed6f-7869-46e9-aa03-55c4c1dc48e0)
+![Slide8](https://github.com/user-attachments/assets/e7e3c774-c707-4e63-9182-197fc7073b20)
 
