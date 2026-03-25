@@ -81,6 +81,10 @@ This tool is in the design stage and the 0538 form currenly only exists as a pap
 - Engineering [readme](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/engineering/README.md)
 - [How to rotate VA Notify Keys](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/benefits-portfolio/Lifestage-crew/engineering/guides/How%20to%20rotate%20VA%20Notify%20Keys.md)
 
+- [Dependents Mural Flow](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1727757799534/c7c5f5a6dc1b8f451ecab5f02afa70a9325b93c8?sender=u070fbdc641c5ca111da83793)
+
+- [Dependents back-end documentation, including legacy and modularized diagrams](https://github.com/department-of-veterans-affairs/vets-api/tree/master/modules/dependents_benefits/documentation)
+
 - Frontend developer README
 - [Endpoints consumed and owned](https://dvagov.sharepoint.com/:w:/r/sites/vaabdvro/Shared%20Documents/Dependents%20Management/Documentation/BGS%20686C-674%20Documentation.docx?d=w1707457645dc4eb191a0ea89fb73453b&csf=1&web=1&e=dvkS2w)
 - Code Repository
