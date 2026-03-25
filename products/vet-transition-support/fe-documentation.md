@@ -50,13 +50,13 @@ Content that is **in progress** can be found in:
 
 The results page displays benefits that Veterans, RSVs, and TSMs may be eligible for based on their answers in the questionnaire. The [logic diagram in Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1748526908036/5e68de58e739ae592366aebd09bc662a3038b290?sender=ue02033fbb0fe7e82629e4489) is the source of truth for how eligibility is determined for each benefit.
 
-#### Filtering results
+### Filtering results
 Users can filter results using the following options:
 * **Recommendation**: View only benefits recommended for the user or all available results (Default: Recommended)
 * **When to Apply**: Filter benefits based on when they are available: before separation, after separation, or both.
 * **Benefit Type**: Filter benefits by category.
 
-#### Sorting results
+### Sorting results
 Users can sort results using the following options:
 * **Expiration date (soonest first)**: Sorts benefits by when their eligibility window ends (based on “When to Apply”), with the soonest deadlines appearing first. (Default)
 * **Name (A-Z)**: Sorts benefits alphabetically by name
