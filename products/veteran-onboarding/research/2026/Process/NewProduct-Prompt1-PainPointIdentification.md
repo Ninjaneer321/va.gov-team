@@ -65,4 +65,3 @@ Write with executive readability and clarity.
 Include recommendations, insights, impact, and patterns as the reference sample does.
 OUTPUT
 Return ONLY the fully formatted report — no meta commentary and no explanation.
-Jot something down
