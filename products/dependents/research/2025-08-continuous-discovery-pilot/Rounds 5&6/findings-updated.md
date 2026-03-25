@@ -32,10 +32,14 @@ Potential future design with three options- "Remove one or more dependents", "Ad
 **Next Steps:**
 * Move forward with the 3-option design  
 * Follow up with David Reis on questions that were raised:  
-  * Which benefits can and cannot be used at the same time as disability dependent student compensation?
+  * Which VA benefits cannot be used at the same time as disability dependent student compensation?
+    * Survivors’ and Dependents’ Educational Assistance (DEA) program, also called Chapter 35
   * Will student dependents automatically be removed on the graduation date that the Veteran provides?
-    * The Veteran needs to inform the VA that the child graduated before age 23 and they will be removed from the Veterans benefits.
+    * The Veteran needs to inform the VA that the child graduated before age 23 and they will be removed from the Veterans benefits
   * Can dependents be added to the disability compensation benefit again after they have finished using the education benefit that previously disqualified them?
+    * In some cases, for example if they switch from a federally funded program. A disabled child can go to school and go back on the benefit if they qualify as a disabled dependent. DEA program disqualifies dependents for good
+
+
 
 **Design Screenshots:**
 * Current design with two options- "Add one or more dependents" and "Remove one or more dependents"
