@@ -30,7 +30,7 @@ _Add ~5-10 top of mind observations. Include quotes if they are available or par
 
 ### 2. However, most participants expect more specific information about their overpayment debt, including when and why it occurred
 
-Several participants expected payment history and debt letters to be shown. Many thought site language could be more concise. 
+Some participants expected payment history and debt letters to be shown. Many thought site language could be more concise. 
 
 > "If you're gonna collect a debt payment from someone, they should probably know the specific reason why, not just, like, here's the generic reasons why you might owe this…." – P9
 
