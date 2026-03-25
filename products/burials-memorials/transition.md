@@ -32,7 +32,7 @@ The online Burial application is available in the [production environment](https
 - [General testing plan](https://docs.google.com/spreadsheets/d/10SQSGnTPfXMFWd1OzoEhGa4y0cpn49kD4JS6liehalE/edit?gid=154291457#gid=154291457) for product updates
 
 ### Design artifacts
-- [Figma Working File](https://www.figma.com/design/jpJQSCKiGegacdW4RH5uQB/21P-530EZ---Burial-Benefits?node-id=1796-26776&p=f&t=Y1Hu6A5omqkIAhw1-0)
+- [Figma Working File](https://www.figma.com/design/jpJQSCKiGegacdW4RH5uQB/21P-530EZ---Burial-Benefits?node-id=0-1)
 - [February 2025 desk research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/e2eb3669205a1aca17126338d3577ff3f8ce8977/products/burials-memorials/Desk%20Research/Burial%20Benefit%20Desk%20Research%20Findings%20Presentation_PDF.pdf)
 - [December 2024 VSO research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/9cbf1ec5b697e301a25de2bd843fdd01d68d31a2/products/burials-memorials/burial-allowance/research/2024-09-VSO-Research/research-findings.md)
 #### Design backlog tickets
