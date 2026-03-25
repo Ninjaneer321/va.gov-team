@@ -91,7 +91,7 @@ We have several features that have design specs ready for implementation, but we
 		* [Pension | Marriage Info - Current Marriage #103928](https://github.com/department-of-veterans-affairs/va.gov-team/issues/103928)
 		* [Current Spouse Marital History - Multiple Page List & Loop Pattern #109092](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109092)
 * Apply pre-fill pattern
-	* Design spec: [Figma]()
+	* Design spec: [Figma](https://www.figma.com/design/9JKK5Eo43uJWEr66JPiebc/WIP---21P-527EZ---Pension-Benefits?node-id=10782-240177)
 	* Engineering ticket: [Pension | Apply pre-fill pattern #111588](https://github.com/department-of-veterans-affairs/va.gov-team/issues/111588)
 * Remove 65+ age question from flow
 	* Engineering ticket: [PBB | Backend: Implement removal 65+ age question from flow #134365](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134365)
