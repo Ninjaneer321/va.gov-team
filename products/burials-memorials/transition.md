@@ -78,6 +78,9 @@ The online Burial application is available in the [production environment](https
    - [[INTAKE] PBB: Burial allowance form content updates #130650](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130650)
    - [[INTAKE] Pension and burial benefits: Burial allowance content updates #123182](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123182)
 
+ ### Next
+- BPDS integration for 530- Simplifies backend processing. POI (Pension Optimization Initiative) automation process would be able to more efficiently automate processing of 530 applications and veterans would receive their benefits faster.
+
 ### Our team 2024/25 roster
 - Delivery Lead: Ahn Platt | anh.platt@va.gov/ anh.platt@coforma.io
 - Product manager: Matt Reilly | matthew.reilly1@va.gov/ matt.reilly@adhocteam.us
