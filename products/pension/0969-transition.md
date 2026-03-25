@@ -57,10 +57,9 @@ These files capture the post-MVP designs, primarily with enhanced content as a c
 ### Analytics dashboard
 - Domo (none), [general forms dashboard](https://va-gov.domo.com/page/447193050)
 - Google Analytics (none)
-- [Backend Stats on DataDog Dashboard](https://vagov.ddog-gov.com/dashboard/55q-ksa-tvq/benefits---pension---527---controller?fromUser=false&refresh_mode=paused&from_ts=1759294800000&to_ts=1767247199999&live=false)
-- [Backend lighthouse monitoring](https://vagov.ddog-gov.com/dashboard/atf-ppf-aky/benefits---pension---527---benefits-intake?fromUser=true&refresh_mode=sliding&from_ts=1773157902524&to_ts=1773172302524&live=true)
-- [Submission reporting](https://vagov.ddog-gov.com/dashboard/vk2-6zi-zzu/benefits-form-527-pension-benefits?fromUser=false&refresh_mode=paused&from_ts=1735711200000&to_ts=1767247199999&live=false) 
-- [Pension Funnel dashboard](https://vagov.ddog-gov.com/dashboard/d59-e32-q3v?fromUser=false&refresh_mode=sliding&from_ts=1770756825443&to_ts=1773172425443&live=true)
+- [Backend Stats on DataDog Dashboard](https://vagov.ddog-gov.com/dashboard/zia-g6c-2fx/benefits---income-and-assets---0969---controller?fromUser=false&refresh_mode=sliding&from_ts=1774277031710&to_ts=1774449831710&live=true)
+- [Backend lighthouse monitoring](https://vagov.ddog-gov.com/dashboard/s5j-ddd-kb8/benefits---income-and-assets---0969---benefits-intake?fromUser=false&refresh_mode=sliding&from_ts=1774449634396&to_ts=1774449934396&live=true)
+- [Submission reporting](https://vagov.ddog-gov.com/dashboard/u2t-d92-wei/benefits---form-0969-income-and-assets?fromUser=false&offset=0&refresh_mode=yearly&from_ts=1767247200000&to_ts=1774449977566&live=true) 
 
 ### Team resources
 - [Team Project Board](https://github.com/orgs/department-of-veterans-affairs/projects/1237/views/3) (GitHub)
@@ -73,10 +72,12 @@ These files capture the post-MVP designs, primarily with enhanced content as a c
 
 ## Roadmap
 ### Done (recently)
--  0969 Post MVP improvements (closely adjacent form) - Improvements to the content and format of the Income and Asset statement focused on plain language updates and content chunking to ease form filling burden. Released 3/4/26.
+-  0969 Post MVP improvements - Improvements to the content and format of the Income and Asset statement focused on plain language updates and content chunking to ease form filling burden. Released 3/4/26.
+-  0969 Income and Asset Statement - update access path. As part of the staggered launch of the online 0969 MVP, the link to the online form from the 0969 About page, did not take the user directly to the application but instead to the supporting forms for claims page. This update implemented the direct path to the application.
+
 
 ### Next
-- 
+- BPDS integration for 0969- Simplifies backend processing. POI (Pension Optimization Initiative) automation process would be able to more efficiently automate processing of 530 and 0969 applications and veterans would receive their benefits faster.
 
 #### Embedding the 0969 in the pension form
 ##### Problem it solves  
