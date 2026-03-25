@@ -37,9 +37,9 @@ Some participants expect to review entire payment history and debt letters. Many
 > "All this data looks like it's all there, but it's not on the front-facing page, which… I would probably want to see on the front page. Why am I clicking deeper into it? The only click should be to, like, okay, how do I pay this? Not Click more, click deeper.  Just show me everything on the front page." – P02
 
 
-### 3. Most participants do not use VA.gov to make overpayment payments, instead, they actively or passively choose to reduce their monthly benefits
+### 3. Most participants do not use VA.gov to make overpayment payments, instead, they actively or passively choose to reduce their monthly VA compensation
 
-Most participants opt for automatic monthly deductions from their benefits, sometimes after speaking with a VA representative over the phone, but many choose by doing nothing. 
+Most participants opt for automatic deductions from their monthly benefits such as medical disability or "VOC" (Veteran Readiness and Employment), sometimes after speaking with a VA representative, but many choose by doing nothing. 
 
 > "They sent me a piece of mail giving me my options. I opted for the option that they would just reduce my monthly income, and so that was paid out. We did the lowest amount, so it had to have been no more than, like, $30 to $50. A month, and it took about a year and a half." – P13
 
