@@ -72,7 +72,7 @@ The online Burial application is available in the [production environment](https
 ### Done (recently)
 - **Paper form alignment** enhancements based on the latest form provided by VBA in December 2025. These changes have been implemented on Staging but have not been released to production yet. [See tickets related to the milestone here.](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/1588)
    - We conducted several audits of the burial form to identify changes that impact the digital form and clarified requirements with VBA. [[Sharepoint] Paper form audit](https://dvagov.sharepoint.com/:x:/r/sites/vaabdvro/Shared%20Documents/Pension/Burial/Design%20Artifacts/Burial_%20Audit%20VA%20Form%20Updates.xlsx?d=w7a4350fd856d438e909630c6a7b5e8d4&csf=1&web=1&e=pj4Mzv)
-   - [[Figma] Design enhancements](https://www.figma.com/design/jpJQSCKiGegacdW4RH5uQB/21P-530EZ---Burial-Benefits?node-id=1796-26776)
+   - Designs for this version of the paper form are under the "✏️ Design Enhancements" section in the [Figma file](https://www.figma.com/design/jpJQSCKiGegacdW4RH5uQB/21P-530EZ---Burial-Benefits?node-id=0-1&p=f&t=Brz8g1LRPQ1gKdV8-0).
 - **Minimal header update** - The Minimal header is the latest standard header for usage in forms. The goal is to help the user focus on the task at hand. Released 3/12/26.
 - **Plain language updates** based on the February 2025 desk research, applied throughout the form and its resource page with C/IA.
    - [[INTAKE] PBB: Burial allowance form content updates #130650](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130650)
