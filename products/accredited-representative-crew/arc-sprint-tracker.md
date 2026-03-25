@@ -25,11 +25,86 @@ Carrying into Sprint 11: 23 tickets, 86 points + 2 spikes
 ## Sprint 10 Tickets
 
 **Team Accreditation**
+**Team Appoint**
+**Team Benefits**
+**Engagement**
+**General Crew**
+-->
+
+# Sprint 13 (Feb 10-23, 2026)
+
+## Sprint 13 Goals
+
+- [ ] Sprint Goals Approved by Enablement
+
+**Team Accreditation**
+1. [ARP Post-MVP] Enable Individual Acceptance of Representation Requests
+    1. Complete development, conduct QA, and conduct smoke test with real user in production
+2. [Rep Data] GCLAWS SQL Server API Integration
+    1. Bug fix is in Platform review, should be in production later this week
+3. [21a] Research
+    1. Wrap up findings from current-state audit, tee up open questions and remaining development in anticipation of resuming in April
+  
+**Team Appoint**
+1. [Filter & Details]: Find a Rep V3 Development
+    1. Wrap up FAR V3 Dev, QA & Launch
+        1. The team was blocked from wrapping up QA activities during last sprint due to the issue with the VADS combo box component not clearing as expected. Still working through that with the design system team.
+2. [21-22a Submit Online] 
+    1. UX Research Analysis, Design Work & NOVA Prep
+    2. UX Research Readout Prep
+    3. Initial Dev Discovery work
+3. [Improve Error UX] 
+    1. Improve Rep Status Error Rate
+    2. Add in Downtime Notifications to the Widget
+4. [Measure Impact] 
+    1. DataDog Improvements to improve monitoring and reporting
+  
+**Team Benefits**
+1. [ITF] MVP — Development
+    1. Wrapping up ITF email notification via VA Notify, datadog instrumentation, & content updates.
+2. [ARP Post-MVP] Cleanup Tasks
+    1. Wrapping up adding capability to disable ARP and reviewing benefits intake records before enabling the deletion of expired records. 
+3. [ARP Post-MVP] Accessibility Testing & Cleanup
+    1. Ticketing high priority ARP accessibility findings
+4. [Claimant Details] MVP - Development
+    1. Finish datadog instrumentation, begin team qa and address high priority findings, contact center review, conduct smoke test with an ARP user in production
+5. [BDD] - Promote SHA Part A in 526ez
+    1. Including SHA Upload & Modal, making the upload work, and implementing datadog
+6. [Rep-Facing 686c] v2 - UX Research
+    1. Begin recruitment, user testing, and analysis
+7. Onboarding New Team Member
+
+**Engagement**
+1. [ Conference Prep ]
+    1. Materials for NOVA
+        1. Draft FAQ from the support inbox
+        2. Finalize flyer content
+    2. Draft travel request for NACVSO and submit to OIT Comms
+2. [ Research Participant Database ] 
+    1. Import data from Rep Panel
+    2. Make revisions to database based on feedback
+    3. Make revisions to the form
+    4. Document SOP
+3. [ Onboarding ]
+    1. Batch 2 outreach - National orgs
+
+## Sprint 13 Demos
+Recording Link TBD
+
+## Sprint 13 Delivery
+
+- [ ] Sprint Delivery Approved by Enablement
+
+TBD
+
+## Sprint 13 Tickets
+
+**Team Accreditation**
 **Team Benefits**
 **Team Appoint**
 **Engagement**
 **General Crew**
--->
+
 
 # Sprint 12 (March 10-23, 2026)
 
@@ -101,6 +176,26 @@ Carrying into Sprint 11: 23 tickets, 86 points + 2 spikes
 
 ## Sprint 12 Demos
 Recording Link TBD
+
+**Team Accreditation**
+1. Address Approximation in Find a Rep
+
+**Team Appoint**
+1. Improve Actionability of all current DataDog Alerts
+2. Data Dog Monitoring for VSO Combo Box
+
+**Team Benefits**
+1. Claimant Overview tab: Add link to Overview page from Submissions Confirmation pages
+2. Claimant Overview tab: Add link to Overview page from Rep Request
+3. Claimant Overview tab: Add link to Overview page from Submissions cards
+4. BDD: Include SHA content on 21-526ez submission page
+5. BDD: Implement checkbox on Claimant information portion of 526ez
+
+**Engagement**
+1. Research Participant Database
+    1. Research Studies
+    2. Participant Sign-Up Form
+2. NOVA flyer drafts
 
 ## Sprint 12 Delivery
 TBD
