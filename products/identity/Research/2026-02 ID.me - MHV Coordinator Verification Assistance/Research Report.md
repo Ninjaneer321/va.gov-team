@@ -91,19 +91,7 @@ Privacy concerns, distrust, refusal.
 Homebound Veterans and those with cognitive impairment lack accessible options.
 
 
-# Next Steps (Draft)
-
-### Connect ID.me With VA Identity Engineering
-Discuss ways to reduce repeated sign-ins.
-
-### Improve In-Flow Messaging
-Clarify selfie consent, document requirements.
-
-### Technical Investigations
-- Reauthorization prompts (~every 10 logins)
-- Multiple password-reset emails
-- UPS option inconsistencies
-
+# Next Steps
 ## Focus Area 1: Fix Password & Email Loop
 - Consolidate reset to one email
 - Warn against browser-generated passwords
@@ -120,14 +108,46 @@ Adopt a national checklist; standardize MPI usage; create update cadence.
 
 
 # Specific Asks for ID.me
+* Collaborate to reduce sign-ins during verification
+    * :large_blue_diamond: VA needs to decide if this is something we want to do on our side.
+    * "It goes right into the verification process. IDme actually requires you to sign in another time. So right there I'm signing in 3 times within 5 minutes" - Coordinator for NH
+* Investigate password reset flow to reduce the confusion caused by getting 2 emails and being unsure of which to act on
+    * Are both emails truly needed? Could it be 1?
+    * On content front: could the email subjects be more clear? Are there links in the email that doesn't require action that could be removed? Could the needed password link be added to both, if both emails are truly needed? Can the email that doesn't require action have better or more clear context to check for a 2nd email?
+    * "ID me sends out two emails once an instructional one and the other one is the actual password reset. What happens is an individual will go through reset password, they're gonna get just the instructional e-mail and then they click on the link that says here request an e-mail or password reset. And then it takes them back to the login page and it's just this never ending loop."  - Coordinator for NH
+* Investigate submit button
+    * :large_blue_diamond: we've asked the 5 VA coordinators we talked with to forward us info about these issues when they see them over the next couple weeks to help propel the investigation on IDme's side
+    * "I don't know if the system just gets stuck or if there's some reason why it's making us move out of the self-service realm and it's just not advancing... It just doesn't do anything or the button is clicked and it doesn't go anywhere. It just sits there." - Coordinator for Minneapolis
+    * "Friday [March 20] I had some difficulty with the ID documents submission. It was with individuals who had Androids. I either had to take the photo multiple times before ID.me captured it OR attempt to attach it 3-4 times. It was never an issue until recently" - Coordinator for Baltimore
+* Explore increased access on email and cellular providers
+    * :large_orange_diamond: It sounds like IDme is considering what could be moved forward on this front.
+    * "That's one of those phones that that doesn't get verified. Now I just ask when they come in the office, I say, who is your phone service with? If they say Consumer Cellular or Boost Mobile or Cricket or Jitterbug, we know they're not. I just don't even try anymore" - Coordinator for Kansas City
 
-### Requested Metrics
-- Help desk & trusted referee wait times
-- Escalation tiers, routing criteria
-- Case resolution times, unresolved case counts
-- Common root-cause patterns
-- MFA & carrier compatibility data
-- Document rejection reasons
+
+Questions for IDme
+
+* SLA on call wait times
+    * answered :green-check: wait times meet contractual obligations with VA 
+    * Even so, all coordinators cited long wait times for the help desk, some mentioned specific amounts of time.
+    * "I try and teach myself all that stuff so they don't have to, you know, wait, you know, 30 plus minutes to talk to a help desk." - Coordinator for Baltimore
+    * "I'd say that the number one [blocker] is if we have to call in because because the wait time is so long. I mean, if if we if we get it on a good day we get somebody to answer in 10-15 minutes. That's wonderful. Most of the time it's, you know, 27 minutes to maybe 40 minutes." - Coordinator for Minneapolis
+    * "We're waiting 15 to 30 minutes. And hour later, we finally get a trusted referee." - Coordinator for NH
+    * "When he's waiting for the trusted agent, he's gotta keep his thumb on the screen and wiggle it so that he doesn't get kicked off." - Coordinator for Maine
+* Support queues information
+    * partly answered :large_orange_diamond: there can be different wait times based on the issue, but still have a question about when the triage happens.
+    * One coordinator mentioned that they press 1 to speak to a representative and then wait without any perceived triaging. Can we get the happy path for triage? Might the coordinator be misinterpreting or not understanding the triage flow?
+    * Additional question about this - one coordinator is interested in what the contractual obligations are for the help center wait times.
+        * "I think it would be helpful to share their expected wait times with patients [to help set expectations] - Coordinator for Kansas City
+    * Additional question about this - one coordinator when working with veterans from afar dials the Help Desk number in as a 3-way conference call. The hold music volume is so loud they can't continue conversation - they sent a request for the music volume to be adjusted lower.-  Coordinator for Minneapolis
+* When UPS option should be available
+    * answer - can be limited availability in some areas. 
+    *  :large_orange_diamond: IDme to get VA a list of participating locations
+    * "We don't have many participating UPS stores in the area to service our veterans...some have voiced they would like to use that option" - Coordinator for Kansas City
+* Secondary documentation discrepancy
+    * :large_orange_diamond: IDme to get VA data around most used documents with successful verification session.
+    * "I'd say my success rate is well over like 95%." "I told everybody if they want help, make sure you're bring those three documents. Either the license, state ID, Passport, or Veterans Health ID card and Social Security card or their discharge paperwork. And if they have all three I',m I'm able to get the the veterans in" - Coordinator for Baltimore
+
+
 
 ### Operational Transparency
 Understanding escalation and triage pathways would help VA align expectations and improve planning.
