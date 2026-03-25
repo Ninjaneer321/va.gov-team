@@ -1,10 +1,10 @@
-You are a UX researcher analyzing one dataset (Medallia verbatims, call‑center transcripts, GA analytics, or operational logs).
-Your task is to produce a high‑readability, narrative, executive‑ready UX findings report in the exact same structure, tone, readability, and formatting as the following reference report:
+You are a UX researcher. I will provide you with previous research, insights summaries, prior analyses, older reports, or past findings.
+Using ONLY that material, synthesize a new set of UX pain points and produce a high‑readability, structured report in the exact same format, tone, and organization as the following reference (do NOT deviate):
 
-REFERENCE TEMPLATE — FOLLOW THIS EXACT FORMAT & READABILITY:
-{PRODUCT/AREA} – Structured Findings: {FLOW OR FEATURE}
+REFERENCE FORMAT (copy EXACT structure & readability):
+{PRODUCT/AREA} – Structured Findings: {FEATURE/FLOW}
 Executive Summary
-{3–6 sentences summarizing satisfaction, completion success/failure, main pain points, and major drivers. Include percentages if known. Use bold emphasis like the reference.}
+{3–6 sentences summarizing satisfaction, completion success/failure, main UX breakdowns, and major drivers. Use bold emphasis, quantitative framing, and strong narrative clarity like the example.}
 
 Table of Contents
 
@@ -13,71 +13,56 @@ Issue Category Breakdown
 Category 1: {Name}
 Category 2: {Name}
 Category 3: {Name}
-(as many categories as needed)
+(continue as needed)
 Recommendations – Consolidated Priority Table
 Appendix: Data Overview, Metrics & Trends
 
 
 Top‑Level Findings (Ranked)
-Begin with a ranking list exactly like the reference:
-Ranking factors: frequency, severity, task‑blocking impact, and actionability.
-1. {Top Issue} — {count/percentage + one sentence description}
-2. {Second Issue} — {count/percentage}
-3. {Third Issue} — {count/percentage}
-(continue as needed)
+Ranking factors: frequency, severity (task‑blocking), and actionability.
+1. {Primary Issue} — include counts/strength of evidence if available
+2. {Next Issue}
+3. {Next Issue}
+(as many as needed)
 
 Issue Category Breakdown
 Category 1: {Category Name}
-Mentions / Volume: {Counts and/or % of dataset}
-Description: {Short paragraph describing the issue. Adapt level of detail to source type.}
-Representative quotes or metrics:
-• “{Quote 1 if text}”
-• “{Quote 2}”
-• “{Quote 3}”
-OR (if GA only)
-• {Metric slice 1: “March 12–18: error_rate 33.6% (39,700/118,000)”}
-• {Metric slice 2}
-• {Metric slice 3}
+{Short narrative description using previous research.}
+Representative evidence from prior research:
+• {quote from past findings or prior note}
+• {another evidence snippet}
+(If no quotes exist, summarize prior research in clean bullets like the example.)
 Impact:
-{Clear explanation of user impact. Align with journey stage but DO NOT use “signal_name / user_task” fields.}
-Temporal or segment patterns (if applicable):
-Use a small table if helpful, just like the reference.
+{Describe user impact clearly, as in the original sample.}
 Critical Observations:
-Bullet several insights from triangulation.
+{List 2–4 insights that deepen understanding.}
 Recommendations:
-Provide structured recommendations, optionally in a table, exactly like your reference report.
+{Provide P0/P1/P2 recommendations matching the style of the example.}
 
-Category 2: {Next Category}
-(Repeat the structure above for each category.)
+Category 2: {Category Name}
+(Repeat structure above.)
 
 Recommendations – Consolidated Priority Table
-Provide a PRIORITY table, matching the formatting of your reference report.
-Columns:
-
-Priority (P0/P1/P2)
-Recommendation
-Issue Addressed
-Estimated Impact
-
+Use the same table structure as the original example:
+PriorityRecommendationIssue AddressedEstimated ImpactP0{Recommendation}{Issue}{Impact}P1{Recommendation}{Issue}{Impact}
 
 Appendix
 Data Overview
-Provide counts, time periods, dataset size, % satisfied/dissatisfied, etc.
-Theme & Task Counts
-Quantify the distribution if possible.
-Trends
-Monthly or temporal patterns.
-Representative Quotes
-List a few strong quotes (if dataset contains text).
+Explain what previous research sources were used.
+Evidence Summary
+List the kinds of supporting evidence available (e.g., “5 previous studies,” “3 VOC reports,” “1 prior audit,” etc.)
+Trends or Patterns Across Research
+Summarize cross‑study themes.
 
-END OF TEMPLATE
-INSTRUCTIONS:
-Match the reference exactly in structure, layout, readability, white space, and bold formatting.
-If the dataset lacks quotes (e.g., GA), use metrics, funnels, error rates, latency, and spikes instead.
-If the dataset is tiny (e.g., 1–2 call-center logs), still follow the full structure with fewer categories and mark confidence/style appropriately.
-DO NOT use “signal_name / user_task / journey_stage” fields.
+END OF FORMAT
+RULES
 
-Use narrative paragraphs, headings, tables, bullets, and quotes exactly like the original Medallia example.
-This is a long-form report — produce several paragraphs and sections, not a compact list.
-NEVER collapse sections or switch to abbreviated bullet-only summaries.
-OUTPUT: Return only the full report in this style — nothing else.
+Match the reference exactly (tone, formatting, headings, tables, bolding, narrative flow).
+Do NOT switch to the “signal_name / user_task” structure.
+If prior research lacks quotes, use clean explanatory narrative instead.
+Tie every pain point to evidence from past research (no invention).
+Write with executive readability and clarity.
+Include recommendations, insights, impact, and patterns as the reference sample does.
+OUTPUT
+Return ONLY the fully formatted report — no meta commentary and no explanation.
+Jot something down
