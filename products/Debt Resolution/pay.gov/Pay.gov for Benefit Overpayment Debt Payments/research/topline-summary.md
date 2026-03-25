@@ -30,7 +30,7 @@ _Add ~5-10 top of mind observations. Include quotes if they are available or par
 
 ### 2. However, most participants expect more specific information about their overpayment debt, including when and why it occurred
 
-Some participants expected payment history and debt letters to be shown. Many thought site language could be more concise. 
+Some participants expect payment history and debt letters to be shown. Many thought site language could be more concise. 
 
 > "If you're gonna collect a debt payment from someone, they should probably know the specific reason why, not just, like, here's the generic reasons why you might owe this…." – P9
 
@@ -46,7 +46,7 @@ Most participants opted for automatic monthly deductions from their benefits, so
 > "I decided by taking no action. Essentially, what it says, if you don't respond or take any action, then so much will be taken out of your award every month until the debt is paid. They take $50 out of my check for 3 years, is what it comes down to. It's crazy." - P4
 
 
-### 4. Most participants felt secure and confident when redirected from VA.gov to Pay.gov and back to VA.gov
+### 4. Most participants feel secure and confident when redirected from VA.gov to Pay.gov and back to VA.gov
 
 Most participants moved between VA.gov and Pay.gov easily. Some participants did not notice they were redirected to Pay.gov, but had no concerns when it was pointed out to them. A few called it standard for government websites to redirect users to pay.
 
@@ -55,9 +55,9 @@ Most participants moved between VA.gov and Pay.gov easily. Some participants did
 > "I'd be confident that it's gonna be processed correctly. I didn't just, on my own, go to an external site to pay. I specifically was sent here from my VA secure website. So, I wouldn't think that… there would be any red flag for me to pay through this avenue, since this was VA's authorized payment link." – P17
 
 
-### 5. Many participants described the experience of receiving initial debt notifications and then learning about resolution actions as disjointed and confusing
+### 5. Many participants describe the experience of receiving initial debt notifications and then learning about resolution actions as disjointed and confusing
 
-Many describe receiving letters and notifications from different parts of the VA that contain little actionable information. They needed to wait for additional information, a period which many describe as stressful. Many ultimately speak to a DMC representative on the phone who recommend setting up a repayment plan for monthly benefit reduction.
+Many describe receiving letters and notifications from different parts of the VA that contain little actionable information. Many describe the experience of waiting for additional information as stressful.
 
 > "I think I got a letter saying I was overpaid, and they'd have to get it back, and I was like, what does that mean? Am I not gonna get paid one month? Like, what… what is going on? And so I called, and the person I spoke to said, no, that's not what's gonna happen. You're gonna get another letter that's gonna say how the repayment works." – P16
 
