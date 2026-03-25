@@ -32,11 +32,11 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 |--|--|--|--|--|
 |ENG: Finalize frontend code adjustments to accommodate the Cerner/VistA data updates.| P1 |--|--|--|
 |ENG: In coordination with Lighthouse, implement a solution to add users and update Payment History mock data.| P1 |--|--|--|
-|ENG: Stretch goal: Complete required testing artifacts for Staging Review after implementing the Cerner/VistA data updates.| P2 |--|--|--|
+|ENG: Stretch goal: Complete required testing artifacts for Staging Review after implementing the Cerner/VistA data updates.| P1 |--|--|--|
 |UX: Complete Research Findings document and schedule Readout for Pay.gov benefit overpayment debt payments study.| P2 |--|--|--|
-|UX: Identify authenticated pages where link to EFT enrollment instructions is needed.| P1 |--|--|--|
-|ENG: Accept full ownership of Benefit Payment History Tool from BMT3 team.| P1 |--|--|--|
-|ENG: Complete any planned or new critical maintenance tickets/bugs.| P1 |--|--|--|
+|UX: Identify authenticated pages where link to EFT enrollment instructions is needed.| P6 |--|--|--|
+|ENG: Accept full ownership of Benefit Payment History Tool from BMT3 team.| P3 |--|--|--|
+|ENG: Complete any planned or new critical maintenance tickets/bugs.| P6 |--|--|--|
 |
 **Sprint rollover tickets**
 | Additional work that was pulled in mid-sprint | Scope of work changed after ticket started | Work became blocked mid-sprint |  Work was underestimated and not completed |
