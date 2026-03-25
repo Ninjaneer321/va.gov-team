@@ -68,11 +68,11 @@ consent_for_clips: true
 
 ## Intro – 5 minutes
 
-Thanks for joining us today! My name is XXX and I'm a researcher with the VA. Today, I’d like to talk to you about how you send messages to your care team on VA.gov. Before we start, I have a few things that I want to go over with you:
+Thanks for joining us today! My name is Espy and I'm a researcher with the VA. Today, I’d like to talk to you about how you send messages to your care team on VA.gov. Before we start, I have a few things that I want to go over with you:
 
 - This session will take about 45–60 minutes. I’ll try to keep us on track, so I may occasionally move us to the next question or activity. If we finish early, I’ll give you that time back.
 - Your participation is completely voluntary. Whether you choose to participate or not will not affect your VA benefits in any way. If you’d like to stop at any point or skip a question, that’s absolutely fine—just let me know.
-- I’ll start by asking a few questions about your experience sending messages to your care team. Then, I’ll ask you to complete a few tasks using a prototype. A prototype is not a live website—it’s something we use to explore ideas and get feedback before making changes. Some links may not work as expected, and using your browser’s back button may take you out of the prototype. I’ll ask you to share your screen when we get to that part.
+- I’ll start by asking some questions about your experience sending messages to your care teams. Then, I’ll ask you to complete a few tasks using a prototype. A prototype is not a live website—it’s something we use to explore ideas and get feedback before making changes. Some links may not work as expected, and using your browser’s back button may take you out of the prototype. I’ll ask you to share your screen when we get to that part.
 - We’re interested in your honest feedback. There are no right or wrong answers—we’re not testing you. We’re testing the design. Please feel free to share anything that stands out to you, whether positive or negative.
 - With your permission, we’d like to record this session so we can accurately capture your feedback. We may share short clips with VA team members, but anything shared will be anonymized—we won’t include your name or identifying information.
 
@@ -80,6 +80,11 @@ Before we begin, are you comfortable with me recording the session? And are you 
 
 - At this point, do you have any questions for me before we go forward?  
 - I know the folks who invited you to participate in this interview asked if it was alright to allow people to observe this interview, but I want to double-check with you before we get going. Are you okay with a couple of additional observers during this session?
+
+If no: Use Slack to kindly ask the observers to leave the Zoom.
+If yes: Admit observers.
+Then, ask the notetaker and observers to give a brief, camera-on introduction, like their first name and position with VA.gov. (This is meant to humanize the interaction of observation for the participant.)
+Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth
 
 ### Observer handling
 - If no: Use Slack to kindly ask the observers to leave the Zoom.  
