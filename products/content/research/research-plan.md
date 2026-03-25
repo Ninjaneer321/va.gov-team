@@ -1,11 +1,11 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research plan for Content & IA Team, Choosing a Decision Review Option Page, March /April 2026"
+date: 2026-03-24
+last_updated: 2026-03-25
+team: Content & IA
+product: Content & IA
+product_area: unauthenticated
 
 # Background Context
 background:
