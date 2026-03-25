@@ -196,41 +196,36 @@ C2 also described an active impersonation attempt: a family member came to the V
 - Promote pre-screening by coordinators by using MPI
 - Proactively update MHV coordinators of changes at a regular cadence.
 
-# Specific Asks for ID.me
+# Requests for ID.me
 ## Send metrics on the most frequest document types that lead to successful verification
 - This can help narrow down what documents Coordinators have Veterans be prepared with. Only if the Veteran doesn't have those documents, then they can move on to a "kitchen sink" approach
-- Do you have a driver's license, have you looked at it to see if it's expired? Do you have a passport or passport card. Bring it. Do you have add DD214? Bring it. Do you have a Social Security card? Bring it. Do you have a birth certificate? Bring it. And a a veteran's health identification card. Bring it and I'll say. - Coordinator from Maine
+> "Do you have a driver's license, have you looked at it to see if it's expired? Do you have a passport or passport card. Bring it. Do you have add DD214? Bring it. Do you have a Social Security card? Bring it. Do you have a birth certificate? Bring it. And a a veteran's health identification card. Bring it and I'll say." - Coordinator from Maine
 ## Investigate password reset flow to reduce the confusion caused by getting 2 emails and being unsure of which to act on
 - Are both emails truly needed? Could it be 1?
 - On content front: could the email subjects be more clear? Are there links in the email that doesn't require action that could be removed? Could the needed password link be added to both, if both emails are truly needed? Can the email that doesn't require action have better or more clear context to check for a 2nd email?
- - "ID me sends out two emails once an instructional one and the other one is the actual password reset. What happens is an individual will go through reset password, they're gonna get just the instructional e-mail and then they click on the link that says here request an e-mail or password reset. And then it takes them back to the login page and it's just this never ending loop."  - Coordinator for NH
+> "ID me sends out two emails once an instructional one and the other one is the actual password reset. What happens is an individual will go through reset password, they're gonna get just the instructional e-mail and then they click on the link that says here request an e-mail or password reset. And then it takes them back to the login page and it's just this never ending loop."  - Coordinator for NH
 ## Investigate submit button
-* We've asked the 5 VA coordinators we talked with to forward us info about these issues when they see them over the next couple weeks to help propel the investigation on IDme's side
+* We've asked the 5 VA coordinators we talked with to forward us info about these issues when they see them over the next couple weeks to help propel the investigation on ID.me's side
 * "I don't know if the system just gets stuck or if there's some reason why it's making us move out of the self-service realm and it's just not advancing... It just doesn't do anything or the button is clicked and it doesn't go anywhere. It just sits there." - Coordinator for Minneapolis
-* "Friday [March 20] I had some difficulty with the ID documents submission. It was with individuals who had Androids. I either had to take the photo multiple times before ID.me captured it OR attempt to attach it 3-4 times. It was never an issue until recently" - Coordinator for Baltimore
+> "Friday [March 20] I had some difficulty with the ID documents submission. It was with individuals who had Androids. I either had to take the photo multiple times before ID.me captured it OR attempt to attach it 3-4 times. It was never an issue until recently" - Coordinator for Baltimore
 ## Explore increased access on email and cellular providers
-* It sounds like IDme is considering what could be moved forward on this front.
-* "That's one of those phones that that doesn't get verified. Now I just ask when they come in the office, I say, who is your phone service with? If they say Consumer Cellular or Boost Mobile or Cricket or Jitterbug, we know they're not. I just don't even try anymore" - Coordinator for Kansas City
+* It sounds like ID.me is considering what could be moved forward on this front.
+> "That's one of those phones that that doesn't get verified. Now I just ask when they come in the office, I say, who is your phone service with? If they say Consumer Cellular or Boost Mobile or Cricket or Jitterbug, we know they're not. I just don't even try anymore" - Coordinator for Kansas City
 ## Send information on participating UPS locations
-* "We don't have many participating UPS stores in the area to service our veterans...some have voiced they would like to use that option" - Coordinator for Kansas City
+- Increased awareness of availability, can help Coordinators direct Veterans in the best way
+> "We don't have many participating UPS stores in the area to service our veterans...some have voiced they would like to use that option" - Coordinator for Kansas City
 
-# Questions for IDme
+# Questions for ID.me
 ## SLA on call wait times
 * Answered - wait times meet contractual obligations with VA
 * Follow-up question - can we let Coordinators know average or max weight times to offer some expectations?
-        * "I think it would be helpful to share their expected wait times with patients [to help set expectations] - Coordinator for Kansas City
+        > "I think it would be helpful to share their expected wait times with patients [to help set expectations] - Coordinator for Kansas City
 * Follow-up question - one coordinator when working with veterans from afar, dials the Help Desk number in as a 3-way conference call. The hold music volume is loud enough they can't continue conversation - they sent a request for the music volume to be adjusted lower. -  Coordinator for Minneapolis
 * All coordinators cited long wait times for the help desk, some mentioned specific amounts of time.
-* "I try and teach myself all that stuff so they don't have to, you know, wait, you know, 30 plus minutes to talk to a help desk." - Coordinator for Baltimore
-* "I'd say that the number one [blocker] is if we have to call in because because the wait time is so long. I mean, if if we if we get it on a good day we get somebody to answer in 10-15 minutes. That's wonderful. Most of the time it's, you know, 27 minutes to maybe 40 minutes." - Coordinator for Minneapolis
-* "We're waiting 15 to 30 minutes. And hour later, we finally get a trusted referee." - Coordinator for NH
-* "When he's waiting for the trusted agent, he's gotta keep his thumb on the screen and wiggle it so that he doesn't get kicked off." - Coordinator for Maine
+> "I try and teach myself all that stuff so they don't have to, you know, wait, you know, 30 plus minutes to talk to a help desk." - Coordinator for Baltimore
+> "I'd say that the number one [blocker] is if we have to call in because because the wait time is so long. I mean, if if we if we get it on a good day we get somebody to answer in 10-15 minutes. That's wonderful. Most of the time it's, you know, 27 minutes to maybe 40 minutes." - Coordinator for Minneapolis
+> "We're waiting 15 to 30 minutes. And hour later, we finally get a trusted referee." - Coordinator for NH
+> "When he's waiting for the trusted agent, he's gotta keep his thumb on the screen and wiggle it so that he doesn't get kicked off." - Coordinator for Maine
 ## Support queues information
-* there can be different wait times based on the issue, but coordinators still have a question about when the triage happens.
-* One coordinator mentioned that they press 1 to speak to a representative and then wait without any perceived triaging. If we know the happy path for the triage flow we can let the Coordinator know if they are misinterpreting or not understanding how it works.
- 
-
-
-
-### Operational Transparency
-Understanding escalation and triage pathways would help VA align expectations and improve planning.
+* Understanding that there can be different wait times based on the issue, coordinators still have a question about when the triage happens. Understanding escalation and triage pathways would help VA align expectations and improve planning.
+* One coordinator mentioned that they press 1 to speak to a representative and then wait without any perceived triaging. If we know the happy path for the triage flow we can let the Coordinator know if they are misinterpreting or not understanding how it work.
