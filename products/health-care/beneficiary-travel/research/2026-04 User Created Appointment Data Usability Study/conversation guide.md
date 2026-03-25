@@ -255,9 +255,10 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 ### Appointment confirmation page
 `Moderator: Take a look at this page. What do you see here?`   
 1. What is this page asking you to do?
-2. What do you think the “edit” button does?
-3. What do you expect to happen after you continue?
-4. What do you think will happen to your information if you left this page?
+2. _If the user does not notice the info box, prompt them_ What is that message at the top telling you? Do you have any thoughts about that?
+3. What do you think the “edit” button does?
+4. What do you expect to happen after you continue?
+5. What do you think will happen to your information if you left this page?
 
 `Moderator: Now I’d like to pause again for a minute and imagine a new scenario. Let’s pretend that this dermatology appointment was actually in VA’s system already, but you were in a hurry and just missed seeing it. So the appointment is there, but you just didn’t notice it.`   
 
@@ -268,7 +269,7 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 
 > [!NOTE]
 > #### Things to watch for:
-> - 1. Do they notice the alert at the top?
+> - 1. Do they notice the alert at the top or need be to prompted?
 > - 2. Do they understand that they won’t be able to edit the appointment information later? If so, how do they feel about that?
 > - 3. Do they think their claim is filed after continuing or do they recognize there is more to do?
 > - 4. Do users imagine that the system will check them or prevent them from creating duplicate appointments?
