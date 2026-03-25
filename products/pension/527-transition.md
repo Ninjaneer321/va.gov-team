@@ -34,7 +34,7 @@ The online pension application is available in the [production environment](http
 
 ### Product artifacts 
 - [Backlog](https://github.com/orgs/department-of-veterans-affairs/projects/1237/views/39)
-- [General testing plan](https://docs.google.com/spreadsheets/d/1mZCnm1Cc6lBIGRIjxw5FzmHa9yQRDBfHquKKLsNlHfo/edit?gid=2009661867#gid=2009661867) for product updates
+- [General testing plan](https://dvagov.sharepoint.com/:x:/r/sites/vaabdvro/Shared%20Documents/Pension/z%20-%20archive%20-%20pension/Pension%20Test%20Plan.xlsx?d=w52527f8740194212afda5fc1c4bdc97c&csf=1&web=1&e=aEGKRt) for product updates
 
 ### Design artifacts
 - [Figma project](https://www.figma.com/files/1499394822283304153/project/176170451)
