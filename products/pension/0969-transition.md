@@ -21,8 +21,8 @@
    - Usability research (with post-MVP designs) conducted: July 2025
    - MVP launched on VA.gov: September 2025
    - Post-MVP launched on VA.gov: March 2026
-   - Annual submission volume: ###
-   - Current pdf version on VA.gov: MM/YYYY
+   - Submission volume: ~100 monthly
+   - Current pdf version on VA.gov: VA FORM 21P-0969, NOV 2023
 
 ### Product Goal
 Make the online pension experience as easy to complete and cohesive as possible, while ensuring that Veterans provide sufficient supporting documentation to ensure that submissions are reliable and processed as quickly as possible.
