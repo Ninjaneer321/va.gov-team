@@ -117,7 +117,7 @@ Applicants often don’t understand what medical expenses to report and end up e
 	* Conducted a [usability test](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2024%2002%20Pension%20Usability%20Evaluation/research-findings.md) of the pension form's MVP, documented findings related to this step
 * 2025
 	* Conducted [VSO research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/pension/research/2024-09%20527EZ%20VSO%20Research) to further understand pain points in the application process
-	* [Explored potential designs](https://www.figma.com/design/9JKK5Eo43uJWEr66JPiebc/WIP---21P-527EZ---Pension-Benefits?node-id=5699-15179) and language changes (before multiple page list-and-loop pattern was established)
+	* [Explored potential designs](https://www.figma.com/design/i7CyrMbAOuR78vhwvfvUrn/Archive---21P-527EZ---Pension-Benefits?node-id=53-3) and language changes (before multiple page list-and-loop pattern was established)
 * 2026
 	* Reviewed historical artifacts and the digitized 8416 to propose recommendations
 #### Why it was stopped
