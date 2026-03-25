@@ -1,8 +1,8 @@
 ---
 # Prompt File Metadata
-title: "GitHub Copilot Prompt: Complete Research Plan Frontmatter with Metadata"
-date:  2026-01-12
-last_updated: 2026-01-12
+title: "Research plan for Content & IA Team, Choosing a Decision Review Option Page"
+date:  2026-03-24
+last_updated: 2026-03-25
 prompt_type: "research-planning"
 category: "Research Discovery & Planning"
 purpose: "Helps researchers complete the YAML frontmatter section of research plans using GitHub Copilot"
