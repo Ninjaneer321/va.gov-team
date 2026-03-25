@@ -77,7 +77,7 @@ These files capture the post-MVP designs, primarily with enhanced content as a c
 
 
 ### Next
-- BPDS integration for 0969- Simplifies backend processing. POI (Pension Optimization Initiative) automation process would be able to more efficiently automate processing of 530 and 0969 applications and veterans would receive their benefits faster.
+- BPDS integration for 0969- Simplifies backend processing. POI (Pension Optimization Initiative) automation process would be able to more efficiently automate processing of 0969 applications and veterans would receive their benefits faster.
 
 #### Embedding the 0969 in the pension form
 ##### Problem it solves  
