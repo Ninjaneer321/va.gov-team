@@ -17,7 +17,7 @@
 
 ## Product context 
 - The online **527EZ** form allows Veterans to fill out and submit the application for Veterans Pension benefits. If the applicant is a wartime Veteran and  at least 65 years old, or if they have a permanent and total disability, they may be eligible. Their income and net worth need to be within certain limits.
-   - [About VA Form 530EZ (Application for Veterans Pension)](https://www.va.gov/forms/21p-527ez/)
+   - [About VA Form 527EZ (Application for Veterans Pension)](https://www.va.gov/forms/21p-527ez/)
    - Re-launched on VA.gov: 1/31/2024
    - Annual submission volume: 10,665 (2025)
    - Current pdf version on VA.gov: DEC 2025
