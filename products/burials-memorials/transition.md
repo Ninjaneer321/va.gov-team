@@ -29,7 +29,7 @@ Make the online Burial experience as easy to complete and cohesive as possible, 
 The online Burial application is available in the [production environment](https://www.va.gov/burials-memorials/veterans-burial-allowance/apply-for-allowance-form-21p-530ez/introduction).  The staging environment version of the form is [here](https://staging.va.gov/burials-memorials/veterans-burial-allowance/apply-for-allowance-form-21p-530ez/introduction).
 - [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/burials-memorials/burial-allowance/530-initiative-brief-2024-updates.md)
 - [Backlog](https://github.com/orgs/department-of-veterans-affairs/projects/1237/views/39)
-- [General testing plan](https://docs.google.com/spreadsheets/d/10SQSGnTPfXMFWd1OzoEhGa4y0cpn49kD4JS6liehalE/edit?gid=154291457#gid=154291457) for product updates
+- [General testing plan](https://dvagov.sharepoint.com/:x:/r/sites/vaabdvro/Shared%20Documents/Pension/Burial/Burial%20Review/Burial%20regression%20testing.xlsx?d=we5247e7389764a00b062e6780aa87843&csf=1&web=1&e=YuqDLs) for product updates
 
 ### Design artifacts
 - [Figma Working File](https://www.figma.com/design/jpJQSCKiGegacdW4RH5uQB/21P-530EZ---Burial-Benefits?node-id=0-1)
