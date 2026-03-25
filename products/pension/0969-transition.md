@@ -35,7 +35,7 @@ Make the online pension experience as easy to complete and cohesive as possible,
 The online pension application is available in the [production environment](https://va.gov/supporting-forms-for-claims/submit-income-and-asset-statement-form-21p-0969/).  The staging environment version of the form is [here](https://staging.va.gov/supporting-forms-for-claims/submit-income-and-asset-statement-form-21p-0969/).
 
 - [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/21P-0969-product-outline.md)
-- [General testing plan](https://docs.google.com/spreadsheets/d/1mZCnm1Cc6lBIGRIjxw5FzmHa9yQRDBfHquKKLsNlHfo/edit?gid=2009661867#gid=2009661867) for product updates
+- [General testing plan](https://dvagov.sharepoint.com/:x:/r/sites/vaabdvro/Shared%20Documents/Pension/0969%20Form/0969%20Post%20MVP%20Test%20Plan.xlsx?d=w73d46b5b002147d78d4715cf1b3a799e&csf=1&web=1&e=43a65W) for product updates
 
 ### Design and research artifacts
 
