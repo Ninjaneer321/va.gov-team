@@ -121,3 +121,18 @@ Before you click on anything to take action, I'd like you to tell me about your 
 
 ## **Task 2: Address and write a message**
 
+Notes for suggestions for guide:
+- walk us through what you would do to start a new message
+- If they click on start a new message link, explain what you see on this screen (interstitial). Ask how often they read this screen? what next?
+  
+- On recent care teams page: What do you see on this page?
+- What are the care teams you normally message?
+- Are there care teams you frequently seek but cannot find when you see this page?
+- What do you do when the care team you want isn't visible on the first page?
+
+If they click the link and land on the select a care team, then...
+
+- Do you rely on the care system to narrow your list of care teams?
+- Do you search or scroll in the combo box when looking for a care team?
+- What navigational features help you correctly identify the appropriate care team quickly and easily?
+
