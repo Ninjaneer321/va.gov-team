@@ -4,4 +4,4 @@ This meeting with Platform Security and Engineering ensures that your team follo
 
 - **Required artifact:** Engineering and Security Checklist
 - [More information about Architecture Intent](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/architecture-intent)  
-- [➡️ Initiate an Architecture Intent](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=&template=DRAFT-Architecture-Intent.md&title=Architecture+Intent+-+TEAM+NAME+-+PRODUCT+NAME&milestone={{MILESTONE}})
+- [➡️ Initiate an Architecture Intent]({{INITIATE_TOUCHPOINT_URL_ARCHITECTURE_INTENT}})

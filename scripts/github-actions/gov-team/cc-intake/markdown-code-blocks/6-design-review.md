@@ -6,10 +6,10 @@ These touchpoints with the Governance Team ensure your product aligns with VA.go
 
 - **Required artifact:** user flow. Wireframes or prototypes are encouraged.
 - [More information about Design Intent](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/design-intent)
-- [➡️ Initiate a Design Intent](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=&template=DRAFT-Design-Intent.md&title=Design+Intent+-+TEAM+NAME+-+PRODUCT+NAME&milestone={{MILESTONE}})
+- [➡️ Initiate a Design Intent]({{INITIATE_TOUCHPOINT_URL_DESIGN_INTENT}})
 
 #### Midpoint Review (before doing research or moving to code)
 
 - **Required artifact:** user flow and wireframes or prototype.
 - [More information about Midpoint Review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/design-intent)
-- [➡️ Initiate a Midpoint Review](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=&template=DRAFT-Midpoint-Review.md&title=Midpoint+Review+-+TEAM+NAME+-+PRODUCT+NAME&milestone={{MILESTONE}})
+- [➡️ Initiate a Midpoint Review]({{INITIATE_TOUCHPOINT_URL_MIDPOINT_REVIEW}})
