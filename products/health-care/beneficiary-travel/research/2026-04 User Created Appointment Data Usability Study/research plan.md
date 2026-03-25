@@ -245,19 +245,17 @@ Validate related community care work, which is a primary use case for this new f
 
 ### Research questions
 
-**`1.`Where do Veterans expect to start when filing a travel claim for an appointment that doesn't appear in their list?**    
+**`1.`Where do Veterans expect to start when filing a travel claim for an appointment that doesn't appear in their list?**     
 
-**`2.`How do Veterans perceive and distinguish user-generated appointments from system-generated appointments?**   
+**`2.`How do Veterans remember or keep track of the information they need to enter for missing appointments?**   
 
-**`3.`How do Veterans remember or keep track of the information they need to enter for missing appointments?**   
+**`3.`Do Veterans understand that once they enter appointment data, they cannot edit it?**   
 
-**`4.`Do Veterans understand that once they enter appointment data, they cannot edit it?**   
+**`4.`Do Veterans expect VA to tell them if they enter data about an appointment that already exists?**   
 
-**`5.`Do Veterans expect VA to tell them if they enter data about an appointment that already exists?**   
+**`5.`Can Veterans successfully create an appointment and file a travel claim using user-entered data?**   
 
-**`6.`Can Veterans successfully create an appointment and file a travel claim using user-entered data?**   
-
-**`7.`Do Veterans expect their appointment to be displayed in their list of appointments?**   
+**`6.`Do Veterans expect their appointment to be displayed in their list of appointments?**   
 
 
 ### Hypotheses
