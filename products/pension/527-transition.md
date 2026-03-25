@@ -44,7 +44,7 @@ The online pension application is available in the [production environment](http
 - [Mural room](https://app.mural.co/t/departmentofveteransaffairs9999/r/1613770853903?folderUuid=7f7423c1-9a73-4522-b388-d380cc8cdddd) 
 
 ### Engineering
-- Engineering [readme](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/engineering/README.md)
+- Engineering [readme](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/engineering/README.md)
 - High level view of systems
 - [Sequence Diagram](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1727757799534/c7c5f5a6dc1b8f451ecab5f02afa70a9325b93c8?sender=u070fbdc641c5ca111da83793)
 - [Application Diagram](https://docs.google.com/document/d/16lfdICIMRbCTlaY4qM6nXJldpAsWBk4-l1qwL--VNCQ/edit#heading=h.guuvbv6eus3)
