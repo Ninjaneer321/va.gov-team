@@ -1,6 +1,6 @@
 # Summary
 
-Coordinators across all five sites are handling a significant daily burden helping Veterans navigate ID.me identity verification and troubleshooting processes. Each coordinator supports 2 to 12+ Veterans per day, with each case taking 20 to 60+ minutes. More than half relate directly to ID.me. Many issues fall outside coordinators’ control or permissions.
+Coordinators across all five sites are shouldering a significant, daily burden helping Veterans navigate the ID.me identity verification and troubleshooting processes. The volume is high, ranging from 2 to 12+ Veterans per coordinator per day with each case taking 20 minutes to 60+ minutes. Half or more of the cases they help with directly relate to ID.me. Coordinators often run into issues beyond their ability or permissions level to help. Many issues they see recur consistently across regions, including:
 
 Common issues include:
 - Personal email access problems
@@ -10,7 +10,8 @@ Common issues include:
 - Inconsistent ID.me flows
 - Policy gaps for caregivers or POA
 
-Coordinators have developed workarounds (video verification, checklists, pre‑screening, coaching), but these are not standardized and rely on individual effort.
+Coordinators are very knowledgeable of the process, since they help veterans through it dozens of times a week. They have developed effective workarounds like knowing when to move to video verification flow, create Veteran help guides like checklists, conduct pre-screening for device and carrier compatibility, and offer FaceTime coaching for those who can’t come in. These practices are inconsistent across sites and place a heavy individual burden on a small number of dedicated staff. 
+Coordinators help with ID.me issues because a credential is needed to access VA online services. Most of the Coordinators we talked with actually steer Veterans to ID.me feeling it’s easier to sign up and verify with in most cases. Still there are many reoccurring issues, and some of those could be helped or solved by either ID.me or the VA.gov Identity team.
 
 
 # Major Themes
@@ -18,7 +19,7 @@ Coordinators have developed workarounds (video verification, checklists, pre‑s
 ## Coordinators Make It Work the Best They Can
 
 ### Coordinators Are at Capacity
-Daily volume ranges from 2 to 12+ Veterans; outreach events 15–20+. Sessions take 20–60+ minutes. Most coordinators prefer ID.me due to familiarity.
+All coordinators report helping Veterans with ID.me needs every single day, making up half or more of the Veterans they see. They can sometimes help 10 more Veterans daily, or 15-20 during a planned outreach event. Help sessions with ID.me issues can take as little as 20 minutes but often stretch to an hour or longer. Coordinators often guide veterans to ID.me, over Login.gov, because they find it easier to help Veterans with ID.me
 
 | Coordinator | Estimated Daily Volume |
 | --- | --- |
@@ -28,10 +29,14 @@ Daily volume ranges from 2 to 12+ Veterans; outreach events 15–20+. Sessions t
 | C4 (New Hampshire) | 2–10/day |
 | C5 (Maine) | 5–9/day; 10–15 outreach |
 
-> "I'm the only one that helps Veterans with VA.gov ID.me across all 6–7 facilities in this hub of Maryland."
+Critically, four of the five coordinators are the sole support person for their facility. Many cover multiple facilities across an entire region. There is no backup when they are out
+> "I'm the only one that helps veterans with va.gov ID.me throughout all the 6-7 facilities in this hub of Maryland."  — C1, Baltimore
+
+The absence of redundancy means any coordinator absence creates a complete gap in service - one coordinator often helps veterans even on his PTO days. Knowledge, workarounds, and best practices are held by individuals rather than systems.
+
 
 ### Coordinator Workflows Are Improvised
-Coordinators use informal workflows with no standardization.
+Coordinators have developed effective personal workflows, but these are not standardized or shared across sites. The general pattern follows a triage-and-escalation model, but the steps and decision points differ by coordinator.
 
 | Stage | What Happens | Variation |
 | --- | --- | --- |
@@ -43,27 +48,55 @@ Coordinators use informal workflows with no standardization.
 | Escalation | ID.me help desk | Wait times vary |
 | Unresolved | Veteran leaves | No tracking |
 
-### Advance Preparation Improves Outcomes
-Preparation varies widely.
+Key observations:
+- No coordinator has a formal case tracking system for unresolved verifications. Veterans who leave without completing verification may or may not return.
+- The UPS in-person option is largely non-functional as a fallback due to geographic inaccessibility (one UPS store serving a multi-state area, with kiosks frequently reported as broken).
+- All coordinators prefer ID.me over Login.gov for its help desk support capability — but that advantage is eroded by long wait times.
+- There is no documented decision tree or escalation playbook shared across coordinators. Best practices are learned by doing and by informal coordinator networks.
+> "I feel like I've helped probably thousands of people with it, so I can diagnose the issue pretty fast. But I'm sure there are a lot of coordinators that struggle and I could probably resolve their issue within seconds."  -- C1, Baltimore
 
+
+### Advance Preparation Improves Outcomes
+All coordinators provide some form of advance preparation to Veterans before a verification session. However, the quality and formality of this preparation varies significantly.
 | Coordinator | Preparation Method |
 | --- | --- |
-| C1 | Verbal checklist |
-| C2 | Written checklist (formal) |
-| C3 | Verbal guidance |
-| C4 | “Bring everything” |
-| C5 | “Bring everything” |
+| C1 | Verbally tells Veterans to bring state ID/passport, Veterans Health ID card, and Social Security card. Reports ~95% success rate when Veterans comply |
+| C2 | Shares a written checklist with every Veteran before their visit that includes what to bring, and what information to have ready. |
+| C3 | Verbally tells Veterans to bring IDs, listing specific options, to have phone charged, to have username and passwords ready. |
+| C4 | Verbally tells Veterans to 'bring everything in the kitchen sink' since accepted options are unpredictable. |
+| C5 | Verbally tells veterans to bring as much as possible, esp driver’s licenses or unexpired ID, passport, SSC, DD214, and VHIC since accepted options are unpredictable |
 
-> “Do you have a driver’s license? Passport? SSC? VHIC? Bring it all.” – C5
+> “Do you have a driver's license … do you have a passport or passport card. Bring it. Do you have a DD214?... Bring it. Do you have a Social Security card? Bring it. Do you have a birth certificate? Bring it. And a veteran's health identification card? Bring it” – C5, Maine
+
+C1’s high success rate may be linked to his consistent pre-briefing about documentation. C2's written checklist represents the most formalized approach and could serve as a model for standardization across sites.
+> "I'm glad you asked. This is the exact verbiage shared with every patient from this facility."  — C2, Kansas City (presenting her pre-visit checklist)
+
+The 'bring everything' instruction (C4 and C5) reflects frustration with what feels like unpredictable document options in the flow. This undermines their ability to give precise guidance.
+> “It would seem like you'd show everything, and then in the second one you'd show everything again. But no, you show this list and after you put one of those in, it changes in the second list. – C5, Maine
+
 
 ### Coordinator Concerns About Direct Verification
-Mixed feelings: C2/C4 enthusiastic; C1/C3 concerned about liability.
-
+All coordinators expressed interest in principle to having the ability to directly verify a Veteran's identity (attesting on ID.me's behalf). However, two raised unprompted concerns about personal liability and fraud risk if something were to go wrong (C1 and C3).
+C4 and C2 expressed the strongest enthusiasm for this capability. C1 and C3 were more cautious, noting that they are not trained identity verification officers. While coordinators  did similar work for the VA with the MHV account, there’s some hesitancy that ID.me has a stronger verification process than MHV had, the credentials are used outside of VA settings, and the verification process is owned by an entity outside the VA.
+This ambivalence is important for any future coordinator-attestation design: coordinators want to help but need a clear liability framework, not just technical access.
 
 # Recurring Failures Drive Most of the Support Burden
 
 ## 1. Existing ID.me Accounts Veterans Cannot Access
-Forgotten passwords, inaccessible emails, MFA tied to old phones.
+Many Veterans already have an ID.me account. For these folks, it was likely created years prior without their awareness in order to force MFA enforcement of a deprecated CSP. Some veterans may have previously created one for themselves, through other government services or to gain discounts from private companies, and later lost access or forgot about having that account.
+> "They go in and they’re like, oh, I already got an ID.me account. When did this happen? It happened a long time ago."  — C4, New Hampshire
+> 
+Veterans with existing accounts need help with account access and recovery:
+- Lost access to the personal email address linked to the ID.me account
+- Can't remember the password
+- Two password reset emails sent from ID.me cause a reset loop – see “Inconsistent ID.me flows” section
+- MFA phone number changed
+C4 checks for an existing ID.me account via the VA admin portal (MPI) before attempting any password reset or new registration. This could be a best practice but was not mentioned by other coordinators.
+C4 notes that for Veterans without a verified account showing in MPI, it is sometimes faster to start a new registration than to attempt recovery, because the system will surface the existing account when the email is entered. It’s possible this method could lead to multiple accounts created for a Veteran if they changed emails since last using ID.me
+> "It's a lot faster, in my opinion, to go through the registration process and I'll get that little blurb — oh, hey, look, you already have an account with this email."  — C4, New Hampshire
+
+In a variation on this, C1 instead has veterans sign in and click forgot password. If ID.me sends an email to an account they have access to, it means they don’t need to set up a new account
+> "I actually tell them not to click on create an account. I tell them to sign in first [on VA.gov] and then click ID.me and do the forgot password. "  — C1, Baltimore
 
 > “They go in and say, ‘I already have an ID.me account… when did this happen?’” – C4
 
