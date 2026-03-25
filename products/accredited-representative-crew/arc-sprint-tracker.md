@@ -73,6 +73,9 @@ Carrying into Sprint 11: 23 tickets, 86 points + 2 spikes
 6. [Rep-Facing 686c] v2 - UX Research
     1. Begin recruitment, user testing, and analysis
 7. Onboarding New Team Member
+8. 1. [Prefill ITF] Design
+    1. ITF v2 UX exploration
+
 
 **Engagement**
 1. [ Conference Prep ]
