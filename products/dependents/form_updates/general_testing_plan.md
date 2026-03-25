@@ -13,6 +13,7 @@
    - Add spouse via tribal ceremony, add two children; remove child who got married
    - Add spouse via other marriage type, add 1 student who has been on benefits before and 1 student who has not been on benefits before; remove child who left school (686 add/remove + 674)
    - Add a student (674)
+   - Pension Income and Net Worth questions: Veterans receiving a pension should be prompted with both the Income and Net Worth sections when adding dependents, with the exception of the adding a student scenario.
 - 674 testing scenarios used by RBPS testing team
    - VA.gov 674-1: Pension add school child (RBPS should process)
    - VA.gov 674-2: Compensation add school child (RBPS should process)
