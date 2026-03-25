@@ -1,4 +1,4 @@
-# General Testing Plan for 21-686c and 21-674 Form Changes
+# General Testing Plan for 21-686c, 21-674 and 0538 Form Changes
 
 ## General Scenarios (not all-inclusive):
 - PDF Testing
@@ -14,6 +14,10 @@
    - Add spouse via other marriage type, add 1 student who has been on benefits before and 1 student who has not been on benefits before; remove child who left school (686 add/remove + 674)
    - Add a student (674)
    - Pension Income and Net Worth questions: Veterans receiving a pension should be prompted with both the Income and Net Worth sections when adding dependents, with the exception of the adding a student scenario.
+   - Verify that the dependents management app at manage-dependents/view displays accurate dependents information.
+   - Verify that the remove dependent flow presents a selectable dependents list (v3) and that the removal flows function correctly.
+   - Verify that an in-progress form loads accurate saved data and allows the veteran to resume where they left off.
+   - Verify that the 0538 verification flow allows the veteran to confirm their dependents information is correct (no update needed) or indicate changes are needed (redirecting to the 686c/674 flow).
 - 674 testing scenarios used by RBPS testing team
    - VA.gov 674-1: Pension add school child (RBPS should process)
    - VA.gov 674-2: Compensation add school child (RBPS should process)
