@@ -175,20 +175,26 @@ C2 also described an active impersonation attempt: a family member came to the V
 
 
 # Next Steps
-## Focus Area 1: Fix Password & Email Loop
-- Consolidate reset to one email
-- Warn against browser-generated passwords
-- Improve email deliverability and error handling
+## Focus Area 1: Bug Fixes
+- "Submit button" stalls
+- Skip repeat "Authorize VA" step for returning users
 
-## Focus Area 2: Reduce Lockouts
-Remove unnecessary reauthentication; improve error messages.
+## Focus Area 2: UX Fixes
+- Update language and nuances on temporary license acceptance
+- Plain-language MFA error message + retry countdown
+- Investigate password recovery communications through e-mail
+- Investigate possible improvements on how to prompt Veterans to store recovery code
 
-## Focus Area 3: Improve Flow Consistency
-Fix post-photo stall, standardize UI, ensure recovery codes display.
+## Focus Area 3: Technical Investigations
+- Reduce number of sign-ins during verification flow
+- Improve outcomes with email and cell phone providers
+- Investigate work-arounds when e-mail is not being received (inbox full or other issues)
+- Investigate browser-save warning at password creation (which can save the wrong password)
 
 ## Focus Area 4: Standardize Coordinator Preparation
-Adopt a national checklist; standardize MPI usage; create update cadence.
-
+- ID.me to share a standardized checklist to be vetted by Coordinators
+- Promote pre-screening by coordinators by using MPI
+- Proactively update MHV coordinators of changes at a regular cadence.
 
 # Specific Asks for ID.me
 * Collaborate to reduce sign-ins during verification
