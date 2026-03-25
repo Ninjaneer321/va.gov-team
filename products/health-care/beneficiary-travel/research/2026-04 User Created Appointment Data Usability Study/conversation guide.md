@@ -405,10 +405,11 @@ _Instruct user to click on the option they did not start from last time, either 
 ## Section 5: Wrap up / Post-task interview   
 `Moderator: Moderator: Thank you so much for everything you’ve shared! We’re about to wrap up, so I have some final questions for you.`
 
-1. If you had an appointment that wasn’t showing up on your list, how likely would you be to use this process to file for travel pay? On a scale of 1-5, where 1 is “not at all likely” and 5 is “very likely.”   
-2. In your own words, can you explain what you did today, as if you were telling another Veteran about it?   
-3. Is there anything that could make you more comfortable about using this process?   
-4. Do you have any questions for me?   
+1. If you had an appointment that wasn’t showing up on your list, how likely would you be to use this process to file for travel pay? On a scale of 1-5, where 1 is “not at all likely” and 5 is “very likely.”
+2. Why did you assign it that number?
+3. In your own words, can you explain what you did today, as if you were telling another Veteran about it?   
+4. Is there anything that could make you more comfortable about using this process?   
+5. Do you have any questions for me?   
 
 
 ## Consent to use video clips
