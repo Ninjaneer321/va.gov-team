@@ -162,12 +162,11 @@ Resolving fragmentation is out of scope for this initiative. The relevant design
 - KPI framework: products are measured on Ease of Use, Service Completion, Trust/Satisfaction, and Health
 - Analytics priority: CTR on top queries, relevancy of top 10 results, task completion rate
 
-### Design directions suggested by the research
+### Design ideas suggested by the research
 
-The following are directions the data points toward — they represent areas to explore and test, not validated solutions:
+The following are ideas the data points toward — they represent areas to explore and test, not validated solutions:
 
-- A featured answer or Best Bet layer for highest-frequency query types (form numbers, phone numbers, eligibility) — supported by the volume of task-oriented queries in the 2025 search query
-analysis and the intent/action mismatch in the [Medallia data](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/initiatives/unified-search/va-search-feedback-combined-analysis.md)
+- Best bets that are more action-oriented for Veterans trying to complete specific tasks  — supported by the volume of task-oriented queries in the 2025 search query analysis and the intent/action mismatch in the [Medallia data](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/initiatives/unified-search/va-search-feedback-combined-analysis.md)
 - De-ranking press releases and news articles for queries that signal task intent — supported by direct Veteran feedback in the [Combined analysis, Theme 1](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/initiatives/unified-search/va-search-feedback-combined-analysis.md)
 - Signaling authenticated vs. unauthenticated content in results — supported by fragmentation feedback in [Theme 4](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/initiatives/unified-search/va-search-feedback-combined-analysis.md)
 
