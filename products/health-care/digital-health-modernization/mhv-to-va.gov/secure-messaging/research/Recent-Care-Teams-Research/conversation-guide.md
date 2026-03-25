@@ -92,3 +92,32 @@ Before we begin, are you comfortable with me recording the session? And are you 
 
 - I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?  
 - Are you comfortable if we decide to use a recorded clip from our discussion today to share with other VA partners if we remove any information that can be used to identify you?
+
+## Screen sharing instructions
+
+I'm going to ask you to do a couple things on the VA website, VA.gov, and to share your screen so I can see how you navigate on the website. Do you know how to share your screen? 
+
+_Instructions for folks using screenreaders on a desktop:_
+- Hit Command Shift S for mac
+
+
+Great, now I can see your screen! Thank you for your patience in figuring this out.
+
+
+- *Backup plan if they cannot figure out how to share screen:*
+  - Ok, it seems like we're having trouble sharing your screen, so I'm going to share my screen with you and give you control of it. Does that sound ok? *[Share your screen]*. Can you confirm if you can see my screen? *[Give mouse control]* Can you click and see if you can move your mouse around on my screen?
+
+## **Task 1: Login and Navigate to Secure Messaging**
+
+I'm going to drop a link in the chat: https://www.myhealth.va.gov/mhv-portal-web/home. Click on that link and then click on "Sign in or create an account" in the top right corner of the screen. 
+
+Type in your login credentials. 
+
+Navigate to secure messaging start a new message.
+
+From either MHV landing page or Inbox: 
+
+Before you click on anything to take action, I'd like you to tell me about your ideal process to write a message to your healthcare team.
+
+## **Task 2: Address and write a message**
+
