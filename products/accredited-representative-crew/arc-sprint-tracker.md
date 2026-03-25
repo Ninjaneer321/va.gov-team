@@ -35,7 +35,7 @@ Carrying into Sprint 11: 23 tickets, 86 points + 2 spikes
 
 ## Sprint 13 Goals
 
-- [ ] Sprint Goals Approved by Enablement
+- [x] Sprint Goals Approved by Enablement - Jen Bertsch on March 25, 2026 ([Slack conversation](https://dsva.slack.com/archives/C06GE5N7QJ0/p1774474346915039?thread_ts=1774462099.913729&cid=C06GE5N7QJ0)) 
 
 **Team Accreditation**
 1. [ARP Post-MVP] Enable Individual Acceptance of Representation Requests
@@ -304,7 +304,7 @@ TBD
 2. NOVA flyer drafts
 
 ## Sprint 12 Delivery
-- [ ] Sprint Delivery Approved by Enablement
+- [x] Sprint Delivery Approved by Enablement - Jen Bertsch on March 25, 2026 ([Slack conversation](https://dsva.slack.com/archives/C06GE5N7QJ0/p1774474717016549?thread_ts=1774462099.913729&cid=C06GE5N7QJ0)) 
 
 Total Completed in Sprint 12: 43 tickets, 122 points + 2 spikes\
 Active Teammates in Sprint 12: 18 active teammates\
