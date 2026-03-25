@@ -54,10 +54,10 @@ The online Burial application is available in the [production environment](https
 ### Analytics dashboard:
 - Domo (none), [general forms dashboard](https://va-gov.domo.com/page/447193050)
 - Google Analytics (none)
-- [Backend Stats on DataDog Dashboard]([https://vagov.ddog-gov.com/dashboard/55q-ksa-tvq/benefits---pension---527---controller?fromUser=false&refresh_mode=paused&from_ts=1759294800000&to_ts=1767247199999&live=false]
-- [Backend lighthouse monitoring]([https://vagov.ddog-gov.com/dashboard/atf-ppf-aky/benefits---pension---527---benefits-intake?fromUser=true&refresh_mode=sliding&from_ts=1773157902524&to_ts=1773172302524&live=true](https://docs.google.com/spreadsheets/d/10SQSGnTPfXMFWd1OzoEhGa4y0cpn49kD4JS6liehalE/edit?gid=154291457#gid=154291457))
-- [Submission reporting]([https://vagov.ddog-gov.com/dashboard/vk2-6zi-zzu/benefits-form-527-pension-benefits?fromUser=false&refresh_mode=paused&from_ts=1735711200000&to_ts=1767247199999&live=false] 
-- [Pension Funnel dashboard](https://vagov.ddog-gov.com/dashboard/d59-e32-q3v?fromUser=false&refresh_mode=sliding&from_ts=1770756825443&to_ts=1773172425443&live=true)
+- [Backend Stats on DataDog Dashboard](https://vagov.ddog-gov.com/dashboard/uf8-dua-jyb/benefits---burial---530---controller?fromUser=false&refresh_mode=sliding&from_ts=1774365218867&to_ts=1774451618867&live=true)
+- [Backend lighthouse monitoring](https://vagov.ddog-gov.com/dashboard/rmu-h63-k74/benefits---burial---530---benefits-intake?fromUser=false&refresh_mode=sliding&from_ts=1774451424572&to_ts=1774451724572&live=true)
+- [Submission reporting](https://vagov.ddog-gov.com/dashboard/q5u-4h7-bfh/benefits---form-530-burial-claims?fromUser=false&refresh_mode=paused&from_ts=1735711200000&to_ts=1767247199999&live=false)
+- [Burial Funnel dashboard](https://vagov.ddog-gov.com/dashboard/fgn-xp5-3f9/burial-funnel-dashboard?fromUser=false&refresh_mode=paused&from_ts=1767247200000&to_ts=1769925599999&live=false)
 
 ### Team resources
 - [Team Project Board](https://github.com/orgs/department-of-veterans-affairs/projects/1237/views/3) (GitHub)
