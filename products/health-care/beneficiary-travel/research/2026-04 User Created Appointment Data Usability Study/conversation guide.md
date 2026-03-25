@@ -335,10 +335,10 @@ _Participant selects mileage_
 `Moderator: Now take a look at this page.`   
 
 1. What is happening here? What does this page tell you?
-2. Have you submitted your claim or is there more you need to do?
-3. Does this page show you what you expect to see?
-4. If you came back in a few days and wanted to track the status of your submission, where would you go to find it? _If time:_ Let’s go back to the home page and you can show us where you’d click.
-5. Looking at this page, did you create an appointment, file a claim, or both?
+2. Does this page show you what you expect to see?
+3. Have you submitted your claim or is there more you need to do?
+5. If you came back in a few days and wanted to track the status of your submission, where would you go to find it? _If time:_ Let’s go back to the home page and you can show us where you’d click.
+6. Looking at this page, did you create an appointment, file a claim, or both?
 
 > [!NOTE]
 > #### Things to watch for:
