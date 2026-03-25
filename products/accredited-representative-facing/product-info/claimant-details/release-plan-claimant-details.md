@@ -1,12 +1,3 @@
----
-layout: page_breadcrumb
-type: Release Plan
-title: Release Plan: Claimant Details
-services: Accredited Representative Facing
-tags: accredited-representative, claims, release
-source: va.gov-team-repo
-url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/product-info/claimant-details/release-plan-claimant-details.md
----
 # Release Plan: Claimant Details
 
 Feature Toggle/flag:
@@ -23,6 +14,7 @@ Feature Toggle/flag:
       -    [ ] User has established POA for a claimant
       -    [ ] User has established POA for a claimant without an established ITF
       -    [ ] User has established POA for a claimant with multiple established ITFs
+      -    [ ] User has established POA for a claimant with an expiring ITF
       -    [ ] User has no established POA for a claimant
    -  Submission History Tab
       -    [ ] No submissions currently exist for a claimant
