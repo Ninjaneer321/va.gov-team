@@ -81,11 +81,6 @@ Before we begin, are you comfortable with me recording the session? And are you 
 - At this point, do you have any questions for me before we go forward?  
 - I know the folks who invited you to participate in this interview asked if it was alright to allow people to observe this interview, but I want to double-check with you before we get going. Are you okay with a couple of additional observers during this session?
 
-If no: Use Slack to kindly ask the observers to leave the Zoom.
-If yes: Admit observers.
-Then, ask the notetaker and observers to give a brief, camera-on introduction, like their first name and position with VA.gov. (This is meant to humanize the interaction of observation for the participant.)
-Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth
-
 ### Observer handling
 - If no: Use Slack to kindly ask the observers to leave the Zoom.  
 - If yes: Admit observers.  
