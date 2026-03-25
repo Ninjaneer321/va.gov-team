@@ -13,8 +13,5 @@
 ## Backend Documentation
 [21p-0969 Readme](https://github.com/department-of-veterans-affairs/vets-api/blob/master/modules/income_and_assets/README.md)
 
-## Playbooks
-Add links
-
 ## Background Jobs
 - https://github.com/department-of-veterans-affairs/vets-api/blob/master/modules/income_and_assets/README.md#api-reference
