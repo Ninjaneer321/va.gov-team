@@ -102,7 +102,7 @@ This table includes links to the individual feature directory and the latest ite
 |-------|---------|
 |Alerts for 100% disability ratings ([Figma](https://www.figma.com/design/PBFTGd8vTs6SMSytHJNUNr/Connecting-Rated-Disability-to-Pension?node-id=1-55)) ([Research findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2025-12%20Pension%20Disability%20Alert/topline-summary.md))|January 2026|
 |Multiple page list-and-loop pattern ([Figma](https://www.figma.com/design/9JKK5Eo43uJWEr66JPiebc/WIP---21P-527EZ---Pension-Benefits?node-id=8085-29667))|November 2025|
-|Intent to file ([Figma](https://www.figma.com/design/9JKK5Eo43uJWEr66JPiebc/WIP---21P-527EZ---Pension-Benefits?node-id=2705-3543))|June 2025|
+|Intent to file ([Figma](https://www.figma.com/design/9JKK5Eo43uJWEr66JPiebc/WIP---21P-527EZ---Pension-Benefits?node-id=14606-257640&t=mNLumxPBLJeVJ4xU-4))|June 2025|
 |UX enhancements resulting from research ([Prioritization](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/Pension-Related%20Research%20Discovery%20Findings%20and%20Prioritization.md))|Ongoing, see below|
 
 
