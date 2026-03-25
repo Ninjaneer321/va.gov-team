@@ -42,7 +42,7 @@ These files capture the post-MVP designs, primarily with enhanced content as a c
 
 
 ### Engineering
-- Engineering [readme](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/engineering/README.md)
+- Engineering [readme](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/income-and-assets/engineering/diagrams/README.md)
 - High level view of systems
 - [Sequence Diagram](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1727757799534/c7c5f5a6dc1b8f451ecab5f02afa70a9325b93c8?sender=u070fbdc641c5ca111da83793)
 - [Application Diagram](https://docs.google.com/document/d/16lfdICIMRbCTlaY4qM6nXJldpAsWBk4-l1qwL--VNCQ/edit#heading=h.guuvbv6eus3)
