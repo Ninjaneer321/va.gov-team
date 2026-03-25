@@ -343,7 +343,7 @@ flowchart TD
   SCHOOL_SUMMARY -->|"Yes"| SCHOOL_INFO
 ```
 
-Chapter: Your Net Worth
+Chapter: Pension (Your Net Worth)
 ```mermaid
 flowchart TD
   HOUSEHOLD_CHECK{"Show pension<br/>related questions?"}
