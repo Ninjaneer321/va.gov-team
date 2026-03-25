@@ -303,10 +303,10 @@ TBD
 ## Sprint 12 Delivery
 - [ ] Sprint Delivery Approved by Enablement
 
-Total Completed in Sprint 12: x tickets, x points + x spikes\
-Active Teammates in Sprint 12: x active teammates\
-Average Teammate Velocity in Sprint 12: x points / x teammates = x points / teammate\
-Carrying into Sprint 13: x tickets, x points + x spikes
+Total Completed in Sprint 12: 43 tickets, 122 points + 2 spikes\
+Active Teammates in Sprint 12: 18 active teammates\
+Average Teammate Velocity in Sprint 12: 122 points / 18 teammates = 6.7 points / teammate\
+Carrying into Sprint 13: 43 tickets, 116 points + 2 spikes
 
 ## Sprint 12 Tickets
 
@@ -378,6 +378,7 @@ Carrying into Sprint 13: x tickets, x points + x spikes
 |Review `AccreditedRepresentativePortal::SavedClaim::BenefitsIntake` records flagged for deletion and enable deletion job in Production                                                           |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133403|Sprint Backlog |3       |             |Over-planned / capacity reached      |
 
 
+
 **Team Appoint**
 
 |Title                                                                                                                                                                                            |URL                                                                        |Status         |Estimate|Stretch goal?|Reason for carry over                |
@@ -404,18 +405,22 @@ Carrying into Sprint 13: x tickets, x points + x spikes
 
 **Engagement**
 
-|Title                                                                                                                    |URL                                                                        |Status         |Estimate|
-|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------|--------|
-|[ NACVSO 2026 ] Obtain approvals for attendance and providing training                                                   |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135434|PR Review      |1       |
-|Investigate shared support mailbox                                                                                       |https://github.com/department-of-veterans-affairs/va.gov-team/issues/129595|Blocked        |2       |
-|Determine how to utilize the representative research panel, with recruitment in mind                                     |https://github.com/department-of-veterans-affairs/va.gov-team/issues/122143|In Progress    |5       |
-|[ NOVA Spring 2026 ] Host conference kickoff                                                                             |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135624|In Progress    |2       |
-|Coordinate with VSO Liaison for Batch 2 outreach - National                                                              |https://github.com/department-of-veterans-affairs/va.gov-team/issues/126516|Prioritized Backlog|1       |
-|[ Catholic War Veterans of America ] Confirm access                                                                      |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132624|Prioritized Backlog|1       |
-|[ Illinois Department of Veterans Affairs ] Confirm access                                                               |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133744|Prioritized Backlog|1       |
-|[ American Veterans ] Coordinate bulk contact info update                                                                |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132687|Prioritized Backlog|1       |
-|[ North Carolina DMVA ] Generate spreadsheet with missing emails                                                         |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135680|Prioritized Backlog|1       |
-|Identify user for smoke test / launch-day org using new permission level                                                 |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135282|Draft          |1       |
+|Title                                                                                                                                                                                            |URL                                                                        |Status         |Estimate|Stretch goal?|Reason for carry over                |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------|--------|-------------|-------------------------------------|
+|[ NOVA Spring 2026 ] Host conference kickoff                                                                                                                                                     |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135624|Done           |2       |             |                                     |
+|Determine how to utilize the representative research panel, with recruitment in mind                                                                                                             |https://github.com/department-of-veterans-affairs/va.gov-team/issues/122143|Done           |5       |             |                                     |
+|[ Catholic War Veterans of America ] Confirm access                                                                                                                                              |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132624|Done           |1       |             |                                     |
+|[ Illinois Department of Veterans Affairs ] Confirm access                                                                                                                                       |https://github.com/department-of-veterans-affairs/va.gov-team/issues/133744|Done           |1       |             |                                     |
+|[ Veterans Voice of America ] Coordinate bulk contact info update                                                                                                                                |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132705|Done           |1       |Yes          |                                     |
+|[ North Carolina DMVA ] Generate spreadsheet with missing emails                                                                                                                                 |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135680|Done           |1       |             |                                     |
+|NOVA Research Plan and Conversation Guide                                                                                                                                                        |https://github.com/department-of-veterans-affairs/va.gov-team/issues/136694|Done           |3       |             |                                     |
+|NOVA handout flyer(s) first draft                                                                                                                                                                |https://github.com/department-of-veterans-affairs/va.gov-team/issues/136695|Done           |3       |             |                                     |
+|[ NACVSO 2026 ] Obtain approvals for attendance and providing training                                                                                                                           |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135434|Blocked        |1       |             |Blocked                              |
+|Investigate shared support mailbox                                                                                                                                                               |https://github.com/department-of-veterans-affairs/va.gov-team/issues/129595|Blocked        |2       |             |Blocked                              |
+|Identify user for smoke test / launch-day org using new permission level                                                                                                                         |https://github.com/department-of-veterans-affairs/va.gov-team/issues/135282|Blocked        |1       |             |Blocked                              |
+|[ NACVSO ] Coordinate bulk contact info update - Part 1                                                                                                                                          |https://github.com/department-of-veterans-affairs/va.gov-team/issues/130976|In Progress    |1       |             |Work still in progress               |
+|Coordinate with VSO Liaison for Batch 2 outreach - National                                                                                                                                      |https://github.com/department-of-veterans-affairs/va.gov-team/issues/126516|Sprint Backlog |1       |             |Over-planned / capacity reached      |
+|[ American Veterans ] Coordinate bulk contact info update                                                                                                                                        |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132687|Sprint Backlog |1       |             |Over-planned / capacity reached      |
 
 
 # Sprint 11 (Feb 24 - March 9, 2026)
