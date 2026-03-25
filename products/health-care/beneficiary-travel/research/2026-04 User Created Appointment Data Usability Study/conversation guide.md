@@ -211,8 +211,9 @@ _After participant reviews page_
 
 1. What is the page telling you?
 2. Based on what you’re reading, does it seem like this is the correct path for your scenario?
-3. Is there anything here that gives you pause or makes you uncertain?
-4. What do you think you need to do next?
+3. _If the user does not notice the alert, prompt them_ I see an alert at the top of this page. Can you tell me more about that information?
+4. Is there anything here that gives you pause or makes you uncertain?
+5. What do you think you need to do next?
 
 > [!NOTE]
 > #### Things to watch for:
@@ -337,14 +338,34 @@ _Participant selects mileage_
 1. What is happening here? What does this page tell you?
 2. Does this page show you what you expect to see?
 3. Have you submitted your claim or is there more you need to do?
-5. If you came back in a few days and wanted to track the status of your submission, where would you go to find it? _If time:_ Let’s go back to the home page and you can show us where you’d click.
-6. Looking at this page, did you create an appointment, file a claim, or both?
+4. _If the user does not notice the alert, prompt them:_I see an alert at the top. Is there anything you notice about it?
+5. Looking at this page, did you create an appointment, file a claim, or both?
+6. If you came back in a few days and wanted to track the status of your submission, where would you go to find it? _If time:_ Let’s go back to the home page and you can show us where you’d click.
+
+
 
 > [!NOTE]
 > #### Things to watch for:
-> - 1. Do they notice the messaging in the alert?
+> - 1. Do they notice the messaging in the alert or need to be prompted?
 > - 2. What do they think about the appointment not appearing in their past appointment list?
 > - 3. Do they know where to navigate for updates?
+
+### Claims details page   
+`Moderator: Tell me what you're seeing here.`   
+
+_If the user notices the note, prompt them with:_
+
+1. Tell me more about that. What does that mean to you?
+
+_If the user does not notice the note, prompt them with:_   
+
+1. I see a small note under your appointment information. Can you tell me more about what that is saying?   
+
+
+> [!NOTE]
+> #### Things to watch for:
+> - 1. Do they notice the note without prompting?
+> - 2. Do they understand what the note is telling them about this particular appointment?   
 
 
 
