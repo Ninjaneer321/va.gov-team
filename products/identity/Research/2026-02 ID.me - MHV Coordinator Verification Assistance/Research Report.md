@@ -85,7 +85,7 @@ This ambivalence is important for any future coordinator-attestation design: coo
 ## 1. Existing ID.me Accounts Veterans Cannot Access
 Many Veterans already have an ID.me account. For these folks, it was likely created years prior without their awareness in order to force MFA enforcement of a deprecated CSP. Some veterans may have previously created one for themselves, through other government services or to gain discounts from private companies, and later lost access or forgot about having that account.
 > "They go in and they’re like, oh, I already got an ID.me account. When did this happen? It happened a long time ago."  — C4, New Hampshire
-> 
+
 Veterans with existing accounts need help with account access and recovery:
 - Lost access to the personal email address linked to the ID.me account
 - Can't remember the password
@@ -101,27 +101,77 @@ In a variation on this, C1 instead has veterans sign in and click forgot passwor
 > “They go in and say, ‘I already have an ID.me account… when did this happen?’” – C4
 
 ## 2. Account Recovery Barriers
-Email delays, inbox limits, reset-loop caused by ID.me’s two-email flow.
+Veterans frequently cannot access the email address linked to their ID.me account, either because they have forgotten the password, abandoned the account, or never used it regularly in the first place. Resolution requires contacting the ID.me help desk or chat option to update the email address. See more about help desk escalation.
+> "I get a lot of veterans that come in that don't have access to their old email addresses."  —  C1, Baltimore
+
+Several specific email issues include:
+- Yahoo, Hotmail, Comcast/Xfinity and even Gmail accounts: can see significant delays receiving emails from ID.me (C2, C4)
+- Yahoo email in particular: may never get ID.me emails, which seems to be resolved by whitelisting ID.me emails from spam filtering (C2)
+- Veterans with full email inboxes: can't receive any emails, a silent failure with no error message shown to the Veteran or coordinator (C3)
+- ID.me password reset sends two emails: an instructional email and the actual reset link email. This causes Veterans to click the wrong one and loop back to the login page (C4)
+> "ID.me sends out two emails: an instructional one and the other one is the actual password reset. Why can't it just be one email? Because what happens is an individual will click on the instructional one and get stuck in a never-ending loop."  —  C4, New Hampshire
+- Browser password manager causes issues if the Veteran doesn’t realize they are accidentally using it. It can easily generate a new password and save, but if the Veteran already has an account and password set up, the new generated password may not get updated with ID.me. The in-browser password manager will then prompt the Veteran to sign in with its password – an incorrect password. It’ll present as a sign in failure. Unless they think to try their prior set up password, they’ll likely move to reset password, arriving again at the two-email loop, which compounds the situation.
+> "Everyone does it — Edge, Chrome, DuckDuckGo. They get that pop-up that says 'do you want to save this password?' And they click save. And what does that do? It creates a new password. Now they're going back through: oh my God, I can't get signed in, I need to reset the password, oh look, I'm getting 2 emails from ID.me, which one do I pick? Oh look, I'm in a vicious loop."  —  C4, New Hampshire
 
 ## 3. Phone & MFA Carrier Incompatibility
-Prepaid and VoIP carriers often unsupported.
+This is the single, most frequently cited unresolvable blocker. Particularly Veterans who are older, lower-income, technology adverse, or rural, have a higher use of prepaid phone plans. Other Veterans with bundled phone services can also affected. ID.me cannot verify these phones via SMS. Additionally, VOIP type landline phones cannot get MFA codes by phone call. Coordinators have learned to pre-screen for this but have no fix.
+> "If they say Consumer Cellular or Boost Mobile or Cricket or Jitterbug, we just don't even try anymore."  — C2, Kansas City
 
-> “If they say Consumer Cellular, Boost, Cricket, Jitterbug… we don’t even try.” – C2
+Affected carrier categories:
+- Prepaid/MVNO carriers: Consumer Cellular, Boost Mobile, Cricket, Jitterbug
+- VoIP/Internet bundled phones: Spectrum, United Fiber, and other cable-company phone services
+
+C3 notes these carriers are disproportionately used by Veterans on fixed or limited income — precisely those who most need reliable, low-friction access to VA services. This is not just a technical problem; it is an equity issue.
+
 
 ## 4. Document Capture & Device Barriers
-Older devices, camera permissions, poor lighting, difficulty with selfies.
+Many veterans don’t have newer mobile devices. Especially older Veterans and more cost conscious, but other Veterans use older or more limited devices as well. These Veterans face multiple technical barriers during the self-service verification flow.
+- Flip phones and landlines cnnot upload photos. Veterans must come in-person or be assisted with a staff GFE (C3, C4, C5)
+- Face scan / selfie issues: not understanding lighting basics, centering difficulties brought on by unfamiliarity with selfie mode, and motor accessibility differences that make it hard to hold the phone still or at all. Coordinators routinely hold the phone for Veterans (C1)
+- Android camera permissions: Android phones block camera access by default; coordinators who are unfamiliar with the particular phone must then attempt to walk Veterans through settings to grant ID.me access (C4, C5)
+> "I've had about eight of these, and they've all been [An]droids, and I cannot figure out how to unblock their camera"  —  C5, Maine
+
 
 ## 5. Escalation Pathway Burdens
-Long help desk waits (30–40+ mins), chat timeouts, inconsistent chatbot.
+For cases requiring ID.me help desk intervention (email updates, account unlocks, merges), C3 reports consistent wait times of 30–40+ minutes on the priority coordinator line. C4 reports 2–4 hours sessions when a n account email merge is required.
+> "That is the hardest part of my job working virtually with a Veteran and ID.me — all the time spent on the phone waiting to get through."  — C4, Minneapolis
+- Coordinators acknowledge ID.me support agents are patient and helpful when reached. The issue is volume and wait time, not quality.
+- Human chat feature times out before assistance is complete
+> When seeking help through the human-backed, chat-based process, C4 mentioned the chat can time out, losing progress towards a resolution.
+> "Yesterday I had a person come in at 2:00. They left at 4:00, waiting on the trusted referees and the merge and the chat. The chat timed out on your end."  —  C4, New Hampshire
+- AI Chatbot inconsistencies decrease trust
+> 'Roy,' ID.me's AI chatbot, gives inconsistent answers and is not reliably useful as a first-line support tool.  C3 uses it as a first attempt before calling the help desk, but finds it unreliable enough that she does not rely on it,
 
 ## 6. Inconsistent ID.me Flows
-Unexpected changes in document options, recovery code prompts, UPS availability.
+Both C3 (remote) and C4 observed that the ID.me verification flow behaves inconsistently in ways that undermine coordinator confidence and planning:
+- Recovery code not consistently prompted with password change of verified accounts: sometimes it’s asked, sometimes not, with no clear logic (C3)
+- UPS in-person verify option doesn't show up from some Veteran’s without explanation (C4, C3)
+- Multiple back-to-back sign ins lock MFA: after signing into ID.me for VA.gov, then choosing the 'verify your account' button on VA.gov, ID.me website then requires Veterans to sign in again. Coordinators have noticed that a third sign-in within five minutes can cause MFA lockout errors (C4)
+- Better error messaging: when a lockout occurs. It should tell the Veteran why it happened and how long to wait before retrying (C4)
+> "I'm signing in three times within five minutes. Eventually I'm gonna get red flagged. And then there's no good error message."  —  C4, New Hampshire
+
+- Document options can change dramatically between sessions: some Veterans see 3–9 secondary document choices, others seem many more (C4)
+- Photo submission UI variability: after taking a photo, different devices show different confirmation indicators. Some show a checkmark, some say 'add photo,' some say 'submit.' Veterans do not know they still need to take an action to confirm, and coordinators working with a Veteran over the phone cannot see which interface the Veteran is looking at (C3)
+- Temporary driver's licenses: not accepted by ID.me, even though they are legitimate government-issued and often the only ID a recently discharged or recently moved Veteran has (C4)
+- Post-submission page stall: after photos are successfully uploaded, the verification flow sometimes freezes entirely. No buttons appear, or the button is present but does nothing when clicked. ID.me's backend has received the photos, but the Veteran's screen does not advance.  C3 avoids advising refresh (it may boot the Veteran out) and instead calls ID.me support, which typically pivots the case to video verification (C3)
+> "They will submit the photos and then it will just not do anything. It won't advance. No buttons to click — or the button is clicked and it doesn't go anywhere. It just sits there."  —  C4 Minneapolis
 
 ## 7. Veteran Resistance to Video Verification
-Privacy concerns, distrust, refusal.
+C2 surfaced that a meaningful subset of Veterans, primarily Vietnam-era, refuse to complete video verification due to privacy concerns, distrust of being recorded, or general discomfort with the technology.
+> "Why do I have to be on your video? Are they recording me? These types of things. They will choose just not to move forward."  — C2, Kansas City
+
+C2 described one incident where she had assured a Veteran that he would not be recorded. Then the ID.me trusted referee opened the call by asking for consent to record. This broke the Veteran's trust, and he did not complete verification.
+Since coordinators are not aware of how the video verification call is scripted on the ID.me side, they can accidentally create misaligned expectations.
 
 ## 8. No Caregiver or POA Pathway
-Homebound Veterans and those with cognitive impairment lack accessible options.
+Two coordinators (C2 and C3) raised the absence of a formal caregiver or power-of-attorney pathway as a significant unresolved issue. Veterans with dementia, severe cognitive impairment, or mobility limitations cannot complete the biometric and identity verification steps independently, and no legal delegation pathway exists outside of court-appointed guardianship.
+> "We were promised back when this all came into play that there would be something in place for those patients who have POA. Unfortunately, we still don't see that."  — C4, Minneapolis
+
+C2 added that homebound Veterans, those who cannot travel to a VA facility or UPS store, are effectively locked out of the system entirely. Although C5 did go to Veteran’s homes to help them complete verification, coordinators in other areas did not make house calls. And medical providers who visit these Veterans in their homes are often not comfortable enough with the process to assist. 
+A related privacy issue occurs when family members complete the verification process at home on a Veteran's behalf, but without the Veteran's full understanding or consent. Veterans later return to the VA confused or upset to find an account was registered in their name. When coordinators try to help Veterans report this to ID.me, Veterans often refuse, fearing it will reflect badly on their family or the VA or affect their care.
+> "We run into issues where veterans later come back and say, 'I didn't mean for Shelley to set up an account. Why did she get to do that?' But we have no control over that because Shelley did that at home."  — C2, Kansas City
+
+C2 also described an active impersonation attempt: a family member came to the VA presenting themselves as the Veteran, aware that DPOA is not accepted. C2's familiarity with the Veteran's record allowed her to catch the attempt through a knowledge-based question the impersonator could not answer correctly
 
 
 # Next Steps
