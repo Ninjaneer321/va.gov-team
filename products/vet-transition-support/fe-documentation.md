@@ -1,6 +1,6 @@
 # How the Discover Your Benefits product works
 
-**Last updated**: May 29, 2025
+**Last updated**: March 25, 2026
 
 ## Purpose
 This documentation serves as the source of truth for the design, content, and functionality in the [Discover Your Benefits](https://www.va.gov/discover-your-benefits/introduction) product on va.gov.
