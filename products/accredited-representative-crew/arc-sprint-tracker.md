@@ -93,8 +93,6 @@ Recording Link TBD
 
 ## Sprint 13 Delivery
 
-- [ ] Sprint Delivery Approved by Enablement
-
 TBD
 
 ## Sprint 13 Tickets
@@ -175,7 +173,7 @@ TBD
 
 
 ## Sprint 12 Demos
-Recording Link TBD
+[Recording Link](https://dvagov-my.sharepoint.com/:v:/r/personal/lindsay_li-smith_va_gov/Documents/Recordings/ARC%20Sprint%20Demo-20260324_130523-Meeting%20Recording.mp4?csf=1&web=1&e=BNGqwJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 **Team Accreditation**
 1. Address Approximation in Find a Rep
@@ -198,7 +196,12 @@ Recording Link TBD
 2. NOVA flyer drafts
 
 ## Sprint 12 Delivery
-TBD
+- [ ] Sprint Delivery Approved by Enablement
+
+Total Completed in Sprint 12: x tickets, x points + x spikes\
+Active Teammates in Sprint 12: x active teammates\
+Average Teammate Velocity in Sprint 12: x points / x teammates = x points / teammate\
+Carrying into Sprint 13: x tickets, x points + x spikes
 
 ## Sprint 12 Tickets
 
