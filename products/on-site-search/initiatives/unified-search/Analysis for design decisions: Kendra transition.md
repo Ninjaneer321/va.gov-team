@@ -16,7 +16,7 @@
 
 ---
 
-### 2. [R&S Search and Filtering — Research Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/resources-and-support/research/2024-search-filters/research-report.md)
+### 2. [R&S Search and Filtering: Research Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/resources-and-support/research/2024-search-filters/research-report.md)
 
 - **Product:** Resources & Support (R&S) search + filter UI
 - **Method:** Remote moderated usability testing, Figma prototype, 12 participants (10 on smartphones, 0 desktop)
@@ -31,7 +31,7 @@
 
 ---
 
-### 3. [VA.gov Search Feedback — Combined Qualitative Analysis](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/initiatives/unified-search/va-search-feedback-combined-analysis.md)
+### 3. [VA.gov Search Feedback: Combined Qualitative Analysis](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/initiatives/unified-search/va-search-feedback-combined-analysis.md)
 
 - **Product:** VA.gov site search, Facility Locator, Find a VA Form
 - **Method:** Qualitative thematic analysis of ~3,815 Medallia survey responses
@@ -54,7 +54,7 @@
 
 ---
 
-### 4. [VA.gov Search Feedback — Medallia Qualitative Analysis](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/initiatives/unified-search/medallia-search-findings-031226.md)
+### 4. [VA.gov Search Feedback: Medallia Qualitative Analysis](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/initiatives/unified-search/medallia-search-findings-031226.md)
 
 - **Product:** Same as above (VA.gov search, Facility Locator, Find a VA Form)
 - **Method:** Same ~3,815 Medallia rows; appears to be an earlier or parallel version of the combined analysis
@@ -67,7 +67,7 @@
 - **Product:** VA.gov global search (Search.gov)
 - **Method:** QA / editorial audit — specific queries documented with expected vs. actual results
 - **Key findings:**
-  - Specific pages fail to rank even when the query directly matches the page title (e.g., "schedule a burial," "ptsd treatment," "military sexual trauma") — in some cases sibling or child pages do appear, but the intended target does not
+  - Specific pages fail to rank even when the query directly matches the page title (e.g., "schedule a burial," "ptsd treatment," "military sexual trauma") — in some cases, sibling or child pages do appear, but the intended target does not
   - Low-level page content (H4s in related-forms sections) surfaces as result descriptions, creating misleading snippets (e.g., FOIA query returning non-FOIA "About form" pages)
 - **Gaps:** Appears to be a living document with limited entries — likely an incomplete catalog, not exhaustive
 
@@ -95,7 +95,7 @@ Patterns documented in the data:
 
 ---
 
-### 2. Veterans often come to do, not to read — and search returns informational content regardless
+### 2. Veterans often come to do, not to read, and search returns informational content regardless
 
 The [combined analysis](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/initiatives/unified-search/va-search-feedback-combined-analysis.md) Theme 2 (40+ responses — the highest-frequency theme) documents a recurring mismatch: Veterans arrive with a specific task and receive informational articles rather than a path to complete it.
 
@@ -112,7 +112,7 @@ Failures documented directly in the Medallia data ([Combined analysis, Theme 2](
 
 ---
 
-### 3. Query behavior is mostly noun-based — natural language is a small but meaningful slice
+### 3. Query behavior is mostly noun-based, but natural language is a small but meaningful slice
 
 From the 2025 query analysis:
 
@@ -145,11 +145,11 @@ Section 508 / WCAG 2.1 AA is a platform requirement. Kendra's SERP will introduc
 
 ---
 
-### 6. Platform fragmentation is out of scope for search, but affects what search returns
+### 6. Platform fragmentation is out of scope for search, but it affects what search returns
 
 [Combined analysis](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/initiatives/unified-search/va-search-feedback-combined-analysis.md) Theme 4 (20+ responses): Veterans describe VA.gov, My HealtheVet, eBenefits, and Login.gov as disconnected systems with separate logins and, in some cases, circular redirects between them.
 
-Resolving fragmentation is out of scope for this initiative. The relevant design consideration is that Kendra results will link into these sub-systems — if a result destination requires a separate login or is behind a broken redirect, the result may be technically correct but not actionable. Deep-link destinations for high-frequency queries should be audited before indexing.
+Resolving fragmentation isn't part of this initiative. The relevant design consideration is that Kendra results will link into these sub-systems — if a result destination requires a separate login or is behind a broken redirect, the result may be technically correct but not actionable. Deep-link destinations for high-frequency queries should be audited before indexing.
 
 ---
 
