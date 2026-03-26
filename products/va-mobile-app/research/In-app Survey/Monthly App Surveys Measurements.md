@@ -14,28 +14,28 @@ Located on the RX refill specific intercept:
 
 ### Give Feedback Section
 
-| Metric | Jan-26 | Feb-26 |
-|---|---|---|
-| GFSatisfaction Very satisfied | 73 | 94 |
-| GFSatisfaction Satisfied | 85 | 68 |
-| GFSatisfaction Neither satisfied or dissatisfied | 43 | 34 |
-| GFSatisfaction Dissatisfied | 62 | 61 |
-| GFSatisfaction Not at all satisfied | 27 | 30 |
-| GFMeetsMyNeeds Strongly agree | 69 | 75 |
-| GFMeetsMyNeeds Agree | 76 | 75 |
-| GFMeetsMyNeeds Neither agree or disagree | 45 | 37 |
-| GFMeetsMyNeeds Disagree | 68 | 61 |
-| GFMeetsMyNeeds Strongly disagree | 30 | 37 |
-| GFEasyToUse Strongly agree | 86 | 88 |
-| GFEasyToUse Agree | 86 | 78 |
-| GFEasyToUse Neither agree or disagree | 45 | 37 |
-| GFEasyToUse Disagree | 39 | 40 |
-| GFEasyToUse Strongly disagree | 23 | 41 |
-| RXSatisfaction Very satisfied | 1365 | 1018 |
-| RXSatisfaction Satisfied | 452 | 366 |
-| RXSatisfaction Neither satisfied or dissatisfied | 61 | 56 |
-| RXSatisfaction Dissatisfied | 46 | 43 |
-| RXSatisfaction Very dissatisfied | 23 | 20 |
+| Metric | Jan-26 | Feb-26 # | Feb-26 % |
+|---|---|---|---|
+| GFSatisfaction Very satisfied | 73 | 94 | 32.8% |
+| GFSatisfaction Satisfied | 85 | 68 | 23.7% |
+| GFSatisfaction Neither satisfied or dissatisfied | 43 | 34 | 11.8% |
+| GFSatisfaction Dissatisfied | 62 | 61 | 21.3% |
+| GFSatisfaction Not at all satisfied | 27 | 30 | 10.5% |
+| GFMeetsMyNeeds Strongly agree | 69 | 75 | 26.3% |
+| GFMeetsMyNeeds Agree | 76 | 75 | 26.3% |
+| GFMeetsMyNeeds Neither agree or disagree | 45 | 37 | 13.0% |
+| GFMeetsMyNeeds Disagree | 68 | 61 | 21.4% |
+| GFMeetsMyNeeds Strongly disagree | 30 | 37 | 13.0% |
+| GFEasyToUse Strongly agree | 86 | 88 | 31.0% |
+| GFEasyToUse Agree | 86 | 78 | 27.5% |
+| GFEasyToUse Neither agree or disagree | 45 | 37 | 13.0% |
+| GFEasyToUse Disagree | 39 | 40 | 14.1% |
+| GFEasyToUse Strongly disagree | 23 | 41 | 14.4% |
+| RXSatisfaction Very satisfied | 1365 | 1018 | 67.7% |
+| RXSatisfaction Satisfied | 452 | 366 | 24.4 % |
+| RXSatisfaction Neither satisfied or dissatisfied | 61 | 56 | 3.7% |
+| RXSatisfaction Dissatisfied | 46 | 43 | 2.9% |
+| RXSatisfaction Very dissatisfied | 23 | 20 | 1.3% |
 
 ## 2025 Feedback
 
