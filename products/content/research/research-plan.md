@@ -11,8 +11,7 @@ product_area: unauthenticated
 background:
   problem_statement: Veterans experience confusion when navigating the current decision review options.
   product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: Iteration
-  product_brief_url: "[URL]"
+  user_familiarity: [New product or iteration?]
 
 # Research Design
 methodology: Moderated usability testing
