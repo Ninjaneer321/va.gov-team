@@ -108,7 +108,7 @@ We have several features that have design specs ready for implementation, but we
 * Remove 65+ age question from flow
   * Engineering ticket: [PBB | Backend: Implement removal 65+ age question from flow #134365](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134365)
 * 527EZ Paper form alignment
-  *  Enhancements based on the latest form provided by VBA in December 2025. These changes have been implemented on Staging but have not been released to production yet. See tickets related to the milestone [here](https://github.com/department-of-veterans-affairs/va.gov-team/issues/102564).
+  *  Enhancements based on the latest form provided by VBA in February 2026. Development changes to date  have been implemented on Staging but have not been released to production. On hold due to Lifestage contract transiton.  See tickets related to the milestone [here](https://github.com/department-of-veterans-affairs/va.gov-team/issues/102564).
   
 ## Features and initiatives we worked on
 
