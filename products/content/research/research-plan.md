@@ -9,7 +9,7 @@ product_area: unauthenticated
 
 # Background Context
 background:
-  problem_statement: Users find the current “decision review options” confusing
+  problem_statement: Veterans experience confusion when navigating the current decision review options.
   product_location: "[Where is this situated on VA.gov?]"
   user_familiarity: Iteration
   product_brief_url: "[URL]"
