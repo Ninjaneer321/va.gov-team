@@ -196,7 +196,7 @@ Please remember to think aloud and describe what you are looking for and what yo
 
 **Send a message to your care team**
 
-Note:
+Observe:
 
 - Does the user look for the relevant care team at the top in recent care teams?
 - Do they use the filter or just search care teams in the combo box?
@@ -212,6 +212,7 @@ What about this design supports or hinders your ability to complete the task?
 a. Where did you experience confusion or hesitation?
 b. How does the process align with your expectations?
 c. What changes would improve clarity, efficiency, or overall usability?
+d. On a scale of 1-5, with 1 being easy and 5 being difficult, how easy was it to find your care team and send the message?
 
 
 ## **Section 2: Concept B - User addresses and writes the message all in one place**
@@ -227,12 +228,12 @@ Task: Just a reminder, imagine you live in [place] and are trying to message [te
 
 Please remember to think aloud and describe what you are looking for and what you notice.
 
-Notice
+Observe
 
-Does the user say anything about not knowing what care system to select?
-Is there any confusion about the care team showing up after the care system is selected?
-Does the user notice the primary care at the top?
-Does the user notice the longer number of recent care teams visible?
+- Does the user say anything about not knowing what care system to select?
+- Is there any confusion about the care team showing up after the care system is selected?
+- Does the user notice the primary care at the top?
+- Does the user notice the longer number of recent care teams visible?
 
 After the user clicks send.
 
@@ -240,9 +241,22 @@ What about this design supports or hinders your ability to complete the task?
 a. Where did you experience confusion or hesitation?
 b. How does the process align with your expectations?
 c. What changes would improve clarity, efficiency, or overall usability?
+d. On a scale of 1-5, with 1 being easy and 5 being difficult, how easy was it to find your care team and send the message?
 
+## **Comparison
 
+- After seeing both prototypes, which version would be easiest for you to send messages through?
+  -   Why?
+- What parts were your favorite and which parts were your least favorite between the two prototypes?
 
+## **Consent to use video clips
+* I want to circle back and re-confirm that you are comfortable if we were to share a video clip of this session with our VA partners? Just to remind you, we will remove all information that could be used to identify you before sharing and will only share the videos with VA partners with the purpose of improving VA.gov and other digital experiences.
+    * If yes: Is there any part of our discussion you would NOT want shared in a video clip?
+ 
+## **Thank-You and Closing**
 
+Well we really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we continue to work on the site and make sure it really works for Veterans.
 
+Thanks! Lastly, Perigean will be sending you a thank you note with a little blurb that you can pass along to other Veterans you may know to provide them the chance to participate in future research studies.
 
+Thank you so much again, and enjoy the rest of your day!
