@@ -7,7 +7,7 @@ There are two use cases for using the 21-8416, similar to 0969.
 2. And also used as a **standalone form**, especially to report increases in medical expenses after an initial claim. This has been digitized by the BIO Huntridge team as of January 2026.
 We don’t know which use case is more common.
 
-In Step 5, **Unreimbursed medical expenses** is a high-impact section; it's the **#2 reason** pension claims go into development, making it challenging and time-consuming for Veterans to receive financial aid. It could be due to a mismatch between what applicants say they have in expenses, and what is actually itemized or attached.
+In Step 5, **Unreimbursed medical expenses** is a high-impact section; it's the **#1 reason** pension claims go into development, making it challenging and time-consuming for Veterans to receive financial aid. It could be due to a mismatch between what applicants say they have in expenses, and what is actually itemized or attached.
 
 Because the 8416 has been recently digitized and effectively functions as an overflow form for the pension form, there are some plain language changes that could be applied to 527EZ, and some potential improvements grounded in previous research.
 
