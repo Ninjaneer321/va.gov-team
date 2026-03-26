@@ -243,9 +243,7 @@ Are there moments that matter?</summary>
 
 
 ## Research Goals 🥅	
-`What are you trying to learn from this research?` \    
-
-What are you trying to learn from this research? 
+`What are you trying to learn from this research?`   
 
 ### Goals
 
@@ -316,11 +314,11 @@ Recruit 9 Veterans for a total of 6 completed studies.
 *What demographics, experience, and scenarios do you need participants to meet to effectively run your study?* 
 
 - `Must be a Veteran`
-- `Must be eligible and willing to file for disability compensation on the day of their session.`
+- `Must be eligible and willing to file for disability compensation on the day of their session. Whether or not they receive compensation currently doesn't matter for this study.`
 - `Must be comfortable being observed filling out their claim on va.gov.`
 - `Must be able and willing to screen share a web browser window via computer or mobile device`
 - `At least 3 Veterans who have never filed for disability compensation`
-- `At least 2 Veterans who have filed in the past, but never online`
+- `At least 2 Veterans who have filed in the past, but never online. Whether or not they receive compensation as a result of their filing doesn't matter for this study.`
 
 #### Secondary criteria (nice-to-haves)
 *What criteria would strengthen your results?* 
