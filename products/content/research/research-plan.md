@@ -11,7 +11,7 @@ product_area: unauthenticated
 # Background Context
 background:
   problem_statement: VA offers three review options for Veterans who disagree with a benefits decision, but many find these options confusing to navigate.
-  product_location: "[Where is this situated on VA.gov?]"
+  product_location: "[Where is this situated on VA.gov (URL)?]"
   user_familiarity: "[New product or iteration?]"
 
 # Research Design
