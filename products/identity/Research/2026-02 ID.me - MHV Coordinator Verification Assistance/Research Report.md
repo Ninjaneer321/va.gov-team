@@ -1,3 +1,121 @@
+---
+title: "2026-02 MHV Coordinator Verification Assistance"
+product: "Sign-in / ID.me / verify"
+team: "OCTO Identity"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2026-03-26"
+researchers:
+  - "Clayton Zook"
+  - "Charlye Tran"
+  - "Megan Driscoll"
+research_goals:
+  - "Understand the daily burden MHV coordinators face helping Veterans navigate ID.me verification and troubleshooting."
+  - "Identify the most common failure points and escalation bottlenecks in ID.me verification flows."
+  - "Surface coordinator workarounds, preparation practices, and opportunities to standardize support."
+  - "Document requests/questions for ID.me and propose next steps (bug fixes, UX fixes, technical investigations)."
+methodology:
+  - "Qualitative interviews"
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 5
+demographics:
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 5
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 5
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 5
+  location:
+    urban: 2
+    rural: 0
+    unknown: 3
+  race:
+    white: 3
+    black: 1
+    hispanic: 0
+    biracial: 0
+    asian: 1
+    native: 0
+    unknown: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Coordinators across all five sites support ID.me issues daily and are often the sole support resource for their facility/region."
+  - "Coordinator workflows are improvised and not standardized; there is no shared decision tree or escalation playbook."
+  - "Advance preparation (especially written or consistent pre-briefing checklists) improves verification success rates."
+  - "Account access and recovery barriers (lost email access, password reset confusion, MFA changes, email deliverability delays, full inboxes) drive significant coordinator effort."
+  - "Phone carrier incompatibility (particularly prepaid/MVNO and some VoIP/bundled providers) is a frequent unresolvable blocker for self-service verification."
+  - "Device/document capture barriers (older devices, flip phones/landlines, camera permissions, selfie/lighting challenges) regularly derail verification attempts."
+  - "Escalation pathways to ID.me support involve long wait times and chat timeouts, increasing burden and reducing throughput."
+  - "Perceived inconsistencies in ID.me flows (lockouts, variable document options, UPS option availability, post-upload stalls) undermine coordinator confidence and planning."
+  - "Some Veterans resist video verification due to privacy/distrust concerns; misaligned expectations about recording can harm trust."
+  - "Lack of a formal caregiver/POA pathway leaves some Veterans effectively blocked from access and creates risk for improper account setup."
+recommendations:
+  - |
+    Bug fixes:
+        * Investigate and fix reported document submission stalls / inactive submit button.
+        * Reduce friction for returning users (e.g., decrease repeated sign-ins and reduce need for repeated "Authorize VA" steps where possible).
+  - |
+    UX improvements:
+        * Improve plain-language MFA lockout/error messaging and include retry guidance/countdown where appropriate.
+        * Clarify messaging around temporary driver's license acceptance and other document nuances.
+        * Improve password recovery communications and guidance on storing recovery codes.
+  - |
+    Technical investigations:
+        * Reduce the number of sign-ins required during verification flows.
+        * Improve compatibility with common email providers and cell phone carriers used by Veterans (including prepaid/MVNO).
+        * Explore mitigations for email non-receipt scenarios (e.g., inbox full, spam filtering/whitelisting guidance).
+        * Address browser password-manager pitfalls during password creation/reset.
+  - |
+    Standardization:
+        * Create and share a standardized coordinator checklist vetted by coordinators.
+        * Promote consistent pre-screening (e.g., using MPI) and improve proactive change communication to MHV coordinators.
+kpi_alignment: []
+outcomes:
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed:
+  - "Collect additional concrete examples/telemetry for the document submission stall issue (device type, OS/browser, steps to reproduce) to support investigation with ID.me."
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: VA Staff"
+  - "PRDT: Sign-in"
+  - "PRDT: Identity"
+  - "PRDT: ID.me"
+  - "RESRCH: Qualitative"
+  - "Internal Research: Platform Research"
+---
+
 # 2026-02 MHV Coordinator Verification Assistance
 
 **Office of the CTO - Digital Experience (OCTO-DE), Sign in, Identity**
