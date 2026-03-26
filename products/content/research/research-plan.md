@@ -34,11 +34,11 @@ research_questions:
   - "If confusion occurs, where does it happen on this page?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans experience decision overload because all three complex options are presented at once without clear guidance on how to choose."
+  - "Veterans usually think about their situation in simple, real‑life terms like “I have new evidence,” “the VA made a mistake,” or “I want someone else to look at this.” But the page explains the options using technical process definitions instead of these everyday scenarios."
+  - "Users may struggle because the consequences of each decision are unclear, including how long the option takes, what outcomes are possible, and whether they can switch options later."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: " "
 
 # Recruitment & Participants
 recruitment:
