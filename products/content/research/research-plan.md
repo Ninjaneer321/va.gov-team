@@ -29,9 +29,9 @@ research_goals:
 research_questions:
   - "Do Veterans understand the differences between the decision review options?"
   - "Can Veterans determine which option applies to their situation, and how?"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Where do Veterans expect to begin when choosing the review option that’s right for them?"
+  - "What information do Veterans need to make a confident selection?"
+  - "If confusion occurs, where does it happen on this page?"
 
 hypotheses:
   - "[Hypothesis 1]"
