@@ -39,10 +39,6 @@ The implementation of sign-in support using Genesys AI Guides does not meet the 
 **Status: Not Met**
 
 - The system confirms the initial user input but does not meaningfully adapt after that.
-
-📸 **Confirmation Without Adaptation**
-> Insert screenshot showing confirmation followed by irrelevant or generic response
-
 - Follow-up responses are not dynamically adjusted based on user answers.
 
 📸 **Static Follow-Up**
