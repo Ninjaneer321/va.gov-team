@@ -368,13 +368,16 @@ We'll use va.gov production, so it's ready.
 - `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` 2
 
 ### Availability
-
-These days of the week and time slots will work every week of the study.
-
-- `04/20, Monday, 07:00AM-1:30PM EST`
+We can provide additional availability as needed
+- `04/3, Friday, 07:00AM-4:00PM EST`
+- `04/14, Tuesday, 07:00AM-12:00PM, 3:30-5:30PM EST`
+- `04/15, Wednesday, TBD`
+- `04/16, Thursday, TBD`
+- `04/17, Friday, TBD`
+- `04/20, Monday, 07:00AM-1:30PM, 3:00-5:00PM EST`
 - `04/22, Wednesday, 07:00AM-2:00PM EST`
-- `04/23, Thursday, 07:00AM-10:00AM EST`
-- `04/24, Friday, 07:00AM-9:30AM EST, 11:30-1:30PM`
+- `04/23, Thursday, 07:00AM-10:00AM EST, 3:30-5:30PM EST`
+- `04/24, Friday, 07:00AM-4:00PM EST`
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
