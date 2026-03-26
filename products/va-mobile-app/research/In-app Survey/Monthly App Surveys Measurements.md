@@ -32,7 +32,7 @@ Located on the RX refill specific intercept:
 | GFEasyToUse Disagree | 39 | 40 | 14.1% |
 | GFEasyToUse Strongly disagree | 23 | 41 | 14.4% |
 | RXSatisfaction Very satisfied | 1365 | 1018 | 67.7% |
-| RXSatisfaction Satisfied | 452 | 366 | 24.4 % |
+| RXSatisfaction Satisfied | 452 | 366 | 24.4% |
 | RXSatisfaction Neither satisfied or dissatisfied | 61 | 56 | 3.7% |
 | RXSatisfaction Dissatisfied | 46 | 43 | 2.9% |
 | RXSatisfaction Very dissatisfied | 23 | 20 | 1.3% |
