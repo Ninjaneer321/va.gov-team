@@ -121,18 +121,113 @@ Before you click on anything to take action, I'd like you to tell me about your 
 
 ## **Task 2: Address and write a message**
 
-Notes for suggestions for guide:
-- walk us through what you would do to start a new message
-- If they click on start a new message link, explain what you see on this screen (interstitial). Ask how often they read this screen? what next?
-  
-- On recent care teams page: What do you see on this page?
-- What are the care teams you normally message?
+Now, I'm going to ask you to walk us through the process of a writing a message to one of your providers. What do you do first?
+(watch as they click start a new message link)
+
+**Interstitial page**
+What do you notice first on this screen?
+What information do you think is most important on this screen?
+What would you do next to start a message?
+
+**Recent Care teams page**
+- What do you see on this page?
+- What do "recent care teams" mean to you?
+- What teams would you expect to see here?
+- How many different care teams do you generally message?
 - Are there care teams you frequently seek but cannot find when you see this page?
-- What do you do when the care team you want isn't visible on the first page?
 
-If they click the link and land on the select a care team, then...
+What is a care team you might message, that you don't see here? Have them name the care team. Great, What would you do if you want to message this care team, but don't see it here? Allow them to click on the "a different care team" radio button and land on the select a care team.
 
-- Do you rely on the care system to narrow your list of care teams?
-- Do you search or scroll in the combo box when looking for a care team?
+**Select a care team page**
+- How do you find the care team you are looking for on this page?
+  - Do you search or scroll in the combo box?
+  - Do you rely on the care system to narrow your list of care teams?
+  - Does the length of the combo box list impact finding the care team you are looking for?
 - What navigational features help you correctly identify the appropriate care team quickly and easily?
+- Are there other categories of care teams, besides recent care teams, that you generally message?
+- When you cannot find a care team in your dropdown, what actions do you take?
+
+What else do you notice on this page?
+(see if they see the contact list link)
+
+**Contact list page**
+Before they click on it:
+- How do you think the contact list works?
+After they click in:
+- What do you think happens if you add or remove care teams from the contact list?
+
+Have them navigate back
+
+**Start message page**
+Walk me through what you would do on this page to write a message to this provider. We are not actually going to send the message off because this is just for testing purposes. 
+
+Have the user pause at the category section:
+a. What aspects of the categories do you find confusing?
+b. What choices do you default to when you are unsure what category to choose?
+
+Thanks so much for walking me through that process. We are now going to delete this draft message and begin the next part of our session. 
+
+## **Section 2: Concept A - Combined addressing page (care system + team selection) → message composition**
+_(Note: vary which concept is shown first and second in the interviews)_
+
+Just a reminder, we will be using what we call a prototype to accomplish a task that I will give you. This is not an actual website, all the names and information are fake. It will work somewhat like a website - you can scroll up and down, click on certain things, etc. However, this prototype will not work exactly like a website. For example, not all of the links will work and you cannot click the back button in your browser because it will take you away from the prototype.
+
+As we go through this prototype to accomplish the task I'll give you, I'd like you to think aloud. That inner narrative we all have? I'd like to hear it! Again, you are not being tested in any way - the design is being tested. And we want your honest feedback about your experience.
+
+Link to start: XXXXXXXXXXXX
+
+From messaging inbox:
+
+Task: Imagine you live in [place] and are trying to message [team]. Walk me through what steps you would take to locate the care team name and write a new message to this care team. 
+
+Please remember to think aloud and describe what you are looking for and what you notice.
+
+Interstitial page
+Does the user notice anything different about the navigation?
+
+Send a message to your care team
+Does the user look for the relevant care team at the top in recent care teams?
+Then, do they use the filter or just search care teams in the combo box?
+
+- Is there another filter category that would help you find this care team?
+- What do you think suggested care teams means?
+
+After the user sends of the message:
+
+What about this design supports or hinders your ability to complete the task?
+a. Where did you experience confusion or hesitation?
+b. How does the process align with your expectations?
+c. What changes would improve clarity, efficiency, or overall usability?
+
+
+## **Section 2: Concept B - User addresses and writes the message all in one place**
+_(Note: vary which concept is shown first and second in the interviews)_
+
+I'm going to share another prototype now. 
+
+Link to start: XXXXXXXXXXXX
+
+From messaging inbox:
+
+Task: Just a reminder, imagine you live in [place] and are trying to message [team]. Walk me through what steps you would take to locate the care team name and write a new message to this care team. 
+
+Please remember to think aloud and describe what you are looking for and what you notice.
+
+Notice:
+Does the user say anything about not knowing what care system to select?
+Is there any confusion about the care team showing up after the care system is selected?
+Does the user notice the primary care at the top?
+Does the user notice the longer number of recent care teams visible?
+
+After the user clicks send.
+
+What about this design supports or hinders your ability to complete the task?
+a. Where did you experience confusion or hesitation?
+b. How does the process align with your expectations?
+c. What changes would improve clarity, efficiency, or overall usability?
+
+
+
+
+
 
