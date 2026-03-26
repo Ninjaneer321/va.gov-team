@@ -28,29 +28,29 @@ Last updated: March 2026
 
 [Use cases](#use-cases)
 
-[User does not have any in-progress or completed forms or applications (empty state)](#user-does-not-have-any-in-progress-or-completed-forms-or-applications-\(empty-state\))
+* [User does not have any in-progress or completed forms or applications (empty state)](#user-does-not-have-any-in-progress-or-completed-forms-or-applications-\(empty-state\))
 
-[Draft](#draft)
+* [Draft](#draft)
 
-[Submission in progress (form or application)](#submission-in-progress-\(form-or-application\))
+* [Submission in progress (form or application)](#submission-in-progress-\(form-or-application\))
 
-[Received](#received)
+* [Received](#received)
 
-[Action needed](#action-needed)
+* [Action needed](#action-needed)
 
 [Edge cases](#edge-cases)
 
-[Flags](#flags)
+* [Flags](#flags)
 
-[PDF download available](#pdf-download-available)
+* [PDF download available](#pdf-download-available)
 
 [Errors](#errors)
 
-[Forms and applications section warning](#forms-and-applications-section-warning)
+* [Forms and applications section warning](#forms-and-applications-section-warning)
 
-[PDF link generation error (card-level)](#pdf-link-generation-error-\(card-level\))
+* [PDF link generation error (card-level)](#pdf-link-generation-error-\(card-level\))
 
-[PDF download error (card-level)](#pdf-download-error-\(card-level\))
+* [PDF download error (card-level)](#pdf-download-error-\(card-level\))
 
 
 
