@@ -131,9 +131,8 @@ Now, I'm going to ask you to walk us through the process of a writing a message 
 - What would you do to start a message?
 
 **Recent Care teams page**
-- What do you see on this page?
+- What do you notice on this screen?
 - What do "recent care teams" mean to you?
-- What teams would you expect to see here?
 - How many different care teams do you generally message?
 - Are there care teams you frequently seek but cannot find when you see this page?
 
