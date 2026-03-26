@@ -89,7 +89,7 @@ The online pension application is available in the [production environment](http
 -  **[New pages for supporting documents](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130632)** - Added new conditional pages informing applicants when medical records, VA forms, or supporting documents are required based on their answers. Released 3/3/26.
   - **[Alerts for service-connected disability ratings](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121731)** - Updated Pension service-connected disability alerts to include "100% service-connected disability rating" to avoid confusion with applicants that have non-service connected disability conditions. Released on 2/1/26.
 - **[BPDS for Pension](https://github.com/department-of-veterans-affairs/digital-experience-products/issues/1262)** - VA.gov now sends tructured JSON data directly to BPDS. POI then retrieves and uses this data for processing, eliminating the need to perform OCR on submitted PDF forms. Released January 2026.
--  **[LOA3 Authentication for Pension](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/16662)** - 527EZ now requires authentication for all users.
+-  **[LOA3 Authentication for Pension](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/16662)** - 527EZ now requires authentication for all users. Released December 2025.
 
 ### Now
 
