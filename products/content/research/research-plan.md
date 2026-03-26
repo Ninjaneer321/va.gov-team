@@ -22,10 +22,9 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: Identify where Veterans struggle to understand the three review options.
-  - goal_2: Evaluate whether the page supports informed decision-making.
-  - goal_3: Understand the mental models Veterans use when choosing a review option.
-  - goal_3: Identify opportunities to improve content clarity and decision guidance.
+  - goal_1: Identify opportunities to improve content clarity and decision guidance to support more confident decision‑making.
+  - goal_2: Validate that Veterans can effectively use the provided content to make an informed decision.
+  - goal_3: Evaluate the mental models Veterans rely on when selecting a review option.
 
 research_questions:
   - "[Research question 1]"
