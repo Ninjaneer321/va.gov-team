@@ -1,6 +1,6 @@
 # Analysis for design decisions: Kendra transition
 
-## Five documents used...
+## Documents used...
 
 ### 1. Mikki's 2025 On-Site Search Query Analysis (in Slack)
 
@@ -54,15 +54,7 @@
 
 ---
 
-### 4. [VA.gov Search Feedback: Medallia Qualitative Analysis](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/initiatives/unified-search/medallia-search-findings-031226.md)
-
-- **Product:** Same as above (VA.gov search, Facility Locator, Find a VA Form)
-- **Method:** Same ~3,815 Medallia rows; appears to be an earlier or parallel version of the combined analysis
-- **Note:** Content is near-identical to the combined analysis file — same themes, same quotes, same row counts. The combined analysis appears to be the synthesized/annotated version of this raw findings file.
-
----
-
-### 5. [Problematic Search Queries](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/analytics/problematic-search-queries.md)
+### 4. [Problematic Search Queries](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/analytics/problematic-search-queries.md)
 
 - **Product:** VA.gov global search (Search.gov)
 - **Method:** QA / editorial audit — specific queries documented with expected vs. actual results
