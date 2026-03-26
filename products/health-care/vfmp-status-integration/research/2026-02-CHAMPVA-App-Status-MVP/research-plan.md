@@ -197,6 +197,10 @@ Are there moments that matter?</summary>
 
 **This research will help us identify usability and content issues with the CHAMPVA Application Status prototype. We will use these insights to refine the design and content of these screens before they go into production as an extension of the Claims Status Tool. Ultimately, this will enable Veterans and beneficiaries to clearly understand their CHAMPVA Application status, know when and how to upload missing documents, and reduce long call center wait times.** 
 
+**We will also be testing a new h1 for the Claims Status Tool, as well as new headings for the "Claims and appeals" and "Forms and applications" sections of MyVA - since they will have to change once CHAMPVA applications are integrated into the Claims Status Tool. We developed these headings in collaboration with the CST and MyVA teams, and will report back to them with our findings. Participant feedback on these new headings will inform future research.**
+
+**In addition, this study is part of the Design and Forms Systems Team's exploration of AI prototyping tools. See [github ticket](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/5813). The prototypes for this study were built using Figma Make.**
+
 ---
 
 ### Research questions
