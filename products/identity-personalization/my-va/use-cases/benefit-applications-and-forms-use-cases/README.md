@@ -28,11 +28,11 @@ Last updated: March 2026
 
 [Use cases](#use-cases)
 
-* [User does not have any in-progress or completed forms or applications (empty state)](#user-does-not-have-any-in-progress-or-completed-forms-or-applications-\(empty-state\))
+* [User does not have any in-progress or completed forms or applications (empty state)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/README.md#user-does-not-have-any-in-progress-or-completed-forms-or-applications-empty-state)
 
 * [Draft](#draft)
 
-* [Submission in progress (form or application)](#submission-in-progress-\(form-or-application\))
+* [Submission in progress (form or application)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/README.md#submission-in-progress-form-or-application)
 
 * [Received](#received)
 
@@ -48,9 +48,9 @@ Last updated: March 2026
 
 * [Forms and applications section warning](#forms-and-applications-section-warning)
 
-* [PDF link generation error (card-level)](#pdf-link-generation-error-\(card-level\))
+* [PDF link generation error (card-level)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/README.md#pdf-link-generation-error-card-level)
 
-* [PDF download error (card-level)](#pdf-download-error-\(card-level\))
+* [PDF download error (card-level)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/README.md#pdf-download-error-card-level)
 
 
 
