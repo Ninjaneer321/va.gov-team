@@ -84,6 +84,7 @@ Thanks for joining us today! My name is Espy and I'm a researcher with the VA. T
 - Then, ask the notetaker and observers to give a brief, camera-on introduction, like their first name and position with VA.gov.  
 - Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth
 
+### Recording handling
 With your permission, we’d like to record this session so we can accurately capture your feedback. We may share short clips with VA team members, but anything shared will be anonymized—we won’t include your name or identifying information.
 - If yes: Once I start recording, I am going to confirm that you are okay with me recording this session once more.
 
