@@ -130,7 +130,7 @@ This is a collection of notes on design work that we started and set aside for v
 
 #### Problem it solves  
 
-Applicants often don’t understand what medical expenses to report and end up estimating and/or reporting expenses that are not retroactively reimbursed, not considered recurring, and in many cases are not eligible for reimbursement. This is the #2 reason why claims go into development.
+Applicants often don’t understand what medical expenses to report and end up estimating and/or reporting expenses that are not retroactively reimbursed, not considered recurring, and in many cases are not eligible for reimbursement. This is the #1 reason why claims go into development.
 
 #### What we did
 
