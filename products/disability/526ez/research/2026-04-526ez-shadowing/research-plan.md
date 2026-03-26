@@ -1,119 +1,148 @@
-# 526 Shadowing Research Plan - FY26 Q3
-Liz Lantz, Disability Benefits Crew, Benefits Portfolio
-
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Disability Benefits Crew, Form 21-526EZ, FY26 Q3"
+date: 2026-03-26
+last_updated: 2026-03-26
+team: "Disability Benefits Crew"
+product: "Form 21-526EZ (Disability Compensation Claim)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "VA Form 21-526EZ is the primary online application for veterans to file disability compensation claims. While iterative improvements have been made, there is limited recent observational research capturing how veterans actually experience completing the form end-to-end in a naturalistic setting. This study will observe veterans as they complete the form (or realistic portions of it) to better understand usability challenges, points of friction, and aspects of the experience that are working well."
+  product_location: "Authenticated - VA.gov disability benefits section"
+  user_familiarity: "Iteration on existing product"
+  product_brief_url: "Not specified"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
-  
+methodology: "Moderated usability testing with remote observation"
+research_format:
+  location: "remote"
+  moderated: true
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Identify key usability pain points and moments of friction as veterans complete VA Form 21-526EZ online"
+  - goal_2: "Understand how veterans interpret questions, instructions, and required inputs throughout the form"
+  - goal_3: "Surface elements of the experience that are intuitive, efficient, or confidence-building"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Where do Veterans hesitate, struggle, or get confused while completing the form?"
+  - "Which questions or sections are most difficult for Veterans? What makes them difficult (understanding, answering, etc)?"
+  - "How do Veterans interpret instructional content, such as the intro page content or guidance in additional info components?"
+  - "What strategies or workarounds do Veterans use when they don't know what to do?"
+  - "At what points do Veterans experience frustration, uncertainty, or loss of confidence?"
+  - "Which parts of the form feel straightforward or easy to complete, and why?"
+  - "How do Veterans navigate between sections and manage the overall flow of the form?"
+  - "What external information or resources (if any) do Veterans rely on during completion?"
+  - "Where do Veterans make errors, backtrack, or revise their responses?"
+  - "What factors influence whether Veterans feel confident submitting the form?"
 
-hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+hypotheses: []
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings from this research will be used to: (1) Establish a baseline understanding of the current user experience to measure future improvements; (2) Prioritize UX and product improvements across scrum teams based on observed user pain points; (3) Inform design decisions related to form structure, content clarity, and interaction patterns; (4) Identify opportunities to simplify or streamline complex sections of the form; (5) Provide evidence-based insights to stakeholders to support documented pain points, future roadmap and policy discussions."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
-  
+  approach: "Veterans with varied experience levels with disability claims filing"
+
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
-    
+    - "Must be a Veteran"
+    - "Must be eligible and willing to file for disability compensation on the day of their session"
+    - "Must be comfortable being observed filling out their claim on va.gov"
+    - "Must be able and willing to screen share a web browser window via computer or mobile device"
+    - "At least 3 Veterans who have never filed for disability compensation"
+    - "At least 2 Veterans who have filed in the past, but never online"
+
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
+    - "At least 2 and no more than 3 Veterans with cognitive disabilities"
+    - "At least 1 Black Veteran"
+    - "No more than 2 Caucasian Veterans"
+    - "At least 2 other ethnicities (Hispanic, Asian, Native American)"
+    - "A mix of genders"
+
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
+    - question: "Do you have a VA.gov account that you have logged onto in the last six months?"
+      qualifying_response: "Yes"
+      disqualifying_response: "No"
+    - question: "Have you ever filed a claim for disability compensation with VA in the past? If so, when and how did you file it?"
+      qualifying_response: "No (Recruit at least 3 Veterans who have not filed in the past) OR Yes, pdf/vso/agent (Recruit at least 2 Veterans who have filed in the past but never online)"
+      disqualifying_response: "Yes, online"
+    - question: "Are you interested in filing for disability benefits online in the next month?"
+      qualifying_response: "Yes"
+      disqualifying_response: "No"
+    - question: "Would you be willing to fill out your disability claim online at VA.gov while a researcher observes?"
+      qualifying_response: "Yes"
+      disqualifying_response: "No"
+    - question: "How many conditions do you plan on filing for?"
+      qualifying_response: "Any - Recruit 2 Veterans for 2 or fewer conditions, 1 Veteran for 20+ conditions, mix for remainder"
+    - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
+      qualifying_response: "Yes (Recruit at least 3) or No"
+
 participants:
-  veterans: 0
+  veterans: 6
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
+  total_recruited: 6
+  completed_sessions_goal: 6
+
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
-  
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2026-04-20 to 2026-06-01 (rolling sessions, 1 session/week for 6 weeks)"
+  research_review_submission: "TBD"
+
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
-  
+  duration_minutes: "45 to 120 (depending on participant completion time)"
+  buffer_minutes: 60
+  max_sessions_per_day: 2
+
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+  - objective: "Objective 3: Relentlessly improve the user experience"
     key_results:
-      - "[Specific KR if applicable]"
-      
+      - "Key Result 3.1: Each OIT portfolio will improve customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more"
+      - "Key Result 3.2: 100% of end-user facing C100 systems maintain a ranked list of user pain points"
+      - "Key Result 3.3: 100% of C-100 systems have delivered at least one release that directly addresses a documented user pain point with that system"
+
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Aging"
+
 # Research Repository Tracking
 related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
+  previous_studies:
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2023-11-Shadowing-Research/research-findings.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2024-06%200781%20Research/Research%20Findings.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2023-10-Medallia-Research/2023-10%20Research%20Findings.md"
+
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Form 21-526EZ"
+  - "DSP: Ask users for multiple responses"
+  - "DSP: Contextual Help"
+  - "DSP: Content Presentation"
+  - "DSP: Help users to check answers"
+  - "DSP: Error Message Guide"
+  - "DSC: Form"
+  - "DSC: Form - Text Area"
+  - "DSC: Form - Radio Button"
+  - "DSC: Form - Checkbox"
+  - "DSC: Form - Select"
+  - "DSC: Form - File Input"
+  - "DSC: Form - Date Input"
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  - "remote-research"
+  - "moderated-testing"
+  - "form-optimization"
+  - "accessibility"
 ---
-
-[!TIP]
-Complete the frontmatter section above AFTER you've filled out your research plan below. 
-
-Use the GitHub Copilot Frontmatter Completion Prompt to automatically generate structured metadata from your completed research plan.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags. 
-
 
 # Research Plan for Disability Benefits Crew, 526ez, FY26 Q3
 
@@ -345,17 +374,10 @@ Veterans
 
 ### Optional Kick-off Call with Perigean
 
-- `Suggested dates and times:` **[Enter dates and times MM/DD HH:MM]**
+- `Suggested dates and times:` 3/26 4:00-5:00pm, 3/27 10-11am or 3:30-4pm, 3/30 10am-1pm ET or 3-4pm
 
 ### Prepare
-We'll use va.gov production, so it's ready.
-
-**A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.** 
-> [!NOTE]
-> **Send pilot participant email in study Slack channel**
-
-- `Pilot participant name:` **[Enter name]**
-- `Date and time of pilot session:` **[Enter time]** 
+We'll use va.gov production, so it's ready. We're not planning a pilot session for this study; this is the second round of observational research and a mock session won't necessarily be helpful in preparing for this.
 
 ### Research sessions
 - `Planned dates of research:` We'd like to do rolling research sessions beginning the week of 4/20. Initially, our goal is to complete 1 session / week for 6 weeks. Let's discuss in detail over kick off.
@@ -371,9 +393,9 @@ We'll use va.gov production, so it's ready.
 We can provide additional availability as needed
 - `04/3, Friday, 07:00AM-4:00PM EST`
 - `04/14, Tuesday, 07:00AM-12:00PM, 3:30-5:30PM EST`
-- `04/15, Wednesday, TBD`
-- `04/16, Thursday, TBD`
-- `04/17, Friday, TBD`
+- `04/15, Wednesday, 6:00PM - 8:00PM EST`
+- `04/16, Thursday, 6:00PM - 8:00PM EST`
+- `04/17, Friday, 12:00PM - 6:00PM EST`
 - `04/20, Monday, 07:00AM-1:30PM, 3:00-5:00PM EST`
 - `04/22, Wednesday, 07:00AM-2:00PM EST`
 - `04/23, Thursday, 07:00AM-10:00AM EST, 3:30-5:30PM EST`
