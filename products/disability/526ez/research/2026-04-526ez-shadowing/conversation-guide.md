@@ -1,3 +1,79 @@
+---
+title: "Conversation Guide for Disability Benefits (526ez) Online Form Shadowing Study - April 2026"
+author: "[MODERATOR NAME]"
+date_created: "2026-03-26"
+last_modified: "2026-03-26"
+
+# Core research metadata
+team: "Disability Benefits Team"
+portfolio: "benefits"
+product: "PRDT: Disability-526ez"
+research_phase: "usability"
+research_method: "moderated_usability_test"
+
+# Session details
+session_duration: "120 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans preparing to apply for or actively applying for disability benefits; must have real claim information available; comfortable with screen-sharing and video recording"
+
+# Related documents
+related_research_plan: "products/disability/526ez/research/2026-04-526ez-shadowing/research-plan.md"
+related_prototype: "https://www.va.gov/disability/file-disability-claim-form-21-526ez/"
+
+tags:
+  # Audience
+  - "AUD: Veterans"
+  
+  # Benefits
+  - "BNFT: Disability"
+  
+  # Design System Components (form-heavy process)
+  - "DSC: Form"
+  - "DSC: Form - Text Area"
+  - "DSC: Form - Date Input"
+  - "DSC: Form - Select"
+  - "DSC: Form - File Input"
+  - "DSC: Form - Radio Button"
+  - "DSC: Form - Checkbox"
+  - "DSC: Alert Boxes"
+  - "DSC: Contextual Help"
+  
+  # Design System Patterns
+  - "DSP: Ask users for dates"
+  - "DSP: Ask users for addresses"
+  - "DSP: Ask users for files"
+  - "DSP: Ask users for multiple responses"
+  - "DSP: Help users to check answers"
+  - "DSP: Error Message Guide"
+  - "DSP: Contextual Help"
+  
+  # Hardware
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  - "HDW: Smartphone"
+  
+  # Product
+  - "PRDT: Disability-526ez"
+  
+  # Methodology
+  - "think-aloud-protocol"
+  - "moderated-research"
+  
+  # Research themes
+  - "form-comprehension"
+  - "form-navigation"
+  - "data-entry-experience"
+  - "error-recovery"
+  - "task-completion-success"
+
+description: "Moderated shadowing study observing Veterans completing the 21-526ez disability benefits application online form with real claim information. Focuses on form usability, task completion, navigation challenges, and overall user experience across devices."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+participant_compensation: true
+---
 
 # Conversation Guide 
 
