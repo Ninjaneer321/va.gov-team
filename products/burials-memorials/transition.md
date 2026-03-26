@@ -90,6 +90,7 @@ The online Burial application is available in the [production environment](https
 - **Plain language updates** based on the February 2025 desk research, applied throughout the form and its resource page with C/IA.
   - [[INTAKE] PBB: Burial allowance form content updates #130650](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130650)
   - [[INTAKE] Pension and burial benefits: Burial allowance content updates #123182](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123182)
+  - **[LOA3 Authentication for 530](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/16662)** - 530EZ now requires authentication for all users. Released December 2025.
 
  ### Next
 
