@@ -162,15 +162,21 @@ Link to relevant past research studies that inform this work. This helps build i
 
 Previous Studies:
 
-* [Link to Study 1 - Brief description, Date](url goes here)
-* [Link to Study 2 - Brief description, Date](url goes here)
-* [Link to Study 3 - Brief description, Date](url goes here)
+* [2023-11 Form 526EZ Shadowing Research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2023-11-Shadowing-Research/research-findings.md) - foundational shadowing research that directly precedes this study.
+* [2024-06 Form 0781 (PTSD) Research Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2024-06%200781%20Research/Research%20Findings.md) - Directly addresses PTSD evidence form complexity
+* [2023-10 Medallia Research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2023-10-Medallia-Research/2023-10%20Research%20Findings.md) - Secondary research analyzing 300+ Medallia survey responses from March 2023
 
 Key Takeaways from Previous Research:
 
-* [Major finding or insight that informs this study]
-* [Major finding or insight that informs this study]
-* [Major finding or insight that informs this study]
+- PTSD section complexity is burdensom
+- Confusion between new vs. worsening conditions
+- Transition issues and abrupt section changes cause confusion and usability conerns
+- Confusion between 526 and 0781 evidence pages (participants saw them as redundant)
+- Completion anxiety about whether all evidence was submitted
+- Participants desired unified treatment records section with embedded 4142
+- Evidence submission was the top pain point across the application
+- Error messages created frustration, especially for Veterans near ITF expiration
+
 
 [!NOTE]
 If this is the first research study for this product, you can note that here. You may also want to reference research from similar products or features that could provide relevant insights.
