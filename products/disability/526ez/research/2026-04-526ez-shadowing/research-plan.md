@@ -169,7 +169,7 @@ Iterating on an existing product
 
 Product Brief
 
-[Link to product brief](url goes here).
+[Product brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/README.md).
 
 </details>
 
@@ -290,7 +290,7 @@ We'll do these sessions remotely over zoom.
 
 ### Research materials 📔
 
-* [Link to conversation guide](url goes here)
+* [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2026-04-526ez-shadowing/conversation-guide.md)
 
 
 
