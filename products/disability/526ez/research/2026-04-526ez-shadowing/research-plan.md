@@ -371,8 +371,6 @@ Recruit 9 Veterans for a total of 6 completed studies.
 
 
 ## Timeline 🗓️
-> [!NOTE]
-> **Please submit artifacts for [Research Review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Research-review.1781891143.html) 8-9 days prior to the first planned research day for remote studies so Perigean can begin recruiting one week prior. Perigean requires 2+ weeks for in-person.** 
 
 ### Optional Kick-off Call with Perigean
 
@@ -382,7 +380,7 @@ Recruit 9 Veterans for a total of 6 completed studies.
 We'll use va.gov production, so it's ready. We're not planning a pilot session for this study; this is the second round of observational research and a mock session won't necessarily be helpful in preparing for this.
 
 ### Research sessions
-- `Planned dates of research:` We'd like to do rolling research sessions beginning the week of 4/20. Initially, our goal is to complete 1 session / week for 6 weeks. Let's discuss in detail over kick off.
+- `Planned dates of research:` We'd like to do rolling research sessions beginning ASAP. Initially, our goal is to complete 1 session / week for 6 weeks. Let's discuss in detail over kick off.
 
 ### Length of sessions
 - `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` up to 120 minutes (will depend on how long participant takes to complete application)
