@@ -122,13 +122,13 @@ Before you click on anything to take action, I'd like you to tell me about your 
 ## **Task 2: Address and write a message**
 
 Now, I'm going to ask you to walk us through the process of a writing a message to one of your providers. 
-What would you do first?
+- What would you do first?
 (watch as they click start a new message link)
 
 **Interstitial page**
-What do you notice first on this screen?
-What information do you think is most important on this screen?
-What would you do next to start a message?
+- What do you notice first on this screen?
+- What information do you think is most important on this screen?
+- What would you do to start a message?
 
 **Recent Care teams page**
 - What do you see on this page?
