@@ -200,11 +200,11 @@ The following are ideas the data points toward — they represent areas to explo
 
 **Recommended sequence before Kendra launch:**
 
-1. **Baseline metrics now** — CTR on top 25 queries and abandonment rate by query type; needed to demonstrate post-Kendra improvement
-2. **Audit deep-link destinations** — confirm high-frequency transactional targets (upload evidence, claim status, medication refill) don't 404 or redirect to login walls before indexing
-3. **Use [problematic queries](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/analytics/problematic-search-queries.md) as a regression test suite** — if known-broken queries still fail post-migration, diagnose as an indexing problem, not a ranking problem
-4. **Concept test Kendra result types with Veterans** — featured snippets, document excerpts, and promoted results are unfamiliar; test comprehension and trust before launch
-5. **AT usability test on the new SERP** — keyboard navigation and screen reader behavior for new result components must be validated against WCAG 2.1 AA
+1. **Baseline metrics now:** CTR on top 25 queries and abandonment rate by query type; needed to demonstrate post-Kendra improvement
+2. **Audit deep-link destinations:** confirm high-frequency transactional targets (upload evidence, claim status, medication refill) don't 404 or redirect to login walls before indexing
+3. **Use [problematic queries](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/analytics/problematic-search-queries.md) as a regression test suite:** if known-broken queries still fail post-migration, diagnose as an indexing problem, not a ranking problem
+4. **Concept test Kendra result types with Veterans:** featured snippets, document excerpts, and promoted results are unfamiliar; test comprehension and trust before launch
+5. **AT usability test on the new SERP:** keyboard navigation and screen reader behavior for new result components must be validated against WCAG 2.1 AA
 
 ---
 
