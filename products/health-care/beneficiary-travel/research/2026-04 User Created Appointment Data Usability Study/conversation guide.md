@@ -57,6 +57,7 @@ consent_for_clips: true
 # Conversation Guide for User Created Appointment Data Usability Study
 
 ## Moderator logistics 📋✅
+
 ### 2-3 days before the session
 
 > [!NOTE]
@@ -133,10 +134,10 @@ Before we start, I have a few things that I want to go over with you:
 
  <mark>**[Record answer here]**</mark>
 
+
 # Section 1:  Warm-up Questions - 5 minutes
 
 `Moderator: Before we look at our prototype, I’d like to start with a few questions about your experience with VA travel reimbursement.`
-
 
 1. Do you use VA health care?
 2. Have you filed for travel pay in the past?   
@@ -168,6 +169,7 @@ If no, explain: In certain scenarios, for example, if the VA facility is outside
 Do they use the main menu, account dropdown, links under the “Top pages” section, search, or something else? `Moderator: Can you tell me more about why you picked that?`   
 > - 2. What language are they using as they navigate? Are they speaking about the claim or the appointment?   
 > - 3. Which entry point do they land on?   
+
 
 ## Section 3: Primary usability testing (25-30 minutes)   
 **Entry point: past appointments or travel claims list**
@@ -343,7 +345,8 @@ _Participant selects mileage_
 5. Looking at this page, did you create an appointment, file a claim, or both?
 6. If you came back in a few days and wanted to track the status of your submission, where would you go to find it? _If time:_ Let’s go back to the home page and you can show us where you’d click.
 
-
+> [!IMPORTANT]
+> At this point the notetaker should un-hide the Figma frame "Card - NEW CLAIM" in the [list of past appointments](https://www.figma.com/design/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?node-id=16716-68410&t=4KLjXq8vP7HWRweg-1) so that it is visible to the participant when they navigate back to past appointments.
 
 > [!NOTE]
 > #### Things to watch for:
@@ -362,12 +365,10 @@ _If the user does not notice the note, prompt them with:_
 
 1. I see a small note under your appointment information. Can you tell me more about what that is saying?   
 
-
 > [!NOTE]
 > #### Things to watch for:
 > - 1. Do they notice the note without prompting?
 > - 2. Do they understand what the note is telling them about this particular appointment?   
-
 
 
 ## Section 4: Alternate entry-point evaluation (5-10 minutes)   
@@ -401,6 +402,7 @@ _Instruct user to click on the option they did not start from last time, either 
 > - 1. Is there a clear preference for one page over the other?
 > - 2. Why does the user pick one version over the other?
 > - 3. Does mental modal have a bearing on that preference - claim-centric vs appointment-centric thinking?
+
 
 ## Section 5: Wrap up / Post-task interview   
 `Moderator: Moderator: Thank you so much for everything you’ve shared! We’re about to wrap up, so I have some final questions for you.`
