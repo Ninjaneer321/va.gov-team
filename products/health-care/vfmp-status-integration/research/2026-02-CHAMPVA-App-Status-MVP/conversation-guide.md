@@ -268,31 +268,97 @@ Great! That’s the end of our first scenario. To go to the next scenario, scrol
 
 ## Scenario 2: Evidence request - 10 minutes 
 
-- [ ] Step 1
-- [ ] Step 2
+### [Scenario 2 page]  
+Let’s say a week has passed and you want to find out what has happened with your CHAMPVA application. You’ve logged back into VA.gov and this upcoming screen is the first thing you see. Go ahead and click continue. 
+
+### [MyVA, CHAMPVA card now has yellow action needed tag] 
+- Take a look at this page and tell me what you notice.
+  - What do you think has happened with your application?
+- What would you do next?
+  - [If they WOULD NOT FOLLOW the Check status details link] For the scenario today, let's click on the link anyway. 
+
+### [Status page for CHAMPVA App: one beneficiary has been deemed eligible, the other has an evidence request] 
+- Take a look at this page and tell me, in your own words, what has happened with your application.
+  - What step is the application on? Does that make sense to you?
+  - What has happened with Jane’s application? With John Doe Jr.’s?
+- On a scale of 1-5 (with 1 being very hard and 5 being very easy) - how difficult or easy was it to understand this screen? Why did you give it that rating?
+- What would you do next?
+  - [If they WOULD NOT FOLLOW the Review request link] For the scenario today, let's click on the link anyway. 
+
+### [Birth certificate evidence request page] 
+- Tell me what you see here. What is this request for?
+- What would you do next?
+  - [If they want to upload] Go ahead and click in the file upload box, and we’ll pretend that you brought in a file from your device
+  - [Once the upload animation is complete]
+    - Is this what you expected to happen?
+    - Now what would you do?
+      - Okay, go ahead and click continue (the submit button) 
+
+### [Success alert on status tab, now on Step 3, one beneficiary has been deemed eligible] 
+- Take a look at this page and tell me what you notice.
+- What step is the application on now?
+  - Is that what you’d expect? 
+
+That’s the end of our second scenario. To go to the last scenario, scroll all the way down to the bottom of the screen. Then, click the button that says “Proceed to the next scenario”. 
 
 > [!NOTE]
 > ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Etc]
+> - How do participants understand the application status for each of their beneficiaries based on the information presented in the status tool?
+> - Do participants understand how to upload the requested documents and why they're being asked for those documents?   
 
 ## Scenario 3: CST home page+ completed application - 10 minutes 
+### [Scenario 3 page]  
+A week has passed since you uploaded the requested document, and you want to check on the status of your CHAMPVA application again. You’ve logged back into VA.gov and this upcoming screen is the first thing you see. Go ahead and click continue. 
 
-- [ ] Step 1
-- [ ] Step 2
+### [MyVA, For Veteran flow: CHAMPVA card is not visible ] 
+- Take a look at this page and tell me what you notice.
+  - What do you think has happened with your application?
+  - [ASK VETERANS ONLY] Why do you think it isn’t on this page?
+- What would you do next?
+  - [If they WOULD follow the status tool link]
+    - What would you expect to see if you select "Track claims, decision reviews, and applications”?
+  - [If they would NOT follow the status tool link]
+    - I'd love to get your feedback on an additional page today.
+    - What would you expect to see if you select "Track claims, decision reviews, and applications”?
+    - Please click on the link. 
 
+### [CST home page] 
+- Take some time to review this page and think out loud.
+  - [IF THEY NEED PROMPTING]
+    - How does this compare to what you expected to find?
+  - [IF THEY FIND CHAMPVA CARD] Was that where you expected it to be? Why?
+  - [IF THEY CAN’T FIND CHAMPVA CARD]
+    - Where would you expect to find your CHAMPVA application?
+    - Do you see where it says “In progress, Closed, All”? Would you try clicking each of those?
+    - How was that experience?
+  - What would have made it easier for you to find your CHAMPVA application? 
+
+What would you do next? 
+- [If they WOULD proceed] Okay, go ahead and click on the link to move forward in the prototype.
+- [If they WOULD NOT proceed] For the scenario today, let's click on the Details link anyway.  
+
+### [Complete application with an Ineligible applicant card] 
+- Take a look at the page and tell me what you notice.
+  - What is the status of Jane’s application? John Doe Jr.’s?
+- What would you do next, if anything? 
+
+That’s the end of our scenarios for today. You can stop sharing your screen and then I’ll ask you a few more questions before we finish up. 
+
+ 
 > [!NOTE]
 > ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Etc]
+> - What do they expect to be included in the status tool based on the home page?
+> - Do they think it makes sense to have their CHAMPVA application in the status tool? 
 
 # Post-Task Interview - 5 minutes
 
-- Question 1
-- Question 2
-- Any questions for me? 
+- Can you tell me about your overall impression of this prototype?
+- [If the participant is a current CHAMPVA beneficiary or applied in the past] How would you compare the post-application experience you just had to your previous experience after applying for CHAMPVA? Why?
+- Now that you’ve seen the prototype, how would you like to be notified or find updates on your application?
+- Was there anything confusing or unexpected in this prototype?
+- If you could wave a magic wand and change anything about the prototype or the overall experience after you submit an application for CHAMPVA, what would it be?
+- Do the observers have any questions?
+- Any questions for me?  
 
 ## Consent to use video clips
 
