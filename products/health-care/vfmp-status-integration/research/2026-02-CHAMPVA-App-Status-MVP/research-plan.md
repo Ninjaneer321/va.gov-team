@@ -364,7 +364,7 @@ Cohort 2 (recruit 12 people):
 ### Optional Kick-off Call with Perigean
 We would like a kick-off call with Perigean to discuss recruitment criteria. Suggested dates and times, all in EST: 
 > - Monday 3/30: 12:30-1pm, 4-4:30pm
-> - Tuesday 3/31: 3-4pm 
+> - Tuesday 3/31: 3-4:30pm 
 > - Wednesday 4/1: 12-1pm, 2:30-3:30pm 
 
 ### Prepare
