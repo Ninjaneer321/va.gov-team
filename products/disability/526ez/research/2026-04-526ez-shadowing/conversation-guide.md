@@ -1,6 +1,6 @@
 ---
 title: "Conversation Guide for Disability Benefits (526ez) Online Form Shadowing Study - April 2026"
-author: "[MODERATOR NAME]"
+author: "Liz Lantz"
 date_created: "2026-03-26"
 last_modified: "2026-03-26"
 
