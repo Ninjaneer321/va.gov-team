@@ -210,5 +210,5 @@ We conducted discovery relatively recently and wanted to avoid partial design or
 #### Recurring Stakeholders Meetings
 
 - Bi weekly Design Sync with Christie design/research, product
-- Bi-weekly Product Sync with VBA Leads, product manager, OCTO leads and delivery lead
+- Bi-weekly Product Sync with VBA Leads, product manager, OCTO leads and delivery lead.  Agenda [here](https://teams.microsoft.com/l/chat/19:meeting_NDhjMzNjNWItMGZkMS00NmZhLTg2OGEtNDFlZWI5NTVjOWYz@thread.v2/conversations?context=%7B%22contextType%22%3A%22chat%22%7D).
 - Weekly engineering sync with VA Engineering Crew Lead and team Engineering Lead
