@@ -83,7 +83,8 @@ These files capture the post-MVP designs, primarily with enhanced content as a c
 ### Done (recently)
 
 -  [0969 Post MVP improvements](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121584) - Improvements to the content and format of the Income and Asset statement focused on plain language updates and content chunking to ease form filling burden. Released 3/4/26.
--  0969 Income and Asset Statement - update access path. As part of the staggered launch of the online 0969 MVP, the link to the online form from the 0969 About page, did not take the user directly to the application but instead to the supporting forms for claims page. This update implemented the direct path to the application.
+-  0969 Income and Asset Statement - [update access path](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116616). As part of the staggered launch of the online 0969 MVP, the link to the online form from the 0969 About page, did not take the user directly to the application but instead to the supporting forms for claims page. This update implemented the direct path to the application.
+ -  **[LOA3 Authentication for 0969](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/16662)** - 0969 now requires authentication for all users. Released December 2025.
 
 
 ### Next
