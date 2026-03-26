@@ -136,7 +136,9 @@ Now, I'm going to ask you to walk us through the process of a writing a message 
 - How many different care teams do you generally message?
 - Are there care teams you frequently seek but cannot find when you see this page?
 
-What is a care team you might message, that you don't see here? Have them name the care team. Great, What would you do if you want to message this care team, but don't see it here? Allow them to click on the "a different care team" radio button and land on the select a care team.
+What is a care team that you might message, but you don't see here? 
+a. If the veteran names a care team: "Great, what would you do if you want to message this care team?" Allow them to click on the "a different care team" radio button and land on the select a care team.
+b. If the veteran does not know or remember: If no teams are coming to mind, where would you go to see more available care teams?
 
 **Select a care team page**
 - How do you find the care team you are looking for on this page?
