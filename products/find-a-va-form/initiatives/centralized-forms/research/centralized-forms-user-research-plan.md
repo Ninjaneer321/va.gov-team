@@ -310,11 +310,13 @@ Nice to have: Form submission type
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
 
 - `[04/06, M, 09:00 AM-15:00 PM] EST`
-- `[04/07, Tu, 10:00 AM-17:00 ] EST`
+- `[04/07, Tu, 13:00-17:00 ] EST`
 - `[04/08, W, 11:00 AM/PM-17:00] EST`
-- `[04/09, Th, 9:00 AM/PM-17:00] EST`
+- `[04/09, Th, 11:00 AM/PM-19:00] EST`
 - `[04/10, Fr, 9:00 AM/PM-17:00 AM/PM] EST`
-- `Add more slots as needed following week same time slots, but try to front load`
+- `[04/13, M, 9:00-15:00] EST`
+- `[4/14, Tu 10:00-17:00] EST`
+- `[4/15, W 11:00-17:00] EST`
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
