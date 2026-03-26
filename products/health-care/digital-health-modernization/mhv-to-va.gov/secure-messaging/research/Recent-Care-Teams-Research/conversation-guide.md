@@ -139,11 +139,12 @@ Now, I'm going to ask you to walk us through the process of a writing a message 
 What is a care team that you might message, but you don't see here? 
 
 `1.` If the veteran names a care team: "Great, what would you do if you want to message this care team?" Allow them to click on the "a different care team" radio button and land on the select a care team.
+
 `2.` If the veteran does not know or remember: If no teams are coming to mind, where would you go to see more available care teams?
 
 **Select a care team page**
 - How do you find the care team you are looking for on this page?
-  - Do you search or scroll in the combo box?
+  - How do you use the combo box?
   - Do you rely on the care system to narrow your list of care teams?
   - Does the length of the combo box list impact finding the care team you are looking for?
 - What navigational features help you correctly identify the appropriate care team quickly and easily?
@@ -151,7 +152,7 @@ What is a care team that you might message, but you don't see here?
 - When you cannot find a care team in your dropdown, what actions do you take?
 
 What else do you notice on this page?
-(see if they see the contact list link)
+(Do they see the contact list link)
 
 **Contact list page**
 Before they click on it:
