@@ -140,7 +140,7 @@ What is a care team that you might message, but you don't see here?
 
 `1.` If the veteran names a care team: "Great, what would you do if you want to message this care team?" Allow them to click on the "a different care team" radio button and land on the select a care team.
 
-`2.` If the veteran does not know or remember: If no teams are coming to mind, where would you go to see more available care teams?
+`2.` If the veteran does not know or remember: "If no teams are coming to mind, where would you go to see more available care teams?"
 
 **Select a care team page**
 - How do you find the care team you are looking for on this page?
@@ -155,12 +155,14 @@ What else do you notice on this page?
 (Do they see the contact list link)
 
 **Contact list page**
+
 Before they click on it:
 - How do you think the contact list works?
+
 After they click in:
 - What do you think happens if you add or remove care teams from the contact list?
 
-Have them navigate back
+Alright, now navigate back to the page to select your care team. 
 
 **Start message page**
 Walk me through what you would do on this page to write a message to this provider. We are not actually going to send the message off because this is just for testing purposes. 
