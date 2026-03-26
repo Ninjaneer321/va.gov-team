@@ -32,7 +32,7 @@ Last updated: March 2026
 
 [Use cases](#use-cases)
 
-[User does not have any in-progress or completed forms or applications empty state](#user-does-not-have-any-in-progress-or-completed-forms-or-applications-\empty-state\)
+[User does not have any in-progress or completed forms or applications (empty state)](#user-does-not-have-any-in-progress-or-completed-forms-or-applications-\(empty-state\))
 
 [Draft](#draft)
 
