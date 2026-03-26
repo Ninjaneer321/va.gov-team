@@ -38,7 +38,7 @@ hypotheses:
   - "Veterans usually think about their situation in simple, real‑life terms like “I have new evidence,” “the VA made a mistake,” or “I want someone else to look at this.” But the page explains the options using technical process definitions instead of these everyday scenarios."
   - "Users may struggle because the consequences of each decision are unclear, including how long the option takes, what outcomes are possible, and whether they can switch options later."
 
-expected_outcomes: " "
+expected_outcomes: "This research will directly inform content and development decisions to create a more intuitive experience that is easier for Veterans to navigate. By identifying and addressing sources of confusion, the findings will make the information easier to understand, support faster and more confident selections, and reduce errors and frustration. Ultimately, this work will better align VA terminology with the real‑world language and needs Veterans bring to the process."
 
 # Recruitment & Participants
 recruitment:
