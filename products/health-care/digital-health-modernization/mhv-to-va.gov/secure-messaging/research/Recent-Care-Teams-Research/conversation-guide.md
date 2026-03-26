@@ -165,11 +165,13 @@ After they click in:
 Alright, now navigate back to the page to select your care team. 
 
 **Start message page**
+
 Walk me through what you would do on this page to write a message to this provider. We are not actually going to send the message off because this is just for testing purposes. 
 
 Have the user pause at the category section:
-a. What aspects of the categories do you find confusing?
-b. What choices do you default to when you are unsure what category to choose?
+
+`1.` What aspects of the categories do you find confusing?
+`2.` What choices do you default to when you are unsure what category to choose?
 
 Thanks so much for walking me through that process. We are now going to delete this draft message and begin the next part of our session. 
 
