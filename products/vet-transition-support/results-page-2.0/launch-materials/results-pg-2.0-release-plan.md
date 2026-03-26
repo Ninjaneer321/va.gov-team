@@ -9,7 +9,7 @@
 ## Phase I: UAT
 ### Planning:
 - **UAT Go/No go**
-  - _Completed mm/dd/yyyy_
+  - _Completed 03/11/2026_
   - UAT readiness ticket: [PTEMSVT-739](https://jira.devops.va.gov/browse/PTEMSVT-739)
   - [UAT readiness checklist](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vet-transition-support/results-page-2.0/research/UAT/results-pg-2.0-uat-readiness-checklist.md) 
 - **Desired date range or test duration:**
@@ -28,11 +28,11 @@
 
 ### Results:
 - **Number of users:**
-     - _n_ scheduled, _n_ completed 
+     - _3_ scheduled, _3_ completed 
 - **Number of bugs identified / fixed:**
-     - _n_
+     - _1_
 - **Any UX changes necessary based on the logs, or feedback on user challenges, or VA challenges?** 
-     - ...
+     - 
 
 
 ## Phase II: Rollout
