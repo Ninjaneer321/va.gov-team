@@ -1,3 +1,14 @@
+# MHV Lab Results — Missing/Wrong Values Analysis
+
+**Date:** March 26, 2026
+**Repository:** `department-of-veterans-affairs/vets-website`
+
+
+**Primary File:** `src/applications/mhv-medical-records/reducers/labsAndTests.js`
+
+---
+
+
 
 
 ## Prompt:
@@ -32,33 +43,7 @@ Can you:
 
 
 
-# MHV Lab Results — Missing/Wrong Values Analysis
 
-**Date:** March 26, 2026
-**Repository:** `department-of-veterans-affairs/vets-website`
-**Primary File:** `src/applications/mhv-medical-records/reducers/labsAndTests.js`
-
----
-
-
-## Table of Contents
-
-- [Background](#background)
-- [Two Code Paths](#two-code-paths)
-- [Issues Identified](#issues-identified)
-  - [Issue 1: List shows "CHEM 7" but detail page shows "Laboratory procedure"](#issue-1-list-shows-chem-7-but-detail-page-shows-laboratory-procedure)
-  - [Issue 2: "Body site tested" and "Sample tested" show the same value](#issue-2-body-site-tested-and-sample-tested-show-the-same-value)
-  - [Issue 3: Result units may be incorrect or inconsistently formatted](#issue-3-result-units-may-be-incorrect-or-inconsistently-formatted)
-  - [Issue 4: Reference range format inconsistency](#issue-4-reference-range-format-inconsistency)
-  - [Issue 5: "Ordered by" missing on accelerated/unified records in list view](#issue-5-ordered-by-missing-on-acceleratedunified-records-in-list-view)
-- [Expected Values by Lab Type](#expected-values-by-lab-type)
-- [Recommended Fixes](#recommended-fixes)
-  - [Frontend Changes (vets-website)](#frontend-changes-vets-website)
-  - [Backend Changes (vets-api / SCDF)](#backend-changes-vets-api--scdf)
-- [VPR Endpoint Reference](#vpr-endpoint-reference)
-- [Key Code References](#key-code-references)
-
----
 
 ## Background
 
