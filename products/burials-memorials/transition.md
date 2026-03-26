@@ -34,7 +34,7 @@ The online Burial application is available in the [production environment](https
 
 - [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/burials-memorials/burial-allowance/530-initiative-brief-2024-updates.md)
 - [Backlog](https://github.com/orgs/department-of-veterans-affairs/projects/1237/views/39)
-- [General testing plan](https://dvagov.sharepoint.com/:x:/r/sites/vaabdvro/Shared%20Documents/Pension/Burial/Burial%20Review/Burial%20regression%20testing.xlsx?d=we5247e7389764a00b062e6780aa87843&csf=1&web=1&e=YuqDLs) for product updates
+- [General testing plan](https://dvagov.sharepoint.com/:x:/r/sites/vaabdvro/Shared%20Documents/Pension/Burial/Burial%20Review/Burial%20regression%20testing.xlsx?d=we5247e7389764a00b062e6780aa87843&csf=1&web=1&e=YuqDLs) for product updates.
 
 ### Design artifacts
 
