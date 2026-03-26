@@ -22,7 +22,7 @@
   - [About VA Form 527EZ (Application for Veterans Pension)](https://www.va.gov/forms/21p-527ez/)
   - Re-launched on VA.gov: 1/31/2024
   - Annual submission volume: 10,665 (2025)
-  - Current pdf version on VA.gov: DEC 2025
+  - Current PDF version on VA.gov: DEC 2025
 
 ### Product Goal
 
