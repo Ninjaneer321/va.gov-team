@@ -27,8 +27,8 @@ research_goals:
   - goal_3: Evaluate the mental models Veterans rely on when selecting a review option.
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
+  - "Do Veterans understand the differences between the decision review options?"
+  - "Can Veterans determine which option applies to their situation, and how?"
   - "[Research question 3]"
   - "[Research question 4]"
   - "[Research question 5]"
