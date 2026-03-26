@@ -137,7 +137,7 @@ TBD; communications to the Veteran/user community to inform them of the availabi
 
 ## Launch Dates
 - *Target Launch Date*
-  - tdb
+  - 4/20/2026
 - *Actual Launch Date* 
   - tbd
 - *What date will you evaluate impact after launch (and when do you expect to have your Impact Review)?*
