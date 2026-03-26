@@ -13,11 +13,14 @@ Last updated: March 2026
   * Platform: [VA Forms Library \- How to set up Save In Progress (SiP)](https://depo-platform-documentation.scrollhelp.site/developer-docs/va-forms-library-how-to-set-up-save-in-progress-si)  
   * VADS: [Stay informed of their form submission status](https://design.va.gov/patterns/help-users-to/stay-informed-of-their-application-status)
 
-Archive | How to reproduce in staging
+
+<details><summary>Archive | How to reproduce in staging</summary>
 
 * [User has a benefit application or form draft saved but not yet submitted](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/user-has-applications-drafts.md#how-to-reproduce)  
 * [User has submitted a benefit application and/or form](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/user-has-applications-and-or-forms.md#how-to-reproduce)  
 * [User has no benefit applications, forms, or drafts saved](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/user-has-no-applications-forms-or-drafts.md#how-to-reproduce)
+
+</details>
 
 # Jump to 
 
