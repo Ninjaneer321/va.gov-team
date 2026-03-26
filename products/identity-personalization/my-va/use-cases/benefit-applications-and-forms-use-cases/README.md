@@ -22,11 +22,7 @@ Last updated: March 2026
 
 </details>
 
-# Jump to {#jump-to}
-
-[My VA: Forms and applications use cases](#my-va:-forms-and-applications-use-cases)
-
-[Jump to](#jump-to)
+# Jump to
 
 [Overview](#overview)
 
