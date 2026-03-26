@@ -22,9 +22,10 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: Identify where Veterans struggle to understand the three review options.
+  - goal_2: Evaluate whether the page supports informed decision-making.
+  - goal_3: Understand the mental models Veterans use when choosing a review option.
+  - goal_3: Identify opportunities to improve content clarity and decision guidance.
 
 research_questions:
   - "[Research question 1]"
