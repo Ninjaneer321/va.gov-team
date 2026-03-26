@@ -4,10 +4,10 @@ Coordinators across all five sites are shouldering a significant, daily burden h
 
 Common issues include:
 - Personal email access problems
-- MFA/phone carrier failures
+- Verify failures with certain phone carriers
 - Technical problems with devices
 - Escalation wait times
-- Inconsistent ID.me flows
+- Perceived inconsistencies in ID.me flows
 - Policy gaps for caregivers or POA
 
 Coordinators are very knowledgeable of the process, since they help veterans through it dozens of times a week. They have developed effective workarounds like knowing when to move to video verification flow, create Veteran help guides like checklists, conduct pre-screening for device and carrier compatibility, and offer FaceTime coaching for those who can’t come in. These practices are inconsistent across sites and place a heavy individual burden on a small number of dedicated staff. 
@@ -133,7 +133,7 @@ Many veterans don’t have newer mobile devices. Especially older Veterans and m
 
 
 ## 5. Escalation Pathway Burdens
-For cases requiring ID.me help desk intervention (email updates, account unlocks, merges), C3 reports consistent wait times of 30–40+ minutes on the priority coordinator line. C4 reports 2–4 hours sessions when a n account email merge is required.
+For cases requiring ID.me help desk intervention (email updates, account unlocks, merges), C3 reports consistent wait times of 30–40+ minutes on the priority coordinator line. C4 reports 2–4 hours sessions when an account email merge is required.
 > "That is the hardest part of my job working virtually with a Veteran and ID.me — all the time spent on the phone waiting to get through."  — C4, Minneapolis
 - Coordinators acknowledge ID.me support agents are patient and helpful when reached. The issue is volume and wait time, not quality.
 - Human chat feature times out before assistance is complete
@@ -142,7 +142,7 @@ For cases requiring ID.me help desk intervention (email updates, account unlocks
 - AI Chatbot inconsistencies decrease trust
 > 'Roy,' ID.me's AI chatbot, gives inconsistent answers and is not reliably useful as a first-line support tool.  C3 uses it as a first attempt before calling the help desk, but finds it unreliable enough that she does not rely on it,
 
-## 6. Inconsistent ID.me Flows
+## 6. Perceived inconsistent ID.me Flows
 Both C3 (remote) and C4 observed that the ID.me verification flow behaves inconsistently in ways that undermine coordinator confidence and planning:
 - Recovery code not consistently prompted with password change of verified accounts: sometimes it’s asked, sometimes not, with no clear logic (C3)
 - UPS in-person verify option doesn't show up from some Veteran’s without explanation (C4, C3)
@@ -197,22 +197,25 @@ C2 also described an active impersonation attempt: a family member came to the V
 - Proactively update MHV coordinators of changes at a regular cadence.
 
 # Requests for ID.me
-## Send metrics on the most frequest document types that lead to successful verification
-- This can help narrow down what documents Coordinators have Veterans be prepared with. Only if the Veteran doesn't have those documents, then they can move on to a "kitchen sink" approach
+## Share data on the identity document types that most frequently result in successful verification
+- Problem: MHV Coordinators feel like the documents required for verification are not consistent or predictable, which makes it harder for Veterans to prepare. This ask can help us provide clearer recommendations in our checklist to help Coordinators feel more confident about the documents Veterans should come prepared with. Only if the Veteran doesn't have those documents, then they can move on to a "kitchen sink" approach
 > "Do you have a driver's license, have you looked at it to see if it's expired? Do you have a passport or passport card. Bring it. Do you have add DD214? Bring it. Do you have a Social Security card? Bring it. Do you have a birth certificate? Bring it. And a a veteran's health identification card. Bring it and I'll say." - Coordinator from Maine
-## Investigate password reset flow to reduce the confusion caused by getting 2 emails and being unsure of which to act on
-- Are both emails truly needed? Could it be 1?
-- On content front: could the email subjects be more clear? Are there links in the email that doesn't require action that could be removed? Could the needed password link be added to both, if both emails are truly needed? Can the email that doesn't require action have better or more clear context to check for a 2nd email?
-> "ID me sends out two emails once an instructional one and the other one is the actual password reset. What happens is an individual will go through reset password, they're gonna get just the instructional e-mail and then they click on the link that says here request an e-mail or password reset. And then it takes them back to the login page and it's just this never ending loop."  - Coordinator for NH
-## Investigate submit button
-* We've asked the 5 VA coordinators we talked with to forward us info about these issues when they see them over the next couple weeks to help propel the investigation on ID.me's side
-* "I don't know if the system just gets stuck or if there's some reason why it's making us move out of the self-service realm and it's just not advancing... It just doesn't do anything or the button is clicked and it doesn't go anywhere. It just sits there." - Coordinator for Minneapolis
+## Investigate verify document bug with the submit button, reported by MHV Coordinators
+* Problem: When Veterans submit photos of their identity documents, the “Submit” button can become inactive which blocks them from moving forward in the process. This issue is reported most often with Android phones.
+* We've asked the 5 VA coordinators we talked with to forward us info about these issues when they see them over the next couple weeks to help propel the investigation on IDme's side. The coordinator from Baltimore already responded that he's started seeing it more often since we spoke
+> "I don't know if the system just gets stuck or if there's some reason why it's making us move out of the self-service realm and it's just not advancing... It just doesn't do anything or the button is clicked and it doesn't go anywhere. It just sits there." - Coordinator for Minneapolis
+
 > "Friday [March 20] I had some difficulty with the ID documents submission. It was with individuals who had Androids. I either had to take the photo multiple times before ID.me captured it OR attempt to attach it 3-4 times. It was never an issue until recently" - Coordinator for Baltimore
-## Explore increased access on email and cellular providers
-* It sounds like ID.me is considering what could be moved forward on this front.
+## Direct Veterans to the trusted referee video call process if they have specific cellular providers
+* Problem: Some discount phone providers aren't compatible with ID.me's self-service identity verification process, but many Veterans rely on these providers.
+* We encourage ID.me to continue exploring ways to integrate successfully with these cell providers since they are disproportionally used by Veterans. In the interim, it would be very helpful to direct users with phone plans from these providers to verify with an extended video call. Currently documentation specifies that VOIP phones can only be used with specific carriers, but it's more accurate to say that this limitation apply to all types of cell phones, not just VOIP phones.
+    * [Verify your identity with self-service](https://help.id.me/hc/en-us/articles/9198013708439-Verify-your-identity-with-ID-me-Self-Service)
+    * [Verifying with an extended video call](https://help.id.me/hc/en-us/articles/360052242853-Verifying-with-an-extended-video-call)
+    * [Technical requirements to verify your identity](https://help.id.me/hc/en-us/articles/1500004615921-Technical-requirements-to-verify-your-identity)
 > "That's one of those phones that that doesn't get verified. Now I just ask when they come in the office, I say, who is your phone service with? If they say Consumer Cellular or Boost Mobile or Cricket or Jitterbug, we know they're not. I just don't even try anymore" - Coordinator for Kansas City
 ## Send information on participating UPS locations
-- Increased awareness of availability, can help Coordinators direct Veterans in the best way
+- Problem: Coordinators are not sure about the availability of participating UPS stores in their area, which drives confusion while they are trying to help a veteran
+- Increased awareness of availability can help Coordinators direct Veterans in the best way
 > "We don't have many participating UPS stores in the area to service our veterans...some have voiced they would like to use that option" - Coordinator for Kansas City
 
 # Questions for ID.me
@@ -229,3 +232,6 @@ C2 also described an active impersonation attempt: a family member came to the V
 ## Support queues information
 * Understanding that there can be different wait times based on the issue, coordinators still have a question about when the triage happens. Understanding escalation and triage pathways would help VA align expectations and improve planning.
 * One coordinator mentioned that they press 1 to speak to a representative and then wait without any perceived triaging. If we know the happy path for the triage flow we can let the Coordinator know if they are misinterpreting or not understanding how it work.
+## Did the password reset flow include 2 emails in the past? 
+- One coordinator mentioned that in the reset flow veterans have gotten 2 emails, and that caused confusion. In our own testing, we only got 1 email that we felt was very clear on what action needed to be taken. If 2 emails were being sent in the past, the coordinator might have remembered it from the pasy, and we'd like to let them know that context to help clear up confusion.
+> "ID me sends out two emails one an instructional one and the other one is the actual password reset. What happens is an individual will go through reset password, they're gonna get just the instructional e-mail and then they click on the link that says here request an e-mail or password reset. And then it takes them back to the login page and it's just this never ending loop." - Coordinator for NH
