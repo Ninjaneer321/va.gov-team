@@ -12,16 +12,17 @@ and have the necessary information to address problems quickly. To accomplish im
 - [Monitoring and alerts](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/solid-start-scheduling/engineering/metrics.md#monitoring--alerts)
 - [Logging](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/solid-start-scheduling/engineering/logging.md)
 
-### TODO: Create dashboard and monitors and document here:
-
 
 ### Dashboards
 
 [Stakeholder dashboard](https://vagov.ddog-gov.com/dashboard/fw6-j3c-zns?fromUser=false&refresh_mode=sliding&from_ts=1769610040701&to_ts=1769613640701&live=true)
+[VASS Dashboard](https://vagov.ddog-gov.com/dashboard/fw6-j3c-zns/vass-va-solid-start?fromUser=false&overlay=events&overlayQuery=service%3Avass%20%24env&refresh_mode=sliding&from_ts=1774540766046&to_ts=1774544366046&live=true)
 
 ### Monitors
-
-TBD
+- [VASS: Anomalously High Errors](https://vagov.ddog-gov.com/monitors/542401)
+- [VASS: Anonymously low traffic](https://vagov.ddog-gov.com/monitors/542515)
+- [VASS: 4XX - Error rate is high](https://vagov.ddog-gov.com/monitors/542400)
+- [VASS: 5XX - Error rate is high](https://vagov.ddog-gov.com/monitors/542399)
 
 ### Associated slack channels
 
