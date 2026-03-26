@@ -148,28 +148,123 @@ Before we look at the prototype, let’s start with a few warm-up questions.
 
 ## Screenshare & Prototype Setup - 5 minutes
 
-## Scenario 1a: My VA homepage - 5 minutes 
+Now, I'm going to drop a link to the prototype in the chat, which I'd like you to open in your browser and then share your screen in Zoom. I can help walk you through how to share your screen, but I want to give you a moment to close any other browser windows, tabs or applications you may have running, and silence notifications on your device so it doesn't interfere. Let me know when you're ready for the link. 
 
-- [ ] Step 1
-- [ ] Step 2
+Wait for participant's verbal consent. 
+
+I'd like to confirm, what kind of device are you using today (desktop, mobile, tablet)? 
+
+Great! I'm pasting the link to the site in the chat. You can find that in the row of buttons at the bottom, under the chat icon: 
+- Veteran flow
+  - mobile: https://soft-meter-55458294.figma.site/scenario1 
+  - desktop: 
+- Spouse/dependent flow 
+  - mobile: https://soft-meter-55458294.figma.site/scenario1-nonveteran 
+  - desktop: 
+
+_Share link in chat of appropriate prototype_
+
+Please open this link and share your screen (phone) or web browser (desktop). Let me know if you need any help. 
+
+### Screen sharing instructions (if needed) 
+
+- In the Zoom application on your computer, there's a row of buttons at the bottom. In the center is a button that says **Share** (on phone, may need to scroll sideways or click **More...**)
+  - If you don't tap the screen for a while, all the buttons at the bottom will hide. To get them back, you can tap/click anywhere on the screen, and they'll show up again.
+  - (If you have more than one screen, the row of buttons may be on the screen that's being shared) 
+- Now I'd like you to share your screen with me. Tap on the button that says **Share**. Then there will be options for what to share. Please choose **"Screen"** (phone) or your web browser.
+  - iPad: Broadcast screen [Avoid AI Companion, which is a new option next to “Share” in the Zoom buttons] 
+- Great, now I can see your screen! Thank you for your patience in figuring this out.
+  
+- _If having difficulty moving windows around or opening the prototype, you could request control of the participant’s screen and mouse in Zoom:_ 
+< Name >’s screen tab > Request remote control. Then you can move/resize browser (but not zoom windows/buttons) and type into browser bar. The participant may need to minimize the zoom video view, and drag the zoom buttons to the bottom of the screen so out of the way. 
+
+## Scenario 1a: My VA homepage - 5 minutes 
+Now that we have the prototype up, I’m going to give you a couple scenarios and have you give feedback as you navigate through the prototype. On each page, please share what you are thinking out loud so we can hear your honest opinion. We want to improve these tools and are not testing your ability. 
+
+Do you have any questions? 
+
+Wait for participant answer. 
+
+### [Scenario 1 page] 
+For the first scenario I'd like you to imagine that you submitted a CHAMPVA application recently and want to find out what is happening with your application. You log into VA.gov and this upcoming screen is the first thing you see. Go ahead and click continue. 
+
+### [MyVA] 
+If you wanted to find out what is happening with your CHAMPVA application, can you show me where you would go? 
+
+- [IF THEY GO TO CLAIMS AND APPLICATIONS:]
+  - Is this where you expected to find your application?
+    - If not, where would you expect it to be?
+    - What else do you expect to be in this section?
+    - **What would you do next?**
+      - [If they mention the Check status details link] What do you think would happen if you click on the “Check status details” link?
+      - [If they mention the Status tool link] What do you think would happen if you click on “Track claims, decision reviews, and applications”?
+  - Before we move on, I want you to scroll down to the section called "Forms."
+    - What do you expect to find in this section?
+    - [IF THEY OPEN THE COMPLETED FORMS ACCORDION:] 
+      - Is this what you expected to see? 
+
+- [IF THEY GO TO FORMS SECTION:]
+  - Is this where you expected to find your application?
+    - If not, where would you expect it to be?
+    - What else do you expect to be in this section?
+    - [IF THEY OPEN THE COMPLETED FORMS ACCORDION:]
+      - Is this what you expected to see?
+    - **What would you do next?**
+  - [If they don’t scroll up on their own] Before we move on, I want you to scroll up to "Claims and applications”
+    - What do you expect to find in this section?
+      - [If they mention the Check status details link] What do you think would happen if you click on the “Check status details” link?
+      - [If they mention the Status tool link] What do you think would happen if you click on “Track claims, decision reviews, and applications”? 
+
+In your own words, how would you describe what the Claims and applications section is for, versus the Forms section? 
+- What would make it easier for you to understand what each section is for? 
+
+**Now that you’ve seen both sections, what would you do next?** 
+- [IF THEY WOULD CLICK THE CHECK STATUS DETAILS LINK]
+  - [If they are mentioning it for the first time] What do you think will happen if you click on the “Check status details” link?
+  - Okay, go ahead and click on the link to move forward in the prototype.
+- [IF NOT] Could you share why you would do that next?
+  - For the scenario today, let's click on the Check status details link anyway. 
 
 > [!NOTE]
 > ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Is the participant aware that they may be sharing personal information on their screen, and are they okay with that? - per question as needed]
-> - [Etc]
+> - Where does the participant expect to find their CHAMPVA app?
+> - What do they think the Claims and applications section is for, versus the Forms section? 
+> - Are they able to navigate to the status tool without assistance?
 
 ## Scenario 1b: CHAMPVA App screens in CST - 10 minutes 
 
-- [ ] Step 1
-- [ ] Step 2
+### [Status page] 
+Let's continue imagining that you’re trying to find out more about your CHAMPVA application, and about what will happen next.  
+ 
+Take a moment to review this page and the other tabs, and think out loud as you go.  
+
+[Let the user explore. As they navigate, probe if they pause or seem to find anything confusing. When they are done:] 
+- Now that you’ve read through these pages, in your own words, can you tell me what you learned about your application?
+  - What do you think will happen next?
+- Is there anything else you want to see or know more about?
+- What would you do next, if anything? 
+
+### [Files tab] 
+- Can you click on the Files tab?
+  - When would you use this screen?
+  - Let’s pretend that you want to submit an updated marriage certificate for Jane Doe. What would you do?
+    - [If they want to upload] Go ahead and click in the file upload box, and we’ll pretend that you brought in a file from your device
+      - [Doctype dropdown comes up, let user choose an option]
+    - How was that process? Is it what you expected?
+    - Now what would you do?
+      - Okay, go ahead and click continue (the submit button) 
+
+### [Overview tab] 
+- Now, I want to ask more about the Overview tab. Can you go there for me?
+  - In your own words, can you explain what happens in each of these steps?
+  - On a scale of 1-5 (with 1 being very hard and 5 being very easy) - how difficult or easy was it to understand the steps an application goes through after it is submitted? Why? 
+
+Great! That’s the end of our first scenario. To go to the next scenario, scroll all the way down to the bottom of the screen. Then, click the button that says “Proceed to the next scenario”. 
 
 > [!NOTE]
 > ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Etc]
+> - How do participants interpret the steps presented in the status tool?
+> - How do they interpret the steps in order to build a mental model of how CHAMPVA applications are processed?   
 
 ## Scenario 2: Evidence request - 10 minutes 
 
