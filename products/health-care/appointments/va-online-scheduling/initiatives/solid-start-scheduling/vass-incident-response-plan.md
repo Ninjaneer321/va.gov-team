@@ -15,8 +15,8 @@ and have the necessary information to address problems quickly. To accomplish im
 
 ### Dashboards
 
-[Stakeholder dashboard](https://vagov.ddog-gov.com/dashboard/fw6-j3c-zns?fromUser=false&refresh_mode=sliding&from_ts=1769610040701&to_ts=1769613640701&live=true)
-[VASS Dashboard](https://vagov.ddog-gov.com/dashboard/fw6-j3c-zns/vass-va-solid-start?fromUser=false&overlay=events&overlayQuery=service%3Avass%20%24env&refresh_mode=sliding&from_ts=1774540766046&to_ts=1774544366046&live=true)
+- [Stakeholder dashboard](https://vagov.ddog-gov.com/dashboard/fw6-j3c-zns?fromUser=false&refresh_mode=sliding&from_ts=1769610040701&to_ts=1769613640701&live=true)
+- [VASS Dashboard](https://vagov.ddog-gov.com/dashboard/fw6-j3c-zns/vass-va-solid-start?fromUser=false&overlay=events&overlayQuery=service%3Avass%20%24env&refresh_mode=sliding&from_ts=1774540766046&to_ts=1774544366046&live=true)
 
 ### Monitors
 - [VASS: Anomalously High Errors](https://vagov.ddog-gov.com/monitors/542401)
