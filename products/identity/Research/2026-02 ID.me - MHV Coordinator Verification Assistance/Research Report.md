@@ -104,16 +104,16 @@ In a variation on this, C1 instead has veterans sign in and click forgot passwor
 Veterans frequently cannot access the email address linked to their ID.me account, either because they have forgotten the password, abandoned the account, or never used it regularly in the first place. Resolution requires contacting the ID.me help desk or chat option to update the email address. See more about help desk escalation.
 > "I get a lot of veterans that come in that don't have access to their old email addresses."  —  C1, Baltimore
 
-Several specific email issues include:
+Several specific issues include:
 - Yahoo, Hotmail, Comcast/Xfinity and even Gmail accounts: can see significant delays receiving emails from ID.me (C2, C4)
 - Yahoo email in particular: may never get ID.me emails, which seems to be resolved by whitelisting ID.me emails from spam filtering (C2)
 - Veterans with full email inboxes: can't receive any emails, a silent failure with no error message shown to the Veteran or coordinator (C3)
-- ID.me password reset sends two emails: an instructional email and the actual reset link email. This causes Veterans to click the wrong one and loop back to the login page (C4)
-> "ID.me sends out two emails: an instructional one and the other one is the actual password reset. Why can't it just be one email? Because what happens is an individual will click on the instructional one and get stuck in a never-ending loop."  —  C4, New Hampshire
-- Browser password manager causes issues if the Veteran doesn’t realize they are accidentally using it. It can easily generate a new password and save, but if the Veteran already has an account and password set up, the new generated password may not get updated with ID.me. The in-browser password manager will then prompt the Veteran to sign in with its password – an incorrect password. It’ll present as a sign in failure. Unless they think to try their prior set up password, they’ll likely move to reset password, arriving again at the two-email loop, which compounds the situation.
+- Browser password manager causes issues if the Veteran doesn’t realize they are accidentally using it.
+   - It can easily generate a new password and save. If it updates their ID.me password, and they don't realize, they might try to use their old password on next sign in, and the sign in will fail
+   - In another case, if the manager generates a password but doesn't update with ID.me, the next time the Veteran will see the in-browser password manager prompt to sign in with its password. But it'll be incorrect and present as a sign-in failure.
 > "Everyone does it — Edge, Chrome, DuckDuckGo. They get that pop-up that says 'do you want to save this password?' And they click save. And what does that do? It creates a new password. Now they're going back through: oh my God, I can't get signed in, I need to reset the password, oh look, I'm getting 2 emails from ID.me, which one do I pick? Oh look, I'm in a vicious loop."  —  C4, New Hampshire
 
-## 3. Phone & MFA Carrier Incompatibility
+## 3. Phone Carrier Incompatibility with Verify
 This is the single, most frequently cited unresolvable blocker. Particularly Veterans who are older, lower-income, technology adverse, or rural, have a higher use of prepaid phone plans. Other Veterans with bundled phone services can also affected. ID.me cannot verify these phones via SMS. Additionally, VOIP type landline phones cannot get MFA codes by phone call. Coordinators have learned to pre-screen for this but have no fix.
 > "If they say Consumer Cellular or Boost Mobile or Cricket or Jitterbug, we just don't even try anymore."  — C2, Kansas City
 
