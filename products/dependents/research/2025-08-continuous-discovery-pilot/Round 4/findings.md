@@ -66,7 +66,6 @@ demographics:
 key_findings:
   - "4 of them had spouses as dependents"
   - "2 of them had children as dependents"
-  - "2 of them had verified their dependents before"
   - "2 said they had been asked by VA to verify information but this was after or while they were in the process of making changes to their dependents so I don't think that they were the traditional 8-year verification requests"
   - "3 of 5 said that they did not looked at their dependent information unless VA requested it"
   - "1 said that they saw their dependent information once a year in a letter that VA sends to them"
