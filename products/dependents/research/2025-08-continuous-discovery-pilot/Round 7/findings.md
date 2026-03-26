@@ -169,4 +169,6 @@ Filling out the 674 for high school students can be confusing
 
 * 4 participants, including the VSR, mentioned confusion resulting from filling out the form for high school students and/or it would nice if the form could be adjusted to better accommodate high school students
 
-Next Steps: Work with Design, Content, and Engineering to assess the feasibility of clarifying and/or customizing the form experience for high school and college students
+## Next Steps
+
+* Work with Design, Content, and Engineering to assess the feasibility of clarifying and/or customizing the form experience for high school and college students
