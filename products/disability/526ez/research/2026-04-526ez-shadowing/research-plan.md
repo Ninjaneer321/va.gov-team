@@ -151,7 +151,7 @@ tags:
 <details><summary>Briefly describe the background of your product.</summary>
 VA Form 21-526EZ is the primary online application for veterans to file disability compensation claims. The form is complex, requiring users to navigate eligibility rules, provide detailed service and medical history, and interpret domain-specific language.
 
-While iterative improvements have been made, there is limited recent observational research capturing how veterans actually experience completing the form end-to-end in a naturalistic setting. Current understanding of pain points is informed by analytics, support tickets, and prior studies, but may not fully reflect real-world behaviors, workarounds, and moments of confusion.
+It's been a long time since we did a shadowing study (read previous research, below). While usability testing has been conducted on specific sections for iterative improvements, we have limited recent observational research capturing how veterans actually experience completing the form end-to-end in a natural setting. Our current understanding of pain points is informed by analytics, support tickets, and prior studies, but may not fully reflect real-world behaviors, workarounds, and moments of confusion.
 
 This study will observe veterans as they complete the form (or realistic portions of it) to better understand usability challenges, points of friction, and aspects of the experience that are working well.
 
@@ -301,6 +301,8 @@ We'll do these sessions remotely over zoom.
 Veterans
 
 ### Recruitment criteria
+
+Recruit 9 Veterans for a total of 6 completed studies.
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 
