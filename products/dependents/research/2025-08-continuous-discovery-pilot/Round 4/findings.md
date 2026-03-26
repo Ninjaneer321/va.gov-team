@@ -190,7 +190,7 @@ Participant 5:
 ### Design C (Need you to verify)
 
 Participant 1:
-   - The importance that advise converys isn't very urgent
+   - The importance that advise conveys isn't very urgent
    - No concerns raised by the message
 
 Participant 2:
