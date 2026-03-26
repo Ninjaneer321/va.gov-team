@@ -4,7 +4,8 @@ title: "Research plan for Content & IA Team, Choosing a Decision Review Option P
 date: 2026-03-24
 last_updated: 2026-03-25
 team: Content & IA
-product: Content & IA
+product: Choosing a decision review option
+
 product_area: unauthenticated
 
 # Background Context
