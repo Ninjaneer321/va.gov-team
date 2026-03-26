@@ -352,7 +352,7 @@ We'll use va.gov production, so it's ready.
 - `Date and time of pilot session:` **[Enter time]** 
 
 ### Research sessions
-- `Planned dates of research:` We'd like to do rolling research sessions beginning 4/15
+- `Planned dates of research:` We'd like to do rolling research sessions beginning the week of 4/20. Initially, our goal is to complete 1 session / week for 6 weeks. Let's discuss in detail over kick off.
 
 ### Length of sessions
 - `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` up to 120 minutes (will depend on how long participant takes to complete application)
@@ -362,22 +362,13 @@ We'll use va.gov production, so it's ready.
 - `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` 2
 
 ### Availability
-When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
 
-> [!NOTE]
-> We recommend providing availability outside of work hours, as many Veterans are only available before and after working times, and live across the U.S. 
+These days of the week and time slots will work every week of the study.
 
-> [!TIP]
-> Please request enough dates and at ***least double the amount of time slots for the number of requested participants***. **(e.g. 3/17, Monday 9:00AM-1:00PM, 3:00PM-6:00PM EST; 3/18, Tuesday 9:00AM-6:00PM EST, etc.;** ***12 time slots for 6 participants***). This helps Perigean book participants when there are more time slots available, and when sessions need to be rescheduled or filled in with further recruitment.
->
-> **Place time slots between `hash marks` when in edit mode.**
-
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `Add more slots as needed`
+- `04/20, Monday, 07:00AM-1:30PM EST`
+- `04/22, Wednesday, 07:00AM-2:00PM EST`
+- `04/23, Thursday, 07:00AM-10:00AM EST`
+- `04/24, Friday, 07:00AM-9:30AM EST, 11:30-1:30PM`
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
