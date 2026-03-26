@@ -24,7 +24,7 @@ Feature Toggle/flag:
 
 Any other issues or requirements that should be addressed prior to rollout?
 
-### Go/No Go meeting
+### Go/No Go meeting April 6th, 2026
 Synchronous Go/No Go (Placeholder)
 
 - [ ] Review the release plan with your team.
