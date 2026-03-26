@@ -191,7 +191,7 @@ For the first scenario I'd like you to imagine that you submitted a CHAMPVA appl
 ### [MyVA] 
 If you wanted to find out what is happening with your CHAMPVA application, can you show me where you would go? 
 
-- [IF THEY GO TO CLAIMS AND APPLICATIONS:]
+- [IF THEY GO TO CLAIM AND APPLICATION STATUS:]
   - Is this where you expected to find your application?
     - If not, where would you expect it to be?
     - What else do you expect to be in this section?
@@ -210,13 +210,14 @@ If you wanted to find out what is happening with your CHAMPVA application, can y
     - [IF THEY OPEN THE COMPLETED FORMS ACCORDION:]
       - Is this what you expected to see?
     - **What would you do next?**
-  - [If they don’t scroll up on their own] Before we move on, I want you to scroll up to "Claims and applications”
+  - [If they don’t scroll up on their own] Before we move on, I want you to scroll up to "Claim and application status”
     - What do you expect to find in this section?
       - [If they mention the Check status details link] What do you think would happen if you click on the “Check status details” link?
       - [If they mention the Status tool link] What do you think would happen if you click on “Track claims, decision reviews, and applications”? 
 
-In your own words, how would you describe what the Claims and applications section is for, versus the Forms section? 
-- What would make it easier for you to understand what each section is for? 
+- In your own words, how would you describe what the Claim and application status section is for, versus the Forms section?
+  - What are your thoughts on the names of those sections?
+  - Is there any way that we could improve them? 
 
 **Now that you’ve seen both sections, what would you do next?** 
 - [IF THEY WOULD CLICK THE CHECK STATUS DETAILS LINK]
@@ -228,7 +229,7 @@ In your own words, how would you describe what the Claims and applications secti
 > [!NOTE]
 > ### Things to watch for:
 > - Where does the participant expect to find their CHAMPVA app?
-> - What do they think the Claims and applications section is for, versus the Forms section? 
+> - What do they think the Claim and application status section is for, versus the Forms section? 
 > - Are they able to navigate to the status tool without assistance?
 
 ## Scenario 1b: CHAMPVA App screens in CST - 10 minutes 
