@@ -91,9 +91,6 @@ The online pension application is available in the [production environment](http
 - **[BPDS for Pension](https://github.com/department-of-veterans-affairs/digital-experience-products/issues/1262)** - VA.gov now sends tructured JSON data directly to BPDS. POI then retrieves and uses this data for processing, eliminating the need to perform OCR on submitted PDF forms. Released January 2026.
 -  **[LOA3 Authentication for Pension](https://github.com/department-of-veterans-affairs/va.gov-team/milestone/16662)** - 527EZ now requires authentication for all users. Released December 2025.
 
-### Now
-
-- BPDS for 0969 and 530 (closely adjacent forms to Pension) - For 0969 and 530 applications, VA.gov will sendstructured JSON data directly to BPDS. POI then retrieves and uses this data for processing, eliminating the need to perform OCR on submitted PDF forms.
 
 ### Next
 
