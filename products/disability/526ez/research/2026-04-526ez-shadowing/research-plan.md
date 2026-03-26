@@ -288,7 +288,7 @@ Veterans
 #### Secondary criteria (nice-to-haves)
 *What criteria would strengthen your results?* 
 
-- `At least 3 Veterans with cognitive disabilities`
+- `At least 2 and no more than 3 Veterans with cognitive disabilities`
 - `At least 1 Black Veteran`
 - `No more than 2 Caucasian Veterans`
 - `At least 2 other ethnicities (Hispanic, Asian, Native American)`
