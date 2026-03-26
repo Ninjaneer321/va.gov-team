@@ -32,14 +32,14 @@
 - **Number of bugs identified / fixed:**
      - _1_
 - **Any UX changes necessary based on the logs, or feedback on user challenges, or VA challenges?** 
-     - 
+     - Filter menu flickering/closing incorrectly on mobile - [PTEMSVT-752](https://jira.devops.va.gov/browse/PTEMSVT-752)
 
 
 ## Phase II: Rollout
 
 ### Planning
 **Launch Go/No-go:** 
-- _Completed mm/dd/yyyy_
+- _Completed 03/17/2026_
 - Launch go/no-go ticket: [PTEMSVT-740](https://jira.devops.va.gov/browse/PTEMSVT-740)
 - [Launch readiness checklist](https://jira.devops.va.gov/browse/PTEMSVT-740)
 
@@ -49,7 +49,7 @@
 ### Planning & Execution:
 |Launch % |Desired Date | _Actual Date_ | 
 |-------|-----------|-----------|
-| Launch to 100% | week of 03/16/2026 | _mm/dd/yyyy_ |
+| Launch to 100% | week of 03/16/2026 | _03/18/2026_ |
 
 **Launch ticket** [PTEMSVT-740](https://jira.devops.va.gov/browse/PTEMSVT-741) 
 
