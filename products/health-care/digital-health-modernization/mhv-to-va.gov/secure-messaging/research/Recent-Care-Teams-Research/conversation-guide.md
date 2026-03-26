@@ -184,23 +184,29 @@ As we go through this prototype to accomplish the task I'll give you, I'd like y
 
 Link to start: XXXXXXXXXXXX
 
-From messaging inbox:
+**From messaging inbox**
 
 Task: Imagine you live in [place] and are trying to message [team]. Walk me through what steps you would take to locate the care team name and write a new message to this care team. 
 
 Please remember to think aloud and describe what you are looking for and what you notice.
 
-Interstitial page
-Does the user notice anything different about the navigation?
+**Interstitial page**
 
-Send a message to your care team
-Does the user look for the relevant care team at the top in recent care teams?
-Then, do they use the filter or just search care teams in the combo box?
+- Identify if the user notices anything different about the navigation
+
+**Send a message to your care team**
+
+Note:
+
+- Does the user look for the relevant care team at the top in recent care teams?
+- Do they use the filter or just search care teams in the combo box?
+
+Ask
 
 - Is there another filter category that would help you find this care team?
 - What do you think suggested care teams means?
 
-After the user sends of the message:
+**After the user sends of the message**
 
 What about this design supports or hinders your ability to complete the task?
 a. Where did you experience confusion or hesitation?
@@ -215,13 +221,14 @@ I'm going to share another prototype now.
 
 Link to start: XXXXXXXXXXXX
 
-From messaging inbox:
+**From messaging inbox**
 
 Task: Just a reminder, imagine you live in [place] and are trying to message [team]. Walk me through what steps you would take to locate the care team name and write a new message to this care team. 
 
 Please remember to think aloud and describe what you are looking for and what you notice.
 
-Notice:
+Notice
+
 Does the user say anything about not knowing what care system to select?
 Is there any confusion about the care team showing up after the care system is selected?
 Does the user notice the primary care at the top?
