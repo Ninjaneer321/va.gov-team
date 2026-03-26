@@ -13,7 +13,6 @@ Feature Toggle/flag:
    -  Claimant Overview Tab
       -    [ ] User has established POA for a claimant
       -    [ ] User has established POA for a claimant without an established ITF
-      -    [ ] User has established POA for a claimant with multiple established ITFs
       -    [ ] User has established POA for a claimant with an expiring ITF
       -    [ ] User has no established POA for a claimant
    -  Submission History Tab
@@ -38,6 +37,7 @@ Synchronous Go/No Go (Placeholder)
 - [ ] Enable in Production to 100% of users
 - [ ] Confirm the release to Production, with a test user
 - [ ] Communicate release to ARP pilot users via Teams/Email
+- [ ] Communicate release to VBA and VSO liaison office
 
 ***
 
