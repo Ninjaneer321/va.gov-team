@@ -243,13 +243,13 @@ b. How does the process align with your expectations?
 c. What changes would improve clarity, efficiency, or overall usability?
 d. On a scale of 1-5, with 1 being easy and 5 being difficult, how easy was it to find your care team and send the message?
 
-## **Comparison
+## Comparison
 
 - After seeing both prototypes, which version would be easiest for you to send messages through?
   -   Why?
 - What parts were your favorite and which parts were your least favorite between the two prototypes?
 
-## **Consent to use video clips
+## Consent to use video clips
 * I want to circle back and re-confirm that you are comfortable if we were to share a video clip of this session with our VA partners? Just to remind you, we will remove all information that could be used to identify you before sharing and will only share the videos with VA partners with the purpose of improving VA.gov and other digital experiences.
     * If yes: Is there any part of our discussion you would NOT want shared in a video clip?
  
