@@ -51,8 +51,20 @@ recruitment:
     - "Veterans who have received a decision letter: 4-6 participants total"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Minimum 3 are women"
+    - "Minimum 3 are over 55 years of age"
+    - "Minimum 3 are under 54 years of age"
+    - "Minimum 3 have a cognitive impairment"
+    - "Minimum 3 live in rural areas"
+    - "Minimum 1 has no degree"
+    - "Minimum 4 have a terminal HS degree"
+    - "Minimum 2 have a terminal AS degree"
+    - "Minimum 2 have a terminal BS degree"
+    - "Minimum 1 have a terminal MS degree"
+    - "Minimum 2 are Black/African American"
+    - "Minimum 2 are Hispanic/Latino"
+    - "Minimum 1 is Asian"
+    - "Minimum 1 is Native American"
     
   screener_questions:
     - question: "[Screener question text]"
