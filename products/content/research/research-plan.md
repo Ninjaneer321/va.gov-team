@@ -53,10 +53,6 @@ recruitment:
   secondary_criteria:
     - "[Nice-to-have criterion 1]"
     - "[Nice-to-have criterion 2]"
-	- "[Nice-to-have criterion 2]"
-	- "[Nice-to-have criterion 2]"
-	- "[Nice-to-have criterion 2]"
-	- "[Nice-to-have criterion 2]"
     
   screener_questions:
     - question: "[Screener question text]"
