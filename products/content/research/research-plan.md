@@ -43,7 +43,7 @@ expected_outcomes: "This research will directly inform content and development d
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Stratified purposive sampling to ensure we include Veterans with different decision‑review needs and levels of experience, so we can hear a broad range of perspectives."
   
   primary_criteria:
     - "[Must-have criterion 1]"
@@ -59,9 +59,9 @@ recruitment:
       qualifying_response: "[Expected answer]"
       
 participants:
-  veterans: 0
-  caregivers: 0
-  dependents: 0
+  veterans: 6
+  caregivers: 2
+  dependents: 2
   total_recruited: 0
   completed_sessions_goal: 0
   
@@ -79,16 +79,18 @@ session_details:
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 1: Optimize software delivery for Veteran impact."
     key_results: 
       - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+  - objective: "Objective 3: Relentlessly improve the user experience."
     key_results:
       - "[Specific KR if applicable]"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
