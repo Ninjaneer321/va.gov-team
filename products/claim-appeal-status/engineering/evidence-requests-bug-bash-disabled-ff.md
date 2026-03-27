@@ -14,8 +14,8 @@
 
 ### Intended Outcomes (flag disabled)
 
-- [ ] A blue info alert appears: "We requested more information from you: Check the claim details to learn more."
-- [ ] No red error alert appears
+- [x] A blue info alert appears: "We requested more information from you: Check the claim details to learn more."
+- [x] No red error alert appears
 
 ## Test Case 2: Claim card with failed submissions only
 
@@ -31,8 +31,8 @@
 
 ### Intended Outcomes (flag disabled)
 
-- [ ] A red error alert appears: "We need you to resubmit files for this claim."
-- [ ] No blue info alert appears
+- [x] A red error alert appears: "We need you to resubmit files for this claim."
+- [x] No blue info alert appears
 
 ## Test Case 3: Claim card with both conditions shows single status tag (no stacked alerts)
 
@@ -48,9 +48,9 @@
 
 ### Intended Outcomes (flag disabled)
 
-- [ ] A red error alert appears: "We need you to resubmit files for this claim."
-- [ ] A blue info alert appears: "We requested more information from you: Check the claim details to learn more."
-- [ ] Both alerts are stacked
+- [x] A red error alert appears: "We need you to resubmit files for this claim."
+- [x] A blue info alert appears: "We requested more information from you: Check the claim details to learn more."
+- [x] Both alerts are stacked
 
 ## Test Case 4: Claim card without evidence requests or failed submissions shows no status tag
 
@@ -66,8 +66,8 @@
 
 ### Intended Outcomes (flag disabled)
 
-- [ ] No alerts appear on the card
-- [ ] The card shows only the standard info: title, received date, step, last updated, and "Details" link
+- [x] No alerts appear on the card
+- [x] The card shows only the standard info: title, received date, step, last updated, and "Details" link
 
 ## Test Case 5: Claim status intro text
 
@@ -82,7 +82,7 @@
 
 ### Intended Outcomes (flag disabled)
 
-- [ ] The intro text reads "Here's the latest information on your claim."
+- [x] The intro text reads "Here's the latest information on your claim."
 
 ## Test Case 6: "What you need to do" empty state with no open requests
 
@@ -99,8 +99,8 @@
 
 ### Intended Outcomes (flag disabled)
 
-- [ ] The "What you need to do" section shows: "There's nothing we need from you right now. We'll let you know when there's an update."
-- [ ] No va-additional-info dropdown appears below the message
+- [x] The "What you need to do" section shows: "There's nothing we need from you right now. We'll let you know when there's an update."
+- [x] No va-additional-info dropdown appears below the message
 
 ## Test Case 7: "What you need to do" empty state with documentsNeeded but no open requests
 
@@ -117,8 +117,8 @@
 
 ### Intended Outcomes (flag disabled)
 
-- [ ] The empty state message appears: "There's nothing we need from you right now. We'll let you know when there's an update."
-- [ ] No va-additional-info dropdown appears
+- [x] The empty state message appears: "There's nothing we need from you right now. We'll let you know when there's an update."
+- [x] No va-additional-info dropdown appears
 
 ## Test Case 8: "What you need to do" with failed submissions and documentsNeeded but no open requests
 
@@ -135,9 +135,9 @@
 
 ### Intended Outcomes (flag disabled)
 
-- [ ] The UploadType2ErrorAlert shows at the top of the "What you need to do" section (error about resubmitting files)
-- [ ] The empty state message ("There's nothing we need from you right now...") does NOT appear
-- [ ] No va-additional-info dropdown appears
+- [x] The UploadType2ErrorAlert shows at the top of the "What you need to do" section (error about resubmitting files)
+- [x] The empty state message ("There's nothing we need from you right now...") does NOT appear
+- [x] No va-additional-info dropdown appears
 
 ## Test Case 9: "What you need to do" with open evidence requests shows intro text
 
@@ -152,8 +152,8 @@
 
 ### Intended Outcomes (flag disabled)
 
-- [ ] FilesNeeded cards (yellow warning alerts) render directly below the "What you need to do" heading
-- [ ] No intro paragraph appears above the cards
+- [x] FilesNeeded cards (yellow warning alerts) render directly below the "What you need to do" heading
+- [x] No intro paragraph appears above the cards
 
 ## Test Case 10: Evidence request cards
 
@@ -171,12 +171,12 @@
 
 ### Intended Outcomes (flag disabled)
 
-- [ ] Each evidence request renders as a yellow va-alert with status="warning"
-- [ ] The alert contains a title (h4) with the request name (e.g. "Provide authorization to disclose information" or "Request for evidence")
-- [ ] A "Respond by [date]" paragraph appears below the title
-- [ ] A description appears below the date
-- [ ] An "About this request" link action appears at the bottom
-- [ ] Clicking the link navigates to the evidence request detail page without a full page reload
+- [x] Each evidence request renders as a yellow va-alert with status="warning"
+- [x] The alert contains a title (h4) with the request name (e.g. "Provide authorization to disclose information" or "Request for evidence")
+- [x] A "Respond by [date]" paragraph appears below the title
+- [x] A description appears below the date
+- [x] An "About this request" link action appears at the bottom
+- [x] Clicking the link navigates to the evidence request detail page without a full page reload
 
 ## Test Case 11: Recent Activity item labels and third-party request content
 
@@ -196,12 +196,12 @@
 
 ### Intended Outcomes (flag disabled)
 
-- [ ] Each "We made a request" item shows a blue va-alert (slim, info) with body text and an "About this notice" link
-- [ ] The item without enrichment fields (default message path) shows alert body: "You don't need to do anything. We asked someone outside VA for documents related to your claim."
-- [ ] The DBQ item (exam request path) shows alert body: "We've requested an exam related to your claim. The examiner's office will contact you to schedule this appointment."
-- [ ] The item with activityDescription (override message path) shows the activityDescription as the alert body: "We requested your proof of service on your behalf. No action is needed."
-- [ ] "We opened a request" items show "Request for you" as a plain text
-- [ ] Phase change items (e.g. "Your claim moved into...") show no label or alert
+- [x] Each "We made a request" item shows a blue va-alert (slim, info) with body text and an "About this notice" link
+- [x] The item without enrichment fields (default message path) shows alert body: "You don't need to do anything. We asked someone outside VA for documents related to your claim."
+- [x] The DBQ item (exam request path) shows alert body: "We've requested an exam related to your claim. The examiner's office will contact you to schedule this appointment."
+- [x] The item with activityDescription (override message path) shows the activityDescription as the alert body: "We requested your proof of service on your behalf. No action is needed."
+- [x] "We opened a request" items show "Request for you" as a plain text
+- [x] Phase change items (e.g. "Your claim moved into...") show no label or alert
 
 ## Test Case 12: Files tab with open evidence requests
 
@@ -217,11 +217,11 @@
 
 ### Intended Outcomes (flag disabled)
 
-- [ ] The "Claim files" intro text reads: "If you need to add evidence, you can do that here. You can also review the files associated with this claim."
-- [ ] Under the "Upload additional evidence" heading, 3 FilesNeeded cards (yellow warning alerts) appear for each open NEEDED_FROM_YOU item
-- [ ] FilesOptional cards (blue info alerts) appear for the NEEDED_FROM_OTHERS items
-- [ ] The upload form (file input + "Submit files for review" button) appears below the cards
-- [ ] No "Review your requests" warning alert appears
+- [x] The "Claim files" intro text reads: "If you need to add evidence, you can do that here. You can also review the files associated with this claim."
+- [x] Under the "Upload additional evidence" heading, 3 FilesNeeded cards (yellow warning alerts) appear for each open NEEDED_FROM_YOU item
+- [x] FilesOptional cards (blue info alerts) appear for the NEEDED_FROM_OTHERS items
+- [x] The upload form (file input + "Submit files for review" button) appears below the cards
+- [x] No "Review your requests" warning alert appears
 
 ## Test Case 13: Files tab without open evidence requests
 
@@ -238,9 +238,9 @@
 
 ### Intended Outcomes (flag disabled)
 
-- [ ] No FilesNeeded cards appear (none exist)
-- [ ] No FilesOptional cards appear (none exist)
-- [ ] The upload form appears directly under the "Upload additional evidence" heading
+- [x] No FilesNeeded cards appear (none exist)
+- [x] No FilesOptional cards appear (none exist)
+- [x] The upload form appears directly under the "Upload additional evidence" heading
 
 ## Test Case 14: Files tab with open requests and failed submissions
 
@@ -256,6 +256,6 @@
 
 ### Intended Outcomes (flag disabled)
 
-- [ ] The UploadType2ErrorAlert (red error alert about resubmitting files) appears at the top
-- [ ] Under the "Upload additional evidence" heading, 1 FilesNeeded card (yellow warning alert) appears
-- [ ] The upload form appears below the card
+- [x] The UploadType2ErrorAlert (red error alert about resubmitting files) appears at the top
+- [x] Under the "Upload additional evidence" heading, 1 FilesNeeded card (yellow warning alert) appears
+- [x] The upload form appears below the card
