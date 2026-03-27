@@ -129,12 +129,22 @@ body:
   - type: checkboxes
     id: next
     attributes:
-      label: ✅ Tasks
+      label: ✅ Submission tasks
       options:
         - label: Add ticket labels — Add the product's project and labels.
         - label: Save and submit — Save and submit this intake ticket.
         - label: Share on Slack — Start a new thread and post a link to this ticket in the
             mhv-accessibility Slack channel
+  - type: checkboxes
+    id: next
+    attributes:
+      label: ✅ Follow-up tasks
+      options:
+        - label: Follow up in Slack — Reply to submitter on Slack and confirm receipt.
+        - label: Refine ticket — Review and refine ticket.
+        - label: Define work — Follow up with submitter and other involved parties to define workstreams.
+        - label: Update ticket — Update ticket with workstream tasks and assign leads. 
+        - label: Create subtasks — Create tickets needed to perform work tasks and add as subtasks to this ticket. 
   - type: markdown
     attributes:
       value: |
