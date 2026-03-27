@@ -63,6 +63,10 @@ Updated the definition for balance:
 Use "balance" when you refer to the total amount owed for copay bills or overpayment debt.<p>
 **Like this:** Pay your full balance or request help by the due date on your collection letter or billing statement.
 
+#### [Readability and usability of VA digital content](https://design.va.gov/content-style-guide/readability-and-usability)
+
+Added this new page to the style guide. This page explains our approach to ensuring digital content is easy to find, understand, and use. And it explains our approach to readability scores.
+
 #### [Sign in and identity verification](https://design.va.gov/content-style-guide/specific-topics-and-programs/sign-in-and-identity-verification)
 
 - Added information on **ID.me** to the first **Considerations** bullet:
