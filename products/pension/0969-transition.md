@@ -91,7 +91,7 @@ These files capture the post-MVP designs, primarily with enhanced content as a c
 
 ### Next
 
-- [BPDS integration for 0969](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121601)- Simplifies backend processing. POI (Pension Optimization Initiative) automation process would be able to more efficiently automate processing of 0969 applications and veterans would receive their benefits faster.
+- [BPDS integration for 0969](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121601)- Simplifies backend processing. POI (Pension Optimization Initiative) automation process would be able to more efficiently automate processing of 0969 applications and veterans would receive their benefits faster. Status as of 3/27/26: test transactions provided to VBA/VBMS teams.  No known technical questions or issues, BPDS team directed business questions to P&F team on 3/26.
 
 #### Embedding the 0969 in the pension form
 
