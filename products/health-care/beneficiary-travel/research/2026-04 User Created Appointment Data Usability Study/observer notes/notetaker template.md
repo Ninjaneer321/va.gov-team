@@ -2,6 +2,7 @@
 
 **Notetaker name:**
 
+_Instructions: Make a copy of this file. Rename it with the participant number, the date, and the time. Add your name next to notetaker. Be sure to add .md at the end of your file name_
 ---
 
 ## Intro - 5 minutes
