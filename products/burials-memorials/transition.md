@@ -95,7 +95,7 @@ The online Burial application is available in the [production environment](https
 
  ### Next
 
-- [BPDS integration for 530](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121603)- Simplifies backend processing. POI (Pension Optimization Initiative) automation process would be able to more efficiently automate processing of 530 applications and veterans would receive their benefits faster.
+- [BPDS integration for 530](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121603)- Simplifies backend processing. POI (Pension Optimization Initiative) automation process would be able to more efficiently automate processing of 530 applications and veterans would receive their benefits faster. Status as of 3/27/26: Test transactions provided to VBA/BPDS team. Per 3/19 comment from Eric Henne of VBA, pausing to focus on SPA.
 
 ### Our team 2024/25 roster
 
