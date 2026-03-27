@@ -123,23 +123,23 @@ _Instructions: Make a copy of this file. Rename it with the participant number, 
 ### Appointment information page
 
 #### Facility selection
-**What would you do if you couldn't find your facility in this list?**
+* **What would you do if you couldn't find your facility in this list?**
 
 
 #### Appointment type
-**What do these "types" mean to you? Do you know which you would choose?**
+* **What do these "types" mean to you? Do you know which you would choose?**
 
 
 #### Appointment name
-**What would you put in this field?**
+* **What would you put in this field?**
 
 
 #### Did you attend your appointment?
-**Why do you think we're asking for this information?**
+* **Why do you think we're asking for this information?**
 
 
 #### Prior to submission
-**What do you think will happen once you continue?**
+* **What do you think will happen once you continue?**
 
 
 **What would happen if you left or went back a step? Would your information be saved?**
