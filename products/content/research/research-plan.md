@@ -46,7 +46,7 @@ recruitment:
   approach: "Stratified purposive sampling to ensure we include Veterans with different decision‑review needs and levels of experience, so we can hear a broad range of perspectives."
   
   primary_criteria:
-    - "[Must-have criterion 1]"
+    - "All participants must be Veterans who use VA health care"
     - "[Must-have criterion 2]"
     - "[Must-have criterion 3]"
     
@@ -59,9 +59,9 @@ recruitment:
       qualifying_response: "[Expected answer]"
       
 participants:
-  veterans: 6
-  caregivers: 2
-  dependents: 2
+  veterans: 10
+  caregivers: 0
+  dependents: 0
   total_recruited: 0
   completed_sessions_goal: 0
   
