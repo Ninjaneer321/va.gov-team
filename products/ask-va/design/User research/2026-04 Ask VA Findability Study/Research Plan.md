@@ -27,17 +27,17 @@ In this research we are specifically exploring Veteran submitters' input on how 
 * `Aging`  
 * `Dying`
 
-## Research Goals (IN PROGRESS)
+## Research Goals 
 
 ### Goals
 
-`1.` Understand Veteran and business users’ needs from the Ask VA form and inbox. 
+`1.` Better understand how Ask VA fits into a Veteran's mental model of VA support.
 
-`2.` Identify opportunities to simplify the form and inbox to better meet their needs. 
+`2.` Uncover how authentication impacts how a Veteran interacts with Ask VA and other support channels.
 
-`3.` Assess satisfaction and ease of use of the current Ask VA experience versus our exploratory prototype. 
+`3.` Identify opportunities to improve the experience from the start of a Veteran's issue until they are able to start the Ask VA form. (How they find Ask VA, how the text on our introduction page helps or hinders them, why they might leave or stay)
 
-### Outcome
+### Outcome (IN PROGRESS)
 
 ---
 
