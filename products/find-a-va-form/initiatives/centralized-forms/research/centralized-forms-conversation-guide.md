@@ -3,7 +3,7 @@ title: "Conversation Guide for Public Websites Team, Centralized Forms Discovery
 type: "Conversation Guide"
 study_date: "2026-03-01"
 authors:
-  - "Tina Ho (tina.ho@adhocteam.us)"
+  - "Tina Kambil"
 tags:
   - "AUD:Veterans"
   - "AUD:Family-members"
@@ -19,7 +19,7 @@ tags:
   - "DSP:Search-and-discovery"
   - "DSP:Form-submission"
   - "HDW:Desktop"
-  - "HDW:Smartphone"
+  - "HDW:Smartpne"
   - "VETJNY:Getting-out"
   - "VETJNY:Taking-care-of-themselves"
 team: "Public Websites - Search & Discovery Team"
