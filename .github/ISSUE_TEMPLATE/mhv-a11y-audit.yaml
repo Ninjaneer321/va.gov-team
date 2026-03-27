@@ -1,0 +1,77 @@
+---
+name: MHV Accessibility Audit Ticket
+description: Please use this form to provide accessibility conformance audit details
+title: "[MHV [Product] / Accessibility] Accessibility conformance audit [brief description]"
+labels:
+  - accessibility
+  - mhv-accessibility
+  - mhv-accessibility-conformance-testing
+assignees:
+  - steveg-IAT
+  - sarahhortonadhoc
+projects:
+  - department-of-veterans-affairs/1898
+type: task
+body:
+  - type: markdown
+    attributes:
+      value: "# MHV Accessibility Conformance Audit Ticket"
+  - type: markdown
+    attributes:
+      value: |
+        > [!TIP] 
+        > Use the following format for the ticket title — [MHV [Product
+        > Appts | MR | Meds | SM | Portal] / Accessibility] Accessibility conformance audit [brief description]
+  - type: markdown
+    attributes:
+      value: |
+        ## Request Description
+  - type: textarea
+    id: description
+    attributes:
+      label: 📝 Description
+      description: Provide a short summary of the conformance testing.
+  - type: textarea
+    id: background
+    attributes:
+      label: 📝 Background and context
+      description: Describe the background and context for the work, for example, problem statement, teams involved, approach, goals, and objectives, desired outcomes.
+  - type: markdown
+    attributes:
+      value: |
+        ## Audit Details
+  - type: textarea
+    id: credentials
+    attributes:
+      label: 🔐 Credentials
+      description: Provide a list of test users and link to password details.
+  - type: textarea
+    id: urls
+    attributes:
+      label: 📍 URLs
+      description: Provide the title and URL for each page included in the audit.
+  - type: textarea
+    id: outofscope
+    attributes:
+      label: 🛑 Out of scope
+      description: Provide a list of elements that are out of scope for the audit.
+  - type: input
+    id: auditor
+    attributes:
+      label: ✋ Auditor
+      description: Provide the name of the person conducting the audit.
+  - type: textarea
+    id: instructions
+    attributes:
+      label: 📝 Instructions
+      description: Provide relevant instructions for working through the tasks that are included in the audit.
+  - type: checkboxes
+    id: next
+    attributes:
+      label: ✅ Tasks
+      options:
+        - label: Add ticket labels — Update ticket information (assignee, labels, project(s), etc.).
+        - label: Prepare audit artifacts — Create test plan and prepare audit worksheet.
+        - label: Perform audit — Perform the audit and record the results in the audit worksheet.
+        - label: Report issues — Create defect tickets for accessibility issues using the [Issue Template](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=mhv-a11y-issue.yaml). Add as sub-issues to this ticket.
+        - label: Summarize common issues — Add a comment to this ticket summarizing common issues found in performing the audit.
