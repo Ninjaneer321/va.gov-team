@@ -52,6 +52,10 @@ recruitment:
     
   secondary_criteria:
     - "Minimum 3 are women"
+	- "Minimum 3 are over 55 years of age"
+	- "Minimum 3 are under 54 years of age"
+	- "Minimum 3 have a cognitive impairment"
+	- "Minimum 3 are women"
     
   screener_questions:
     - question: "[Screener question text]"
