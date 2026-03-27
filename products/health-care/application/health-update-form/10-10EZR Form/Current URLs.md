@@ -1,6 +1,6 @@
 ## 10-10EZR URLs
-- As of 12/23/25
-     - V2 Spouse launched 12/23/2025
+- As of 3/27/2026
+     - Service History pages added- **LAUNCH TBD** 
 
 ### Here is the current list of URLs for the 10-10EZR with conditional pages explained:
 
