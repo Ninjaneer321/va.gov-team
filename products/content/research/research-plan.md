@@ -51,7 +51,6 @@ recruitment:
     - "Veterans who have received a decision letter: 4-6 participants total"
     
   secondary_criteria:
-    - "Minimum 3 are women"
 	- "[Nice-to-have criterion 2]"
     
   screener_questions:
