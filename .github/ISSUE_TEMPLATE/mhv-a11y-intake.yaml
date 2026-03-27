@@ -127,7 +127,7 @@ body:
       value: |
         ## Next Steps
   - type: checkboxes
-    id: next
+    id: submissiontasks
     attributes:
       label: ✅ Submission tasks
       options:
@@ -136,7 +136,7 @@ body:
         - label: Share on Slack — Start a new thread and post a link to this ticket in the
             mhv-accessibility Slack channel
   - type: checkboxes
-    id: next
+    id: followuptasks
     attributes:
       label: ✅ Follow-up tasks
       options:
