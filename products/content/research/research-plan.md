@@ -51,7 +51,8 @@ recruitment:
     - "Veterans who have received a decision letter: 4-6 participants total"
     
   secondary_criteria:
-	- "[Nice-to-have criterion 1]"
+    - "[Nice-to-have criterion 1]"
+    - "[Nice-to-have criterion 2]"
     
   screener_questions:
     - question: "[Screener question text]"
