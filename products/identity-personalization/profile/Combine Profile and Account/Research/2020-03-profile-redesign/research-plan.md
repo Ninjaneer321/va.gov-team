@@ -117,6 +117,16 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/personalization%202.0/Combine%20Profile%20and%20Account/Research"
     
 tags:
+  - profile
+  - profile-redesign
+  - usability-testing
+  - authenticated-experience
+  - personalization
+  - contact-information
+  - personal-information
+  - navigation
+  - authenticated
+  - research-plan
   - "profile"
   - "account"
   - "authenticated-experience"

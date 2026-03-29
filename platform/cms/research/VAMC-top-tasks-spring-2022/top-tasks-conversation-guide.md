@@ -1,3 +1,27 @@
+---
+type: conversation_guide
+study_name: VAMC Top Tasks Beta Test
+team: VFS-CMS
+product: CMS - VAMC Top Tasks
+platform: CMS
+moderator: VFS-CMS team
+date: "2022-04"
+research_method: Beta testing with editors
+session_type: moderated_remote
+session_duration_minutes: 30
+number_of_participants: 5-8
+tags:
+  - CMS
+  - VAMC
+  - top-tasks
+  - beta-testing
+  - editor-experience
+  - medical-records
+  - billing-insurance
+  - register-for-care
+  - content-management
+---
+
 # Conversation Guide
 
 Top tasks beta test

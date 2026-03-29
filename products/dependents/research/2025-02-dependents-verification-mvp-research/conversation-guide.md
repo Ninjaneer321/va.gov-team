@@ -1,42 +1,24 @@
 ---
-title: "Conversation Guide for Dependent Management Team, Dependent Verification MVP, February 2025"
-author: "Dependent Management Team"
-date_created: "2025-02-01"
-last_modified: "2025-02-01"
-
-# NEW: Core research metadata
-team: "Dependent Management Team"
-portfolio: "benefits"
-product: "Dependent Verification MVP"
-research_phase: "usability"
-research_method: "usability_test"
-
-# NEW: Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans with claimed dependents on VA disability benefits who have received verification requests"
-
-# NEW: Related documents
-related_research_plan: "products/dependents/research/2025-02-dependents-verification-mvp-research/research-plan.md"
-related_prototype: "N/A"
-
+title: Conversation Guide for Benefits Dependents, Dependents Verification, 2025 02
+author: Ajia Wallace
+date_created: '2025-02-01'
+last_modified: '2025-02-01'
+team: Benefits Dependents
+portfolio: benefits
+product: Dependents Verification
+research_phase: usability
+research_method: usability_test
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: Veterans who need to verify dependents
+related_research_plan: products/dependents/research/2025-02-dependents-verification-mvp-research/research-plan.md
+related_prototype: N/A
 tags:
-  - "AUD-Veteran"
-  - "BNFT-Disability"
-  - "BNFT-Dependents"
-  - "PRDT-dependent-verification"
-  - "PRDT-686c"
-  - "PRDT-674"
-  - "PRDT-form-21-686c"
-  - "PRDT-form-21-674"
-  - "PRDT-form-21P-0538"
-  - "usability-testing"
-  - "DSP-form-flow"
-  - "email-notification"
-  - "paper-forms"
-description: "Foundational research and usability testing for dependent verification MVP, exploring Veterans' experiences managing dependents, understanding verification processes, and interacting with online and paper form flows."
-
-# NEW: Compliance flags
+- dependents
+- verification
+- usability-testing
+- MVP
+description: Usability testing of dependents verification MVP.
 recording_required: true
 observer_support: true
 consent_for_clips: true

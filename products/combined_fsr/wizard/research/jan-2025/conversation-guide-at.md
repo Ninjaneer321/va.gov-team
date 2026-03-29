@@ -1,40 +1,27 @@
 ---
-title: "Conversation Guide for Debt Resolution Team, Wizard Complete a Subtask Pattern, January 2025"
-author: "Charlotte Cesana"
-date_created: "2025-01-01"
-last_modified: "2025-01-01"
-
-# NEW: Core research metadata
-team: "Debt Resolution Team"
-portfolio: "benefits"
-product: "Combined FSR Wizard"
-research_phase: "usability"
-research_method: "usability_test"
-
-# NEW: Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans with assistive technology who have experience with VA debt or copays"
-
-# NEW: Related documents
-related_research_plan: "products/combined_fsr/wizard/research/jan-2025/research-plan.md"
-related_prototype: "https://n4hl2d.csb.app/"
-
+title: Conversation Guide for Debt Resolution, Financial Status Report (Form 5655)
+  Wizard, 2025 01
+author: Charlotte Cesana
+date_created: '2025-01-01'
+last_modified: '2025-01-01'
+team: Debt Resolution
+portfolio: benefits
+product: Financial Status Report (Form 5655) Wizard
+research_phase: usability
+research_method: usability_test
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: Veterans with VA debt using assistive technology (screen readers)
+related_research_plan: products/combined_fsr/wizard/research/jan-2025/research-plan.md
+related_prototype: N/A
 tags:
-  - "AUD-veterans"
-  - "PRDT-debt-resolution"
-  - "PRDT-fsr"
-  - "PRDT-medical-copays"
-  - "BNFT-health-care"
-  - "DSP-wizard"
-  - "DSP-form"
-  - "usability-testing"
-  - "assistive-technology"
-  - "accessibility"
-  - "screen-reader"
-description: "Usability and comprehension study of the wizard complete a subtask pattern for debt resolution with assistive technology users, testing navigation through VBA and VHA debt paths."
-
-# NEW: Compliance flags
+- FSR
+- '5655'
+- wizard
+- assistive-technology
+- accessibility
+- screen-reader
+description: Accessibility testing of FSR wizard with assistive technology users.
 recording_required: true
 observer_support: true
 consent_for_clips: true

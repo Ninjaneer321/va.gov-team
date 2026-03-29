@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for platform, platform, 2026-03-23"
+author: follow the
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "platform"
+portfolio: "Platform"
+product: "platform"
+research_phase: "Generative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VFS teams using collaboration cycle"
+
+# Related documents
+related_research_plan: "VSP Collaboration Cycle Research Plan"
+related_prototype: "N/A"
+
+tags:
+  - platform
+  - VSP
+  - collaboration-cycle
+  - discovery
+  - conversation-guide
+description: "Conversation guide for VSP collaboration cycle research"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide - Collab Cycle v1
 
 

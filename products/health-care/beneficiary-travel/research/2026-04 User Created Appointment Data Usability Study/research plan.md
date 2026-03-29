@@ -1,8 +1,8 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for Travel Pay Team, User Created Appointment Data, March/April 2026"
-date: 2026-03-18
-last_updated: 2026-03-18
+date: 2026-03-24
+last_updated: 2026-03-24
 team: "Travel Pay"
 product: "Travel Pay Reimbursement"
 product_area: "authenticated"
@@ -55,7 +55,20 @@ recruitment:
     - "All participants must have attended at least one VA or community care appointment in the past 12 months"
     
   secondary_criteria:
-    - "Not specified in plan"
+    - "Minimum 3 are women"
+    - "Minimum 3 are over 55 years of age"
+    - "Minimum 3 are under 54 years of age"
+    - "Minimum 3 have a cognitive impairment"
+    - "Minimum 3 live in rural areas"
+    - "Minimum 1 has no degree"
+    - "Minimum 4 have a terminal HS degree"
+    - "Minimum 2 have a terminal AS degree"
+    - "Minimum 2 have a terminal BS degree"
+    - "Minimum 1 have a terminal MS degree"
+    - "Minimum 2 are Black/African American"
+    - "Minimum 2 are Hispanic/Latino"
+    - "Minimum 1 is Asian"
+    - "Minimum 1 is Native American"
     
   screener_questions:
     - question: "Do you use VA healthcare (including community care)?"
@@ -66,23 +79,23 @@ recruitment:
       qualifying_response: "All options qualify"
       
 participants:
-  veterans: 15
+  veterans: 10
   caregivers: 0
   dependents: 0
   total_recruited: 15
-  completed_sessions_goal: 15
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
   pilot_date: "TBD"
   pilot_participant: "TBD"
-  research_dates: "TBD"
-  research_review_submission: "TBD - should be 8-9 days prior to first research session"
+  research_dates: "2026-03-31 to 2026-04-08"
+  research_review_submission: "2026-03-23 (8-9 days prior to first research session on 03/31)"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: "TBD"
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
@@ -115,9 +128,13 @@ tags:
   - "PRDT: Travel-pay"
   - "MHV: Appointments"
   - "DSP: Ask users for dates"
+  - "DSP: Ask users for files"
   - "DSP: Content Presentation"
   - "DSP: Help users to check answers"
+  - "DSP: Error Message Guide"
   - "DSC: Form"
+  - "DSC: Form - File Input"
+  - "Initiative: CX Executive Order"
   - "usability-testing"
   - "comparative-analysis"
   - "remote"
@@ -126,8 +143,8 @@ tags:
   - "community-care"
   - "appointment-data-entry"
   - "legacy-system-migration"
+  - "cognitive-disability"
 ---
-
 
 # Research Plan for Travel Pay User Created Appointment Data Usability Study - March/April 2026
 
@@ -136,7 +153,7 @@ tags:
 	
 `What problem is your product trying to solve?`
 
-Some medical appointments, such as community care and other unscheduled VA appointments like walk-ins or emergency visits, do not appear in a Veteran’s past appointment list. This means that Veterans cannot file for travel pay on VA.gov and are instead required to go to the legacy Beneficiary Travel Self-Service System (BTSSS) to enter their appointment info in order to input a user-created appointment as a starting point for their travel claim. 
+Some medical appointments, such as community care and other unscheduled VA appointments like walk-ins, do not appear in a Veteran’s past appointment list. This means that Veterans cannot file for travel pay on VA.gov and are instead required to go to the legacy Beneficiary Travel Self-Service System (BTSSS) to enter their appointment info in order to input a user-created appointment as a starting point for their travel claim. 
 
 We need to enable Veterans to file travel reimbursement claims on VA.gov for appointments that don’t appear in their appointments list, consolidating more travel pay functionality on VA.gov and reducing reliance on BTSSS. Our goal is to create a complete, self-contained travel reimbursement claim experience on VA.gov.
   
@@ -228,19 +245,17 @@ Validate related community care work, which is a primary use case for this new f
 
 ### Research questions
 
-**`1.`Where do Veterans expect to start when filing a travel claim for an appointment that doesn't appear in their list?**    
+**`1.`Where do Veterans expect to start when filing a travel claim for an appointment that doesn't appear in their list?**     
 
-**`2.`How do Veterans perceive and distinguish user-generated appointments from system-generated appointments?**   
+**`2.`How do Veterans remember or keep track of the information they need to enter for missing appointments?**   
 
-**`3.`How do Veterans remember or keep track of the information they need to enter for missing appointments?**   
+**`3.`Do Veterans understand that once they enter appointment data, they cannot edit it?**   
 
-**`4.`Do Veterans understand that once they enter appointment data, they cannot edit it?**   
+**`4.`Do Veterans expect VA to tell them if they enter data about an appointment that already exists?**   
 
-**`5.`Do Veterans expect VA to tell them if they enter data about an appointment that already exists?**   
+**`5.`Can Veterans successfully create an appointment and file a travel claim using user-entered data?**   
 
-**`6.`Can Veterans successfully create an appointment and file a travel claim using user-entered data?**   
-
-**`7.`Do Veterans expect their appointment to be displayed in their list of appointments?**   
+**`6.`Do Veterans expect their appointment to be displayed in their list of appointments?**   
 
 
 ### Hypotheses
@@ -248,16 +263,17 @@ Validate related community care work, which is a primary use case for this new f
 `What do you intend to learn and measure from this study?` 
 * We will measure entry-point preference, by comparing the number of people who choose to create their appointment on the past appointment list to those who prefer to create their appointment from the travel claims list.
 * We will measure task completion, by the number of people who are able to successfully complete the flow to create an appointment and then file the corresponding claim.
-* <mark>Working note: Possibly add portion about learning about perceptions</mark>
+* We want to gather qualitatitive feedback about the flow to determine usability and navigability. 
 
 `What do you already know about this problem space?`
 * Veterans are more familiar with creating claims from their past appointment list, as that is the current pattern.   
 * Veterans will have preconceived ideas about how the process should function, depending on their familiarity with BTSSS, the VA Health and Benefits app (VAHB), and simple mileage only claims (SMOC).    
  
 `What do you think users will do or think about this product?`   
-* We assume that Veterans will be able to successfully create claims from either entry point and will not have a definitive preference, although they may find creating claims from the past appointment list is more familiar. We also expect that when starting from the past appointments list, they will expect the appointment to be added to this list.   
+* We assume that Veterans will be able to successfully create claims from either entry point and will not have a definitive preference, although they may find creating claims from the past appointment list is more familiar. We also expect that when starting from the past appointments list, they will expect the appointment to be added to this list.
+* We expect Veterans will successfully complete the form fields, but may question the purpose of certain fields (i.e. appointment name, type).
+* We expect participants think they can access their claim with user-generated appointment information from the past appointments list.   
 * We think that while Veterans may be slightly confused by their user generated appointments not appearing in the past appointments list, they will be able to easily identify the claims associated with those appointments in their claims list. However, we recognize there is a risk of duplicate claims due to the separate views.
-* <mark>Working note: Do we think users will be able to navigate back to their claim? Should we add something about that in this study?</mark>
 
 ---
 **Hypothesis**   
@@ -270,7 +286,7 @@ We anticipate that Veterans will be able to successfully enter the required appo
   
 ## Methodology  🛠️   
 <details>
-We will conduct **moderated usability testing sessions with 10-12 Veterans using a clickable Figma prototype**. This study will be a hybrid study. The first part will evaluate participants’ mental models around where they expect to create an appointment, then we’ll move into a usability test of the user-created appointment data screens. Finally, we will show the participants the alternate entry-point option and ask questions for a comparative analysis.
+We will conduct moderated usability testing sessions with 10-12 Veterans using a clickable Figma prototype. This study will be a hybrid study. The first part will evaluate participants’ mental models around where they expect to create an appointment, then we’ll move into a usability test of the user-created appointment data screens. Finally, we will show the participants the alternate entry-point option and ask questions for a comparative analysis.
 
 ### Structure      
 
@@ -286,7 +302,7 @@ Once the participant has reached an entry point, we will observe them as they co
 **Alternate entry-point evaluation (5-8 minutes)**
 After completing the flow from the self-selected entry point, we’ll guide participants to the alternative entry point. We’ll ask them to evaluate whether this path feels natural and whether it conflicts with their mental model of where travel claims functionality lives on the site.
 
-**4a. Comparative entry point assessment (5-8 minutes**
+**4a. Comparative entry point assessment (Optional, if time permits, 5-8 minutes)**
 Time permitting, we will also show participants the static mock ups of both entry points side-by-side and ask what works well or doesn’t work well for each page. This will help us distinguish between preferences for navigation path versus preferences for the content, call to action placement, and messaging on each page itself.
 
 **Wrap up (3 minutes)**
@@ -302,8 +318,8 @@ We’ll wrap up with some closing questions and allow the participants time to e
 ## Research materials 📔
 
 **For moderated usability tests:** 
-- [Link to conversation guide](url goes here)
-- [Link to prototype](url goes here)
+- [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/research/2026-04%20User%20Created%20Appointment%20Data%20Usability%20Study/conversation%20guide.md)
+- [Link to prototype](https://www.figma.com/proto/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?node-id=16385-16517&viewport=429%2C8%2C0.19&t=Xw9GVznjZZiIbnsy-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=16385%3A16517&show-proto-sidebar=1&page-id=16385%3A16515)
 
 ## Recruitment 🎯	
 We will work with Perigean to recruit participants for this study.   
@@ -316,13 +332,14 @@ We will work with Perigean to recruit participants for this study.
 - `Caregivers:` **0**
 - `Dependents:` **0**
 - `Total:` **15**
-- `Ideal completed sessions:` **15**
+- `Ideal completed sessions:` **10**
 
 ### Primary criteria (must-haves)
 *What demographics, experience, and scenarios do you need participants to meet to effectively run your study?* 
+We are recruiting for 15 Veterans, with a total of 10 completed sessions. 
 
 - `Veterans who use VA health care`   
-- `Veterans who have only attended VA appointment(s)   
+- `Veterans who have only attended VA appointment(s)`
   * Those who have filed for travel pay: 2-3 participants   
   * Those who have not filed for travel pay: 2-3 participants   
   * Veterans who have only attended community care appointment(s)   
@@ -330,10 +347,26 @@ We will work with Perigean to recruit participants for this study.
   * Those who have not filed for travel pay: 2-3 participants   
   * Veterans who have attended both VA appointments or community care appointment(s)   
   * Those who have filed for travel pay for both VA or community care appointments: 2-3 participants   
-  * Those who have not filed for travel pay for VA or community care appointments: 2-3 participants`   
+  * Those who have not filed for travel pay for VA or community care appointments: 2-3 participants`
+
 
 #### Secondary criteria (nice-to-haves)
 *What criteria would strengthen your results?* 
+
+- `Minimum 3 are women`
+- `Minimum 3 are over 55 years of age`
+- `Minimum 3 are under 54 years of age`
+- `Minimum 3 have a cognitive impairment`
+- `Minimum 3 live in rural areas`
+- `Minimum 1 has no degree`
+- `Minimum 4 have a terminal HS degree`
+- `Minimum 2 have a terminal AS degree`
+- `Minimum 2 have a terminal BS degree`
+- `Minimum 1 have a terminal MS degree`
+- `Minimum 2 are Black/African American`
+- `Minimum 2 are Hispanic/Latino`
+- `Minimum 1 is Asian`
+- `Minimum 1 is Native American`
 
 
 ## Screener Questions 📋
@@ -348,7 +381,7 @@ We will work with Perigean to recruit participants for this study.
 
 **`1.` Do you use VA healthcare (including community care)?**
 - _Qualifying response: Yes._   
-- _Disqualitfying response: If no, participant is ineligible for this study._   
+- _Disqualifying response: If no, participant is ineligible for this study._   
 
 **`2.` In the past 12 months, have you attended any of the following types of appointments? [single select/radio button field]**  
 
@@ -375,27 +408,27 @@ We will work with Perigean to recruit participants for this study.
 
 ### Optional Kick-off Call with Perigean
 
-- `Suggested dates and times:` **[Enter dates and times MM/DD HH:MM]**
+- `Suggested dates and times:`
+03/26 10 AM to 4 PM EST
+03/27 10 AM to 4 PM EST
 
 ### Prepare
 *When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).*
 
-**A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.** 
-> [!NOTE]
-> **Send pilot participant email in study Slack channel**
+**A pilot session is required** We would like to request a pilot participant scheduled by Perigean.
 
-- `Pilot participant name:` **[Enter name]**
-- `Date and time of pilot session:` **[Enter time]** 
+- `Pilot participant name:` **TBD**
+- `Date and time of pilot session:` **TBD** 
 
 ### Research sessions
-- `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
+- `Planned dates of research:` **03/31-04/09**
 
 ### Length of sessions
-- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **[Enter time length]**
+- `Session length: 1 hour.
   
-- `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **[Enter buffer time]**
+- `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)`: 30 minutes.
   
-- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **[Enter NUM per day]**
+- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **3**
 
 ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
@@ -408,12 +441,14 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 >
 > **Place time slots between `hash marks` when in edit mode.**
 
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `Add more slots as needed`
+- `[03/31, Tuesday, 9 AM to 5 PM EST`
+- `[04/01, Wednesday, 9 AM to 5 PM EST`
+- `[04/02, Thursday, 9 AM to 5 PM EST`
+- `[04/06, Monday, 9 AM to 5 PM EST`
+- `[04/07, Tuesday, 9 AM to 5 PM EST`
+- `[04/08, Wednesday, 9 AM to 5 PM EST`
+- `[04/09, Thursday, 9 AM to 5 PM EST`
+- We can add additional slots the week of 04/06 as needed
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
@@ -425,8 +460,10 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 - `Note-takers:` **Kristen Faiferlick and Liza McRuer**	
 - `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 5 to 6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.`
 
+**Observer names TBD; will create sign-up sheet once we have confirmed sessions**
 - **[Enter full name]**
 - **[Enter full name]**
 - **[Enter full name]**
 
 ## Approvals ✅
+- Kristen McConnell, OCTO Design/Research Lead, 3/24/2026

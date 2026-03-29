@@ -94,6 +94,17 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/preferred-facility/README.md"
     
 tags:
+  - profile
+  - preferred-facilities
+  - health-facilities
+  - VAOS
+  - usability-testing
+  - authenticated-experience
+  - online-scheduling
+  - appointments
+  - registration
+  - authenticated
+  - research-plan
   - "AUD: Veterans"
   - "PRDT: Profile"
   - "PRDT: VAOS"

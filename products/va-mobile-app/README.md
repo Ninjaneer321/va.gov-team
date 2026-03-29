@@ -8,46 +8,11 @@ Nearly 40% of all traffic to VA.gov comes from users on their mobile devices. Th
 The resources in this repo are for members of the Mobile App and Platform (MAP) Team.  If you are a member of an Experience Team building a feature on the Mobile Platform, please use the [Mobile DocSite](https://department-of-veterans-affairs.github.io/va-mobile-app/) for reference.
 
 ## Team
+[View information about our team](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams/digital-experience/mobile-app-and-platform)
 
-[View information about specific teams](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/Teams)
-
-### VA Product Owners
-
-- Ryan Thurlwell (App)
-- Michelle Middaugh (Platform)
-
-### Product
-
-- Becca Tupaj - Product Lead
-- Brenda Rocha - Product Manager
-- Kelly Lein - Product Manager
-
-### Design
-
-- Jonathan David Post - Designer
-- Theresa Wang - Researcher
-- Maria Kravetz - Designer
-- Courtney Schubert - Designer
-
-### Engineering
-
-- Jon Bindbeutel - Engineering Lead
-- Narin Ratana - Engineer
-- John Marchi - Engineer
-- Matt Sweeney - Engineer
-- Regina Donovan - Engineer
-- Adryien Hayes - Engineer
-- Ryan McNeil - Backend Engineer
-- Silvio Luthi - Backend Engineer
-- Catalina Espinoza - Backend Engineer
-- Eli Mellen - QA Lead
-- Ken Harrison - Engineer, QA
-- Sam Kaplan - Engineer, QA
-- Josh Bergman - Engineer, Dev Ops
 
 ## Communications
 - DSVA Slack: #va-mobile-app
-
 
 
 ## Release Cycle

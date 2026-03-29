@@ -1,7 +1,140 @@
+---
+title: "Discover Your Benefits Prototype V3 Research Findings"
+product: "Discover Your Benefits"
+team: "Vet Transition Support"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2026-02-01"
+researchers:
+  - "Anna Higgins"
+research_goals:
+  - "Evaluate if design changes help users discover, explore, and understand relevant benefits"
+  - "Test usability and accessibility of redesigned filters, sorting, and benefit cards"
+  - "Assess comprehension of time sensitivity, recommendation status, and eligibility framing"
+  - "Compare radio button vs checkbox for filter toggles"
+methodology:
+  - "Moderated usability testing with clickable prototype via Codespaces"
+  - "A/B testing of radio button vs checkbox filter prototypes"
+devices_used:
+  desktop: 9
+  tablet: 0
+  smartphone: 2
+  assistive_technology: 2
+participants_total: 11
+demographics:
+  veterans: 11
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 8
+    "35-44": 1
+    "45-54": 1
+    "55-64": 0
+    "65+": 1
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 2
+    associates: 1
+    bachelors: 3
+    masters: 4
+    doctorate: 0
+    unknown: 1
+  location:
+    urban: 8
+    rural: 3
+    unknown: 0
+  race:
+    white: 4
+    black: 2
+    hispanic: 1
+    biracial: 2
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 10
+    AT_beginner: 0
+    AT_advanced: 2
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 2
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+  gender:
+    male: 6
+    female: 4
+  lgbtq:
+    transgender: 0
+    nonbinary_or_other: 0
+    gay_lesbian_bisexual: 0
+key_findings:
+  - "Radio button is more successful than checkbox at supporting users in understanding and exploring the results page"
+  - "Some separated Veterans were confused by Expiration Date as default sort"
+  - "Results page redesign significantly improved usability (4.3/5 rating)"
+  - "Filter placement is a barrier for mobile and screen magnification users"
+  - "Users validate Learn More on benefit cards rather than direct Apply links"
+  - "Users expressed strong desire for more prominent dependent and family benefit information"
+  - "Study strengthened previous findings about wanting to save and return to results"
+recommendations:
+  - "Use checkbox for launch, revisit radio button post-launch"
+  - "Use questionnaire logic to create different default sort for established Veterans"
+  - "Launch the redesigned results page"
+  - "Continue work on accessibility for Blind and low vision users"
+  - "Use Learn More for links with descriptive content for WCAG compliance"
+  - "Explore strategy for surfacing dependent benefits"
+  - "Continue exploring authenticated experience for save and return"
+kpi_alignment:
+  - "Increase successful discovery of unknown benefits"
+  - "Improve usability scores among assistive technology users"
+outcomes:
+  user: "Veterans can intuitively discover and understand benefits relevant to their current life stage without feeling overwhelmed"
+  business: "Validated centralized discovery pipeline that reduces reliance on external search engines and drives higher application rates for underutilized programs"
+opportunity_areas:
+  - "Differentiated sort experiences based on time since separation"
+  - "Dependent and family benefit surfacing strategy"
+  - "Authenticated experience for saving and returning to results"
+  - "Accessibility improvements for screen magnification and mobile users"
+further_research_needed:
+  - "How active-duty service members in TAP would interact with Expiration Date sorting"
+  - "Testing with users experiencing cognitive or high-stress loads for crisis/unhoused resources"
+underserved_groups_missing:
+  - "Individuals utilizing Speech Input Technology"
+  - "Caregivers and Dependents"
+secondary_research: []
+synthesis_tools_used:
+  - "Spreadsheet Synthesis"
+  - "Transcription analysis"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Healthcare"
+  - "PRDT: Discover-Your-Benefits"
+  - "DSP: Content Presentation"
+  - "DSP: Show more options"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "A/B-testing"
+  - "evaluative"
+  - "Accessibility"
+---
+
 # Discover Your Benefits Prototype V3 Research Findings
-**Office of the CTO - Digital Experience (OCTO-DE), Discover Your Benefits**
-**Date:** 01/26/2025
+
+**Office of the CTO - Digital Experience (OCTO-DE), Discover Your Benefits, Vet Transition Support**
+
+**Date:** 02/2026
+
 **Contacts:** Anna Higgins
+
+**[Research Readout](link-here)**
+*Research readout to be added upon completion.*
 
 **Jump to:**
 - [Hypotheses and conclusions](#user-content-hypotheses-and-conclusions)
@@ -16,10 +149,10 @@
 
 ## Research Goals
 The [Discover Your Benefits tool](https://www.va.gov/discover-your-benefits/introduction) aims to consolidate complex VA benefit information into an intuitive, personalized discovery experience for Veterans and transitioning service members. The goals of this study were to evaluate Version 3 of the unauthenticated prototype, specifically testing:
-- If design changes help users accomplish their goals of discovering, exploring, and understanding relevant benefits.
-- The usability and accessibility of redesigned filters, sorting mechanisms, and benefit cards.
-- Comprehension of time sensitivity, recommendation status, and eligibility framing.
-- Usability differences between radio buttons and checkboxes for filter toggles.
+1. If design changes help users accomplish their goals of discovering, exploring, and understanding relevant benefits.
+2. The usability and accessibility of redesigned filters, sorting mechanisms, and benefit cards.
+3. Comprehension of time sensitivity, recommendation status, and eligibility framing.
+4. Usability differences between radio buttons and checkboxes for filter toggles.
 
 ## Research Questions
 * Do the design changes make users better able to accomplish their goals of discovering, exploring, and understanding benefits?
@@ -83,16 +216,18 @@ While some users initially looked for an "Apply" button, they ultimately validat
 * More participants found the radio button without prompting
 * However, it creates an expectation that the filter will be applied immediately, and some users missed the “Apply Filters” button.
 
-| Outcome | Radio button | Check box |
-| :---: | :---: | :---: |
-| Users **find** the option to filter by recommended benefits vs all benefits | 4 of 6 users found it independently 2 of 6 users found it when prompted No users could not find when prompted | 1 of 5 users found it independently 3 of 5 users found it when prompted 1 user could not find when prompted |
-| Users **understand** that they are able to see all benefits, not only the ones recommended to them | 5 of 6 users understood the function | 3 of 5 users understood the function |
-| Users successfully **apply** the filter | 4 of 6 applied the filters smoothly (2 missed the “Apply filters” button) | 4 of 5 applied the filters smoothly  |
+|                                              Outcome                                               |                                                 Radio button                                                  |                                                  Check box                                                  |
+| :------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: |
+|            Users **find** the option to filter by recommended benefits vs all benefits             | 4 of 6 users found it independently 2 of 6 users found it when prompted No users could not find when prompted | 1 of 5 users found it independently 3 of 5 users found it when prompted 1 user could not find when prompted |
+| Users **understand** that they are able to see all benefits, not only the ones recommended to them |                                     5 of 6 users understood the function                                      |                                    3 of 5 users understood the function                                     |
+|                              Users successfully **apply** the filter                               |                   4 of 6 applied the filters smoothly (2 missed the “Apply filters” button)                   |                                     4 of 5 applied the filters smoothly                                     |
 
 For users who do not wish to filter results, the improved clarity of the radio button enables them to understand that they are seeing results tailored to their answers to the questionnaire.
-Making the filter more easily findable supports users who do not want to use it by giving them the choice, and by making it clear that they are seeing results tailored to them
-*In this study and our previous study, many participants, particularly those with disabilities, wanted to keep their experience simple
-"I would keep [recommended benefits] checked for me personally. Because I don't want to see extra information... extra information that's not tailored to me, because then it's overwhelming" (P16)
+Making the filter more easily findable supports users who do not want to use it by giving them the choice, and by making it clear that they are seeing results tailored to them.
+
+_Supporting data:_ In this study and our previous study, many participants, particularly those with disabilities, wanted to keep their experience simple.
+
+> "I would keep [recommended benefits] checked for me personally. Because I don't want to see extra information... extra information that's not tailored to me, because then it's overwhelming" — P16
 
 ### 2. Default sorting by "Expiration Date" causes confusion for separated Veterans
 Participants who had been separated from the military for several years did not understand why their benefits were sorted by an "Expiration Date," as benefits like disability compensation do not expire for them.
@@ -113,11 +248,17 @@ The tool successfully drives the discovery of new, unknown benefits. All but 2 p
 - *Supporting data:* Participant 16, a veteran mentor, said she would refer other veterans to the tool because it consolidates information she didn't know about previously
 
 #### Participant quotes
-- “I didn't even know about some of these things. And I worked… I even worked at the Veterans' office at my school. And I had no idea some of these things are out there." – P4
-- "Oh, without a doubt, a 5. Very easy to use. Very user-friendly. I like the fact that it has multiple things that you can use to filter out certain things... It seems like you guys put a lot of thought and consideration into some of the different, benefits that you guys are putting on there." –P5
-- "I want VA to know, like, I'm glad they're moving in a better direction. Everything is getting centralized. I would have loved this page. Like, it's way better than what we had before. Especially if all the benefits is on one page." –P6
-- "It's so handy, and it's way better than having the 8,000 little pamphlets and flyers that we ended up with." –P18
-- "I really like the language around this. Like, what goals do you want to accomplish? It sounds collaborative." “I'm literally sending it to my friend now." –P9
+
+> “I didn't even know about some of these things. And I worked… I even worked at the Veterans' office at my school. And I had no idea some of these things are out there." – P4
+
+> "Oh, without a doubt, a 5. Very easy to use. Very user-friendly. I like the fact that it has multiple things that you can use to filter out certain things... It seems like you guys put a lot of thought and consideration into some of the different, benefits that you guys are putting on there." –P5
+
+> "I want VA to know, like, I'm glad they're moving in a better direction. Everything is getting centralized. I would have loved this page. Like, it's way better than what we had before. Especially if all the benefits is on one page." –P6
+
+> "It's so handy, and it's way better than having the 8,000 little pamphlets and flyers that we ended up with." –P18
+
+> "I really like the language around this. Like, what goals do you want to accomplish? It sounds collaborative." “I'm literally sending it to my friend now." –P9
+
 
 ### 4. Significant accessibility barriers remain for screen magnification users
 * Filter placement is a barrier to mobile and screen magnification users finding the main benefit content of the page and impacted their ability to explore benefits  
@@ -144,27 +285,29 @@ While some users initially looked for an "Apply" button, they ultimately validat
 
 ## Recommendations
 
-1. **While radio button is more usable than checkbox, we are going with the checkbox for now:**
-- In the interest of releasing the new results page within a timeframe that better suits the pilot timeline, we’re going to leverage the existing design system component configuration and use the checkbox.
-- Revisit the radio button configuration post launch in partnership with other teams who may also have use of the radio button configuration.
+1. **While radio button is more usable than checkbox, we are going with the checkbox for now**
+   - _Supports Finding 1._ In the interest of releasing the new results page within a timeframe that better suits the pilot timeline, we're going to leverage the existing design system component configuration and use the checkbox.
+   - Revisit the radio button configuration post launch in partnership with other teams who may also have use of the radio button configuration.
 
-2. **Use logic in the questionnaire to create a different default sort for established Veterans.**
-- Established Veterans need a different results page experience that does not imply urgency for benefits that do not change. This finding aligns with finding on the next page about using language about transition.
+2. **Use logic in the questionnaire to create a different default sort for established Veterans**
+   - _Supports Finding 2._ Established Veterans need a different results page experience that does not imply urgency for benefits that do not change. This finding aligns with finding on the next page about using language about transition.
 
 3. **Launch the redesigned results page**
-- New filters, content, and introductory content provide a big usability improvement over the experience currently in production.
+   - _Supports Finding 3._ New filters, content, and introductory content provide a big usability improvement over the experience currently in production.
 
 4. **Continue work on accessibility for Blind and low vision users**
-- Auto-collapsing the filter bar will eliminate some usability issues as well as creating a better experience for mobile users. A fix for this issue is in progress.
-- Conduct an additional audit after launch
+   - _Supports Finding 4._ Auto-collapsing the filter bar will eliminate some usability issues as well as creating a better experience for mobile users. A fix for this issue is in progress.
+   - Conduct an additional audit after launch.
 
-5. **Use “Learn More” for links**
-- Continue using “Learn More” for links to benefit content. 
-- Add descriptive content to the link tag for WCAG compliance. 
+5. **Use "Learn More" for links**
+   - _Supports Finding 5._ Continue using "Learn More" for links to benefit content. 
+   - Add descriptive content to the link tag for WCAG compliance.
 
-6. **Explore a strategy for surfacing dependent benefits to Veterans without scope creep for additional user types.**
+6. **Explore a strategy for surfacing dependent benefits to Veterans without scope creep for additional user types**
+   - _Supports Finding 6._
 
-7. **Continue exploring an authenticated experience for this product to support users who want to save and return to results.**
+7. **Continue exploring an authenticated experience for this product to support users who want to save and return to results**
+   - _Supports Finding 7._
 
 ## Product User and Business Outcomes
 
@@ -195,10 +338,10 @@ This research highlights critical failure points for this KPI. By identifying bl
 ## Appendix
 
 ### Research documents
-- [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/vet-transition-support/results-page-2.0/research/results-page-2.0-usability-study/session-notes)
-- [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vet-transition-support/results-page-2.0/research/results-page-2.0-usability-study/results-page-2.0-conversation-guide.md)
+- [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/vet-transition-support/results-page-2.0/README.md)
+- [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vet-transition-support/results-page-2.0/research/results-page-2.0-usability-study/results-page-2.0-research-plan.md)
 - [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vet-transition-support/results-page-2.0/research/results-page-2.0-usability-study/results-page-2.0-conversation-guide.md)
-- [Interview transcripts](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/vet-transition-support/results-page-2.0/research/results-page-2.0-usability-study/session-notes)
+- [Session notes](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/vet-transition-support/results-page-2.0/research/results-page-2.0-usability-study/session-notes)
 
 ### Tools used for Synthesis
 - Spreadsheet Synthesis
@@ -224,10 +367,9 @@ Audience segment:
 Gender:
 * Male: 6
 * Female: 4
-* LGBTQ+: (Not explicitly tracked in provided data, defaulting to 0)
 * Transgender: 0
-* Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: Unknown
-* Gay, lesbian, or bisexual: 0
+* Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: 0
+* Gay, lesbian, or bisexual: 0 (unknown, did not ask)
 * Prefer not to answer: 1
 
 Devices used during study:
@@ -283,4 +425,7 @@ Disability and Assistive Technology (AT):
 This research does not include the perspectives of the following marginalized Veteran groups:
 * Individuals utilizing Speech Input Technology
 * Caregivers and Dependents
-```
+* Asian Veterans
+* Native American Veterans
+* Veterans 55-64 age range
+* Veterans with high school education or less

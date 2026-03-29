@@ -1,109 +1,118 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience Design Patterns, Update Prefill Pattern, November 2024"
+date: 2024-10-29
+last_updated: 2024-10-29
+team: "Authenticated Experience Design Patterns (AEDP)"
+product: "Update Prefilled Information Pattern"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Many applications on VA.gov prefill existing information from user profiles upon sign in, but implementations vary in how they guide users to update their prefilled information. The team needs to test how users expect VA forms to instruct and guide them on updating their prefilled information for more consistent implementation guidance."
+  product_location: "Forms and digital products across authenticated VA.gov experience"
+  user_familiarity: "Follow-up study building on previous prefill research from July 2024"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/authenticated-patterns/patterns/update-prefilled-information"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing with scenario-based concept tests using think-aloud format"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
   moderated: true # Options: true, false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand the format that users expect to see prefilled information (review style versus gray or white cards)"
+  - goal_2: "Understand which language users prefer about where their data is saved and if users want to be able to select where they save their information"
+  - goal_3: "Understand which language users prefer about where/how to update uneditable information and if users want to see uneditable data on their review screen"
+  - goal_4: "Understand if having data prefilled incentivizes users to login and if users prefer headers in the prefill alert"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What do each of the 3 display options (review style versus gray or white card) communicate to users?"
+  - "Does the alert on the unauthenticated form intro page entice users to login?"
+  - "Does including a header in the alert or bolding where the updates will save impact perception or comprehension?"
+  - "Where do they think the new information gets saved (profile versus form)?"
+  - "Would they ever want to choose where this information gets saved?"
+  - "How do they feel about the ability to edit some data but not others?"
+  - "Do users expect to see uneditable prefill data on the review page?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The gray and white card combination will be the preferred style of reviewing prefilled information"
+  - "Users will want to save updates made to their profile, but will appreciate the choice"
+  - "Clarifying how to edit uneditable data will make users feel confident in knowing how to do so"
+  - "Users won't want to see uneditable prefill data on the review page"
+  - "The unauthenticated prefill alert will entice users to sign in to complete their form"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Research will inform decisions around two patterns: Help users to know when their information is prefilled and Help users to update prefilled information. This will help refine these patterns and present recommendations when submitting them to VADS and USWDS."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum strategy for inclusivity, targeting 3 demographic criteria (age, race, AT users) as primary sample distribution criteria"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Cohort 1: 7 Veterans (non-AT users), at least 4 willing to join from mobile device"
+    - "Cohort 2: 2 Veterans who use screen readers (NVDA, JAWS, VoiceOver, TalkBack) daily for 2+ years"
+    - "Cohort 3: 2 Veterans who use screen magnification (ZoomText, Magnifier, Zoom) and always use it on VA.gov"
+    - "At least 4 Veterans over 55 years old (across all cohorts)"
+    - "At least 3 Veterans who identify as a race other than white (across all cohorts)"
+    - "At least 2 Veterans who identify as a gender other than male (across all cohorts)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Demographic diversity across age, race, and gender within each cohort"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you able to join the Zoom session from a smartphone such as a Samsung Galaxy or iPhone?"
+      qualifying_response: "Yes for non-AT cohort"
+    - question: "Do you need to use a screen reader to access websites or applications?"
+      qualifying_response: "Yes for screen reader cohort"
+    - question: "Do you consistently need to resize fonts or use a magnification setting to see your screen?"
+      qualifying_response: "Yes for magnification cohort"
       
 participants:
-  veterans: 0
+  veterans: 11
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-11-05"
+  pilot_participant: "Beth Pandone (non-AT session on Nov 5), Jamie Klensetsky Fay (AT session on Nov 6)"
+  research_dates: "2024-11-08 to 2024-11-20"
+  research_review_submission: "2024-10-29"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "OCTO Objective 3: Our people are empowered with the knowledge and resources they need to make a sustained impact"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Refined design pattern guidance for updating prefilled information across VA.gov forms"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Full life cycle of the Veteran - pattern applicable throughout entire journey"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/authenticated-patterns/Design%20and%20Research/2024-07-Research%20Initiative-One-Prefill"
+    - "https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1722538218743/e8a34db6e16086f9122fd2e0927edf5607bfa273"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "authenticated-patterns"
+  - "usability-testing"
+  - "update-prefill"
+  - "design-patterns"
+  - "accessibility"
 ---
 
 # Research Plan for AEDP Update Prefill Study

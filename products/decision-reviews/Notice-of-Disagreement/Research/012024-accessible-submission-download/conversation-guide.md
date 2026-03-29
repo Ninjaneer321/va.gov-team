@@ -1,47 +1,30 @@
 ---
-title: "Conversation Guide for Decision Reviews Team, Accessible Submission Download, February 2024"
-author: "Eileen Chi, Ruben Sun"
-date_created: "2024-01-15"
-last_modified: "2026-02-11"
-
-# NEW: Core research metadata
-team: "Decision Reviews Team"
-portfolio: "benefits"
-product: "Notice of Disagreement (VA Form 10182)"
-research_phase: "evaluative"
-research_method: "usability_test"
-
-# NEW: Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans who use screen readers due to low vision or blindness and have submitted benefits claims or appeals"
-
-# NEW: Related documents
-related_research_plan: "/products/decision-reviews/Notice-of-Disagreement/Research/012024-accessible-submission-download/research-plan.md"
-related_prototype: "https://staging.va.gov/decision-reviews/submitted-appeal/"
-
+title: Conversation Guide for Benefits Decision Reviews, Notice of Disagreement (10182),
+  2024 01
+author: Eileen Chi
+date_created: '2024-01-01'
+last_modified: '2024-01-01'
+team: Benefits Decision Reviews
+portfolio: benefits
+product: Notice of Disagreement (10182)
+research_phase: usability
+research_method: usability_test
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: Veterans who would file Notice of Disagreement, including those
+  using assistive technology
+related_research_plan: products/decision-reviews/Notice-of-Disagreement/Research/012024-accessible-submission-download/research-plan.md
+related_prototype: N/A
 tags:
-  - AUD-veterans
-  - BNFT-disability
-  - PRDT-notice-of-disagreement
-  - PRDT-decision-reviews
-  - PRDT-board-appeal
-  - accessibility
-  - screen-reader
-  - assistive-technology
-  - usability-testing
-  - moderated-research
-  - remote-research
-  - confirmation-page
-  - submission-download
-  - PDF-accessibility
-  - HTML-page
-  - form-10182
-  - record-keeping
-  - document-access
-description: "Accessibility testing conversation guide evaluating the effectiveness of an HTML submission page for screen reader users to review and save their completed Board Appeal (NOD) form, including confirmation page and download functionality."
-
-# NEW: Compliance flags
+- NOD
+- '10182'
+- decision-reviews
+- accessibility
+- submission
+- download
+- usability-testing
+description: Usability testing of accessible submission confirmation and form download
+  for Notice of Disagreement.
 recording_required: true
 observer_support: true
 consent_for_clips: true

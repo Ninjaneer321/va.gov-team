@@ -1,40 +1,32 @@
 ---
-title: "Conversation Guide for 1010 Team, Caregiver Application (10-10CG) Facilities and Overall Usability Study, April 2023"
-author: "TBD"
-date_created: "2023-04-01"
-last_modified: "2026-02-11"
-
-# Core research metadata
-team: "1010 Team"
-portfolio: "health"
-product: "Caregiver Application (10-10CG)"
-research_phase: "usability"
-research_method: "usability_test"
-
-# Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans with caregivers or family members who are caregivers for Veterans, with or without current participation in the Program of Comprehensive Assistance for Family Caregivers"
-
-# Related documents
-related_research_plan: "products/caregivers/research/2023-04-Facilities and Overall Usability Research/research-plan.md"
-related_prototype: "N/A"
-
+title: "Conversation Guide for 10-10 Health Apps, 10-10CG Caregiver Application, Facilities and Overall Usability, April 2023"
+type: "Conversation Guide"
+study_date: "2023-04-01"
+authors:
+  - "Dené Gabaldón"
 tags:
   - "AUD:Veterans"
   - "AUD:Caregivers"
-  - "PRDT:caregiver"
   - "PRDT:10-10CG"
-  - "usability-testing"
-  - "facility-selection"
-  - "PCAFC"
-  
-description: "Usability study for the online Caregiver Application (10-10CG) focusing on VA facility selection functionality and overall application experience for Veterans and family caregivers."
-
-# Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+  - "PRDT:Caregiver"
+  - "RESRCH:Usability"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "BNFT:Health-care"
+  - "DSC:Form"
+  - "DSP:Facility-selection"
+  - "HDW:Desktop"
+  - "VETJNY:Taking-care-of-themselves"
+team: "10-10 Health Apps"
+portfolio: "Health"
+product:
+  - "10-10CG Caregiver Application"
+  - "Facility Selection"
+  - "Overall Application Experience"
+research_round: "Facilities and Overall Usability"
+participant_count: 8
+study_length: "60 minutes"
+date: "2023-04"
 ---
 
 # Conversation Guide for [1010 Team, Caregiver Application (10-10CG) Facilities and Overall Usability Study, April 2023]

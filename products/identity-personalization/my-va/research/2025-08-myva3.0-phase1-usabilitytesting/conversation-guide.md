@@ -1,47 +1,40 @@
 ---
-title: "Conversation Guide for Authenticated Experience, My VA 3.0 Phase 1, August 2025"
-author: "Ashley Bush"
-date_created: "2025-08-11"
-last_modified: "2025-08-11"
-
-# NEW: Core research metadata
-team: "Authenticated Experience"
-portfolio: "digital-experience"
-product: "My VA"
-research_phase: "usability"
-research_method: "usability_test"
-
-# NEW: Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans with VA.gov accounts and active benefits including disability, health care, claims, and prescriptions"
-
-# NEW: Related documents
-related_research_plan: "products/identity-personalization/my-va/research/2025-08-myva3.0-phase1-usabilitytesting/research-plan.md"
-related_prototype: "https://www.figma.com/proto/15yOY4VEzitxm5tRMDiAzz/My-VA"
-
+title: "Conversation Guide for Authenticated Experience, My VA 3.0 Phase 1 Usability Testing, August 2025"
+type: "Conversation Guide"
+study_date: "2025-08-11"
+authors:
+  - "Ashley Bush (ashley.bush@adhocteam.us)"
 tags:
-  - "AUD-Veteran"
-  - "PRDT-my-va"
-  - "PRDT-profile"
-  - "PRDT-notifications"
-  - "BNFT-Disability"
-  - "BNFT-Health-care"
-  - "BNFT-Prescriptions"
-  - "MHV-prescriptions"
-  - "DSC-card"
-  - "DSC-alert"
-  - "DSP-notifications"
-  - "DSP-authenticated-navigation"
-  - "usability-testing"
-  - "desktop"
-  - "mobile"
-description: "Usability testing for My VA 3.0 redesign including new notification flyout, benefits sections, prescription refills, appointment check-in, and profile navigation updates."
-
-# NEW: Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+  - "AUD:Veterans"
+  - "PRDT:My-VA"
+  - "PRDT:Profile"
+  - "PRDT:Authenticated-experience"
+  - "RESRCH:Usability"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "BNFT:Disability"
+  - "BNFT:Health-care"
+  - "BNFT:Prescriptions"
+  - "MHV:Prescriptions"
+  - "DSC:Card"
+  - "DSC:Alert"
+  - "DSP:Notifications"
+  - "DSP:Authenticated-navigation"
+  - "HDW:Desktop"
+  - "HDW:Smartphone"
+  - "VETJNY:Taking-care-of-themselves"
+  - "VETJNY:Putting-down-roots"
+team: "Authenticated Experience"
+portfolio: "Digital Experience"
+product:
+  - "My VA"
+  - "My VA 3.0"
+  - "Profile"
+  - "Notifications"
+research_round: "Phase 1 Usability"
+participant_count: "TBD"
+study_length: "60 minutes"
+date: "2025-08"
 ---
     # Conversation Guide for My VA 3.0 
 

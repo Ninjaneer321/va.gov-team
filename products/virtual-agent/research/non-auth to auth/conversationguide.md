@@ -1,3 +1,38 @@
+---
+title: "Conversation Guide for Virtual Agent, Non-Authenticated to Authenticated Flow, 2022"
+author: "Virtual Agent Team"
+date_created: "2022-01-01"
+last_modified: "2022-01-01"
+
+# Core research metadata
+team: "Virtual Agent"
+portfolio: "digital-experience"
+product: "Virtual Agent Chatbot"
+research_phase: "usability"
+research_method: "usability_test"
+
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use VA.gov and are interested in chatbot functionality"
+
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://pilarmoreno461371.invisionapp.com"
+
+tags:
+  - "virtual-agent"
+  - "chatbot"
+  - "authentication"
+  - "usability-testing"
+description: "Usability testing of Virtual Agent chatbot sign-in flow, testing how Veterans transition from non-authenticated to authenticated experiences."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide 
 
 ## Moderator logistics

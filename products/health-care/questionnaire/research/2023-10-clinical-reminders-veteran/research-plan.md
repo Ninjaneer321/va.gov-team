@@ -1,10 +1,32 @@
 ---
-# Research Plan Metadata
 title: "Research Plan for Health Questionnaires, Clinical Reminders Pilot - Veteran Interviews, October 2023"
-date: 2023-10-01
-last_updated: 2026-02-10
+type: "Research Plan"
+study_date: "2023-11-17"
+authors:
+  - "Kristen McConnell"
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Health-questionnaires"
+  - "PRDT: Clinical-reminders"
+  - "RESRCH: Interviews"
+  - "RESRCH: Evaluation"
+  - "RESRCH: Remote"
+  - "HCE: Health-care"
+  - "BNFT: Healthcare"
+  - "PRDT: BHL"
+  - "PRDT: eScreening"
 team: "Health Questionnaires"
-product: "Clinical Reminders"
+portfolio: "Health Care"
+product:
+  - "Health Questionnaires"
+  - "Clinical Reminders"
+  - "BHL"
+  - "eScreening"
+research_round: "Pilot Evaluation"
+participant_count: 10
+study_length: "1 hour"
+date: "2023-10"
+last_updated: 2026-02-10
 product_area: "authenticated"
 
 # Background Context
@@ -65,8 +87,8 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "TBD"
-  pilot_participant: "TBD"
+  pilot_date: "2023-11-16"
+  pilot_participant: "Team member"
   research_dates: "2023-11-17 to 2024-01-17"
   
 session_details:
@@ -88,14 +110,19 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/questionnaire/research/2023-10-clinical-reminders/conversation-guide.md"
     
 tags:
+  - "HCE: Health"
   - "AUD: Veterans"
-  - "BNFT: Healthcare"
-  - "PRDT: Questionnaire"
+  - "PRDT: Health-questionnaires"
   - "PRDT: Clinical-reminders"
   - "semi-structured-interviews"
+  - "remote-moderated"
   - "authenticated"
-  - "remote"
-  - "pilot"
+  - "BHL"
+  - "eScreening"
+  - "digital-health-tools"
+  - "patient-provider-communication"
+study: "Health Questionnaires, Clinical Reminders Pilot - Veteran Interviews"
+type: "semi-structured-interviews"
 ---
 
 # Research Plan for Health Questionnaires, Clinical Reminders Pilot - Veteran Interviews, October 2023

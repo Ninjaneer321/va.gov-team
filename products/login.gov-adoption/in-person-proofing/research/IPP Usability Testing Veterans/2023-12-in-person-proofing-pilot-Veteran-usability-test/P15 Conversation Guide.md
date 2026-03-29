@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for login.gov-adoption, login.gov-adoption, 2026-03-23"
+author: Login.gov Adoption Team
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "login.gov-adoption"
+portfolio: "Identity"
+product: "login.gov-adoption"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Participant P15 - Veteran using in-person proofing"
+
+# Related documents
+related_research_plan: "IPP Veteran Usability Test Research Plan"
+related_prototype: "N/A"
+
+tags:
+  - identity
+  - Login.gov
+  - in-person-proofing
+  - participant-specific
+  - conversation-guide
+description: "P15 conversation guide for IPP veteran usability test"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide for IPP Pilot Veteran Intake Screens Usability Test
 
 ## Intro - 5 minutes

@@ -1,109 +1,115 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "My VA Redesign Preference Testing, November 2020"
+date: 2020-11-01
+last_updated: 2020-11-01
+team: "Authenticated Experience"
+product: "My VA 2.0 Redesign"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Compare two mobile versions of My VA dashboard redesign to determine which direction makes most sense to users"
+  product_location: "My VA dashboard on VA.gov"
+  user_familiarity: "Major redesign iteration testing"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/2.0-redesign/README.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Remote moderated preference testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Compare two mobile versions (A and B) of My VA dashboard redesign"
+  - goal_2: "Determine which page structure (scrolling vs navigation) affects ease of visibility"
+  - goal_3: "Assess if users can quickly find information they are looking for"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans prefer design version A or B?"
+  - "Is there any confusion caused by the status update styles in A vs B design?"
+  - "Can people find what they're looking for on the dashboard?"
+  - "Does the placement of the disability rating make sense to users?"
+  - "What information is important for them to see first?"
+  - "How do people think the new dashboard compares to current MyVA?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Version A will be slightly more successful than version B due to less cognitive load"
+  - "Overall users will be able to see and understand the update section"
+  - "People will want to see more detailed personalized information than what is shown"
+  - "The new myVA dashboard layout will overall be intuitive and scan-able"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Determine which design direction to pursue for the My VA redesign"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Eligible for or receive VA health care, have active or past claims, or receive VA benefits"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 1 iOS mobile device owner"
+    - "At least 1 Android mobile device owner"
+    - "At least 2 women"
+    - "At least 1 person of color"
+    - "At least 1 person with disability rating of 70% or greater"
+    - "At least 1 person with cognitive consideration (PTSD or TBI)"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you eligible for/receive VA health care, have active or past claims or receive any benefits from the VA?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-11-19"
+  pilot_participant: "Jonathan Nelson"
+  research_dates: "2020-11-20 to 2020-11-30"
+  research_review_submission: "2020-11-10"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 75
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 8
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Logged-in users can update their personal information easily and instantly"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Improved personalized dashboard experience"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Consolidated dashboard view"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/personalization%202.0/discovery-research/README.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/logged-in-homepage/2.0-redesign/discovery-and-research/discovery-summary.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "my-va"
+  - "preference-testing"
+  - "mobile"
+  - "authenticated-experience"
 ---
 
 # Research Plan for VSA Authenticated Experience: MyVA Redesign November 2020

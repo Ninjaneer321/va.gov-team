@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: UAT Plan
+title: UAT Plan for 527EZ and 530 Temporary Deactivation
+services: Pension
+tags: UAT, pension, testing
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/form-deactivation/UAT Plan-527EZ abd 530 Temp Deactivation.md
+---
 # UAT Plan for 527EZ and 530 Temporary Deactivation
 
 [Per VSP guidance](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/what-is-uat.md#what-is-uat), during typical user acceptance testing (UAT), actual users test the service/tool/feature to make sure it can handle required tasks in real-world scenarios in the production environment, athough [there are times when UAT may be conducted with a non-Veteran audience](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/what-is-uat.md#recruiting).

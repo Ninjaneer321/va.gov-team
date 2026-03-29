@@ -110,6 +110,8 @@ related_research:
   previous_studies: 
     - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/accredited-representation-management"
     
+
+study: "ARM Team, Appoint a Representative - VA.gov User Test, February"
 tags:
   - "AUD: Veterans"
   - "AUD: Attorneys"

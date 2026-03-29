@@ -109,6 +109,8 @@ related_research:
     - "2024-02 ARM Appoint a Representative Unauthenticated User Test"
     - "2024-01 ARM Authenticated Appoint a Representative Form User Test"
     
+
+study: "ARM Team, Appoint a Representative - Digital Submit - User Test, 06/2024"
 tags:
   - "AUD: Veterans"
   - "AUD: Veteran Service Organization (VSO)"

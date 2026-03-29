@@ -1,3 +1,40 @@
+---
+title: "Conversation Guide for health-care, health-care, 2026-03-23"
+author: at OCTO
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "health-care"
+portfolio: "Health Care"
+product: "health-care"
+research_phase: "Generative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VA clinical staff"
+
+# Related documents
+related_research_plan: "Clinical Reminders BHL Phase 3 Research Plan"
+related_prototype: "N/A"
+
+tags:
+  - health-care
+  - questionnaire
+  - clinical-reminders
+  - BHL
+  - staff
+  - conversation-guide
+description: "Staff conversation guide for clinical reminders BHL Phase 3 research"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide for Staff interviews: Phase 3 Clinical Reminders, Health Questionnaires Pilot
 
 ## Day of the Session

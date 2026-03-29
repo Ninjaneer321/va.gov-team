@@ -118,6 +118,8 @@ related_research:
     - "2024-03 Single Accredited Testing"
     - "2024-05 NACVSO Research"
     
+
+study: "AR Team, VSO - VA Benefits (526ez, 686c, 674) - Interviews, 10/2024"
 tags:
   - "accredited-representative-facing"
   - "accredited-representative-portal"

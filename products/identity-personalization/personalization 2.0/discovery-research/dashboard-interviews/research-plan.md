@@ -1,109 +1,128 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Dragons, Dashboard 2.0 Discovery, July 2019"
+date: 2019-07-01
+last_updated: 2019-07-12
+team: "Dragons (Personalization)"
+product: "My VA Dashboard 2.0"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The existing My VA dashboard has become long, cumbersome, and hard to navigate. The single-column design and content type-based IA makes it hard to track progress across a benefit lifecycle."
+  product_location: "My VA dashboard (authenticated area of VA.gov)"
+  user_familiarity: "Iteration - redesigning existing dashboard that launched in Spring 2018"
+  product_brief_url: "N/A"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Guided interview with existing dashboard as conversation tool"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Learn how veterans want to find, track, and manage their benefits"
+  - goal_2: "Understand how people use the existing dashboard and what they find helpful or unhelpful"
+  - goal_3: "Explore whether veterans prefer benefit-based organization over content type-based organization"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do veterans want to find, track, and manage their benefits?"
+  - "How do people use the existing dashboard?"
+  - "What do people find helpful and useful on the existing dashboard? What is unhelpful?"
+  - "How do people feel about the existing dashboard IA? Would they prefer for the dashboard to be organized by benefit?"
+  - "What causes confusion?"
+  - "Do veterans use the current homepage in favor of My VA? Would veterans prefer that My VA and the VA.gov homepage be one in the logged in experience?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will find the existing dashboard to be long and cumbersome"
+  - "Veterans will report that it is hard to find information and see when it updates"
+  - "Veterans will miss My VA because it is not the logged in homepage"
+  - "Veterans will prefer that information be organized by benefit instead of by content type or process"
+  - "Veterans will want to see the status of all benefits they have, including ones we do not currently have access to"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Learn about veterans' existing and preferred flows for managing benefits while also learning from the existing dashboard design to inform Dashboard 2.0 redesign."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Recruit 7 participants (not 9) who use My VA dashboard"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "People who use VA.gov"
+    - "People who are LOA3"
+    - "People who use the My VA dashboard at least 1X/month"
+    - "People who receive at least one benefit from the VA"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least one woman"
+    - "At least one person of color"
+    - "At least one person under 40"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you use the My VA dashboard on VA.gov at least once per month?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 7
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 7
+  completed_sessions_goal: 7
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2019-07-06"
+  pilot_participant: "N/A"
+  research_dates: "2019-07-08 to 2019-07-12"
+  research_review_submission: "2019-07-01"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 6
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Create a more robust logged-in experience for Veterans"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve dashboard usability and navigation"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Living Civilian Life"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "My VA dashboard MVP research (2018)"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - personalization-2.0
+  - dashboard
+  - my-va
+  - discovery
+  - interviews
+  - authenticated-experience
+  - benefit-lifecycle
+  - information-architecture
+  - IA
+  - LOA3
+  - dragons-team
+  - research-plan
+  - "my-va"
+  - "dashboard"
+  - "discovery"
+  - "semi-structured-interviews"
+  - "personalization"
 ---
 
 # Research Plan for Dragons: Dashboard 2.0 Discovery

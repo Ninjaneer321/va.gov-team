@@ -1,36 +1,51 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+# Conversation Guide Metadata
+title: "Conversation Guide for Debt Resolution Team, FSR VSO Interviews, October 2020"
+author: "Rebecca Walsh, Debt Resolution Team"
+date_created: "2020-10-01"
+last_modified: "2026-03-23"
+team: "Debt Resolution Team"
+product: "Financial Status Report (VA Form 5655)"
+product_area: "authenticated"
+portfolio: "Benefits"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Research Context
+study_name: "Financial Status Report Veteran Service Officer Interviews"
+research_phase: "Discovery with co-design workshop"
+research_type: "Interviews and participatory design workshop"
+research_method: "Remote moderated interviews with Mural co-design"
+session_format: "Remote moderated sessions"
+session_duration: "60 minutes"
+participant_type: "Veteran Service Officers who assist with FSR completion"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Research Planning
+related_research_plan: ""
+related_prototype: "Mural board for FSR form review workshop"
+environment: "Discovery interviews with participatory design"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
-tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+# Logistics
 recording_required: true
+consent_for_clips: false
 observer_support: true
-consent_for_clips: true
----
 
+# Tags
+tags:
+  - "research"
+  - "conversation-guide"
+  - "moderated-research"
+  - "discovery"
+  - "VSO-interviews"
+  - "debt-resolution"
+  - "FSR"
+  - "form-5655"
+  - "financial-status-report"
+  - "veteran-service-officers"
+  - "participatory-design"
+  - "mural-workshop"
+  - "stakeholder-research"
+
+description: "Discovery conversation guide combining VSO interviews with participatory design workshop for Financial Status Report. VSOs share experiences helping Veterans complete FSR, then participate in Mural workshop reviewing form sections. Captures insights on common challenges, mistakes, and helpful information needs for FSR digitization."
+---
 FSR VSO Interview Conversation Guide
 ====================================
 

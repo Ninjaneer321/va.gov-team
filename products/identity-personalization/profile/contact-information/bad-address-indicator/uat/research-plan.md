@@ -1,109 +1,117 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Profile, Bad Address Indicator UAT, September 2022"
+date: 2022-09-01
+last_updated: 2022-09-30
+team: "Profile Team"
+product: "Profile - Contact Information (Bad Address Indicator)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "When mail is returned to VA, addresses are marked as 'bad' in VA Profile. Currently 300K veterans have this flag. This effort encourages Veterans with flagged addresses to view and update or confirm their information."
+  product_location: "VA.gov Profile > Contact Information section"
+  user_familiarity: "New feature - adding bad address indicator alerts"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/contact-information/bad-address-indicator"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "User Acceptance Testing (UAT)"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Confirm that BAI functionality works as expected and users can update or confirm mailing address to remove bad address flag"
+  - goal_2: "Validate that included links and jumplinks function as intended"
+  - goal_3: "Validate that the FAQ dropdown and bad address flag removal works as expected"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Does the functionality work as expected?"
+  - "Are Veterans able to update or confirm their mailing address and clear all alerts without any usability hurdles?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will be able to easily follow the links and jump links to the Mailing address section"
+  - "Veterans will be able to easily take action to update or confirm their address and clear the alerts"
+  - "Veterans will be able to easily use the FAQ to learn more about confirming their address"
+  - "Veterans will not encounter any bugs in the Contact information section while updating or confirming their address"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Based on the outcome of this research study, we will either release this work to production, or make updates to correct any bugs or significant usability hurdles."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Internal recruitment"
+  approach: "Internal testing with Profile team production accounts"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must be LOA3 (identity verified) on VA.gov"
+    - "Must be able to screenshare via Zoom"
+    - "Must be comfortable providing email address used to sign into VA.gov"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "N/A (internal recruitment)"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you a Profile team member willing to participate in UAT?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 6
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 6
+  completed_sessions_goal: 6
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "N/A"
+  pilot_participant: "N/A"
+  research_dates: "2022-09-15 to 2022-09-30"
+  research_review_submission: "2022-09-01"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 0
+  max_sessions_per_day: 6
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Increase the quality and reliability of VA services"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Logged-in users can update their personal information easily and instantly"
+      - "Logged-in users have a personalized experience, with relevant and time-saving features"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Living Civilian Life"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/contact-information/bad-address-indicator/research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - profile
+  - contact-information
+  - bad-address-indicator
+  - uat
+  - user-acceptance-testing
+  - authenticated-experience
+  - address-validation
+  - authenticated
+  - research-plan
+  - "profile"
+  - "contact-information"
+  - "bad-address-indicator"
+  - "uat"
+  - "authenticated-experience"
 ---
 
 # Research Plan for Profile, Bad address indicator (BAI) UAT, September 2022

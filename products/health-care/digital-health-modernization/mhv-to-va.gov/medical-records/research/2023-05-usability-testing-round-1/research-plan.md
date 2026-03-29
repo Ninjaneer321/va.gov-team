@@ -115,23 +115,18 @@ related_research:
 tags:
   - "AUD: Veterans"
   - "AUD: Caregivers"
-  - "BNFT: Healthcare"
-  - "MHV: Medical-Records"
-  - "MHV: Labs-and-Tests"
-  - "MHV: Care-Summaries-and-Notes"
-  - "MHV: Vaccines"
-  - "MHV: Allergies"
-  - "MHV: Vitals"
   - "PRDT: MHV-on-VA.gov"
-  - "RESRCH: Usability"
+  - "PRDT: Medical-records"
+  - "RESRCH: Usability-testing"
   - "RESRCH: Remote"
-  - "RESRCH: Prototype"
-  - "HDW: Desktop"
-  - "HDW: Mobile"
-  - "authenticated"
-  - "health-records"
-  - "medical-documentation"
-  - "digital-health-modernization"
+  - "HCE: Health-care"
+  - "BNFT: Healthcare"
+  - MHV
+  - My-HealtheVet
+  - migration
+  - round-1
+  - evaluative
+  - moderated
 ---
 
 # **Research Plan for MHV on VA.gov, Medical Records, May 2023**

@@ -64,6 +64,10 @@
 - Content team approved swapping State to States and territories with the removal of US Territories as countries from the address fields.
 - [Link to conversation](https://dsva.slack.com/archives/C01K37HRUAH/p1753189539164579)
 
+### Direct deposit information
+#### 03/25/2026 Remove mention of Montgomery GI Bill from Direct deposit information and Contact information pages
+- [Link to conversation](https://dsva.slack.com/archives/C01K37HRUAH/p1773860023903099)
+
 ### Service history information
 #### 01/14/2026 VSC alert updates
 - Mobile team is updating VSC alerts to direct to the VA call center. Determined Service history information will not be changing to match at this time.

@@ -1,3 +1,29 @@
+---
+type: conversation_guide
+study_name: New Observer Process Research
+team: Platform Research
+product: Platform - Research Operations
+platform: Platform
+moderator: Platform research team
+date: "2024"
+research_method: Moderated usability testing with observer process evaluation
+session_type: moderated_remote
+session_duration_minutes: 60
+number_of_participants: 5-8
+tags:
+  - consent
+  - observer-process
+  - participant-experience
+  - platform
+  - research-methodology
+  - research-operations
+  - usability-testing
+description: Research study to evaluate new observer introduction process in moderated research sessions, testing participant consent and comfort with observers.
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide 
 
 ## Moderator logistics

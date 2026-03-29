@@ -1,31 +1,38 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: CDS Task Manager Use Cases and Post Launch Enhancements - Prospective Users, February 2026"
+author: "Ruben Sun"
+date_created: "2026-02-04"
+last_modified: "2026-02-04"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Clinical Decision Support Collaborative"
+portfolio: "health"
+product: "CDS Task Manager"
+research_phase: "evaluative"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "50 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VA healthcare team members who have not yet used Task Manager but manage tasks as part of their role"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/health-care/clinical-decision-support/task-manager/research/2026-02-Use-Cases-and-Post-Launch-Enhancements/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: VA-staff"
+  - "BNFT: Healthcare"
+  - "PRDT: CDS-task-manager"
+  - "task-management"
+  - "workflow-research"
+  - "evaluative-research"
+  - "semi-structured-interviews"
+  - "healthcare-operations"
+  - "post-launch"
+description: "Research conversation guide for prospective Task Manager users to understand task management workflows and identify post-launch enhancement opportunities."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

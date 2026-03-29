@@ -1,14 +1,35 @@
 ---
-title: "Conversation Guide for Mobile Feature Support, One VA Debt Letter on mobile app, November 2025"
-author: "Emily DeWan"
-date_created: "2025-10-07"
-last_modified: "2025-10-29"
+title: "Conversation Guide for Mobile Feature Support, One VA Debt Letter on Mobile App, November 2025"
+type: "Conversation Guide"
+study_date: "2025-11-01"
+authors:
+  - "Emily Theis (emily.theis@adhocteam.us)"
 tags:
-  - "mobile app"
-  - "overpayment debt"
-  - "copayments"
-  - "discovery research"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD:Veterans"
+  - "PRDT:VA-mobile-app"
+  - "PRDT:Debt-portal"
+  - "PRDT:Medical-copays"
+  - "RESRCH:Usability"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "RESRCH:Prototype-testing"
+  - "BNFT:Disability"
+  - "BNFT:Education"
+  - "BNFT:Health-care"
+  - "DSP:Debt-management"
+  - "DSP:Mobile-experience"
+  - "HDW:Smartphone"
+  - "VETJNY:Taking-care-of-themselves"
+team: "Mobile Feature Support Team"
+portfolio: "Benefits"
+product:
+  - "VA Mobile App"
+  - "Combined VA Debt Portal"
+  - "One VA Debt Letter"
+research_round: "Mobile Usability"
+participant_count: 8
+study_length: "60 minutes"
+date: "2025-11"
 ---
 
 # Conversation Guide for One VA Debt Letter on mobile app

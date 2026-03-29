@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for disability, disability, 2026-03-23"
+author: BDD Team
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "disability"
+portfolio: "Benefits and Claims"
+product: "disability"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Service members eligible for BDD program"
+
+# Related documents
+related_research_plan: "BDD Initial Usability Research Plan March 2020"
+related_prototype: "N/A"
+
+tags:
+  - disability
+  - BDD
+  - benefits-delivery-at-discharge
+  - usability-testing
+  - conversation-guide
+description: "Conversation guide for BDD initial usability testing"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 <h1 id="toc_0">Conversation Guide for Benefit Delivery at Discharge (BDD): Usability test 1 of 2</h1>
 
 >View the research plan here: 

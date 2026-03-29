@@ -1,109 +1,118 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Benefits Team, Supplemental Claims Discovery, June 2022"
+date: 2022-06-01
+last_updated: 2022-06-01
+team: "Benefits Team"
+product: "Supplemental Claims (20-0995) Discovery"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans file Supplemental Claims when their disability compensation claim is denied and new and relevant evidence is needed. Currently there is no way to digitally submit a Supplemental Claim apart from uploading a PDF. VBA predicts the PACT Act legislation will result in up to 7.5 million additional supplemental claims over next ten years."
+  product_location: "VA.gov - Future Supplemental Claims submission process"
+  user_familiarity: "New product - exploring digital Supplemental Claims process following PACT Act"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/decision-reviews/Supplemental-Claims"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "discovery research - SME interviews, stakeholder interviews, form audit"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand Veteran needs around applying for disability compensation through a Supplemental Claim"
+  - goal_2: "Identify opportunities to optimize actions and decisions that lead to favorable claims outcomes related to PACT Act"
+  - goal_3: "Gather SME and stakeholder insights to inform digital SC product design"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What are the biggest challenges for Decision Reviews?"
+  - "What is considered new and relevant evidence?"
+  - "Can we learn from efforts where VA presumptively connected Veterans to a claim (e.g., Blue Water Navy)?"
+  - "What are biggest challenges Veterans face when filing supplemental claims?"
+  - "What are biggest challenges adjudicators face in approving claims?"
+  - "Where are opportunities to pre-fill, automate or presumptively connect Veteran claims?"
+  - "How does communication with Veteran typically happen during supplemental claims processing?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will benefit by having a clear pathway to file a supplemental claim on VA.gov"
+  - "Digital SC process will help Veterans achieve goal of being compensated for disability incurred while serving within reasonable time"
+  - "Personalizing the experience and reducing cognitive burden will improve speed, usability, and reduce factors contributing to unfavorable decisions"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Produce prioritized recommendations for modernizing Supplemental Claims application with potential optimizations for Veterans under PACT Act"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Direct recruitment"
+  approach: "Purposive sampling of SMEs, stakeholders, and collaborative teams"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Subject matter experts on Supplemental Claims"
+    - "Stakeholders (Matt Self, Shawna Hein, Paul Shute)"
+    - "Collaborative team members from Lighthouse, Benefits Automation, Contact Center, Content/IA"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "VSOs and adjudicators for research review and form audit"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Role and experience with Supplemental Claims process"
+      qualifying_response: "SME or stakeholder involvement"
       
 participants:
   veterans: 0
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "N/A"
+  pilot_participant: "N/A - SME interviews"
+  research_dates: "2022-06-01 to 2022-06-28"
+  research_review_submission: "2022-05-15"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Increase the usage and throughput of VA services"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Support anticipated 7.5M additional PACT Act supplemental claims over 10 years"
+  - objective: "Decrease the time Veterans spend waiting for an outcome"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Improve speed and usability of SCs"
+      - "Reduce cognitive burden in appealing claims decisions"
+  - objective: "Increase the quality and reliability of VA services"
+    key_results:
+      - "Reduce factors contributing to unfavorable decisions"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Managing primary care and chronic health issues"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/lighthouse-ux/tree/master/Benefits%20and%20Appeals%20Research/2022-01-Supplemental%20Claims-Discovery"
+    - "OCTO research with VSOs (June 2022)"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "supplemental-claims"
+  - "discovery"
+  - "SME-interviews"
+  - "decision-reviews"
+  - "PACT-Act"
+  - "20-0995"
+  - "stakeholder-research"
 ---
 
 # Research Plan for Supplemental Claims

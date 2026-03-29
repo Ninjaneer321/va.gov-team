@@ -1,45 +1,31 @@
 ---
-title: "Conversation Guide for Decision Letter Download Research, August 2022"
-author: "Skyler [TBD - full name not in document]"
-date_created: "2022-08-01"
-last_modified: "2024-12-20"
-
-# Core research metadata
-team: "Claim Status Tool Team"
-portfolio: "benefits"
-product: "Claim Status Tool"
-research_phase: "usability"
-research_method: "moderated_usability_test"
-
-# Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans who have filed disability compensation claims (Form 526EZ) with the VA"
-
-# Related documents
-related_research_plan: "../research-plan.md"
-related_prototype: "N/A"
-
+title: "Conversation Guide for Benefits Management Tools, Claim Status Tool, Decision Letter Download, August 2022"
+type: "Conversation Guide"
+study_date: "2022-08-01"
+authors:
+  - "Skyler Schain"
 tags:
-  - "AUD: Veterans"
-  - "BNFT: Disability"
-  - "PRDT: Claim-status-tool"
-  - "DSP: Help users to... view documents"
-  - "DSP: Content Presentation"
-  - "usability-testing"
-  - "moderated-usability-test"
-  - "decision-letters"
-  - "notification-letters"
-  - "document-download"
-  - "claims-and-appeals"
-  - "HDW: Desktop"
-
-description: "Usability test for the decision letter download feature in the Claim Status Tool, testing Veterans' ability to find and understand their disability claim decision letters through VA.gov."
-
-# Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+  - "AUD:Veterans"
+  - "PRDT:Claim-status"
+  - "PRDT:CST"
+  - "RESRCH:Usability"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "BNFT:Disability"
+  - "DSC:File-download"
+  - "DSP:Decision-letters"
+  - "HDW:Desktop"
+  - "VETJNY:Accessing-benefits"
+team: "Benefits Management Tools"
+portfolio: "Benefits"
+product:
+  - "Claim Status Tool"
+  - "Decision Letter Download"
+  - "Disability Claims"
+research_round: "Decision Letter Usability"
+participant_count: 8
+study_length: "60 minutes"
+date: "2022-08"
 ---
 
 # Conversation Guide 

@@ -1,109 +1,134 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Check-In Research Plan for In-Person Veteran Interviews at Bay Pines"
+date: 2022-06-02
+last_updated: 2022-06-06
+team: "Healthcare Experience - Check-in"
+product: "Patient Check-in"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need evaluation of pre-check-in and check-in effectiveness at multiple VAMCs to validate system performance and identify improvement opportunities. Additionally, travel reimbursement integration needs exploration to enhance the check-in experience."
+  product_location: "VA.gov check-in experience"
+  user_familiarity: "Iteration - in-person UAT and pilot evaluation"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/product/product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "in-person intercept interviews and observational research"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: in-person
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "Bay Pines VAMC and CBOCs"
+    point_of_contact: "Ben Brasso"
+    equipment: "Travel reimbursement prototypes"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate the effectiveness of pre-check-in and check-in with Veterans at Bay Pines"
+  - goal_2: "Identify strengths, pain points and opportunities for improvement within the check-in ecosystem"
+  - goal_3: "Gain insights on incorporating travel reimbursement into the check-in experience for Veterans"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How often are Veterans using pre-check-in?"
+  - "Do Veterans assume they still have to do day-of check-in when pre-check-in is complete?"
+  - "What's working and not working with pre-check-in and check-in?"
+  - "What changes could help improve the check-in process?"
+  - "Are Veterans able to use the check-in poster?"
+  - "What would Veterans call this process?"
+  - "When do Veterans expect to complete a travel reimbursement claim in relation to their appointment?"
+  - "What steps should a Veteran have to complete for filing a travel reimbursement claim?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans who use pre-check-in are able to complete the required steps"
+  - "Veterans who complete pre-check-in realize they're still required to use check-in on the day of their appointment"
+  - "Completing the pre-check-in experience makes day-of check-in easier for Veterans"
+  - "MSAs will have limited interaction with Veterans during check-in since Veterans can check in on their smartphone"
+  - "Veterans will indicate that check-in does not affect their care experience"
+  - "Veterans are able to use the check-in poster without friction"
+  - "Veterans refer to the process as check in or mobile check in"
+  - "Veterans will indicate that the workflow in the travel reimbursement prototypes are optimal"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate check-in and pre-check-in effectiveness at Bay Pines VAMC, identify improvement opportunities, and inform travel reimbursement integration strategy"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "in-person intercepts at Bay Pines"
+  approach: "In-person intercept interviews at clinics during high appointment times"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans arriving for appointments at Bay Pines VAMC and CBOCs"
+    - "Veterans who have used or are using check-in/pre-check-in"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Veterans familiar with BTSSS for travel reimbursement prototype testing"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you here for an appointment today?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 20
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 20
+  completed_sessions_goal: 15
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-06-20"
+  pilot_participant: "Kristen McConnell"
+  research_dates: "2022-06-21 to 2022-06-24"
+  research_review_submission: "2022-06-02"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 15
+  buffer_minutes: 0
+  max_sessions_per_day: 10
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increase usage of digital self-service tools"
+  - objective: "Logged-in users have a personalized experience"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Improve check-in experience with relevant features"
+  - objective: "Increase completion rate of online transactions"
+    key_results:
+      - "Decrease time to successfully complete check-in"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Living civilian life"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/staff-facing/st-louis/pilot-feedback/research-plan.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/104"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "patient-check-in"
+  - "PCI"
+  - "HCE"
+  - "check-in"
+  - "UAT"
+  - "in-person"
+  - "Bay-Pines"
+  - "evaluative"
+  - "moderated"
+  - "veterans"
+  - "mobile"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Check-in"
+  - "pre-check-in"
+  - "travel-reimbursement"
+  - "BTSSS"
+  - "intercept-interviews"
 ---
 
 # Check-In Research Plan for In-Person Veteran Interviews at Bay Pines

@@ -125,25 +125,29 @@ related_research:
     - "Initial MVP testing on prototypes and live environments"
     
 tags:
+  - "health-care"
   - "MHV"
-  - "My HealtheVet"
+  - "My-HealtheVet"
+  - "migration"
   - "medications"
   - "prescriptions"
-  - "health-care"
-  - "digital-health-modernization"
+  - "pharmacy"
   - "usability-testing"
+  - "round-3"
+  - "AT"
   - "assistive-technology"
-  - "screen-reader"
-  - "screen-magnification"
-  - "voice-command"
   - "accessibility"
-  - "508-compliance"
+  - "screen-reader"
+  - "remote"
+  - "evaluative"
+  - "moderated"
   - "veterans"
-  - "cognitive-disability"
-  - "authenticated-experience"
-  - "remote-research"
-  - "multi-fill"
-  - "CAIA"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: My-HealtheVet"
+  - "PRDT: Medications"
+study: MHV on VA.gov, Medications
+type: UAT
 ---
 
 # **Research Plan for MHV on VA.gov, Medications, May 2024**

@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan: Medications Management Improvements"
-date: 2026-01-28
+date: 2026-02-01
 last_updated: 2026-01-28
 team: "MHV to VA.gov (Medications)"
 product: "Medications Management Improvements"
@@ -117,15 +117,25 @@ related_research:
 
 tags:
   - "health-care"
+  - "MHV"
+  - "My-HealtheVet"
+  - "migration"
   - "medications"
-  - "digital-health-modernization"
-  - "mhv-to-va.gov"
-  - "research-plan"
-  - "moderated"
+  - "prescriptions"
+  - "pharmacy"
+  - "management"
+  - "improvements"
+  - "usability-testing"
   - "remote"
-  - "zoom"
-  - "interviews"
-  - "perigean"
+  - "evaluative"
+  - "moderated"
+  - "veterans"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: My-HealtheVet"
+  - "PRDT: Medications"
+study: Medications Management Improvements
+type: UAT
 ---
 
 # Research Plan: Medications Management Improvements

@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for Appointment Details Redesign, VAOS, October 2023"
-date: 2024-01-12
+date: 2023-10-01
 last_updated: 2024-01-12
 team: "VA Online Scheduling (VAOS)"
 product: "VA Online Scheduling"
@@ -112,14 +112,15 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/appointments/va-online-scheduling"
     
 tags:
-  - "VAOS"
-  - "appointments"
-  - "appointment-details"
-  - "usability-testing"
-  - "prototype"
-  - "authenticated"
-  - "veterans"
-  - "health-care"
+  - HCE
+  - UAT
+  - VAOS
+  - appointments
+  - caregivers
+  - mobile
+  - usability-testing
+study: Appointment Details Redesign, VAOS
+type: UAT
 ---
 
 # **Appointments Details Redesign - Research Plan**

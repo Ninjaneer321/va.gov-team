@@ -1,3 +1,75 @@
+---
+# Research Plan Metadata
+title: "Research Plan for identity-personalization, identity-personalization, 2026-03-23"
+date: 2026-03-23
+last_updated: 2026-03-23
+team: "identity-personalization"
+product: "identity-personalization"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Planning meeting notes for Profile product development"
+  product_location: "VA.gov Profile"
+  user_familiarity: "TBD - New product or iteration?"
+  product_brief_url: "TBD - Add product brief URL if available"
+
+# Research Design
+methodology: "Planning meeting"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "TBD - Extract from research plan"
+  - goal_2: "TBD - Extract from research plan"
+
+research_questions:
+  - "TBD - Extract from research plan"
+
+hypotheses:
+  - "TBD - Extract from research plan if available"
+
+expected_outcomes: "TBD - How will findings advance the product?"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "TBD"
+  
+participants:
+  veterans: 0
+  caregivers: 0
+  dependents: 0
+  total_recruited: 0
+  completed_sessions_goal: 0
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  research_dates: "TBD"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 0
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "TBD"
+
+veteran_journey_phases:
+  - "TBD"
+    
+# Research Repository Tracking
+tags:
+  - profile
+  - planning
+  - meeting-notes
+  - identity-personalization
+---
+
 ## Profile Grooming Notes 9/14/2022:
 
 - Does anyone want to look at the current sprint board? Any concerns about the workload or commitments? No.

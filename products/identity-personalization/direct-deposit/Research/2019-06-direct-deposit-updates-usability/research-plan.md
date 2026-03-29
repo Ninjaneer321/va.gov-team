@@ -46,6 +46,20 @@ hypotheses:
 
 expected_outcomes: "Validate design direction for direct deposit integration into VA.gov profile and identify usability improvements before full launch"
 
+tags:
+  - authenticated-experience
+  - profile
+  - direct-deposit
+  - financial-information
+  - payments
+  - usability-testing
+  - disability-compensation
+  - eBenefits-migration
+  - authenticated
+  - research-plan
+  - "usability-testing"
+  - "moderated-research"
+
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"

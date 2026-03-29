@@ -121,6 +121,8 @@ related_research:
     - "VBA Payment History Study July 2024"
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/VHA-usability-study-9-2024/conversation-guide.md"
     
+
+study: "Debt Resolution Team, VHA Debt Portal Payment History, September-October"
 tags:
   - "debt-resolution"
   - "VHA-copay"

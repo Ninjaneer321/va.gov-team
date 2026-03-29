@@ -81,8 +81,8 @@ recommendations:
   - "Revisit the language used to describe appointment information the Veteran provided. Separate this from the facility-provided appointment information"
 kpi_alignment: []
 outcomes:
-  user: "Not specified"
-  business: "Not specified"
+  user: "Veterans can more easily navigate and manage appointments, understand appointment status, and reschedule without calling"
+  business: "Validated appointments list redesign, identified opportunities for improved personalization and notification clarity"
 opportunity_areas:
   - "Add clarity around the status of requests - Veterans are calling facilities to find out if their requests are being processed"
   - "Consider allowing users to change a request to a video and phone appointment, as alternative options to canceling and rescheduling"
@@ -98,7 +98,20 @@ further_research_needed:
   - "Research scheduling notifications to understand how we can improve these in VAOS"
 underserved_groups_missing: []
 secondary_research: []
-synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: VA-online-scheduling"
+  - "MHV: Appointments"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "usability-testing"
+  - "remote-moderated"
+  - "mobile"
+  - "VAOS"
+  - "appointments"
+  - "appointment-list"
+  - "scheduling"
 tags:
   - "AUD: Veterans"
   - "BNFT: Healthcare"

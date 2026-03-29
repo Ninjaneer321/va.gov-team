@@ -1,49 +1,18 @@
 ---
+# Conversation Guide Metadata
 title: "Conversation Guide for VA.gov Relaunch Study 7 - In-Person Usability Testing (Revised), November 2018"
-author: "Unknown"
-date_created: "2018-11-01"
-last_modified: "2026-02-11"
+date: 2020-01-01
+last_updated: 2026-03-23
+team: "Unknown"
+product: "Unknown Product"
+product_area: "authenticated"
 
-# Core research metadata
-team: "VA.gov Relaunch"
-portfolio: "digital-experience"
-product: "VA.gov Homepage and Health Care Hub"
-research_phase: "usability"
-research_method: "usability_test"
+# Research Context
+research_type: "Moderated interviews"
+session_format: "Remote moderated sessions"
 
-# Session details
-session_duration: "15-20 minutes"
-session_type: "in_person"
-participant_criteria: "Veterans visiting VA medical centers, testing on both mobile and desktop devices"
-
-# Related documents
-related_research_plan: "N/A"
-related_prototype: "https://preview.va.gov"
-
-tags:
-  - "AUD:Veterans"
-  - "PRDT:VA.gov"
-  - "PRDT:Content"
-  - "PRDT:Benefit Hubs"
-  - "BNFT:Healthcare"
-  - "PRDT:Health Care Hub"
-  - "PRDT:Crisis Line"
-  - "PRDT:Personalized Dashboard"
-  - "DSP:Help users to navigate"
-  - "DSP:Content Presentation"
-  - "DSC:Alert"
-  - "DSC:Banner"
-  - "usability-testing"
-  - "moderated-usability-testing"
-  - "content-testing"
-  - "HDW:Desktop"
-  - "HDW:Smartphone"
-description: "In-person usability testing at VA medical centers evaluating the new VA.gov homepage, health care hub, crisis line modal, sign-in experience, and personalized dashboard. Conducted with both mobile and desktop users in a flexible, interest-driven format."
-
-# Compliance flags
-recording_required: true
-observer_support: false
-consent_for_clips: true
+# Tags
+tags: ['research', 'conversation-guide', 'moderated-research']
 ---
 
 # Conversation Guide - Study 7

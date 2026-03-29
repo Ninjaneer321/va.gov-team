@@ -1,3 +1,40 @@
+---
+title: "Conversation Guide for health-care, health-care, 2026-03-23"
+author: Jenny and
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "health-care"
+portfolio: "Health Care"
+product: "health-care"
+research_phase: "Generative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who order medical supplies"
+
+# Related documents
+related_research_plan: "Meds and Supplies Concept Testing Research Plan"
+related_prototype: "N/A"
+
+tags:
+  - health-care
+  - supply-reordering
+  - medications
+  - supplies
+  - concept-testing
+  - conversation-guide
+description: "Concept testing conversation guide for medications and supplies reordering"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide: Supply Reordering, April 2024
 
 ## Moderator logistics

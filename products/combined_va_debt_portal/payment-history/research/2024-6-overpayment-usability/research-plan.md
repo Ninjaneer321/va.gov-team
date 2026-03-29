@@ -114,6 +114,8 @@ related_research:
   previous_studies: 
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/usability-study-6-2024/conversation-guide.md"
     
+
+study: "Debt Resolution Team, VBA Debt Portal Payment History, June-July"
 tags:
   - "debt-resolution"
   - "VBA-debt"

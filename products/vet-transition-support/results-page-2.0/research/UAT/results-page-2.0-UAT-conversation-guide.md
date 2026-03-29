@@ -1,3 +1,33 @@
+---
+title: "Conversation Guide for Vet Transition Support, Results Page 2.0 UAT, March 2026"
+author: Anna Carey
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+team: Vet Transition Support
+portfolio: benefits
+product: Discover Your Benefits - Results Page 2.0
+research_phase: validation
+research_method: uat
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: Internal VA staff for informal UAT testing of Results Page 2.0
+related_research_plan: N/A
+related_prototype: https://staging.va.gov/discover-your-benefits/introduction
+tags:
+  - discover-your-benefits
+  - results-page
+  - transitioning-service-members
+  - UAT
+  - vet-transition-support
+  - benefits-eligibility
+  - informal-testing
+description: Informal user acceptance testing with internal VA staff for Results Page 2.0 usability evaluation.
+recording_required: true
+observer_support: true
+consent_for_clips: true
+date: "2026-03"
+---
+
 # Conversation Guide for UAT - Results Page 2.0
 
 This study evaluates Results Page 2.0 for usability. Participants are recruited internally instead of using standard recruitment through Perigean. Because they are technically savvy, we are doing an abbreviated and informal testing process.

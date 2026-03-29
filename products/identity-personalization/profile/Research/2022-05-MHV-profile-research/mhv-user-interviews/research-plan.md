@@ -114,6 +114,16 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/mhv-profile-research"
     
 tags:
+  - profile
+  - MHV
+  - my-healthevet
+  - interviews
+  - authenticated-experience
+  - health-care
+  - migration
+  - user-research
+  - authenticated
+  - research-plan
   - "AUD: Veterans"
   - "PRDT: Profile"
   - "MHV: MyHealth"

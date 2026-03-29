@@ -1,109 +1,110 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Benefits Decision Reviews, Supplemental Claims PACT Act, January 2023"
+date: 2023-01-23
+last_updated: 2023-01-23
+team: "Benefits Decision Reviews"
+product: "Supplemental Claims - PACT Act Presumptive Conditions"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans filing PACT Act eligible presumptive condition claims need to file Supplemental Claims without providing new evidence, removing burden of proof"
+  product_location: "VA.gov - Supplemental Claims form (20-0995)"
+  user_familiarity: "New process for PACT Act eligible claims starting January 2023"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/decision-reviews/Supplemental-Claims/readme.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
+    facility: "Remote via mobile prototype"
+    point_of_contact: "Research team"
+    equipment: "Mobile device or browser for prototype testing"
   moderated: true # Options: true, false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine if the process of filing a PACT-eligible Supplemental Claim is clear and actionable"
+  - goal_2: "Determine if users understand what presumptive conditions are and what happens when they submit claim without evidence"
+  - goal_3: "Validate that users can successfully and confidently submit a claim with or without adding evidence"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans understand if this is the right form for them?"
+  - "Do Veterans understand the requirements for submitting a Supplemental Claim?"
+  - "Do Veterans feel confident when submitting a form they think is a PACT-eligible claim?"
+  - "Do Veterans understand what presumptive conditions are?"
+  - "Can Veterans submit claims without evidence and understand the implications?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "All Veterans will be able to confidently complete a Supplemental Claim"
+  - "Veterans will understand the decisions they need to make with content presented to them"
+  - "Veterans are more likely to achieve favorable outcome by submitting Supplemental Claim via this digital experience"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Use findings to iterate on anything critical that impedes form completion, add enhancements to backlog, and refine MVP"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who have filed disability claims"
+    - "Experience with or awareness of PACT Act"
+    - "Able to access mobile prototype"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Variation in age, location, tech experience"
+    - "Mix of mobile and desktop users"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you filed a disability claim with VA?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 8
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-01-20"
+  pilot_participant: "Internal team member"
+  research_dates: "2023-01-23 to 2023-02-03"
+  research_review_submission: "2023-01-13"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Increase the usage and throughput of VA services"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Support PACT Act implementation for faster claim processing"
+  - objective: "Decrease the time Veterans spend waiting for an outcome"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Enable Supplemental Claims without evidence for presumptive conditions"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Serving"
+  - "Getting out"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/decision-reviews/Supplemental-Claims"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "supplemental-claims"
+  - "PACT-Act"
+  - "usability-testing"
+  - "decision-reviews"
 ---
 
 # Research Plan for Benefits Decision Reviews, Supplemental Claims, PACT, 01/23

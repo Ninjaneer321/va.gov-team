@@ -1,98 +1,99 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Address Validation for Pre-Need Application (VA Form 40-10007), February 2024"
+date: 2024-02-01
+last_updated: 2024-02-01
+team: "Burials and Memorials"
+product: "Pre-Need Burial Application (VA Form 40-10007)"
+product_area: "authenticated, unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The pre-need application doesn't utilize validation for addresses, causing delays in eligibility determinations as NCSO analysts must manually verify incorrect data. Testing new address validation pattern to ensure accurate data collection."
+  product_location: "Burials and Memorials hub on VA.gov"
+  user_familiarity: "Iteration - adding address validation to existing form"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/burials-memorials/pre-need/README-2023.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "moderated usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Test the usability of address validation solution for easy use and accessibility while testing all possible use cases for VADS adoption"
+  - goal_2: "Discover how users approach having an additional step to validate addresses in the pre-need application"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do users interact with the address validation pattern?"
+  - "Do users understand why address validation is required?"
+  - "Can users successfully complete address validation across different use cases?"
+  - "Are there accessibility issues with the address validation pattern?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will be able to successfully validate their addresses using the new pattern"
+  - "The address validation step will be intuitive and not cause confusion"
+  - "The pattern will work for all user groups including assistive technology users"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Evaluate gaps in address validation for future iterations and ensure the design pattern meets VA.gov Design System standards"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans, service members, or family members"
+    - "Mix of mobile and desktop users"
+    - "Include assistive technology users"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse age range"
+    - "Geographic diversity"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you or would you consider applying for pre-need burial eligibility?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 8
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-02-05"
+  pilot_participant: "TBD"
+  research_dates: "2024-02-12 to 2024-02-23"
+  research_review_submission: "2024-02-01"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Solidify the VA.gov platform"
+    key_results: []
+  - objective: "Enhance Veterans' personalized online experience"
+    key_results: []
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Serving"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
+  - "Dying"
     
 # Research Repository Tracking
 related_research:

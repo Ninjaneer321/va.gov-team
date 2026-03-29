@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Your VA Benefit Letters and Documents Release Plan
+services: Claim Appeal Status
+tags: appeals, claims, release
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/letters-and-documents/release-plan.md
+---
 # Your VA Benefit Letters and Documents Release Plan
 
 | Toggle name                                                                              | Description                                        |

@@ -1,109 +1,119 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "UAT for My VA Redesign 2.0, June 2021"
+date: 2021-06-01
+last_updated: 2021-06-01
+team: "Authenticated Experience"
+product: "My VA 2.0 Redesign"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Testing the new My VA page to reduce redundancy with homepage, elevate personally relevant information, scale gracefully, prioritize wayfinding, and effectively use visual space"
+  product_location: "My VA dashboard on VA.gov"
+  user_familiarity: "Major redesign of existing My VA page"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/2.0-redesign/README.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "User Acceptance Testing (UAT)"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Test My VA loading sections properly for LOA3 users"
+  - goal_2: "Verify disability rating, claims, health care, and benefits sections display correctly"
+  - goal_3: "Confirm all links and navigation work as expected"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Is My VA loading all sections when it should be for LOA3 users?"
+  - "Can users get to My VA from the VA.gov homepage?"
+  - "Do disability rating, name tag, claims, health care, and benefits sections display correctly?"
+  - "Do all links work properly?"
+  - "Do error states display correctly when applicable?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "My VA will work as expected, but we will discover some bugs that we did not previously know about"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Identify and fix bugs before launching the new My VA page to all users"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment for specific user scenarios"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "5 participants with VA health care eligibility"
+    - "5 participants with active claims or appeals"
+    - "3 participants with current disability rating"
+    - "All participants must be LOA3 (identity verified) on VA.gov"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Ability to screenshare via Zoom"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Can you access your VA.gov profile without being prompted to verify your identity?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-06-22"
+  pilot_participant: "TBD"
+  research_dates: "2021-06-22 to 2021-06-29"
+  research_review_submission: "2021-06-15"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 30
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 8
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Logged-in users can update their personal information easily and instantly"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Improved personalized dashboard experience"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Consolidated My VA dashboard"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/2.0-redesign/product/Research%20V2/MyVA2-research-plan.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - my-va
+  - uat
+  - user-acceptance-testing
+  - redesign
+  - my-va-2.0
+  - authenticated-experience
+  - personalization
+  - dashboard
+  - disability-rating
+  - claims
+  - health-care
+  - benefits
+  - LOA3
+  - research-plan
 ---
 
 # Research Plan for My VA UAT

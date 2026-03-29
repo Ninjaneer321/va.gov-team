@@ -1,3 +1,27 @@
+---
+type: conversation_guide
+title: VAMC CMS Image Uploader Pre-Study Conversation Guide
+study_name: VAMC CMS Image Uploader Pre-Study
+date: 2024-01-01
+research_lead: TBD
+moderator: TBD
+observers: []
+participants: TBD
+session_duration: 60
+tags:
+  - facilities
+  - VAMC
+  - CMS
+  - image-upload
+  - discovery
+research_questions:
+  - How do CMS users currently upload and manage images?
+  - What pain points exist in the image upload workflow?
+methodology: Semi-structured interviews
+product: VA Medical Centers CMS
+team: Facilities
+status: active
+---
 # Conversation Guide
 
 ## **Moderator logistics**

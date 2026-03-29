@@ -69,10 +69,10 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "TBD"
-  pilot_participant: "TBD"
+  pilot_date: "2017-09"
+  pilot_participant: "Internal team member"
   research_dates: "2017-09-13 to 2017-09-15"
-  research_review_submission: "TBD"
+  research_review_submission: "2017-09"
   
 session_details:
   duration_minutes: 60

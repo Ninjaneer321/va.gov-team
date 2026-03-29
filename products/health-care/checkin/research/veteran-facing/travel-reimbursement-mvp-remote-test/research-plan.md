@@ -1,109 +1,139 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Check-in Team, Travel Reimbursement MVP, August 2022"
+date: 2022-08-04
+last_updated: 2022-08-04
+team: "Healthcare Experience - Check-in"
+product: "Patient Check-in"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need a way to file for travel reimbursement as part of the check-in process to reduce friction and increase claim submission rates. The current process requires Veterans to separately file travel claims, creating barriers to accessing their benefits."
+  product_location: "VA.gov check-in experience"
+  user_familiarity: "New feature"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/product/product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "moderated usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine if Veterans prefer to be asked if they're interested in filing for travel reimbursement as a precursor to reviewing and confirming their eligibility and how that impacts overall app ease of use"
+  - goal_2: "Measure the cognitive load when Veterans review and confirm their travel reimbursement eligibility within two prototypes"
+  - goal_3: "Determine how easy it is to understand what to do next on the confirmation page in relation to travel reimbursement"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans feel more grounded when asked if they're interested in filing for travel reimbursement as a precursor to reviewing and confirming their eligibility?"
+  - "Do Veterans prefer being asked if they're interested in filing as a precursor even if it increases the number of pages in the experience?"
+  - "How well do each of the two prototypes fit within the existing PCI userflow for the happy path and alternative paths?"
+  - "Is it confusing to check in for an appointment and submit for travel pay at the same time?"
+  - "Would knowing that VA checks your travel reimbursement eligibility after your claim is submitted deter you from filing a claim within PCI?"
+  - "On a scale of 1 to 10, how much strain do Veterans experience when reviewing and confirming their travel reimbursement eligibility?"
+  - "How easy is it to understand what to do next on the confirmation page for travel reimbursement?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Most Veterans prefer to see the eligibility information when being asked if they'd like to file for travel reimbursement, therefore prefer Prototype B over Prototype A"
+  - "Most Veterans prefer engaging with fewer web pages, therefore prefer Prototype B over Prototype A"
+  - "Most Veterans will think there is more mental strain when reviewing and confirming eligibility criteria on a single page, therefore prefer Prototype C over Prototype B"
+  - "Most Veterans will think the confirmation page for the happy path does a good job communicating that they're checked in for their appointment and their travel pay claim was submitted successfully"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Understand Veterans' mental model of filing travel reimbursement as part of check-in to inform travel reimbursement MVP user experience improvements"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "targeted recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Participants must join from an iPhone"
+    - "Participants must have Zoom installed on their iPhone"
+    - "Participants must be able to screen share using Zoom"
+    - "Participants must be comfortable sharing their screen"
+    - "Have been to a VA health care facility for a medical appointment in the last 12 months"
+    - "Have filed or received payment for a travel reimbursement claim for a VA medical appointment in the last 12 months"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 1 Native American Veteran"
+    - "At least 1 Veteran in the LGBTQ+ community"
+    - "At least 1 Veteran with honorable discharge"
+    - "At least 1 immigrant Veteran"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you own and use an iPhone?"
+      qualifying_response: "Yes"
+    - question: "Are you willing to share your screen using Zoom?"
+      qualifying_response: "Yes"
+    - question: "Have you been to a VA health care facility for a medical appointment for yourself in the last 12 months?"
+      qualifying_response: "Yes"
+    - question: "Have you filed or received payment for a travel reimbursement claim for a VA medical appointment in the last 12 months?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 20
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 20
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-08-11"
+  pilot_participant: "Kristen McConnell, Lori Pusey, Brian Seek"
+  research_dates: "2022-08-15 to 2022-08-23"
+  research_review_submission: ""
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increase Veteran satisfaction with VA.gov"
+  - objective: "Veterans can manage their health services online"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Increase use of digital self-service tools"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Living civilian life"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin/discovery/travel-reimbursement"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "patient-check-in"
+  - "PCI"
+  - "HCE"
+  - "check-in"
+  - "travel-reimbursement"
+  - "BTSSS"
+  - "MVP"
+  - "remote"
+  - "usability-testing"
+  - "evaluative"
+  - "moderated"
+  - "veterans"
+  - "mobile"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Check-in"
+  - "PRDT: Travel-reimbursement"
+study: Check-in Team, Travel Reimbursement MVP
+type: Usability
 ---
 
 # Patient Check In Research Plan for Travel Reimbursement MVP Remote Usability Test

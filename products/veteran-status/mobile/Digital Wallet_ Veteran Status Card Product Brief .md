@@ -62,6 +62,7 @@ O1: VA’s digital experiences are the easiest and most efficient way to access 
 |8/27/2025| Provide a user experience within the mobile app, that shows users who have already downloaded their Veteran Status Card to their digital wallet that they have taken this action.| This feedback was given to MFS during Midpoint Review. Michelle approved that UX can move forward with this work and remove the feedback-to-vet label in a team Slack channel.|
 |9/22/2025| Removed the feedback to vet label to clarify how to access disability rating.| This feedback was given to MFS during Midpoint Review. Michelle approved that UX can remove the feedback-to-vet label during the UX // PO sync.|
 |9/29/2025| Removed the feedback to vet label to provide a success state when a user adds their VSC to the digital wallet.| This feedback was given to MFS during Midpoint Review. Michelle approved that UX can remove the feedback-to-vet label during the UX // PO sync.|
+|11/3/2025| If users need to update their VSC they will use the app-mediated refresh model.| To reduce the risk of a security incident, we will not allow Apple Wallet to refresh VSC passes directly via webServiceURL. These findings are documented [here](https://github.com/department-of-veterans-affairs/va-mobile-feature-support/issues/960#issuecomment-3482251532) |
 
 ## Reference Materials
 

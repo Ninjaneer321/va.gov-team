@@ -1,109 +1,123 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience, Add Email Notifications, January 2023"
+date: 2023-01-01
+last_updated: 2023-01-24
+team: "Authenticated Experience"
+product: "Profile - Notification Preferences"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "As notification settings grow with additional channels and notifications, we need to evaluate how the current auto-save pattern works for users and determine if the editing model needs to change."
+  product_location: "VA.gov Profile > Notification settings section"
+  user_familiarity: "Iteration - evaluating existing pattern with expanded notifications"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/notification-preferences/README.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Remote moderated usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Learn how single page, auto-save works for users when all known notifications are represented"
+  - goal_2: "Learn what information needs to be surfaced to make current settings and options clear"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "In our current auto-save pattern, how easily are people able to find and interact with relevant notifications when there are more than 4 notifications and multiple channels?"
+  - "Does the auto-save functionality present any usability hurdles for people?"
+  - "Does a read/edit pattern make editing easier than the auto-save pattern?"
+  - "What level of information do people need to decide whether they want to edit/update their preferences?"
+  - "Are mobile and desktop views equally usable?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The auto-save design will allow people to understand their options and read through the list of notifications with relative ease"
+  - "The auto-save function will cause minor confusion for some users because they want to press a button to confirm a change"
+  - "Users will want to quickly understand whether a setting is turned on or off, and by what channel, without clicking - this will be more intuitive with auto-save than read/edit model"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will help us determine if we need to change our editing model in the next design iteration of notification settings."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Veterans with VA health care, cognitive disabilities, 55+"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must be Veterans"
+    - "Must have used My HealtheVet within last 12 months"
+    - "Must have received text message or email notification from VA within last 12 months"
+    - "Must require screenreader (recruit 4 participants)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Must be over age 55 (recruit 6)"
+    - "Have identified cognitive impairment (recruit 8)"
+    - "Must identify as other than Caucasian (recruit 6)"
+    - "Must identify as gender other than male (recruit 6)"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you signed into the My HealtheVet website at least once in the last 12 months?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-01-17"
+  pilot_participant: "Shane Strassberg (shane.strassberg@va.gov)"
+  research_dates: "2023-01-19 to 2023-01-24"
+  research_review_submission: "2023-01-01"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 45
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Enhance Veterans' personalized online experience"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Improve notification settings usability"
+  - objective: "Integrate the health portal features into VA.gov"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Support MHV notification settings in VA.gov profile"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Living Civilian Life"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/notification-preferences/discovery-and-research/README.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - profile
+  - notification-preferences
+  - usability-testing
+  - email
+  - authenticated-experience
+  - notifications
+  - communication-preferences
+  - authenticated
+  - research-plan
+  - "profile"
+  - "notification-preferences"
+  - "usability-testing"
+  - "authenticated-experience"
 ---
 
 # Research plan for Authenticated Experience, Add Email Notifications, January 2023

@@ -1,36 +1,30 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: Vaccination Services Taxonomy Conversation Guide
+author: Chris Logan, Facilities Team
+date_created: 2020-12-01
+last_modified: 2020-12-01
+team: "Facilities"
+portfolio: "health"
+product: "Facility Locator - Health Services Taxonomy"
+research_phase: "discovery"
+research_method: "card_sort"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who visit VA facilities for healthcare"
+related_research_plan: "products/facilities/vaccination-taxonomy/research-plan.md"
+related_prototype: "https://adhoc.optimalworkshop.com/optimalsort/b4vhg8q4-0"
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+- facilities
+- vaccination
+- taxonomy
+- card-sort
+- health-services
+description: "Discovery research using card sort to understand how Veterans categorize and find vaccination services in facility health services pages."
 recording_required: true
 observer_support: true
 consent_for_clips: true
+date: '2020-12-01'
 ---
-
 # Conversation Guide: Vaccination Services Taxonomy 
 
 **December 2020 Discovery**

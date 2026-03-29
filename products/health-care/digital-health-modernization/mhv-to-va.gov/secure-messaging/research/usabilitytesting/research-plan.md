@@ -1,109 +1,112 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Secure Messaging Usability Testing Round 2, September-October 2022"
+date: 2022-09-01
+last_updated: 2022-09-01
+team: "MHV on VA.gov"
+product: "My HealtheVet"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Test updates to Secure Messaging prototype based on Round 1 feedback and evaluate additional functionality not tested in Round 1"
+  product_location: "VA.gov My HealtheVet - Secure Messaging"
+  user_familiarity: "Iteration - Round 2 usability testing with updated prototype"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Identify major usability or content issues with the current prototype of secure messaging in MHV on VA.gov"
+  - goal_2: "Identify major usability issues with untested components (tertiary buttons, toolbar, attach/remove buttons)"
+  - goal_3: "Assess user experiences with updated content that aims to protect Veterans' safety"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans understand that the Search function only searches within a particular folder?"
+  - "Do Veterans understand how to create folders, store messages in folders, and rename or delete folders?"
+  - "How do users reply to a message in the updated prototype?"
+  - "Do Veterans notice and understand the information about who to call in case of an emergency?"
+  - "Do users understand how to use non-validated components?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "With the updated prototype, Veterans will understand how to find, organize, and reply to messages from their healthcare providers"
+  - "Veterans will not be put at additional risk of adverse outcomes based on the updated patient safety content"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Results will inform further iterations of Secure Messaging design to improve usability and safety"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "diverse sample across age, abilities, and ethnicities"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All must have been to a VA health care facility for a medical appointment in the last 12 months"
+    - "At least 12 participants must regularly use Secure Messaging"
+    - "At least 12 participants who are mobile users"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "12 participants over the age of 55 years"
+    - "12 participants with cognitive disabilities"
+    - "6 participants who identify as women"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you been to a VA health care facility for a medical appointment in the last 12 months?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 24
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 24
+  completed_sessions_goal: 18
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2022-09-15 to 2022-10-15"
+  research_review_submission: "TBD"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 15
+  max_sessions_per_day: 6
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Logged-in users have a personalized experience"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results:
-      - "[Specific KR if applicable]"
+      - "TBD"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/SecureMessaging_Round1_Usability"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "secure-messaging"
+  - "usability-testing"
+  - "veterans"
+  - "MHV"
 ---
 
 # Research Plan for HMI team, Secure Messaging, September/ October 2022

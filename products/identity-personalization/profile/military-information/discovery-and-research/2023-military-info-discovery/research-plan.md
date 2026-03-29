@@ -107,6 +107,16 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/Combine%20Profile%20and%20Account#readme"
     
 tags:
+  - profile
+  - military-information
+  - discovery
+  - interviews
+  - authenticated-experience
+  - DD214
+  - discharge-status
+  - service-history
+  - authenticated
+  - research-plan
   - "AUD: Veterans"
   - "PRDT: VA.gov Profile"
   - "PRDT: Profile-military-information"

@@ -100,10 +100,12 @@ related_research:
     - "[Link to related past research]"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "clinical-decision-support"
+  - "CDS"
+  - "template"
+  - "research-template"
+  - "BNFT: Healthcare"
 ---
 
 

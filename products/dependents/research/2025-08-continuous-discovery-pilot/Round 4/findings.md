@@ -66,7 +66,6 @@ demographics:
 key_findings:
   - "4 of them had spouses as dependents"
   - "2 of them had children as dependents"
-  - "2 of them had verified their dependents before"
   - "2 said they had been asked by VA to verify information but this was after or while they were in the process of making changes to their dependents so I don't think that they were the traditional 8-year verification requests"
   - "3 of 5 said that they did not looked at their dependent information unless VA requested it"
   - "1 said that they saw their dependent information once a year in a letter that VA sends to them"
@@ -104,82 +103,112 @@ tags:
   - "continuous-discovery"
 ---
 
-##Participant Demographics
-- 5 Veterans
-    
-- 4 of them had spouses as dependents
-- 2 of them had children as dependents
+The goal of this cohort was to learn more about how to communicate with Veterans about dependent verification. For more information about the study please see the conversation guide.  
 
-- 2 of them had verified their dependents before
-- 2 said they had been asked by VA to verify information but this was after or while they were in the process of making changes to their dependents so I don't think that they were the traditional 8-year verification requests
+The participants’ reactions to the language in the artifacts varied significantly across the different participants and more data is needed to determine trends. We recommend continuing to study how to message the verification process with a larger group of veterans. 
 
-- 3 of 5 said that they did not looked at their dependent information unless VA requested it
-- 1 said that they saw their dependent information once a year in a letter that VA sends to them
-- the final participant said that they had recently reviewed their dependent information in a dedicated spot in the VA app, to our knowledge the dependent information isn't in the app, it may be in some letters in the app
+### Participant characteristics  
 
-- 3 of 5 mentioned or gave examples of how they were very security conscious
+- For this continuous discovery cohort we spoke with five Veterans. All of them had dependents on their disability compensation benefit. (Four of them had spouses as dependents, two had children) 
+- Two participants said that they had been asked by VA to verify information. It was not clear if these cases were dependent verification requests or other cases such as VA working a claim to gather additional needed information
+- Three of the five participants said that they did not look at their dependent information unless VA requested it
+     - One said that they saw their dependent information once a year in a letter that VA sends to them
+     - Another participant said that they had recently reviewed their dependent information in a dedicated spot in the VA app, to our knowledge the dependent information isn't in the app, it may be in some letters in the app
+- Three of the five participants mentioned, or gave examples of, how they were very security conscious
 
 
-## Feedback
+### Findings per participant
 
-### Design A (Please confirm)
-- mandatory
-- made them concerned (add that this is routine, VA is not sending you this because they think you are lying)
+Participant 1 said that they did not have a preference and it is "all about the correct amount whether they say it or not".
 
-- mandatory
-- if you don't complete it you will lose benefits
-- no concerns
 
-- "Action seems to be more pertinent . . . It sounds more like it's saying, are these the correct dependents? Are these really your dependents?"
-- Including the title of the form made it seem more official
-- The subject also added weight
-- Seemed like a request but in a "I recommend that you take care of this. . . . Definitely more . . . you need to do this"
-- Important to do because it affects benefits
-- He is not concerned
+Participant 2 said that they did not have a preference and that which option is best would depend on the person.
 
-- Mandatory if you want to keep receiving benefits
 
-- No concerns raised by the message
+ Participant 3 said that they preferred the “Action needed: We need you to verify your dependents” option but to include the plain language form title and say "Need" if VA wants them to do it.
+
+
+Participant 4 said that the headline “Action needed: Please confirm the dependents on your disability benefit” explains that this is important, why it is important, and "what the action is".
+
+
+Participant 5 said that the language of “Dependent re-verification needed” was "short and to the point" and the message explains why it is important. They recommended adding language about how the process is routine.  
+
+It is worth noting that the two participants who had been asked to confirm information about their dependents were the two participants who did not have a preference for one of the different options presented.
+
+
+### Findings per artifact  
+
+**Design A (Please confirm)**  
+
+Participant 1:
+   - No concerns raised by the message
+
+Participant 2:
+   - Mandatory if you want to keep receiving benefits
+
+Participant 3:
+   - "Action seems to be more pertinent . . . It sounds more like it's saying, are these the correct dependents? Are these really your dependents?"
+   - Including the title of the form made it seem more official
+   - The subject also added weight
+   - Seemed like a request but in a "I recommend that you take care of this. . . . Definitely more . . . you need to do this"   
+   - Important to do because it affects benefits
+   - No concerns raised by the message
+
+Participant 4:
+   - Seemed mandatory
+   - If you don't complete it you will lose benefits
+   - No concerns raised by the message
+
+Participant 5:
+   - Seemed mandatory
+   - Made them concerned (add that this is routine, VA is not sending you this because they think you are lying)
 
 
 ### Design B (Dependent re-verification meeded)
-- "this one gives me anxiety", specifically the references to overpayment and paying money back
-- seems optional but you might not get paid
 
-- headline is "self-explanatory"
-- gives necessary information about what would happen if you don't take action
+Participant 1:
+   - Not very urgent
+   - No concerns raised by the message
 
-- did not seem required, seemed like a reminder
-- seemed "open ended" on the severity or importance of the task
+Participant 2:
+   - Seemed mandatory
 
-- Mandatory
-  
-- Not very urgent
-- No concerns raised by the message
+Participant 3:
+   - Did not seem required, seemed like a reminder
+   - Seemed "open ended" on the severity or importance of the task
+
+Participant 4:
+   - Headline is "self-explanatory"
+   - Gives necessary information about what would happen if you don't take action
+
+Participant 5:
+   - "This one gives me anxiety", specifically the references to overpayment and paying money back
+   - Seems optional but you might not get paid
 
 
 ### Design C (Need you to verify)
 
-- prefers the language- "less harsh"
-- seems optional but might not receive compensation
-- "doesn't expressly say this is required" but he would still check his dependents right away
+Participant 1:
+   - The importance that advise conveys isn't very urgent
+   - No concerns raised by the message
 
-- no concerns
-- mandatory or your check will be decreased
+Participant 2:
+   - Doesn't include that they could lose money, thinks that this is important to include
 
-- Title draws attention
-- Advising is stronger language than recommend or request
-- Giving this reason why they should verify might make people respond more quickly
+Participant 3:
+   - Title draws attention
+   - Advising is stronger language than recommend or request
+   - Giving this reason why they should verify might make people respond more quickly
 
-- Doesn't include that they could lose money, thinks that this is important to include
+Participant 4:
+   - No concerns raised by the message
+   - Mandatory or your check will be decreased
 
-- the importance that advise converys isn't very urgent
-- No concerns raised by the message
-  
+Participant 5:
+   - Prefers the language- "less harsh"
+   - Seems optional but might not receive compensation
+   - "Doesn't expressly say this is required" but he would still check his dependents right away
 
-### Design Preference: 
-- DV needed "short and to the point", tells why it is important, add language about how this is routine
-- Headline from please confirm (says this is important, why it is important, and "what the action is"
-- Need you to verify but add the plain language form title and say "Need" if VA wants them to do it
-- No preference, depends on the person
-- No preference, it is "all about the correcgt amount whether they say it or not"
+
+### Next steps  
+Continue testing language around dependent verification with a larger group of participants. We won’t be able to continue this specific testing during the next round of continuous discovery because higher priority questions have come up.

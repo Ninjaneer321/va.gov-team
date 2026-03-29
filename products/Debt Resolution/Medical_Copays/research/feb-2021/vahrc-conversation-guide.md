@@ -1,36 +1,50 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+# Conversation Guide Metadata
+title: "Conversation Guide for Debt Resolution Team, VA Health Resource Center SME Interviews, February 2021"
+author: "Debt Resolution Team"
+date_created: "2021-02-01"
+last_modified: "2026-03-23"
+team: "Debt Resolution Team"
+product: "Medical Copayments - VHA Debt Integration"
+product_area: "authenticated"
+portfolio: "Health"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Research Context
+study_name: "VA Health Resource Center Subject Matter Expert Interviews"
+research_phase: "Discovery"
+research_type: "Subject matter expert interviews"
+research_method: "Remote moderated interviews with VAHRC staff"
+session_format: "Remote moderated sessions"
+session_duration: "60 minutes"
+participant_type: "VA Health Resource Center staff who assist Veterans with copayments"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Research Planning
+related_research_plan: ""
+related_prototype: ""
+environment: "Discovery interviews"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
-tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+# Logistics
 recording_required: true
+consent_for_clips: false
 observer_support: true
-consent_for_clips: true
----
 
+# Tags
+tags:
+  - "research"
+  - "conversation-guide"
+  - "moderated-research"
+  - "discovery"
+  - "SME-interviews"
+  - "medical-copays"
+  - "debt-resolution"
+  - "VAHRC"
+  - "VHA-debt"
+  - "health-care"
+  - "call-center"
+  - "stakeholder-research"
+
+description: "Discovery conversation guide for SME interviews with VA Health Resource Center staff. Explores operations, Veteran challenges with copayments, call center workflows, and department interactions in the VHA debt process. Gathers insights from frontline staff to inform online copayment tool design and integration into VA.gov debt portal."
+---
 # Random SMEs Interview Conversation Guide
 
 ## Moderator logistics

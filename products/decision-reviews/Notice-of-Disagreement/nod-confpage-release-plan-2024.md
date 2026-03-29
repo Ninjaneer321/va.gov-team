@@ -1,3 +1,13 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Release Plan NOD Confirmation Page Updates
+date: December 2, 2024
+services: Decision Reviews
+tags: decision-reviews, release
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/decision-reviews/Notice-of-Disagreement/nod-confpage-release-plan-2024.md
+---
 # Release Plan NOD Confirmation Page Updates 
 
 ## Release Plan Overview

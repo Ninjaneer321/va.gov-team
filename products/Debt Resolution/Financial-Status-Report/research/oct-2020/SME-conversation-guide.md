@@ -1,36 +1,49 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+# Conversation Guide Metadata
+title: "Conversation Guide for Debt Resolution Team, FSR SME Interviews, October 2020"
+author: "Debt Resolution Team"
+date_created: "2020-10-01"
+last_modified: "2026-03-23"
+team: "Debt Resolution Team"
+product: "Financial Status Report (VA Form 5655)"
+product_area: "authenticated"
+portfolio: "Benefits"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Research Context
+study_name: "Financial Status Report Subject Matter Expert Interviews"
+research_phase: "Discovery"
+research_type: "Subject matter expert interviews"
+research_method: "Remote moderated interviews with VA phone representatives"
+session_format: "Remote moderated sessions"
+session_duration: "60 minutes"
+participant_type: "VA phone representatives who assist Veterans with FSR"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Research Planning
+related_research_plan: ""
+related_prototype: ""
+environment: "Discovery interviews"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
-tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+# Logistics
 recording_required: true
+consent_for_clips: false
 observer_support: true
-consent_for_clips: true
----
 
+# Tags
+tags:
+  - "research"
+  - "conversation-guide"
+  - "moderated-research"
+  - "discovery"
+  - "SME-interviews"
+  - "debt-resolution"
+  - "FSR"
+  - "form-5655"
+  - "financial-status-report"
+  - "phone-representatives"
+  - "stakeholder-research"
+
+description: "Discovery conversation guide for SME interviews with VA phone representatives who assist Veterans completing the Financial Status Report (Form 5655). Explores common questions, challenges Veterans face, escalation scenarios, and insights for digitizing the FSR form. Informs FSR MVP design based on frontline support staff experience."
+---
 FSR SME Interview Conversation Guide
 ====================================
 

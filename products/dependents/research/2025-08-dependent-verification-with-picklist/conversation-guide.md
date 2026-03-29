@@ -1,41 +1,24 @@
 ---
-title: "Conversation Guide for Dependent Management Team, Picklist in Dependent Verification, August 2025"
-author: "David Kennedy, Megan Graham"
-date_created: "2025-08-14"
-last_modified: "2025-08-14"
-
-# NEW: Core research metadata
-team: "Dependent Management Team"
-portfolio: "benefits"
-product: "Dependent Verification"
-research_phase: "usability"
-research_method: "usability_test"
-
-# NEW: Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans with dependents on their VA disability benefits who need to verify or update dependent information"
-
-# NEW: Related documents
-related_research_plan: "products/dependents/research/2025-08-dependent-verification-with-picklist/research-plan.md"
-related_prototype: "https://www.figma.com/proto/AM5gVqcdLtWazrjTqwqykN/DV-Picklist-V2"
-
+title: Conversation Guide for Benefits Dependents, Dependents Verification, 2025 08
+author: Ajia Wallace
+date_created: '2025-08-01'
+last_modified: '2025-08-01'
+team: Benefits Dependents
+portfolio: benefits
+product: Dependents Verification
+research_phase: usability
+research_method: usability_test
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: Veterans who need to verify dependents
+related_research_plan: products/dependents/research/2025-08-dependent-verification-with-picklist/research-plan.md
+related_prototype: N/A
 tags:
-  - "AUD-Veteran"
-  - "BNFT-Disability"
-  - "BNFT-Dependents"
-  - "PRDT-dependent-verification"
-  - "PRDT-686c"
-  - "PRDT-form-21-686c"
-  - "usability-testing"
-  - "DSP-form-flow"
-  - "DSP-picklist"
-  - "DSC-radio-button"
-  - "DSC-checkbox"
-  - "prototype-testing"
-description: "Usability testing comparing two prototypes for dependent verification with picklist functionality, evaluating Veterans' ability to report life changes and add/remove dependents on VA disability benefits."
-
-# NEW: Compliance flags
+- dependents
+- verification
+- usability-testing
+- picklist
+description: Usability testing of dependents verification with picklist feature.
 recording_required: true
 observer_support: true
 consent_for_clips: true

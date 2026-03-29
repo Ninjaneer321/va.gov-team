@@ -1,3 +1,76 @@
+---
+# Research Plan Metadata
+title: "Research Plan for health-care, health-care, 2026-03-23"
+date: 2026-03-23
+last_updated: 2026-03-23
+team: "health-care"
+product: "health-care"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Research plan for recent care teams feature in secure messaging"
+  product_location: "VA.gov My HealtheVet Secure Messaging"
+  user_familiarity: "TBD - New product or iteration?"
+  product_brief_url: "TBD - Add product brief URL if available"
+
+# Research Design
+methodology: "Usability testing"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "TBD - Extract from research plan"
+  - goal_2: "TBD - Extract from research plan"
+
+research_questions:
+  - "TBD - Extract from research plan"
+
+hypotheses:
+  - "TBD - Extract from research plan if available"
+
+expected_outcomes: "TBD - How will findings advance the product?"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "TBD"
+  
+participants:
+  veterans: 0
+  caregivers: 0
+  dependents: 0
+  total_recruited: 0
+  completed_sessions_goal: 0
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  research_dates: "TBD"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 0
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "TBD"
+
+veteran_journey_phases:
+  - "TBD"
+    
+# Research Repository Tracking
+tags:
+  - health-care
+  - MHV
+  - secure-messaging
+  - care-teams
+  - research-plan
+---
+
 # Research Plan: Recent Care Teams Study  
 **UX Designer: Espy Thomson**
 
@@ -55,8 +128,8 @@ VA.gov authenticated experience
 
 `1.` Evaluate how many pages users should go through to write a message and how this impacts the overall experience.  
 `2.` Identify where assistive technology users encounter challenges in both current and proposed designs.  
-`3.` Assess how care systems and care teams are structured and explained to users.  
-`4.` Understand whether interstitial content is useful, clear, and supports task completion.  
+`3.` Identify and assess what strategies users are defaulting to in order to identify the correct care team 
+`4.` Understand what format of the interstitial content may be most easily understood by users. 
 `5.` Identify new and existing pain points in the message creation flow.  
 
 ### Outcome
@@ -71,27 +144,31 @@ The insights that come out of this research will inform the structure and usabil
 
 #### Care team selection & discovery  
 **`1.` How do users determine which care team to select when composing a message?**  
-- a. Does anything about the experience make users with multiple care systems struggle to identify the correct provider?  
-- b. How do users mentally organize or categorize care teams (by specialty, location, frequency of contact, provider name)? And how do they weigh each trait?  
-- c. Do users notice the recent care teams or look for other teams?  
-- d. What navigational features help users correctly identify the appropriate care team quickly and easily?  
+- a. A. Care system: Do users rely on the care system to narrow their list of care teams?
+- b. Do users search or scroll in the combo box when looking for a care team?
+- c. What categories of care teams do users normally message, including recent care teams?
+- d. What navigational features help users correctly identify the appropriate care team quickly and easily? 
 
 #### Task flow & friction points  
 **`2.` How do users experience the multi-step flow when composing a message?**  
-- a. What do users do when the care team they want isn't visible on the first page?  
-- b. Are there care teams users frequently seek but cannot find through the current interface?  
+- a. What do users do when the care team they want isn't visible on the first page?
+- b. How do users think a care team name shows up on the recent care teams page? 
+- c. Are there names they would expect to see here that they don’t? 
+- d. What do users do if this happens?
+
 
 #### Interstitial content engagement  
-**`3.` To what extent do users notice, understand, and engage with interstitial content?**  
-- a. Of users who see the interstitial, what information do they notice, register, and retain—and for how long?  
+**`3.` To what extent do users notice, understand, and engage with interstitial content?**   
 
 #### Accessibility  
 **`4.` How does the one-feature-per-page structure impact task completion for assistive technology users when composing a message?**
 
 #### Contact list  
 **`5.` How do users use or expect to use the contact list when selecting a care team?**  
-- a. Do users update their contact list when they do not see a relevant care team?  
-- b. When users cannot find a care team, what actions do they take?  
+- a. How do users think the contact list works?
+- b. What do users think happen if they add or remove care teams from the contact list?
+- c. When users cannot find a care team in their dropdown, what actions do they take?
+  
 
 #### Category selection  
 **`6.` How do users interpret and use message categories when composing a message?**  
@@ -116,7 +193,9 @@ The insights that come out of this research will inform the structure and usabil
 - b. How does the single-page structure align with user expectations?  
 - c. What changes would improve clarity, efficiency, or overall usability?  
 
-#### Concept C: Optional additional concept (if needed)
+#### Concept Comparison
+- Which parts of both concepts made it easier for you to address and send a message? Why?
+
 ---
 
 ### Hypotheses

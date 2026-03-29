@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for va-notify, va-notify, 2026-03-23"
+author: Elissa and
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "va-notify"
+portfolio: "Digital Communications"
+product: "va-notify"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VA Notify users managing reply-to addresses"
+
+# Related documents
+related_research_plan: "Custom Reply-To Research Plan"
+related_prototype: "N/A"
+
+tags:
+  - va-notify
+  - custom-reply-to
+  - notifications
+  - usability-testing
+  - conversation-guide
+description: "Conversation guide for custom reply-to feature research"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 ﻿
 
 # VA Notify Custom Reply-To Feature Conversation Guide for User Testing

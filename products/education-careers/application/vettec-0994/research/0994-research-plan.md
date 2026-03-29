@@ -1,110 +1,119 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VET TEC Application (Form 22-0994), January 2019"
+date: 2019-01-07
+last_updated: 2019-02-28
+team: "Education Services"
+product: "VET TEC Application (Form 22-0994)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans applying for VET TEC education benefits need to bypass unrelated questions and complete form as easily as possible with contextual help and pre-populated data"
+  product_location: "VA.gov Education section - VET TEC Application"
+  user_familiarity: "New product - first digital version of Form 22-0994"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/education-careers/application/vettec-0994"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability-testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand challenges Veterans face when applying for VET TEC educational benefits"
+  - goal_2: "Identify what VA needs from Veterans on Form 22-0994 for valid requests"
+  - goal_3: "Determine where conditional logic can display only relevant questions"
+  - goal_4: "Identify helpful contextual information to ensure valid requests"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What challenges or common pitfalls do Veterans face when attempting to apply for educational benefits?"
+  - "What information does the VA need to receive from Veterans on VA Form 22-0994?"
+  - "Where can we use conditional logic and branching to display only relevant questions?"
+  - "What information and/or contextual help would be helpful to ensure valid requests?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Presenting form in easy to use interview format will simplify the process"
+  - "Displaying only relevant questions will improve Veteran experience"
+  - "Pre-populating data will save Veteran time"
+  - "Contextual help will guide Veterans through completing the form"
+  - "Online form will increase satisfaction and confidence in applying for benefits independently"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Understand Veteran issues when completing form to write helpful instructional copy, learn intent behind questions to encourage accurate completion"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Target Veterans interested in high-tech education with remaining education benefits"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Either applied for VA educational benefits before OR interested in applying"
+    - "Have VA educational benefits remaining OR new applicants interested in VET TEC"
+    - "Interested in pursuing education in high-tech industry"
+    - "Age range 22-45 years old"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mix of new and returning education benefit users"
+    - "Interest in high-tech industry training"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you applied for VA educational benefits before?"
+      qualifying_response: "Either yes or no (if no, must be interested in applying)"
+    - question: "Do you have any VA educational benefits remaining?"
+      qualifying_response: "Yes (for prior users)"
+    - question: "Are you interested in pursuing education in the high-tech industry?"
+      qualifying_response: "Yes"
+    - question: "What is your age range?"
+      qualifying_response: "22-45 years old"
       
 participants:
-  veterans: 0
+  veterans: 6
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 8
+  completed_sessions_goal: 4
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2019-01-16"
+  pilot_participant: "Team member"
+  research_dates: "2019-01-18 to 2019-02-28"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can access education benefits"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Finding something to do"
+  - "Reinventing myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/education-careers/application/vettec-0994/research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "EDU: Education"
+  - "AUD: Veterans"
+  - "PRDT: VET-TEC"
+  - "PRDT: Form-22-0994"
+  - "PRDT: Education-benefits"
+  - "usability-testing"
+  - "user-interviews"
+  - "remote-moderated"
+  - "authenticated"
+  - "high-tech-training"
+  - "conditional-logic"
+study: "VET TEC Application (Form 22-0994)"
+type: "usability-testing"
 ---
+
 
 # Sprint Research Plan #
 ## VA Form 22-0994 ##

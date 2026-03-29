@@ -109,6 +109,8 @@ related_research:
   previous_studies: 
     - "Related to benefit letters redesign efforts"
     
+
+study: "Your VA benefit letters and documents research study"
 tags:
   - "benefit-letters"
   - "authenticated-experience"

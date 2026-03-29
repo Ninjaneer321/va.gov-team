@@ -1,110 +1,56 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Power of Attorney and Payment History Discovery Interviews"
+date: 2020-04-01
+last_updated: 2026-03-23
+team: "eBenefits"
+product: "Power of Attorney (Forms 21-22 & 21-22a) and Payment History"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Migrating eBenefits Power of Attorney (Forms 21-22 & 21-22a) and Payment History features to VA.gov. Need to understand user needs, current experiences, and pain points to inform migration and modernization. Veterans use POA forms to appoint representatives to help with claims; Payment History shows VA payments."
+  product_location: "VA.gov"
+  user_familiarity: "Migration from eBenefits"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ebenefits/view-update-POA"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
-  
+methodology: "Discovery Research, Semi-structured Interviews"
+research_format:
+  location: remote
+  moderated: true
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Document Veterans' expectations and experiences with POA and Payment History tools"
+  - goal_2: "Discover pain points in current eBenefits implementation"
+  - goal_3: "Understand how Veterans determine to employ a representative and verify payments"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Is the wizard intuitive to the Veterans?"
+  - "Do Veterans understand what the different Power of Attorney steps mean?"
+  - "What information do Veterans expect to see in search results and payment tables?"
+  - "How do users navigate the representative results and payment table?"
+  - "What other tools/sites do Veterans use to fill out POA forms or confirm payments?"
 
-hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+# Methodology Details
+research_type: "Generative"
+session_format: "Remote moderated directed interviews"
+timeline: "2020-04-21 to 2020-04-24"
 
-expected_outcomes: "[How will findings advance the product?]"
+# Participants
+participant_count: 10
+recruitment_criteria: "Veterans who receive VA payments and have a VSO or Attorney representative for a disputed claim"
 
-# Recruitment & Participants
-recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
-  
-  primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
-    
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
-participants:
-  veterans: 0
-  caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
-# Timeline & Sessions
-timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
-  
-session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
-  
-# Strategic Alignment
-octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
-      
-veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
-# Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
-tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+# Team
+moderator: "Nick Wygonik"
+notetaker: "Perigean, various"
+observers: "James Adams, Steve Kovacs, Jason Wolf, Shawna Hein, Kathleen Crawford, Derek Dyer, Micah Chiang, Jesse Cohn"
+
+# Tags
+tags: ['research', 'discovery', 'ebenefits', 'power-of-attorney', 'POA', 'payment-history', 'form-21-22', 'form-21-22a', 'authenticated', 'research-plan']
 ---
+
 
 # Research Plan for eBenefits Power of Attorney and Payment History
 
@@ -296,4 +242,3 @@ April 21-24, from 9:00 AM to 3:00 PM
 
 #### Approval
 Reviewed and approved by Lauren Alexanderson on 04/14/2020
-

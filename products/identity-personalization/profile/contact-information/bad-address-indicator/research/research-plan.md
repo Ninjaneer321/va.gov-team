@@ -1,109 +1,126 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Profile, Bad Address Indicator, May 2022"
+date: 2022-05-01
+last_updated: 2022-07-15
+team: "Profile Team"
+product: "Profile - Contact Information (Bad Address Indicator)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "When mail is returned to VA, addresses are marked as 'bad' in VA Profile. Currently 300K veterans have this flag. This effort encourages Veterans with flagged addresses to view and update or confirm their information."
+  product_location: "VA.gov Profile > Contact Information section"
+  user_familiarity: "New feature - adding bad address indicator alerts"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/contact-information/bad-address-indicator"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Remote usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate that proposed alert method successfully prompts Veterans to update their mailing address"
+  - goal_2: "Validate that alerts are easy to understand"
+  - goal_3: "Validate that Veterans can easily update or confirm their Mailing address by following these alerts"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do users notice the alerts?"
+  - "How urgent do Veterans consider the alerts?"
+  - "Are users inclined to ignore or follow the alerts?"
+  - "Can users understand the instructions included in the alerts?"
+  - "Do users understand how to update their address vs. confirm their address?"
+  - "Can users easily navigate to the Contact information page and Mailing address using alert links and jump links?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will easily locate the main alerts"
+  - "Veterans will use the alert links to reach the Mailing address field without difficulty"
+  - "Veterans may have difficulty understanding the alert instructions"
+  - "Veterans may have difficulty understanding how to update their address vs. how to confirm their address"
+  - "The design for the alerts will be effective at drawing attention to important information"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "We'll use the findings from this research to update our alert content and inform our MVP designs."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Lean maximum variation strategy"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must be LOA3 (identity verified) on VA.gov"
+    - "Must be able to screenshare via Zoom"
+    - "Must be comfortable providing email address used to sign into VA.gov"
+    - "50% should participate from desktop, 50% from non-desktop device"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "8 women, 8 men"
+    - "5 participants who use assistive technology (including 3 who use screen readers)"
+    - "8 participants with cognitive disabilities"
+    - "8 participants who identify as other than white"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you willing to share your screen with our moderator after you log in to VA.gov?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 16
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 16
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-06-28"
+  pilot_participant: "Angela Fowler (angela.fowler@adhocteam.us)"
+  research_dates: "2022-06-29 to 2022-07-15"
+  research_review_submission: "2022-05-01"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 45
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 8
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Increase the quality and reliability of VA services"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Logged-in users can update their personal information easily and instantly"
+      - "Logged-in users have a personalized experience, with relevant and time-saving features"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Living Civilian Life"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "N/A"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - profile
+  - contact-information
+  - bad-address-indicator
+  - usability-testing
+  - authenticated-experience
+  - address-validation
+  - mailing-address
+  - authenticated
+  - research-plan
+  - "profile"
+  - "contact-information"
+  - "bad-address-indicator"
+  - "usability-testing"
+  - "authenticated-experience"
 ---
 
 Research Plan for Profile, Bad Address Indicator, May 2022

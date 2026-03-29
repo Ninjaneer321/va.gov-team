@@ -1,40 +1,27 @@
 ---
-title: "Conversation Guide for Debt Resolution Team, Wizard Complete a Subtask Pattern, January 2025"
-author: "Charlotte Cesana"
-date_created: "2025-01-01"
-last_modified: "2025-01-01"
-
-# NEW: Core research metadata
-team: "Debt Resolution Team"
-portfolio: "benefits"
-product: "Combined FSR Wizard"
-research_phase: "usability"
-research_method: "usability_test"
-
-# NEW: Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans with experience with VA debt or medical copays"
-
-# NEW: Related documents
-related_research_plan: "products/combined_fsr/wizard/research/jan-2025/research-plan.md"
-related_prototype: "https://n4hl2d.csb.app/"
-
+title: Conversation Guide for Debt Resolution, Financial Status Report (Form 5655)
+  Wizard, 2025 01
+author: Charlotte Cesana
+date_created: '2025-01-01'
+last_modified: '2025-01-01'
+team: Debt Resolution
+portfolio: benefits
+product: Financial Status Report (Form 5655) Wizard
+research_phase: usability
+research_method: usability_test
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: Veterans with VA debt
+related_research_plan: products/combined_fsr/wizard/research/jan-2025/research-plan.md
+related_prototype: N/A
 tags:
-  - "AUD-veterans"
-  - "PRDT-debt-resolution"
-  - "PRDT-fsr"
-  - "PRDT-medical-copays"
-  - "BNFT-health-care"
-  - "DSP-wizard"
-  - "DSP-form"
-  - "usability-testing"
-  - "moderated-interview"
-  - "VBA"
-  - "VHA"
-description: "Usability and comprehension study testing the wizard complete a subtask pattern for debt resolution, including VBA overpayment and VHA copay paths with mental model exploration."
-
-# NEW: Compliance flags
+- FSR
+- '5655'
+- wizard
+- usability-testing
+- decision-tree
+description: Usability testing of FSR wizard to help Veterans determine appropriate
+  debt resolution path.
 recording_required: true
 observer_support: true
 consent_for_clips: true

@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for Lovell Federal Experience Testing, June 2022"
-date: 2022-06-01
+date: 2022-20-01
 last_updated: 2022-06-01
 team: "Facilities Team"
 product: "Lovell Federal Health Care Center"
@@ -104,18 +104,15 @@ related_research:
     - "Earlier VAMC research"
     
 tags:
-  - "AUD: Veterans"
-  - "AUD: Caregivers"
-  - "AUD: Service Members"
-  - "BNFT: Healthcare"
-  - "PRDT: Facilities"
-  - "PRDT: VAMC"
-  - "usability-testing"
-  - "unauthenticated"
-  - "remote"
-  - "lovell-federal"
-  - "tricare"
-  - "dual-eligible"
+  - accessibility
+  - caregivers
+  - discovery
+  - facilities
+  - facility-locator
+  - mobile
+  - usability-testing
+study: Lovell Federal Experience Testing
+type: Usability
 ---
 
 # Research Plan for Lovell Federal Experience Testing, June 2022

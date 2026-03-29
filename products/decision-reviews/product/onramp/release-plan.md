@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Release Plan
+services: Decision Reviews
+tags: decision-reviews, release
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/decision-reviews/product/onramp/release-plan.md
+---
 <!-- markdownlint-disable MD024 -->
 # Release Plan
 

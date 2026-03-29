@@ -1,36 +1,28 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: Facility Locator Search Conversation Guide - March 2020
+author: Aricka Lewis, Facilities Team
+date_created: 2020-03-01
+last_modified: 2020-03-01
+team: "Facilities"
+portfolio: "health"
+product: "Facility Locator"
+research_phase: "usability"
+research_method: "usability_test"
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use VA facilities and services"
+related_research_plan: "products/facilities/facility-locator/research/user-research/FL-Search-march2020/research-plan.md"
+related_prototype: "Production VA.gov Facility Locator"
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+- facilities
+- facility-locator
+- search
+- usability-testing
+description: "Usability testing of facility locator search functionality and user expectations for finding VA locations."
 recording_required: true
 observer_support: true
 consent_for_clips: true
 ---
-
 # Conversation Guide for Facility Locator search expectations
 
 ## Intro

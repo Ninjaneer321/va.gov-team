@@ -1,11 +1,11 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Virtual Agent, Controlled Study, 2021"
+date: 2021-12-01
+last_updated: 2021-12-01
+team: "Chatbot Team"
+product: "Virtual Agent Chatbot"
+product_area: "unauthenticated"
 
 # Background Context
 background:
@@ -15,7 +15,7 @@ background:
   product_brief_url: "[URL]"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "controlled experimental study"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
@@ -100,10 +100,11 @@ related_research:
     - "[Link to related past research]"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "chatbot"
+  - "virtual-agent"
+  - "controlled-study"
+  - "experimental"
+  - "AUD: Veterans"
 ---
 
 # Virtual Agent Controlled Study Research Plan, 5/17/2021

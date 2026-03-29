@@ -1,3 +1,25 @@
+---
+type: research_plan
+study_name: Accelerated Publishing Discovery
+team: VFS-CMS
+product: CMS - Accelerated Publishing
+platform: CMS
+moderator: VFS-CMS team
+date: April 2021
+research_method: User interviews with workflow walkthrough
+session_type: moderated_remote
+session_duration_minutes: 30
+number_of_participants: TBD
+tags:
+  - CMS
+  - accelerated-publishing
+  - publishing-workflow
+  - content-management
+  - editor-experience
+  - user-interviews
+related_research_plan: platform/cms/accelerated_publishing/ux_research/research_plan.md
+---
+
 # Research Plan for Acclerated Publishing discovery
 VFS-CMS team, April 2021
 

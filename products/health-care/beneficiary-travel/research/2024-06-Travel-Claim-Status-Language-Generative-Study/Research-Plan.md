@@ -1,109 +1,107 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Beneficiary Travel, Travel Claim Status Language Study, June 2024"
+date: 2024-06-01
+last_updated: 2024-06-01
+team: "Beneficiary Travel Pay Team"
+product: "Travel Pay Claim Status"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Travel claim statuses currently used need to better align with Veterans' mental models. Building on Check-in experience research, creating recommendations for what travel claim statuses should be used in Veteran-facing experiences."
+  product_location: "VA.gov Travel Pay"
+  user_familiarity: "Iteration - improving existing status language"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "generative interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand users' mental models for travel claim statuses"
+  - goal_2: "Identify alternative language that aligns with user understanding"
+  - goal_3: "Create recommendations for Veteran-facing status language"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What do users see as the purpose of a claim status?"
+  - "What language do users naturally use to describe claim progress?"
+  - "How do current statuses align or misalign with user expectations?"
+  - "What alternative language resonates better with users?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Current status language does not align with Veterans' mental models"
+  - "User-sourced language will bridge gap between user understanding and system requirements"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Generative, first-version set of recommended changes to Veteran-facing travel claim statuses with alternative language sourced from users"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who have submitted travel reimbursement claims"
+    - "Mix of recent and past claimants"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Various ages and locations"
+    - "Mix of desktop and mobile users"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you submitted a travel reimbursement claim to VA?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 24
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 28
+  completed_sessions_goal: 24
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-06-15"
+  pilot_participant: "TBD"
+  research_dates: "2024-07-09 to 2024-07-19"
+  research_review_submission: "2024-06-01"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 15
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Our digital experiences are the best way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "CSAT for our web products have increased by 5 points"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Check-in experience team beneficiary travel research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "beneficiary-travel"
+  - "generative-interviews"
+  - "veterans"
+  - "generative"
+  - "travel-pay"
+  - "claim-status"
 ---
 
 # **Travel Claim Status Language Generative Study**

@@ -1,109 +1,115 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Decision Review Team, Accessible Copy of Completed Submission, February 2024"
+date: 2024-02-06
+last_updated: 2024-02-06
+team: "Benefits Decision Reviews"
+product: "Notice of Disagreement (NOD) - Accessible Submission Download"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans using screen readers need an accessible way to review and save a copy of their submitted decision review forms"
+  product_location: "VA.gov - Decision Reviews submission confirmation pages"
+  user_familiarity: "New feature for existing submission process"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/decision-reviews/Notice-of-Disagreement"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "accessibility testing with usability study approach"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
+    facility: "Remote via Zoom"
+    point_of_contact: "Eileen Chi (eileen.chi@coforma.io)"
+    equipment: "Zoom, screen readers (JAWS, NVDA, VoiceOver, TalkBack)"
   moderated: true # Options: true, false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate effectiveness and value of accessible submitted appeal page for Veterans using screen readers"
+  - goal_2: "Understand how Veterans using screen readers currently access and store copies of their appeal submissions"
+  - goal_3: "Understand where Veterans using screen readers expect to access and how they expect to use a copy of their submission"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans using screen readers know they can review a copy of their submission through the confirmation page?"
+  - "Do Veterans using screen readers seek to review a copy of their submission?"
+  - "How do Veterans using screen readers access and save a copy of their submission?"
+  - "Where do Veterans using screen readers expect to access a record of their submitted form?"
+  - "What do Veterans using screen readers want to do with a copy of their submission?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The copy of the submission page will be usable by Veterans using screen readers"
+  - "There is a need for Veterans, including those using screen readers, to save a copy of their submission"
+  - "Veterans using screen readers would want to return to copy of submission page at a later time"
+  - "Two of four methods of storing results (PDF and printing) will be less valuable for Veterans who are blind or rely on screen readers"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Results will inform accessibility best practices for the team going forward and improve the submission experience for Veterans using assistive technology"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "inclusive recruitment prioritizing Veterans using screen readers due to low vision or blindness"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants must be Veterans"
+    - "All must use screen reader technology (VoiceOver, TalkBack, JAWS, NVDA, Dolphin)"
+    - "Must be visually impaired or blind"
+    - "Have submitted a benefits claim or decision review/appeal"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "3/2 split between desktop/mobile users"
+    - "Diverse sample with respect to race/ethnicity, age, gender, educational attainment"
+    - "Comfortable joining Zoom using screen reader technology"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you visually impaired or blind?"
+      qualifying_response: "Visually impaired or blind"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 5
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-02-05"
+  pilot_participant: "TBD"
+  research_dates: "2024-02-06 to 2024-02-13"
+  research_review_submission: "2024-01-29"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 60
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Our digital experiences are the best way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Accessible submission downloads for screen reader users"
+  - objective: "Our platforms are the best way to deliver products at VA"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Solidify the VA.gov platform with accessibility best practices"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Engaging VA to access benefits and services"
+  - "Finding additional sources of income"
+  - "Taking care of my health"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/decision-reviews/Notice-of-Disagreement"
     
+
+study: "Decision Review Team, Accessible Copy of Completed Submission, February"
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "NOD"
+  - "accessibility-testing"
+  - "screen-readers"
+  - "decision-reviews"
 ---
 
 # Research Plan for Decision Review Team, Accessible Copy of Completed Submission, Feb 2024

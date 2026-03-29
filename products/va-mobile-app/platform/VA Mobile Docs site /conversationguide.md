@@ -1,3 +1,38 @@
+---
+title: "Conversation Guide for VA Mobile App, Documentation Site Usability, 2023"
+author: "VA Mobile Team"
+date_created: "2023-01-01"
+last_modified: "2023-01-01"
+
+# Core research metadata
+team: "VA Mobile App"
+portfolio: "digital-experience"
+product: "VA Mobile Documentation Site"
+research_phase: "usability"
+research_method: "usability_test"
+
+# Session details
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VA staff familiar with VA Mobile documentation site"
+
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "N/A"
+
+tags:
+  - "va-mobile-app"
+  - "documentation"
+  - "internal-tools"
+  - "usability-testing"
+description: "Usability testing of VA Mobile documentation site with VA staff to assess familiarity and interaction patterns."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide for 10-10EZR Confirmation Flow
 
 # Moderator logistics 📋✅

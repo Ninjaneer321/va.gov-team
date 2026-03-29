@@ -1,109 +1,115 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VA.gov Website Team, Benefits Hub Localization (Spanish), May 2019"
+date: 2019-05-02
+last_updated: 2026-02-10
+team: "VA.gov Website Team & VBA"
+product: "Benefits Hub Spanish Localization"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Need to provide Spanish translations of VA.gov benefits content and create an easy, simple way for users to access translated content without disrupting navigation"
+  product_location: "VA.gov benefits hubs - home loans and pensions content"
+  user_familiarity: "New product - adding Spanish translations to existing benefits content"
+  product_brief_url: "TBD"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability-testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine the best way for users to navigate to Spanish language benefits content"
+  - goal_2: "Understand what types of benefit information would be most helpful in Spanish"
+  - goal_3: "Test navigation patterns between English and Spanish content"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Where should we link people to localized content in a way that's visible but not disruptive?"
+  - "How should we link people to localized content in a way that's visible but not disruptive?"
+  - "Will people be able to navigate around/between English and Spanish content without getting lost?"
+  - "Can users avoid the inconvenience of always going to English content first and then clicking to Spanish?"
+  - "What types of information do they typically look for in Spanish?"
+  - "What types of benefit information would be most helpful to have in Spanish?"
+  - "What format is most helpful (web content, downloadable PDFs, or in-person meeting at regional office)?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Spanish-speaking Veterans will prefer direct navigation to Spanish content rather than going through English pages first"
+  - "Veterans will benefit from having pensions and home loans information available in Spanish"
+  - "Clear visual indicators will help users switch between languages without confusion"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will inform how to structure and link Spanish translated content to provide visible but non-disruptive access to Spanish-speaking Veterans and families"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment for Spanish-speaking Veterans and family members"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans and veteran family members/caregivers who are monolingual Spanish speakers or bilingual who prefer Spanish"
+    - "Mix of 10 Veterans, 10 family members, 10 caregivers (total 30)"
+    - "Located in regions with high Spanish-speaking populations"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - "Geographic diversity (Puerto Rico, Southern California, New York/New Jersey, Miami, Texas, etc.)"
+    - "Mix of experience levels with VA benefits"
       
 participants:
-  veterans: 0
-  caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  veterans: 10
+  caregivers: 10
+  dependents: 10
+  total_recruited: 30
+  completed_sessions_goal: 30
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2019-05-10"
+  pilot_participant: "Carola and Jen"
+  research_dates: "2019-05-13 to 2019-05-25"
+  research_review_submission: "2019-05-08"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Provide Spanish translations of critical benefits content"
+  - objective: "Veterans and their families trust the security, accuracy, and relevancy of VA.gov"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Serve Spanish-speaking Veterans in their preferred language"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting out"
+  - "Starting up"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "TBD"
     
+
+study: "VA.gov Website Team, Benefits Hub Localization (Spanish), May"
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Family Member"
+  - "AUD: Caregivers"
+  - "BNFT: Home Loans"
+  - "BNFT: Pension"
+  - "PRDT: Benefits Hub"
+  - "usability-testing"
+  - "Spanish-translation"
+  - "localization"
+  - "multilingual"
+  - "navigation"
+  - "unauthenticated"
+  - "remote-research"
 ---
 
 

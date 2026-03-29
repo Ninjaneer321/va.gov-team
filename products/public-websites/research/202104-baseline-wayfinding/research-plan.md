@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for Baseline Wayfinding Research on VA.gov, April 2021"
-date: 2021-04-19
+date: 
 last_updated: 2026-02-10
 team: "Public Websites Team"
 product: "VA.gov Website Navigation and Wayfinding"
@@ -116,25 +116,13 @@ related_research:
     - "Various page-specific research studies since 2018"
     
 tags:
-  - "AUD: Veterans"
-  - "AUD: Caregivers"
-  - "AUD: Family Members"
-  - "PRDT: VA.gov"
-  - "PRDT: Public Websites"
-  - "DSP: Navigation"
-  - "DSP: Search"
-  - "wayfinding"
-  - "baseline-research"
-  - "information-architecture"
-  - "findability"
-  - "remote-research"
-  - "moderated-research"
-  - "unauthenticated-experience"
-  - "accessibility"
-  - "screen-reader"
-  - "cognitive-disability"
-  - "mobile-research"
-  - "desktop-research"
+  - accessibility
+  - caregivers
+  - mobile
+  - public-websites
+  - unauthenticated
+study: Baseline Wayfinding Research on VA.gov
+type: Stakeholder Interviews
 ---
 
 # Research Plan: Baseline Wayfinding Research on VA.gov 

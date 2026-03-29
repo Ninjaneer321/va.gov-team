@@ -5,11 +5,11 @@
 High level: 
 * **Forms DB** is the single source of truth for Form PDFs and Forms metadata. [Forms DB Contacts](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/find-a-va-form#va-forms-contacts)
 * Forms data (including URLs to PDF files) is migrated nightly from the Forms DB to Drupal CMS, into the VA Forms content type, via Drupal migration.
-* VA Forms API in Lighthouse then pulls Forms data from the Drupal CMS nightly, via sidekiq job.
-  * `https://api.va.gov/services/va_forms/v0/forms`: Owned by Lighthouse
-* [VA.gov Find a Form](https://www.va.gov/find-forms/) makes calls through vets-api to pull form data from the Lighthouse Forms API.
-  * `https://api.va.gov/v0/forms`: Public Websites-owned vets-api proxy to the https://api.va.gov/services/va_forms/v0/forms endpoint
-* VA.gov Form Detail pages (e.g. https://www.va.gov/find-forms/?q=21-0966) display data housed in Drupal CMS.
+* [VA Forms API](https://github.com/department-of-veterans-affairs/lighthouse-vets-api/tree/main/modules/va_forms) in [Lighthouse](https://developer.va.gov/explore/api/va-forms/docs?version=current) then pulls Forms data from the Drupal CMS nightly, via sidekiq job.
+  * `https://api.va.gov/internal/docs/forms/v0/openapi.json`: Owned by Lighthouse
+* [VA.gov Find a Form](https://www.va.gov/forms/) makes calls through vets-api to pull form data from the Lighthouse Forms API.
+  * `https://api.va.gov/v0/forms`: Public Websites-owned vets-api proxy to the https://api.va.gov/services/va_forms/v0/forms endpoint (requires API key)
+* VA.gov Form Detail pages (e.g. https://www.va.gov/forms/?q=21-0966) display data housed in Drupal CMS.
 
 ### Ownership
 **Forms DB** [Contacts](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/find-a-va-form#va-forms-contacts)
@@ -27,7 +27,7 @@ High level:
 ## Forms DB migration into Drupal CMS: Data Flow & Documentation
 [Migrations: Forms](https://github.com/department-of-veterans-affairs/va.gov-cms/blob/master/READMES/migrations-forms.md) - describes the data path from the Forms DB > Drupal CMS > Lighthouse > Front-end. 
 
-[Relationship Between VA Forms DB/Lighthouse API/Drupal](https://github.com/department-of-veterans-affairs/va.gov-team/issues/5702) - 2/2020 Discovery re: Forms architecture and ata storage decision points. 
+[Relationship Between VA Forms DB/Lighthouse API/Drupal](https://github.com/department-of-veterans-affairs/va.gov-team/issues/5702) - 2/2020 Discovery re: Forms architecture and ata storage decision points.
 
 The import uses Row ID as the unique identifier to map importing content to Drupal nodes. Some fields in Drupal may be customized from within Drupal after import, visible on each node within “Forms DB data” expander.
 * [VA Forms Content Flow Topic Dive](https://www.youtube.com/watch?v=CuPI8DB7aR0) - describes the import process in more detail
@@ -37,12 +37,12 @@ The import uses Row ID as the unique identifier to map importing content to Drup
 The path for data calls from `Veteran > VA.gov > vets-api > Lighthouse > delivery to Veteran` is circuitous at best. Much infrastructure is implicated.  
 
 9/2023 - Info provided from Lighthouse team in [Slack thread](https://dsva.slack.com/archives/CBU0KDSB1/p1695326998602989?thread_ts=1695043056.784489&cid=CBU0KDSB1)
-
 ![image (30)](https://github.com/department-of-veterans-affairs/va.gov-team/assets/85581471/5c362f5f-361c-4afa-8f49-faa86415a32b)
 
+3/2026 - Link to [Slack](https://dsva.slack.com/archives/C01SR56755H/p1772484670511299?thread_ts=1767734360.458539&cid=C01SR56755H) conversation convering updated Lighthouse home for their API.
 
 ## Vets-api / Lighthouse Key & rate limits
-* Vets-api: VA Forms Code: [vets-api/modules/va_forms](https://github.com/department-of-veterans-affairs/vets-api/tree/master/modules/va_forms)
+* Vets-api: VA Forms Code: [lighthouse-vets-api/modules/va_forms]([https://github.com/department-of-veterans-affairs/lighthouse-vets-api/tree/main/modules/va_forms](https://github.com/department-of-veterans-affairs/lighthouse-vets-api/tree/main/modules/va_forms))
 * VA Forms API Documentation: https://developer.va.gov/explore/api/va-forms - Documentation for API that indexes data sourced from VA.gov, Lighthouse
 
 ### **API user/key:**

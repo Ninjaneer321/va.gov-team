@@ -105,6 +105,16 @@ related_research:
     - "VA Profile integration research"
     
 tags:
+  - profile
+  - contact-information
+  - address-management
+  - usability-testing
+  - authenticated-experience
+  - mailing-address
+  - home-address
+  - address-validation
+  - authenticated
+  - research-plan
   - "address-management"
   - "contact-information"
   - "VA-profile"

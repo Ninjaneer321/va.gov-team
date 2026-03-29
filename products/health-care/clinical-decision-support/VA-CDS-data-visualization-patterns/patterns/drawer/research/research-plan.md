@@ -1,109 +1,117 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for CDS Data Visualization, Drawer and Skeleton Loader, 2024"
+date: 2024-01-01
+last_updated: 2024-01-01
+team: "Clinical Decision Support Collaborative (CDSC) Data Visualization Team"
+product: "CDS Data Visualization Patterns"
+product_area: "CDS Console"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Clinicians working with dense information need to view, edit, and create information easily without losing context of their current screen. Need to validate drawer pattern and skeleton loader pattern for CDS applications."
+  product_location: "CDS Console - Multiple applications"
+  user_familiarity: "New pattern - establishing design pattern library for CDS applications"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/clinical-decision-support/VA-CDS-data-visualization-patterns"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate usability of drawer pattern for secondary content presentation"
+  - goal_2: "Test effectiveness of skeleton loader for managing perceived wait time"
+  - goal_3: "Identify improvements for both patterns before implementation across CDS applications"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How effectively does the drawer pattern support clinician workflows without losing context?"
+  - "Does the skeleton loader improve perceived loading time and user engagement?"
+  - "How do clinicians interact with incrementally loading data?"
+  - "What improvements are needed before pattern implementation?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Drawer pattern will allow clinicians to access secondary information without losing primary context"
+  - "Skeleton loader will reduce perceived wait time and improve user experience"
+  - "Patterns will be intuitive to clinicians familiar with dense data interfaces"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validated design patterns with implementation guidance for CDS application teams"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "CDSC research participant database"
+  approach: "targeted recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "VA clinicians who use CDS applications"
+    - "Experience with dense data interfaces"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mix of clinician roles (physicians, nurses, specialists)"
+    - "Various experience levels with CDS tools"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you regularly use CDS applications in your clinical workflow?"
+      qualifying_response: "Yes"
       
 participants:
   veterans: 0
   caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  clinicians: 6
+  va_staff: 0
+  total_recruited: 8
+  completed_sessions_goal: 6
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-01-15"
+  pilot_participant: "TBD"
+  research_dates: "2024-01-20 to 2024-02-10"
+  research_review_submission: "2024-01-10"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 15
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Establish standardized CDS design patterns"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Validated patterns for CDS application teams"
       
-veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+veteran_journey_phases: []
+clinician_workflow_stages:
+  - "Reviewing patient information"
+  - "Accessing secondary data without context switching"
+  - "Managing dense data workflows"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "CDS data visualization pattern research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "clinical-decision-support"
+  - "CDS"
+  - "data-visualization"
+  - "drawer-pattern"
+  - "design-patterns"
+  - "usability-testing"
+  - "remote"
+  - "evaluative"
+  - "moderated"
+  - "clinicians"
+  - "staff-facing"
+  - "AUD: VA Staff"
+  - "BNFT: Healthcare"
 ---
 
 # Drawer and Skeleton Loader Test Plan

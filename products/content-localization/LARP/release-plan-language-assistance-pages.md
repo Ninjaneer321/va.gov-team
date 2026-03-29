@@ -1,3 +1,13 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Release Plan Language Assistance Pages
+date: 06/07/2021
+services: Content Localization
+tags: UAT, localization, release, testing
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/content-localization/LARP/release-plan-language-assistance-pages.md
+---
 ## Phase I: moderated staging environment testing (also known as User Acceptance Testing, or UAT)
 
 ### Planning:

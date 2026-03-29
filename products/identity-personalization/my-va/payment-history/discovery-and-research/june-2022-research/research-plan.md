@@ -49,6 +49,16 @@ hypotheses:
 
 expected_outcomes: "Use findings to update content and links in this section of My VA, and to propose a new notification component for the design system"
 
+tags:
+  - "authenticated-experience"
+  - "my-va"
+  - "personalization"
+  - "dashboard"
+  - "payment-history"
+  - "debts"
+  - "financial-information"
+  - "usability-testing"
+
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"

@@ -105,15 +105,19 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging"
     
 tags:
-  - "MHV"
-  - "secure-messaging"
-  - "triage-groups"
-  - "generative"
-  - "card-sort"
-  - "interviews"
-  - "authenticated"
-  - "veterans"
-  - "health-care"
+  - "AUD: Veterans"
+  - "PRDT: MHV-on-VA.gov"
+  - "PRDT: Secure-messaging"
+  - "RESRCH: Generative"
+  - "RESRCH: Interviews"
+  - "RESRCH: Card-sort"
+  - "RESRCH: Remote"
+  - "HCE: Health-care"
+  - "BNFT: Healthcare"
+  - MHV
+  - triage-groups
+  - mental-model
+  - authenticated
 ---
 
 # **Research Plan for MHV on VA.gov, Triage Group Naming generative research, August 2023**

@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Release Plan Benefits Delivery at Discharge
+services: Disability
+tags: UAT, claims, disability, release
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/disability-compensation-claim/bdd/release-plan-bdd.md
+---
 # Release Plan Benefits Delivery at Discharge
   - Sprint 32: Oct 21 - Nov 3
   - Sprint 33: Nov 4 - Nov 17

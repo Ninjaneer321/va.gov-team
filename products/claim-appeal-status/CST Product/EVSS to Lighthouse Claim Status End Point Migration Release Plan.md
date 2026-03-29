@@ -1,3 +1,13 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: EVSS to Lighthouse Claim Status End Point Migration Release Plan
+date: 6/13/2023
+services: Claim Appeal Status
+tags: UAT, appeals, claims, migration, release, testing
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/CST Product/EVSS to Lighthouse Claim Status End Point Migration Release Plan.md
+---
 # EVSS to Lighthouse Claim Status End Point Migration Release Plan
 ## Phase I: Internal Testing and UAT
 ### Planning: 

@@ -1,109 +1,112 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Healthcare Experience Team, All Primary Care Questionnaire MVP Workflows, December 2020"
+date: 2020-12-14
+last_updated: 2020-12-18
+team: "Healthcare Experience Team"
+product: "Primary Care Questionnaire - All MVP Workflows"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Need to usability test all workflows in and out of the questionnaire on both desktop and mobile to improve pre-appointment experience for primary care visits"
+  product_location: "VA.gov health portal - pre-appointment questionnaire accessed via text/email"
+  user_familiarity: "New product - MVP for primary care appointments"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/questionnaire/product/product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability-testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Test if Veterans can successfully find and complete questionnaire via text or email"
+  - goal_2: "Validate Veterans can navigate to meaningful location after completing questionnaire"
+  - goal_3: "Identify any confusion from content or question wording in workflows"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are Veterans able to successfully find and complete the new, in-progress, and completed questionnaire via text or e-mail?"
+  - "Are Veterans able to navigate to a meaningful location after completing the questionnaire?"
+  - "Is there any confusion caused by the content or question wording within any of the workflows?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will be able to successfully find and complete the questionnaire"
+  - "Veterans will be able to navigate to a meaningful location after completing the questionnaire"
+  - "There will be minimal confusion created by the content and question wording within any workflows"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Confirm questionnaire is easily usable by Veterans on both mobile and desktop, validate all entry and exit workflows"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Split recruitment between mobile (6) and desktop (6) users"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Visited a primary care provider at the VA in the last year"
+    - "At least two people with identified cognitive consideration of PTSD or TBI (one mobile, one desktop)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 1 woman"
+    - "At least 1 person of color"
+    - "At least 1 participant 35 or under and 1 participant over 55"
+    - "At least one without college degree (enlisted Vets)"
+    - "At least one with college degree (officer Vets)"
+    - "At least one from rural or remote area"
+    - "At least one from major metropolitan area"
+    - "At least one with disability rating of 70% or greater"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you visited a primary care provider at the VA in the last year?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-12-11"
+  pilot_participant: "Team member"
+  research_dates: "2020-12-14 to 2020-12-18"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can manage their health services online"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/questionnaire/research/veteran-prioritization/research-plan.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "HCE: Health"
+  - "AUD: Veterans"
+  - "PRDT: Health-questionnaires"
+  - "usability-testing"
+  - "remote-moderated"
+  - "authenticated"
+  - "mobile"
+  - "desktop"
+  - "primary-care"
+  - "pre-appointment"
+  - "PTSD"
+  - "TBI"
+  - "cognitive-disability"
+study: "Healthcare Experience Team, All Primary Care Questionnaire MVP Workflows"
+type: "usability-testing"
 ---
 
 # Research Plan for All "Primary care questionnaire" MVP Workflows Research Dec. 2020 

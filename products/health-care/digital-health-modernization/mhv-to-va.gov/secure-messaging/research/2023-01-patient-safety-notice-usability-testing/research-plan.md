@@ -114,14 +114,18 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research"
     
 tags:
-  - "MHV"
-  - "secure-messaging"
-  - "patient-safety"
-  - "usability-testing"
-  - "prototype"
-  - "authenticated"
-  - "veterans"
-  - "health-care"
+  - "AUD: Veterans"
+  - "PRDT: MHV-on-VA.gov"
+  - "PRDT: Secure-messaging"
+  - "RESRCH: Usability-testing"
+  - "RESRCH: Remote"
+  - "HCE: Health-care"
+  - "BNFT: Healthcare"
+  - MHV
+  - patient-safety
+  - prototype
+  - authenticated
+  - interstitial
 ---
 
 # Research Plan for HMI team, Secure Messaging, January 2023

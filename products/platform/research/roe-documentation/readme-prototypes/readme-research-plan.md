@@ -1,10 +1,10 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
+title: "Research Plan for VSP Platform, README Prototypes, 2019"
+date: 2019-10-01
+last_updated: 2019-10-01
+team: "VSP Platform Team"
+product: "README Templates"
 product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
@@ -15,7 +15,7 @@ background:
   product_brief_url: "[URL]"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
@@ -100,10 +100,12 @@ related_research:
     - "[Link to related past research]"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "VSP"
+  - "platform"
+  - "documentation"
+  - "templates"
+  - "README"
+  - "usability-testing"
 ---
 
 # Research Plan - ReadMe Guidelines

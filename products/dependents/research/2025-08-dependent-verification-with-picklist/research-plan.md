@@ -71,7 +71,7 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "TBD"
+  pilot_date: "2025-09-05"
   pilot_participant: "Mike Palmer"
   research_dates: "2025-09-08 to 2025-09-17"
   research_review_submission: "2025-08-29"

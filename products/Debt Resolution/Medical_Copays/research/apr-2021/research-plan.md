@@ -112,7 +112,16 @@ related_research:
   previous_studies: 
     - "Debt Letters MVP research"
     
+
+study: "Debt Portal Medical Copay Enhancement Discovery, April"
 tags:
+  - debt-resolution
+  - medical-copays
+  - copay-debt
+  - usability-testing
+  - health-care
+  - authenticated
+  - research-plan
   - "AUD: Veterans"
   - "PRDT: Medical Copays"
   - "PRDT: Debt Portal"

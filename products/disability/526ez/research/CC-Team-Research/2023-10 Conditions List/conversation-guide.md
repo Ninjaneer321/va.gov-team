@@ -21,12 +21,18 @@ related_research_plan: "products/disability/526ez/research/CC-Team-Research/2023
 related_prototype: "https://codepen.io/ccteam/live/poqxVpB"
 
 tags:
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Form 526EZ"
+  - "PRDT: Disability Compensation"
+  - "research"
+  - "usability-testing"
   - "form-526"
   - "conditions-entry"
   - "autosuggest"
-  - "usability-testing"
-  - "disability-claims"
   - "contention-classification"
+  - "disability-claims"
+  - "remote-moderated"
 description: "Usability test for autosuggest component on Form 526EZ conditions entry screen. Evaluates how Veterans search for, select, and enter medical conditions when filing disability claims, including interaction with suggested conditions and free-text entry."
 
 # Compliance flags

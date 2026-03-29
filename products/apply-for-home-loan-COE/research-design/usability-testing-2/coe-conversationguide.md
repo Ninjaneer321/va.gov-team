@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for Home Loan COE, Usability Testing Round 2, 2020"
+author: "Candy Clark"
+date_created: "2020-01-01"
+last_modified: "2020-01-01"
+
+# Core research metadata
+team: "eBenefits Migration"
+portfolio: "benefits"
+product: "Home Loan Certificate of Eligibility"
+research_phase: "usability"
+research_method: "usability_test"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have applied for or are interested in VA-backed home loans"
+
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://preview.uxpin.com/65c0623a799c268173fe1a3cb4375f9ce00ad820"
+
+tags:
+  - "home-loan"
+  - "COE"
+  - "26-1880"
+  - "usability-testing"
+  - "eBenefits-migration"
+description: "Usability testing of Certificate of Eligibility application form 26-1880 on VA.gov to validate wayfinding, form completion, and post-submission status checking."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide 
 ## Moderator logistics
 *Use [#feedback-backchannel](https://dsva.slack.com/messages/C40B45NJK/details/) in Slack for real-time feedback from observers.*

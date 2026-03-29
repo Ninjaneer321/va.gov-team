@@ -1,34 +1,30 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: "Conversation Guide for Authenticated Experience Team, My VA Redirect UAT, October 2021"
+type: "Conversation Guide"
+study_date: "2021-10-01"
+authors:
+  - "Liz Lantz (liz.lantz@adhocteam.us)"
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+  - "AUD:Veterans"
+  - "PRDT:My-VA"
+  - "PRDT:Authenticated-experience"
+  - "RESRCH:UAT"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "DSP:Personalization"
+  - "DSP:Navigation"
+  - "HDW:Desktop"
+  - "HDW:Laptop"
+  - "VETJNY:Taking-care-of-themselves"
+team: "Authenticated Experience"
+portfolio: "Digital Experience"
+product:
+  - "My VA"
+  - "My VA Redirect"
+research_round: "UAT"
+participant_count: "TBD"
+study_length: "30 minutes"
+date: "2021-10"
 ---
 
 # Conversation Guide for My VA Redirect UAT

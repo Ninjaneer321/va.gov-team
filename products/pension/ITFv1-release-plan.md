@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Release Plan: 2024 21P-527EZ Intent to File V1 Updates
+services: Pension
+tags: pension, release, testing
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/ITFv1-release-plan.md
+---
  
 <!-- markdownlint-disable MD024 -->
 # Release Plan: 2024 21P-527EZ Intent to File V1 Updates

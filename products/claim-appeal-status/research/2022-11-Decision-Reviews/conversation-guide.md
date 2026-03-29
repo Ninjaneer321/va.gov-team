@@ -1,46 +1,32 @@
 ---
-title: "Conversation Guide for Decision Reviews Research, November 2022"
-author: "Skyler [TBD - full name not in document]"
-date_created: "2022-11-01"
-last_modified: "2024-12-20"
-
-# Core research metadata
-team: "Claim Status Tool Team"
-portfolio: "benefits"
-product: "Decision Reviews"
-research_phase: "discovery"
-research_method: "semi-structured_interview"
-
-# Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans who have pursued decision reviews (supplemental claim, higher level review, or board appeal) with the VA"
-
-# Related documents
-related_research_plan: "../research-plan.md"
-related_prototype: "N/A"
-
+title: "Conversation Guide for Benefits Management Tools, Claim Status Tool, Decision Reviews Discovery, November 2022"
+type: "Conversation Guide"
+study_date: "2022-11-01"
+authors:
+  - "Skyler Schain"
 tags:
-  - "AUD: Veterans"
-  - "BNFT: Disability"
-  - "PRDT: Decision-reviews"
-  - "PRDT: Higher-level-review"
-  - "PRDT: Supplemental-claims"
-  - "PRDT: Board-appeals"
-  - "DSP: Help users to... understand decision review options"
-  - "semi-structured-interviews"
-  - "discovery-interviews"
-  - "claims-and-appeals"
-  - "appeals-process"
-  - "veteran-representation"
-  - "HDW: Desktop"
-
-description: "Discovery research exploring Veterans' experiences with decision review processes (supplemental claims, higher level reviews, and board appeals), including pain points and the role of third-party representatives."
-
-# Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+  - "AUD:Veterans"
+  - "PRDT:Claim-status"
+  - "PRDT:CST"
+  - "PRDT:Decision-reviews"
+  - "RESRCH:Discovery"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "BNFT:Disability"
+  - "DSC:Interview"
+  - "DSP:Appeals"
+  - "HDW:Desktop"
+  - "VETJNY:Accessing-benefits"
+team: "Benefits Management Tools"
+portfolio: "Benefits"
+product:
+  - "Claim Status Tool"
+  - "Decision Reviews"
+  - "Appeals"
+research_round: "Decision Reviews Discovery"
+participant_count: 8
+study_length: "60 minutes"
+date: "2022-11"
 ---
 
 # Conversation Guide 

@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Test Plan
+title: Regression test plan
+services: Disability
+tags: 526EZ, disability, testing
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/0781 Paper Sync/Staging Review/Regression Test Plan.md
+---
 # Regression test plan
 
 > A Regression Test Plan is a document that maps user stories to tests and which includes the results of executing those tests, thereby providing a strategy for verifying the functionality of your product prior to the work moving through the Collaboration Cycle.

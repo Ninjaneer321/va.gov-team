@@ -1,36 +1,32 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: Community Living Centers SME Conversation Guide
+author: Facilities Team
+date_created: "2024-01-01"
+last_modified: "2024-01-01"
+team: Facilities Team
+portfolio: health
+product: Community Living Centers
+research_phase: discovery
+research_method: stakeholder_interview
+session_duration: 45 minutes
+session_type: remote_moderated
+participant_criteria: Community Living Center staff and subject matter experts
+related_research_plan: N/A
+related_prototype: N/A
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+  - CLC
+  - community-living-centers
+  - discovery
+  - facilities
+  - nursing-home
+  - stakeholder-research
+  - VAMC
+description: Discovery research with Community Living Center subject matter experts to understand facility services, referral processes, and Veteran needs.
 recording_required: true
 observer_support: true
 consent_for_clips: true
+date: "2024-01"
 ---
-
 ## Conversation guide
 
 ### Warm-up (Optional)

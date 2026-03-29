@@ -99,6 +99,8 @@ related_research:
   previous_studies: 
     - "[Link to related past research]"
     
+
+study: "[Team, Product, Date]"
 tags:
   - "[product-area]"
   - "[methodology]"

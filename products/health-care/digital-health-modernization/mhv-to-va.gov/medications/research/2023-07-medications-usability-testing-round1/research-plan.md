@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for MHV on VA.gov, Medications, July 2023"
-date: 2023-07-14
+date: 2023-07-01
 last_updated: 2023-07-14
 team: "Digital Health Modernization"
 product: "MHV on VA.gov - Medications"
@@ -122,21 +122,22 @@ related_research:
     
 tags:
   - "AUD: Veterans"
-  - "AUD: Cognitive-Disability"
-  - "BNFT: Healthcare"
-  - "MHV: Medications"
-  - "MHV: Pharmacy"
   - "PRDT: MHV-on-VA.gov"
-  - "RESRCH: Usability"
+  - "PRDT: Medications"
+  - "RESRCH: Usability-testing"
   - "RESRCH: Remote"
-  - "RESRCH: Prototype"
-  - "HDW: Desktop"
-  - "HDW: Mobile"
-  - "authenticated"
-  - "prescriptions"
-  - "refills"
-  - "medication-management"
-  - "digital-health-modernization"
+  - "HCE: Health-care"
+  - "BNFT: Healthcare"
+  - MHV
+  - My-HealtheVet
+  - migration
+  - prescriptions
+  - pharmacy
+  - round-1
+  - evaluative
+  - moderated
+study: MHV on VA.gov, Medications
+type: Usability
 ---
 
 # **Research Plan for MHV on VA.gov, Medications, July 2023**

@@ -1,48 +1,26 @@
 ---
-title: "Conversation Guide for Decision Reviews Team, Supplemental Claims Updates, September 2024"
-author: "Eileen Chi"
-date_created: "2024-08-16"
-last_modified: "2026-02-11"
-
-# NEW: Core research metadata
-team: "Decision Reviews Team"
-portfolio: "benefits"
-product: "Supplemental Claims (VA Form 20-0995)"
-research_phase: "usability"
-research_method: "usability_test"
-
-# NEW: Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans who have filed disability claims with VA, inclusive recruitment prioritizing screen reader users due to low vision or blindness"
-
-# NEW: Related documents
-related_research_plan: "/products/decision-reviews/Supplemental-Claims/Research/0924-2024-SC-Updates/research-plan.md"
-related_prototype: "https://staging.va.gov/decision-reviews/test-sc/introduction"
-
+title: Conversation Guide for Benefits Decision Reviews, Supplemental Claims (20-0995),
+  2024 09
+author: Eileen Chi
+date_created: '2024-09-01'
+last_modified: '2024-09-01'
+team: Benefits Decision Reviews
+portfolio: benefits
+product: Supplemental Claims (20-0995)
+research_phase: usability
+research_method: usability_test
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: Veterans who would file Supplemental Claims
+related_research_plan: products/decision-reviews/Supplemental-Claims/Research/0924-2024-SC-Updates/research-plan.md
+related_prototype: N/A
 tags:
-  - AUD-veterans
-  - BNFT-disability
-  - PRDT-supplemental-claims
-  - PRDT-decision-reviews
-  - DSC-form-controls
-  - DSC-accordions
-  - DSC-alerts
-  - usability-testing
-  - moderated-research
-  - remote-research
-  - prototype-testing
-  - accessibility
-  - screen-reader
-  - homelessness-questions
-  - MST-notifications
-  - evidence-submission
-  - form-20-0995
-  - AMA-opt-in
-  - review-submission
-description: "Usability testing conversation guide for Supplemental Claims form updates including new homelessness questions, VHA MST notifications, and non-VA evidence submission flow (4142/a). Tests form completion and accessibility with AT users."
-
-# NEW: Compliance flags
+- supplemental-claims
+- 20-0995
+- decision-reviews
+- usability-testing
+- form-updates
+description: Usability testing of 2024 updates to Supplemental Claims form.
 recording_required: true
 observer_support: true
 consent_for_clips: true

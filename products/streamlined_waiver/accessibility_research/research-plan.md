@@ -1,109 +1,120 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Debt Resolution, Streamlined Waiver Accessibility Study, October 2023"
+date: 2023-10-01
+last_updated: 2023-10-01
+team: "Debt Resolution"
+product: "Streamlined Waiver - Accessibility"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Need to understand how Veterans using screen readers navigate and fill out the enhanced FSR form to inform accessibility best practices."
+  product_location: "VA.gov debt management - Financial Status Report"
+  user_familiarity: "Accessibility evaluation of existing form"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand accessibility of the non-visual user experience and what improvements can be made"
+  - goal_2: "Understand how this form compares to mental models Veterans have with other forms"
+  - goal_3: "Understand Veterans' level of satisfaction with the eFSR Streamlined Waiver form"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do Veterans with visual limitations who use screen readers navigate through the form?"
+  - "How easy or difficult is it to fill out the form with a screen reader?"
+  - "Which area of the form would be most helpful to hear first when they tab - header or question?"
+  - "How do they experience error states?"
+  - "Do participants know how to expand additional information sections?"
+  - "What is difficult to accomplish in this form, if anything?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans using screen readers will be able to navigate and complete the form"
+  - "There will be opportunities to improve efficiency and auditory scannability"
+  - "Screen reader users will have preferences for navigation order"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Results will inform accessibility best practices for the team going forward, improving efficiency, auditory scannability, proficiency, and flexibility for screen reader users."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Veterans who use screen readers regularly"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who use screen readers regularly (daily or multiple times per week)"
+    - "Experience with assistive technology"
+    - "Mix of screen reader types (JAWS, NVDA, VoiceOver, etc.)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Veterans with VA debt experience preferred"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you regularly use a screen reader (daily or multiple times per week)?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 8
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 8
+  completed_sessions_goal: 6
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-09-28"
+  pilot_participant: "Team member with screen reader experience"
+  research_dates: "2023-10-09 to 2023-10-20"
+  research_review_submission: ""
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 90
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Logged-in users have a personalized experience with relevant and time-saving features"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Experience is usable by Veterans who use screen readers"
+  - objective: "Veterans and their families trust the security accuracy and relevancy of VA.gov"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Accessible form experience builds trust"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking Care of Myself"
+  - "Managing my declining health"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Streamlined Waiver usability study - July 2023"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - streamlined-waiver
+  - debt-resolution
+  - accessibility
+  - accessibility-testing
+  - waiver
+  - debt
+  - authenticated
+  - research-plan
+  - "unauthenticated"
+  - "usability-testing"
+  - "accessibility"
+  - "screen-reader"
+  - "debt"
+  - "FSR"
 ---
 
 

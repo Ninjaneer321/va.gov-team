@@ -1,109 +1,109 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Appeals Team, Appeal Status V3, January 2019"
+date: 2019-01-21
+last_updated: 2019-01-21
+team: "Benefits Claims & Appeals"
+product: "Appeal Status V3"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need a clear way to track their Board appeal at the Board of Veterans Appeals and understand Appeals Modernization Act (AMA) content on VA.gov"
+  product_location: "VA.gov - Appeal Status tool"
+  user_familiarity: "Iteration on existing appeal tracking tool"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/claim-appeal-status/appeals-status"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: in-person # Options: remote, in-person, hybrid
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
+    facility: "DC metro area"
+    point_of_contact: "annie.nguyen5@va.gov"
+    equipment: "Computer or smartphone"
   moderated: true # Options: true, false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand if AMA content on VA.gov makes sense for Veterans looking for a decision review"
+  - goal_2: "Determine if Veterans can find and navigate to relevant AMA content"
+  - goal_3: "Validate Veterans understand where their appeal is in the process"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Does content about Appeals Modernization Act (AMA) on VA.gov make sense for Veterans looking for a decision review?"
+  - "Can Veterans find relevant AMA content and navigate to the correct pages?"
+  - "Do Veterans know where in the process their appeal is currently?"
+  - "Is there anything in particular that is confusing or unclear?"
+  - "Is there anything Veterans would like to know more about?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans think of all 3 post-decisional lanes as appeals, though VBA considers only Board appeals as appeals"
+  - "Veterans need clear understanding of distinctions between different Board dockets and expected timelines"
+  - "Veterans may not know the distinction between legacy appeal vs new decision review options and where to find AMA information"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will identify content improvements needed for AMA information and Appeal Status tool to better serve Veterans navigating decision reviews"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who have filed an appeal"
+    - "Use a computer or smartphone occasionally"
+    - "Located in DC metro area for in-person sessions"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Variation in age and tech experience"
+    - "Familiarity with VA claims process"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you filed an appeal with VA?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2019-01-14"
+  pilot_participant: "Internal team member"
+  research_dates: "2019-01-21 to 2019-02-01"
+  research_review_submission: "2019-01-14"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Improve Veterans' experience with appeals and decision reviews"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Reduce confusion around AMA process"
+  - objective: "Enhance usability of appeal tracking tools"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Increase successful navigation to correct appeal information"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Managing my declining health"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/claim-appeal-status/appeals-status"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "appeals"
+  - "usability-testing"
+  - "veterans"
+  - "AMA"
 ---
 
 # Research Plan for Appeals Team | Product: Appeal Status V3 | - January 2019

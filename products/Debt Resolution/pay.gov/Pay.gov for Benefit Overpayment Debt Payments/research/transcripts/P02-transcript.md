@@ -235,11 +235,11 @@ Participant: My… the compensation that was awarded to me from combat operation
 
 55
 00:05:05.490 --> 00:05:13.190
-Moderator: Got it. But that's a policy decision, but it would be nice to have a ledger of, like, you earned this much.
+Moderator: Got it. 
 
 56
 00:05:13.190 --> 00:05:22.810
-Participant: Therefore, it's being reduced by this much, and here's your repayment plan for the next 36 months, or 12 months, or whatever
+Participant: But that's a policy decision, but it would be nice to have a ledger of, like, you earned this much.Therefore, it's being reduced by this much, and here's your repayment plan for the next 36 months, or 12 months, or whatever
 
 57
 00:05:23.230 --> 00:05:31.659

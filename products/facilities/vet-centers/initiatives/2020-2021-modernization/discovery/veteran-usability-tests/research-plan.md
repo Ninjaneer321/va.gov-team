@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for Facilities Team, Vet Center Detail Page Usability Test, December 2020"
-date: 2020-12-09
+date: 2020-20-01
 last_updated: 2026-02-10
 team: "Facilities"
 product: "Vet Center Facility Pages"
@@ -107,19 +107,16 @@ related_research:
     - "Vet Center Client Interviews - September-October 2020"
     
 tags:
-  - "facilities"
-  - "vet-centers"
-  - "usability-testing"
-  - "veterans"
-  - "desktop"
-  - "mental-health"
-  - "counseling"
-  - "service-discovery"
-  - "unauthenticated-experience"
-  - "facility-locator"
-  - "discovery"
-  - "healthcare"
-  - "prototype-testing"
+  - UAT
+  - accessibility
+  - caregivers
+  - discovery
+  - facilities
+  - facility-locator
+  - mobile
+  - usability-testing
+study: Facilities Team, Vet Center Detail Page Usability Test
+type: UAT
 ---
 
 # Research Plan: Vet Centers Detail Page - Usability Test  

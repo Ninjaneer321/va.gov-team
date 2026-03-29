@@ -114,16 +114,22 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research"
     
 tags:
-  - "MHV"
-  - "secure-messaging"
-  - "usability-testing"
-  - "accessibility"
-  - "screen-reader"
-  - "screen-magnification"
-  - "cognitive-disability"
-  - "authenticated"
-  - "veterans"
-  - "health-care"
+  - "AUD: Veterans"
+  - "PRDT: MHV-on-VA.gov"
+  - "PRDT: Secure-messaging"
+  - "RESRCH: Usability-testing"
+  - "RESRCH: Remote"
+  - "HCE: Health-care"
+  - "BNFT: Healthcare"
+  - MHV
+  - round-3
+  - accessibility
+  - screen-reader
+  - screen-magnification
+  - cognitive-disability
+  - authenticated
+  - message-threads
+  - drafts
 ---
 
 # **Research Plan for MHV on VA.gov, Secure Messaging, September 2023**

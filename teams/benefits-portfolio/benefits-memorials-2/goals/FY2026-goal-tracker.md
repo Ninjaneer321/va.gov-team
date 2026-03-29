@@ -27,14 +27,40 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
 
+## Sprint: 5 [03/25/26 - 04/07/26]  
+| Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
+|--|--|--|--|--|
+|ENG: Finalize frontend code adjustments to accommodate the Cerner/VistA data updates.| P1 |--|--|--|
+|ENG: In coordination with Lighthouse, implement a solution to add users and update Payment History mock data.| P1 |--|--|--|
+|ENG: Stretch goal: Complete required testing artifacts for Staging Review after implementing the Cerner/VistA data updates.| P1 |--|--|--|
+|UX: Complete Research Findings document and schedule Readout for Pay.gov benefit overpayment debt payments study.| P2 |--|--|--|
+|UX: Identify authenticated pages where link to EFT enrollment instructions is needed.| P6 |--|--|--|
+|ENG: Accept full ownership of Benefit Payment History Tool from BMT3 team.| P3 |--|--|--|
+|ENG: Complete any planned or new critical maintenance tickets/bugs.| P6 |--|--|--|
+|
+**Sprint rollover tickets**
+| Additional work that was pulled in mid-sprint | Scope of work changed after ticket started | Work became blocked mid-sprint |  Work was underestimated and not completed |
+|---------------|---------------|---------------|---------------|
+|Ticket #|Ticket #|Ticket #|Ticket #|
+
+**_Approvals:_** _(sent via email but approvals tracked here)_
+ - [X] Ready to be sent for approvals (03/25/26)
+ - [X] VA PO & COR sent the Sprint Goals (03/25/26)
+ - [ ] VA PO approved the Sprint Goals (03/XX/26)
+ - [ ] VA COR approved the Sprint Goals (03/XX/26)
+
+**_Delivery + Notes:_**
+- [ ] All goals have been updated in the sprint chart
+- [ ] Any Additional details about goals **not** completed will be documented here
+
 ## Sprint: 4 [03/11/26 - 03/24/26]  
 | Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX: Pending access in staging - Review the final ENG implementation of Payment History.| P1 |--|--|--|
-|UX: Pending access in staging - Assist with completing the Payment History accessibility testing.| P1 |--|--|--|
-|UX: Complete the Pay.gov Benefit Overpayment Debt Payments Usability Study.| P2 |--|--|--|
-|UX: Begin analysis and create and publish Topline Summary for Pay.gov Benefit Overpayment Debt Payments Usability Study.| P2 |--|--|--|
-|ENG: Update Payment History mock data to allow for E2E and Unit tests.| P1 |--|--|--|
+|UX: Pending access in staging - Review the final ENG implementation of Payment History.| P1 |--|--|Incomplete|
+|UX: Pending access in staging - Assist with completing the Payment History accessibility testing.| P1 |--|--|Incomplete|
+|UX: Complete the Pay.gov Benefit Overpayment Debt Payments Usability Study.| P2 |--|03/16/26|Completed|
+|UX: Begin analysis and create and publish Topline Summary for Pay.gov Benefit Overpayment Debt Payments Usability Study.| P2 |--|03/24/26|Completed|
+|ENG: Update Payment History mock data to allow for E2E and Unit tests.| P1 |--|--|Incomplete|
 |ENG: Complete back end code adjustments to accommodate the Cerner/VistA data updates.| P1 |--|--|--|
 |ENG: Update Payment History tests after implementing the Cerner/VistA data updates.| P1 |--|--|--|
 |ENG: Complete any planned or new critical maintenance tickets/bugs.| P6 |--|--|--|
@@ -60,11 +86,11 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
     
 | Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX: Finalize coded prototypes based on forthcoming feedback from the CAIA team in preparation for the upcoming Pay.gov Benefit Overpayment Debt Payments Usability Study.| P2 |--|--|--|
-|UX: Begin to field the Usability Study for the Pay.gov Overpayments project.| P2 |--|--|--|
-|ENG: Update the back end code to accommodate data and routing for both Cerner and Vista Payment History records.| P1 |--|--|--|
-|ENG: Complete Front End engineering transition tickets (not including final migration) to prepare for Benefit Payment Tool handoff in Sprint 5.| P3 |--|--|--|
-|ENG: Complete the 3 planned maintenance/bug tickets.| P6 |--|--|--|
+|UX: Finalize coded prototypes based on forthcoming feedback from the CAIA team in preparation for the upcoming Pay.gov Benefit Overpayment Debt Payments Usability Study.| P2 |--|--|Complete|
+|UX: Begin to field the Usability Study for the Pay.gov Overpayments project.| P2 |--|--|Complete|
+|ENG: Update the back end code to accommodate data and routing for both Cerner and Vista Payment History records.| P1 |--|--|Complete|
+|ENG: Complete Front End engineering transition tickets (not including final migration) to prepare for Benefit Payment Tool handoff in Sprint 5.| P3 |--|--|Complete|
+|ENG: Complete the 3 planned maintenance/bug tickets.| P6 |--|--|Incomplete|
 
 **Sprint rollover tickets**
 | Additional work that was pulled in mid-sprint | Scope of work changed after ticket started | Work became blocked mid-sprint |  Work was underestimated and not completed |

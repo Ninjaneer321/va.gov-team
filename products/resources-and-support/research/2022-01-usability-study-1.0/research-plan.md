@@ -1,10 +1,36 @@
 ---
-# Research Plan Metadata
 title: "Research Plan for Search & Discovery Team, Resources and Support, Submit Feedback Tool 2.0, January 2022"
-date: 2022-01-01
+type: "Research Plan"
+study_date: "2022-01-20"
+authors:
+  - "Megan Gayle"
+  - "Denise Coveyduc"
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Resources and Support"
+  - "PRDT: Submit Feedback Tool"
+  - "RESRCH: Usability Testing"
+  - "RESRCH: Remote"
+  - "HDW: Desktop"
+  - "HDW: Mobile"
+  - "DSC: Feedback Tool"
+  - "DSC: Tags"
+  - "DSP: Content Discovery"
+  - "Content Navigation"
+team: "Search & Discovery"
+portfolio: "Digital Experience"
+product:
+  - "Resources and Support"
+  - "Submit Feedback Tool 2.0"
+research_round: "usability testing"
+participant_count: 16
+study_length: "60 minutes"
+date: "2022-01"
+# Research Plan Metadata (legacy)
+legacy_date: 2022-01-01
 last_updated: 2022-01-31
-team: "Search & Discovery Team"
-product: "Resources and Support"
+legacy_team: "Search & Discovery Team"
+legacy_product: "Resources and Support"
 product_area: "unauthenticated"
 
 # Background Context

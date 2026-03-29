@@ -1,109 +1,127 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Profile Team, Personal Information, November 2021"
+date: 2021-11-01
+last_updated: 2022-01-05
+team: "Profile Team"
+product: "Profile - Personal Information (Preferred Name, Pronouns, Gender Identity, Sexual Orientation)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need to be addressed properly at health appointments. Adding preferred name/pronouns/gender identity/sexual orientation fields mitigates improper addressing and allows veterans to accurately describe themselves."
+  product_location: "VA.gov Profile > Personal Information section"
+  user_familiarity: "New fields - adding to existing Personal Information section"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/personal-information/personal-information-revision"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Remote usability testing with high-fidelity prototype"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate whether Veterans understand the terminology used in the Personal Information section"
+  - goal_2: "Validate that the order of information makes sense to Veterans"
+  - goal_3: "Evaluate whether or not Veterans understand what this information is and why we are asking for it"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do the fields/information presented match Veterans' expectations?"
+  - "Does the wording of options match Veterans' expectations?"
+  - "Do Veterans understand the terminology used?"
+  - "What terms do Veterans use to describe themselves pertaining to gender, sexual identity pronouns, and names?"
+  - "How do Veterans expect to see this information organized on the page?"
+  - "Do Veterans understand what this information is and why we are asking for it?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will understand how to update their personal information preferences"
+  - "Veterans will be pleased to have more control over how they are addressed when interacting with VA representatives"
+  - "Veterans will understand the overall fields and options but may have different expectations regarding specific terminology"
+  - "Veterans will show confusion regarding specific terminology"
+  - "Veterans will have questions about why we are asking for this information and where/how it will be used"
+  - "Veterans will have questions as to whether or not this information is required"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "We will use these learnings to determine if any content or IA changes are needed and refine our designs before production."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Recruit 10 participants for 5 fulfilled sessions"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must be Veterans"
+    - "Must have identity-verified, LOA3 account on VA.gov"
+    - "Must be able to participate from laptop/desktop device"
+    - "At least 3 people who identify as other than straight or heterosexual"
+    - "At least 3 people who identify as other than cis-gender"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 3 women"
+    - "At least half identify as a person of color"
+    - "At least one person with disability rating of 70% or greater"
+    - "At least one person with identified cognitive consideration of PTSD or TBI"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you identify as other than straight or heterosexual?"
+      qualifying_response: "Yes (for at least 3 participants)"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 5
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-12-22"
+  pilot_participant: "Taylor Mitchell (tmitchell@governmentcio.com)"
+  research_dates: "2022-01-03 to 2022-01-05"
+  research_review_submission: "2021-11-01"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 30
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Increase the quality and reliability of VA services"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Logged-in users can update their personal information easily and instantly"
+      - "Logged-in users have a personalized experience, with relevant and time-saving features"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Living Civilian Life"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "N/A"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - profile
+  - personal-information
+  - usability-testing
+  - authenticated-experience
+  - gender-identity
+  - preferred-name
+  - authenticated
+  - research-plan
+  - "profile"
+  - "personal-information"
+  - "gender-identity"
+  - "usability-testing"
+  - "authenticated-experience"
 ---
 
 Research Plan for Profile Team, Personal Information, November 2021

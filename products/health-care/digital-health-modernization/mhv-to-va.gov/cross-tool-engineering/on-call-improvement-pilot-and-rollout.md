@@ -44,7 +44,7 @@ The purpose of this phase is to expand the improvements to a "real-world" situat
 - True positive rate is >= 80%
 
 ## Phase 3 - Rollout
-This phase is where we begin to roll out the improvements to all MHV teams. See more detail in the [rollout plan](#forthcoming).
+This phase is where we begin to roll out the improvements to all MHV teams. See more detail in the [rollout plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/cross-tool-engineering/on-call-improvement-rollout-plan.md).
 
 ### KPIs
 - Mean time to acknowledge (MTTA) is < 15 minutes

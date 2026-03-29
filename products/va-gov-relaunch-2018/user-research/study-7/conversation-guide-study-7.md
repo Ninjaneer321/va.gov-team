@@ -1,34 +1,33 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: "Conversation Guide for VA.gov Relaunch Team, Onsite Usability Testing Study 7, November 2018"
+type: "Conversation Guide"
+study_date: "2018-11-01"
+authors:
+  - "VA.gov Relaunch Team"
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+  - "AUD:Veterans"
+  - "PRDT:VA.gov"
+  - "PRDT:Benefit-hubs"
+  - "RESRCH:Usability"
+  - "RESRCH:In-person"
+  - "RESRCH:Moderated"
+  - "RESRCH:Guerrilla-research"
+  - "BNFT:Health-care"
+  - "BNFT:Disability"
+  - "DSC:Navigation"
+  - "DSP:Help-users-to-navigate"
+  - "HDW:Desktop"
+  - "HDW:Smartphone"
+  - "VETJNY:Taking-care-of-themselves"
+team: "VA.gov Relaunch Team"
+portfolio: "Digital Experience"
+product:
+  - "VA.gov Relaunch"
+  - "Preview.va.gov"
+research_round: "Study 7 - Durham VAMC"
+participant_count: "TBD"
+study_length: "15-20 minutes"
+date: "2018-11"
 ---
 
 # Conversation Guide - Study 7

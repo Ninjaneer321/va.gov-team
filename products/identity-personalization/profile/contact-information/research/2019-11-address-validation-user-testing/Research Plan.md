@@ -1,109 +1,115 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience, Address Validation, November 2019"
+date: 2019-11-05
+last_updated: 2019-11-05
+team: "Authenticated Experience"
+product: "Profile - Address Validation"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need to update their mailing addresses in their profile, and address validation from Vet360 requires UX to handle various scenarios when addresses don't match the database."
+  product_location: "VA.gov profile - contact information section"
+  user_familiarity: "Iteration - adding address validation and override capability"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate that messaging is clear when the system doesn't recognize an entered address"
+  - goal_2: "Confirm veterans understand how to proceed with address suggestions or override"
+  - goal_3: "Ensure veterans can successfully complete the address update workflow"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Is the messaging clear to the Veteran about their entered address if the system does not recognize it?"
+  - "Is it clear how to proceed by selecting their entered address or an address suggestion?"
+  - "Is it clear what to do when the system has no address suggestions?"
+  - "Is it clear how to edit their entered address?"
+  - "Is it clear that they can go back to the address suggestion screen before confirming?"
+  - "Does it cause confusion if the Continue/Update/Cancel buttons move on mobile?"
+  - "Is it clear that the address has been updated or cannot be updated?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will understand how to edit their mailing address from their profile"
+  - "Veterans will understand why we display the alert if the system does not recognize their entered address"
+  - "Veterans will find it easier to make a choice if we select the best address suggestion option by default"
+  - "Veterans will be able to complete the process and feel confident their address has been updated"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Research will validate the address validation UX and identify any pain points or confusing elements to optimize the workflow."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Veterans with VA.gov experience and benefits"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "People who have previously used VA.gov"
+    - "People who receive at least one benefit from the VA"
+    - "Able to download and use GoToMeeting app for screensharing"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 1 woman"
+    - "At least 1 person of color"
+    - "At least 1 person 35 or under"
+    - "At least 1 person 55 or older"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you used VA.gov before?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 3
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 3
+  completed_sessions_goal: 3
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2019-11-12"
+  pilot_participant: "TBD"
+  research_dates: "2019-11-13 to 2019-11-15"
+  research_review_submission: "2019-11-05"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Improve profile usability and data accuracy"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Veterans can successfully update addresses with validation support"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Profile usability research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "authenticated"
+  - "usability-testing"
+  - "profile"
+  - "address-validation"
+  - "contact-information"
 ---
 
 # Research Plan for Authenticated Experience/Personalization: Candidate Address - Override

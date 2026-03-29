@@ -1,8 +1,8 @@
 ---
 title: "Conversation Guide for Outreach Specialist Interviews, August 2020"
-author: "To be determined"
+author: "Leyda Hughes"
 date_created: "2020-08-01"
-last_modified: "2026-02-11"
+last_modified: "2026-03-24"
 
 # Core research metadata
 team: "Facilities Team"
@@ -22,19 +22,21 @@ related_prototype: "N/A"
 
 tags:
   - "AUD: VA Staff"
+  - "AUD: Outreach Specialists"
+  - "BNFT: Healthcare"
   - "PRDT: Vet Centers"
   - "PRDT: Facilities"
-  - "BNFT: Healthcare"
+  - "research"
+  - "discovery"
   - "semi-structured-interviews"
-  - "discovery-research"
-  - "remote-research"
   - "stakeholder-interviews"
   - "outreach-specialists"
   - "eligibility"
   - "counseling-services"
   - "mental-health"
   - "events"
-  - "Vet Center modernization"
+  - "vet-center-modernization"
+  - "remote-moderated"
 
 description: "Discovery interviews with Vet Center Outreach Specialists to understand their role, client interactions, service offerings, eligibility processes, event planning, and promotional activities to inform website improvements."
 

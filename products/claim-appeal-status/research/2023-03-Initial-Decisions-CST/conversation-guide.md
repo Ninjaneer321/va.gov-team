@@ -1,40 +1,32 @@
 ---
-title: "Conversation Guide for Claim Status Tool Initial Decisions Research"
-author: "Ruben"
-date_created: "2023-03-01"
-last_modified: "2026-02-11"
-
-# Core research metadata
-team: "Benefits Team"
-portfolio: "benefits"
-product: "Claim Status Tool"
-research_phase: "discovery"
-research_method: "moderated_interview"
-
-# Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans with an active disability compensation claim in progress on VA.gov"
-
-# Related documents
-related_research_plan: "products/claim-appeal-status/research/2023-03-Initial-Decisions-CST/research-plan.md"
-related_prototype: "https://app.mural.co"
-
+title: "Conversation Guide for Benefits Management Tools, Claim Status Tool, Initial Decisions, March 2023"
+type: "Conversation Guide"
+study_date: "2023-03-01"
+authors:
+  - "Skyler Schain"
+  - "Ruben Sun"
 tags:
   - "AUD:Veterans"
-  - "PRDT:claim-status"
-  - "PRDT:disability-compensation"
-  - "BNFT:disability"
-  - "co-design"
-  - "decision-reviews"
-  - "CST"
-  
-description: "Discovery research exploring Veterans' understanding of Claim Status Tool information and conducting co-design exercises to improve the presentation of claim status and decision review options."
-
-# Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+  - "PRDT:Claim-status"
+  - "PRDT:CST"
+  - "RESRCH:Evaluative"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "BNFT:Disability"
+  - "DSC:Interview"
+  - "DSP:Claim-decisions"
+  - "HDW:Desktop"
+  - "VETJNY:Accessing-benefits"
+team: "Benefits Management Tools"
+portfolio: "Benefits"
+product:
+  - "Claim Status Tool"
+  - "Initial Claim Decisions"
+  - "Disability Claims"
+research_round: "Initial Decisions Evaluation"
+participant_count: 8
+study_length: "60 minutes"
+date: "2023-03"
 ---
 
 # Conversation Guide 

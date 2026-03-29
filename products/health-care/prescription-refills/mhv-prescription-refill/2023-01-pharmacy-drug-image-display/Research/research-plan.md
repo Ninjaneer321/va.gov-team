@@ -97,6 +97,15 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/prescription-refills/mhv-prescription-refill/2023-01-pharmacy-drug-image-display/conversation-guide.md"
     
 tags:
+  - MHV
+  - my-healthevet
+  - prescriptions
+  - pharmacy
+  - drug-images
+  - usability-testing
+  - health-care
+  - authenticated
+  - research-plan
   - "AUD: Veterans"
   - "AUD: Caregivers"
   - "BNFT: Healthcare"

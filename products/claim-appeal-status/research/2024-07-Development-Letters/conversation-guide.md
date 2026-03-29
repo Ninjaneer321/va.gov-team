@@ -1,59 +1,33 @@
 ---
-title: "Conversation Guide for Benefits Team 1, Claim Status Tool Development Letters, July 2024"
-author: "Gary Homidas, Skyler Schain"
-date_created: "2024-07-08"
-last_modified: "2026-02-11"
-
-# NEW: Core research metadata
-team: "Benefits Team 1"
-portfolio: "benefits"
-product: "Claim Status Tool - Development Letters"
-research_phase: "evaluative"
-research_method: "semi_structured_interviews"
-
-# NEW: Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans who filed a disability compensation claim within the past 2 years and received development letters from VA. Emphasis on Veterans aged 55-64+, Black or Hispanic Veterans, rural Veterans, and women Veterans."
-
-# NEW: Related documents
-related_research_plan: "products/claim-appeal-status/research/2024-07-Development-Letters/research-plan.md"
-related_prototype: "https://www.figma.com/proto/BUdMIxAiIutG12rZxZ0cg1/Claim-Letters-Navigation-%2B-5103-Alert-Updates?node-id=2479-8381"
-
+title: "Conversation Guide for Benefits Management Tools, Claim Status Tool, Development Letters, July 2024"
+type: "Conversation Guide"
+study_date: "2024-07-01"
+authors:
+  - "Skyler Schain"
+  - "Gary Homidas"
 tags:
-  - "AUD-Veterans"
-  - "BNFT-Disability"
-  - "BNFT-Compensation"
-  - "DSC-Alert"
-  - "DSC-Breadcrumb"
-  - "DSC-Button"
-  - "DSC-Link"
-  - "DSP-Alerts-and-notifications"
-  - "PRDT-Claim-status-tool"
-  - "PRDT-CST"
-  - "semi-structured-interviews"
-  - "remote"
-  - "moderated"
-  - "prototype"
-  - "authenticated"
-  - "disability-compensation"
-  - "development-letters"
-  - "5103-notice"
-  - "claim-letters"
-  - "evidence-requests"
-  - "tracked-items"
-  - "VBA"
-  - "form-21-4142"
-  - "waiver"
-  - "document-upload"
-  - "electronic-communications"
-  - "digital-notifications"
-description: "Semi-structured interview and usability test for Claim Status Tool development letters feature. Evaluates Veterans' experiences with development letters, tests new 5103 Notice design, assesses tracked items content model for various request types, and explores preferences for electronic-only communications."
-
-# NEW: Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+  - "AUD:Veterans"
+  - "PRDT:Claim-status"
+  - "PRDT:CST"
+  - "RESRCH:Usability"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "RESRCH:Prototype-testing"
+  - "BNFT:Disability"
+  - "DSC:Content-presentation"
+  - "DSP:Development-letters"
+  - "HDW:Desktop"
+  - "VETJNY:Accessing-benefits"
+team: "Benefits Management Tools"
+portfolio: "Benefits"
+product:
+  - "Claim Status Tool"
+  - "Development Letters"
+  - "5103 Notice"
+research_round: "Development Letters Usability"
+participant_count: 8
+study_length: "60 minutes"
+date: "2024-07"
 ---
 
 # Conversation Guide 

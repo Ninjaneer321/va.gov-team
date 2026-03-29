@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Release Plan - Representative Claims Submission Form Upload
+services: Accredited Representative Facing
+tags: accredited-representative, claims, release
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/product-info/rep-claim-submissions/release-plan-rep-claim-submissions.md.md
+---
 
 <!-- markdownlint-disable MD024 -->
 # Release Plan - Representative Claims Submission Form Upload

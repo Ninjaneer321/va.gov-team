@@ -1,10 +1,38 @@
 ---
-# Research Plan Metadata
 title: "Research Plan for Authenticated Experience Profile team: Profile Hub usability study, October 2023"
-date: 2023-10-02
-last_updated: 2023-10-05
+type: "Research Plan"
+study_date: "2023-10-11"
+authors:
+  - "Liz Lantz"
+  - "Angela Agosto"
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Profile"
+  - "PRDT: Profile Hub"
+  - "RESRCH: Usability Testing"
+  - "RESRCH: Remote"
+  - "RESRCH: Prototype"
+  - "HDW: Desktop"
+  - "HDW: Mobile"
+  - "AT: Screen Reader"
+  - "AT: Magnification"
+  - "DSP: Information Architecture"
+  - "DSP: Navigation"
+  - "Authenticated Experience"
 team: "Authenticated Experience - Profile"
-product: "VA.gov Profile - Profile Hub"
+portfolio: "Identity"
+product:
+  - "VA.gov Profile"
+  - "Profile Hub"
+research_round: "usability testing"
+participant_count: 12
+study_length: "60 minutes"
+date: "2023-10"
+# Research Plan Metadata (legacy)
+legacy_date: 2023-10-02
+last_updated: 2023-10-05
+legacy_team: "Authenticated Experience - Profile"
+legacy_product: "VA.gov Profile - Profile Hub"
 product_area: "authenticated"
 
 # Background Context
@@ -138,6 +166,18 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/issues/40593"
     
 tags:
+  - profile
+  - profile-hub
+  - usability-testing
+  - information-architecture
+  - IA
+  - navigation
+  - authenticated-experience
+  - findability
+  - mobile
+  - desktop
+  - authenticated
+  - research-plan
   - "AUD: Veterans"
   - "PRDT: VA.gov Profile"
   - "PRDT: Profile-hub"

@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for ask-va, ask-va, 2026-03-23"
+author: from VA
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "ask-va"
+portfolio: "Contact Centers"
+product: "ask-va"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use assistive technology"
+
+# Related documents
+related_research_plan: "Research plan - Assistive technology Dashboard"
+related_prototype: "N/A"
+
+tags:
+  - ask-va
+  - assistive-technology
+  - accessibility
+  - dashboard
+  - conversation-guide
+description: "Conversation guide for Ask VA dashboard testing with assistive technology users"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation guide for Ask VA: Assistive Tech – Dashboard
 
 Ask VA VA.gov Team

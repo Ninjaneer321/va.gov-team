@@ -1,3 +1,40 @@
+---
+title: "Conversation Guide for identity-personalization, identity-personalization, 2026-03-23"
+author: Authenticated Experience Team
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "identity-personalization"
+portfolio: "Authenticated Experience"
+product: "identity-personalization"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans using mobile devices"
+
+# Related documents
+related_research_plan: "Profile 2.0 Mobile Sub-navigation Research Plan"
+related_prototype: "N/A"
+
+tags:
+  - profile
+  - mobile
+  - sub-navigation
+  - usability-testing
+  - conversation-guide
+  - identity-personalization
+description: "Mobile sub-navigation conversation guide for Profile 2.0"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide for Profile 2.0 Mobile Sub-navigation (Internal)
 
 ## Moderator logistics

@@ -1,3 +1,13 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Evidence Requests Pattern Release Plan
+date: July 10, 2025
+services: Claim Appeal Status
+tags: appeals, claims, release
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/evidence-requests-pattern/release-plan.md
+---
 # Evidence Requests Pattern Release Plan
 
 | Toggle name | Description |

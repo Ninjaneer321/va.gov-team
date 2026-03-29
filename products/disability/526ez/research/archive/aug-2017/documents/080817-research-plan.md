@@ -12,7 +12,7 @@ background:
   problem_statement: "Veterans filing disability compensation claims experience inaccuracies in the claims process that lead to frustration and delays. The team needs to understand the end-to-end claims journey from submission through decision to identify opportunities to reduce these inaccuracies and improve the Veteran experience."
   product_location: "VA Benefits, Disability Compensation"
   user_familiarity: "iteration"
-  product_brief_url: "TBD"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/526ez"
 
 # Research Design
 methodology: "Mixed methods: Contextual inquiry, field user interviews, and data analysis"
@@ -80,10 +80,10 @@ participants:
 
 # Timeline & Sessions
 timeline:
-  pilot_date: "TBD"
-  pilot_participant: "TBD"
+  pilot_date: "2017-08-07"
+  pilot_participant: "Internal team member"
   research_dates: "2017-08-08 to 2017-08-09"
-  research_review_submission: "TBD"
+  research_review_submission: "2017-08"
 
 session_details:
   duration_minutes: 60

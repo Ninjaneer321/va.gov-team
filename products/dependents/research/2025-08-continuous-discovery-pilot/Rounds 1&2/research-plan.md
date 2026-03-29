@@ -72,8 +72,8 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "TBD"
-  pilot_participant: "TBD"
+  pilot_date: "2025-08-20"
+  pilot_participant: "Internal team member"
   research_dates: "2025-08-21 to 2025-08-25 (Cohort 1), overall pilot 2025-08-11 to 2025-11-13"
   research_review_submission: "2025-08-07 (reviewed by Ben Delphine)"
   

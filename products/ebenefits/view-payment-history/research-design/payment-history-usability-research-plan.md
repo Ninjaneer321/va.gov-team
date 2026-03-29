@@ -1,110 +1,56 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Usability Testing for View Payment History"
+date: 2020-08-01
+last_updated: 2026-03-23
+team: "eBenefits"
+product: "View Payment History"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Moving View Payment History feature from eBenefits to VA.gov. The feature displays VA Compensation & Pension and Education payments. Need to test if the new implementation on VA.gov is intuitive and functional for users needing to review their VA payments."
+  product_location: "VA.gov - staging environment (https://staging.va.gov/va-payment-history/payments/)"
+  user_familiarity: "Migration from eBenefits with redesign"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ebenefits/view-payment-history"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
-  
+methodology: "Usability Testing"
+research_format:
+  location: remote
+  moderated: true
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine if the new VPH is intuitive and functional for users needing to review their VA payments"
+  - goal_2: "Maintain existing functionality of the VPH feature as we translate it into the VA.gov system"
+  - goal_3: "Identify any issues with information presentation, search/filter features, and navigation"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Where and how do participants expect to find their payment history?"
+  - "Do participants find the information in the VPH feature useful and complete?"
+  - "What, if any, other information do participants expect to see?"
+  - "What changes are needed to better present the information?"
+  - "What changes would help viewing data in mobile formats?"
 
-hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+# Methodology Details
+research_type: "Evaluative"
+session_format: "Remote moderated usability testing with staging environment"
+timeline: "TBD - dates pending resolution of development issues"
 
-expected_outcomes: "[How will findings advance the product?]"
+# Participants
+participant_count: 5
+recruitment_criteria: "Veterans who receive compensation & pension or education payments from VA"
 
-# Recruitment & Participants
-recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
-  
-  primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
-    
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
-participants:
-  veterans: 0
-  caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
-# Timeline & Sessions
-timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
-  
-session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
-  
-# Strategic Alignment
-octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
-      
-veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
-# Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
-tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+# Team
+moderator: "James Adams"
+notetaker: "Various"
+observers: "Steve Kovacs, Jason Wolf, Shawna Hein, Kathleen Crawford, Micah Chiang, Jesse Cohn"
+
+# Tags
+tags: ['research', 'usability-testing', 'ebenefits', 'payment-history', 'C&P', 'education-payments', 'authenticated', 'research-plan']
 ---
+
 
 # Research plan for usability testing for View Payment History
 **VSA eBenefits Team | August 2020**

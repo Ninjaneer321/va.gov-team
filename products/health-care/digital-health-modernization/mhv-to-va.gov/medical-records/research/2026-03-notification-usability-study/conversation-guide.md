@@ -1,3 +1,40 @@
+---
+title: "Conversation Guide for MHV Medical Records Recency Indicators Usability Study, March 2026"
+author: Laura Willwerth, MHV on VA.gov Team
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "Digital Health Modernization - MHV on VA.gov"
+portfolio: "health"
+product: "Medical Records on VA.gov"
+research_phase: "usability"
+research_method: "usability_test"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use My HealtheVet to access medical records"
+
+# Related documents
+related_research_plan: "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2026-03-notification-usability-study/research-plan.md"
+related_prototype: "Figma prototype"
+
+tags:
+  - "medical-records"
+  - "usability-testing"
+  - "mhv-on-vagov"
+  - "recency-indicators"
+  - "notifications"
+  - "health-records"
+description: "Usability study testing recency indicators and notification features in MHV medical records to help Veterans identify new health information."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide for MHV Medical Records: Recency Indicators Usability Study
 **March 2026**
 

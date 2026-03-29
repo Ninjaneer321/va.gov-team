@@ -1,109 +1,113 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience, Payment Information and Onsite Notifications, January 2022"
+date: 2022-01-01
+last_updated: 2022-01-14
+team: "Authenticated Experience"
+product: "My VA - Payment Information and Onsite Notifications"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need to see payment information on their My VA dashboard. This effort adds payment information to elevate it for logged-in Veterans' awareness and attention."
+  product_location: "My VA dashboard (authenticated area of VA.gov)"
+  user_familiarity: "New feature - MVP for payment information section"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va/payment-history"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Remote usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate that proposed payment information IA matches the Veteran mental model"
+  - goal_2: "Understand the financial information that is most important to Veterans"
+  - goal_3: "Validate that onsite notification MVP meets Veterans' needs"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Where do users expect to see new information about their payments and debts on VA.gov?"
+  - "Can users find the payment information that they're looking for?"
+  - "What information do users want to know about new debts, existing debts, and payments from the VA?"
+  - "Does providing a link allow users to sufficiently take action on their payments and debts?"
+  - "Does the proposed MVP solution (a single dismissible debt notification) help Veterans to more easily take action?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will be able to more easily manage their debts and view payment history using the links in My VA"
+  - "Veterans will not need to use site search to find their payment or debt information from My VA"
+  - "Veterans will want to see more details than we're surfacing on My VA, and providing a link will be sufficient"
+  - "The design for action items and alerts will be effective at drawing attention"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "We'll use the findings from this research to update our page IA and inform our MVP designs."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Lean maximum variation strategy"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants must be LOA3 (identity verified) on VA.gov"
+    - "All must have received education benefit or compensation/pension payments from VA"
+    - "At least 50% should have incurred education or compensation/pension debts"
+    - "50% should have VA health care (now or past)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "8 women, 8 men"
+    - "10 participants who identify as other than white"
+    - "5 participants who identify as other than straight/heterosexual and cisgender"
+    - "8 participants age 55+"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you ever received an education, compensation, or pension payment from the VA?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 16
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 16
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2022-01-12 to 2022-01-14"
+  research_review_submission: "2022-01-01"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 30
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 6
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Move toward My VA being the one-stop shop for action items and benefit status"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Provide more direct, personalized routes to Veterans' most critical updates and tasks"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va/2.0-redesign/discovery-and-research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "my-va"
+  - "payment-information"
+  - "notifications"
+  - "usability-testing"
+  - "authenticated-experience"
 ---
 
 # Research Plan for Authenticated Experience team, Payment information and onsite notifications, January 2022

@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for va-mobile-app, va-mobile-app, 2026-03-23"
+author: Liz and
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "va-mobile-app"
+portfolio: "VA Mobile App"
+product: "va-mobile-app"
+research_phase: "Generative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VA mobile app users"
+
+# Related documents
+related_research_plan: "Mobile App Retention Research Plan July 2023"
+related_prototype: "N/A"
+
+tags:
+  - va-mobile-app
+  - retention
+  - post-launch
+  - discovery
+  - conversation-guide
+description: "Conversation guide for VA mobile app retention research"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # **VA Mobile App User Retention: conversation guide**
 
 

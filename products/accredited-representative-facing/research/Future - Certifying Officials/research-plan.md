@@ -1,11 +1,11 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Accredited Representative Portal, Certifying Officials (Future), 2024"
+date: 2024-09-01
+last_updated: 2024-09-01
+team: "Accredited Representative Facing Team"
+product: "Accredited Representative Portal"
+product_area: "authenticated"
 
 # Background Context
 background:
@@ -15,7 +15,7 @@ background:
   product_brief_url: "[URL]"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "discovery research"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
@@ -99,11 +99,14 @@ related_research:
   previous_studies: 
     - "[Link to related past research]"
     
+
+study: "Accredited Representative Portal, Certifying Officials (Future),"
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "accredited-rep-facing"
+  - "certifying-officials"
+  - "discovery"
+  - "future-research"
+  - "AUD: certifying-officials"
 ---
 
 # Research Plan for Accredited Representative-Facing (ARF) Team, VSO Certifying Officials, Date TBD

@@ -1,42 +1,25 @@
 ---
-title: "Conversation Guide for Debt Resolution Team, Combined VA Debt Portal Exploratory and Concept Study, February 2024"
-author: "Charlotte Cesana"
-date_created: "2024-02-01"
-last_modified: "2024-02-01"
-
-# Core research metadata
-team: "Debt Resolution Team"
-portfolio: "benefits"
-product: "Combined VA Debt Portal"
-research_phase: "discovery"
-research_method: "moderated_interview"
-
-# Session details
-session_duration: "75 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans who have experience with VA debt (copay bills or VA benefits overpayment debt) or have used the VA.gov debt portal previously."
-
-# Related documents
-related_research_plan: "products/combined_va_debt_portal/research/exploratory-2024/research-plan.md"
-related_prototype: "N/A"
-
+title: Conversation Guide for Debt Resolution, VA Debt Portal, 2024 01
+author: Charlotte Cesana
+date_created: '2024-01-01'
+last_modified: '2024-01-01'
+team: Debt Resolution
+portfolio: benefits
+product: VA Debt Portal
+research_phase: discovery
+research_method: moderated_interview
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: Veterans with various types of VA debt
+related_research_plan: products/combined_va_debt_portal/research/exploratory-2024/research-plan.md
+related_prototype: N/A
 tags:
-  - "debt"
-  - "copay"
-  - "overpayment"
-  - "financial-hub"
-  - "debt-portal"
-  - "benefits-debt"
-  - "medical-copay"
-  - "concept-testing"
-  - "reaction-cards"
-  - "information-architecture"
-  - "exploratory-research"
-  - "desirability"
-  - "authenticated"
-description: "Exploratory conversation guide for understanding Veteran needs and preferences for a holistic financial hub to manage VA copays and benefits debts. Part 1 uses reaction cards to explore desirability of features for an ideal financial hub. Part 2 gathers feedback on current debt portal information architecture and layout options."
-
-# Compliance flags
+- debt-portal
+- discovery
+- exploratory
+- multi-debt
+description: Exploratory research on Veterans' experiences managing multiple types
+  of VA debt.
 recording_required: true
 observer_support: true
 consent_for_clips: true

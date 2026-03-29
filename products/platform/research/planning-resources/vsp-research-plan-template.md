@@ -1,66 +1,57 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "VSP Research Plan Template"
+date: 2019-01-01
+last_updated: 2023-12-31
+team: "VSP Platform Teams"
+product: "VSP Research Plan Template"
+product_area: "platform-documentation"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "This is a template file for VSP teams to use when creating research plans. It provides standard structure and guidance for planning platform research initiatives."
+  product_location: "Platform documentation - research planning resources"
+  user_familiarity: "Template for internal use by VSP teams"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "template-document"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Template file - provides structure for defining research goals"
+  - goal_2: "Template file - guides teams through research planning process"
+  - goal_3: "Template file - ensures consistency across VSP research"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Template file - placeholder for research questions"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Template file - placeholder for hypotheses"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Template file - provides standardized framework for VSP research planning"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Varies by study"
+  approach: "Template provides guidance for recruitment approach"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Template file - placeholder for primary criteria"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Template file - placeholder for secondary criteria"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Template file - placeholder for screener questions"
+      qualifying_response: "Template file - placeholder"
       
 participants:
   veterans: 0
@@ -72,7 +63,7 @@ participants:
 # Timeline & Sessions
 timeline:
   pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
+  pilot_participant: "Template file - to be determined"
   research_dates: "YYYY-MM-DD to YYYY-MM-DD"
   research_review_submission: "YYYY-MM-DD"
   
@@ -83,27 +74,24 @@ session_details:
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Template file - aligns with VSP objectives"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Template file - placeholder"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Template file - varies by study"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Template file - to be completed by research team"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "template"
+  - "VSP"
+  - "platform-research"
+  - "research-planning"
+  - "documentation"
 ---
 
 # Research Plan for [Team, Product, Date]

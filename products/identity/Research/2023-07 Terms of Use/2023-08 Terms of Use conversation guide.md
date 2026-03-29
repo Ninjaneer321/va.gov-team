@@ -1,6 +1,6 @@
 ---
 title: "Conversation Guide for Core Identity Team, Terms of Use, August 2023"
-author: "TBD"
+author: for VA
 date_created: "2023-07-01"
 last_modified: "2026-02-11"
 

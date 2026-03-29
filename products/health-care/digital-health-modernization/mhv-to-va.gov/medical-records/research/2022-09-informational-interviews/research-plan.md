@@ -101,19 +101,21 @@ related_research:
     - "Round 2 research planned for Q4 2022 - Usability testing with Veterans"
     
 tags:
+  - "health-care"
+  - "MHV"
+  - "My-HealtheVet"
+  - "migration"
+  - "medical-records"
+  - "informational-interviews"
+  - "generative"
+  - "remote"
+  - "moderated"
+  - "veterans"
+  - "discovery"
   - "AUD: Veterans"
   - "BNFT: Healthcare"
-  - "PRDT: Medical-records"
-  - "MHV: Medical Records"
-  - "MHV: MyHealth"
-  - "semi-structured-interviews"
-  - "discovery"
-  - "stakeholder-interviews"
-  - "health-apartment"
-  - "Cerner"
-  - "VistA"
-  - "Blue-Button"
-  - "authenticated-experience"
+  - "PRDT: My-HealtheVet"
+  - "PRDT: Medical-Records"
 ---
 
 August 23, 2022

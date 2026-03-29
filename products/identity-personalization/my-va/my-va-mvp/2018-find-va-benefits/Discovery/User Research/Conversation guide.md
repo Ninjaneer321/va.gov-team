@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for identity-personalization, identity-personalization, 2026-03-23"
+author: Samara and
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "identity-personalization"
+portfolio: "Authenticated Experience"
+product: "identity-personalization"
+research_phase: "Generative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans exploring VA benefits"
+
+# Related documents
+related_research_plan: "Find VA Benefits Discovery Research Plan 2018"
+related_prototype: "N/A"
+
+tags:
+  - my-va
+  - find-va-benefits
+  - discovery
+  - conversation-guide
+  - identity-personalization
+description: "Discovery conversation guide for Find VA Benefits feature"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide: Benefits Recommendations Discovery
 
 ## Moderator logistics

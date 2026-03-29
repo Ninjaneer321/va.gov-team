@@ -1,11 +1,30 @@
 ---
-# Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for 10-10 Team, Health care application 10-10EZ household information section, December 2022"
+type: "Research Plan"
+study_date: "2022-12-15"
+authors:
+  - "Health Enrollment Team"
+tags:
+  - "AUD: Veterans"
+  - "PRDT: 10-10EZ"
+  - "PRDT: Health-application"
+  - "PRDT: Household-information"
+  - "RESRCH: Usability-testing"
+  - "RESRCH: Remote"
+  - "RESRCH: Mobile"
+  - "RESRCH: Desktop"
+  - "HCE: Health-care"
+  - "BNFT: Healthcare"
+team: "10-10 Team"
+portfolio: "Health Care"
+product:
+  - "10-10EZ"
+  - "Health Care Application"
+research_round: "Usability"
+participant_count: 10
+study_length: "1 hour"
+date: "2022-12"
+product_area: "authenticated"
 
 # Background Context
 background:

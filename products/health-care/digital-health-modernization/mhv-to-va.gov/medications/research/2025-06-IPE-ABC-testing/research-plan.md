@@ -112,12 +112,24 @@ prototype_variants:
     
 tags:
   - "health-care"
+  - "MHV"
+  - "My-HealtheVet"
+  - "migration"
   - "medications"
-  - "unmoderated-testing"
-  - "A-B-testing"
-  - "mobile"
-  - "in-product-education"
+  - "prescriptions"
+  - "pharmacy"
+  - "IPE"
+  - "A/B/C-testing"
+  - "unmoderated"
+  - "remote"
+  - "evaluative"
   - "veterans"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: My-HealtheVet"
+  - "PRDT: Medications"
+study: MHV on VA.gov Medications – IPE A/B Testing June 2025
+type: UAT
 ---
 
 # Research Plan for MHV on VA.gov Medications – IPE A/B Testing June 2025

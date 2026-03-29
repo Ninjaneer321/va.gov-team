@@ -1,109 +1,91 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Claim Status Tool: Usability Study + Co-design Session, June 2020"
+date: 2020-06-01
+last_updated: 2020-06-30
+team: "VSA Benefits and Memorials 1"
+product: "Claim Status Tool"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The Claim Status Tool is the most used page on VA.gov, but has been largely untouched for 3 years. Veterans check claims multiple times per week, and the VA call center gets the most calls about Claim status pages."
+  product_location: "VA.gov - Claim Status Tool"
+  user_familiarity: "Iteration - Part 2 of 3 research phases"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/claim-appeal-status"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Combined: Qualitative interviews, collaborative design sessions, usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand the user experience of the current Claim status tool - pain points and usability issues"
+  - goal_2: "Learn what improvements users would like to see and what wants and needs they have"
+  - goal_3: "Collaboratively design improvements with veterans"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What is the user experience with the current Claim status tool?"
+  - "What are the pain points and limitations?"
+  - "What improvements would users like to see?"
+  - "What wants and needs do users have for such a tool?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will have specific usability pain points with the current tool"
+  - "Veterans will want more transparency into claim progress"
+  - "Collaborative design will reveal feature priorities"
+  - "Improvements can reduce call center volume"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Understand user needs and co-design improvements to create better user experience and reduce call center calls"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who have submitted at least one claim with the VA"
+    - "Experience using the Claim Status Tool"
     
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-06-15"
+  research_dates: "2020-06-16 to 2020-06-30"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can manage their health services online"
+  - objective: "Logged-in users have a personalized experience"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Managing primary care and chronic health issues"
     
 # Research Repository Tracking
 related_research:
-  previous_studies: 
-    - "[Link to related past research]"
+  previous_studies:
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/claim-appeal-status/research/April-2020-dicovery-concept-usability"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "claim-status"
+  - "benefits"
+  - "usability-testing"
+  - "co-design"
+  - "authenticated"
 ---
 
 Research Plan Claim Status Tool:  Usability study + Co-design session

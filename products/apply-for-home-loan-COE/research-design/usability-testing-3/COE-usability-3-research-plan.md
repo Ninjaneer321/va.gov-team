@@ -1,109 +1,87 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for IIR, Request for Certificate of Eligibility (COE), March 2025"
+date: 2025-03-24
+last_updated: 2025-03-24
+team: "IIR Team"
+product: "Certificate of Eligibility (COE)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The digital COE form (26-1880) is behind its paper counterpart, missing several fields needed for efficient processing. Form needs updating to v3 components and one thing per page design."
+  product_location: "VA.gov - VA Form 26-1880"
+  user_familiarity: "Iteration of existing authenticated form"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/apply-for-home-loan-COE/initiative-brief-2024-COE-updates.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate that new questions make sense and are easily understood by Veterans"
+  - goal_2: "Assess whether new page sectioning flow of the form works well"
+  - goal_3: "Determine if additional information sections after questions make it easier to process and absorb"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do the new questions make sense and are they easily understood by Veterans?"
+  - "Does the new page sectioning flow of the form work well?"
+  - "Does providing additional information sections for complex terms after each question make it easier?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Breaking the form down to one question per page with conditional logic will increase ease of use"
+  - "Dense contextual areas after questions will make the form easier to complete"
+  - "The new design prototype will be ready for engineers to build"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate design approach or identify problem areas that need remediation before engineering build"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who have or will need a COE for home loan"
+    - "Experience with or interest in VA-backed home loans"
     
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-03-24"
+  research_dates: "2025-03-24 to 2025-04-07"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
+  - objective: "OCTO positively influences VA's ability to deliver software products and services faster, safer, and with higher quality"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting out"
+  - "Starting up"
+  - "Putting down roots"
     
 # Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "COE"
+  - "certificate-of-eligibility"
+  - "home-loans"
+  - "usability-testing"
+  - "form-updates"
+  - "authenticated"
 ---
 
 # COE Research Plan

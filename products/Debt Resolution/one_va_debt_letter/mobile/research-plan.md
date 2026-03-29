@@ -1,109 +1,149 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Mobile Feature Support, One VA Debt Letter in mobile app, November 2025"
+date: 2025-11-12
+last_updated: 2025-10-29
+team: "Mobile Feature Support"
+product: "One VA Debt Letter Mobile"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans who have overpayment debts and copayment bills do not have a single place to view all outstanding debts from the VA on the VAHB mobile app. How might we validate that Veterans want a standard format or structure that unifies their debt information on the mobile app, and provides them with a positive user experience?"
+  product_location: "The combined statement is available on VA.gov, authenticated. It is not currently available in the mobile app"
+  user_familiarity: "It is a relatively new product: the combined statement was introduced to VA.gov in April 2025. If we built it in the app, it will be similar to that experience."
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/one_va_debt_letter/mobile/product-brief.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Moderated remote sessions: semi-structured interviews and concept testing"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
   moderated: true # Options: true, false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Assess veteran interest, value, and trust in a combined VA debt statement on mobile"
+  - goal_2: "Identify Veteran needs, expectations, and preferences for viewing and interacting with a combined statement of outstanding debts on mobile"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do Veterans currently manage or track multiple debts from the VA?"
+  - "What challenges or pain points do Veterans face without a centralized debt view?"
+  - "Do Veterans see value in a single place to view all outstanding financial obligations on mobile?"
+  - "Does having a combined statement increase or decrease Veterans' trust in the information presented compared to individual letters?"
+  - "Does the combined statement make it easier or harder for Veterans to understand their total financial situation?"
+  - "How do the use cases differ between individual copay statements and debt letters vs combined statements?"
+  - "What actions or decisions would they want to take when viewing a combined statement, and is that different from viewing only individual statements?"
+  - "What information or features would make a combined statement most useful?"
+  - "How would Veterans prefer to interact with this document? (e.g. PDF, email, mobile app, web)"
+  - "Is having a downloadable PDF of the combined statement important when using a phone?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans currently find it challenging to see the overall financial pictures of their debt and bills"
+  - "They will like the idea of a combined statement to have the current financial obligations of overpayments and copays in one place"
+  - "Veterans will trust that the information provided is accurate and up to date"
+  - "The current structure of a combined statement will be overwhelming to most"
+  - "They will want to view details of the debts and bills from combined statements"
+  - "Veterans will find PDFs of combined statements valuable, both as a familiar format and as a way to save for reference"
+  - "They will still want access to individual statements and bills, and the combined statement will not be a substitute for these"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Provide a Go or No-Go decision to determine if Veterans see sufficient value in a combined statement in the mobile app; Define feature set for MVP; Establish information architecture and content; Determine UX flow and digital strategy"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment of Veterans with both VA medical copays and benefit overpayment debt experience, non-AT users, for smartphone-based Zoom sessions"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Had a debt balance from benefit overpayments in the last year"
+    - "Received VA medical copay bills in the last year"
+    - "Complete session on their smartphone via the Zoom app"
+    - "Download the Figma app ahead of time, though not creating an account"
+    - "No assistive technology users or accessibility features turned on (due to prototype limitations)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 6 ages 55+"
+    - "At least 3 under age 35"
+    - "At least 6 with cognitive disability"
+    - "At least 4 people of color"
+    - "At least 3 in a rural area"
+    - "At least 3 without a degree"
+    - "At least 2 with immigrant origins"
+    - "At least 1 woman"
+    - "At least 1 from the LGTBQ+ community"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Please check all that apply: a) I currently have an unpaid VA benefits overpayment debt b) I previously had a VA benefits overpayment debt in the last year c) I have not had a VA benefits overpayment debt in the last year"
+      qualifying_response: "a or b (disqualify c)"
+    - question: "Have you received a medical copayment bill from VA in the last year?"
+      qualifying_response: "Yes"
+    - question: "Are you able to join the Zoom session from a smartphone such as a Samsung Galaxy or Apple iPhone?"
+      qualifying_response: "Yes"
+    - question: "How often are you using the VA health and benefits app on your phone?"
+      qualifying_response: "Any frequency except 'never used it or just tried once'"
+    - question: "When interacting with apps on your smartphone, do you usually adjust the standard display or use accessibility features?"
+      qualifying_response: "I mostly use the phone's standard display settings"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-11-03"
+  pilot_participant: "Kim McCaskill"
+  research_dates: "2025-11-12 to 2025-11-20"
+  research_review_submission: "2025-10-29"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve satisfaction with our web and mobile products by 5 points"
+      - "We have reduced the total time Veterans spend waiting for a response from our digital experiences by 50%, towards a goal of less than 4 seconds per transaction"
+      - "100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up (Moment: Balancing Finances)"
+  - "Taking Care of Myself (Moment: Maintaining my health)"
+  - "Putting Down Roots (Moment: Maintaining my financial, social, and emotional health)"
+  - "Retiring (Moment: Taking care of my health)"
+  - "Aging (Moment that Matters: Managing my declining health)"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "TBD"
     
+
+study: "Mobile Feature Support, One VA Debt Letter in mobile app, November"
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - debt-resolution
+  - debt-letters
+  - mobile
+  - VA-mobile-app
+  - usability-testing
+  - debt-notification
+  - authenticated
+  - research-plan
+  - "debt-resolution"
+  - "mobile-app"
+  - "usability-testing"
+  - "concept-testing"
+  - "veterans"
+  - "authenticated"
+  - "discovery-research"
 ---
 
 

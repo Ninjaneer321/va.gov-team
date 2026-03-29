@@ -1,98 +1,103 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Veteran Facing Forms Team, Review Page Hub and Spoke Model, Fall 2024"
+date: 2024-09-15
+last_updated: 2024-09-15
+team: "Veteran Facing Forms Team"
+product: "Form Review Page Pattern"
+product_area: "authenticated, unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Current review page has numerous bugs requiring re-architecting, 508 defects, and doesn't follow 'one thing per page' principle in editing. Testing new 'hub and spoke' model where users edit single form pages and return to review page, reducing cognitive load and improving accessibility."
+  product_location: "VA.gov forms system - platform-wide pattern"
+  user_familiarity: "Iteration - new architecture for existing review page functionality"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/VA.gov-team-forms/blob/main/Product/Review%20Page/Product%20Outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "moderated usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate the usability of the 'hub and spoke' model for the form review process for AT-using Veterans"
+  - goal_2: "Validate that Veterans can successfully understand complex patterns on review page (file upload, list and loop) and edit responses"
+  - goal_3: "Validate that Veterans can successfully answer new questions required due to changing an answer during review"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can Veterans successfully navigate the 'hub and spoke' editing flow?"
+  - "Do Veterans understand how to edit a single page and return to review?"
+  - "Can Veterans handle conditional questions that appear after editing?"
+  - "How do Veterans interact with complex patterns like file upload on review page?"
+  - "Are edit links and error states accessible to AT users?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The 'hub and spoke' model will reduce cognitive load compared to navigating through entire chapters"
+  - "Veterans will successfully edit single pages and return to review page"
+  - "AT users will be able to navigate the new review page pattern accessibly"
+  - "Veterans will understand how to handle conditional questions during review"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate new review page architecture meets usability and accessibility standards before platform-wide implementation"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "targeted recruitment for assistive technology users"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who use assistive technology (screen readers, magnification)"
+    - "Experience completing forms online"
+    - "Mix of AT types (JAWS, NVDA, VoiceOver, ZoomText)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse age range"
+    - "Various form experiences"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you use assistive technology to access the internet?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 5
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 6
+  completed_sessions_goal: 4
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-10-14"
+  pilot_participant: "TBD"
+  research_dates: "2024-10-21 to 2024-11-01"
+  research_review_submission: "2024-10-07"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 90
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Our digital experiences are the best way to access VA health care and benefits"
+    key_results: []
+  - objective: "Our platforms are the best way to deliver products at VA"
+    key_results: []
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Serving"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
+  - "Dying"
     
 # Research Repository Tracking
 related_research:

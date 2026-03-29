@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for MHV on VA.gov, Secure Messages, June 2025"
-date: 2025-06-26
+date: 2025-06-01
 last_updated: 2025-06-26
 team: "Digital Health Modernization - Secure Messaging"
 product: "My HealtheVet on VA.gov - Secure Messaging"
@@ -110,12 +110,17 @@ related_research:
     - "Previous Secure Messaging usability studies"
     
 tags:
-  - "secure-messaging"
-  - "usability-testing"
-  - "veterans"
-  - "moderated"
-  - "mhv-on-vagov"
-  - "cognitive-disabilities"
+  - HCE
+  - MHV-to-VA.gov
+  - Spanish
+  - UAT
+  - accessibility
+  - caregivers
+  - mobile
+  - secure-messaging
+  - usability-testing
+study: MHV on VA.gov, Secure Messages
+type: UAT
 ---
 
 

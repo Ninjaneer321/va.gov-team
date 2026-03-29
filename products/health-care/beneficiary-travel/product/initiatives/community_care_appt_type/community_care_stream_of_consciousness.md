@@ -1,5 +1,88 @@
-## Community Care Stream of consciousness doc
+Community Care (web) Initiative Brief (DRAFT)
+(Updated as of 3/15/2026) 
 
-The intent is for anyone to add thoughts, notes, findings, questions about community care and how it relates to travel pay in a way that captures our thought process, not in a way that's presentable.
-<hr />
+Overview
 
+Contrinuing the transition of functionality from the BTSSS - Veteran Portal - the functionality to be released will enable Veterans to submit any travel expenses for Community Care appointments.  This is an addition to the Complex Claim workflow enabling the Veteran to include the proof of attendance in the documents (like expense receipts) they upload for their claim. 
+
+Problem
+
+Up to 30% of Veterans filing for claims have additional expenses, a non-standard route for which to file for appointments, or attended a community care appointment for which they need reimbursement and can only file through the BTSSS portal.
+
+Outcome Summary
+
+Enable Veterans to file more complex claims on VA.gov outside of simple, mileage-only claims.
+
+Users will be able to file for the following types of appointments
+        Appointments that were located at a community care location
+
+    All users are filing for care on VA.gov
+
+While appointments may require manual review, the filing process drives a decrease in call center inquiries* Complex claims will come in three iterations:
+
+    v1: COMPLEX CLAIMS (RELEASED : JAN 2026) 
+    A flow that enables users to attach non-mileage expenses including the following:
+        Tolls
+        Flights
+        Lodging
+        Parking
+        Food
+        Other items
+
+    **v2: A flow that enables users to file for community care appointments
+        Find community care appointments in the existing system
+        Create a community care appointment if it is not in VistA
+        Attach evidence of attendance to community care appointments
+**
+    v3: A flow that enables users to approach mileage differently
+        Challenge the mileage on a claim
+        File a claim where the origin address was different from the starting address
+
+    Supporting Documentation
+        PLACEHODLER: ADRS (LIST INDIVIDUALLY)
+        PLACEHOLDER: OTHER CLARIFYING DOCUMENTS (LIST INDIVIDUALLY)
+
+Measuring Success
+Key Performance Indicators (KPIs)
+Product KPI 	Baseline 	Target 	Data source
+% / # of claims submitted in VA.gov matching at least 'in process' status in BTSSS 	-- 	100% 	PowerBI
+Claims created by API = claims processed by BTSSS 		100% 	Datadog
+Qualitative feedback 	-- 	-- 	Medallia
+Travel Pay API errors 	-- 	0% 	Datadog
+Technical error rate in claim submission on VA.gov 	0 	0 	Datadog
+Processing time in claims from VA.gov 	-- 	0% 	PowerBI
+Claim volume increase from VA.gov 	-- 	70% 	PowerBI
+vets API errors 	-- 	0 	Datadog
+
+Discovery
+
+Assumptions/Risks
+
+Value & Usability Risks
+This is considered high value, but if Veterans already have low trust with the product from previous experiences, there may be an issue.
+Payouts from claims tend to be smaller in scale than payouts from other VA benefits, so not all who are eligible may prioritize it.
+Veterans may not have submitted travel pay claims on VA.gov before. They may encounter issues finding the appointments list if they want to submit.
+
+Veterans may not have all the information they need in their profiles (i.e. home address), which is a risk for them being able to file.
+We have not yet designed for being able to save a claim if Veterans need more time to find materials to substantiate their claim.
+
+[Technical] Feasibility Risks:
+/Downstream API/Data availability and reliability. Because we have not worked with the Travel Pay API in these regard before, we are not sure of its reliability until testing in production. This includes sending attachments that have to be processed by travel clerks.
+
+Manual review for claims: because the rules engine is complex in nature and we do not know how all claims are processed, some claims may be automatically rejected for reasons we do not understand.
+
+Organizational Viability Risks/Constraints (will there be a positive organizational impact): - The single largest risk is coordination with VTP. Because VTP remains an influential owner of the existing BTSSS portal, we will need to continue working them on design, testing, rollout, and MS dynamics licensing questions.
+
+Screenshots Figma Files
+
+Launch Planning
+
+Collaboration Cycle Kickoff Tickets
+
+Timeline  (PENDING)
+    V2
+        Target Launch Date - April, 2026
+        Actual Launch Date 
+    Communications will be handled through VTP's change management office.**
+
+Counications & Contacts

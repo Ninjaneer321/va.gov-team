@@ -1,109 +1,113 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VAOCTO KeepMeInformed, December 2020"
+date: 2020-12-04
+last_updated: 2020-12-04
+team: "VA OCTO"
+product: "COVID-19 Vaccine Interest Registration and Communication Tool"
+product_area: "health-care"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "With COVID-19 vaccine deployment imminent, VAMCs face challenges in deployment logistics and communication. Veterans need a way to express vaccine interest and receive trusted information and status updates."
+  product_location: "VA.gov with integration to VEText and other nationwide technologies"
+  user_familiarity: "New product - national solution for COVID vaccine interest pooling and communications"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/products/health-care/covid-vaccine-distribution/"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand Veterans' preferences for expressing COVID-19 vaccine interest"
+  - goal_2: "Identify trusted sources for COVID-19 vaccine information"
+  - goal_3: "Determine preferred methods and frequency for receiving vaccine status updates"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are you interested in receiving the COVID-19 vaccine? Why or why not?"
+  - "How would you express your interest in receiving the vaccine?"
+  - "Who/what sources do you trust to receive information about COVID?"
+  - "What information would be important to you regarding the vaccine?"
+  - "How often would you like to receive updates to your vaccine status?"
+  - "What is your preferred method for receiving updates?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "National and standardized method of communicating about COVID-19 vaccine will improve Veteran experience and VAMC deployment efficiency"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Insights will inform product design for expressing vaccine interest, receiving information, and managing update communications"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "representative sample across demographics and geography"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veteran enrolled in VHA to receive care at a VA facility"
+    - "Representative sample across gender, age, race/ethnicity, accessibility needs"
+    - "Initial focus on Veterans in early phases of vaccine receipt (Phase 1c: 65+ with high risk conditions)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Geographic diversity across US"
+    - "Mix of technology familiarity levels"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you a Veteran enrolled in VHA?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-12-07"
+  pilot_participant: "TBD"
+  research_dates: "2020-12-07 to 2020-12-14"
+  research_review_submission: "2020-12-01"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 45
+  buffer_minutes: 15
+  max_sessions_per_day: 6
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Enable COVID vaccine interest registration nationally"
+      - "Provide trusted vaccine information and status updates"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Living civilian life"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/products/health-care/covid-vaccine-distribution/"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "COVID-19"
+  - "vaccine-distribution"
+  - "generative"
+  - "discovery"
+  - "remote"
+  - "moderated"
+  - "veterans"
+  - "interviews"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
 ---
 
 # Research Plan for [VAOCTO, KeepMeInformed (TBD), December 4, 2020]

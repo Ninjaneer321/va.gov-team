@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for identity, identity, 2026-03-23"
+author: Login.gov Adoption Team
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "identity"
+portfolio: "Identity"
+product: "identity"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "MHV users transitioning to Login.gov"
+
+# Related documents
+related_research_plan: "MHV to Login.gov SSO Research Plan"
+related_prototype: "N/A"
+
+tags:
+  - identity
+  - MHV
+  - Login.gov
+  - single-sign-in
+  - conversation-guide
+description: "Conversation guide for MHV to Login.gov single sign-in research"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide MHV Single Sign-on provider
 
 ## Moderator logistics

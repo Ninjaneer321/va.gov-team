@@ -1,41 +1,33 @@
 ---
-title: "Conversation Guide for Claim Status Tool Claim Contextualization Research"
-author: "Skyler/Gary"
-date_created: "2023-10-01"
-last_modified: "2026-02-11"
-
-# Core research metadata
-team: "Benefits Team"
-portfolio: "benefits"
-product: "Claim Status Tool"
-research_phase: "usability"
-research_method: "usability_test"
-
-# Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans who have filed disability compensation claims (Form 526-EZ) with the VA, preferably with experience filing on VA.gov"
-
-# Related documents
-related_research_plan: "products/claim-appeal-status/research/2023-10-Claim-Contextualization/research-plan.md"
-related_prototype: "https://www.figma.com/proto/bWELjWsVqkf3BDx0PXqqam/CST-Claims-Process-exploration"
-
+title: "Conversation Guide for Benefits Management Tools, Claim Status Tool, Claim Contextualization, October 2023"
+type: "Conversation Guide"
+study_date: "2023-10-01"
+authors:
+  - "Skyler Schain"
+  - "Gary Homidas"
 tags:
   - "AUD:Veterans"
-  - "PRDT:claim-status"
-  - "PRDT:disability-compensation"
-  - "BNFT:disability"
-  - "usability-testing"
-  - "claim-process"
-  - "CST"
-  - "process-stepper"
-  
-description: "Usability testing evaluating enhanced claim process contextualization in Claim Status Tool, including detailed step-by-step process information and improved clarity around non-linear claim progression through the 8-step process."
-
-# Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+  - "PRDT:Claim-status"
+  - "PRDT:CST"
+  - "RESRCH:Evaluative"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "RESRCH:Prototype-testing"
+  - "BNFT:Disability"
+  - "DSC:Content-presentation"
+  - "DSP:Claim-understanding"
+  - "HDW:Desktop"
+  - "VETJNY:Accessing-benefits"
+team: "Benefits Management Tools"
+portfolio: "Benefits"
+product:
+  - "Claim Status Tool"
+  - "Claim Contextualization"
+  - "Status Understanding"
+research_round: "Contextualization Evaluation"
+participant_count: 8
+study_length: "60 minutes"
+date: "2023-10"
 ---
 
 # Conversation Guide 

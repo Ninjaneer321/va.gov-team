@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Release Plan
+services: Claim Appeal Status
+tags: appeals, claims, release, testing
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/event-bus-notify/Release Plan.md
+---
 <!-- markdownlint-disable MD024 -->
 ## Step 1: Development
 

@@ -1,3 +1,30 @@
+---
+title: Conversation Guide for Benefits Dependents, 686c Dependents Application, 2026
+  02
+author: Ajia Wallace
+date_created: '2026-02-01'
+last_modified: '2026-02-01'
+team: Benefits Dependents
+portfolio: benefits
+product: 686c Dependents Application
+research_phase: discovery
+research_method: moderated_interview
+session_duration: 45 minutes
+session_type: remote_moderated
+participant_criteria: Veterans managing dependents
+related_research_plan: products/dependents/research/2026-02-continuous-discovery-phase-2/research-plan.md
+related_prototype: N/A
+tags:
+- 686c
+- dependents
+- continuous-discovery
+- phase-2
+- cohort-1
+description: Cohort 1 of continuous discovery phase 2 for dependents research.
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
 
 
 ---

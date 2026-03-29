@@ -118,6 +118,25 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/home-page/research/redesign-usability/research-findings.md"
     
 tags:
+  - homepage
+  - home-page
+  - sitewide
+  - usability-testing
+  - wayfinding
+  - navigation
+  - unauthenticated
+  - mobile
+  - accessibility
+  - screen-reader
+  - smartphone
+  - PACT-act
+  - benefit-hubs
+  - search
+  - sign-in
+  - create-account
+  - redesign
+  - round-2
+  - research-plan
   - "AUD: Veterans"
   - "AUD: Caregivers"
   - "AUD: Family members"

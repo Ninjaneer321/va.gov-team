@@ -1,31 +1,37 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Vocational Rehabilitation & Employment (VR&E), Discovery Research, 2017"
+author: "Elissa Frankle Olinsky"
+date_created: "2017-01-01"
+last_modified: "2017-01-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Vocational Rehabilitation & Employment Team"
+portfolio: "benefits"
+product: "Vocational Rehabilitation & Employment (VR&E)"
+research_phase: "discovery"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with service-connected disability not using VR&E; Active duty service members with service-connected disability not enrolled in IDES; Veteran Service Officers"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://vetsgov-pr-6337.herokuapp.com/vocational-rehab-and-employment/service-disabled/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "VR&E"
+  - "vocational-rehab"
+  - "employment"
+  - "Chapter-31"
+  - "Chapter-36"
+  - "discovery"
+  - "service-members"
+  - "VSO"
+description: "Discovery research to understand where Veterans and servicemembers look for VR&E information and determine clarity of eligibility and benefits."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

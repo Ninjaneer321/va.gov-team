@@ -1,3 +1,38 @@
+---
+title: "Conversation Guide for paperless-delivery, paperless-delivery, 2026-03-23"
+author: safety and
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "paperless-delivery"
+portfolio: "Digital Communications"
+product: "paperless-delivery"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans managing paperless delivery preferences"
+
+# Related documents
+related_research_plan: "Paperless Delivery Research Initiative 2 Plan May 2025"
+related_prototype: "N/A"
+
+tags:
+  - paperless-delivery
+  - digital-communications
+  - usability-testing
+  - conversation-guide
+description: "Conversation guide for paperless delivery research initiative 2"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # **Paperless Delivery Conversation Guide**
 
 ## **Moderator logistics**

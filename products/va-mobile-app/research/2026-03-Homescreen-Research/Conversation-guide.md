@@ -2,7 +2,7 @@
 title: "Conversation Guide for VA Mobile App Homescreen Research - March 2026"
 author: "Theresa"
 date_created: "2026-03-11"
-last_modified: "2026-03-11"
+last_modified: "2026-03-23"
 
 # Core research metadata
 team: "VA Mobile App Team"
@@ -107,16 +107,10 @@ Before we start, I want to go over a few things:
 
 ➡️ Select **Record**, then **Record to the cloud**.
 
-*(If participant asks you to NOT record)* Are you comfortable if I save the transcript of the session? *(If not, take good notes!)*
-
 - I have started recording. I'd like to confirm: 
   - **Are you comfortable if I record my screen and the audio as we talk today?** Yes / No
  
   - **Are you comfortable if we decide to use a recorded clip from our discussion today to share with other VA partners as long as we remove any information that can be used to identify you?** Yes / No
-
-*Moderator: In the bottom toolbar of the Zoom window, click the arrow next to **SHOW CAPTIONS** > **View Full Transcript** > Save (NEED TO DO THIS TO GET TRANSCRIPT)*
-
-*After checking that transcription is working, close the Transcript panel by clicking **Close Full Transcript** in the Show Captions menu.*
 
 
 ## Troubleshooting
@@ -131,15 +125,13 @@ Let’s start with a few questions...
 1. I understand you're a Veteran. Is that right? 
     - Thanks for confirming that.
 
-2. What kind of device are you using today? *(Tablet / Smartphone)*
+2. What kind of device are you using today? *(iPhone, Android phone)*
     - *(If not the expected device, ask to rejoin that way)*
 
-3. What operating system is on your device? *(iOS / Android / _______)*
-
-4. Do you have the VA Health and Benefits mobile app on your device?
+3. Do you have the VA Health and Benefits mobile app on your device?
    - If so, can you tell me what you typically use the mobile app for? How has your experience been so far?
 
-5. [If not] Have you ever used it?
+4. [If not] Have you ever used it?
    - If so, what did you use it for? How was your experience?
 
 
@@ -193,8 +185,8 @@ Take a look at this page without clicking anything [homescreen]. [Give participa
 12. Why do you think those would go here?
 13. Take a closer look at the items. Anything confusing or surprising?
 14. Does the section name Activity make sense for these items?
-15. Is there anything confusing overall about this app homepage?
-16. Is there anything missing?
+15. Is there anything confusing overall about this app homescreen?
+16. Is there anything missing from the homescreen here?
 
 > [!NOTE]
 > ### Things to watch for:
@@ -204,7 +196,7 @@ Take a look at this page without clicking anything [homescreen]. [Give participa
 ## Task 2: Find disability rating/payments - 4 minutes, 25 minutes elapsed
 
 Now let's talk about trying to find a few things. 
-Say you had submitted a claim to hopefully update your disability rating and got a notice that your rating has been changed. You then got a disabiilty payment reflecting the updated rating.
+Say you had submitted a claim to hopefully update your disability rating and got a notice that your rating has been changed. You then got a disability payment reflecting the updated rating.
 ### Questions for testing participant: 
 1. Where would you look for your current disability rating?
 2. Why?
@@ -262,12 +254,14 @@ Next, let's take another look at the Action required section.
 10. [If needed] What do you expect to happen when you tap the pay copay button?
 11. Probe: What would you expect to happen if you click the arrow on the right?
    *Direct to tap pay copay button if needed and move through copay flow.*
-12. Without clicking yet, would you expect to see copay due in the Action required section still when we get back to the homepage screen?
-    *Direct participant to return to Homescreen.*
-13. What did you think about that process?
-14. If you wanted to see confirmation of the copay payment you just did or your full history of copayments, where would you go?
-15. What worked well?
-16. What could be improved?
+12. Without clicking yet, what would you expect to see when you close out of here?
+13. Probe: Would you expect to be back on the homescreen?
+14. Probe: Would you expect to see copay due in the Action required section still when we get back to the homepage screen?
+    *Direct participant to close the payment screen.*
+15. What did you think about that process?
+16. If you wanted to see confirmation of the copay payment you just did or your full history of copayments, where would you go?
+17. What worked well?
+18. What could be improved?
    
 > [!NOTE]
 > ### Things to watch for:
@@ -289,12 +283,13 @@ Next, let's take another look at the Activity section.
 9. Without clicking yet, what would you do next?
 10. Let's say you want to refill the L-O-R prescription, tell me what you would do next.
 11. What do you expect to happen when you do that?
-12. Go ahead and go through the next steps. Talk out loud as you do please. 
-13. What did you think about that process?
-14. What worked well?
-15. What could be improved?
-16. Now that we're back on the Homescreen, take another look, and let me know if there's anything you would change about it overall or any of the information displayed for each item.
-17. Probe: Is there more information you'd want up front here for your 2 upcoming appointments?
+12. Go ahead and go through the next steps. Talk out loud as you do please.
+13. What do you expect to happen when you close the prescription screen?
+14. What did you think about that process?
+15. What worked well?
+16. What could be improved?
+17. Now that we're back on the Homescreen, take another look, and let me know if there's anything you would change about it overall or any of the information displayed for each item.
+18. Probe: Is there more information you'd want up front here for your 2 upcoming appointments?
 
 > [!NOTE]
 > ### Things to watch for:

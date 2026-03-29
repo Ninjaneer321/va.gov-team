@@ -1,6 +1,6 @@
 # How the Discover Your Benefits product works
 
-**Last updated**: May 29, 2025
+**Last updated**: March 25, 2026
 
 ## Purpose
 This documentation serves as the source of truth for the design, content, and functionality in the [Discover Your Benefits](https://www.va.gov/discover-your-benefits/introduction) product on va.gov.
@@ -12,7 +12,7 @@ This documentation serves as the source of truth for the design, content, and fu
 The product is organized into three main sections:
 * **Introduction**: Provides Veterans, recently-separated Veterans (RSVs), and transitioning service members (TSMs) with an overview and describes the purpose of the product.
 * **Questionnaire**: Asks Veterans, RSVs, and TSMs a series of questions to determine their eligibility for specific benefits.
-* **Results**: Displays benefits that Veterans, RSVs, and TSMs may be eligible for based on their answers in the questionnaire. The Results page also includes an option to view all benefits, regardless of eligibility.
+* **Results**: Displays benefits that Veterans, RSVs, and TSMs may be eligible for based on their answers in the questionnaire. The Results page also includes a filter to view all benefits, regardless of eligibility.
 
 ### How we manage content in the product
 
@@ -48,9 +48,19 @@ Content that is **in progress** can be found in:
 
 ### How the results are determined
 
-The **all benefits** page displays all benefits that a Veteran, RSV, or TSM may be eligible for.
+The results page displays benefits that Veterans, RSVs, and TSMs may be eligible for based on their answers in the questionnaire. The [logic diagram in Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1748526908036/5e68de58e739ae592366aebd09bc662a3038b290?sender=ue02033fbb0fe7e82629e4489) is the source of truth for how eligibility is determined for each benefit.
 
-The **recommended benefits** page displays benefits that Veterans, RSVs, and TSMs may be eligible for based on their answers in the questionnaire. The [logic diagram in Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1748526908036/5e68de58e739ae592366aebd09bc662a3038b290?sender=ue02033fbb0fe7e82629e4489) is the source of truth for how eligibility is determined for each benefit.
+### Filtering results
+Users can filter results using the following options:
+* **Recommendation**: View only benefits recommended for the user or all available results (Default: Recommended)
+* **When to Apply**: Filter benefits based on when they are available: before separation, after separation, or both.
+* **Benefit Type**: Filter benefits by category.
+
+### Sorting results
+Users can sort results using the following options:
+* **Expiration date (soonest first)**: Sorts benefits by when their eligibility window ends (based on “When to Apply”), with the soonest deadlines appearing first. (Default)
+* **Name (A-Z)**: Sorts benefits alphabetically by name
+* **Type (A-Z)**: Sorts benefits alphabetically by benefit type
 
 ## Design
 

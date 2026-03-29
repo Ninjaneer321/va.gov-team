@@ -110,13 +110,18 @@ synthesis_tools_used:
 - Spreadsheet
 tags:
 - 'AUD: Veterans'
-- 'BNFT: Disability'
-- 'BNFT: Education'
 - 'BNFT: Healthcare'
+- 'PRDT: VA-online-scheduling'
 - 'PRDT: Facilities'
 - 'MHV: Appointments'
 - 'MHV: Secure Messaging'
 - usability-testing
+- concept-testing
+- comparative-analysis
+- remote-moderated
+- VAOS
+- appointment-list
+- migration
 ---
 # Appointments List Research Findings 
 

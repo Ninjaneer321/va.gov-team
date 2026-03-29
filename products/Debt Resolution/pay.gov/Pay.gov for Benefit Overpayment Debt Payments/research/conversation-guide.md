@@ -1,48 +1,35 @@
 ---
-title: "Conversation Guide for Financial Management, Pay.gov for Benefit Overpayment Debt Payments, 2026-02-12"
-author: "Risha Lee"
-date_created: "2026-02-12"
-last_modified: "2026-02-24"
-
-# NEW: Core research metadata
-team: "Financial Management"
-portfolio: "benefits"
-product: "Pay.gov for Benefit Overpayment Debt Payments"
-research_phase: "evaluative"
-research_method: "moderated_interview"
-
-# NEW: Session details
-session_duration: "75 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans who have experience making payments toward VA benefit overpayment debt"
-
-# NEW: Related documents
-related_research_plan: "products/Debt Resolution/pay.gov/Pay.gov for Benefit Overpayment Debt Payments/research/research-plan.md"
-related_prototype: "https://www.figma.com/proto/Yzumw4ai6JjkgS6jmB1PB5/Pay.gov-Hosted-Collections"
-
+title: "Conversation Guide for Debt Resolution Team, Pay.gov for Benefit Overpayment Debt Payments, 2026"
+type: "Conversation Guide"
+study_date: "2026-01-01"
+authors:
+  - "Risha (debt-resolution-team@va.gov)"
 tags:
-  - "AUD: Veterans"
-  - "BNFT: Finances"
-  - "BNFT: Education"
-  - "PRDT: Debt-portal"
-  - "moderated-interview"
-  - "usability-testing"
-  - "HDW: Desktop"
-  - "HDW: Smartphone"
-  - "DSC: Form"
-  - "DSC: Form - Radio Button"
-  - "DSC: Checkbox"
-  - "DSC: Button"
-  - "DSC: Alert Boxes"
-  - "DSC: Links"
-  - "DSP: Form Templates"
-  - "DSP: Help users to check answers"
-description: "Moderated remote interview with embedded usability tasks to understand Veterans’ payment behaviors and evaluate the VA.gov-to-Pay.gov benefit overpayment debt payment flow, including comprehension of overpayment information, decision-making, and form completion through Pay.gov."
-
-# NEW: Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+  - "AUD:Veterans"
+  - "PRDT:Debt-portal"
+  - "PRDT:Pay.gov"
+  - "RESRCH:Usability"
+  - "RESRCH:Discovery"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "RESRCH:Prototype-testing"
+  - "BNFT:Disability"
+  - "BNFT:Education"
+  - "DSP:Debt-management"
+  - "DSP:Payment-processing"
+  - "HDW:Desktop"
+  - "HDW:Smartphone"
+  - "VETJNY:Taking-care-of-themselves"
+team: "Debt Resolution Team"
+portfolio: "Benefits"
+product:
+  - "Debt Portal"
+  - "Pay.gov Integration"
+  - "Benefit Overpayment Debt Payments"
+research_round: "Discovery and Usability"
+participant_count: 10
+study_length: "75 minutes"
+date: "2026-01"
 ---
 
 

@@ -114,15 +114,15 @@ related_research:
   conversation_guide: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2025-09-pact-sud-uat/conversation-guide.md"
     
 tags:
-  - "health-care"
-  - "appointments"
-  - "pact"
-  - "substance-use-disorder"
-  - "mental-health"
-  - "scheduling"
-  - "veterans"
-  - "authenticated"
-  - "semi-structured-interviews"
+  - HCE
+  - UAT
+  - VAOS
+  - appointments
+  - caregivers
+  - community-care
+  - mobile
+study: UAE Team, Appointments - PACT and SUD
+type: UAT
 ---
 
 

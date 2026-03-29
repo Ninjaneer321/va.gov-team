@@ -1,109 +1,153 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Sitewide Home Page, VA.gov Home Page Redesign Usability Testing, August 2022"
+date: 2022-07-12
+last_updated: 2022-07-13
+team: "Sitewide Home Page"
+product: "VA.gov Home Page Redesign"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Assess whether the redesigned VA.gov home page has improved usability based on findings from Baseline Wayfinding Research (April 2021) and Search Design Concepts Usability Research"
+  product_location: "VA.gov home page"
+  user_familiarity: "Iteration on existing home page launched in 2018"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/home-page/initiatives/2022-home-page-redesign-initiative/initiative-brief.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "remote moderated usability testing"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
   moderated: true # Options: true, false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Get user feedback on the redesigned VA.gov home page and assess whether the design changes have improved the usability of the home page"
+  - goal_2: "Observe which areas of the home page users utilize and how well it supports Veterans, VA beneficiaries, those acting on behalf of Veterans, and service members while completing important benefit-related tasks"
+  - goal_3: "Compare task completion rates with last year's baseline wayfinding research for tasks that are the same"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are ALL participants able to easily complete tasks from the home page?"
+  - "For tasks that are the same as those from last year's baseline wayfinding research, how do success rates compare with last year?"
+  - "Which parts of the home page do participants use to complete tasks and how? Where do they go first?"
+  - "When do participants search (by typing into a box) vs. browse (clicking on links, like the benefit hubs)?"
+  - "Is there anything that participants find unclear or confusing on the home page?"
+  - "What are participants' expectations of the VAntage Point blog promo content?"
+  - "Where do participants typically go to get information and benefits from the VA?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The prominent sign in/sign up location and CTA makes it easier for participants to easily sign in/sign up"
+  - "More participants will use the prominent sign in/sign up CTA than the button in the header"
+  - "The streamlined design enables participants to complete tasks efficiently with higher task completion rates"
+  - "Participants will know to search for tasks not listed as 'common tasks'"
+  - "Participants understand where 'other search tools' links will take them and what they will find there"
+  - "A focused and prominently displayed VAntage Point blog promo increases participants' engagement with the content"
+  - "Participants will scroll all the way down the home page to the footer"
+  - "Most participants start with a search engine, not VA.gov"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will inform iterations to the home page redesign, the need for future research, and release decisions"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "diverse recruitment across Veterans, caregivers, family members, and service members"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "At least 13 are Veterans"
+    - "At least 3 are Veterans' caregivers"
+    - "At least 2 are Veterans' family members"
+    - "At least 2 are service members"
+    - "3 have NO experience with ANY VA benefit OR experience with ONLY ONE VA benefit"
+    - "6 have NO experience with health care, but DO have experience with another VA benefit"
+    - "4 have experience with health care and optionally with other VA benefits"
+    - "10 people who plan to use their desktop or laptop computer for the session"
+    - "10 people who plan to use their mobile device for the session"
+    - "At least 7 people with a cognitive disability (e.g., TBI)"
+    - "At least 7 people who are age 55 or older"
+    - "At least 5 people 35 or under"
+    - "At least 3 people who use assistive technology on a daily or near-daily basis"
+    - "At least 5 people who have never used the VA.gov website before"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 6 people of color"
+    - "At least 4 women"
+    - "At least 4 people who don't have any degree or vocational training after high school"
+    - "At least 4 people who live in a rural or remote area"
+    - "At least 1 non-native English speaker"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "What VA benefits (if any) do you have experience with?"
+      qualifying_response: "Varied responses to ensure mix of benefit experience levels"
+    - question: "Have you ever used the VA.gov website before?"
+      qualifying_response: "Mix of yes/no responses, with at least 5 'no' responses"
+    - question: "How comfortable do you feel speaking and reading English?"
+      qualifying_response: "At least 1 'Not well' response"
       
 participants:
-  veterans: 0
-  caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  veterans: 13
+  caregivers: 3
+  dependents: 2
+  total_recruited: 28
+  completed_sessions_goal: 20
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-07-27"
+  pilot_participant: "Angela Fowler, Grant Bondurant, David Angelus"
+  research_dates: "2022-08-01 to 2022-08-09"
+  research_review_submission: "2022-07-13"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans and their families can apply for all benefits online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Improved home page usability for benefit applications"
+  - objective: "Veterans can manage their health services online"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Easier navigation to health services from home page"
+  - objective: "Logged-in users can easily track applications, claims, or appeals online"
+    key_results:
+      - "More prominent sign-in CTA and common tasks for authenticated users"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up (Serving in and separating from the military)"
+  - "Living civilian life"
+  - "Retiring and aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/public-websites/research/202104-baseline-wayfinding/research-report.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/research/user-research/2021-Aug-research-study/research-findings.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - homepage
+  - home-page
+  - sitewide
+  - usability-testing
+  - wayfinding
+  - navigation
+  - unauthenticated
+  - baseline
+  - mobile
+  - desktop
+  - cognitive-disability
+  - assistive-technology
+  - benefit-hubs
+  - search
+  - sign-in
+  - VAntage-point
+  - redesign
+  - research-plan
 ---
 
 # Research Plan for VA.gov Home Page Redesign Usability Testing [Sitewide Home Page team, August 2022]

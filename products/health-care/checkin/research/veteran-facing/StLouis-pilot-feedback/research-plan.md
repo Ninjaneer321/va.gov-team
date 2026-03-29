@@ -1,109 +1,129 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Check-in Team, St. Louis Pilot Veteran Feedback, March-April 2022"
+date: 2022-04-25
+last_updated: 2022-04-25
+team: "Healthcare Experience - Check-in"
+product: "Patient Check-in"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Gather feedback on the pre-check-in and day of check-in experiences from Veterans at pilot locations in St. Louis. The check-in team is reimagining the experience between scheduling a medical appointment and having the appointment, enabling Veterans to review information, confirm appointments, and check in via mobile device."
+  product_location: "VA.gov check-in and pre-check-in experience"
+  user_familiarity: "Pilot release - limited locations with live pre-check-in and mobile check-in"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/product/product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "in-person UAT and intercept interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: in-person
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "St. Louis area - CBOC, Annex, and John J. Cochran Veterans Hospital"
+    point_of_contact: "Clinic staff coordination"
+    equipment: "Veterans' personal mobile phones, posters"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Conduct user acceptance testing to evaluate if pre-check-in and check-in processes are functioning as planned at pilot locations in St. Louis"
+  - goal_2: "Understand Veterans' feelings toward pre-check-in and checking in with their mobile phones"
+  - goal_3: "Understand if the new low vision poster is easier to use and addresses pain points from earlier versions"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are Veterans able to complete pre-check-in successfully from home prior to an appointment?"
+  - "What are Veterans expectations for mobile check-in if they have already completed pre-check-in?"
+  - "Are Veterans able to utilize the new mobile check-in solution without intervention from MSAs?"
+  - "Does the low-vision poster clearly communicate the need to wait for a link and offer guidance on scanning QR codes?"
+  - "After a Veteran utilizes the new mobile check-in solution, are they called back for their appointment without talking to an MSA?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans successfully completed pre-check-in from the comfort of their homes"
+  - "Veterans will correctly assume that they still need to complete mobile check-in even if they completed pre-check-in"
+  - "The updated poster successfully communicates the check-in process and enables low-vision Veterans to understand its contents"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Use feedback to improve pre-check-in and mobile check-in experiences, validate poster changes, and identify improvements for broader rollout"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "On-site intercepts with clinic staff coordination"
+  approach: "intercept interviews at pilot sites"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans arriving for appointments at St. Louis pilot locations"
+    - "Veterans who have used pre-check-in and/or mobile check-in"
+    - "Mix of different clinic types (CBOC, Annex, Hospital)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Veterans with low vision (if available)"
+    - "Veterans with multiple appointments in one day"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Did you complete pre-check-in before today's appointment?"
+      qualifying_response: "Yes or No - both are valuable for feedback"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: ""
+  pilot_participant: "N/A - intercept study"
+  research_dates: "2022-04-25 to 2022-04-27"
+  research_review_submission: ""
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 15
+  buffer_minutes: 0
+  max_sessions_per_day: 10
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increase usage of digital self-service tools"
+      - "Increase completion rate of online transactions"
+  - objective: "Logged-in users have a personalized experience"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Decrease time to successfully complete and submit online transactions"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Living civilian life"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin/research/veteran-facing/phase-2-3-4"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "patient-check-in"
+  - "PCI"
+  - "HCE"
+  - "check-in"
+  - "pre-check-in"
+  - "pilot"
+  - "St-Louis"
+  - "in-person"
+  - "UAT"
+  - "moderated"
+  - "veterans"
+  - "feedback"
+  - "intercept-interviews"
+  - "mobile"
+  - "low-vision"
+  - "accessibility"
+  - "posters"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Check-in"
+study: St. Louis Pilot Feedback
+type: UAT
 ---
 
 # Research Plan for Check-in Team

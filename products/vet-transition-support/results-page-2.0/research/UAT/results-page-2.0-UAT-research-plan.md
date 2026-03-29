@@ -1,3 +1,72 @@
+---
+# Research Plan Metadata
+title: "Research Plan for vet-transition-support, vet-transition-support, 2026-03-23"
+date: 2026-03-23
+last_updated: 2026-03-23
+team: "vet-transition-support"
+product: "vet-transition-support"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "TBD - Please complete from research plan content"
+  product_location: "TBD - Please specify location on VA.gov"
+  user_familiarity: "TBD - New product or iteration?"
+  product_brief_url: "TBD - Add product brief URL if available"
+
+# Research Design
+methodology: "TBD - e.g., usability testing, semi-structured interviews"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "TBD - Extract from research plan"
+  - goal_2: "TBD - Extract from research plan"
+
+research_questions:
+  - "TBD - Extract from research plan"
+
+hypotheses:
+  - "TBD - Extract from research plan if available"
+
+expected_outcomes: "TBD - How will findings advance the product?"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "TBD"
+  
+participants:
+  veterans: 0
+  caregivers: 0
+  dependents: 0
+  total_recruited: 0
+  completed_sessions_goal: 0
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  research_dates: "TBD"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 0
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "TBD"
+
+veteran_journey_phases:
+  - "TBD"
+    
+# Research Repository Tracking
+tags:
+  - "TBD"
+---
+
 # Results Page 2.0: UAT Plan
 
 ## Background

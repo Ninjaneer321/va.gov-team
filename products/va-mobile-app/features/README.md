@@ -1,2 +1,2 @@
 # Features
-This folder contains product and UX documentation for current or future features within the mobile app
+This folder contains product and UX documentation for features within the mobile app.

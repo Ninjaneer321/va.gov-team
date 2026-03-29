@@ -1,104 +1,104 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Pre-Need Burial Mobile Application Discovery, 2024"
+date: 2024-01-15
+last_updated: 2024-01-15
+team: "VA Mobile App"
+product: "Pre-Need Burial Application (VA Form 40-10007) - Mobile"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans can apply for pre-need burial eligibility on VA.gov, but the VA mobile app lacks features for accessing the application form, tracking applications, or viewing digital decision letters. Research aims to determine which pre-need burial features should be integrated into the mobile app."
+  product_location: "VA Mobile App"
+  user_familiarity: "New product - adding pre-need burial features to mobile app"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/burials-memorials/pre-need/mobile/product/product-brief.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "generative discovery research"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine which pre-need burial eligibility features should be integrated into the VA mobile app"
+  - goal_2: "Understand Veteran needs and expectations for mobile access to pre-need burial application"
+  - goal_3: "Identify notification preferences for pre-need application updates"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans want to access pre-need burial application on mobile app?"
+  - "How do Veterans want to be notified of updates to their pre-need burial application?"
+  - "Would Veterans use mobile app to track application status?"
+  - "Do Veterans want digital decision letters in the mobile app?"
+  - "What are the most important pre-need burial features for mobile experience?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will want mobile access to pre-need burial application and status tracking"
+  - "Veterans will prefer push notifications for application updates"
+  - "Digital decision letters in mobile app will be valuable to Veterans"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Define pre-need burial features for the mobile app roadmap based on Veteran needs and preferences"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who use or are interested in VA mobile app"
+    - "Veterans interested in or who have used pre-need burial application"
+    - "Mix of mobile device types (iOS and Android)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse age range, particularly older Veterans"
+    - "Geographic diversity"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you used or are you interested in the VA mobile app?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-02-05"
+  pilot_participant: "TBD"
+  research_dates: "2024-02-12 to 2024-02-23"
+  research_review_submission: "2024-02-01"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Our digital experiences are the best way to access VA health care and benefits"
+    key_results: []
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
+  - "Dying"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
     - "[Link to related past research]"
     
+
+study: "Pre-Need Burial Mobile Application Discovery,"
 tags:
   - "[product-area]"
   - "[methodology]"

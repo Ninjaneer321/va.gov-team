@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Release Plan: Self-Service Authentication, Login.gov
+services: Accredited Representative Facing
+tags: accredited-representative, release
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/product-info/self-service-auth/release-plan-self-service-auth-login-gov.md
+---
 
 <!-- markdownlint-disable MD024 -->
 # Release Plan: Self-Service Authentication, Login.gov

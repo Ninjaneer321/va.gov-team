@@ -1,31 +1,38 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: Virtual Agent Inclusive Design Interviews, June 2021"
+author: "Shane Strassberg"
+date_created: "2021-06-04"
+last_modified: "2021-06-04"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Virtual Agent"
+portfolio: "digital-experience"
+product: "Virtual Agent Chatbot"
+research_phase: "discovery"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with disabilities who use assistive technology"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/virtual-agent/research/inclusive-design-interviews/research-plan.md"
+related_prototype: "Virtual Agent chatbot prototype"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: Virtual-Agent"
+  - "PRDT: Chatbot"
+  - "discovery-research"
+  - "semi-structured-interviews"
+  - "inclusive-design"
+  - "accessibility"
+  - "assistive-technology"
+  - "chatbot"
+description: "Inclusive design research conversation guide for Virtual Agent chatbot, understanding experiences of Veterans with disabilities using chatbots."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

@@ -1,109 +1,118 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Dragons, Personalization 2.0 Separating Service Member Interviews, August 2019"
+date: 2019-08-01
+last_updated: 2019-08-16
+team: "Dragons (Personalization)"
+product: "Personalization 2.0"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "We need to understand how separating service members approach onboarding at the VA and how their needs differ from more seasoned veterans to inform personalization 2.0 efforts."
+  product_location: "My VA dashboard, profile, and account settings"
+  user_familiarity: "Discovery - exploring needs of separating service members"
+  product_brief_url: "N/A"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Moderated user interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand the most pressing questions separating service members have as they leave service"
+  - goal_2: "Learn how to help service members onboard/get started at the VA"
+  - goal_3: "Understand how separating service members needs differ from more seasoned veterans"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What are the most pressing questions separating service members have as they are leaving the service?"
+  - "How can we help service members onboard/get started at the VA? How can this supplement programs like TAP?"
+  - "Where do separating service members go or expect to find the resources they are looking for?"
+  - "How do separating service members needs differ from more seasoned veterans?"
+  - "What would be helpful for separating service members to see in a dashboard/profile/account settings?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Separating service members will have differing needs from veterans who have been separated from the service for a longer period of time"
+  - "Separating service members may find a personalized dashboard more useful since they are in the process of learning about and preparing to apply for benefits"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Learn about separating service member needs to inform personalization 2.0 efforts for dashboard, profile, and account settings."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Recruit 3 separating service members"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must be within one year of separation and must have received their separation orders"
+    - "Participants must be interested in receiving at least one benefit from the VA"
+    - "Must be able to access GTM during the call"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "If anyone has been through TAP (transition program), that would be a bonus"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you a service member within one year of separation who has received separation orders?"
+      qualifying_response: "Yes"
       
 participants:
   veterans: 0
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 3
+  completed_sessions_goal: 3
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "N/A"
+  pilot_participant: "N/A"
+  research_dates: "2019-08-05 to 2019-08-16"
+  research_review_submission: "2019-08-01"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Improve personalized experience for all VA.gov users"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Better serve separating service members through personalized dashboard/profile/account settings"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Products/Identity/Personalization/Personalization%202.0/Discovery%20%26%20Research/Dashboard%20interviews/Research%20Summary.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - personalization-2.0
+  - service-members
+  - separating-service-members
+  - discovery
+  - interviews
+  - onboarding
+  - authenticated-experience
+  - TAP
+  - transition
+  - dashboard
+  - profile
+  - dragons-team
+  - research-plan
+  - "personalization"
+  - "separating-service-members"
+  - "discovery"
+  - "semi-structured-interviews"
+  - "onboarding"
 ---
 
 # Research plan for Dragons: Personalization 2.0 Separating Service Member Interviews

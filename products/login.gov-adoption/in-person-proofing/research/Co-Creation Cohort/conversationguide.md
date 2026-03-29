@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for Login.gov Adoption, In-Person Proofing Co-Creation Cohort, 2023"
+author: "Sofia Kirkman, Sophia Philip, Svenja Leggewie"
+date_created: "2023-01-01"
+last_modified: "2023-01-01"
+
+# Core research metadata
+team: "Identity"
+portfolio: "digital-experience"
+product: "Login.gov Adoption - In-Person Proofing"
+research_phase: "generative"
+research_method: "co_creation"
+
+# Session details
+session_duration: "90 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who sign in to VA.gov to access healthcare and benefits"
+
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "N/A"
+
+tags:
+  - "identity"
+  - "login-gov"
+  - "in-person-proofing"
+  - "co-creation"
+  - "discovery-research"
+description: "Co-creation workshop series with Veterans to understand their sign-in experiences, support networks, and collaboratively design improved authentication solutions."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide 
 
 

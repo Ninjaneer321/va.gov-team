@@ -1,21 +1,21 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Pre-check-in Usability, October 2021"
+date: 2021-10-26
+last_updated: 2021-10-26
+team: "VSA Healthcare Experience - Check-in"
+product: "Patient Check-in"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "This product is reimagining the ecosystem that allows a Veteran to check-in for a medical appointment. To help streamline the day of check-in experience, the healthcare experience team is exploring the concept of pre-check-in. This would allow Veterans and Caregivers to complete tasks prior to their appointment from the comfort of their homes."
+  product_location: "VA.gov pre-check-in experience"
+  user_familiarity: "New product - Veterans will not be familiar with this pre-check-in user flow"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/product/product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "moderated usability testing"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
@@ -26,84 +26,106 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Identify the type of information and how to deliver that information in the pre-check-in user flow to better meet Veterans and Caregivers expectations"
+  - goal_2: "Identify how to improve the content and user flow to make it easier for Veterans and Caregivers to complete pre-check-in"
+  - goal_3: "Gather feedback on pre-check-in tasks including appointment confirmation, contact information review, and next of kin information"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "When and how does pre-check-in start? Does an SMS message align with how Veterans expect pre-check-in to be initiated?"
+  - "Do Veterans have a preferred device (mobile or desktop) to complete these pre-check-in tasks?"
+  - "Does the need to authenticate in the middle of the pre check-in user flow interfere with a Veteran's ability to complete the task?"
+  - "How do Veterans distinguish between terms like Mailing Address, Home Address, Next of Kin, and Emergency Contact?"
+  - "Do Veterans understand that updating their contact information here will update it across VA?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "An SMS message will align with how Veterans expect pre-check-in to be initiated"
+  - "Veterans will prefer to complete pre-check-in tasks on mobile devices"
+  - "Veterans will be able to distinguish between different address types and understand information updates apply across VA"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Apply insights from this research to improve and iterate on the pre-check-in experience for Veterans and Caregivers for the next release"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants must have had at least one in-person medical appointment at a VA facility in the past year"
+    - "Must have access to mobile phone or desktop/laptop"
+    - "Mix of Veterans and Caregivers"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 1 woman"
+    - "At least 1 person of color"
+    - "At least 1 participant 35 or under and 1 participant over 55"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have a mobile phone or computer you can use for this session?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 10
+  caregivers: 2
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-10-25"
+  pilot_participant: "Julie Adair"
+  research_dates: "2021-10-26 to 2021-11-01"
+  research_review_submission: "2021-10-22"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increase usage of digital self-service tools"
+      - "Increase completion rate of online transactions"
+  - objective: "Logged-in users can update their personal information easily and instantly"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Decrease time to successfully complete and submit online transactions"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Living civilian life"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/questionnaire/discovery/user-research/research-findings.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/questionnaire/research/veteran-prioritization/research-findings.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "patient-check-in"
+  - "PCI"
+  - "HCE"
+  - "check-in"
+  - "pre-check-in"
+  - "usability-testing"
+  - "remote"
+  - "evaluative"
+  - "moderated"
+  - "veterans"
+  - "caregivers"
+  - "mobile"
+  - "authentication"
+  - "contact-information"
+  - "next-of-kin"
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "PRDT: Check-in"
+study: Pre-check-in
+type: usability-testing
 ---
 
 # Research Plan for Pre-check-in Usability

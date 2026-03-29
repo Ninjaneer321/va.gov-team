@@ -1,5 +1,5 @@
 # Release Plan: Results Page 2.0
-**Last updated: February 2025 - updated procedure for launch and linked JIRA tickets** 
+**Last updated: March 26, 2026 - updated release details** 
 
 ### Table of Contents
 - [Phase I: UAT](#Phase-i-uat)
@@ -9,7 +9,7 @@
 ## Phase I: UAT
 ### Planning:
 - **UAT Go/No go**
-  - _Completed mm/dd/yyyy_
+  - _Completed 03/11/2026_
   - UAT readiness ticket: [PTEMSVT-739](https://jira.devops.va.gov/browse/PTEMSVT-739)
   - [UAT readiness checklist](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vet-transition-support/results-page-2.0/research/UAT/results-pg-2.0-uat-readiness-checklist.md) 
 - **Desired date range or test duration:**
@@ -28,18 +28,18 @@
 
 ### Results:
 - **Number of users:**
-     - _n_ scheduled, _n_ completed 
+     - _3_ scheduled, _3_ completed 
 - **Number of bugs identified / fixed:**
-     - _n_
+     - _1_
 - **Any UX changes necessary based on the logs, or feedback on user challenges, or VA challenges?** 
-     - ...
+     - Filter menu flickering/closing incorrectly on mobile - [PTEMSVT-752](https://jira.devops.va.gov/browse/PTEMSVT-752)
 
 
 ## Phase II: Rollout
 
 ### Planning
 **Launch Go/No-go:** 
-- _Completed mm/dd/yyyy_
+- _Completed 03/17/2026_
 - Launch go/no-go ticket: [PTEMSVT-740](https://jira.devops.va.gov/browse/PTEMSVT-740)
 - [Launch readiness checklist](https://jira.devops.va.gov/browse/PTEMSVT-740)
 
@@ -49,7 +49,7 @@
 ### Planning & Execution:
 |Launch % |Desired Date | _Actual Date_ | 
 |-------|-----------|-----------|
-| Launch to 100% | week of 03/16/2026 | _mm/dd/yyyy_ |
+| Launch to 100% | week of 03/16/2026 | _03/18/2026_ |
 
 **Launch ticket** [PTEMSVT-740](https://jira.devops.va.gov/browse/PTEMSVT-741) 
 

@@ -1,109 +1,109 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Benefits Decision Reviews, AMA Navigation, January 2020"
+date: 2020-01-29
+last_updated: 2020-01-29
+team: "Benefits Decision Reviews"
+product: "Appeals Modernization Act (AMA) - Decision Reviews"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need to understand how to navigate to Decision Reviews section and determine which appeals lane is right for their needs"
+  product_location: "VA.gov - Decision Reviews section"
+  user_familiarity: "New process under Appeals Modernization Act (AMA), becoming exclusive Feb 19, 2020"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/decision-reviews"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "moderated usability testing"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
+    facility: "Remote via Zoom"
+    point_of_contact: "Kevin S."
+    equipment: "Zoom, live VA.gov site"
   moderated: true # Options: true, false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand how veterans navigate to the Decision Reviews section of the website"
+  - goal_2: "Understand how veterans determine which Decision Review process lane is right for their needs"
+  - goal_3: "Identify experiential gaps in the Decision Reviews process"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do veterans navigate to the Decision Review section of the website and what is their thought process?"
+  - "What information on the website helps them navigate to the Decision Reviews section?"
+  - "What page information is useful within the Decision Reviews section?"
+  - "What helps them make a decision about which lane is correct for them?"
+  - "Do they understand the difference between Decision Reviews and the legacy appeals process?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans may have difficulty locating the Decision Reviews section because there is no clear path that funnels them to it"
+  - "There are opportunities to improve communication and experience around Decision Reviews to help veterans determine which appeals lane is best"
+  - "Veterans need clearer guidance on differences between Higher Level Reviews, Supplemental Claims, and Board Appeals"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will inform improvements to Decision Reviews navigation, content clarity, and user guidance for selecting appropriate appeal lanes"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who have filed a disability claim"
+    - "Able to use Zoom and share screen"
+    - "Have computer or mobile device with internet access"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Variation in age, location, and tech experience"
+    - "Prior experience with VA appeals process"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you filed a disability claim with VA?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-01-28"
+  pilot_participant: "Christian V."
+  research_dates: "2020-01-29 to 2020-02-07"
+  research_review_submission: "2020-01-20"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Improve Veterans' access to benefits through clear decision review processes"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increase successful navigation to correct decision review lane"
+  - objective: "Enhance understanding of Appeals Modernization Act"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Reduce confusion between legacy and AMA appeals processes"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Managing my declining health"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/decision-reviews"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "decision-reviews"
+  - "usability-testing"
+  - "veterans"
+  - "AMA"
 ---
 
 # Research Plan

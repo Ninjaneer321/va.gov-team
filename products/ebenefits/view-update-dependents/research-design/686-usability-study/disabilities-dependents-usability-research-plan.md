@@ -1,110 +1,118 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "eBenefits Rated Disabilities / View Dependents Usability Testing"
+date: 2019-11-18
+last_updated: 2026-03-23
+team: "eBenefits"
+product: "Rated Disabilities and View Dependents"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Rated Disabilities and View Dependents are migrating from eBenefits to VA.gov with technical and UI redesign to conform to VA.gov Design System. Need to validate new tools page layout with cards for displaying information and right-hand help sidebar."
+  product_location: "VA.gov authenticated tools area"
+  user_familiarity: "Migration of existing eBenefits features to new VA.gov design patterns"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/ebenefits/issue-briefs/profile-dependents.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
-  
+methodology: "Usability Testing"
+research_format:
+  location: remote
+  moderated: true
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine expected baseline usage frequency and utility for Rated Disabilities and View Dependents screens"
+  - goal_2: "Assess the utility and readability of card components for individual disability ratings and dependents"
+  - goal_3: "Note usability issues transitioning from legacy eBenefits to new VA.gov configurations"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can Veterans quickly identify their Total Combined Disability Rating and awarded/unawarded dependents?"
+  - "Is information displayed in a clear and understandable manner using cards?"
+  - "Is the navigation into and out of the screens adequate?"
+  - "Do Veterans expect a relationship between the Disabilities and Dependents screens?"
+  - "What platform do participants use to access VA.gov?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The Rated Disabilities and View Dependents screens will test well against their basic function of displaying information"
+  - "Screen layout and card arrangements will prove adequate, text will be clear to most users"
+  - "The lack of sidebar navigation may jar users, who will be inclined to back-button to previous screens"
+  - "Rated Disabilities will be lightly used by Veterans who have instant recall of their TDR"
+  - "View Dependents will be used occasionally when there is a change of status or investigating benefits payment changes"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Clear verdict regarding the usability of the Rated Disabilities and View Dependents screens and the underlying tools page template, with actionable path forward to refine these tools for maximum clarity and effectiveness"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Standard recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "10 Veterans with various service backgrounds"
+    - "Total Rated Disability of 30% or greater"
+    - "3-4 Veterans with Total Rated Disability of 80% or greater and cognitive disabilities"
+    - "Have or had dependents; received or applied for dependents benefits"
+    - "Computer access and basic computer literacy"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
+    - "Geographically diverse"
+    - "All genders"
+
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
+  total_recruited: 10
+  completed_sessions_goal: 10
+
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2019-11-13"
+  pilot_participant: "TBD"
+  research_dates: "2019-11-18 to 2019-11-26"
+  research_review_submission: "2019-11-08"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 30
   buffer_minutes: 30
-  max_sessions_per_day: 0
-  
+  max_sessions_per_day: 5
+
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Migrate eBenefits features to VA.gov"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
+  - "Taking care of myself"
+  - "Putting down roots"
+
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
-    
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/ebenefits/issue-briefs/profile-rated-disabilities.md"
+  conversation_guide: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/ebenefits/research/disabilities-dependents-usability-1119/disabilities-dependents-usability-convo-guide.md"
+  prototypes:
+    - "https://xd.adobe.com/view/0db723ac-52ff-48b3-4877-9d5882cb2e1f-7b86/"
+    - "https://xd.adobe.com/view/852342af-36f7-41b6-7e04-29c9ca8b210e-f312/"
+
+# Team
+moderator: "James Adams"
+notetaker: "Various as available"
+observers: "Jason Wolf, Steve Kovacs, Shawna Hein, Kathleen Crawford, Micah Chiang, Jesse Cohn, Jennifer Strickland, Emily Waggoner, Peggy Gannon"
+
+study: "eBenefits Rated Disabilities / View Dependents Usability Testing, November 2019"
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - ebenefits
+  - rated-disabilities
+  - view-dependents
+  - usability-testing
+  - tools-page
+  - card-design
+  - eBenefits-migration
+  - authenticated-tools
 ---
+
 
 # Research Plan for eBenefits Rated Disabilities / View Dependents Usability Testing, November 2019
 

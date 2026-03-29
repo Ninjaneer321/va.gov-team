@@ -1,11 +1,11 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "AI Copilot Prompt: Past Research Analysis for New Research Plans"
+date: 2024-01-01
+last_updated: 2024-01-01
+team: "AI/ML Team"
+product: "Copilot Research Prompts"
+product_area: "platform-documentation"
 
 # Background Context
 background:
@@ -15,7 +15,7 @@ background:
   product_brief_url: "[URL]"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "AI-prompt-template"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
@@ -100,10 +100,11 @@ related_research:
     - "[Link to related past research]"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "copilot"
+  - "AI"
+  - "research-discovery"
+  - "prompt-engineering"
+  - "template"
 ---
 
 # Past Research Analysis for New Research Plan Prompt

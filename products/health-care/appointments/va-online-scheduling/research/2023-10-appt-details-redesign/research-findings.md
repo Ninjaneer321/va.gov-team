@@ -97,7 +97,8 @@ recommendations:
   - "Consider increasing the size of subtext font beneath appointment headers"
 kpi_alignment: []
 outcomes:
-  user: "Not specified"
+  user: "Veterans can easily find and understand all appointment information with improved details page design"
+  business: "Validated appointment details page redesign, identified improvements for video appointments and ATLAS clarity"
   business: "Not specified"
 opportunity_areas:
   - "Veterans want the ability to reschedule their appointments without going through the entire scheduling process"
@@ -117,12 +118,17 @@ tags:
   - "BNFT: Healthcare"
   - "MHV: Appointments"
   - "MHV: Personal Health Records/Medical Records"
+  - "PRDT: VA-online-scheduling"
   - "usability-testing"
   - "moderated-research"
   - "remote-research"
   - "evaluative"
   - "HDW: Desktop"
   - "HDW: Smartphone"
+  - "VAOS"
+  - "appointment-details"
+  - "video-appointments"
+  - "ATLAS"
 ---
 
 # Appointment Details Page Redesign Research Findings 

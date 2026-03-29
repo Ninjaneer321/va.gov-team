@@ -5,7 +5,7 @@ team: "VA Online Scheduling"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
 date: "2020-07-31"
 researchers:
-  - "Not specified"
+  - "Melissa Schaff"
 research_goals:
   - "Collect general feedback and requests from Veterans for additional feature considerations for VAOSR"
   - "Validate current assumptions about DEPO's VAOSR product development backlog"
@@ -99,8 +99,8 @@ recommendations:
   - "Redesign the request an appointment flow to allow for more flexibility and dynamic ways to schedule an appointment, including using upcoming and past appointments as templates for new appointments and to reschedule cancelled appointments."
 kpi_alignment: []
 outcomes:
-  user: "Not specified"
-  business: "Not specified"
+  user: "Veterans have better understanding of appointment scheduling vs requesting, improved content clarity and navigation"
+  business: "Reduced abandonment rates, validated product backlog priorities, improved Express Care product design"
 opportunity_areas: []
 further_research_needed:
   - "Conduct additional user research to validate changes made based on this round of user research"
@@ -113,11 +113,17 @@ tags:
   - "AUD: Veterans"
   - "BNFT: Healthcare"
   - "MHV: Appointments"
+  - "PRDT: VA-online-scheduling"
   - "DSC: Button"
   - "DSC: Card"
   - "DSP: Content Presentation"
   - "usability-testing"
   - "evaluative"
+  - "remote-moderated"
+  - "VAOS"
+  - "express-care"
+  - "scheduling"
+  - "telehealth"
 ---
 
 # VA Online Scheduling: VAOSR and "Express Care" Research Report

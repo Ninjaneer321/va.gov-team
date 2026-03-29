@@ -8,12 +8,13 @@ This release plan outlines the phases for launching the FMP (Foreign Medical Pro
 
 ## Step 1: Development
 
-Development was done behind a feature flag, following the [best practices for creating feature toggles](https://depo-platform-documentation.scrollhelp.site/developer-docs/feature-toggles-guide).
+Development was done behind feature flags, following the [best practices for creating feature toggles](https://depo-platform-documentation.scrollhelp.site/developer-docs/feature-toggles-guide).
 
 | Toggle name | Description |
 | ----------- | ----------- |
 | [fmp_benefits_authorization_letter](https://api.va.gov/flipper/features/fmp_benefits_authorization_letter) | When enabled, if a veteran has the FMP letter available in Lighthouse it will be visible in the Benefit Letters and Documents web page |
-| [fmp_benefits_authorization_letter_mobile](https://api.va.gov/flipper/features/fmp_benefits_authorization_letter_mobile) | When enabled, along with the fmp_benefits_authorization_letter flag, if a veteran has the FMP letter available in Lighthouse it will be visible in the mobile app's Review Letters page |
+| [fmp_benefits_authorization_letter_mobile](https://api.va.gov/flipper/features/fmp_benefits_authorization_letter_mobile) | When enabled, along with the fmp_benefits_authorization_letter flag, if a veteran has the FMP letter available in Lighthouse it will be visible in the mobile app's Review Letters page if the veteran has not updated their mobile app|
+| FMPAvailable (within va-mobile) | When enabled, along with the fmp_benefits_authorization_letter and fmp_benefits_authorization_letter_mobile flags, if a veteran has the FMP letter available in Lighthouse it will be visible in the mobile app's Review Letters page if the veteran has updated their app to the latest build |
 
 ## Step 2: Validation
 
@@ -25,8 +26,7 @@ Before enabling your feature toggle in production, you'll need to:
 - [x] Testing with the feature flags for web. Confirm that with the flags off, the FMP letter is not visible for a veteran who does and does not have the letter in FMP. Confirm that with the flags on, the FMP letter is available for those who have it in Lighthouse. Test results documented in [vets-website PR 41814](https://github.com/department-of-veterans-affairs/vets-website/pull/41814)
 - [x] Testing with the feature flags for mobile. Confirm that with the flags off, the FMP letter is not visible for a veteran who does and does not have the letter in FMP. Confirm that with the flags on, the FMP letter is available for those who have it in Lighthouse. Test results documented in [va-mobile PR 12838](https://github.com/department-of-veterans-affairs/va-mobile-app/pull/12838)
 - [x] Confirm production deployment of Web code
-- [ ] Complete Staging Review
-    - Add steps if staging review requests changes
+- [x] Complete Staging Review
 - [ ] Gather details for initial user rollout
 - [ ] Confirm with Lighthouse that they are ready for the release
 - [ ] Confirm with the VFMP-Veterans and Family Member Program team that they are ready for release
@@ -37,7 +37,7 @@ Before enabling your feature toggle in production, you'll need to:
 
 **Mobile**
 - [ ] Confirm the Mobile App team has completed any desired testing
-- [ ] Complete go-live mobile template ticket
+- [x] Complete go-live mobile template ticket
 - [ ] Confirm related code is released to iOS and Android
 
 ---
@@ -82,6 +82,7 @@ Before enabling your feature toggle in production, you'll need to:
 
 - **Desired date range:** 4/1 - 4/10 (May change due to Staging Review and VFMP user recruitment)
 - **How will you make the product available in production while limiting the number of users who can find/access it:** By using the feature flag `fmp_benefits_authorization_letter` and the `enable_percentage_of_actors` feature to enable it for a percentage of users.
+If mobile testing is desired, both mobile related feature flags should be enabled and the gating of the percentage of the users will be done solely by the `fmp_benefits_authorization_letter` flag.
 - **Success criteria (metrics-based criteria for advancing to the next stage):**
   - [ ] No increase in errors on the letter download page
   - [ ] Successful downloads shown in GA Report

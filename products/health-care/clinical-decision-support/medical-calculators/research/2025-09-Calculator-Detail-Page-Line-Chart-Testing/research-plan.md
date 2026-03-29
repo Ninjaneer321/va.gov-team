@@ -106,14 +106,20 @@ study_materials:
   prototype: "https://www.figma.com/proto/uRUcFMxuFOoNMJeMXJsI5w/Dashboard---Calculators-and-Patient-Summary-Tabs?node-id=19531-2916"
     
 tags:
+  - "health-care"
+  - "clinical-decision-support"
+  - "CDS"
   - "medical-calculators"
+  - "line-chart"
+  - "data-visualization"
   - "usability-testing"
-  - "clinician-facing"
-  - "line-charts"
-  - "HAS-BLED"
-  - "lab-history"
-  - "CDS-Console"
-  - "design-feedback"
+  - "remote"
+  - "evaluative"
+  - "moderated"
+  - "clinicians"
+  - "staff-facing"
+  - "AUD: VA Staff"
+  - "BNFT: Healthcare"
   
 team_roles:
   moderator: "Rosemary Rogers"

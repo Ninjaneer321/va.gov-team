@@ -1,109 +1,92 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Certificate of Eligibility (COE) Discovery Interviews Research Plan"
+date: 2021-02-01
+last_updated: 2021-02-28
+team: "VSA eBenefits"
+product: "Certificate of Eligibility (COE)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans, service members and surviving spouses need a VA-issued Certificate of Eligibility to get a VA-backed home loan or Native American Direct Loan, but the current process needs modernization."
+  product_location: "eBenefits being migrated to VA.gov - VA Form 26-1880"
+  user_familiarity: "Migration of existing feature"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/apply-for-home-loan-COE"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Discovery interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine where a COE tool would fit into the overall user journey"
+  - goal_2: "Identify pain-points in the current process"
+  - goal_3: "Assess user expectations regarding functionality and supporting content"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How and when did participants find out about VA loan benefits?"
+  - "Where did participants look for information about VA-backed loans?"
+  - "What processes did users experience when applying for a VA-backed loan?"
+  - "How did users obtain COEs?"
+  - "What problems did participants encounter in applying for VA-backed loans?"
+  - "What new features, information or tools would be beneficial?"
+  - "Would participants use VA.gov for information, tools or applications in the future?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Participants initially heard about VA loan benefits via word-of-mouth"
+  - "Participants expected their lenders to know about VA-backed loans"
+  - "Participants generally followed their lenders' leads through the loan process"
+  - "Participants found the VA-backed loan process generally confusing"
+  - "Participants would use VA.gov if it provided easy to follow guidance"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Understand user journey and inform feature requirements for COE tool migration to VA.gov"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans or service members with experience applying for VA-backed loans"
+    - "Experience obtaining a COE"
     
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-02-15"
+  research_dates: "2021-02-16 to 2021-02-26"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 45
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans and their families can apply for all benefits online"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting out"
+  - "Starting up"
+  - "Putting down roots"
     
 # Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "COE"
+  - "certificate-of-eligibility"
+  - "home-loans"
+  - "discovery-interviews"
+  - "eBenefits-migration"
 ---
 
 # Certificate of eligibility (COE) discovery interviews research plan

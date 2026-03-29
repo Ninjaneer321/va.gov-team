@@ -1,3 +1,26 @@
+---
+type: conversation_guide
+study_name: Reusable Prompt for Analyzing Conversation Guide Against Research Plan
+team: Platform Research
+product: Platform - Research Tools
+platform: Platform
+moderator: N/A
+date: 2024
+research_method: Documentation - Reusable prompt template
+session_type: N/A
+session_duration_minutes: N/A
+number_of_participants: N/A
+tags:
+  - platform
+  - research-tools
+  - conversation-guide
+  - research-plan
+  - copilot
+  - AI-tools
+  - research-methodology
+  - analysis-framework
+---
+
 # Reusable Prompt for Analyzing a Conversation Guide Against a Research Plan
 
 This reusable prompt is intended to guide researchers in evaluating whether a conversation guide effectively supports the goals and hypotheses set forth in a research plan. It ensures that GitHub Copilot can provide a thorough analysis and actionable recommendations for improving the guide.

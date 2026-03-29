@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for login.gov-adoption, login.gov-adoption, 2026-03-23"
+author: Login.gov Adoption Team
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "login.gov-adoption"
+portfolio: "Identity"
+product: "login.gov-adoption"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans using in-person proofing"
+
+# Related documents
+related_research_plan: "IPP Pilot Moderated Sessions Research Plan March 2024"
+related_prototype: "N/A"
+
+tags:
+  - identity
+  - Login.gov
+  - in-person-proofing
+  - usability-testing
+  - conversation-guide
+description: "Moderated session conversation guide for IPP pilot"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 ## IPP Pilot Moderated Application Session Conversation Guide
 ### Research Session Prep
 - Signage will have been put up

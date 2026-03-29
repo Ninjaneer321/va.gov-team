@@ -68,7 +68,7 @@ Moderator: So, could you tell me about the last time you paid a bill to the VA?
 
 13
 00:01:07.460 --> 00:01:16.810
-Participant: Sure, I paid, a VR&E bill to VA, for Volk Rehab education.
+Participant: Sure, I paid, a VR&E bill to VA, for VOC Rehab education.
 
 14
 00:01:17.090 --> 00:01:21.939

@@ -1,109 +1,105 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Rainbows Team, Colmery Act Opt Out, June 2018"
+date: 2018-07-10
+last_updated: 2018-07-17
+team: "Rainbows"
+product: "Colmery Act Opt Out"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Colmery Act goes into effect August 1, 2018 requiring veterans to opt-out of information sharing with schools. Veterans need to understand benefits and drawbacks of opting out and be able to make informed decisions."
+  product_location: "VA.gov Education section"
+  user_familiarity: "New product - implementing Colmery Act information sharing requirements"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-careers/opt-out/README.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability-testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand current knowledge about Colmery Act information sharing requirements"
+  - goal_2: "Test comprehension of benefits and drawbacks of opting out"
+  - goal_3: "Evaluate ability to complete opt-out process both logged-in and logged-out"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What do Veterans currently know about the Colmery Act information sharing requirements?"
+  - "Do Veterans understand the benefits and drawbacks of opting out?"
+  - "Could they accurately explain to a friend what opting out means?"
+  - "Are they able to make an informed decision about opting out?"
+  - "Does the placement within the overall architecture make sense?"
+  - "Are Veterans able to find it?"
+  - "Are logged-in Veterans successfully able to opt out?"
+  - "Are logged-out Veterans successfully able to opt out?"
+  - "Do Veterans understand actions needed if they do not want to opt-out?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Opt-out is a minor part of the Colmery Act and Veterans won't have detailed knowledge"
+  - "Landing page will play a large role in helping Veterans decide about opt-out"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate that Veterans can understand and complete opt-out process before Colmery Act goes into effect August 1, 2018"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling targeting enrolled students using VA education benefits"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Currently enrolled in college or university using VA benefits, or previously used VA benefits for school"
+    - "Even split of men and women"
+    - "All branches of Armed Forces represented"
+    - "At least one person in each age bracket: 18-30, 31-50, 50+"
+    - "At least half must have vets.gov login used to apply for or access benefits online"
+    - "At least one participant with 30%+ disability rating"
     
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
 participants:
-  veterans: 0
+  veterans: 8
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 8
+  completed_sessions_goal: 6
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2018-07-05"
+  pilot_participant: "Team member"
+  research_dates: "2018-07-10 to 2018-07-17"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 30
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can access education benefits"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Finding something to do"
+  - "Putting down roots"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-careers/opt-out/kickoff-meeting-notes.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "EDU: Education"
+  - "AUD: Veterans"
+  - "PRDT: Education-benefits"
+  - "PRDT: Colmery-Act"
+  - "usability-testing"
+  - "remote-moderated"
+  - "authenticated"
+  - "opt-out"
+  - "information-sharing"
+  - "Student-Veterans"
+study: "Rainbows Team, Colmery Act Opt Out"
+type: "usability-testing"
 ---
 
 # Research plan for Rainbows Team work on Colmery Act Opt Out, June 2018

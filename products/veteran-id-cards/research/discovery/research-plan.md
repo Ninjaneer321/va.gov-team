@@ -1,109 +1,121 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Veteran ID Card Discovery, 2017"
+date: 2017-11-01
+last_updated: 2017-11-01
+team: "Vets.gov Team"
+product: "Veteran ID Card (VIC)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "How might we make the process of applying for a Veteran ID Card (VIC) seamless and pain-free for Veterans, regardless of eligibility? This discovery research will help identify Veteran perceptions of VIC value, eligibility verification processes, photo upload requirements, branch identification preferences, digital ID interest, and optimal communication touchpoints."
+  product_location: "Vets.gov - VIC application process"
+  user_familiarity: "New product - discovery phase before launch"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: in-person
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "Various locations (guerrilla-style and cohort recruitment)"
+    point_of_contact: "Team members"
+    equipment: "Interview materials"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand what Veterans perceive as the value of a VIC"
+  - goal_2: "Explore Veteran attitudes toward logging in as a barrier to VIC application"
+  - goal_3: "Assess Veteran capability and comfort with photo upload requirements"
+  - goal_4: "Determine Veterans' preference for branch identification on VIC"
+  - goal_5: "Gauge interest in digital ID format and understand eligibility verification preferences"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What do Veterans perceive as the value of a VIC?"
+  - "Do Veterans consider logging in an undesirable barrier to get a VIC? Are there situations where pros outweigh cons?"
+  - "What tools or instructions do we need for Veterans to provide a photograph?"
+  - "Do Veterans want to identify their branch of service on the ID card?"
+  - "Would Veterans prefer eligibility verification before, during, or after application? How should rejection be communicated?"
+  - "Does the idea of a digital ID appeal to Veterans? Would they use it? What are concerns?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Photo upload requirements may present technical challenges for some Veterans"
+  - "Veterans will value having branch of service indicated on their VIC"
+  - "Digital ID format will appeal to some Veterans while others prefer physical card"
+  - "Veterans prefer to know eligibility before submitting application"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Inform VIC application design decisions including authentication requirements, photo upload process, eligibility verification timing, branch identification options, and physical vs. digital ID format"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Direct recruitment"
+  approach: "Convenience sampling - guerrilla interviews and cohort recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans with varying familiarity with VA services"
+    - "Mix of participants with and without Veteran ID cards"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Veterans who gave email in Phase 1"
+    - "VA employees who are Veterans"
+    - "Veterans from existing cohorts"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you a Veteran?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2017-12-01"
+  pilot_participant: "Team member"
+  research_dates: "2017-12-01 to 2018-01-05"
+  research_review_submission: "2017-11-15"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 30
+  buffer_minutes: 15
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can access VA services with ease"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Streamlined VIC application process"
+  - objective: "Veterans have the identification they need to access benefits and services"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Increased VIC adoption and satisfaction"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Veteran ID Card Phase 1 research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "PRDT: Veteran-ID-Card"
+  - "semi-structured-interviews"
+  - "discovery"
+  - "in-person"
+  - "authentication"
+  - "photo-upload"
+  - "eligibility-verification"
+  - "digital-id"
+  - "guerrilla-research"
 ---
 
 # How Might We? 

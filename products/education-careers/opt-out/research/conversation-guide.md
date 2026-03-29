@@ -1,34 +1,38 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Education Services, Colmery Act Opt Out Usability Testing, 2018"
+author: "Emily Waggoner"
+date_created: "2018-01-01"
+last_modified: "2018-01-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Education Services"
+portfolio: "benefits"
+product: "Colmery Act Opt Out Information Sharing"
+research_phase: "usability"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans using VA education benefits"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://staging.vets.gov/education/opt-out-information-sharing/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "education"
+  - "Colmery-Act"
+  - "opt-out"
+  - "information-sharing"
+  - "usability-testing"
+  - "privacy"
+description: "Usability testing conversation guide for Colmery Act opt-out information sharing feature to understand Veteran preferences and comprehension."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Conversation Guide for Colmery Act Opt Out usability testing

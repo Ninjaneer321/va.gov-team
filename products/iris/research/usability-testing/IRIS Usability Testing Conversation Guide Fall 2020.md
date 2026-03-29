@@ -1,3 +1,38 @@
+---
+title: "Conversation Guide for iris, iris, 2026-03-23"
+author: Rachel and
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "iris"
+portfolio: "Contact Centers"
+product: "iris"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who contact VA for support"
+
+# Related documents
+related_research_plan: "IRIS Usability Testing Research Plan Fall 2020"
+related_prototype: "N/A"
+
+tags:
+  - IRIS
+  - contact-center
+  - usability-testing
+  - conversation-guide
+description: "Usability testing conversation guide for IRIS Fall 2020"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # IRIS Usability Testing Conversation Guide Fall 2020
 **11/20/2020**
 

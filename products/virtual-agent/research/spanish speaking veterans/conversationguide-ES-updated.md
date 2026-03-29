@@ -1,3 +1,39 @@
+---
+title: "Guía de Conversación para Agente Virtual, Entrevistas en Profundidad con Veteranos de Habla Hispana, 2022"
+author: "Pilar Moreno"
+date_created: "2022-01-01"
+last_modified: "2022-01-12"
+
+# Core research metadata
+team: "Virtual Agent"
+portfolio: "digital-experience"
+product: "Virtual Agent Chatbot"
+research_phase: "discovery"
+research_method: "semi_structured_interviews"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Spanish-speaking Veterans who use Spanish as their primary language"
+
+# Related documents
+related_research_plan: "products/virtual-agent/research/spanish speaking veterans/researchplan.md"
+related_prototype: "https://staging.va.gov/virtual-agent-study/"
+
+tags:
+  - "virtual-agent"
+  - "chatbot"
+  - "Spanish-language"
+  - "bilingual"
+  - "discovery-research"
+description: "Entrevistas de descubrimiento con Veteranos de habla hispana para comprender sus necesidades de información, interacciones con el VA y preferencias para soporte de chatbot en español."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide for Spanish Speaking In Depth Interview
 Moderator logistics
 Use #feedback-backchannel in Slack for real-time feedback from observers.

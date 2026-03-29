@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Release Plan Original Claims
+services: Disability
+tags: UAT, claims, disability, release, testing
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/disability-compensation-claim/original-claims/release-plan-original-claims.md
+---
 # Release Plan Original Claims
 ## Phase I: moderated production testing (also known as User Acceptance Testing, or UAT)
 

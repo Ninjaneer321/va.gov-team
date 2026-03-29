@@ -1,39 +1,30 @@
 ---
-title: "Conversation Guide for Caregivers Stakeholders, Program of Comprehensive Assistance for Family Caregivers Discovery, August 2019"
-author: "Unknown"
-date_created: "2019-08-01"
-last_modified: "2026-02-11"
-
-# Core research metadata
-team: "Caregivers"
-portfolio: "health"
-product: "Program of Comprehensive Assistance for Family Caregivers"
-research_phase: "discovery"
-research_method: "moderated_interview"
-
-# Session details
-session_duration: "TBD"
-session_type: "remote_moderated"
-participant_criteria: "Internal VA stakeholders involved in caregiver benefit administration"
-
-# Related documents
-related_research_plan: "./research-plan.md"
-related_prototype: "N/A"
-
+title: "Conversation Guide for 10-10 Health Apps, 10-10CG Caregiver Application, Stakeholder Discovery, August 2019"
+type: "Conversation Guide"
+study_date: "2019-08-01"
+authors:
+  - "Jonathan Nelson"
 tags:
-  - "AUD: Internal VA Stakeholders"
-  - "AUD: VA Staff"
-  - "BNFT: Healthcare"
-  - "PRDT: Caregivers"
-  - "discovery-research"
-  - "moderated-interview"
-  - "semi-structured-interviews"
-description: "Discovery research conversation guide for VA stakeholders involved in the Program of Comprehensive Assistance for Family Caregivers to understand internal processes and pain points."
-
-# Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: false
+  - "AUD:VA-Staff"
+  - "PRDT:10-10CG"
+  - "PRDT:Caregiver"
+  - "PRDT:CSP"
+  - "RESRCH:Discovery"
+  - "RESRCH:Stakeholder"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "BNFT:Health-care"
+  - "DSC:Interview"
+team: "10-10 Health Apps"
+portfolio: "Health"
+product:
+  - "10-10CG Caregiver Application"
+  - "Caregiver Support Program"
+  - "Family Caregiver Benefits"
+research_round: "Stakeholder Discovery"
+participant_count: 5
+study_length: "60 minutes"
+date: "2019-08"
 ---
 
 # Stakeholder Conversation Guide

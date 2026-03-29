@@ -92,6 +92,8 @@ related_research:
   previous_studies: 
     - "Multiple research studies suggest veterans want decision letter download feature"
     
+
+study: "Decision Letter Download, September"
 tags:
   - "AUD: Veterans"
   - "BNFT: Disability"

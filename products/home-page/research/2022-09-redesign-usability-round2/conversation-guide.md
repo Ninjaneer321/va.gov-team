@@ -1,56 +1,35 @@
 ---
-title: "Conversation Guide for VA.gov Home Page Redesign Round 2 Usability Testing, September 2022"
-author: "Cindy Merrill"
-date_created: "2022-09-01"
-last_modified: "2026-02-11"
-
-# Core research metadata
-team: "Public Websites"
-portfolio: "digital-experience"
-product: "VA.gov Home Page"
-research_phase: "usability"
-research_method: "moderated_usability_test"
-
-# Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans with various benefit experiences, including screen reader users, mobile users, and diverse demographics"
-
-# Related documents
-related_research_plan: "products/home-page/research/2022-09-redesign-usability-round2/research-plan.md"
-related_prototype: "https://staging.va.gov/homepage-test/"
-
+title: "Conversation Guide for Sitewide Home Page Team, VA.gov Home Page Redesign Round 2 Usability Testing, September 2022"
+type: "Conversation Guide"
+study_date: "2022-09-01"
+authors:
+  - "Cindy Merrill (cindy.merrill@adhocteam.us)"
 tags:
-  - "AUD: Veterans"
-  - "PRDT: Home-page"
-  - "PRDT: VA.gov"
-  - "BNFT: Healthcare"
-  - "BNFT: Disability"
-  - "BNFT: Education"
-  - "BNFT: Records"
-  - "DSP: Help users to...find information"
-  - "DSP: Content Presentation"
-  - "DSC: Search"
-  - "DSC: Button"
-  - "HDW: Smartphone"
-  - "HDW: Desktop"
-  - "HDW: Tablet"
-  - "Accessibility"
-  - "usability-testing"
-  - "moderated-usability-test"
-  - "navigation"
-  - "information-architecture"
-  - "search"
-  - "sign-in"
-  - "screen-reader"
-  - "PACT-Act"
-
-description: "Round 2 usability testing of the redesigned VA.gov home page, evaluating navigation, information findability, benefit hub access, sign-in flows, and promotional content effectiveness across multiple tasks and participant groups."
-
-# Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+  - "AUD:Veterans"
+  - "AUD:Service-members"
+  - "AUD:Caregivers"
+  - "PRDT:VA.gov-home-page"
+  - "PRDT:Sitewide"
+  - "RESRCH:Usability"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "DSC:Navigation"
+  - "DSC:Content-presentation"
+  - "DSP:Help-users-to-navigate"
+  - "HDW:Desktop"
+  - "HDW:Smartphone"
+  - "HDW:Tablet"
+  - "VETJNY:Taking-care-of-themselves"
+  - "VETJNY:Getting-out"
+  - "VETJNY:Putting-down-roots"
+team: "Sitewide Home Page Team (Public Websites)"
+portfolio: "Digital Experience"
+product:
+  - "VA.gov Home Page Redesign"
+research_round: "Round 2"
+participant_count: "TBD"
+study_length: "60 minutes"
+date: "2022-09"
 ---
 
 # Conversation Guide: VA.gov Home Page Redesign ROUND 2 Usability Testing

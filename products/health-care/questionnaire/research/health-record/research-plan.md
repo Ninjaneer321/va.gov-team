@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
+date: 
 last_updated: YYYY-MM-DD
 team: "[Team Name]"
 product: "[Product Name]"
@@ -100,10 +100,13 @@ related_research:
     - "[Link to related past research]"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - HCE
+  - UAT
+  - caregivers
+  - questionnaires
+  - usability-testing
+study: [Product Name]
+type: UAT
 ---
 
 # Research Plan: Health Record (Medications, Allergies, and Immunizations), February 2021

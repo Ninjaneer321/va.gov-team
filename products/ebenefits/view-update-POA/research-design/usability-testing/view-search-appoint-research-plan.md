@@ -1,110 +1,57 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Search and Appoint Accredited Representative Usability Testing"
+date: 2021-12-01
+last_updated: 2026-03-23
+team: "eBenefits Migration Team"
+product: "Search and Appoint Accredited Representative (Power of Attorney)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need to search for and appoint accredited representatives (VSOs, attorneys, claims agents) to help with benefits claims. Currently must search via Office of General Counsel and submit forms through eBenefits or VSOs. Migrating combined search and appoint functionality to VA.gov as single form that generates pre-filled VA Form 21-22 or 21-22a."
+  product_location: "VA.gov"
+  user_familiarity: "Migration from eBenefits with improved workflow"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ebenefits/view-update-POA/README.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
-  
+methodology: "Usability Testing"
+research_format:
+  location: remote
+  moderated: true
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand how users search for accredited representatives"
+  - goal_2: "Evaluate how users proceed through the appoint task"
+  - goal_3: "Identify problems in search and appoint forms for refinement"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do users understand the search options?"
+  - "Can users refine their search if they don't find the representative they are looking for?"
+  - "Do users expect to talk with a representative before appointing them?"
+  - "Do users understand how to select a representative?"
+  - "How do users respond to pagination when there are many search results?"
+  - "How do users expect to submit their completed form?"
 
-hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+# Methodology Details
+research_type: "Evaluative"
+session_format: "Remote moderated usability testing with prototype"
+timeline: "TBD"
 
-expected_outcomes: "[How will findings advance the product?]"
+# Participants
+participant_count: 9
+recruitment_criteria: "Veterans or transitioning service members"
 
-# Recruitment & Participants
-recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
-  
-  primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
-    
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
-participants:
-  veterans: 0
-  caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
-# Timeline & Sessions
-timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
-  
-session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
-  
-# Strategic Alignment
-octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
-      
-veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
-# Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
-tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+# Team
+moderator: "Candy Clark"
+notetaker: "Perigean"
+observers: "James Adams, Jason Wolf, Kathleen Crawford, Kevin Musiorski, Jerek Shoemaker, Jesse Cohn, Sabrina Mohamed, Matt Self, Nathan Kroes"
+
+# Tags
+tags: ['research', 'usability-testing', 'ebenefits', 'power-of-attorney', 'POA', 'accredited-representative', 'search', 'appoint', 'form-21-22', 'form-21-22a', 'authenticated', 'research-plan']
 ---
+
 
 # Research Plan for eBenefits Migration Team, Accredited Representative, December 2021
 

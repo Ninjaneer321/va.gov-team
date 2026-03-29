@@ -1,110 +1,119 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Education Data Migration - Yellow Ribbon Tool Integration into Comparison Tool"
+date: 2024-12-23
+last_updated: 2026-03-23
+team: "Education Data Migration Team"
+product: "GI Bill Comparison Tool - Yellow Ribbon Program Integration"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Yellow Ribbon Program information currently exists in a separate Yellow Ribbon Tool. Need to consolidate Yellow Ribbon Program information into the Comparison Tool to allow users to access education benefits information quickly and easily in one location."
+  product_location: "GI Bill Comparison Tool - unauthenticated"
+  user_familiarity: "Migration - Veterans familiar with Yellow Ribbon Tool, moving information into Comparison Tool"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-data-migration/edm-yellow-ribbon-tool-product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
-  
+methodology: "Usability Testing"
+research_format:
+  location: remote
+  moderated: true
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Identify if users can find the Yellow Ribbon program content they are seeking within the Institution details page in Comparison Tool"
+  - goal_2: "Validate if users will benefit from the presentation of Yellow Ribbon program information in Comparison Tool"
+  - goal_3: "Discover pain points or aspects of the design that need to be altered to improve the user experience"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are the users able to find what they are looking for?"
+  - "Will the users benefit from the updated presentation of the YR program information in CT?"
+  - "What are the current pain points that users are facing?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will find it easier to locate necessary information if the presentation is intuitive and well-organized"
+  - "A clear and user-friendly format should enhance users' comprehension and overall satisfaction with the YR program"
+  - "The consolidated presentation will improve users' ability to make informed decisions and participate in the program"
+  - "The study will identify potential gaps or areas for improvement in the presentation"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Research findings will guide final design changes before launching Yellow Ribbon program information within Comparison Tool regarding presentation, functionality, and accessibility"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Standard recruitment with mobile and desktop mix"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
-    
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "8 who have used the Yellow Ribbon tool"
+    - "7 who haven't used the Yellow Ribbon tool"
+    - "7 who are comfortable joining via mobile"
+    - "8 who are comfortable joining via desktop"
+    - "25-50 age group"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
+    - question: "How often do you go online to access VA benefits and services?"
+      qualifying_response: "Any frequency"
+    - question: "Have you ever applied for the Yellow Ribbon Program or any other GI Bill benefits?"
+      qualifying_response: "Mix of yes/no"
+    - question: "On a scale of 1-5, what was your experience using the Yellow Ribbon Program?"
+      qualifying_response: "Any rating (1-5)"
+    - question: "Are you comfortable joining the session on mobile or desktop?"
+      qualifying_response: "Yes"
+
 participants:
-  veterans: 0
+  veterans: 15
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
+  total_recruited: 15
+  completed_sessions_goal: 10
+
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-01-03"
+  pilot_participant: "Sneha Kulkarni, Jennifer Drahota"
+  research_dates: "2025-01-08 to 2025-01-15"
+  research_review_submission: "2024-12-27"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 45
   buffer_minutes: 30
-  max_sessions_per_day: 0
-  
+  max_sessions_per_day: 5
+
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "VA's digital experiences are the easiest way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Consolidate education information into single tool"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
+  - "Putting down roots"
+  - "Reinventing myself"
+
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
-    
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/education-data-migration"
+  conversation_guide: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-data-migration/research-folder-yrt/conversation-guide-yrt.md"
+  staging_environment: "https://staging.va.gov/education/gi-bill-comparison-tool/institution/31937132"
+
+# Team
+moderator: "Sneha Kulkarni"
+notetaker: "Jennifer Drahota"
+observers: "Cassidy Beach, Theresa Simeone"
+
+study: "Education Data Migration - Yellow Ribbon Tool, December 2024 - January 2025"
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - education
+  - yellow-ribbon
+  - comparison-tool
+  - usability-testing
+  - data-migration
+  - GI-Bill
+  - unauthenticated
+  - staging-testing
 ---
+
 
 # Research Plan for [Education Data Migration, Yellow Ribbon Tool, 12/23/24]
 

@@ -1,4 +1,4 @@
-# Creating an AskVA maintenance window
+# Creating an AskVA maintenance window in Staging
 
 > ### Before you begin
 > The vets-api development, staging, sandbox, and production environments reside in EKS.
@@ -10,13 +10,23 @@ If you do not have not have terminal access, you must first fill out the [vets-a
 
 1. Follow the steps outlined in the [VA Platform Developer Docs](https://depo-platform-documentation.scrollhelp.site/developer-docs/vets-api-on-eks#VetsAPIonEKS-Access) for accessing your target environment (e.g. vets-api-staging) and starting a rails console session.
 
-1. Use a standard rails console `bundle exec rails c`. Do not pass the `--sandbox` flag as this will not save the record.
+1. Make sure to log in using your regular Github account and not GHEC-US
+
+1. Find the staging cluster and start a terminal session with `Exec`. Example:
+
+    <img width="350" height="250" alt="image" src="https://github.com/user-attachments/assets/504c9888-01e4-4257-aa56-05664640e801" />
+    <img width="350" height="250" alt="image" src="https://github.com/user-attachments/assets/b97a5c62-a284-4f10-a4e5-af38901eb59c" />
+
+
 
 ### Creating a maintenance window record
+
+1. Use a standard rails console `bundle exec rails c`. Do not pass the `--sandbox` flag as this will not save the record.
 
 1. You can use the syntax below to create a new record in the `maintenance_windows` table:
    ```ruby
      maintenance_window = MaintenanceWindow.create!(
+       external_service: 'ask-va',
        start_time: Time.current,
        end_time: 15.minutes.from_now,
        description: 'AskVA maintenance window'

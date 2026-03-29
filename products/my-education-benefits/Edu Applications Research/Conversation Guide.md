@@ -1,3 +1,38 @@
+---
+title: "Conversation Guide for my-education-benefits, my-education-benefits, 2026-03-23"
+author: logistics before
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "my-education-benefits"
+portfolio: "Education"
+product: "my-education-benefits"
+research_phase: "Evaluative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans using education benefits"
+
+# Related documents
+related_research_plan: "Education Applications Research Plan"
+related_prototype: "N/A"
+
+tags:
+  - education
+  - my-education-benefits
+  - applications
+  - conversation-guide
+description: "Conversation guide for education applications research"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 [DGIB Edu Applications Convo Guide (1).docx](https://github.com/department-of-veterans-affairs/va.gov-team/files/9056533/DGIB.Edu.Applications.Convo.Guide.1.docx)
 
 

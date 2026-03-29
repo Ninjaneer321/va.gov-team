@@ -144,6 +144,8 @@ related_research:
 
 conversation_guide: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2025-10-copays-usability/conversation-guide.md"
 
+
+study: "Financial Management Team, Copay Debt Portal Payment History, October - November"
 tags:
   # Audience
   - "AUD: Veterans"

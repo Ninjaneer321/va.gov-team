@@ -1,109 +1,106 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for 10-10EZR Confirmation Flow, May 2025"
+date: 2025-05-01
+last_updated: 2025-05-01
+team: "Health Enrollment Team"
+product: "10-10EZR Health Care Benefit Update Form"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Test confirmation flow for 10-10EZR form to ensure Veterans understand what information has been updated and next steps after submission"
+  product_location: "VA.gov 10-10EZR form - confirmation page"
+  user_familiarity: "Iteration - testing updated confirmation flow"
+  product_brief_url: "TBD"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Test confirmation flow for 10-10EZR form updates"
+  - goal_2: "Ensure Veterans understand what information was updated"
+  - goal_3: "Verify Veterans understand next steps after form submission"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans understand the confirmation page content?"
+  - "Can Veterans identify what information they updated?"
+  - "Do Veterans know what to expect next after submitting their update?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will understand the confirmation page clearly shows what was updated"
+  - "Veterans will know what next steps to take after submission"
+  - "The confirmation flow will reduce confusion about update status"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will inform final design of confirmation page to ensure clarity about update status and next steps"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans enrolled in VA health care"
+    - "Veterans who have updated their information before or need to update"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse age range"
+    - "Mix of Priority Groups"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you enrolled in VA health care?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: TBD
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: TBD
+  completed_sessions_goal: TBD
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2025-05-01 to 2025-05-31"
+  research_review_submission: "TBD"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Improve clarity of health care update process"
+  - objective: "Logged-in users have a personalized experience"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Clear confirmation of updates submitted"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "TBD"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "10-10EZR"
+  - "usability-testing"
+  - "confirmation-flow"
+  - "veterans"
 ---
 
 

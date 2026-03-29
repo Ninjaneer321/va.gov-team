@@ -1,7 +1,7 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for Orion, OH Appointment Scheduling, January 2026"
-date: 2025-01-01
+date: 
 last_updated: 2025-01-01
 team: "Orion Team"
 product: "Oracle Health (OH) Appointment Scheduling on VA.gov"
@@ -96,14 +96,14 @@ related_research:
   conversation_guide: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2025-oh-scheduling-web-uat/conversation-guide.md"
     
 tags:
-  - "health-care"
-  - "appointments"
-  - "oracle-health"
-  - "uat"
-  - "veterans"
-  - "authenticated"
-  - "my-healthevet"
-  - "scheduling"
+  - HCE
+  - UAT
+  - VAOS
+  - appointments
+  - caregivers
+  - mobile
+study: Orion, OH Appointment Scheduling
+type: UAT
 ---
 
 # Research Plan for Orion, OH Appointment Scheduling, January, 2026

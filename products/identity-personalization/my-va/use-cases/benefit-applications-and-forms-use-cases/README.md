@@ -1,3 +1,161 @@
+# My VA: Forms and applications use cases 
+
+Last updated: March 2026
+
+* [User flow](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1746474542228/c397457f63aa34d09dee9f34d785af90cd3b8b96?wid=36-1746474575795&outline=open)  
+* [Figma files](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5307-57763&t=KhCgIDPMpZ6FClDG-1)  
+* Integration documentation  
+  * Authenticated Experience Team documentation  
+    * [Authenticated Experience Team intake process](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/intake.md)  
+    * [Forms and applications design and content standards](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/UX/my-va-design-content-standards.md#forms-and-applications)  
+    * [Frontend documentation](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/engineering-docs/frontend/benefit-applications-and-forms.md)  
+    * [How to Add Form Submission Status to My VA (Any Form API)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/forms-status-on-My-VA/adding-a-form.md)  
+  * Platform: [VA Forms Library \- How to set up Save In Progress (SiP)](https://depo-platform-documentation.scrollhelp.site/developer-docs/va-forms-library-how-to-set-up-save-in-progress-si)  
+  * VADS: [Stay informed of their form submission status](https://design.va.gov/patterns/help-users-to/stay-informed-of-their-application-status)
+
+
+<details><summary>Archive | How to reproduce in staging</summary>
+
+* [User has a benefit application or form draft saved but not yet submitted](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/user-has-applications-drafts.md#how-to-reproduce)  
+* [User has submitted a benefit application and/or form](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/user-has-applications-and-or-forms.md#how-to-reproduce)  
+* [User has no benefit applications, forms, or drafts saved](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/user-has-no-applications-forms-or-drafts.md#how-to-reproduce)
+
+</details>
+
+# Jump to
+
+[Overview](#overview)
+
+[Use cases](#use-cases)
+
+* [User does not have any in-progress or completed forms or applications (empty state)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/README.md#user-does-not-have-any-in-progress-or-completed-forms-or-applications-empty-state)
+
+* [Draft](#draft)
+
+* [Submission in progress (form or application)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/README.md#submission-in-progress-form-or-application)
+
+* [Received](#received)
+
+* [Action needed](#action-needed)
+
+[Edge cases](#edge-cases)
+
+* [Flags](#flags)
+
+* [PDF download available](#pdf-download-available)
+
+[Errors](#errors)
+
+* [Forms and applications section warning](#forms-and-applications-section-warning)
+
+* [PDF link generation error (card-level)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/README.md#pdf-link-generation-error-card-level)
+
+* [PDF download error (card-level)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/README.md#pdf-download-error-card-level)
+
+
+
+# Overview 
+
+* This documentation outlines the different use cases and statuses for **Forms and applications** on My VA. It also details edge cases, feature flags, and error states. If you’re trying to integrate a form, start here → \[link\].  
+* LOA1 and LOA3 (identify verified) users can see all use cases.  
+* A **Details** component with information informing users how to check their form and application statuses is always visible at the bottom of this section.
+
+# Use cases 
+
+## User does not have any in-progress or completed forms or applications (empty state) 
+
+* **Description:** When a user does not have any in-progress or completed forms or applications they will see information informing them of such.  
+* **Format:** See designs  
+* [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5077-16410&t=KhCgIDPMpZ6FClDG-1)  
+* Link to UX governance documentation (TBA)
+
+## Draft 
+
+* **Description:** When a user has a form or application in progress, the card appears with the **DRAFT** status in the **In-progress forms** section.  
+* **Format:** [Stay informed of their form submission status](https://design.va.gov/patterns/help-users-to/stay-informed-of-their-application-status)  
+* [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5077-16011&t=KhCgIDPMpZ6FClDG-1)  
+* [Link to UX governance documentation](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/UX/my-va-design-content-standards.md#draft-status)
+
+
+## Submission in progress (form or application) 
+
+* **Description:** When a user has a form or application that has been submitted but not received, the card appears with the **SUBMISSION IN PROGRESS** status in the **Completed forms** section.  
+* **Format:** [Stay informed of their form submission status](https://design.va.gov/patterns/help-users-to/stay-informed-of-their-application-status)  
+* [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5307-57763&t=nUPtUt1TydCcR2Mb-1)  
+* [Link to UX governance documentation](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/UX/my-va-design-content-standards.md#submission-in-progress-status) 
+
+
+## Received  
+
+* **Description:** When a user has a form or application that has been received by the VA, and is currently being reviewed, the card appears with the **RECEIVED** status in the **Completed forms** section.  
+* **Format:** [Stay informed of their form submission status](https://design.va.gov/patterns/help-users-to/stay-informed-of-their-application-status)  
+* [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5468-13986&t=vWzWRLiF6UjMdVlg-1)  
+* [Link to UX governance documentation](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/UX/my-va-design-content-standards.md#received-status) 
+
+## Action needed  
+
+* **Description:** When there has been a downstream system error, and the user has to call for support, the card appears with the **ACTION NEEDED** status in the **In-progress forms** section.  
+* **Format:** [Stay informed of their form submission status](https://design.va.gov/patterns/help-users-to/stay-informed-of-their-application-status)  
+* [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=9301-122104&t=vWzWRLiF6UjMdVlg-1)  
+* [Link to UX governance documentation](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/UX/my-va-design-content-standards.md#action-needed-status) 
+
+
+# Edge cases 
+
+## Flags 
+
+### PDF download available 
+
+Description: PDF downloads are optional, and can appear in all statuses other than DRAFT. 
+
+* **Format:** [Stay informed of their form submission status](https://design.va.gov/patterns/help-users-to/stay-informed-of-their-application-status)  
+* [Link to design](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5077-16327&t=fWVBE4rdN5M0wajx-1)   
+* [Link to UX governance documentation](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/UX/my-va-design-content-standards.md#submission-in-progress-status) 
+
+To enable PDF downloads ensure the following flags are enabled:
+
+* **my\_va\_form\_pdf\_link**: Allows the render of the PDF download UI link  
+* **my\_va\_form\_submission\_pdf\_link:** Matching backend feature flag
+
+The download link only renders when:
+
+* The **my\_va\_form\_submission\_pdf\_link** feature toggle is enabled *and*  
+* **pdf\_support** returns true from the backend  
+  * /v0/my\_va/submission\_statuses is a response property
+
+**Important:** pdfSupport should only be set to true if the form API actually generates a PDF and saves it to the designated S3 bucket. If a PDF is not generated and stored, no download URL can be retrieved, which will cause the download button to appear but fail when the user attempts to download the file.
+
+## Errors 
+
+### Forms and applications section warning 
+
+* **Description**: A slim warning alert may appear at the **Forms and applications section** level when there is an issue retrieving submission status information for one or more forms. This alert is tied to the **submission status flow**, not the PDF download flow.  
+* This warning is **not limited to 429 errors (Too Many Requests)**. It can appear when:  
+  * The submission status request fails entirely, or  
+  * Submission status data is returned with one or more errors included in the response.  
+  * A 429 Too Many Requests is one example, but other **client, upstream, or service error conditions may also trigger this alert**.  
+* **Status code**: 4XX and 5XX  
+* [Link to design](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5350-14507&t=vSC00tzVjcFZ2rHY-1)   
+* [Link to UX governance documentation](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/UX/my-va-design-content-standards.md#full-api-system-down-page-section-error)   
+* [Link to backend documentation](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/forms-status-on-My-VA/adding-a-form.md)
+
+### PDF link generation error (card-level)
+
+* **Description**: If the PDF link is unable to be generated on page load, an error message appears within the individual form card. The PDF link is hidden from this view.  
+* **Status code**: 400  
+* [Link to design](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=11576-36412&t=OZf0PQTkM80ZrmNE-1)   
+* [Link to backend documentation](https://github.com/department-of-veterans-affairs/vets-api/tree/master/modules/simple_forms_api/app/services/simple_forms_api/form_remediation/docs)
+
+### PDF download error (card-level) 
+
+* **Description**: If the request fails when a user attempts to download a copy of their submitted form, an error message appears within the individual form card.  
+* **Status code**: 4xx (401, 403, 404, 422, etc.) Any 5xx  
+* [Link to design](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=9334-14783&t=vWzWRLiF6UjMdVlg-1)   
+* [Link to backend documentation](https://github.com/department-of-veterans-affairs/vets-api/tree/master/modules/simple_forms_api/app/services/simple_forms_api/form_remediation/docs)
+
+---
+<details><summary>Archive | My VA: Benefits applications and forms use cases, November 2025</summary>
+
 # My VA: Forms and applications use cases
 
 **Last updated: November 2025**
@@ -95,7 +253,7 @@
   - src/applications/personalization/dashboard/components/benefit-application-drafts/ApplicationsInProgress.jsx
   - src/applications/personalization/dashboard/components/benefit-application-drafts/SubmissionCard.jsx
 
-</details>
+
 
 
 ## User has submitted a benefit application and/or form on LH BI API
@@ -146,7 +304,8 @@ This feature has no validation use cases.
   - src/applications/personalization/dashboard/components/benefit-application-drafts/ApplicationsInProgress.jsx
   - src/applications/personalization/dashboard/components/benefit-application-drafts/Error.jsx
 
----
+</details>
+
 
 <details><summary>Archive | My VA: Benefits applications and forms use cases, November 2024</summary>
 
@@ -188,3 +347,4 @@ The data for saved applications is gathered from the same API as the main user c
 - Submitted form cards have three different states: submission in progress, received, and action needed
 
 </details>
+

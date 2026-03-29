@@ -102,6 +102,18 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/issues/46871"
     
 tags:
+  - profile
+  - usability-testing
+  - editing
+  - edit-in-place
+  - authenticated-experience
+  - accessibility
+  - cognitive-disability
+  - mobile
+  - address-validation
+  - notification-preferences
+  - authenticated
+  - research-plan
   - "AUD: Veterans"
   - "PRDT: Profile"
   - "DSC: Form"

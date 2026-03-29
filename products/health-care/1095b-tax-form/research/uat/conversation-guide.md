@@ -1,31 +1,37 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: 1095-B Tax Form UAT, 2019"
+author: "James Adams"
+date_created: "2019-11-01"
+last_modified: "2019-11-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Health Products Team"
+portfolio: "health"
+product: "1095-B Tax Form"
+research_phase: "validation"
+research_method: "user_acceptance_testing"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans enrolled in VA healthcare who received 1095-B forms"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/health-care/1095b-tax-form/research/uat/research-plan.md"
+related_prototype: "https://va.gov/health-care/get-1095b-form"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: 1095-B"
+  - "tax-forms"
+  - "UAT"
+  - "user-acceptance-testing"
+  - "authenticated"
+  - "health-records"
+description: "User acceptance testing conversation guide for 1095-B tax form online access feature, verifying production readiness."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

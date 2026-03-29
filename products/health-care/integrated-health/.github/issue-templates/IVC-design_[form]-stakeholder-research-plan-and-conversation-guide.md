@@ -1,10 +1,29 @@
 ---
-name: 4. [Design] - %%Form Number%% Stakeholder research plan and conversation guide
-about: Before Design Intent
-title: ''
-labels: design
-assignees: ''
-
+title: "IVC Design Issue Template: Stakeholder Research Plan and Conversation Guide"
+author: IVC Design Team
+date_created: "2024-01-01"
+last_modified: "2024-01-01"
+team: Integrated Veteran Care (IVC)
+portfolio: health
+product: Integrated Health
+research_phase: discovery
+research_method: stakeholder_interview
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: VA stakeholders familiar with specific form processes
+related_research_plan: N/A
+related_prototype: N/A
+tags:
+  - IVC
+  - integrated-health
+  - stakeholder-research
+  - discovery
+  - issue-template
+  - design-intent
+description: GitHub issue template for creating stakeholder research plans and conversation guides for IVC design work before Design Intent stage.
+recording_required: true
+observer_support: true
+consent_for_clips: true
 ---
 
 Before Design Intent

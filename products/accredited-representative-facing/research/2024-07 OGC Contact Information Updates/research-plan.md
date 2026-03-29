@@ -110,6 +110,8 @@ related_research:
     - "2024-05 NACVSO Research"
     - "Current state map: https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1717174574592"
     
+
+study: "Accredited Representative Facing Team, OGC Contact Information Updates, 07/2024"
 tags:
   - "accredited-representative-facing"
   - "accredited-representative-portal"

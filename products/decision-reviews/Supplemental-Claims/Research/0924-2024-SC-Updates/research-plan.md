@@ -1,109 +1,122 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Benefits Decision Reviews, Supplemental Claims Updates, September 2024"
+date: 2024-09-16
+last_updated: 2024-09-16
+team: "Benefits Decision Reviews"
+product: "Supplemental Claims - Form 20-0995 Updates"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Updates made to 20-0995 form include new optional sections and fields that need usability validation"
+  product_location: "VA.gov - Supplemental Claims submission form"
+  user_familiarity: "Iteration on existing Supplemental Claims form"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/decision-reviews/Supplemental-Claims"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
+    facility: "Remote via Zoom with code prototype"
+    point_of_contact: "Eileen Chi (eileen.chi@coforma.io)"
+    equipment: "Zoom, staging environment, screen readers"
   moderated: true # Options: true, false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine if Supplemental Claims updates create any new points of friction within the form"
+  - goal_2: "Validate that users can complete the new Supplemental Claim flow"
+  - goal_3: "Validate that AT-users can navigate through the entire form"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do users understand the series of homelessness questions and know benefits of disclosing this information?"
+  - "Are users able to understand if they're eligible for and respond to VHA MST Notifications question?"
+  - "Do they understand what it means to submit non-VA evidence (submitting a 4142/a form)?"
+  - "Can users successfully review each section using accordion behavior?"
+  - "Can screen reader users take all necessary actions without friction?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "All users will still be able to successfully complete a Supplemental Claim"
+  - "Veterans will disclose information that is most relevant to them"
+  - "Veterans will be able to provide relevant information that could lead to more favorable outcomes"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Use findings to iterate on anything critical that impedes form completion, add notable enhancements and concerns to backlog"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "inclusive recruitment with two cohorts: general users and screen reader users"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans with disability claim experience"
+    - "Cohort 1: General Veterans (5 completed sessions)"
+    - "Cohort 2: Screen reader users due to low vision or blindness (5 completed sessions)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Variation in age, location, tech experience"
+    - "3/2 split between desktop/mobile users for Cohort 2"
+    - "Diverse sample across demographics"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you filed a disability claim with VA?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 20
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 20
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-09-13"
+  pilot_participant: "Internal team member"
+  research_dates: "2024-09-16 to 2024-09-27"
+  research_review_submission: "2024-09-06"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 90
+  buffer_minutes: 60
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Our digital experiences are the best way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Improved Supplemental Claims form completion rates"
+  - objective: "Our platforms are the best way to deliver products at VA"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Accessible forms for all Veterans including AT users"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting out"
+  - "Taking care of myself"
+  - "Managing my declining health"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/decision-reviews/Supplemental-Claims"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "BNFT: Disability"
+  - "AUD: Veterans"
+  - "PRDT: Decision-reviews"
+  - "PRDT: Supplemental-claims"
+  - "PRDT: Form-20-0995"
+  - "usability-testing"
+  - "accessibility-testing"
+  - "remote-moderated"
+  - "authenticated"
+  - "screen-readers"
+  - "homelessness"
+  - "MST"
+  - "non-VA-evidence"
+study: "Benefits Decision Reviews, Supplemental Claims Updates"
+type: "usability-testing"
 ---
 
 # Supplemental Claims Updates Research Plan

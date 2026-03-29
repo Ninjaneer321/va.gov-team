@@ -41,6 +41,21 @@ hypotheses:
 
 expected_outcomes: "Confirm that direct deposit functionality works correctly on production before full public launch"
 
+tags:
+  - authenticated-experience
+  - profile
+  - direct-deposit
+  - financial-information
+  - payments
+  - uat
+  - user-acceptance-testing
+  - disability-compensation
+  - eBenefits-migration
+  - authenticated
+  - research-plan
+  - "uat"
+  - "user-acceptance-testing"
+
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"

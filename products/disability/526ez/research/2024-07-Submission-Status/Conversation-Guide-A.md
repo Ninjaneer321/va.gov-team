@@ -1,37 +1,27 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: Conversation Guide A: 526 Submission Status Evaluative Research
+author: Disability Team
+date_created: 2024-07-01
+last_modified: 2024-07-01
+team: "Disability Benefits Experience (DBEX)"
+portfolio: "benefits"
+product: "Disability Compensation (Form 526EZ)"
+research_phase: "evaluative"
+research_method: "usability_test"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have filed disability claims"
+related_research_plan: "products/disability/526ez/research/2024-07-Submission-Status/research-plan.md"
+related_prototype: "https://www.figma.com/proto/qyTtKDOTHZPGU59PAfqVhq/Submission-Experience"
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+- disability
+description: A template for moderating research sessions including logistics, intro
+  script, task outlines, and consent steps.
 recording_required: true
 observer_support: true
 consent_for_clips: true
+date: 2024-07
 ---
-
-
 # Conversation Guide A: “526 Submission Status Evaluative Research” for Disability Experience Team, July 2024
 
 ## Moderator logistics

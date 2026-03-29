@@ -10,6 +10,8 @@ Development was done behind a feature flag, following the [best practices for cr
 | [event_bus_gateway_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_sms_notifications) | When enabled, for each non-filtered event, eventbus-gateway will call the new vets-api endpoint send_notifications which will asyncronousy send sms notifications |
 | [event_bus_gateway_letter_ready_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_letter_ready_sms_notifications) | Flag that will be used for the progressive rollout, it can be enabled for a specifc user or a percentage of actors. We will be using the icn as the determining feature |
 | [event_bus_gateway_retry_sms](https://api.va.gov/flipper/features/event_bus_gateway_retry_sms) | When enabled, vets-api retries event bus gateway sms that VA Notify marks temporary-failure |
+| [event_bus_gateway_sms_blackout](https://api.va.gov/flipper/features/event_bus_gateway_sms_blackout) | When enabled, blocks SMS notifications from being sent during the blackout period |
+| [event_bus_gateway_sms_dry_run](https://api.va.gov/flipper/features/event_bus_gateway_sms_dry_run) | When enabled, logs SMS notifications instead of sending them via VA Notify |
 
 ## Step 2: Validation
 
@@ -41,8 +43,16 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 - Desired number of users: 1
 - How you'll recruit the right production test users: Seth Darr will identify a veteran who is willing to assist.
 - How you'll conduct the testing: We will manually trigger the Event Bus Gateway to send a POST request to vets-api with the recruit's participant ID.
-- How you'll give the test users access to the product in production w/o making it live on VA.gov: We will set the `event_bus_gateway_letter_ready_sms_notifications` to only be enabled for the recruit's icn.
+- How you'll give the test users access to the product in production w/o making it live on VA.gov: We will set the flags accordingly:
 
+| Toggle name | Set to |
+| ----------- | ------ |
+| [event_bus_gateway_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_sms_notifications) | enabled |
+| [event_bus_gateway_letter_ready_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_letter_ready_sms_notifications) | enabled for the recruit's icn |
+| [event_bus_gateway_retry_sms](https://api.va.gov/flipper/features/event_bus_gateway_retry_sms) | enabled |
+| [event_bus_gateway_sms_blackout](https://api.va.gov/flipper/features/event_bus_gateway_sms_blackout) | disabled |
+| [event_bus_gateway_sms_dry_run](https://api.va.gov/flipper/features/event_bus_gateway_sms_dry_run) | disabled |
+ 
 #### Results
 
 - Number of users: 
@@ -67,6 +77,40 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - [Google Analytics Report](https://analytics.google.com/analytics/web/?authuser=2#/analysis/a50123418p265787033/edit/eiPeenxHRBqHVePhF1M3ow?restoreUserState=true) - N/A for SMS at this time
 - Who is monitoring the dashboard(s)?: BMT3 (Seth Darr)
 
+### Dry-run Stage
+
+*Test a small percentage with the "dry-run" flag on (not texts are sent, only logs written) - primarily to test the 9pm ET - 9am ET blackout window*
+
+#### Planning
+
+- Percentage of Users (and roughly how many users do you expect this to be): 2% of icns
+- Let run for 24 hours (or more)
+- Toggles set to:
+
+| Toggle name | Set to |
+| ----------- | ------ |
+| [event_bus_gateway_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_sms_notifications) | enabled |
+| [event_bus_gateway_letter_ready_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_letter_ready_sms_notifications) | enabled for 2% traffic |
+| [event_bus_gateway_retry_sms](https://api.va.gov/flipper/features/event_bus_gateway_retry_sms) | enabled |
+| [event_bus_gateway_sms_blackout](https://api.va.gov/flipper/features/event_bus_gateway_sms_blackout) | enabled |
+| [event_bus_gateway_sms_dry_run](https://api.va.gov/flipper/features/event_bus_gateway_sms_dry_run) | enabled |
+
+#### Results
+
+- Number of users: ___ sms notifications sent
+    - Turned on [TBD]
+- Metrics at this stage (per your "success criteria"):
+    - [ ] SMS logs between 9pm ET - 9am ET show
+      - [ ] "LetterReadySmsJob blocked during SMS blackout period"
+    - [ ] SMS logs between 9am ET - 9pm ET show
+      - [ ] "LetterReadySmsJob dry run - SMS not sent"
+    - [ ] *NO* SMS logs/stats show
+      - [ ] "LetterReadySmsJob sms skipped" (reason: 'ICN not available')
+      - [ ] event_bus_gateway.letter_ready_sms.success metric
+- Was any downstream service affected by the change?: 
+- Types of errors logged:
+- What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
+
 ### Stage A
 
 *Test a small Veteran population to ensure any obvious bugs/edge cases are found.*
@@ -74,6 +118,15 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 #### Planning
 
 - Percentage of Users (and roughly how many users do you expect this to be): 2% of icns
+- Toggles set to:
+
+| Toggle name | Set to |
+| ----------- | ------ |
+| [event_bus_gateway_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_sms_notifications) | enabled |
+| [event_bus_gateway_letter_ready_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_letter_ready_sms_notifications) | enabled for 2% traffic |
+| [event_bus_gateway_retry_sms](https://api.va.gov/flipper/features/event_bus_gateway_retry_sms) | enabled |
+| [event_bus_gateway_sms_blackout](https://api.va.gov/flipper/features/event_bus_gateway_sms_blackout) | enabled |
+| [event_bus_gateway_sms_dry_run](https://api.va.gov/flipper/features/event_bus_gateway_sms_dry_run) | disabled |
 
 #### Results
 
@@ -98,6 +151,15 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 #### Planning
 
 - Percentage of Users (and roughly how many users do you expect this to be): 10% of icns
+- Toggles set to:
+
+| Toggle name | Set to |
+| ----------- | ------ |
+| [event_bus_gateway_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_sms_notifications) | enabled |
+| [event_bus_gateway_letter_ready_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_letter_ready_sms_notifications) | enabled for 10% traffic |
+| [event_bus_gateway_retry_sms](https://api.va.gov/flipper/features/event_bus_gateway_retry_sms) | enabled |
+| [event_bus_gateway_sms_blackout](https://api.va.gov/flipper/features/event_bus_gateway_sms_blackout) | enabled |
+| [event_bus_gateway_sms_dry_run](https://api.va.gov/flipper/features/event_bus_gateway_sms_dry_run) | disabled |
 
 #### Results
 
@@ -122,6 +184,15 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 #### Planning
 
 - Percentage of Users (and roughly how many users do you expect this to be): 25% of icns
+- Toggles set to:
+
+| Toggle name | Set to |
+| ----------- | ------ |
+| [event_bus_gateway_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_sms_notifications) | enabled |
+| [event_bus_gateway_letter_ready_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_letter_ready_sms_notifications) | enabled for 25% traffic |
+| [event_bus_gateway_retry_sms](https://api.va.gov/flipper/features/event_bus_gateway_retry_sms) | enabled |
+| [event_bus_gateway_sms_blackout](https://api.va.gov/flipper/features/event_bus_gateway_sms_blackout) | enabled |
+| [event_bus_gateway_sms_dry_run](https://api.va.gov/flipper/features/event_bus_gateway_sms_dry_run) | disabled |
 
 #### Results
 
@@ -146,6 +217,15 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 #### Planning
 
 - Percentage of Users (and roughly how many users do you expect this to be): 50% of icns
+- Toggles set to:
+
+| Toggle name | Set to |
+| ----------- | ------ |
+| [event_bus_gateway_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_sms_notifications) | enabled |
+| [event_bus_gateway_letter_ready_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_letter_ready_sms_notifications) | enabled for 50% traffic |
+| [event_bus_gateway_retry_sms](https://api.va.gov/flipper/features/event_bus_gateway_retry_sms) | enabled |
+| [event_bus_gateway_sms_blackout](https://api.va.gov/flipper/features/event_bus_gateway_sms_blackout) | enabled |
+| [event_bus_gateway_sms_dry_run](https://api.va.gov/flipper/features/event_bus_gateway_sms_dry_run) | disabled |
 
 #### Results
 
@@ -170,6 +250,15 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 #### Planning
 
 - Percentage of Users (and roughly how many users do you expect this to be): 75% of icns
+- Toggles set to:
+
+| Toggle name | Set to |
+| ----------- | ------ |
+| [event_bus_gateway_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_sms_notifications) | enabled |
+| [event_bus_gateway_letter_ready_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_letter_ready_sms_notifications) | enabled for 75% traffic |
+| [event_bus_gateway_retry_sms](https://api.va.gov/flipper/features/event_bus_gateway_retry_sms) | enabled |
+| [event_bus_gateway_sms_blackout](https://api.va.gov/flipper/features/event_bus_gateway_sms_blackout) | enabled |
+| [event_bus_gateway_sms_dry_run](https://api.va.gov/flipper/features/event_bus_gateway_sms_dry_run) | disabled |
 
 #### Results
 
@@ -194,6 +283,15 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 #### Planning
 
 - Percentage of Users (and roughly how many users do you expect this to be): 100% of icns
+- Toggles set to:
+
+| Toggle name | Set to |
+| ----------- | ------ |
+| [event_bus_gateway_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_sms_notifications) | enabled |
+| [event_bus_gateway_letter_ready_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_letter_ready_sms_notifications) | enabled for 100% traffic |
+| [event_bus_gateway_retry_sms](https://api.va.gov/flipper/features/event_bus_gateway_retry_sms) | enabled |
+| [event_bus_gateway_sms_blackout](https://api.va.gov/flipper/features/event_bus_gateway_sms_blackout) | enabled |
+| [event_bus_gateway_sms_dry_run](https://api.va.gov/flipper/features/event_bus_gateway_sms_dry_run) | disabled |
 
 #### Results
 
@@ -213,7 +311,9 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
   
 ### Rollback process
 
-Rollback will be done by disabling feature flags. To disable all push notifications we will set `event_bus_gateway_letter_ready_sms_notifications` to 0%.  This will ensure that all push notifications are stopped. To be thorough we can also disable the other feature flags mentioned above.
+Rollback will be done by disabling feature flags. To disable all sms notifications we will set `event_bus_gateway_letter_ready_sms_notifications` to 0%.  This will ensure that all sms notifications are stopped. To be thorough we can also disable the other feature flags mentioned above.
+
+NOTE: You can also *enable* the event_bus_gateway_sms_dry_run flag, which will also stop all texts from going out, writing to logs instead
 
 ## Post Launch metrics
 

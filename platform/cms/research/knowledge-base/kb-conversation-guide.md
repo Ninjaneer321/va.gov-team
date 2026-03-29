@@ -1,3 +1,25 @@
+---
+type: conversation_guide
+study_name: Understanding CMS Editors' Knowledge Base Needs
+team: VFS-CMS
+product: CMS - Knowledge Base
+platform: CMS
+moderator: Joann
+date: "2023-12"
+research_method: Card sorting and semi-structured interviews
+session_type: moderated_remote
+session_duration_minutes: 60
+number_of_participants: 8-10
+tags:
+  - CMS
+  - knowledge-base
+  - information-architecture
+  - card-sorting
+  - editor-experience
+  - content-organization
+  - user-research
+---
+
 # Conversation Guide for Understanding CMS Editors’ Knowledge Base Needs 
 VFS-CMS December 2023
 ## Moderator logistics

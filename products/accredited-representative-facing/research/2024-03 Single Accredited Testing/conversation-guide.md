@@ -1,55 +1,40 @@
 ---
 title: "Conversation Guide for ARF Team, Accredited Representative Portal, Single Accredited VSO Testing, March 2024"
-author: "Renata Keck, Rebecca Blakiston, Kristen Faiferlick"
-date_created: "2024-03-20"
-last_modified: "2026-02-11"
-
-# NEW: Core research metadata
+type: "Conversation Guide"
+study_date: "2024-03-20"
+authors:
+  - "Renata Keck"
+  - "Rebecca Blakiston"
+  - "Kristen Faiferlick"
+tags:
+  - "AUD:VSO-Representatives"
+  - "AUD:Accredited-Representatives"
+  - "PRDT:Accredited-Representative-Portal"
+  - "PRDT:Form-21-22"
+  - "RESRCH:Usability"
+  - "RESRCH:Remote"
+  - "RESRCH:Moderated"
+  - "RESRCH:Prototype-testing"
+  - "BNFT:Power-of-Attorney"
+  - "DSC:Authentication"
+  - "DSC:Search-functionality"
+  - "DSC:Bulk-actions"
+  - "DSP:Dashboard"
+  - "DSP:Navigation"
+  - "HDW:Desktop"
 team: "Accredited Representative Facing (ARF) Team"
-portfolio: "benefits"
-product: "Accredited Representative Portal (ARP)"
-research_phase: "usability"
-research_method: "usability_test"
-
-# NEW: Session details
-session_duration: "75 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans Service Officers accredited with a single VSO whose primary role is working directly with Veterans and claimants, mixture of novice and experienced users"
-
-# NEW: Related documents
+portfolio: "Benefits"
+product:
+  - "Accredited Representative Portal"
+  - "Form 21-22"
+  - "Power of Attorney"
+research_round: "Single Accredited VSO Testing"
+participant_count: 8
+study_length: "75 minutes"
+date: "2024-03"
 related_research_plan: "/products/accredited-representative-facing/research/2024-03 Single Accredited Testing/research-plan.md"
 related_prototype: "https://www.figma.com/proto/C3sdnDf8anVqXVdmiCWwq8/%F0%9F%9A%A7-Accredited-Rep-Facing?page-id=0%3A146&type=design&node-id=437-34553&viewport=104%2C1305%2C0.05&t=NPr6SMchXdOO5N4R-8&scaling=min-zoom&starting-point-node-id=437%3A34553&hotspot-hints=0&hide-ui=1"
-
-tags:
-  - AUD-vso-representatives
-  - AUD-accredited-representatives
-  - PRDT-accredited-representative-portal
-  - PRDT-form-21-22
-  - power-of-attorney
-  - usability-testing
-  - semi-structured-interviews
-  - moderated-research
-  - remote-research
-  - prototype-testing
-  - single-accredited
-  - desktop
-  - authentication
-  - PIV-card
-  - search-functionality
-  - table-sort
-  - bulk-accept
-  - decline-request
-  - landing-page
-  - dashboard
-  - navigation
-  - find-a-rep
-  - SEP-replacement
 description: "Usability testing conversation guide for single-accredited Veterans Service Officers testing the ARP 21-22 accept/decline flow, including authentication, search/filter functionality, bulk actions, decline messaging, and navigation."
-
-# NEW: Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
 ---
 
 # Conversation Guide for ARF Team, Accredited Representative Portal, Single Accredited VSOfficers, 21-22 Accept/Decline User Testing, 03/2024

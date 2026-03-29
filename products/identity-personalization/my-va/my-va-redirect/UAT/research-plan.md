@@ -1,109 +1,126 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "My VA Redirect UAT, August 2022"
+date: 2022-08-01
+last_updated: 2022-08-01
+team: "Authenticated Experience"
+product: "My VA Redirect"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Improve personalization and access to action items by redirecting users to My VA when they log in from the homepage"
+  product_location: "My VA dashboard on VA.gov"
+  user_familiarity: "New feature - redirect from homepage to My VA"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/my-va-redirect/README.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "User Acceptance Testing (UAT) with usability questions"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Confirm that the redirect functions as expected for all login types and across devices"
+  - goal_2: "Evaluate how the redirect does or doesn't meet Veteran expectations"
+  - goal_3: "Test accessibility with screen reader users"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Does the functionality work as expected, for all login types and across devices?"
+  - "What do people want to do once they've landed on My VA?"
+  - "Are there any points of confusion?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will be able to more quickly access what is most important to them since they can bypass the homepage"
+  - "Veterans will not miss the homepage"
+  - "The most common next step will be clicking on a link we surface in My VA"
+  - "Veterans will use search if they can't find what they're looking for on My VA"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Confirm redirect works properly and meets user expectations before full rollout"
+
+tags:
+  - "authenticated-experience"
+  - "my-va"
+  - "personalization"
+  - "dashboard"
+  - "redirect"
+  - "login"
+  - "uat"
+  - "user-acceptance-testing"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Stratified sampling across login types and LOA levels"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "8 participants must be LOA3 (identity verified)"
+    - "6 participants must be LOA1 (not identity verified)"
+    - "5 participants using My HealtheVet login"
+    - "5 participants using DS Logon"
+    - "4 participants using ID.me or Login.gov"
+    - "8 participants on mobile devices (non-laptop/desktop)"
+    - "At least 4 participants using screen readers"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 7 participants identify as having cognitive disability"
+    - "At least 6 participants older than 55"
+    - "Diverse demographics across gender, race, geography, education"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you willing to share your screen after you log in to VA.gov where information about your benefits will be visible?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 14
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 14
+  completed_sessions_goal: 7
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-07-31"
+  pilot_participant: "TBD"
+  research_dates: "2022-08-01 to 2022-08-05"
+  research_review_submission: "2022-07-22"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 30
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "My VA as one-stop shop for action items and benefit status"
+  - objective: "Logged-in users can update their personal information easily and instantly"
     key_results:
-      - "[Specific KR if applicable]"
+      - "More direct, personalized routes to critical updates and tasks"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va/2.0-redesign"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "my-va"
+  - "redirect"
+  - "uat"
+  - "authenticated-experience"
+  - "accessibility"
 ---
 
 # Research Plan for Authenticated Experience, My VA Redirect UAT, August 2022

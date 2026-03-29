@@ -4,7 +4,6 @@
 - Team GitHub Labels:
   - Liferay/SM Clinician Portal
   - Liferay/SM Admin Portal
-  - Liferay Admin Portal
   - Liferay National Portal
 - Slack channel: mhv-liferay-portals
 - Product POCs: 
@@ -32,9 +31,11 @@ Veterans and VA Staff use Secure Messaging to communicate, and Liferay portals s
 ## Requirements
 #### In Scope 
 - Response to any Liferay needs
+- Clinician facing issues
+- Admin facing issues
 
 #### Out of Scope
-- 
+- Patient facing issues
 
 
 ## KPIs
@@ -50,7 +51,7 @@ Veterans and VA Staff use Secure Messaging to communicate, and Liferay portals s
 
 ## Team
 
-- OCTO PO: ??
-- Product Manager: Bryan Ivie (Ad Hoc)
-- FE Engineer: Elwood Gary (Agile Six)
+- OCTO PO: Becky Phung
+- Product Manager: Raul Retamoza (Ad Hoc)
+- FE Engineer: 
 - BE Engineer: Clint Wilde (Doc360)

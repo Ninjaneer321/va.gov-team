@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for identity, identity, 2026-03-23"
+author: VA Team
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "identity"
+portfolio: "Identity"
+product: "identity"
+research_phase: "Generative"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "MHV Coordinators"
+
+# Related documents
+related_research_plan: "Production Test Accounts Research Plan"
+related_prototype: "N/A"
+
+tags:
+  - identity
+  - test-accounts
+  - MHV-coordinators
+  - training
+  - conversation-guide
+description: "MHV Coordinators conversation guide for test accounts training"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide: Production Test Account Usage for VA.gov Training & Troubleshooting
 
 **Study Focus**: Understanding how MHV coordinators use Production Test Accounts (PTAs) for training Veterans on VA.gov navigation and troubleshooting

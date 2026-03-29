@@ -1,66 +1,65 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience, Comparative Analysis, May 2021"
+date: 2021-05-01
+last_updated: 2021-05-01
+team: "Authenticated Experience"
+product: "Personalization"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Team needs to expand knowledge on best practices in personalized and authenticated experiences across government and private sector."
+  product_location: "VA.gov authenticated experience, profile, and dashboard"
+  user_familiarity: "Comparative research to inform existing products"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "comparative analysis"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand best practices in personalization across civic services and private sector"
+  - goal_2: "Document profile and dashboard conventions and patterns"
+  - goal_3: "Identify opportunities to improve VA.gov authenticated experience"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What is different about personalization of civic services compared to the private sector?"
+  - "How do sites commonly show user information in a logged-in state?"
+  - "How do sites encourage profile completeness and handle removing/deleting information?"
+  - "What information typically lives on a profile vs. a dashboard?"
+  - "What action items are most typically shown and how are they prioritized?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Government sites will have similar personalization patterns to private sector but with additional considerations"
+  - "There will be consistent patterns for profile vs. dashboard information across sites"
+  - "Action items will be prominently displayed and prioritized by urgency"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Create knowledge base of best practices to inform improvements to VA.gov authenticated experience, profile, and dashboard."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "N/A - comparative analysis"
+  approach: "Analysis of existing websites and services"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Sites in government, banking, student loans, and insurance industries"
+    - "Sites with authenticated user experiences"
+    - "Desktop and mobile versions"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Sites frequently mentioned by veterans in research"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "N/A"
+      qualifying_response: "N/A"
       
 participants:
   veterans: 0
@@ -71,39 +70,41 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: ""
+  pilot_participant: ""
+  research_dates: "2021-05-01 to 2021-06-30"
+  research_review_submission: ""
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 0
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Improve authenticated experience through personalization"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Inform best practices for VA.gov personalized features"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Personalization 2.0 discovery research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "authenticated"
+  - "comparative-analysis"
+  - "discovery"
+  - "personalization"
+  - "profile"
+  - "dashboard"
 ---
 
 Auth Experience Comparative Analysis

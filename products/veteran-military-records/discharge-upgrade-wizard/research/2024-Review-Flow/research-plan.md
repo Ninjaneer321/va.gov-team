@@ -1,11 +1,11 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Discharge Upgrade Wizard Review Flow, 2024"
+date: 2024-08-01
+last_updated: 2024-08-01
+team: "Benefits Team"
+product: "Discharge Upgrade Wizard"
+product_area: "unauthenticated"
 
 # Background Context
 background:
@@ -15,7 +15,7 @@ background:
   product_brief_url: "[URL]"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
@@ -100,10 +100,11 @@ related_research:
     - "[Link to related past research]"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "discharge-upgrade-wizard"
+  - "usability-testing"
+  - "review-flow"
+  - "BNFT: discharge-upgrade"
+  - "AUD: Veterans"
 ---
 
 # Research Plan for Public Websites, Discharge Upgrade Wizard, October 2024

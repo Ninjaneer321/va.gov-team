@@ -1,11 +1,11 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for My Education Benefits, DGIB-MEB Interviews, 2024"
+date: 2024-05-01
+last_updated: 2024-05-01
+team: "My Education Benefits Team"
+product: "My Education Benefits"
+product_area: "authenticated"
 
 # Background Context
 background:
@@ -15,7 +15,7 @@ background:
   product_brief_url: "[URL]"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
@@ -100,10 +100,11 @@ related_research:
     - "[Link to related past research]"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "education-benefits"
+  - "DGIB"
+  - "MEB"
+  - "semi-structured-interviews"
+  - "AUD: Veterans"
 ---
 
 # Research Plan for DGIB, My Education Benefits, May 2023

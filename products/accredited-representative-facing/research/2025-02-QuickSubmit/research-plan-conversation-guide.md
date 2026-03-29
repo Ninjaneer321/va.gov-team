@@ -1,20 +1,20 @@
 ---
 title: "Conversation Guide for ARF, QuickSubmit Review for ARP, February 2025"
-author: "Laura Paradis"
-date_created: "2025-02-05"
-last_modified: "2025-02-24"
+author: "Accredited Representative Facing Team"
+date_created: "2025-02-01"
+last_modified: "2026-03-24"
 
 # Core research metadata
 team: "Accredited Representative Facing (ARF)"
 portfolio: "benefits"
 product: "Accredited Representative Portal (ARP)"
 research_phase: "discovery"
-research_method: "semi-structured-interviews"
+research_method: "semi_structured_interview"
 
 # Session details
-session_duration: "30 minutes"
+session_duration: "60 minutes"
 session_type: "remote_moderated"
-participant_criteria: "VSO representatives (accredited) who use QuickSubmit to submit claims and evidence on behalf of Veterans"
+participant_criteria: "VSO representatives who use QuickSubmit to submit claims on behalf of Veterans"
 
 # Related documents
 related_research_plan: "products/accredited-representative-facing/research/2025-02-QuickSubmit/research-plan-conversation-guide.md"
@@ -22,15 +22,18 @@ related_prototype: "N/A"
 
 tags:
   - "AUD: Accredited Representatives"
-  - "BNFT: Disability"
   - "PRDT: Accredited Representative Portal"
+  - "PRDT: ARP"
   - "PRDT: QuickSubmit"
-  - "semi-structured-interviews"
+  - "research"
   - "discovery"
+  - "semi-structured-interviews"
+  - "VSO"
+  - "PDF-upload"
   - "claims-submission"
-  - "authenticated"
+  - "remote-moderated"
 
-description: "Discovery research with VSO representatives to understand QuickSubmit functionality and pain points to inform the PDF download/upload tool design in the Accredited Representative Portal."
+description: "Discovery research with VSO representatives to understand current QuickSubmit functionality usage and inform ARP PDF download/upload tool design."
 
 # Compliance flags
 recording_required: true

@@ -1,31 +1,37 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: On-Site Search Research Study, January 2021"
+author: "Megan Gayle"
+date_created: "2021-01-01"
+last_modified: "2021-01-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Search & Discovery"
+portfolio: "digital-experience"
+product: "On-Site Search"
+research_phase: "evaluative"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "40 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans currently receiving VA benefits"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/on-site-search/research/user-research/research-study-jan-2021/research-plan.md"
+related_prototype: "VA.gov search functionality"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: On-site-search"
+  - "PRDT: Search"
+  - "evaluative-research"
+  - "semi-structured-interviews"
+  - "usability-testing"
+  - "search-behavior"
+  - "findability"
+description: "Evaluative research conversation guide for on-site search, understanding Veteran experiences finding VA-related information on VA.gov."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

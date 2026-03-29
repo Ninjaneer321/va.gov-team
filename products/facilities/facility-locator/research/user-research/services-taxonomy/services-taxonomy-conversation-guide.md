@@ -1,36 +1,33 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: Services Taxonomy Conversation Guide
+author: Nick Osmanski
+date_created: "2021-11-01"
+last_modified: "2021-11-12"
+team: Facilities Team
+portfolio: health
+product: Facility Locator
+research_phase: discovery
+research_method: card_sorting
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: Veterans with VA health care experience
+related_research_plan: products/facilities/facility-locator/research/user-research/services-taxonomy/research-plan.md
+related_prototype: N/A
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+  - card-sorting
+  - facilities
+  - facility-locator
+  - health-services
+  - information-architecture
+  - service-taxonomy
+  - usability-testing
+  - VAMC
+description: Card sorting study to understand how Veterans categorize VA health services to improve service taxonomy and findability in Facility Locator.
 recording_required: true
 observer_support: true
 consent_for_clips: true
+date: "2021-11"
 ---
-
 # Services Taxonomy Conversation Guide
 
 [Reviewed by Lauren Alexanderson on 11/12/21]

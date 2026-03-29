@@ -1,59 +1,41 @@
 ---
 title: "Conversation Guide for ARF Team, Accredited Representative Portal, NACVSO Intercept Testing, May 2024"
-author: "Renata Keck, Rebecca Blakiston"
-date_created: "2024-05-06"
-last_modified: "2026-02-11"
-
-# NEW: Core research metadata
+type: "Conversation Guide"
+study_date: "2024-05-06"
+authors:
+  - "Renata Keck"
+  - "Rebecca Blakiston"
+tags:
+  - "AUD:VSO-Representatives"
+  - "AUD:Accredited-Representatives"
+  - "AUD:County-VSO"
+  - "PRDT:Accredited-Representative-Portal"
+  - "PRDT:Form-21-22"
+  - "RESRCH:Intercept-testing"
+  - "RESRCH:In-person"
+  - "RESRCH:Semi-structured-interviews"
+  - "RESRCH:Usability"
+  - "RESRCH:Preference-testing"
+  - "BNFT:Power-of-Attorney"
+  - "DSC:Search-filter"
+  - "DSC:Bulk-actions"
+  - "DSP:Navigation"
+  - "DSP:Homepage"
+  - "HDW:Mobile"
+  - "HDW:Tablet"
 team: "Accredited Representative Facing (ARF) Team"
-portfolio: "benefits"
-product: "Accredited Representative Portal (ARP)"
-research_phase: "validation"
-research_method: "semi-structured-interviews"
-
-# NEW: Session details
-session_duration: "30 minutes"
-session_type: "in_person"
-participant_criteria: "County Veterans Service Officers attending NACVSO conference, mix of cross-accredited and single-accredited representatives, SEP users with various permission levels"
-
-# NEW: Related documents
+portfolio: "Benefits"
+product:
+  - "Accredited Representative Portal"
+  - "Form 21-22"
+  - "Find a Representative"
+research_round: "NACVSO Conference Intercept Testing"
+participant_count: 20
+study_length: "30 minutes"
+date: "2024-05"
 related_research_plan: "/products/accredited-representative-facing/research/2024-05 NACVSO/research-plan.md"
 related_prototype: "https://www.figma.com/proto/Cj48OstdxhxbnMoEb4pQmv/ARF---NACVSO-Assets"
-
-tags:
-  - AUD-vso-representatives
-  - AUD-accredited-representatives
-  - AUD-county-vso
-  - PRDT-accredited-representative-portal
-  - PRDT-form-21-22
-  - power-of-attorney
-  - semi-structured-interviews
-  - preference-testing
-  - usability-testing
-  - field-observation
-  - in-person
-  - intercept-testing
-  - mobile-testing
-  - HDW-mobile
-  - HDW-tablet
-  - cross-accredited
-  - county-vso
-  - NACVSO
-  - claims-clinic
-  - search-filter
-  - navigation
-  - bulk-actions
-  - decline-messaging
-  - homepage
-  - find-a-rep
-  - talk-back-boards
-  - SEP-users
 description: "In-person intercept testing conversation guide at NACVSO conference with county VSOs including semi-structured interviews, preference testing of homepage/navigation/decline flows, mobile usability testing, claims clinic observations, and Find a Representative feedback."
-
-# NEW: Compliance flags
-recording_required: false
-observer_support: true
-consent_for_clips: false
 ---
 
 # Conversation Guide for ARF Team, Accredited Representative Portal, NACVSO Intercept Testing, 05/2024

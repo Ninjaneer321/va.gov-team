@@ -1,3 +1,35 @@
+---
+title: "Conversation Guide for va-notify, va-notify, 2026-03-23"
+author: VA Team
+date_created: "2026-03-23"
+last_modified: "2026-03-23"
+
+# Core research metadata
+team: "va-notify"
+portfolio: "TBD"
+product: "va-notify"
+research_phase: "TBD"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "TBD"
+
+# Related documents
+related_research_plan: "TBD"
+related_prototype: "N/A"
+
+tags:
+  - "TBD"
+description: "TBD"
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 ﻿
 # Conversation Guide: API Key Management Prototype
 ## Session Overview

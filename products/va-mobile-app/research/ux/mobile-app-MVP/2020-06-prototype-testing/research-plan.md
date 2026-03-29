@@ -1,10 +1,38 @@
 ---
-# Research Plan Metadata
 title: "Research Plan for VA Mobile App MVP Prototype Testing, June 2020"
-date: 2020-06-08
+type: "Research Plan"
+study_date: "2020-06-08"
+authors:
+  - "Bridget Hapner"
+  - "Sophie Myers"
+tags:
+  - "AUD: Veterans"
+  - "PRDT: VA Mobile App"
+  - "PRDT: VA Health and Benefits App"
+  - "RESRCH: Usability Testing"
+  - "RESRCH: Co-Design"
+  - "RESRCH: Remote"
+  - "RESRCH: Prototype"
+  - "DSC: Notifications"
+  - "DSC: Biometric Sign-In"
+  - "DSP: Claims Status"
+  - "DSP: Health Services"
+  - "MVP"
+  - "Mobile"
+team: "VA Mobile App - Team Hummingbird"
+portfolio: "Mobile"
+product:
+  - "VA Mobile App"
+  - "VA Health and Benefits"
+research_round: "MVP prototype testing"
+participant_count: 10
+study_length: "60 minutes"
+date: "2020-06"
+# Research Plan Metadata (legacy)
+legacy_date: 2020-06-08
 last_updated: 2026-02-10
-team: "Team Hummingbird"
-product: "VA Mobile App"
+legacy_team: "Team Hummingbird"
+legacy_product: "VA Mobile App"
 product_area: "authenticated"
 
 # Background Context

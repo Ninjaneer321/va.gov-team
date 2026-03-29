@@ -251,6 +251,7 @@ If that is not viable, we will likely pursue enhancing or extending existing API
   - Performance
   - Implementation complexity
 
-
+## Notes Post ADR Presentation to Stakeholders and API Team and the above meetings
+- 3/26/2026 Mark and Kay said that CXI discussions were going very slowly so at this point we are dropping that option and moving forward with option #2 where the API Team Builds or updates the endpoint for get facilities.
 
 

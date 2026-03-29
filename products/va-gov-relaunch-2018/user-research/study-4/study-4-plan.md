@@ -1,109 +1,109 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VA.gov Relaunch 2018, Navigation Tree Test, Study 4, June 2018"
+date: 2018-06-04
+last_updated: 2018-06-04
+team: "VA.gov Relaunch 2018"
+product: "VA.gov Global Navigation"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Validate if the consolidated, Veterans-first navigation strategy works for a global VA navigation and if other audiences (family, caregivers, VSO, etc.) can find what they need"
+  product_location: "VA.gov global navigation"
+  user_familiarity: "New navigation structure for VA.gov relaunch"
+  product_brief_url: "TBD"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "tree test"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: false # Options: true, false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Find out if the consolidated, Veterans-first navigation works for a global VA navigation strategy"
+  - goal_2: "Validate if the link labels are valid and intuitive"
+  - goal_3: "Assess whether other audiences (family, caregivers, VSO, etc.) can find what they need"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Does our new strategy (Health and Benefits, About VA, Locations) work for Veterans?"
+  - "Are the link labels valid and intuitive?"
+  - "Will the mega menu headings provide value or distract users?"
+  - "Can other audiences (family, caregivers, VSO, etc) find what they need?"
+  - "Does the About section work as designed?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The consolidated, Veterans-first navigation will work effectively for Veterans"
+  - "Link labels will be intuitive and clear for users"
+  - "Multiple audiences including family, caregivers, and VSO workers will successfully find what they need"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validation of the new navigation strategy for VA.gov relaunch and buy-in from VSO stakeholders"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Chip Harman / MyHealtheVet mailing list / OIT Comms / VSO organizations"
+  approach: "mass email recruitment to achieve hundreds of responses"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans"
+    - "Family members"
+    - "Caregivers"
+    - "VSO workers"
+    - "Other stakeholders"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "High volume of responses to ensure statistical significance"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Demographic questions from Studies 1 & 2"
+      qualifying_response: "Varied"
       
 participants:
-  veterans: 0
-  caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  veterans: TBD
+  caregivers: TBD
+  dependents: TBD
+  total_recruited: TBD
+  completed_sessions_goal: 1000
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "N/A - unmoderated study"
+  research_dates: "2018-06-18 to 2018-06-22"
+  research_review_submission: "TBD"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: TBD
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans and their families can find VA services more easily"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Validated navigation structure for VA.gov relaunch"
+  - objective: "Multiple audiences can successfully navigate VA.gov"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Positive task completion rates for Veterans, family, caregivers, and VSO workers"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "All phases - navigation is used throughout the entire Veteran journey"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Study 1 and Study 2 from VA.gov Relaunch 2018"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "navigation"
+  - "tree-test"
+  - "unmoderated"
+  - "information-architecture"
 ---
 
 # Study 4 - Navigation Tree Test

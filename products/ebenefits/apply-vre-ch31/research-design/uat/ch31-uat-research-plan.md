@@ -1,110 +1,55 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "User Acceptability Testing (UAT) for VA Form-28-1900 (Chapter 31)"
+date: 2021-02-01
+last_updated: 2026-03-23
+team: "eBenefits"
+product: "Veteran Readiness and Employment (Chapter 31)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans with service-connected disabilities need to apply for Chapter 31 VR&E benefits through VA Form 28-1900. Currently requires paper form, eBenefits, or working with VSOs. Need to test new digital form on VA.gov in production environment."
+  product_location: "VA.gov"
+  user_familiarity: "New product - migrating from eBenefits to VA.gov"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ebenefits/apply-vre-ch31"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
-  
+methodology: "User Acceptance Testing"
+research_format:
+  location: remote
+  moderated: true
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine if the new VR&E form, wizard and orientation module are intuitive and functional for users"
+  - goal_2: "Validate that users can successfully navigate through screening wizard and orientation"
+  - goal_3: "Ensure forms successfully submit for processing in production environment"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can users step through the screening wizard successfully?"
+  - "Can users review the orientation module and watch selected VR&E track videos?"
+  - "Can users navigate the form and submit it successfully?"
+  - "Does the form successfully submit for processing?"
 
-hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+# Methodology Details
+research_type: "Evaluative"
+session_format: "Remote moderated UAT sessions"
+timeline: "2021-04-12 to 2021-04-16"
 
-expected_outcomes: "[How will findings advance the product?]"
+# Participants
+participant_count: 3
+recruitment_criteria: "Veterans, service members, or dependents with a disability rating who need to submit a 28-1900 to receive CH31 benefits"
 
-# Recruitment & Participants
-recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
-  
-  primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
-    
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
-participants:
-  veterans: 0
-  caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
-# Timeline & Sessions
-timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
-  
-session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
-  
-# Strategic Alignment
-octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
-      
-veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
-# Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
-tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+# Team
+moderator: "James Adams"
+notetaker: "Various"
+observers: "Steve Kovacs, Jason Wolf, Kathleen Crawford, Derek Dyer, Micah Chiang, Jesse Cohn"
+
+# Tags
+tags: ['research', 'UAT', 'ebenefits', 'chapter-31', 'VRE', 'form-28-1900', 'wizard', 'orientation', 'authenticated', 'research-plan']
 ---
+
 
 # Research plan for user acceptability testing (UAT) for VA Form-28-1900 (Chapter 31) / production environment
 **VSA eBenefits Team | February 2021**

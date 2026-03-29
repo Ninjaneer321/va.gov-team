@@ -1,43 +1,28 @@
 ---
-title: "VSR Conversation Guide for Disability Benefits Core Form Team, Form 21-686c Fully Digital Form Viewer MVP Usability Testing, November 2025"
-author: "Disability Benefits Core Form Team"
-date_created: "2025-11-01"
-last_modified: "2025-11-01"
-
-# NEW: Core research metadata
-team: "Disability Benefits Core Form Team"
-portfolio: "benefits"
-product: "Form 21-686c (Declaration of Status of Dependents)"
-research_phase: "usability"
-research_method: "moderated_usability_test"
-
-# NEW: Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "VA VSRs (Veteran Service Representatives) and claims agents who adjudicate Form 686c in VBMS"
-
-# NEW: Related documents
-related_research_plan: "products/disability/526ez/research/2025-11-686c-Fully-Digital-Form-Viewer-MVP-Usability-Testing/research-plan.md"
-related_prototype: "https://tinyurl.com/FDFVSR"
-
+title: Conversation Guide for Benefits Disability Experience, 686c Digital Form Viewer
+  for VSRs, 2025 11
+author: Evelyn Hilbrich Davis
+date_created: '2025-11-01'
+last_modified: '2025-11-01'
+team: Benefits Disability Experience
+portfolio: benefits
+product: 686c Digital Form Viewer for VSRs
+research_phase: usability
+research_method: usability_test
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: Veterans Service Representatives (VSRs) who process 686c forms
+related_research_plan: products/disability/526ez/research/2025-11-686c-Fully-Digital-Form-Viewer-MVP-Usability-Testing/research-plan.md
+related_prototype: N/A
 tags:
-  - "AUD: Claims Agents"
-  - "AUD: VSRs"
-  - "BNFT: Disability"
-  - "PRDT: 21-686c"
-  - "DSC: Navigation"
-  - "DSC: Accordions"
-  - "DSP: Form Pattern"
-  - "Research"
-  - "Usability Testing"
-  - "VBMS"
-  - "Fully Digital Forms"
-  - "Claims Processing"
-  - "Form Viewer"
-  - "Dependent Management"
-description: "Shorthand moderator guide for VSR usability testing of Form 21-686c fully digital form viewer MVP in VBMS, evaluating formatting, navigation, content organization, and comparison to current PDF workflow."
-
-# NEW: Compliance flags
+- 686c
+- digital-form-viewer
+- VSR
+- internal-tools
+- usability-testing
+- shorthand
+description: Shorthand conversation guide for VSR testing of 686c digital form viewer
+  MVP.
 recording_required: true
 observer_support: true
 consent_for_clips: true

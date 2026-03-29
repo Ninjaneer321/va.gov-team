@@ -1,6 +1,6 @@
 ---
 title: "Conversation Guide for Login.gov Adoption Team, Deferred Identity Proofing Round 1 Usability (Prototype #1), March 2023"
-author: "TBD"
+author: Login.gov Adoption Team
 date_created: "2023-02-01"
 last_modified: "2026-02-11"
 

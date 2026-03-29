@@ -1,109 +1,114 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Beneficiary Travel, SMOC UAT Beta, March 2025"
+date: 2025-03-01
+last_updated: 2025-03-01
+team: "Beneficiary Travel Pay Team"
+product: "Simple Mileage Only Claims (SMOC)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Enable users to submit simple mileage-only claims on VA.gov. UAT will ensure build functions as designed in key scenarios before broader rollout."
+  product_location: "VA.gov Travel Pay"
+  user_familiarity: "New feature - first implementation of claim submission on VA.gov"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "user acceptance testing (UAT)"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate build functions as designed for simple mileage-only claim scenarios"
+  - goal_2: "Test entry points and navigation for new and established claimants"
+  - goal_3: "Identify API transfer failures and technical issues before production rollout"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can users find where to submit simple mileage-only claims on VA.gov?"
+  - "Can new claimants successfully submit a claim?"
+  - "Can established claimants successfully submit a claim?"
+  - "Does redirect to BTSSS work for ineligible claims?"
+  - "Can users identify eligible appointments for travel reimbursement?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will be able to successfully submit simple mileage-only claims"
+  - "Entry points will be discoverable for both new and established claimants"
+  - "Redirect mechanism will work smoothly for ineligible scenarios"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validated technical build with documented issues addressed before production rollout to ensure smooth user experience"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "targeted recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who have submitted travel claims (established claimants)"
+    - "Veterans who have not submitted travel claims (new claimants)"
+    - "Must have upcoming or recent VA appointments"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mix of desktop and mobile users"
+    - "Various technical comfort levels"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you submitted a travel reimbursement claim to VA before?"
+      qualifying_response: "Mix of yes and no responses"
+    - question: "Do you have recent or upcoming VA appointments?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 8
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-03-10"
+  pilot_participant: "TBD"
+  research_dates: "2025-03-15 to 2025-03-28"
+  research_review_submission: "2025-03-01"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 15
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Our digital experiences are the best way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "CSAT for our web products have increased by 5 points"
+      - "All new products have faster transaction time than those they replaced"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Beneficiary travel previous research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "beneficiary-travel"
+  - "UAT"
+  - "veterans"
+  - "evaluative"
+  - "travel-pay"
+  - "SMOC"
+  - "claim-submission"
 ---
 
 ## **SMOC UAT Beta**

@@ -1,109 +1,109 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Dragons, Personalization 2.0 Card Sort, July 2019"
+date: 2019-07-22
+last_updated: 2019-07-22
+team: "Dragons"
+product: "Personalization 2.0"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Need to understand veterans' mental models for organizing personalized features and where they expect to find this information on VA.gov."
+  product_location: "VA.gov authenticated experience - My VA dashboard, profile, and account settings"
+  user_familiarity: "Iteration - evaluating and reorganizing existing personalized products launched in spring 2018"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "card sort"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand how veterans group different personalized features"
+  - goal_2: "Identify what language veterans expect for categorizing groups of features"
+  - goal_3: "Determine whether to combine existing profile and account settings pages"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How would veterans group different personalized features?"
+  - "What language are veterans expecting for categorizing features (eg. profile, dashboard, settings, my stuff)?"
+  - "How should we organize features that don't yet exist (eg. notifications, direct deposit)?"
+  - "Should we organize applications in their own category or in benefit specific categories?"
+  - "Should we combine the existing profile and account settings pages?"
+  - "Should My VA dashboard, profile, and account settings be reorganized into one experience?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "We will find that we want to combine profile and account settings into one section"
+  - "In a larger personalized section, there will be sub sections more granular than singular profile and account settings"
+  - "Direct deposit should be under a settings page, not a profile"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Results will inform the reorganization and information architecture of personalized features on VA.gov to better match veterans' mental models."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "MHV newsletter or VA social media"
+  approach: "Open card sort distributed to VA.gov users"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "VA.gov users or users of VA properties (MHV, eBenefits)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse veteran population"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you use VA.gov, MHV, or eBenefits?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 50
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 50
+  completed_sessions_goal: 30
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2019-07-22"
+  pilot_participant: "Team member"
+  research_dates: "2019-07-29 to 2019-08-12"
+  research_review_submission: ""
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 20
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Improve authenticated experience through better information architecture"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Personalized features align with veteran mental models"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Dashboard interviews - Personalization 2.0 discovery"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "authenticated"
+  - "card-sort"
+  - "discovery"
+  - "personalization"
+  - "information-architecture"
+  - "unmoderated"
 ---
 
 # Research plan for Dragons: Personalization 2.0 card sort

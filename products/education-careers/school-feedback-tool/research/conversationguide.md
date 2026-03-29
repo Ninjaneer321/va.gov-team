@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for Education, GI Bill School Feedback Tool Research, 2018"
+author: "Mariam Mayanja"
+date_created: "2018-01-01"
+last_modified: "2018-01-01"
+
+# Core research metadata
+team: "Education Services"
+portfolio: "benefits"
+product: "GI Bill School Feedback Tool"
+research_phase: "usability"
+research_method: "usability_test"
+
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans using or planning to use GI Bill benefits at educational institutions"
+
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://www.benefits.va.gov/GIBILL/Feedback.asp"
+
+tags:
+  - "education"
+  - "GI-Bill"
+  - "feedback-tool"
+  - "complaint-tool"
+  - "usability-testing"
+description: "Usability testing of GI Bill School Feedback Tool to understand how Veterans submit complaints about educational institutions and identify areas for improvement."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: false
+---
+
 # Conversation Guide
 ## Moderator Logistics
 

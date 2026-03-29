@@ -92,18 +92,26 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/release-plan/detailed-release-notes/lorota-security-updates.md"
     
 tags:
-  - "AUD: Veterans"
-  - "BNFT: Healthcare"
-  - "PRDT: Check-in"
-  - "DSC: Form"
-  - "DSP: Ask users for dates"
-  - "DSC: Memorable date"
-  - "DSC: Text input"
+  - "HCE"
+  - "PCI"
+  - "health-care"
+  - "patient-check-in"
+  - "check-in"
+  - "LoROTA"
+  - "identity-verification"
   - "authentication"
-  - "security"
   - "A/B-testing"
   - "phased-rollout"
-  - "identity-verification"
+  - "security"
+  - "date-of-birth"
+  - "SSN"
+  - "production-testing"
+  - "evaluative"
+  - "unmoderated"
+  - "mobile"
+  - "UAT"
+study: Patient Check In ID Verification - SSN4 Text Input vs. Date of Birth (DoB) Memorable Date Comparison
+type: UAT
 ---
 
 # Research Plan - 2022-10 Patient Check In ID Verification - SSN4 Text Input vs. Date of Birth (DoB) Memorable Date Comparison

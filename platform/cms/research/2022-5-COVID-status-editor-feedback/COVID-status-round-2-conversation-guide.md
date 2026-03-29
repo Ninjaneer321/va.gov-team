@@ -1,3 +1,25 @@
+---
+type: conversation_guide
+study_name: COVID Facility Operating Status Round 2 Editor Feedback
+team: VFS-CMS
+product: CMS - COVID Facility Operating Status
+platform: CMS
+moderator: VFS-CMS team
+date: "2022-06"
+research_method: Semi-structured interviews
+session_type: moderated_remote
+session_duration_minutes: 30
+number_of_participants: 6-8
+tags:
+  - CMS
+  - COVID-19
+  - facility-operating-status
+  - VAMC
+  - editor-feedback
+  - health-protection-guidelines
+  - content-management
+---
+
 # Conversation Guide for COVID Facility Operating Status – June/July 2022
 
 ## Moderator logistics

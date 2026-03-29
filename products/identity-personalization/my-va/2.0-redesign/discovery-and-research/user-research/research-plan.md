@@ -1,109 +1,123 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Logged-in Homepage Co-Design Study, May 2020"
+date: 2020-05-01
+last_updated: 2020-05-01
+team: "Authenticated Experience"
+product: "Logged-in Homepage"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Consolidate My VA and logged-in homepage to treat the logged-in homepage as a user's personalized landing pad and router"
+  product_location: "VA.gov logged-in homepage"
+  user_familiarity: "Consolidation of existing pages"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/logged-in-homepage/2.0-redesign/README.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Remote moderated co-design exercise with card sort backup"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand why Veterans log in to VA.gov currently and their expectations for the future"
+  - goal_2: "Determine what people think the difference should be between profile and dashboard/logged-in homepage"
+  - goal_3: "Learn what types of notifications people expect to see and where they expect to see them"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Why do participants log in to VA.gov?"
+  - "What do people think the difference should be between the profile and dashboard/logged-in homepage?"
+  - "What content do people expect to see in either section?"
+  - "What types of notifications do people expect to see?"
+  - "Where do people expect to see/receive notifications?"
+  - "How do we balance notification info, widgets, and links into tools?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will see their logged-in homepage as a dashboard where they see personal information influenced by VA"
+  - "Veterans will see their profile as a place to see personal information in their control"
+  - "There will be some content items whose ideal location will not be clear cut"
+  - "The content Veterans expect to see will mostly be items they can take action on"
+  - "Veterans will expect to see notifications in some kind of notification specific area"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Inform next phase of design work for consolidated logged-in homepage experience"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who log into VA.gov"
+    - "Must be able to participate via desktop device"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 3 women"
+    - "At least 3 non-Caucasian"
+    - "Diverse age groups and education levels"
+    - "At least 1 participant with identified cognitive impairments and/or functional disabilities"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you log into VA.gov?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 15
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-05-07"
+  pilot_participant: "Selina Cooper"
+  research_dates: "2020-05-11 to 2020-05-15"
+  research_review_submission: "2020-05-06"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 15
+  max_sessions_per_day: 8
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Consolidated logged-in experience"
+  - objective: "Logged-in users can update their personal information easily and instantly"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Improved personalized homepage"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/personalization%202.0/discovery-research/dashboard-interviews/research-summary.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - logged-in-homepage
+  - my-va
+  - co-design
+  - card-sort
+  - authenticated-experience
+  - personalization
+  - dashboard
+  - profile
+  - notifications
+  - widgets
+  - user-research
+  - research-plan
 ---
 
 Research Plan for Authenticated Experience team, Logged-in homepage, May 2020

@@ -1,10 +1,10 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
+title: "Research Plan for VSP Platform, VFS User Journey Gaps and Pain Points, 2019"
+date: 2019-10-15
+last_updated: 2019-10-15
+team: "VSP Platform Team"
+product: "VFS User Journey"
 product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
@@ -15,7 +15,7 @@ background:
   product_brief_url: "[URL]"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "mixed-methods: survey and moderated interviews"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
@@ -100,10 +100,13 @@ related_research:
     - "[Link to related past research]"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "VSP"
+  - "platform"
+  - "user-journey"
+  - "VFS-teams"
+  - "pain-points"
+  - "semi-structured-interviews"
+  - "survey"
 ---
 
 # Research Plan - VFS User Journey Gaps and Pain Points

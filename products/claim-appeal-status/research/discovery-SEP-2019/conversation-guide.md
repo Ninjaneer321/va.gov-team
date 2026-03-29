@@ -1,39 +1,24 @@
 ---
-title: "Conversation Guide for Claim Status Tool Discovery Research, September 2019"
-author: "Unknown"
-date_created: "2019-09-01"
-last_modified: "2026-02-11"
-
-# Core research metadata
-team: "Benefits and Appeals"
-portfolio: "benefits"
-product: "Claim Status Tool"
-research_phase: "usability"
-research_method: "usability_test"
-
-# Session details
-session_duration: "45 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans who have filed disability claims and/or appeals with the VA"
-
-# Related documents
-related_research_plan: "./research-plan.md"
-related_prototype: "https://vsateams.invisionapp.com/share/S2U2NQZZ76A#/385489667_Intro-Page-2"
-
+title: Conversation Guide for Benefits Management Tools, Claim Status Tool, 2019 09
+author: Christian Valla
+date_created: '2019-09-01'
+last_modified: '2019-09-01'
+team: Benefits Management Tools
+portfolio: benefits
+product: Claim Status Tool
+research_phase: discovery
+research_method: moderated_interview
+session_duration: 60 minutes
+session_type: remote_moderated
+participant_criteria: Veterans with disability claims in various stages
+related_research_plan: products/claim-appeal-status/research/discovery-SEP-2019/research-plan.md
+related_prototype: N/A
 tags:
-  - "AUD: Veterans"
-  - "BNFT: Disability"
-  - "PRDT: Claim-status-tool"
-  - "PRDT: Decision-reviews"
-  - "usability-testing"
-  - "moderated-interview"
-  - "DSC: Button"
-  - "DSC: Tabs"
-  - "DSC: Form - File Input"
-  - "DSP: Ask users for files"
-description: "Usability testing conversation guide for the Claim Status Tool prototype, testing file upload functionality and claim detail views for disability claims and appeals."
-
-# Compliance flags
+- claim-status
+- discovery
+- CST
+- baseline-research
+description: Initial discovery research for Claim Status Tool in September 2019.
 recording_required: true
 observer_support: true
 consent_for_clips: true

@@ -1,109 +1,94 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Debt Resolution Team (Benefits Team 2), Enhanced Financial Status Report (VA Form 5655)"
+date: 2022-03-01
+last_updated: 2022-03-31
+team: "Debt Resolution Team (Benefits Team 2)"
+product: "Enhanced Financial Status Report (VA Form 5655)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans often struggle with the Financial Status Report (VA Form 5655) needed for debt resolution pathways. Issues include difficulty including all needed information and duplicating information."
+  product_location: "VA.gov - VA Form 5655"
+  user_familiarity: "Iteration - Enhanced version launched November 16, 2021"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/Financial-Status-Report/FSR-Product-Outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate improvements made to debt/copay card format"
+  - goal_2: "Test updated list loops for employment, income, dependents, assets, and expenses"
+  - goal_3: "Ensure resolution options are easier to understand"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Does the minimalist card format improve understanding of debt/copay bills?"
+  - "Can Veterans easily update phone number and address in addition to mailing address?"
+  - "Do the improved list loops reduce confusion?"
+  - "Are resolution options clearer and easier to understand?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The minimalist card format will be easier to understand than the previous design"
+  - "List loop improvements will reduce confusion experienced in previous usability study"
+  - "Veterans will be able to successfully navigate the updated form"
+  - "Resolution options will be clearer with the new design"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate enhanced FSR improvements address usability issues found in March 2021 study"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans with VA benefit debt or copay debt"
+    - "Experience or interest in debt resolution options"
     
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-03-21"
+  research_dates: "2022-03-22 to 2022-03-31"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can manage their health services online"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+  - objective: "Logged-in users have a personalized experience"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Managing primary care and chronic health issues"
     
 # Research Repository Tracking
 related_research:
-  previous_studies: 
-    - "[Link to related past research]"
+  previous_studies:
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/Financial-Status-Report/research/mar-2021/readout.md"
     
+
+study: "Debt Resolution Team (Benefits Team 2), Enhanced Financial Status Report (VA Form 5655)"
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "debt-resolution"
+  - "FSR"
+  - "form-5655"
+  - "usability-testing"
+  - "authenticated"
 ---
 
 # Research Plan for The Debt Resolution Team (Benefits Team 2), Enhanced Financial Status Report (VA Form 5655)

@@ -37,6 +37,7 @@ List the most common key words or phrases associated with this issue. Include re
 - **Link:**  
 
 ## 7. Supporting Evidence
+_If any needed details are missing from the expected column, please check the description column for data before reaching out to Veteran Support team._
 - **Screenshots:**  
 - **Screen recordings:**  
 - **Logs:**  

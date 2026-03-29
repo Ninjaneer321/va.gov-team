@@ -1,3 +1,39 @@
+---
+title: "Conversation Guide for Decision Reviews, Supplemental Claims SME Discovery, 2022"
+author: "Pamela Hastings"
+date_created: "2022-06-01"
+last_modified: "2022-06-01"
+
+# Core research metadata
+team: "Benefits Crew 1"
+portfolio: "benefits"
+product: "Decision Reviews - Supplemental Claims"
+research_phase: "discovery"
+research_method: "stakeholder_interviews"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VA claims subject matter experts who work with Supplemental Claims"
+
+# Related documents
+related_research_plan: "products/decision-reviews/Supplemental-Claims/Research/researchplan.md"
+related_prototype: "N/A"
+
+tags:
+  - "decision-reviews"
+  - "supplemental-claims"
+  - "0995"
+  - "SME"
+  - "stakeholder-research"
+description: "Discovery interviews with VA claims SMEs to understand Supplemental Claims process, automation opportunities, and pain points affecting Veterans."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: false
+---
+
 # Conversation Guide
 Supplemental Claims - Claims SMEs
 

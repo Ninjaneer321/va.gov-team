@@ -1,36 +1,29 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
-
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
-
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
-
+title: BDD UAT Conversation Guide
+author: Christian Valla, Disability Team
+date_created: 2020-08-01
+last_modified: 2020-08-01
+team: "Disability Benefits Experience (DBEX)"
+portfolio: "benefits"
+product: "Benefits Delivery at Discharge (BDD)"
+research_phase: "validation"
+research_method: "uat"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Service members separating within 90-180 days or 1-89 days before discharge"
+related_research_plan: "products/disability/disability-compensation-claim/bdd/BDD Research/UAT-August-2020/uat-plan-bdd.md"
+related_prototype: "https://www.va.gov/disability/how-to-file-claim/ (production)"
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
-
-# NEW: Compliance flags
+- UAT
+- disability
+- bdd
+- benefits-delivery
+- validation
+description: "User acceptance testing for Benefits Delivery at Discharge claim process to validate end-to-end functionality."
 recording_required: true
 observer_support: true
 consent_for_clips: true
 ---
-
 # Conversation Guide: Benefits Delivery at Discharge (BDD) UAT
 
 ### Project-specific setup

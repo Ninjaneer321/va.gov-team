@@ -1,109 +1,109 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Benefits Decision Reviews, Higher-Level Review Post Launch, January 2020"
+date: 2020-01-14
+last_updated: 2020-01-14
+team: "Benefits Decision Reviews"
+product: "Higher-Level Review - Post Launch Usability"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Identify and resolve usability issues and friction points in deployed Higher-Level Review designs"
+  product_location: "VA.gov - Higher-Level Review submission form"
+  user_familiarity: "Iteration on deployed HLR form to improve usability"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/decision-reviews/higher-level-review"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "moderated usability testing"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
+    facility: "Remote via Zoom with Invision prototype"
+    point_of_contact: "Christian V."
+    equipment: "Zoom, Invision prototype"
   moderated: true # Options: true, false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand potential usability issues and friction points in current deployed HLR designs"
+  - goal_2: "Understand how users comprehend language within HLR process (legacy appeal, opt-out, etc)"
+  - goal_3: "Identify any confusing or ambiguous steps in the flow of HLR submission process"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Could we put the office where the review was conducted as part of the 'other office' checkbox?"
+  - "Can we display the decision date for contestable issues?"
+  - "Do we want to display the name of the veteran on the review page?"
+  - "What language and terms in the flow confuse veterans?"
+  - "How clear is the 'other office' option to users?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "There are languages and terms in the flow that may confuse veterans (legacy appeals, opt-out, etc)"
+  - "Other office could be improved to make it clear it would be a more senior person within same office"
+  - "Some usability issues have been solved while others still exist in latest HLR designs"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Identify critical usability improvements for HLR form to reduce confusion and improve completion rates"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who have filed a disability claim"
+    - "Must be able to describe what they're trying to accomplish, experiencing, and thinking"
+    - "Able to use Zoom and share screen"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Variation in age, location, experience with VA claims, tech savviness"
+    - "Mix of experience levels with VA benefits"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you filed a disability claim with VA?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-01-14"
+  pilot_participant: "Kevin S."
+  research_dates: "2020-01-15 to 2020-01-24"
+  research_review_submission: "2020-01-07"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 55
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Improve Veterans' experience with decision reviews"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Reduce confusion and friction in HLR submission process"
+  - objective: "Enhance usability of digital forms"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Increase successful HLR form completions"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Managing my declining health"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/decision-reviews/higher-level-review"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "higher-level-review"
+  - "usability-testing"
+  - "veterans"
+  - "decision-reviews"
 ---
 
 

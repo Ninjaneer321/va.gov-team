@@ -1,3 +1,12 @@
+---
+layout: page_breadcrumb
+type: Release Plan
+title: Release Plan: Income and Asset Statement (0969) MVP
+services: Pension
+tags: pension, release, testing
+source: va.gov-team-repo
+url: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/0969MVP-release-plan.md
+---
 
 <!-- markdownlint-disable MD024 -->
 # Release Plan: Income and Asset Statement (0969) MVP

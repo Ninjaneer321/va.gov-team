@@ -100,10 +100,22 @@ related_research:
     - "[Link to related past research]"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "patient-check-in"
+  - "PCI"
+  - "HCE"
+  - "check-in"
+  - "card-sort"
+  - "IA"
+  - "information-architecture"
+  - "remote"
+  - "unmoderated"
+  - "evaluative"
+  - "veterans"
+  - "appointments"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Check-in"
 ---
 
 # Check-in Research Plan for a Unmoderated Appointment Information Survey

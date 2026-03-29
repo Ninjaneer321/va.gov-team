@@ -106,7 +106,17 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/Medical_Copays/research/jun-2021/research-plan.md"
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/Medical_Copays/research/apr-2021/research-plan.md"
     
+
+study: "Medical Copay Tool MVP UAT, November"
 tags:
+  - debt-resolution
+  - medical-copays
+  - copay-debt
+  - uat
+  - user-acceptance-testing
+  - health-care
+  - authenticated
+  - research-plan
   - "AUD: Veterans"
   - "PRDT: Medical Copays"
   - "PRDT: Debt Portal"

@@ -1,116 +1,115 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for GI Bill Comparison Tool, March-June 2019"
-date: 2026-02-10
-last_updated: 2026-02-10
-team: "Education (EDU)"
+date: 2019-03-25
+last_updated: 2019-06-07
+team: "Education Services"
 product: "GI Bill Comparison Tool"
 product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "Veterans and service members need to learn about education programs and compare benefits by school, research colleges and employers approved for the GI Bill, and receive benefit estimates, value and affordability information to make informed decisions"
-  product_location: "VA.gov GI Bill Comparison Tool"
-  user_familiarity: "Iteration on existing product"
-  product_brief_url: ""
+  problem_statement: "Veterans and service members need to research colleges and employers approved for GI Bill, receive benefit estimates, and learn about facility value and affordability to make informed education decisions"
+  product_location: "VA.gov Education section - GI Bill Comparison Tool"
+  user_familiarity: "Iteration on existing tool - improving usability and calculator accuracy"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/education-careers/school-comparison-tool"
 
 # Research Design
-methodology: "mixed-methods"
+methodology: "usability-testing"
 research_format: 
   location: remote
-  in_person_details:
-    facility: ""
-    point_of_contact: ""
-    equipment: ""
   moderated: true
   
 # Research Goals & Questions
 research_goals:
   - goal_1: "Understand how Veterans engage with the tool to see relevant GI Bill benefit information"
-  - goal_2: "Identify challenges or common pitfalls Veterans face when comparing GI Bill benefits by school"
-  - goal_3: "Validate design solutions in prototype address issues uncovered during discovery"
+  - goal_2: "Identify challenges Veterans face when comparing GI Bill benefits by school"
+  - goal_3: "Validate design solutions address issues from discovery and improve tool usability"
 
 research_questions:
   - "Do Veterans understand how to engage with the tool to see relevant GI Bill benefit information?"
-  - "What challenges or common pitfalls do Veterans face when attempting to compare GI Bill benefits by school and learn about education programs?"
+  - "What challenges or common pitfalls do Veterans face when comparing GI bill benefits by school?"
   - "Are Veterans able to use the tool to compare benefits easily?"
-  - "Where can we use conditional logic and branching to display only relevant questions to the Veteran?"
+  - "Where can we use conditional logic and branching to display only relevant questions?"
   - "Are there opportunities to streamline the form by pre-populating data from other sources?"
-  - "What additional information or contextual help would ensure that users provide correct inputs and leverage the tool's full capabilities?"
+  - "What additional information or contextual help would ensure correct inputs?"
   - "What aspects of the GIBCT Calculator could be improved to enhance user understanding?"
 
 hypotheses:
-  - "Presenting current eligibility information and housing rates will simplify and improve the process of researching GI Bill benefits"
-  - "Displaying information that relates to the Veteran's specific situation will increase satisfaction with the process"
-  - "Providing contextual help to guide the Veteran through the process will allow them to feel more confident in their ability to compare and understand GI Bill benefits"
+  - "Presenting current eligibility information and housing rates will simplify the process"
+  - "Displaying information specific to Veteran's situation will improve comprehension"
+  - "Contextual help will guide Veterans through using the tool effectively"
+  - "These improvements will increase satisfaction and confidence in comparing GI Bill benefits"
 
-expected_outcomes: "Develop a thorough understanding of how Veterans use the Comparison Tool and validate design solutions to address discovery issues"
+expected_outcomes: "Thorough understanding of how Veterans use the Comparison Tool and validated design solutions to address discovery issues, leading to simplified GI Bill benefit comparison"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "Maximum variation sampling across user types"
+  approach: "Representative mix across user types"
   
   primary_criteria:
-    - "Interested in or planning to use GI Bill benefits in the next 1-3 years"
-    - "Have not yet decided what institution to attend"
-    - "Mix of Veterans, service members, National Guard/Reservists, and dependents"
+    - "Interested in or planning to use GI Bill benefits in next 1-3 years"
+    - "Have NOT yet decided what institution to attend"
     
   secondary_criteria:
-    - "Include Military & Veterans' Services Specialists for expert perspective"
+    - "Mix of Veterans, active duty service members, National Guard/Reservists, dependents"
+    - "Representative demographics (age, education, location, tech savviness)"
     
   screener_questions:
     - question: "Are you interested in or planning to use your GI Bill benefits in the next 1-3 years?"
       qualifying_response: "Yes"
     - question: "Have you decided what institution you'd like to attend yet?"
-      qualifying_response: "No"
+      qualifying_response: "No (schedule participant)"
       
 participants:
-  veterans: 4
+  veterans: 8
+  service_members: 4
+  dependents: 2
   caregivers: 0
-  dependents: 4
-  total_recruited: 18
-  completed_sessions_goal: 16
+  total_recruited: 14
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: ""
-  pilot_participant: ""
-  research_dates: "2019-04-08 to 2019-06-07"
-  research_review_submission: "2019-04-07"
+  pilot_date: "2019-03-20"
+  pilot_participant: "Team member"
+  research_dates: "2019-03-25 to 2019-06-07"
   
 session_details:
-  duration_minutes: 45
-  buffer_minutes: 0
-  max_sessions_per_day: 5
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Veterans can make informed decisions about education"
-    key_results: 
-      - "Veterans can successfully compare GI Bill benefits by school"
+  - objective: "Veterans can access education benefits"
       
 veteran_journey_phases:
   - "Finding something to do"
   - "Putting down roots"
-  - "Reinventing myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "Previous GIBCT research iterations"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/education-careers/school-comparison-tool/research"
     
 tags:
+  - "EDU: Education"
   - "AUD: Veterans"
-  - "AUD: Service Members"
+  - "AUD: Service-members"
   - "AUD: Dependents"
-  - "BNFT: Education"
-  - "PRDT: GI Bill Comparison Tool"
+  - "PRDT: GI-Bill-Comparison-Tool"
+  - "PRDT: Education-benefits"
   - "usability-testing"
-  - "semi-structured-interviews"
-  - "remote-research"
-  - "discovery"
-  - "comparative-analysis"
+  - "user-interviews"
+  - "remote-moderated"
+  - "unauthenticated"
+  - "calculator"
+  - "school-comparison"
+  - "benefit-estimates"
+study: "GI Bill Comparison Tool"
+type: "usability-testing"
 ---
 
 # Sprint Research Plan #
