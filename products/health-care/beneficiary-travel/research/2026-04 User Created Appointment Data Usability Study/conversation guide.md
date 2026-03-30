@@ -143,14 +143,15 @@ Before we start, I have a few things that I want to go over with you:
 2. Have you filed for travel pay in the past?
 - **If no:** Can you share more about why you haven’t filed? _(Then jump to question 5.)_
 - **If yes:** _Proceed to following questions._
-3. Tell me more about it.   
-4. Which system did you use to file for travel pay? (VAHB, VA.gov, BTSSS)
-5. Are you familiar with “community care”? 
+3. Tell me more about it.
+4. When did you file?
+5. Which system did you use to file for travel pay? (VAHB, VA.gov, BTSSS)
+6. Are you familiar with “community care”? 
  - **If yes:** What does that phrase mean to you?
  - **If no, explain:** In certain scenarios, for example, if the VA facility is outside a certain distance, or if there is an extended wait time for VA Care, sometimes VA will approve you to go to other health care facilities in the community. These are called “community care” appointments. [This is important to explain to the participant so that they can understand the testing scenario we present to them below.]
-6. Have you filed for VA appointment(s) or community care appointment(s)?
-7. **If the participant has filed for community care:** Can you tell me more about your experience filing for community care? What did you do to get ready to file?
-8. If no to 1: If you were going to file for travel reimbursement today, where would you go or what would you do first?   
+7. Have you filed for VA appointment(s) or community care appointment(s)?
+8. **If the participant has filed for community care:** Can you tell me more about your experience filing for community care? What did you do to get ready to file?
+9. If no to 1: If you were going to file for travel reimbursement today, where would you go or what would you do first?   
 
 
 ## Section 2: Entry-point navigation (5-10 minutes)
