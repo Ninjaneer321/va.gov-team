@@ -149,7 +149,8 @@ This evaluation will result in one of three decisions:
 
 * If yes, move to implementation process  
 * If not right now, document in GitHub and create a backlog ticket  
-* If no, document decision in GitHub
+* If no, document decision in GitHub 
+_Note in Github evaluation date (month, year)_
 
 **Rationale:** \[Explanation of recommendation\]
 
@@ -206,6 +207,7 @@ If the decision is **Yes**, proceed with the following implementation steps:
 * Deploy to production  
 * Monitor for issues  
 * Document release in change log
+* Update benefit evaluation document to add "Data added to DYB"
 
 ### **Post-Release**
 
