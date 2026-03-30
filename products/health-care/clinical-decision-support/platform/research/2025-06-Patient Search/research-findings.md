@@ -314,7 +314,7 @@ This research supports measurement of this KPI by surfacing the specific risk fa
 
 ### Research documents
 - [Restricted Record Technical Analysis - Deprioritized for CDS Platform](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1750710790174/417d24089a79c96d17476815bcbd878fdc67f07a)
-- [Research plan](link here)
+- [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/platform/research/2025-06-Patient%20Search/research-plan.md)
 - [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/platform/research/2025-06-Patient%20Search/conversation-guide.md)
 
 ### Tools used for Synthesis
