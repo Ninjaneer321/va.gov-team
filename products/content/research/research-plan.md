@@ -75,12 +75,12 @@ participants:
   caregivers: 0
   dependents: 0
   total_recruited: 0
-  completed_sessions_goal: 0
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
   pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
+  pilot_participant: "TBD"
   research_dates: "YYYY-MM-DD to YYYY-MM-DD"
   research_review_submission: "YYYY-MM-DD"
   
@@ -113,6 +113,7 @@ tags:
   - "AUD: Veterans"
   - "BNFT: Healthcare"
   - "PRDT: Decision-Reviews"
+  - "usability-testing"
   - "moderated-research"
   - "remote-research"
 ---
@@ -182,15 +183,11 @@ User feedback suggests confusion about when to choose each option, which may lea
 
 </details>
 
-> [!TIP]
-> Delete priorities not supported by this research.
-
 ### [Veteran Journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)
 
 <details><summary>Where does your product fit into the Veteran journey?
 Are there moments that matter?</summary>
 
-- `Getting Out`
 - `Starting Up`
 - `Taking Care of Myself`
 - `Reinventing Myself`
@@ -215,39 +212,53 @@ Are there moments that matter?</summary>
 
 ---
 
-**[Enter outcome here]** 
+This research will directly inform content and development decisions to create a more intuitive experience that is easier for Veterans to navigate. By identifying and addressing sources of confusion, the findings will make the information easier to understand, support faster and more confident selections, and reduce errors and frustration. Ultimately, this work will better align VA terminology with the real‑world language and needs Veterans bring to the process.
 
 ---
 
 ### Research questions
 
-**`1.`[Enter Q1]**
+**`1.`Do Veterans understand the differences between the decision review options?**
 
-**`2.`[Enter Q2]**
+**`2.`Can Veterans determine which option applies to their situation, and how?**
 
-**`3.`[Enter Q3]**
+**`3.`Where do Veterans expect to begin when choosing the review option that’s right for them?**
 
-**`4.`[Enter Q4]**
+**`4.`What information do Veterans need to make a confident selection?**
 
-**`5.`[Enter Q5]**
+**`5.`If confusion occurs, where does it happen on this page?**
 
 ### Hypotheses
-> [!NOTE]
-> Remember to constrain the hypotheses to the goals of your study!
- 
-**Think through these prompts to develop strong hypotheses:**
-	
+
 `What do you intend to learn and measure from this study?` 
+* Whether Veterans truly experience decision overload when all three review options are presented at once.
+* How well Veterans understand the decision review options when explained in technical terms versus in everyday, scenario‑based language.
+* Whether Veterans can determine which option fits their situation without additional assistance.
+* How clearly users understand the consequences of each choice.
+* Which parts of the page contribute most to confusion and which improve understanding or confidence.
+* How guidance, wording, or layout changes might reduce confusion and improve decision‑making confidence.
 
 `What do you already know about this problem space?`
+* Veterans often think about their claim situation using simple, real‑life scenarios, not procedural terminology.
+* Many Veterans already struggle with understanding what evidence they need and how the VA processes claims.
+* The current Decision Review Options page has produced mixed clarity and confidence in past research.
+* Veterans frequently seek help from VSOs because they don't feel confident choosing an option alone.
+* Complex information without clear explanations tends to increase cognitive load and overwhelm.
  
 `What do you think users will do or think about this product? (Identifying our assumptions helps us be aware of biases we may unintentionally bring into the study, so don’t skip this step!)`
+* Veterans will feel overwhelmed when seeing three options at once without clear direction.
+* Veterans may skim or skip technical language because it feels unfamiliar or complicated.
+* Veterans will try to map their real‑life situation to the options but may struggle to make a match based on the page’s current wording.
+* Veterans might feel unsure or anxious about the consequences of choosing “wrong,” especially regarding timelines or future flexibility.
+* Some Veterans may hesitate to proceed or may want to contact a VSO instead of choosing an option themselves.
   
 `Write a generalized statement that combines what you know + what you think will happen during the study.`
-
+* Based on what we already know, Veterans often think in simple, scenario‑based terms and feel uncertain when faced with technical descriptions of the decision review process. We expect that when presented with all three options at once, without clear guidance or explanation of consequences, users will experience decision overload, struggle to map their situation to the available choices, and may feel hesitant or lack confidence in choosing an option on their own.
 ---
 
-**[Enter hypotheses here]** 
+**Hypotheses** 
+
+We hypothesize that Veterans experience decision overload because all three complex options are presented at once without clear guidance on how to choose. Also, we hypothesize that Veterans may struggle because the consequences of each decision are unclear, including how long the option takes, what outcomes are possible, and whether they can switch options later.
 
 ---
   
@@ -306,19 +317,29 @@ We will work with Perigean to recruit participants for this study.
 *What demographics, experience, and scenarios do you need participants to meet to effectively run your study?* 
 We are recruiting for 15 Veterans, with a total of 10 completed sessions. 
 
-- `Veterans who use VA health care`
-- `primary criteria`
-- `primary criteria`
-- **`Add more criteria as needed`**
+- `All participants must be Veterans who use VA health care`
+- `Veterans who have filed or considered filing a benefits claim: 4-6 participants total (2-3 who have filed for benefits claim, 2-3 who have not)`
+- `Veterans who have received a decision letter: 4-6 participants total`
 
 #### Secondary criteria (nice-to-haves)
 *What criteria would strengthen your results?* 
 
-- `[Place secondary criteria here between hash marks when in edit mode]`
-- `secondary criteria`
-- `secondary criteria`
-- **`Add more criteria as needed`**
-
+- `Minimum 3 are women`
+- `Minimum 3 are over 55 years of age`
+- `Minimum 3 are under 54 years of age`
+- `Minimum 3 have a cognitive impairment`
+- `Minimum 3 live in rural areas`
+- `Minimum 1 has no degree`
+- `Minimum 3 are women`
+- `Minimum 4 have a terminal HS degree`
+- `Minimum 2 have a terminal AS degree`
+- `Minimum 2 have a terminal BS degree`
+- `Minimum 1 have a terminal MS degree`
+- `Minimum 2 are Black/African American`
+- `Minimum 2 are Hispanic/Latino`
+- `Minimum 1 is Asian`
+- `Minimum 1 is Native American`
+  
 ## Screener Questions 📋
 
 > [!NOTE]
@@ -357,26 +378,25 @@ We are recruiting for 15 Veterans, with a total of 10 completed sessions.
 ### Optional Kick-off Call with Perigean
 
 - `Suggested dates and times:` **[Enter dates and times MM/DD HH:MM]**
+TBD
 
 ### Prepare
 *When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).*
 
 **A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.** 
-> [!NOTE]
-> **Send pilot participant email in study Slack channel**
 
-- `Pilot participant name:` **[Enter name]**
-- `Date and time of pilot session:` **[Enter time]** 
+- `Pilot participant name:` **TBD**
+- `Date and time of pilot session:` **TBD** 
 
 ### Research sessions
 - `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
 
 ### Length of sessions
-- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **[Enter time length]**
+- `Session length: 1 hour.
   
-- `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **[Enter buffer time]**
+- `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **30 minutes**
   
-- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **[Enter NUM per day]**
+- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **3**
 
 ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
@@ -398,19 +418,15 @@ When would you like sessions scheduled? Please list exact dates and times in **E
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
-> [!NOTE]
-> **Please do not include email addresses in this section.** We previously required email addresses. VA's GitHub policy ([see announcement](https://github.com/orgs/department-of-veterans-affairs/discussions/13)) has changed. VA.gov email addresses cannot be in public repositories.
->
-> **Please list the names of people in each role.** In the Slack study channel, send an email and primary phone number for the moderator. Also send emails for the notetaker, accessibility specialist, and observers. If you need Perigean to take notes for you, indicate that next to Notetaker.
-
 - `Moderator:` **Mercedita Andrew**	
-- `Research guide writing and task development (usually but not always same as moderator):` **[Enter full name]**		
-- `Participant recruiting & screening:`	**[Enter full name]**	
+- `Research guide writing and task development (usually but not always same as moderator):` **Mercedita Andrew**		
+- `Participant recruiting & screening:`	**Perigean**	
 - `Project point of contact:` **[Enter full name]**		
 - `Accessibility specialist (for sessions where support for assistive technology may be needed):` **[Enter full name]**	
 - `Note-takers:` **[Enter full name]** ***or*** **[Designate Perigean]**	
 - `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 5 to 6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.`
 
+**Observer names TBD; will create sign-up sheet once we have confirmed sessions**
 - **[Enter full name]**
 - **[Enter full name]**
 - **[Enter full name]**
