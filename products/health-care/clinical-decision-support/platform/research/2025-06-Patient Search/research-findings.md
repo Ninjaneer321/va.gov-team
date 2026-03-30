@@ -112,7 +112,7 @@ tags:
 
 **Contacts:** Liz Blasi
 
-**[Research Readout (PDF)](link-here)**
+**[Research Readout (PDF)](https://dvagov.sharepoint.com/:b:/r/sites/CDSProgramTeam/Shared%20Documents/Clinical%20Decision%20Support%20Platform%20Team%20(CDSP)/2.%20User%20Research/2025%20User%20Research/Patient%20Search/Patient%20Lookup%20%26%20Reverse%20Patient%20Context%20Research_Liz%20Blasi_06.23.2025.pdf?csf=1&web=1&e=PSd6Hp)**
 
 **Jump to:**
 - [Hypotheses and conclusions](#user-content-hypotheses-and-conclusions)
@@ -133,8 +133,8 @@ This research was conducted to understand clinician expectations and usability a
 
 **Guiding Questions:**
 - How do clinicians expect to locate, select, and confirm patient context within the CDS Console and across CDS applications?
-- What are the perceived risks and benefits of allowing patient context switching within the Console?
-- What existing search patterns and mental models do VA clinicians bring to patient lookup?
+- What are the perceived risks and benefits of allowing patient context switching ('reverse Patient Context') within the Console?
+- What existing search patterns and mental models do VA clinicians bring to patient lookup (example - Vista workflows?
 
 ---
 
@@ -153,7 +153,7 @@ This research was conducted to understand clinician expectations and usability a
 - **Usability Testing with Static Figma Prototypes:** Participants interacted with two rounds of Figma-based prototypes simulating patient lookup and context-switching within the CDS Console sidebar.
 - **Clinician Interviews:** Structured interview questions gathered initial impressions, task-based reactions, and comparative feedback on the prototype versus current experience.
 
-Research was conducted remotely between December 2024 and March 2025.
+Research was conducted remotely between December 2024 and March 2025, across "R1 and R2 Sidebar Testing" rounds.
 
 ---
 
@@ -164,7 +164,7 @@ Research was conducted remotely between December 2024 and March 2025.
   - The first initial of the last name combined with the last four digits of the SSN (e.g., "B1234") was described as "deeply ingrained" across both research rounds. Participants consistently referenced this as their default search method.
 
 - **Hypothesis: Clinicians will perceive patient lookup within the Console as a valuable workflow enhancement.**
-  - **Maybe True**
+  - **Maybe True - Additional User Testing Recommended**
   - Reception was mixed. Many participants saw value — particularly when multitasking or mid-documentation — but a meaningful subset expressed concern about workflow disruption and patient safety risks.
 
 - **Hypothesis: Clinicians will expect patient context changes to automatically sync across all open CDS applications.**
@@ -289,10 +289,10 @@ This research supports measurement of this KPI by surfacing the specific risk fa
 
 ---
 
-## Next Steps
+## Recommended Next Steps
 
-- Incorporate type-ahead search component from the Clinical Design System into the patient lookup modal
-- Refine modal messaging and placeholder text to reflect supported search formats (first initial + last four SSN as primary)
+- Incorporate type-ahead search component from the Clinical Design System into the patient lookup modal - Technical spike
+- Refine and user test modal messaging and placeholder text to reflect supported search formats (first initial + last four SSN as primary)
 - Design and test a confirmation step before patient context change is committed
 - Conduct technical analysis to determine feasibility of cross-application patient synchronization
 - Revisit open questions [#685] regarding search input behavior and edge case handling
@@ -305,6 +305,8 @@ This research supports measurement of this KPI by surfacing the specific risk fa
 - Clinician expectations for what data should persist vs. reset after a patient switch within individual CDS tools
 - Testing with clinicians who were skeptical of the feature to understand what safeguards would increase their confidence
 - Participants using assistive technology were not represented in these rounds and should be included in future testing
+- When searching for a patient and/or selecting - 'are you sure'/context setting confirmation user flow and language
+- Setting patient context withing individual applications, such as My Workweek
 
 ---
 
