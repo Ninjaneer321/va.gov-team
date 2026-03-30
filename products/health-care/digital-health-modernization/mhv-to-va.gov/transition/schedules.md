@@ -1,6 +1,13 @@
 # Schedules
 
 ## April 11, 2026
+
+**For facilities**:
+* 515: Battle Creek VA Medical Center
+* 553: JOHN D. DINGELL VAMC, MI - VA Detroit health care
+* 655: ALEDA E. LUTZ VAMC, MI - VA Saginaw health care
+* 506: LTC CHARLES S KETTLES VAMC, MI - VA Ann Arbor health care
+
 | Phase ID | Relative Date | Absolute Date |
 |-------|----------|----------|
 | p0 | T-60 | February 10, 2026 at 12:00AM ET |
@@ -15,6 +22,13 @@
 | p9 | T+45 | May 26, 2026 at 12:00AM ET |
 
 ## June 06, 2026
+
+**For facilities**:
+* 552: Dayton VA Medical Center
+* 538: Chillicothe VA Medical Center
+* 539: Cincinnati VA Medical Center
+* 539A4: Cincinnati VA Medical Center - Fort Thomas
+
 | Phase ID | Relative Date | Absolute Date |
 |-------|----------|----------|
 | p0 | T-60 | April 7, 2026 at 12:00AM ET |
