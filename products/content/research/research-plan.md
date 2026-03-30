@@ -157,7 +157,7 @@ User feedback suggests confusion about when to choose each option, which may lea
 > 4. Review the suggested studies and add the most relevant ones below
 
 **Previous Studies:**
-- [Link to Study 1 - Brief description, Date](url goes here)
+- https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-discovery/past-research-analysis-for-new-research-plan-prompt.md)
 - [Link to Study 2 - Brief description, Date](url goes here)
 - [Link to Study 3 - Brief description, Date](url goes here)
 
