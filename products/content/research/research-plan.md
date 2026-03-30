@@ -110,10 +110,11 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2022-11-Decision-Reviews/research-findings.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Decision-Reviews"
+  - "moderated-research"
+  - "remote-research"
 ---
 
 # Research plan for Content & IA Team, Choosing a Decision Review Option Page, March /April 2026
