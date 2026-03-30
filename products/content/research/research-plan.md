@@ -160,9 +160,6 @@ User feedback suggests confusion about when to choose each option, which may lea
 
 <details><summary>Which OCTO priorities does this research support? Work with your VA lead and product manager as needed. </summary>
 
-> **NOTE:** If a Key Result does not have a ***Research Ops Plain Language*** equivalent, it does not map to research supporting it as a key result for the parent objective.
-
-
 `Objective 1:  Optimize software delivery for Veteran impact.`  
 
 > - **Key Result 1.1:** All C100 products have a documented Product Vision, including identifying up to three Veteran-impacting KPIs, published on Product.VA.gov.
@@ -171,14 +168,6 @@ User feedback suggests confusion about when to choose each option, which may lea
   - ***Research Ops Plain Language:** Supports a production release that will measurably improved a product's Veteran-impacting KPIs.*
 > - Key Result 1.3:** OIT has avoided at least $5 million in cost via successful decommissioning of at least 10 systems.
   - ***Research Ops Plain Language:** Supports the decommissioning of a legacy system.*
-
-`Objective 2: Operate products with high reliability and security.`
-
-> - **Key Result 2.1:** All C100 systems have an incident free time of 99.8 or better.
-> - **Key Result 2.2:** All C100 systems are monitoring the 4 “golden signals” of latency, error rate, volume, and saturation.
-> - **Key Result 2.3:** All C100 systems have baselined cycle time from planning to production, and at least one C100 system in each DSD portfolio has reduced its cycle time from planning to production by more than 50% without increasing change failure rate.
-  - ***Research Ops Plain Language:** Supports reducing this product’s cycle time from planning to production by more than 50% without increasing change failure rate.*
-> - **Key Result 2.4:** By 31 March 2026, DSD has enhanced system security by moving or decommissioning 100% of existing of Systems or Applications leveraging SiteMinder integration for SSOi to Entra ID.
 
 `Objective 3: Relentlessly improve the user experience.`
 
@@ -189,12 +178,6 @@ User feedback suggests confusion about when to choose each option, which may lea
 > - **Key Result 3.3:** 100% of C-100 systems have delivered at least one release that directly addresses a documented user pain point with that system.
   - ***Research Ops Plain Language:** Supports the delivery of at least one release that directly addresses a documented user pain point within this product.*
 
-`Objective 4: OCTO teammates are empowered with the knowledge and resources they need to make sustained impact.`
-
-> - **Key Result 4.1:** More than 25% of VA employees report AI has helped them deliver better services to Veterans.
-> - **Key Result 4.2:** All “VA Way” delivery attributes have an adoption indicator established, baselined and communicated to product delivery staff.
-> - **Key Result 4.3:** 50% of product delivery staff report that a practice group (design) has helped them deliver better software.
-
 </details>
 
 > [!TIP]
@@ -204,9 +187,7 @@ User feedback suggests confusion about when to choose each option, which may lea
 
 <details><summary>Where does your product fit into the Veteran journey?
 Are there moments that matter?</summary>
-	
-- `Joining`
-- `Serving`
+
 - `Getting Out`
 - `Starting Up`
 - `Taking Care of Myself`
@@ -216,24 +197,16 @@ Are there moments that matter?</summary>
 - `Aging`
 - `Dying`
 
-</details>
-
-> [!TIP]
-> Delete journeys not supported by this research.
-
 ## Research Goals 🥅	
 `What are you trying to learn from this research?` 
 
-> [!NOTE]
-> Limit 3 goals per study. If you have more than 3 goals, consider how to break up your research into iterative studies.
-
 ### Goals
 
-`1.` **[Enter answer here]**
+`1.` **Identify opportunities to improve content clarity and decision guidance to support more confident decision‑making.**
 
-`2.` **[Enter answer here]**
+`2.` **Validate that Veterans can effectively use the provided content to make an informed decision.**
 
-`3.` **[Enter answer here]** 
+`3.` **Evaluate the mental models Veterans rely on when selecting a review option.** 
   
 ### Outcome
 `How will this research advance your product to the next phase in the design process? What will you do with your learnings?`
@@ -293,9 +266,6 @@ Are there moments that matter?</summary>
 <details><summary>Examples of common research methods include</summary> 
 	
 - `Semi-structured interviews - appropriate for generative research`
-- `Contextual inquiry - appropriate for generative research`
-- `Card sorts - appropriate for generative and evaluative research; depending on the study design` 
-- `Tree tests - appropriate for evaluative research`
 - `Usability testing - appropriate for evaluative research`
 - `User acceptance testing (UAT) - required before product release`
 
@@ -317,18 +287,7 @@ Are there moments that matter?</summary>
 ### Location
 Where will you be holding the research sessions? Be sure to include whether this is remote or in-person research. [Learn more about setting up in-person research.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/planning-in-person-research.md)
 
-> [!TIP]
-> Place [X] between brackets in edit mode to leave a checkmark in the correct box.
-
 - [ ] **Remote**
-- [ ] **In-person**
-      
-> [!NOTE]
-> If in-person, include:
-
-- `Location:` **[Enter text]**
-- `Point of contact:` **[Enter text]**
-- `Equipment used for research:` **[Enter text]**
 
 ## Research materials 📔
 
@@ -349,8 +308,6 @@ Provide a link to any materials you need to run your study, including any materi
 - [Link to email with instructions](url goes here)
 - [Link to prototype or OptimalSort session for group A](url goes here)
 - [Link to prototype or OptimalSort session for group B](url goes here)
-
-
 
 **If recruiting outside of Perigean’s participant database:**
 - [Link to recruitment flyer](url goes here)
@@ -490,7 +447,7 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 >
 > **Please list the names of people in each role.** In the Slack study channel, send an email and primary phone number for the moderator. Also send emails for the notetaker, accessibility specialist, and observers. If you need Perigean to take notes for you, indicate that next to Notetaker.
 
-- `Moderator:` **[Enter full name]**	
+- `Moderator:` **Mercedita Andrew**	
 - `Research guide writing and task development (usually but not always same as moderator):` **[Enter full name]**		
 - `Participant recruiting & screening:`	**[Enter full name]**	
 - `Project point of contact:` **[Enter full name]**		
