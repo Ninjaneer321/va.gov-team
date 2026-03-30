@@ -213,31 +213,40 @@ Wait for participant answer.
 For the first scenario I'd like you to imagine that you submitted a CHAMPVA application recently and want to find out what is happening with your application. You log into VA.gov and this upcoming screen is the first thing you see. Go ahead and click continue. 
 
 ### [MyVA] 
-If you wanted to find out what is happening with your CHAMPVA application, can you show me where you would go? 
+If you wanted to find out what is happening with your CHAMPVA application, can you show me what you would do next?  
 
-- [IF THEY GO TO CLAIM AND APPLICATION STATUS:]
-  - Is this where you expected to find your application?
+Take a moment to review this page and think out loud as you go, but don’t click on anything yet – so I can get your feedback on this page before we move on.  
+
+[Let the user explore. As they navigate, probe if they pause or seem to find anything confusing.] 
+
+- [If they would click “Check status details” or “Track claims, decision reviews, and applications” link]
+  - What do you think would happen if you click on the link?
+    - Got it, we’ll go back to that.
+  - For now, let's zoom out. Is this section where you expected to find your application?
     - If not, where would you expect it to be?
     - What else do you expect to be in this section?
-    - **What would you do next?**
-      - [If they mention the Check status details link] What do you think would happen if you click on the “Check status details” link?
-      - [If they mention the Status tool link] What do you think would happen if you click on “Track claims, decision reviews, and applications”?
   - Before we move on, I want you to scroll down to the section called "Forms."
     - What do you expect to find in this section?
-    - [IF THEY OPEN THE COMPLETED FORMS ACCORDION:] 
-      - Is this what you expected to see? 
-
-- [IF THEY GO TO FORMS SECTION:]
-  - Is this where you expected to find your application?
-    - If not, where would you expect it to be?
-    - What else do you expect to be in this section?
-    - [IF THEY OPEN THE COMPLETED FORMS ACCORDION:]
+    - [If they would click Completed forms accordion]
+      - Okay, go ahead and click on Completed forms.
       - Is this what you expected to see?
-    - **What would you do next?**
-  - [If they don’t scroll up on their own] Before we move on, I want you to scroll up to "Claim and application status”
-    - What do you expect to find in this section?
-      - [If they mention the Check status details link] What do you think would happen if you click on the “Check status details” link?
-      - [If they mention the Status tool link] What do you think would happen if you click on “Track claims, decision reviews, and applications”? 
+        
+- [If they would click Completed forms accordion]
+  - Okay, go ahead and click on Completed forms.
+    - Is this what you expected to see?
+    - What do you expect to find in the Forms section?
+  - Now, what would you do next?
+    - [If they would call] What would you ask about?
+      - Is there anything you would do on this page?
+      - [If they don’t scroll up] Could you scroll back up to the top of the page and look at the Claim and application status section?
+    - [If they would click “Check status details” or “Track claims, decision reviews, and applications” link]
+      - What do you think would happen if you click on the link?
+        - Got it, we’ll go back to that.
+      - For now, let's zoom out. Is this section where you expected to find your application?
+        - If not, where would you expect it to be?
+        - What else do you expect to be in this section? 
+
+- [If they don’t know what to do next] Could you look at the Claim and application status section? 
 
 - In your own words, how would you describe what the Claim and application status section is for, versus the Forms section?
   - What are your thoughts on the names of those sections?
@@ -247,8 +256,11 @@ If you wanted to find out what is happening with your CHAMPVA application, can y
 - [IF THEY WOULD CLICK THE CHECK STATUS DETAILS LINK]
   - [If they are mentioning it for the first time] What do you think will happen if you click on the “Check status details” link?
   - Okay, go ahead and click on the link to move forward in the prototype.
+- [IF THEY WOULD CLICK THE STATUS TOOL LINK]
+  - [If they are mentioning it for the first time] What do you think will happen if you click on the “Track claims, decision reviews, and applications” link?
+  - For this first scenario, let's click on the Check status details link so I can get feedback on those pages. We will go back to that link later.
 - [IF NOT] Could you share why you would do that next?
-  - For the scenario today, let's click on the Check status details link anyway. 
+  - For this first scenario, let's click on the Check status details link so I can get feedback on those pages. We will go back to that link later.
 
 > [!NOTE]
 > ### Things to watch for:
@@ -297,7 +309,7 @@ Great! That’s the end of our first scenario. To go to the next scenario, scrol
 Let’s say a week has passed and you want to find out what has happened with your CHAMPVA application. You’ve logged back into VA.gov and this upcoming screen is the first thing you see. Go ahead and click continue. 
 
 ### [MyVA, CHAMPVA card now has yellow action needed tag] 
-- Take a look at this page and tell me what you notice.
+- Take a look at this page and tell me what you see.
   - What do you think has happened with your application?
 - What would you do next?
   - [If they WOULD NOT FOLLOW the Check status details link] For the scenario today, let's click on the link anyway. 
@@ -320,7 +332,7 @@ Let’s say a week has passed and you want to find out what has happened with yo
       - Okay, go ahead and click continue (the submit button) 
 
 ### [Success alert on status tab, now on Step 3, one beneficiary has been deemed eligible] 
-- Take a look at this page and tell me what you notice.
+- Take a look at this page and tell me what you see.
 - What step is the application on now?
   - Is that what you’d expect? 
 
@@ -336,7 +348,7 @@ That’s the end of our second scenario. To go to the last scenario, scroll all 
 A week has passed since you uploaded the requested document, and you want to check on the status of your CHAMPVA application again. You’ve logged back into VA.gov and this upcoming screen is the first thing you see. Go ahead and click continue. 
 
 ### [MyVA, For Veteran flow: CHAMPVA card is not visible ] 
-- Take a look at this page and tell me what you notice.
+- Take a look at this page and tell me what you see.
   - What do you think has happened with your application?
   - [ASK VETERANS ONLY] Why do you think it isn’t on this page?
 - What would you do next?
@@ -363,7 +375,7 @@ What would you do next?
 - [If they WOULD NOT proceed] For the scenario today, let's click on the Details link anyway.  
 
 ### [Complete application with an Ineligible applicant card] 
-- Take a look at the page and tell me what you notice.
+- Take a look at the page and tell me what you see.
   - What is the status of Jane’s application? John Doe Jr.’s?
 - What would you do next, if anything? 
 
