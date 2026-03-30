@@ -349,6 +349,9 @@ _Participant selects mileage_
 > - 1. Does the user recognize the proof of attendance file as something they previously added?
 > - 2. Does the user expect to be able to edit the appointment information as they would any of the other information section on this page?
 
+### Agreement page
+1. What do you think you need to do next?
+
 ### Confirmation page    
 `Moderator: Now take a look at this page.`   
 
