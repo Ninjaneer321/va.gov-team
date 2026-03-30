@@ -276,7 +276,7 @@ Provide a link to any materials you need to run your study, including any materi
 - [R1 Sidebar Navigation Usability Testing — Session insights](url goes here)
 - [R2 Sidebar Navigation Usability Testing — Session insights](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/platform/research/2025-02-R2-Sidebar-Testing/research-findings.md)
 - [Patient Lookup and Reverse Patient Context Research Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/platform/research/2025-06-Patient%20Search/research-findings.md)
-- [Patient Lookup Conversation Guide (R1 + R2 subset)](url goes here)
+- [Patient Lookup Conversation Guide (R1 + R2 subset)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/platform/research/2025-06-Patient%20Search/conversation-guide.md)
 - [Research Readout (PDF)](https://dvagov.sharepoint.com/:b:/r/sites/CDSProgramTeam/Shared%20Documents/Clinical%20Decision%20Support%20Platform%20Team%20(CDSP)/2.%20User%20Research/2025%20User%20Research/Patient%20Search/Patient%20Lookup%20%26%20Reverse%20Patient%20Context%20Research_Liz%20Blasi_06.23.2025.pdf?csf=1&web=1&e=KD8VbC)
 
 
