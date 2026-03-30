@@ -119,7 +119,7 @@ tags:
 > *Questions about how to set up your research study? Reach out first in the via Slack in [#cds-hcd-cop] (https://dsva.slack.com/archives/C06043YBWTC) or if more help is needed check out the [#research-ops](https://dsva.slack.com/archives/C0216PL32HJ) Slack channel.* 
 
 ## Background 🏗️
-<details><summary>Briefly describe the background of your product.</summary>
+<details><summary>Evaluate whether updates to the sidebar navigation concept improve efficiency and usability by refining the information architecture and ensuring a clear, intuitive structure</summary>
 	
 `What problem is your product or feature trying to solve?`
 
