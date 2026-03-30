@@ -130,7 +130,7 @@ tags:
 	• Board Appeal
 User feedback suggests confusion about when to choose each option, which may lead to incorrect submissions, delays, or frustration.**
   
-`Where is your product situated on VA.gov?`
+`Where is your product situated on VA.gov? (ex: auth vs. unauth)`
 
 **Unauthenticated**
   
