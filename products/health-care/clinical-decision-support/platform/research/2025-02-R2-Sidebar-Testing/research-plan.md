@@ -2,7 +2,7 @@
 # Research Plan Metadata
 title: "Research Plan for CDS Platform Team, CDS Console Sidebar Navigation, Q2 2025"
 date: 2025-02-17
-last_updated: 2025-03-07
+last_updated: 2026-03-30
 team: "CDS Platform Team (Thoughtworks)"
 product: "CDS Console – Sidebar Navigation"
 product_area: "Clinical Decision Support Console"
