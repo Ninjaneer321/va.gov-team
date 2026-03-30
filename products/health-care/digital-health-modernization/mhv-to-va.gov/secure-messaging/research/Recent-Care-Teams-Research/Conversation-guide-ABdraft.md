@@ -1,355 +1,358 @@
+
 # Conversation Guide: Recent Care Teams Research (50 min)
 
 ---
 
-## Pre-Session Logistics
+# Pre-Session
 
-### Ongoing settings checks
+## Logistics to confirm periodically
 
-- [ ] Settings → Meeting → In Meeting (Advanced) → Automated captions **ON**
-- [ ] Settings → Meeting → In Meeting (Advanced) → Full transcript **ON**
-- [ ] Settings → Meeting → In Meeting (Advanced) → Save captions **ON**
-- [ ] Settings → Meeting → In Meeting (Basic) → Sound notification when someone joins or leaves **OFF**
-- [ ] Settings → Meeting → In Meeting (Basic) → Screen sharing → Who can share → **All Participants**
-- [ ] Settings → Meeting → In Meeting (Basic) → Hide participant profile pictures in a meeting **ON**
+- Check Settings -> Meeting -> In Meeting (Advanced) > Automated captions, Full transcript, Save captions are all ON
+- Check Settings -> Meeting -> In Meeting (Basic) > Sound notification when someone joins or leaves is OFF
+- Check Settings -> Meeting -> In Meeting (Basic) > Screen sharing > Who can share > All Participants
+- Check Settings -> Meeting -> In Meeting (Basic) > Hide participant profile pictures in a meeting ON
 
-### 2–3 days before the session
+## 2–3 days before the session
 
-- [ ] Confirm notetaker availability
-- [ ] Let notetaker know if anything has changed in the conversation guide
-- [ ] Determine task rotation order based on final sample size
+- Confirm notetaker availability
+- Let notetaker know if anything has changed in the conversation guide
+- Determine task rotation order based on final sample size
 
-### Day of the session
+## Day of the session
 
-- [ ] Use **#feedback-backchannel** in Slack for real-time feedback from observers
-- [ ] Mute your Slack notifications
-- [ ] Send out the observer instructions to your observers
-  - Slackbot will do this for you if you type **"observer instructions"** into **#feedback-backchannel**
-- [ ] Sign into Zoom website via Google as Perigean w/ credentials provided and start Zoom meeting 5–10 minutes before
+- Use #feedback-backchannel in Slack for real-time feedback from observers.
+- Mute your Slack notifications.
+- Send out the observer instructions to your observers
+  - Slackbot will do this for you if you type **"observer instructions"** into #feedback-backchannel
+- Sign into Zoom website via Google as Perigean w/ credentials provided and start Zoom meeting 5–10 minutes before
 
-### Have these links ready
+## Have these links ready
 
-- [ ] **Production:** [va.gov/my-health](https://www.va.gov/?next=%2Fmy-health%2F&oauth=true)
-- [ ] **Prototype A link**
-- [ ] **Prototype B link**
+- Production: [va.gov/my-health](https://www.va.gov/?next=%2Fmy-health%2F&oauth=true)
+- Prototype A link
+- Prototype B link
 
 ---
 
-## Starting the Session
+# Starting the Session
 
-- [ ] In the Attendees section, make sure everyone except the participant is on mute
-- [ ] In the Participant "more" menu, make sure "Play Join and Leave Sound" is unchecked
-- [ ] Check your screensharing setup and share permissions for participants
-- [ ] When the participant is ready, begin the session with the intro below
-
----
-
-## Intro (5 min)
-
-> Thanks for joining us today! My name is Espy and I'm a researcher with the VA. Today, I'd like to talk to you about how you send messages to your care team on VA.gov. Before we start, I have a few things that I want to go over with you:
->
-> - This session will take about 45–60 minutes. I'll try to keep us on track, so I may occasionally move us to the next question or activity. If we finish early, I'll give you that time back.
-> - Your participation is completely voluntary. Whether you choose to participate or not will not affect your VA benefits in any way. If you'd like to stop at any point or skip a question, that's absolutely fine—just let me know.
-> - I'll start by asking some questions about your experience sending messages to your care teams. Then, I'll ask you to complete a few tasks using a prototype. A prototype is not a live website—it's something we use to explore ideas and get feedback before making changes. Some links may not work as expected, and using your browser's back button may take you out of the prototype. I'll ask you to share your screen when we get to that part.
-> - We're interested in your honest feedback. There are no right or wrong answers—we're not testing you. We're testing the design. Please feel free to share anything that stands out to you, whether positive or negative.
->
-> At this point, do you have any questions for me before we go forward?
->
-> I know the folks who invited you to participate in this interview asked if it was alright to allow people to observe this interview, but I want to double-check with you before we get going. Are you okay with a couple of additional observers during this session?
->
-> Do you have any questions before we begin?
-
-### Observer handling
-
-- **If no:** Use Slack to kindly ask the observers to leave the Zoom.
-- **If yes:** Admit observers.
-  - Ask the notetaker and observers to give a brief, camera-on introduction, like their first name and position with VA.gov.
-  - Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth.
-
-### Recording handling
-
-> With your permission, we'd like to record this session so we can accurately capture your feedback. We may share short clips with VA team members, but anything shared will be anonymized—we won't include your name or identifying information.
-
-- **If yes:** Once I start recording, I am going to confirm that you are okay with me recording this session once more.
-
-*[Start recording.]*
-
-> I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?
->
-> Are you comfortable if we decide to use a recorded clip from our discussion today to share with other VA partners if we remove any information that can be used to identify you?
+- In the Attendees section, make sure everyone except the participant is on mute.
+- In the Participant "more" menu, make sure "Play Join and Leave Sound" is unchecked
+- Check your screensharing setup and share permissions for participants.
+- When the participant is ready, begin the session with the following intro
 
 ---
 
-## Screen Sharing Instructions
+# Intro – 5 minutes
 
-> I'm going to ask you to do a couple things on the VA website, VA.gov, and to share your screen so I can see how you navigate on the website. Do you know how to share your screen?
+**Thanks for joining us today! My name is Espy and I'm a researcher with the VA. Today, I'd like to talk to you about how you send messages to your care team on VA.gov. Before we start, I have a few things that I want to go over with you:**
+
+**- This session will take about 45–60 minutes. I'll try to keep us on track, so I may occasionally move us to the next question or activity. If we finish early, I'll give you that time back.**
+
+**- Your participation is completely voluntary. Whether you choose to participate or not will not affect your VA benefits in any way. If you'd like to stop at any point or skip a question, that's absolutely fine—just let me know.**
+
+**- I'll start by asking some questions about your experience sending messages to your care teams. Then, I'll ask you to complete a few tasks using a prototype. A prototype is not a live website—it's something we use to explore ideas and get feedback before making changes. Some links may not work as expected, and using your browser's back button may take you out of the prototype. I'll ask you to share your screen when we get to that part.**
+
+**- We're interested in your honest feedback. There are no right or wrong answers—we're not testing you. We're testing the design. Please feel free to share anything that stands out to you, whether positive or negative.**
+
+**- At this point, do you have any questions for me before we go forward?**
+
+**- I know the folks who invited you to participate in this interview asked if it was alright to allow people to observe this interview, but I want to double-check with you before we get going. Are you okay with a couple of additional observers during this session?**
+
+**Do you have any questions before we begin?**
+
+## Observer handling
+
+- If no: *Use Slack to kindly ask the observers to leave the Zoom.*
+- If yes: *Admit observers.*
+- *Then, ask the notetaker and observers to give a brief, camera-on introduction, like their first name and position with VA.gov.*
+- *Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth.*
+
+## Recording handling
+
+**With your permission, we'd like to record this session so we can accurately capture your feedback. We may share short clips with VA team members, but anything shared will be anonymized—we won't include your name or identifying information.**
+
+- If yes: *Once I start recording, I am going to confirm that you are okay with me recording this session once more.*
+
+*Start recording.*
+
+**I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?**
+
+**Are you comfortable if we decide to use a recorded clip from our discussion today to share with other VA partners if we remove any information that can be used to identify you?**
+
+---
+
+# Screen Sharing Instructions
+
+**I'm going to ask you to do a couple things on the VA website, VA.gov, and to share your screen so I can see how you navigate on the website. Do you know how to share your screen?**
 
 *Instructions for folks using screenreaders on a desktop:*
-- Hit **Command + Shift + S** for Mac
+- Hit Command Shift S for mac
 
-> Great, now I can see your screen! Thank you for your patience in figuring this out.
+**Great, now I can see your screen! Thank you for your patience in figuring this out.**
 
-### Backup plan if they cannot share screen
+## Backup plan if they cannot figure out how to share screen
 
-> Ok, it seems like we're having trouble sharing your screen, so I'm going to share my screen with you and give you control of it. Does that sound ok?
+**Ok, it seems like we're having trouble sharing your screen, so I'm going to share my screen with you and give you control of it. Does that sound ok?**
 
-*[Share your screen.]*
+*Share your screen.*
 
-> Can you confirm if you can see my screen?
+**Can you confirm if you can see my screen?**
 
-*[Give mouse control.]*
+*Give mouse control.*
 
-> Can you click and see if you can move your mouse around on my screen?
+**Can you click and see if you can move your mouse around on my screen?**
 
 ---
 
-## Warm-Up (5 min)
+# Warm-Up – 5 minutes
 
-> Before we look at anything on screen, I would like to understand how you currently communicate with your VA care teams.
+**Before we look at anything on screen, I would like to understand how you currently communicate with your VA care teams.**
 
-1. > How do you usually communicate with your care teams?
-2. > How often do you send secure messages?
-3. > How many different care teams do you typically communicate with?
+1. **How do you usually communicate with your care teams?**
+2. **How often do you send secure messages?**
+3. **How many different care teams do you typically communicate with?**
 
-   *Probe if needed:* same facility, specialties, care system vs. care team
+   Probe if needed: same facility, specialties, care system vs care team
 
-4. > When you start a new message, how do you decide which care team to send it to?
+4. **When you start a new message, how do you decide which care team to send it to?**
 
-   *Probe if needed:* ease of finding teams, past difficulty
+   Probe if needed: ease of finding teams, past difficulty
 
 ---
 
 # Tasks
 
-## Task 1: Log In (3 min)
+---
 
-> I'm going to drop a link in the chat: Go to [va.gov/my-health](https://www.va.gov/?next=%2Fmy-health%2F&oauth=true) and log in to your account.
+# Task 1: Log In – 3 minutes
 
-*[Wait for them to land on the MHV landing page.]*
+**I'm going to drop a link in the chat: Go to [va.gov/my-health](https://www.va.gov/?next=%2Fmy-health%2F&oauth=true) and log in to your account.**
 
-> Great, thank you.
+*Wait for them to land on the MHV landing page.*
+
+**Great, thank you.**
 
 ---
 
-## Task 2: Start a New Message (15 min)
+# Task 2: Start a New Message – 15 minutes
 
-*[Participant should still be on the MHV landing page. Do not guide navigation before giving the scenario.]*
+*Participant should still be on the MHV landing page. Do not guide navigation before giving the scenario.*
 
-> Now imagine you have a question about your health and want to send a message to your care team. Show me how you would go about doing that.
->
-> As you go, please think aloud and tell me what you are looking at, what you are thinking, and what you expect to happen.
+**Now imagine you have a question about your health and want to send a message to your care team. Show me how you would go about doing that.**
 
-*[Observe entry point choice.]*
+**As you go, please think aloud and tell me what you are looking at, what you are thinking, and what you expect to happen.**
 
-### Interstitial page
+*Observe entry point choice.*
 
-*[Observe silently first.]*
+## Interstitial page
 
-**If they pause:**
+*Observe silently first.*
 
-1. > What are you noticing here?
-2. > Anything stand out?
-3. > What would you do next?
+If they pause:
 
-**If they move quickly:**
+1. **What are you noticing here?**
+2. **Anything stand out?**
+3. **What would you do next?**
 
-1. > What do you remember from that screen?
-2. > What did you think it was for?
+If they move quickly:
 
-### Recent care teams
+1. **What do you remember from that screen?**
+2. **What did you think it was for?**
 
-*[Observe before probing.]*
+## Recent care teams
 
-1. > What are you noticing here?
-2. > What do "recent care teams" mean to you?
-3. > Are you seeing who you expected?
-4. > What would you do next?
+*Observe before probing.*
 
-**Follow-up:**
-- > How did you decide?
-- > Did you consider others?
+1. **What are you noticing here?**
+2. **What do "recent care teams" mean to you?**
+3. **Are you seeing who you expected?**
+4. **What would you do next?**
 
-**If needed:**
-- > Is there a team you might want that is not listed?
-- > What would you do?
+Follow-up:
 
-### Select a care team page *(if reached)*
+- How did you decide?
+- Did you consider others?
 
-*[Observe search behavior.]*
+If needed:
 
-1. > What are you noticing?
-2. > How are you finding the right team?
+- Is there a team you might want that is not listed?
+- What would you do?
 
-   *Probe:* search vs. scroll, filters
+## Select a care team page (if reached)
 
-3. > What helps you know which is correct?
-4. > What if you cannot find it?
+*Observe search behavior.*
 
-### Contact list awareness
+1. **What are you noticing?**
+2. **How are you finding the right team?**
 
-*[Observe if links are noticed.]*
+   Probe: search vs scroll, filters
 
-- > What else do you notice?
+3. **What helps you know which is correct?**
+4. **What if you cannot find it?**
 
-**If not mentioned:**
-- > What would you do if you cannot find your team?
+## Contact list awareness
 
-*[If still not mentioned, point out links.]*
+*Observe if links are noticed.*
 
-- > What do you think these would help you do?
+- **What else do you notice?**
 
-*[Ask them to open the contact list if they have not.]*
+If not mentioned:
 
-### Contact list page
+- **What would you do if you cannot find your team?**
 
-*[Observe first.]*
+*If still not mentioned, point out links.*
 
-1. > What are you noticing?
-2. > What do you think this page is for?
-3. > What do you expect would happen if you used this?
+- **What do you think these would help you do?**
 
-**After interaction:**
+*Ask them to open the contact list if they have not.*
 
-1. > How do you think this works?
-2. > What happens if you add or remove teams?
-3. > Have you used something like this before?
+## Contact list page
 
-### Compose page
+*Observe first.*
 
-> Walk me through how you would write your message.
+1. **What are you noticing?**
+2. **What do you think this page is for?**
+3. **What do you expect would happen if you used this?**
 
-*[Pause at category section.]*
+After interaction:
 
-1. > How would you choose a category?
-2. > Anything confusing?
-3. > What do you do if unsure?
-4. > How does this step feel?
+1. How do you think this works?
+2. What happens if you add or remove teams?
+3. Have you used something like this before?
 
-### Task 2 wrap-up
+## Compose page
 
-1. > How did the process feel?
-2. > Was it what you expected?
-3. > What would you change?
-4. > Did recent teams match your needs?
-5. > How easy was it to find the right team?
-6. > Did anything feel different from what you expected?
+**Walk me through how you would write your message.**
 
-*[Have them discard draft.]*
+*Pause at category section.*
 
----
+1. **How would you choose a category?**
+2. **Anything confusing?**
+3. **What do you do if unsure?**
+4. **How does this step feel?**
 
-## Different Care Team Scenario (3 min) — *if needed*
+## Task 2 wrap-up
 
-*[Use only if they did not use "A different care team" earlier.]*
+1. **How did the process feel?**
+2. **Was it what you expected?**
+3. **What would you change?**
+4. **Did recent teams match your needs?**
+5. **How easy was it to find the right team?**
+6. **Did anything feel different from what you expected?**
 
-> Now imagine you want to message a different care team than the one you just selected, and you do not see them listed. Show me how you would do that.
-
-*[Observe path.]*
-
-1. > How did you decide where to go?
-2. > Did this feel different?
-3. > Was this expected?
-
-*[Have them discard draft.]*
+*Have them discard draft.*
 
 ---
 
-## Prototype Transition (2 min)
+# Different Care Team Scenario – 3 minutes (if needed)
 
-> Great, thank you. That was really helpful.
->
-> Now I am going to show you two different versions of this experience. These are prototypes, not real websites, so some things may not work exactly as expected, and that is okay.
->
-> As you go, keep thinking aloud and share anything that stands out.
+*Use only if they did not use "A different care team" earlier.*
 
----
+**Now imagine you want to message a different care team than the one you just selected, and you do not see them listed. Show me how you would do that.**
 
-## Concept Testing (15 min)
+*Observe path.*
 
-### Concept A (7 min)
+1. **How did you decide where to go?**
+2. **Did this feel different?**
+3. **Was this expected?**
 
-*[Drop Prototype A link in the chat.]*
-
-> I'm going to add another link to this prototype in the chat: Prototype A link
->
-> Imagine you want to message a care team about a health concern. Show me how you would find the right team and start a message.
-
-*[Observe.]*
-
-1. > Walk me through what you did.
-2. > How did you find the team?
-3. > What helped guide you?
-4. > Anything confusing?
-5. > What worked well?
-6. > Anything unexpected?
-
-**Concept probes:**
-- > What do "suggested care teams" mean?
-- > How does this layout feel?
+*Have them discard draft.*
 
 ---
 
-### Concept B (7 min)
+# Prototype Transition – 2 minutes
 
-*[Drop Prototype B link in the chat.]*
+**Great, thank you. That was really helpful.**
 
-> I'm going to add another link to this prototype in the chat: Prototype B link
->
-> Same task.
+**Now I am going to show you two different versions of this experience. These are prototypes, not real websites, so some things may not work exactly as expected, and that is okay.**
 
-*[Observe.]*
-
-1. > Walk me through what you did.
-2. > How did you find the team?
-3. > What helped guide you?
-4. > Anything confusing?
-5. > What worked well?
-6. > Anything unexpected?
-
-**Concept probes:**
-- > Was selecting a care system confusing?
-- > How did the single-page layout feel?
+**As you go, keep thinking aloud and share anything that stands out.**
 
 ---
 
-## Comparative Reflection (5 min)
+# Concept Testing – 15 minutes
 
-1. > How did the two experiences compare?
-2. > Did either feel faster or slower?
-3. > How did each show the teams you needed?
-4. > Where was it easier or harder to find the right team?
+## Concept A – 7 minutes
 
----
+**I'm going to add another link to this prototype in the chat: Prototype A link**
 
-## General Reflection (3 min)
+**Scenario: Imagine you want to message a care team about a health concern. Show me how you would find the right team and start a message.**
 
-1. > How did the overall experience feel?
-2. > Were any terms confusing?
-3. > If we could improve one thing, what should it be?
-4. > Anything else?
+*Observe.*
 
----
+1. **Walk me through what you did.**
+2. **How did you find the team?**
+3. **What helped guide you?**
+4. **Anything confusing?**
+5. **What worked well?**
+6. **Anything unexpected?**
 
-## Consent to Use Video Clips
+Concept probes:
 
-> I want to circle back and re-confirm that you are comfortable if we were to share a video clip of this session with our VA partners? Just to remind you, we will remove all information that could be used to identify you.
-
-- **If yes:**
-  > Is there any part of our discussion you would NOT want shared in a video clip?
+- What do "suggested care teams" mean?
+- How does this layout feel?
 
 ---
 
-## Thank-You and Closing (2 min)
+## Concept B – 7 minutes
 
-> Thank you so much for your time today. Your feedback is incredibly helpful as we continue improving this experience.
->
-> Thanks! Lastly, Perigean will be sending you a thank you note with a little blurb that you can pass along to other Veterans you may know to provide them the chance to participate in future research studies.
->
-> Thank you so much again, and enjoy the rest of your day!
+**I'm going to add another link to this prototype in the chat: Prototype B link**
+
+**Scenario: Same task.**
+
+*Observe.*
+
+1. **Walk me through what you did.**
+2. **How did you find the team?**
+3. **What helped guide you?**
+4. **Anything confusing?**
+5. **What worked well?**
+6. **Anything unexpected?**
+
+Concept probes:
+
+- Was selecting a care system confusing?
+- How did the single-page layout feel?
 
 ---
 
-## Emergency Exit
+# Comparative Reflection – 5 minutes
 
-*[In the rare case of an emergency during a session, be prepared with an emergency exit strategy. Plan to include here at least one option, so it's easy to find during a session. Take some time to practice these in advance.]*
+1. **How did the two experiences compare?**
+2. **Did either feel faster or slower?**
+3. **How did each show the teams you needed?**
+4. **Where was it easier or harder to find the right team?**
 
+---
+
+# General Reflection – 3 minutes
+
+1. **How did the overall experience feel?**
+2. **Were any terms confusing?**
+3. **If we could improve one thing, what should it be?**
+4. **Anything else?**
+
+---
+
+# Consent to Use Video Clips
+
+**I want to circle back and re-confirm that you are comfortable if we were to share a video clip of this session with our VA partners? Just to remind you, we will remove all information that could be used to identify you.**
+
+- If yes: **Is there any part of our discussion you would NOT want shared in a video clip?**
+
+---
+
+# Thank-You and Closing – 2 minutes
+
+**Thank you so much for your time today. Your feedback is incredibly helpful as we continue improving this experience.**
+
+**Thanks! Lastly, Perigean will be sending you a thank you note with a little blurb that you can pass along to other Veterans you may know to provide them the chance to participate in future research studies.**
+
+**Thank you so much again, and enjoy the rest of your day!**
+
+---
+
+# Emergency Exit
+
+*In the rare case of an emergency during a session, be prepared with an emergency exit strategy. Plan to include here at least one option, so its easy to find during a session. Take some time to practice these in advance.*
