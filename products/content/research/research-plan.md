@@ -150,9 +150,13 @@ User feedback suggests confusion about when to choose each option, which may lea
 
 
 **Key Takeaways from Previous Research:**
-- `[Major finding or insight that informs this study]`
-- `[Major finding or insight that informs this study]`
-- `[Major finding or insight that informs this study]`
+- `Veterans struggle most with knowing what evidence they need and how to gather it.`
+- `This uncertainty drives many to seek help from VSOs or lawyers.`
+- `The Decision Review Options page provides mixed clarity and confidence for Veterans.`
+- `Veterans like the idea of connecting with a VSO directly through VA.gov.`
+- `VSOs are often crucial to achieving a satisfactory claim outcome.`
+- `However, VSO quality varies, and a poor VSO experience can be harmful.`
+- `Veterans imagine an ideal “assisted self‑service” model: doing the process themselves on VA.gov with easy access to VSO help when needed.`
 
 > [!NOTE]
 > If this is the first research study for this product, you can note that here. You may also want to reference research from similar products or features that could provide relevant insights.
