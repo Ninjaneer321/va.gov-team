@@ -117,7 +117,7 @@ tags:
 
 `Where is your product situated within the clinicians' or VA staff's toolset (ex: CDS Console > MedCalc)`
 
-**CDS Console > Sidebar Navigation. The patient lookup feature allows clinicians to search for and switch the active patient context from within the Console sidebar, updating patient details across all open CDS applications.**
+**CDS Console > Sidebar Navigation. The patient lookup feature would allow clinicians to search for and switch the active patient context from within the Console sidebar, updating patient context across all open CDS applications.**
 
 `What is clinicians' familiarity with this tool? Is this a new product or an iteration on an existing one?`
 
@@ -140,10 +140,8 @@ Benefits:
 
 </details>
 
-> [!TIP]
-> Delete priorities not supported by this research.
 
-### [Clinician or VA Staff Journey](insert link)
+### [Clinician Journey]
 
 <details><summary>Where does your product fit into the Clinician or VA staff journey?
 
@@ -151,9 +149,6 @@ Benefits:
 - `Making clinical decisions`
 
 </details>
-
-> [!TIP]
-> Delete journeys not supported by this research.
 
 ## Research Goals 🥅
 `What are you trying to learn from this research?`
@@ -270,7 +265,7 @@ Provide a link to any materials you need to run your study, including any materi
 
 **For moderated interviews:**
 
-- [Link to conversation guide](url goes here)
+- [Patient Lookup Conversation Guide (R1 + R2 subset)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/platform/research/2025-06-Patient%20Search/conversation-guide.md)
 
 **Source materials for this synthesis:**
 - [R1 Sidebar Navigation Usability Testing — Session insights](url goes here)
