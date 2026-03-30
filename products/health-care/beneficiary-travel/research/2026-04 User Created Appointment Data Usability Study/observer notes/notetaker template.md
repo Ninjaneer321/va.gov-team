@@ -337,7 +337,7 @@ _Moderator will prompt the user to continue_
 
 
 
-
+⚠️ **NOTETAKER ACTION: At this point, share the pathway the user took in the backchannel thread so the moderator knows which alternate version to share**
 ---
 
 ### Claims details page
