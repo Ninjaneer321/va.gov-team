@@ -128,43 +128,22 @@ tags:
 
 `What is clinicians' familiarity with this tool? Is this a new product or an iteration on an existing one?`
 
-**The CDS Console sidebar is an existing product. Patient lookup and reverse patient context are net-new features being designed within the sidebar. Clinicians are highly familiar with patient search conventions from VistA/CPRS, which strongly shapes their expectations for this feature.**
-
-`Product Brief`
-
-**[Link to product brief](url goes here).**
+**The CDS Console sidebar is an existing product. Patient lookup and reverse patient context are net-new features being considered within the sidebar as well as within applications (Discovery phase). Clinicians are highly familiar with patient search conventions from VistA/CPRS, as well as tools like JLV, which strongly shapes their expectations for this feature.**
 
 </details>
 
-### [OCTO-DSD Priorities](insert link here)
+### [OCTO-DSD Priorities]
 
 <details><summary>Which OCTO priorities does this research support? Work with your VA lead and product manager as needed. </summary>
 
 
-`Objective 1:  VA's digital experiences are the easiest and most efficient way to access VA health care and benefits.`
+`Objective 1:  Two-Way Patient Context Management in CPRS'
+This initiative focuses on enhancing the clinician experience within the Clinical Decision Support (CDS) Console by implementing a robust two-way patient context management system. This feature will allow applications to set and synchronize the patient context in the Computerized Patient Record System (CPRS) seamlessly whenever a clinician selects a different patient. By leveraging capabilities such as SMART Apps and the CCOW protocol, we aim to create a streamlined workflow that significantly improves clinician efficiency and reduces cognitive load.
 
-> - **Key Result 1:** Improve satisfaction with our web and mobile products by 5 points.
-> - **Key Result 2:** We have reduced the total time Veterans spend waiting for a response from our digital experiences by 50%, towards a goal of less than 4 seconds per transaction.
-> - **Key Result 3:** 100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error.
-
-`Objective 2: OCTO's platforms are the fastest, most efficient, and most secure way to deliver products at VA.`
-
-> - **Key Result 1:** 100% of authentications to our systems and tools (both Veteran-facing and internal) occur using a secure credential.
-> - **Key Result 2:** We have reduced the total error rates in our platforms by 50% compared to Q4 2024, towards a goal less than 1% per endpoint.
-> - **Key Result 3:** 100% of VA employees have access to a valuable Generative AI tool to help with their work.
-> - **Key Result 4:** Each of our platforms* and tools increase the number of non-OCTO built capabilities or non-OCTO users by 50%. (*excluding mobile)
-
-`Objective 3: OCTO teammates are empowered with the knowledge and resources they need to make sustained impact.`
-
-> - **Key Result 1:** Team members reporting more than a reasonable amount of stress is 5 points lower for each quarter in 2025 than it was in the corresponding quarter in 2024.
-> - **Key Result 2:** Every OCTO Portfolio identifies 2 or more strategic decisions per quarter that would benefit the larger OCTO team, and documents them publicly in a shared location.
-> - **Key Result 3:** 75% or more team members are confident they have the knowledge needed to make effective decisions.
-
-`Objective 4: OCTO positively influences VA's ability to deliver software products and services faster, safer, and with higher quality.`
-
-> - **Key Result 1:** OCTO has delivered at least 10 impactful artifacts or learning activities (e.g., trainings, guides, COP meetings) focused on improving delivery practices that achieve an NPS score of 30 or higher from the target OIT delivery staff.
-> - **Key Result 2:** OCTO has helped resolve/support at least 10 significant engineering issues or products outside our portfolio.
-> - **Key Result 3:** Five or more non-OCTO teams have used SPRUCE to deliver high quality software.
+Benefits:
+- **Reduced Cognitive Load:** Clinicians can shift their focus between patients effortlessly, minimizing the burden of manual updates and enhancing their attention to patient care.
+- **Increased Efficiency:** Streamlined workflows enable clinicians to dedicate more time to patient interactions rather than administrative tasks, ultimately improving the quality of care.
+- **Enhanced User Experience:** A seamless interface will provide clinicians with quick access to relevant patient data, fostering a more intuitive and productive working environment.
 
 </details>
 
