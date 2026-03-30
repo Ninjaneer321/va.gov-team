@@ -13,7 +13,7 @@ _Instructions: Make a copy of this file. Rename it with the participant number, 
 **Comfortable with video clips?**
 
 
-**Observers admitted?** [ ] Yes / [ ] No
+**Observers admitted?** 
 
 ---
 
@@ -325,7 +325,7 @@ _Moderator will prompt the user to continue_
 **Looking at this page, did you create an appointment, file a claim, or both?**
 
 
-**If you came back in a few days and wanted to track the status, where would you go to find it?**
+**If you came back to Va.gov in a few days and wanted to track the status, where would you go to find it?**
 
 
 ### Things to watch for:
