@@ -37,76 +37,52 @@ In this research we are specifically exploring Veteran submitters' input on how 
 
 `3.` Identify opportunities to improve the experience from the start of a Veteran's issue until they are able to start the Ask VA form. (How they find Ask VA, how the text on our introduction page helps or hinders them, why they might leave or stay)
 
-### Outcome (IN PROGRESS)
+### Outcome 
 
 ---
 
-This research will create a shared understanding of the different mental models that submitters have in walking through the form and reviewing responses in their inbox. This will enable our team to make future design decisions that will enhance the Ask VA form and inbox experiences. 
-
-More specifically, we will be able to determine a forward design path to enable all submitters better access to their previous submissions. We will also be equipped with evidence when designing business lines’ requested changes to the Ask VA form.  
+This research will create a better understanding of how Ask VA fits into a Veteran's support experience with VA. We hope to uncover the different paths people might take to arrive at Ask VA and complete the form for help. This will help us make appropriate content decisions on the Ask VA Introduction page. This will also help us better understand how authentication impacts their experience. We will be able to make informed decisions about how authentication impacts a submitter's experience receiving support from Ask VA. 
 
 ---
 
-### Research questions
+### Research questions 
 
-`1.` What are submitters’ expectations with the Ask VA interface and process?  
+`1.` Where do Veterans expect to find the support they need? How do they decide which channel of support to use? 
 
-`2.`What are the biggest problem areas with the form for Veterans? For business submitters? 
+`2.` What are Veterans expectations for support from Ask VA when they've landed on our page?
 
-`3.`What are the biggest problem areas with the inbox for Veterans? For business submitters? 
+`3.` How does logging in impact a Veteran's ability to get the support they need from Ask VA? 
 
-`4.`How are submitters working around these problem areas? 
+`4.` How well does Ask VA's introduction page prepare Veterans to complete the form and get the answers they need?  
 
 ### Hypotheses
 
 ---
 
-Business submitters have to use workarounds to get the information they need from Ask VA.
+Navigating to Ask VA is _not_ straightforward or where Veterans would expect it to be. 
 
-Using Ask VA to submit education and work study documentation is overly burdensome to business submitters.  
+Veterans feel prepared to complete the Ask VA form upon reaching our introduction page.
 
-Veteran submitters expect a simple contact form allowing them to ask any question. 
-
-Veteran submitters don’t understand the internal routing processes to get their question to the right person.
+Veterans want support without having to login to their VA accounts. 
 
 ---
 
 ## Methodology
 
-**Research method:** Usability testing  
+**Research method:** Interviews  
 **Moderation style:** Moderated \- facilitator led  
 **Location:** Remote over Zoom  
-**Timeframe:** 60 minutes
-
-### Comparative study plan
-
-|  | Group A \- Staging then Proto | Group B *\-* Proto then Staging |
-| :---- | :---- | :---- |
-| Participants | <ul><li> **Veterans** (3-4)</li> <li>**Veteran SCOs** (1)</li>  <li>**SCOs** (2-3)</li></ul> | <ul><li> **Veterans** (3-4)</li>  <li>**Veteran SCOs** (1)</li>  <li>**SCOs** (2-3)</li></ul> |
-| Task Order | **Staging** <ol><li>Submit question</li>  <li>Review question in inbox</li></ol> **Prototype**  <ol><li>Submit question</li>  <li>Review question in inbox</li></ol> | **Prototype** <ol><li>Submit question</li>  <li>Review question in inbox</li></ol> **Staging**  <ol><li>Submit question</li>  <li>Review question in inbox</li></ol>  |
+**Timeframe:** 30-60 minutes
 
 ## Research materials
+- We will have Veterans navigate to va.gov and show us how they might navigate the site to find the support they need. 
 
-**For moderated usability test:**
 
-- [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/User%20research/2024-05%20Dashboard/Conversation%20guide%20-%20Veterans.md)  
-- [Ask VA staging site](https://staging.va.gov/contact-us/ask-va/introduction)  
-  - Login credentials  
-    - Email: [vets.gov.user+41@gmail.com](mailto:vets.gov.user+41@gmail.com), [vets.gov.user+220@gmail.com](mailto:vets.gov.user+220@gmail.com)   
-    - Password: AskVA2025Testing  
-- Prototype links  
-  - [Veteran (Tasks 1, 3): Submit Education and Work Study Question](https://www.figma.com/proto/YoeGJtWzHEH2bX2S4EGyBG/Ask-VA-Form-Future-exploration?node-id=1085-93727&viewport=19%2C157%2C0.05&t=FjCNmXJMbOXAZpmA-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1085%3A93727)  
-  - [Veteran (Tasks 2, 4): Review Question in Inbox](https://www.figma.com/proto/YoeGJtWzHEH2bX2S4EGyBG/Ask-VA-Form-Future-exploration?node-id=1154-18648&viewport=-315%2C-640%2C0.17&t=FjCNmXJMbOXAZpmA-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1154%3A18648&show-proto-sidebar=1)  
-  - [SCO (Tasks 1, 3): Submit Education and Work Study Question](https://www.figma.com/proto/YoeGJtWzHEH2bX2S4EGyBG/Ask-VA-Form-Future-exploration?node-id=1137-15665&viewport=10%2C-677%2C0.06&t=FjCNmXJMbOXAZpmA-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1137%3A15665&show-proto-sidebar=1)  
-  - [SCO (Tasks 2, 4): Review Question in Inbox](https://www.figma.com/proto/YoeGJtWzHEH2bX2S4EGyBG/Ask-VA-Form-Future-exploration?node-id=1091-10509&viewport=-1522%2C-6288%2C0.33&t=FjCNmXJMbOXAZpmA-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1091%3A10509&show-proto-sidebar=1)
-
-## Recruitment
+## Recruitment (IN PROGRESS)
 
 ### Recruitment approach
 
 We will work with Perigean to recruit Veterans.
-
-We will also work with the GI Bill team to recruit business submitters, such as Work study site supervisors or School Certifying Officials (SCOs). However, if we're unable to do this within our timeline, this will not be a blocker to completing this study.
 
 ### Recruitment criteria – Veterans
 
@@ -133,10 +109,9 @@ We will recruit 15 Veterans for a total of 12 completed sessions.
 
 | Question | Answers | Screening Criteria |
 | :---- | :---- | :---- |
-| Have you contacted the VA online or over the phone in the past year? | Yes / No | Must answer Yes |
-| Do you currently receive any VA Education or Training benefits?  | Yes / No  | Must answer Yes |
-| Are you currently a School Certifying Official (SCO) or Work Study Site Supervisor? | Yes / No | At least 2 participants must answer Yes |
-| Are you able to join the Zoom session from an internet-connected desktop or laptop computer? | Yes / No | Must answer Yes |
+| Have you contacted the VA online or over the phone for help in the past year? | Yes / No | Must answer Yes |
+| Do you currently receive any VA benefits?  | Yes / No  | Must answer Yes |
+| Are you able to join the Zoom session from an internet-connected desktop, laptop, or mobile phone? | Yes / No | Must answer Yes |
 | Do you find it difficult to remember or learn new things, focus on a task, or make decisions?  | Yes / No | At least 4 participants must answer Yes |
 
 ## Timeline 
@@ -152,7 +127,7 @@ We will recruit 15 Veterans for a total of 12 completed sessions.
 
 ### Prepare
 
-- `Pilot participant name:` Alex Castillo  
+- `Pilot participant name:` Cameron Johnson  
 - `Date and time of pilot session:` October 21, 2025 1:30-2:30 EST 
 
 ### Research sessions
