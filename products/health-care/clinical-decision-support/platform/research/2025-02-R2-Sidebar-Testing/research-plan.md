@@ -141,7 +141,7 @@ tags:
 
 ### OCTO-DSD Priorities
 
-<details><summary>Which OCTO priorities does this research support?</summary>
+<details><summary>[PGM] CDS Console Side Navigation and Header Refactor</summary>
 
 `Objective 1: Enhancing clinician efficiency in decision support workflows`  
 
