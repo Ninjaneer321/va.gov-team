@@ -1,5 +1,3 @@
-### **Instructions: Create copy and save as “2026-03 Homescreen Research Notes \- Participant \[number for your session\]” and share Edit permissions with theresa@themostudio.com**
-
 ### Notetaker name: Brenda Rocha
 
 ### Participant\# 2
