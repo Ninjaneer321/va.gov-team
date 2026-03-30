@@ -40,7 +40,7 @@ _Instructions: Make a copy of this file. Rename it with the participant number, 
 **7. [If filed for community care] Can you tell me more about your experience filing for community care? What did you do to get ready to file?**
 
 
-**8. [If no to Q1] If you were going to file for travel reimbursement today, where would you go or what would you do first?**
+**8. What kind of device are you using?**
 
 
 ---
@@ -125,13 +125,12 @@ _Instructions: Make a copy of this file. Rename it with the participant number, 
 #### Facility selection
 * **What would you do if you couldn't find your facility in this list?**
 
+#### Appointment name
+* **What would you put in this field?**
+
 
 #### Appointment type
 * **What do these "types" mean to you? Do you know which you would choose?**
-
-
-#### Appointment name
-* **What would you put in this field?**
 
 
 #### Did you attend your appointment?
