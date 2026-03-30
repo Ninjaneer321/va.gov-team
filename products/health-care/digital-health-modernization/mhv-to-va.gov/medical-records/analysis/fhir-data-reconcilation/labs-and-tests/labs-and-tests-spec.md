@@ -1,20 +1,23 @@
 # My HealtheVet on VA.gov Medical Records Domain Specification
 
-## Domain: [Domain Name]
+## Domain: Lab and Test Results
 
 <details>
     
 ### Sub-domains/types:
 - [ ] None
 
-- [ ] Has subdomains/types:
+- [X] Has subdomains/types:
     - Chemistry and Hematology
     - Microbiology
-    - Pathology
+    - Surgical Pathology
+    - Radiology
+    - Blood Bank [future ehnancement]
+
   
 </details>
 
-## Subdomain 1
+## Chemistry and Hematology
 
 <details>
 
@@ -30,12 +33,12 @@
 ### [domain/subdomain] UI design, based on FHIR R4 specification
 
 
-### Relevant subdomain 1 decisions
+### Relevant Chemistry and Hematology decisions
 
 </details>
 
 
-## Subdomain 2
+## Microbiology
 
 <details>
 
@@ -51,12 +54,12 @@
 ### [domain/subdomain] UI design, based on FHIR R4 specification
 
 
-### Relevant subdomain 2 decisions
+### Relevant Microbiology decisions
 
 </details>
 
 
-## Subdomain 3
+## Surgical Pathology
 
 <details>
 
@@ -72,12 +75,12 @@
 ### [domain/subdomain] UI design, based on FHIR R4 specification
 
 
-### Relevant subdomain 3 decisions
+### Relevant Surgical Pathology decisions
 
 </details>
 
 
-## Subdomain 4
+## Radiology
 
 <details>
 
@@ -93,7 +96,26 @@
 ### [domain/subdomain] UI design, based on FHIR R4 specification
 
 
-### Relevant subdomain 3 decisions
+### Relevant Radiology decisions
+
+## Blood Bank (future enhancement)
+
+<details>
+
+### [domain/subdomain] Fields to include in UI based on FHIR R4 specification
+
+[field grid]
+
+### VistA data as displayed in MHV Classic
+
+[image here]
+
+
+### [domain/subdomain] UI design, based on FHIR R4 specification
+
+
+### Relevant Blood Bank decisions
+
 
 </details>
 
