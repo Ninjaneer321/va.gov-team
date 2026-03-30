@@ -446,8 +446,8 @@ Based on themes and insights covered in this research round, additional research
 - [Round 2 Insights Overview](https://dvagov.sharepoint.com/:b:/r/sites/CDSProgramTeam/Shared%20Documents/Clinical%20Decision%20Support%20Platform%20Team%20(CDSP)/2.%20User%20Research/2025%20User%20Research/R2%20Sidebar%20Testing/QP%20Planning_Sidebar%20Navigation%20Discussion.pdf?csf=1&web=1&e=B9CKq1)
 - [March 19th, 2025 Showcase Demo Overview](https://dvagov.sharepoint.com/:b:/r/sites/CDSProgramTeam/Shared%20Documents/Clinical%20Decision%20Support%20Platform%20Team%20(CDSP)/2.%20User%20Research/2025%20User%20Research/R2%20Sidebar%20Testing/Sidebar%20Navigation%20R2%20Overview%20-%20DEMO_3.19.2025.pdf?csf=1&web=1&e=eCCb4I)
 - [User Testing Interview Clips for App Teams](https://dvagov.sharepoint.com/:x:/r/sites/CDSProgramTeam/Shared%20Documents/Clinical%20Decision%20Support%20Platform%20Team%20(CDSP)/2.%20User%20Research/2025%20User%20Research/R2%20Sidebar%20Testing/R2%20Sidebar%20Navigation%20User%20Testing%20Clips.xlsx?d=w627f36efd4c64f9ca4cfcf2606d64f70&csf=1&web=1&e=MGsbFZ) 
-- [Prototype A](link-here)
-- [Prototype B](link-here)
+- [Prototype A - Sidebar across user flow](https://www.figma.com/proto/iRqkr3vqVQzY2dOMAmPMs7/WIP-CDS-Console-%22Sidebar%22-Header?page-id=3784%3A11142&node-id=4078-8923&viewport=732%2C-2193%2C0.15&t=3zn3uL0XoaD0zQj0-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4078%3A8923&show-proto-sidebar=1)
+- [Prototype B - Selecting a new patient](https://www.figma.com/proto/YhERBZMWoqvwRgDUo6OgCx/User-Testing-Prototypes?page-id=2001%3A18&node-id=2001-18292&viewport=15%2C-2650%2C0.16&t=BEXplhKHSj8cHFxH-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2001%3A18292&show-proto-sidebar=1)
 
 ### Tools used for Synthesis
 
