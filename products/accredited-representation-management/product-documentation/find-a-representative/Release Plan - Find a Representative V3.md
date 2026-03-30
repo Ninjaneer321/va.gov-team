@@ -45,6 +45,8 @@ Synchronous Go/No Go (Placeholder)
 - [ ] Enable in Production to 20% of users for first day then turn on for 100%.
 - [ ] Confirm the release to Production, with a test user
 - [ ] Communicate release to ARP pilot users via Teams/Email
+- [ ] Mia to send out BLUF Statement
+- [ ] Communicate release to VBA and VSO liason office plus DAV leadership
 
 ***
 
