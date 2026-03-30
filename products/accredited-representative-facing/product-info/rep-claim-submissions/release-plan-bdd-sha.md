@@ -30,6 +30,7 @@ Asynchronous Go/No Go (Placeholder)
 - [ ] Enable in Production to 100% of users
 - [ ] Confirm the release to Production, with a test user
 - [ ] Communicate release to ARP pilot users via Teams/Email
+- [ ] Communicate release to VBA and VSO liaison office
 
 ***
 
