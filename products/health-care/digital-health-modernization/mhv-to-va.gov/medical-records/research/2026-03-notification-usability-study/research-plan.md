@@ -2,7 +2,7 @@
 # Research Plan Metadata
 title: "Medical Records: Recency Indicators Usability Study - March 2026"
 date: 2026-03-03
-last_updated: 2026-03-17
+last_updated: 2026-03-30
 team: "MHV Medical Records"
 product: "Medical Records: Recency Indicators"
 product_area: "authenticated"
@@ -12,7 +12,7 @@ background:
   problem_statement: "Veterans struggle to find their most recent medical records results after receiving notifications. Mixed grouping, information overload, and lack of recency indicators make it difficult to locate new lab results, care notes, and other recently added records."
   product_location: "VA.gov > My Health > Medical Records"
   user_familiarity: "Iteration on existing Medical Records product"
-  product_brief_url: "[[Research Review Synthesis](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2026-02_Research_Review/research-synthesis.md)"
+  product_brief_url: "[[Research Review Synthesis](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2026-02_Research_Review/research-synthesis.md)]"
 
 # Research Design
 methodology: "Moderated usability testing with concept exploration"
@@ -26,14 +26,14 @@ research_goals:
   - goal_2: "Evaluate whether landing page indicators + list page badges help veterans find recent results"
  
 research_questions:
-  - "How do veterans define 'new' or 'recent' when thinking about medical records? (7 days? 14 days? 30 days?)"
-  - "Do landing page cards showing counts of new results provide helpful orientation before entering lists?"
-  - "Are badges on list pages sufficient to identify new items, or is additional information needed?"
-  - "What information do veterans need on landing page cards to decide where to click?"
-  - "Does the 'breadcrumb' approach (landing page card → list page with badges → detail page) work for finding recent results?"
+  - "What characteristics signal 'new' or 'recent' to Veterans in their medical records?"
+  - "What navigation tactics help Veterans orient themselves to new information?"
+  - "What information helps Veterans orient, navigate, and understand new medical records?"
+  - "What types of visual information help Veterans identify what's new?"
+  - "Can Veterans connect information presented in different contexts?"
 
 hypotheses:
-  - "Veterans will prefer a time-based window of 7-14 days for 'new' indicators"
+  - "Veterans will prefer a time-based window of 7-14 days for 'Recent' indicators"
   - "Landing page cards showing counts will help veterans orient to where new results are located"
   - "Minimal information on cards (type + count) will be sufficient for navigation"
 
@@ -89,6 +89,8 @@ related_research:
   previous_studies: 
     - "[Medical Records Research Review Synthesis - February 2026](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2026-02_Research_Review/research-synthesis.md)"
     
+
+# Tags
 tags:
   - "health-care"
   - "MHV"
@@ -109,21 +111,22 @@ tags:
 ---
 
 
-# Research Plan for MHV Medical Records: Notification Usability Study - March 2026
+# Research Plan for MHV Medical Records: Recency Indicators Usability Study - March 2026
 
 ## Background 🏗️
 
 **What problem is your product trying to solve?**
 
-Veterans struggle to find their most recent medical records results after being notified they're available. Current issues include:
+Veterans struggle to find their most recent medical records results after being notified they're available. Medical records access represents 13.1% of all Medallia contacts, indicating this is a high-volume, high-friction area.
+
+Current issues include:
 - No clear indicators for "new" or "recent" results
 - Imaging buried within Labs & Tests, forcing manual scanning
 - Information overload on list pages
 - Unclear which category contains new information
 
-This results in veterans:
+This results in Veterans:
 - Clicking through multiple pages to find one new result
-- Calling help desk for support (13.1% of Medallia tasks)
 - Feeling frustrated and overwhelmed (42% of Medallia complaints)
 
 **Where is your product situated on VA.gov?**
@@ -136,7 +139,7 @@ Iteration on existing Medical Records product. Veterans are familiar with access
 
 **Product Brief**
 
- [MHV on Va.gov Medical Records Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records#mhv-on-vagov-medical-records-product-outline)
+[MHV on Va.gov Medical Records Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records#mhv-on-vagov-medical-records-product-outline)
     
 ---
 
@@ -145,13 +148,13 @@ Iteration on existing Medical Records product. Veterans are familiar with access
 **Previous Studies:**
 - [Medical Records User Research Review Synthesis - February 2026](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2026-02_Research_Review) - Synthesized 16 sources identifying 5 key insights and 4 use cases
 - [VA.gov Generative Research (2022-2025)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2022-10_Generative-research/2022-11-medical-records-readout.md) - Identified appointments, facilities, and conditions as natural anchors
-- Medallia Feedback Analysis (Q3-Q4 2025) - Documented sharp rise in "can't find" complaints post-platform switch
+- Medallia Feedback Analysis (Q3-Q4 2025) - Documented sharp rise in "can't find" complaints post-platform switch (90% volume increase in complaint count)
 
 **Key Takeaways from Previous Research:**
-- Veterans struggle with mixed grouping and navigation (imaging buried in Labs)
-- They want search and filtering tools (most explicit feature request)
+- Some Veterans struggle with mixed grouping and navigation (imaging buried in Labs)
+- Some express wanting search and filtering tools (most explicit feature request)
 - Information overload is a major pain point, especially on mobile
-- Veterans think in terms of appointments/facilities/conditions, not document types
+- Some Veterans think in terms of appointments/facilities/conditions, not document types
 - Uncertainty about record completeness erodes trust
 
 ---
@@ -159,13 +162,11 @@ Iteration on existing Medical Records product. Veterans are familiar with access
 ### OCTO-DE Priorities
 
 **Objective 3: Relentlessly improve the user experience**
-- **Key Result 3.1:** Supports this product’s OIT portfolio (Health, Benefits, etc) in improving customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more.
+- **Key Result 3.1:** Supports this product's OIT portfolio (Health, Benefits, etc) in improving customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more.
 
-- **Key Result 3.2:** 100% of end-user facing C100 systems maintain a ranked list of user pain points.
-  - *Research Ops Plain Language: Supports maintaining the ranked list of user pain points for Veteran-facing Products and Services.*
-  
-- **Key Result 3.3:** 100% of C-100 systems have delivered at least one release that directly addresses a documented user pain point with that system.
-  - *Research Ops Plain Language: Supports the delivery of at least one release that directly addresses a documented user pain point within this product.*
+- **Key Result 3.2:** Supports maintaining the ranked list of user pain points for Veteran-facing Products and Services.
+
+- **Key Result 3.3:** Supports the delivery of at least one release that directly addresses a documented user pain point within this product.
 
 ---
 
@@ -182,15 +183,15 @@ Iteration on existing Medical Records product. Veterans are familiar with access
 
 ### Goals
 
-**1.Understand how veterans conceptualize "new" or "recent" in medical records**
+**1. Understand how Veterans conceptualize "new" or "recent" in medical records**
 
 Learn what time window feels right (7 days? 14 days? 30 days?) and whether time-based indicators match their mental model.
 
-**2. Evaluate whether landing page indicators + list page badges help veterans find recent results**
+**2. Evaluate whether landing page indicators + list page badges help Veterans find recent results**
 
 Test the "breadcrumb" approach: landing page cards with counts → list pages with badges → detail pages.
 
-**3. Identify what information veterans need on cards and badges**
+**3. Identify what information Veterans need on cards and badges**
 
 Determine minimal vs. optimal content for landing page cards and list page indicators.
 
@@ -211,42 +212,52 @@ Findings will directly inform the production release addressing Use Case #1: Fol
 
 ### Research questions
 
-**1. How do veterans define "new" or "recent" when thinking about medical records?**
-- Is 7 days too short? 14 days? 30 days?
-- When a badge persists after viewing, is that helpful (reminder) or confusing (feels stale)?
-- What happens when the indicator goes away—is that okay or confusing?
+**RQ1: What characteristics signal "new" or "recent" to Veterans in their medical records?**
+- What do Veterans care about that tells them something is new or recent?
+- Is it time-based (7 days, 14 days, 30 days)? Event-based (since my appointment)? User-based (since I last looked)?
+- When something is marked as "recent" but they've already seen it, is that helpful (reminder) or confusing (feels stale)?
 
-**2. Do landing page cards showing counts of new results provide helpful orientation?**
-- Do they help veterans know where to look first?
-- Or do they feel like unnecessary extra clicks?
-- When veterans see "You have 2 new lab results," does that help them know where to go?
-- Does the card help connect to indicators on the list?
+> Maps to: Task 1 & 3 (mental model probes & exploring time window variations)
 
-**3. What information do veterans need on landing page cards?**
-- Is just the count enough ("2 new results")?
-- Do they need dates ("Added in last 7 days")?
-- Do they need specificity ("Chemistry Panel, Complete Blood Count")?
-- Do they need categories? 
+**RQ2: What navigation tactics help Veterans orient themselves to new information?**
+- Do counts of new results help them understand where to look? ("You have 2 new lab results")
+- What else helps them orient themselves to what's new?
+- What navigation patterns reduce cognitive load when scanning for recent items?
 
-**4. Are badges on list pages sufficient to identify new items?**
-- What makes a badge noticeable vs. easy to miss?
-- What additional context helps (dates, "RECENT" label, icon)?
+> Maps to: Task 2 (landing page entry), Task 2.5 (Recent Results section structure)
 
-**5. Does the breadcrumb approach work for finding recent results?**
-- Landing page card → list page → detail page
-- Is this flow intuitive or frustrating?
+**RQ3: What information helps Veterans orient, navigate, and understand new medical records?**
+- What helps them decide where to click?
+- What reduces information overload?
+- Is summary information enough, or do they need specific details upfront?
+
+> Maps to: Task 2 (exploration of card content), Task 2.5 (section structure)
+
+**RQ4: What types of visual information help Veterans identify what's new?**
+- Do badges, dates, sorting, or other visual cues help them understand what's new?
+- What combination of visual communication (icons, hierarchy, labels) helps them scan quickly?
+- Where do their eyes go first when looking for new items?
+
+> Maps to: Task 1&2 (observing scanning behavior), Task 3 (visual hierarchy discussion)
+
+**RQ5: Can Veterans connect information presented in different contexts?**
+- Do Veterans recognize the same information when presented on a landing page vs. a list page? (Recognition and recall)
+- Does seeing a summary ("2 new results") help them identify those items on a detail list?
+- Do they notice connections between information in different places, or does each page feel isolated?
+
+> Maps to: Task 2 (landing card → list flow), Task 1 vs Task 2 comparison
 
 ---
 
 ### Hypotheses
 
-**Hypothesis 1:** Veterans will prefer a time-based window of 7-14 days for "new" indicators, as this aligns with typical follow-up timelines after appointments.
+**Hypothesis 1:** Veterans will prefer a time-based window of 7-14 days for "Recent" indicators, as this aligns with typical follow-up timelines after appointments.
 
 **Hypothesis 2:** Landing page cards showing counts ("You have 2 new lab results") will provide helpful orientation, reducing aimless clicking through categories.
 
 **Hypothesis 3:** Minimal information on cards (record type + count + time frame) will be sufficient for navigation. Veterans don't need individual record names on landing page.
 
-**Hypothesis 4:** Badges on list pages will be more effective than landing page cards alone, as they provide specific identification of new items.
+**Hypothesis 4:** "Recent" Badges on list pages will be more effective than landing page cards alone, as they provide specific identification of new items.
 
 ---
 
@@ -264,22 +275,21 @@ This method is appropriate because:
 
 ### Location
 
-- [X] **Remote**
+60 minute video interviews over Zoom
 
 ---
 
 ## Research materials 📔
 
 **For moderated usability tests:**
-- [Link to conversation guide]([url goes here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2026-03-notification-usability-study/conversation-guide.md)) - *In progress*
-- [Link to prototype](url goes here) - *In progress, expected by March 20*
+- [Link to conversation guide](url goes here) - *In progress*
+- [Figma prototype](url goes here) - *In progress, expected by March 16*
 
 **Prototype will show:**
 - Medical Records landing page with "Recent Results" cards (Labs, Care Notes)
-- Cards show counts and time frame ("2 recent results - last 7 days")
+- Cards show counts and time frame ("2 new results - last 7 days")
 - Click-through to list pages with "RECENT" badges next to recent items
-- Ability to test variations in time window (7 vs. 14 days)
-- Ability to test "Recent Results" layout variations
+- Click-through to list pages with "RECENT" Indicators next to recent items
 
 ---
 
@@ -301,6 +311,8 @@ This method is appropriate because:
 
 ### Recruitment criteria
 
+We want to schedule 15 participants for sessions; for 10 completed sessions minimum.
+
 ### List the ideal completed sessions and total number of participants:
 
 - `Veterans:` **9**
@@ -316,7 +328,7 @@ This method is appropriate because:
 **All participants must meet these criteria:**
 
 - Have accessed VA medical records online (VA.gov or My HealtheVet) in the past 6 months
-- Have received lab results OR care notes/visit summaries in the past 3 months
+- Have received lab results OR care notes in the past 3 months
 - At least 3 participants with complex medical histories (multiple ongoing conditions, frequent appointments)
 - At least 3 participants with simple medical histories (occasional care, few conditions)
 
@@ -334,7 +346,14 @@ This method is appropriate because:
 
 ## Screener Questions 📋
 
-**1. Have you accessed your VA medical records online in the past 6 months?**
+**1. Do you receive VA healthcare benefits?**
+
+- **Qualifying response:** Yes
+- **Disqualifying response:** No
+
+---
+
+**2. Have you accessed your VA medical records online in the past 6 months?**
 
 This includes using VA.gov (My Health section) or My HealtheVet to view lab results, care notes, imaging, or other medical information.
 
@@ -343,7 +362,7 @@ This includes using VA.gov (My Health section) or My HealtheVet to view lab resu
 
 ---
 
-**2. Have you received lab results OR visit summaries/care notes from the VA in the past 3 months?**
+**3. Have you received lab results OR visit summaries/care notes from the VA in the past 3 months?**
 
 Lab results include bloodwork, urinalysis, or other lab tests. Visit summaries and care notes are records of your appointments with VA providers.
 
@@ -352,7 +371,7 @@ Lab results include bloodwork, urinalysis, or other lab tests. Visit summaries a
 
 ---
 
-**3. How would you describe your current health situation?**
+**4. How would you describe your current health situation?**
 
 - **Option A:** I have multiple ongoing health conditions and see VA providers regularly (at least monthly)
 - **Option B:** I have one or two health conditions and see VA providers occasionally (a few times per year)
@@ -362,7 +381,7 @@ Lab results include bloodwork, urinalysis, or other lab tests. Visit summaries a
 
 ---
 
-**4. How comfortable are you with technology and using websites or apps?**
+**5. How comfortable are you with technology and using websites or apps?**
 
 - **Option A:** Very comfortable - I use technology daily and rarely need help
 - **Option B:** Somewhat comfortable - I can usually figure things out but sometimes need help
@@ -372,7 +391,7 @@ Lab results include bloodwork, urinalysis, or other lab tests. Visit summaries a
 
 ---
 
-**5. How often do you access your VA medical records online?**
+**6. How often do you access your VA medical records online?**
 
 - **Option A:** Weekly or more often
 - **Option B:** Monthly (a few times a month)
@@ -387,11 +406,18 @@ Lab results include bloodwork, urinalysis, or other lab tests. Visit summaries a
 
 ### Prepare
 
-**Prototype finalized:** March 20, 2026(loose goal)
+**Prototype finalized:** March 16, 2026 (loose goal)
 
 **Pilot session:**
 - `Pilot participant name:` [TBD - send in Slack channel]
-- `Date and time of pilot session:` March 28, 2026, 2:00 PM EST
+- `Date and time of pilot session:` 3/28, Monday, Pilot Sessions (Team Only), Time TBD
+
+### Recruitment approach with Perigean
+
+We will partner with Perigean to recruit Veterans. We request a 30 minute kickoff meeting with Perigean to align on what is needed and desired from the sample. Availability for potential kickoff meeting times with Perigean, depending on their availability is below. More time can be made available based on Perigean's needs.
+
+**Proposed kickoff call times:**
+TBD
 
 ---
 
@@ -423,7 +449,6 @@ Lab results include bloodwork, urinalysis, or other lab tests. Visit summaries a
 - 4/8, Wednesday, 9:00 AM-12:00 PM, 1:00 PM-4:00 PM EST
 - 4/9, Thursday, 9:00 AM-12:00 PM, 1:00 PM-2:00 PM EST
 
-
 ---
 
 ## Team Roles 🕵️👩‍💻👩‍🔬
@@ -433,7 +458,7 @@ Lab results include bloodwork, urinalysis, or other lab tests. Visit summaries a
 - `Participant recruiting & screening:` **Perigean**
 - `Project point of contact:` **Laura Simpson** and **Jonathan Nelson**
 - `Accessibility specialist:` **Sara Horton**
-- `Note-takers:` **Jonathan Nelson**
+- `Note-takers:` TBD
 - `Observers:`
   - **[TBD]**
   - **[TBD]**
