@@ -28,7 +28,7 @@ As a user,
     - Accepted types: .pdf, .gif, .jpg, .jpeg, .bmp, .txt
     - A file with no file extension yields the same error
 1. If I try to add a file by dragging that is not one of the valid file types, I will see an error
-    - Error: "This is not a valid file type"
+    - Error: "We do not accept .png files. Choose a new file."
 1. If I try to add a file that is 0B, I will see an error and not be able to submit
     - Error: "The file you selected is empty. Files must be larger than 0B."
 1. If I try to add a non-pdf that is above 50MB or a pdf that is above 99MB, I will see an error and not be able to submit
@@ -65,11 +65,11 @@ As a user,
 1. If I click Delete, I will be shown a confirm remove modal with confirm or cancel buttons
     - Heading: "Delete this file?"
     - Description: "We'll delete the uploaded file [file name]"
-    - Confirm Button Text: "Yes, remove this"
+    - Confirm Button Text: "Yes, delete this"
     - Cancel Button Text: "No, keep this"
 1. If I confirm file removal in the modal, the file will be removed
 1. If I cancel file removal in the modal, the file will be kept
-1. If I delete a file, the other files will retain their correct data (document types, passwords)
+1. If I delete a file, the other files will retain their correct document type data but will lose the File password data (Is this an issue?)
 1. If I have multiple files with different validation errors and I delete one file, the remaining files should retain their specific error states correctly mapped to their new positions
 
 ### Submit Button Functionality and Upload Modal
@@ -83,9 +83,10 @@ As a user,
 1. If I click the "Cancel" button, the modal will close and I will not see a success or failure alert
 1. If I click the "X" button, the modal will close and the upload will continue, showing success alert when complete
 1. If I successfully submit files a success va-alert will be shown
-    - Heading: "We received your file upload on [date]"
-    - Text: "If your uploaded file doesn't appear in the Documents Filed section on this page, please try refreshing the page."
-1. If I submit a file that has already been successfully submitted, I get an error saying that it has been submitted already
+    - Heading: "We received your file upload on March 30, 2026 at 12:18 p.m. PDT"
+    - Text: "Your submission is in progress. It can take up to 2 days for us to receive your files."
+    - Link: Check the status of your submission
+1. If I submit a file that has already been successfully submitted (even with different doc type), I get an error saying that it has been submitted already
     - Heading:
     - Text:
     - Note: Cannot replicate on localhost
