@@ -2,7 +2,7 @@
 # Research Plan Metadata
 title: "Research Plan for VA Mobile App Homescreen Redesign, March 2026"
 date: 2026-03-11
-last_updated: 2026-03-23
+last_updated: 2026-03-30
 team: "VA Mobile App (Core Mobile)"
 product: "VA Health and Benefits Mobile App"
 product_area: "authenticated"
@@ -38,7 +38,7 @@ research_questions:
 
 hypotheses:
   - "Users will expect to find new content such as new Secure messages and items requiring their review and action on the homescreen."
-  - "Users very familiar with the app will expect to find Veteran status card, dependents, and disability rating and payments on the homescreen as reflects the current live app layout."
+  - "Users very familiar with the app will expect to find Veteran status card and disability rating and payments on the homescreen as reflects the current live app layout."
   - "Users less familiar with the app will expect to find Veteran status card and dependents verification in Profile."
   - "Users less familiar with the app will expect to find disability payments and rating in Profile or in Payments."
   - "Users will sometimes want more information than is presented on homescreen to help them with some tasks such as managing prescriptions, due dates for Action required items, or for appointments prep."
@@ -316,7 +316,7 @@ Are there moments that matter?</summary>
 ---
 **Research goal 1: Understand users' expectations for homescreen content and navigation**
 1. Users will expect to find new content such as new Secure messages and items requiring their review and action on the homescreen.
-2. Users very familiar with the app will expect to find Veteran status card, dependents, and disability rating and payments on the homescreen as reflects the current live app layout.
+2. Users very familiar with the app will expect to find Veteran status card and disability rating and payments on the homescreen as reflects the current live app layout.
 3. Users less familiar with the app will expect to find Veteran status card and dependents verification in Profile.
 4. Users less familiar with the app will expect to find disability payments and rating in Profile or in Payments.
 5. Users will sometimes want more information than is presented on homescreen to help them with some tasks such as managing prescriptions, due dates for Action required items, or for appointments preparation. 
