@@ -151,22 +151,29 @@ Before we start, I have a few things that I want to go over with you:
  - **If no, explain:** In certain scenarios, for example, if the VA facility is outside a certain distance, or if there is an extended wait time for VA Care, sometimes VA will approve you to go to other health care facilities in the community. These are called “community care” appointments. [This is important to explain to the participant so that they can understand the testing scenario we present to them below.]
 7. Have you filed for VA appointment(s) or community care appointment(s)?
 8. **If the participant has filed for community care:** Can you tell me more about your experience filing for community care? What did you do to get ready to file?
-9. If no to 1: If you were going to file for travel reimbursement today, where would you go or what would you do first?   
+9. If no to 1: If you were going to file for travel reimbursement today, where would you go or what would you do first?
+10. What type of device are you using for our session today?
 
 
 ## Section 2: Entry-point navigation (5-10 minutes)
 
 `Moderator: Now we’re going to take a look at the prototype. As a reminder, it’s a representation of the site, and some things will work like you'd expect, but other things won't be clickable. If you try to click something and it doesn't work, just let me know what you were trying to do, and I'll help us move forward.`   
 
-`Here’s the scenario I’d like you to imagine:`
-`Last week, you went to a community care appointment for your dermatologist. VA referred you here because the local facility doesn’t have a dermatology department. Now you’d like to file for travel pay for your appointment.` 
-
 > [!IMPORTANT]
-> Note-taker paste prototype link: https://www.figma.com/proto/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?page-id=16385%3A16515&node-id=16385-16517&viewport=262%2C-845%2C1.53&t=0iNBoVtOYsUrdtrD-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=16385%3A16517&show-proto-sidebar=1&hotspot-hints=0 
+> Notetaker should paste the prototype link: https://www.figma.com/proto/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?page-id=16385%3A16515&node-id=16385-16517&viewport=262%2C-845%2C1.53&t=0iNBoVtOYsUrdtrD-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=16385%3A16517&show-proto-sidebar=1&hotspot-hints=0 
 
-`In the chat, you’ll find a link to the prototype. It’s going to open on the VA.gov homepage. We’ll pretend that your name is Jordan, and you’re already logged in. Show me where you would click to file a travel claim for your recent appointment.` 
+`In the chat, you’ll find a link to the prototype. Please click that link.`
 
-`Remember to think out loud as you go and tell me what you’re looking for or thinking about.`
+Once they say the link is open: 
+
+`Now I'm going to ask you to share your screen on Zoom so that we can look at the page together. When you do that, we'll be able to see any information on the screen, so you might want to silence text or other notifications.`
+
+> [!NOTE]
+> If the participant struggles to screenshare, provide them with guidance. Reference the [Zoom screensharing support article](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060596).
+
+`Here’s the scenario I’d like you to imagine: Last week, you went to a community care appointment for your dermatologist. VA referred you here because the local facility doesn’t have a dermatology department.` 
+
+`Now you’d like to file for travel pay for your appointment. We’ll pretend that your name is Jordan, and you’re already logged in. Show me where you would click to file a travel claim for your recent appointment. Remember to think out loud as you go and tell me what you’re looking for or thinking about.`
 
 > [!NOTE]
 > ### Things to watch for:
