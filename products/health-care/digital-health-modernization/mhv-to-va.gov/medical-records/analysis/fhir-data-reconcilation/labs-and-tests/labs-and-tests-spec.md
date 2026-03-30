@@ -11,7 +11,7 @@
     - Microbiology
     - Surgical Pathology
     - Radiology (will be moving to its own domain in future enhancement)
-    - Blood Bank [future ehnancement]
+    - Blood Bank (future ehnancement])
 
   
 </details>
@@ -22,7 +22,12 @@
 
 ### [domain/subdomain] Fields to include in UI based on FHIR R4 specification
 
-[field grid]
+#### Cosmic Test (VistA) / Orderable test (Oracle)
+Each lab test has “top-level” information that describes the metadata for the test. Each Cosmic/Orderable test may have one or more structured results. 
+
+<img width="975" height="794" alt="image" src="https://github.com/user-attachments/assets/ee63d0fd-f0e6-432e-bb5a-f148bd96d07c" />
+
+
 
 ### VistA data as displayed in MHV Classic
 
