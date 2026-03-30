@@ -12,7 +12,7 @@ research_phase: "usability"
 research_method: "moderated_usability_test"
 
 # Session details
-session_duration: "60 minutes"
+session_duration: "90 minutes"
 session_type: "remote_moderated"
 participant_criteria: "Veterans who use VA health care and have attended VA appointments and/or community care appointments in the past 12 months, with varied experience filing for travel pay reimbursement"
 
@@ -65,9 +65,7 @@ consent_for_clips: true
 
 `List and complete any project-specific setup tasks for this study below:`
 
-- [ ] Step
-- [ ] Step 2
-- [ ] Step 3
+- [ ] Unhide the "Card - NEW CLAIM" frame in the [Figma prototype file](https://www.figma.com/design/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?node-id=16716-68410&t=4KLjXq8vP7HWRweg-1)
 
 ### Day of the session
 
@@ -80,9 +78,9 @@ consent_for_clips: true
 
 > [!TIP]
 > - In the Attendees section, make sure everyone except the participant is on mute.
-> - In the Participant "more" menu, make sure "Play Join and Leave Sound" is unchecked
-> - Check your [screensharing setup] and share permissions for participants.
-> - When the participant is ready, begin the session with the following intro*
+> - In the Participant "more" menu, make sure "Play Join and Leave Sound" is unchecked.
+> - Check your screensharing setup and share permissions for participants.
+> - When the participant is ready, begin the session with the following intro.
 
 # Intro - 5 minutes
 
@@ -93,7 +91,7 @@ Today we're going to talk about adding appointment information in order to file 
 
 Before we start, I have a few things that I want to go over with you:
 
-- **This entire session should take about 60 minutes.** I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
+- **This entire session should take no longer than 90 minutes.** I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
   
 - **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
   
@@ -140,15 +138,18 @@ Before we start, I have a few things that I want to go over with you:
 `Moderator: Before we look at our prototype, I’d like to start with a few questions about your experience with VA travel reimbursement.`
 
 1. Do you use VA health care?
-2. Have you filed for travel pay in the past?   
-If yes: Tell me more about it.   
-If no: Can you share more about why you haven’t filed?
-3. If yes to 1: Which system did you use to file for travel pay? (VAHB, VA.gov, BTSSS)
-4. If yes to 1: Are you familiar with “community care”? What does that phrase mean to you?
-If no, explain: In certain scenarios, for example, if the VA facility is outside a certain distance, or if there is an extended wait time for VA Care, sometimes VA will approve you to go to other health care facilities in the community. These are called “community care” appointments. [This is important to explain to the participant so that they can understand the testing scenario we present to them below.]
-5. If yes to 1:  Were the appointment(s) scheduled ahead of time, or walk-in appointments?
-6. If yes to 1: Have you filed for VA appointment(s) or community care appointment(s)?
-7. If the participant has filed for community care: Can you tell me more about your experience filing for community care? What did you do to get ready to file?
+- **If no:** Unfortunately, we're looking for participants who use VA health care for this study. Since you don't use VA health care, we'll wrap up here.
+- **If yes:** _Proceed to following questions._
+2. Have you filed for travel pay in the past?
+- **If no:** Can you share more about why you haven’t filed? _(Then jump to question 5.)_
+- **If yes:** _Proceed to following questions._
+3. Tell me more about it.   
+4. Which system did you use to file for travel pay? (VAHB, VA.gov, BTSSS)
+5. Are you familiar with “community care”? 
+ - **If yes:** What does that phrase mean to you?
+ - **If no, explain:** In certain scenarios, for example, if the VA facility is outside a certain distance, or if there is an extended wait time for VA Care, sometimes VA will approve you to go to other health care facilities in the community. These are called “community care” appointments. [This is important to explain to the participant so that they can understand the testing scenario we present to them below.]
+6. Have you filed for VA appointment(s) or community care appointment(s)?
+7. **If the participant has filed for community care:** Can you tell me more about your experience filing for community care? What did you do to get ready to file?
 8. If no to 1: If you were going to file for travel reimbursement today, where would you go or what would you do first?   
 
 
