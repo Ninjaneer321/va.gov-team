@@ -27,7 +27,7 @@ Feature Toggle/flag:
 - [X] Any "launch blocking" findings from Team QA have been addressed.
 - [X] The feature flag `find_a_representative_enabled` has been set to `Off` 
 - [X] Datadog monitoring is set up to track errors for combo box and search.
-- [ ] Google Analytics is set up to track specific search parameters. -- **_Actively working on this with the Analytics team._**
+- [ ] Google Analytics is set up to track specific search parameters. -- **_Actively working on this with the Analytics team.  GA tracking is already set up but ~1 month out from DOMO_**
 
 Any other issues or requirements that should be addressed prior to rollout?
 
