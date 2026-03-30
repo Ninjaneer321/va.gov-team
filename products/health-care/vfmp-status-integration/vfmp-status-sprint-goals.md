@@ -1,5 +1,13 @@
 # Sprint Planning for VFMP Health Status Tool
 
+## 📆 Sprint 6 (Apr 1 – Apr 14) 
+
+### Sprint Goal summary
+
+- **SPRINT GOAL (Eng):** Deliver a release-ready CST experience that renders CHAMPVA PEGA status across each page (homepage, Status, Files, Overview tabs)
+- **SPRINT GOAL (UX):** Deliver finalized content revisions for CHAMPVA sendback letters and supporting Status Tool messaging
+
+
 ## 📆 Sprint 5 (Mar 18 – Mar 31) 
 
 ### Sprint Goal summary
