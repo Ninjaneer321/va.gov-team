@@ -139,12 +139,36 @@ Before we start, I have a few things that I want to go over with you:
 
 # Warm-up Questions - 5 minutes
 
-Before we look at the prototype, let’s start with a few warm-up questions.
+Before we look at the prototype, let’s start with a few warm-up questions. 
 
-1. Do you have a service-connected disability at VA?
-- If yes: what is your disability rating?
-- If no, skip to question 2.
+1. Do you have a VA.gov account? 
+- [IF YES:]
+  - How often are you logging into VA.gov?
+  - For what tasks?
+- [IF NO:]
+  - Have you ever visited the VA.gov website?
+    - [IF YES:]
+      - For what tasks?
+      - How often are you visiting VA.gov?
+    - [IF NO:] What would you expect to find on VA.gov? 
 
+2. Have you ever applied for the CHAMPVA program? 
+- [IF YES:]
+  - Are you or anyone else in your household currently enrolled in the CHAMPVA program?
+  - Did you fill out the CHAMPVA application online, on paper, over the phone, etc.?
+  - What was your experience like after submitting the CHAMPVA application?
+  - Did you have to mail or fax in anything after you submitted your application?
+- [IF NO:] Have you ever heard about the CHAMPVA program before?
+  - What do you know about the program?
+  - [IF THEY’VE NEVER HEARD OF CHAMPVA] CHAMPVA is a healthcare reimbursement program for the spouses, dependents, and survivors of Veterans who meet certain service-connected disability requirements 
+
+3. Let’s imagine that you just submitted your CHAMPVA application on VA.gov.
+- What would you expect to happen after you submit your application?
+  - How would you expect to be notified or find updates on your application?
+    - [IF THEY MENTION CHECKING VA.GOV]
+      - How often would you be checking VA.gov?
+  - What would you want to be notified about?
+  - How soon do you expect to be notified about any updates on your application? 
 
 ## Screenshare & Prototype Setup - 5 minutes
 
