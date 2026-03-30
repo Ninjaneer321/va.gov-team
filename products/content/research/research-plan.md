@@ -17,8 +17,8 @@ background:
 # Research Design
 methodology: Moderated usability testing
 research_format: 
-  location: remote # remote
-  moderated: true # true
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
