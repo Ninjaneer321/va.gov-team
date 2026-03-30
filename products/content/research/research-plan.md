@@ -144,10 +144,6 @@ User feedback suggests confusion about when to choose each option, which may lea
 
 ### Related Research 🔍
 
-<details><summary>What research has been done on this product or similar products in the past?</summary>
-
-`Link to relevant past research studies that inform this work. This helps build institutional knowledge and prevents duplicate efforts.`
-
 **Previous Studies:**
 - Decision Review Options, January 2023 https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2022-11-Decision-Reviews/research-findings.md
 - [Link to Study 2 - Brief description, Date](url goes here)
