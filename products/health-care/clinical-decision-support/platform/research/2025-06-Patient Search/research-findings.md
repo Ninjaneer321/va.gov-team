@@ -310,6 +310,13 @@ This research supports measurement of this KPI by surfacing the specific risk fa
 
 ---
 
+## Notes on Prioritization of Feature
+
+- Decision by Product Owner on 06/09/2025 to not introduce search and select patient from the Console without restricted record flow.
+- Decision to have Task Manager tackle restricted record flow handeling in FY '25 Q4
+
+---
+
 ## Appendix
 
 ### Research documents
