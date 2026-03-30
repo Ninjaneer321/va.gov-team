@@ -477,7 +477,7 @@ These adjustments were incorporated into Round 2 testing and validated successfu
 - Applications retain current launch patterns
 
 **June 2025 - Enhancements to Design System Header:**
-- Add functionality with logic to orchestrate show/hide of demographics based on sidebar expand/collapse state
+- Add functionality with logic to orchestrate show/hide of demographics based on sidebar expand/collapse state - depriorized by Product Owner
 - Add space to Design System Header for in-app navigation
 
 **July 2025 - Design System Header Adoption:**
