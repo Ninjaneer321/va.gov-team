@@ -12,7 +12,7 @@ product_area: unauthenticated
 background:
   problem_statement: VA offers three review options for Veterans who disagree with a benefits decision, but many find these options confusing to navigate.
   product_location: "[Where is this situated on VA.gov (URL)?]"
-  user_familiarity: "Iteration"
+  user_familiarity: "[New product or iteration?]
 
 # Research Design
 methodology: Moderated usability testing
@@ -124,8 +124,7 @@ tags:
 	
 `What problem is your product trying to solve?`
 
-**The U.S. Department of Veterans Affairs provides veterans with three options if they disagree with a benefits decision:
-	Supplemental Claim, Higher-Level Review & Board Appeal.
+**The U.S. Department of Veterans Affairs provides veterans with three options if they disagree with a benefits decision: Supplemental Claim, Higher-Level Review & Board Appeal.
 User feedback suggests confusion about when to choose each option, which may lead to incorrect submissions, delays, or frustration.**
   
 `Where is your product situated on VA.gov? (ex: auth vs. unauth)`
@@ -134,7 +133,7 @@ User feedback suggests confusion about when to choose each option, which may lea
   
 `What is Veterans’ familiarity with this tool? Is this a new product or an iteration on an existing one?`
 
-**[Enter answer here]**
+**[New product or iteration?]**
 
 `Product Brief`
 
@@ -146,8 +145,6 @@ User feedback suggests confusion about when to choose each option, which may lea
 
 **Previous Studies:**
 - Decision Review Options, January 2023 https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2022-11-Decision-Reviews/research-findings.md
-- [Link to Study 2 - Brief description, Date](url goes here)
-
 
 **Key Takeaways from Previous Research:**
 - `Veterans struggle most with knowing what evidence they need and how to gather it.`
@@ -157,11 +154,6 @@ User feedback suggests confusion about when to choose each option, which may lea
 - `VSOs are often crucial to achieving a satisfactory claim outcome.`
 - `However, VSO quality varies, and a poor VSO experience can be harmful.`
 - `Veterans imagine an ideal “assisted self‑service” model: doing the process themselves on VA.gov with easy access to VSO help when needed.`
-
-> [!NOTE]
-> If this is the first research study for this product, you can note that here. You may also want to reference research from similar products or features that could provide relevant insights.
-
-</details>
 
 ### [OCTO-DE Priorities](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/strategy/OCTO%20FY26%20goals%20supported.md) 
 
