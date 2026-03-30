@@ -329,12 +329,12 @@ This research supports measurement of this KPI by surfacing the specific risk fa
 - Affinity Mapping
 
 ### Testing materials used
-- [R1 Static Figma Prototype — Patient Lookup Modal (sidebar, search, patient select flow)] (https://www.figma.com/proto/YhERBZMWoqvwRgDUo6OgCx/User-Testing-Prototypes?page-id=2001%3A30244&node-id=2001-54739&viewport=-649%2C-15839%2C0.41&t=cSb1NBiVsfu9qcFi-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2001%3A54739)
-- [R2 Static Figma Prototype — Full context-switching flow within STORM/CDS Console] (https://www.figma.com/proto/YhERBZMWoqvwRgDUo6OgCx/User-Testing-Prototypes?page-id=2001%3A18&node-id=2001-18292&viewport=15%2C-2650%2C0.16&t=BEXplhKHSj8cHFxH-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2001%3A18292&show-proto-sidebar=1)
+- [R1 Static Figma Prototype — Patient Lookup Modal (sidebar, search, patient select flow)](https://www.figma.com/proto/YhERBZMWoqvwRgDUo6OgCx/User-Testing-Prototypes?page-id=2001%3A30244&node-id=2001-54739&viewport=-649%2C-15839%2C0.41&t=cSb1NBiVsfu9qcFi-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2001%3A54739)
+- [R2 Static Figma Prototype — Full context-switching flow within STORM/CDS Console](https://www.figma.com/proto/YhERBZMWoqvwRgDUo6OgCx/User-Testing-Prototypes?page-id=2001%3A18&node-id=2001-18292&viewport=15%2C-2650%2C0.16&t=BEXplhKHSj8cHFxH-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2001%3A18292&show-proto-sidebar=1)
 
 ### Other supporting documents created
-- [R1 Sidebar User Testing Insights deck] (https://dvagov.sharepoint.com/:b:/r/sites/CDSProgramTeam/Shared%20Documents/Clinical%20Decision%20Support%20Platform%20Team%20(CDSP)/2.%20User%20Research/2024%20User%20Research/R1%20Sidebar%20Navigation%20Testing/Navigation%20Testing_Platform_Liz-Blasi_01.09.2025_redacted.pdf?csf=1&web=1&e=9mSv7H)
-- [R2 Sidebar User Testing Insights] (https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/platform/research/2025-02-R2-Sidebar-Testing/research-findings.md)
+- [R1 Sidebar User Testing Insights deck](https://dvagov.sharepoint.com/:b:/r/sites/CDSProgramTeam/Shared%20Documents/Clinical%20Decision%20Support%20Platform%20Team%20(CDSP)/2.%20User%20Research/2024%20User%20Research/R1%20Sidebar%20Navigation%20Testing/Navigation%20Testing_Platform_Liz-Blasi_01.09.2025_redacted.pdf?csf=1&web=1&e=9mSv7H)
+- [R2 Sidebar User Testing Insights](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/platform/research/2025-02-R2-Sidebar-Testing/research-findings.md)
 
 ### Secondary research
 - VistA/CPRS patient search conventions and syntax patterns
