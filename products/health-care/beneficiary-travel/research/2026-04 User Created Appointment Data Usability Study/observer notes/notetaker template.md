@@ -279,6 +279,7 @@ _Instructions: Make a copy of this file. Rename it with the participant number, 
 
 
 
+⚠️ **NOTETAKER ACTION: At this point, take a moment to un-hide Figma frame "Card - NEW CLAIM" in list of past appointments**
 
 ---
 
@@ -294,13 +295,16 @@ _Instructions: Make a copy of this file. Rename it with the participant number, 
 
 
 ### Things to watch for:
-- Do they recognize proof of attendance file as something they previously added?
+- Do they recognize proof of care received file as something they previously added?
 - Do they expect to edit appointment info like other information sections?
 
 **Notes:**
 
+---
 
+### Sign agreement page   
 
+_Moderator will prompt the user to continue_
 
 ---
 
@@ -328,8 +332,6 @@ _Instructions: Make a copy of this file. Rename it with the participant number, 
 - Do they notice messaging in alert or need prompting?
 - What do they think about appointment not appearing in past appointment list?
 - Do they know where to navigate for updates?
-
-**⚠️ NOTETAKER ACTION: Un-hide Figma frame "Card - NEW CLAIM" in list of past appointments**
 
 **Notes:**
 
