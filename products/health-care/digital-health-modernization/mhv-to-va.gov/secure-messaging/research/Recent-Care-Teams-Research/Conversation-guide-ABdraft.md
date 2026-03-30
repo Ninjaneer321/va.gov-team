@@ -85,6 +85,8 @@
 *Instructions for folks using screenreaders on a desktop:*
 - Hit Command Shift S for mac
 
+(ADD SCREEN SHARE INSTRUCTIONS)
+
 **Great, now I can see your screen! Thank you for your patience in figuring this out.**
 
 ## Backup plan if they cannot figure out how to share screen
@@ -110,10 +112,6 @@
 3. **How many different care teams do you typically communicate with?**
 
    Probe if needed: same facility, specialties, care system vs care team
-
-4. **When you start a new message, how do you decide which care team to send it to?**
-
-   Probe if needed: ease of finding teams, past difficulty
 
 ---
 
