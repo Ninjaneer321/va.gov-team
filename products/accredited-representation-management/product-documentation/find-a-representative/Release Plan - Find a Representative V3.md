@@ -33,7 +33,7 @@ Any other issues or requirements that should be addressed prior to rollout?
 
 
 
-### Go/No Go meeting on March 26, 2026
+### Go/No Go meeting on March 30, 2026
 Synchronous Go/No Go (Placeholder)
 
 - [ ] review the release plan with your team.
