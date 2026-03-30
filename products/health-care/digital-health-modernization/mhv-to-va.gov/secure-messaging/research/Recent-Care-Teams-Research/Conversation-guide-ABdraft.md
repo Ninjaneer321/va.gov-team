@@ -121,7 +121,7 @@
 
 # Task 1: Log In – 3 minutes
 
-**I'm going to drop a link in the chat: Go to [va.gov/my-health](https://www.va.gov/?next=%2Fmy-health%2F&oauth=true) and log in to your account.**
+**I'm going to drop a link in the chat: Go to [va.gov/my-health](https://www.va.gov/?next=%2Fmy-health%2F&oauth=true) and log in to your account. Let me know if you would like me to spell out the link and you can type it directly into your broswer. **
 
 *Wait for them to land on the MHV landing page.*
 
@@ -133,7 +133,7 @@
 
 *Participant should still be on the MHV landing page. Do not guide navigation before giving the scenario.*
 
-**Now imagine you have a question about your health and want to send a message to your care team. Show me how you would go about doing that.**
+**Now imagine you have a non-urgent question you want to send to your Patient Advocate and want to send a message to them. Show me how you would go about doing that.**
 
 **As you go, please think aloud and tell me what you are looking at, what you are thinking, and what you expect to happen.**
 
@@ -143,49 +143,35 @@
 
 *Observe silently first.*
 
-If they pause:
+If they pause on Interstitial:
+1. **What is this page for?**
+ - probe what does urgent needs mean to you?
 
-1. **What are you noticing here?**
-2. **Anything stand out?**
-3. **What would you do next?**
-
-If they move quickly:
+If they skip Interstitial:
 
 1. **What do you remember from that screen?**
 2. **What did you think it was for?**
 
-## Recent care teams
-
-*Observe before probing.*
+## Care teams you recently sent messages to
 
 1. **What are you noticing here?**
 2. **What do "recent care teams" mean to you?**
 3. **Are you seeing who you expected?**
-4. **What would you do next?**
+5. **What would you do next if you do not see Patient Advocate on this page?**
 
-Follow-up:
+*[Let thems select "Pick different care team]*
 
-- How did you decide?
-- Did you consider others?
-
-If needed:
-
-- Is there a team you might want that is not listed?
-- What would you do?
-
-## Select a care team page (if reached)
+## Select a care team page
 
 *Observe search behavior.*
 
 1. **What are you noticing?**
-2. **How are you finding the right team?**
+2. **Show me what you would do next to find the Patient Advocate Care team from here**
 
    Probe: search vs scroll, filters
 
-3. **What helps you know which is correct?**
-4. **What if you cannot find it?**
-
-## Contact list awareness
+If did not find Patient Advocate Care team
+ **What if you cannot find The patient advocate care team, what might you do next?**
 
 *Observe if links are noticed.*
 
@@ -193,65 +179,27 @@ If needed:
 
 If not mentioned:
 
-- **What would you do if you cannot find your team?**
-
-*If still not mentioned, point out links.*
-
 - **What do you think these would help you do?**
 
 *Ask them to open the contact list if they have not.*
 
-## Contact list page
-
-*Observe first.*
-
-1. **What are you noticing?**
-2. **What do you think this page is for?**
-3. **What do you expect would happen if you used this?**
-
-After interaction:
-
-1. How do you think this works?
-2. What happens if you add or remove teams?
-3. Have you used something like this before?
-
 ## Compose page
 
-**Walk me through how you would write your message.**
+**Have them message care team they would normally message if care team theyre looking for is not dispalyed. If care team is driplayes, have them message that care team (Patient advocate). Walk me through how you would write your message.**
 
 *Pause at category section.*
 
 1. **How would you choose a category?**
 2. **Anything confusing?**
-3. **What do you do if unsure?**
-4. **How does this step feel?**
+
+*Have them discard draft.*
 
 ## Task 2 wrap-up
 
-1. **How did the process feel?**
-2. **Was it what you expected?**
-3. **What would you change?**
-4. **Did recent teams match your needs?**
-5. **How easy was it to find the right team?**
-6. **Did anything feel different from what you expected?**
-
-*Have them discard draft.*
-
----
-
-# Different Care Team Scenario – 3 minutes (if needed)
-
-*Use only if they did not use "A different care team" earlier.*
-
-**Now imagine you want to message a different care team than the one you just selected, and you do not see them listed. Show me how you would do that.**
-
-*Observe path.*
-
-1. **How did you decide where to go?**
-2. **Did this feel different?**
-3. **Was this expected?**
-
-*Have them discard draft.*
+**Looking back at the process you just went through:**
+3. **Was there anything confusing or diffcult?**
+4. **Was it what you expected?**
+5. **What if anything, would you change about this experience?**
 
 ---
 
@@ -259,73 +207,60 @@ After interaction:
 
 **Great, thank you. That was really helpful.**
 
-**Now I am going to show you two different versions of this experience. These are prototypes, not real websites, so some things may not work exactly as expected, and that is okay.**
-
-**As you go, keep thinking aloud and share anything that stands out.**
+**Now wer're going to move on to the second part of this task. I am going to show you two different versions of this experience. These are prototypes, not real websites, so some things may not work exactly as expected, and that is okay. As you go, keep thinking aloud and share anything that stands out.**
 
 ---
 
 # Concept Testing – 15 minutes
 
-## Concept A – 7 minutes
+## Concept 1 – 7 minutes
 
 **I'm going to add another link to this prototype in the chat: Prototype A link**
 
-**Scenario: Imagine you want to message a care team about a health concern. Show me how you would find the right team and start a message.**
+**Scenario: Imagine you want to send a message to XYZ in Michigan healthcare system care. Show me how you would find XYZ care team and send a message.**
 
-*Observe.*
+*Ensure they narrate theier process/steps, let them go through the flow*
 
-1. **Walk me through what you did.**
-2. **How did you find the team?**
-3. **What helped guide you?**
-4. **Anything confusing?**
-5. **What worked well?**
-6. **Anything unexpected?**
-
-Concept probes:
-
-- What do "suggested care teams" mean?
-- How does this layout feel?
-
+Caoncept A wrap-up
+1. **Was there anything that worked well or was confusing?**
+2. **What if anything, would you change about this experience?**
+   
 ---
 
-## Concept B – 7 minutes
+## Concept 2 – 7 minutes
 
-**I'm going to add another link to this prototype in the chat: Prototype B link**
+**I'm now going to add our last link to another prototype in the chat: Prototype 2 link**
 
-**Scenario: Same task.**
+**Scenario: Imagine you want to send a message to XYZ in Michigan healthcare system care. Show me how you would find XYZ care team and send a message.**
 
-*Observe.*
+*Ensure they narrate theier process/steps, let them go through the flow*
 
-1. **Walk me through what you did.**
-2. **How did you find the team?**
-3. **What helped guide you?**
-4. **Anything confusing?**
-5. **What worked well?**
-6. **Anything unexpected?**
+1. probe: **what do you think this blue box is for, is it helpful? what is it intended for?**
+2. probe: **What are your thoughts about the recent care teams and recent care team suggestion suggestions**
 
-Concept probes:
 
-- Was selecting a care system confusing?
-- How did the single-page layout feel?
+Cancept 2 wrap-up
+
+1. **Was there anything that worked well or was confusing?**
+3. **What if anything, would you change about this experience?**
+ 
 
 ---
 
 # Comparative Reflection – 5 minutes
+Thinking back to the two prortypes you just saw I have a a couple questions: 
 
 1. **How did the two experiences compare?**
-2. **Did either feel faster or slower?**
-3. **How did each show the teams you needed?**
-4. **Where was it easier or harder to find the right team?**
+2. **Was one easier or clearer in your experience?**
 
 ---
 
 # General Reflection – 3 minutes
 
+Alirght thank you so much, that completes all our tasks for the day. 
 1. **How did the overall experience feel?**
-2. **Were any terms confusing?**
 3. **If we could improve one thing, what should it be?**
-4. **Anything else?**
+4. **Anything else youd like to share we havent covered?**
 
 ---
 
