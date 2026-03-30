@@ -2,7 +2,7 @@
 # Research Plan Metadata
 title: "Research Plan for Patient Lookup and Reverse Patient Context, Platform, June 2025"
 date: 2025-06-01
-last_updated: 2025-06-01
+last_updated: 2026-03-30
 team: "Platform"
 product: "CDS Console"
 product_area: "CDS Console — Sidebar Navigation / Patient Context"
