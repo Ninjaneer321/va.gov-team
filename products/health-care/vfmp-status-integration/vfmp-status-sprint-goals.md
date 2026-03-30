@@ -4,7 +4,7 @@
 
 ### Sprint Goal summary
 
-- **SPRINT GOAL (Eng):** Deliver a release-ready CST experience that renders CHAMPVA PEGA status across each page (homepage, Status, Files, Overview tabs)
+- **SPRINT GOAL (Eng):** Deliver a functional CST experience that renders CHAMPVA PEGA status across each page (homepage, Status, Files, Overview tabs)
 - **SPRINT GOAL (UX):** Deliver finalized content revisions for CHAMPVA sendback letters and supporting Status Tool messaging
 
 
