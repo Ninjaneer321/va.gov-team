@@ -95,7 +95,7 @@ timeline:
   research_review_submission: "TBD"
 
 session_details:
-  duration_minutes: "45 to 120 (depending on participant completion time)"
+  duration_minutes: "45 to 90 (depending on participant completion time)"
   buffer_minutes: 60
   max_sessions_per_day: 2
 
@@ -381,7 +381,7 @@ We'll use va.gov production, so it's ready. We're not planning a pilot session f
 - `Planned dates of research:` We'd like to do rolling research sessions beginning ASAP. Initially, our goal is to complete 1 session / week for 6 weeks. Let's discuss in detail over kick off.
 
 ### Length of sessions
-- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` up to 120 minutes (will depend on how long participant takes to complete application)
+- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` up to 90 minutes (will depend on how long participant takes to complete application)
   
 - `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` 1 hour
   
