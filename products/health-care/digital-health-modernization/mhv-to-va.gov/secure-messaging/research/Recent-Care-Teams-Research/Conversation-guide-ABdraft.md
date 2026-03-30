@@ -59,8 +59,6 @@
 
 **- I know the folks who invited you to participate in this interview asked if it was alright to allow people to observe this interview, but I want to double-check with you before we get going. Are you okay with a couple of additional observers during this session?**
 
-**Do you have any questions before we begin?**
-
 ## Observer handling
 
 - If no: *Use Slack to kindly ask the observers to leave the Zoom.*
