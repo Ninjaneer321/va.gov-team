@@ -363,17 +363,17 @@ Cohort 2 (recruit 12 people):
 
 ### Optional Kick-off Call with Perigean
 We would like a kick-off call with Perigean to discuss recruitment criteria. Suggested dates and times, all in EST: 
-> - Monday 3/30: 12:30-1pm, 4-4:30pm
-> - Tuesday 3/31: 3-4:30pm 
-> - Wednesday 4/1: 12-1pm, 2:30-3:30pm 
+> - Wednesday 4/1: 12-1pm
+> - Thursday 4/2: 1:30-3pm
+> - Friday 4/3: 2-4:30pm
 
 ### Prepare
 **A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.** 
 > [!NOTE]
 > **Send pilot participant email in study Slack channel**
 
-- `Pilot participant name:` 
-- `Date and time of pilot session:` Will schedule between 3/30 and 4/2
+- `Pilot participant name:` Steven Straily
+- `Date and time of pilot session:` Wednesday 4/1 2:30-3:30pm ET
 
 ### Research sessions
 - `Planned dates of research:`
