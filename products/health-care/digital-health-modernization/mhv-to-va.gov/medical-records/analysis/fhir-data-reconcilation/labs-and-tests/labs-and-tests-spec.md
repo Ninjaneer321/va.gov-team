@@ -4,14 +4,13 @@
 
 <details>
     
-### Sub-domains/types:
-- [ ] None
+### Sub-domains (types)
 
 - [X] Has subdomains/types:
     - Chemistry and Hematology
     - Microbiology
     - Surgical Pathology
-    - Radiology
+    - Radiology (will be moving to its own domain in future enhancement)
     - Blood Bank [future ehnancement]
 
   
