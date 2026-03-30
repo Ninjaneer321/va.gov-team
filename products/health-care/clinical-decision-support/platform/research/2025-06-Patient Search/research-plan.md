@@ -12,7 +12,6 @@ background:
   problem_statement: "VA stakeholders requested a collation of existing patient-search related user findings from prior CDS Console studies to inform the design and implementation of patient lookup and reverse patient context features."
   product_location: "CDS Console > Sidebar Navigation"
   user_familiarity: "Iteration on existing Console sidebar; patient lookup is a net-new feature within the CDS Console context"
-  product_brief_url: "[URL]"
 
 # Research Design
 methodology: "Secondary research synthesis — collation and analysis of findings from prior usability testing studies (R1 and R2 Sidebar Navigation rounds)"
@@ -80,16 +79,10 @@ session_details:
 
 # Strategic Alignment
 octo_priorities:
-  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
-    key_results:
-      - "Improve satisfaction with our web and mobile products by 5 points"
-      - "100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error"
-  - objective: "OCTO's platforms are the fastest, most efficient, and most secure way to deliver products at VA"
-    key_results:
-      - "We have reduced the total error rates in our platforms by 50% compared to Q4 2024, towards a goal less than 1% per endpoint"
+  - objective: "Two-Way Patient Context Management in CPRS ('reverse patient context')"
 
 veteran_journey_phases:
-  - "Patient appointment"
+  - "Patient context selection"
   - "Making clinical decisions"
   - "Documentation or charting"
 
@@ -128,7 +121,7 @@ tags:
 
 `What is clinicians' familiarity with this tool? Is this a new product or an iteration on an existing one?`
 
-**The CDS Console sidebar is an existing product. Patient lookup and reverse patient context are net-new features being considered within the sidebar as well as within applications (Discovery phase). Clinicians are highly familiar with patient search conventions from VistA/CPRS, as well as tools like JLV, which strongly shapes their expectations for this feature.**
+**The CDS Console sidebar is an existing feature within an existing product. Patient lookup and reverse patient context are net-new features being considered within the sidebar as well as within applications (Discovery phase). Clinicians are highly familiar with patient search conventions from VistA/CPRS, as well as tools like JLV, which strongly shapes their expectations for this feature.**
 
 </details>
 
@@ -154,15 +147,8 @@ Benefits:
 
 <details><summary>Where does your product fit into the Clinician or VA staff journey?
 
-- `Scheduling an appointment`
-- `Preparing for an appointment`
-- `Patient appointment`
-- `Patient follow-up`
+- `Patient selection`
 - `Making clinical decisions`
-- `Documentation or charting`
-- `Putting in an order`
-- `Reviewing results`
-- `Closing an encounter`
 
 </details>
 
@@ -253,17 +239,15 @@ Benefits:
 <details><summary>Examples of common research methods include</summary>
 
 - `Semi-structured interviews - appropriate for generative research`
-- `Contextual inquiry - appropriate for generative research`
-- `Card sorts - appropriate for generative and evaluative research; depending on the study design`
-- `Tree tests - appropriate for evaluative research`
 - `Usability testing - appropriate for evaluative research`
-- `User acceptance testing (UAT) - required before product release`
 
 </details>
 
 **Secondary research synthesis.** This study involved the review, extraction, and thematic collation of patient-search relevant findings from two prior usability testing rounds — R1 Sidebar Navigation (December 2024) and R2 Sidebar Navigation (February–March 2025). No new participants were recruited or sessions conducted. Findings unrelated to patient lookup and reverse patient context (e.g., MedCalc, Task Manager, Voogle navigation) were excluded from the synthesis scope.
 
 This method is appropriate because prior studies already generated rich, directly relevant clinician feedback on this topic. New primary research would be redundant at this stage. The synthesis creates a consolidated, accessible resource for the design team and stakeholders, and was initiated at the explicit request of VA stakeholders seeking a single reference for patient-search related user insights.
+
+When considering patient selection and/or reverse patient context as a feature within applications, **additional user testing is recommended.**
 
 <details><summary>Additional resources</summary>
 
@@ -289,11 +273,11 @@ Provide a link to any materials you need to run your study, including any materi
 - [Link to conversation guide](url goes here)
 
 **Source materials for this synthesis:**
-- [R1 Sidebar Navigation Usability Testing — Session notes and insights](url goes here)
-- [R2 Sidebar Navigation Usability Testing — Session notes and insights](url goes here)
-- [Patient Lookup and Reverse Patient Context Research Findings](url goes here)
+- [R1 Sidebar Navigation Usability Testing — Session insights](url goes here)
+- [R2 Sidebar Navigation Usability Testing — Session insights](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/platform/research/2025-02-R2-Sidebar-Testing/research-findings.md)
+- [Patient Lookup and Reverse Patient Context Research Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/platform/research/2025-06-Patient%20Search/research-findings.md)
 - [Patient Lookup Conversation Guide (R1 + R2 subset)](url goes here)
-- [Research Readout (PDF)](url goes here)
+- [Research Readout (PDF)](https://dvagov.sharepoint.com/:b:/r/sites/CDSProgramTeam/Shared%20Documents/Clinical%20Decision%20Support%20Platform%20Team%20(CDSP)/2.%20User%20Research/2025%20User%20Research/Patient%20Search/Patient%20Lookup%20%26%20Reverse%20Patient%20Context%20Research_Liz%20Blasi_06.23.2025.pdf?csf=1&web=1&e=KD8VbC)
 
 
 ## Recruitment 🎯
