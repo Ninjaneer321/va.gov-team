@@ -23,23 +23,49 @@
 ### Chemistry and Hematology fields to include in UI based on FHIR R4 specification
 
 #### Cosmic Test (VistA) / Orderable test (Oracle)
-Each lab test has “top-level” information that describes the metadata for the test. Each Cosmic/Orderable test may have one or more structured results. 
+
+<details>
+
+Each chem/hem lab test has “top-level” information that describes the metadata for the test. Each Cosmic/Orderable test (panel) may have one or more structured results. 
 
 <img width="772" height="704" alt="image" src="https://github.com/user-attachments/assets/c95e06a6-715c-4904-b94a-28bfcc40a43c" />
 
+</details>
+
+
 #### Atomic Test (VistA) / Discrete Task Assay (Cerner): 
+
+<details>
+
 Each lab test may have one or more results. In FHIR, these would be represented by a Resource called Observation. Observations may be returned as a set of structured data or as an unstructured report.
 
 <img width="775" height="718" alt="image" src="https://github.com/user-attachments/assets/c2eb6c6c-4f7c-4562-a895-80e8c63b4a00" />
 
-
-### VistA data as displayed in MHV Classic
-
-[image here]
+</details>
 
 
-### [domain/subdomain] UI design, based on FHIR R4 specification
+### VistA data as displayed in MHV Classic (example of a Hemogram + Platelet test)
 
+<details>
+
+(click to view image; click again to enlarge)
+
+<img width="300" height="1780" alt="chem-hem-classic" src="https://github.com/user-attachments/assets/2f5afec3-2129-4ddf-ac6e-c235cd89b0fa" />
+
+
+</details>
+
+### Chemistry and Hematology VA.gov UI design, based on FHIR R4 specification
+
+<details>
+
+(click to view image; click again to enlarge)
+
+Note that `Interpretation` in this mockup is incorrect.  Based on data we see returned in FHIR R4; `Interpretation` is the flag that describes if a result was normal, high, critically high, low, critically low. 
+
+<img width="206" height="900" alt="chem-hem-vagov" src="https://github.com/user-attachments/assets/3309395e-8c24-4bae-93b5-5305c4f96d29" />
+
+</details>
 
 ### Relevant Chemistry and Hematology decisions
 
