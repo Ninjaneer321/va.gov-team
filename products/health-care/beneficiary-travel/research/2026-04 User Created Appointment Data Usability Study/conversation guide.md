@@ -207,10 +207,12 @@ _After participant reviews page_
 > [!NOTE]
 > #### Things to watch for:
 > - 1. What do they notice first on the page? 
-> - a. If it’s the past appointments page, are they able to locate the link at the bottom of the page?
-> - b. If it’s the travel claims list page, do they notice the link to past appointments first or the link to file a claim first?
-> - Are they able to navigate through all the text at the top of the page to find the text that’s relevant to them?
-> - If they choose to create a claim first rather than view past appointments, what is their reasoning?
+>   - a. If it’s the past appointments page:
+>     - Are they able to locate the link at the bottom of the page? 
+>     - If they choose to create a claim first rather than view past appointments, what is their reasoning? 
+>   - b. If it’s the travel claims list page:
+>     - Do they notice the link to past appointments first or the link to file a claim first?
+>     - Are they able to navigate through all the text at the top of the page to find the text that’s relevant to them?
 > - 2. Do they read instructional text aloud, ignore it, or paraphrase?
 
 ### Intro page   
@@ -218,7 +220,7 @@ _After participant reviews page_
 
 1. What is the page telling you?
 2. Based on what you’re reading, does it seem like this is the correct path for your scenario?
-3. _If the user does not notice the alert, prompt them_ I see an alert at the top of this page. Can you tell me more about that information?
+3. _If the user does not notice the alert, prompt them:_ I see an alert at the top of this page. Can you tell me more about that information?
 4. Is there anything here that gives you pause or makes you uncertain?
 5. What do you think you need to do next?
 
@@ -250,8 +252,7 @@ _After participant reviews page_
 * What do you think will happen once you continue?
 * What do you think would happen if you left or went back a step? Would your information here be saved?   
 
-_If earlier in the session, they indicated that they have filed for travel pay on community care appointment_
-`You mentioned that you have filed for community care before. How do you typically recall or keep track of your community care appointment information when filing for travel pay?`
+_If earlier in the session, they indicated that they have filed for travel pay on community care appointment:_ You mentioned that you have filed for community care before. How do you typically recall or keep track of your community care appointment information when filing for travel pay?`
 
 > [!NOTE]
 > #### Things to watch for:
@@ -262,7 +263,7 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 ### Appointment confirmation page
 `Moderator: Take a look at this page. What do you see here?`   
 1. What is this page asking you to do?
-2. _If the user does not notice the info box, prompt them_ What is that message at the top telling you? Do you have any thoughts about that?
+2. _If the user does not notice the info box, prompt them:_ What is that message at the top telling you? Do you have any thoughts about that?
 3. What do you think the “edit” button does?
 4. What do you expect to happen after you continue?
 5. What do you think will happen to your information if you left this page?
@@ -313,7 +314,7 @@ _Participant selects mileage_
 
 1. What do you expect to happen next?   
 
-`Moderator: Go ahead and continue.'   
+`Moderator: Go ahead and continue.` 
 
 > [!NOTE]
 > #### Things to watch for:
