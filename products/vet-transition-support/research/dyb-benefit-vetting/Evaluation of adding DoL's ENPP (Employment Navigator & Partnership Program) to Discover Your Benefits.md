@@ -1,8 +1,5 @@
 # Evaluation of adding DoL's ENPP (Employment Navigator & Partnership Program) to Discover Your Benefits
-
-Dec 10, 2025  - added link to figma resource file (AJ)
-Dec 14, 2025  - updated to reflect that this benefit is only available to TSMs (Jessica)
-
+Evaluated December 2025
 
 ## Summary
 
