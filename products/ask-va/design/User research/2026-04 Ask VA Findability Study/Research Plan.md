@@ -72,7 +72,7 @@ Veterans want support without having to login to their VA accounts.
 **Research method:** Interviews  
 **Moderation style:** Moderated \- facilitator led  
 **Location:** Remote over Zoom  
-**Timeframe:** 30-60 minutes
+**Timeframe:** 60 minutes
 
 ## Research materials
 We will have Veterans navigate to va.gov and show us how they might navigate the site to find the support they need. 
@@ -98,13 +98,14 @@ We will recruit 15 Veterans for a total of 12 completed sessions.
 | Required | Exactly 6 | Are willing to join from a mobile device |
 |  | At least 4 | Have a cognitive disability or consideration |
 |  | At least 4 | Are over 55 years old |
-|  | At least 4 | Assistive Tech users (desktop or mobile) |
+|  | At least 2 | Assistive Tech users (screen reader) |
 |  | At least 3 | Identify as a gender other than male |
 |  | At least 3 | Identify Asian or Hispanic |
 |  | At least 3 | Identify as Black or Native |
 |  | At least 3 | Are rural |
 |  | At least 3 | Don't have a degree |
 |  | At least 2 | Identify as LGBTQ+ |
+|  | At least 2 | Assistive Tech users (screen reader) |
 
 ### Screener questions
 
@@ -127,7 +128,7 @@ We will recruit 15 Veterans for a total of 12 completed sessions.
 ### Prepare
 
 - `Pilot participant name:` Cameron Johnson  
-- `Date and time of pilot session:` Friday April 2, 2026 2:30-3:30 ET 
+- `Date and time of pilot session:` Friday April 3, 2026 2:30-3:30 ET 
 
 ### Research sessions
 
@@ -157,7 +158,6 @@ We will recruit 15 Veterans for a total of 12 completed sessions.
 - `4/20, Monday, 11:30am-6:00pm EST (4)`  
 - `4/21, Tuesday, 9:30am-2:00pm EST (3)`  
 
-  
 
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
