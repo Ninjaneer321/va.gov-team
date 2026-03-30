@@ -316,7 +316,7 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 > - 4. Do they interact with or notice  the “more info” component?
 
 ### Expense selection   
-`Moderator: In this scenario, you just drove there and back from your home address. How would you continue to file a travel reimbursement claim from this page?`   
+`Moderator: In this scenario, you just drove there and back from your home address and didn't have any other expenses. How would you continue to file a travel reimbursement claim from this page?`   
 
 _Participant selects mileage_   
 
@@ -342,7 +342,7 @@ _Participant selects mileage_
 
 1. What do you think you need to do next?
 2. What would you do if the appointment information looked incorrect or you noticed something that you need to change?
-3. If you hit the “Sign the agreement” button, what do you expect will happen?   
+3. Let's say that all your information looks right. If you hit the “Sign the agreement” button, what do you expect will happen?   
 
 > [!NOTE]
 > #### Things to watch for:
@@ -358,9 +358,9 @@ _Participant selects mileage_
 1. What is happening here? What does this page tell you?
 2. Does this page show you what you expect to see?
 3. Have you submitted your claim or is there more you need to do?
-4. _If the user does not notice the alert, prompt them:_I see an alert at the top. Is there anything you notice about it?
+4. _If the user does not notice the alert, prompt them:_ I see an alert at the top. Is there anything you notice about it?
 5. Looking at this page, did you create an appointment, file a claim, or both?
-6. If you came back in a few days and wanted to track the status of your submission, where would you go to find it? _If time:_ Let’s go back to the home page and you can show us where you’d click.
+6. If you came back to VA.gov in a few days and wanted to track the status of your submission, where would you go to find it? _If time:_ Let’s go back to the home page and you can show us where you’d click.
 
 > [!IMPORTANT]
 > At this point the notetaker should un-hide the Figma frame "Card - NEW CLAIM" in the [list of past appointments](https://www.figma.com/design/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?node-id=16716-68410&t=4KLjXq8vP7HWRweg-1) so that it is visible to the participant when they navigate back to past appointments.
