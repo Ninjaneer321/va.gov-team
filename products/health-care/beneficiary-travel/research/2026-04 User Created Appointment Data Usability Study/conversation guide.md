@@ -192,6 +192,10 @@ _After participant reviews page_
 1. What would you click on or do next?
 2. What do you expect to happen after you click on that?
 
+_If participant does not find the link on the page, prompt them to scroll further. If they still do not find the link, point it out to them and ask:_
+1. As you looked for a way to start your claim, was there specific language or a visual indicator you were looking for?
+2. Do you have thoughts on how this could stand out more?
+
 ### Claims list page   
 `Moderator: Let’s take a pause for just a moment before you click on anything else. Tell me about this page.` 
 
@@ -201,6 +205,10 @@ _After participant reviews page_
 - If participant decides to then click “past appointments,” see the above process and questions.
 - If participant decides to then click “Go to BTSSS website,” explain that they can now file on VA.gov, and ask where they would expect to do this.   
 4. What do you expect to happen after you click on that?
+
+_If participant does not find the link on the page, prompt them to scroll further. If they still do not find the link, point it out to them and ask:_
+1. As you looked for a way to start your claim, was there specific language or a visual indicator you were looking for?
+2. Do you have thoughts on how this could stand out more?
 
 `Moderator: Okay, go ahead and continue your task.`   
 
