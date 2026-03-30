@@ -68,15 +68,13 @@
 
 ## Recording handling
 
-**With your permission, we'd like to record this session so we can accurately capture your feedback. We may share short clips with VA team members, but anything shared will be anonymized—we won't include your name or identifying information.**
+**we'd like to record this session so we can accurately capture your feedback. We may share short clips with VA team members, but anything shared will be anonymized—we won't include your name or identifying information. Are you ok with us recording this session?**
 
-- If yes: *Once I start recording, I am going to confirm that you are okay with me recording this session once more.*
+- If yes: *Once I start recording, I am going to confirm once more that you are okay with me recording this.*
 
 *Start recording.*
 
 **I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?**
-
-**Are you comfortable if we decide to use a recorded clip from our discussion today to share with other VA partners if we remove any information that can be used to identify you?**
 
 ---
 
