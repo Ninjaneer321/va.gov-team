@@ -18,7 +18,7 @@ Feature Toggle/flag:
       -    [X] Content above the sign-in block matches the figma
       -    [X] Updated Note and hyperlinked `Learn About` section are showing as expected just below the radio buttons
       -    [X] Use my location button is showing as expected
-      -    [ ] Search results note is appearing and accurate; e.g. `"Showing 15 of 25  results for 'accredited VSO represenative", "Arizona Department of Veterans Services" within "50 miles" of "New York, New York 10001" sorted by "Distance[closest to furthers"`
+      -    [X] Search results note is appearing and accurate; e.g. `"Showing 15 of 25  results for 'accredited VSO represenative", "Arizona Department of Veterans Services" within "50 miles" of "New York, New York 10001" sorted by "Distance[closest to furthers"`
       -    [X] Ensure `sort by` button was removed and you can now sort just by updating that drop down
       -    [X] Ensure the Name/Mileage on the contact cards align with figma designs
       -    [X] Ensure the icons align with the figma designs.
@@ -27,7 +27,7 @@ Feature Toggle/flag:
 - [X] Any "launch blocking" findings from Team QA have been addressed.
 - [X] The feature flag `find_a_representative_enabled` has been set to `Off` 
 - [X] Datadog monitoring is set up to track errors for combo box and search.
-- [ ] Google Analytics is set up to track specific search parameters.
+- [ ] Google Analytics is set up to track specific search parameters. -- **_Actively working on this with the Analytics team._**
 
 Any other issues or requirements that should be addressed prior to rollout?
 
