@@ -148,19 +148,10 @@ User feedback suggests confusion about when to choose each option, which may lea
 
 `Link to relevant past research studies that inform this work. This helps build institutional knowledge and prevents duplicate efforts.`
 
-> [!TIP]
-> **Use the [Past Research Analysis Copilot Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-discovery/past-research-analysis-for-new-research-plan-prompt.md) to automatically find relevant research!**
->
-> 1. Draft and commit your research plan
-> 2. Open GitHub Copilot for your research plan. Click the Copilot icon on your file toolbar.
-> 3. Copy and paste the prompt from the link above
-> 4. Review the suggested studies and add the most relevant ones below
-
 **Previous Studies:**
-- Decision Review Options, January 2023
-
+- Decision Review Options, January 2023 https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2022-11-Decision-Reviews/research-findings.md
 - [Link to Study 2 - Brief description, Date](url goes here)
-- [Link to Study 3 - Brief description, Date](url goes here)
+
 
 **Key Takeaways from Previous Research:**
 - `[Major finding or insight that informs this study]`
