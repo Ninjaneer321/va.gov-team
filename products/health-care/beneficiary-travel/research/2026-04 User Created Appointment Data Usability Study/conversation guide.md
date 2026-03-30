@@ -158,7 +158,10 @@ Before we start, I have a few things that I want to go over with you:
 `Moderator: Now we’re going to take a look at the prototype. As a reminder, it’s a representation of the site, and some things will work like you'd expect, but other things won't be clickable. If you try to click something and it doesn't work, just let me know what you were trying to do, and I'll help us move forward.`   
 
 `Here’s the scenario I’d like you to imagine:`
-`Last week, you went to a community care appointment for your dermatologist. VA referred you here because the local facility doesn’t have a dermatology department. Now you’d like to file for travel pay for your appointment.`   
+`Last week, you went to a community care appointment for your dermatologist. VA referred you here because the local facility doesn’t have a dermatology department. Now you’d like to file for travel pay for your appointment.` 
+
+> [!IMPORTANT]
+> Note-taker paste prototype link: https://www.figma.com/proto/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?page-id=16385%3A16515&node-id=16385-16517&viewport=262%2C-845%2C1.53&t=0iNBoVtOYsUrdtrD-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=16385%3A16517&show-proto-sidebar=1&hotspot-hints=0 
 
 `In the chat, you’ll find a link to the prototype. It’s going to open on the VA.gov homepage. We’ll pretend that your name is Jordan, and you’re already logged in. Show me where you would click to file a travel claim for your recent appointment.` 
 
@@ -183,13 +186,13 @@ _Note for moderator: Remind participant to talk aloud, but only ask follow up qu
 
 _After participant reviews page_
 
-`Moderator: Now let’s say you reviewed the list, but you didn’t see your dermatology appointment.'   
+`Moderator: Now let’s say you reviewed the list, but you didn’t see your dermatology appointment.` 
 
 1. What would you click on or do next?
 2. What do you expect to happen after you click on that?
 
 ### Claims list page   
-`Moderator: Let’s take a pause for just a moment before you click on anything else. Tell me about this page.`   
+`Moderator: Let’s take a pause for just a moment before you click on anything else. Tell me about this page.` 
 
 1. What do you see here that might help you with your task?
 2. What would you click on or do next?   
