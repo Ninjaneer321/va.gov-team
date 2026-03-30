@@ -75,10 +75,10 @@ Veterans want support without having to login to their VA accounts.
 **Timeframe:** 30-60 minutes
 
 ## Research materials
-- We will have Veterans navigate to va.gov and show us how they might navigate the site to find the support they need. 
+We will have Veterans navigate to va.gov and show us how they might navigate the site to find the support they need. 
 
 
-## Recruitment (IN PROGRESS)
+## Recruitment
 
 ### Recruitment approach
 
@@ -92,12 +92,13 @@ We will recruit 15 Veterans for a total of 12 completed sessions.
 | ----- | ----- | ----- |
 | Required | Exactly 15 | Are Veterans |
 | Required | Exactly 15 | Have contacted VA online or over the phone in the past year |
-| Required | Exactly 15 | Have signed in to VA.gov in the past year |
-| Required | Exactly 15 | Have VA Education benefits |
-| Required | Exactly 2-5  | School Certifying Official or Work Study Site Supervisor |
-| Required | Exactly 15 | Are willing to join from a desktop device |
+| Required | At least 6 | Have an active VA.gov account |
+| Required | Exactly 15 | Have VA benefits |
+| Required | Exactly 6 | Are willing to join from a desktop device |
+| Required | Exactly 6 | Are willing to join from a mobile device |
 |  | At least 4 | Have a cognitive disability or consideration |
 |  | At least 4 | Are over 55 years old |
+|  | At least 4 | Assistive Tech users (desktop or mobile) |
 |  | At least 3 | Identify as a gender other than male |
 |  | At least 3 | Identify Asian or Hispanic |
 |  | At least 3 | Identify as Black or Native |
@@ -110,6 +111,7 @@ We will recruit 15 Veterans for a total of 12 completed sessions.
 | Question | Answers | Screening Criteria |
 | :---- | :---- | :---- |
 | Have you contacted the VA online or over the phone for help in the past year? | Yes / No | Must answer Yes |
+| Do you have an active account to login to VA.gov? | Yes / No | At least 6/8 participants must answer Yes |
 | Do you currently receive any VA benefits?  | Yes / No  | Must answer Yes |
 | Are you able to join the Zoom session from an internet-connected desktop, laptop, or mobile phone? | Yes / No | Must answer Yes |
 | Do you find it difficult to remember or learn new things, focus on a task, or make decisions?  | Yes / No | At least 4 participants must answer Yes |
@@ -119,20 +121,17 @@ We will recruit 15 Veterans for a total of 12 completed sessions.
 ### Optional 30-min Kick-off Call with Perigean
 
 - `Suggested dates and times:`  
-  - Tuesday, October 21, 12pm \- 5pm CT
-  - Wednesday, October 22, 8:30am \- 10:30am CT
-  - Wednesday, October 22, 12pm \- 1pm CT
-  - Wednesday, October 22, 4pm \- 5pm CT
-
+  - Monday, April 6, 2pm \- 4pm ET
+  - Tuesday, April 7, 9:30am \- 2pm ET (except 11:30-12pm)
 
 ### Prepare
 
 - `Pilot participant name:` Cameron Johnson  
-- `Date and time of pilot session:` October 21, 2025 1:30-2:30 EST 
+- `Date and time of pilot session:` Friday April 2, 2026 2:30-3:30 ET 
 
 ### Research sessions
 
-- `Planned dates of research:` October 29, 2025 \- November 12, 2025 
+- `Planned dates of research:` April 13, 2026 \- April 21, 2026 
 
 ### Length of sessions
 
@@ -146,18 +145,19 @@ We will recruit 15 Veterans for a total of 12 completed sessions.
 
 **Time slots**
 
-- `10/29, Wednesday, 9:30am-6:30pm EST (4)`  
-- `10/30, Thursday, 9:30am-1:00pm EST (2)`  
-- `10/31, Friday, 9:30am-2:30pm EST (3)`  
-    
-- `11/3, Monday, 9:30am-12:30pm EST (2)`  
-- `11/3, Monday, 2:30pm-6:30pm EST (3)`  
-- `11/4, Tuesday, 9:30am-6:30pm EST (4)`  
-- `11/7, Friday, 9:30am-6:30pm EST (4)`  
-    
-- `11/10, Monday, 9:30am-6:30pm EST (4)`
-- `11/12, Wednesday, 9:30am-6:30pm EST (4)`
+- `4/13, Monday, 11:30am-6:00pm EST (4)`  
+- `4/14, Tuesday, 1:00pm-2:30pm EST (1)`  
+- `4/14, Tuesday, 3:30pm-6:00pm EST (2)`  
+- `4/15, Wednesday, 9:30am-12:30pm EST (2)`  
+- `4/15, Wednesday, 1:30pm-6:00pm EST (3)`  
+- `4/16, Thursday, 12:30pm-5:30pm EST (3)`  
+- `4/17, Friday, 11:00am-12:30pm EST (1)`
+- `4/17, Friday, 2:30pm-5:30pm EST (2)`  
 
+- `4/20, Monday, 11:30am-6:00pm EST (4)`  
+- `4/21, Tuesday, 9:30am-2:00pm EST (3)`  
+
+  
 
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
@@ -169,15 +169,14 @@ We will recruit 15 Veterans for a total of 12 completed sessions.
 - `Note-takers:` **Danielle Oppendike**  
 - `Observers`  - *This is a potential list of observers across all sessions. We will limit each session to a max of 2 observers.*   
   - **Becky Phung**
-  - **Megan Salerno**  
+  - **Kace Bowen**  
   - **Stephanie Vargo**  
   - **Matt Floyd**  
-  - **Sumit Patel**  
   - **Walker Marlatt**  
   - **Alex Castillo**
-  - **Kayla Watanabe**
+  - **Jerek Shoemaker**
 
 ## Approvals ✅
 
-- `Reviewed by` Becky Phung`, OCTO Product Owner on 10-16-2025`  
+- `Reviewed by` Becky Phung`, OCTO Product Owner on 4-02-2026`  
 - `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`
