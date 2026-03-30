@@ -120,7 +120,6 @@ There are no flags with this feature.
 - **Use case:** If an LOA3 user logs in when only /benefits_claims is down the user will see the claims alert and highlighted appeal (if one exists) A link to go to the claims tracker still shows in the section.
 - **Format:** [Warning slim alert](https://design.va.gov/components/alert/#web-2)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5074-19242&t=yjkBCJLUxO0o87bU-1)
-- **Content:** We can't show some of your claims information right now. Refresh this page or try again later.
 - **Status codes:**
    - 400 GET /v0/benefits_claims
 - **Frontend components:**
@@ -134,7 +133,6 @@ There are no flags with this feature.
 - **Use case:** If an LOA3 user logs in and when only /appeals is down the user will see the appeals alert and highlighted claim (if one exists). A link to go to the claims tracker still shows in the section.
 - **Format:** [Warning slim alert](https://design.va.gov/components/alert/#web-2)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=8211-14362&t=yjkBCJLUxO0o87bU-1)
-- **Content:** We can't show some of your appeals information right now. Refresh this page or try again later.
 - **Status codes:**
    - 400 GET /v0/appeals
 - **Frontend components:**
@@ -147,7 +145,6 @@ There are no flags with this feature.
 - **Use case:** If an LOA3 user logs in and there is an error with the both claims and appeals API, then we will not be able to show a card for any recent cliams or appeal updates. A link to go to the claims tracker still shows in the section.
 - **Format:** [Warning slim alert](https://design.va.gov/components/alert/#web-2)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=8247-14376&t=rznelY3nvWqXfG8v-1)
-- **Content:** We can't show some of your claims or appeals information right now. Refresh this page or try again later.
 - **Status codes:**
    - 400 GET /v0/benefits_claims
    - 400 GET /v0/appeals
@@ -161,7 +158,6 @@ There are no flags with this feature.
 - **Use case:** If an LOA3 user logs in and there is an error with the API that displays the disability rating, then we show an alert informing the user the information is currently unavailable. A link to the disability page is still available in the section.
 - **Format:** [Warning slim alert](https://design.va.gov/components/alert/#warning-alert)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5072-18605&t=Qplg9wUFJEDlP70M-1)
-- **Content:** We can't show your disability rating right now. Refresh this page or try again later.
 - **Status codes:**
    - 400 GET /v0/disability_compensation_form/rating_infos
 - **Frontend components:**
