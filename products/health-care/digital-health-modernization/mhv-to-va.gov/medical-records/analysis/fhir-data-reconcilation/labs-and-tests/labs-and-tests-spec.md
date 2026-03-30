@@ -47,8 +47,8 @@ Each lab test may have one or more results. In FHIR, these would be represented 
 
 
 ## Microbiology
-
-<details>
+ 
+<details> 
 
 ### [domain/subdomain] Fields to include in UI based on FHIR R4 specification
 
