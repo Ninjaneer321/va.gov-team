@@ -443,8 +443,7 @@ Based on themes and insights covered in this research round, additional research
 ## Appendix
 
 ### Research documents
-- [Round 1 Sidebar Navigation Research](link-here)
-- [Round 2 Research Plan](link-here)
+- [Round 2 Insights Overview](https://dvagov.sharepoint.com/:b:/r/sites/CDSProgramTeam/Shared%20Documents/Clinical%20Decision%20Support%20Platform%20Team%20(CDSP)/2.%20User%20Research/2025%20User%20Research/R2%20Sidebar%20Testing/QP%20Planning_Sidebar%20Navigation%20Discussion.pdf?csf=1&web=1&e=B9CKq1)
 - [Prototype A](link-here)
 - [Prototype B](link-here)
 - [Scenario Mapping Mural Board](link-here)
