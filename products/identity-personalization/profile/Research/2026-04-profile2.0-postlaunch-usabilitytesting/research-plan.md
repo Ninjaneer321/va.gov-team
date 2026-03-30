@@ -405,25 +405,31 @@ Recruitment will be broken into two cohorts:
 > - Include links to products or clear descriptions so participants understand what they're being asked about
 > - The more screener questions you have, the harder it will be to recruit - prioritize your must-haves
 
-#### Cohort 1: Screen reader participants
-
-**`1.` Do you use a screen reader every time you use the Internet?**
-- **Qualifying response:** Yes, I use a screen reader every time I use the internet
-- **Disqualifying response:** No, I do not use a screen reader every time I use the internet; I'm not sure
+**`1.` Do you use a screen reader, screen magnifier, or magnification program every time you use the internet?**
+- **Qualifying response:** Yes, I use a screen reader, screen magnifier, or magnification program every time I use the internet
+- **Disqualifying response:** No, I do not use a screen reader, screen magnifier, or magnification program every time I use the internet; I'm not sure
 
 **`2.` Are you able to access your VA.gov profile to see your name and date of birth at va.gov/profile/personal-information?**
 - **Qualifying response:** Yes, I am able to review my name and date of birth in my VA.gov profile
 - **Disqualifying response:** No, I am not able to review my name and date of birth in my VA.gov profile; I'm not sure
 
-**`3.` To participate in the study, you'll need to sign into VA.gov, share your screen on Zoom, and use your screen reader during the session. Are you willing and able to meet these requirements?**
+**`3.` To participate in the study, you’ll need to sign into VA.gov, share your screen on Zoom, and use your screen reader, screen magnifier, or magnification program during the session. Are you willing and able to meet these requirements?**
 - **Qualifying response:** Yes
 - **Disqualifying response:** No; I'm not sure
 
-**`4.` What is the name of the screen reader or screen magnifier technology that you will use during the Zoom session?**
-- **Qualifying response:** JAWS for Windows, Narrator for Windows, NVDA for Windows, Orca for Linux, TalkBack for Android, VoiceOver for Apple or iOS, or other screen reader
-- **Disqualifying response:** I don't use a screen reader
+**`4.` What is the name of the screen reader, screen magnifier, or magnification program that you will use during the Zoom session? (Open input field)**
+- If they reply [JAWS, Narrator, NVDA, Orca, TalkBack, VoiceOver, Windows Narrator] RECORD as screen reader participant
+- If they reply [Magic, Magnification, Magnifier, SuperNova, Virtual Magnifying Glass, Zoom for Apple, ZoomText, Magnifixer] RECORD as screen magnifier participant
+- If they reply [increase font size, zoom in the browser] RECORD as potential screen magnifier participant and follow-up
+   - Perigean follow-up: Ask what percentage the participant zooms to. If 200% or greater, RECORD as screen magnifier user
+- If they reply something non-committal, such as [I’m not sure] RECORD as potential participant
+   - Perigean follow-up: Ask participants for details on their technology.
+     - If they can answer one of the above, RECORD as the respective technology recruitment type
+     - If we cannot get specifics, DISQUALIFY
+- If they reply something non-digital, such as [magnifying glass], DISQUALIFY
+- If unsure whether someone qualifies, please ask Janelle
 
-**`5.` How long have you been using this screen reader tool?**
+**`5.` How long have you been using this screen reader, screen magnifier, or magnification program?**
 - **Qualifying response:** At least 1 year
 - **Disqualifying response:** Less than 1 year
 
@@ -437,37 +443,9 @@ Recruitment will be broken into two cohorts:
 - Other
 
 **`7.` Do you find it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these.**
-- `Yes` / `No` / `I prefer not to answer`
-
-#### Cohort 2: Magnification participants
-
-**`1.` Do you need a screen magnifier or magnification program every time you use the internet?**
-- **Qualifying response:** Yes, I use a screen magnifier or magnification program every time I use the internet
-- **Disqualifying response:** No, I do not use a screen magnifier or magnification program every time I use the internet; I'm not sure
-
-**`2.` Are you able to access your VA.gov profile to see your name and date of birth at va.gov/profile/personal-information?**
-- **Qualifying response:** Yes, I am able to review my name and date of birth in my VA.gov profile
-- **Disqualifying response:** No, I am not able to review my name and date of birth in my VA.gov profile; I'm not sure
-
-**`3.` To participate in the study, you'll need to sign into VA.gov, share your screen on Zoom, and use your screen magnifier or magnification program during the session. Are you willing and able to meet these requirements?**
-- **Qualifying response:** Yes
-- **Disqualifying response:** No; I'm not sure
-
-**`4.` What is the name of the screen magnifier or magnification program that you will use during the Zoom session?**
-- **Qualifying response:** MAGic, Magnification for Android, Magnifier for Windows, SuperNova, Virtual Magnifying Glass, Zoom for Apple or iOS, ZoomText, Magnifixer, fixed settings to increase font size in web browser, or other magnification technology
-- **Disqualifying response:** I don't use a screen magnifier or magnification technology
-
-**`5.` What VA benefits do you currently have or use? Select all that apply.**
-- Disability compensation
-- Education and training
-- Health care
-- Housing assistance
-- Life insurance
-- Pension
-- Other
-
-**`6.` Do you find it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these.**
-- `Yes` / `No` / `I prefer not to answer`
+- Yes
+- No
+- I prefer not to answer
 
 ## Timeline 🗓️
 
