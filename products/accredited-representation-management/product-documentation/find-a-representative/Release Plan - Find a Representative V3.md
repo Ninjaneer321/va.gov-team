@@ -11,7 +11,8 @@ Feature Toggle/flag:
       -    [ ] Combo box is hidden when "Accredited attorney" or "Accredited claims agent" is selected
       -    [ ] Combo box filters out any `zzz` VSOs
       -    [ ] Combo box allows you to type ahead & will begin filtering, as well as click on the drop down to see all VSOs
-      -    [ ] `combo box will clear when search button is clicked if a VSO selection has not been made`
+      -    [ ] ~~`combo box will clear when search button is clicked if a VSO selection has not been made`~~
+               - Due to issues with the components from the design system we will not be able to clear out the combo box as originally planned.
       -    [ ] Combo box searching shows expected results for search scenarios
    -  Additional Figma Designs Implemented
       -    [ ] Content above the sign-in block matches the figma
