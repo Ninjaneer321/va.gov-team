@@ -253,12 +253,12 @@ _If participant does not find the link on the page, prompt them to scroll furthe
 **Facility selection**   
 * What would you do if you couldn’t find your facility in this list?
 
+**Appointment name:**
+* What would you put in this field?
+
 **Appointment type**   
 * What do these “types” listed here mean to you?
 * Do you know which kind you would choose?   
-
-**Appointment name:**
-* What would you put in this field?
 
 **Did you attend your appointment? question:**
 * Why do you think we’re asking for this information?
@@ -353,7 +353,7 @@ _Participant selects mileage_
 
 > [!NOTE]
 > #### Things to watch for:
-> - 1. Does the user recognize the proof of attendance file as something they previously added?
+> - 1. Does the user recognize the proof of care received file as something they previously added?
 > - 2. Does the user expect to be able to edit the appointment information as they would any of the other information section on this page?
 
 ### Agreement page
