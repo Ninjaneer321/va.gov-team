@@ -313,10 +313,9 @@ This research supports measurement of this KPI by surfacing the specific risk fa
 ## Appendix
 
 ### Research documents
-- [Product Outline](link here)
+- [Restricted Record Technical Analysis - Deprioritized for CDS Platform](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1750710790174/417d24089a79c96d17476815bcbd878fdc67f07a)
 - [Research plan](link here)
-- [Conversation guide](link here)
-- [Notes document](link here)
+- [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/platform/research/2025-06-Patient%20Search/conversation-guide.md)
 
 ### Tools used for Synthesis
 - Mural
