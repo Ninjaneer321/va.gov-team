@@ -3,46 +3,80 @@
 title: "Conversation Guide for VFMP Status Integration, CHAMPVA Application Status MVP, February 2026"
 author: "VFMP Status Integration Team"
 date_created: "2026-02-01"
-last_modified: "2026-02-01"
+last_modified: "2026-03-30"
+
+# Core research metadata
 team: "Health Apps Team"
+portfolio: "health"
 product: "VFMP Status Integration - CHAMPVA Application Status MVP"
 product_area: "authenticated"
-portfolio: "Health"
+research_phase: "usability"
+research_method: "moderated_usability_testing"
 
-# Research Context
-study_name: "CHAMPVA Application Status MVP Research"
-research_phase: "Usability testing"
-research_type: "Moderated usability testing"
-research_method: "Remote moderated usability testing"
-session_format: "Remote moderated sessions"
+# Session details
 session_duration: "60 minutes"
-participant_type: "Veterans and beneficiaries managing CHAMPVA applications"
+session_type: "remote_moderated"
+participant_criteria: "Veterans and beneficiaries who have applied or are managing CHAMPVA applications"
 
-# Research Planning
-related_research_plan: ""
-related_prototype: "Health Apps Claims Status Tool prototype"
-environment: "Prototype testing environment"
+# Related documents
+related_research_plan: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/vfmp-status-integration/research/2026-02-CHAMPVA-App-Status-MVP/research-plan.md"
+related_prototype: "see below"
 
-# Logistics
-recording_required: true
-consent_for_clips: true
-observer_support: true
-
-# Tags
 tags:
-  - "research"
-  - "conversation-guide"
-  - "moderated-research"
-  - "usability-testing"
-  - "CHAMPVA"
-  - "application-status"
-  - "health-apps"
-  - "claims-status-tool"
-  - "VFMP"
-  - "health-benefits"
-  - "authenticated-experience"
 
-description: "Conversation guide for VFMP Status Integration research testing the CHAMPVA Application Status MVP feature integrated into the Health Apps Claims Status Tool. Tests how Veterans and beneficiaries view and track CHAMPVA application status information through the digital platform."
+  # Audience
+  - "AUD: Veterans"
+  - "AUD: Dependents"
+  - "AUD: Family Member"
+  - "AUD: Surviving Family"
+  
+  # Benefit
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  
+  # Products
+  - "PRDT: CHAMPVA"
+  - "PRDT: Claim-status-tool"
+  - "PRDT: MyVA"
+  
+  # Design System Components (based on tasks testing these elements)
+  - "DSC: Accordions"
+  - "DSC: Alert Boxes"
+  - "DSC: Card"
+  - "DSC: Form - File Input"
+  - "DSC: Links"
+  - "DSC: Tabs"
+  
+  # Design System Patterns (based on tasks)
+  - "DSP: Ask users for files"
+  - "DSP: Content Presentation"
+  - "DSP: Notifications"
+  
+  # Hardware
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  
+  # Research Type
+  - "usability-testing"
+  - "moderated-research"
+  - "prototype-testing"
+  - "authenticated-experience"
+  
+  # Additional relevant tags
+  - "navigation"
+  - "status-tracking"
+  - "document-upload"
+  - "notifications"
+  - "post-submission-experience"
+  - "vfmp-status"
+  - "form-status"
+
+description: "Conversation guide for VFMP Status Integration research testing the CHAMPVA Application Status MVP feature integrated into the Health Apps Claims Status Tool. Tests how Veterans and beneficiaries find, understand, and interact with application status updates, evidence requests, and document uploads after submitting a CHAMPVA application."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
 ---
 
 > [!TIP]
@@ -422,9 +456,9 @@ In the rare case of an emergency during a session, be prepared with an [emergenc
 
 ## After You Save This Convo Guide ✅
 
-- [ ] Complete the YAML frontmatter at the top of this file using the [Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/conversation-guide-frontmatter-completion-prompt.md)
-- [ ] Review alignment with your research plan tags
-- [ ] Update the last_modified date
+- [x] Complete the YAML frontmatter at the top of this file using the [Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/conversation-guide-frontmatter-completion-prompt.md)
+- [x] Review alignment with your research plan tags
+- [x] Update the last_modified date
 
 ### Sample Conversation Guide _(note: this link points to resources in the va.gov-team GitHub repo)_
 
