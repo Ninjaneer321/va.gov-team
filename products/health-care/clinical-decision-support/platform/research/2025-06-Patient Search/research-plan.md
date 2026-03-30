@@ -240,7 +240,7 @@ tags:
 
 ### Hypotheses
 > [!NOTE]
-> Remember to constrain the hypotheses to the goals of your study!
+> Remember to constrain the hypotheses to the goals of your study
 
 **Think through these prompts to develop strong hypotheses:**
 
@@ -308,15 +308,6 @@ Provide a link to any materials you need to run your study, including any materi
 **For moderated interviews:**
 
 - [Link to conversation guide](url goes here)
-
-**For moderated usability tests:**
-- [Link to conversation guide](url goes here)
-- [Link to prototype](url goes here)
-
-**For [unmoderated testing:](https://depo-platform-documentation.scrollhelp.site/research-design/Planning-Unmoderated-Studies.1904738369.html)**
-- [Link to email with instructions](url goes here)
-- [Link to prototype or OptimalSort session for group A](url goes here)
-- [Link to prototype or OptimalSort session for group B](url goes here)
 
 **Source materials for this synthesis:**
 - [R1 Sidebar Navigation Usability Testing — Session notes and insights](url goes here)
