@@ -331,7 +331,7 @@ Where will you be holding the research sessions? Be sure to include whether this
 Provide a link to any materials you need to run your study, including any materials needed for set up and recruitment.
 
 **For moderated usability tests:**
-- [Link to conversation guide](url goes here)
+- [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/Research/2026-04-profile2.0-postlaunch-usabilitytesting/conversation-guide.md)
 - My VA: [va.gov/my-va](http://va.gov/my-va)
 - Profile: [va.gov/profile](http://va.gov/profile)
 
