@@ -27,7 +27,6 @@ After submitting application?
 
 ### Screenshare & Prototype Setup
 - Device type:
-- 
 
 
 ### Scenario 1a: My VA homepage
@@ -44,12 +43,18 @@ Files tab
 Overview tab
 - notes
 
+Scale of 1-5, how difficult or easy was it to understand the application steps?
+- notes
+
 
 ### Scenario 2: Evidence request
 MyVA
 - notes
 
 CHAMPVA status
+- notes
+
+Scale of 1-5, how difficult or easy was it to understand this screen?
 - notes
 
 Birth certificate page
