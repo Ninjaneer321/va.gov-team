@@ -171,7 +171,7 @@ Once they say the link is open:
 > [!NOTE]
 > If the participant struggles to screenshare, provide them with guidance. Reference the [Zoom screensharing support article](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060596).
 
-`Here’s the scenario I’d like you to imagine: Last week, you went to a community care appointment for your dermatologist. VA referred you here because the local facility doesn’t have a dermatology department.` 
+`Here’s the scenario I’d like you to imagine: On March 31, you went to a community care appointment for your dermatologist. VA referred you here because the local facility doesn’t have a dermatology department.` 
 
 `Now you’d like to file for travel pay for your appointment. We’ll pretend that your name is Jordan, and you’re already logged in. Show me where you would click to file a travel claim for your recent appointment. Remember to think out loud as you go and tell me what you’re looking for or thinking about.`
 
