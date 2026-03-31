@@ -92,11 +92,10 @@ I have started recording. I’d like to confirm again. Are you comfortable if I 
 
 ## Warm-up – 5 minutes
 
-Before we jump into anything on screen, I’d love to learn a bit about your experience sending messages through My HealtheVet.
+Before we jump into anything on screen, I’d love to learn a bit about your experience communicating with your care teams at VA.
 
-1. How do you typically communicate with your care teams?
-2. How often do you send secure messages?
-3. About how many different care teams do you usually message? 
+1. How do you usually communicate with them, and how often? 
+2. Around how many different care teams do you usually message?
 
 *Probe if needed: same facility, specialties, care system vs care team*  
 
@@ -180,10 +179,8 @@ As you go, please think aloud and tell me what you are looking at, what you are 
 
 *Observe silently first.*
 
-- What are you noticing on this page?  
-- What do you think this page is asking you to do?  
+- What are you noticing on this page?    
 - Who do you think these options are?  
-
 - Do you see who you were hoping to message here?  
 
 *If not:*
@@ -225,10 +222,7 @@ As you go, please think aloud and tell me what you are looking at, what you are 
 
 *Pause at category section:*
 - How would you choose a category?  
-- What does this section mean to you?  
-
-*If needed:*
-- Anything confusing or unclear here?  
+- Is there anything in this section that feels unclear or confusing?  
 
 *Have them discard draft.*
 
