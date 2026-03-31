@@ -270,19 +270,25 @@ All participants must receive VA health care, have sent a secure message to thei
 
 **1. Do you currently receive health care through VA?**  
 - Yes → Move to Q2  
-- No → End screening 
+- No → End screening  
 
 **2. In the past 6 months, have you sent a secure message to your health care team using My HealtheVet on VA.gov?**  
 - Yes → Move to Q3  
 - No → End screening  
 
-**3. Have you received care from more than one VA health care facility?**  
+**3. When sending a secure message on My HealtheVet, are you able to choose from more than one VA health care system?**  
 - Yes → Move to Q4  
-- No → End screening
+- No → End screening  
+
+> **Note for Perigean (not read to participants):**  
+> We’re specifically looking to recruit Veterans who have access to more than one *VA health care system* within secure messaging (not just multiple care teams). This can happen when a Veteran has received care in different regions or has moved (for example, from one state to another), resulting in multiple systems being available to select from when sending a message.  
+>  
+> If there is a clearer or more effective way to screen for this audience based on your recruitment experience, feel free to adjust the wording while keeping this criteria in mind.
 
 **4. During the session, we’ll ask you to sign in to your My HealtheVet account on VA.gov and share your screen while we observe how you use secure messaging. We will only focus on the messaging area and will not ask you to open or read any personal messages or health information. Are you comfortable participating in this way?**  
 - Yes → Recruit  
 - No → End screening  
+
 ---
 
 ## Timeline 🗓️
