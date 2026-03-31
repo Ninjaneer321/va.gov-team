@@ -464,5 +464,5 @@ Cohort 2
 ## Approvals ✅
 > [!NOTE]
 > Before submitting for review, ensure you've completed the YAML frontmatter section at the top of this document using the [Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md).
-- `Reviewed by John Riggin on [MM-DD-YYYY]`
+- `Reviewed by John Riggin on [03-30-2026]`
 - `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`
