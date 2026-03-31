@@ -44,7 +44,7 @@ Synchronous Go/No Go (Placeholder)
 
 ## Release Details (April 1, 2026)
 
-- [ ] Enable in Production to 20% of users for first day then turn on for 100% on Tuesday April 7th.
+- [ ] Enable in Production to 20% of users for first day then turn on for 100% on Monday April 6th.
 - [ ] Confirm the release to Production, with a test user
 - [ ] Communicate release to ARP pilot users via Teams/Email
 - [ ] Mia to send out BLUF Statement
