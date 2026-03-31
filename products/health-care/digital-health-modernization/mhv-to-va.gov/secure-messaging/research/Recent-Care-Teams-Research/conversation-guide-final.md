@@ -262,11 +262,17 @@ Please continue thinking aloud and share anything that stands out.
 
 I’m going to drop a link to the first version in the chat: https://tinyurl.com/2yxwsv6v
 
-Scenario: Imagine you want to send a message to your XYZ Health care team at the VA Ann Arbor Healthcare System. Show me how you would find that care team and send them a message.
+Scenario: Imagine you want to send a message to your patient advocate health care team at the VA Ann Arbor Healthcare System. Show me how you would find that care team and send them a message.
 
 *Ensure they narrate their process.*
 
 *Observe silently first.*
+
+### Probes
+
+- What are you noticing about this page?  
+- What do you think this blue box is for?  
+- How, if at all, does this help you?  
 
 ### Wrap-up
 
@@ -282,7 +288,7 @@ Now I’m going to share a second version of this experience.
 
 This one is a bit different from what you just saw, so again, just walk through it as you normally would and keep thinking aloud.
 
-Scenario: Same as before. Imagine you want to send a message to your XYZ Health care team at the VA Ann Arbor Healthcare System. Show me how you would find that care team and send them a message.
+Scenario: Same as before. Imagine you want to send a message to your your patient advocate health care team at the VA Ann Arbor Healthcare System. Show me how you would find that care team and send them a message.
 
 *Ensure they narrate their process.*
 
@@ -290,9 +296,6 @@ Scenario: Same as before. Imagine you want to send a message to your XYZ Health 
 
 ### Probes
 
-- What are you noticing about this page?  
-- What do you think this blue box is for?  
-- How, if at all, does this help you?  
 - What are your thoughts on the care team suggestions you’re seeing?  
 
 ### Wrap-up
