@@ -312,7 +312,9 @@ Remote research, over Zoom.
 **For moderated usability tests:** 
 - [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/vfmp-status-integration/research/2026-02-CHAMPVA-App-Status-MVP/conversation-guide.md)
 - [Link to Veteran prototype](https://chisel-pear-20681620.figma.site/scenario1)
+	- Password: champva-test89124
 - [Link to non-veteran prototype](https://chisel-pear-20681620.figma.site/scenario1-nonveteran)
+	- Password: champva-test89124
 	
 ## Recruitment 🎯	
 
