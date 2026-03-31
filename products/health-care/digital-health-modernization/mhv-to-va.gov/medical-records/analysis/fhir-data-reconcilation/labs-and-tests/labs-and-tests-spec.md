@@ -10,6 +10,8 @@
     - Chemistry and Hematology
     - Microbiology
     - Surgical Pathology
+    - Cardiology
+    - Cytology
     - Radiology (will be moving to its own domain in future enhancement)
     - Blood Bank (future ehnancement])
 
@@ -26,7 +28,11 @@
 
 <details>
 
-Each chem/hem lab test has “top-level” information that describes the metadata for the test. Each Cosmic/Orderable test (panel) may have one or more structured results. 
+Each chem/hem lab test has “top-level” information that describes the metadata for the test. Each Cosmic/Orderable test may have one or more structured results. Chem/hem examples with multiple results are panels like CBC, Chem-7 (test for seven different chemicals), Chem-12 (test for 12 different chemicals, ABG (Artial Blood Gas - test for levels of different gasses in the blood) where multiple assays or analytes are tested.  Assays measure or analyze the presence, quantity, or activity of a substance, like enzyme tests, presence of diseases like HIV, Covid-19. 
+
+Analytes  
+
+Chem/hem example with a single result: Vitamin B12, SARS-CoV-2, or hematocrit
 
 <img width="772" height="704" alt="image" src="https://github.com/user-attachments/assets/c95e06a6-715c-4904-b94a-28bfcc40a43c" />
 
