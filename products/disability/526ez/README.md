@@ -42,15 +42,8 @@
 
 
 ## Team 👥
-Refer to #benefits-disability for most up to date team
-
-**Conditions and Evidence Team**
- 
-- Github Project: [Conditions and Evidence](https://github.com/orgs/department-of-veterans-affairs/projects/873/views/2)
-- GitHub team label: #contention-classification
-- Product manager: Jack Bates
-- Design and Research:
-- Engineering: Lisa Chung, Sami Barghshoon, Zach Murray
+Refer to #benefits-disability for most up-to-date team members.
+A comprehensive overview of the Disability Benefits Crew (DBC) can be found in [the Disability Experience ReadME](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/benefits-portfolio/disability-experience) within the Benefits Portfolio. This includes a breakdown of all DBC teams, a team charter, and helpful links, like various Slack channels, repos, and Murals.
 
 # Quick links 🔗
 
