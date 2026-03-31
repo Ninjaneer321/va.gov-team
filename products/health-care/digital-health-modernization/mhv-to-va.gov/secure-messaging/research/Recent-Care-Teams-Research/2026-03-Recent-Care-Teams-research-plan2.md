@@ -268,22 +268,17 @@ All participants must receive VA health care, have sent a secure message to thei
 
 ## Screener Questions 📋
 
-**`1.` Do you currently receive health care through VA?**  
-- Qualifying response: Yes → Move to Q2  
-- Non-qualifying response: No → End screening  
+**1. Do you currently receive health care through VA?**  
+- Yes → Move to Q2  
+- No → End screening  
 
----
+**2. In the past 6 months, have you sent a secure message to your health care team using My HealtheVet on VA.gov?**  
+- Yes → Move to Q3  
+- No → End screening  
 
-**`2.` In the past 6 months, have you sent a secure message to your health care team using My HealtheVet on VA.gov?**  
-- Qualifying response: Yes → Move to Q3  
-- Non-qualifying response: No → End screening  
-
----
-
-**`3.` During the session, we’ll ask you to sign in to your My HealtheVet account on VA.gov and share your screen while we observe how you use secure messaging. We will only focus on the messaging area and will not ask you to open or read any personal messages or health information. Are you comfortable participating in this way?**  
-- Qualifying response: Yes → Continue to additional questions  
-- Non-qualifying response: No → End screening  
-
+**3. During the session, we’ll ask you to sign in to your My HealtheVet account on VA.gov and share your screen while we observe how you use secure messaging. We will only focus on the messaging area and will not ask you to open or read any personal messages or health information. Are you comfortable participating in this way?**  
+- Yes → Recruit  
+- No → End screening  
 ---
 
 ## Timeline 🗓️
