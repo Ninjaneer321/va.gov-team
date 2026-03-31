@@ -71,7 +71,7 @@ Last updated: [September 15, 2025]
 | EP Code | Claim Label | Logic + Background | Last updated | Plain Language Title | Implemented |
 |---------|-------------|-----------|------------------|---------------------|:---:|
 | 020CLMINC | Claim for Increase | Previously: Claim for compensation | Oct 6, 2025 | Claim for disability compensation | ✅ |
-| 020IRSCFID | FID – Incompetency Review – S/C | VA process or correction; Should never show to Veterans or other claimants; Examiner submits a Supervised Direct Pay review for service-connected beneficiary | Sept 12, 2025 | NONE<br>*Filtered out for both mobile and VA.gov* |  |
+| 020IRSCFID | FID – Incompetency Review – S/C | **NULL** - VA process or correction; Should never show to Veterans or other claimants; Examiner submits a Supervised Direct Pay review for service-connected beneficiary | Sept 12, 2025 | NONE<br>*Filtered out for both mobile and VA.gov* |  |
 | 020NEW | New | Previously: Claim for compensation | Oct 6, 2025 | Claim for disability compensation | ✅ |
 | 020NI | New/Increase | Previously: Claim for compensation | Oct 6, 2025 | Claim for disability compensation | ✅ |
 | 020SUPP | eBenefits 526EZ-Supplemental (020) | Previously: Claim for compensation | Oct 6, 2025 | Claim for disability compensation | ✅ |
@@ -97,7 +97,7 @@ Last updated: [September 15, 2025]
 
 | EP Code | Claim Label | Logic + Background | Last updated | Plain Language Title | Implemented |
 |---------|-------------|-----------|------------------|---------------------|:---:|
-| 120IRPFID | FID – Incompetency Review - Pension | Examiner submits a Supervised Direct Pay review for pension beneficiary | Sept 12, 2025 | NONE<br>*Filtered out for both mobile and VA.gov* |  |
+| 120IRPFID | FID – Incompetency Review - Pension | **NULL** - Examiner submits a Supervised Direct Pay review for pension beneficiary | Sept 12, 2025 | NONE<br>*Filtered out for both mobile and VA.gov* |  |
 
 ## EP 130 - Disability and Death Dependency
 - Claims and actions involving dependency determinations—when benefits depend on a Veteran's, dependent's, or survivor's relationship or status
@@ -108,9 +108,9 @@ Last updated: [September 15, 2025]
 | 130DPEBNAJRE | eBenefits Dependency Adjustment Reject | Currently: Request to add or remove a dependent | Oct 6, 2025 | *Reviewed and verified as appropriate. No change needed.* | ✅ |
 | 130DPNDCY | Dependency | Currently: Request to add or remove a dependent | Oct 6, 2025 | *Reviewed and verified as appropriate. No change needed.* | ✅ |
 | 130DPNEBNADJ | eBenefits Dependency Adjustment | Currently: Request to add or remove a dependent | Oct 6, 2025 | *Reviewed and verified as appropriate. No change needed.* | ✅ |
-| 130DV0537PMC | PMC - Dependency Verification - 0537 | VBA-initiated marital relationship status check (8-year check) | Sept 12, 2025 | Automatic marital status verification review |  |
-| 130ISDDI | In Service Death Dependency Issue | Survivor and dependant compensation. A Veteran filed a disability claim, died, and the VA learned of the death before finishing the claim. "concurrent in-service death claim" | Sept 12, 2025 | Claim for compensation to a surviving dependent |  |
-| 130YR100PMC | PMC - 100 - Year Review | VA initiated: Eligibility verification for beneficiaries age 100 or older | Sept 12, 2025 | NONE<br>*Filtered out for both mobile and VA.gov* |  |
+| 130DV0537PMC | PMC - Dependency Verification - 0537 | **NULL** - VBA-initiated marital relationship status check (8-year check) | Sept 12, 2025 | Automatic marital status verification review |  |
+| 130ISDDI | In Service Death Dependency Issue | **NULL** - Survivor and dependant compensation. A Veteran filed a disability claim, died, and the VA learned of the death before finishing the claim. "concurrent in-service death claim" | Sept 12, 2025 | Claim for compensation to a surviving dependent |  |
+| 130YR100PMC | PMC - 100 - Year Review | **NULL** - VA initiated: Eligibility verification for beneficiaries age 100 or older | Sept 12, 2025 | NONE<br>*Filtered out for both mobile and VA.gov* |  |
 
 ## EP 290 - Eligibility Determinations - Other
 - Adjudicative decisions involving non-standard VA benefits, elections, waivers, fiduciary issues, and other payment-related matters that don't fit standard claim categories
@@ -119,15 +119,15 @@ Last updated: [September 15, 2025]
 |---------|-------------|-----------|------------------|---------------------|:---:|
 | 290AFED | Attorney Fee Eligibility Determination | VA process or correction | Oct 6, 2025 | NONE<br>*Filtered out for both mobile and VA.gov* |  |
 | 290DRASED | DRAS Eligibility Determination | VA process or correction | Oct 6, 2025 | NONE<br>*Filtered out for both mobile and VA.gov* |  |
-| 290DV | Debt Validation | Veteran disputes debt amount, responsibility or hardship impact | Sept 12, 2025 | Request for debt review |  |
-| 290DVPMC | PMC - Debt Validation | Veteran disputes debt amount, responsibility or hardship impact | Sept 12, 2025 | Request for debt review |  |
+| 290DV | Debt Validation | **NULL** - Veteran disputes debt amount, responsibility or hardship impact | Sept 12, 2025 | Request for debt review |  |
+| 290DVPMC | PMC - Debt Validation | **NULL** - Veteran disputes debt amount, responsibility or hardship impact | Sept 12, 2025 | Request for debt review |  |
 | 290EER | EDU Eligibility Rating | Claimant applies to benefits using VA Form 22-5490; provides qualifying information to show eligibility and select type of benefit (DEA or Fry Scholarship) | Oct 6, 2025 | Claim for education benefits |  |
 | 290ELIG | Eligibility Determination | VA process or correction | Oct 6, 2025 | NONE<br>*Filtered out for both mobile and VA.gov* |  |
 | 290ELIGPMC | PMC-Eligibility Determination | VA process or correction | Oct 6, 2025 | NONE<br>*Filtered out for both mobile and VA.gov* |  |
-| 290HE7131R | Healthcare Eligibility - 731 Review | VA process or correction; Should never show to Veterans or other claimants; Identify and clarify health records from VHA to specialty | Sept 12, 2025 | NONE<br>*Filtered out for both mobile and VA.gov* |  |
+| 290HE7131R | Healthcare Eligibility - 731 Review | **NULL** - VA process or correction; Should never show to Veterans or other claimants; Identify and clarify health records from VHA to specialty | Sept 12, 2025 | NONE<br>*Filtered out for both mobile and VA.gov* |  |
 | 290INCROB | Incarceration - Resumption of Benefits | Veteran request to reinstate VA benefits after incarceration | Sept 12, 2025 | Request to restart benefits after incarceration |  |
-| 290LGYBDD | LGY Determination - BDD | VA process or correction; Should never show to Veterans or other claimants; Filtered: work done outside VBMS | Sept 12, 2025 | NONE<br>*Filtered out for both mobile and VA.gov* |  |
-| 290LGYIDES | Pre-Discharge LGY Determination - IDES | VA process or correction; Should never show to Veterans or other claimants; Filtered: work done outside VBMS | Sept 12, 2025 | NONE<br>*Filtered out for both mobile and VA.gov* |  |
+| 290LGYBDD | LGY Determination - BDD | **NULL** - VA process or correction; Should never show to Veterans or other claimants; Filtered: work done outside VBMS | Sept 12, 2025 | NONE<br>*Filtered out for both mobile and VA.gov* |  |
+| 290LGYIDES | Pre-Discharge LGY Determination - IDES | **NULL** - VA process or correction; Should never show to Veterans or other claimants; Filtered: work done outside VBMS | Sept 12, 2025 | NONE<br>*Filtered out for both mobile and VA.gov* |  |
 | 290SCNR | Substitution of Claimant - Non-Rating | Substitution of a claimant request with and without a disability rating because a survivor is filling out the form to request this action | Sept 12, 2025 | Request for substitution of claimant on record | ✅ |
 | 290SCPMC | PMC - Substitution of Claimant (290) | Substitution request for deceased claimant because a survivor is filling out the form to request this action | Sept 12, 2025 | Request for substitution of claimant on record | ✅ |
 | 290SCR | Substitution of Claimant - Rating | Substitution of claimant request with and without a disability rating because a survivor is filling out the form to request this action | Sept 12, 2025 | Request for substitution of claimant on record | ✅ |
@@ -138,7 +138,7 @@ Last updated: [September 15, 2025]
 
 | EP Code | Claim Label | Logic + Background | Last updated | Plain Language Title | Implemented |
 |---------|-------------|-----------|------------------|---------------------|:---:|
-| 330DVRPMC | PMC - Dependency Verification Review | VBA-initiated dependent status check (8-year check) | Sept 12, 2025 | Automatic dependency verification review |  |
+| 330DVRPMC | PMC - Dependency Verification Review | **NULL** - VBA-initiated dependent status check (8-year check) | Sept 12, 2025 | Automatic dependency verification review |  |
 
 ## EP 400 - Correspondence and Information Actions
 - Disability, fiduciary, or death cases that only require a response to correspondence—such as letters, emails, forms, notices, or inquiries. 
