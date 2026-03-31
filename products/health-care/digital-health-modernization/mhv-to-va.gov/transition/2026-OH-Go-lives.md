@@ -98,6 +98,8 @@ Figma designs for all affected tools, including both web and VAHB mobile app sol
 
 These designs include patterned "T" dates, that are mathematically calculating the correct calendar dates based on a given "go-live round phase" launch date. When we know the phase, we can pull the launch date and calculate back 60 days, or forward 2 days, for example, based on the pattern. This will allow us to render these alerts programmatically throughout the 4 go-live round phases in 2026 and in future years. 
 
+Find the [mapping between relative "T"-date, phase IDs, and absolute dates in this document](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/transition/schedules.md).
+
 ## Example alert (for appointments): 
 
 <img width="697" height="656" alt="Screenshot 2026-01-21 at 2 39 26 PM" src="https://github.com/user-attachments/assets/71899096-96a5-4776-9398-4442951367b5" />
