@@ -10,7 +10,7 @@ Labs and Test results feature several different types of tests/procedures/studie
 - Radiology (will be moving to its own _Imaging_ domain in future enhancement)
 - Blood Bank (future ehnancement])
 
-------
+
 
 ## Cosmic vs. Atomic 
 
@@ -30,7 +30,6 @@ Each lab test may have one or more results. In FHIR, these would be represented 
 
 <img width="775" height="718" alt="image" src="https://github.com/user-attachments/assets/c2eb6c6c-4f7c-4562-a895-80e8c63b4a00" />
 
-------
 
 ## Test Type: Chemistry and Hematology
 
@@ -42,14 +41,6 @@ Each lab test may have one or more results. In FHIR, these would be represented 
 #### Atomic
 <img width="2515" height="1714" alt="labs-chem-hem-atomic-fields" src="https://github.com/user-attachments/assets/71be54a4-3102-43cd-8281-df48414d9ec7" />
 
-### VistA data as displayed in MHV Classic (example of a Hemogram + Platelet test)
-
-(click to view image; click again to enlarge)
-
-<img width="300" height="1780" alt="chem-hem-classic" src="https://github.com/user-attachments/assets/2f5afec3-2129-4ddf-ac6e-c235cd89b0fa" />
-
-------
-
 ### Chemistry and Hematology VA.gov UI design, based on FHIR R4 specification
 
 Note that `Interpretation` in this mockup is incorrect.  Based on data we see returned in FHIR R4; `Interpretation` is the flag that describes if a result was normal, high, critically high, low, critically low. 
@@ -57,6 +48,14 @@ Note that `Interpretation` in this mockup is incorrect.  Based on data we see re
 (click to view image; click again to enlarge)
 
 <img width="206" height="900" alt="chem-hem-vagov" src="https://github.com/user-attachments/assets/3309395e-8c24-4bae-93b5-5305c4f96d29" />
+
+
+
+### Chemistry and Hematology VistA data as displayed in MHV Classic (example of a Hemogram + Platelet test)
+
+(click to view image; click again to enlarge)
+
+<img width="300" height="1780" alt="chem-hem-classic" src="https://github.com/user-attachments/assets/2f5afec3-2129-4ddf-ac6e-c235cd89b0fa" />
 
 
 
@@ -72,14 +71,12 @@ N/A
  
 
 ### Microbiology Fields to include in UI based on FHIR R4 specification
-
-
-
+<img width="2515" height="3674" alt="labs-micro-fields" src="https://github.com/user-attachments/assets/88646ca7-3425-4498-a84d-5854efee1941" />
 
 
 ### Microbiology VA.gov UI design, based on FHIR R4 specification
 
-<img width="1280" height="3566" alt="labs-micro-vagov" src="https://github.com/user-attachments/assets/984d2cf4-f521-40b0-acd2-b620b503f4cd" />
+<img width="323" height="3566" alt="labs-micro-vagov" src="https://github.com/user-attachments/assets/984d2cf4-f521-40b0-acd2-b620b503f4cd" />
 
 
 ### VistA data as displayed in MHV Classic
@@ -99,14 +96,13 @@ N/A
 
 
 ### Pathology VA.gov UI design, based on FHIR R4 specification
-
-<img width="1280" height="3117" alt="labs-surg-path-vagov" src="https://github.com/user-attachments/assets/cee597dd-84f5-4b11-b751-240e2d35fad1" />
+<img width="369" height="3117" alt="labs-surg-path-vagov" src="https://github.com/user-attachments/assets/046a875a-3e36-4cf4-898d-c464267a2221" />
 
 
 ### VistA data as displayed in MHV Classic
 
-[image here]
 
+<img width="1127" height="1882" alt="labs-surg-path-classic-bb" src="https://github.com/user-attachments/assets/3fcde52a-ed3c-4fbf-874f-610a5652b700" />
 
 
 
@@ -115,8 +111,6 @@ N/A
 
 
 ## Radiology
-
-### Radiology documents
 
 ### Radiology fields to include in UI based on FHIR R4 specification
 <img width="2515" height="2554" alt="SME Review Imaging results on VA gov_2026-03-31_20-48-26" src="https://github.com/user-attachments/assets/cc799ed7-36a5-4319-95a4-b015ad91f014" />
@@ -149,9 +143,11 @@ Image in Classic UI
 Designs follow the same pattern as Pathology
 
 ### Cytology Report in Classic Blue Button 
+<img width="1128" height="770" alt="labs-cytology-classic-bb" src="https://github.com/user-attachments/assets/6331c57b-77f3-4750-be61-797d2c226c4b" />
 
 
 ## Cardiology/EKG
+<img width="770" height="581" alt="image" src="https://github.com/user-attachments/assets/79833c95-6496-45fc-a3e7-562a676a2979" />
 
 
 
