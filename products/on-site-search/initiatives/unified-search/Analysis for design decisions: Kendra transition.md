@@ -5,7 +5,7 @@ date: 2026-03-30
 last_updated: 2026-03-30
 document_type: "research-synthesis"
 category: "Research Discovery & Analysis"
-purpose: "Synthesizes 5 existing sources to identify documented failures in the current Search.gov experience, surface design implications for the Kendra SERP transition, and prioritize research gaps that need to be addressed before launch"
+purpose: "Synthesizes existing sources to identify documented failures in the current Search.gov experience, surface design implications for the Kendra SERP transition, and prioritize research gaps that need to be addressed before launch"
 
 # Context
 team: "On-site Search"
