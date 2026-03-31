@@ -1,3 +1,66 @@
+---
+# Document Metadata
+title: "Research Synthesis: VA.gov Search — Design Analysis for Kendra Transition"
+date: 2026-03-30
+last_updated: 2026-03-30
+document_type: "research-synthesis"
+category: "Research Discovery & Analysis"
+purpose: "Synthesizes 5 existing sources to identify documented failures in the current Search.gov experience, surface design implications for the Kendra SERP transition, and prioritize research gaps that need to be addressed before launch"
+
+# Context
+team: "On-site Search"
+product: "VA.gov Global Search (Unified Search)"
+product_area: "Unauthenticated experience — VA.gov global search (sitewide)"
+
+# Related Resources
+related_files:
+  - file: "R&S Search and Filtering — Research Findings"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/resources-and-support/research/2024-search-filters/research-report.md"
+    description: "Remote moderated usability study, R&S filter UI, 12 participants, March 2024"
+  - file: "VA.gov Search Feedback — Combined Qualitative Analysis"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/initiatives/unified-search/va-search-feedback-combined-analysis.md"
+    description: "Qualitative thematic analysis of ~3,815 Medallia survey responses"
+  - file: "VA.gov Search Feedback — Medallia Qualitative Analysis"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/initiatives/unified-search/medallia-search-findings-031226.md"
+    description: "Earlier or parallel version of the combined Medallia analysis"
+  - file: "Problematic Search Queries"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/analytics/problematic-search-queries.md"
+    description: "QA / editorial audit of specific queries with documented failures"
+  - file: "Top queries and CTR — 2025"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/analytics/2025.md"
+    description: "Full-year 2025 query analytics (14.17M events)"
+  - file: "On-site search product outline"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/unified-search-product-outline.md"
+    description: "Product context and initiative scope"
+  - file: "Initiative brief: Unified Search"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/initiatives/unified-search/initiative-brief.md"
+    description: "Business case, KPIs, and desired outcomes for unified search"
+  - file: "2025 On-Site Search Query Analysis"
+    url: ""
+    description: "Internal Slack only — no public URL"
+
+# Maintenance
+status: "active"
+
+tags:
+  - "Veterans"
+  - "Caregivers"
+  - "Family Member"
+  - "Disability"
+  - "Healthcare"
+  - "Education"
+  - "Finances"
+  - "Records"
+  - "Smartphone"
+  - "Desktop"
+  - "Accessibility"
+  - "Content Presentation"
+  - "Facilities"
+  - "Find-a-va-form"
+  - "secondary-analysis"
+  - "research-synthesis"
+---
+
 # Analysis for design decisions: Kendra transition
 
 ## Documents used...
