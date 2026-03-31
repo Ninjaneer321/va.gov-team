@@ -262,7 +262,7 @@ Please continue thinking aloud and share anything that stands out.
 
 I’m going to drop a link to the first version in the chat: https://tinyurl.com/2yxwsv6v
 
-Scenario: Imagine you want to send a message to your XYZ Health care team at the VA Ann Arbor Healthcare System, which is transitioning to Oracle Health. Show me how you would find that care team and send them a message.
+Scenario: Imagine you want to send a message to your XYZ Health care team at the VA Ann Arbor Healthcare System. Show me how you would find that care team and send them a message.
 
 *Ensure they narrate their process.*
 
@@ -316,8 +316,8 @@ Scenario: Same as before. Imagine you want to send a message to your XYZ Health 
 Alright, that completes all our tasks for today.
 
 - Thinking back on everything you did today, how did the overall experience feel?  
-- If we could improve one thing, what would you change? Why?  
-- Is there anything else you would like to share that we haven’t covered?  
+- If you could change one thing about this experience, what would it be? Why?
+- Is there anything else you would like to share about your experience today that we haven’t covered?  
 
 ---
 
@@ -331,14 +331,7 @@ I want to circle back and confirm that you are comfortable if we share a short v
 
 ## Thank you and closing
 
-Thank you so much for your time today. Your feedback is incredibly helpful as we continue improving this experience.
-
-Perigean will send you a thank you note with a short message you can share with other Veterans who may be interested in participating in future research.
-
-Thank you again, and enjoy the rest of your day.
+Thanks so much for your time today. Your feedback is really helpful as we continue improving this experience. Perigean will follow up with you after this session. Thanks again, and I hope you have a great rest of your day.
 
 ---
 
-## Emergency exit
-
-*In case of an emergency during a session, follow your prepared exit plan.*
