@@ -414,12 +414,24 @@ _Instruct user to click on the option they did not start from last time, either 
 > - 2. What reasoning do they provide for a preference?
 
 ## Section 4A: Comparative entry point assessment (Optional, if time permits, 5-10 minutes)   
-`Moderator: Now that you’ve seen both pages, I’d like to show them to you side-by-side. Take a moment to look at both pages again.`   
+`Moderator: Now that you’ve seen both pages, I’d like to show them to you back-to-back. Recall that you want to file an appointment for your dermatolgy appointment, which doesn't appear in your list of past appointments. I'd like to know which page seems most helpful as you try to accomplish that task.` 
+
+_Moderator takes over screenshare and shares either "Go to your past appointments" or "Review your travel reimbursement claims". Alternate the order between participants and note which page was shown first, to account for recency bias when synthesizing data._
+
+`First, let's look at [either "Go to your past appointments" or "Review your travel reimbursement claims"].` 
 
 1. What stands out to you? What do you notice?
-2. Which page makes it clearer that you can file for an appointment that isn’t on your list?
-3. If you could only pick one version, which one would you pick? Why would you pick that one?
-4. Is there anything you’d change about the entry point on either page?  
+
+_Moderator switches to the other page._
+
+1. What stands out to you? What do you notice?
+
+`Now consider both pages.` 
+
+1. Which page makes it clearer that you can file for an appointment that isn’t on your list?
+2. If you could only pick one version, which one would you pick?
+   - Why would you pick that one?
+3. Is there anything you’d change about how you'd start the process of filing for your dermatology appointment, on either page?  
 
 > [!NOTE]
 > ### Things to watch for:
