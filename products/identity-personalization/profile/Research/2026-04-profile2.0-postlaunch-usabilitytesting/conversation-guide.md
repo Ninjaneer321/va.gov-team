@@ -150,7 +150,7 @@ Thank you for telling me about your experience. We're going to switch topics to 
 
 * Keep in mind, we want to hear your thoughts, so say anything top of mind as you go.
 
-10. Imagine you've come to VA.gov to update your address on file/find your dependents on file/find your payment history/find your letters and documents/find your direct deposit information. Please show where you would go to update your address on file.  
+10. Imagine you’ve come to VA.gov to manage your email and text notifications. Please show where you would go to manage your email and text notifications. 
     1. *If they are unable to navigate to profile:* Select your name in the top navigation. Select profile to continue.
 
 > [!NOTE]
