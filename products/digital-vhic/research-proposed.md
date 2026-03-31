@@ -77,6 +77,19 @@ We recommend starting this research while designs are still being worked on, and
 
 If we wait until development starts and then discover the barcode doesn't scan on phones, or Veterans don't trust it, we'll need expensive rework.
 
+
+# Potential project: applying for new/replacement card
+
+Veterans need a clear place to apply for a new or replacement VHIC. One option is to add this request flow to the existing self-service platform, but that platform is currently very verbose. The team wants a more streamlined experience that helps Veterans request a VHIC with fewer steps and less reading.
+
+Research that supports Veterans wanting simplification:
+
+
+
+* [2025-10 Supplemental Claims Design Directions Research Findings - Mental Model](https://va.ghe.com/software/va.gov-team-debug/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Research%20Findings%20-%20Mental%20Model.md) (whole report)
+    * Finding 2: [Veterans must translate VA terminology to navigate the process](https://va.ghe.com/software/va.gov-team-debug/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Research%20Findings%20-%20Mental%20Model.md#finding-2-veterans-must-translate-va-terminology-to-navigate-the-process)
+    * Participants consistently described their actions in plain, goal-oriented terms… rather than using VA terminology.
+
 <!-----
 
 NOTE: below is the original document written for proposed research.
