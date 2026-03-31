@@ -1,15 +1,16 @@
 # P(number)
+> Tip: To fill in a checkbox, add an x in between the brackets, like [x] 
 
 Participant type: 
-- [x] Veteran
+- [ ] Veteran
 - [ ] Family member
 
 Notetaker: [Insert Name Here]
 
 -----
 ### Introduction
-- [x] Can record
-- [x] Can use video clips
+- [ ] Can record
+- [ ] Can use video clips
 
 
 ### Warm-up Questions
