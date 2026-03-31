@@ -5,15 +5,20 @@ sequenceDiagram
     participant Frontend as vets-website
     participant Backend as vets-api
     participant VES as Veteran Enrollment System
+    participant VADIR as VA Department of Defense Identity Repository
 
     Veteran->>Frontend: Start 10-10 EZR Form
     Frontend->>Backend: Fetch vet data and WIP forms
     Frontend->>Backend: Get enrollment status
+    Frontend->>Backend: Get service history data
     Frontend->>Backend: Get 10-10 EZR prefill data
     Backend->>VES: Get enrollment status
     VES-->>Backend: Return enrollment status
+    Backend->>VADIR: Get service history
+    VADIR-->>Backend: Return service history
     Backend-->>Frontend: Return vet data
     Backend-->>Frontend: Return enrollment status
+    Backend-->>Frontend: Return service history data
     Backend-->>Frontend: Return prefill data
 ```
 ## Submitting Form 10-10EZR
