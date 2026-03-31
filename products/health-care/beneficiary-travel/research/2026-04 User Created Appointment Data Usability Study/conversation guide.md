@@ -426,7 +426,7 @@ _Moderator switches to the other page._
 
 1. What stands out to you? What do you notice?
 
-`Now consider both pages.` 
+`Now consider both pages. We can go back and forth between them, if you like.` 
 
 1. Which page makes it clearer that you can file for an appointment that isn’t on your list?
 2. If you could only pick one version, which one would you pick?
