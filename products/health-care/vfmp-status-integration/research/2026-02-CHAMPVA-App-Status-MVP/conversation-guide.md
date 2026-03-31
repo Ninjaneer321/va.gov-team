@@ -213,12 +213,8 @@ Wait for participant's verbal consent.
 I'd like to confirm, what kind of device are you using today (desktop, mobile, tablet)? 
 
 Great! I'm pasting the link to the site in the chat. You can find that in the row of buttons at the bottom, under the chat icon: 
-- Veteran flow
-  - mobile: https://soft-meter-55458294.figma.site/scenario1 
-  - desktop: 
-- Spouse/dependent flow 
-  - mobile: https://soft-meter-55458294.figma.site/scenario1-nonveteran 
-  - desktop: 
+- Veteran flow: https://chisel-pear-20681620.figma.site/scenario1
+- Spouse/dependent flow: https://chisel-pear-20681620.figma.site/scenario1-nonveteran
 
 _Share link in chat of appropriate prototype_
 
