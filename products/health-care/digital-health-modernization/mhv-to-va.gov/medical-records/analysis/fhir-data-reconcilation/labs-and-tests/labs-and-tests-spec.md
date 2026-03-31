@@ -1,6 +1,7 @@
-# My HealtheVet on VA.gov Medical Records - Lab and Test Results Specification
+# MHV VA.gov Medical Records - _Lab and Test Results_ Specification
 
-    
+Labs and Test results feature several different types of tests/procedures/studies.  
+
 ## Sub-domains (types)
 - Chemistry and Hematology
 - Microbiology
@@ -200,8 +201,10 @@ List Oracle endpoints here
 
 ## References
 
+Lab and test results domain brief
 
-[domain] SME review document
-[domain] Mural designs
+Lab SME review document
+
+Lab Mural designs
 
 
