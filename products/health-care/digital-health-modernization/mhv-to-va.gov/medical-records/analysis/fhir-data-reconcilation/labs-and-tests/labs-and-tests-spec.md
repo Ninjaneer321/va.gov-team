@@ -147,10 +147,14 @@ Designs follow the same pattern as Pathology
 
 
 ## Cardiology/EKG
+Note: EKG data for VistA stopped being in 2022 and SME decision was not to include that data.   Oracle DOES have EKG reports that can be displayed in place of the "Not available in this tool" text shown in the VA.gov design below.
+
+### Cardiology fields to include in UI based on FHIR R4 specification
 <img width="770" height="581" alt="image" src="https://github.com/user-attachments/assets/79833c95-6496-45fc-a3e7-562a676a2979" />
 
+### Cardiology UI design for VA.gov based on FHIR R4 specification
 
-
+<img width="1721" height="1665" alt="labs-ekg-vagov" src="https://github.com/user-attachments/assets/3c7cc362-fbf4-48b2-b3d2-2dee9b84cb18" />
 
 ## Blood Bank (future enhancement)
 
