@@ -284,7 +284,7 @@ Scenario: Imagine you want to send a message to your patient advocate health car
 
 ### Concept 2
 
-Now I’m going to share a second version of this experience.
+Now I’m going to share a second version of this experience. [link coming]
 
 This one is a bit different from what you just saw, so again, just walk through it as you normally would and keep thinking aloud.
 
