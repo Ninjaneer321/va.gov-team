@@ -6,6 +6,12 @@
 Refer to [#benefits-disability](https://dsva.slack.com/archives/C04KW0B46N5) for access to current team members.
 A comprehensive overview of the Disability Benefits Crew (DBC) can be found in [the Disability Experience ReadME](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/benefits-portfolio/disability-experience) within the Benefits Portfolio. This includes a breakdown of all DBC teams, a team charter, and helpful links, like various Slack channels, repos, and Murals.
 
+
+>[!CAUTION]
+> <mark>Content below this note is due a review and update. Interact with links and info at your own risk!</mark>\
+> (Note posted 3/30/2026)
+
+
 # Product Outline: Disability Compensation Application (Form 526) 📘
 - GitHub Label: disability-experience
 - Slack channel: [#benefits-disability](https://dsva.slack.com/archives/C04KW0B46N5)
