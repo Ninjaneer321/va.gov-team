@@ -5,9 +5,9 @@ This Scrum of Scrum (SoS) meeting is to ensure all teams working with the Drupal
 3/16/2026
 
 **Announcements**
-Sofia Kirkman is the new Product Lead for Drupal CMS
-Help desk is currently unavailable so updates on flagged facilities may be delayed - Sofia will work on cleaning up the Github board.
-Editors will be referred to Outlook inbox.
+- Sofia Kirkman is the new Product Lead for Drupal CMS
+- Help desk is currently unavailable so updates on flagged facilities may be delayed - Sofia will work on cleaning up the Github board.
+- Editors will be referred to Outlook inbox for now.
 
 
 * Next Build/ Content Build development is creating some confusion and backwork - we'd like to discuss a process for communication/clarity around this 
