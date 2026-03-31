@@ -1,3 +1,59 @@
+---
+# Document Metadata
+title: "Copilot Analysis: On-Site Search & Resources and Support Research"
+date: 2026-03-31
+last_updated: 2026-03-31
+document_type: "ai-generated-synthesis"
+category: "Research Discovery & Analysis"
+purpose: "GitHub Copilot-generated summary of available research on VA.gov on-site search — covers R&S filter usability study, Medallia feedback analysis, and unified search initiative brief. Use as a starting point for orientation, not as a primary source."
+
+# Context
+team: "On-site Search"
+product: "VA.gov Global Search (Unified Search)"
+product_area: "Unauthenticated experience — VA.gov global search (sitewide)"
+
+# Source Note
+source_note: "AI-generated output. Findings should be verified against the original source documents listed below before use in research planning or design decisions."
+
+# Related Resources
+related_files:
+  - file: "R&S Search and Filtering — Topline Summary"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/resources-and-support/research/2024-search-filters/topline-summary.md"
+    description: "Quick read on filter/tag findings from 2024 usability study"
+  - file: "R&S Search and Filtering — Research Report"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/resources-and-support/research/2024-search-filters/research-report.md"
+    description: "Full findings from remote moderated usability study, 12 participants, March 2024"
+  - file: "R&S Search and Filtering — Data Synthesis Spreadsheet"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/resources-and-support/research/2024-search-filters/data_synthesis.xlsx"
+    description: "Raw participant data from the 2024 R&S filter study"
+  - file: "VA.gov Search Feedback — Medallia Qualitative Analysis"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/initiatives/unified-search/medallia-search-findings-031226.md"
+    description: "Qualitative thematic analysis of ~3,815 Medallia survey responses"
+  - file: "Initiative Brief: Unified Search"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/initiatives/unified-search/initiative-brief.md"
+    description: "Business case, KPIs, and desired outcomes for unified search"
+  - file: "Search Design Reference"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/initiatives/unified-search/search-design-reference.md"
+    description: "Architecture concepts for blended results and intent classification"
+
+# Maintenance
+status: "reference"
+
+tags:
+  - "Veterans"
+  - "Caregivers"
+  - "Disability"
+  - "Healthcare"
+  - "Education"
+  - "Finances"
+  - "Records"
+  - "Smartphone"
+  - "Desktop"
+  - "Accessibility"
+  - "Content Presentation"
+  - "Facilities"
+  - "ai-generated-synthesis"
+---
 
 ## **Copilot Analysis: On-Site Search & Resources & Support Research**
 
