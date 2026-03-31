@@ -1,7 +1,7 @@
 # P(number)
 > Tip: To fill in a checkbox, add an x in between the brackets, like [x] 
 
-Participant type: 
+Participant type
 - [ ] Veteran
 - [ ] Family member
 
@@ -26,7 +26,10 @@ After submitting application?
 
 
 ### Screenshare & Prototype Setup
-- Device type:
+Device type
+- [ ] Mobile phone
+- [ ] Desktop
+- [ ] Other:
 
 
 ### Scenario 1a: My VA homepage
@@ -44,8 +47,11 @@ Overview tab
 - notes
 
 Scale of 1-5, how difficult or easy was it to understand the application steps?
-- notes
-
+- [ ] 1 - very hard
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] 5 - very easy
 
 ### Scenario 2: Evidence request
 MyVA
@@ -55,7 +61,11 @@ CHAMPVA status
 - notes
 
 Scale of 1-5, how difficult or easy was it to understand this screen?
-- notes
+- [ ] 1 - very hard
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] 5 - very easy
 
 Birth certificate page
 - notes
