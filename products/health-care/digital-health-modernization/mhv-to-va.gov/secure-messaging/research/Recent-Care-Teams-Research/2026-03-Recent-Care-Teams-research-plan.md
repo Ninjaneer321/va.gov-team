@@ -302,12 +302,11 @@ All participants must receive VA health care, have sent a secure message to thei
 
 ## Team Roles 🕵️
 
-- Moderator: **Espy Thompson, Athena Bozak**  
-- Research guide: **[Enter]**  
+- Moderator: **Espy Thompson, Athena Bozak**   
 - Recruiting: **Perigean**  
 - Point of contact: **Espy Thomson**  
 - Accessibility specialist: **Sarah Horton?**  
-- Note-takers: **Athena Bozak**
+- Note-takers: **Athena Bozak, Espy Thomson**
 
 ---
 
