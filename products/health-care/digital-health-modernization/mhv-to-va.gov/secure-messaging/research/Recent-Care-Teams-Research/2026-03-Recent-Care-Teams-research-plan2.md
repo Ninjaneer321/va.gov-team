@@ -144,7 +144,7 @@ The insights that come out of this research will inform the structure and usabil
 
 #### Care team selection & discovery  
 **`1.` How do users determine which care team to select when composing a message?**  
-- a. A. Care system: Do users rely on the care system to narrow their list of care teams?
+- a. Care system: Do users rely on the care system to narrow their list of care teams?
 - b. Do users search or scroll in the combo box when looking for a care team?
 - c. What categories of care teams do users normally message, including recent care teams?
 - d. What navigational features help users correctly identify the appropriate care team quickly and easily? 
@@ -209,8 +209,9 @@ The insights that come out of this research will inform the structure and usabil
 
 ## Methodology 🛠️
 
-- 60-minute moderated usability sessions via Zoom  
+- 60-minute moderated usability sessions conducted via Zoom  
 - Target of 8 completed sessions with Veterans  
+- Participants will use either a desktop/laptop or mobile device  
 
 ---
 
@@ -245,32 +246,43 @@ We will partner with Perigean to recruit a diverse sample of Veterans for modera
 
 ### Primary criteria (must-haves)
 
-- All participants have VA health care as a benefit  
-- At least 8 participants use VA secure messaging with their care team/provider  
-- At least 6 participants are over 55 years old  
-- At least 3 participants live in a rural area  
-- (TBD) Assistive technology users  
-- (TBD) Oracle Health pre-transition users  
-- At least 6 participants have a traumatic brain injury or cognitive disability  
-- At least 3 participants are women  
-- At least 3 participants are Black or African American  
-- At least 3 participants are Hispanic, Latino, or of Spanish origin  
-- At least 2 participants are Asian  
-- At least 1 participant identifies as gay, lesbian, or bisexual  
-- At least 4 participants have a high school diploma as their terminal degree  
+All participants must receive VA health care, have sent a secure message to their provider using My HealtheVet on VA.gov at least once in the past 6 months, and be comfortable participating on either a desktop/laptop or mobile device.
+
+- At least 6 participants are over 55 years old
+- At least 6 participants have a traumatic brain injury or cognitive disability
+- At least 6 participants primarily use a mobile device
+- At least 4 participants have a high school diploma as their highest level of education
+- At least 4 participants use assistive technology (2 screen reader, 2 speech input or speech-to-text)
+- At least 3 participants live in a rural area
+- At least 3 participants are women
+- At least 3 participants are Black or African American
+- At least 3 participants are Hispanic, Latino, or of Spanish origin
+- At least 2 participants are Asian
+- At least 1 participant identifies as gay, lesbian, or bisexual
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/7c6afacd-989f-4c50-b60a-95abafa6d8ec" />
+
+
 
 ---
 
 ## Screener Questions 📋
 
-**`1.` [Enter screener question]**  
-- Qualifying response:
+**`1.` Do you currently receive health care through VA?**  
+- Qualifying response: Yes → Move to Q2  
+- Non-qualifying response: No → End screening  
 
-**`2.` [Enter screener question]**  
-- Qualifying response:
+---
 
-**`3.` [Enter screener question]**  
-- Qualifying response:
+**`2.` In the past 6 months, have you sent a secure message to your health care team using My HealtheVet on VA.gov?**  
+- Qualifying response: Yes → Move to Q3  
+- Non-qualifying response: No → End screening  
+
+---
+
+**`3.` During the session, we’ll ask you to sign in to your My HealtheVet account on VA.gov and share your screen while we observe how you use secure messaging. We will only focus on the messaging area and will not ask you to open or read any personal messages or health information. Are you comfortable participating in this way?**  
+- Qualifying response: Yes → Continue to additional questions  
+- Non-qualifying response: No → End screening  
 
 ---
 
