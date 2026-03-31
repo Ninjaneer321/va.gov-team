@@ -38,13 +38,13 @@ Synchronous Go/No Go (Placeholder)
 
 - [X] review the release plan with your team.
 - [X] review the plan with your OCTO representative.
-- [ ] Finalize the release date
+- [X] Finalize the release date
 
 **Verdict: Go for release on Wednesday 4/1/26 as an initial test**
 
-## Release Details (April 1, 2026)
+## Release Details (April 6, 2026 -- Full Permanent Release)
 
-- [ ] Enable in Production to 20% of users for first day then turn on for 100% on Monday April 6th.
+- [ ] Enable in Production to 100% of users for 4/1-4/2 for a trial period.  Feature will be turned off again 4/3-4/5 to allow for some time to review metrics and ensure everything is working as anticipated. Feature will be turned back on for 100% of users permanently on Monday April 6th as long as everything looks good in production!
 - [ ] Confirm the release to Production, with a test user
 - [ ] Communicate release to ARP pilot users via Teams/Email
 - [ ] Mia to send out BLUF Statement
