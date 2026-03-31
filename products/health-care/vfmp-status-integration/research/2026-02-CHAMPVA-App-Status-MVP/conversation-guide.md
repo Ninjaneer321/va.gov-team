@@ -212,9 +212,13 @@ Wait for participant's verbal consent.
 
 I'd like to confirm, what kind of device are you using today (desktop, mobile, tablet)? 
 
-Great! I'm pasting the link to the site in the chat. You can find that in the row of buttons at the bottom, under the chat icon: 
-- Veteran flow: https://chisel-pear-20681620.figma.site/scenario1
-- Spouse/dependent flow: https://chisel-pear-20681620.figma.site/scenario1-nonveteran
+Great! I'm pasting the link and a password to the site in the chat. You can find that in the row of buttons at the bottom, under the chat icon: 
+- Veteran flow:
+  - https://chisel-pear-20681620.figma.site/scenario1
+  - Password: champva-test89124
+- Spouse/dependent flow:
+  - https://chisel-pear-20681620.figma.site/scenario1-nonveteran
+  - Password: champva-test89124
 
 _Share link in chat of appropriate prototype_
 
@@ -267,7 +271,7 @@ Take a moment to review this page and think out loud as you go, but don’t clic
     - What do you expect to find in the Forms section?
   - Now, what would you do next?
     - [If they would call] What would you ask about?
-      - Is there anything you would do on this page?
+      - Is there anything else you would do on this page?
       - [If they don’t scroll up] Could you scroll back up to the top of the page and look at the Claim and application status section?
     - [If they would click “Check status details” or “Track claims, decision reviews, and applications” link]
       - What do you think would happen if you click on the link?
