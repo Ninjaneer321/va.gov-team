@@ -125,13 +125,13 @@ tags:
 	
 `What problem is your product trying to solve?`
 
-**The VA provides veterans with three options if they disagree with a benefits decision:
+The VA provides veterans with three options if they disagree with a benefits decision:
 	• Supplemental Claim • Higher-Level Review • Board Appeal.
-User feedback suggests confusion about when to choose each option, which may lead to incorrect submissions, delays, or frustration.**
+User feedback suggests confusion about when to choose each option, which may lead to incorrect submissions, delays, or frustration.
   
 `Where is your product situated on VA.gov? (ex: auth vs. unauth)`
 
-**Unauthenticated**
+Unauthenticated
   
 `What is Veterans’ familiarity with this tool? Is this a new product or an iteration on an existing one?`
 
