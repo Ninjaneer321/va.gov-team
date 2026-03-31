@@ -160,6 +160,8 @@ As you go, please think aloud and tell me what you are looking at, what you are 
 
 *Observe entry point choice.*
 
+---
+
 ### Interstitial page
 
 *Observe silently first.*
@@ -171,6 +173,8 @@ As you go, please think aloud and tell me what you are looking at, what you are 
 *If they move past this page quickly or skip it:*
 - What do you remember about that page, if anything?  
 - What did you think it was trying to tell you?  
+
+---
 
 ### Care teams you recently sent messages to
 
@@ -186,7 +190,9 @@ As you go, please think aloud and tell me what you are looking at, what you are 
 - What would you do next?  
 
 *Optional probe if needed:*
-- How are you feeling about what to do from here?   
+- How are you feeling about what to do from here?  
+
+---
 
 ### Select care team page
 
@@ -209,6 +215,8 @@ As you go, please think aloud and tell me what you are looking at, what you are 
 - What else stands out to you on this page?  
 - What do you think these links might help you do?  
 
+---
+
 ### Start message page
 
 *Observe silently first.*
@@ -223,6 +231,8 @@ As you go, please think aloud and tell me what you are looking at, what you are 
 - Anything confusing or unclear here?  
 
 *Have them discard draft.*
+
+---
 
 ### Wrap-up
 
@@ -250,7 +260,7 @@ Please continue thinking aloud and share anything that stands out.
 
 ### Concept 1
 
-I’m going to drop a link to the first version in the chat.
+I’m going to drop a link to the first version in the chat: https://tinyurl.com/2yxwsv6v
 
 Scenario: Imagine you want to send a message to your XYZ Health care team at the VA Ann Arbor Healthcare System, which is transitioning to Oracle Health. Show me how you would find that care team and send them a message.
 
@@ -298,6 +308,7 @@ Scenario: Same as before. Imagine you want to send a message to your XYZ Health 
 - Thinking about the two versions you just tried, what differences stood out to you?  
 - How did each version feel to use?  
 - In which version did you feel more confident about what to do next? Why?
+
 ---
 
 ## General reflection – 3 minutes
