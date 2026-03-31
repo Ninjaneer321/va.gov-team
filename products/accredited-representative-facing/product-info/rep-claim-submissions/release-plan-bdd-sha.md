@@ -10,7 +10,8 @@ Feature Toggle/flag:
    - Promoting SHA Part A in 21-526ez
       -    [ ] SHA content on 21-526ez submission page
       -    [ ] Checkbox on Claimant information portion of 526ez
-      -    [ ] SHA Upload & Modal
+      -    [ ] SHA Upload option is avaiable
+      -    [ ] If no SHA upload is added, modal is tripped 
 - [ ] Any "launch blocking" findings from Team QA have been addressed.
 - [ ] Datadog monitoring is set up to track 526ez submissions with BDD checked and an SHA uploaded and when an SHA is not uploaded
 
