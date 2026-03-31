@@ -2,10 +2,13 @@
 
 ----
 
-# Product Outline: Disability Compensation Application (Form 526) 📘
+# Quick Reference 📖
+Refer to [#benefits-disability](https://dsva.slack.com/archives/C04KW0B46N5) for access to current team members.
+A comprehensive overview of the Disability Benefits Crew (DBC) can be found in [the Disability Experience ReadME](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/benefits-portfolio/disability-experience) within the Benefits Portfolio. This includes a breakdown of all DBC teams, a team charter, and helpful links, like various Slack channels, repos, and Murals.
 
+# Product Outline: Disability Compensation Application (Form 526) 📘
 - GitHub Label: disability-experience
-- Slack channel: #benefits-disability
+- Slack channel: [#benefits-disability](https://dsva.slack.com/archives/C04KW0B46N5)
 - VA.gov link: /disability/file-disability-claim-form-21-526ez/introduction
 - ⭐ Product Roadmap: [DBEX Roadmap 2024](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1717458460532/5a74ece0ca694a9e6c85b3a1130a8c7b8dabf123?wid=9-1736197249937) ⭐
 - ⭐ 526ez Walkthrough video link: [526EZ UX 101](https://dvagov.sharepoint.com/sites/vaabdvro/_layouts/15/stream.aspx?id=%2Fsites%2Fvaabdvro%2FShared%20Documents%2FDisability%20Benefits%20Experience%2F%5F%5FContract%20Transition%20Documentation%2FOnboarding%20Training%20Videos%2F526EZ%20UX%20101%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb3ae350a%2D0c47%2D4b0b%2Da84a%2Dfd88920c7f6d) ⭐
@@ -40,10 +43,6 @@
 - [21-2680 (Examination for Housebound Status or Permanent Need For Regular Aid and Attendance)][21-2680]
 - [21-4502 (Auto Allowance & Adaptive Equipment Application)][21-4502]
 
-
-## Team 👥
-Refer to #benefits-disability for most up-to-date team members.
-A comprehensive overview of the Disability Benefits Crew (DBC) can be found in [the Disability Experience ReadME](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/benefits-portfolio/disability-experience) within the Benefits Portfolio. This includes a breakdown of all DBC teams, a team charter, and helpful links, like various Slack channels, repos, and Murals.
 
 # Quick links 🔗
 
