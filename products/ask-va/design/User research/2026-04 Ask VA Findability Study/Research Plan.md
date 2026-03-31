@@ -41,7 +41,9 @@ In this research we are specifically exploring Veteran submitters' input on how 
 
 ---
 
-This research will create a better understanding of how Ask VA fits into a Veteran's support experience with VA. We hope to uncover the different paths people might take to arrive at Ask VA and complete the form for help. This will help us make appropriate content decisions on the Ask VA Introduction page. This will also help us better understand how authentication impacts their experience. We will be able to make informed decisions about how authentication impacts a submitter's experience receiving support from Ask VA. 
+This research will create a better understanding of how Ask VA fits into a Veteran's support experience with VA. We hope to uncover the different paths people might take to arrive at Ask VA and complete the form for help. 
+
+More specifically, this will help us make content and design decisions on the Ask VA Introduction page. This will also help us better understand how authentication impacts their experience, enabling us to make informed decisions about how to handle the authenticated experience vs. the unauthenticated experience for Ask VA. 
 
 ---
 
@@ -69,7 +71,7 @@ Veterans want support without having to login to their VA accounts.
 
 ## Methodology
 
-**Research method:** Interviews  
+**Research method:** Exploratory Interviews  
 **Moderation style:** Moderated \- facilitator led  
 **Location:** Remote over Zoom  
 **Timeframe:** 60 minutes
