@@ -292,11 +292,11 @@ All participants must receive VA health care, have sent a secure message to thei
 ---
 
 ## Timeline 🗓️
-
-- `Planned dates:` **[Enter dates]**  
-- `Session length:` **[Enter]**  
-- `Buffer time:` **[Enter]**  
-- `Sessions per day:` **[Enter]**
+- `Kickoff with Perigean:` **TBD** 
+- `Planned dates:` **TBD**  
+- `Session length:` **no longer than 60 minutes**  
+- `Buffer time:` **at least 30 minutes in between sessions**  
+- `Sessions per day:` **no more than 3**
 
 ---
 
