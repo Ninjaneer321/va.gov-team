@@ -3,7 +3,7 @@
 ## Analysis
 
 ### Policy and Procedural Constraints
-Based on conversations with [letter owners and stakeholders](https://docs.google.com/spreadsheets/d/1pCXc0n9N9xbKiWLJcUIwInnGX-I-tlRh3p2x-ONkzuI/edit?usp=sharing) familiar with policy and legal requirements:
+Based on conversations with [letter owners and stakeholders](https://dvagov.sharepoint.com/:x:/r/sites/vaabdvro/Shared%20Documents/Benefits%20Management%20-%20CST/VA%20Letters%20and%20Documents/Benefit%20letter%20owners.xlsx?d=wb9afa646dc51492fa9e426272d4ee235&csf=1&web=1&e=gnArll) familiar with policy and legal requirements:
 
 - Benefit letters do not require a mailing address from the VA to be generated  
 - However, receiving organizations (e.g., state agencies, local governments, housing authorities) often require an address to:
