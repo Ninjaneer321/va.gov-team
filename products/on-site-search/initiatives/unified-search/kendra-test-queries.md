@@ -1,3 +1,53 @@
+---
+# Document Metadata
+title: "Kendra Test Queries: Kendra vs. Search.gov Comparison"
+date: 2026-03-30
+last_updated: 2026-03-30
+document_type: "test-artifacts"
+category: "Research Discovery & Analysis"
+purpose: "30-query set for scoring Kendra vs. Search.gov on documented failure cases — covers high-volume baseline, natural-language, poor-relevancy, and edge-case queries to distinguish ranking problems from indexing gaps"
+
+# Context
+team: "On-site Search"
+product: "VA.gov Global Search (Unified Search)"
+product_area: "Unauthenticated experience — VA.gov global search (sitewide)"
+
+# Related Resources
+related_files:
+  - file: "Problematic Search Queries"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/analytics/problematic-search-queries.md"
+    description: "Source for documented failure cases in this query set"
+  - file: "Top queries and CTR — 2025"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/analytics/2025.md"
+    description: "Source for high-volume baseline queries"
+  - file: "VA.gov Search Feedback — Combined Qualitative Analysis"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/initiatives/unified-search/va-search-feedback-combined-analysis.md"
+    description: "Source for Medallia-documented failure cases"
+  - file: "Analysis for design decisions: Kendra transition"
+    url: "output/analysis-for-design-decisions-Kendra-transition.md"
+    description: "Research synthesis that contextualizes these queries within broader search findings"
+
+# Maintenance
+status: "active"
+
+tags:
+  - "Veterans"
+  - "Disability"
+  - "Healthcare"
+  - "Education"
+  - "Finances"
+  - "Records"
+  - "Housing"
+  - "Desktop"
+  - "Smartphone"
+  - "Find-a-va-form"
+  - "Facilities"
+  - "Claim-status-tool"
+  - "Caregivers"
+  - "CHAMPVA"
+  - "test-artifacts"
+---
+
 # Kendra vs. Search.gov — test query set
 
 This list is drawn from documented failures in [Analysis for design decisions: Kendra transition](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/initiatives/unified-search/Analysis%20for%20design%20decisions%3A%20Kendra%20transition.md).
