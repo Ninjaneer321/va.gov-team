@@ -1,15 +1,15 @@
 # P(number)
 
 Participant type: 
-- [ ] Veteran
+- [x] Veteran
 - [ ] Family member
 
 Notetaker: [Insert Name Here]
 
 -----
 ### Introduction
-- [ ] Can record
-- [ ] Can use video clips
+- [x] Can record
+- [x] Can use video clips
 
 
 ### Warm-up Questions
