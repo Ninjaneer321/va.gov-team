@@ -426,7 +426,7 @@ _Instruct user to click on the option they did not start from last time, either 
 > - 2. What reasoning do they provide for a preference?
 
 ## Section 4A: Comparative entry point assessment (Optional, if time permits, 5-10 minutes)   
-`Moderator: Now that you’ve seen both pages, I’d like to show them to you back-to-back. Recall that you want to file an appointment for your dermatology appointment, which doesn't appear in your list of past appointments. I'd like to know which page seems most helpful as you try to accomplish that task.` 
+`Moderator: Now that you’ve seen both pages, I’d like to show them to you back-to-back. Recall that you want to file a claim for your dermatology appointment, which doesn't appear in your list of past appointments. I'd like to know which page seems most helpful as you try to accomplish that task.` 
 
 _Moderator takes over screenshare and shares either "Go to your past appointments" or "Review your travel reimbursement claims". Alternate the order between participants and note which page was shown first, to account for recency bias when synthesizing data._
 
