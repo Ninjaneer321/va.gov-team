@@ -13,9 +13,9 @@
 ## Common use cases
 ### User logs in with LOA3 account
 
-<details><summary>User was enrolled in healthcare for the previous tax year and they were not a CHAMPVA</summary>
+<details><summary>User was enrolled in healthcare for at least one month for the last previous three tax years and they were not a CHAMPVA</summary>
 
-- **Use case:** If a user was enrolled in VA healthcare for all of the previous three years for at least one month each year and they were not a CHAMPVA they will see a card component and have the ability to download a PDF or download a Text file for each year.
+- **Use case:** If a user was enrolled in VA healthcare for all of the previous three years for at least one month each year and they were not a CHAMPVA they will see three card components with links to download a PDF or download a Text file for the year associated with the card.
 - **Format:** [Card component)](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/cP7JJ9ExBtn2jNax9cfinA/1095-B?node-id=1037-32252&t=4u2RwT3RjCOwd9gC-1)
 - [Link to code]
@@ -23,9 +23,20 @@
 
 </details>
 
-<details><summary>User wasn’t enrolled in healthcare for the previous tax year</summary>
+<details><summary>User wasn’t enrolled in all of the previous three tax years</summary>
 
-- **Use case:** If a user was not enrolled in VA healthcare for the previous year they will see an informational alert.
+- **Use case:** If a user was not enrolled in VA healthcare for one or two of the previous three years they will only see cards with links to download 1095-B tax documents for the years which they were enrolled.
+- **Status code:** TBD
+- **Format:** [Card component)](https://design.va.gov/components/card)
+- [Link to designs](https://www.figma.com/design/cP7JJ9ExBtn2jNax9cfinA/1095-B?node-id=1411-3054&t=kR9nLSBAt9IS7L1i-1)
+- [Link to code]
+- **Content:** [See design](https://www.figma.com/design/cP7JJ9ExBtn2jNax9cfinA/1095-B?node-id=1411-3054&t=kR9nLSBAt9IS7L1i-1)
+
+</details>
+
+<details><summary>User wasn’t enrolled in any of the previous three tax years</summary>
+
+- **Use case:** If a user was not enrolled in VA healthcare for any of the previous three years they will see an informational alert.
 - **Status code:** TBD
 - **Format:** [Informational alert component(default)](https://design.va.gov/components/alert/#informational-alert-aka-default)
 - [Link to designs](https://www.figma.com/design/cP7JJ9ExBtn2jNax9cfinA/1095-B?node-id=1037-32246&t=4u2RwT3RjCOwd9gC-1)
