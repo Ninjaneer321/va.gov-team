@@ -605,8 +605,8 @@ async function run(params) {
         } else if (fileModDate) {
           const commitDateStr = fileModDate.toISOString().split('T')[0];
           console.log(`[date-filter] ${file}: no valid study date in frontmatter, falling back to commit date ${commitDateStr}`);
-          if (fileModDate < quarterInfo.startDate) {
-            skippedFiles.push({ file, reason: `No valid study date in frontmatter; commit date predates quarter start (commit date: ${commitDateStr})` });
+          if (fileModDate < quarterInfo.startDate || fileModDate > quarterInfo.endDate) {
+            skippedFiles.push({ file, reason: `No valid study date in frontmatter; commit date outside quarter range (commit date: ${commitDateStr})` });
             continue;
           }
         } else {
