@@ -36,34 +36,28 @@ The data elements and designs vary based on the type of test, and whether it's a
 
 [List view Figma protype - mobile PNG](https://github.com/user-attachments/assets/26b674a0-3f1b-46fc-8714-6b53a8da3d33) (right-click & view in new tab)
 
-## Cosmic vs. Atomic 
-
-### Cosmic Test (VistA) / Orderable test (Oracle)
-    
-Each chem/hem lab test has “top-level” information that describes the metadata for the test. Each Cosmic/Orderable test may have one or more structured results. 
-
-Chem/hem examples with _multiple results_ are panels like CBC, Chem-7 (test for seven different chemicals), Chem-12 (test for 12 different chemicals, ABG (Artial Blood Gas - test for levels of different gasses in the blood) where multiple assays or analytes are tested.  Assays measure or analyze the presence, quantity, or activity of a substance, like enzyme tests, presence of diseases like HIV, Covid-19. 
-
-Chem/hem examples with a _single result_: Vitamin B12, SARS-CoV-2, or hematocrit
-
-[Chem/hem cosmic fields to display](https://github.com/user-attachments/assets/c95e06a6-715c-4904-b94a-28bfcc40a43c) (right click and open in new tab)
-
-### Atomic Test (VistA) / Discrete Task Assay (Cerner): 
-
-Each lab test may have one or more results. In FHIR, these would be represented by a Resource called Observation. Observations may be returned as a set of structured data or as an unstructured report.
-
-[Chem/hem atomic fields to display](https://github.com/user-attachments/assets/c2eb6c6c-4f7c-4562-a895-80e8c63b4a00)
 
 
 ## Test Type: Chemistry and Hematology
 
-### Chemistry and Hematology fields to include in UI based on FHIR R4 specification
+### Cosmic vs. Atomic Test Information
 
-#### Cosmic
-<img width="2515" height="2147" alt="labs-chem-hem-cosmic-fields" src="https://github.com/user-attachments/assets/c4cba64f-9343-4410-851c-ce4fd65596c3" />
+#### Cosmic Test (VistA) / Orderable test (Oracle)
+    
+Each chem/hem lab test has “top-level” information that describes the metadata for the test. A Cosmic/Orderable test may have one or more structured results. 
 
-#### Atomic
-<img width="2515" height="1714" alt="labs-chem-hem-atomic-fields" src="https://github.com/user-attachments/assets/71be54a4-3102-43cd-8281-df48414d9ec7" />
+Chem/hem examples with _multiple results_ are panels like CBC, Chem-7 (test for seven different chemicals), Chem-12 (test for 12 different chemicals, ABG (Artial Blood Gas - test for levels of different gasses in the blood) where multiple assays or analytes are tested.  Assays measure or analyze the presence, quantity, or activity of a substance, like enzyme tests, presence of diseases like HIV, Covid-19. 
+
+Chem/hem examples with a _single result_ are tests like Vitamin B12, SARS-CoV-2, or hematocrit
+
+[Chem/hem cosmic fields to display](https://github.com/user-attachments/assets/c95e06a6-715c-4904-b94a-28bfcc40a43c) (right click and open in new tab)
+
+#### Atomic Test (VistA) / Discrete Task Assay (Cerner): 
+
+Each lab test may have one or more results. In FHIR, these would be represented by a Resource called Observation. Observations may be returned as a set of structured data or as an unstructured report.
+
+[Chem/hem atomic fields to display](https://github.com/user-attachments/assets/c2eb6c6c-4f7c-4562-a895-80e8c63b4a00) (right click and open in new tab)
+
 
 ### Chemistry and Hematology VA.gov UI design, based on FHIR R4 specification
 
