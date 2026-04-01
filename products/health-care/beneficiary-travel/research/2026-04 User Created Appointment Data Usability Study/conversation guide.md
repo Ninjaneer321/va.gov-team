@@ -66,7 +66,7 @@ consent_for_clips: true
 `List and complete any project-specific setup tasks for this study below:`   
 
 - [ ] Remember to email external stakeholders the day before their session
-- [ ] Unhide the "Card - NEW CLAIM" frame in the [Figma prototype file](https://www.figma.com/design/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?node-id=16716-68410&t=4KLjXq8vP7HWRweg-1)
+- [ ] Hide the "Card - NEW CLAIM" frame in the [Figma prototype file](https://www.figma.com/design/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?node-id=16716-68410&t=4KLjXq8vP7HWRweg-1)
 
 ### Day of the session
 
@@ -247,19 +247,29 @@ _If participant does not find the link on the page, prompt them to scroll furthe
 > - 3. Do they express any concern about this process?
 > - 4. Do they seem to understand that this is for a specific scenario of missing appointments?
 
+### Facility selection
+`Moderator: In our scenario, you went to Puget Sound Dermatology. What would you do next?`
+
+1. What would you do if you couldn’t find your facility in this list?
+
+`Moderator: Because this is a prototype, you won’t be able to actually search, so the fields will be prepopulated when you click on them. But it helps us if you speak out loud and pretend to fill out this form as you would normally.`
+
+> [!NOTE]
+> #### Things to watch for:
+> - 1. Do they read any of the intro text/helper text about contacting a travel clerk?
+> - 2. What do they say they would search for?
+> - 3. When they land on the page, do they think that a search as already occurred?
+
 ### Appointment information page
-`Moderator: Go ahead and take some time to observe this page. Because this is a prototype, you won’t be able to actually input anything, so the fields will be prepopulated when you click on them. But it helps us if you speak out loud and pretend to fill out this form as you would normally.`   
+`Moderator: Go ahead and take some time to observe this page. Again, you won’t be able to actually input anything, but you can click and speak out loud as you go.`   
 
 #### Page sections   
-**Facility selection**   
-* What would you do if you couldn’t find your facility in this list?
+
+**Appointment date/time:**  
+_Notice if users refer to timezone text_
 
 **Appointment name:**
 * What would you put in this field?
-
-**Appointment type**   
-* What do these “types” listed here mean to you?
-* Do you know which kind you would choose?   
 
 **Did you attend your appointment? question:**
 * Why do you think we’re asking for this information?
@@ -272,17 +282,16 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 
 > [!NOTE]
 > #### Things to watch for:
-> - 1. Do they read any of the intro text/helper text about contacting a travel clerk?
-> - 2. Do they notice that the time selector has AM/PM, but no question about timezone?
-> - 3. Is the hint text helpful or do participants still express confusion?
+> - 1. Do they notice that the time selector has AM/PM and the information timezones?
+> - 2. Is the hint text helpful or do participants still express confusion?
 
 ### Appointment confirmation page
 `Moderator: Take a look at this page. What do you see here?`   
 1. What is this page asking you to do?
 2. _If the user does not notice the info box, prompt them:_ What is that message at the top telling you? Do you have any thoughts about that?
 3. What do you think the “edit” button does?
-4. What do you expect to happen after you continue?
-5. What do you think will happen to your information if you left this page?
+4. What do you think will happen to your information if you left this page?
+5. What do you expect to happen after you continue?
 
 `Moderator: Now I’d like to pause again for a minute and imagine a new scenario. Let’s pretend that this dermatology appointment was actually in VA’s system already, but you were in a hurry and just missed seeing it. So the appointment is there, but you just didn’t notice it.`   
 
@@ -349,8 +358,9 @@ _Participant selects mileage_
 `Moderator: Take a look at this page. What do you see here?`   
 
 1. What do you think you need to do next?
-2. What would you do if the appointment information looked incorrect or you noticed something that you need to change?
-3. Let's say that all your information looks right. If you hit the “Sign the agreement” button, what do you expect will happen?   
+2. _If users don't open accordions, prompt_: How would you be sure you had entered all the information correctly?
+3. What would you do if the appointment information looked incorrect or you noticed something that you need to change?
+4. Let's say that all your information looks right. If you hit the “Sign the agreement” button, what do you expect will happen?   
 
 > [!NOTE]
 > #### Things to watch for:
