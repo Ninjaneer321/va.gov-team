@@ -49,11 +49,11 @@
 ### Planning & Execution:
 |Launch % |Desired Date | _Actual Date_ | 
 |-------|-----------|-----------|
-| Launch to 100% | week of 03/16/2026 | _03/18/2026_ |
+| Launch | week of 03/16/2026 | _03/18/2026_ |
 
 **Launch ticket** [PTEMSVT-740](https://jira.devops.va.gov/browse/PTEMSVT-741) 
 
-### 1-week results (at 100%):
+### 1-week results:
 - **Number of unique users :**
      - _n_
 - **Any issues with VA handling/processing?**

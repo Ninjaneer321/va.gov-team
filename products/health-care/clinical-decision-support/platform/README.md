@@ -13,7 +13,7 @@ As a clinician, I want to develop new and access existing Clinical Decision Supp
 ## About the Team
 ### GitHub/ZenHub/Teams/Jira
 GitHub label = https://github.com/department-of-veterans-affairs/cds-platform 
-GitHub Projects board - https://github.com/orgs/department-of-veterans-affairs/projects/1531/views/1?filterQuery=&layout=board
+GitHub Enterprise board - https://va.ghe.com/orgs/software/projects/215
 
 Link to Teams folder if applicable: 
 https://dvagov.sharepoint.com/:f:/s/CDSProgramTeam/EtZ6F-XnVf1MjbA3L18v0j0Bcnsdi4ryfrwi5BuLqAS5CQ?email=December.Bergh%40va.gov&e=NsYUzX
@@ -29,7 +29,7 @@ VA Product Owner:
 - Shane Elliott 
 
 Program Management:
-- December Kinney Bergh (Thoughtworks)
+- Kathy Ruiz (Thoughtworks)
 
 Product Management:
 - Mar Becker (Thoughtworks)

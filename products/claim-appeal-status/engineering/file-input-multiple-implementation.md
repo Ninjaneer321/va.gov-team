@@ -19,6 +19,7 @@ As a user,
     - Note: Cannot add multiple files at once
 1. I can add multiple files to the file input by dragging the files into the file input
     - Note: Cannot add multiple files at once. If drag multiple will just accept 1.
+    - Note: Will allow adding the same file twice 
 
 ### File Validation and Error Handling
 1. If I don't add any files and click submit, I will see an error
@@ -28,9 +29,11 @@ As a user,
     - Accepted types: .pdf, .gif, .jpg, .jpeg, .bmp, .txt
     - A file with no file extension yields the same error
 1. If I try to add a file by dragging that is not one of the valid file types, I will see an error
-    - Error: "This is not a valid file type"
+    - Error: "We do not accept .png files. Choose a new file."
+    - Edge Case: I can still submit it but it will not succeed (but doesn't provide a error message)
 1. If I try to add a file that is 0B, I will see an error and not be able to submit
     - Error: "The file you selected is empty. Files must be larger than 0B."
+    - Error on Submission: "Please select a file first"
 1. If I try to add a non-pdf that is above 50MB or a pdf that is above 99MB, I will see an error and not be able to submit
     - Error PDF: "The file you selected is larger than the 99MB maximum file size and could not be added."
     - Error non-PDF: "The file you selected is larger than the 50MB maximum file size and could not be added."
@@ -41,6 +44,7 @@ As a user,
 
 ### Encrypted PDF Password Handling
 1. If I add an encrypted PDF file, the component will show a password input
+    - Warning Alert: "We can't open your file without its password."
     - Label: File password (*Required)
 1. If I add a non-encrypted PDF file, no password input should appear
 1. If I add an encrypted file without inputting a password and submit, I will see an error
@@ -48,7 +52,7 @@ As a user,
 1. If I add another file while I have an existing validation error, the validation error will persist
 1. If I add a password after getting a no password error, that error will disappear
 1. If I have a password error on an encrypted PDF and I replace it with a non-encrypted file, the password error should be cleared
-1. If I submit a PDF with an invalid password I get an error alert
+1. WRONG CURRENTLY If I submit a PDF with an invalid password I get an error alert
     - Heading: "Error uploading [file name]"
     - Text: "We couldn't unlock your PDF. Save the PDF without a password and try again."
 
@@ -65,11 +69,12 @@ As a user,
 1. If I click Delete, I will be shown a confirm remove modal with confirm or cancel buttons
     - Heading: "Delete this file?"
     - Description: "We'll delete the uploaded file [file name]"
-    - Confirm Button Text: "Yes, remove this"
+    - Confirm Button Text: "Yes, delete this"
     - Cancel Button Text: "No, keep this"
 1. If I confirm file removal in the modal, the file will be removed
 1. If I cancel file removal in the modal, the file will be kept
-1. If I delete a file, the other files will retain their correct data (document types, passwords)
+1. If I delete a file, the other files will retain their correct document type data
+    - Edge Case: They will lose the inputted file password for the file input after it
 1. If I have multiple files with different validation errors and I delete one file, the remaining files should retain their specific error states correctly mapped to their new positions
 
 ### Submit Button Functionality and Upload Modal
@@ -83,11 +88,12 @@ As a user,
 1. If I click the "Cancel" button, the modal will close and I will not see a success or failure alert
 1. If I click the "X" button, the modal will close and the upload will continue, showing success alert when complete
 1. If I successfully submit files a success va-alert will be shown
-    - Heading: "We received your file upload on [date]"
-    - Text: "If your uploaded file doesn't appear in the Documents Filed section on this page, please try refreshing the page."
-1. If I submit a file that has already been successfully submitted, I get an error saying that it has been submitted already
-    - Heading:
-    - Text:
+    - Heading: "Document submission started on April 1, 2026 at 2:00 p.m. PDT"
+    - Text: "Your submission is in progress. It can take up to 2 days for us to receive your files."
+    - Link: Check the status of your submission
+1. If I submit a file that has already been successfully submitted (even with different doc type), I get an error saying that it has been submitted already
+    - Heading: "You've already uploaded VA Claim Letter Mar 18 2026.pdf"
+    - Text: "It can take up to 2 days for the file to show up in your list of documents filed. Try checking back later before uploading again."
     - Note: Cannot replicate on localhost
 
 ### Data Submission

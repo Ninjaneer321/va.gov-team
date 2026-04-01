@@ -27,16 +27,15 @@ Before enabling your feature toggle in production, you'll need to:
 - [x] Testing with the feature flags for mobile. Confirm that with the flags off, the FMP letter is not visible for a veteran who does and does not have the letter in FMP. Confirm that with the flags on, the FMP letter is available for those who have it in Lighthouse. Test results documented in [va-mobile PR 12838](https://github.com/department-of-veterans-affairs/va-mobile-app/pull/12838)
 - [x] Confirm production deployment of Web code
 - [x] Complete Staging Review
-- [ ] Gather details for initial user rollout
-- [ ] Confirm with Lighthouse that they are ready for the release
-- [ ] Confirm with the VFMP-Veterans and Family Member Program team that they are ready for release
-- [ ] Contact center / support team trained on FMP letter feature (confirm with VFMP team whether training is needed)
-- [ ] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
-    - [ ] Review the plan with your DEPO/OCTO representative
-    - [ ] Review the release plan with your team
+- [x] Gather details for initial user rollout
+- [x] Confirm with the VFMP-Veterans and Family Member Program team that they are ready for release
+- [x] Contact center / support team trained on FMP letter feature (confirm with VFMP team whether training is needed)
+- [x] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
+    - [x] Review the plan with your DEPO/OCTO representative
+    - [x] Review the release plan with your team
 
 **Mobile**
-- [ ] Confirm the Mobile App team has completed any desired testing
+- [x] Confirm the Mobile App team has completed any desired testing
 - [x] Complete go-live mobile template ticket
 - [ ] Confirm related code is released to iOS and Android
 
@@ -66,8 +65,9 @@ Before enabling your feature toggle in production, you'll need to:
 
 ### Results
 
-- **Number of users:** [To be filled in after UAT]
-- **Results per your "Success" criteria:** [Document findings]
+- **Date completed:** Users added 3/31
+- **Number of users:** 13
+- **Results per your "Success" criteria:** 
 - **Number of bugs identified / fixed:** [x/x]
 - **Any UX changes necessary based on the logs, user feedback, or VA challenges?**
   - [ ] Yes
@@ -80,7 +80,7 @@ Before enabling your feature toggle in production, you'll need to:
 
 ### Rollout Planning
 
-- **Desired date range:** 4/1 - 4/10 (May change due to Staging Review and VFMP user recruitment)
+- **Desired date range:** 4/6 - 4/10 (May change due to Staging Review and VFMP user recruitment)
 - **How will you make the product available in production while limiting the number of users who can find/access it:** By using the feature flag `fmp_benefits_authorization_letter` and the `enable_percentage_of_actors` feature to enable it for a percentage of users.
 If mobile testing is desired, both mobile related feature flags should be enabled and the gating of the percentage of the users will be done solely by the `fmp_benefits_authorization_letter` flag.
 - **Success criteria (metrics-based criteria for advancing to the next stage):**
@@ -90,8 +90,8 @@ If mobile testing is desired, both mobile related feature flags should be enable
   - KPI 1: Error rate on the letter download page (target: no statistically significant increase vs. baseline)
   - KPI 2: Number of unique users successfully downloading the FMP letter
 - **Links to dashboards showing success criteria metrics:**
-  - [DataDog Dashboard](https://vagov.ddog-gov.com/dashboard/86n-b39-hhn/benefits---management-tools---letters?fromUser=false&refresh_mode=paused&tile_focus=2694218522713164&from_ts=1764085320000&to_ts=1764096120000&live=false)
-  - [Google Analytics Report](https://analytics.google.com/analytics/web/#/analysis/a50123418p419143770/edit/SvIXt89hQnCx4HDFQ6iKNw)
+  - [DataDog Dashboard](https://vagov.ddog-gov.com/dashboard/n29-azs-rpp?fromUser=false&refresh_mode=sliding&from_ts=1775065921951&to_ts=1775069521951&live=true)
+  - [Google Analytics] (https://analytics.google.com/analytics/web/#/analysis/a50123418p419143770/edit/hkpzxMCySNe5WvYEWRsQQw)
 - **Who is monitoring the dashboard(s)?:** BMT3 (Liana Fleming, Seth Darr)
 
 ### Rollback Process
@@ -107,47 +107,10 @@ Rollback will be done by disabling feature flags. To disable FMP letter availabi
 
 ### Stage A: Canary
 
-*Test a small Veteran population to ensure any obvious bugs/edge cases are found.*
-
-#### Planning
-
-- **Percentage of Users:** 2%
-
-#### Results
-
-- **Number of users:** [To be filled in]
-- **Metrics at this stage (per success criteria):**
-  - [ ] No increase in errors on the letter download page
-  - [ ] Successful downloads shown in GA Report
-- **Rollback triggered?** [ ] Yes  [ ] No
-- **Was any downstream service affected by the change?** __
-- **Types of errors logged:** [None / describe]
-- **What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?** [Document or N/A]
-
+*** Due to success of production UAT we will be moving immediately to stage B ***
 ---
 
-### Stage B: 10% of Users
-
-*Test a larger user population to ensure larger usage patterns expose no issues.*
-
-#### Planning
-
-- **Percentage of Users:** 10%
-
-#### Results
-
-- **Number of users:** [To be filled in]
-- **Metrics at this stage (per success criteria):**
-  - [ ] No increase in errors on the letter download page
-  - [ ] Successful downloads shown in GA Report
-- **Rollback triggered?** [ ] Yes  [ ] No
-- **Was any downstream service affected by the change?** __
-- **Types of errors logged:** [None / describe]
-- **What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?** [Document or N/A]
-
----
-
-### Stage C: 25% of Users
+### Stage B: 25% of Users
 
 *Test a larger user population to ensure larger usage patterns expose no issues.*
 
@@ -157,6 +120,7 @@ Rollback will be done by disabling feature flags. To disable FMP letter availabi
 
 #### Results
 
+- **Date completed:** 
 - **Number of users:** [To be filled in]
 - **Metrics at this stage (per success criteria):**
   - [ ] No increase in errors on the letter download page
@@ -168,7 +132,7 @@ Rollback will be done by disabling feature flags. To disable FMP letter availabi
 
 ---
 
-### Stage D: 50% of Users
+### Stage C: 50% of Users
 
 *Test a larger user population to ensure larger usage patterns expose no issues.*
 
@@ -178,6 +142,7 @@ Rollback will be done by disabling feature flags. To disable FMP letter availabi
 
 #### Results
 
+- **Date completed:** 
 - **Number of users:** [To be filled in]
 - **Metrics at this stage (per success criteria):**
   - [ ] No increase in errors on the letter download page
@@ -189,7 +154,7 @@ Rollback will be done by disabling feature flags. To disable FMP letter availabi
 
 ---
 
-### Stage E: 75% of Users
+### Stage D: 75% of Users
 
 *Test a larger user population to ensure larger usage patterns expose no issues.*
 
@@ -199,6 +164,7 @@ Rollback will be done by disabling feature flags. To disable FMP letter availabi
 
 #### Results
 
+- **Date completed:** 
 - **Number of users:** [To be filled in]
 - **Metrics at this stage (per success criteria):**
   - [ ] No increase in errors on the letter download page
@@ -210,7 +176,7 @@ Rollback will be done by disabling feature flags. To disable FMP letter availabi
 
 ---
 
-### Stage F: 100% of Users
+### Stage E: 100% of Users
 
 #### Planning
 
@@ -218,6 +184,7 @@ Rollback will be done by disabling feature flags. To disable FMP letter availabi
 
 #### Results
 
+- **Date completed:** 
 - **Number of users:** [To be filled in]
 - **Metrics at this stage (per success criteria):**
   - [ ] No increase in errors on the letter download page

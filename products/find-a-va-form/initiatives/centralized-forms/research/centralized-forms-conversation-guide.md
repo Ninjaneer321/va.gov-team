@@ -109,6 +109,7 @@ Before we look at the website, I have a couple questions about how you usually d
 - • Can you briefly describe the last time you needed to complete a VA form?
 - • How did you find the form you needed?
 - • How confident did you feel about understanding what you needed before starting the form?
+- How long does it usually take to feel ready to start the form?
 - • Do you normally complete forms online, on paper/PDF, or both?
 
 
@@ -154,7 +155,7 @@ Probes:
 2.5: Identify Next steps/Related/Supporting Forms
 User need/comprehension check.
 - What do you need to know about what happens next (if anything) before staring the form? (e.g. timeline, related forms, how you’ll hear back)
-- “If you needed to find other forms related to this one, where would you expect them to be?”
+- “Are there any forms related to this one that you need to fill out?”
 
 Probe:
 - • Do you see anything here you’d expect to help you?

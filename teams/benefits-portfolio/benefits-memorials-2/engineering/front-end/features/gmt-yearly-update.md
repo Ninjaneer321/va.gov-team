@@ -44,7 +44,9 @@ Here's a pile of links with hopefully relevant resources if you're into that kin
 ### Links
 - [HUD data source](https://www.huduser.gov/portal/datasets/il.html#data_2024)
 - [Income Limits API Data Source and Migrations](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/income-limits-app/data/README.md#income-limits-api-data-source-and-migrations)
-- [Income Limits Technical Architecture](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/income-limits-app/engineering/technical-architecture.md#geographic-means-test-gmt-threshold) 
+- [Income Limits Technical Architecture](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/income-limits-app/engineering/technical-architecture.md#geographic-means-test-gmt-threshold)
+- [GMT example CSV from DSVA thread](https://sitewide-public-websites-income-limits-data.s3-us-gov-west-1.amazonaws.com/std_gmtthresholds.csv)
+- [CSV documentation](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/income-limits-app/data/README.md)
 ### Some relevant tickets:
 -  **[FSR] Update documentation for GMT year update [#90545](https://github.com/department-of-veterans-affairs/va.gov-team/issues/90545)** (Ticket for generating this documentation)
 - **[FSR] Update GMT year for 2024 [#88120](https://github.com/department-of-veterans-affairs/va.gov-team/issues/88120)** (Title kinda says it all)

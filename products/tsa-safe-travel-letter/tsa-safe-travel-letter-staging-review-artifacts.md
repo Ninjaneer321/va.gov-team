@@ -5,7 +5,7 @@
 
 ### Test Users & scenarios
 [Link to passwords](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/vagov-users/mvi-staging-users.csv)
-- User who has all letters, including TSA letter - +54
+- User who has all letters, including TSA letter - +54 or +202
     - Should see all letters in the accordion, TSA letter loads slowly at the bottom of the list (20 - 30 seconds). If it errors out, refresh and try again.
     - Open accordion item for TSA letter. Again, this will take some time. Once populated, click download link - we do not generate this PDF, we simply show whatever is in the Veteran's efolder. 
 - User who has no letters - +44

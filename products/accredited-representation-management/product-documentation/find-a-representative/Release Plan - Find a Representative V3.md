@@ -4,47 +4,51 @@ Feature Toggle/flag:
 `find_a_representative_enabled` will control visibility of the VSO Search Filter feature, for Find a Represenatative. This will be disabled in Production prior to release.
 
 ### Preparation
-- [ ] Contact Center Review has been submitted
-- [ ] The following user flows have been tested
+- [X] Contact Center Review has been submitted
+- [X] The following user flows have been tested
    - Combo-box Functionality
-      -    [ ] Combo box is present when "Accredited VSO respresentative" radio button is selected
-      -    [ ] Combo box is hidden when "Accredited attorney" or "Accredited claims agent" is selected
-      -    [ ] Combo box filters out any `zzz` VSOs
-      -    [ ] Combo box allows you to type ahead & will begin filtering, as well as click on the drop down to see all VSOs
-      -    [ ] `combo box will clear when search button is clicked if a VSO selection has not been made`
-      -    [ ] Combo box searching shows expected results for search scenarios
+      -    [X] Combo box is present when "Accredited VSO respresentative" radio button is selected
+      -    [X] Combo box is hidden when "Accredited attorney" or "Accredited claims agent" is selected
+      -    [X] Combo box filters out any `zzz` VSOs
+      -    [X] Combo box allows you to type ahead & will begin filtering, as well as click on the drop down to see all VSOs
+      -    [X] ~~`combo box will clear when search button is clicked if a VSO selection has not been made`~~
+               - Due to issues with the components from the design system we will not be able to clear out the combo box as originally planned.
+      -    [X] Combo box searching shows expected results for search scenarios
    -  Additional Figma Designs Implemented
-      -    [ ] Content above the sign-in block matches the figma
-      -    [ ] Updated Note and hyperlinked `Learn About` section are showing as expected just below the radio buttons
-      -    [ ] Use my location button is showing as expected
-      -    [ ] Search results note is appearing and accurate; e.g. `"Showing 15 of 25  results for 'accredited VSO represenattive", "Arizona Department of Veterans Services" within "50 miles" of "New York, New York 10001" sorted by "Distance[closest to furthers"`
-      -    [ ] Ensure `sort by` button was removed and you can now sort just by updating that drop down
-      -    [ ] Ensure the Name/Mileage on the contact cards align with figma designs
-      -    [ ] Ensure the icons align with the figma designs.
+      -    [X] Content above the sign-in block matches the figma
+      -    [X] Updated Note and hyperlinked `Learn About` section are showing as expected just below the radio buttons
+      -    [X] Use my location button is showing as expected
+      -    [X] Search results note is appearing and accurate; e.g. `"Showing 15 of 25  results for 'accredited VSO represenative", "Arizona Department of Veterans Services" within "50 miles" of "New York, New York 10001" sorted by "Distance[closest to furthers"`
+      -    [X] Ensure `sort by` button was removed and you can now sort just by updating that drop down
+      -    [X] Ensure the Name/Mileage on the contact cards align with figma designs
+      -    [X] Ensure the icons align with the figma designs.
    - Accessability Testing
-      -    [ ] Accessability has been tested and any findings have been documented.
-- [ ] Any "launch blocking" findings from Team QA have been addressed.
-- [ ] The feature flag `find_a_representative_enabled` has been set to `Off` 
-- [ ] Datadog monitoring is set up to track submission attempts, successes and errors.
+      -    [X] Accessability has been tested and any findings have been documented.
+- [X] Any "launch blocking" findings from Team QA have been addressed.
+- [X] The feature flag `find_a_representative_enabled` has been set to `Off` 
+- [X] Datadog monitoring is set up to track errors for combo box and search.
+- [ ] Google Analytics is set up to track specific search parameters. -- **_Actively working on this with the Analytics team.  GA tracking is already set up but ~1 month out from DOMO_**
 
 Any other issues or requirements that should be addressed prior to rollout?
 
 
 
-### Go/No Go meeting on March 26, 2026
+### Go/No Go meeting on March 30, 2026
 Synchronous Go/No Go (Placeholder)
 
-- [ ] review the release plan with your team.
-- [ ] review the plan with your OCTO representative.
-- [ ] Finalize the release date
+- [X] review the release plan with your team.
+- [X] review the plan with your OCTO representative.
+- [X] Finalize the release date
 
-**Verdict: TBD**
+**Verdict: Go for release on Wednesday 4/1/26 as an initial test**
 
-## Release Details (April 1, 2026)
+## Release Details (April 6, 2026 -- Full Permanent Release)
 
-- [ ] Enable in Production to 20% of users for first day then turn on for 100%.
+- [ ] Enable in Production to 100% of users for 4/1-4/2 for a trial period.  Feature will be turned off again 4/3-4/5 to allow for some time to review metrics and ensure everything is working as anticipated. Feature will be turned back on for 100% of users permanently on Monday April 6th as long as everything looks good in production!
 - [ ] Confirm the release to Production, with a test user
 - [ ] Communicate release to ARP pilot users via Teams/Email
+- [ ] Mia to send out BLUF Statement
+- [ ] Communicate release to VBA and VSO liason office plus DAV leadership
 
 ***
 

@@ -14,7 +14,7 @@ Technically vets-api and Lighthouse run on the same server, but we treat each ot
 
 ### Data Flow Diagram
 
-[Supplmental Claim Data Flow Diagram](./SC_data_flow_diagram.md)
+[Supplmental Claim Data Flow Diagram](./SC_data_flow_diagram.png)
 
 ## Front-end
 

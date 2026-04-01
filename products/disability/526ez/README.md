@@ -2,10 +2,19 @@
 
 ----
 
-# Product Outline: Disability Compensation Application (Form 526) 📘
+# Quick Reference 📖
+Refer to [#benefits-disability](https://dsva.slack.com/archives/C04KW0B46N5) for access to current team members.
+A comprehensive overview of the Disability Benefits Crew (DBC) can be found in [the Disability Experience ReadME](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/benefits-portfolio/disability-experience) within the Benefits Portfolio. This includes a breakdown of all DBC teams, a team charter, and helpful links, like various Slack channels, repos, and Murals.
 
+
+>[!CAUTION]
+> <mark>Content below this note is due a review and update. Interact with links and info at your own risk!</mark>\
+> (Note posted 3/30/2026)
+
+
+# Product Outline: Disability Compensation Application (Form 526) 📘
 - GitHub Label: disability-experience
-- Slack channel: #benefits-disability
+- Slack channel: [#benefits-disability](https://dsva.slack.com/archives/C04KW0B46N5)
 - VA.gov link: /disability/file-disability-claim-form-21-526ez/introduction
 - ⭐ Product Roadmap: [DBEX Roadmap 2024](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1717458460532/5a74ece0ca694a9e6c85b3a1130a8c7b8dabf123?wid=9-1736197249937) ⭐
 - ⭐ 526ez Walkthrough video link: [526EZ UX 101](https://dvagov.sharepoint.com/sites/vaabdvro/_layouts/15/stream.aspx?id=%2Fsites%2Fvaabdvro%2FShared%20Documents%2FDisability%20Benefits%20Experience%2F%5F%5FContract%20Transition%20Documentation%2FOnboarding%20Training%20Videos%2F526EZ%20UX%20101%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb3ae350a%2D0c47%2D4b0b%2Da84a%2Dfd88920c7f6d) ⭐
@@ -25,32 +34,21 @@
 [intent-to-file]: intent-to-file.md
 
 ## Information on Disability Compensation Forms ℹ️
-- [21-526EZ (Application for Disability Compensation and Related Compensation Benefits)][21-526ez]
+- 21-526EZ (Application for Disability Compensation and Related Compensation Benefits)
   - This is the main disability compensation form
-- [21-0966 (Intent To File A Claim For Compensation)][intent-to-file]
+- 21-0966 (Intent To File A Claim For Compensation)
   - An intent to file is created automatically when a veteran begins their 526 form.
-- [21-4142 (Private Medical Records Release)][21-4142]
-- 21-4192 (Request for Employment Information in Connection With Claim for Disability Benefits)
-  - This form isn't implemented because it's required to be filled out by a doctor or nursing home admin
-  - See prior research for more info
-- 21-4192 (Request for Employment Info in Connection with Claim for Disability Benefits)
-- [21-781 (Statement in Support of Claim for Service Connection for PTSD)][21-781]
+- 21-4142 (Private Medical Records Release)
+   - Required to be filled out by a Veteran's employer
+- 21-0779 (Request for Nursing Home Information in Connection with Claim for Aid and Attendance)
+  - Required to be filled out by a doctor or nursing home admin
+- 21-4192 (Request for Employment Information in Connection with Claim for Disability Benefits)
+- 21-781 (Statement in Support of Claim for Service Connection for PTSD)
 - 21-781a (Statement in Support of Claim For Service Connection for PTSD Secondary to Personal Assault)
-- [21-8940 (Veteran's Application for Increased Compensation Based on Unemployability)][21-8940]
-- [21-2680 (Examination for Housebound Status or Permanent Need For Regular Aid and Attendance)][21-2680]
-- [21-4502 (Auto Allowance & Adaptive Equipment Application)][21-4502]
+- 21-8940 (Veteran's Application for Increased Compensation Based on Unemployability)
+- 21-2680 (Examination for Housebound Status or Permanent Need For Regular Aid and Attendance)
+- 21-4502 (Auto Allowance & Adaptive Equipment Application)
 
-
-## Team 👥
-Refer to #benefits-disability for most up to date team
-
-**Conditions and Evidence Team**
- 
-- Github Project: [Conditions and Evidence](https://github.com/orgs/department-of-veterans-affairs/projects/873/views/2)
-- GitHub team label: #contention-classification
-- Product manager: Jack Bates
-- Design and Research:
-- Engineering: Lisa Chung, Sami Barghshoon, Zach Murray
 
 # Quick links 🔗
 

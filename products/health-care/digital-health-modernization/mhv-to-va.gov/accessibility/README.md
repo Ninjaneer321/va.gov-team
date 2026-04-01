@@ -1,7 +1,7 @@
 # MHV on VA.gov — Accessibility
 Repository of accessibility-related documentation, including planning and process documents
 
-Last updated: 27 Mar 2026
+Last updated: 1 Apr 2026
 
 ## Foundations
 
@@ -36,6 +36,9 @@ Last updated: 27 Mar 2026
   - [Experience standards](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/va-gov-experience-standards)
   - [Accessibility Testing Manual](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual)
   - [Accessibility testing: Staging Review artifact template](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=a11y-testing-md.md)
+- Accessibility Digital Experience (ADE) Team
+  - [ADE Services](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/ade-services.md)
+  - [ADE Intake template](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=Accessibility-Digital-Experience-Intake-Ticket.md)
 - Digital Accessibility Standards
   - [Understanding Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/WCAG22/Understanding/)
   - [ICT Accessibility Standards and Guidelines](https://www.access-board.gov/ict/)

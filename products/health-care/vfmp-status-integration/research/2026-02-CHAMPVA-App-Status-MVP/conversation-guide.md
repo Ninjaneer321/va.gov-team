@@ -3,46 +3,80 @@
 title: "Conversation Guide for VFMP Status Integration, CHAMPVA Application Status MVP, February 2026"
 author: "VFMP Status Integration Team"
 date_created: "2026-02-01"
-last_modified: "2026-02-01"
+last_modified: "2026-03-30"
+
+# Core research metadata
 team: "Health Apps Team"
+portfolio: "health"
 product: "VFMP Status Integration - CHAMPVA Application Status MVP"
 product_area: "authenticated"
-portfolio: "Health"
+research_phase: "usability"
+research_method: "moderated_usability_testing"
 
-# Research Context
-study_name: "CHAMPVA Application Status MVP Research"
-research_phase: "Usability testing"
-research_type: "Moderated usability testing"
-research_method: "Remote moderated usability testing"
-session_format: "Remote moderated sessions"
+# Session details
 session_duration: "60 minutes"
-participant_type: "Veterans and beneficiaries managing CHAMPVA applications"
+session_type: "remote_moderated"
+participant_criteria: "Veterans and beneficiaries who have applied or are managing CHAMPVA applications"
 
-# Research Planning
-related_research_plan: ""
-related_prototype: "Health Apps Claims Status Tool prototype"
-environment: "Prototype testing environment"
+# Related documents
+related_research_plan: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/vfmp-status-integration/research/2026-02-CHAMPVA-App-Status-MVP/research-plan.md"
+related_prototype: "see below"
 
-# Logistics
-recording_required: true
-consent_for_clips: true
-observer_support: true
-
-# Tags
 tags:
-  - "research"
-  - "conversation-guide"
-  - "moderated-research"
-  - "usability-testing"
-  - "CHAMPVA"
-  - "application-status"
-  - "health-apps"
-  - "claims-status-tool"
-  - "VFMP"
-  - "health-benefits"
-  - "authenticated-experience"
 
-description: "Conversation guide for VFMP Status Integration research testing the CHAMPVA Application Status MVP feature integrated into the Health Apps Claims Status Tool. Tests how Veterans and beneficiaries view and track CHAMPVA application status information through the digital platform."
+  # Audience
+  - "AUD: Veterans"
+  - "AUD: Dependents"
+  - "AUD: Family Member"
+  - "AUD: Surviving Family"
+  
+  # Benefit
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  
+  # Products
+  - "PRDT: CHAMPVA"
+  - "PRDT: Claim-status-tool"
+  - "PRDT: MyVA"
+  
+  # Design System Components (based on tasks testing these elements)
+  - "DSC: Accordions"
+  - "DSC: Alert Boxes"
+  - "DSC: Card"
+  - "DSC: Form - File Input"
+  - "DSC: Links"
+  - "DSC: Tabs"
+  
+  # Design System Patterns (based on tasks)
+  - "DSP: Ask users for files"
+  - "DSP: Content Presentation"
+  - "DSP: Notifications"
+  
+  # Hardware
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  
+  # Research Type
+  - "usability-testing"
+  - "moderated-research"
+  - "prototype-testing"
+  - "authenticated-experience"
+  
+  # Additional relevant tags
+  - "navigation"
+  - "status-tracking"
+  - "document-upload"
+  - "notifications"
+  - "post-submission-experience"
+  - "vfmp-status"
+  - "form-status"
+
+description: "Conversation guide for VFMP Status Integration research testing the CHAMPVA Application Status MVP feature integrated into the Health Apps Claims Status Tool. Tests how Veterans and beneficiaries find, understand, and interact with application status updates, evidence requests, and document uploads after submitting a CHAMPVA application."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
 ---
 
 > [!TIP]
@@ -139,12 +173,36 @@ Before we start, I have a few things that I want to go over with you:
 
 # Warm-up Questions - 5 minutes
 
-Before we look at the prototype, let’s start with a few warm-up questions.
+Before we look at the prototype, let’s start with a few warm-up questions. 
 
-1. Do you have a service-connected disability at VA?
-- If yes: what is your disability rating?
-- If no, skip to question 2.
+1. Do you have a VA.gov account? 
+- [IF YES:]
+  - How often are you logging into VA.gov?
+  - For what tasks?
+- [IF NO:]
+  - Have you ever visited the VA.gov website?
+    - [IF YES:]
+      - For what tasks?
+      - How often are you visiting VA.gov?
+    - [IF NO:] What would you expect to find on VA.gov? 
 
+2. Have you ever applied for the CHAMPVA program? 
+- [IF YES:]
+  - Are you or anyone else in your household currently enrolled in the CHAMPVA program?
+  - Did you fill out the CHAMPVA application online, on paper, over the phone, etc.?
+  - What was your experience like after submitting the CHAMPVA application?
+  - Did you have to mail or fax in anything after you submitted your application?
+- [IF NO:] Have you ever heard about the CHAMPVA program before?
+  - What do you know about the program?
+  - [IF THEY’VE NEVER HEARD OF CHAMPVA] CHAMPVA is a healthcare reimbursement program for the spouses, dependents, and survivors of Veterans who meet certain service-connected disability requirements 
+
+3. Let’s imagine that you just submitted your CHAMPVA application on VA.gov.
+- What would you expect to happen after you submit your application?
+  - How would you expect to be notified or find updates on your application?
+    - [IF THEY MENTION CHECKING VA.GOV]
+      - How often would you be checking VA.gov?
+  - What would you want to be notified about?
+  - How soon do you expect to be notified about any updates on your application? 
 
 ## Screenshare & Prototype Setup - 5 minutes
 
@@ -154,13 +212,13 @@ Wait for participant's verbal consent.
 
 I'd like to confirm, what kind of device are you using today (desktop, mobile, tablet)? 
 
-Great! I'm pasting the link to the site in the chat. You can find that in the row of buttons at the bottom, under the chat icon: 
-- Veteran flow
-  - mobile: https://soft-meter-55458294.figma.site/scenario1 
-  - desktop: 
-- Spouse/dependent flow 
-  - mobile: https://soft-meter-55458294.figma.site/scenario1-nonveteran 
-  - desktop: 
+Great! I'm pasting the link and a password to the site in the chat. You can find that in the row of buttons at the bottom, under the chat icon: 
+- Veteran flow:
+  - https://chisel-pear-20681620.figma.site/scenario1
+  - Password: champva-test89124
+- Spouse/dependent flow:
+  - https://chisel-pear-20681620.figma.site/scenario1-nonveteran
+  - Password: champva-test89124
 
 _Share link in chat of appropriate prototype_
 
@@ -189,31 +247,40 @@ Wait for participant answer.
 For the first scenario I'd like you to imagine that you submitted a CHAMPVA application recently and want to find out what is happening with your application. You log into VA.gov and this upcoming screen is the first thing you see. Go ahead and click continue. 
 
 ### [MyVA] 
-If you wanted to find out what is happening with your CHAMPVA application, can you show me where you would go? 
+If you wanted to find out what is happening with your CHAMPVA application, can you show me what you would do next?  
 
-- [IF THEY GO TO CLAIM AND APPLICATION STATUS:]
-  - Is this where you expected to find your application?
+Take a moment to review this page and think out loud as you go, but don’t click on anything yet – so I can get your feedback on this page before we move on.  
+
+[Let the user explore. As they navigate, probe if they pause or seem to find anything confusing.] 
+
+- [If they would click “Check status details” or “Track claims, decision reviews, and applications” link]
+  - What do you think would happen if you click on the link?
+    - Got it, we’ll go back to that.
+  - For now, let's zoom out. Is this section where you expected to find your application?
     - If not, where would you expect it to be?
     - What else do you expect to be in this section?
-    - **What would you do next?**
-      - [If they mention the Check status details link] What do you think would happen if you click on the “Check status details” link?
-      - [If they mention the Status tool link] What do you think would happen if you click on “Track claims, decision reviews, and applications”?
   - Before we move on, I want you to scroll down to the section called "Forms."
     - What do you expect to find in this section?
-    - [IF THEY OPEN THE COMPLETED FORMS ACCORDION:] 
-      - Is this what you expected to see? 
-
-- [IF THEY GO TO FORMS SECTION:]
-  - Is this where you expected to find your application?
-    - If not, where would you expect it to be?
-    - What else do you expect to be in this section?
-    - [IF THEY OPEN THE COMPLETED FORMS ACCORDION:]
+    - [If they would click Completed forms accordion]
+      - Okay, go ahead and click on Completed forms.
       - Is this what you expected to see?
-    - **What would you do next?**
-  - [If they don’t scroll up on their own] Before we move on, I want you to scroll up to "Claim and application status”
-    - What do you expect to find in this section?
-      - [If they mention the Check status details link] What do you think would happen if you click on the “Check status details” link?
-      - [If they mention the Status tool link] What do you think would happen if you click on “Track claims, decision reviews, and applications”? 
+        
+- [If they would click Completed forms accordion]
+  - Okay, go ahead and click on Completed forms.
+    - Is this what you expected to see?
+    - What do you expect to find in the Forms section?
+  - Now, what would you do next?
+    - [If they would call] What would you ask about?
+      - Is there anything else you would do on this page?
+      - [If they don’t scroll up] Could you scroll back up to the top of the page and look at the Claim and application status section?
+    - [If they would click “Check status details” or “Track claims, decision reviews, and applications” link]
+      - What do you think would happen if you click on the link?
+        - Got it, we’ll go back to that.
+      - For now, let's zoom out. Is this section where you expected to find your application?
+        - If not, where would you expect it to be?
+        - What else do you expect to be in this section? 
+
+- [If they don’t know what to do next] Could you look at the Claim and application status section? 
 
 - In your own words, how would you describe what the Claim and application status section is for, versus the Forms section?
   - What are your thoughts on the names of those sections?
@@ -223,8 +290,11 @@ If you wanted to find out what is happening with your CHAMPVA application, can y
 - [IF THEY WOULD CLICK THE CHECK STATUS DETAILS LINK]
   - [If they are mentioning it for the first time] What do you think will happen if you click on the “Check status details” link?
   - Okay, go ahead and click on the link to move forward in the prototype.
+- [IF THEY WOULD CLICK THE STATUS TOOL LINK]
+  - [If they are mentioning it for the first time] What do you think will happen if you click on the “Track claims, decision reviews, and applications” link?
+  - For this first scenario, let's click on the Check status details link so I can get feedback on those pages. We will go back to that link later.
 - [IF NOT] Could you share why you would do that next?
-  - For the scenario today, let's click on the Check status details link anyway. 
+  - For this first scenario, let's click on the Check status details link so I can get feedback on those pages. We will go back to that link later.
 
 > [!NOTE]
 > ### Things to watch for:
@@ -273,7 +343,7 @@ Great! That’s the end of our first scenario. To go to the next scenario, scrol
 Let’s say a week has passed and you want to find out what has happened with your CHAMPVA application. You’ve logged back into VA.gov and this upcoming screen is the first thing you see. Go ahead and click continue. 
 
 ### [MyVA, CHAMPVA card now has yellow action needed tag] 
-- Take a look at this page and tell me what you notice.
+- Take a look at this page and tell me what you see.
   - What do you think has happened with your application?
 - What would you do next?
   - [If they WOULD NOT FOLLOW the Check status details link] For the scenario today, let's click on the link anyway. 
@@ -296,7 +366,7 @@ Let’s say a week has passed and you want to find out what has happened with yo
       - Okay, go ahead and click continue (the submit button) 
 
 ### [Success alert on status tab, now on Step 3, one beneficiary has been deemed eligible] 
-- Take a look at this page and tell me what you notice.
+- Take a look at this page and tell me what you see.
 - What step is the application on now?
   - Is that what you’d expect? 
 
@@ -312,7 +382,7 @@ That’s the end of our second scenario. To go to the last scenario, scroll all 
 A week has passed since you uploaded the requested document, and you want to check on the status of your CHAMPVA application again. You’ve logged back into VA.gov and this upcoming screen is the first thing you see. Go ahead and click continue. 
 
 ### [MyVA, For Veteran flow: CHAMPVA card is not visible ] 
-- Take a look at this page and tell me what you notice.
+- Take a look at this page and tell me what you see.
   - What do you think has happened with your application?
   - [ASK VETERANS ONLY] Why do you think it isn’t on this page?
 - What would you do next?
@@ -339,7 +409,7 @@ What would you do next?
 - [If they WOULD NOT proceed] For the scenario today, let's click on the Details link anyway.  
 
 ### [Complete application with an Ineligible applicant card] 
-- Take a look at the page and tell me what you notice.
+- Take a look at the page and tell me what you see.
   - What is the status of Jane’s application? John Doe Jr.’s?
 - What would you do next, if anything? 
 
@@ -386,9 +456,9 @@ In the rare case of an emergency during a session, be prepared with an [emergenc
 
 ## After You Save This Convo Guide ✅
 
-- [ ] Complete the YAML frontmatter at the top of this file using the [Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/conversation-guide-frontmatter-completion-prompt.md)
-- [ ] Review alignment with your research plan tags
-- [ ] Update the last_modified date
+- [x] Complete the YAML frontmatter at the top of this file using the [Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/conversation-guide-frontmatter-completion-prompt.md)
+- [x] Review alignment with your research plan tags
+- [x] Update the last_modified date
 
 ### Sample Conversation Guide _(note: this link points to resources in the va.gov-team GitHub repo)_
 

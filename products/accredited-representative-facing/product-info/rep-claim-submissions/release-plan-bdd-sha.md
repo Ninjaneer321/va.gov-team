@@ -10,7 +10,10 @@ Feature Toggle/flag:
    - Promoting SHA Part A in 21-526ez
       -    [ ] SHA content on 21-526ez submission page
       -    [ ] Checkbox on Claimant information portion of 526ez
-      -    [ ] SHA Upload & Modal
+      -    [ ] SHA Upload option is avaiable
+      -    [ ] If no SHA upload is added, modal is tripped
+      -    [ ] Checkbox for BDD is reflected in review and submit
+      -    [ ] Upload for SHA is reflected in review and submit
 - [ ] Any "launch blocking" findings from Team QA have been addressed.
 - [ ] Datadog monitoring is set up to track 526ez submissions with BDD checked and an SHA uploaded and when an SHA is not uploaded
 
@@ -30,6 +33,7 @@ Asynchronous Go/No Go (Placeholder)
 - [ ] Enable in Production to 100% of users
 - [ ] Confirm the release to Production, with a test user
 - [ ] Communicate release to ARP pilot users via Teams/Email
+- [ ] Communicate release to VBA and VSO liaison office
 
 ***
 

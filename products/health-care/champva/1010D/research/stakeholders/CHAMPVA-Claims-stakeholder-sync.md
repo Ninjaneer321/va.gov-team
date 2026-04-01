@@ -1,6 +1,83 @@
 ## CHAMPVA Claims biweekly stakeholder sync
 Every other Wednesday at 2:35pm ET
 
+### 04/01/26
+
+**Attendees:** David G., Vana S., Eileen C., Christine M., Andrea M., Renata K., Jessica S., Lauren T., Melissa J., Hieu V., Angela P., Angela C., Rachel D., John R., Premal S., Richard Y., Melissa C., Chantale H. 
+
+**Agenda**
+
+* Confirm processing times and contact methods
+* Discuss appeals process on backend
+    * Request a copy of a CHAMPVA denial letter
+* Check on volumes last month - increased 3k 
+
+
+**Notes**
+
+**Confirm processing times and contact methods**
+
+* Current confirmation page for the claims form says “90 days” processing times and no specific contact method for a decision or processing on claim
+    * Vana: The only way we contact is by EOB or sendback letter, by mail
+        * Would it be helpful to adding “by mail”?
+        * Melissa notes that they’re thinking about changing communication to by Box via request, similar to what Appeals is doing. No timeframe for that to be implemented. Keep language as-is.
+        * Vana: Customers will probably assume they’ll be contacted by phone. Wants to add “by mail”
+        * **Decision:** update language, add “by mail.” Will update if the processing changes.
+    * Angela provides context that this 90-day processing was given a while ago to give VFMP a cushion with the backlog and claims processing
+    * Melissa: current KPIs are 15 days, but wants to look into a better timeframe. Wants to say it’ll be 30 days, but needs to look into it. 
+        * Vana states she is not comfortable to update to 30 days. Even 45 would be difficult, since they’re getting a lot of reopens and old claims resent. 
+        * Premal confirms KPI dashboard - turns out payment takes longer than claims processing time (so even if a claim is processed in 13 days, takes longer for the check to be cut)
+            * Confirms it’s still a check, not direct deposit
+        * **Decision:** Revisit language periodically (quarterly?)
+            * Richard suggests “Processing time varies, if you have not received an explanation of benefits from us in 90 days, please call...”
+            * Folks on the call like that, suggest we take it to Content for review.
+
+
+**Discuss appeals process on backend**
+
+* How does Appeals work on the backend?
+    * Sometimes an appeal is used to ask for more money, but there are many other reasons for an appeal
+* This is probably a 30min meeting for details, so high-level:
+    * Upon receipt of an EOB or an 8-point decision letter, the claimant is advised of their appeal rights
+    * From that point, they are able to take 1 of 2 branches:
+        * Do they need to appeal? Is there an appealable issue? (e.g., a covered benefit or a decision of medical necessity requiring a higher level review)
+        * If the claim didn’t complete (processed but rejected missing information)
+            * DTA loop may or may not catch missing information for something like medical necessity paperwork
+            * Would still be missing information to adjudicate the claim
+* Important definition: an appeal can only happen after a decision has been made, or a reasonable attempt has been made to collect all information
+    * DTA, resubmission or reopen happen BEFORE. Reasonable effort must be taken.
+    * Once we deny or pay a claim, we issue the 8-point decision notice
+        * Notifies the bene of their rights under the Appeals Modernization Act
+* AI: Appeals team to provide a copy of the 8-point devision letter
+* Are there common trends in types of appeals?
+    * Two most common are timely filing (denied the claim because it didn’t meet timely filing requirements or asking for a waiver/exception due to hardship) and payment appeal (dispute over the amount paid)
+    * Trends across both provider and bene claims, there’s no hard breakdown by user group/appeal type
+
+
+3 options, 3 forms
+
+1. 0995 (supplemental claim form)
+2. 0996 (higher level review)
+3. 10182 (Board of Veterans Appeals)
+
+
+**Check on volumes last month** 
+
+* We noticed an increase in submissions by about 3k in the past month. Any trends you are noticing?
+    * Only thing I’ve noticed is a decrease in submissions from CIPM, so less mail, maybe a trend in digital conversion?
+    * Maybe CSRs are relaying the online claims form instead of mail/fax options?
+    * Vana says VA.gov claims are generally fine, but the number of pieces is still high
+        * EOBs are really high, still lacking itemized billing statements
+            * Yesterday Vana processed a claim with 117 EOBs that generated sendbacks
+            * Other people submitting 40 claims forms with different information (submitting 40 claims at once)
+            * Vana “you’re dropping the ball on customer service” 
+        * Premal asks for the sendback rate for online vs. paper forms again
+            * Melissa gave that sample of 100 claims a month ago
+* Is the new sendback letter with QR going out yet?
+    * Melissa J.: not yet, needs Comms. approval
+
+
+
 ### 2/4/26
 
 **Attendees:**

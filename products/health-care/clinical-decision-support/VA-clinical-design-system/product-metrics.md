@@ -1,4 +1,32 @@
 # Clinical Design System - KPI success metrics
+## FY26
+
+#### Adoption, total # of components
+|	Group	|	FY26 Q1 |	FY26 Q2 |	FY26 Q3 |	FY26 Q4 |
+|	----	|	----	|	----	|	----	|	----	|	
+|	Platform console	|	-	|	10	|	-	|	-	|
+|	Task manager	|	-	|	33 |	-	|	-	|
+|	My WorkWeek	|	-	|	23	|	-	|	-	|
+|	Med Calculators	|	-	|	26	|	-	|	-	| 
+|	Lung Cancer Screening	|	-	|	27	|	-	|	-	|
+
+#### Design system growth 
+|	Metric	|	FY26 Q1 |	FY26 Q2 |	FY26 Q3 |	FY26 Q4 |
+|	----	|	----	|	----	|	----	|	----	|	
+|	Bug fixes	|	-	|	18	|	-	|	-	|		
+|	Contributions adopted	|	-	|	3	|	-	|	-	|
+|	Tokens created	|	-	|	-	|	0 |	-	|
+|	Components created	|	-	|	0	|	-	|	-	|
+|	Patterns created	|	-	|	0	|	-	|	-	|
+
+
+#### Contributions to other design systems 
+|	Metric	|	FY26 Q1 |	FY26 Q2 |	FY26 Q3 |	FY26 Q4 |
+|	----	|	----	|	----	|	----	|	----	|	
+|	Contributions to VA design system	|	-	|	1 |	-	|	-	|
+|	Contributions to USWDS design system	|	-	|	0	|	-	|	-	|
+
+
 
 ## FY25
 

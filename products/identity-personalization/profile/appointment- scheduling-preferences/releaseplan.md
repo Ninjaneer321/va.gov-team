@@ -32,7 +32,7 @@ Release criteria:
 
 
 ### Testing
-For this release we will not perform UAT testing with Veterans. Due to testing constraints with the specific VISN population, we will be unlikely to identify users who fit the criteria in a timely manner to conduct the testing prior to release.
+For this release we will perform trusted user testing with Veterans identified by IVC. Testing will be completed March 16-17, 2026 with one Veteran from each site.
 
 We will conduct QA testing in the va.gov staging environment, and participate in integrated testing with the VA Profile team to:
 - Validate all content and interactions match the approved designs;

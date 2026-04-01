@@ -38,6 +38,13 @@ _last updated: 11/21/2025_
 - First team member (Engineer, Data Analyst, PM) to respond to the alert within the #health-tools-1010-apm Slack Channel will add an emoji or comment on the alert thread that they are reviewing the issue
 - The team member will determine if there have been any failures that is causing the low volume of submissions, requesting assistance from other team members as needed
   - This includes reviewing Datadog and Platform Support slack channel for other reports, etc.
+- Check for failures in the VA Profile API integration:
+  - Review response status codes and latency for VA Profile requests
+  - Confirm authentication/token validity used by vets-api
+  - Determine whether errors originate from VA Profile vs. the 10-10EZR application
+- If VA Profile API issues are suspected:
+  - Look for similar reports in #vfs-platform-support
+  - Open a Platform Support ticket if not already reported
 - If the failures are found to originate outside the form or the root cause is not readily apparent within 15 minutes, the team will open a Platform Support ticket for assistance
 - If any errors/failures are found within the form, the team will
   - [PM] Communicate the issue to the Product Owner
@@ -84,6 +91,13 @@ _last updated: 11/21/2025_
 - First team member (Engineer, Data Analyst, PM) to respond to the alert within the #health-tools-1010-apm Slack Channel will add an emoji or comment on the alert thread that they are reviewing the issue
 - Investigate the failure to determine root cause, engaging Enrollment System/Joshua Faulkner if needed
   - This includes reviewing Datadog and Platform Support slack channel for other reports, etc.
+- Check for failures in the VA Profile API integration:
+  - Review response status codes and latency for VA Profile requests
+  - Confirm authentication/token validity used by vets-api
+  - Determine whether errors originate from VA Profile vs. the 10-10EZR application
+- If VA Profile API issues are suspected:
+  - Look for similar reports in #vfs-platform-support
+  - Open a Platform Support ticket if not already reported
 - If the failures are found to originate outside the form or the root cause is not readily apparent within 15 minutes, the team will open a Platform Support ticket for assistance
 - Determine if a PagerDuty maintenance banner needs to be in place to stop further failures - PM will open maintenance window in PagerDuty if needed
 - Obtain Veteran contact information (Name, Phone number, Email address)
@@ -117,6 +131,13 @@ _last updated: 11/21/2025_
 - First team member (Engineer, Data Analyst, PM) to respond to the alert within the #health-tools-1010-apm Slack Channel will add an emoji or comment on the alert thread that they are reviewing the issue
 - Investigate the failure to determine root cause, engaging Enrollment System/Joshua Faulkner if needed
   - This includes reviewing Datadog and Platform Support slack channel for other reports, etc.
+- Check for failures in the VA Profile API integration:
+  - Review response status codes and latency for VA Profile requests
+  - Confirm authentication/token validity used by vets-api
+  - Determine whether errors originate from VA Profile vs. the 10-10EZR application
+- If VA Profile API issues are suspected:
+  - Look for similar reports in #vfs-platform-support
+  - Open a Platform Support ticket if not already reported
 - If the failures are found to originate outside the form or the root cause is not readily apparent within 15 minutes, the team will open a Platform Support ticket for assistance
 - Obtain Veteran contact information (Name, Phone number, Email address)
      - `PersonalInformationLog` is no longer accessible by team engineers. Team will need to reach out to Platform engineer contacts or open a Platform Support ticket so that they can assist in obtaining the Veteran's information
@@ -147,6 +168,13 @@ _last updated: 11/21/2025_
 - First team member (Engineer, Data Analyst, PM) to respond to the alert within the #health-tools-1010-apm Slack Channel will add an emoji or comment on the alert thread that they are reviewing the issue
 - Investigate the failure to determine root cause, engaging Enrollment System/Joshua Faulkner if needed
   - This includes reviewing Datadog and Platform Support slack channel for other reports, etc.
+- Check for failures in the VA Profile API integration:
+  - Review response status codes and latency for VA Profile requests
+  - Confirm authentication/token validity used by vets-api
+  - Determine whether errors originate from VA Profile vs. the 10-10EZR application
+- If VA Profile API issues are suspected:
+  - Look for similar reports in #vfs-platform-support
+  - Open a Platform Support ticket if not already reported
 - If the failures are found to originate outside the form or the root cause is not readily apparent within 15 minutes, the team will open a Platform Support ticket for assistance
 - Obtain Veteran contact information (Name, Phone number, Email address)
      - `PersonalInformationLog` is no longer accessible by team engineers. Team will need to reach out to Platform engineer contacts or open a Platform Support ticket so that they can assist in obtaining the Veteran's information
@@ -177,6 +205,13 @@ _last updated: 11/21/2025_
 - First team member (Engineer, Data Analyst, PM) to respond to the alert within the #health-tools-1010-apm Slack Channel will add an emoji or comment on the alert thread that they are reviewing the issue
 - Investigate the failure to determine root cause, engaging Enrollment System/Joshua Faulkner if needed
   - This includes reviewing Datadog and Platform Support slack channel for other reports, etc.
+- Check for failures in the VA Profile API integration:
+  - Review response status codes and latency for VA Profile requests
+  - Confirm authentication/token validity used by vets-api
+  - Determine whether errors originate from VA Profile vs. the 10-10EZR application
+- If VA Profile API issues are suspected:
+  - Look for similar reports in #vfs-platform-support
+  - Open a Platform Support ticket if not already reported
 - If the failures are found to originate outside the form or the root cause is not readily apparent within 15 minutes, the team will open a Platform Support ticket for assistance
 - Communicate the issue to the Product Owner
 - If any errors/failures are found within the form, the team will

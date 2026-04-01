@@ -1,451 +1,310 @@
-
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for CDS Platform Team, CDS Console Sidebar Navigation, Q2 2025"
+date: 2025-02-17
+last_updated: 2026-03-30
+team: "CDS Platform Team (Thoughtworks)"
+product: "CDS Console – Sidebar Navigation"
+product_area: "Clinical Decision Support Console"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
-
+  problem_statement: "The current header navigation occupies too much vertical space, hindering viewability of CDS application content. Clinicians face significant challenges navigating between different CDS content and data across applications, resulting in a fragmented experience disconnected from the workflow-based approach they need to deliver clinical care effectively and enhance care coordination."
+  product_location: "CDS Console (Clinical Decision Support Console) – includes MWW, MedCalc, Voogle, STORM, and Task Manager"
+  user_familiarity: "Iteration on an existing product; Round 2 of usability testing following validated Round 1 sidebar navigation concept"
+  
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Moderated usability testing with clickable prototypes"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate whether updates to the sidebar navigation improve efficiency and usability by refining the information architecture and ensuring a clear, intuitive structure."
+  - goal_2: "Identify any remaining usability challenges clinicians face when interacting with the navigation, focusing on wayfinding, discoverability, and workflow alignment."
+  - goal_3: "Assess the effectiveness of the visual hierarchy and organization within the sidebar to ensure key tools and CDS applications are easily accessible and logically grouped."
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Does the revised sidebar navigation improve clinicians' ability to locate and access necessary tools quickly?"
+  - "Are there any lingering usability issues causing friction in workflow efficiency?"
+  - "Do users understand the labeling and grouping of navigation elements?"
+  - "How are patient demographic details best displayed across focus areas for user journey milestones?"
+  - "How do navigation interactions align with clinician workflow needs?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Addressing usability issues identified in Round 1 testing will improve the effectiveness of the V1/MVP sidebar navigation, making it easier for clinicians to navigate between CDS applications and tools."
+  - "Optimizing the organization of navigational elements, refining interactions, and streamlining transitions will result in fewer workflow interruptions and help clinicians locate essential tools more efficiently."
+  - "Standardizing the display of patient demographic details across the user journey will reduce cognitive load, minimize errors, and improve clinician confidence in accessing critical patient information."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will inform final design refinements before V1/MVP implementation. Usability challenges identified will be addressed to ensure an optimized experience. Opportunities for future enhancements will be captured for consideration based on product prioritization. Implementation of V1/MVP is scheduled to begin in Q2 2025."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Internal (Researcher-led outreach via CDSC Research Participant Database)"
+  approach: "Targeted outreach based on application user type; mix of MWW users, MedCalc users, and Task Manager users"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "3 MWW Users"
+    - "2 MedCalc Users"
+    - "1 Patient Safety SME"
+    - "1 MWW & MedCalc User"
+    - "2 Miscellaneous CDS Console users"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Primary Care Physicians"
+    - "Familiar with the CDS Console"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you used the CDS Console (e.g., MWW or MedCalc) in the last 6 months?"
+      qualifying_response: "Yes"
       
 participants:
   veterans: 0
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 8
+  completed_sessions_goal: 6
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-02-21"
+  pilot_participant: "[Session Dry Run – internal team]"
+  research_dates: "2025-02-28 to 2025-03-13"
+  research_review_submission: "2025-03-07"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Enhancing clinician efficiency in decision support workflows"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Reduce navigation friction and time spent locating essential CDS tools"
+  - objective: "Reducing navigation friction and cognitive load"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Optimized sidebar navigation information architecture validated through usability testing"
+  - objective: "Ensuring CDSC usability and accessibility for diverse clinical users"
+    key_results:
+      - "CDS accessibility guidelines incorporated into V1/MVP story shells"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "N/A – Research focuses on VHA clinical staff, not Veterans"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Round 1 Sidebar Navigation Usability Testing (validated sidebar navigation hypothesis; identified adjustments for R2)"
     
 tags:
   - "health-care"
   - "clinical-decision-support"
   - "CDS"
-  - "template"
-  - "research-template"
+  - "sidebar-navigation"
+  - "usability-testing"
+  - "CDS-console"
+  - "V1/MVP"
   - "BNFT: Healthcare"
 ---
 
 
-	# Research Plan for [Team, Product, Date]
+# Research Plan for CDS Platform Team, CDS Console Sidebar Navigation, Q2 2025
 > [!NOTE]
 > *Questions about how to set up your research study? Reach out first in the via Slack in [#cds-hcd-cop] (https://dsva.slack.com/archives/C06043YBWTC) or if more help is needed check out the [#research-ops](https://dsva.slack.com/archives/C0216PL32HJ) Slack channel.* 
 
 ## Background 🏗️
-<details><summary>Briefly describe the background of your product.</summary>
+<details><summary>Evaluate whether updates to the sidebar navigation concept improve efficiency and usability by refining the information architecture and ensuring a clear, intuitive structure</summary>
 	
 `What problem is your product or feature trying to solve?`
 
-**[Enter answer here]**
+**The current header navigation in the CDS Console occupies too much vertical space, hindering the viewability of Clinical Decision Support (CDS) application content. Clinicians face significant challenges navigating between different CDS content and data across applications, resulting in a "fragmented" experience that is disconnected from the workflow-based approach they need to deliver clinical care effectively and enhance opportunities for care coordination.**
   
 `Where is your product situated within the clinicians' or VA staff's toolset (ex: CDS Console > MedCalc)`
 
-**[Enter answer here]**
+**The CDS Console serves as the central hub for clinical decision support tools. It includes applications such as MWW (My Workflow Workspace), MedCalc (Medical Calculators), Voogle, STORM, and Task Manager. The sidebar navigation is the primary means of access between these tools.**
   
 `What is clinicians' familiarity with this tool? Is this a new product or an iteration on an existing one?`
 
-**[Enter answer here]**
+**This is an iteration on an existing product. The CDS Console is familiar to participating clinicians. Round 1 usability testing validated the sidebar navigation concept over the existing header navigation. Round 2 testing builds on those findings to refine the design ahead of V1/MVP implementation scheduled to begin in Q2 2025.**
 
 `Product Brief`
 
-**[Link to product brief](url goes here).**
+**[Moderator Guide](https://dvagov.sharepoint.com/:w:/r/sites/CDSProgramTeam/Shared%20Documents/Clinical%20Decision%20Support%20Platform%20Team%20CDSP/2.%20User%20Research/2025%20Research/Moderator%20Guide_%20Sidebar%20Navigation%20Round%202_Final%20for%20Testing2.docx?d=w2c7d47f0d36b406294382017500ba26b&csf=1&web=1&e=tynptn)**
 
 </details>
 
-### [OCTO-DSD Priorities](insert link here) 
+### OCTO-DSD Priorities
 
-<details><summary>Which OCTO priorities does this research support? Work with your VA lead and product manager as needed. </summary>
+<details><summary>[PGM] CDS Console Side Navigation and Header Refactor</summary>
 
+`Objective 1: Enhancing clinician efficiency in decision support workflows`  
 
-`Objective 1:  VA’s digital experiences are the easiest and most efficient way to access VA health care and benefits.`  
+> - **Key Result:** Reduce navigation friction and time spent locating essential CDS tools within the clinician's workflow.
 
-> - **Key Result 1:** Improve satisfaction with our web and mobile products by 5 points.
-> - **Key Result 2:** We have reduced the total time Veterans spend waiting for a response from our digital experiences by 50%, towards a goal of less than 4 seconds per transaction.
-> - **Key Result 3:** 100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error.
+`Objective 2: Reducing navigation friction and cognitive load`
 
-`Objective 2: OCTO’s platforms are the fastest, most efficient, and most secure way to deliver products at VA.`
+> - **Key Result:** Validate an optimized sidebar navigation information architecture through usability testing prior to V1/MVP implementation.
 
-> - **Key Result 1:** 100% of authentications to our systems and tools (both Veteran-facing and internal) occur using a secure credential.
-> - **Key Result 2:** We have reduced the total error rates in our platforms by 50% compared to Q4 2024, towards a goal less than 1% per endpoint.
-> - **Key Result 3:** 100% of VA employees have access to a valuable Generative AI tool to help with their work.
-> - **Key Result 4:** Each of our platforms* and tools increase the number of non-OCTO built capabilities or non-OCTO users by 50%. (*excluding mobile)
+`Objective 3: Ensuring CDSC usability and accessibility for diverse clinical users`
 
-`Objective 3: OCTO teammates are empowered with the knowledge and resources they need to make sustained impact.`
-
-> - **Key Result 1:** Team members reporting more than a reasonable amount of stress is 5 points lower for each quarter in 2025 than it was in the corresponding quarter in 2024.
-> - **Key Result 2:** Every OCTO Portfolio identifies 2 or more strategic decisions per quarter that would benefit the larger OCTO team, and documents them publicly in a shared location.
-> - **Key Result 3:** 75% or more team members are confident they have the knowledge needed to make effective decisions.
-
-`Objective 4: OCTO positively influences VA's ability to deliver software products and services faster, safer, and with higher quality.`
-
-> - **Key Result 1:** OCTO has delivered at least 10 impactful artifacts or learning activities (e.g., trainings, guides, COP meetings) focused on improving delivery practices that achieve an NPS score of 30 or higher from the target OIT delivery staff.
-> - **Key Result 2:** OCTO has helped resolve/support at least 10 significant engineering issues or products outside our portfolio.
-> - **Key Result 3:** Five or more non-OCTO teams have used SPRUCE to deliver high quality software.
+> - **Key Result:** CDS accessibility guidelines incorporated into all relevant V1/MVP story shells before implementation begins in Q2 2025.
 
 </details>
 
-> [!TIP]
-> Delete priorities not supported by this research.
+## Research Goals 🎯
 
-### [Clinician or VA Staff Journey](insert link)
+**Goal 1:** Evaluate whether updates to the sidebar navigation improve efficiency and usability by refining the information architecture and ensuring a clear, intuitive structure.
 
-<details><summary>Where does your product fit into the Clinician or VA staff journey?
-	
-- `Scheduling an appointment`
-- `Preparing for an appointment`
-- `Patient appointment`
-- `Patient follow-up`
-- `Making clinical decisions`
-- `Documentation or charting`
-- `Putting in an order`
-- `Reviewing results`
-- `Closing an encounter`
+**Goal 2:** Identify any remaining usability challenges clinicians face when interacting with the navigation, focusing on wayfinding, discoverability, and workflow alignment.
 
-</details>
+**Goal 3:** Assess the effectiveness of the visual hierarchy and organization within the sidebar to ensure key tools and CDS applications are easily accessible and logically grouped.
 
-> [!TIP]
-> Delete journeys not supported by this research.
-
-## Research Goals 🥅	
-`What are you trying to learn from this research?` 
-
-> [!NOTE]
-> Limit 3 goals per study. If you have more than 3 goals, consider how to break up your research into iterative studies.
-
-### Goals
-
-`1.` **[Enter answer here]**
-
-`2.` **[Enter answer here]**
-
-`3.` **[Enter answer here]** 
-  
 ### Outcome
-`How will this research advance your product to the next phase in the design process? What will you do with your learnings?`
+Findings from this research will inform final design refinements before V1/MVP implementation. Any usability challenges identified will be addressed to ensure an optimized experience. Opportunities for enhancements will be captured for consideration in future releases based on product prioritization.
 
----
+## Research Questions ❓
 
-**[Enter outcome here]** 
+- Does the revised sidebar navigation improve clinicians' ability to locate and access necessary tools quickly?
+- Are there any lingering usability issues causing friction in workflow efficiency?
+- Do users understand the labeling and grouping of navigation elements?
+- How are patient demographic details best displayed consistently across focus areas and user journey milestones?
+- How do navigation interactions align with clinician workflow needs across different tools (MWW, MedCalc, Task Manager)?
 
----
+## Hypotheses 💡
 
-### Research questions
-> [!NOTE]
-> Do not write out all questions you plan to ask participants -- that should go in the` [conversation guide.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/research-templates/conversation-guide.md)
+**Hypothesis 1 (Primary):** We believe that addressing usability issues identified in Round 1 testing will improve the effectiveness of the V1/MVP sidebar navigation implementation, making it easier for clinicians to navigate between CDS applications and tools. By optimizing the organization of navigational elements, refining interactions, and streamlining transitions, we expect clinicians to experience fewer workflow interruptions and locate essential tools more efficiently.
 
-***Consider bucketing research questions under research goals and think about:***
-	
-`What will I do with what I learn from this question?`
-  
-`Does this question serve the goals of my study?`
+**Hypothesis 2 (Secondary):** We believe that standardizing the display of patient demographic details across the user journey will enhance usability and ensure alignment with patient safety standards. By improving consistency and gathering user expectations, we expect to reduce cognitive load, minimize errors, and improve clinician confidence in accessing critical patient information.
 
-**`1.`[Enter Q1]**
+## Method 🔬
 
-**`2.`[Enter Q2]**
+**Moderated usability testing** using two clickable Figma prototypes (Prototype A and Prototype B) conducted remotely via MS Teams.
 
-**`3.`[Enter Q3]**
+### User Flows / Scenarios Tested
 
-**`4.`[Enter Q4]**
+- **Flow 1:** User starts in MWW, navigates to the CDS Console, then to MedCalc.
+- **Flow 2:** User starts in MedCalc, gathers a calculation, then creates a task.
+- **Flow 3:** User launches Voogle; User launches STORM.
+- **Flow 4:** Patient context change.
 
-**`5.`[Enter Q5]**
-
-> [!TIP]
->Enter more questions as needed
-
-### Hypotheses
-> [!NOTE]
-> Remember to constrain the hypotheses to the goals of your study!
- 
-**Think through these prompts to develop strong hypotheses:**
-	
-`What do you intend to learn and measure from this study?` 
-
-`What do you already know about this problem space?`
- 
-`What do you think users will do or think about this product? (Identifying our assumptions helps us be aware of biases we may unintentionally bring into the study, so don’t skip this step!)`
-  
-`Write a generalized statement that combines what you know + what you think will happen during the study.`
-
----
-
-**[Enter hypotheses here]** 
-
----
-  
-## Methodology  🛠️
-***Describe the method you’re planning. You should be able to explain why this method is appropriate for the goals of the research and maturity of the design.*** 
-
-<details><summary>Examples of common research methods include</summary> 
-	
-- `Semi-structured interviews - appropriate for generative research`
-- `Contextual inquiry - appropriate for generative research`
-- `Card sorts - appropriate for generative and evaluative research; depending on the study design` 
-- `Tree tests - appropriate for evaluative research`
-- `Usability testing - appropriate for evaluative research`
-- `User acceptance testing (UAT) - required before product release`
-
-</details>
-
-**[Enter methodology here]**
-
-<details><summary>Additional resources</summary> 
-	
-- In the rare event of an emergency during research, be prepared by reviewing guidelines for [research safety and emergency exit strategies](https://depo-platform-documentation.scrollhelp.site/research-design/Research-Safety-and-Emergency-Exit-Strategies.2143649793.html).
-
-</details>
+**Focus Topics:**
+- Patient demographic details display
+- Interactions across scenarios
+- Navigational orientation and clarity
+- Navigation labels
 
 ### Location
-Currently, all clinical research for CDSC takes place remotely over MS Teams. We do not have processes in place to conduct in-person research with clinicians and VA staff. We will update this guide as things change.
+Remote – MS Teams
 
-- [x] **Remote**
-
-
-## Research materials 📔
-
-> [!NOTE]
-> **Have your research plan reviewed by the OCTO VA HCD Lead or a CDS HCD Peer review before beginning recruitment. This doesn't mean the research plan has to be 100% finalized, but reviewed to ensure we are clear on our target participants**
-
-Provide a link to any materials you need to run your study, including any materials needed for set up and recruitment.  
-
-**For moderated interviews:** 
-	
-- [Link to conversation guide](url goes here)
+**Prototypes:**
+- [Prototype A](https://www.figma.com/proto/iRqkr3vqVQzY2dOMAmPMs7/WIPCDSConsole-%22Sidebar%22Header?page-id=3784%3A11142&node-id=40788923&viewport=732%2C2193%2C0.15&t=wF1odQYhIr6dfqfC1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4078%3A8923&show-proto-sidebar=1)
+- [Prototype B](https://www.figma.com/proto/iRqkr3vqVQzY2dOMAmPMs7/WIPCDSConsole-%22Sidebar%22Header?page-id=3784%3A11142&node-id=408912922&viewport=732%2C2193%2C0.15&t=wF1odQYhIr6dfqfC1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4089%3A12922&show-proto-sidebar=1)
 
 **For moderated usability tests:** 
-- [Link to conversation guide](url goes here)
-- [Link to prototype](url goes here)
-
-**For [unmoderated testing:](https://depo-platform-documentation.scrollhelp.site/research-design/Planning-Unmoderated-Studies.1904738369.html)**
-- [Link to email with instructions](url goes here)
-- [Link to prototype or OptimalSort session for group A](url goes here)
-- [Link to prototype or OptimalSort session for group B](url goes here)
-
+- [Moderator Guide – SharePoint](https://dvagov.sharepoint.com/:w:/r/sites/CDSProgramTeam/Shared%20Documents/Clinical%20Decision%20Support%20Platform%20Team%20CDSP/2.%20User%20Research/2025%20Research/Moderator%20Guide_%20Sidebar%20Navigation%20Round%202_Final%20for%20Testing2.docx?d=w2c7d47f0d36b406294382017500ba26b&csf=1&web=1&e=tynptn)
 	
 ## Recruitment 🎯	
-*Recruitment for CDSC research is done by the researcher. Account for recruitment in your planning and preparation time. Ideally outreach begins 2-4 weeks ahead of targeted testing dates*
-
+*Recruitment is done by the researcher. Outreach began the week of February 17th, approximately 2 weeks ahead of testing.*
 
 ### Recruitment approach
-*Who is your intended audience for this research (e.g. clinicians, VHA administrative staff, coordinators, SMEs), and how will you recruit them?* 
 
-`Audience:` [enter user group here]
+`Audience:` Clinicians and clinical staff currently using the CDS Console (MWW, MedCalc, Task Manager)
 
-**`1.`CDSC Research Participant Database:** The CDSC research participant database is available to CDSC HCD Practictioners. If you are not part of this group, ask the OCTO CDSC VA Lead to assist with recruitment. 
+**`1.` CDSC Research Participant Database:** Rosemary managing target list and outreach.
 
-**`2.`SSS Clinician Office Hours:** SSS hosts a weekly office hours for clinicians and other VHA staff. If you have an upcoming study, consider attending office hours to share about your study and see if any folks are interested or could connect you with someone.
+**`2.` Patient Safety SME:** Direct outreach scheduled during the week of February 17th.
 
-**`3.`Application Support and Feedback:** SSS manages initial platform and app team support for CDS. Review support and feedback queries that come in and see who submitted the feedback and if they might match your study criteria. For example, a physician who requested a new calculator or had trouble with autopopulation may be interested in reviewing new designs.
+**`3.` Snowball:** Ask prior participants to refer colleagues who meet the study criteria.
 
-**`4.`Snowball:** Ask your prior participants if they can share your name and email or the sign-up form with their colleauges to find new participants.
-
-**`5.`Product SME:** Ask your product SME if they have other contacts you can engage with. 
+**`4.` Product SME:** Engage product SMEs for additional contacts as needed.
 
 ### Recruitment criteria
 
-- **Write any recruitment criteria for experience or scenarios as screener questions with qualifying responses. This is helpful if getting recruitment assistance from CDSC peers.**
-- Consider providing links to products and/or clear descriptions to ensure participants understand the question. 
-  Example: Have you used CDS Medical Calcualtors in the last 6 months? [answer should be yes to qualify.]
+- Have you used MWW or MedCalc within the CDS Console in the last 6 months? [Answer should be yes to qualify.]
+- Are you a Primary Care Physician, Pharmacist, PACT Clinician, or Nurse Care Manager? [Answer should be yes to qualify.]
 
-- The more recruitment criteria you have, the less likely that a small sample of participants will be able to meet all criteria. Consider what criteria MUST be met, versus what is nice to have.
-
-### List the ideal completed sessions and total number and type (clinicians, VHA administrative staff, coordinators, etc.) of participants for this study:
+### List the ideal completed sessions and total number and type of participants for this study:
 > [!NOTE]
-> Your total number should equal **2x** your ideal completed sessions number *(e.g. for 6 ideal completed sessions, plan to email at least 12 participants)*
+> Total number equals **2x** the ideal completed sessions *(target 8 outreach for ~6 completed sessions)*
 
-- `Clinicians - CPRS:` **[n]**
-- `Clinicians - Oracle:` **[n]**
-- `VHA admin staff:` **[n]**
-- `Total:` **[n]**
-- `Ideal completed sessions:` **[n]**
+- `MWW Users:` **3**
+- `MedCalc Users:` **2**
+- `MWW & MedCalc Users:` **1**
+- `Patient Safety SME:` **1**
+- `Miscellaneous:` **2**
+- `Total:` **8 (target recruited)**
+- `Ideal completed sessions:` **6**
 
 ### Primary criteria (must-haves)
-*What demographics, experience, and scenarios do you need participants to meet to effectively run your study. For example, is it important to capture both inpatient and outpatient care settings? Or are you looking for a certain specialty or role such as a nurse practitionaer or physician?* 
 
-- `[Place primary criteria here between hash marks when in edit mode]`
-- `primary criteria`
-- `primary criteria`
-- **`Add more criteria as needed`**
+- `Actively uses MWW, MedCalc, or Task Manager within the CDS Console`
+- `Primary Care Physician, Pharmacist, PACT Clinician, or Nurse Care Manager`
+- `Familiar with the CDS Console`
+- **`At least one Patient Safety SME must be included`**
 
 #### Secondary criteria (nice-to-haves)
-*What criteria would strengthen your results? For example, getting a variety of FTE percentage (patient facing time) or providers who work float schedules. Secondary criteria could also be role types, specialty, etc depending on the priority for a given study * 
 
-- `[Place secondary criteria here between hash marks when in edit mode]`
-- `secondary criteria`
-- `secondary criteria`
-- **`Add more criteria as needed`**
+- `Primary Care Physicians preferred for majority of sessions`
+- `Mix of MWW-only, MedCalc-only, and dual users to cover all test scenarios`
+- **`Variety of care settings (inpatient/outpatient) if possible`**
 
 ## Timeline 🗓️
-Consider recruitment lead time is often 2-4 weeks. 
-
-### Outreach Email Templates
-**General template, adjustments made for individual emails based on context or prior connection with participant. The outreach email must contain the line about voluntary participation and anonymity**
-
-Hello (Name),
-
-My name is (researcher/designer name), and we previously connected via your support request to (enter request or issue). 
-
-I am reaching out now to see if you would be interested in participating in a design feedback session. We are currently evaluating some new designs for the (product name). I’d love to get your perspective and feedback on these new concepts. It would involve participating in a 60-minute remote session on MS Teams. The session would include a general introduction and current experience with (product name), then I would share a design prototype with you along with a few probes to get your reactions, followed by closing questions. 
-
-**Your choice to participate is completely voluntary. We will share our learnings within the CDS Collaborative in the form of aggregated information or anonymized quotes. Your responses will remain confidential, and your anonymity protected.**
-
-If you are interested in participating, the following days and times are available. Please respond to this email with a few 60-minute options that work for you, and I will send an invitation. If you are interested in participating, but not available for this session, please keep an eye out for future opportunities. 
-
-All times are in **Eastern** time:
-
-Week of September 15:
-
-- Friday, September 19: 9:30 – 11am
-  
-Week of September 22
-
-- Monday, September 22: 10 - 11:30am
-- Tuesday, September 23: 10-11am, 1-2pm
-- Wednesday, September 24: 12 - 1pm, 2 - 5pm
-- Thursday, September 25: 10 - 11am
-- Friday, September 26: 10 - 12pm, 2 - 4pm
-
-I hope we can connect soon. If you are not interested in participating in these types of sessions, that’s fine too! Please let me know so I can make note!
-
-Cheers,
-
-(researcher name)
-
 
 ### Prepare
-*When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been shared via Slack in #cds-hcd-cop or DS Office Hours for feedback. 
 
-**A pilot session is strongly recommended. Find a partipant in the HDC CoP slack channel or your product team** 
-
-- `Pilot participant name:` **[Enter name]**
-- `Date and time of pilot session:` **[Enter time]** 
+- `Pilot participant name:` **Internal team dry run (week of Feb 17th)**
+- `Date and time of pilot session:` **Week of February 17–21, 2025** 
 
 ### Research sessions
-- `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
+- `Planned dates of research:` **February 28 – March 13, 2025**
+
+| # | Date | Time (ET) | Role / Specialty | Segment | Moderator | Status |
+|---|------|-----------|-----------------|---------|-----------|--------|
+| P1 | Friday, Feb 28 | 3:00–4:00 PM | Women's Health Director, Primary Care Physician | MWW & MedCalc User | Liz | ✅ Confirmed & Completed |
+| P2 | Wednesday, Mar 5 | 11:30–12:30 PM | Pharmacist | MedCalc User | Liz | ✅ Confirmed & Completed |
+| P3 | Wednesday, Mar 5 | 3:00–4:00 PM | Primary Care Physician | MedCalc User | Liz | ✅ Confirmed & Completed |
+| P4 | Friday, Mar 7 | 3:00–4:00 PM | Primary Care Physician | MedCalc User | Liz | ✅ Confirmed & Completed |
+| P5 | Wednesday, Mar 12 | 1:00–2:00 PM | PACT Clinician | Console User, Task Manager User | Liz | ✅ Confirmed & Completed |
+| P6 | Thursday, Mar 13 | 1:30–2:30 PM | RN, Nurse Care Manager | Task Manager User | Liz | ❌ Cancelled |
 
 ### Length of sessions
-- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **[Enter time length]**
+- `Session length:` **60 minutes**
   
-- `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **[Enter buffer time]**
+- `Buffer time between sessions:` **30 minutes recommended**
   
-- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **[Enter NUM per day]**
+- `Maximum sessions per day:` **2 per day**
 
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
 > [!NOTE]
-> **Please do not include email addresses in this section.** We previously required email addresses. VA's GitHub policy ([see announcement](https://github.com/orgs/department-of-veterans-affairs/discussions/13)) has changed. VA.gov email addresses cannot be in public repositories.
->
-> **Please list the names of people in each role.** In the Slack study channel, send an email and primary phone number for the moderator. Also send emails for the notetaker, accessibility specialist, and observers. If you need Perigean to take notes for you, indicate that next to Notetaker.
+> **Please do not include email addresses in this section.**
 
-- `Moderator:` **[Enter full name]**	
-- `Research guide writing and task development (usually but not always same as moderator):` **[Enter full name]**		
-- `Participant recruiting & screening:`	**[Enter full name]**	
-- `Project point of contact:` **[Enter full name]**		
-- `Accessibility specialist (for sessions where support for assistive technology may be needed):` **[Enter full name]**	
-- `Note-takers:` **[Enter full name]** 	
-- `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 3 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.` Share the Notetaker and Silent Observer guide in advance to the other people observing the sessions.
+- `Moderator:` **Liz**	
+- `Research guide writing and task development:` **Liz**		
+- `Participant recruiting & screening:` **Rosemary**	
+- `Project point of contact:` **Liz**		
+- `Accessibility specialist:` **[To be confirmed]**	
+- `Note-takers:` **MR Ngo (P1), December Burgh (P2), Rosemary Rogers (P3), None (P4, P5), Sarah Cnota (P6)** 	
+- `Observers:` Share the Notetaker and Silent Observer guide in advance. No more than 3 total attendees (moderator, notetaker, observer) per session on the VA side.
 
-- **[Enter full name]**
-- **[Enter full name]**
-- **[Enter full name]**
-
-### Notetaker and Silent Obeserver Guide
+### Notetaker and Silent Observer Guide
 - Be a silent observer. If you have a question for the participant, ask the facilitator via a Slack DM and they'll accommodate it if appropriate.
-- If you can notetake, please do! It helps researchers a lot to see what you captured. There’s a note taking template in this Mural with screenshots. If you find it easier to write your notes or use a word doc, that's fine too! If you take running notes, please be sure to make a clear reference to the screen in question or the scenario being mentioned.
-- Write what you hear and see as much as possible. For some it can be easier to write in first person, as it is said, so that you don't need to paraphrase anything. Try to capture what they said without adding your own interpretation of what they meant. E.g. "I'm not sure about this checkbox" does not equal "Doesn't understand checkbox."
-- Share your notes back with the facilitator via Slack if taken outside of the mural. Do not include ANY PII in this chat.
-- For design testing, try to write down things that aren't said—for instance, when someone misunderstood some copy or clicked the wrong element. It helps us figure out what needs to be revisited.
-- Share a few raw impressions with the facilitator via Slack or in the notetaking document after the interview is done, if possible. It helps with synthesis!
+- If you can notetake, please do! Use the note taking template in the [Mural](https://app.mural.co/t/thoughtworksclientprojects1205/m/thoughtworksclientprojects1205/1740762221224/572e7d830b11d84b545341f0546714bd48a489b3) with screenshots.
+- Write what you hear and see as much as possible. Try to capture what participants said without adding your own interpretation.
+- Share your notes back with the facilitator via Slack if taken outside of the Mural. Do not include ANY PII in this chat.
+- For design testing, write down things that aren't said — when someone misunderstood copy or clicked the wrong element.
 
 **Protecting PII**
-- It's important to protect the privacy of our VHA staff participants AND any Veterans. 
-- Do not include the participants name or other identifiers -- such as a very specific title that can be easy to identify them with in your notes. Instead, use a general role description, such as "primary care provider" and "also works in informatics"
-- In the event a participant needs to share their screen or a tool with an actual patient (since test patients don't always work to show how the tool functions), stop the recording before they share. DO NOT RECORD THE PARTICIPANT'S SCREEN IF THEY ARE SHOWING A REAL PATIENT.
+- Do not include the participant's name or other identifiers in your notes. Use a general role description such as "primary care provider."
+- In the event a participant needs to share their screen with a real patient visible, stop the recording before they share. **DO NOT RECORD THE PARTICIPANT'S SCREEN IF THEY ARE SHOWING A REAL PATIENT.**
 
 
 ## Approvals ✅
-- `Reviewed by [CDSC HCD Peer] or [CDSC VA HCD Lead] on [MM-DD-YYYY]`
-
+- `Reviewed by or [Amanda Klausmeirer] on [02-20-2025]`

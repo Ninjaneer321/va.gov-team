@@ -12,7 +12,7 @@ research_phase: "usability"
 research_method: "moderated_usability_test"
 
 # Session details
-session_duration: "60 minutes"
+session_duration: "90 minutes"
 session_type: "remote_moderated"
 participant_criteria: "Veterans who use VA health care and have attended VA appointments and/or community care appointments in the past 12 months, with varied experience filing for travel pay reimbursement"
 
@@ -63,11 +63,11 @@ consent_for_clips: true
 > [!NOTE]
 > Review VA Platform's [Research Checklist](https://depo-platform-documentation.scrollhelp.site/research-design/research-checklist).
 
-`List and complete any project-specific setup tasks for this study below:`
+`List and complete any project-specific setup tasks for this study below:`   
 
-- [ ] Step
-- [ ] Step 2
-- [ ] Step 3
+- [ ] Remember to email external stakeholders the day before their session
+- [ ] Hide the "Card - NEW CLAIM" frame in the [Figma prototype file](https://www.figma.com/design/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?node-id=16716-68410&t=4KLjXq8vP7HWRweg-1)
+- [ ] Check which entry point page the participant will see first in the [tracker](https://docs.google.com/spreadsheets/d/1VYXLkJXNbPTV6oAzhz-AJvlfiCuB7AoZqMwB6yrQYMw/edit?gid=0#gid=0)
 
 ### Day of the session
 
@@ -80,9 +80,9 @@ consent_for_clips: true
 
 > [!TIP]
 > - In the Attendees section, make sure everyone except the participant is on mute.
-> - In the Participant "more" menu, make sure "Play Join and Leave Sound" is unchecked
-> - Check your [screensharing setup] and share permissions for participants.
-> - When the participant is ready, begin the session with the following intro*
+> - In the Participant "more" menu, make sure "Play Join and Leave Sound" is unchecked.
+> - Check your screensharing setup and share permissions for participants.
+> - When the participant is ready, begin the session with the following intro.
 
 # Intro - 5 minutes
 
@@ -93,7 +93,7 @@ Today we're going to talk about adding appointment information in order to file 
 
 Before we start, I have a few things that I want to go over with you:
 
-- **This entire session should take about 60 minutes.** I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
+- **This entire session should take no longer than 90 minutes.** I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
   
 - **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
   
@@ -140,28 +140,42 @@ Before we start, I have a few things that I want to go over with you:
 `Moderator: Before we look at our prototype, I’d like to start with a few questions about your experience with VA travel reimbursement.`
 
 1. Do you use VA health care?
-2. Have you filed for travel pay in the past?   
-If yes: Tell me more about it.   
-If no: Can you share more about why you haven’t filed?
-3. If yes to 1: Which system did you use to file for travel pay? (VAHB, VA.gov, BTSSS)
-4. If yes to 1: Are you familiar with “community care”? What does that phrase mean to you?
-If no, explain: In certain scenarios, for example, if the VA facility is outside a certain distance, or if there is an extended wait time for VA Care, sometimes VA will approve you to go to other health care facilities in the community. These are called “community care” appointments. [This is important to explain to the participant so that they can understand the testing scenario we present to them below.]
-5. If yes to 1:  Were the appointment(s) scheduled ahead of time, or walk-in appointments?
-6. If yes to 1: Have you filed for VA appointment(s) or community care appointment(s)?
-7. If the participant has filed for community care: Can you tell me more about your experience filing for community care? What did you do to get ready to file?
-8. If no to 1: If you were going to file for travel reimbursement today, where would you go or what would you do first?   
+- **If no:** Unfortunately, we're looking for participants who use VA health care for this study. Since you don't use VA health care, we'll wrap up here.
+- **If yes:** _Proceed to following questions._
+2. Have you filed for travel pay in the past?
+- **If no:** Can you share more about why you haven’t filed? _(Then jump to question 5.)_
+- **If yes:** _Proceed to following questions._
+3. Tell me more about it.
+4. When did you file?
+5. Which system did you use to file for travel pay? (VAHB, VA.gov, BTSSS)
+6. Are you familiar with “community care”? 
+ - **If yes:** What does that phrase mean to you?
+ - **If no, explain:** In certain scenarios, for example, if the VA facility is outside a certain distance, or if there is an extended wait time for VA Care, sometimes VA will approve you to go to other health care facilities in the community. These are called “community care” appointments. [This is important to explain to the participant so that they can understand the testing scenario we present to them below.]
+7. Have you filed for VA appointment(s) or community care appointment(s)?
+8. **If the participant has filed for community care:** Can you tell me more about your experience filing for community care? What did you do to get ready to file?
+9. If no to 1: If you were going to file for travel reimbursement today, where would you go or what would you do first?
+10. What type of device are you using for our session today?
 
 
 ## Section 2: Entry-point navigation (5-10 minutes)
 
 `Moderator: Now we’re going to take a look at the prototype. As a reminder, it’s a representation of the site, and some things will work like you'd expect, but other things won't be clickable. If you try to click something and it doesn't work, just let me know what you were trying to do, and I'll help us move forward.`   
 
-`Here’s the scenario I’d like you to imagine:`
-`Last week, you went to a community care appointment for your dermatologist. VA referred you here because the local facility doesn’t have a dermatology department. Now you’d like to file for travel pay for your appointment.`   
+> [!IMPORTANT]
+> Moderator paste the prototype link: https://www.figma.com/proto/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?page-id=16385%3A16515&node-id=16385-16517&viewport=262%2C-845%2C1.53&t=0iNBoVtOYsUrdtrD-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=16385%3A16517&show-proto-sidebar=1&hotspot-hints=0 
 
-`In the chat, you’ll find a link to the prototype. It’s going to open on the VA.gov homepage. We’ll pretend that your name is Jordan, and you’re already logged in. Show me where you would click to file a travel claim for your recent appointment.` 
+`In the chat, you’ll find a link to the prototype. Please click that link.`
 
-`Remember to think out loud as you go and tell me what you’re looking for or thinking about.`
+Once they say the link is open: 
+
+`Now I'm going to ask you to share your screen on Zoom so that we can look at the page together. When you do that, we'll be able to see any information on the screen, so you might want to silence text or other notifications.`
+
+> [!NOTE]
+> If the participant struggles to screenshare, provide them with guidance. Reference the [Zoom screensharing support article](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060596).
+
+`Here’s the scenario I’d like you to imagine: On March 31, you went to a community care appointment for your dermatologist. VA referred you here because the local facility doesn’t have a dermatology department.` 
+
+`Now you’d like to file for travel pay for your appointment. We’ll pretend that your name is Jordan, and you’re already logged in. Show me where you would click to file a travel claim for your recent appointment. Remember to think out loud as you go and tell me what you’re looking for or thinking about.`
 
 > [!NOTE]
 > ### Things to watch for:
@@ -182,13 +196,17 @@ _Note for moderator: Remind participant to talk aloud, but only ask follow up qu
 
 _After participant reviews page_
 
-`Moderator: Now let’s say you reviewed the list, but you didn’t see your dermatology appointment.'   
+`Moderator: Now let’s say you reviewed the list, but you didn’t see your dermatology appointment.` 
 
 1. What would you click on or do next?
 2. What do you expect to happen after you click on that?
 
+_If participant does not find the link on the page, prompt them to scroll further. If they still do not find the link, point it out to them and ask:_
+1. As you looked for a way to start your claim, was there specific language or a visual indicator you were looking for?
+2. Do you have thoughts on how this could stand out more?
+
 ### Claims list page   
-`Moderator: Let’s take a pause for just a moment before you click on anything else. Tell me about this page.`   
+`Moderator: Let’s take a pause for just a moment before you click on anything else. Tell me about this page.` 
 
 1. What do you see here that might help you with your task?
 2. What would you click on or do next?   
@@ -197,15 +215,21 @@ _After participant reviews page_
 - If participant decides to then click “Go to BTSSS website,” explain that they can now file on VA.gov, and ask where they would expect to do this.   
 4. What do you expect to happen after you click on that?
 
+_If participant does not find the link on the page, prompt them to scroll further. If they still do not find the link, point it out to them and ask:_
+1. As you looked for a way to start your claim, was there specific language or a visual indicator you were looking for?
+2. Do you have thoughts on how this could stand out more?
+
 `Moderator: Okay, go ahead and continue your task.`   
 
 > [!NOTE]
 > #### Things to watch for:
 > - 1. What do they notice first on the page? 
-> - a. If it’s the past appointments page, are they able to locate the link at the bottom of the page?
-> - b. If it’s the travel claims list page, do they notice the link to past appointments first or the link to file a claim first?
-> - Are they able to navigate through all the text at the top of the page to find the text that’s relevant to them?
-> - If they choose to create a claim first rather than view past appointments, what is their reasoning?
+>   - a. If it’s the past appointments page:
+>     - Are they able to locate the link at the bottom of the page? 
+>     - If they choose to create a claim first rather than view past appointments, what is their reasoning? 
+>   - b. If it’s the travel claims list page:
+>     - Do they notice the link to past appointments first or the link to file a claim first?
+>     - Are they able to navigate through all the text at the top of the page to find the text that’s relevant to them?
 > - 2. Do they read instructional text aloud, ignore it, or paraphrase?
 
 ### Intro page   
@@ -213,7 +237,7 @@ _After participant reviews page_
 
 1. What is the page telling you?
 2. Based on what you’re reading, does it seem like this is the correct path for your scenario?
-3. _If the user does not notice the alert, prompt them_ I see an alert at the top of this page. Can you tell me more about that information?
+3. _If the user does not notice the alert, prompt them:_ I see an alert at the top of this page. Can you tell me more about that information?
 4. Is there anything here that gives you pause or makes you uncertain?
 5. What do you think you need to do next?
 
@@ -224,16 +248,26 @@ _After participant reviews page_
 > - 3. Do they express any concern about this process?
 > - 4. Do they seem to understand that this is for a specific scenario of missing appointments?
 
+### Facility selection
+`Moderator: In our scenario, you went to Puget Sound Dermatology. What would you do next?`
+
+1. What would you do if you couldn’t find your facility in this list?
+
+`Moderator: Because this is a prototype, you won’t be able to actually search, so the fields will be prepopulated when you click on them. But it helps us if you speak out loud and pretend to fill out this form as you would normally.`
+
+> [!NOTE]
+> #### Things to watch for:
+> - 1. Do they read any of the intro text/helper text about contacting a travel clerk?
+> - 2. What do they say they would search for?
+> - 3. When they land on the page, do they think that a search as already occurred?
+
 ### Appointment information page
-`Moderator: Go ahead and take some time to observe this page. Because this is a prototype, you won’t be able to actually input anything, so the fields will be prepopulated when you click on them. But it helps us if you speak out loud and pretend to fill out this form as you would normally.`   
+`Moderator: Go ahead and take some time to observe this page. Again, you won’t be able to actually input anything, but you can click and speak out loud as you go.`   
 
 #### Page sections   
-**Facility selection**   
-* What would you do if you couldn’t find your facility in this list?
 
-**Appointment type**   
-* What do these “types” listed here mean to you?
-* Do you know which kind you would choose?   
+**Appointment date/time:**  
+_Notice if users refer to timezone text_
 
 **Appointment name:**
 * What would you put in this field?
@@ -245,22 +279,20 @@ _After participant reviews page_
 * What do you think will happen once you continue?
 * What do you think would happen if you left or went back a step? Would your information here be saved?   
 
-_If earlier in the session, they indicated that they have filed for travel pay on community care appointment_
-`You mentioned that you have filed for community care before. How do you typically recall or keep track of your community care appointment information when filing for travel pay?`
+_If earlier in the session, they indicated that they have filed for travel pay on community care appointment:_ You mentioned that you have filed for community care before. How do you typically recall or keep track of your community care appointment information when filing for travel pay?`
 
 > [!NOTE]
 > #### Things to watch for:
-> - 1. Do they read any of the intro text/helper text about contacting a travel clerk?
-> - 2. Do they notice that the time selector has AM/PM, but no question about timezone?
-> - 3. Is the hint text helpful or do participants still express confusion?
+> - 1. Do they notice that the time selector has AM/PM and the information timezones?
+> - 2. Is the hint text helpful or do participants still express confusion?
 
 ### Appointment confirmation page
 `Moderator: Take a look at this page. What do you see here?`   
 1. What is this page asking you to do?
-2. _If the user does not notice the info box, prompt them_ What is that message at the top telling you? Do you have any thoughts about that?
+2. _If the user does not notice the info box, prompt them:_ What is that message at the top telling you? Do you have any thoughts about that?
 3. What do you think the “edit” button does?
-4. What do you expect to happen after you continue?
-5. What do you think will happen to your information if you left this page?
+4. What do you think will happen to your information if you left this page?
+5. What do you expect to happen after you continue?
 
 `Moderator: Now I’d like to pause again for a minute and imagine a new scenario. Let’s pretend that this dermatology appointment was actually in VA’s system already, but you were in a hurry and just missed seeing it. So the appointment is there, but you just didn’t notice it.`   
 
@@ -302,13 +334,13 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 > - 4. Do they interact with or notice  the “more info” component?
 
 ### Expense selection   
-`Moderator: In this scenario, you just drove there and back from your home address. How would you continue to file a travel reimbursement claim from this page?`   
+`Moderator: In this scenario, you just drove there and back from your home address and didn't have any other expenses. How would you continue to file a travel reimbursement claim from this page?`   
 
 _Participant selects mileage_   
 
 1. What do you expect to happen next?   
 
-`Moderator: Go ahead and continue.'   
+`Moderator: Go ahead and continue.` 
 
 > [!NOTE]
 > #### Things to watch for:
@@ -327,13 +359,17 @@ _Participant selects mileage_
 `Moderator: Take a look at this page. What do you see here?`   
 
 1. What do you think you need to do next?
-2. What would you do if the appointment information looked incorrect or you noticed something that you need to change?
-3. If you hit the “Sign the agreement” button, what do you expect will happen?   
+2. _If users don't open accordions, prompt_: How would you be sure you had entered all the information correctly?
+3. What would you do if the appointment information looked incorrect or you noticed something that you need to change?
+4. Let's say that all your information looks right. If you hit the “Sign the agreement” button, what do you expect will happen?   
 
 > [!NOTE]
 > #### Things to watch for:
-> - 1. Does the user recognize the proof of attendance file as something they previously added?
+> - 1. Does the user recognize the proof of care received file as something they previously added?
 > - 2. Does the user expect to be able to edit the appointment information as they would any of the other information section on this page?
+
+### Agreement page
+1. What do you think you need to do next?
 
 ### Confirmation page    
 `Moderator: Now take a look at this page.`   
@@ -341,9 +377,9 @@ _Participant selects mileage_
 1. What is happening here? What does this page tell you?
 2. Does this page show you what you expect to see?
 3. Have you submitted your claim or is there more you need to do?
-4. _If the user does not notice the alert, prompt them:_I see an alert at the top. Is there anything you notice about it?
+4. _If the user does not notice the alert, prompt them:_ I see an alert at the top. Is there anything you notice about it?
 5. Looking at this page, did you create an appointment, file a claim, or both?
-6. If you came back in a few days and wanted to track the status of your submission, where would you go to find it? _If time:_ Let’s go back to the home page and you can show us where you’d click.
+6. If you came back to VA.gov in a few days and wanted to track the status of your submission, where would you go to find it? _If time:_ Let’s go back to the home page and you can show us where you’d click.
 
 > [!IMPORTANT]
 > At this point the notetaker should un-hide the Figma frame "Card - NEW CLAIM" in the [list of past appointments](https://www.figma.com/design/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?node-id=16716-68410&t=4KLjXq8vP7HWRweg-1) so that it is visible to the participant when they navigate back to past appointments.
@@ -372,7 +408,7 @@ _If the user does not notice the note, prompt them with:_
 
 
 ## Section 4: Alternate entry-point evaluation (5-10 minutes)   
-`Moderator: Thank you so much for walking through that with me! Now that you’ve filed through one path, let’s take a look at another way we could file. We’re going to go back to the VA.gov homepage so we can explore another path. Click at the top of the screen, and we'll go back to VA.gov. Now scroll down a little and click on Manage and file travel reimbursement claims.` 
+`Moderator: Thank you so much for walking through that with me! Now that you’ve filed through one path, let’s take a look at another way we could file. We’re going to go back to the VA.gov homepage so we can explore another path. Click at the top of the screen, and we'll go back to VA.gov. Now scroll down a little and click on file and manage travel reimbursement claims.` 
 
 _Instruct user to click on the option they did not start from last time, either "Go to your past appointments" or "Review your travel reimbursement claims"_
 
@@ -390,12 +426,24 @@ _Instruct user to click on the option they did not start from last time, either 
 > - 2. What reasoning do they provide for a preference?
 
 ## Section 4A: Comparative entry point assessment (Optional, if time permits, 5-10 minutes)   
-`Moderator: Now that you’ve seen both pages, I’d like to show them to you side-by-side. Take a moment to look at both pages again.`   
+`Moderator: Now that you’ve seen both pages, I’d like to show them to you back-to-back. Recall that you want to file a claim for your dermatology appointment, which doesn't appear in your list of past appointments. I'd like to know which page seems most helpful as you try to accomplish that task.` 
+
+_Moderator takes over screenshare and shares either "Go to your past appointments" or "Review your travel reimbursement claims". Alternate the order between participants and note which page was shown first, to account for recency bias when synthesizing data._
+
+`First, let's look at [either "Go to your past appointments" or "Review your travel reimbursement claims"].` 
 
 1. What stands out to you? What do you notice?
-2. Which page makes it clearer that you can file for an appointment that isn’t on your list?
-3. If you could only pick one version, which one would you pick? Why would you pick that one?
-4. Is there anything you’d change about the entry point on either page?  
+
+_Moderator switches to the other page._
+
+1. What stands out to you? What do you notice?
+
+`Now consider both pages. We can go back and forth between them, if you like.` 
+
+1. Which page makes it clearer that you can file for an appointment that isn’t on your list?
+2. If you could only pick one version, which one would you pick?
+   - Why would you pick that one?
+3. Is there anything you’d change about how you'd start the process of filing for your dermatology appointment, on either page?  
 
 > [!NOTE]
 > ### Things to watch for:

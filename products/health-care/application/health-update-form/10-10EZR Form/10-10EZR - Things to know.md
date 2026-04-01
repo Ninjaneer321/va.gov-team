@@ -6,10 +6,15 @@ This document contains tidbits, odds & ends, and information about the 10-10EZ f
 - EE/E&E = Eligibility and Enrollment
 - HEC = Heathcare Enrollment Services
 - HCA - Health Care Application (AKA 10-10EZ)
+- VAP - VA Profile
 - VOA - Veteran Online Application (AKA 10-10EZ)
 - VistA - Legacy health record source, in process of deprecating - Enrollment Systen will be the main source of data
 
 Systems used by Application Processing teams
+- VAP - VA Profile
+     - Used as the source of veteran military service and history
+     - It is considered the defintive source of truth for service history informtion
+     - As of the time of writing, 1010EZR is READ ONLY and does not update service history records on VAP
 - VES - VHA Enrollment System
      - System primarily used by HEC staff to input and review Veteran information related to health care eligibility and enrollment
      - Most data from the online 10-10EZ and 10-10EZR is populated in VES upon successful submission

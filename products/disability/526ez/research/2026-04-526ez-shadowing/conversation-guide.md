@@ -12,7 +12,7 @@ research_phase: "usability"
 research_method: "moderated_usability_test"
 
 # Session details
-session_duration: "120 minutes"
+session_duration: "90 minutes"
 session_type: "remote_moderated"
 participant_criteria: "Veterans preparing to apply for or actively applying for disability benefits; must have real claim information available; comfortable with screen-sharing and video recording"
 
@@ -93,10 +93,10 @@ participant_compensation: true
 Thanks for joining us today! My name is [NAME] and [NOTETAKER NAME] is taking notes. We’re a [ROLE] and [ROLE] with VA. I also have a couple of other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them, I have a few things I want to go over with you:
 
 - Today we will be observing you while you apply for disability benefits using the online form. We've asked people to allow us to observe them fill out the form with real claim information because it gives us a better view into potential difficulties with the form.
-- This session is scheduled to last for up to two hours. Our time together will include some opening/closing questions, with a majority of the time dedicated to your filling out the form.
+- This session is scheduled to last for up to ninety minutes. Our time together will include some opening/closing questions, with a majority of the time dedicated to your filling out the form. It's possible that we may not get through the whole form in that time, but my hope is that we do with time to spare.
 - We are researchers, not experts on filling out claims. While we welcome your questions, we may not be able to answer them for you. 
 - In this session, we want to hear your honest opinions. There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
-- Your participation in this interview is completely voluntary. You do not have to participate if you don't want to. If you choose to leave the session, it  will not affect your benefits with VA in any way. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Please let me know.
+- Your participation in this interview is completely voluntary. You do not have to participate if you don't want to. If you choose to leave the session, it  will not affect your benefits with VA in any way, and you can save your application in progress. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Please let me know.
 - We will take a planned five minute break at the halfway point in case either of us needs to stretch or use the restroom or get some water. We can extend that break if either of us needs more time.
   
 That was a lot of information. Can I answer any questions you may have before proceeding?

@@ -2,7 +2,7 @@
 title: "Conversation Guide for MHV Medical Records Recency Indicators Usability Study, March 2026"
 author: Laura Willwerth, MHV on VA.gov Team
 date_created: "2026-03-23"
-last_modified: "2026-03-23"
+last_modified: "2026-04-01"
 
 # Core research metadata
 team: "Digital Health Modernization - MHV on VA.gov"
@@ -27,7 +27,9 @@ tags:
   - "recency-indicators"
   - "notifications"
   - "health-records"
-description: "Usability study testing recency indicators and notification features in MHV medical records to help Veterans identify new health information."
+  - "filter-usability"
+  - "accessibility"
+description: "Usability study testing recency indicators, landing page cards, list page badges, and accordion date filter in MHV medical records to help Veterans identify new and historical health information."
 
 # Compliance flags
 recording_required: true
@@ -92,7 +94,7 @@ Before we start, I have a few things that I want to go over with you:
 
 ---
 
-## Warm-Up (6-8 min)
+## Warm-Up (~10 min)
 
 ### Current Use
 
@@ -113,13 +115,13 @@ Before we start, I have a few things that I want to go over with you:
 
 ### Mental Model Probes
 
-- If you were organizing your medical records at home—like in a filing cabinet—**how would you organize them?** What folders would you make?
+- If you were organizing your medical records at home, like in a filing cabinet, how would you organize them?
+  - What folders would you make?
+  - What labels would you use for the different folders?
+  - What types of records would be in the different folders?
 
-- Let's say you have records from an appointment where you got bloodwork done and talked to the doctor. **Would you expect those to be together or separate?** Why?
-
-### Access Patterns
-
-- **How do you usually access your records?** Through email links when you get a notification? Or do you log in and browse?
+- Let's say you have records from an appointment where you got bloodwork done and talked to the doctor. So you have a record with your blood work result, and a different record with the description of your visit with your doctor.
+  - Would you expect those to be together or separate? Why?
 
 ---
 
@@ -158,83 +160,11 @@ Like I said before, this is not an actual website, it is a prototype. But it wil
 
 ---
 
-## Task 1: Cold Entry - Email to List (10-12 min)
-
-### Scenario & Expectations
-
-**Give scenario:**
-> "Imagine that you got an email that says 'You have a new care note from your recent appointment with Dr. Johnson.'"
-
-**BEFORE they start navigating the prototype, ask:**
-
-- **Where do you expect that email link to take you?** What will you see?
-- **When you get there, how would you know which one is the new note?** What would help you identify it?
-
----
-
-### Navigate Through Prototype
-
-> "Okay, let's say you clicked that email link. Go ahead and click the prototype link and navigate through the prototype as if you're trying to find that new care note."
-
-**[User navigates: clicks link → login screen → signs in → lands on Care Summaries & Notes list]**
-
----
-
-**Observe:**
-- How does the user interpret the badge indicators?
-- What do they look at first?
-
----
-
-### Follow-Up Questions
-
-**Once on Care Summaries & Notes page:**
-
-**Describe what you see:**
-- Describe what you see now. What do you think you can do from here? 
-- How does it compare to what you expect to find here?
-
----
-
-**[If participant struggles for >60-90 seconds]**
-
-> "I can see you're looking carefully. Do you see anything on this page that shows which note is new?"
-
-**[If they still struggle or say no:]**
-
-> "There's a 'RECENT' badge next to the newest note. Do you see it now?"
-
-**[Then ask:]**
-- "What made that hard to spot initially?"
-- "If you were scanning quickly, would you notice that badge?"
-
----
-
-**Reality check:**
-- Now that you've navigated through this, was it what you expected?
-- Did anything surprise you about where you landed or what you saw?
-
-**Findability:**
-- What helped you identify the new note?
-- What does the RECENT badge tell you?
-- Is "RECENT" clearer than "NEW" would be? Why or why not?
-- Was anything confusing or unclear?
-
-**Time window probe:**
-- "How long should something be marked 'recent'—7 days? 14 days? 30 days?"
-- Why that time frame?
-- "If the badge disappeared after 14 days, would that be okay or confusing? Why?"
-
-**Recency mental model:**
-- "When you think about 'new' or 'recent' medical records, what comes to mind? Is it about time? About you seeing it? About the appointment?"
-
----
-
-## Task 2: Warm Entry - Landing Page to List (12-15 min)
+## Task 1: Warm Entry - Landing Page to List (12-15 min)
 
 ### Scenario
 
-> "Now imagine a different scenario. You're already signed into VA.gov and you recall that you might have some new test results to check."
+> "Now imagine a scenario. You're already signed into VA.gov and you recall that you might have some new test results to check."
 >
 > "Go ahead and navigate to the Medical Records section in the prototype."
 
@@ -291,16 +221,20 @@ Like I said before, this is not an actual website, it is a prototype. But it wil
 
 **Once on the list:**
 
-**Expectations:**
-- Now you're looking at this list of labs. Is this what you expected to see?
-- Does the way these are organized make sense to you?
+**Describe what you see:**
+- Tell me what you see.
+- [After they describe:] How does this compare to what you expected?
+
+**Organization:**
+- Walk me through how these are organized. Does the organization make sense to you?
 
 **Context transfer:**
 - The landing page said "You have 2 new results." Does what you see here match that?
 
 **Badge clarity:**
 - What does the 'RECENT' label tell you?
-- Is 'RECENT' clearer than 'NEW' would be? Why?
+- If you were labeling this badge, what would you call it?
+  - [Only if they don't suggest alternatives:] Would you call it something different, like 'NEW' or something else?
 - Does the label + date give you enough information?
 - Would you want to see how long it will stay marked as 'recent'?
 
@@ -308,9 +242,15 @@ Like I said before, this is not an actual website, it is a prototype. But it wil
 - Thinking back to the landing page, were those cards helpful for knowing where to go?
 - Was the count ("2 new results") useful?
 
+**Recency mental model:**
+- "When you think about 'new' or 'recent' medical records, what comes to mind?"
+  - [Probe if needed:] Is it more about how much time has passed since it was added?
+  - [Probe if needed:] Or is it more about whether you've seen it yet?
+  - [Probe if needed:] Or is it tied to when the appointment happened?
+
 ---
 
-## Task 2.5: Understanding "Recent Results" Section (5-7 min)
+## Task 1.5: Understanding "Recent Results" Section (5-7 min)
 
 **Transition:**
 
@@ -320,7 +260,19 @@ Like I said before, this is not an actual website, it is a prototype. But it wil
 
 ---
 
-### Partial Coverage Understanding
+### Card Structure & Partial Coverage Understanding
+
+**Ask:**
+
+- When you were on this page earlier, what did you pay attention to?
+  [Listen for whether they mention the structure unprompted]
+- Thinking back to the landing page, how did you decide where to click?
+- What information on those cards helped you make that decision?
+  [Probe:] The card said "2 new results." What did that tell you?
+- How did you use that information?
+- What do you think should go into the 'Recent Results' section at the top?
+
+---
 
 **Point out the structure:**
 
@@ -329,8 +281,6 @@ Like I said before, this is not an actual website, it is a prototype. But it wil
 > "Then below that, there are all the categories, including Labs and Care Notes again, plus Vaccines, Allergies, Health Conditions, and Vitals."
 
 ---
-
-**Ask:**
 
 **Notice the structure:**
 - Did you notice this when you were looking at the page before?
@@ -353,12 +303,14 @@ Like I said before, this is not an actual website, it is a prototype. But it wil
 
 **Trust & confidence:**
 
-- Does having ONLY some categories in "Recent Results" make you **more or less confident** that you're seeing everything you need?
+- How confident are you that you're seeing everything you need when you look at this "Recent Results" section?
+  - [If low confidence:] What would make you more confident?
+  - [If high confidence:] What makes you feel confident about this?
 - What would help you understand why only certain categories show up in that top section?
 
 ---
 
-## Task 3: Time Window Exploration (5 min)
+## Task 2: Time Window Exploration (5 min)
 
 **Transition:**
 
@@ -377,6 +329,7 @@ Like I said before, this is not an actual website, it is a prototype. But it wil
 **Auto-expiration:**
 - After 7 days (or 14, or 30), the "RECENT" badge would automatically disappear. What would you expect to happen when that badge goes away?
 - Would you wonder where the record went? Or understand it's still there, just not marked as recent anymore?
+- If the badge disappeared after 14 days, would that be okay or confusing? Why?
 
 **Trade-offs:**
 - If you check weekly, which timeframe works better—7 days or 14 days?
@@ -384,7 +337,89 @@ Like I said before, this is not an actual website, it is a prototype. But it wil
 
 ---
 
-## Wrap-Up (6-8 min)
+## Task 3: Finding a Specific Past Result (7-10 min)
+
+**Transition:**
+> "Now I want to shift gears a little. Instead of looking for something new, let's think about finding something from a while ago."
+
+### Mental Model Questions
+
+- "When you're looking at a long list of things online — like emails, bank transactions, or search results — and you need to find something specific from a while ago, what do you usually do?"
+  - [Listen for: scroll, search, filter, give up, call someone]
+
+- "What about scrolling through pages? If there are multiple pages of results, how do you feel about clicking through pages to find something?"
+  - [Probe if needed:] "At what point does scrolling or paging through feel like too much work?"
+
+- "Some websites let you narrow down a list — like by date or category. Is that something you typically look for? Or do you tend to just scroll?"
+  - [Probe if needed:] "Can you think of a time when a filter really helped you? Or a time when it didn't work the way you expected?"
+
+- "Now thinking about your VA medical records specifically — if you needed to find a result from about a year ago, how would you expect to get to it?"
+  - [Listen for: scroll back, filter by date, search by name, call the VA, give up]
+
+Great, let's try that. I have a scenario for you.
+
+### Scenario
+
+> "Imagine that next month, it will have been a year since your last annual physical. At that physical, your doctor told you your cholesterol was elevated. You have your annual physical coming up and you want to look at last year's cholesterol result so you know what to ask your doctor about this time."
+>
+> "Can you show me how you would find that cholesterol lab result?"
+
+**Observe (do not prompt — let them work):**
+- What's their first instinct? (Scroll? Search? Look for filter?)
+- How long before they discover the filter control?
+- Do they understand the accordion interaction (click to expand)?
+- Can they identify the correct date range option?
+- Do they successfully apply the filter?
+- Do they find the cholesterol result after filtering?
+- Any moments of hesitation, confusion, or misclicks?
+
+**If stuck after 90 seconds:**
+> "I notice there's a way to narrow down what you're seeing on this page. Take a look around and see if anything helps."
+
+**If still stuck after another 60 seconds:**
+> "There's a filter option on this page. Can you try using that?"
+
+### After Task Completion
+
+**After task completion (or assisted completion), ask 2-3:**
+
+1. **Process recall:**
+   - "Walk me through what you just did."
+
+2. **Experience check:**
+   - "How was that for you?"
+   - [If they give a short answer like "fine":]
+     - "Tell me more about that."
+     - OR: "What made it [their word — fine/easy/hard/confusing]?"
+
+3. **Interaction specifics (only if they used the filter):**
+   - "You used [describe what THEY did in their words] to get there. What was that like?"
+   - [If they don't mention the accordion/sections specifically and you need signal:]
+     - "What did you notice about how the options were organized?"
+
+4. **Expectations (open-ended):**
+   - "Was there anything you expected to find that wasn't there?"
+   - OR: "Was there a point where you weren't sure what to do next?"
+
+5. **Future behavior (neutral):**
+   - "If you needed to find an old result again, how would you go about it?"
+   - [Don't name the filter. See if they mention it on their own.]
+   - [If they DON'T mention the filter:] "Why that approach?"
+
+6. **Only if they struggled and you assisted:**
+   - "What were you looking for when you were trying to find that result?"
+   - "What would have helped you get there sooner?"
+
+### Success Criteria
+
+- User locates cholesterol result (with or without assistance)
+- If assisted: note what level of prompting was needed
+- Accordion interaction is completable (opens, selects, applies)
+- No critical barriers (can't open, can't select, can't apply, can't reset)
+
+---
+
+## Wrap-Up (5 minutes)
 
 **Open reflection:**
 - Thinking about what you saw today, what stood out to you? Anything that felt easy or unclear?
@@ -433,11 +468,11 @@ If the participant becomes distressed or there's a technical issue:
 | Section | Time | Running Total |
 |---------|------|---------------|
 | Intro | 5 min | 5 min |
-| Warm-up | 6-8 min | 11-13 min |
-| Prototype setup | 2 min | 13-15 min |
-| Task 1: Cold entry | 10-12 min | 23-27 min |
-| Task 2: Warm entry | 12-15 min | 35-42 min |
-| Task 2.5: Partial coverage | 5-7 min | 40-49 min |
-| Task 3: Time window | 5 min | 45-54 min |
-| Wrap-up | 6-8 min | 51-62 min |
-| **Total** | **51-62 min** | ✅ |
+| Warm-up | ~10 min | 15 min |
+| Prototype setup | 2 min | 17 min |
+| Task 1: Warm entry - Landing to List | 12-15 min | 29-32 min |
+| Task 1.5: Recent Results section | 5-7 min | 34-39 min |
+| Task 2: Time window | 5 min | 39-44 min |
+| Task 3: Finding past result (filter) | 7-10 min | 46-54 min |
+| Wrap-up | 5 min | 51-59 min |
+| **Total** | **51-59 min** | ✅ |

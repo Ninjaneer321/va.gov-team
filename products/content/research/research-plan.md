@@ -2,7 +2,7 @@
 # Research Plan Metadata
 title: "Research plan for Content & IA Team, Choosing a Decision Review Option Page, March /April 2026"
 date: 2026-03-24
-last_updated: 2026-03-25
+last_updated: 2026-03-27
 team: Content & IA
 product: Choosing a decision review option
 
@@ -17,8 +17,8 @@ background:
 # Research Design
 methodology: Moderated usability testing
 research_format: 
-  location: remote # remote
-  moderated: true # true
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
@@ -68,19 +68,19 @@ recruitment:
     
   screener_questions:
     - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - qualifying_response: "[Expected answer]"
       
 participants:
   veterans: 10
   caregivers: 0
   dependents: 0
   total_recruited: 0
-  completed_sessions_goal: 0
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
   pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
+  pilot_participant: "TBD"
   research_dates: "YYYY-MM-DD to YYYY-MM-DD"
   research_review_submission: "YYYY-MM-DD"
   
@@ -107,13 +107,15 @@ veteran_journey_phases:
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2022-11-Decision-Reviews/research-findings.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Decision-Reviews"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
 ---
 
 # Research plan for Content & IA Team, Choosing a Decision Review Option Page, March /April 2026
@@ -123,15 +125,17 @@ tags:
 	
 `What problem is your product trying to solve?`
 
-**[Enter answer here]**
+The VA provides veterans with three options if they disagree with a benefits decision:
+	• Supplemental Claim • Higher-Level Review • Board Appeal.
+User feedback suggests confusion about when to choose each option, which may lead to incorrect submissions, delays, or frustration.
   
 `Where is your product situated on VA.gov? (ex: auth vs. unauth)`
 
-**[Enter answer here]**
+Unauthenticated
   
 `What is Veterans’ familiarity with this tool? Is this a new product or an iteration on an existing one?`
 
-**[Enter answer here]**
+**[New product or iteration?]**
 
 `Product Brief`
 
@@ -143,37 +147,21 @@ tags:
 
 <details><summary>What research has been done on this product or similar products in the past?</summary>
 
-`Link to relevant past research studies that inform this work. This helps build institutional knowledge and prevents duplicate efforts.`
-
-> [!TIP]
-> **Use the [Past Research Analysis Copilot Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-discovery/past-research-analysis-for-new-research-plan-prompt.md) to automatically find relevant research!**
->
-> 1. Draft and commit your research plan
-> 2. Open GitHub Copilot for your research plan. Click the Copilot icon on your file toolbar.
-> 3. Copy and paste the prompt from the link above
-> 4. Review the suggested studies and add the most relevant ones below
-
 **Previous Studies:**
-- [Link to Study 1 - Brief description, Date](url goes here)
-- [Link to Study 2 - Brief description, Date](url goes here)
-- [Link to Study 3 - Brief description, Date](url goes here)
+- [Decision Review Options, January 2023](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2022-11-Decision-Reviews/research-findings.md)
 
 **Key Takeaways from Previous Research:**
-- `[Major finding or insight that informs this study]`
-- `[Major finding or insight that informs this study]`
-- `[Major finding or insight that informs this study]`
-
-> [!NOTE]
-> If this is the first research study for this product, you can note that here. You may also want to reference research from similar products or features that could provide relevant insights.
-
-</details>
+- `Veterans struggle most with knowing what evidence they need and how to gather it.`
+- `This uncertainty drives many to seek help from VSOs or lawyers.`
+- `The Decision Review Options page provides mixed clarity and confidence for Veterans.`
+- `Veterans like the idea of connecting with a VSO directly through VA.gov.`
+- `VSOs are often crucial to achieving a satisfactory claim outcome.`
+- `However, VSO quality varies, and a poor VSO experience can be harmful.`
+- `Veterans imagine an ideal “assisted self‑service” model: doing the process themselves on VA.gov with easy access to VSO help when needed.`
 
 ### [OCTO-DE Priorities](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/strategy/OCTO%20FY26%20goals%20supported.md) 
 
 <details><summary>Which OCTO priorities does this research support? Work with your VA lead and product manager as needed. </summary>
-
-> **NOTE:** If a Key Result does not have a ***Research Ops Plain Language*** equivalent, it does not map to research supporting it as a key result for the parent objective.
-
 
 `Objective 1:  Optimize software delivery for Veteran impact.`  
 
@@ -184,14 +172,6 @@ tags:
 > - Key Result 1.3:** OIT has avoided at least $5 million in cost via successful decommissioning of at least 10 systems.
   - ***Research Ops Plain Language:** Supports the decommissioning of a legacy system.*
 
-`Objective 2: Operate products with high reliability and security.`
-
-> - **Key Result 2.1:** All C100 systems have an incident free time of 99.8 or better.
-> - **Key Result 2.2:** All C100 systems are monitoring the 4 “golden signals” of latency, error rate, volume, and saturation.
-> - **Key Result 2.3:** All C100 systems have baselined cycle time from planning to production, and at least one C100 system in each DSD portfolio has reduced its cycle time from planning to production by more than 50% without increasing change failure rate.
-  - ***Research Ops Plain Language:** Supports reducing this product’s cycle time from planning to production by more than 50% without increasing change failure rate.*
-> - **Key Result 2.4:** By 31 March 2026, DSD has enhanced system security by moving or decommissioning 100% of existing of Systems or Applications leveraging SiteMinder integration for SSOi to Entra ID.
-
 `Objective 3: Relentlessly improve the user experience.`
 
 > - **Key Result 3.1:** Each OIT portfolio will improve customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more.
@@ -201,25 +181,13 @@ tags:
 > - **Key Result 3.3:** 100% of C-100 systems have delivered at least one release that directly addresses a documented user pain point with that system.
   - ***Research Ops Plain Language:** Supports the delivery of at least one release that directly addresses a documented user pain point within this product.*
 
-`Objective 4: OCTO teammates are empowered with the knowledge and resources they need to make sustained impact.`
-
-> - **Key Result 4.1:** More than 25% of VA employees report AI has helped them deliver better services to Veterans.
-> - **Key Result 4.2:** All “VA Way” delivery attributes have an adoption indicator established, baselined and communicated to product delivery staff.
-> - **Key Result 4.3:** 50% of product delivery staff report that a practice group (design) has helped them deliver better software.
-
 </details>
-
-> [!TIP]
-> Delete priorities not supported by this research.
 
 ### [Veteran Journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)
 
 <details><summary>Where does your product fit into the Veteran journey?
 Are there moments that matter?</summary>
-	
-- `Joining`
-- `Serving`
-- `Getting Out`
+
 - `Starting Up`
 - `Taking Care of Myself`
 - `Reinventing Myself`
@@ -228,74 +196,69 @@ Are there moments that matter?</summary>
 - `Aging`
 - `Dying`
 
-</details>
-
-> [!TIP]
-> Delete journeys not supported by this research.
-
 ## Research Goals 🥅	
 `What are you trying to learn from this research?` 
 
-> [!NOTE]
-> Limit 3 goals per study. If you have more than 3 goals, consider how to break up your research into iterative studies.
-
 ### Goals
 
-`1.` **[Enter answer here]**
+`1.` **Identify opportunities to improve content clarity and decision guidance to support more confident decision‑making.**
 
-`2.` **[Enter answer here]**
+`2.` **Validate that Veterans can effectively use the provided content to make an informed decision.**
 
-`3.` **[Enter answer here]** 
+`3.` **Evaluate the mental models Veterans rely on when selecting a review option.** 
   
 ### Outcome
 `How will this research advance your product to the next phase in the design process? What will you do with your learnings?`
 
 ---
 
-**[Enter outcome here]** 
+This research will directly inform content and development decisions to create a more intuitive experience that is easier for Veterans to navigate. By identifying and addressing sources of confusion, the findings will make the information easier to understand, support faster and more confident selections, and reduce errors and frustration. Ultimately, this work will better align VA terminology with the real‑world language and needs Veterans bring to the process.
 
 ---
 
 ### Research questions
-> [!NOTE]
-> Do not write out all questions you plan to ask participants -- that should go in the` [conversation guide.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/conversation-guide-template.md)
 
-***Consider bucketing research questions under research goals and think about:***
-	
-`What will I do with what I learn from this question?`
-  
-`Does this question serve the goals of my study?`
+**`1.`Do Veterans understand the differences between the decision review options?**
 
-**`1.`[Enter Q1]**
+**`2.`Can Veterans determine which option applies to their situation, and how?**
 
-**`2.`[Enter Q2]**
+**`3.`Where do Veterans expect to begin when choosing the review option that’s right for them?**
 
-**`3.`[Enter Q3]**
+**`4.`What information do Veterans need to make a confident selection?**
 
-**`4.`[Enter Q4]**
-
-**`5.`[Enter Q5]**
-
-> [!TIP]
->Enter more questions as needed
+**`5.`If confusion occurs, where does it happen on this page?**
 
 ### Hypotheses
-> [!NOTE]
-> Remember to constrain the hypotheses to the goals of your study!
- 
-**Think through these prompts to develop strong hypotheses:**
-	
+
 `What do you intend to learn and measure from this study?` 
+* Whether Veterans truly experience decision overload when all three review options are presented at once.
+* How well Veterans understand the decision review options when explained in technical terms versus in everyday, scenario‑based language.
+* Whether Veterans can determine which option fits their situation without additional assistance.
+* How clearly users understand the consequences of each choice.
+* Which parts of the page contribute most to confusion and which improve understanding or confidence.
+* How guidance, wording, or layout changes might reduce confusion and improve decision‑making confidence.
 
 `What do you already know about this problem space?`
+* Veterans often think about their claim situation using simple, real‑life scenarios, not procedural terminology.
+* Many Veterans already struggle with understanding what evidence they need and how the VA processes claims.
+* The current Decision Review Options page has produced mixed clarity and confidence in past research.
+* Veterans frequently seek help from VSOs because they don't feel confident choosing an option alone.
+* Complex information without clear explanations tends to increase cognitive load and overwhelm.
  
 `What do you think users will do or think about this product? (Identifying our assumptions helps us be aware of biases we may unintentionally bring into the study, so don’t skip this step!)`
+* Veterans will feel overwhelmed when seeing three options at once without clear direction.
+* Veterans may skim or skip technical language because it feels unfamiliar or complicated.
+* Veterans will try to map their real‑life situation to the options but may struggle to make a match based on the page’s current wording.
+* Veterans might feel unsure or anxious about the consequences of choosing “wrong,” especially regarding timelines or future flexibility.
+* Some Veterans may hesitate to proceed or may want to contact a VSO instead of choosing an option themselves.
   
 `Write a generalized statement that combines what you know + what you think will happen during the study.`
-
+* Based on what we already know, Veterans often think in simple, scenario‑based terms and feel uncertain when faced with technical descriptions of the decision review process. We expect that when presented with all three options at once, without clear guidance or explanation of consequences, users will experience decision overload, struggle to map their situation to the available choices, and may feel hesitant or lack confidence in choosing an option on their own.
 ---
 
-**[Enter hypotheses here]** 
+**Hypotheses** 
+
+We hypothesize that Veterans experience decision overload because all three complex options are presented at once without clear guidance on how to choose. Also, we hypothesize that Veterans may struggle because the consequences of each decision are unclear, including how long the option takes, what outcomes are possible, and whether they can switch options later.
 
 ---
   
@@ -305,9 +268,6 @@ Are there moments that matter?</summary>
 <details><summary>Examples of common research methods include</summary> 
 	
 - `Semi-structured interviews - appropriate for generative research`
-- `Contextual inquiry - appropriate for generative research`
-- `Card sorts - appropriate for generative and evaluative research; depending on the study design` 
-- `Tree tests - appropriate for evaluative research`
 - `Usability testing - appropriate for evaluative research`
 - `User acceptance testing (UAT) - required before product release`
 
@@ -327,97 +287,59 @@ Are there moments that matter?</summary>
 </details>
 
 ### Location
-Where will you be holding the research sessions? Be sure to include whether this is remote or in-person research. [Learn more about setting up in-person research.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/planning-in-person-research.md)
 
-> [!TIP]
-> Place [X] between brackets in edit mode to leave a checkmark in the correct box.
-
-- [ ] **Remote**
+- [x] **Remote**
 - [ ] **In-person**
-      
-> [!NOTE]
-> If in-person, include:
-
-- `Location:` **[Enter text]**
-- `Point of contact:` **[Enter text]**
-- `Equipment used for research:` **[Enter text]**
 
 ## Research materials 📔
 
-> [!NOTE]
-> **Your OCTO/VA lead must review and approve all research materials – including this plan –  prior to submitting a recruitment request.**
-
-Provide a link to any materials you need to run your study, including any materials needed for set up and recruitment.  
-
 **For moderated interviews:** 
-	
 - [Link to conversation guide](url goes here)
 
 **For moderated usability tests:** 
 - [Link to conversation guide](url goes here)
 - [Link to prototype](url goes here)
 
-**For [unmoderated testing:](https://depo-platform-documentation.scrollhelp.site/research-design/Planning-Unmoderated-Studies.1904738369.html)**
-- [Link to email with instructions](url goes here)
-- [Link to prototype or OptimalSort session for group A](url goes here)
-- [Link to prototype or OptimalSort session for group B](url goes here)
-
-
-
-**If recruiting outside of Perigean’s participant database:**
-- [Link to recruitment flyer](url goes here)
-	
 ## Recruitment 🎯	
-*OCTO works with Perigean, a small business, to handle the [recruitment](https://veteranusability.us/), scheduling, and compensation of Veterans and caregivers.*
-
-> [!NOTE]
-> Before writing your recruitment criteria, be sure to review the following resources: 
-> - [Refer to the Perigean Recruitment Guidance](https://depo-platform-documentation.scrollhelp.site/research-design/recruiting-participants) to learn how Perigean recruits, screens, and prepares participants for research. 
-> - [Refer to the inclusive recruitment strategies](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/recruitment.md) to learn how to be inclusive of underserved Veteran communities.
+We will work with Perigean to recruit participants for this study.   
 
 ### Recruitment approach
-*Who is your intended audience for this research (e.g. Veterans, caregivers, VSOs, SMEs), and how will you recruit them?* 
-- Perigean **CANNOT** recruit VA employees or VSOs. Work with your VA lead to recruit these groups. 
-- Perigean can also support remote, [unmoderated studies](https://depo-platform-documentation.scrollhelp.site/research-design/perigean-recruiting-process-for-unmoderated-studie), however, these studies require strict recruitment requirements. 
-- Which inclusive research strategies are you leveraging for this study? OCTO recommends using a lean maximum variation strategy for most studies. Read this [introduction to inclusive research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/introduction.md) and download the [recruitment checker (Excel)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx) to understand OCTO's targets for inclusivity and use it to plan your participant demographics for this study.
-
-### Recruitment criteria
-
-- **Write any recruitment criteria for experience or scenarios as screener questions with qualifying responses. Perigean will use these verbatim to recruit participants.**
-- Consider providing links to products and/or clear descriptions to ensure participants understand the question.
-  Example: Have you been to a VA urgent care facility in the last 6 months? [answer should be yes to qualify.]
-
-- The more recruitment criteria you have, the less likely that a small sample of participants will be able to meet all criteria.
-- Consider how you could leverage the [lean maximum variation sampling (MVS) approach](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/recruitment.md#lean-mvs-strategy) by breaking up criteria for your study into multiple cohorts that each isolate one primary criteria.
-- Perigean will consider each cohort as a separate recruitment effort, increasing the chances of meeting all criteria for your study. [Review an example of the multiple cohort approach.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/pre-mhv-prototype/generative-research-study-1/2020-12.research-plan1.md)
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
-> [!NOTE]
-> Your total number should equal **1.5x** your ideal completed sessions number *(e.g. for 10 ideal completed sessions, request 15 total participants)*
 
-
-- `Veterans:` **[n]**
-- `Caregivers:` **[n]**
-- `Dependents:` **[n]**
-- `Total:` **[n]**
-- `Ideal completed sessions:` **[n]**
+- `Veterans:` **10**
+- `Caregivers:` **0**
+- `Dependents:` **0**
+- `Total:` **0**
+- `Ideal completed sessions:` **10**
 
 ### Primary criteria (must-haves)
 *What demographics, experience, and scenarios do you need participants to meet to effectively run your study?* 
+We are recruiting for 15 Veterans, with a total of 10 completed sessions. 
 
-- `[Place primary criteria here between hash marks when in edit mode]`
-- `primary criteria`
-- `primary criteria`
-- **`Add more criteria as needed`**
+- `All participants must be Veterans who use VA health care`
+- `Veterans who have filed or considered filing a benefits claim: 4-6 participants total (2-3 who have filed for benefits claim, 2-3 who have not)`
+- `Veterans who have received a decision letter: 4-6 participants total`
 
 #### Secondary criteria (nice-to-haves)
 *What criteria would strengthen your results?* 
 
-- `[Place secondary criteria here between hash marks when in edit mode]`
-- `secondary criteria`
-- `secondary criteria`
-- **`Add more criteria as needed`**
-
+- `Minimum 3 are women`
+- `Minimum 3 are over 55 years of age`
+- `Minimum 3 are under 54 years of age`
+- `Minimum 3 have a cognitive impairment`
+- `Minimum 3 live in rural areas`
+- `Minimum 1 has no degree`
+- `Minimum 3 are women`
+- `Minimum 4 have a terminal HS degree`
+- `Minimum 2 have a terminal AS degree`
+- `Minimum 2 have a terminal BS degree`
+- `Minimum 1 have a terminal MS degree`
+- `Minimum 2 are Black/African American`
+- `Minimum 2 are Hispanic/Latino`
+- `Minimum 1 is Asian`
+- `Minimum 1 is Native American`
+  
 ## Screener Questions 📋
 
 > [!NOTE]
@@ -456,26 +378,25 @@ Provide a link to any materials you need to run your study, including any materi
 ### Optional Kick-off Call with Perigean
 
 - `Suggested dates and times:` **[Enter dates and times MM/DD HH:MM]**
+TBD
 
 ### Prepare
 *When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).*
 
 **A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.** 
-> [!NOTE]
-> **Send pilot participant email in study Slack channel**
 
-- `Pilot participant name:` **[Enter name]**
-- `Date and time of pilot session:` **[Enter time]** 
+- `Pilot participant name:` **TBD**
+- `Date and time of pilot session:` **TBD** 
 
 ### Research sessions
 - `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
 
 ### Length of sessions
-- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **[Enter time length]**
+- `Session length: 1 hour.
   
-- `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **[Enter buffer time]**
+- `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **30 minutes**
   
-- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **[Enter NUM per day]**
+- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **3**
 
 ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
@@ -497,19 +418,15 @@ When would you like sessions scheduled? Please list exact dates and times in **E
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
-> [!NOTE]
-> **Please do not include email addresses in this section.** We previously required email addresses. VA's GitHub policy ([see announcement](https://github.com/orgs/department-of-veterans-affairs/discussions/13)) has changed. VA.gov email addresses cannot be in public repositories.
->
-> **Please list the names of people in each role.** In the Slack study channel, send an email and primary phone number for the moderator. Also send emails for the notetaker, accessibility specialist, and observers. If you need Perigean to take notes for you, indicate that next to Notetaker.
-
-- `Moderator:` **[Enter full name]**	
-- `Research guide writing and task development (usually but not always same as moderator):` **[Enter full name]**		
-- `Participant recruiting & screening:`	**[Enter full name]**	
+- `Moderator:` **Mercedita Andrew**	
+- `Research guide writing and task development (usually but not always same as moderator):` **Mercedita Andrew**		
+- `Participant recruiting & screening:`	**Perigean**	
 - `Project point of contact:` **[Enter full name]**		
 - `Accessibility specialist (for sessions where support for assistive technology may be needed):` **[Enter full name]**	
 - `Note-takers:` **[Enter full name]** ***or*** **[Designate Perigean]**	
 - `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 5 to 6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.`
 
+**Observer names TBD; will create sign-up sheet once we have confirmed sessions**
 - **[Enter full name]**
 - **[Enter full name]**
 - **[Enter full name]**

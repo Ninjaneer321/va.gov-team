@@ -1,6 +1,6 @@
 # **Product Outline: Appoint a Representative (VA Forms 21-22 and 21-22a)**
 
-**Team**: Accredited Representation Management
+**Team**: Accredited Representative Crew 
 
 Product URL: [Request help from a VA accredited representative or VSO](https://www.va.gov/get-help-from-accredited-representative/appoint-rep)
 

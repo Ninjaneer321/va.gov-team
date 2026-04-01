@@ -134,7 +134,7 @@ Continue to check in on the KPIs of your feature at periodic intervals to ensure
 ### 1-week results
 Dates: 3/4/2026 - 3/10/2026
 
-- Estimated number of users from [GA](https://analytics.google.com/analytics/web/#/analysis/a50123418p419143770/edit/SsCbWVy-RTuuMr0XNIXugw?restoreUserState=true):
+- Estimated number of users from [GA](https://analytics.google.com/analytics/web/#/analysis/a50123418p419143770/edit/SsCbWVy-RTuuMr0XNIXugw):
 
   - Status Tab: `/track-claims/your-claims/*/status`
     - total: 222,733
@@ -165,17 +165,50 @@ Dates: 3/4/2026 - 3/10/2026
 - What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges?
   - None identified
 
-### 1-month results
+### 4-week results
+Dates: 3/4/2026 - 4/1/2026
 
-- Estimated number of users: [FILL_IN]
-- Post-launch KPI - Error Rates:
-  - #index: [FILL_IN]
-  - #show: [FILL_IN]
-  - #files-we-couldnt-receive: [FILL_IN]
-- Any issues with VA handling/processing?: [PICK_ONE]: yes | no | N/A
-- Types of errors logged: [FILL_IN]
-- Any UX changes necessary based on the logs, feedback on user challenges, or VA challenges? [PICK_ONE]: yes | no | N/A
-- If yes, what: [FILL_IN]
+- Estimated number of users from [GA](https://analytics.google.com/analytics/web/#/analysis/a50123418p419143770/edit/SsCbWVy-RTuuMr0XNIXugw):
+
+  - Status Tab: `/track-claims/your-claims/*/status`
+    - total: 626,900
+  - Files Tab: `/track-claims/your-claims/*/files`
+    - total: 291,068
+  - Files We Couldn't Receive: `/track-claims/your-claims/files-we-couldnt-receive`
+    - total: 30
+
+- Metrics at this stage (per your "success criteria"):
+  - Backend Metrics [Datadog](https://vagov.ddog-gov.com/dashboard/8me-h86-qmb/benefits-claim-status-tool-dashboard?fromUser=true&overlay=changes&refresh_mode=paused&from_ts=1772600400000&to_ts=1775060657198&live=false):
+    - No related errors logged for these endpoints (excludes 401,403 errors)
+    - #index:
+      - 4 week avg before launch: 0.336%
+      - Since start of stage: 0.348%
+    - #show:
+      - 4 week avg before launch: 1.2325%
+      - Since start of stage: 1.823%
+    - #files-we-couldnt-receive:
+      - No errors
+  - Frontend Metrics [Datadog](https://vagov.ddog-gov.com/rum/performance-monitoring?query=%40application.id%3A75bb17aa-34f0-4366-b196-eb11eda75425%20%40session.type%3Auser%20env%3Aproduction%20%40view.name%3A%28%2Ftrack-claims%2Fappeals%2F%3F%2Fstatus%20OR%20%2Ftrack-claims%2Fyour-claims%2F%3F%2Ffiles%29&agg_m=%40view.loading_time&fromUser=true&from_ts=1772600400000&to_ts=1773201599999&live=false):
+    - No performance issues (the increases in time also line up with our release of the content migration):
+      - Loading times comparable to weeks prior and still < 3s goal
+        - 2.32s across CST
+          - `track-claims/your-claims`: 2.29s (+8.06% p75)
+          - `track-claims/your-claims/{id}/status`: 3.42s (+16.77% p75)
+          - These are up significantly, however, I don't believe that it's due solely to the changes made for this effort. Below are the increases in API response time (p75) for the two endpoints (3 months prior / 2 months prior / 1 month prior / past month):
+            - index (used on `track-claims/your-claims`): 0.805s / 0.722s / 0.745s / 0.792s
+              - This endpoint has not seen a drastic increase in response time, being even lower than 3 months ago.
+            - show (used on `track-claims/your-claims/{id}/status`): 1.36s / 1.20s / 1.24s / 1.54s
+              - This endpoint has an obvious increase in the response time due to polling for in-progress evidence submissions, but it's still comparable to 3 months prior to release of doc status.
+      - LCP/FCP comparable from last stage
+        - 2.84s/1.02s across CST
+          - index: 2.12s (-3.05% p75) /1.04s
+          - show:  3.48s (+3.15% p75) / 1.10s (+1.56% p75)
+- Was any downstream service affected by the change?:
+  - No
+- Types of errors logged:
+  - Non related to new functionality
+- What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges?
+  - None identified
 
 ## Post-launch Questions
 
