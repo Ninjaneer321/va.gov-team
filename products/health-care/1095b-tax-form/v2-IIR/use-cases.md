@@ -23,9 +23,9 @@
 
 </details>
 
-<details><summary>User wasn’t enrolled in all of the previous three tax years</summary>
+<details><summary>User was enrolled in at least one month of one of the previous three tax years</summary>
 
-- **Use case:** If a user was not enrolled in VA healthcare for one or two of the previous three years they will only see cards with links to download 1095-B tax documents for the years which they were enrolled.
+- **Use case:** A user will only see cards with links to download 1095-B tax documents for the years which they were enrolled in VA healthcare.
 - **Status code:** TBD
 - **Format:** [Card component)](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/cP7JJ9ExBtn2jNax9cfinA/1095-B?node-id=1411-3054&t=kR9nLSBAt9IS7L1i-1)
