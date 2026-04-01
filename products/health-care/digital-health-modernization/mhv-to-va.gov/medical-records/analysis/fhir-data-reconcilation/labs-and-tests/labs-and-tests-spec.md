@@ -31,6 +31,9 @@ Labs and Test results feature several different types of tests/procedures/studie
 
 ## Labs and Tests List View
 [List View Figma prototype](https://www.figma.com/proto/SGP1z2LejUWqDZyT61po5J/Medical-Records---Phase-1?node-id=5523-26649&t=nAMzqpWI66fwuxxn-1)
+
+[List view Figma protype - mobile PNG](https://github.com/user-attachments/assets/26b674a0-3f1b-46fc-8714-6b53a8da3d33) (right-click & view in new tab)
+
 ## Cosmic vs. Atomic 
 
 ### Cosmic Test (VistA) / Orderable test (Oracle)
