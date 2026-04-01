@@ -13,7 +13,7 @@
 ## Common use cases
 ### User logs in with LOA3 account
 
-<details><summary>User was enrolled in VA healthcare for at least one month for the last previous three tax years and they were not a CHAMPVA</summary>
+<details><summary>User was enrolled in VA healthcare for at least one month of the previous three tax years and they were not a CHAMPVA</summary>
 
 - **Use case:** If a user was enrolled in VA healthcare for all of the previous three years for at least one month each year and they were not a CHAMPVA they will see three card components with links to download a PDF or download a Text file for the year associated with the card.
 - **Format:** [Card component)](https://design.va.gov/components/card)
