@@ -87,3 +87,17 @@ This one is partially covered generically but has a CHAMPVA-specific gap. Brando
 - If a distinct error code is returned, FE can render a CHAMPVA-specific message like: "We're unable to match your information to a CHAMPVA application. Please call us at 800-733-8387 (TTY: 711)."
 
 **Product question to flag:** Is a CHAMPVA-specific identity error message in scope for Release 1 or is the generic fallback acceptable for now?
+
+---
+
+## #6 — Data Not Yet Available
+
+Already covered — no gap for the `pending` status scenario.
+
+**BE side (Brandon):** When a CHAMPVA application is submitted but not yet processed by PEGA, the BE normalizes the status to `pending` (`Submission Received` → `pending`). This is working as expected.
+
+**FE side (Stephen):** `pending` maps to Step 1 "Application received" in the JSON config's `statusMap`, which correctly communicates to the user that their application was received and is being processed. No additional "check back later" state is needed since Step 1 already handles this gracefully.
+
+**Note on `error` status:** The `error` PEGA status (`Error`, `Failed`, `Rejected`, `Submission failed`) is a separate scenario covered under #2. The error state copy and step mapping are still unfinished — UX (Alyssa) is finalizing designs. Once confirmed, Kenny updates the JSON config and the FE copy in `claims-helpers.js` will need to be updated to match.
+
+No action needed for #6. Fully covered by the existing `pending` status flow.
