@@ -100,6 +100,10 @@ This `veteranStatus` field has the following options:
   * [March 2025: GH page created to outline problem and solution.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/direct-deposit/non-veteran-beneficiaries/README.md)  
 * [March 2026: Reconfirmed logic for direct deposit to propose updates to reduce call volume and survey feedback](https://dsva.slack.com/archives/C03P6C3FYMR/p1774468614111709)
 
+## Supporting documents
+[SSC Business Requirements.docx](https://github.com/user-attachments/files/26418474/SSC.Business.Requirements.docx)
+
+
 
 
 
