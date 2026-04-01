@@ -34,20 +34,20 @@ A comprehensive overview of the Disability Benefits Crew (DBC) can be found in [
 [intent-to-file]: intent-to-file.md
 
 ## Information on Disability Compensation Forms ℹ️
-- [21-526EZ (Application for Disability Compensation and Related Compensation Benefits)][21-526ez]
+- 21-526EZ (Application for Disability Compensation and Related Compensation Benefits)
   - This is the main disability compensation form
-- [21-0966 (Intent To File A Claim For Compensation)][intent-to-file]
+- 21-0966 (Intent To File A Claim For Compensation)
   - An intent to file is created automatically when a veteran begins their 526 form.
-- [21-4142 (Private Medical Records Release)][21-4142]
-- 21-4192 (Request for Employment Information in Connection With Claim for Disability Benefits)
-  - This form isn't implemented because it's required to be filled out by a doctor or nursing home admin
-  - See prior research for more info
-- 21-4192 (Request for Employment Info in Connection with Claim for Disability Benefits)
-- [21-781 (Statement in Support of Claim for Service Connection for PTSD)][21-781]
+- 21-4142 (Private Medical Records Release)
+   - Required to be filled out by a Veteran's employer
+- 21-0779 (Request for Nursing Home Information in Connection with Claim for Aid and Attendance)
+  - Required to be filled out by a doctor or nursing home admin
+- 21-4192 (Request for Employment Information in Connection with Claim for Disability Benefits)
+- 21-781 (Statement in Support of Claim for Service Connection for PTSD)
 - 21-781a (Statement in Support of Claim For Service Connection for PTSD Secondary to Personal Assault)
-- [21-8940 (Veteran's Application for Increased Compensation Based on Unemployability)][21-8940]
-- [21-2680 (Examination for Housebound Status or Permanent Need For Regular Aid and Attendance)][21-2680]
-- [21-4502 (Auto Allowance & Adaptive Equipment Application)][21-4502]
+- 21-8940 (Veteran's Application for Increased Compensation Based on Unemployability)
+- 21-2680 (Examination for Housebound Status or Permanent Need For Regular Aid and Attendance)
+- 21-4502 (Auto Allowance & Adaptive Equipment Application)
 
 
 # Quick links 🔗
