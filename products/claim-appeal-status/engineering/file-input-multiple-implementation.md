@@ -92,8 +92,8 @@ As a user,
     - Text: "Your submission is in progress. It can take up to 2 days for us to receive your files."
     - Link: Check the status of your submission
 1. If I submit a file that has already been successfully submitted (even with different doc type), I get an error saying that it has been submitted already
-    - Heading:
-    - Text:
+    - Heading: "You've already uploaded VA Claim Letter Mar 18 2026.pdf"
+    - Text: "It can take up to 2 days for the file to show up in your list of documents filed. Try checking back later before uploading again."
     - Note: Cannot replicate on localhost
 
 ### Data Submission
