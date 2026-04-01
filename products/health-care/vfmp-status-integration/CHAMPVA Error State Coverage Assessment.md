@@ -101,3 +101,16 @@ Already covered — no gap for the `pending` status scenario.
 **Note on `error` status:** The `error` PEGA status (`Error`, `Failed`, `Rejected`, `Submission failed`) is a separate scenario covered under #2. The error state copy and step mapping are still unfinished — UX (Alyssa) is finalizing designs. Once confirmed, Kenny updates the JSON config and the FE copy in `claims-helpers.js` will need to be updated to match.
 
 No action needed for #6. Fully covered by the existing `pending` status flow.
+
+---
+
+## #7 — Upload Errors
+
+Already covered by existing CST infrastructure, but not applicable to CHAMPVA.
+
+**BE side (Brandon):** Upload error handling exists via the `evidence_submissions` table and `uploadStatus: 'FAILED'` tracking. This is all standard CST infrastructure.
+
+**FE side (Stephen):** `UploadType2ErrorAlert`, `UploadType2ErrorAlertSlim`, `Type1UnknownUploadError`, and file size/type validation all exist and work for standard claims. However, CHAMPVA uses `simpleLayout: true` in the JSON config which suppresses the entire upload UI on the Files tab, replacing it with mail/fax instructions instead. Upload errors are therefore not reachable for CHAMPVA users — they have no upload UI to trigger them.
+
+No action needed. Upload errors are N/A for CHAMPVA in Release 1.
+
