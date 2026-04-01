@@ -1,7 +1,7 @@
 # Working with MHV Accessibility
 Different ways to connect and work with the MHV Accessibility team.
 
-Last updated: 9 Feb 2026 (Note that this is an in-progress, living document)
+Last updated: 1 Apr 2026 (Note that this is an in-progress, living document)
 
 ## Requesting accessibility team support
 
@@ -39,3 +39,6 @@ Please feel free to use any or all of the following channels to engage accessibi
 - Include the accessibility team in any standups or ceremonies that may include accessibility-related tickets.
 - Assign tickets to the “MHV - Accessibility” project.
 - Assign tickets to @sarahhortonadhoc (for UX) or @steveg-IAT (for engineering).
+
+## Related resources
+- [Accessibility Digital Experience (ADE) Team](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/ade-services.md) — provides support to Veteran-Facing Services (VFS) teams (including MHV) for product design, user research with assistive technologies, accessibility audits, and general accessibility guidance
