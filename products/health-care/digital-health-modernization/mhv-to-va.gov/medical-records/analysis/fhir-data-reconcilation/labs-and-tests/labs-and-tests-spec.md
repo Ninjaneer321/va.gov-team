@@ -46,13 +46,13 @@ Chem/hem examples with _multiple results_ are panels like CBC, Chem-7 (test for 
 
 Chem/hem examples with a _single result_: Vitamin B12, SARS-CoV-2, or hematocrit
 
-[Chem/hem panel fields to display](https://github.com/user-attachments/assets/c95e06a6-715c-4904-b94a-28bfcc40a43c) (right click and open in new tab)
+[Chem/hem cosmic fields to display](https://github.com/user-attachments/assets/c95e06a6-715c-4904-b94a-28bfcc40a43c) (right click and open in new tab)
 
 ### Atomic Test (VistA) / Discrete Task Assay (Cerner): 
 
 Each lab test may have one or more results. In FHIR, these would be represented by a Resource called Observation. Observations may be returned as a set of structured data or as an unstructured report.
 
-<img width="775" height="718" alt="image" src="https://github.com/user-attachments/assets/c2eb6c6c-4f7c-4562-a895-80e8c63b4a00" />
+[Chem/hem atomic fields to display](https://github.com/user-attachments/assets/c2eb6c6c-4f7c-4562-a895-80e8c63b4a00)
 
 
 ## Test Type: Chemistry and Hematology
