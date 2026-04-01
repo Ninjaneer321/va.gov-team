@@ -24,21 +24,22 @@ Last updated: March 2026
 
 # Overview 
 
-This initiative ensures that non-Veteran beneficiaries—such as dependents, spouses, and survivors—are informed that they are only able to view their direct deposit information on VA.gov and must call in, or submit a paper form, to update their information.
+This initiative ensures that **non-Veteran beneficiaries**—such as dependents, spouses, and survivors— and **Veterans without title 38 status or a service connected disability** are informed that they are only able to view their direct deposit information on VA.gov and must call in, or submit a paper form, to update their information.
 
-Direct deposit write access was revoked for non-Veteran beneficiaries by BGS in December 2024, and new endpoint added by Lighthouse in March 2025. The policy and technology would need to be re-evaluated and updated to allow edit features.
+Direct deposit write access was revoked for **non-Veteran beneficiaries** and **Veterans without title 38 status or a service connected disability** by BGS in December 2024. With supporting endpoints from Lighthouse being implemented in March 2025. The policy and technology would need to be re-evaluated and updated to allow edit features.
 
-As of March 2026 the calls for non-Veteran beneficiaries accounts for ~20% of all calls to direct deposit as can be seen by the [GA4 report](https://analytics.google.com/analytics/web/#/analysis/p419143770/edit/5Jm2bveUQDG4SBSAp_OrJQ).
+As of March 2026, the `veteranStatus` call returning non-Veteran users, accounts for ~20% of our API calls for direct deposit as can be seen by the [GA4 report](https://analytics.google.com/analytics/web/#/analysis/p419143770/edit/5Jm2bveUQDG4SBSAp_OrJQ).
 
 ## Purpose 
 
 * Provide overview of current read and write logic on direct deposit.  
-* Provide information on how non-Veteran beneficiaries (e.g., dependents, survivors, spouses) are determined by the system.  
+* Provide information on how non-Veteran beneficiaries (e.g., dependents, survivors, spouses) are determined by the system.
+* Provide information on how Veterans without title 38 status or a service connected disability are determined by the system.
 * Explain why online updates are not supported and how users can make changes via VA assistance.
 
 # Access to direct deposit information 
 
-Users identified as Veterans have read and write access. Users identified as non-Veteran beneficiaries have read only access.
+Users identified as Veterans have read and write access. All other user types have read only access.
 
 Lighthouse informed us the following are classified as non-Veteran beneficiaries:
 
@@ -46,7 +47,7 @@ Lighthouse informed us the following are classified as non-Veteran beneficiaries
 * Spouses  
 * Survivors
 
-Lighthouse created a new field to allow VA.gov to preemptively detect if a user is a Veteran or non-Veteran beneficiary to block edits to their direct deposit information. That field is called `DirectDepositResponse › veteranStatus`. [Link to Lighthouse documentation page.](https://developer.va.gov/explore/api/direct-deposit-management/docs?version=current)
+Lighthouse created a new field to allow VA.gov to preemptively detect if a user is a Veteran or other user type to block edits to their direct deposit information. That field is called `DirectDepositResponse › veteranStatus`. [Link to Lighthouse documentation page.](https://developer.va.gov/explore/api/direct-deposit-management/docs?version=current)
 
 This `veteranStatus` field has the following options:
 
