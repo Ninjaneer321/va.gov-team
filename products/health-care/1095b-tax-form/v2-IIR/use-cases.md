@@ -13,7 +13,7 @@
 ## Common use cases
 ### User logs in with LOA3 account
 
-<details><summary>User was enrolled in healthcare for at least one month for the last previous three tax years and they were not a CHAMPVA</summary>
+<details><summary>User was enrolled in VA healthcare for at least one month for the last previous three tax years and they were not a CHAMPVA</summary>
 
 - **Use case:** If a user was enrolled in VA healthcare for all of the previous three years for at least one month each year and they were not a CHAMPVA they will see three card components with links to download a PDF or download a Text file for the year associated with the card.
 - **Format:** [Card component)](https://design.va.gov/components/card)
@@ -23,9 +23,9 @@
 
 </details>
 
-<details><summary>User was enrolled in at least one month of one of the previous three tax years</summary>
+<details><summary>User was enrolled in VA healthcare for at least one month of one of the previous three tax years and were not a CHAMPVA</summary>
 
-- **Use case:** A user will only see cards with links to download 1095-B tax documents for the years which they were enrolled in VA healthcare.
+- **Use case:** A user will only see cards with links to download 1095-B tax documents for the years which they were enrolled in VA healthcare and were not a CHAMPVA.
 - **Status code:** TBD
 - **Format:** [Card component)](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/cP7JJ9ExBtn2jNax9cfinA/1095-B?node-id=1411-3054&t=kR9nLSBAt9IS7L1i-1)
@@ -36,7 +36,7 @@
 
 ## Edge cases
 ### Validation
-<details><summary>User wasn’t enrolled in any of the previous three tax years</summary>
+<details><summary>User wasn’t enrolled in VA healthcare for any of the previous three tax years</summary>
 
 - **Use case:** If a user was not enrolled in VA healthcare for any of the previous three years they will see an informational alert.
 - **Status code:** TBD
@@ -51,7 +51,7 @@ You do not have a 1095-B  tax form available. This could be because you were a C
 
 </details>
 
-<details><summary>User was a CHAMPVA for the previous tax year</summary>
+<details><summary>User was a CHAMPVA for the previous three tax years</summary>
 
 - **Use case:** If a user was a CHAMPVA for the previous year they will see an informational alert.
 - **Status code:** TBD
