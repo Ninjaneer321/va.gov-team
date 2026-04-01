@@ -29,6 +29,10 @@ tags:
   - "clinical-workflows"
 description: "Clinician interviews to identify current use of Medical Calculators, feature awareness, pain points and barriers to adoption. Gain insight into how clinicians would prioritize feature and calculator development"
 
+# NEW: Compliance flags
+recording_required: false
+observer_support: false
+consent_for_clips: false
 ---
 # Conversation Guide for Testing Line Charts within Specific Calculator Fields
 
