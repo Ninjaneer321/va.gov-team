@@ -1,6 +1,6 @@
 # MHV VA.gov Medical Records - _Lab and Test Results_ Specification
 Labs and Test results feature several different types of tests/procedures/studies.  Each type may contain many different test names.
-The data elements and designs vary based on the type of test, and whether it's an individual test or a panel with multiple analytest or assays.
+The data elements and designs vary based on the type of test, and whether it's an individual test or a panel with multiple analytes or assays.
 
 
 ## References
@@ -46,7 +46,7 @@ Chem/hem examples with _multiple results_ are panels like CBC, Chem-7 (test for 
 
 Chem/hem examples with a _single result_: Vitamin B12, SARS-CoV-2, or hematocrit
 
-<img width="772" height="704" alt="image" src="https://github.com/user-attachments/assets/c95e06a6-715c-4904-b94a-28bfcc40a43c" />
+[Chem/hem panel example](https://github.com/user-attachments/assets/c95e06a6-715c-4904-b94a-28bfcc40a43c)
 
 ### Atomic Test (VistA) / Discrete Task Assay (Cerner): 
 
