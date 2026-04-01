@@ -1,5 +1,5 @@
 ---
-title: "Calculator Detail Page Line Chart Testing Research Findings"
+title: "AMPREDICT and PROPREDICT Case Study"
 product: "Medical Calculators"
 team: "Clinical Decision Support Collaborative"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
