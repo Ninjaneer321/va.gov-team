@@ -111,6 +111,10 @@ Tracks click-through rate from the newly added "Check the status of your form on
 <img width="572" height="383" alt="image" src="https://github.com/user-attachments/assets/e49d37b4-d488-4cb8-a6ab-d9c01dbd06ec" />
 <img width="604" height="517" alt="image" src="https://github.com/user-attachments/assets/bbb80095-ca85-41a1-9f5a-32ce71221cdf" />
 
+# DRAGONS Quarterly Health Tracker
+
+[Slack canvas](https://dsva.slack.com/docs/T03FECE8V/F0AG5SYGR4N)
+
 
 ## Rollback Plan
 
@@ -124,10 +128,10 @@ If we see a significant spike in errors we'll immediately disable the feature fl
 
 ## Follow-ups
 
-- [ ] Upload this release plan to GitHub [#137560](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137560) <!-- TODO: assign -->
-  - [ ] Gather immediate data
-  - [ ] Establish tracking cadence
-  - [ ] Link to metrics canvas
+- [x] Upload this release plan to GitHub [#137560](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137560)
+  - [x] Gather immediate data
+  - [x] Establish tracking cadence
+  - [x] Link to metrics canvas
 - [x] Update the My VA status cards implementation tracker per auth exp team's request [#137561](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137561) 
 - [x] Review and update GA funnels (meeting scheduled for March 31st)
 - [ ] [\[Eng\] Feature flag removal: my_va_display_decision_reviews_forms #132362](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132362)
