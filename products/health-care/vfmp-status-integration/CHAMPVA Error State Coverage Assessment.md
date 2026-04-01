@@ -73,3 +73,17 @@ Think of the CHAMPVA detail page as a dashboard with multiple sections: a status
 That decision drives what the FE component needs to render and whether copy needs to go in the JSON config or hardcoded in the component. Worth getting UX to weigh in before building.
 
 ---
+
+## #5 — Identity / Mapping Issues
+
+This one is partially covered generically but has a CHAMPVA-specific gap. Brandon will need to weigh in on the BE side given the ICN column work he's done.
+
+**BE side (Brandon):** Generic `RECORD_NOT_FOUND_ERROR` and `USER_FORBIDDEN_ERROR` action types exist in the FE, meaning the BE already returns 404/403 responses for these cases. However, with Brandon's ICN column work on the table, there may now be CHAMPVA-specific matching logic — if a veteran's ICN doesn't match a CHAMPVA record, the BE needs to confirm what it returns and whether that's distinguishable from a generic 404. Brandon to confirm.
+
+**FE side (Stephen):** The FE handles generic 404/403 via existing action types but has no CHAMPVA-specific "we can't find your record" state. A CHAMPVA user hitting an identity mismatch would see the same generic error as any other claim type with no guidance on who to contact.
+
+**What's needed:**
+- Brandon to confirm what the BE returns when ICN lookup fails for a CHAMPVA record specifically
+- If a distinct error code is returned, FE can render a CHAMPVA-specific message like: "We're unable to match your information to a CHAMPVA application. Please call us at 800-733-8387 (TTY: 711)."
+
+**Product question to flag:** Is a CHAMPVA-specific identity error message in scope for Release 1 or is the generic fallback acceptable for now?
