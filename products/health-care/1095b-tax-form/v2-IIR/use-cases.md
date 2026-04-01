@@ -1,13 +1,13 @@
 # 1095-B Proof of Healthcare use cases
-**Last updated: September 2025**
+**Last updated: April 2026**
 
 - [User flow](https://www.figma.com/design/cP7JJ9ExBtn2jNax9cfinA/1095-B?node-id=1036-24356&t=4u2RwT3RjCOwd9gC-1)
 - [Figma files](https://www.figma.com/design/cP7JJ9ExBtn2jNax9cfinA/1095-B?node-id=1037-32186&t=4u2RwT3RjCOwd9gC-1)
 
 
 ## Current experience
-- This page allows users to download their 1095-B proof of healthcare.
-- For all of these use cases, the user must be LOA3 (identity verified). If the user is not LOA3, the user will be directed to the Profile Account Security section.
+- This page allows users to download their 1095-B proof of healthcare for the years they were enrolled in VA healthcare for at least one month over the last three years.
+- For all of these use cases, the user must be LOA3 (identity verified). If the user is not LOA3, the user will be directed to sign in with a verified account.
 
  
 ## Common use cases
