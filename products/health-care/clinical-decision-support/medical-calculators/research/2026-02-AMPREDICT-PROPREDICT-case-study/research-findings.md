@@ -96,7 +96,7 @@ tags:
 
 **Contacts:** Natalie Hill
 
-**[Research Readout TBA]()**  
+**[Research Readout TBA](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1771519378381/281f28242c40f737d3f57a23f82f961397534b3d?wid=0-1773765369383)**  
 
 
 **Jump to:**
@@ -150,16 +150,12 @@ We asked participants to complete a pre-task survey before the moderated portion
 2. Average time to complete a calculation using the CDS version of AMPREDICT: 2 minutes and 54 seconds (2:54)
 3. Average time to complete a calculation using the online version of PROPREDICT: 8 minutes and 38 seconds (8:38)
 4. Average time to complete a calculation using the CDS version of PROPREDICT: 5 minutes and 38 seconds (5:38)
-5. 
 
 ## Details of Findings 
 
-### Clinicians workflow regularly involves referencing the EHR to find patient data. Referencing the EHR first becomes their default behavior when tasked to find patient data.
-- 3 of 5 clinicians initially glossed over or did not notice the hyperlink below the input field for Abnormal Liver Function and History of Labile INR and needed an additional probe.
-- Clinicians initially expected to go to the EHR to find supporting patient data to help them answer the questions that did not autopopulate. Clinicians mentioned they would also look in JLV if the EHR did not have the data they were looking for.
-- It is difficult for clinicians to create new habits or muscle memory after they have long established workflows. 
+### Significant time was saved through auto-population in the CDS calculators.
 
-> I go back to CPRS to look for abnormal liver function. I would look in the labs for this. -Primary Care Physician (P1)
+> This is dramatically easier and I'm more confident of the data. (P3)
 
 > I naturally would toggle back to CPRS but I see the nice hyperlink there. -Primary Care Physician (P2)
 
