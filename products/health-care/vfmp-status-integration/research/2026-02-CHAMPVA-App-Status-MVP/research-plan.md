@@ -418,7 +418,7 @@ We would like a kick-off call with Perigean to discuss recruitment criteria. Sug
 > **Send pilot participant email in study Slack channel**
 
 - `Pilot participant name:` Steven Straily
-- `Date and time of pilot session:` Wednesday 4/1 2:30-3:30pm ET
+- `Date and time of pilot session:` Will schedule 4/2, 4/3, or 4/13
 
 ### Research sessions
 - `Planned dates of research:`
