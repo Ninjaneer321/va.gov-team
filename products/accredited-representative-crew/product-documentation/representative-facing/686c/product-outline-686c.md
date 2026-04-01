@@ -1,5 +1,10 @@
-# Product Outline: VA Form 21-686c in the Accredited Representative Portal (ARP)
----
+# Product Outline: VA Form 21-686c in the Accredited Representative Portal (ARP) [WIP]
+
+**Team**: Accredited Representative Crew
+
+**Product URL**: Submit VA Form 21-686c - https://staging.va.gov/representative/representative-form-upload/submit-va-form-21-686c/introduction
+
+**Main entry point**: ARP Submissions page - https://va.gov/representative/submissions
 
 ## Overview
 Representatives need a way to submit benefits claims forms on the Accredited Representative Portal. VA has asked us to find the quickest path to getting the most forms possible supported on VA.gov. Existing digitized forms are Veteran-centric and use the wizard pattern. Our technical exploration found that reusing Veteran-facing forms is suboptimal design (reps are power users and research shows that they don't want a card/wizard pattern), and the eng lift would create a lot of messy conditional logic and be vulnerable to continued breaking.
@@ -23,20 +28,9 @@ Representatives need a reliable tool to upload and submit documents for their cl
 
 ## Desired User Outcomes
 
-When fully rolled out, this will increase the number of digital claims submissions through VA.gov. By increasing the number of claims, this would allow more Veterans to gain access to VA health care and benefits faster. 
+1. When fully rolled out, this will increase the number of digital claims submissions through VA.gov. By increasing the number of claims, this would allow more Veterans to gain access to VA health care and benefits faster. 
 
----
-### Key Performance Indicators (KPIs)
-- Number of forms submitted
-- Number of representatives using platform
-- Uptime of platform
----
-
-## Assumptions
-- Reps would be able to access it in the ARP, which is also where they can manage POA requests
-- Some reps may continue to use third-party tools but the quick access to VBMS after accepting POA requests might entice them
-
-## Solution Approach
+Solution Approach
 A digital form submission tool
 - Ability to upload a standalone 686c PDF and routed through central mail
 - Established Intent-to-File with structured data directly to VBMS
@@ -44,67 +38,37 @@ A digital form submission tool
 - Ability to upload supporting documents 
 - Ability to track past submissions made through ARP
 
---- 
 
-## Launch Strategy
-- *How are Veterans and others using this product going to know it exists?*
-- *What marketing, outreach, or communications are necessary for this product to be successful?*
+## Assumptions
+1. Reps would be able to access it in the ARP, which is also where they can manage POA requests
+2. Some reps may continue to use third-party tools but the quick access to VBMS after accepting POA requests might entice them
+
+
+
+---
+
+## Measuring Success
+
+**Datadog Dashboards**
+
+
+## Release History
+
+#### Version 1.0 (MVP) | Release Plan
+
+
+### Ftuture Ideas
+
+## Supporting Documentation
+
+
 - [Link to Release Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/product-info/rep-claim-submissions/release-plan-rep-claim-submissions.md.md)
 - [Link to Product Playbook/Incident Response Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/product-info/rep-claim-submissions/product-playbook-incident-response-rep-claim-submissions.md)
 
-## Launch Dates
-- *Target Launch Date*
-  - Jun 16, 2025
-- *Actual Launch Date* 
-  - tbd
-- *What date will you evaluate impact after launch (and when do you expect to have your Impact Review)?*
-  - tbd
 
----
+## **Communications**
 
-## Solution Narrative
-
-### Current Status
-
-### Key Decisions
-
----
-   
-## Screenshots
-
-### Before
-
-### After
-
----
-
-#### Communications
-
-<details>
-
-Team Name: Accredited Representative Facing
-GitHub Label: accredited-rep-facing
-Slack channel: #benefits-representative-facing
-
-</details>
-
-#### Team Members
-
-<details>
- 
-DEPO Lead: Jennifer Bertsch
-PM: Candi Lemoine
-Technical Architect: Alex Prokop
-Engineering: Oren Mittman
-Research/Design: Laura Paradis and Kate Allbee
- 
-</details>
-
-
-#### Stakeholders
-
-<details>
-Kevin Schneider
- 
-</details>
-
+1. **Team Name**: Accredited Representative Crew
+2. **GitHub Label**: ar-crew
+3. **Slack channel**: ##benefits-accredited-rep-crew
+4. **DEPO Lead**: Jennifer Bertsch
