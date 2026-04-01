@@ -584,15 +584,6 @@ async function run(params) {
 
       const fileModDate = getFileModifiedDate(file);
 
-      if (!fullScan && !isFirstRun && fileModDate) {
-        if (fileModDate < quarterInfo.startDate || fileModDate > quarterInfo.endDate) {
-          if (fileModDate < quarterInfo.startDate) {
-            skippedFiles.push({ file, reason: 'File predates current quarter and not previously processed' });
-            continue;
-          }
-        }
-      }
-
       const content = fs.readFileSync(file, 'utf8');
 
       const yamlMatch = content.match(/^---\n([\s\S]*?)\n---/);
@@ -601,6 +592,29 @@ async function run(params) {
       }
 
       const frontMatter = yaml.load(yamlMatch[1]);
+
+      if (!fullScan && !isFirstRun) {
+        const studyDate = parseDate(frontMatter.date);
+        if (studyDate) {
+          const studyDateStr = studyDate.toISOString().split('T')[0];
+          console.log(`[date-filter] ${file}: using study date ${studyDateStr} from frontmatter`);
+          if (studyDate < quarterInfo.startDate || studyDate > quarterInfo.endDate) {
+            skippedFiles.push({ file, reason: `Study completed outside quarter range (study date: ${studyDateStr})` });
+            continue;
+          }
+        } else if (fileModDate) {
+          const commitDateStr = fileModDate.toISOString().split('T')[0];
+          console.log(`[date-filter] ${file}: no valid study date in frontmatter, falling back to commit date ${commitDateStr}`);
+          if (fileModDate < quarterInfo.startDate) {
+            skippedFiles.push({ file, reason: `No valid study date in frontmatter; commit date predates quarter start (commit date: ${commitDateStr})` });
+            continue;
+          }
+        } else {
+          console.log(`[date-filter] ${file}: no valid study date or commit date found, skipping`);
+          skippedFiles.push({ file, reason: 'No valid study date in frontmatter and no commit date available' });
+          continue;
+        }
+      }
 
       if (frontMatter.demographics || frontMatter.participants_total) {
 
@@ -649,6 +663,25 @@ async function run(params) {
   console.log(`Newly processed files: ${newlyProcessedFiles.length}`);
   console.log(`Skipped files: ${skippedFiles.length}`);
   console.log(`Errors: ${errors.length}`);
+
+  // Log skip reason counts for easier debugging
+  const skipReasonCounts = skippedFiles.reduce((acc, { reason }) => {
+    let key;
+    if (reason.startsWith('Study completed outside quarter range')) {
+      key = 'Study outside quarter range';
+    } else if (reason.startsWith('No valid study date in frontmatter; commit date predates')) {
+      key = 'Commit date predates quarter (no study date)';
+    } else if (reason.startsWith('No valid study date in frontmatter and no commit date')) {
+      key = 'No valid date available';
+    } else {
+      key = reason;
+    }
+    acc[key] = (acc[key] || 0) + 1;
+    return acc;
+  }, {});
+  for (const [reason, count] of Object.entries(skipReasonCounts)) {
+    console.log(`  - ${reason}: ${count}`);
+  }
 
   // ============================================
   // AGGREGATION
