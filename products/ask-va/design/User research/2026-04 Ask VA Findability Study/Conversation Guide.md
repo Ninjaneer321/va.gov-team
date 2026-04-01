@@ -8,11 +8,9 @@
 - [ ] Setup notes for notetakers and synthesis  
 - [ ] Schedule debriefs with notetaker and observers  
 - [ ] Review participant list for name and screen responses  
-- [ ] Ensure staging passwords are correct and vets.gov.user+41 has no questions in it
 
 ### 5-15 minutes before the session
 
-- [ ] Ensure vets.gov.user+41 has no questions in it
 - [ ] Start a thread in \#feedback-backchannel  
 - [ ] Send out the [observer instructions](https://depo-platform-documentation.scrollhelp.site/research-design/Observer-guidelines.1622311177.html) to your observers (Slackbot will do this for you if you type "observer instructions" into [\#feedback-backchannel](https://dsva.slack.com/channels/feedback-backchannel)).  
 - [ ] Ensure Zoom is setup correctly:
@@ -30,15 +28,6 @@
 - [ ] If participant doesn’t arrive after 2 minutes, Slack Perigean in study channel  
 - [ ] If participant is a no-show, Slack team in \#feedback-backchannel 
 
-# Helpful links
-
-|  | Group A \- Staging then Prototype | Group B *\-* Prototype then Staging |
-| :---- | :---- | :---- |
-| Participants | <ul><li>**Veterans** (3-4)</li> <li>**Veteran SCOs** (1)</li>  <li>**SCOs** (2-3)</li></ul> | <ul><li>**Veterans** (3-4)</li> <li>**Veteran SCOs** (1)</li>  <li>**SCOs** (2-3)</li></ul> |
-| Links | <ol><li>[Staging](https://staging.va.gov/contact-us/ask-va/introduction) (Task 1, 2\)</li> <li>Prototype (Task 3, 4\)</li></ol> | <ol><li>Prototype (Task 1, 2\)</li> <li>[Staging](https://staging.va.gov/contact-us/ask-va/introduction) (Task 3, 4\)</li></ol> |
-
-➡️ [SCO Conversation Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/User%20research/2025-10%20Form%20and%20Inbox%20Usability%20Study/SCO%20Conversation%20Guide.md)
-➡️ [All prototype and staging links here](https://docs.google.com/document/d/1aDnIBf45PX0PtCS0inuKdzuyuuGfAs8jZdpbqpCAs8Y/edit?tab=t.xqc68vb3ppax) 
 
 # Intro \- 5 minutes
 
@@ -59,14 +48,11 @@ Thanks for joining us today\! My name is **Elena**. I have my teammate, Danielle
   - Then, ask the notetaker and observers to **give a brief, camera-on introduction, like their first name and position with VA.gov.** (This is meant to humanize the interaction of observation for the participant.)  
   - Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth
 
-
-- During part of our session today, **you'll be interacting with a prototype.** This is a demo tool that may not function exactly the way you expect. Some areas of the prototype will be clickable, and some will not. We will also be providing you with an account specifically for testing, so you will not see any of your own personal information. 
-
 - Because we want to learn more about how you’re experiencing our digital tools, **I will ask you to talk out loud** about what you’re seeing and how you’re feeling about what you’re seeing.   
     
 - Also, we want to understand how you might interact with these tools **if we weren’t here watching you.** So if you ask me questions, I may not answer them during the session and we can come back to them at the end. I may simply ask you “How you might expect something to work?” in return.   
     
-- **Are you comfortable if I record today?** We use the recordings to confirm that we have captured your opinions accurately. After we complete the analysis, the recordings are safely deleted, and none of your comments will be attributed to you directly. We either report findings out in groups (i.e., 5 out of 10 participants said this), or if we want to quote you directly, we take away any identifying information and give you a participant ID, like P7.  
+- **Finally, are you comfortable if I record today?** We use the recordings to confirm that we have captured your opinions accurately. After we complete the analysis, the recordings are safely deleted, and none of your comments will be attributed to you directly. We either report findings out in groups (i.e., 5 out of 10 participants said this), or if we want to quote you directly, we take away any identifying information and give you a participant ID, like P7.  
     
   - **Knowing that, are you comfortable if I record your video, audio, and your screen when you screenshare?**
 
