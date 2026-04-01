@@ -16,7 +16,7 @@
 <details><summary>User was enrolled in VA healthcare for at least one month of ALL of the previous three tax years and they were not a CHAMPVA</summary>
 
 - **Use case:** If a user was enrolled in VA healthcare for all of the previous three years for at least one month each year and they were not a CHAMPVA they will see three card components with links to download a PDF or download a Text file for the year associated with the card.
-- **Format:** [Card component)](https://design.va.gov/components/card)
+- **Format:** [Card component](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/cP7JJ9ExBtn2jNax9cfinA/1095-B?node-id=1037-32252&t=4u2RwT3RjCOwd9gC-1)
 - [Link to code]
 - **Content:** [See design](https://www.figma.com/design/cP7JJ9ExBtn2jNax9cfinA/1095-B?node-id=1037-39900&t=4u2RwT3RjCOwd9gC-1)
@@ -27,7 +27,7 @@
 
 - **Use case:** A user will only see cards with links to download 1095-B tax documents for the years which they were enrolled in VA healthcare and were not a CHAMPVA.
 - **Status code:** TBD
-- **Format:** [Card component)](https://design.va.gov/components/card)
+- **Format:** [Card component](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/cP7JJ9ExBtn2jNax9cfinA/1095-B?node-id=1411-3054&t=kR9nLSBAt9IS7L1i-1)
 - [Link to code]
 - **Content:** [See design](https://www.figma.com/design/cP7JJ9ExBtn2jNax9cfinA/1095-B?node-id=1411-3054&t=kR9nLSBAt9IS7L1i-1)
