@@ -1,5 +1,7 @@
 # MHV VA.gov Medical Records - _Lab and Test Results_ Specification
 Labs and Test results feature several different types of tests/procedures/studies.  Each type may contain many different test names.
+The data elements and designs vary based on the type of test, and whether it's an individual test or a panel with multiple analytest or assays.
+
 
 ## References
 [Labs and test results Phase 1 Figma source of truth mockups](https://www.figma.com/design/SGP1z2LejUWqDZyT61po5J/Medical-Records---Phase-1?node-id=5525-60665&t=nAMzqpWI66fwuxxn-4)
