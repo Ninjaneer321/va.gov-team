@@ -67,6 +67,7 @@ consent_for_clips: true
 
 - [ ] Remember to email external stakeholders the day before their session
 - [ ] Hide the "Card - NEW CLAIM" frame in the [Figma prototype file](https://www.figma.com/design/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?node-id=16716-68410&t=4KLjXq8vP7HWRweg-1)
+- [ ] Check which entry point page the participant will see first in the [tracker](https://docs.google.com/spreadsheets/d/1VYXLkJXNbPTV6oAzhz-AJvlfiCuB7AoZqMwB6yrQYMw/edit?gid=0#gid=0)
 
 ### Day of the session
 
