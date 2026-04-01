@@ -33,9 +33,6 @@
 - **Content:** [See design](https://www.figma.com/design/cP7JJ9ExBtn2jNax9cfinA/1095-B?node-id=1411-3054&t=kR9nLSBAt9IS7L1i-1)
 
 </details>
-
-## Edge cases
-### Validation
 <details><summary>User wasn’t enrolled in VA healthcare for any of the previous three tax years</summary>
 
 - **Use case:** If a user was not enrolled in VA healthcare for any of the previous three years they will see an informational alert.
@@ -66,6 +63,9 @@ You do not have a 1095-B  tax form available. This could be because you were a C
 
 </details>
 
+## Edge cases
+### Validation
+NA
 
 ### Flags 
 [Blocked users documentation](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/blocked-account.md)
