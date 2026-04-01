@@ -1,6 +1,25 @@
 # MHV VA.gov Medical Records - _Lab and Test Results_ Specification
 Labs and Test results feature several different types of tests/procedures/studies.  Each type may contain many different test names.
 
+## References
+[Labs and test results Phase 1 Figma source of truth mockups](https://www.figma.com/design/SGP1z2LejUWqDZyT61po5J/Medical-Records---Phase-1?node-id=5525-60665&t=nAMzqpWI66fwuxxn-4)
+
+[Lab and test results domain brief](https://dvagov.sharepoint.com/sites/HealthApartment/_layouts/15/Doc.aspx?sourcedoc=%7B2CD0CD54-AD57-42B8-B2C1-2D4F145AA2EA%7D&file=Domain%20Brief%20-%20Lab%20results.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1)
+
+[Lab SME review document](https://dvagov.sharepoint.com/sites/HealthApartment/_layouts/15/Doc.aspx?sourcedoc=%7BFEDC587C-450B-4D79-AFED-A296AC1CC29A%7D&file=Lab%20results%20information%20on%20VA.gov.docx&action=default&mobileredirect=true&DefaultItemOpen=1)
+
+[Imaging results domain brief](https://dvagov.sharepoint.com/sites/HealthApartment/_layouts/15/Doc.aspx?sourcedoc=%7BBED70000-FA45-44E0-8B91-9CDF5CE0FBE5%7D&file=Domain%20Brief%20-%20Imaging%20results.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1)
+
+[Imaging results SME review document](https://dvagov.sharepoint.com/:w:/r/sites/HealthApartment/Shared%20Documents/Medical%20Records/SME%20Reviews/Imaging%20results/Imaging%20results%20information%20on%20VA.gov.docx?d=w0887da3bbedb4994b48d7f90c9d93461&csf=1&web=1&e=2LzHvD)
+
+[EKG results SME review document](https://dvagov.sharepoint.com/:w:/r/sites/HealthApartment/Shared%20Documents/Medical%20Records/SME%20Reviews/Primary%20care/Clinical%20test%20results%20(EKG%20Historical%20Dates).docx?d=wad54be52d012410587c287c1dd610f4f&csf=1&web=1&e=2zKd2G)
+
+[Medical Records decision log](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/decision-log.md)
+
+
+
+
+
 ## Sub-domains (types)
 - Chemistry and Hematology
 - Microbiology
@@ -211,20 +230,6 @@ List HDR VPR endpoints here
 
 List Oracle endpoints here
     
-
-## References
-[Lab and test results domain brief](https://dvagov.sharepoint.com/sites/HealthApartment/_layouts/15/Doc.aspx?sourcedoc=%7B2CD0CD54-AD57-42B8-B2C1-2D4F145AA2EA%7D&file=Domain%20Brief%20-%20Lab%20results.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1)
-
-[Lab SME review document](https://dvagov.sharepoint.com/sites/HealthApartment/_layouts/15/Doc.aspx?sourcedoc=%7BFEDC587C-450B-4D79-AFED-A296AC1CC29A%7D&file=Lab%20results%20information%20on%20VA.gov.docx&action=default&mobileredirect=true&DefaultItemOpen=1)
-
-[Imaging results domain brief](https://dvagov.sharepoint.com/sites/HealthApartment/_layouts/15/Doc.aspx?sourcedoc=%7BBED70000-FA45-44E0-8B91-9CDF5CE0FBE5%7D&file=Domain%20Brief%20-%20Imaging%20results.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1)
-
-[Imaging results SME review document](https://dvagov.sharepoint.com/:w:/r/sites/HealthApartment/Shared%20Documents/Medical%20Records/SME%20Reviews/Imaging%20results/Imaging%20results%20information%20on%20VA.gov.docx?d=w0887da3bbedb4994b48d7f90c9d93461&csf=1&web=1&e=2LzHvD)
-
-[EKG results SME review document](https://dvagov.sharepoint.com/:w:/r/sites/HealthApartment/Shared%20Documents/Medical%20Records/SME%20Reviews/Primary%20care/Clinical%20test%20results%20(EKG%20Historical%20Dates).docx?d=wad54be52d012410587c287c1dd610f4f&csf=1&web=1&e=2zKd2G)
-
-[Medical Records decision log](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/decision-log.md)
-
 
 
 
