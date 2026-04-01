@@ -330,8 +330,7 @@ If result parity with the GI Bill Comparison Tool is an important product goal, 
 ## Sample Payloads
 
 ### Single Facility Response
-`GET https://staging-api.va.gov/v1/gi/institutions/11902614`
-```json
+```yaml
 ---
 http_interactions:
 - request:
