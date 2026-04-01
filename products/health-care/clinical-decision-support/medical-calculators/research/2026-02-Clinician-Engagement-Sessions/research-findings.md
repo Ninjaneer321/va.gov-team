@@ -10,7 +10,6 @@ research_goals:
   - "Identify top calculators clinicians are using and what is working well"
   - "Understand barriers to use or friction points"
   - "Identify new calculators that would support clinical workflows"
-
 methodology:
   - "Moderated Remote Interview"
   - "Async questionairre"
