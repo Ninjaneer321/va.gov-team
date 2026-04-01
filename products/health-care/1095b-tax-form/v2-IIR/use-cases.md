@@ -15,7 +15,7 @@
 
 <details><summary>User was enrolled in healthcare for the previous tax year and they were not a CHAMPVA</summary>
 
-- **Use case:** If a user was enrolled in VA healthcare for the previous year and they were not a CHAMPVA they will see a card component and have the ability to download a PDF or download a Text file.
+- **Use case:** If a user was enrolled in VA healthcare for all of the previous three years for at least one month each year and they were not a CHAMPVA they will see a card component and have the ability to download a PDF or download a Text file for each year.
 - **Format:** [Card component)](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/cP7JJ9ExBtn2jNax9cfinA/1095-B?node-id=1037-32252&t=4u2RwT3RjCOwd9gC-1)
 - [Link to code]
