@@ -26,9 +26,9 @@ Last updated: March 2026
 
 This initiative ensures that non-Veteran beneficiaries—such as dependents, spouses, and survivors—are informed that they are only able to view their direct deposit information on VA.gov and must call in, or submit a paper form, to update their information.
 
-Direct deposit write access was revoked by BGS in December 2024, and Lighthouse in March 2025. The policy and technology would need to be re-evaluated and updated to allow edit features.
+Direct deposit write access was revoked for non-Veteran beneficiaries by BGS in December 2024, and new endpoint added by Lighthouse in March 2025. The policy and technology would need to be re-evaluated and updated to allow edit features.
 
-As of March 2026 the logic blocks an average of ~20% of our monthly users as can be seen by the [GA4 report](https://analytics.google.com/analytics/web/#/analysis/p419143770/edit/5Jm2bveUQDG4SBSAp_OrJQ).
+As of March 2026 the calls for non-Veteran beneficiaries accounts for ~20% of all calls to direct deposit as can be seen by the [GA4 report](https://analytics.google.com/analytics/web/#/analysis/p419143770/edit/5Jm2bveUQDG4SBSAp_OrJQ).
 
 ## Purpose 
 
@@ -83,7 +83,7 @@ This `veteranStatus` field has the following options:
 
 ### dodServiceSummarycode A1 definition 
 
-`dodservicesummarycode` of `A1` is defined as: Active duty, meets minimum service, or Reserve, or National Guard with any active-duty service, and has Honorable discharge. From what the team can tell, `A1` is not the only code that reflects if a user is a Veteran, and could be limiting Veterans from updating their direct deposit information. [More information about the statuses and direct Veteran impact can be found in this link.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-status/v2-IIR/ineligibility-error-messaging-logic.md)
+`dodservicesummarycode` of `A1` is defined as: Active duty, meets minimum service, or Reserve, or National Guard with any active-duty service, and has Honorable discharge. From what the team can tell, `A1` is not the only code that reflects if a user could be a Title 38 Veteran, and could be limiting Veterans from updating their direct deposit information. [More information about the statuses and direct Veteran impact can be found in this link.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-status/v2-IIR/ineligibility-error-messaging-logic.md)
 
 ## Lighthouse process diagram for eligibility 
 
