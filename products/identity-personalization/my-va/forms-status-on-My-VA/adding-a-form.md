@@ -362,6 +362,7 @@ If you are unable to edit this document to add your team's decisions, please let
 | Team Name | Form API | First Team Integrating This API? | Gateway / Formatter | Restricted or Unrestricted? | Form(s) Added | Feature Toggle | Epic/Ticket Link | Notes / Useful Info |
 |-----------|----------|----------------------------------|--------------------|------------------------------|---------------|----------------|------------------|---------------------|
 | Decision Reviews | Lighthouse Benefits Intake | No | Existing | Restricted | 20-0995, 20-0996, 10182 | my_va_display_decision_reviews_forms | [#110583](https://github.com/department-of-veterans-affairs/va.gov-team/issues/110583) | DR form submission statuses released to 100% Mar 23, 2026 |
+| VFMP Status Integration | ivcchampva table from vets-api | Yes | Created | Unrestricted | CHAMPVA App 10-10d | benefits_claims_ivc_champva_provider | https://github.com/department-of-veterans-affairs/va.gov-team/issues/122751 |  |
 | | | | | | | | | |
 | Example Team A | Lighthouse Benefits Intake | Yes | Created | Unrestricted | All | `my_va_display_all_lighthouse_benefits_intake_forms` | Epic-1234 | First implementation of Form Status pattern |
 | Example Team B | Forms API XYZ | No | Existing | Restricted | 21-4138 | none | Ticket-5678 | Added form to `restricted_list_of_forms` |
