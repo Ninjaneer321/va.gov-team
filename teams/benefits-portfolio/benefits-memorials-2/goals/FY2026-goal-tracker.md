@@ -61,9 +61,9 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 |UX: Complete the Pay.gov Benefit Overpayment Debt Payments Usability Study.| P2 |--|03/16/26|Completed|
 |UX: Begin analysis and create and publish Topline Summary for Pay.gov Benefit Overpayment Debt Payments Usability Study.| P2 |--|03/24/26|Completed|
 |ENG: Update Payment History mock data to allow for E2E and Unit tests.| P1 |--|--|Incomplete|
-|ENG: Complete back end code adjustments to accommodate the Cerner/VistA data updates.| P1 |--|--|--|
-|ENG: Update Payment History tests after implementing the Cerner/VistA data updates.| P1 |--|--|--|
-|ENG: Complete any planned or new critical maintenance tickets/bugs.| P6 |--|--|--|
+|ENG: Complete back end code adjustments to accommodate the Cerner/VistA data updates.| P1 |--|--|Incomplete|
+|ENG: Update Payment History tests after implementing the Cerner/VistA data updates.| P1 |--|--|Incomplete|
+|ENG: Complete any planned or new critical maintenance tickets/bugs.| P6 |--|--|Incomplete|
 
 **Sprint rollover tickets**
 | Additional work that was pulled in mid-sprint | Scope of work changed after ticket started | Work became blocked mid-sprint |  Work was underestimated and not completed |
@@ -77,7 +77,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
  - [X] VA COR approved the Sprint Goals (02/11/26)
 
 **_Delivery + Notes:_**
-- [ ] All goals have been updated in the sprint chart
+- [X] All goals have been updated in the sprint chart
 - [ ] Any Additional details about goals **not** completed will be documented here
 
 
@@ -104,7 +104,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
  - [X] VA COR approved the Sprint Goals (02/26/26)
 
 **_Delivery + Notes:_**
-- [ ] All goals have been updated in the sprint chart
+- [X] All goals have been updated in the sprint chart
 - [ ] Any Additional details about goals **not** completed will be documented here
 
 End of Line
