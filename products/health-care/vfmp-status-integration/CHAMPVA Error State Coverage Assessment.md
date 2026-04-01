@@ -30,3 +30,46 @@ This one has both a FE and BE gap.
 - FE adds a fallback render when `statusMap[status]` is undefined, showing something like: "We're unable to display your application status right now. Please call us at 800-733-8387 (TTY: 711)."
 
 **Product question to flag:** Should an unmapped PEGA status fall back to the `error` state copy, or get its own distinct message? That determines whether this is a BE-only fix or needs new FE copy too.
+
+---
+
+## #3 — Eligibility / Evidence (VES) Unavailable
+
+This is a pure gap on both sides — nothing exists for this today. VES is not in scope for Release 1 but documenting for future planning.
+
+**BE side (Brandon):** VES is a separate upstream system from PEGA. If VES times out or fails, there is currently no isolated error surfaced in the API response to distinguish "PEGA worked but VES failed" from a full failure. The BE would need to return a partial response shape or a specific error indicator for VES being down independently.
+
+**FE side (Stephen):** There is no section-level error component for eligibility or evidence data failing independently. The CST either renders everything or shows the full `ServiceUnavailableAlert`. There is no pattern for "status loaded fine but eligibility/evidence section failed."
+
+**What's needed:**
+- BE surfaces a VES-specific error indicator in the response (e.g. a flag or null with an error code on the eligibility/evidence portion)
+- FE adds a localized section-level error component that renders in place of the VES data section when that indicator is present, something like: "We're unable to load your eligibility information right now. Please try again later."
+
+No action needed now. Revisit when VES integration is scoped.
+
+---
+
+## #4 — Partial Data (Mixed Success)
+
+This is a gap on both sides — no pattern exists for this today.
+
+Think of the CHAMPVA detail page as a dashboard with multiple sections: a status section (from PEGA), a beneficiary/eligibility section (from VES), and a documents section. Right now if any one of those upstream systems fails, the whole page either works or fails together. Partial data means: the status section loads fine and shows correctly, but the eligibility section fails and shows a localized "we can't load this section" error instead of the entire page blowing up. The goal is to not let one failed section take down the whole page.
+
+**BE side (Brandon):** The current API response is all-or-nothing per claim. There is no response shape that communicates "some data loaded successfully, other data did not." For example, if PEGA status loads but a beneficiary record fails, the BE has no way to indicate that to the FE currently.
+
+**FE side (Stephen):** The CST has no partial render pattern. It either renders the full claim detail or falls back to the full page `ServiceUnavailableAlert`. There is no component or logic for rendering a successfully loaded section alongside a localized error in a failed section.
+
+**What's needed:**
+- BE returns a partial success response shape that identifies which sections loaded and which failed, rather than treating any failure as a full outage
+- FE adds per-section error handling so a failed section renders a localized inline error while successfully loaded sections still display normally
+
+**Note:** This is the most complex of all the scenarios as it requires a new response contract between BE and FE. Recommend treating this as its own follow-up story rather than part of this validation ticket. Lower priority for Release 1 since CHAMPVA Phase 1 only has status, not multiple data sections yet.
+
+**Product/UX question:** When a section fails to load, what should the fallback experience look like for CHAMPVA specifically? Options are:
+1. A generic "we can't load this section" inline error with a retry button
+2. A CHAMPVA-specific message with the help phone number (800-733-8387)
+3. Hide the section entirely with no error shown
+
+That decision drives what the FE component needs to render and whether copy needs to go in the JSON config or hardcoded in the component. Worth getting UX to weigh in before building.
+
+---
