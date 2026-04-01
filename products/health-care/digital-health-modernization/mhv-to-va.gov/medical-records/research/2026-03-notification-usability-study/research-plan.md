@@ -24,20 +24,25 @@ research_format:
 research_goals:
   - goal_1: "Understand how veterans conceptualize 'new' or 'recent' in medical records (time-based window)"
   - goal_2: "Evaluate whether landing page indicators + list page badges help veterans find recent results"
- 
+  - goal_3: "Identify what information Veterans need on cards and badges"
+  - goal_4: "Assess whether Veterans can discover and use the updated date filter to find specific past results"
+
 research_questions:
   - "What characteristics signal 'new' or 'recent' to Veterans in their medical records?"
   - "What navigation tactics help Veterans orient themselves to new information?"
   - "What information helps Veterans orient, navigate, and understand new medical records?"
   - "What types of visual information help Veterans identify what's new?"
   - "Can Veterans connect information presented in different contexts?"
+  - "Can Veterans use the updated filter pattern to locate specific past results?"
 
 hypotheses:
   - "Veterans will prefer a time-based window of 7-14 days for 'Recent' indicators"
   - "Landing page cards showing counts will help veterans orient to where new results are located"
   - "Minimal information on cards (type + count) will be sufficient for navigation"
+  - "Recent Badges on list pages will be more effective than landing page cards alone"
+  - "Veterans will be able to use the accordion filter to narrow results by date range, but may need a moment to discover the control"
 
-expected_outcomes: "Findings will inform the design of recency indicators for MVP release. We'll learn the optimal time window, required card content, and whether the breadcrumb navigation approach supports findability."
+expected_outcomes: "Findings will inform the design of recency indicators for MVP release. We'll learn the optimal time window, required card content, whether the breadcrumb navigation approach supports findability, and whether the updated accordion date filter is discoverable and usable for finding historical results."
 
 # Recruitment & Participants
 recruitment:
@@ -55,11 +60,11 @@ recruitment:
     - "Age diversity (at least 2 participants over 55)"
     
 participants:
-  veterans: 9
+  veterans: 15
   caregivers: 0
   dependents: 0
-  total_recruited: 9
-  completed_sessions_goal: 6
+  total_recruited: 15
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
@@ -195,6 +200,10 @@ Test the "breadcrumb" approach: landing page cards with counts → list pages wi
 
 Determine minimal vs. optimal content for landing page cards and list page indicators.
 
+**4. Assess whether Veterans can discover and use the updated date filter to find specific past results.**
+
+Evaluate whether the accordion-style date filter is discoverable, intuitive, and effective when Veterans need to locate a specific historical record, and identify any interaction barriers that could signal accessibility concerns.
+
 ---
 
 ### Outcome
@@ -205,6 +214,7 @@ This research will inform the design and engineering of MVP 1 + MVP 2 for produc
 - The optimal time window for "new" indicators (engineering parameter)
 - Required content for landing page cards (design specification)
 - Whether the breadcrumb navigation approach supports findability (design validation)
+- Whether the updated accordion date filter is discoverable and usable for finding historical results (accessibility pattern validation)
 
 Findings will directly inform the production release addressing Use Case #1: Following Up on Recent Care (prioritized based on 3.23M page views and 42% of Medallia complaints).
 
@@ -217,7 +227,7 @@ Findings will directly inform the production release addressing Use Case #1: Fol
 - Is it time-based (7 days, 14 days, 30 days)? Event-based (since my appointment)? User-based (since I last looked)?
 - When something is marked as "recent" but they've already seen it, is that helpful (reminder) or confusing (feels stale)?
 
-> Maps to: Task 1 & 3 (mental model probes & exploring time window variations)
+> Maps to: Task 1 (recency mental model probes on list page), Task 2 (time window exploration)
 
 **RQ2: What navigation tactics help Veterans orient themselves to new information?**
 - Do counts of new results help them understand where to look? ("You have 2 new lab results")
@@ -238,14 +248,22 @@ Findings will directly inform the production release addressing Use Case #1: Fol
 - What combination of visual communication (icons, hierarchy, labels) helps them scan quickly?
 - Where do their eyes go first when looking for new items?
 
-> Maps to: Task 1&2 (observing scanning behavior), Task 3 (visual hierarchy discussion)
+> Maps to: Task 1 (observing scanning behavior on landing page and list page), Task 1.5 (badge labeling and visual cue discussion)
 
 **RQ5: Can Veterans connect information presented in different contexts?**
 - Do Veterans recognize the same information when presented on a landing page vs. a list page? (Recognition and recall)
 - Does seeing a summary ("2 new results") help them identify those items on a detail list?
 - Do they notice connections between information in different places, or does each page feel isolated?
 
-> Maps to: Task 2 (landing card → list flow), Task 1 vs Task 2 comparison
+> Maps to: Task 1 (landing page card → list page flow, context transfer question), Task 1.5 (partial coverage understanding, trust & confidence)
+
+**RQ6: Can Veterans use the updated filter pattern to locate specific past results?**
+- Can they discover the filter control without prompting?
+- Is the accordion interaction intuitive?
+- Do the date range options match how they think about past care?
+- Are there interaction barriers that suggest accessibility concerns?
+
+> Maps to: Task 3 (filter discovery, accordion usability, date-range selection)
 
 ---
 
@@ -259,6 +277,8 @@ Findings will directly inform the production release addressing Use Case #1: Fol
 
 **Hypothesis 4:** "Recent" Badges on list pages will be more effective than landing page cards alone, as they provide specific identification of new items.
 
+**Hypothesis 5:** Veterans will be able to use the accordion filter to narrow results by date range, but may need a moment to discover the control. Once found, the interaction will be completable without assistance for most participants.
+
 ---
 
 ## Methodology 🛠️
@@ -270,6 +290,8 @@ This method is appropriate because:
 - We need to evaluate whether the design supports findability (evaluative)
 - We want to understand mental models around "recency" (exploratory)
 - The product is in the design phase, ready for concept validation before build
+
+The filter task evaluates a pattern change from dropdown to accordion for date filtering. This task provides a preliminary usability signal on the updated accessible pattern.
 
 ---
 
@@ -315,11 +337,11 @@ We want to schedule 15 participants for sessions; for 10 completed sessions mini
 
 ### List the ideal completed sessions and total number of participants:
 
-- `Veterans:` **9**
+- `Veterans:` **15**
 - `Caregivers:` **0**
 - `Dependents:` **0**
-- `Total:` **9** (1.5x target for 6 completed sessions)
-- `Ideal completed sessions:` **6**
+- `Total:` **15** (1.5x target for 10 completed sessions)
+- `Ideal completed sessions:` **10**
 
 ---
 
