@@ -50,14 +50,19 @@ A digital form submission tool
 ## Measuring Success
 
 **Datadog Dashboards**
-
+1. [Accredited Representative Portal](https://vagov.ddog-gov.com/dashboard/q3q-ft2-bdx/accredited-representative-portal-arp?fromUser=false&refresh_mode=sliding&from_ts=1756769310159&to_ts=1775086110159&live=true)
+2. [Accredited Representative Crew: Monthly Metrics Review](https://vagov.ddog-gov.com/dashboard/8xp-469-t2i/accredited-representative-crew-monthly-metrics-review?fromUser=false&offset=0&refresh_mode=monthly&from_ts=1775026800000&to_ts=1775086152026&live=true)
 
 ## Release History
 
-#### Version 1.0 (MVP) | Release Plan
-
+#### Version 1.0 (Submit complated PDF, MVP) | [Release Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/product-info/rep-claim-submissions/release-plan-rep-claim-submissions.md.md)
+The 21-526ez 1.0 (MVP) allows representative users to upload a fully completed VA Form 21-526ez PDF, along with any supporting evidence, and submit that to VA.
 
 ### Ftuture Ideas
+1. Improve the submission pathway on the backend, for faster processing. 
+2. Allow representatives to digitally complete VA Form 21-686c within ARP (as opposed to uploading a fully completed PDF). Ideally piggy-backing on the Veteran-facing experience, to avoid maintaining an independent process/flow for the same form.
+3. Allow representatives to "save in progress" forms for the claimants they represent.
+4. Pre-fill the form with claimant data. 
 
 ## Supporting Documentation
 
