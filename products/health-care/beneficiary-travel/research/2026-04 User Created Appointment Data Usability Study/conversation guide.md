@@ -63,8 +63,9 @@ consent_for_clips: true
 > [!NOTE]
 > Review VA Platform's [Research Checklist](https://depo-platform-documentation.scrollhelp.site/research-design/research-checklist).
 
-`List and complete any project-specific setup tasks for this study below:`
+`List and complete any project-specific setup tasks for this study below:`   
 
+- [ ] Remember to email external stakeholders the day before their session
 - [ ] Unhide the "Card - NEW CLAIM" frame in the [Figma prototype file](https://www.figma.com/design/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?node-id=16716-68410&t=4KLjXq8vP7HWRweg-1)
 
 ### Day of the session
