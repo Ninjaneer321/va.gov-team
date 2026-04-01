@@ -34,6 +34,8 @@
 
 </details>
 
+## Edge cases
+### Validation
 <details><summary>User wasn’t enrolled in any of the previous three tax years</summary>
 
 - **Use case:** If a user was not enrolled in VA healthcare for any of the previous three years they will see an informational alert.
@@ -61,22 +63,6 @@ You do not have a 1095-B  tax form available. This could be because you were a C
 Header: You don’t have a 1095-B  tax form available right now
 
 You do not have a 1095-B  tax form available. This could be because you were a CHAMPVA beneficiary or you weren’t enrolled in VA healthcare in 2024. If you think you were enrolled, call us at 877-222-8387 (TTY:711).  We’re here Monday through Friday, 8:00 a.m. to 8:00 p.m. ET.
-
-</details>
-
-## Edge cases
-### Validation
-<details><summary>User is not enrolled in VA healthcare</summary>
-
-- **Use case:** If a user is not enrolled in healthcare then we show an informational alert in the section where the checkbox to opt in to paperless delivery would be.
-- **Format:** [Informational alert component(default)](https://design.va.gov/components/alert/#informational-alert-aka-default)
-- [Links to designs](https://www.figma.com/design/DWOjExui9JzyzwhMBWOFkw/Paperless-delivery-opt-in?node-id=2593-24053&t=z8k7qVk61u67asjJ-1)
-- [Link to code]
-- **Content:**
-
-H2: Paperless delivery not available yet
-
-You’re not enrolled in any VA benefits that offer paperless delivery options.
 
 </details>
 
