@@ -161,7 +161,7 @@ Before we start, I have a few things that I want to go over with you:
 `Moderator: Now we’re going to take a look at the prototype. As a reminder, it’s a representation of the site, and some things will work like you'd expect, but other things won't be clickable. If you try to click something and it doesn't work, just let me know what you were trying to do, and I'll help us move forward.`   
 
 > [!IMPORTANT]
-> Notetaker should paste the prototype link: https://www.figma.com/proto/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?page-id=16385%3A16515&node-id=16385-16517&viewport=262%2C-845%2C1.53&t=0iNBoVtOYsUrdtrD-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=16385%3A16517&show-proto-sidebar=1&hotspot-hints=0 
+> Moderator paste the prototype link: https://www.figma.com/proto/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?page-id=16385%3A16515&node-id=16385-16517&viewport=262%2C-845%2C1.53&t=0iNBoVtOYsUrdtrD-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=16385%3A16517&show-proto-sidebar=1&hotspot-hints=0 
 
 `In the chat, you’ll find a link to the prototype. Please click that link.`
 
