@@ -10,8 +10,8 @@ Labs and Test results feature several different types of tests/procedures/studie
 - Radiology (will be moving to its own _Imaging_ domain in future enhancement)
 - Blood Bank (future ehnancement])
 
-
-
+## Labs and Tests List View
+[List View Figma prototype](https://www.figma.com/proto/SGP1z2LejUWqDZyT61po5J/Medical-Records---Phase-1?node-id=5523-26649&t=nAMzqpWI66fwuxxn-1)
 ## Cosmic vs. Atomic 
 
 ### Cosmic Test (VistA) / Orderable test (Oracle)
