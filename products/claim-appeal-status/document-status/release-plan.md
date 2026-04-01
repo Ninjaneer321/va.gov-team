@@ -192,12 +192,12 @@ Dates: 3/4/2026 - 4/1/2026
     - No performance issues (the increases in time also line up with our release of the content migration):
       - Loading times comparable to weeks prior and still < 3s goal
         - 2.32s across CST
-          - index: 2.29s (+8.06% p75)
-          - show: 3.42s (+16.77% p75)
+          - `track-claims/your-claims`: 2.29s (+8.06% p75)
+          - `track-claims/your-claims/{id}/status`: 3.42s (+16.77% p75)
           - These are up significantly, however, I don't believe that it's due solely to the changes made for this effort. Below are the increases in API response time (p75) for the two endpoints (3 months prior / 2 months prior / 1 month prior / past month):
-            - index: 0.805s / 0.722s / 0.745s / 0.792s
+            - index (used on `track-claims/your-claims`): 0.805s / 0.722s / 0.745s / 0.792s
               - This endpoint has not seen a drastic increase in response time, being even lower than 3 months ago.
-            - show: 1.36s / 1.20s / 1.24s / 1.54s
+            - show (used on `track-claims/your-claims/{id}/status`): 1.36s / 1.20s / 1.24s / 1.54s
               - This endpoint has an obvious increase in the response time due to polling for in-progress evidence submissions, but it's still comparable to 3 months prior to release of doc status.
       - LCP/FCP comparable from last stage
         - 2.84s/1.02s across CST
