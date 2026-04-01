@@ -18,8 +18,24 @@ navigate and schedule that appointment. Please “think out loud” as you go an
 
 - Possible probing questions:
   - Why did you click there?
-  - What do you think about the information displayed on the clinics selection screen? If they pause and start questioning clinics on the page, let them talk and jump to 2nd follow-up question below. 
-    
+  - What do you think about the information displayed on the clinics selection screen? If they pause and start questioning clinics on the page, let them talk and jump to 2nd follow-up question below.
+ 
+- Before we begin, I’ll tell you that I don't use VA.gov, I use the app. 
+- Here it is in health care. There's a little thing done here that says schedule and manage your appointment. [Link takes the participants to the app; we return to the VA.gov homepage.]
+- [Moderator: Scroll up to the menu. Click MHV, the 5th one down. Participant taps to schedule a new appt. Scrolls up and down page.] I don't like that it was so small. Can we talk about that? “Start scheduling an appointment” is too small. A Vietnamer isn't going to get that. Should be a big green button that says “schedule appointment.”
+- Ok, what type of care do I need? You said primary care? I appreciate that they’re alphabetized but it might be too much. I'd move the most important thing, which is primary care, to the top. That’s my thing with the app–we can’t do this small type. We’re all old Vets with glasses. I just got diagnosed with macular degeneration. We need to consider this–it'll stress them out. But I’d tap primary care.
+- [Sees Alert, taps Continue.] I'd move this box out of the way. Just make another button for “go back to the menu” or something. It buries the Continue into all the rules below. 
+- Which facility would you like to go to? The system should be smart rough to know which facility I use and put it up there. And if it's not there, I can choose other locations. But it should give me my primary facility. 
+- [Moderator: Are these facilities familiar to you?] Yes. The top one is where I went Friday. Next one is the main San Antonio VA hospital. Third is where my PCM is. And 4th is where I go to give blood. I’d want my primary to pop up top. So I'm going to get away from all this. [Scrolls through the long list.] You're gonna stress some old person out! [Taps Continue button.]
+- [Moderator on “Which clinic page” page: What do you think about this page?] I would make it bigger, obviously the font is too small. And I might add that whole line–when we send secure messages, Dr. [name] is on that line. I think older Vets will appreciate seeing their doctor’s name right there. It’s a double check that I'm making the appointment at the right place. 
+- And if I hit No, it should take me back to the list. And it would be helpful if you put that dropdown of the last spot they went to. Maybe I'm making a follow up appointment to somewhere I went the other day. 
+- [Moderator: When you see primary team 2, what does that mean?] That’s my primary doctor, my PCM, my team, and I recognize them. But if I see Dr [name] there, I'd be more trusting of it.
+- [Moderator: Are you confident that’s who you would see, or maybe someone else?] If his name was there, I'd be confident I'd see him. I know who my nurse is.
+- [Moderator: But now, are you confident?] I already checked his name, so I'm confident, but I’m not sure others would be. 
+- [Moderator: Do you ever scheduled with nurse practitioners or PAs?] Yes. 
+- [Moderator: How might you know if you're seeing a medical doctor versus a PA?] Seeing this you do not know. But I've done it. I was going on a trip and needed a Covid shot. Schedule this appointment and Ms. Becky will take care of it.
+- [Hit back button. She struggles.] See what I mean? Little things like that [breadcrumb] are buried. 
+   
 **Follow-ups After Task Completion:**
 - Go back to the clinic selection page.
   - What do you think about this page?
@@ -30,6 +46,9 @@ navigate and schedule that appointment. Please “think out loud” as you go an
   - How did you know which clinic to select?
   - When you look at the clinic options here, is there any way for you to understand what type of provider you may see? E.g., NP, PA, MD? 
 - On a scale of 1-5, 1 being very challenging and 5 being very easy, how did you find it to select a clinic for a primary care appointment, and why?
+    - For me it’s a 5 because I have a lot of knowledge of how to use a computer and I’m not as confused as other Veterans could be. I don't want you to think this was easy to others because it’s easy to me. 
+   - I worked for VA for 2 years, from 2006-2008. I was a Vet employment coordinator and helped the severely injured get employed. Some of these things are only easier to me by experience. 
+   - Long list of things will frazzle them [other Vets]. Stresses them out. Less wordy, clear, with buttons is helpful. Even to me with my changing eyesight. [I need to] clearly and easily select and see what I’m doing. 
 - Does your primary care office have physician assistants or nurse practitioners available to meet?
     - If yes - have you ever met with one of them?
 
@@ -49,7 +68,10 @@ navigate and schedule that appointment. Please “think out loud” as you go an
 
 - Possible probing questions:
   - Why did you click there?
-  - What do you think about the information displayed on the clinics selection screen? If they pause and start questioning clinics on the page, let them talk and jump to 2nd follow-up question below. 
+  - What do you think about the information displayed on the clinics selection screen? If they pause and start questioning clinics on the page, let them talk and jump to 2nd follow-up question below.
+ 
+- Since I've never done this before, I'd go to the main VA hospital in my city. That's where I'd start. [Sees pop up] I can’t do it online, so I‘d call. This is the main hospital phone number. That’s another thing they suck at. They give you the main phone number and you sit there for years. If this is a social health appt, give the social health phone number. Or maybe an instruction to send a secure message to request an appt. Maybe a window would pop up with the info for the social worker office. 
+
     
 **Follow-ups After Task Completion:**
 - Go back to the clinic selection page.
@@ -78,7 +100,13 @@ navigate and schedule that appointment. Please “think out loud” as you go an
 
 - Possible probing questions:
   - Why did you click there?
-  - What do you think about the information displayed on the clinics selection screen? If they pause and start questioning clinics on the page, let them talk and jump to 2nd follow-up question below. 
+  - What do you think about the information displayed on the clinics selection screen? If they pause and start questioning clinics on the page, let them talk and jump to 2nd follow-up question below.
+ 
+- I guess it depends where you want to go. Some of these locations don't even have a pharmacy. So I'd have AI take those off. The 3rd one doesn't have a pharmacy. But others do. So I'd mess around with those lists [if I were you]. But I’d select this one. [Taps “Continue.”] 
+That’s it, I'd select it from the calendar, just like you have it. Hopefully VA has scrubbed it of appointments that aren't available. 
+[Moderator: What would make you select pharmacy A vs B?] B does have a pharmacy, but I'm more inclined to go to the main pharmacy. I don't know why. B is closest to my house, but if I have a problem, I go to the main pharmacy. That’s just me. 
+- I want to show you something else. You know you have 2 back buttons? Do we mean to have that? [Moderator: We do, but tell me what you think.] I don’t know, it just seemed repetitive. I think we need to simplify. There’s a lot of things on these pages on VA, there are lots of words and once you read a bunny of stuff, I don’t think ppl can handle that. 
+
     
 **Follow-ups After Task Completion:**
 - Go back to the clinic selection page.
@@ -90,6 +118,7 @@ navigate and schedule that appointment. Please “think out loud” as you go an
   - How did you know which clinic to select?
   - When you look at the clinic options here, is there any way for you to understand what type of provider you may see? E.g., NP, PA, MD? 
 - On a scale of 1-5, 1 being very challenging and 5 being very easy, how did you find it to select a clinic for a pharmacist appointment, and why?
+   - Easy, definitely. 
 - Does your primary care office have physician assistants or nurse practitioners available to meet?
     - If yes - have you ever met with one of them?
 
@@ -104,8 +133,7 @@ confusion?]
 
 # Post PACT task questions 
 
-Have you ever heard of something called “PACT” or “Patient Aligned Care Team” or
-“primary care team?”
+Have you ever heard of something called “PACT” or “Patient Aligned Care Team” or “primary care team?”
 - Yes
 
 **If yes:**
