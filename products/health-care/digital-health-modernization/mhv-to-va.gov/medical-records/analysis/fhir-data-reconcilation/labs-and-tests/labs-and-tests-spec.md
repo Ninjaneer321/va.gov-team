@@ -46,7 +46,7 @@ Chem/hem examples with _multiple results_ are panels like CBC, Chem-7 (test for 
 
 Chem/hem examples with a _single result_: Vitamin B12, SARS-CoV-2, or hematocrit
 
-[Chem/hem panel example](https://github.com/user-attachments/assets/c95e06a6-715c-4904-b94a-28bfcc40a43c)
+[Chem/hem panel fields to display](https://github.com/user-attachments/assets/c95e06a6-715c-4904-b94a-28bfcc40a43c) (right click and open in new tab)
 
 ### Atomic Test (VistA) / Discrete Task Assay (Cerner): 
 
