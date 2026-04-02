@@ -390,11 +390,11 @@ _[For Perigean's communication with participants]_ Prerequisites for participant
 ### Prepare
 
 _Note: as these tests need to be conducted with real user data, the pilot tests were to practice guiding participants through set-up of the pre-release app and returning their phones to the original state._
-- `Pilot participant name:` **Michael Harmer, Janelle Finnerty, Ian Hilton**
+- `Pilot participant names:` **Michael Harmer, Janelle Finnerty, Ian Hilton**
 - `Date and time of pilot session:` **already completed**
 
 ### Research sessions
-- `Planned dates of research:` **4/13 - 4/20 (going to 4/22 if needed)**
+- `Planned dates of research:` **4/13 - 4/20 (if 4/13 is too early, this can go to 4/22)**
 
 ### Length of sessions
 - `Session length:` **1 hour**
@@ -412,16 +412,14 @@ _Note: as these tests need to be conducted with real user data, the pilot tests 
 - `4/17, Friday, 9:00 AM - 1:00 PM / 3:00 PM - 4:00 PM EDT`
 - `4/20, Monday, 12:00 PM - 4:00 PM EDT`
 
-<!-----
-To be used if needed
+If 4/13 is too early to start, these days are also available:
 - `4/21, Tuesday, 9:00 AM - 1:00 PM EDT`
 - `4/22, Wednesday, 9:00 AM - 10:30 AM / 12:00 PM - 4:00 PM EDT`
------>
 
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
 - `Moderator:` **Emily DeWan**	
-- `Research guide writing and task development (usually but not always same as moderator):` **Emily DeWan**		
+- `Research guide writing and task development:` **Emily DeWan**		
 - `Participant recruiting & screening:`	**Perigean**	
 - `Project point of contact:` **Natalie Davied Gibbons**		
 - `Accessibility specialist (for sessions where support for assistive technology may be needed):` **n/a**	
