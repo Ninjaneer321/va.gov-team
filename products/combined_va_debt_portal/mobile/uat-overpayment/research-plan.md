@@ -198,6 +198,19 @@ Veterans currently manage their debt on VA.gov; this will be a new addition to t
 [Link to product brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/Overpayment%20and%20Copayment%20Debts%20Product%20Brief.md)
 
 
+### Related Research 🔍
+
+**Previous Studies:**
+- [Mobile App Debt Portal: Overpayments and Copayments Research Findings, September 2025
+](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/research-findings.md)
+
+**Relevant Key Takeaways from Previous Research:**
+1. Despite their frustrations with the payment process on mobile, participants preferred having this option over a version that only allowed viewing debt and bills.
+5. Digital statements and documents are a core need for users.
+6. Separation of current and resolved debt is beneficial for clarity.
+7. Users want a clear, centralized way to manage their debt and bills.
+
+
 ### [OCTO-DE Priorities](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/strategy/OCTO-DE%20Priorities%202025.md) 
 
 `Objective 1:  VA’s digital experiences are the easiest and most efficient way to access VA health care and benefits.`  
