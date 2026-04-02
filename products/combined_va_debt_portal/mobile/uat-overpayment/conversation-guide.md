@@ -1,28 +1,5 @@
 ---
-title: Conversation Guide for Debt Resolution, VA Debt Portal - Mobile, 2024 01
-author: Denise Coveyduc
-date_created: '2024-01-01'
-last_modified: '2024-01-01'
-team: Debt Resolution
-portfolio: benefits
-product: VA Debt Portal - Mobile
-research_phase: validation
-research_method: uat
-session_duration: 30 minutes
-session_type: remote_moderated
-participant_criteria: Veterans with overpayment debt, mobile device users
-related_research_plan: products/combined_va_debt_portal/mobile/uat-overpayment/research-plan.md
-related_prototype: N/A
-tags:
-- debt-portal
-- mobile
-- UAT
-- overpayment
-- validation
-description: User acceptance testing for overpayment debt on mobile VA Debt Portal.
-recording_required: true
-observer_support: true
-consent_for_clips: true
+
 ---
 
 
