@@ -1,4 +1,173 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Mobile Feature Support, Debt Portal: Overpayments in Mobile App UAT, April 2026"
+date: 2026-04-02
+last_updated: 2026-04-02
+team: "Mobile Feature Support"
+product: "VA Mobile App - Overpayments Feature"
+product_area: "authenticated"
 
+# Background Context
+background:
+  problem_statement: "The VA mobile app lacks debt-related information for Veterans. This UAT validates that the Overpayments feature (allowing Veterans to view, manage, and resolve benefit overpayment debts) is ready for production release by confirming all functionality operates as intended with real user data."
+  product_location: "Authenticated section of VA Mobile App, added to existing Payments tab"
+  user_familiarity: "Iteration on existing - Veterans currently manage debt on VA.gov; this is a new addition to the mobile app"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/Overpayment%20and%20Copayment%20Debts%20Product%20Brief.md"
+
+# Research Design
+methodology: "User Acceptance Testing (UAT)"
+research_format:
+  location: remote
+  moderated: true
+
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Verify that all elements of the Overpayments functionality operate as intended for Veterans using real data"
+  - goal_2: "Validate that Veterans can successfully view, manage, and resolve overpayments using the app, meeting all criteria outlined in defined user paths"
+  - goal_3: "Confirm whether the Overpayments functionality is fully ready for production release"
+
+research_questions:
+  - "Can Veterans successfully view overpayment information on the home screen and Payments tab?"
+  - "Can Veterans navigate between list view and detail view without issues?"
+  - "Do help menus display correctly and provide accurate information about contacting the Debt Management Center?"
+  - "Can Veterans access and review payment history for overpayments?"
+  - "Do external resolution links (Pay.gov, FSR, Dispute your VA debt) function correctly with appropriate alerts?"
+  - "Can Veterans view and download debt letters?"
+  - "Do breadcrumb navigation elements return users to the correct previous screens?"
+  - "Are all alert messages, expandable sections, and UI elements functioning as designed?"
+
+hypotheses:
+  - "Users will be able to view, manage, and resolve their overpayments using the Overpayment feature"
+  - "Users will access overpayment information, complete key actions, and navigate between screens without issues"
+  - "The Overpayments functionality will operate correctly and meet all success criteria during user acceptance testing"
+
+expected_outcomes: "Findings will confirm whether the Overpayments functionality is fully ready for production release. If all success criteria are met, the team will proceed with launch and communicate results to stakeholders."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Recruit Veterans with current overpayment debt willing to log in with real credentials"
+  
+  primary_criteria:
+    - "Currently have an overpayment debt"
+    - "6 on iOS devices / 6 on Android devices (each platform can be a mix of phone and tablet)"
+    - "Be willing to log in to their VA account with their own credentials (priority given to those willing to share screens)"
+  
+  secondary_criteria:
+    - "A variety of types of overpayment debt among participants"
+    - "Participants who have multiple overpayment debts"
+  
+  screener_questions:
+    - question: "Do you currently owe any of the following types of VA debt? If so, please select all that apply."
+      qualifying_responses:
+        - "Post-9/11 GI Bill overpayment (books and supplies, housing, or tuition)"
+        - "Disability compensation and pension overpayment"
+        - "Education Ch 33-Ch 1606/Ch30 Kickers"
+        - "Chapter 34 education overpayment"
+        - "Chapter 35 education overpayment"
+      disqualifying_response: "Medical debt (only selection) or I do not currently owe any of the above types of VA debt"
+    
+    - question: "When you sign in to VA.gov and go to My VA, do you see details about 'overpayment debts' under the section 'Outstanding debts'? (This is different from copay bills.)"
+      qualifying_response: "Yes, I see a listing of 1 or more overpayment debts on VA.gov"
+      disqualifying_responses:
+        - "No, I don't see any overpayment debt details on VA.gov"
+        - "I don't have a VA.gov account / I can't sign in right now"
+      note: "Please make sure the link is included in the invitation"
+    
+    - question: "To participate in this study, you'll need to sign in to the VA mobile app using your real Login.gov or ID.me credentials so we can confirm everything is working correctly. Please confirm if you're willing to do this."
+      qualifying_responses:
+        - "I am willing to log in to the mobile app with my real credentials and share my screen during the session (PRIORITIZE)"
+        - "I am willing to log in to the mobile app with my real credentials, describe what I am seeing on screen, but NOT share my screen (only select if not enough from previous answer)"
+      disqualifying_response: "I am not comfortable logging in with my real credentials for this study"
+    
+    - question: "Participation requires downloading specific testing tools and a pre-release version of the VA app which will temporarily replace your current version. If you use an Android, you must also be comfortable enabling 'Install Unknown Apps' in your phone settings. Are you comfortable with this?"
+      qualifying_response: "Yes, I am comfortable with this"
+      disqualifying_response: "No, I would prefer not to change my phone/tablet settings or apps"
+    
+    - question: "Are you able to join the Zoom session from a smartphone or tablet? Any kind of smartphone or tablet will work as long as it connects to the internet."
+      qualifying_responses:
+        - "Yes, I have an iPhone where I can join the session (recruit 6 iOS: can be a mix of phone and tablet)"
+        - "Yes, I have an iPad where I can join the session"
+        - "Yes, I have an Android phone where I can join the session (for example: Samsung, Google, Motorola, or LG) (recruit 6 Android: can be a mix of phone and tablet)"
+        - "Yes, I have an Android tablet where I can join the session"
+      disqualifying_response: "No"
+    
+    - question: "When interacting with apps on your smartphone or tablet, do you usually adjust the standard display or use accessibility features? Please select all that apply."
+      acceptable_responses:
+        - "I mostly use the device's standard display settings"
+        - "I often increase the text size significantly"
+        - "I use screen magnification or zoom features"
+        - "Other"
+        - "Prefer not to say"
+      disqualifying_response: "I use a screen reader (such as VoiceOver or TalkBack)"
+
+participants:
+  veterans: 12
+  caregivers: 0
+  dependents: 0
+  total_recruited: 12
+  completed_sessions_goal: 6
+  platform_breakdown: "3 on iOS (mix of phone/tablet) and 3 on Android (mix of phone/tablet)"
+
+# Timeline & Sessions
+timeline:
+  pilot_sessions:
+    - date: "Already completed"
+      participants: "Michael Harmer, Janelle Finnerty, Ian Hilton, Natasha Huckleberry, Natalie Gibbons"
+      notes: "Pilot sessions to practice guiding participants through pre-release app setup"
+  
+  research_dates: "2026-04-13 to 2026-04-20"
+  research_review_submission: "TBD"
+  
+  availability_window:
+    primary_window: "2026-04-13 to 2026-04-20"
+    extended_window: "2026-04-21 to 2026-04-22 (if 4/13 is too early to begin)"
+    note: "If 4/13 is too early to begin, the window shifts to end on 4/22"
+
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+
+# Strategic Alignment
+octo_priorities:
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
+    key_results:
+      - "Improve satisfaction with web and mobile products by 5 points"
+      - "100% of transactions received via digital experiences are either processed correctly or user is notified of an error"
+
+veteran_journey_phases:
+  - "Starting Up (Moment: Balancing Finances)"
+  - "Taking Care of Myself (Moment: Maintaining my health)"
+  - "Putting Down Roots (Moment: Maintaining my financial, social, and emotional health)"
+  - "Retiring (Moment: Taking care of my health)"
+  - "Aging (Moment that Matters: Managing my declining health)"
+
+# Research Repository Tracking
+related_research:
+  previous_studies: []
+
+tags:
+  - "PRDT: Debt-portal"
+  - "AUD: Veterans"
+  - "BNFT: Finances"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "DSC: Accordions"
+  - "DSC: Alert Boxes"
+  - "DSC: Button"
+  - "DSC: Card"
+  - "DSC: Links"
+  - "DSC: Modal"
+  - "DSP: Content Presentation"
+  - "DSP: Help users to check answers"
+  - "DSP: Help users to navigate a long list"
+  - "DSP: Notifications"
+  - "user-acceptance-testing"
+  - "mobile-app"
+  - "Accessibility"
+
+---
 
 
 
