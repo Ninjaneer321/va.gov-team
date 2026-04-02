@@ -311,7 +311,7 @@ We plan on conducting 90-minute moderated usability sessions with AT users on st
       
 ## Research materials 📔
 
-* Conversation guide (link TBD)
+* [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/research/2026-04-dependents-management-AT-study/conversation-guide.md)
 * [686/674 staging ](https://staging.va.gov/view-change-dependents/add-remove-form-21-686c-v2/introduction)
 * [0538 staging](https://staging.va.gov/manage-dependents/verify-dependents-form-21-0538/introduction)
 	
