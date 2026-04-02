@@ -436,7 +436,7 @@ _Once user confirms they can see the page:_ `Now that you’ve seen both the Tra
 
 1. As you think about your task to file a claim for your dermatology appointment, what stands out to you? What do you notice?
 
-_Moderator switches to the other page._
+_Moderator switches to the other page._ `Now consider the [other page name].` 
 
 1. As you think about your task to file a claim for your dermatology appointment, what stands out to you? What do you notice?
 
