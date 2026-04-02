@@ -75,215 +75,92 @@ Thanks for joining us today\! My name is **Elena**. I have my teammate, Danielle
 
 Before we look at the website, let’s start with a couple warm-up questions.
 
-1. In the initial survey, you indicated that you use VA benefits. Can you tell me more about which VA benefits you're actively using?   
-2. Have you contacted VA for any kind of support in the last 6 months? Describe that experience to me.
+1. How long have you been a Veteran?
+2. In the initial survey, you indicated that you use VA benefits. Can you tell me more about which VA benefits you're actively using?   
+3. Tell me about a time that you contacted VA for support in the last 6 months.
    - How did you get in contact with VA?
    - What is your preferred way to contact VA for support?
-   - What types of things would you contact them for by phone vs. in person vs. digitally?
-4. Have you ever used Ask VA?  
-   - If yes, can you describe your most recent experience with Ask VA?  
-     - How frequently are you using Ask VA?   
-   - If no, move on to tasks.
+   - What types of things would you contact them for by phone vs. in person vs. online? How do you decide which method to use?
 
-Now we’re going to move into the next part of this session. I’m going to provide you with a few scenarios and tasks. Let's start by having you share your screen with us. 
+## Task 1: Navigate to Contact Us 
+*Goal: Learn how Veterans would navigate VA.gov to find support.* 
 
-## Task 1: Submit Education and Work Study Question \- 15 minutes
+https://staging.va.gov/
 
-*Goal: Learn about problem areas in submitting the form for education requests from Veterans.* 
+I've provided a link in the chat for you to open in your browser. Talking out loud, show me how you would find support for XYZ (something they would seek support online for).
 
-> [!NOTE]
-> Depending on which Group a participant is in (A or B) they may go through staging or the prototype first. 
+**Things to watch for:** 
+- Where do they go first?
+- What keywords are they looking for?
+- How difficult is it for them to find the Contact Page?
 
-**Staging**  
-You’ll need to login through ID.me. I've provided a link, email, and password for you in the chat. You can click through the additional login screens after your password to get to where we need to start. 
+### Contact page
+Talk me through the different types of support you see here. 
+- Login support links
+- Ask VA (Message us)
+- Hotlines (Call us)
+- Local VA Facility
+- Resources
+- FAQ
 
-**Prototype**  
-I've provided a link for you in the chat. Imagine that you've already logged into your VA.gov account. 
+**Questions:**
+- Have you ever used any of these?
+- How frequently have you used any of these options?
+- How did that experience go?
+- Have you ever messaged VA through Ask VA? Describe the last time you remember doing this. 
 
-[Link available here.](https://docs.google.com/document/d/1aDnIBf45PX0PtCS0inuKdzuyuuGfAs8jZdpbqpCAs8Y/edit?tab=t.xqc68vb3ppax#heading=h.8naf3b6w1yra)
+## Task 2: Explore Ask VA Introduction 
 
+Now, let's imagine you'd like to reach out to someone online. Again, talking out loud show me how you would get in touch with someone from here.
 
-##
+### Ask VA Introduction
 
-Now imagine, you’re having an issue with your work study benefits. You’ve been directed to Ask VA to get help with your issue. Before you click on anything to complete this task, take a second to look around and talk out loud about what it is that you’re seeing. 
+**Questions:**
+- What does this page mean to you?
+- What are your expectations on this page?
+- Are there any resources on this page that you want to review?
+   - How helpful are they? 
+- Auth/unauth
+   - What types of questions might you sign in to ask?
+      - What would you expect to be different once you've signed in here?
+   - What types of questions might you want to stay signed out to ask?
+   - How does signing in impact your experience to receive support?
+- Is there anything you might change on this page?
 
-- As you’re seeing this (for possibly the first time),   
-  - What are your expectations from Ask VA?  
-  - How long would you expect it to take to seek help through Ask VA?
+## Task 3: Complete the Form
 
-Now show us how you would use Ask VA to get help. 
+### Unauthenticated
 
-#### Probing questions:
+Now, imagine you've decided to ask a question without signing in, talk out loud as you show me how you would do that. 
 
-- **Categories/topics**  
-  - How do you interpret the lists you’re seeing? What do they mean to you?  
-  - How important do you think these questions are?  
-  - What would you do, if you couldn’t find an option that fit your needs?  
-- **Question**
+**Things to watch for:**
+- Where did they struggle, succeed?
+- Did they have to sign-in based on their selections? *Yes, No*
 
-  _(IF STAGING)_ Feel free to type in any question that you may have had about your education or work study benefits here.   
-  _(IF PROTOTYPE)_ You won't be able to type a question into this field, but talk outloud about what question you might want to type in here.   
+**Questions:**
+- (If they had to sign in) How does that impact your experience receiving support from VA?   
+- How do you feel about the length of the form you completed?
+- What did you like about using Ask VA to ask a question? What didn’t you like?
 
-  -  *(IF STAGING)* How did you determine what to write in the subject field vs. the question field?
-  - What information do you think is important to include in your question?  
-- **Attachment** \- Can you describe a time where you might want to attach something to your question?
-- **School state**
-  - _(If struggling)_ What do the questions on this page mean to you? 
+### Authenticated
 
-#### Things to watch for:
+Let's go back to Ask VA, and imagine you've decided to ask a question after signing in. Go ahead and sign in and talk out loud as you show me how you would ask a question after you've signed in. 
 
-- Where did they struggle, succeed? (Categories, topics, sub-topics?, attachments?)
+**Things to watch for:**
+- Where did they struggle, succeed?
+- Could they complete the form? *Yes, No*
 
-- Did they complete the task? 		
-  *Yes, Yes with help, No*
-
-#### 	Follow-up questions
-
-- On a scale from 1-5, how easy or difficult was it to complete that task?   
-  	*1 being very difficult, and 5 being very easy*
-
-- On a scale from 1-5, how satisfied were you with this process?   
-  	*1 being very unsatisfied, and 5 being very satisfied*
-
+**Questions:**
 - How do you feel about the length of the form you completed?
 - What did you like about using Ask VA to ask a question? What didn’t you like?   
-- What would you do next after submitting your question here? What would you expect Ask VA to do next?
-
-## Task 2: Review Question in Inbox \- 10 minutes
-
-*Goal: Learn how Veterans expect to review their previous asked questions and their status.*  
-
-> [!NOTE]
-> Participants will complete Task 2 in the same environment they completed Task 1. 
-
-**Staging**  
-You’ll need to login again through ID.me. I've provided a link, email, and password for you in the chat. You can click through the additional login screens after your password to get to where we need to start. 
-
-**Prototype**  
-I've provided a link for you in the chat. Imagine that you've already logged into your VA.gov account. 
-
-[Links here.](https://docs.google.com/document/d/1aDnIBf45PX0PtCS0inuKdzuyuuGfAs8jZdpbqpCAs8Y/edit?tab=t.xqc68vb3ppax#heading=h.8naf3b6w1yra)
-
-
-##
-
-Now imagine, it’s been a few months since you submitted that question, and in that time you've submitted other questions through Ask VA. You now want to go back to see the specific question you asked about your work study benefits. Show us how you would check on that question. 
-
-#### Probing questions:
-
-- **Inbox**  
-  - What attributes of your previous question are you looking for?  
-  - What information is most important from what you see here?  
-  - Is there anything else that isn’t here that might be helpful to you in finding your previous question?
-  - What order are you seeing your questions in? What order would you like to see them in?
-
-#### Things to watch for:
-
-- Where did they struggle, succeed? (Sort, filter, status, clicking a card)
-
-#### 	Follow-up questions
-- What did you like about reviewing your questions in Ask VA? What didn’t you like?   
-
-Now we’re going to ask you to complete the same tasks in a slightly different system. Some things may be very similar, while others may be completely different. We want to understand which experience you prefer. 
-
-
-## Task 3: Submit Education and Work Study Question \[COMPARISON\] \- 7 minutes
-
-*Goal: Learn about problem areas in submitting the form for education requests from Veterans.* 
-
-> [!NOTE]
-> Participants will now complete the same tasks as 1 and 2 in the opposite environment. 
-
-**Staging**  
-Here you’ll need to login through ID.me. I've provided a link, email, and password for you in the chat. You can click through the additional login screens after your password to get to where we need to start. 
-
-**Prototype**  
-I've provided a link for you in the chat. Imagine that you've already logged into your VA.gov account. 
-
-[Links here.](https://docs.google.com/document/d/1aDnIBf45PX0PtCS0inuKdzuyuuGfAs8jZdpbqpCAs8Y/edit?tab=t.xqc68vb3ppax#heading=h.8naf3b6w1yra)
-
-
-##
-
-Just as we did before, I want you to imagine you’re having an issue with your work study benefits. You’ve been directed to Ask VA to get help with your issue. Show us again how you would use Ask VA to get help. 
-
-#### Probing questions:
-
-- **Question**
-
-  _(IF STAGING)_ Feel free to type in any question that you may have had about your education or work study benefits here.   
-  _(IF PROTOTYPE)_ You won't be able to type a question into this field, but talk outloud about what question you might want to type in here.   
-
-  -  *(IF STAGING)* How did you determine what to write in the subject field vs. the question field?
-  - What information do you think is important to include in your question?  
-- **Attachment** \- Can you describe a time where you might want to attach something to your question?
-- **School state**
-  - _(If struggling)_ What do the questions on this page mean to you? 
-
-#### Things to watch for:
-
-- Where did they struggle, succeed? (Categories, topics, sub-topics?, attachments?)
-
-- Did they complete the task? 		
-
-  *Yes, Yes with help, No*
-
-#### 	Follow-up questions
-
-- On a scale from 1-5, how easy or difficult was it to complete that task?   
-  	*1 being very difficult, and 5 being very easy*
-
-- On a scale from 1-5, how satisfied were you with this process?   
-  	*1 being very unsatisfied, and 5 being very satisfied*
-
-- What did you like about using Ask VA to ask a question? What didn’t you like?   
-
-## Task 4: Review Question in Inbox \[COMPARISON\] \- 8 minutes
-
-*Goal: Learn how Veterans expect to review their previous asked questions and their status.*  
-
-> [!NOTE]
-> Participants will now complete the same tasks as 1 and 2 in the opposite environment. 
-
-**Staging**  
-You’ll need to login again through ID.me. I've provided a link, email, and password for you in the chat. You can click through the additional login screens after your password to get to where we need to start. 
-
-**Prototype**  
-I've provided a link for you in the chat. Imagine that you've already logged into your VA.gov account. 
-
-[Links here.](https://docs.google.com/document/d/1aDnIBf45PX0PtCS0inuKdzuyuuGfAs8jZdpbqpCAs8Y/edit?tab=t.xqc68vb3ppax#heading=h.8naf3b6w1yra)
-
-##
-
-Now imagine, it’s been a few months since you submitted that question, and in that time you've submitted other questions through Ask VA. You now want to go back to see the specific question you asked about your work study benefits. Show us how you would check on that question. 
-
-
-#### Probing questions:
-
-- **Inbox**  
-  - What attributes of your previous question are you looking for?  
-  - What information is most important from what you see here?  
-  - Is there anything else that isn’t here that might be helpful to you in finding your previous question?
-  - What order are you seeing your questions in? What order would you like to see them in?
-
-
-#### Things to watch for:
-
-- Where did they struggle, succeed? (Sort, filter, status, clicking a card)
-
-#### 	Follow-up questions
-
-- What did you like about reviewing your questions in Ask VA? What didn’t you like?   
+- Which experience did you prefer?
 
 ## Post-Task Interview \- 5 minutes
 
-- You got to experience two different versions of Ask VA today. Which did you prefer? 
-
-  *Version A / Version B (images)*
-
-- Why did you choose that version? 
-
-- If you could change anything about the Ask VA experience, what would it be?
+- How likely are you to return to Ask VA when you need support again? (Scale from 1-5, 1 being highly unlikely, 5 being highly likely)
+- If you are likely to return, would you sign in or start a question without signing in?
+- How likely are you to recommend Ask VA to another Veteran or family member when they need support again? (Scale from 1-5, 1 being highly unlikely, 5 being highly likely)
+- If anything, what would you change about the Ask VA experience? 
 
 ## Consent to use video clips
 
