@@ -394,7 +394,7 @@ _Note: as these tests need to be conducted with real user data, the pilot tests 
 - `Date and time of pilot session:` **already completed**
 
 ### Research sessions
-- `Planned dates of research:` **4/13 - 4/20 (if 4/13 is too early, this can go to 4/22)**
+- `Planned dates of research:` **4/13 - 4/20 (if 4/13 is too early to begin, the window shifts to end on 4/22)**
 
 ### Length of sessions
 - `Session length:` **1 hour**
@@ -412,7 +412,7 @@ _Note: as these tests need to be conducted with real user data, the pilot tests 
 - `4/17, Friday, 9:00 AM - 1:00 PM / 3:00 PM - 4:00 PM EDT`
 - `4/20, Monday, 12:00 PM - 4:00 PM EDT`
 
-If 4/13 is too early to start, these days are also available:
+Extended window (if 4/13 is not used):
 - `4/21, Tuesday, 9:00 AM - 1:00 PM EDT`
 - `4/22, Wednesday, 9:00 AM - 10:30 AM / 12:00 PM - 4:00 PM EDT`
 
