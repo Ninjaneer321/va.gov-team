@@ -145,7 +145,10 @@ veteran_journey_phases:
 
 # Research Repository Tracking
 related_research:
-  previous_studies: []
+  previous_studies:
+    - title: "Mobile App Debt Portal: Overpayments and Copayments Research Findings"
+      date: "September 2025"
+      url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/research-findings.md"
 
 tags:
   - "PRDT: Debt-portal"
