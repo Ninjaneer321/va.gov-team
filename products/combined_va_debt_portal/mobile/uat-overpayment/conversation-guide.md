@@ -253,6 +253,8 @@ _[resume recording]_
 
 Now I'm going to ask you to go to various parts of the app where I'll be checking to see that elements appear correctly.
 
+And because we're going to be looking at your financial information, I want to acknowledge that it can be a tough and sensitive topic. If you need to pause at any point, that's no problem at all.
+
 _Moderator will follow the test paths outlined in the spreadsheet. Both versions contain the same information._
 
 - Google Sheet: [Spreadsheet: Test paths and success criteria - Overpayment UAT](https://docs.google.com/spreadsheets/d/1xfHJGzPQJaIeO-uPp8D4aboEO-qSDvBVp0b5QABg_5Q/edit?gid=312390165#gid=312390165)
