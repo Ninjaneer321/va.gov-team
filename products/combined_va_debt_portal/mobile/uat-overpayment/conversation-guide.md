@@ -17,7 +17,7 @@ session_type: "remote_moderated"
 participant_criteria: "Veterans with current overpayment debt; iOS or Android smartphone users; able to authenticate with VA credentials (ID.me or Login.gov with 2FA access)"
 
 # Related documents
-related_research_plan: "(https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/research-plan.md)"
+related_research_plan: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/research-plan.md"
 related_prototype: "TestFlight (iOS): https://testflight.apple.com/join/RrO0Cw2q | Firebase (Android): https://appdistribution.firebase.dev/i/2e876a3d15d8784c"
 
 tags:
