@@ -162,21 +162,22 @@ Thank you for telling me about your experience. We're going to switch topics to 
 
 # Second Task: Review profile - 20/30 minutes
 
-11. Take a moment to review the page. What are your initial thoughts about the profile?  
-12. Before we go further, what would you expect to see in each section of the profile?  
-    1. Is there any information missing from the profile that you'd expect to find?  
-    2. Do you have any feedback on the order of information on the page?  
-    3. *If VSC shows*  
-       1. Thoughts on having your Veteran Status Card at the top of the page?  
-    4. *If the following sections are not mentioned, ask follow-up*  
-       1. Without navigating to any pages, where would you expect to find:  
-          1. Information about your DD214?  
-          2. Information about your disability rating?  
-          3. Health care email and text notifications?  
-
-13. Now we're going to navigate throughout the profile to gather feedback on the content.  
-
-14. *For moderator:* Have participants navigate to the following pages and ask questions for each.  
+11. Take a moment to review the page. Without navigating away, what are your initial thoughts about the profile?  
+12. Before we go further, I’m going to ask a few questions on where you would expect to find certain information. Please don’t navigate away from this page, we’ll do that soon. Where would you expect to find:  
+    1. Information about your DD214?  
+    2. Your direct deposit information?  
+    3. Information about your disability rating?  
+    4. Health care email and text notifications?  
+13. What would you expect to find in the:  
+    1. Health care settings section?  
+    2. Dependents and contacts section?  
+14. Is there any information missing from the profile that you’d expect to find?  
+15. Do you have any feedback on the order of information on the page?  
+16. Now we’re going to navigate throughout the profile to gather feedback on the content.  
+    1. Noting some pages have personal information on them. Are you comfortable sharing those pages?  
+       1. *If yes, continue.*  
+       2. *If no;* Sounds good. I will only ask you to navigate to pages without personal information on them. If at any point you want to stop just let me know.  
+17. *For moderator:* Have participants navigate to the following pages and ask questions for each.  
     1. Pages  
        1. Personal information  
        2. Service history information  
@@ -186,29 +187,25 @@ Thank you for telling me about your experience. We're going to switch topics to 
        5. Dependents and contacts  
        6. Letters and documents  
        7. Email and text notifications  
-    2. Questions  
+    2. Follow-up questions  
        1. Take a moment to review the page.  
        2. What are your initial thoughts?  
-       3. Is there any missing information you'd like to have on the page?  
-       4. *View only pages:* Is there any information you'd like to edit on this page?  
-       5. Edit pages: Do you expect your updated information to update across the entire VA?  
-
-15. Are there any pages you'd like to review that we didn't look at today?  
+       3. Is there any missing information you’d like to have on the page?  
+       4. Is your information correct?  
+          1. *If no*, how would you expect to correct it?  
+       5. *View only pages:* Is there any information you’d like to edit on this page?  
+       6. *Edit pages:* Do you expect your updated information to update across the entire VA?  
+18. Are there any pages you’d like to review that we didn’t look at today?  
     1. *If yes:* Feel free to navigate to them.  
-
-16. If we were to consolidate any categories what would you group together and why?  
-    1. We're considering consolidating Personal information, Contact information, and Service history information together. What are your thoughts?  
+19. If we were to consolidate any categories what would you group together and why?  
+    1. We’re considering consolidating Personal information, Contact information, and Service history information together. What are your thoughts?  
        1. If we were to do that, what would you call that section?  
-
-17. If we were to incorporate a search feature into the profile, is that something you could see yourself using? Why or why not?  
-
-18. If we were to add in a feature that would allow you to see your account activity. Such as when you last signed on. Where would you expect to find that feature?  
+20. If we were to incorporate a search feature into the profile, is that something you could see yourself using? Why or why not?  
+21. If we were to add in a feature that would allow you to see your account activity. Such as when you last signed on. Where would you expect to find that feature?  
     1. Is account activity something you could see yourself using? Why or why not?  
-
-19. If we were to add in a feature that would allow you to see all your current benefits. Where would you expect to find that feature?  
+22. If we were to add in a feature that would allow you to see all your current benefits. Where would you expect to find that feature?  
     1. Is a feature that outlines all your current benefits something you could see yourself using? Why or why not?  
-
-20. After exploring the profile, if you had a magic wand is there anything you'd want to change?
+23. After exploring the profile, if you had a magic wand is there anything you’d want to change?
 
 > [!NOTE]
 > ### Things to watch for:
