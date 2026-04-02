@@ -154,7 +154,9 @@ _References_:
     - Swipe moderator's video off to the side
     - Select Zoom from Permissions: “Display over other apps permission,” then go back to Zoom
 - [App install link for iOS (TestFlight)](https://testflight.apple.com/join/RrO0Cw2q)
+    - Version 2.71.1, Build 3718
 - [App install link for Android (Firebase)](https://appdistribution.firebase.dev/i/2e876a3d15d8784c)
+    - Version 2.71.0, Build 3460
 - [iOS directions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_iOS.md) for guiding them through the download and set-up
 - [Android directions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_android.md) for guiding them through the download and set-up
 
