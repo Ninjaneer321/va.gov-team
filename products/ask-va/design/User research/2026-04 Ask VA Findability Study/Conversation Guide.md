@@ -1,7 +1,7 @@
 
-# Conversation Guide for Ask VA's Findability Study (IN PROGRESS)
+# Conversation Guide for Ask VA's Findability Study 
 
-## Moderator logistics 📋✅
+## Moderator logistics 
 
 ### 2-3 days before the session
 
@@ -71,14 +71,16 @@ Thanks for joining us today\! My name is **Elena**. I have my teammate, Danielle
 
 \*\*\[Record answer here\]\*\*
 
-## Warm-up Questions \- 10 minutes
+## Warm-up Questions \- 10 minutes (IN PROGRESS)
 
 Before we look at the website, let’s start with a couple warm-up questions.
 
-1. In the initial survey, you indicated that you leverage VA’s Education or Training benefits. Can you tell me more about how you are currently leveraging those benefits?   
-   - Have you experienced any challenges related to receiving your VA education benefits?   
-2. Have you contacted VA for any kind of support in the last 6 months? Would you be willing to describe that experience to me?   
-3. Have you used Ask VA in the last 6 months?  
+1. In the initial survey, you indicated that you use VA benefits. Can you tell me more about which VA benefits you're actively using?   
+2. Have you contacted VA for any kind of support in the last 6 months? Describe that experience to me.
+   - How did you get in contact with VA?
+   - What is your preferred way to contact VA for support?
+   - What types of things would you contact them for by phone vs. in person vs. digitally?
+4. Have you ever used Ask VA?  
    - If yes, can you describe your most recent experience with Ask VA?  
      - How frequently are you using Ask VA?   
    - If no, move on to tasks.
