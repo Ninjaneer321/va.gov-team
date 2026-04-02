@@ -14,25 +14,15 @@ research_method: "usability_test"
 # NEW: Session details
 session_duration: "60 minutes"
 session_type: "remote_moderated"
-participant_criteria: "VA healthcare providers (PCPs and emergency department clinicians) who use medical calculators"
+participant_criteria: "VA healthcare providers (PCPs, clinicians, nurses and staff) who use My Workweek"
 
 # NEW: Related documents
 related_research_plan: "products/health-care/clinical-decision-support/medical-calculators/research/2025-09-Calculator-Detail-Page-Line-Chart-Testing/research-plan.md"
 related_prototype: "N/A"
 
 tags:
-  - "AUD-clinicians"
-  - "AUD-providers"
-  - "PRDT-medical-calculators"
-  - "PRDT-cds-console"
-  - "BNFT-health-care"
-  - "DSC-line-chart"
-  - "DSC-data-visualization"
-  - "usability-testing"
-  - "lab-results"
-  - "HAS-BLED"
-  - "clinical-workflows"
-description: "Usability testing of line charts displaying lab trend data within medical calculator fields (HAS-BLED calculator), evaluating clinician comprehension of ALT/AST/AP, Bilirubin, and INR lab history for clinical decision-making."
+  
+description: "Usability testing of featuer integrating Outlook Calendar into My Workweek"
 
 # NEW: Compliance flags
 recording_required: true
