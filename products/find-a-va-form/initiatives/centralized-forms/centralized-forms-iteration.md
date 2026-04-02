@@ -129,6 +129,9 @@ Answers to the following questions will influence the next iteration
 - [Early IA initiative and data](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/information-architecture/initiatives/centralized-forms)
 - Related:  [Form within a form discovery Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1733085553521/0527af22cdfe6ac91627efef4a3a262d3ee8932a?sender=u2aba00c97ab77c6ec1573123)
 
+### Research Documents
+- [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/centralized-forms/research/centralized-forms-conversation-guide.md)
+- [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/centralized-forms/research/centralized-forms-user-research-plan.md)
 
 ## Measuring Success
 
