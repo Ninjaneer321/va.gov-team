@@ -1,5 +1,43 @@
 ---
+title: "Conversation Guide for Combined VA Debt Portal Mobile App - UAT Overpayment Testing"
+author: "Emily DeWan"
+date_created: "2026-01-26"
+last_modified: "2026-04-02"
 
+# Core research metadata
+team: "Mobile Feature Support"
+portfolio: "benefits"
+product: "Debt Portal (Mobile)"
+research_phase: "validation"
+research_method: "user_acceptance_test"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with current overpayment debt; iOS or Android smartphone users; able to authenticate with VA credentials (ID.me or Login.gov with 2FA access)"
+
+# Related documents
+related_research_plan: "TBD - verify in research plan"
+related_prototype: "TestFlight (iOS): https://testflight.apple.com/join/RrO0Cw2q | Firebase (Android): https://appdistribution.firebase.dev/i/2e876a3d15d8784c"
+
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Finances"
+  - "PRDT: Debt-portal"
+  - "HDW: Smartphone"
+  - "DSC: Form"
+  - "DSP: Content Presentation"
+  - "user-acceptance-testing"
+  - "screen-sharing"
+  - "mobile-testing"
+  - "UAT"
+
+description: "Moderated usability testing session for the pre-release Combined VA Debt Portal mobile app. Participants log in with real credentials to validate that overpayment debt information displays correctly and consistently across iOS and Android platforms before public release."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
 ---
 
 
