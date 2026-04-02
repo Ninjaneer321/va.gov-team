@@ -1,6 +1,88 @@
 # Running Design and Research Agenda
 
 ----
+
+## April 2, 2026
+
+Attendees: Renata, Hieu, Jessica, Chantale, Andrea, John, Premal
+
+
+### AGENDA: 
+- OHI audit: short-term and long-term recommendations
+
+
+### Notes: 
+
+#### OHI
+- intension: OHI leading DSAT, standalone OHI lower satisfaction ratings
+- Started looking holistically at the CHAMPVA forms system
+- Adding additional tasks and complexity to forms and introduce way finding 
+
+- Hieu shows and walks through Mural
+- Health care Journey high-level with all the nodes of paths/tasks
+- Service blueprint approach: clarity, evident and feedback pillars
+- where there is potential demand failures - each node has its own and severity varies
+
+- 4 different gates or filters that they go through form
+- eligibility filter
+- who are you/applying for
+- supporting docs
+- Status or how to fix that: post submission, form status, claims, appeals
+- John - question and interested in order of eligibility and whom
+
+- OOUX high level overview
+
+- Short term OHI adjustments for quick fixes
+
+
+- Prefill - pulling for Veteran from and reaching family on file for VES
+- Merging OHI with claims process, out of date, and click update
+
+How beneficiaries connected to Veteran - family relationship pulled in and pre-populated
+
+Prefill and family associated - complaints in past data
+
+Agree to bundle OHIs similar to 10-10D submissions - comparable to what is done there
+
+- Better experience, better long term and iterate on it
+- Setup of 10-10d today, back end submits multiple OHIs
+
+- Longer term vision and bigger ares
+- 4 tickets queued up for smaller work
+- CSAT going up - timing of release with visual 
+
+#### OTHER UPDATES: 
+
+Premal - Strategy - do things that business partners don’t know about What we do to get a better experience. Doing this for the user, meet in middle to help program.
+
+
+##### Quarterly readout of Medallia 
+Tie product decisions to direct feedback from users
+
+##### School cert
+ - update that systems are talking to each other. Background update from Premal
+
+##### FMP 
+- letters live next week, so that FMP 1 is a generate letter, push of a button. Long term is to remove FMP 1, update the static pages to redirect. 
+- Talk to Content IA team 
+- remove pain point
+
+
+
+#### USER STORY SUMMARY - How might we style:
+
+- How might we quantify the problem areas holistically for CHAMVPA family and individual dynamics.
+- How might we understand family dynamic mental models as it relates to updating insurance infromation and submitting claims for multiple people in a family. 
+
+- As a product team - how might we better tell the user stories and experiences from qualitative data. 
+
+
+
+
+
+
+
+----
 ## March 19, 2026
 
 
