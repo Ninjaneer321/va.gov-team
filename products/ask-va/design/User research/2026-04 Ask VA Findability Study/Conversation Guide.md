@@ -110,6 +110,7 @@ Talk me through the different types of support you see here.
 - Have you ever messaged VA through Ask VA? Describe the last time you remember doing this. 
 
 ## Task 2: Explore Ask VA Introduction 
+*Goal: Learn how well the Introduction page sets Veterans up for successfully asking their question and getting a response* 
 
 Now, let's imagine you'd like to reach out to someone online. Again, talking out loud show me how you would get in touch with someone from here.
 
@@ -119,15 +120,20 @@ Now, let's imagine you'd like to reach out to someone online. Again, talking out
 - What does this page mean to you?
 - What are your expectations on this page?
 - Are there any resources on this page that you want to review?
-   - How helpful are they? 
-- Auth/unauth
-   - What types of questions might you sign in to ask?
-      - What would you expect to be different once you've signed in here?
-   - What types of questions might you want to stay signed out to ask?
-   - How does signing in impact your experience to receive support?
+   - How helpful are they?
+- After viewing this page, on a scale from 1-5, how well prepared do you feel to ask your question? (1 being not very prepared, and 5 being very prepared)
+- On a scale from 1-5, how confident are you about getting an answer to your question here? (1 being not very confident, and 5 being very confident)
+
+**Auth/unauth**
+- What types of questions might you sign in to ask?
+  - What would you expect to be different once you've signed in here?
+- What types of questions might you want to stay signed out to ask?
+- How does signing in impact your experience to receive support?
+
 - Is there anything you might change on this page?
 
 ## Task 3: Complete the Form
+*Goal: Learn how the unauthenticated form experience works for Veterans in comparison to the authenticated experience.* 
 
 ### Unauthenticated
 
@@ -155,7 +161,7 @@ Let's go back to Ask VA, and imagine you've decided to ask a question after sign
 - What did you like about using Ask VA to ask a question? What didn’t you like?   
 - Which experience did you prefer?
 
-## Post-Task Interview \- 5 minutes
+## Post-Task Interview
 
 - How likely are you to return to Ask VA when you need support again? (Scale from 1-5, 1 being highly unlikely, 5 being highly likely)
 - If you are likely to return, would you sign in or start a question without signing in?
