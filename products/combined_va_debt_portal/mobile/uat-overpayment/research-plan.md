@@ -389,8 +389,8 @@ _[For Perigean's communication with participants]_ Prerequisites for participant
 
 ### Prepare
 
-_Note: as these tests need to be conducted with real user data, the pilot tests were to practice guiding participants through set-up of the pre-release app and returning their phones to the original state._
-- `Pilot participant names:` **Michael Harmer, Janelle Finnerty, Ian Hilton**
+_Note: as these tests need to be conducted with real user data, the pilot tests were to practice guiding participants through set-up of the pre-release app and returning their phones to the original state. Additional tests were conducted using a prototype with the spreadsheet of test paths._
+- `Pilot participant names:` **Michael Harmer, Janelle Finnerty, Ian Hilton, Natasha Huckleberry, Natalie Gibbons**
 - `Date and time of pilot session:` **already completed**
 
 ### Research sessions
