@@ -44,11 +44,10 @@ Synchronous Go/No Go (Placeholder)
 
 ## Release Details (April 6, 2026 -- Full Permanent Release)
 
-- [ ] Enable in Production to 100% of users for 4/1-4/2 for a trial period.  Feature will be turned off again 4/3-4/5 to allow for some time to review metrics and ensure everything is working as anticipated. Feature will be turned back on for 100% of users permanently on Monday April 6th as long as everything looks good in production!
-- [ ] Confirm the release to Production, with a test user
-- [ ] Communicate release to ARP pilot users via Teams/Email
-- [ ] Mia to send out BLUF Statement
-- [ ] Communicate release to VBA and VSO liason office plus DAV leadership
+- [X] Enable in Production to 100% of users on 4/1 and monitor for any errors on 4/2 & again on 4/6.  If everything looks good with no errors we will send out the BLUF statement on Monday 4/6.
+- [X] Confirm the release to Production, with a test user
+- [ ] Mia to send out BLUF Statement on 4/6.
+- [ ] Communicate release to VBA and VSO liason office plus DAV leadership on 4/6.
 
 ***
 
@@ -75,9 +74,7 @@ While we cannot think of any events that would be critical enough to merit a rol
 ## Post Launch Metrics
 
 ### 1-Week Results Post-Launch 
-Intent to File [Datadog Dashboard Widgets](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/product-info/rep-claim-submissions/release-plan-intent-to-file.md)
-<img width="1281" height="957" alt="Screenshot 2026-02-03 at 8 21 43 AM" src="https://github.com/user-attachments/assets/e03e44ce-686e-41a8-8cec-bd9a8f615b87" />
-<img width="1270" height="910" alt="Screenshot 2026-02-03 at 8 21 57 AM" src="https://github.com/user-attachments/assets/b22e15d8-b3a4-4868-8858-af831ebe80ea" />
+
 
 
 ### 1-Month Results Post Launch
