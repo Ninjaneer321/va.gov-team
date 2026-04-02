@@ -94,8 +94,8 @@ We will recruit 15 Veterans for a total of 12 completed sessions.
 | ----- | ----- | ----- |
 | Required | Exactly 15 | Are Veterans |
 | Required | Exactly 15 | Have contacted VA online or over the phone in the past year |
-| Required | At least 6 | Have an active VA.gov account |
-| Required | Exactly 15 | Have VA benefits |
+| Required | Exactly 15 | Have an active VA.gov account (Don't know if I need to specify this) |
+| Required | Exactly 15 | Have VA benefits (Don't know if I need to specify this) |
 | Required | Exactly 6 | Are willing to join from a desktop device |
 | Required | Exactly 6 | Are willing to join from a mobile device |
 |  | At least 4 | Have a cognitive disability or consideration |
