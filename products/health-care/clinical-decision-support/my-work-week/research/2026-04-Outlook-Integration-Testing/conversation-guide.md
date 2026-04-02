@@ -1,13 +1,13 @@
 ---
-title: "Conversation Guide for CDS Medical Calculators, Calculator Detail Page Line Chart Testing, September 2025"
+title: "Conversation Guide for CDS My Workweek, Outlook Integration Testing, April 2026"
 author: "Rosemary Rogers"
-date_created: "2025-09-10"
-last_modified: "2025-09-17"
+date_created: "2026-04-02"
+last_modified: "2026-04-02"
 
 # NEW: Core research metadata
 team: "Clinical Decision Support (CDS)"
 portfolio: "health"
-product: "Medical Calculators"
+product: "My Workweek"
 research_phase: "usability"
 research_method: "usability_test"
 
