@@ -1,6 +1,6 @@
 ---
 title: "Conversation Guide for CDS My Workweek, Outlook Integration Testing, April 2026"
-author: "Rosemary Rogers"
+author: "Ayangbe Mannen"
 date_created: "2026-04-02"
 last_modified: "2026-04-02"
 
