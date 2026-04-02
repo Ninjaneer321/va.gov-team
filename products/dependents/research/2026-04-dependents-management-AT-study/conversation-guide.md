@@ -68,7 +68,7 @@ CHECK SLACK for real-time feedback or questions from observers
 * iPad: Broadcast screen
 * iPhone: Screen broadcast or Start broadcast
 
-# Screen sharing instructions (if needed)
+# Troubleshooting
 * [Avoid AI Companion, which is a new option next to “Share” in the Zoom buttons]
 * [If see unpredictable jumping around behavior and participant is using a browser other than Chrome, ask them to switch to Chrome (this helped with VoiceOver on an iPhone using Safari)]
 * [If having difficulty moving windows around or opening the prototype, you could request control of the participant’s screen and mouse in Zoom: <Name>’s screen tab > Request remote control. Then you can move/resize browser (but not zoom windows/buttons) and type into browser bar. The participant may need to minimize the zoom video view, and drag the zoom buttons to the bottom of the screen so out of the way.]
