@@ -30,7 +30,7 @@ Prior to the implementation of these questions on VA.gov, all 686c claims from V
 
 -----
 #### Q2
-![image](https://github.com/user-attachments/assets/6aed80c8-d502-415b-91d4-bd8299ba3512)
+![image](https://github.com/user-attachments/assets/611b2c02-92de-4693-8355-c19f9450ebf5)
 - This question is asked at the end of all dependent addition branches in the 686 flow.
 - VA.gov will flip the answer before sending to RBPS for reasons outlined in [historical context section](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/products/dependents/pension_income_questions.md#historical-context). (If the user answered Y, VA.gov will send RBPS N, etc.)
 - The net worth limit is updated each year in October. VA.gov leverages an API to automatically update the limit within this question, but the pdf (overflow) and the backup quesiton if the API fails need to be manually updated each year.
