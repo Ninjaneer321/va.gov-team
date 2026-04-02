@@ -79,5 +79,5 @@ The 21-526ez 1.1 allows representative users to indicate if the claim is related
 
 1. **Team Name**: Accredited Representative Crew
 2. **GitHub Label**: ar-crew
-3. **Slack channel**: ##benefits-accredited-rep-crew
+3. **Slack channel**: #benefits-accredited-rep-crew
 4. **DEPO Lead**: Jennifer Bertsch
