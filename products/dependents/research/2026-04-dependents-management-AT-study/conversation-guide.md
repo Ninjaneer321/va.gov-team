@@ -16,11 +16,6 @@ session_duration: "90 minutes"
 session_type: "remote_moderated"
 participant_criteria: "Veterans with service-connected disability compensation benefits and experience managing dependents (spouse, child, or parent); must use assistive technology (screen reader or magnifier)"
 
-# Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
-
 # Related documents
 related_research_plan: "products/dependents/research/2026-04-dependents-management-AT-study/research-plan.md"
 related_prototype: "staging.va.gov"
@@ -54,9 +49,12 @@ tags:
   - "form-usability"
   - "dependent-verification"
   - "dependent-management"
-
 description: "Moderated usability testing session evaluating the dependents management verification flow and 686 
 
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
 ---
 
 # Conversation Guide for AT testing of dependents management flow
