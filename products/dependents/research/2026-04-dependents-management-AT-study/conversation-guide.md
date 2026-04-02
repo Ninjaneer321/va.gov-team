@@ -49,7 +49,7 @@ tags:
   - "form-usability"
   - "dependent-verification"
   - "dependent-management"
-description: "Moderated usability testing session evaluating the dependents management verification flow and 686 
+description: "Moderated usability testing session evaluating the dependents management verification flow and 686" 
 
 ---
 
