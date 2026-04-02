@@ -186,7 +186,7 @@ Findings from this research will confirm whether the Overpayments functionality 
 <details>
 <summary>Click to view UAT Success Criteria Table</summary>
 
-Also available in [Excel spreadsheet](https://dvagov.sharepoint.com/:x:/s/vamobilefeaturesupport/IQB1m_Jp5sGuTKHALblAGsyPAVh-tVxfvvirz_dKytoIFT8?e=v9Wtbm)
+Also available in [Excel spreadsheet](https://dvagov.sharepoint.com/:x:/r/sites/vamobilefeaturesupport/Shared%20Documents/2026-01%20UAT%20Overpayment/Test%20paths%20and%20success%20criteria%20-%20Overpayment%20UAT.xlsx?d=w27e49683b8654ddda0ecea76d080023e&csf=1&web=1&e=bfAOHd)
 
 | Category | Screen | Activity | Success |
 | :--- | :--- | :--- | :--- |
@@ -276,7 +276,7 @@ This method is appropriate because the overpayments feature is in its final phas
 ## Research materials 📔
 
 - [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/conversation-guide.md)
-- [Spreadsheet with test user flows and success criteria](https://dvagov.sharepoint.com/:x:/s/vamobilefeaturesupport/IQB1m_Jp5sGuTKHALblAGsyPAVh-tVxfvvirz_dKytoIFT8?e=v9Wtbm)
+- [Spreadsheet with test user flows and success criteria](https://dvagov.sharepoint.com/:x:/r/sites/vamobilefeaturesupport/Shared%20Documents/2026-01%20UAT%20Overpayment/Test%20paths%20and%20success%20criteria%20-%20Overpayment%20UAT.xlsx?d=w27e49683b8654ddda0ecea76d080023e&csf=1&web=1&e=bfAOHd)
 
 Pre-release app builds
 - [for iOS (TestFlight)](https://testflight.apple.com/join/RrO0Cw2q)
