@@ -138,8 +138,8 @@ _References_:
 - [Screen sharing Android](https://depo-platform-documentation.scrollhelp.site/research-design/android-start-screen-share)
     - Swipe moderator's video off to the side
     - Select Zoom from Permissions: “Display over other apps permission,” then go back to Zoom
-- App install link for iOS (TestFlight) 🚧
-- App install link for Android (Firebase) 🚧
+- [App install link for iOS (TestFlight)](https://testflight.apple.com/join/RrO0Cw2q)
+- [App install link for Android (Firebase)](https://appdistribution.firebase.dev/i/2e876a3d15d8784c)
 - [iOS directions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_iOS.md) for guiding them through the download and set-up
 - [Android directions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_android.md) for guiding them through the download and set-up
 
