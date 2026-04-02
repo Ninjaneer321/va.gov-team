@@ -168,7 +168,6 @@ tags:
   - "DSP: Notifications"
   - "user-acceptance-testing"
   - "mobile-app"
-  - "Accessibility"
 
 ---
 
