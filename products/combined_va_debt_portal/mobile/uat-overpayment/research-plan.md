@@ -279,8 +279,8 @@ This method is appropriate because the overpayments feature is in its final phas
 - [Spreadsheet with test user flows and success criteria](https://dvagov.sharepoint.com/:x:/s/vamobilefeaturesupport/IQB1m_Jp5sGuTKHALblAGsyPAVh-tVxfvvirz_dKytoIFT8?e=v9Wtbm)
 
 Pre-release app builds
-- for iOS (TestFlight) 🚧
-- for Android (Firebase) 🚧
+- [for iOS (TestFlight)](https://testflight.apple.com/join/RrO0Cw2q)
+- [for Android (Firebase)](https://appdistribution.firebase.dev/i/2e876a3d15d8784c)
 
 Directions on using pre-release app builds
 - [for iOS (TestFlight)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_iOS.md)
