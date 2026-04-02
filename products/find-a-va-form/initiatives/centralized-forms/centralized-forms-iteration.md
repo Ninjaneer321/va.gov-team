@@ -133,8 +133,6 @@ Answers to the following questions will influence the next iteration
 - Increased ability for wider contribution to the digital forms space
 - Decreased number of search best bets needed to highlight the most valid option in search
 
-
-
 ### Artifacts
 - OCTO epic: [Centralized online forms #1160](https://github.com/orgs/department-of-veterans-affairs/projects/940/views/18?filterQuery=portfolio%3A%22OCTO+Digital+Experience%22+crew-%2F-pod%3A%22Content%2C+IA%2C+Editor+Experience%22&pane=issue&itemId=75354026&issue=department-of-veterans-affairs%7Cdigital-experience-products%7C1160)
 - Public Websites Epics:
@@ -146,6 +144,8 @@ Answers to the following questions will influence the next iteration
 
 
 ## Launch Planning
+- Drupal changes TBD
+- Front end changes TBD
 
 ### Collaboration Cycle
 
@@ -155,7 +155,7 @@ Answers to the following questions will influence the next iteration
 | PO Sync | 12/02/2025 | 122973 | Completed/Passed |  
 | Design Intent | 03/03/2026 | 122973|  |  
 | Research review | | |  |
-| Architecture Intent | TBD |[23767](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/23767 | Document in progress) |  |
+| Architecture Intent | TBD |[23767](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/23767) | Document in progress |  |
 | Midpoint Review | TBD | |  |
 | Analytics request |TBD | |  |
 | Contact center review |TBD | |  |
@@ -188,6 +188,13 @@ No longer part of the collaboration cycle. We will reach out directly to them fo
 ### Before
 
 
+
+
 ### After
+
+
+
+## Analytics
+- 2025 Analytics spreadsheet (in Sharepoint)
 
 ---
