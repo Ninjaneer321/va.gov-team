@@ -1,3 +1,3 @@
 Product outlines have been moved:
-1. [Product Outline: VA Form **21-526ez** in the Accredited Representative Portal (ARP)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-crew/product-documentation/representative-facing/526ez/product-outline-526ez.md)
-2. [Product Outline: VA Form **21-686c** in the Accredited Representative Portal (ARP)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-crew/product-documentation/representative-facing/686c/product-outline-686c.md)
+1. [Product Outline: VA Form **21-526ez** in the Accredited Representative Portal (ARP)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-crew/product-documentation/accredited-representative-portal/526ez/product-outline-526ez.md)
+2. [Product Outline: VA Form **21-686c** in the Accredited Representative Portal (ARP)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-crew/product-documentation/accredited-representative-portal/686c/product-outline-686c.md)
