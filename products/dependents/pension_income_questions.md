@@ -27,6 +27,7 @@ Prior to the implementation of these questions on VA.gov, all 686c claims from V
 #### Q1
 ![image](https://github.com/user-attachments/assets/4102c084-ce23-4caf-9f5d-a3a10d72cf5e)
 - This question is asked when a dependent is being added via a 21-686c
+- The dependent type listed in the question is changed to match the type of dependent the Veteran is adding (child, spouse, etc.)
 
 -----
 #### Q2
