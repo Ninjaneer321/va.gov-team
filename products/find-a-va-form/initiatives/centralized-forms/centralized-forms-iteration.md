@@ -135,15 +135,12 @@ Answers to the following questions will influence the next iteration
 
 
 
-
-
-
-
-
 ### Artifacts
 - OCTO epic: [Centralized online forms #1160](https://github.com/orgs/department-of-veterans-affairs/projects/940/views/18?filterQuery=portfolio%3A%22OCTO+Digital+Experience%22+crew-%2F-pod%3A%22Content%2C+IA%2C+Editor+Experience%22&pane=issue&itemId=75354026&issue=department-of-veterans-affairs%7Cdigital-experience-products%7C1160)
-
-
+- Public Websites Epics:
+  - [EPIC] [Centralized Forms] Research, Design, and Implementation of new centralized forms landing and about form pages [#22927](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/22927)
+  - [EPIC] [Centralized Forms] Support the new Forms home [#22177](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/22177)
+  - [EPIC] [Centralized Forms] Support the new Forms home [#22177](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/22177)
 
 ## Scope
 
@@ -151,28 +148,35 @@ Answers to the following questions will influence the next iteration
 ## Launch Planning
 
 ### Collaboration Cycle
-Milestone | Date | Notes |
----| :---: | :---: |
-| Collab cycle kickoff  | |
-| PO Sync |  | |
-| Design Intent | | |
-| CMS Request| | |
-| Research review| | |
-| Midpoint Review| | |
-| Analytics request| | |
-| Contact center review| | |
-| Staging review| | |
-| Privacy, security, infrastructure readiness review| | |
-| Architecture Intent| | |
+Milestone | Date | Ticket | Status | Notes |
+---| :---: | :---: | :---: |
+| Collab cycle ticket creation  | 10-22-2025 | [122973](https://github.com/department-of-veterans-affairs/va.gov-team/issues/122973) |
+| PO Sync | 12/02/2025 | 122973 | Completed/Passed |
+| Design Intent | 03/03/2026 | 122973|  |
+| Research review | | |  |
+| Architecture Intent | TBD |[23767]()https://github.com/department-of-veterans-affairs/va.gov-cms/issues/23767 | Document in progress |
+| Midpoint Review | | |  |
+| Analytics request | | |  |
+| Contact center review | | |  |
+| Staging review | | |  |
+| Privacy, security, infrastructure readiness review | | |  |
+
+
+### CMS Request
+No longer part of the collaboration cycle. We will reach out directly to them for collaboration.
 
 ### Timeline 
-> *Describe any major milestones for this initiative including organizational, legislative, etc. constraints.*
-
+- Mocks and prototype created: February/March 2026
+- Prototype created and mocks updated: March/April 2026
+- Research conducted: April 2026
+- Research Synthesis: April 2026
+- BE/FE work started: April 2026
+- BE/FE work target completion: May 2026
 
 
 #### Initiative Launch Dates
 - *Target Launch Date*
-  - tbd
+  -End of May 2026
 - *Actual Launch Date* 
   - tbd
 
@@ -181,6 +185,7 @@ Milestone | Date | Notes |
 ## Screenshots
 
 ### Before
+
 
 ### After
 
