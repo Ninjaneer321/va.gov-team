@@ -1,34 +1,62 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Dependents Management AT Study - April 2026"
+author: "Kristin Ouellette Muskat"
+date_created: "2026-04-02"
+last_modified: "2026-04-02"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Dependents Management Team"
+portfolio: "benefits"
+product: "Dependents Management"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "90 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with service-connected disability compensation benefits and experience managing dependents (spouse, child, or parent); must use assistive technology (screen reader or magnifier)"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/dependents/research/2026-04-dependents-management-AT-study/research-plan.md"
+related_prototype: "staging.va.gov"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "AUD: Dependents"
+  - "BNFT: Disability"
+  - "PRDT: Form 21-686c"
+  - "PRDT: MyVA"
+  - "DSC: Alert Boxes"
+  - "DSC: Form"
+  - "DSC: Form - Date Input"
+  - "DSC: Form - Select"
+  - "DSC: Form - Text Area"
+  - "DSC: Button"
+  - "DSP: Ask users for dates"
+  - "DSP: Ask users for multiple responses"
+  - "DSP: Error Message Guide"
+  - "DSP: Notifications"
+  - "DSP: Help users to check answers"
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "Accessibility"
+  - "usability-testing"
+  - "assistive-technology"
+  - "screen-reader-testing"
+  - "magnifier-testing"
+  - "form-usability"
+  - "dependent-verification"
+  - "dependent-management"
 
 # NEW: Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true
+
+description: "Moderated usability testing session evaluating the dependents management verification flow and 686 
+
 ---
 
 # Conversation Guide for AT testing of dependents management flow
