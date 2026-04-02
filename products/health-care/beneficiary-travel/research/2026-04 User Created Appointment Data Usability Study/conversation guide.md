@@ -430,7 +430,7 @@ _Moderator prepares to screenshare either "Go to your past appointments" or "Rev
 
 `Moderator: Now I'm going to show you something to get your feedback. I'm going to stop your screen sharing. Can you navigate back to the Zoom app?` 
 
-_Once user confirms that they are viewing the Zoom app:_ `I'm now going to share my screen. Can you see me scrolling on a page called [page name]?`
+_Once user confirms that they are viewing the Zoom app:_ `I'm now going to share my screen. Can you see me scrolling on a page called [page name]? If it appears small on our screen, you can pinch and stretch the screen to zoom in.`
 
 _Once user confirms they can see the page:_ `Now that you’ve seen both the Travel claims list and Past appointments list, I’d like to show them to you back-to-back. Recall that you want to file a claim for your dermatology appointment, which doesn't appear in your list of past appointments. I'd like to know which page seems most helpful as you try to accomplish that task. First, let's look at [either Travel claims list or Past appointments list].` 
 
