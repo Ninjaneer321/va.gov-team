@@ -410,8 +410,9 @@ What works well about having the entry point here? What doesn't work well?
 
 ## Section 4A: Comparative entry point assessment (Optional, if time)
 
-Which page shown to participant first?
-
+Which page is shown first to the participant?
+- [ ] Claims list
+- [ ] Past appointments list
 
 ### Past appointment list
 
