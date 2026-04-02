@@ -344,7 +344,7 @@ Screener question 6
     * I mostly use the device's standard display settings.
     * I often increase the text size significantly.
     * I use screen magnification or zoom features.
-    * I use a screen reader (such as VoiceOver or TalkBack).
+    * I use a screen reader (such as VoiceOver or TalkBack). _[DISQUALIFY]_
     * Other
     * Prefer not to say
 
