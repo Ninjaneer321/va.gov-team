@@ -27,7 +27,7 @@
 ## Have these links ready
 - VA.gov | MHV: https://tinyurl.com/tw2x448m 
 - Prototype 1: https://tinyurl.com/2yxwsv6v
-- Prototype 2  (TBD)
+- Prototype 2 https://tinyurl.com/yf6sd76b (updates coming)
 
 ---
 
@@ -278,7 +278,7 @@ Scenario: Imagine you want to send a message to your patient advocate health car
 
 ### Concept 2
 
-Now I’m going to share a second version of this experience. [link coming]
+Now I’m going to share a second version of this experience. https://tinyurl.com/yf6sd76b
 
 This one is a bit different from what you just saw, so again, just walk through it as you normally would and keep thinking aloud.
 
