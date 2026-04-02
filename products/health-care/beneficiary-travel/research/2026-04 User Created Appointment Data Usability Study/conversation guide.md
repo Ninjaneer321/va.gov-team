@@ -325,6 +325,8 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 4. What does the phrase "Proof of care received" mean to you?
 5. How might that change if it said "Proof of attendance"?
 6. _If they notice the explanation text:_ Do you have any concerns about what this is telling you?
+
+7. _Prompt user to select the file that looks right to them, then take the next step in their task._
    
 > [!NOTE]
 > #### Things to watch for:
