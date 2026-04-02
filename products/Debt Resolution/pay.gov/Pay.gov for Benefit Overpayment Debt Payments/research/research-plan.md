@@ -327,9 +327,6 @@ Are there moments that matter?</summary>
 
 **`10.`Do Veterans notice/understand the transition and does it impact trust?**
 
-**`11.`What parts of the flow are hardest to navigate with screen reader/magnifier and Zoom screen share?**
-
-
 > [!TIP]
 >Enter more questions as needed
 
