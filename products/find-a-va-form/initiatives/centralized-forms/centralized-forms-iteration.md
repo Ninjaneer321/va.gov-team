@@ -148,18 +148,19 @@ Answers to the following questions will influence the next iteration
 ## Launch Planning
 
 ### Collaboration Cycle
-Milestone | Date | Ticket | Status | Notes |
----| :---: | :---: | :---: |
-| Collab cycle ticket creation  | 10-22-2025 | [122973](https://github.com/department-of-veterans-affairs/va.gov-team/issues/122973) |
-| PO Sync | 12/02/2025 | 122973 | Completed/Passed |
-| Design Intent | 03/03/2026 | 122973|  |
+
+| Milestone | Date | Ticket | Status | Notes |
+| :---------| :--- | :----- | :----- |:------|
+| Collab cycle ticket creation  | 10/22/2025 | [122973](https://github.com/department-of-veterans-affairs/va.gov-team/issues/122973) |  |
+| PO Sync | 12/02/2025 | 122973 | Completed/Passed |  
+| Design Intent | 03/03/2026 | 122973|  |  
 | Research review | | |  |
-| Architecture Intent | TBD |[23767]()https://github.com/department-of-veterans-affairs/va.gov-cms/issues/23767 | Document in progress |
-| Midpoint Review | | |  |
-| Analytics request | | |  |
-| Contact center review | | |  |
-| Staging review | | |  |
-| Privacy, security, infrastructure readiness review | | |  |
+| Architecture Intent | TBD |[23767](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/23767 | Document in progress) |  |
+| Midpoint Review | TBD | |  |
+| Analytics request |TBD | |  |
+| Contact center review |TBD | |  |
+| Staging review | TBD | |  |
+| Privacy, security, infrastructure readiness review | TBD | |  |
 
 
 ### CMS Request
