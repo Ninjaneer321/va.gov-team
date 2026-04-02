@@ -51,10 +51,6 @@ tags:
   - "dependent-management"
 description: "Moderated usability testing session evaluating the dependents management verification flow and 686 
 
-# Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
 ---
 
 # Conversation Guide for AT testing of dependents management flow
