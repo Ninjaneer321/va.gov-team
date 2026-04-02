@@ -1,111 +1,188 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Dependents Management Team, 686/0538, April 2026]"
+title: "Research Plan for Dependents Management Team, 686/0538 AT Testing, April 2026"
 date: 2026-04-02
 last_updated: 2026-04-02
-team: "[Dependents Management]"
-product: "[Add/Remove/Verify Dependents forms 686 and 0538]"
-product_area: "[auth only]"
+team: "Dependents Management Team"
+product: "Add/Remove/Verify Dependents (Forms 686 and 0538)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[Help users keep their dependent spouses and children up-to-date on their disability and VA pension benefits]"
-  product_location: "[https://www.va.gov/manage-dependents/]"
-  user_familiarity: "[Iteration]"
-  product_brief_url: "[https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/initiative_brief/Dependent%20Picklist%20Component.md#phase-1-implementation-picklist-in-686c-remove-flows-september---december-2025]"
+  problem_statement: "Veterans need an easy way to keep their dependent spouses and children up-to-date on their disability and VA pension benefits to avoid overpayments and ensure compliance with the 8-year verification requirement. Current forms are difficult for users with assistive technology (AT) to navigate."
+  product_location: "https://www.va.gov/manage-dependents/"
+  user_familiarity: "Iteration - existing product with partial 2025 release of dependent picklist feature and digitized form 0538"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/initiative_brief/Dependent%20Picklist%20Component.md"
 
 # Research Design
-methodology: "[Usability testing with AT users]"
+methodology: "Usability testing with assistive technology users"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[Assess the usability of the dependents management flow, identifying barriers for Veterans who use assistive technology.]"
-  - goal_2: "[Determine if Veterans who use assistive technology understand how to complete the verification process if they do have changes to make]"
-  - goal_3: "[Understand the unique challenges AT users have with the cancel flow in the child add list+loop]"
+  - goal_1: "Assess the usability of the dependents management flow, identifying barriers for Veterans who use assistive technology."
+  - goal_2: "Determine if Veterans who use assistive technology understand how to complete the verification process if they do have changes to make."
+  - goal_3: "Understand the unique challenges AT users have with the cancel flow in the child add list+loop."
 
 research_questions:
-  - "[What specific needs do AT users have when encountering errors and instructions in the picklist?]"
-  - "[What barriers, if any, does the picklist pattern present to AT users?]"
-  - "[What is the right amount of content in headers, labels, and links to assist users without impeding usability for AT users?]"
-  - "[Can AT users make edits to their responses from the summary page?]"
-  - "[Are Veterans using assistive technology able to understand that they need to go to a different form to make changes?]"
-  - "[Can AT users navigate back to the verification form once they’ve made their changes in the 686?]"
-  - "[Do AT users understand where they have been returned to after cancelling? Does it align with their expectations, and if not, what would they expect?]"
-  - "[What unique challenges might AT users experience with the cancel flow?]"
-
+  - "What specific needs do AT users have when encountering errors and instructions in the picklist?"
+  - "What barriers, if any, does the picklist pattern present to AT users?"
+  - "What is the right amount of content in headers, labels, and links to assist users without impeding usability for AT users?"
+  - "Can AT users make edits to their responses from the summary page?"
+  - "What would Veterans expect to see or happen when they verify dependents?"
+  - "Are Veterans using assistive technology able to understand that they need to go to a different form to make changes?"
+  - "Can AT users navigate back to the verification form once they've made their changes in the 686?"
+  - "Are any headers, labels, or links lacking description or clarity?"
+  - "Do AT users understand where they have been returned to after cancelling? Does it align with their expectations, and if not, what would they expect?"
+  - "What unique challenges might AT users experience with the cancel flow?"
 
 hypotheses:
-  - "[Veterans who use assistive technology will be able to use the picklist pattern to remove dependents independently]"
-  - "[AT users wont experience any additional difficulties from the 0538→686 transition, beyond those experienced by other user types]"
-  - "[AT users will be able to understand and recover from errors]"
-  - "[The friction we have included in the app to explain add/removal reasons wont impede AT users from completing their task, or be overly frustrating]"
-  - "[The balance between context we have included in questions and in hint text is right for AT users]"
+  - "Veterans who use assistive technology will be able to use the picklist pattern to remove dependents independently."
+  - "AT users won't experience any additional difficulties from the 0538→686 transition, beyond those experienced by other user types."
+  - "AT users will be able to understand and recover from errors."
+  - "The friction included in the app to explain add/removal reasons won't impede AT users from completing their task, or be overly frustrating."
+  - "The balance between context included in questions and hint text is right for AT users."
 
-expected_outcomes: "[We want to test 686 picklist and 0538 pathways with AT users before releasing to 100% in production.]"
+expected_outcomes: "Test 686 picklist and 0538 pathways with AT users before releasing to 100% in production. Insights will prioritize changes to the dependents management flow to make the form more accessible to various AT users and move toward OCTO Goal #1: making the digital experience the best way to access VA benefits by increasing Veteran satisfaction."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Strategic recruitment with Perigean to ensure diversity of AT user types and demographic representation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Uses a screen reader every time they use the Internet (JAWS, NVDA, VoiceOver, TalkBack, or Narrator)"
+    - "Uses alternative navigation technology every time they use the Internet (switch systems, Dragon, Voice Control, or sip and puff device)"
+    - "Uses screen magnification every time they use the Internet (Magnifier, Zoom, ZoomText, or browser zoom at 200% or greater)"
+    - "Willing to join Zoom session using their AT"
+    - "Has been using their AT for at least 1 year"
+    - "Receives VA disability compensation or Veteran's Pension"
+    - "Must have Zoom downloaded to their device prior to the session and know how to share their screen"
+    - "Must be willing to share a web browser window over Zoom"
+    - "Must have a working microphone on their device"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 4 are age 55 or older"
+    - "At least 2 are women"
+    - "At least 2 don't have any degree or vocational training after high school"
+    - "At least 2 are 35 or under"
+    - "At least 2 live in a rural or remote area"
+    - "At least 3 are people of color (anything other than White or Caucasian)"
+    - "At least 4 have a cognitive disability (e.g., TBI)"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you use a screen reader, alternative navigation, or screen magnifier every time you use the Internet?"
+      qualifying_response: "Yes"
+      
+    - question: "Are you willing to join the Zoom session using your screen reader, alternative navigation technology, or screen magnifier?"
+      qualifying_response: "Yes"
+      
+    - question: "How long have you been using this screen reader or screen magnifier?"
+      qualifying_response: "At least 1 year"
+      
+    - question: "Do you receive VA disability compensation or Veteran's Pension?"
+      qualifying_response: "Yes"
+      
+    - question: "Have you ever received additional VA disability or pension compensation for one or more dependents (like a spouse, child, or parent)?"
+      qualifying_response: "Yes (prioritize), but No does not disqualify"
+      
+    - question: "What is the name of the screen reader, alternate navigation tool, or screen magnifier technology that you will use during the Zoom session?"
+      qualifying_response: "Must be one of: JAWS, NVDA, VoiceOver, TalkBack, Narrator (screen reader); switch systems, Dragon, Voice Control, sip and puff device (alternative navigation); Magnifier, Zoom, ZoomText, or 200%+ browser zoom (magnification). Non-digital magnification disqualifies."
+      
+    - question: "For this meeting, you'll need a device with Zoom installed that can screen share and has a working microphone. What kind of device will you be using?"
+      qualifying_response: "Smartphone or Computer (5 each recruited); Tablet (no more than 2 recruited)"
+      
+    - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
+      qualifying_response: "Yes = RECORD as having cognitive disability (recruit 4); No = continue"
+      
+    - question: "What (if any) accommodations will you need to participate in this Zoom session?"
+      qualifying_response: "Open-ended text response to document accommodations needed"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
+  assistive_technology_breakdown:
+    screen_reader_recruited: 6
+    screen_reader_goal: 4
+    alternative_navigation_recruited: 3
+    alternative_navigation_goal: 2
+    magnification_recruited: 3
+    magnification_goal: 2
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_sessions:
+    - date: "2026-04-06"
+      participant_type: "Alternative Navigation (ADE team)"
+      time: "11:30 AM - 1:00 PM ET"
+    - date: "TBD"
+      participant_type: "Screen Reader users (to be scheduled)"
+    - date: "TBD"
+      participant_type: "Magnification users (to be scheduled)"
+      
+  optional_kickoff_with_perigean:
+    - date: "2026-04-07"
+      time: "10 AM - 1 PM ET"
+    - date: "2026-04-08"
+      time: "10 AM - 1 PM ET or 3 PM - 6 PM ET"
+      
+  research_dates: "2026-04-15 to 2026-04-24"
+  research_review_submission: "2026-05-08"
+  contract_end_date: "2026-05-08"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 90
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
+  
+  session_availability:
+    - "Wed 4/15: 10 AM - 6 PM ET"
+    - "Thurs 4/16: 10 AM - 2 PM ET, 5 PM - 6 PM ET"
+    - "Fri 4/17: 10 AM - 6 PM ET"
+    - "Mon 4/20: 10 AM - 6 PM ET"
+    - "Tues 4/21: 10 AM - 6 PM ET"
+    - "Wed 4/22: 10 AM - 6 PM ET"
+    - "Thurs 4/23: 10 AM - 6 PM ET"
+    - "Fri 4/24: 10 AM - 2 PM ET"
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 3: Relentlessly improve the user experience"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
-      
+      - "Key Result 3.1: Each OIT portfolio will improve customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more. This research will support the Health/Benefits portfolio in improving customer satisfaction of the dependent management forms for AT users."
+
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Putting Down Roots"
+  - "Aging"
+  - "Dying"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
-    
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/dependents/research"
+
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Internal VA Stakeholders"
+  - "BNFT: Disability"
+  - "BNFT: Pension"
+  - "PRDT: Form 21-686c"
+  - "PRDT: Form 21-0538"
+  - "PRDT: Dependents"
+  - "DSP: Ask users for multiple responses"
+  - "DSC: Form"
+  - "Accessibility"
+  - "usability-testing"
+  - "assistive-technology"
+  - "screen-reader-testing"
+  - "alternative-navigation-testing"
+  - "magnification-testing"
 ---
 
 
