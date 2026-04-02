@@ -1,5 +1,6 @@
 # Financial Management Team 
-**Folder has all necessary files for the Financial Management (FinMan) Team** _Formerly known as Debt Resolution (DebtRes) and Benefits & Memorials 2 (BAM2) Team_
+**Folder has all necessary files for the Financial Management (FinMan) Team** 
+_Formerly known as Debt Resolution (DebtRes) and Benefits & Memorials 2 (BAM2) Team_
 
 ---
 
