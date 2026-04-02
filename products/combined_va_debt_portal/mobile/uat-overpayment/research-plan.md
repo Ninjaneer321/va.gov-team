@@ -379,7 +379,7 @@ _[For Perigean's communication with participants]_ Prerequisites for participant
 #### Secondary criteria (nice-to-haves)
 
 - `A variety of types of overpayment debt among participants`
-- `Participants who have multiple types of overpayment debt`
+- `Participants who have multiple overpayment debts`
 
 ## Timeline 🗓️
 
