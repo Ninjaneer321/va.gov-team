@@ -394,29 +394,30 @@ _Note: as these tests need to be conducted with real user data, the pilot tests 
 - `Date and time of pilot session:` **already completed**
 
 ### Research sessions
-- `Planned dates of research:` **[Enter dates MM/DD-MM/DD]** 🚧
+- `Planned dates of research:` **4/13 - 4/20 (going to 4/22 if needed)**
 
 ### Length of sessions
 - `Session length:` **1 hour**
   
 - `Buffer time between sessions:` **30 minutes**
   
-- `Maximum Sessions per day:` **3**
+- `Maximum Sessions per day:` **4**
 
-### Availability 🚧
-When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
+### Availability
 
+- `4/13, Monday, 12:00 PM - 4:00 PM EDT`
+- `4/14, Tuesday, 9:00 AM - 11:30 AM / 1:30 PM - 4:00 PM EDT`
+- `4/15, Wednesday, 9:00 AM - 10:30 AM / 12:00 PM - 4:00 PM / 8:00 PM - 10:30 PM EDT` 
+- `4/16, Thursday, 9:00 AM - 1:00 PM / 1:30 PM - 4:00 PM EDT`
+- `4/17, Friday, 9:00 AM - 1:00 PM / 3:00 PM - 4:00 PM EDT`
+- `4/20, Monday, 12:00 PM - 4:00 PM EDT`
 
-> [!TIP]
-> Please request enough dates and at ***least double the amount of time slots for the number of requested participants***. **(e.g. 3/17, Monday 9:00AM-1:00PM, 3:00PM-6:00PM EST; 3/18, Tuesday 9:00AM-6:00PM EST, etc.;** ***12 time slots for 6 participants***). This helps Perigean book participants when there are more time slots available, and when sessions need to be rescheduled or filled in with further recruitment.
+<!-----
+To be used if needed
+- `4/21, Tuesday, 9:00 AM - 1:00 PM EDT`
+- `4/22, Wednesday, 9:00 AM - 10:30 AM / 12:00 PM - 4:00 PM EDT`
+----->
 
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `Add more slots as needed`
-  
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
 - `Moderator:` **Emily DeWan**	
