@@ -151,7 +151,7 @@ Go ahead and login here.
    - What would help you feel more confident? 
 
 ## Post-Task Interview
-
+- How did this experience compare to other times you've needed to get in touch with help outside of VA? 
 - At this point, how likely are you to return to Ask VA when you need help again? (Scale from 1-5, 1 being highly unlikely, 5 being highly likely)
 - Imagine you've received a reply to your question, how likely are you to return to Ask VA when you need help again? (Scale from 1-5, 1 being highly unlikely, 5 being highly likely)
 
@@ -160,7 +160,7 @@ Go ahead and login here.
 - At this point, how likely are you to recommend Ask VA to another Veteran or family member when they need help again? (Scale from 1-5, 1 being highly unlikely, 5 being highly likely)
 - Imagine you've received a reply to your question, how likely are you to recommend Ask VA to another Veteran or family member when they need help again? (Scale from 1-5, 1 being highly unlikely, 5 being highly likely)
 
-- If anything, what would you change about the Ask VA experience? 
+- If anything, what would you change about the Ask VA experience?
 
 ## Consent to use video clips
 
