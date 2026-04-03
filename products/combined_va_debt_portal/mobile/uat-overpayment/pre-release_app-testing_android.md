@@ -49,7 +49,7 @@ Some of the latest updates are behind feature flags, and you'll need to turn the
     * Navigate to: Profile > Settings > Developer Screen.
     * Scroll down to the Firebase section (located just below the first set of blue buttons).
     * Tap Remote Config.
-    * > Note: Do not tap the "Remote Config Test" blue button.
+      > Note: Do not tap the "Remote Config Test" blue button.
     * Toggle on the specific feature flag.
     * Confirm changes: Apply (upper right) or Apply Overrides (bottom).
 
