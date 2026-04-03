@@ -557,7 +557,14 @@ Eight participants said they wanted to be able to delete a form they started but
      1. Try to update source code so that "Finish later" message on "form-saved" page is read as one continuous sentence [#136900](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136900)
 
 1. Discuss content-related findings and recommendations with the Content team.
+     1. Statement of Truth component: Revise 'Your full name' prompt on "Review and Submit" page to refer to earlier entry [#136905](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136905)
+     1. Avoid using 'My VA' and 'form introduction' phrases in forms interface [#136964](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136964)
+     1. Make the form number on the form intro page display on a single line [#136970](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136970)
+     1. Address Pattern: Add a duplicate "United States" option near the bottom of the country dropdown [#136983](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136983)
 1. Review and prioritize the usability and accessibility revisions to the Forms Library.
+     1. Make "Back to previous page" link more visible on form pages [#136902](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136902)
+     1. Disable auto scrolling when opening accordions on "Review and Submit" page [#136903](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136903)
+     1. Fix capitalization of "VA file number" in hint text on "SSN/VA file number" page [#136904](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136904)
 1. Review and prioritize the usability and accessibility revisions to the Request personal records form.
 1. Followup with the US Web Design System team about the location of accordion controls.
      1. Move open/close icons of accordions to the left [#4798](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/4798)
