@@ -580,7 +580,7 @@ Eight participants said they wanted to be able to delete a form they started but
 
 6. Work on opportunities to help Veterans who are struggling with their assistive tech.
      1. Explore opportunities to assist Veterans struggling with assistive tech [#136901](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136901)
-1. Research issue with Zoom kicking out iPhone VoiceOver user during research session[#136987](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136987)
+     1. Research issue with Zoom kicking out iPhone VoiceOver user during research session [#136987](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136987)
 
 ## Further research needed
 
