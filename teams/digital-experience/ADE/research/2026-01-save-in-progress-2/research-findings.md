@@ -142,6 +142,7 @@ outcomes:
   business: "Not specified"
 opportunity_areas: []
 further_research_needed:
+  - "Check analytics for the existing \"Finish this request later\" link on VA forms to see how much it's being used. Then see if changing this link to a button (as tested in this study) results in more clicks."
   - "Any additional research should **include some participants who are 35 years old or younger**."
   - "Any additional research should **include more participants who use screen magnification**."
   - "Consider checking analytics for the existing \"Finish this request later\" link on VA forms to see how much it's being used. Then see if changing this link to a button (as tested in this study) results in more clicks."
@@ -568,6 +569,8 @@ Eight participants said they wanted to be able to delete a form they started but
 1. Try to reproduce the Zoom/iPhone/VoiceOver issue.
 
 ## Further research needed
+
+1. **Check analytics for the existing "Finish this request later" link** on VA forms to see how much it's being used. Then see if changing this link to a button (as tested in this study) results in more clicks.
 
 1. Any additional research should **include some participants who are 35 years old or younger**. The two such participants recruited for this study didn't show up.
 
