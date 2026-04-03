@@ -8,26 +8,70 @@ This page provides evidence required as part of the Collaboration Cycle process 
 
 ## Regression Test Plan
 
+Our test plans are hosted in TestRails. The "BDD SHA Upload" section was created to group our tests.
+
+- [526 / Disability Experience: BDD SHA Upload](https://dsvavsp.testrail.io/index.php?/suites/view/2552&group_id=46311&group_by=cases:section_id&group_order=asc&display=tree&display_deleted_cases=0)
+
+Specific to "Regression" testing, the following test case was added to ensure the new changes do not break existing
+features.
+
+- [(C166096) BDD User Can Upload SHA Part A - Existing Supporting Evidence Flow](https://dsvavsp.testrail.io/index.php?/cases/view/166096)
+- [(C166101) Non-BDD User Does Not See SHA Upload UI](https://dsvavsp.testrail.io/index.php?/cases/view/166101&group_id=46311&group_by=cases:section_id&group_order=asc&display=tree&display_deleted_cases=0)
+
 ## Test Plan
 
-TODO
+Our test plans are hosted in TestRails. The "BDD SHA Upload" section was created to group our tests.
+
+- [526 / Disability Experience: BDD SHA Upload](https://dsvavsp.testrail.io/index.php?/suites/view/2552&group_id=46311&group_by=cases:section_id&group_order=asc&display=tree&display_deleted_cases=0)
+
+Specific to "Test Plan" testing, the following test case was added to ensure the new changes work as expected.
+
+- [(C166099) BDD User Can Upload SHA Part A - Enhanced Supporting Evidence Flow](https://dsvavsp.testrail.io/index.php?/cases/view/166096)
+- [(C166100) BDD User Can Upload SHA Part A - Warned when opting to not upload](https://dsvavsp.testrail.io/index.php?/cases/view/166100)
+- [(C244338) BDD User Can Upload SHA Part A - Maximum Upload Limit](https://dsvavsp.testrail.io/index.php?/cases/view/244338)
+- [(C244341) BDD User Can Upload SHA Part A - Warned before destructive action](https://dsvavsp.testrail.io/index.php?/cases/view/244341)
+- [(C244342) BDD User Can Upload SHA Part A - Warned before destructive action from Review and Submit page](https://dsvavsp.testrail.io/index.php?/cases/view/244342)
 
 ## Traceability Reports
 
-TODO
+Here is how our user stories map to test requirements.
+
+| Ticket name                                                                                                                | Test Case |
+| -------------------------------------------------------------------------------------------------------------------------- | --------- |
+| Create new SHA Part A Upload Page                                                                                          | C166099   |
+| Add confirmation of SHA upload on supporting evidence summary page                                                         | C244345   |
+| Add confirmation of SHA upload on Review & Submit and CoS page                                                             | C166100   |
+| Remove SHA warning from additional evidence page if BDD SHA feature flag on                                                | C244345   |
+| Remove SHA references from evidence types BDD page                                                                         | C244345   |
+| Add warning message to review and submit page if SHA document was not uploaded                                             | C166100   |
+| On new SHA Page, show destructive modal if "No, I do not want to upload my SHA" is selected and a SHA was already uploaded | C244342   |
+| When SHA Flag is Turned Off and Veteran is on new SHA page, redirect to Supporting Evidence Orientation                    | C244344   |
+| Ensure Enhanced Evidence Flow and BDD SHA Feature Flags route correctly                                                    | C166099   |
+| Remove dropdown from V1 File Input for BDD SHA pages                                                                       | C244345   |
+| Update submit-transformer to copy SHA into attachments if BDD flag is disabled                                             | C244343   |
+| Remove the SHA reminder in the confirmation page if the user already uploaded a SHA                                        | C244345   |
+| BDD SHA destructive modal should return focus to triggering button                                                         | C244341   |
+| Enforce a minimum number of files required on BDD SHA Upload page                                                          | C244338   |
+| Correct BDD SHA warning text on separation-health-assessment page                                                          | C244345   |
+| Text correction needed on /separation-health-assessment-file-upload-v1                                                     | C244345   |
 
 ## E2E Test Report
+
 Cypress test for BDD SHA delete flow:
+
 - [bdd-sha-delete-flow.cypress.spec.js](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/applications/disability-benefits/all-claims/tests/bdd-sha-delete-flow.cypress.spec.js)
 
 Full e2e test with BDD SHA feature flag enabled
+
 - [bdd-claims.cypress.spec.js](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/applications/disability-benefits/all-claims/tests/bdd-claims.cypress.spec.js)
 
 Cypress helper file with new BDDA SHA workflow feature flag:
+
 - [supporting-evidence/separation-health-assessment](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/applications/disability-benefits/all-claims/tests/cypress.helpers.js#L782)
 - [supporting-evidence/summary](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/applications/disability-benefits/all-claims/tests/cypress.helpers.js#L832)
 
 ## E2E Tests - Best Practice Adherence
+
 See tests listed above. We leverage stubbed endpoints for consistency and the platform provided `createTestConfig` helper for form testing.
 
 ## E2E Test Execution Time
