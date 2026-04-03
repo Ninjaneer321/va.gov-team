@@ -480,7 +480,7 @@ Eight participants said they wanted to be able to delete a form they started but
 1. **Investigate ways of deleting in-progress forms and notifying users about forms in progress within a certain time frame before they are deleted**.
    - _Supporting evidence_: Almost all participants wanted to be notified before their forms were deleted via email and/or text, with one participant suggesting a notification in the VA mobile app. Most people wanted the first notification within 1-7 days of having selected "Finish later", and then once a week after that. All 8 participants asked said they wanted to be able to delete a form they started but never finished.
 
-1. **Consider moving the accordion controls to the left side so as to increase visibility for screen magnifier users who may not see any controls on the right.** --> *Cindy shared this finding with Chandra Carney from the US Web Design System team on 2/17/2026 via email, but hasn't yet received a reply. Design System & Forms ticket: [[Feature request] Move open/close icons of accordions to the left #4798](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/4798)*
+1. **Consider moving the accordion controls to the left side so as to increase visibility for screen magnifier users who may not see any controls on the right.** --> *Cindy shared this finding with Chandra Carney from the US Web Design System team on 2/17/2026 via email, and Jeana has a ticket for it.*
    - _Supporting evidence_: 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side, including the participant who was using a screen magnifier.
 
 1. **Try to update the source code so that the "Finish later" message on the "form-saved" page is read as one continuous sentence** (vs. separate chunks, which causes the browser to display them on separate lines, which caused pauses with mouse echo). --> *Feature request for the Forms Library*
@@ -553,11 +553,14 @@ Eight participants said they wanted to be able to delete a form they started but
 
      1. Add auto-save text above Continue button on every VA form page [#136898](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136898)
      1. "Finish this application" button styled like a link [#6061](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/6061)
+     1. Investigate deletion and notification for in-progress VA forms [#136899](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136899)
 
 1. Discuss content-related findings and recommendations with the Content team.
 1. Review and prioritize the usability and accessibility revisions to the Forms Library.
 1. Review and prioritize the usability and accessibility revisions to the Request personal records form.
 1. Followup with the US Web Design System team about the location of accordion controls.
+     1. Move open/close icons of accordions to the left [#4798](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/4798)
+
 
 ### For the ADE team
 
