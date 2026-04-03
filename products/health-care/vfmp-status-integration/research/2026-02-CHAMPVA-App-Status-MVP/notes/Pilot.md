@@ -1,4 +1,4 @@
-# P(number)
+# Pilot
 > Tip: To fill in a checkbox, add an x in between the brackets, like [x] 
 
 Participant type
