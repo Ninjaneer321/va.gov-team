@@ -50,8 +50,8 @@ Some of the latest updates are behind feature flags, and you'll need to turn the
     * Scroll down to the Firebase section (located just below the first set of blue buttons).
     * Tap Remote Config.
     * > Note: Do not tap the "Remote Config Test" blue button.
-    * Toggle "overpayments" on
-    * Confirm changes: Apply (upper right) or Apply Overrides (bottom)
+    * Toggle on the specific feature flag.
+    * Confirm changes: Apply (upper right) or Apply Overrides (bottom).
 
 3. Sign Out (Optional)
     * If you need to sign in with different credentials to test the feature, go to: 
