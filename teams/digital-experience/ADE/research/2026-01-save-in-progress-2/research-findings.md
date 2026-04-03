@@ -547,17 +547,13 @@ Eight participants said they wanted to be able to delete a form they started but
 
 ## Next Steps
 
-*Outline immediate actions based on findings, including owners if applicable.*  
-
-> [!TIP]
-> Once your **Recommendations** and **Next Steps** are finalized, you can quickly turn them into GitHub issues using the reusable Copilot prompt in [`create-issues-from-research-findings-prompt.md`](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/create-issues-from-research-findings-prompt.md).  
-> **After creating issues, add their hyperlinks back here under their corresponding "Recommendation" or "Next Step."**
-> 
-> If you need Github Copilot Enterprise Access, please complete this [Issue](https://github.com/department-of-veterans-affairs/copilot-onboarding/issues/new?template=copilot-onboarding.yml).
-
 ### For the VA Design System and Forms Team
 
 1. Explore more accessible approaches to inform users that their form is being saved based on these research findings.
+
+     1. Add auto-save text above Continue button on every VA form page [#136898](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136898)
+     1. "Finish this application" button styled like a link [#6061](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/6061)
+
 1. Discuss content-related findings and recommendations with the Content team.
 1. Review and prioritize the usability and accessibility revisions to the Forms Library.
 1. Review and prioritize the usability and accessibility revisions to the Request personal records form.
