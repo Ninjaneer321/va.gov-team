@@ -301,6 +301,55 @@ All participants must receive VA health care, have sent a secure message to thei
 
 ---
 
+### Session availability (PT)
+- `Time slots per day:` **4 (max 3 scheduled)**
+- `Session length:` **60 minutes**
+- `Buffer:` **at least 30 minutes between sessions**
+
+**Monday, April 20**
+- 9:30–10:30 AM  
+- 11:00 AM–12:00 PM  
+- 1:00–2:00 PM  
+- 3:00–4:00 PM  
+
+**Tuesday, April 21**
+- 9:30–10:30 AM  
+- 11:00 AM–12:00 PM  
+- 1:00–2:00 PM  
+- 3:00–4:00 PM  
+
+**Wednesday, April 22**
+- 9:30–10:30 AM  
+- 11:00 AM–12:00 PM  
+- 1:00–2:00 PM  
+- 3:00–4:00 PM  
+
+**Thursday, April 23**
+- 9:30–10:30 AM  
+- 11:00 AM–12:00 PM  
+- 1:00–2:00 PM  
+- 3:00–4:00 PM  
+
+**Friday, April 24**
+- 9:30–10:30 AM  
+- 11:00 AM–12:00 PM  
+- 1:00–2:00 PM  
+- 3:00–4:00 PM  
+
+**Monday, April 27 (backup / overflow)**
+- 9:30–10:30 AM  
+- 11:00 AM–12:00 PM  
+- 1:00–2:00 PM  
+- 3:00–4:00 PM  
+
+**Tuesday, April 28 (backup / overflow)**
+- 9:30–10:30 AM  
+- 11:00 AM–12:00 PM  
+- 1:00–2:00 PM  
+- 3:00–4:00 PM  
+
+---
+
 ## Team Roles 🕵️
 
 - Moderator: **Espy Thompson, Athena Bozak**   
