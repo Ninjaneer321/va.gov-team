@@ -633,4 +633,4 @@ Study will be conducted on VA.gov production. Experience went live 03/13/2026.
 ## Approvals ✅
 
 - `Reviewed by OCTO Product Owner, Denise Coveyduc on 03-30-2026`
-- `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`
+- `Reviewed by OCTO Research-Ops Lead on [04-02-2026]`
