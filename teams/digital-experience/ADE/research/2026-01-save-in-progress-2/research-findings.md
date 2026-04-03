@@ -565,7 +565,13 @@ Eight participants said they wanted to be able to delete a form they started but
      1. Make "Back to previous page" link more visible on form pages [#136902](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136902)
      1. Disable auto scrolling when opening accordions on "Review and Submit" page [#136903](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136903)
      1. Fix capitalization of "VA file number" in hint text on "SSN/VA file number" page [#136904](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136904)
+     1. 20-10206 Prefill [#1006](https://github.com/department-of-veterans-affairs/VA.gov-team-forms/issues/1006)
+
 1. Review and prioritize the usability and accessibility revisions to the Request personal records form.
+     1. Remove inconsistent 'optional' labeling from fields [#136975](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136975)
+     1. Add helper text to 'Additional records information' field to guide users [#136973](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136973)
+     1. Provide a dropdown list of VA regional offices for selection [#136977](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136977)
+     1. Separate "Place of Birth" field into distinct City, State, and Country fields [#136981](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136981)
 1. Followup with the US Web Design System team about the location of accordion controls.
      1. Move open/close icons of accordions to the left [#4798](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/4798)
 
@@ -574,7 +580,7 @@ Eight participants said they wanted to be able to delete a form they started but
 
 6. Work on opportunities to help Veterans who are struggling with their assistive tech.
      1. Explore opportunities to assist Veterans struggling with assistive tech [#136901](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136901)
-1. Try to reproduce the Zoom/iPhone/VoiceOver issue.
+1. Research issue with Zoom kicking out iPhone VoiceOver user during research session[#136987](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136987)
 
 ## Further research needed
 
