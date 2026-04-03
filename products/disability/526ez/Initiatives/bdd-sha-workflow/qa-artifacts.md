@@ -34,7 +34,7 @@ Specific to "Test Plan" testing, the following test case was added to ensure the
 
 ## Traceability Reports
 
-Here is how our user stories map to test requirements.
+Here is how our user stories map to test requirements. We should have 100% coverage based on this.
 
 | Ticket name                                                                                                                | Test Case |
 | -------------------------------------------------------------------------------------------------------------------------- | --------- |
