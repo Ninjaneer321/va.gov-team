@@ -36,6 +36,28 @@
 6. Download the release and install
 
 
+## Feature flag
+
+Some of the latest updates are behind feature flags, and you'll need to turn them on.
+
+1. Enter Demo Mode
+    * Tap the VA logo 7 times until the password field appears.
+    * Password: Zhuzh-it
+    * Tap Sign In to enter Demo mode.
+
+2. Locate the Feature Flag
+    * Navigate to: Profile > Settings > Developer Screen.
+    * Scroll down to the Firebase section (located just below the first set of blue buttons).
+    * Tap Remote Config.
+    * > Note: Do not tap the "Remote Config Test" blue button.
+    * Toggle "overpayments" on
+    * Confirm changes: Apply (upper right) or Apply Overrides (bottom)
+
+3. Sign Out (Optional)
+    * If you need to sign in with different credentials to test the feature, go to: 
+  Home > Profile > Settings > Sign Out.
+
+
 ## Clean-up
 
 
