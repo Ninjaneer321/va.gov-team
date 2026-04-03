@@ -69,7 +69,7 @@ Thanks for joining us today\! My name is **Elena**. I have my teammate, Danielle
 
 \*\*\[Record answer here\]\*\*
 
-## Warm-up Questions \- 10 minutes (IN PROGRESS)
+## Warm-up Questions \- 10 minutes
 
 Before we look at the website, let’s start with a couple warm-up questions.
 
