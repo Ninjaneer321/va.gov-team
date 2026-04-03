@@ -292,8 +292,9 @@ All participants must receive VA health care, have sent a secure message to thei
 ---
 
 ## Timeline 🗓️
-- `Kickoff with Perigean:` **TBD** 
-- `Planned dates:` **TBD**  
+- `Submit plan to Research Ops:` **April 6**
+- `Kickoff with Perigean:` **April 10 or April 13** 
+- `Planned dates:` **April 20 - April 28**  
 - `Session length:` **no longer than 60 minutes**  
 - `Buffer time:` **at least 30 minutes in between sessions**  
 - `Sessions per day:` **no more than 3**
