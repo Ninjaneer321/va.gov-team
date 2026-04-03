@@ -76,7 +76,15 @@ See tests listed above. We leverage stubbed endpoints for consistency and the pl
 
 ## E2E Test Execution Time
 
-TODO
+Here are the Cypress Test Execution Times for the BDD Project, as gathered from the [E2E Domo Dasboard](https://va-gov.domo.com/page/604433393/kpis/details/1741293742).
+
+![Cypress Test Execution Time](./images/cypress-test-execution-time.png)
+
+As we see, there are some times that extend beyond the recommended 60 second limit. Team 5 is building on top of some
+existing testing capabilities for Form 21-526EZ, which is a complex and long form, but the DBC engineers have committed
+to evaluating existing test performance and findings ways to reduce the test execution time in the following ticket:
+
+[#138130 - Investigate current E2E testing performance to share with DBC Engineering All-Hands](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138130)
 
 ## Unit Test Coverage
 
@@ -120,5 +128,6 @@ Changes are purely frontend and do not involve PDF Form Generation.
 
 ## No Cross App Dependency
 
-![No cross-app dependencies check output](./images/no-cross-app-deps.png "No cross-app dependencies check output")
+There are no cross-app dependencies as demonstrated through the script that audits for this.
 
+![No cross-app dependencies check output](./images/no-cross-app-deps.png "No cross-app dependencies check output")
