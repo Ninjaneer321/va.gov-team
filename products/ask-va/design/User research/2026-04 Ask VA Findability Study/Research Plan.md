@@ -124,8 +124,9 @@ We will recruit 15 Veterans for a total of 12 completed sessions.
 ### Optional 30-min Kick-off Call with Perigean
 
 - `Suggested dates and times:`  
-  - Monday, April 6, 2pm \- 4pm ET
   - Tuesday, April 7, 9:30am \- 2pm ET (except 11:30-12pm)
+  - Friday, April 10, 12:30pm \- 5pm ET
+
 
 ### Prepare
 
