@@ -171,7 +171,7 @@ tags:
 
 **Office of the CTO - Digital Experience (OCTO-DE), Accessibility Digital Experience (ADE)**
 
-**Date:** 03/17/2026
+**Date:** 04/03/2026
 
 **Contacts:** Cindy Merrill
 
@@ -682,8 +682,8 @@ The form we tested has 9 pages of questions, and each page has at the bottom a *
 <details>
   <summary>Figure 18: My VA page with various sections including "Forms and applications"</summary>
    <img src="./images/MyVA-top.png" width="100%" height="100%" alt="top of the My VA page with a heading for Claims and appeals">
-   <img src="./images/MyVA-middle.png" width="100%" height="100%" alt="headings for Health care, Outstanding debts, and Benefit payments">
-   <img src="./images/MyVA-bottom.png" width="100%" height="100%" alt="headings for Education and training, and Benefit applications and forms">
+   <img src="./images/MyVA-middle.png" width="100%" height="100%" alt="headings for Forms and applications, and Health care">
+   <img src="./images/MyVA-bottom.png" width="100%" height="100%" alt="headings for Outstanding debts, Benefit payments, and Education and training">
 
 </details>
 
