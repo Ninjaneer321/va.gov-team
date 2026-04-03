@@ -352,18 +352,18 @@ Eight participants said they wanted to be able to delete a form they started but
 1. One participant expressed his **appreciation for us taking the time to learn from Veterans**:
     > *"I'm happy you guys are doing this because I go to other kinds of websites, and it's just a nightmare trying to get through--the way they've laid stuff out. So I'm very happy that you guys asked for feedback for the user experience. It's fantastic! Thanks" (p7).*
 
-1. Three participants encountered **accessibility issues while filling out the form while using a screenreader**
+1. Three participants encountered **accessibility issues while filling out the form while using a screen reader**
 
-     1. P3 was using the JAWS screenreader on desktop with mouse echo (which announces whatever is under the mouse), and **JAWS didn't announce any "Country" select/dropdown options when the dropdown was open and the mouse was over an item**. He had to click to select an option before the screen reader announced it. This is a known issue that affects screen readers and mouse control of dropdown menus, which unfortunately is not fixable.
+     1. P3 was using the JAWS screen reader on desktop with mouse echo (which announces whatever is under the mouse), and **JAWS didn't announce any "Country" select/dropdown options when the dropdown was open and the mouse was over an item**. He had to click to select an option before the screen reader announced it. This is a known issue that affects screen readers and mouse control of dropdown menus, which unfortunately is not fixable.
 
      1. Another issue P3 encountered (JAWS with mouse echo) is that text that looked like **one sentence was announced in small chunks** instead of as a single sentence, resulting in awkward pauses and missed information. For example, here's how the "Finish later" message  on the "form-saved" page sounded (each ellipsis required a mouse movement): "Your personal records request has been saved...Jan 13, 2026 at 5:43 pm...Your saved...request...will expire on...March 14, 2026."
 
-     1. P4 (VoiceOver screenreader on an iPhone in Safari browser) experienced the **form intro page load with focus in the wrong place**--it was in the footer instead of the top of the page where it was supposed to be. This is a known issue with VoiceOver and Safari that has no known fix.
+     1. P4 (VoiceOver screen reader on an iPhone in Safari browser) experienced the **form intro page load with focus in the wrong place**--it was in the footer instead of the top of the page where it was supposed to be. This is a known issue with VoiceOver and Safari that has no known fix.
 
-     1. P8 (infrequently uses the TalkBack screenreader on Android) **didn't understand the word "va"**, which was how TalkBack announced "VA". He figured it out after listening to it a few times. The general consensus is to leave this as is because AT users get used to it.
+     1. P8 (infrequently uses the TalkBack screen reader on Android) **didn't understand the word "va"**, which was how TalkBack announced "VA". He figured it out after listening to it a few times. The general consensus is to leave this as is because AT users get used to it.
 
 1. Two participants were **frustrated with their AT, perhaps because the tools weren't appropriate for their level of impaired vision**, and they didn't know that another tool might meet their needs better. 
-     1. P6 with low vision wasn't using a screenreader on his smartphone but instead a **tool that reads aloud whatever text you highlight with your finger. He kept wanting the tool to read aloud everything on the screen**, but it skipped some text (including accordions) and read some text in small parts with breaks in between (e.g., on the "Records requested" page of the form, as well as the message that appears after you select "Finish later"). At the end of the session, we recommended that the participant try the VoiceOver screenreader.
+     1. P6 with low vision wasn't using a screen reader on his smartphone but instead a **tool that reads aloud whatever text you highlight with your finger. He kept wanting the tool to read aloud everything on the screen**, but it skipped some text (including accordions) and read some text in small parts with breaks in between (e.g., on the "Records requested" page of the form, as well as the message that appears after you select "Finish later"). At the end of the session, we recommended that the participant try the VoiceOver screen reader.
 
         <details><summary>Screenshot of the menu that P6 used to ask his phone to "Speak" aloud the text that he highlighted with his finger in Figure 2</summary>
 
@@ -375,9 +375,9 @@ Eight participants said they wanted to be able to delete a form they started but
 
         > *"I'd like to read it all, but I don't know how to make it do that...It will only let me highlight the first item that appears…'3 of 6 records requested.' Okay, so there's way more information than what you just heard. It looks like it's gonna make me highlight every little bit. I like to do the whole page" (p6).*
 
-        P6's phone read only one item at a time because it was reading the one checkbox option that he had currently selected, which is expected behavior. He didn't know that a screenreader would enable him to read everything on the page without highlighting text.
+        P6's phone read only one item at a time because it was reading the one checkbox option that he had currently selected, which is expected behavior. He didn't know that a screen reader would enable him to read everything on the page without highlighting text.
 
-     1. P8 with low vision was using the TalkBack screenreader on his Android phone to qualify for the AT session, but normally he uses it only as a last resort. He **dislikes TalkBack because it talks too much, is difficult to stop, and scrolling is different**. He didn't know that there were tools that can read text for you without announcing so much about the page and navigation. 
+     1. P8 with low vision was using the TalkBack screen reader on his Android phone to qualify for the AT session, but normally he uses it only as a last resort. He **dislikes TalkBack because it talks too much, is difficult to stop, and scrolling is different**. He didn't know that there were tools that can read text for you without announcing so much about the page and navigation. 
 
         Usually P8 gets by without reading most of the content and infers what's there or has memorized where to go and what to do from previous experiences. He can read black text on white but it's blurry. He can't read colored text or links, any text on non-white backgrounds, or in dim light. He prefers to use his PC instead of a smartphone since he can increase the brightness/contrast and zoom in. Sometimes he copies colored text into Word, where he can change the text to black. 
 
@@ -402,7 +402,7 @@ Eight participants said they wanted to be able to delete a form they started but
         </details>
 
 
-     1. Two screenreader users **expected to be able to select one of the record types listed on the form intro page**, but they weren't selectable. This also happened to one screenreader user in the previous round of usability research.
+     1. Two screen reader users **expected to be able to select one of the record types listed on the form intro page**, but they weren't selectable. This also happened to one screen reader user in the previous round of usability research.
         > *"But these are only bullets, not checkmarks, so I know I have to go to the form" (p4).*
 
     1. One participant **didn't know what "Fiduciary services" means** and how it's different from "Financial records". These were two of the items listed under "Types of information you can request". 
