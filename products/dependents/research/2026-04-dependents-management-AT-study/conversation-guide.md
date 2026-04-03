@@ -145,7 +145,7 @@ Let’s start with a few questions...
 4. What web browser do you use? (Chrome / Firefox / Edge / Safari / _______)
 * I will be sharing a web page link with you during the session. How would you prefer to receive the URL? I could dictate it to you, put it in the Zoom chat, email it to you, or (for smartphone only) text it to you. (RECORD)
     * (If text or email) Could the notetaker please text/email the link now?
-5. What assistive technology are you using right now? (screen reader / magnifier ________________)
+5. What assistive technology are you using right now? (screen reader / magnifier / alt nav ________________)
     * (If Dolphin screen reader, won't be able to share screen on Zoom)
     * (if no AT) Do you sometimes use assistive technology while using VA.gov or filling out a form online?
         * If so, what do you use and when?
@@ -205,7 +205,7 @@ Please talk aloud about what you're thinking BEFORE you click/tap on anything.
 
 Imagine that you received an email telling you that you have to verify your dependents are accurate on va.gov to avoid owing the VA money. It included a link to this page.
 
-How would you start that process from this screen?
+How would you do that from this screen?
 
 [when prompted to log-in, give participant the test user credentials according to their preferred method)
 
@@ -216,11 +216,11 @@ How would you start that process from this screen?
 
 ## Fourth Task: Verification - 5 minutes
 
-[Alert on My VA Dependents page] What do you think this alert is telling you? What would you do next?
+[Alert on My VA Dependents page] What do you think this yellow box is telling you? What would you do next?
 
 [get them into the verification 0538 flow]
 
-[On review your dependents page in 0538]: Imagine that you do need to update your dependents: you recently got divorced, so need to remove [spouse + child], and you also have a newborn to add. 
+[On review your dependents page in 0538]: Imagine that you do need to update your dependents because you recently got divorced. What would you do here?
 
 [‘Update dependents in diff form’ page] – what would you do next?
 
@@ -232,7 +232,7 @@ How would you start that process from this screen?
 
 [get user into 686 flow]
 
-Next, let’s try to make those changes we talked about — removing [spouse and child] and adding a newborn.
+Next, let’s try to make those changes we talked about -- reporting the divorce and the newborn child.
 
 Please talk aloud with any thoughts, reactions, or questions you have. And tell me what you want to click/tap on before you do it.
 
@@ -246,18 +246,18 @@ Please talk aloud with any thoughts, reactions, or questions you have. And tell 
 
 ## Sixth Task: Child add (cancel list+loop) - 15 minutes
 
-[when seeing the child SSN field]. Imagine that you don’t have the social security card yet, so you don’t want to add this child right now. What would you do?
+[when seeing the child SSN field]. Imagine that you don’t have the social security card yet.
 
 [might need to prompt them to cancel]
 
-What happened after you dismissed the alert? Is this where you would expect to be taken next?
+What happened after you cancelled? Is this where you would expect to be taken next?
 
 > ### Things to watch for:
 > - How does the user expect this to work?
 
 ## Seventh Task: Make an edit from the summary page, then submit - 10 minutes
 
-Let’s pause here and imagine that you realized you entered the wrong [date type] for [one of the dependents]. How would you correct that mistake from here?
+Let’s pause here and imagine that you realized you entered the wrong [date type] for [one of the dependents]. How would you fix that from here?
 
 
 > ### Things to watch for:
