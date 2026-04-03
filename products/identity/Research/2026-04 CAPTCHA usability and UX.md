@@ -1,8 +1,8 @@
 # Exploring CAPTCHA accessibility and UX for VA Identity team use
-Office of the CTO \- Digital Experience (OCTO-DE), Sign in, Identity
-Date: 04/2026
-Contacts: Clayton Zook
-Disclosure: Researched and written with the assistance of AI
+- Office of the CTO \- Digital Experience (OCTO-DE), Sign in, Identity
+- Date: 04/2026
+- Contacts: Clayton Zook
+- Disclosure: Researched and written with the assistance of AI
 
 ## Summary
 
@@ -13,7 +13,7 @@ CAPTCHA was developed as a security measure designed to protect websites from bo
 As artificial intelligence advances, there is continually more evidence that puzzle versions especially don’t function well for keeping bots out. This means that it doesn't perform its stated tast well, and so really only serves to block or frustrate humans, which should give us pause before adding it into use on VA.gov.  
 Modern style backend check types hold promise, but some of those bias against assistive technology, which force those users into a secondary, puzzle-type screening, defeating the purported purpose of being hidden or in the background for the most vulnerable users. These modern versions also have high bot success rates, so the cost-benefit balance of those is not certain and should still be carefully considered.
 
-Common types of CAPTCHAs 
+## Table: Common types of CAPTCHAs 
 
 | CAPTCHA type | Features | Goal | Concerns |
 | :---- | :---- | :---- | :---- |
@@ -60,14 +60,7 @@ While humans struggle to be marked as a human by CAPTCHA, modern AI models have 
 While CAPTCHAs keep a significant number of humans out, they also allow a significant amount of bot traffic in. To some degree success can vary depending if it’s a general purpose bot or a speciality trained AI trying to gain entry. Even so, most types of CAPTCHA block more humans than bots. Text, audio, image, puzzle, GeeTest all fall in this category, with 85% or great bot success.<sup>13</sup>  
 Getting into the more modern methods, reCAPTCHA v3, which begins to do a decent job of allowing most humans through, only blocks about 40% of bots. Cloudflare Turnstile does slightly worse, blocking about 30% of bots, with the trade-off of allowing the most humans through.<sup>14</sup>
 
-## Conclusion: CAPTCHA is not great at allowing humans through or at defending against most bots
-
-The evidence suggests that most CAPTCHAs are "security theater" \- providing the appearance of security while offering little actual protection. About the best they can be counted on is to stop run of the mill junk traffic. They don't hold up against sophisticated attackers or even most modern AI resources. Services offering CAPTCHA cracking ability at cheap prices not withstanding<sup>1</sup>
-
-The fundamental flaw of CAPTCHA is its **inverse relationship between security and usability**. To make a test hard enough to stop modern AI, it seems to require being so difficult that it becomes impossible for many humans to solve. Incurring "immense cost for little security" alienates users, especially those with accessibility needs or who otherwise use assistive technology, all without meaningfully slowing down bot traffic. The industry has been shifting toward "invisible" behavioral analysis such as reCAPTCHA v3 and Cloudflare Turnstile. But even reCAPTCHA v3 substantially blocks traffic for those with accessibility needs since it more often flags them for a secondary screening, which is always a less accessible CAPTCHA type.
-
-Cloudflare Turnstile, stands out as a WCAG 2.2 AAA compliant solution and allows the most human success. As a tradeoff of that human ease, it does allow a lot of bot traffic through. This solution, or one that's substantially similar and also has WCAG 2.2 AAA compliance, are the only CAPTCHA solutions we should be considering for use on VA.gov.
-
+## Table: CAPTCHA success rates: AI vs humans
 | CAPTCHA type | AI (bot) success | Overall human success | Notes |
 | :---- | :---- | :---- | :---- |
 | Text-based | \~100% | 80%; 60% if case sensitive | Doesn't block bots, blocks substation number of humans |
@@ -79,6 +72,15 @@ Cloudflare Turnstile, stands out as a WCAG 2.2 AAA compliant solution and allows
 | ReCAPTCHA | \>65% | 70-80% | Blocks a substantial amount of human traffic but under half of bots |
 | ReCAPTCHv3 | \>60% | \>95% | Blocks a substantial amount of humans using AT but under half of bots |
 | Cloudflare Turnstile | \~70% | \~99%; secondary challenge is checkbox | WCAG 2.2 AAA compliant. It stops about 80% of junk/spam type traffic, but less effective against sophisticated bots |
+
+## Conclusion: CAPTCHA is not great at allowing humans through or at defending against most bots
+
+The evidence suggests that most CAPTCHAs are "security theater" \- providing the appearance of security while offering little actual protection. About the best they can be counted on is to stop run of the mill junk traffic. They don't hold up against sophisticated attackers or even most modern AI resources. Services offering CAPTCHA cracking ability at cheap prices not withstanding<sup>1</sup>
+
+The fundamental flaw of CAPTCHA is its **inverse relationship between security and usability**. To make a test hard enough to stop modern AI, it seems to require being so difficult that it becomes impossible for many humans to solve. Incurring "immense cost for little security" alienates users, especially those with accessibility needs or who otherwise use assistive technology, all without meaningfully slowing down bot traffic. The industry has been shifting toward "invisible" behavioral analysis such as reCAPTCHA v3 and Cloudflare Turnstile. But even reCAPTCHA v3 substantially blocks traffic for those with accessibility needs since it more often flags them for a secondary screening, which is always a less accessible CAPTCHA type.
+
+Cloudflare Turnstile, stands out as a WCAG 2.2 AAA compliant solution and allows the most human success. As a tradeoff of that human ease, it does allow a lot of bot traffic through. This solution, or one that's substantially similar and also has WCAG 2.2 AAA compliance, are the only CAPTCHA solutions we should be considering for use on VA.gov.
+
 
 ## Sources
 1. Searles, A., Xu, H., et al. (2023-2025). Dazed & Confused: A Large-Scale Real-World User Study of reCAPTCHAv2.
