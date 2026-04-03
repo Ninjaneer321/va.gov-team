@@ -3,28 +3,58 @@
 ---
 
 ## Overview
-*After you've explored the problem and through testing / hypothesis have identified the ideal solution, write up one sentence describing the solution you'll be creating.*
+During the benefit claim development, VA may request the Veteran to provide additional evidence in support of their claim. Currently, a Veteran may learn about an evidence request by:
+
+1. periodically checking the Claim Status Tool on VA.gov and in the VA mobile app for new evidence requests, or
+2. reviewing the claim letter when it arrives by mail
+
+It can take several days or even over a week before Veterans learn about these evidence requests, since they're not notified immediately when the request is made.
+
+It is also important to note that when VA requests additional information (evidence) from a Veteran to support their claim, VA suspends processing for ~30 days, waiting to receive the requested evidence.
+
+The sooner a Veteran learns of an evidence request(s), the sooner they can gather the requested information and submit it to VA, and the sooner VA can make a decision on their claim, potentially reducing the Average Days to Complete (ADC) by weeks per claim.
 
 ## Problem Statement
-*In a couple of sentences, describe the Who, What, Why, and Where of the challenge / pain point you seek to address. [Here's a sample problem statement definition activity you can try on your team to help generate this](https://www.atlassian.com/team-playbook/plays/problem-framing)*
-
-*Follow your problem description up with a "How might we... _______" statement re-framing that challenge as an opportunity. Don't hint too much at what the solution might be, you should have enough of a focal point here to guide your ideas, but plenty of freedom to think laterally and innovatively as you experiment and prototype later.*
+Currently, Veterans are not promptly notified when the VA requests additional evidence for their benefits claims, relying instead on manual checking their account or receiving mailed notifications that can take days or over a week to arrive. This delay slows the Veterans ability to respond evidence requests, while the VA pauses claim processing for approximately 30 days awaiting the requested information. As a result, avoidable notification gaps contribute to longer claim resolution times and increased Average Days to Complete (ADC). In some cases, missed evidence request responses may also result in Veterans receiving lower benefit determinations than they may otherwise be entitled to.
  
 ## Desired User Outcomes
+- Veterans are immediately aware when additional evidence is requested for their claim
+- Veterans can respond to evidence requests quickly and confidently
+- Veterans experience reduced anxiety and uncertainty during the claims process
+- Veterans submit required evidence within the requested timeframe
+- Veterans receive claim decisions faster
+- Veterans maximize the benefits they are eligible for by providing complete evidence
+- Veterans feel informed, supported, and in control of their claims process
 
-- *Why would a user want to use this?*
-- *With this problem solved, what should users be able to do/achieve that they couldn't before?*
+
 
 ## Undesired User Outcomes
-
-
+- Veterans feel overwhelmed or stressed by frequent or poorly timed notifications
+- Veterans ignore or opt out of notifications due to perceived noise or lack of relevance
+- Veterans experience accessibility barriers (e.g., unclear messaging, channel limitations)
+- Veterans lose trust if notifications are inaccurate, delayed, or duplicated
+- Veterans are suspicious of notifications (perceived as phishing attempts)
+  
 ## Desired Business Outcomes
+- The % of Veterans responding to a first-party evidence request within a week increases by x% percentage points (as of August 2025: ~20% of Veterans respond to first-party requests within a week)
+- We see a reduction in ADC for disability claims
+- Reduced Average Days to Complete (ADC) for claims
+- Fewer claims stalled due to missing or delayed evidence
+- Improved claim processing efficiency and throughput
+- Reduced need for follow-up outreach or duplicate requests
+- Improved accuracy and completeness of claim decisions
+- Reduced rework, appeals, and supplemental claims due to incomplete evidence
+- Higher Veteran satisfaction and trust in the claims process
+- Lower administrative burden associated with manual status checks and inquiries
 
-- *Why would your business want this to exist?*
-- *With this problem solved, what should your business be able to do/achieve that they couldn't before?*
 
 ## Undesired Business Outcomes
-
+- Increased notification volume leads to alert fatigue, reducing effectiveness
+- Higher inbound support volume due to confusion or unclear instructions
+- No meaningful reduction in ADC despite increased communication (i.e., noise without impact)
+- Additional operational burden to manage notification systems without ROI
+- Increased equity gaps if certain Veteran populations are less able to receive/respond to notifications
+- Risk of eroding trust if notifications are inaccurate, delayed, or perceived as spam
 
 ---
 ## Measuring Success
