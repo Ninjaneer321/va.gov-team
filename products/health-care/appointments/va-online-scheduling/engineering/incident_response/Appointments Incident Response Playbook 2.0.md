@@ -208,7 +208,7 @@ After resolution:
 
 ---
 
-## Endpoint Impact Reference for VAOS
+## Endpoint Impact Reference for Appointments
 
 Critical endpoints are those that directly block scheduling and should be prioritized for alerting and investigation.
 
