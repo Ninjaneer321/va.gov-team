@@ -32,7 +32,7 @@ Specific to "Test Plan" testing, the following test case was added to ensure the
 - [(C244341) BDD User Can Upload SHA Part A - Warned before destructive action](https://dsvavsp.testrail.io/index.php?/cases/view/244341)
 - [(C244342) BDD User Can Upload SHA Part A - Warned before destructive action from Review and Submit page](https://dsvavsp.testrail.io/index.php?/cases/view/244342)
 
-## Traceability Reports
+## Traceability Reports - Coverage for References
 
 Here is how our user stories map to test requirements. We should have 100% coverage based on this.
 
@@ -54,6 +54,12 @@ Here is how our user stories map to test requirements. We should have 100% cover
 | Enforce a minimum number of files required on BDD SHA Upload page                                                          | C244338   |
 | Correct BDD SHA warning text on separation-health-assessment page                                                          | C244345   |
 | Text correction needed on /separation-health-assessment-file-upload-v1                                                     | C244345   |
+
+## Traceability Reports - Summary (Defects)
+
+Team 5 utilized the following Google Sheet to track issues found during testing.
+
+[BDD SHA Launch Issue Tracker](https://docs.google.com/spreadsheets/d/1N8ovqzhgeCGXJwaSZYWLoO-Ng1Yg9CtGoVCmVkCTuCo/edit?gid=0#gid=0)
 
 ## E2E Test Report
 
