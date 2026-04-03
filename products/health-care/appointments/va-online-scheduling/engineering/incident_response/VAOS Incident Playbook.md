@@ -1,4 +1,4 @@
-# MHV Appointments Incident Response Playbook
+# MHV Appointments Incident Response Playbook (Deprecated - Replaced by [Appointments Incident Response Playbook 2.0.md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/engineering/incident_response/Appointments%20Incident%20Response%20Playbook%202.0.md)
 
 This playbook assumes that you are one of the primary developers responsible for the VAOS redesign application. It contains a series of instructions that you should follow in the event of an incident affecting production.
 
