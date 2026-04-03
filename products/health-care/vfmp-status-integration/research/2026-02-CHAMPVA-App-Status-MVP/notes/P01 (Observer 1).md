@@ -1,4 +1,4 @@
-# P01
+# P01 - Observer 1
 > [!TIP]
 > - To fill in a checkbox, add an x in between the brackets, like [x]
 > - To indicate an observational note (as opposed to a summary of what the participant is saying), please type OBSERVATION: or O: before the note to differentiate.
