@@ -75,6 +75,9 @@ recommendations:
     **Don't roll out the interstitial page to forms. Instead, consider adding short text just above the Continue button on every page** (e.g., "Your information is being saved automatically"). Hopefully this will convey the message, but if some people miss it, maybe that's OK.
       - _Supporting evidence_: Most participants ignored the interstitial page when it came up or forgot what it said because it appeared as an interruption to their task of filling out a VA form and didn't seem relevant.
   - |
+    **Consider rolling out the "Finish later" button** in place of the “Finish this request later” link in the minimal form flow.
+      - _Supporting evidence_: All 7 participants found the "Finish later" button intuitive to save their work, even if they didn't remember it from the interstitial page.
+  - |
     **Investigate ways of deleting in-progress forms and notifying users about forms in progress within a certain time frame before they are deleted**.
       - _Supporting evidence_: Almost all participants wanted to be notified before their forms were deleted via email and/or text, with one participant suggesting a notification in the VA mobile app. Most people wanted the first notification within 1-7 days of having selected "Finish later", and then once a week after that. All 8 participants asked said they wanted to be able to delete a form they started but never finished.
   - |
@@ -470,6 +473,9 @@ Eight participants said they wanted to be able to delete a form they started but
 1. **Don't roll out the interstitial page to forms. Instead, consider adding short text just above the Continue button on every page** (e.g., "Your information is being saved automatically"). Hopefully this will convey the message, but if some people miss it, maybe that's OK.
    - _Supporting evidence_: Most participants ignored the interstitial page when it came up or forgot what it said because it appeared as an interruption to their task of filling out a VA form and didn't seem relevant.  
 
+1. **Consider rolling out the "Finish later" button** in place of the “Finish this request later” link in the minimal form flow.
+   - _Supporting evidence_: All 7 participants found the "Finish later" button intuitive to save their work, even if they didn't remember it from the interstitial page.
+
 1. **Investigate ways of deleting in-progress forms and notifying users about forms in progress within a certain time frame before they are deleted**.
    - _Supporting evidence_: Almost all participants wanted to be notified before their forms were deleted via email and/or text, with one participant suggesting a notification in the VA mobile app. Most people wanted the first notification within 1-7 days of having selected "Finish later", and then once a week after that. All 8 participants asked said they wanted to be able to delete a form they started but never finished.
 
@@ -480,7 +486,7 @@ Eight participants said they wanted to be able to delete a form they started but
    - _Supporting evidence_: P3 had to keep moving his mouse in order to hear each of the 6 small segments of text in the "Finish later" informational alert.  
 
 #### For the ADE team
-5. **Explore opportunities to help Veterans who are struggling with their assistive tech and may be unaware of other options**. 
+6. **Explore opportunities to help Veterans who are struggling with their assistive tech and may be unaware of other options**. 
 
      - _Supporting evidence_: Two participants mentioned frustrations with their assistive tech and didn't know that a different tool might meet their needs better. 
      
@@ -492,7 +498,7 @@ Eight participants said they wanted to be able to delete a form they started but
 
 ### *Not* directly related to research goals
 #### For the Design System and Forms team
-6. **Consider making the "Back to previous page" link easier to notice**. The current font size is smaller than it should be--16 pixels instead of 16.96. Also could consider adding a second "Back to previous page" link on the bottom of the page. --> *Fix the font size bug*. 
+7. **Consider making the "Back to previous page" link easier to notice**. The current font size is smaller than it should be--16 pixels instead of 16.96. Also could consider adding a second "Back to previous page" link on the bottom of the page. --> *Fix the font size bug*. 
    - _Supporting evidence_: One non-AT participant said that they didn't notice this link at the top of the page because it was so small.  
 
 1. **Consider disabling the scrolling of accordions to the top of the viewport when you open an accordion on the "Review and submit" page**. --> *Remove scrollToFocus from all accordions on the page*
@@ -502,7 +508,7 @@ Eight participants said they wanted to be able to delete a form they started but
    - _Supporting evidence_:  The prompt "VA file number" has only "VA" capitalized, but the hint text also capitalizes the word "File".
 
 #### For the Content team
-9. **Consider revising the "Your full name" prompt on the "Review and submit" page to refer to what you entered before** (e.g., "Your name as entered earlier in the form")  
+10. **Consider revising the "Your full name" prompt on the "Review and submit" page to refer to what you entered before** (e.g., "Your name as entered earlier in the form")  
     - _Supporting evidence_: Six of 7 participants didn't realize that the name that you enter for "Your full name" must exactly match what they entered as their name at the beginning of the form. One participant called out that "Full name" requires your full middle name, not just your middle initial, as the form asked for earlier.
 
 1. **Avoid using the phrases "My VA" and "form introduction" in Veteran-facing web pages because they're not intuitive.**
@@ -517,7 +523,7 @@ Eight participants said they wanted to be able to delete a form they started but
 
 #### For the Request Personal Records form
 
-13. **Prioritize adding the prefill pattern to this form**. --> *The Design System and Forms team is finalizing the prefill pattern in the Forms Library, and then all teams will be able to easily add it to their forms. Existing forms will need some code refactoring.*
+14. **Prioritize adding the prefill pattern to this form**. --> *The Design System and Forms team is finalizing the prefill pattern in the Forms Library, and then all teams will be able to easily add it to their forms. Existing forms will need some code refactoring.*
      - _Supporting evidence_: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. A participant in the previous round of usability testing stated the same expectation.
 
 1. **Be consistent about indicating optional fields**. --> *Fix bug: Remove the word "optional" from the "Additional records information" and "VA regional office" fields , per current Collaboration Cycle guidance*
@@ -534,7 +540,7 @@ Eight participants said they wanted to be able to delete a form they started but
 
 
 #### For the ADE team
-18. **Consider researching the issue with Zoom silently kicking out an iPhone VoiceOver user** (iPhone 15 Pro running iOS 26.2 with both Safari and Chrome) to make sure this doesn't happen in Production and is only an issue with the Codespace. --> *Jeana is unable to reproduce this in our Codespace, on Staging, or on Production. Cindy will ask some people in ADE to try to reproduce the issue*.
+19. **Consider researching the issue with Zoom silently kicking out an iPhone VoiceOver user** (iPhone 15 Pro running iOS 26.2 with both Safari and Chrome) to make sure this doesn't happen in Production and is only an issue with the Codespace. --> *Jeana is unable to reproduce this in our Codespace, on Staging, or on Production. Cindy will ask some people in ADE to try to reproduce the issue*.
     - _Supporting evidence_: Zoom silently kicked p4 out of the session when he selected the "Sign in" or "Continue" button in the Codespace. 
   
 
