@@ -17,12 +17,18 @@ TODO
 TODO
 
 ## E2E Test Report
+Cypress test for BDD SHA delete flow:
+- [bdd-sha-delete-flow.cypress.spec.js](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/applications/disability-benefits/all-claims/tests/bdd-sha-delete-flow.cypress.spec.js)
 
-TODO
+Full e2e test with BDD SHA feature flag enabled
+- [bdd-claims.cypress.spec.js](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/applications/disability-benefits/all-claims/tests/bdd-claims.cypress.spec.js)
+
+Cypress helper file with new BDDA SHA workflow feature flag:
+- [supporting-evidence/separation-health-assessment](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/applications/disability-benefits/all-claims/tests/cypress.helpers.js#L782)
+- [supporting-evidence/summary](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/applications/disability-benefits/all-claims/tests/cypress.helpers.js#L832)
 
 ## E2E Tests - Best Practice Adherence
-
-TODO
+See tests listed above. We leverage stubbed endpoints for consistency and the platform provided `createTestConfig` helper for form testing.
 
 ## E2E Test Execution Time
 
