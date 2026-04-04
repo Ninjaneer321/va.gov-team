@@ -18,6 +18,13 @@ The sooner a Veteran learns of an evidence request(s), the sooner they can gathe
 Currently, Veterans are not promptly notified when the VA requests additional evidence for their benefits claims, relying instead on manual checking their account or receiving mailed notifications that can take days or over a week to arrive. This delay slows the Veterans ability to respond evidence requests, while the VA pauses claim processing for approximately 30 days awaiting the requested information. As a result, avoidable notification gaps contribute to longer claim resolution times and increased Average Days to Complete (ADC). In some cases, missed evidence request responses may also result in Veterans receiving lower benefit determinations than they may otherwise be entitled to.
  
 ## Desired User Outcomes
+- Veterans can recieve the following notifications, listed in priority:
+  1. email
+  2. mobile push notifications (if they are loggged in to the app) and
+  3. SMS notifications if they have provided a valid phone number
+- Veterans can opt in or out of each notification on their profile
+
+Additional Desired User Outcomes
 - Veterans are immediately aware when additional evidence is requested for their claim
 - Veterans can respond to evidence requests quickly and confidently
 - Veterans experience reduced anxiety and uncertainty during the claims process
@@ -25,7 +32,6 @@ Currently, Veterans are not promptly notified when the VA requests additional ev
 - Veterans receive claim decisions faster
 - Veterans maximize the benefits they are eligible for by providing complete evidence
 - Veterans feel informed, supported, and in control of their claims process
-
 
 
 ## Undesired User Outcomes
