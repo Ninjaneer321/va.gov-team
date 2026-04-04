@@ -162,3 +162,54 @@ Changes are purely frontend and do not involve PDF Form Generation.
 There are no cross-app dependencies as demonstrated through the script that audits for this.
 
 ![No cross-app dependencies check output](./images/no-cross-app-deps.png "No cross-app dependencies check output")
+
+## Known Issues
+
+These are known issues and deficiencies that will be 100% address by launch.
+
+### Incoming Work - Adding Monitoring
+
+Now that the user functionality is complete, we will add instrumentation in various points in the flow to ensure we
+understand how the system is behaving, both from a user-oriented and technical-oriented perspective.
+
+- department-of-veterans-affairs/va.gov-team#134130
+- department-of-veterans-affairs/va.gov-team#134131
+
+### Incoming Work - Harden Existing Pages Tied to Workflow
+
+As part of our work, we uncovered some places that do not utilize the same In-Progress Form hardening mechanisms that we
+are using in our new work. We will update these existing pages to ensure the veteran does not hit a road bump.
+
+- department-of-veterans-affairs/va.gov-team#137661
+
+### Incoming Work - Improve Clarity
+
+As part of our internal bug bash, we got some feedback that the Confirmation of Submission can be improved in the case
+the veteran choose not to upload the SHA. We will address this feedback as part of launch.
+
+- department-of-veterans-affairs/va.gov-team#137744
+
+### Incoming Work - Improve Accessibility
+
+While doing similar work in parallel, Team 5 and the Pathways team were both learning best practices around using
+modals. We will address accessibility concerns brought up in the Pathways work to ensure we are maintaining feature
+parity.
+
+- department-of-veterans-affairs/va.gov-team#137659
+
+### Incoming Work - VBA Requirements to Support Automation
+
+During development, we utilized an attachment id of "L702", meeting existing requirements of Separation Health Assessments
+uploaded using the "Supporting Evidence" upload page. After discussion with the VBA and sponsors of the Digital BDD
+project, we are being told that utilizing an attachment id of "L1839" will enable IBM automation within VBS to improve
+outcomes for the veteran.
+
+- department-of-veterans-affairs/va.gov-team#138444
+- department-of-veterans-affairs/va.gov-team#138463
+
+### Known Issues - Out-of-scope
+
+The following issue is a parent to other issues that we have evaluated and are considering as non-launch blocking and
+out-of-scope.
+
+- department-of-veterans-affairs/va.gov-team#138474
