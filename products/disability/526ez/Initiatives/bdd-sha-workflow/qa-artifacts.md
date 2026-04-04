@@ -15,7 +15,7 @@ Our test plans are hosted in TestRails. The "BDD SHA Upload" section was created
 Specific to "Regression" testing, the following test case was added to ensure the new changes do not break existing
 features.
 
-- [(C166096) BDD User Can Upload SHA Part A - Existing Supporting Evidence Flow](https://dsvavsp.testrail.io/index.php?/cases/view/166096)
+- [(C244347) BDD User Can Upload SHA Part A - Utilizes Old Flow - Feature Flag Off](https://dsvavsp.testrail.io/index.php?/cases/view/244347)
 - [(C166101) Non-BDD User Does Not See SHA Upload UI](https://dsvavsp.testrail.io/index.php?/cases/view/166101&group_id=46311&group_by=cases:section_id&group_order=asc&display=tree&display_deleted_cases=0)
 
 ## Test Plan
@@ -26,11 +26,16 @@ Our test plans are hosted in TestRails. The "BDD SHA Upload" section was created
 
 Specific to "Test Plan" testing, the following test case was added to ensure the new changes work as expected.
 
-- [(C166099) BDD User Can Upload SHA Part A - Enhanced Supporting Evidence Flow](https://dsvavsp.testrail.io/index.php?/cases/view/166096)
+- [(C244345) BDD User Can Upload SHA Part A - Minimal Test - Feature Flag On](https://dsvavsp.testrail.io/index.php?/cases/view/244345)
+- [(C166096) BDD User Can Upload SHA Part A - Existing Supporting Evidence Flow (Non-enhanced)](https://dsvavsp.testrail.io/index.php?/cases/view/166096)
+- [(C166099) BDD User Can Upload SHA Part A - Enhanced Supporting Evidence Flow](https://dsvavsp.testrail.io/index.php?/cases/view/166099)
 - [(C166100) BDD User Can Upload SHA Part A - Warned when opting to not upload](https://dsvavsp.testrail.io/index.php?/cases/view/166100)
 - [(C244338) BDD User Can Upload SHA Part A - Maximum Upload Limit](https://dsvavsp.testrail.io/index.php?/cases/view/244338)
 - [(C244341) BDD User Can Upload SHA Part A - Warned before destructive action](https://dsvavsp.testrail.io/index.php?/cases/view/244341)
 - [(C244342) BDD User Can Upload SHA Part A - Warned before destructive action from Review and Submit page](https://dsvavsp.testrail.io/index.php?/cases/view/244342)
+- [(C244343) BDD User with IPF before SHA upload maintains data on rollback](https://dsvavsp.testrail.io/index.php?/cases/view/244343)
+- [(C244344) BDD User with IPF on Supporting Evidence flow maintains data on rollback](https://dsvavsp.testrail.io/index.php?/cases/view/244344)
+- [(C244346) BDD User with IPF and Uploaded SHA maintains data on rollback](https://dsvavsp.testrail.io/index.php?/cases/view/244346)
 
 ## Traceability Reports - Coverage for References
 
@@ -38,9 +43,9 @@ Here is how our user stories map to test requirements. We should have 100% cover
 
 | Ticket name                                                                                                                | Test Case |
 | -------------------------------------------------------------------------------------------------------------------------- | --------- |
-| Create new SHA Part A Upload Page                                                                                          | C166099   |
+| Create new SHA Part A Upload Page                                                                                          | C244345   |
 | Add confirmation of SHA upload on supporting evidence summary page                                                         | C244345   |
-| Add confirmation of SHA upload on Review & Submit and CoS page                                                             | C166100   |
+| Add confirmation of SHA upload on Review & Submit and CoS page                                                             | C244345   |
 | Remove SHA warning from additional evidence page if BDD SHA feature flag on                                                | C244345   |
 | Remove SHA references from evidence types BDD page                                                                         | C244345   |
 | Add warning message to review and submit page if SHA document was not uploaded                                             | C166100   |
