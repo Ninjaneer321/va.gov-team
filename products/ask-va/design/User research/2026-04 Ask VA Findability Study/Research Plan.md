@@ -53,7 +53,7 @@ More specifically, this will help us make content and design decisions on the As
 
 `2.` What are Veterans expectations for support from Ask VA when they've landed on our page?
 
-`3.` How does logging in impact a Veteran's ability to get the support they need from Ask VA? 
+`3.` When and how do Veterans decide to sign in vs. not sign in to ask questions?
 
 `4.` How well does Ask VA's introduction page prepare Veterans to complete the form and get the answers they need?  
 
@@ -92,7 +92,8 @@ We will recruit 15 Veterans for a total of 12 completed sessions.
 
 | Priority | \# of participants | Criteria |
 | ----- | ----- | ----- |
-| Required | Exactly 15 | Are Veterans |
+| Required | Exactly 9 | Are Veterans |
+| Required | Exactly 6 | Are Veteran family members, dependents, or other beneficiaries |
 | Required | Exactly 15 | Have contacted VA online or over the phone in the past year |
 | Required | Exactly 15 | Have an active VA.gov account (Don't know if I need to specify this) |
 | Required | Exactly 15 | Have VA benefits (Don't know if I need to specify this) |
