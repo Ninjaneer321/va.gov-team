@@ -46,8 +46,8 @@ Synchronous Go/No Go (Placeholder)
 
 - [X] Enable in Production to 100% of users on 4/1 and monitor for any errors on 4/2 & again on 4/6.  If everything looks good with no errors we will send out the BLUF statement on Monday 4/6.
 - [X] Confirm the release to Production, with a test user
-- [ ] Mia to send out BLUF Statement on 4/6.
-- [ ] Communicate release to VBA and VSO liason office plus DAV leadership on 4/6.
+- [X] Mia to send out BLUF Statement on 4/6.
+- [X] Communicate release to VBA and VSO liason office plus DAV leadership on 4/6.
 
 ***
 
