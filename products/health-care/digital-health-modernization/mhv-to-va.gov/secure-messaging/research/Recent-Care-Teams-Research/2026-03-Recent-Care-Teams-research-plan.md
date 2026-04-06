@@ -120,7 +120,7 @@ VA.gov authenticated experience
 
 `Product Brief`
 
-[Secure Messaging Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/product-outline.md)
+[Secure Messaging Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/product-outline.md) 
 
 </details>
 
