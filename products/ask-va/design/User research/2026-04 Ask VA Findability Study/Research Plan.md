@@ -94,7 +94,7 @@ We will recruit 15 Veterans for a total of 12 completed sessions.
 | ----- | ----- | ----- |
 | Required | Exactly 9 | Are Veterans |
 | Required | Exactly 6 | Are Veteran family members, dependents, or other beneficiaries |
-| Required | Exactly 15 | Have contacted VA online or over the phone in the past year |
+| Required | Exactly 15 | Have contacted VA online in the past year |
 | Required | Exactly 15 | Have an active VA.gov account (Don't know if I need to specify this) |
 | Required | Exactly 15 | Have VA benefits (Don't know if I need to specify this) |
 | Required | Exactly 6 | Are willing to join from a desktop device |
@@ -114,7 +114,7 @@ We will recruit 15 Veterans for a total of 12 completed sessions.
 
 | Question | Answers | Screening Criteria |
 | :---- | :---- | :---- |
-| Have you contacted the VA online or over the phone for help in the past year? | Yes / No | Must answer Yes |
+| Have you contacted the VA online for help in the past year? | Yes / No | Must answer Yes |
 | Do you have an active account to login to VA.gov? | Yes / No | At least 6/8 participants must answer Yes |
 | Do you currently receive any VA benefits?  | Yes / No  | Must answer Yes |
 | Are you able to join the Zoom session from an internet-connected desktop, laptop, or mobile phone? | Yes / No | Must answer Yes |
