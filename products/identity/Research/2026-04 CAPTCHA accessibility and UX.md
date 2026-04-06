@@ -24,7 +24,7 @@ Modern style backend check types hold promise, but some of those bias against as
 | Puzzle-based | Simple task to perform | Perform a puzzle task, like sliding a slider | Vision, cognitive disability, dexterity, motor impairments, non-native English speaker |
 | GeeTest CAPTCHA | Puzzle plus analyzes  behavior and history  | Mouse movement, browser history, and cookies are analyzed in the background | Vision, cognitive disability, dexterity, motor impairments |
 | ReCAPTCHA v2 | Checkbox click | Mouse movement analyzed as you click the box | Assistive tech users frequently flagged for secondary challenge which is either image or audio based |
-| Invisible ReCAPTCHA (ReCAPTCHv3) | Analyzes user behavior and history | Mouse movement, browser history, and cookies are analyzed in the background | Use of assistive tech often leads to a secondary challenge |
+| ReCAPTCHv3 | Analyzes user behavior and history | Mouse movement, browser history, and cookies are analyzed in the background | Use of assistive tech often leads to a secondary challenge |
 | Cloudflare Turnstile | Analyzes user behavior and history | Mouse movement, browser history, and cookies are analyzed in the background | To be determined |
 
 ## Major themes
