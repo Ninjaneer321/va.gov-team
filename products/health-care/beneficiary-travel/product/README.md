@@ -7,7 +7,7 @@ The legacy Beneficiary Travel Self-Service System (BTSSS) is a standalone web ap
 The goal of this body of work is to improve the tool and accessibility of the beneficiary travel system and experience. As part of our mission to improve Veteran’s access to care, the existing claim submission system and processes need to be integrated more intentionally with VA.gov and the VA Health and Benefits (VAHB) mobile application. 
 
 ## Problem Statement
-The legacy BTSSS system is siloed off from other systems & services. Veterans cannot easily discover, access, authenticate into and complete travel claims using the portal. Interviews done with Veterans for a homepage iteration project in 2022 identified the BTSSS system as a serious pain point.  The pain centered around two areas: 
+The legacy BTSSS system is siloed off from other systems & services. Veterans are not able to easily discover, access, authenticate into and complete travel claims using the portal. Interviews done with Veterans for a homepage iteration project in 2022 identified the BTSSS system as a serious pain point.  The pain centered around two areas: 
 1) having to log into BTSSS despite being logged into VA.gov, and 
 2) the user experience of BTSSS itself. 
 
@@ -40,7 +40,7 @@ UPDATE: As of late 2022 Veterans can access VA.gov and not have to log in again 
 
 ## Undesired Business Outcomes
 *	Reduced number of claims filed overall. 
-* Increased complaints through the contact center
+*   Increased complaints through the contact center
 *	Creating additional work for VTP staff
 *	Re-writing the BTSSS backend, business rules, or processing pipelines
 
