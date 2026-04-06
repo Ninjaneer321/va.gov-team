@@ -33,7 +33,7 @@ Synchronous Go/No Go (Placeholder)
 
 **Verdict:**
 
-## Release Details
+## Release Details April 6th, 2026
 
 - [ ] Enable in Production to 100% of users
 - [ ] Confirm the release to Production, with a test user
