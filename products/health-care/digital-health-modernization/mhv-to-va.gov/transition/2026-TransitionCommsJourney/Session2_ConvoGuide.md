@@ -40,6 +40,12 @@ Check your screensharing setup and share permissions for participants.
 
 When the participant is ready, begin the session with the following intro.
 
+## Moderator note — what changed (anchor points)
+Use these as anchors when the participant describes what they saw:
+- Apr 8: Meds — cannot request refills online or track shipped meds
+- Apr 9–10: behind-the-scenes data pulls/saves (may create perceived oddness)
+- Apr 11: Appointments show Oracle + VistA together; meds labeled “transferred”; records begin visible
+- Apr 13: Secure Messaging returns via Oracle pools; meds resume with combined list + new Rx numbers; travel pay resumes; lab/test notifications start
 
 ---
 
