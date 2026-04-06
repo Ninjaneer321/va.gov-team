@@ -39,8 +39,8 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 
 #### Planning
 
-- Desired date range or test duration: [TBD]
-- Desired number of users: 1
+- Desired date range or test duration: 4/7/26
+- Desired number of users: 1 (Lee Delarm)
 - How you'll recruit the right production test users: Seth Darr will identify a veteran who is willing to assist.
 - How you'll conduct the testing: We will manually trigger the Event Bus Gateway to send a POST request to vets-api with the recruit's participant ID.
 - How you'll give the test users access to the product in production w/o making it live on VA.gov: We will set the flags accordingly:
