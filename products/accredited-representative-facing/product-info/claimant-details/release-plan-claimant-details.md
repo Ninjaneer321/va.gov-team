@@ -4,7 +4,7 @@ Feature Toggle/flag:
 `accredited_representative_portal_claimant_details` will control visibility of the Claimant Details feature, for Accredited Representative Portal users. This will be disabled in Production prior to release.
 
 ### Preparation
-- [ ] The following user flows have been tested
+- [x] The following user flows have been tested
    - Find Claimant Search Results
       -    [x] Established POA
       -    [x] No POA / No results found
