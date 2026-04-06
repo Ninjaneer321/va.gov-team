@@ -1,7 +1,7 @@
 # **VA.gov Profile – Structured Findings: Missing Contact Information**
 
-## **Executive Summary**  
-Across the dataset of **10,977** case records, we isolated **1,494** verbatims that specifically concern **missing or uneditable contact information** (address, phone, email, emergency contact/next‑of‑kin) within VA.gov and related sign‑in experiences. Users most frequently report **profile data not displaying (“we can’t show your information”)**, **blocked updates to phone/email**, and **emergency/next‑of‑kin changes that cannot be made online**. These issues often **block task completion** for dependent updates, care coordination, appointment confirmations, and identity verification for secure sign‑in, creating repeat calls and handoffs to the National Call Center (NCC). While many cases ultimately show a final **Closed** status, the **effort and repeated failures** reflected in call notes are high, indicating **low satisfaction** and **elevated operational load**.
+## **Executive Summary**
+Across the dataset of **10,977** case records covering **January–December 2025**, we isolated **1,494** verbatims that specifically concern **missing or uneditable contact information** (address, phone, email, emergency contact/next‑of‑kin) within VA.gov and related sign‑in experiences. Users most frequently report **profile data not displaying (“we can’t show your information”)**, **blocked updates to phone/email**, and **emergency/next‑of‑kin changes that cannot be made online**. These issues often **block task completion** for dependent updates, care coordination, appointment confirmations, and identity verification for secure sign‑in, creating repeat calls and handoffs to the National Call Center (NCC). While many cases ultimately show a final **Closed** status, the **effort and repeated failures** reflected in call notes are high, indicating **low satisfaction** and **elevated operational load**.
 
 ---
 
@@ -41,15 +41,15 @@ Across the dataset of **10,977** case records, we isolated **1,494** verbatims t
 Users reach the profile or contact‑information page, but **no fields load**, or they see an **account‑security panel only**. Without visible fields, they **cannot edit** phone, email, address, next‑of‑kin, or emergency contacts.
 
 **Representative quotes:**  
-• “It’s telling her ‘We’re sorry, we cannot update your information right now. Please try again later.’”  
-• “It says ‘We can’t show your information’… only shows account security.”  
-• “We are unable to show your profile based on your records.”
+- “We’re sorry we cannot update your information right now… please try again later.”  
+- “It says ‘We can’t show your information’… only shows account security.”  
+- “We are unable to show your profile based on your records.”
 
 **Impact:**  
 This issue **completely blocks** contact‑info tasks, drives repeated login attempts, and increases reliance on NCC agents. It also contributes to missed appointment reminders and identity‑verification failures.
 
 **Temporal or segment patterns:**  
-Appears consistently across Jan–Feb 2025 and persists despite basic troubleshooting (cache clear, browser changes).
+Appears consistently across **January–December 2025** and persists despite basic troubleshooting (cache clear, browser changes).
 
 **Critical Observations:**  
 - Generic error text leaves users without clear next actions.  
@@ -71,9 +71,9 @@ Appears consistently across Jan–Feb 2025 and persists despite basic troublesho
 Users attempt to change their phone number or email, but the system rejects changes, reverts them, or errors out. Many cannot receive MFA codes due to outdated contact info, locking them out.
 
 **Representative quotes:**  
-• “It won’t take the new number… code goes to the old phone.”  
-• “Change email shows as updated, then returns to the old email later.”  
-• “I’m unable to update the telephone to authenticate.”
+- “It won’t take the new number… code goes to the old phone.”  
+- “Change email shows as updated, then returns to the old email later.”  
+- “I’m unable to update the telephone to authenticate.”
 
 **Impact:**  
 Users cannot authenticate, access their account, or receive reminders. Many require NCC warm transfers or manual resets.
@@ -98,9 +98,9 @@ Users cannot authenticate, access their account, or receive reminders. Many requ
 Users see outdated emergency contacts in appointment confirmations but cannot update them online. The system often surfaces no edit controls, forcing users to call clinics or NCC.
 
 **Representative quotes:**  
-• “Unable to update emergency contact… provided number for local VAMC.”  
-• “Emergency contact lists spouse but with old phone.”  
-• “Next of kin information isn’t correct and won’t update.”
+- “Unable to update emergency contact… provided number for local VAMC.”  
+- “Emergency contact lists spouse but with old phone.”  
+- “Next of kin information isn’t correct and won’t update.”
 
 **Impact:**  
 Incorrect emergency contacts pose **care‑coordination risks**, increase appointment confusion, and require extra manual work from clinics.
@@ -123,9 +123,9 @@ Incorrect emergency contacts pose **care‑coordination risks**, increase appoin
 Users encounter form constraints, character limits, and backend errors (“Try again later”) when saving addresses.
 
 **Representative quotes:**  
-• “Foreign address not accepted… also not allowed to put non‑US number.”  
-• “Address will be updated soon… but doesn’t populate.”  
-• “Cannot add an address; red error banner to try again later.”
+- “Foreign address not accepted… also not allowed to put non‑US number.”  
+- “Address will be updated soon… but doesn’t populate.”  
+- “Cannot add an address; red error banner to try again later.”
 
 **Impact:**  
 Inability to update addresses jeopardizes receipt of VA correspondence, benefits, and claim updates; may force paper‑based updates.
@@ -148,8 +148,8 @@ Inability to update addresses jeopardizes receipt of VA correspondence, benefits
 Users trying to update contact information are redirected into MFA or identity verification flows that require the *old* phone or email.
 
 **Representative quotes:**  
-• “MFA recovery puts him back to choose self‑service… then login screen, repeating cycle.”  
-• “Cannot match phone number to Login.gov; needs contact update to verify.”
+- “MFA recovery puts him back to choose self‑service… then login screen, repeating cycle.”  
+- “Cannot match phone number to Login.gov; needs contact update to verify.”
 
 **Impact:**  
 Creates circular paths that prevent updates and force reliance on NCC or partner support systems.
@@ -176,6 +176,7 @@ Creates circular paths that prevent updates and force reliance on NCC or partner
 
 ### **Data Overview**
 - **Total dataset size:** 10,977 cases  
+- **Time period:** **January–December 2025** (full‑year coverage)  
 - **Missing Contact Information subset:** 1,494 cases  
 - **Data types:** Call‑center notes + structured case metadata  
 - **Status:** Many cases end as “Closed,” but user effort is high due to repeated failure loops.
@@ -193,7 +194,7 @@ Major sub‑themes within Missing Contact Information:
 ---
 
 ### **Trends**
-- **Temporal:** Repeated issues from Jan–Feb 2025 with no sign of natural decline, suggesting systemic backend causes.  
+- **Temporal:** Issues persist across the full year (Jan–Dec 2025), indicating systemic root causes rather than isolated outages.  
 - **Channel/device:** Affects web (Edge/Chrome/Firefox) and mobile (iOS/Android), showing cross‑platform consistency.
 
 ---
@@ -205,3 +206,9 @@ Major sub‑themes within Missing Contact Information:
 - “Foreign address not accepted; can’t add non‑US phone.”  
 - “Emergency contact is wrong, and there’s no edit option.”  
 - “Change email looks saved, but later it’s the old one again.”
+
+---
+
+# **End of Report**
+
+If you want the **full‑year monthly trend table**, **charts**, or **theme comparisons**, I can generate those next—just tell me!
