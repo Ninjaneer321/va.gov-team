@@ -48,7 +48,6 @@ While we cannot think of any events that would be critical enough to merit a rol
 
 **The rollback process is:**
 1. Turn off the feature toggle `accredited_representative_portal_claimant_details` 
-   1. Submit a PR
 2. Alert the team in [#benefits-accredited-rep-crew](https://dsva.slack.com/archives/C05SUUM4GAW) that the rollback process has been initiated
    1. Include any details as to what triggered the rollback
    2. Tag relevant teammates
