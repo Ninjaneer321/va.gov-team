@@ -1,8 +1,8 @@
 # Community Care Initiative Brief 
 (As of April, 2026)
 
-## Outcome Summary
-The goal is to enable Veterans to submit claims for their Community Care appointments. A Community Care appointment is an appointment scheduled at a non-VAMC appointment.  Confirmation that the Veeran attended their appointment must be supplied with their claim submissioon in order to receive reimbursement. The current goal is for this flow to exist on VA.gov with a low error rate.
+## Overview
+The goal is to enable Veterans to submit proof that they attended their Community Care appointments and can therefore submit travel claims for these apointments. A Community Care appointment is an appointment scheduled at a non-VAMC appointment.  Confirmation that the Veeran attended their appointment must be supplied with their claim submissioon in order to receive reimbursement. The current goal is for this flow to exist on VA.gov with a low error rate.
 
 ## Problem
 * Less than 30$ of claims are related to Community Care appointments. To file these claims online, Veterans must be able to authenticate separately into the BTSSS portal, submit confirmation they attended their appointments alongside any additional receipts for their travel expenses. 
@@ -47,15 +47,13 @@ The goal is to enable Veterans to submit claims for their Community Care appoint
 ## Discovery
 ### Assumptions/Risks
 
-- **Value Risks**
+- **Value & Usability Risks**
 	* This is considered high value, but if Veterans already have low trust with the product from previous experiences, there may be an issue.
 	* Payouts from SMOC tend to be smaller in scale than payouts from other VA benefits, so not all who are eligible may prioritize it.
+	* Veterans have not submitted travel pay claims on VA.gov before. They may encounter issues finding the appointments list if they want to submit.
+  	* Veterans may not have all the information they need in their profiles (i.e. home address), which is a risk for them being able to file.
   
-- **Usability Risks** 
-  - Veterans have not submitted travel pay claims on VA.gov before. They may encounter issues finding the appointments list if they want to submit.
-  - Veterans may not have all the information they need in their profiles (i.e. home address), which is a risk for them being able to file.
-  
-- **[Technical] Feasibility Risks** 
+- **Technical Feasibility Risks** 
     - Upstream/Downstream API/Data availability and reliability. Because we have not worked with the Travel Pay API in this regard before, we are not sure of its reliability until testing in production.
     - Manual review for claims: because the rules engine is complex in nature and we do not know how all claims are processed, some claims may enter manual review for reasons that we do not immediately understand and would require explanation by the BTSSS team.
   
