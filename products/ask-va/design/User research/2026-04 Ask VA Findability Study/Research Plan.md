@@ -84,9 +84,9 @@ We will have Veterans navigate to va.gov and show us how they might navigate the
 
 ### Recruitment approach
 
-We will work with Perigean to recruit Veterans.
+We will work with Perigean to recruit Veterans and other beneficiaries.
 
-### Recruitment criteria – Veterans
+### Recruitment criteria
 
 We will recruit 15 Veterans for a total of 12 completed sessions.
 
