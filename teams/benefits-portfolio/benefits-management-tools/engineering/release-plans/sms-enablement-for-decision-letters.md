@@ -50,7 +50,7 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 | [event_bus_gateway_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_sms_notifications) | enabled |
 | [event_bus_gateway_letter_ready_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_letter_ready_sms_notifications) | enabled for the recruit's icn |
 | [event_bus_gateway_retry_sms](https://api.va.gov/flipper/features/event_bus_gateway_retry_sms) | enabled |
-| [event_bus_gateway_sms_blackout](https://api.va.gov/flipper/features/event_bus_gateway_sms_blackout) | disabled |
+| [event_bus_gateway_sms_blackout](https://api.va.gov/flipper/features/event_bus_gateway_sms_blackout) | enabled (unless tested from 9pm-9am ET) |
 | [event_bus_gateway_sms_dry_run](https://api.va.gov/flipper/features/event_bus_gateway_sms_dry_run) | disabled |
  
 #### Results
