@@ -27,7 +27,7 @@ VAHB currently has 5 "activity" cards surfaced on the home screen, 4 of which ar
 My HealtheVet on web currently has 2 existing health tools that can surface the same data as VAHB: 
 
 | Tool | Indicator | Page it routes to | Notes |
-|--------------|---------|---------|----------|---------|-------|
+|--------------|---------|---------|----------|
 | Messages | Dot indicator next to "Go to inbox" on My HealtheVet landing page; dot indicator next to "Go to inbox" on My VA page | Messages: Inbox | Unread messages denoted by "blue" notification dot |
 | Appointments | No visibility into specific upcoming appointments on My HealtheVet landing page (but there is a link to go to them); Card for nearest upcoming appointment details is surfaced directly on My VA page under the "Health care" heading | Appointments | |
 
