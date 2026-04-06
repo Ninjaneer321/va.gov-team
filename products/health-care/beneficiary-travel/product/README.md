@@ -77,7 +77,7 @@ ________________________________________
   * [Expanded Claims Details "V2"](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/product/initiatives/claim_details_v2/claim_details_v2_initiative_brief.md)
   * [Complex Claims](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel/product/initiatives/complex-claims)
   * [Community Care Appointments](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel/product/initiatives/community_care_appt_type)
-  * Claims for Missing Appointments
+  * [Claims for Missing Appointments](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/product/initiatives/missing_appts/MissingApptsInitiative.md)
 
 ## [Launch Features & Target Delivery Dates](https://github.com/orgs/department-of-veterans-affairs/projects/1713/views/2?sliceBy%5Bvalue%5D=%F0%9F%9A%97+Ursa+Minor+%28Travel%29)
 
