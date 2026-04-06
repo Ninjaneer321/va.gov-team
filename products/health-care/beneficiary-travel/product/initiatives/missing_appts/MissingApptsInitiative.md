@@ -1,6 +1,102 @@
-This is the work to enable Veterans to submit claims for appointments that don't appear in their appointment list. 
-Something like a walk-in or lab appointment.
-The important distinction is that they will be create a full "proper" appointment. They will only be adding the minimum required details to allow the claim to be submitted successfully.
+# User Created Appointments Initiative Brief
+(Updated as of April 2026)
 
-Additional information to be added.
+##Overview
+Continuing the transition of functionality from the BTSSS - Veteral Portal the functionality to be released in this wave will enable Veterans to submit travel claims for appointments that may be missing from the appointments list (like walkins or labs). All other previously enabled features will continue to be available including SMOC, and Complex Claims for VAMC or Community Care servvices.  
+
+The important distinction is that they will are only adding appointment information to the claim for the purpose of "matching" the expense to the service.  They are not creating a fully functioning appointment.  
+
+## Problem
+* Less than 30% of Veterans create claims for appointment that are missing from their appointments list.  However the functionality is still needed for instances when a Veteran needs to file a claim for an appointment like a lab test, or Community Care follow up that is schedule but for some reason doesn't appear in their list.  All existing rules and requirments will be applied for manual review and approval.
+
+---
+## Desired User Outcomes
+* Users are able to file travel claims for simple, mileage-only claims (SMOC) and claims with individual receipts for authorized LOCAL providers on the VA.GOV website without authenticating onto the BTSSS portal 
+* More users will be able to find and file for travel expense reimbursement.
+
+## Undesired User Outcomes
+* Users encounter a high error rate while filing travel reimbursement claims.
+* Users cannot find the starting point for travel claims submission.
+
+## Desired Business Outcomes
+- Increase in total volume of SMOC filings.
+- Increase in total volume of Complex Claims filings.
+- Increase in total volume of Community Care filings.
+- Increase in total volume of claims submitted via BTSSS YoY.
+ 
+## Undesired Business Outcomes
+- Higher rate of manual review claims than on existing BTSSS portal
+- Continued usage of BTSSS portal for SMOC-eligible claims (high cost)
+
+---
+
+## Measuring Success
+### Key Performance Indicators (KPIs)
+| Product KPI | Baseline | Target | Data source |
+| ---------------------------------------------------------------------------------- | -------- | ------ | ----------- |
+| % / # of claims submitted in VA.gov matching at least 'in process' status in BTSSS | \--      | 100%   | PowerBI     |
+| Claims created by API = claims processed by BTSSS                                  |          | 100%   | Datadog     |
+| Qualitative feedback                                                               | \--      | \--    | Medallia    |
+| Travel Pay API errors                                                              | \--      | 0%     | Datadog     |
+| Technical error rate in claim submission on VA.gov                                 | 0        | 0      | Datadog     |
+| Processing time in claims from VA.gov                                              | \--      | 0%     | PowerBI     |
+| Claim volume increase from VA.gov                                                  | \--      | 70%    | PowerBI     |
+| vets API errors                                                                    | \--      | 0      | Datadog     |
+
+---
+
+## Discovery
+### Assumptions/Risks
+- **Value & Usability Risks**
+	  - This is considered high value, but if Veterans already have low trust with the product from previous experiences, there may be an issue.
+ 	  - Payouts from claims tend to be smaller in scale than payouts from other VA benefits, so not all who are eligible may prioritize it.
+  	- Veterans may not have submitted travel pay claims on VA.gov before. They may encounter issues finding the appointments list if they want to submit.
+  	- Veterans may not have all the information they need in their profiles (i.e. home address), which is a risk for them being able to file.
+  	- We have not yet designed for being able to save a claim if Veterans need more time to find materials to substantiate their claim.
+  
+- **[Technical] Feasibility Risks**:
+    - Upstream/Downstream API/Data availability and reliability. Because we have not worked with the Travel Pay API in these regard before, we are not sure of its reliability until testing in production. This includes sending attachments that have to be processed by travel clerks.
+    - Manual review for claims: because the rules engine is complex in nature and we do not know how all claims are processed, some claims may be automatically rejected for reasons we do not understand.
+  
+- **Organizational Viability Risks/Constraints** (will there be a positive organizational impact):
+      - The single largest risk is coordination with VTP. Because VTP remains an influential owner of the existing BTSSS portal, we will need to continue working them on design, testing, rollout, and MS dynamics licensing questions.
+
+### What're you building
+* Community Care claims will include:
+	* A flow that enables Veterans to submit claims for travel to and from their local Community Care providers, asking them to confirm the following items:
+		* Provide proof they attended their appointment
+    * What expenses are they seeking reimbursement for? 
+		* Did they travel in their own vehicle?
+		* Are they starting and ending at their home address?
+	* Claims for non-community are apopintments can still be filed via both the BTSSS portal and the VA.GOV workflows.
+ 
+### Screenshots			[Figma Files]()
+
+## Launch Planning
+### Collaboration Cycle Kickoff Tickets
+- [V1 Ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137479)
+
+
+#### Communications
+
+- Team Name: Travel Pay on VA.gov
+- GitHub Label(s): travel-pay
+- Slack channel: #beneficiary-travel-team
+- Product POCs: Kay Lawyer, Mark Dewey, Kristen McConnell (VA); Charlotte Reid (Ad Hoc)
+
+</details>
+
+
+#### Stakeholders
+*What offices/departments are critical to make this initiative successful?*
+  
+- Office/Department: Veteran Travel Pay
+- Contact(s): Daryl Richardson, Lee Cook
+- Office/Department: Veteran Experience Office
+- Contact(s): Lisa Koenigsberg
+-
+---
+<sup>1</sup> [VA.gov Analytics - KPI Framework](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/analytics/Analytics%20Playbook/va-gov-platform-analytics-kpi-framework.pdf)\
+<sup>2</sup> [SVPG: The Four Big Risks](https://svpg.com/four-big-risks/)
+
 
