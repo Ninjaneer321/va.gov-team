@@ -1,6 +1,6 @@
 ---
 title: "Conversation Guide for MHV Medical Records Recency Indicators Usability Study, March 2026"
-author: Laura Willwerth, MHV on VA.gov Team
+author: Laura Simpson, MHV on VA.gov Team
 date_created: "2026-03-23"
 last_modified: "2026-04-01"
 
