@@ -6,19 +6,19 @@ Feature Toggle/flag:
 ### Preparation
 - [ ] The following user flows have been tested
    - Find Claimant Search Results
-      -    [ ] Established POA
-      -    [ ] No POA / No results found
-      -    [ ] No POA / Pending request
+      -    [x] Established POA
+      -    [x] No POA / No results found
+      -    [x] No POA / Pending request
    -  Claimant Overview Tab
-      -    [ ] User has established POA for a claimant
-      -    [ ] User has established POA for a claimant without an established ITF
-      -    [ ] User has established POA for a claimant with an expiring ITF
-      -    [ ] User has no established POA for a claimant
+      -    [x] User has established POA for a claimant
+      -    [x] User has established POA for a claimant without an established ITF
+      -    [x] User has established POA for a claimant with an expiring ITF
+      -    [x] User has no established POA for a claimant
    -  Submission History Tab
-      -    [ ] No submissions currently exist for a claimant
-      -    [ ] Submissions do exist for a claimant
-- [ ] Any "launch blocking" findings from Team QA have been addressed.
-- [ ] Datadog monitoring is set up to monitor error rates, latency, and evaulate the Claimant Details endpoint
+      -    [x] No submissions currently exist for a claimant
+      -    [x] Submissions do exist for a claimant
+- [x] Any "launch blocking" findings from Team QA have been addressed.
+- [x] Datadog monitoring is set up to monitor error rates, latency, and evaulate the Claimant Details endpoint
 - [ ] Contact Center Review has been submitted
    - [ ] Note: Will be submitted right after release
 
@@ -27,8 +27,8 @@ Any other issues or requirements that should be addressed prior to rollout?
 ### Go/No Go meeting April 6th, 2026
 Synchronous Go/No Go (Placeholder)
 
-- [ ] Review the release plan with your team.
-- [ ] Review the plan with your OCTO representative.
+- [x] Review the release plan with your team.
+- [x] Review the plan with your OCTO representative.
 - [ ] Finalize the release date
 
 **Verdict:**
