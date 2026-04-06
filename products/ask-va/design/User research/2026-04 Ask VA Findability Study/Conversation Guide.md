@@ -125,6 +125,7 @@ Now, let's imagine you'd like to reach out to someone online for help. Talk out 
    - What would help you feel more confident? 
 
 - What types of questions might you sign in to ask?
+- What do you believe is the purpose of signing in here?
 - What would you expect to be different once you've signed in here?
 - How does signing in impact your experience to receive help?
 - Is there anything you might change on this page?
