@@ -183,7 +183,7 @@ In this research we are specifically exploring Veteran submitters' input on how 
 
 This research will create a better understanding of how Ask VA fits into a Veteran's support experience with VA. We hope to uncover the different paths people might take to arrive at Ask VA and complete the form for help. 
 
-More specifically, this will help us make content and design decisions on the Ask VA Introduction page. This will also help us better understand how authentication impacts their experience, enabling us to make informed decisions about how to handle the authenticated experience vs. the unauthenticated experience for Ask VA. 
+More specifically, this will help us make content and design decisions on the Ask VA Introduction page that increase the use of Ask VA. With the goal of reducing the burden on other support channels such as phone lines or in-person visits. This will also help us better understand how authentication impacts their experience, enabling us to make informed decisions about how to handle the authenticated experience vs. the unauthenticated experience for Ask VA. 
 
 ---
 
@@ -201,7 +201,7 @@ More specifically, this will help us make content and design decisions on the As
 
 ---
 
-Navigating to Ask VA is _not_ straightforward or where Veterans would expect it to be. 
+Veterans have varied expectations about where Ask VA should be located.
 
 Veterans feel prepared to complete the Ask VA form upon reaching our introduction page.
 
@@ -228,27 +228,26 @@ We will work with Perigean to recruit Veterans and other beneficiaries.
 
 ### Recruitment criteria
 
-We will recruit 15 Veterans for a total of 12 completed sessions.
+We will recruit 18 Veterans for a total of 12 completed sessions.
 
 | Priority | \# of participants | Criteria |
 | ----- | ----- | ----- |
 | Required | Exactly 9 | Are Veterans |
-| Required | Exactly 6 | Are Veteran family members, dependents, or other beneficiaries |
-| Required | Exactly 15 | Have contacted VA online in the past year |
-| Required | Exactly 15 | Have an active VA.gov account (Don't know if I need to specify this) |
-| Required | Exactly 15 | Have VA benefits (Don't know if I need to specify this) |
-| Required | Exactly 6 | Are willing to join from a desktop device |
-| Required | Exactly 6 | Are willing to join from a mobile device |
-|  | At least 4 | Have a cognitive disability or consideration |
-|  | At least 4 | Are over 55 years old |
-|  | At least 2 | Assistive Tech users (screen reader) |
+| Required | Exactly 9 | Are Veteran family members, dependents, or other beneficiaries |
+| Required | Exactly 18 | Have contacted VA online in the past year |
+| Required | Exactly 18 | Have an active VA.gov account (Don't know if I need to specify this) |
+| Required | Exactly 18 | Have VA benefits (Don't know if I need to specify this) |
+| Required | Exactly 9 | Are willing to join from a desktop device |
+| Required | Exactly 9 | Are willing to join from a mobile device |
+|  | At least 6 | Have a cognitive disability or consideration |
+|  | At least 6 | Are over 55 years old |
+|  | At least 3 | Assistive Tech users (screen reader) |
 |  | At least 3 | Identify as a gender other than male |
 |  | At least 3 | Identify Asian or Hispanic |
 |  | At least 3 | Identify as Black or Native |
 |  | At least 3 | Are rural |
 |  | At least 3 | Don't have a degree |
 |  | At least 2 | Identify as LGBTQ+ |
-|  | At least 2 | Assistive Tech users (screen reader) |
 
 ### Screener questions
 
@@ -276,7 +275,7 @@ We will recruit 15 Veterans for a total of 12 completed sessions.
 
 ### Research sessions
 
-- `Planned dates of research:` April 13, 2026 \- April 21, 2026 
+- `Planned dates of research:` April 13, 2026 \- April 24, 2026 
 
 ### Length of sessions
 
@@ -301,6 +300,10 @@ We will recruit 15 Veterans for a total of 12 completed sessions.
 
 - `4/20, Monday, 11:30am-6:00pm EST (4)`  
 - `4/21, Tuesday, 9:30am-2:00pm EST (3)`  
+- `4/23, Thursday, 9:30am-5:30pm EST (4)`  
+- `4/24, Friday, 9:30am-5:30pm EST (4)`
+
+- `4/26, Monday, 12:30pm-4:00pm EST (2Resear)`
 
 
 ## Team Roles  🕵️👩‍💻👩‍🔬
