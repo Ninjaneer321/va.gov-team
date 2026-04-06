@@ -155,7 +155,7 @@ _What are the measurable targets you're aiming for that delivers value for Veter
 ### Key Decisions
 - We are only going to send an initial email notification for now and we will consider sending reminders later.
 - We are not including the alternative link to copy and paste, just including the universal link to keep the email simple and reduce confusion. If we do decide to include the copy and paste option, here are[ exploratory designs](https://www.figma.com/design/db26JCYXJtaakOdG4TiNXN/Notifications-BMT?node-id=4025-11098&t=r1FXtPxmVxeeiM4i-11).
-- We are not including a due date because there can be multiple dates and that might add confusion to when their evidence is actually due. We should note that the due date was the biggest gap the research identified and without a concrete deadline, veterans may deprioritize action, so we should focus on finding other ways to appropriately communicate urgency.
+- We are omitting a due date because multiple possible dates could confuse veterans about when their evidence is actually due. However, since the research identified the lack of a clear deadline as the biggest gap, and without one, veterans may deprioritize action, we should explore other ways to effectively communicate urgency.
 - We can’t have “Action needed” in the subject line because the guidance says: If it’s a post-submission failure notification (part of the zero silent failures initiative), start the subject line with “Action needed”. [Content guide](https://design.va.gov/content-style-guide/email-and-text-notifications)
 
 ---
