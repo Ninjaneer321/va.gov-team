@@ -275,7 +275,7 @@ We will recruit 18 Veterans for a total of 12 completed sessions.
 
 ### Research sessions
 
-- `Planned dates of research:` April 13, 2026 \- April 24, 2026 
+- `Planned dates of research:` April 13, 2026 \- April 26, 2026 
 
 ### Length of sessions
 
