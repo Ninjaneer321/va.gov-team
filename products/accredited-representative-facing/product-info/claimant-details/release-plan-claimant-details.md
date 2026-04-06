@@ -19,7 +19,7 @@ Feature Toggle/flag:
       -    [ ] No submissions currently exist for a claimant
       -    [ ] Submissions do exist for a claimant
 - [ ] Any "launch blocking" findings from Team QA have been addressed.
-- [ ] Datadog monitoring is set up to monitor error rates, latency, and evaulate the ITF endpoint
+- [ ] Datadog monitoring is set up to monitor error rates, latency, and evaulate the Claimant Details endpoint
 
 Any other issues or requirements that should be addressed prior to rollout?
 
