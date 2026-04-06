@@ -17,14 +17,20 @@ The sooner a Veteran learns of an evidence request(s), the sooner they can gathe
 ## Problem Statement
 Currently, Veterans are not promptly notified when the VA requests additional evidence for their benefits claims, relying instead on manual checking their account or receiving mailed notifications that can take days or over a week to arrive. This delay slows the Veterans ability to respond evidence requests, while the VA pauses claim processing for approximately 30 days awaiting the requested information. As a result, avoidable notification gaps contribute to longer claim resolution times and increased Average Days to Complete (ADC). In some cases, missed evidence request responses may also result in Veterans receiving lower benefit determinations than they may otherwise be entitled to.
  
-## Desired User Outcomes
-- Veterans can recieve the following notifications, listed in priority:
-  1. email
-  2. mobile push notifications (if they are loggged in to the app) and
-  3. SMS notifications if they have provided a valid phone number
-- Veterans can opt in or out of each notification on their profile
+## User stories
+- As a Veteran, I want to be notified immediately when the VA requests additional evidence so that I can take action as soon as possible
+- As a Veteran, I want to receive notifications through my preferred channel (SMS, email, or push) so that I don’t miss important updates
 
-Additional Desired User Outcomes
+Development of notifications should be prioritized by reach / impact as follows:
+1. Email
+2. Mobile Push Notifications
+3. SMS
+
+User Stories - Stretch Goals
+- As a Veteran, I want to control how often and through which channels I receive notifications so that they fit my preferences
+- As a Veteran, I want to receive reminders if I haven’t responded yet so that I don’t forget to submit required evidence
+
+### Desired User Outcomes
 - Veterans are immediately aware when additional evidence is requested for their claim
 - Veterans can respond to evidence requests quickly and confidently
 - Veterans experience reduced anxiety and uncertainty during the claims process
@@ -34,14 +40,14 @@ Additional Desired User Outcomes
 - Veterans feel informed, supported, and in control of their claims process
 
 
-## Undesired User Outcomes
+### Undesired User Outcomes
 - Veterans feel overwhelmed or stressed by frequent or poorly timed notifications
 - Veterans ignore or opt out of notifications due to perceived noise or lack of relevance
 - Veterans experience accessibility barriers (e.g., unclear messaging, channel limitations)
 - Veterans lose trust if notifications are inaccurate, delayed, or duplicated
 - Veterans are suspicious of notifications (perceived as phishing attempts)
   
-## Desired Business Outcomes
+### Desired Business Outcomes
 - The % of Veterans responding to a first-party evidence request within a week increases by x% percentage points (as of August 2025: ~20% of Veterans respond to first-party requests within a week)
 - We see a reduction in ADC for disability claims
 - Reduced Average Days to Complete (ADC) for claims
@@ -54,13 +60,24 @@ Additional Desired User Outcomes
 - Lower administrative burden associated with manual status checks and inquiries
 
 
-## Undesired Business Outcomes
+### Undesired Business Outcomes
 - Increased notification volume leads to alert fatigue, reducing effectiveness
 - Higher inbound support volume due to confusion or unclear instructions
 - No meaningful reduction in ADC despite increased communication (i.e., noise without impact)
 - Additional operational burden to manage notification systems without ROI
 - Increased equity gaps if certain Veteran populations are less able to receive/respond to notifications
 - Risk of eroding trust if notifications are inaccurate, delayed, or perceived as spam
+
+---
+## Technical Dependencies for Evidence Request Notifications as of 4/2/2026
+At a high level, these are the technical dependencies for Evidence Request Notifications (in order from upstream → downstream):
+
+* BIP / BEP / BGS → The Benefits Integration Events team would create a custom event from their system triggered by the availability of a development letter containing one or more evidence requests.
+* EventBus / EventBusGateway → The EventBus team would define a new Kafka event and topic to integrate with the new evidence request events
+* EventBusGateway → Benefits Management Tools team would add a consumer for the new event, and map the events to new VA Notify templates per channel (email/push/SMS)
+* Vets-api → Benefits Management Tools team would extend the LetterReadyNotification infrastructure to deliver the new evidence request notifications to the Veterans via calls to VA Notify
+
+See this [flow diagram] (https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/event-bus-notify/Data%20Flow%20Diagram.md) for decision letter emails as a basic model for these new downstream events
 
 ---
 ## Measuring Success
