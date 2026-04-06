@@ -152,8 +152,8 @@ VA.gov authenticated experience
 
 `1.` Evaluate how many pages users should go through to write a message and how this impacts the overall experience.  
 `2.` Identify where assistive technology users encounter challenges in both current and proposed designs.  
-`3.` Identify and assess what strategies users are defaulting to in order to identify the correct care team 
-`4.` Understand what format of the interstitial content may be most easily uderstood by users to i.  
+`3.` Identify and assess what strategies users are defaulting to in order to identify the correct care team.
+`4.` Understand what format of the interstitial content may be both easily understood by users and does not result in complaints about task interruption.  
 `5.` Identify new and existing pain points in the message creation flow.  
 
 ### Outcome
