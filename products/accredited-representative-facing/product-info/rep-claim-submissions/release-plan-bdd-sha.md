@@ -10,7 +10,7 @@ Feature Toggle/flag:
    - Promoting SHA Part A in 21-526ez
       -    [ ] SHA content on 21-526ez submission page
       -    [ ] Checkbox on Claimant information portion of 526ez
-      -    [ ] SHA Upload option is avaiable
+      -    [ ] SHA Upload option is available
       -    [ ] If no SHA upload is added, modal is tripped
       -    [ ] Checkbox for BDD is reflected in review and submit
       -    [ ] Upload for SHA is reflected in review and submit
