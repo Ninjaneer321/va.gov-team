@@ -26,9 +26,9 @@ Development of notifications should be prioritized by reach / impact as follows:
 2. Mobile Push Notifications
 3. SMS
 
-User Stories - Stretch Goals
+### User Stories - Stretch Goals
 - As a Veteran, I want to control how often and through which channels I receive notifications so that they fit my preferences
-- As a Veteran, I want to receive reminders if I haven’t responded yet so that I don’t forget to submit required evidence
+- As a Veteran, I want to receive Evidence Request reminders if I haven’t responded yet so that I don’t forget to submit required evidence
 
 ### Desired User Outcomes
 - Veterans are immediately aware when additional evidence is requested for their claim
