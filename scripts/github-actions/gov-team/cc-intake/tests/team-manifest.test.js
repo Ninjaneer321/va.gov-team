@@ -1,5 +1,5 @@
 import { describe, test, expect, vi } from "vitest";
-import { fetchTeamManifest } from "../modules/team-manifest.js";
+import { fetchTeamManifest } from "../src/modules/team-manifest.js";
 
 vi.mock("fs", () => ({
   default: {

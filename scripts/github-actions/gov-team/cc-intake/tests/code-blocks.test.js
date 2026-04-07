@@ -3,8 +3,8 @@ import {
   selectCodeBlockFiles,
   assembleCodeBlocks,
   replacePlaceholders,
-} from "../modules/code-blocks.js";
-import { INTAKE_QUESTIONS } from "../modules/intake-parser.js";
+} from "../src/modules/code-blocks.js";
+import { INTAKE_QUESTIONS } from "../src/modules/intake-parser.js";
 import { INDIVIDUALS, ORGANIZATIONS, INTAKE_RESPONSES, MANIFEST } from "./fixtures.js";
 
 describe("selectCodeBlockFiles", () => {

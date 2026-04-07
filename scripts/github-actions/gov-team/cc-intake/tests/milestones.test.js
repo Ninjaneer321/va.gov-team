@@ -1,5 +1,5 @@
 import { describe, test, expect, vi } from "vitest";
-import { createMilestone } from "../modules/milestones.js";
+import { createMilestone } from "../src/modules/milestones.js";
 import { GITHUB_API_VERSION } from "./fixtures.js";
 
 const API_VERSION = GITHUB_API_VERSION;

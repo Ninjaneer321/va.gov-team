@@ -1,5 +1,5 @@
 import { describe, test, expect, vi } from "vitest";
-import { INTAKE_QUESTIONS, parseIntakeQuestions, fetchIntakeResponses } from "../modules/intake-parser.js";
+import { INTAKE_QUESTIONS, parseIntakeQuestions, fetchIntakeResponses } from "../src/modules/intake-parser.js";
 import { MOCK_ISSUE_BODY, GITHUB_API_VERSION } from "./fixtures.js";
 
 describe("INTAKE_QUESTIONS", () => {

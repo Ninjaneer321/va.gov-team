@@ -1,5 +1,14 @@
 import { describe, test, expect, vi } from "vitest";
-import { buildInitiateTouchpointUrls } from "../modules/touchpoint-urls.js";
+import {
+  buildInitiateTouchpointUrls,
+  findCollabCycleRequest,
+  addCollabCycleLinkToTouchpoint,
+  replaceTouchpointInitiateLink,
+} from "../src/modules/touchpoint-urls.js";
+import { GITHUB_API_VERSION } from "./fixtures.js";
+
+const OWNER = "department-of-veterans-affairs";
+const REPO = "va.gov-team";
 
 describe("buildInitiateTouchpointUrls", () => {
   const defaults = {
@@ -130,5 +139,226 @@ describe("buildInitiateTouchpointUrls", () => {
         milestoneTitle: "M",
       }),
     ).toThrow();
+  });
+});
+
+describe("addCollabCycleLinkToTouchpoint", () => {
+  test("replaces the CC ticket placeholder with a link to the collab cycle issue", () => {
+    const body =
+      "- Collaboration Cycle ticket\n- PO Sync meeting date/time:\n\n## About PO Sync\n\nSome content here.";
+    const result = addCollabCycleLinkToTouchpoint(body, {
+      collabCycleIssueNumber: 456,
+    });
+
+    expect(result).toBe(
+      `- Collaboration Cycle ticket: #456\n- PO Sync meeting date/time:\n\n## About PO Sync\n\nSome content here.`,
+    );
+  });
+});
+
+describe("replaceTouchpointInitiateLink", () => {
+  const initiateUrl =
+    "https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=DRAFT-PO-Sync.md&title=PO+Sync+-+Test+Team&labels=collaboration-cycle%2CCC-touchpoint%2CPO-sync&milestone=Collab+Cycle+%23100";
+
+  test("replaces PO Sync initiate link with touchpoint link", () => {
+    const body = `Some text\n- [➡️ Initiate a PO Sync](${initiateUrl})\nMore text`;
+    const result = replaceTouchpointInitiateLink(body, {
+      touchpointLabels: ["collaboration-cycle", "CC-touchpoint", "PO-sync"],
+      touchpointNumber: 789,
+      owner: OWNER,
+      repo: REPO,
+    });
+
+    expect(result).toContain(`#789`);
+    expect(result).not.toContain("➡️ Initiate a PO Sync");
+    expect(result).toContain("Some text");
+    expect(result).toContain("More text");
+  });
+
+  test("replaces Architecture Intent initiate link", () => {
+    const url =
+      "https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=DRAFT-Architecture-Intent.md&title=Architecture+Intent";
+    const body = `- [➡️ Initiate an Architecture Intent](${url})`;
+    const result = replaceTouchpointInitiateLink(body, {
+      touchpointLabels: ["CC-touchpoint", "architecture-intent"],
+      touchpointNumber: 101,
+      owner: OWNER,
+      repo: REPO,
+    });
+
+    expect(result).toContain(`#101`);
+    expect(result).not.toContain("➡️ Initiate an Architecture Intent");
+  });
+
+  test("replaces Design Intent initiate link", () => {
+    const url =
+      "https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=DRAFT-Design-Intent.md";
+    const body = `- [➡️ Initiate a Design Intent](${url})`;
+    const result = replaceTouchpointInitiateLink(body, {
+      touchpointLabels: ["CC-touchpoint", "design-intent"],
+      touchpointNumber: 202,
+      owner: OWNER,
+      repo: REPO,
+    });
+
+    expect(result).toContain(`#202`);
+  });
+
+  test("replaces Midpoint Review initiate link", () => {
+    const url =
+      "https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=DRAFT-Midpoint-Review.md";
+    const body = `- [➡️ Initiate a Midpoint Review](${url})`;
+    const result = replaceTouchpointInitiateLink(body, {
+      touchpointLabels: ["CC-touchpoint", "midpoint-review"],
+      touchpointNumber: 303,
+      owner: OWNER,
+      repo: REPO,
+    });
+
+    expect(result).toContain(`#303`);
+  });
+
+  test("replaces Staging Review initiate link", () => {
+    const url =
+      "https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=DRAFT-Staging-Review.md";
+    const body = `- [➡️ Initiate a Staging Review](${url})`;
+    const result = replaceTouchpointInitiateLink(body, {
+      touchpointLabels: ["CC-touchpoint", "staging-review"],
+      touchpointNumber: 404,
+      owner: OWNER,
+      repo: REPO,
+    });
+
+    expect(result).toContain(`#404`);
+  });
+
+  test("returns body unchanged when no matching touchpoint label", () => {
+    const body = `- [➡️ Initiate a PO Sync](${initiateUrl})`;
+    const result = replaceTouchpointInitiateLink(body, {
+      touchpointLabels: ["collaboration-cycle", "some-other-label"],
+      touchpointNumber: 789,
+      owner: OWNER,
+      repo: REPO,
+    });
+
+    expect(result).toBe(body);
+  });
+
+  test("returns body unchanged when initiate link text not found", () => {
+    const body = "No initiate links here.";
+    const result = replaceTouchpointInitiateLink(body, {
+      touchpointLabels: ["CC-touchpoint", "PO-sync"],
+      touchpointNumber: 789,
+      owner: OWNER,
+      repo: REPO,
+    });
+
+    expect(result).toBe(body);
+  });
+
+  test("only replaces the matching touchpoint, leaving others intact", () => {
+    const poUrl =
+      "https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=DRAFT-PO-Sync.md";
+    const archUrl =
+      "https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=DRAFT-Architecture-Intent.md";
+    const body = [
+      `- [➡️ Initiate a PO Sync](${poUrl})`,
+      `- [➡️ Initiate an Architecture Intent](${archUrl})`,
+    ].join("\n");
+
+    const result = replaceTouchpointInitiateLink(body, {
+      touchpointLabels: ["CC-touchpoint", "PO-sync"],
+      touchpointNumber: 500,
+      owner: OWNER,
+      repo: REPO,
+    });
+
+    expect(result).toContain(`#500`);
+    expect(result).toContain("➡️ Initiate an Architecture Intent");
+  });
+
+  test("returns body unchanged when initiate link has no closing parenthesis", () => {
+    const body = `- [➡️ Initiate a PO Sync](https://example.com`;
+    const result = replaceTouchpointInitiateLink(body, {
+      touchpointLabels: ["CC-touchpoint", "PO-sync"],
+      touchpointNumber: 789,
+      owner: OWNER,
+      repo: REPO,
+    });
+
+    expect(result).toBe(body);
+  });
+});
+
+describe("findCollabCycleRequest", () => {
+  function mockOctokit(issues) {
+    return {
+      request: vi.fn().mockResolvedValue({ data: issues }),
+    };
+  }
+
+  const defaults = {
+    owner: OWNER,
+    repo: REPO,
+    milestoneNumber: 42,
+    githubAPIVersion: GITHUB_API_VERSION,
+    touchpointIssueNumber: 200,
+  };
+
+  test("finds CC Request with collab-cycle-review label", async () => {
+    const issues = [
+      {
+        number: 100,
+        labels: [{ name: "collab-cycle-review" }],
+      },
+      {
+        number: 200,
+        labels: [{ name: "CC-touchpoint" }],
+      },
+    ];
+
+    const result = await findCollabCycleRequest(mockOctokit(issues), defaults);
+    expect(result.number).toBe(100);
+  });
+
+  test("finds CC Request with collaboration-cycle-testing label", async () => {
+    const issues = [
+      {
+        number: 150,
+        labels: [{ name: "collaboration-cycle-testing" }],
+      },
+    ];
+
+    const result = await findCollabCycleRequest(mockOctokit(issues), defaults);
+    expect(result.number).toBe(150);
+  });
+
+  test("skips the touchpoint issue itself", async () => {
+    const issues = [
+      {
+        number: 200,
+        labels: [{ name: "collab-cycle-review" }],
+      },
+    ];
+
+    const result = await findCollabCycleRequest(mockOctokit(issues), defaults);
+    expect(result).toBeNull();
+  });
+
+  test("returns null when no matching issue found", async () => {
+    const issues = [
+      {
+        number: 300,
+        labels: [{ name: "some-other-label" }],
+      },
+    ];
+
+    const result = await findCollabCycleRequest(mockOctokit(issues), defaults);
+    expect(result).toBeNull();
+  });
+
+  test("returns null when no issues in milestone", async () => {
+    const result = await findCollabCycleRequest(mockOctokit([]), defaults);
+    expect(result).toBeNull();
   });
 });
