@@ -315,18 +315,19 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 3. What would you do if you didn't understand the question?
 
 ### Community care proof page
-`Moderator: Take a look at this page and think aloud again. Is this what you expected?`    
+`Moderator: Take a look at this page. Is this what you expected?`    
 
-`Moderator: Since this is a prototype, we won’t actually upload a real document, but you can click on the box and the prototype will walk you through what it might look like.`
+1. What is this page asking you to do?
+2. What kind of file would you upload here?
+3. How would you upload that file?
 
-1. What kind of document would you upload here?
-2. _If the user has been to a community care appointment:_ Do you typically have this kind of document after a community care appointment?
-3. What would you do if you didn’t have this type of documentation?
-4. What does the phrase "Proof of care received" mean to you?
-5. How might that change if it said "Proof of attendance"?
-6. _If they notice the explanation text:_ Do you have any concerns about what this is telling you?
+`Moderator: Since this is a prototype, we won’t actually upload a real document, but you can click on the box and the prototype will walk you through what it might look like.` _Prompt user to select the file that looks right to them._
 
-7. _Prompt user to select the file that looks right to them, then take the next step in their task._
+4. _If the user has been to a community care appointment:_ Do you typically have this kind of document after a community care appointment?
+5. What would you do if you didn’t have this type of documentation?
+6. What does the phrase "Proof of care received" mean to you?
+7. How might that change if it said "Proof of attendance"?
+8. _If they notice the explanation text:_ Do you have any concerns about what this is telling you?
    
 > [!NOTE]
 > #### Things to watch for:
@@ -432,20 +433,14 @@ _Moderator prepares to screenshare either "Go to your past appointments" or "Rev
 
 `Moderator: Now I'm going to show you something to get your feedback. I'm going to stop your screen sharing. Can you navigate back to the Zoom app?` 
 
-_Once user confirms that they are viewing the Zoom app:_ `I'm now going to share my screen. Can you see me scrolling on a page called [page name]? If it appears small on our screen, you can pinch and stretch the screen to zoom in.`
+_Once user confirms that they are viewing the Zoom app:_ `I'm going to show you two pages. One or both might look familiar to you. Can you see me scrolling on a page called [page name]? If it appears small on our screen, you can pinch and stretch the screen to zoom in.`
 
-_Once user confirms they can see the page:_ `Now that you’ve seen both the Travel claims list and Past appointments list, I’d like to show them to you back-to-back. Recall that you want to file a claim for your dermatology appointment, which doesn't appear in your list of past appointments. I'd like to know which page seems most helpful as you try to accomplish that task. First, let's look at [either Travel claims list or Past appointments list].` 
+`Recall that you want to file a claim for your dermatology appointment, which doesn't appear in your list of past appointments. Review this page, considering what you'd click/tap to file an claim for an appointment that doesn't appear in your past appointments list.`
 
-1. As you think about your task to file a claim for your dermatology appointment, what stands out to you? What do you notice?
+_Switch to other page._ `I'll now give you the same instructions for a different page: recall that you want to file a claim for your dermatology appointment, which doesn't appear in your list of past appointments. Review this page, considering what you'd click/tap to file an claim for an appointment that doesn't appear in your past appointments list.`
 
-_Moderator switches to the other page._ `Now consider the [other page name].` 
-
-1. As you think about your task to file a claim for your dermatology appointment, what stands out to you? What do you notice?
-
-`Now consider both pages. We can go back and forth between them, if you like.` 
-
-1. Which page makes it clearer that you can file for an appointment that isn’t on your list?
-2. If you could only pick one version, which one would you pick?
+1. Now that you've seen both pages, which page feels more helpful to file an claim for an appointment that doesn't appear in your past appointments list?
+2. If you could only file a claim for an appointment that isn't in your past appointments list starting from one of these pages, which page would you pick?
    - Why would you pick that one?
 3. Is there anything you’d change about how you'd start the process of filing for your dermatology appointment, on either page?  
 
