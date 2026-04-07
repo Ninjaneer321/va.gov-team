@@ -142,10 +142,10 @@ Use matching day-of-week windows to account for weekday/weekend traffic differen
 1. On the claims landing page, observe the area below the "Your claims, decision reviews, or appeals" heading.
 
 #### Intended Outcomes
-- [ ] A segmented button component appears with three buttons: "In progress", "Closed", and "All" (in that order)
-- [ ] "In progress" is selected by default
-- [ ] The segmented button has an aria-label of "Claims status filter"
-- [ ] The "Find out why we sometimes combine claims" accordion is not present
+- [x] A segmented button component appears with three buttons: "In progress", "Closed", and "All" (in that order)
+- [x] "In progress" is selected by default
+- [x] The segmented button has an aria-label of "Claims status filter"
+- [x] The "Find out why we sometimes combine claims" accordion is not present
 
 ### Test Case 2: In progress filter shows only active claims and appeals
 
@@ -154,11 +154,11 @@ Use matching day-of-week windows to account for weekday/weekend traffic differen
 1. Observe the displayed claim and appeal cards.
 
 #### Intended Outcomes
-- [ ] Only in-progress claims and appeals are displayed (User 50 has 17 in-progress items: 15 claims + 2 appeals)
-- [ ] No closed claims, closed appeals, or STEM claims appear (STEM claims are always closed)
-- [ ] Each displayed card shows an "In Progress" status tag
-- [ ] The first card should be "Claim for disability compensation" received October 14, 2025 (most recently updated in-progress item)
-- [ ] Sort order is retained: claims with open evidence requests first, then other in-progress claims, each sorted by most recently updated (User 50 has no claims with documentsNeeded: true in the list data, so evidence-request bumping to top is not verifiable with this user)
+- [x] Only in-progress claims and appeals are displayed (User 50 has 17 in-progress items: 15 claims + 2 appeals)
+- [x] No closed claims, closed appeals, or STEM claims appear (STEM claims are always closed)
+- [x] Each displayed card shows an "In Progress" status tag
+- [x] The first card should be "Claim for disability compensation" received October 14, 2025 (most recently updated in-progress item)
+- [x] Sort order is retained: claims with open evidence requests first, then other in-progress claims, each sorted by most recently updated (User 50 has no claims with documentsNeeded: true in the list data, so evidence-request bumping to top is not verifiable with this user)
 
 ### Test Case 3: In Progress status tag on open claim cards
 
@@ -166,8 +166,8 @@ Use matching day-of-week windows to account for weekday/weekend traffic differen
 1. While viewing the "In progress" filter, find the first card: "Claim for disability compensation" received October 14, 2025.
 
 #### Intended Outcomes
-- [ ] An "In Progress" label appears on the card inside the heading, before the claim title
-- [ ] The label uses the `usa-label` styling
+- [x] An "In Progress" label appears on the card inside the heading, before the claim title
+- [x] The label uses the `usa-label` styling
 
 ### Test Case 4: In Progress status tag on claim detail page
 
@@ -175,8 +175,8 @@ Use matching day-of-week windows to account for weekday/weekend traffic differen
 1. While viewing the "In progress" filter, click "Details" on the "Claim for disability compensation" received October 14, 2025 card.
 
 #### Intended Outcomes
-- [ ] Below the claim title, an "In Progress" label is displayed
-- [ ] A "Last updated" date appears below the label
+- [x] Below the claim title, an "In Progress" label is displayed
+- [x] A "Last updated" date appears below the label
 
 ### Test Case 5: Closed filter shows only closed records
 
@@ -185,11 +185,11 @@ Use matching day-of-week windows to account for weekday/weekend traffic differen
 1. Click the "Closed" filter button.
 
 #### Intended Outcomes
-- [ ] Only closed claims, closed appeals, and STEM claims are displayed (User 50 has 25 closed items: 18 claims + 7 closed appeals, 0 STEM)
-- [ ] No in-progress claims or appeals appear
-- [ ] Each displayed card shows a "Closed" status tag
-- [ ] The first card should be "Supplemental Claim for disability compensation" received February 1, 2025 (most recently decided closed item)
-- [ ] Sort order is retained within the closed group, sorted by most recently updated
+- [x] Only closed claims, closed appeals, and STEM claims are displayed (User 50 has 25 closed items: 18 claims + 7 closed appeals, 0 STEM)
+- [x] No in-progress claims or appeals appear
+- [x] Each displayed card shows a "Closed" status tag
+- [x] The first card should be "Supplemental Claim for disability compensation" received February 1, 2025 (most recently decided closed item)
+- [x] Sort order is retained within the closed group, sorted by most recently updated
 
 ### Test Case 6: Closed status tag on closed claim cards
 
@@ -197,8 +197,8 @@ Use matching day-of-week windows to account for weekday/weekend traffic differen
 1. While viewing the "Closed" filter, find the "Claim for compensation" received October 15, 2024 card (scroll or page to find it -- it is the 8th closed item).
 
 #### Intended Outcomes
-- [ ] A "Closed" label appears on the card inside the heading, before the claim title
-- [ ] The label uses the `usa-label` styling
+- [x] A "Closed" label appears on the card inside the heading, before the claim title
+- [x] The label uses the `usa-label` styling
 
 ### Test Case 7: Closed status tag on closed appeal cards
 
@@ -206,8 +206,8 @@ Use matching day-of-week windows to account for weekday/weekend traffic differen
 1. While viewing the "Closed" filter, find the "Disability Compensation Appeal" received August 8, 2024 card. User 50 has 7 closed appeals (5 supplemental claims + 2 board appeals).
 
 #### Intended Outcomes
-- [ ] A "Closed" label appears on the card inside the heading, before the appeal title
-- [ ] The label uses the `usa-label` styling
+- [x] A "Closed" label appears on the card inside the heading, before the appeal title
+- [x] The label uses the `usa-label` styling
 
 ### Test Case 8: Closed status tag on STEM claim cards
 
@@ -217,8 +217,8 @@ Note: User 50 has no STEM claims. Use a different test user to verify this case.
 1. While viewing the "Closed" filter, find the "Edith Nourse Rogers STEM Scholarship application" card.
 
 #### Intended Outcomes
-- [ ] A "Closed" label appears on the card inside the heading, before the STEM claim title
-- [ ] The label uses the `usa-label` styling
+- [x] A "Closed" label appears on the card inside the heading, before the STEM claim title
+- [x] The label uses the `usa-label` styling
 
 ### Test Case 9: Closed status tag on claim detail page
 
@@ -226,10 +226,10 @@ Note: User 50 has no STEM claims. Use a different test user to verify this case.
 1. While viewing the "Closed" filter, click "Details" on the "Claim for compensation" received October 15, 2024 card.
 
 #### Intended Outcomes
-- [ ] Below the claim title, a "Closed" label is displayed
-- [ ] A "Last updated" date appears below the label
-- [ ] The "What you need to do" section is not present
-- [ ] The "What we're doing" section is not present
+- [x] Below the claim title, a "Closed" label is displayed
+- [x] A "Last updated" date appears below the label
+- [x] The "What you need to do" section is not present
+- [x] The "What we're doing" section is not present
 
 ### Test Case 10: All filter shows all records
 
@@ -238,12 +238,12 @@ Note: User 50 has no STEM claims. Use a different test user to verify this case.
 1. Click the "All" filter button.
 
 #### Intended Outcomes
-- [ ] All claims, appeals, and STEM claims are displayed regardless of status (User 50 has 42 total items, 5 pages)
-- [ ] In-progress cards show an "In Progress" status tag
-- [ ] Closed cards show a "Closed" status tag
-- [ ] Sort order: claims with open evidence requests first, then other in-progress, then closed -- each group sorted by most recently updated
-- [ ] Page 1 should show the same first 10 in-progress items as the "In progress" filter page 1
-- [ ] Page 2 should show the remaining 7 in-progress items followed by the first 3 closed items
+- [x] All claims, appeals, and STEM claims are displayed regardless of status (User 50 has 42 total items, 5 pages)
+- [x] In-progress cards show an "In Progress" status tag
+- [x] Closed cards show a "Closed" status tag
+- [x] Sort order: claims with open evidence requests first, then other in-progress, then closed -- each group sorted by most recently updated
+- [x] Page 1 should show the same first 10 in-progress items as the "In progress" filter page 1
+- [x] Page 2 should show the remaining 7 in-progress items followed by the first 3 closed items
 
 ### Test Case 11: Default sort order is maintained across filters
 
@@ -253,14 +253,14 @@ Note: User 50 has no STEM claims. Use a different test user to verify this case.
 1. Click "Closed" and observe the order.
 
 #### Intended Outcomes
-- [ ] Within each filter view, claims with open evidence requests appear first, then other claims sorted by most recently updated (User 50 has no claims with documentsNeeded: true in the list data, so evidence-request bumping is not verifiable with this user)
-- [ ] The expected first 5 cards for "In progress" page 1 are:
+- [x] Within each filter view, claims with open evidence requests appear first, then other claims sorted by most recently updated (User 50 has no claims with documentsNeeded: true in the list data, so evidence-request bumping is not verifiable with this user)
+- [x] The expected first 5 cards for "In progress" page 1 are:
    1. Claim for disability compensation -- Received on October 14, 2025
    1. Claim for compensation -- Received on April 2, 2025
    1. Claim for freedom of information act / privacy act request -- Received on February 23, 2026
    1. Higher-Level Review for disability compensation -- Received on January 20, 2026
    1. Request to add or remove a dependent -- Received on November 25, 2025
-- [ ] The sort order is consistent regardless of which filter is selected
+- [x] The sort order is consistent regardless of which filter is selected
 
 ### Test Case 12: Pagination text with In progress filter
 
@@ -269,9 +269,9 @@ Note: User 50 has no STEM claims. Use a different test user to verify this case.
 1. Observe the pagination info text above the claim cards.
 
 #### Intended Outcomes
-- [ ] Format is "Showing X-Y of Z in-progress records" (hyphen, no spaces around dash)
-- [ ] User 50 expected text: "Showing 1-10 of 17 in-progress records"
-- [ ] Text is always shown, even with fewer than 10 items (e.g., "Showing 1-2 of 2 in-progress records")
+- [x] Format is "Showing X-Y of Z in-progress records" (hyphen, no spaces around dash)
+- [x] User 50 expected text: "Showing 1-10 of 17 in-progress records"
+- [x] Text is always shown, even with fewer than 10 items (e.g., "Showing 1-2 of 2 in-progress records")
 
 ### Test Case 13: Pagination text with Closed filter
 
@@ -280,9 +280,9 @@ Note: User 50 has no STEM claims. Use a different test user to verify this case.
 1. Observe the pagination info text above the claim cards.
 
 #### Intended Outcomes
-- [ ] Format is "Showing X-Y of Z closed records"
-- [ ] User 50 expected text: "Showing 1-10 of 25 closed records"
-- [ ] Text is always shown, even with fewer than 10 items
+- [x] Format is "Showing X-Y of Z closed records"
+- [x] User 50 expected text: "Showing 1-10 of 25 closed records"
+- [x] Text is always shown, even with fewer than 10 items
 
 ### Test Case 14: Pagination text with All filter
 
@@ -291,9 +291,9 @@ Note: User 50 has no STEM claims. Use a different test user to verify this case.
 1. Observe the pagination info text above the claim cards.
 
 #### Intended Outcomes
-- [ ] Format is "Showing X-Y of Z records" (no filter label qualifier)
-- [ ] User 50 expected text: "Showing 1-10 of 42 records"
-- [ ] Text is always shown, even with fewer than 10 items
+- [x] Format is "Showing X-Y of Z records" (no filter label qualifier)
+- [x] User 50 expected text: "Showing 1-10 of 42 records"
+- [x] Text is always shown, even with fewer than 10 items
 
 ### Test Case 15: Pagination resets when changing filters
 
@@ -304,9 +304,9 @@ Note: User 50 has no STEM claims. Use a different test user to verify this case.
 1. Click "All" again.
 
 #### Intended Outcomes
-- [ ] Clicking "In progress" resets to page 1 of in-progress records
-- [ ] Clicking "All" resets to page 1 (does not return to page 2)
-- [ ] The URL no longer contains `?page=2`
+- [x] Clicking "In progress" resets to page 1 of in-progress records
+- [x] Clicking "All" resets to page 1 (does not return to page 2)
+- [x] The URL no longer contains `?page=2`
 
 ### Test Case 16: Session memory persists selected filter
 
@@ -316,8 +316,8 @@ Note: User 50 has no STEM claims. Use a different test user to verify this case.
 1. Click the browser back button or the breadcrumb to return to the claims list.
 
 #### Intended Outcomes
-- [ ] The "Closed" filter is still selected
-- [ ] Only closed records are displayed
+- [x] The "Closed" filter is still selected
+- [x] Only closed records are displayed
 
 ### Test Case 17: Session memory resets on new login
 
@@ -327,8 +327,8 @@ Note: User 50 has no STEM claims. Use a different test user to verify this case.
 1. Log back in and navigate to the claims landing page.
 
 #### Intended Outcomes
-- [ ] The filter resets to "In progress" (the default)
-- [ ] Only in-progress records are displayed
+- [x] The filter resets to "In progress" (the default)
+- [x] Only in-progress records are displayed
 
 ### Test Case 18: Empty state messages per filter
 
@@ -341,11 +341,11 @@ Note: User 50 has no STEM claims. Use a different test user to verify this case.
 1. Unblock the requests in DevTools when done.
 
 #### Intended Outcomes
-- [ ] A system alert ("We can't access some of your claims or appeals right now") appears above the filter
-- [ ] The filter component still appears and functions below the alert
-- [ ] In progress filter: "We don't have any in-progress records for you in our system."
-- [ ] Closed filter: "We don't have any closed records for you in our system."
-- [ ] All filter: "We don't have any records for you in our system."
+- [x] A system alert ("We can't access some of your claims or appeals right now") appears above the filter
+- [x] The filter component still appears and functions below the alert
+- [x] In progress filter: "We don't have any in-progress records for you in our system."
+- [x] Closed filter: "We don't have any closed records for you in our system."
+- [x] All filter: "We don't have any records for you in our system."
 
 ### Test Case 19: Updated "If you can't find your claim" section
 
@@ -354,9 +354,9 @@ Note: User 50 has no STEM claims. Use a different test user to verify this case.
 1. Observe the section below the claim letters section.
 
 #### Intended Outcomes
-- [ ] The heading reads "If you can't find your claim, decision review, or appeal"
-- [ ] A "We might still be processing it" subheading is present with text about recently submitted claims
-- [ ] A "We may have combined your claims" subheading is present with text explaining claim consolidation
+- [x] The heading reads "If you can't find your claim, decision review, or appeal"
+- [x] A "We might still be processing it" subheading is present with text about recently submitted claims
+- [x] A "We may have combined your claims" subheading is present with text explaining claim consolidation
 
 ---
 
