@@ -2,6 +2,112 @@
 
 _**Overview:** This tracker is designed to track sprint goals with completed work, providing a comprehensive view of goals achieved._
 
+# Sprint 28 Tickets  [04/08/26 - 04/21/26]
+
+| Sprint | Team | Title | URL | Status | Sprint Notes |
+| --- | --- | --- | --- | --- | --- |
+| Sprint 28 | Core Form Team | Staging Review finding: Memorable Date imposter components | https://github.com/department-of-veterans-affairs/va.gov-team/issues/117638 | Needs Review |  |
+| Sprint 28 | Core Form Team | Fully Developed Claim — Switch radio buttons to VADS Components | https://github.com/department-of-veterans-affairs/va.gov-team/issues/125241 | Needs Review |  |
+| Sprint 28 | Core Form Team | Private Medical Records Release - Modern 4142 — Switch to VADS Components | https://github.com/department-of-veterans-affairs/va.gov-team/issues/125386 | Needs Review |  |
+| Sprint 28 | Core Form Team | Toxic Exposure Conditions — Switch to VADS Components | https://github.com/department-of-veterans-affairs/va.gov-team/issues/125389 | Needs Review |  |
+| Sprint 28 | Core Form Team | [INTAKE] Core team: Staging Review finding "What to expect" | https://github.com/department-of-veterans-affairs/va.gov-team/issues/135917 | Needs Review |  |
+| Sprint 28 | Core Form Team | Update button to "Edit your account details" for existing bank account on 21-526ez Application | https://github.com/department-of-veterans-affairs/va.gov-team/issues/135320 | Needs Review |  |
+| Sprint 28 | Core Form Team | Staging Review finding: Inconsistent capitalization between progress bar and side nav | https://github.com/department-of-veterans-affairs/va.gov-team/issues/133110 | Needs Review |  |
+| Sprint 28 | Core Form Team | "Finish this application later" Staging Review finding: Button imposter component | https://github.com/department-of-veterans-affairs/va.gov-team/issues/117619 | Needs Review |  |
+| Sprint 28 | Core Form Team | Discovery - Q2 total-failure emails for form 526 | https://github.com/department-of-veterans-affairs/va.gov-team/issues/137086 | In Progress |  |
+| Sprint 28 | Core Form Team | Update expiration date for disability compensation application (VA 21-526ez) | https://github.com/department-of-veterans-affairs/va.gov-team/issues/135362 | Current Sprint |  |
+| Sprint 28 | Core Form Team | Update default validation error messages so they are clear and actionable | https://github.com/department-of-veterans-affairs/va.gov-team/issues/123267 | Current Sprint |  |
+| Sprint 28 | Core Form Team | Discovery: LightHouse FES JSON schema changes compatibility review | https://github.com/department-of-veterans-affairs/va.gov-team/issues/134978 | Current Sprint |  |
+| Sprint 28 | Core Form Team | Discovery: Zip code validation implementation planning for Veteran mailing address | https://github.com/department-of-veterans-affairs/va.gov-team/issues/132653 | Current Sprint |  |
+| Sprint 28 | Core Form Team | Log In Progress Form (IPF) ID at Key Points in SavedClaim and DisabilityCompensationInProgressFormsController | https://github.com/department-of-veterans-affairs/va.gov-team/issues/132189 | Current Sprint |  |
+| Sprint 28 | Core Form Team | IPF Strategy gather engineering feedback | https://github.com/department-of-veterans-affairs/va.gov-team/issues/134303 | Current Sprint |  |
+| Sprint 28 | Core Form Team | Post-merge verification for checkValidPagePath safety net (regression identification) | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138405 | Current Sprint |  |
+| Sprint 28 | Core Form Team | feat(526-0781): MST consent Architecture Intent meeting | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138815 | Current Sprint |  |
+| Sprint 28 | Core Form Team | File Upload Validation performance improvement | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138820 | Current Sprint |  |
+| Sprint 28 | Core Form Team | Discovery: investigate 1 incident of missing claim and ICN in VBMS | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138826 | Current Sprint | S28: 4/7 - added after sprint planning. |
+| Sprint 28 | Pathways Team | feat(526-0781): Add SIP migration to version-lock evidence enhancement for existing IPFs | https://github.com/department-of-veterans-affairs/va.gov-team/issues/135900 | Needs Review | S27: carry-over. Pending Platform review |
+| Sprint 28 | Pathways Team | metrics(526-0781): Add DataDog RUM Custom Actions for 0781 Flow | https://github.com/department-of-veterans-affairs/va.gov-team/issues/134156 | Needs Review | S27: requires Platform review |
+| Sprint 28 | Pathways Team | feat(526-0781): Add data attribute to enable flow for net-new users only | https://github.com/department-of-veterans-affairs/va.gov-team/issues/135901 | Needs Review | S27: carry-over. Pending Platform review |
+| Sprint 28 | Pathways Team | refactor(526-0781): Update isEvidenceEnhancement to check version lock field | https://github.com/department-of-veterans-affairs/va.gov-team/issues/135902 | Needs Review | S27: carry-over. Pending Platform review |
+| Sprint 28 | Pathways Team | test(526-0781): Add unit tests for version lock field behavior | https://github.com/department-of-veterans-affairs/va.gov-team/issues/135903 | Needs Review | S27: carry-over. Pending Platform review |
+| Sprint 28 | Pathways Team | metrics(526-0781): Add GA4 Analytics Events for 0781 Flow | https://github.com/department-of-veterans-affairs/va.gov-team/issues/134155 | In Progress | S27: Ticket will roll over - GA4 team is reviewing needs |
+| Sprint 28 | Pathways Team | fix(26-4555): Migrate Enzyme tests to React Testing Library | https://github.com/department-of-veterans-affairs/va.gov-team/issues/129653 | Current Sprint |  |
+| Sprint 28 | Pathways Team | fix(26-4555): Resolve downtime service configuration mismatch | https://github.com/department-of-veterans-affairs/va.gov-team/issues/129657 | Current Sprint |  |
+| Sprint 28 | Pathways Team | fix(26-4555): Enhance page unit tests beyond generic helpers | https://github.com/department-of-veterans-affairs/va.gov-team/issues/129661 | Current Sprint |  |
+| Sprint 28 | Pathways Team | test(526-0781): QA verification for IPF version lock and toggle transitions | https://github.com/department-of-veterans-affairs/va.gov-team/issues/135906 | Current Sprint |  |
+| Sprint 28 | Pathways Team | Design Onboarding to DBC Pathways | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138129 | Current Sprint |  |
+| Sprint 28 | Pathways Team | 0781 Supporting Docs - review URL slugs with C&IA | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138674 | Current Sprint |  |
+| Sprint 28 | Pathways Team | 0781 Supporting Docs - update the URLs to match page's content | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138676 | Current Sprint |  |
+| Sprint 28 | Pathways Team | 0781 Supporting Docs - discovery to create IPF migration plan | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138767 | Current Sprint |  |
+| Sprint 28 | Pathways Team | 0781 Supporting Docs - discovery on focus issue with V1 File Input component | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138784 | Current Sprint |  |
+| Sprint 28 | Pathways Team | 0781 Supporting Docs - remove periods from content in additional info component | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138786 | Current Sprint |  |
+| Sprint 28 | Pathways Team | 0781 Supporting Docs - generate PDF version of document for validation | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138863 | Current Sprint |  |
+| Sprint 28 | Conditions Team | Add postmortem for v2 condition FF impacting v1 IPFs | https://github.com/department-of-veterans-affairs/va.gov-team/issues/135367 | Needs Review | S27: working through review, rollover to implement feedback |
+| Sprint 28 | Conditions Team | Filter WORSENED/VA disabilities from toxic exposure and POW checkboxes | https://github.com/department-of-veterans-affairs/vets-website/issues/43448 | Needs Review | S27: working through review, rollover with PR awaiting merge |
+| Sprint 28 | Conditions Team | Implement retries and standardize logging for endpoint failover and error handling for rated_info | https://github.com/department-of-veterans-affairs/va.gov-team/issues/137495 | Needs Review | S27: added 3/25, retry logic could mitigate ongoing UX issues; working through review, might rollover. |
+| Sprint 28 | Conditions Team | SIP/IPF bug bash UAT | https://github.com/department-of-veterans-affairs/va.gov-team/issues/131434 | In Progress | S27: will rollover for additional testing, delayed by platform issue with review instance |
+| Sprint 28 | Conditions Team | Update taxonomy spreadsheet (post 03/2026 term refinement) | https://github.com/department-of-veterans-affairs/va.gov-team/issues/137696 | In Progress |  |
+| Sprint 28 | Conditions Team | Discovery Spike: Ensure the form handles well dependencies updates when conditions are edited and deleted after filling out subsequent pages in the flow | https://github.com/department-of-veterans-affairs/va.gov-team/issues/136645 | Prioritized Backlog |  |
+| Sprint 28 | Conditions Team | Design ideation for UX when rated_info endpoint fails | https://github.com/department-of-veterans-affairs/va.gov-team/issues/133605 | Prioritized Backlog |  |
+| Sprint 28 | Conditions Team | [V2 Phase 1] Assess readiness to re-start the v2 flow | https://github.com/department-of-veterans-affairs/va.gov-team/issues/134578 | Prioritized Backlog | S26: on hold, prioritizing known errors and sidenav work; move to S28 |
+| Sprint 28 | Conditions Team | Review V2 Phase 2 documentation - release strategy | https://github.com/department-of-veterans-affairs/va.gov-team/issues/131432 | Prioritized Backlog |  |
+| Sprint 28 | Conditions Team | [V2 Phase 2] Validate Monitoring for Rollout | https://github.com/department-of-veterans-affairs/va.gov-team/issues/131435 | Prioritized Backlog |  |
+| Sprint 28 | Conditions Team | Update BDD product guide for contact center review | https://github.com/department-of-veterans-affairs/va.gov-team/issues/133224 | Prioritized Backlog | S26: rollover, prioritized side nav support |
+| Sprint 28 | Conditions Team | Ticket refinement for autosuggestion work | https://github.com/department-of-veterans-affairs/va.gov-team/issues/134740 | Prioritized Backlog |  |
+| Sprint 28 | Conditions Team | QA: Validate fix for Enforce validation on PTSD condition  (v2 + sidenav) | https://github.com/department-of-veterans-affairs/va.gov-team/issues/135580 | Prioritized Backlog |  |
+| Sprint 28 | Conditions Team | Spike: Investigate issues related to Step 2, 3/9 - 3/16 | https://github.com/department-of-veterans-affairs/va.gov-team/issues/136580 | Prioritized Backlog | S28: blocked until 4/3, will rollover |
+| Sprint 28 | Conditions Team | Investigate feasiblity of Facilities' team solution to phone keyboard covering autosuggest list on mobile | https://github.com/department-of-veterans-affairs/va.gov-team/issues/137693 | Prioritized Backlog |  |
+| Sprint 28 | Conditions Team | Discovery on persistence of de-selected condition in payload: rated disability added on the v1 flow and deleted on v2 | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138446 | Prioritized Backlog |  |
+| Sprint 28 | Conditions Team | Investigate stuck on step 2 | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138462 | Prioritized Backlog |  |
+| Sprint 28 | Conditions Team | Spike: Call Center cases received 3/30 | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138465 | Prioritized Backlog |  |
+| Sprint 28 | Conditions Team | EE Shadowing Support - shadowing | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138641 | Prioritized Backlog |  |
+| Sprint 28 | Conditions Team | Fix data integrity issue where TE will not allow "not claiming" (Toxic relationship bug) | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138680 | Prioritized Backlog |  |
+| Sprint 28 | Conditions Team | Discovery: VAMC record requires an update but Veteran would not know (The invisible error bug) | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138687 | Prioritized Backlog |  |
+| Sprint 28 | Conditions Team | Payload retains original and edited contention text in treatedDisabilityName (2 for 1 bug) | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138688 | Prioritized Backlog |  |
+| Sprint 28 | Conditions Team | Assessment of DBC analytics initiatives [DBC Data-for-all] | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138722 | Prioritized Backlog |  |
+| Sprint 28 | Conditions Team | Release new classification mappings to support automation eligible terms | https://github.com/department-of-veterans-affairs/va.gov-team/issues/116213 | On Hold | S27: deferring to S28, to release as part of a 2nd batch of taxonomy updates |
+| Sprint 28 | Conditions Team | Test sidenav behavior against IPF migration user story | https://github.com/department-of-veterans-affairs/va.gov-team/issues/136724 | New Issues |  |
+| Sprint 28 | Employee Experience Team | Add renderer alerting/error reporting in DD + Slack | https://github.com/department-of-veterans-affairs/va.gov-team/issues/136521 | Needs Review | S27: can be merged/closed out ASAP, just needs an internal team review |
+| Sprint 28 | Employee Experience Team | FDF child removed for being married, but details showed up in 'no longer lives with me section' | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138480 | In Progress | S27: Pulled in as a bugfix we found during QA phase |
+| Sprint 28 | Employee Experience Team | Research logistics and documentation | https://github.com/department-of-veterans-affairs/va.gov-team/issues/137480 | In Progress | S27: This is the miscellaneous punch list for research tasks that remain. More tasks will be added, and it is likely that this ticket will span multiple sprints as a placeholder for small tasks until the pilot launches. |
+| Sprint 28 | Employee Experience Team | Run VSR training for FDF pilot | https://github.com/department-of-veterans-affairs/va.gov-team/issues/135467 | Current Sprint |  |
+| Sprint 28 | Employee Experience Team | Run 100-document manual validation "pilot" | https://github.com/department-of-veterans-affairs/va.gov-team/issues/133516 | Current Sprint | S26: Team is pushing this out to S27, since all capacity has been focused on FDF pilot launch support. |
+| Sprint 28 | Employee Experience Team | Do staging review on 4/16 for FDF pilot/renderer | https://github.com/department-of-veterans-affairs/va.gov-team/issues/133824 | Current Sprint | S27: Staging review will now be held on 4/16/26 which will be in S28 |
+| Sprint 28 | Employee Experience Team | Run researcher training for FDF pilot | https://github.com/department-of-veterans-affairs/va.gov-team/issues/135466 | Current Sprint |  |
+| Sprint 28 | Employee Experience Team | Gather bulk document sample with Alejandro for evaluation | https://github.com/department-of-veterans-affairs/va.gov-team/issues/135482 | Current Sprint | S26: Team is pushing this out to S27, since all capacity has been focused on FDF pilot launch support. |
+| Sprint 28 | Employee Experience Team | Run large batch of documents through eval harness | https://github.com/department-of-veterans-affairs/va.gov-team/issues/135483 | Current Sprint | S26: Team is pushing this out to S27, since all capacity has been focused on FDF pilot launch support. |
+| Sprint 28 | Employee Experience Team | Review and work with ADE on a11y feedback | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138742 | Current Sprint |  |
+| Sprint 28 | Employee Experience Team | Eng/product pre-pilot review of DD dashboard | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138773 | Current Sprint |  |
+| Sprint 28 | Employee Experience Team | Implement final pre-pilot tweaks to DD dashboard | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138775 | Current Sprint |  |
+| Sprint 28 | Employee Experience Team | Capture / prioritize staging review feedback | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138783 | Current Sprint |  |
+| Sprint 28 | Employee Experience Team | Capture / prioritize accessibility review feedback | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138785 | Current Sprint |  |
+| Sprint 28 | Employee Experience Team | Clean-up the form-renderer repo | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138787 | Current Sprint |  |
+| Sprint 28 | Employee Experience Team | FDF engineering/architecture mini retro | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138788 | Current Sprint |  |
+| Sprint 28 | Employee Experience Team | Capacity hold - final pilot bugfixes | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138790 | Current Sprint |  |
+| Sprint 28 | Employee Experience Team | Conduct VSR Pre-shadowing and prelim synthesis | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138841 | Current Sprint |  |
+| Sprint 28 | Team 5 | Enhance v3 multi-file upload required validation to use human-readable custom error message | https://github.com/department-of-veterans-affairs/va.gov-team/issues/137209 | Done |  |
+| Sprint 28 | Team 5 | Remove dropdown from V1 File Input for BDD SHA pages | https://github.com/department-of-veterans-affairs/va.gov-team/issues/137597 | Done |  |
+| Sprint 28 | Team 5 | Sprint 28 - watchdog duties | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138125 | Done |  |
+| Sprint 28 | Team 5 | Create BDD SHA Release Plan | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138491 | Current Sprint |  |
+| Sprint 28 | Team 5 | Conduct BDD SHA Staging Review on 4/9 | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138574 | Current Sprint |  |
+| Sprint 28 | Team 5 | Update submit-transformer to use L1839 for attachment id | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138444 | Current Sprint |  |
+| Sprint 28 | Team 5 | Update vets-api evss_claim_document to allow L1839 to be used as an attachment id | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138463 | Current Sprint |  |
+| Sprint 28 | Team 5 | Add DataDog RUM actions for SHA BDD Flow | https://github.com/department-of-veterans-affairs/va.gov-team/issues/134130 | Current Sprint |  |
+| Sprint 28 | Team 5 | Update Side Nav MVP user flows to include "reset Side Nav" flow | https://github.com/department-of-veterans-affairs/va.gov-team/issues/136744 | Current Sprint |  |
+| Sprint 28 | Team 5 | Synthesize C&IA feedback for prioritization on V2 | https://github.com/department-of-veterans-affairs/va.gov-team/issues/136783 | Current Sprint |  |
+| Sprint 28 | Team 5 | Sprint 28 - watchdog duties | https://github.com/department-of-veterans-affairs/va.gov-team/issues/137596 | Current Sprint |  |
+| Sprint 28 | Team 5 | Existing BDD-only pages outside of SHA pages do not handle IPF redirect properly | https://github.com/department-of-veterans-affairs/va.gov-team/issues/137661 | Current Sprint |  |
+| Sprint 28 | Team 5 | BDD Yes/No selection doesn't show on the Confirmation of Submission page | https://github.com/department-of-veterans-affairs/va.gov-team/issues/137744 | Current Sprint |  |
+| Sprint 28 | Team 5 | Fix attachment id being set in submit-transformer so that rollback still leads to SHA being submitted | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138829 | Current Sprint |  |
+| Sprint 28 | Team 5 | Funnel analysis of drop-off across 526 start experience | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138241 | Current Sprint |  |
+| Sprint 28 | Team 5 | Conduct desk research to inform "start experience" opportunity mapping | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138307 | Current Sprint |  |
+| Sprint 28 | Team 5 | Conduct go/no-go meeting for BDD SHA MVP launch | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138489 | Current Sprint |  |
+| Sprint 28 | Team 5 | Enable feature flag in production and release BDD SHA to 10% (Canary rollout) | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138490 | Current Sprint |  |
+| Sprint 28 | Team 5 | Update BDD 526ez Product Guide with new SHA pages | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138242 | Current Sprint |  |
+| Sprint 28 | Team 5 | Research training for FDF pilot | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138611 | Current Sprint |  |
+| Sprint 28 | Team 5 | Flesh out product analytics dashboard for 526 in DataDog | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138659 | Current Sprint |  |
+| Sprint 28 | Team 5 | [INTAKE] Team 5: Content audit of 526EZ intro pages | https://github.com/department-of-veterans-affairs/va.gov-team/issues/138845 | Current Sprint |  |
+
 # Sprint 27 Tickets  [03/25/26 - 04/07/26]
 
 | Sprint | Team | Title | URL | Status | Sprint Notes |
