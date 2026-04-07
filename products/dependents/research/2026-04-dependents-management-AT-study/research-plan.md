@@ -273,8 +273,10 @@ Research Goal 1: Better understand how our end users understand and interact wit
 
 * What specific needs do AT users have when encountering errors and instructions in the picklist?
 * What barriers, if any, does the picklist pattern present to AT users?
-* What is the right amount of content in headers, labels, and links to assist users without impeding usability for AT users?
+* What content density in headers/labels optimizes comprehension without overwhelming AT users?
 * Can AT users make edits to their responses from the summary page?
+* Do different AT types encounter unique barriers with the picklist?
+* What severity level do Veterans assign to errors they encounter?
 
 Research Goal 2: Determine if Veterans who use assistive technology are able to successfully complete dependent verification
 
@@ -287,8 +289,6 @@ Research Goal 3 : Assess how AT users would like the ‘cancel list+loop’ flow
 
 * Do AT users understand where they have been returned to after cancelling? Does it align with their expectations, and if not, what would they expect?
 * What unique challenges might AT users experience with the cancel flow?
-
-
 
 ### Hypotheses
 
