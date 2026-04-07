@@ -72,7 +72,7 @@ function formatTouchpointLink(touchpointNumber) {
 /**
  * Finds the Collaboration Cycle Request issue that shares the given milestone.
  */
-export async function findCollabCycleRequest(
+export async function findCollabCycleIssue(
   octokit,
   { owner, repo, milestoneNumber, githubAPIVersion, touchpointIssueNumber },
 ) {

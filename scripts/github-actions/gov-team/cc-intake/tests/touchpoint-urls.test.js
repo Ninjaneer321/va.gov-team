@@ -1,7 +1,7 @@
 import { describe, test, expect, vi } from "vitest";
 import {
   buildInitiateTouchpointUrls,
-  findCollabCycleRequest,
+  findCollabCycleIssue,
   addCollabCycleLinkToTouchpoint,
   replaceTouchpointInitiateLink,
 } from "../src/modules/touchpoint-urls.js";
@@ -317,7 +317,7 @@ describe("findCollabCycleRequest", () => {
       },
     ];
 
-    const result = await findCollabCycleRequest(mockOctokit(issues), defaults);
+    const result = await findCollabCycleIssue(mockOctokit(issues), defaults);
     expect(result.number).toBe(100);
   });
 
@@ -329,7 +329,7 @@ describe("findCollabCycleRequest", () => {
       },
     ];
 
-    const result = await findCollabCycleRequest(mockOctokit(issues), defaults);
+    const result = await findCollabCycleIssue(mockOctokit(issues), defaults);
     expect(result.number).toBe(150);
   });
 
@@ -341,7 +341,7 @@ describe("findCollabCycleRequest", () => {
       },
     ];
 
-    const result = await findCollabCycleRequest(mockOctokit(issues), defaults);
+    const result = await findCollabCycleIssue(mockOctokit(issues), defaults);
     expect(result).toBeNull();
   });
 
@@ -353,12 +353,12 @@ describe("findCollabCycleRequest", () => {
       },
     ];
 
-    const result = await findCollabCycleRequest(mockOctokit(issues), defaults);
+    const result = await findCollabCycleIssue(mockOctokit(issues), defaults);
     expect(result).toBeNull();
   });
 
   test("returns null when no issues in milestone", async () => {
-    const result = await findCollabCycleRequest(mockOctokit([]), defaults);
+    const result = await findCollabCycleIssue(mockOctokit([]), defaults);
     expect(result).toBeNull();
   });
 });

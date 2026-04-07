@@ -1,7 +1,7 @@
 import { pathToFileURL } from "node:url";
 import { Octokit } from "octokit";
 import {
-  findCollabCycleRequest,
+  findCollabCycleIssue,
   addCollabCycleLinkToTouchpoint,
   replaceTouchpointInitiateLink,
 } from "./modules/touchpoint-urls.js";
@@ -44,7 +44,7 @@ export async function linkTouchpoint() {
   }
 
   // Find the collab cycle issue that shares this milestone.
-  const collabCycleIssue = await findCollabCycleRequest(octokit, {
+  const collabCycleIssue = await findCollabCycleIssue(octokit, {
     owner: OWNER,
     repo: REPO,
     milestoneNumber: milestone.number,
