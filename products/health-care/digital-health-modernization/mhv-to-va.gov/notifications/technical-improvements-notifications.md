@@ -1,8 +1,8 @@
  # 1-Year Sequenced Plan: Cross-Tool Health Notification Infrastructure
-> **Date**: April 2026
-> **Source**: Claude/Copilot analysis of vets website capabilities + sequenced plan for making improvements to move the needle toward north-star user experience for personalized, notification-driven health portal. 
-> **Scope**: VA.gov (vets-website) + VAHB Mobile App shared backend
-> **Goal**: Build a backend-first notification and health-summary infrastructure that benefits both VA.gov and the VAHB mobile app without requiring mobile app releases for each improvement.
+* **Date**: April 2026
+* **Source**: Claude/Copilot analysis of vets website capabilities + sequenced plan for making improvements to move the needle toward north-star user experience for personalized, notification-driven health portal. 
+* **Scope**: VA.gov (vets-website) + VAHB Mobile App shared backend
+* **Goal**: Build a backend-first notification and health-summary infrastructure that benefits both VA.gov and the VAHB mobile app without requiring mobile app releases for each improvement.
 
 Note: this is a direct copied/pasted output from AI agent analysis, and has not been validated/verified with engineers as of 4/7/26. 
 ---
