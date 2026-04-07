@@ -46,6 +46,7 @@ Based on codebase analysis, three architectural truths drive this plan:
 * **Goal**: Extend the existing `onsite_notifications` system with health-specific templates.
 * **Current state**: Only one template type is in production — debt notifications (`templateId: '7efc2b8b-...'`). The `Notifications.jsx` component hard-filters to this one ID.
 * **New templates to register** (in vets-api `onsite_notifications` system):
+
 | Template ID | Trigger | Headline | Deep Link |
 |---|---|---|---|
 | `health-new-message` | New SM message received | "You have a new message" | `/my-health/secure-messages/thread/{messageId}` |
@@ -54,8 +55,7 @@ Based on codebase analysis, three architectural truths drive this plan:
 | `health-lab-result` | New lab result available | "New lab result available" | `/my-health/medical-records/labs-and-tests/{labId}` |
 | `health-travel-pay-update` | Travel claim status change | "Travel claim status updated" | `/my-health/travel-pay/claims/{claimId}` |
 
-
-The template system is already wired end-to-end: backend creates notifications → `fetchNotifications()` fetches them → `notificationsReducer` stores them → `VaNotification` renders them with dismiss support. Adding templates requires zero new frontend infrastructure. The mobile app can read the same `/v0/onsite_notifications` endpoint.
+* The template system is already wired end-to-end: backend creates notifications → `fetchNotifications()` fetches them → `notificationsReducer` stores them → `VaNotification` renders them with dismiss support. Adding templates requires zero new frontend infrastructure. The mobile app can read the same `/v0/onsite_notifications` endpoint.
 
 
 ### Month 3: Create Generic Notification Renderer + Refactor Notifications.jsx
@@ -75,7 +75,7 @@ const NOTIFICATION_TEMPLATES = {
 ```
 The existing `VaNotification` component (used in `TestNotification.jsx` and `DebtNotification.jsx`) already supports `headline`, `href`, `symbol`, `closeable`, and `onCloseEvent` — so each notification type just maps to different props on the same component.
 **Also build**: An `OtherNotification.jsx` component already exists (`src/applications/personalization/common/components/OtherNotification.jsx`) as a pattern for claim status updates — extend this pattern for each health template.
----
+
 ## Quarter 2 (Months 4–6): Integrate Summary Counts into My VA + MHV Secondary Nav
 ### Month 4: Wire `GET /v0/health_summary` into My VA Dashboard
 **Goal**: Replace the 5+ independent API calls in `Dashboard.jsx` with a single summary fetch for the health section.
