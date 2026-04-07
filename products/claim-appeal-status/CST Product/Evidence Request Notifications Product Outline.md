@@ -153,6 +153,7 @@ _What are the measurable targets you're aiming for that delivers value for Veter
 ### Current Status
 
 ### Key Decisions
+- For SMS we were assigned one number for all benefit notifications. When applying for the number we advocated for 2 or 3 numbers. Here is the [document](https://docs.google.com/document/d/1W7owSE-URAhX9hjI0oPKNPeoq7Y7XzGuwKtU_QjAgKw/edit?usp=sharing) we put to gether explaining the use cases for each number and reasoning for the multiple numbers
 - We are only going to send an initial email notification for now and we will consider sending reminders later.
 - We are not including the alternative link to copy and paste, just including the universal link to keep the email simple and reduce confusion. If we do decide to include the copy and paste option, here are[ exploratory designs](https://www.figma.com/design/db26JCYXJtaakOdG4TiNXN/Notifications-BMT?node-id=4025-11098&t=r1FXtPxmVxeeiM4i-11).
 - We are omitting a due date because multiple possible dates could confuse veterans about when their evidence is actually due. However, since the research identified the lack of a clear deadline as the biggest gap, and without one, veterans may deprioritize action, we should explore other ways to effectively communicate urgency.
