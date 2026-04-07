@@ -25,15 +25,16 @@
 1. Observe the displayed claim and appeal cards.
 
 #### Intended Outcomes
-1. Only in-progress claims and appeals are displayed
+1. Only in-progress claims and appeals are displayed (User 50 has 17 in-progress items: 15 claims + 2 appeals)
 1. No closed claims, closed appeals, or STEM claims appear (STEM claims are always closed)
 1. Each displayed card shows an "In Progress" status tag
-1. Sort order is retained: claims with open evidence requests first, then other in-progress claims, each sorted by most recently updated
+1. The first card should be "Claim for disability compensation" received October 14, 2025 (most recently updated in-progress item)
+1. Sort order is retained: claims with open evidence requests first, then other in-progress claims, each sorted by most recently updated (User 50 has no claims with documentsNeeded: true in the list data, so evidence-request bumping to top is not verifiable with this user)
 
 ### Test Case 3: In Progress status tag on open claim cards
 
 #### Steps to Reproduce
-1. While viewing the "In progress" filter, find a claim card that is not completed (e.g., a card showing a step like "Step 3 of 8").
+1. While viewing the "In progress" filter, find the first card: "Claim for disability compensation" received October 14, 2025.
 
 #### Intended Outcomes
 1. An "In Progress" label appears on the card inside the heading, before the claim title
@@ -42,7 +43,7 @@
 ### Test Case 4: In Progress status tag on claim detail page
 
 #### Steps to Reproduce
-1. While viewing the "In progress" filter, click "Details" on an in-progress claim card to navigate to the claim detail page.
+1. While viewing the "In progress" filter, click "Details" on the "Claim for disability compensation" received October 14, 2025 card.
 
 #### Intended Outcomes
 1. Below the claim title, an "In Progress" label is displayed
@@ -55,15 +56,16 @@
 1. Click the "Closed" filter button.
 
 #### Intended Outcomes
-1. Only closed claims, closed appeals, and STEM claims are displayed
+1. Only closed claims, closed appeals, and STEM claims are displayed (User 50 has 25 closed items: 18 claims + 7 closed appeals, 0 STEM)
 1. No in-progress claims or appeals appear
 1. Each displayed card shows a "Closed" status tag
+1. The first card should be "Supplemental Claim for disability compensation" received February 1, 2025 (most recently decided closed item)
 1. Sort order is retained within the closed group, sorted by most recently updated
 
 ### Test Case 6: Closed status tag on closed claim cards
 
 #### Steps to Reproduce
-1. While viewing the "Closed" filter, find a closed claim card (e.g., a card showing "Step 8 of 8: Claim decided").
+1. While viewing the "Closed" filter, find the "Claim for compensation" received October 15, 2024 card (scroll or page to find it -- it is the 8th closed item).
 
 #### Intended Outcomes
 1. A "Closed" label appears on the card inside the heading, before the claim title
@@ -72,7 +74,7 @@
 ### Test Case 7: Closed status tag on closed appeal cards
 
 #### Steps to Reproduce
-1. While viewing the "Closed" filter, find a closed appeal card (if the test user has one).
+1. While viewing the "Closed" filter, find the "Disability Compensation Appeal" received August 8, 2024 card. User 50 has 7 closed appeals (5 supplemental claims + 2 board appeals).
 
 #### Intended Outcomes
 1. A "Closed" label appears on the card inside the heading, before the appeal title
@@ -80,8 +82,10 @@
 
 ### Test Case 8: Closed status tag on STEM claim cards
 
+Note: User 50 has no STEM claims. Use a different test user to verify this case.
+
 #### Steps to Reproduce
-1. While viewing the "Closed" filter, find the "Edith Nourse Rogers STEM Scholarship application" card (if the test user has one).
+1. While viewing the "Closed" filter, find the "Edith Nourse Rogers STEM Scholarship application" card.
 
 #### Intended Outcomes
 1. A "Closed" label appears on the card inside the heading, before the STEM claim title
@@ -90,7 +94,7 @@
 ### Test Case 9: Closed status tag on claim detail page
 
 #### Steps to Reproduce
-1. While viewing the "Closed" filter, click "Details" on a closed claim card to navigate to the claim detail page.
+1. While viewing the "Closed" filter, click "Details" on the "Claim for compensation" received October 15, 2024 card.
 
 #### Intended Outcomes
 1. Below the claim title, a "Closed" label is displayed
@@ -105,10 +109,12 @@
 1. Click the "All" filter button.
 
 #### Intended Outcomes
-1. All claims, appeals, and STEM claims are displayed regardless of status
+1. All claims, appeals, and STEM claims are displayed regardless of status (User 50 has 42 total items, 5 pages)
 1. In-progress cards show an "In Progress" status tag
 1. Closed cards show a "Closed" status tag
 1. Sort order: claims with open evidence requests first, then other in-progress, then closed -- each group sorted by most recently updated
+1. Page 1 should show the same first 10 in-progress items as the "In progress" filter page 1
+1. Page 2 should show the remaining 7 in-progress items followed by the first 3 closed items
 
 ### Test Case 11: Default sort order is maintained across filters
 
@@ -118,8 +124,13 @@
 1. Click "Closed" and observe the order.
 
 #### Intended Outcomes
-1. Within each filter view, claims with open evidence requests appear first
-1. Other claims appear next, sorted by most recently updated
+1. Within each filter view, claims with open evidence requests appear first, then other claims sorted by most recently updated (User 50 has no claims with documentsNeeded: true in the list data, so evidence-request bumping is not verifiable with this user)
+1. The expected first 5 cards for "In progress" page 1 are:
+   1. Claim for disability compensation -- Received on October 14, 2025
+   1. Claim for compensation -- Received on April 2, 2025
+   1. Claim for freedom of information act / privacy act request -- Received on February 23, 2026
+   1. Higher-Level Review for disability compensation -- Received on January 20, 2026
+   1. Request to add or remove a dependent -- Received on November 25, 2025
 1. The sort order is consistent regardless of which filter is selected
 
 ### Test Case 12: Pagination text with In progress filter
@@ -130,6 +141,7 @@
 
 #### Intended Outcomes
 1. Format is "Showing X-Y of Z in-progress records" (hyphen, no spaces around dash)
+1. User 50 expected text: "Showing 1-10 of 17 in-progress records"
 1. Text is always shown, even with fewer than 10 items (e.g., "Showing 1-2 of 2 in-progress records")
 
 ### Test Case 13: Pagination text with Closed filter
@@ -140,6 +152,7 @@
 
 #### Intended Outcomes
 1. Format is "Showing X-Y of Z closed records"
+1. User 50 expected text: "Showing 1-10 of 25 closed records"
 1. Text is always shown, even with fewer than 10 items
 
 ### Test Case 14: Pagination text with All filter
@@ -150,12 +163,13 @@
 
 #### Intended Outcomes
 1. Format is "Showing X-Y of Z records" (no filter label qualifier)
+1. User 50 expected text: "Showing 1-10 of 42 records"
 1. Text is always shown, even with fewer than 10 items
 
 ### Test Case 15: Pagination resets when changing filters
 
 #### Steps to Reproduce
-1. Click "All" and navigate to page 2 (if enough records exist).
+1. Click "All" and navigate to page 2 (User 50 has 42 items across 5 pages).
 1. Click "In progress".
 1. Observe the page number.
 1. Click "All" again.
