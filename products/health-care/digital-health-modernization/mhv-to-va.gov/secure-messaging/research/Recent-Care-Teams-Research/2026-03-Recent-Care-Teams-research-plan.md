@@ -120,9 +120,7 @@ VA.gov authenticated experience
 
 `Product Brief`
 
-[Secure Messaging Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/product-outline.md) 
-
-</details>
+[Secure messaging product outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/product/README.md)
 
 ---
 
@@ -380,7 +378,7 @@ All participants must receive VA health care, have sent a secure message to thei
 
 ## Team Roles 🕵️
 
-- Moderator: **Espy Thompson, Athena Bozak**   
+- Moderator: **Espy Thomson, Athena Bozak**   
 - Recruiting: **Perigean**  
 - Point of contact: **Espy Thomson**  
 - Accessibility specialist: **Sarah Horton?**  
