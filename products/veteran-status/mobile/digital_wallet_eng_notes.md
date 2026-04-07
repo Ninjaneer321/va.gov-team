@@ -218,3 +218,16 @@ The Google Pay & Wallet Console serves several functions relevant to this projec
 ```bash
 adb -s <DeviceSerialNumber> shell pm clear com.google.android.apps.walletnfcrel
 ```
+
+## Outstanding Questions
+
+### Google Wallet
+
+#### Post-Save Navigation: App vs. Google Wallet
+The current PoC implementation (`POC/807-google-digital-wallet`) uses a JWT link-based save flow, which takes the user directly into Google Wallet after saving their VSC. The preferred behavior is to return the user to the VAHB app after a successful save, which would allow the app to present a success message and maintain a consistent experience with the Apple Wallet flow.
+
+The Google Wallet Android SDK provides a `walletClient.savePasses` method that keeps the user in the app and returns control via `onActivityResult`, exposing `RESULT_OK`, `RESULT_CANCELED`, and `SAVE_ERROR` result codes. However, since VAHB is built in React Native and Google does not provide an official React Native SDK, implementing this would likely require a custom native bridge.
+
+**Question:** Does it have to take the user back to the app after adding to wallet? Can the JWT link approach be replaced with the Android SDK `savePasses` method via a native bridge, and what is the level of effort to do so?
+
+**Reference:** [Google Wallet Android SDK — Issue passes](https://developers.google.com/wallet/generic/android) | [`walletClient.savePasses`](https://developers.google.com/wallet/generic/android#4_add_a_pass_to_a_users_google_wallet)
