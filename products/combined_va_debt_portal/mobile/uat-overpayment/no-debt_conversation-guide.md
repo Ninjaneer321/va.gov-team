@@ -1,10 +1,17 @@
+# UAT Overpayments: empty state
 
-# Report for UAT Overpayments in the VA Mobile App: No-debt testers
+This study evaluates the empty state of the Overpayment feature with participants who do not currently have debt.
+
+## Summary
+
+We conducted testing with two participants: one on iOS and one on Android. Both testers were able to successfully complete all expected test paths once they had access to the app.
+
+One additional Android tester was unable to start their session because of the pre-release build being blocked from download. This is already being tracked by our developers.
 
 
 # Conversation Guide for UAT Overpayments in the VA Mobile App: No-Debt testers
 
-This study evaluates the empty state of the Overpayment feature with participants who do not currently have debt. These participants were recruited within OCTO instead of our standard recruitment through Perigean. Because these participants are technically savvy and understand the testing process, we have shortened the introductory and technical setup sections to focus directly on the core tasks.
+These participants were recruited within OCTO instead of our standard recruitment through Perigean. Because these participants are technically savvy and understand the testing process, we have shortened the introductory and technical setup sections to focus directly on the core tasks.
 
 
 ## Moderator resources
