@@ -3,6 +3,8 @@ Last edited: April 2026
 
 This report documents the current state of personalized, recent "activity" data surfaced to users on VAHB mobile app and the VA.gov web patient portal. It outlines the difference across these two channels, covering both the current state and a future-state forecasting of what we may want to do or further research with Veterans to assess user-value. Currently, VAHB has a recent "Activity" section on the home screen that provides short-cuts to relevant or time-sensitive tasks that are personalized to the Veteran. We would like to replicate the full set of these activities on web, and begin to build out a more complete and robust set of data and features for these activities so that they can become closer "notifications" one day. However, there are significant technical feasibility roadblocks in the way of that future right now, so we will need to incrementally work toward it, and learn about Veteran expectations as we go. 
 
+**Note**: While we are in a place of low technical capabilities and understand that we cannot provide user controls (dismiss / read + unread functionality) that we know users expect, we will refrain from making these look explicitly like notifications or calling them that. We believe that these capabilities need to exist before we can consider this concept to qualify as in-app notifications. 
+
 ## On this page
 * [Current state - Recent activity cards on VAHB home screen](#recent-activity-vahb)
 * [Current state - Recent activity on web](#recent-activity-web)
@@ -39,10 +41,14 @@ Since VAHB already has the data for 4 recent activities that affect health tools
 3. Once the first two have been accomplished, we could consider evaluating technical feasibility of potential new activities for items not represented in the secondary navigation that are currently harder to find:
   * medical supplies eligible for re-order
   * co-payments due
-
-
+4. And plan to roll-up the emerging "Recent activity" notifications that the medical records team is working on building for two specific domains that have reliable date information and can surface newly posted items from within the last 14 days: 1.) New lab and test results, and 2.) New care summaries and notes.
 
 ## <a name="notifications"></a>Future state - Expansion of user controls and moving toward in-app notifications
+The next steps that we would like to move toward include: 
+* Defining and building out governance requirements for content, and behavior differences for recent activity that covers one event in a single tool versus a roll-up of multiple items for a single concept (e.g. "Your next appointment is on [Date]" instead of "you have 3 upcoming appointments in the next 30 days").
+* Understanding how various behaviors / capabilities across these "recent activity" data points will work together on a higher-order page like the My HealtheVet landing page, and how users react to those differences, if at all. 
+* Formulating a back-end engineering plan for how we can incrementally move on building out a better future that will enable te user controls users expect for something like notifications (dismiss functionality, read/unread)
+  * Evaluate the latency / performance costs to loading all of this information and scanning for it upfront (vs. developing an endpoint that has counts/totals for each activity / notification type)
 
 ## <a name="feasilbility"></a>Technical feasibility assessment (Copilot)
 
