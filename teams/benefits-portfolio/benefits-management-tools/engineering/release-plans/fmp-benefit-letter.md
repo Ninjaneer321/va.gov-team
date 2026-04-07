@@ -91,7 +91,7 @@ If mobile testing is desired, both mobile related feature flags should be enable
   - KPI 2: Number of unique users successfully downloading the FMP letter
 - **Links to dashboards showing success criteria metrics:**
   - [DataDog Dashboard](https://vagov.ddog-gov.com/dashboard/n29-azs-rpp?fromUser=false&refresh_mode=sliding&from_ts=1775065921951&to_ts=1775069521951&live=true)
-  - [Google Analytics] (https://analytics.google.com/analytics/web/#/analysis/a50123418p419143770/edit/hkpzxMCySNe5WvYEWRsQQw)
+  - [Google Analytics](https://analytics.google.com/analytics/web/#/analysis/a50123418p419143770/edit/hkpzxMCySNe5WvYEWRsQQw)
 - **Who is monitoring the dashboard(s)?:** BMT3 (Liana Fleming, Seth Darr)
 
 ### Rollback Process
@@ -100,7 +100,7 @@ Rollback will be done by disabling feature flags. To disable FMP letter availabi
 
 **Rollback triggers:** Initiate rollback immediately if any of the following thresholds are breached during any stage:
 - Error rate on the letter download page increases by more than 5% relative to baseline
-- Letter download failure rate exceeds 10%
+- Letter download failure rate exceeds 3%
 - A critical accessibility or data integrity issue is identified
 
 ---
@@ -121,14 +121,17 @@ Rollback will be done by disabling feature flags. To disable FMP letter availabi
 #### Results
 
 - **Date completed:** Enabled to 25% on 4/6/26
-- **Number of users:** [To be filled in]
+- **Number of users:** 48 users downloaded the letter
 - **Metrics at this stage (per success criteria):**
-  - [ ] No increase in errors on the letter download page
-  - [ ] Successful downloads shown in GA Report
-- **Rollback triggered?** [ ] Yes  [ ] No
-- **Was any downstream service affected by the change?** __
-- **Types of errors logged:** [None / describe]
-- **What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?** [Document or N/A]
+  - [x] No increase in errors on the letter download page - Overall success rate was 99.9% which is consistent or above all other letters
+  - [x] Successful downloads shown in GA Report
+- **Rollback triggered?** [ ] Yes  [x] No
+- **Was any downstream service affected by the change?** No
+- **Types of errors logged:** 2 warnings were logged 
+  - One 499 response code. This means the PDF did not complete downloading, which could be caused by the veteran closing or refreshing prior to the completion or temporary slowness. No immediate remediation needed since we only saw this once.
+  - One 403 response code. This indicates a veteran was authenticated but not authorized to access the letter (e.g. not FMP-eligible, or a Lighthouse entitlement check failing). We have seen this code with other letters and the count is consistent with baseline, so no immediate remediation is needed.
+
+- **What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?** No changes at this time
 
 ---
 
@@ -142,7 +145,7 @@ Rollback will be done by disabling feature flags. To disable FMP letter availabi
 
 #### Results
 
-- **Date completed:** 
+- **Date completed:**  Enabled to 50% on 4/7/26
 - **Number of users:** [To be filled in]
 - **Metrics at this stage (per success criteria):**
   - [ ] No increase in errors on the letter download page
