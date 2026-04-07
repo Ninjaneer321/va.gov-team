@@ -251,8 +251,8 @@ The insights that come out of this research will inform the structure and usabil
 ## Research materials 📔
 
 - [Recent Care Teams Conversation Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/Recent-Care-Teams-Research/2026-03-Recent-Care-Teams-conversation-guide.md)
-- [Link to Prototype 1](https://department-of-veterans-affairs.github.io/va-prototype-kit/src/prototypes/recent-care-teams-prototype-1/start-message.html)
-- Link to prototype 2 (url goes here)
+- [Prototype 1](https://tinyurl.com/2yxwsv6v)
+- [Prototype 2](https://tinyurl.com/yf6sd76b)
 
 ---
 
