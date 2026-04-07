@@ -5,13 +5,14 @@
 * **Goal**: Build a backend-first notification and health-summary infrastructure that benefits both VA.gov and the VAHB mobile app without requiring mobile app releases for each improvement.
 
 Note: this is a direct copied/pasted output from AI agent analysis, and has not been validated/verified with engineers as of 4/7/26. 
----
+
 ## Guiding Principles
 Based on codebase analysis, three architectural truths drive this plan:
 1. **Backend-first**: The VAHB mobile app shares the same `vets-api` backend. Every notification-relevant computation pushed into the API automatically benefits both web and mobile — avoiding the mobile app release cycle problem entirely. Frontend code on VA.gov is easily deployed; mobile app changes require users to download updates.
 2. **Extend, don't replace**: The existing `GET /v0/onsite_notifications` system (`src/applications/personalization/common/actions/notifications.js`) already has fetch, dismiss, template-based routing, Redux integration, and a `VaNotification` web component. It just needs more template types and a richer backend.
 3. **Lightweight summaries first, full data second**: Today, every count (unread messages, upcoming appointments, refillable prescriptions) requires fetching the full list and computing client-side. A single backend summary endpoint would dramatically improve performance for both web and mobile.
----
+
+
 ## Quarter 1 (Months 1–3): Backend Summary API + Notification Template Foundation
 ### Month 1: Design & Build `GET /v0/health_summary` Backend Endpoint
 **Goal**: Create a single lightweight vets-api endpoint that returns pre-computed counts for all health tools.
@@ -40,11 +41,11 @@ Based on codebase analysis, three architectural truths drive this plan:
 - The SM folder endpoint (`GET /my_health/v1/messaging/folders?page=1&per_page=999&useCache=false`) already returns `unreadCount` per folder — the backend just needs to aggregate it.
 - VAOS `GET /vaos/v2/appointments?start=...&end=...&statuses[]=booked` returns the full appointment list — a backend count query against the same data is trivial.
 **Caching strategy**: Backend should cache this summary for 60–120 seconds (TTL), invalidated on writes. This mirrors the `keepUnusedDataFor: 60` already used in VAOS's RTK Query setup (`src/applications/vaos/redux/api/vaosApi.js`).
----
+
 ### Month 2: Register Health Notification Templates in On-Site Notifications
-**Goal**: Extend the existing `onsite_notifications` system with health-specific templates.
-**Current state**: Only one template type is in production — debt notifications (`templateId: '7efc2b8b-...'`). The `Notifications.jsx` component hard-filters to this one ID.
-**New templates to register** (in vets-api `onsite_notifications` system):
+* **Goal**: Extend the existing `onsite_notifications` system with health-specific templates.
+* **Current state**: Only one template type is in production — debt notifications (`templateId: '7efc2b8b-...'`). The `Notifications.jsx` component hard-filters to this one ID.
+* **New templates to register** (in vets-api `onsite_notifications` system):
 | Template ID | Trigger | Headline | Deep Link |
 |---|---|---|---|
 | `health-new-message` | New SM message received | "You have a new message" | `/my-health/secure-messages/thread/{messageId}` |
@@ -53,8 +54,10 @@ Based on codebase analysis, three architectural truths drive this plan:
 | `health-lab-result` | New lab result available | "New lab result available" | `/my-health/medical-records/labs-and-tests/{labId}` |
 | `health-travel-pay-update` | Travel claim status change | "Travel claim status updated" | `/my-health/travel-pay/claims/{claimId}` |
 
-**Why this approach**: The template system is already wired end-to-end: backend creates notifications → `fetchNotifications()` fetches them → `notificationsReducer` stores them → `VaNotification` renders them with dismiss support. Adding templates requires zero new frontend infrastructure. The mobile app can read the same `/v0/onsite_notifications` endpoint.
----
+
+The template system is already wired end-to-end: backend creates notifications → `fetchNotifications()` fetches them → `notificationsReducer` stores them → `VaNotification` renders them with dismiss support. Adding templates requires zero new frontend infrastructure. The mobile app can read the same `/v0/onsite_notifications` endpoint.
+
+
 ### Month 3: Create Generic Notification Renderer + Refactor Notifications.jsx
 **Goal**: Replace the hardcoded debt-only filter with a template registry pattern on the frontend.
 **Current problem**: `Notifications.jsx` does `notifications.filter(n => n.attributes.templateId === debtTemplateId)` — it literally ignores all non-debt notifications.
@@ -88,7 +91,8 @@ const { data: healthSummary, isLoading } = useGetHealthSummaryQuery();
 ```
 This replaces the manual Redux thunks that fetch appointments and messages separately for the My VA dashboard context.
 **Kept as-is**: The individual tool pages (VAOS, SM, Medications) continue using their own detailed endpoints. The summary endpoint is **only** for dashboard/notification contexts.
----
+
+
 ### Month 5: Add Badge Counts to MHV Secondary Nav
 **Goal**: Show unread/action-needed counts on the shared MHV secondary nav tabs.
 **Target component**: `MhvSecondaryNavItem` (`src/platform/mhv/secondary-nav/components/MhvSecondaryNavItem.jsx`). Currently renders plain text titles. Add an optional `count` prop:
@@ -109,7 +113,7 @@ This replaces the manual Redux thunks that fetch appointments and messages separ
 | Records | `newLabResultCount` |
 
 **Why this matters**: The MHV secondary nav is the **shared chrome** across all 5 health tools. It's in `src/platform/mhv/` (platform-level, not app-level) so badges here are visible from any tool. The `IconCTALink` in My VA already has a `dotIndicator` prop behind the `myVaNotificationDotIndicator` toggle — this establishes precedent.
----
+
 ### Month 6: Backend Notification Triggers (vets-api Workers)
 **Goal**: Build the backend jobs that actually create `onsite_notifications` records when health events occur.
 **Implementation** (all in vets-api, not vets-website):
@@ -124,7 +128,7 @@ This replaces the manual Redux thunks that fetch appointments and messages separ
 /my-health/secure-messages/thread/{notification.attributes.metadata.messageId}
 ```
 **Mobile benefit**: The VAHB mobile app can read the same `/v0/onsite_notifications` with the same metadata and construct its own native deep links to the corresponding screens. No mobile app code change needed for new notification types — just new template IDs that map to existing screens.
----
+
 ## Quarter 3 (Months 7–9): Read State, Notification Center, Performance
 ### Month 7: Backend "Last Seen" Timestamps
 **Goal**: Enable "new since last visit" tracking server-side, so both web and mobile can show accurate "new" counts.
@@ -144,7 +148,7 @@ This replaces the manual Redux thunks that fetch appointments and messages separ
 // e.g., in SM's App.jsx on mount:
 dispatch(markToolSeen('secure_messages'));
 ```
----
+
 ### Month 8: Notification Center Page
 **Goal**: A dedicated `/my-health/notifications` page showing all health notifications in one place.
 **Implementation**: A new route in the MHV health tools area, listing all undismissed `onsite_notifications` with health-category templates, grouped by date. Uses the same `fetchNotifications()` action from `src/applications/personalization/common/actions/notifications.js` and the same `VaNotification` component.
@@ -158,7 +162,7 @@ dispatch(markToolSeen('secure_messages'));
 }
 ```
 **Dismiss all**: Add a "Dismiss all" action that `PATCH`es each notification, using the same `dismissNotificationById` pattern from `src/applications/personalization/common/actions/notifications.js`.
----
+
 ### Month 9: Performance Optimization — Parallel Fetching + Stale-While-Revalidate
 **Goal**: Optimize the summary endpoint caching and parallelize remaining fetches.
 **RTK Query migration**: Create a shared `healthApi` RTK Query instance (following the pattern from `src/applications/mhv-medications/api/prescriptionsApi.js` and `src/applications/vaos/redux/api/vaosApi.js`):
@@ -179,7 +183,7 @@ RTK Query provides:
 - **Cache tag invalidation**: When a user sends a message or books an appointment, invalidate the summary cache.
 - **Stale-while-revalidate**: Show cached counts immediately, refetch in background.
 **Metrics to track**: Compare Datadog RUM page load times for My VA before/after, particularly the "time to first meaningful paint" for the health care section.
----
+
 ## Quarter 4 (Months 10–12): Push Notifications, Cross-Platform Parity, Polish
 ### Month 10: Real-Time Push via WebSocket or Polling
 **Goal**: Notifications appear without page refresh.
@@ -187,7 +191,7 @@ RTK Query provides:
 - **Option A (simpler)**: Poll `GET /v0/health_summary` every 60 seconds while the user is on any `/my-health/*` page. RTK Query's `pollingInterval` option makes this trivial.
 - **Option B (more complex, better UX)**: Add SSE endpoint `GET /v0/health_events/stream` that pushes notification events. The MHV secondary nav subscribes and updates badge counts in real-time.
 **Mobile**: The VAHB app already uses push notifications. The same backend notification-creation jobs from Month 6 can trigger VA Notify push notifications in parallel with creating `onsite_notifications` records. This is entirely a backend concern.
----
+
 ### Month 11: Notification Preferences (Backend)
 **Goal**: Let Veterans control which notification types they receive.
 **New vets-api model**: `notification_preferences` table:
@@ -203,7 +207,6 @@ RTK Query provides:
 - `PATCH /v0/notification_preferences` — update preferences
 **UI**: A settings section within `/my-health/notifications` or linked from VA.gov profile notification settings. This is a lightweight form — no RJSF or forms-system needed.
 **Mobile benefit**: Same preference API is consumed by VAHB mobile app's notification settings screen. One preference change applies to both web and mobile.
----
 
 ### Month 12: Audit, Cleanup, Documentation, and Rollout
 **Goal**: Full production rollout with monitoring.
@@ -213,7 +216,6 @@ RTK Query provides:
 3. **Datadog dashboards**: Track notification delivery rate, dismiss rate, click-through rate, and summary endpoint latency.
 4. **Accessibility audit**: Ensure badge counts on `MhvSecondaryNavItem` meet WCAG 2.2 AA — `aria-label` on badge, screen reader announcements for count changes, no reliance on color alone.
 5. **Documentation**: Update the copilot instruction files for `mhv-secure-messaging`, `mhv-medical-records`, `mhv-medications`, and `personalization` with the new notification patterns.
----
 
 ## Architecture Summary: What Lives Where
 | Layer | What | Benefits |
@@ -223,14 +225,12 @@ RTK Query provides:
 | **vets-website (platform)** | `healthApi` RTK Query, notification template registry, `MhvSecondaryNavItem` badge | Shared across all MHV tools |
 | **vets-website (app)** | `markToolSeen()` calls in each tool's root container | Per-tool "new" tracking |
 | **VAHB mobile app** | Consumes same APIs; maps `templateId` → native screens | Zero frontend changes for new notification types |
----
 
 ## Risk Mitigation
 - **Feature flags throughout**: Every new piece is behind a toggle. The existing `myVaEnableNotificationComponent` pattern (`Notifications.jsx`) shows how to do this.
 - **Graceful degradation**: If `health_summary` fails, fall back to individual fetches (the existing code path). The summary is an optimization, not a hard dependency.
 - **Rate limiting awareness**: The medications API already notes a "6 requests per day limit to VistA" (`prescriptionsApi.js`). The backend summary endpoint should aggregate from cached/pre-computed data, not make live calls to upstream systems on every request.
 - **Incremental rollout**: Months 1–3 are backend-only with zero user-visible changes. Months 4–6 add subtle UI enhancements. Months 7–12 build toward the full vision. Each quarter delivers standalone value.
----
 
 ## Quarterly Milestone Checklist
 ### Q1: Backend Foundation
