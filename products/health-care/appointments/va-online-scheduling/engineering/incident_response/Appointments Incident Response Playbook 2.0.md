@@ -182,7 +182,7 @@ Example:
 ## Escalation
 
 If the issue is upstream (vaos-service, VistA, VPG, HSRM):
-- Notify the BE team / tag Nicholas Daily or Ryan Lemire in the #appointments-alerts Slack channel
+- Notify the BE team / tag Brittany Fowler/ Kelley Wilds in the #appointments-alerts Slack channel
 
 If there is no response or the issue persists:
 - Escalate to VA stakeholders (Kay or Mark)
