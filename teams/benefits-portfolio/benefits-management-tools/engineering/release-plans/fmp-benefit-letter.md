@@ -67,11 +67,11 @@ Before enabling your feature toggle in production, you'll need to:
 
 - **Date completed:** Users added 3/31
 - **Number of users:** 13
-- **Results per your "Success" criteria:** 
-- **Number of bugs identified / fixed:** [x/x]
+- **Results per your "Success" criteria:** 9 users confirmed they saw the letter and were able to download the letter. 1 user was unable to see the letter, however the FMP team confirmed that this may have been an issue with user selection. They had no concerns with proceeding.
+- **Number of bugs identified / fixed:** None
 - **Any UX changes necessary based on the logs, user feedback, or VA challenges?**
   - [ ] Yes
-  - [ ] No
+  - [x] No
   - If yes, what: [Document changes needed]
 
 ---
@@ -80,7 +80,7 @@ Before enabling your feature toggle in production, you'll need to:
 
 ### Rollout Planning
 
-- **Desired date range:** 4/6 - 4/10 (May change due to Staging Review and VFMP user recruitment)
+- **Desired date range:** 4/6 - 4/17 
 - **How will you make the product available in production while limiting the number of users who can find/access it:** By using the feature flag `fmp_benefits_authorization_letter` and the `enable_percentage_of_actors` feature to enable it for a percentage of users.
 If mobile testing is desired, both mobile related feature flags should be enabled and the gating of the percentage of the users will be done solely by the `fmp_benefits_authorization_letter` flag.
 - **Success criteria (metrics-based criteria for advancing to the next stage):**
@@ -120,7 +120,7 @@ Rollback will be done by disabling feature flags. To disable FMP letter availabi
 
 #### Results
 
-- **Date completed:** 
+- **Date completed:** Enabled to 25% on 4/6/26
 - **Number of users:** [To be filled in]
 - **Metrics at this stage (per success criteria):**
   - [ ] No increase in errors on the letter download page
