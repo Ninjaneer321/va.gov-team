@@ -25,7 +25,7 @@ Proposed new taxonomy terms or naming changes to existing terms should be review
 
 Person | Email | Role |
 ---| --- | --- |
-Michelle Middaugh | suzanne.middaugh@va.gov | OCTO product owner 
+Jon Katora | jonathan.katora@va.gov | OCTO product owner 
 Danielle Thierry | danielle.thierry@va.gov | OCTO content and translation lead
 TBD March 2025| | Deputy Director, VHA Digital Media (VAMC POC)
 Jessica Schiefer | Jessica.Schiefer@va.gov | Communications, RCS (Vet Center POC) 
