@@ -11,14 +11,16 @@ assignees: ''
 
 The [Architecture Intent touchpoint](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/architecture-intent) is a synchronous half-hour discussion surrounding the architectural decisions that impact the engineering and security posture of the product you are building or iterating on.
 
+- Collaboration Cycle ticket
+- Architecture Intent meeting date/time:
+
 ## Before the meeting
 
 ### :one: VFS team: create ticket
 - [ ] Open this ticket by using the "Create" button
   
-### :two: Schedule the meeting
+### :two: VFS team: schedule the meeting
 
-#### VFS Team actions
 - [ ] Review [Architecture Intent Guidance](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/architecture-intent) to understand what this touchpoint involves.
 - [ ] Schedule your Architecture Intent (with at least 2 business days lead time from now):
   - Open the [Calendly Architecture Intent calendar](https://calendly.com/collaboration-cycle/architecture-intent)
@@ -27,9 +29,6 @@ The [Architecture Intent touchpoint](https://depo-platform-documentation.scrollh
   - Add VFS team attendees as guests
   - Schedule the event
      
-#### Governance Team actions
-- [ ] Add link to Collaboration Cycle
-- [ ] Add meeting date/time:
 
 ### :three: VFS team: add links to artifacts at least 2 days before the meeting
 Link all artifacts **at least two business days** before the scheduled Architecture Intent. Please don't add artifacts in the comments section. [See guidance on Architecture Intent artifacts.](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/architecture-intent#ArchitectureIntent-Whatartifactswillbeneeded?)
@@ -54,6 +53,7 @@ Required:
 ### VFS team actions
 
 - [ ] Review feedback. Respond to the comment on this ticket if there are any questions or concerns.
+- [ ] Close this Architecture Intent ticket when all feedback has been reviewed.
 
 ## :clipboard: Collaboration Cycle feedback
 [Complete Collaboration Cycle feedback survey](https://ows.io/qs/o3jkwoez) at any point during your Collaboration Cycle process.
