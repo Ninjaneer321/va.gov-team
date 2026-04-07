@@ -17,9 +17,12 @@ The sooner a Veteran learns of an evidence request(s), the sooner they can gathe
 ## Problem Statement
 Currently, Veterans are not promptly notified when the VA requests additional evidence for their benefits claims, relying instead on manual checking their account or receiving mailed notifications that can take days or over a week to arrive. This delay slows the Veterans ability to respond evidence requests, while the VA pauses claim processing for approximately 30 days awaiting the requested information. As a result, avoidable notification gaps contribute to longer claim resolution times and increased Average Days to Complete (ADC). In some cases, missed evidence request responses may also result in Veterans receiving lower benefit determinations than they may otherwise be entitled to.
  
-## User stories
+## User Stories & Outcomes
+### User Stories - MVP
 - As a Veteran, I want to be notified immediately when the VA requests additional evidence so that I can take action as soon as possible
-- As a Veteran, I want to receive notifications through my preferred channel (SMS, email, or push) so that I don’t miss important updates
+- As a Veteran, I want to receive notifications through my preferred channel (email, push notification and/or SMS) so that I don’t miss important updates
+- As a Veteran, I want notifications to open directly into the relevant page in the mobile app or website so that I can seamlessly take action regardless of device I receive the notification on.
+- As a Veteran, I want to receive SMS notifications only during business hours so that I am not disturbed at inconvenient times.
 
 Development of notifications should be prioritized by reach / impact as follows:
 1. Email
@@ -82,35 +85,91 @@ See this [flow diagram] (https://github.com/department-of-veterans-affairs/va.go
 ---
 ## Measuring Success
 
-
 ### Key Performance Indicators (KPIs)
-* *What data (qual or quant) will you look at to understand if your initial set of functionality is meeting your desired user and business outcomes, and not bringing about the undesired outcomes?*
-* _What are the most important metrics that track with this product/initiative's success?_
-* _Include links to Domo or Google Analytics Dashboards/Reports_
-* _**Limit 5-6 KPIs per product**__
+1. Average Days to Complete (ADC)
+What it measures: End-to-end claim processing time
+Why it matters: Core business outcome tied to faster evidence turnaround
+→ Goal: Decrease
+2. Median Time to Veteran Response to Evidence Request
+What it measures: Speed of Veteran action after an evidence request
+Why it matters: Directly reflects whether notifications are driving faster responses
+→ Goal: Decrease
+3. Notification Engagement Rate
+What it measures: Open/click-through rate for email, SMS, and push notifications
+Why it matters: Leading indicator of whether notifications are effective and seen
+→ Goal: Increase
+4. Notification Deliverability Rate
+What it measures: % of notifications successfully delivered (not bounced, failed, or blocked)
+Why it matters: Foundational metric—notifications can’t drive outcomes if they aren’t delivered. For notifications that are not delivered, we can potentially address by requesting updated contact information (email, mobile number).
+→ Goal: Maintain very high rate (e.g., >95–99% depending on channel)
+5. Evidence Request Response Rate
+What it measures: % of evidence requests that receive a Veteran response
+Why it matters: Indicates whether notifications reduce missed or ignored requests
+→ Goal: Increase
 
-| Category | Ease of use | Service completion | Trust/Satisfaction | Health |
-|----------|-------------|--------------------|--------------------|--------|
-| KPI      |             |                    |                    |        |
-| KPI      |             |                    |                    |        |
 
 #### Baseline KPI Values
 * _Baseline values for those most critical metrics. These may come from other systems other than VA.gov e.g. eBenefits._
 
 ### Objectives and Key results (OKRs)
-_What are the measurable targets you're aiming for that delivers value for Veterans?_
+Objective: Accelerate claim decisions by improving how quickly Veterans respond to evidence requests
 
-- Objective:
-  - Key result: 
-  - Key result: 
-
+Key Results:
+↓ Median time to Veteran response by X%
+↑ On-time evidence submission rate to X%
+↓ Average Days to Complete (ADC) by X%
+↑ Notification engagement to X% and deliverability to ≥X%
+↓ Missed evidence requests by X%
 
 ---
 
 ## Assumptions
-- *Include indication of which assumption you think is most risky. Your Solution Approach (next section) should describe how you'll validate that assumption w/your initial set of functionality*
+### User Behavior
+- Veterans will opt in to receive notifications via SMS, email, or push  
+- Veterans will see and engage with notifications shortly after delivery  
+- Veterans will take action more quickly when notified immediately  
+- Veterans prefer proactive notifications over manually checking claim status  
+- Veterans trust notifications enough to click links and take action  
+
+### Impact
+- Faster awareness of evidence requests will lead to faster submission of evidence  
+- Faster evidence submission will reduce claim processing time (ADC)  
+- Timely responses will improve completeness and accuracy of claim decisions  
+- Reducing delays in the evidence phase will meaningfully impact overall claim timelines  
+
+### Communication & Clarity
+- Notification content can clearly and concisely explain what action is needed  
+- Veterans will understand what evidence is required based on the notification and landing page  
+- Deep links will reduce friction and navigation effort  
+- Reminder notifications will increase completion without causing fatigue  
+
+### Technical
+- VA systems can detect and trigger notifications in near real-time when evidence is requested  
+- Contact information (phone numbers, emails, device tokens) is accurate and up to date  
+- Notifications can be delivered reliably across SMS, email, and push channels  
+- Deep linking will consistently route users to the correct page across app and web  
+
+### Operational
+- VA can support increased inbound activity (e.g., faster submissions, potential questions)  
+- Faster evidence submission will not create bottlenecks elsewhere in the claims process  
+- There is alignment across teams to prioritize faster evidence turnaround  
+
+### Risk & Equity
+- Most Veterans have access to at least one digital communication channel  
+- Notification-based improvements will not disproportionately exclude certain populations  
+- Notifications will not introduce privacy or security concerns that reduce adoption  
+
+### Measurement
+- VA can measure time from notification → response → decision  
+- Changes in ADC can be partially attributed to this feature  
+- Baseline metrics exist or can be established for comparison  
 
 ## Solution Approach
+As of April 2026, we've kicked off the project by designing content and user flows, prioritizing Email, followed by Push Notifications, followed by SMS notifications.
+
+We have explicitily decided not to pursue reminder or nudge notificiations, focusing efforts on the initial notification a Veteran would receive when they are asked to submit evidence for a claim.
+
+We will not be going through a collabroation cycle for this project since it is not building any new architecture or functionality, but rather expanding on existing benefits notifications.
 
 - *What are you going to build now, and why have you decided to start there?*
 - *Why this solution / approach over other solutions / approaches?*
@@ -119,17 +178,8 @@ _What are the measurable targets you're aiming for that delivers value for Veter
 - *Does your solution include the VA Health and Benefits mobile application? Explain why or why not.*
 
 ### Supporting research
+2026 Notifications Research Plan: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2025-10-Notifications-Research/Notifications-Research-plan.md
 
-- *Is this work supported by user research?* 
-  - *If this work **is supported by user research**, please cite the user research by providing links to our [VA.gov research repo](https://github.com/department-of-veterans-affairs/va.gov-research-repository)*
-  - *If this work is **not supported by existing user research**, will this work include user research?*
-    - *If this work **will include user research**, please briefly state what you hope to learn from that research.*
-    - *If this work **does not cite nor include user research**, please state why and be prepared to defend your decision.*
-
-### Initiatives
-*Include initiatives (iterations, new features, etc.) to improve this product. See the [Initiative Brief Template](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/product/initiative-brief-template.md)*
-
-- Initiative | [Link to Initiative Brief](#)
 
 --- 
 
