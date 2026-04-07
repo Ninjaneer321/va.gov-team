@@ -127,18 +127,17 @@ jobs:
                 labels: ['engagement','org-onboarding','ar-crew']
               },
               {
-                title: 'Run the Trexler file',
+                title: 'Verify contact info updates',
                 body: `## Background
-                After GCLAWS team does a bulk contact info update for an org in OGC Accreditation Search, we'll want to run the Trexler file so it has the latest updates. Then, the automation for the update will happen at 3am ET. Lastly, we can confirm the changes in [Find a Rep](https://www.va.gov/get-help-from-accredited-representative/find-rep/). 
-                
-                Process for manually updating representative data (aka "running the Trexler File"): https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representation-management/how-to-manually-update-representative-data.md
-            
-            ## Tasks
-            - [ ] Run manual update of Trexler file - Engineer
-            - [ ] Review data after the nightly automation in Find a Rep - VSO Engagement Manager
+                After GCLAWS team does a bulk contact info update for an org in OGC Accreditation Search, we'll want to run the Trexler file so it has the latest updates. Lastly, we can confirm the changes in [Find a Rep](https://www.va.gov/get-help-from-accredited-representative/find-rep/). 
 
-            ## Acceptance Criteria
-            - [ ] Updated contact information for representatives (especially this organization) is reflected in Production`,
+                ## Tasks
+                - [ ] Review data after the nightly automation in Find a Rep - VSO Engagement Manager
+                
+                ## Acceptance Criteria
+                - [ ] Updated contact information for representatives (especially this organization) is reflected in Production
+                
+                Note: If any issues arise with the update, check with Team Accreditation.`,
                 labels: ['engagement','org-onboarding','ar-crew']
               },
               {
