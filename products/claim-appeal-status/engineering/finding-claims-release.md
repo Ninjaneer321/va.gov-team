@@ -4,7 +4,7 @@
 
 ## Google Analytics Release Monitoring
 
-[Link is Here](https://analytics.google.com/analytics/web/#/analysis/a50123418p419143770/edit/6zMUJcZSTQCnSvzojYA7Kg)
+[CST Claims Filter Release](https://analytics.google.com/analytics/web/#/analysis/a50123418p419143770/edit/6zMUJcZSTQCnSvzojYA7Kg)
 
 Create or update the following GA4 Explore tabs to monitor the rollout. Record baseline and post-release values in the tables below to share with stakeholders.
 
@@ -125,16 +125,9 @@ Use matching day-of-week windows to account for weekday/weekend traffic differen
 
 ## Datadog RUM Release Monitoring
 
-Datadog RUM (service: `benefits-claim-status-tool`) provides capabilities GA4 cannot: JavaScript error stack traces, frustration signal detection (rage clicks, dead clicks), session replay video, API request performance, and real-time alerting. Currently at 5% rollout behind `cst_use_dd_rum`.
-
-Use the Datadog RUM Explorer at https://app.ddog-gov.com filtered to service: `benefits-claim-status-tool`.
-
 ### Frustration Signals (Rage Clicks)
 
-- Goal: Detect users rage-clicking on the filter buttons or claim cards, which indicates confusion or broken interactions.
-- Where: RUM Explorer > Actions, filter by Frustration Type
-- Filter: View URL contains `/track-claims/your-claims`, Action Type = click, Frustration Signal present
-- What to watch for: Rage clicks on the segmented filter buttons could mean the filter is not responding or is slow. Dead clicks on claim cards could mean links are not working.
+- [Datadog Monitor for Frustration Signals](https://vagov.ddog-gov.com/monitors/549183?from_ts=1775500840739&to_ts=1775587240739&live=true)
 
 ---
 
