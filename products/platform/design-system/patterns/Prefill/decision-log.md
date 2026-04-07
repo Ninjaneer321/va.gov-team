@@ -38,7 +38,7 @@ N/A
 ### Status: Complete
 
 - Date issue raised:12/15/2025
-- Decision date:
+- Decision date: Confirmed 4/7/2026 (Decision was likely earlier)
 
 ### Context
 Currently the cards show if a section is Optional, to keep with the design patterns, we are changing this to show required.
