@@ -11,14 +11,17 @@ assignees: ''
 
 The [Staging Review touchpoint](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/staging-review) is a synchronous half-hour meeting and the last opportunity to ensure your product is accessible, compliant, and consistent with VA.gov Experience Standards, QA Standards, and Engineering and Security Standards before releasing to VA.gov users.
 
+- Collaboration Cycle ticket
+- Staging Review Slack thread
+- Staging Review meeting date/time:
+
 ## Before the meeting
 
 ### :one: VFS team: create ticket
 - [ ] Open this ticket using the "Create" button.
   
-### :two: Schedule the meeting
+### :two: VFS team: schedule the meeting
 
-#### VFS team actions
 - [ ] Review [Staging Review guidance](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/staging-review) to understand what this touchpoint involves.
 - [ ] Schedule your Staging Review (with at least 4 business days lead time from now):
   - Open the [Calendly Staging Review calendar](https://calendly.com/collaboration-cycle/staging-review)
@@ -28,10 +31,6 @@ The [Staging Review touchpoint](https://depo-platform-documentation.scrollhelp.s
   - Schedule the event
 - [ ] If this product contains any [experimental design](https://design.va.gov/about/contributing-to-the-design-system/experimental-components-and-patterns), add the `experimental-design` label and schedule a meeting with Design System Council to present the research findings.
 
-#### Governance Team actions
-- [ ] Add link to Collaboration Cycle ticket
-- [ ] Add link to Slack thread
-- [ ] Add meeting date/time:
 
 ### :three: VFS team: add links to artifacts at least 4 business days before the meeting
 Link all artifacts in this section of the ticket **at least four business days** before the scheduled Staging Review. Please don't add artifacts in the comments section. Please do not make changes to the product or artifacts during the 4-day review period. 
@@ -86,16 +85,19 @@ Link all artifacts in this section of the ticket **at least four business days**
 
 ## After the meeting
 
+### Access the recording
+- Navigate to the [recordings directory](https://dvagov.sharepoint.com/:f:/r/sites/VA-Platform-Governance-StagingReview/Shared%20Documents/Recordings?csf=1&web=1&e=16Kb6B).
+- Use the calendar to find the date.
+- Since multiple meetings may occur on the same day, select your specific time.
+
 ### VFS team actions
 - [ ] Review the findings tickets (linked from this ticket's milestone)
 - [ ] Comment on tickets if there are any questions or concerns
 - [ ] Close individual findings tickets when the issue has been resolved or validated by your Product Owner. If a team has additional questions or needs Platform help validating the issue, please comment on the issue ticket.
 - [ ] After launch, [request an accessibility audit from the VA 508 Office](https://depo-platform-documentation.scrollhelp.site/developer-docs/request-support-from-the-va-508-office#RequestsupportfromtheVA508office-AuditRequest). This is required even if no accessibility issues were found during the Staging Review.
   - [ ] Share ServiceNow ticket number here: ______
-- [ ] Close ticket once VA 508 Office audit is requested, and all other post-Staging actions are complete
+- [ ] Close this Staging Review ticket once VA 508 Office audit is requested, and all other post-Staging actions are complete
 
-### Governance Team actions
-- [ ] Add link to recording
 
 ## :clipboard: Collaboration Cycle feedback
 [Complete Collaboration Cycle feedback survey](https://ows.io/qs/o3jkwoez) at any point during your Collaboration Cycle process.
