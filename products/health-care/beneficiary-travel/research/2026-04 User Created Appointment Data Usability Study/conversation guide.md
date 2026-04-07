@@ -290,7 +290,7 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 `Moderator: Take a look at this page. What do you see here?`   
 1. What is this page asking you to do?
 2. _If the user does not notice the info box, prompt them:_ What is that message at the top telling you? Do you have any thoughts about that?
-3. What do you think the “edit” button does?
+3. What do you think the “edit” button does? _Follow up:_ What will that look like?
 4. What do you think will happen to your information if you left this page?
 5. What do you expect to happen after you continue?
 
