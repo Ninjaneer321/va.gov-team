@@ -1,29 +1,6 @@
----
-title: Conversation Guide for Debt Resolution, VA Debt Portal - Mobile, 2024 01
-author: Denise Coveyduc
-date_created: '2024-01-01'
-last_modified: '2024-01-01'
-team: Debt Resolution
-portfolio: benefits
-product: VA Debt Portal - Mobile
-research_phase: validation
-research_method: uat
-session_duration: 30 minutes
-session_type: remote_moderated
-participant_criteria: Veterans without debt, mobile device users
-related_research_plan: products/combined_va_debt_portal/mobile/uat-overpayment/research-plan.md
-related_prototype: N/A
-tags:
-- debt-portal
-- mobile
-- UAT
-- no-debt
-- validation
-description: User acceptance testing for no-debt state on mobile VA Debt Portal.
-recording_required: true
-observer_support: true
-consent_for_clips: true
----
+
+# Report for UAT Overpayments in the VA Mobile App: No-debt testers
+
 
 # Conversation Guide for UAT Overpayments in the VA Mobile App: No-Debt testers
 
@@ -158,10 +135,14 @@ _[resume recording]_
 
 Now I'm going to ask you to go to various parts of the app where I'll be checking to see that elements appear correctly.
 
-_Moderator will follow the test paths outlined in the spreadsheet. Both versions contain the same information._
 
-- Google Sheet: [Spreadsheet: Test paths and success criteria - Overpayment UAT ("No debt" tab)](https://docs.google.com/spreadsheets/d/1xfHJGzPQJaIeO-uPp8D4aboEO-qSDvBVp0b5QABg_5Q/edit?gid=197481224#gid=197481224)
-- Excel Spreadsheet on VA network: [Spreadsheet: Test paths and success criteria - Overpayment UAT ("No debt" tab)](https://dvagov.sharepoint.com/:x:/r/sites/vamobilefeaturesupport/Shared%20Documents/2026-01%20UAT%20Overpayment/Test%20paths%20and%20success%20criteria%20-%20Overpayment%20UAT.xlsx?d=w27e49683b8654ddda0ecea76d080023e&csf=1&web=1&e=AIdsUs)
+| Screen | Activity | Success |
+| :--- | :--- | :--- |
+| HomeView | activity cards | There is no Overpayment card |
+| Payments tab | Confirm Overpayment card | "Overpayments" card only lists "Overpayments" and no total amount due or total quantity of debts |
+| Payments tab | Open Overpayments card | "Overpayments" card opens overpayments screen |
+| Overpayments | View Overpayments screen | Overpayments screen shows: <br>• headline "You don't have any benefit overpayments" <br>• description of no overpayments <br>• three phone numbers: toll-free, TTY, international |
+| Overpayments | Overpayment >> Payments | Breadcrumb returns to Payments screen |
 
 
 ## Phone clean-up
