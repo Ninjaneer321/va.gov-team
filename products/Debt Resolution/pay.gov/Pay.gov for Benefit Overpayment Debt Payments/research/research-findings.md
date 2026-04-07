@@ -1,95 +1,117 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Pay.gov for Benefit Overpayment Debt Payments Research Findings"
+product: "Debt Resolution"
+team: "Financial Management"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2026-04-02"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Risha Lee"
+  - "Megan Gayle"
+  - "Joseph Lee"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand Veterans' needs, expectations, and preferences for making payments, specifically financial management behaviors, decision making around amounts and timelines, and interest and challenges in automatic/recurring payments"
+  - "Test the usability of the Veteran's overpayment debt experience in end to end flow testing (debt summary → details → resolve → choose payment option → Pay.gov HCP → confirmation)"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Usability testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 8
+    tablet: 0
+    smartphone: 3
+    assistive_technology: 0
+participants_total: 11
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 11
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 2
+    "35-44": 2
+    "45-54": 1
+    "55-64": 3
+    "65+": 1
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 2
+    associates: 1
+    bachelors: 3
+    masters: 4
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 6
+    rural: 5
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 3
+    black: 3
+    hispanic: 0
+    biracial: 2
+    asian: 2
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 3
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Most participants feel confused and upset by initial overpayment notifications"
+  - "Most participants pay overpayments by actively or passively enrolling in a repayment plan that automatically deducts a set amount from their monthly VA benefit payments; they do not pay these debts online"
+  - "Most participants rely on simple tools, such as spreadsheets, bank accounts, and calendar reminders, to get a birds eye view of their finances, track and reconcile individual expenses. They manually set reminders for non-essential payments to ensure sufficient funds"
+  - "Most participants strategically use financial tools and services, such as autopay, payment plans, and credit cards, to save time, earn rewards, and minimize interest. Most automate payments they believe are essential, such as rent and car payments"
+  - "Most participants express high confidence after completing the entire userflow. They don't mind the VA.gov to Pay.gov transition and feel secure even if they don't initially notice the site redirection"
+  - "Many participants point out critical information gaps in the experience. This decreases their ability to make confident decisions"
+  - "Many participants request more granular information about overpayments, including why they occurred and payment history–their absence created doubt"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Provide transparency on the overpayment process, including guidance on what Veterans need to do to avoid negative actions and what those negative actions are"
+  - "Prioritize developing an online self-service repayment plan that enables Veterans to select amount and frequency to be withdrawn from their monthly benefits over time as well as the option to pay off in lump sum"
+  - "For overpayments that will be auto-deducted from benefits over time, include clear language describing how much will be deducted each month, original debt amount, when the deductions started, how much has been paid, and when they are projected to stop"
+  - "Display payment history and a running balance so Veterans can verify their payments are being applied"
+  - "Work with DMC and VBA to improve debt notification letters"
+  - "Provide the specific reason the overpayment exists, rather than a generic list of possible causes"
+  - "Present context on why Overpayment details (file number, deduction code, etc) are being shown and when Veterans would need them"
+  - "Allow Veterans to view and download their overpayment letters directly from the Debt Portal"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Payment Completion Rate (PCR) – target: 98%+"
+  - "Drop-off Rate during Payment – target: < 15%"
+  - "Average Time to Complete Payment – target: < 3 minutes"
+  - "Number of Support Tickets related to Payment – target: 20% decrease"
+  - "CSAT scores related to experience - target 80%+"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can initiate and complete debt payments directly from va.gov debt portal without being redirected to pay.gov. Veterans feel secure and confident in the payment process. The flow feels intuitive, quick, and personalized to the type of debt they are managing"
+  business: "Overpayment Debt Payments are successfully processed via new pay.gov hosted collection page. Reduced call center calls related to payment questions or issues. Enhanced data visibility and reporting on Veteran payment behavior. Improved Veteran satisfaction and retention for the debt management portal"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Payment plan setup and management - Veterans need online self-service ability to set up and modify payment plans with automatic benefit deductions"
+  - "Payment transparency - Veterans need to see detailed payment history, running balance, and specific overpayment reasons to build trust"
+  - "Debt notification clarity - Veterans need clear, trauma-informed communication about overpayments with actionable next steps"
+  - "Collection process transparency - Veterans need clear guidance on what negative actions exist, when they occur, and how to prevent them"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Repayment plan concept or usability testing"
+  - "Debt letter concept or usability testing"
+  - "Competitive analysis of Veteran preferred financial products and services"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Veterans using assistive technology (screen readers, magnification, speech input)"
+  - "Hispanic, Latino, or Spanish origin veterans"
+  - "Native Hawaiian or other Pacific Islander veterans"
+  - "First Nations veterans"
+  - "Veterans with other than honorable discharge"
+  - "Veterans of immigrant origin"
+  - "Expat veterans (living abroad)"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Product outline review"
+  - "Stakeholder consultation with DMC and VBA"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Figjam"
+  - "Affinity mapping"
 ---
 
 > [!TIP]
