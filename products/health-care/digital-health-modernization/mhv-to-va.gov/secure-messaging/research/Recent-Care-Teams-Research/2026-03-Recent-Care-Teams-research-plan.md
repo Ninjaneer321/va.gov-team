@@ -143,6 +143,7 @@ VA.gov authenticated experience
 - `Aging`  
 
 ---
+</details>
 
 ## Research Goals 🥅
 
