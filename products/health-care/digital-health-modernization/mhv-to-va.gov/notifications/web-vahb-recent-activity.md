@@ -33,7 +33,6 @@ My HealtheVet on web currently has 2 existing health tools that can surface the 
 
 
 ## <a name="next-steps-web"></a>Next steps - expanding recent activity on web
-
 Since VAHB already has the data for 4 recent activities that affect health tools, it is reasonable to assume that is data is also available for web and we could leverage it in the exact same way. As a next step for web, we should look at: 
 1. Updating the current state "recent activity" for web to more closely match how it is presented in VAHB
 2. Adding the missing recent activities from VAHB to web to help point users to additional high-touch tools and tasks that are hard to find: prescriptions that are ready for refill, and past appointments that are eligible for travel reimbursement
@@ -41,7 +40,24 @@ Since VAHB already has the data for 4 recent activities that affect health tools
   * medical supplies eligible for re-order
   * co-payments due
 
+
+
 ## <a name="notifications"></a>Future state - Expansion of user controls and moving toward in-app notifications
 
+## <a name="feasilbility"></a>Technical feasibility assessment (Copilot)
 
+### Strengths / What Exists
+1. On-site notification infrastructure (/v0/onsite_notifications) is the most mature foundation — has fetch, dismiss, and Redux/UI integration already working on My VA. It just lacks health-tool templates.
+2. Unread message count is the most straightforward: a single folder list call surfaces unreadCount directly from the server.
+3. Deep link routes for all 5 tools are well-defined and stable.
+4. SM read/unread is server-side tracked; the count is authoritative.
+
+### Challenges
+1. No summary endpoints for any tool — all counts require fetching full lists. For appointments, labs, and prescriptions this means 2–5 additional full API calls on the My VA dashboard load.
+2. SM unread count requires the full folder list — not a single lightweight call. It also explicitly passes useCache=false.
+3. Medical records has no "new since last visit" concept server-side — it is entirely session-scoped PHR refresh tracking. Building a "new labs" notification would require either a new backend endpoint or storing a "last seen" timestamp locally and comparing.
+4. No dismiss/snooze pattern for health notifications in onsite_notifications beyond the existing debt pattern. Extending would require new backend templateIds for each health notification type.
+5.The on-site notification system is template-driven — backend must create/trigger notifications. The frontend cannot independently generate health notifications from health API data alone without a backend orchestration layer.
+6. Performance: Fetching data for all 5 tools in parallel (the ideal approach) would require careful Redux isolation to avoid re-renders, and RTK Query would need to be adopted or its cache keys aligned cross-application.
+7. V1/V2 dual API paths in medications and medical records mean any cross-tool layer must account for Cerner Pilot users having different endpoints, data shapes, and behaviors.
 
