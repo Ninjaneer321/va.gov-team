@@ -192,7 +192,8 @@ We will conduct remote moderated usability testing to observe research participa
 
 - [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2026-01%20534EZ%20Usability%20Study/conversation-guide.md)
 - [Link to prototype](https://www.va.gov/find-forms/about-form-21p-534ez/)
-- Link to research notetaking Mural (TBD)
+- [Link to Mural board for observer notes](https://app.mural.co/t/civicactions3117/m/civicactions3117/1768501307394/b1043b62d9c13a84e299d33f9befd70f55ba639f?wid=0-1768923678423)
+
 	
 ## Recruitment 🎯	
 *OCTO works with Perigean, a small business, to handle the [recruitment](https://veteranusability.us/), scheduling, and compensation of Veterans and caregivers.*
