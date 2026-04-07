@@ -34,6 +34,7 @@
 4. Return to email browser, select Done
 5. (if required) Uninstall standard version of app
 6. Download the release and install
+    1. Return to App Tester to find correct build
 
 
 ## Feature flag
