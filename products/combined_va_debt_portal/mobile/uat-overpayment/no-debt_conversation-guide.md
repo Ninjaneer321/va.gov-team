@@ -2,7 +2,7 @@
 
 This study evaluates the empty state of the Overpayment feature with participants who do not currently have debt.
 
-## Summary
+## Results Summary
 
 We conducted testing with two participants: one on iOS and one on Android. Both testers were able to successfully complete all expected test paths once they had access to the app.
 
