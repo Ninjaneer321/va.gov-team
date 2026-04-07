@@ -151,10 +151,14 @@ VA.gov authenticated experience
 ### Goals
 
 `1.` Evaluate how many pages users should go through to write a message and the reported ease of use of writing a message.  
+
 `2.` Identify where assistive technology users encounter challenges in both current and proposed designs.  
-`3.` Identify and assess what strategies users are defaulting to in order to identify the correct care team.
-`4.` Understand what format of interstitial content is easily understood by users and does not feel disruptive to task flow.
-`5.` Identify new and existing pain points in the message creation flow.  
+
+`3.` Identify and assess what strategies users are defaulting to in order to identify the correct care team.  
+
+`4.` Understand what format of interstitial content is easily understood by users and does not feel disruptive to task flow.  
+
+`5.` Identify new and existing pain points in the message creation flow.   
 
 ### Outcome
 
@@ -316,7 +320,8 @@ All participants must receive VA health care, have sent a secure message to thei
 
 ## Timeline 🗓️
 - `Submit plan to Research Ops:` **April 6**
-- `Kickoff with Perigean:` **Planning for April 13, once approved by ResearchOps** 
+- `Kickoff with Perigean:` **Planning for April 13, once approved by ResearchOps**
+- `Pilot session:` **Veteran on MHV Team, April 17** 
 - `Planned dates:` **April 20 - April 28**  
 - `Session length:` **no longer than 60 minutes**  
 - `Buffer time:` **at least 30 minutes in between sessions**  
