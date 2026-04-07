@@ -129,40 +129,12 @@ Datadog RUM (service: `benefits-claim-status-tool`) provides capabilities GA4 ca
 
 Use the Datadog RUM Explorer at https://app.ddog-gov.com filtered to service: `benefits-claim-status-tool`.
 
-### JavaScript Errors on Claims Landing Page
-
-- Goal: Catch any new JS errors introduced by the filter component or status tag changes.
-- Where: RUM Explorer > Error Tracking
-- Filter: View URL contains `/track-claims/your-claims`
-- What to watch for: New error types appearing after rollout that did not exist before. Pay attention to errors in `YourClaimsPageV2`, `ClaimsFilter`, `ClaimsListItem`, or `AppealListItem` components.
-
 ### Frustration Signals (Rage Clicks)
 
 - Goal: Detect users rage-clicking on the filter buttons or claim cards, which indicates confusion or broken interactions.
 - Where: RUM Explorer > Actions, filter by Frustration Type
 - Filter: View URL contains `/track-claims/your-claims`, Action Type = click, Frustration Signal present
 - What to watch for: Rage clicks on the segmented filter buttons could mean the filter is not responding or is slow. Dead clicks on claim cards could mean links are not working.
-
-### API Request Performance
-
-- Goal: Monitor that `/benefits_claims` and `/appeals` API calls are not failing or slowing down after the filter change.
-- Where: RUM Explorer > Resources
-- Filter: Resource URL contains `/benefits_claims` or `/appeals`, View URL contains `/track-claims/your-claims`
-- What to watch for: Increased error rates or latency spikes. The filter itself is client-side and should not affect API calls, but this confirms backend stability during rollout.
-
-### Session Replay Review
-
-- Goal: Watch real user sessions to see how users interact with the new filter and catch UX issues that metrics alone cannot reveal.
-- Where: RUM Explorer > Sessions with Replay
-- Filter: View URL contains `/track-claims/your-claims`
-- What to watch for: Users struggling to find closed claims (not realizing they need to click the Closed filter). Users repeatedly switching filters. Users navigating away without clicking into any claim. Sample 5-10 sessions during the first day at 100%.
-
-### Page Load Performance
-
-- Goal: Confirm the filter component does not degrade page load or rendering performance.
-- Where: RUM Explorer > Performance > Views
-- Filter: View URL contains `/track-claims/your-claims`
-- What to watch for: Increases in Largest Contentful Paint (LCP), First Input Delay (FID), or Long Task counts compared to the pre-release baseline. The client-side filtering should not add significant overhead, but the segmented button web component is new.
 
 ---
 
