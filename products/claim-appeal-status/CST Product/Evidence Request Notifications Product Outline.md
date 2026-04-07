@@ -101,11 +101,11 @@ See this [flow diagram](https://github.com/department-of-veterans-affairs/va.gov
 Objective: Accelerate claim decisions by improving how quickly Veterans respond to evidence requests
 
 Key Results:
-↓ Median time to Veteran response by X%
-↑ On-time evidence submission rate to X%
-↓ Average Days to Complete (ADC) by X%
-↑ Notification engagement to X% and deliverability to ≥X%
-↓ Missed evidence requests by X%
+- ↓ Median time to Veteran response by X%
+- ↑ On-time evidence submission rate to X%
+- ↓ Average Days to Complete (ADC) by X%
+- ↑ Notification engagement to X% and deliverability to ≥X%
+- ↓ Missed evidence requests by X%
 
 ---
 
