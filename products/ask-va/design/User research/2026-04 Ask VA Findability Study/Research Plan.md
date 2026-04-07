@@ -254,7 +254,7 @@ We will recruit 18 Veterans for a total of 12 completed sessions.
 | Question | Answers | Screening Criteria |
 | :---- | :---- | :---- |
 | Have you contacted the VA online for help in the past year? | Yes / No | Must answer Yes |
-| Do you have an active account to login to VA.gov? | Yes / No | At least 6/8 participants must answer Yes |
+| Do you have an active account to login to VA.gov? | Yes / No | Must answer Yes |
 | Do you currently receive any VA benefits?  | Yes / No  | Must answer Yes |
 | Are you able to join the Zoom session from an internet-connected desktop, laptop, or mobile phone? | Yes / No | Must answer Yes |
 | Do you find it difficult to remember or learn new things, focus on a task, or make decisions?  | Yes / No | At least 4 participants must answer Yes |
