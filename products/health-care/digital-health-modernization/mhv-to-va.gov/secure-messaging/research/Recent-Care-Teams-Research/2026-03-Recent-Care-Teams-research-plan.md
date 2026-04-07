@@ -150,7 +150,7 @@ VA.gov authenticated experience
 
 ### Goals
 
-`1.` Evaluate how many pages users should go through to write a message and how this impacts the overall experience.  
+`1.` Evaluate how many pages users should go through to write a message and the reported ease of use of writing a message.  
 `2.` Identify where assistive technology users encounter challenges in both current and proposed designs.  
 `3.` Identify and assess what strategies users are defaulting to in order to identify the correct care team.
 
@@ -159,7 +159,7 @@ VA.gov authenticated experience
 
 ### Outcome
 
-The insights that come out of this research will inform the structure and usability of the 'Start a new message' flow and help prioritize specific design improvements around number of pages and care system questions. Design decisions will be based on real Veteran behaviors, preferences, and pain points.
+The insights that come out of this research will inform the structure and usability of the 'Start a new message' flow and help prioritize specific design improvements around number of pages and care system questions a user clicks through. Design decisions will be based on real Veteran behaviors, preferences, and pain points.
 
 ---
 
