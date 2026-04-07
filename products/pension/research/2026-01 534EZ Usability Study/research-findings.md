@@ -64,9 +64,9 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "7 out of 9 participants and two pilot participants struggled with the logic and found the workflow hard to follow, especially in the Household information / Marriage section."
-  - "5 out of 9 participants and one pilot participant reacted negatively to the way the form uses language about death and family relationships"
-  - "3 of 9 participants and one pilot participant felt like having to figure out what benefits they are entitled to places an unnecessary burden on them at a stressful time."
+  - "Most participants struggled with the logic and found the workflow hard to follow, especially in the Household information section."
+  - "Some participants reacted negatively to the language the form uses in the Veteran’s marital history section."
+  - "Some participants felt like having to figure out what benefits they are entitled to places an unnecessary burden on them at a stressful time."
 recommendations:
   - "Consider revising the text for the marriage end/death of veteran question"
   - "Consider revising the workflow in the marriage section."
