@@ -80,7 +80,7 @@ At a high level, these are the technical dependencies for Evidence Request Notif
 * EventBusGateway → Benefits Management Tools team would add a consumer for the new event, and map the events to new VA Notify templates per channel (email/push/SMS)
 * Vets-api → Benefits Management Tools team would extend the LetterReadyNotification infrastructure to deliver the new evidence request notifications to the Veterans via calls to VA Notify
 
-See this [flow diagram] (https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/event-bus-notify/Data%20Flow%20Diagram.md) for decision letter emails as a basic model for these new downstream events
+See this [flow diagram](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/event-bus-notify/Data%20Flow%20Diagram.md) for decision letter emails as a basic model for these new downstream events
 
 ---
 ## Measuring Success
