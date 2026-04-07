@@ -364,9 +364,6 @@ Many participants expected that payment made towards the debt would be shown on 
 
 \-P2
 
-\>"If you're taking money out of my monthly payment, why are you not allowing me access to a record of what you're doing?"  
-\-P9
-
 *\> “I knew that at some point I’m going to be requested to overpay this because they’re using the wrong facts. And so I was like well, this doesn't seem right, but then I also was like, I don't really know how to contact people at the VA, like, that could really fix it, because it just seemed like a system issue. And so I was like, I'm just gonna wait for them to let me know.”* 
 
 *\-P15*
