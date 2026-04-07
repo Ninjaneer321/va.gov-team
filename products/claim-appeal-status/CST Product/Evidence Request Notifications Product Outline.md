@@ -86,27 +86,13 @@ See this [flow diagram] (https://github.com/department-of-veterans-affairs/va.go
 ## Measuring Success
 
 ### Key Performance Indicators (KPIs)
-1. Average Days to Complete (ADC)
-What it measures: End-to-end claim processing time
-Why it matters: Core business outcome tied to faster evidence turnaround
-→ Goal: Decrease
-3. Median Time to Veteran Response to Evidence Request
-What it measures: Speed of Veteran action after an evidence request
-Why it matters: Directly reflects whether notifications are driving faster responses
-→ Goal: Decrease
-4. Notification Engagement Rate
-What it measures: Open/click-through rate for email, SMS, and push notifications
-Why it matters: Leading indicator of whether notifications are effective and seen
-→ Goal: Increase
-5. Notification Deliverability Rate
-What it measures: % of notifications successfully delivered (not bounced, failed, or blocked)
-Why it matters: Foundational metric—notifications can’t drive outcomes if they aren’t delivered. For notifications that are not delivered, we can potentially address by requesting updated contact information (email, mobile number).
-→ Goal: Maintain very high rate (e.g., >95–99% depending on channel)
-6. Evidence Request Response Rate
-What it measures: % of evidence requests that receive a Veteran response
-Why it matters: Indicates whether notifications reduce missed or ignored requests
-→ Goal: Increase
-
+| KPI | What it Measures | Why it Matters | Goal | Data Source |
+|-----|------------------|----------------|------|-------------|
+| Average Days to Complete (ADC) | End-to-end claim processing time | Core business outcome tied to faster evidence turnaround | ↓ Decrease | VA claims processing systems (e.g., claim lifecycle data) |
+| Median Time to Veteran Response to Evidence Request | Speed of Veteran action after an evidence request | Directly reflects whether notifications are driving faster responses | ↓ Decrease | Timestamp data from evidence request events + submission records |
+| Notification Engagement Rate | Open/click-through rate for email, SMS, and push notifications | Leading indicator of whether notifications are effective and seen | ↑ Increase | Notification service provider analytics (email/SMS/push platforms) |
+| Notification Deliverability Rate | % of notifications successfully delivered (not bounced, failed, or blocked) | Foundational metric—notifications can’t drive outcomes if they aren’t delivered; gaps can be addressed by updating contact information | Maintain high (≥95–99%) | Notification service provider delivery logs |
+| Evidence Request Response Rate | % of evidence requests that receive a Veteran response | Indicates whether notifications reduce missed or ignored requests | ↑ Increase | VA claims system (evidence request + submission tracking) |
 
 #### Baseline KPI Values
 * _Baseline values for those most critical metrics. These may come from other systems other than VA.gov e.g. eBenefits._
