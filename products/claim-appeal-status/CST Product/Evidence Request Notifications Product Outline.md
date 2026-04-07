@@ -90,19 +90,19 @@ See this [flow diagram] (https://github.com/department-of-veterans-affairs/va.go
 What it measures: End-to-end claim processing time
 Why it matters: Core business outcome tied to faster evidence turnaround
 → Goal: Decrease
-2. Median Time to Veteran Response to Evidence Request
+3. Median Time to Veteran Response to Evidence Request
 What it measures: Speed of Veteran action after an evidence request
 Why it matters: Directly reflects whether notifications are driving faster responses
 → Goal: Decrease
-3. Notification Engagement Rate
+4. Notification Engagement Rate
 What it measures: Open/click-through rate for email, SMS, and push notifications
 Why it matters: Leading indicator of whether notifications are effective and seen
 → Goal: Increase
-4. Notification Deliverability Rate
+5. Notification Deliverability Rate
 What it measures: % of notifications successfully delivered (not bounced, failed, or blocked)
 Why it matters: Foundational metric—notifications can’t drive outcomes if they aren’t delivered. For notifications that are not delivered, we can potentially address by requesting updated contact information (email, mobile number).
 → Goal: Maintain very high rate (e.g., >95–99% depending on channel)
-5. Evidence Request Response Rate
+6. Evidence Request Response Rate
 What it measures: % of evidence requests that receive a Veteran response
 Why it matters: Indicates whether notifications reduce missed or ignored requests
 → Goal: Increase
