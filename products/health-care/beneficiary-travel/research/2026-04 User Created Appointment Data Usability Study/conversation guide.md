@@ -309,13 +309,13 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 > - 4. Do users imagine that the system will check them or prevent them from creating duplicate appointments?
 
 ### Community care page
-`Moderator: Take a look at this page. What do you see here?`   
+`Moderator: Take a look at this page. Is this what you expected?`   
 1. What is this page asking you?
 2. Do you know what community care means?
 3. What would you do if you didn't understand the question?
 
 ### Community care proof page
-`Moderator: Take a look at this page and think aloud again. What is this page asking you to do?`    
+`Moderator: Take a look at this page and think aloud again. Is this what you expected?`    
 
 `Moderator: Since this is a prototype, we won’t actually upload a real document, but you can click on the box and the prototype will walk you through what it might look like.`
 
