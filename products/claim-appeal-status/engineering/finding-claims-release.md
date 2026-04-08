@@ -133,8 +133,7 @@ Datadog RUM (service: `benefits-claim-status-tool`) detects user frustration sig
 
 Use the RUM Explorer to compare frustration levels before and after release:
 
-1. Open the [RUM Explorer](https://vagov.ddog-gov.com/rum/explorer) with this search:
-   `service:benefits-claim-status-tool @view.url_path:/track-claims/your-claims @view.frustration.count:>0`
+1. Open the [RUM Explorer with frustration filter](https://vagov.ddog-gov.com/rum/sessions?query=@type:view%20service:benefits-claim-status-tool%20@view.url_path:/track-claims/your-claims%20@view.frustration.count:%3E0&agg_m=count&agg_m_source=base&agg_t=count&fromUser=true&viz=stream&from_ts=1775496671753&to_ts=1775669471753&live=true)
 2. Switch to Timeseries view and set the time range to cover both the baseline and post-release periods
 3. Eyeball the chart for a visible increase in frustration count after the release timestamp (April 7, 10:45 PM ET)
 4. If the post-release frustration level looks noticeably higher than the baseline, investigate using the steps below
