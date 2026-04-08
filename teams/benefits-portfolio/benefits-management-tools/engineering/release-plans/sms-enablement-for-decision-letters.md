@@ -55,11 +55,11 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
  
 #### Results
 
-- Number of users: 
-- Number of bugs identified / fixed: 
-- Was any downstream service affected by the change?: 
-- Types of errors logged:   
-- Any changes necessary based on the logs, feedback on user challenges, or VA challenges?: 
+- Number of users: 1
+- Number of bugs identified / fixed: 0
+- Was any downstream service affected by the change?: No
+- Types of errors logged:   N/A
+- Any changes necessary based on the logs, feedback on user challenges, or VA challenges?: no
 - If yes, what: ___
 
 ### Phase II: Staged Rollout (also known as unmoderated production testing)
