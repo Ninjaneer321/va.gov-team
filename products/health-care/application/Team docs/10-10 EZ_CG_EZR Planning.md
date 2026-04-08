@@ -115,7 +115,7 @@
 
 ### All 1010 Forms
   - [ ] [[Team] 10-10 Forms - Monitoring: Create Quick-reference document & Update Playbooks](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135970)
-  - [ ] [https://github.com/department-of-veterans-affairs/va.gov-team/issues/135970](https://github.com/department-of-veterans-affairs/va.gov-team/issues/124012)
+  - [ ] [[UX] Health Apps: Investigate Healthcare Footer Issues #124012](https://github.com/department-of-veterans-affairs/va.gov-team/issues/124012)
 
 
 ##
