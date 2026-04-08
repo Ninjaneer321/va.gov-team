@@ -40,7 +40,7 @@ Before enabling your feature toggle in production, you'll need to:
 3. iOS testers will need to install Test Flight, build #3728 (Version 2.71.1) and toggle on the “overpayments” remote configuration.
 4. Android testers will need to install Firebase App Tester, select build #3469 (Version 2.71.0) and toggle on the "overpayments" remote configuration. 
 5. UAT testing is scheduled from **insert dates once confirmed**
-6. Refer to our **insert UAT AC documentation** 
+6. Refer to our [UAT documentation](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/combined_va_debt_portal/mobile/uat-overpayment) 
 
 #### **Results**
 
