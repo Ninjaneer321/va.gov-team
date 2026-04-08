@@ -4,9 +4,9 @@
 |--------|-------|-------|
 | Expected annual submissions | 45,592 | |
 | Canary target | 456 | 1% of expected |
-| Total submissions | 405 | 0.89% of expected |
-| Number of Incomplete/Errors | 14 | |
-| Error % | 3.45% | |
+| Total submissions | 567 | 124% of canary expected |
+| Number of Incomplete/Errors | 63 | |
+| Error % | 11% | |
 
 ## Submission Data
 
