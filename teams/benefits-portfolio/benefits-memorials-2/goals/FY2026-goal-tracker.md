@@ -55,8 +55,9 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 ## Quarterly Priorities for FY26Q2 (January, February, March 2026) 
 *Quarter Sprints include 1, 2, 3, 4*
 
-## Sprint: 4 [03/11/26 - 03/24/26]  
 <details>
+    
+## Sprint: 4 [03/11/26 - 03/24/26]  
     
 | Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
@@ -84,8 +85,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 - [X] All goals have been updated in the sprint chart
 - [ ] Any Additional details about goals **not** completed will be documented here
 
-End of Line
-</details>
+<details>
 
 ## Sprint: 3 [02/25/26 - 03/10/26] 
 <details>
