@@ -36,7 +36,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 |UX: Update and present Hardship Suspension process map to DMC stakeholders to ensure alignment on current process.| P5 |--|--|--|
 |ENG: Complete any planned or new critical maintenance tickets/bugs.| P6 |--|--|--|
 |UX: Complete review of quantitative data for February and March Medallia reports. | P6 |--|--|--|
-|
+
 **Sprint rollover tickets**
 | Additional work that was pulled in mid-sprint | Scope of work changed after ticket started | Work became blocked mid-sprint |  Work was underestimated and not completed |
 |---------------|---------------|---------------|---------------|
@@ -62,7 +62,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 |UX: Identify authenticated pages where link to EFT enrollment instructions is needed.| P6 |--|--|Complete|
 |ENG: Accept full ownership of Benefit Payment History Tool from BMT3 team.| P3 |--|--|Complete|
 |ENG: Complete any planned or new critical maintenance tickets/bugs.| P6 |--|--|Complete|
-|
+
 **Sprint rollover tickets**
 | Additional work that was pulled in mid-sprint | Scope of work changed after ticket started | Work became blocked mid-sprint |  Work was underestimated and not completed |
 |---------------|---------------|---------------|---------------|
@@ -111,7 +111,13 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 
 **_Delivery + Notes:_**
 - [X] All goals have been updated in the sprint chart
-- [ ] Any Additional details about goals **not** completed will be documented here
+- [X] Any Additional details about goals **not** completed will be documented here
+- For this goal:"UX: Pending access in staging - Review the final ENG implementation of Payment History," the final implementation was not ready to review.
+- For this goal: "UX: Pending access in staging - Assist with completing the Payment History accessibility testing", the team did not have access in staging to complete the testing.
+- For this goal: "ENG: Update Payment History mock data to allow for E2E and Unit tests," this required more work than anticipated and this work carried over.
+- For this goal: "ENG: Complete back end code adjustments to accommodate the Cerner/VistA data updates", this required additonal rework to the existing PR.
+- For this goal: "ENG: Update Payment History tests after implementing the Cerner/VistA data updates",  the final implementation was not ready to complete the testing.
+- For this goal: "ENG: Complete any planned or new critical maintenance tickets/bugs," Only 1 of 2 identified tickets was completed (a result of an access issue that has been resolved).
 
 <details>
 
