@@ -106,7 +106,6 @@
 
 ### EZR Improvements, Bugs, Performance
  - [ ] **Sprint Goal:** [[FE, QA] 10-10EZR - Improvement: Update Insurance section custom L&L to ArrayBuilder pattern](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131593)
- - [ ] [[BE] 10-10EZR - Performance: Investigate high latency](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133849)
  - [ ] [[Eng/QA] 10-10EZR - QA Standards update: Review and align with the latest QA Standards updates](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130857)
  - [ ] [[BE, FE] 10-10EZR - Household V2: Remove the ezr_form_prefill_with_providers_and_dependents flipper toggle](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121079)
  - [ ] [[PM] 10-10EZR - ECNOK on Profile: Initiate Collab Cycle](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135708)
