@@ -2,7 +2,8 @@
 
 - [January 2026 (1/1-1/31)](#january-2026)
 - [February 2026 (2/1-2/28)](#february-2026)
-<!-- - [March 2026 (3/1-3/31)](#march-2026)
+- [March 2026 (3/1-3/31)](#march-2026)
+<!--
 - [April 2026 (4/1-4/30)](#april-2026)
 - [May 2026 (5/1-5/31)](#may-2026)
 - [June 2026 (6/1-6/30)](#june-2026)
@@ -250,29 +251,30 @@
 - **iOS Installs**: 
 - **Average App Store Rating**: 
 
+  -->
 ## March 2026
 
 **Date range for metrics**: March 1, 2026 - March 31, 2026
 
-- **Total downloads since launch (01/01/2020)**: 
-- **New monthly downloads**: 
-- **Monthly active users**: 
-- **Monthly new users**: 
-- **Monthly appointment detail views**: 
-- **Monthly Rx Refill**: 
-- **Monthly Letter Downloads**: 
-- **Monthly Secure Messages Sent**: 
-- **Monthly Veteran Status Views**: 
+- **Total downloads since launch (01/01/2020)**: 1,677,076 (A) + 2,688,370 (iOS) = 4,365,446
+- **New monthly downloads**: 43,118 (A) + 45,774 (iOS) = 88,892
+- **Monthly active users**: 1,805,635
+- **Monthly new users**: 198,018
+- **Monthly appointment detail views**: 8,267,840
+- **Monthly Rx Refill**: 684,969
+- **Monthly Letter Downloads**: 960,408
+- **Monthly Secure Messages Sent**: 916,065
+- **Monthly Veteran Status Views**: 728,301
 
 ### Android
 
-- **Android installs**: 
-- **Average Play Store Rating**: 
+- **Android installs**: 43,118
+- **Average Play Store Rating**: 4.7
 
 ### iOS
 
-- **iOS Installs**: 
-- **Average App Store Rating**:  -->
+- **iOS Installs**: 45,774
+- **Average App Store Rating**: 4.8
 
 ## February 2026
 
