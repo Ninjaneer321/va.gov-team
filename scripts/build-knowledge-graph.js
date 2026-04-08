@@ -773,6 +773,21 @@ function resolveTeamForResearch(teamHint, parentProductId, studyContent, teamLoo
     }
   }
 
+  // Priority 4: product folder name matches team short_name (e.g. product-ask-va → team-ask-va)
+  if (parentProductId) {
+    const prodSlug = parentProductId.replace(/^product-/, "");
+    for (const t of teams) {
+      const sn = slugify(t.short_name || "");
+      if (sn && sn === prodSlug) return t.id;
+    }
+    // Also try matching product name words against team short_name
+    const prodWords = prodSlug.split("-").filter(w => w.length > 2);
+    for (const t of teams) {
+      const sn = slugify(t.short_name || "");
+      if (sn && prodWords.every(w => sn.includes(w))) return t.id;
+    }
+  }
+
   return null;
 }
 

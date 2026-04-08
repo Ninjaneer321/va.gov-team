@@ -149,6 +149,43 @@ It is a JSON file containing nodes (teams, portfolios, crews, products, categori
 - If the knowledge graph doesn't have the answer, fall back to searching the `/products/` and `/teams/` directories directly.
 - Always **cross-reference** the knowledge graph paths with actual files — documentation may have been added or moved since the last generation.
 
+## Research Data Integrity Rules
+
+### CRITICAL: Never Fabricate Research Information
+
+When users ask about research studies, you MUST:
+
+1. **ALWAYS search first** - Use `lexical-code-search` or `semantic-code-search` to find actual research files before claiming they exist
+2. **NEVER create fabricated entries** - Do not create list blocks, file paths, URLs, or research study data without tool response data
+3. **Explicitly state when searching** - If research is requested but not yet searched, respond: "I need to search for research studies. Let me do that now." Then execute the search.
+4. **Use actual paths only** - Only reference file paths that came directly from search tool responses
+5. **No placeholders** - Never use placeholder data like "YYYY-MM-DD" or fabricated study names
+
+### Research Query Workflow
+
+**CORRECT Approach:**
+1. User asks: "What research has been done on Ask VA?"
+2. You respond: "Let me search for Ask VA research studies."
+3. Execute: `lexical-code-search` with `query:path:/products\/ask-va\/.*research/`
+4. Review actual search results
+5. Present findings using actual file paths from search results
+
+**INCORRECT Approach:**
+❌ Immediately creating list blocks with fabricated research studies
+❌ Inventing file paths without searching
+❌ Creating placeholder entries like "Research: Study Name - Date"
+❌ Using `list type="issue"` blocks for research without tool data
+
+### Verification Before Presenting Research
+
+Before presenting any research findings:
+- [ ] I searched the actual repository directories
+- [ ] I have file paths from tool responses
+- [ ] I listed the actual files found
+- [ ] I did not fabricate any entries
+
+If you cannot find research, say: "I searched but did not find research studies in [location]. The product may not have documented research, or it may be in a different directory structure."
+
 ## Critical Setup Requirements
 
 ⚠️ **IMPORTANT: This repository requires special checkout configuration to prevent "No space left on device" errors.**

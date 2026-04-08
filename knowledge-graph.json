@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-04-08T17:56:46.430Z",
+    "generated": "2026-04-08T19:56:07.856Z",
     "description": "Knowledge graph of VA.gov products and teams",
     "source_directories": [
       "products/",
@@ -10,7 +10,7 @@
   },
   "statistics": {
     "total_nodes": 1230,
-    "total_edges": 2446,
+    "total_edges": 2498,
     "nodes_by_type": {
       "team": 61,
       "portfolio": 4,
@@ -32,7 +32,7 @@
       "integrates_with": 165,
       "implements_form": 104,
       "has_research": 689,
-      "conducted_research": 486,
+      "conducted_research": 538,
       "research_for_form": 107,
       "research_references_product": 192
     }
@@ -35024,6 +35024,11 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-ask-va",
+      "target": "research-products-ask-va-design-user-research-2023-09-dashboard-workshop",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-ask-va",
       "target": "research-products-ask-va-design-user-research-2024-01-submit-an-inquiry",
       "relationship": "has_research"
@@ -35094,6 +35099,11 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-ask-va",
+      "target": "research-products-ask-va-design-user-research-2025-02-comparative-analyses",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-ask-va",
       "target": "research-products-ask-va-design-user-research-2025-10-form-and-inbox-usability-study",
       "relationship": "has_research"
@@ -35139,9 +35149,19 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-ask-va",
+      "target": "research-products-ask-va-design-user-research-guidelines",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-ask-va",
       "target": "research-products-ask-va-design-user-research-notes",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-ask-va",
+      "target": "research-products-ask-va-design-user-research-notes",
+      "relationship": "conducted_research"
     },
     {
       "source": "research-products-ask-va-design-user-research-notes",
@@ -35779,9 +35799,19 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-content-and-information-architecture",
+      "target": "research-products-content-research-choosing-a-decision-review-option",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-content",
       "target": "research-products-content-spanish-translation-research-notes",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-content-and-information-architecture",
+      "target": "research-products-content-spanish-translation-research-notes",
+      "relationship": "conducted_research"
     },
     {
       "source": "product-content-localization",
@@ -35989,6 +36019,11 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-decision-reviews",
+      "target": "research-products-decision-reviews-higher-level-review-research-notes",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "research-products-decision-reviews-higher-level-review-research-notes",
       "target": "form-20-0996",
       "relationship": "research_for_form"
@@ -35997,6 +36032,11 @@
       "source": "product-decision-reviews",
       "target": "research-products-decision-reviews-research-csat-product-analytics",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-decision-reviews",
+      "target": "research-products-decision-reviews-research-csat-product-analytics",
+      "relationship": "conducted_research"
     },
     {
       "source": "product-decision-reviews",
@@ -36022,6 +36062,11 @@
       "source": "product-decision-reviews",
       "target": "research-products-decision-reviews-research-automated-survey-3-24-to-10-25",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-decision-reviews",
+      "target": "research-products-decision-reviews-research-automated-survey-3-24-to-10-25",
+      "relationship": "conducted_research"
     },
     {
       "source": "product-decision-reviews",
@@ -36199,9 +36244,19 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-disability-benefits-crew-core-526",
+      "target": "research-products-disability-526ez-research-2023-02-research-review",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-disability",
       "target": "research-products-disability-526ez-research-2023-03-medallia-survey",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-disability-benefits-crew-core-526",
+      "target": "research-products-disability-526ez-research-2023-03-medallia-survey",
+      "relationship": "conducted_research"
     },
     {
       "source": "research-products-disability-526ez-research-2023-03-medallia-survey",
@@ -36249,6 +36304,11 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-disability-benefits-crew-core-526",
+      "target": "research-products-disability-526ez-research-2024-02-itf-research",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "research-products-disability-526ez-research-2024-02-itf-research",
       "target": "product-proactive-benefits",
       "relationship": "research_references_product"
@@ -36262,6 +36322,11 @@
       "source": "product-disability",
       "target": "research-products-disability-526ez-research-2024-03-526-analytics",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-disability-benefits-crew-core-526",
+      "target": "research-products-disability-526ez-research-2024-03-526-analytics",
+      "relationship": "conducted_research"
     },
     {
       "source": "product-disability",
@@ -36292,6 +36357,11 @@
       "source": "product-disability",
       "target": "research-products-disability-526ez-research-2024-08-toxic-exposure",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-disability-benefits-crew-core-526",
+      "target": "research-products-disability-526ez-research-2024-08-toxic-exposure",
+      "relationship": "conducted_research"
     },
     {
       "source": "product-disability",
@@ -39329,6 +39399,11 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-identity",
+      "target": "research-products-identity-products-inherited-proofing-mhv-inherited-proofing-user-research",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-identity",
       "target": "research-products-identity-products-production-test-accounts-research",
       "relationship": "has_research"
@@ -39342,6 +39417,11 @@
       "source": "product-identity",
       "target": "research-products-identity-research-03-2026-access-va-on-vagov",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-identity",
+      "target": "research-products-identity-research-03-2026-access-va-on-vagov",
+      "relationship": "conducted_research"
     },
     {
       "source": "product-identity",
@@ -39409,6 +39489,11 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-identity",
+      "target": "research-products-identity-research-2023-10-identity-dashboard",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-identity",
       "target": "research-products-identity-research-2023-11-manage-signed-in-devices",
       "relationship": "has_research"
@@ -39439,14 +39524,29 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-identity",
+      "target": "research-products-identity-research-2024-01-sign-in-service",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-identity",
       "target": "research-products-identity-research-2024-03-fraud-notifications",
       "relationship": "has_research"
     },
     {
+      "source": "team-identity",
+      "target": "research-products-identity-research-2024-03-fraud-notifications",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-identity",
       "target": "research-products-identity-research-2024-03-fraud-detection-and-prevention",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-identity",
+      "target": "research-products-identity-research-2024-03-fraud-detection-and-prevention",
+      "relationship": "conducted_research"
     },
     {
       "source": "research-products-identity-research-2024-03-fraud-detection-and-prevention",
@@ -39459,9 +39559,19 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-identity",
+      "target": "research-products-identity-research-2024-03-service-level-objectives",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-identity",
       "target": "research-products-identity-research-2024-04-fe-sign-in-flows",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-identity",
+      "target": "research-products-identity-research-2024-04-fe-sign-in-flows",
+      "relationship": "conducted_research"
     },
     {
       "source": "research-products-identity-research-2024-04-fe-sign-in-flows",
@@ -39504,6 +39614,11 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-identity",
+      "target": "research-products-identity-research-2024-05-support-process-slackbot-uat",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-identity",
       "target": "research-products-identity-research-2024-08-analytics",
       "relationship": "has_research"
@@ -39517,6 +39632,11 @@
       "source": "product-identity",
       "target": "research-products-identity-research-2024-08-sign-in-experience-call-center-data-analysis",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-identity",
+      "target": "research-products-identity-research-2024-08-sign-in-experience-call-center-data-analysis",
+      "relationship": "conducted_research"
     },
     {
       "source": "product-identity",
@@ -39542,6 +39662,11 @@
       "source": "product-identity",
       "target": "research-products-identity-research-2025-03-delegate-access-secondary-research",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-identity",
+      "target": "research-products-identity-research-2025-03-delegate-access-secondary-research",
+      "relationship": "conducted_research"
     },
     {
       "source": "research-products-identity-research-2025-03-delegate-access-secondary-research",
@@ -39574,9 +39699,19 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-identity",
+      "target": "research-products-identity-research-2025-07-team-documentation-ia",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-identity",
       "target": "research-products-identity-research-2025-10-results-of-synthesize-existing-qualitative-research",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-identity",
+      "target": "research-products-identity-research-2025-10-results-of-synthesize-existing-qualitative-research",
+      "relationship": "conducted_research"
     },
     {
       "source": "research-products-identity-research-2025-10-results-of-synthesize-existing-qualitative-research",
@@ -39592,6 +39727,11 @@
       "source": "product-identity",
       "target": "research-products-identity-research-2025-11-public-forums-research",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-identity",
+      "target": "research-products-identity-research-2025-11-public-forums-research",
+      "relationship": "conducted_research"
     },
     {
       "source": "product-identity",
@@ -39629,9 +39769,19 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-identity",
+      "target": "research-products-identity-research-2026-02-sign-in-page-updates",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-identity",
       "target": "research-products-identity-research-2026-04-error-investigation",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-identity",
+      "target": "research-products-identity-research-2026-04-error-investigation",
+      "relationship": "conducted_research"
     },
     {
       "source": "product-identity",
@@ -39649,6 +39799,11 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-identity",
+      "target": "research-products-identity-research-meeting-notes",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-identity",
       "target": "research-products-identity-research-ongoing-quantitative-data",
       "relationship": "has_research"
@@ -39664,9 +39819,19 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-identity",
+      "target": "research-products-identity-research-spikes",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-identity",
       "target": "research-products-identity-research-workingdocs",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-identity",
+      "target": "research-products-identity-research-workingdocs",
+      "relationship": "conducted_research"
     },
     {
       "source": "product-identity",
@@ -39694,6 +39859,11 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-identity",
+      "target": "research-products-identity-research-user-roles",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-identity",
       "target": "research-products-identity-delegate-access-research",
       "relationship": "has_research"
@@ -39714,9 +39884,19 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-identity",
+      "target": "research-products-identity-login-ds-logon-research-user-session-notes",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-identity",
       "target": "research-products-identity-login-ds-logon-research-user-session-transcripts",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-identity",
+      "target": "research-products-identity-login-ds-logon-research-user-session-transcripts",
+      "relationship": "conducted_research"
     },
     {
       "source": "product-identity",
@@ -39732,6 +39912,11 @@
       "source": "product-identity",
       "target": "research-products-identity-login-user-login-research",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-identity",
+      "target": "research-products-identity-login-user-login-research",
+      "relationship": "conducted_research"
     },
     {
       "source": "product-identity-personalization",
@@ -41124,6 +41309,11 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-mobile-app-and-platform",
+      "target": "research-products-va-mobile-app-features-design-personalization-discovery-research",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "research-products-va-mobile-app-features-design-personalization-discovery-research",
       "target": "product-identity-personalization",
       "relationship": "research_references_product"
@@ -41139,9 +41329,19 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-mobile-app-and-platform",
+      "target": "research-products-va-mobile-app-features-medication-research",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-va-mobile-app",
       "target": "research-products-va-mobile-app-features-patient-check-in-research",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-mobile-app-and-platform",
+      "target": "research-products-va-mobile-app-features-patient-check-in-research",
+      "relationship": "conducted_research"
     },
     {
       "source": "product-va-mobile-app",
@@ -41159,9 +41359,19 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-mobile-app-and-platform",
+      "target": "research-products-va-mobile-app-platform-research-login-improvements",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-va-mobile-app",
       "target": "research-products-va-mobile-app-product-research-hks-research",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-mobile-app-and-platform",
+      "target": "research-products-va-mobile-app-product-research-hks-research",
+      "relationship": "conducted_research"
     },
     {
       "source": "product-va-mobile-app",
@@ -41194,9 +41404,19 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-mobile-app-and-platform",
+      "target": "research-products-va-mobile-app-research-in-app-survey",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-va-mobile-app",
       "target": "research-products-va-mobile-app-research-monthly-user-research",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-mobile-app-and-platform",
+      "target": "research-products-va-mobile-app-research-monthly-user-research",
+      "relationship": "conducted_research"
     },
     {
       "source": "product-va-mobile-app",
@@ -41204,14 +41424,29 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-mobile-app-and-platform",
+      "target": "research-products-va-mobile-app-research-quarterly-user-research",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-va-mobile-app",
       "target": "research-products-va-mobile-app-research-engineering",
       "relationship": "has_research"
     },
     {
+      "source": "team-mobile-app-and-platform",
+      "target": "research-products-va-mobile-app-research-engineering",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-va-mobile-app",
       "target": "research-products-va-mobile-app-research-ux",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-mobile-app-and-platform",
+      "target": "research-products-va-mobile-app-research-ux",
+      "relationship": "conducted_research"
     },
     {
       "source": "product-va-notify",
@@ -41247,6 +41482,11 @@
       "source": "product-va-notify",
       "target": "research-products-va-notify-research-appointment-reminder",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-notify-platform",
+      "target": "research-products-va-notify-research-appointment-reminder",
+      "relationship": "conducted_research"
     },
     {
       "source": "product-vet-transition-support",
@@ -41639,9 +41879,19 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-va-chatbot",
+      "target": "research-products-virtual-agent-research-octo-de-surveys",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-virtual-agent",
       "target": "research-products-virtual-agent-research-omni-channel-studies",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-va-chatbot",
+      "target": "research-products-virtual-agent-research-omni-channel-studies",
+      "relationship": "conducted_research"
     },
     {
       "source": "product-virtual-agent",
@@ -41649,9 +41899,19 @@
       "relationship": "has_research"
     },
     {
+      "source": "team-va-chatbot",
+      "target": "research-products-virtual-agent-research-prescriptions",
+      "relationship": "conducted_research"
+    },
+    {
       "source": "product-virtual-agent",
       "target": "research-products-virtual-agent-research-signin-support",
       "relationship": "has_research"
+    },
+    {
+      "source": "team-va-chatbot",
+      "target": "research-products-virtual-agent-research-signin-support",
+      "relationship": "conducted_research"
     },
     {
       "source": "product-virtual-agent",

@@ -98,3 +98,45 @@ steps:
       else
         echo "⚠️ knowledge-graph.json - not available"
       fi
+
+  - name: Validate research directory access
+    run: |
+      echo "=== Research Directory Check ==="
+      echo "Checking for common research directories..."
+      found_research=0
+      
+      # Check for various research directory patterns
+      for pattern in "products/*/research" "products/*/design/User research" "products/*/design/User Research"; do
+        if find . -type d -path "./$pattern" 2>/dev/null | head -1 | grep -q .; then
+          echo "✅ Found research directories matching: $pattern"
+          found_research=1
+        fi
+      done
+      
+      if [ $found_research -eq 0 ]; then
+        echo "⚠️ No research directories found in current checkout"
+        echo "   Add research directories to sparse-checkout to enable research queries"
+      fi
+      
+      echo ""
+      echo "💡 Research Query Guidelines:"
+      echo "- NEVER fabricate research study entries"
+      echo "- ALWAYS search directories before claiming research exists"
+      echo "- Use lexical-code-search or semantic-code-search to find actual files"
+      echo "- Only reference file paths from search tool responses"
+
+  - name: Research query integrity check
+    run: |
+      echo "=== Research Data Integrity Validation ==="
+      echo ""
+      echo "When responding to research queries, GitHub Copilot MUST:"
+      echo "✅ Search repository before making claims about research"
+      echo "✅ Use actual file paths from search results only"
+      echo "✅ Explicitly state 'searching now' before tool calls"
+      echo "✅ Present only data from tool responses"
+      echo ""
+      echo "❌ NEVER fabricate research study entries"
+      echo "❌ NEVER create placeholder data"
+      echo "❌ NEVER use list blocks without tool data"
+      echo "❌ NEVER invent file paths or URLs"
+      echo ""
