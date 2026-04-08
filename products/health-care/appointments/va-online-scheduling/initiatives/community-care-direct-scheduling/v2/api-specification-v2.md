@@ -236,7 +236,7 @@ Retrieves the list of available VA and CC providers for a given referral. Used o
   - `referralId`: The unique identifier of the referral.
 - Query Parameters (optional):
   - `page`: Page number for pagination (default: `1`).
-  - `perPage`: Number of providers per page (default: `10`).
+  - `perPage`: Number of providers per page (default: `5`). The UI fetches 5 at a time, loading more on user request.
   - `sort`: Sort order. Accepted values: `distance` (default), `nextAvailable`.
 
 **Response (Success):**
@@ -291,8 +291,8 @@ Retrieves the list of available VA and CC providers for a given referral. Used o
   "meta": {
     "pagination": {
       "currentPage": 1,
-      "perPage": 10,
-      "totalPages": 2,
+      "perPage": 5,
+      "totalPages": 3,
       "totalEntries": 15
     }
   }
@@ -310,7 +310,8 @@ Retrieves the list of available VA and CC providers for a given referral. Used o
 - `address`: Provider location address object.
 - `phone`: Provider phone number.
 - `latitude` / `longitude`: Coordinates for mapping.
-- `meta.pagination`: Supports the "Show N more providers" button on the frontend.
+- `meta.pagination.totalEntries`: Total number of providers across all pages. Used by the UI to calculate how many more providers remain (`totalEntries - loadedCount`) and to determine whether a "Show more" button should appear. When `loadedCount >= totalEntries`, the button is hidden.
+- `meta.pagination.currentPage` / `totalPages` / `perPage`: Standard pagination metadata.
 
 **Response (No providers found):**
 ```json
