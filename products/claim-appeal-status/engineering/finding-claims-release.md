@@ -127,9 +127,41 @@ Use matching day-of-week windows to account for weekday/weekend traffic differen
 
 ## Datadog RUM Release Monitoring
 
-### Frustration Signals (Rage Clicks)
+Datadog RUM (service: `benefits-claim-status-tool`) detects user frustration signals (rage clicks, dead clicks, error clicks) that GA cannot. A monitor is configured to alert the team if frustration spikes after release.
 
-- [Datadog Monitor for Frustration Signals](https://vagov.ddog-gov.com/monitors/549183?from_ts=1775500840739&to_ts=1775587240739&live=true)
+### Before/After Frustration Comparison
+
+Use the RUM Explorer to compare frustration levels before and after release:
+
+1. Open the [RUM Explorer](https://vagov.ddog-gov.com/rum/explorer) with this search:
+   `service:benefits-claim-status-tool @view.url_path:/track-claims/your-claims @view.frustration.count:>0`
+2. Switch to Timeseries view and set the time range to cover both the baseline and post-release periods
+3. Eyeball the chart for a visible increase in frustration count after the release timestamp (April 7, 10:45 PM ET)
+4. If the post-release frustration level looks noticeably higher than the baseline, investigate using the steps below
+
+| Metric | Baseline | Post-Release | Change | Status |
+|---|---|---|---|---|
+| Views with frustration (`@view.frustration.count:>0`) | | | | |
+
+### Frustration Monitor
+
+- Monitor: [CST - High Frustration on /track-claims/your-claims](https://vagov.ddog-gov.com/monitors/549183?from_ts=1775500840739&to_ts=1775587240739&live=true)
+- Query: `rum("@type:view service:benefits-claim-status-tool @view.url_path:/track-claims/your-claims")`
+- Evaluation: AVG frustration count over the last 5 minutes
+- Thresholds:
+  - Warning: 3 < avg <= 5
+  - Alert: avg > 5
+- Notifications: Slack `#benefits-management-tools-claim-status-tool-alerts`, William Phelps, Nathan Thomas
+- Status at release: OK
+
+### Investigating Frustration Signals
+
+If the monitor triggers a warning or alert, or the before/after comparison shows an increase:
+
+1. In the same RUM Explorer view, narrow the time range to the post-release spike
+2. Filter for "Session Replay available" to watch affected sessions
+3. Look for patterns: are users rage-clicking the filter buttons, claim cards, or pagination?
+4. If frustration is concentrated on a specific interaction, investigate whether the component is unresponsive or confusing
 
 ---
 
