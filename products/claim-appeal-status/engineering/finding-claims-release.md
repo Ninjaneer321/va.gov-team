@@ -9,6 +9,7 @@
 Create or update the following GA4 Explore tabs to monitor the rollout. Record baseline and post-release values in the tables below to share with stakeholders.
 
 - Release date: April 7, 2026
+  - Fully Enabled Feature Flag at 10:45 PM ET. This allowed all users to get the new feature (and view it being used in all Datadog replays) while not being at the peak hours of the day
 - Baseline: Mar 31 - Apr 6 (7 days before release)
 - Post-release: Apr 7 - Apr 13 (first 7 days after release)
 - Week 2: Apr 14 - Apr 20 (for trend comparison)
