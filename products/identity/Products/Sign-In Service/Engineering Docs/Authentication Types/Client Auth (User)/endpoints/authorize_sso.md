@@ -43,5 +43,27 @@ Host: staging-api.va.gov
   "error": "Invalid params: client_id, code_challenge"
 }
 ```
+
 ## Diagram
-![okta-sso](https://github.com/user-attachments/assets/80061f39-0cf3-4bc3-92ba-e816b26f55cf)
+<img width="4208" height="3488" alt="auth_sso" src="https://github.com/user-attachments/assets/a37f06cb-fd27-49a8-9b16-718fb9533f0a" />
+
+## Step-by-step
+
+**With an existing session:**
+
+1. Client calls `GET /v0/sign_in/authorize_sso` with required PKCE parameters.
+2. Sign-in Service validates the session and generates a one-time-use authorization `code`.
+3. Client is redirected to its configured `redirect_uri` with the `code` as a query parameter.
+4. Client exchanges the `code` for an access token via `POST /v0/sign_in/token`.
+
+**Without an existing session:**
+
+1. Client calls `GET /v0/sign_in/authorize_sso` with required PKCE parameters.
+2. Sign-in Service finds no valid session and redirects to USIP with the original parameters plus `oauth=true`.
+3. User authenticates through USIP via their identity provider.
+
+**With missing parameters:**
+
+1. Client calls `GET /v0/sign_in/authorize_sso` with one or more required parameters missing.
+2. Sign-in Service returns `400 Bad Request` with a JSON error listing the missing parameters.
+
