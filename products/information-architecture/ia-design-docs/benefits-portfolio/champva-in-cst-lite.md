@@ -1,6 +1,6 @@
 # Mini IA Design for CHAMPVA app status in claims status tool
 
-**STATUS: NOT STARTED**
+**STATUS: IN PROGRESS**
 
 **Team:** BMT 1
 
@@ -53,16 +53,13 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 
   URL and breadcrumb should remain the same regardless of the tab selected (Status, Files, Overview).
   
+
+
+**Structuring URLs for individual screens within the flows**
+- Tabular information should not change the URL or breadcrumbs
+- For evidence requests (called "information requests" when related to CHAMPVA, recommend using a UUID: for example, va.gov/track-claims/your-claims/[UUID number]/needed-from-you/[ID number for type of evidence]/ 
+
 rl note: NEED REVISION FROM THIS POINT
-
-**Structuring URLs for individual pages within the flows**
-- All pages within form flows will exist as child pages of the core/canonical URL.
-  - Examples:
-      - va.gov/forms/xxxx/xxxx/introduction/
-      - va.gov/forms/xxxx/xxxx/review-and-submit/
-      - va.gov/forms/xxxx/xxxx/confirmation/
-  - Please refer to [URL standards for form flows](https://design.va.gov/components/url-standards/#guidelines-for-urls-in-form-flows) when defining the URLs for these pages.  Reach out to #content-ia-centralized-team with any questions.
-
 
 ## <a name="nav"></a>Entry points <br>
 
