@@ -1,10 +1,12 @@
 # My HealtheVet Notifications: Current State Report
 **Last updated: February 2026**
 
-This report documents what we know and understand about notifications that route users to the My HealtheVet on VA.gov health portal from outside sources (email, push-notifications on mobile devices). This report DOES NOT document passive in-app notifications that are generated on VA.gov itself, but seeks to inform a future-state where we build out an in-app notification ecosystem that will hopefully scaffold on top of the existing external notifications that already exist. Understanding the current state will help us determine several things that are crucial for scaling a system that makes sense to Veterans and is consistent with other types of communication they already receive. This report covers questions such as: 
+This report documents what we know and understand about notifications that route users to the My HealtheVet on VA.gov health portal from outside sources (email, push-notifications on mobile devices). This report DOES NOT document passive in-app activities that display on VAHB & web channels. Rather, this document is a landscape audit of external notifications, and seeks to inform a future-state where we build out an in-app notification ecosystem that will hopefully scaffold on top of the existing external notifications that already exist. Understanding the current state will help us determine several things that are crucial for scaling a system that makes sense to Veterans and is consistent with other types of communication they already receive. This report covers questions such as: 
 * What notifications do users already get via email & SMS for each health tool?
-* Are they enabled for both VistA & OH EHR systems? 
-* What content or language do we use in those notifications today?
+* Wnat push notifications exist for VAHB users? 
+* Are these notifications enabled for both VistA & OH EHR systems? 
+* What opt-in/out settings are available for various types of notifications, systems, and channels (if any)?
+* Are any notifications under development or in the pipeline? 
 * What hyperlinks, buttons, or CTAs are in those notifications? And where exactly do they route users?
 
 ## On this page
@@ -29,7 +31,7 @@ In general, there are templates used to propogate both email and SMS messages fo
 ## <a name="tools"></a>Notification tools and applications
 
 ### VA Notify
-VA Notify supports email, text messaging (SMS) and push notifications with the VAHB Mobile App. VA Notify is designed to be a passthrough system. We do not store Veteran information, but we do store your notification templates and settings. We partner with VA Profile and va.gov to provide communication preferences that the Veteran can see and manage. VA Notify checks these preferences before notifying a Veteran.
+VA Notify supports email (VA-wide), SMS text messaging (VA-wide), and push notifications (VAHB mobile app). VA Notify is designed to be a passthrough system. We do not store Veteran information, but it does store notification templates and settings. VA Notify partners with VA Profile and VA.gov to provide communication preferences that the Veteran can see and manage. VA Notify checks these preferences before notifying a Veteran.
 
 To create a new notification using a VA Notify template, there are some requirements for a technical team member to get set up with an API key, as well as go through privacy review in order to get the notification set up in the staging environment. Email notifications are much faster to implement, whereas **SMS (text) notifications can take up to 12 weeks to implement**. More information is in the VA Notify playbook.
 
@@ -40,6 +42,51 @@ rely on this system as source of truth (not the Figma)
 * [VA Notify REST API documentation](https://staging.notifications.va.gov/developer/api_docs)
 * VA Notify Slack channel: `#va-notify-public`
 
+### VAHB Push notifications
+VA Health and Benefits mobile app (VAHB) supports native push notifications. The triggering, content, and orchestration of those notifications is powered by VA Notify - and any VAHB push notifications have the same content as other VA Notify notifications of the same type. But the push notifications are delivered through the mobile app's native tech stack (React Native using platform-native push notification APIs on iOS/Android). The web notification preferences (email/SMS channels) exist in `department-of-veterans-affairsvets-website`; the push notification implementation lives in `department-of-veterans-affairs/va-mobile-app`. 
+
+The app exposes toggleable push notification preferences to users via the `Settings > Notifications` screen. These are fetched from the `/v0/push/prefs` API and can be individually enabled/disabled. 
+
+#### Opt-in/Out
+Users are not automatically opted-in to receive push notifications via VAHB mobile app. When they sign-in:
+
+Step 1
+> VAHB first-time user will hit an onboarding carousel with a dedicated `RequestNotificationsScreen` that has two choices:
+> 1. "Turn on notifications" - opts the user in, triggers the OS-level permission prompt, and registers the device with VA Notify
+> 2. "Skip" — dismisses the screen without enabling notifications
+> Note: This screen is only shown once (it stores a @store_notification_preference_complete flag in AsyncStorage so it never appears again).
+
+Step 2
+> If they skip → Notifications stay OFF
+> * If the user taps "Skip," the requestNotifications state remains false
+
+Step 3
+> If they skipped but want to opt in later → Settings screen
+> Notifications Settings screen shows a "Turn on notifications" info alert instead of the toggle switches.
+
+Step 4
+> Once opted in → Individual preferences default to ON
+
+STEP 5 
+> Once a user has opted in to push notifications and their device is registered, the individual preferences (Appointment reminders, Secure messages) come back from the API with value: `true` — as seen in the demo mock.
+> The user can then toggle each one off individually via the switches on the Notifications Settings screen.
+
+#### Architecture & Relationship to VA Notify
+All push notifications flow through the VA Notify + VEText pipeline:
+
+* Source systems (e.g., VEText for appointments, MHV for secure messages) trigger notifications via the VA Notify API
+* VA Notify sends push via APNS (iOS) and GCM/FCM (Android) using templates specific to each notification type
+* The app registers the device via PUT `/v0/push/register` with app_name: "va_mobile_app"
+* User preferences are managed via `GET/PUT /v0/push/prefs/:endpoint_sid`
+* The APNS certs are managed by the VA Notify team (per the signing keys documentation).
+
+New push notification types require: contacting VA Notify + VEText, creating a push template, getting it approved by the mobile team, then testing in staging
+* Templates include platform-specific payloads for APNS/APNS_SANDBOX/GCM with a url field for deep linking
+* The APNS certificate is managed by the VA Notify team
+* Device registration goes through PUT /v0/push/register with app_name: "va_mobile_app"
+
+**Resources:**
+* [VAHB BE push notification documentation](https://github.com/department-of-veterans-affairs/va-mobile-app/blob/e962cdc57a03f5dfc261760396333f545831d1db/VAMobile/documentation/development/BackEnd/Features/PushNotifications.md)
 
 ### VEText
 VEText is different than VA Notify (in some cases duplicative), and relies on data in the Computerized Patient Record System (CPRS). It is not VA-wide, instead it is facility-dependent and reliant on specific facilities budgeting for it and enabling its implementation. Each facility with VEText may have some variation (but not necessarily all) of the possible notifications that are supported. VEText is only SMS today, but in the future there is capability to integrate the service with VA Notify to also include Email notifications.
@@ -79,7 +126,7 @@ Type of notifications and the number they come from via VEText are as follows:
 Existing notifications
 | Notification | Service | Trigger | Modalities offered | EHRs supported | Opt-in? | Notes |
 |--------------|---------|---------|----------|---------|-------|------|
-| VA appointments - upcoming reminder| VEText | ? | SMS| VistA | No (automatic) |Can opt out by replying to SMS|
+| VA appointments - upcoming reminder| VEText | ? | SMS, Push| VistA | No (automatic) |SMS - can opt out by replying to text; Push - can toggle off in VAHB settings|
 | VA appointments - Veteran can auto cancel | VEText | ? | SMS| VistA | No (automatic)|Can opt out by replying to SMS|
 | VA appointments - clinic cancelled the appointment | VEText | ? | SMS | VistA | No (automatic)|Can opt out by replying to SMS|
 | VA appointments - attempt to schedule reminders| VEText | ? | SMS | VistA | No (automatic)|Can opt out by replying to SMS|
@@ -105,7 +152,7 @@ Existing notifications
 | Notification | Service | Trigger | Modalities offered | EHRs supported | Opt-in? | Notes |
 |--------------|---------|---------|----------|---------|-------|------|
 | Welcome to SM | VA Notify | When someone becomes eligible for SM (VistA) | Email, SMS | VistA | No (automatic) | Not totally sure on the logic for that but SM BE team would know |
-| You have a new message| VA Notify | When a new message is sent to the Veteran | Email, SMS | VistA, OH | No (automatic) | -- |
+| You have a new message| VA Notify | When a new message is sent to the Veteran | Email, SMS, Push | VistA, OH | Email, SMS - automatic & cannot opt out; Push - can toggle off in VAHB settings | -- |
 
 
 ## <a name="meds"></a>Medications
