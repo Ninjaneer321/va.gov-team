@@ -3,7 +3,7 @@
 | Metric | Value | Notes |
 |--------|-------|-------|
 | Expected annual submissions | 81,431 | |
-| Canary target | | 1% of expected | 8,143
+| Canary target |8,143 | 1% of expected | 
 | Total submissions |1.1k| |
 | Number of Incomplete/Errors | 20  |
 | Error % | 1.82% | |
