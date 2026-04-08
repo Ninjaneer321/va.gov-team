@@ -2,6 +2,152 @@
 
 - Current Sprint first
 
+## 📆 Sprint 17 (Mar 25 - Apr 7) 
+- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+
+### Sprint Goals
+- [ ] **SPRINT GOAL** Add 10-10d Enhanced Chapter and new BE endpoint in Staging
+  -  [[FE] 10-10D: Move Signer Section to End of Form](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138714)
+  -  [[FE] 10-10D: Update Intro Page Content for Enhanced Flow](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138717)
+  -  [[FE] 10-10D: Update Confirmation Page Content for Enhanced Flow](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138719)
+  -  [[FE] 10-10D: Add Enhanced Flow Chapter for Sponsor, Beneficiary, Signer, and Document Upload](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138721)
+- [ ] **SPRINT GOAL** Address QA findings for OHI/VES ingest and DTA, address bug in 1010d causing duplicate submissions to VES on retry
+  -  
+- [ ] **SPRINT GOAL** Finalize and hand off UX improvements for Form 10-7959c based on Medallia and usability study findings
+  -    [[UX] Form 10-7959c: Reduce ambiguity around whose health insurance we're collecting](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137943)
+  -    [[UX] Form 10-7959c: Update pending application branching logic](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137944)
+  -    [[UX] Form 10-10d: Update OHI dynamic pronouns/content for Veteran/Other role](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138111)
+- [ ] **SPRINT GOAL** Complete quarterly Medallia report and make recommendation on prefill vs. multi-beneficiary for 10-7959c
+  -  [[UX] March 2026 Monthly Medallia Report](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137232)
+
+
+##
+### 10-10d
+- [ ] **SPRINT GOAL**
+  -  
+- [ ] **Other Planned Work** 
+  - [ ] [[Research] 10-10D: Finalize TRICARE Study Findings Presentation and Submit Design System Intake](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135920)
+  - [ ] [
+
+##
+### 10-7959a
+- [ ] **SPRINT GOAL**
+  -  
+- [ ] **Other Planned Work** 
+  - [ ] 
+
+
+
+## 
+### 10-7959c
+- [ ] **SPRINT GOAL**
+  - 
+- [ ] **Other Planned Work** 
+  - [ ] 
+
+ 
+## 
+### 10-7959f-1 FMP Enrollment
+- **Other Planned Work**
+  - [ ] [[UX] 10-7959f-2: Update Source of Truth](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138541)
+
+
+##
+### 10-7959f-2 FMP Claims
+- No work this sprint
+     
+
+##
+### All forms or Tech Debt
+- [ ] **Other Planned Work**
+  - [ ] 
+
+
+## 
+### STRETCH GOALS/UP NEXT
+- FE
+  - [ ] 
+- BE
+  - [ ] 
+- FE
+  - [ ] [[UX] 10-7959c: Explore updated Add New/Update Existing Coverage task flows](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138117)
+  
+
+##
+### Team PTO
+- Allan 4.8-4.21
+- Mitch 4.7-4.10
+- Hieu 4.7-4.14
+- Jessica 4.6-4.7
+- Renata 4.14
+- Fara 4.17-4.21
+
+## 📆 Sprint 17 (Mar 25 - Apr 7) 
+- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+
+### Sprint Goals
+- [ ] **SPRINT GOAL**
+  -  
+
+
+##
+### 10-10d
+- [ ] **SPRINT GOAL**
+  -  
+- [ ] **Other Planned Work** 
+  - [ ] 
+
+##
+### 10-7959a
+- [ ] **SPRINT GOAL**
+  -  
+- [ ] **Other Planned Work** 
+  - [ ] 
+
+
+
+## 
+### 10-7959c
+- [ ] **SPRINT GOAL**
+  - 
+- [ ] **Other Planned Work** 
+  -[ ] 
+
+ 
+## 
+### 10-7959f-1 FMP Enrollment
+- No work this sprint
+
+
+##
+### 10-7959f-2 FMP Claims
+- No work this sprint
+     
+
+##
+### All forms or Tech Debt
+- [ ] **Other Planned Work**
+  - [ ] 
+
+
+## 
+### STRETCH GOALS/UP NEXT
+- FE
+  - [ ] 
+- BE
+  - [ ] 
+- FE
+  - [ ] 
+  
+
+##
+### Team PTO
+- Andrea 3.25-3.27
+- Matt 4.2
+- Mitch 4.3-4.7
+- Hieu 4.6-4.7
+- Jessica 4.6-4.7
+
 
 ## 📆 Sprint 16 (Mar 11 - Mar 24) 
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
