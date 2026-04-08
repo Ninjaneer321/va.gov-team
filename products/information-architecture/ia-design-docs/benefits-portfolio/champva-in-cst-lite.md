@@ -10,7 +10,7 @@
 
 **Files:**
 - [Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1773786513769/a471d78fd6ed5cdc5b804c589309139108d2a8f8)
-- [Figma](xxxx)
+- [Figma](https://www.figma.com/design/OpAuMgHwnh6BNkKpW3FyqF/CHAMPVA-in-Status-Tool?node-id=508-6955)
 
 **On this page:**
 - [Navigation/page flows](#flows)
@@ -25,7 +25,7 @@
 *Illustration and/or description of how users will navigate to and flow through the experience for all impacted visitor types. This helps identify key entry points and findability requirements, user flow scenarios, and content/messaging needs across various scenarios.*
 
 
-
+## <a name="map"></a>Page structure<br>
 
 
 ## <a name="url"></a>Page URLs and breadcrumbs
@@ -36,24 +36,26 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - [Title tags](https://design.va.gov/content-style-guide/title-tags)
 
 
-**1) Lorem ipsum - existing**
-- URL: xxx
-- H1: xxx
-- Sub-heading: xxxx
-- Breadcrumb: VA.gov > xx
-- Browser title: [xxx] | Veterans Affairs
-    - xx | Veterans Affairs
-
-**1) Lorem ipsum - new**
-- URL: xxx
-- H1: xxx
-- Sub-heading: xxxx
-- Breadcrumb: VA.gov > xx
-- Browser title: [xxx] | Veterans Affairs
-    - xx | Veterans Affairs
+**1) CST landing page - existing**
+- URL: va.gov/track-claims/your-claims/
+- H1: Your VA benefits claims and applications (REVISED, PENDING FINAL COPY)
+- Sub-heading: Manage and track the progress of certain claims, decision reviews, appeals, and applications online.
+- Breadcrumb (desktop): VA.gov home > Your VA benefits claims and applications (REVISED, should match final H1 copy)
+- Browser title: [H1 in initial case] | Veterans Affairs
 
 
-**Structuring URLs for individual pages within the form flows**
+**1) CHAMPVA application pages - new**
+- URL: va.gov/track-claims/your-claims/[UUID number]/
+- H1: Application for CHAMPVA benefits
+- Sub-heading: Received on [month] [dd], [yyyy]
+- Breadcrumb: VA.gov home > Check your claims and appeals > Application for CHAMPVA benefits
+- Browser title: Application For CHAMPVA Benefits | Veterans Affairs
+
+  URL and breadcrumb should remain the same regardless of the tab selected (Status, Files, Overview).
+  
+rl note: NEED REVISION FROM THIS POINT
+
+**Structuring URLs for individual pages within the flows**
 - All pages within form flows will exist as child pages of the core/canonical URL.
   - Examples:
       - va.gov/forms/xxxx/xxxx/introduction/
