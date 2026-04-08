@@ -2,10 +2,14 @@
 
 - Product description
     + Brief overview of motivation for the change from an engineering & security point of view
+    + _Ask VA research supported inbox enhancements, discovered there is a New VADS Inbox Sort/Filter Patterns for Ask VA to implement._
     + Link to Collaboration Cycle Request issue
+    + https://github.com/department-of-veterans-affairs/va.gov-team/issues/131991
 - UX design description
     + For user-facing changes, link to UX prototype or wireframes if available
+    + https://design.va.gov/components/search-filter
     + Call out any engineering challenges; UX is reviewed in the [Design Intent meeting][DI]
+    + None
 - Frontend changes
     + Identify any significant code changes.  Does this add a new function, or substantially refactor existing code?
     + Identify any new design system components needed or changes to current components
