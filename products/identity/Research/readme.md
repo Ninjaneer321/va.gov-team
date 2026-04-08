@@ -9,15 +9,17 @@
 - Sign-in accessibility
    - [2021-12 Sign-in Accessibility Research Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/login.gov/Sign-In%20Accessibility/Sign-in_Accessibilty_Research_Findings.md)
    - [2023-08 Terms of use research findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2023-07%20Terms%20of%20Use/2023-08%20Terms%20of%20use%20research%20findings.md)
+   - [2026-04 CAPTCHA accessibility](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-04%20CAPTCHA%20accessibility%20and%20UX.md)
 
 
 ## CY 2026
 
 | When            | Subject                 | Description          | Findings     |
 | :-------------  | :-------------          | :-------------       | :----------- |
-| Jan 2025 | Sign-in page updates | comparative analysis across government sign-in pages  | [findings report](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-02%20Sign-in%20page%20updates/2026-01%20sign%20in%20page%20comparative%20analysis.md) |
-| Feb 2025 |  Discovery into sign in looping errors | contextual inquiry with 8 remote sessions with veterans to walk through encountering sign in errors | [research summary](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-01%20Sign-in%20Looping/Call%20Center%20Deep%20Dive.md) |
-| Mar 2025 | MHV coordinator discussions | Espcially concerned with issues they have with ID.me around verify, password resets, escalation, and the like | [findings report](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research/2026-02%20ID.me%20-%20MHV%20Coordinator%20Verification%20Assistance) |
+| Jan 2026 | Sign-in page updates | comparative analysis across government sign-in pages  | [findings report](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-02%20Sign-in%20page%20updates/2026-01%20sign%20in%20page%20comparative%20analysis.md) |
+| Feb 2026 |  Discovery into sign in looping errors | contextual inquiry with 8 remote sessions with veterans to walk through encountering sign in errors | [research summary](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-01%20Sign-in%20Looping/Call%20Center%20Deep%20Dive.md) |
+| Mar 2026 | MHV coordinator discussions | Espcially concerned with issues they have with ID.me around verify, password resets, escalation, and the like | [findings report](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research/2026-02%20ID.me%20-%20MHV%20Coordinator%20Verification%20Assistance) |
+| Apr 2026 | Explore captcha accessability | desk research considering if any captcha meets accessability requirements to implement on VA.gov | [report](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-04%20CAPTCHA%20accessibility%20and%20UX.md)
 | upcoming |  Sign-in page updates | remote, usibility testing  | [research folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research/2026-02%20Sign-in%20page%20updates) |
 
 ## CY 2025
@@ -32,7 +34,7 @@
 | Jul 2025 | quantitative data review | data special request to understand effects of an email communication | [data](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/Ongoing%20-%20quantitative%20data/data%20requests/2025%20July%20DSL%20account%20update%20email%20tracking.md) |
 | Sept 2025 | Desk research: State DMV Homebound programs | desk research to understand how folks with certain needs get IDs | [report](https://dvagov.sharepoint.com/:x:/r/sites/IdentityTeam/_layouts/15/Doc2.aspx?action=editNew&sourcedoc=%7Be289b0a1-9c26-4e91-b9a3-25dc19150ddf%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1761053459115&web=1)
 | Nov 2025 | production test account usage | nterviews focused on MHV coordiinator use, builds research fromJune 2025 and Nov 2024 | [findings report](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Products/Production%20Test%20Accounts/Research/%5B%20Findings%20%5D%20MHV%20Coordinators%20and%20Veteran%20Interations.md)
-| Oct-Dec 2025 | discovery into user dissatisfaction with sign in, including discussion boards, past research, and survey analysis | review of all data sources to pinpoint user dissatisfaction | [report](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-01%20dissatisfaction%20discovery/2026-01%20Dissatisfaction%20Discovery%20-%20Research%20Findings.md) |
+| Oct-Dec 2025 | discovery into user dissatisfaction with sign in | review data sources (discussion boards, past research, help desk, and surveys) to pinpoint user dissatisfaction | [report](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-01%20dissatisfaction%20discovery/2026-01%20Dissatisfaction%20Discovery%20-%20Research%20Findings.md) |
 | on hold | Digital access fraud | A research strategy to develop a comprehensive understanding of digital access fraud within the VA ecosystem | [see sensitive repo](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/vsp/teams/Identity/products/Digital%20Access%20Fraud/research_strategy.md) |
 
 ## CY 2024
