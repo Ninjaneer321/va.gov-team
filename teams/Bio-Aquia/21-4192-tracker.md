@@ -8,6 +8,7 @@
 | Number of Incomplete/Errors | 63 | |
 | Error % | 11% | |
 
+A regression bug was introduced on 3/31, resolved on 4/1 that resulted in 24 422 errors
 ## Submission Data
 
 > Full submission data (338 rows) is available in the source CSV:
