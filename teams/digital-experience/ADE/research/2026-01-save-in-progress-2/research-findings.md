@@ -175,12 +175,11 @@ tags:
 
 **Office of the CTO - Digital Experience (OCTO-DE), Accessibility Digital Experience (ADE)**
 
-**Date:** 04/03/2026
+**Date:** 04/08/2026
 
 **Contacts:** Cindy Merrill
 
-**[Research Readout (PDF)](link-here)**  
-*Add a link to your research readout deck, if available.* **TBD**
+**[Research Readout (PDF)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2026-01-save-in-progress-2/Save%20in%20Progress%202%20research%20readout_0403_rem.pdf)**  
 
 **Jump to:**
 - [Hypotheses and conclusions](#user-content-hypotheses-and-conclusions)
