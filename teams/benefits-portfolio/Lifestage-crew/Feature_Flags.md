@@ -25,6 +25,8 @@
 | va_dependents_view_browser_monitoring_enabled                      | 686c, 674 | No                 | Yes                    | Robin Garrison       | Toggles Datadog RUM/LOG monitoring for the view dependents app.     |
 | va_dependents_bgs_extra_error_logging                              | 686c, 674 | No                 | No                    | David Becker        | Toggles extra error logging for BGS in 686C-674.                    |
 | dependents_log_vbms_errors                                         | 686c, 674 | Yes                | Yes                   | Tai Wilkin-Corraggio | Log VBMS errors when submitting 686c and 674.                       |
+| benefits_intake_submission_status_job                              | 686c, 674 | Yes                | Yes                   | Wayne Weibel         | Batch process FormSubmissionAttempts using ::BenefitsIntake::SubmissionStatusJob   |
+| dependents_digital_forms_api_submission_enabled                    | 686c, 674 | Yes                | No                   | Wayne Weibel         | Enables submission of dependents forms via Forms API   |
 | **Dependents Verification**                                         | 21-0538   |                    |                       |                     |                                                                     |
 | va_dependents_verification                                         | 21-0538   | Yes                | 25% (1,247 actors)    | Sean Midgley        | Toggles new features for the dependents verification form.          |
 | dependency_verification_browser_monitoring_enabled                 | 21-0538   | No                 | Yes                    | Robin Garrison| Enable Datadog RUM/LOG monitoring for form 21-0538.                 |
