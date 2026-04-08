@@ -2,7 +2,7 @@
 
 - Current Sprint first
 
-## 📆 Sprint 17 (Mar 25 - Apr 7) 
+## 📆 Sprint 18 (Apr 8 - Apr 21) 
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goals
