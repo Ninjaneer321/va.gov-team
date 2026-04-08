@@ -83,56 +83,50 @@
 - 
 
 ---
-## 📆 Sprint 18 (Apr 8 - Apr 21) (PREPLANNED)
+## 📆 Sprint 18 (Apr 8 - Apr 21)
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
-- **The goal for Sprint 18 is XXXXX**
+- [ ] **Sprint Goal** Complete Tech Discovery to create Associations API for EC/NOK
+- [ ] **Sprint Goal** Update EZR insurance section to use ArrayBuilder pattern
+- [ ] **Sprint Goal** Finalize status mapping for expanding MyVA Statuses for EZ
+
 
 #### List of Planned work
-- EZR Form  statuses
-     - [ ] Display submission statuses on MyVA
-- EZR Improvements, Bugs, Performance
-     - [ ] EZR Update file upload pattern
-     - [ ] Investigate high latency
-     - [ ] Review destructive alerts on Income/Deductible pages
-- CG Improvements, Bugs, Performance
-     - [ ] Investigate high latency
-     - [ ] Discovery on filled PDF date/time watermark
 
-## 
-### 10-10EZR
+### EZ Form  statuses
+ - [ ] **Sprint Goal: Ticket needed** Finalize mapping for expanding MyVA statuses for EZ
+ - [ ] [[BE] 10-10EZ - Form Statuses: MyVA - Display submission statuses on MyVA](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130010)
 
-#### Obj: EZR [Household section V2](https://github.com/department-of-veterans-affairs/va.gov-team/issues/98353)
-- [ ]  [#134881](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134881) - [UX] Review destructive alerts on Income/Deductibles pages
+### EZ Improvements, Bugs, Performanc
+ - [ ] [[BE] 1010-EZ: Migrate VES-Oracle-Export repo to GHEC GitHub](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137787)
 
-#### Obj: EZR [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117626)
-- [ ] [#133885](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133885) - [BE] Display submission statuses on MyVA
+### EZR ECNOK on Profile
+ - [ ] **Sprint Goal:** [[Eng] 10-10EZR - ECNOK on Profile: Tech discovery to create Associations API connection](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135569)
 
-#### Obj: EZR [Performance monitoring](https://github.com/department-of-veterans-affairs/va.gov-team/issues/60147)
-- [ ] [#133849](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133849) - [BE] Investigate high latency
+### EZR Improvements, Bugs, Performance
+ - [ ] **Sprint Goal:** [[FE, QA] 10-10EZR - Improvement: Update Insurance section custom L&L to ArrayBuilder pattern](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131593)
+ - [ ] [[BE] 10-10EZR - Performance: Investigate high latency](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133849)
+ - [ ] [[Eng/QA] 10-10EZR - QA Standards update: Review and align with the latest QA Standards updates](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130857)
+ - [ ] [[BE, FE] 10-10EZR - Household V2: Remove the ezr_form_prefill_with_providers_and_dependents flipper toggle](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121079)
+ - [ ] [[PM] 10-10EZR - ECNOK on Profile: Initiate Collab Cycle](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135708)
 
-#### Obj: EZR [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109435)
-- [ ] [#119890](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119890) - [FE] Update file upload pattern
+### CG Improvements, Bugs, Performance
+ - [ ] [[BE] 10-10CG - Performance: Investigate high latency](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133850)
 
-##
-### 10-10EZ
-- No EZ work scheduled
+### All 1010 Forms
+  - [ ] [[Team] 10-10 Forms - Monitoring: Create Quick-reference document & Update Playbooks](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135970)
+  - [ ] [https://github.com/department-of-veterans-affairs/va.gov-team/issues/135970](https://github.com/department-of-veterans-affairs/va.gov-team/issues/124012)
 
-## 
-### 10-10CG
-#### Obj: CG [Performance monitoring](https://github.com/department-of-veterans-affairs/va.gov-team/issues/60147)
-- [ ] [#133850](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133850) - [BE] Investigate high latency
-
-#### Obj: CG [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
-- [ ] [#134812](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134812) - [FE] Discovery on PDF date/time watermark
 
 ##
 ### Team PTO
-- Hieu: 4/6-14
-- Jessica 4/6-7
-- Allan: 4/8-24
-- Fara: 4/17-22
+- Allan 4.8-4.21
+- Mitch 4.7-4.10
+- Hieu 4.7-4.14
+- Jessica 4.6-4.7
+- Renata 4.14
+- Fara 4.17-4.21
 
 ---
 ## 📆 Sprint 17 (Mar 25 - Apr 7) (PREPLANNED)
