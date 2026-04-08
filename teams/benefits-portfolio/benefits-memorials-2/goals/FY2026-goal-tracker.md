@@ -26,6 +26,32 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
 
+## Sprint: 6 [04/08/26 - 04/21/26]  
+| Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
+|--|--|--|--|--|
+|ENG: Finalize solution for payment history mock data. | P1 |--|--|--|
+|ENG: Complete required testing artifacts for Staging Review after implementing the Cerner/VistA data updates.| P1 |--|--|--|
+|UX: Present formal research readout for Pay.gov and VA.gov overpayment payment experience. .| P2 |--|--|--|
+|UX: Complete Research Findings document and schedule Readout for Pay.gov benefit overpayment debt payments study.| P2 |--|--|--|
+|UX: Update and present Hardship Suspension process map to DMC stakeholders to ensure alignment on current process.| P5 |--|--|--|
+|ENG: Complete any planned or new critical maintenance tickets/bugs.| P6 |--|--|--|
+|UX: Complete review of quantitative data for February and March Medallia reports. | P6 |--|--|--|
+|
+**Sprint rollover tickets**
+| Additional work that was pulled in mid-sprint | Scope of work changed after ticket started | Work became blocked mid-sprint |  Work was underestimated and not completed |
+|---------------|---------------|---------------|---------------|
+|Ticket #|Ticket #|Ticket #|Ticket #|
+
+**_Approvals:_** _(sent via email but approvals tracked here)_
+ - [X] Ready to be sent for approvals (04/07/26)
+ - [X] VA PO & COR sent the Sprint Goals (04/07/26)
+ - [ ] VA PO approved the Sprint Goals (04/xx/26)
+ - [ ] VA COR approved the Sprint Goals (04/xx/26)
+
+**_Delivery + Notes:_**
+- [ ] All goals have been updated in the sprint chart
+- [ ] Any Additional details about goals **not** completed will be documented here
+
 ## Sprint: 5 [03/25/26 - 04/07/26]  
 | Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
@@ -49,8 +75,10 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
  - [X] VA COR approved the Sprint Goals (03/26/26)
 
 **_Delivery + Notes:_**
-- [ ] All goals have been updated in the sprint chart
-- [ ] Any Additional details about goals **not** completed will be documented here
+- [X] All goals have been updated in the sprint chart
+- [X] Any Additional details about goals **not** completed will be documented here
+- For this goal: "ENG: In coordination with Lighthouse, implement a solution to add users and update Payment History mock data" we were in close communication with the Lighthouse team we were required to await direction from their leadership before we were able to procees with a solution. This resulted in a one-week delay.
+- For this stretch goal: "ENG: Stretch goal: Complete required testing artifacts for Staging Review after implementing the Cerner/VistA data updates" we were blocked by the mock data issue noted above, but completed as muuch as possible in preparation for the upcoming Staging Review.
 
 ## Quarterly Priorities for FY26Q2 (January, February, March 2026) 
 *Quarter Sprints include 1, 2, 3, 4*
