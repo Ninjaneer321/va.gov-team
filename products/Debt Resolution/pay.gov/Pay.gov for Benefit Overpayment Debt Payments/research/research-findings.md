@@ -596,6 +596,31 @@ Disability and Assistive Technology (AT):
 * Sighted keyboard: 0  
 * Captions: 0
 
+
+#### **Additional screener questions**
+
+Debt type:
+
+* Disability compensation and pension overpayment: 7
+* Post-9/11 GI Bill overpayment: 3
+* Chapter 35 education overpayment: 1
+
+Payment plan:
+
+* Currently on a VA payment plan: 9
+* Not on a VA payment plan: 2
+
+Financial hardship:
+
+* Currently experiencing financial hardship: 6
+* Experienced financial hardship in the past: 3
+* Never experienced financial hardship: 3
+
+Income:
+
+* Household income less than $50K: 4
+* Household income $50K or more: 7
+
 #### **Underserved groups we haven’t talked to**
 
 This research does not include the perspectives of the following marginalized Veteran groups: 
