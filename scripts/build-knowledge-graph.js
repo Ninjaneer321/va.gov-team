@@ -483,7 +483,455 @@ function linkFormEntities() {
   }
 }
 
-// ─── 6. Deduplicate edges ────────────────────────────────────────────────────
+// ─── 6. Discover and ingest research studies ─────────────────────────────────
+
+/** Parse proper ---...--- YAML frontmatter from Markdown content */
+function parseYamlFrontmatter(content) {
+  const result = {};
+  const fmMatch = content.match(/^---\s*\n([\s\S]*?)\n---/);
+  if (!fmMatch) return result;
+  const fmText = fmMatch[1];
+
+  // Walk line-by-line tracking indent depth for arrays and objects
+  const lines = fmText.split("\n");
+  let i = 0;
+
+  function parseLines(minIndent) {
+    const obj = {};
+    while (i < lines.length) {
+      const raw = lines[i];
+      // Strip inline comments (but only outside quotes)
+      const line = raw.replace(/\s+#[^"']*$/, "");
+      const indent = raw.search(/\S/);
+      if (indent < 0) { i++; continue; } // blank line
+      if (indent < minIndent) break; // dedented — return to parent
+
+      // Sequence item at this indent
+      const seqMatch = line.match(/^(\s*)-\s+(.*)/);
+      if (seqMatch && indent === minIndent) {
+        i++;
+        // Look ahead for nested object items on next lines
+        const val = seqMatch[2].trim();
+        if (val === "") {
+          // Block sequence item — skip
+        } else if (val.includes(":")) {
+          // Could be a key:val on same line — treat as string
+          obj[`_seq_${Object.keys(obj).length}`] = val.replace(/^["']|["']$/g, "");
+        } else {
+          obj[`_seq_${Object.keys(obj).length}`] = val.replace(/^["']|["']$/g, "");
+        }
+        continue;
+      }
+
+      // Key: value pair
+      const kvMatch = line.match(/^(\s*)([\w][\w\-. ]*):\s*(.*)/);
+      if (!kvMatch) { i++; continue; }
+      const key = kvMatch[2].trim();
+      let val = kvMatch[3].trim().replace(/^["']|["']$/g, "");
+      i++;
+
+      if (val === "" || val === "|" || val === ">") {
+        // Next lines may be block scalar or nested — peek ahead
+        if (i < lines.length) {
+          const nextLine = lines[i];
+          const nextIndent = nextLine.search(/\S/);
+          if (nextIndent > indent && nextLine.trimStart().startsWith("- ")) {
+            // Array block
+            const arr = [];
+            while (i < lines.length) {
+              const al = lines[i];
+              const ai = al.search(/\S/);
+              if (ai < 0) { i++; continue; }
+              if (ai <= indent) break;
+              const am = al.match(/^\s*-\s*(.*)/);
+              if (am) {
+                const av = am[1].trim().replace(/^["']|["']$/g, "");
+                // Handle goal_N: "text" format
+                const goalM = av.match(/^goal_\d+:\s*"?([^"]+)"?$/);
+                arr.push(goalM ? goalM[1].trim() : av);
+                i++;
+              } else {
+                i++;
+              }
+            }
+            obj[key] = arr;
+          } else if (nextIndent > indent) {
+            // Nested object — recurse
+            const nested = parseLines(nextIndent);
+            obj[key] = nested;
+          }
+        }
+      } else {
+        obj[key] = val;
+      }
+    }
+    return obj;
+  }
+
+  return parseLines(0);
+}
+
+/** Classify a research file by its name into plan/findings/conversation_guide */
+function classifyResearchFile(fileName) {
+  const name = fileName.toLowerCase();
+  if (/research[-_. ]?plan|researchplan/.test(name)) return "plan";
+  if (/findings|readout|topline|report/.test(name)) return "findings";
+  if (/conversation[-_. ]?guide|conversationguide|discussion[-_. ]?guide|discussionguide/.test(name)) return "conversation_guide";
+  return null;
+}
+
+/** Recursively find directories named 'research' or 'user research' (case-insensitive) */
+function findResearchDirs(baseDir, maxDepth = 6, depth = 0) {
+  const results = [];
+  if (depth > maxDepth) return results;
+  let entries;
+  try { entries = fs.readdirSync(baseDir, { withFileTypes: true }); } catch { return results; }
+  for (const e of entries) {
+    if (!e.isDirectory()) continue;
+    if (e.name.startsWith(".") || e.name === "node_modules" || e.name === "_archive") continue;
+    const nameLower = e.name.toLowerCase();
+    if (nameLower === "research" || nameLower === "user research") {
+      results.push(path.join(baseDir, e.name));
+    } else {
+      results.push(...findResearchDirs(path.join(baseDir, e.name), maxDepth, depth + 1));
+    }
+  }
+  return results;
+}
+
+/** Extract research metadata from a Markdown file using frontmatter or heading-based parsing */
+function extractResearchMetadata(content, dirName) {
+  const meta = {};
+
+  // ── Format A / C: YAML frontmatter ──────────────────────────────────────────
+  const fm = parseYamlFrontmatter(content);
+
+  if (fm.title) meta.title = fm.title;
+  if (fm.team) meta.team_hint = fm.team;
+  if (fm.methodology) meta.methodology = fm.methodology;
+  if (fm.date) meta.fm_date = String(fm.date);
+
+  // Research goals — may be array of strings or array of {goal_N: text} objects
+  const goals = fm.research_goals;
+  if (Array.isArray(goals) && goals.length) {
+    meta.research_goals = goals.map(g => {
+      if (typeof g === "string") return g;
+      if (typeof g === "object") return Object.values(g)[0] || "";
+      return String(g);
+    }).filter(Boolean);
+  }
+
+  // Tags — flat array of strings
+  const tags = fm.tags;
+  if (Array.isArray(tags) && tags.length) {
+    meta.tags = tags.filter(t => typeof t === "string");
+  }
+
+  // Participant types from demographics or key fields
+  const participantTypes = [];
+  const checkFields = [
+    fm.demographics,
+    fm.recruitment,
+    fm.participants,
+  ];
+  const ptKeywords = { veterans: "Veterans", service_members: "Service Members",
+    caregivers: "Caregivers", dependents: "Dependents", VA_staff: "VA Staff" };
+  for (const block of checkFields) {
+    if (block && typeof block === "object") {
+      for (const [k, label] of Object.entries(ptKeywords)) {
+        if (block[k] !== undefined) participantTypes.push(label);
+      }
+    }
+  }
+
+  // ── Format B: heading-based fallback ────────────────────────────────────────
+  if (!meta.title) {
+    const h1 = content.match(/^#\s+(.+)/m);
+    if (h1) meta.title = h1[1].trim();
+  }
+
+  if (!meta.methodology) {
+    const methSection = content.match(/##\s+(?:Methodology|Method)\s*\n+([\s\S]*?)(?=\n##|\n---|\n\*\*|\s*$)/i);
+    if (methSection) {
+      const firstPara = methSection[1].split(/\n\n/)[0].replace(/\n/g, " ").trim();
+      if (firstPara && firstPara.length < 300) meta.methodology = firstPara;
+    }
+  }
+
+  if (!meta.research_goals) {
+    const goalsSection = content.match(/##\s+(?:Research Goals?|Goals?)\s*\n+([\s\S]*?)(?=\n##|\n---|\s*$)/i);
+    if (goalsSection) {
+      const bullets = [...goalsSection[1].matchAll(/[-*]\s+(.+)/g)].map(m => m[1].trim());
+      if (bullets.length) meta.research_goals = bullets;
+    }
+  }
+
+  // Participant types from headings content
+  if (!participantTypes.length) {
+    const ptSection = content.match(/##\s+(?:Participants?|Recruitment)\s*\n+([\s\S]*?)(?=\n##|\n---|\s*$)/i);
+    if (ptSection) {
+      const s = ptSection[1].toLowerCase();
+      if (s.includes("veteran")) participantTypes.push("Veterans");
+      if (s.includes("caregiver")) participantTypes.push("Caregivers");
+      if (s.includes("dependent")) participantTypes.push("Dependents");
+      if (s.includes("family member")) participantTypes.push("Family Members");
+      if (/\bvso\b/.test(s)) participantTypes.push("VSOs");
+      if (s.includes("service member")) participantTypes.push("Service Members");
+    }
+  }
+
+  // Also scan whole content for participant keywords if still empty
+  if (!participantTypes.length) {
+    const c = content.toLowerCase();
+    if (/\bveterans?\b/.test(c)) participantTypes.push("Veterans");
+    if (/\bcaregivers?\b/.test(c)) participantTypes.push("Caregivers");
+    if (/\bdependents?\b/.test(c)) participantTypes.push("Dependents");
+    if (/\bservice members?\b/.test(c)) participantTypes.push("Service Members");
+  }
+  if (participantTypes.length) meta.participant_types = [...new Set(participantTypes)];
+
+  // ── Date from directory name ─────────────────────────────────────────────────
+  if (!meta.fm_date) {
+    const dateMatch = dirName.match(/^(\d{4}-\d{2}(?:-\d{2})?)/);
+    if (dateMatch) meta.date = dateMatch[1];
+  } else {
+    // Use frontmatter date but trim to YYYY-MM if it's a full date
+    const d = String(meta.fm_date);
+    const m = d.match(/^(\d{4}-\d{2})/);
+    meta.date = m ? m[1] : d;
+    delete meta.fm_date;
+  }
+
+  // ── VA form references ───────────────────────────────────────────────────────
+  const formNums = content.match(/\b(?:VA\s*)?(?:Form\s*)?(?:10-\d{2,5}[A-Z]?|2[0-6]-\d{3,5}[A-Za-z]?|40-\d{4})\b/gi);
+  if (formNums) {
+    meta.form_references = [...new Set(formNums.map(f => f.replace(/^(VA\s*)?Form\s*/i, "").trim()))].slice(0, 5);
+  }
+
+  return meta;
+}
+
+/** Resolve team ownership using team-lookup.json data, in priority order */
+function resolveTeamForResearch(teamHint, parentProductId, studyContent, teamLookupData) {
+  if (!teamLookupData) return null;
+
+  const teams = [...nodes.values()].filter(n => n.type === "team");
+
+  // Priority 1: YAML frontmatter team: hint → fuzzy match
+  if (teamHint) {
+    const hint = teamHint.toLowerCase().trim();
+    for (const t of teams) {
+      const nm = (t.name || "").toLowerCase();
+      const sn = (t.short_name || "").toLowerCase();
+      if (nm === hint || sn === hint || nm.includes(hint) || hint.includes(nm) ||
+          sn.includes(hint) || hint.includes(sn)) {
+        return t.id;
+      }
+    }
+    // Fuzzy: check if first word of hint matches any team name word
+    const hintWords = hint.split(/[\s-]+/).filter(w => w.length > 3);
+    for (const t of teams) {
+      const nm = (t.name || "").toLowerCase();
+      if (hintWords.some(w => nm.includes(w))) return t.id;
+    }
+  }
+
+  // Priority 2: parent product's github_label → match against team short_name
+  if (parentProductId && nodes.has(parentProductId)) {
+    const prod = nodes.get(parentProductId);
+    if (prod.github_label) {
+      const gl = prod.github_label.toLowerCase();
+      for (const t of teams) {
+        const sn = (t.short_name || "").toLowerCase();
+        if (sn && gl.includes(sn)) return t.id;
+      }
+    }
+    // Also follow existing owns_product / works_on_product edges
+    for (const e of edges) {
+      if ((e.relationship === "owns_product" || e.relationship === "works_on_product") &&
+          e.target === parentProductId) {
+        return e.source;
+      }
+    }
+  }
+
+  // Priority 3: explicit teams/{portfolio}/{team} mentions in content
+  if (studyContent) {
+    const teamRefs = studyContent.match(/teams\/[a-z-]+\/([a-z][a-z0-9_-]+)/gi);
+    if (teamRefs) {
+      for (const ref of teamRefs) {
+        const parts = ref.split("/").filter(Boolean);
+        if (parts.length >= 3) {
+          const slug = slugify(parts[2]);
+          for (const t of teams) {
+            if (t.id === `team-${slug}` || slugify(t.short_name || "") === slug) {
+              return t.id;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  return null;
+}
+
+/** Main research study ingestion */
+function ingestResearchStudies() {
+  // Load team-lookup data for team resolution
+  let teamLookupData = null;
+  try {
+    const raw = readTextSafe(TEAM_LOOKUP);
+    if (raw) teamLookupData = JSON.parse(raw);
+  } catch { /* ignore */ }
+
+  const SKIP_DIRS = new Set(["images", "assets", "screenshots", "files"]);
+
+  // Collect all research base directories from both products/ and teams/
+  const researchDirs = [
+    ...findResearchDirs(PRODUCTS_DIR),
+    ...findResearchDirs(TEAMS_DIR),
+  ];
+
+  for (const researchDir of researchDirs) {
+    const relResearchDir = path.relative(ROOT, researchDir);
+
+    // Determine parent product (for products/ path) or team (for teams/ path)
+    const isProductsPath = researchDir.startsWith(PRODUCTS_DIR);
+    let parentProductId = null;
+
+    if (isProductsPath) {
+      const rel = path.relative(PRODUCTS_DIR, researchDir);
+      const topFolder = rel.split(path.sep)[0];
+      parentProductId = `product-${slugify(topFolder)}`;
+      if (!nodes.has(parentProductId)) parentProductId = null;
+    }
+
+    // Read study subdirectories (each = one study node)
+    let entries;
+    try { entries = fs.readdirSync(researchDir, { withFileTypes: true }); } catch { continue; }
+
+    const studyDirs = entries.filter(e => e.isDirectory() && !e.name.startsWith(".") &&
+      !SKIP_DIRS.has(e.name.toLowerCase()));
+    const directMdFiles = entries.filter(e => e.isFile() && e.name.endsWith(".md") &&
+      !isBinary(path.join(researchDir, e.name)));
+
+    // If only markdown files directly in the research/ dir (no study subdirs), treat folder itself as one study
+    if (studyDirs.length === 0 && directMdFiles.length > 0) {
+      processStudy(researchDir, relResearchDir, parentProductId, teamLookupData);
+    } else {
+      for (const sd of studyDirs) {
+        const studyPath = path.join(researchDir, sd.name);
+        const relStudyPath = path.relative(ROOT, studyPath);
+        processStudy(studyPath, relStudyPath, parentProductId, teamLookupData);
+      }
+    }
+  }
+}
+
+/** Process a single study directory: create node and edges */
+function processStudy(studyDir, relStudyPath, parentProductId, teamLookupData) {
+  const dirName = path.basename(studyDir);
+
+  // Collect .md files in this study directory (non-recursive)
+  let entries;
+  try { entries = fs.readdirSync(studyDir, { withFileTypes: true }); } catch { return; }
+  const mdFiles = entries.filter(e => e.isFile() && e.name.endsWith(".md") &&
+    !isBinary(path.join(studyDir, e.name)));
+
+  if (mdFiles.length === 0) return; // No markdown content — skip
+
+  // Build files classification
+  const fileMap = { plan: null, findings: null, conversation_guide: null };
+  for (const mf of mdFiles) {
+    const category = classifyResearchFile(mf.name);
+    if (!category) continue;
+    const relFile = path.join(relStudyPath, mf.name).replace(/\\/g, "/");
+    if (fileMap[category] === null) {
+      fileMap[category] = relFile;
+    } else if (Array.isArray(fileMap[category])) {
+      fileMap[category].push(relFile);
+    } else {
+      fileMap[category] = [fileMap[category], relFile];
+    }
+  }
+
+  // Extract metadata by reading and merging all classified md files
+  let combinedMeta = {};
+  let combinedContent = "";
+  for (const mf of mdFiles) {
+    const content = readTextSafe(path.join(studyDir, mf.name));
+    if (!content) continue;
+    combinedContent += "\n" + content;
+    const meta = extractResearchMetadata(content, dirName);
+    // Merge: first wins for most fields, arrays accumulate
+    for (const [k, v] of Object.entries(meta)) {
+      if (!combinedMeta[k]) {
+        combinedMeta[k] = v;
+      } else if (k === "tags" && Array.isArray(v)) {
+        combinedMeta.tags = [...new Set([...(combinedMeta.tags || []), ...v])];
+      } else if (k === "research_goals" && Array.isArray(v) && !combinedMeta.research_goals) {
+        combinedMeta.research_goals = v;
+      }
+    }
+  }
+
+  // Generate stable node ID from relative path
+  const nodeId = `research-${slugify(relStudyPath)}`;
+
+  // Build node
+  const nodeProps = {
+    path: relStudyPath.replace(/\\/g, "/"),
+    files: fileMap,
+  };
+  if (combinedMeta.date) nodeProps.date = combinedMeta.date;
+  if (combinedMeta.title) nodeProps.name = combinedMeta.title;
+  if (combinedMeta.methodology) nodeProps.methodology = combinedMeta.methodology;
+  if (combinedMeta.participant_types) nodeProps.participant_types = combinedMeta.participant_types;
+  if (combinedMeta.research_goals) nodeProps.research_goals = combinedMeta.research_goals.slice(0, 5);
+  if (combinedMeta.tags) nodeProps.tags = combinedMeta.tags;
+
+  addNode(nodeId, "research_study", nodeProps);
+
+  // Edge: parent product → has_research → study
+  if (parentProductId) {
+    addEdge(parentProductId, nodeId, "has_research");
+  }
+
+  // Edge: team → conducted_research → study
+  const teamId = resolveTeamForResearch(
+    combinedMeta.team_hint, parentProductId, combinedContent, teamLookupData
+  );
+  if (teamId) {
+    addEdge(teamId, nodeId, "conducted_research");
+  }
+
+  // Edges: study → research_references_product → product
+  const productRefs = combinedContent.match(/products\/([a-z][a-z0-9_/-]+)/gi);
+  if (productRefs) {
+    for (const ref of new Set(productRefs)) {
+      const parts = ref.split("/").filter(Boolean);
+      if (parts.length >= 2) {
+        const targetId = `product-${slugify(parts[1])}`;
+        if (targetId !== parentProductId && nodes.has(targetId)) {
+          addEdge(nodeId, targetId, "research_references_product");
+        }
+      }
+    }
+  }
+
+  // Edges: study → research_for_form → form
+  if (combinedMeta.form_references) {
+    for (const fn of combinedMeta.form_references) {
+      const fid = `form-${slugify(fn)}`;
+      if (nodes.has(fid)) {
+        addEdge(nodeId, fid, "research_for_form");
+      }
+    }
+  }
+}
+
+// ─── 7. Deduplicate edges ────────────────────────────────────────────────────
 function deduplicateEdges() {
   const seen = new Set();
   const unique = [];
@@ -498,7 +946,7 @@ function deduplicateEdges() {
   edges.push(...unique);
 }
 
-// ─── 7. Compute graph statistics ─────────────────────────────────────────────
+// ─── 8. Compute graph statistics ─────────────────────────────────────────────
 function computeStats() {
   const typeCounts = {};
   for (const [, n] of nodes) {
@@ -520,27 +968,31 @@ function computeStats() {
 function main() {
   console.log("Building knowledge graph...\n");
 
-  console.log("  [1/6] Ingesting team-lookup.json ...");
+  console.log("  [1/7] Ingesting team-lookup.json ...");
   ingestTeamLookup();
   console.log(`         → ${nodes.size} nodes, ${edges.length} edges`);
 
-  console.log("  [2/6] Discovering products ...");
+  console.log("  [2/7] Discovering products ...");
   ingestProducts();
   console.log(`         → ${nodes.size} nodes, ${edges.length} edges`);
 
-  console.log("  [3/6] Scanning team documentation ...");
+  console.log("  [3/7] Scanning team documentation ...");
   ingestTeamDocs();
   console.log(`         → ${nodes.size} nodes, ${edges.length} edges`);
 
-  console.log("  [4/6] Extracting cross-product links ...");
+  console.log("  [4/7] Extracting cross-product links ...");
   ingestCrossProductLinks();
   console.log(`         → ${nodes.size} nodes, ${edges.length} edges`);
 
-  console.log("  [5/6] Linking form entities ...");
+  console.log("  [5/7] Linking form entities ...");
   linkFormEntities();
   console.log(`         → ${nodes.size} nodes, ${edges.length} edges`);
 
-  console.log("  [6/6] Deduplicating edges ...");
+  console.log("  [6/7] Discovering research studies ...");
+  ingestResearchStudies();
+  console.log(`         → ${nodes.size} nodes, ${edges.length} edges`);
+
+  console.log("  [7/7] Deduplicating edges ...");
   deduplicateEdges();
   console.log(`         → ${nodes.size} nodes, ${edges.length} edges (deduped)\n`);
 

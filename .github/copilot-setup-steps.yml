@@ -64,6 +64,24 @@ steps:
       node --version || echo "Node.js not available"
       npm --version || echo "npm not available"
       
+  - name: Validate knowledge graph availability
+    run: |
+      echo "=== Knowledge Graph Check ==="
+      if [ -f "knowledge-graph.json" ]; then
+        echo "✅ knowledge-graph.json found"
+        node -e "
+          const kg = require('./knowledge-graph.json');
+          console.log('  Nodes:', kg.statistics.total_nodes);
+          console.log('  Edges:', kg.statistics.total_edges);
+          console.log('  Node types:', Object.keys(kg.statistics.nodes_by_type).join(', '));
+          console.log('  Relationship types:', Object.keys(kg.statistics.edges_by_relationship).join(', '));
+          console.log('✅ Knowledge graph parsed successfully');
+        " || echo "⚠️ knowledge-graph.json exists but could not be parsed"
+      else
+        echo "⚠️ knowledge-graph.json not found in current checkout"
+        echo "   Add 'knowledge-graph.json' to sparse-checkout to enable knowledge graph queries"
+      fi
+
   - name: Verify required directories
     run: |
       echo "Checking for required directories in sparse checkout:"
@@ -74,3 +92,9 @@ steps:
           echo "⚠️ $dir - not available in current checkout"
         fi
       done
+      # Also check knowledge graph
+      if [ -f "knowledge-graph.json" ]; then
+        echo "✅ knowledge-graph.json - available"
+      else
+        echo "⚠️ knowledge-graph.json - not available"
+      fi

@@ -1,0 +1,75 @@
+name: Update Knowledge Graph
+
+# Rebuild knowledge-graph.json on a weekly schedule (every Monday at 8:00 AM UTC)
+# rather than on every push, to avoid excessive runs.
+on:
+  schedule:
+    - cron: '0 8 * * 1'
+  # Allow manual trigger for ad-hoc rebuilds
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild-knowledge-graph:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository (sparse)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          # Include all directories the build script reads, plus the script itself
+          sparse-checkout: |
+            products/
+            teams/
+            team-lookup.json
+            scripts/build-knowledge-graph.js
+            knowledge-graph.json
+          sparse-checkout-cone-mode: false
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Rebuild knowledge graph
+        run: |
+          echo "🔄 Rebuilding knowledge-graph.json ..."
+          node scripts/build-knowledge-graph.js
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet knowledge-graph.json; then
+            echo "No changes to knowledge-graph.json"
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "knowledge-graph.json updated"
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            # Print summary of changes
+            node -e "
+              const kg = require('./knowledge-graph.json');
+              console.log('  Nodes:', kg.statistics.total_nodes);
+              console.log('  Edges:', kg.statistics.total_edges);
+              for (const [t,c] of Object.entries(kg.statistics.nodes_by_type).sort((a,b)=>b[1]-a[1])) {
+                console.log('    ' + t + ':', c);
+              }
+            "
+          fi
+
+      - name: Commit updated knowledge graph
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add knowledge-graph.json
+          git commit -m "chore: regenerate knowledge-graph.json
+
+          Automatically rebuilt from products/, teams/, and team-lookup.json."
+
+          git push

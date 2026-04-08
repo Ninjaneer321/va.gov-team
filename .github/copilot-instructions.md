@@ -10,6 +10,145 @@ The repository serves as a central hub for:
 - **Issue tracking** for platform and product development
 - **Knowledge management** for Veterans Affairs digital services
 
+## Knowledge Graph — Products, Teams, Research & Organizational Context
+
+### What It Is
+
+This repository includes a **machine-readable knowledge graph** at the repo root:
+
+```
+knowledge-graph.json
+```
+
+It is a JSON file containing nodes (teams, portfolios, crews, products, categories, forms, external systems, **research studies**) and edges (relationships like `owns_product`, `has_research`, `conducted_research`, `implements_form`, etc.).
+
+### Node Types
+
+| Type | Description |
+|---|---|
+| `team` | A VA.gov engineering/product team (from `team-lookup.json`) |
+| `product` | A product or sub-product folder under `/products/` |
+| `portfolio` | A portfolio grouping multiple teams (e.g., Benefits Portfolio) |
+| `crew` | A crew/pod within a portfolio |
+| `form` | A VA form number (e.g., `21-526EZ`) |
+| `category` | A hub/category product page |
+| `external_system` | An external system (e.g., Lighthouse API, vets-api) |
+| `research_study` | A research study directory under any `research/` or `user research/` folder |
+
+### When To Use It
+
+**Always consult `knowledge-graph.json` first** when a question involves any of the following:
+
+| Question type | Example |
+|---|---|
+| **Which team owns a product?** | "Who works on the 526 disability claim form?" |
+| **What products belong to a portfolio?** | "List all Health Portfolio products." |
+| **Team → crew → portfolio hierarchy** | "What crew does the Messaging team belong to?" |
+| **Cross-product integrations** | "What systems does the debt resolution product integrate with?" |
+| **Form-to-product mapping** | "Which product implements VA Form 21-0966?" |
+| **Finding documentation paths** | "Where is the Decision Reviews team README?" |
+| **What research has been done on a product?** | "What research exists for the 526 disability form?" |
+| **What usability studies exist for a form?** | "What usability studies exist for the disability claims form?" |
+| **Research methods and patterns** | "What research methods are most common across products?" |
+| **Team research history** | "What research has the Authenticated Experience team conducted?" |
+
+### How To Use It
+
+1. **Read the file**: Parse `knowledge-graph.json` from the repository root.
+2. **Search nodes** by `type` (`team`, `product`, `portfolio`, `crew`, `form`, `category`, `external_system`, `research_study`) and `name` or `id`.
+3. **Traverse edges** to find relationships. Each edge has a `source`, `target`, and `relationship` field.
+4. **Follow file paths**: Nodes include fields like `readme_path`, `path`, and `files` that point to documentation files within this repo. Use those paths to read the actual documentation.
+
+#### Node Structure (examples)
+
+```json
+// Team node — use readme_path to find team docs
+{
+  "id": "team-decision-reviews",
+  "type": "team",
+  "name": "Decision Reviews",
+  "short_name": "decision-reviews",
+  "team_id": 11004,
+  "readme_path": "teams/benefits-portfolio/decision-reviews/README.md"
+}
+
+// Product node — use path to find product docs
+{
+  "id": "product-526ez",
+  "type": "product",
+  "name": "526ez",
+  "path": "products/disability/526ez",
+  "display_name": "21-526EZ Disability Compensation Application"
+}
+
+// Research study node — use files.plan, files.findings, files.conversation_guide
+{
+  "id": "research-products-disability-526ez-research-2023-07-toxic-exposure",
+  "type": "research_study",
+  "name": "Research Plan for Form 526 Toxic Exposure Subsection/New Questions, July 2023",
+  "path": "products/disability/526ez/research/2023-07-Toxic-Exposure",
+  "files": {
+    "plan": "products/disability/526ez/research/2023-07-Toxic-Exposure/research-plan.md",
+    "findings": "products/disability/526ez/research/2023-07-Toxic-Exposure/research-findings.md",
+    "conversation_guide": "products/disability/526ez/research/2023-07-Toxic-Exposure/conversation-guide.md"
+  },
+  "date": "2023-07",
+  "methodology": "usability testing",
+  "participant_types": ["Veterans"],
+  "research_goals": ["Validate form content clarity for toxic exposure questions"],
+  "tags": ["usability-testing", "BNFT: Disability", "PRDT: Claim-status-tool"]
+}
+```
+
+#### Edge Structure (examples)
+
+```json
+// Team belongs to a crew
+{ "source": "team-decision-reviews", "target": "crew-cross-benefits-crew", "relationship": "belongs_to_crew" }
+
+// Product has research
+{ "source": "product-526ez", "target": "research-products-disability-526ez-research-2023-07-toxic-exposure", "relationship": "has_research" }
+
+// Team conducted research
+{ "source": "team-disability-experience", "target": "research-products-disability-526ez-research-2023-07-toxic-exposure", "relationship": "conducted_research" }
+
+// Research references another product
+{ "source": "research-products-...", "target": "product-veteran-id-cards", "relationship": "research_references_product" }
+
+// Research references a form
+{ "source": "research-products-...", "target": "form-21-526ez", "relationship": "research_for_form" }
+```
+
+### Answering Common Queries — Workflow
+
+1. **"What team owns X product?"**
+   → Find the product node by name → follow `owns_product` or `works_on_product` edges back to a team → read the team's `readme_path` for details.
+
+2. **"What products are in the Health Portfolio?"**
+   → Find portfolio node `portfolio-health-portfolio` → follow `belongs_to_portfolio` edges to find teams → follow `owns_product`/`works_on_product` edges from those teams to products.
+
+3. **"What research has been done on product X?"**
+   → Find the product node → follow `has_research` edges to `research_study` nodes → each study has `files.plan`, `files.findings`, and `files.conversation_guide` paths → read those files for details.
+
+4. **"What usability studies exist for a specific form?"**
+   → Find the form node by form number → follow `research_for_form` edges (reversed) to `research_study` nodes → check `methodology` field for "usability testing".
+
+5. **"What research has team X conducted?"**
+   → Find the team node → follow `conducted_research` edges to `research_study` nodes.
+
+6. **"Where is the design/research documentation for X?"**
+   → Find the product node → use its `path` field (e.g., `products/health-care/`) → look for subdirectories like `design/`, `research/`, `discovery/` within that path.
+
+7. **"What form does product X implement?"**
+   → Find the product node → follow `implements_form` edges → the target form node will have the form number.
+
+### Important Notes
+
+- The knowledge graph is **auto-generated** from the `/products/` and `/teams/` directories and `team-lookup.json`. It is the **authoritative index** for navigating this repository's organizational structure.
+- Research studies are indexed from every `research/` and `user research/` directory under `/products/` and `/teams/`.
+- If the knowledge graph doesn't have the answer, fall back to searching the `/products/` and `/teams/` directories directly.
+- Always **cross-reference** the knowledge graph paths with actual files — documentation may have been added or moved since the last generation.
+
 ## Critical Setup Requirements
 
 ⚠️ **IMPORTANT: This repository requires special checkout configuration to prevent "No space left on device" errors.**
@@ -40,6 +179,7 @@ jobs:
             docs/
             templates/
             assets/
+            knowledge-graph.json
           sparse-checkout-cone-mode: false
           token: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -65,6 +205,12 @@ For additional environment verification and setup steps, see: [`copilot-setup-st
 ## Repository Structure
 
 ### Primary Directories
+
+#### `knowledge-graph.json` - Repository Knowledge Graph (Root)
+- **Purpose**: Machine-readable index of all teams, products, portfolios, crews, forms, research studies, and their relationships
+- **Usage**: Consult first when answering questions about organizational structure, product ownership, team hierarchy, form mappings, or research history
+- **Format**: JSON with `nodes` array and `edges` array
+- **Generated From**: `/products/`, `/teams/`, and `team-lookup.json`
 
 #### `/products/` - Product Documentation (99+ products)
 - **Purpose**: Documentation for all VA.gov user-facing products and VA Health Benefits mobile app features
