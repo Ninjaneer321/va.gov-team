@@ -21,9 +21,8 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 | P6 | **Prioritized Maintenance**  |[#130107](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130107)|Complete and launch priority work listed in the epic. | UX-FE-BE |None  |  |
 
 
-
-## Quarterly Sprint Goals for FY26Q2 (Jan, Feb, Mar 2026)  
-*Quarter Sprints include 26, 1, 2, 3 & 4
+## Quarterly Sprint Goals for FY26Q3 (April, May, June 2026)  
+*Quarter Sprints include 5, 6, 7, 8, 9, 10, & 11*
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
 
@@ -52,6 +51,9 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 **_Delivery + Notes:_**
 - [ ] All goals have been updated in the sprint chart
 - [ ] Any Additional details about goals **not** completed will be documented here
+
+## Quarterly Priorities for FY26Q2 (January, February, March 2026) 
+*Quarter Sprints include 1, 2, 3, 4*
 
 ## Sprint: 4 [03/11/26 - 03/24/26]  
 <details>
@@ -175,7 +177,8 @@ End of Line
 - [X] All goals have been updated in the sprint chart
 - [ ] Any Additional details about goals **not** completed will be documented here
 
-End of Line
+---
+
 </details>
 
 ## Sprint: 26 [01/14/26 - 01/27/26]
