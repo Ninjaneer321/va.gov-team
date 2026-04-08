@@ -71,20 +71,45 @@ STEP 5
 > Once a user has opted in to push notifications and their device is registered, the individual preferences (Appointment reminders, Secure messages) come back from the API with value: `true` — as seen in the demo mock.
 > The user can then toggle each one off individually via the switches on the Notifications Settings screen.
 
-#### Architecture & Relationship to VA Notify
+#### Architecture
 All push notifications flow through the VA Notify + VEText pipeline:
 
-* Source systems (e.g., VEText for appointments, MHV for secure messages) trigger notifications via the VA Notify API
-* VA Notify sends push via APNS (iOS) and GCM/FCM (Android) using templates specific to each notification type
-* The app registers the device via PUT `/v0/push/register` with app_name: "va_mobile_app"
-* User preferences are managed via `GET/PUT /v0/push/prefs/:endpoint_sid`
-* The APNS certs are managed by the VA Notify team (per the signing keys documentation).
+**VEText — The Push Delivery Engine**
+> For the VAHB mobile app specifically, VEText is the service that actually sends push notifications to Apple (APNs) and Google (GCM/FCM)
+* Manages the connection to APNs (iOS) and GCM/FCM (Android) via AWS SNS (Amazon Simple Notification Service)
+* Holds the push templates — the formatted payloads with platform-specific content for APNS, APNS_SANDBOX, and GCM
+* Receives the Veteran's device registration (the app registers via PUT /v0/push/register)
+* Delivers the actual push to the device
 
-New push notification types require: contacting VA Notify + VEText, creating a push template, getting it approved by the mobile team, then testing in staging
-* Templates include platform-specific payloads for APNS/APNS_SANDBOX/GCM with a url field for deep linking
-* The APNS certificate is managed by the VA Notify team
-* Device registration goes through PUT /v0/push/register with app_name: "va_mobile_app"
+**VA Notify — The Orchestration / API Layer**
+> VA Notify serves as the API gateway and orchestration layer that upstream systems use to trigger notifications. 
 
+* Provides the API (/v2/notifications/push) that source systems call to trigger a notification
+* Routes the request to VEText using a vetext-template-id — the template ID is literally named after VEText
+* Acts as the single front door for any VA system that wants to send a notification to a Veteran
+
+### Relationships
+| Layer | Role |
+|---|---|
+| **Source Systems** | VA backend systems that generate events (appointment created, message sent, etc.) |
+| **VA Notify** | API gateway — accepts trigger requests, routes by `vetext-template-id` |
+| **VEText** | Push delivery engine — owns templates, device registry, sends via AWS SNS |
+| **AWS SNS** | Amazon Simple Notification Service — routes to platform-specific push services |
+| **APNs / FCM** | Apple and Google push notification services that deliver to the physical device |
+| **VAHB App** | Registers device on login, manages per-notification preferences, handles deep linking on tap |
+
+### Notification Types Currently Active
+| Preference ID | Display Name | Deep Link |
+|---|---|---|
+| `appointment_reminders` | Appointment Reminders | `vamobile://appointments/:vetextID` |
+| `secure_message_alerts` | New Secure Messages | `vamobile://messages/:messageID` |
+
+### Opt-In Flow
+1. On first login, Veteran is prompted to **Turn on notifications** or **Skip**
+2. If opted in, both preferences default to **ON**
+3. Veteran can toggle each preference individually in **Settings → Notifications**
+4. On Android 12 and below, notifications are enabled by default even if skipped
+                          
 **Resources:**
 * [VAHB BE push notification documentation](https://github.com/department-of-veterans-affairs/va-mobile-app/blob/e962cdc57a03f5dfc261760396333f545831d1db/VAMobile/documentation/development/BackEnd/Features/PushNotifications.md)
 
