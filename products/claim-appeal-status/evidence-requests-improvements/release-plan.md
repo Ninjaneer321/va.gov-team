@@ -20,15 +20,17 @@ This release plan covers the rollout of enhanced evidence request content to the
 
 ## Feature Toggles
 
-| Toggle name | Description |
-| ----------- | ----------- |
-| [`cst_evidence_requests_content_mobile`](https://api.va.gov/flipper/features/cst_evidence_requests_content_mobile) | Enables enriched evidence request content fields in mobile API responses |
-
-**Related toggles (already in production for web):**
+### vets-api (Flipper)
 
 | Toggle name | Description |
 | ----------- | ----------- |
-| [`cst_evidence_requests_content_override`](https://api.va.gov/flipper/features/cst_evidence_requests_content_override) | Enables enriched evidence request content for web (vets-website) |
+| [`cst_evidence_requests_content_override_mobile`](https://api.va.gov/flipper/features/cst_evidence_requests_content_override_mobile) | Enables content dictionary overrides for tracked items in mobile API responses (display names, descriptions, structured content blocks) |
+
+### VA Mobile App (Firebase Remote Config)
+
+| Toggle name | Default | Description |
+| ----------- | ------- | ----------- |
+| `evidenceRequestsUpdatedUI` | `false` | Controls whether the mobile app renders the enriched evidence request UI (structured content blocks with longDescription, nextSteps, etc.) or falls back to the legacy displayName-only UI |
 
 ## Dashboards and Monitoring
 - Mobile:
@@ -42,10 +44,11 @@ This release plan covers the rollout of enhanced evidence request content to the
 
 ## Rollout Planning
 
-- **Desired date range:** _TBD - pending Architecture Intent approval_
+- **Desired date range:** TBD
 - **How will you make the product available in production while limiting the number of users who can find/access it:**
-  - We will use the `cst_evidence_requests_content_mobile` feature toggle to control the percentage of users who receive enriched content fields in API responses.
-  - Users not in the rollout will continue to see the existing `displayName` and `description` fields (graceful fallback).
+  - **Backend (vets-api):** The `cst_evidence_requests_content_override_mobile` Flipper toggle controls the percentage of users who receive enriched content fields in API responses.
+  - **Frontend (mobile app):** The `evidenceRequestsUpdatedUI` Firebase Remote Config flag controls whether the app renders the enriched UI. This allows the mobile team to independently enable/disable the new UI without a backend change.
+  - Both toggles must be enabled for a user to see the enriched content. Users not in the rollout will continue to see the existing `displayName` and `description` fields (graceful fallback).
 - **What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")?:**
   - Datadog error rates for `/mobile/v0/claims/{id}` endpoint (consistent with baseline, excluding 401/403 authentication issues)
   - No increase in Lighthouse API error rates
@@ -59,7 +62,7 @@ This release plan covers the rollout of enhanced evidence request content to the
 
 ### Stage A: 25% of users
 
-25% is a safe starting point as we are providing enhanced content display without changing core functionality. The mobile app will use `friendlyName || displayName` fallback pattern.
+25% is a safe starting point as we are providing enhanced content display without changing core functionality.
 
 #### Planning
 
@@ -159,10 +162,14 @@ _To be completed once you have gathered your initial set of data, as outlined ab
 3. **VA Mobile App** (`va-mobile-app`):
    - Update `ClaimEventData` type with new optional fields
    - Update `FileRequestDetails.tsx` to display enriched content with fallback
+   - Add `evidenceRequestsUpdatedUI` Firebase Remote Config flag (`VAMobile/src/utils/remoteConfig.ts`) to gate the new UI
 
 ### Fallback Behavior
 
-The mobile app uses graceful degradation:
+The feature has two layers of control:
+
+1. **Firebase Remote Config (`evidenceRequestsUpdatedUI`):** When disabled, the app does not render the enriched UI at all — users see the legacy experience regardless of what the API returns.
+2. **Field-level fallback:** When the enriched UI is enabled, the app uses graceful degradation for individual fields:
 
 ```typescript
 // Display logic
@@ -170,7 +177,7 @@ const title = friendlyName || displayName;
 const description = shortDescription || description;
 ```
 
-This ensures users always see content even if enriched fields are not available.
+This ensures users always see content even if specific enriched fields are not available.
 
 ### Dependencies
 
