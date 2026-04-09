@@ -12,7 +12,7 @@ WCAG 1.4.11 says
 ### Why axe DevTools or other scanners haven't caught this
 This type of contrast issue isn’t picked up by automated tools because it depends on how a component is visually perceived, not just code. Even manual audits often miss it because it doesn’t block users from completing tasks.
 
-- A scanner needs to know "What pixels define the edge of this button?" Is it hte fill color, a border, a shadow, a container, just spacing? The DOM doesn't know this. 
+- A scanner needs to know "What pixels define the edge of this button?" Is it the fill color, a border, a shadow, a container, just spacing? The DOM doesn't know this. 
 - Tools produce a ton of false positives and negatives when comparing a component against its adjacent background.
 - The criteria allows, boundary from color, or a border, or the layout context to help identify meaning.
 
@@ -42,7 +42,7 @@ So the underline is not required to convey state
 
 So it does not need to meet 3:1 contrast, and so it does not fail 1.4.11
 
-We're reading the guidance to mean that only indicators that are necessary to perceive the state musth meet 3:1
+We're reading the guidance to mean that only indicators that are necessary to perceive the state must meet 3:1
 
 Summary
 > The selected underline is a supplementary visual cue, not the primary way the current page is communicated.
