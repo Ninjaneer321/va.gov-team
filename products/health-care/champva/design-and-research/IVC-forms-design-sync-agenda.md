@@ -2,6 +2,59 @@
 
 ----
 
+## April 9, 2026
+
+Attendees: Renata, Jessica, Chantale, Andrea, John, Premal
+
+
+### AGENDA: 
+- Metrics we collect and how we're using them
+- Possibly any in-flight quick fixes to the OHI standalone (we can also do this review async, I'd like to keep the majority of the time for the metrics and impact measurement discussion!)
+
+
+
+### Notes: 
+
+OHI feedback. Branching logic and content is clear on how to progress 
+Renata - concerns of Veteran completing the OHI form for themselves
+
+Clean up language - out of application update moments 
+
+Upload issues...
+
+
+METRICS AGENDA TOPIC
+
+John - looked at user journey, service journey blueprint overlay to identify friction points
+
+Renata - research study, social listening readout 
+
+https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/research/2024-09-Social%20Listening
+
+Medallia gives a small slice of data
+Feedback and confirmation page survey 
+Confirmation page mostly positive sentiment
+
+Updates to Monthly Report: 
+- Historic data and quantify impact
+- Impact measurements and recommendations 
+
+Premal - Show methodology and results, want to make weekly stakeholder syncs more engaging 
+
+John - User data within the service blueprint, exercise with business partners, do the data from business partners overlap. 
+Backend process and friction is aligning or in different places. 
+
+Looking for consistent patterns with phases/data of time in status 
+
+
+Registration Only on EZ - Premal asking for update shared UX decision folder
+https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/Registration/ux
+
+EZR - Only upload a document, not an entire form
+
+
+----
+
 ## April 2, 2026
 
 Attendees: Renata, Hieu, Jessica, Chantale, Andrea, John, Premal
