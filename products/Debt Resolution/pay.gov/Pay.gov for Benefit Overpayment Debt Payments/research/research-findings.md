@@ -513,7 +513,7 @@ This study did not include:
 ### **Pages and applications used**
 
 *Link to prototypes or pages tested during the study:*  
-[https://department-of-veterans-affairs.github.io/va-prototype-kit/src/prototypes/overpayment-balances/index.html](https://department-of-veterans-affairs.github.io/va-prototype-kit/src/prototypes/overpayment-balances/index.html)https://department-of-veterans-affairs.github.io/va-prototype-kit/src/prototypes/overpayment-balances/index.html
+[https://department-of-veterans-affairs.github.io/va-prototype-kit/src/prototypes/overpayment-balances/index.html](https://department-of-veterans-affairs.github.io/va-prototype-kit/src/prototypes/overpayment-balances/index.html)
 
 
 ### **Research participants**
