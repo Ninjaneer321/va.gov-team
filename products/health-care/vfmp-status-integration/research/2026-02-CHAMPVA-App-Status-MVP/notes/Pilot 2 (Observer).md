@@ -46,12 +46,6 @@ Files tab
 Overview tab
 - notes
 
-Scale of 1-5, how difficult or easy was it to understand the application steps?
-- [ ] 1 - very hard
-- [ ] 2
-- [ ] 3
-- [ ] 4
-- [ ] 5 - very easy
 
 ### Scenario 2: Evidence request
 MyVA
@@ -59,13 +53,6 @@ MyVA
 
 CHAMPVA status
 - notes
-
-Scale of 1-5, how difficult or easy was it to understand this screen?
-- [ ] 1 - very hard
-- [ ] 2
-- [ ] 3
-- [ ] 4
-- [ ] 5 - very easy
 
 Birth certificate page
 - notes
@@ -83,6 +70,18 @@ Status tool home page
 CHAMPVA status
 - notes
 
+
+# 
+1. I think that I would like to use this website frequently.
+2. I found the website unnecessarily complex.
+3. I thought the website was easy to use.
+4. I think that I would need the support of a technical person to be able to use this website.
+5. I found the various functions in this website were well integrated.
+6. I thought there was too much inconsistency in this website.
+7. I would imagine that most people would learn to use this website very quickly.
+8. I found the website very cumbersome to use.
+9. I felt very confident using the website.
+10. I needed to learn a lot of things before I could get going with this website.
 
 ### Post-Task Interview
 - 
