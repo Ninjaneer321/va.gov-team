@@ -129,7 +129,7 @@ Start recording.
 
 _[NOTE] Use this step if they did NOT validate prior to the session_
 
-Before we start on the app, I'd like to have you log in to your acccount on va.gov so that we can confirm that the information lines up to what you’ll be seeing in the app.
+Before we start on the app, I'd like to have you log in to your account on va.gov so that we can confirm that the information lines up to what you’ll be seeing in the app.
 
 This could either be on another device, in case you have a computer nearby where you regularly log in, or this could be on your phone here.
 
