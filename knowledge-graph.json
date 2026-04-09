@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-04-08T19:56:07.856Z",
+    "generated": "2026-04-09T16:06:59.711Z",
     "description": "Knowledge graph of VA.gov products and teams",
     "source_directories": [
       "products/",
@@ -10,7 +10,7 @@
   },
   "statistics": {
     "total_nodes": 1230,
-    "total_edges": 2498,
+    "total_edges": 2499,
     "nodes_by_type": {
       "team": 61,
       "portfolio": 4,
@@ -28,7 +28,7 @@
       "sub_product_of": 256,
       "owns_product": 16,
       "works_on_product": 1,
-      "references_product": 289,
+      "references_product": 290,
       "integrates_with": 165,
       "implements_form": 104,
       "has_research": 689,
@@ -23217,6 +23217,7 @@
         "conversation_guide": null
       },
       "date": "2026-04",
+      "name": "Error investigation",
       "participant_types": [
         "Veterans"
       ]
@@ -31912,6 +31913,11 @@
       "source": "product-ask-va",
       "target": "system-cms",
       "relationship": "integrates_with"
+    },
+    {
+      "source": "product-ask-va",
+      "target": "product-identity",
+      "relationship": "references_product"
     },
     {
       "source": "product-ask-va",
