@@ -86,6 +86,10 @@ Some of the latest updates are behind feature flags, and you'll need to turn the
 
 * Alternatively, we can add participants manually to Firebase, which triggers an automated invitation email to them.
 * The pre-release version of the app will replace the standard version
+* If anyone is using two devices on the Zoom call:
+    * Goal is to use audio on computer only, not on phone. We want to disable speaker and microphone on phone; otherwise you’re not able to lower the volume all the way down.
+    * When joining on phone, on the screen with the Join button, tap the speaker icon in upper right, select No audio.
+    * If they're already on the call: tap the speaker icon at top right of screen to select "disconnect my audio."
 * Make sure they do not close any apps as they’re switching between them
 * Explanation for changing permissions to share with participants: 
     * Google Play is the standard way apps are sent to Android phones. This app is safe, but because the version we’re testing today is still in development, it hasn't gone through Google’s final review yet, and therefore it’s blocked by default. We need to adjust some settings to allow you to download it, and we’ll make sure to get your phone back to the way it was once we’re finished.
