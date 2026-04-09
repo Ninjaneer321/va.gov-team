@@ -48,6 +48,11 @@ Synchronous Go/No Go (Placeholder)
 - [X] Confirm the release to Production, with a test user
 - [X] Mia to send out BLUF Statement on 4/6.
 - [X] Communicate release to VBA and VSO liason office plus DAV leadership on 4/6.
+- [X] Demo Video: 
+
+https://github.com/user-attachments/assets/e439ea72-8e6d-48b7-80c0-9f98a4899485
+
+
 
 ***
 
