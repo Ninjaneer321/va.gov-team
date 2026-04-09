@@ -1,3 +1,5 @@
+As of 4/9/2026
+
 Appeal issue descriptions in the Claim and Appeal Status Tool
  
 AMA Appeals
