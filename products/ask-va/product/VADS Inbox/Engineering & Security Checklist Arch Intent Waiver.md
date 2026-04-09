@@ -2,14 +2,14 @@
 
 - Product description
     + Brief overview of motivation for the change from an engineering & security point of view
-    + Ask VA research outcomes support inbox enhancements, discovered the New VADS Inbox Sort/Filter Patterns for Ask VA to implement.
+        + Ask VA research outcomes support inbox enhancements. During design activities, VA Design System (VADS) guidance was identified for Ask VA to adopt the new standard for implementation.
     + Link to Collaboration Cycle Request issue
-    + https://github.com/department-of-veterans-affairs/va.gov-team/issues/131991
+        + https://github.com/department-of-veterans-affairs/va.gov-team/issues/131991
 - UX design description
     + For user-facing changes, link to UX prototype or wireframes if available
-    + https://design.va.gov/components/search-filter
+        + https://design.va.gov/components/search-filter
     + Call out any engineering challenges; UX is reviewed in the [Design Intent meeting][DI]
-    + None
+        + None
 - Frontend changes
     + Identify any significant code changes.  Does this add a new function, or substantially refactor existing code?
     + Identify any new design system components needed or changes to current components
@@ -83,13 +83,23 @@ Please complete all of Part 1 before submitting for Architechture Intent Review.
 
 ### 1. Product Overview
 
-- [ ] **Problem Statement**: What problem does this product/feature solve?
+- [x] **Problem Statement**: What problem does this product/feature solve?
+    + Background
 
-- [ ] **Scope Definition**: Which portions of the architecture are in-scope for this review?
+    Ask VA users want to easily and quickly view their submitted questions using; search, filter and sort tooling. The current inbox experience displays submitted questions (also referred to as "inquiries") in a grid format, with a card representing each inquiry. The cards do not display in a user friendly way,         often leaving users confused of the order their information is displayed. Users want the ability to filter their inquiries by category type, status and sort by newest to oldest or oldest to newest.
+
+    + Solution
+
+    Update the Ask VA inbox by implementing the VADS guidance and new standard.
+
+- [x] **Scope Definition**: Which portions of the architecture are in-scope for this review?
+
+    + Front end changes only.
 
 ### 2. Authentication & Authorization
 
-- [ ] Is this feature authenticated or unauthenticated?
+- [x] Is this feature authenticated or unauthenticated?
+    + Authenticated
 - [ ] If authenticated, document the authentication flow in the sequence diagram
 - [ ] What authorization model is used (RBAC, ABAC, etc.)?
 
