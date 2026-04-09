@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-04-09T16:06:59.711Z",
+    "generated": "2026-04-09T19:47:23.185Z",
     "description": "Knowledge graph of VA.gov products and teams",
     "source_directories": [
       "products/",
@@ -21990,7 +21990,10 @@
       "files": {
         "plan": "products/health-care/vfmp-status-integration/research/2026-02-CHAMPVA-App-Status-MVP/research-plan.md",
         "findings": null,
-        "conversation_guide": "products/health-care/vfmp-status-integration/research/2026-02-CHAMPVA-App-Status-MVP/conversation-guide.md"
+        "conversation_guide": [
+          "products/health-care/vfmp-status-integration/research/2026-02-CHAMPVA-App-Status-MVP/Conversation-guide-v2.md",
+          "products/health-care/vfmp-status-integration/research/2026-02-CHAMPVA-App-Status-MVP/conversation-guide.md"
+        ]
       },
       "date": "2026-02",
       "name": "Conversation Guide for VFMP Status Integration, CHAMPVA Application Status MVP, February 2026",
