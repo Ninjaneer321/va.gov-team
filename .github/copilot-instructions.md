@@ -28,6 +28,14 @@ The repository serves as a central hub for:
 
 ### Quick-Reference: Use Summary Files First
 
+**CRITICAL: You MUST check these files BEFORE consulting knowledge-graph.json:**
+
+When answering questions about teams, products, or research:
+1. **FIRST** - Use getfile to read the appropriate summary file below
+2. **ONLY IF** the summary doesn't have the answer - then use code search on knowledge-graph.json
+
+DO NOT read knowledge-graph.json directly for these question types.
+
 Pre-generated markdown summaries live in **`.github/copilot-summaries/`**.
 **Always read these files first** — they are small enough for a single `getfile` call and answer the most common team/product/research questions directly.
 
