@@ -411,7 +411,7 @@ _If the user does not notice the note, prompt them with:_
 
 
 ## Section 4: Alternate entry-point evaluation (5-10 minutes)   
-`Moderator: Thank you so much for walking through that with me! Now that you’ve filed through one path, let’s take a look at another way we could file. We’re going to go back to the VA.gov homepage so we can explore another path. Click at the top of the screen, and we'll go back to VA.gov. Now scroll down a little and click on file and manage travel reimbursement claims.` 
+`Moderator: Thank you so much for walking through that with me! Now that you’ve filed through one path, let’s take a look at another path to file. Click the VA logo in the top left corner of the screen, and we'll go back to the VA.gov homepage. Now scroll down a little and click on "File and manage travel reimbursement claims."` 
 
 _Instruct user to click on the option they did not start from last time, either "Go to your past appointments" or "Review your travel reimbursement claims"_
 
