@@ -212,7 +212,7 @@ Wait for participant's verbal consent.
 
 I'd like to confirm, what kind of device are you using today (desktop, mobile, tablet)? 
 
-Great! I'm pasting the link and a password to the site in the chat. You can find that in the row of buttons at the bottom, under the chat icon: 
+Great! I'm pasting the link and a password to the site in the chat. You can find that chat icon in the row of buttons at the bottom, ~~under the chat icon~~: 
 
 _Share link and password as **two separate messages** in chat. This will enable the user to copy-paste the password easily._
 
@@ -248,9 +248,7 @@ Wait for participant answer.
 For the first scenario I'd like you to imagine that you submitted a CHAMPVA application recently and want to find out what is happening with your application. You log into VA.gov and this upcoming screen is the first thing you see. Go ahead and click continue. 
 
 ### [MyVA] 
-If you wanted to find out what is happening with your CHAMPVA application, can you show me what you would do next?  
-
-Take a moment to review this page and think out loud as you go, but don’t click on anything yet – so I can get your feedback on this page before we move on.  
+If you wanted to find out what is happening with your CHAMPVA application, can you show me what you would do next?  Take a moment to review this page and think out loud as you go, but don’t click on anything yet – so I can get your feedback on this page before we move on.  
 
 [Let the user explore. As they navigate, probe if they pause or seem to find anything confusing.] 
 
@@ -329,7 +327,7 @@ Take a moment to review this page and the other tabs, and think out loud as you 
 ### [Overview tab] 
 - Now, I want to ask more about the Overview tab. Can you go there for me?
   - In your own words, can you explain what happens in each of these steps?
-  - ~~On a scale of 1-5 (with 1 being very hard and 5 being very easy) - how difficult or easy was it to understand the steps an application goes through after it is submitted? Why? ~~
+  - ~~On a scale of 1-5 (with 1 being very hard and 5 being very easy) - how difficult or easy was it to understand the steps an application goes through after it is submitted? Why?~~
 
 Great! That’s the end of our first scenario. To go to the next scenario, scroll all the way down to the bottom of the screen. Then, click the button that says “Proceed to the next scenario”. 
 
@@ -426,8 +424,6 @@ That’s the end of our scenarios for today. You can stop sharing your screen an
 
 
 # Post-Task Interview - 5 minutes
-Thank you we have gone through all of the scenarios and we have some additional questions to ask. 
-
 - Can you tell me about your overall impression of this prototype?
 - [If the participant is a current CHAMPVA beneficiary or applied in the past] How would you compare the post-application experience you just had to your previous experience after applying for CHAMPVA? Why?
 - Now that you’ve seen the prototype, how would you like to be notified or find updates on your application?
