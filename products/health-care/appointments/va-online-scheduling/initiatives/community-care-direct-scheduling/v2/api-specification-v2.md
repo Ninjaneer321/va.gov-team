@@ -51,6 +51,7 @@ Retrieves the list of active referrals for the authenticated Veteran. Used on th
         "stationId": "659",
         "expirationDate": "2026-10-06",
         "onlineSchedule": true,
+        "alreadyScheduled": false,
         "referralConsultId": "12345"
       }
     },
@@ -64,6 +65,7 @@ Retrieves the list of active referrals for the authenticated Veteran. Used on th
         "stationId": "648",
         "expirationDate": "2026-09-15",
         "onlineSchedule": false,
+        "alreadyScheduled": false,
         "referralConsultId": "67890"
       }
     }
@@ -77,6 +79,7 @@ Retrieves the list of active referrals for the authenticated Veteran. Used on th
 - `stationId`: The VA station ID associated with the referral. Used for pilot eligibility checks.
 - `expirationDate`: Date in `YYYY-MM-DD` format. Displayed as "Expiration date: Month D, YYYY" on the referral card.
 - `onlineSchedule`: Boolean. When `true`, the "Schedule an appointment" CTA is shown. When `false`, the "Why you can't schedule online?" message is shown instead.
+- `alreadyScheduled`: Boolean. Indicates wether the referral has already been scheduled. When `true` shows the "You already scheduled 1 or more..." and hides the "Schedule now" link
 - `referralConsultId`: Identifier for the consult associated with the referral.
 
 **Response (No referrals):**
