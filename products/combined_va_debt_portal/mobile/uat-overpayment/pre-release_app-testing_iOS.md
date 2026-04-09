@@ -68,10 +68,7 @@ Some of the latest updates are behind feature flags, and you'll need to turn the
 * Make sure they do not close any apps as they’re switching between them
 * If anyone is using two devices on the Zoom call:
     * We want to disable speaker and microphone on phone; otherwise you'll always hear an echo even with the volume all the way down.
-    * When joining on phone, on the screen with the Join button, tap the speaker icon in upper right, select No audio.
-    * If they're already on the call: tap the speaker icon at top right of screen to select "disconnect my audio."
-the way down once you’re in the call.
-    * On their other device, set microphone and speaker as normal.
+    * On the screen with the Join button, tap the speaker icon in upper right, select No audio.
     * If they're already on the call: tap the speaker icon at top right of screen to select "disconnect my audio."
 * Technical pre-requisites for participants (for both iOS and Android)
     * **VA Credentials:** You have a username & password for ID.me or Login.gov and can access your two-factor authentication (text code or app).
