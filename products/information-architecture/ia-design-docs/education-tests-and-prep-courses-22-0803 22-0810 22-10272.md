@@ -1,6 +1,6 @@
 # IA Design for Education tests and prep courses reimbursements Form 22-10272, Form 22-0810, Form 22-0810
 
-**STATUS: [In progress]**
+**STATUS: Outdated: Please refer to this [updated IA spec](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/information-architecture/ia-design-docs/benefits-portfolio/education-22-10272-prep-course-fee.md) created in 2026**
 
 **Team:** OCTO request
 
