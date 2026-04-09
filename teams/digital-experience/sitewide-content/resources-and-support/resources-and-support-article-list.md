@@ -178,3 +178,8 @@
 | 176 | [How can I get my 1095-B tax form as a family member?](https://www.va.gov/resources/how-can-i-get-my-irs-1095-b-tax-form-as-a-family-member/) | Health care | 11/19/25 |
 | 177 | [What's an informal conference and how do I ask for one?](https://www.va.gov/resources/whats-an-informal-conference-and-how-do-i-ask-for-one/) | Decision reviews and appeals | 12/9/25 |
 | 178 | [How to set up direct deposit for Foreign Medical Program claims](https://www.va.gov/resources/how-to-set-up-direct-deposit-for-foreign-medical-program-claims/) | Health care | 2/11/26 |
+| 179 | [Non-VA career and employment resources for Veterans](https://www.va.gov/resources/non-va-career-and-employment-resources-for-veterans/) | Careers and employment | 3/23/26 |
+| 180 | [Homeless help](https://www.va.gov/resources/homeless-help/) | Housing | 3/26/26 |
+| 181 | [VA health care for Veterans who served in foreign armed forces](https://www.va.gov/resources/va-health-care-for-veterans-who-served-in-foreign-armed-forces/) | Health care | 4/6/26 |
+| 182 | [How to set up direct deposit for VA health care copay refunds](https://www.va.gov/resources/how-to-set-up-direct-deposit-for-va-health-care-copay-refunds/) | Health care | 4/8/26 |
+| 183 | [How fugitive felon status affects your VA health care eligibility](https://www.va.gov/resources/how-fugitive-felon-status-affects-your-va-health-care-eligibility/) | Health care | 4/9/26 |
