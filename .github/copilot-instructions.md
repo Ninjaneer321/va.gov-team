@@ -88,7 +88,7 @@ If the summary files don't contain enough detail:
 
 ### Technical Note
 
-`knowledge-graph.json` exists in the repository root and is auto-generated weekly. It is used **for automation and workflows only**. **Do not read it directly** when answering user questions - use the summary files instead.
+`.github/knowledge-graph.json` exists in the repository and is auto-generated weekly. It is used **for automation and workflows only**. **Do not read it directly** when answering user questions - use the summary files in `.github/copilot-summaries/` instead.
 
 The summary files are generated FROM the knowledge graph, so they contain the same information in a more accessible format.
 
@@ -159,7 +159,7 @@ jobs:
             docs/
             templates/
             assets/
-            knowledge-graph.json
+            .github/knowledge-graph.json
           sparse-checkout-cone-mode: false
           token: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -223,8 +223,8 @@ For additional environment verification and setup steps, see: [`copilot-setup-st
   - `scripts/manifest/generate_manifest.rb` - Generates team manifests
   - `scripts/cleanup.rb` - Repository maintenance
   - `scripts/migrate.rb` - Data migration utilities
-  - `scripts/build-knowledge-graph.js` - Builds `knowledge-graph.json` from products/teams directories
-  - `scripts/generate-copilot-summaries.js` - Generates `.github/copilot-summaries/*.md` from `knowledge-graph.json`
+  - `scripts/build-knowledge-graph.js` - Builds `.github/knowledge-graph.json` from products/teams directories
+  - `scripts/generate-copilot-summaries.js` - Generates `.github/copilot-summaries/*.md` from `.github/knowledge-graph.json`
 
 #### `/.github/` - Repository Configuration
 - **Purpose**: GitHub Actions workflows, templates, and repository configuration

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Generate human-readable Markdown summaries from knowledge-graph.json.
+ * Generate human-readable Markdown summaries from .github/knowledge-graph.json.
  *
  * These summary files live in .github/copilot-summaries/ and give GitHub
  * Copilot Chat a small, reliable set of documents to answer organisational
@@ -17,8 +17,8 @@
  * -----
  *   node scripts/generate-copilot-summaries.js
  *
- * The script reads knowledge-graph.json from the repo root and rewrites every
- * summary file on every run.  Run it after (re)generating knowledge-graph.json.
+ * The script reads .github/knowledge-graph.json and rewrites every
+ * summary file on every run.  Run it after (re)generating the knowledge graph.
  */
 
 "use strict";
@@ -28,7 +28,7 @@ const path = require("path");
 
 // ─── paths ───────────────────────────────────────────────────────────────────
 const ROOT = path.resolve(__dirname, "..");
-const KG_PATH = path.join(ROOT, "knowledge-graph.json");
+const KG_PATH = path.join(ROOT, ".github", "knowledge-graph.json");
 const SUMMARIES_DIR = path.join(ROOT, ".github", "copilot-summaries");
 
 // ─── helpers ─────────────────────────────────────────────────────────────────
@@ -111,7 +111,7 @@ function generateTeams(graph, idx) {
   var lines = [
     "# VA.gov Teams Directory",
     "",
-    "> Auto-generated from `knowledge-graph.json` on " + graph._meta.generated.slice(0, 10) + ".",
+    "> Auto-generated from `.github/knowledge-graph.json` on " + graph._meta.generated.slice(0, 10) + ".",
     "> Edit the source data, not this file.",
     "",
     teams.length + " teams across all portfolios.",
@@ -174,7 +174,7 @@ function generateResearchByTeam(graph, idx) {
   var lines = [
     "# Research Studies by Team",
     "",
-    "> Auto-generated from `knowledge-graph.json` on " + graph._meta.generated.slice(0, 10) + ".",
+    "> Auto-generated from `.github/knowledge-graph.json` on " + graph._meta.generated.slice(0, 10) + ".",
     "> Edit the source data, not this file.",
     "",
     "Use this file to quickly find all research a team has conducted.",
@@ -209,7 +209,7 @@ function generateResearchByProduct(graph, idx) {
   var lines = [
     "# Research Studies by Product",
     "",
-    "> Auto-generated from `knowledge-graph.json` on " + graph._meta.generated.slice(0, 10) + ".",
+    "> Auto-generated from `.github/knowledge-graph.json` on " + graph._meta.generated.slice(0, 10) + ".",
     "> Edit the source data, not this file.",
     "",
     productsWithResearch.length + " products have documented research studies.",
@@ -247,7 +247,7 @@ function generatePortfolios(graph, idx) {
   var lines = [
     "# VA.gov Portfolio Hierarchy",
     "",
-    "> Auto-generated from `knowledge-graph.json` on " + graph._meta.generated.slice(0, 10) + ".",
+    "> Auto-generated from `.github/knowledge-graph.json` on " + graph._meta.generated.slice(0, 10) + ".",
     "> Edit the source data, not this file.",
     "",
     "Organisational hierarchy: Portfolio → Crew → Team → Products.",

@@ -67,10 +67,10 @@ steps:
   - name: Validate knowledge graph availability
     run: |
       echo "=== Knowledge Graph Check ==="
-      if [ -f "knowledge-graph.json" ]; then
-        echo "✅ knowledge-graph.json found"
+      if [ -f ".github/knowledge-graph.json" ]; then
+        echo "✅ .github/knowledge-graph.json found"
         node -e "
-          const kg = require('./knowledge-graph.json');
+          const kg = require('./.github/knowledge-graph.json');
           console.log('  Nodes:', kg.statistics.total_nodes);
           console.log('  Edges:', kg.statistics.total_edges);
           console.log('  Node types:', Object.keys(kg.statistics.nodes_by_type).join(', '));
@@ -80,10 +80,10 @@ steps:
           console.log('ℹ️  Note: Research directories are scanned at any nesting level');
           console.log('   Standard paths: products/*/research/, products/*/user research/');
           console.log('   Non-standard paths: products/*/design/User research/, etc.');
-        " || echo "⚠️ knowledge-graph.json exists but could not be parsed"
+        " || echo "⚠️ .github/knowledge-graph.json exists but could not be parsed"
       else
-        echo "⚠️ knowledge-graph.json not found in current checkout"
-        echo "   Add 'knowledge-graph.json' to sparse-checkout to enable knowledge graph queries"
+        echo "⚠️ .github/knowledge-graph.json not found in current checkout"
+        echo "   Add '.github/knowledge-graph.json' to sparse-checkout to enable knowledge graph queries"
       fi
 
   - name: Verify required directories
@@ -97,10 +97,10 @@ steps:
         fi
       done
       # Also check knowledge graph
-      if [ -f "knowledge-graph.json" ]; then
-        echo "✅ knowledge-graph.json - available"
+      if [ -f ".github/knowledge-graph.json" ]; then
+        echo "✅ .github/knowledge-graph.json - available"
       else
-        echo "⚠️ knowledge-graph.json - not available"
+        echo "⚠️ .github/knowledge-graph.json - not available"
       fi
 
   - name: Validate research directory access

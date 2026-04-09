@@ -7,7 +7,7 @@
  * and the relationships between them, then writes a single JSON knowledge graph.
  *
  * Usage:  node scripts/build-knowledge-graph.js
- * Output: knowledge-graph.json (written to repo root)
+ * Output: .github/knowledge-graph.json
  */
 
 const fs = require("fs");
@@ -18,7 +18,7 @@ const ROOT = path.resolve(__dirname, "..");
 const PRODUCTS_DIR = path.join(ROOT, "products");
 const TEAMS_DIR = path.join(ROOT, "teams");
 const TEAM_LOOKUP = path.join(ROOT, "team-lookup.json");
-const OUTPUT = path.join(ROOT, "knowledge-graph.json");
+const OUTPUT = path.join(ROOT, ".github", "knowledge-graph.json");
 
 const BINARY_EXTENSIONS = new Set([
   ".png", ".jpg", ".jpeg", ".gif", ".bmp", ".ico", ".svg",

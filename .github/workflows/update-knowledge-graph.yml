@@ -26,10 +26,10 @@ jobs:
             products/
             teams/
             team-lookup.json
-            scripts/build-knowledge-graph.js
-            scripts/generate-copilot-summaries.js
-            knowledge-graph.json
+            scripts/
+            .github/knowledge-graph.json
             .github/copilot-summaries/
+            .github/workflows/
           sparse-checkout-cone-mode: false
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -51,14 +51,14 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff --quiet knowledge-graph.json .github/copilot-summaries/; then
+          if git diff --quiet .github/knowledge-graph.json .github/copilot-summaries/; then
             echo "No changes detected"
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
           else
             echo "Changes detected"
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
             node -e "
-              const kg = require('./knowledge-graph.json');
+              const kg = require('./.github/knowledge-graph.json');
               console.log('  Nodes:', kg.statistics.total_nodes);
               console.log('  Edges:', kg.statistics.total_edges);
               for (const [t,c] of Object.entries(kg.statistics.nodes_by_type).sort((a,b)=>b[1]-a[1])) {
@@ -73,7 +73,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add knowledge-graph.json .github/copilot-summaries/
+          git add .github/knowledge-graph.json .github/copilot-summaries/
           git commit -m "chore: regenerate knowledge-graph.json and copilot summaries
 
           Automatically rebuilt from products/, teams/, and team-lookup.json."
