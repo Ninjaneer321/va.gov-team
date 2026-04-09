@@ -6,7 +6,7 @@ The Representative Status widget is available on the following pages:
 
 1. Find a VA accredited representative or VSO: https://www.va.gov/get-help-from-accredited-representative/find-rep
 2. Get help from a VA accredited representative or VSO: https://www.va.gov/get-help-from-accredited-representative/
-3. Profile Subpage: Accredited Representative: https://staging.va.gov/profile/dependents-and-contacts/accredited-representative-or-vso
+3. Profile Subpage: Accredited Representative: https://www.va.gov/profile/dependents-and-contacts/accredited-representative-or-vso
 4. MyVA Dashboard (link in "Claims and Appeals": https://www.va.gov/my-va
 
 ## **Overview**
