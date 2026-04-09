@@ -2,7 +2,7 @@
 
 - Product description
     + Brief overview of motivation for the change from an engineering & security point of view
-    + _Ask VA research supported inbox enhancements, discovered there is a New VADS Inbox Sort/Filter Patterns for Ask VA to implement._
+    + Ask VA research outcomes support inbox enhancements, discovered the New VADS Inbox Sort/Filter Patterns for Ask VA to implement.
     + Link to Collaboration Cycle Request issue
     + https://github.com/department-of-veterans-affairs/va.gov-team/issues/131991
 - UX design description
@@ -14,7 +14,7 @@
     + Identify any significant code changes.  Does this add a new function, or substantially refactor existing code?
     + Identify any new design system components needed or changes to current components
     + Does this update change shared code?
-    + Describe any product analytics being gathered.  How will errors in the FE system be detected?
+    + Describe any product analytics being gathered.  How will errors in the FE system be detected? 
 - Backend changes
     + Does the project introduce any new or unusual infrastructure dependencies?
     + Does the project introduce any new connections or exchanges of new information types with other systems? (e.g. "new" meaning a new connection of type of information not already present in `vets-api`)
@@ -84,6 +84,7 @@ Please complete all of Part 1 before submitting for Architechture Intent Review.
 ### 1. Product Overview
 
 - [ ] **Problem Statement**: What problem does this product/feature solve?
+
 - [ ] **Scope Definition**: Which portions of the architecture are in-scope for this review?
 
 ### 2. Authentication & Authorization
