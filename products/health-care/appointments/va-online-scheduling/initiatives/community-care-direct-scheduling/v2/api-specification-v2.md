@@ -108,12 +108,11 @@ Retrieves the list of active referrals for the authenticated Veteran. Used on th
 ### GET /vaos/v2/referrals/{referralId}
 
 Retrieves full details for a single referral. Loaded by the referral scheduling shell (`index.jsx`) when the Veteran enters the scheduling flow via `?id=<referralId>`. The response is passed as `currentReferral` to all child pages.
-
 **Frontend Usage:**
 - `useGetReferralByIdQuery(id)` in `ReferralAppointments` (index.jsx)
 - `referral.attributes` is destructured as `currentReferral` in `ScheduleReferral`, `ChooseDateAndTime`, `ReviewAndConfirm`, and `CompleteReferral`
 - `hasAppointments` triggers a redirect to `/referrals-requests` if the Veteran is past the initial schedule page
-
+- `meta.veteranAddressPresent` is used to determine whether the Veteran's address is available for provider search distance calculations
 **Request:**
 - Method: `GET`
 - Headers:
@@ -167,6 +166,9 @@ Retrieves full details for a single referral. Loaded by the referral scheduling 
       }
     },
     "relationships": {}
+  },
+  "meta": {
+    "veteranAddressPresent": true
   }
 }
 ```
@@ -185,6 +187,7 @@ Retrieves full details for a single referral. Loaded by the referral scheduling 
 - `referringFacility`: The VA facility that created the referral.
 - `facilityName` / `facilityPhone`: The Veteran's associated VA facility, shown in "call your facility" messaging.
 - `timezone`: IANA timezone string for the referring facility.
+- `meta.veteranAddressPresent`: Boolean. `true` when the Veteran has a residential address on file with latitude/longitude coordinates. Used by the frontend to determine whether provider search (which requires the Veteran's address for distance calculations) can proceed.
 
 **Response (Not Found):**
 ```json
