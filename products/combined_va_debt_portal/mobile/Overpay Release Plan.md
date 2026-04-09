@@ -164,27 +164,11 @@ Continue to check in on the KPIs of your feature at periodic intervals to ensure
 
 ### **1-week results post 100% rollout**
 
-* Number of page views: \[FILL\_IN\]  
-* Percentage of CONFIRMED users : \[FILL\_IN\]  
-* Percentage of NOT CONFIRMED users : \[FILL\_IN\]  
-* Percentage breakdown of NOT CONFIRMED status reasons : \[FILL\_IN\]  
-* Percentage breakdown of API response codes : \[FILL\_IN\]  
-* Any issues with VA handling/processing?: \[PICK\_ONE\]: yes | no | N/A  
-* Types of errors logged: \[FILL\_IN\]  
-* Any changes necessary based on the logs, feedback on user challenges, or VA challenges? \[PICK\_ONE\]: yes | no | N/A  
-* If yes, what: \[FILL\_IN\]
+* Work in progress
 
 ### **1-month results post 100% rollout**
 
-* Number of page views: \[FILL\_IN\]  
-* Percentage of CONFIRMED users : \[FILL\_IN\]  
-* Percentage of NOT CONFIRMED users : \[FILL\_IN\]  
-* Percentage breakdown of NOT CONFIRMED status reasons : \[FILL\_IN\]  
-* Percentage breakdown of API response codes : \[FILL\_IN\]  
-* Any issues with VA handling/processing?: \[PICK\_ONE\]: yes | no | N/A  
-* Types of errors logged: \[FILL\_IN\]  
-* Any UX changes necessary based on the logs, feedback on user challenges, or VA challenges? \[PICK\_ONE\]: yes | no | N/A  
-* If yes, what: \[FILL\_IN\]
+* Work in progress
 
 ## **Post-launch Questions**
 
