@@ -3,8 +3,7 @@
 - [WCAG 1.4.11 - Non-text contrast](#non--text-contrast)
 
 ## Non-text contrast
-
-Recent discussions about non-text contrast have generated some swirl with some questions I'm documenting here.
+Only visual indicators that are required to identify a component or its state must meet 3:1 contrast. If the component or state is already conveyed through text, structure, or context, additional visual styling does not need to meet this requirement.
 
 WCAG 1.4.11 says
 > User Interface Components: Visual information required to identify user interface components and states, except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author;
@@ -44,8 +43,8 @@ So it does not need to meet 3:1 contrast, and so it does not fail 1.4.11
 
 We're reading the guidance to mean that only indicators that are necessary to perceive the state must meet 3:1
 
-Summary
-> The selected underline is a supplementary visual cue, not the primary way the current page is communicated.
+**Summary**
+> Only visual indicators that are required to identify a component or its state must meet 3:1 contrast.
 > 
-> Users can determine their location through the page title, breadcrumb, and heading. Because the underline is not required to convey state, it is not subject to the 3:1 contrast requirement under WCAG 1.4.11.
+> In this case, the selected underline is a supplementary visual cue. Users can determine their current location through the page title, breadcrumb, and heading, so the underline is not required to convey state and is not subject to WCAG 1.4.11 contrast requirements.
 
