@@ -79,12 +79,19 @@ While we cannot think of any events that would be critical enough to merit a rol
 ## Post Launch Metrics
 
 ### 1-Week Results Post-Launch 
+<img width="693" height="573" alt="Screenshot 2026-04-09 at 9 29 40 AM" src="https://github.com/user-attachments/assets/5dee8594-06db-4475-b7df-2275b199ca24" />
+
+<img width="847" height="607" alt="Screenshot 2026-04-09 at 9 35 38 AM" src="https://github.com/user-attachments/assets/e3765a79-9b77-4cd3-be7f-d102659e6dac" />
+<img width="873" height="522" alt="Screenshot 2026-04-09 at 9 35 51 AM" src="https://github.com/user-attachments/assets/9e83fcde-dfc6-45e7-8e36-c722d9e36c72" />
+<img width="866" height="517" alt="Screenshot 2026-04-09 at 9 36 02 AM" src="https://github.com/user-attachments/assets/48640b5b-f2d9-4bad-9d4c-f9c522014815" />
+<img width="851" height="563" alt="Screenshot 2026-04-09 at 9 36 25 AM" src="https://github.com/user-attachments/assets/ff857a63-79aa-4790-a068-ff2a5338905e" />
 
 
 
 ### 1-Month Results Post Launch
 
 **What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges?**  
+
 
 
 ## Post-Launch Questions
