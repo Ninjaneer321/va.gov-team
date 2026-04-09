@@ -76,6 +76,10 @@ steps:
           console.log('  Node types:', Object.keys(kg.statistics.nodes_by_type).join(', '));
           console.log('  Relationship types:', Object.keys(kg.statistics.edges_by_relationship).join(', '));
           console.log('✅ Knowledge graph parsed successfully');
+          console.log('');
+          console.log('ℹ️  Note: Research directories are scanned at any nesting level');
+          console.log('   Standard paths: products/*/research/, products/*/user research/');
+          console.log('   Non-standard paths: products/*/design/User research/, etc.');
         " || echo "⚠️ knowledge-graph.json exists but could not be parsed"
       else
         echo "⚠️ knowledge-graph.json not found in current checkout"

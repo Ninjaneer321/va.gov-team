@@ -580,7 +580,11 @@ function classifyResearchFile(fileName) {
   return null;
 }
 
-/** Recursively find directories named 'research' or 'user research' (case-insensitive) */
+/** Recursively find directories named 'research' or 'user research' (case-insensitive)
+ *  at any nesting level under baseDir.  This handles both standard paths such as
+ *  products/<product>/research/ and non-standard paths like
+ *  products/<product>/design/User research/ by continuing to recurse through all
+ *  intermediate directories until a matching name is found. */
 function findResearchDirs(baseDir, maxDepth = 6, depth = 0) {
   const results = [];
   if (depth > maxDepth) return results;
@@ -590,9 +594,18 @@ function findResearchDirs(baseDir, maxDepth = 6, depth = 0) {
     if (!e.isDirectory()) continue;
     if (e.name.startsWith(".") || e.name === "node_modules" || e.name === "_archive") continue;
     const nameLower = e.name.toLowerCase();
+
+    // Match research directories: "research" or "user research" (case-insensitive).
     if (nameLower === "research" || nameLower === "user research") {
       results.push(path.join(baseDir, e.name));
+      // Don't recurse further into matched research directories —
+      // study subdirectories are enumerated separately in ingestResearchStudies().
     } else {
+      // Continue recursing to find nested research directories regardless of
+      // parent folder names.  This allows discovery of non-standard paths like:
+      //   products/ask-va/design/User research/
+      //   products/*/ux/research/
+      //   products/*/discovery/research/
       results.push(...findResearchDirs(path.join(baseDir, e.name), maxDepth, depth + 1));
     }
   }

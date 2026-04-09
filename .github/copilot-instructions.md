@@ -33,7 +33,7 @@ It is a JSON file containing nodes (teams, portfolios, crews, products, categori
 | `form` | A VA form number (e.g., `21-526EZ`) |
 | `category` | A hub/category product page |
 | `external_system` | An external system (e.g., Lighthouse API, vets-api) |
-| `research_study` | A research study directory under any `research/` or `user research/` folder |
+| `research_study` | A research study directory under any `research/` or `user research/` folder **at any nesting level** (e.g., `products/*/research/`, `products/*/design/User research/`) |
 
 ### When To Use It
 
@@ -145,7 +145,8 @@ It is a JSON file containing nodes (teams, portfolios, crews, products, categori
 ### Important Notes
 
 - The knowledge graph is **auto-generated** from the `/products/` and `/teams/` directories and `team-lookup.json`. It is the **authoritative index** for navigating this repository's organizational structure.
-- Research studies are indexed from every `research/` and `user research/` directory under `/products/` and `/teams/`.
+- Research studies are indexed from every `research/` and `user research/` directory under `/products/` and `/teams/` **at any nesting level**.
+- **Non-standard research paths:** Some products use non-standard directory structures (e.g., `products/ask-va/design/User research/`). The knowledge graph scanner recursively searches for research directories regardless of parent folder names.
 - If the knowledge graph doesn't have the answer, fall back to searching the `/products/` and `/teams/` directories directly.
 - Always **cross-reference** the knowledge graph paths with actual files — documentation may have been added or moved since the last generation.
 
