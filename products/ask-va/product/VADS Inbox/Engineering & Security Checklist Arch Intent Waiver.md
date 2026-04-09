@@ -100,9 +100,9 @@ Please complete all of Part 1 before submitting for Architechture Intent Review.
 
 - [x] Is this feature authenticated or unauthenticated?
     + Authenticated
-- [ ] If authenticated, document the authentication flow in the sequence diagram
+- [x] If authenticated, document the authentication flow in the sequence diagram
 - [x] What authorization model is used (RBAC, ABAC, etc.)?
-    + https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/login/reference-documents/auth/authentication-and-authorization-simplified.md
+    + [User Authentication](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/login/reference-documents/auth/authentication-and-authorization-simplified.md)
 
 **Authenticated Experience Team Questions**
 - [ ] Are you adding a product or feature to My VA or profile?
