@@ -67,8 +67,10 @@ Some of the latest updates are behind feature flags, and you'll need to turn the
 * The pre-release version of the app will replace the standard version
 * Make sure they do not close any apps as they’re switching between them
 * If anyone is using two devices on the Zoom call:
+    * Goal is to use audio on computer only, not on phone.
     * When joining on phone, on the screen with the Join button, tap the speaker icon in upper right, select No audio. This will disable speaker and microphone; otherwise you’re not able to lower the volume all the way down once you’re in the call.
     * On their other device, set microphone and speaker as normal.
+    * If they're already on the call: tap the speaker icon at top right of screen to select "disconnect my audio."
 * Technical pre-requisites for participants (for both iOS and Android)
     * **VA Credentials:** You have a username & password for ID.me or Login.gov and can access your two-factor authentication (text code or app).
     * _[Android only]_ **Email Access:** You can open your email directly on your mobile phone to click the test link.
