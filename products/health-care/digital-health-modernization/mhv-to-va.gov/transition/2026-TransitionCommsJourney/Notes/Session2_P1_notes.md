@@ -5,15 +5,15 @@
 **Moderator:** Cara Frissell
 **Notetaker:** Laura Simpson
 **Observers:** [NAMES]  
-**Recording:** [YES/NO]  
+**Recording:** [YES]  
 
 ---
 
 ## 1. Intro + Consent
 
-- [ ] Recording consent confirmed
-- [ ] Clip consent confirmed
-- [ ] Observer introduction completed
+- [X] Recording consent confirmed
+- [X] Clip consent confirmed
+- [X] Observer introduction completed
 - **Notes:**
 
 ---
@@ -23,23 +23,23 @@
 ### Tasks completed since last check-in:
 - [ ] Scheduled/changed/canceled appointment
 - [ ] Sent or read secure messages
-- [ ] Requested refills or checked shipment status
+- [x] Requested refills or checked shipment status
 - [ ] Viewed lab results or medical records
 - [ ] Used travel pay
-- [ ] Other: _______________
+- [x] Other: __Had an appointment_____________
 
 ### Tools used:
 - [ ] VA.gov web
 - [ ] VA Health & Benefits app
-- [ ] My HealtheVet
-- [ ] Phone
-- [ ] In-person
+- [x] My HealtheVet
+- [x] Phone
+- [x] In-person
 - [ ] Email/text
-- [ ] Other: _______________
+- [x] Other: _Mentioned the site, but didn't specify______________
 
 ### Behavior pattern (online first vs. calling):
 - **Notes:**
-
+Checked medication online first, wil call to renew since it's unavailable
 ---
 
 ## 3. Unprompted Recall: What They Noticed
@@ -57,6 +57,7 @@
 
 ### Date/deadline awareness:
 - **Notes:**
+Saw an email before the switchover and wasn't bothers
 
 ### Understanding of *why* changes happened:
 - **Notes:**
@@ -71,15 +72,24 @@
 - **Notes:**
 
 **Alert/notice observed (unprompted)?**
-- [ ] Yes
+- [x] Yes
 - [ ] No
 - **Notes:**
+Looked at the Alert:
+If you below that it has a note. If you can't find the prescription you're looking for, you may need to renew it.
+Go to your medications list and filter by renewal needed before… oh, that's a new one.
+I've never seen that before.
+It says filter by renewal needed before refill.
 
 #### Refill functionality:
 - [ ] Could request refills
-- [ ] Could NOT request refills
-- **Workaround used:** _______________
+- [x] Could NOT request refills
+- **Workaround used:** __Looked up phone numbers for his team and the pharmacy. Will call team and or phramacy._____________
 - **Notes:**
+Knew that expiration was coming, and needed to start the process. 
+Had to filter and pagniate for a few medications that were'n't on the first page.
+
+Checked on a previously requested refill and thre was some confusion because the status wasn't updated.
 
 #### Shipment tracking:
 - [ ] Could track shipments
@@ -87,7 +97,7 @@
 - **Notes:**
 
 #### Behavior during downtime (April 8):
-- **Action taken:** _______________
+- **Action taken:** _Is going to call pharmacy / his team to renew a medication that expired.
 - **Reason for timing:** _______________
 - **Notes:**
 
@@ -97,6 +107,7 @@
   - **Response time:** _______________
   - **Outcome:** _______________
 - **Notes:**
+If he needed urgent renewal of a medication, he would contact his team. they have a pharmacy specialistand they work pretty fast.He's never had to do it.
 
 #### "Transferred" label (if visible):
 - **Understanding of term:** _______________
@@ -111,24 +122,43 @@
 
 #### Suggested improvements:
 - **Notes:**
-
+no improvements for Medications Landing Page and individual medications.  "straightforward and simple"
+The individual ones for prescriptions, yeah, that's better than what I used to have on the old system.
+The old system didn't tell you anything.
 ---
 
 ### 4b) SECURE MESSAGING
 
 **What they see on the page:**
 - **Notes:**
-
+It says, go away. Can't use me.
+Same, um…
+Same message, just…
+As the medication, I can't use messages to contact providers at some facilities.
+And Detroit and Ann Arbor.
+If you need to contact…
+Your provider call the facility directly, which
+Which I knew already.
 **Alert/notice observed (unprompted)?**
-- [ ] Yes
+- [x] Yes
 - [ ] No
 - **Notes:**
+Immediately responded to the alert box.
+Oh, and then they give you the find your facilities contact information. Well, that's good.
+I'm sure the phone numbers all come up there. (indicates "Find you facility's contact information"
 
 #### Messaging ability during transition window:
 - [ ] Could send/read messages
-- [ ] Could NOT send/read messages
+- [x] Could NOT send/read messages
 - **Workaround used:** _______________
 - **Notes:**
+
+I think if I did that it wouldn't do. It wouldn't send anything.
+
+Can you reply to a message from your dr?
+You can't send new messages or reply to conversations with providers, it says.
+But no, I couldn't reply to one. And I would guess they couldn't sit.
+I don't know if they could send me one or not. Doesn't say.
 
 #### Current messaging experience:
 - **What feels different?** _______________
@@ -152,22 +182,47 @@
 
 **What they see on the page:**
 - **Notes:**
-
+Okay, now I have a box says,
+I can't… can't manage…
+Appointments online for some facilities.
+Again, Detroit, Ann Arbor.
+Um, oh, this one's the until April 18th.
+instead of the thirteenth.
 **Alert/notice observed (unprompted)?**
-- [ ] Yes
+- [x] Yes
 - [ ] No
 - **Notes:**
-
+Only schedule appointments for non-urgent needs.
+And you can't schedule at some facilities right now till the 18, and…
+Detroit and Ann Arbor.
+You can schedule a request non-urgent appointments for
+future dates.
+Oh, I'm not sure about that.
+If you need help sooner, you…
+Use one of these urgent communic…
+patience options.
+There's the crisis line, or…
+Urgent care. Okay, anytime the urgent care facility or the crisis line.
+They still have to start scheduling an appointment button on there.
 #### Scheduling/changing prevented?
 - [ ] Yes
 - [ ] No
 - **When:** _______________
 - **Workaround used:** _______________
 - **Notes:**
+If I had to reschedule an appointment, I'd have to give him a call/
+
+When trying to schedule for  migrating location:
+Real quick message. This facility doesn't accept online scheduling for this care. You'll need to call your VA health facility to schedule an appointment.
+Uh, not all VA facilities offer online scheduling for all types of care.
+Yeah, that I kind of knew before. I've not tried it, but…
+I had heard that before.
+
+Tested if he could pull up a non-migrating facility out of the area to test if he could make an appointment. Was able to get through most of the flow, unlike his migrating facilities. could not send a message to other facility.  
 
 #### Oracle Health + old system visible together:
 - [ ] Yes
-- [ ] No
+- [x] No
 - **Completeness assessment:** [ ] Complete [ ] Missing items [ ] Duplicates
 - **Trustworthiness:** [ ] High [ ] Medium [ ] Low
 - **Confusing labels/elements:** _______________
@@ -188,17 +243,37 @@
 
 **What they see on the page:**
 - **Notes:**
+Usual review, print, download your VA medical records.
+Updates will be again on April 11th.
+Meaning that older stuff is in there.
+I can… I can get my lab and test results, summaries, notes.
+list of vaccines I've had, allergies, reactions, all that good stuff.
 
 **Alert/notice observed (unprompted)?**
-- [ ] Yes
+- [x] Yes
 - [ ] No
 - **Content:** _______________
 - **Notes:**
+that any my like my last appointment,
+information wouldn't be in there yet.
+won't be entered, or…
+Maybe it may be… maybe entered, but it won't be available till April 11th.
 
 #### Record visibility + completion:
 - **Saw expected records?** [ ] Yes [ ] No
 - **Missing or confusing items:** _______________
 - **Notes:**
+Do you think that any recent results would be available today?
+Uh, no, no, I wouldn't think so.
+
+what if you wanted to know if you were had your
+tetanus vaccine years ago. Do you think you could find that here?
+Today?
+
+Vaccines, um…
+That should be in there, because that's an older…
+older vaccine.
+I should. They should have all my vaccines in there, I would guess.
 
 #### Lab/test result notifications:
 - **Received notifications?** [ ] Yes [ ] No
@@ -206,6 +281,17 @@
 - **Timeliness:** [ ] Timely [ ] Delayed [ ] Unknown
 - **Usefulness:** [ ] Helpful [ ] Too many [ ] Not enough [ ] Mixed
 - **Notes:**
+you know, later today, you go to the…
+VA, and you get a blood draw for a cholesterol test, and it usually takes 48 to 72 hours for those
+results to come back.
+If you go on and check, To see if you can see those results on April 12th. Do you think you'll be able to see them?
+
+No, I would say no. They would have had to get the results in quicker, I think. Before… before the 11th.
+
+Okay, so when do you think you would be able to access your cholesterol results?
+
+On the 13th, or 14th.
+depending on what what day that is.
 
 #### "May be a delay" interpretation (if visible):
 - **Assumed delay duration:** _______________
@@ -214,6 +300,11 @@
 
 #### Suggested improvements:
 - **Notes:**
+I don't see any reason to change anything. They don't need it.
+Doesn't need a real lengthy explanation.
+Um, for people to delve in, they just need to know that, okay, temporarily,
+This part of the system is not available, and…
+Call your call your VA provider, or… have a little patience
 
 ---
 
@@ -237,13 +328,13 @@
 ### 5b) Timing, Frequency, Channels
 
 **Right timing for notifications?**
-- [ ] Yes
+- [x] Yes
 - [ ] No
 - [ ] Mixed
 - **Notes:**
 
 **Best channel for participant:**
-- _______________
+- Kept up with changes via social media
 
 **Worst channel for participant:**
 - _______________
@@ -309,7 +400,7 @@
 
 **Participant energy level:**
 - [ ] High
-- [ ] Moderate
+- [x] Moderate
 - [ ] Low
 
 **Notable quotes:**
@@ -331,7 +422,7 @@
 
 ## Consent Confirmation
 
-- [ ] Clip consent re-confirmed
+- [x] Clip consent re-confirmed
 - [ ] Specific segments participant does NOT want clipped: _______________
 
 ---
