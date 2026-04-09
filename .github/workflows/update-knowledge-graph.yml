@@ -27,7 +27,9 @@ jobs:
             teams/
             team-lookup.json
             scripts/build-knowledge-graph.js
+            scripts/generate-copilot-summaries.js
             knowledge-graph.json
+            .github/copilot-summaries/
           sparse-checkout-cone-mode: false
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -41,16 +43,20 @@ jobs:
           echo "🔄 Rebuilding knowledge-graph.json ..."
           node scripts/build-knowledge-graph.js
 
+      - name: Generate Copilot summary files
+        run: |
+          echo "📝 Generating .github/copilot-summaries/ ..."
+          node scripts/generate-copilot-summaries.js
+
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff --quiet knowledge-graph.json; then
-            echo "No changes to knowledge-graph.json"
+          if git diff --quiet knowledge-graph.json .github/copilot-summaries/; then
+            echo "No changes detected"
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
           else
-            echo "knowledge-graph.json updated"
+            echo "Changes detected"
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
-            # Print summary of changes
             node -e "
               const kg = require('./knowledge-graph.json');
               console.log('  Nodes:', kg.statistics.total_nodes);
@@ -61,14 +67,14 @@ jobs:
             "
           fi
 
-      - name: Commit updated knowledge graph
+      - name: Commit updated knowledge graph and summaries
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add knowledge-graph.json
-          git commit -m "chore: regenerate knowledge-graph.json
+          git add knowledge-graph.json .github/copilot-summaries/
+          git commit -m "chore: regenerate knowledge-graph.json and copilot summaries
 
           Automatically rebuilt from products/, teams/, and team-lookup.json."
 

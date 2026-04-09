@@ -26,7 +26,21 @@ The repository serves as a central hub for:
 
 ## Knowledge Graph — Products, Teams, Research & Organizational Context
 
-### What It Is
+### Quick-Reference: Use Summary Files First
+
+Pre-generated markdown summaries live in **`.github/copilot-summaries/`**.
+**Always read these files first** — they are small enough for a single `getfile` call and answer the most common team/product/research questions directly.
+
+| Question | File to read |
+|----------|-------------|
+| Who owns / works on a product? | `.github/copilot-summaries/teams.md` |
+| What research has a team conducted? | `.github/copilot-summaries/research-by-team.md` |
+| What research exists for a product? | `.github/copilot-summaries/research-by-product.md` |
+| Portfolio / crew / team hierarchy | `.github/copilot-summaries/portfolios.md` |
+
+These files are auto-regenerated every Monday (or on demand) by the **Update Knowledge Graph** workflow alongside `knowledge-graph.json`.
+
+### What It Is (Knowledge Graph)
 
 This repository includes a **machine-readable knowledge graph** at the repo root:
 
@@ -51,7 +65,8 @@ It is a JSON file containing nodes (teams, portfolios, crews, products, categori
 
 ### When To Use It
 
-**Always consult `knowledge-graph.json` first** when a question involves any of the following:
+Use the **summary files** above for the common questions listed below.
+Fall back to `knowledge-graph.json` (via **code search**, not full file read) for cross-cutting or advanced queries not covered by the summaries.
 
 | Question type | Example |
 |---|---|
@@ -68,10 +83,11 @@ It is a JSON file containing nodes (teams, portfolios, crews, products, categori
 
 ### How To Use It
 
-1. **Read the file**: Parse `knowledge-graph.json` from the repository root.
-2. **Search nodes** by `type` (`team`, `product`, `portfolio`, `crew`, `form`, `category`, `external_system`, `research_study`) and `name` or `id`.
-3. **Traverse edges** to find relationships. Each edge has a `source`, `target`, and `relationship` field.
-4. **Follow file paths**: Nodes include fields like `readme_path`, `path`, and `files` that point to documentation files within this repo. Use those paths to read the actual documentation.
+1. **Read the summary files first** (see Quick-Reference table above) — they answer most questions in one tool call.
+2. If summaries don't have the answer, use **code search** on `knowledge-graph.json`:
+   - `lexical-code-search: "team-ask-va" path:knowledge-graph.json`
+3. **Never** try to `getfile` the entire `knowledge-graph.json` — it is too large (1,230+ nodes, 35k+ lines) and will be truncated.
+4. **Follow file paths**: Nodes include fields like `readme_path`, `path`, and `files` that point to documentation files within this repo.
 
 #### Node Structure (examples)
 
@@ -167,12 +183,30 @@ It is a JSON file containing nodes (teams, portfolios, crews, products, categori
 <knowledge_graph_usage>
 ## Querying the Knowledge Graph
 
-The `knowledge-graph.json` file is **large** (1230+ nodes, 2500+ edges, 35k+ lines).
-**Do NOT use `getfile` to read the entire file**—it will be truncated and require multiple attempts.
+### Step 1 — Always check the summary files first
 
-### Recommended Approach
+Pre-generated markdown summaries are in `.github/copilot-summaries/`.
+Read them with a single `getfile` call — they are small and reliable.
 
-**Always prefer code search over getfile for knowledge graph queries:**
+| Question | Summary file |
+|----------|-------------|
+| Who owns / works on a product? | `.github/copilot-summaries/teams.md` |
+| What research has a team conducted? | `.github/copilot-summaries/research-by-team.md` |
+| What research exists for a product? | `.github/copilot-summaries/research-by-product.md` |
+| Portfolio / crew / team hierarchy | `.github/copilot-summaries/portfolios.md` |
+
+**Example — "What team owns Ask VA and what research have they done?":**
+```
+getfile: .github/copilot-summaries/teams.md
+# Search for "Ask VA" in the returned text — done in one call.
+```
+
+### Step 2 — Fall back to code search on knowledge-graph.json (if needed)
+
+The `knowledge-graph.json` file is **large** (1,230+ nodes, 2,500+ edges, 35k+ lines).
+**Do NOT use `getfile` to read the entire file** — it will be truncated.
+
+**Use code search instead:**
 
 1. **Lexical search for exact matches:**
    - Finding specific team: `lexical-code-search: "team-ask-va" path:knowledge-graph.json`
@@ -189,46 +223,20 @@ The `knowledge-graph.json` file is **large** (1230+ nodes, 2500+ edges, 35k+ lin
 
 ### Query Patterns
 
-| User Question | Best Tool | Example Query |
-|---------------|-----------|---------------|
-| "What team owns X?" | Lexical search | `"product-ask-va" "owns_product"` in knowledge-graph.json |
-| "What research has been done on X?" | Lexical search | `"product-ask-va" "has_research"` in knowledge-graph.json |
-| "Which products are in Y portfolio?" | Lexical search | `"portfolio-digital-experience" "belongs_to_portfolio"` in knowledge-graph.json |
-| "What research methods are used?" | Semantic search | Query about research methodologies in knowledge-graph.json |
-| "Show me graph statistics" | Getfile (targeted) | Read just the `statistics` section |
-
-### Multi-Step Workflow Example
-
-For complex queries like "What team owns Ask VA and what research have they done?":
-
-1. **Find the team node:**
-   ```
-   lexical-code-search: "team-ask-va" path:knowledge-graph.json
-   ```
-
-2. **Find research conducted by the team:**
-   ```
-   lexical-code-search: "team-ask-va" "conducted_research" path:knowledge-graph.json
-   ```
-
-3. **Get research details:**
-   ```
-   lexical-code-search: "research-products-ask-va-design-user-research" path:knowledge-graph.json
-   ```
-
-4. **Read actual research files (optional):**
-   ```
-   getfile: products/ask-va/design/User research/README.md
-   ```
-
-5. **Synthesize answer** combining all findings
+| User Question | Best Tool | Example |
+|---------------|-----------|---------|
+| "What team owns X?" | Summary file | Read `teams.md`, find team section |
+| "What research has been done on X?" | Summary file | Read `research-by-product.md`, find product section |
+| "Which products are in Y portfolio?" | Summary file | Read `portfolios.md`, find portfolio section |
+| "What research methods are used?" | Summary file or semantic search | `research-by-team.md` or semantic query |
+| "Show me graph statistics" | Getfile (targeted) | Read just the `statistics` section of `knowledge-graph.json` |
 
 ### When getfile Gets Truncated
 
 If you attempt `getfile` on knowledge-graph.json and see truncation warnings:
-- **Stop immediately** - don't retry getfile multiple times
-- **Switch to code search** using the patterns above
-- **Provide your answer** based on search results, noting if information is incomplete
+- **Stop immediately** — don't retry getfile multiple times
+- **Switch to summary files first**, then code search if needed
+- **Provide your answer** based on results, noting if information is incomplete
 </knowledge_graph_usage>
 
 ## Research Data Integrity Rules
@@ -362,12 +370,14 @@ For additional environment verification and setup steps, see: [`copilot-setup-st
   - `security/` - Security practices and ATO documentation
 
 #### `/scripts/` - Automation and Validation Tools
-- **Purpose**: Ruby scripts for repository maintenance and validation
+- **Purpose**: Ruby and Node.js scripts for repository maintenance and validation
 - **Key Scripts**:
   - `scripts/manifest/validate_teams.rb` - Validates team README completeness
   - `scripts/manifest/generate_manifest.rb` - Generates team manifests
   - `scripts/cleanup.rb` - Repository maintenance
   - `scripts/migrate.rb` - Data migration utilities
+  - `scripts/build-knowledge-graph.js` - Builds `knowledge-graph.json` from products/teams directories
+  - `scripts/generate-copilot-summaries.js` - Generates `.github/copilot-summaries/*.md` from `knowledge-graph.json`
 
 #### `/.github/` - Repository Configuration
 - **Purpose**: GitHub Actions workflows, templates, and repository configuration
@@ -375,6 +385,8 @@ For additional environment verification and setup steps, see: [`copilot-setup-st
   - `workflows/` - Automation workflows for the repository
   - `CODEOWNERS` - Code review assignments
   - Various issue and PR templates
+- **Key Subdirectory**:
+  - `copilot-summaries/` - Auto-generated markdown summaries from `knowledge-graph.json` (teams, research, portfolios)
 
 #### `/docs/` - General Documentation
 - **Purpose**: Cross-cutting documentation and ADRs (Architecture Decision Records)
@@ -519,7 +531,12 @@ ruby scripts/cleanup.rb
 - Reference specific paths: "Look in products/ask-va/design/User research/"
 
 **Prevention (for Copilot):**
-- **Always use code search for knowledge-graph.json queries** (see `<knowledge_graph_usage>`)
+- **Always read the summary files first** — they answer most team/research questions in one tool call:
+  - `.github/copilot-summaries/teams.md`
+  - `.github/copilot-summaries/research-by-team.md`
+  - `.github/copilot-summaries/research-by-product.md`
+  - `.github/copilot-summaries/portfolios.md`
+- Only fall back to code search on `knowledge-graph.json` if the summaries don't have the answer
 - After making 3+ tool calls, evaluate if you have enough information to answer
 - Provide partial answers if complete data isn't available: "Based on available information..."
 - State what's missing: "I found X but need to search for Y to complete the answer"
@@ -527,7 +544,11 @@ ruby scripts/cleanup.rb
 ### Issue: "Knowledge graph doesn't have the information I need"
 
 **Solutions:**
-1. **Fall back to directory search:**
+1. **Check the summary files first:**
+   - `.github/copilot-summaries/teams.md` — for team ownership and research
+   - `.github/copilot-summaries/portfolios.md` — for portfolio/product lists
+
+2. **Fall back to directory search:**
    - Use `lexical-code-search` to find files: `path:/products/ask-va/ readme`
    - Use `semantic-code-search` for conceptual queries
 
@@ -543,8 +564,8 @@ ruby scripts/cleanup.rb
 
 ### Issue: "File too large" or truncation warnings
 
-**For knowledge-graph.json (1230 nodes):**
-- **Never use getfile** - always use code search (see `<knowledge_graph_usage>`)
+**For knowledge-graph.json (1,230 nodes):**
+- **Never use getfile** — read the summary files first, then use code search (see `<knowledge_graph_usage>`)
 
 **For other large files:**
 - Use `lexical-code-search` to find specific sections
