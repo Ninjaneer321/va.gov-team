@@ -146,40 +146,18 @@ Rollback will be done by disabling feature flags. To disable FMP letter availabi
 #### Results
 
 - **Date completed:**  Enabled to 50% on 4/7/26
-- **Number of users:** [To be filled in]
+- **Number of users:** 687 users downloaded the letter
 - **Metrics at this stage (per success criteria):**
-  - [ ] No increase in errors on the letter download page
-  - [ ] Successful downloads shown in GA Report
-- **Rollback triggered?** [ ] Yes  [ ] No
-- **Was any downstream service affected by the change?** __
-- **Types of errors logged:** [None / describe]
-- **What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?** [Document or N/A]
+  - [x] No increase in errors on the letter download page - Overall success rate was 99.7% which is consistent or above all other letters. There was a known outage during this time period that caused the decrease in success rate.
+  - [x] Successful downloads shown in GA Report
+- **Rollback triggered?** [ ] Yes  [x] No
+- **Was any downstream service affected by the change?** No
+- **Types of errors logged:** 8 warnings/errors were logged (5 503s, 2 500s, and 1 422)
+- **What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?** No changes at this time
 
 ---
 
-### Stage D: 75% of Users
-
-*Test a larger user population to ensure larger usage patterns expose no issues.*
-
-#### Planning
-
-- **Percentage of Users:** 75%
-
-#### Results
-
-- **Date completed:** 
-- **Number of users:** [To be filled in]
-- **Metrics at this stage (per success criteria):**
-  - [ ] No increase in errors on the letter download page
-  - [ ] Successful downloads shown in GA Report
-- **Rollback triggered?** [ ] Yes  [ ] No
-- **Was any downstream service affected by the change?** __
-- **Types of errors logged:** [None / describe]
-- **What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?** [Document or N/A]
-
----
-
-### Stage E: 100% of Users
+### Stage D: 100% of Users
 
 #### Planning
 
@@ -187,7 +165,7 @@ Rollback will be done by disabling feature flags. To disable FMP letter availabi
 
 #### Results
 
-- **Date completed:** 
+- **Date completed:**  Enabled to 100% on 4/8/26
 - **Number of users:** [To be filled in]
 - **Metrics at this stage (per success criteria):**
   - [ ] No increase in errors on the letter download page
