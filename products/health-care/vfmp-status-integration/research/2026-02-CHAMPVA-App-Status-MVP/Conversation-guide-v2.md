@@ -144,7 +144,7 @@ Before we start, I have a few things that I want to go over with you:
 > - Then, ask the notetaker and observers to **give a brief, camera-on introduction, like their first name and position with VA.gov.** (This is meant to humanize the interaction of observation for the participant.)
 > - Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth
      
-- *(If applicable)* **You'll be interacting with a prototype today.** This is a demo tool that may not function exactly the way you expect. Some areas of the prototype will be clickable, and some will not. <mark>**Since it's a demo, none of your actions will affect your VA information or benefits.**</mark>
+- *~~(If applicable)~~* **You'll be interacting with a prototype today.** This is a demo tool that may not function exactly the way you expect. Some areas of the prototype will be clickable, and some will not. <mark>**Since it's a demo, none of your actions will affect your VA information or benefits.**</mark>
   
 - **Are you comfortable if I record my screen and audio as we talk today?** We use the recordings to confirm that we have captured your opinions accurately. After we complete the analysis, the recordings are destroyed, and none of your comments will be attributed to you directly. We either report findings out in groups (i.e., 5 out of 10 participants said this), or if we want to quote you directly, we take away any identifying information and give you a participant ID, like P7.
    - **Knowing that, are you comfortable if I record my screen and audio as we talk today?**
@@ -329,7 +329,7 @@ Take a moment to review this page and the other tabs, and think out loud as you 
 ### [Overview tab] 
 - Now, I want to ask more about the Overview tab. Can you go there for me?
   - In your own words, can you explain what happens in each of these steps?
-  - On a scale of 1-5 (with 1 being very hard and 5 being very easy) - how difficult or easy was it to understand the steps an application goes through after it is submitted? Why? 
+  - ~~On a scale of 1-5 (with 1 being very hard and 5 being very easy) - how difficult or easy was it to understand the steps an application goes through after it is submitted? Why? ~~
 
 Great! That’s the end of our first scenario. To go to the next scenario, scroll all the way down to the bottom of the screen. Then, click the button that says “Proceed to the next scenario”. 
 
@@ -353,7 +353,7 @@ Let’s say a week has passed and you want to find out what has happened with yo
 - Take a look at this page and tell me, in your own words, what has happened with your application.
   - What step is the application on? Does that make sense to you?
   - What has happened with Jane’s application? With John Doe Jr.’s?
-- On a scale of 1-5 (with 1 being very hard and 5 being very easy) - how difficult or easy was it to understand this screen? Why did you give it that rating?
+- ~~On a scale of 1-5 (with 1 being very hard and 5 being very easy) - how difficult or easy was it to understand this screen? Why did you give it that rating?~~
 - What would you do next?
   - [If they WOULD NOT FOLLOW the Review request link] For the scenario today, let's click on the link anyway. 
 
@@ -422,13 +422,31 @@ That’s the end of our scenarios for today. You can stop sharing your screen an
 > - What do they expect to be included in the status tool based on the home page?
 > - Do they think it makes sense to have their CHAMPVA application in the status tool? 
 
+
+
+
 # Post-Task Interview - 5 minutes
+Thank you we have gone through all of the scenarios and we have some additional questions to ask. 
 
 - Can you tell me about your overall impression of this prototype?
 - [If the participant is a current CHAMPVA beneficiary or applied in the past] How would you compare the post-application experience you just had to your previous experience after applying for CHAMPVA? Why?
 - Now that you’ve seen the prototype, how would you like to be notified or find updates on your application?
-- Was there anything confusing or unexpected in this prototype?
-- If you could wave a magic wand and change anything about the prototype or the overall experience after you submit an application for CHAMPVA, what would it be?
+- ~~Was there anything confusing or unexpected in this prototype?~~
+
+For this next section, I'm going to read a series of 10 statements, and I would like you to rate how much you agree or disagree with each one on a scale from 1 to 5, where 1 means Strongly Disagree and 5 means Strongly Agree. There are no right or wrong answers we're interested in your honest reaction to the experience you just had.
+
+  1. I think that I would like to use this website frequently.
+  2. I found the website unnecessarily complex.
+  3. I thought the website was easy to use.
+  4. I think that I would need the support of a technical person to be able to use this website.
+  5. I found the various functions in this website were well integrated.
+  6. I thought there was too much inconsistency in this website.
+  7. I would imagine that most people would learn to use this website very quickly.
+  8. I found the website very cumbersome to use.
+  9. I felt very confident using the website.
+  10. I needed to learn a lot of things before I could get going with this website.
+
+- Overall if you could wave a magic wand and change anything about the prototype or the overall experience after you submit an application for CHAMPVA, what would it be?
 - Do the observers have any questions?
 - Any questions for me?  
 
