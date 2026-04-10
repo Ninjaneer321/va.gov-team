@@ -144,7 +144,7 @@ If any of the following are false:
 flowchart TD
     A(Direct URL to My VA Health - OH) --> B(Sign-in)
     B --> C(LOA3 & ID-verified?)
-    C --> |Yes| D(has Columbus facility_id?)
+    C --> |Yes| D(has pre-transitioned facility_id?)
     C --> |No| E(ERROR: can't sign in)
     D --> |Yes| F(new interstitial)
     D --> |No| G(Has other named OH facility_id?)
