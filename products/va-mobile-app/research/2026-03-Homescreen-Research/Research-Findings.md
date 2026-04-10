@@ -294,11 +294,11 @@ This research supports measurement of this KPI by....
 
 ### Tools used for Synthesis
 
-*List tools or techniques used, e.g., Mural, affinity mapping.*  
+*Excel, Figjam*  
   
 ### Pages and applications used
 
-*Link to prototypes or pages tested during the study.*  
+*[Link to prototypes or pages tested during the study.](https://www.figma.com/proto/qVqjxULrC26YoIbvnZKOwp/IA---Nav?node-id=1267-111661&t=h7BX9QDFmQDGn1Dk-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1267%3A111661))*  
 
 
 ### Other supporting documents created
