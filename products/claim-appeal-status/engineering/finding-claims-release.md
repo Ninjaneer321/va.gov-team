@@ -24,56 +24,28 @@ Use matching day-of-week windows to account for weekday/weekend traffic differen
 - Values: Event count
 - Cell Type: Bar chart
 - Filters:
-  - Page path and screen class contains `/track-claims/your-claims`
   - DataLayer Event Name exactly matches `int-button-segmented-click`
+  - Page path and screen class matches regex `.*track-claims/your-claims/?`
 - Note: The GA4 event name is `button`, but that captures all button clicks on the page. Using `DataLayer Event Name = int-button-segmented-click` isolates just the segmented filter clicks. The Link text column will show "In progress", "Closed", and "All".
-- What to watch for: All three labels should appear. Expect Closed and All to have the most clicks since In progress is the default.
 
-| Filter Label | Week 1 Count | Week 2 Count | Notes |
-|---|---|---|---|
-| In progress | | | |
-| Closed | | | |
-| All | | | |
-
-### On This Page Component Clicks
+### On This Page Clicks
 
 - Goal: Monitor all On This Page clicks. Confirm the new heading "If you can't find your claim, decision review, or appeal" appears and is being clicked.
 - Rows: Link text
 - Values: Event count
 - Cell Type: Bar chart
 - Filters:
-  - Page path and screen class contains `/track-claims/your-claims`
+  - Page path and screen class matches regex `.*track-claims/your-claims/?`
   - Event name exactly matches `on_this_page`
-- What to watch for: The old heading "What if I can't find my claim, decision review, or appeal?" should disappear. The new heading should appear. Overall click volume should remain stable.
 
-| Link Text | Baseline | Post-Release | Change |
-|---|---|---|---|
-| Totals | 186,054 | | |
-| Your claim letters | 83,360 | | |
-| Your claims, decision reviews, or appeals | 80,749 | | |
-| What if I can't find my claim, decision review, or appeal? | 7,990 | should be 0 | |
-| If you can't find your claim, decision review, or appeal | 0 | should appear | |
-| Additional services | 7,963 | | |
-| Your travel reimbursement claims | 4,924 | | |
-| Contact us | 1,020 | | |
+### Your Claims Events
 
-### All User Events
-
-- Goal: Broad monitoring to catch any unexpected change in standard user interactions.
+- Goal: Monitor all events on the claims landing page only (not detail pages) to catch unexpected changes in user interactions.
 - Rows: Event name, DataLayer Event Name, Link text
 - Values: Event count
 - Cell Type: Bar chart
 - Filters:
-  - Page path and screen class contains `/track-claims/your-claims`
-- What to watch for: No drops in page_view, claims_view_details, or Details link clicks. `accordion` / `int-accordion-expand` events should drop to 0 (the "Find out why we sometimes combine claims" accordion was removed). New `button_segmented` events should appear.
-
-| Event | Baseline | Post-Release | Change | Status |
-|---|---|---|---|---|
-| page_view | 1,977,137 | | | |
-| claims_view_details | 770,451 | | | |
-| link_click / Details | 311,383 | | | |
-| accordion / int-accordion-expand | 98,642 | | should drop to 0 | |
-| button / int-button-segmented-click | N/A (new) | | | |
+  - Page path and screen class matches regex `.*track-claims/your-claims/?`
 
 ### Claim Detail Page Navigation
 
@@ -84,11 +56,6 @@ Use matching day-of-week windows to account for weekday/weekend traffic differen
 - Filters:
   - Page referrer contains `/track-claims/your-claims`
   - Page path and screen class matches regex `.*track-claims/your-claims/[0-9].*`
-- What to watch for: Compare week-over-week. The regex ensures only claim detail paths (which have a numeric ID) are matched, excluding the landing page itself. GA4 "matches regex" requires full string matching, so `.*` anchors are needed on both sides.
-
-| Metric | Baseline | Post-Release | Change | Status |
-|---|---|---|---|---|
-| Total sessions to claim detail pages | 284,052 | | | |
 
 ### Appeal Detail Page Navigation
 
@@ -99,11 +66,6 @@ Use matching day-of-week windows to account for weekday/weekend traffic differen
 - Filters:
   - Page referrer contains `/track-claims/your-claims`
   - Page path and screen class contains `/track-claims/appeals/`
-- What to watch for: Compare week-over-week. Appeal detail paths look like `/track-claims/appeals/A5583/status`.
-
-| Metric | Baseline | Post-Release | Change | Status |
-|---|---|---|---|---|
-| Total sessions to appeal detail pages | 84,922 | | | |
 
 ### Outbound Navigation
 
@@ -112,16 +74,85 @@ Use matching day-of-week windows to account for weekday/weekend traffic differen
 - Values: Sessions
 - Cell Type: Bar chart
 - Filters:
-  - Page referrer contains `/track-claims/your-claims`
-- What to watch for: Top destinations should remain stable (claim letters, claim details, My VA). No unexpected new destinations appearing in high volume.
+  - Page referrer matches regex `.*track-claims/your-claims/?`
 
-| Top Destination | Baseline | Post-Release | Change | Status |
-|---|---|---|---|---|
-| / | 211,012 | | | |
-| /track-claims/your-claim-letters | 149,160 | | | |
-| /track-claims/your-claims | 103,828 | | | |
-| /my-va/ | 70,153 | | | |
-| /track-claims/your-claims/ | 25,154 | | | |
+---
+
+### Report: April 1 vs April 8
+
+Single-day comparison: Wednesday April 1 (pre-release) vs Wednesday April 8 (first full day post-release). Same day of week for a fair comparison.
+
+#### Filter Clicks
+
+| Filter Label | Apr 1 | Apr 8 |
+|---|---|---|
+| Closed | N/A | 18,277 |
+| All | N/A | 13,445 |
+| In progress | N/A | 12,454 |
+
+Users are actively engaging with the filter. Closed has the most clicks (41%), which is expected since In progress is the default. The total of 44,176 filter interactions on day one indicates strong adoption.
+
+#### On This Page Clicks
+
+| Link Text | Apr 1 | Apr 8 | Change |
+|---|---|---|---|
+| Totals | 33,594 | 31,568 | -6% |
+| Your claim letters | 15,253 | 12,845 | -16% |
+| Your claims, decision reviews, or appeals | 14,468 | 14,925 | +3% |
+| What if I can't find my claim, decision review, or appeal? | 1,498 | 1 | replaced |
+| If you can't find your claim, decision review, or appeal | 0 | 1,648 | new |
+| Additional services | 1,405 | 1,354 | -4% |
+| Your travel reimbursement claims | 883 | 706 | -20% |
+| Contact us | 81 | 79 | -2% |
+
+The heading swap from "What if I can't find..." to "If you can't find..." completed cleanly (old dropped to 1, new at 1,648). The new heading is getting +10% more clicks than the old one (1,648 vs 1,498). Contact us is flat, indicating no user confusion.
+
+#### Your Claims Events
+
+| Event | Apr 1 | Apr 8 | Change |
+|---|---|---|---|
+| page_view | 127,799 | 173,485 | +36% |
+| link_click / Details | 56,489 | 48,914 | -13% |
+| accordion / int-accordion-expand | 8 | 12 | negligible |
+| button / int-button-segmented-click | N/A | 44,176 | new |
+
+The +36% page_view increase (45,686 additional views) is almost exactly explained by the 44,176 filter clicks. Each filter click calls `navigate()` to reset pagination, which triggers a new page_view event. This is expected behavior, not a traffic increase.
+
+The -13% drop in Details link clicks (7,575 fewer) could indicate that the default In progress filter helps users find their relevant claims faster, requiring fewer click-throughs. Alternatively, this could be normal day-to-day variation. Worth monitoring over the full week to confirm the trend.
+
+Accordion events remain negligible on the landing page (8 to 12) -- these are site-wide banner/footer accordions only.
+
+#### Claim Detail Page Navigation
+
+| Metric | Apr 1 | Apr 8 | Change |
+|---|---|---|---|
+| Total sessions | 53,580 | 50,605 | -5.5% |
+
+Slight decrease in claim detail navigation. The default In progress filter shows the most relevant claims first, so users may be finding their claims with fewer clicks. A -5.5% change is within normal day-to-day variation. No sign that the filter is hiding claims users need.
+
+#### Appeal Detail Page Navigation
+
+| Metric | Apr 1 | Apr 8 | Change |
+|---|---|---|---|
+| Total sessions | 15,348 | 14,177 | -7.6% |
+
+Slight decrease in appeal detail navigation. Closed appeals are now behind the Closed filter, so a small decrease is plausible if some users haven't discovered the filter yet. However, -7.6% on a single day is within normal variation. Worth monitoring -- if this trend continues over the full week, it could indicate users are having trouble finding closed appeals.
+
+#### Outbound Navigation
+
+| Top Destination | Apr 1 | Apr 8 | Change |
+|---|---|---|---|
+| /track-claims/your-claim-letters | 14,579 | 20,624 | +41% |
+| / | 13,912 | 14,048 | +1% |
+| /track-claims/your-claims (combined with trailing slash) | 15,862 | 21,457 | +35% |
+| /my-va/ | 5,100 | 5,077 | -0.5% |
+| /contact-us/ | 128 | 123 | -4% |
+
+The +41% increase in claim letters navigation is notable.
+
+The +35% increase in self-navigation (/track-claims/your-claims) is expected -- filter clicks trigger `navigate()` to reset pagination, generating additional navigation events.
+
+Homepage, My VA, and Contact us are all flat, confirming no disruption to normal navigation patterns and no frustration signal.
 
 ---
 
