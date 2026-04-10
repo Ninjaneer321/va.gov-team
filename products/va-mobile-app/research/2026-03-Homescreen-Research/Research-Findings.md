@@ -172,7 +172,7 @@ This research will be a remote moderated concept testing study using Zoom. Parti
 1. Users will expect to find new content such as new Secure messages and items requiring their review and action on the homescreen.
 **“Definitely True”**: All users felt that items requiring attention and action belonged on the homescreen such as alerts, updates from the VA, reminders, information requiring their review, and tasks to complete. 
 2. Users very familiar with the app will expect to find Veteran status card and disability rating and payments on the homescreen as reflects the current live app layout.
-
+**“Likely False”**: Of the 8 users who were familiar with the app, none expected all of these items on the homescreen, and only a few expected some of these on the homescreen. 
 3. Users less familiar with the app will expect to find Veteran status card and dependents verification in Profile.
 4. Users less familiar with the app will expect to find disability payments and rating in Profile or in Payments.
 5. Users will sometimes want more information than is presented on homescreen to help them with some tasks such as managing prescriptions, due dates for Action required items, or for appointments preparation. 
