@@ -10,16 +10,16 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 1 study:
 
-### [Conversation Guide for Proactive Benefits Outreach Exploration, November 2023](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/proactive-benefits/research/2023-11-Outreach Exploration)
+### [Conversation Guide for Proactive Benefits Outreach Exploration, November 2023](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/proactive-benefits/research/2023-11-Outreach%20Exploration)
 
 - **Date**: 2023-11
 - **Methodology**: Semi-structured interviews
 - **Participants**: Veterans, Caregivers
-- **Path**: [`products/proactive-benefits/research/2023-11-Outreach Exploration`](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/proactive-benefits/research/2023-11-Outreach Exploration)
+- **Path**: [`products/proactive-benefits/research/2023-11-Outreach Exploration`](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/proactive-benefits/research/2023-11-Outreach%20Exploration)
 - **Files**:
-  - [Research Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/proactive-benefits/research/2023-11-Outreach Exploration/research-plan.md)
-  - [Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/proactive-benefits/research/2023-11-Outreach Exploration/research-findings.md)
-  - [Conversation Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/proactive-benefits/research/2023-11-Outreach Exploration/discussion-guide.md)
+  - [Research Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/proactive-benefits/research/2023-11-Outreach%20Exploration/research-plan.md)
+  - [Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/proactive-benefits/research/2023-11-Outreach%20Exploration/research-findings.md)
+  - [Conversation Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/proactive-benefits/research/2023-11-Outreach%20Exploration/discussion-guide.md)
 
 
 ## Ask VA *(Digital Experience)*
