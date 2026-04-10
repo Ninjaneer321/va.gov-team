@@ -12,14 +12,14 @@ background:
   problem_statement: "Currently, Veterans lack self-service options to specify and update their health care scheduling preferences. This limitation leads to inefficient scheduling processes, increased administrative workload.  Elizabeth Dole Act specifies that VA must enable Veterans to document the following 4 preferences regarding community care scheduling: How and when the Veteran prefers to be contacted about an appointment for health care; Whether the Veteran prefers to schedule appointments without the assistance of the Department, if able; Whether the Veteran prefers to select a provider without the assistance of the Department, if able; Whether Veterans prefer appointments to be scheduled during certain days or times of day."
   product_location: "This is part of the authenticated experience on VA.gov."
   user_familiarity: "This MVP expands preferences to include appointment scheduling preferences in Profile on VA.gov."
-  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/appointment-scheduling-preferences"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/scheduling-preferences"
 
 # Research Design
 methodology: "Remote, moderated, one-hour concept testing sessions involving interview questions and interactions with 2 prototypes. A total of 18 participants will be divided into 2 main groups.  Each main group will be further divided into 3 sub-groups, with 3 participants in each sub-group.  Both main groups will begin with Task 1.  Group 1 (9 participants): Start with Task 2, then move to Task 3.  Group 2 (9 participants): Start with Task 3, then move to Task 2."
-research_format: 
+research_format:
   location: remote
   moderated: true
-  
+
 # Research Goals & Questions
 research_goals:
   - goal_1: "Understand the mental model of users to determine where all health preferences should be selected (could be multiple places)."
@@ -48,13 +48,13 @@ expected_outcomes: "Determine where these preferences should live.  Understand t
 recruitment:
   recruiting_partner: "Perigean"
   approach: "Perigean will recruit all participants."
-  
+
   primary_criteria:
     - "Must be enrolled in VA healthcare"
     - "Must have either a desktop/laptop, mobile device, or a tablet and must be willing to share their screen while they use the prototype"
     - "At least 6 Veterans with cognitive disabilities"
     - "Please do not recruit Veterans who use assistive tech devices, as the Figma prototyping tool is not compatible with these devices"
-    
+
   secondary_criteria:
     - "50% age 55-64+"
     - "25% Lives in a rural area"
@@ -64,7 +64,7 @@ recruitment:
     - "3% Asian"
     - "1% Native American"
     - "1% LGBTQ"
-    
+
   screener_questions:
     - question: "Do you have an email and password for either Login.gov or ID. me that you use to sign into VA.gov?"
       qualifying_response: "Yes - move to question 2; No - do not recruit"
@@ -81,32 +81,32 @@ participants:
   dependents: 0
   total_recruited: 27
   completed_sessions_goal: 18
-  
+
 # Timeline & Sessions
 timeline:
   pilot_date: "TBD"
   pilot_participant: "TBD"
   research_dates: "2025-12-08 to 2025-12-15"
-  
+
 session_details:
   duration_minutes: 60
   buffer_minutes: 60
-  max_sessions_per_day: See moderators' schedule for minimum and maximum sessions per day by moderator. 
-  
+  max_sessions_per_day: See moderators' schedule for minimum and maximum sessions per day by moderator.
+
 # Strategic Alignment
 octo_priorities:
   - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits."
-      
+
 veteran_journey_phases:
   - "Taking care of myself"
   - "Retiring"
   - "Aging"
-    
+
 # Research Repository Tracking
 related_research:
   conversation_guide: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2025-10-dole-act-appointment-scheduling-preferences/conversation-guide.md"
   prototype: "https://www.figma.com/proto/NoK2Isx56zi0ZSSNA510Wd/Dole-Act--Concept-Testing-Prototypes?node-id=41-24048&p=f&t=NPm1Q2OOD6M9VB5g-1&scaling=min-zoom&con"
-    
+
 tags:
   - "health-care"
   - "appointments"
@@ -118,24 +118,24 @@ tags:
 
 # Research Plan for Health Care (Appointments), E. Dole Act Section 145 Appointment Scheduling Preferences, December 2025
 > [! NOTE]
-> *Questions about how to set up your research study?  Reach out in the [#research-ops](https://dsva.slack.com/archives/C0216PL32HJ) Slack channel. * 
+> *Questions about how to set up your research study?  Reach out in the [#research-ops](https://dsva.slack.com/archives/C0216PL32HJ) Slack channel. *
 
 ## Background 🏗️
 <details><summary>Briefly describe the background of your product. </summary>
 
 `What problem is your product trying to solve?`
 
-Currently, Veterans lack self-service options to specify and update their health care scheduling preferences.  This limitation leads to inefficient scheduling processes, increased administrative workload. 
+Currently, Veterans lack self-service options to specify and update their health care scheduling preferences.  This limitation leads to inefficient scheduling processes, increased administrative workload.
 
 Elizabeth Dole Act specifies that VA must enable Veterans to document the following 4 preferences regarding community care scheduling:
-- How and when the Veteran prefers to be contacted about an appointment for health care. 
+- How and when the Veteran prefers to be contacted about an appointment for health care.
 - Whether the Veteran prefers to schedule appointments without the assistance of the Department, if able.
 - Whether the Veteran prefers to select a provider without the assistance of the Department, if able.
 - Whether Veterans prefer appointments to be scheduled during certain days or times of day.
 
 ### Desired User Outcomes
 - As a Veteran, I want VA to know my preferences for self-scheduling, so that I am connected to the best and fastest option for me to make my appointments.
-- As a scheduler, I want to know the Veteran's preferences, so I may connect them to the soonest, best care. 
+- As a scheduler, I want to know the Veteran's preferences, so I may connect them to the soonest, best care.
 
 `Where is your product situated on VA. gov?  (ex: auth vs. unauth)`
 
@@ -147,19 +147,19 @@ This MVP expands preferences to include appointment scheduling preferences in Pr
 
 `Product Brief`
 
-**[E. Dole Act, Section 145 Appointment Scheduling Preferences product brief](https://github.com/department-of-veterans-affairs/va. gov-team/blob/master/products/identity-personalization/profile/appointment-scheduling-preferences).**
+**[E. Dole Act, Section 145 Appointment Scheduling Preferences product brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/scheduling-preferences).**
 
 </details>
 
-### [OCTO-DE Priorities](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/strategy/OCTO-DE%20Priorities%202025.md) 
+### [OCTO-DE Priorities](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/strategy/OCTO-DE%20Priorities%202025.md)
 
 <details><summary>Which OCTO priorities does this research support?  Work with your VA lead and product manager as needed.</summary>
 
 `Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits.`
 
-> - **Key Result 1:** Improve satisfaction with our web and mobile products by 5 points. 
+> - **Key Result 1:** Improve satisfaction with our web and mobile products by 5 points.
 > - **Key Result 2:** We have reduced the total time Veterans spend waiting for a response from our digital experiences by 50%, towards a goal of less than 4 seconds per transaction.
-> - **Key Result 3:** 100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error. 
+> - **Key Result 3:** 100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error.
 
 </details>
 
@@ -177,7 +177,7 @@ This MVP expands preferences to include appointment scheduling preferences in Pr
 </details>
 
 > [!TIP]
-> Delete journeys not supported by this research. 
+> Delete journeys not supported by this research.
 
 ## Research Goals 🥅
 `What are you trying to learn from this research?`
@@ -217,7 +217,7 @@ This MVP expands preferences to include appointment scheduling preferences in Pr
 **`2.` What information do Veterans wish schedulers already knew about their preferences, so they didn't have to share that information with them each time?**
 
 **`3.` Where do Veterans expect to find all health preferences? **
-   - Do some preferences belong in different sections? 
+   - Do some preferences belong in different sections?
    - What would Veterans expect to find in scheduling preferences?
    - Should some preferences be found in multiple sections that are crosslinked?
 
@@ -237,7 +237,7 @@ This MVP expands preferences to include appointment scheduling preferences in Pr
 
 ### Hypotheses
 > [!NOTE]
-> Remember to constrain the hypotheses to the goals of your study! 
+> Remember to constrain the hypotheses to the goals of your study!
 
 **Think through these prompts to develop strong hypotheses:**
 
@@ -253,10 +253,10 @@ This MVP expands preferences to include appointment scheduling preferences in Pr
 
 1. Veterans will not find generic male/female provider preferences of value unless the Veteran can specify the provider's gender by specialty.
 2. Veterans will not find the best method of contact of value unless they can specify the method of contact by day and time of day.
-3.  Veterans will not find appointment time preferences of value unless they can specify the preferences by the day and time window. 
+3.  Veterans will not find appointment time preferences of value unless they can specify the preferences by the day and time window.
 4. Veterans will not find general time frames for contact by phone (such as morning or evening) of value unless they can specify the window that they are available to receive the call.
-5. Veterans would expect some preferences to exist at a global level, such as in profile, while other preferences should exist at the episode of care level, such as when scheduling one appointment. 
-6. Veterans will expect to find certain health preferences in multiple places. 
+5. Veterans would expect some preferences to exist at a global level, such as in profile, while other preferences should exist at the episode of care level, such as when scheduling one appointment.
+6. Veterans will expect to find certain health preferences in multiple places.
 
 ---
 
@@ -275,11 +275,11 @@ This MVP expands preferences to include appointment scheduling preferences in Pr
 
 </details>
 
-Remote, moderated, one-hour concept testing sessions involving interview questions and interactions with 2 prototypes. 
+Remote, moderated, one-hour concept testing sessions involving interview questions and interactions with 2 prototypes.
 
-A total of 18 participants will be divided into 2 main groups.  Each main group will be further divided into 3 sub-groups, with 3 participants in each sub-group. 
+A total of 18 participants will be divided into 2 main groups.  Each main group will be further divided into 3 sub-groups, with 3 participants in each sub-group.
 
-Both main groups will begin with Task 1. 
+Both main groups will begin with Task 1.
 
 **Group 1 (9 participants): Start with Task 2, then move to Task 3**
 - Sub-group 1a: Starts with prompt "Find where you would select your preference for a male or female provider."
@@ -294,7 +294,7 @@ Both main groups will begin with Task 1.
 <details><summary>Additional resources</summary>
 
 - Please review the [PRA primer](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/what-is-paperwork-reduction-act. md) to educate yourself on how PRA affects your research.
-- Review the [Perigean recruitment guidance](https://depo-platform-documentation.scrollhelp.site/research-design/Recruiting-Participants. 1958773044.html) to understand how Perigean recruits, and what to expect. 
+- Review the [Perigean recruitment guidance](https://depo-platform-documentation.scrollhelp.site/research-design/Recruiting-Participants. 1958773044.html) to understand how Perigean recruits, and what to expect.
 - If conducting testing on mobile, refer to the [mobile research guidelines. ](https://depo-platform-documentation.scrollhelp.site/research-design/Conducting-Research-Sessions.1958773061.html#Conducting)
 - If conducting [unmoderated usability research, refer to the guidance here.](https://depo-platform-documentation.scrollhelp.site/research-design/Planning-Unmoderated-Studies.1904738369.html)
 - If conducting [research with disabled Veterans, refer to this checklist](https://depo-platform-documentation.scrollhelp.site/research-design/research-with-assistive-technology-users) and [follow disability inclusion guidance.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/inclusive-research-recommendations.md)
@@ -311,9 +311,9 @@ Where will you be holding the research sessions?  Be sure to include whether thi
 - [X] **Remote**
 - [ ] **In-person**
 
-Sessions will take place remotely via the Zoom meeting platform. 
+Sessions will take place remotely via the Zoom meeting platform.
 
-**Points of Contact:** 
+**Points of Contact:**
 - Slack feedback channel and MS Teams chat
 - Nina Anusavice
 - Tim Licitra
@@ -341,17 +341,17 @@ Provide a link to any materials you need to run your study, including any materi
 ### Recruitment approach
 *Who is your intended audience for this research (e.g.  Veterans, caregivers, VSOs, SMEs), and how will you recruit them?*
 
-We will partner with Perigean to recruit 22 Veterans; all efforts will be made to recruit a diverse sample. 
+We will partner with Perigean to recruit 22 Veterans; all efforts will be made to recruit a diverse sample.
 
-Perigean will recruit all participants. 
+Perigean will recruit all participants.
 
 ### Recruitment criteria
 
 - **Write any recruitment criteria for experience or scenarios as screener questions with qualifying responses.  Perigean will use these verbatim to recruit participants.**
-- Consider providing links to products and/or clear descriptions to ensure participants understand the question. 
+- Consider providing links to products and/or clear descriptions to ensure participants understand the question.
   Example: Have you been to a VA urgent care facility in the last 6 months? [answer should be yes to qualify.]
 
-- The more recruitment criteria you have, the less likely that a small sample of participants will be able to meet all criteria. 
+- The more recruitment criteria you have, the less likely that a small sample of participants will be able to meet all criteria.
 - Consider how you could leverage the [lean maximum variation sampling (MVS) approach](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/recruitment.md)
 - Perigean will consider each cohort as a separate recruitment effort, increasing the chances of meeting all criteria for your study.
 
@@ -389,19 +389,19 @@ Perigean will recruit all participants.
 
 1. Do you have an email and password for either Login. gov or ID.me that you use to sign into VA.gov?
    - If Yes, then move to question 2.
-   - If No, then do not recruit. 
+   - If No, then do not recruit.
 
 2. Are you enrolled in VA healthcare?
    - If Yes, then move to question 3.
    - If No, then do not recruit.
 
-3. Have you scheduled or attempted to schedule a medical appointment in the last 12 months? 
-   - If yes, then move to question 4. 
+3. Have you scheduled or attempted to schedule a medical appointment in the last 12 months?
+   - If yes, then move to question 4.
    - If no, then do not recruit.
 
 4. Have you been diagnosed with (formally or informally) a cognitive disability?  This includes any intellectual disability, ADHD, Autism Spectrum Disorder, severe, persistent mental illness, brain injury, or other cognitive disabilities.
-   - If Yes, then recruit at least 6. 
-   - If No, then recruit for other requirements. 
+   - If Yes, then recruit at least 6.
+   - If No, then recruit for other requirements.
    - I prefer not to answer.
 
 ## Timeline 🗓️
@@ -414,8 +414,8 @@ Perigean will recruit all participants.
     - December 1: 2-6pm EST
     - December 2: 9:30am -1pm EST
     - Flexible the rest of the week.
-- 
-- Perigean notetaker - Yes, for every session unless noted. 
+-
+- Perigean notetaker - Yes, for every session unless noted.
 - Timeline: TBD
 
 ### Prepare
@@ -439,7 +439,7 @@ Perigean will recruit all participants.
 - `Maximum Sessions per day:` **See Availability table below.**
 
 ### Availability
-When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
+When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**.
 
 > [!NOTE]
 > We recommend providing availability outside of work hours, as many Veterans are only available before and after working times, and live across the U.S.
@@ -449,7 +449,7 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 
 **Moderating Schedule**
 
-**Note:** Please stop further recruitment once 18 sessions have been completed. 
+**Note:** Please stop further recruitment once 18 sessions have been completed.
 All times are in EST.
 
 | Date   | Tim (1-2 sessions)         | Nina (2-3 sessions)          |
@@ -465,7 +465,7 @@ All times are in EST.
 ## Team Roles 🕵️👩‍💻👩‍🔬
 
 > [!NOTE]
-> **Please do not include email addresses in this section. ** We previously required email addresses.  VA's GitHub policy restricts personal email disclosure. 
+> **Please do not include email addresses in this section. ** We previously required email addresses.  VA's GitHub policy restricts personal email disclosure.
 >
 > **Please list the names of people in each role. ** In the Slack study channel, send an email and primary phone number for the moderator.  Also send emails for the notetaker, accessibility specialist, and other key team members.
 
