@@ -84,7 +84,8 @@ consent_for_clips: true
 > 
 > Use the [GitHub Copilot Conversation Guide Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/conversation-guide-frontmatter-completion-prompt.md) to automatically generate structured metadata from your completed conversation guide.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags based on your tasks and research objectives.
 
-# Conversation Guide for VFMP Status Integration, Health Apps in Claims Status Tool, CHAMPVA Application Status MVP 02/2026
+
+# Conversation Guide for VFMP Status Integration, Health Apps in Claims Status Tool, CHAMPVA Application Status MVP 04/2026
 
 ## Moderator logistics 📋✅
 ### Before all sessions 
@@ -144,15 +145,15 @@ Before we start, I have a few things that I want to go over with you:
 > - Then, ask the notetaker and observers to **give a brief, camera-on introduction, like their first name and position with VA.gov.** (This is meant to humanize the interaction of observation for the participant.)
 > - Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth
      
-- *~~(If applicable)~~* **You'll be interacting with a prototype today.** This is a demo tool that may not function exactly the way you expect. Some areas of the prototype will be clickable, and some will not. <mark>**Since it's a demo, none of your actions will affect your VA information or benefits.**</mark>
+- *~~(If applicable)~~* **You'll be interacting with a prototype today.** This is a demo tool that may not function exactly the way you expect. Some areas of the prototype will be clickable, and some will not. Since it's a demo, none of your actions will affect your VA information or benefits.
   
 - **Are you comfortable if I record my screen and audio as we talk today?** We use the recordings to confirm that we have captured your opinions accurately. After we complete the analysis, the recordings are destroyed, and none of your comments will be attributed to you directly. We either report findings out in groups (i.e., 5 out of 10 participants said this), or if we want to quote you directly, we take away any identifying information and give you a participant ID, like P7.
    - **Knowing that, are you comfortable if I record my screen and audio as we talk today?**
 
    <mark>**[Record answer here]**</mark>
      
-- **Would you be comfortable if we decided to use a clip of our session with you to help our partners understand Veterans’ experiences?** One of the ways that we share findings with our partners across the VA is by showing short video clips of sessions with Veterans. In these video clips, we blur out any information that could possibly be used to identify you, like your onscreen image. Sharing these video clips can be a compelling way for our partners to better understand what Veterans go through when using VA.gov and our digital products. These clips will not be shared outside of the VA. We don't know at this point if we will or not, but we like to ask ahead of time. At the end of the interview, I'll also confirm that this is okay with you, so you will get a chance to veto this once you know what we've discussed.
-   - **Knowing this, would you be comfortable if we decided to use a clip of our session with you to help our partners understand Veteran's experiences?**
+- **Would you be comfortable if we decided to use a clip of our session with you to help our partners understand Veterans’ and their families experiences?** One of the ways that we share findings with our partners across the VA is by showing short video clips of sessions with Veterans. In these video clips, we blur out any information that could possibly be used to identify you, like your onscreen image. Sharing these video clips can be a compelling way for our partners to better understand what Veterans go through when using VA.gov and our digital products. These clips will not be shared outside of the VA. We don't know at this point if we will or not, but we like to ask ahead of time. At the end of the interview, I'll also confirm that this is okay with you, so you will get a chance to veto this once you know what we've discussed.
+   - **Knowing this, would you be comfortable if we decided to use a clip of our session with you to help our partners understand Veteran's and their families experiences?**
  
    <mark>**[Record answer here]**</mark>
 
@@ -177,8 +178,7 @@ Before we look at the prototype, let’s start with a few warm-up questions.
 
 1. Do you have a VA.gov account? 
 - [IF YES:]
-  - How often are you logging into VA.gov?
-  - For what tasks?
+  - How often are you logging into VA.gov and for what tasks?
 - [IF NO:]
   - Have you ever visited the VA.gov website?
     - [IF YES:]
@@ -227,14 +227,14 @@ Please open this link and share your screen (phone) or web browser (desktop). Le
 
 ### Screen sharing instructions (if needed) 
 
-- In the Zoom application on your computer, there's a row of buttons at the bottom. In the center is a button that says **Share** (on phone, may need to scroll sideways or click **More...**)
-  - If you don't tap the screen for a while, all the buttons at the bottom will hide. To get them back, you can tap/click anywhere on the screen, and they'll show up again.
-  - (If you have more than one screen, the row of buttons may be on the screen that's being shared) 
-- Now I'd like you to share your screen with me. Tap on the button that says **Share**. Then there will be options for what to share. Please choose **"Screen"** (phone) or your web browser.
-  - iPad: Broadcast screen [Avoid AI Companion, which is a new option next to “Share” in the Zoom buttons] 
-- Great, now I can see your screen! Thank you for your patience in figuring this out.
+> - In the Zoom application on your computer, there's a row of buttons at the bottom. In the center is a button that says **Share** (on phone, may need to scroll sideways or click **More...**)
+ > - If you don't tap the screen for a while, all the buttons at the bottom will hide. To get them back, you can tap/click anywhere on the screen, and they'll show up again.
+  > - (If you have more than one screen, the row of buttons may be on the screen that's being shared) 
+> - Now I'd like you to share your screen with me. Tap on the button that says **Share**. Then there will be options for what to share. Please choose **"Screen"** (phone) or your web browser.
+ > - iPad: Broadcast screen [Avoid AI Companion, which is a new option next to “Share” in the Zoom buttons] 
+> - Great, now I can see your screen! Thank you for your patience in figuring this out.
   
-- _If having difficulty moving windows around or opening the prototype, you could request control of the participant’s screen and mouse in Zoom:_ 
+> - _If having difficulty moving windows around or opening the prototype, you could request control of the participant’s screen and mouse in Zoom:_ 
 < Name >’s screen tab > Request remote control. Then you can move/resize browser (but not zoom windows/buttons) and type into browser bar. The participant may need to minimize the zoom video view, and drag the zoom buttons to the bottom of the screen so out of the way. 
 
 ## Scenario 1a: My VA homepage - 5 minutes 
@@ -250,9 +250,9 @@ For the first scenario I'd like you to imagine that you submitted a CHAMPVA appl
 ### [MyVA] 
 If you wanted to find out what is happening with your CHAMPVA application, can you show me what you would do next?  Take a moment to review this page and think out loud as you go, but don’t click on anything yet – so I can get your feedback on this page before we move on.  
 
-[Let the user explore. As they navigate, probe if they pause or seem to find anything confusing.] 
+[Let the user explore. As they navigate, <mark>probe</mark> if they pause or seem to find anything confusing.] 
 
-- [If they would click “Check status details” or “Track claims, decision reviews, and applications” link]
+- **[If they would click “Check status details” or “Track claims, decision reviews, and applications” link]**
   - What do you think would happen if you click on the link?
     - Got it, we’ll go back to that.
   - For now, let's zoom out. Is this section where you expected to find your application?
@@ -264,7 +264,7 @@ If you wanted to find out what is happening with your CHAMPVA application, can y
       - Okay, go ahead and click on Completed forms.
       - Is this what you expected to see?
         
-- [If they would click Completed forms accordion]
+- **[If they would click Completed forms accordion]**
   - Okay, go ahead and click on Completed forms.
     - Is this what you expected to see?
     - What do you expect to find in the Forms section?
