@@ -106,7 +106,7 @@ Last updated: March 2026
 
 ### PDF download available 
 
-Description: PDF downloads are optional, and can appear in all statuses other than DRAFT. 
+Description: PDF downloads are optional, and can appear in all statuses other than DRAFT. PDF downloads are content-disposition links which trigger a native download.
 
 * **Format:** [Stay informed of their form submission status](https://design.va.gov/patterns/help-users-to/stay-informed-of-their-application-status)  
 * [Link to design](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5077-16327&t=fWVBE4rdN5M0wajx-1)   
@@ -124,6 +124,7 @@ The download link only renders when:
   * /v0/my\_va/submission\_statuses is a response property
 
 **Important:** pdfSupport should only be set to true if the form API actually generates a PDF and saves it to the designated S3 bucket. If a PDF is not generated and stored, no download URL can be retrieved, which will cause the download button to appear but fail when the user attempts to download the file.
+
 
 ## Errors 
 
