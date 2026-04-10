@@ -28,7 +28,8 @@ Before enabling your feature toggle in production, you'll need to:
 
 ## **Define the Rollback process** 
 
-* Developer, Product Manager, and OCTO representative will monitor analytics and logging at each rollout phase. These individuals will coordinate with the Debt Management Center (DMC) to ensure the Overpayment API keeps up with the volume of requests.   
+* Matt Guest and Natalie Gibbons will monitor analytics and logging at each rollout phase and loop in the Financial Management team. Denise Coveyduc will be responsible for coordinating with the Debt Management Center (DMC) to ensure the Overpayment API keeps up with the volume of requests.
+* The MFS team will coordinate with the VA Mobile App Tech Lead, Jon Bindbeutel, to move to the next release phases or roll back the feature on the VAHB app, as the Mobile App team is the only authorized team to make those adjustments. 
 * If there is a significant increase in overpayment API errors or unexpected behavior, the team will disable the feature flag for all users. 
 
 ### **Phase I: moderated production testing (also known as User Acceptance Testing, or UAT)**
