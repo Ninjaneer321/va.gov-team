@@ -252,6 +252,7 @@ If you wanted to find out what is happening with your CHAMPVA application, can y
 
 [Let the user explore. As they navigate, <mark>probe</mark> if they pause or seem to find anything confusing.] 
 
+**Flow 1 - Start in Claims and Applications Section**
 - **[If they would click “Check status details” or “Track claims, decision reviews, and applications” link]**
   - What do you think would happen if you click on the link?
     - Got it, we’ll go back to that.
@@ -260,39 +261,41 @@ If you wanted to find out what is happening with your CHAMPVA application, can y
     - What else do you expect to be in this section?
   - Before we move on, I want you to scroll down to the section called "Forms."
     - What do you expect to find in this section?
-    - [If they would click Completed forms accordion]
+    - **<mark>[If they would click Completed forms accordion]</mark>**
       - Okay, go ahead and click on Completed forms.
       - Is this what you expected to see?
-        
+
+**FLow 2 - Start in Forms Section**        
 - **[If they would click Completed forms accordion]**
   - Okay, go ahead and click on Completed forms.
     - Is this what you expected to see?
     - What do you expect to find in the Forms section?
   - Now, what would you do next?
-    - [If they would call] What would you ask about?
+    -  **<mark>[If they would call]</mark>**
+        - What would you ask about?
       - Is there anything else you would do on this page?
-      - [If they don’t scroll up] Could you scroll back up to the top of the page and look at the Claim and application status section?
-    - [If they would click “Check status details” or “Track claims, decision reviews, and applications” link]
+        -  **<mark>[If they don’t scroll up]</mark>** Could you scroll back up to the top of the page and look at the Claim and application status section?
+    -  **<mark>[If they would click “Check status details” or “Track claims, decision reviews, and applications” link]</mark>**
       - What do you think would happen if you click on the link?
         - Got it, we’ll go back to that.
       - For now, let's zoom out. Is this section where you expected to find your application?
         - If not, where would you expect it to be?
         - What else do you expect to be in this section? 
+    -  **<mark>[If they don’t know what to do next]</mark>** Could you look at the Claim and application status section? 
 
-- [If they don’t know what to do next] Could you look at the Claim and application status section? 
-
+**[Summary of differences between sections]**
 - In your own words, how would you describe what the Claim and application status section is for, versus the Forms section?
   - What are your thoughts on the names of those sections?
   - Is there any way that we could improve them? 
 
 **Now that you’ve seen both sections, what would you do next?** 
-- [IF THEY WOULD CLICK THE CHECK STATUS DETAILS LINK]
-  - [If they are mentioning it for the first time] What do you think will happen if you click on the “Check status details” link?
+- **<mark>[IF THEY WOULD CLICK THE CHECK STATUS DETAILS LINK]</mark>**
+  - **[If they are mentioning it for the first time]** What do you think will happen if you click on the “Check status details” link?
   - Okay, go ahead and click on the link to move forward in the prototype.
-- [IF THEY WOULD CLICK THE STATUS TOOL LINK]
-  - [If they are mentioning it for the first time] What do you think will happen if you click on the “Track claims, decision reviews, and applications” link?
+- **<mark>[IF THEY WOULD CLICK THE TRACK CLAIMS, DECISION REVIEWS, AND APPLICATIONS LINK]</mark>**
+  - **[If they are mentioning it for the first time]** What do you think will happen if you click on the “Track claims, decision reviews, and applications” link?
   - For this first scenario, let's click on the Check status details link so I can get feedback on those pages. We will go back to that link later.
-- [IF NOT] Could you share why you would do that next?
+- **<mark>[IF NOT]</mark>** Could you share why you would do that next?
   - For this first scenario, let's click on the Check status details link so I can get feedback on those pages. We will go back to that link later.
 
 > [!NOTE]
@@ -318,11 +321,13 @@ Take a moment to review this page and the other tabs, and think out loud as you 
 - Can you click on the Files tab?
   - When would you use this screen?
   - Let’s pretend that you want to submit an updated marriage certificate for Jane Doe. What would you do?
-    - [If they want to upload] Go ahead and click in the file upload box, and we’ll pretend that you brought in a file from your device
+    - [If they want to upload] Go ahead and click in the file upload box, and we’ll pretend that you brought in a file from your device, <mark> (new add) but don't submit yet</mark>. 
       - [Doctype dropdown comes up, let user choose an option]
+      - (Note: go through the full process instead of stopping before the submit button)
     - How was that process? Is it what you expected?
-    - Now what would you do?
-      - Okay, go ahead and click continue (the submit button) 
+      
+    ~~- Now what would you do?~~
+     - Okay, go ahead and click continue (the submit button)
 
 ### [Overview tab] 
 - Now, I want to ask more about the Overview tab. Can you go there for me?
@@ -358,11 +363,13 @@ Let’s say a week has passed and you want to find out what has happened with yo
 ### [Birth certificate evidence request page] 
 - Tell me what you see here. What is this request for?
 - What would you do next?
-  - [If they want to upload] Go ahead and click in the file upload box, and we’ll pretend that you brought in a file from your device
+  - [If they want to upload] Go ahead and click in the file upload box <mark>(added note) but do not click the submit button yet</mark>, and we’ll pretend that you brought in a file from your device
   - [Once the upload animation is complete]
     - Is this what you expected to happen?
-    - Now what would you do?
-      - Okay, go ahead and click continue (the submit button) 
+    - <mark>(New question) How was this experience compared to uploading the marriage certificate?</mark>
+    
+    - ~~Now what would you do?~~
+      - Okay, go ahead and click continue (the submit button)
 
 ### [Success alert on status tab, now on Step 3, one beneficiary has been deemed eligible] 
 - Take a look at this page and tell me what you see.
@@ -383,7 +390,7 @@ A week has passed since you uploaded the requested document, and you want to che
 ### [MyVA, For Veteran flow: CHAMPVA card is not visible ] 
 - Take a look at this page and tell me what you see.
   - What do you think has happened with your application?
-  - [ASK VETERANS ONLY] Why do you think it isn’t on this page?
+  - <mark>[ASK VETERANS ONLY]</mark> Why do you think it isn’t on this page?
 - What would you do next?
   - [If they WOULD follow the status tool link]
     - What would you expect to see if you select "Track claims, decision reviews, and applications”?
@@ -425,7 +432,7 @@ That’s the end of our scenarios for today. You can stop sharing your screen an
 
 # Post-Task Interview - 5 minutes
 - Can you tell me about your overall impression of this prototype?
-- [If the participant is a current CHAMPVA beneficiary or applied in the past] How would you compare the post-application experience you just had to your previous experience after applying for CHAMPVA? Why?
+- <mark>**[If the participant is a current CHAMPVA beneficiary or applied in the past]**</mark> How would you compare the post-application experience you just had to your previous experience after applying for CHAMPVA? Why?
 - Now that you’ve seen the prototype, how would you like to be notified or find updates on your application?
 - ~~Was there anything confusing or unexpected in this prototype?~~
 
@@ -456,9 +463,9 @@ For this next section, I'm going to read a series of 10 statements, and I would 
 
 ## Thank-You and Closing 
 
-Well we really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we continue to work on the site and make sure it really works for Veterans.
+Well we really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we continue to work on the site and make sure it really works for Veterans and their families.
 
-Thanks! Lastly, Perigean will be sending you a thank you note with a little blurb that you can pass along to other Veterans you may know to provide them the chance to participate in future research studies.
+Thanks! Lastly, Perigean will be sending you a thank you note with a little blurb that you can pass along to other Veterans and family members you may know to provide them the chance to participate in future research studies.
 
 Thank you so much again, and enjoy the rest of your day!
 
