@@ -1,3 +1,5 @@
+**Archived:** 04-2026 **Reason:** No longer relevant
+
 # External Auth Status Pages
 
 _(Currently on hold, as per VA.gov PO)_
