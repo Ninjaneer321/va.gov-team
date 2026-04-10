@@ -167,9 +167,10 @@ This research will be a remote moderated concept testing study using Zoom. Parti
 > Place true or false statements in bold for easier scanability
 
 - **Hypothesis Statements:**
+  
 **Research goal 1: Understand users' expectations for homescreen content and navigation**
 1. Users will expect to find new content such as new Secure messages and items requiring their review and action on the homescreen.
-**“Definitely True”**. All users felt that items requiring attention and action belonged on the homescreen such as alerts, updates from the VA, reminders, information requiring their review, and tasks to complete. 
+**“Definitely True”**: All users felt that items requiring attention and action belonged on the homescreen such as alerts, updates from the VA, reminders, information requiring their review, and tasks to complete. 
 2. Users very familiar with the app will expect to find Veteran status card and disability rating and payments on the homescreen as reflects the current live app layout.
 3. Users less familiar with the app will expect to find Veteran status card and dependents verification in Profile.
 4. Users less familiar with the app will expect to find disability payments and rating in Profile or in Payments.
