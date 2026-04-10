@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-04-09T19:47:23.185Z",
+    "generated": "2026-04-10T20:37:48.433Z",
     "description": "Knowledge graph of VA.gov products and teams",
     "source_directories": [
       "products/",
@@ -9,13 +9,13 @@
     ]
   },
   "statistics": {
-    "total_nodes": 1230,
-    "total_edges": 2499,
+    "total_nodes": 1229,
+    "total_edges": 2500,
     "nodes_by_type": {
       "team": 61,
       "portfolio": 4,
       "crew": 19,
-      "product": 345,
+      "product": 344,
       "category": 25,
       "external_system": 5,
       "form": 64,
@@ -25,16 +25,16 @@
       "belongs_to_portfolio": 61,
       "belongs_to_crew": 61,
       "part_of_portfolio": 19,
-      "sub_product_of": 256,
+      "sub_product_of": 255,
       "owns_product": 16,
       "works_on_product": 1,
-      "references_product": 290,
+      "references_product": 291,
       "integrates_with": 165,
       "implements_form": 104,
       "has_research": 689,
       "conducted_research": 538,
       "research_for_form": 107,
-      "research_references_product": 192
+      "research_references_product": 193
     }
   },
   "nodes": [
@@ -949,6 +949,32 @@
       "github_label": "sitewide-public-websites",
       "team_references": [
         "teams/vsa/product"
+      ],
+      "team_roster": [
+        {
+          "role": "Team Name",
+          "name": "Sitewide Public Websites"
+        },
+        {
+          "role": "OCTO-DE Leads",
+          "name": "Michelle Middaugh & Danielle Thierry"
+        },
+        {
+          "role": "OCTO-DE IA",
+          "name": "Mikki Northuis"
+        },
+        {
+          "role": "PM",
+          "name": "Fran Cross"
+        },
+        {
+          "role": "DM",
+          "name": "Jill Adams"
+        },
+        {
+          "role": "Research",
+          "name": "Cindy Merrill"
+        }
       ]
     },
     {
@@ -1051,7 +1077,25 @@
       "name": "Reapers - Ch31 Eligibility_Entitlement",
       "path": "products/Reapers - Ch31 Eligibility_Entitlement",
       "display_name": "Product Outline",
-      "github_label": "- Slack channel: None"
+      "github_label": "- Slack channel: None",
+      "team_roster": [
+        {
+          "role": "DEPO Lead",
+          "name": "Vanson Samuel"
+        },
+        {
+          "role": "PM",
+          "name": "Ekaterina Shick, Stanley Gardner"
+        },
+        {
+          "role": "Engineering",
+          "name": "Jeffrey Marks, Nicholas Hibbits"
+        },
+        {
+          "role": "Research/Design",
+          "name": "Sneha Kulkarni"
+        }
+      ]
     },
     {
       "id": "product-accredited-representation-management",
@@ -1140,6 +1184,24 @@
         "products/accredited-representative-facing/product-info/team-jargon",
         "products/accredited-representation-management/research/terminology-definitions",
         "products/accredited-representative-facing/engineering/docs/2024-9-ARF-engineering-next-steps"
+      ],
+      "team_roster": [
+        {
+          "role": "Product Owner",
+          "name": "Jennifer Bertsch"
+        },
+        {
+          "role": "Engineering Lead",
+          "name": "Sam Raudabaugh"
+        },
+        {
+          "role": "Design Lead",
+          "name": "Shannon Ford"
+        },
+        {
+          "role": "Product Manager",
+          "name": "Candi Lemoine"
+        }
       ]
     },
     {
@@ -1192,6 +1254,40 @@
       ],
       "form_numbers": [
         "26-1880"
+      ],
+      "team_roster": [
+        {
+          "role": "Executive sponsor",
+          "name": "Chris Johnston"
+        },
+        {
+          "role": "Product Owner",
+          "name": "Dave Conlon"
+        },
+        {
+          "role": "John Blankenship , R. Colin Deaso , Jennifer Spencer",
+          "name": "VBA Stakeholders and SMEs"
+        },
+        {
+          "role": "Product manager",
+          "name": "Mike King"
+        },
+        {
+          "role": "Design and Research",
+          "name": "Ian Hilton"
+        },
+        {
+          "role": "Engineering",
+          "name": "John Rodriguez, Nick Sayre, Kyle Henson, Adam King"
+        },
+        {
+          "role": "Delivery",
+          "name": "Tabinda Syed"
+        },
+        {
+          "role": "John Blankenship , R. Colin Deaso , Jennifer Spencer",
+          "name": "VBA Stakeholders and SMEs"
+        }
       ]
     },
     {
@@ -1234,6 +1330,60 @@
       "product_references": [
         "products/ask-va/product/prefill-NLP",
         "products/ask-va/product/move-frontend"
+      ],
+      "team_roster": [
+        {
+          "role": "Product owner (OCTO), Designer",
+          "name": "Becky Phung"
+        },
+        {
+          "role": "Product owner (VES)",
+          "name": "Natalie Morales"
+        },
+        {
+          "role": "Product owner (VEO)",
+          "name": "Jaime Rocha and Kathleen Reavy"
+        },
+        {
+          "role": "Product Owner (OCTO)",
+          "name": "Becky Phung"
+        },
+        {
+          "role": "Delivery Lead (outgoing)",
+          "name": "Megan Salerno"
+        },
+        {
+          "role": "Delivery Lead (incoming)",
+          "name": "Kaci Bowen"
+        },
+        {
+          "role": "Product Manager",
+          "name": "Stephanie Vargo"
+        },
+        {
+          "role": "Technical Lead",
+          "name": "Jerek Shoemaker"
+        },
+        {
+          "role": "AI Lead/Engineer",
+          "name": "Matt Floyd"
+        },
+        {
+          "role": "Frontend Engineer",
+          "name": "Walker Marlatt"
+        },
+        {
+          "role": "Backend Engineer",
+          "name": "Alex Castillo"
+        },
+        {
+          "role": "UX Research Lead",
+          "name": "Elena Naids"
+        },
+        {
+          "role": "UX Design Lead",
+          "name": "Danielle Oppendike"
+        }
       ]
     },
     {
@@ -1260,6 +1410,36 @@
         "#team-members",
         "#where-to-find-us",
         "#tmf-auth-exp-design-patterns"
+      ],
+      "team_roster": [
+        {
+          "role": "VA Product Owner",
+          "name": "Becky Phung"
+        },
+        {
+          "role": "Delivery manager",
+          "name": "Alexandria Parker"
+        },
+        {
+          "role": "Product Manager",
+          "name": "Lynn Stahl"
+        },
+        {
+          "role": "Software Engineer",
+          "name": "Adam Whitlock"
+        },
+        {
+          "role": "FS Developer",
+          "name": "Belle Poopongpanit"
+        },
+        {
+          "role": "UX Designer",
+          "name": "Christine Steiffer"
+        },
+        {
+          "role": "UX Designer",
+          "name": "Kristen Faiferlick"
+        }
       ]
     },
     {
@@ -1307,6 +1487,40 @@
         "Products/Records/VA",
         "products/evss-integration/letters-and-gibs-error-messages-mapping",
         "products/veteran-military-records/swagger-va-letters"
+      ],
+      "team_roster": [
+        {
+          "role": "OCTO Product Owner",
+          "name": "Amy Lai"
+        },
+        {
+          "role": "OCTO Design Lead",
+          "name": "Julie Strothman"
+        },
+        {
+          "role": "OCTO Eng Lead",
+          "name": "Cory Sohrakoff"
+        },
+        {
+          "role": "Product Manager",
+          "name": "Saliha Ghaffar"
+        },
+        {
+          "role": "Design Lead",
+          "name": "Shawn Collins"
+        },
+        {
+          "role": "Content Lead",
+          "name": "Rick Allen"
+        },
+        {
+          "role": "Engineering Lead",
+          "name": "Stacy Wise"
+        },
+        {
+          "role": "Engineers",
+          "name": "Jane Cho, Ian Donovan, Trevor Pierce"
+        }
       ]
     },
     {
@@ -1516,6 +1730,24 @@
       "github_label": "vfs-bio-huntridge",
       "form_numbers": [
         "24-24818"
+      ],
+      "team_roster": [
+        {
+          "role": "DEPO Lead",
+          "name": "Matthew Dingee"
+        },
+        {
+          "role": "PM",
+          "name": "Meaghan Sullivan"
+        },
+        {
+          "role": "Engineering",
+          "name": "Jee Vang"
+        },
+        {
+          "role": "Research/Design",
+          "name": "Jordan Wood"
+        }
       ]
     },
     {
@@ -2053,6 +2285,40 @@
         "21-674",
         "21-0538",
         "21-686C"
+      ],
+      "team_roster": [
+        {
+          "role": "OCTO Product Owner",
+          "name": "Sanja Bajovic"
+        },
+        {
+          "role": "OCTO Technical Lead",
+          "name": "Sanja Bajovic"
+        },
+        {
+          "role": "OCTO Design Lead",
+          "name": "Dene Gabaldon"
+        },
+        {
+          "role": "Delivery Lead",
+          "name": "Anh Platt"
+        },
+        {
+          "role": "Product Manager",
+          "name": "Laura Steele"
+        },
+        {
+          "role": "Backend Engineering",
+          "name": "Matthew Knight , Evan Smith, Tai Corraggio, David Becker"
+        },
+        {
+          "role": "Frontend Engineering",
+          "name": "Robin Garrison , Dakota Larson"
+        },
+        {
+          "role": "Research/Design",
+          "name": "David Kennedy , Megan Graham, Gretchen Maciolek, Lauren Russell"
+        }
       ]
     },
     {
@@ -3899,8 +4165,7 @@
       "type": "product",
       "name": "Archive Folder",
       "path": "products/identity/Archive",
-      "display_name": "Archive Folder",
-      "description": "This folder should not be used as a dumping ground for useless documentation. Anything added to this folder must have a purpose and that purpose should be documented within this readme."
+      "display_name": "Archive Folder"
     },
     {
       "id": "product-identity-external-auth-data-reporting",
@@ -3909,24 +4174,6 @@
       "path": "products/identity/External Auth Data Reporting",
       "display_name": "External Auth Data Reporting",
       "description": "There are basically two goals of this initial phase of the project:"
-    },
-    {
-      "id": "product-identity-external-auth-status-pages",
-      "type": "product",
-      "name": "External Auth Status Pages",
-      "path": "products/identity/External Auth Status Pages",
-      "display_name": "External Auth Status Pages",
-      "description": "_(Currently on hold, as per VA.gov PO)_",
-      "slack_channels": [
-        "#slide"
-      ],
-      "va_urls": [
-        "https://www.va.gov/resources/helpful-va-phone-numbers/"
-      ],
-      "product_references": [
-        "products/identity/Products/Product",
-        "products/identity/Research/2024-03"
-      ]
     },
     {
       "id": "product-identity-fraud-mitigation-response",
@@ -4109,6 +4356,52 @@
         "products/identity-personalization/my-va",
         "products/identity-personalization/onsite-notifications",
         "products/identity-personalization/profile/README"
+      ],
+      "team_roster": [
+        {
+          "role": "OCTO Lead",
+          "name": "Chante Lantos-Swett"
+        },
+        {
+          "role": "Program Manager",
+          "name": "Andrew Pearce"
+        },
+        {
+          "role": "Product Manager",
+          "name": "Patrick Siebenlist"
+        },
+        {
+          "role": "Delivery Manager",
+          "name": "Anneliese LaTempa"
+        },
+        {
+          "role": "Design/Research Lead",
+          "name": "Janelle Finnerty"
+        },
+        {
+          "role": "Engineering Lead",
+          "name": "Micah Frazier"
+        },
+        {
+          "role": "Designer",
+          "name": "Ashley Bush"
+        },
+        {
+          "role": "FE Engineer",
+          "name": "Adam Suharja"
+        },
+        {
+          "role": "Full Stack Engineer",
+          "name": "Emerald Sargent"
+        },
+        {
+          "role": "Full Stack Engineer",
+          "name": "Giles Wells"
+        },
+        {
+          "role": "BE Engineer",
+          "name": "Diana Buffone"
+        }
       ]
     },
     {
@@ -4341,13 +4634,13 @@
       "name": "Section Outline: The VA.gov Profile",
       "path": "products/identity-personalization/profile",
       "display_name": "Section Outline: The VA.gov Profile",
-      "description": "**Last Updated: 4/24/2025 -- Added the Accredited Rep Tool Links**",
+      "description": "**Last Updated: 4/2/2026 -- Updated for Profile 2.0 information architecture and health care settings**",
       "slack_channels": [
+        "#section-outline-the-vagov-profile",
+        "#table-of-contents",
         "#pocs",
-        "#products--features",
-        "#is-va-profile-the-same-thing-as-the-vagov-profile",
-        "#problem-statement",
-        "#opportunities"
+        "#roles",
+        "#products--features"
       ],
       "product_references": [
         "products/identity-personalization",
@@ -4355,6 +4648,7 @@
         "products/identity-personalization/profile/hub/README",
         "products/identity-personalization/profile/personal-information",
         "products/identity-personalization/profile/contact-information",
+        "products/identity-personalization/profile/health-care-settings",
         "products/identity-personalization/profile/personal-health-care-contacts",
         "products/identity-personalization/profile/military-information",
         "products/veteran-status/README",
@@ -4386,6 +4680,7 @@
         "products/identity-personalization/direct-deposit/backend",
         "products/identity-personalization/profile/notification_settings",
         "products/identity-personalization/profile/account_security/backend_documentation",
+        "products/identity-personalization/profile/health_care_settings/scheduling_preferences/backend_documentation",
         "products/identity-personalization/profile/engineering-docs/frontend-getting-started",
         "products/identity-personalization/profile/hub/frontend_documentation",
         "products/identity-personalization/profile/personal_information/frontend_documentation",
@@ -4394,6 +4689,7 @@
         "products/identity-personalization/profile/notification_settings/frontend_documentation",
         "products/identity-personalization/profile/account_security/frontend_documentation",
         "products/identity-personalization/profile/connected_apps/frontend_documentation",
+        "products/identity-personalization/profile/health_care_settings/scheduling_preferences/frontend_documentation",
         "products/identity-personalization/profile/engineering-docs/profile-service-maintenance-outage-procedures",
         "products/identity-personalization/profile/engineering-docs/feature-toggle-guidance",
         "products/features"
@@ -4458,6 +4754,24 @@
       ],
       "product_references": [
         "products/income-limits-app/engineering/technical-architecture"
+      ],
+      "team_roster": [
+        {
+          "role": "DEPO Lead",
+          "name": "Michelle Middaugh"
+        },
+        {
+          "role": "PM",
+          "name": "Fran Cross"
+        },
+        {
+          "role": "Engineering",
+          "name": "Daniel Sasser"
+        },
+        {
+          "role": "Research/Design",
+          "name": "Jordan Wood"
+        }
       ]
     },
     {
@@ -4559,6 +4873,128 @@
       "github_label": "login.gov-adoption",
       "product_references": [
         "products/login"
+      ],
+      "team_roster": [
+        {
+          "role": "OCTO Product Owner (Product)",
+          "name": "Samara Strauss"
+        },
+        {
+          "role": "OCTO Product Owner (Tech)",
+          "name": "Thomas Black"
+        },
+        {
+          "role": "Subject Matter Expert",
+          "name": "Steve Dickson"
+        },
+        {
+          "role": "Senior Fullstack Software Engineer",
+          "name": "Anu Das"
+        },
+        {
+          "role": "Senior Fullstack Software Engineer",
+          "name": "Mateo Salinas Clarke"
+        },
+        {
+          "role": "Content Strategist",
+          "name": "Carl Dickerson"
+        },
+        {
+          "role": "UX Designer",
+          "name": "Josie Griffith"
+        },
+        {
+          "role": "DSVA Product Owner",
+          "name": "John Rahaghi"
+        },
+        {
+          "role": "Program/Delivery Manager",
+          "name": "Jay Tanner"
+        },
+        {
+          "role": "Product Owner",
+          "name": "Elizabeth Koch"
+        },
+        {
+          "role": "Senior Product Manager",
+          "name": "Anthony Levin-Decanini"
+        },
+        {
+          "role": "Engineer Lead",
+          "name": "Steve Dickson"
+        },
+        {
+          "role": "Senior UX Researcher",
+          "name": "Tyler Gindraux"
+        },
+        {
+          "role": "Content Strategist",
+          "name": "Carl Dickerson"
+        },
+        {
+          "role": "UX Designer",
+          "name": "Carolyn Williams"
+        },
+        {
+          "role": "Senior Software Engineer",
+          "name": "Ksenia Coulter"
+        },
+        {
+          "role": "Full Stack Developer",
+          "name": "Melissa Miller"
+        },
+        {
+          "role": "Staff Engineer",
+          "name": "Jesse James"
+        },
+        {
+          "role": "Interaction Designer",
+          "name": "Sofia Kirkman"
+        },
+        {
+          "role": "DSVA Product Owner",
+          "name": "John Rahaghi"
+        },
+        {
+          "role": "Program Manager",
+          "name": "Mike Prusaitis"
+        },
+        {
+          "role": "Design Director",
+          "name": "Kit Casey"
+        },
+        {
+          "role": "Associate Design Director",
+          "name": "Samara Watkiss"
+        },
+        {
+          "role": "Senior Product Manager",
+          "name": "Pablo Cruz"
+        },
+        {
+          "role": "Senior UX Designer",
+          "name": "Bri Mazzio"
+        },
+        {
+          "role": "Senior Strategist",
+          "name": "Marissa Klein"
+        },
+        {
+          "role": "Visual Designer",
+          "name": "Paul Knipper"
+        },
+        {
+          "role": "Product Owner",
+          "name": "Elizabeth Koch"
+        },
+        {
+          "role": "Senior UX Researcher",
+          "name": "Tyler Gindraux"
+        },
+        {
+          "role": "Engineer Lead",
+          "name": "Steve Dickson"
+        }
       ]
     },
     {
@@ -4622,6 +5058,32 @@
         "products/medical-device-tool/launch-checklist",
         "products/medical-device-tool/research",
         "products/medical-device-tool/design"
+      ],
+      "team_roster": [
+        {
+          "role": "DEPO Digital Strategist",
+          "name": "Matthew Self"
+        },
+        {
+          "role": "Product Manager",
+          "name": "Leah Keeler"
+        },
+        {
+          "role": "Design Lead",
+          "name": "Shawna Hein"
+        },
+        {
+          "role": "Eng Lead",
+          "name": "Paul Short"
+        },
+        {
+          "role": "Engineers",
+          "name": "Cameron Testerman , Brad Conley , Mahariel Rosario"
+        },
+        {
+          "role": "Designers",
+          "name": "Rebecca Walsh, Riley Orr"
+        }
       ]
     },
     {
@@ -4633,6 +5095,24 @@
       "description": "- Fill out Form 22-1990 by hand and send it by mail or deliver in person. - Submit your application online with the VA.gov benefit claim application.",
       "form_numbers": [
         "22-1990"
+      ],
+      "team_roster": [
+        {
+          "role": "Technical lead",
+          "name": "Cesar Santiago"
+        },
+        {
+          "role": "Enterprise Architect",
+          "name": "Jackeline Nguyen"
+        },
+        {
+          "role": "Application Architect",
+          "name": "Phil Crowder"
+        },
+        {
+          "role": "Enterprise Architect",
+          "name": "Rishiskesh Kollipara"
+        }
       ]
     },
     {
@@ -4823,6 +5303,40 @@
       ],
       "team_references": [
         "teams/vsa/product"
+      ],
+      "team_roster": [
+        {
+          "role": "Team Name",
+          "name": "Sitewide Public Websites"
+        },
+        {
+          "role": "OCTO-DE Leads",
+          "name": "Michelle Middaugh & Danielle Theirry"
+        },
+        {
+          "role": "OCTO-DE IA",
+          "name": "Mikki Northuis"
+        },
+        {
+          "role": "PM",
+          "name": "Fran Cross"
+        },
+        {
+          "role": "DM",
+          "name": "Jill Adams"
+        },
+        {
+          "role": "Engineering",
+          "name": "Randi Mays"
+        },
+        {
+          "role": "Design",
+          "name": "Jordan Wood"
+        },
+        {
+          "role": "Research",
+          "name": "Cindy Merrill"
+        }
       ]
     },
     {
@@ -4854,6 +5368,24 @@
       "product_references": [
         "products/ebenefits/view-payment-history",
         "products/features"
+      ],
+      "team_roster": [
+        {
+          "role": "VA Executive Sponsor",
+          "name": "Paul Schute"
+        },
+        {
+          "role": "Product Manager",
+          "name": "Jacob Worrell"
+        },
+        {
+          "role": "Product and Project",
+          "name": "Jacob Worrell"
+        },
+        {
+          "role": "Product and Project",
+          "name": "Jason Wolf"
+        }
       ]
     },
     {
@@ -5804,6 +6336,24 @@
       "description": "How might we expedite the establishment of burial benefit claims?",
       "slack_channels": [
         "#vfs-pension-automation"
+      ],
+      "team_roster": [
+        {
+          "role": "Product Manager",
+          "name": "Sophie Myers"
+        },
+        {
+          "role": "Engineer Lead",
+          "name": "Jonathan Julian"
+        },
+        {
+          "role": "Engineer",
+          "name": "Keith Adkins"
+        },
+        {
+          "role": "Engineer",
+          "name": "Ben Shyong"
+        }
       ]
     },
     {
@@ -5881,6 +6431,24 @@
       ],
       "product_references": [
         "products/health-care/beneficiary-travel/product-outline-btsss-old"
+      ],
+      "team_roster": [
+        {
+          "role": "DEPO Lead",
+          "name": "Dave Conlon"
+        },
+        {
+          "role": "PM",
+          "name": "Wesley Rowe"
+        },
+        {
+          "role": "Engineering",
+          "name": "Josh Mills"
+        },
+        {
+          "role": "Research/Design",
+          "name": "Jordan Wood"
+        }
       ]
     },
     {
@@ -6125,6 +6693,36 @@
       ],
       "product_references": [
         "products/vet-transition-support/results-page-2"
+      ],
+      "team_roster": [
+        {
+          "role": "VES Lead",
+          "name": "Gene Dreyband"
+        },
+        {
+          "role": "Program Manager",
+          "name": "Raquel Eadie"
+        },
+        {
+          "role": "Product Manager",
+          "name": "Anastasia Jakabcin"
+        },
+        {
+          "role": "Engineering Lead",
+          "name": "Theo Bentum"
+        },
+        {
+          "role": "Fullstack Engineer",
+          "name": "Mikal Ahmed"
+        },
+        {
+          "role": "Designer",
+          "name": "Jessica Woodin"
+        },
+        {
+          "role": "Research",
+          "name": "Anna Higgins"
+        }
       ]
     },
     {
@@ -6271,6 +6869,24 @@
         "products/identity-personalization/onboarding/discovery-research/research-review",
         "products/identity-personalization/onboarding",
         "products/identity-personalization/onboarding/discovery-research/comparative-analysis"
+      ],
+      "team_roster": [
+        {
+          "role": "DEPO Lead",
+          "name": "Jeff Barnes"
+        },
+        {
+          "role": "PM",
+          "name": "Mike King, Oddball"
+        },
+        {
+          "role": "Engineering",
+          "name": "Adam King, Oddball;"
+        },
+        {
+          "role": "Research/Design",
+          "name": "Raquel Eisele, AdHoc"
+        }
       ]
     },
     {
@@ -6340,6 +6956,60 @@
       ],
       "product_references": [
         "products/disability/declare-dependent"
+      ],
+      "team_roster": [
+        {
+          "role": "VA Executive Sponsor",
+          "name": "Paul Schute"
+        },
+        {
+          "role": "DEPO",
+          "name": "Steve Kovacs"
+        },
+        {
+          "role": "Product Manager",
+          "name": "Jason Wolf"
+        },
+        {
+          "role": "Design Lead",
+          "name": "Shawna Hein"
+        },
+        {
+          "role": "Eng Lead",
+          "name": "Paul Short"
+        },
+        {
+          "role": "VA Contact Center Partner",
+          "name": "Chante"
+        },
+        {
+          "role": "Designer",
+          "name": "Jim Adams"
+        },
+        {
+          "role": "Product and Project",
+          "name": "Jason Wolf"
+        },
+        {
+          "role": "Front-end Engineer",
+          "name": "Micah Chiang, Jesse Cohn"
+        },
+        {
+          "role": "Back-end Engineer",
+          "name": "Kathleen Crawford"
+        },
+        {
+          "role": "Product and Project",
+          "name": "Jason Wolf"
+        },
+        {
+          "role": "Front-end Engineer",
+          "name": "Micah Chiang, Jesse Cohn"
+        },
+        {
+          "role": "Back-end Engineer",
+          "name": "Kathleen Crawford"
+        }
       ]
     },
     {
@@ -6347,7 +7017,153 @@
       "type": "product",
       "name": "virtual-agent",
       "path": "products/virtual-agent",
-      "description": "This repository contains research, documentation and diagrams for the VA Chabot. This platform product fits within the VA.gov's goal of helping the Veteran self-serve."
+      "description": "This repository contains research, documentation and diagrams for the VA Chabot. This platform product fits within the VA.gov's goal of helping the Veteran self-serve.",
+      "team_roster": [
+        {
+          "role": "Product Owner",
+          "name": "Luciana Morais"
+        },
+        {
+          "role": "Project Manager",
+          "name": "Selia Straus"
+        },
+        {
+          "role": "Product Manager",
+          "name": "Ann-Marie Raposo"
+        },
+        {
+          "role": "UX/UI Designer",
+          "name": "Lucas Wright"
+        },
+        {
+          "role": "Tech Lead",
+          "name": "Anita DeWitt"
+        },
+        {
+          "role": "Quality Analyst",
+          "name": "Nida Qamar"
+        },
+        {
+          "role": "Data Scientist",
+          "name": "Satish Srinivasan"
+        },
+        {
+          "role": "Software Engineer/Data Engineer",
+          "name": "Brandon Marrone"
+        },
+        {
+          "role": "Software Engineer/Tech Anchor",
+          "name": "Samreen Zarroug"
+        },
+        {
+          "role": "Software Engineer",
+          "name": "Adam Whitlock"
+        },
+        {
+          "role": "Software Engineer",
+          "name": "Elliot Mackinnon"
+        },
+        {
+          "role": "Software Engineer",
+          "name": "Matthew Kerns"
+        },
+        {
+          "role": "Product Owner",
+          "name": "Nathalie Rayter"
+        },
+        {
+          "role": "Tech Lead",
+          "name": "Karan Krishnani"
+        },
+        {
+          "role": "Project Manager",
+          "name": "Zinal Patel"
+        },
+        {
+          "role": "Project Manager",
+          "name": "Christina Schuler"
+        },
+        {
+          "role": "Developer",
+          "name": "Raina Heurta"
+        },
+        {
+          "role": "Developer",
+          "name": "Aaron Young"
+        },
+        {
+          "role": "Developer",
+          "name": "Evan Ubiera"
+        },
+        {
+          "role": "Developer",
+          "name": "Alex Person"
+        },
+        {
+          "role": "Developer",
+          "name": "Alexander Mendoza"
+        },
+        {
+          "role": "Developer",
+          "name": "Nicholas Herndon"
+        },
+        {
+          "role": "Developer",
+          "name": "Maurice Okumu"
+        },
+        {
+          "role": "Developer/Data Engineer",
+          "name": "Devi Peruri"
+        },
+        {
+          "role": "Data Scientist",
+          "name": "Shiva Omranisabbaghi"
+        },
+        {
+          "role": "Data Scientist",
+          "name": "David Johnston"
+        },
+        {
+          "role": "Data Scientist",
+          "name": "David Chen"
+        },
+        {
+          "role": "Data Scientist",
+          "name": "Nicola Guo"
+        },
+        {
+          "role": "US Digital Corps Fellow, Product Manager",
+          "name": "Ryan Powers"
+        },
+        {
+          "role": "Quality Analyst",
+          "name": "Swapna Krishnankutty"
+        },
+        {
+          "role": "Quality Analyst",
+          "name": "Nitheesha Karnati"
+        },
+        {
+          "role": "Product Manager",
+          "name": "Ian Santarinala"
+        },
+        {
+          "role": "Product Manager",
+          "name": "Joy Elizabeth"
+        },
+        {
+          "role": "Product Manager",
+          "name": "Vrushali Patil"
+        },
+        {
+          "role": "Business Analyst",
+          "name": "Kathy Cui"
+        },
+        {
+          "role": "UX Designer",
+          "name": "Matt Terwilliger"
+        }
+      ]
     },
     {
       "id": "product-virtual-agent-product",
@@ -27466,20 +28282,22 @@
       "path": "products/va-mobile-app/research/2026-03-Homescreen-Research",
       "files": {
         "plan": "products/va-mobile-app/research/2026-03-Homescreen-Research/Research-plan.md",
-        "findings": null,
+        "findings": "products/va-mobile-app/research/2026-03-Homescreen-Research/Research-Findings.md",
         "conversation_guide": "products/va-mobile-app/research/2026-03-Homescreen-Research/Conversation-guide.md"
       },
       "date": "2026-03",
       "name": "Conversation Guide for VA Mobile App Homescreen Research - March 2026",
-      "methodology": "Remote moderated usability testing with clickable medium-fidelity Figma prototype",
+      "methodology": [
+        "Method 1",
+        "Method 2"
+      ],
       "participant_types": [
         "Veterans",
         "Dependents"
       ],
       "research_goals": [
-        "Understand users' expectations for homescreen content and navigation",
-        "Understand how users interpret and use new design concept's homescreen content and capabilities",
-        "Understand any points of confusion for users on the homescreen content and navigation, including for users with cognitive disabilities"
+        "Goal 1",
+        "Goal 2"
       ],
       "tags": [
         "AUD: Veterans",
@@ -30918,11 +31736,6 @@
       "relationship": "sub_product_of"
     },
     {
-      "source": "product-identity-external-auth-status-pages",
-      "target": "product-identity",
-      "relationship": "sub_product_of"
-    },
-    {
       "source": "product-identity-fraud-mitigation-response",
       "target": "product-identity",
       "relationship": "sub_product_of"
@@ -33781,6 +34594,11 @@
       "source": "product-va-mobile-app",
       "target": "system-cms",
       "relationship": "integrates_with"
+    },
+    {
+      "source": "product-va-mobile-app",
+      "target": "product-find-a-va-form",
+      "relationship": "references_product"
     },
     {
       "source": "product-va-notify",
@@ -41391,6 +42209,11 @@
       "source": "team-benefits-management-tools-2",
       "target": "research-products-va-mobile-app-research-2026-03-homescreen-research",
       "relationship": "conducted_research"
+    },
+    {
+      "source": "research-products-va-mobile-app-research-2026-03-homescreen-research",
+      "target": "product-find-a-va-form",
+      "relationship": "research_references_product"
     },
     {
       "source": "product-va-mobile-app",

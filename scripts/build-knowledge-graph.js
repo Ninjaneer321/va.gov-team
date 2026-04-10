@@ -106,12 +106,14 @@ function ingestTeamLookup() {
 
   for (const [id, t] of Object.entries(data)) {
     const teamId = `team-${slugify(t.team_name)}`;
-    addNode(teamId, "team", {
+    const props = {
       name: t.team_name,
       short_name: t.short_name,
       team_id: t.team_id,
       readme_path: t.readme_path,
-    });
+    };
+
+    addNode(teamId, "team", props);
 
     // Portfolio
     if (t.portfolio) {
@@ -151,6 +153,12 @@ function ingestProducts() {
       const content = readTextSafe(readmePath);
       if (content) {
         Object.assign(props, extractProductMetadata(content, e.name));
+
+        // Extract team roster from the product README
+        const roster = extractTeamRoster(content);
+        if (roster.length > 0) {
+          props.team_roster = roster;
+        }
       }
     }
 
@@ -306,6 +314,221 @@ function extractProductMetadata(content, folderName) {
   }
 
   return props;
+}
+
+// ─── Extract team roster from product README ─────────────────────────────────
+/**
+ * Parse a product README and extract the team roster section.
+ *
+ * Handles the two dominant formats found in VA.gov product READMEs:
+ *
+ * 1. Markdown tables:
+ *    |Role|Assigned|
+ *    |:---|:---|
+ *    |Product Owner|Jane Doe|
+ *
+ * 2. Bullet / definition lists:
+ *    - Product Manager: Jane Doe
+ *    * Engineering Lead: John Smith
+ *    - Jane Doe: VA Product Owner @janedoe
+ *
+ * Returns an array of {role, name} objects (may be empty).
+ */
+function extractTeamRoster(content) {
+  const roster = [];
+  if (!content) return roster;
+
+  const lines = content.split("\n");
+
+  // --- locate team/roster section(s) ----------------------------------------
+  // Common headings: "## Our team", "## Team", "### Team members",
+  // "### Current Ask VA Team", "### Roster", "## Who we are"
+  const TEAM_HEADING_RE = /^#{2,5}\s+(?:(?:our|current|the)\s+)?(?:team|roster|who\s+we\s+are)(?:\s+(?:members?|##))?/i;
+  // Headings that signal the end of a team section
+  const END_HEADING_RE = /^#{2,5}\s+/;
+  // Headings for sections explicitly about *former* members (skip these)
+  const FORMER_RE = /^#{2,5}\s+(?:former|previous|past|alumni)\b/i;
+
+  let sectionStart = -1;
+  let sectionEnd = lines.length;
+  let sectionLevel = 0;
+  let inFormerSection = false;
+
+  // Find ALL team sections and collect roster entries from each
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+
+    // Detect a team heading
+    if (TEAM_HEADING_RE.test(line)) {
+      sectionLevel = (line.match(/^#+/) || [""])[0].length;
+      sectionStart = i + 1;
+      inFormerSection = false;
+      continue;
+    }
+
+    // If we haven't entered a team section yet, skip
+    if (sectionStart < 0) continue;
+
+    // A "Former teammates" sub-heading → skip until next heading
+    if (FORMER_RE.test(line)) {
+      inFormerSection = true;
+      continue;
+    }
+
+    // Another heading at same or higher level → end of section
+    if (END_HEADING_RE.test(line) && !TEAM_HEADING_RE.test(line)) {
+      const level = (line.match(/^#+/) || [""])[0].length;
+      if (level <= sectionLevel) {
+        sectionStart = -1; // exited the section
+        inFormerSection = false;
+        continue;
+      }
+      // Sub-heading at deeper level (e.g. ### API Team) — could be former
+      if (FORMER_RE.test(line)) {
+        inFormerSection = true;
+      } else {
+        inFormerSection = false;
+      }
+      continue;
+    }
+
+    if (inFormerSection) continue;
+
+    // --- try markdown table row ---
+    // |Role|Name|Contact|  or  |Name|Role|
+    const tableRow = line.match(/^\s*\|(.+)\|\s*$/);
+    if (tableRow) {
+      const cells = tableRow[1].split("|").map(c => c.trim());
+      // Skip header/separator rows
+      if (cells.every(c => /^[-:\s]+$/.test(c))) continue;
+      if (cells.length >= 2) {
+        const entry = parseRosterCells(cells);
+        if (entry) roster.push(entry);
+      }
+      continue;
+    }
+
+    // --- try bullet list item ---
+    // "- Role: Name" or "* Name: Role @github" or "- Name — email"
+    const bullet = line.match(/^\s*[-*]\s+(.+)/);
+    if (bullet) {
+      const entry = parseRosterBullet(bullet[1].trim());
+      if (entry) roster.push(entry);
+    }
+  }
+
+  return roster;
+}
+
+/**
+ * Known role keywords used to identify which cell/part is a role vs. a name.
+ */
+const ROLE_KEYWORDS_RE = /\b(?:product\s*(?:owner|manager)|delivery\s*(?:lead|manager)|engineer(?:ing)?|design(?:er)?|research(?:er)?|developer|UX|UI|tech\s*lead|scrum|QA|quality|content|accessibility|project\s*manager|program\s*manager|data\s*(?:scientist|engineer)|lead|manager|analyst|strategist|architect|owner|OCTO|frontend|backend|fullstack|full[\s-]?stack)\b/i;
+
+/**
+ * Parse table cells into {role, name}.
+ * Handles |Role|Name|, |Name|Role|, and |Name|Role|Contact| patterns.
+ */
+function parseRosterCells(cells) {
+  // Skip header rows that literally say "Role" and "Name"/"Assigned"
+  if (/^role$/i.test(cells[0]) && /^(?:name|assigned|member)/i.test(cells[1])) return null;
+  if (/^(?:name|member)/i.test(cells[0]) && /^role$/i.test(cells[1])) return null;
+
+  let role = "";
+  let name = "";
+
+  // Heuristic: whichever cell matches role keywords is the role
+  if (ROLE_KEYWORDS_RE.test(cells[0]) && !ROLE_KEYWORDS_RE.test(cells[1])) {
+    role = cells[0];
+    name = cells[1];
+  } else if (ROLE_KEYWORDS_RE.test(cells[1]) && !ROLE_KEYWORDS_RE.test(cells[0])) {
+    name = cells[0];
+    role = cells[1];
+  } else {
+    // Default: first cell = role, second = name (most common pattern)
+    role = cells[0];
+    name = cells[1];
+  }
+
+  // Clean up markdown links, emails, etc.
+  name = cleanPersonName(name);
+  role = role.replace(/\[([^\]]+)\][^|]*/g, "$1").trim();
+
+  if (!name || name.length < 2) return null;
+  // Skip rows where "name" looks like another header or garbage
+  if (/^[-:\s|]+$/.test(name)) return null;
+
+  return { role, name };
+}
+
+/**
+ * Parse a bullet line like "Product Manager: Jane Doe" or "Jane Doe: PO @janedoe".
+ */
+function parseRosterBullet(text) {
+  // Strip leading bold markers: "**Role:** Name" → "Role: Name"
+  // Also handle colon inside the bold: "**Role:** Name" or "**Role**: Name"
+  text = text.replace(/\*\*([^*]+)\*\*:?\s*/g, "$1 ").trim();
+  // Clean up any double colons from "**Role:**:" → "Role: :" → "Role:"
+  text = text.replace(/:+\s*/g, ": ").trim();
+
+  // Split on colon, dash-with-spaces, or em-dash
+  const parts = text.split(/:\s+|\s+[-–—]\s+/);
+  if (parts.length < 2) {
+    // No clear separator → try to detect "Name (Role)" or just "Name"
+    return null;
+  }
+
+  let role, name;
+  // If the first part matches a role keyword, treat as "Role: Name"
+  if (ROLE_KEYWORDS_RE.test(parts[0])) {
+    role = parts[0].trim();
+    name = parts.slice(1).join(" ").trim();
+  } else if (parts.length >= 2 && ROLE_KEYWORDS_RE.test(parts[1])) {
+    // "Name: Role @handle"
+    name = parts[0].trim();
+    role = parts[1].trim();
+  } else {
+    // Default: first part = role, rest = name
+    role = parts[0].trim();
+    name = parts.slice(1).join(" ").trim();
+  }
+
+  name = cleanPersonName(name);
+  // Clean role: strip markdown links, @handles, backticks, parentheticals
+  role = role
+    .replace(/\[([^\]]+)\][^,]*/g, "$1")
+    .replace(/@\w+/g, "")
+    .replace(/[`*]/g, "")
+    .replace(/\(.*?\)/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  if (!name || name.length < 2) return null;
+  // Skip obvious non-personnel entries like "Slack channel: #foo"
+  if (/^#|^http|^None|^N\/A|^TBD|^\[/i.test(name)) return null;
+  if (/slack|github|mural|figma|jira|zenhub|repo|sharepoint|roster|tracker|board|view\s+the/i.test(role)) return null;
+  // Skip entries where name looks like a URL fragment or link
+  if (/^\/\/|^http|\.com|\.gov|\.io/i.test(name)) return null;
+
+  return { role, name };
+}
+
+/**
+ * Clean a person's name: strip emails, @handles, markdown links, trailing parens.
+ */
+function cleanPersonName(raw) {
+  if (!raw) return "";
+  return raw
+    .replace(/\s*[-–—]\s*\S+@\S+/g, "")     // "Name — email"
+    .replace(/\s*\(\S+@\S+\)/g, "")           // "Name (email)"
+    .replace(/\s*<\S+@\S+>/g, "")             // "Name <email>"
+    .replace(/\S+@\S+\.\S+/g, "")             // bare email
+    .replace(/@\w+/g, "")                      // @github-handle
+    .replace(/\[([^\]]+)\][^,\s]*/g, "$1")    // [Name](url) → Name
+    .replace(/[`*]/g, "")                      // strip backticks/bold
+    .replace(/\(.*?\)/g, "")                   // strip parenthetical
+    .trim()
+    .replace(/\s+/g, " ");                     // collapse whitespace
 }
 
 function isHubProduct(dir) {

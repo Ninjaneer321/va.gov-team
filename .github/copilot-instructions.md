@@ -31,6 +31,7 @@ For questions about VA.gov teams, products, portfolios, and research, **read the
 | Question Type | File to Read | Example Query |
 |---------------|--------------|---------------|
 | Who owns a product? | `.github/copilot-summaries/teams.md` | "Who owns Ask VA?" |
+| Who works on product X? | `.github/copilot-summaries/product-teams.md` | "Who is the product owner for Ask VA?" |
 | What research exists for product X? | `.github/copilot-summaries/research-by-product.md` | "What research has been done on Ask VA?" |
 | What has team Y researched? | `.github/copilot-summaries/research-by-team.md` | "What research has the Ask VA team conducted?" |
 | Portfolio/crew hierarchy? | `.github/copilot-summaries/portfolios.md` | "What teams are in Digital Experience?" |
@@ -85,6 +86,33 @@ If the summary files don't contain enough detail:
 2. Read specific files mentioned in the summary:
    - Team READMEs (linked in teams.md)
    - Research plans/findings (linked in research-by-*.md files)
+
+### Note About Team Documentation
+
+Some teams have their documentation in the **va.gov-team-sensitive** private repository.
+
+In summary files, these teams are marked with 🔒 and will show:
+```
+- **README**: `teams/health-portfolio/hydra/README.md` *(in va.gov-team-sensitive — requires access)*
+```
+
+**When responding to users:**
+- Don't generate links to va.gov-team-sensitive (they won't work for most users)
+- Note that documentation is in the private repo
+- Suggest contacting the team via Slack (channel listed in summary if available)
+- Users with sensitive repo access can navigate to the path manually
+
+### Team Personnel and Roles
+
+When the user asks about who works on a product, **read `product-teams.md` first**. It contains team rosters
+extracted from public product README files (e.g., `products/ask-va/README.md`).
+
+- "Who is the product owner for Ask VA?" → Read `product-teams.md`, find the Ask VA section
+- "Who designs for the Virtual Agent?" → Read `product-teams.md`, find the Virtual Agent section
+- "Who manages the Authenticated Patterns team?" → Look for **Product Manager** or **Delivery Manager** role
+
+If a product is not listed in `product-teams.md`, suggest the user check the product README directly:
+> "Team member details for [product name] are not in the summary. Check `products/[product-name]/README.md` for the most up-to-date roster, or contact the team via Slack."
 
 ### Technical Note
 
@@ -480,6 +508,7 @@ ruby scripts/cleanup.rb
 **Prevention (for Copilot):**
 - **Always read the summary files** — they answer most team/research questions in one tool call:
   - `.github/copilot-summaries/teams.md`
+  - `.github/copilot-summaries/product-teams.md`
   - `.github/copilot-summaries/research-by-team.md`
   - `.github/copilot-summaries/research-by-product.md`
   - `.github/copilot-summaries/portfolios.md`
@@ -490,8 +519,9 @@ ruby scripts/cleanup.rb
 ### Issue: "Summary files don't have the information I need"
 
 **Solutions:**
-1. **Check all four summary files:**
+1. **Check all five summary files:**
    - `.github/copilot-summaries/teams.md` — for team ownership and research
+   - `.github/copilot-summaries/product-teams.md` — for product team rosters (who works on what)
    - `.github/copilot-summaries/portfolios.md` — for portfolio/product lists
    - `.github/copilot-summaries/research-by-product.md` — for research by product
    - `.github/copilot-summaries/research-by-team.md` — for research by team

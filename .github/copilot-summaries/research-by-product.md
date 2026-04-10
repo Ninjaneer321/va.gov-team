@@ -1,6 +1,6 @@
 # Research Studies by Product
 
-> Auto-generated from `.github/knowledge-graph.json` on 2026-04-09.
+> Auto-generated from `.github/knowledge-graph.json` on 2026-04-10.
 > Edit the source data, not this file.
 
 65 products have documented research studies.
@@ -6734,12 +6734,13 @@
 ### [Conversation Guide for VA Mobile App Homescreen Research - March 2026](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/2026-03-Homescreen-Research)
 
 - **Date**: 2026-03
-- **Methodology**: Remote moderated usability testing with clickable medium-fidelity Figma prototype
+- **Methodology**: Method 1, Method 2
 - **Participants**: Veterans, Dependents
 - **Path**: `products/va-mobile-app/research/2026-03-Homescreen-Research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/2026-03-Homescreen-Research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fva-mobile-app%202026%20Conversation%20Guide)
 - **Files**:
   - [Research Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/2026-03-Homescreen-Research/Research-plan.md)
+  - [Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/2026-03-Homescreen-Research/Research-Findings.md)
   - [Conversation Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/2026-03-Homescreen-Research/Conversation-guide.md)
 
 ### [Conversation Guide: VA Mobile App Forms MVP Assistive Technology Research, 2025](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/Forms%20MVP%20Research)

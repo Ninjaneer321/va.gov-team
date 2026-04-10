@@ -1,80 +1,85 @@
 # VA.gov Teams Directory
 
-> Auto-generated from `.github/knowledge-graph.json` on 2026-04-09.
+> Auto-generated from `.github/knowledge-graph.json` on 2026-04-10.
 > Edit the source data, not this file.
 
 61 teams across all portfolios.
 
-## Accelerate Cybersecurity Excellence (ACE)
+**Legend:**
+- 🔒 = Team documentation in va.gov-team-sensitive (private repo, requires access)
+
+---
+
+## Accelerate Cybersecurity Excellence (ACE) 🔒
 
 - **Team ID**: 24001
 - **Short name**: `ace`
 - **Portfolio**: Digital Experience
 - **Crew**: Veteran-Facing Platforms
-- **README**: [teams/digital-experience/ace/README.md](teams/digital-experience/ace/README.md)
+- **README**: `teams/digital-experience/ace/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Accessibility Digital Experience (ADE)
+## Accessibility Digital Experience (ADE) 🔒
 
 - **Team ID**: 23001
 - **Short name**: `ade`
 - **Portfolio**: Digital Experience
 - **Crew**: Platform Services and Governance
-- **README**: [teams/digital-experience/ADE/README.md](teams/digital-experience/ADE/README.md)
+- **README**: `teams/digital-experience/ADE/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Accredited Reps. - Accreditation
+## Accredited Reps. - Accreditation 🔒
 
 - **Team ID**: 10001
 - **Short name**: `ar-accreditation`
 - **Portfolio**: Benefits Portfolio
 - **Crew**: Accredited Reps Crew
-- **README**: [teams/benefits-portfolio/ar-accreditation/README.md](teams/benefits-portfolio/ar-accreditation/README.md)
+- **README**: `teams/benefits-portfolio/ar-accreditation/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Accredited Reps. - Appoint
+## Accredited Reps. - Appoint 🔒
 
 - **Team ID**: 10002
 - **Short name**: `ar-appoint`
 - **Portfolio**: Benefits Portfolio
 - **Crew**: Accredited Reps Crew
-- **README**: [teams/benefits-portfolio/ar-appoint/README.md](teams/benefits-portfolio/ar-appoint/README.md)
+- **README**: `teams/benefits-portfolio/ar-appoint/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Accredited Reps. - Benefits
+## Accredited Reps. - Benefits 🔒
 
 - **Team ID**: 10003
 - **Short name**: `ar-benefits`
 - **Portfolio**: Benefits Portfolio
 - **Crew**: Accredited Reps Crew
-- **README**: [teams/benefits-portfolio/ar-benefits/README.md](teams/benefits-portfolio/ar-benefits/README.md)
+- **README**: `teams/benefits-portfolio/ar-benefits/README.md` *(in va.gov-team-sensitive — requires access)*
 
 **Research (1 study):**
   - **Conversation Guide for Proactive Benefits Outreach Exploration, November 2023** (2023-11) — Semi-structured interviews [Veterans, Caregivers] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/proactive-benefits/research/2023-11-Outreach%20Exploration)
 
 ---
 
-## Analytics and Insights
+## Analytics and Insights 🔒
 
 - **Team ID**: 23002
 - **Short name**: `analytics-and-insights`
 - **Portfolio**: Digital Experience
 - **Crew**: Platform Services and Governance
-- **README**: [teams/digital-experience/analytics-and-insights/README.md](teams/digital-experience/analytics-and-insights/README.md)
+- **README**: `teams/digital-experience/analytics-and-insights/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Ask VA
+## Ask VA 🔒
 
 - **Team ID**: 22008
 - **Short name**: `ask-va`
 - **Portfolio**: Digital Experience
 - **Crew**: Core Veteran Experiences
-- **README**: [teams/digital-experience/ask-va/README.md](teams/digital-experience/ask-va/README.md)
+- **README**: `teams/digital-experience/ask-va/README.md` *(in va.gov-team-sensitive — requires access)*
 
 **Research (4 studies):**
   - **Compare Ask VA to contact experiences on other websites** (2025-02) — 1. Identify websites to compare. 2. Review the contact experience on the website. 3. Compare to Ask VA. [Veterans] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ask-va/design/User%20research/2025-02%20Comparative%20analyses)
@@ -84,13 +89,13 @@
 
 ---
 
-## Authenticated Experience
+## Authenticated Experience 🔒
 
 - **Team ID**: 22001
 - **Short name**: `authenticated-experience`
 - **Portfolio**: Digital Experience
 - **Crew**: Core Veteran Experiences
-- **README**: [teams/digital-experience/authenticated-experience/README.md](teams/digital-experience/authenticated-experience/README.md)
+- **README**: `teams/digital-experience/authenticated-experience/README.md` *(in va.gov-team-sensitive — requires access)*
 
 **Research (19 studies):**
   - ****Authenticated Experience Team, Medallia Feedback Report, 10/2025**** [Veterans, Dependents] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/research/survey-call-center-feedback)
@@ -115,13 +120,13 @@
 
 ---
 
-## Benefits Management Tools 1
+## Benefits Management Tools 1 🔒
 
 - **Team ID**: 11001
 - **Short name**: `benefits-management-tools-1`
 - **Portfolio**: Benefits Portfolio
 - **Crew**: Cross-Benefits Crew
-- **README**: [teams/benefits-portfolio/benefits-management-tools-1/README.md](teams/benefits-portfolio/benefits-management-tools-1/README.md)
+- **README**: `teams/benefits-portfolio/benefits-management-tools-1/README.md` *(in va.gov-team-sensitive — requires access)*
 
 **Research (8 studies):**
   - **Conversation Guide for Benefits Management Tools, Claim Status Tool, 2019 09** (2026-02) — usability-testing [Veterans] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/claim-appeal-status/research/discovery-SEP-2019)
@@ -135,12 +140,12 @@
 
 ---
 
-## Benefits Management Tools 2
+## Benefits Management Tools 2 🔒
 
 - **Team ID**: 11002
 - **Portfolio**: Benefits Portfolio
 - **Crew**: Cross-Benefits Crew
-- **README**: [teams/benefits-portfolio/benefits-management-tools-2/README.md](teams/benefits-portfolio/benefits-management-tools-2/README.md)
+- **README**: `teams/benefits-portfolio/benefits-management-tools-2/README.md` *(in va.gov-team-sensitive — requires access)*
 
 **Research (446 studies):**
   - **'Debt Letters MVP' Discovery Readout** (2020-05) [Veterans] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/debt-letters-mvp/research/discovery-may20)
@@ -385,7 +390,7 @@
   - **Conversation Guide for Sitewide Home Page Team, VA.gov Home Page Redesign Usability Testing, September 2021** (2021-09) — remote moderated usability sessions via Zoom [Veterans, Caregivers, Dependents, Service Members] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/home-page/research/redesign-usability)
   - **Conversation Guide for Sitewide Public Websites, Resources & Support Search Enhancements, February 2025** (YYYY-MM-DD) — [e.g., usability testing, semi-structured interviews, card sort] [Veterans, Caregivers, Service Members] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/resources-and-support/research/2024-search-filters)
   - **Conversation Guide for Travel Pay Team, User Created Appointment Data Usability Study, March/April 2026** (2026-04) — Moderated usability testing with comparative analysis [Veterans] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel/research/2026-04%20User%20Created%20Appointment%20Data%20Usability%20Study)
-  - **Conversation Guide for VA Mobile App Homescreen Research - March 2026** (2026-03) — Remote moderated usability testing with clickable medium-fidelity Figma prototype [Veterans, Dependents] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/2026-03-Homescreen-Research)
+  - **Conversation Guide for VA Mobile App Homescreen Research - March 2026** (2026-03) — Method 1, Method 2 [Veterans, Dependents] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/2026-03-Homescreen-Research)
   - **Conversation Guide for VA Online Scheduling Team, Community Care Self-Scheduling, June 2024** (2024-06) [Veterans] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling/research/2024-06%20Community%20Care%20Self-Scheduling%20-%20Usability%20and%20Concept%20Testing)
   - **Conversation Guide for VA Online Scheduling, Mobile App Access and Usability, 2018** [Veterans] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/appointments/mobile-app-discovery/research/access-usability)
   - **Conversation Guide for VA Online Scheduling, Mobile App Discoverability, 2018** [Veterans] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/appointments/mobile-app-discovery/research/discoverability)
@@ -592,83 +597,83 @@
 
 ---
 
-## Benefits Management Tools 3
+## Benefits Management Tools 3 🔒
 
 - **Team ID**: 11003
 - **Short name**: `benefits-management-tools-3`
 - **Portfolio**: Benefits Portfolio
 - **Crew**: Cross-Benefits Crew
-- **README**: [teams/benefits-portfolio/benefits-management-tools-3/README.md](teams/benefits-portfolio/benefits-management-tools-3/README.md)
+- **README**: `teams/benefits-portfolio/benefits-management-tools-3/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## BIO Aquia
+## BIO Aquia 🔒
 
 - **Team ID**: 19002
 - **Short name**: `bio-aquia`
 - **Portfolio**: Benefits Portfolio
 - **Crew**: Benefits Intake Optimization (BIO)
-- **README**: [teams/benefits-portfolio/bio-aquia/README.md](teams/benefits-portfolio/bio-aquia/README.md)
+- **README**: `teams/benefits-portfolio/bio-aquia/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## BIO HEART
+## BIO HEART 🔒
 
 - **Team ID**: 19003
 - **Short name**: `bio-heart`
 - **Portfolio**: Benefits Portfolio
 - **Crew**: Benefits Intake Optimization (BIO)
-- **README**: [teams/benefits-portfolio/bio-heart/README.md](teams/benefits-portfolio/bio-heart/README.md)
+- **README**: `teams/benefits-portfolio/bio-heart/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## BIO Huntridge
+## BIO Huntridge 🔒
 
 - **Team ID**: 19004
 - **Short name**: `vfs-bio-huntridgelabs`
 - **Portfolio**: Benefits Portfolio
 - **Crew**: Benefits Intake Optimization (BIO)
-- **README**: [teams/benefits-portfolio/bio-huntridgelabs/README.md](teams/benefits-portfolio/bio-huntridgelabs/README.md)
+- **README**: `teams/benefits-portfolio/bio-huntridgelabs/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## BIO Pingwind
+## BIO Pingwind 🔒
 
 - **Team ID**: 19001
 - **Short name**: `benefits-intake-pingwind`
 - **Portfolio**: Benefits Portfolio
 - **Crew**: Benefits Intake Optimization (BIO)
-- **README**: [teams/benefits-portfolio/benefits-intake-pingwind/README.md](teams/benefits-portfolio/benefits-intake-pingwind/README.md)
+- **README**: `teams/benefits-portfolio/benefits-intake-pingwind/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Clinical Design System - Data Visualization Design Patterns
+## Clinical Design System - Data Visualization Design Patterns 🔒
 
 - **Team ID**: 30001
 - **Short name**: `clinical-design-system`
 - **Portfolio**: Health Portfolio
 - **Crew**: Clinical Decision Support (CDS)
-- **README**: [teams/health-portfolio/clinical-design-system/README.md](teams/health-portfolio/clinical-design-system/README.md)
+- **README**: `teams/health-portfolio/clinical-design-system/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Conditions
+## Conditions 🔒
 
 - **Team ID**: 12001
 - **Short name**: `conditions`
 - **Portfolio**: Benefits Portfolio
 - **Crew**: Disability Benefits Crew
-- **README**: [teams/benefits-portfolio/conditions/README.md](teams/benefits-portfolio/conditions/README.md)
+- **README**: `teams/benefits-portfolio/conditions/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Content and Information Architecture
+## Content and Information Architecture 🔒
 
 - **Team ID**: 21001
 - **Short name**: `content-ia`
 - **Portfolio**: Digital Experience
 - **Crew**: Content, IA, and Editor Experience
-- **README**: [teams/digital-experience/content-and-information-architecture/README.md](teams/digital-experience/content-and-information-architecture/README.md)
+- **README**: `teams/digital-experience/content-and-information-architecture/README.md` *(in va.gov-team-sensitive — requires access)*
 
 **Research (2 studies):**
   - **choosing-a-decision-review-option** [Veterans] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/content/research/choosing-a-decision-review-option)
@@ -676,13 +681,13 @@
 
 ---
 
-## Content Management System
+## Content Management System 🔒
 
 - **Team ID**: 24002
 - **Short name**: `cms`
 - **Portfolio**: Digital Experience
 - **Crew**: Veteran-Facing Platforms
-- **README**: [teams/digital-experience/cms/README.md](teams/digital-experience/cms/README.md)
+- **README**: `teams/digital-experience/cms/README.md` *(in va.gov-team-sensitive — requires access)*
 
 **Research (6 studies):**
   - **1Q 2025 Medallis feedback for Regional VA office pages** [Veterans] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/regional-offices/research/medallia-feedback)
@@ -694,33 +699,33 @@
 
 ---
 
-## Core Veteran Experience 1
+## Core Veteran Experience 1 🔒
 
 - **Team ID**: 22004
 - **Short name**: `iir`
 - **Portfolio**: Digital Experience
 - **Crew**: Core Veteran Experiences
-- **README**: [teams/digital-experience/cve-1/README.md](teams/digital-experience/cve-1/README.md)
+- **README**: `teams/digital-experience/cve-1/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Core Veteran Experience 2
+## Core Veteran Experience 2 🔒
 
 - **Team ID**: 22009
 - **Short name**: `cve-2`
 - **Portfolio**: Digital Experience
 - **Crew**: Core Veteran Experiences
-- **README**: [teams/digital-experience/cve-2/README.md](teams/digital-experience/cve-2/README.md)
+- **README**: `teams/digital-experience/cve-2/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Decision Reviews
+## Decision Reviews 🔒
 
 - **Team ID**: 11004
 - **Short name**: `decision-reviews`
 - **Portfolio**: Benefits Portfolio
 - **Crew**: Cross-Benefits Crew
-- **README**: [teams/benefits-portfolio/decision-reviews/README.md](teams/benefits-portfolio/decision-reviews/README.md)
+- **README**: `teams/benefits-portfolio/decision-reviews/README.md` *(in va.gov-team-sensitive — requires access)*
 
 **Research (3 studies):**
   - **Desk Research: Call Center and Medallia Desk Research Audit (March 2024-October 2025\)** [Veterans] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/decision-reviews/research/CSAT-product-analytics)
@@ -729,23 +734,23 @@
 
 ---
 
-## Dependents Management Tools
+## Dependents Management Tools 🔒
 
 - **Team ID**: 13001
 - **Short name**: `DMT`
 - **Portfolio**: Benefits Portfolio
 - **Crew**: Lifestage Benefits Crew
-- **README**: [teams/benefits-portfolio/dependents-management/README.md](teams/benefits-portfolio/dependents-management/README.md)
+- **README**: `teams/benefits-portfolio/dependents-management/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Design & Forms Systems
+## Design & Forms Systems 🔒
 
 - **Team ID**: 23003
 - **Short name**: `design-forms-systems`
 - **Portfolio**: Digital Experience
 - **Crew**: Platform Services and Governance
-- **README**: [teams/digital-experience/design-forms-systems/README.md](teams/digital-experience/design-forms-systems/README.md)
+- **README**: `teams/digital-experience/design-forms-systems/README.md` *(in va.gov-team-sensitive — requires access)*
 
 **Products (17):**
 - [20-10206 - Request for personal records](products/simple-forms/20-10206/20-10206-details.yml)
@@ -776,13 +781,13 @@
 
 ---
 
-## Disability Benefits Crew - Core 526
+## Disability Benefits Crew - Core 526 🔒
 
 - **Team ID**: 12002
 - **Short name**: `disability-benefits-core`
 - **Portfolio**: Benefits Portfolio
 - **Crew**: Disability Benefits Crew
-- **README**: [teams/benefits-portfolio/disability-core-526/README.md](teams/benefits-portfolio/disability-core-526/README.md)
+- **README**: `teams/benefits-portfolio/disability-core-526/README.md` *(in va.gov-team-sensitive — requires access)*
 
 **Research (5 studies):**
   - **526 Analytics - Calculating Drop-Off Rates** (2024-03-52) [Veterans] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/526ez/research/2024-03-526-Analytics)
@@ -793,123 +798,123 @@
 
 ---
 
-## Disability Benefits Crew Team 5
+## Disability Benefits Crew Team 5 🔒
 
 - **Team ID**: 12004
 - **Short name**: `disability-benefits-5`
 - **Portfolio**: Benefits Portfolio
 - **Crew**: Disability Benefits Crew
-- **README**: [teams/benefits-portfolio/disability-benefits-5/README.md](teams/benefits-portfolio/disability-benefits-5/README.md)
+- **README**: `teams/benefits-portfolio/disability-benefits-5/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Disability Pathways
+## Disability Pathways 🔒
 
 - **Team ID**: 12003
 - **Short name**: `disability-benefits-2`
 - **Portfolio**: Benefits Portfolio
 - **Crew**: Disability Benefits Crew
-- **README**: [teams/benefits-portfolio/disability-pathways/README.md](teams/benefits-portfolio/disability-pathways/README.md)
+- **README**: `teams/benefits-portfolio/disability-pathways/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Employee Experience
+## Employee Experience 🔒
 
 - **Team ID**: 11005
 - **Short name**: `employee-experience`
 - **Portfolio**: Benefits Portfolio
 - **Crew**: Disability Crew
-- **README**: [teams/benefits-portfolio/employee-experience/README.md](teams/benefits-portfolio/employee-experience/README.md)
+- **README**: `teams/benefits-portfolio/employee-experience/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Faceted Search
+## Faceted Search 🔒
 
 - **Team ID**: 21004
 - **Short name**: `faceted-search`
 - **Portfolio**: Digital Experience
 - **Crew**: Content, IA, and Editor Experience
-- **README**: [teams/digital-experience/faceted-search/README.md](teams/digital-experience/faceted-search/README.md)
+- **README**: `teams/digital-experience/faceted-search/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Facilities
+## Facilities 🔒
 
 - **Team ID**: 29001
 - **Short name**: `facilities`
 - **Portfolio**: Digital Experience
 - **Crew**: Sitewide
-- **README**: [teams/digital-experience/facilities/README.md](teams/digital-experience/facilities/README.md)
+- **README**: `teams/digital-experience/facilities/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Financial Management
+## Financial Management 🔒
 
 - **Team ID**: 22003
 - **Short name**: `financial-management`
 - **Portfolio**: Digital Experience
 - **Crew**: Core Veteran Experiences
-- **README**: [teams/digital-experience/financial-management/README.md](teams/digital-experience/financial-management/README.md)
+- **README**: `teams/digital-experience/financial-management/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## GovCIO VEBT
+## GovCIO VEBT 🔒
 
 - **Team ID**: 40002
 - **Short name**: `govcio-vebt`
 - **Portfolio**: BAM Portfolio
 - **Crew**: Education
-- **README**: [teams/bam-portfolio/govcio-vebt/README.md](teams/bam-portfolio/govcio-vebt/README.md)
+- **README**: `teams/bam-portfolio/govcio-vebt/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Governance
+## Governance 🔒
 
 - **Team ID**: 23004
 - **Short name**: `governance`
 - **Portfolio**: Digital Experience
 - **Crew**: Platform Services and Governance
-- **README**: [teams/digital-experience/governance/README.md](teams/digital-experience/governance/README.md)
+- **README**: `teams/digital-experience/governance/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Health Apps
+## Health Apps 🔒
 
 - **Team ID**: 33001
 - **Short name**: `health-apps-team`
 - **Portfolio**: Health Portfolio
 - **Crew**: VA Health Applications
-- **README**: [teams/health-portfolio/health-apps/README.md](teams/health-portfolio/health-apps/README.md)
+- **README**: `teams/health-portfolio/health-apps/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Horizon
+## Horizon 🔒
 
 - **Team ID**: 31001
 - **Short name**: `horizon`
 - **Portfolio**: Health Portfolio
 - **Crew**: MHV on VA.gov Patient Portal
-- **README**: [teams/health-portfolio/horizon/README.md](teams/health-portfolio/horizon/README.md)
+- **README**: `teams/health-portfolio/horizon/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Hydra
+## Hydra 🔒
 
 - **Team ID**: 32001
 - **Short name**: `hydra`
 - **Portfolio**: Health Portfolio
 - **Crew**: Unified Appointment Experience
-- **README**: [teams/health-portfolio/hydra/README.md](teams/health-portfolio/hydra/README.md)
+- **README**: `teams/health-portfolio/hydra/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Identity
+## Identity 🔒
 
 - **Team ID**: 20001
 - **Short name**: `identity`
 - **Portfolio**: Digital Experience
 - **Crew**: Identity
-- **README**: [teams/digital-experience/identity/README.md](teams/digital-experience/identity/README.md)
+- **README**: `teams/digital-experience/identity/README.md` *(in va.gov-team-sensitive — requires access)*
 
 **Research (23 studies):**
   - ****A Review of Federal Site Comm Usage - Best practices and consequences around communicating about possible fraud incidents**** (2024-03) [Veterans, Caregivers, Service Members] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research/2024-03%20Fraud%20Notifications)
@@ -938,53 +943,53 @@
 
 ---
 
-## Medical Records
+## Medical Records 🔒
 
 - **Team ID**: 31002
 - **Short name**: `medical-records`
 - **Portfolio**: Health Portfolio
 - **Crew**: MHV on VA.gov Patient Portal
-- **README**: [teams/health-portfolio/medical-records/README.md](teams/health-portfolio/medical-records/README.md)
+- **README**: `teams/health-portfolio/medical-records/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Medications, Medical Devices and Supplies
+## Medications, Medical Devices and Supplies 🔒
 
 - **Team ID**: 31003
 - **Short name**: `medications-medical-devices-and-supplies`
 - **Portfolio**: Health Portfolio
 - **Crew**: MHV on VA.gov Patient Portal
-- **README**: [teams/health-portfolio/medications-medical-devices-supplies/README.md](teams/health-portfolio/medications-medical-devices-supplies/README.md)
+- **README**: `teams/health-portfolio/medications-medical-devices-supplies/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Memorials Self-Service
+## Memorials Self-Service 🔒
 
 - **Team ID**: 41001
 - **Short name**: `memorials-self-service`
 - **Portfolio**: BAM Portfolio
 - **Crew**: Memorials
-- **README**: [teams/bam-portfolio/memorials-self-service/README.md](teams/bam-portfolio/memorials-self-service/README.md)
+- **README**: `teams/bam-portfolio/memorials-self-service/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Messaging
+## Messaging 🔒
 
 - **Team ID**: 31004
 - **Short name**: `messaging`
 - **Portfolio**: Health Portfolio
 - **Crew**: MHV on VA.gov Patient Portal
-- **README**: [teams/health-portfolio/messaging/README.md](teams/health-portfolio/messaging/README.md)
+- **README**: `teams/health-portfolio/messaging/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Mobile App and Platform
+## Mobile App and Platform 🔒
 
 - **Team ID**: 22005
 - **Short name**: `mobile-app-and-platform`
 - **Portfolio**: Digital Experience
 - **Crew**: Core Veteran Experiences
-- **README**: [teams/digital-experience/mobile-app-and-platform/README.md](teams/digital-experience/mobile-app-and-platform/README.md)
+- **README**: `teams/digital-experience/mobile-app-and-platform/README.md` *(in va.gov-team-sensitive — requires access)*
 
 **Research (10 studies):**
   - **0. 🤖 Introduction** [Veterans] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/engineering)
@@ -1000,145 +1005,145 @@
 
 ---
 
-## Mobile Feature Support
+## Mobile Feature Support 🔒
 
 - **Team ID**: 22006
 - **Short name**: ``mobile-feature-support``
 - **Portfolio**: Digital Experience
 - **Crew**: Core Veteran Experiences
-- **README**: [teams/digital-experience/mobile-feature-support/README.md](teams/digital-experience/mobile-feature-support/README.md)
+- **README**: `teams/digital-experience/mobile-feature-support/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## My Education Benefits
+## My Education Benefits 🔒
 
 - **Team ID**: 40003
 - **Portfolio**: BAM Portfolio
 - **Crew**: Education
-- **README**: [teams/bam-portfolio/my-education-benefits/README.md](teams/bam-portfolio/my-education-benefits/README.md)
+- **README**: `teams/bam-portfolio/my-education-benefits/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Notify Experience
+## Notify Experience 🔒
 
 - **Team ID**: 22010
 - **Short name**: `notify-experience`
 - **Portfolio**: Digital Experience
 - **Crew**: Core Veteran Experiences
-- **README**: [teams/digital-experience/notify-experience/README.md](teams/digital-experience/notify-experience/README.md)
+- **README**: `teams/digital-experience/notify-experience/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Notify Platform
+## Notify Platform 🔒
 
 - **Team ID**: 22002
 - **Short name**: `notify-platform`
 - **Portfolio**: Digital Experience
 - **Crew**: Core Veteran Experiences
-- **README**: [teams/digital-experience/notify-platform/README.md](teams/digital-experience/notify-platform/README.md)
+- **README**: `teams/digital-experience/notify-platform/README.md` *(in va.gov-team-sensitive — requires access)*
 
 **Research (1 study):**
   - **Appointment notifications sent by TMP** [Veterans] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-notify/research/appointment-reminder)
 
 ---
 
-## Orion
+## Orion 🔒
 
 - **Team ID**: 32002
 - **Short name**: `orion`
 - **Portfolio**: Health Portfolio
 - **Crew**: Unified Appointment Experience
-- **README**: [teams/health-portfolio/orion/README.md](teams/health-portfolio/orion/README.md)
+- **README**: `teams/health-portfolio/orion/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Pension & Burial Benefits
+## Pension & Burial Benefits 🔒
 
 - **Team ID**: 13002
 - **Short name**: `pension-burial-benefits`
 - **Portfolio**: Benefits Portfolio
 - **Crew**: Lifestage Benefits Crew
-- **README**: [teams/benefits-portfolio/pension-burials-benefits/README.md](teams/benefits-portfolio/pension-burials-benefits/README.md)
+- **README**: `teams/benefits-portfolio/pension-burials-benefits/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Platform Infrastructure Services
+## Platform Infrastructure Services 🔒
 
 - **Team ID**: 24003
 - **Short name**: `platform-infrastructure-services`
 - **Portfolio**: Digital Experience
 - **Crew**: Veteran-Facing Platforms
-- **README**: [teams/digital-experience/platform-infrastructure-services/README.md](teams/digital-experience/platform-infrastructure-services/README.md)
+- **README**: `teams/digital-experience/platform-infrastructure-services/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Platform Security
+## Platform Security 🔒
 
 - **Team ID**: 24004
 - **Short name**: `platform-security`
 - **Portfolio**: Digital Experience
 - **Crew**: Veteran-Facing Platforms
-- **README**: [teams/digital-experience/platform-security/README.md](teams/digital-experience/platform-security/README.md)
+- **README**: `teams/digital-experience/platform-security/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Platform Site Reliability Engineering
+## Platform Site Reliability Engineering 🔒
 
 - **Team ID**: 24005
 - **Short name**: `platform-sre`
 - **Portfolio**: Digital Experience
 - **Crew**: Veteran-Facing Platforms
-- **README**: [teams/digital-experience/platform-sre/README.md](teams/digital-experience/platform-sre/README.md)
+- **README**: `teams/digital-experience/platform-sre/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Platform Support
+## Platform Support 🔒
 
 - **Team ID**: 23005
 - **Short name**: `platform-support`
 - **Portfolio**: Digital Experience
 - **Crew**: Platform Services and Governance
-- **README**: [teams/digital-experience/platform-support/README.md](teams/digital-experience/platform-support/README.md)
+- **README**: `teams/digital-experience/platform-support/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Public Websites
+## Public Websites 🔒
 
 - **Team ID**: 29003
 - **Short name**: `public-websites`
 - **Portfolio**: Digital Experience
 - **Crew**: Sitewide
-- **README**: [teams/digital-experience/public-websites/README.md](teams/digital-experience/public-websites/README.md)
+- **README**: `teams/digital-experience/public-websites/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Reapers
+## Reapers 🔒
 
 - **Team ID**: 29002
 - **Short name**: `govcio-vfep-codereviewers`
 - **Portfolio**: Digital Experience
 - **Crew**: Sitewide
-- **README**: [teams/digital-experience/govcio-vfep-codereviewers/README.md](teams/digital-experience/govcio-vfep-codereviewers/README.md)
+- **README**: `teams/digital-experience/govcio-vfep-codereviewers/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Ursa Minor
+## Ursa Minor 🔒
 
 - **Team ID**: 32003
 - **Short name**: `ursa-minor`
 - **Portfolio**: Health Portfolio
 - **Crew**: Unified Appointment Experience
-- **README**: [teams/health-portfolio/ursa-minor/README.md](teams/health-portfolio/ursa-minor/README.md)
+- **README**: `teams/health-portfolio/ursa-minor/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## VA Chatbot
+## VA Chatbot 🔒
 
 - **Team ID**: 21002
 - **Short name**: `vfs-virtual-agent-chatbot`
 - **Portfolio**: Digital Experience
 - **Crew**: Content, IA, and Editor Experience
-- **README**: [teams/digital-experience/chatbot/README.md](teams/digital-experience/chatbot/README.md)
+- **README**: `teams/digital-experience/chatbot/README.md` *(in va.gov-team-sensitive — requires access)*
 
 **Research (4 studies):**
   - **OCTO-DE Virtual Agent Branding, Tone and Personality Survey Results** [Veterans] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/virtual-agent/research/octo-de-surveys)
@@ -1148,52 +1153,52 @@
 
 ---
 
-## VES Transition Experience
+## VES Transition Experience 🔒
 
 - **Team ID**: 21003
 - **Short name**: `ves-transition-experience`
 - **Portfolio**: Digital Experience
 - **Crew**: Content, IA, and Editor Experience
-- **README**: [teams/digital-experience/ves-transition-experience/README.md](teams/digital-experience/ves-transition-experience/README.md)
+- **README**: `teams/digital-experience/ves-transition-experience/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Veteran Support
+## Veteran Support 🔒
 
 - **Team ID**: 22007
 - **Short name**: `veteran-support`
 - **Portfolio**: Digital Experience
 - **Crew**: Core Veteran Experiences
-- **README**: [teams/digital-experience/veteran-support/README.md](teams/digital-experience/veteran-support/README.md)
+- **README**: `teams/digital-experience/veteran-support/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## VEText
+## VEText 🔒
 
 - **Team ID**: 39001
 - **Short name**: `vetext`
 - **Portfolio**: Health Portfolio
 - **Crew**: VEText Notifications & Misc
-- **README**: [teams/health-portfolio/vetext/README.md](teams/health-portfolio/vetext/README.md)
+- **README**: `teams/health-portfolio/vetext/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## VFMP Status Integration
+## VFMP Status Integration 🔒
 
 - **Team ID**: 33003
 - **Short name**: `vfmp-status-integration`
 - **Portfolio**: Health Portfolio
 - **Crew**: VA Health Applications
-- **README**: [teams/health-portfolio/vfmp-status-integration/README.md](teams/health-portfolio/vfmp-status-integration/README.md)
+- **README**: `teams/health-portfolio/vfmp-status-integration/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---
 
-## Watch Engineers
+## Watch Engineers 🔒
 
 - **Team ID**: 24006
 - **Short name**: `watch-engineers`
 - **Portfolio**: Digital Experience
 - **Crew**: Veteran-Facing Platforms
-- **README**: [teams/digital-experience/watch-engineers/README.md](teams/digital-experience/watch-engineers/README.md)
+- **README**: `teams/digital-experience/watch-engineers/README.md` *(in va.gov-team-sensitive — requires access)*
 
 ---

@@ -29,6 +29,7 @@ const path = require("path");
 // ─── paths ───────────────────────────────────────────────────────────────────
 const ROOT = path.resolve(__dirname, "..");
 const KG_PATH = path.join(ROOT, ".github", "knowledge-graph.json");
+const TEAM_LOOKUP_PATH = path.join(ROOT, "team-lookup.json");
 const SUMMARIES_DIR = path.join(ROOT, ".github", "copilot-summaries");
 const REPO_BASE_URL = "https://github.com/department-of-veterans-affairs/va.gov-team";
 
@@ -80,6 +81,54 @@ function loadGraph() {
     process.exit(1);
   }
   return JSON.parse(fs.readFileSync(KG_PATH, "utf8"));
+}
+
+/**
+ * Load team-lookup.json and build a Map keyed by team_id (number).
+ * Returns an empty Map if the file is missing (graceful fallback).
+ */
+function loadTeamLookup() {
+  if (!fs.existsSync(TEAM_LOOKUP_PATH)) {
+    console.warn("WARNING: " + TEAM_LOOKUP_PATH + " not found. Sensitive-repo detection disabled.");
+    return new Map();
+  }
+  var raw = JSON.parse(fs.readFileSync(TEAM_LOOKUP_PATH, "utf8"));
+  var map = new Map();
+  Object.keys(raw).forEach(function (id) {
+    map.set(parseInt(id, 10), raw[id]);
+  });
+  return map;
+}
+
+/**
+ * Determine which repository a team's README is in based on team-lookup.json.
+ * @param {Object} teamNode - Team node from knowledge graph
+ * @param {Map} lookupById - team-lookup Map keyed by team_id
+ * @returns {{ repo: string|null, url: string|null }}
+ */
+function getTeamReadmeInfo(teamNode, lookupById) {
+  if (!teamNode.team_id) return { repo: null, url: null };
+
+  var info = lookupById.get(teamNode.team_id);
+  if (!info || !info.manifest_url) return { repo: null, url: null };
+
+  if (info.manifest_url.indexOf("va.gov-team-sensitive") >= 0) {
+    return { repo: "va.gov-team-sensitive", url: null };
+  }
+  if (info.manifest_url.indexOf("va.gov-team") >= 0) {
+    return { repo: "va.gov-team", url: info.manifest_url };
+  }
+  return { repo: null, url: null };
+}
+
+/**
+ * Check if a team's README is in the sensitive repo.
+ * @param {Object} teamNode - Team node from knowledge graph
+ * @param {Map} lookupById - team-lookup Map keyed by team_id
+ * @returns {boolean}
+ */
+function isTeamInSensitiveRepo(teamNode, lookupById) {
+  return getTeamReadmeInfo(teamNode, lookupById).repo === "va.gov-team-sensitive";
 }
 
 function writeSummary(filename, content) {
@@ -200,7 +249,7 @@ function byName(a, b) {
 
 // ─── generators ──────────────────────────────────────────────────────────────
 
-function generateTeams(graph, idx) {
+function generateTeams(graph, idx, lookupById) {
   var teams = graph.nodes.filter(function (n) { return n.type === "team"; }).sort(byName);
   var lines = [
     "# VA.gov Teams Directory",
@@ -209,11 +258,18 @@ function generateTeams(graph, idx) {
     "> Edit the source data, not this file.",
     "",
     teams.length + " teams across all portfolios.",
+    "",
+    "**Legend:**",
+    "- 🔒 = Team documentation in va.gov-team-sensitive (private repo, requires access)",
+    "",
+    "---",
     ""
   ];
 
   teams.forEach(function (team) {
-    lines.push("## " + team.name);
+    var sensitive = isTeamInSensitiveRepo(team, lookupById);
+    var heading = sensitive ? team.name + " 🔒" : team.name;
+    lines.push("## " + heading);
     lines.push("");
 
     if (team.team_id) lines.push("- **Team ID**: " + team.team_id);
@@ -228,7 +284,15 @@ function generateTeams(graph, idx) {
       lines.push("- **Crew**: " + crews.map(function (c) { return c.name; }).join(", "));
     }
     if (team.readme_path) {
-      lines.push("- **README**: [" + team.readme_path + "](" + team.readme_path + ")");
+      var readmeInfo = getTeamReadmeInfo(team, lookupById);
+      if (readmeInfo.repo === "va.gov-team-sensitive") {
+        lines.push("- **README**: `" + team.readme_path + "` *(in va.gov-team-sensitive — requires access)*");
+      } else if (readmeInfo.url) {
+        lines.push("- **README**: [" + team.readme_path + "](" + readmeInfo.url + ")");
+      } else {
+        var readmeUrl = pathToGitHubURL(team.readme_path, "blob");
+        lines.push("- **README**: [" + team.readme_path + "](" + readmeUrl + ")");
+      }
     }
     lines.push("");
 
@@ -339,7 +403,7 @@ function generateResearchByProduct(graph, idx) {
   return lines.join("\n");
 }
 
-function generatePortfolios(graph, idx) {
+function generatePortfolios(graph, idx, lookupById) {
   var portfolios = graph.nodes.filter(function (n) { return n.type === "portfolio"; }).sort(byName);
   var lines = [
     "# VA.gov Portfolio Hierarchy",
@@ -348,6 +412,11 @@ function generatePortfolios(graph, idx) {
     "> Edit the source data, not this file.",
     "",
     "Organisational hierarchy: Portfolio → Crew → Team → Products.",
+    "",
+    "**Legend:**",
+    "- 🔒 = Team documentation in va.gov-team-sensitive (private repo, requires access)",
+    "",
+    "---",
     ""
   ];
 
@@ -382,8 +451,19 @@ function generatePortfolios(graph, idx) {
       lines.push("### " + entry.crew.name);
       lines.push("");
       entry.teams.sort(byName).forEach(function (team) {
-        lines.push("#### " + team.name);
-        if (team.readme_path) lines.push("*README: [" + team.readme_path + "](" + team.readme_path + ")*");
+        var sensitive = isTeamInSensitiveRepo(team, lookupById);
+        var teamHeading = sensitive ? team.name + " 🔒" : team.name;
+        lines.push("#### " + teamHeading);
+        if (team.readme_path) {
+          var readmeInfo = getTeamReadmeInfo(team, lookupById);
+          if (readmeInfo.repo === "va.gov-team-sensitive") {
+            lines.push("*README: `" + team.readme_path + "` (in va.gov-team-sensitive — requires access)*");
+          } else if (readmeInfo.url) {
+            lines.push("*README: [" + team.readme_path + "](" + readmeInfo.url + ")*");
+          } else {
+            lines.push("*README: [" + team.readme_path + "](" + team.readme_path + ")*");
+          }
+        }
         lines.push("");
 
         var owned = idx.follow(team.id, "owns_product");
@@ -413,12 +493,75 @@ function generatePortfolios(graph, idx) {
       lines.push("### (No crew assigned)");
       lines.push("");
       noCrew.sort(byName).forEach(function (team) {
-        lines.push("- **" + team.name + "**");
-        if (team.readme_path) lines.push("  *README: [" + team.readme_path + "](" + team.readme_path + ")*");
+        var sensitive = isTeamInSensitiveRepo(team, lookupById);
+        var teamName = sensitive ? team.name + " 🔒" : team.name;
+        lines.push("- **" + teamName + "**");
+        if (team.readme_path) {
+          var readmeInfo = getTeamReadmeInfo(team, lookupById);
+          if (readmeInfo.repo === "va.gov-team-sensitive") {
+            lines.push("  *README: `" + team.readme_path + "` (in va.gov-team-sensitive — requires access)*");
+          } else if (readmeInfo.url) {
+            lines.push("  *README: [" + team.readme_path + "](" + readmeInfo.url + ")*");
+          } else {
+            lines.push("  *README: [" + team.readme_path + "](" + team.readme_path + ")*");
+          }
+        }
       });
       lines.push("");
     }
 
+    lines.push("---");
+    lines.push("");
+  });
+
+  return lines.join("\n");
+}
+
+function generateProductTeams(graph, idx) {
+  // Products with team_roster data (extracted from their README.md)
+  var withRoster = graph.nodes
+    .filter(function (n) {
+      return (n.type === "product" || n.type === "category") && n.team_roster && n.team_roster.length > 0;
+    })
+    .sort(byName);
+
+  var lines = [
+    "# Product Team Rosters",
+    "",
+    "> Auto-generated from product README files via `.github/knowledge-graph.json` on " + graph._meta.generated.slice(0, 10) + ".",
+    "> Edit the source README, not this file.",
+    "",
+    withRoster.length + " products have team roster information in their public README.",
+    "",
+    "Use this file to quickly find who works on a specific product.",
+    "For detailed team information (portfolio, crew, research), see [teams.md](teams.md).",
+    ""
+  ];
+
+  withRoster.forEach(function (p) {
+    var displayName = p.display_name || p.name;
+    lines.push("## " + displayName);
+    if (p.path) {
+      lines.push("*README: [" + p.path + "/README.md](" + pathToGitHubURL(p.path + "/README.md", "blob") + ")*");
+    }
+    lines.push("");
+
+    var roster = p.team_roster;
+    for (var i = 0; i < roster.length; i++) {
+      var entry = roster[i];
+      if (entry.role) {
+        lines.push("- **" + entry.role + "**: " + entry.name);
+      } else {
+        lines.push("- " + entry.name);
+      }
+    }
+
+    // Slack channels
+    if (p.slack_channels && p.slack_channels.length) {
+      lines.push("- **Slack**: " + p.slack_channels.join(", "));
+    }
+
+    lines.push("");
     lines.push("---");
     lines.push("");
   });
@@ -433,11 +576,14 @@ function main() {
 
   var graph = loadGraph();
   var idx = buildIndex(graph);
+  var lookupById = loadTeamLookup();
+  console.log("  Loaded team-lookup.json (" + lookupById.size + " teams)");
 
-  writeSummary("teams.md", generateTeams(graph, idx));
+  writeSummary("teams.md", generateTeams(graph, idx, lookupById));
   writeSummary("research-by-team.md", generateResearchByTeam(graph, idx));
   writeSummary("research-by-product.md", generateResearchByProduct(graph, idx));
-  writeSummary("portfolios.md", generatePortfolios(graph, idx));
+  writeSummary("product-teams.md", generateProductTeams(graph, idx));
+  writeSummary("portfolios.md", generatePortfolios(graph, idx, lookupById));
 
   console.log("\nDone.");
 }
