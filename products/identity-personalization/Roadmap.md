@@ -6,7 +6,7 @@
 - [International Phone - on hold](https://github.com/orgs/department-of-veterans-affairs/projects/1174/views/48?pane=issue&itemId=51534437&issue=department-of-veterans-affairs%7Cva.gov-team%7C74562)
 
 ## Next
-- My VA: Simplifying complex information into actionable summaries
+- [My VA: Simplifying complex information into actionable summaries](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134913)
 - [My VA: Enabling sustainable partner integrations](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va-3.0/CST-Card-Integration-Product-Outline.md)
 - [My VA: Driving user action/attention](https://github.com/orgs/department-of-veterans-affairs/projects/1174/views/48?pane=issue&itemId=134315484&issue=department-of-veterans-affairs%7Cva.gov-team%7C122545)
 - [Email Verification](https://github.com/orgs/department-of-veterans-affairs/projects/1174/views/48?pane=issue&itemId=100694218&issue=department-of-veterans-affairs%7Cva.gov-team%7C104525)
