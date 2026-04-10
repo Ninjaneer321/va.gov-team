@@ -6,15 +6,31 @@
 - [International Phone - on hold](https://github.com/orgs/department-of-veterans-affairs/projects/1174/views/48?pane=issue&itemId=51534437&issue=department-of-veterans-affairs%7Cva.gov-team%7C74562)
 
 ## Next
-- [My VA: Simplifying complex information into actionable summaries](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134913)
-- [My VA: Enabling sustainable partner integrations](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va-3.0/CST-Card-Integration-Product-Outline.md)
-- [My VA: Driving user action/attention](https://github.com/orgs/department-of-veterans-affairs/projects/1174/views/48?pane=issue&itemId=134315484&issue=department-of-veterans-affairs%7Cva.gov-team%7C122545)
+- My VA Phase II
+  - [My VA: Simplifying complex information into actionable summaries](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134913)
+  - [My VA: Enabling sustainable partner integrations](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va-3.0/CST-Card-Integration-Product-Outline.md)
+  - [My VA: Driving user action/attention](https://github.com/orgs/department-of-veterans-affairs/projects/1174/views/48?pane=issue&itemId=134315484&issue=department-of-veterans-affairs%7Cva.gov-team%7C122545)
 - [Email Verification](https://github.com/orgs/department-of-veterans-affairs/projects/1174/views/48?pane=issue&itemId=100694218&issue=department-of-veterans-affairs%7Cva.gov-team%7C104525)
 
 ## Later
 - [Benefits Overview](https://github.com/orgs/department-of-veterans-affairs/projects/1174/views/81?pane=issue&itemId=137970962&issue=department-of-veterans-affairs%7Cva.gov-team%7C124656)
 - [My VA: Centralizing Veteran notifications](https://github.com/orgs/department-of-veterans-affairs/projects/1174/views/48?pane=issue&itemId=134313989&issue=department-of-veterans-affairs%7Cva.gov-team%7C122542)
 
+---
+# Roadmap alignment to user pain points & Blue Sky priorities
+
+
+| Initiative                                             | Pain Point #1 | Pain Point #2 | Pain Point #3 | Pain Point #4 | Pain Point #5 | Pain Point #6 | Notification-driven UX | Dashboard | Flattened IA | Standardized data |
+|--------------------------------------------------------|---------------|---------------|---------------|---------------|---------------|---------------|------------------------|-----------|--------------|-------------------|
+| My VA Phase I                                          | ☑             | ☑             | ☑             | ☐             | ☐             | ☐             | ☐                      | ☑         | ☑            | ☐                 |
+| Profile: Post 2.0 Improvements                         | ☐             | ☐             | ☐             | ☑             | ☑             | ☑             | ☐                      | ☐         | ☑            | ☑                 |
+| International Phone                                    | ☐             | ☐             | ☐             | ☐             | ☐             | ☑             | ☐                      | ☐         | ☐            | ☐                 |
+| My VA: Simplifying complex information into actionable summaries | ☐      | ☑             | ☐             | ☐             | ☐             | ☐             | ☐                      | ☐         | ☑            | ☑                 |
+| My VA: Enabling sustainable partner integrations       | ☑             | ☐             | ☑             | ☐             | ☐             | ☐             | ☐                      | ☐         | ☐            | ☑                 |
+| My VA: Driving user action/attention                   | ☐             | ☑             | ☐             | ☐             | ☐             | ☐             | ☑                      | ☐         | ☐            | ☐                 |
+| Email Verification                                     | ☐             | ☐             | ☐             | ☐             | ☐             | ☐             | ☐                      | ☐         | ☐            | ☐                 |
+| Benefits Overview                                      | ☐             | ☐             | ☐             | ☐             | ☐             | ☑             | ☐                      | ☑         | ☐            | ☐                 |
+| My VA: Centralizing Veteran notifications              | ☐             | ☑             | ☐             | ☐             | ☐             | ☐             | ☑                      | ☐         | ☐            | ☐               
 ---
 
 # Top User Pain Points
