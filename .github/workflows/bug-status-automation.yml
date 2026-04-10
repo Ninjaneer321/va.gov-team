@@ -1,0 +1,93 @@
+name: Set Bug Identified status when labeled bug
+
+# Triggers when an issue is labeled
+on:
+  issues:
+    types:
+      - labeled
+
+jobs:
+  set_bug_status:
+    # Only run when the "bug" label is added
+    if: github.event.label.name == 'ADE Research Feedback'
+    runs-on: ubuntu-latest
+    steps:
+
+      # Step 1: Get the project data (field IDs and option IDs)
+      - name: Get project data
+        env:
+          GH_TOKEN: ${{ secrets.PROJECT_PAT }}
+          ORGANIZATION: department-of-veterans-affairs
+          PROJECT_NUMBER: 1959          # <-- Replace with your project number
+        run: |
+          gh api graphql -f query='
+            query($org: String!, $number: Int!) {
+              organization(login: $org){
+                projectV2(number: $number) {
+                  id
+                  fields(first:20) {
+                    nodes {
+                      ... on ProjectV2Field {
+                        id
+                        name
+                      }
+                      ... on ProjectV2SingleSelectField {
+                        id
+                        name
+                        options {
+                          id
+                          name
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }' -f org=$ORGANIZATION -F number=$PROJECT_NUMBER > project_data.json
+
+          echo 'PROJECT_ID='$(jq '.data.organization.projectV2.id' project_data.json) >> $GITHUB_ENV
+          echo 'STATUS_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .id' project_data.json) >> $GITHUB_ENV
+          echo 'BUG_IDENTIFIED_OPTION_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .options[] | select(.name=="Bug Identified") | .id' project_data.json) >> $GITHUB_ENV
+
+      # Step 2: Add the issue to the project (if not already there)
+      - name: Add issue to project
+        env:
+          GH_TOKEN: ${{ secrets.PROJECT_PAT }}
+          ISSUE_ID: ${{ github.event.issue.node_id }}
+        run: |
+          item_id="$( gh api graphql -f query='
+            mutation($project:ID!, $issue:ID!) {
+              addProjectV2ItemById(input: {projectId: $project, contentId: $issue}) {
+                item {
+                  id
+                }
+              }
+            }' -f project=$PROJECT_ID -f issue=$ISSUE_ID --jq '.data.addProjectV2ItemById.item.id')"
+
+          echo 'ITEM_ID='$item_id >> $GITHUB_ENV
+
+      # Step 3: Set the Status field to "Bug Identified"
+      - name: Set status to Bug Identified
+        env:
+          GH_TOKEN: ${{ secrets.PROJECT_PAT }}
+        run: |
+          gh api graphql -f query='
+            mutation (
+              $project: ID!
+              $item: ID!
+              $status_field: ID!
+              $status_value: String!
+            ) {
+              updateProjectV2ItemFieldValue(input: {
+                projectId: $project
+                itemId: $item
+                fieldId: $status_field
+                value: {
+                  singleSelectOptionId: $status_value
+                }
+              }) {
+                projectV2Item {
+                  id
+                }
+              }
+            }' -f project=$PROJECT_ID -f item=$ITEM_ID -f status_field=$STATUS_FIELD_ID -f status_value=$BUG_IDENTIFIED_OPTION_ID --silent
