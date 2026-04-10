@@ -11,8 +11,8 @@ This document outlines and explains the metrics featured in the **_Mobile Debt M
 | ----- | ----- |
 | Mobile::DebtsController Latency | The average of the `Mobile::DebtsController#index` total request times in milliseconds over time |
 | DMC Get Debts Endpoint Total Traffic | The total amount of traffic navigating to `Mobile::DebtsController#index` |
-| DMC Get Debts Endpoint Success | The total amount of successful traffic navigating to `Mobile::DebtsController#index` when `countOnly` is `false` or `nil` |
-| DMC Get Debts Count Only Endpoint Success | The total amount of successful traffic navigating to `Mobile::DebtsController#index` when `countOnly` is `true` |
+| DMC Get Debts Endpoint Success (list of debts) | The total amount of successful traffic navigating to `Mobile::DebtsController#index` when `countOnly` is `false` or `nil`. In other words, this is the total amount of successful traffic when the debts controller calls for the list of debts. |
+| DMC Get Debts Count Only Endpoint Success (number of debts) | The total amount of successful traffic navigating to `Mobile::DebtsController#index` when `countOnly` is `true`. In other words, this is the total amount of successful traffic when the debts controller calls for the number of debts. |
 | DMC Get Debts Endpoint Failures | The total amount of traffic navigating to `Mobile::DebtsController#index` resulting in a failure |
 | DMC Get Debts Endpoint Success Rate | The percentage of all traffic to `Mobile::DebtsController#index` that results in a successful response |
 | DMC Get Debts Endpoint Failure Rate | The percentage of all traffic to `Mobile::DebtsController#index` that results in a failed response |
