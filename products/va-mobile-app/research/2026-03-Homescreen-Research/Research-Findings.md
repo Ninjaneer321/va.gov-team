@@ -172,6 +172,7 @@ This research will be a remote moderated concept testing study using Zoom. Parti
 1. Users will expect to find new content such as new Secure messages and items requiring their review and action on the homescreen.
 **“Definitely True”**: All users felt that items requiring attention and action belonged on the homescreen such as alerts, updates from the VA, reminders, information requiring their review, and tasks to complete. 
 2. Users very familiar with the app will expect to find Veteran status card and disability rating and payments on the homescreen as reflects the current live app layout.
+
 3. Users less familiar with the app will expect to find Veteran status card and dependents verification in Profile.
 4. Users less familiar with the app will expect to find disability payments and rating in Profile or in Payments.
 5. Users will sometimes want more information than is presented on homescreen to help them with some tasks such as managing prescriptions, due dates for Action required items, or for appointments preparation. 
@@ -179,9 +180,13 @@ This research will be a remote moderated concept testing study using Zoom. Parti
 **Research goal 2: Understand how users interpret and use homescreen content and capabilities**
 
 1. Users will notice and give more weight to "Action required" items because of the label and design styling of the section.
+**"Maybe True"**: While all users were drawn to the Action required items because of the label and styling and felt the Action required label denoted greater importance or urgency, all users also noticed and would act on items in the Activity section. A user's own goals and habits, perceived time sensitivity of items, and item's impact on benefits and were stronger factors in drawing a user's notice and sense of importance for specific items. However, users did think Action required was important and therefore felt that items they thought important should be moved into the Action required section.
 2. Users will be able to describe in their own words what the "Action required" section is for. 
+**“Definitely True”**: All users understand and could describe that this section was for items requiring their action or a "to-do list."
 3. Users will want to take action on both "Action required" items and "Activity" items that usually are of top concern to Veterans such as new appointment information, prescription updates, travel pay claims.
+**“Definitely True”**: All users expected to act on items in both sections.
 4. Users may not be able to articulate exactly what kind of items belong in the "Activity" section.
+**"Maybe True"**: While 3 participants were able to explain that Activity section contained updates and sometimes informational items that didn't require action, most users were confused about which items belonged in Action required vs Activity and some felt that some Activity section items like secure messages and unread decision letter did require action. 
 5. Users will want to complete tasks as directly as possible.
 6. Users will expect to be able to complete tasks directly from the homescreen when there is a call to action button associated with the item such as "Pay copay" for a medical copayment. 
 
