@@ -167,6 +167,31 @@ When constructing or copying GitHub URLs:
 
 If you encounter a path in the summary files, it should already be formatted as a complete hyperlink. Use the link as-is.
 
+### Handling Broken Research Links
+
+Due to inconsistent naming conventions in research directories, some direct links may result in 404 errors.
+
+**If a user reports a broken link:**
+
+1. ✅ **Use the search fallback link** - Summary files include a search link that will find the research
+2. ✅ **Try URL variations** - The path might use different capitalization or hyphens:
+   - `User research` vs `user-research` vs `User Research`
+   - `2025-02` vs `2025-02-study` vs `2025 02`
+3. ✅ **Search by keywords** - Use GitHub search: `path:products/[product-name] [study-keywords]`
+
+**When presenting research links to users:**
+
+- Include both the direct link and search link from the summary file
+- If a direct link seems problematic (contains spaces, special characters), emphasize the search link:
+  ```
+  Note: If the direct link doesn't work, use the search link to locate this research.
+  ```
+
+**URL encoding reference:**
+- Space → `%20`
+- Parentheses → `%28` and `%29`
+- Quotes → `%22`
+
 ## Research Data Integrity Rules
 
 ### CRITICAL: Never Fabricate Research Information

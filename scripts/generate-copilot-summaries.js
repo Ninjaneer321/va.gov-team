@@ -32,6 +32,45 @@ const KG_PATH = path.join(ROOT, ".github", "knowledge-graph.json");
 const SUMMARIES_DIR = path.join(ROOT, ".github", "copilot-summaries");
 const REPO_BASE_URL = "https://github.com/department-of-veterans-affairs/va.gov-team";
 
+// ─── URL helpers ─────────────────────────────────────────────────────────────
+
+/**
+ * Convert a file path to a properly encoded GitHub URL.
+ * @param {string} filePath - File system path (e.g., "products/ask-va/design/User research/2024-05 Study")
+ * @param {string} type - URL type: 'tree' for directories, 'blob' for files
+ * @returns {string} - Properly encoded GitHub URL
+ */
+function pathToGitHubURL(filePath, type) {
+  if (!filePath) return "";
+  // Handle arrays by taking the first element
+  if (Array.isArray(filePath)) filePath = filePath[0];
+  if (typeof filePath !== "string") return "";
+  if (!type) type = "tree";
+  var encodedPath = filePath.split("/").map(function (segment) {
+    return encodeURIComponent(segment);
+  }).join("/");
+  return REPO_BASE_URL + "/" + type + "/master/" + encodedPath;
+}
+
+/**
+ * Generate a GitHub search URL to find research by path and keywords.
+ * @param {string} filePath - Partial path to search within
+ * @param {string} keywords - Keywords from study title
+ * @returns {string} - GitHub search URL
+ */
+function generateSearchURL(filePath, keywords) {
+  var pathParts = (filePath || "").split("/").slice(0, 2).join("/");
+  var yearMatch = (keywords || "").match(/\b(20\d{2})\b/);
+  var year = yearMatch ? yearMatch[1] : "";
+  var noise = ["research", "study", "usability", "testing"];
+  var extraTerms = (keywords || "").split(/\s+/).filter(function (w) {
+    return w.length > 3 && noise.indexOf(w.toLowerCase()) === -1;
+  }).slice(0, 2);
+  var parts = ["path:" + pathParts, year].concat(extraTerms).filter(Boolean);
+  var q = parts.join(" ");
+  return REPO_BASE_URL + "/search?q=" + encodeURIComponent(q);
+}
+
 // ─── helpers ─────────────────────────────────────────────────────────────────
 
 function loadGraph() {
@@ -97,7 +136,7 @@ function studyBullet(s) {
   if (s.participant_types && s.participant_types.length) {
     participantPart = " [" + s.participant_types.join(", ") + "]";
   }
-  var linkPart = s.path ? " · [view](" + REPO_BASE_URL + "/tree/master/" + s.path + ")" : "";
+  var linkPart = s.path ? " · [view](" + pathToGitHubURL(s.path, "tree") + ")" : "";
   return "  - **" + label + "**" + datePart + methodPart + participantPart + linkPart;
 }
 
@@ -109,7 +148,8 @@ function studyBlock(s) {
   var methodology = s.methodology
     ? (Array.isArray(s.methodology) ? s.methodology.join(", ") : s.methodology)
     : "Methodology not specified";
-  var studyUrl = s.path ? REPO_BASE_URL + "/tree/master/" + s.path : "";
+  var studyUrl = s.path ? pathToGitHubURL(s.path, "tree") : "";
+  var searchUrl = s.path ? generateSearchURL(s.path, label) : "";
 
   // Hyperlinked heading
   if (studyUrl) {
@@ -127,19 +167,22 @@ function studyBlock(s) {
   }
 
   if (s.path) {
-    lines.push("- **Path**: [`" + s.path + "`](" + studyUrl + ")");
+    lines.push("- **Path**: `" + s.path + "`");
+    var linkLine = "- **Direct link**: [View directory](" + studyUrl + ")";
+    if (searchUrl) linkLine += " | [Search for this research](" + searchUrl + ")";
+    lines.push(linkLine);
   }
 
   if (s.files) {
     var fileLinks = [];
     if (s.files.plan) {
-      fileLinks.push("  - [Research Plan](" + REPO_BASE_URL + "/blob/master/" + s.files.plan + ")");
+      fileLinks.push("  - [Research Plan](" + pathToGitHubURL(s.files.plan, "blob") + ")");
     }
     if (s.files.findings) {
-      fileLinks.push("  - [Findings](" + REPO_BASE_URL + "/blob/master/" + s.files.findings + ")");
+      fileLinks.push("  - [Findings](" + pathToGitHubURL(s.files.findings, "blob") + ")");
     }
     if (s.files.conversation_guide) {
-      fileLinks.push("  - [Conversation Guide](" + REPO_BASE_URL + "/blob/master/" + s.files.conversation_guide + ")");
+      fileLinks.push("  - [Conversation Guide](" + pathToGitHubURL(s.files.conversation_guide, "blob") + ")");
     }
     if (fileLinks.length) {
       lines.push("- **Files**:");
