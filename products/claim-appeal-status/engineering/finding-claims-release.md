@@ -2,6 +2,45 @@
 
 **Feature flag**: `cst_claims_list_filter`
 
+## Monitoring Executive Summary
+
+Based on two days of post-release data (Apr 8-9 vs Apr 1-2). Data sources: GA4 and Datadog RUM.
+
+### Confirmed Working
+
+- Filter component is active: 44,176 clicks on day 1, 34,764 on day 2. Closed (42%) is the most-clicked filter, consistent with In progress being the default.
+- Content changes landed: "What if I can't find..." heading replaced by "If you can't find..." (1,498/1,396 went to 1, new heading now at 1,648/1,528 clicks). "Find out why we sometimes combine claims" additional info dropped to 0 events.
+
+### Declines
+
+- **Appeal detail sessions**: -7.6% (day 1, flat traffic) and -22.92% raw / -17% normalized (day 2). Closed appeals are now behind the Closed filter. Users who arrive with only closed claims would see an empty "In progress" list by default and may not notice the filter or the empty state message.
+- **Details link clicks**: -13% (day 1) and -21.83% raw / -16% normalized (day 2).
+- **Pagination**: -28% (day 1) and -47% (day 2). Fewer users are paginating past page 1.
+
+### Unexplained Increases
+
+- **page_view**: +36% (day 1, flat traffic) and +22.58% (day 2). Cause unknown.
+- **Self-navigation**: +35% (day 1) and +109% (day 2). Users navigating from the claims landing page back to the same page a cause of this is page refreshes.
+- **Claim letters navigation**: +41% (day 1) and +29% (day 2). Cause unknown.
+
+### Frustration (Datadog RUM)
+
+- Frustration rate increased from 7.4% to 9.6% (Apr 1-2 vs Apr 8-9)
+- Frustration monitor did not trigger a warning or alert
+- Session replays did not reveal a clear pattern
+- The increase warrants continued monitoring
+
+### Potential Concern: Default View Without Cards or With Far Fewer Cards
+
+Users who navigate to `/track-claims/your-claims` with only closed claims (e.g., 10 closed, 0 in-progress) would see an empty list on the default "In progress" filter. These users may not notice the new filter component or the empty state message ("We don't have any in-progress records for you in our system.") and think their claims are missing. This scenario could be a common factor behind the appeal detail decline, the self-navigation increase (users refreshing the page), and the frustration rate increase.
+
+### Action Items
+
+- [ ] Investigate appeal detail session decline -- are users unable to find closed appeals behind the Closed filter?
+- [ ] Investigate unexplained page_view and self-navigation increases
+- [ ] Continue monitoring frustration rate over the full week
+- [ ] Collect full 7-day comparison (Apr 1-7 vs Apr 8-14) for a more conclusive analysis
+
 ## Google Analytics Release Monitoring
 
 [CST Claims Filter Release](https://analytics.google.com/analytics/web/#/analysis/a50123418p419143770/edit/6zMUJcZSTQCnSvzojYA7Kg)
@@ -173,17 +212,6 @@ The +35% increase in self-navigation is unexplained. Filter clicks do not trigge
 
 Homepage, My VA, and Contact us are all flat, confirming no disruption to normal navigation patterns.
 
-#### Overall Analysis
-
-On identical traffic (69,696 vs 69,782 sessions), the filter release shows:
-
-- **No regressions**: No increase in contact us navigation, no unexpected drops
-- **Strong filter adoption**: 44,176 filter clicks on day one, with Closed (41%) as the most-clicked filter
-- **Users finding claims faster**: The -13% Details click drop, -5.5% claim detail session drop, and -28% pagination drop all suggest the In progress default surfaces relevant claims more efficiently, reducing the need to paginate or click into multiple claims
-- **Content changes landed cleanly**: The "If you can't find" heading replaced the old heading completely (1,498 to 1), and the new heading is getting 10% more engagement
-- **One metric to watch**: Appeal detail sessions dropped 7.6%. This could indicate closed appeals are slightly harder to find behind the Closed filter. Continue monitoring over the full week before taking action
-- **Claim letters navigation increased**: +41% increase in navigation to claim letters. Cause unclear from GA data alone.
-
 ### Report: April 2 vs April 9
 
 Single-day comparison: Thursday April 2 (pre-release) vs Thursday April 9 (second full day post-release). Same day of week.
@@ -267,16 +295,6 @@ Pagination dropped more sharply on day 2 than day 1. Total pagination sessions f
 
 Self-navigation increased +109%. Cause unclear -- filter clicks do not trigger navigation events in GA (verified in codebase). Claim letters navigation continues to increase (+29.46%), consistent with day 1 (+41%).
 
-#### Overall Analysis
-
-With sessions down 6.86%, most metrics show proportional decreases that are expected.
-
-- **Appeal detail sessions dropped 22.92% (-17% normalized)** -- this is the second consecutive day of decline and is now a confirmed trend, not day-to-day variation. Users are navigating to appeal detail pages less frequently since closed appeals moved behind the Closed filter. This should be flagged to the team for investigation.
-- **Filter adoption remains strong**: 34,764 clicks, consistent distribution across labels
-- **Claim detail navigation is stable**: -8.25% raw, but only -1.5% when adjusted for lower traffic
-- **Pagination dropped 47%**: Consistent with day 1 (-28%), confirming users need less pagination with the filtered list
-- **No frustration signals**: Contact us remains flat in absolute terms
-
 ---
 
 ## Datadog RUM Release Monitoring
@@ -300,7 +318,7 @@ Frustration filter adds: `@view.frustration.count:>0`
 #### Frustration
 
 | Metric | Apr 1-2 | Apr 8-9 |
-|---|---|---|
+|---|---|---|---|
 | Views with frustration | 1,660 | 2,334 |
 | Frustration rate | 7.4% | 9.6% |
 
