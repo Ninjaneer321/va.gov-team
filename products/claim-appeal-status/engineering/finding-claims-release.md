@@ -300,7 +300,7 @@ Frustration filter adds: `@view.frustration.count:>0`
 #### Frustration
 
 | Metric | Apr 1-2 | Apr 8-9 |
-|---|---|---|---|
+|---|---|---|
 | Views with frustration | 1,660 | 2,334 |
 | Frustration rate | 7.4% | 9.6% |
 
