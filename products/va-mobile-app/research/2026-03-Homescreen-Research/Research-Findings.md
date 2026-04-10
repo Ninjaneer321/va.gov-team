@@ -179,8 +179,8 @@ This research will be a remote moderated concept testing study using Zoom. Parti
 - **"Definitely True"**: Both expected both payments and rating together in Payments.
 5. Users will sometimes want more information than is presented on homescreen to help them with some tasks such as managing prescriptions, due dates for Action required items, or for appointments preparation. 
 - **"Definitely True"**: All users felt displaying dates, especially due dates on items with due dates would better help them manage tasks. 
-**Research goal 2: Understand how users interpret and use homescreen content and capabilities**
 
+**Research goal 2: Understand how users interpret and use homescreen content and capabilities**
 1. Users will notice and give more weight to "Action required" items because of the label and design styling of the section.
 - **"Maybe True"**: While all users were drawn to the Action required items because of the label and styling and felt the Action required label denoted greater importance or urgency, all users also noticed and would act on items in the Activity section. A user's own goals and habits, perceived time sensitivity of items, and item's impact on benefits and were stronger factors in drawing a user's notice and sense of importance for specific items. However, users did think Action required was important and therefore felt that items they thought important should be moved into the Action required section.
 2. Users will be able to describe in their own words what the "Action required" section is for. 
@@ -190,13 +190,15 @@ This research will be a remote moderated concept testing study using Zoom. Parti
 4. Users may not be able to articulate exactly what kind of items belong in the "Activity" section.
 - **"Maybe True"**: While 3 participants were able to explain that Activity section contained updates and sometimes informational items that didn't require action, most users were confused about which items belonged in Action required vs Activity and some felt that some Activity section items like secure messages and unread decision letter did require action. 
 5. Users will want to complete tasks as directly as possible.
+- **"Likely True"**: Most users appreciated the option to complete tasks directly from the homescreen, but verbiage that made it seem like actions would be one click without opportunity to review fully before committing made them nervous. As long as full information was incorporated into the direct process, users would want this option. 
 6. Users will expect to be able to complete tasks directly from the homescreen when there is a call to action button associated with the item such as "Pay copay" for a medical copayment. 
-
+- **"Definitely True"**: Call to action buttons made 6 users think that pressing the button would mean one click task completion. 
 **Research goal 3: Understand how users interpret and use homescreen content and capabilities**
 1. Since homescreen content uses plain language and short, to-the-point phrases, users will generally understand terms and calls action.
+- **"Likely True"**: Most content was easy to understand, but 6 users had slight confusion about what was meant with the phrases prescription "updates" and "refill ready."
 2. Users may experience minor confusion due to lack of familiarity with specific items such as 'evidence request.'
-  - **"Maybe True", “Likely True”, “Definitely True”, “Likely False”, “Definitely False” or “Not enough information”**  
-  - Supporting evidence  
+  - **“Likely False”**: Users, including those with cognitive disabilities only had minor confusion with the two phrases in hypothesis 3.1.
+
 
 [Example Hypotheses and Conclusions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#hypotheses-and-conclusions)
 
