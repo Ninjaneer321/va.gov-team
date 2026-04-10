@@ -82,17 +82,24 @@ Use matching day-of-week windows to account for weekday/weekend traffic differen
 
 Single-day comparison: Wednesday April 1 (pre-release) vs Wednesday April 8 (first full day post-release). Same day of week for a fair comparison.
 
-**Traffic baseline**: Sessions on the claims landing page were essentially identical between the two days (Apr 1: 69,696 vs Apr 8: 69,782, +0.12%). This means all behavioral changes below are real shifts in user behavior from the feature, not traffic differences.
+**Traffic baseline**:
+
+| Metric | Apr 1 | Apr 8 | Change |
+|---|---|---|---|
+| Total sessions | 69,696 | 69,782 | +0.12% |
+
+Sessions were essentially identical. All behavioral changes below are real shifts in user behavior from the feature, not traffic differences.
 
 #### Filter Clicks
 
 | Filter Label | Apr 1 | Apr 8 |
 |---|---|---|
+| Totals | N/A | 44,176 |
 | Closed | N/A | 18,277 |
 | All | N/A | 13,445 |
 | In progress | N/A | 12,454 |
 
-Users are actively engaging with the filter (44,176 total clicks). Closed has the most clicks (41%), which is expected since In progress is the default -- users who want to see closed claims must actively click.
+Users are actively engaging with the filter. Closed has the most clicks (41%), which is expected since In progress is the default -- users who want to see closed claims must actively click.
 
 #### On This Page Clicks
 
@@ -118,9 +125,9 @@ The heading swap from "What if I can't find..." to "If you can't find..." comple
 | additional_info / int-additional-info-collapse / "Find out why we sometimes combine claims" | 51 | 0 | -100% (removed) |
 | button / int-button-segmented-click | N/A | 44,176 | new |
 
-The +36% page_view increase (45,686 additional views) is explained by the 44,176 filter clicks. Each filter click calls `navigate()` to reset pagination, which triggers a new page_view event. Sessions confirm traffic was flat (+0.12%).
+The +36% page_view increase on flat traffic (+0.12% sessions) is unexplained. Filter clicks do not trigger page_view events (verified in codebase -- `navigate()` calls dispatch `UPDATE_ROUTE` but this is not wired to fire analytics events in claims-status).
 
-The -13% drop in Details link clicks is a real behavioral change on flat traffic. With the default In progress filter showing only active claims, users see a smaller, more relevant list and click into fewer claims to find what they need.
+The -13% drop in Details link clicks is a real behavioral change on flat traffic.
 
 The "Find out why we sometimes combine claims" additional info component dropped to 0 events, confirming it was successfully removed.
 
@@ -140,6 +147,16 @@ On flat traffic, 5.5% fewer sessions navigated to claim detail pages. This align
 
 On flat traffic, 7.6% fewer sessions navigated to appeal detail pages. Closed appeals are now behind the Closed filter. Worth monitoring over the full week -- if this trend continues, it could indicate users are having trouble finding closed appeals.
 
+#### Pagination
+
+| Page | Apr 1 | Apr 8 | Change |
+|---|---|---|---|
+| ?page=2 | 359 | 253 | -29.5% |
+| ?page=1 | 115 | 65 | -43.5% |
+| ?page=3 | 47 | 46 | -2.1% |
+
+Pagination to early pages dropped significantly. With the In progress filter narrowing the list, fewer users need to paginate past page 1 to find their claims. Total pagination sessions are small (~530 pre-release, ~384 post-release) relative to overall traffic.
+
 #### Outbound Navigation
 
 | Top Destination | Apr 1 | Apr 8 | Change |
@@ -152,7 +169,7 @@ On flat traffic, 7.6% fewer sessions navigated to appeal detail pages. Closed ap
 
 The +41% increase in claim letters navigation is a real behavioral change on flat traffic. The cause is unclear from GA data alone.
 
-The +35% increase in self-navigation is expected -- filter clicks trigger `navigate()` to reset pagination.
+The +35% increase in self-navigation is unexplained. Filter clicks do not trigger page_view or navigation events in GA (verified in codebase).
 
 Homepage, My VA, and Contact us are all flat, confirming no disruption to normal navigation patterns.
 
@@ -162,31 +179,132 @@ On identical traffic (69,696 vs 69,782 sessions), the filter release shows:
 
 - **No regressions**: No increase in contact us navigation, no unexpected drops
 - **Strong filter adoption**: 44,176 filter clicks on day one, with Closed (41%) as the most-clicked filter
-- **Users finding claims faster**: The -13% Details click drop and -5.5% claim detail session drop suggest the In progress default surfaces relevant claims more efficiently, reducing the number of claims users need to click into
+- **Users finding claims faster**: The -13% Details click drop, -5.5% claim detail session drop, and -28% pagination drop all suggest the In progress default surfaces relevant claims more efficiently, reducing the need to paginate or click into multiple claims
 - **Content changes landed cleanly**: The "If you can't find" heading replaced the old heading completely (1,498 to 1), and the new heading is getting 10% more engagement
 - **One metric to watch**: Appeal detail sessions dropped 7.6%. This could indicate closed appeals are slightly harder to find behind the Closed filter. Continue monitoring over the full week before taking action
 - **Claim letters navigation increased**: +41% increase in navigation to claim letters. Cause unclear from GA data alone.
+
+### Report: April 2 vs April 9
+
+Single-day comparison: Thursday April 2 (pre-release) vs Thursday April 9 (second full day post-release). Same day of week.
+
+**Traffic baseline**:
+
+| Metric | Apr 2 | Apr 9 | Change |
+|---|---|---|---|
+| Total sessions | 71,296 | 66,408 | -6.86% |
+
+Unlike Apr 1 vs 8 where traffic was flat, Apr 9 had meaningfully fewer sessions. Raw percentage changes below overstate the behavioral impact -- the normalized change (adjusted for -6.86% traffic) is noted where significant.
+
+#### Filter Clicks
+
+| Filter Label | Apr 2 | Apr 9 |
+|---|---|---|
+| Totals | N/A | 34,764 |
+| Closed | N/A | 14,585 |
+| All | N/A | 10,908 |
+| In progress | N/A | 9,271 | Distribution remains consistent with day 1 (Closed 42%, All 31%, In progress 27%). Lower absolute numbers than Apr 8 (44,176) align with the lower session count.
+
+#### On This Page Clicks
+
+| Link Text | Apr 2 | Apr 9 | Change |
+|---|---|---|---|
+| Totals | 33,475 | 29,863 | -10.79% |
+| Your claims, decision reviews, or appeals | 14,809 | 13,811 | -6.74% |
+| Your claim letters | 14,851 | 12,504 | -15.8% |
+| If you can't find your claim, decision review, or appeal | 0 | 1,528 | new |
+| What if I can't find my claim, decision review, or appeal? | 1,396 | 1 | replaced |
+| Additional services | 1,401 | 1,260 | -10.06% |
+| Your travel reimbursement claims | 941 | 677 | -28.06% |
+| Contact us | 70 | 77 | +10% |
+
+Heading swap remains clean (old: 1,396 to 1, new: 1,528). Most decreases are proportional to the -6.86% session drop. Contact us ticked up slightly (+10%) but absolute numbers are small (70 to 77) -- not a meaningful signal.
+
+#### Your Claims Events
+
+| Event | Apr 2 | Apr 9 | Change |
+|---|---|---|---|
+| page_view | 126,866 | 155,515 | +22.58% |
+| link_click / Details | 57,509 | 44,954 | -21.83% |
+| button / int-button-segmented-click | N/A | 34,764 | new |
+
+Page view increase (+22.58%) on lower traffic (-6.86% sessions) is unexplained. The Details click drop (-21.83%) is larger than Apr 1 vs 8 (-13%). Adjusted for the -6.86% session drop, the normalized Details decrease is approximately -16%.
+
+#### Claim Detail Page Navigation
+
+| Metric | Apr 2 | Apr 9 | Change |
+|---|---|---|---|
+| Total sessions | 51,412 | 47,173 | -8.25% |
+
+Adjusted for the -6.86% session drop, the normalized claim detail decrease is approximately -1.5%. Consistent with Apr 1 vs 8 (-5.5%).
+
+#### Appeal Detail Page Navigation
+
+| Metric | Apr 2 | Apr 9 | Change |
+|---|---|---|---|
+| Total sessions | 17,015 | 13,115 | -22.92% |
+
+This is a significant drop. Adjusted for the -6.86% session drop, the normalized appeal detail decrease is approximately -17%. This is much larger than Apr 1 vs 8 (-7.6%) and warrants investigation. Closed appeals are now behind the Closed filter, and this second day of data strengthens the signal that users may be having difficulty finding their appeal detail pages.
+
+#### Pagination
+
+| Page | Apr 2 | Apr 9 | Change |
+|---|---|---|---|
+| ?page=2 | 351 | 180 | -48.7% |
+| ?page=1 | 121 | 40 | -66.9% |
+| ?page=3 | 50 | 36 | -28% |
+
+Pagination dropped more sharply on day 2 than day 1. Total pagination sessions fell from ~528 to ~278 (-47%), compared to -28% on day 1. The In progress filter narrows the list, so fewer users need to paginate.
+
+#### Outbound Navigation
+
+| Top Destination | Apr 2 | Apr 9 | Change |
+|---|---|---|---|
+| /track-claims/your-claim-letters | 14,558 | 18,847 | +29.46% |
+| / | 13,692 | 13,297 | -2.88% |
+| /track-claims/your-claims (combined with trailing slash) | 8,724 | 18,243 | +109% |
+| /my-va/ | 4,826 | 4,660 | -3.44% |
+
+Self-navigation increased +109%. Cause unclear -- filter clicks do not trigger navigation events in GA (verified in codebase). Claim letters navigation continues to increase (+29.46%), consistent with day 1 (+41%).
+
+#### Overall Analysis
+
+With sessions down 6.86%, most metrics show proportional decreases that are expected.
+
+- **Appeal detail sessions dropped 22.92% (-17% normalized)** -- this is the second consecutive day of decline and is now a confirmed trend, not day-to-day variation. Users are navigating to appeal detail pages less frequently since closed appeals moved behind the Closed filter. This should be flagged to the team for investigation.
+- **Filter adoption remains strong**: 34,764 clicks, consistent distribution across labels
+- **Claim detail navigation is stable**: -8.25% raw, but only -1.5% when adjusted for lower traffic
+- **Pagination dropped 47%**: Consistent with day 1 (-28%), confirming users need less pagination with the filtered list
+- **No frustration signals**: Contact us remains flat in absolute terms
 
 ---
 
 ## Datadog RUM Release Monitoring
 
-Datadog RUM (service: `benefits-claim-status-tool`) detects user frustration signals (rage clicks, dead clicks, error clicks) that GA cannot. A monitor is configured to alert the team if frustration spikes after release.
+Datadog RUM (service: `benefits-claim-status-tool`) detects user frustration signals (rage clicks, dead clicks, error clicks) that GA cannot. A monitor is configured to alert the team if frustration spikes after release. Note that RUM captures a sample of total traffic, so view counts here should not be compared directly to GA numbers.
 
+### Report: Apr 1-2 vs Apr 8-9
 
+Two-day comparison: Tuesday-Wednesday April 1-2 (pre-release) vs Tuesday-Wednesday April 8-9 (post-release). Same days of week for a fair comparison.
 
-### Before/After Frustration Comparison
+RUM Explorer query: `service:benefits-claim-status-tool @view.url_path:/track-claims/your-claims`
 
-Use the RUM Explorer to compare frustration levels before and after release:
+Frustration filter adds: `@view.frustration.count:>0`
 
-1. Open the [RUM Explorer with frustration filter](https://vagov.ddog-gov.com/rum/sessions?query=@type:view%20service:benefits-claim-status-tool%20@view.url_path:/track-claims/your-claims%20@view.frustration.count:%3E0&agg_m=count&agg_m_source=base&agg_t=count&fromUser=true&viz=stream&from_ts=1775496671753&to_ts=1775669471753&live=true)
-2. Switch to Timeseries view and set the time range to cover both the baseline and post-release periods
-3. Eyeball the chart for a visible increase in frustration count after the release timestamp (April 7, 10:45 PM ET)
-4. If the post-release frustration level looks noticeably higher than the baseline, investigate using the steps below
+**Sampled views baseline**:
 
-| Metric | Baseline | Post-Release | Change | Status |
-|---|---|---|---|---|
-| Views with frustration (`@view.frustration.count:>0`) | | | | |
+| Metric | Apr 1-2 | Apr 8-9 | Change |
+|---|---|---|---|
+| Total sampled views | 22,285 | 24,305 | +9.1% |
+
+#### Frustration
+
+| Metric | Apr 1-2 | Apr 8-9 |
+|---|---|---|---|
+| Views with frustration | 1,660 | 2,334 |
+| Frustration rate | 7.4% | 9.6% |
+
+The frustration rate edged up from 7.4% to 9.6%, partly explained by the 9.1% increase in sampled traffic. The frustration monitor never triggered a warning or alert, and session replays reviewed at release time did not reveal a clear pattern. Will continue monitoring over the full week to see if the rate stabilizes.
 
 ### Frustration Monitor
 
