@@ -174,9 +174,11 @@ This research will be a remote moderated concept testing study using Zoom. Parti
 2. Users very familiar with the app will expect to find Veteran status card and disability rating and payments on the homescreen as reflects the current live app layout.
 - **“Likely False”**: Of the 8 users who were familiar with the app, none expected all of these items on the homescreen, and only a few expected some of these on the homescreen. 
 3. Users less familiar with the app will expect to find Veteran status card and dependents verification in Profile.
+- **"Likely False"**: 1 of the 2 non-users expected to find dependents in Profile but the other expected it in Benefits. 1 expected Veteran status card in Payments or Profile, while the other was very unsure and thought it could be in VA Resources or a new, separate tab.
 4. Users less familiar with the app will expect to find disability payments and rating in Profile or in Payments.
+- **"Definitely True"**: Both expected both payments and rating together in Payments.
 5. Users will sometimes want more information than is presented on homescreen to help them with some tasks such as managing prescriptions, due dates for Action required items, or for appointments preparation. 
-
+- **"Definitely True"**: All users felt displaying dates, especially due dates on items with due dates would better help them manage tasks. 
 **Research goal 2: Understand how users interpret and use homescreen content and capabilities**
 
 1. Users will notice and give more weight to "Action required" items because of the label and design styling of the section.
