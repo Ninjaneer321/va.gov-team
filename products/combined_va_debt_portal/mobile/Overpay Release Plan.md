@@ -35,19 +35,19 @@ Before enabling your feature toggle in production, you'll need to:
 
 #### **Planning**
 
-1. Working with Denise Coveyduc on finding Veterans to test in Test Flight.  
-2. Work with the VA Mobile App Lead, Jon Bindbeutel to create a UAT group with the Veterans' emails within Test Flight.  
+1. Working with Denise Coveyduc on finding Veterans to test in production builds for TestFlight (iOS) or Firebase App Tester (Android).  
+2. Work with the VA Mobile App Lead, Jon Bindbeutel to create a UAT group with the Veterans' emails within TestFlight (iOS) or Firebase App Tester (Android).  
 3. iOS testers will need to install Test Flight, build #3718 (Version 2.71.1) and toggle on the “overpayments” remote configuration.
 4. Android testers will need to install Firebase App Tester, select build #3460 (Version 2.71.0) and toggle on the "overpayments" remote configuration. 
-5. UAT testing is scheduled from **insert dates once confirmed**
-6. Refer to our [UAT documentation](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/combined_va_debt_portal/mobile/uat-overpayment) 
+5. The MFS team worked with Perigean to find participants for UAT testing. These sessions are scheduled from Monday, April 13th - Friday, April 17th. Testing for the empty state was conducted Monday, April 6th and Tuesday, April 7th. 
+6. Refer to our [UAT documentation](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/combined_va_debt_portal/mobile/uat-overpayment) to find more details on documentation and recruitment criteria.
 
 #### **Results**
 
-* Number of users:   
-* Number of bugs identified/fixed:   
-* Was any downstream service affected by the change?:   
-* Any changes necessary based on the logs, feedback on user challenges, or VA challenges? 
+* Number of users: **Need to update**  
+* Number of bugs identified/fixed: **Need to update**   
+* Was any downstream service affected by the change?: **Need to update**  
+* Any changes necessary based on the logs, feedback on user challenges, or VA challenges? **Need to update**  
 
 ### **Phase II: Staged Rollout (also known as unmoderated production testing)**
 
@@ -62,7 +62,7 @@ We recommend that the rollout plan has five stages, each increasing the number o
   * We will plan to check the metrics around 10:00am ET and then determine to increase at that time, so that the MFS and FM team can immediately identify any issues.   
 * **What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")**?: **Work in Progress**   
   * Debts controller latency (measure of time for when the debts come through and when they are able to respond): Less than 2 seconds within a given 24-hour period
-  * DMC Get Debts Endpoint Success (Mobile equivalent) %: 
+  * DMC Get Debts Endpoint Success (Mobile equivalent) %: 99% or better
   * DMC Get Debts Endpoint Failure (Mobile equivalent) %: Less than 1%   
 * Who is monitoring the dashboard(s)?: Natalie Gibbons, Matt Guest, and FM Management Team BE 
 
@@ -77,9 +77,9 @@ We recommend that the rollout plan has five stages, each increasing the number o
 
 * Number of unique users: \[FILL\_IN\]  
 * Metrics at this stage (per your "success criteria"):  
-  * Debts controller latency (measure of time for when the debts come through and when they are able to respond): Less than 2 seconds within a given 24-hour period
+  * Debts controller latency index(measure of time for when the debts come through and when they are able to respond): 
   * DMC Get Debts Endpoint Success (Mobile equivalent) %: 
-  * DMC Get Debts Endpoint Failure (Mobile equivalent) %: Less than 1%   
+  * DMC Get Debts Endpoint Failure (Mobile equivalent) %:   
 * Was any downstream service affected by the change?:   
 * Types of errors logged:   
 * What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? 
@@ -95,9 +95,9 @@ We recommend that the rollout plan has five stages, each increasing the number o
 
 * Number of unique users: \[FILL\_IN\]  
 * Metrics at this stage (per your "success criteria"):  
-  * Debts controller latency (measure of time for when the debts come through and when they are able to respond): Less than 2 seconds within a given 24-hour period
+  * Debts controller latency index(measure of time for when the debts come through and when they are able to respond): 
   * DMC Get Debts Endpoint Success (Mobile equivalent) %: 
-  * DMC Get Debts Endpoint Failure (Mobile equivalent) %: Less than 1%    
+  * DMC Get Debts Endpoint Failure (Mobile equivalent) %:   
 * Was any downstream service affected by the change?:   
 * Types of errors logged:   
 * What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? 
@@ -113,9 +113,9 @@ We recommend that the rollout plan has five stages, each increasing the number o
 
 * Number of unique users: \[FILL\_IN\]  
 * Metrics at this stage (per your "success criteria"):  
-  * Debts controller latency (measure of time for when the debts come through and when they are able to respond): Less than 2 seconds within a given 24-hour period
+  * Debts controller latency index(measure of time for when the debts come through and when they are able to respond): 
   * DMC Get Debts Endpoint Success (Mobile equivalent) %: 
-  * DMC Get Debts Endpoint Failure (Mobile equivalent) %: Less than 1%   
+  * DMC Get Debts Endpoint Failure (Mobile equivalent) %:    
 * Was any downstream service affected by the change?:   
 * Types of errors logged:  
 * What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? 
@@ -131,9 +131,9 @@ We recommend that the rollout plan has five stages, each increasing the number o
 
 * Number of unique users: \[FILL\_IN\]  
 * Metrics at this stage (per your "success criteria"):  
-  * Debts controller latency (measure of time for when the debts come through and when they are able to respond): Less than 2 seconds within a given 24-hour period
+  * Debts controller latency index(measure of time for when the debts come through and when they are able to respond): 
   * DMC Get Debts Endpoint Success (Mobile equivalent) %: 
-  * DMC Get Debts Endpoint Failure (Mobile equivalent) %: Less than 1%   
+  * DMC Get Debts Endpoint Failure (Mobile equivalent) %:  
 * Was any downstream service affected by the change?:   
 * Types of errors logged:   
 * What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? 
@@ -149,9 +149,9 @@ We recommend that the rollout plan has five stages, each increasing the number o
 
 * Number of unique users: \[FILL\_IN\]  
 * Metrics at this stage (per your "success criteria"):  
-  * Debts controller latency (measure of time for when the debts come through and when they are able to respond): Less than 2 seconds within a given 24-hour period
+  * Debts controller latency index(measure of time for when the debts come through and when they are able to respond): 
   * DMC Get Debts Endpoint Success (Mobile equivalent) %: 
-  * DMC Get Debts Endpoint Failure (Mobile equivalent) %: Less than 1%    
+  * DMC Get Debts Endpoint Failure (Mobile equivalent) %:    
 * Was any downstream service affected by the change?:   
 * Types of errors logged:   
 * What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? 
@@ -164,11 +164,15 @@ Continue to check in on the KPIs of your feature at periodic intervals to ensure
 
 ### **1-week results post 100% rollout**
 
-* Work in progress
+  * Debts controller latency index(measure of time for when the debts come through and when they are able to respond): 
+  * DMC Get Debts Endpoint Success (Mobile equivalent) %: 
+  * DMC Get Debts Endpoint Failure (Mobile equivalent) %: 
 
 ### **1-month results post 100% rollout**
 
-* Work in progress
+  * Debts controller latency index(measure of time for when the debts come through and when they are able to respond): 
+  * DMC Get Debts Endpoint Success (Mobile equivalent) %: 
+  * DMC Get Debts Endpoint Failure (Mobile equivalent) %: 
 
 ## **Post-launch Questions**
 
