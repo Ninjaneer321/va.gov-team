@@ -30,12 +30,14 @@ There is not currently an experience on VA.gov for Veterans to appoint a represe
 6. For representatives that are not accepting online submission:
    1. Veterans can fill out VA Form 21-22 and 21-22a on VA.gov and download a completed PDF.
    2. Veterans will be given guidance on next steps, including obtaining a representative signature and submitting their form outside of VA.gov (in person, via mail, through an online tool like QuickSubmit).
+7. Any updates to Veteran information captured in Appoint a Representative will get pushed back to their VA.gov Profile, to ensure future correspondence from the VA will get routed to the correct place.
 
 
 ## **Assumptions**
 
-1. Veterans are interested in appointing a representative online through VA.gov
-2. Veterans would prefer to complete a form online, compared to printing the form out and completing it by hand
+1. Veterans are interested in appointing a representative online through VA.gov.
+2. Veterans would prefer to complete a form online, compared to printing the form out and completing it by hand.
+3. The [VADS Prefill pattern](https://design.va.gov/patterns/help-users-to/know-when-their-information-is-prefilled) makes it easier for Veterans to confirm and update their VA.gov Profile information, during a form-fill experience.
 
 ---
 
