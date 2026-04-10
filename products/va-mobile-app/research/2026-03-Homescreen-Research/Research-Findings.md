@@ -100,13 +100,13 @@ synthesis_tools_used:
 
 ---
 
-# [2026-03 Homescreen] Research Findings 
+# 2026-03 Homescreen Concept Testing Research Findings 
 
-**Office of the CTO - Digital Experience (OCTO-DE), Product Name, Team Name**
+**Office of the CTO - Digital Experience (OCTO-DE), VA Health and Benefits App, Mobile App Core Team**
 
-**Date:** MM/DD/YYYY
+**Date:** 04/09/2026
 
-**Contacts:** [Researcher/Designer 1], [Researcher/Designer 2]
+**Contacts:** Theresa Wang (Researcher)
 
 **[Research Readout (PDF)](link-here)**  
 *Add a link to your research readout deck, if available.*
@@ -126,24 +126,33 @@ synthesis_tools_used:
 - [Research participants](#user-content-research-participants)
 
 ## Research Goals
-*Provide context for this research by explaining how it fits into the Veteran’s journey.*  
+This research can impact Veterans from Getting Out to Aging. 
 [See the Veteran journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)  
 
-**Guiding Questions:**  
-- What are the key moments this tool supports in the Veteran’s journey?  
-- What outcomes are we aiming to achieve for Veterans and stakeholders?  
+`1.` **Understand users' expectations for homescreen content and navigation**
 
-[Example Research Goals](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#research-goals) 
+`2.` **Understand how users interpret and use new design concept's homescreen content and capabilities**
+
+`3.` **Understand any points of confusion for users on the homescreen content and navigation, including for users with cognitive disabilities**
 
 ## Research Questions
 
-*List the research questions that guided this study.*  
+**Research goal 1: Understand users' expectations for homescreen content and navigation**
+1. What content do users expect to find on the homescreen?
+2. Where do users expect to find their Veteran status card, disability rating and payments, and dependents verification?
+3. Do users expect due dates for some or all "Action required" items?
+4. What level of detail do users need for homescreen content so that they can take action and complete tasks?
 
-* Question 1
-* Question 2
-* Question 3
+**Research goal 2: Understand how users interpret and use new design concept's homescreen content and capabilities**
 
-[Example Research Questions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#research-questions)
+1. Do users notice, understand, and take action on items in "Action required" and "Activity" sections?
+2. When tasks are surfaced on the homescreen, how do users want and expect to complete them?
+3. When provided with the opportunity to complete tasks such as paying copay and refilling prescription without leaving the homescreen, do users understand what to do and choose to do that instead of navigating to the feature?
+
+**Research goal 3: Understand any points of confusion for users on the homescreen content and navigation, including for users with cognitive disabilities**
+
+1. What causes users confusion or misunderstandings?
+2. Are there any terms or processes that cause particular confusion for users with cognitive disabilities?
 
 ## Methodology 
 
