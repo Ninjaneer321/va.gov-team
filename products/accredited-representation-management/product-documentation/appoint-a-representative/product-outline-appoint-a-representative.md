@@ -64,6 +64,8 @@ Released to 100% of users on March 25, 2025. Appoint a Representative 2.0 enable
 
 When a user edits their contact information in Appoint a Rep, we want to ensure any updates to contact information get updated in the users VA.gov profile as well.  This will ensure that future correspondence from the VA will get routed to the correct place. Implementing the Prefill pattern allows a user to quickly verify what information is in their profile AND ensure updates to the information route back to the profile.
 
+While the Prefill pattern is the most significant addition, some technical and design debt will also be addressed in this v3 iteration.
+
 See the [Planning Canvas](https://dsva.slack.com/docs/T03FECE8V/F0AQATA80K1) for additional information, including the UX and development epics and the related super epic.  
 
 
@@ -96,14 +98,12 @@ But there is an OCTO goal of keeping VA Forms up to date and this scenario puts 
 
 **Status**: Lighthouse has begun thinking about this update, timeline TBD but may be later in 2026. [Slack conversation](https://dsva.slack.com/archives/C05SUUM4GAW/p1771521504314689)
 
----
-
-### Known Bugs
+## Known Bugs
 Some bugs have been identified for our Production experience. These have not yet been addressed due to lower priority, feel free to prioritize + address as needed.
 
 [Known bugs are stored in this view of the Github project board](https://github.com/orgs/department-of-veterans-affairs/projects/1809/views/27?sliceBy%5Bvalue%5D=Appoint+a+Representative). 
 
-### Future Ideas
+## Future Ideas
 Longer term ideas are stored in our [ARM Future Ideas](https://dvagov.sharepoint.com/:w:/r/sites/vaabdvro/Shared%20Documents/Accredited%20Representation%20Management/ARM%20Future%20Ideas.docx?d=wfe95a788166e4670bfda5a59798550d7&csf=1&web=1&e=7iFIw0) document.
 
 ---
