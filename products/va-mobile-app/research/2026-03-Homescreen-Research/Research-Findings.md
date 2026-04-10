@@ -100,7 +100,7 @@ synthesis_tools_used:
 
 ---
 
-# [Study] Research Findings 
+# [2026-03 Homescreen] Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Product Name, Team Name**
 
