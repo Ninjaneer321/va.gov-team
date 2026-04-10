@@ -156,12 +156,7 @@ This research can impact Veterans from Getting Out to Aging.
 
 ## Methodology 
 
-*Provide a brief description of the research methods used (e.g., usability testing, interviews).*  
-
-- Method 1: Description  
-- Method 2: Description  
-
-[Example Methodology](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#methodology)
+This research will be a remote moderated concept testing study using Zoom. Participants will be asked to narrate their thoughts as they navigate the clickable, medium-fidelity Figma prototype of the proposed homescreen redesign. Participants will then be asked for targeted feedback on where to find items moved off the homescreen with the redesign, and to try to complete the tasks of paying a copay and refilling a prescription directly from the homescreen through a newly designed user flow concept. Since Figma prototypes cannot be used with screen readers, we will prioritize recruiting at least 5 participants with cognitive disabilities and assess accessibility of content and navigation from their point of view. The conversation guide is written to be plain language and to allot ample time for each task to account for participants with cognitive disabilities who may need additional time to review and respond to designs. 
 
 
 ## Hypotheses and Conclusions
@@ -171,7 +166,27 @@ This research can impact Veterans from Getting Out to Aging.
 > [!TIP]
 > Place true or false statements in bold for easier scanability
 
-- **Hypothesis Statement:** [Insert statement]  
+- **Hypothesis Statements:**
+**Research goal 1: Understand users' expectations for homescreen content and navigation**
+1. Users will expect to find new content such as new Secure messages and items requiring their review and action on the homescreen.
+**“Definitely True”**. All users felt that items requiring attention and action belonged on the homescreen such as alerts, updates from the VA, reminders, information requiring their review, and tasks to complete. 
+2. Users very familiar with the app will expect to find Veteran status card and disability rating and payments on the homescreen as reflects the current live app layout.
+3. Users less familiar with the app will expect to find Veteran status card and dependents verification in Profile.
+4. Users less familiar with the app will expect to find disability payments and rating in Profile or in Payments.
+5. Users will sometimes want more information than is presented on homescreen to help them with some tasks such as managing prescriptions, due dates for Action required items, or for appointments preparation. 
+
+**Research goal 2: Understand how users interpret and use homescreen content and capabilities**
+
+1. Users will notice and give more weight to "Action required" items because of the label and design styling of the section.
+2. Users will be able to describe in their own words what the "Action required" section is for. 
+3. Users will want to take action on both "Action required" items and "Activity" items that usually are of top concern to Veterans such as new appointment information, prescription updates, travel pay claims.
+4. Users may not be able to articulate exactly what kind of items belong in the "Activity" section.
+5. Users will want to complete tasks as directly as possible.
+6. Users will expect to be able to complete tasks directly from the homescreen when there is a call to action button associated with the item such as "Pay copay" for a medical copayment. 
+
+**Research goal 3: Understand how users interpret and use homescreen content and capabilities**
+1. Since homescreen content uses plain language and short, to-the-point phrases, users will generally understand terms and calls action.
+2. Users may experience minor confusion due to lack of familiarity with specific items such as 'evidence request.'
   - **"Maybe True", “Likely True”, “Definitely True”, “Likely False”, “Definitely False” or “Not enough information”**  
   - Supporting evidence  
 
@@ -180,16 +195,9 @@ This research can impact Veterans from Getting Out to Aging.
 
 ## Key Findings
 
-*Summarize the 5–10 most impactful findings from your study.* 
-
-> [!TIP] 
-> Write findings as stand-alone insights that are easy to scan. For example:  
-> - "Most participants used the search field to locate forms, often searching for 'veteran health.'"  
-> - "Participants struggled with the secondary caregiver section on the form."  
+ 
 > 
 > **After completing your detailed findings below, you'll add metadata labels using the [Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md).**  
-
-[Example Key Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#key-findings)
 
 1. Finding one
 1. Finding two
