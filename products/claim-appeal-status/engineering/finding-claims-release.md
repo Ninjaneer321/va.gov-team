@@ -20,7 +20,7 @@ Based on two days of post-release data (Apr 8-9 vs Apr 1-2). Data sources: GA4 a
 ### Unexplained Increases
 
 - **page_view**: +36% (day 1, flat traffic) and +22.58% (day 2). Cause unknown.
-- **Self-navigation**: +35% (day 1) and +109% (day 2). Users navigating from the claims landing page back to the same page a cause of this is page refreshes.
+- **Self-navigation**: +35% (day 1) and +109% (day 2). Users navigating from the claims landing page back to the same page. Testing confirmed this is not caused by page refreshes or filter clicks. This is one of the largest changes in the analytics -- asking in the GA channel for help understanding what user action drives this metric.
 - **Claim letters navigation**: +41% (day 1) and +29% (day 2). Cause unknown.
 
 ### Frustration (Datadog RUM)
@@ -32,7 +32,7 @@ Based on two days of post-release data (Apr 8-9 vs Apr 1-2). Data sources: GA4 a
 
 ### Potential Concern: Default View Without Cards or With Far Fewer Cards
 
-Users who navigate to `/track-claims/your-claims` with only closed claims (e.g., 10 closed, 0 in-progress) would see an empty list on the default "In progress" filter. These users may not notice the new filter component or the empty state message ("We don't have any in-progress records for you in our system.") and think their claims are missing. This scenario could be a common factor behind the appeal detail decline, the self-navigation increase (users refreshing the page), and the frustration rate increase.
+Users who navigate to `/track-claims/your-claims` with only closed claims (e.g., 10 closed, 0 in-progress) would see an empty list on the default "In progress" filter. These users may not notice the new filter component or the empty state message ("We don't have any in-progress records for you in our system.") and think their claims are missing. This scenario could be a common factor behind the appeal detail decline and the frustration rate increase. The self-navigation increase (+35%/+109%) is also notable but testing confirmed it is not caused by page refreshes or filter clicks -- we are asking in the GA channel for help understanding what user action drives this metric.
 
 ### Action Items
 
