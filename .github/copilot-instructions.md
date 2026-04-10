@@ -92,6 +92,81 @@ If the summary files don't contain enough detail:
 
 The summary files are generated FROM the knowledge graph, so they contain the same information in a more accessible format.
 
+### Output Format for Research Queries
+
+When answering questions about research studies, follow these formatting guidelines:
+
+#### For team research queries ("What research has team X conducted?")
+
+Present results in this format:
+
+```
+The **[Team Name]** team has conducted **N research studies**:
+
+## Recent Research (YYYY-YYYY)
+
+### [Study Title](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/path/to/study)
+
+- **Date**: YYYY-MM
+- **Methodology**: [method type]
+- **Participants**: [participant types]
+- **Files**:
+  - [Research Plan](https://github.com/.../plan.md)
+  - [Findings](https://github.com/.../findings.md)
+  - [Conversation Guide](https://github.com/.../guide.md)
+
+[Repeat for each study]
+```
+
+#### For product research queries ("What research exists for product X?")
+
+Present results in this format:
+
+```
+## Research for [Product Name]
+
+[Product Name] has **N research studies** documented:
+
+### [Study Title](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/path/to/study)
+
+- **Date**: YYYY-MM
+- **Conducted by**: [Team Name]
+- **Methodology**: [method type]
+- **Participants**: [participant types]
+
+[Repeat for each study]
+```
+
+#### Important formatting rules
+
+1. ✅ **Always hyperlink study titles** - Every study heading should be a clickable link
+2. ✅ **Hyperlink all file references** - Research plans, findings, conversation guides should be links
+3. ✅ **Use the `master` branch** - This repo uses `master`, not `main`
+4. ✅ **Include study counts** - State "N research studies" in opening sentence
+5. ✅ **Organize by date descending** - Most recent studies first
+6. ✅ **Group by year** - When listing 10+ studies, add year headings for readability
+7. ✅ **Preserve existing links** - Summary files contain complete URLs; use them directly
+
+#### GitHub URL Construction (CRITICAL)
+
+**This repository uses the `master` branch, not `main`.**
+
+When constructing or copying GitHub URLs:
+
+✅ **Correct:**
+- `https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/...`
+- `https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/.../file.md`
+
+❌ **Wrong (creates 404 errors):**
+- `https://github.com/department-of-veterans-affairs/va.gov-team/tree/main/products/...`
+- `https://github.com/department-of-veterans-affairs/va.gov-team/blob/main/products/.../file.md`
+
+**URL format reference:**
+- Study directories: `/tree/master/[path]`
+- Markdown files: `/blob/master/[path]/file.md`
+
+If you encounter a path in the summary files, it should already be formatted as a complete hyperlink. Use the link as-is.
+
 ## Research Data Integrity Rules
 
 ### CRITICAL: Never Fabricate Research Information

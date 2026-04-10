@@ -30,6 +30,7 @@ const path = require("path");
 const ROOT = path.resolve(__dirname, "..");
 const KG_PATH = path.join(ROOT, ".github", "knowledge-graph.json");
 const SUMMARIES_DIR = path.join(ROOT, ".github", "copilot-summaries");
+const REPO_BASE_URL = "https://github.com/department-of-veterans-affairs/va.gov-team";
 
 // ─── helpers ─────────────────────────────────────────────────────────────────
 
@@ -84,7 +85,7 @@ function buildIndex(graph) {
   };
 }
 
-/** Format a single research study as a Markdown bullet. */
+/** Format a single research study as a Markdown bullet (compact, for teams.md). */
 function studyBullet(s) {
   var label = s.name || path.basename(s.path || s.id);
   var datePart = s.date ? " (" + s.date + ")" : "";
@@ -96,8 +97,58 @@ function studyBullet(s) {
   if (s.participant_types && s.participant_types.length) {
     participantPart = " [" + s.participant_types.join(", ") + "]";
   }
-  var linkPart = s.path ? " · [view](" + s.path + ")" : "";
+  var linkPart = s.path ? " · [view](" + REPO_BASE_URL + "/tree/master/" + s.path + ")" : "";
   return "  - **" + label + "**" + datePart + methodPart + participantPart + linkPart;
+}
+
+/** Format a research study as a detailed Markdown block (for research-by-team/product). */
+function studyBlock(s) {
+  var lines = [];
+  var label = s.name || path.basename(s.path || s.id);
+  var date = s.date || "Date unknown";
+  var methodology = s.methodology
+    ? (Array.isArray(s.methodology) ? s.methodology.join(", ") : s.methodology)
+    : "Methodology not specified";
+  var studyUrl = s.path ? REPO_BASE_URL + "/tree/master/" + s.path : "";
+
+  // Hyperlinked heading
+  if (studyUrl) {
+    lines.push("### [" + label + "](" + studyUrl + ")");
+  } else {
+    lines.push("### " + label);
+  }
+  lines.push("");
+
+  lines.push("- **Date**: " + date);
+  lines.push("- **Methodology**: " + methodology);
+
+  if (s.participant_types && s.participant_types.length) {
+    lines.push("- **Participants**: " + s.participant_types.join(", "));
+  }
+
+  if (s.path) {
+    lines.push("- **Path**: [`" + s.path + "`](" + studyUrl + ")");
+  }
+
+  if (s.files) {
+    var fileLinks = [];
+    if (s.files.plan) {
+      fileLinks.push("  - [Research Plan](" + REPO_BASE_URL + "/blob/master/" + s.files.plan + ")");
+    }
+    if (s.files.findings) {
+      fileLinks.push("  - [Findings](" + REPO_BASE_URL + "/blob/master/" + s.files.findings + ")");
+    }
+    if (s.files.conversation_guide) {
+      fileLinks.push("  - [Conversation Guide](" + REPO_BASE_URL + "/blob/master/" + s.files.conversation_guide + ")");
+    }
+    if (fileLinks.length) {
+      lines.push("- **Files**:");
+      lines.push.apply(lines, fileLinks);
+    }
+  }
+
+  lines.push("");
+  return lines;
 }
 
 function byName(a, b) {
@@ -190,7 +241,9 @@ function generateResearchByTeam(graph, idx) {
     var suffix = portfolios.length ? " *(" + portfolios[0].name + ")*" : "";
     lines.push("## " + team.name + suffix);
     lines.push("");
-    studies.forEach(function (s) { lines.push(studyBullet(s)); });
+    lines.push(studies.length + " " + (studies.length === 1 ? "study" : "studies") + ":");
+    lines.push("");
+    studies.forEach(function (s) { lines.push.apply(lines, studyBlock(s)); });
     lines.push("");
   });
 
@@ -235,7 +288,8 @@ function generateResearchByProduct(graph, idx) {
     }
 
     lines.push("**Research (" + item.studies.length + " " + (item.studies.length === 1 ? "study" : "studies") + "):**");
-    item.studies.sort(byName).forEach(function (s) { lines.push(studyBullet(s)); });
+    lines.push("");
+    item.studies.sort(byName).forEach(function (s) { lines.push.apply(lines, studyBlock(s)); });
     lines.push("");
   });
 
