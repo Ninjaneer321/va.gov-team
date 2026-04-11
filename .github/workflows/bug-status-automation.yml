@@ -8,7 +8,7 @@ on:
 
 jobs:
   set_bug_status:
-    # Only run when the "bug" label is added
+    # Only run when the "ADE Research Feedback" label is added
     if: github.event.label.name == 'ADE Research Feedback'
     runs-on: ubuntu-latest
     steps:
@@ -18,7 +18,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.ADE_BUG_STATUS }}
           ORGANIZATION: department-of-veterans-affairs
-          PROJECT_NUMBER: 1959          # <-- Replace with your project number
+          PROJECT_NUMBER: 1959
         run: |
           gh api graphql -f query='
             query($org: String!, $number: Int!) {
@@ -45,9 +45,39 @@ jobs:
               }
             }' -f org=$ORGANIZATION -F number=$PROJECT_NUMBER > project_data.json
 
+          # DEBUG: Print the full project data so we can see all fields and options
+          echo "=== FULL PROJECT DATA ==="
+          cat project_data.json | jq .
+
+          echo ""
+          echo "=== ALL FIELD NAMES ==="
+          jq '.data.organization.projectV2.fields.nodes[] | .name' project_data.json
+
+          echo ""
+          echo "=== ALL SINGLE SELECT FIELDS WITH OPTIONS ==="
+          jq '.data.organization.projectV2.fields.nodes[] | select(.options != null) | {name: .name, options: .options}' project_data.json
+
+          echo ""
+          echo "=== LOOKING FOR STATUS FIELD ==="
+          STATUS_FIELD=$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Status")' project_data.json)
+          echo "$STATUS_FIELD"
+
+          echo ""
+          echo "=== LOOKING FOR BUG IDENTIFIED OPTION ==="
+          BUG_OPTION=$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .options[] | select(.name=="Bug Identified")' project_data.json)
+          echo "$BUG_OPTION"
+
+          # Set env vars
           echo 'PROJECT_ID='$(jq '.data.organization.projectV2.id' project_data.json) >> $GITHUB_ENV
           echo 'STATUS_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .id' project_data.json) >> $GITHUB_ENV
           echo 'BUG_IDENTIFIED_OPTION_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .options[] | select(.name=="Bug Identified") | .id' project_data.json) >> $GITHUB_ENV
+
+          # DEBUG: Print the extracted IDs
+          echo ""
+          echo "=== EXTRACTED IDS ==="
+          echo "PROJECT_ID: $(jq '.data.organization.projectV2.id' project_data.json)"
+          echo "STATUS_FIELD_ID: $(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .id' project_data.json)"
+          echo "BUG_IDENTIFIED_OPTION_ID: $(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .options[] | select(.name=="Bug Identified") | .id' project_data.json)"
 
       # Step 2: Add the issue to the project (if not already there)
       - name: Add issue to project
@@ -66,11 +96,22 @@ jobs:
 
           echo 'ITEM_ID='$item_id >> $GITHUB_ENV
 
+          # DEBUG: Print the item ID
+          echo "=== ITEM ID ==="
+          echo "$item_id"
+
       # Step 3: Set the Status field to "Bug Identified"
       - name: Set status to Bug Identified
         env:
           GH_TOKEN: ${{ secrets.ADE_BUG_STATUS }}
         run: |
+          # DEBUG: Print all values before the mutation
+          echo "=== VALUES BEING SENT ==="
+          echo "PROJECT_ID: $PROJECT_ID"
+          echo "ITEM_ID: $ITEM_ID"
+          echo "STATUS_FIELD_ID: $STATUS_FIELD_ID"
+          echo "BUG_IDENTIFIED_OPTION_ID: $BUG_IDENTIFIED_OPTION_ID"
+
           gh api graphql -f query='
             mutation (
               $project: ID!
