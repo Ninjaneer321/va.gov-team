@@ -16,7 +16,7 @@ jobs:
       # Step 1: Get the project data (field IDs and option IDs)
       - name: Get project data
         env:
-          GH_TOKEN: ${{ secrets.PROJECT_PAT }}
+          GH_TOKEN: ${{ secrets.ADE_BUG_STATUS }}
           ORGANIZATION: department-of-veterans-affairs
           PROJECT_NUMBER: 1959          # <-- Replace with your project number
         run: |
