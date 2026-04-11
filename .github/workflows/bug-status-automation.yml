@@ -52,7 +52,7 @@ jobs:
       # Step 2: Add the issue to the project (if not already there)
       - name: Add issue to project
         env:
-          GH_TOKEN: ${{ secrets.PROJECT_PAT }}
+          GH_TOKEN: ${{ secrets.ADE_BUG_STATUS }}
           ISSUE_ID: ${{ github.event.issue.node_id }}
         run: |
           item_id="$( gh api graphql -f query='
@@ -69,7 +69,7 @@ jobs:
       # Step 3: Set the Status field to "Bug Identified"
       - name: Set status to Bug Identified
         env:
-          GH_TOKEN: ${{ secrets.PROJECT_PAT }}
+          GH_TOKEN: ${{ secrets.ADE_BUG_STATUS }}
         run: |
           gh api graphql -f query='
             mutation (
