@@ -184,11 +184,12 @@ synthesis_tools_used:
 
 [Example Key Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#key-findings)
 
-1. Finding one
-1. Finding two
-1. Finding three
-1. Finding four
-1. Finding five
+1. _finding having to do with choosing the wrong claimant_
+2. _finding having to do with choosing a benefit_
+1. _finding having to do with struggling to understand the handoff process_
+1. _finding having to do with other intro page things_
+1. _finding having to do with other confirmation page things_
+1. _findings having to with other language things_
 1. Finding six
 1. Finding seven
 
@@ -196,15 +197,19 @@ synthesis_tools_used:
 
 *Provide detailed descriptions and supporting evidence for each key finding.*  
 
-### Finding 1
-Brief description  
-- _Supporting data: Quote [add context]_  
-- _Supporting data: ![description of the image (image)](link - add image to github folder and link here with .png)_  
+### _finding having to do with choosing the wrong claimant_
+A majority of participants who were filling out 21-2680 for someone else (eg: a parent they give care to) answered this question incorrectly, rendering the rest of the application invalid. 
+
+Only one participant realized the error before submitting the form. 
+
+- _"Claimants information. My relationship to the Veteran. If I was applying for my dad I’d be a Veteran’s child. If I was applying for myself I'd be a Veteran."_
+- _"At first I was going to say Veteran. But then I would look at it as myself if I was filing this out. I’m the claimant. I looked and I thought I could put Veteran but I got confused if its looking for someone that is filling out for someone else but they are a veteran. So I looked at veteran’s child even though its my FIL. It confused me. If the claimant is the veteran but not THE veteran filling it out."_
+- _"That's the person that's making the file. That's, you know, that's putting in the information.” “Because if I'm feeling that for myself, then I will be the veteran, but if I'm filling it out for him, then I will be the veteran spouse, because he's my husband."_
 
 > **TIP:** For details on how to write descriptive links that are accessible to assistive technology users, see Platform documentation on [How to create accessible GitHub Markdown files](https://depo-platform-documentation.scrollhelp.site/research-design/how-to-create-accessible-github-markdown-files).
 
-### Finding 2  
-Brief description  
+### _finding having to do with choosing a benefit_
+A majority of participants struggled to understand the difference between the two benefits, and which they should select.  Some people figured it out by process of elimination if they did not receive pension. One person stated they would  pause the application to call a friend or the VA.
 - _Supporting data: Quote [add context]_  
 
 ---
