@@ -266,9 +266,8 @@ This research supports measurement of this KPI by....
 ## Appendix
 
 ### Research documents
-- [Product Outline](link here)
-- [Research plan](link here)
-- [Conversation guide](link here)
+- [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/21-2680/research/2026-02-medical-provider-research/research-plan.md)
+- [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/21-2680/research/2026-02-medical-provider-research/conversation-guide.md)
 - [Interview transcripts](link here)
 
 ### Tools used for Synthesis
@@ -277,12 +276,11 @@ This research supports measurement of this KPI by....
   
 ### Pages and applications used
 
-*Link to prototypes or pages tested during the study.*  
-
+We tested directly from the [staging environment](https://staging.va.gov/pension/aid-attendance-housebound/apply-form-21-2680/).
 
 ### Other supporting documents created
 
-*Include links to additional materials, e.g., personas, user flows.*  
+[2680 Figma file](https://www.figma.com/design/cvZN6kMZSMcczGLxJJK5NK/VA-Form-21-2680?node-id=0-1&t=nbCEL11iYLwIeeY9-1)
 
 
 ### Secondary research
