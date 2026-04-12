@@ -235,6 +235,32 @@ It wasn’t clear to some participants that this is a two-step process that woul
 
 *Summarize actionable recommendations based on findings.*  
 
+### Improve the wayfinding instructions on the Intro page
+#### 1. Guide users that this is the correct place to start the form
+- Actions
+  - Decide and implement a standard between “form” and “application”
+  - Add language in the clarifies this is the place to begin the form
+  - Remove or change the placement of the Step 5 “upload” call action from intro and submission page
+- Rational
+  - Some participants saw the Intro page as instructions, but not necessarily the “starting point” for the form, and didn’t know what to do next. 
+  - Some were confused that first call to action in the instructions is actually a link to upload the completed form. They were confused why they would upload a form before even beginning the digital process.
+
+#### 2. Offer the PDF as an up-front alternative
+#### 3. Clarify and highlight the two part process
+#### 4. Help users better understand this benefit before applying
+
+### Improve the instructions and calls to action on the Confirmation page
+#### 1. Add detail to the instructions and clarify what users might do next
+#### 2. "Preview" the medical provider portion of the form
+#### 3. Move "Download for your records" component
+
+### Revise language and content throughout for clarity and to support easier decisions
+#### 1. Further clarify SMC vs SMP by more granular goupings
+#### 2. Add hint text to clarify who is considered the claimant
+#### 3. Add claimant name variable for SMC/SMP choice
+#### 4. Change "hospital care" to a term that is more clear
+#### 5. Change "examiner" to "medical provider"
+
 1. **Recommendation:** [Insert action]  
    - _Supporting evidence: [Insert data]_  
 2. **Recommendation:** [Insert action]  
