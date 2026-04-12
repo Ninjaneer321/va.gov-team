@@ -246,25 +246,55 @@ It wasn’t clear to some participants that this is a two-step process that woul
   - Some were confused that first call to action in the instructions is actually a link to upload the completed form. They were confused why they would upload a form before even beginning the digital process.
 
 #### 2. Offer the PDF as an up-front alternative
+- Actions
+  - Add a link to the PDF form on the Intro page as an optional alternative to the online process, so users have it up front. 
+- Rationale
+  - Several users remarked that based on their situations, printing out the form from the very beginning may have been easier for them, since there was a handoff at the end of the process anyway.
+  - We observed some participants seemed to have a better understanding of the process when they could see the “whole picture” up front while looking at the PDF
+
 #### 3. Clarify and highlight the two part process
+- Actions
+  - Update Step 4 and 5 of the existing instructions for clarity
+  - Add additional content to the top of the instructions page, potentially using “Alert” styling, that explicitly states this is a two part form
+- Rationale
+  - It wasn’t clear to some participants that this is a two-step process that would eventually involve a third party before they began the form
+  
 #### 4. Help users better understand this benefit before applying
+- Actions
+  - Add clarifying language to the Intro page explaining who exactly receives the benefit and why
+  - Possibly add a section to the Intro page comparing this benefit to similar benefits the user might already be receiving or may have heard of
+- Rationale
+  - Several participants wondered whether SMC was funding for a professional, or support funding for a family member giving care. They wondered if the funds would be going to them or the third party.
+  - Several participants wondered if they already had some version of this benefit, and even reported already having a home health aid. This was confusing for them because they wondered if there was still more they could apply for.
+ 
 
 ### Improve the instructions and calls to action on the Confirmation page
 #### 1. Add detail to the instructions and clarify what users might do next
+- Actions
+- Rationale
 #### 2. "Preview" the medical provider portion of the form
+- Actions
+- Rationale
 #### 3. Move "Download for your records" component
+- Actions
+- Rationale
 
 ### Revise language and content throughout for clarity and to support easier decisions
 #### 1. Further clarify SMC vs SMP by more granular goupings
+- Actions
+- Rationale
 #### 2. Add hint text to clarify who is considered the claimant
+- Actions
+- Rationale
 #### 3. Add claimant name variable for SMC/SMP choice
+- Actions
+- Rationale
 #### 4. Change "hospital care" to a term that is more clear
+- Actions
+- Rationale
 #### 5. Change "examiner" to "medical provider"
-
-1. **Recommendation:** [Insert action]  
-   - _Supporting evidence: [Insert data]_  
-2. **Recommendation:** [Insert action]  
-   - _Supporting evidence: [Insert data]_
+- Actions
+- Rationale
 
 ## Product User and Business Outcomes
 
