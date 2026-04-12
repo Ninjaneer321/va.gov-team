@@ -189,9 +189,7 @@ synthesis_tools_used:
 1. _finding having to do with struggling to understand the handoff process_
 1. _finding having to do with other intro page things_
 1. _finding having to do with other confirmation page things_
-1. _findings having to with other language things_
-1. Finding six
-1. Finding seven
+1. _finding having to with other language things_
 
 ## Details of Findings 
 
@@ -210,7 +208,21 @@ Only one participant realized the error before submitting the form.
 
 ### _finding having to do with choosing a benefit_
 A majority of participants struggled to understand the difference between the two benefits, and which they should select.  Some people figured it out by process of elimination if they did not receive pension. One person stated they would  pause the application to call a friend or the VA.
-- _Supporting data: Quote [add context]_  
+- _Supporting data: Quote [add context]_
+
+## _finding having to do with struggling to understand the handoff process_
+It wasn’t clear to some participants that this is a two-step process that would eventually involve a third party before they began the form. And, despite the existing instructions, several participants struggled to understand what they needed to do specifically at the end of the form. They didn’t necessarily know how they might get this form to a doctor, or gave us feedback that printing it might be a challenge. Some participants were concerned that they hadn’t yet provided any health information about themselves by the time they got to the end of the form, while others were not clear that they would need to get this form to a medical provider to completely finish their application.
+- _Supporting data: Quote [add context]_
+
+## _finding having to do with other intro page things_
+- _Supporting data: Quote [add context]_
+
+## _finding having to do with other confirmation page things_
+- _Supporting data: Quote [add context]_
+
+## _finding having to with other language things_
+- _Supporting data: Quote [add context]_
+
 
 ---
 
