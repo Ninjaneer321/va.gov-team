@@ -102,13 +102,13 @@ synthesis_tools_used:
 
 ---
 
-# [Study] Research Findings 
+# 21-2680 Claimant Experience Research Study Research Findings 
 
-**Office of the CTO - Digital Experience (OCTO-DE), Product Name, Team Name**
+**Office of the CTO - Digital Experience (OCTO-DE), VA Form 21-2680, Aquia BIO Team**
 
-**Date:** MM/DD/YYYY
+**Date:** March 2026
 
-**Contacts:** [Researcher/Designer 1], [Researcher/Designer 2]
+**Contacts:** [Dave Luetger](https://github.com/dluetger), [Elyse Voegeli](https://github.com/evoeges)
 
 **[Research Readout (PDF)](link-here)**  
 *Add a link to your research readout deck, if available.*
@@ -151,8 +151,8 @@ synthesis_tools_used:
 
 *Provide a brief description of the research methods used (e.g., usability testing, interviews).*  
 
-- Method 1: Description  
-- Method 2: Description  
+- Method 1: Semi-structured interviews  
+- Method 2: Form walkthrough (we were limited in that we did not have a test environment to share with participants, so we shared our screens and asked participants to walk through the form as if they were using it)    
 
 [Example Methodology](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#methodology)
 
