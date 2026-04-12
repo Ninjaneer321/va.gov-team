@@ -241,7 +241,7 @@ It wasn’t clear to some participants that this is a two-step process that woul
   - Decide and implement a standard between “form” and “application”
   - Add language in the clarifies this is the place to begin the form
   - Remove or change the placement of the Step 5 “upload” call action from intro and submission page
-- Rational
+- Rationale
   - Some participants saw the Intro page as instructions, but not necessarily the “starting point” for the form, and didn’t know what to do next. 
   - Some were confused that first call to action in the instructions is actually a link to upload the completed form. They were confused why they would upload a form before even beginning the digital process.
 
@@ -271,30 +271,50 @@ It wasn’t clear to some participants that this is a two-step process that woul
 ### Improve the instructions and calls to action on the Confirmation page
 #### 1. Add detail to the instructions and clarify what users might do next
 - Actions
+  - Add explicit options for how a user might get a form to their doctor, while not explicitly recommending anything. For instance, download the PDF and take it your next appointment,” or “send a copy of the PDF through MyHealtheVet or your doctor’s secure messaging portal”.
 - Rationale
+  - Despite the existing instructions, several participants struggled to understand what they needed to do specifically. They didn’t necessarily know how they might get this form to a doctor, or gave us feedback that printing it might be a challenge. We want to reduce confusion by providing a few tangible examples of what they might do.
 #### 2. "Preview" the medical provider portion of the form
 - Actions
+  - Add a plain language explanation to the page that not only tells the user that a doctor’s input is required, but what sorts of information they will be filling out. For example, “[Claimant]’s doctor will provide information related to their housebound status, disabilities, ADLs, etc.”
 - Rationale
+  - Some participants were concerned that they hadn’t yet provided any health information about themselves by the time they got to the end of the form.
+  - Some participants were not clear that they would need to get this form to a medical provider to completely finish their application.
+  - We hypothesize that previewing the what’s next helps folks know these questions will get answered and also reveals there’s more to the form, if they haven’t noticed already
 #### 3. Move "Download for your records" component
 - Actions
+  - Move the "Download for your records" component further down the page, after the “What to do next” instructions, and potentially adjust the language.
 - Rationale
+  - The current position of this component confused some users, as it doesn’t actually download the PDF, and is separate from the workflow they actually need to do to complete the process with a medical provider.
 
 ### Revise language and content throughout for clarity and to support easier decisions
 #### 1. Further clarify SMC vs SMP by more granular goupings
 - Actions
+  - Further clarify SMC vs SMP by more granular groupings of the bullet points
+  - Rewrite in general
 - Rationale
+  - A majority of participants struggled to understand the difference between the two benefits, and which they should select.  Some people figured it out by process of elimination if they did not receive pension. One person stated they would  pause the application to call a friend or the VA.
 #### 2. Add hint text to clarify who is considered the claimant
 - Actions
+  - People interpret ‘claimant’ to mean ‘person who is filling out the form’, rather than ‘person in need of the care’, We suggest modifying the question and adding clarifying hint text to guide users to the right decision.
 - Rationale
+  - A majority of participants who were filling out 21-2680 for someone else (eg: a parent they give care to) answered this question incorrectly, rendering the rest of the application invalid. 
+Only one participant realised the error before submitting the form. 
 #### 3. Add claimant name variable for SMC/SMP choice
 - Actions
+  - Change language from second person pronouns (“which benefit are you applying for”) to third person, with the claimant’s name (“which benefit is [NAME] applying for.)
 - Rationale
+  - Because many people are helping someone fill out this form or have POA and are filling it out on behalf of someone, there’s confusion when using second person pronouns. This alleviates the confusion and helps provide additional wayfinding on  who ‘claimant’ is. 
 #### 4. Change "hospital care" to a term that is more clear
 - Actions
+  - Change the phrase “hospital care” to either a) “in the hospital” or b) return to using “hospitalization.”
 - Rationale
+  - “Hospital care,” as recommended by Platform, meant a number of different things to participants, including but not limited to being hospitalized, receiving medication, outpatient care, etc. While this language might be more approachable than “hospitalized,” we saw participants struggle with the ambiguity.
 #### 5. Change "examiner" to "medical provider"
 - Actions
+  - Throughout the form, change the word “examiner” to “medical provider”.
 - Rationale
+  - This word was not clear to some participants, and one even thought the word “examiner” referred to the claim examiner (rater), causing additional confusion.
 
 ## Product User and Business Outcomes
 
