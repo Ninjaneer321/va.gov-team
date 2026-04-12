@@ -309,17 +309,17 @@ _If you had specific criteria that you recruited for, use this space to explain 
 
 #### Demographics 
 
-We talked to **x participants.**
+We talked to **16 participants.**
 
 Audience segment:
-* Veterans: x 
-* Caregivers: x 
-* Family members of a Veteran: x  
+* Veterans: 10
+* Caregivers: 4
+* Family members of a Veteran: 2
 
 
 Gender:
-* Male: x 
-* Female: x 
+* Male: 8
+* Female: 8
 
 
 LGBTQ+:
@@ -329,44 +329,41 @@ LGBTQ+:
 
 
 Devices used during study: 
-* Desktop: x 
-* Tablet: x 
-* Smart phone: x 
+* Desktop: 15 
+* Smart phone: 1
 * Assistive Technology: x
 
 
 Age:
-* 25-34: x
-* 35-44: x
-* 45-54: x
-* 55-64: x
-* 65+: x
-* Unknown: x
+* 25-34: 2
+* 35-44: 4
+* 45-54: 2
+* 55-64: 4
+* 65+: 4
+* Unknown: 0
 
 
 Education:
-* High school degree or equivalent: x
-* Some college (no degree): x
-* Associate's degree, trade certificate or vocational training: x
-* Bachelor's degree: x
-* Master's degree: x
-* Doctorate degree: x
-* Unknown: x
-
+* High school degree or equivalent: 2
+* Some college (no degree): 4
+* Associate's degree, trade certificate or vocational training: 1
+* Bachelor's degree: 5
+* Master's degree: 3
+* Doctorate degree: 0
+* Unknown: 1
 
 Geographic location:
-* Urban: x
-* Rural: x
-* Unknown: x
-
+* Urban: 12
+* Rural: 4
+* Unknown: 0
 
 Race:
-* White: x
-* Black: x
-* Hispanic: x
-* Biracial: x
-* Asian: x
-* Native: x
+* White: 8
+* Black: 5
+* Hispanic: 2
+* Biracial: 1
+* Asian: 1
+* Native: 0
 
 
 Disability and Assistive Technology (AT):
