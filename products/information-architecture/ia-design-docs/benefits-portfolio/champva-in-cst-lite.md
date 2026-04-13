@@ -58,7 +58,7 @@ URL and breadcrumb should remain the same regardless of the tab selected (Status
 
 **Structuring URLs for individual screens within the flows**
 - Tabular information should not change the URL or breadcrumbs, as stated above
-- For evidence requests (called "information requests" when related to CHAMPVA), use the UUID: for example, va.gov/track-claims/your-claims/[UUID number]/needed-from-you/[UUID number for type of evidence]/
+- For evidence requests (called "information requests" when related to CHAMPVA), use the UUID: for example, va.gov/track-claims/your-claims/[UUID number for CHAMPVA application]/needed-from-you/[UUID number for type of evidence]/
 - Noting that there are two known empty subdirectories: /track-claims/ and /needed-from-you/. Recommend following this pattern until these issues can be fixed
 - Also noting that there is a known issue of not being able to get back to /claim-or-appeal-status/ post authentication
 
