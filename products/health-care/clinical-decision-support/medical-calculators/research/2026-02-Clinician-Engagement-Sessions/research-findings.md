@@ -228,20 +228,8 @@ We conducted remote moderated research sessions (30-60-minutes) via MS Teams. Pa
 
 > I end up wanting to make it smaller so it won't take up too much space in my note.
 -Physician, Primary Care
+
 ---
-
-## Additional Insights
-**What's working well**
-- 
-
-**What's challenging**
-- 
-
-> quote. -Primary Care Physician
-
-**Interesting Nuggets**
-- nugget 1
-- nugget 2
 
 ## Recommendations
 
