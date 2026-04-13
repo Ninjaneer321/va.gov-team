@@ -5,7 +5,7 @@ _Overview: This tracker is designed to track sprint goals with completed work, p
 
 ## Sprint 14 Goals
 
-- [ ] Sprint Goals Approved by Enablement 
+- [x] Sprint Goals Approved by Enablement - Jen Bertsch on April 13, 2026 ([Slack conversation](https://dsva.slack.com/archives/C06GE5N7QJ0/p1776117846068219?thread_ts=1775605736.908639&cid=C06GE5N7QJ0)) 
 
 **Team Accreditation**
 1. [ARP Post-MVP] Enable individual acceptance of representation requests
@@ -279,7 +279,7 @@ TBD
 
 ## Sprint 13 Delivery
 
-- [ ] Sprint Delivery Approved by Enablement
+- [x] Sprint Delivery Approved by Enablement - Jen Bertsch on April 13, 2026 ([Slack conversation](https://dsva.slack.com/archives/C06GE5N7QJ0/p1776117458144839?thread_ts=1775605736.908639&cid=C06GE5N7QJ0)) 
 
 Total Completed in Sprint 13: 68 tickets, 168 points + 2 spikes\
 Active Teammates in Sprint 13: 24 active teammates\
