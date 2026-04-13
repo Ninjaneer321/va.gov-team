@@ -1,6 +1,6 @@
 # Mini IA Design for CHAMPVA app status in claims status tool
 
-**STATUS: IN PROGRESS**
+**STATUS: INTERNAL REVIEW**
 
 **Team:** BMT 1
 
