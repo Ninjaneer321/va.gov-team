@@ -331,18 +331,16 @@ Only one participant realised the error before submitting the form.
   
 ## Next Steps
 
-*Outline immediate actions based on findings, including owners if applicable.*  
-
-> [!TIP]
-> Once your **Recommendations** and **Next Steps** are finalized, you can quickly turn them into GitHub issues using the reusable Copilot prompt in [`create-issues-from-research-findings-prompt.md`](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/create-issues-from-research-findings-prompt.md).  
-> **After creating issues, add their hyperlinks back here under their corresponding "Recommendation" or "Next Step."**
-> 
-> If you need Github Copilot Enterprise Access, please complete this [Issue](https://github.com/department-of-veterans-affairs/copilot-onboarding/issues/new?template=copilot-onboarding.yml).
+- [ ] Socialize with BIO leadership and Compensation and Pension SMEs
+- [ ] Address immediately actionable issues (see below)
+  - [ ] _tickets_
+- [ ] Document medium and long term issues
 
 ## Further research needed
 
-*Identify gaps in the current study and areas requiring additional investigation––such as demographics that were not included in this study.* 
+We'd like to continue researching the claimant experience of 2680 especially after making some of the above changes. In addition, the source form is up for revision this year (2026). As the form changes, we may be able to influence the language or procedure based on our findings. We would want to follow up on the experience if that were the case.
 
+Most of all, we want to research medical providers to understand how the other side of this process works. What's it like to receive this form? To conduct this exam? How might we make this process easier for Veterans _and_ doctors?
 
 ## Appendix
 
