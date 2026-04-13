@@ -145,7 +145,7 @@ Before we start, I have a few things that I want to go over with you:
 > - Then, ask the notetaker and observers to **give a brief, camera-on introduction, like their first name and position with VA.gov.** (This is meant to humanize the interaction of observation for the participant.)
 > - Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth
      
-- *~~(If applicable)~~* **You'll be interacting with a prototype today.** This is a demo tool that may not function exactly the way you expect. Some areas of the prototype will be clickable, and some will not. Since it's a demo, none of your actions will affect your VA information or benefits.
+- **You'll be interacting with a prototype today.** This is a demo tool that may not function exactly the way you expect. Some areas of the prototype will be clickable, and some will not. Since it's a demo, none of your actions will affect your VA information or benefits.
   
 - **Are you comfortable if I record my screen and audio as we talk today?** We use the recordings to confirm that we have captured your opinions accurately. After we complete the analysis, the recordings are destroyed, and none of your comments will be attributed to you directly. We either report findings out in groups (i.e., 5 out of 10 participants said this), or if we want to quote you directly, we take away any identifying information and give you a participant ID, like P7.
    - **Knowing that, are you comfortable if I record my screen and audio as we talk today?**
@@ -212,7 +212,7 @@ Wait for participant's verbal consent.
 
 I'd like to confirm, what kind of device are you using today (desktop, mobile, tablet)? 
 
-Great! I'm pasting the link and a password to the site in the chat. You can find that chat icon in the row of buttons at the bottom, ~~under the chat icon~~: 
+Great! I'm pasting the link and a password to the site in the chat. You can find that chat icon in the row of buttons at the bottom: 
 
 _Share link and password as **two separate messages** in chat. This will enable the user to copy-paste the password easily._
 
@@ -245,10 +245,11 @@ Do you have any questions?
 Wait for participant answer. 
 
 ### [Scenario 1 page] 
-For the first scenario I'd like you to imagine that you submitted a CHAMPVA application recently and want to find out what is happening with your application. You log into VA.gov and this upcoming screen is the first thing you see. Go ahead and click continue. 
+For the first scenario I'd like you to imagine that you submitted a CHAMPVA application recently for two family members, Jane and John Doe Jr. and want to find out what is happening with your application. You log into VA.gov and this upcoming screen is the first thing you see. Go ahead and click continue. 
 
 ### [MyVA] 
-If you wanted to find out what is happening with your CHAMPVA application, can you show me what you would do next?  Take a moment to review this page and think out loud as you go, but don’t click on anything yet – so I can get your feedback on this page before we move on. <mark>(Please note this page may look different than what you have seen before)</mark>
+If you wanted to find out what is happening with your CHAMPVA application, can you show me what you would do next?  Take a moment to review this page and think out loud as you go, but don’t click on anything yet – so I can get your feedback on this page before we move on. 
+    <mark>**[IF VISITED VA.GOV BEFORE]** Please note this page may look different than what you may have seen before</mark>
 
 [Let the user explore. As they navigate, <mark>probe</mark> if they pause or seem to find anything confusing.] 
 
@@ -318,21 +319,21 @@ Take a moment to review this page and the other tabs, and think out loud as you 
 - What would you do next, if anything? 
 
 ### [Files tab] 
-- Can you click on the Files tab?
-  - When would you use this screen?
+
   - Let’s pretend that you want to submit an updated marriage certificate for Jane Doe. What would you do?
-    - [If they want to upload] Go ahead and click in the file upload box, and we’ll pretend that you brought in a file from your device, <mark> (new add) but don't submit yet</mark>. 
+    - [If they want to upload] Go ahead and click in the file upload box, and we’ll pretend that you brought in a file from your device, but don't submit yet. 
       - [Doctype dropdown comes up, let user choose an option]
       - (Note: go through the full process instead of stopping before the submit button)
     - How was that process? Is it what you expected?
-      
-    ~~- Now what would you do?~~
-     - Okay, go ahead and click continue (the submit button)
+     - Okay, go ahead and continue with submitting the file (the submit button)
+   
+  [IF THEY CAN'T FIND WHERE TO UPLOAD]
+      - Can you click on the Files tab?
+  - When would you use this screen? <mark>**Alyssa do we want to ask this question**</mark>
 
 ### [Overview tab] 
 - Now, I want to ask more about the Overview tab. Can you go there for me?
   - In your own words, can you explain what happens in each of these steps?
-  - ~~On a scale of 1-5 (with 1 being very hard and 5 being very easy) - how difficult or easy was it to understand the steps an application goes through after it is submitted? Why?~~
 
 Great! That’s the end of our first scenario. To go to the next scenario, scroll all the way down to the bottom of the screen. Then, click the button that says “Proceed to the next scenario”. 
 
@@ -356,20 +357,17 @@ Let’s say a week has passed and you want to find out what has happened with yo
 - Take a look at this page and tell me, in your own words, what has happened with your application.
   - What step is the application on? Does that make sense to you?
   - What has happened with Jane’s application? With John Doe Jr.’s?
-- ~~On a scale of 1-5 (with 1 being very hard and 5 being very easy) - how difficult or easy was it to understand this screen? Why did you give it that rating?~~
 - What would you do next?
   - [If they WOULD NOT FOLLOW the Review request link] For the scenario today, let's click on the link anyway. 
 
 ### [Birth certificate evidence request page] 
 - Tell me what you see here. What is this request for?
 - What would you do next?
-  - [If they want to upload] Go ahead and click in the file upload box <mark>(added note) but do not click the submit button yet</mark>, and we’ll pretend that you brought in a file from your device
+  - [If they want to upload] Go ahead and click in the file upload box and we’ll pretend that you brought in a file from your device, but please do not click the submit button yet. 
   - [Once the upload animation is complete]
-    - Is this what you expected to happen?
-    - <mark>(New question) How was this experience compared to uploading the marriage certificate?</mark>
-    
-    - ~~Now what would you do?~~
-      - Okay, go ahead and click continue (the submit button)
+    - Tell me about this experience, is this what you expected to happen?
+    - How was this experience compared to uploading the marriage certificate?
+    - Okay, go ahead and continue with submitting the file
 
 ### [Success alert on status tab, now on Step 3, one beneficiary has been deemed eligible] 
 - Take a look at this page and tell me what you see.
@@ -433,23 +431,13 @@ That’s the end of our scenarios for today. You can stop sharing your screen an
 # Post-Task Interview - 5 minutes
 - Can you tell me about your overall impression of this prototype?
 - <mark>**[If the participant is a current CHAMPVA beneficiary or applied in the past]**</mark> How would you compare the post-application experience you just had to your previous experience after applying for CHAMPVA? Why?
-- Now that you’ve seen the prototype, how would you like to be notified or find updates on your application?
-- ~~Was there anything confusing or unexpected in this prototype?~~
-
-For this next section, I'm going to read a series of 10 statements, and I would like you to rate how much you agree or disagree with each one on a scale from 1 to 5, where 1 means Strongly Disagree and 5 means Strongly Agree. There are no right or wrong answers we're interested in your honest reaction to the experience you just had.
-
-  1. I think that I would like to use this website frequently.
-  2. I found the website unnecessarily complex.
-  3. I thought the website was easy to use.
-  4. I think that I would need the support of a technical person to be able to use this website.
-  5. I found the various functions in this website were well integrated.
-  6. I thought there was too much inconsistency in this website.
-  7. I would imagine that most people would learn to use this website very quickly.
-  8. I found the website very cumbersome to use.
-  9. I felt very confident using the website.
-  10. I needed to learn a lot of things before I could get going with this website.
-
+- Was there anything confusing or unexpected in this prototype?
+- For this next section, I'm going to read 3 statements, and I would like you to rate how much you agree or disagree with each one on a scale from 1 to 5, where 1 means Strongly Disagree and 5 means Strongly Agree.
+  - I thought the prototype was easy to use.
+  - I felt confident I understood what was happening with each person's application.
+  - I knew where to look to find updates about my application.
 - Overall if you could wave a magic wand and change anything about the prototype or the overall experience after you submit an application for CHAMPVA, what would it be?
+
 - Do the observers have any questions?
 - Any questions for me?  
 
