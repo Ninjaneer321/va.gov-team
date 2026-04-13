@@ -71,8 +71,8 @@ outcomes:
   user: "Make Medical Calculators easy to access and use within workflows"
   business: "Improved clinician efficiency and accuracy when using medical calculators"
 opportunity_areas:
-  - "Integration of medical calculators into established workflows and leveraging with AI (such as ambient scribe)"
-  - "Helping clinicians stay up to date on changing recommendations and society guidelines"
+  - "Create easy to share resources to enable peer to peer sharing of Medical calculators or other CDS tools"
+  - "Help clinicians stay up to date on changing recommendations and society guidelines by ensuring provided medical calcualtors are supported by the most recent clinical evidence."
   - "Address gap in calculators that support decision making for geriatric patients (related to frailty and mortality)"
 further_research_needed: []
 underserved_groups_missing: []
