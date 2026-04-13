@@ -1,5 +1,12 @@
 # Sprint Planning for VFMP Health Status Tool
 
+## 📆 Sprint 7 (Apr 15 – Apr 28) 
+
+### Sprint Goal summary
+
+- **SPRINT GOAL (Eng):**
+
+
 ## 📆 Sprint 6 (Apr 1 – Apr 14) 
 
 ### Sprint Goal summary
