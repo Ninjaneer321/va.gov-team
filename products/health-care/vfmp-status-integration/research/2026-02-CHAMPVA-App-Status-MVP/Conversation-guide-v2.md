@@ -248,7 +248,7 @@ Wait for participant answer.
 For the first scenario I'd like you to imagine that you submitted a CHAMPVA application recently and want to find out what is happening with your application. You log into VA.gov and this upcoming screen is the first thing you see. Go ahead and click continue. 
 
 ### [MyVA] 
-If you wanted to find out what is happening with your CHAMPVA application, can you show me what you would do next?  Take a moment to review this page and think out loud as you go, but don’t click on anything yet – so I can get your feedback on this page before we move on.  
+If you wanted to find out what is happening with your CHAMPVA application, can you show me what you would do next?  Take a moment to review this page and think out loud as you go, but don’t click on anything yet – so I can get your feedback on this page before we move on. <mark>(Please note this page may look different than what you have seen before)</mark>
 
 [Let the user explore. As they navigate, <mark>probe</mark> if they pause or seem to find anything confusing.] 
 
