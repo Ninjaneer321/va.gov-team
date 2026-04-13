@@ -149,13 +149,13 @@ synthesis_tools_used:
 
 ## Methodology 
 
-*Provide a brief description of the research methods used (e.g., usability testing, interviews).*  
+We conducted sixteen, moderated semi-structured interviews that also had a "form walkthrough" that acted like a usability test. We conducted these sessions remotely via Zoom.
 
-- Method 1: Semi-structured interviews  
-- Method 2: Form walkthrough (we were limited in that we did not have a test environment to share with participants, so we shared our screens and asked participants to walk through the form as if they were using it)    
+We asked each participant background questions about their experience as Veterans or caretakers, their experience communicating with medical providers, and their experience applying for benefits.
 
-[Example Methodology](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#methodology)
+For the "form walkthrough," we didn't have a testing environment we could share directly with participants, so instead, we shared our screens with participants, and asked them to "drive" us. We treated the sessions like a usability test, asking participants to think aloud, what they were seeing, and what they might do next on each page. During this portion of the interview, we continued to ask open-ended follow-up questions to participants about their experience as appropriate.
 
+Each session had one facilitator and one note taker. Some sessions had one or two observers.
 
 ## Hypotheses and Conclusions
 
