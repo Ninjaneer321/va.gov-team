@@ -97,9 +97,11 @@
     + 
 - Rollout plan
     + List scope of any feature flags
+      - `ask_va_enhanced_inbox` - Used to enable users to view the new `/inbox` route. Also updates the `/introduction` page as that will no longer be where the Inbox components live. Updated landing page content will be displayed when the feature flag is enabled instead
     + Identify other teams to coordinate with
       - N/A
     + Describe rollback plan
+      - In the case of a production issue, the `ask_va_enhanced_inbox` feature flag will be disabled. This will roll all users back to the old inbox experience
 - Internal administration tasks
     + What maintenance or administration tasks do you anticipate will need to be performed periodically?
       - N/A
