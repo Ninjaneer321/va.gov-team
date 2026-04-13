@@ -153,9 +153,9 @@ Please complete all of Part 1 before submitting for Architechture Intent Review.
 **Authenticated Experience Team Questions**
 - [x] Are you adding a product or feature to My VA or profile?
       - No
-- [ ] Will your product write back or read from any information in profile?
+- [x] Will your product write back or read from any information in profile?
       - No
-- [ ] Do any of your APIs integrate with My VA or profile?
+- [x] Do any of your APIs integrate with My VA or profile?
       - No
 
 If you answered yes to any of the Authenticated Experience Team Questions, please contact the Authenticated Experience Team via their slack channel, [#accountexp-authexp](https://dsva.slack.com/archives/C909ZG2BB)
