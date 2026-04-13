@@ -4,7 +4,11 @@
 
 ### Sprint Goal summary
 
-- **SPRINT GOAL (Eng):**
+- **SPRINT GOAL (Eng):** Begin work to support partial claims within the Status Tool, including reviewing designs, data model impacts, API considerations, and UI implications.
+
+- **SPRINT GOAL (UX):** Support execution of the CHAMPVA Status Tool research study by assisting with session coordination, note-taking, and real-time issue capture during research sessions.
+
+- **STRETCH GOAL (Eng):** Launch CHAMPVA PEGA status (Release 1) to production within the CST.
 
 
 ## 📆 Sprint 6 (Apr 1 – Apr 14) 
