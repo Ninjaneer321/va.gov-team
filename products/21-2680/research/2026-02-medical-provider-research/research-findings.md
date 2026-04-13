@@ -207,12 +207,13 @@ Each session had one facilitator and one note taker. Some sessions had one or tw
 
 [Example Key Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#key-findings)
 
-1. _finding having to do with choosing the wrong claimant_
-2. _finding having to do with choosing a benefit_
-1. _finding having to do with struggling to understand the handoff process_
-1. _finding having to do with other intro page things_
-1. _finding having to do with other confirmation page things_
-1. _finding having to with other language things_
+1. Most participants who were filling out 21-2680 for someone else (eg: a parent they give care to) did not correctly choose the "claimant" for the form, and all but one of these needed to be prompted before submitting an incorrect claim.
+2. Most participants struggled to understand the difference between Special Monthly Compensation and Special Monthly Pension, the two benefits described by this form, and found it difficult to make a choice.
+3. Most participants had one or more issues understanding the two-step process involved in the current implementation of the "online" version of 2680, which requires a manual handoff to a medical provider.
+4. Some participants struggled to begin the application process, either because they didn't see how to begin or were confused as to whether this benefit would apply to them
+5.  Most participants were confused by the order of the insstructions on the confirmation page, or were looking for more clarity.
+6.  Almost all participants struggled with the definition of the term "hospital care."
+7. _finding having to with other language things_
 
 ## Details of Findings 
 
@@ -237,7 +238,7 @@ A majority of participants struggled to understand the difference between the tw
 It wasn’t clear to some participants that this is a two-step process that would eventually involve a third party before they began the form. And, despite the existing instructions, several participants struggled to understand what they needed to do specifically at the end of the form. They didn’t necessarily know how they might get this form to a doctor, or gave us feedback that printing it might be a challenge. Some participants were concerned that they hadn’t yet provided any health information about themselves by the time they got to the end of the form, while others were not clear that they would need to get this form to a medical provider to completely finish their application.
 - _Supporting data: Quote [add context]_
 
-## _finding having to do with other intro page things_
+## Some participants struggled to begin the application process, either because they didn't see how to begin or were confused as to whether this benefit would apply to them.
 - _Supporting data: Quote [add context]_
 
 ## _finding having to do with other confirmation page things_
