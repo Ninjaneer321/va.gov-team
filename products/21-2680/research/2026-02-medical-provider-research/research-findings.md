@@ -242,9 +242,17 @@ It wasn’t clear to some participants that this is a two-step process that woul
 ---
 
 ## Additional Insights
-*Include insights that do not represent patterns but are still valuable.*  
-> **TIP:** These could be powerful user comments or unexpected issues worth noting
 
+### In some ways, the PDF was easier to use or understand because everything is exposed at once
+- _"It almost helps to see the [paper] form. It answers a lot more questions than before I saw the [paper] form."_
+
+### A core issue determining participants' experience is the their relationship with their medical provider
+- Participants with positive provider relationships felt this benefit would be accessible to them. Participants who had negative provider relationships felt a high burden in 	 		the provider handoff. 
+- Participants who were confident their provider could fill this out based on medical records have a much lower burden than those who need to go into the office for an exam
+- _"I feel like it would be easier to send my 2,000-plus medical record to an outside doctor, and have them fill this out and upload it, than it would be for me to have my VA doctor do it, and that's the honest-to-God truth, and it's sad to say, but that's how I really feel."_
+
+### Additional insightful quote
+- _"If they are giving benefits for people that are housebound and can’t get out [of the house] but to get the benefits you have to get out [of the house]. Let me tell you, brother, it's no picnic."_
 
 ## Recommendations
 
