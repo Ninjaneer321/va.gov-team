@@ -19,7 +19,8 @@ Feature toggles/flags:
 ## Preparation
 + No additional development is planned outside of addressing findings (that block release) from staging review.
 + No ongoing development will occur, at minimum, 4 days prior to staging review.
-+ Staging review has been completed `insert date` - **to be scheduled following architecture intent waiver approval.**
++ Staging review has been scheduled `insert date` - **to be scheduled following architecture intent waiver approval.**
++ Staging review has been completed `insert date`.
 + Authenticated staging environment for testing.
 + Login information for authenticated experience provided to governance team for staging review.
   + Commonly utilized user test accounts;
