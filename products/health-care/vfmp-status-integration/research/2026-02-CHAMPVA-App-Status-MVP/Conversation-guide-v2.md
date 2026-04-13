@@ -329,7 +329,6 @@ Take a moment to review this page and the other tabs, and think out loud as you 
    
   [IF THEY CAN'T FIND WHERE TO UPLOAD]
       - Can you click on the Files tab?
-  - When would you use this screen? <mark>**Alyssa do we want to ask this question**</mark>
 
 ### [Overview tab] 
 - Now, I want to ask more about the Overview tab. Can you go there for me?
