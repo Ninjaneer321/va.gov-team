@@ -30,7 +30,11 @@ Before enabling your feature toggle in production, you'll need to:
 
 * Matt Guest and Natalie Gibbons will monitor analytics and logging at each rollout phase and loop in the Financial Management team. Denise Coveyduc will be responsible for coordinating with the Debt Management Center (DMC) to ensure the Overpayment API keeps up with the volume of requests.
 * The MFS team will coordinate with the VA Mobile App Tech Lead, Jon Bindbeutel, to move to the next release phases or roll back the feature on the VAHB app, as the Mobile App team is the only authorized team to make those adjustments. 
-* If there is a significant increase in overpayment API errors or unexpected behavior, the team will disable the feature flag for all users. 
+* If there is a significant increase in overpayment API errors or unexpected behavior, the team will disable the feature flag for all users if the success criteria is not met. These conditions include:
+  * Rollback if the success rate drops below 99% during the review window
+  * Rollback if failure rate exceeds 1%
+  * Rollback if latency exceeds the agreed threshold
+  * Rollback immediately if there’s a severe user-facing issue
 
 ### **Phase I: moderated production testing (also known as User Acceptance Testing, or UAT)**
 
@@ -62,7 +66,7 @@ We recommend that the rollout plan has five stages, each increasing the number o
   * We will be turning on the feature flag for a small percentage of users and increasing every few days as long if metrics meet our success criteria.   
   * We will plan to check the metrics around 10:00am ET and then determine to increase at that time, so that the MFS and FM team can immediately identify any issues.   
 * **What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")**?: **Work in Progress**   
-  * Debts controller latency (measure of time for when the debts come through and when they are able to respond): Less than 2 seconds within a given 24-hour period
+  * Debts controller latency (measure of time for when the debts come through and when they are able to respond): Average latency under 2 seconds over the last 24 hours
   * DMC Get Debts Endpoint Success (Mobile equivalent) %: 99% or better
   * DMC Get Debts Endpoint Failure (Mobile equivalent) %: Less than 1%   
 * Who is monitoring the dashboard(s)?: Natalie Gibbons, Matt Guest, and FM Management Team BE 
