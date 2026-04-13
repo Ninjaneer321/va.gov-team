@@ -1,0 +1,317 @@
+{
+  "description": "Sample extractions with source YAML for manual review",
+  "generated": "2026-04-13T19:57:54.398Z",
+  "sample_count": 10,
+  "samples": [
+    {
+      "study_path": "products/21-2680/research/2026-02-medical-provider-research",
+      "study_name": "Conversation Guide for Form 21-2680 Claimant & Provider Handoff Experience",
+      "source_file": "products/21-2680/research/2026-02-medical-provider-research/research-findings.md",
+      "source_frontmatter": {
+        "key_findings": [
+          "Most participants who were filling out 21-2680 for someone else (e.g., a parent they give care to) did not correctly choose the \"claimant\" for the form. Only one participant realized the error before submitting the form. Supporting quotes:\n- \"Claimants information. My relationship to the Veteran. If I was applying for my dad I'd be a Veteran's child. If I was applying for myself I'd be a Veteran.\"\n- \"At first I was going to say Veteran. But then I would look at it as myself if I was filing this out. I'm the claimant. I looked and I thought I could put Veteran but I got confused if its looking at it as myself if I was filing that out for my dad.\"\n- \"That's the person that's making the file. That's, you know, that's putting in the information. Because if I'm filling that for myself, then I will be the veteran, but if I'm filling it out for my dad...\"\n",
+          "Most participants struggled to understand the difference between Special Monthly Compensation and Special Monthly Pension, the two benefits described by this form, and found it difficult to make a selection",
+          "Most participants had one or more issues understanding the two-step process involved in the current implementation of the \"online\" version of 2680, which requires a manual handoff to a medical provider",
+          "Some participants struggled to begin the application process, either because they didn't see how to begin or were confused as to whether this benefit would apply to them",
+          "Most participants were confused by the order of the instructions on the confirmation page, or were looking for more clarity",
+          "Almost all participants struggled with the definition of the term \"hospital care\"",
+          "In some ways, the PDF was easier to use or understand because everything is exposed at once. Supporting quote:\n- \"It almost helps to see the [paper] form. It answers a lot more questions than before I saw the [paper] form.\"\n",
+          "A core issue determining participants' experience is the their relationship with their medical provider. Participants with positive provider relationships felt this benefit would be accessible to them. Participants who had negative provider relationships felt a high burden in the provider handoff. Participants who were confident their provider could fill this out based on medical records have a much lower burden than those who need to go into the office for an exam. Supporting quote:\n- \"I feel like it would be easier to send my 2,000-plus medical record to an outside doctor, and have them fill this out and upload it, than it would be for me to have my VA doctor do it, and that's [...]\"\n",
+          "Supporting quote: \"If they are giving benefits for people that are housebound and can't get out [of the house] but to get the benefits you have to get out [of the house]. Let me tell you, brother, it's no picnic.\"\n"
+        ],
+        "tags": [
+          "usability-testing",
+          "semi-structured-interviews",
+          "evaluative"
+        ],
+        "outcomes": {
+          "user": "Veterans, dependents, and caregivers understand the 21-2680 form process, correctly identify themselves as claimants, understand the two-step process with provider handoff, and can successfully complete and submit their portion of the form\n",
+          "business": "Reduce error rates in claimant information, improve form submission quality, decrease processing time through fewer rejections, and increase adoption of the digital form over paper submissions\n"
+        }
+      },
+      "extracted": {
+        "key_themes": "usability-testing, semi-structured-interviews, evaluative",
+        "top_finding": "Most participants who were filling out 21-2680 for someone else (e.g., a parent they give care to) did not correctly ch…",
+        "impact": "Veterans, dependents, and caregivers understand the 21-2680 form process, corre…",
+        "source_file": "products/21-2680/research/2026-02-medical-provider-research/research-findings.md",
+        "extraction_method": "yaml-frontmatter"
+      }
+    },
+    {
+      "study_path": "products/Comparison Tool Enhancements/research",
+      "study_name": "Conversation Guide for [Team, Product, Date]",
+      "source_file": "products/Comparison Tool Enhancements/research/GIBCT_Specialized Mission Filter_govcio-vfep_Research Findings.md",
+      "source_frontmatter": {
+        "key_findings": [
+          "All nine respondents indicated that they were interested in exploring educational opportunities",
+          "All had some degree of difficulty finding what they wanted, and many pressed filtering options that appeared to be at cross-purposes with their initial search string (on either the Search by name or Search by location tabs)",
+          "Three users recognized the value of the Specialized Mission Filter group, but felt using it might limit their results",
+          "The SMF descriptions component (which required pressing a link below the SMF filter group) was found and reviewed without prompting by several users",
+          "One user selected the 'Hispanic-serving institutions' filter and pressed the 'Apply filters' button; the user was expecting all matches (country-wide) for the selected filter, but none were returned (the user had previously performed a name search for 'Rutgers')",
+          "After conducting searches that produced acceptable results, eight of nine users tapped the result card heading link to move away from the home results page and open the institution details page, requiring them to use the browser back button or return to the homepage",
+          "One user entered a school acronym in the Search field, which produced no results, then corrected the search by entering a partial school name and making a selection from the autocomplete dropdown list",
+          "One user found, unprompted, that a word or phrase can be entered in the Search field instead of an institution name; the user entered 'forensic', which produced five unsatisfactory results, then entered 'veterinarian', which produced two",
+          "A small number of users failed to use the 'Apply filters' button after modifying filters, assuming filter selection was enough to refresh the results",
+          "The 'Search by location' (map) option was at least as popular as the default name search; most users entered a zip code or municipality name on entry, though results were more often than not cleared to modify filters"
+        ],
+        "tags": [
+          "usability-testing",
+          "remote-sessions",
+          "Accessibility"
+        ],
+        "outcomes": {
+          "user": "Not specified in findings report",
+          "business": "Not specified in findings report"
+        }
+      },
+      "extracted": {
+        "key_themes": "usability-testing, remote-sessions, Accessibility",
+        "top_finding": "All nine respondents indicated that they were interested in exploring educational opportunities",
+        "impact": null,
+        "source_file": "products/Comparison Tool Enhancements/research/GIBCT_Specialized Mission Filter_govcio-vfep_Research Findings.md",
+        "extraction_method": "yaml-frontmatter"
+      }
+    },
+    {
+      "study_path": "products/accredited-representation-management/research/2023-11-ARM-findarep-nav-usertest",
+      "study_name": "Conversation Guide for ARM Team, Find a Representative User Test, 11/2023",
+      "source_file": "products/accredited-representation-management/research/2023-11-ARM-findarep-nav-usertest/research-findings.md",
+      "source_frontmatter": {
+        "key_findings": [
+          "Veterans main goal for getting a representative is to aid in fast, comprehensive, successful filing of their claims. When that goal is not met, Veterans look for alternative support",
+          "Representatives can make or break a Veterans claims experience causing Veterans to rely heavily on peer / family referrals, and online research, when selecting a representative",
+          "During the application process, and first meeting, most Veterans preferred in-person support from a representative to build trust and comfort with the process",
+          "Veterans continuously struggled with understanding representative terms and roles",
+          "While most Veterans had never considered VA.gov to find a representative, after seeing the experience every Veteran wanted to use it immediately"
+        ],
+        "tags": [
+          "usability-testing",
+          "semi-structured-interviews",
+          "remote-research",
+          "Accessibility"
+        ]
+      },
+      "extracted": {
+        "key_themes": "usability-testing, semi-structured-interviews, remote-resea…",
+        "top_finding": "Veterans main goal for getting a representative is to aid in fast, comprehensive, successful filing of their claims. Wh…",
+        "impact": null,
+        "source_file": "products/accredited-representation-management/research/2023-11-ARM-findarep-nav-usertest/research-findings.md",
+        "extraction_method": "yaml-frontmatter"
+      }
+    },
+    {
+      "study_path": "products/accredited-representation-management/research/2023-12-ARM-analytics",
+      "study_name": "Analytics Findings for ARM Team",
+      "source_file": "products/accredited-representation-management/research/2023-12-ARM-analytics/research-findings.md",
+      "source_frontmatter": {
+        "key_findings": [
+          "Demographics of Veterans with a representative closely match the overall Veteran population, except in race, where Black Veterans are 67% of those with representatives, compared to 13% in the total population",
+          "Non-Veteran claimants, forming just 0.1% of representative claims, tend to be younger, particularly in the 35-44 age group",
+          "Veterans appear to be actively seeking representative support, with 78% of Veteran claims having a representative on file, while only 4% of non-Veteran claims have a representative",
+          "Disability claims are the top claim filed with a representative on file. Other than attorneys, which are two times more likely to support decision reviews than other claims",
+          "VSOs are the top representative type, with DAV, AL, and VFW being the most documented organizations. It is notable that attorneys make up 41% of available accredited representatives, and are in the top 10 of digital submissions on QuickSubmit",
+          "We have a lot of opportunity to grow in digital submissions with 78% of all claims submitted having a representative on file, but only 12.5% of those were submitted online",
+          "We have an opportunity to consider cross flow embedment of the 21-22/21-22a since many packets being submitted have the 21-22/21-22a attached. Including Intent to File and the 21-526EZ form",
+          "Both in interviews and web analytics we see a promising desirability for finding representatives on VA.gov. With 21-22 being in the top 15 search terms, and VSO in the top 50. As well as the current landing pages having on par traffic with top navigation links under Disability"
+        ],
+        "tags": []
+      },
+      "extracted": {
+        "key_themes": null,
+        "top_finding": "Demographics of Veterans with a representative closely match the overall Veteran population, except in race, where Blac…",
+        "impact": null,
+        "source_file": "products/accredited-representation-management/research/2023-12-ARM-analytics/research-findings.md",
+        "extraction_method": "yaml-frontmatter"
+      }
+    },
+    {
+      "study_path": "products/accredited-representation-management/research/2024-01-ARM-appointarep-usertest",
+      "study_name": "Conversation Guide for ARM Team, Authenticated Appoint a Representative Form User Test, January 2024",
+      "source_file": "products/accredited-representation-management/research/2024-01-ARM-appointarep-usertest/research-findings.md",
+      "source_frontmatter": {
+        "key_findings": [
+          "Veterans seek representatives for claims expertise, avoiding filing errors, peer recommendations, and time efficiency in navigating complex VA processes",
+          "Peer referrals and online searches are primary discovery methods; paid representation options frequently considered for complex claims",
+          "Communication preferences vary by Veteran; in-person meetings valued for trust-building while email preferred for off-hours accessibility",
+          "Veterans lack awareness of different types of accredited representatives; confusion between VSOs and attorneys common; misconceptions about being 'assigned' representatives",
+          "High desirability for Find a Representative feature but awareness and discoverability limitations exist on VA.gov",
+          "Representative widget and permissions pages need clearer legal context and explanations",
+          "Contact information gaps (missing email) in representative widgets reduce confidence in reaching representatives"
+        ],
+        "tags": [
+          "usability-testing",
+          "semi-structured-interviews",
+          "remote-research"
+        ],
+        "outcomes": {
+          "user": "Veterans understand different representative options and can confidently appoint appropriate representation that meets their needs",
+          "business": "Increased adoption of digital representative management tools and improved Veteran satisfaction with representative services"
+        }
+      },
+      "extracted": {
+        "key_themes": "usability-testing, semi-structured-interviews, remote-resea…",
+        "top_finding": "Veterans seek representatives for claims expertise, avoiding filing errors, peer recommendations, and time efficiency i…",
+        "impact": "Veterans understand different representative options and can confidently appoin…",
+        "source_file": "products/accredited-representation-management/research/2024-01-ARM-appointarep-usertest/research-findings.md",
+        "extraction_method": "yaml-frontmatter"
+      }
+    },
+    {
+      "study_path": "products/accredited-representation-management/research/2024-02-appointarep-unauth-usertest",
+      "study_name": "Conversation Guide for ARM Team, Appoint a Representative Form User Test (Unauthenticated), February 2024",
+      "source_file": "products/accredited-representation-management/research/2024-02-appointarep-unauth-usertest/research-findings.md",
+      "source_frontmatter": {
+        "key_findings": [
+          "Form start expectations: Users easily missed non-digital submission information; wanted clear upfront instructions and required information list before starting",
+          "Representative search: Inconclusive findings; users requested additional representative information including ratings, photos, availability, specialties, and email contact",
+          "Organization selection confusion: Most users unsure why organization selection exists and how to use it; unclear distinction between organizational versus individual representative support",
+          "Contact representative: Mixed feedback; negative reactions due to prior difficulties reaching VSOs; positive from those who preferred meeting representatives in person first",
+          "Permissions clarity: Medical record sharing well understood; address change permission caused hesitation and confusion about who changes what address",
+          "Review page misdirection: Lack of button options failed to properly convey next steps; users assumed digital submission process was complete",
+          "Non-digital submission frustration: Most participants frustrated form was not digitally submitted; some indicated they would abandon the experience entirely"
+        ],
+        "tags": [
+          "usability-testing",
+          "remote-research",
+          "semi-structured-interviews"
+        ],
+        "outcomes": {
+          "user": "Family members and caregivers can confidently appoint appropriate representation on behalf of Veterans with clear understanding of process and requirements",
+          "business": "Enable more Veterans to access representation support through family and caregiver pathways, reducing barriers to getting help"
+        }
+      },
+      "extracted": {
+        "key_themes": "usability-testing, remote-research, semi-structured-intervi…",
+        "top_finding": "Form start expectations: Users easily missed non-digital submission information; wanted clear upfront instructions and …",
+        "impact": "Family members and caregivers can confidently appoint appropriate representatio…",
+        "source_file": "products/accredited-representation-management/research/2024-02-appointarep-unauth-usertest/research-findings.md",
+        "extraction_method": "yaml-frontmatter"
+      }
+    },
+    {
+      "study_path": "products/accredited-representation-management/research/2024-03-ARM-findarep-live-usertest",
+      "study_name": "Conversation Guide for Accredited Representative Management, Find a Representative LIVE User Test, 03/2024",
+      "source_file": "products/accredited-representation-management/research/2024-03-ARM-findarep-live-usertest/research-findings.md",
+      "source_frontmatter": {
+        "key_findings": [
+          "Navigation challenging: Unless searching 'VSO' or 'veteran service officer' users struggled to find tool (average 1 minute 48 seconds); effective search terms took average 23 seconds",
+          "Search feature effective: All users understood search task; location filter most valued for finding representatives they can meet in person",
+          "Information gaps: Users requested additional representative information including website, biography, remote availability, specialty areas, rating system, and business hours",
+          "Contact info critical: Missing phone or email contact information decreased trust; some suggested representatives without contact information should not be listed",
+          "Organizations impact trust: Large presence of one organization raised suspicion among some users; 'no longer recognized' status significantly lowered trust",
+          "Report button mixed reception: Users evenly split on using outdated information button; some hesitant about causing problems for representatives",
+          "Next steps clear: Most users indicated they would contact representative by phone or email to make appointments after finding them"
+        ],
+        "tags": [
+          "usability-testing",
+          "remote-research",
+          "Accessibility"
+        ],
+        "outcomes": {
+          "user": "Veterans can easily find and contact appropriate accredited representatives in their geographic area who meet their specific needs",
+          "business": "Improved representative discovery rates, increased engagement with representative services, and higher Veteran satisfaction with finding help"
+        }
+      },
+      "extracted": {
+        "key_themes": "usability-testing, remote-research, Accessibility",
+        "top_finding": "Navigation challenging: Unless searching 'VSO' or 'veteran service officer' users struggled to find tool (average 1 min…",
+        "impact": "Veterans can easily find and contact appropriate accredited representatives in …",
+        "source_file": "products/accredited-representation-management/research/2024-03-ARM-findarep-live-usertest/research-findings.md",
+        "extraction_method": "yaml-frontmatter"
+      }
+    },
+    {
+      "study_path": "products/accredited-representation-management/research/2024-04-ARM-veteran-representative-experience-interviews",
+      "study_name": "Accredited Representative Management - Veteran and Caregiver Representative",
+      "source_file": "products/accredited-representation-management/research/2024-04-ARM-veteran-representative-experience-interviews/research-findings.md",
+      "source_frontmatter": {
+        "key_findings": [
+          "Participants frequently lacked understanding of representatives, what they do, and how they fit into VA processes, directly impacting their ability to get timely support",
+          "Veterans and claimants using representation need help understanding and navigating VA processes and do not feel equipped to handle tasks themselves",
+          "Through the search process, Veterans and claimants weigh pros and cons to build confidence in their decision, looking to peers, online resources, and local VA and VSO facilities",
+          "Largest challenges when searching for representatives were scattered or inconsistent information and unreturned calls or emails, causing frustration and delays",
+          "Representative engagement varies immensely and can make or break a Veteran or claimant's experience, with positive experiences including help with complete claims, evidence gathering, and empathetic communication",
+          "Largest challenge with representative engagement was lack of punctual task completion and long wait or travel times, often leading to delays or missed claim deadlines"
+        ],
+        "tags": [
+          "semi-structured-interviews",
+          "remote-research"
+        ],
+        "outcomes": {
+          "user": "Veterans and caregivers can find, select, and work with accredited representatives who meet their needs and provide appropriate support throughout the benefits claims process",
+          "business": "Comprehensive understanding of Veteran representative experience informs ARM product development and improves representative management tools on VA.gov"
+        }
+      },
+      "extracted": {
+        "key_themes": "semi-structured-interviews, remote-research",
+        "top_finding": "Participants frequently lacked understanding of representatives, what they do, and how they fit into VA processes, dire…",
+        "impact": "Veterans and caregivers can find, select, and work with accredited representati…",
+        "source_file": "products/accredited-representation-management/research/2024-04-ARM-veteran-representative-experience-interviews/research-findings.md",
+        "extraction_method": "yaml-frontmatter"
+      }
+    },
+    {
+      "study_path": "products/accredited-representation-management/research/2024-06-ARM-appointarep-digitalsubmit-usertest",
+      "study_name": "Conversation Guide for ARM Team, Appoint a Representative - Digital Submit - User Test, 06/2024",
+      "source_file": "products/accredited-representation-management/research/2024-06-ARM-appointarep-digitalsubmit-usertest/research-findings.md",
+      "source_frontmatter": {
+        "key_findings": [
+          "Participants were split on whether they would adopt the tools, leading to definition of new audiences for ARM - 3 would use both, 2 would not use Find but would use Appoint, 2 would not use either tool",
+          "Changes in content, addition of VSO filter, and digital submit caused participants new challenges not previously seen on Find a Representative",
+          "The Appoint form tested well other than concepts of digital submit, organization selection, and missing context of VA forms and processes",
+          "Participants who were comfortable with VA processes and digital healthcare tools were more likely to adopt the tools",
+          "Participants not comfortable with VA processes and digital tools preferred in-person interactions and found the tools overwhelming",
+          "Increase of content and new concepts led to lower participant understanding and interaction with Find a Representative",
+          "Participants who were confidently incorrect in their understanding of VA processes and terms had increased confusion"
+        ],
+        "tags": [
+          "usability-testing",
+          "remote-research",
+          "moderated-research",
+          "evaluative"
+        ],
+        "outcomes": {
+          "user": "Veterans can successfully find and digitally appoint accredited representatives through VA.gov with clear understanding of the process and next steps",
+          "business": "Digital submission of 21-22 forms reduces processing time and manual effort while improving data accuracy and Veteran experience"
+        }
+      },
+      "extracted": {
+        "key_themes": "usability-testing, remote-research, moderated-research, eva…",
+        "top_finding": "Participants were split on whether they would adopt the tools, leading to definition of new audiences for ARM - 3 would…",
+        "impact": "Veterans can successfully find and digitally appoint accredited representatives…",
+        "source_file": "products/accredited-representation-management/research/2024-06-ARM-appointarep-digitalsubmit-usertest/research-findings.md",
+        "extraction_method": "yaml-frontmatter"
+      }
+    },
+    {
+      "study_path": "products/accredited-representation-management/research/2024-08-ARM-appointarep-crossaccreditedVSOR-usertest",
+      "study_name": "Conversation Guide for ARM Team, Appoint a Representative - Cross-Accredited VSOR - User Test, August 2024",
+      "source_file": "products/accredited-representation-management/research/2024-08-ARM-appointarep-crossaccreditedVSOR-usertest/research-findings.md",
+      "source_frontmatter": {
+        "key_findings": [
+          "VSOR workflows and policies change state to state and county to county, including which VSOs they can be accredited with, who they can support, engagement with VA and Veterans, and technology used",
+          "Processes within and outside of VA are poorly documented and circulated, with some VSORs unaware of forms like VA Form 21-0972 that allow non-Veterans to sign on behalf of Veterans",
+          "Unified processes like NACVSO Continuous Education Unit training and state affiliations with national VSOs were praised as time-savers that allow more efficient Veteran support",
+          "VSORs had mostly positive feedback about ARM features except for two key needs: ability to show only VSOs they support POA with, and ability to organize representatives by office rather than individual",
+          "VSORs saw value in instant POA submission from VA.gov but have continued need for ability to start POA from ARP, as 20-70% of their audience is willing and capable of filling out forms online while older or less tech-savvy Veterans need VSOR assistance"
+        ],
+        "tags": [
+          "semi-structured-interviews",
+          "moderated-research",
+          "remote-research"
+        ],
+        "outcomes": {
+          "user": "Cross-accredited VSORs can efficiently manage POA requests across multiple organizations with clear understanding of their responsibilities and limitations, while Veterans can successfully submit POA requests to appropriate representatives",
+          "business": "ARM and ARP tools support varied VSOR workflows across states and counties, enabling efficient POA processing and reducing manual verification steps"
+        }
+      },
+      "extracted": {
+        "key_themes": "semi-structured-interviews, moderated-research, remote-rese…",
+        "top_finding": "VSOR workflows and policies change state to state and county to county, including which VSOs they can be accredited wit…",
+        "impact": "Cross-accredited VSORs can efficiently manage POA requests across multiple orga…",
+        "source_file": "products/accredited-representation-management/research/2024-08-ARM-appointarep-crossaccreditedVSOR-usertest/research-findings.md",
+        "extraction_method": "yaml-frontmatter"
+      }
+    }
+  ]
+}

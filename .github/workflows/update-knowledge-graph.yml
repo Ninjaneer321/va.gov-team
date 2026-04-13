@@ -27,6 +27,8 @@ jobs:
             teams/
             team-lookup.json
             scripts/
+            package.json
+            package-lock.json
             .github/knowledge-graph.json
             .github/copilot-summaries/
             .github/workflows/
@@ -38,10 +40,18 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install dependencies
+        run: npm install
+
       - name: Rebuild knowledge graph
         run: |
           echo "🔄 Rebuilding knowledge-graph.json ..."
           node scripts/build-knowledge-graph.js
+
+      - name: Extract research findings
+        run: |
+          echo "🔬 Extracting research findings from YAML frontmatter ..."
+          node scripts/extract-research-findings.js
 
       - name: Generate Copilot summary files
         run: |
@@ -51,7 +61,7 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff --quiet .github/knowledge-graph.json .github/copilot-summaries/; then
+          if git diff --quiet .github/knowledge-graph.json scripts/research-findings-data.json .github/copilot-summaries/; then
             echo "No changes detected"
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
           else
@@ -73,8 +83,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add .github/knowledge-graph.json .github/copilot-summaries/
-          git commit -m "chore: regenerate knowledge-graph.json and copilot summaries
+          git add .github/knowledge-graph.json scripts/research-findings-data.json .github/copilot-summaries/
+          git commit -m "chore: regenerate knowledge graph, research findings, and copilot summaries
 
           Automatically rebuilt from products/, teams/, and team-lookup.json."
 

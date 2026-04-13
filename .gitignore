@@ -7,7 +7,6 @@ scripts/repo-deprecation.log.csv
 */.obsidian/*
 .obsidian
 .claude/settings.local.json
-package-lock.json
-package.json
+
 __pycache__/
 *.pyc

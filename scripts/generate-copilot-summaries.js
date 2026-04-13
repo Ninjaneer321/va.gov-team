@@ -30,6 +30,7 @@ const path = require("path");
 const ROOT = path.resolve(__dirname, "..");
 const KG_PATH = path.join(ROOT, ".github", "knowledge-graph.json");
 const TEAM_LOOKUP_PATH = path.join(ROOT, "team-lookup.json");
+const FINDINGS_DATA_PATH = path.join(ROOT, "scripts", "research-findings-data.json");
 const SUMMARIES_DIR = path.join(ROOT, ".github", "copilot-summaries");
 const REPO_BASE_URL = "https://github.com/department-of-veterans-affairs/va.gov-team";
 
@@ -131,6 +132,35 @@ function isTeamInSensitiveRepo(teamNode, lookupById) {
   return getTeamReadmeInfo(teamNode, lookupById).repo === "va.gov-team-sensitive";
 }
 
+/**
+ * Load research findings data (extracted from YAML frontmatter).
+ * Returns an empty object if the file is missing (graceful fallback).
+ */
+function loadFindingsData() {
+  if (!fs.existsSync(FINDINGS_DATA_PATH)) {
+    console.warn("  ⚠ No findings data file found - summaries will only include metadata");
+    return { studies: {} };
+  }
+  var data = JSON.parse(fs.readFileSync(FINDINGS_DATA_PATH, "utf8"));
+  console.log("  ✓ Loaded findings for " + Object.keys(data.studies).length + " studies");
+  if (data.metadata) {
+    console.log("    Coverage: " + data.metadata.studies_extracted_from_frontmatter + "/" + data.metadata.studies_processed + " studies");
+  }
+  return data;
+}
+
+/**
+ * Get lightweight findings for a research study if available.
+ * @param {string} studyPath - Path to the research study
+ * @param {Object} findingsData - Loaded findings data
+ * @returns {Object|null} - { key_themes, top_finding, impact } or null
+ */
+function getStudyFindings(studyPath, findingsData) {
+  if (!studyPath || !findingsData.studies) return null;
+  var normalizedPath = studyPath.replace(/^\/+|\/+$/g, "");
+  return findingsData.studies[normalizedPath] || null;
+}
+
 function writeSummary(filename, content) {
   fs.mkdirSync(SUMMARIES_DIR, { recursive: true });
   const dest = path.join(SUMMARIES_DIR, filename);
@@ -190,7 +220,7 @@ function studyBullet(s) {
 }
 
 /** Format a research study as a detailed Markdown block (for research-by-team/product). */
-function studyBlock(s) {
+function studyBlock(s, findingsData) {
   var lines = [];
   var label = s.name || path.basename(s.path || s.id);
   var date = s.date || "Date unknown";
@@ -209,9 +239,29 @@ function studyBlock(s) {
   lines.push("");
 
   lines.push("- **Date**: " + date);
-  lines.push("- **Methodology**: " + methodology);
 
+  // Methodology with inline participant types
   if (s.participant_types && s.participant_types.length) {
+    lines.push("- **Methodology**: " + methodology + " (" + s.participant_types.join(", ") + ")");
+  } else {
+    lines.push("- **Methodology**: " + methodology);
+  }
+
+  // Add findings if available
+  var findings = findingsData ? getStudyFindings(s.path, findingsData) : null;
+  if (findings) {
+    if (findings.key_themes) {
+      lines.push("- **Key Themes**: " + findings.key_themes);
+    }
+    if (findings.top_finding) {
+      lines.push("- **Top Finding**: " + findings.top_finding);
+    }
+    if (findings.impact) {
+      lines.push("- **Impact**: " + findings.impact);
+    }
+  }
+
+  if (s.participant_types && s.participant_types.length && !findings) {
     lines.push("- **Participants**: " + s.participant_types.join(", "));
   }
 
@@ -327,7 +377,7 @@ function generateTeams(graph, idx, lookupById) {
   return lines.join("\n");
 }
 
-function generateResearchByTeam(graph, idx) {
+function generateResearchByTeam(graph, idx, findingsData) {
   var teams = graph.nodes.filter(function (n) { return n.type === "team"; }).sort(byName);
   var lines = [
     "# Research Studies by Team",
@@ -350,14 +400,14 @@ function generateResearchByTeam(graph, idx) {
     lines.push("");
     lines.push(studies.length + " " + (studies.length === 1 ? "study" : "studies") + ":");
     lines.push("");
-    studies.forEach(function (s) { lines.push.apply(lines, studyBlock(s)); });
+    studies.forEach(function (s) { lines.push.apply(lines, studyBlock(s, findingsData)); });
     lines.push("");
   });
 
   return lines.join("\n");
 }
 
-function generateResearchByProduct(graph, idx) {
+function generateResearchByProduct(graph, idx, findingsData) {
   var productsWithResearch = graph.nodes
     .filter(function (n) { return n.type === "product" || n.type === "category"; })
     .map(function (p) {
@@ -396,7 +446,7 @@ function generateResearchByProduct(graph, idx) {
 
     lines.push("**Research (" + item.studies.length + " " + (item.studies.length === 1 ? "study" : "studies") + "):**");
     lines.push("");
-    item.studies.sort(byName).forEach(function (s) { lines.push.apply(lines, studyBlock(s)); });
+    item.studies.sort(byName).forEach(function (s) { lines.push.apply(lines, studyBlock(s, findingsData)); });
     lines.push("");
   });
 
@@ -578,10 +628,11 @@ function main() {
   var idx = buildIndex(graph);
   var lookupById = loadTeamLookup();
   console.log("  Loaded team-lookup.json (" + lookupById.size + " teams)");
+  var findingsData = loadFindingsData();
 
   writeSummary("teams.md", generateTeams(graph, idx, lookupById));
-  writeSummary("research-by-team.md", generateResearchByTeam(graph, idx));
-  writeSummary("research-by-product.md", generateResearchByProduct(graph, idx));
+  writeSummary("research-by-team.md", generateResearchByTeam(graph, idx, findingsData));
+  writeSummary("research-by-product.md", generateResearchByProduct(graph, idx, findingsData));
   writeSummary("product-teams.md", generateProductTeams(graph, idx));
   writeSummary("portfolios.md", generatePortfolios(graph, idx, lookupById));
 
