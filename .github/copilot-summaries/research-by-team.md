@@ -1,6 +1,6 @@
 # Research Studies by Team
 
-> Auto-generated from `.github/knowledge-graph.json` on 2026-04-10.
+> Auto-generated from `.github/knowledge-graph.json` on 2026-04-13.
 > Edit the source data, not this file.
 
 Use this file to quickly find all research a team has conducted.
@@ -2376,12 +2376,13 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 ### [Conversation Guide for Form 21-2680 Claimant & Provider Handoff Experience](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/21-2680/research/2026-02-medical-provider-research)
 
 - **Date**: 2026-02
-- **Methodology**: Semi-structured interviews and desktop research
+- **Methodology**: Moderated semi-structured interviews, Form walkthrough usability testing, Remote testing via Zoom
 - **Participants**: Veterans, Caregivers
 - **Path**: `products/21-2680/research/2026-02-medical-provider-research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/21-2680/research/2026-02-medical-provider-research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2F21-2680%20Conversation%20Guide)
 - **Files**:
   - [Research Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/21-2680/research/2026-02-medical-provider-research/research-plan.md)
+  - [Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/21-2680/research/2026-02-medical-provider-research/research-findings.md)
   - [Conversation Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/21-2680/research/2026-02-medical-provider-research/conversation-guide.md)
 
 ### [Conversation Guide for Form 686c Dependents Benefits Usability Research (Non-Veteran Applicant Version), June 2018](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/declare-dependent/research/june-2018)

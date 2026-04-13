@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-04-10T20:37:48.433Z",
+    "generated": "2026-04-13T08:46:24.710Z",
     "description": "Knowledge graph of VA.gov products and teams",
     "source_directories": [
       "products/",
@@ -10,7 +10,7 @@
   },
   "statistics": {
     "total_nodes": 1229,
-    "total_edges": 2500,
+    "total_edges": 2502,
     "nodes_by_type": {
       "team": 61,
       "portfolio": 4,
@@ -28,13 +28,13 @@
       "sub_product_of": 255,
       "owns_product": 16,
       "works_on_product": 1,
-      "references_product": 291,
+      "references_product": 292,
       "integrates_with": 165,
       "implements_form": 104,
       "has_research": 689,
       "conducted_research": 538,
-      "research_for_form": 107,
-      "research_references_product": 193
+      "research_references_product": 194,
+      "research_for_form": 107
     }
   },
   "nodes": [
@@ -7530,22 +7530,26 @@
       "path": "products/21-2680/research/2026-02-medical-provider-research",
       "files": {
         "plan": "products/21-2680/research/2026-02-medical-provider-research/research-plan.md",
-        "findings": null,
+        "findings": "products/21-2680/research/2026-02-medical-provider-research/research-findings.md",
         "conversation_guide": "products/21-2680/research/2026-02-medical-provider-research/conversation-guide.md"
       },
       "date": "2026-02",
       "name": "Conversation Guide for Form 21-2680 Claimant & Provider Handoff Experience",
-      "methodology": "Semi-structured interviews and desktop research",
+      "methodology": [
+        "Moderated semi-structured interviews",
+        "Form walkthrough usability testing",
+        "Remote testing via Zoom"
+      ],
       "participant_types": [
         "Veterans",
         "Caregivers"
       ],
       "research_goals": [
-        "Understand how veterans, dependents, and caregivers experience the claimant side of Form 21-2680.",
-        "Understand how veterans, dependents, and caregivers navigate getting their provider to complete the provider section, including challenges and facilitators in the handoff process.",
-        "Understand the usability of Form 21-2680 as it exists in its digital form.",
-        "Discover how veterans, dependents, and caregivers currently interact with their providers and what pain points exist.",
-        "Usability test how well people understand the new digital handoff between claimant and provider."
+        "Understand how veterans, dependents, and caregivers experience the claimant side of Form 21-2680",
+        "Understand how veterans, dependents, and caregivers navigate getting their provider to complete the provider section, including challenges and facilitators in the handoff process",
+        "Understand the usability of Form 21-2680 as it exists in its digital form",
+        "Discover how Veterans, dependents, and caregivers currently interact with their providers and what pain points exist",
+        "Usability test how well people understand the new digital handoff between claimant and provider"
       ],
       "tags": [
         "form-21-2680",
@@ -7555,10 +7559,19 @@
         "caregiver-experience",
         "provider-handoff",
         "authenticated-experience",
+        "AUD: Veterans",
+        "AUD: Caregivers",
+        "AUD: Family Member",
+        "BNFT: Pension",
+        "PRDT: Form 21-2680",
+        "DSC: Form",
+        "DSP: Ask users for multiple responses",
+        "usability-testing",
+        "semi-structured-interviews",
+        "evaluative",
         "housebound",
         "provider-experience",
         "interviews",
-        "usability-testing",
         "caregivers",
         "veterans",
         "dependents",
@@ -7566,7 +7579,6 @@
         "authenticated",
         "research-plan",
         "dependent-experience",
-        "semi-structured-interviews",
         "generative-research"
       ]
     },
@@ -32466,6 +32478,11 @@
       "relationship": "works_on_product"
     },
     {
+      "source": "product-21-2680",
+      "target": "product-find-a-va-form",
+      "relationship": "references_product"
+    },
+    {
       "source": "product-comparison-tool-enhancements",
       "target": "product-health-care",
       "relationship": "references_product"
@@ -35274,6 +35291,11 @@
       "source": "team-benefits-management-tools-2",
       "target": "research-products-21-2680-research-2026-02-medical-provider-research",
       "relationship": "conducted_research"
+    },
+    {
+      "source": "research-products-21-2680-research-2026-02-medical-provider-research",
+      "target": "product-find-a-va-form",
+      "relationship": "research_references_product"
     },
     {
       "source": "research-products-21-2680-research-2026-02-medical-provider-research",

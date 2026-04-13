@@ -1,6 +1,6 @@
 # VA.gov Teams Directory
 
-> Auto-generated from `.github/knowledge-graph.json` on 2026-04-10.
+> Auto-generated from `.github/knowledge-graph.json` on 2026-04-13.
 > Edit the source data, not this file.
 
 61 teams across all portfolios.
@@ -328,7 +328,7 @@
   - **Conversation Guide for Education Services, Post-9/11 GI Bill Statement of Benefits, May 2017** — #### 1.	What method of research are you planning?  A first click test using Chalkmark on Optimal Sort. The test will be remote and unmoderated. [Veterans] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/education-careers/statement-of-benefits/v1/research)
   - **Conversation Guide for Facilities Team, Mobile Map Usability, March 2025** (2025-03) — Moderated Interviews, Remote Sessions [Veterans, Caregivers] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/facility-locator/initiatives/2023-2025-search-improvements/research/mobile-map)
   - **Conversation Guide for facilities, facilities, 2026-03-23** (2024-04) — tree-test, unmoderated-research, remote-research [Veterans] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/medical-centers/research/VA-health-chat)
-  - **Conversation Guide for Form 21-2680 Claimant & Provider Handoff Experience** (2026-02) — Semi-structured interviews and desktop research [Veterans, Caregivers] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/21-2680/research/2026-02-medical-provider-research)
+  - **Conversation Guide for Form 21-2680 Claimant & Provider Handoff Experience** (2026-02) — Moderated semi-structured interviews, Form walkthrough usability testing, Remote testing via Zoom [Veterans, Caregivers] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/21-2680/research/2026-02-medical-provider-research)
   - **Conversation Guide for Form 686c Dependents Benefits Usability Research (Non-Veteran Applicant Version), June 2018** (2018-06) — usability testing [Veterans, Caregivers, Dependents] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/declare-dependent/research/june-2018)
   - **Conversation Guide for Form 686c Dependents Benefits Usability Research and Form 674 Discovery, April 2018** [Veterans, Dependents] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/declare-dependent/research/april-2018)
   - **Conversation Guide for Harassment Reporting Tool Usability Testing** — We will conduct remote moderated research sessions via Zoom. Participants will be given tasks to do using a mobile design prototype in UXPin. All participants will be using smartphones to match the form factor of the prototype. [Veterans] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/harassment-reporting/research/usability)

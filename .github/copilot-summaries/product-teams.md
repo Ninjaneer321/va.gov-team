@@ -1,6 +1,6 @@
 # Product Team Rosters
 
-> Auto-generated from product README files via `.github/knowledge-graph.json` on 2026-04-10.
+> Auto-generated from product README files via `.github/knowledge-graph.json` on 2026-04-13.
 > Edit the source README, not this file.
 
 22 products have team roster information in their public README.
