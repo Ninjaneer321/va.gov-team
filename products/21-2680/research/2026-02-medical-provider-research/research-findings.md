@@ -328,32 +328,7 @@ Only one participant realised the error before submitting the form.
   - Throughout the form, change the word “examiner” to “medical provider”.
 - Rationale
   - This word was not clear to some participants, and one even thought the word “examiner” referred to the claim examiner (rater), causing additional confusion.
-
-## Product User and Business Outcomes
-
-*Explain how findings and recommendations align with the product's goals.*
-
-> [!NOTE] 
-> Refer back to your Product Outline. 
-
-### Desired User Outcome 
-This research supports our desired user outcome by....
- 
-### Desired Business Outcome
-This research supports our desired business outcome by....
-
-
-## Key Performance Indicators
-
-*Explain how findings will support KPI measurement.*  
-
-> [!NOTE]
-> Refer back to your Product Outline. 
-
-### KPI 1
-This research supports measurement of this KPI by....
   
-
 ## Next Steps
 
 *Outline immediate actions based on findings, including owners if applicable.*  
