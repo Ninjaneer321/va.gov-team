@@ -134,7 +134,7 @@ synthesis_tools_used:
 
 3. Understand the usability of Form 21-2680 as it exists in its digital form.
 
-4. Discover how veterans, dependents, and caregivers currently interact with their providers and what pain points exist.
+4. Discover how Veterans, dependents, and caregivers currently interact with their providers and what pain points exist.
 
 5. Usability test how well people understand the new digital handoff between claimant and provider.
 
@@ -151,13 +151,24 @@ synthesis_tools_used:
 
 ## Research Questions
 
-*List the research questions that guided this study.*  
+### Goals 1 + 2: Experience with claimant side
+1. How clear are the instructions and form fields?
+2. What is the timeline and effort required to complete the claimant side?
+3. How do veterans, dependents, and caregivers feel about their experience completing Form 21-2680?
 
-* Question 1
-* Question 2
-* Question 3
+### Goal 3: Usability of digital form
+4. How easy is it to navigate and complete the form?
+5. Are form fields and questions clear and understandable?
+6. How do veterans, dependents, and caregivers handle errors or unclear sections?
+7. Is the form accessible?
 
-[Example Research Questions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#research-questions)
+### Goal 4: Provider interaction & pain points
+8. How do they typically contact or coordinate with providers?
+9. What challenges arise with follow-up and tracking?
+
+### Goal 5: Understanding the digital handoff
+10. Do they understand what the consent to disclose to their provider mean?
+11. Do they understand their options for handoff?
 
 ## Methodology 
 
