@@ -49,6 +49,7 @@ If you're new to the team or just getting oriented with our reporting resources,
 > - **Report** — A single visualization or set of visualizations built on a single data model.
 > - **Workspace** — A shared environment where reports and data models are stored and managed. Access is more restricted.
 > - **App** — A curated, read-only set of selected reports published from a workspace for broader consumption.
+> - **Power BI Training** - VA has published Power BI trainings posted on [Sharepoint](https://dvagov.sharepoint.com/sites/oitpdscdwpowerbi/SitePages/Power-BI-Training.aspx).
 
 ---
 ### Power BI — UAE Metrics App
