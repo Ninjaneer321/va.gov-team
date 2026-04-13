@@ -4,6 +4,22 @@
 
 Deep research is a Copilot agent that reads and analyzes actual research findings files across the repository to answer complex questions about what we learned from research.
 
+## Before You Start: Attach the Repository
+
+> ⚠️ **Critical prerequisite:** You must attach the `va.gov-team` repository to your Copilot chat before using deep research. Without this step, Copilot will make assumptions and pull information from the public web instead of analyzing the actual research files in the repository.
+
+### Why This Matters
+
+When the repository is attached, Copilot reads and analyzes the actual research findings files stored in the `va.gov-team` repository. Without it, results will be unreliable and may not reflect real research conducted by VA.gov teams.
+
+### How to Attach the Repository
+
+1. Click the **bookmark icon (📖)** in the Copilot chat input area
+2. Search for and select **`department-of-veterans-affairs/va.gov-team`**
+3. The repository will appear as a pill/tag in your chat input area
+
+> 💡 **Note:** You only need to do this once per chat session. You can confirm the repo is attached by looking for the `va.gov-team` pill/tag in your chat input area.
+
 ## When to Use Deep Research
 
 ### ✅ Use Deep Research For:
