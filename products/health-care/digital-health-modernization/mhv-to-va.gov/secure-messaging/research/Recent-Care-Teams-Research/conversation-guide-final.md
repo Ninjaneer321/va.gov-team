@@ -27,7 +27,7 @@
 ## Have these links ready
 - VA.gov | MHV: https://tinyurl.com/tw2x448m 
 - Prototype 1: https://tinyurl.com/2yxwsv6v
-- Prototype 2 https://tinyurl.com/yf6sd76b (updates coming)
+- Prototype 2 https://tinyurl.com/yf6sd76b 
 
 ---
 
