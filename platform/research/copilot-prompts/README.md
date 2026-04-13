@@ -8,7 +8,16 @@ This folder contains reusable prompts designed to guide research activities and 
 
 Prompts to help explore past research and inform new research planning.
 
-### 1. [past-research-discovery-prompt.md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-discovery/past-research-discovery-prompt.md)
+### 1. [using-deep-research.md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/using-deep-research.md)
+- **Purpose**: Comprehensive guide for using Copilot's deep research agent to get in-depth analysis of research findings with synthesis, quotes, and implementation tracking.
+- **Key Features**:
+  - When to use deep research vs. summary files vs. code search
+  - Side-by-side output comparison showing the quality difference
+  - Three methods for triggering deep research (automatic, manual, follow-up)
+  - Common use cases with example queries and expected outputs
+- **Usage**: Reference this guide when you need comprehensive research analysis beyond simple study listings.
+
+### 2. [past-research-discovery-prompt.md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-discovery/past-research-discovery-prompt.md)
 - **Purpose**: Facilitates exploration of research findings and insights within the repository.
 - **Key Features**: 
   - Guides users in identifying key outcomes and challenges from past studies. 
@@ -16,7 +25,7 @@ Prompts to help explore past research and inform new research planning.
   - Provides hyperlinks to relevant materials.
 - **Usage**:  Customize the prompt with specific topics or products to navigate the repository effectively.
 
-### 2. [past-research-analysis-for-new-research-plan-prompt.md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-discovery/past-research-analysis-for-new-research-plan-prompt.md)
+### 3. [past-research-analysis-for-new-research-plan-prompt.md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-discovery/past-research-analysis-for-new-research-plan-prompt.md)
 - **Purpose**: Leverages past research findings to inform new research plans. 
 - **Key Features**: 
   - Links to relevant studies and extracts insights.
@@ -30,7 +39,7 @@ Prompts to help explore past research and inform new research planning.
 
 Prompts to evaluate and strengthen research plans and conversation guides before conducting studies.
 
-### 3. [research-plan-analysis-prompt.md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-review/research-plan-analysis-prompt.md)
+### 4. [research-plan-analysis-prompt.md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-review/research-plan-analysis-prompt.md)
 - **Purpose**: Analyzes completed research plans for strengths, risks, and alignment with goals.
 - **Key Features**: 
   - Breaks down each section of the research plan for detailed analysis.
@@ -38,7 +47,7 @@ Prompts to evaluate and strengthen research plans and conversation guides before
   - Ensures alignment with past research and OCTO priorities.
 - **Usage**: Use the structured template to critically evaluate and refine research plans. 
 
-### 4. [conversation-guide-analysis-prompt.md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-review/conversation-guide-analysis-prompt.md)
+### 5. [conversation-guide-analysis-prompt.md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-review/conversation-guide-analysis-prompt.md)
 - **Purpose**: Helps evaluate whether a conversation guide aligns with research plan goals and hypotheses.
 - **Key Features**:
   - Assesses strengths, gaps, and opportunities within the guide.
@@ -52,7 +61,7 @@ Prompts to evaluate and strengthen research plans and conversation guides before
 
 Prompts to process and disseminate research findings after completing studies.
 
-### 5. [add-metadata-labels-to-findings-prompt.md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md)
+### 6. [add-metadata-labels-to-findings-prompt.md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md)
 - **Purpose**: Helps researchers apply standardized OCTO metadata labels to Key Findings in structured YAML format. 
 - **Key Features**:
   - Enables automated pattern detection and aggregation across studies.
@@ -61,7 +70,7 @@ Prompts to process and disseminate research findings after completing studies.
   - Includes validation for label values and syntax. 
 - **Usage**: Use after finalizing your research findings.  Attach your findings report and the metadata taxonomy file, then paste the prompt to generate labeled YAML blocks for each Key Finding.
 
-### 6. [create-issues-from-research-findings-prompt. md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/create-issues-from-research-findings-prompt.md)
+### 7. [create-issues-from-research-findings-prompt. md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/create-issues-from-research-findings-prompt.md)
 - **Purpose**: Converts research recommendations and next steps into actionable GitHub issues with proper structure and traceability. 
 - **Key Features**:
   - Automates issue creation through GitHub Copilot's workbench (Claude models only).
@@ -71,7 +80,7 @@ Prompts to process and disseminate research findings after completing studies.
   - Includes comprehensive troubleshooting guidance.
 - **Usage**: Use Claude Sonnet/Haiku/Opus models in GitHub Copilot.  Attach your research findings document and copy the prompt. Review each draft issue in the workbench before creating. 
 
-### 7. [research-short-story-prompt.md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-short-story-prompt.md)
+### 8. [research-short-story-prompt.md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-short-story-prompt.md)
 - **Purpose**: Summarizes research reports into concise, markdown-formatted narratives (maximum 400 words).
 - **Key Features**: 
   - Maintains structured layout with specific headers (Title, Byline, tl;dr, What we did, Key insights, etc.).
@@ -86,7 +95,7 @@ Prompts to process and disseminate research findings after completing studies.
 
 These prompts support the complete research lifecycle:
 
-1. **Discovery Phase** → Use `past-research-discovery-prompt. md` and `past-research-analysis-for-new-research-plan-prompt.md`
+1. **Discovery Phase** → Use `using-deep-research.md` for comprehensive analysis, `past-research-discovery-prompt.md` and `past-research-analysis-for-new-research-plan-prompt.md` for guided discovery
 2. **Planning Phase** → Use `research-plan-analysis-prompt.md` and `conversation-guide-analysis-prompt.md`
 3. **Reporting Phase** → Use `add-metadata-labels-to-findings-prompt.md`, `create-issues-from-research-findings-prompt.md`, and `research-short-story-prompt.md`
 

@@ -261,7 +261,67 @@ If you cannot find research, say: "I searched but did not find research studies 
 
 ## Deep Research Analysis for Research Findings
 
+> 📘 **New to deep research?** See the [Deep Research User Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/using-deep-research.md) for:
+> - When to use deep research vs. summary files
+> - How to manually trigger deep research if Copilot doesn't offer it
+> - Output quality comparison (code search vs. deep research)
+> - Common use cases with examples
+
 The summary files (`.github/copilot-summaries/*.md`) provide **metadata** about research studies (who, when, methodology). For questions that require **analyzing actual research content and findings**, use the **deep research agent**.
+
+### 🚨 CRITICAL: When to Trigger Deep Research
+
+**For the following query patterns, you MUST use the deep research agent:**
+
+| If the user asks... | Trigger deep research | Example |
+|---------------------|----------------------|---------|
+| "What **pain points** did we discover..." | ✅ YES | "What pain points did we discover in disability claims research?" |
+| "What **themes** appear across..." | ✅ YES | "What themes appear across health tools research?" |
+| "What do we **know about** [topic]..." | ✅ YES | "What do we know about evidence submission?" |
+| "**Summarize** research on..." | ✅ YES | "Summarize all profile research from 2023-2024" |
+| "How did research **influence**..." | ✅ YES | "How did research influence the dashboard design?" |
+| "What **findings** emerged from..." | ✅ YES | "What findings emerged from Ask VA studies?" |
+| "What research exists for [product]?" | ❌ NO (use summaries) | "What research exists for Ask VA?" |
+| "How many studies has [team] done?" | ❌ NO (use summaries) | "How many studies has the Identity team done?" |
+
+**Keywords that should trigger deep research:**
+- "pain points"
+- "themes"
+- "findings"
+- "what do we know"
+- "summarize"
+- "insights"
+- "quotes"
+- "what did we learn"
+- "synthesis"
+
+### Why Deep Research Matters
+
+**Code search output (inadequate):**
+```
+Pain points discovered:
+- Evidence submission confusion
+- Unclear claim status
+- Complex forms
+[...flat list, no context]
+```
+
+**Deep research output (comprehensive):**
+```
+Top 5 Pain Points from Analysis of 17 Studies (2022-2025):
+
+1. Inadequate Claim Status Information (mentioned in 8 studies)
+   - "I don't really feel like anything's happening..." (P16, CST Initial Decisions 2023)
+   - Addressed: Yes - Claim Contextualization (2024) added timelines
+   
+2. Evidence Gathering Confusion (mentioned in 9 studies)
+   - "If these folks are going to file on their own, they need details..." (P5, Decision Reviews 2023)
+   - Addressed: Partially - Claim Evidence (2024) tested new guidance
+   
+[...synthesis with quotes, implementation status, cross-study patterns]
+```
+
+**The difference:** Deep research reads actual findings files, extracts quotes, counts patterns across studies, and tracks implementation.
 
 ### Decision Matrix: When to Use What
 
@@ -275,35 +335,83 @@ The summary files (`.github/copilot-summaries/*.md`) provide **metadata** about 
 | "How did research influence design decisions?" | **Deep research** | Tracing impact through documents |
 | "What do we know about [topic] from research?" | **Deep research** | Landscape analysis |
 
+### Quick Decision Tree
+
+```
+User asks research question
+  ↓
+Does query ask about CONTENT of research?
+(pain points, themes, findings, quotes, insights)
+  ↓ YES                              ↓ NO (asks about METADATA)
+  ↓                                   ↓
+Trigger deep research agent           Does query ask WHO/WHEN/HOW MANY?
+Tell user: "This will take             (which team, how many studies, when was research)
+2-3 minutes"                           ↓ YES
+  ↓                                   ↓
+Return synthesis with                  Use summary files
+quotes and citations                   Return quick answer in <5 seconds
+```
+
 ### When to Use Deep Research
 
 Trigger the deep research agent for these query types:
 
 #### 1. Pain Point Analysis
 
-**User asks:**
-- "What pain points did we discover in [product] research?"
-- "What are the top usability issues in [area]?"
-- "What frustrations do Veterans report about [feature]?"
+**TRIGGER PHRASES (use deep research when query contains these):**
+- "What pain points did we discover..."
+- "What are the top usability issues..."
+- "What frustrations do Veterans report..."
+- "What problems were identified..."
+- "What issues came up in research..."
 
-**Trigger deep research with:**
+**Example user query:**
 ```
-Analyze all research findings in products/[product-name]/ and identify:
+What pain points did we discover in disability claims research?
+```
+
+**You MUST respond with:**
+```
+I'll use deep research to analyze findings across disability claims research studies.
+This will take 2-3 minutes to read the research files and synthesize themes.
+
+[Then trigger deep research agent]
+```
+
+**Deep research query to use:**
+```
+Analyze all research findings in products/disability/ and products/claim-appeal-status/
+from 2022-2025 and identify:
 1. Top 5 most frequently mentioned pain points
-2. Supporting quotes from Veterans
-3. Which studies identified each pain point (with links)
-4. Severity/frequency indicators from the research
-5. Whether pain points were addressed in subsequent work
+2. How many studies mentioned each pain point
+3. Participant quotes supporting each pain point
+4. Which pain points were addressed in subsequent work
+5. Links to source research findings files
 ```
 
 #### 2. Thematic Analysis
 
-**User asks:**
-- "What themes appear across [product area] research?"
-- "What usability patterns emerge in health tools studies?"
-- "What accessibility issues are reported most frequently?"
+**TRIGGER PHRASES (use deep research when query contains these):**
+- "What themes appear across..."
+- "What usability patterns emerge..."
+- "What accessibility issues are reported..."
+- "What trends do we see in..."
+- "What patterns exist across studies..."
 
-**Trigger deep research with:**
+**Example user query:**
+```
+What themes appear across health tools research?
+```
+
+**You MUST respond with:**
+```
+I'll use deep research to identify themes across health tools research studies.
+This will take 2-3 minutes to read the research files and synthesize patterns.
+
+[Then trigger deep research agent]
+```
+
+**Deep research query to use:**
 ```
 Search all research in products/[area]/ and teams/[team]/ for studies from [timeframe].
 Extract and synthesize:
@@ -316,12 +424,27 @@ Extract and synthesize:
 
 #### 3. Journey Mapping
 
-**User asks:**
-- "What do we know about the Veteran journey for [task]?"
-- "What pain points exist across the [process] experience?"
-- "Map the touchpoints in the [feature] user flow"
+**TRIGGER PHRASES (use deep research when query contains these):**
+- "What do we know about the Veteran journey for..."
+- "What pain points exist across the [process] experience..."
+- "Map the touchpoints in..."
+- "What is the user experience for..."
+- "Walk me through the research on..."
 
-**Trigger deep research with:**
+**Example user query:**
+```
+What do we know about the Veteran journey for filing a disability claim?
+```
+
+**You MUST respond with:**
+```
+I'll use deep research to map the Veteran journey for filing a disability claim
+based on research findings. This will take 2-3 minutes.
+
+[Then trigger deep research agent]
+```
+
+**Deep research query to use:**
 ```
 Search all research in products/ and teams/ for studies involving [task/process].
 Extract:
@@ -335,12 +458,27 @@ Extract:
 
 #### 4. Research Impact Tracing
 
-**User asks:**
-- "How did [year] research influence current design?"
-- "What recommendations from research were implemented?"
-- "Show me the path from research finding to product feature"
+**TRIGGER PHRASES (use deep research when query contains these):**
+- "How did research influence..."
+- "What recommendations were implemented..."
+- "Show me the path from research to..."
+- "What impact did research have on..."
+- "Were research recommendations followed..."
 
-**Trigger deep research with:**
+**Example user query:**
+```
+How did 2023 profile research influence the current design?
+```
+
+**You MUST respond with:**
+```
+I'll use deep research to trace the impact of 2023 profile research on current
+design decisions. This will take 2-3 minutes.
+
+[Then trigger deep research agent]
+```
+
+**Deep research query to use:**
 ```
 Trace the impact of research from [timeframe]:
 1. Read research findings from [product/team path]
@@ -352,12 +490,27 @@ Trace the impact of research from [timeframe]:
 
 #### 5. Pre-Research Discovery
 
-**User asks:**
-- "What existing research should I review before planning a [topic] study?"
-- "What do we already know about [feature/problem]?"
-- "Summarize prior research on [topic]"
+**TRIGGER PHRASES (use deep research when query contains these):**
+- "What existing research should I review before..."
+- "What do we already know about..."
+- "Summarize prior research on..."
+- "What research should I read before..."
+- "What has been studied about..."
 
-**Trigger deep research with:**
+**Example user query:**
+```
+What existing research should I review before planning a notifications study?
+```
+
+**You MUST respond with:**
+```
+I'll use deep research to find and summarize all research related to notifications.
+This will take 2-3 minutes to analyze the relevant studies.
+
+[Then trigger deep research agent]
+```
+
+**Deep research query to use:**
 ```
 Find all research related to [topic]:
 1. Search products/ and teams/ directories for relevant studies
@@ -370,12 +523,27 @@ Find all research related to [topic]:
 
 #### 6. Cross-Product Synthesis
 
-**User asks:**
-- "What do we know about [feature] across all products?"
-- "How do different teams approach [problem]?"
-- "Compare research findings for [topic] across portfolios"
+**TRIGGER PHRASES (use deep research when query contains these):**
+- "What do we know about [feature] across all products..."
+- "How do different teams approach..."
+- "Compare research findings for..."
+- "What insights exist across..."
+- "What have multiple teams learned about..."
 
-**Trigger deep research with:**
+**Example user query:**
+```
+Compare research findings for authentication across all products.
+```
+
+**You MUST respond with:**
+```
+I'll use deep research to compare authentication research across products.
+This will take 2-3 minutes to analyze findings from multiple teams.
+
+[Then trigger deep research agent]
+```
+
+**Deep research query to use:**
 ```
 Search across products/[product-1]/, products/[product-2]/, etc. for research on [topic].
 Synthesize:
@@ -389,12 +557,28 @@ Synthesize:
 
 #### 7. Stakeholder Briefings
 
-**User asks:**
-- "Summarize all research on [product] for a stakeholder presentation"
-- "What are the key insights from [timeframe] research?"
-- "Give me an executive summary of [product area] research"
+**TRIGGER PHRASES (use deep research when query contains these):**
+- "Summarize all research on..."
+- "What are the key insights from..."
+- "Give me an executive summary of..."
+- "Prepare a research briefing on..."
+- "What should stakeholders know about..."
 
-**Trigger deep research with:**
+**Example user query:**
+```
+Summarize all research on the authenticated experience from 2023-2024 for a
+stakeholder presentation.
+```
+
+**You MUST respond with:**
+```
+I'll use deep research to create a comprehensive briefing on authenticated experience
+research from 2023-2024. This will take 2-3 minutes.
+
+[Then trigger deep research agent]
+```
+
+**Deep research query to use:**
 ```
 Analyze all research in [product path] from [timeframe]:
 1. Executive summary (2-3 paragraphs)
