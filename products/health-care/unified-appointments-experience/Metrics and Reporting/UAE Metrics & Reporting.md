@@ -14,6 +14,7 @@ This page is the central reference for all reporting and analytics resources use
   - [Monthly IVC Demo Presentations (PowerPoint)](#monthly-ivc-demo-presentations)
   - [Google Analytics](#google-analytics)
   - [DataDog](#datadog)
+  - [Corporate Data Warehouse (CDW)](#cdw)
 - [Access & Permissions](#access--permissions)
 - [Glossary](#glossary)
 
@@ -128,7 +129,15 @@ The visualizations used in the metrics portions are generated in Power BI in the
 - Product teams/engineers are mostly responsible for updating logging and metrics in the codebase. Tyler Spangler can help add visualizations or understand metrics.
 
 ---
+### CDW
 
+**What it is:** Data warehouse with different environments. This is used to pull various appointment related data.
+
+Most of the data in this warehouse is available through Power BI models managed by VSSC. SQL Queries can be used to pull appointments made/cancelled if the reports are down or not refreshing. Additionally, different filters can be included to verify information or different consults. 
+
+**Links**:
+- [CDW Factbooks](https://vaww.virec.research.va.gov/CDW/Documentation.htm#Factbooks) - these details the various tables/schemas that can be used to pull data from the database
+- [SQL Queries](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/unified-appointments-experience/Metrics%20and%20Reporting) - queries that are used to pull UAE information mainly surrounding appointments and text messages
 
 ## Access & Permissions
 
