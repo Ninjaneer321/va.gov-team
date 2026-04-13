@@ -49,6 +49,7 @@ Approach
 
 **2) CHAMPVA application pages - new**
 - URL: va.gov/track-claims/your-claims/[UUID number]/
+  The UUID (Universally Unique Identifier) has also been denoted in the past as "[unique-record-ID-no-PII]"
 - H1: Application for CHAMPVA benefits
 - Breadcrumb: VA.gov home > Check your claims and appeals > Application for CHAMPVA benefits
 - Browser title: Application For CHAMPVA Benefits | Veterans Affairs
