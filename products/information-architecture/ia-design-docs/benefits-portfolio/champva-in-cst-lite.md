@@ -13,14 +13,21 @@
 - [Figma](https://www.figma.com/design/OpAuMgHwnh6BNkKpW3FyqF/CHAMPVA-in-Status-Tool?node-id=508-6955)
 
 **On this page:**
+- [Navigation/page flows](#flows)
 - [Page structure](#map)
 - [URLs and breadcrumbs](#url)
 - [Entry points](#nav)
 - [Launch coordination activities](#launch)
 
+## <a name="flows"></a>Navigation/page flows <br>
+*Illustration and/or description of how users will navigate to and flow through the experience for all impacted visitors typies. This helps identify key entry points and findability requirements, user flow scenarios, and content/messaging needs across various scenarios.*
+
+<img width="993" height="905" alt="champva-in-cst-page-flow" src="https://github.com/user-attachments/assets/50f71046-d985-473d-a9a8-61dbbe110cbd" />
+
+
 ## <a name="map"></a>Page structure<br>
 
-
+<img width="871" height="1214" alt="image" src="https://github.com/user-attachments/assets/235961ec-ea99-4ac3-b00b-8e6f1b5af03e" />
 
 
 ## <a name="url"></a>Page URLs and breadcrumbs
@@ -36,8 +43,8 @@ Approach
 
 **1) CST landing page - existing**
 - URL: va.gov/track-claims/your-claims/
-- H1: Your VA benefits claims and applications (REVISED, PENDING FINAL COPY)
-- Breadcrumb (desktop): VA.gov home > Your VA benefits claims and applications (REVISED, should match final H1 copy)
+- H1: Your VA benefits claims and applications (revised, content designers will decide final copy)
+- Breadcrumb (desktop): VA.gov home > Your VA benefits claims and applications (revised, should match final H1 copy decided by content designers)
 - Browser title: [H1 in initial case] | Veterans Affairs
 
 **2) CHAMPVA application pages - new**
@@ -46,13 +53,13 @@ Approach
 - Breadcrumb: VA.gov home > Check your claims and appeals > Application for CHAMPVA benefits
 - Browser title: Application For CHAMPVA Benefits | Veterans Affairs
 
-  URL and breadcrumb should remain the same regardless of the tab selected (Status, Files, Overview).
+URL and breadcrumb should remain the same regardless of the tab selected (Status, Files, Overview). Acknowledging that this is different from the existing parallel claim pages; there is a [backlog item to address imposter tabs #128391](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128391).
   
 
 **Structuring URLs for individual screens within the flows**
-- Tabular information should not change the URL or breadcrumbs
+- Tabular information should not change the URL or breadcrumbs, as stated above
 - For evidence requests (called "information requests" when related to CHAMPVA), use the UUID: for example, va.gov/track-claims/your-claims/[UUID number]/needed-from-you/[UUID number for type of evidence]/
-- Noting that there are two known empty subdirectories: /track-claims/ and /needed-from-you/. Recommend following this pattern until these issues can be fixed.
+- Noting that there are two known empty subdirectories: /track-claims/ and /needed-from-you/. Recommend following this pattern until these issues can be fixed
 - Also noting that there is a known issue of not being able to get back to /claim-or-appeal-status/ post authentication
 
 ## <a name="nav"></a>Entry points <br>
@@ -63,16 +70,8 @@ Teams must launch with at least one entry point that allows site visitors to nav
 
 ### Required entry point(s)
 
-1. **xxx**
-  - Entry page URL: va.gov/xxx
-  - Placement description: xxx
-  - Link details
-    - Link label: TBD by content
-    - Link destination: va.gov/xxx
-  - Notes:
-    - Who will update: Content will add the link
-    - When will this entry point go live: at launch
-    - **Note: If the form will be released incrementally (aka not at 100%) or if the launch plan includes taking the form down temporarily after launch to check submission quality, a widget will be required. This requires coordination between the product engineer to create the widget and content to provide text for the widget. This can take some time. Please plan for at least 2 weeks ahead of staging review.** 
+Existing Claims Status Tool (CST) entry point:
+  - Entry page URL: va.gov/track-claims/your-claims
 
 ### Additional key entry points
 None at this point
