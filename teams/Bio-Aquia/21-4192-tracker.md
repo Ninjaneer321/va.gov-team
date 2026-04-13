@@ -4,9 +4,9 @@
 |--------|-------|-------|
 | Expected annual submissions | 45,592 | |
 | Canary target | 456 | 1% of expected |
-| Total submissions | 567 | 124% of canary expected |
+| Total submissions | 585 | 128% of canary expected |
 | Number of Incomplete/Errors | 63 | |
-| Error % | 11% | |
+| Error % | 10.77% | |
 
 A regression bug was introduced on 3/31, resolved on 4/1 that resulted in 24 422 errors. 0% eror rate after PR reverted.
 ## Submission Data
