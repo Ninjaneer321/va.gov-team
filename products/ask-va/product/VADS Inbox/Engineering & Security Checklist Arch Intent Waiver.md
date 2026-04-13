@@ -234,7 +234,7 @@ If you answered yes to any of the Authenticated Experience Team Questions, pleas
 | **Sequence Diagram** | Include all authentication steps for authenticated experiences | [Sequence Diagram](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/platform/engineering/collaboration-cycle/architecture-intent/diagrams/ask-va/extras/sequence-diagrams.md)
 | **Data Flow Diagram** | Document: data collection points, storage locations and encryption, transfer methods and encryption, access permissions (read/read-write), audit trail | [Data Flow](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/platform/engineering/collaboration-cycle/architecture-intent/diagrams/ask-va)
 | **API Documentation** | Swagger/OpenAPI spec with new endpoints explicitly identified | [API docs](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ask-va/integration/ask_va_api/v0)
-| **Release Plan** | "Planning" sections completed for Phase I, Phase II, and Go Live |
-| **Product Outline** | Link to product outline document |
+| **Release Plan** | "Planning" sections completed for Phase I, Phase II, and Go Live | |
+| **Product Outline** | Link to product outline document | [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/product/Product%20outline.md) |
 
 ---
