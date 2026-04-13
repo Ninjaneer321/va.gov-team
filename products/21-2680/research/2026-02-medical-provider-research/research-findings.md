@@ -128,6 +128,18 @@ synthesis_tools_used:
 - [Research participants](#user-content-research-participants)
 
 ## Research Goals
+1. Understand how veterans, dependents, and caregivers experience the claimant side of Form 21-2680.
+
+2. Understand how veterans, dependents, and caregivers navigate getting their provider to complete the provider section, including challenges and facilitators in the handoff process.
+
+3. Understand the usability of Form 21-2680 as it exists in its digital form.
+
+4. Discover how veterans, dependents, and caregivers currently interact with their providers and what pain points exist.
+
+5. Usability test how well people understand the new digital handoff between claimant and provider.
+
+### How this research fits into the Veteran's journey
+
 *Provide context for this research by explaining how it fits into the Veteran’s journey.*  
 [See the Veteran journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)  
 
