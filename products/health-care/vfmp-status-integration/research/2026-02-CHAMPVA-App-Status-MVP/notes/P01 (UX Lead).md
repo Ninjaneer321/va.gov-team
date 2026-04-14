@@ -8,7 +8,7 @@ Participant type
 - [X] Veteran
 - [ ] Family member
 
-Notetaker: [John Riggin]
+Notetaker: John Riggin
 
 -----
 ### Introduction
