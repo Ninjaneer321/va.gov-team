@@ -798,7 +798,7 @@ This research does not include the perspectives of the following marginalized Ve
 
 #### A more accessible version of the table in the above image
 
-➡️ *| Demographic | Category | Target % | Target # | # in Study | Target Achieved? | p1 | p2 | p4 | p5 | p6 | p7 | p9 | p12 | p13 | p14 | p15 |
+| Demographic | Category | Target % | Target # | # in Study | Target Achieved? | p1 | p2 | p4 | p5 | p6 | p7 | p9 | p12 | p13 | p14 | p15 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | All participants | Total | n/a | n/a | 10 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
 | Assistive Tech (AT) users | Total | n/a | n/a | 0 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
@@ -813,4 +813,3 @@ This research does not include the perspectives of the following marginalized Ve
 | Women | General | 10% | 1 | 4 | yes | 1 | 0 | 0 | 0 | 1 | 0 | 1 | 1 | N | 0 | 0 |
 | Expat (living abroad) | General | 0.4% | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Black or African American | Race | 15% | 2 | 3 | yes | 0 | 0
-*  
