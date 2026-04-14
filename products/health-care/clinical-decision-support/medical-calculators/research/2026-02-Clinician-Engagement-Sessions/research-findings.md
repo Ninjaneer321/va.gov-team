@@ -66,7 +66,7 @@ demographics:
 key_findings:
   - "finding 1"
   - "finding 2"
- kpi_alignment: []
+kpi_alignment: []
 outcomes:
   user: "Make Medical Calculators easy to access and use within workflows"
   business: "Improved clinician efficiency and accuracy when using medical calculators"
