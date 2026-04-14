@@ -351,9 +351,9 @@ Primary role:
   * MSA: 0
   * Nurse Practitioner: 0
   * Nursing (RN, LPN): 1
-  * Pharmacist: 1
-  * Physician: 4
-  * Physician Assistant: 0
+  * Pharmacist: 2
+  * Physician: 7
+  * Physician Assistant: 1
   * Resident, Intern, or Fellow: 0
   * Other: 0
 
@@ -369,18 +369,18 @@ Specialty:
   * Mental Health: 0
   * Nephrology: 0
   * Neurology: 0
-  * Oncology: 0
+  * Oncology: 1
   * Pain Management: 0
   * Palliative Medicine: 0
-  * Pharmacy: 0
+  * Pharmacy: 2
   * Primary Care: 4
   * Pulmonology: 1
-  * Surgery: 1
+  * Surgery: 2
   * Other: 1
 
 Care setting:
-  * Outpatient: 10
-  * Inpatient: 1
+  * Outpatient: 9
+  * Inpatient: 2
   * Emergency Department: 0
   * Other: 0
 
