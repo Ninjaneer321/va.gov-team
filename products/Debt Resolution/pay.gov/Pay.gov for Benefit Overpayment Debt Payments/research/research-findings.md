@@ -117,7 +117,7 @@ synthesis_tools_used:
 
 # **Pay.gov for Benefit Overpayment Debt Payments Research Findings**
 
-Office of the CTO \- Digital Experience (OCTO-DE), Product Name, Team Name
+Office of the CTO \- Digital Experience (OCTO-DE), Pay.gov Hosted Collection Pages, Financial Management Team
 
 Date: 04/02/2026
 
