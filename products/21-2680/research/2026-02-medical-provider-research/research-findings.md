@@ -396,8 +396,7 @@ Only one participant realised the error before submitting the form.
 ## Next Steps
 
 - [ ] Socialize with BIO leadership and Compensation and Pension SMEs
-- [ ] Address immediately actionable issues (see below)
-  - [ ] _tickets_
+- [ ] Address immediately actionable issues ([actionable issues epic on Github](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138122))
 - [ ] Document medium and long term issues
 
 ## Further research needed
@@ -411,7 +410,6 @@ Most of all, we want to research medical providers to understand how the other s
 ### Research documents
 - [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/21-2680/research/2026-02-medical-provider-research/research-plan.md)
 - [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/21-2680/research/2026-02-medical-provider-research/conversation-guide.md)
-- [Interview transcripts](link here)
   
 ### Pages and applications used
 
