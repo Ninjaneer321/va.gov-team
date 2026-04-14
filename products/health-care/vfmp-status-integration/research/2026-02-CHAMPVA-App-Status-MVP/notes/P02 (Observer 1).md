@@ -8,7 +8,7 @@ Participant type
 - [x] Veteran
 - [ ] Family member
 
-Notetaker: [Insert Name Here]
+Notetaker: Kaitlyn Hunt
 
 -----
 ### Introduction
@@ -19,7 +19,7 @@ Notetaker: [Insert Name Here]
 ### Warm-up Questions
 
 VA.gov account?
-Yes; login 3-4 times a month. Sometimes for medication refill, PCP communication.
+Yes; logs in 3-4 times a month. Sometimes for medication refill, PCP communication.
 
 Applied for CHAMPVA?
 Just applied last week. 
