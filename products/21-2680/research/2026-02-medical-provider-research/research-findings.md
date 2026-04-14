@@ -17,6 +17,7 @@ methodology:
   - "Moderated semi-structured interviews"
   - "Form walkthrough usability testing"
   - "Remote testing via Zoom"
+  - "Screen sharing with participant-driven navigation"
 devices_used:
     desktop: 15
     tablet: 0
@@ -57,75 +58,73 @@ demographics:
     asian: 1
     native: 0
   disability:
-    cognitive: 0
+    cognitive: 1
     AT_beginner: 0
     AT_advanced: 0
     screen_reader_desktop: 0
     screen_reader_mobile: 0
     magnification_zoom: 0
     speech_input: 0
-    hearing_aids: 0
+    hearing_aids: 1
     sighted_keyboard: 0
-    captions: 0
+    captions: 1
 key_findings:
   - |
-    Most participants who were filling out 21-2680 for someone else (e.g., a parent they give care to) did not correctly choose the "claimant" for the form. Only one participant realized the error before submitting the form. Supporting quotes:
-    - "Claimants information. My relationship to the Veteran. If I was applying for my dad I'd be a Veteran's child. If I was applying for myself I'd be a Veteran."
-    - "At first I was going to say Veteran. But then I would look at it as myself if I was filing this out. I'm the claimant. I looked and I thought I could put Veteran but I got confused if its looking at it as myself if I was filing that out for my dad."
-    - "That's the person that's making the file. That's, you know, that's putting in the information. Because if I'm filling that for myself, then I will be the veteran, but if I'm filling it out for my dad..."
-  - "Most participants struggled to understand the difference between Special Monthly Compensation and Special Monthly Pension, the two benefits described by this form, and found it difficult to make a selection"
-  - "Most participants had one or more issues understanding the two-step process involved in the current implementation of the \"online\" version of 2680, which requires a manual handoff to a medical provider"
-  - "Some participants struggled to begin the application process, either because they didn't see how to begin or were confused as to whether this benefit would apply to them"
-  - "Most participants were confused by the order of the instructions on the confirmation page, or were looking for more clarity"
-  - "Almost all participants struggled with the definition of the term \"hospital care\""
+    Most participants who were filling out 21-2680 for someone else (e.g., a parent they give care to) did not correctly choose the "claimant" for the form. Only one participant realized the error before submitting. Participant interpretations of "claimant" included: "Claimants information. My relationship to the Veteran. If I was applying for my dad I'd be a Veteran's child. If I was applying for myself I'd be a Veteran." Many confused "claimant" to mean "person filling out the form" rather than "person in need of care."
   - |
-    In some ways, the PDF was easier to use or understand because everything is exposed at once. Supporting quote:
-    - "It almost helps to see the [paper] form. It answers a lot more questions than before I saw the [paper] form."
+    Most participants struggled to understand the difference between Special Monthly Compensation and Special Monthly Pension, the two benefits described by this form, and found it difficult to make a decision about which benefit applied to them. Some figured it out by process of elimination if they did not receive pension already.
   - |
-    A core issue determining participants' experience is the their relationship with their medical provider. Participants with positive provider relationships felt this benefit would be accessible to them. Participants who had negative provider relationships felt a high burden in the provider handoff. Participants who were confident their provider could fill this out based on medical records have a much lower burden than those who need to go into the office for an exam. Supporting quote:
-    - "I feel like it would be easier to send my 2,000-plus medical record to an outside doctor, and have them fill this out and upload it, than it would be for me to have my VA doctor do it, and that's [...]"
+    Most participants had one or more issues understanding the two-step process involved in the current implementation of the "online" version of 2680, which requires a manual handoff to a medical provider. Despite existing instructions, several participants struggled to understand what they needed to do specifically or how they might get the form to a doctor.
   - |
-    Supporting quote: "If they are giving benefits for people that are housebound and can't get out [of the house] but to get the benefits you have to get out [of the house]. Let me tell you, brother, it's no picnic."
+    Some participants struggled to begin the application process, either because they didn't see how to begin or were confused as to whether this benefit would apply to them. Some saw the Intro page as instructions but not necessarily the "starting point" for the form.
+  - |
+    Almost all participants struggled with the definition of the term "hospital care." The term meant different things to participants, including being hospitalized, receiving medication, outpatient care, and receiving care at home.
+  - |
+    Most participants thought it would be easier if the entire form was digitized, rather than just the claimant half. They didn't necessarily know how they might get the form to a doctor or gave feedback that printing might be a challenge, especially given wet signature requirements.
+  - |
+    In some ways, the PDF was easier to use or understand because everything is exposed at once. Participants had "aha" moments of clarity when they viewed the full PDF version, which helped them understand the overall process better.
+  - |
+    A core issue determining participants' experience is their relationship with their medical provider. Participants with positive provider relationships felt this benefit would be accessible to them. Participants who had negative provider relationships or needed to schedule an office visit for an exam felt a high burden in the provider handoff.
 recommendations:
   - |
     Improve the wayfinding instructions on the Intro page:
     1. Guide users that this is the correct place to start the form
-       - Actions: Decide and implement a standard between "form" and "application"; Add language that clarifies this is the place to begin the form; Remove or change the placement of the Step 5 "upload" call action from intro and submission page
+       - Actions: Decide and implement a standard between "form" and "application"; Add language that clarifies this is the place to begin the form; Remove or change the placement of the Step 5 "upload" call to action from intro and submission page
        - Rationale: Some participants saw the Intro page as instructions, but not necessarily the "starting point" for the form, and didn't know what to do next. Some were confused that first call to action in the instructions is actually a link to upload the completed form.
     2. Offer the PDF as an up-front alternative
        - Actions: Add a link to the PDF form on the Intro Page as an optional alternative to the online process, so users have it up front.
-       - Rationale: Several users remarked that based on their situations, printing out the form from the very beginning may have been easier for them, since there was a handoff at the end of the process anyway. We observed some participants seemed to have a better understanding of the process when they could see the "whole picture" up front while looking at the PDF
+       - Rationale: Several users remarked that based on their situations, printing out the form from the very beginning may have been easier for them, since there was a handoff at the end of the process anyway.
     3. Clarify and highlight the two part process
        - Actions: Update Step 4 and 5 of the existing instructions for clarity; Add additional content to the top of the instructions page, potentially using "Alert" styling, that explicitly states this is a two part form
-       - Rationale: It wasn't clear to some participants that this is a two-step process that would eventually involve a third party before they began the form
+       - Rationale: It wasn't clear to some participants that this is a two-step process that would eventually involve a third party before they began the form.
     4. Help users better understand this benefit before applying
        - Actions: Add clarifying language to the Intro Page explaining who exactly receives the benefit and why; Possibly add a section to the Intro Page comparing this benefit to similar benefits the user might already be receiving or may have heard of
-       - Rationale: Several participants wondered whether SMC was funding for a professional, or support funding for a family member giving care. They wondered if the funds would be going to them or the third party. Several participants wondered if they already had some version of this benefit, and even reported already having a home health aid.
+       - Rationale: Several participants wondered whether SMC was funding for a professional, or support funding for a family member giving care. They wondered if the funds would be going to them or the third party.
   - |
     Improve the instructions and calls to action on the Confirmation page:
     1. Add detail to the instructions and clarify what users might do next
-       - Actions: Add explicit options for how a user might get a form to their doctor, while not explicitly recommending anything. For instance, download the PDF and take it your next appointment, or send a [...]
+       - Actions: Add explicit options for how a user might get a form to their doctor, while not explicitly recommending anything. For instance, "download the PDF and take it your next appointment," or "send a PDF to your doctor's office"
        - Rationale: Despite the existing instructions, several participants struggled to understand what they needed to do specifically. They didn't necessarily know how they might get this form to a doctor.
     2. "Preview" the medical provider portion of the form
-       - Actions: Add a plain language explanation to the page that not only tells the user that a doctor's input is required, but what sorts of information they will be filling out. For example, [Claimant]'s [...]
-       - Rationale: Some participants were concerned that they hadn't yet provided any health information about themselves by the time they got to the end of the form. Some participants were not clear that they would need to get this form to a medical provider to completely finish their application. We hypothesize that previewing the what's next helps folks know these questions will get answered and also reveals there's more to the form, if they haven't noticed already
+       - Actions: Add a plain language explanation to the page that not only tells the user that a doctor's input is required, but what sorts of information they will be filling out. For example, "[Claimant]'s medical provider will need to provide information about [Claimant]'s current medical condition."
+       - Rationale: Some participants were concerned that they hadn't yet provided any health information about themselves by the time they got to the end of the form. Some participants were not clear that they would need to get this form to a medical provider to completely finish their application.
     3. Move "Download for your records" component
        - Actions: Move the "Download for your records" component further down the page, after the "What to do next" instructions, and potentially adjust the language.
-       - Rationale: The current position of this component confused some users, as it doesn't actually download the PDF, and is separate from the workflow they actually need to do to complete the process with a medical provider
+       - Rationale: The current position of this component confused some users, as it doesn't actually download the PDF, and is separate from the workflow they actually need to do to complete the process with a medical provider.
   - |
     Revise language and content throughout for clarity and to support easier decisions:
     1. Further clarify SMC vs SMP by more granular groupings
-       - Actions: Further clarify SMC vs SMP by more granular groupings of the bullet points; Rewrite in general
-       - Rationale: A majority of participants struggled to understand the difference between the two benefits, and which they should select. Some people figured it out by process of elimination if they did not receive [...]
+       - Actions: Further clarify SMC vs SMP by more granular groupings of the bullet points; Rewrite in general language
+       - Rationale: A majority of participants struggled to understand the difference between the two benefits, and which they should select. Some people figured it out by process of elimination if they did not receive pension already.
     2. Add hint text to clarify who is considered the claimant
-       - Actions: People interpret 'claimant' to mean 'person who is filling out the form', rather than 'person in need of the care'. We suggest modifying the question and adding clarifying hint text to [...]
+       - Actions: People interpret 'claimant' to mean 'person who is filling out the form', rather than 'person in need of the care'. We suggest modifying the question and adding clarifying hint text to address this confusion.
        - Rationale: A majority of participants who were filling out 21-2680 for someone else (e.g., a parent they give care to) answered this question incorrectly, rendering the rest of the application invalid. Only one participant realized the error before submitting the form.
     3. Add claimant name variable for SMC/SMP choice
-       - Actions: Change language from second person pronouns ("which benefit are you applying for") to third person, with the claimant's name ("which benefit is [NAME] applying for")
+       - Actions: Change language from second person pronouns ("which benefit are you applying for") to third person, with the claimant's name ("which benefit is [NAME] applying for?")
        - Rationale: Because many people are helping someone fill out this form or have POA and are filling it out on behalf of someone, there's confusion when using second person pronouns. This alleviates the confusion.
     4. Change "hospital care" to a term that is more clear
        - Actions: Change the phrase "hospital care" to either a) "in the hospital" or b) return to using "hospitalization."
-       - Rationale: "Hospital care," as recommended by Platform, meant a number of different things to participants, including but not limited to being hospitalized, receiving medication, outpatient care, etc. When [...]
+       - Rationale: "Hospital care," as recommended by Platform, meant a number of different things to participants, including but not limited to being hospitalized, receiving medication, outpatient care, etc. When we looked at the paper form, participants seemed to understand "hospitalization" better.
     5. Change "examiner" to "medical provider"
        - Actions: Throughout the form, change the word "examiner" to "medical provider".
        - Rationale: This word was not clear to some participants, and one even thought the word "examiner" referred to the claim examiner (rater), causing additional confusion.
@@ -135,10 +134,8 @@ kpi_alignment:
   - "Error rate and rejection rate"
   - "Online vs paper submission percentage"
 outcomes:
-  user: |
-    Veterans, dependents, and caregivers understand the 21-2680 form process, correctly identify themselves as claimants, understand the two-step process with provider handoff, and can successfully complete and submit their portion of the form
-  business: |
-    Reduce error rates in claimant information, improve form submission quality, decrease processing time through fewer rejections, and increase adoption of the digital form over paper submissions
+  user: "Veterans, dependents, and caregivers understand the 21-2680 form process, correctly identify themselves as claimants, understand the two-step process with provider handoff, and can successfully complete the claimant portion of the form with confidence"
+  business: "Reduce error rates in claimant information, improve form submission quality, decrease processing time through fewer rejections, and increase adoption of the digital form over paper submissions"
 opportunity_areas:
   - "Reducing confusion about claimant identity when caregivers or family members complete the form on behalf of a veteran"
   - "Clarifying the two-step digital handoff process between veteran and medical provider"
@@ -156,11 +153,10 @@ underserved_groups_missing:
   - "LGBTQ+ participants (gay, lesbian, bisexual)"
 secondary_research:
   - "PDF form usability comparison"
-synthetic_tools_used: []
+synthesis_tools_used: []
 tags:
   - "AUD: Veterans"
   - "AUD: Caregivers"
-  - "AUD: Family Member"
   - "BNFT: Pension"
   - "PRDT: Form 21-2680"
   - "DSC: Form"
@@ -168,6 +164,7 @@ tags:
   - "usability-testing"
   - "semi-structured-interviews"
   - "evaluative"
+  - "form-design"
 ---
 
 # 21-2680 Claimant Experience Research Study Research Findings 
