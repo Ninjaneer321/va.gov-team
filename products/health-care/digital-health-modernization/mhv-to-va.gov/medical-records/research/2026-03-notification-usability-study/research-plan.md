@@ -116,14 +116,14 @@ Findings will directly inform the production release addressing Use Case #1: Fol
 - What else helps them orient themselves to what's new?
 - What navigation patterns reduce cognitive load when scanning for recent items?
 
-> Maps to: Task 2 (landing page entry), Task 2.5 (Recent Results section structure)
+> Maps to: Task 1 (landing page entry), Task 1.5 (Recent Results section structure)
 
 **RQ3: What information helps Veterans orient, navigate, and understand new medical records?**
 - What helps them decide where to click?
 - What reduces information overload?
 - Is summary information enough, or do they need specific details upfront?
 
-> Maps to: Task 2 (exploration of card content), Task 2.5 (section structure)
+> Maps to: Task 1 (exploration of card content), Task 1.5 (section structure)
 
 **RQ4: What types of visual information help Veterans identify what's new?**
 - Do badges, dates, sorting, or other visual cues help them understand what's new?
