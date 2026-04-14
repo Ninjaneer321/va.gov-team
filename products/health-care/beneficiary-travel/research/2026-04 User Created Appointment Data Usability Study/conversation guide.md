@@ -452,12 +452,12 @@ _Switch to other page._ `I'll now give you the same instructions for a different
 
 
 ## Section 5: Wrap up / Post-task interview   
-`Moderator: Moderator: Thank you so much for everything you’ve shared! We’re about to wrap up, so I have some final questions for you.`
+`Moderator: Thank you so much for everything you’ve shared! We’re about to wrap up, so I have some final questions for you.`
 
 1. If you had an appointment that wasn’t showing up on your list, how likely would you be to use this process to file for travel pay? On a scale of 1-5, where 1 is “not at all likely” and 5 is “very likely.”
 2. Why did you assign it that number?
-3. In your own words, can you explain what you did today, as if you were telling another Veteran about it?   
-4. Is there anything that could make you more comfortable about using this process?   
+3. In your own words, can you explain what you did on VA.gov today, as if you were telling another Veteran about it?   
+4. Is there anything that could make you more comfortable about using the process we walked through today to file a claim?   
 5. Do you have any questions for me?   
 
 
