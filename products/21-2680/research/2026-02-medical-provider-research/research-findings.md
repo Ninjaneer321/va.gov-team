@@ -298,7 +298,8 @@ We also observed that they didn’t necessarily know how they might get this for
 
 ## Additional Insights
 
-### In some ways, the PDF was easier to use or understand because everything is exposed at once
+### In some ways, the PDF might be "easier" to use or understand because everything is exposed at once
+- We observed several participants have a moment of clarity or an "aha" moment when they viewed the full PDF version of the form, either blank or based on what they had enetered. They could see the upcoming questions, including the medical provider section, and this seemed to provide a lot of clarity.
 - _"It almost helps to see the [paper] form. It answers a lot more questions than before I saw the [paper] form."_
 
 ### A core issue determining participants' experience is the their relationship with their medical provider
@@ -411,10 +412,6 @@ Most of all, we want to research medical providers to understand how the other s
 - [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/21-2680/research/2026-02-medical-provider-research/research-plan.md)
 - [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/21-2680/research/2026-02-medical-provider-research/conversation-guide.md)
 - [Interview transcripts](link here)
-
-### Tools used for Synthesis
-
-*List tools or techniques used, e.g., Mural, affinity mapping.*  
   
 ### Pages and applications used
 
