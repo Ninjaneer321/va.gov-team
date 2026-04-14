@@ -17,7 +17,7 @@ This document describes the API specifications for CC & VA direct scheduling exp
 | [GET](#get-vaosv2referralsreferralidproviders) | `/vaos/v2/referrals/{referralId}/providers` | Fetches available VA and CC providers for a referral | **New** |
 | [GET](#get-vaosv2provider-slots) | `/vaos/v2/provider-slots` | Fetches provider details and available time slots for a referral/provider combination | **New -- replaces `POST /vaos/v2/appointments/draft`** |
 | [POST](#post-vaosv2unified_bookings) | `/vaos/v2/unified_bookings` | Submits an appointment for booking (VA or CC) | **Modified -- replaces `/vaos/v2/appointments/submit`** |
-| [GET](#get-vaosv2appointmentsappointmentid) | `/vaos/v2/appointments/{appointmentId}` | Fetches appointment details or polls for booking status | Exists -- unified for VA and CC |
+| [GET](#get-vaosv2unified_bookingsid) | `/vaos/v2/unified_bookings/{id}` | Fetches appointment details or polls for booking status | **Modified -- replaces `/vaos/v2/eps_appointments/{appointmentId}`** |
 
 ---
 
@@ -372,8 +372,8 @@ Fetches provider details and available time slots for a specific referral and pr
 - Headers:
   - `Content-Type: application/json`
 - Query Parameters:
-  - `referralId` (required): The unique identifier (UUID) of the referral.
-  - `providerId` (required): The unique identifier of the selected provider (from `GET /vaos/v2/referrals/{referralId}/providers`).
+  - `referral_id` (required): The unique identifier (UUID) of the referral.
+  - `provider_id` (required): The unique identifier of the selected provider (from `GET /vaos/v2/referrals/{referralId}/providers`).
 
 **Response (Success):**
 ```json
@@ -685,41 +685,38 @@ Submits an appointment for booking. The backend routes to the appropriate upstre
 
 ---
 
-### GET /vaos/v2/appointments/{appointmentId}
+### GET /vaos/v2/unified_bookings/{id}
 
 Retrieves the details and booking status of an appointment. Used for two purposes:
 
-1. **Polling (post-submit):** After the Veteran submits an appointment, `CompleteReferral.jsx` polls this endpoint every 1 second for up to 30 seconds until `status` transitions from `draft` to `booked`.
+1. **Polling (post-submit):** After the Veteran submits an appointment, `CompleteReferral.jsx` polls this endpoint every 1 second for up to 30 seconds until `status` transitions from `proposed` to `booked`.
 2. **Details (appointment view):** Retrieves full appointment details for the appointment details page.
 
-The `X-Page-Type` header distinguishes the two use cases, allowing the backend to optimize response behavior (e.g., lighter response for polling).
+> **Note:** The backend always fetches with `retrieve_latest_details: true` regardless of caller intent. There is no behavioral distinction between polling and details fetch -- the `X-Page-Type` header described in earlier versions of this spec is **not implemented** and should not be sent.
 
 This endpoint serves both VA and CC appointments. The backend routes to the appropriate upstream system based on the appointment record.
 
 **Frontend Usage:**
-- `usePollAppointmentInfoQuery(appointmentId)` in `CompleteReferral.jsx` (polling mode)
-- `useGetAppointmentInfoQuery(appointmentId)` in appointment details pages (details mode)
-- Polling: `refetch()` called on a 1-second interval; stops when `attributes.status === 'booked'` or 30-second timeout
+- `useGetUnifiedBookingQuery({ appointmentId, providerType }, { pollingInterval })` in `CompleteReferral.jsx` (polling mode via RTK Query `pollingInterval`)
+- `useGetAppointmentInfoQuery(id)` in `EpsAppointmentDetailsPage.jsx` (details mode -- temporarily uses the legacy `/vaos/v2/eps_appointments/` path; will migrate to this endpoint)
+- `providerType` is derived from `careType`: CC maps to `"eps"`, VA maps to `"va"`. Threaded through the flow as a URL query parameter.
+- Polling (CC only): RTK Query `pollingInterval` set to 1 second; stops when `attributes.status === 'booked'` or 30-second timeout. VA appointments return booked immediately, no polling needed.
 - On timeout, a warning is shown: "We're having trouble scheduling this appointment"
 - On error, an error alert is shown with the provider phone number from the parent referral
 
-**Request (Polling):**
+**Request:**
 - Method: `GET`
 - Headers:
   - `Content-Type: application/json`
-  - `X-Page-Type: polling`
 - Path Parameters:
-  - `appointmentId`: The appointment identifier returned by the submit endpoint.
+  - `id`: The appointment identifier returned by the submit endpoint (`POST /vaos/v2/unified_bookings`).
+- Query Parameters:
+  - `provider_type` (required): `"va"` or `"eps"`. Tells the backend which upstream system to query. Derived on the frontend from the provider's `careType`: `"CC"` maps to `"eps"`, `"VA"` maps to `"va"`.
 
-**Request (Details):**
-- Method: `GET`
-- Headers:
-  - `Content-Type: application/json`
-  - `X-Page-Type: details`
-- Path Parameters:
-  - `appointmentId`: The appointment identifier.
+**Response (Proposed/Pending -- CC only):**
 
-**Response (Polling -- Draft/Pending):**
+CC appointments that are not yet booked return a minimal response with only identifying fields. The frontend polls until `status` transitions to `"booked"`.
+
 ```json
 {
   "data": {
@@ -727,19 +724,17 @@ This endpoint serves both VA and CC appointments. The backend routes to the appr
     "type": "appointment",
     "attributes": {
       "id": "EEKoGzEf",
-      "status": "draft",
+      "status": "proposed",
       "careType": "CC",
-      "start": "2026-04-15T14:00:00Z",
-      "isLatest": true,
-      "lastRetrieved": "2026-04-06T18:30:00Z",
-      "referralId": "add2f0f4-a1ea-4dea-a504-a54ab57c6801",
-      "past": false
+      "modality": "communityCareUnified"
     }
   }
 }
 ```
 
-**Response (Polling/Details -- Booked):**
+> **Note:** VA appointments are returned as `"booked"` immediately with full details -- there is no proposed/polling state for VA.
+
+**Response (Booked -- CC):**
 ```json
 {
   "data": {
@@ -754,7 +749,7 @@ This endpoint serves both VA and CC appointments. The backend routes to the appr
       "lastRetrieved": "2026-04-06T18:30:05Z",
       "referralId": "add2f0f4-a1ea-4dea-a504-a54ab57c6801",
       "past": false,
-      "modality": "communityCareEps",
+      "modality": "communityCareUnified",
       "provider": {
         "id": "9mN718pH",
         "name": "Dr. Smith @ Acme Cardiology - Anywhere, USA",
@@ -783,12 +778,56 @@ This endpoint serves both VA and CC appointments. The backend routes to the appr
 }
 ```
 
+**Response (Booked -- VA):**
+
+VA appointments are returned as booked immediately with full details. No polling is needed.
+
+```json
+{
+  "data": {
+    "id": "va-appt-001",
+    "type": "appointment",
+    "attributes": {
+      "id": "va-appt-001",
+      "status": "booked",
+      "careType": "VA",
+      "start": "2026-04-15T14:00:00Z",
+      "past": false,
+      "modality": "vaInPerson",
+      "provider": {
+        "name": "CHY PC CASSIDY",
+        "practice": "Cheyenne VA Medical Center",
+        "phone": "307-778-7550",
+        "location": {
+          "name": "Cheyenne VA Medical Center",
+          "address": "2360 East Pershing Boulevard, Cheyenne, WY, 82001-5356",
+          "latitude": 39.744507,
+          "longitude": -104.830956,
+          "timezone": "America/Denver"
+        }
+      },
+      "location": {
+        "id": "983GB",
+        "type": "appointments",
+        "attributes": {
+          "name": "Cheyenne VA Medical Center",
+          "timezone": {
+            "timeZoneId": "America/Denver"
+          }
+        }
+      }
+    }
+  }
+}
+```
+
 - `id`: Appointment identifier.
-- `status`: `"draft"` (pending confirmation) or `"booked"` (confirmed). The frontend polls until `booked`.
+- `status`: `"proposed"` (pending confirmation, CC only) or `"booked"` (confirmed). The backend maps any non-booked EPS status to `"proposed"`. The frontend polls CC appointments until `booked`. VA appointments are always returned as `"booked"`.
 - `careType`: `"VA"` or `"CC"`.
 - `start`: ISO 8601 UTC datetime for the appointment start. Displayed on the confirmation card.
 - `modality`: Appointment modality. Present when `status` is `booked`. Possible values:
-  - `communityCareEps` -- In-person community care
+  - `communityCareUnified` -- In-person community care (returned by this endpoint)
+  - `communityCareEps` -- In-person community care (legacy, from older endpoints)
   - `communityCare` -- In-person community care (legacy)
   - `vaInPerson` -- In-person VA
   - `vaPhone` -- VA phone appointment
