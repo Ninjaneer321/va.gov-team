@@ -21,9 +21,9 @@ Each individual component includes:
         - [Session timeout](https://depo-platform-documentation.scrollhelp.site/developer-docs/authentication#Authentication-SessionTimeout)
         - [Maintenance banners](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Frontend/downtime-banners.md)
         - [Sign-in errors](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Troubleshooting_logging/Authentication_Errors#troubleshooting-authentication-errors)
-    - Sign-in experience (new)
-        - [Research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research)
+    - [Sign-in experience (new)](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/sign-in-experience)
         - [Secure sign-in transition](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/sign-in-transition)
+        - Reducing dissatisfaction (new)
 - [Platform authentication](https://depo-platform-documentation.scrollhelp.site/developer-docs/authentication)
     - [Backend infrastructure](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/login/reference-documents/auth/authentication-and-authorization-simplified.md)
         - [Tokens and sessions](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/login/user-session)
@@ -42,6 +42,7 @@ Each individual component includes:
         - [Security policies and compliance](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Policies%20and%20Procedures)
         - [Logging and monitoring](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams/vsp/teams/Identity/Documentation/Logging_Monitoring)
         - [FWA](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams/vsp/teams/Identity/Documentation/FWA)
+- [Research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research)
 - [Sensitive research](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams/vsp/teams/Identity/research)
      
 ## Subject matter experts
