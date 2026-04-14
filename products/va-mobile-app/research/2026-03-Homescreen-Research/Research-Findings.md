@@ -241,7 +241,7 @@ This research was remote moderated concept testing study using Zoom. Participant
 **Finding 1**  
 All participants found that the Alert, Action required, and Activity section items matched their expectations for what they would find on the homescreen \- calling these to-do-list items, updates, and items needing their attention and action. No participant was surprised by the type of items included on the homescreen. 
 
-![Homescreen-general](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/2026-03-Homescreen-Research/Images/Homescreen-general.png)
+![Homescreen prototype showing alerts and Action required and Activity sections.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/2026-03-Homescreen-Research/Images/Homescreen-general.png)
 
 **Finding 2**  
 6 participants talked about wanting an uncluttered and streamlined homescreen so they can focus on what’s the most important. Participants voiced this when discussing whether homescreen items needed more data on the homescreen, with most feeling only dates when available should be added to reduce clutter. They also voiced this when discussing where Veteran Status Card and Disability status and payments should be on the homescreen, with some saying they wouldn’t want those items on homescreen to reduce clutter. 
@@ -337,6 +337,7 @@ Users liked the efficiency of being able to pay their copay and refill their pre
 *"I do like it this way \[through prescription modal\], because it doesn't get you entirely out of the homepage. It \[...\] should answer a majority of what folks would click on the Prescription for.”* (P2)
 
 *“I wouldn’t have to worry about scrolling through my list of meds to figure out what I needed to get refilled.”* (P6)  
+
 *"If I just wanted to do one of them, I would go to prescriptions, and just click the one I wanted or needed, and refill it from there. Because if I hit refill on this screen, it's going to give me both of them. Yeah, I would assume they \[both\] wouldn't be there unless they were going to be refilled when I said refill.”* (P15)
 
 *"I feel like this one's \[prototype\] homescreen is a lot more functional. It's easier to do things. I can click the activity thing and it takes me right to the places that I need to go to address these things. And saying just click this button to file your travel claim. Instead of me having to right now go into my appointments and then I have to click submit a travel claim. Instead it's right here."* (P14)
@@ -350,7 +351,7 @@ All 4 users with cognitive disabilities and 2 other participants experienced som
 * Participants either didn’t know what “updates” might include or assumed it would be changes to their medication from their doctor or a formulary change. This would be outside the scope of what prescription updates in the app refers to.  
 * Participants were unsure if “refill ready” meant their refill was ready for pickup, had been shipped, or was ready to refill.
 
-![Prescription-refill-modal](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/2026-03-Homescreen-Research/Images/Prescription-modal.png)
+![Prescription refill modal showing 2 refills ready and 1 shipped.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/2026-03-Homescreen-Research/Images/Prescription-modal.png)
 
 *"Prescription updates to me could mean we’re discontinuing this, or it’s no longer in the formulary.”* (P12)
 
@@ -534,9 +535,7 @@ Disability and Assistive Technology (AT):
 
 \[\!NOTE\] *Complete the [VA recruitment checker for marginalized Veteran groups](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx):*
 
-1. Duplicate the ***Template*** worksheet  
-2. Enter your participant information **(see the *Template Instructions* worksheet for details)**  
-3. Make a screenshot of the cells that you want to share and paste it into this report below  
+
 4. Generate an accessible version of those cells using Github Copilot Chat:  
    - Start a new Github Copilot chat  
    - Enter: "I want to convert these spreadsheet cells into a table in markdown:"  
@@ -554,9 +553,7 @@ This research does not include the perspectives of the following marginalized Ve
 
 ### Recruitment of underserved groups in \[2026-03 Homescreen Concept Testing\]
 
-➡️ *\[insert screenshot of completed recruitment checker in the format below\]*
-
-\!\[Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image\](link \- add image to github folder and link here with .png)
+\!\[Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image\](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/2026-03-Homescreen-Research/Images/Participant-demographics.png)
 
 #### A more accessible version of the table in the above image
 
