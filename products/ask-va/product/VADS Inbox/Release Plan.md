@@ -6,7 +6,10 @@ Feature toggles/flags:
 + `ask_va_enhanced_inbox` - used to enable users to view the new `/inbox` route.
 + Also updates the `/introduction` page - the inbox components will no longer reside on the `/introduction` page therefore;
 + The landing page content updates will be displayed when the feature flag is enabled.
-+ Enabled for 100% authenticated user population.
++ Staggered rollout for authenticated user population.
+    + Enabled for 10% authenticated user population for 7 days.
+    + Enabled for 50% authenticated user population for 3 days.
+    + Assuming no production issue/event during staggered deployment, lastly will enable for 100% authenticated user population.
 
 ## Rollback Plan
 + `ask_va_enhanced_inbox` feature flag will be disabled if there is a production issue/event.
