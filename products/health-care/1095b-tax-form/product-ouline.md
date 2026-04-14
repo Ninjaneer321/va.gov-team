@@ -49,7 +49,7 @@ How might we make the 1095-B tax form instantly and reliably accessible to Veter
 3. CSAT Score: The CSAT score stays above 75% satisfaction each month.
 4. Error Rate: The number of system errors on the available-forms endpoint stays under 1%.
 
-#### Baseline KPI Values
+#### KPI Reporting
 |               |                         |                    |            |            |
 | ------------- | ----------------------- | ------------------ | ---------- | ---------- |
 |               | Download Adoption Rate  | Call Center Volume | CSAT Score | Error Rate |
