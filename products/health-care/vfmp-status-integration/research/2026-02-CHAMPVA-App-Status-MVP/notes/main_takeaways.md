@@ -1,11 +1,10 @@
-## Session Summaries and Observer Top 3 Callouts
+# Notetaker and Observer Top 3 Callouts
 
-Main takeaway from the research sessions
+Main takeaways from the research sessions
 
 ### P01
 
 **UX Notetaker:**
--
 
 **Observer 1:**
 - Seemed like a great experience overall, and the participant was pleased with the entire process.
@@ -33,102 +32,22 @@ Main takeaway from the research sessions
 - They seemed to expect a continuation of information about the same application to appear not just in the same screen, but in the same location on the screen
 
 ### P03
-
 **UX Notetaker:**
--
 
 **Observer 1:**
--
 
 **Observer 2:**
--
+
+### P04
+**UX Notetaker:**
+
+**Observer 1:**
+
+**Observer 2:**
 
 ### P0X
-
 **UX Notetaker:**
--
 
 **Observer 1:**
--
 
 **Observer 2:**
--
-
-### P0X
-
-**UX Notetaker:**
--
-
-**Observer 1:**
--
-
-**Observer 2:**
--
-
-### P0X
-
-**UX Notetaker:**
--
-
-**Observer 1:**
--
-
-**Observer 2:**
--
-
-### P0X
-
-**UX Notetaker:**
--
-
-**Observer 1:**
--
-
-**Observer 2:**
--
-
-### P0X
-
-**UX Notetaker:**
--
-
-**Observer 1:**
--
-
-**Observer 2:**
--
-
-### P0X
-
-**UX Notetaker:**
--
-
-**Observer 1:**
--
-
-**Observer 2:**
--
-
-### P0X
-
-**UX Notetaker:**
--
-
-**Observer 1:**
--
-
-**Observer 2:**
--
-
-### P0X
-
-**UX Notetaker:**
--
-
-**Observer 1:**
--
-
-**Observer 2:**
--
-
-
