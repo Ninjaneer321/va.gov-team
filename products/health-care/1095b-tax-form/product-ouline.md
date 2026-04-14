@@ -151,7 +151,7 @@ In January 2026, email and text campaigns went out to all Veterans enrolled in h
 
 <details>
  
-Health Eligibility Center | POC: Angela Fulton
-Enrollment System | POC: Joshua Faulkner
+- Health Eligibility Center | POC: Angela Fulton
+- Enrollment System | POC: Joshua Faulkner
  
 </details>
