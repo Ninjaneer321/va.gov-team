@@ -353,7 +353,7 @@ Let’s say a week has passed and you want to find out what has happened with yo
   - [If they WOULD NOT FOLLOW the Check status details link] For the scenario today, let's click on the link anyway. 
 
 ### [Status page for CHAMPVA App: one beneficiary has been deemed eligible, the other has an evidence request] 
-- Take a look at this page and tell me, in your own words, what has happened with your application. <amrk>pause</mark>
+- Take a look at this page and tell me, in your own words, what has happened with your application. <mark>pause and see if they scroll</mark>
   - What step is the application on? Does that make sense to you?
   - What has happened with Jane’s application? With John Doe Jr.’s?
 - What would you do next?
