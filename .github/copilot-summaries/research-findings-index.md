@@ -1,6 +1,6 @@
 # Research Findings Index
 
-**Auto-generated** from research YAML frontmatter | **Last updated:** 2026-04-13
+**Auto-generated** from research YAML frontmatter | **Last updated:** 2026-04-14
 
 This index groups research findings by theme and by product for quick reference.
 For comprehensive cross-study analysis, use [deep research](../../platform/research/copilot-prompts/using-deep-research.md).
@@ -13,7 +13,7 @@ Themes extracted from research YAML frontmatter, grouped across all products.
 
 ### usability-testing
 
-**131 studies** | Most recent: 2026-02
+**132 studies** | Most recent: 2026-03
 
 - Most participants who were filling out 21-2680 for someone else (e.g., a parent they give care to) did not correctly ch… ([Conversation Guide for Form 21-2680 Claimant & Provider Handoff Experience](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/21-2680/research/2026-02-medical-provider-research))
 - All nine respondents indicated that they were interested in exploring educational opportunities ([Conversation Guide for [Team, Product, Date]](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/Comparison%20Tool%20Enhancements/research))
@@ -88,7 +88,9 @@ Themes extracted from research YAML frontmatter, grouped across all products.
   - All participants (100%) demonstrated understanding that their current disability pay is the greater benefit and recogni… ([Conversation Guide for Pension Team, Disability Rating Alert, December 2025](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/pension/research/2025-12%20Pension%20Disability%20Alert))
 - All participants were able to successfully use the prototype ([Conversation Guide for Contact Center Login Self-Service Tool, August 2022](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/platform/login-self-service-tool/research/2022-Q3))
 - Enrollment Manager: Participants highly prioritize easy access to the Enrollment Manager, acknowledging its crucial rol… ([Conversation Guide for Resources for Schools, Event Editor Usability, January 2024](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/resources-for-schools/research))
-- Locating Forms Is Difficult: Most Veterans struggled to find the forms section, often expecting it under "Claims" rathe… ([Conversation Guide: VA Mobile App Forms MVP Assistive Technology Research, 2025](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/Forms%20MVP%20Research))
+- **Va Mobile App** (2 studies)
+  - All participants expect to find items on the homescreen requiring attention and action including: - Alerts - Updates fr… ([Conversation Guide for VA Mobile App Homescreen Research - March 2026](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/2026-03-Homescreen-Research))
+  - Locating Forms Is Difficult: Most Veterans struggled to find the forms section, often expecting it under "Claims" rathe… ([Conversation Guide: VA Mobile App Forms MVP Assistive Technology Research, 2025](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/Forms%20MVP%20Research))
 - **Vet Transition Support** (3 studies)
   - Some participants were confused by the Figma prototype, particularly the limited Review, Results, and window-shopping p… ([Conversation Guide for Veteran Transition Support Version 2 User Testing, October 2024](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/vet-transition-support/research/2024-10-user-testing-v2))
   - There is surprisingly little relationship between the goals participants chose and the benefits they explored. Particip… ([Conversation Guide for Veteran Transition Experience, Discover Your Benefits Tool, July 2025](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/vet-transition-support/research/2025-07-generative-and-user-testing-study))
@@ -427,6 +429,14 @@ Themes extracted from research YAML frontmatter, grouped across all products.
   - Coordinators across all five sites support ID.me issues daily and are often the sole support resource for their facilit… ([Conversation Guide for Identity team, ID.me × MHV Coordinator Verification Assistance, 2026-02-25](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research/2026-02%20ID.me%20-%20MHV%20Coordinator%20Verification%20Assistance))
 - All participants understood the facility list to be places where a Veteran had received health care ([Conversation Guide for Authenticated Experience, Profile My VA Health Facilities, May 2021](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/preferred-facility/research/2021-05-preferred-facilities))
 
+### concept-testing
+
+**3 studies** | Most recent: 2026-03
+
+- Representatives with 'instant submission' of the 21-22 in their current process have limited reason to adopt the new me… ([Conversation Guide for Accredited Representative Facing, ARP POA Pilot Research, March/April 2025](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/accredited-representative-facing/research/2025-04%20Accredited%20Rep%20Portal%20pilot))
+- Participants were most confused that two different sites list their appointments ([MyHealtheVet+VA Online Scheduling appointments list discovery](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/appointments/va-online-scheduling/research/2022-01-mhv-and-vaos-appts-list-discovery))
+- All participants expect to find items on the homescreen requiring attention and action including: - Alerts - Updates fr… ([Conversation Guide for VA Mobile App Homescreen Research - March 2026](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/2026-03-Homescreen-Research))
+
 ### tree-test
 
 **3 studies** | Most recent: 2024-04
@@ -444,19 +454,30 @@ Themes extracted from research YAML frontmatter, grouped across all products.
   - Most participants prefer Secure Messaging over calling because of the complexity of the VA phone system. ([Conversation Guide for MHV Secure Messaging Triage Group Generative Study, August 2023](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-08-triage-group-generative-study))
 - All Veteran participants were already experiencing adverse financial or medical conditions when they began to seek out … ([Pension Application Generative Research Findings](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/pension/research/2025%2004%20Pension%20Exploratory%20Research))
 
+### AUD-VA-Staff
+
+**3 studies** | Most recent: 2026-02
+
+- **Health Care** (3 studies)
+  - Clinicians workflow regularly involves referencing the EHR to find patient data. Referencing the EHR first becomes thei… ([Conversation Guide for CDS Medical Calculators, Calculator Detail Page Line Chart Testing, September 2025](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/clinical-decision-support/medical-calculators/research/2025-09-Calculator-Detail-Page-Line-Chart-Testing))
+  - Conversation Guide for CDS Medical Calculators, AMPREDICT and PROPREDICT Time-on-Task Case Study, February 2026 ([Conversation Guide for CDS Medical Calculators, AMPREDICT and PROPREDICT Time-on-Task Case Study, February 2026](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/clinical-decision-support/medical-calculators/research/2026-02-AMPREDICT-PROPREDICT-case-study))
+  - Conversation Guide for CDS Medical Calculators, Clinician Engagement Sessions, February 2026 ([Conversation Guide for CDS Medical Calculators, Clinician Engagement Sessions, February 2026](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/clinical-decision-support/medical-calculators/research/2026-02-Clinician-Engagement-Sessions))
+
+### PRDT-Medical-Calculators
+
+**3 studies** | Most recent: 2026-02
+
+- **Health Care** (3 studies)
+  - Clinicians workflow regularly involves referencing the EHR to find patient data. Referencing the EHR first becomes thei… ([Conversation Guide for CDS Medical Calculators, Calculator Detail Page Line Chart Testing, September 2025](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/clinical-decision-support/medical-calculators/research/2025-09-Calculator-Detail-Page-Line-Chart-Testing))
+  - Conversation Guide for CDS Medical Calculators, AMPREDICT and PROPREDICT Time-on-Task Case Study, February 2026 ([Conversation Guide for CDS Medical Calculators, AMPREDICT and PROPREDICT Time-on-Task Case Study, February 2026](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/clinical-decision-support/medical-calculators/research/2026-02-AMPREDICT-PROPREDICT-case-study))
+  - Conversation Guide for CDS Medical Calculators, Clinician Engagement Sessions, February 2026 ([Conversation Guide for CDS Medical Calculators, Clinician Engagement Sessions, February 2026](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/clinical-decision-support/medical-calculators/research/2026-02-Clinician-Engagement-Sessions))
+
 ### secondary-research
 
 **2 studies** | Most recent: 2026-01
 
 - There are about 80 VSOs, with 23 of those being National VSO, 55 being State/Territory/Tribe. ([Veterans Service Organization Landscape Summary Research Findings](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/accredited-representative-facing/research/2025-01%20VSO%20Landscape%20Summary))
 - Sign-in dissatisfaction decreased to 68.8% in September 2025 (measured via Medallia intercept survey negative sentiment… ([2026-01 Dissatisfaction Discovery - Research Findings](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research/2026-01%20dissatisfaction%20discovery))
-
-### concept-testing
-
-**2 studies** | Most recent: 2025-04
-
-- Representatives with 'instant submission' of the 21-22 in their current process have limited reason to adopt the new me… ([Conversation Guide for Accredited Representative Facing, ARP POA Pilot Research, March/April 2025](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/accredited-representative-facing/research/2025-04%20Accredited%20Rep%20Portal%20pilot))
-- Participants were most confused that two different sites list their appointments ([MyHealtheVet+VA Online Scheduling appointments list discovery](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/appointments/va-online-scheduling/research/2022-01-mhv-and-vaos-appts-list-discovery))
 
 ### navigation
 
@@ -502,22 +523,6 @@ Themes extracted from research YAML frontmatter, grouped across all products.
   - Veterans found the travel reimbursement feature 'awesome' and 'easy to use' and would not change anything about the pro… ([Conversation Guide for Patient Check-In Travel Reimbursement Staff Interviews at Wilkes-Barre, December 2022](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin/research/2022-12%20Patient%20Check%20In%20Travel%20Reimbursement%20Staff%20Interviews%20at%20Wilkes-Barre))
   - Veterans found the travel reimbursement feature 'awesome' and 'easy to use' and would not change anything about the pro… ([Conversation Guide for Patient Check-In Travel Reimbursement Veteran Intercept at Wilkes-Barre, December 2022](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin/research/2022-12%20Patient%20Check%20In%20Travel%20Reimbursement%20Veteran%20Intercept%20at%20Wilkes-Barre))
 
-### AUD-VA-Staff
-
-**2 studies** | Most recent: 2026-02
-
-- **Health Care** (2 studies)
-  - Clinicians workflow regularly involves referencing the EHR to find patient data. Referencing the EHR first becomes thei… ([Conversation Guide for CDS Medical Calculators, Calculator Detail Page Line Chart Testing, September 2025](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/clinical-decision-support/medical-calculators/research/2025-09-Calculator-Detail-Page-Line-Chart-Testing))
-  - Conversation Guide for CDS Medical Calculators, AMPREDICT and PROPREDICT Time-on-Task Case Study, February 2026 ([Conversation Guide for CDS Medical Calculators, AMPREDICT and PROPREDICT Time-on-Task Case Study, February 2026](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/clinical-decision-support/medical-calculators/research/2026-02-AMPREDICT-PROPREDICT-case-study))
-
-### PRDT-Medical-Calculators
-
-**2 studies** | Most recent: 2026-02
-
-- **Health Care** (2 studies)
-  - Clinicians workflow regularly involves referencing the EHR to find patient data. Referencing the EHR first becomes thei… ([Conversation Guide for CDS Medical Calculators, Calculator Detail Page Line Chart Testing, September 2025](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/clinical-decision-support/medical-calculators/research/2025-09-Calculator-Detail-Page-Line-Chart-Testing))
-  - Conversation Guide for CDS Medical Calculators, AMPREDICT and PROPREDICT Time-on-Task Case Study, February 2026 ([Conversation Guide for CDS Medical Calculators, AMPREDICT and PROPREDICT Time-on-Task Case Study, February 2026](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/clinical-decision-support/medical-calculators/research/2026-02-AMPREDICT-PROPREDICT-case-study))
-
 ### assistive-technology
 
 **2 studies** | Most recent: 2023-10
@@ -534,7 +539,7 @@ Findings organized by product area.
 
 ### Health Care
 
-**92 studies** | Active: 2019-06 – 2026-02
+**93 studies** | Active: 2019-06 – 2026-02
 
 **Top Themes:**
 - usability-testing (50 studies)

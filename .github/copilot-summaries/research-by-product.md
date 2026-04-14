@@ -1,6 +1,6 @@
 # Research Studies by Product
 
-> Auto-generated from `.github/knowledge-graph.json` on 2026-04-13.
+> Auto-generated from `.github/knowledge-graph.json` on 2026-04-14.
 > Edit the source data, not this file.
 
 65 products have documented research studies.
@@ -13,8 +13,8 @@
 ### [Conversation Guide for Form 21-2680 Claimant & Provider Handoff Experience](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/21-2680/research/2026-02-medical-provider-research)
 
 - **Date**: 2026-02
-- **Methodology**: Moderated semi-structured interviews, Form walkthrough usability testing, Remote testing via Zoom (Veterans, Caregivers)
-- **Key Themes**: usability-testing, semi-structured-interviews, evaluative
+- **Methodology**: Moderated semi-structured interviews, Form walkthrough usability testing, Remote testing via Zoom, Screen sharing with participant-driven navigation (Veterans, Caregivers)
+- **Key Themes**: usability-testing, semi-structured-interviews, evaluative, …
 - **Top Finding**: Most participants who were filling out 21-2680 for someone else (e.g., a parent they give care to) did not correctly ch…
 - **Impact**: Veterans, dependents, and caregivers understand the 21-2680 form process, corre…
 - **Path**: `products/21-2680/research/2026-02-medical-provider-research`
@@ -2545,13 +2545,13 @@
 - **Path**: `products/find-a-va-form/research/2025-medallia-feedback`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/find-a-va-form/research/2025-medallia-feedback) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Ffind-a-va-form%201Q2025%20Medallia)
 
-### [Conversation Guide for Public Websites Team, Centralized Forms Discovery Research, March 2026](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/find-a-va-form/initiatives/centralized-forms/research)
+### [Centralized Forms Observations from the field](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/find-a-va-form/initiatives/centralized-forms/research)
 
 - **Date**: 2026-03
-- **Methodology**: Methodology not specified (Veterans)
-- **Participants**: Veterans
+- **Methodology**: Methodology not specified (Dependents)
+- **Participants**: Dependents
 - **Path**: `products/find-a-va-form/initiatives/centralized-forms/research`
-- **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/find-a-va-form/initiatives/centralized-forms/research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Ffind-a-va-form%202026%20Conversation%20Guide)
+- **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/find-a-va-form/initiatives/centralized-forms/research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Ffind-a-va-form%20Centralized%20Forms)
 - **Files**:
   - [Research Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/centralized-forms/research/centralized-forms-user-research-plan.md)
   - [Conversation Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/centralized-forms/research/centralized-forms-conversation-guide.md)
@@ -3353,7 +3353,8 @@
 
 - **Date**: 2026-02
 - **Methodology**: Moderated Remote Interview, Async questionairre (Veterans)
-- **Participants**: Veterans
+- **Key Themes**: AUD-VA-Staff, PRDT-Medical-Calculators, PRDT-Clinical-Decis…
+- **Impact**: Make Medical Calculators easy to access and use within workflows
 - **Path**: `products/health-care/clinical-decision-support/medical-calculators/research/2026-02-Clinician-Engagement-Sessions`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/clinical-decision-support/medical-calculators/research/2026-02-Clinician-Engagement-Sessions) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%202026%20Conversation%20Guide)
 - **Files**:
@@ -7034,8 +7035,9 @@
 ### [Conversation Guide for VA Mobile App Homescreen Research - March 2026](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/2026-03-Homescreen-Research)
 
 - **Date**: 2026-03
-- **Methodology**: Method 1, Method 2 (Veterans, Dependents)
-- **Participants**: Veterans, Dependents
+- **Methodology**: remote moderated concept testing (Veterans, Dependents)
+- **Key Themes**: usability-testing, concept-testing, information-architectur…
+- **Top Finding**: All participants expect to find items on the homescreen requiring attention and action including: - Alerts - Updates fr…
 - **Path**: `products/va-mobile-app/research/2026-03-Homescreen-Research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/2026-03-Homescreen-Research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fva-mobile-app%202026%20Conversation%20Guide)
 - **Files**:

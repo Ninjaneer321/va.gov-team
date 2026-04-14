@@ -1,17 +1,17 @@
 {
   "metadata": {
-    "generated": "2026-04-13T19:57:54.397Z",
+    "generated": "2026-04-14T20:48:02.908Z",
     "studies_processed": 707,
     "studies_with_findings_files": 311,
     "studies_files_found": 311,
-    "studies_with_frontmatter": 272,
-    "studies_extracted_from_frontmatter": 244,
+    "studies_with_frontmatter": 273,
+    "studies_extracted_from_frontmatter": 246,
     "studies_missing_frontmatter": 34,
     "extraction_method": "yaml-frontmatter"
   },
   "studies": {
     "products/21-2680/research/2026-02-medical-provider-research": {
-      "key_themes": "usability-testing, semi-structured-interviews, evaluative",
+      "key_themes": "usability-testing, semi-structured-interviews, evaluative, …",
       "top_finding": "Most participants who were filling out 21-2680 for someone else (e.g., a parent they give care to) did not correctly ch…",
       "impact": "Veterans, dependents, and caregivers understand the 21-2680 form process, corre…",
       "source_file": "products/21-2680/research/2026-02-medical-provider-research/research-findings.md",
@@ -892,6 +892,13 @@
       "source_file": "products/health-care/clinical-decision-support/medical-calculators/research/2026-02-AMPREDICT-PROPREDICT-case-study/research-findings.md",
       "extraction_method": "yaml-frontmatter"
     },
+    "products/health-care/clinical-decision-support/medical-calculators/research/2026-02-Clinician-Engagement-Sessions": {
+      "key_themes": "AUD-VA-Staff, PRDT-Medical-Calculators, PRDT-Clinical-Decis…",
+      "top_finding": null,
+      "impact": "Make Medical Calculators easy to access and use within workflows",
+      "source_file": "products/health-care/clinical-decision-support/medical-calculators/research/2026-02-Clinician-Engagement-Sessions/research-findings.md",
+      "extraction_method": "yaml-frontmatter"
+    },
     "products/health-care/clinical-decision-support/platform/research/2025-02-R2-Sidebar-Testing": {
       "key_themes": null,
       "top_finding": "V1 sidebar navigation approach validated - expand/collapse functionality is findable and valuable",
@@ -1576,6 +1583,13 @@
       "top_finding": "Enrollment Manager: Participants highly prioritize easy access to the Enrollment Manager, acknowledging its crucial rol…",
       "impact": null,
       "source_file": "products/resources-for-schools/research/research findings summary.md",
+      "extraction_method": "yaml-frontmatter"
+    },
+    "products/va-mobile-app/research/2026-03-Homescreen-Research": {
+      "key_themes": "usability-testing, concept-testing, information-architectur…",
+      "top_finding": "All participants expect to find items on the homescreen requiring attention and action including: - Alerts - Updates fr…",
+      "impact": null,
+      "source_file": "products/va-mobile-app/research/2026-03-Homescreen-Research/Research-Findings.md",
       "extraction_method": "yaml-frontmatter"
     },
     "products/va-mobile-app/research/Forms MVP Research": {

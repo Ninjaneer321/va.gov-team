@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-04-13T08:46:24.710Z",
+    "generated": "2026-04-14T20:48:02.640Z",
     "description": "Knowledge graph of VA.gov products and teams",
     "source_directories": [
       "products/",
@@ -9,13 +9,13 @@
     ]
   },
   "statistics": {
-    "total_nodes": 1229,
-    "total_edges": 2502,
+    "total_nodes": 1230,
+    "total_edges": 2499,
     "nodes_by_type": {
       "team": 61,
       "portfolio": 4,
       "crew": 19,
-      "product": 344,
+      "product": 345,
       "category": 25,
       "external_system": 5,
       "form": 64,
@@ -25,16 +25,16 @@
       "belongs_to_portfolio": 61,
       "belongs_to_crew": 61,
       "part_of_portfolio": 19,
-      "sub_product_of": 255,
+      "sub_product_of": 256,
       "owns_product": 16,
       "works_on_product": 1,
-      "references_product": 292,
+      "references_product": 290,
       "integrates_with": 165,
       "implements_form": 104,
       "has_research": 689,
       "conducted_research": 538,
-      "research_references_product": 194,
-      "research_for_form": 107
+      "research_for_form": 107,
+      "research_references_product": 192
     }
   },
   "nodes": [
@@ -1349,11 +1349,7 @@
           "name": "Becky Phung"
         },
         {
-          "role": "Delivery Lead (outgoing)",
-          "name": "Megan Salerno"
-        },
-        {
-          "role": "Delivery Lead (incoming)",
+          "role": "Delivery Lead",
           "name": "Kaci Bowen"
         },
         {
@@ -4304,6 +4300,32 @@
         "products/identity/login/reference-documents/login/fe-login-and-logout",
         "products/identity/login/design/readme",
         "products/identity/login/research"
+      ]
+    },
+    {
+      "id": "product-identity-sign-in-experience",
+      "type": "product",
+      "name": "Sign-in experience",
+      "path": "products/identity/sign-in-experience",
+      "display_name": "Sign-in experience",
+      "description": "The sign-in experience covers the end-to-end flow Veterans and beneficiaries use to authenticate on VA.gov and the VA mobile app. This includes the credential selection, identity verification, multi-factor authentication, and session management steps that connect users to VA services.",
+      "slack_channels": [
+        "#sign-in-experience",
+        "#readme",
+        "#system-recovery-plan---unified-sign-in-page-usip",
+        "#unified-sign-in-page-usip-design-details",
+        "#session-expired"
+      ],
+      "product_references": [
+        "products/identity/Products/product",
+        "products/identity/Troubleshooting_logging/Authentication_Errors",
+        "products/identity/Incident",
+        "products/identity/login/unified-sign-in-pages",
+        "products/identity/Frontend/applications/verify",
+        "products/identity/Frontend/applications/terms-of-use",
+        "products/identity/Troubleshooting_logging/Authentication_Errors/005",
+        "products/identity/Frontend/downtime-banners",
+        "products/identity/Research/2026-01"
       ]
     },
     {
@@ -7538,7 +7560,8 @@
       "methodology": [
         "Moderated semi-structured interviews",
         "Form walkthrough usability testing",
-        "Remote testing via Zoom"
+        "Remote testing via Zoom",
+        "Screen sharing with participant-driven navigation"
       ],
       "participant_types": [
         "Veterans",
@@ -7561,7 +7584,6 @@
         "authenticated-experience",
         "AUD: Veterans",
         "AUD: Caregivers",
-        "AUD: Family Member",
         "BNFT: Pension",
         "PRDT: Form 21-2680",
         "DSC: Form",
@@ -7569,6 +7591,7 @@
         "usability-testing",
         "semi-structured-interviews",
         "evaluative",
+        "form-design",
         "housebound",
         "provider-experience",
         "interviews",
@@ -14869,9 +14892,9 @@
         "conversation_guide": "products/find-a-va-form/initiatives/centralized-forms/research/centralized-forms-conversation-guide.md"
       },
       "date": "2026-03",
-      "name": "Conversation Guide for Public Websites Team, Centralized Forms Discovery Research, March 2026",
+      "name": "Centralized Forms Observations from the field",
       "participant_types": [
-        "Veterans"
+        "Dependents"
       ],
       "research_goals": [
         "`2.` **Evaluate Comprehension & Timing of Information on the Form Detail page: Assess if users understand form eligibility, associated tasks, what is needed to complete pre/post form submission, and the intended audience for each form at the right moments in their journey.**"
@@ -28300,16 +28323,16 @@
       "date": "2026-03",
       "name": "Conversation Guide for VA Mobile App Homescreen Research - March 2026",
       "methodology": [
-        "Method 1",
-        "Method 2"
+        "remote moderated concept testing"
       ],
       "participant_types": [
         "Veterans",
         "Dependents"
       ],
       "research_goals": [
-        "Goal 1",
-        "Goal 2"
+        "Understand users' expectations for homescreen content and navigation",
+        "Understand how users interpret and use new design concept's homescreen content and capabilities",
+        "Understand any points of confusion for users on the homescreen content and navigation, including for users with cognitive disabilities"
       ],
       "tags": [
         "AUD: Veterans",
@@ -28326,10 +28349,15 @@
         "semi-structured-interviews",
         "MHV: Pharmacy",
         "MHV: Appointments",
+        "PRDT: Content",
+        "concept-testing",
+        "information-architecture",
+        "navigation",
+        "content-comprehension",
+        "Accessibility",
         "PRDT: VA-Mobile-App",
         "moderated-research",
         "mobile-research",
-        "information-architecture",
         "navigation-design",
         "homescreen-design",
         "prototype-testing"
@@ -31788,6 +31816,11 @@
       "relationship": "sub_product_of"
     },
     {
+      "source": "product-identity-sign-in-experience",
+      "target": "product-identity",
+      "relationship": "sub_product_of"
+    },
+    {
       "source": "product-identity-sign-in-transition",
       "target": "product-identity",
       "relationship": "sub_product_of"
@@ -32476,11 +32509,6 @@
       "source": "team-design-forms-systems",
       "target": "product-platform",
       "relationship": "works_on_product"
-    },
-    {
-      "source": "product-21-2680",
-      "target": "product-find-a-va-form",
-      "relationship": "references_product"
     },
     {
       "source": "product-comparison-tool-enhancements",
@@ -34613,11 +34641,6 @@
       "relationship": "integrates_with"
     },
     {
-      "source": "product-va-mobile-app",
-      "target": "product-find-a-va-form",
-      "relationship": "references_product"
-    },
-    {
       "source": "product-va-notify",
       "target": "system-datadog",
       "relationship": "integrates_with"
@@ -35291,11 +35314,6 @@
       "source": "team-benefits-management-tools-2",
       "target": "research-products-21-2680-research-2026-02-medical-provider-research",
       "relationship": "conducted_research"
-    },
-    {
-      "source": "research-products-21-2680-research-2026-02-medical-provider-research",
-      "target": "product-find-a-va-form",
-      "relationship": "research_references_product"
     },
     {
       "source": "research-products-21-2680-research-2026-02-medical-provider-research",
@@ -42231,11 +42249,6 @@
       "source": "team-benefits-management-tools-2",
       "target": "research-products-va-mobile-app-research-2026-03-homescreen-research",
       "relationship": "conducted_research"
-    },
-    {
-      "source": "research-products-va-mobile-app-research-2026-03-homescreen-research",
-      "target": "product-find-a-va-form",
-      "relationship": "research_references_product"
     },
     {
       "source": "product-va-mobile-app",

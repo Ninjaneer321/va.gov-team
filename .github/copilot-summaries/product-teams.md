@@ -1,6 +1,6 @@
 # Product Team Rosters
 
-> Auto-generated from product README files via `.github/knowledge-graph.json` on 2026-04-13.
+> Auto-generated from product README files via `.github/knowledge-graph.json` on 2026-04-14.
 > Edit the source README, not this file.
 
 22 products have team roster information in their public README.
@@ -41,8 +41,7 @@ For detailed team information (portfolio, crew, research), see [teams.md](teams.
 - **Product owner (VES)**: Natalie Morales
 - **Product owner (VEO)**: Jaime Rocha and Kathleen Reavy
 - **Product Owner (OCTO)**: Becky Phung
-- **Delivery Lead (outgoing)**: Megan Salerno
-- **Delivery Lead (incoming)**: Kaci Bowen
+- **Delivery Lead**: Kaci Bowen
 - **Product Manager**: Stephanie Vargo
 - **Technical Lead**: Jerek Shoemaker
 - **AI Lead/Engineer**: Matt Floyd
