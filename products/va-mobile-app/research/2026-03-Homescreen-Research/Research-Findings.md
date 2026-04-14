@@ -208,15 +208,85 @@ This research was remote moderated concept testing study using Zoom. Participant
    - Updates from the VA  
    - Reminders  
    - Information requiring their review  
-   - Tasks to complete  
+   - Tasks to complete
+```yaml key-finding-labels  
+finding_id: 1
+finding_title: "All participants expect to find items on the homescreen requiring attention and action"
+labels:
+  finding_types:
+    - workflow_insight
+  severity_levels: enhancement
+  research_themes:
+    - user_expectations
+    - mental_models
+  product_areas: []
+  journey_stages: []
+  user_characteristics: []
+  emotional_states: []
+  life_events: []
+  trust_factors: []
+  channel_switching: []
+  temporal_patterns: []
+  design_system_patterns: []
+service_journey_mapping: []
+pattern_triggers: []
+Rationale: This is primarily an insight about expectations/mental models for what belongs on a homescreen (alerts, reminders, tasks), and it doesn’t describe a barrier—so it’s best captured as a workflow/expectations insight with “enhancement” severity.
 2. 6 Participants prefer an uncluttered and streamlined homescreen so they can focus on what’s important
-
+```yaml key-finding-labels
+finding_id: 2
+finding_title: "6 Participants prefer an uncluttered and streamlined homescreen so they can focus on what’s important"
+labels:
+  finding_types:
+    - workflow_insight
+  severity_levels: low
+  research_themes:
+    - pain_points
+    - user_expectations
+  product_areas: []
+  journey_stages: []
+  user_characteristics: []
+  emotional_states:
+    - overwhelmed
+  life_events: []
+  trust_factors: []
+  channel_switching: []
+  temporal_patterns: []
+  design_system_patterns: []
+service_journey_mapping: []
+pattern_triggers: []
+Rationale: This expresses a preference/need around information density and focus (friction but not task-blocking), so “low” fits; the sentiment suggests overwhelm when the homescreen is too busy.
 ### Homescreen organization and functionality
 
 1. Prioritization of homescreen items are driven less by the “Action required” and “Activity” section designations and more by users’ goals habits, perceived time sensitivity of items, and their impact on benefits and pay  
    1. 6 participants find “Action required” easy to understand as “to-do-list” and helpful for drawing attention, but “Activity” header is less clear  
    2. All users expect items in both sections to require attention and action and found the distinction between what belongs where confusing and sometimes contrary to expectations  
    3. Users prioritize reviewing decision letters, messages, appointments, and unusual and unexpected items like copays  
+```yaml key-finding-labels
+finding_id: 3
+finding_title: "Prioritization of homescreen items are driven less by the “Action required” and “Activity” section designations and more by users’ goals habits, perceived time sensitivity of items"
+labels:
+  finding_types:
+    - usability_issue
+  severity_levels: medium
+  research_themes:
+    - content_comprehension
+    - navigation_wayfinding
+    - mental_models
+  product_areas: []
+  journey_stages:
+    - ongoing_management
+  user_characteristics:
+    - experienced_user
+  emotional_states:
+    - confused
+  life_events: []
+  trust_factors: []
+  channel_switching: []
+  temporal_patterns: []
+  design_system_patterns: []
+service_journey_mapping: []
+pattern_triggers: []
+Rationale: Users misunderstand the meaning/intent of “Activity” vs “Action required,” creating confusion about where to look first and what requires action; because it affects prioritization (but not full task completion), “medium” severity is a good fit.
 2. Users find dates helpful for quickly understanding the prioritization of tasks and items surfaced on the homescreen  
    1. All users want dates displayed for items when available, especially for due dates for tasks affecting benefits and payments to help keep them on track   
    2. 6 users would appreciate a time sensitive organization of homescreen items that need their attention  
@@ -243,12 +313,14 @@ All participants found that the Alert, Action required, and Activity section ite
 
 ![Homescreen prototype showing alerts and Action required and Activity sections.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/2026-03-Homescreen-Research/Images/Homescreen-general.png)
 
+
 **Finding 2**  
 6 participants talked about wanting an uncluttered and streamlined homescreen so they can focus on what’s the most important. Participants voiced this when discussing whether homescreen items needed more data on the homescreen, with most feeling only dates when available should be added to reduce clutter. They also voiced this when discussing where Veteran Status Card and Disability status and payments should be on the homescreen, with some saying they wouldn’t want those items on homescreen to reduce clutter. 
 
 "*You can’t have too many things on the screen, because then it just kind of takes away from what you’re trying to do" (P9)*
 
 *“Don’t want the homescreen being uber busy*” (P7)
+
 
 ### Homecreen organization and functionality: 
 
