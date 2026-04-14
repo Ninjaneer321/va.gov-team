@@ -33,6 +33,9 @@ If you are a team member looking for accessibility support, please submit a requ
 
 ## Accessibility Annotations
 - 5/2025 Supplemental Claims - [4142 Updated Legalese inside of accordions open on page load](https://www.figma.com/design/2LGebZcUuu5Iqh4QLPII6A/Supplemental-Claims--VA-0995-?node-id=4891-10005&t=a8rkT4S78uwU5QDd-0)
+- 3/2026 Supplemental Claims Redesign
+  - [Step 3 & 5 Full Flow](https://www.figma.com/design/2LGebZcUuu5Iqh4QLPII6A/Supplemental-Claims--VA-0995-?node-id=10319-38254&t=9gqwCBke8x9tUfaA-0)
+  - [Step 3 Evidence Upload](https://www.figma.com/design/2LGebZcUuu5Iqh4QLPII6A/Supplemental-Claims--VA-0995-?node-id=10970-71346&t=9gqwCBke8x9tUfaA-0)
 
 ## Accessibility 101 Trainings
 Previous:
