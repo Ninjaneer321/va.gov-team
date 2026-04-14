@@ -256,6 +256,7 @@ labels:
 service_journey_mapping: []
 pattern_triggers: []
 Rationale: This expresses a preference/need around information density and focus (friction but not task-blocking), so “low” fits; the sentiment suggests overwhelm when the homescreen is too busy.
+```
 ### Homescreen organization and functionality
 
 1. Prioritization of homescreen items are driven less by the “Action required” and “Activity” section designations and more by users’ goals habits, perceived time sensitivity of items, and their impact on benefits and pay  
@@ -288,24 +289,190 @@ labels:
 service_journey_mapping: []
 pattern_triggers: []
 Rationale: Users misunderstand the meaning/intent of “Activity” vs “Action required,” creating confusion about where to look first and what requires action; because it affects prioritization (but not full task completion), “medium” severity is a good fit.
-
+```
 2. Users find dates helpful for quickly understanding the prioritization of tasks and items surfaced on the homescreen  
    1. All users want dates displayed for items when available, especially for due dates for tasks affecting benefits and payments to help keep them on track   
    2. 6 users would appreciate a time sensitive organization of homescreen items that need their attention  
    3. All users take VA required tasks seriously, are afraid of missing due dates, and 3 would find helpful more highlighting of the dates such as displaying dates in red to make sure they don’t miss them  
+```yaml key-finding-labels
+finding_id: 4
+finding_title: "Users find dates helpful for quickly understanding the prioritization of tasks and items surfaced on the homescreen"
+labels:
+  finding_types:
+    - usability_issue
+  severity_levels: high
+  research_themes:
+    - content_comprehension
+    - task_completion
+  product_areas:
+    - benefits
+    - payment_history
+  journey_stages:
+    - ongoing_management
+  user_characteristics: []
+  emotional_states:
+    - anxious
+  life_events: []
+  trust_factors:
+    - status_uncertainty
+    - confirmation_needed
+  channel_switching: []
+  temporal_patterns: []
+  design_system_patterns: []
+service_journey_mapping: []
+pattern_triggers: []
+Rationale: Lack of clear dates/due dates increases risk of missed time-sensitive tasks affecting benefits/payments; participants expressed fear of missing due dates (anxiety) and needing clarity/confirmation, so “high” is appropriate.
+```
 3. 7 users use physical ID to show their Veteran status, not the app.   
    1. 6 participants felt Veterans status card belonged in Profile while 5 thought Benefits made sense.  
+```yaml key-finding-labels
+finding_id: 5
+finding_title: "7 users use physical ID to show their Veteran status, not the app"
+labels:
+  finding_types:
+    - behavioral_pattern
+  severity_levels: low
+  research_themes:
+    - task_completion
+    - user_expectations
+  product_areas:
+    - profile_account
+  journey_stages:
+    - ongoing_management
+  user_characteristics: []
+  emotional_states: []
+  life_events: []
+  trust_factors: []
+  channel_switching:
+    - digital_to_in_person
+  temporal_patterns: []
+  design_system_patterns: []
+service_journey_mapping: []
+pattern_triggers: []
+Rationale: This is an observed behavior/workaround (using physical ID instead of in-app status card). It may inform prioritization/placement decisions but isn’t a major barrier, so “low” fits.
+```
 4. Some participants stressed the importance of Disability rating while waiting for an update but said that they rarely checked the rating once it had been set.   
    1. 6 expected rating in Benefits, and 5 could see it being useful on the homescreen.  
    2. 9 expected disability payments in the Payments category  
    3. Only 3 found it useful to have both rating and payment on the same page.   
+```yaml key-finding-labels
+finding_id: 6
+finding_title: "Some participants stressed the importance of Disability rating while waiting for an update but said that they rarely checked the rating once it had been set"
+labels:
+  finding_types:
+    - workflow_insight
+  severity_levels: medium
+  research_themes:
+    - personalization_expectations
+    - mental_models
+  product_areas:
+    - disability_compensation
+  journey_stages:
+    - ongoing_management
+  user_characteristics: []
+  emotional_states:
+    - anxious
+  life_events: []
+  trust_factors:
+    - status_uncertainty
+  channel_switching: []
+  temporal_patterns:
+    - life_stage_dependent
+  design_system_patterns: []
+service_journey_mapping: []
+pattern_triggers: []
+Rationale: Importance changes by “waiting for update” vs “already set,” which is a strong signal for conditional/personalized surfacing. Anxiety/status uncertainty is implied during the waiting period; severity is “medium” because it affects information needs and focus, not a hard block.
+```
 5. 8 participants expected to find dependents in Benefits since it affects the amount of benefits they would receive.   
+```yaml key-finding-labels
+finding_id: 7
+finding_title: "8 participants expected to find dependents in Benefits since it affects the amount of benefits they would receive"
+labels:
+  finding_types:
+    - workflow_insight
+  severity_levels: medium
+  research_themes:
+    - navigation_wayfinding
+    - mental_models
+    - user_expectations
+  product_areas:
+    - benefits
+  journey_stages:
+    - ongoing_management
+  user_characteristics: []
+  emotional_states:
+    - confused
+  life_events: []
+  trust_factors: []
+  channel_switching: []
+  temporal_patterns: []
+  design_system_patterns: []
+service_journey_mapping: []
+pattern_triggers: []
+Rationale: This is about where users expect to find a capability/info (dependents) based on their mental model of benefits impacts; mismatch can cause search friction/confusion (medium).
+```
 6. Users want to handle tasks directly from the homescreen when given the opportunity, but are concerned about committing to an action that they believe is completed with one click if they feel they won’t have adequate time to review beforehand.
-
+```yaml key-finding-labels
+finding_id: 8
+finding_title: "Users want to handle tasks directly from the homescreen when given the opportunity, but are concerned about committing to an action that they believe is completed with one click"
+labels:
+  finding_types:
+    - usability_issue
+  severity_levels: high
+  research_themes:
+    - task_completion
+    - trust_credibility
+    - error_handling
+  product_areas:
+    - payment_history
+    - prescriptions
+  journey_stages:
+    - ongoing_management
+  user_characteristics: []
+  emotional_states:
+    - anxious
+  life_events: []
+  trust_factors:
+    - confirmation_needed
+  channel_switching: []
+  temporal_patterns: []
+  design_system_patterns: []
+service_journey_mapping: []
+pattern_triggers: []
+Rationale: Fear of unintended one-click commitment is a trust/confirmation problem that can prevent users from taking action (or push them to slower paths). Because it impacts payments/refills and can block action, “high” severity is appropriate.
+```
 ### Refill prescription \- content
 
 1. 6 participants, including all 4 users with cognitive disabilities misunderstood or had slight confusion about prescription “updates” and “refill ready” meant.
-
+```yaml key-finding-labels
+finding_id: 9
+finding_title: "6 participants, including all 4 users with cognitive disabilities misunderstood or had slight confusion about prescription “updates” and “refill ready” meant."
+labels:
+  finding_types:
+    - content_confusion
+  severity_levels: medium
+  research_themes:
+    - content_comprehension
+    - mobile_experience
+    - task_completion
+  product_areas:
+    - prescriptions
+  journey_stages:
+    - ongoing_management
+  user_characteristics:
+    - cognitive_considerations
+  emotional_states:
+    - confused
+  life_events: []
+  trust_factors:
+    - confirmation_needed
+  channel_switching: []
+  temporal_patterns: []
+  design_system_patterns: []
+service_journey_mapping: []
+pattern_triggers: []
+Rationale: The issue is specifically unclear terminology that affects understanding of prescription status/actions; it impacts task success but is described as “slight confusion” (not complete failure), so “medium” fits. Cognitive considerations are explicitly relevant.
+```
 ## Details of Findings
 
 ### Homesceen \- general: 
