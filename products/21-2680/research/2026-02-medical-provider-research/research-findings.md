@@ -416,20 +416,6 @@ We tested directly from the [staging environment](https://staging.va.gov/pension
 
 [2680 Figma file](https://www.figma.com/design/cvZN6kMZSMcczGLxJJK5NK/VA-Form-21-2680?node-id=0-1&t=nbCEL11iYLwIeeY9-1)
 
-
-### Secondary research
-
-*Include any relevant secondary research, e.g., web analytics, SME interviews.*  
-
-> [!IMPORTANT]
-> **After completing the demographic information below and saving this file**, use the [GitHub Copilot Research Findings Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md) to automatically populate the YAML frontmatter section at the top of this document with: 
-> - Participant demographics (counts, age ranges, education levels, etc.)
-> - Key findings and recommendations
-> - Research goals and methodology
-> - Appropriate research repository tags
->
-> The prompt will parse the demographic data from this section and structure it correctly for the frontmatter's nested YAML format. 
-
 ### Research participants 
 
 #### Demographics 
