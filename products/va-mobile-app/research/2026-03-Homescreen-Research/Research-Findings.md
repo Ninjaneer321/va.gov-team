@@ -553,7 +553,7 @@ This research does not include the perspectives of the following marginalized Ve
 
 ### Recruitment of underserved groups in \[2026-03 Homescreen Concept Testing\]
 
-\!\[Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image\](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/2026-03-Homescreen-Research/Images/Participant-demographics.png)
+![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/2026-03-Homescreen-Research/Images/Participant-demographics.png)
 
 #### A more accessible version of the table in the above image
 
