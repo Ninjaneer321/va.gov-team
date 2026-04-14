@@ -248,20 +248,6 @@ For the "form walkthrough," we didn't have a testing environment we could share 
 
 Each session had one facilitator and one note taker. Some sessions had one or two observers.
 
-## Hypotheses and Conclusions
-
-*List hypotheses explored in the research and the conclusions drawn. If applicable, list the success or task completion rate.*
-
-> [!TIP]
-> Place true or false statements in bold for easier scanability
-
-- **Hypothesis Statement:** [Insert statement]  
-  - **"Maybe True", “Likely True”, “Definitely True”, “Likely False”, “Definitely False” or “Not enough information”**  
-  - Supporting evidence  
-
-[Example Hypotheses and Conclusions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#hypotheses-and-conclusions)
-
-
 ## Key Findings
 
 1. Most participants who were filling out 21-2680 for someone else (eg: a parent they give care to) did not correctly choose the "claimant" for the form, and all but one of these needed to be prompted before submitting an incorrect claim.
