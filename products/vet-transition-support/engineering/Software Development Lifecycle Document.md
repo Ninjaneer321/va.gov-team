@@ -103,6 +103,56 @@ They can be toggled via Flipper:
 - [Staging Flipper](https://staging.api.va.gov/flipper/features)
 - [Production Flipper](https://api.va.gov/flipper/features)
 
+###### ⚠️ Limitations and common pitfalls
+
+While feature toggles are powerful, there are important implementation constraints and gotchas to be aware of:
+
+1. Feature toggles rely on React and Redux context
+   - Feature flags are typically accessed via the Redux store (`state.featureToggles`) or helper utilities/hooks.
+   - This means they are only reliably available within React components or functions that have access to the Redux state.
+  
+    You generally cannot safely use feature toggles in:
+    - Static module scope (top-level file code)
+    - Non-React utility files (unless state is explicitly passed in)
+    - Build-time configuration files
+  
+2. Avoid using toggles outside React components without explicitly passing state
+   If you attempt to use a feature toggle in a plain JavaScript module (e.g., a helper function), it will not have access to the Redux store unless you:
+   - Pass the toggle value in as a parameter, or
+   - Call it from within a React component/container that already has access to state
+
+  ✅ Recommended pattern:
+  ```javascript
+  // In a React component
+  const isEnabled = useSelector(state => state.featureToggles.myFeature);
+  
+  myHelperFunction({ isEnabled });
+  ```
+  🚫 Anti-pattern:
+  ```javascript
+  // In a standalone utility/config file (no access to Redux)
+  if (featureToggles.myFeature) {
+    // will not work reliably
+  }
+  ```
+3. Feature toggles are not available at build time
+   - Feature flags are resolved at runtime via API + Redux hydration
+   - They cannot be used for code that runs before the app initializes, such as:
+      - Imports
+      - Route definitions at module load time
+      - Static config objects
+    
+4. Use component-level gating
+   - The safest and most maintainable pattern is to gate features **at the component rendering level**.
+     e.g. 
+     ```javascript
+      {isFeatureEnabled && <NewComponent />}
+     ```
+     This ensures:
+      - Proper access to state
+      - Predictable rendering behavior
+      - Easier cleanup later
+
 ###### Using feature toggles for a rollout
 
 Once the feature has been tested in staging, coordinate with the product manager to determine when to enable it in production. After enabling, keep the toggle in place for at least a few weeks to monitor behavior in production. The recommended maximum duration is 4 weeks, unless otherwise agreed upon.
