@@ -68,7 +68,8 @@ We recommend that the rollout plan has five stages, each increasing the number o
 * **What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")**?: **Work in Progress**   
   * Debts controller latency (measure of time for when the debts come through and when they are able to respond): Average latency under 2 seconds over the last 24 hours
   * DMC Get Debts Endpoint Success (Mobile equivalent) %: 99% or better
-  * DMC Get Debts Endpoint Failure (Mobile equivalent) %: Less than 1%   
+  * DMC Get Debts Endpoint Failure (Mobile equivalent) %: Less than 1%
+  * **Note**: When we review success/failure %, we should also look at the total request volume behind those numbers. That gives us better context, since early in rollout, a small amount of traffic can make those percentages look noisier than the actual trend.
 * Who is monitoring the dashboard(s)?: Natalie Gibbons, Matt Guest, and FM Management Team BE 
 
 ### **Stage A: Canary**
@@ -84,7 +85,8 @@ We recommend that the rollout plan has five stages, each increasing the number o
 * Metrics at this stage (per your "success criteria"):  
   * Debts controller latency index(measure of time for when the debts come through and when they are able to respond): 
   * DMC Get Debts Endpoint Success (Mobile equivalent) %: 
-  * DMC Get Debts Endpoint Failure (Mobile equivalent) %:   
+  * DMC Get Debts Endpoint Failure (Mobile equivalent) %:
+  * **Note**: When we review success/failure %, we should also look at the total request volume behind those numbers. That gives us better context, since early in rollout, a small amount of traffic can make those percentages look noisier than the actual trend. 
 * Was any downstream service affected by the change?:   
 * Types of errors logged:   
 * What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? 
@@ -102,7 +104,8 @@ We recommend that the rollout plan has five stages, each increasing the number o
 * Metrics at this stage (per your "success criteria"):  
   * Debts controller latency index(measure of time for when the debts come through and when they are able to respond): 
   * DMC Get Debts Endpoint Success (Mobile equivalent) %: 
-  * DMC Get Debts Endpoint Failure (Mobile equivalent) %:   
+  * DMC Get Debts Endpoint Failure (Mobile equivalent) %:
+  * **Note**: When we review success/failure %, we should also look at the total request volume behind those numbers. That gives us better context, since early in rollout, a small amount of traffic can make those percentages look noisier than the actual trend.  
 * Was any downstream service affected by the change?:   
 * Types of errors logged:   
 * What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? 
@@ -120,7 +123,8 @@ We recommend that the rollout plan has five stages, each increasing the number o
 * Metrics at this stage (per your "success criteria"):  
   * Debts controller latency index(measure of time for when the debts come through and when they are able to respond): 
   * DMC Get Debts Endpoint Success (Mobile equivalent) %: 
-  * DMC Get Debts Endpoint Failure (Mobile equivalent) %:    
+  * DMC Get Debts Endpoint Failure (Mobile equivalent) %:
+  * **Note**: When we review success/failure %, we should also look at the total request volume behind those numbers. That gives us better context, since early in rollout, a small amount of traffic can make those percentages look noisier than the actual trend.   
 * Was any downstream service affected by the change?:   
 * Types of errors logged:  
 * What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? 
