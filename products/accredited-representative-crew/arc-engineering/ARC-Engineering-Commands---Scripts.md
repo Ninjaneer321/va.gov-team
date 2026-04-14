@@ -1,5 +1,6 @@
 ## Setup ARP Staging Users
-- In a Staging rails console, run `bundle exec rake accredited_representative_portal:setup_staging_users`
+- In a Staging teminal, run `bundle exec rake accredited_representative_portal:setup_staging_users`
+  - You don't need to open a rails console session.  Just run the command from directly in the terminal.
 
 ---
 
