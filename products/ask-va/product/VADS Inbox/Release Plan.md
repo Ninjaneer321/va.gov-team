@@ -38,6 +38,6 @@ Feature toggles/flags:
 + Smoke test following `ask_va_enhanced_inbox`, feature flag enablement.
 
 ## Go/No Go Meeting (to be scheduled, contingent on staging review)
-+ [ ] Release plan has been reviewed and acquired final approval by VFS Product Owner, Becky Phung. 
++ [x] Release plan has been reviewed and acquired final approval by VFS Product Owner, Becky Phung. 
 + [ ] Release plan has been reviewed with all team members.
 + [ ] Release date finalized and confirmed `insert date`.
