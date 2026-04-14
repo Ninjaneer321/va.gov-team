@@ -240,13 +240,13 @@ Each session had one facilitator and one note taker. Some sessions had one or tw
 2. Most participants struggled to understand the difference between Special Monthly Compensation and Special Monthly Pension, the two benefits described by this form, and found it difficult to make a choice.
 3. Most participants had one or more issues understanding the two-step process involved in the current implementation of the "online" version of 2680, which requires a manual handoff to a medical provider.
 4. Some participants struggled to begin the application process, either because they didn't see how to begin or were confused as to whether this benefit would apply to them
-5.  Most participants were confused by the order of the insstructions on the confirmation page, or were looking for more clarity.
-6.  Almost all participants struggled with the definition of the term "hospital care."
-7. _finding having to with other language things_
+5. Most participants were confused by the order of the insstructions on the confirmation page, or were looking for more clarity.
+6. Almost all participants struggled with the definition of the term "hospital care."
+7. Most participants found other language somewhat confusing throughout the form.
 
 ## Details of Findings 
 
-### _finding having to do with choosing the wrong claimant_
+### 1. Most participants who were filling out 21-2680 for someone else (eg: a parent they give care to) did not correctly choose the "claimant" for the form, and all but one of these needed to be prompted before submitting an incorrect claim.
 A majority of participants who were filling out 21-2680 for someone else (eg: a parent they give care to) answered this question incorrectly, rendering the rest of the application invalid. 
 
 Only one participant realized the error before submitting the form. 
@@ -255,15 +255,12 @@ Only one participant realized the error before submitting the form.
 - _"At first I was going to say Veteran. But then I would look at it as myself if I was filing this out. I’m the claimant. I looked and I thought I could put Veteran but I got confused if its looking for someone that is filling out for someone else but they are a veteran. So I looked at veteran’s child even though its my FIL. It confused me. If the claimant is the veteran but not THE veteran filling it out."_
 - _"That's the person that's making the file. That's, you know, that's putting in the information.” “Because if I'm feeling that for myself, then I will be the veteran, but if I'm filling it out for him, then I will be the veteran spouse, because he's my husband."_
 
-### _finding having to do with choosing a benefit_
+### 2. Most participants struggled to understand the difference between Special Monthly Compensation and Special Monthly Pension, the two benefits described by this form, and found it difficult to make a choice.
 A majority of participants struggled to understand the difference between the two benefits, and which they should select.  Some people figured it out by process of elimination if they did not receive pension. One person stated they would  pause the application to call a friend or the VA.
 - _Supporting data: Quote [add context]_
 
-### _finding having to do with struggling to understand the handoff process_
-It wasn’t clear to some participants that this is a two-step process that would eventually involve a third party before they began the form. And, despite the existing instructions, several participants struggled to understand what they needed to do specifically at the end of the form. They didn’t necessarily know how they might get this form to a doctor, or gave us feedback that printing it might be a challenge. Some participants were concerned that they hadn’t yet provided any health information about themselves by the time they got to the end of the form, while others were not clear that they would need to get this form to a medical provider to completely finish their application.
-- _Supporting data: Quote [add context]_
-
 ### 3. Most participants had one or more issues understanding the two-step process involved in the current implementation of the "online" version of 2680, which requires a manual handoff to a medical provider.
+It wasn’t clear to some participants that this is a two-step process that would eventually involve a third party before they began the form. And, despite the existing instructions, several participants struggled to understand what they needed to do specifically at the end of the form. They didn’t necessarily know how they might get this form to a doctor, or gave us feedback that printing it might be a challenge. Some participants were concerned that they hadn’t yet provided any health information about themselves by the time they got to the end of the form, while others were not clear that they would need to get this form to a medical provider to completely finish their application.
 - _Supporting data: Quote [add context]_
 
 ### 4. Some participants struggled to begin the application process, either because they didn't see how to begin or were confused as to whether this benefit would apply to them
@@ -275,9 +272,8 @@ It wasn’t clear to some participants that this is a two-step process that woul
 ### 6.  Almost all participants struggled with the definition of the term "hospital care."
 - _Supporting data: Quote [add context]_
 
-### 7. _finding having to with other language things_
+### 7. Most participants found other language somewhat confusing throughout the form.
 - _Supporting data: Quote [add context]_
-
 
 ---
 
@@ -291,7 +287,7 @@ It wasn’t clear to some participants that this is a two-step process that woul
 - Participants who were confident their provider could fill this out based on medical records have a much lower burden than those who need to go into the office for an exam
 - _"I feel like it would be easier to send my 2,000-plus medical record to an outside doctor, and have them fill this out and upload it, than it would be for me to have my VA doctor do it, and that's the honest-to-God truth, and it's sad to say, but that's how I really feel."_
 
-### Additional insightful quote
+### Additional insightful quotes
 - _"If they are giving benefits for people that are housebound and can’t get out [of the house] but to get the benefits you have to get out [of the house]. Let me tell you, brother, it's no picnic."_
 
 ## Recommendations
