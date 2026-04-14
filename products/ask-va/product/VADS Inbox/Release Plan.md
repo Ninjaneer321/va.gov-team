@@ -9,7 +9,7 @@ Feature toggles/flags:
 + Enabled for 100% authenticated user population.
 
 ## Rollback Plan
-+ `ask_va_enhanced_inbox` feature flag will be disabled if there is a production issue event.
++ `ask_va_enhanced_inbox` feature flag will be disabled if there is a production issue/event.
 + Disabling the feature flag will roll all users back to the previous inbox experience.
 + Team alert notification in #ask-va-va_gov channel
   + Relevant team members will be tagged.
@@ -35,6 +35,6 @@ Feature toggles/flags:
 + Smoke test following `ask_va_enhanced_inbox`, feature flag enablement.
 
 ## Go/No Go Meeting (to be scheduled, contingent on staging review)
-+ [ ] Release plan has been reviewed and acquired final approvald by VFS Product Owner, Becky Phung. 
++ [ ] Release plan has been reviewed and acquired final approval by VFS Product Owner, Becky Phung. 
 + [ ] Release plan has been reviewed with all team members.
-+ [ ] Release date finalized and confirmed.
++ [ ] Release date finalized and confirmed `insert date`.
