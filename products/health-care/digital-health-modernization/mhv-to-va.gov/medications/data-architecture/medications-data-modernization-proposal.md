@@ -270,6 +270,195 @@ Modeled after a standard **Source → Raw → dbt Transform → Semantic Layer �
 
 ---
 
+## Product Opportunities Unlocked by Architecture Modernization
+
+### Industry Context
+
+The private-sector pharmacy industry has moved aggressively into AI-powered pharmacy care. CVS runs a Databricks Lakehouse with ML personalization engines. Walgreens operates robotic micro-fulfillment centers processing 50K prescriptions/day. Express Scripts uses predictive analytics to prevent therapy lapses. Amazon Pharmacy auto-ships before patients run out. Every one of these capabilities requires **normalized, entity-level data** — exactly what the proposed architecture creates and what the current mega-object prevents.
+
+The VA has a head start in some areas — the **IIA Predictive Modeling System** already uses explainable AI for chronic disease risk, and **VHA Directive 1108.21** mandates pharmacy clinical informatics. But the MHV Medications frontend can't participate in any of this because its data model is a flat blob with no entity identity, no event history, and no EHR provenance.
+
+---
+
+### Opportunity 1: Predictive Refill Timing & Auto-Refill
+
+**What industry does:** CVS and Walgreens use ML models to predict when a patient will need their next refill based on fill history, adherence patterns, and medication type — then proactively initiate the refill or send a precisely-timed reminder. Amazon Pharmacy auto-ships before patients run out.
+
+**Why we can't do it today:** Refill history is a positional array (`rxRfRecords[0]`) with no stable identity, no `requested_date` as a discrete field, and the parent Rx's dates get overwritten by the latest fill. You can't build a time-series model on data that destroys its own history.
+
+**Entities required:**
+
+| Entity | Field | Purpose |
+|---|---|---|
+| REFILL | `requested_date` | Time-series of request intervals per veteran per medication |
+| REFILL | `canonical_dispense_date` | Actual fulfillment dates (normalized across VistA/OH) |
+| REFILL | `sequence_number` | Explicit ordering enables gap detection |
+| MEDICATION | `medication_id` | Group refill patterns by drug, not just by prescription |
+| PRESCRIPTION | `fills_remaining` | Remaining fills as a countdown signal |
+
+**Product feature:** *"We predict you'll need your Amlodipine refill in 3 days based on your fill pattern. Would you like us to request it now?"* — surfaced as a proactive banner on the medications list page, or as a push notification if the veteran has opted in.
+
+---
+
+### Opportunity 2: Medication Adherence Scoring & Intervention
+
+**What industry does:** Express Scripts and CVS build per-patient adherence scores using Proportion of Days Covered (PDC) — the gold-standard measure in pharmacy. Patients below threshold trigger pharmacist outreach, automated reminders, or care team alerts. CVS reported measurable increases in adherence rates from AI-driven interventions.
+
+**Why we can't do it today:** PDC requires: (a) the date each fill was dispensed, (b) the days-supply of each fill, (c) the total observation window. With the mega-object, `dispensedDate` is overwritten by the latest RF record on the list endpoint, there's no discrete fill-level days-supply, and there's no Medication entity to compute PDC across prescription renewals for the same drug.
+
+**Entities required:**
+
+| Entity | Field | Purpose |
+|---|---|---|
+| REFILL | `canonical_dispense_date` | Each fill's actual dispense date (not overwritten) |
+| PRESCRIPTION | `quantity` | Days-supply calculation per fill |
+| MEDICATION | `medication_id` | Link refills across prescription renewals for the same drug |
+| REFILL_STATUS_EVENT | `status`, `status_date` | Detect "stuck" refills (requested but never dispensed) |
+
+**Product feature:** Per-veteran, per-medication adherence score visible to the veteran (*"You've taken 87% of your prescribed Metformin doses this year"*) and flagged to the care team when below threshold. The VA's IIA Predictive Modeling System could consume this score directly as a feature.
+
+---
+
+### Opportunity 3: Drug Interaction Detection & Safety Alerts
+
+**What industry does:** Every major pharmacy chain runs real-time drug-drug interaction checking at point of dispense. CVS and Walgreens use AI to cross-reference full medication profiles, lab results, and patient conditions. Alto Pharmacy flags interactions with personalized pharmacist consultations.
+
+**Why we can't do it today:** There is no Medication entity. Two prescriptions for the same drug are just two rows with the same `prescriptionName` string — there's no graph of what drugs a veteran is taking. You can't build an interaction checker against string comparisons; you need a drug identity linked to an interaction database (via NDC).
+
+**Entities required:**
+
+| Entity | Field | Purpose |
+|---|---|---|
+| MEDICATION | `ndc` | Linkable to FDA drug interaction databases, RxNorm, NDF-RT |
+| MEDICATION | `medication_id` | Deduplicated drug list per veteran (even across prescriptions) |
+| PRESCRIPTION | `canonical_status` | Only check interactions for active medications |
+| MEDICATION | `is_active` | Formulary-level active/inactive status |
+
+**Product feature:** When a new prescription appears, automatically check it against all other active medications for the veteran and surface warnings: *"⚠️ Amlodipine may interact with Lisinopril. Talk to your provider."* This is table-stakes for commercial pharmacies that the VA currently cannot offer through the medications tool.
+
+---
+
+### Opportunity 4: Refill SLA Monitoring & Delay Prediction
+
+**What industry does:** Amazon Pharmacy and Capsule provide real-time delivery ETAs. Walgreens' robotic fulfillment centers track every step from receipt to dispense to ship. When delays occur, patients are proactively notified.
+
+**Why we can't do it today:** The app has a hardcoded 7-day heuristic (`isRefillTakingLongerThanExpected`) that checks if `refillDate` or `refillSubmitDate` is older than 7 days. There's no event history to track *where* in the pipeline the delay occurred, no way to distinguish "pharmacy hasn't started" from "filled but not shipped" from "shipped but not delivered."
+
+**Entities required:**
+
+| Entity | Field | Purpose |
+|---|---|---|
+| REFILL_STATUS_EVENT | `status`, `status_date` | Full event timeline: requested → processing → filled → shipped → delivered |
+| REFILL_STATUS_EVENT | `status_date` intervals | Measure duration at each stage |
+| SHIPMENT | `shipped_at`, `delivered_at` | Precise shipping lifecycle |
+| REFILL | `source_ehr` | Track if delays correlate with VistA vs OH facilities |
+
+**Product feature:** Replace the binary "taking longer than expected" alert with a real-time process tracker: *"Your refill was requested 3 days ago → pharmacy received it 1 day ago → estimated ship date: April 17."* And for the operations team: dashboards showing avg time at each stage, by facility, by EHR source.
+
+---
+
+### Opportunity 5: Intelligent Prescription Renewal Workflow
+
+**What industry does:** Express Scripts proactively identifies prescriptions approaching expiration and auto-initiates renewal workflows with the prescriber. CVS uses AI to determine the optimal time to begin the renewal process based on refill history and prescriber response patterns.
+
+**Why we can't do it today:** `expirationDate` might be a cancel date (misleading field name), `fills_remaining` is overwritten by the latest RF record, and there's no event tracking for renewal requests. The current renewal flow (navigate to secure messaging, compose a message) is entirely manual with no intelligence about timing.
+
+**Entities required:**
+
+| Entity | Field | Purpose |
+|---|---|---|
+| PRESCRIPTION | `fills_remaining` | Accurate count (not overwritten) |
+| PRESCRIPTION | `expiration_date` | True expiration vs cancel disambiguation |
+| REFILL | `sequence_number` | How many fills have been used |
+| MEDICATION | `medication_id` | Check if the drug is available in a different Rx that still has fills |
+| REFILL_STATUS_EVENT | Full lifecycle | Track renewal request → approval → new Rx |
+
+**Product feature:** *"Your Lisinopril has 0 refills left and expires in 21 days. Based on your fill history, we recommend requesting a renewal now. [Send renewal request]"* — with the renewal tracked as a first-class event, not a fire-and-forget secure message.
+
+---
+
+### Opportunity 6: Veteran-Facing Conversational AI (LLM/RAG)
+
+**What industry does:** Amazon Pharmacy and Alto offer chat-based medication Q&A. CVS is rolling out AI-powered virtual assistants for pharmacy questions. These systems need structured, queryable data to ground their responses.
+
+**Why we can't do it today:** An LLM cannot reliably answer "when will my refill arrive?" by parsing a mega-object with overwritten dates, dual-meaning fields, and positional arrays. RAG (Retrieval-Augmented Generation) requires entities with clear semantics and typed relationships to retrieve precise context.
+
+**Entities required:**
+
+| Entity | Field | Purpose |
+|---|---|---|
+| All 6 entities | Typed relationships | Knowledge graph for RAG retrieval |
+| REFILL_STATUS_EVENT | `status`, `status_date` | Ground truth for "where is my refill?" |
+| SHIPMENT | `tracking_number`, `carrier` | Direct answer to "how do I track my package?" |
+| MEDICATION | `indication_for_use`, `sig` | Answer "what is this for?" and "how do I take it?" |
+| All entities | `source_ehr` | LLM can explain *why* information may be limited |
+
+**Example interactions:**
+
+- *"When will my blood pressure medication arrive?"* → queries REFILL + SHIPMENT
+- *"Can I take this with my other medications?"* → queries MEDICATION interaction graph
+- *"Why can't I refill this?"* → queries PRESCRIPTION.canonical_status + REFILL_STATUS_EVENT + transition phase
+- *"Show me my refill history for the last year"* → queries REFILL with time range
+
+---
+
+### Opportunity 7: Error Source Attribution & Self-Healing Systems
+
+**What industry does:** CVS's intelligent automation platform uses AI to detect and route pharmacy errors before they reach patients. Walgreens' robotic systems self-correct dispensing errors in real-time.
+
+**Why we can't do it today:** When an API error occurs, the Datadog action is a flat string like `"Refill Button - List Page"` with no entity context. You can't determine: was this a VistA error or an OH error? Was it a specific facility in transition? Was the refill already in a blocked state?
+
+**Entities required:**
+
+| Entity | Field | Purpose |
+|---|---|---|
+| All entities | `source_ehr` | Instant error attribution: VistA vs OH |
+| PRESCRIPTION | `station_number` | Facility-level error isolation |
+| REFILL_STATUS_EVENT | `status` | Was the refill in a valid state when the action was attempted? |
+| `fct_error_lineage` | dbt model | Pre-computed error → entity → EHR → facility join |
+
+**Product feature:** Self-healing error handling: *"This refill couldn't be submitted because your Spokane facility is transitioning to a new system. Refills will be available again after April 11. We'll notify you when this is ready."* — instead of the current generic *"There's a problem with our system."* And for engineering: auto-suppression of known transition-phase errors so they don't page on-call.
+
+---
+
+### Opportunity 8: Population Health Analytics for VA Leadership
+
+**What industry does:** Express Scripts provides payer-level analytics on formulary utilization, adherence trends, and cost optimization. CVS's data platform feeds population-level insights to health plan partners.
+
+**Why we can't do it today:** No Medication entity means you can't aggregate at the drug level across veterans. No Refill entity means you can't compute fulfillment rates. No `source_ehr` means you can't compare VistA vs OH performance.
+
+**Metrics unlocked:**
+
+| Metric | Stakeholder question it answers |
+|---|---|
+| `refill_fulfillment_rate` by facility | "Which VA pharmacies are underperforming?" |
+| `avg_days_to_dispense` by source_ehr | "Is Oracle Health slower than VistA?" |
+| `prescription_lapse_rate` by medication | "Which drugs have the highest abandonment?" |
+| `ehr_parity_score` over time | "Is the OH migration improving or degrading the experience?" |
+| `adherence_score` by veteran cohort | "Are younger veterans less adherent? Rural vs urban?" |
+
+---
+
+### Capability Gap Analysis: VA vs Industry
+
+| Capability | CVS | Walgreens | Amazon Pharmacy | VA Today | VA After |
+|---|---|---|---|---|---|
+| Predictive refill timing | ✅ | ✅ | ✅ | ❌ | ✅ |
+| Adherence scoring (PDC) | ✅ | ✅ | ✅ | ❌ | ✅ |
+| Drug interaction detection | ✅ | ✅ | ✅ | ❌ | ✅ |
+| Real-time refill stage tracking | ⚠️ | ✅ | ✅ | ❌ (7d heuristic) | ✅ |
+| Intelligent renewal workflow | ✅ | ⚠️ | ✅ | ❌ (manual SM) | ✅ |
+| Conversational AI (LLM) | 🔄 rolling out | ❌ | ✅ | ❌ | ✅ |
+| Error source attribution | ✅ | ✅ | ✅ | ❌ (flat strings) | ✅ |
+| Population health analytics | ✅ | ✅ | ✅ | ⚠️ (CDW only) | ✅ |
+| EHR parity monitoring | N/A | N/A | N/A | ❌ | ✅ |
+
+> **Key insight:** The VA has a unique advantage that commercial pharmacies don't — the IIA Predictive Modeling System and a research-grade Corporate Data Warehouse already in place. What's missing is the entity-level data model that feeds them with clean, normalized, provenance-tracked medication events. That's exactly what this architecture provides.
+
+> Every one of these capabilities becomes a tractable engineering problem once you have discrete Medication, Prescription, Refill, and Shipment entities with stable PKs, typed relationships, and EHR provenance. Without them, each capability is a bespoke data-wrangling project that has to re-solve the mega-object decomposition problem from scratch.
+
+---
+
 ## Discussion Questions
 
 1. **Warehouse platform:** Should we advocate for Snowflake, BigQuery, or align with whatever DAIMO selects?
