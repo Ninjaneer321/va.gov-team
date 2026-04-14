@@ -1,8 +1,6 @@
 # 1095-B Tax Form Product Outline
-### Staging URL
-https://staging.va.gov/records/download-your-irs-1095-b/
-### Documentation of Current Production Experience
-https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/1095b-tax-form/v2-IIR/use-cases.md
+#### [Staging URL](https://staging.va.gov/records/download-your-irs-1095-b/)
+#### [Documentation of Current Production Experience](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/1095b-tax-form/v2-IIR/use-cases.md)
 
 ---
 
