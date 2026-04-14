@@ -46,8 +46,9 @@ This document is a high level, top of mind summary of observations that stood ou
 **Observation #5: The “download/open PDF help” microcopy is often ignored as fluff by confident users, but becomes relevant only when something breaks (and can confuse less tech-savvy users)**
 - More confident users skim past PDF help text and only use it if the download fails. Some were confused between 'free pdf reader' and 'browser', not recognizing the difference. Some thought that the note was specific to this form only and wouldn't be fillable on the computer rather than general helper text. And some completely ignored it and were confident they could convert the pdf to fillable even if the VA seemed to be indicating they could not.
 > P6: “The whole use a free PDF reader… that’s gonna confuse older people.”
->
-> **Other Observations/Limitations**
+> P11: "That note is for other people."
+
+**Other Observations/Limitations**
 > Did not see much usage of breadcrumbs or navigation between pages since users were not actually filling forms. Instead, lots of scrolling for CTA's if navigating the benefit hubs. 
 > Discussion of authenticated experience and app expectations around forms.
 > Travel Pay forms were consistently mentioned, including one deep dive discussion
