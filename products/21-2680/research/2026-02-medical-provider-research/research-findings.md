@@ -239,8 +239,8 @@ Each session had one facilitator and one note taker. Some sessions had one or tw
 1. Most participants who were filling out 21-2680 for someone else (eg: a parent they give care to) did not correctly choose the "claimant" for the form, and all but one of these needed to be prompted before submitting an incorrect claim.
 2. Most participants struggled to understand the difference between Special Monthly Compensation and Special Monthly Pension, the two benefits described by this form, and found it difficult to make a choice.
 3. Most participants had one or more issues understanding the two-step process involved in the current implementation of the "online" version of 2680, which requires a manual handoff to a medical provider.
-4. Some participants struggled to begin the application process, either because they didn't see how to begin or were confused as to whether this benefit would apply to them
-5. Most participants were confused by the order of the insstructions on the confirmation page, or were looking for more clarity.
+4. Some participants struggled to begin the application process, either because they didn't see how to begin 
+5. Several participants did not have confidence starting the form, because they weren't sure if this benefit would apply to them according to the instructions.
 6. Almost all participants struggled with the definition of the term "hospital care."
 7. Most participants found other language somewhat confusing throughout the form.
 
@@ -272,7 +272,7 @@ Some participants saw the Intro page as instructions, but not necessarily the �
 - When asked what they would do next to apply, while looking at the Introduction page for the form: _"I’d probably go online, look for a PDF."_
 - _"[It] threw me off at number 5 where it said ‘upload.’ That’s the first thing I looked at because it was bolder and bigger than the ‘start your application’."_
 
-### Several participants did not have confidence starting the form, because they weren't sure if this benefit would apply to them according to the instructions.
+### 5. Several participants did not have confidence starting the form, because they weren't sure if this benefit would apply to them according to the instructions.
 Several participants wondered whether SMC was funding for a professional, or support funding for a family member giving care. They wondered if the funds would be going to them or the third party.
 
 Several other participants wondered if they already had some version of this benefit, and even reported already having a home health aid. This was confusing for them because they wondered if there was still more they could apply for.
