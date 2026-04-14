@@ -54,6 +54,8 @@ Work with your OCTO leads to determine if a **maintenance window** or **feature 
 > **⚠️ CRITICAL: Protecting Veterans is the top priority.**
 >**If the impact is clearly severe** (widespread 500s, core functionality completely blocked, Veterans unable to complete critical actions, etc.) **and OCTO leads are unavailable or unresponsive, do not wait.** The on-call engineer or Technical Lead has the authority — and the responsibility — to initiate a maintenance window or roll back a broken deployment immediately. Err on the side of protecting Veterans; you can always reverse the decision once leadership is available. Notify your OCTO leads as soon as possible after taking action.
 
+Once veteran impact is confirmed, **notify stakeholders and the help desk** per the [Communication — Who to Notify](#who-to-notify) section below.
+
 ### 3. Track
 
 Start an incident investigation document using the [Incident Investigation Traceability Template][traceability-template].
@@ -236,6 +238,40 @@ For detailed debugging procedures, see: [In-Depth Debugging Guide][debug-guide]
 ---
 
 ## Communication
+
+### Who to Notify <a name="who-to-notify"></a>
+
+Once veteran impact is confirmed, the **Coordinator** is responsible for notifying the appropriate groups. Use the matrix below to determine who to notify and when.
+
+| Who                            | When to Notify                                             | Channel                                    | Owner                    |
+| ------------------------------ | ---------------------------------------------------------- | ------------------------------------------ | ------------------------ |
+| **Your team**                  | Immediately on alert                                       | `[#your-team-alerts-channel]`              | On-call engineer         |
+| **OCTO leads** (PO, UX, Tech)  | Immediately on confirmed impact                            | `[#your-team-alerts-channel]` thread       | Coordinator              |
+| **Help Desk / Contact Center** | When Veterans are actively impacted (high or lower impact) | [help desk email/ticket process]           | Coordinator / OCTO PO    |
+| **Stakeholders / Leadership**  | Sev 1 incidents or extended outages (>30 min)              | Slack DM or email to [stakeholder list]    | Coordinator / OCTO PO    |
+| **Upstream / dependent teams** | When their system is involved or impacted                  | Their team Slack channel                   | Technical Lead / OCTO PO |
+| **VFS Platform team**          | Widespread VA.gov impact (confirm with OCTO leads)         | `#vfs-platform-support` via `/support` bot | Coordinator / OCTO PO    |
+
+> **Help Desk notification is not optional.** Contact center staff field Veteran calls in real time. If Veterans are affected, the help desk needs to know so they can set expectations and avoid escalating tickets for a known issue. Notify them early, even if you don't have a full picture yet — a brief heads-up is better than silence.
+
+**Help desk notification template:**
+
+```
+We are experiencing an issue with [Product Name].
+
+Veteran impact: [What Veterans will see — error message, inability to complete action, etc.]
+Started:        ~[time] ET
+Status:         Investigating / Mitigating / Resolved
+
+Veterans who call in about this issue can be told:
+"[Plain-language script for help desk agents, e.g., 'We are aware of an issue with
+online appointment scheduling. Our team is working on it. Please try again later
+or call your local VA facility to schedule.']"
+
+We will provide updates as the situation develops.
+```
+
+### Update Format
 
 Communicate early and clearly. Every update should include:
 
