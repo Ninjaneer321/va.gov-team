@@ -4,7 +4,7 @@
 
 ### Sprint Goal summary
 
-- **SPRINT GOAL (Eng):** Deliver an initial implementation of the CHAMPVA document upload capability by aligning with the Health Apps uploader solution and establishing the backend and integration points needed to support user-submitted documents to PEGA.
+- **SPRINT GOAL (Eng):** Deliver an initial implementation of the CHAMPVA document upload capability by aligning with the CST uploader, reviewing the Health Apps uploader solution, and establishing the backend and integration points needed to support user-submitted documents to PEGA.
 
 - **SPRINT GOAL (UX):** Support execution of the CHAMPVA Status Tool research study by running sessions, note-taking, and real-time issue capture during research sessions.
 
