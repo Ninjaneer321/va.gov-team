@@ -144,14 +144,14 @@ The download link only renders when:
 
 * **Description**: If the PDF link is unable to be generated on page load, an error message appears within the individual form card. The PDF link is hidden from this view.  
 * **Status code**: 400  
-* [Link to design](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=11576-36412&t=OZf0PQTkM80ZrmNE-1)   
+* [Link to design](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=12027-89035&t=nvb1LmqhlLuKXQp3-1)   
 * [Link to backend documentation](https://github.com/department-of-veterans-affairs/vets-api/tree/master/modules/simple_forms_api/app/services/simple_forms_api/form_remediation/docs)
 
 ### PDF download error (card-level) 
 
 * **Description**: If the request fails when a user attempts to download a copy of their submitted form, an error message appears within the individual form card.  
 * **Status code**: 4xx (401, 403, 404, 422, etc.) Any 5xx  
-* [Link to design](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=9334-14783&t=vWzWRLiF6UjMdVlg-1)   
+* [Link to design](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=12027-89168&t=nvb1LmqhlLuKXQp3-1)   
 * [Link to backend documentation](https://github.com/department-of-veterans-affairs/vets-api/tree/master/modules/simple_forms_api/app/services/simple_forms_api/form_remediation/docs)
 
 ---
