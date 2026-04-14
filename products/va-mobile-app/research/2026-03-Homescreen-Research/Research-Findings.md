@@ -798,4 +798,19 @@ This research does not include the perspectives of the following marginalized Ve
 
 #### A more accessible version of the table in the above image
 
-➡️ *\[paste markdown table of completed recruitment checker from Github Copilot chat\]*  
+➡️ *[| Demographic | Category | Target % | Target # | # in Study | Target Achieved? | p1 | p2 | p4 | p5 | p6 | p7 | p9 | p12 | p13 | p14 | p15 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| All participants | Total | n/a | n/a | 10 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+| Assistive Tech (AT) users | Total | n/a | n/a | 0 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+| No-show participants | Total | n/a | n/a | 1 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+| Age 55-64+ | General | 50% | 5 | 5 | yes | 1 | 0 | 1 | 0 | 1 | 0 | 0 | 1 | N | 0 | 1 |
+| Cognitive Disability | General | 50% | 5 | 4 | no | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 | 1 |
+| Mobile user | General | 50% | 5 | 10 | yes | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | N | 1 | 1 |
+| Rural | General | 25% | 3 | 4 | yes | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| No degree | General | 25% | 3 | 3 | yes | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | N | 1 | 0 |
+| Other than honorable | General | 21% | 3 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Immigrant origin | General | 17% | 2 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Women | General | 10% | 1 | 4 | yes | 1 | 0 | 0 | 0 | 1 | 0 | 1 | 1 | N | 0 | 0 |
+| Expat (living abroad) | General | 0.4% | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Black or African American | Race | 15% | 2 | 3 | yes | 0 | 0
+]*  
