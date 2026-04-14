@@ -5,15 +5,25 @@
 > * **Author:** @sterkenburgsara
 > * **Date:** 2026-04-14
 
----
+## On this page
+- [Executive summary](#summary)
+- [The problem](#problem)
+- [The Dual-EHR complication](#EHR)
+- [Proposed Target: 6 Entities](#entities)
+- [Data Lineage Architecture](#lineage)
+- [Existing infrastructure we can lean on](#infrastructure)
+- [What needs to be built](#build)
+- [Phased roadmap](#roadmap)
+- [Key risks & mitigation](#key-risks)
+- [Product opportunities unlocked by this work](#opps)
+- [Outstanding questions](#questions)
 
-## Executive Summary
+
+## <a name="summary"></a>Executive summary
 
 The MHV Medications tool is built on a **single mega-object** (Prescription) that inlines medication identity, refill history, shipping tracking, provider info, and status into one deeply nested blob. This makes entity-level event tracking, ML/LLM readiness, dual-EHR normalization, and data lineage effectively impossible. We propose decomposing it into **6 first-class entities** with typed relationships, a semantic cross-walk layer for VistA/Oracle Health convergence, and a dbt-based data lineage pipeline from source EHRs through to consumption platforms (Datadog, Tableau/Power BI, ML feature stores).
 
----
-
-## The Problem
+## <a name="problem"></a>The problem
 
 ### What exists today: 1 entity
 
@@ -38,7 +48,7 @@ There is no Medication entity, no Refill entity, and no Shipment entity in the c
 
 ---
 
-## The Dual-EHR Complication
+## <a name="EHR"></a>The dual-EHR complication
 
 The VA is migrating facilities from VistA to Oracle Health (Cerner). These two EHR systems have incompatible semantics that the current architecture handles through conditional branching, not abstraction:
 
@@ -56,7 +66,7 @@ The VA is migrating facilities from VistA to Oracle Health (Cerner). These two E
 
 ---
 
-## Proposed Target: 6 Entities
+## <a name="entities"></a>Proposed Target: 6 Entities
 
 ```mermaid
 erDiagram
@@ -157,7 +167,7 @@ erDiagram
 
 ---
 
-## Data Lineage Architecture
+## <a name="lineage"></a>Data Lineage Architecture
 
 Modeled after a standard **Source → Raw → dbt Transform → Semantic Layer → Consumption** pattern:
 
@@ -215,7 +225,7 @@ Modeled after a standard **Source → Raw → dbt Transform → Semantic Layer �
 
 ---
 
-## Existing Infrastructure We Can Lean On
+## <a name="infrastructure"></a>Existing infrastructure we can lean on
 
 | Asset | Status | How to leverage |
 |---|---|---|
@@ -228,7 +238,8 @@ Modeled after a standard **Source → Raw → dbt Transform → Semantic Layer �
 | **Tableau** | ✅ In use | Initial consumption platform alongside Datadog |
 | **Feature flags** | ✅ Active | Input to cross-walk: determines which adapter to apply |
 
-### What must be created
+
+## <a name="build"></a>What needs to be built
 
 | Component | Priority |
 |---|---|
@@ -244,7 +255,8 @@ Modeled after a standard **Source → Raw → dbt Transform → Semantic Layer �
 
 ---
 
-## Phased Roadmap
+## <a name="roadmap"></a>Phased roadmap
+
 
 | Phase | Scope | Timeline | Team | Backend dependency |
 |---|---|---|---|---|
@@ -258,7 +270,7 @@ Modeled after a standard **Source → Raw → dbt Transform → Semantic Layer �
 
 ---
 
-## Key Risks
+## <a name="risks"></a>Key risks & mitigations
 
 | Risk | Mitigation |
 |---|---|
@@ -270,7 +282,7 @@ Modeled after a standard **Source → Raw → dbt Transform → Semantic Layer �
 
 ---
 
-## Product Opportunities Unlocked by Architecture Modernization
+## <a name="opps"></a>Product opportunities unlocked by this work
 
 ### Industry Context
 
@@ -459,7 +471,7 @@ The VA has a head start in some areas — the **IIA Predictive Modeling System**
 
 ---
 
-## Discussion Questions
+## <a name="questions"></a>Outstanding questions
 
 1. **Warehouse platform:** Should we advocate for Snowflake, BigQuery, or align with whatever DAIMO selects?
 2. **Cross-walk ownership:** Should the status cross-walk live in the FE adapter layer (fast), vets-api (pragmatic), or MHV Java API (ideal)?
