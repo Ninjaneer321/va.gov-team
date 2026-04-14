@@ -66,7 +66,7 @@ How might we make the 1095-B tax form instantly and reliably accessible to Veter
 ## Assumptions
 1. The Enrollment System API provides accurate, complete coverage data for all enrolled Veterans. If the data is incomplete or stale, Veterans will see incorrect or missing forms, potentially generating more call volume rather than reducing it.
 2. Veterans who need their 1095-B form are motivated enough to sign in with a verified (LOA3) account. Veterans who have not yet identity-verified may not complete the process without additional guidance.
-3. Call center representatives at HEC will actively redirect callers to VA.gov once the digital product is live and reliable. Without this coordination, the reduction in reprints/resends will be limited.
+3. Call center representatives at HEC will actively redirect callers to VA.gov once the digital product is live and reliable. Without this coordination, the reduction in prints/sends will be limited.
 4. Annual tax year template updates can be handled with minimal engineering effort by the team responsible for this product.
 5. CHAMPVA beneficiaries will continue to be handled separately and are out of scope for this product at this time.
 
