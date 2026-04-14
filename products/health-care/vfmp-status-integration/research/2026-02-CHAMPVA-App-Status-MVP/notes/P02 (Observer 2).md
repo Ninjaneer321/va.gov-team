@@ -65,9 +65,6 @@ Forms
 Status tab
 - Last updated: calling out that was date submitted, so she concluded that there was not much activity
 
-Files tab
-- notes
-
 Overview tab
 Step 1: Application received (in Overview tab)
 - Good to see the "Upload supporting documents" option
