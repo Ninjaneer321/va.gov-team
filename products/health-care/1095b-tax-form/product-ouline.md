@@ -109,7 +109,7 @@ In January 2026, email and text campaigns went out to all Veterans enrolled in h
 - Because these tax forms are reliant on the IRS templates, there is a manual process that needs to be followed yearly to upload the latest IRS tax form template to vets-api. 
 - It was decided that only the past three years of forms would be displayed on VA.gov because that is the minimum needed to meet legislative requirements.
 - Because the MVP was released in March 2025, the Health Eligibility Center decided that for 2026, they would not send out any physical forms. So starting in 2026, the primary way Veterans received their tax forms was by accessing them on VA.gov. If Veterans wanted a physical one, they had to call in and request one.
-- CHAMPVA beneficiaries can also be enrolled in VA healthcare but their tax forms do not display on VA.gov at this time. To be able to display their forms on VA.gov, a data migration needs to happen by the Enrollment System and then the API tax data endpoint we use needs to adjusted by the Enrollment System team. IF all of that happens, CHAMPVA beneficiares should be able to view their tax forms automatically without VA.gov having to do anything - will need to test to verify.
+- CHAMPVA beneficiaries can also be enrolled in VA healthcare but their tax forms do not display on VA.gov at this time. To be able to display their forms on VA.gov, a data migration needs to happen by the Enrollment System and then the API tax data endpoint we use needs to be adjusted by the Enrollment System team. If all of that happens, CHAMPVA beneficiares should be able to view their tax forms automatically without VA.gov having to do anything - will need to test to verify.
 
 ---
    
