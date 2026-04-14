@@ -35,6 +35,7 @@ For questions about VA.gov teams, products, portfolios, and research, **read the
 | What research exists for product X? | `.github/copilot-summaries/research-by-product.md` | "What research has been done on Ask VA?" |
 | What has team Y researched? | `.github/copilot-summaries/research-by-team.md` | "What research has the Ask VA team conducted?" |
 | Portfolio/crew hierarchy? | `.github/copilot-summaries/portfolios.md` | "What teams are in Digital Experience?" |
+| **Browse findings by theme** | `.github/copilot-summaries/research-findings-index.md` | "What research exists about navigation issues?" |
 
 ### How to Use Summary Files
 
@@ -66,6 +67,38 @@ Path: .github/copilot-summaries/portfolios.md
 → Find "Digital Experience" section
 → List all crews and teams
 ```
+
+### Quick Reference: Findings Index
+
+For questions about **themes or patterns** across research, use the findings index:
+
+**Use `.github/copilot-summaries/research-findings-index.md` when:**
+- User asks about a theme: "What research exists about navigation?"
+- User wants to browse patterns: "What are common accessibility issues?"
+- User wants product overview: "What are the top findings for disability claims?"
+
+**The index provides:**
+- Findings grouped by theme (with study counts)
+- Findings grouped by product (with top themes)
+- Quick links to source studies
+
+**Example queries:**
+```
+"What research exists about evidence submission?"
+→ Read research-findings-index.md, search for "Evidence" theme
+
+"What are the top findings for Ask VA?"
+→ Read research-findings-index.md, navigate to "Ask VA" section
+
+"What navigation issues appear across products?"
+→ Read research-findings-index.md, find "Navigation" theme
+```
+
+**When to use deep research instead:**
+- User wants comprehensive synthesis with quotes
+- User wants frequency analysis ("mentioned in X studies")
+- User wants implementation tracking
+- User needs detailed cross-study patterns
 
 ### File Characteristics
 
@@ -1014,12 +1047,13 @@ ruby scripts/cleanup.rb
 ### Issue: "Summary files don't have the information I need"
 
 **Solutions:**
-1. **Check all five summary files:**
+1. **Check all six summary files:**
    - `.github/copilot-summaries/teams.md` — for team ownership and research
    - `.github/copilot-summaries/product-teams.md` — for product team rosters (who works on what)
    - `.github/copilot-summaries/portfolios.md` — for portfolio/product lists
    - `.github/copilot-summaries/research-by-product.md` — for research by product
    - `.github/copilot-summaries/research-by-team.md` — for research by team
+   - `.github/copilot-summaries/research-findings-index.md` — for findings by theme or product
 
 2. **Fall back to directory search:**
    - Use `lexical-code-search` to find files: `path:/products/ask-va/ readme`

@@ -12,6 +12,7 @@
  *   .github/copilot-summaries/research-by-team.md
  *   .github/copilot-summaries/research-by-product.md
  *   .github/copilot-summaries/portfolios.md
+ *   .github/copilot-summaries/research-findings-index.md
  *
  * Usage
  * -----
@@ -619,6 +620,288 @@ function generateProductTeams(graph, idx) {
   return lines.join("\n");
 }
 
+// ─── findings index ──────────────────────────────────────────────────────────
+
+/**
+ * Map common product slugs to human-readable display names.
+ */
+var PRODUCT_DISPLAY_NAMES = {
+  "disability": "Disability Claims",
+  "claim-appeal-status": "Claim Status Tool",
+  "ask-va": "Ask VA",
+  "identity-personalization": "Authenticated Experience",
+  "identity": "Identity",
+  "decision-reviews": "Decision Reviews",
+  "health-care": "Health Care",
+  "education-benefits": "Education Benefits",
+  "education-careers": "Education & Careers",
+  "burials-memorials": "Burials & Memorials",
+  "pension": "Pension",
+  "housing-assistance": "Housing Assistance",
+  "accredited-representation-management": "Accredited Representation Management",
+  "accredited-representative-facing": "Accredited Representative Facing",
+  "combined_va_debt_portal": "Combined VA Debt Portal",
+  "facilities": "Facilities",
+  "login.gov-adoption": "Login.gov Adoption",
+  "dependents": "Dependents",
+  "home-page": "Home Page",
+  "virtual-agent": "Virtual Agent",
+  "vet-transition-support": "Vet Transition Support"
+};
+
+/**
+ * Extract a human-readable product name from a study path.
+ * @param {string} studyPath - e.g. "products/ask-va/research/2024-05-study"
+ * @returns {string} - e.g. "Ask VA"
+ */
+function extractProductFromPath(studyPath) {
+  if (!studyPath || !studyPath.startsWith("products/")) return "Other";
+  var parts = studyPath.split("/");
+  if (parts.length < 2) return "Other";
+  var slug = parts[1];
+  if (PRODUCT_DISPLAY_NAMES[slug]) return PRODUCT_DISPLAY_NAMES[slug];
+  return slug.split("-").map(function (w) {
+    return w.charAt(0).toUpperCase() + w.slice(1);
+  }).join(" ");
+}
+
+/**
+ * Find a research study node in the knowledge graph by its path.
+ * @param {Array} nodes - graph.nodes array
+ * @param {string} studyPath - normalized path
+ * @returns {Object|null}
+ */
+function findStudyInKG(nodes, studyPath) {
+  for (var i = 0; i < nodes.length; i++) {
+    var n = nodes[i];
+    if (n.type === "research_study" && n.path === studyPath) return n;
+  }
+  return null;
+}
+
+/**
+ * Generate findings grouped by theme.
+ * @param {Object} findingsData - loaded findings data
+ * @param {Array} nodes - graph.nodes array
+ * @returns {string} - markdown content
+ */
+function generateFindingsByTheme(findingsData, nodes) {
+  var content = "## Findings by Theme\n\n";
+  content += "Themes extracted from research YAML frontmatter, grouped across all products.\n\n";
+
+  // Build theme index: theme -> [{ path, name, date, finding, product }]
+  var themeIndex = new Map();
+
+  Object.keys(findingsData.studies).forEach(function (studyPath) {
+    var sf = findingsData.studies[studyPath];
+    if (!sf.key_themes) return;
+
+    var study = findStudyInKG(nodes, studyPath);
+    if (!study) return;
+
+    var themes = sf.key_themes.split(",").map(function (t) { return t.trim(); });
+    themes.forEach(function (theme) {
+      if (!theme) return;
+      // Skip truncated themes (artifacts of data extraction)
+      if (theme.endsWith("…") || theme === "…") return;
+      if (!themeIndex.has(theme)) themeIndex.set(theme, []);
+      themeIndex.get(theme).push({
+        path: studyPath,
+        name: study.name || path.basename(studyPath),
+        date: study.date || "Date unknown",
+        finding: sf.top_finding,
+        product: extractProductFromPath(studyPath)
+      });
+    });
+  });
+
+  // Sort themes by study count (descending)
+  var sortedThemes = Array.from(themeIndex.entries())
+    .sort(function (a, b) { return b[1].length - a[1].length; });
+
+  sortedThemes.forEach(function (entry) {
+    var theme = entry[0];
+    var studies = entry[1];
+
+    // Skip themes with only 1 study
+    if (studies.length < 2) return;
+
+    var dates = studies.map(function (s) { return s.date; })
+      .filter(function (d) { return d && d !== "Date unknown" && !d.match(/^YYYY/) && d !== "Not specified" && d.match(/^20/); });
+    var mostRecent = dates.length > 0 ? dates.sort().reverse()[0] : "Unknown";
+
+    content += "### " + theme + "\n\n";
+    content += "**" + studies.length + " studies** | Most recent: " + mostRecent + "\n\n";
+
+    // Group by product
+    var byProduct = new Map();
+    studies.forEach(function (s) {
+      var prod = s.product || "Other";
+      if (!byProduct.has(prod)) byProduct.set(prod, []);
+      byProduct.get(prod).push(s);
+    });
+
+    byProduct.forEach(function (prodStudies, product) {
+      if (prodStudies.length === 1) {
+        var s = prodStudies[0];
+        var url = pathToGitHubURL(s.path, "tree");
+        var finding = s.finding || s.name;
+        content += "- " + finding + " ([" + s.name + "](" + url + "))\n";
+      } else {
+        content += "- **" + product + "** (" + prodStudies.length + " studies)\n";
+        var shown = prodStudies.slice(0, 3);
+        shown.forEach(function (s) {
+          var url = pathToGitHubURL(s.path, "tree");
+          var finding = s.finding || s.name;
+          content += "  - " + finding + " ([" + s.name + "](" + url + "))\n";
+        });
+        if (prodStudies.length > 3) {
+          content += "  - _...and " + (prodStudies.length - 3) + " more studies_\n";
+        }
+      }
+    });
+
+    content += "\n";
+  });
+
+  return content;
+}
+
+/**
+ * Generate findings grouped by product.
+ * @param {Object} findingsData - loaded findings data
+ * @param {Array} nodes - graph.nodes array
+ * @returns {string} - markdown content
+ */
+function generateFindingsByProduct(findingsData, nodes) {
+  var content = "## Findings by Product\n\n";
+  content += "Findings organized by product area.\n\n";
+
+  // Build product index
+  var productIndex = new Map();
+
+  Object.keys(findingsData.studies).forEach(function (studyPath) {
+    var sf = findingsData.studies[studyPath];
+    var study = findStudyInKG(nodes, studyPath);
+    if (!study) return;
+
+    var product = extractProductFromPath(studyPath);
+
+    if (!productIndex.has(product)) {
+      productIndex.set(product, { themes: new Map(), studies: [] });
+    }
+
+    var pd = productIndex.get(product);
+    pd.studies.push({
+      path: studyPath,
+      name: study.name || path.basename(studyPath),
+      date: study.date || "Date unknown",
+      finding: sf.top_finding,
+      impact: sf.impact
+    });
+
+    if (sf.key_themes) {
+      sf.key_themes.split(",").map(function (t) { return t.trim(); }).forEach(function (theme) {
+        if (!theme || theme.endsWith("…") || theme === "…") return;
+        pd.themes.set(theme, (pd.themes.get(theme) || 0) + 1);
+      });
+    }
+  });
+
+  // Sort products by study count (descending)
+  var sortedProducts = Array.from(productIndex.entries())
+    .sort(function (a, b) { return b[1].studies.length - a[1].studies.length; });
+
+  sortedProducts.forEach(function (entry) {
+    var product = entry[0];
+    var data = entry[1];
+    var studyCount = data.studies.length;
+
+    // Skip products with fewer than 3 studies
+    if (studyCount < 3) return;
+
+    var dates = data.studies.map(function (s) { return s.date; })
+      .filter(function (d) { return d && d !== "Date unknown" && !d.match(/^YYYY/) && d !== "Not specified" && d.match(/^20/); })
+      .sort();
+    var dateRange = dates.length > 0
+      ? dates[0] + " – " + dates[dates.length - 1]
+      : "Unknown";
+
+    content += "### " + product + "\n\n";
+    content += "**" + studyCount + " studies** | Active: " + dateRange + "\n\n";
+
+    // Top themes (up to 5)
+    var topThemes = Array.from(data.themes.entries())
+      .sort(function (a, b) { return b[1] - a[1]; })
+      .slice(0, 5);
+
+    if (topThemes.length > 0) {
+      content += "**Top Themes:**\n";
+      topThemes.forEach(function (te) {
+        content += "- " + te[0] + " (" + te[1] + " studies)\n";
+      });
+      content += "\n";
+    }
+
+    // Key findings (most recent 5)
+    var recentStudies = data.studies
+      .filter(function (s) { return s.finding; })
+      .sort(function (a, b) { return (b.date || "").localeCompare(a.date || ""); })
+      .slice(0, 5);
+
+    if (recentStudies.length > 0) {
+      content += "**Key Findings:**\n";
+      recentStudies.forEach(function (s) {
+        var url = pathToGitHubURL(s.path, "tree");
+        content += "- " + s.finding + "\n";
+        content += "  - Source: [" + s.name + "](" + url + ")\n";
+        if (s.impact) {
+          content += "  - Impact: " + s.impact + "\n";
+        }
+      });
+      content += "\n";
+    }
+  });
+
+  return content;
+}
+
+/**
+ * Generate the research findings index organized by theme and product.
+ * @param {Object} graph - loaded knowledge graph
+ * @param {Object} findingsData - loaded findings data
+ * @returns {string} - full markdown content for the index file
+ */
+function generateFindingsIndex(graph, findingsData) {
+  console.log("\n  Generating research findings index...");
+
+  if (!findingsData || !findingsData.studies || Object.keys(findingsData.studies).length === 0) {
+    console.log("    ⚠ No findings data available - skipping index generation");
+    return null;
+  }
+
+  var generatedDate = (graph._meta && graph._meta.generated)
+    ? graph._meta.generated.slice(0, 10)
+    : new Date().toISOString().slice(0, 10);
+
+  var lines = [];
+  lines.push("# Research Findings Index");
+  lines.push("");
+  lines.push("**Auto-generated** from research YAML frontmatter | **Last updated:** " + generatedDate);
+  lines.push("");
+  lines.push("This index groups research findings by theme and by product for quick reference.");
+  lines.push("For comprehensive cross-study analysis, use [deep research](../../platform/research/copilot-prompts/using-deep-research.md).");
+  lines.push("");
+  lines.push("---");
+  lines.push("");
+  lines.push(generateFindingsByTheme(findingsData, graph.nodes));
+  lines.push("---");
+  lines.push("");
+  lines.push(generateFindingsByProduct(findingsData, graph.nodes));
+
+  return lines.join("\n");
+}
+
 // ─── main ────────────────────────────────────────────────────────────────────
 
 function main() {
@@ -635,6 +918,11 @@ function main() {
   writeSummary("research-by-product.md", generateResearchByProduct(graph, idx, findingsData));
   writeSummary("product-teams.md", generateProductTeams(graph, idx));
   writeSummary("portfolios.md", generatePortfolios(graph, idx, lookupById));
+
+  var findingsIndex = generateFindingsIndex(graph, findingsData);
+  if (findingsIndex) {
+    writeSummary("research-findings-index.md", findingsIndex);
+  }
 
   console.log("\nDone.");
 }
