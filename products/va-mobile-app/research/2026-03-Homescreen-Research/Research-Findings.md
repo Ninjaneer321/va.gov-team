@@ -231,6 +231,7 @@ labels:
 service_journey_mapping: []
 pattern_triggers: []
 Rationale: This is primarily an insight about expectations/mental models for what belongs on a homescreen (alerts, reminders, tasks), and it doesn’t describe a barrier—so it’s best captured as a workflow/expectations insight with “enhancement” severity.
+
 2. 6 Participants prefer an uncluttered and streamlined homescreen so they can focus on what’s important
 ```yaml key-finding-labels
 finding_id: 2
@@ -287,6 +288,7 @@ labels:
 service_journey_mapping: []
 pattern_triggers: []
 Rationale: Users misunderstand the meaning/intent of “Activity” vs “Action required,” creating confusion about where to look first and what requires action; because it affects prioritization (but not full task completion), “medium” severity is a good fit.
+
 2. Users find dates helpful for quickly understanding the prioritization of tasks and items surfaced on the homescreen  
    1. All users want dates displayed for items when available, especially for due dates for tasks affecting benefits and payments to help keep them on track   
    2. 6 users would appreciate a time sensitive organization of homescreen items that need their attention  
