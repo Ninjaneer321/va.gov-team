@@ -260,6 +260,7 @@ We conducted remote moderated research sessions (30-60-minutes) via MS Teams. Pa
 17. Increase the autopopulation window for calculators that have use beyond inpatient and leverage soft alerts instead of a hard restriction on data lookback.
 
 **Calculators requested**
+
 **Geriatric Calculators**
 - FRAX
 - Osteoporosis Screening Tool (OST)
