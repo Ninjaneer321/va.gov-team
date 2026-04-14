@@ -350,6 +350,8 @@ All 4 users with cognitive disabilities and 2 other participants experienced som
 * Participants either didn’t know what “updates” might include or assumed it would be changes to their medication from their doctor or a formulary change. This would be outside the scope of what prescription updates in the app refers to.  
 * Participants were unsure if “refill ready” meant their refill was ready for pickup, had been shipped, or was ready to refill.
 
+![Prescription-refill-modal](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/2026-03-Homescreen-Research/Images/Prescription-modal.png)
+
 *"Prescription updates to me could mean we’re discontinuing this, or it’s no longer in the formulary.”* (P12)
 
 *"2 refill ready. Ready for what? Pick up? Refill?"* (P2)
