@@ -1,9 +1,9 @@
 # MHV Medications: Data Architecture Modernization Proposal
 
-> **Status:** Pre-RFC — Socializing for feedback
-> **Scope:** `src/applications/mhv-medications/` and upstream BE systems
-> **Author:** @sterkenburgsara
-> **Date:** 2026-04-14
+> * **Status:** Pre-RFC — Socializing for feedback
+> * **Scope:** `src/applications/mhv-medications/` and upstream BE systems
+> * **Author:** @sterkenburgsara
+> * **Date:** 2026-04-14
 
 ---
 
