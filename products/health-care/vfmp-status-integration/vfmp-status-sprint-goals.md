@@ -4,11 +4,11 @@
 
 ### Sprint Goal summary
 
-- **SPRINT GOAL (Eng):** Deliver a technical assessment and initial implementation approach for supporting partial claims and applications within the Status Tool, including reviewing existing designs, identified impacts to data models, APIs, and UI.
+- **SPRINT GOAL (Eng):** Deliver an initial implementation of the CHAMPVA document upload capability by aligning with the Health Apps uploader solution and establishing the backend and integration points needed to support user-submitted documents to PEGA.
 
 - **SPRINT GOAL (UX):** Support execution of the CHAMPVA Status Tool research study by running sessions, note-taking, and real-time issue capture during research sessions.
 
-- **STRETCH GOAL (Eng):** Launch CHAMPVA PEGA status (Release 1) to production within the CST.
+- **STRETCH GOAL (Eng):** Deliver a technical assessment and initial implementation approach for supporting partial claims and applications within the Status Tool, including reviewing existing designs, identified impacts to data models, APIs, and UI.
 
 
 ## 📆 Sprint 6 (Apr 1 – Apr 14) 
