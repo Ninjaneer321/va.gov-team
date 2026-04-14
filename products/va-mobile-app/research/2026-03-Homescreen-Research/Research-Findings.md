@@ -1,101 +1,182 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "2026-03 Homescreen Concept Testing Research Findings"
+product: "VA Health and Benefits App"
+team: "Mobile App Core Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2026-04-09"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Theresa Wang"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand users' expectations for homescreen content and navigation"
+  - "Understand how users interpret and use new design concept's homescreen content and capabilities"
+  - "Understand any points of confusion for users on the homescreen content and navigation, including for users with cognitive disabilities"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "remote moderated concept testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 10
+    assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 2
+    "35-44": 1
+    "45-54": 2
+    "55-64": 4
+    "65+": 1
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 2
+    some_college: 1
+    associates: 0
+    bachelors: 0
+    masters: 5
+    doctorate: 2
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 6
+    rural: 4
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 5
+    black: 3
+    hispanic: 2
+    biracial: 2
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 4
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - |
+    All participants expect to find items on the homescreen requiring attention and action including:
+       - Alerts
+       - Updates from the VA
+       - Reminders
+       - Information requiring their review
+       - Tasks to complete
+  - "6 Participants prefer an uncluttered and streamlined homescreen so they can focus on what’s important"
+  - |
+    Prioritization of homescreen items are driven less by the “Action required” and “Activity” section designations and more by users’ goals habits, perceived time sensitivity of items, [...]
+       1. 6 participants find “Action required” easy to understand as “to-do-list” and helpful for drawing attention, but “Activity” header is less clear
+       2. All users expect items in both sections to require attention and action and found the distinction between what belongs where confusing and sometimes contrary to expectations
+       3. Users prioritize reviewing decision letters, messages, appointments, and unusual and unexpected items like copays
+  - |
+    Users find dates helpful for quickly understanding the prioritization of tasks and items surfaced on the homescreen
+       1. All users want dates displayed for items when available, especially for due dates for tasks affecting benefits and payments to help keep them on track
+       2. 6 users would appreciate a time sensitive organization of homescreen items that need their attention
+       3. All users take VA required tasks seriously, are afraid of missing due dates, and 3 would find helpful more highlighting of the dates such as displaying dates in red to make sure they don’[...]
+  - |
+    7 users use physical ID to show their Veteran status, not the app.
+       1. 6 participants felt Veterans status card belonged in Profile while 5 thought Benefits made sense.
+  - |
+    Some participants stressed the importance of Disability rating while waiting for an update but said that they rarely checked the rating once it had been set.
+       1. 6 expected rating in Benefits, and 5 could see it being useful on the homescreen.
+       2. 9 expected disability payments in the Payments category
+       3. Only 3 found it useful to have both rating and payment on the same page.
+  - "8 participants expected to find dependents in Benefits since it affects the amount of benefits they would receive."
+  - "Users want to handle tasks directly from the homescreen when given the opportunity, but are concerned about committing to an action that they believe is completed with one click if they feel t[...]"
+  - "6 participants, including all 4 users with cognitive disabilities misunderstood or had slight confusion about prescription “updates” and “refill ready” meant."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - |
+    **Recommendation:** Display due dates, issued date, or other relevant dates when available
+       - All users would like relevant dates displayed for items when available, with a special interest in having due dates to help keep them on track with tasks.
+  - |
+    **Recommendation:** Display homescreen items in chronological order with the most recent activity at the top for items where dates are available
+       - 6 users would appreciate a time sensitive organization of homescreen items that need their attention with 1 suggesting a stoplight approach with red signaling the most urgent upcoming items.[...]
+       - 4 participants called out wanting to first review time sensitive items like unread decision letter, secure messages, and evidence due request, which is the only item shown in the design conc[...]
+  - |
+    **Recommendation:** Iterate on more descriptive label(s) or section(s) for homescreen items in lieu of “Activity” that can better prompt attention and action from users
+       - 6 participants find “Action required” easy to understand as “to-do-list” and helpful for drawing attention, but “Activity” header is more ambiguous. These participants sometimes [...]
+  - |
+    **Recommendation:** Review analytics for how often users click Veteran Status Card on homescreen, and if usage is low, remove from homescreen, keeping card in Profile only
+       - 7 users use physical ID to show their Veteran status, and therefore didn’t find the Veteran status card in app personally important or relevant to their app usage.
+       - 6 participants expected to find the status card in the Profile, which is where it currently resides, with 5 selecting it as their first or only choice of location, and 1 selecting it as thei[...]
+       - Including 1 participant who remembered the status card is in the current app homescreen, 4 felt it could be useful for others on the homescreen but largely not something they needed for them[...]
+       - 1 participant specifically wanted this in Profile so it would be at a remove from their other information and better preserve the privacy of their other benefits and payment related informat[...]
+  - |
+    **Recommendation:** Since Disability Rating has drastically varying importance depending on whether users are waiting for disability claim approval, provide users option to minimize Rating car[...]
+       - Disability rating is incredibly important for users while they’re waiting for an update. Participants spoke to its importance during this time but also agreed that once it was set, this wa[...]
+       - 6 participants expected rating in Benefits since it relates to the benefits they would receive.
+       - 5 could see it being useful on the homescreen in addition to elsewhere in the app because it’s so vitally important while waiting for the initial rating decision.
+  - |
+    **Recommendation:** Review analytics for how often users click show latest payment on homescreen and consider removing recent payment from homescreen and displaying in Payments only
+    - 9 participants expected disability payments in the Payments category and felt that was straightforward and obvious.
+    - Only 3 found it useful to have both rating and payment on the same page, with some of those disagreeing saying they would prefer the page to be uncluttered.
+  - |
+    **Recommendation:** Locate Dependents in Benefits category
+    - 8 participants expected to find dependents in Benefits since it affects the amount of benefits they would receive.
+  - |
+    **Recommendation:** Provide users the ability to handle simple tasks directly from homescreen
+    - Users liked the efficiency of being able to pay their copay and refill their prescription directly from the homescreen, but because they were unfamiliar with the process, some became nervous ab[...]
+    - 9 participants found the process to pay their copay quick and easy after completing the flow from homescreen.
+    - 7 participants appreciated the amount of information in the prescriptions modal, which detailed that they had 2 refills ready and 1 prescription shipped.
+    - 2 participants called out their preference for staying on the homescreen while reviewing their refills in contrast to having to review the full prescription page, which can be overly complex an[...]
+  - |
+    **Recommendation:** Use clear language to set expectations and alleviate anxiety when providing users with ability to handle tasks directly from homescreen e.g., Review and [action] or use a[...]
+    - 7 participants were wary that clicking the Pay copay subtask button would force them to immediately pay without a chance to review copay information, feeling it was safer to click the arrow or [...]
+    - 6 expected clicking Refill in the modal would force them to refill both prescriptions
+  - |
+    **Recommendation:** Place key information on what payments are for (e.g., date of service, provider, reason for copay) at the top of the screen so users can quickly understand charges, distin[...]
+    - 7 participants were wary that clicking the Pay copay subtask button would force them to immediately pay without a chance to review copay information, feeling it was safer to click the arrow or [...]
+    - A couple participants wanted the reason for copay at the top of page for easier review
+  - |
+    **Recommendation:** If providing users with ability to submit payment directly from homescreen, ensure users have the ability to choose payment method and amount
+    - 4 participants expected the option to select their payment method and payment amount before submitting payment
+  - |
+    **Recommendation:** Use clear and consistent language for refills e.g., “x number ready to refill” to avoid confusion
+    - All 4 users with cognitive disabilities and 2 other participants experienced some confusion or did not understand what prescription “updates” meant in the Activity section or what “refill[...]
+    - Participants were unsure if “refill ready” meant their refill was ready for pickup, had been shipped, or was ready to refill.
+  - |
+    **Recommendation:** Ideate on whether “prescription updates” should be worded differently or broken up into single categories like refills vs shipped as homescreen activity to alleviate u[...]
+    - All 4 users with cognitive disabilities and 2 other participants experienced some confusion or did not understand what prescription “updates” meant in the Activity section or what “refill[...]
+    - Participants either didn’t know what “updates” might include or assumed it would be changes to their medication from their doctor or a formulary change. This would be outside the scope of[...]
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Continue testing updated organization of homecreen and information architecture decisions made once new designs are implemented."
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Other than honorable"
+  - "Immigrant origin"
+  - "Expat"
+  - "First Nations, Native, American Indian or Alaska Native"
+  - "LGBTQ+"
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Excel"
+  - "Figjam"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Content"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "concept-testing"
+  - "information-architecture"
+  - "navigation"
+  - "content-comprehension"
+  - "Accessibility"
 ---
 
 
-\[\!TIP\] **Complete the frontmatter section above AFTER you've finished and saved your research findings report below.**
-
-Use the [GitHub Copilot Research Findings Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md) to automatically generate structured metadata from this completed research findings report. The prompt uses natural language processing to extract key findings, participant demographics, recommendations, and apply appropriate research repository tags.
 
 ---
 
