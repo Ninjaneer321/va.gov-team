@@ -1,6 +1,6 @@
 # 1095-B Tax Form 
 
-## Digital Access MVP Product Outline
+## Digital Access MVP Initiative Brief
 
 ### Overview
 
