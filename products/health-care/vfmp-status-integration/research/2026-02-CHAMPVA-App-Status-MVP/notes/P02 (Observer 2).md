@@ -125,13 +125,10 @@ Status of application, reviews, applications
 - Not sure if "letter sent' means physical or email.
 
 
-Considers herself computer savvy
+- (Implied with a comment about older non-computer savvy Veterans) Considers herself computer savvy
 
 
 ### 3 takeaways
 - They took great importance in accuracy and transparency around dates of status changes, and expected timelines, even if they were approximate
 - They did not seem overwhelmed by the amount of information on the screens (I would expect otherwise: it's always nice to be proven wrong by a usability test!)
-- They expected a continuation of information about the same application to appear in the same spot in the screen
-
-
-- 
+- They expected a continuation of information about the same application to appear in the same spot in the screen 
