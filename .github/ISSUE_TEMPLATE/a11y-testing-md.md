@@ -108,7 +108,8 @@ Complete all required checks and as many recommended checks as you can. If you c
   Non‑live video includes a full descriptive transcript or an audio description.
   [Testing WEB-123](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-123-Transcriptsoraudiodescriptionsareincludedforvideoswithaudio(Required)) 
   - [ ] Pass  
-  - [ ] Fail  
+  - [ ] Fail
+  - [ ] N/A
 
 - **Auto-playing audio can be paused or has volume controls (WEB-142)**  
   Audio that plays automatically for more than 3 seconds can be paused OR has an independent volume control.
