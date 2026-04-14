@@ -256,24 +256,43 @@ Only one participant realized the error before submitting the form.
 - _"That's the person that's making the file. That's, you know, that's putting in the information.” “Because if I'm feeling that for myself, then I will be the veteran, but if I'm filling it out for him, then I will be the veteran spouse, because he's my husband."_
 
 ### 2. Most participants struggled to understand the difference between Special Monthly Compensation and Special Monthly Pension, the two benefits described by this form, and found it difficult to make a choice.
-A majority of participants struggled to understand the difference between the two benefits, and which they should select.  Some people figured it out by process of elimination if they did not receive pension. One person stated they would  pause the application to call a friend or the VA.
-- _Supporting data: Quote [add context]_
+A majority of participants struggled to understand the difference between the two benefits, and which they should select.  Some people figured it out by process of elimination if they did not receive pension. One person stated they would even pause the application to call a friend or the VA before proceeding.
+- _"'SMC benefits are not paid without eligibility to compensation.' I don't know what that means. I’m sorry, it's just a lot of words."_
+- _"Ok, 'you’re currently receiving monthly compensation or eligible…' [I'm] not sure.. I’m reading it. I’m not sure what. I’m not understanding very well. ...I wouldn't know which one is which. Or what qualifies those."_
 
 ### 3. Most participants had one or more issues understanding the two-step process involved in the current implementation of the "online" version of 2680, which requires a manual handoff to a medical provider.
 It wasn’t clear to some participants that this is a two-step process that would eventually involve a third party before they began the form. And, despite the existing instructions, several participants struggled to understand what they needed to do specifically at the end of the form. They didn’t necessarily know how they might get this form to a doctor, or gave us feedback that printing it might be a challenge. Some participants were concerned that they hadn’t yet provided any health information about themselves by the time they got to the end of the form, while others were not clear that they would need to get this form to a medical provider to completely finish their application.
-- _Supporting data: Quote [add context]_
+- _"You have to have an examiner fill out a form probably? You have to download a form, print it out and give it to the examiner I think? Is this download form? I’m not sure if you have to print this out or if it gets sent to the examiner to fill out. You have to know the process."_
+- _"Why, if it can be done online, do I need a PDF version? That would be my question."_
 
-### 4. Some participants struggled to begin the application process, either because they didn't see how to begin or were confused as to whether this benefit would apply to them
-- _Supporting data: Quote [add context]_
+### 4. Some participants struggled to begin the application process, either because they didn't see how to begin 
+Some participants saw the Intro page as instructions, but not necessarily the “starting point” for the form, and didn’t know what to do next. Some were confused that first call to action in the instructions is actually a link to upload the completed form. They were confused why they would upload a form before even beginning the digital process.
 
-### 5.  Most participants were confused by the order of the insstructions on the confirmation page, or were looking for more clarity.
-- _Supporting data: Quote [add context]_
+- _"Actually, yeah, where’s the form? Am I looking at the wrong spot? Is it at the beginning of the page?"_
+- When asked what they would do next to apply, while looking at the Introduction page for the form: _"I’d probably go online, look for a PDF."_
+- _"[It] threw me off at number 5 where it said ‘upload.’ That’s the first thing I looked at because it was bolder and bigger than the ‘start your application’."_
+
+### Several participants did not have confidence starting the form, because they weren't sure if this benefit would apply to them according to the instructions.
+Several participants wondered whether SMC was funding for a professional, or support funding for a family member giving care. They wondered if the funds would be going to them or the third party.
+
+Several other participants wondered if they already had some version of this benefit, and even reported already having a home health aid. This was confusing for them because they wondered if there was still more they could apply for.
+
+- _"So I would want to know if these benefits are paid to me or a provider. A lot of times you can't afford a provider. You're getting Aunt Suzy from down the street to sit with them."_
+- _"Are you applying to have an aid come in or you’re asking for family to be your aid?"_
 
 ### 6.  Almost all participants struggled with the definition of the term "hospital care."
-- _Supporting data: Quote [add context]_
+- “Hospital care,” was recommended as preferred language, but we found it meant a number of different things to participants, including but not limited to: being hospitalized, receiving medication, outpatient care, etc. While this language might be more approachable than “hospitalized,” we saw participants struggle with the ambiguity.
 
-### 7. Most participants found other language somewhat confusing throughout the form.
-- _Supporting data: Quote [add context]_
+- _"Hospital care is ambiguous. A housebound senior is definitely receiving some hospital care at home. Is hospital care only in the hospital? In the last 6 months he’s been in and out of the ER a half dozen times. Does that count?_"
+
+
+### 7. Most participants thought it would be easier if the _entire_ form was digitized, rather than just the claimant half
+We also observed that they didn’t necessarily know how they might get this form to a doctor, or gave us feedback that printing it might be a challenge.
+- _"I know it’s too much to ask the two parts of the government to talk to each other but it would sure be nice if that form was just continued on to your doctor with your part already filled in."_
+- _"It doesn't make sense to go in, fill it out electronically, print it, go to the doctor, come back, now I gotta friggin'…upload it and scan it, and do all that. none of that makes sense to me in this world."_
+- _"How would you know who to send the PDF to? Does it show the email address or how would you know?"_
+- _"I know the doctor's signature needs to be wet most of the time. Me getting a scan isn’t going to work. No SOP, no prompting if they want me to sign it first and scan and send it to me."_
+
 
 ---
 
