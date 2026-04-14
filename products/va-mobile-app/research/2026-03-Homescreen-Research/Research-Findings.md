@@ -241,7 +241,7 @@ This research was remote moderated concept testing study using Zoom. Participant
 **Finding 1**  
 All participants found that the Alert, Action required, and Activity section items matched their expectations for what they would find on the homescreen \- calling these to-do-list items, updates, and items needing their attention and action. No participant was surprised by the type of items included on the homescreen. 
 
-*\!\[Homescreen-general\](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/2026-03-Homescreen-Research/Images/Homescreen-general.png)*
+![Homescreen-general](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/2026-03-Homescreen-Research/Images/Homescreen-general.png)
 
 **Finding 2**  
 6 participants talked about wanting an uncluttered and streamlined homescreen so they can focus on what’s the most important. Participants voiced this when discussing whether homescreen items needed more data on the homescreen, with most feeling only dates when available should be added to reduce clutter. They also voiced this when discussing where Veteran Status Card and Disability status and payments should be on the homescreen, with some saying they wouldn’t want those items on homescreen to reduce clutter. 
