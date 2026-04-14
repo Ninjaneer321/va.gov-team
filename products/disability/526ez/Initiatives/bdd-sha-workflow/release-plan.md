@@ -145,6 +145,11 @@ Alarms from monitoring are sent to the following Slack channel:
 
 _The KPIs and numbers are example values recommended by VSP but can be customized to your team's needs._
 
+The number of unique users is based on a general 10,000 daily active users visiting Form 21-526EZ based on data
+available in Google Analytics. The actual instances of "BDD" users is much smaller. For the same timeframe, BDD users
+who react the existing `/disability/file-disability-claim-form-21-526ez/supporting-evidence/evidence-types-bdd` route
+usually peaks around ~100 daily active users, though more may come into VA.gov based on policy mandates.
+
 ### Stage A: Canary - 10% of users
 
 _Test a small Veteran population to ensure any obvious bugs/edge cases are found._
@@ -154,7 +159,7 @@ The recommended progression is 1% → 25% → 100%. However, VFS teams have flex
 #### Planning
 
 - Length of time: 2 Days, starting 4/20/26
-- Percentage of Users (and roughly how many users do you expect this to be): 10%
+- Percentage of Users (and roughly how many users do you expect this to be): 10%, (~1000 daily unique users, ~10 daily unique BDD users)
 
 #### Results
 
@@ -171,7 +176,7 @@ _Test a larger user population to ensure larger usage patterns expose no issues.
 #### Planning
 
 - Length of time: 2 Days, Starting 4/22/26
-- Percentage of Users (and roughly how many users do you expect this to be): 25%
+- Percentage of Users (and roughly how many users do you expect this to be): 25%, (~2500 daily unique users, ~25 daily unique BDD users)
 
 #### Results
 
@@ -188,7 +193,7 @@ _Test a larger user population to ensure larger usage patterns expose no issues.
 #### Planning
 
 - Length of time: 2 Days, Starting 4/24/26
-- Percentage of Users (and roughly how many users do you expect this to be): 50%
+- Percentage of Users (and roughly how many users do you expect this to be): 50%, (~5000 daily unique users, ~50 daily unique BDD users)
 
 #### Results
 
@@ -203,7 +208,7 @@ _Test a larger user population to ensure larger usage patterns expose no issues.
 #### Planning
 
 - Length of time: 2 Days, Starting 4/27/26
-- Percentage of Users (and roughly how many users do you expect this to be): 100%
+- Percentage of Users (and roughly how many users do you expect this to be): 100% (~10,000 daily unique users, ~100 daily unique BDD users)
 
 #### Results
 
