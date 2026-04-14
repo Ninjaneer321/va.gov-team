@@ -426,10 +426,10 @@ This initiative is meant to create a durable, reusable foundation for feature pl
 
 ### Research documents
 
-- \[Product Outline\](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/product/Homescreen%20Redesign%20Product%20Brief.md)  
-- \[Research plan\](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/2026-03-Homescreen-Research/Research-plan.md)  
-- \[Conversation guide\](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/2026-03-Homescreen-Research/Conversation-guide.md)  
-- \[Interview transcripts\](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/2026-03-Homescreen-Research/Transcripts)
+- [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/product/Homescreen%20Redesign%20Product%20Brief.md)  
+- [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/2026-03-Homescreen-Research/Research-plan.md)  
+- [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/2026-03-Homescreen-Research/Conversation-guide.md)  
+- [Interview transcripts](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/2026-03-Homescreen-Research/Transcripts)
 
 ### Tools used for Synthesis
 
