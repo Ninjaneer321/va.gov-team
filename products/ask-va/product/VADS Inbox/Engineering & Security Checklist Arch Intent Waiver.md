@@ -7,7 +7,7 @@
         + https://github.com/department-of-veterans-affairs/va.gov-team/issues/131991
 - UX design description
     + For user-facing changes, link to UX prototype or wireframes if available
-        + https://design.va.gov/components/search-filter
+        + [Figma](https://www.figma.com/design/aQ6JsjD4pvMxSVPAZHllMX/AVA-Page-Library?node-id=8875-25318&p=f&t=RLz7F2nVMcFxvcVd-0)
     + Call out any engineering challenges; UX is reviewed in the [Design Intent meeting][DI]
         + None
 - Frontend changes
@@ -92,7 +92,7 @@
       - N/A
 - Test strategy
     + Describe automated, manual and user acceptance test strategy
-      - N/A New unit tests have been added to cover new FE components that were created as part of this initiative
+      - N/A New unit tests have been added to cover new FE components that were created as part of this initiative, we will also manually QA using our teams resources. We may also coordinate with the Ask VA CRM Business team to find real users to test these changes with
     + Describe required test data and test user accounts
       - Any user that has previously submitted inquiries works, but these are the ones we have used in the past:
         - vets.gov.user+1@gmail.com 
@@ -102,7 +102,7 @@
     + List scope of any feature flags
       - `ask_va_enhanced_inbox` - Used to enable users to view the new `/inbox` route. Also updates the `/introduction` page as that will no longer be where the Inbox components live. Updated landing page content will be displayed when the feature flag is enabled instead
     + Identify other teams to coordinate with
-      - N/A
+      - Ask VA CRM Business team
     + Describe rollback plan
       - In the case of a production issue, the `ask_va_enhanced_inbox` feature flag will be disabled. This will roll all users back to the old inbox experience
 - Internal administration tasks
