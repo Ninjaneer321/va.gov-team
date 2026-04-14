@@ -1,19 +1,19 @@
 # Check-in B Notetaker Template: Cutover + Early Recovery
 
-**Participant:** [P#]  
-**Date:** [DATE]  
-**Moderator:** [NAME]  
-**Notetaker:** [NAME]  
+**Participant:** P6  
+**Date:** 04/14/2026  
+**Moderator:** Cara Frissell  
+**Notetaker:** Laura Simpson  
 **Observers:** [NAMES]  
-**Recording:** [YES/NO]  
+**Recording:** YES  
 
 ---
 
 ## 1. Intro + Consent
 
-- [ ] Recording consent confirmed
-- [ ] Clip consent confirmed
-- [ ] Observer introduction completed
+- [x] Recording consent confirmed
+- [x] Clip consent confirmed
+- [x] Observer introduction completed
 - **Notes:**
 
 ---
@@ -21,9 +21,9 @@
 ## 2. Warm-up: Recent Healthcare Activity
 
 ### Tasks completed since last check-in:
-- [ ] Scheduled/changed/canceled appointment
+- [x] Scheduled/changed/canceled appointment
 - [ ] Sent or read secure messages
-- [ ] Requested refills or checked shipment status
+- [x] Requested refills or checked shipment status
 - [ ] Viewed lab results or medical records
 - [ ] Used travel pay
 - [ ] Other: _______________
@@ -31,7 +31,7 @@
 ### Tools used:
 - [ ] VA.gov web
 - [ ] VA Health & Benefits app
-- [ ] My HealtheVet
+- [x] My HealtheVet
 - [ ] Phone
 - [ ] In-person
 - [ ] Email/text
