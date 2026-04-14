@@ -203,7 +203,7 @@ This research was remote moderated concept testing study using Zoom. Participant
 
 ### Homescreen content \- general
 
-1. All participants expect to find items on the homescreen requiring attention and action including:  
+### 1. All participants expect to find items on the homescreen requiring attention and action including:  
    - Alerts  
    - Updates from the VA  
    - Reminders  
@@ -232,7 +232,7 @@ service_journey_mapping: []
 pattern_triggers: []
 Rationale: This is primarily an insight about expectations/mental models for what belongs on a homescreen (alerts, reminders, tasks), and it doesn’t describe a barrier—so it’s best captured as a workflow/expectations insight with “enhancement” severity.
 
-2. 6 Participants prefer an uncluttered and streamlined homescreen so they can focus on what’s important
+### 2. 6 Participants prefer an uncluttered and streamlined homescreen so they can focus on what’s important
 ```yaml key-finding-labels
 finding_id: 2
 finding_title: "6 Participants prefer an uncluttered and streamlined homescreen so they can focus on what’s important"
