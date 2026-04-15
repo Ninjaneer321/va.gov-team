@@ -20,14 +20,15 @@ Veterans experience less friction when accessing their benefits and services.
 ## Related components
 | Component | How it relates to the initiative |
 |-----------|--------|
-| Sign-in experience | User experience with the sign-in and authentication |
+| Unified Sign-in Page | User experience with the sign-in process on VA.gov |
 | Verify | User experience with the  identity verification process |
+| Sign-in experience | End-to-end experience with sign-in and authentication between VA.gov and the CSP |
 
 ---
 ## Release notes
 | What changed | Description of impact |
 |-----------|--------|
-| | |
+| 1-5 word summary | 1-2 sentence description |
 
 ---
 ## Related research
