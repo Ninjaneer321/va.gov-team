@@ -12,7 +12,7 @@ The sign-in experience covers the end-to-end flow Veterans and beneficiaries use
 
 | Initiative | Description | Measurement |
 |-----------|--------|--------|
-| Reduce dissatisfaction  | Pinpointing the source of dissatisfaction with sign in. | Measuring user sentiment across user feedback channels |
+| [Reduce dissatisfaction](products/identity/sign-in-experience/reducing-dissatisfaction.md)  | Pinpointing the source of dissatisfaction with sign in. | Measuring user sentiment across user feedback channels |
 | Insights-informed error improvements | Use Sign-in Service data to fix problems that cause sign-in errors. | Tracking error frequency and  sessions <10 seconds |
 
 ---
