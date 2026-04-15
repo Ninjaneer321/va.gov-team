@@ -9,7 +9,6 @@
 
 **Files:**
 - [Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1776230451211/90318909d70c028a4f1e80de36754e48c7cae73d)
-- [Figma]()
 
 **On this page:**
 - [Navigation/page flows](#flows)
@@ -39,23 +38,13 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - [Breadcrumbs](https://design.va.gov/components/breadcrumbs)
 - [Title tags](https://design.va.gov/content-style-guide/title-tags)
 
-**1) Page name - Existing/New**
-- URL:
-- H1:
-- Sub-heading:
-- Breadcrumb:
-- Browser title: [H1 of introduction page in title case] | Veterans Affairs
-    - [insert title] | Veterans Affairs
-- Notes: 
+**1) Apply for Automobile Allowance and Adaptive Equipment - New**
+- URL: https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/apply-form-21-4502/
+- H1: [TBD by Content]
+- Sub-heading: [TBD by Content - form name and number]
+- Breadcrumb: VA.gov > Disability benefits > Eligibility > Special claims > Automobile allowance and adaptive equipment > [H1 tbd by Content]
+- Browser title: [H1 of introduction page in title case] | 21-4502 | Veterans Affairs
 
-**2) Page name - Existing/New**
-- URL:
-- H1:
-- Sub-heading:
-- Breadcrumb:
-- Browser title: [H1 of introduction page in title case] | Veterans Affairs
-    - [insert title] | Veterans Affairs
-- Notes: 
 
 **Structuring URLs for individual pages within the form flows**
 - All pages within form flows will exist as child pages of the core/canonical URL.
@@ -73,44 +62,38 @@ Teams must launch with at least one entry point that allows site visitors to nav
 
 ### Required entry point(s)
 
-1. **[Page/placement name]**
-  - Placement description: 
+1. **[Automobile allowance and adaptive equipment page](https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/)**
+  - Placement description: On-page within the application section
   - Link details
-    - Link label: 
-    - Link destination: 
+    - Link label: To be determined by content
+    - Link destination: https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/apply-form-21-4502/
   - Notes:
-    - Who will update (IA, content, product team):
-    - When will this entry point go live (at launch? After staged rollout? after some designated time?):
+    - Who will update (IA, content, product team): Content
+    - When will this entry point go live (at launch? After staged rollout? after some designated time?): at launch
    
 **Note: If the form will be released incrementally (aka not at 100%) or if the launch plan includes taking the form down temporarily after launch to check submission quality, a widget will be required. This requires coordination between the product engineer to create the widget and content to provide text for the widget. This can take some time. Please plan for at least 2 weeks ahead of staging review.**
 
 ### Additional key entry points
 _Any additional key locations that the page should be navigable from. Although these are not required for launch, they are critical to the findability of your content/feature.  Examples of key entry points include "About a form" pages, additional navigation component (top, left) placements, additional static pages where its prominently linked from, etc._
 
-1. **[Page/placement name]**
-  - Placement description: 
+1. **[About form 21-4502](https://www.va.gov/forms/21-4502/)**
+  - Placement description: On-page link
   - Link details
-    - Link label: 
-    - Link destination: 
+    - Link label: TBD by Content
+    - Link destination: https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/apply-form-21-4502/
   - Notes:
-    - Who will update (IA, content, product team):
-    - When will this entry point go live (at launch? After staged rollout? after some designated time?):
+    - Who will update (IA, content, product team): Content
+    - When will this entry point go live (at launch? After staged rollout? after some designated time?): at launch
+   
+2.  **Side navigation**
+  - Placement description: Nested within the left nav for the [Automobile allowance detail page](https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/)
+  - Link details
+    - Link label: Apply online
+    - Link destination: https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/apply-form-21-4502/
+  - Notes:
+    - Who will update (IA, content, product team): IA
+    - When will this entry point go live (at launch? After staged rollout? after some designated time?): at 100% rollout
 
-##  <a name="redirects"></a>Redirects <br>
-*A list of any critical redirects needed as part of this product/feature launch. Redirects are required for any URL changes to ensure visitors do not receive a 404 - Page not found error in the experience.* 
-
-**For any redirects listed, please submit a request for the redirect using the [Redirect Request Issue Template](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=redirect-request.md) at least 2 weeks in advance.**  
-
-| Current URL | Redirect to | Notes |
-| --- | --- | --- |
-
-
-## <a name="bestbets"></a>Search best bets
-*Search “best bets” are suggested pages that appear in the “Our top recommendations for you” section when you perform a search on VA.gov. Best bets are not implemented for every page, and not intended to be permanent.  They can aid in helping visitors find key content and features that are not ranking search well or competing with similar pages in search results. Existing best bets must be removed or updated when links/URLs change.*
-
-**1. Best bet for [page name]** - 
-- Destination page:
-- Additional keywords:
 
 ## <a name="launch"></a>Launch coordination <br>
 *Communication when preparing for launch is critical to ensuring all supporting content, links, and messaging are implemented in a timely manner to ensure a good experience. Missing any of these steps can result in findability challenges, incorrect or misleading information, duplicate content, etc. *
