@@ -1,14 +1,8 @@
 # Sign-in experience
 
-The sign-in experience covers the end-to-end flow Veterans and beneficiaries use to authenticate on VA.gov and the VA mobile app. This includes the credential selection, identity verification, multi-factor authentication, and session management steps that connect users to VA services.
+The sign-in experience covers the end-to-end flow Veterans and beneficiaries use to authenticate on VA.gov and the VA mobile app. The Identity team owns the frontend components and authentication flows that make up this experience, in partnership with credential service providers Login.gov and ID.me.
 
 **Slack channel:** [#sign-in-experience](https://dsva.slack.com/archives/C078GBPDMGB)
-
----
-
-## Overview
-
-The sign-in experience is the entry point to VA online services. When it works well it goes unnoticed. When it fails, Veterans may be blocked from accessing benefits, support costs increase, and trust in VA erodes. The Identity team owns the frontend components and authentication flows that make up this experience, in partnership with credential service providers Login.gov and ID.me.
 
 ---
 
