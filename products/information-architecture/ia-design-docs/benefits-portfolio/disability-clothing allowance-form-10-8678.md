@@ -3,8 +3,7 @@
 
 **Team:** [BIO]
 
-**CAIA Intake ticket:** Collaboration Cycle for BIO Pingwind - Form 10-8678 - Application for Annual Clothing Allowance
-#137579
+**CAIA Intake ticket:** (https://github.com/department-of-veterans-affairs/va.gov-team/issues/137679?issue=department-of-veterans-affairs%7Cva.gov-team%7C137579)
 
 **IA Tracker:** 
 
