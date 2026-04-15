@@ -26,7 +26,7 @@ The sign-in experience covers the end-to-end flow Veterans and beneficiaries use
 | [Internal team runbook](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Incident%20Response/System%20Recovery%20Procedures/USiP_SRP.md#system-recovery-plan---unified-sign-in-page-usip)| Incident response and system recovery plan.
 
 
-## Technical reference
+## Related components
 
 | Component | Description |
 |-----|-------------|
