@@ -21,7 +21,7 @@ Feature Toggle/flag:
 Any other issues or requirements that should be addressed prior to rollout?
 
 ### Go/No Go meeting
-Asynchronous Go/No Go - **April 15, 2026**
+Asynchronous Go/No Go - **April 16, 2026**
 
 - [ ] Review the release plan with your team.
 - [ ] Review the plan with your OCTO representative.
@@ -31,7 +31,7 @@ Asynchronous Go/No Go - **April 15, 2026**
 
 ## Release Details
 
-- [ ] Enable in Production to 100% of users - **April 15, 2026**
+- [ ] Enable in Production to 100% of users - **April 16, 2026**
 - [ ] Confirm the release to Production, with a test user
 - [ ] Communicate release to ARP pilot users via Teams/Email
 - [ ] Communicate release to VBA and VSO liaison office
