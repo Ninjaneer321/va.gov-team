@@ -19,7 +19,7 @@ The sign-in experience covers the end-to-end flow Veterans and beneficiaries use
 ---
 
 ## Support reference
-| Reference type | Descripion |
+| Reference type | Description |
 |-----------|--------|
 | [Product guide](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Products/product%20guides%20for%20contact%20center) | Product and troubleshooting guide for Platform Support |
 | [Sign-in errors](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Troubleshooting_logging/Authentication_Errors#readme) | Error states and recovery flows |
