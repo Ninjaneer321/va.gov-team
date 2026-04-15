@@ -405,7 +405,10 @@ A week has passed since you uploaded the requested document, and you want to che
     - Where would you expect to find your CHAMPVA application?
     - Do you see where it says “In progress, Closed, All”? Would you try clicking each of those?
     - How was that experience?
-  - What would have made it easier for you to find your CHAMPVA application? 
+  - What would have made it easier for you to find your CHAMPVA application?
+
+- Based on the title of the page, how would you describe what this page is for?
+  - Is there any way that we could improve it?  
 
 What would you do next? 
 - [If they WOULD proceed] Okay, go ahead and click on the link to move forward in the prototype.
