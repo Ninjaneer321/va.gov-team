@@ -5,7 +5,6 @@ Feature Toggle/flag:
 `accredited_representative_portal_enable_526ez_bdd` will control visibility of the BDD/SHA feature, for Accredited Representative Portal users. This will be disabled in Production prior to release.
 
 ### Preparation
-- [ ] Contact Center Review has been submitted
 - [ ] The following user flows have been tested
    - Promoting SHA Part A in 21-526ez
       -    [ ] SHA content on 21-526ez submission page
@@ -16,11 +15,13 @@ Feature Toggle/flag:
       -    [ ] Upload for SHA is reflected in review and submit
 - [ ] Any "launch blocking" findings from Team QA have been addressed.
 - [ ] Datadog monitoring is set up to track 526ez submissions with BDD checked and an SHA uploaded and when an SHA is not uploaded
+- [ ] Contact Center Review has been submitted
+   - [ ] Note: Will be submitted right after release
 
 Any other issues or requirements that should be addressed prior to rollout?
 
 ### Go/No Go meeting
-Asynchronous Go/No Go - **April 20, 2026**
+Asynchronous Go/No Go - **April 15, 2026**
 
 - [ ] Review the release plan with your team.
 - [ ] Review the plan with your OCTO representative.
@@ -30,7 +31,7 @@ Asynchronous Go/No Go - **April 20, 2026**
 
 ## Release Details
 
-- [ ] Enable in Production to 100% of users - **April 20, 2026**
+- [ ] Enable in Production to 100% of users - **April 15, 2026**
 - [ ] Confirm the release to Production, with a test user
 - [ ] Communicate release to ARP pilot users via Teams/Email
 - [ ] Communicate release to VBA and VSO liaison office
