@@ -165,4 +165,4 @@ I knew where to look to find updates about my application.
 
 
 ### Additional Notes**
-- 
+- O: They seem to have used screen magnification, perhaps by default they have their browser zoomed in. This means the user was seeing less content on the screen at a given time.
