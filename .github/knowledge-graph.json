@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-04-14T20:48:02.640Z",
+    "generated": "2026-04-15T17:24:04.350Z",
     "description": "Knowledge graph of VA.gov products and teams",
     "source_directories": [
       "products/",
@@ -9,29 +9,29 @@
     ]
   },
   "statistics": {
-    "total_nodes": 1230,
-    "total_edges": 2499,
+    "total_nodes": 1233,
+    "total_edges": 2502,
     "nodes_by_type": {
       "team": 61,
       "portfolio": 4,
       "crew": 19,
-      "product": 345,
+      "product": 346,
       "category": 25,
       "external_system": 5,
       "form": 64,
-      "research_study": 707
+      "research_study": 709
     },
     "edges_by_relationship": {
       "belongs_to_portfolio": 61,
       "belongs_to_crew": 61,
       "part_of_portfolio": 19,
-      "sub_product_of": 256,
+      "sub_product_of": 257,
       "owns_product": 16,
       "works_on_product": 1,
       "references_product": 290,
       "integrates_with": 165,
       "implements_form": 104,
-      "has_research": 689,
+      "has_research": 691,
       "conducted_research": 538,
       "research_for_form": 107,
       "research_references_product": 192
@@ -4303,28 +4303,49 @@
       ]
     },
     {
+      "id": "product-identity-platform-authentication",
+      "type": "product",
+      "name": "Platform authentication",
+      "path": "products/identity/platform-authentication",
+      "display_name": "Platform authentication",
+      "description": "Platform authentication covers the backend infrastructure, services, and integrations that power secure sign-in for VA.gov. The Identity team owns and maintains these components in partnership with credential service providers and VA platform teams.",
+      "slack_channels": [
+        "#identity-support",
+        "#sign-in-service-sis"
+      ],
+      "team_references": [
+        "teams/vsp/teams"
+      ],
+      "product_references": [
+        "products/identity/login/reference-documents/auth/authentication-and-authorization-simplified",
+        "products/identity/Products/Sign-In",
+        "products/identity/Products/Service",
+        "products/identity/Policies"
+      ]
+    },
+    {
       "id": "product-identity-sign-in-experience",
       "type": "product",
       "name": "Sign-in experience",
       "path": "products/identity/sign-in-experience",
       "display_name": "Sign-in experience",
-      "description": "The sign-in experience covers the end-to-end flow Veterans and beneficiaries use to authenticate on VA.gov and the VA mobile app. This includes the credential selection, identity verification, multi-factor authentication, and session management steps that connect users to VA services.",
+      "description": "The sign-in experience covers the end-to-end flow Veterans and beneficiaries use to authenticate on VA.gov and the VA mobile app. The Identity team owns the frontend components and authentication flows that make up this experience, in partnership with credential service providers Login.gov and ID.me.",
       "slack_channels": [
         "#sign-in-experience",
-        "#readme",
-        "#system-recovery-plan---unified-sign-in-page-usip",
         "#unified-sign-in-page-usip-design-details",
-        "#session-expired"
+        "#session-expired",
+        "#readme",
+        "#system-recovery-plan---unified-sign-in-page-usip"
       ],
       "product_references": [
-        "products/identity/Products/product",
-        "products/identity/Troubleshooting_logging/Authentication_Errors",
-        "products/identity/Incident",
         "products/identity/login/unified-sign-in-pages",
         "products/identity/Frontend/applications/verify",
         "products/identity/Frontend/applications/terms-of-use",
         "products/identity/Troubleshooting_logging/Authentication_Errors/005",
         "products/identity/Frontend/downtime-banners",
+        "products/identity/Products/product",
+        "products/identity/Troubleshooting_logging/Authentication_Errors",
+        "products/identity/Incident",
         "products/identity/Research/2026-01"
       ]
     },
@@ -8044,6 +8065,20 @@
         "conversation_guide": null
       },
       "name": "3Q 2025 Medallia findings summary",
+      "participant_types": [
+        "Veterans"
+      ]
+    },
+    {
+      "id": "research-products-discharge-upgrade-wizard-research-2026-medallia-feedback",
+      "type": "research_study",
+      "path": "products/Discharge Upgrade Wizard/Research/2026-medallia-feedback",
+      "files": {
+        "plan": null,
+        "findings": null,
+        "conversation_guide": null
+      },
+      "name": "1Q 2026 Medallia findings summary",
       "participant_types": [
         "Veterans"
       ]
@@ -26675,6 +26710,17 @@
       "name": "3Q2025 Medallia findings summary"
     },
     {
+      "id": "research-products-outreach-events-research-2026-medallia-feedback",
+      "type": "research_study",
+      "path": "products/outreach-events/research/2026-Medallia-feedback",
+      "files": {
+        "plan": null,
+        "findings": null,
+        "conversation_guide": null
+      },
+      "name": "1Q2026 Medallia findings summary"
+    },
+    {
       "id": "research-products-pact-act-wizard-research-2023-2024-launch",
       "type": "research_study",
       "path": "products/pact-act-wizard/research/2023-2024-launch",
@@ -31816,6 +31862,11 @@
       "relationship": "sub_product_of"
     },
     {
+      "source": "product-identity-platform-authentication",
+      "target": "product-identity",
+      "relationship": "sub_product_of"
+    },
+    {
       "source": "product-identity-sign-in-experience",
       "target": "product-identity",
       "relationship": "sub_product_of"
@@ -35448,6 +35499,11 @@
     {
       "source": "product-discharge-upgrade-wizard",
       "target": "research-products-discharge-upgrade-wizard-research-2025-medallia-feedback",
+      "relationship": "has_research"
+    },
+    {
+      "source": "product-discharge-upgrade-wizard",
+      "target": "research-products-discharge-upgrade-wizard-research-2026-medallia-feedback",
       "relationship": "has_research"
     },
     {
@@ -41668,6 +41724,11 @@
     {
       "source": "product-outreach-events",
       "target": "research-products-outreach-events-research-2025-medallia-feedback",
+      "relationship": "has_research"
+    },
+    {
+      "source": "product-outreach-events",
+      "target": "research-products-outreach-events-research-2026-medallia-feedback",
       "relationship": "has_research"
     },
     {

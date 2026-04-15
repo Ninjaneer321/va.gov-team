@@ -1,6 +1,6 @@
 # Research Studies by Product
 
-> Auto-generated from `.github/knowledge-graph.json` on 2026-04-14.
+> Auto-generated from `.github/knowledge-graph.json` on 2026-04-15.
 > Edit the source data, not this file.
 
 65 products have documented research studies.
@@ -1971,7 +1971,15 @@
 ## Discharge Upgrade Wizard
 *Path: [products/Discharge Upgrade Wizard](products/Discharge Upgrade Wizard)*
 
-**Research (1 study):**
+**Research (2 studies):**
+
+### [1Q 2026 Medallia findings summary](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/Discharge%20Upgrade%20Wizard/Research/2026-medallia-feedback)
+
+- **Date**: Date unknown
+- **Methodology**: Methodology not specified (Veterans)
+- **Participants**: Veterans
+- **Path**: `products/Discharge Upgrade Wizard/Research/2026-medallia-feedback`
+- **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/Discharge%20Upgrade%20Wizard/Research/2026-medallia-feedback) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2FDischarge%20Upgrade%20Wizard%202026%202026%20Medallia)
 
 ### [3Q 2025 Medallia findings summary](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/Discharge%20Upgrade%20Wizard/Research/2025-medallia-feedback)
 
@@ -6415,7 +6423,14 @@
 ## Outreach Events Calendar Product Outline
 *Path: [products/outreach-events](products/outreach-events)*
 
-**Research (3 studies):**
+**Research (4 studies):**
+
+### [1Q2026 Medallia findings summary](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/outreach-events/research/2026-Medallia-feedback)
+
+- **Date**: Date unknown
+- **Methodology**: Methodology not specified
+- **Path**: `products/outreach-events/research/2026-Medallia-feedback`
+- **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/outreach-events/research/2026-Medallia-feedback) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Foutreach-events%201Q2026%20Medallia)
 
 ### [2021 Usability Research on Outreach & Events Filtering / Recurring Events](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/outreach-events/research/2021-filtering-recurring-events)
 

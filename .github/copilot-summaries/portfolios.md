@@ -1,6 +1,6 @@
 # VA.gov Portfolio Hierarchy
 
-> Auto-generated from `.github/knowledge-graph.json` on 2026-04-14.
+> Auto-generated from `.github/knowledge-graph.json` on 2026-04-15.
 > Edit the source data, not this file.
 
 Organisational hierarchy: Portfolio → Crew → Team → Products.
