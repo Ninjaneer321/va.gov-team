@@ -21,7 +21,7 @@ The sign-in experience covers the end-to-end flow Veterans and beneficiaries use
 
 | Component | Description |
 |-----|-------------|
-| [Unified Sign-In Page (USIP)](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/login/unified-sign-in-pages#unified-sign-in-page-usip-design-details) | Entry point for VA services authenticating through VA.gov |
+| [Unified Sign-In Page (USIP)](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/login/unified-sign-in-pages#unified-sign-in-page-usip-design-details) | Entry point for VA.gov benefits and services |
 | [Verify](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Frontend/applications/verify.md) | Identity verification experience |
 | [Terms of Use](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Frontend/applications/terms-of-use.md) | Terms of Use page and acceptance flow |
 | Interstitial | Targeted messaging for authenticated users on VA.gov |
