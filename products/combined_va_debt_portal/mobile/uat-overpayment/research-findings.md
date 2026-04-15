@@ -94,27 +94,24 @@ synthesis_tools_used:
   - "Affinity Mapping"
 ---
 
------>
 
 > [!TIP]
 > **Complete the frontmatter section above AFTER you've finished and saved your research findings report below.**
 > 
 > Use the [GitHub Copilot Research Findings Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md) to automatically generate structured metadata from this completed research findings report. The prompt uses natural language processing to extract key findings, participant demographics, recommendations, and apply appropriate research repository tags.
-
-> [!IMPORTANT]
-> **This is a template, <mark>PLEASE MAKE A COPY</mark>** 📑
+----->
 
 ---
 
-# [Study] Research Findings 
+# Debt Portal: Overpayments in mobile app UAT Research Findings 🚧 🚧 🚧
 
-**Office of the CTO - Digital Experience (OCTO-DE), Product Name, Team Name**
+**Office of the CTO - Digital Experience (OCTO-DE), Mobile app Overpayments, Mobile Feature Support**
 
-**Date:** MM/DD/YYYY
+**Date:** MM/DD/YYYY 🚧
 
-**Contacts:** [Researcher/Designer 1], [Researcher/Designer 2]
+**Contacts:** Emily DeWan - UX Researcher, Natasha Huckleberry - UX Desginer
 
-**[Research Readout (PDF)](link-here)**  
+**[Research Readout (PDF)](link-here)**  🚧
 *Add a link to your research readout deck, if available.*
 
 > [!TIP] 
@@ -132,8 +129,13 @@ synthesis_tools_used:
 - [Research participants](#user-content-research-participants)
 
 ## Research Goals
-*Provide context for this research by explaining how it fits into the Veteran’s journey.*  
+
+This touches a few areas of the Veteran's journey where managing debt is involved.
 [See the Veteran journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)  
+
+- `Starting Up (Moment: Balancing Finances)`
+- `Putting Down Roots (Moment: Maintaining my financial, social, and emotional health)`
+
 
 **Guiding Questions:**  
 - What are the key moments this tool supports in the Veteran’s journey?  
