@@ -1,27 +1,26 @@
 # Reduce sign-in looping
-Multiple issues contribute to the user dissatisfaction theme of "looping" during the sign in process. These may be caused by client issues, unexpected behavior, or technical bugs. This project is to investigate, understand, and measurably reduce dissatisfaction related to looping.
 
+Overview
+Looping is a pain points identified in qualitative data in [dissatisfaction discovery research in Q1](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-01%20dissatisfaction%20discovery/2026-01%20Dissatisfaction%20Discovery%20-%20Research%20Findings.md). The purpose of this project is to investigate, understand, and measurably reduce dissatisfaction related to looping.
 
 ---
 
 ## Related initiative
-
 [Reducing dissatisfaction](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/sign-in-experience/reducing-dissatisfaction.md)
 
 ---
 
 ## Objective
-
 Veterans experience less friction when accessing their benefits and services.
 
 ---
 
 ## Related tickets
 
-| Ticket | Description | Status |
-|--------|-------------|--------|
-| [#0000](#) | Brief description | In progress / Done / Blocked |
-| [#0000](#) | Brief description | In progress / Done / Blocked |
+| Ticket | Description | 
+|--------|-------------|
+| [#0000](#) | Brief description |
+| [#0000](#) | Brief description |
 
 ---
 
