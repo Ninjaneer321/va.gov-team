@@ -13,7 +13,7 @@ The sign-in experience covers the end-to-end flow Veterans and beneficiaries use
 | Initiative | Description | Measurement |
 |-----------|--------|--------|
 | [Reduce dissatisfaction](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/sign-in-experience/reducing-dissatisfaction.md)  | Pinpointing the source of dissatisfaction with sign in. | Measuring user sentiment across user feedback channels |
-| Insights-informed error improvements | Use Sign-in Service data to fix problems that cause sign-in errors. | Error frequency and  sessions monitoring |
+| [Insights-informed error improvements](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/sign-in-experience/error-improvements.md) | Use Sign-in Service data to fix problems that cause sign-in errors. | Error frequency and  sessions monitoring |
 
 ---
 
