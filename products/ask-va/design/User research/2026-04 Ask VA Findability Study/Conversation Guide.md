@@ -116,6 +116,9 @@ Now, let's imagine you'd like to reach out to someone online for help. Talk out 
 
 ### Ask VA Introduction
 
+**Things to watch for:** 
+- What do they refer to what they submit through here? Request/question/something else?
+
 **Questions:**
 - First, what are your expectations of Ask VA?
 - Walk me through the content you see on this page. What is helpful to you? What is not helpful to you?
