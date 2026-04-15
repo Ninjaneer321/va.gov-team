@@ -14,7 +14,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-11
 - **Methodology**: Semi-structured interviews (Veterans, Caregivers)
-- **Key Themes**: Initiative: PACT Act, Initiative: Toxic Exposure
+- **Key Themes**: Timeline expectations, Communication, Error handling, Trust
 - **Top Finding**: A strong case wasn't made to either avoid or pursue a specific channel for outreach. A letter was in line with most par…
 - **Impact**: Inform our outreach channel, content, and outreach strategy
 - **Path**: `products/proactive-benefits/research/2023-11-Outreach Exploration`
@@ -233,7 +233,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-11
 - **Methodology**: semi-structured interviews (Veterans)
-- **Key Themes**: usability-testing, semi-structured-interviews, moderated-re…
+- **Key Themes**: Evidence submission, Status clarity, Communication, Trust
 - **Top Finding**: All participants understood that recently submitted files were in progress and had not been added to their claim as lon…
 - **Impact**: Veterans can effectively understand document upload statuses and take appropria…
 - **Path**: `products/claim-appeal-status/research/2024-11-Document-Status`
@@ -247,7 +247,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-06
 - **Methodology**: *Provide a brief description of the research methods used (e.g., usability testing, interviews).* (Veterans)
-- **Key Themes**: usability-testing, remote-research
+- **Key Themes**: Navigation, Search
 - **Path**: `products/claim-appeal-status/research/2025-06-Evidence-Request`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/claim-appeal-status/research/2025-06-Evidence-Request) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fclaim-appeal-status%202025%20Conversation%20Guide)
 - **Files**:
@@ -259,7 +259,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-10
 - **Methodology**: We conducted hour-long remote moderated research sessions via Zoom (Veterans)
-- **Key Themes**: moderated-research, remote-research
+- **Key Themes**: Timeline expectations, Error handling, Communication
 - **Top Finding**: Most participants said they prefer the new overview page design over the current design
 - **Path**: `products/claim-appeal-status/research/2023-10-Claim-Contextualization`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/claim-appeal-status/research/2023-10-Claim-Contextualization) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fclaim-appeal-status%202023%20Conversation%20Guide)
@@ -272,7 +272,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-08
 - **Methodology**: usability testing (Veterans, Caregivers, Service Members)
-- **Key Themes**: usability-testing, moderated-research, remote-research
+- **Key Themes**: Status clarity, Language clarity, Search, Navigation
 - **Top Finding**: Core task of accessing Decision Letters via the Claim Status Tool was very successful.
 - **Path**: `products/claim-appeal-status/research/2022-08-Decision-Letter-Download`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/claim-appeal-status/research/2022-08-Decision-Letter-Download) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fclaim-appeal-status%202022%20Conversation%20Guide)
@@ -285,7 +285,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-11
 - **Methodology**: We scheduled 40 remote Zoom sessions with Veterans. We successfully completed 25, with 15 cancellations or no-shows. (Veterans)
-- **Key Themes**: moderated-research, remote-research
+- **Key Themes**: Evidence submission
 - **Top Finding**: The most common pain point we heard in filing decision reviews (and initial claims) is knowing what documentation/evide…
 - **Path**: `products/claim-appeal-status/research/2022-11-Decision-Reviews`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/claim-appeal-status/research/2022-11-Decision-Reviews) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fclaim-appeal-status%202022%20Conversation%20Guide)
@@ -298,7 +298,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-07
 - **Methodology**: We conducted hour-long remote moderated research sessions via Zoom (Veterans)
-- **Key Themes**: usability-testing, moderated-research, remote-research, eva…
+- **Key Themes**: Communication, Timeline expectations, Error handling
 - **Top Finding**: Veterans rated the notice information an average score of 4.5 out of 5 for helpfulness
 - **Impact**: Veterans clearly understand what actions are required in response to developmen…
 - **Path**: `products/claim-appeal-status/research/2024-07-Development-Letters`
@@ -312,7 +312,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-03
 - **Methodology**: To investigate this topic, we conducted qualitative research with Veterans during 1-hour sessions utilizing 3 different methods: (Veterans)
-- **Key Themes**: semi-structured-interviews, remote-research, Accessibility
+- **Key Themes**: Navigation, Status clarity, Search, Form complexity
 - **Top Finding**: Veterans find the claims process learning curve to be steep, with many potential areas of improvement for the claim sta…
 - **Path**: `products/claim-appeal-status/research/2023-03-Initial-Decisions-CST`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/claim-appeal-status/research/2023-03-Initial-Decisions-CST) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fclaim-appeal-status%202023%20Conversation%20Guide)
@@ -352,7 +352,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: Method 1, Method 2 (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Participants**: Veterans, Service Members, Caregivers, Dependents, VA Staff
+- **Key Themes**: Navigation, Search
 - **Path**: `products/dependents/research/2025-07-dependent-management-content-study`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/dependents/research/2025-07-dependent-management-content-study) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fdependents%20%5BStudy%5D%20Findings)
 - **Files**:
@@ -363,7 +363,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: Usability testing, Remote testing (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Participants**: Veterans, Service Members, Caregivers, Dependents, VA Staff
+- **Key Themes**: Navigation, Search
 - **Path**: `products/facilities/facility-locator/research/archive`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/facility-locator/research/archive) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Ffacilities%20%5BStudy%5D%20Findings)
 - **Files**:
@@ -373,7 +373,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: Moderated usability study, CodePen accessible prototype testing, Remote sessions (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: remote-research
+- **Key Themes**: Navigation, Search
 - **Path**: `products/health-care/checkin/research/2023-04 Unified Check-In Experience Usability Study`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin/research/2023-04%20Unified%20Check-In%20Experience%20Usability%20Study) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20%5BStudy%5D%20Findings)
 - **Files**:
@@ -385,7 +385,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: Methodology not specified (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Participants**: Veterans, Service Members, Caregivers, Dependents, VA Staff
+- **Key Themes**: Navigation, Search
 - **Path**: `products/health-care/checkin/research/2023-08 Remove QR Code from Poster Pilot`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin/research/2023-08%20Remove%20QR%20Code%20from%20Poster%20Pilot) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20%5BStudy%5D%20Findings)
 - **Files**:
@@ -395,7 +395,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: Method 1, Method 2 (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Participants**: Veterans, Service Members, Caregivers, Dependents, VA Staff
+- **Key Themes**: Navigation, Search
 - **Path**: `products/health-care/coronavirus-chatbot/research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/coronavirus-chatbot/research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20%5BStudy%5D%20Findings)
 - **Files**:
@@ -407,7 +407,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: Method 1, Method 2 (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Participants**: Veterans, Service Members, Caregivers, Dependents, VA Staff
+- **Key Themes**: Navigation, Search
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/SecureMessaging_Round1_Usability`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/SecureMessaging_Round1_Usability) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20%5BStudy%5D%20Findings)
 - **Files**:
@@ -419,7 +419,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: Method 1, Method 2 (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Participants**: Veterans, Service Members, Caregivers, Dependents, VA Staff
+- **Key Themes**: Navigation, Search
 - **Path**: `products/health-care/digital-health-pathway/research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-pathway/research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20%5BStudy%5D%20Findings)
 - **Files**:
@@ -430,7 +430,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: Methodology not specified (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: remote-research
+- **Key Themes**: Navigation, Search
 - **Path**: `products/health-care/prescription-refills/vets-prescriptions/research/vets.gov-prototype`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/prescription-refills/vets-prescriptions/research/vets.gov-prototype) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20%5BStudy%5D%20Findings)
 - **Files**:
@@ -440,7 +440,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: Method 1, Method 2 (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Participants**: Veterans, Service Members, Caregivers, Dependents, VA Staff
+- **Key Themes**: Navigation, Search
 - **Path**: `products/identity/Research/2023-02 Desk Research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research/2023-02%20Desk%20Research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fidentity%20%5BStudy%5D%20Findings)
 - **Files**:
@@ -450,7 +450,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: Method 1, Method 2 (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Participants**: Veterans, Service Members, Caregivers, Dependents, VA Staff
+- **Key Themes**: Navigation, Search
 - **Path**: `teams/digital-experience/insights-analytics/research/call center data`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/digital-experience/insights-analytics/research/call%20center%20data) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Ateams%2Fdigital-experience%20%5BStudy%5D%20Findings)
 - **Files**:
@@ -472,7 +472,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-03
 - **Methodology**: User acceptance testing (UAT), Usability testing with live site, 60-minute moderated interviews (Veterans)
-- **Key Themes**: usability-testing, evaluative, user-acceptance-testing
+- **Key Themes**: Navigation, Search, Error handling, Accessibility
 - **Top Finding**: Participants did not find the entry point to simple mileage-only claim submission from Past Appointments easily. Once o…
 - **Path**: `products/health-care/beneficiary-travel/research/2025-03-SMOC-UAT-Beta`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel/research/2025-03-SMOC-UAT-Beta) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20**Conversation%20Guide%3A)
@@ -485,6 +485,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-06
 - **Methodology**: generative interviews (Veterans)
+- **Key Themes**: Status clarity, Language clarity, Evidence submission
 - **Top Finding**: Participants' mental model divided the imagined claim processing process into pre- and post-decision with emphasis on w…
 - **Impact**: A generative, first version set of recommended changes to Veteran-facing Travel…
 - **Path**: `products/health-care/beneficiary-travel/research/2024-06-Travel-Claim-Status-Language-Generative-Study`
@@ -498,7 +499,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-08
 - **Methodology**: Semi-structured interviews, Usability testing, Prototype testing (Veterans)
-- **Key Themes**: usability-testing, evaluative, Content
+- **Key Themes**: Communication, Language clarity, Error handling
 - **Top Finding**: Do users understand that they need to confirm, update or add their contact email address and why? Of the content presen…
 - **Impact**: Not explicitly stated in report
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/landing-page/research/2025-08-Update Email Prompt`
@@ -531,7 +532,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-10
 - **Methodology**: Semi-structured user interviews, Observations, Usability testing (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: Form 0781, usability-testing, semi-structured-interviews, e…
+- **Key Themes**: Evidence submission, Language clarity, Navigation, Search
 - **Top Finding**: Most participants struggled to understand the differences between the three sections of the supporting evidence upload …
 - **Path**: `products/disability/526ez/research/2025-10-0781-EvidenceUpload`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/526ez/research/2025-10-0781-EvidenceUpload) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fdisability%200781%20Evidence)
@@ -544,7 +545,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-12
 - **Methodology**: Unmoderated tree test (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: tree-test, unmoderated-research, usability
+- **Key Themes**: Language clarity, Communication
 - **Top Finding**: Veterans are not navigating to the 10-10EZ form for registration reasons
 - **Path**: `products/health-care/application/va-application/research/2023-11-Registration Reasons Tree Test`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/research/2023-11-Registration%20Reasons%20Tree%20Test) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%2010-10EZ%20Registration)
@@ -556,6 +557,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-09
 - **Methodology**: User generated content analysis, Reddit social listening, Thematic analysis, Narrative analysis (Veterans, Service Members, Caregivers, Dependents, VA Staff)
+- **Key Themes**: Language clarity, Communication, Status clarity
 - **Top Finding**: Few Veterans understand the role that income plays in their VA health care eligibility.
 - **Impact**: Veterans understand when and why they need to update their health care informat…
 - **Path**: `products/health-care/application/va-application/research/2024-09-Social Listening`
@@ -568,7 +570,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-11
 - **Methodology**: IA Tree Test, Remote unmoderated (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: tree-test, information-architecture, findability, navigation
+- **Key Themes**: Navigation
 - **Top Finding**: Participants primarily navigated to and selected answers in the family member hub when looking for benefits for themsel…
 - **Path**: `products/content/audience-hubs/family-member-hub/research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/content/audience-hubs/family-member-hub/research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fcontent%202023%2011-2023%20Family)
@@ -580,7 +582,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2021-12
 - **Methodology**: Remote moderated research sessions via Zoom, Mobile design prototype in UXPin, Task-based usability testing (Veterans)
-- **Key Themes**: usability-testing, events, evaluative
+- **Key Themes**: Communication, Form complexity, Navigation, Search
 - **Top Finding**: All participants understood the concept of recurring events in the prototype
 - **Impact**: Veterans can easily find and register for VA events that interest them
 - **Path**: `products/outreach-events/research/2021-filtering-recurring-events`
@@ -606,6 +608,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-12
 - **Methodology**: - We pulled data from monitors that our team previously set up in [DataDog](https://vagov.ddog-gov.com/s/f327ad72-c02a-11ec-a50a-da7ad0900007/j9g-8dj-q9p) (Veterans, Service Members, Caregivers, Dependents, VA Staff)
+- **Key Themes**: Error handling, Form complexity, Mobile
 - **Top Finding**: 89% of Medallia feedback survey responses were negative, dominated by CSP transition issues
 - **Impact**: Veterans can successfully transition to modern credentials with reduced friction
 - **Path**: `products/identity/Research/Ongoing - quantitative data`
@@ -625,7 +628,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-04
 - **Methodology**: unmoderated content evaluation (Veterans)
-- **Key Themes**: moderated-research, evaluative
+- **Key Themes**: Communication, Language clarity
 - **Top Finding**: 90% of Veterans understood this tool is for mileage-only travel reimbursement claims and that BTSSS portal is needed fo…
 - **Impact**: Veterans can confidently file travel reimbursement claims with clear understand…
 - **Path**: `products/health-care/checkin/research/2024-04 Unmoderated Content Evaluation for Multiple Facilities Selection in BT Oracle Health App`
@@ -638,7 +641,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-03
 - **Methodology**: Remote moderated research sessions via Zoom, Foundational questions regarding experiences managing dependents, Figma prototype engagement and usability testing (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: usability-testing, interviews
+- **Key Themes**: Navigation, Search, Language clarity, Timeline expectations
 - **Top Finding**: Most participants (8 of 10) did not have a mental model of verification that aligned with the Mandatory Verification of…
 - **Impact**: Veterans can easily find, understand, and complete dependent verification on VA…
 - **Path**: `products/dependents/research/2025-02-dependents-verification-mvp-research`
@@ -652,7 +655,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2026-01
 - **Methodology**: Secondary research - analysis of existing feedback data, Quantitative analysis, Qualitative analysis, Sentiment analysis, Thematic analysis, Cross-source pattern identification and triangulation (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: Accessibility, discovery, evaluative, secondary-research
+- **Key Themes**: Communication, Error handling, Mobile, Evidence submission
 - **Top Finding**: Sign-in dissatisfaction decreased to 68.8% in September 2025 (measured via Medallia intercept survey negative sentiment…
 - **Impact**: Not explicitly stated in findings report
 - **Path**: `products/identity/Research/2026-01 dissatisfaction discovery`
@@ -664,7 +667,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-05
 - **Methodology**: Methodology not specified (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: remote-research
+- **Key Themes**: Navigation, Search, Communication, Trust
 - **Top Finding**: The website provides valuable information, but navigation and event findability need improvement (33/189, 17%)
 - **Impact**: Veterans can easily find, filter, and register for relevant events in their loc…
 - **Path**: `products/outreach-events/research/2024-Medallia-feedback`
@@ -686,7 +689,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-10
 - **Methodology**: 1. Scenario Validation: We presented Veterans with a scenario showing a potential approach to creating a Login.gov account and accessing My HealtheVet. This helped us evaluate whether Veteran finds a particular solution is useful, clear, appropriate or concerning. (Veterans)
-- **Key Themes**: semi-structured-interviews, discovery, evaluative
+- **Key Themes**: Evidence submission, Form complexity, Communication
 - **Top Finding**: Setting up new credential is frustrating if made to seem like a choice when it's required
 - **Impact**: Veterans successfully migrate to Login.gov and can easily access My HealtheVet …
 - **Path**: `products/login.gov-adoption/discovery/research/2022-10-Login.gov-Adoption-Discovery-Research`
@@ -699,7 +702,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-03
 - **Methodology**: Usability testing, Semi-structured interviews, Remote moderated sessions (Zoom) (Veterans)
-- **Key Themes**: usability-testing
+- **Key Themes**: Communication, Form complexity, Language clarity
 - **Top Finding**: Most Veterans are motivated to set up a Login.gov account because they're concerned about losing access to their benefi…
 - **Impact**: Not explicitly stated in the report
 - **Path**: `products/login.gov-adoption/discovery/research/2023-03-Deferred-Identity-Proofing-Round-1-Usability`
@@ -713,7 +716,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-04
 - **Methodology**: Methodology not specified (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: semi-structured-interviews, remote-research
+- **Key Themes**: Language clarity, Trust, Search, Timeline expectations
 - **Top Finding**: Participants frequently lacked understanding of representatives, what they do, and how they fit into VA processes, dire…
 - **Impact**: Veterans and caregivers can find, select, and work with accredited representati…
 - **Path**: `products/accredited-representation-management/research/2024-04-ARM-veteran-representative-experience-interviews`
@@ -725,7 +728,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2020-12
 - **Methodology**: usability testing (Veterans)
-- **Key Themes**: usability-testing
+- **Key Themes**: Evidence submission, Error handling, Communication
 - **Top Finding**: Participants were able to successfully submit the form
 - **Impact**: Not explicitly stated in the report
 - **Path**: `products/iris/research/usability-testing`
@@ -739,7 +742,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2020-04
 - **Methodology**: Remote interviews (Veterans, Caregivers, Service Members)
-- **Key Themes**: semi-structured-interviews, generative
+- **Key Themes**: Trust, Mobile, Communication, Timeline expectations
 - **Top Finding**: Veterans have built manual processes to manage their addresses at the VA. In part this is due to a disparate awareness …
 - **Impact**: Veterans can reliably update their address and trust that the change propagated…
 - **Path**: `products/identity-personalization/profile/contact-information/research/2020-04-address-management`
@@ -753,7 +756,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2020-12
 - **Methodology**: Remote moderated usability testing, High-fidelity wireframe prototype testing, WebEx sessions (Veterans, Caregivers, Family Members, Service Members)
-- **Key Themes**: usability-testing, moderated-research, evaluative
+- **Key Themes**: Timeline expectations, Status clarity, Communication
 - **Top Finding**: Veterans welcomed and even expected email and text notifications for health questionnaires.
 - **Impact**: Not explicitly stated in report
 - **Path**: `products/health-care/questionnaire/research/all-mvp-workflows`
@@ -767,6 +770,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-12
 - **Methodology**: Methodology not specified (Veterans, Service Members, Caregivers, Dependents, VA Staff)
+- **Key Themes**: Accessibility, Evidence submission, Navigation, Search
 - **Top Finding**: Demographics of Veterans with a representative closely match the overall Veteran population, except in race, where Blac…
 - **Path**: `products/accredited-representation-management/research/2023-12-ARM-analytics`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/accredited-representation-management/research/2023-12-ARM-analytics) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Faccredited-representation-management%20Analytics%20Findings)
@@ -787,7 +791,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-08
 - **Methodology**: Warm-up questions, Usability testing (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: usability-testing, evaluative
+- **Key Themes**: Navigation, Search, Communication
 - **Top Finding**: Challenges with VA.gov login/identity verification (ID.me)
 - **Impact**: Veterans can easily search for and appoint accredited representatives via VA.go…
 - **Path**: `products/accredited-representation-management/research/2025-02-ARM-appointarep-live-usertest`
@@ -801,7 +805,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-08
 - **Methodology**: unmoderated card sort (Veterans)
-- **Key Themes**: card-sort, moderated-research
+- **Key Themes**: Communication, Status clarity
 - **Top Finding**: Certain categories emerged as more common, with appointment information, scheduling, canceling/rescheduling, and post-a…
 - **Impact**: Veterans can quickly find and understand appointment information organized acco…
 - **Path**: `products/health-care/appointments/va-online-scheduling/research/2024-08-appointment-details-card-sort`
@@ -826,7 +830,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-02
 - **Methodology**: Remote moderated usability testing, Feature testing on production with feature flag (Veterans)
-- **Participants**: Veterans
+- **Key Themes**: Navigation, Search
 - **Path**: `products/health-care/appointments/va-online-scheduling/research/2023-02-appt-list-usability-screenreader`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/appointments/va-online-scheduling/research/2023-02-appt-list-usability-screenreader) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Appointment%20list)
 - **Files**:
@@ -838,7 +842,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-09
 - **Methodology**: usability testing (Veterans)
-- **Key Themes**: usability-testing, moderated-research, remote-research, Acc…
+- **Key Themes**: Status clarity, Navigation, Search, Communication
 - **Top Finding**: All participants were able to scan through the appointment list by date, time, status, and type of care
 - **Impact**: Veterans with diverse technical abilities, ages, and disabilities can easily na…
 - **Path**: `products/health-care/appointments/va-online-scheduling/research/2022-09-appts-list-usability`
@@ -864,6 +868,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-12
 - **Methodology**: Moderated usability testing (N=13): 9 Veterans, 4 Business Submitters (SCOs/WSSS). 60-minute remote Zoom sessions, each participant completed form completion and inbox review tasks in both staging and prototype environments. (Veterans, Service Members, Caregivers, Dependents, VA Staff)
+- **Key Themes**: Evidence submission, Form complexity, Communication, Search
 - **Top Finding**: Veterans and business submitters have different use cases for the category/topic, subject, question, and attachments fi…
 - **Impact**: Veterans and business submitters can confidently and efficiently submit questio…
 - **Path**: `products/ask-va/design/User research/2025-10 Form and Inbox Usability Study`
@@ -877,7 +882,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: Methodology not specified (Veterans)
-- **Key Themes**: remote-research
+- **Key Themes**: Navigation, Search
 - **Path**: `teams/digital-experience/accessibility/research/assistive-tech`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/digital-experience/accessibility/research/assistive-tech) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Ateams%2Fdigital-experience%20Assistive%20Technology)
 - **Files**:
@@ -899,7 +904,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-07
 - **Methodology**: Usability testing (Veterans)
-- **Key Themes**: usability-testing, remote-research, Accessibility, evaluati…
+- **Key Themes**: Status clarity, Error handling, Communication, Navigation
 - **Top Finding**: Service Design & Digital Design: Participants noted issues outside the debt portal with inter-departmental communicatio…
 - **Impact**: Veterans understand their debt obligations, payment history, and have clear act…
 - **Path**: `products/combined_va_debt_portal/payment-history/research/2024-6-overpayment-usability`
@@ -913,7 +918,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2021-05
 - **Methodology**: Moderated interviews with task-based wayfinding exercises (Veterans)
-- **Key Themes**: Accessibility
+- **Key Themes**: Navigation, Mobile, Search, Status clarity
 - **Top Finding**: All participants were able to successfully complete 3 of the 9 tasks (#2, 1, 4), and most completed 3 more of the tasks…
 - **Impact**: Not explicitly stated in the report
 - **Path**: `products/public-websites/research/202104-baseline-wayfinding`
@@ -927,7 +932,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-07
 - **Methodology**: Moderated interview, Usability testing (Veterans)
-- **Key Themes**: usability-testing, moderated-research, remote-research, eva…
+- **Key Themes**: Trust, Status clarity, Evidence submission, Language clarity
 - **Top Finding**: There are multiple entry points to the Request a Board Appeal form, but no clear path to it from MyVA, which lowers Vet…
 - **Path**: `products/decision-reviews/Notice-of-Disagreement/Research/042023 NoD Evaluative Research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/decision-reviews/Notice-of-Disagreement/Research/042023%20NoD%20Evaluative%20Research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fdecision-reviews%20Benefits%20Board)
@@ -940,7 +945,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-11
 - **Methodology**: Usability testing, Semi-structured interviews, Prototype testing, Card sort exercise for claim status interpretation (Veterans, Caregivers)
-- **Participants**: Veterans, Caregivers
+- **Key Themes**: Navigation, Search
 - **Path**: `products/health-care/checkin/research/2023-11 Past Appointments Travel Reimbursement Generative Usability Study`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin/research/2023-11%20Past%20Appointments%20Travel%20Reimbursement%20Generative%20Usability%20Study) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20BTSSS%20Statuses)
 - **Files**:
@@ -952,7 +957,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2021-09
 - **Methodology**: Task-based usability study, Remote moderated sessions via Zoom using Perigean contract, UXPin prototype testing with three variations (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: usability-testing, 10-10EZ, evaluative, short-form
+- **Key Themes**: Navigation, Communication, Timeline expectations
 - **Top Finding**: Participants are able to navigate through the pre-populated short form easily and without confusion
 - **Impact**: Veterans with 50% or higher disability rating can complete the health care appl…
 - **Path**: `products/health-care/application/va-application/research/2021-09-Flow Research`
@@ -964,7 +969,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2020-10
 - **Methodology**: Remote moderated usability testing, Prototype evaluation (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: usability-testing, evaluative, remote-moderated, community-…
+- **Key Themes**: Search, Navigation
 - **Top Finding**: All participants wanted the list of providers to be more personalized. The top request was to be able to schedule with …
 - **Path**: `products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling/research/2020-10-cc-provider-selection-usability`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling/research/2020-10-cc-provider-selection-usability) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Provider%20Selection)
@@ -986,7 +991,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-01
 - **Methodology**: [e.g., usability testing, semi-structured interviews, card sort] (Veterans, Dependents)
-- **Participants**: Veterans, Dependents
+- **Key Themes**: Navigation, Search
 - **Path**: `products/health-care/champva/1010D/status-tool/research/CHAMPVA Dependents Management`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/champva/1010D/status-tool/research/CHAMPVA%20Dependents%20Management) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20CHAMPVA%20Dependents)
 - **Files**:
@@ -1008,7 +1013,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2021-04
 - **Methodology**: semi-structured interviews (Veterans)
-- **Key Themes**: moderated-research, remote-research, semi-structured-interv…
+- **Key Themes**: Error handling, Communication, Timeline expectations, Mobile
 - **Top Finding**: Checking in with a VA staff member was the most preferred and used method among the currently available methods for in-…
 - **Path**: `products/health-care/checkin/research/remote-discovery`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin/research/remote-discovery) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%202021%20Check-in%20(Veteran-facing))
@@ -1021,7 +1026,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2021-09
 - **Methodology**: Remote semi-structured interviews, Onsite contextual inquiry (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: semi-structured-interviews, contextual-inquiry, discovery, …
+- **Key Themes**: Search, Status clarity, Communication, Trust
 - **Top Finding**: Staff processes and tools for managing patient check-in and other clinical tasks vary across and within facilities and …
 - **Path**: `products/health-care/checkin/research/staff-facing`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin/research/staff-facing) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Check-In%20Staff)
@@ -1032,6 +1037,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-01
 - **Methodology**: Unmoderated survey, Likert scale questions, Multiple choice questions, Open-ended questions (Veterans, Service Members, Caregivers, Dependents, VA Staff)
+- **Key Themes**: Language clarity, Error handling
 - **Top Finding**: 75% of participants found the content in both versions easy to understand and straightforward with overall favorable im…
 - **Impact**: Veterans can efficiently check in online with clear understanding of any requir…
 - **Path**: `products/health-care/checkin/research/2024-10 Check in with an MSA after eCheck-in Unmoderated Survey`
@@ -1054,7 +1060,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2020-10
 - **Methodology**: Remote moderated usability testing, Prototype evaluation (Veterans)
-- **Key Themes**: usability-testing, evaluative, remote-moderated, community-…
+- **Key Themes**: Search, Timeline expectations, Navigation, Error handling
 - **Top Finding**: All participants wanted the list of providers to be more personalized. The top request was to be able to schedule with …
 - **Impact**: Veterans are better able to select providers that meet their needs and understa…
 - **Path**: `products/health-care/appointments/va-online-scheduling/research/2020-10-cc-provider-selection-usability`
@@ -1080,7 +1086,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-12
 - **Methodology**: Semi-structured interviews, Remote interviews via Zoom (Veterans)
-- **Key Themes**: discovery, generative, semi-structured-interviews, accessib…
+- **Key Themes**: Mobile, Navigation, Search
 - **Top Finding**: Participants access VA benefits digitally and physically, but prefer digital where possible.
 - **Path**: `products/veteran-status/v1/Research/2023-12-VetStatus-Use-Case-Discovery`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/veteran-status/v1/Research/2023-12-VetStatus-Use-Case-Discovery) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fveteran-status%20Conversation%20Guide)
@@ -1104,7 +1110,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-07
 - **Methodology**: [e.g., usability testing, semi-structured interviews, card sort] (Veterans)
-- **Key Themes**: usability-testing, moderated-research, remote-research, eva…
+- **Key Themes**: Timeline expectations, Status clarity, Communication, Mobile
 - **Top Finding**: Veterans' mental models for claims processing do not map onto the VA timeline for electronic submission
 - **Impact**: Veterans have accurate expectations about their claim submission timeline and s…
 - **Path**: `products/disability/526ez/research/2024-07-Submission-Status`
@@ -1118,7 +1124,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-09
 - **Methodology**: Remote usability testing, Moderated sessions, Task-based testing (Veterans)
-- **Key Themes**: usability-testing, remote-sessions, Accessibility
+- **Key Themes**: Navigation, Form complexity, Search, Timeline expectations
 - **Top Finding**: All nine respondents indicated that they were interested in exploring educational opportunities
 - **Path**: `products/Comparison Tool Enhancements/research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/Comparison%20Tool%20Enhancements/research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2FComparison%20Tool%20Enhancements%20Conversation%20Guide)
@@ -1131,7 +1137,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-09
 - **Methodology**: moderated usability testing (Veterans, Caregivers)
-- **Key Themes**: usability-testing, moderated-research, remote-research, Acc…
+- **Key Themes**: Status clarity, Form complexity, Search
 - **Top Finding**: Veterans and Caregivers want more clarity on eligibility and benefits before applying
 - **Impact**: Veterans and Caregivers can more easily understand PCAFC program eligibility an…
 - **Path**: `products/caregivers/research/2024-09- Caregivers Study - form content and user interviews`
@@ -1156,7 +1162,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-10
 - **Methodology**: Moderated interviews, Concept evaluation, Prototype testing (Veterans)
-- **Key Themes**: evaluative, moderated-research, usability-testing
+- **Key Themes**: Communication, Evidence submission
 - **Top Finding**: Veterans seem to sort cleanly into two groups — learners and doers. For some, more information is more. For others, the…
 - **Impact**: Not explicitly specified in findings report
 - **Path**: `products/decision-reviews/Notice-of-Disagreement/Research/082023-NOD-Enhancement-Validation`
@@ -1214,7 +1220,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-04
 - **Methodology**: moderated usability testing, remote research, trauma-informed research methods (Veterans)
-- **Key Themes**: usability-testing, moderated-research, remote-research, eva…
+- **Key Themes**: Mobile, Timeline expectations, Search
 - **Top Finding**: The desired amount of content varies greatly among participants (from 'all the details' to 'only the headers' to 'just …
 - **Path**: `products/harassment-reporting/research/static-landing-page`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/harassment-reporting/research/static-landing-page) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fharassment-reporting%20Conversation%20Guide)
@@ -1237,7 +1243,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: Not specified
 - **Methodology**: Accessibility testing (implied), Screen reader testing (implied) (Veterans)
-- **Key Themes**: Accessibility, screen-reader, usability-testing, evaluative
+- **Key Themes**: Loading performance, Evidence submission, Communication
 - **Top Finding**: Voice overs cannot indicate to users when pages are loading during transitions between pages
 - **Path**: `products/health-care/checkin/research/accessibility`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin/research/accessibility) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Conversation%20Guide)
@@ -1249,7 +1255,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-06
 - **Methodology**: Usability testing, Think-aloud protocol (Veterans)
-- **Key Themes**: usability-testing, Accessibility, evaluative
+- **Key Themes**: Navigation, Search, Communication, Timeline expectations
 - **Top Finding**: Participants described the Data Grid as generally intuitive and effective, noting that it supported their workflows and…
 - **Path**: `products/health-care/clinical-decision-support/VA-CDS-data-visualization-patterns/patterns/data-grid/research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/clinical-decision-support/VA-CDS-data-visualization-patterns/patterns/data-grid/research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Conversation%20Guide)
@@ -1273,7 +1279,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: *Provide a brief description of the research methods used (e.g., usability testing, interviews).* (Veterans)
-- **Key Themes**: usability-testing, remote-research
+- **Key Themes**: Navigation, Search
 - **Path**: `products/health-care/clinical-decision-support/research/research-templates`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/clinical-decision-support/research/research-templates) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Conversation%20Guide)
 - **Files**:
@@ -1328,7 +1334,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2020-08
 - **Methodology**: Moderated card sort sessions, Mockup feedback sessions (Veterans, Caregivers, Service Members)
-- **Key Themes**: card-sort, moderated-research, evaluative, discovery
+- **Key Themes**: Communication
 - **Top Finding**: We are heading in the right direction with the "Reason for visit" questionnaire.
 - **Path**: `products/health-care/questionnaire/research/veteran-prioritization`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/questionnaire/research/veteran-prioritization) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Conversation%20Guide)
@@ -1341,7 +1347,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2020-03
 - **Methodology**: Remote moderated usability testing, Prototype testing (Invision) (Veterans)
-- **Key Themes**: usability-testing, evaluative
+- **Key Themes**: Navigation, Form complexity, Mobile, Search
 - **Top Finding**: Participants preferred the new profile design to the old design, and easily found what they were looking for within the…
 - **Path**: `products/identity-personalization/profile/Combine Profile and Account/Research/2020-03-profile-redesign`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/Combine%20Profile%20and%20Account/Research/2020-03-profile-redesign) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fidentity-personalization%20Conversation%20Guide)
@@ -1362,7 +1368,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2026-02
 - **Methodology**: Moderated usability testing with clickable prototype via Codespaces, A/B testing of radio button vs checkbox filter prototypes (Veterans)
-- **Key Themes**: usability-testing, moderated-research, remote-research, A/B…
+- **Key Themes**: Language clarity, Mobile, Communication, Navigation
 - **Top Finding**: Radio button is more successful than checkbox at supporting users in understanding and exploring the results page
 - **Impact**: Veterans can intuitively discover and understand benefits relevant to their cur…
 - **Path**: `products/vet-transition-support/results-page-2.0/research/results-page-2.0-usability-study`
@@ -1409,6 +1415,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-10
 - **Methodology**: Moderated usability study, Interactive prototype, Remote (Veterans, Dependents)
+- **Key Themes**: Communication, Language clarity, Evidence submission
 - **Top Finding**: There were a some areas of the application where participants mentioned examples where more information would be helpfu…
 - **Impact**: Veterans feel prepared when they begin the household section and understand wha…
 - **Path**: `products/health-care/application/va-application/research/2022-10-Household Information Section`
@@ -1422,7 +1429,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-06
 - **Methodology**: **Task analysis** (Veterans, Service Members)
-- **Key Themes**: moderated-research, remote-research, usability-testing, Acc…
+- **Key Themes**: Timeline expectations, Communication
 - **Top Finding**: 100% of participants who received the short form (6) were able to move through the application without indication of a …
 - **Impact**: Veterans can complete health care application more quickly when they have a dis…
 - **Path**: `products/health-care/application/va-application/research/2022-06-Short form usability`
@@ -1436,7 +1443,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-05
 - **Methodology**: usability testing (Veterans, Dependents)
-- **Key Themes**: usability-testing, semi-structured-interviews, evaluative, …
+- **Key Themes**: Communication, Language clarity, Timeline expectations
 - **Top Finding**: Participants expressed a clear understanding of the spouse and financial information List&Loop component.
 - **Impact**: Veterans experience a faster, more efficient application process by being able …
 - **Path**: `products/health-care/application/va-application/research/2025-05-EZR-Confirmation-Flow`
@@ -1450,7 +1457,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-04
 - **Methodology**: Moderated usability testing, Remote research (Veterans, Dependents)
-- **Key Themes**: usability-testing, moderated-research, remote-research, eva…
+- **Key Themes**: Navigation, Search, Evidence submission, Form complexity
 - **Top Finding**: Veterans were able to edit and remove dependents with relative ease using the new experimental pattern
 - **Path**: `products/health-care/application/va-application/research/2023-04-Household information section usability`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/research/2023-04-Household%20information%20section%20usability) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Conversation%20Guide)
@@ -1463,7 +1470,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-01
 - **Methodology**: Usability testing, Remote moderated research sessions, Post-task and post-testing participant questions (Veterans, Dependents)
-- **Key Themes**: TREND: Content, usability-testing, moderated-research, remo…
+- **Key Themes**: Communication, Evidence submission
 - **Top Finding**: There were unfavorable perception towards providing certain information, specifically reporting income and insurance in…
 - **Path**: `products/health-care/application/va-application/research/2023-01-Baseline Task Research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/research/2023-01-Baseline%20Task%20Research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%202023%20Conversation%20Guide)
@@ -1476,7 +1483,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-11
 - **Methodology**: [e.g., usability testing, semi-structured interviews, card sort] (Veterans)
-- **Key Themes**: remote-research, usability-testing, semi-structured-intervi…
+- **Key Themes**: Trust, Communication, Form complexity, Navigation
 - **Top Finding**: Participant's existing level of trust in VA informed how they reacted to uncertainty throughout the filing experience
 - **Path**: `products/disability/526ez/research/2023-11-Shadowing-Research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/526ez/research/2023-11-Shadowing-Research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fdisability%20Conversation%20Guide)
@@ -1489,6 +1496,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2026-01
 - **Methodology**: usability testing, moderated study (Veterans, Caregivers, Dependents)
+- **Key Themes**: Communication, Language clarity
 - **Top Finding**: Most participants struggled with the logic and found the workflow hard to follow, especially in the Household informati…
 - **Path**: `products/pension/research/2026-01 534EZ Usability Study`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/pension/research/2026-01%20534EZ%20Usability%20Study) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fpension%202026%20Conversation%20Guide)
@@ -1511,6 +1519,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-07
 - **Methodology**: semi-structured interviews, concept testing (Veterans)
+- **Key Themes**: Search, Communication, Navigation, Language clarity
 - **Top Finding**: Representatives use existing accreditation search tools but often encounter inaccurate data
 - **Impact**: User interviews will inform adjustments to setting required fields, and/or addi…
 - **Path**: `products/accredited-representative-facing/research/2024-07 OGC Contact Information Updates`
@@ -1524,7 +1533,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-04
 - **Methodology**: Multi-method: Semi-structured interviews, weekly feedback prompts, walkthrough, usability testing, and concept testing (Veterans)
-- **Key Themes**: usability-testing, concept-testing, semi-structured-intervi…
+- **Key Themes**: Timeline expectations, Search, Communication, Status clarity
 - **Top Finding**: Representatives with 'instant submission' of the 21-22 in their current process have limited reason to adopt the new me…
 - **Path**: `products/accredited-representative-facing/research/2025-04 Accredited Rep Portal pilot`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/accredited-representative-facing/research/2025-04%20Accredited%20Rep%20Portal%20pilot) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Faccredited-representative-facing%202025%20Conversation%20Guide)
@@ -1537,7 +1546,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-04
 - **Methodology**: Semi-structured interviews and concept testing (Veterans, Dependents)
-- **Key Themes**: usability-testing, evaluative, claims-submission, POA, form…
+- **Key Themes**: Navigation, Timeline expectations, Search, Communication
 - **Top Finding**: The 21-686 submission flow is not intuitive, but is accepted
 - **Path**: `products/accredited-representative-facing/research/2025-04-Usability Test Claims Submission (search, 21-686c, submissions)`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/accredited-representative-facing/research/2025-04-Usability%20Test%20Claims%20Submission%20(search%2C%2021-686c%2C%20submissions)) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Faccredited-representative-facing%202025%20Conversation%20Guide)
@@ -1550,7 +1559,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-06
 - **Methodology**: 1:1 Usability test, including navigation tasks (Veterans, Dependents)
-- **Key Themes**: usability-testing, semi-structured-interviews, evaluative, …
+- **Key Themes**: Navigation, Timeline expectations, Search, Status clarity
 - **Top Finding**: ARP navigation is intuitive enough - Each participant completed 3/4 or 4/4 navigation tasks successfully and felt very …
 - **Impact**: Not explicitly stated in findings report
 - **Path**: `products/accredited-representative-facing/research/2025-06 User testing (Navigation, Find Claimant, Claimant Page to Submission)`
@@ -1564,7 +1573,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-03
 - **Methodology**: usability-testing (Veterans, Caregivers)
-- **Key Themes**: usability-testing, remote-research, Accessibility
+- **Key Themes**: Navigation, Search, Communication, Trust
 - **Top Finding**: Navigation challenging: Unless searching 'VSO' or 'veteran service officer' users struggled to find tool (average 1 min…
 - **Impact**: Veterans can easily find and contact appropriate accredited representatives in …
 - **Path**: `products/accredited-representation-management/research/2024-03-ARM-findarep-live-usertest`
@@ -1578,7 +1587,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-05
 - **Methodology**: remote moderated usability testing (Veterans)
-- **Key Themes**: Accessibility, usability-testing, evaluative
+- **Key Themes**: Communication, Accessibility, Error handling, Status clarity
 - **Top Finding**: Most participants didn't know that their information was being saved automatically with every edit.
 - **Path**: `teams/digital-experience/ADE/research/2025-05-save-in-progress`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/digital-experience/ADE/research/2025-05-save-in-progress) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Ateams%2Fdigital-experience%202025%20Conversation%20Guide)
@@ -1624,7 +1633,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-09
 - **Methodology**: *Provide a brief description of the research methods used (e.g., usability testing, interviews).* (Veterans)
-- **Key Themes**: usability-testing, remote-research
+- **Key Themes**: Navigation, Search
 - **Path**: `products/health-care/appointments/va-online-scheduling/research/2025-09-pact-sud-uat`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/appointments/va-online-scheduling/research/2025-09-pact-sud-uat) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%202025%20Conversation%20Guide)
 - **Files**:
@@ -1636,7 +1645,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-10
 - **Methodology**: semi-structured interviews (Veterans, Dependents)
-- **Key Themes**: semi-structured-interviews, remote-research
+- **Key Themes**: Loading performance, Timeline expectations, Navigation
 - **Top Finding**: VSO representatives' NUMBER ONE PRIORITY is speed and accuracy when supporting Veterans; they rely heavily on tools to …
 - **Impact**: VSO representatives can submit forms instantly to VBMS; reduced manual tracking…
 - **Path**: `products/accredited-representation-management/research/2024-10-VSO-VAbenefits-interviews`
@@ -1650,6 +1659,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-02
 - **Methodology**: semi-structured interviews, concept testing (Veterans)
+- **Key Themes**: Evidence submission, Communication, Status clarity
 - **Top Finding**: VSOfficers' power of attorney workflows require toggling between many tools (24+ applications mentioned in audit; most …
 - **Impact**: VSOfficers can seamlessly and accurately help Veterans with VA interactions; ca…
 - **Path**: `products/accredited-representative-facing/research/2024-02 User Interviews`
@@ -1663,6 +1673,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-05
 - **Methodology**: semi-structured interviews, preference testing, usability testing, field observation (Veterans)
+- **Key Themes**: Evidence submission, Search, Language clarity, Communication
 - **Top Finding**: County VSO Representatives are accredited through their state's Department of Veterans Services or NACVSO, support larg…
 - **Impact**: Expand our participant panel to include a diversity of accredited Veterans Serv…
 - **Path**: `products/accredited-representative-facing/research/2024-05 NACVSO`
@@ -1676,6 +1687,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-03
 - **Methodology**: usability testing, semi-structured interviews (Veterans)
+- **Key Themes**: Error handling, Search, Trust
 - **Top Finding**: Singly accredited VSO Representatives primarily work at state, regional, or national level with smaller caseloads (tens…
 - **Impact**: Singly accredited VSO Representatives can efficiently find and accept/decline i…
 - **Path**: `products/accredited-representative-facing/research/2024-03 Single Accredited Testing`
@@ -1689,7 +1701,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-02
 - **Methodology**: Semi-structured interviews, during which we will request that with their permission, they share their screen to demonstrate use of the tool. (VSOs)
-- **Key Themes**: semi-structured-interviews, evaluative
+- **Key Themes**: Evidence submission, Communication, Status clarity
 - **Top Finding**: Representatives use QuickSubmit because it works for the single purpose it was built for
 - **Path**: `products/accredited-representative-facing/research/2025-02-QuickSubmit`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/accredited-representative-facing/research/2025-02-QuickSubmit) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Faccredited-representative-facing%202025%20Conversation%20Guide)
@@ -1701,7 +1713,6 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-08
 - **Methodology**: usability-testing, semi-structured-interviews (Veterans)
-- **Key Themes**: semi-structured-interviews, moderated-research, remote-rese…
 - **Top Finding**: VSOR workflows and policies change state to state and county to county, including which VSOs they can be accredited wit…
 - **Impact**: Cross-accredited VSORs can efficiently manage POA requests across multiple orga…
 - **Path**: `products/accredited-representation-management/research/2024-08-ARM-appointarep-crossaccreditedVSOR-usertest`
@@ -1715,7 +1726,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-06
 - **Methodology**: usability-testing (Veterans)
-- **Key Themes**: usability-testing, remote-research, moderated-research, eva…
+- **Key Themes**: Navigation, Search, Evidence submission, Form complexity
 - **Top Finding**: Participants were split on whether they would adopt the tools, leading to definition of new audiences for ARM - 3 would…
 - **Impact**: Veterans can successfully find and digitally appoint accredited representatives…
 - **Path**: `products/accredited-representation-management/research/2024-06-ARM-appointarep-digitalsubmit-usertest`
@@ -1729,7 +1740,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-02
 - **Methodology**: usability-testing, semi-structured-interviews (Veterans, Caregivers, Dependents)
-- **Key Themes**: usability-testing, remote-research, semi-structured-intervi…
+- **Key Themes**: Timeline expectations, Communication, Navigation, Search
 - **Top Finding**: Form start expectations: Users easily missed non-digital submission information; wanted clear upfront instructions and …
 - **Impact**: Family members and caregivers can confidently appoint appropriate representatio…
 - **Path**: `products/accredited-representation-management/research/2024-02-appointarep-unauth-usertest`
@@ -1743,7 +1754,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-01
 - **Methodology**: usability-testing, semi-structured-interviews (Veterans)
-- **Key Themes**: usability-testing, semi-structured-interviews, remote-resea…
+- **Key Themes**: Form complexity, Error handling, Search, Trust
 - **Top Finding**: Veterans seek representatives for claims expertise, avoiding filing errors, peer recommendations, and time efficiency i…
 - **Impact**: Veterans understand different representative options and can confidently appoin…
 - **Path**: `products/accredited-representation-management/research/2024-01-ARM-appointarep-usertest`
@@ -1757,7 +1768,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-11
 - **Methodology**: Usability testing (Veterans)
-- **Key Themes**: usability-testing, semi-structured-interviews, remote-resea…
+- **Key Themes**: Search, Trust, Language clarity, Navigation
 - **Top Finding**: Veterans main goal for getting a representative is to aid in fast, comprehensive, successful filing of their claims. Wh…
 - **Path**: `products/accredited-representation-management/research/2023-11-ARM-findarep-nav-usertest`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/accredited-representation-management/research/2023-11-ARM-findarep-nav-usertest) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Faccredited-representation-management%202023%20Conversation%20Guide)
@@ -1781,6 +1792,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-01
 - **Methodology**: Moderated usability study, Remote over Zoom, Figma prototype with limited interactivity (Veterans)
+- **Key Themes**: Trust, Communication, Language clarity, Status clarity
 - **Top Finding**: Veterans past experiences and trust in VA impacts how they perceive questions and what information they're comfortable …
 - **Path**: `products/ask-va/design/User research/2024-01 Submit an inquiry`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ask-va/design/User%20research/2024-01%20Submit%20an%20inquiry) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fask-va%202026%20Conversation%20Guide)
@@ -1793,6 +1805,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-04
 - **Methodology**: Moderated usability study, Remote over Zoom, Figma prototypes with limited interactivity, Education benefits scenario (Veterans)
+- **Key Themes**: Communication, Navigation, Timeline expectations, Search
 - **Top Finding**: It's not clear what you can ask about and how to start asking, until after you sign in
 - **Path**: `products/ask-va/design/User research/2024-04 Progress bar`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ask-va/design/User%20research/2024-04%20Progress%20bar) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fask-va%202026%20Conversation%20Guide)
@@ -1805,6 +1818,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-05
 - **Methodology**: Moderated usability study, Remote over Zoom, Figma prototypes with limited interactivity (Veterans)
+- **Key Themes**: Navigation, Status clarity, Search, Evidence submission
 - **Top Finding**: People use date last updated and status to find items that have a reply or should have a reply soon
 - **Path**: `products/ask-va/design/User research/2024-05 Dashboard`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ask-va/design/User%20research/2024-05%20Dashboard) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fask-va%202026%20Conversation%20Guide)
@@ -1817,6 +1831,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-07
 - **Methodology**: Moderated usability study, Remote on Zoom, Mocked sign in process, Authenticated experience testing (Veterans)
+- **Key Themes**: Status clarity, Navigation, Search, Accessibility
 - **Top Finding**: Most Veterans can easily complete the form without help, but struggle to imagine using Ask VA over another tool
 - **Path**: `products/ask-va/design/User research/2024-07 Assistive technology - Form`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ask-va/design/User%20research/2024-07%20Assistive%20technology%20-%20Form) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fask-va%202026%20Conversation%20Guide)
@@ -1829,6 +1844,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-08
 - **Methodology**: Moderated usability study, Remote on Zoom, Mocked sign in process, Authenticated experience testing (Veterans)
+- **Key Themes**: Form complexity, Accessibility, Status clarity, Navigation
 - **Top Finding**: It's difficult for screen reader users to tell when one card ends and another begins
 - **Path**: `products/ask-va/design/User research/2024-08 Assistive technology - Dashboard`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ask-va/design/User%20research/2024-08%20Assistive%20technology%20-%20Dashboard) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fask-va%202026%20Conversation%20Guide)
@@ -1841,7 +1857,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-01
 - **Methodology**: Method 1, Method 2 (Veterans)
-- **Participants**: Veterans
+- **Key Themes**: Navigation, Search
 - **Path**: `products/ask-va/design/User research/2025-01 Automation concept testing`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ask-va/design/User%20research/2025-01%20Automation%20concept%20testing) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fask-va%202026%20Conversation%20Guide)
 - **Files**:
@@ -1853,7 +1869,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-12
 - **Methodology**: Interviews / Contextual Inquiry (Veterans)
-- **Participants**: Veterans
+- **Key Themes**: Navigation, Search
 - **Path**: `products/ask-va/design/User research/2025-12 Agent Process Research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ask-va/design/User%20research/2025-12%20Agent%20Process%20Research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fask-va%202026%20Conversation%20Guide)
 - **Files**:
@@ -1865,7 +1881,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-01
 - **Methodology**: We recruited across all 6 branches with a variety of ages and service lengths to get a broad picture of peoples’ histories, military data, and mental models. (Veterans)
-- **Key Themes**: semi-structured-interviews, remote-research, card-sort
+- **Key Themes**: Evidence submission, Accessibility, Error handling
 - **Top Finding**: Veterans use military records for promotions during service, vocational training, job applications after separation, an…
 - **Impact**: Veterans can access more complete military service information to support benef…
 - **Path**: `products/identity-personalization/profile/Research/2024-01-military-info-enhancement-mvp`
@@ -1890,7 +1906,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-08
 - **Methodology**: **Moderated interviews:** We conducted ten 45-minute remote moderated research sessions with Veterans who have a VA.gov or My HealtheVet account via Zoom from August 20, 2025, to August 28, 2025. The research sessions consisted of four tasks. (Veterans, Dependents)
-- **Key Themes**: moderated-research
+- **Key Themes**: Navigation, Timeline expectations, Mobile, Status clarity
 - **Top Finding**: Inline refill interactions that do not force a full page navigation were praised as fast and clear (high willingness to…
 - **Impact**: Veterans can quickly complete key tasks (refills, check-in, find notifications)…
 - **Path**: `products/identity-personalization/my-va/research/2025-08-myva3.0-phase1-usabilitytesting`
@@ -1904,7 +1920,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2021-05
 - **Methodology**: Remote moderated usability testing via Zoom, Prototype testing (Veterans)
-- **Key Themes**: Internal Research: Platform Research, usability-testing, ev…
+- **Key Themes**: Timeline expectations, Communication
 - **Top Finding**: All participants understood the facility list to be places where a Veteran had received health care
 - **Path**: `products/identity-personalization/profile/preferred-facility/research/2021-05-preferred-facilities`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/preferred-facility/research/2021-05-preferred-facilities) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fidentity-personalization%202021%20Conversation%20Guide)
@@ -1917,7 +1933,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-06
 - **Methodology**: Remote moderated semi-structured interviews, Task-based usability testing on desktop and mobile devices (Veterans)
-- **Key Themes**: Accessibility, usability-testing, interviews
+- **Key Themes**: Accessibility, Communication, Timeline expectations, Trust
 - **Top Finding**: Veterans successfully found benefit letters, but used different paths
 - **Impact**: Remove barriers for Veterans trying to access benefit letters and understand Ve…
 - **Path**: `products/benefit-letters/research/2025-06-Your-VA-benefit-letters-and-documents`
@@ -1964,7 +1980,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-01
 - **Methodology**: * Usability testing with assistive technology users through [prototype](https://staging.va.gov/decision-reviews/submitted-appeal/) shared on the staging environment. We tested the first version with 9 participants, and the second version with 6 participants. (Veterans)
-- **Key Themes**: usability-testing, remote-research, semi-structured-intervi…
+- **Key Themes**: Evidence submission, Language clarity, Communication, Search
 - **Top Finding**: Veterans found separate page for copy of submission redundant to confirmation page, and link language misled Veterans i…
 - **Impact**: Veterans can easily access and retain an accessible copy of their appeal submis…
 - **Path**: `products/decision-reviews/Notice-of-Disagreement/Research/012024-accessible-submission-download`
@@ -1978,7 +1994,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 0924-20
 - **Methodology**: usability testing (Veterans)
-- **Key Themes**: usability-testing, remote-research, evaluative
+- **Key Themes**: Form complexity, Status clarity, Communication
 - **Top Finding**: JAWS users had difficulty operating form controls as checkboxes and radios were not being announced
 - **Impact**: Veterans can successfully complete Supplemental Claim form with new updates inc…
 - **Path**: `products/decision-reviews/Supplemental-Claims/Research/0924-2024-SC-Updates`
@@ -1992,7 +2008,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-03
 - **Methodology**: Remote moderated usability testing, Mobile prototype testing (Veterans)
-- **Key Themes**: INTIVE: PACT Act, usability-testing, remote-research, moder…
+- **Key Themes**: Language clarity, Search, Evidence submission
 - **Top Finding**: Most participants had a clear understanding of the requirements for filing Supplemental Claims and what presumptive con…
 - **Path**: `products/decision-reviews/Supplemental-Claims/Research/1222-PACT-Act`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/decision-reviews/Supplemental-Claims/Research/1222-PACT-Act) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fdecision-reviews%20Conversation%20Guide)
@@ -2005,7 +2021,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-09
 - **Methodology**: Semi-structured interviews, Usability testing (Veterans, Dependents)
-- **Key Themes**: usability-testing, semi-structured-interviews
+- **Key Themes**: Timeline expectations, Communication, Trust
 - **Top Finding**: Upon receiving our reminder email, the majority of Veterans said they would review their dependents—despite not expecti…
 - **Path**: `products/dependents/research/2023-09-dependents-research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/dependents/research/2023-09-dependents-research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fdependents%202023%20Conversation%20Guide)
@@ -2018,7 +2034,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-08
 - **Methodology**: usability-testing (Veterans, Dependents)
-- **Key Themes**: usability-testing
+- **Key Themes**: Mobile, Accessibility, Communication, Navigation
 - **Top Finding**: 9 of them had spouses as dependents
 - **Path**: `products/dependents/research/2025-08-dependent-verification-with-picklist`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/dependents/research/2025-08-dependent-verification-with-picklist) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fdependents%202025%20Conversation%20Guide)
@@ -2031,6 +2047,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-09
 - **Methodology**: usability testing (Veterans)
+- **Key Themes**: Evidence submission, Status clarity, Communication, Search
 - **Top Finding**: Some participants (5/8) were able to intuitively interact with the submitted data accordion on the confirmation page.
 - **Path**: `products/disability/526ez/research/2025-09-Copy of Submission`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/526ez/research/2025-09-Copy%20of%20Submission) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fdisability%202025%20Conversation%20Guide)
@@ -2043,7 +2060,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-07
 - **Methodology**: _Brief description of method chosen_ (Veterans)
-- **Key Themes**: usability-testing, remote-research
+- **Key Themes**: Navigation, Search
 - **Path**: `products/disability/526ez/research/2023-07-Toxic-Exposure`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/526ez/research/2023-07-Toxic-Exposure) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fdisability%20Conversation%20Guide)
 - **Files**:
@@ -2067,6 +2084,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-11
 - **Methodology**: Semi-structured interviews combined with usability concept testing (Veterans)
+- **Key Themes**: Loading performance, Timeline expectations, Communication
 - **Top Finding**: The online form was clear and straightforward, with all participants successfully completing it without assistance. Par…
 - **Impact**: This research supports the desired user outcome by validating that the online f…
 - **Path**: `teams/benefits-portfolio/benefits-intake-optimization/research/2025-11 BIO Heart 21P-537 User Research`
@@ -2080,7 +2098,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-12
 - **Methodology**: Semi-structured interviews combined with usability concept testing (Veterans, Dependents)
-- **Participants**: Veterans, Dependents
+- **Key Themes**: Navigation, Search
 - **Path**: `teams/benefits-portfolio/benefits-intake-optimization/research/2025-12 BIO Heart 21P-601 User Research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/benefits-portfolio/benefits-intake-optimization/research/2025-12%20BIO%20Heart%2021P-601%20User%20Research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Ateams%2Fbenefits-portfolio%202025%20Conversation%20Guide)
 - **Files**:
@@ -2092,7 +2110,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-09
 - **Methodology**: We conducted semi-structured interviews with six VSOs who assisted claimants in completing the Burial Benefits form. Three of the six VSOs had previously participated in the VSO Pension research. (Veterans)
-- **Key Themes**: semi-structured-interviews, remote-research
+- **Key Themes**: Evidence submission, Timeline expectations, Navigation
 - **Top Finding**: The typical claimants are spouses and children of the deceased Veteran. VSOs rarely work with extended family, friends,…
 - **Impact**: Claimants can more easily complete the Burial Benefits form with less confusion…
 - **Path**: `products/burials-memorials/burial-allowance/research/2024-09-VSO-Research`
@@ -2106,7 +2124,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2026-02
 - **Methodology**: Moderated Remote Interview, Usability Testing (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: AUD-VA-Staff, PRDT-Medical-Calculators, PRDT-Clinical-Decis…
+- **Key Themes**: AUD-VA-Staff, PRDT-Medical-Calculators, HDW-Desktop
 - **Impact**: Reduced cognitive burden created by context switching between the CDS Medical C…
 - **Path**: `products/health-care/clinical-decision-support/medical-calculators/research/2026-02-AMPREDICT-PROPREDICT-case-study`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/clinical-decision-support/medical-calculators/research/2026-02-AMPREDICT-PROPREDICT-case-study) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%202026%20Conversation%20Guide)
@@ -2118,7 +2136,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-09
 - **Methodology**: Moderated Remote Interview, Usability Testing (Veterans)
-- **Key Themes**: AUD-VA-Staff, PRDT-Medical-Calculators, PRDT-Clinical-Decis…
+- **Key Themes**: Navigation, Search, Language clarity
 - **Top Finding**: Clinicians workflow regularly involves referencing the EHR to find patient data. Referencing the EHR first becomes thei…
 - **Impact**: Reduced cognitive burden created by context switching between the CDS Medical C…
 - **Path**: `products/health-care/clinical-decision-support/medical-calculators/research/2025-09-Calculator-Detail-Page-Line-Chart-Testing`
@@ -2132,7 +2150,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2026-02
 - **Methodology**: Moderated Remote Interview, Async questionairre (Veterans)
-- **Key Themes**: AUD-VA-Staff, PRDT-Medical-Calculators, PRDT-Clinical-Decis…
+- **Key Themes**: Navigation, Search
 - **Impact**: Make Medical Calculators easy to access and use within workflows
 - **Path**: `products/health-care/clinical-decision-support/medical-calculators/research/2026-02-Clinician-Engagement-Sessions`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/clinical-decision-support/medical-calculators/research/2026-02-Clinician-Engagement-Sessions) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%202026%20Conversation%20Guide)
@@ -2157,6 +2175,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-02
 - **Methodology**: Usability testing with interactive prototypes (Prototype A and Prototype B), Scenario-based task testing, Comparative feedback sessions, Scenario mapping workshop (Veterans, Dependents)
+- **Key Themes**: Navigation, Search, Timeline expectations
 - **Top Finding**: V1 sidebar navigation approach validated - expand/collapse functionality is findable and valuable
 - **Impact**: Clinicians can navigate between CDS tools more efficiently with reduced workflo…
 - **Path**: `products/health-care/clinical-decision-support/platform/research/2025-02-R2-Sidebar-Testing`
@@ -2170,7 +2189,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-12
 - **Methodology**: This study employed a mixed-methods approach combining usability testing and concept testing: (Veterans)
-- **Key Themes**: usability-testing, remote-research
+- **Key Themes**: Timeline expectations, Error handling, Communication
 - **Top Finding**: Clinicians want abnormal values visually flagged, not buried in long notes
 - **Impact**: Faster, more confident clinical decision-making with reduced cognitive load and…
 - **Path**: `products/health-care/clinical-decision-support/platform/research/2025-12-Patient-Details-Testing`
@@ -2195,7 +2214,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-10
 - **Methodology**: *Provide a brief description of the research methods used (e.g., usability testing, interviews).* (Veterans)
-- **Key Themes**: usability-testing, remote-research
+- **Key Themes**: Navigation, Search
 - **Path**: `products/combined_va_debt_portal/payment-history/research/2025-10-copays-usability`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/combined_va_debt_portal/payment-history/research/2025-10-copays-usability) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fcombined_va_debt_portal%202025%20Conversation%20Guide)
 - **Files**:
@@ -2207,7 +2226,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-08
 - **Methodology**: contextual inquiry and usability testing (Veterans, Caregivers, Service Members)
-- **Key Themes**: usability-testing, moderated-research, remote-research, Acc…
+- **Key Themes**: Error handling
 - **Top Finding**: All participants were able to successfully use the prototype
 - **Impact**: Veterans can quickly identify login problems and access appropriate resources w…
 - **Path**: `products/platform/login-self-service-tool/research/2022-Q3`
@@ -2232,7 +2251,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-04
 - **Methodology**: Semi-structured interviews, Remote usability testing (Veterans)
-- **Key Themes**: INTIVE: CX Executive Order, usability-testing, semi-structu…
+- **Key Themes**: Communication, Language clarity
 - **Top Finding**: Modals are disruptive and annoying, and veterans don't want to be interrupted by a modal in the middle of a task, espec…
 - **Path**: `products/identity/Research/2023-04 Proactive CSP Migration`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research/2023-04%20Proactive%20CSP%20Migration) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fidentity%202023%20Conversation%20Guide)
@@ -2245,7 +2264,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-07
 - **Methodology**: usability testing (Veterans)
-- **Key Themes**: Accessibility, usability-testing
+- **Key Themes**: Timeline expectations, Language clarity
 - **Top Finding**: Terms of Use is a widely accepted practice, and veterans expect to see them
 - **Path**: `products/identity/Research/2023-07 Terms of Use`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research/2023-07%20Terms%20of%20Use) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fidentity%202023%20Conversation%20Guide)
@@ -2293,7 +2312,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-09
 - **Methodology**: -   Usability and comprehension testing - appropriate for evaluative research (Veterans)
-- **Key Themes**: usability-testing, remote-research, semi-structured-intervi…
+- **Key Themes**: Navigation, Search, Communication, Status clarity
 - **Top Finding**: Navigation and findability were excellent - Veterans could easily find information and knew which links to click for bi…
 - **Impact**: Veterans can easily understand their copay bills, view payment history, and tak…
 - **Path**: `products/combined_va_debt_portal/payment-history/research/2024-9-copay-usability`
@@ -2329,7 +2348,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-06
 - **Methodology**: moderated-research, usability-testing, remote-research (Veterans)
-- **Key Themes**: usability-testing, moderated-research, remote-research, eva…
+- **Key Themes**: Communication, Language clarity, Trust
 - **Top Finding**: Participants found the enhanced FSR design patterns (including new list loops) easy to use.
 - **Impact**: Not explicitly stated in report
 - **Path**: `products/combined_fsr/research/enhanced_fsr`
@@ -2343,7 +2362,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-07
 - **Methodology**: usability testing (Veterans, Caregivers, Service Members)
-- **Key Themes**: usability-testing, moderated-research, remote-research, Acc…
+- **Key Themes**: Error handling, Search
 - **Top Finding**: How participants defined copays, debt, and bills: Participants defined copays in relation to money owed for medical rel…
 - **Path**: `products/combined_va_debt_portal/research/usability-apr-2022`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/combined_va_debt_portal/research/usability-apr-2022) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fcombined_va_debt_portal%202022%20Conversation%20Guide)
@@ -2356,7 +2375,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-02
 - **Methodology**: -   Semi-structured interviews - appropriate for generative research      -   Concept study      -   [Reaction cards](https://docs.google.com/presentation/d/1G7MVZX-w3jyhobl80WlBTUdWMhKVvtKbqX2NqV0uQZQ/edit#slide=id.p) for exploratory research (Veterans, Dependents)
-- **Key Themes**: semi-structured-interviews, remote-research, moderated-rese…
+- **Key Themes**: Mobile, Form complexity, Communication, Language clarity
 - **Top Finding**: Veterans echoed desire for financial portal that is first and foremost easy to use and simple
 - **Impact**: Veterans can easily access and manage all VA debts and copays in one location w…
 - **Path**: `products/combined_va_debt_portal/research/exploratory-2024`
@@ -2370,7 +2389,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-10
 - **Methodology**: Remote moderated usability testing, Prototype testing (Veterans)
-- **Key Themes**: Initiative: PACT Act, usability-testing, moderated-research…
+- **Key Themes**: Timeline expectations, Status clarity, Navigation, Mobile
 - **Top Finding**: Representing form progress as 'steps' confused some users. Users expect the progress bar to be true to the number of st…
 - **Path**: `products/decision-reviews/Supplemental-Claims/Research/MVP Usability Research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/decision-reviews/Supplemental-Claims/Research/MVP%20Usability%20Research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fdecision-reviews%202022%20Conversation%20Guide)
@@ -2405,6 +2424,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2020-12
 - **Methodology**: semi-structured interviews (Veterans, Caregivers, Dependents, Service Members)
+- **Key Themes**: Navigation, Form complexity, Trust
 - **Top Finding**: Veterans have to navigate multiple health care systems, providers, and insurers to get the care they need.
 - **Path**: `products/health-care/digital-health-modernization/pre-mhv-prototype/research/generative-research-study-1`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/pre-mhv-prototype/research/generative-research-study-1) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%202020%20Conversation%20Guide)
@@ -2417,7 +2437,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-07
 - **Methodology**: semi-structured interviews with usability testing using high-fidelity prototype (Veterans)
-- **Key Themes**: semi-structured-interviews, remote-research, evaluative
+- **Key Themes**: Navigation, Status clarity, Form complexity, Search
 - **Top Finding**: When asked what level of effort was required to complete the form (1 being lowest and 5 being highest) 6 out of 7 users…
 - **Impact**: This research supports our desired user outcome by identifying areas of success…
 - **Path**: `products/pension/research/2025-07 0969 Usability Study`
@@ -2452,6 +2472,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-06
 - **Methodology**: Concept testing, User research interviews, Trauma-informed research approach, Figma prototype testing with two design concepts (Concept A and Concept B), 90-minute moderated sessions, Remote moderated usability testing (Veterans)
+- **Key Themes**: Evidence submission, Timeline expectations, Navigation
 - **Top Finding**: Veterans were able to orient themselves to start and exit the 0781, but comprehension of the overall form flow remained…
 - **Impact**: Veterans can more easily navigate the 0781 form within the 526EZ with less conf…
 - **Path**: `products/disability/526ez/research/2024-06 0781 Research`
@@ -2465,7 +2486,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-11
 - **Methodology**: usability testing, remote moderated sessions, semi-structured interviews (Veterans)
-- **Key Themes**: usability-testing, semi-structured-interviews, evaluative
+- **Key Themes**: Navigation, Language clarity, Status clarity, Mobile
 - **Top Finding**: All participants were able to understand and use both navigation components after interacting with them.
 - **Impact**: Veterans can confidently track progress, understand what’s complete/locked, and…
 - **Path**: `products/disability/526ez/research/2025-11 Side Navigation`
@@ -2479,7 +2500,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-11
 - **Methodology**: usability testing (Veterans)
-- **Key Themes**: usability-testing, moderated-research, remote-research, Acc…
+- **Key Themes**: Navigation, Form complexity, Language clarity, Communication
 - **Top Finding**: All participants were able to navigate the edit flow with no difficulty
 - **Impact**: Veterans can successfully navigate the discharge upgrade wizard with edit flow …
 - **Path**: `products/veteran-military-records/discharge-upgrade-wizard/research/2024-Review-Flow`
@@ -2515,7 +2536,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-03
 - **Methodology**: Moderated Interviews, Remote Sessions (Veterans, Caregivers)
-- **Key Themes**: AUD-Veterans, PRDT-Facility-Locator, HDW-Smartphone, Access…
+- **Key Themes**: Language clarity, Search, Communication, Error handling
 - **Top Finding**: Veterans and others will understand how the list of results are organized and what options they have to refine or broad…
 - **Impact**: Veterans can successfully find VA facilities on mobile devices using map and li…
 - **Path**: `products/facilities/facility-locator/initiatives/2023-2025-search-improvements/research/mobile-map`
@@ -2529,7 +2550,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-04
 - **Methodology**: tree-test, unmoderated-research, remote-research (Veterans)
-- **Key Themes**: tree-test, remote-research, unmoderated-research, evaluative
+- **Key Themes**: Navigation, Timeline expectations, Search, Communication
 - **Top Finding**: Participants primarily navigated to 'Make an appointment' when presented with tasks related to making an appointment vi…
 - **Path**: `products/facilities/medical-centers/research/VA-health-chat`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/medical-centers/research/VA-health-chat) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Ffacilities%202026%20Conversation%20Guide)
@@ -2542,7 +2563,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2026-02
 - **Methodology**: Moderated semi-structured interviews, Form walkthrough usability testing, Remote testing via Zoom, Screen sharing with participant-driven navigation (Veterans, Caregivers)
-- **Key Themes**: usability-testing, semi-structured-interviews, evaluative, …
+- **Key Themes**: Evidence submission, Error handling, Communication
 - **Top Finding**: Most participants who were filling out 21-2680 for someone else (e.g., a parent they give care to) did not correctly ch…
 - **Impact**: Veterans, dependents, and caregivers understand the 21-2680 form process, corre…
 - **Path**: `products/21-2680/research/2026-02-medical-provider-research`
@@ -2556,7 +2577,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2018-06
 - **Methodology**: usability testing (Veterans, Caregivers, Dependents)
-- **Participants**: Veterans, Caregivers, Dependents
+- **Key Themes**: Navigation, Search
 - **Path**: `products/disability/declare-dependent/research/june-2018`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/declare-dependent/research/june-2018) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fdisability%202018%20Conversation%20Guide)
 - **Files**:
@@ -2589,7 +2610,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-10
 - **Methodology**: - Semi-structured moderated interviews with a mid-fidelity Figma prototype (Veterans)
-- **Key Themes**: usability-testing, semi-structured-interviews, moderated-re…
+- **Key Themes**: Status clarity, Language clarity, Form complexity
 - **Top Finding**: 6 out of the 8 participants felt the introduction page content was clear with easy to understand instructions and they …
 - **Impact**: Reducing confusion around the process to set up direct deposit for FMP claims a…
 - **Path**: `products/health-care/foreign-medical-program/10-7959f-2/research/2025-10-FMP-Claims-Direct-Deposit-Content-Study`
@@ -2603,7 +2624,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-04
 - **Methodology**: We conducted about hour-long **moderated remote usability sessions** from April 1-5, 2024.  - 10-10EZ Form in Production on VA.gov - Unauthenticated or authenticated via the partipants account and ability (Veterans, Caregivers)
-- **Key Themes**: usability-testing, moderated-research, remote-research, Acc…
+- **Key Themes**: Communication, Timeline expectations, Search, Error handling
 - **Top Finding**: Most Veterans have been or believe they have been exposed to toxic materials in the military, but they don't know if it…
 - **Impact**: Veterans can easily report toxic exposure information to help qualify for VA he…
 - **Path**: `products/health-care/application/va-application/research/2024-04-ToxicExposure-UsabilityStudy`
@@ -2638,6 +2659,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-04
 - **Methodology**: Remote moderated research sessions via Zoom, Concept testing with 3 Figma prototypes, Task-based usability testing (Veterans)
+- **Key Themes**: Navigation, Search, Form complexity
 - **Top Finding**: Most participants (10 out of 15) found option 3 (medications and supplies combined) the easiest to find and order items…
 - **Impact**: Veterans can easily find and order both medications and medical supplies in one…
 - **Path**: `products/health-care/supply-reordering-tool/research/2024-04-Meds and supplies concept testing`
@@ -2705,7 +2727,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2026-02
 - **Methodology**: Semi-structured interviews (staff/operational research) (Veterans, Caregivers)
-- **Key Themes**: Internal Research: Platform Research
+- **Key Themes**: Error handling, Navigation, Timeline expectations, Mobile
 - **Top Finding**: Coordinators across all five sites support ID.me issues daily and are often the sole support resource for their facilit…
 - **Path**: `products/identity/Research/2026-02 ID.me - MHV Coordinator Verification Assistance`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research/2026-02%20ID.me%20-%20MHV%20Coordinator%20Verification%20Assistance) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fidentity%202026%20Conversation%20Guide)
@@ -2740,6 +2762,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-11
 - **Methodology**: Remote usability testing, Prototype testing, Semi-structured interviews (Veterans)
+- **Key Themes**: Form complexity, Navigation, Search, Communication
 - **Top Finding**: Most Veterans did not have security concerns with being signed into concurrent sessions on their accounts. Some saw usi…
 - **Path**: `products/identity/Research/2023-11 Manage Signed-in Devices`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research/2023-11%20Manage%20Signed-in%20Devices) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fidentity%202026%20Conversation%20Guide)
@@ -2763,7 +2786,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-01
 - **Methodology**: remote moderated usability testing (Veterans, Caregivers, Dependents, Service Members)
-- **Key Themes**: usability-testing, remote-research
+- **Key Themes**: Language clarity, Form complexity, Navigation
 - **Top Finding**: All participants understood the purpose of the app and found it easy to use.
 - **Path**: `products/income-limits-app/initiatives/2023-launch/research/2023-01-income-limits-usability`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/income-limits-app/initiatives/2023-launch/research/2023-01-income-limits-usability) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fincome-limits-app%202023%20Conversation%20Guide)
@@ -2788,7 +2811,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-07
 - **Methodology**: The interviews will be conducted remotely via Zoom with Veteran participants and will consist of the semi-structured interview questions shared in the conversation guide. (Veterans)
-- **Key Themes**: Initiative: CX Executive Order, semi-structured-interviews,…
+- **Key Themes**: Trust
 - **Top Finding**: Veterans prefer Live Chat to calling in the majority of scenarios
 - **Path**: `products/live-agent/research/2023-07-Live Agent Chatbot_Interviews with Veterans`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/live-agent/research/2023-07-Live%20Agent%20Chatbot_Interviews%20with%20Veterans) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Flive-agent%202023%20Conversation%20Guide)
@@ -2823,7 +2846,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-11
 - **Methodology**: Remote moderated usability testing (Veterans)
-- **Key Themes**: usability-testing, moderated-research, remote-research, Acc…
+- **Key Themes**: Status clarity, Language clarity, Communication, Search
 - **Top Finding**: Prescription statuses were largely understood; refill vs. renewal understanding varied
 - **Impact**: Faster, more confident renewal requests with reduced uncertainty and clearer un…
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-11-medications-messaging-and-status-labels-usability-study`
@@ -2849,7 +2872,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-07
 - **Methodology**: Remote moderated usability testing, Usability testing, Moderated research (Veterans)
-- **Key Themes**: usability-testing, moderated-research, remote-research
+- **Key Themes**: Search, Timeline expectations, Evidence submission
 - **Top Finding**: Most participants (13 of 18) successfully located their medication list from the landing page.
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2023-07-medications-usability-testing-round1`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2023-07-medications-usability-testing-round1) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%202023%20Conversation%20Guide)
@@ -2862,7 +2885,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-11
 - **Methodology**: Moderated usability testing, Observational research (Veterans, Caregivers, Service Members)
-- **Key Themes**: usability-testing, moderated-research, Accessibility, remot…
+- **Key Themes**: Accessibility, Timeline expectations, Evidence submission
 - **Top Finding**: Most of the participants (9 of 13) correctly acknowledged the purpose of the medications landing page.
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2023-11-medications-usability-testing-round2-AT`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2023-11-medications-usability-testing-round2-AT) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%202023%20Conversation%20Guide)
@@ -2875,7 +2898,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-06
 - **Methodology**: We conducted remote moderated usability testing sessions in which we asked users to navigate a prototype while we observed their behavior, and asked follow-up prompts. (Veterans)
-- **Key Themes**: usability-testing, moderated-research, remote-research, Acc…
+- **Key Themes**: Communication, Navigation, Search
 - **Top Finding**: All participants (8 of 8) successfully found the intended care team on the Recent Care Teams list
 - **Impact**: Veterans can efficiently find and message the correct care team using the curat…
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2025-06-curated-list-usability-testing`
@@ -2889,7 +2912,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-04
 - **Methodology**: remote-moderated-usability-testing, prototype-testing (Veterans)
-- **Key Themes**: usability-testing, moderated-research, remote-research, eva…
+- **Key Themes**: Communication, Language clarity, Evidence submission, Search
 - **Top Finding**: When asked if they review their health information, appointments, tests, or doctor's orders, all participants mentioned…
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/avs/research/2023-04-MVP-Usability`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/avs/research/2023-04-MVP-Usability) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%202023%20Conversation%20Guide)
@@ -2902,7 +2925,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-02
 - **Methodology**: moderated interviews (Veterans)
-- **Key Themes**: semi-structured-interviews, moderated-research, remote-rese…
+- **Key Themes**: Communication, Navigation, Search
 - **Top Finding**: Half the participants (9 of 18) stated they are looking for their medication names when first logging into their medica…
 - **Impact**: Veterans can quickly find medications they need to refill or review with clear …
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2024-02-findability-study`
@@ -2916,7 +2939,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-03
 - **Methodology**: We will conduct moderated usability testing sessions in which we will ask users to navigate a prototype while we observe their behavior, and ask follow-up prompts as needed. (Veterans)
-- **Key Themes**: usability-testing, moderated-research, remote-research, Acc…
+- **Key Themes**: Navigation, Accessibility, Error handling, Communication
 - **Top Finding**: All participants (5 of 5) assumed the IPE was directing them to the sort feature
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-03-IPE-study`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-03-IPE-study) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%202025%20Conversation%20Guide)
@@ -2929,7 +2952,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-05
 - **Methodology**: ## We conducted moderated usability testing interviews in which we asked users to navigate the prototype, observed their behavior, and asked follow-up prompts. (Veterans)
-- **Key Themes**: usability-testing, moderated-research, remote-research, Acc…
+- **Key Themes**: Accessibility, Navigation, Timeline expectations, Search
 - **Top Finding**: VoiceOver screen reader on iPad announced incorrect details not associated with the specific medication in focus
 - **Impact**: Veterans can efficiently manage medications with improved accessibility and cle…
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2024-05-medications-usability-testing-round3-AT`
@@ -2943,7 +2966,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-01
 - **Methodology**: usability-testing, moderated-research, remote-research (Veterans)
-- **Key Themes**: usability-testing, moderated-research, remote-research, Acc…
+- **Key Themes**: Error handling, Communication, Timeline expectations, Mobile
 - **Top Finding**: All participants (19 of 19) were able to accurately describe the purpose of the interstitial page when they reached the…
 - **Impact**: Not explicitly specified in findings report
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-01-patient-safety-notice-usability-testing`
@@ -2957,7 +2980,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-08
 - **Methodology**: Semi-structured interviews, Card sort (Veterans)
-- **Key Themes**: generative-research, semi-structured-interviews, card-sort,…
+- **Key Themes**: Form complexity, Mobile, Timeline expectations
 - **Top Finding**: Most participants prefer Secure Messaging over calling because of the complexity of the VA phone system.
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-08-triage-group-generative-study`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-08-triage-group-generative-study) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%202023%20Conversation%20Guide)
@@ -2970,7 +2993,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-09
 - **Methodology**: Moderated usability testing (Veterans, Caregivers, Service Members)
-- **Key Themes**: usability-testing, moderated-research, remote-research
+- **Key Themes**: Error handling, Communication, Search, Timeline expectations
 - **Top Finding**: Most participants (11 of 17) looked for a Save Draft button when asked if their draft would be available later
 - **Impact**: Veterans can easily and safely communicate with their healthcare providers thro…
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2022-09-usability_testing_2`
@@ -2995,7 +3018,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-20
 - **Methodology**: usability testing (Veterans)
-- **Key Themes**: usability-testing, remote-research
+- **Key Themes**: Language clarity, Form complexity, Communication, Trust
 - **Top Finding**: All 9 participants had positive experience with wizard and could understand eligibility and next steps
 - **Impact**: Veterans can easily determine if PACT Act applies to them and understand how to…
 - **Path**: `products/pact-act-wizard/research/2023-2024-launch`
@@ -3009,7 +3032,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-05
 - **Methodology**: [e.g., usability testing, semi-structured interviews, card sort] (Veterans)
-- **Participants**: Veterans
+- **Key Themes**: Navigation, Search
 - **Path**: `products/paperless-delivery/Research/2025-05-Research-Initiative-2`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/paperless-delivery/Research/2025-05-Research-Initiative-2) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fpaperless-delivery%202026%20Conversation%20Guide)
 - **Files**:
@@ -3032,7 +3055,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-12
 - **Methodology**: Veteran intercepts, Interviews with clinic staff, Interviews with travel office staff, In-person observation (Veterans)
-- **Key Themes**: interviews, in-person-research
+- **Key Themes**: Trust, Loading performance, Navigation, Form complexity
 - **Top Finding**: Veterans found the travel reimbursement feature 'awesome' and 'easy to use' and would not change anything about the pro…
 - **Path**: `products/health-care/checkin/research/2022-12 Patient Check In Travel Reimbursement Staff Interviews at Wilkes-Barre`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin/research/2022-12%20Patient%20Check%20In%20Travel%20Reimbursement%20Staff%20Interviews%20at%20Wilkes-Barre) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%202022%20Conversation%20Guide)
@@ -3045,7 +3068,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-12
 - **Methodology**: Veteran intercepts, Interviews with clinic staff, Interviews with travel office staff, In-person observation (Veterans)
-- **Key Themes**: interviews, in-person-research
+- **Key Themes**: Trust, Loading performance, Navigation, Form complexity
 - **Top Finding**: Veterans found the travel reimbursement feature 'awesome' and 'easy to use' and would not change anything about the pro…
 - **Path**: `products/health-care/checkin/research/2022-12 Patient Check In Travel Reimbursement Veteran Intercept at Wilkes-Barre`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin/research/2022-12%20Patient%20Check%20In%20Travel%20Reimbursement%20Veteran%20Intercept%20at%20Wilkes-Barre) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%202022%20Conversation%20Guide)
@@ -3058,7 +3081,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-06
 - **Methodology**: Secondary research synthesis — collation and analysis of findings from prior usability testing studies (R1 and R2 Sidebar Navigation rounds) (Veterans)
-- **Key Themes**: usability-testing, remote-research, patient-lookup, reverse…
+- **Key Themes**: Timeline expectations, Search, Error handling
 - **Top Finding**: Clinicians expect a flexible, type-ahead search supporting partial name matching
 - **Impact**: Clinicians can confidently and quickly locate and switch patient context within…
 - **Path**: `products/health-care/clinical-decision-support/platform/research/2025-06-Patient Search`
@@ -3072,7 +3095,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-03
 - **Methodology**: [e.g., usability testing, semi-structured interviews, card sort] (Veterans, Dependents)
-- **Key Themes**: usability-testing, semi-structured-interviews, remote-resea…
+- **Key Themes**: Timeline expectations, Communication, Evidence submission
 - **Top Finding**: 6 of 10 participants mistakenly thought 527EZ was for military retirement pension, not aware form only for Veterans bel…
 - **Impact**: Veterans can accurately complete pension application with clear understanding o…
 - **Path**: `products/pension/research/2024 02 Pension Usability Evaluation`
@@ -3086,7 +3109,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-10
 - **Methodology**: semi-structured-interviews (Veterans)
-- **Key Themes**: semi-structured-interviews, moderated-research, remote-rese…
+- **Key Themes**: Timeline expectations, Status clarity, Form complexity
 - **Top Finding**: Participants' familiarity with intent to file and learning sources varied widely - some used it before, others heard of…
 - **Impact**: Veterans understand when and why to file intent to file, maximize their potenti…
 - **Path**: `products/pension/research/2024-10 Intent to File Comprehension`
@@ -3100,7 +3123,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-12
 - **Methodology**: Moderated usability testing, Prototype testing, Remote sessions (Veterans)
-- **Key Themes**: usability-testing, evaluative, authenticated-experience, el…
+- **Key Themes**: Accessibility, Language clarity, Timeline expectations
 - **Top Finding**: All participants (100%) demonstrated understanding that their current disability pay is the greater benefit and recogni…
 - **Impact**: Veterans with 100% disability ratings can quickly and accurately determine whet…
 - **Path**: `products/pension/research/2025-12 Pension Disability Alert`
@@ -3135,7 +3158,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-10
 - **Methodology**: Remote usability testing (Veterans)
-- **Key Themes**: usability-testing, remote-research, Accessibility, AST: Scr…
+- **Key Themes**: Navigation, Status clarity, Communication, Search
 - **Top Finding**: Nearly all participants were able to complete tasks effectively using the Profile Hub.
 - **Path**: `products/identity-personalization/profile/Research/2023-10-profile-hub-usability`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/Research/2023-10-profile-hub-usability) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fidentity-personalization%202023%20Conversation%20Guide)
@@ -3148,7 +3171,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-10
 - **Methodology**: User Acceptance Testing (UAT) (Veterans, Dependents)
-- **Participants**: Veterans, Dependents
+- **Key Themes**: Navigation, Search
 - **Path**: `products/identity-personalization/profile/Research/2023-10-UAT-edit-as-subtask-default-send-checkbox-ui`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/Research/2023-10-UAT-edit-as-subtask-default-send-checkbox-ui) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fidentity-personalization%202023%20Conversation%20Guide)
 - **Files**:
@@ -3171,7 +3194,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-01
 - **Methodology**: Task-based usability assessment, Free explore sessions (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: usability-testing, evaluative
+- **Key Themes**: Navigation, Search, Status clarity, Communication
 - **Top Finding**: Enrollment Manager: Participants highly prioritize easy access to the Enrollment Manager, acknowledging its crucial rol…
 - **Path**: `products/resources-for-schools/research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/resources-for-schools/research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fresources-for-schools%202024%20Conversation%20Guide)
@@ -3182,7 +3205,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2026-01
 - **Methodology**: remote moderated usability testing (Veterans)
-- **Key Themes**: Accessibility, usability-testing
+- **Key Themes**: Status clarity, Evidence submission, Communication
 - **Top Finding**: The interstitial page was NOT effective in communicating about save in progress because most users were so focused on f…
 - **Path**: `teams/digital-experience/ADE/research/2026-01-save-in-progress-2`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/digital-experience/ADE/research/2026-01-save-in-progress-2) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Ateams%2Fdigital-experience%202026%20Conversation%20Guide)
@@ -3241,7 +3264,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-09
 - **Methodology**: Remote moderated usability testing with wayfinding prompts (Veterans, Caregivers, Dependents, Service Members)
-- **Key Themes**: usability-testing, moderated-research, remote-research, Acc…
+- **Key Themes**: Search, Accessibility, Error handling
 - **Top Finding**: Almost half of participants focused their attention on a specific part of the home page while the rest scrolled up and …
 - **Impact**: Veterans and beneficiaries can quickly find and complete their top tasks from t…
 - **Path**: `products/home-page/research/2022-09-redesign-usability-round2`
@@ -3255,7 +3278,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2021-09
 - **Methodology**: remote moderated usability sessions via Zoom (Veterans, Caregivers, Dependents, Service Members)
-- **Key Themes**: usability-testing, moderated-research, remote-research, eva…
+- **Key Themes**: Search, Navigation, Accessibility, Error handling
 - **Top Finding**: Most participants browsed (clicking links) without using the Search box at all or searched only when browsing didn’t wo…
 - **Path**: `products/home-page/research/redesign-usability`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/home-page/research/redesign-usability) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhome-page%202021%20Conversation%20Guide)
@@ -3268,6 +3291,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: [e.g., usability testing, semi-structured interviews, card sort] (Veterans, Caregivers, Service Members)
+- **Key Themes**: Search, Communication, Navigation, Language clarity
 - **Top Finding**: Almost all participants found desired information via browsing or searching - 10 of 12 completed all tasks
 - **Impact**: Veterans and beneficiaries can efficiently find relevant benefit information us…
 - **Path**: `products/resources-and-support/research/2024-search-filters`
@@ -3292,7 +3316,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2026-03
 - **Methodology**: remote moderated concept testing (Veterans, Dependents)
-- **Key Themes**: usability-testing, concept-testing, information-architectur…
+- **Key Themes**: Navigation, Timeline expectations, Status clarity, Search
 - **Top Finding**: All participants expect to find items on the homescreen requiring attention and action including: - Alerts - Updates fr…
 - **Path**: `products/va-mobile-app/research/2026-03-Homescreen-Research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/2026-03-Homescreen-Research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fva-mobile-app%202026%20Conversation%20Guide)
@@ -3305,7 +3329,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-06
 - **Methodology**: Methodology not specified (Veterans)
-- **Key Themes**: evaluative
+- **Key Themes**: Evidence submission, Search, Navigation
 - **Top Finding**: Research presentation documents for Community Care Veteran Self-Scheduling Usability and Concept Testing
 - **Impact**: N/A - Presentation document
 - **Path**: `products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling/research/2024-06 Community Care Self-Scheduling - Usability and Concept Testing`
@@ -3382,7 +3406,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-12
 - **Methodology**: * Semi-structured interviews  * Remote via Zoom (Veterans)
-- **Key Themes**: usability-testing, semi-structured-interviews, remote-resea…
+- **Key Themes**: Evidence submission, Communication, Accessibility
 - **Top Finding**: Services at Public Contact Offices can be categorized in four distinct ways: benefits, tasks, documents, beneficiaries
 - **Path**: `products/facilities/regional-offices/research/2022-9-public-contact`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/regional-offices/research/2022-9-public-contact) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Ffacilities%202022%20Conversation%20Guide)
@@ -3429,7 +3453,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-11
 - **Methodology**: **Comparative Usability Testing with Preference Ranking** (Veterans)
-- **Key Themes**: usability-testing, moderated-research, remote-research, sem…
+- **Key Themes**: Search, Status clarity, Accessibility
 - **Top Finding**: 14 of 16 participants (88%) preferred application-focused modal over action-focused
 - **Impact**: New Veterans can quickly navigate to and apply for the benefits they need durin…
 - **Path**: `products/veteran-onboarding/research/2025-study`
@@ -3443,7 +3467,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-07
 - **Methodology**: This was a mixed-methods study combining generative research with usability testing to understand both current TSM needs and evaluate the existing product. (Veterans, Service Members)
-- **Key Themes**: usability-testing, semi-structured-interviews, remote-resea…
+- **Key Themes**: Search, Communication, Accessibility, Mobile
 - **Top Finding**: There is surprisingly little relationship between the goals participants chose and the benefits they explored. Particip…
 - **Impact**: TSMs can effectively discover relevant benefits, track their transition progres…
 - **Path**: `products/vet-transition-support/research/2025-07-generative-and-user-testing-study`
@@ -3457,7 +3481,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-02
 - **Methodology**: semi-structured-interviews (Veterans, Service Members)
-- **Key Themes**: semi-structured-interviews, remote-research, discovery
+- **Key Themes**: Communication, Accessibility, Evidence submission
 - **Top Finding**: Different participants had different preferences for viewing benefit information - some want full list, others want cur…
 - **Impact**: Veterans and transitioning servicemembers can discover relevant benefits and su…
 - **Path**: `products/vet-transition-support/research/2024-02-discovery`
@@ -3471,7 +3495,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-07
 - **Methodology**: Our team interviewed 12 users over a two-week period. Each session lasted approximately one hour. Cora Goldston and Ronnie Young swapped off leading the interviews and taking notes. Gene Dreyband and Nicole Kontrabecki observed the sessions. (Veterans, Service Members)
-- **Key Themes**: moderated-research, remote-research, semi-structured-interv…
+- **Key Themes**: Form complexity, Navigation, Accessibility, Search
 - **Top Finding**: Most participants wanted a name that's straightforward and describes the tool's purpose
 - **Impact**: Veterans and transitioning servicemembers can easily discover and understand re…
 - **Path**: `products/vet-transition-support/research/2024-07-user-testing-v1`
@@ -3485,7 +3509,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-10
 - **Methodology**: semi-structured-interviews (Veterans, Service Members)
-- **Key Themes**: usability-testing, semi-structured-interviews, remote-resea…
+- **Key Themes**: Navigation, Search, Form complexity, Timeline expectations
 - **Top Finding**: Some participants were confused by the Figma prototype, particularly the limited Review, Results, and window-shopping p…
 - **Impact**: Veterans and transitioning servicemembers can easily discover relevant benefits…
 - **Path**: `products/vet-transition-support/research/2024-10-user-testing-v2`
@@ -3555,7 +3579,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: [e.g., usability testing, semi-structured interviews, card sort] (Veterans, Caregivers, Service Members)
-- **Key Themes**: usability-testing, evaluative
+- **Key Themes**: Communication, Loading performance, Mobile
 - **Top Finding**: Vets consistently preferred the preview response for Drupal content because it provided just enough context to make the…
 - **Path**: `products/virtual-agent/research/claims-and-automated-content-study`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/virtual-agent/research/claims-and-automated-content-study) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fvirtual-agent%202026%20Conversation%20Guide)
@@ -3568,7 +3592,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2018-03
 - **Methodology**: Usability testing (Veterans, Service Members)
-- **Key Themes**: usability-testing, evaluative
+- **Key Themes**: Trust, Error handling, Communication, Status clarity
 - **Top Finding**: Distinction between chapter 36 and 31 is still unclear
 - **Path**: `products/education-careers/vocational-rehab/research/mar-2018`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/education-careers/vocational-rehab/research/mar-2018) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Feducation-careers%202018%20Conversation%20Guide)
@@ -3615,7 +3639,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-03
 - **Methodology**: Usability testing, Semi-structured interviews, Remote testing, Prototype testing (Veterans)
-- **Key Themes**: usability-testing, semi-structured-interviews, remote-testi…
+- **Key Themes**: Communication, Evidence submission, Language clarity, Mobile
 - **Top Finding**: 8/8 Participants successfully completed the task: Sign in, View 1095-B Form, then Download or Print
 - **Path**: `products/health-care/1095b-tax-form/research/round2`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/1095b-tax-form/research/round2) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%202019%20Conversation%20Guide%3A)
@@ -3673,7 +3697,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-06
 - **Methodology**: Moderated semi-structured interviews, Task-based scenario, Generative research (Veterans, Dependents)
-- **Key Themes**: generative-research, moderated-research, semi-structured-in…
+- **Key Themes**: Timeline expectations, Communication, Status clarity
 - **Top Finding**: Veterans expect to update their financial information for health care benefits somewhere in their VA Profile.
 - **Path**: `products/health-care/application/va-application/research/2023-06-Priority Group and Financial Disclosure`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/research/2023-06-Priority%20Group%20and%20Financial%20Disclosure) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Conversation%20Guide%3A)
@@ -3708,7 +3732,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-09
 - **Methodology**: We conducted this research through moderated sessions over Zoom. We asked participants to update profile information in a test account on VA.gov, and had them review a bare-bones HTML prototype in CodePen as time allowed. (Veterans)
-- **Key Themes**: usability-testing, moderated-research, remote-research, Acc…
+- **Key Themes**: Communication, Loading performance, Status clarity, Mobile
 - **Top Finding**: 9 of 11 participants were able to update VA.gov profile with in-line editing with relative ease
 - **Impact**: Veterans with cognitive considerations and those using assistive technology can…
 - **Path**: `products/identity-personalization/profile/Research/2022-09-profile-editing-evaluation`
@@ -3734,7 +3758,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-06
 - **Methodology**: structured interviews, generative research (Veterans)
-- **Key Themes**: generative, semi-structured-interviews, remote-research
+- **Key Themes**: Accessibility
 - **Top Finding**: Veterans are confused about the registration and enrollment options
 - **Path**: `products/health-care/application/va-application/research/2023-06-Registration flow exploration`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/research/2023-06-Registration%20flow%20exploration) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Conversation%20Guide%3A)
@@ -3778,7 +3802,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: [e.g., usability testing, semi-structured interviews, card sort] (Veterans)
-- **Key Themes**: Accessibility, usability-testing
+- **Key Themes**: Navigation, Form complexity, Timeline expectations, Search
 - **Top Finding**: Locating Forms Is Difficult: Most Veterans struggled to find the forms section, often expecting it under "Claims" rathe…
 - **Path**: `products/va-mobile-app/research/Forms MVP Research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/Forms%20MVP%20Research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fva-mobile-app%202025%20Conversation%20Guide%3A)
@@ -3802,7 +3826,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-06
 - **Methodology**: usability-testing, remote-research (Veterans, Caregivers, Service Members)
-- **Key Themes**: usability-testing, remote-research
+- **Key Themes**: Navigation, Search, Communication
 - **Top Finding**: Veterans understood what services were available and navigated to the relevant sections easily.
 - **Path**: `products/facilities/regional-offices/research/2023-06-veteran-facing`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/regional-offices/research/2023-06-veteran-facing) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Ffacilities%20Conversation%20Guide%3A)
@@ -3815,7 +3839,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-10
 - **Methodology**: *   Semi-structured interviews - appropriate for generative research (Veterans, Caregivers, Service Members)
-- **Key Themes**: semi-structured-interviews, remote-research
+- **Key Themes**: Navigation, Search, Communication, Timeline expectations
 - **Top Finding**: Veterans would like to use the website to complete tasks when the steps are clear
 - **Path**: `products/facilities/regional-offices/research/2022-8-veteran-facing`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/regional-offices/research/2022-8-veteran-facing) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Ffacilities%202022%20Conversation%20Guide%3A)
@@ -3828,7 +3852,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: Method 1, Method 2 (Veterans)
-- **Participants**: Veterans
+- **Key Themes**: Navigation, Search
 - **Path**: `products/virtual-agent/research/inclusive-design-interviews`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/virtual-agent/research/inclusive-design-interviews) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fvirtual-agent%202021%20Conversation%20Guide%3A)
 - **Files**:
@@ -3851,7 +3875,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: Method 1, Method 2 (Veterans, Caregivers, Service Members)
-- **Participants**: Veterans, Caregivers, Service Members
+- **Key Themes**: Navigation, Search
 - **Path**: `products/virtual-agent/research/moderated-interviews`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/virtual-agent/research/moderated-interviews) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fvirtual-agent%202021%20Conversation%20Guide%3A)
 - **Files**:
@@ -3884,6 +3908,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-07
 - **Methodology**: User Acceptance Testing (UAT), Remote moderated sessions via Zoom with screen sharing (Veterans, Service Members, Caregivers, Dependents, VA Staff)
+- **Key Themes**: Communication, Timeline expectations, Status clarity
 - **Top Finding**: All 5 participants successfully completed all 10 UAT tasks for direct deposit functionality
 - **Impact**: Veterans can successfully view and manage their direct deposit information for …
 - **Path**: `products/identity-personalization/profile/Research/2024-04-direct-deposit-ch33-UAT`
@@ -3941,6 +3966,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-12
 - **Methodology**: Remote moderated interviews (Veterans, Service Members, Caregivers, Dependents, VA Staff)
+- **Key Themes**: Communication, Trust, Navigation, Search
 - **Top Finding**: Veterans wanted more information and/or context in all of their emails (11 of 11)
 - **Path**: `products/va-notify/research/2023-10-Email-Content-Research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-notify/research/2023-10-Email-Content-Research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fva-notify%20Email%20Content)
@@ -3953,7 +3979,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-06
 - **Methodology**: Unmoderated survey, Online survey via browser (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: survey, evaluative, communication, training
+- **Key Themes**: Communication, Language clarity
 - **Top Finding**: Limited Understanding of Contact Update Processes
 - **Impact**: Not explicitly stated in report
 - **Path**: `products/accredited-representation-management/research/2025-06-Email Survey-Cross-Accredited-Reps`
@@ -3965,7 +3991,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-09
 - **Methodology**: Desk research of existing VA research documentation. (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: evaluative
+- **Key Themes**: Communication, Navigation, Mobile, Search
 - **Top Finding**: When implementing policy changes, teams have found that users need benefits and risks of opting in/out clearly and conc…
 - **Impact**: Ensure the content and process are not frustrating or confusing for our users, …
 - **Path**: `products/identity-personalization/profile/Research/2025-09-email-verification-desk-research`
@@ -3977,7 +4003,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: Method 1, Method 2 (Veterans)
-- **Participants**: Veterans
+- **Key Themes**: Navigation, Search
 - **Path**: `products/identity/Products/Production Test Accounts/Research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Products/Production%20Test%20Accounts/Research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fidentity%20Existing%20production)
 - **Files**:
@@ -3989,7 +4015,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2020-05
 - **Methodology**: Remote moderated usability research, Usability testing with mid-fidelity prototypes, Generative questioning (Veterans, Caregivers)
-- **Key Themes**: usability-testing, remote-moderated, generative, VAOS, expr…
+- **Key Themes**: Mobile, Timeline expectations
 - **Top Finding**: All (100%) participants said they would use virtual medical appointments for both routine/pre-scheduled appointments as…
 - **Impact**: Veterans need tools to manage their health effectively, including during uncert…
 - **Path**: `products/health-care/appointments/va-online-scheduling/research/2020-05-express-care-research`
@@ -4011,7 +4037,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2021-08
 - **Methodology**: AB variant test, Analytics tracking via Google Analytics, Feature flag enabled variant for 50% of VA.gov users (Veterans)
-- **Key Themes**: AB-testing, analytics, quantitative, VAOS
+- **Key Themes**: Timeline expectations
 - **Top Finding**: Variant users spent 3 seconds less on the facility selection page compared to control (43 seconds vs 49 seconds)
 - **Impact**: Veterans can select their VA facility faster with less confusion
 - **Path**: `products/health-care/appointments/va-online-scheduling/research/2021-08-facilities-ab-test`
@@ -4024,7 +4050,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2021-03
 - **Methodology**: Method 1, Method 2 (Veterans)
-- **Participants**: Veterans
+- **Key Themes**: Navigation, Search
 - **Path**: `products/Debt Resolution/Financial-Status-Report/research/mar-2021`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/Debt%20Resolution/Financial-Status-Report/research/mar-2021) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2FDebt%20Resolution%202021%20Financial%20Status)
 - **Files**:
@@ -4036,7 +4062,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-10
 - **Methodology**: Remote moderated usability testing, Task-based testing, Scenario-based evaluation (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: usability-testing, moderated-research, remote-research
+- **Key Themes**: Mobile, Navigation, Search, Communication
 - **Top Finding**: Overseas Veterans experience challenges verifying identity at Military Operated Offices
 - **Impact**: Veterans have better experiences across all VA.gov products informed by this re…
 - **Path**: `teams/digital-experience/veteran-support/Contact us page/User research/09-2024 Find help on Contact us`
@@ -4073,7 +4099,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-01
 - **Methodology**: Stakeholder interviews, SME interviews (Veterans)
-- **Key Themes**: Internal Research: Platform Research, Discovery, Stakeholde…
+- **Key Themes**: Evidence submission, Communication, Language clarity, Search
 - **Top Finding**: Documents often come in by mail but can be sent by email (especially from the Philippines), fax, and AskVA. Emails some…
 - **Impact**: Not explicitly specified in report
 - **Path**: `products/health-care/foreign-medical-program/10-7959f-1/research/stakeholders`
@@ -4086,7 +4112,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-06
 - **Methodology**: Semi-structured interviews, Usability testing (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: usability-testing, semi-structured-interviews, evaluative
+- **Key Themes**: Communication, Form complexity, Trust, Navigation
 - **Top Finding**: Applicants are requesting additional clarification and background information for military-related questions on the for…
 - **Path**: `products/accredited-representation-management/research/2025-06-ARM-Form21a-usertest`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/accredited-representation-management/research/2025-06-ARM-Form21a-usertest) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Faccredited-representation-management%20Form%20User)
@@ -4108,7 +4134,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2019-04
 - **Methodology**: Semi-structured discovery interviews, Stakeholder interviews with School Certifying Officials (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: semi-structured-interviews, discovery, stakeholder-research…
+- **Key Themes**: Communication, Search, Language clarity
 - **Top Finding**: School Certifying Officials do not differentiate between main campus, branches and extensions - having a profile page f…
 - **Path**: `products/education-careers/school-comparison-tool/colmery-act-2019/research/apr-2019`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/education-careers/school-comparison-tool/colmery-act-2019/research/apr-2019) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Feducation-careers%20Bill%20Comparison)
@@ -4151,6 +4177,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-08
 - **Methodology**: Methodology not specified (Veterans, Service Members, Caregivers, Dependents, VA Staff)
+- **Key Themes**: Status clarity
 - **Top Finding**: About 45% of sessions starting on VA.gov or MHV home pages move to sign in next
 - **Impact**: Veterans can easily sign in from their preferred entry points
 - **Path**: `products/identity/Research/2024-08 Analytics`
@@ -4173,7 +4200,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: Not specified
 - **Methodology**: Remote moderated interviews, Card sort, Prioritization activity (Veterans)
-- **Key Themes**: moderated-research, remote-research, card-sort, discovery, …
+- **Key Themes**: Evidence submission, Mobile, Communication, Status clarity
 - **Top Finding**: Veterans often need to communicate changes to their medication, allergy, and immunization record. Veterans utilize a va…
 - **Path**: `products/health-care/questionnaire/research/health-record`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/questionnaire/research/health-record) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%202021%20Health%20Record)
@@ -4186,7 +4213,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-05
 - **Methodology**: Semi-structured interviews (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: Accessibility
+- **Key Themes**: Navigation, Search, Evidence submission, Status clarity
 - **Top Finding**: The burden of being a caregiver is heavy. Caregivers who work with their loved ones seemed overwhelmed. Some are able t…
 - **Impact**: Learn about the process of how caregivers are able to complete various tasks an…
 - **Path**: `products/identity/delegate-access /Research`
@@ -4200,7 +4227,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-10
 - **Methodology**: Discovery research, Semi-structured interviews with key informants, Accessibility audits of feedback mechanisms, Secondary research and data analysis, Medallia survey data analysis, Appended questions to existing user research studies (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: accessibility, a11y, feedback, assistive-technology, discov…
+- **Key Themes**: Accessibility, Error handling, Navigation, Search
 - **Top Finding**: Inaccessibility of online digital feedback mechanisms may be preventing some disabled Veterans from using them - 100% (…
 - **Impact**: Disabled Veterans can easily provide accessibility feedback through accessible …
 - **Path**: `teams/digital-experience/ADE/research/2022-10-a11y-feedback`
@@ -4213,7 +4240,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2020-05
 - **Methodology**: Method 1, Method 2 (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Participants**: Veterans, Service Members, Caregivers, Dependents, VA Staff
+- **Key Themes**: Navigation, Search
 - **Path**: `products/identity-personalization/profile/Combine Profile and Account/Research/2020-05-mobile-sub-navigation`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/Combine%20Profile%20and%20Account/Research/2020-05-mobile-sub-navigation) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fidentity-personalization%20zoom%20mobile)
 - **Files**:
@@ -4224,7 +4251,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-03
 - **Methodology**: Semi-structured interviews (SME interviews), Contextual inquiry (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: semi-structured-interviews, discovery, Accessibility
+- **Key Themes**: Navigation, Evidence submission, Search, Error handling
 - **Top Finding**: Feedback on IPP as a Service — Key Finding 1: MHV coordinators displayed positive reactions towards the proposed user f…
 - **Impact**: Not explicitly stated in report
 - **Path**: `products/login.gov-adoption/in-person-proofing/research/2023-12-in-person-proofing-pilot-SME Interviews`
@@ -4238,7 +4265,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-09
 - **Methodology**: unmoderated-usability-testing (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: usability-testing, moderated-research, evaluative
+- **Key Themes**: Language clarity, Error handling
 - **Top Finding**: Participants understand intent to file as an action, but most did not mention the financial benefit
 - **Impact**: 0
 - **Path**: `products/pension/research/2025-09 Intent to File Unmoderated Study`
@@ -4251,7 +4278,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2020-07
 - **Methodology**: semi-structured interviews (Veterans, Service Members)
-- **Key Themes**: discovery, semi-structured-interviews
+- **Key Themes**: Navigation, Evidence submission, Timeline expectations
 - **Top Finding**: The Ask a Query experience was functional for some participants, but others felt frustrated by the design of the form a…
 - **Path**: `products/iris/research/discovery-interviews`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/iris/research/discovery-interviews) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Firis%20IRIS%20Discovery)
@@ -4264,6 +4291,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-06
 - **Methodology**: Secondary research analysis, Medallia survey data analysis, Quantitative and qualitative synthesis (Veterans)
+- **Key Themes**: Navigation
 - **Top Finding**: The largest pain point was Sign In: 88 of 743 responses
 - **Impact**: Improved sign-in experience and easier site navigation
 - **Path**: `products/home-page/research/2024-medallia-feedback`
@@ -4275,7 +4303,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2019
 - **Methodology**: Remote moderated usability testing, Ethnographic interviews, Two-stage usability observation (lightly moderated first stage, structured second stage) (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: usability-testing, evaluative, VAMC, navigation, informatio…
+- **Key Themes**: Navigation, Search
 - **Top Finding**: Users of the current local navigation design cannot easily find content deeper within the site without engaging in pogo…
 - **Path**: `products/information-architecture/research-and-analytics/2019-vamc-navigation/left-nav/research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/information-architecture/research-and-analytics/2019-vamc-navigation/left-nav/research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Finformation-architecture%20Local%20Report)
@@ -4287,6 +4315,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-12
 - **Methodology**: Moderated usability testing, Remote sessions via Zoom, Live Login.gov account creation and identity proofing, Observational study (Veterans, Service Members, Caregivers, Dependents, VA Staff)
+- **Key Themes**: Evidence submission, Error handling, Mobile, Form complexity
 - **Top Finding**: Only 10 of 21 participants successfully created account and proved identity
 - **Impact**: Veterans can successfully create Login.gov accounts and complete identity proof…
 - **Path**: `products/identity/Research/2022-11 Login.gov Remote Identity Proofing`
@@ -4320,7 +4349,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: Method 1, Method 2 (Veterans)
-- **Participants**: Veterans
+- **Key Themes**: Navigation, Search
 - **Path**: `products/combined_fsr/research/medallia_reports`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/combined_fsr/research/medallia_reports) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fcombined_fsr%202024%20Medallia%20Report%3A)
 - **Files**:
@@ -4330,7 +4359,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-10
 - **Methodology**: Medallia survey data analysis, Contact Center feedback analysis, Qualitative content analysis, Thematic categorization (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: Evaluative, Secondary-research, Contact-Center, Medallia
+- **Key Themes**: Navigation, Form complexity, Search, Error handling
 - **Top Finding**: Veterans face blockers that require external support—but sometimes find that help difficult to get
 - **Path**: `products/disability/526ez/research/2023-10-Medallia-Research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/526ez/research/2023-10-Medallia-Research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fdisability%20Medallia%20Share)
@@ -4387,7 +4416,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-10
 - **Methodology**: We conducted contextual inquiry sessions in which we asked participants to navigate a live environment while we observed their behavior, and asked follow-up prompts as needed. (Veterans)
-- **Key Themes**: moderated-research, remote-research
+- **Key Themes**: Error handling, Communication, Language clarity, Navigation
 - **Top Finding**: All participants selected VA Laboratory Results when generating diabetes report, but few selected VA Problem List or VA…
 - **Impact**: Veterans can quickly find specific health information without scrolling through…
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-10-findability-study`
@@ -4401,7 +4430,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-09
 - **Methodology**: semi-structured interviews (Veterans)
-- **Key Themes**: usability-testing, semi-structured-interviews
+- **Key Themes**: Evidence submission, Search, Communication, Navigation
 - **Top Finding**: There are roughly 13 categories of data included as part of medical records today, each pulled individually and possibl…
 - **Impact**: Veterans can easily access and understand their medical records data
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2022-09-informational-interviews`
@@ -4435,7 +4464,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-05
 - **Methodology**: Remote moderated usability testing, Prototype testing (Veterans, Caregivers)
-- **Key Themes**: usability-testing, remote-research, moderated-research
+- **Key Themes**: Navigation, Evidence submission, Search, Communication
 - **Top Finding**: Most participants (15 of 21) were able to find health information in more than 60% of the tasks without assistance. a. …
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2023-05-usability-testing-round-1`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2023-05-usability-testing-round-1) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Medical%20Records)
@@ -4448,7 +4477,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-03
 - **Methodology**: We conducted moderated usability testing interviews in which we asked users to navigate the environment, observed their behavior, and asked follow-up prompts. (Veterans, Dependents)
-- **Key Themes**: usability-testing, semi-structured-interviews, moderated-re…
+- **Key Themes**: Navigation, Timeline expectations, Search, Communication
 - **Top Finding**: All participants found a specific flu shot and most found the facility location for the shot
 - **Impact**: Veterans can easily access and understand their medical records directly withou…
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-03-usability-testing-rd2-at`
@@ -4462,7 +4491,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-08
 - **Methodology**: We conducted moderated usability testing sessions in which we asked participants to navigate a live environment while we observed their behavior, and asked follow-up prompts as needed. (Veterans, Dependents)
-- **Key Themes**: usability-testing, moderated-research, remote-research, Acc…
+- **Key Themes**: Evidence submission, Timeline expectations, Search, Trust
 - **Top Finding**: Most participants found Health Conditions page starting from Medical Records landing page
 - **Impact**: Veterans can find and understand their medical records information to manage th…
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-08-usability-testing-rd3-at`
@@ -4476,7 +4505,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-01
 - **Methodology**: We conducted moderated usability testing sessions in which we asked participants to navigate a live environment while we observed their behavior, and asked follow-up prompts as needed. (Veterans, Dependents)
-- **Key Themes**: usability-testing, moderated-research, Accessibility
+- **Key Themes**: Evidence submission, Communication, Language clarity, Search
 - **Top Finding**: Most participants struggled to understand information pertaining to Medical Records Settings
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2025-01-usability-testing-rd4-at`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2025-01-usability-testing-rd4-at) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Medical%20Records)
@@ -4489,7 +4518,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-11
 - **Methodology**: We conducted moderated usability testing sessions in which we will ask users to navigate both a prototype and a live Codespace environment while we observed their behavior, and asked follow-up prompts as needed. (Veterans)
-- **Key Themes**: usability-testing, moderated-research, remote-research
+- **Key Themes**: Language clarity, Error handling, Navigation, Search
 - **Top Finding**: Participants had mixed understanding of Medications filter options, especially 'Renewal needed before refill'
 - **Impact**: Veterans can efficiently find specific health information using filters across …
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-11-mr-sm-rx-usability-study`
@@ -4503,7 +4532,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-06
 - **Methodology**: Unmoderated prototype testing with A/B/C comparison (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: moderated-research, remote-research
+- **Key Themes**: Form complexity
 - **Top Finding**: Time on task was very similar among the three designs
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-06-IPE-ABC-testing`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-06-IPE-ABC-testing) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Medications%20Product)
@@ -4515,7 +4544,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-10
 - **Methodology**: Remote moderated interviews with coordinators (Veterans)
-- **Key Themes**: semi-structured-interviews, generative, stakeholder-researc…
+- **Key Themes**: Navigation, Communication, Language clarity, Mobile
 - **Top Finding**: Login and navigation pose the biggest challenges to helping Veterans schedule online. The three My HealtheVet Coordinat…
 - **Path**: `products/health-care/appointments/va-online-scheduling/research/2023-10-coordinator-feedback`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/appointments/va-online-scheduling/research/2023-10-coordinator-feedback) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Coordinator%20Interviews)
@@ -4528,7 +4557,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-03
 - **Methodology**: Remote moderated usability testing, Task-based testing, Semi-structured interviews (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: usability-testing, evaluative
+- **Key Themes**: Communication, Trust, Search, Timeline expectations
 - **Top Finding**: 10 out of 19 participants had no other reason to visit the Refill VA Prescriptions page
 - **Path**: `products/health-care/prescription-refills/mhv-prescription-refill/2023-01-pharmacy-drug-image-display/Research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/prescription-refills/mhv-prescription-refill/2023-01-pharmacy-drug-image-display/Research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Drug%20Image)
@@ -4541,7 +4570,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-11
 - **Methodology**: User Acceptance Testing (UAT), Remote usability testing, Task-based testing (Veterans)
-- **Key Themes**: usability-testing, remote-research, UAT, VAOS, appointments…
+- **Key Themes**: Navigation, Search, Language clarity, Timeline expectations
 - **Top Finding**: Most participants struggled with login.
 - **Impact**: Veterans can successfully use new MHV on VA.gov appointments features with impr…
 - **Path**: `products/health-care/appointments/va-online-scheduling/research/2023-11-mhv-on-va-gov-phase-2b-vaos-uat`
@@ -4555,7 +4584,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-10
 - **Methodology**: Moderated usability testing with screen reader users, Remote sessions (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: Accessibility, usability-testing, assistive-technology, scr…
+- **Key Themes**: Error handling, Communication
 - **Top Finding**: Participants had trouble determining if there were attachments
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-09-usability-round3-phase0`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-09-usability-round3-phase0) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Secure%20Messaging)
@@ -4568,7 +4597,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-09
 - **Methodology**: Remote usability testing, Evaluative research (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: usability-testing, Internal Research: Platform Research
+- **Key Themes**: Communication, Error handling, Evidence submission
 - **Top Finding**: All of the participants were more likely to use ID.ME or Login.gov as a secondary credential provider.
 - **Path**: `products/identity/Research/2023-06 Mocked Authentication`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research/2023-06%20Mocked%20Authentication) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fidentity%20Mocked%20Authentication)
@@ -4591,7 +4620,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-07
 - **Methodology**: Moderated usability testing (Veterans)
-- **Key Themes**: usability-testing, evaluative, Accessibility
+- **Key Themes**: Language clarity, Form complexity, Status clarity, Search
 - **Top Finding**: Confusion About Login Options: Several users were confused about the task they were asked to complete and thought they …
 - **Impact**: Use a chatbot with the best UI, best message, best features, easiest to underst…
 - **Path**: `products/virtual-agent/research/2025-07-Chatbot User Testing`
@@ -4605,7 +4634,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-10
 - **Methodology**: Method 1, Method 2 (Veterans, Caregivers, Dependents)
-- **Participants**: Veterans, Caregivers, Dependents
+- **Key Themes**: Navigation, Search
 - **Path**: `products/virtual-agent/research/2025-10-Chatbot User Testing Round 2`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/virtual-agent/research/2025-10-Chatbot%20User%20Testing%20Round%202) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fvirtual-agent%20Moderator%20logistics)
 - **Files**:
@@ -4617,7 +4646,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-04
 - **Methodology**: Unmoderated A/B prototype testing using Optimal Workshop's prototype testing feature. We published two tests: - **Prototype A (form pattern)**: Form pattern (n=383) - **Prototype B (multistep task pattern)**: Task pattern (n=383) (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: moderated-research
+- **Key Themes**: Evidence submission, Status clarity, Search, Navigation
 - **Top Finding**: Veterans frequently clicked on the list view cards to initiate their tasks, rather than using the Start Order action li…
 - **Impact**: Veterans can complete routine tasks like ordering medical supplies more quickly…
 - **Path**: `products/health-care/supply-reordering-tool/research/2025-02 Multistep task pattern research`
@@ -4630,7 +4659,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-03
 - **Methodology**: We conducted remote moderated usability testing on Zoom using real Veteran data behind a feature flag in production. We used this method because: (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: usability-testing, moderated-research, remote-research, Acc…
+- **Key Themes**: Navigation, Search, Form complexity, Language clarity
 - **Top Finding**: All participants had positive reactions to seeing My VA immediately upon login
 - **Impact**: Veterans can quickly access and manage all their VA benefits from a single pers…
 - **Path**: `products/identity-personalization/my-va/2022-audit/research`
@@ -4644,7 +4673,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-03
 - **Methodology**: Methodology not specified (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: usability-testing, evaluative
+- **Key Themes**: Timeline expectations, Status clarity, Communication, Search
 - **Top Finding**: Upon sign in, Veterans expect to see actionable tasks and notifications, that are relevant to them, in a centralized lo…
 - **Impact**: Veterans can easily understand and access personalized, relevant information on…
 - **Path**: `products/identity-personalization/my-va/research/2025-03-secondaryresearch`
@@ -4656,7 +4685,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-01
 - **Methodology**: First, we'll run a **contextual inquiry** by asking participants to access the MHV appointments list and VAOS appointments list, and observe how they use those features. (Veterans)
-- **Key Themes**: usability-testing, concept-testing, comparative-analysis, r…
+- **Key Themes**: Language clarity, Communication, Form complexity
 - **Top Finding**: Participants were most confused that two different sites list their appointments
 - **Impact**: Veterans can easily understand and manage their health care appointments when t…
 - **Path**: `products/health-care/appointments/va-online-scheduling/research/2022-01-mhv-and-vaos-appts-list-discovery`
@@ -4670,7 +4699,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-05
 - **Methodology**: moderated usability testing (Veterans)
-- **Key Themes**: usability-testing, moderated-research, remote-research, eva…
+- **Key Themes**: Navigation, Search, Form complexity, Language clarity
 - **Top Finding**: Participants indicated need to know if providers listed were ones they've seen before and wanted to see provider experi…
 - **Impact**: Veterans can more easily schedule appointments at Oracle Health facilities with…
 - **Path**: `products/health-care/appointments/va-online-scheduling/research/2024-05-oh-scheduling`
@@ -4695,7 +4724,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-05
 - **Methodology**: Semi-structured interviews (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: generative-research, semi-structured-interviews, remote, mo…
+- **Key Themes**: Trust, Communication, Evidence submission, Form complexity
 - **Top Finding**: All Veteran participants were already experiencing adverse financial or medical conditions when they began to seek out …
 - **Impact**: Not explicitly stated in findings report
 - **Path**: `products/pension/research/2025 04 Pension Exploratory Research`
@@ -4709,7 +4738,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-08
 - **Methodology**: analytics-research (Veterans)
-- **Key Themes**: web-analytics, evaluative, product-analytics
+- **Key Themes**: Mobile
 - **Top Finding**: Immediately on release, users started clicking the print button. Desktop users clicked it the most often, and most user…
 - **Path**: `products/health-care/appointments/va-online-scheduling/research/2023-08-print-button-analytics`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/appointments/va-online-scheduling/research/2023-08-print-button-analytics) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Print%20Button)
@@ -4721,7 +4750,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-08
 - **Methodology**: User Acceptance Testing (UAT) (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: uat
+- **Key Themes**: Communication, Error handling
 - **Top Finding**: UAT went smoothly and no changes are needed
 - **Path**: `products/identity-personalization/direct-deposit/Research/2023-08-direct-deposit-UAT`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/direct-deposit/Research/2023-08-direct-deposit-UAT) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fidentity-personalization%20Profile%20Direct)
@@ -4732,7 +4761,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: Methodology not specified (Veterans)
-- **Participants**: Veterans
+- **Key Themes**: Navigation, Search
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/prior-research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/prior-research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Questions%20Coordinators)
 - **Files**:
@@ -4752,7 +4781,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-12
 - **Methodology**: In-person usability testing, Task-based testing (Veterans)
-- **Key Themes**: usability-testing, evaluative
+- **Key Themes**: Status clarity, Communication, Language clarity
 - **Top Finding**: 5 out of 11 participants opened the Refill status tag, while 7 referenced its contents. Of the 5 who opened the tag, 3 …
 - **Path**: `products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/Discovery`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/Discovery) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%202022%20Refill%20Status)
@@ -4763,6 +4792,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-12
 - **Methodology**: In-person moderated usability testing (Veterans, Service Members, Caregivers, Dependents, VA Staff)
+- **Key Themes**: Status clarity, Communication, Evidence submission
 - **Top Finding**: 5 out of 11 participants opened the Refill status tag while 7 referenced its contents indicating that content is helpfu…
 - **Impact**: Veterans can easily understand their prescription statuses and take appropriate…
 - **Path**: `products/health-care/prescription-refills/mhv-prescription-refill/2022-medication-refill-statuses/Research`
@@ -4788,7 +4818,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2021-05
 - **Methodology**: Usability testing, Semi-structured interviews, Prototype testing, Moderated research (Veterans)
-- **Key Themes**: usability-testing, prototype-testing, remote-moderated, VAO…
+- **Key Themes**: Navigation, Search, Timeline expectations, Communication
 - **Top Finding**: When choosing care, participants wanted to know what was nearby, more than where they were registered.
 - **Impact**: Veterans have clearer understanding of facility registration and can more easil…
 - **Path**: `products/health-care/appointments/va-online-scheduling/research/2021-05-facilities-personalization-research`
@@ -4812,6 +4842,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-04
 - **Methodology**: Moderated remote user testing, Zoom sessions, Three different prototypes of My VA created in CodePen (Veterans, Service Members, Caregivers, Dependents, VA Staff)
+- **Key Themes**: Status clarity, Communication, Search
 - **Top Finding**: The badge indicator was the preferred method of communicating healthcare updates on My VA, as opposed to dot indicators…
 - **Impact**: Veterans receive clear, timely notifications about important updates that requi…
 - **Path**: `products/identity-personalization/onsite-notifications/dot-indicator/research/2024-03 Dot Indicator and Slim Alert Usability Study`
@@ -4824,6 +4855,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-04
 - **Methodology**: Survey questionnaire, Typeform platform survey, Email and MS Teams distribution (Veterans, Service Members, Caregivers, Dependents, VA Staff)
+- **Key Themes**: Evidence submission, Timeline expectations, Search
 - **Top Finding**: 1 out 5 participants observed a somewhat improvement in the quality of time spent with Veterans during the pilot dates.…
 - **Impact**: Providers experience reduced burden from clinical reminder data entry and notif…
 - **Path**: `products/health-care/questionnaire/research/2024-04-clinincal-reminders-PCP`
@@ -4847,7 +4879,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-07
 - **Methodology**: 1:1 brief intercept interviews, with each day focusing on a different set of questions. (Veterans)
-- **Key Themes**: intercept-interviews, surveys, discovery, generative
+- **Key Themes**: Status clarity, Communication, Trust
 - **Top Finding**: For updates on tools, CVSOs pay more attention to news from state associations and Regional Offices (RO) over other cha…
 - **Path**: `products/accredited-representative-facing/research/2025-07 NACVSO Intercept interviews and survey`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/accredited-representative-facing/research/2025-07%20NACVSO%20Intercept%20interviews%20and%20survey) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Faccredited-representative-facing%202025%20Plan%20Conversation)
@@ -4859,7 +4891,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: [e.g., usability testing, semi-structured interviews, card sort] (Veterans, Caregivers, Service Members)
-- **Key Themes**: usability-testing, decision-reviews, notice-of-disagreement…
+- **Key Themes**: Evidence submission, Navigation, Search, Error handling
 - **Top Finding**: Several participants have submitted a board appeal before. Their experiences varied from pretty easy to a very frustrat…
 - **Impact**: Veterans can successfully submit a Notice of Disagreement appeal without confus…
 - **Path**: `products/decision-reviews/Notice-of-Disagreement/Research/032021-NOD-usability`
@@ -4872,7 +4904,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: [e.g., usability testing, semi-structured interviews, card sort] (Veterans, Caregivers, Dependents)
-- **Key Themes**: usability-testing, evaluative, cognitive, plain-language, f…
+- **Key Themes**: Trust, Communication
 - **Top Finding**: Launching the guide is not intuitive
 - **Impact**: Veterans can confidently select the appropriate decision review pathway for the…
 - **Path**: `products/decision-reviews/research/decision-reviews-onramp-2025`
@@ -4901,7 +4933,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: [e.g., usability testing, semi-structured interviews, card sort] (Veterans, Caregivers, Dependents)
-- **Key Themes**: usability-testing, user-acceptance-testing, evaluative
+- **Key Themes**: Navigation, Evidence submission, Language clarity, Trust
 - **Top Finding**: UI is intuitive and usable, but critical flow and navigation improvements will reduce friction. Overall, testing proved…
 - **Impact**: Veterans can successfully file travel reimbursement claims with attachments on …
 - **Path**: `products/health-care/beneficiary-travel/research/2025-12 Complex Claims UAT`
@@ -4934,7 +4966,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: [e.g., usability testing, semi-structured interviews, card sort] (Veterans, Caregivers, Dependents)
-- **Key Themes**: usability-testing, evaluative
+- **Key Themes**: Navigation, Search
 - **Top Finding**: Users did not read the terms and conditions and tried to click the agree button/checkbox immediately without scrolling
 - **Path**: `products/identity/login/mhv/mhv-account-creation_2017/research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/login/mhv/mhv-account-creation_2017/research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fidentity%20Plan%20%5BTeam%2C)
@@ -4946,6 +4978,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-03
 - **Methodology**: [e.g., usability testing, semi-structured interviews, card sort] (Veterans, Caregivers, Dependents)
+- **Key Themes**: Evidence submission, Loading performance
 - **Top Finding**: In-Person Identity Proofing is simple and straightforward - all participants and VA staff commented positively on ease …
 - **Impact**: Veterans can verify their identity in person at VA facilities with a simple, se…
 - **Path**: `products/login.gov-adoption/in-person-proofing/research/2024-03_Pilot`
@@ -5044,7 +5077,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2023-05
 - **Methodology**: Usability testing (Veterans, Caregivers, Dependents)
-- **Key Themes**: usability-testing, remote-research, evaluative
+- **Key Themes**: Communication, Navigation, Evidence submission
 - **Top Finding**: Most participants said they prefer the new CST design to the current design. In particular, they prefer the layout and …
 - **Path**: `products/claim-appeal-status/research/2023-05-Evidence-Submission`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/claim-appeal-status/research/2023-05-Evidence-Submission) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fclaim-appeal-status%202023%20Plan%20Benefits)
@@ -5085,7 +5118,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: 1. Remote moderated ethnographic interviews combined with open (not directed) usability testing of existing websites and tools, both official and non-official. In person field research journey map interviews with school certifying officials (SCOs) to flesh out the process. (Veterans, Service Members)
-- **Participants**: Veterans, Service Members
+- **Key Themes**: Navigation, Search
 - **Path**: `products/education-careers/research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/education-careers/research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Feducation-careers%202019%20Plan%20Education)
 - **Files**:
@@ -5096,7 +5129,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-06
 - **Methodology**: unmoderated usability testing (Veterans, Caregivers, Dependents)
-- **Key Themes**: AUD-Veterans, PRDT-10-10EZ, PRDT-Health-Enrollment, DSP-Tas…
+- **Key Themes**: Navigation, Status clarity, Communication
 - **Top Finding**: Slight preference for the task list pattern over the traditional form flow was reported by participants
 - **Impact**: Improved Application Completion Rate, Increased User Satisfaction, Reduced Aban…
 - **Path**: `products/health-care/application/va-application/research/2025-06-Task List and Traditional Form Unmoderated`
@@ -5253,6 +5286,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-02
 - **Methodology**: remote usability testing and interviews (Veterans, Caregivers, Dependents)
+- **Key Themes**: Communication
 - **Top Finding**: All participants mentioned having notes, doing mental checks, or checking inventories to track when they need to reorde…
 - **Impact**: Evaluate and improve medical supply reordering tool before adding more supplies
 - **Path**: `products/health-care/supply-reordering-tool/research/2024-03-Supply-Reordering-Research`
@@ -5266,7 +5300,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2021-12
 - **Methodology**: controlled experimental study (Veterans)
-- **Key Themes**: evaluative, unmoderated, Accessibility
+- **Key Themes**: Trust, Language clarity
 - **Top Finding**: The chatbot was rated as being fairly accurate, although the level of accuracy left some participants feeling frustrate…
 - **Path**: `products/virtual-agent/research/controlled-study`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/virtual-agent/research/controlled-study) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fvirtual-agent%202021%20Plan%20Virtual)
@@ -5298,7 +5332,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2021-11
 - **Methodology**: **Task analysis** (Veterans, Caregivers)
-- **Key Themes**: usability-testing, evaluative
+- **Key Themes**: Timeline expectations, Evidence submission, Communication
 - **Top Finding**: The majority of participants feel that this flow is much quicker and easier than they expected
 - **Path**: `products/health-care/application/va-application/research/2021-11-short-form-usability`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/research/2021-11-short-form-usability) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Plan%3A%20Caregiver%2C)
@@ -5334,6 +5368,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-01
 - **Methodology**: Methodology not specified (Veterans, Dependents)
+- **Key Themes**: Navigation, Search
 - **Top Finding**: SEP is intended for three user types: VSO representatives, attorneys, and claims agents (three additional portals were …
 - **Impact**: Accredited representatives will transition from SEP to ARP with equivalent or i…
 - **Path**: `products/accredited-representative-facing/research/2024-01 Current State Analysis`
@@ -5345,7 +5380,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: Not specified
 - **Methodology**: Semi-structured interviews, Stakeholder interviews (Veterans)
-- **Key Themes**: semi-structured-interviews, stakeholder-research, discovery…
+- **Key Themes**: Navigation, Evidence submission, Search, Communication
 - **Top Finding**: Finding 1: Documents often come in by mail but can be sent by email (especially from the Philippines), fax, and AskVA.
 - **Path**: `products/health-care/foreign-medical-program/10-7959f-2/research/stakeholders`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/foreign-medical-program/10-7959f-2/research/stakeholders) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Service%20Blueprint)
@@ -5368,6 +5403,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-08
 - **Methodology**: Remote usability testing, Prototype testing, Evaluative research (Veterans, Service Members, Caregivers, Dependents, VA Staff)
+- **Key Themes**: Timeline expectations, Error handling, Communication, Mobile
 - **Top Finding**: Most participants were already prepared for the credential change
 - **Impact**: Veterans successfully transition from MHV credential to modern credential with …
 - **Path**: `products/identity/Research/2024-08 Sign in transition`
@@ -5391,7 +5427,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: YYYY-MM-DD
 - **Methodology**: Methodology not specified (Veterans)
-- **Key Themes**: usability-testing
+- **Key Themes**: Navigation, Search
 - **Path**: `products/health-care/application/vets-application/research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/vets-application/research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20STACEY)
 - **Files**:
@@ -5411,7 +5447,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-05
 - **Methodology**: Usability testing, Task-based testing, Prototype testing, 60-minute moderated interviews (Veterans)
-- **Key Themes**: usability-testing, evaluative, claim-status
+- **Key Themes**: Status clarity, Evidence submission, Communication
 - **Top Finding**: All participants struggled to identify partial payment decisions on the Status page
 - **Path**: `products/health-care/beneficiary-travel/research/2025-05-Travel Claim Management Usability`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel/research/2025-05-Travel%20Claim%20Management%20Usability) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Travel%20Claim)
@@ -5424,7 +5460,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-00
 - **Methodology**: Video interviews via Zoom, Counterbalanced prototype study that switches the order of the prototype versions (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Participants**: Veterans, Service Members, Caregivers, Dependents, VA Staff
+- **Key Themes**: Evidence submission, Loading performance, Language clarity
 - **Path**: `products/health-care/beneficiary-travel/research/08-2025--Travel Complex Claims Concept Study`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel/research/08-2025--Travel%20Complex%20Claims%20Concept%20Study) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Travel%20Complex)
 - **Files**:
@@ -5447,6 +5483,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-09
 - **Methodology**: unmoderated card sort survey (Veterans)
+- **Key Themes**: Status clarity, Communication, Mobile
 - **Top Finding**: Over 80% of participants deemed a clear set of appointment information as 'extremely important' or 'very important': Ty…
 - **Impact**: Veterans can quickly identify the most important information when checking in f…
 - **Path**: `products/health-care/checkin/research/2022-09-checkin-appointment-info-prioritization`
@@ -5459,6 +5496,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2022-09
 - **Methodology**: unmoderated card sort survey (Veterans)
+- **Key Themes**: Communication, Status clarity
 - **Top Finding**: When analyzing the 'extremely important' or 'very important' appointment information for pre-check-in, there weren't cl…
 - **Impact**: Veterans can review the most important information when confirming their appoin…
 - **Path**: `products/health-care/checkin/research/2022-09-precheckin-appointment-info-prioritization`
@@ -5471,7 +5509,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2020-10
 - **Methodology**: Remote moderated usability testing, High-fidelity wireframe prototype testing (Veterans, Family Members)
-- **Key Themes**: usability-testing, moderated-research, remote-research
+- **Key Themes**: Communication, Timeline expectations, Navigation, Search
 - **Top Finding**: Nurses, who normally ask intake questions, are less (or not at all) involved in virtual appointments.
 - **Path**: `products/health-care/questionnaire/research/mvp-usability`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/questionnaire/research/mvp-usability) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%202020%20Upcoming%20Appointment)
@@ -5484,7 +5522,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2019-06
 - **Methodology**: Remote moderated usability testing, Ethnographic interviews, Two task sequences: find facility and confirm eligibility (order alternated between participants) (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: Initiative: Mission Act, usability-testing, evaluative, com…
+- **Key Themes**: Navigation, Search, Form complexity, Trust
 - **Top Finding**: Users cannot find an urgent care facility in an efficient fashion, if at all
 - **Path**: `products/health-care/community-care/urgent-care/research/jun-2019`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/community-care/urgent-care/research/jun-2019) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fhealth-care%20Urgent%20Care)
@@ -5528,7 +5566,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-03
 - **Methodology**: Methodology not specified (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: usability-testing, evaluative
+- **Key Themes**: Evidence submission, Communication, Timeline expectations
 - **Top Finding**: Veterans want VA.gov to be a 'one-stop shop' for all their personal information and documents.
 - **Impact**: Report of user themes and opportunities for the Authenticated Experience team.
 - **Path**: `products/identity-personalization/profile/Research/2025-03-profile-secondary-research`
@@ -5540,7 +5578,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2021-08
 - **Methodology**: Remote moderated directed interviews, Remote moderated usability testing (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: usability-testing, semi-structured-interviews, evaluative
+- **Key Themes**: Timeline expectations, Communication
 - **Top Finding**: Most participants would consider signing in with Login.gov but were hesitant to do so without more information on what …
 - **Path**: `products/identity/Research/login.gov`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research/login.gov) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fidentity%20VA.gov%20Sign-in%2FLogin.gov)
@@ -5553,7 +5591,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2020-07
 - **Methodology**: Remote moderated usability testing, Usability research (Veterans, Family Members)
-- **Key Themes**: usability-testing, evaluative, remote-moderated, VAOS, expr…
+- **Key Themes**: Search, Communication, Language clarity, Form complexity
 - **Top Finding**: Overall, both VAOSR and Express Care were well received by most of the Veterans who interacted with each product, respe…
 - **Impact**: Veterans have better understanding of appointment scheduling vs requesting, imp…
 - **Path**: `products/health-care/appointments/va-online-scheduling/research/2020-07-vaos-mvp-and-express-care-user-research`
@@ -5599,7 +5637,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2025-01
 - **Methodology**: Secondary research, Data analysis, Document review (Veterans, Dependents)
-- **Key Themes**: secondary-research, landscape-analysis, discovery
+- **Key Themes**: Evidence submission, Form complexity
 - **Top Finding**: There are about 80 VSOs, with 23 of those being National VSO, 55 being State/Territory/Tribe.
 - **Impact**: VSO representatives will have portal workflows that accommodate centralized and…
 - **Path**: `products/accredited-representative-facing/research/2025-01 VSO Landscape Summary`
@@ -5621,6 +5659,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-02
 - **Methodology**: Listening session (1/23/24) with approximately 50 invited accredited representatives, Poll Everywhere for demographic and behavioral questions (limited to 25 responses), Open-ended questions with upvote/downvote functionality, Collaborative organization with VBA (Marty Caraway, Ray Tellez, Paul Shute) (Veterans, Service Members)
+- **Key Themes**: Loading performance, Evidence submission, Accessibility
 - **Top Finding**: Power of Attorney (POA) process top need: Immediate access to VBMS including Veteran's eFolder and files within it (13 …
 - **Impact**: VSO representatives get immediate VBMS access upon accepting POA; faster claim …
 - **Path**: `products/accredited-representative-facing/research/2024-01 Listening Session`
@@ -5632,7 +5671,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-12
 - **Methodology**: semi-structured-interviews (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: semi-structured-interviews, moderated-research, remote-rese…
+- **Key Themes**: Communication, Form complexity, Timeline expectations
 - **Top Finding**: Pension-eligible Veterans typically contact VSOs when they are already in dire financial need, potentially missing out …
 - **Impact**: Veterans and families can more easily learn about, apply for, receive, and main…
 - **Path**: `products/pension/research/2024-09 527EZ VSO Research`
@@ -5645,7 +5684,7 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 
 - **Date**: 2024-08
 - **Methodology**: Remote moderated usability testing, Semi-structured interviews, Prototype testing (Figma) (Veterans, Service Members, Caregivers, Dependents, VA Staff)
-- **Key Themes**: usability-testing, remote-research
+- **Key Themes**: Communication
 - **Top Finding**: Engagement during out-processing varied.
 - **Impact**: Not explicitly stated in the report
 - **Path**: `products/veteran-onboarding/research/2024`

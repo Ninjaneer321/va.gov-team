@@ -1,6 +1,6 @@
 {
   "description": "Sample extractions with source YAML for manual review",
-  "generated": "2026-04-13T19:57:54.398Z",
+  "generated": "2026-04-15T20:20:00.586Z",
   "sample_count": 10,
   "samples": [
     {
@@ -9,32 +9,32 @@
       "source_file": "products/21-2680/research/2026-02-medical-provider-research/research-findings.md",
       "source_frontmatter": {
         "key_findings": [
-          "Most participants who were filling out 21-2680 for someone else (e.g., a parent they give care to) did not correctly choose the \"claimant\" for the form. Only one participant realized the error before submitting the form. Supporting quotes:\n- \"Claimants information. My relationship to the Veteran. If I was applying for my dad I'd be a Veteran's child. If I was applying for myself I'd be a Veteran.\"\n- \"At first I was going to say Veteran. But then I would look at it as myself if I was filing this out. I'm the claimant. I looked and I thought I could put Veteran but I got confused if its looking at it as myself if I was filing that out for my dad.\"\n- \"That's the person that's making the file. That's, you know, that's putting in the information. Because if I'm filling that for myself, then I will be the veteran, but if I'm filling it out for my dad...\"\n",
-          "Most participants struggled to understand the difference between Special Monthly Compensation and Special Monthly Pension, the two benefits described by this form, and found it difficult to make a selection",
-          "Most participants had one or more issues understanding the two-step process involved in the current implementation of the \"online\" version of 2680, which requires a manual handoff to a medical provider",
-          "Some participants struggled to begin the application process, either because they didn't see how to begin or were confused as to whether this benefit would apply to them",
-          "Most participants were confused by the order of the instructions on the confirmation page, or were looking for more clarity",
-          "Almost all participants struggled with the definition of the term \"hospital care\"",
-          "In some ways, the PDF was easier to use or understand because everything is exposed at once. Supporting quote:\n- \"It almost helps to see the [paper] form. It answers a lot more questions than before I saw the [paper] form.\"\n",
-          "A core issue determining participants' experience is the their relationship with their medical provider. Participants with positive provider relationships felt this benefit would be accessible to them. Participants who had negative provider relationships felt a high burden in the provider handoff. Participants who were confident their provider could fill this out based on medical records have a much lower burden than those who need to go into the office for an exam. Supporting quote:\n- \"I feel like it would be easier to send my 2,000-plus medical record to an outside doctor, and have them fill this out and upload it, than it would be for me to have my VA doctor do it, and that's [...]\"\n",
-          "Supporting quote: \"If they are giving benefits for people that are housebound and can't get out [of the house] but to get the benefits you have to get out [of the house]. Let me tell you, brother, it's no picnic.\"\n"
+          "Most participants who were filling out 21-2680 for someone else (e.g., a parent they give care to) did not correctly choose the \"claimant\" for the form. Only one participant realized the error before submitting. Participant interpretations of \"claimant\" included: \"Claimants information. My relationship to the Veteran. If I was applying for my dad I'd be a Veteran's child. If I was applying for myself I'd be a Veteran.\" Many confused \"claimant\" to mean \"person filling out the form\" rather than \"person in need of care.\"\n",
+          "Most participants struggled to understand the difference between Special Monthly Compensation and Special Monthly Pension, the two benefits described by this form, and found it difficult to make a decision about which benefit applied to them. Some figured it out by process of elimination if they did not receive pension already.\n",
+          "Most participants had one or more issues understanding the two-step process involved in the current implementation of the \"online\" version of 2680, which requires a manual handoff to a medical provider. Despite existing instructions, several participants struggled to understand what they needed to do specifically or how they might get the form to a doctor.\n",
+          "Some participants struggled to begin the application process, either because they didn't see how to begin or were confused as to whether this benefit would apply to them. Some saw the Intro page as instructions but not necessarily the \"starting point\" for the form.\n",
+          "Almost all participants struggled with the definition of the term \"hospital care.\" The term meant different things to participants, including being hospitalized, receiving medication, outpatient care, and receiving care at home.\n",
+          "Most participants thought it would be easier if the entire form was digitized, rather than just the claimant half. They didn't necessarily know how they might get the form to a doctor or gave feedback that printing might be a challenge, especially given wet signature requirements.\n",
+          "In some ways, the PDF was easier to use or understand because everything is exposed at once. Participants had \"aha\" moments of clarity when they viewed the full PDF version, which helped them understand the overall process better.\n",
+          "A core issue determining participants' experience is their relationship with their medical provider. Participants with positive provider relationships felt this benefit would be accessible to them. Participants who had negative provider relationships or needed to schedule an office visit for an exam felt a high burden in the provider handoff.\n"
         ],
         "tags": [
           "usability-testing",
           "semi-structured-interviews",
-          "evaluative"
+          "evaluative",
+          "form-design"
         ],
         "outcomes": {
-          "user": "Veterans, dependents, and caregivers understand the 21-2680 form process, correctly identify themselves as claimants, understand the two-step process with provider handoff, and can successfully complete and submit their portion of the form\n",
-          "business": "Reduce error rates in claimant information, improve form submission quality, decrease processing time through fewer rejections, and increase adoption of the digital form over paper submissions\n"
+          "user": "Veterans, dependents, and caregivers understand the 21-2680 form process, correctly identify themselves as claimants, understand the two-step process with provider handoff, and can successfully complete the claimant portion of the form with confidence",
+          "business": "Reduce error rates in claimant information, improve form submission quality, decrease processing time through fewer rejections, and increase adoption of the digital form over paper submissions"
         }
       },
       "extracted": {
-        "key_themes": "usability-testing, semi-structured-interviews, evaluative",
+        "key_themes": "Evidence submission, Error handling, Communication",
         "top_finding": "Most participants who were filling out 21-2680 for someone else (e.g., a parent they give care to) did not correctly ch…",
         "impact": "Veterans, dependents, and caregivers understand the 21-2680 form process, corre…",
         "source_file": "products/21-2680/research/2026-02-medical-provider-research/research-findings.md",
-        "extraction_method": "yaml-frontmatter"
+        "extraction_method": "keywords"
       }
     },
     {
@@ -65,11 +65,33 @@
         }
       },
       "extracted": {
-        "key_themes": "usability-testing, remote-sessions, Accessibility",
+        "key_themes": "Navigation, Form complexity, Search, Timeline expectations",
         "top_finding": "All nine respondents indicated that they were interested in exploring educational opportunities",
         "impact": null,
         "source_file": "products/Comparison Tool Enhancements/research/GIBCT_Specialized Mission Filter_govcio-vfep_Research Findings.md",
-        "extraction_method": "yaml-frontmatter"
+        "extraction_method": "keywords"
+      }
+    },
+    {
+      "study_path": "products/Debt Resolution/Financial-Status-Report/research/mar-2021",
+      "study_name": "Financial Status Report MVP Usability, March 2021",
+      "source_file": "products/Debt Resolution/Financial-Status-Report/research/mar-2021/readout.md",
+      "source_frontmatter": {
+        "key_findings": [
+          "Finding 1",
+          "Finding 2"
+        ],
+        "outcomes": {
+          "user": "Desired user outcome",
+          "business": "Desired business outcome"
+        }
+      },
+      "extracted": {
+        "key_themes": "Navigation, Search",
+        "top_finding": null,
+        "impact": null,
+        "source_file": "products/Debt Resolution/Financial-Status-Report/research/mar-2021/readout.md",
+        "extraction_method": "keywords"
       }
     },
     {
@@ -92,11 +114,11 @@
         ]
       },
       "extracted": {
-        "key_themes": "usability-testing, semi-structured-interviews, remote-resea…",
+        "key_themes": "Search, Trust, Language clarity, Navigation",
         "top_finding": "Veterans main goal for getting a representative is to aid in fast, comprehensive, successful filing of their claims. Wh…",
         "impact": null,
         "source_file": "products/accredited-representation-management/research/2023-11-ARM-findarep-nav-usertest/research-findings.md",
-        "extraction_method": "yaml-frontmatter"
+        "extraction_method": "keywords"
       }
     },
     {
@@ -117,11 +139,11 @@
         "tags": []
       },
       "extracted": {
-        "key_themes": null,
+        "key_themes": "Accessibility, Evidence submission, Navigation, Search",
         "top_finding": "Demographics of Veterans with a representative closely match the overall Veteran population, except in race, where Blac…",
         "impact": null,
         "source_file": "products/accredited-representation-management/research/2023-12-ARM-analytics/research-findings.md",
-        "extraction_method": "yaml-frontmatter"
+        "extraction_method": "keywords"
       }
     },
     {
@@ -149,11 +171,11 @@
         }
       },
       "extracted": {
-        "key_themes": "usability-testing, semi-structured-interviews, remote-resea…",
+        "key_themes": "Form complexity, Error handling, Search, Trust",
         "top_finding": "Veterans seek representatives for claims expertise, avoiding filing errors, peer recommendations, and time efficiency i…",
         "impact": "Veterans understand different representative options and can confidently appoin…",
         "source_file": "products/accredited-representation-management/research/2024-01-ARM-appointarep-usertest/research-findings.md",
-        "extraction_method": "yaml-frontmatter"
+        "extraction_method": "keywords"
       }
     },
     {
@@ -181,11 +203,11 @@
         }
       },
       "extracted": {
-        "key_themes": "usability-testing, remote-research, semi-structured-intervi…",
+        "key_themes": "Timeline expectations, Communication, Navigation, Search",
         "top_finding": "Form start expectations: Users easily missed non-digital submission information; wanted clear upfront instructions and …",
         "impact": "Family members and caregivers can confidently appoint appropriate representatio…",
         "source_file": "products/accredited-representation-management/research/2024-02-appointarep-unauth-usertest/research-findings.md",
-        "extraction_method": "yaml-frontmatter"
+        "extraction_method": "keywords"
       }
     },
     {
@@ -213,11 +235,11 @@
         }
       },
       "extracted": {
-        "key_themes": "usability-testing, remote-research, Accessibility",
+        "key_themes": "Navigation, Search, Communication, Trust",
         "top_finding": "Navigation challenging: Unless searching 'VSO' or 'veteran service officer' users struggled to find tool (average 1 min…",
         "impact": "Veterans can easily find and contact appropriate accredited representatives in …",
         "source_file": "products/accredited-representation-management/research/2024-03-ARM-findarep-live-usertest/research-findings.md",
-        "extraction_method": "yaml-frontmatter"
+        "extraction_method": "keywords"
       }
     },
     {
@@ -243,11 +265,11 @@
         }
       },
       "extracted": {
-        "key_themes": "semi-structured-interviews, remote-research",
+        "key_themes": "Language clarity, Trust, Search, Timeline expectations",
         "top_finding": "Participants frequently lacked understanding of representatives, what they do, and how they fit into VA processes, dire…",
         "impact": "Veterans and caregivers can find, select, and work with accredited representati…",
         "source_file": "products/accredited-representation-management/research/2024-04-ARM-veteran-representative-experience-interviews/research-findings.md",
-        "extraction_method": "yaml-frontmatter"
+        "extraction_method": "keywords"
       }
     },
     {
@@ -276,41 +298,11 @@
         }
       },
       "extracted": {
-        "key_themes": "usability-testing, remote-research, moderated-research, eva…",
+        "key_themes": "Navigation, Search, Evidence submission, Form complexity",
         "top_finding": "Participants were split on whether they would adopt the tools, leading to definition of new audiences for ARM - 3 would…",
         "impact": "Veterans can successfully find and digitally appoint accredited representatives…",
         "source_file": "products/accredited-representation-management/research/2024-06-ARM-appointarep-digitalsubmit-usertest/research-findings.md",
-        "extraction_method": "yaml-frontmatter"
-      }
-    },
-    {
-      "study_path": "products/accredited-representation-management/research/2024-08-ARM-appointarep-crossaccreditedVSOR-usertest",
-      "study_name": "Conversation Guide for ARM Team, Appoint a Representative - Cross-Accredited VSOR - User Test, August 2024",
-      "source_file": "products/accredited-representation-management/research/2024-08-ARM-appointarep-crossaccreditedVSOR-usertest/research-findings.md",
-      "source_frontmatter": {
-        "key_findings": [
-          "VSOR workflows and policies change state to state and county to county, including which VSOs they can be accredited with, who they can support, engagement with VA and Veterans, and technology used",
-          "Processes within and outside of VA are poorly documented and circulated, with some VSORs unaware of forms like VA Form 21-0972 that allow non-Veterans to sign on behalf of Veterans",
-          "Unified processes like NACVSO Continuous Education Unit training and state affiliations with national VSOs were praised as time-savers that allow more efficient Veteran support",
-          "VSORs had mostly positive feedback about ARM features except for two key needs: ability to show only VSOs they support POA with, and ability to organize representatives by office rather than individual",
-          "VSORs saw value in instant POA submission from VA.gov but have continued need for ability to start POA from ARP, as 20-70% of their audience is willing and capable of filling out forms online while older or less tech-savvy Veterans need VSOR assistance"
-        ],
-        "tags": [
-          "semi-structured-interviews",
-          "moderated-research",
-          "remote-research"
-        ],
-        "outcomes": {
-          "user": "Cross-accredited VSORs can efficiently manage POA requests across multiple organizations with clear understanding of their responsibilities and limitations, while Veterans can successfully submit POA requests to appropriate representatives",
-          "business": "ARM and ARP tools support varied VSOR workflows across states and counties, enabling efficient POA processing and reducing manual verification steps"
-        }
-      },
-      "extracted": {
-        "key_themes": "semi-structured-interviews, moderated-research, remote-rese…",
-        "top_finding": "VSOR workflows and policies change state to state and county to county, including which VSOs they can be accredited wit…",
-        "impact": "Cross-accredited VSORs can efficiently manage POA requests across multiple orga…",
-        "source_file": "products/accredited-representation-management/research/2024-08-ARM-appointarep-crossaccreditedVSOR-usertest/research-findings.md",
-        "extraction_method": "yaml-frontmatter"
+        "extraction_method": "keywords"
       }
     }
   ]

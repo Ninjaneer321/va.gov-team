@@ -1,1736 +1,1930 @@
 {
   "metadata": {
-    "generated": "2026-04-15T17:24:04.625Z",
+    "generated": "2026-04-15T20:20:00.584Z",
     "studies_processed": 709,
     "studies_with_findings_files": 311,
     "studies_files_found": 311,
     "studies_with_frontmatter": 273,
-    "studies_extracted_from_frontmatter": 246,
+    "studies_extracted_from_frontmatter": 273,
     "studies_missing_frontmatter": 34,
-    "extraction_method": "yaml-frontmatter"
+    "extraction_method": "hybrid",
+    "extraction_counts": {
+      "llm": 0,
+      "keywords": 268,
+      "filtered": 1
+    }
   },
   "studies": {
     "products/21-2680/research/2026-02-medical-provider-research": {
-      "key_themes": "usability-testing, semi-structured-interviews, evaluative, …",
+      "key_themes": "Evidence submission, Error handling, Communication",
       "top_finding": "Most participants who were filling out 21-2680 for someone else (e.g., a parent they give care to) did not correctly ch…",
       "impact": "Veterans, dependents, and caregivers understand the 21-2680 form process, corre…",
       "source_file": "products/21-2680/research/2026-02-medical-provider-research/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/Comparison Tool Enhancements/research": {
-      "key_themes": "usability-testing, remote-sessions, Accessibility",
+      "key_themes": "Navigation, Form complexity, Search, Timeline expectations",
       "top_finding": "All nine respondents indicated that they were interested in exploring educational opportunities",
       "impact": null,
       "source_file": "products/Comparison Tool Enhancements/research/GIBCT_Specialized Mission Filter_govcio-vfep_Research Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "products/Debt Resolution/Financial-Status-Report/research/mar-2021": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/Debt Resolution/Financial-Status-Report/research/mar-2021/readout.md",
+      "extraction_method": "keywords"
     },
     "products/accredited-representation-management/research/2023-11-ARM-findarep-nav-usertest": {
-      "key_themes": "usability-testing, semi-structured-interviews, remote-resea…",
+      "key_themes": "Search, Trust, Language clarity, Navigation",
       "top_finding": "Veterans main goal for getting a representative is to aid in fast, comprehensive, successful filing of their claims. Wh…",
       "impact": null,
       "source_file": "products/accredited-representation-management/research/2023-11-ARM-findarep-nav-usertest/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representation-management/research/2023-12-ARM-analytics": {
-      "key_themes": null,
+      "key_themes": "Accessibility, Evidence submission, Navigation, Search",
       "top_finding": "Demographics of Veterans with a representative closely match the overall Veteran population, except in race, where Blac…",
       "impact": null,
       "source_file": "products/accredited-representation-management/research/2023-12-ARM-analytics/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representation-management/research/2024-01-ARM-appointarep-usertest": {
-      "key_themes": "usability-testing, semi-structured-interviews, remote-resea…",
+      "key_themes": "Form complexity, Error handling, Search, Trust",
       "top_finding": "Veterans seek representatives for claims expertise, avoiding filing errors, peer recommendations, and time efficiency i…",
       "impact": "Veterans understand different representative options and can confidently appoin…",
       "source_file": "products/accredited-representation-management/research/2024-01-ARM-appointarep-usertest/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representation-management/research/2024-02-appointarep-unauth-usertest": {
-      "key_themes": "usability-testing, remote-research, semi-structured-intervi…",
+      "key_themes": "Timeline expectations, Communication, Navigation, Search",
       "top_finding": "Form start expectations: Users easily missed non-digital submission information; wanted clear upfront instructions and …",
       "impact": "Family members and caregivers can confidently appoint appropriate representatio…",
       "source_file": "products/accredited-representation-management/research/2024-02-appointarep-unauth-usertest/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representation-management/research/2024-03-ARM-findarep-live-usertest": {
-      "key_themes": "usability-testing, remote-research, Accessibility",
+      "key_themes": "Navigation, Search, Communication, Trust",
       "top_finding": "Navigation challenging: Unless searching 'VSO' or 'veteran service officer' users struggled to find tool (average 1 min…",
       "impact": "Veterans can easily find and contact appropriate accredited representatives in …",
       "source_file": "products/accredited-representation-management/research/2024-03-ARM-findarep-live-usertest/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representation-management/research/2024-04-ARM-veteran-representative-experience-interviews": {
-      "key_themes": "semi-structured-interviews, remote-research",
+      "key_themes": "Language clarity, Trust, Search, Timeline expectations",
       "top_finding": "Participants frequently lacked understanding of representatives, what they do, and how they fit into VA processes, dire…",
       "impact": "Veterans and caregivers can find, select, and work with accredited representati…",
       "source_file": "products/accredited-representation-management/research/2024-04-ARM-veteran-representative-experience-interviews/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representation-management/research/2024-06-ARM-appointarep-digitalsubmit-usertest": {
-      "key_themes": "usability-testing, remote-research, moderated-research, eva…",
+      "key_themes": "Navigation, Search, Evidence submission, Form complexity",
       "top_finding": "Participants were split on whether they would adopt the tools, leading to definition of new audiences for ARM - 3 would…",
       "impact": "Veterans can successfully find and digitally appoint accredited representatives…",
       "source_file": "products/accredited-representation-management/research/2024-06-ARM-appointarep-digitalsubmit-usertest/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representation-management/research/2024-08-ARM-appointarep-crossaccreditedVSOR-usertest": {
-      "key_themes": "semi-structured-interviews, moderated-research, remote-rese…",
+      "key_themes": null,
       "top_finding": "VSOR workflows and policies change state to state and county to county, including which VSOs they can be accredited wit…",
       "impact": "Cross-accredited VSORs can efficiently manage POA requests across multiple orga…",
       "source_file": "products/accredited-representation-management/research/2024-08-ARM-appointarep-crossaccreditedVSOR-usertest/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "none"
     },
     "products/accredited-representation-management/research/2024-10-VSO-VAbenefits-interviews": {
-      "key_themes": "semi-structured-interviews, remote-research",
+      "key_themes": "Loading performance, Timeline expectations, Navigation",
       "top_finding": "VSO representatives' NUMBER ONE PRIORITY is speed and accuracy when supporting Veterans; they rely heavily on tools to …",
       "impact": "VSO representatives can submit forms instantly to VBMS; reduced manual tracking…",
       "source_file": "products/accredited-representation-management/research/2024-10-VSO-VAbenefits-interviews/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representation-management/research/2025-02-ARM-appointarep-live-usertest": {
-      "key_themes": "usability-testing, evaluative",
+      "key_themes": "Navigation, Search, Communication",
       "top_finding": "Challenges with VA.gov login/identity verification (ID.me)",
       "impact": "Veterans can easily search for and appoint accredited representatives via VA.go…",
       "source_file": "products/accredited-representation-management/research/2025-02-ARM-appointarep-live-usertest/2025_08_AppointRep_Research Report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representation-management/research/2025-06-ARM-Form21a-usertest": {
-      "key_themes": "usability-testing, semi-structured-interviews, evaluative",
+      "key_themes": "Communication, Form complexity, Trust, Navigation",
       "top_finding": "Applicants are requesting additional clarification and background information for military-related questions on the for…",
       "impact": null,
       "source_file": "products/accredited-representation-management/research/2025-06-ARM-Form21a-usertest/2025_06_ARM_21a_v4_ResearchReport.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representation-management/research/2025-06-Email Survey-Cross-Accredited-Reps": {
-      "key_themes": "survey, evaluative, communication, training",
+      "key_themes": "Communication, Language clarity",
       "top_finding": "Limited Understanding of Contact Update Processes",
       "impact": "Not explicitly stated in report",
       "source_file": "products/accredited-representation-management/research/2025-06-Email Survey-Cross-Accredited-Reps/Email Survey Research Report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representative-facing/research/2024-01 Current State Analysis": {
-      "key_themes": null,
+      "key_themes": "Navigation, Search",
       "top_finding": "SEP is intended for three user types: VSO representatives, attorneys, and claims agents (three additional portals were …",
       "impact": "Accredited representatives will transition from SEP to ARP with equivalent or i…",
       "source_file": "products/accredited-representative-facing/research/2024-01 Current State Analysis/SEP-audit-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representative-facing/research/2024-01 Listening Session": {
-      "key_themes": null,
+      "key_themes": "Loading performance, Evidence submission, Accessibility",
       "top_finding": "Power of Attorney (POA) process top need: Immediate access to VBMS including Veteran's eFolder and files within it (13 …",
       "impact": "VSO representatives get immediate VBMS access upon accepting POA; faster claim …",
       "source_file": "products/accredited-representative-facing/research/2024-01 Listening Session/research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representative-facing/research/2024-02 User Interviews": {
-      "key_themes": null,
+      "key_themes": "Evidence submission, Communication, Status clarity",
       "top_finding": "VSOfficers' power of attorney workflows require toggling between many tools (24+ applications mentioned in audit; most …",
       "impact": "VSOfficers can seamlessly and accurately help Veterans with VA interactions; ca…",
       "source_file": "products/accredited-representative-facing/research/2024-02 User Interviews/research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representative-facing/research/2024-03 Single Accredited Testing": {
-      "key_themes": null,
+      "key_themes": "Error handling, Search, Trust",
       "top_finding": "Singly accredited VSO Representatives primarily work at state, regional, or national level with smaller caseloads (tens…",
       "impact": "Singly accredited VSO Representatives can efficiently find and accept/decline i…",
       "source_file": "products/accredited-representative-facing/research/2024-03 Single Accredited Testing/research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representative-facing/research/2024-05 NACVSO": {
-      "key_themes": null,
+      "key_themes": "Evidence submission, Search, Language clarity, Communication",
       "top_finding": "County VSO Representatives are accredited through their state's Department of Veterans Services or NACVSO, support larg…",
       "impact": "Expand our participant panel to include a diversity of accredited Veterans Serv…",
       "source_file": "products/accredited-representative-facing/research/2024-05 NACVSO/research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representative-facing/research/2024-07 OGC Contact Information Updates": {
-      "key_themes": null,
+      "key_themes": "Search, Communication, Navigation, Language clarity",
       "top_finding": "Representatives use existing accreditation search tools but often encounter inaccurate data",
       "impact": "User interviews will inform adjustments to setting required fields, and/or addi…",
       "source_file": "products/accredited-representative-facing/research/2024-07 OGC Contact Information Updates/research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representative-facing/research/2025-01 VSO Landscape Summary": {
-      "key_themes": "secondary-research, landscape-analysis, discovery",
+      "key_themes": "Evidence submission, Form complexity",
       "top_finding": "There are about 80 VSOs, with 23 of those being National VSO, 55 being State/Territory/Tribe.",
       "impact": "VSO representatives will have portal workflows that accommodate centralized and…",
       "source_file": "products/accredited-representative-facing/research/2025-01 VSO Landscape Summary/research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representative-facing/research/2025-02-QuickSubmit": {
-      "key_themes": "semi-structured-interviews, evaluative",
+      "key_themes": "Evidence submission, Communication, Status clarity",
       "top_finding": "Representatives use QuickSubmit because it works for the single purpose it was built for",
       "impact": null,
       "source_file": "products/accredited-representative-facing/research/2025-02-QuickSubmit/research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representative-facing/research/2025-04 Accredited Rep Portal pilot": {
-      "key_themes": "usability-testing, concept-testing, semi-structured-intervi…",
+      "key_themes": "Timeline expectations, Search, Communication, Status clarity",
       "top_finding": "Representatives with 'instant submission' of the 21-22 in their current process have limited reason to adopt the new me…",
       "impact": null,
       "source_file": "products/accredited-representative-facing/research/2025-04 Accredited Rep Portal pilot/research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representative-facing/research/2025-04-Usability Test Claims Submission (search, 21-686c, submissions)": {
-      "key_themes": "usability-testing, evaluative, claims-submission, POA, form…",
+      "key_themes": "Navigation, Timeline expectations, Search, Communication",
       "top_finding": "The 21-686 submission flow is not intuitive, but is accepted",
       "impact": null,
       "source_file": "products/accredited-representative-facing/research/2025-04-Usability Test Claims Submission (search, 21-686c, submissions)/research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representative-facing/research/2025-06 User testing (Navigation, Find Claimant, Claimant Page to Submission)": {
-      "key_themes": "usability-testing, semi-structured-interviews, evaluative, …",
+      "key_themes": "Navigation, Timeline expectations, Search, Status clarity",
       "top_finding": "ARP navigation is intuitive enough - Each participant completed 3/4 or 4/4 navigation tasks successfully and felt very …",
       "impact": "Not explicitly stated in findings report",
       "source_file": "products/accredited-representative-facing/research/2025-06 User testing (Navigation, Find Claimant, Claimant Page to Submission)/research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/accredited-representative-facing/research/2025-07 NACVSO Intercept interviews and survey": {
-      "key_themes": "intercept-interviews, surveys, discovery, generative",
+      "key_themes": "Status clarity, Communication, Trust",
       "top_finding": "For updates on tools, CVSOs pay more attention to news from state associations and Regional Offices (RO) over other cha…",
       "impact": null,
       "source_file": "products/accredited-representative-facing/research/2025-07 NACVSO Intercept interviews and survey/research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/ask-va/design/User research/2024-01 Submit an inquiry": {
-      "key_themes": null,
+      "key_themes": "Trust, Communication, Language clarity, Status clarity",
       "top_finding": "Veterans past experiences and trust in VA impacts how they perceive questions and what information they're comfortable …",
       "impact": null,
       "source_file": "products/ask-va/design/User research/2024-01 Submit an inquiry/Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/ask-va/design/User research/2024-04 Progress bar": {
-      "key_themes": null,
+      "key_themes": "Communication, Navigation, Timeline expectations, Search",
       "top_finding": "It's not clear what you can ask about and how to start asking, until after you sign in",
       "impact": null,
       "source_file": "products/ask-va/design/User research/2024-04 Progress bar/Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/ask-va/design/User research/2024-05 Dashboard": {
-      "key_themes": null,
+      "key_themes": "Navigation, Status clarity, Search, Evidence submission",
       "top_finding": "People use date last updated and status to find items that have a reply or should have a reply soon",
       "impact": null,
       "source_file": "products/ask-va/design/User research/2024-05 Dashboard/Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/ask-va/design/User research/2024-07 Assistive technology - Form": {
-      "key_themes": null,
+      "key_themes": "Status clarity, Navigation, Search, Accessibility",
       "top_finding": "Most Veterans can easily complete the form without help, but struggle to imagine using Ask VA over another tool",
       "impact": null,
       "source_file": "products/ask-va/design/User research/2024-07 Assistive technology - Form/Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/ask-va/design/User research/2024-08 Assistive technology - Dashboard": {
-      "key_themes": null,
+      "key_themes": "Form complexity, Accessibility, Status clarity, Navigation",
       "top_finding": "It's difficult for screen reader users to tell when one card ends and another begins",
       "impact": null,
       "source_file": "products/ask-va/design/User research/2024-08 Assistive technology - Dashboard/Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "products/ask-va/design/User research/2025-01 Automation concept testing": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/ask-va/design/User research/2025-01 Automation concept testing/Findings.md",
+      "extraction_method": "keywords"
     },
     "products/ask-va/design/User research/2025-10 Form and Inbox Usability Study": {
-      "key_themes": null,
+      "key_themes": "Evidence submission, Form complexity, Communication, Search",
       "top_finding": "Veterans and business submitters have different use cases for the category/topic, subject, question, and attachments fi…",
       "impact": "Veterans and business submitters can confidently and efficiently submit questio…",
       "source_file": "products/ask-va/design/User research/2025-10 Form and Inbox Usability Study/Co-pilot Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "products/ask-va/design/User research/2025-12 Agent Process Research": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/ask-va/design/User research/2025-12 Agent Process Research/Findings.md",
+      "extraction_method": "keywords"
     },
     "products/benefit-letters/research/2025-06-Your-VA-benefit-letters-and-documents": {
-      "key_themes": "Accessibility, usability-testing, interviews",
+      "key_themes": "Accessibility, Communication, Timeline expectations, Trust",
       "top_finding": "Veterans successfully found benefit letters, but used different paths",
       "impact": "Remove barriers for Veterans trying to access benefit letters and understand Ve…",
       "source_file": "products/benefit-letters/research/2025-06-Your-VA-benefit-letters-and-documents/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/burials-memorials/burial-allowance/research/2024-09-VSO-Research": {
-      "key_themes": "semi-structured-interviews, remote-research",
+      "key_themes": "Evidence submission, Timeline expectations, Navigation",
       "top_finding": "The typical claimants are spouses and children of the deceased Veteran. VSOs rarely work with extended family, friends,…",
       "impact": "Claimants can more easily complete the Burial Benefits form with less confusion…",
       "source_file": "products/burials-memorials/burial-allowance/research/2024-09-VSO-Research/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/caregivers/research/2024-09- Caregivers Study - form content and user interviews": {
-      "key_themes": "usability-testing, moderated-research, remote-research, Acc…",
+      "key_themes": "Status clarity, Form complexity, Search",
       "top_finding": "Veterans and Caregivers want more clarity on eligibility and benefits before applying",
       "impact": "Veterans and Caregivers can more easily understand PCAFC program eligibility an…",
       "source_file": "products/caregivers/research/2024-09- Caregivers Study - form content and user interviews/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/claim-appeal-status/research/2022-08-Decision-Letter-Download": {
-      "key_themes": "usability-testing, moderated-research, remote-research",
+      "key_themes": "Status clarity, Language clarity, Search, Navigation",
       "top_finding": "Core task of accessing Decision Letters via the Claim Status Tool was very successful.",
       "impact": null,
       "source_file": "products/claim-appeal-status/research/2022-08-Decision-Letter-Download/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/claim-appeal-status/research/2022-11-Decision-Reviews": {
-      "key_themes": "moderated-research, remote-research",
+      "key_themes": "Evidence submission",
       "top_finding": "The most common pain point we heard in filing decision reviews (and initial claims) is knowing what documentation/evide…",
       "impact": null,
       "source_file": "products/claim-appeal-status/research/2022-11-Decision-Reviews/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/claim-appeal-status/research/2023-03-Initial-Decisions-CST": {
-      "key_themes": "semi-structured-interviews, remote-research, Accessibility",
+      "key_themes": "Navigation, Status clarity, Search, Form complexity",
       "top_finding": "Veterans find the claims process learning curve to be steep, with many potential areas of improvement for the claim sta…",
       "impact": null,
       "source_file": "products/claim-appeal-status/research/2023-03-Initial-Decisions-CST/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/claim-appeal-status/research/2023-05-Evidence-Submission": {
-      "key_themes": "usability-testing, remote-research, evaluative",
+      "key_themes": "Communication, Navigation, Evidence submission",
       "top_finding": "Most participants said they prefer the new CST design to the current design. In particular, they prefer the layout and …",
       "impact": null,
       "source_file": "products/claim-appeal-status/research/2023-05-Evidence-Submission/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/claim-appeal-status/research/2023-10-Claim-Contextualization": {
-      "key_themes": "moderated-research, remote-research",
+      "key_themes": "Timeline expectations, Error handling, Communication",
       "top_finding": "Most participants said they prefer the new overview page design over the current design",
       "impact": null,
       "source_file": "products/claim-appeal-status/research/2023-10-Claim-Contextualization/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/claim-appeal-status/research/2024-07-Development-Letters": {
-      "key_themes": "usability-testing, moderated-research, remote-research, eva…",
+      "key_themes": "Communication, Timeline expectations, Error handling",
       "top_finding": "Veterans rated the notice information an average score of 4.5 out of 5 for helpfulness",
       "impact": "Veterans clearly understand what actions are required in response to developmen…",
       "source_file": "products/claim-appeal-status/research/2024-07-Development-Letters/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/claim-appeal-status/research/2024-11-Document-Status": {
-      "key_themes": "usability-testing, semi-structured-interviews, moderated-re…",
+      "key_themes": "Evidence submission, Status clarity, Communication, Trust",
       "top_finding": "All participants understood that recently submitted files were in progress and had not been added to their claim as lon…",
       "impact": "Veterans can effectively understand document upload statuses and take appropria…",
       "source_file": "products/claim-appeal-status/research/2024-11-Document-Status/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/claim-appeal-status/research/2025-06-Evidence-Request": {
-      "key_themes": "usability-testing, remote-research",
+      "key_themes": "Navigation, Search",
       "top_finding": null,
       "impact": null,
       "source_file": "products/claim-appeal-status/research/2025-06-Evidence-Request/evidence-requests-research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/combined_fsr/research/enhanced_fsr": {
-      "key_themes": "usability-testing, moderated-research, remote-research, eva…",
+      "key_themes": "Communication, Language clarity, Trust",
       "top_finding": "Participants found the enhanced FSR design patterns (including new list loops) easy to use.",
       "impact": "Not explicitly stated in report",
       "source_file": "products/combined_fsr/research/enhanced_fsr/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "products/combined_fsr/research/medallia_reports": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/combined_fsr/research/medallia_reports/medallia-analytics-report-february-2025.md",
+      "extraction_method": "keywords"
     },
     "products/combined_va_debt_portal/payment-history/research/2024-6-overpayment-usability": {
-      "key_themes": "usability-testing, remote-research, Accessibility, evaluati…",
+      "key_themes": "Status clarity, Error handling, Communication, Navigation",
       "top_finding": "Service Design & Digital Design: Participants noted issues outside the debt portal with inter-departmental communicatio…",
       "impact": "Veterans understand their debt obligations, payment history, and have clear act…",
       "source_file": "products/combined_va_debt_portal/payment-history/research/2024-6-overpayment-usability/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/combined_va_debt_portal/payment-history/research/2024-9-copay-usability": {
-      "key_themes": "usability-testing, remote-research, semi-structured-intervi…",
+      "key_themes": "Navigation, Search, Communication, Status clarity",
       "top_finding": "Navigation and findability were excellent - Veterans could easily find information and knew which links to click for bi…",
       "impact": "Veterans can easily understand their copay bills, view payment history, and tak…",
       "source_file": "products/combined_va_debt_portal/payment-history/research/2024-9-copay-usability/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/combined_va_debt_portal/payment-history/research/2025-10-copays-usability": {
-      "key_themes": "usability-testing, remote-research",
+      "key_themes": "Navigation, Search",
       "top_finding": null,
       "impact": null,
       "source_file": "products/combined_va_debt_portal/payment-history/research/2025-10-copays-usability/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/combined_va_debt_portal/research/exploratory-2024": {
-      "key_themes": "semi-structured-interviews, remote-research, moderated-rese…",
+      "key_themes": "Mobile, Form complexity, Communication, Language clarity",
       "top_finding": "Veterans echoed desire for financial portal that is first and foremost easy to use and simple",
       "impact": "Veterans can easily access and manage all VA debts and copays in one location w…",
       "source_file": "products/combined_va_debt_portal/research/exploratory-2024/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/combined_va_debt_portal/research/usability-apr-2022": {
-      "key_themes": "usability-testing, moderated-research, remote-research, Acc…",
+      "key_themes": "Error handling, Search",
       "top_finding": "How participants defined copays, debt, and bills: Participants defined copays in relation to money owed for medical rel…",
       "impact": null,
       "source_file": "products/combined_va_debt_portal/research/usability-apr-2022/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/content/audience-hubs/family-member-hub/research": {
-      "key_themes": "tree-test, information-architecture, findability, navigation",
+      "key_themes": "Navigation",
       "top_finding": "Participants primarily navigated to and selected answers in the family member hub when looking for benefits for themsel…",
       "impact": null,
       "source_file": "products/content/audience-hubs/family-member-hub/research/11-2023-family-hub-research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/decision-reviews/Notice-of-Disagreement/Research/012024-accessible-submission-download": {
-      "key_themes": "usability-testing, remote-research, semi-structured-intervi…",
+      "key_themes": "Evidence submission, Language clarity, Communication, Search",
       "top_finding": "Veterans found separate page for copy of submission redundant to confirmation page, and link language misled Veterans i…",
       "impact": "Veterans can easily access and retain an accessible copy of their appeal submis…",
       "source_file": "products/decision-reviews/Notice-of-Disagreement/Research/012024-accessible-submission-download/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/decision-reviews/Notice-of-Disagreement/Research/032021-NOD-usability": {
-      "key_themes": "usability-testing, decision-reviews, notice-of-disagreement…",
+      "key_themes": "Evidence submission, Navigation, Search, Error handling",
       "top_finding": "Several participants have submitted a board appeal before. Their experiences varied from pretty easy to a very frustrat…",
       "impact": "Veterans can successfully submit a Notice of Disagreement appeal without confus…",
       "source_file": "products/decision-reviews/Notice-of-Disagreement/Research/032021-NOD-usability/findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/decision-reviews/Notice-of-Disagreement/Research/042023 NoD Evaluative Research": {
-      "key_themes": "usability-testing, moderated-research, remote-research, eva…",
+      "key_themes": "Trust, Status clarity, Evidence submission, Language clarity",
       "top_finding": "There are multiple entry points to the Request a Board Appeal form, but no clear path to it from MyVA, which lowers Vet…",
       "impact": null,
       "source_file": "products/decision-reviews/Notice-of-Disagreement/Research/042023 NoD Evaluative Research/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/decision-reviews/Notice-of-Disagreement/Research/082023-NOD-Enhancement-Validation": {
-      "key_themes": "evaluative, moderated-research, usability-testing",
+      "key_themes": "Communication, Evidence submission",
       "top_finding": "Veterans seem to sort cleanly into two groups — learners and doers. For some, more information is more. For others, the…",
       "impact": "Not explicitly specified in findings report",
       "source_file": "products/decision-reviews/Notice-of-Disagreement/Research/082023-NOD-Enhancement-Validation/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/decision-reviews/Supplemental-Claims/Research/0924-2024-SC-Updates": {
-      "key_themes": "usability-testing, remote-research, evaluative",
+      "key_themes": "Form complexity, Status clarity, Communication",
       "top_finding": "JAWS users had difficulty operating form controls as checkboxes and radios were not being announced",
       "impact": "Veterans can successfully complete Supplemental Claim form with new updates inc…",
       "source_file": "products/decision-reviews/Supplemental-Claims/Research/0924-2024-SC-Updates/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/decision-reviews/Supplemental-Claims/Research/1222-PACT-Act": {
-      "key_themes": "INTIVE: PACT Act, usability-testing, remote-research, moder…",
+      "key_themes": "Language clarity, Search, Evidence submission",
       "top_finding": "Most participants had a clear understanding of the requirements for filing Supplemental Claims and what presumptive con…",
       "impact": null,
       "source_file": "products/decision-reviews/Supplemental-Claims/Research/1222-PACT-Act/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/decision-reviews/Supplemental-Claims/Research/MVP Usability Research": {
-      "key_themes": "Initiative: PACT Act, usability-testing, moderated-research…",
+      "key_themes": "Timeline expectations, Status clarity, Navigation, Mobile",
       "top_finding": "Representing form progress as 'steps' confused some users. Users expect the progress bar to be true to the number of st…",
       "impact": null,
       "source_file": "products/decision-reviews/Supplemental-Claims/Research/MVP Usability Research/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/decision-reviews/research/decision-reviews-onramp-2025": {
-      "key_themes": "usability-testing, evaluative, cognitive, plain-language, f…",
+      "key_themes": "Trust, Communication",
       "top_finding": "Launching the guide is not intuitive",
       "impact": "Veterans can confidently select the appropriate decision review pathway for the…",
       "source_file": "products/decision-reviews/research/decision-reviews-onramp-2025/2025-10 Explore disability claim decision review options Research Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/dependents/research/2023-09-dependents-research": {
-      "key_themes": "usability-testing, semi-structured-interviews",
+      "key_themes": "Timeline expectations, Communication, Trust",
       "top_finding": "Upon receiving our reminder email, the majority of Veterans said they would review their dependents—despite not expecti…",
       "impact": null,
       "source_file": "products/dependents/research/2023-09-dependents-research/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/dependents/research/2025-02-dependents-verification-mvp-research": {
-      "key_themes": "usability-testing, interviews",
+      "key_themes": "Navigation, Search, Language clarity, Timeline expectations",
       "top_finding": "Most participants (8 of 10) did not have a mental model of verification that aligned with the Mandatory Verification of…",
       "impact": "Veterans can easily find, understand, and complete dependent verification on VA…",
       "source_file": "products/dependents/research/2025-02-dependents-verification-mvp-research/2025-02-dependents-verification-mvp-research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "products/dependents/research/2025-07-dependent-management-content-study": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/dependents/research/2025-07-dependent-management-content-study/Findings.md",
+      "extraction_method": "keywords"
     },
     "products/dependents/research/2025-08-dependent-verification-with-picklist": {
-      "key_themes": "usability-testing",
+      "key_themes": "Mobile, Accessibility, Communication, Navigation",
       "top_finding": "9 of them had spouses as dependents",
       "impact": null,
       "source_file": "products/dependents/research/2025-08-dependent-verification-with-picklist/findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/disability/526ez/research/2023-07-Toxic-Exposure": {
-      "key_themes": "usability-testing, remote-research",
+      "key_themes": "Navigation, Search",
       "top_finding": null,
       "impact": null,
       "source_file": "products/disability/526ez/research/2023-07-Toxic-Exposure/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/disability/526ez/research/2023-10-Medallia-Research": {
-      "key_themes": "Evaluative, Secondary-research, Contact-Center, Medallia",
+      "key_themes": "Navigation, Form complexity, Search, Error handling",
       "top_finding": "Veterans face blockers that require external support—but sometimes find that help difficult to get",
       "impact": null,
       "source_file": "products/disability/526ez/research/2023-10-Medallia-Research/2023-10 Research Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/disability/526ez/research/2023-11-Shadowing-Research": {
-      "key_themes": "remote-research, usability-testing, semi-structured-intervi…",
+      "key_themes": "Trust, Communication, Form complexity, Navigation",
       "top_finding": "Participant's existing level of trust in VA informed how they reacted to uncertainty throughout the filing experience",
       "impact": null,
       "source_file": "products/disability/526ez/research/2023-11-Shadowing-Research/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/disability/526ez/research/2024-06 0781 Research": {
-      "key_themes": null,
+      "key_themes": "Evidence submission, Timeline expectations, Navigation",
       "top_finding": "Veterans were able to orient themselves to start and exit the 0781, but comprehension of the overall form flow remained…",
       "impact": "Veterans can more easily navigate the 0781 form within the 526EZ with less conf…",
       "source_file": "products/disability/526ez/research/2024-06 0781 Research/Research Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/disability/526ez/research/2024-07-Submission-Status": {
-      "key_themes": "usability-testing, moderated-research, remote-research, eva…",
+      "key_themes": "Timeline expectations, Status clarity, Communication, Mobile",
       "top_finding": "Veterans' mental models for claims processing do not map onto the VA timeline for electronic submission",
       "impact": "Veterans have accurate expectations about their claim submission timeline and s…",
       "source_file": "products/disability/526ez/research/2024-07-Submission-Status/Research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/disability/526ez/research/2025-09-Copy of Submission": {
-      "key_themes": null,
+      "key_themes": "Evidence submission, Status clarity, Communication, Search",
       "top_finding": "Some participants (5/8) were able to intuitively interact with the submitted data accordion on the confirmation page.",
       "impact": null,
       "source_file": "products/disability/526ez/research/2025-09-Copy of Submission/research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/disability/526ez/research/2025-10-0781-EvidenceUpload": {
-      "key_themes": "Form 0781, usability-testing, semi-structured-interviews, e…",
+      "key_themes": "Evidence submission, Language clarity, Navigation, Search",
       "top_finding": "Most participants struggled to understand the differences between the three sections of the supporting evidence upload …",
       "impact": null,
       "source_file": "products/disability/526ez/research/2025-10-0781-EvidenceUpload/0781 Evidence Upload Research Report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/disability/526ez/research/2025-11 Side Navigation": {
-      "key_themes": "usability-testing, semi-structured-interviews, evaluative",
+      "key_themes": "Navigation, Language clarity, Status clarity, Mobile",
       "top_finding": "All participants were able to understand and use both navigation components after interacting with them.",
       "impact": "Veterans can confidently track progress, understand what’s complete/locked, and…",
       "source_file": "products/disability/526ez/research/2025-11 Side Navigation/Side Nav Research Findings Report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "products/disability/declare-dependent/research/june-2018": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/disability/declare-dependent/research/june-2018/session-report.md",
+      "extraction_method": "keywords"
+    },
+    "products/education-careers/research": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/education-careers/research/sco-findings.md",
+      "extraction_method": "keywords"
     },
     "products/education-careers/school-comparison-tool/colmery-act-2019/research/apr-2019": {
-      "key_themes": "semi-structured-interviews, discovery, stakeholder-research…",
+      "key_themes": "Communication, Search, Language clarity",
       "top_finding": "School Certifying Officials do not differentiate between main campus, branches and extensions - having a profile page f…",
       "impact": null,
       "source_file": "products/education-careers/school-comparison-tool/colmery-act-2019/research/apr-2019/ct-non-veteran-preliminary-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/education-careers/vocational-rehab/research/mar-2018": {
-      "key_themes": "usability-testing, evaluative",
+      "key_themes": "Trust, Error handling, Communication, Status clarity",
       "top_finding": "Distinction between chapter 36 and 31 is still unclear",
       "impact": null,
       "source_file": "products/education-careers/vocational-rehab/research/mar-2018/march-2018-usability-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/facilities/facility-locator/initiatives/2023-2025-search-improvements/research/mobile-map": {
-      "key_themes": "AUD-Veterans, PRDT-Facility-Locator, HDW-Smartphone, Access…",
+      "key_themes": "Language clarity, Search, Communication, Error handling",
       "top_finding": "Veterans and others will understand how the list of results are organized and what options they have to refine or broad…",
       "impact": "Veterans can successfully find VA facilities on mobile devices using map and li…",
       "source_file": "products/facilities/facility-locator/initiatives/2023-2025-search-improvements/research/mobile-map/2025-03-interim-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "products/facilities/facility-locator/research/archive": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/facilities/facility-locator/research/archive/3.6findings.md",
+      "extraction_method": "keywords"
     },
     "products/facilities/medical-centers/research/VA-health-chat": {
-      "key_themes": "tree-test, remote-research, unmoderated-research, evaluative",
+      "key_themes": "Navigation, Timeline expectations, Search, Communication",
       "top_finding": "Participants primarily navigated to 'Make an appointment' when presented with tasks related to making an appointment vi…",
       "impact": null,
       "source_file": "products/facilities/medical-centers/research/VA-health-chat/tree-test-research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/facilities/regional-offices/research/2022-8-veteran-facing": {
-      "key_themes": "semi-structured-interviews, remote-research",
+      "key_themes": "Navigation, Search, Communication, Timeline expectations",
       "top_finding": "Veterans would like to use the website to complete tasks when the steps are clear",
       "impact": null,
       "source_file": "products/facilities/regional-offices/research/2022-8-veteran-facing/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/facilities/regional-offices/research/2022-9-public-contact": {
-      "key_themes": "usability-testing, semi-structured-interviews, remote-resea…",
+      "key_themes": "Evidence submission, Communication, Accessibility",
       "top_finding": "Services at Public Contact Offices can be categorized in four distinct ways: benefits, tasks, documents, beneficiaries",
       "impact": null,
       "source_file": "products/facilities/regional-offices/research/2022-9-public-contact/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/facilities/regional-offices/research/2023-06-veteran-facing": {
-      "key_themes": "usability-testing, remote-research",
+      "key_themes": "Navigation, Search, Communication",
       "top_finding": "Veterans understood what services were available and navigated to the relevant sections easily.",
       "impact": null,
       "source_file": "products/facilities/regional-offices/research/2023-06-veteran-facing/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/harassment-reporting/research/static-landing-page": {
-      "key_themes": "usability-testing, moderated-research, remote-research, eva…",
+      "key_themes": "Mobile, Timeline expectations, Search",
       "top_finding": "The desired amount of content varies greatly among participants (from 'all the details' to 'only the headers' to 'just …",
       "impact": null,
       "source_file": "products/harassment-reporting/research/static-landing-page/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/1095b-tax-form/research/round2": {
-      "key_themes": "usability-testing, semi-structured-interviews, remote-testi…",
+      "key_themes": "Communication, Evidence submission, Language clarity, Mobile",
       "top_finding": "8/8 Participants successfully completed the task: Sign in, View 1095-B Form, then Download or Print",
       "impact": null,
       "source_file": "products/health-care/1095b-tax-form/research/round2/round2-research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/application/va-application/research/2021-09-Flow Research": {
-      "key_themes": "usability-testing, 10-10EZ, evaluative, short-form",
+      "key_themes": "Navigation, Communication, Timeline expectations",
       "top_finding": "Participants are able to navigate through the pre-populated short form easily and without confusion",
       "impact": "Veterans with 50% or higher disability rating can complete the health care appl…",
       "source_file": "products/health-care/application/va-application/research/2021-09-Flow Research/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/application/va-application/research/2021-11-short-form-usability": {
-      "key_themes": "usability-testing, evaluative",
+      "key_themes": "Timeline expectations, Evidence submission, Communication",
       "top_finding": "The majority of participants feel that this flow is much quicker and easier than they expected",
       "impact": null,
       "source_file": "products/health-care/application/va-application/research/2021-11-short-form-usability/topline-summary-research findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/application/va-application/research/2022-06-Short form usability": {
-      "key_themes": "moderated-research, remote-research, usability-testing, Acc…",
+      "key_themes": "Timeline expectations, Communication",
       "top_finding": "100% of participants who received the short form (6) were able to move through the application without indication of a …",
       "impact": "Veterans can complete health care application more quickly when they have a dis…",
       "source_file": "products/health-care/application/va-application/research/2022-06-Short form usability/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/application/va-application/research/2022-10-Household Information Section": {
-      "key_themes": null,
+      "key_themes": "Communication, Language clarity, Evidence submission",
       "top_finding": "There were a some areas of the application where participants mentioned examples where more information would be helpfu…",
       "impact": "Veterans feel prepared when they begin the household section and understand wha…",
       "source_file": "products/health-care/application/va-application/research/2022-10-Household Information Section/Research Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/application/va-application/research/2023-01-Baseline Task Research": {
-      "key_themes": "TREND: Content, usability-testing, moderated-research, remo…",
+      "key_themes": "Communication, Evidence submission",
       "top_finding": "There were unfavorable perception towards providing certain information, specifically reporting income and insurance in…",
       "impact": null,
       "source_file": "products/health-care/application/va-application/research/2023-01-Baseline Task Research/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/application/va-application/research/2023-04-Household information section usability": {
-      "key_themes": "usability-testing, moderated-research, remote-research, eva…",
+      "key_themes": "Navigation, Search, Evidence submission, Form complexity",
       "top_finding": "Veterans were able to edit and remove dependents with relative ease using the new experimental pattern",
       "impact": null,
       "source_file": "products/health-care/application/va-application/research/2023-04-Household information section usability/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/application/va-application/research/2023-06-Priority Group and Financial Disclosure": {
-      "key_themes": "generative-research, moderated-research, semi-structured-in…",
+      "key_themes": "Timeline expectations, Communication, Status clarity",
       "top_finding": "Veterans expect to update their financial information for health care benefits somewhere in their VA Profile.",
       "impact": null,
       "source_file": "products/health-care/application/va-application/research/2023-06-Priority Group and Financial Disclosure/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/application/va-application/research/2023-06-Registration flow exploration": {
-      "key_themes": "generative, semi-structured-interviews, remote-research",
+      "key_themes": "Accessibility",
       "top_finding": "Veterans are confused about the registration and enrollment options",
       "impact": null,
       "source_file": "products/health-care/application/va-application/research/2023-06-Registration flow exploration/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/application/va-application/research/2023-11-Registration Reasons Tree Test": {
-      "key_themes": "tree-test, unmoderated-research, usability",
+      "key_themes": "Language clarity, Communication",
       "top_finding": "Veterans are not navigating to the 10-10EZ form for registration reasons",
       "impact": null,
       "source_file": "products/health-care/application/va-application/research/2023-11-Registration Reasons Tree Test/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/application/va-application/research/2024-04-ToxicExposure-UsabilityStudy": {
-      "key_themes": "usability-testing, moderated-research, remote-research, Acc…",
+      "key_themes": "Communication, Timeline expectations, Search, Error handling",
       "top_finding": "Most Veterans have been or believe they have been exposed to toxic materials in the military, but they don't know if it…",
       "impact": "Veterans can easily report toxic exposure information to help qualify for VA he…",
       "source_file": "products/health-care/application/va-application/research/2024-04-ToxicExposure-UsabilityStudy/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/application/va-application/research/2024-09-Social Listening": {
-      "key_themes": null,
+      "key_themes": "Language clarity, Communication, Status clarity",
       "top_finding": "Few Veterans understand the role that income plays in their VA health care eligibility.",
       "impact": "Veterans understand when and why they need to update their health care informat…",
       "source_file": "products/health-care/application/va-application/research/2024-09-Social Listening/Research-Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/application/va-application/research/2025-05-EZR-Confirmation-Flow": {
-      "key_themes": "usability-testing, semi-structured-interviews, evaluative, …",
+      "key_themes": "Communication, Language clarity, Timeline expectations",
       "top_finding": "Participants expressed a clear understanding of the spouse and financial information List&Loop component.",
       "impact": "Veterans experience a faster, more efficient application process by being able …",
       "source_file": "products/health-care/application/va-application/research/2025-05-EZR-Confirmation-Flow/Research-Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/application/va-application/research/2025-06-Task List and Traditional Form Unmoderated": {
-      "key_themes": "AUD-Veterans, PRDT-10-10EZ, PRDT-Health-Enrollment, DSP-Tas…",
+      "key_themes": "Navigation, Status clarity, Communication",
       "top_finding": "Slight preference for the task list pattern over the traditional form flow was reported by participants",
       "impact": "Improved Application Completion Rate, Increased User Satisfaction, Reduced Aban…",
       "source_file": "products/health-care/application/va-application/research/2025-06-Task List and Traditional Form Unmoderated/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/application/vets-application/research": {
-      "key_themes": "usability-testing",
+      "key_themes": "Navigation, Search",
       "top_finding": null,
       "impact": null,
       "source_file": "products/health-care/application/vets-application/research/findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling/research/2020-10-cc-provider-selection-usability": {
-      "key_themes": "usability-testing, evaluative, remote-moderated, community-…",
+      "key_themes": "Search, Navigation",
       "top_finding": "All participants wanted the list of providers to be more personalized. The top request was to be able to schedule with …",
       "impact": null,
       "source_file": "products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling/research/2020-10-cc-provider-selection-usability/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling/research/2024-06 Community Care Self-Scheduling - Usability and Concept Testing": {
-      "key_themes": "evaluative",
+      "key_themes": "Evidence submission, Search, Navigation",
       "top_finding": "Research presentation documents for Community Care Veteran Self-Scheduling Usability and Concept Testing",
       "impact": "N/A - Presentation document",
       "source_file": "products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling/research/2024-06 Community Care Self-Scheduling - Usability and Concept Testing/findings-presentation.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/appointments/va-online-scheduling/research/2020-05-express-care-research": {
-      "key_themes": "usability-testing, remote-moderated, generative, VAOS, expr…",
+      "key_themes": "Mobile, Timeline expectations",
       "top_finding": "All (100%) participants said they would use virtual medical appointments for both routine/pre-scheduled appointments as…",
       "impact": "Veterans need tools to manage their health effectively, including during uncert…",
       "source_file": "products/health-care/appointments/va-online-scheduling/research/2020-05-express-care-research/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/appointments/va-online-scheduling/research/2020-07-vaos-mvp-and-express-care-user-research": {
-      "key_themes": "usability-testing, evaluative, remote-moderated, VAOS, expr…",
+      "key_themes": "Search, Communication, Language clarity, Form complexity",
       "top_finding": "Overall, both VAOSR and Express Care were well received by most of the Veterans who interacted with each product, respe…",
       "impact": "Veterans have better understanding of appointment scheduling vs requesting, imp…",
       "source_file": "products/health-care/appointments/va-online-scheduling/research/2020-07-vaos-mvp-and-express-care-user-research/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/appointments/va-online-scheduling/research/2020-10-cc-provider-selection-usability": {
-      "key_themes": "usability-testing, evaluative, remote-moderated, community-…",
+      "key_themes": "Search, Timeline expectations, Navigation, Error handling",
       "top_finding": "All participants wanted the list of providers to be more personalized. The top request was to be able to schedule with …",
       "impact": "Veterans are better able to select providers that meet their needs and understa…",
       "source_file": "products/health-care/appointments/va-online-scheduling/research/2020-10-cc-provider-selection-usability/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/appointments/va-online-scheduling/research/2021-05-facilities-personalization-research": {
-      "key_themes": "usability-testing, prototype-testing, remote-moderated, VAO…",
+      "key_themes": "Navigation, Search, Timeline expectations, Communication",
       "top_finding": "When choosing care, participants wanted to know what was nearby, more than where they were registered.",
       "impact": "Veterans have clearer understanding of facility registration and can more easil…",
       "source_file": "products/health-care/appointments/va-online-scheduling/research/2021-05-facilities-personalization-research/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/appointments/va-online-scheduling/research/2021-08-facilities-ab-test": {
-      "key_themes": "AB-testing, analytics, quantitative, VAOS",
+      "key_themes": "Timeline expectations",
       "top_finding": "Variant users spent 3 seconds less on the facility selection page compared to control (43 seconds vs 49 seconds)",
       "impact": "Veterans can select their VA facility faster with less confusion",
       "source_file": "products/health-care/appointments/va-online-scheduling/research/2021-08-facilities-ab-test/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/appointments/va-online-scheduling/research/2022-01-mhv-and-vaos-appts-list-discovery": {
-      "key_themes": "usability-testing, concept-testing, comparative-analysis, r…",
+      "key_themes": "Language clarity, Communication, Form complexity",
       "top_finding": "Participants were most confused that two different sites list their appointments",
       "impact": "Veterans can easily understand and manage their health care appointments when t…",
       "source_file": "products/health-care/appointments/va-online-scheduling/research/2022-01-mhv-and-vaos-appts-list-discovery/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/appointments/va-online-scheduling/research/2022-09-appts-list-usability": {
-      "key_themes": "usability-testing, moderated-research, remote-research, Acc…",
+      "key_themes": "Status clarity, Navigation, Search, Communication",
       "top_finding": "All participants were able to scan through the appointment list by date, time, status, and type of care",
       "impact": "Veterans with diverse technical abilities, ages, and disabilities can easily na…",
       "source_file": "products/health-care/appointments/va-online-scheduling/research/2022-09-appts-list-usability/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "products/health-care/appointments/va-online-scheduling/research/2023-02-appt-list-usability-screenreader": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/health-care/appointments/va-online-scheduling/research/2023-02-appt-list-usability-screenreader/accessibility-findings.md",
+      "extraction_method": "keywords"
     },
     "products/health-care/appointments/va-online-scheduling/research/2023-08-print-button-analytics": {
-      "key_themes": "web-analytics, evaluative, product-analytics",
+      "key_themes": "Mobile",
       "top_finding": "Immediately on release, users started clicking the print button. Desktop users clicked it the most often, and most user…",
       "impact": null,
       "source_file": "products/health-care/appointments/va-online-scheduling/research/2023-08-print-button-analytics/research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/appointments/va-online-scheduling/research/2023-10-coordinator-feedback": {
-      "key_themes": "semi-structured-interviews, generative, stakeholder-researc…",
+      "key_themes": "Navigation, Communication, Language clarity, Mobile",
       "top_finding": "Login and navigation pose the biggest challenges to helping Veterans schedule online. The three My HealtheVet Coordinat…",
       "impact": null,
       "source_file": "products/health-care/appointments/va-online-scheduling/research/2023-10-coordinator-feedback/research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/appointments/va-online-scheduling/research/2023-11-mhv-on-va-gov-phase-2b-vaos-uat": {
-      "key_themes": "usability-testing, remote-research, UAT, VAOS, appointments…",
+      "key_themes": "Navigation, Search, Language clarity, Timeline expectations",
       "top_finding": "Most participants struggled with login.",
       "impact": "Veterans can successfully use new MHV on VA.gov appointments features with impr…",
       "source_file": "products/health-care/appointments/va-online-scheduling/research/2023-11-mhv-on-va-gov-phase-2b-vaos-uat/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/appointments/va-online-scheduling/research/2024-05-oh-scheduling": {
-      "key_themes": "usability-testing, moderated-research, remote-research, eva…",
+      "key_themes": "Navigation, Search, Form complexity, Language clarity",
       "top_finding": "Participants indicated need to know if providers listed were ones they've seen before and wanted to see provider experi…",
       "impact": "Veterans can more easily schedule appointments at Oracle Health facilities with…",
       "source_file": "products/health-care/appointments/va-online-scheduling/research/2024-05-oh-scheduling/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/appointments/va-online-scheduling/research/2024-08-appointment-details-card-sort": {
-      "key_themes": "card-sort, moderated-research",
+      "key_themes": "Communication, Status clarity",
       "top_finding": "Certain categories emerged as more common, with appointment information, scheduling, canceling/rescheduling, and post-a…",
       "impact": "Veterans can quickly find and understand appointment information organized acco…",
       "source_file": "products/health-care/appointments/va-online-scheduling/research/2024-08-appointment-details-card-sort/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/appointments/va-online-scheduling/research/2025-09-pact-sud-uat": {
-      "key_themes": "usability-testing, remote-research",
+      "key_themes": "Navigation, Search",
       "top_finding": null,
       "impact": null,
       "source_file": "products/health-care/appointments/va-online-scheduling/research/2025-09-pact-sud-uat/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "products/health-care/beneficiary-travel/research/08-2025--Travel Complex Claims Concept Study": {
+      "key_themes": "Evidence submission, Loading performance, Language clarity",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/health-care/beneficiary-travel/research/08-2025--Travel Complex Claims Concept Study/09-2025 Travel Pay Complex Claims Concept Study Research Findings.md",
+      "extraction_method": "keywords"
     },
     "products/health-care/beneficiary-travel/research/2024-04-Reimbursement-Status-Look-and-Feel-Study": {
       "key_themes": null,
       "top_finding": null,
       "impact": "Understand where Travel Reimbursement Status page should live and what interact…",
       "source_file": "products/health-care/beneficiary-travel/research/2024-04-Reimbursement-Status-Look-and-Feel-Study/05.08Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "none"
     },
     "products/health-care/beneficiary-travel/research/2024-06-Travel-Claim-Status-Language-Generative-Study": {
-      "key_themes": null,
+      "key_themes": "Status clarity, Language clarity, Evidence submission",
       "top_finding": "Participants' mental model divided the imagined claim processing process into pre- and post-decision with emphasis on w…",
       "impact": "A generative, first version set of recommended changes to Veteran-facing Travel…",
       "source_file": "products/health-care/beneficiary-travel/research/2024-06-Travel-Claim-Status-Language-Generative-Study/ResearchFindings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/beneficiary-travel/research/2025-03-SMOC-UAT-Beta": {
-      "key_themes": "usability-testing, evaluative, user-acceptance-testing",
+      "key_themes": "Navigation, Search, Error handling, Accessibility",
       "top_finding": "Participants did not find the entry point to simple mileage-only claim submission from Past Appointments easily. Once o…",
       "impact": null,
       "source_file": "products/health-care/beneficiary-travel/research/2025-03-SMOC-UAT-Beta/ResearchFindings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/beneficiary-travel/research/2025-05-Travel Claim Management Usability": {
-      "key_themes": "usability-testing, evaluative, claim-status",
+      "key_themes": "Status clarity, Evidence submission, Communication",
       "top_finding": "All participants struggled to identify partial payment decisions on the Status page",
       "impact": null,
       "source_file": "products/health-care/beneficiary-travel/research/2025-05-Travel Claim Management Usability/ResearchFindings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/beneficiary-travel/research/2025-12 Complex Claims UAT": {
-      "key_themes": "usability-testing, user-acceptance-testing, evaluative",
+      "key_themes": "Navigation, Evidence submission, Language clarity, Trust",
       "top_finding": "UI is intuitive and usable, but critical flow and navigation improvements will reduce friction. Overall, testing proved…",
       "impact": "Veterans can successfully file travel reimbursement claims with attachments on …",
       "source_file": "products/health-care/beneficiary-travel/research/2025-12 Complex Claims UAT/research report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "products/health-care/champva/1010D/status-tool/research/CHAMPVA Dependents Management": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/health-care/champva/1010D/status-tool/research/CHAMPVA Dependents Management/findings.md",
+      "extraction_method": "keywords"
     },
     "products/health-care/checkin/research/2022-09-checkin-appointment-info-prioritization": {
-      "key_themes": null,
+      "key_themes": "Status clarity, Communication, Mobile",
       "top_finding": "Over 80% of participants deemed a clear set of appointment information as 'extremely important' or 'very important': Ty…",
       "impact": "Veterans can quickly identify the most important information when checking in f…",
       "source_file": "products/health-care/checkin/research/2022-09-checkin-appointment-info-prioritization/research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/checkin/research/2022-09-precheckin-appointment-info-prioritization": {
-      "key_themes": null,
+      "key_themes": "Communication, Status clarity",
       "top_finding": "When analyzing the 'extremely important' or 'very important' appointment information for pre-check-in, there weren't cl…",
       "impact": "Veterans can review the most important information when confirming their appoin…",
       "source_file": "products/health-care/checkin/research/2022-09-precheckin-appointment-info-prioritization/research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/checkin/research/2022-10 Patient Check In ID Verification - SSN4 Text Input vs. Date of Birth (DoB) Memorable Date Comparison": {
       "key_themes": null,
       "top_finding": "From 10/11/2022 - 10/20/2022 in the PCI product, LoROTA with SSN4 (DSC: Text input) had an average of 98.29% success ra…",
       "impact": "Veterans can successfully verify their identity using date of birth",
       "source_file": "products/health-care/checkin/research/2022-10 Patient Check In ID Verification - SSN4 Text Input vs. Date of Birth (DoB) Memorable Date Comparison/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "none"
     },
     "products/health-care/checkin/research/2022-12 Patient Check In Travel Reimbursement Staff Interviews at Wilkes-Barre": {
-      "key_themes": "interviews, in-person-research",
+      "key_themes": "Trust, Loading performance, Navigation, Form complexity",
       "top_finding": "Veterans found the travel reimbursement feature 'awesome' and 'easy to use' and would not change anything about the pro…",
       "impact": null,
       "source_file": "products/health-care/checkin/research/2022-12 Patient Check In Travel Reimbursement Staff Interviews at Wilkes-Barre/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/checkin/research/2022-12 Patient Check In Travel Reimbursement Veteran Intercept at Wilkes-Barre": {
-      "key_themes": "interviews, in-person-research",
+      "key_themes": "Trust, Loading performance, Navigation, Form complexity",
       "top_finding": "Veterans found the travel reimbursement feature 'awesome' and 'easy to use' and would not change anything about the pro…",
       "impact": null,
       "source_file": "products/health-care/checkin/research/2022-12 Patient Check In Travel Reimbursement Veteran Intercept at Wilkes-Barre/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/checkin/research/2023-04 Unified Check-In Experience Usability Study": {
-      "key_themes": "remote-research",
+      "key_themes": "Navigation, Search",
       "top_finding": null,
       "impact": null,
       "source_file": "products/health-care/checkin/research/2023-04 Unified Check-In Experience Usability Study/accessibility-findings-mhv-pci.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "products/health-care/checkin/research/2023-08 Remove QR Code from Poster Pilot": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/health-care/checkin/research/2023-08 Remove QR Code from Poster Pilot/findings-presentation.md",
+      "extraction_method": "keywords"
+    },
+    "products/health-care/checkin/research/2023-11 Past Appointments Travel Reimbursement Generative Usability Study": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/health-care/checkin/research/2023-11 Past Appointments Travel Reimbursement Generative Usability Study/findings-presentation.md",
+      "extraction_method": "keywords"
     },
     "products/health-care/checkin/research/2024-04 Unmoderated Content Evaluation for Multiple Facilities Selection in BT Oracle Health App": {
-      "key_themes": "moderated-research, evaluative",
+      "key_themes": "Communication, Language clarity",
       "top_finding": "90% of Veterans understood this tool is for mileage-only travel reimbursement claims and that BTSSS portal is needed fo…",
       "impact": "Veterans can confidently file travel reimbursement claims with clear understand…",
       "source_file": "products/health-care/checkin/research/2024-04 Unmoderated Content Evaluation for Multiple Facilities Selection in BT Oracle Health App/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/checkin/research/2024-10 Check in with an MSA after eCheck-in Unmoderated Survey": {
-      "key_themes": null,
+      "key_themes": "Language clarity, Error handling",
       "top_finding": "75% of participants found the content in both versions easy to understand and straightforward with overall favorable im…",
       "impact": "Veterans can efficiently check in online with clear understanding of any requir…",
       "source_file": "products/health-care/checkin/research/2024-10 Check in with an MSA after eCheck-in Unmoderated Survey/Check-in with MSAs after eCheck-in Findings Report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/checkin/research/accessibility": {
-      "key_themes": "Accessibility, screen-reader, usability-testing, evaluative",
+      "key_themes": "Loading performance, Evidence submission, Communication",
       "top_finding": "Voice overs cannot indicate to users when pages are loading during transitions between pages",
       "impact": null,
       "source_file": "products/health-care/checkin/research/accessibility/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/checkin/research/remote-discovery": {
-      "key_themes": "moderated-research, remote-research, semi-structured-interv…",
+      "key_themes": "Error handling, Communication, Timeline expectations, Mobile",
       "top_finding": "Checking in with a VA staff member was the most preferred and used method among the currently available methods for in-…",
       "impact": null,
       "source_file": "products/health-care/checkin/research/remote-discovery/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/checkin/research/staff-facing": {
-      "key_themes": "semi-structured-interviews, contextual-inquiry, discovery, …",
+      "key_themes": "Search, Status clarity, Communication, Trust",
       "top_finding": "Staff processes and tools for managing patient check-in and other clinical tasks vary across and within facilities and …",
       "impact": null,
       "source_file": "products/health-care/checkin/research/staff-facing/staff-facing-research-report-09-2021.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/clinical-decision-support/VA-CDS-data-visualization-patterns/patterns/data-grid/research": {
-      "key_themes": "usability-testing, Accessibility, evaluative",
+      "key_themes": "Navigation, Search, Communication, Timeline expectations",
       "top_finding": "Participants described the Data Grid as generally intuitive and effective, noting that it supported their workflows and…",
       "impact": null,
       "source_file": "products/health-care/clinical-decision-support/VA-CDS-data-visualization-patterns/patterns/data-grid/research/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/clinical-decision-support/medical-calculators/research/2025-09-Calculator-Detail-Page-Line-Chart-Testing": {
-      "key_themes": "AUD-VA-Staff, PRDT-Medical-Calculators, PRDT-Clinical-Decis…",
+      "key_themes": "Navigation, Search, Language clarity",
       "top_finding": "Clinicians workflow regularly involves referencing the EHR to find patient data. Referencing the EHR first becomes thei…",
       "impact": "Reduced cognitive burden created by context switching between the CDS Medical C…",
       "source_file": "products/health-care/clinical-decision-support/medical-calculators/research/2025-09-Calculator-Detail-Page-Line-Chart-Testing/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/clinical-decision-support/medical-calculators/research/2026-02-AMPREDICT-PROPREDICT-case-study": {
-      "key_themes": "AUD-VA-Staff, PRDT-Medical-Calculators, PRDT-Clinical-Decis…",
+      "key_themes": "AUD-VA-Staff, PRDT-Medical-Calculators, HDW-Desktop",
       "top_finding": null,
       "impact": "Reduced cognitive burden created by context switching between the CDS Medical C…",
       "source_file": "products/health-care/clinical-decision-support/medical-calculators/research/2026-02-AMPREDICT-PROPREDICT-case-study/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "filtered"
     },
     "products/health-care/clinical-decision-support/medical-calculators/research/2026-02-Clinician-Engagement-Sessions": {
-      "key_themes": "AUD-VA-Staff, PRDT-Medical-Calculators, PRDT-Clinical-Decis…",
+      "key_themes": "Navigation, Search",
       "top_finding": null,
       "impact": "Make Medical Calculators easy to access and use within workflows",
       "source_file": "products/health-care/clinical-decision-support/medical-calculators/research/2026-02-Clinician-Engagement-Sessions/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/clinical-decision-support/platform/research/2025-02-R2-Sidebar-Testing": {
-      "key_themes": null,
+      "key_themes": "Navigation, Search, Timeline expectations",
       "top_finding": "V1 sidebar navigation approach validated - expand/collapse functionality is findable and valuable",
       "impact": "Clinicians can navigate between CDS tools more efficiently with reduced workflo…",
       "source_file": "products/health-care/clinical-decision-support/platform/research/2025-02-R2-Sidebar-Testing/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/clinical-decision-support/platform/research/2025-06-Patient Search": {
-      "key_themes": "usability-testing, remote-research, patient-lookup, reverse…",
+      "key_themes": "Timeline expectations, Search, Error handling",
       "top_finding": "Clinicians expect a flexible, type-ahead search supporting partial name matching",
       "impact": "Clinicians can confidently and quickly locate and switch patient context within…",
       "source_file": "products/health-care/clinical-decision-support/platform/research/2025-06-Patient Search/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/clinical-decision-support/platform/research/2025-12-Patient-Details-Testing": {
-      "key_themes": "usability-testing, remote-research",
+      "key_themes": "Timeline expectations, Error handling, Communication",
       "top_finding": "Clinicians want abnormal values visually flagged, not buried in long notes",
       "impact": "Faster, more confident clinical decision-making with reduced cognitive load and…",
       "source_file": "products/health-care/clinical-decision-support/platform/research/2025-12-Patient-Details-Testing/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/clinical-decision-support/research/research-templates": {
-      "key_themes": "usability-testing, remote-research",
+      "key_themes": "Navigation, Search",
       "top_finding": null,
       "impact": null,
       "source_file": "products/health-care/clinical-decision-support/research/research-templates/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/community-care/urgent-care/research/jun-2019": {
-      "key_themes": "Initiative: Mission Act, usability-testing, evaluative, com…",
+      "key_themes": "Navigation, Search, Form complexity, Trust",
       "top_finding": "Users cannot find an urgent care facility in an efficient fashion, if at all",
       "impact": null,
       "source_file": "products/health-care/community-care/urgent-care/research/jun-2019/findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "products/health-care/coronavirus-chatbot/research": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/health-care/coronavirus-chatbot/research/chatbot-discoverability-report.md",
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/avs/research/2023-04-MVP-Usability": {
-      "key_themes": "usability-testing, moderated-research, remote-research, eva…",
+      "key_themes": "Communication, Language clarity, Evidence submission, Search",
       "top_finding": "When asked if they review their health information, appointments, tests, or doctor's orders, all participants mentioned…",
       "impact": null,
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/avs/research/2023-04-MVP-Usability/research findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/landing-page/research/2025-08-Update Email Prompt": {
-      "key_themes": "usability-testing, evaluative, Content",
+      "key_themes": "Communication, Language clarity, Error handling",
       "top_finding": "Do users understand that they need to confirm, update or add their contact email address and why? Of the content presen…",
       "impact": "Not explicitly stated in report",
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/landing-page/research/2025-08-Update Email Prompt/ResearchFindings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2022-09-informational-interviews": {
-      "key_themes": "usability-testing, semi-structured-interviews",
+      "key_themes": "Evidence submission, Search, Communication, Navigation",
       "top_finding": "There are roughly 13 categories of data included as part of medical records today, each pulled individually and possibl…",
       "impact": "Veterans can easily access and understand their medical records data",
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2022-09-informational-interviews/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2023-05-usability-testing-round-1": {
-      "key_themes": "usability-testing, remote-research, moderated-research",
+      "key_themes": "Navigation, Evidence submission, Search, Communication",
       "top_finding": "Most participants (15 of 21) were able to find health information in more than 60% of the tasks without assistance. a. …",
       "impact": null,
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2023-05-usability-testing-round-1/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-03-usability-testing-rd2-at": {
-      "key_themes": "usability-testing, semi-structured-interviews, moderated-re…",
+      "key_themes": "Navigation, Timeline expectations, Search, Communication",
       "top_finding": "All participants found a specific flu shot and most found the facility location for the shot",
       "impact": "Veterans can easily access and understand their medical records directly withou…",
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-03-usability-testing-rd2-at/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-08-usability-testing-rd3-at": {
-      "key_themes": "usability-testing, moderated-research, remote-research, Acc…",
+      "key_themes": "Evidence submission, Timeline expectations, Search, Trust",
       "top_finding": "Most participants found Health Conditions page starting from Medical Records landing page",
       "impact": "Veterans can find and understand their medical records information to manage th…",
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-08-usability-testing-rd3-at/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-10-findability-study": {
-      "key_themes": "moderated-research, remote-research",
+      "key_themes": "Error handling, Communication, Language clarity, Navigation",
       "top_finding": "All participants selected VA Laboratory Results when generating diabetes report, but few selected VA Problem List or VA…",
       "impact": "Veterans can quickly find specific health information without scrolling through…",
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-10-findability-study/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-11-mr-sm-rx-usability-study": {
-      "key_themes": "usability-testing, moderated-research, remote-research",
+      "key_themes": "Language clarity, Error handling, Navigation, Search",
       "top_finding": "Participants had mixed understanding of Medications filter options, especially 'Renewal needed before refill'",
       "impact": "Veterans can efficiently find specific health information using filters across …",
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-11-mr-sm-rx-usability-study/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2025-01-usability-testing-rd4-at": {
-      "key_themes": "usability-testing, moderated-research, Accessibility",
+      "key_themes": "Evidence submission, Communication, Language clarity, Search",
       "top_finding": "Most participants struggled to understand information pertaining to Medical Records Settings",
       "impact": null,
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2025-01-usability-testing-rd4-at/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2023-07-medications-usability-testing-round1": {
-      "key_themes": "usability-testing, moderated-research, remote-research",
+      "key_themes": "Search, Timeline expectations, Evidence submission",
       "top_finding": "Most participants (13 of 18) successfully located their medication list from the landing page.",
       "impact": null,
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2023-07-medications-usability-testing-round1/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2023-11-medications-usability-testing-round2-AT": {
-      "key_themes": "usability-testing, moderated-research, Accessibility, remot…",
+      "key_themes": "Accessibility, Timeline expectations, Evidence submission",
       "top_finding": "Most of the participants (9 of 13) correctly acknowledged the purpose of the medications landing page.",
       "impact": null,
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2023-11-medications-usability-testing-round2-AT/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2024-02-findability-study": {
-      "key_themes": "semi-structured-interviews, moderated-research, remote-rese…",
+      "key_themes": "Communication, Navigation, Search",
       "top_finding": "Half the participants (9 of 18) stated they are looking for their medication names when first logging into their medica…",
       "impact": "Veterans can quickly find medications they need to refill or review with clear …",
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2024-02-findability-study/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2024-05-medications-usability-testing-round3-AT": {
-      "key_themes": "usability-testing, moderated-research, remote-research, Acc…",
+      "key_themes": "Accessibility, Navigation, Timeline expectations, Search",
       "top_finding": "VoiceOver screen reader on iPad announced incorrect details not associated with the specific medication in focus",
       "impact": "Veterans can efficiently manage medications with improved accessibility and cle…",
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2024-05-medications-usability-testing-round3-AT/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-03-IPE-study": {
-      "key_themes": "usability-testing, moderated-research, remote-research, Acc…",
+      "key_themes": "Navigation, Accessibility, Error handling, Communication",
       "top_finding": "All participants (5 of 5) assumed the IPE was directing them to the sort feature",
       "impact": null,
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-03-IPE-study/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-06-IPE-ABC-testing": {
-      "key_themes": "moderated-research, remote-research",
+      "key_themes": "Form complexity",
       "top_finding": "Time on task was very similar among the three designs",
       "impact": null,
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-06-IPE-ABC-testing/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-11-medications-messaging-and-status-labels-usability-study": {
-      "key_themes": "usability-testing, moderated-research, remote-research, Acc…",
+      "key_themes": "Status clarity, Language clarity, Communication, Search",
       "top_finding": "Prescription statuses were largely understood; refill vs. renewal understanding varied",
       "impact": "Faster, more confident renewal requests with reduced uncertainty and clearer un…",
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-11-medications-messaging-and-status-labels-usability-study/findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/Discovery": {
-      "key_themes": "usability-testing, evaluative",
+      "key_themes": "Status clarity, Communication, Language clarity",
       "top_finding": "5 out of 11 participants opened the Refill status tag, while 7 referenced its contents. Of the 5 who opened the tag, 3 …",
       "impact": null,
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/Discovery/RefillStatus_ResearchFindings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2022-09-usability_testing_2": {
-      "key_themes": "usability-testing, moderated-research, remote-research",
+      "key_themes": "Error handling, Communication, Search, Timeline expectations",
       "top_finding": "Most participants (11 of 17) looked for a Save Draft button when asked if their draft would be available later",
       "impact": "Veterans can easily and safely communicate with their healthcare providers thro…",
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2022-09-usability_testing_2/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-01-patient-safety-notice-usability-testing": {
-      "key_themes": "usability-testing, moderated-research, remote-research, Acc…",
+      "key_themes": "Error handling, Communication, Timeline expectations, Mobile",
       "top_finding": "All participants (19 of 19) were able to accurately describe the purpose of the interstitial page when they reached the…",
       "impact": "Not explicitly specified in findings report",
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-01-patient-safety-notice-usability-testing/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-08-triage-group-generative-study": {
-      "key_themes": "generative-research, semi-structured-interviews, card-sort,…",
+      "key_themes": "Form complexity, Mobile, Timeline expectations",
       "top_finding": "Most participants prefer Secure Messaging over calling because of the complexity of the VA phone system.",
       "impact": null,
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-08-triage-group-generative-study/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-09-usability-round3-phase0": {
-      "key_themes": "Accessibility, usability-testing, assistive-technology, scr…",
+      "key_themes": "Error handling, Communication",
       "top_finding": "Participants had trouble determining if there were attachments",
       "impact": null,
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-09-usability-round3-phase0/2023-Sept-Oct-Secure-Messaging-accessibility-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2025-06-curated-list-usability-testing": {
-      "key_themes": "usability-testing, moderated-research, remote-research, Acc…",
+      "key_themes": "Communication, Navigation, Search",
       "top_finding": "All participants (8 of 8) successfully found the intended care team on the Recent Care Teams list",
       "impact": "Veterans can efficiently find and message the correct care team using the curat…",
       "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2025-06-curated-list-usability-testing/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/SecureMessaging_Round1_Usability": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/SecureMessaging_Round1_Usability/Final_Report.md",
+      "extraction_method": "keywords"
+    },
+    "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/prior-research": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/prior-research/mhv-accessibility-findings.md",
+      "extraction_method": "keywords"
     },
     "products/health-care/digital-health-modernization/pre-mhv-prototype/research/generative-research-study-1": {
-      "key_themes": null,
+      "key_themes": "Navigation, Form complexity, Trust",
       "top_finding": "Veterans have to navigate multiple health care systems, providers, and insurers to get the care they need.",
       "impact": null,
       "source_file": "products/health-care/digital-health-modernization/pre-mhv-prototype/research/generative-research-study-1/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "products/health-care/digital-health-pathway/research": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/health-care/digital-health-pathway/research/CGM-clinician-discovery-report.md",
+      "extraction_method": "keywords"
     },
     "products/health-care/foreign-medical-program/10-7959f-1/research/stakeholders": {
-      "key_themes": "Internal Research: Platform Research, Discovery, Stakeholde…",
+      "key_themes": "Evidence submission, Communication, Language clarity, Search",
       "top_finding": "Documents often come in by mail but can be sent by email (especially from the Philippines), fax, and AskVA. Emails some…",
       "impact": "Not explicitly specified in report",
       "source_file": "products/health-care/foreign-medical-program/10-7959f-1/research/stakeholders/stakeholder-research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/foreign-medical-program/10-7959f-1/research/users": {
       "key_themes": null,
       "top_finding": null,
       "impact": "Veterans overseas can easily complete and submit FMP registration with clear ex…",
       "source_file": "products/health-care/foreign-medical-program/10-7959f-1/research/users/2024-03-preliminary-research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "none"
     },
     "products/health-care/foreign-medical-program/10-7959f-2/research/2025-10-FMP-Claims-Direct-Deposit-Content-Study": {
-      "key_themes": "usability-testing, semi-structured-interviews, moderated-re…",
+      "key_themes": "Status clarity, Language clarity, Form complexity",
       "top_finding": "6 out of the 8 participants felt the introduction page content was clear with easy to understand instructions and they …",
       "impact": "Reducing confusion around the process to set up direct deposit for FMP claims a…",
       "source_file": "products/health-care/foreign-medical-program/10-7959f-2/research/2025-10-FMP-Claims-Direct-Deposit-Content-Study/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/foreign-medical-program/10-7959f-2/research/stakeholders": {
-      "key_themes": "semi-structured-interviews, stakeholder-research, discovery…",
+      "key_themes": "Navigation, Evidence submission, Search, Communication",
       "top_finding": "Finding 1: Documents often come in by mail but can be sent by email (especially from the Philippines), fax, and AskVA.",
       "impact": null,
       "source_file": "products/health-care/foreign-medical-program/10-7959f-2/research/stakeholders/stakeholder-research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/prescription-refills/mhv-prescription-refill/2022-medication-refill-statuses/Research": {
-      "key_themes": null,
+      "key_themes": "Status clarity, Communication, Evidence submission",
       "top_finding": "5 out of 11 participants opened the Refill status tag while 7 referenced its contents indicating that content is helpfu…",
       "impact": "Veterans can easily understand their prescription statuses and take appropriate…",
       "source_file": "products/health-care/prescription-refills/mhv-prescription-refill/2022-medication-refill-statuses/Research/RefillStatus_ResearchFindings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/prescription-refills/mhv-prescription-refill/2023-01-pharmacy-drug-image-display/Research": {
-      "key_themes": "usability-testing, evaluative",
+      "key_themes": "Communication, Trust, Search, Timeline expectations",
       "top_finding": "10 out of 19 participants had no other reason to visit the Refill VA Prescriptions page",
       "impact": null,
       "source_file": "products/health-care/prescription-refills/mhv-prescription-refill/2023-01-pharmacy-drug-image-display/Research/Drug_Image_Display_ResearchFindings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/prescription-refills/vets-prescriptions/research/vets.gov-prototype": {
-      "key_themes": "remote-research",
+      "key_themes": "Navigation, Search",
       "top_finding": null,
       "impact": null,
       "source_file": "products/health-care/prescription-refills/vets-prescriptions/research/vets.gov-prototype/rx-7.8.16-findingssummary.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/questionnaire/research/2024-04-clinincal-reminders-PCP": {
-      "key_themes": null,
+      "key_themes": "Evidence submission, Timeline expectations, Search",
       "top_finding": "1 out 5 participants observed a somewhat improvement in the quality of time spent with Veterans during the pilot dates.…",
       "impact": "Providers experience reduced burden from clinical reminder data entry and notif…",
       "source_file": "products/health-care/questionnaire/research/2024-04-clinincal-reminders-PCP/Research Findings for Primary Care Provider Survey Phase 1b.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/questionnaire/research/all-mvp-workflows": {
-      "key_themes": "usability-testing, moderated-research, evaluative",
+      "key_themes": "Timeline expectations, Status clarity, Communication",
       "top_finding": "Veterans welcomed and even expected email and text notifications for health questionnaires.",
       "impact": "Not explicitly stated in report",
       "source_file": "products/health-care/questionnaire/research/all-mvp-workflows/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/questionnaire/research/health-record": {
-      "key_themes": "moderated-research, remote-research, card-sort, discovery, …",
+      "key_themes": "Evidence submission, Mobile, Communication, Status clarity",
       "top_finding": "Veterans often need to communicate changes to their medication, allergy, and immunization record. Veterans utilize a va…",
       "impact": null,
       "source_file": "products/health-care/questionnaire/research/health-record/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/questionnaire/research/mvp-usability": {
-      "key_themes": "usability-testing, moderated-research, remote-research",
+      "key_themes": "Communication, Timeline expectations, Navigation, Search",
       "top_finding": "Nurses, who normally ask intake questions, are less (or not at all) involved in virtual appointments.",
       "impact": null,
       "source_file": "products/health-care/questionnaire/research/mvp-usability/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/questionnaire/research/veteran-prioritization": {
-      "key_themes": "card-sort, moderated-research, evaluative, discovery",
+      "key_themes": "Communication",
       "top_finding": "We are heading in the right direction with the \"Reason for visit\" questionnaire.",
       "impact": null,
       "source_file": "products/health-care/questionnaire/research/veteran-prioritization/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/supply-reordering-tool/research/2024-03-Supply-Reordering-Research": {
-      "key_themes": null,
+      "key_themes": "Communication",
       "top_finding": "All participants mentioned having notes, doing mental checks, or checking inventories to track when they need to reorde…",
       "impact": "Evaluate and improve medical supply reordering tool before adding more supplies",
       "source_file": "products/health-care/supply-reordering-tool/research/2024-03-Supply-Reordering-Research/Findings and recommendations.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/supply-reordering-tool/research/2024-04-Meds and supplies concept testing": {
-      "key_themes": null,
+      "key_themes": "Navigation, Search, Form complexity",
       "top_finding": "Most participants (10 out of 15) found option 3 (medications and supplies combined) the easiest to find and order items…",
       "impact": "Veterans can easily find and order both medications and medical supplies in one…",
       "source_file": "products/health-care/supply-reordering-tool/research/2024-04-Meds and supplies concept testing/Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/health-care/supply-reordering-tool/research/2025-02 Multistep task pattern research": {
-      "key_themes": "moderated-research",
+      "key_themes": "Evidence submission, Status clarity, Search, Navigation",
       "top_finding": "Veterans frequently clicked on the list view cards to initiate their tasks, rather than using the Start Order action li…",
       "impact": "Veterans can complete routine tasks like ordering medical supplies more quickly…",
       "source_file": "products/health-care/supply-reordering-tool/research/2025-02 Multistep task pattern research/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/home-page/research/2022-09-redesign-usability-round2": {
-      "key_themes": "usability-testing, moderated-research, remote-research, Acc…",
+      "key_themes": "Search, Accessibility, Error handling",
       "top_finding": "Almost half of participants focused their attention on a specific part of the home page while the rest scrolled up and …",
       "impact": "Veterans and beneficiaries can quickly find and complete their top tasks from t…",
       "source_file": "products/home-page/research/2022-09-redesign-usability-round2/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/home-page/research/2024-medallia-feedback": {
-      "key_themes": null,
+      "key_themes": "Navigation",
       "top_finding": "The largest pain point was Sign In: 88 of 743 responses",
       "impact": "Improved sign-in experience and easier site navigation",
       "source_file": "products/home-page/research/2024-medallia-feedback/findings-summary.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/home-page/research/redesign-usability": {
-      "key_themes": "usability-testing, moderated-research, remote-research, eva…",
+      "key_themes": "Search, Navigation, Accessibility, Error handling",
       "top_finding": "Most participants browsed (clicking links) without using the Search box at all or searched only when browsing didn’t wo…",
       "impact": null,
       "source_file": "products/home-page/research/redesign-usability/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "products/identity/Products/Production Test Accounts/Research": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/identity/Products/Production Test Accounts/Research/[ Findings ] MHV Coordinators and Veteran Interations.md",
+      "extraction_method": "keywords"
     },
     "products/identity/Research/2022-11 Login.gov Remote Identity Proofing": {
-      "key_themes": null,
+      "key_themes": "Evidence submission, Error handling, Mobile, Form complexity",
       "top_finding": "Only 10 of 21 participants successfully created account and proved identity",
       "impact": "Veterans can successfully create Login.gov accounts and complete identity proof…",
       "source_file": "products/identity/Research/2022-11 Login.gov Remote Identity Proofing/2022-11  Research Findings - Remote Identity Proofing and MFA.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "products/identity/Research/2023-02 Desk Research": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/identity/Research/2023-02 Desk Research/Findings from VA login post comment analysis.md",
+      "extraction_method": "keywords"
     },
     "products/identity/Research/2023-04 Proactive CSP Migration": {
-      "key_themes": "INTIVE: CX Executive Order, usability-testing, semi-structu…",
+      "key_themes": "Communication, Language clarity",
       "top_finding": "Modals are disruptive and annoying, and veterans don't want to be interrupted by a modal in the middle of a task, espec…",
       "impact": null,
       "source_file": "products/identity/Research/2023-04 Proactive CSP Migration/2023-04 Proactive CSP Migration research findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity/Research/2023-06 Mocked Authentication": {
-      "key_themes": "usability-testing, Internal Research: Platform Research",
+      "key_themes": "Communication, Error handling, Evidence submission",
       "top_finding": "All of the participants were more likely to use ID.ME or Login.gov as a secondary credential provider.",
       "impact": null,
       "source_file": "products/identity/Research/2023-06 Mocked Authentication/Mocked Authentication research findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity/Research/2023-07 Terms of Use": {
-      "key_themes": "Accessibility, usability-testing",
+      "key_themes": "Timeline expectations, Language clarity",
       "top_finding": "Terms of Use is a widely accepted practice, and veterans expect to see them",
       "impact": null,
       "source_file": "products/identity/Research/2023-07 Terms of Use/2023-08 Terms of use research findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity/Research/2023-11 Manage Signed-in Devices": {
-      "key_themes": null,
+      "key_themes": "Form complexity, Navigation, Search, Communication",
       "top_finding": "Most Veterans did not have security concerns with being signed into concurrent sessions on their accounts. Some saw usi…",
       "impact": null,
       "source_file": "products/identity/Research/2023-11 Manage Signed-in Devices/2023-11 Manage Signed-in Devices Research Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity/Research/2024-08 Analytics": {
-      "key_themes": null,
+      "key_themes": "Status clarity",
       "top_finding": "About 45% of sessions starting on VA.gov or MHV home pages move to sign in next",
       "impact": "Veterans can easily sign in from their preferred entry points",
       "source_file": "products/identity/Research/2024-08 Analytics/2024-08 Google Analytics identity related findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity/Research/2024-08 Sign in transition": {
-      "key_themes": null,
+      "key_themes": "Timeline expectations, Error handling, Communication, Mobile",
       "top_finding": "Most participants were already prepared for the credential change",
       "impact": "Veterans successfully transition from MHV credential to modern credential with …",
       "source_file": "products/identity/Research/2024-08 Sign in transition/2024-08 Research Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity/Research/2026-01 dissatisfaction discovery": {
-      "key_themes": "Accessibility, discovery, evaluative, secondary-research",
+      "key_themes": "Communication, Error handling, Mobile, Evidence submission",
       "top_finding": "Sign-in dissatisfaction decreased to 68.8% in September 2025 (measured via Medallia intercept survey negative sentiment…",
       "impact": "Not explicitly stated in findings report",
       "source_file": "products/identity/Research/2026-01 dissatisfaction discovery/2026-01 Dissatisfaction Discovery - Research Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity/Research/2026-02 ID.me - MHV Coordinator Verification Assistance": {
-      "key_themes": "Internal Research: Platform Research",
+      "key_themes": "Error handling, Navigation, Timeline expectations, Mobile",
       "top_finding": "Coordinators across all five sites support ID.me issues daily and are often the sole support resource for their facilit…",
       "impact": null,
       "source_file": "products/identity/Research/2026-02 ID.me - MHV Coordinator Verification Assistance/Research Report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity/Research/Ongoing - quantitative data": {
-      "key_themes": null,
+      "key_themes": "Error handling, Form complexity, Mobile",
       "top_finding": "89% of Medallia feedback survey responses were negative, dominated by CSP transition issues",
       "impact": "Veterans can successfully transition to modern credentials with reduced friction",
       "source_file": "products/identity/Research/Ongoing - quantitative data/2024 Q4 quantitative data findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity/Research/login.gov": {
-      "key_themes": "usability-testing, semi-structured-interviews, evaluative",
+      "key_themes": "Timeline expectations, Communication",
       "top_finding": "Most participants would consider signing in with Login.gov but were hesitant to do so without more information on what …",
       "impact": null,
       "source_file": "products/identity/Research/login.gov/Login.gov-Research-Findings-Synthesis.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity/delegate-access /Research": {
-      "key_themes": "Accessibility",
+      "key_themes": "Navigation, Search, Evidence submission, Status clarity",
       "top_finding": "The burden of being a caregiver is heavy. Caregivers who work with their loved ones seemed overwhelmed. Some are able t…",
       "impact": "Learn about the process of how caregivers are able to complete various tasks an…",
       "source_file": "products/identity/delegate-access /Research/2025-05-Healthcare Representative Research Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity/login/mhv/mhv-account-creation_2017/research": {
-      "key_themes": "usability-testing, evaluative",
+      "key_themes": "Navigation, Search",
       "top_finding": "Users did not read the terms and conditions and tried to click the agree button/checkbox immediately without scrolling",
       "impact": null,
       "source_file": "products/identity/login/mhv/mhv-account-creation_2017/research/research-findings2.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity-personalization/direct-deposit/Research/2023-08-direct-deposit-UAT": {
-      "key_themes": "uat",
+      "key_themes": "Communication, Error handling",
       "top_finding": "UAT went smoothly and no changes are needed",
       "impact": null,
       "source_file": "products/identity-personalization/direct-deposit/Research/2023-08-direct-deposit-UAT/2023-08 UAT findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity-personalization/my-va/2022-audit/research": {
-      "key_themes": "usability-testing, moderated-research, remote-research, Acc…",
+      "key_themes": "Navigation, Search, Form complexity, Language clarity",
       "top_finding": "All participants had positive reactions to seeing My VA immediately upon login",
       "impact": "Veterans can quickly access and manage all their VA benefits from a single pers…",
       "source_file": "products/identity-personalization/my-va/2022-audit/research/MyVA-audit-research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity-personalization/my-va/research/2025-03-secondaryresearch": {
-      "key_themes": "usability-testing, evaluative",
+      "key_themes": "Timeline expectations, Status clarity, Communication, Search",
       "top_finding": "Upon sign in, Veterans expect to see actionable tasks and notifications, that are relevant to them, in a centralized lo…",
       "impact": "Veterans can easily understand and access personalized, relevant information on…",
       "source_file": "products/identity-personalization/my-va/research/2025-03-secondaryresearch/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity-personalization/my-va/research/2025-08-myva3.0-phase1-usabilitytesting": {
-      "key_themes": "moderated-research",
+      "key_themes": "Navigation, Timeline expectations, Mobile, Status clarity",
       "top_finding": "Inline refill interactions that do not force a full page navigation were praised as fast and clear (high willingness to…",
       "impact": "Veterans can quickly complete key tasks (refills, check-in, find notifications)…",
       "source_file": "products/identity-personalization/my-va/research/2025-08-myva3.0-phase1-usabilitytesting/copilot-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity-personalization/onsite-notifications/dot-indicator/research/2024-03 Dot Indicator and Slim Alert Usability Study": {
-      "key_themes": null,
+      "key_themes": "Status clarity, Communication, Search",
       "top_finding": "The badge indicator was the preferred method of communicating healthcare updates on My VA, as opposed to dot indicators…",
       "impact": "Veterans receive clear, timely notifications about important updates that requi…",
       "source_file": "products/identity-personalization/onsite-notifications/dot-indicator/research/2024-03 Dot Indicator and Slim Alert Usability Study/Research Findings for 2024-03 Dot Indicator and Slim Alert Research Study.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity-personalization/profile/Combine Profile and Account/Research/2020-03-profile-redesign": {
-      "key_themes": "usability-testing, evaluative",
+      "key_themes": "Navigation, Form complexity, Mobile, Search",
       "top_finding": "Participants preferred the new profile design to the old design, and easily found what they were looking for within the…",
       "impact": null,
       "source_file": "products/identity-personalization/profile/Combine Profile and Account/Research/2020-03-profile-redesign/cpaa-research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "products/identity-personalization/profile/Combine Profile and Account/Research/2020-05-mobile-sub-navigation": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/identity-personalization/profile/Combine Profile and Account/Research/2020-05-mobile-sub-navigation/Mobile Sub-navigation MIni Session Findings.md",
+      "extraction_method": "keywords"
     },
     "products/identity-personalization/profile/Research/2022-09-profile-editing-evaluation": {
-      "key_themes": "usability-testing, moderated-research, remote-research, Acc…",
+      "key_themes": "Communication, Loading performance, Status clarity, Mobile",
       "top_finding": "9 of 11 participants were able to update VA.gov profile with in-line editing with relative ease",
       "impact": "Veterans with cognitive considerations and those using assistive technology can…",
       "source_file": "products/identity-personalization/profile/Research/2022-09-profile-editing-evaluation/findings-summary.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "products/identity-personalization/profile/Research/2023-10-UAT-edit-as-subtask-default-send-checkbox-ui": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/identity-personalization/profile/Research/2023-10-UAT-edit-as-subtask-default-send-checkbox-ui/findings-summary.md",
+      "extraction_method": "keywords"
     },
     "products/identity-personalization/profile/Research/2023-10-profile-hub-usability": {
-      "key_themes": "usability-testing, remote-research, Accessibility, AST: Scr…",
+      "key_themes": "Navigation, Status clarity, Communication, Search",
       "top_finding": "Nearly all participants were able to complete tasks effectively using the Profile Hub.",
       "impact": null,
       "source_file": "products/identity-personalization/profile/Research/2023-10-profile-hub-usability/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity-personalization/profile/Research/2024-01-military-info-enhancement-mvp": {
-      "key_themes": "semi-structured-interviews, remote-research, card-sort",
+      "key_themes": "Evidence submission, Accessibility, Error handling",
       "top_finding": "Veterans use military records for promotions during service, vocational training, job applications after separation, an…",
       "impact": "Veterans can access more complete military service information to support benef…",
       "source_file": "products/identity-personalization/profile/Research/2024-01-military-info-enhancement-mvp/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity-personalization/profile/Research/2024-04-direct-deposit-ch33-UAT": {
-      "key_themes": null,
+      "key_themes": "Communication, Timeline expectations, Status clarity",
       "top_finding": "All 5 participants successfully completed all 10 UAT tasks for direct deposit functionality",
       "impact": "Veterans can successfully view and manage their direct deposit information for …",
       "source_file": "products/identity-personalization/profile/Research/2024-04-direct-deposit-ch33-UAT/Direct deposit payment instruction consolidation UAT Findings-July 2024.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity-personalization/profile/Research/2025-03-profile-secondary-research": {
-      "key_themes": "usability-testing, evaluative",
+      "key_themes": "Evidence submission, Communication, Timeline expectations",
       "top_finding": "Veterans want VA.gov to be a 'one-stop shop' for all their personal information and documents.",
       "impact": "Report of user themes and opportunities for the Authenticated Experience team.",
       "source_file": "products/identity-personalization/profile/Research/2025-03-profile-secondary-research/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity-personalization/profile/Research/2025-09-email-verification-desk-research": {
-      "key_themes": "evaluative",
+      "key_themes": "Communication, Navigation, Mobile, Search",
       "top_finding": "When implementing policy changes, teams have found that users need benefits and risks of opting in/out clearly and conc…",
       "impact": "Ensure the content and process are not frustrating or confusing for our users, …",
       "source_file": "products/identity-personalization/profile/Research/2025-09-email-verification-desk-research/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity-personalization/profile/contact-information/research/2020-04-address-management": {
-      "key_themes": "semi-structured-interviews, generative",
+      "key_themes": "Trust, Mobile, Communication, Timeline expectations",
       "top_finding": "Veterans have built manual processes to manage their addresses at the VA. In part this is due to a disparate awareness …",
       "impact": "Veterans can reliably update their address and trust that the change propagated…",
       "source_file": "products/identity-personalization/profile/contact-information/research/2020-04-address-management/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/identity-personalization/profile/preferred-facility/research/2021-05-preferred-facilities": {
-      "key_themes": "Internal Research: Platform Research, usability-testing, ev…",
+      "key_themes": "Timeline expectations, Communication",
       "top_finding": "All participants understood the facility list to be places where a Veteran had received health care",
       "impact": null,
       "source_file": "products/identity-personalization/profile/preferred-facility/research/2021-05-preferred-facilities/internal-usability-study-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/income-limits-app/initiatives/2023-launch/research/2023-01-income-limits-usability": {
-      "key_themes": "usability-testing, remote-research",
+      "key_themes": "Language clarity, Form complexity, Navigation",
       "top_finding": "All participants understood the purpose of the app and found it easy to use.",
       "impact": null,
       "source_file": "products/income-limits-app/initiatives/2023-launch/research/2023-01-income-limits-usability/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/information-architecture/research-and-analytics/2019-vamc-navigation/left-nav/research": {
-      "key_themes": "usability-testing, evaluative, VAMC, navigation, informatio…",
+      "key_themes": "Navigation, Search",
       "top_finding": "Users of the current local navigation design cannot easily find content deeper within the site without engaging in pogo…",
       "impact": null,
       "source_file": "products/information-architecture/research-and-analytics/2019-vamc-navigation/left-nav/research/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/iris/research/discovery-interviews": {
-      "key_themes": "discovery, semi-structured-interviews",
+      "key_themes": "Navigation, Evidence submission, Timeline expectations",
       "top_finding": "The Ask a Query experience was functional for some participants, but others felt frustrated by the design of the form a…",
       "impact": null,
       "source_file": "products/iris/research/discovery-interviews/iris-research-report-discovery-phase.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/iris/research/usability-testing": {
-      "key_themes": "usability-testing",
+      "key_themes": "Evidence submission, Error handling, Communication",
       "top_finding": "Participants were able to successfully submit the form",
       "impact": "Not explicitly stated in the report",
       "source_file": "products/iris/research/usability-testing/IRIS Usability Testing Research Report Fall 2020.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/live-agent/research/2023-07-Live Agent Chatbot_Interviews with Veterans": {
-      "key_themes": "Initiative: CX Executive Order, semi-structured-interviews,…",
+      "key_themes": "Trust",
       "top_finding": "Veterans prefer Live Chat to calling in the majority of scenarios",
       "impact": null,
       "source_file": "products/live-agent/research/2023-07-Live Agent Chatbot_Interviews with Veterans/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/login.gov-adoption/discovery/research/2022-10-Login.gov-Adoption-Discovery-Research": {
-      "key_themes": "semi-structured-interviews, discovery, evaluative",
+      "key_themes": "Evidence submission, Form complexity, Communication",
       "top_finding": "Setting up new credential is frustrating if made to seem like a choice when it's required",
       "impact": "Veterans successfully migrate to Login.gov and can easily access My HealtheVet …",
       "source_file": "products/login.gov-adoption/discovery/research/2022-10-Login.gov-Adoption-Discovery-Research/login.gov adoption discovery research findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/login.gov-adoption/discovery/research/2023-03-Deferred-Identity-Proofing-Round-1-Usability": {
-      "key_themes": "usability-testing",
+      "key_themes": "Communication, Form complexity, Language clarity",
       "top_finding": "Most Veterans are motivated to set up a Login.gov account because they're concerned about losing access to their benefi…",
       "impact": "Not explicitly stated in the report",
       "source_file": "products/login.gov-adoption/discovery/research/2023-03-Deferred-Identity-Proofing-Round-1-Usability/research findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/login.gov-adoption/in-person-proofing/research/2023-12-in-person-proofing-pilot-SME Interviews": {
-      "key_themes": "semi-structured-interviews, discovery, Accessibility",
+      "key_themes": "Navigation, Evidence submission, Search, Error handling",
       "top_finding": "Feedback on IPP as a Service — Key Finding 1: MHV coordinators displayed positive reactions towards the proposed user f…",
       "impact": "Not explicitly stated in report",
       "source_file": "products/login.gov-adoption/in-person-proofing/research/2023-12-in-person-proofing-pilot-SME Interviews/2023-12-in-person-proofing-pilot-SME Interviews-Research Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/login.gov-adoption/in-person-proofing/research/2024-03_Pilot": {
-      "key_themes": null,
+      "key_themes": "Evidence submission, Loading performance",
       "top_finding": "In-Person Identity Proofing is simple and straightforward - all participants and VA staff commented positively on ease …",
       "impact": "Veterans can verify their identity in person at VA facilities with a simple, se…",
       "source_file": "products/login.gov-adoption/in-person-proofing/research/2024-03_Pilot/IPP-Pilot-Report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/outreach-events/research/2021-filtering-recurring-events": {
-      "key_themes": "usability-testing, events, evaluative",
+      "key_themes": "Communication, Form complexity, Navigation, Search",
       "top_finding": "All participants understood the concept of recurring events in the prototype",
       "impact": "Veterans can easily find and register for VA events that interest them",
       "source_file": "products/outreach-events/research/2021-filtering-recurring-events/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/outreach-events/research/2024-Medallia-feedback": {
-      "key_themes": "remote-research",
+      "key_themes": "Navigation, Search, Communication, Trust",
       "top_finding": "The website provides valuable information, but navigation and event findability need improvement (33/189, 17%)",
       "impact": "Veterans can easily find, filter, and register for relevant events in their loc…",
       "source_file": "products/outreach-events/research/2024-Medallia-feedback/findings-summary.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/pact-act-wizard/research/2023-2024-launch": {
-      "key_themes": "usability-testing, remote-research",
+      "key_themes": "Language clarity, Form complexity, Communication, Trust",
       "top_finding": "All 9 participants had positive experience with wizard and could understand eligibility and next steps",
       "impact": "Veterans can easily determine if PACT Act applies to them and understand how to…",
       "source_file": "products/pact-act-wizard/research/2023-2024-launch/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "products/paperless-delivery/Research/2025-05-Research-Initiative-2": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/paperless-delivery/Research/2025-05-Research-Initiative-2/Summary of Findings.md",
+      "extraction_method": "keywords"
     },
     "products/pension/research/2024 02 Pension Usability Evaluation": {
-      "key_themes": "usability-testing, semi-structured-interviews, remote-resea…",
+      "key_themes": "Timeline expectations, Communication, Evidence submission",
       "top_finding": "6 of 10 participants mistakenly thought 527EZ was for military retirement pension, not aware form only for Veterans bel…",
       "impact": "Veterans can accurately complete pension application with clear understanding o…",
       "source_file": "products/pension/research/2024 02 Pension Usability Evaluation/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/pension/research/2024-09 527EZ VSO Research": {
-      "key_themes": "semi-structured-interviews, moderated-research, remote-rese…",
+      "key_themes": "Communication, Form complexity, Timeline expectations",
       "top_finding": "Pension-eligible Veterans typically contact VSOs when they are already in dire financial need, potentially missing out …",
       "impact": "Veterans and families can more easily learn about, apply for, receive, and main…",
       "source_file": "products/pension/research/2024-09 527EZ VSO Research/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/pension/research/2024-10 Intent to File Comprehension": {
-      "key_themes": "semi-structured-interviews, moderated-research, remote-rese…",
+      "key_themes": "Timeline expectations, Status clarity, Form complexity",
       "top_finding": "Participants' familiarity with intent to file and learning sources varied widely - some used it before, others heard of…",
       "impact": "Veterans understand when and why to file intent to file, maximize their potenti…",
       "source_file": "products/pension/research/2024-10 Intent to File Comprehension/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/pension/research/2025 04 Pension Exploratory Research": {
-      "key_themes": "generative-research, semi-structured-interviews, remote, mo…",
+      "key_themes": "Trust, Communication, Evidence submission, Form complexity",
       "top_finding": "All Veteran participants were already experiencing adverse financial or medical conditions when they began to seek out …",
       "impact": "Not explicitly stated in findings report",
       "source_file": "products/pension/research/2025 04 Pension Exploratory Research/Pension Application Generative Research Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/pension/research/2025-07 0969 Usability Study": {
-      "key_themes": "semi-structured-interviews, remote-research, evaluative",
+      "key_themes": "Navigation, Status clarity, Form complexity, Search",
       "top_finding": "When asked what level of effort was required to complete the form (1 being lowest and 5 being highest) 6 out of 7 users…",
       "impact": "This research supports our desired user outcome by identifying areas of success…",
       "source_file": "products/pension/research/2025-07 0969 Usability Study/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/pension/research/2025-09 Intent to File Unmoderated Study": {
-      "key_themes": "usability-testing, moderated-research, evaluative",
+      "key_themes": "Language clarity, Error handling",
       "top_finding": "Participants understand intent to file as an action, but most did not mention the financial benefit",
       "impact": "0",
       "source_file": "products/pension/research/2025-09 Intent to File Unmoderated Study/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/pension/research/2025-12 Pension Disability Alert": {
-      "key_themes": "usability-testing, evaluative, authenticated-experience, el…",
+      "key_themes": "Accessibility, Language clarity, Timeline expectations",
       "top_finding": "All participants (100%) demonstrated understanding that their current disability pay is the greater benefit and recogni…",
       "impact": "Veterans with 100% disability ratings can quickly and accurately determine whet…",
       "source_file": "products/pension/research/2025-12 Pension Disability Alert/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/pension/research/2026-01 534EZ Usability Study": {
-      "key_themes": null,
+      "key_themes": "Communication, Language clarity",
       "top_finding": "Most participants struggled with the logic and found the workflow hard to follow, especially in the Household informati…",
       "impact": null,
       "source_file": "products/pension/research/2026-01 534EZ Usability Study/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/platform/login-self-service-tool/research/2022-Q3": {
-      "key_themes": "usability-testing, moderated-research, remote-research, Acc…",
+      "key_themes": "Error handling",
       "top_finding": "All participants were able to successfully use the prototype",
       "impact": "Veterans can quickly identify login problems and access appropriate resources w…",
       "source_file": "products/platform/login-self-service-tool/research/2022-Q3/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/proactive-benefits/research/2023-11-Outreach Exploration": {
-      "key_themes": "Initiative: PACT Act, Initiative: Toxic Exposure",
+      "key_themes": "Timeline expectations, Communication, Error handling, Trust",
       "top_finding": "A strong case wasn't made to either avoid or pursue a specific channel for outreach. A letter was in line with most par…",
       "impact": "Inform our outreach channel, content, and outreach strategy",
       "source_file": "products/proactive-benefits/research/2023-11-Outreach Exploration/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/public-websites/research/202104-baseline-wayfinding": {
-      "key_themes": "Accessibility",
+      "key_themes": "Navigation, Mobile, Search, Status clarity",
       "top_finding": "All participants were able to successfully complete 3 of the 9 tasks (#2, 1, 4), and most completed 3 more of the tasks…",
       "impact": "Not explicitly stated in the report",
       "source_file": "products/public-websites/research/202104-baseline-wayfinding/research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/resources-and-support/research/2024-search-filters": {
-      "key_themes": null,
+      "key_themes": "Search, Communication, Navigation, Language clarity",
       "top_finding": "Almost all participants found desired information via browsing or searching - 10 of 12 completed all tasks",
       "impact": "Veterans and beneficiaries can efficiently find relevant benefit information us…",
       "source_file": "products/resources-and-support/research/2024-search-filters/research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/resources-for-schools/research": {
-      "key_themes": "usability-testing, evaluative",
+      "key_themes": "Navigation, Search, Status clarity, Communication",
       "top_finding": "Enrollment Manager: Participants highly prioritize easy access to the Enrollment Manager, acknowledging its crucial rol…",
       "impact": null,
       "source_file": "products/resources-for-schools/research/research findings summary.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/va-mobile-app/research/2026-03-Homescreen-Research": {
-      "key_themes": "usability-testing, concept-testing, information-architectur…",
+      "key_themes": "Navigation, Timeline expectations, Status clarity, Search",
       "top_finding": "All participants expect to find items on the homescreen requiring attention and action including: - Alerts - Updates fr…",
       "impact": null,
       "source_file": "products/va-mobile-app/research/2026-03-Homescreen-Research/Research-Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/va-mobile-app/research/Forms MVP Research": {
-      "key_themes": "Accessibility, usability-testing",
+      "key_themes": "Navigation, Form complexity, Timeline expectations, Search",
       "top_finding": "Locating Forms Is Difficult: Most Veterans struggled to find the forms section, often expecting it under \"Claims\" rathe…",
       "impact": null,
       "source_file": "products/va-mobile-app/research/Forms MVP Research/research-findings-AT-copilot.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/va-notify/research/2023-10-Email-Content-Research": {
-      "key_themes": null,
+      "key_themes": "Communication, Trust, Navigation, Search",
       "top_finding": "Veterans wanted more information and/or context in all of their emails (11 of 11)",
       "impact": null,
       "source_file": "products/va-notify/research/2023-10-Email-Content-Research/Email Content Research Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/vet-transition-support/research/2024-02-discovery": {
-      "key_themes": "semi-structured-interviews, remote-research, discovery",
+      "key_themes": "Communication, Accessibility, Evidence submission",
       "top_finding": "Different participants had different preferences for viewing benefit information - some want full list, others want cur…",
       "impact": "Veterans and transitioning servicemembers can discover relevant benefits and su…",
       "source_file": "products/vet-transition-support/research/2024-02-discovery/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/vet-transition-support/research/2024-07-user-testing-v1": {
-      "key_themes": "moderated-research, remote-research, semi-structured-interv…",
+      "key_themes": "Form complexity, Navigation, Accessibility, Search",
       "top_finding": "Most participants wanted a name that's straightforward and describes the tool's purpose",
       "impact": "Veterans and transitioning servicemembers can easily discover and understand re…",
       "source_file": "products/vet-transition-support/research/2024-07-user-testing-v1/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/vet-transition-support/research/2024-10-user-testing-v2": {
-      "key_themes": "usability-testing, semi-structured-interviews, remote-resea…",
+      "key_themes": "Navigation, Search, Form complexity, Timeline expectations",
       "top_finding": "Some participants were confused by the Figma prototype, particularly the limited Review, Results, and window-shopping p…",
       "impact": "Veterans and transitioning servicemembers can easily discover relevant benefits…",
       "source_file": "products/vet-transition-support/research/2024-10-user-testing-v2/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/vet-transition-support/research/2025-07-generative-and-user-testing-study": {
-      "key_themes": "usability-testing, semi-structured-interviews, remote-resea…",
+      "key_themes": "Search, Communication, Accessibility, Mobile",
       "top_finding": "There is surprisingly little relationship between the goals participants chose and the benefits they explored. Particip…",
       "impact": "TSMs can effectively discover relevant benefits, track their transition progres…",
       "source_file": "products/vet-transition-support/research/2025-07-generative-and-user-testing-study/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/vet-transition-support/results-page-2.0/research/results-page-2.0-usability-study": {
-      "key_themes": "usability-testing, moderated-research, remote-research, A/B…",
+      "key_themes": "Language clarity, Mobile, Communication, Navigation",
       "top_finding": "Radio button is more successful than checkbox at supporting users in understanding and exploring the results page",
       "impact": "Veterans can intuitively discover and understand benefits relevant to their cur…",
       "source_file": "products/vet-transition-support/results-page-2.0/research/results-page-2.0-usability-study/results-page-2.0-research-findings-February-2026.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/veteran-military-records/discharge-upgrade-wizard/research/2024-Review-Flow": {
-      "key_themes": "usability-testing, moderated-research, remote-research, Acc…",
+      "key_themes": "Navigation, Form complexity, Language clarity, Communication",
       "top_finding": "All participants were able to navigate the edit flow with no difficulty",
       "impact": "Veterans can successfully navigate the discharge upgrade wizard with edit flow …",
       "source_file": "products/veteran-military-records/discharge-upgrade-wizard/research/2024-Review-Flow/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/veteran-onboarding/research/2024": {
-      "key_themes": "usability-testing, remote-research",
+      "key_themes": "Communication",
       "top_finding": "Engagement during out-processing varied.",
       "impact": "Not explicitly stated in the report",
       "source_file": "products/veteran-onboarding/research/2024/research findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/veteran-onboarding/research/2025-study": {
-      "key_themes": "usability-testing, moderated-research, remote-research, sem…",
+      "key_themes": "Search, Status clarity, Accessibility",
       "top_finding": "14 of 16 participants (88%) preferred application-focused modal over action-focused",
       "impact": "New Veterans can quickly navigate to and apply for the benefits they need durin…",
       "source_file": "products/veteran-onboarding/research/2025-study/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/veteran-status/v1/Research/2023-12-VetStatus-Use-Case-Discovery": {
-      "key_themes": "discovery, generative, semi-structured-interviews, accessib…",
+      "key_themes": "Mobile, Navigation, Search",
       "top_finding": "Participants access VA benefits digitally and physically, but prefer digital where possible.",
       "impact": null,
       "source_file": "products/veteran-status/v1/Research/2023-12-VetStatus-Use-Case-Discovery/2023-12-Findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/virtual-agent/research/2025-07-Chatbot User Testing": {
-      "key_themes": "usability-testing, evaluative, Accessibility",
+      "key_themes": "Language clarity, Form complexity, Status clarity, Search",
       "top_finding": "Confusion About Login Options: Several users were confused about the task they were asked to complete and thought they …",
       "impact": "Use a chatbot with the best UI, best message, best features, easiest to underst…",
       "source_file": "products/virtual-agent/research/2025-07-Chatbot User Testing/ResearchFindings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "products/virtual-agent/research/2025-10-Chatbot User Testing Round 2": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/virtual-agent/research/2025-10-Chatbot User Testing Round 2/InternalStakeholdersFindings.md",
+      "extraction_method": "keywords"
     },
     "products/virtual-agent/research/claims-and-automated-content-study": {
-      "key_themes": "usability-testing, evaluative",
+      "key_themes": "Communication, Loading performance, Mobile",
       "top_finding": "Vets consistently preferred the preview response for Drupal content because it provided just enough context to make the…",
       "impact": null,
       "source_file": "products/virtual-agent/research/claims-and-automated-content-study/research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "products/virtual-agent/research/controlled-study": {
-      "key_themes": "evaluative, unmoderated, Accessibility",
+      "key_themes": "Trust, Language clarity",
       "top_finding": "The chatbot was rated as being fairly accurate, although the level of accuracy left some participants feeling frustrate…",
       "impact": null,
       "source_file": "products/virtual-agent/research/controlled-study/research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "products/virtual-agent/research/inclusive-design-interviews": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/virtual-agent/research/inclusive-design-interviews/report.md",
+      "extraction_method": "keywords"
+    },
+    "products/virtual-agent/research/moderated-interviews": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "products/virtual-agent/research/moderated-interviews/virtual-agent-branding-report.md",
+      "extraction_method": "keywords"
     },
     "teams/benefits-portfolio/benefits-intake-optimization/research/2025-11 BIO Heart 21P-537 User Research": {
-      "key_themes": null,
+      "key_themes": "Loading performance, Timeline expectations, Communication",
       "top_finding": "The online form was clear and straightforward, with all participants successfully completing it without assistance. Par…",
       "impact": "This research supports the desired user outcome by validating that the online f…",
       "source_file": "teams/benefits-portfolio/benefits-intake-optimization/research/2025-11 BIO Heart 21P-537 User Research/research-report.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "teams/benefits-portfolio/benefits-intake-optimization/research/2025-12 BIO Heart 21P-601 User Research": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "teams/benefits-portfolio/benefits-intake-optimization/research/2025-12 BIO Heart 21P-601 User Research/research-report.md",
+      "extraction_method": "keywords"
     },
     "teams/digital-experience/ADE/research/2022-10-a11y-feedback": {
-      "key_themes": "accessibility, a11y, feedback, assistive-technology, discov…",
+      "key_themes": "Accessibility, Error handling, Navigation, Search",
       "top_finding": "Inaccessibility of online digital feedback mechanisms may be preventing some disabled Veterans from using them - 100% (…",
       "impact": "Disabled Veterans can easily provide accessibility feedback through accessible …",
       "source_file": "teams/digital-experience/ADE/research/2022-10-a11y-feedback/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "teams/digital-experience/ADE/research/2025-05-save-in-progress": {
-      "key_themes": "Accessibility, usability-testing, evaluative",
+      "key_themes": "Communication, Accessibility, Error handling, Status clarity",
       "top_finding": "Most participants didn't know that their information was being saved automatically with every edit.",
       "impact": null,
       "source_file": "teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "teams/digital-experience/ADE/research/2026-01-save-in-progress-2": {
-      "key_themes": "Accessibility, usability-testing",
+      "key_themes": "Status clarity, Evidence submission, Communication",
       "top_finding": "The interstitial page was NOT effective in communicating about save in progress because most users were so focused on f…",
       "impact": null,
       "source_file": "teams/digital-experience/ADE/research/2026-01-save-in-progress-2/research-findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     },
     "teams/digital-experience/accessibility/research/assistive-tech": {
-      "key_themes": "remote-research",
+      "key_themes": "Navigation, Search",
       "top_finding": null,
       "impact": null,
       "source_file": "teams/digital-experience/accessibility/research/assistive-tech/accessibility-findings-example.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
+    },
+    "teams/digital-experience/insights-analytics/research/call center data": {
+      "key_themes": "Navigation, Search",
+      "top_finding": null,
+      "impact": null,
+      "source_file": "teams/digital-experience/insights-analytics/research/call center data/monthly_report_research.md",
+      "extraction_method": "keywords"
     },
     "teams/digital-experience/veteran-support/Contact us page/User research/09-2024 Find help on Contact us": {
-      "key_themes": "usability-testing, moderated-research, remote-research",
+      "key_themes": "Mobile, Navigation, Search, Communication",
       "top_finding": "Overseas Veterans experience challenges verifying identity at Military Operated Offices",
       "impact": "Veterans have better experiences across all VA.gov products informed by this re…",
       "source_file": "teams/digital-experience/veteran-support/Contact us page/User research/09-2024 Find help on Contact us/Additional findings.md",
-      "extraction_method": "yaml-frontmatter"
+      "extraction_method": "keywords"
     }
   }
 }
