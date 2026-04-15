@@ -56,10 +56,10 @@ The online Burial application is available in the [production environment](https
 - [Burial-Architecture Diagram.pdf](https://github.com/user-attachments/files/26144483/Burial-Architecture.Diagram.pdf)
 - [Frontend developer README](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/applications/burials-ez/README.md)
 - [Endpoints consumed and owned](https://dvagov.sharepoint.com/:w:/r/sites/vaabdvro/Shared%20Documents/Dependents%20Management/Documentation/BGS%20686C-674%20Documentation.docx?d=w1707457645dc4eb191a0ea89fb73453b&csf=1&web=1&e=dvkS2w)
+- [Validation on Va.gov](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/benefits-portfolio/Lifestage-crew/engineering/guides/form-validation-and-error-messages.md)
 - Code Repository
   - [Vets-API](https://github.com/department-of-veterans-affairs/vets-api)
   - [Vets-Website](https://github.com/department-of-veterans-affairs/vets-website)
-  - [Validation on Va.gov](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/benefits-portfolio/Lifestage-crew/engineering/guides/form-validation-and-error-messages.md)
 
 ### Analytics dashboard:
 
