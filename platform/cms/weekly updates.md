@@ -2,6 +2,7 @@
 ## 4/16 OIT Weekly Update
 
 ### Next 7 Days
+- **Discovery: Redesign Editorial state [#23017](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/23017)** supports user experience improvement reduces editor by reducing confusion around content publishing state and improving editor confidence in the content workflow.
 - **Promote cms to Argo/EKS Staging [#23130](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/23130)** ensures that we have a reliable set up to support staging.va.gov and QAQC for daily deployments, so that we can move forward with Production setup for EKS ([#23131](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/23131)).
 - **Launch: VAMC Detail page [#20482](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/20482)** supports an improved content management and Veteran experience. By releasing Detail pages on next-build, we will ensure that facilities can make faster updates through Detail pages which allows Veterans to quickly receive critical information on essential services.
 
