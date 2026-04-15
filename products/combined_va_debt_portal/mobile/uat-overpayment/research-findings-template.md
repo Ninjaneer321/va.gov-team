@@ -1,3 +1,5 @@
+<!-----
+
 ---
 title: "[Study] Research Findings"
 product: "Product Name"
@@ -91,6 +93,8 @@ synthesis_tools_used:
   - "Mural"
   - "Affinity Mapping"
 ---
+
+----->
 
 > [!TIP]
 > **Complete the frontmatter section above AFTER you've finished and saved your research findings report below.**
