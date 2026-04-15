@@ -19,7 +19,7 @@ Veterans experience less friction when accessing their benefits and services.
 | Ticket | Description | 
 |--------|-------------|
 | [#1054](https://github.com/department-of-veterans-affairs/identity-documentation/issues/1054) | Discovery research and technical investigations |
-| [#0000](#) | Brief description |
+| [#1107](https://github.com/department-of-veterans-affairs/identity-documentation/issues/1107)) | Race conditions with v0 /user response |
 
 ---
 
@@ -33,7 +33,8 @@ Veterans experience less friction when accessing their benefits and services.
 
 ## Related research
 
-- [January 2026 - Dissatisfaction discovery](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-01%20dissatisfaction%20discovery/2026-01%20Dissatisfaction%20Discovery%20-%20Research%20Findings.md)
+- [2026-01-Dissatisfaction-discovery-research findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-01%20dissatisfaction%20discovery/2026-01%20Dissatisfaction%20Discovery%20-%20Research%20Findings.md)
+- [Sign-in looping issue summary](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-01%20Sign-in%20Looping/Call%20Center%20Deep%20Dive.md)
 
 ---
 
