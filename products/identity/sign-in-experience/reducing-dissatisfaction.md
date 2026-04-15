@@ -22,7 +22,7 @@ Veterans experience less friction when accessing their benefits and services.
 |-----------|--------|
 | Unified Sign-in Page | User experience with the sign-in process on VA.gov |
 | Verify | User experience with the  identity verification process |
-| Sign-in experience | End-to-end experience with sign-in and authentication between VA.gov and the CSP |
+| Sign-in errors | Improving the experience with error messaging and working with integration partners to fix specific issues |
 
 ---
 ## Release notes
