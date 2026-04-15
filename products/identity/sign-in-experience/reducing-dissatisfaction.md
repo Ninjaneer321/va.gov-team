@@ -26,9 +26,9 @@ Veterans experience less friction when accessing their benefits and services.
 
 ---
 ## Release notes
-| What changed | Description of impact |
-|-----------|--------|
-| 1-5 word summary | 1-2 sentence description |
+| What changed | Related project | Description of impact |
+|-----------|--------|--------|
+| Error 113 shipped | Insights-informed error improvements | Added a new error type specifically for data mismatch errors. This provides more accurate and actionable information to the user while we work with integration partners on a long-term solution. |
 
 ---
 ## Related research
