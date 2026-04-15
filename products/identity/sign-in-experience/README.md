@@ -42,7 +42,7 @@ The sign-in experience covers the end-to-end flow Veterans and beneficiaries use
 
 ## Related research
 
-[January 2026 - Dissatisfaction discovery](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-01%20dissatisfaction%20discovery/2026-01%20Dissatisfaction%20Discovery%20-%20Research%20Findings.md)
+[2026-01 Dissatisfaction Discovery - Research Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-01%20dissatisfaction%20discovery/2026-01%20Dissatisfaction%20Discovery%20-%20Research%20Findings.md)
 
 ## For Identity team members
 [Internal team runbook](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Incident%20Response/System%20Recovery%20Procedures/USiP_SRP.md#system-recovery-plan---unified-sign-in-page-usip)
