@@ -5,16 +5,16 @@ Feature Toggle/flag:
 `accredited_representative_portal_enable_526ez_bdd` will control visibility of the BDD/SHA feature, for Accredited Representative Portal users. This will be disabled in Production prior to release.
 
 ### Preparation
-- [ ] The following user flows have been tested
+- [x] The following user flows have been tested
    - Promoting SHA Part A in 21-526ez
-      -    [ ] SHA content on 21-526ez submission page
-      -    [ ] Checkbox on Claimant information portion of 526ez
-      -    [ ] SHA Upload option is available
-      -    [ ] If no SHA upload is added, modal is tripped
-      -    [ ] Checkbox for BDD is reflected in review and submit
-      -    [ ] Upload for SHA is reflected in review and submit
-- [ ] Any "launch blocking" findings from Team QA have been addressed.
-- [ ] Datadog monitoring is set up to track 526ez submissions with BDD checked and an SHA uploaded and when an SHA is not uploaded
+      -    [x] SHA content on 21-526ez submission page
+      -    [x] Checkbox on Claimant information portion of 526ez
+      -    [x] SHA Upload option is available
+      -    [x] If no SHA upload is added, modal is tripped
+      -    [x] Checkbox for BDD is reflected in review and submit
+      -    [x] Upload for SHA is reflected in review and submit
+- [x] Any "launch blocking" findings from Team QA have been addressed.
+- [x] Datadog monitoring is set up to track 526ez submissions with BDD checked and an SHA uploaded and when an SHA is not uploaded
 - [ ] Contact Center Review has been submitted
    - [ ] Note: Will be submitted right after release
 
