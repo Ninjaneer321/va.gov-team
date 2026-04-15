@@ -1,6 +1,5 @@
 # Reduce sign-in looping
 
-Overview
 Looping was identified as a top source of sign-in dissatisfaction in [Q1 2026 dissatisfaction discovery research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-01%20dissatisfaction%20discovery/2026-01%20Dissatisfaction%20Discovery%20-%20Research%20Findings.md). The purpose of this project is to investigate, understand, and measurably reduce dissatisfaction related to looping.
 
 ---
