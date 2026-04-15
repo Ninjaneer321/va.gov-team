@@ -1,15 +1,15 @@
-# IA Design for [Product/page name]
-**STATUS: [In progress/In review/Complete]**
+# IA Design for [Application for Clothing Allowance-Form 10-8678]
+**STATUS: [In progress]**
 
-**Team:** [Team name]
+**Team:** [BIO]
 
-**CAIA Intake ticket:**
+**CAIA Intake ticket:** (https://github.com/department-of-veterans-affairs/va.gov-team/issues/137679?issue=department-of-veterans-affairs%7Cva.gov-team%7C137579)
 
 **IA Tracker:** 
 
 **Files:**
-- [Mural]()
-- [Figma]()
+- [Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1775236369371/86d0d521f42a0d5ee0e7899c50d3658b1ae6be7a)
+- [Figma](https://www.figma.com/design/yI4cFUUgeh96HGMcpEnPqg/VA-Form-10-8678---VA-DRAFT?node-id=90-7832&p=f&t=CGCn53q4w1xFtmfc-0)
 
 **On this page:**
 - [Navigation/page flows](#flows)
