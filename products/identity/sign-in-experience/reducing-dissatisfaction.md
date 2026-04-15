@@ -28,7 +28,8 @@ Veterans experience less friction when accessing their benefits and services.
 ## Release notes
 | What changed | Related project | Description of impact |
 |-----------|--------|--------|
-| Error 113 shipped | Insights-informed error improvements | Added a new error type specifically for data mismatch errors. This provides more accurate and actionable information to the user while we work with integration partners on a long-term solution. |
+| Error 113 shipped | [Insights-informed error improvements](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/sign-in-experience/error-improvements.md) | Added a new error type specifically for data mismatch errors. This provides more accurate and actionable information to the user while we work with integration partners on a long-term solution. |
+|Prevent sign-in looping) | [Insights-informed error improvements](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/sign-in-experience/error-improvements.md) | Disabled pointer events to prevent clicks on VA.gov before the user object finishes loading. This prevents unintended logouts without impacting the user experience or accessibility. |
 
 ---
 ## Related research
