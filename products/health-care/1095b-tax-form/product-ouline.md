@@ -77,7 +77,7 @@ How might we make the 1095-B tax form instantly and reliably accessible to Veter
 
 ## Solution Approach
 
-- As of March 2025, a Veteran is able to view the past three years of 1095-B tax forms if they were enrolled in VA healthcare all three years. We are only displaying the last three years because that is the minimum amount to meet legislative requirements.
+- As of March 2026, a Veteran is able to view the past three years of 1095-B tax forms if they were enrolled in VA healthcare all three years. We are only displaying the last three years because that is the minimum amount to meet legislative requirements.
 - Right now, CHAMPVA beneficiaries are unable to view their 1095-B tax forms. There needs to be a data migration and API update from the Enrollment System team for VA.gov to be able to retrieve their tax forms in the same way. CHAMPVA beneficiaries still get their forms by mail.
 - Currently there is no 1095-B experience on the VAHB mobile app.
 
