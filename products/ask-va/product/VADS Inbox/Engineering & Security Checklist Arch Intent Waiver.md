@@ -92,7 +92,7 @@
       - N/A
 - Test strategy
     + Describe automated, manual and user acceptance test strategy
-      - N/A New unit tests have been added to cover new FE components that were created as part of this initiative, we will also manually QA using our teams resources. We may also coordinate with the Ask VA CRM Business team to find real users to test these changes with
+      - New unit tests have been added to cover new FE components that were created as part of this initiative, we will also manually QA using our teams resources. We may also coordinate with the Ask VA CRM Business team to find real users to test these changes with prior to production release.
     + Describe required test data and test user accounts
       - Any user that has previously submitted inquiries works, but these are the ones we have used in the past:
         - vets.gov.user+1@gmail.com 
