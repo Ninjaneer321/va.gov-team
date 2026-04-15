@@ -9,11 +9,11 @@ Platform authentication covers the backend infrastructure, services, and integra
 
 ## Current initiatives
 
-| Initiative | Brief |
-|-----------|--------|
-| [Oracle Health transition assistance](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams/vsp/teams/Identity/Product%20Documentation/Oracle%20Health) | Support the transition of Oracle Health facilities to VA.gov authentication. |
-| IAL2 for new users | Release IAL2 identity verification requirement for new users to production. |
-| Sign-in Service migrations  | Moving VA services from legacy SSOe authentication to Sign-in Service. |
+| Initiative | Description |Objective|
+|-----------|--------|--------|
+| [Oracle Health transition assistance](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams/vsp/teams/Identity/Product%20Documentation/Oracle%20Health) | Support the transition of Oracle Health facilities to VA.gov authentication. | VA.gov authentication modernization |
+| IAL2 for new users | Release IAL2 identity verification requirement for new users to production. | VA.gov authentication modernization |
+| Sign-in Service migrations  | Moving VA services from legacy SSOe authentication to Sign-in Service. | VA.gov authentication modernization |
 
 ---
 
