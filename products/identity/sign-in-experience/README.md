@@ -15,16 +15,7 @@ The sign-in experience covers the end-to-end flow Veterans and beneficiaries use
 | Data mismatch errors | Leverage sign-in service data to improve UX and address the root cause of errors. |
 | Quarterly sign-in pulse | Analyze qualitative and quantitative data to monitor dissatisfaction with sign-in. |
 
-
 ---
-
-## Support reference
-| Reference type | Description |
-|-----------|--------|
-| [Product guide](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Products/product%20guides%20for%20contact%20center) | Product and troubleshooting guide for Platform Support |
-| [Troubleshooting sign-in errors](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Troubleshooting_logging/Authentication_Errors#readme) | Error states and recovery flows |
-| [Internal team runbook](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Incident%20Response/System%20Recovery%20Procedures/USiP_SRP.md#system-recovery-plan---unified-sign-in-page-usip)| Incident response and system recovery plan.
-
 
 ## Related components
 
@@ -36,6 +27,16 @@ The sign-in experience covers the end-to-end flow Veterans and beneficiaries use
 | Interstitial (new) | Targeted messsaging for authenticated users on VA.gov |
 | [Session timeout](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Troubleshooting_logging/Authentication_Errors/005.md#session-expired) | Session timeout behavior and inactivity modal |
 | [Maintenance banners](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Frontend/downtime-banners.md) | Sign-in maintenance and outage messaging |
+
+---
+
+## Support reference
+| Reference type | Description |
+|-----------|--------|
+| [Product guide](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Products/product%20guides%20for%20contact%20center) | Product and troubleshooting guide for Platform Support |
+| [Troubleshooting sign-in errors](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Troubleshooting_logging/Authentication_Errors#readme) | Error states and recovery flows |
+| [Internal team runbook](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Incident%20Response/System%20Recovery%20Procedures/USiP_SRP.md#system-recovery-plan---unified-sign-in-page-usip)| Incident response and system recovery plan.
+
 
 ---
 
