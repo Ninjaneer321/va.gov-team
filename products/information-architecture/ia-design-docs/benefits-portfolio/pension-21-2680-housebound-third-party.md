@@ -9,7 +9,6 @@
 
 **Files:**
 - [Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1771276893975/8b75d3f47dd4627ec3dc4cd1378f206b120164e0?sender=u2d5881a991b97c9e5cfd7699)
-- [Figma]()
 
 **On this page:**
 - [Navigation/page flows](#flows)
@@ -23,10 +22,11 @@
 
 ## <a name="flows"></a>Navigation/page flows <br>
 *Illustration and/or description of how users will navigate to and flow through the experience for all impacted visitors typies. This helps identify key entry points and findability requirements, user flow scenarios, and content/messaging needs across various scenarios.*
-
+<img width="5129" height="3228" alt="21-2680 IA for third-party form routing_2026-04-15_07-12-26" src="https://github.com/user-attachments/assets/94ea156c-da5b-4ab6-8d07-b88f5ebe1b5b" />
 
 ## <a name="map"></a>Page structure<br>
 *Illustration and/or description of where this product/feature will live within the overall IA of VA.gov (i.e. a site map). The placement of your product/feature determines the URL structure, breadcrumb, and navigational needs of the product/feature, and provides search engines with relationship information that impacts overall SEO and findability. Placement of a product/feature must follow established patterns and standards of the existing site.*
+<img width="3468" height="2011" alt="21-2680 IA for third-party form routing_2026-04-15_07-26-59" src="https://github.com/user-attachments/assets/2fb352c1-3a9d-49c5-ad44-102fd244cea8" />
 
 
 ## <a name="url"></a>Page URLs and breadcrumbs
@@ -37,23 +37,18 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - [Breadcrumbs](https://design.va.gov/components/breadcrumbs)
 - [Title tags](https://design.va.gov/content-style-guide/title-tags)
 
-**1) Page name - Existing/New**
-- URL:
-- H1:
-- Sub-heading:
-- Breadcrumb:
-- Browser title: [H1 of introduction page in title case] | Veterans Affairs
-    - [insert title] | Veterans Affairs
-- Notes: 
+**1) New Email**
+Notes: this will link to the Examination form introduction page
 
-**2) Page name - Existing/New**
-- URL:
-- H1:
-- Sub-heading:
-- Breadcrumb:
-- Browser title: [H1 of introduction page in title case] | Veterans Affairs
-    - [insert title] | Veterans Affairs
-- Notes: 
+**2) New Examination Form introduction page**
+- URL: https://www.va.gov/forms/21-2680/submit-medical-examination/
+- H1: Submit Medical Examination
+- Sub-heading: Examination for Housebound Status or Permanent Need for Regular Aid and Attendance (VA Form 21-2680)
+- Breadcrumb: VA.gov > VA Forms > About VA Form 21-2680 > Submit medical examination
+- Browser title: Submit Medical Examination | Form 21-2680 | Veterans Affairs
+- Notes:
+
+
 
 **Structuring URLs for individual pages within the form flows**
 - All pages within form flows will exist as child pages of the core/canonical URL.
@@ -71,28 +66,20 @@ Teams must launch with at least one entry point that allows site visitors to nav
 
 ### Required entry point(s)
 
-1. **[Page/placement name]**
+1. **Email sent to provider**
   - Placement description: 
   - Link details
-    - Link label: 
-    - Link destination: 
+    - Link label: TBD
+    - Link destination: https://www.va.gov/forms/21-2680/submit-medical-examination/
   - Notes:
-    - Who will update (IA, content, product team):
-    - When will this entry point go live (at launch? After staged rollout? after some designated time?):
+    - Who will update (IA, content, product team): Product team
+    - When will this entry point go live (at launch? After staged rollout? after some designated time?): At launch
    
 **Note: If the form will be released incrementally (aka not at 100%) or if the launch plan includes taking the form down temporarily after launch to check submission quality, a widget will be required. This requires coordination between the product engineer to create the widget and content to provide text for the widget. This can take some time. Please plan for at least 2 weeks ahead of staging review.**
 
 ### Additional key entry points
 _Any additional key locations that the page should be navigable from. Although these are not required for launch, they are critical to the findability of your content/feature.  Examples of key entry points include "About a form" pages, additional navigation component (top, left) placements, additional static pages where its prominently linked from, etc._
 
-1. **[Page/placement name]**
-  - Placement description: 
-  - Link details
-    - Link label: 
-    - Link destination: 
-  - Notes:
-    - Who will update (IA, content, product team):
-    - When will this entry point go live (at launch? After staged rollout? after some designated time?):
 
 ##  <a name="redirects"></a>Redirects <br>
 *A list of any critical redirects needed as part of this product/feature launch. Redirects are required for any URL changes to ensure visitors do not receive a 404 - Page not found error in the experience.* 
