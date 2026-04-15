@@ -14,7 +14,7 @@ Veterans experience less friction when accessing their benefits and services.
 |-----------|--------|--------|
 | Quarterly sign-in pulse | Analyze qualitative and quantitative data to measure dissatisfaction with sign-in. | Negative sentiment |
 | Data mismatch errors | Fix system issues contributing to sign-in errors. |  Error 113 vs Error 007  |
-| Sign in looping | Fix technical issues contributing to sign-in looping errors. | Sessions <10 seconds |
+| [Sign in looping](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/sign-in-experience/sign-in-looping.md) | Fix technical issues contributing to sign-in looping errors. | Sessions <10 seconds |
 
 ---
 ## Related components
