@@ -12,7 +12,7 @@ Veterans experience less friction when accessing their benefits and services.
 
 | Project | Description | Measurement |
 |-----------|--------|--------|
-| [Data discrepancy errors](https://github.com/department-of-veterans-affairs/identity-documentation/issues/1076) |  Fix system issues contributing to sign-in errors. |  Error 113 vs Error 007  |
+| Data discrepancy errors |  Fix system issues contributing to sign-in errors. |  Error 113 vs Error 007  |
 | [Sign in looping](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/sign-in-experience/sign-in-looping.md) | Fix technical issues contributing to sign-in looping errors. | Sessions <10 seconds |
 
 ---
