@@ -1,0 +1,304 @@
+name: Daily Project 1597 Triage
+
+# Runs every day at 09:00 UTC; can also be triggered manually.
+# When triggered manually, optional inputs override the default configuration.
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+    inputs:
+      project_number:
+        description: 'GitHub Project number to triage'
+        required: false
+        default: '1597'
+      stale_days:
+        description: 'Days without updates before an issue is considered stale'
+        required: false
+        default: '2'
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write   # create issues and add labels
+
+    steps:
+      - name: Run daily project triage
+        uses: actions/github-script@v7
+        env:
+          PROJECT_NUMBER: ${{ inputs.project_number || '1597' }}
+          ORG: 'department-of-veterans-affairs'
+          STALE_DAYS: ${{ inputs.stale_days || '2' }}
+        with:
+          # VA_VSP_BOT_GITHUB_TOKEN has read:org + project scopes needed for
+          # org-level Projects v2 queries; falls back to the built-in
+          # GITHUB_TOKEN (repo-scope only) which triggers the REST fallback.
+          github-token: ${{ secrets.VA_VSP_BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+          script: |
+            const PROJECT_NUMBER   = parseInt(process.env.PROJECT_NUMBER, 10);
+            const ORG              = process.env.ORG;
+            const OWNER            = context.repo.owner;
+            const REPO             = context.repo.repo;
+            const STALE_DAYS       = parseInt(process.env.STALE_DAYS, 10);
+            const ATTENTION_LABELS = ['needs-review', 'blocked', 'bug'];
+            const NEEDS_ATTENTION  = 'needs-attention';
+
+            const now            = new Date();
+            const MS_PER_DAY     = 24 * 60 * 60 * 1000;
+            const staleThreshold = new Date(now.getTime() - STALE_DAYS * MS_PER_DAY);
+
+            // Helper – days elapsed since a given date string
+            function daysSince(dateStr) {
+              return Math.floor((now - new Date(dateStr)) / MS_PER_DAY);
+            }
+
+            // Helper – escape characters that break GitHub Flavored Markdown tables
+            function escapeMd(text) {
+              return text
+                .replace(/\\/g, '\\\\')
+                .replace(/\|/g, '\\|')
+                .replace(/`/g, '\\`')
+                .replace(/\[/g, '\\[')
+                .replace(/\]/g, '\\]')
+                .replace(/\*/g, '\\*')
+                .replace(/_/g, '\\_');
+            }
+
+            // ── 1. Ensure the `needs-attention` label exists ─────────────────
+            try {
+              await github.rest.issues.getLabel({ owner: OWNER, repo: REPO, name: NEEDS_ATTENTION });
+            } catch (err) {
+              if (err.status === 404) {
+                await github.rest.issues.createLabel({
+                  owner: OWNER,
+                  repo: REPO,
+                  name: NEEDS_ATTENTION,
+                  color: 'e11d48',
+                  description: 'This issue needs immediate attention',
+                });
+                console.log(`Created label '${NEEDS_ATTENTION}'`);
+              } else {
+                throw err;
+              }
+            }
+
+            // ── 2. Fetch items – project GraphQL first, repo REST fallback ───
+            async function fetchProjectItems() {
+              const items = [];
+              let cursor      = null;
+              let hasNextPage = true;
+
+              while (hasNextPage) {
+                const result = await github.graphql(`
+                  query($org: String!, $number: Int!, $cursor: String) {
+                    organization(login: $org) {
+                      projectV2(number: $number) {
+                        items(first: 100, after: $cursor) {
+                          pageInfo { hasNextPage endCursor }
+                          nodes {
+                            content {
+                              ... on Issue {
+                                number
+                                title
+                                url
+                                state
+                                repository { owner { login } name }
+                                assignees(first: 1) { totalCount }
+                                labels(first: 20) { nodes { name } }
+                                updatedAt
+                              }
+                            }
+                            fieldValues(first: 20) {
+                              nodes {
+                                ... on ProjectV2ItemFieldDateValue {
+                                  date
+                                  field { ... on ProjectV2Field { name } }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                `, { org: ORG, number: PROJECT_NUMBER, cursor });
+
+                const page  = result.organization.projectV2.items;
+                items.push(...page.nodes);
+                hasNextPage = page.pageInfo.hasNextPage;
+                cursor      = page.pageInfo.endCursor;
+              }
+              return items;
+            }
+
+            async function fetchRepoIssues() {
+              const issues = await github.paginate(github.rest.issues.listForRepo, {
+                owner: OWNER, repo: REPO, state: 'open', per_page: 100,
+              });
+              return issues.map(issue => ({
+                content: {
+                  number:     issue.number,
+                  title:      issue.title,
+                  url:        issue.html_url,
+                  state:      'OPEN',
+                  repository: { owner: { login: OWNER }, name: REPO },
+                  assignees:  { totalCount: issue.assignees.length },
+                  labels:     { nodes: issue.labels.map(l => ({ name: l.name })) },
+                  updatedAt:  issue.updated_at,
+                },
+                fieldValues: { nodes: [] },
+              }));
+            }
+
+            let items = [];
+            try {
+              console.log(`Fetching items from Project ${PROJECT_NUMBER}…`);
+              items = await fetchProjectItems();
+              console.log(`Fetched ${items.length} project items`);
+            } catch (err) {
+              console.warn(`Project query failed (${err.message}). Falling back to repo issues.`);
+              items = await fetchRepoIssues();
+              console.log(`Fetched ${items.length} repo issues (fallback)`);
+            }
+
+            // ── 3. Filter to open issues in this repository ──────────────────
+            const openIssues = items.filter(item => {
+              if (!item.content) return false;
+              if (item.content.state !== 'OPEN') return false;
+              const r = item.content.repository;
+              return r.owner.login === OWNER && r.name === REPO;
+            });
+
+            console.log(`${openIssues.length} open issues in ${OWNER}/${REPO}`);
+
+            // ── 4. Evaluate each issue against triage criteria ───────────────
+            const flagged = { unassigned: [], stale: [], labeled: [], overdue: [] };
+            const flaggedSet = new Set();
+
+            for (const item of openIssues) {
+              const issue     = item.content;
+              const labels    = issue.labels.nodes.map(l => l.name);
+              const updatedAt = new Date(issue.updatedAt);
+              const age       = daysSince(issue.updatedAt);
+
+              // Skip issues already carrying the attention label
+              if (labels.includes(NEEDS_ATTENTION)) continue;
+
+              const reasons = [];
+
+              // Criterion 1 – no assignee
+              if (issue.assignees.totalCount === 0) {
+                reasons.push('no assignee');
+                flagged.unassigned.push(issue);
+              }
+
+              // Criterion 2 – stale
+              if (updatedAt < staleThreshold) {
+                reasons.push(`stale (${age}d without updates)`);
+                flagged.stale.push(issue);
+              }
+
+              // Criterion 3 – attention labels
+              const matched = ATTENTION_LABELS.filter(l => labels.includes(l));
+              if (matched.length > 0) {
+                reasons.push('labeled: ' + matched.map(l => '`' + l + '`').join(', '));
+                flagged.labeled.push({ ...issue, matchedLabels: matched });
+              }
+
+              // Criterion 4 – past due date (project field)
+              const dueFV = item.fieldValues.nodes.find(
+                fv => fv.field && /due/i.test(fv.field.name)
+              );
+              if (dueFV?.date && new Date(dueFV.date) < now) {
+                reasons.push(`overdue (due: ${dueFV.date})`);
+                flagged.overdue.push({ ...issue, dueDate: dueFV.date });
+              }
+
+              // Apply label once per issue
+              if (reasons.length > 0 && !flaggedSet.has(issue.number)) {
+                flaggedSet.add(issue.number);
+                try {
+                  await github.rest.issues.addLabels({
+                    owner: OWNER, repo: REPO,
+                    issue_number: issue.number,
+                    labels: [NEEDS_ATTENTION],
+                  });
+                  console.log(`✅ #${issue.number} — ${reasons.join('; ')}`);
+                } catch (err) {
+                  console.error(`❌ Could not label #${issue.number}: ${err.message}`);
+                }
+              }
+            }
+
+            const totalFlagged = flaggedSet.size;
+            console.log(`\n🏁 ${totalFlagged} issue(s) flagged`);
+
+            if (totalFlagged === 0) {
+              console.log('Nothing to report today.');
+              return;
+            }
+
+            // ── 5. Build and post the daily summary issue ────────────────────
+            const isoDate = now.toISOString().split('T')[0];
+
+            function buildTable(issues) {
+              if (!issues.length) return '_None_\n';
+              const rows = issues.map(i =>
+                `| [#${i.number}](${i.url}) | ${escapeMd(i.title)} | ${daysSince(i.updatedAt)}d ago |`
+              );
+              return [
+                '| Issue | Title | Last Updated |',
+                '|-------|-------|--------------|',
+                ...rows,
+              ].join('\n') + '\n';
+            }
+
+            const body = [
+              `## 📊 Summary`,
+              ``,
+              `| | |`,
+              `|-|-|`,
+              `| **Total flagged** | ${totalFlagged} |`,
+              `| **Project** | [#${PROJECT_NUMBER}](https://github.com/orgs/${ORG}/projects/${PROJECT_NUMBER}) |`,
+              `| **Repository** | [${OWNER}/${REPO}](https://github.com/${OWNER}/${REPO}) |`,
+              `| **Report generated** | ${now.toISOString()} |`,
+              ``,
+              `---`,
+              ``,
+              `## 📋 Breakdown by Reason`,
+              ``,
+              `| Category | Count |`,
+              `|----------|-------|`,
+              `| 👤 Unassigned | ${flagged.unassigned.length} |`,
+              `| ⏰ Stale (${STALE_DAYS}+ days without updates) | ${flagged.stale.length} |`,
+              `| 🏷️ Labeled \`needs-review\` / \`blocked\` / \`bug\` | ${flagged.labeled.length} |`,
+              `| 📅 Overdue | ${flagged.overdue.length} |`,
+              ``,
+              `---`,
+              ``,
+              `## 👤 Unassigned Issues (${flagged.unassigned.length})`,
+              ``,
+              buildTable(flagged.unassigned),
+              `## ⏰ Stale Issues — ${STALE_DAYS}+ days without updates (${flagged.stale.length})`,
+              ``,
+              buildTable(flagged.stale),
+              `## 🏷️ Labeled Issues — \`needs-review\` / \`blocked\` / \`bug\` (${flagged.labeled.length})`,
+              ``,
+              buildTable(flagged.labeled),
+              `## 📅 Overdue Issues (${flagged.overdue.length})`,
+              ``,
+              buildTable(flagged.overdue),
+              `---`,
+              ``,
+              `> 🤖 Automatically generated by the [Daily Project Triage workflow](https://github.com/${OWNER}/${REPO}/blob/master/.github/workflows/daily-project-triage.yml).`,
+              `> The \`${NEEDS_ATTENTION}\` label has been added to every issue listed above.`,
+            ].join('\n');
+
+            const { data: created } = await github.rest.issues.create({
+              owner: OWNER,
+              repo: REPO,
+              title: `🚨 Daily Project Triage Report - ${isoDate}`,
+              body,
+            });
+
+            console.log(`\n📋 Triage report created: ${created.html_url}`);
