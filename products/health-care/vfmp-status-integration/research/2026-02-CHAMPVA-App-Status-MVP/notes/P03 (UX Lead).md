@@ -20,14 +20,15 @@ Notetaker: John Riggin
 
 VA.gov account?
 - Yes
-- Logs in if I want to get a message to a provider
-- Go there to get a letter for service dog and prescription status.
+- Logs in if they want to get a message to a provider
+- Go there to get a letter for getting a new service dog as their prior passed away and or finding info for prescription status.
 
 Applied for CHAMPVA?
-- Yes - When daughter was losing benefits when aging out.
+- Yes
+- When daughter was losing benefits when aging out.
 - And wife when she wasn't able to get tricare.
-- and an issue with social security - there was a tricare issue and had to use it briefly.
-- Was a missed paperwork issue.
+- Also an additional time when there was an issue with social security - there was a tricare issue and had to use it briefly.
+- There was some friction around missed paperwork when the application was submitted
 
 
 - Submitted daugther's CHAMPVA application on paper, submitted wife's online
@@ -175,4 +176,4 @@ I knew where to look to find updates about my application.
 
 
 ### Additional Notes**
-- 
+- The step process appears to be at the application level initially, but then breaks down to individual status of each applicant when one is approved and another is stuck within a step. The user also expressed frustration around not being asked for all information at one time. Meaning, that the request for a marriage certificate independent of a birth certificate was not efficient and would cause delay in the process and require additional work on their part. They preferred to be told exactly what the need to provide and then go and gather the info, scan it, and upload it all at once - opposed to piece-meal. User was not happy about having a final decision not provided when they come in and having to navigate ~4 clicks deep to discover. Having to wait on standard mail was a recurring friction point. 
