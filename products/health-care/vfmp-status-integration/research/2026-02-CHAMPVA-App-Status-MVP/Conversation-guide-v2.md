@@ -212,16 +212,11 @@ Wait for participant's verbal consent.
 
 I'd like to confirm, what kind of device are you using today (desktop, mobile, tablet)? 
 
-Great! I'm pasting the link and a password to the site in the chat. You can find that chat icon in the row of buttons at the bottom: 
-
-_Share link and password as **two separate messages** in chat. This will enable the user to copy-paste the password easily._
-
+Great! I'm pasting the link to the site in the chat. You can find that chat icon in the row of buttons at the bottom: 
 - Veteran flow:
   - https://chisel-pear-20681620.figma.site/scenario1
-  - champva-test89124
 - Spouse/dependent flow:
   - https://chisel-pear-20681620.figma.site/scenario1-nonveteran
-  - champva-test89124
 
 Please open this link and share your screen (phone) or web browser (desktop). Let me know if you need any help. 
 
@@ -269,7 +264,7 @@ If you wanted to find out what is happening with your CHAMPVA application, can y
 **FLow 2 - Start in Forms Section**        
 - **[If they would click Completed forms accordion]**
   - Okay, go ahead and click on Completed forms.
-    - How does this compared to what you expected to see?
+    - How does this compare to what you expected to see?
     - What do you expect to find in the Forms section?
   - Now, what would you do next?
     -  **<mark>[If they would call]</mark>**
@@ -324,7 +319,7 @@ Take a moment to review this page and the other tabs, and think out loud as you 
     - [If they want to upload] Go ahead and click in the file upload box, and we’ll pretend that you brought in a file from your device, but don't submit yet. 
       - [Doctype dropdown comes up, let user choose an option]
       - (Note: go through the full process instead of stopping before the submit button)
-    - How was that process? How does this compared to what you were expecting to happen? 
+    - How was that process? How does this compare to what you were expecting to happen? 
      - Okay, go ahead and continue with submitting the file (the submit button)
    
   [IF THEY CAN'T FIND WHERE TO UPLOAD]
