@@ -23,9 +23,12 @@ VA.gov account?
 
 Applied for CHAMPVA?
 - notes
-
+- had problems getting inititally enrolled.  Problem with submitting additional documents, the applicant couldn't apply initially online so they had to submit it via fax.
 After submitting application?
-- notes
+- expecting a confirmation asap, didn't want to wait for a letter online.
+- Expecting an email, rather then a letter. Ok, with texting. Not another app, but would be OK with VA.gov.
+- Expected to be notified within a week, but almost immediatly if the application is complete.
+- 
 
 
 ### Screenshare & Prototype Setup
@@ -36,15 +39,20 @@ Device type
 
 
 ### Scenario 1a: My VA homepage
-- 
+- Had good clarity of "in progress"
+- CHAMPVA application received was confusing, didn't understand how that fit into the 4 steps.
 
 
 ### Scenario 1b: CHAMPVA Application in CST
 Status tab
-- notes
+- Want clarity on what the 4 steps are.
+- Wanted to see step 1 of 4
+- 
 
 Files tab
-- notes
+- Questioned why they should call for confirmation, that data should be available online.
+- Was very adament about getting things in the mail.
+- 
 
 Overview tab
 - notes
@@ -71,7 +79,7 @@ Scale of 1-5, how difficult or easy was it to understand this screen?
 - [ ] 5 - very easy
 
 Birth certificate page
-- notes
+- asked why the birth certficate wasn't asked for at application time.
 
 Back to CHAMPVA status
 - notes
