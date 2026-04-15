@@ -8,12 +8,12 @@ The sign-in experience covers the end-to-end flow Veterans and beneficiaries use
 
 
 ## Current initiatives
+**Objective:** Veterans experience less friction when accessing their benefits and services.
 
-| Initiative | Brief |
-|-----------|--------|
-| Sign-in looping  | Investigation and product improvements to reduce silent errors. |
-| Data mismatch errors | Leverage sign-in service data to improve UX and address the root cause of errors. |
-| Quarterly sign-in pulse | Analyze qualitative and quantitative data to monitor dissatisfaction with sign-in. |
+| Initiative | Description | Measurement |
+|-----------|--------|--------|
+| Reduce dissatisfaction  | Pinpointing the source of dissatisfaction with sign in. | Measuring user sentiment across feedback channels |
+| Insights-informed error improvements | Use Sign-in Service data to fix problems that cause sign-in errors. | Tracking error frequency and  sessions <10 seconds |
 
 ---
 
@@ -40,6 +40,6 @@ The sign-in experience covers the end-to-end flow Veterans and beneficiaries use
 
 ---
 
-## Research
+## Related research
 
 - [January 2026 - Dissatisfaction discovery](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-01%20dissatisfaction%20discovery/2026-01%20Dissatisfaction%20Discovery%20-%20Research%20Findings.md)
