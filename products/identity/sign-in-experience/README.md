@@ -26,7 +26,7 @@ The sign-in experience covers the end-to-end flow Veterans and beneficiaries use
 | [Terms of Use](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Frontend/applications/terms-of-use.md) | Terms of Use page and acceptance flow |
 | Interstitial | Targeted messaging for authenticated users on VA.gov |
 | [Session timeout](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Troubleshooting_logging/Authentication_Errors/005.md#session-expired) | Session timeout behavior and inactivity modal |
-| Sign-in errors | Error messages, error codes, and remediation steps |
+| [Sign-in errors](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Troubleshooting_logging/Authentication_Errors#troubleshooting-authentication-errors) | Error messages, error codes, and remediation steps |
 | [Maintenance banners](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Frontend/downtime-banners.md) | Sign-in maintenance and outage messaging |
 
 ---
