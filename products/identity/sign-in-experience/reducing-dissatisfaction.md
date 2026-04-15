@@ -8,13 +8,26 @@ Veterans experience less friction when accessing their benefits and services.
 
 ---
 
-## Active Projects
+## Active projects
 
 | Project | Description | Measurement |
 |-----------|--------|--------|
 | Quarterly sign-in pulse | Analyze qualitative and quantitative data to measure dissatisfaction with sign-in. | Negative sentiment |
 | Data mismatch errors | Fix system issues contributing to sign-in errors. |  Error 113 vs Error 007  |
 | Sign in looping | Fix technical issues contributing to sign-in looping errors. | Sessions <10 seconds |
+
+---
+## Related components
+| Component | How it relates to the initiative |
+|-----------|--------|
+| Sign-in experience | User experience with the sign-in and authentication |
+| Verify | User experience with the  identity verification process |
+
+---
+## Release notes
+| What changed | Description of impact |
+|-----------|--------|
+| | |
 
 ---
 ## Related research
