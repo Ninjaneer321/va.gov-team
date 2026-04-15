@@ -264,12 +264,12 @@ If you wanted to find out what is happening with your CHAMPVA application, can y
     - What do you expect to find in this section?
     - **<mark>[If they would click Completed forms accordion]</mark>**
       - Okay, go ahead and click on Completed forms.
-      - Is this what you expected to see?
+      - What were you expecting to see here?
 
 **FLow 2 - Start in Forms Section**        
 - **[If they would click Completed forms accordion]**
   - Okay, go ahead and click on Completed forms.
-    - Is this what you expected to see?
+    - How does this compared to what you expected to see?
     - What do you expect to find in the Forms section?
   - Now, what would you do next?
     -  **<mark>[If they would call]</mark>**
@@ -324,7 +324,7 @@ Take a moment to review this page and the other tabs, and think out loud as you 
     - [If they want to upload] Go ahead and click in the file upload box, and we’ll pretend that you brought in a file from your device, but don't submit yet. 
       - [Doctype dropdown comes up, let user choose an option]
       - (Note: go through the full process instead of stopping before the submit button)
-    - How was that process? Is it what you expected?
+    - How was that process? How does this compared to what you were expecting to happen? 
      - Okay, go ahead and continue with submitting the file (the submit button)
    
   [IF THEY CAN'T FIND WHERE TO UPLOAD]
@@ -364,7 +364,7 @@ Let’s say a week has passed and you want to find out what has happened with yo
 - What would you do next?
   - [If they want to upload] Go ahead and click in the file upload box and we’ll pretend that you brought in a file from your device, but please do not click the submit button yet. 
   - [Once the upload animation is complete]
-    - Tell me about this experience, is this what you expected to happen?
+    - Tell me about this experience, what were you expecting to happen?
     - How was this experience compared to uploading the marriage certificate?
     - Okay, go ahead and continue with submitting the file
 
