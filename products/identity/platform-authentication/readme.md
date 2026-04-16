@@ -8,12 +8,13 @@ Platform authentication covers the backend infrastructure, services, and integra
 
 
 ## Current initiatives
+**Objective:** Veterans access services through a secure and modern system with fewer disruptions as old infrastructure is retired.
 
-| Initiative | Description |Objective|
-|-----------|--------|--------|
-| [Oracle Health transition assistance](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams/vsp/teams/Identity/Product%20Documentation/Oracle%20Health) | Support the transition of Oracle Health facilities to VA.gov authentication. | VA.gov authentication modernization |
-| IAL2 for new users | Release IAL2 identity verification requirement for new users to production. | VA.gov authentication modernization |
-| Sign-in Service migrations  | Moving VA services from legacy SSOe authentication to Sign-in Service. | VA.gov authentication modernization |
+| Initiative | Description |
+|-----------|--------|
+| [Oracle Health transition assistance](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams/vsp/teams/Identity/Product%20Documentation/Oracle%20Health) | Support the transition of Oracle Health facilities to VA.gov authentication. |
+| IAL2 for new users | Release IAL2 identity verification requirement for new users to production. |
+| Sign-in Service migrations  | Moving VA services from legacy SSOe authentication to Sign-in Service. |
 
 ---
 
@@ -32,7 +33,7 @@ Platform authentication covers the backend infrastructure, services, and integra
 
 ## External integrations
 VA Platform integrations with third party service providers managed by the Identity team.
-| Reference guide | Description |
+| Platform reference guide | Description |
 |-----------|--------|
 | [ID.me integration](https://depo-platform-documentation.scrollhelp.site/developer-docs/id-me) | ID.me is a credential service provider (CSP) for VA.gov applications and services. |
 | [Login.gov integration](https://depo-platform-documentation.scrollhelp.site/developer-docs/login-gov) | Login.gov is a government-wide credential service provider (CSP) that allows veterans to securely access VA.gov applications and services using a unified login.  |
