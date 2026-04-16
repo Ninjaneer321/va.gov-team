@@ -38,8 +38,8 @@
 *URL and breadcrumb requirements for each modified or new page within the experience. URLs and breadcrumbs must follow established patterns and standards of the existing site. This section will also document form or tool flow URLs, titled sub-URLs.*
 Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and page title guidance.  
 - [URLs](https://design.va.gov/components/url-standards/)
-- [H1s (Page titles and section titles)](https://design.va.gov/content-style-guide/page-titles-and-section-titles)
-- [Breadcrumbs](https://design.va.gov/components/breadcrumbs)
+- [H1s (Page titles and section titles)](https://design.va.gov/content-style-guide/page-titles-and-section-titles) Apply for annual clothing allowance
+- [Breadcrumbs](https://design.va.gov/components/breadcrumbs) VA.gov home &gt; VA forms &gt; Application for annual clothing allowance &gt; Apply for annual clothing allowance online
 - [Title tags](https://design.va.gov/content-style-guide/title-tags)
 
 **1) Page name - Existing/New**
