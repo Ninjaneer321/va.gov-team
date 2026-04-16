@@ -291,5 +291,96 @@ When a user is viewing an appointment and attempts to add a new travel pay claim
 4. Claim Creation
   - The BE then uses the returned appointment_id to create a travel pay claim by calling:
     `POST /api/v2/claims`
+---
+
+### Proposed solutions for being able to tell that an appointment is user created
+
+1. 🔵 Option 1: Add `isManuallyCreated` to the `find-or-add` response
+  - Add a boolean field to the `find-or-add` endpoint response:
+
+    ```txt
+    isManuallyCreated: true | false
+    ```
+
+  - If `isManuallyCreated` is `true`, then `appointmentSource` would be set to `VAGov`.
+
+  - Pros:
+    - Simple and easy to understand
+    - Low implementation complexity
+    - Directly supports the immediate UI need
+
+  - Cons:
+    - Limited flexibility for future use cases
+    - Creates overlap or coupling with `appointmentSource`
+    - May not scale well if we need to represent more nuanced creation paths later
+
+2. 🔵 Option 2: Add `appointmentSourceDetail` to the `find-or-add` response
+Add a new field, `appointmentSourceDetail`, to provide more detail about how the appointment was created.
+
+  2a. Free-form text
+
+  Example:
+    
+    ```txt
+    appointmentSourceDetail: "user-created"
+    ```
+
+  - Pros:
+    - Lower LOE for BTSSS
+    - Flexible for future use cases
+    - Consumers of the endpoint can provide whatever value they need without requiring additional API coordination
+
+  - Cons:
+    - Not standardized
+    - Harder to validate and maintain over time
+    - Greater risk of inconsistent values across systems
+
+  2b. Enum-based values
+
+  Example:
+  
+  ```txt
+  appointmentSourceDetail: USER_CREATED
+  appointmentSourceDetail: MAP
+  appointmentSourceDetail: ORACLE_HEALTH
+  appointmentSourceDetail: VIA
+  ```
+
+  - Pros:
+    - Standardized and enforceable at the API layer
+    - Easier to scale and maintain
+    - Reduces risk of downstream data inconsistencies
+
+  - Cons:
+    - Higher LOE for BTSSS
+    - Requires coordination whenever new values need to be introduced
+
+3. 🔵 Option 3: Add a `tag` or `tags` field
+  Add a new field such as `tag` or `tags`, represented as either:
+  - a string, or
+  - an array of strings
+
+4. 🔵 Option 4: Update the POST appointment endpoints so that we can set the `appointmentSource` field 
+  The BTSSS API could update the following POST appointments endpoints:
+  - `POST api/v3/appointments`
+  - `POST api/v2/appointments/find-or-add`
+
+So that we can pass in the `appointmentSource` field in the request body and set the field to something specific to user generated appointment like `uga` or `uca`. Its my understanding the API team would have to update these endpoints and they would have to allow for a new enum option for the `appointmentSource` field.
+
+### Decision
+- Pending -
+
+### Notes Post ADR Presentation to Stakeholders and API Team and the above meetings
+
+- 4/16/2026 - During the Product Checkin meeting we determined that we would determine a user created appointment is community care based off of the facility station number that the user selected. If the facility is community care, it will have a station number that has a `CC` in it EX: `986CC19876`. Stakeholders decided to move forward with this so that we wont have to ask the "Is this appointment for community care?" question in the user created appointment flow.
+
+We also talked about how to tell that an appointment was user created. We discussed that based on BTSSS API records there are around 50 appointments created a day that look like user created appointments that actually are not and are created due to the API not being able to get the vaos data. We talked about this with stakeholders.
+
+___
+
+
+
+
+
 
 
