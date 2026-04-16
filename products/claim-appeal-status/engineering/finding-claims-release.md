@@ -625,12 +625,12 @@ After a specific sequence — breadcrumb to the claims list, paginate, then chan
 1. Run `history.length` again.
 
 #### Intended Outcomes
-- [ ] Zero `collect` requests with `en=page_view` across all three clicks
-- [ ] Zero `browser-intake` RUM `view` events across all three clicks
-- [ ] `int-button-segmented-click` events do fire in `collect` (intentional filter analytics, unchanged by this fix)
-- [ ] URL remains `/track-claims/your-claims/` with no query string throughout
-- [ ] `sessionStorage.claimsFilter` updates to the clicked value on each click
-- [ ] `history.length` is still N (no new history entries pushed)
+- [x] Zero `collect` requests with `en=page_view` across all three clicks
+- [x] Zero `browser-intake` RUM `view` events across all three clicks
+- [x] `int-button-segmented-click` events do fire in `collect` (intentional filter analytics, unchanged by this fix)
+- [x] URL remains `/track-claims/your-claims/` with no query string throughout
+- [x] `sessionStorage.claimsFilter` updates to the clicked value on each click
+- [x] `history.length` is still N (no new history entries pushed)
 
 ### Test Case 2: Filter click while paginated strips `?page=` via replace
 
@@ -640,9 +640,9 @@ After a specific sequence — breadcrumb to the claims list, paginate, then chan
 1. Click "Closed".
 
 #### Intended Outcomes
-- [ ] URL drops `?page=2` and becomes bare `/track-claims/your-claims/`
-- [ ] Exactly one `collect` page_view and one `browser-intake` view fire (legitimate URL change)
-- [ ] The list visibly updates to page 1 of the Closed filter
+- [x] URL drops `?page=2` and becomes bare `/track-claims/your-claims/`
+- [x] Exactly one `collect` page_view and one `browser-intake` view fire (legitimate URL change)
+- [x] The list visibly updates to page 1 of the Closed filter
 
 ### Test Case 3: Browser Back after filter toggles exits the page in one press
 
@@ -653,7 +653,7 @@ After a specific sequence — breadcrumb to the claims list, paginate, then chan
 1. Press the browser Back button once.
 
 #### Intended Outcomes
-- [ ] Back returns to the previous page (VA.gov home) in a single press, not to a previous filter state or same-URL duplicate
+- [x] Back returns to the previous page (VA.gov home) in a single press, not to a previous filter state or same-URL duplicate
 
 ### Test Case 4: Verify the known limitation behaves exactly as documented
 
@@ -666,7 +666,7 @@ After a specific sequence — breadcrumb to the claims list, paginate, then chan
 1. Press the browser Back button a second time.
 
 #### Intended Outcomes
-- [ ] Step 4 strips `?page=2`, resetting to page 1 of the All filter
-- [ ] Step 5 (first Back press) appears to do nothing — URL stays at `/track-claims/your-claims/` (this is the documented quirk, not a bug)
-- [ ] Step 6 (second Back press) lands on `/track-claims/your-claim-letters` (where you were at step 1)
-- [ ] If step 5 leaves CST directly, or if step 6 is still on `/your-claims/`, the history stack shape has changed and should be investigated
+- [x] Step 4 strips `?page=2`, resetting to page 1 of the All filter
+- [x] Step 5 (first Back press) appears to do nothing — URL stays at `/track-claims/your-claims/` (this is the documented quirk, not a bug)
+- [x] Step 6 (second Back press) lands on `/track-claims/your-claim-letters` (where you were at step 1)
+- [x] If step 5 leaves CST directly, or if step 6 is still on `/your-claims/`, the history stack shape has changed and should be investigated
