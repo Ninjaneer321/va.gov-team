@@ -250,46 +250,18 @@ We chose this method because the overpayments feature was nearly finished and we
     - **Supporting evidence:** The feature met 100% of the predefined success criteria across all test paths documented in the UAT plan.
 
 
-<!-----
 
 
 ## Key Findings
 
-*Summarize the 5–10 most impactful findings from your study.* 
+**The Overpayments feature is ready for release; all functional test paths passed with 100% success using live participant data.**
 
-> [!TIP] 
-> Write findings as stand-alone insights that are easy to scan. For example:  
-> - "Most participants used the search field to locate forms, often searching for 'veteran health.'"  
-> - "Participants struggled with the secondary caregiver section on the form."  
-> 
-> **After completing your detailed findings below, you'll add metadata labels using the [Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md).**  
+During moderated sessions, Veterans successfully navigated the full lifecycle of overpayment management—from discovery on the home screen to initiating resolution flows (Payment, Dispute, and Help). Because participants used their own credentials, we were able to confirm that the app correctly displays real-world debt details, balances, and history without error.
 
-[Example Key Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#key-findings)
+- _Supporting data: 🚧 number of people we tested with
+- _Supporting data: Participants confirmed the accuracy of personal debt details (e.g., Receivable IDs and Payee numbers) on the "Pay Online" and "Detail" screens._
 
-1. Finding one
-1. Finding two
-1. Finding three
-1. Finding four
-1. Finding five
-1. Finding six
-1. Finding seven
-
-## Details of Findings 
-
-*Provide detailed descriptions and supporting evidence for each key finding.*  
-
-### Finding 1
-Brief description  
-- _Supporting data: Quote [add context]_  
-- _Supporting data: ![description of the image (image)](link - add image to github folder and link here with .png)_  
-
-> **TIP:** For details on how to write descriptive links that are accessible to assistive technology users, see Platform documentation on [How to create accessible GitHub Markdown files](https://depo-platform-documentation.scrollhelp.site/research-design/how-to-create-accessible-github-markdown-files).
-
-### Finding 2  
-Brief description  
-- _Supporting data: Quote [add context]_  
-
----
+<!-----
 
 ## Additional Insights
 *Include insights that do not represent patterns but are still valuable.*  
