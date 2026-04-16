@@ -12,7 +12,7 @@ Identity maintains the security of VA platform identity systems and external ide
 
 | Initiative | Description | Measurement |
 |-----------|-------------|-------------|
-| Early Detection of Unauthorized Account Activity | [*Developing brief description*] | [*How success will be measured*] |
+| [Early Detection of Unauthorized Account Activity](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/platform-authentication/early-detection.md) | [*Developing brief description*] | [*How success will be measured*] |
 
 ---
 
