@@ -261,17 +261,36 @@ During moderated sessions, Veterans successfully navigated the full lifecycle of
 - _Supporting data: 🚧 number of people we tested with
 - _Supporting data: Participants confirmed the accuracy of personal debt details (e.g., Receivable IDs and Payee numbers) on the "Pay Online" and "Detail" screens._
 
-<!-----
 
 ## Additional Insights
-*Include insights that do not represent patterns but are still valuable.*  
-> **TIP:** These could be powerful user comments or unexpected issues worth noting
 
 🚧 Items to add somewhere
 - "Pay online" screen with the details to copy:
     - The balance copies the dollar sign, but since the field in pay.va.gov already has the dollar sign, this results in duplicate characters.
     - The balance appears first in the list, but it is much further down the screen on pay.va.gov, after all the other details.
 - Users would like transparency 
+    - Knowing what the overpayment is for
+    - If they're having their benefits reduced to pay back the overpayment, they want to know when that will happen and by how much.
+🚧 add quotes and/or how many people said it
+
+<!-----
+
+
+## Recommendations
+
+1. **Recommendation:** Remove the dollar sign from the copied text when a user selects "Copy" for the balance.
+   - _Supporting evidence: Participants noted that the balance copies with a dollar sign (e.g., "$100.00"). Since the currency field on pay.va.gov already includes a dollar sign, pasting resulted in duplicate characters (e.g., "$$100.00"), forcing users to manually edit the field._
+
+2. **Recommendation:** Reorder the details on the "Pay online" screen to match the sequence of fields on pay.va.gov.
+   - _Supporting evidence: The current app layout places the balance at the top of the list, but the pay.va.gov form requires the balance much further down the page after other identifiers. Matching the app's data order to the external site's form will reduce cognitive load and the need for users to scroll back and forth._
+
+3. **Recommendation:** Provide clearer information regarding the original cause of the overpayment.
+   - _Supporting evidence: Veterans expressed a strong desire for more transparency regarding "why" the debt exists. Providing specific context on the root cause of the overpayment helps users validate the debt and reduces the need for them to call the Debt Management Center for clarification._
+
+4. **Recommendation:** Clearly communicate the specifics of benefit reductions, including "when" and "by how much."
+   - _Supporting evidence: If a user's benefits are being reduced to pay back a debt, they need to know exactly which upcoming payment will be impacted and the specific amount to be deducted. This level of detail is critical for Veterans who rely on these payments to manage their monthly household budgets._
+
+
 
 ## Recommendations
 
