@@ -231,10 +231,16 @@ Once the above change occurs and we have a way to determine the home facility we
 ---
 
 ### Decision
-_In progress_
+_Complete_
+Decision made on - 3/26/2026
 
-We are currently evaluating the feasibility of obtaining facility data directly from CXI.  
-If that is not viable, we will likely pursue enhancing or extending existing API capabilities to support filtering by facility name and station number.
+We will move forward with option #2. The API team will...
+- Update the `GET Contact endpoint` to return the **home facility**
+- The API Team will build a `new API GET facilities endpoint` that:
+ - Filters on **homeFacility station number**
+ - Filters on **facility name** for the station that they are looking for
+ - Returns related facilities (including children cc and non-cc) for the given home facility
+ - Support paging up to 5000 records max, instead of 50 record max
 
 ---
 
