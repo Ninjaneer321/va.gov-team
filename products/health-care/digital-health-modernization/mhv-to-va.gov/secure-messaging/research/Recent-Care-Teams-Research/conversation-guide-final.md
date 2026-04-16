@@ -41,7 +41,7 @@
 
 ## Intro – 5 minutes
 
-Thanks for joining us today! My name is Espy and I'm a researcher with the VA. Today, I'd like to talk to you about how you send messages to your care team on VA.gov. Before we start, I have a few things that I want to go over with you:
+Thanks for joining us today! My name is Espy and I'm a researcher with the VA. Today, I'd like to talk to you about how you send messages to your care team on VA.gov. We are interested in improving the process of sending a new message. Before we start, I have a few things that I want to go over with you:
 
 - This session will take about 45 to 60 minutes. I’ll try to keep us on track and may occasionally move us to the next question or activity. If we finish early, I’ll give you that time back.  
 - Your participation is completely voluntary. Whether you choose to participate or not will not affect your VA benefits in any way. If you'd like to stop at any point or skip a question, that is absolutely fine. Just let me know.  
