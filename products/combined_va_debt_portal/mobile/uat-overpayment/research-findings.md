@@ -302,19 +302,27 @@ Increase debt visibility via the mobile app to ensure Veterans are aware of mone
 
 - This research validates that the mobile app is an effective, functional channel for debt awareness. Because all participants successfully completed the core tasks using real-world data, the business can be confident that launching this feature will provide a convenient, self-service way for Veterans to resolve debts and reduce reliance on manual support.
 
-<!-----
-
-
 
 ## Key Performance Indicators
 
-*Explain how findings will support KPI measurement.*  
+### Total number of views and overall app volume
+This research confirms that overpayment screens load correctly for Veterans using live credentials. By validating that 100% of participants could access their debt list and details, we have verified these screens are functionally ready to contribute to app volume metrics.
 
-> [!NOTE]
-> Refer back to your Product Outline. 
+### Total number of clicks on "Make a Payment" and external VA.gov links
+Testing confirmed all resolution buttons (Pay, Request Help, Dispute) successfully trigger external browser alerts. This validates that users can technically reach the intended destinations to resolve debts.
 
-### KPI 1
-This research supports measurement of this KPI by....
+### Total number of error alerts shown to the user
+UAT established a baseline of zero functional errors across all 89 test criteria. This confirms that the current build is stable and the error-handling logic prevents unexpected alerts during standard overpayment tasks.
+
+### Total number of clicks on "Copy" buttons
+We confirmed the copy functionality successfully transfers data strings to the clipboard. Monitoring this metric will assess how often users rely on this feature to complete their journey on pay.va.gov.
+
+### Total number of clicks on empty states
+We confirmed the app correctly pulls and displays "empty states" for Veterans without active debt. Testing with 2 Veterans verified that this data is accurate and communicates the absence of debt effectively.
+
+
+<!-----
+
   
 
 ## Next Steps
