@@ -374,13 +374,5 @@ So that we can pass in the `appointmentSource` field in the request body and set
 
 - 4/16/2026 - During the Product Checkin meeting we determined that we would determine a user created appointment is community care based off of the facility station number that the user selected. If the facility is community care, it will have a station number that has a `CC` in it EX: `986CC19876`. Stakeholders decided to move forward with this so that we wont have to ask the "Is this appointment for community care?" question in the user created appointment flow.
 
-We also talked about how to tell that an appointment was user created. We discussed that based on BTSSS API records there are around 50 appointments created a day that look like user created appointments that actually are not and are created due to the API not being able to get the vaos data. We talked about this with stakeholders.
-
-___
-
-
-
-
-
-
+  We also talked about how to tell that an appointment was user created. We discussed that based on BTSSS API records there are around 50 appointments created a day that look like user created appointments that actually are not and are created due to the API not being able to get the vaos data. We talked about this with stakeholders. 
 
