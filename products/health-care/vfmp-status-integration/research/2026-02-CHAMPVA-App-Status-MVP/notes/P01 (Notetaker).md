@@ -177,11 +177,11 @@ Previous call center experience
 - I liked it a lot. It was very helpful
 - That was a good VA.gov experience.
 - Everything was right where I could see it easy. That's something I usually struggle with.
-- I would love to do this experience. Previously had to fill out the same form 6 times
+- I would have loved to do this experience. Previously had to fill out the same form 6 times
 - Not really [anything unexpected]. Once I thought about it it made sense. Like realizing that the app was for 2 people. Previously, had to fill out an app for each people
 - Step 2 out of 4 wasn't sure what claim that was going for
 
-- [Uses the term] claim is a catch-all for VA stuff
+- [Uses the term] claim as a catch-all for submitting VA stuff
 
 **Likert questions**
 
@@ -197,18 +197,17 @@ I felt confident I understood what was happening with each person's application.
 - [ ] 2
 - [ ] 3
 - [ ] 4
-- [ ] 5 - Strongly Agree
+- [x] 5 - Strongly Agree
 
 I knew where to look to find updates about my application.
 - [ ] 1 - Strongly Disagree
 - [ ] 2
 - [ ] 3
 - [ ] 4
-- [ ] 5 - Strongly Agree
+- [x] 5 - Strongly Agree
 
-
-[check transcript]
-A letter will take 2 weeks to get here
+- I have everything I want
+- Maybe just an email for John Doe Jr. when it wanted a birth certificate. Would have liked email. A letter will take 2 weeks to get here, so that's two weeks when I could have been uploading the birth certificate
 
 ### Additional Notes**
 - 
