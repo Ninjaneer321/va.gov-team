@@ -181,7 +181,7 @@ Retrieves full details for a single referral. Loaded by the referral scheduling 
 - `expirationDate`: `YYYY-MM-DD`. Shown as "All appointments for this referral must be scheduled by [date]".
 - `hasAppointments`: When `true`, the Veteran is redirected away from the scheduling flow (only the first appointment can be directly scheduled).
 - `stationId`: Used for pilot station eligibility validation.
-- `onlineSchedule`: Boolean. Must be `true` (along with `provider.npi` and `!hasAppointments` and valid `stationId`) for the "Schedule your appointment" CTA to appear.
+- `onlineSchedule`: Boolean. Must be `true` (along with `!hasAppointments` and valid `stationId`) for the "Schedule your appointment" CTA to appear.
 - `provider`: The assigned community care or VA provider. Contains `name`, `npi`, `phone`, and `address`. May be `null` if no provider is pre-assigned.
 - `provider.address`: Object with `street1`, `street2` (optional), `street3` (optional), `city`, `state`, `zip`.
 - `referringFacility`: The VA facility that created the referral.
