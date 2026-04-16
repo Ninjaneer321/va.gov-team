@@ -1,21 +1,21 @@
 # Check-in B Notetaker Template: Cutover + Early Recovery
 
-**Participant:** [P#]  
-**Date:** [DATE]  
-**Moderator:** [NAME]  
-**Notetaker:** [NAME]  
+**Participant:** P7  
+**Date:** 4/16/2026  
+**Moderator:** Cara Frissell  
+**Notetaker:** Laura Simpson 
 **Observers:** [NAMES]  
-**Recording:** [YES/NO]  
+**Recording:** YES  
 
 ---
 
 ## 1. Intro + Consent
 
-- [ ] Recording consent confirmed
-- [ ] Clip consent confirmed
-- [ ] Observer introduction completed
+- [x] Recording consent confirmed
+- [x] Clip consent confirmed
+- [x] Observer introduction completed
 - **Notes:**
-
+Veteran is using an Ipad for the session
 ---
 
 ## 2. Warm-up: Recent Healthcare Activity
@@ -26,7 +26,7 @@
 - [ ] Requested refills or checked shipment status
 - [ ] Viewed lab results or medical records
 - [ ] Used travel pay
-- [ ] Other: _______________
+- [x] Other: _none______________
 
 ### Tools used:
 - [ ] VA.gov web
@@ -69,15 +69,15 @@
 
 **What they see on the page:**
 - **Notes:**
-
+No Alerts on Medications List
 **Alert/notice observed (unprompted)?**
 - [ ] Yes
 - [ ] No
 - **Notes:**
-
+No Alerts listed, but he did expand "Transferred" Status
 #### Refill functionality:
 - [ ] Could request refills
-- [ ] Could NOT request refills
+- [x] Could NOT request refills
 - **Workaround used:** _______________
 - **Notes:**
 
@@ -97,14 +97,15 @@
   - **Response time:** _______________
   - **Outcome:** _______________
 - **Notes:**
+VA transferred 1 refill left = OH he had already submitted a refill request prior to sessionin active submitted has 1 refill left
 
 #### "Transferred" label (if visible):
-- **Understanding of term:** _______________
-- **Trust impact:** [ ] Increased [ ] Decreased [ ] Neutral
+- **Understanding of term:** ___Expanded collapse on his own and read the copy____________
+- **Trust impact:** [ ] Increased [ ] Decreased [x] Neutral
 - **Notes:**
-
+  Couldn't refill expected medication. He's going to follow up
 #### Combined med list + new Rx numbers (if visible):
-- **Recognition of medications:** [ ] Full [ ] Partial [ ] Confused
+- **Recognition of medications:** [x] Full [ ] Partial [ ] Confused
 - **Confusion from new Rx numbers?** [ ] Yes [ ] No
   - **Nature of confusion:** _______________
 - **Notes:**
@@ -118,26 +119,49 @@
 
 **What they see on the page:**
 - **Notes:**
-
+Still seeing secure messaging alert
 **Alert/notice observed (unprompted)?**
-- [ ] Yes
+- [x] Yes
 - [ ] No
 - **Notes:**
+Saw an older message and the alert "you can't send messages in this conversation."
+M: So if you wanted to respond to this,
+Or you wanted to follow up on something she said here.
+How would you do so?
+
+P7:I believe I would have to…
+return to the purple 01, the Anna, you know, uh…
+address, and…
+address it to Lisa.
 
 #### Messaging ability during transition window:
-- [ ] Could send/read messages
+- [x] Could send/read messages
 - [ ] Could NOT send/read messages
 - **Workaround used:** _______________
 - **Notes:**
-
+After he sent it, he didn't see a confirmation and went to look in the "sent" tab
 #### Current messaging experience:
-- **What feels different?** _______________
+- **What feels different?** ___notes that there are different care teams_and need to search for the practioner he's looking for ___________
 - **Notes:**
+I have…
+Options here. So…
+B-H-A-N-PEC,
+uh, purple, old one.
+So it's offered me that, and that's not it.
+I think that it… we…
+To get to Lisa, we utilized, uh…
+Oh, she wasn't on the direct list.
 
 #### Oracle Health / message pools terminology:
-- **Understanding:** _______________
+- **Understanding:** _Remembered a part of the group name and was able to find it eventually______________
 - **Notes:**
+M observation: it's his second time send a sm it's not giving him the alert bc his --- even though the new name for pcp is in "recent" he still selects "another care team" ---- he doesn't remember what new care team name is
 
+So I put in purple, oh, one. That's what I could remember.
+radar fan, and then it so it brought me up to the VHA and PEC,
+Purple 01. So…
+purple one at least got me close.
+ 
 #### Alert expandability (Check-in 1 finding):
 - **Noticed it was clickable?** [ ] Yes [ ] No
 - **What would make it obvious?** _______________
@@ -145,6 +169,31 @@
 
 #### Suggested improvements:
 - **Notes:**
+Well, of course, I commented several times about
+the scrolling down of the entire facility, you know, all of the departments that they offer.
+But I had experience with this already, you know, with you and stuff, so…
+I was ahead of the game. The new guy on the block, you know, he might have more trouble.
+
+
+Well, we talked about
+not being able to respond, like, a reply button to a…
+your past communications.
+That would be helpful, I thought, well, of course it's something that
+other formats, you know, uh…
+your email messages, so you can have a long list of
+correspondence back and forth for weeks at a time, and it becomes one long thread, you know?
+Rather than having to start a new…
+uh, new message, and then try to compose, you know, what was in the old one to transfer it?
+
+So, that list…
+You know, the department list.
+should be easy enough, you know, how you capture it, I don't know, you know, I'm not in that…
+field, but somebody knows, uh…
+past, you know, contacts.
+should be held in, like,
+For me, in my, uh, my screen, because it says,
+Yep, but upper right corner, it says Zeno, so you know who I am.
+Well, who do they have contacts with?
 
 ---
 
@@ -152,32 +201,49 @@
 
 **What they see on the page:**
 - **Notes:**
-
+Sees alert that they cannot schedule appointments
 **Alert/notice observed (unprompted)?**
-- [ ] Yes
+- [x] Yes
 - [ ] No
 - **Notes:**
+Then it says, you know, you can't schedule appointments, May 26th.
+at either Detroit or Ann Arbor, you can cancel
+But you'll need an appointment by calling.
 
 #### Scheduling/changing prevented?
 - [ ] Yes
-- [ ] No
+- [x] No
 - **When:** _______________
 - **Workaround used:** _______________
 - **Notes:**
+M: on today, April 16th, you think that if you wanted to schedule an appointment for June 1st,
+You would have to call.
 
+P7: 
+I'm thinking that…
+you know, if they're not accepting, you know, if the… and of course, I wouldn't know that until I actually try it.
+I'm assuming they would block me.
+And tell me, call, call to hospital.
+
+M:And when do you think you would be able to schedule for June 1 online?
+
+P7: After May 26th,
+Midnight.
 #### Oracle Health + old system visible together:
-- [ ] Yes
+- [x] Yes
 - [ ] No
 - **Completeness assessment:** [ ] Complete [ ] Missing items [ ] Duplicates
 - **Trustworthiness:** [ ] High [ ] Medium [ ] Low
 - **Confusing labels/elements:** _______________
 - **Notes:**
+he sees alerts not to schedule at mich facilities but can schedule at florida facility
 
 #### Cancel/change during downtime:
-- **Attempted?** [ ] Yes [ ] No
-- **Successful?** [ ] Yes [ ] No
+- **Attempted?** [x] Yes [ ] No
+- **Successful?** [x] Yes [ ] No
 - **How:** _______________
 - **Notes:**
+Cancel Button was visible and he was able to get the confirmation page. 
 
 #### Suggested improvements:
 - **Notes:**
@@ -188,18 +254,23 @@
 
 **What they see on the page:**
 - **Notes:**
+sees the alert and reads it: It says, uh, you may notice duplicate records for our time.
+We have removed or changed any of the records.
+A recent update has been slow to duplicate, uh, show duplicate records.
 
 **Alert/notice observed (unprompted)?**
-- [ ] Yes
+- [x] Yes
 - [ ] No
 - **Content:** _______________
 - **Notes:**
 
 #### Record visibility + completion:
-- **Saw expected records?** [ ] Yes [ ] No
+- **Saw expected records?** [x] Yes [ ] No
 - **Missing or confusing items:** _______________
 - **Notes:**
+Goes back a year to find a medical record and it appears as expected
 
+Vaccines seemed to have a duplication in 1 record.
 #### Lab/test result notifications:
 - **Received notifications?** [ ] Yes [ ] No
 - **Channel(s):** [ ] Email [ ] Text [ ] App [ ] VA.gov [ ] Other: _______________
@@ -331,7 +402,7 @@
 
 ## Consent Confirmation
 
-- [ ] Clip consent re-confirmed
+- [x] Clip consent re-confirmed
 - [ ] Specific segments participant does NOT want clipped: _______________
 
 ---
