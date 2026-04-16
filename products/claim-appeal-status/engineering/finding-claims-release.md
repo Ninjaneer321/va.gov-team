@@ -17,11 +17,11 @@ Based on two days of post-release data (Apr 8-9 vs Apr 1-2). Data sources: GA4 a
 - **Details link clicks**: -13% (day 1) and -21.83% raw / -16% normalized (day 2).
 - **Pagination**: -28% (day 1) and -47% (day 2). Fewer users are paginating past page 1.
 
-### Unexplained Increases
+### Increases
 
-- **page_view**: +36% (day 1, flat traffic) and +22.58% (day 2). Cause unknown.
-- **Self-navigation**: +35% (day 1) and +109% (day 2). Users navigating from the claims landing page back to the same page. Testing confirmed this is not caused by page refreshes or filter clicks. This is one of the largest changes in the analytics -- asking in the GA channel for help understanding what user action drives this metric.
-- **Claim letters navigation**: +41% (day 1) and +29% (day 2). Cause unknown.
+- **page_view**: +36% (day 1, flat traffic) and +22.58% (day 2). **Cause:** `YourClaimsPageV2.handleFilterChange` called `navigate(pathname)` unconditionally on every filter click, and vets-website auto-tracks SPA route changes as page views via Datadog RUM (`trackViewsManually: false` in `src/platform/monitoring/Datadog/index.js:58`) and GA4. Each filter click fired a same-URL pageview — roughly one per `int-button-segmented-click` event. Fixed in vets-website PR [#44088](https://github.com/department-of-veterans-affairs/vets-website/pull/44088); expect counts to drop by ~44k/day once deployed to production.
+- **Self-navigation** (+35% day 1 / +109% day 2): **Same root cause.** Each filter-click-induced same-URL `navigate` produced a pageview whose `referrer` was also `/track-claims/your-claims`, which is exactly what the self-navigation metric counts. The earlier note that "testing confirmed this is not caused by filter clicks" was incorrect — the test missed that Datadog/GA4 auto-track history changes regardless of whether the URL visibly differs. Expect this metric to normalize alongside page_view after PR #44088 ships.
+- **Claim letters navigation**: +41% (day 1) and +29% (day 2). Likely caused by less content on the page as closed claims are moved into the Closed tab.
 
 ### Frustration (Datadog RUM)
 
@@ -32,14 +32,16 @@ Based on two days of post-release data (Apr 8-9 vs Apr 1-2). Data sources: GA4 a
 
 ### Potential Concern: Default View Without Cards or With Far Fewer Cards
 
-Users who navigate to `/track-claims/your-claims` with only closed claims (e.g., 10 closed, 0 in-progress) would see an empty list on the default "In progress" filter. These users may not notice the new filter component or the empty state message ("We don't have any in-progress records for you in our system.") and think their claims are missing. This scenario could be a common factor behind the appeal detail decline and the frustration rate increase. The self-navigation increase (+35%/+109%) is also notable but testing confirmed it is not caused by page refreshes or filter clicks -- we are asking in the GA channel for help understanding what user action drives this metric.
+Users who navigate to `/track-claims/your-claims` with only closed claims (e.g., 10 closed, 0 in-progress) would see an empty list on the default "In progress" filter. These users may not notice the new filter component or the empty state message ("We don't have any in-progress records for you in our system.") and think their claims are missing. This scenario could be a common factor behind the appeal detail decline and the frustration rate increase. (Note: the self-navigation increase mentioned above is now attributed to the filter-click pageview bug, not a user behavior change, and will be resolved by PR #44088.)
 
 ### Action Items
 
 - [ ] Investigate appeal detail session decline -- are users unable to find closed appeals behind the Closed filter?
-- [ ] Investigate unexplained page_view and self-navigation increases
+- [x] Investigate unexplained page_view and self-navigation increases — root cause identified; fixed in vets-website PR [#44088](https://github.com/department-of-veterans-affairs/vets-website/pull/44088). Verify counts drop post-deploy.
+- [x] Investigate claim letters navigation increase (+41% / +29%)
 - [ ] Continue monitoring frustration rate over the full week
 - [ ] Collect full 7-day comparison (Apr 1-7 vs Apr 8-14) for a more conclusive analysis
+- [ ] Add a post-#44088 row to the page_view / self-navigation tables to confirm the expected drop
 
 ## Google Analytics Release Monitoring
 
@@ -652,3 +654,75 @@ Log in and navigate to the claims landing page with the flag enabled. Verify all
 - [x] "We might still be processing it" subsection is present
 - [x] "We combined your claims" subsection is present
   - _"We might have combined your claims"_
+
+---
+
+## Filter Click Pageview Fix Bug Bash (vets-website PR #44088)
+
+Verifies the fix for the pageview-inflation and Back-button-pollution bug on the claims landing page. Previous testing missed this bug because it only watched URLs and didn't inspect analytics network requests — these test cases are written to close that gap.
+
+### Known limitation (do not flag as a regression)
+
+After a specific sequence — breadcrumb to the claims list, paginate, then change the filter — the first browser Back press may be visually invisible because the `history.replace` that strips `?page=` can produce a same-URL entry adjacent to an earlier breadcrumb-pushed entry. The second Back press leaves CST. This is expected and consciously accepted in PR #44088. The structural fix (removing `?page=` from the URL entirely) is tracked in [#139552](https://github.com/department-of-veterans-affairs/va.gov-team/issues/139552).
+
+### Setup
+
+- Open Chrome DevTools > **Network** tab. In the filter bar, type: `collect|browser-intake`. This isolates GA4 (`collect`) and Datadog RUM (`browser-intake`) requests so you can count pageview events directly.
+- Open DevTools > **Application** > **Session Storage** > current origin in a second pane — watch `claimsFilter` update live.
+- Clear Network (🚫) between sub-tests so counts start fresh.
+
+### Test Case 1: Filter click on a bare URL fires zero page views
+
+#### Steps to Reproduce
+1. Navigate to `/track-claims/your-claims/`. Confirm the URL has no query string.
+1. Open DevTools > Console. Run `history.length` and note the value (call it N).
+1. Clear Network.
+1. Click "Closed", then "All", then "In progress" (three filter clicks).
+1. Run `history.length` again.
+
+#### Intended Outcomes
+- [ ] Zero `collect` requests with `en=page_view` across all three clicks
+- [ ] Zero `browser-intake` RUM `view` events across all three clicks
+- [ ] `int-button-segmented-click` events do fire in `collect` (intentional filter analytics, unchanged by this fix)
+- [ ] URL remains `/track-claims/your-claims/` with no query string throughout
+- [ ] `sessionStorage.claimsFilter` updates to the clicked value on each click
+- [ ] `history.length` is still N (no new history entries pushed)
+
+### Test Case 2: Filter click while paginated strips `?page=` via replace
+
+#### Steps to Reproduce
+1. Navigate to page 2 via the pagination component (click the page-2 button). URL should become `?page=2`.
+1. Clear Network.
+1. Click "Closed".
+
+#### Intended Outcomes
+- [ ] URL drops `?page=2` and becomes bare `/track-claims/your-claims/`
+- [ ] Exactly one `collect` page_view and one `browser-intake` view fire (legitimate URL change)
+- [ ] The list visibly updates to page 1 of the Closed filter
+
+### Test Case 3: Browser Back after filter toggles exits the page in one press
+
+#### Steps to Reproduce
+1. In a fresh tab, navigate to VA.gov home (or any non-CST page).
+1. Navigate to `/track-claims/your-claims/`.
+1. Click "Closed", "All", "In progress", "Closed" (four filter clicks).
+1. Press the browser Back button once.
+
+#### Intended Outcomes
+- [ ] Back returns to the previous page (VA.gov home) in a single press, not to a previous filter state or same-URL duplicate
+
+### Test Case 4: Verify the known limitation behaves exactly as documented
+
+#### Steps to Reproduce
+1. From `/track-claims/your-claims/`, click "Your claim letters" in the On This Page list. You land on `/track-claims/your-claim-letters`.
+1. Click the Claims breadcrumb to return to `/track-claims/your-claims/`.
+1. Click the page-2 button in the pagination. URL becomes `?page=2`.
+1. Click the "All" filter.
+1. Press the browser Back button once.
+1. Press the browser Back button a second time.
+
+#### Intended Outcomes
+- [ ] Step 4 strips `?page=2`, resetting to page 1 of the All filter
+- [ ] Step 5 (first Back press) appears to do nothing — URL stays at `/track-claims/your-claims/` (this is the documented quirk, not a bug)
+- [ ] Step 6 (second Back press) lands on `/track-claims/your-claim-letters` (where you were at step 1)
+- [ ] If step 5 leaves CST directly, or if step 6 is still on `/your-claims/`, the history stack shape has changed and should be investigated
