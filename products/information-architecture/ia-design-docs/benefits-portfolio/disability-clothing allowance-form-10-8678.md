@@ -43,11 +43,11 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - [Breadcrumbs](https://design.va.gov/components/breadcrumbs) VA.gov home &gt; VA forms &gt; Application for annual clothing allowance &gt; Apply for annual clothing allowance online
 - [Title tags](https://design.va.gov/content-style-guide/title-tags) Apply for annual clothing allowance
   
-**1) Page name - Existing/New**
-- URL:
-- H1:
-- Sub-heading:
-- Breadcrumb:
+**1) Page name - Existing**
+- URL: https://www.va.gov/forms/10-8678/
+- H1: About VA Form 10-8678
+- Sub-heading: Application for Annual Clothing Allowance
+- Breadcrumb: VA.gov> homeVA> forms> About VA Form 10-8678
 - Browser title: [H1 of introduction page in title case] | Veterans Affairs
     - [insert title] | Veterans Affairs
 - Notes: 
