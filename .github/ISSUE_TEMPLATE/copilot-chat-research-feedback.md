@@ -17,7 +17,8 @@ Your feedback will be automatically aggregated for analysis.
 **Your team/portfolio:** 
 **Date tested:** YYYY-MM-DD
 **Copilot model used:** (Check one)
-- [ ] Claude Sonnet
+- [ ] Claude Sonnet 4.6
+- [ ] Claude Haiku 4.5
 - [ ] GPT-4o
 - [ ] GPT-5.2
 - [ ] Other: ___
