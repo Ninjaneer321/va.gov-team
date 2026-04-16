@@ -22,12 +22,11 @@
 
 ## <a name="flows"></a>Navigation/page flows <br>
 *Illustration and/or description of how users will navigate to and flow through the experience for all impacted visitors typies. This helps identify key entry points and findability requirements, user flow scenarios, and content/messaging needs across various scenarios.*
-<img width="5129" height="3228" alt="21-2680 IA for third-party form routing_2026-04-15_07-12-26" src="https://github.com/user-attachments/assets/94ea156c-da5b-4ab6-8d07-b88f5ebe1b5b" />
+<img width="3380" height="1586" alt="21-2680 IA for third-party form routing_2026-04-16_06-21-48" src="https://github.com/user-attachments/assets/7e112b8e-c8a1-4726-b9b9-08f34a9bb254" />
 
 ## <a name="map"></a>Page structure<br>
 *Illustration and/or description of where this product/feature will live within the overall IA of VA.gov (i.e. a site map). The placement of your product/feature determines the URL structure, breadcrumb, and navigational needs of the product/feature, and provides search engines with relationship information that impacts overall SEO and findability. Placement of a product/feature must follow established patterns and standards of the existing site.*
-<img width="3468" height="2011" alt="21-2680 IA for third-party form routing_2026-04-15_07-26-59" src="https://github.com/user-attachments/assets/2fb352c1-3a9d-49c5-ad44-102fd244cea8" />
-
+<img width="2378" height="1158" alt="21-2680 IA for third-party form routing_2026-04-16_06-26-23" src="https://github.com/user-attachments/assets/e05c95c3-dc3f-4413-999f-5409ea59c5ed" />
 
 ## <a name="url"></a>Page URLs and breadcrumbs
 *URL and breadcrumb requirements for each modified or new page within the experience. URLs and breadcrumbs must follow established patterns and standards of the existing site. This section will also document form or tool flow URLs, titled sub-URLs.*
@@ -37,18 +36,18 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - [Breadcrumbs](https://design.va.gov/components/breadcrumbs)
 - [Title tags](https://design.va.gov/content-style-guide/title-tags)
 
-**1) New Email**
-Notes: this will link to the Examination form introduction page
-
-**2) New Examination Form introduction page**
-- URL: https://www.va.gov/forms/21-2680/submit-medical-examination/
-- H1: Submit Medical Examination
+**1) Veteran form - new URL**
+- URL: https://www.va.gov/forms/21-2680/apply-aid-attendance-housebound/
+- H1: About VA-Form 21-2680 (this is the default and can be changed after code freeze lifts. Final H1 to be determined by Content and will start with an action word)
 - Sub-heading: Examination for Housebound Status or Permanent Need for Regular Aid and Attendance (VA Form 21-2680)
-- Breadcrumb: VA.gov > VA Forms > About VA Form 21-2680 > Submit medical examination
-- Browser title: Submit Medical Examination | Form 21-2680 | Veterans Affairs
-- Notes:
+- Breadcrumb: VA.gov home > VA forms > Application for Aid and Attendance benefits or Housebound allowance > Apply for Aid and Attendance or Housebound allowance online
 
-
+**2) Provider form - new**
+- URL: https://www.va.gov/forms/21-2680/submit-medical-examination/
+- H1: About VA-Form 21-2680 (this is the default and can be changed after code freeze lifts. Final H1 to be determined by Content and will start with an action word)
+- Sub-heading: Examination for Housebound Status or Permanent Need for Regular Aid and Attendance (VA Form 21-2680)
+- Breadcrumb: Back link
+- Notes: Provider form won't be navigable to from the website. It's only accessible via email.This form will use the minimal header
 
 **Structuring URLs for individual pages within the form flows**
 - All pages within form flows will exist as child pages of the core/canonical URL.
@@ -71,7 +70,7 @@ Teams must launch with at least one entry point that allows site visitors to nav
   - Link details
     - Link label: TBD
     - Link destination: https://www.va.gov/forms/21-2680/submit-medical-examination/
-  - Notes:
+  - Notes: 
     - Who will update (IA, content, product team): Product team
     - When will this entry point go live (at launch? After staged rollout? after some designated time?): At launch
    
@@ -87,7 +86,8 @@ _Any additional key locations that the page should be navigable from. Although t
 **For any redirects listed, please submit a request for the redirect using the [Redirect Request Issue Template](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=redirect-request.md) at least 2 weeks in advance.**  
 
 | Current URL | Redirect to | Notes |
-| --- | --- | --- |
+--- | --- | ---|
+| https://www.va.gov/pension/aid-attendance-housebound/apply-form-21-2680/introduction ---| https://www.va.gov/forms/21-2680/apply-aid-attendance-housebound | --- |
 
 
 ## <a name="bestbets"></a>Search best bets
