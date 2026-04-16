@@ -4,7 +4,7 @@
 
 ## Monitoring Executive Summary
 
-Based on GA4 seven-day comparison: Mar 25-31 (pre-release baseline) vs Apr 8-14 (first full week post-release). Traffic flat (-0.36% sessions). Datadog RUM frustration data is a separate 2-day sample noted below.
+Based on seven-day comparison: Mar 25-31 (pre-release baseline) vs Apr 8-14 (first full week post-release). Traffic flat (-0.36% GA sessions). Covers both GA4 behavioral metrics and Datadog RUM frustration.
 
 ### Confirmed Working
 
@@ -26,12 +26,9 @@ Based on GA4 seven-day comparison: Mar 25-31 (pre-release baseline) vs Apr 8-14 
 
 ### Frustration (Datadog RUM)
 
-Note: frustration data is from a 2-day Datadog RUM sample (Apr 1-2 vs Apr 8-9), not the 7-day GA window above.
-
-- Frustration rate increased from 7.4% to 9.6%
-- Frustration monitor did not trigger a warning or alert
-- Session replays did not reveal a clear pattern
-- The increase warrants continued monitoring
+- Frustration rate edged up from 7.84% to 9.19% -- a 1.35 pp change. The shift is real rather than a sampling artifact (frustration views grew faster than overall sampled views), but the absolute change is modest and RUM frustration signals (rage clicks, dead clicks) are inherently noisy. Not a strong negative signal on its own.
+- Session replays reviewed at release time did not reveal a clear pattern
+- Continue tracking; if the rate doesn't normalize within 2-3 weeks, investigate via session replays
 
 ### Potential Concern: Default View Without Cards or With Far Fewer Cards
 
@@ -43,7 +40,8 @@ Users who navigate to `/track-claims/your-claims` with only closed claims (e.g.,
 - [x] Investigate unexplained page_view and self-navigation increases -- root cause identified; fixed in vets-website PR [#44088](https://github.com/department-of-veterans-affairs/vets-website/pull/44088). Verify counts drop post-deploy.
 - [x] Investigate claim letters navigation increase -- explained by fewer cards on default view moving the Claim Letters section closer to the top of the page.
 - [x] Collect full 7-day comparison -- Mar 25-31 vs Apr 8-14 report added below.
-- [ ] Continue monitoring frustration rate
+- [x] Collect full 7-day Datadog RUM frustration comparison -- Mar 25-31 vs Apr 8-14 report added below.
+- [ ] Continue monitoring frustration rate; investigate via session replays if the rate doesn't normalize within 2-3 weeks
 - [ ] Add a post-#44088 row to the page_view / self-navigation tables to confirm the expected drop
 
 ## Google Analytics Release Monitoring
@@ -53,8 +51,8 @@ Users who navigate to `/track-claims/your-claims` with only closed claims (e.g.,
 Create or update the following GA4 Explore tabs to monitor the rollout. Record baseline and post-release values in the tables below to share with stakeholders.
 
 - Release date: April 7, 2026
-  - Fully Enabled Feature Flag at 10:45 PM ET. This allowed all users to get the new feature (and view it being used in all Datadog replays) while not being at the peak hours of the day
-  - I watched a few dozen Datadog replays as well as looked at the frustration count. Neither showed anything concerning.
+  - Feature flag fully enabled at 10:45 PM ET -- outside peak hours to allow full rollout and immediate Datadog replay visibility.
+  - Release-time review of several dozen Datadog replays and the frustration count showed nothing concerning.
 - Baseline: Mar 25 - Mar 31 (Wed-Tue, one week earlier than release week to avoid partial data)
 - Post-release: Apr 8 - Apr 14 (Wed-Tue, first full week post-release)
 - Week 2: Apr 15 - Apr 21 (for trend comparison and post-#44088 verification)
@@ -143,7 +141,7 @@ Use matching day-of-week windows to account for weekday/weekend traffic differen
 
 ### Report: March 25-31 vs April 8-14
 
-Seven-day comparison: Wednesday March 25 through Tuesday March 31 (pre-release baseline) vs Wednesday April 8 through Tuesday April 14 (first full week post-release). Same days of week. Baseline is one week earlier than the monitoring-doc default (Mar 31 - Apr 6) to avoid any release-day partial data.
+Seven-day comparison: Wednesday March 25 through Tuesday March 31 (pre-release baseline) vs Wednesday April 8 through Tuesday April 14 (first full week post-release). Same days of week.
 
 **Traffic baseline**:
 
@@ -238,7 +236,7 @@ Total pagination sessions dropped -44.48% (1,176 vs 2,118). The In progress filt
 
 Note: this tab reports Views, not Sessions. View-based metrics amplify the bug because each filter click generates one extra view, while session and user counts are unaffected.
 
-The self-navigation rows (+830% / +1,033%) are the clearest fingerprint of the bug: each unconditional `navigate(pathname)` call fired a same-URL pageview whose referrer was also `/track-claims/your-claims`, which GA counts as self-navigation. Combined self-nav views increased from ~21,729 to ~217,323 (roughly +900%). This is ~99% of the total outbound-views increase (197,615 out of 197,615). The entire outbound-views growth is explained by the bug. Fixed in PR #44088.
+The self-navigation rows (+830% / +1,033%) are the clearest fingerprint of the bug: each unconditional `navigate(pathname)` call fired a same-URL pageview whose referrer was also `/track-claims/your-claims`, which GA counts as self-navigation. Combined self-nav views increased from ~21,729 to ~217,323 (roughly +900%). This is ~99% of the total outbound-views increase (195,594 out of 197,615). The entire outbound-views growth is explained by the bug. Fixed in PR #44088.
 
 The +38.35% increase in claim letters navigation is expected. For users with closed claims, the default In progress filter shows fewer cards, moving the Claim Letters section physically closer to the top of the page. This also explains the -15.22% drop in "Your claim letters" On This Page clicks -- users don't need the OTP shortcut when the section is already visible without scrolling. Homepage (+7.7%) and My VA (-4.56%) are roughly flat.
 
@@ -246,11 +244,11 @@ The +38.35% increase in claim letters navigation is expected. For users with clo
 
 ## Datadog RUM Release Monitoring
 
-Datadog RUM (service: `benefits-claim-status-tool`) detects user frustration signals (rage clicks, dead clicks, error clicks) that GA cannot. A monitor is configured to alert the team if frustration spikes after release. Note that RUM captures a sample of total traffic, so view counts here should not be compared directly to GA numbers.
+Datadog RUM (service: `benefits-claim-status-tool`) detects user frustration signals (rage clicks, dead clicks, error clicks) that GA cannot. Note that RUM captures a sample of total traffic, so view counts here should not be compared directly to GA numbers.
 
-### Report: Apr 1-2 vs Apr 8-9
+### Report: March 25-31 vs April 8-14
 
-Two-day comparison: Tuesday-Wednesday April 1-2 (pre-release) vs Tuesday-Wednesday April 8-9 (post-release). Same days of week for a fair comparison.
+Seven-day comparison matching the GA window: Mar 25-31 (pre-release baseline) vs Apr 8-14 (first full week post-release). Same day-of-week alignment.
 
 RUM Explorer query: `service:benefits-claim-status-tool @view.url_path:/track-claims/your-claims`
 
@@ -258,32 +256,22 @@ Frustration filter adds: `@view.frustration.count:>0`
 
 **Sampled views baseline**:
 
-| Metric | Apr 1-2 | Apr 8-9 | Change |
+| Metric | Mar 25-31 | Apr 8-14 | Change |
 |---|---|---|---|
-| Total sampled views | 22,285 | 24,305 | +9.1% |
+| Total sampled views | 63,198 | 70,530 | +11.6% |
 
 #### Frustration
 
-| Metric | Apr 1-2 | Apr 8-9 |
+| Metric | Mar 25-31 | Apr 8-14 | Change |
 |---|---|---|---|
-| Views with frustration | 1,660 | 2,334 |
-| Frustration rate | 7.4% | 9.6% |
+| Views with frustration | 4,953 | 6,484 | +30.9% |
+| Frustration rate | 7.84% | 9.19% | +1.35 pp |
 
-The frustration rate edged up from 7.4% to 9.6%, partly explained by the 9.1% increase in sampled traffic. The frustration monitor never triggered a warning or alert, and session replays reviewed at release time did not reveal a clear pattern. Will continue monitoring over the full week to see if the rate stabilizes.
-
-### Frustration Monitor
-
-- Monitor: [CST - High Frustration on /track-claims/your-claims](https://vagov.ddog-gov.com/monitors/549183?from_ts=1775500840739&to_ts=1775587240739&live=true)
-- Query: `rum("@type:view service:benefits-claim-status-tool @view.url_path:/track-claims/your-claims")`
-- Evaluation: AVG frustration count over the last 5 minutes
-- Thresholds:
-  - Warning: 3 < avg <= 5
-  - Alert: avg > 5
-- Status at release: OK
+Frustration rate edged up 1.35 pp (from 7.84% to 9.19%). Frustration views grew +30.9% while sampled views grew only +11.6%, so the shift is real rather than a sampling artifact. That said, the absolute change is modest, and RUM frustration signals (rage clicks, dead clicks) are inherently noisy -- a 1-2 pp swing on a metric with an ~8% baseline is not dispositive on its own. Session replays reviewed at release time did not reveal a clear pattern. Continue tracking; if the rate doesn't normalize within 2-3 weeks, investigate via session replays.
 
 ### Investigating Frustration Signals
 
-If the monitor triggers a warning or alert, or the before/after comparison shows an increase:
+If the before/after comparison shows an increase that doesn't normalize:
 
 1. In the same RUM Explorer view, narrow the time range to the post-release spike
 2. Filter for "Session Replay available" to watch affected sessions
@@ -522,6 +510,8 @@ Note: User 50 has no STEM claims. Use a different test user to verify this case.
 ---
 
 ## Staging Review Bug Bash
+
+> **Historical -- pre-rename.** This section reflects the staging review conducted before the filter was renamed. At that time the middle button was labeled "Active" and the default was "All". The shipped product renamed "Active" → "In progress" and changed the default to "In progress". See the Release Bug Bash above for the up-to-date behavior.
 
 Log in and navigate to the claims landing page with the flag enabled. Verify all new behavior.
 
