@@ -4,7 +4,7 @@
 **Date:** 04/16/2026  
 **Moderator:** Cara Frissell  
 **Notetaker:** Florence McCafferty
-**Observers:** [NAMES]  
+**Observers:** N/A
 **Recording:** YES  
 
 ---
@@ -21,17 +21,19 @@
 ## 2. Warm-up: Recent Healthcare Activity
 
 ### Tasks completed since last check-in:
-- [x] Scheduled/changed/canceled appointment
+- [ ] Scheduled/changed/canceled appointment
 - [ ] Sent or read secure messages
-- [x] Requested refills or checked shipment status
+- [ ] Requested refills or checked shipment status
 - [ ] Viewed lab results or medical records
 - [ ] Used travel pay
 - [ ] Other: _______________
 
+"Medication, checking appointments, and other little stuff."
+
 ### Tools used:
 - [ ] VA.gov web
 - [ ] VA Health & Benefits app
-- [x] My HealtheVet
+- [ ] My HealtheVet
 - [ ] Phone
 - [ ] In-person
 - [ ] Email/text
@@ -69,6 +71,9 @@
 
 **What they see on the page:**
 - **Notes:**
+- Alerts not present
+- Talks about why taking the med (tinnitus) and how (drops in ear)
+- No refill changes
 
 **Alert/notice observed (unprompted)?**
 - [ ] Yes
@@ -80,7 +85,13 @@
 - [ ] Could NOT request refills
 - **Workaround used:** _______________
 - **Notes:**
+- Understands has 1 refill left and can get it
+- How to get refill? "I can call the pharmacy"
+- Since getting 10% disability, now has to pay copays
+- Cara asks him to go back to Meds landing page and he sees link to order refill ("Oh okay, there it is")
+- Cara has him refill an OH med, for which he had 3 refills and his refill count did not go down
 
+  
 #### Shipment tracking:
 - [ ] Could track shipments
 - [ ] Could NOT track shipments
@@ -102,6 +113,8 @@
 - **Understanding of term:** _______________
 - **Trust impact:** [ ] Increased [ ] Decreased [ ] Neutral
 - **Notes:**
+- "Yeah I see that. It's been transferred, the medication has been transferred maybe from primary care, since she prescribed it, to [...] In other words it's been shared with another doctor"
+- "It could be a little more specific"
 
 #### Combined med list + new Rx numbers (if visible):
 - **Recognition of medications:** [ ] Full [ ] Partial [ ] Confused
@@ -118,6 +131,12 @@
 
 **What they see on the page:**
 - **Notes:**
+- Alert re: care team names have changed
+- If wanted to talk to his primary care team, what is their name? Understands, reads off the new name from the alert
+- How would he send message to PCP and team? Scrolls down through inbox; scrolls all the way to bottom of page; "I'm looking for something I can click on besides read message now" Ends up clicking that. When he does, there's an alert on the page: "Your account is no longer connected to MHV Automated Message". Reads message and says "I gotta call 'em" and says thta if he wants to get in touch, needs to call them at the health facility
+- To start a message, he is quick to select the corect health care system. Then he uses alert to copy and past new care team name into combo box. That seems to work for him
+- Notices button to send message and clicks it with Cara's prompting
+- Cara has him find another message that was sent to him in the past and asks how he'd respond/if he can respond. The yellow alert is at the top of hte screen (You can't send messages in this conversation) but seems like he's not noticing it. Sees that he can print, move or trash and that's all he can do. Cara directs him to the yellow alert and he understands that he can't respond to this (he thinks it's because it's been too long). In yellow alert, cara asks him what will happen if he clicks the "start a new message" in the alert. When he clicks it, a new message is started with the new care team name in the to field
 
 **Alert/notice observed (unprompted)?**
 - [ ] Yes
@@ -152,6 +171,9 @@
 
 **What they see on the page:**
 - **Notes:**
+- Sees next appointment in May 20 for OT
+- Looks like all his appointments are duplicated
+- Cara asks him to schedule appt; gets pop up "This facility doesn't accept online scheduling for this care"; thinks would have to call them. Ask if he thinks he'll always have to call them, he says no, thinks specific to "system update" 
 
 **Alert/notice observed (unprompted)?**
 - [ ] Yes
@@ -188,6 +210,10 @@
 
 **What they see on the page:**
 - **Notes:**
+- Notices blue alert right away: "You may notice duplicate records for a time"; seems to understand, moves on
+- in Vaccines a dupe TDAP from March 2025 - confusing, one has details of the vaccine the other has no data
+- Looks like no dupes in labs and tests
+- Another dupe in vaccines
 
 **Alert/notice observed (unprompted)?**
 - [ ] Yes
