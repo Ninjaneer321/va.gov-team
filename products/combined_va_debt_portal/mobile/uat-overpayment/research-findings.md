@@ -236,20 +236,21 @@ For this study, we conducted moderated remote User Acceptance Testing (UAT) sess
 
 We chose this method because the overpayments feature was nearly finished and we needed to make sure it worked correctly with real-world information. Since earlier studies already proved that the app is easy to navigate, this round of testing focused entirely on making sure the overpayment tools functioned exactly as intended in a live environment.
 
-<!-----
 
 ## Hypotheses and Conclusions
 
-*List hypotheses explored in the research and the conclusions drawn. If applicable, list the success or task completion rate.*
+- Users will be able to view, manage, and resolve their overpayments using the Overpayment feature.
+    - **Definitely true.**
+    - **Supporting evidence:** During testing, participants successfully accessed their overpayment list from the home screen and navigated to individual debt details. All users were able to initiate the resolution flows, including "Make a payment," "Request help," and "Dispute overpayment," without any functional blockers.
+- Users will access overpayment information, complete key actions, and navigate between screens without issues.
+    - **Definitely True** 
+    - **Supporting evidence:** Participants successfully utilized breadcrumbs to navigate back to the Payments and Overpayment list views. Key information was clearly visible and understood. Users also successfully navigated the transition between the app and external browser links and returned to the app without losing their place.
+- The Overpayments functionality will operate correctly and meet all success criteria during user acceptance testing.
+    - **Definitely True** 
+    - **Supporting evidence:** The feature met 100% of the predefined success criteria across all test paths documented in the UAT plan.
 
-> [!TIP]
-> Place true or false statements in bold for easier scanability
 
-- **Hypothesis Statement:** [Insert statement]  
-  - **"Maybe True", “Likely True”, “Definitely True”, “Likely False”, “Definitely False” or “Not enough information”**  
-  - Supporting evidence  
-
-[Example Hypotheses and Conclusions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#hypotheses-and-conclusions)
+<!-----
 
 
 ## Key Findings
