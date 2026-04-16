@@ -17,10 +17,10 @@ VAHB currently has 5 "activity" cards surfaced on the home screen, 4 of which ar
 
 | Tool | Card heading | Body text | Trigger | Page it routes to | Notes |
 |--------------|---------|---------|----------|---------|------|
-|Appointments| Upcoming appointments | [X] in the next 30 days | Count of upcoming appointments in the next 30 days. If none, the card does not appear | Health -> Appointments page, on the "upcoming" tab | |
-|Travel claims | Past appointments | [X] eligible for travel reimbursement | Home screen fetches appointments and claims, then matches them together. If eligible appts, add to count on card. | Health -> Appointments page, on the "Past" tab | 5 minute frontend cache time. Cache is updated on claim submission |
-|Messages | Messages| [X] unread | Count of messages in the inbox that have not been read by a user | Health -> Messages page, on the "Inbox" tab | Unread messages denoted by "blue" notification dot |
-|Medications | Prescriptions| [X] ready to refill |  | Health -> Prescriptions page | Prescriptions eligible for refill not clear until user hits "Request refills" CTA button on that page |
+|Appointments| Upcoming appointments | [X] in the next 30 days | On load of the homescreen. Count of upcoming appointments in the next 30 days. If none, the card does not appear | Health -> Appointments page, on the "upcoming" tab | |
+|Travel claims | Past appointments | [X] eligible for travel reimbursement | On load of the homescreen. Home screen fetches appointments and claims, then matches them together. If eligible appts, add to count on card. | Health -> Appointments page, on the "Past" tab | 5 minute frontend cache time. Cache is updated on claim submission |
+|Messages | Messages| [X] unread | On load of the homescreen. Count of messages in the inbox that have not been read by a user | Health -> Messages page, on the "Inbox" tab | Unread messages denoted by "blue" notification dot |
+|Medications | Prescriptions| [X] ready to refill | On load of the homescreen.  Fetches all prescriptions for user and counts refillable. | Health -> Prescriptions page | Prescriptions eligible for refill not clear until user hits "Request refills" CTA button on that page |
 
 **Resources:**
 
