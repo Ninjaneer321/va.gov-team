@@ -38,13 +38,13 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 
 **1) Veteran form - new URL**
 - URL: https://www.va.gov/forms/21-2680/apply-aid-attendance-housebound/
-- H1: About VA-Form 21-2680 (this is the default and can be changed after code freeze lifts. Final H1 to be determined by Content and will start with an action word)
+- H1: About VA-Form 21-2680
 - Sub-heading: Examination for Housebound Status or Permanent Need for Regular Aid and Attendance (VA Form 21-2680)
 - Breadcrumb: VA.gov home > VA forms > Application for Aid and Attendance benefits or Housebound allowance > Apply for Aid and Attendance or Housebound allowance online
 
 **2) Provider form - new**
 - URL: https://www.va.gov/forms/21-2680/submit-medical-examination/
-- H1: About VA-Form 21-2680 (this is the default and can be changed after code freeze lifts. Final H1 to be determined by Content and will start with an action word)
+- H1: About VA-Form 21-2680
 - Sub-heading: Examination for Housebound Status or Permanent Need for Regular Aid and Attendance (VA Form 21-2680)
 - Breadcrumb: Back link
 - Notes: Provider form won't be navigable to from the website. It's only accessible via email.This form will use the minimal header
