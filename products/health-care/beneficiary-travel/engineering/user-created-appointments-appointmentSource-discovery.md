@@ -1,5 +1,28 @@
 # Representing User-Created Appointment Source in Appointment Data
 
+## Context
+Currently, VA.gov does not provide a dedicated or explicit mechanism for creating user-generated appointments. However, there is an existing system behavior that effectively enables this under certain conditions.
+
+When a user is viewing an appointment and attempts to add a new travel pay claim, the backend (BE) performs the following sequence:
+1. Attempt to Locate Appointment
+  - A POST request is made to:
+    `/api/v2/appointments/find-or-add`
+  - This endpoint attempts to locate the existing appointment in the system.
+2. Fallback: Create Appointment
+  - If the appointment cannot be found, a new appointment is created.
+  - This scenario may occur due to:
+    - VAOS service downtime
+    - Connectivity issues between BTSSS API and VAOS
+  - The newly created appointment is assigned:
+    `appointmentSource = "API"`
+3. Return Appointment
+  - The endpoint returns either:
+    - The existing appointment (if found), or
+    - The newly created appointment (fallback case)
+4. Claim Creation
+  - The BE then uses the returned appointment_id to create a travel pay claim by calling:
+    `POST /api/v2/claims`
+
 ## Problem
 
 We need a reliable way to indicate that an appointment was manually created by a user.
