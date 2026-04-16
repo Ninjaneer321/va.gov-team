@@ -129,6 +129,7 @@ synthesis_tools_used:
 - [Appendix](#user-content-appendix)
 - [Research participants](#user-content-research-participants)
 
+
 ## Research Goals
 
 This touches a few areas of the Veteran's journey where managing debt is involved.
