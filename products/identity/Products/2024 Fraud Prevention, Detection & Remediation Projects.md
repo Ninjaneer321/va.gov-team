@@ -1,3 +1,7 @@
+> **Archived:** 2026-04
+> **Reason:** Documentation moving to sensitive repository
+> **Replacement:** [Security component page](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/platform-authentication)
+
 # 2024 Fraud Prevention, Detection & Remediation Projects
 
 Each one of these projects ties to our overall Objective to mitigate digital identity fraud.
