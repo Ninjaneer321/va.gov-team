@@ -10,3 +10,6 @@ scripts/repo-deprecation.log.csv
 
 __pycache__/
 *.pyc
+
+# Generated feedback analysis report
+scripts/copilot-chat-research-analysis.md

@@ -101,6 +101,19 @@ These prompts support the complete research lifecycle:
 
 ---
 
+## Testing & Feedback
+
+### 9. [copilot-chat-research-testing-guide.md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/copilot-chat-research-testing-guide.md)
+- **Purpose**: Testing guide for the Copilot research discovery system, used during user testing sessions.
+- **Key Features**:
+  - Step-by-step setup instructions for GitHub Copilot Chat
+  - Three test scenarios: Quick Lookup, Thematic Browse, and Deep Analysis
+  - Guidance on Ask vs Agent mode selection
+  - Links to feedback submission template
+- **Usage**: Distribute to testers during testing sessions. Follow scenarios and submit feedback via the linked issue template.
+
+---
+
 ## Getting Started
 
 Each prompt includes:
