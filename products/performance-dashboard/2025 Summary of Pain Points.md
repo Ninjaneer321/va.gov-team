@@ -8,7 +8,7 @@ User pathing reveals a strong tendency to **move into authentication from the da
 Engagement depth appears **shallow**, with **outbound_link events ≈439** for the year and **average engagement ~40–50 seconds**, indicating **skim-level interaction** with limited deeper navigation. .pdf).pdf).pdf)  
 Segment analysis shows **authenticated (LOA3) users spend longer (~1:03)** than unauthenticated (~0:51), supported by consistent **98–99% engagement rates**, suggesting **value density increases post-auth**. .pdf)  
 
-**Data Range & Source:** GA4 – VA.gov Production, **Jan 1–Dec 31, 2025** (filter: page path contains **/performance-dashboard**). .pdf).pdf).pdf).pdf).pdf).pdf).pdf)
+**Data Range & Source:** GA4 – VA.gov Production, **Jan 1–Dec 31, 2025** (filter: page path contains **/performance-dashboard**).pdf)
 
 
 # **Table of Contents**
