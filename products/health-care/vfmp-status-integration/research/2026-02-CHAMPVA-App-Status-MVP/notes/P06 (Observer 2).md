@@ -5,24 +5,24 @@
 > - If you're an observer, do not worry about following the template exactly! Feel free to just use the main section headings (Scenario 1, Scenario 2, etc.) and ignore the sub-headings if they are confusing.
 
 Participant type
-- [ ] Veteran
+- [x] Veteran
 - [ ] Family member
 
 Notetaker: [Insert Name Here]
 
 -----
 ### Introduction
-- [ ] Can record
-- [ ] Can use video clips
+- [x] Can record
+- [x] Can use video clips
 
 
 ### Warm-up Questions
 
 VA.gov account?
-- notes
+- Yes
 
 Applied for CHAMPVA?
-- notes
+- Yes
 
 After submitting application?
 - notes
@@ -31,7 +31,7 @@ After submitting application?
 ### Screenshare & Prototype Setup
 Device type
 - [ ] Mobile phone
-- [ ] Desktop
+- [x] Desktop
 - [ ] Other:
 
 
@@ -41,7 +41,7 @@ Device type
 
 ### Scenario 1b: CHAMPVA Application in CST
 Status tab
-- notes
+- 'received status tells me nothing'
 
 Files tab
 - notes
@@ -88,8 +88,13 @@ CHAMPVA status
 
 
 ### Post-Task Interview
-- 
+- easy to use 5
+- confident what was happening with each app 4 (why did you decline jr)
+- i knew where to look to find updates 4 (wasnt super obvious where status updates were located)
 
 
 ### Additional Notes**
-- 
+- very passionate about moving away from paper, they used fax to submit their champva app and felt like it was an awful experience
+- they really want to know where they're at in the 'queue'
+- said they would just call the phone number if they saw 'ineligible'
+- ultimately happy with the prototype, despite a lot of feedback and passionate opinions regarding champva process/screens
