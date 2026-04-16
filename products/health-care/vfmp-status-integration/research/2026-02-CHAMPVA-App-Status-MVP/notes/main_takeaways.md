@@ -66,6 +66,27 @@ Main takeaways from the research sessions
 **Moderator:**
 - The participant wanted the segmented tab to default to "Closed" before realizing the Claim and application status section on MyVA would not show all the in-progress claims. (I think at first they interpreted the Claim and application status section on MyVA as the place for all in-progress claims, and the CST home page as the archive of all claims)
 
+### P06
+**UX Notetaker:**
+- They were able to navigate through the task as expected, except when it came to finding the final decision. The information was essentially hidden.
+- They like consistency and became worried when things changed, especially if additional information wasn't surfaced. (don't make we wait for the letter about my son, i want to know why now, so i can take action)
+- Was focused on taking action, and didn't see Jane's status until later.
+- The queue was super interesting as well, i'm curious if that is relevant now since the backlog has gone down.
+
+**UX Lead:**
+- User wants more consistency with information  being organized on the first page. Along with stickiness of that info for a period of time.
+- User want access to the letter immediately to take action and not wait. Produces high stress and anxiety - which will ultimately drive a support call.
+- User doesn't want to re-provide info for dependents that has already been provided to get benefits / disability comp. All this info such as birth certificates and marriage licenses has been provided to get the disability rating.
+- User desires more of a realtime number counter showing that the application is moving along. As long as they are seeing progression, they are reassured.
+
+**Observer 1:**
+
+**Observer 2:**
+- Very passionate about moving away from paper, they used fax to submit their champva app and felt like it was an awful experience
+- They really want to know where they're at in the 'queue'
+- Often times said they would just call the phone number--especially if they saw 'ineligible' and no further detail for their child
+- Ultimately happy with the prototype, despite a lot of feedback and passionate opinions regarding champva process
+
 ### P0X
 **UX Notetaker:**
 
