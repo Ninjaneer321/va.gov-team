@@ -38,10 +38,10 @@
 ## <a name="url"></a>Page URLs and breadcrumbs
 *URL and breadcrumb requirements for each modified or new page within the experience. URLs and breadcrumbs must follow established patterns and standards of the existing site. This section will also document form or tool flow URLs, titled sub-URLs.*
 Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and page title guidance.  
-- [URLs](https://design.va.gov/components/url-standards/) va.gov/forms/10-8678/apply-annual-clothing-allowance
-- [H1s (Page titles and section titles)](https://design.va.gov/content-style-guide/page-titles-and-section-titles) Apply for annual clothing allowance
-- [Breadcrumbs](https://design.va.gov/components/breadcrumbs) VA.gov home &gt; VA forms &gt; Application for annual clothing allowance &gt; Apply for annual clothing allowance online
-- [Title tags](https://design.va.gov/content-style-guide/title-tags) Apply for annual clothing allowance
+- [URLs](https://design.va.gov/components/url-standards/) 
+- [H1s (Page titles and section titles)](https://design.va.gov/content-style-guide/page-titles-and-section-titles) 
+- [Breadcrumbs](https://design.va.gov/components/breadcrumbs) 
+- [Title tags](https://design.va.gov/content-style-guide/title-tags)
   
 **1) Page name - Existing**
 - URL: https://www.va.gov/forms/10-8678/
@@ -52,12 +52,12 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
     - [insert title] | Veterans Affairs
 - Notes: That is for the form details page. The actual form is a PDF and can be found here https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-8678.pdf
 
-**2) Page name - Existing/New**
-- URL:
-- H1:
-- Sub-heading:
-- Breadcrumb:
-- Browser title: [H1 of introduction page in title case] | Veterans Affairs
+**2) Page name - New**
+- URL: va.gov/forms/10-8678/apply-annual-clothing-allowance
+- H1: Apply for annual clothing allowance
+- Sub-heading: Form 10-8678
+- Breadcrumb: VA.gov home &gt; VA forms &gt; Application for annual clothing allowance &gt; Apply for annual clothing allowance online
+- Browser title: [H1 of introduction page in title case] | Veterans Affairs 
     - [insert title] | Veterans Affairs
 - Notes: 
 
