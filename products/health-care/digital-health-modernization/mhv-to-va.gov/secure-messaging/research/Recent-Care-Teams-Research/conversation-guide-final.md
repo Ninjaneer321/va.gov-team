@@ -103,7 +103,7 @@ Before we jump into anything on screen, I’d love to learn a bit about your exp
 
 ## Screen sharing instructions
 
-I'm going to ask you to do a couple things on VA.gov and to share your screen so I can see how you navigate. Do you know how to share your screen?
+I'm going to ask you to do a couple things on VA.gov and to share your screen so I can see how you navigate. [reminder to have them close apps or widows that they don't want us to see]. Do you know how to share your screen?
 
 ### Instructions for folks NOT using screenreaders
 
