@@ -1,9 +1,9 @@
 # Check-in B Notetaker Template: Cutover + Early Recovery
 
 **Participant:** P6  
-**Date:** 04/14/2026  
+**Date:** 04/16/2026  
 **Moderator:** Cara Frissell  
-**Notetaker:** Laura Simpson  
+**Notetaker:** Florence McCafferty
 **Observers:** [NAMES]  
 **Recording:** YES  
 
