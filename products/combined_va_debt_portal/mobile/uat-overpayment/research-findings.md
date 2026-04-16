@@ -267,6 +267,11 @@ During moderated sessions, Veterans successfully navigated the full lifecycle of
 *Include insights that do not represent patterns but are still valuable.*  
 > **TIP:** These could be powerful user comments or unexpected issues worth noting
 
+🚧 Items to add somewhere
+- "Pay online" screen with the details to copy:
+    - The balance copies the dollar sign, but since the field in pay.va.gov already has the dollar sign, this results in duplicate characters.
+    - The balance appears first in the list, but it is much further down the screen on pay.va.gov, after all the other details.
+- Users would like transparency 
 
 ## Recommendations
 
