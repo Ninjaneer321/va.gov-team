@@ -252,7 +252,7 @@ Please continue thinking aloud and share anything that stands out.
 
 ## Concept testing – 15 minutes
 
-### Concept 1
+### Concept A
 
 I’m going to drop a link to the first version in the chat: https://tinyurl.com/2yxwsv6v
 Correct starting place: https://department-of-veterans-affairs.github.io/va-prototype-kit/src/prototypes/recent-care-teams-prototype-1/
@@ -277,7 +277,7 @@ Scenario: Imagine you want to send a message to your patient advocate health car
 
 ---
 
-### Concept 2
+### Concept B
 
 Now I’m going to share a second version of this experience. https://tinyurl.com/yf6sd76b
 
