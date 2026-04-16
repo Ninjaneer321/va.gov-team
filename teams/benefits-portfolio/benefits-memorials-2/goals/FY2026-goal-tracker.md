@@ -31,7 +31,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 |--|--|--|--|--|
 |ENG: Finalize solution for payment history mock data. | P1 |--|--|--|
 |ENG: Complete required testing artifacts for Staging Review after implementing the Cerner/VistA data updates.| P1 |--|--|--|
-|UX: Present formal research readout for Pay.gov and VA.gov overpayment payment experience. .| P2 |--|--|--|
+|UX: Present formal research readout for Pay.gov and VA.gov overpayment payment experience.| P2 |--|--|--|
 |UX: Update and present Hardship Suspension process map to DMC stakeholders to ensure alignment on current process.| P5 |--|--|--|
 |ENG: Complete any planned or new critical maintenance tickets/bugs.| P6 |--|--|--|
 |UX: Complete review of quantitative data for February and March Medallia reports. | P6 |--|--|--|
@@ -44,8 +44,8 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [X] Ready to be sent for approvals (04/07/26)
  - [X] VA PO & COR sent the Sprint Goals (04/07/26)
- - [ ] VA PO approved the Sprint Goals (04/xx/26)
- - [ ] VA COR approved the Sprint Goals (04/xx/26)
+ - [X] VA PO approved the Sprint Goals (04/08/26)
+ - [X] VA COR approved the Sprint Goals (04/08/26)
 
 **_Delivery + Notes:_**
 - [ ] All goals have been updated in the sprint chart
