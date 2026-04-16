@@ -345,21 +345,27 @@ While this UAT confirmed the core functionality of the Overpayments feature, the
 - [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/conversation-guide.md)
 - [Interview transcripts](link here) 🚧
 
-<!-----
 
 ### Tools used for Synthesis
 
-*List tools or techniques used, e.g., Mural, affinity mapping.*  
+*Spreadsheets*  🚧 final spreadsheet once PII is removed and imported to Excel
   
 ### Pages and applications used
 
-*Link to prototypes or pages tested during the study.*  
+Pre-release app builds
+- [for iOS (TestFlight)](https://testflight.apple.com/join/RrO0Cw2q)
+- [for Android (Firebase)](https://appdistribution.firebase.dev/i/2e876a3d15d8784c)
 
+Directions on using pre-release app builds 🚧 make sure directions are up to date
+- [for iOS (TestFlight)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_iOS.md)
+- [for Android (Firebase)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_android.md)
 
 ### Other supporting documents created
 
+🚧 link to anything else in SharePoint?
 *Include links to additional materials, e.g., personas, user flows.*  
 
+<!-----
 
 ### Secondary research
 
