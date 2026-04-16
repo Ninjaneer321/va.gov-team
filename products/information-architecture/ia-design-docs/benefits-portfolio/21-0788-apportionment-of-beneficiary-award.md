@@ -1,11 +1,11 @@
-# IA Design for [Product/page name]
-**STATUS: [In progress/In review/Complete]**
+# IA Design for [Information Regarding Apportionment of Beneficiary's Award-VA Form 21-0788]
+**STATUS: [In progress]**
 
-**Team:** [Team name]
+**Team:** [BIO PingWin]
 
-**CAIA Intake ticket:**
+**CAIA Intake ticket:** [#139450](https://github.com/department-of-veterans-affairs/va.gov-team/issues/139450)
 
-**IA Tracker:** 
+**IA Tracker:** [#139666](https://github.com/department-of-veterans-affairs/va.gov-team/issues/139666)
 
 **Files:**
 - [Mural]()
