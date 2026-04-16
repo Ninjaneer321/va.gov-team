@@ -44,7 +44,7 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - [Title tags](https://design.va.gov/content-style-guide/title-tags)
   
 **1) Page name - Existing**
-- URL: https://www.va.gov/forms/10-8678/
+- URL:(https://www.va.gov/forms/10-8678/)
 - H1: About VA Form 10-8678
 - Sub-heading: Application for Annual Clothing Allowance
 - Breadcrumb: VA.gov> homeVA> forms> About VA Form 10-8678
