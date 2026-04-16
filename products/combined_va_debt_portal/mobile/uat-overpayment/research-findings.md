@@ -348,7 +348,7 @@ While this UAT confirmed the core functionality of the Overpayments feature, the
 
 ### Tools used for Synthesis
 
-*Spreadsheets*  🚧 final spreadsheet once PII is removed and imported to Excel
+- Spreadsheets  🚧 final spreadsheet once PII is removed and imported to Excel
   
 ### Pages and applications used
 
@@ -365,11 +365,14 @@ Directions on using pre-release app builds 🚧 make sure directions are up to d
 🚧 link to anything else in SharePoint?
 *Include links to additional materials, e.g., personas, user flows.*  
 
-<!-----
 
 ### Secondary research
 
-*Include any relevant secondary research, e.g., web analytics, SME interviews.*  
+**Previous Study:**
+- [Mobile App Debt Portal: Overpayments and Copayments Research Findings, September 2025
+](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/research-findings.md)
+
+<!-----
 
 > [!IMPORTANT]
 > **After completing the demographic information below and saving this file**, use the [GitHub Copilot Research Findings Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md) to automatically populate the YAML frontmatter section at the top of this document with: 
