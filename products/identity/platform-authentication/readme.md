@@ -33,7 +33,7 @@ Platform authentication covers the backend infrastructure, services, and integra
 
 ## External integrations
 VA Platform integrations with third party service providers managed by the Identity team.
-| Platform reference guide | Description |
+| Reference guide | Description |
 |-----------|--------|
 | [ID.me integration](https://depo-platform-documentation.scrollhelp.site/developer-docs/id-me) | ID.me is a credential service provider (CSP) for VA.gov applications and services. |
 | [Login.gov integration](https://depo-platform-documentation.scrollhelp.site/developer-docs/login-gov) | Login.gov is a government-wide credential service provider (CSP) that allows veterans to securely access VA.gov applications and services using a unified login.  |
