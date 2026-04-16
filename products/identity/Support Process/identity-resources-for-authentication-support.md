@@ -2,7 +2,7 @@
 
 **Who we are**
 
-The OCTO Identity team manages the authentication integration for VA.gov. We work with identity partners to confirm who’s signing in and provide secure access to VA.gov resources. Our team understands how identity and security works across the entire platform.
+The OCTO Identity team manages the authentication integration for VA.gov. We work with identity partners at VA and third-party service providers to confirm who’s signing in and provide secure access to VA.gov resources. Our team understands how identity and security works across the entire platform.
 
 **How we can help**
 
@@ -10,7 +10,7 @@ We help teams set up and monitor a secure signed in experience for VA.gov applic
 
 ## **Recommended troubleshooting steps**
 
-- Search [#vsp-identity](https://dsva.slack.com/archives/CSFV4QTKN/p1713293899320349) for keywords in your issue to see if it’s come up before.
+- Search [#identity-support](https://dsva.slack.com/archives/CSFV4QTKN/p1713293899320349) for keywords in your issue to see if it’s come up before.
 - Confirm [vets-api and mock data is up to date](https://dsva.slack.com/archives/CSFV4QTKN/p1713297530249979?thread_ts=1713293899.320349&cid=CSFV4QTKN).
 - Clear your cache and cookies, as this can solve a lot of common issues.
 
