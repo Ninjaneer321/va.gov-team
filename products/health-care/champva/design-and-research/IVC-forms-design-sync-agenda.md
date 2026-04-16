@@ -2,6 +2,67 @@
 
 ----
 
+
+
+## April 16, 2026
+
+Attendees: Renata, Jessica, Hieu, Premal, Andrea 
+
+
+### AGENDA: 
+- UX roadmap
+- Current state of OHI updates
+- Medallia/OHI quant deep-dive updates
+
+
+
+
+### Notes: 
+
+#### UX Roadmap 
+- Mural overview
+- https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1741036478284/cf85ff75ac061c0cb4edb8c246bbb0c4db453b8e
+- Renata has been moving over on quarterly basis of what has been done at initiative level 
+- Now column, documentation, SOT files, blueprints 
+- Service blueprint 
+- Include what John mentioned to add layer of known friction points - back office and user
+- Ticket for content on FMP-1 
+- Is multi bene or prefill a more user requested feature
+
+Premal - more business sign off, activity of prioritizing, need to understand what. What they recommend, what we recommend - have solid case of why
+
+Renata - quarterly Medallia report, doing something differently where we are trying to connect to work and dates, impact show
+
+Premal - leaning to prefill for Veteran, then pull in dependents 
+- Requirements from enhanced claims experienced, one of reqs is prefill 
+
+
+
+#### Current state of OHI updates
+- content only with C+IA / Monica 
+
+Add / Remove and destructive insurance updates
+
+- walk through content and flow changes for removing health insurances 
+
+https://www.figma.com/design/sSPoS7R9HE6ZlxRESRy2ms/Other-Health-Insurance-Certification--10-7959c--Form-WIP?node-id=7472-5425&p=f&t=EfEaMOOWClQLywUy-0
+
+
+#### Other 
+Box.com type - only works for certain use cases/ flows. Renata found IRS one that was hidden, followed from letter. Will take screen shots to share. How it worked and how it was explained, form vs box.com link. Say when to use form vs drag and drop link.
+- If we ever need to revisit enhanced flows, option to look into
+
+
+- Research done on Claims enhanced flow
+
+- Andrea, enhanced application and TRICARE probably need Collab Cycle
+- Renata - compressed collab cycle as an option. ADE to look a new flows. 
+
+
+
+
+----
+
 ## April 9, 2026
 
 Attendees: Renata, Jessica, Chantale, Andrea, John, Premal
