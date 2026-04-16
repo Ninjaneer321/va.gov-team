@@ -244,7 +244,7 @@ Now we are going to move into the second part of the session. I’m going to sho
 
 These are prototypes, not real websites, so some things may not work exactly as expected. For example, not everything may be clickable, and some links or buttons may not respond.
 
-As you go through these, focus on what you would expect to happen and how the experience feels to you.
+As you go through these prototypes, focus on what you would expect to happen and how the experience feels to you.
 
 Please continue thinking aloud and share anything that stands out.
 
