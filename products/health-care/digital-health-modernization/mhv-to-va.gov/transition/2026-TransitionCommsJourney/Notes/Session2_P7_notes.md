@@ -324,7 +324,21 @@ Vaccines seemed to have a duplication in 1 record.
 - [ ] Not enough
 - [ ] Just right
 - **Notes:**
-
+Had anybody considered, you know, I belong to several veterans organizations, and
+And a lot of them are, you know, computer savvy. I mean, they really know their business.
+But there are some that absolutely know nothing.
+And I don't know…
+I was wondering if you had, let's say,
+I wouldn't say a YouTube, but, you know, some sort of
+online training session just describing the changes that
+You have proposed here, and send that out to everybody that has
+I guess login ability, you know, you're…
+You've made contact with My Healthy Vet.
+And it went to them and kind of walked them through.
+I don't think an hour type program would be good, but
+But kind of pointing them, you know, kind of say, here, here's some changes that you need to look at.
+And kind of asking him to…
+A visit, at least, and see, you know, make themselves familiar with it.
 ### 5c) Prioritization: Must-Have Improvements
 
 **Single most important change:**
