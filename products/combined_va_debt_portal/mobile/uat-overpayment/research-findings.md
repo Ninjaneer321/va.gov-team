@@ -144,6 +144,9 @@ Specifically, this study validated that Veterans can successfully view, manage, 
 
 ## Test paths and success criteria
 
+<details>
+<summary>Click to view UAT Success Criteria Table</summary>
+
 | Category | Screen | Activity | Success |
 |:---|:---|:---|:---|
 | Elements on home | Home | See the number of overpayments on home screen | Activity card "Overpayments" shows "n overpayments" where "n" is the quantity of current overpayment debts |
@@ -225,6 +228,7 @@ Specifically, this study validated that Veterans can successfully view, manage, 
 |  |  |  | "Leave" opens Dispute your VA debt in browser |
 | Breadcrumbs | Dispute overpayment from Details | Dispute overpayments (Details) >> Details | Breadcrumb returns to Details |
 
+</details>
 
 ## Methodology 
 
