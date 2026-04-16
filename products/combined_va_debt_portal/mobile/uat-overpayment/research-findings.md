@@ -251,8 +251,6 @@ We chose this method because the overpayments feature was nearly finished and we
     - **Supporting evidence:** The feature met 100% of the predefined success criteria across all test paths documented in the UAT plan.
 
 
-
-
 ## Key Findings
 
 **The Overpayments feature is ready for release; all functional test paths passed with 100% success using live participant data.**
@@ -330,23 +328,24 @@ We confirmed the app correctly pulls and displays "empty states" for Veterans wi
 
 While this UAT confirmed the core functionality of the Overpayments feature, there are several secondary scenarios that were within the study scope but were not represented in the final recruitment sample:
 
-* **Veterans with multiple overpayments:** Recruitment did not yield participants with more than one active debt. Further observation is needed to ensure the list and detail views remain clear and manageable for users with a high volume of concurrent overpayments.
-* **Wider variety of overpayment types:** While the app supports various debt categories, testing was limited to the specific debts held by the recruited participants. Further validation is needed for Veterans with other supported debt types to ensure consistent understanding of terminology. This includes:
-    * Post-9/11 GI Bill overpayments (books, supplies, housing, or tuition)
-    * Education Ch 33, Ch 1606, and Ch 30 Kickers
-    * Chapter 34 and Chapter 35 education overpayments
-* **Error state interactions:** Because all participants successfully completed their tasks with 100% accuracy, we were unable to observe how Veterans respond to system-generated error messages or "service down" alerts. 
-* **Broader demographic representation:** The findings are based on a small UAT sample; future studies could target specific demographics not represented in this round to ensure the feature meets the needs of the entire Veteran population.
+- **Veterans with multiple overpayments:** Recruitment did not yield participants with more than one active debt. Further observation is needed to ensure the list and detail views remain clear and manageable for users with a high volume of concurrent overpayments.
+- **Wider variety of overpayment types:** While the app supports various debt categories, testing was limited to the specific debts held by the recruited participants. Further validation is needed for Veterans with other supported debt types to ensure consistent understanding of terminology. This includes:
+    - Post-9/11 GI Bill overpayments (books, supplies, housing, or tuition)
+    - Education Ch 33, Ch 1606, and Ch 30 Kickers
+    - Chapter 34 and Chapter 35 education overpayments
+- **Error state interactions:** Because all participants successfully completed their tasks with 100% accuracy, we were unable to observe how Veterans respond to system-generated error messages or "service down" alerts. 
+- **Broader demographic representation:** The findings are based on a small UAT sample; future studies could target specific demographics not represented in this round to ensure the feature meets the needs of the entire Veteran population.
 
-<!-----
 
 ## Appendix
 
 ### Research documents
-- [Product Outline](link here)
-- [Research plan](link here)
-- [Conversation guide](link here)
-- [Interview transcripts](link here)
+- [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/Overpayment%20and%20Copayment%20Debts%20Product%20Brief.md)
+- [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/research-plan.md)
+- [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/conversation-guide.md)
+- [Interview transcripts](link here) 🚧
+
+<!-----
 
 ### Tools used for Synthesis
 
