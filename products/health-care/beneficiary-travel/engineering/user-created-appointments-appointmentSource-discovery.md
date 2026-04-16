@@ -37,7 +37,7 @@ For example, on the claim details page, we conditionally show messaging that exp
 
 This data may also support additional product or engineering use cases in the future, so the solution should be durable and easy to extend.
 
-## Proposed solutions
+## Proposed solutions for being able to tell that an appointment is user created
 
 ### 🔵 Option 1: Add `isManuallyCreated` to the `find-or-add` response
 
@@ -113,3 +113,11 @@ Add a new field such as `tag` or `tags`, represented as either:
 
 - a string, or
 - an array of strings
+
+### 🔵 Option 4: Update the POST appointment endpoints so that we can set the `appointmentSource` field 
+
+The BTSSS API could update the following POST appointments endpoints:
+- `POST api/v3/appointments`
+- `POST api/v2/appointments/find-or-add`
+
+So that we can pass in the `appointmentSource` field in the request body and set the field to something specific to user generated appointment like `uga` or `uca`. Its my understanding the API team would have to update these endpoints and they would have to allow for a new enum option for the `appointmentSource` field.
