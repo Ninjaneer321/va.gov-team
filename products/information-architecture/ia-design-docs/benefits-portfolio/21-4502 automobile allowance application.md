@@ -22,13 +22,11 @@
 
 ## <a name="flows"></a>Navigation/page flows <br>
 *Illustration and/or description of how users will navigate to and flow through the experience for all impacted visitors typies. This helps identify key entry points and findability requirements, user flow scenarios, and content/messaging needs across various scenarios.*
-<img width="4957" height="1588" alt="21-4502 Application for Automobile or Other Conveyance and Adaptive Equipment_2026-04-15_06-08-39" src="https://github.com/user-attachments/assets/34ad3f39-a878-43d8-81a1-b9642b2619cf" />
-
+<img width="2977" height="1109" alt="21-4502 Application for Automobile or Other Conveyance and Adaptive Equipment_2026-04-16_07-27-46" src="https://github.com/user-attachments/assets/e97effb3-be71-41fe-a75d-57c965b76554" />
 
 ## <a name="map"></a>Page structure<br>
 *Illustration and/or description of where this product/feature will live within the overall IA of VA.gov (i.e. a site map). The placement of your product/feature determines the URL structure, breadcrumb, and navigational needs of the product/feature, and provides search engines with relationship information that impacts overall SEO and findability. Placement of a product/feature must follow established patterns and standards of the existing site.*
-<img width="3468" height="2011" alt="21-4502 Application for Automobile or Other Conveyance and Adaptive Equipment_2026-04-15_06-10-45" src="https://github.com/user-attachments/assets/48f200ab-351b-4eb0-82f4-7d4b4e6c1ad9" />
-
+<img width="3468" height="2011" alt="21-4502 Application for Automobile or Other Conveyance and Adaptive Equipment_2026-04-16_07-28-36" src="https://github.com/user-attachments/assets/a57f3c01-d065-4068-a6c5-518763fbfc04" />
 
 ## <a name="url"></a>Page URLs and breadcrumbs
 *URL and breadcrumb requirements for each modified or new page within the experience. URLs and breadcrumbs must follow established patterns and standards of the existing site. This section will also document form or tool flow URLs, titled sub-URLs.*
@@ -38,13 +36,12 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - [Breadcrumbs](https://design.va.gov/components/breadcrumbs)
 - [Title tags](https://design.va.gov/content-style-guide/title-tags)
 
-**1) Apply for Automobile Allowance and Adaptive Equipment - New**
-- URL: https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/apply-form-21-4502/
-- H1: [TBD by Content]
-- Sub-heading: [TBD by Content - form name and number]
-- Breadcrumb: VA.gov > Disability benefits > Eligibility > Special claims > Automobile allowance and adaptive equipment > [H1 tbd by Content]
-- Browser title: [H1 of introduction page in title case] | 21-4502 | Veterans Affairs
-
+**1) Apply for Automobile and Adaptive Equipment Online - New**
+- URL: va.gov/forms/21-4502/apply-automobile-and-adaptive-equipment
+- H1: Apply for Automobile and Adaptive Equipment Online 
+- Sub-heading: Application for Automobile or Other Conveyance and Adaptive Equipment (VA Form 21-4502)
+- Breadcrumb: VA.gov home > VA forms > Application for Automobile or Other Conveyance and Adaptive Equipment > Apply for automobile and and adaptive equipment online
+- Notes: final H1 and breadcrumb segment to be determined by Content
 
 **Structuring URLs for individual pages within the form flows**
 - All pages within form flows will exist as child pages of the core/canonical URL.
@@ -62,37 +59,29 @@ Teams must launch with at least one entry point that allows site visitors to nav
 
 ### Required entry point(s)
 
-1. **[Automobile allowance and adaptive equipment page](https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/)**
-  - Placement description: On-page within the application section
+1.  **[About form 21-4502](https://www.va.gov/forms/21-4502/)**
+  - Placement description: On-page link
   - Link details
-    - Link label: To be determined by content
-    - Link destination: https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/apply-form-21-4502/
+    - Link label: TBD by Content
+    - Link destination: va.gov/forms/21-4502/apply-automobile-and-adaptive-equipment
   - Notes:
     - Who will update (IA, content, product team): Content
     - When will this entry point go live (at launch? After staged rollout? after some designated time?): at launch
+   
    
 **Note: If the form will be released incrementally (aka not at 100%) or if the launch plan includes taking the form down temporarily after launch to check submission quality, a widget will be required. This requires coordination between the product engineer to create the widget and content to provide text for the widget. This can take some time. Please plan for at least 2 weeks ahead of staging review.**
 
 ### Additional key entry points
 _Any additional key locations that the page should be navigable from. Although these are not required for launch, they are critical to the findability of your content/feature.  Examples of key entry points include "About a form" pages, additional navigation component (top, left) placements, additional static pages where its prominently linked from, etc._
 
-1. **[About form 21-4502](https://www.va.gov/forms/21-4502/)**
+1. **[Automobile Allowance and Adaptive Equipment](https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/)**
   - Placement description: On-page link
   - Link details
     - Link label: TBD by Content
-    - Link destination: https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/apply-form-21-4502/
+    - Link destination: va.gov/forms/21-4502/apply-automobile-and-adaptive-equipment
   - Notes:
     - Who will update (IA, content, product team): Content
     - When will this entry point go live (at launch? After staged rollout? after some designated time?): at launch
-   
-2.  **Side navigation**
-  - Placement description: Nested within the left nav for the [Automobile allowance detail page](https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/)
-  - Link details
-    - Link label: Apply online
-    - Link destination: https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/apply-form-21-4502/
-  - Notes:
-    - Who will update (IA, content, product team): IA
-    - When will this entry point go live (at launch? After staged rollout? after some designated time?): at 100% rollout
 
 
 ## <a name="launch"></a>Launch coordination <br>
