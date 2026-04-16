@@ -41,8 +41,8 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - [URLs](https://design.va.gov/components/url-standards/) va.gov/forms/10-8678/apply-annual-clothing-allowance
 - [H1s (Page titles and section titles)](https://design.va.gov/content-style-guide/page-titles-and-section-titles) Apply for annual clothing allowance
 - [Breadcrumbs](https://design.va.gov/components/breadcrumbs) VA.gov home &gt; VA forms &gt; Application for annual clothing allowance &gt; Apply for annual clothing allowance online
-- [Title tags](https://design.va.gov/content-style-guide/title-tags)
-
+- [Title tags](https://design.va.gov/content-style-guide/title-tags)Apply for annual clothing allowance
+  
 **1) Page name - Existing/New**
 - URL:
 - H1:
