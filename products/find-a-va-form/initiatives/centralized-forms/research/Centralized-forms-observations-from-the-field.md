@@ -56,15 +56,15 @@ This document is a high level, top of mind summary of observations that stood ou
 > P11: "That note is for other people."
 
 **Other Observations/Limitations**
-> Did not see much usage of breadcrumbs or navigation between pages since users were not actually filling forms. Instead, lots of scrolling for CTA's if navigating the benefit hubs.
-> 
-> Discussion of authenticated experience and app expectations around forms.
-> 
-> Travel Pay forms were consistently mentioned, including one deep dive discussion
-> 
-> 526 was almost always singled out as 'special'/using a VSO even among confident, tech-savvy users
-> 
-> Many users stopped after identifying the online CTA + Download CTA and did not notice the accordion or other ways to submit headers
-> 
-> Certain types of "after you submit' information was considered helpful in the event of deadlines (particularly around education), but most did not continue to think through 'after submitting' when in the mindset of getting started. 
+- Did not see much usage of breadcrumbs or navigation between pages since users were not actually filling forms. Instead, lots of scrolling for CTA's if navigating the benefit hubs.
+
+- Discussion of authenticated experience and app expectations around forms.
+ 
+- Travel Pay forms were consistently mentioned, including one deep dive discussion
+ 
+- 526 was almost always singled out as 'special'/using a VSO even among confident, tech-savvy users
+ 
+- Many users stopped after identifying the online CTA + Download CTA and did not notice the accordion or other ways to submit headers
+ 
+- Certain types of "after you submit' information was considered helpful in the event of deadlines (particularly around education), but most did not continue to think through 'after submitting' when in the mindset of getting started. 
 
