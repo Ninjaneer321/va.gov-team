@@ -50,7 +50,7 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - Breadcrumb: VA.gov> homeVA> forms> About VA Form 10-8678
 - Browser title: [H1 of introduction page in title case] | Veterans Affairs
     - [insert title] | Veterans Affairs
-- Notes: That is for the form details page. The actual form is a PDF and can be found here https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-8678.pdf
+- Notes: The imformation above is for the form details page. The actual form is a PDF and can be found here https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-8678.pdf
 
 **2) Page name - New**
 - URL:(https://www.va.gov/forms/10-8678/apply-annual-clothing-allowance)
