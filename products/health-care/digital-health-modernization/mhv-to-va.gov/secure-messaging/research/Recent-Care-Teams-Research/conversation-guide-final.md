@@ -255,6 +255,7 @@ Please continue thinking aloud and share anything that stands out.
 ### Concept 1
 
 I’m going to drop a link to the first version in the chat: https://tinyurl.com/2yxwsv6v
+Correct starting place: https://department-of-veterans-affairs.github.io/va-prototype-kit/src/prototypes/recent-care-teams-prototype-1/
 
 Scenario: Imagine you want to send a message to your patient advocate health care team at the VA Ann Arbor Healthcare System. Show me how you would find that care team and send them a message.
 
