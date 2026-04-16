@@ -18,7 +18,7 @@ Based on seven-day comparison: Mar 25-31 (pre-release baseline) vs Apr 8-14 (fir
 - **Pagination**: -44.48%. The In progress filter narrows the default list, reducing the need to paginate past page 1. Absolute numbers are small (~1,176 sessions post-release).
 - **"Your claim letters" OTP clicks**: -15.22%. For users with closed claims, the In progress filter shows fewer cards, moving the Claim Letters section physically closer to the top of the page. Users don't need the On This Page shortcut when the section is already visible without scrolling. (The inverse signal -- +38.35% increase in direct claim letters navigation -- confirms this; see Increases below.)
 
-### Increases -- root causes identified
+### Increases
 
 - **page_view**: +32.22% on flat traffic (~220k extra views). A bug: the filter click handler called `navigate(pathname)` unconditionally, and vets-website auto-tracks SPA route changes as page views. Each filter click fired a duplicate same-URL pageview. The ~220k extra views align with the ~200k total filter clicks. Fixed in vets-website PR [#44088](https://github.com/department-of-veterans-affairs/vets-website/pull/44088); expect counts to drop back toward baseline once deployed.
 - **Self-navigation**: ~900% increase in views (combined ~217k vs ~22k). Same bug -- each same-URL navigation produced a pageview whose referrer was also `/track-claims/your-claims`, which GA counts as self-navigation. This accounts for ~99% of total outbound-views growth. Fixed in PR #44088.
