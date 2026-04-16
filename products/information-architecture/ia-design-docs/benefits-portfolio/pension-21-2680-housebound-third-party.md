@@ -38,16 +38,17 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 
 **1) Veteran form - new URL**
 - URL: https://www.va.gov/forms/21-2680/apply-aid-attendance-housebound/
-- H1: About VA-Form 21-2680
+- H1: Apply for Aid and Attendance or Housebound Allowance online
 - Sub-heading: Examination for Housebound Status or Permanent Need for Regular Aid and Attendance (VA Form 21-2680)
 - Breadcrumb: VA.gov home > VA forms > Application for Aid and Attendance benefits or Housebound allowance > Apply for Aid and Attendance or Housebound allowance online
+- Notes: Content provided this H1 but they could possibly change it
 
 **2) Provider form - new**
 - URL: https://www.va.gov/forms/21-2680/submit-medical-examination/
-- H1: About VA-Form 21-2680
+- H1: Submit Medical Examination
 - Sub-heading: Examination for Housebound Status or Permanent Need for Regular Aid and Attendance (VA Form 21-2680)
-- Breadcrumb: Back link
-- Notes: Provider form won't be navigable to from the website. It's only accessible via email.This form will use the minimal header
+- Breadcrumb: (N/A - link is accessible via email only so there's no navigating backwards)
+- Notes: Provider form won't be navigable to from the website. It's only accessible via email. This form will use the minimal header. Content to finalize H1
 
 **Structuring URLs for individual pages within the form flows**
 - All pages within form flows will exist as child pages of the core/canonical URL.
