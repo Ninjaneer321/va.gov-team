@@ -214,7 +214,7 @@ As you go, please think aloud and tell me what you are looking at, what you are 
 
 ---
 
-### Start message page
+### Start message page [ remind at the beginning not to send this message]
 
 *Observe silently first.*
 
