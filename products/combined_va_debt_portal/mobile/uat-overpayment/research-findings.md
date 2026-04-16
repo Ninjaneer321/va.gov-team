@@ -136,32 +136,103 @@ This touches a few areas of the Veteran's journey where managing debt is involve
 - `Starting Up (Moment: Balancing Finances)`
 - `Putting Down Roots (Moment: Maintaining my financial, social, and emotional health)`
 
+We were aiming to confirm whether the Overpayments functionality is fully ready for production release. With all success criteria met, we will proceed with launch and communicate readiness to stakeholders. 
 
-**Guiding Questions:**  
-- What are the key moments this tool supports in the Veteran’s journey?  
-- What outcomes are we aiming to achieve for Veterans and stakeholders?  
+The purpose of this User Acceptance Testing (UAT) study was to verify that all elements of the Overpayments functionality operate as intended for Veterans using real data. Unlike usability testing, UAT focuses on confirming that features work as expected, rather than on users’ ability to find or discover them.
 
-[Example Research Goals](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#research-goals) 
+Specifically, this study validated that Veterans can successfully view, manage, and resolve overpayments using the app, meeting all criteria outlined in the defined user paths.
 
-## Research Questions
+## Test paths and success criteria
 
-*List the research questions that guided this study.*  
+| Category | Screen | Activity | Success |
+|:---|:---|:---|:---|
+| Elements on home | Home | See the number of overpayments on home screen | Activity card "Overpayments" shows "n overpayments" where "n" is the quantity of current overpayment debts |
+|  |  | Tap "Overpayments" card | "Overpayments" card opens overpayment list view |
+| Breadcrumbs | Overpayments list | Tap breadcrumb: Payments | Breadcrumb returns to Payments |
+| Elements on Payments | Payments tab | Locate all payment information | "Overpayments" card lists total amount due and total quantity of debts |
+|  |  | Tap "Overpayments" card | "Overpayments" card opens overpayment list view |
+| Elements on list view | Overpay list | Review card of each overpayment | Each debt card shows:<br>• name of debt<br>• current balance<br>• message |
+| Elements on list view | Overpay list | Help menu from list screen | Help menu opens via drawer |
+|  |  |  | Help menu displays <br>• instructions for calling Debt Management Center<br>• 3 phones numbers<br>• link to Ask VA |
+|  |  | Links on help screen | Three phone numbers |
+|  |  |  | "Go to Ask VA" opens in browser |
+|  |  |  | Help menu is closed via "close" CTA |
+| Resolve from list view | Overpay list | Activate Resolve overpayment menu from list screen | Four menu options:<br>• Make a payment<br>• Request help<br>• Dispute overpayment<br>• Cancel |
+|  |  |  | "Cancel" closes menu |
+| Resolve from list view : Make a payment | Overpay list | Resolve overpayment: select Make a Payment | "Make a payment" from "Resolve overpayment" opens "Pay online" screen |
+| Resolve from list view : Make a payment | Pay online | Confirm details on "Pay online" screen | Details are correct for debt:<br>• Current balance<br>• Receivable ID (education) File number (all other debts)<br>• Payee number<br>• Person entitled<br>• Deduction code |
+|  |  | Select "What these terms mean" | "What these terms mean" opens in drawer and closes |
+|  |  | Select "Pay on pay.va.gov" | "Pay on pay.va.gov" link triggers "Leave the mobile app?" alert |
+|  |  |  | "Leave" opens pay.va.gov in browser |
+| Resolve from list view : Make a payment | Pay online / pay.va.gov | Switch from browser back to app | Switching between app and browser keeps location for both |
+|  |  | Copy elements from pay screen and paste in pay.va.gov | Copy/paste works for each detail [long hold to paste]<br>• Reset on pay.va.gov |
+| Breadcrumbs | Make a payment from list | Pay online >> Overpayments | Breadcrumb returns to Overpayment list |
+| Resolve from list view : Request help | Overpay list | Resolve overpayment: select Request help | "Request help" from "Resolve overpayment" opens "How to get financial help" screen |
+| Resolve from list view : Request help | How to get financial help | Open "How to get financial help" accordion | "How to get financial help" lists<br>• details on getting help<br>• link to "Request help to this overpayment" |
+|  |  |  | "Request help with this overpayment" link triggers "Leave the mobile app?" alert if tapped |
+|  |  |  | "Leave" opens FSR in browser |
+|  |  | Close "How to get financial help" | "How to get financial help" closes |
+|  |  | Open "Questions on overpayment" accordion | "Questions on overpayment" lists<br>• info for calling the Debt Management Center<br>• 3 phone numbers<br>• Go to Ask VA |
+|  |  |  | Phone numbers open alerts with option to call if tapped |
+|  |  |  | "Go to Ask VA" link triggers "Leave the mobile app?" alert if tapped |
+|  |  |  | "Leave" opens Ask VA in browser |
+|  |  | Close "Questions on overpayment" | "Questions on overpayment" closes |
+| Breadcrumbs | Request help from list | How to get financial help (List) >> Overpayments | Breadcrumb returns to Overpayment list |
+| Resolve from list view : Dispute payment | Overpay list | Resolve overpayment: dispute overpayment | "Dispute overpayment" from "Resolve overpayment" opens "Dispute overpayment" screen |
+| Resolve from list view : Dispute payment | Dispute overpayment | Open "Start an overpayment dispute" | "Start an overpayment dispute" link triggers "Leave the mobile app?" alert |
+|  |  |  | "Leave" opens Dispute your VA debt in browser |
+| Breadcrumbs | Dispute overpayment from list | Dispute overpayments (List) >> Overpayments | Breadcrumb returns to Overpayment list |
+| Elements on detail view | Overpay detail | Review card of each overpayment | Each debt card shows:<br>• name of debt<br>• current balance<br>• message |
+|  |  | Help menu from detail screen | Help menu opens via drawer |
+|  |  |  | Help menu displays <br>• instructions for calling Debt Management Center<br>• 3 phones numbers<br>• link to Ask VA |
+|  |  | Links on help screen | Three phone numbers |
+|  |  |  | "Go to Ask VA" opens in browser |
+|  |  |  | Help menu is closed via "close" CTA |
+|  |  | Debt details | Detail view shows:<br>• Date of first notice<br>• Original debt amount |
+|  |  | History | If history is available, show "Debt history" accordion with date and action |
+|  |  |  | "Debt history" opens and closes |
+|  |  | Download | If letter is available, show "Download debt letters" accordion |
+|  |  |  | "Download debt letters" opens and closes |
+|  |  |  | Download link triggers file download |
+| Breadcrumbs | Overpayments detail | Tap breadcrumb: Overpayments | Breadcrumb returns to Overpayment list |
+| Resolve from detail view | Overpay detail | Activate Resolve overpayment menu from detail screen | Four menu options:<br>• Make a payment<br>• Request help<br>• Dispute overpayment<br>• Cancel |
+|  |  |  | "Cancel" closes menu |
+| Resolve from detail view : Make a payment | Overpay detail | Resolve overpayment: select Make a Payment | "Make a payment" from "Resolve overpayment" opens "Pay online" screen |
+| Resolve from detail view : Make a payment | Pay online | Confirm details on "Pay online" screen | Details are correct for debt:<br>• Current balance<br>• Receivable ID (education) File number (all other debts)<br>• Payee number<br>• Person entitled<br>• Deduction code |
+|  |  | Select "What these terms mean" | "What these terms mean" opens in drawer and closes |
+|  |  | Select "Pay on pay.va.gov" | "Pay on pay.va.gov" link triggers "Leave the mobile app?" alert |
+|  |  |  | "Leave" opens pay.va.gov in browser |
+| Resolve from detail view : Make a payment | Pay online / pay.va.gov | Switch from browser back to app | Switching between app and browser keeps location for both |
+|  |  | Copy elements from pay screen and paste in pay.va.gov | Copy/paste works for each detail [long hold to paste]<br>• Reset on pay.va.gov |
+| Breadcrumbs | Make a payment from detail | Pay online >> Details | Breadcrumb returns to Details |
+| Resolve from detail view : Request help | Overpay detail | Resolve overpayment: select Request help | "Request help" from "Resolve overpayment" opens "How to get financial help" screen |
+| Resolve from detail view : Request help | Request help | Open "How to get financial help" accordion | "How to get financial help" lists<br>• details on getting help<br>• link to "Request help to this overpayment" |
+|  |  |  | "Request help with this overpayment" link triggers "Leave the mobile app?" alert if tapped |
+|  |  |  | "Leave" opens FSR in browser |
+|  |  | Close "How to get financial help" | "How to get financial help" closes |
+|  |  | Open "Questions on overpayment" accordion | "Questions on overpayment" lists<br>• info for calling the Debt Management Center<br>• 3 phone numbers<br>• Go to Ask VA |
+|  |  |  | Phone numbers open alerts with option to call if tapped |
+|  |  |  | "Go to Ask VA" link triggers "Leave the mobile app?" alert if tapped |
+|  |  |  | "Leave" opens Ask VA in browser |
+|  |  | Close "Questions on overpayment" | "Questions on overpayment" closes |
+| Resolve from detail view : Request help | Request help | Open "How to get financial help" accordion | "How to get financial help" lists<br>• details on getting help<br>• link to "Request help to this overpayment" |
+|  |  |  | "Request help with this overpayment" link triggers "Leave the mobile app?" alert if tapped |
+|  |  |  | "Leave" opens FSR in browser |
+|  |  | Close "How to get financial help" | "How to get financial help" closes |
+| Breadcrumbs | Request help from Details | Request help (Details) >> Details | Breadcrumb returns to Details |
+| Resolve from detail view : Dispute payment | Overpay list | Resolve overpayment: dispute overpayment | "Dispute overpayment" from "Resolve overpayment" opens "Dispute overpayment" screen |
+| Resolve from detail view : Dispute payment | Dispute overpayment | Open "Start an overpayment dispute" | "Start an overpayment dispute" link triggers "Leave the mobile app?" alert |
+|  |  |  | "Leave" opens Dispute your VA debt in browser |
+| Breadcrumbs | Dispute overpayment from Details | Dispute overpayments (Details) >> Details | Breadcrumb returns to Details |
 
-* Question 1
-* Question 2
-* Question 3
-
-[Example Research Questions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#research-questions)
 
 ## Methodology 
 
-*Provide a brief description of the research methods used (e.g., usability testing, interviews).*  
+For this study, we conducted moderated remote User Acceptance Testing (UAT) sessions with Veterans. We met with participants over a video call and guided them through several realistic tasks related to managing overpayments. Participants used their own login credentials on a pre-release version of the app so they could see and interact with their actual data.
 
-- Method 1: Description  
-- Method 2: Description  
+We chose this method because the overpayments feature was nearly finished and we needed to make sure it worked correctly with real-world information. Since earlier studies already proved that the app is easy to navigate, this round of testing focused entirely on making sure the overpayment tools functioned exactly as intended in a live environment.
 
-[Example Methodology](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#methodology)
-
+<!-----
 
 ## Hypotheses and Conclusions
 
@@ -416,3 +487,5 @@ _List all groups in red from the spreadsheet_
 #### A more accessible version of the table in the above image
 
 ➡️ _[paste markdown table of completed recruitment checker from Github Copilot chat]_
+
+----->
