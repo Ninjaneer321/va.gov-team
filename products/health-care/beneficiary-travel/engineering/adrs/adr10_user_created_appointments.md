@@ -4,7 +4,7 @@ Throughout this document we will discuss various user created appointment issues
 ## Investigation into how we will show a list of facilities to the user for a user created appointment
 
 ### Status
-In Progress - 2026-03-17
+Complete - 2026-03-26
 
 ### Context
 In order for a veteran to create a user created appointment via the BTSSS API they have to select a facility. There are several ways that we can go about getting a list of facilities.
@@ -257,7 +257,39 @@ We will move forward with option #2. The API team will...
   - Performance
   - Implementation complexity
 
-## Notes Post ADR Presentation to Stakeholders and API Team and the above meetings
+### Notes Post ADR Presentation to Stakeholders and API Team and the above meetings
 - 3/26/2026 Mark and Kay said that CXI discussions were going very slowly so at this point we are dropping that option and moving forward with option #2 where the API Team Builds or updates the endpoint for get facilities.
+
+---
+
+## Investigation into how we will know that an appointment is user created appointment from the API
+
+### Status
+In Progress - 2026-04-16
+
+### Context
+We need a reliable way to indicate that an appointment was manually created by a user. 
+
+Currently, VA.gov does not provide a dedicated or explicit mechanism for creating user-generated appointments. However, there is an existing system behavior that effectively enables this under certain conditions.
+
+When a user is viewing an appointment and attempts to add a new travel pay claim, the backend (BE) performs the following sequence:
+1. Attempt to Locate Appointment
+  - A POST request is made to:
+    `/api/v2/appointments/find-or-add`
+  - This endpoint attempts to locate the existing appointment in the system.
+2. Fallback: Create Appointment
+  - If the appointment cannot be found, a new appointment is created.
+  - This scenario may occur due to:
+    - VAOS service downtime
+    - Connectivity issues between BTSSS API and VAOS
+  - The newly created appointment is assigned:
+    `appointmentSource = "API"`
+3. Return Appointment
+  - The endpoint returns either:
+    - The existing appointment (if found), or
+    - The newly created appointment (fallback case)
+4. Claim Creation
+  - The BE then uses the returned appointment_id to create a travel pay claim by calling:
+    `POST /api/v2/claims`
 
 
