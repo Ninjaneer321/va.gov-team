@@ -80,6 +80,9 @@ Teams must launch with at least one entry point that allows site visitors to nav
 ### Additional key entry points
 _Any additional key locations that the page should be navigable from. Although these are not required for launch, they are critical to the findability of your content/feature.  Examples of key entry points include "About a form" pages, additional navigation component (top, left) placements, additional static pages where its prominently linked from, etc._
 
+1. **[About form 21-2680 update](https://www.va.gov/forms/21-2680/)**
+   - Placement description: TBD by Content
+   - Link Destination: https://www.va.gov/forms/21-2680/apply-aid-attendance-housebound/
 
 ##  <a name="redirects"></a>Redirects <br>
 *A list of any critical redirects needed as part of this product/feature launch. Redirects are required for any URL changes to ensure visitors do not receive a 404 - Page not found error in the experience.* 
