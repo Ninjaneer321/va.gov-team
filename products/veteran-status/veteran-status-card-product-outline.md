@@ -97,7 +97,7 @@ How might we give Veterans a single, trustworthy, easy-to-access digital Veteran
 - Add ineligibility/error messages to mobile app | Released 2024
     - Ineligibility/error messages did not exist on mobile app prior to this - the Veteran Status button didn't show up at all if someone wasn't eligible
 - Update design on both VA.gov and mobile app | Released July 2025
-    - Prior to this, the Veteran Status Card lived on the /profile/military-information page on VA.gov and was only viewable as downloadable PDF
+    - Prior to this, the Veteran Status Card lived on the `/profile/military-information` page on VA.gov and was only viewable as a downloadable PDF
     - Prior to this, the Veteran Status Card looked different on the mobile app
 - Switch to Lighthouse Veteran Servicey History & Eligibility API to determine card access on both VA.gov and mobile app | Released January 2025
     - [See documentation on eligibility logic here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-status/v2-IIR/ineligibility-error-messaging-logic.md)
