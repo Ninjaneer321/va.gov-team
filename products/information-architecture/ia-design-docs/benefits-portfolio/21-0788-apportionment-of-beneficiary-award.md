@@ -46,7 +46,7 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - Notes: The imformation above is for the form details page. The actual form is a PDF and can be found here https://www.vba.va.gov/pubs/forms/VBA-21-0788-ARE.pdf
 
 **2) Page name - New**
-- URL: https://www.va.gov/forms/21-0788/apply-apportionment-beneficiarys-award 
+- URL: https://www.va.gov/forms/21-0788/apply-for-apportionment-beneficiarys-award 
 - H1: Apply for apportionment of a beneficiary’s award
 - Sub-heading: Complete Form 21‑0788 online
 - Breadcrumb: VA.gov home › VA forms › Apply for apportionment of beneficiary’s award > Apply for apportionment of beneficiary’s award online
@@ -70,7 +70,7 @@ Teams must launch with at least one entry point that allows site visitors to nav
 
 ### Required entry point(s)
 
-1. **[Page/placement name]**
+1. **[About VA Form 21-0788](https://www.va.gov/forms/21-0788/)]**
   - Placement description: 
   - Link details
     - Link label: 
