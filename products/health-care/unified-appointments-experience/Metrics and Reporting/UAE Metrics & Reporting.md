@@ -51,7 +51,7 @@ If you're new to the team or just getting oriented with our reporting resources,
 > - **Workspace** — A shared environment where reports and data models are stored and managed. Access is more restricted.
 > - **App** — A curated, read-only set of selected reports published from a workspace for broader consumption.
 > - **Power BI Training** - VA has published Power BI trainings posted on [Sharepoint](https://dvagov.sharepoint.com/sites/oitpdscdwpowerbi/SitePages/Power-BI-Training.aspx).
-> - **Instructions for taking ownership of reports/models** - PLACEHOLDER LINK
+> - **Instructions for taking ownership of reports/models** - [Power BI Ownership](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/unified-appointments-experience/Metrics%20and%20Reporting/Power%20BI%20Ownership.md)
 ---
 ### Power BI — UAE Metrics App
 
