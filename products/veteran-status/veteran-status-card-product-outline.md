@@ -15,7 +15,7 @@ Test Users - Link coming soon
 The Veteran Status Card is a digital ID on VA.gov and the VA: Health & Benefits mobile app that Veterans can use to prove their Veteran status to businesses and organizations offering Veteran discounts — without the need to carry around their DD-214, military ID, or other physical document. The card displays the Veteran's name, branch of service, latest service period dates, DoD ID number, and disability rating while intentionally omitting other sensitive information.
 
 ## Problem Statement
-Veterans frequently need to prove their Veteran status to access discounts at retailers, restaurants, travel providers, and other businesses. The existing methods — carrying a physical DD-214, military ID, VHIC, or state-issued ID with a Veteran designation — are inconsistent across businesses, inconvenient to carry, and raise privacy concerns when Veterans are asked to hand over documents containing SSNs, birthdates, etc. Additionally, not all Veterans can are able to obtain those other forms of IDs either.
+Veterans frequently need to prove their Veteran status to access discounts at retailers, restaurants, travel providers, and other businesses. The existing methods — carrying a physical DD-214, military ID, VHIC, or state-issued ID with a Veteran designation — are inconsistent across businesses, inconvenient to carry, and raise privacy concerns when Veterans are asked to hand over documents containing SSNs, birthdates, etc. Additionally, not all Veterans are able to obtain those other forms of IDs either.
 
 How might we give Veterans a single, trustworthy, easy-to-access digital Veteran Status Card that they can confidently show to businesses in place of a physical ID?
 
