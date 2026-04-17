@@ -8,13 +8,13 @@ The VA Patterns Library documents repeatable solutions for multi-component user 
 ## April 2026 - Prefill Pattern
 
 - Prefill Pattern Mock Form Examples Now on Staging and ready to implement in your authenticated form
-We’ve published two mock form examples to help teams implement the Know when their information is prefilled pattern
 
-- What’s available:
+### We’ve published two mock form examples to help teams implement the Know when their information is prefilled pattern
 
- Prefill – Minimal workflow : Shows the prefill pattern using the minimal header/footer template. 
- Prefill – Standard header/footer: Shows the full authenticated experience with the standard VA.gov introduction page
-Sign in with any staging user to see the authenticated prefill experience.
+
+ - Prefill – [Minimal workflow](https://staging.va.gov/mock-form-minimal-prefill/introduction) : Shows the prefill pattern using the minimal header/footer template.
+ - Prefill – [Standard header/footer:](https://staging.va.gov/mock-form-prefill/introduction) Shows the full authenticated experience with the standard VA.gov introduction page
+ - Sign in with any staging user to see the authenticated prefill experience.
 
 - Why it matters: The prefill pattern tells Veterans where their information is coming from, what they can edit, and how to update what they can’t. These examples make it easier to implement correctly the first time.
 
@@ -52,11 +52,10 @@ Teams also need patterns that bundle content, accessibility, and edge-case guida
 
 ### Key Performance Indicators (KPIs)
 
-*Data sources: TBD — candidate sources: GitHub (patterns folder activity), design.va.gov GA, quarterly designer/engineer survey, Domo adoption dashboard.*
 
 | Category | Ease of Use | Service Completion | Trust/Satisfaction | Health |
 |---|---|---|---|---|
-| Metric | Pattern page views on design.va.gov | Pattern adoption rate across VA.gov flows | Consumer-team CSAT for patterns | Patterns current-with-components count |
+| [Metric](https://design.va.gov/about/metrics/) | Pattern page views on design.va.gov | Pattern adoption rate across VA.gov flows | Consumer-team CSAT for patterns | Patterns current-with-components count |
 
 #### Baseline KPI Values
 
