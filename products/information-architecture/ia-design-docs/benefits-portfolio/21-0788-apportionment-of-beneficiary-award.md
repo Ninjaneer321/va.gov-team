@@ -8,8 +8,7 @@
 **IA Tracker:** [#139666](https://github.com/department-of-veterans-affairs/va.gov-team/issues/139666)
 
 **Files:**
-- [Mural]()
-- [Figma]()
+- [Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1776361695847/ab67c592461506becfc1b8bb6427551190a12022?sender=uffc39b3e80952037f4c03989)
 
 **On this page:**
 - [Navigation/page flows](#flows)
