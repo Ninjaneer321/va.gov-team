@@ -90,7 +90,7 @@ How might we give Veterans a single, trustworthy, easy-to-access digital Veteran
 ### Supporting research
 
 - [MVP Research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/veteran-status/v1/Research)
-- [Link to all other research]([https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-status/v2-IIR/Research/Veteran%20Status%20Card%20Research%20Findings.md](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/veteran-status/v2-IIR/Research))
+- [Link to all other research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/veteran-status/v2-IIR/Research)
   
 ### Initiatives
 
