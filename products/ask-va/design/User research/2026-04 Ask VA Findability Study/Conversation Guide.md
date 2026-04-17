@@ -159,14 +159,12 @@ Go ahead and login here.
    - What would help you feel more confident? 
 
 ## Post-Task Interview
-- How did this experience compare to other times you've needed to get in touch with help outside of VA? 
+- How did this experience compare to other times you've needed to get in touch with help from VA? 
 - At this point, how likely are you to return to Ask VA when you need help again? (Scale from 1-5, 1 being highly unlikely, 5 being highly likely)
-- Imagine you've received a reply to your question, how likely are you to return to Ask VA when you need help again? (Scale from 1-5, 1 being highly unlikely, 5 being highly likely)
-
+- If you were to return, where would you expect to find Ask VA?
 - If you were to return, would you sign in or start a question without signing in?
 
 - At this point, how likely are you to recommend Ask VA to another Veteran or family member when they need help again? (Scale from 1-5, 1 being highly unlikely, 5 being highly likely)
-- Imagine you've received a reply to your question, how likely are you to recommend Ask VA to another Veteran or family member when they need help again? (Scale from 1-5, 1 being highly unlikely, 5 being highly likely)
 
 - If anything, what would you change about the Ask VA experience?
 
