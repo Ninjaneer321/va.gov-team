@@ -1,5 +1,5 @@
 # VA Component Library 
-Team: Design & Forms Systems | VA.gov Platform*
+Team: Design & Forms Systems | VA.gov Platform
 
 ## Overview
 The VA Component Library is the set of accessible, reusable UI components that VA.gov product teams assemble into Veteran-facing experiences. Components are designed, specified in Figma, implemented as Web Components, published to Storybook, and documented on design.va.gov.
