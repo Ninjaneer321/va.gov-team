@@ -48,7 +48,7 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - H1: APPLICATION FOR ANNUAL CLOTHING ALLOWANCE
 - Sub-heading: N/A
 - Breadcrumb: Non on the PDF form. The breadcrumb for the previous page is VA.gov> homeVA> forms> About VA Form 10-8678
-- Notes: The imformation above is for the form details page. The actual form is a PDF and can be found here https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-8678.pdf
+- Notes: Previous page that links to the PDF form is About VA Form 10-8678 and the url of that page is https://www.va.gov/forms/10-8678/
 
 **2) Page name - New**
 - URL:(https://www.va.gov/forms/10-8678/apply-annual-clothing-allowance)
