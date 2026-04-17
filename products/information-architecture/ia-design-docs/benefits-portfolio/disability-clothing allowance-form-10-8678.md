@@ -43,7 +43,7 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - [Breadcrumbs](https://design.va.gov/components/breadcrumbs) 
 - [Title tags](https://design.va.gov/content-style-guide/title-tags)
   
-**1) Page name - Existing PDF form**
+**1) Page name - Existing (PDF form)**
 - URL: (https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-8678.pdf)
 - H1: APPLICATION FOR ANNUAL CLOTHING ALLOWANCE
 - Sub-heading: N/A
