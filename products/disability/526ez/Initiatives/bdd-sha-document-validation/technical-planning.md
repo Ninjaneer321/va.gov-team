@@ -118,12 +118,13 @@ _Medium Confidence Anticipated Level of Effort: 3 Sprints, 2 engineers_
 | 5      | Update vets-website to pass new form id and render alert - low-fidelity  | --          | Adjusting the payload behind the feature flag and Form System file input is a little awkward. |
 | 6      | Update vets-website to utilize high-fidelity mockups                     | --          | --                                                                                            |
 | 7      | Update vets-website for DataDog RUM                                      | --          | --                                                                                            |
-| 8      | Bug bash                                                                 | --          | --                                                                                            |
-| 9      | Fixes from bug bash (Allocate 3 stories)                                 | --          | --                                                                                            |
-| 10     | Accessibility tests                                                      | --          | --                                                                                            |
-| 11     | Staging Review                                                           | --          | --                                                                                            |
-| 12     | Prepare release plan                                                     | --          | --                                                                                            |
-| 13     | Start staggered release                                                  | --          | --                                                                                            |
+| 8      | DataDog Dashboard                                                        | --          | --                                                                                            |
+| 9      | Bug bash                                                                 | --          | --                                                                                            |
+| 10     | Fixes from bug bash (Allocate 3 stories)                                 | --          | --                                                                                            |
+| 11     | Accessibility tests                                                      | --          | --                                                                                            |
+| 12     | Staging Review                                                           | --          | --                                                                                            |
+| 13     | Prepare release plan                                                     | --          | --                                                                                            |
+| 14     | Start staggered release                                                  | --          | --                                                                                            |
 
 # **Out of Scope**
 
