@@ -151,96 +151,224 @@ _Medium Confidence Anticipated Level of Effort: 2 Sprints, 2 engineers_
   Initial Implementation Plan
 </summary>
 
-## Plan: BDD SHA Document Validation Implementation
+# Plan: BDD SHA Document Validation Implementation
 
-**TL;DR:** Add OCR text extraction to validate SHA Part A uploads. When a veteran uploads a file to the BDD SHA page, check if the extracted text contains both "Separation Health Assessment" AND "Part A". Return validation status in the response and show a dismissible alert for invalid uploads (don't block submission). Gradual percentage-based Flipper rollout.
+## TL;DR
 
----
-
-### Steps (5 Phases)
-
-**Phase 1: Backend Preparation** (Sprint 1, Week 1)
-
-1. Create feature flag `disability_526_bdd_sha_document_validation_enabled` (percentage-based rollout)
-2. Update vets-json-schema to add optional `expectedFormId` parameter to attachment objects
-3. Create `DocumentValidator` service (`lib/disability_compensation/validators/document_validator.rb`)
-   - Reuse MiniMagick + RTesseract pattern from validate_correct_form.rb
-   - Check for BOTH "Separation Health Assessment" AND "Part A"
-   - Return `{ valid: true/false, type: string }`
-4. Modify `UploadSupportingEvidencesController` to call validator and include `validationResult` in response JSON
-
-**Phase 2: Schema & Integration** (Sprint 1, Week 2) 5. Verify SupportingEvidenceAttachmentUploader (no changes needed) 6. Verify downstream Lighthouse integration (L1839 still flows correctly)
-
-**Phase 3: Frontend Implementation** (Sprints 1-2) 7. Update src/applications/disability-benefits/all-claims/pages/separationHealthAssessmentUploadV1.jsx
-
-- Pass `expectedFormId: 'L1839'` when feature flag enabled
-- Track `invalidFileAlertShown` and `invalidFileCount` state
-- Show dismissible alert for `validationResult.passed === false`
-- Re-show alert if new invalid file uploaded after dismissal
-
-**Phase 4: Testing & QA** (Sprint 2) 8. Unit tests: `DocumentValidator` with valid/invalid/edge-case PDFs 9. Integration tests: Upload endpoint with/without validation param & feature flag variations 10. VCR cassettes for OCR extraction 11. Manual QA: Valid SHA, invalid PDFs, multiple uploads, alert dismissal
-
-**Phase 5: Rollout & Monitoring** (Post-Sprint 2) 12. Feature flag gradual rollout: 0% → 10% (day 3) → 50% (day 7) → 100% (day 14) 13. Monitor upload metrics, form abandonment, OCR performance
+Add OCR-based document validation to the Form 21-526EZ BDD SHA upload flow. When a veteran uploads a file to the dedicated SHA upload page, synchronously validate it by extracting text and checking for both "Separation Health Assessment" AND "Part A". Return validation status in the response. Show a dismissible alert on invalid uploads but don't block submission. Gradually rollout via Flipper feature flag.
 
 ---
 
-### Relevant Files to Create/Modify
+## Steps
 
-**Backend:**
+### **Phase 1: Backend Preparation** (Sprint 1, Week 1)
 
-- `lib/disability_compensation/validators/document_validator.rb` ← New
-- upload_supporting_evidences_controller.rb ← Modify
-- features.yml ← Add flag
-- Test files (new and updated)
+1. **Create feature flag**
+   - Flag name: `disability_526_bdd_sha_document_validation_enabled`
+   - Percentage-based rollout (default: 0%)
+   - Set in `config/features.yml`
 
-**Schema (vets-json-schema repo):**
+2. **Update vets-json-schema + API request contract**
+   - Add optional `form_id` parameter to the `attachments` items schema
+   - Path: `src/schemas/21-526EZ-allclaims/schema.js` - extend the attachment object with new field
+   - This parameter is backward-compatible (optional)
+   - Update tests in `test/schemas/21-526EZ/schema.spec.js` to cover the new parameter
+   - Document naming contract: client sends `form_id` (same convention as Simple Form Upload)
 
-- `src/schemas/21-526EZ-allclaims/schema.js` ← Add `expectedFormId` param
-- `test/schemas/21-526EZ/schema.spec.js` ← Update tests
+3. **Create DocumentValidator service**
+   - Location: `lib/disability_compensation/validators/document_validator.rb`
+   - Methods:
+     - `initialize(file_path, form_id)`
+     - `validate!` → returns `{ valid: boolean, warning_code: string }`
+   - Reuses pattern from `lib/shrine/plugins/validate_correct_form.rb`:
+     - Convert PDF first page to JPG (MiniMagick, 150 DPI, quality 100)
+     - Extract text via RTesseract
+     - Check for BOTH "Separation Health Assessment" AND "Part A" (case-insensitive)
+     - Delete temp JPG in ensure block
+   - Behavior: Return `{ valid: true }` if both found; `{ valid: false, type: 'potentially_incorrect_document' }` otherwise
+   - Log extraction attempts but pass silently on validation failures (no exceptions)
 
-**Frontend:**
+4. **Update upload endpoint param handling + controller behavior**
+   - Modify `POST /v0/upload_supporting_evidence` endpoint
+   - Update strong params in `FormAttachmentCreate#extract_params_from_namespace` to permit new optional param (`form_id`) so it is not dropped
+   - When `form_id` parameter is present AND feature flag enabled:
+     - Call `DocumentValidator` after file upload succeeds
+     - Append validation result to response JSON: `{ data: {...}, validationResult: { passed: boolean, type: string } }`
+   - If validation fails, still return 200 (don't block upload) - warning delivered client-side only
 
-- src/applications/disability-benefits/all-claims/pages/separationHealthAssessmentUploadV1.jsx ← Modify
+### **Phase 2: Schema & Integration** (Sprint 1, Week 2)
+
+5. **Update SupportingEvidenceAttachmentUploader**
+   - No OCR logic here (lives in controller for synchronous response handling)
+   - Ensure CarrierWave validation still works (file format, size, etc.)
+
+6. **Verify downstream impact**
+   - Confirm `LighthouseSupplementalDocumentUploadProvider` still works with existing flow
+   - Ensure `L1839` is correctly passed to Lighthouse
+   - No changes needed to form submission logic; validation is UI-only
+
+### **Phase 3: Frontend Implementation** (Sprint 1-2)
+
+7. **Update BDD SHA upload component**
+   - File: `src/applications/disability-benefits/all-claims/pages/separationHealthAssessmentUploadV1.jsx`
+   - Send `form_id: 'L1839'` in upload request when feature flag enabled
+   - Use FormData/multipart request without manually setting `Content-Type` (browser must set boundary)
+   - Add state tracking:
+     - `invalidFileAlertShown` (boolean) - prevent re-showing unless new invalid file
+     - `invalidFileCount` (number) - track how many invalid files cumulative
+   - Alert behavior:
+     - Show `VaAlert` on upload completion if `validationResult.passed === false`
+     - Alert content: "This document may not be a Separation Health Assessment. Please double-check before submitting your form."
+     - Include dismissible close button
+     - If another invalid file is uploaded after dismissal, re-show alert with updated count
+   - Do NOT block form progression (veteran can submit despite warning)
+
+### **Phase 4: Testing & Bug Fixes** (Sprint 2)
+
+8. **Backend tests**
+   - Unit spec for `DocumentValidator`:
+     - Test with valid SHA PDF (both keywords present)
+     - Test with invalid PDF (missing keywords)
+     - Test with scanned low-quality PDFs
+     - Test with word-wrapped variations ("Separation\nHealth Assessment")
+     - Test error handling (missing file, invalid format, MiniMagick failure)
+   - Integration spec for `UploadSupportingEvidencesController`:
+     - POST multipart with `form_id='L1839'` and valid SHA → returns `validationResult.passed: true`
+     - POST multipart with `form_id='L1839'` and invalid PDF → returns `validationResult.passed: false` with 200 status
+   - POST without `form_id` parameter → skips validation (backward compatible)
+     - Feature flag off → skips validation regardless of param
+   - Request where extra param is unpermitted (negative test) confirms `form_id` is now explicitly permitted
+
+9. **Frontend tests**
+   - Alert shows/hides based on `validationResult`
+   - Alert persists across multiple invalid uploads
+   - Alert can be dismissed and reshown
+   - Feature flag controls whether `form_id` is sent
+
+10. **VCR Cassettes**
+    - Record OCR extraction from test SHA documents
+    - Store in `spec/support/vcr_cassettes/document_validation/`
+
+11. **Manual QA / Bug Bash**
+    - Upload valid SHA PDF → no alert
+    - Upload non-SHA PDF (W&P, disability letter, etc.) → alert shown
+    - Upload scanned PDF with poor quality → alert shown OR silent (per decision: pass silently with logging)
+    - Upload 3 invalid files → alert shows all 3 times or counts up to 3? (clarify with your answer on persistence)
+    - Dismiss alert, upload another invalid file → alert reshows
+
+### **Phase 5: Rollout & Monitoring** (Post-Sprint 2)
+
+12. **Feature flag rollout**
+    - Day 1: 0% (off)
+    - Day 3: 10% (validation on for 10% of requests)
+    - Day 7: 50% (validation on for 50% of requests)
+    - Day 14: 100% (validation on for all requests)
+    - Monitor metrics: upload failure rate, form abandonment impact, OCR performance
+
+13. **Documentation**
+    - Add endpoint documentation to OpenAPI spec (if applicable)
+    - Document `DocumentValidator` usage for future form integrations
+    - Update `CONTRIBUTING.md` if OCR dependencies are new
 
 ---
 
-### Key Decisions Captured
+## Relevant Files
 
-| Decision                | Choice                                                                                |
-| ----------------------- | ------------------------------------------------------------------------------------- |
-| Validation Criteria     | Both "Separation Health Assessment" AND "Part A" (pass silently on failure; no error) |
-| Response Contract       | Include `validationResult` in POST response (optional param = backward compatible)    |
-| Validation Speed        | Synchronous (veteran waits ~1-5 seconds for OCR result)                               |
-| Alert Behavior          | Dismissible; re-shows if new invalid file uploaded after dismissal                    |
-| Scope                   | BDD SHA only initially (L1839); optional param allows future expansion                |
-| Implementation Location | `UploadSupportingEvidencesController` (synchronous logic)                             |
-| Flipper Strategy        | Percentage-based gradual rollout (0% → 10% → 50% → 100%)                              |
-| Backward Compatibility  | `expectedFormId` is optional; existing clients unaffected                             |
+**Backend Files to Create/Modify:**
 
----
+- `lib/disability_compensation/validators/document_validator.rb` — New validator service (reuse patterns from `lib/shrine/plugins/validate_correct_form.rb`)
+- `app/controllers/v0/upload_supporting_evidences_controller.rb` — Modify to call validator, normalize param names, and include result in response
+- `app/controllers/concerns/form_attachment_create.rb` — Permit optional expected form param in strong params
+- `config/features.yml` — Add feature flag
+- `spec/lib/disability_compensation/validators/document_validator_spec.rb` — New test file
+- `spec/requests/v0/upload_supporting_evidences_spec.rb` — Update to test new validation response
 
-### Verification Checklist
+**Schema/Contract Files:**
 
-- [ ] Unit tests pass for DocumentValidator (valid/invalid/edge cases)
-- [ ] Integration tests pass (backward compatibility, feature flag on/off)
-- [ ] Manual QA: Valid SHA → no alert; Invalid PDF → alert shown
-- [ ] Alert state management: dismiss + upload invalid → alert reshows
-- [ ] Downstream Lighthouse integration: L1839 still reaches veteran's eFolder correctly
-- [ ] Feature flag behavior: Flag off → validation skipped; On → validation runs
+- `src/schemas/21-526EZ-allclaims/schema.js` (vets-json-schema) — Add optional `form_id` param to attachment items
+- `test/schemas/21-526EZ/schema.spec.js` (vets-json-schema) — Add test cases
 
----
+**Frontend Files:**
 
-### Further Considerations
+- `src/applications/disability-benefits/all-claims/pages/separationHealthAssessmentUploadV1.jsx` — Add validation logic and alert rendering
+- Consider: `src/platform/forms-system/src/js/web-component-patterns/fileInputPattern.jsx` (if creating reusable alert component; defer to post-MVP)
 
-1. **OCR Reliability** — Pass silently with logging if text extraction fails (some invalid uploads may slip through; monitor analytics)
-2. **Performance** — RTesseract adds up to 5 seconds per upload; consider async validation in future if throughput becomes bottleneck
-3. **Accessibility** — VaAlert component should have proper ARIA labels; confirm with accessibility specialist during PR review
+**Reference Implementation:**
+
+- `lib/shrine/plugins/validate_correct_form.rb` — Document validation pattern (Shrine version; adjust for CarrierWave context)
+- `modules/ivc_champva/lib/ivc_champva/supporting_document_validator.rb` — Another OCR example
 
 ---
 
-**Questions before proceeding to implementation:**
+## Verification
 
-- Does this capture the scope and approach correctly?
-- Any adjustments to the phases, files, or validation criteria?
-- Should I clarify anything about the `invalidFileCount` persistence behavior (e.g., does the alert say "3 invalid files" or just show count silently)?
+1. **Unit Test Verification:**
+   - Run: `bundle exec rspec spec/lib/disability_compensation/validators/document_validator_spec.rb` → All green
+   - Run: `bundle exec rspec spec/requests/v0/upload_supporting_evidences_spec.rb` → All green, including backward-compatibility tests
+
+2. **Integration Test Verification:**
+   - Run: `bundle exec rspec modules/my_health/spec/` (if applicable) or related 526EZ specs → No regressions
+   - Flipper flag logic verified: flag off → validation skipped; flag on → validation runs
+
+3. **Manual Testing (QA/Bug Bash):**
+   - Upload valid SHA Part A PDF to staging (feature flag: 100%) → No alert
+   - Upload random PDF, disability letter, or incomplete SHA → Alert renders with correct message
+   - Dismiss alert, upload another invalid PDF → Alert reshows (or persists count as per your decision on `invalidFileCount`)
+   - Feature flag turned to 0% → Upload endpoint ignores `form_id` param, no validation response included
+
+4. **Frontend Rendering Verification:**
+   - Open dev tools: Network tab → request is multipart/form-data with browser-generated boundary
+   - Open dev tools: Network tab → payload includes expected form param and POST response includes `validationResult` when flag on
+   - React component state correctly tracks alert visibility and dismissal state
+   - Console logs: No errors; feature flag check logs appropriately
+
+5. **Downstream Integration Check:**
+   - Form submission with L1839 attachment still works (validate in staging with form-submitted job)
+   - Lighthouse receives document with correct attachment ID despite validation warning
+
+---
+
+## Decisions
+
+- **Validation Criteria**: Check for BOTH "Separation Health Assessment" AND "Part A" (case-insensitive). Pass silently with logging if either is missing.
+- **Response Architecture**: Include validation result in upload endpoint response as an additive field; treat as a potential contract risk for strict consumers and cover with request/response contract tests.
+- **Synchronous Validation**: OCR runs during request/response cycle; veteran waits ~1-5 seconds for upload confirmation + validation result.
+- **Alert Behavior**: Dismissible alert on invalid upload; reshown if new invalid file uploaded after dismissal. No form submission blocking.
+- **Scope**: BDD SHA uploads only initially (L1839 + optional `form_id` parameter). Optional param allows future extension to other forms.
+- **Param Contract**: Canonical API parameter is `form_id`, matching Simple Form Upload naming.
+- **Multipart Handling**: Frontend must submit multipart via FormData and not manually set `Content-Type` so the browser can set boundary correctly.
+- **Implementation in Controller**: Validation logic invoked synchronously in `UploadSupportingEvidencesController`, not in uploader. Simpler response handling.
+- **Flipper Rollout**: Percentage-based gradual rollout (0% → 10% → 50% → 100%) to monitor performance and adoption.
+- **Backward Compatibility**: `form_id` parameter is optional; existing clients unaffected.
+
+---
+
+## Further Considerations
+
+1. **OCR Reliability & False Positives**
+   - Decision: Pass silently with logging if validation fails (don't warn if text extraction misses "Part A" on poor-quality scans)
+   - Implies: Some invalid uploads may slip through without warning
+   - Mitigation: Log all failures for analytics; monitor claim adjudication feedback loop; consider feedback signal in future iterations
+
+2. **Performance & Scaling**
+   - RTesseract via Tesseract CLI adds latency; carving up to 5 seconds per upload is acceptable but limits peak throughput
+   - If traffic spikes, consider async validation (background job) in future; current plan is synchronous per your preference
+   - Monitoring: Track p95/p99 upload response times; set alert if validation adds >3 seconds overhead
+
+3. **Accessibility & Dynamic Content**
+   - Alert (VaAlert component) is rendering dynamically on page; verify it has proper ARIA labels
+   - Decision made: Use standard VaAlert (no live region requirement); confirm with accessibility specialist during PR review per risk table
+
+---
+
+## Timeline & Effort
+
+**Estimate: 2 Sprints, 2 Engineers**
+
+- Sprint 1: Backend (validator service, controller updates, schema changes) + frontend foundation
+- Sprint 2: Frontend alert integration, comprehensive testing, bug fixes, rollout prep
+- Buffer: ~20% time for OCR reliability issues, edge cases, accessibility review
+
+---
+
   </details>
