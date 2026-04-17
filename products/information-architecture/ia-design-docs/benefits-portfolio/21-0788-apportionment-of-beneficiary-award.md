@@ -44,7 +44,7 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - Breadcrumb: VA.gov home > VA forms > About VA Form 21-0788
 - Browser title: [H1 of introduction page in title case] | Veterans Affairs
     - About VA Form 21-0788 | Veterans Affairs
-- Notes: 
+- Notes: The imformation above is for the form details page. The actual form is a PDF and can be found here https://www.vba.va.gov/pubs/forms/VBA-21-0788-ARE.pdf
 
 **2) Page name - Existing/New**
 - URL:
