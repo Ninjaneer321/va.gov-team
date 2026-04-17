@@ -13,8 +13,7 @@ Based on seven-day comparison: Mar 25-31 (pre-release baseline) vs Apr 8-14 (fir
 
 ### Declines
 
-- **Claim detail sessions** (-16.14%) and **Details link clicks** (-14.82%): Two measures of the same shift. The In progress filter surfaces the most relevant claims first, reducing the need to browse through multiple claims to find the right one.
-- **Appeal detail sessions**: -6.79% on flat traffic. Different mechanism from the above: closed appeals are now behind the Closed filter, so users must actively switch filters to reach them. This moderate decline warrants continued monitoring.
+- **Claim detail sessions** (-16.14%), **Appeal detail sessions** (-6.79%), and **Details link clicks** (-14.82%): Same mechanism. The In progress filter surfaces active items by default, reducing the need to browse through all claims and appeals to find the right one. Continue monitoring both detail-session declines for signs users are missing closed items they came for (covered in the Potential Concern section below).
 - **Pagination**: -44.48%. The In progress filter narrows the default list, reducing the need to paginate past page 1. Absolute numbers are small (~1,176 sessions post-release).
 - **"Your claim letters" OTP clicks**: -15.22%. For users with closed claims, the In progress filter shows fewer cards, moving the Claim Letters section physically closer to the top of the page. Users don't need the On This Page shortcut when the section is already visible without scrolling. (The inverse signal -- +38.35% increase in direct claim letters navigation -- confirms this; see Increases below.)
 
@@ -36,7 +35,7 @@ Users who navigate to `/track-claims/your-claims` with only closed claims (e.g.,
 
 ### Action Items
 
-- [ ] Investigate appeal detail session decline -- are users unable to find closed appeals behind the Closed filter?
+- [ ] Continue monitoring claim and appeal detail session declines -- escalate if either trend deepens, which could indicate users are missing closed items hidden by the default In progress filter.
 - [x] Investigate unexplained page_view and self-navigation increases -- root cause identified; fixed in vets-website PR [#44088](https://github.com/department-of-veterans-affairs/vets-website/pull/44088). Verify counts drop post-deploy.
 - [x] Investigate claim letters navigation increase -- explained by fewer cards on default view moving the Claim Letters section closer to the top of the page.
 - [x] Collect full 7-day comparison -- Mar 25-31 vs Apr 8-14 report added below.
@@ -202,7 +201,7 @@ api_call is flat (-0.47%), confirming no change to backend request volume.
 |---|---|---|---|
 | Total sessions | 152,719 | 128,070 | -16.14% |
 
-On flat traffic, 16.14% fewer sessions navigated to claim detail pages. Consistent with the -14.82% Details link click decline above -- both reflect users finding the right claim sooner via the In progress filter.
+On flat traffic, 16.14% fewer sessions navigated to claim detail pages. Consistent with the -14.82% Details link click decline above -- both reflect users finding the right item sooner via the In progress filter, which surfaces active items by default and reduces browsing.
 
 #### Appeal Detail Page Navigation
 
@@ -210,7 +209,7 @@ On flat traffic, 16.14% fewer sessions navigated to claim detail pages. Consiste
 |---|---|---|---|
 | Total sessions | 79,544 | 74,145 | -6.79% |
 
-On flat traffic, 6.79% fewer sessions navigated to appeal detail pages. Different mechanism from the claim detail decline: closed appeals are now behind the Closed filter, so users must actively switch filters to reach them. This warrants continued monitoring -- if the decline deepens, it could indicate users are not discovering the Closed filter.
+On flat traffic, 6.79% fewer sessions navigated to appeal detail pages. Same mechanism as the -16.14% claim detail decline above: the In progress filter surfaces active items by default, so fewer users need to click into detail pages to find what they're looking for. Continue monitoring alongside claim detail for signs either drop reflects users missing closed items they came for.
 
 #### Pagination
 
