@@ -82,10 +82,10 @@ How might we give Veterans a single, trustworthy, easy-to-access digital Veteran
 
 ## Solution Approach
 
-- As of April 2026, any LOA3-verified Veteran whose Title 38 eligibility is "Confirmed" via the Lighthouse Veteran Service History & Eligibility API can view and print their Veteran Status Card on VA.gov and the VA: Health & Benefits app. The card lives at its own dedicated page (`/profile/veteran-status-card`) on web and is available in the app on the home page or under profile, with consistent card content and error/ineligibility messaging across both.
+- As of April 2026, any LOA3-verified Veteran whose Title 38 eligibility is "Confirmed" via the Lighthouse Veteran Service History & Eligibility API can view and print their Veteran Status Card on VA.gov and the VA: Health & Benefits app. The card lives at its own dedicated page (`/profile/veteran-status-card`) on VA.gov and is available in the app on the home page or under profile, with consistent card content and error/ineligibility messaging across both.
 - Veterans who are "Not Confirmed" see tailored warning or error messaging based on the reason (`NOT_TITLE_38`, `MORE_RESEARCH_NEEDED`, `PERSON_NOT_FOUND`, missing DoD ID / service history, or API error), directing them to the Defense Manpower Data Center or the National Archives where appropriate.
 - The card intentionally omits SSN and date of birth, and includes the Veteran's name, branch of service, service dates, DoD ID number, and disability rating (if available). A printable PDF is available on VA.gov if Veterans would like to print it out.
-- The current initiative in flight is to combine the Lighthouse API with the pre-2025 VA Profile API + custom discharge-code logic, so Veterans who come back as "Not Confirmed" from Lighthouse get a second check against VA Profile. This is expected to modestly raise access rates by recovering users with unknown or edge-case discharge statuses, without weakening the Title 38 standard for users who are confidently eligible.
+- A current initiative is inn flight is to use a combination of the Lighthouse Veteran Service History & Eligibility API and the VA Profile API, so Veterans who come back as "Not Confirmed" from Lighthouse get a second check against VA Profile. This is expected to modestly raise access rates and increase the accuracy of who should be able to access the card.
 
 ### Supporting research
 
@@ -94,33 +94,40 @@ How might we give Veterans a single, trustworthy, easy-to-access digital Veteran
   
 ### Initiatives
 
-- Mobile App Feature Affinity (DoD ID + DOB removal) | Released 2024 | [Initiative Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-status/v2-IIR/mobile-app-feature-affinity-product-outline.md)
-- Lighthouse Title 38 Eligibility API Switch | Released February 2025 | Epic?
-- New Home & UX Redesign (dedicated page, FAQ, Profile Hub + Name Tag links) | Released July 2025 | [Release Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-status/v2-IIR/web-redesign-release-plan.md)
-- Dual-API Eligibility Logic (Lighthouse + VA Profile fallback) | In flight | Super epic?
+- Add ineligibility/error messages to mobile app | Released 2024
+    - Ineligibility/error messages did not exist on mobile app prior to this - the Veteran Status button just wouldn't show at all if someone didn't come back as eligible
+- Update design on both VA.gov and mobile app | Released July 2025
+    - Prior to this, the Veteran Status Card lived on the /profile/military-information page on VA.gov and was only viewable as a PDF download link
+    - Prior to this, the Veteran Status Card looked different on the mobile app
+- Switch to Lighthouse Veteran Servicey History & Eligibility API to determine card access on both VA.gov and mobile app | Released January 2025
+    - [See documentation on eligibility logic here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-status/v2-IIR/ineligibility-error-messaging-logic.md)
+- Shared Service for Va.gov & mobile app + Dual-API Eligibility Logic | In flight | Super epic?
+    - Shared service is being created so VA.gov and mobile app don't have to keep logic up to date in two different places
+    - Logic is being updated to further increase accuracy and increase access rates
+        - [See documentation on eligibility logic here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-status/v2-IIR/ineligibility-error-messaging-logic.md)
+- Digital Wallet capabilities | On hold
+    -  There is a desire to give users the ability to add their card to their digital wallet. Designs have been made but the priority has been getting the eligibility logic accurate and then we can revisit this initiative.
 
 ---
 
 ## Launch Strategy
 
-Each Veteran Status Card initiative has been rolled out behind a feature flag with a staged rollout (canary → 5–10% → 25% → 50% → 75–100%) rather than through public marketing or email/text campaigns. Datadog dashboards were monitored at each stage and the feature flag could be disabled at any point if error rates or unexpected behavior spiked.
+Each Veteran Status Card initiative has been rolled out behind a feature flag with a staged rollout (canary → 5–10% → 25% → 50% → 75–100%) rather than through public marketing or email/text campaigns. Datadog dashboards were monitored at each stage and the feature flag could be disabled at any point if error rates or unexpected behavior spiked. Mobile app and VA.gov teams coordinated together to release updates together
 
-The current dual-API eligibility logic initiative will follow the same pattern: develop behind a feature flag, validate in staging against a broad set of test users covering each eligibility outcome, run a moderated UAT with OCTO Veterans in production, and then stage the rollout while watching for changes in the CONFIRMED / NOT CONFIRMED distribution and API error rates. No Veteran-facing marketing or announcements are planned, since the change is transparent to Veterans who were already eligible and only affects Veterans whose eligibility was previously inconclusive.
+The current shared service + dual-API eligibility logic initiative will follow the same pattern: develop behind a feature flag, validate in staging against a broad set of test users covering each eligibility outcome, run a moderated UAT with OCTO Veterans in production, and then stage the rollout while watching for changes in the CONFIRMED / NOT CONFIRMED distribution and API error rates. No Veteran-facing marketing or announcements are planned, since the change is transparent to Veterans who were already eligible and only affects Veterans whose eligibility was previously inconclusive.
 
 ---
 
 ## Solution Narrative
 
 ### Current Status
-- Dual-API eligibility logic (Lighthouse + VA Profile fallback) is in flight.
+- CVE and MFS Teams and working together to complete the Shared Service + Dual-API Eligibility Logic initiative. Estimated release is summer 2026.
 
 ### Key Decisions
-- Prior to 2025, eligibility was determined by VA Profile API data plus custom discharge-code logic. Access rates sat around 70% on web. In January 2025, the CVE team (then IIR) switched to the Lighthouse Veteran Service History & Eligibility API, which uses the Title 38 definition of Veteran. Access rates rose to ~80% on web and ~96% on mobile (mobile being higher due to traffic volume and user demographics, not a technical difference).
-- In April 2025, after review with Chris Johnston and Melissa Rebstock, the team decided the long-term approach should combine both APIs: check Lighthouse first, and if a user comes back "Not Confirmed," fall back to VA Profile data — but with updated custom logic that only excludes "Dishonorable" discharge statuses (whereas the pre-2025 logic also excluded "Bad Conduct" and "Under Other Than Honorable Conditions"). This is the initiative currently in flight.
-- In July 2025, the Veteran Status Card was moved out of the Military Information page and into its own dedicated page at `/profile/veteran-status-card`. A new Profile Hub card and a new Name Tag banner link were added for discoverability, an FAQ accordion was added to the page, the card design was updated (reordered fields, refined styling, replacing service dates with "Veteran since" where applicable), and the client-side PDF download was retained.
-- The decision was made to intentionally omit SSN and date of birth from the card based on research (Dec 2024) showing Veterans were uncomfortable sharing that information with businesses, and that the information wasn't needed for the card's primary purpose (proving Veteran status for discounts).
-- The decision to pursue cross-platform feature affinity — same card content, same error/ineligibility messaging on web and mobile — was driven by research showing Veterans were confused and frustrated by inconsistent experiences between VA.gov and the VA: Health & Benefits app. The mobile app team implements the mobile side; CVE implements the web side and coordinates on API, content, and design.
-- The Veteran Status Card is intended to eventually replace the physical Veteran ID Card (VIC). Decommissioning the VIC is a stakeholder goal (VEO team) rather than a CVE deliverable, but future VSC work (mobile wallet integration, potential photo inclusion) is being considered with that end state in mind.
+- Prior to 2025, eligibility was determined by looking at VA Profile API discharge status. Access rates sat around 70% on VA.gov. In January 2025, the experience was switched to look at the Lighthouse Veteran Service History & Eligibility API, which uses the Title 38 definition of Veteran. Access rates rose to ~80% on VA.gov and ~96% on mobile (mobile being higher due to traffic volume and user demographics, not a technical difference in logic). 
+- In April 2025, after review with stakeholders, the team decided the long-term approach should combine data from two APIs: check Lighthouse first, and if a user comes back "Not Confirmed," fall back to VA Profile SSC data. This is part of the initiative currently in flight and relies heavily on business and stakeholder decisions to determine who is eligible for a card. 
+- The decision was made to intentionally omit date of birth from the card based on research (Dec 2024) showing Veterans were uncomfortable having personal information displayed on the card, and that the information wasn't needed for the card's primary purpose (proving Veteran status for discounts). Veterans were mixed about having their disability rating on the card and that may be removed evetually. Disability rating was initially added at the request of stakeholders.
+- Because of ongoing logic changes, it was decided that VA.gov and mobile app should be referencing one source of truth for logic so that any future logic updates only have to happen once in vets-api - updates would then automatically be consumed by VA.gov and the mobile app. This is part of the initiative currently in flight (shared service). 
 
 ---
    
