@@ -51,7 +51,7 @@ If you're new to the team or just getting oriented with our reporting resources,
 > - **Workspace** — A shared environment where reports and data models are stored and managed. Access is more restricted.
 > - **App** — A curated, read-only set of selected reports published from a workspace for broader consumption.
 > - **Power BI Training** - VA has published Power BI trainings posted on [Sharepoint](https://dvagov.sharepoint.com/sites/oitpdscdwpowerbi/SitePages/Power-BI-Training.aspx).
-
+> - **Instructions for taking ownership of reports/models** - PLACEHOLDER LINK
 ---
 ### Power BI — UAE Metrics App
 
@@ -80,7 +80,7 @@ If you're new to the team or just getting oriented with our reporting resources,
 
 ### Monthly IVC Demo Presentations
 
-**What it is:** These are monthly presentations that need to be prepared by the third Tuesday of each month. Visualizations are copied and pasted from the Power BI app or individual report in the workspace. The visualizations will be reviewed at the UAE metrics sync on the third Tuesday of each month and then presented to VA leadership on the third thursday of each month.
+**What it is:** These are monthly presentations that need to be prepared by the third Tuesday of each month. Visualizations are copied and pasted from the Power BI app or individual report in the workspace. These slides are used to populate the slides for [MHV monthly metrics](https://dvagov.sharepoint.com/:f:/r/sites/HealthApartment/Shared%20Documents/General/Monitoring,%20Reporting,%20and%20Feedback/Monthly%20Analytics%20presentation?csf=1&web=1&e=bvm66v) which are presented on the third Thursday of every month. These slides need to be populated by the third Tuesday most months, unless there is the possiblity that the third Thursday will occur before the third Tuesday. The visualizations will be reviewed at the UAE metrics sync on the third Tuesday of each month and then presented to VA leadership on the third thursday of each month.
 
 **How to update**
 The visualizations used in the metrics portions are generated in Power BI in the above workspace. There are some that require manual updating in the excel file [IVC Metrics](https://dvagov.sharepoint.com/:f:/r/sites/HealthApartment/Shared%20Documents/Appointments/IVC%20Monthly%20Demo/Metrics%20Data?csf=1&web=1&e=8zYUTO), but the rest are updated automatically from underlying Power BI models. After updating the metrics in the excel file, you can refresh this model by selecting refresh on the [Power BI page](https://app.powerbigov.us/groups/579eff14-3a9e-45e6-8cde-6770ee9ae2e4/datasets/c59f1df0-01c5-45de-9213-0d06ea2395dd/details?ctid=e95f1b23-abaf-45ee-821d-b7ab251ab3bf) for the model. After refreshing this model, the visualizations will update in the appropriate report. For any questions, please contact Tyler Spangler. Additionally, if there are any additional requests for visualization or metrics, please notify Tyler Spangler ahead of time to allow time to prepare new slides.
