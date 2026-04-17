@@ -38,6 +38,7 @@ Each individual component includes:
         - [ID.me](https://depo-platform-documentation.scrollhelp.site/developer-docs/id-me)
         - [Master Person Index (MPI)](https://depo-platform-documentation.scrollhelp.site/developer-docs/mvi)
         - [SSOe (Single Sign-on External)](https://depo-platform-documentation.scrollhelp.site/developer-docs/ssoe)
+    - [Identity policies](https://github.com/department-of-veterans-affairs/va.gov-team/blob/470b2ba8c4c6c1b7cf168737755ce2607fc92954/products/identity/Products/Design%20Documents/UserAttribute_Rules.md)
     - [Security](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams/vsp/teams/Identity/Documentation/Security)
         - [Security policies and compliance](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Policies%20and%20Procedures)
         - [Logging and monitoring](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams/vsp/teams/Identity/Documentation/Logging_Monitoring)
