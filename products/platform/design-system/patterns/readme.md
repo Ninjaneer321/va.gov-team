@@ -1,4 +1,4 @@
-# VA Patterns Library
+# VA Patterns Library 2025 - 2026
 
 ## Overview
 The VA Patterns Library documents repeatable solutions for multi-component user flows on VA.gov — patterns like prefill, eligibility prompts, service history, multiple-response sets, and file inputs. Patterns sit one level above components: they combine design-system components, content standards, and interaction rules into a proven solution teams can reuse rather than reinvent.
@@ -8,7 +8,9 @@ The VA Patterns Library documents repeatable solutions for multi-component user 
 |---|---|---|---|
 | **Prefill Pattern** | The prefill pattern tells Veterans where their information is coming from, what they can edit, and how to update what they can't. These examples make it easier to implement correctly the first time. **NOTE:** Follow `international-phone-number` channel — we have not enabled the international phone number yet, since VA Profile can't accept it at this time.<br><br>• [Prefill – Minimal workflow](#): Shows the prefill pattern using the minimal header/footer template.<br>• [Prefill – Standard header/footer](#): Shows the full authenticated experience with the standard VA.gov introduction page. | April 2026 | 📖 [Pattern guidance](#) \| [Update the prefilled information guidance](#) <br> 💻 [Code (Forms library)](#) |
 | **Multi file upload with document type array builder pattern** | This pattern is intended for scenarios where Veterans need to upload supporting documents and associate each file with a specific document type — such as a DD-214, birth certificate, or discharge papers. This is guidance only. There is no pre-built coded pattern at this time. Teams can implement this pattern today using a combination of the Array Builder pattern and the Single file input component.<br><br>**Examples** — See this pattern in action in the mock form:<br>• [Supporting documents — Required](#)<br>• [Supporting documents — Optional](#) | April 2026 | _Guidance only — no pre-built coded pattern._ |
-| **Branch of Service** |  |  | — |
+| **Form Submitter Pattern** | Guidance only: This pattern helps determine two things: who is filling out the form (the person typing or writing) and who the form is about (the person who will get the benefits). Sometimes these are the same person and sometimes they are different. | January 2026 | — |
+| **Branch of Service** `serviceBranchPattern` | Standardizes how Veterans select their military branch, improving data accuracy and form consistency across VA.gov applications. | October 2025 | — |
+| **Tabs** `va-tabs` | Updated tab design requested by the Claim Status Tool team to fix a 508 defect where tab items were styled as links without keyboard functionality. | September 2025 | [Guidance](#) \| [Figma](#) \| [Storybook](#) |
 
 
 
