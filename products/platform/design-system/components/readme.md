@@ -22,6 +22,7 @@ The VA Component Library is the set of accessible, reusable UI components that V
 | **Segmented Button** `va-button-segmented` | Creates intuitive navigation allowing users to access related content sections without leaving their current context. | July 2025 | [Guidance](#) \| [Figma](#) \| [Storybook](#) |
 | **Search Filter** `va-search-filter` | Improves content findability by letting users filter content, reducing cognitive burden. Addresses Veteran feedback on poor findability. | June 23, 2025 | [Guidance](#) \| [Figma](#) \| [Storybook](#) |
 | **International Phone** `va-telephone-input` | Enables support for international phone numbers across VA.gov, improving accessibility and usability for Veterans outside the US. | June 12, 2025 | [Guidance](#) \| [Figma](#) \| [Storybook](#) |
+| **Tabs** `va-tabs` | Updated tab design requested by the Claim Status Tool team to fix a 508 defect where tab items were styled as links without keyboard functionality. | September 2025 | [Guidance](#) \| [Figma](#) \| [Storybook](#) |
 
 ---
 
