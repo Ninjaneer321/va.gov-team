@@ -1,4 +1,4 @@
-# VA Component Library 
+# VA Component Library 2025  - 2026
 Team: Design & Forms Systems | VA.gov Platform
 
 ## Overview
@@ -18,9 +18,6 @@ The VA Component Library is the set of accessible, reusable UI components that V
 | **Card Error State** `va-card-status` | Provides consistent, accessible visual and programmatic alerts when card information is missing or invalid. | February 2026 | [Guidance](#) \| [Figma](#) \| [Storybook](#) |
 | **Colored Tags** `va-tag-status` | Adds visual hierarchy and semantic meaning to staff-facing apps, aligned with VADS Alert color conventions to improve data scanning efficiency. | February 2026 | [Guidance](#) \| [Figma](#) \| [Storybook](#) |
 | **Sort** `va-sort` | Enables users to organize and reorder information (search results, lists, data sets) to find relevant content quickly. | February 2026 | [Guidance](#) \| [Figma](#) \| [Storybook](#) |
-| **Form Submitter Pattern** | Guidance only: This pattern helps determine two things: who is filling out the form (the person typing or writing) and who the form is about (the person who will get the benefits). Sometimes these are the same person and sometimes they are different. | January 2026 | — |
-| **Branch of Service** `serviceBranchPattern` | Standardizes how Veterans select their military branch, improving data accuracy and form consistency across VA.gov applications. | October 2025 | — |
-| **Tabs** `va-tabs` | Updated tab design requested by the Claim Status Tool team to fix a 508 defect where tab items were styled as links without keyboard functionality. | September 2025 | [Guidance](#) \| [Figma](#) \| [Storybook](#) |
 | **Side Navigation** `va-sidenav` | Provides consistent, accessible, responsive side navigation between major sections. Added to support IIR team's child nav item on va.gov/profile. | August 2025 | [Guidance](#) \| [Figma](#) \| [Storybook](#) |
 | **Segmented Button** `va-button-segmented` | Creates intuitive navigation allowing users to access related content sections without leaving their current context. | July 2025 | [Guidance](#) \| [Figma](#) \| [Storybook](#) |
 | **Search Filter** `va-search-filter` | Improves content findability by letting users filter content, reducing cognitive burden. Addresses Veteran feedback on poor findability. | June 23, 2025 | [Guidance](#) \| [Figma](#) \| [Storybook](#) |
