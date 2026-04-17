@@ -107,18 +107,23 @@ the files.
 
 The following table demonstrates a low-level breakdown of the work that should ultimately evolve into tickets that are workable by the team.
 
-_Medium Confidence Anticipated Level of Effort: 2 Sprints, 2 engineers_
+_Medium Confidence Anticipated Level of Effort: 3 Sprints, 2 engineers_
 
-| Number | Title                                                                    | Description | Special Notes |
-| ------ | ------------------------------------------------------------------------ | ----------- | ------------- |
-| 1      | Prepare Security & Engineering Checklist                                 | --          | --            |
-| 2      | Create feature flag - disability_526_bdd_sha_document_validation_enabled | --          |
-| 3      | Update vets-json-schema for new form id parameter                        | --          | --            |
-| 4      | Update vets-api to use new form id parameter to validate document        | --          | --            |
-| 5      | Update vets-website to pass new form id and render alert - low-fidelity  | --          | --            |
-| 6      | Update vets-website to utilize high-fidelity mockups                     | --          | --            |
-| 7      | Bug bash                                                                 | --          | --            |
-| 8      | Fixes from bug bash (Allocate 3 stories)                                 | --          | --            |
+| Number | Title                                                                    | Description | Special Notes                                                                                 |
+| ------ | ------------------------------------------------------------------------ | ----------- | --------------------------------------------------------------------------------------------- |
+| 1      | Prepare Security & Engineering Checklist                                 | --          | --                                                                                            |
+| 2      | Create feature flag - disability_526_bdd_sha_document_validation_enabled | --          | --                                                                                            |
+| 3      | Update vets-json-schema for new form id parameter                        | --          | Platform review here; account for extra time to wait.                                         |
+| 4      | Update vets-api to use new form id parameter to validate document        | --          | Ensure Swagger is updated as well                                                             |
+| 5      | Update vets-website to pass new form id and render alert - low-fidelity  | --          | Adjusting the payload behind the feature flag and Form System file input is a little awkward. |
+| 6      | Update vets-website to utilize high-fidelity mockups                     | --          | --                                                                                            |
+| 7      | Update vets-website for DataDog RUM                                      | --          | --                                                                                            |
+| 8      | Bug bash                                                                 | --          | --                                                                                            |
+| 9      | Fixes from bug bash (Allocate 3 stories)                                 | --          | --                                                                                            |
+| 10     | Accessibility tests                                                      | --          | --                                                                                            |
+| 11     | Staging Review                                                           | --          | --                                                                                            |
+| 12     | Prepare release plan                                                     | --          | --                                                                                            |
+| 13     | Start staggered release                                                  | --          | --                                                                                            |
 
 # **Out of Scope**
 
@@ -371,4 +376,10 @@ Add OCR-based document validation to the Form 21-526EZ BDD SHA upload flow. When
 
 ---
 
-  </details>
+</details>
+
+## Initial Implementation
+
+- [vets-json-schema](https://github.com/department-of-veterans-affairs/vets-json-schema/compare/bdd-sha-document-validation?expand=1)
+- [vets-api](https://github.com/department-of-veterans-affairs/vets-api/compare/bdd-sha-document-validation?expand=1)
+- [vets-website](https://github.com/department-of-veterans-affairs/vets-website/compare/bdd-sha-document-validation?expand=1)
