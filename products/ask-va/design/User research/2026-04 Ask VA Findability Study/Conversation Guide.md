@@ -74,6 +74,10 @@ Thanks for joining us today\! My name is **Elena**. I have my teammate, Danielle
 Before we look at the website, let’s start with a couple warm-up questions.
 
 1. Tell us a little bit more about yourself. Where you're located, what branch of the military you served, and how long have you been a Veteran?
+2. Assistive Tech Users:
+   - What assistive technology are you using right now?
+   - How many years have you been using assistive technology?
+   - When or how often do you use it?
 3. In the initial survey, you indicated that you use VA benefits. Can you tell me more about which VA benefits you're actively using?   
 4. Tell me about a time that you had to get in touch with someone at the VA for support in the last year.
    - How did you get in contact with someone?
