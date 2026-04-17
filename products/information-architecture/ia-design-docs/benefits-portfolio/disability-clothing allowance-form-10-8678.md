@@ -44,12 +44,10 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - [Title tags](https://design.va.gov/content-style-guide/title-tags)
   
 **1) Page name - Existing PDF form**
-- URL: (https://www.va.gov/forms/10-8678/)
-- H1: About VA Form 10-8678
-- Sub-heading: Application for Annual Clothing Allowance
-- Breadcrumb: VA.gov> homeVA> forms> About VA Form 10-8678
-- Browser title: [H1 of introduction page in title case] | Veterans Affairs
-    - [insert title] | Veterans Affairs
+- URL: (https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-8678.pdf)
+- H1: APPLICATION FOR ANNUAL CLOTHING ALLOWANCE
+- Sub-heading: N/A
+- Breadcrumb: Non on the PDF form. The breadcrumb for the previous page is VA.gov> homeVA> forms> About VA Form 10-8678
 - Notes: The imformation above is for the form details page. The actual form is a PDF and can be found here https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-8678.pdf
 
 **2) Page name - New**
@@ -57,8 +55,6 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - H1: Apply for annual clothing allowance
 - Sub-heading: Form 10-8678
 - Breadcrumb: VA.gov home &gt; VA forms &gt; Application for annual clothing allowance &gt; Apply for annual clothing allowance online
-- Browser title: [Apply for Annual Clothing Allowance] | Veterans Affairs 
-    - [insert title] | Veterans Affairs
 - Notes: 
 
 **Structuring URLs for individual pages within the form flows**
