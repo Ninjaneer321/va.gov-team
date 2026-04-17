@@ -67,7 +67,7 @@ Each individual component includes:
 | -- Tokens and sessions | John B. |
 | -- My HealtheVet account creation API | TBD |
 | -- UserModel | John B. |
-| - Security policies and compliance | Joe |
+| - Identity policies | Joe |
 | - STS integrations | John B. |
 | - Sign-in Service (SiS) | John B. |
 | - External integrations | Trevor |
