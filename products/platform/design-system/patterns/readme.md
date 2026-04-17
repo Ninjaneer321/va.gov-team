@@ -74,39 +74,20 @@ Maps to FY26 Design & Forms Systems OKRs:
 - 🔄 Obj 2 (Operate products with high reliability and security) — shared a11y/content guidance reduces defects
 
 ## Assumptions
-1. **Assuming** teams will reuse patterns when they are discoverable and current. **If wrong:** invest more in adoption and evangelism.
-2. **Assuming** Forms Library and component library remain stable sources of truth. **If wrong:** pattern maintenance cost rises.
-3. **Assuming** Veteran research on existing patterns remains valid. **If wrong:** refresh research cadence increases.
-
+1. **Assuming** teams will reuse patterns when they are discoverable and current. 
+2. **Assuming** Forms Library and component library remain stable sources of truth. 
+3. **Assuming** Veteran research on existing patterns remains valid.
 ## Solution Approach
 
 ### What we built (or: What this product does)
-Published pattern docs (based on files in the `patterns/` folder):
+Published pattern docs:
 - Multiple Responses
 - Prefill
 - Service History
 - Eligibility
 - va-file-input (file input pattern)
 
-
-### What we're building next
-- TBD — confirm next-quarter pattern roadmap with Tricia Baker / Robert Hassell
-
-
-### How this solution evolves
-Patterns are drafted, reviewed with stakeholders, published on design.va.gov, and revisited each quarter for accuracy. Breaking changes are announced in release notes.
-
-### Supporting Research
-- Pattern-specific docs under `patterns/` (Multiple Responses, Prefill, Service History, eligibility, va-file-input)
-- TBD — add links to user research tickets and VA.gov analytics
-
-
-## Launch Strategy
-New or revised patterns are announced in #platform-design-system and included in DS release notes. Major patterns get a walkthrough at the DSD community-of-practice sync.
-
-## Launch Dates
-Ongoing. Individual pattern launch dates live in `release_notes.md`.
-
+c.
 
 
 #### Communications
@@ -125,6 +106,6 @@ Ongoing. Individual pattern launch dates live in `release_notes.md`.
 #### Stakeholders
 - All VA.gov product teams using multi-component flows
 - Forms Library consumers
-- VA accessibility office
+- VA ADE - accessibility office
 - CIA (content standards)
 
