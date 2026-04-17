@@ -53,7 +53,7 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - Breadcrumb: VA.gov home › VA forms › Apply for apportionment of beneficiary’s award > Apply for apportionment of beneficiary’s award online
 - Browser title: [H1 of introduction page in title case] | Veterans Affairs
     - Apply for apportionment of beneficiary’s award | Veterans Affairs
-- Notes: “Apportionment” is visually similar to “appointment,” making it a paronym that can cause misreading, especially when scanned quickly or viewed on mobile. While there’s no current VADS guidance on paronyms, it may still be worth considering a slight language. “Beneficiary’s award” is also more legalistic,  using “disability award,” which already appears in the PDF summary, may offer clearer  wording.
+- Notes: “Apportionment” is visually similar to “appointment,” making it a paronym that can cause misreading, especially when scanned quickly or viewed on mobile. While there’s no current VADS guidance on paronyms, it may still be worth considering a slight language adjustment. “Beneficiary’s award” is also more legalistic, using “disability award,” which already appears in the PDF summary, may offer clearer wording.
 
 **Structuring URLs for individual pages within the form flows**
 - All pages within form flows will exist as child pages of the core/canonical URL.
