@@ -4,19 +4,12 @@
 The VA Patterns Library documents repeatable solutions for multi-component user flows on VA.gov — patterns like prefill, eligibility prompts, service history, multiple-response sets, and file inputs. Patterns sit one level above components: they combine design-system components, content standards, and interaction rules into a proven solution teams can reuse rather than reinvent.
 
 
-## Released:
-## April 2026 - Prefill Pattern
-
-- Prefill Pattern Mock Form Examples Now on Staging and ready to implement in your authenticated form
-
-### We’ve published two mock form examples to help teams implement the Know when their information is prefilled pattern
-
-
- - Prefill – [Minimal workflow](https://staging.va.gov/mock-form-minimal-prefill/introduction) : Shows the prefill pattern using the minimal header/footer template.
- - Prefill – [Standard header/footer:](https://staging.va.gov/mock-form-prefill/introduction) Shows the full authenticated experience with the standard VA.gov introduction page
- - Sign in with any staging user to see the authenticated prefill experience.
-
-- Why it matters: The prefill pattern tells Veterans where their information is coming from, what they can edit, and how to update what they can’t. These examples make it easier to implement correctly the first time.
+| Component / Pattern | Description | Release Date | Links |
+|---|---|---|---|
+| **Prefill Pattern** | The prefill pattern tells Veterans where their information is coming from, what they can edit, and how to update what they can't. These examples make it easier to implement correctly the first time. **NOTE:** Follow `international-phone-number` channel — we have not enabled the international phone number yet, since VA Profile can't accept it at this time.<br><br>• [Prefill – Minimal workflow](#): Shows the prefill pattern using the minimal header/footer template.<br>• [Prefill – Standard header/footer](#): Shows the full authenticated experience with the standard VA.gov introduction page. | April 2026 | 📖 [Pattern guidance](#) \| [Update the prefilled information guidance](#) <br> 💻 [Code (Forms library)](#) |
+| **Multi file upload with document type array builder pattern** | This pattern is intended for scenarios where Veterans need to upload supporting documents and associate each file with a specific document type — such as a DD-214, birth certificate, or discharge papers. This is guidance only. There is no pre-built coded pattern at this time. Teams can implement this pattern today using a combination of the Array Builder pattern and the Single file input component.<br><br>**Examples** — See this pattern in action in the mock form:<br>• [Supporting documents — Required](#)<br>• [Supporting documents — Optional](#) | April 2026 | _Guidance only — no pre-built coded pattern._ |
+| **Prefill Pattern** | Reduces form completion burden by pre-populating known Veteran information from their VA profile, with accessible error handling when data is missing or invalid. | March 2026 | — |
+| **Details** `va-details` | Reveals optional, supporting information that isn't required for most users to complete a task. It is used to provide plain language help at the point where it is most relevant. | April 2026 | [Guidance](#) \| [Figma](#) \| [Storybook](#) |
 
 
 
