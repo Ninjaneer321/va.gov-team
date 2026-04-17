@@ -98,14 +98,14 @@ We are making several front-end architectural changes to the medications product
 * PO sync: [Date TBD]
 * Architecture review: [Date TBD]
 * Midpoint review: [Date TBD]
-* Staging review: [Date TBD]
+* Staging review: [April 23, 2026]
 
 ### Launch plan
 * [Release plan documented here] - [_make copy of this .md file and draft release plan_](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/release-plan-template.md)
 
 **Timeline for release**
 * **Target launch date**: March 31, 2026
-* **Actual launch date**: TBD
+* **Actual launch date**: May 4, 2026
 
 ## Additional resources
 * Figma Designs: [linked](https://www.figma.com/design/VunyfNQ9x7Bt58D9B2qnW5/%F0%9F%92%A1-Working-file--MHV-Medications---Devices-?node-id=6299-8780&p=f&t=pKPeR79R5PbD23z0-0)
