@@ -88,6 +88,30 @@ Main takeaways from the research sessions
 - Ultimately happy with the prototype, despite a lot of feedback and passionate opinions regarding champva process
 
 
+### P07
+**UX Notetaker:**
+- Wants to know what to do and when: expects email updates, timeline estimates, being able to see ineligibility reason
+- Was confused when uploading the file - but maybe just because of the animation? He was clicking in the upload box to "choose file" and in real life that would have prompted him to choose a file from his device. Need to check video to confirm. Also wasn't sure if the success alert meant the file submission was successful - tried to do it a second time
+- Thought "request to add or remove a dependent" was a CHAMPVA card - then had to be prompted to find the CHAMPVA card. Even when finding it under the closed tab, thought the CHAMPVA card referred to Jane's closed application and the "request to add" card referred to John Doe Jr's
+- Some amount of the confusion wouldn't have happened in real life if he was the person to fill out the application prior (i.e. he would have known that he was applying for 2 people, would have filled out a "request to add or remove dependent" themself in order for it to show up on MyVA). 
+
+**UX Lead:**
+- User was extremely confused about the upload of a document. Didn't alway seem sure of what to click or what was happening.
+- There was confusion around the selection of a beneficiary and belief the selecting one with the checkbox started focusing the entire experience on that person alone.
+- A lot of confusion around the dependent status card in and belief it was connected to CHAMPVA status. Completed missed finding the closed application.
+- Strong desire for email or notifications with clear timelines on how long things should take.
+- Wants explanation of exactly why on denial to take action because beginning an appeal doesn't make sense if they don't understand what's wrong.
+
+**Observer 1:**
+- Seemed to generally understand the difference between the Claims and Forms sections on My VA
+- Process seemed to feel more confusing the deeper you get into it
+- My VA card was understandable, until it went away - then participant was wondering where it went and what the status was
+
+**Observer 2:**
+- Change file link was a big hang up for him he is expected to see something simpler like attach file
+- There was a lot of confusion on where to check on CHAMPVA application. Took awhile to see the track link. Interesting that he gave this a 4
+- Was not clear to him to check other tabs to determine status of application was closed
+- Easy access to letters acknowledging why someone would be ineligible would be expected.
 
 ### P08
 **UX Notetaker:**
@@ -105,7 +129,31 @@ Main takeaways from the research sessions
 **Observer 2:**
 
 
+### P09
+**UX Notetaker:**
+- Would expect email in addition to the VA's "formal letters
+- Skims over the mail and fax options, wouldn't even consider them. Is the second participant confused by "how to confirm we've received your documents" (the other was P3??). When someone is zoomed in, it isn't clear that it's a subsection describing what you can do after submitting by mail or fax
+- Navigated easily until Scenario 3, when they thought "request to add or remove a dependent" was representing John Doe Jr.'s incomplete application
+- Magic wand: would want something like the UPS tracker to know where they are in the process, estimated timing of "when things would arrive". Would want a sense of progress, even if it's a false sense of progress
 
+**UX Lead:**
+- User was easily able to submit files and take action when required.
+- User was not able to find Johns application denial status without redirect
+- User felt some of the information was redundant one some pages but it wasn't necessarily a bad thing.
+- User was confused about the add or remove dependent card and assumed it had to do with the CHAMPVA application or something based on the birth certificate upload
+- User desires "UPS" like timeline on the application to know timing and status of the application - even if not completely accurate. The timeline provides confidence progress is being made
+- User mentioned email notification that would drive action if items are needed.
+
+**Observer 1:**
+- "the phrasing of review request is a little bit odd"
+- "Timeline- Knowing the status steps aren't that helpful as far as I imagine the reason why people place these on websites is to give Veterans, the sense that, okay, something is happening, and you're giving a sense that you're tracking where you are in your application, but… Um, it doesn't really indicate… like, timeline as far as how long before you're likely to receive a decision"
+- "I was a little bit confused earlier, so… because we're looking to CHAMPVA benefits, and so I thought that each I thought that each box represented the two different CHAMPVA applications, but… noticing and realizing that this is actually… Just one application. Uh, for both family members, so I didn't realize it was just a single application"
+
+**Observer 2:**
+- the "add or remove dependents" card is very confusing
+- thought there was some redundancy between the "check status here" link on the card and the single link to track all claims and benefits
+- no issue with file upload section
+- timeline was a big thing for him, a bit more so than where the application progress/step was
 
 ### P0X
 **UX Notetaker:**
