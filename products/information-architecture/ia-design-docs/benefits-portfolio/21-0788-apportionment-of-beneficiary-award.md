@@ -37,7 +37,7 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - [Breadcrumbs](https://design.va.gov/components/breadcrumbs)
 - [Title tags](https://design.va.gov/content-style-guide/title-tags)
 
-**1) Page name - Existing**
+**1) About VA Form 21-0788 - Existing**
 - URL: https://www.va.gov/forms/21-0788/
 - H1: About VA Form 21-0788
 - Sub-heading: Information Regarding Apportionment of Beneficiary's Award
@@ -46,14 +46,14 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
     - About VA Form 21-0788 | Veterans Affairs
 - Notes: The imformation above is for the form details page. The actual form is a PDF and can be found here https://www.vba.va.gov/pubs/forms/VBA-21-0788-ARE.pdf
 
-**2) Page name - Existing/New**
-- URL:
-- H1:
-- Sub-heading:
-- Breadcrumb:
+**2) Page name - New**
+- URL: https://www.va.gov/forms/21-0788/apply-apportionment-beneficiarys-award 
+- H1: Apply for apportionment of a beneficiary’s award
+- Sub-heading: Complete Form 21‑0788 online
+- Breadcrumb: VA.gov home › VA forms › Apply for apportionment of beneficiary’s award > Apply for apportionment of beneficiary’s award online
 - Browser title: [H1 of introduction page in title case] | Veterans Affairs
-    - [insert title] | Veterans Affairs
-- Notes: 
+    - Apply for apportionment of beneficiary’s award | Veterans Affairs
+- Notes: “Apportionment” is visually similar to “appointment,” making it a paronym that can cause misreading, especially when scanned quickly or viewed on mobile. While there’s no current VADS guidance on paronyms, it may still be worth considering a slight language. “Beneficiary’s award” is also more legalistic,  using “disability award,” which already appears in the PDF summary, may offer clearer  wording.
 
 **Structuring URLs for individual pages within the form flows**
 - All pages within form flows will exist as child pages of the core/canonical URL.
