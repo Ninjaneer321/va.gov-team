@@ -77,7 +77,7 @@ Teams must launch with at least one entry point that allows site visitors to nav
 
 ### Required entry point(s)
 
-1. **[About Form 10-8678 (https://www.va.gov/forms/10-8678/)]**
+1. **[About Form 10-8678](https://www.va.gov/forms/10-8678/)**
   - Placement description: 
   - Link details
     - Link label: 
