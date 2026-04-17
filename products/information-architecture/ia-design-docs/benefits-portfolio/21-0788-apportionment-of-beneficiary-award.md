@@ -37,13 +37,13 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - [Breadcrumbs](https://design.va.gov/components/breadcrumbs)
 - [Title tags](https://design.va.gov/content-style-guide/title-tags)
 
-**1) Page name - Existing/New**
-- URL:
-- H1:
-- Sub-heading:
-- Breadcrumb:
+**1) Page name - Existing**
+- URL: https://www.va.gov/forms/21-0788/
+- H1: About VA Form 21-0788
+- Sub-heading: Information Regarding Apportionment of Beneficiary's Award
+- Breadcrumb: VA.gov home > VA forms > About VA Form 21-0788
 - Browser title: [H1 of introduction page in title case] | Veterans Affairs
-    - [insert title] | Veterans Affairs
+    - About VA Form 21-0788 | Veterans Affairs
 - Notes: 
 
 **2) Page name - Existing/New**
