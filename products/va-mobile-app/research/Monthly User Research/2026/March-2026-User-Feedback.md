@@ -1,8 +1,21 @@
-# Apple App Store & Google Play Store Feedback from the VA Health & Benefits App — March, 2026
+# VA Health & Benefits App — March 2026 User Feedback
+
+## Data sources
+
+This document combines two channels:
+
+| Source | What it includes |
+|--------|------------------|
+| **Apple App Store and Google Play Store** | March 2026 public reviews with star ratings (1–5) and review text. Quantitative tables and store-only summaries below apply to this source unless labeled otherwise. |
+| **Mobile app email inbox** | Qualitative messages sent to the mobile app team by email in March 2026 (**6** in this period). These are **not** star-rated; themes and quotes from email are integrated below and are **not** included in store rating tables. |
+
+---
 
 ## Summary
 
-Feedback includes 347 total responses, each with a rating of 1–5. Ratings of 1–2 are considered negative, 3 represents neutral, and 4–5 are positive.
+### App Store and Google Play (quantitative)
+
+Feedback includes **347** store responses, each with a rating of 1–5. Ratings of 1–2 are considered negative, 3 represents neutral, and 4–5 are positive.
 
 ### Overall Distribution of Ratings
 
@@ -20,15 +33,17 @@ _Note: General feedback includes responses that reflect Veteran experiences with
 
 ### Summary of Overall Feedback
 
-The majority of Veterans rated the VA Health & Benefits mobile app highly and described it positively as convenient, easy to use, and helpful for prescriptions, appointments, messaging, and travel claims.
+**App stores:** The majority of Veterans rated the VA Health & Benefits mobile app highly and described it positively as convenient, easy to use, and helpful for prescriptions, appointments, messaging, and travel claims.
 
 Negative feedback remains a minority but is consistent with prior months: sign-in friction (ID.me loops, biometrics not sticking, repeated verification), prescription-related regressions after updates (refill or fill dates showing as unavailable, loss of tracking visibility), and gaps in appointment detail (provider, clinic, purpose, room). Messaging drew criticism for stale threads in the app compared to the website, failed sends, and compose UX (for example, save vs. send placement). Several reviewers asked to pay copays or medical bills in the app or noted the app feels limited compared to VA.gov.
+
+**Mobile app email (6 messages):** The same themes appeared—ID.me verification followed by return to the sign-in screen (including a multi-month case on Samsung A14 / Android 15, and an Android case where redirect to VA.gov looped back to login while the same user’s iPad worked), loss of prescription tracking when opening tracked prescriptions (Samsung Galaxy S22), a question about **how to set up access** to submit travel pay claims, and difficulty **turning on location services** for the app.
 
 Suggestions for improvement include restoring reliable refill and fill-date display, reducing login steps, surfacing full appointment context, improving secure messaging parity with the web, and adding billing or payment paths where Veterans expect them.
 
 ---
 
-## Positive
+## App Store and Google Play — Positive
 
 | Rating | % of ratings | # of ratings |
 |---|---|---|
@@ -36,9 +51,9 @@ Suggestions for improvement include restoring reliable refill and fill-date disp
 | = 5 | 64.3% | 223 |
 | **Total positive (4+5)** | **76.7%** | **266** |
 
-**Summary:** Positive reviews emphasized convenience, ease of navigation, and having VA health and benefits tasks in one place—including refills, secure messaging, appointments, travel claims, and letters.
+**Summary (store reviews):** Positive reviews emphasized convenience, ease of navigation, and having VA health and benefits tasks in one place—including refills, secure messaging, appointments, travel claims, and letters.
 
-**Representative responses:**
+**Representative responses (App Store / Play Store):**
 
 - "This is absolutely the best app I have ever used. It is so easy to use and helpful and extremely thoughtful all the information that I need in one place thank you everyone for helping us veterans."
 - "Super easy and simple to use. Makes it easy to see my appointments and message my care team. Love it!"
@@ -46,7 +61,7 @@ Suggestions for improvement include restoring reliable refill and fill-date disp
 
 ---
 
-## Negative
+## App Store and Google Play — Negative
 
 | Rating | % of ratings | # of ratings |
 |---|---|---|
@@ -54,9 +69,9 @@ Suggestions for improvement include restoring reliable refill and fill-date disp
 | = 2 | 3.7% | 13 |
 | **Total negative (1+2)** | **16.1%** | **56** |
 
-**Summary:** Negative responses clustered around sign-in loops and repeated authentication, prescription information missing or wrong after updates (refill dates, tracking), frustration with incomplete appointment details or booking paths, and messaging failures or outdated threads in the app.
+**Summary (store reviews):** Negative responses clustered around sign-in loops and repeated authentication, prescription information missing or wrong after updates (refill dates, tracking), frustration with incomplete appointment details or booking paths, and messaging failures or outdated threads in the app.
 
-**Representative responses:**
+**Representative responses (App Store / Play Store):**
 
 - "It seems every time I want to use the app I have to go through the process of ID.me or some other login format just to get back into the app to check anything. There is no biometric that sticks… Deleting app."
 - "Sign in with ID.me loops app back to sign in screen… It's hard to give a positive review when the app won't open."
@@ -64,15 +79,15 @@ Suggestions for improvement include restoring reliable refill and fill-date disp
 
 ---
 
-## Neutral
+## App Store and Google Play — Neutral
 
 | Rating | % of ratings | # of ratings |
 |---|---|---|
 | = 3 | 7.2% | 25 |
 
-**Summary:** Neutral feedback mixed praise for core ideas with stability and completeness concerns—sign-in still flaky, prescription workflow confusing for some, or the app not matching everything available on the website.
+**Summary (store reviews):** Neutral feedback mixed praise for core ideas with stability and completeness concerns—sign-in still flaky, prescription workflow confusing for some, or the app not matching everything available on the website.
 
-**Representative responses:**
+**Representative responses (App Store / Play Store):**
 
 - "The app works well, but please allow ‘add to calendar only’ for adding appointments to the calendar."
 - "when it works it's great. However sometimes when I try to log on it just goes back to the initial screen. it's quite annoying 😑 at times."
@@ -82,19 +97,25 @@ Suggestions for improvement include restoring reliable refill and fill-date disp
 
 ## Common Themes for Issues
 
-### 1. Login and authentication cause friction and abandonment (~27 reviews tagged Sign in; additional reviews in App overall cite similar issues)
+_Themes combine **App Store and Google Play** reviews (347) with **mobile app email** feedback (6 messages). Email content is not star-rated and does not change the store distribution tables above._
 
-Users reported ID.me and Login.gov loops back to the app sign-in screen, endless loading after verification, loss of Face ID or fingerprint convenience after OS or app updates, “Remember me” not working, and repeated text or email verification for every session.
+### 1. Login and authentication cause friction and abandonment (~27 reviews tagged Sign in; additional reviews in App overall cite similar issues; email reinforced the same patterns)
+
+Users reported ID.me and Login.gov loops back to the app sign-in screen, endless loading after verification, loss of Face ID or fingerprint convenience after OS or app updates, “Remember me” not working, and repeated text or email verification for every session. Email described verification through ID.me followed by return to sign-in (including issues persisting for months on one Android device, and a case where Android showed “redirecting to va.gov” then returned to login while the same user’s iPad still worked). A separate email asked why **location services** could not be turned on for the app—relevant to OS permissions, app settings, and support guidance.
 
 **Representative responses:**
 
 - "Convenient, however it always makes me log in and confirm via text every single time. And when I confirm my login, it just does the never-ending loading wheel."
 - "Forces me to use 2FA. ID.me code doesn't get sent 75% of the time and when it does the app cycles back to login about 75% of the time."
 - "never goes back to va.gov after verifying login credentials. can't use the app on android. what's the point?"
+- "Can't sign in to the app. I keep getting verified through ID.ME but then app returns me to sign in. This has been going on for several months now." *(mobile app email, Samsung A14, Android 15)*
+- "I am a Veteran with an account who has been able to login using the app.. it's not working and it keeps defaulting back to sign in page after authentication from ID.me." *(mobile app email)*
+- "I can't login to the app anymore… It'll go to the 'redirecting to va.gov' screen and then go right back to the login screen… The app on my iPad works just fine." *(mobile app email, Android)*
+- "Why can't I turn location services on for this APP" *(mobile app email)*
 
 **Pain point:** As a Veteran, I want to open the app and reach my health and benefits quickly, but I am blocked by authentication loops, unreliable biometrics, and repeated verification steps.
 
-**Recommendation:** Continue sign-in root-cause work (including device/OS variants), clarify error states when verification fails, and validate post-login return paths for both iOS and Android. Pair with review of “remember device” and biometric persistence after major updates.
+**Recommendation:** Continue sign-in root-cause work (including device/OS variants), clarify error states when verification fails, and validate post-login return paths for both iOS and Android. Pair with review of “remember device” and biometric persistence after major updates. Use cross-device contrasts (e.g., Android vs. iPad) from support channels to reproduce environment-specific failures. Where users cannot enable location for the app, document OS-level steps and any app requirements that depend on location.
 
 ### 2. Prescription refill dates, tracking, and display (~9 reviews with clear prescription-related problems; broader prescription discussion in 18 reviews tagged Prescriptions)
 
@@ -105,6 +126,7 @@ Multiple users said refill or fill dates disappeared or show as “Not available
 - "You can no longer see the refill date on medications. This happened with the last update… Now it says date unavailable."
 - "Please fix the subscription fill date, it no longer works and or show the fill date, quit adding extra and not TESTING the app…"
 - "Great App. But, no longer able to see tracking number. Can’t track from app to see what’s coming."
+- "When you click prescription with tracking information, the tracking information and number is no longer showing up" *(mobile app email, Samsung Galaxy S22)*
 
 **Pain point:** As a Veteran managing medications, I want accurate refill and fill dates and shipment visibility in the app, but I am blocked by missing fields, post-update regressions, or unclear status.
 
@@ -156,7 +178,7 @@ Reviewers asked to pay medical bills or prescription copays in the app, see bala
 
 ## Feature Specific Feedback
 
-_Note: Average ratings are based on reviews where the feature is mentioned in relation to the mobile app. If there is not strong evidence (fewer than ~3 relevant reviews), the field is marked NA._
+_Note: Average ratings and counts below are based on **App Store and Google Play** reviews only (star-rated). Qualitative email feedback is woven into the theme write-ups above; it is not averaged into this table._
 
 | Feature | Average Rating | # of Ratings |
 |---|---|---|
@@ -222,12 +244,13 @@ When it worked, users valued secure communication; pain points included stale th
 
 **Average rating:** 4.20 | **# of ratings:** 5
 
-Generally positive where mentioned; some users still struggled to complete claims or see appointments loaded for travel.
+Generally positive where mentioned; some users still struggled to complete claims or see appointments loaded for travel. Email included a request for clearer **setup** or access path for submitting travel pay claims.
 
 **Representative responses:**
 
 - "When I go to the va for a dr visit, as soon as I arrive I get a pop up on my phone to ask me about my travels and I fill it out on the spot."
 - "I can’t get travel pay to work for me and now I’m missing three payments because I can’t get to where I need to be."
+- "How do I set up access for submitting claims for travel pay?" *(mobile app email)*
 
 ### Medical records
 
@@ -276,7 +299,7 @@ Broad satisfaction with ease of use and consolidation of VA tasks, alongside sca
 
 ## Feature Enhancements
 
-Feature requests in March 2026 (including rows flagged as feature requests in the source data) included:
+Feature requests in March 2026 from **App Store and Play** reviews and **mobile app email** (including rows flagged as feature requests in the store export) included:
 
 - Ability to request or book appointments in the app
 - Appointment list showing provider, clinic, purpose of visit, and room or floor
@@ -291,9 +314,13 @@ Feature requests in March 2026 (including rows flagged as feature requests in th
 - Accessibility and ease of use for older Veterans (contrast, guidance, optional training)
 - Virtual visit integration and provider search in messaging (broader roadmap-style asks)
 - Claims/disability views: appeals steps, bilateral or combined ratings detail (where data supports)
+- Clearer onboarding or in-product help for **setting up access** to submit **travel pay** claims *(also raised via email)*
+- Troubleshooting guidance when users cannot enable **location services** for the app *(also raised via email)*
 
 **Representative responses:**
 
 - "Be a great update if customer could request/make appointments through the app."
 - "Also there should an option to pay your bill."
 - "WHY are there NO details on what update changes? Saying that bug fixes and improvements to app does not address exactly what and how changes are…"
+- "How do I set up access for submitting claims for travel pay?" *(mobile app email)*
+
