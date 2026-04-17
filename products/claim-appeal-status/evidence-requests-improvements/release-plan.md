@@ -88,7 +88,7 @@ _Test a larger user population to ensure larger usage patterns expose no issues.
 
 #### Planning
 
-- Length of time: 2 weeks
+- Length of time: 1 week
 - Percentage of Users: 50%
 
 #### Results
