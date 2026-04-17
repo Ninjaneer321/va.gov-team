@@ -25,7 +25,9 @@ Transferring ownership of Power BI models requires the new owner to be an Admin 
 2. [IVC Monthly Demo Metrics](https://app.powerbigov.us/groups/579eff14-3a9e-45e6-8cde-6770ee9ae2e4/datasets/c59f1df0-01c5-45de-9213-0d06ea2395dd/details?ctid=e95f1b23-abaf-45ee-821d-b7ab251ab3bf) that has the data for updating the monthly reporting slides
 3. [UAE User Feedback](https://app.powerbigov.us/groups/579eff14-3a9e-45e6-8cde-6770ee9ae2e4/datasets/c25e0afd-5909-4532-9a52-58823890d9a2/details?ctid=e95f1b23-abaf-45ee-821d-b7ab251ab3bf) connects to the UAE User Feedback spreadsheets and visualizes feedback data
 
-To transfer ownership of these roles, after selecting on the link and going to the model page in Power BI, the user should select File -> Settings in the toolbar. ![file_settings image](image-1.png)
+To transfer ownership of these roles, after selecting on the link and going to the model page in Power BI, the user should select File -> Settings in the toolbar.
+<img width="1109" height="276" alt="file_settings" src="https://github.com/user-attachments/assets/d192f492-4753-4f83-a485-a45c70e04f20" />
+
 
 After selecting settings, there will be a new screen and at the top of the page there should be an option to Take Over in the top of the page. After taking ownership of the model, the next step will be to reconfigure the credentials. 
 
@@ -33,9 +35,11 @@ After selecting settings, there will be a new screen and at the top of the page 
 
 ## How to updated credentials and schedule refreshes?
 After taking ownership of the model, you will need to update the credentials to your own to allow for automated refreshes for the given data sources. To update credentials, you will select `Edit Credentials` and then follow the steps to sign into the specific data source with your account. This semantic model will now use your credentials for all scheduled refreshes. 
-![alt text](image-2.png)
+<img width="775" height="518" alt="edit_credentials" src="https://github.com/user-attachments/assets/3038862e-05d4-4863-9d6a-98c26328e130" />
+
 
 The final step is to ensure that the refresh schedule is current and meets the team's needs. To view the current refresh schedule, expand the `Refresh` section and review the current schedule. Update any new preferences and after updating, the new refresh schedule will take effect. Any failures will now be sent to the new semantic model owner via email. 
-![refresh schedule](image-3.png)
+<img width="853" height="726" alt="Screenshot 2026-04-17 083352" src="https://github.com/user-attachments/assets/6ee74f96-08b8-4807-b1e8-ddef64376dca" />
+
 
 ---
