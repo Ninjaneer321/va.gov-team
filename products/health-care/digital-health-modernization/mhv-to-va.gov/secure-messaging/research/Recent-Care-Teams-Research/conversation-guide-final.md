@@ -26,8 +26,8 @@
 
 ## Have these links ready
 - VA.gov | MHV: https://tinyurl.com/tw2x448m 
-- Prototype 1: https://tinyurl.com/2yxwsv6v
-- Prototype 2 https://tinyurl.com/yf6sd76b 
+- Prototype A: [https://tinyurl.com/2yxwsv6v](https://tinyurl.com/5ef7d429)
+- Prototype B: https://tinyurl.com/yf6sd76b 
 
 ---
 
@@ -254,7 +254,7 @@ Please continue thinking aloud and share anything that stands out.
 
 ### Concept A
 
-I’m going to drop a link to the first version in the chat: https://tinyurl.com/2yxwsv6v
+I’m going to drop a link to the first version in the chat: [https://tinyurl.com/2yxwsv6v](https://tinyurl.com/5ef7d429)
 Correct starting place: https://department-of-veterans-affairs.github.io/va-prototype-kit/src/prototypes/recent-care-teams-prototype-1/
 
 Scenario: Imagine you want to send a message to your patient advocate health care team at the VA Ann Arbor Healthcare System. Show me how you would find that care team and send them a message.
