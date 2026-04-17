@@ -2,8 +2,8 @@
 > This document covers both frontend (FE) and backend (BE) findings. FE owned by Stephen Willis, BE owned by Brandon Reed.
 
 Type 1 versus Type 2 Error: 
-Type 1 errors would appear to the user right away, and those would disappear if the user left and came back or refreshed their page.
-Type 2 errors would appear after some time to the user, and that alert persists on the UI for 30 days.
+- Type 1 errors would appear to the user right away, and those would disappear if the user left and came back or refreshed their page.
+- Type 2 errors would appear after some time to the user, and that alert persists on the UI for 30 days.
 
 ## #1 — Full Page Load Failure
 
