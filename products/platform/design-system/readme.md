@@ -24,49 +24,26 @@ The Design System and Forms Library are managed by the [Design & Forms Systems t
 
 ## VA Digital Experience FY 26 OKRs ## 
 
-1. **Objective 1: Optimize software delivery for Veteran impact**  
-   1.1 All C100 DSD products have a documented Product Vision, including identifying up to three Veteran-impacting KPIs, published on [Product.VA.gov](http://product.va.gov/)  
-   1.2 DSD has delivered 25 or more releases that have measurably improved a product's Veteran-impacting KPIs\*  
-   1.3 OIT has avoided at least $5 million in cost via successful decommissioning of at least 10 systems \[submitted at CIO-level\]  
+1. **Objective 1: Optimize product delivery for Veteran impact.**  
+- 1.1 100% of VES products have a documented product brief that defines a product vision, explains the problem to be solved, and sets KPIs for measuring impact of the solution.
+- 1.2 100% of VES products review and report on a quarterly basis how products are meeting and improving on target KPIs.
+- 1.3 100% of VES products have a published roadmap (updated min quarterly), and each feature on the roadmap maps to the product’s list of Veteran pain points / unmet needs (DSD 3.1) and hypothesizes the scale of impact, relative to the product’s KPIs (DSD 1.1).
 
-2. **Objective 2: Operate products with high reliability and security**  
-   2.1 All DSD C100 systems have an incident free time of 99.8 or better\*  
-   2.2 All DSD C100 systems are monitoring the 4 “golden signals” of latency, error rate, volume, and saturation  
-   2.3 All C100 systems have baselined cycle time from planning to production, and at least one C-100 system in each DSD portfolio has reduced its cycle time from planning to production by more than 50% without increasing change failure rate  
-   2.4 By 31 March 2026, 100% of existing of Systems or Applications leveraging SiteMinder integration for SSOi are migrated to Entra ID or decommissioned  
+2. **Objective 2:Operate products with high reliability and security.**  
+- 2.1 100% of VES systems monitor and report on (available to all VA) the 4 “golden signals” of latency, error rate, volume, and saturation.
+- 2.2 100% of VES systems have an incident free time of 99.8% or better.
+- 2.3 20% of VES systems evaluate a move to a continuous ATO. 
 
-3. **Objective 3: Relentlessly improve the user experience**    
-   3.1 Each OIT Portfolio will improve user experience data for impactful systems by 3% or greater\*  
-   3.2 100% of end-user facing C-100 systems maintain a ranked list of user pain points\*  
-   3.3 100% of C100 systems have delivered at least one release that directly addresses a documented user pain point with that system  
-4. **Objective 4: DSD teammates are empowered with the knowledge and resources they need to make sustained impact**  
-   4.1 More than 25% of VA employees report AI has helped them deliver better services to Veterans\*  
-   4.2 All “VA Way” delivery attributes have an adoption indicator established, baselined and communicated to DSD staff.  
-   4.3 50% of DSD staff report that a DSD Practice Group has helped them deliver better software.
+3. **Objective 3:Quantifiably improve the user experience.**    
+- 3.1 100% of VES products document a ranked list of Veteran pain points (problems) and unmet needs and quantify to what extent the need is currently met. (e.g., via impact and volume).
+- 3.2 100% of VES products measure and set a baseline for customer satisfaction (CSAT) and/or customer dissatisfaction (DSAT).
+- 3.3 75% of VES products with baseline measurably improve CSAT or DSAT from beginning to end of the OKR period.
+  
+4. **DSD teammates are empowered with the knowledge and resources they need to make sustained impact.**  
+- 4.1 100% of VES teammates identify and pilot at least one use case of AI for their products or processes.
+- 4.2 100% of VES teammates have identified and communicated to their leadership specific tactics that might help them do their job better.
+- 4.3 75% of VES teammates report feeling a positive impact on user outcomes.
 
-
-
-## Forms Library List of Products ##
-
-
- 
-## Design System Accomplishments June 2025 to Feb 2026 ##
-### Component Work ### 
-FY25 O1: VA’s digital experiences are the easiest and most efficient way to access VA health care and benefits.
- 1.1 Improve satisfaction with our web and mobile products by 5 points.
-
-FY 26 O3: Relentlessly improve the user experience**    
- 3.1 Each OIT Portfolio will improve user experience data for impactful systems by 3% or greater\*
- 
-- [Segmented Button Epic](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/4291) | Launch: July  2025  
-- [Experimental Design: Bring sidenav into the Design System](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/485#top)  |  Launch: July  2025  
-- [Experimental Design \[New tabs design\]](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/2346) |  Launch: Aug  2025  
-- [Epic: Monospace font](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/4481) | Launch: Sept 2025  
-- [Experimental Design \[Search filter pattern\]](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/3423) | Launch: Oct  2025  
-- [Experimental Design \[Colored tags\]](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/2993) | Launch: Feb 2026  
-- [Experimental Design \- Card component error state](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/4276) | Launch: Feb 2026
-- [Experimental Design \- Design Filter and Sort](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/3584) | Launch: Feb 2026
-- [Experimental Design \- Update Additional Info and Expandable Alert (va-details)](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/4817) | Launch: March 2026
 
 
 ## Problem Statements
@@ -143,6 +120,6 @@ To accelerate the creation of accessible, consistent, and Veteran-centered digit
   - Matthew Dingee, VA Product Owner,VA, matthew.dingee@va.gov
   - Megan Siddle, Progam Manager, Oddball megan.siddle@oddball.io
   - Tricia Baker, Lead Product Manager, Oddball tricia.baker@oddball.io
-  - Carol Wong, Product Manager, Oddball, carol.wong@oddball.io
   - Robert Hassell, Technical Lead Forms Library, Oddball,  robert.hasselle@oddball.io
   - Amy Leadem, Technical Lead Design System, Wilcore, amy.leadem@wilcore.io
+  - Jeana Clark, Accessibility Design Lead
