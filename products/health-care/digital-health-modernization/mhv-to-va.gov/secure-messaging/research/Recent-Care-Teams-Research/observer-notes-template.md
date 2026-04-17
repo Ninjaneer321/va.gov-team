@@ -1,66 +1,93 @@
-# Observer notes - Template
+## Observer notes template - Recent Care Teams (Messaging)  
 
-**Warm-up**
-- How do you usually communicate with them, and how often?
+Participant #:  
+Date/Time (ET):  
+First concept viewed (A or B):  
+*(Observer: please make sure to fill this in)*
+
+---
+
+### Warm-up
+- How do you usually communicate with your care team, and how often?  
+
+  
 - Around how many different care teams do you usually message?
 
----
-
-**Task 1: Log in to MHV (https://tinyurl.com/tw2x448m)**
-- Notes:
 
 ---
 
-**Task 2: Start a new message (Prod account)**  
-Now imagine you have a non-urgent question for your Patient Advocate and want to send them a message. Show me how you would go about doing that. As you go, please think aloud and tell me what you are looking at, what you are thinking, and what you expect to happen.
+## Task 1: Log in to MHV
 
-**2a. Interstitial page**  
-- Notes:
-
-**2b. Care teams you recently sent messages to**  
-- Notes:
-
-**2c. Select Care team page**  
-- Notes:
-
-**2d. Start message page (compose view)**  
-- Notes:
-
-**2e. Task 2 Wrap up**  
-- Notes:
+*Notes:* 
 
 ---
 
-**Task 3: Concept 1 (Prototpe) https://tinyurl.com/2yxwsv6v**
+## Task 2: Start a new message (Prod account)
 
-Scenario: Imagine you want to send a message to your patient advocate health care team at the VA Ann Arbor Healthcare System.  
+*Prompt:*  
+Now imagine you have a non-urgent question for your Patient Advocate and want to send them a message.  
+Show me how you would go about doing that. As you go, please think aloud and tell me what you are looking at, what you are thinking, and what you expect to happen.
+
+*Notes:* 
+- **Interstitial page:**  
+
+  
+
+- **Care teams you recently sent messages to:**  
+
+  
+
+- **Select care team page:**  
+
+  
+
+- **Start message page (compose view):**  
+
+  
+
+- **Task 2 wrap-up:**  
+
+
+---
+
+## Task 3: Concept A (no interstitial page)
+
+Scenario:  
+Imagine you want to send a message to your Patient Advocate health care team at the VA Ann Arbor Healthcare System.  
 Show me how you would find that care team and send them a message.
 
-- Notes:
+*Notes:* 
+
+### Wrap-up: Concept A
+*Notes:* 
 
 ---
 
-**Wrap up Concept 1**
-- Notes:
+## Task 4: Concept B
 
----
-
-**Task 4: Concept 2 (Prototpe) https://tinyurl.com/yf6sd76b**
-
-Scenario: Same as before. Imagine you want to send a message to your your patient advocate health care team at the VA Ann Arbor Healthcare System.  
+Scenario:  
+Same as before. Imagine you want to send a message to your Patient Advocate health care team at the VA Ann Arbor Healthcare System.  
 Show me how you would find that care team and send them a message.
 
-- Notes:
+*Notes:* 
+
+### Wrap-up: Concept B
+*Notes:* 
 
 ---
 
-**Wrap up Concept 2**
-- Notes:
-
----
-
-**Comparative reflection**
+## Concept comparative reflection
 - Thinking about the two versions you just tried, what differences stood out to you?
 - How did each version feel to use?
 - In which version did you feel more confident about what to do next? Why?
-- Notes:
+
+*Notes:* 
+
+---
+
+## General Reflection
+- Thinking back on everything you did today, how did the overall experience feel?
+- If you could change one thing about this experience, what would it be? Why?
+- Is there anything else you would like to share about your experience today that we haven’t covered?
+
+*Notes:* -
