@@ -143,3 +143,104 @@ _Medium Confidence Anticipated Level of Effort: 2 Sprints, 2 engineers_
 - [Simple Form Upload Example](https://github.com/department-of-veterans-affairs/vets-api/blob/master/lib/shrine/plugins/validate_correct_form.rb)
 
 # **Appendix**
+
+## Initial Implementation Plan
+
+<details>
+<summary>
+  Initial Implementation Plan
+</summary>
+
+## Plan: BDD SHA Document Validation Implementation
+
+**TL;DR:** Add OCR text extraction to validate SHA Part A uploads. When a veteran uploads a file to the BDD SHA page, check if the extracted text contains both "Separation Health Assessment" AND "Part A". Return validation status in the response and show a dismissible alert for invalid uploads (don't block submission). Gradual percentage-based Flipper rollout.
+
+---
+
+### Steps (5 Phases)
+
+**Phase 1: Backend Preparation** (Sprint 1, Week 1)
+
+1. Create feature flag `disability_526_bdd_sha_document_validation_enabled` (percentage-based rollout)
+2. Update vets-json-schema to add optional `expectedFormId` parameter to attachment objects
+3. Create `DocumentValidator` service (`lib/disability_compensation/validators/document_validator.rb`)
+   - Reuse MiniMagick + RTesseract pattern from validate_correct_form.rb
+   - Check for BOTH "Separation Health Assessment" AND "Part A"
+   - Return `{ valid: true/false, type: string }`
+4. Modify `UploadSupportingEvidencesController` to call validator and include `validationResult` in response JSON
+
+**Phase 2: Schema & Integration** (Sprint 1, Week 2) 5. Verify SupportingEvidenceAttachmentUploader (no changes needed) 6. Verify downstream Lighthouse integration (L1839 still flows correctly)
+
+**Phase 3: Frontend Implementation** (Sprints 1-2) 7. Update src/applications/disability-benefits/all-claims/pages/separationHealthAssessmentUploadV1.jsx
+
+- Pass `expectedFormId: 'L1839'` when feature flag enabled
+- Track `invalidFileAlertShown` and `invalidFileCount` state
+- Show dismissible alert for `validationResult.passed === false`
+- Re-show alert if new invalid file uploaded after dismissal
+
+**Phase 4: Testing & QA** (Sprint 2) 8. Unit tests: `DocumentValidator` with valid/invalid/edge-case PDFs 9. Integration tests: Upload endpoint with/without validation param & feature flag variations 10. VCR cassettes for OCR extraction 11. Manual QA: Valid SHA, invalid PDFs, multiple uploads, alert dismissal
+
+**Phase 5: Rollout & Monitoring** (Post-Sprint 2) 12. Feature flag gradual rollout: 0% → 10% (day 3) → 50% (day 7) → 100% (day 14) 13. Monitor upload metrics, form abandonment, OCR performance
+
+---
+
+### Relevant Files to Create/Modify
+
+**Backend:**
+
+- `lib/disability_compensation/validators/document_validator.rb` ← New
+- upload_supporting_evidences_controller.rb ← Modify
+- features.yml ← Add flag
+- Test files (new and updated)
+
+**Schema (vets-json-schema repo):**
+
+- `src/schemas/21-526EZ-allclaims/schema.js` ← Add `expectedFormId` param
+- `test/schemas/21-526EZ/schema.spec.js` ← Update tests
+
+**Frontend:**
+
+- src/applications/disability-benefits/all-claims/pages/separationHealthAssessmentUploadV1.jsx ← Modify
+
+---
+
+### Key Decisions Captured
+
+| Decision                | Choice                                                                                |
+| ----------------------- | ------------------------------------------------------------------------------------- |
+| Validation Criteria     | Both "Separation Health Assessment" AND "Part A" (pass silently on failure; no error) |
+| Response Contract       | Include `validationResult` in POST response (optional param = backward compatible)    |
+| Validation Speed        | Synchronous (veteran waits ~1-5 seconds for OCR result)                               |
+| Alert Behavior          | Dismissible; re-shows if new invalid file uploaded after dismissal                    |
+| Scope                   | BDD SHA only initially (L1839); optional param allows future expansion                |
+| Implementation Location | `UploadSupportingEvidencesController` (synchronous logic)                             |
+| Flipper Strategy        | Percentage-based gradual rollout (0% → 10% → 50% → 100%)                              |
+| Backward Compatibility  | `expectedFormId` is optional; existing clients unaffected                             |
+
+---
+
+### Verification Checklist
+
+- [ ] Unit tests pass for DocumentValidator (valid/invalid/edge cases)
+- [ ] Integration tests pass (backward compatibility, feature flag on/off)
+- [ ] Manual QA: Valid SHA → no alert; Invalid PDF → alert shown
+- [ ] Alert state management: dismiss + upload invalid → alert reshows
+- [ ] Downstream Lighthouse integration: L1839 still reaches veteran's eFolder correctly
+- [ ] Feature flag behavior: Flag off → validation skipped; On → validation runs
+
+---
+
+### Further Considerations
+
+1. **OCR Reliability** — Pass silently with logging if text extraction fails (some invalid uploads may slip through; monitor analytics)
+2. **Performance** — RTesseract adds up to 5 seconds per upload; consider async validation in future if throughput becomes bottleneck
+3. **Accessibility** — VaAlert component should have proper ARIA labels; confirm with accessibility specialist during PR review
+
+---
+
+**Questions before proceeding to implementation:**
+
+- Does this capture the scope and approach correctly?
+- Any adjustments to the phases, files, or validation criteria?
+- Should I clarify anything about the `invalidFileCount` persistence behavior (e.g., does the alert say "3 invalid files" or just show count silently)?
+  </details>
