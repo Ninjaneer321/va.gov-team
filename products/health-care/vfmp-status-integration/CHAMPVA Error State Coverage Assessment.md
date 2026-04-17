@@ -86,6 +86,8 @@ This one is partially covered generically but has a CHAMPVA-specific gap. Brando
 - Brandon to confirm what the BE returns when ICN lookup fails for a CHAMPVA record specifically
 - If a distinct error code is returned, FE can render a CHAMPVA-specific message like: "We're unable to match your information to a CHAMPVA application. Please call us at 800-733-8387 (TTY: 711)."
 
+filespage.jsx lines 120-129 has a potential solution for this we can review!
+
 **Product question to flag:** Is a CHAMPVA-specific identity error message in scope for Release 1 or is the generic fallback acceptable for now?
 
 ---
