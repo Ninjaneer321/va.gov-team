@@ -78,13 +78,13 @@ Teams must launch with at least one entry point that allows site visitors to nav
 ### Required entry point(s)
 
 1. **[About Form 10-8678](https://www.va.gov/forms/10-8678/)**
-  - Placement description: 
+  - Placement description: On page link
   - Link details
-    - Link label: 
-    - Link destination: 
+    - Link label: Apply for Annual Clothing Allowance Online
+    - Link destination: hhtps://www.va.gov/forms/10-8678/apply-annual-clothing-allowance
   - Notes:
-    - Who will update (IA, content, product team):
-    - When will this entry point go live (at launch? After staged rollout? after some designated time?):
+    - Who will update (IA, content, product team): Content
+    - When will this entry point go live (at launch? After staged rollout? after some designated time?): At launch
    
 **Note: If the form will be released incrementally (aka not at 100%) or if the launch plan includes taking the form down temporarily after launch to check submission quality, a widget will be required. This requires coordination between the product engineer to create the widget and content to provide text for the widget. This can take some time. Please plan for at least 2 weeks ahead of staging review.**
 
