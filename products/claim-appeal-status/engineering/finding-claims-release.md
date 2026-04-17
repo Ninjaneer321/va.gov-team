@@ -18,7 +18,7 @@ Based on seven-day comparison: Mar 25-31 (pre-release baseline) vs Apr 8-14 (fir
 - **Pagination**: -44.48%. The In progress filter narrows the default list, reducing the need to paginate past page 1. Absolute numbers are small (~1,176 sessions post-release).
 - **"Your claim letters" OTP clicks**: -15.22%. For users with closed claims, the In progress filter shows fewer cards, moving the Claim Letters section physically closer to the top of the page. Users don't need the On This Page shortcut when the section is already visible without scrolling. (The inverse signal -- +38.35% increase in direct claim letters navigation -- confirms this; see Increases below.)
 
-### Increases
+### Increases -- root causes identified
 
 - **page_view**: +32.22% on flat traffic (~220k extra views). A bug: the filter click handler called `navigate(pathname)` unconditionally, and vets-website auto-tracks SPA route changes as page views. Each filter click fired a duplicate same-URL pageview. The ~220k extra views align with the ~200k total filter clicks. Fixed in vets-website PR [#44088](https://github.com/department-of-veterans-affairs/vets-website/pull/44088); expect counts to drop back toward baseline once deployed.
 - **Self-navigation**: ~900% increase in views (combined ~217k vs ~22k). Same bug -- each same-URL navigation produced a pageview whose referrer was also `/track-claims/your-claims`, which GA counts as self-navigation. This accounts for ~99% of total outbound-views growth. Fixed in PR #44088.
@@ -42,7 +42,7 @@ Users who navigate to `/track-claims/your-claims` with only closed claims (e.g.,
 - [x] Collect full 7-day comparison -- Mar 25-31 vs Apr 8-14 report added below.
 - [x] Collect full 7-day Datadog RUM frustration comparison -- Mar 25-31 vs Apr 8-14 report added below.
 - [ ] Continue monitoring frustration rate; investigate via session replays if the rate doesn't normalize within 2-3 weeks
-- [ ] Add a post-#44088 row to the page_view / self-navigation tables to confirm the expected drop
+- [x] Add a post-#44088 report to confirm the expected drop -- Apr 16 partial-day comparison added below shows the bug-driven metrics halved as predicted. Full-day Apr 17 vs Mar 27 comparison is the next step.
 
 ## Google Analytics Release Monitoring
 
@@ -242,6 +242,66 @@ The +38.35% increase in claim letters navigation is expected. For users with clo
 
 ---
 
+### Report: March 26 vs April 16
+
+> **Partial-day data.** Vets-website PR [#44088](https://github.com/department-of-veterans-affairs/vets-website/pull/44088) deployed Apr 16 at ~1:00 PM ET. This comparison captures a single day in which roughly the first half was pre-fix (bug active, pageview inflation present) and the second half was post-fix (bug resolved). This will be superseded by an Apr 17 vs Mar 27 full-day comparison once Apr 17 data is complete.
+
+Primary goal: verify PR #44088 is reducing the page_view and self-navigation inflation without breaking other metrics.
+
+**Traffic baseline**:
+
+| Metric | Mar 26 | Apr 16 | Change |
+|---|---|---|---|
+| Active users | 51,753 | 52,660 | +1.75% |
+| Sessions | 68,106 | 69,079 | +1.43% |
+
+Traffic is essentially flat (+1-2%), so changes below are behavioral.
+
+#### Bug fix signals (the key question)
+
+| Metric | 7-day baseline | Apr 16 (half-day fix) | Prediction if fix works |
+|---|---|---|---|
+| page_view | +32.22% | +15.41% | ~half the inflation |
+| Self-nav `/your-claims` (no slash) | +830.07% | +306.05% | ~half the inflation |
+| Self-nav `/your-claims/` (trailing) | +1,033.03% | +376.06% | ~half the inflation |
+
+All three bug-driven metrics dropped by roughly half -- consistent with the fix running for roughly half the day. **PR #44088 is working as intended.** A full post-fix day (Apr 17) should drop these signals back toward baseline (near 0% for page_view, low single-digit % for self-nav).
+
+#### Behavioral metrics (regression check)
+
+| Metric | 7-day baseline | Apr 16 | Status |
+|---|---|---|---|
+| Filter clicks (Closed/All/In progress distribution) | 42%/31%/26% | 43%/32%/25% | Consistent |
+| link_click / Details | -14.82% | -16.09% | Consistent |
+| api_call | -0.47% | +1.11% | Flat |
+| Claim detail sessions | -16.14% | -16.95% | Consistent |
+| Appeal detail sessions | -6.79% | -9.3% | Slightly larger but within daily variance |
+| Pagination sessions | -44.48% | -39.51% | Consistent |
+| Claim letters outbound views | +38.35% | +42.29% | Consistent |
+
+No unexpected regressions. Behavioral metrics match the 7-day baseline, which confirms the fix isn't breaking other flows.
+
+#### Outbound Navigation (Views) -- partial day
+
+| Top Destination | Mar 26 | Apr 16 | Change |
+|---|---|---|---|
+| /track-claims/your-claim-letters | 16,163 | 22,999 | +42.29% |
+| / | 13,416 | 14,868 | +10.82% |
+| /track-claims/your-claims (self-nav) | 2,448 | 9,939 | +306.05% |
+| /track-claims/your-claims/ (self-nav) | 1,245 | 5,927 | +376.06% |
+| /my-va/ | 5,181 | 5,176 | -0.1% |
+
+Self-nav rows still elevated because the bug was active pre-1pm. Expect these to drop sharply in tomorrow's full-day comparison.
+
+#### Bottom line
+
+- **PR #44088 is working.** The bug-driven signals (page_view, self-nav) dropped by ~50% on a half-day fix, matching the prediction.
+- **No regressions.** Behavioral metrics (claim detail, details clicks, pagination, claim letters) are consistent with the 7-day baseline.
+- **Datadog RUM frustration** for the matching post-deploy window shows the signal easing. See the Datadog RUM Release Monitoring section below for details.
+- **Next step:** collect Apr 17 vs Mar 27 full-day GA comparison (and the matching Datadog window) once Apr 17 data is complete. Expect page_view inflation to drop to near 0% and self-nav to drop to low single-digit %.
+
+---
+
 ## Datadog RUM Release Monitoring
 
 Datadog RUM (service: `benefits-claim-status-tool`) detects user frustration signals (rage clicks, dead clicks, error clicks) that GA cannot. Note that RUM captures a sample of total traffic, so view counts here should not be compared directly to GA numbers.
@@ -268,6 +328,18 @@ Frustration filter adds: `@view.frustration.count:>0`
 | Frustration rate | 7.84% | 9.19% | +1.35 pp |
 
 Frustration rate edged up 1.35 pp (from 7.84% to 9.19%). Frustration views grew +30.9% while sampled views grew only +11.6%, so the shift is real rather than a sampling artifact. That said, the absolute change is modest, and RUM frustration signals (rage clicks, dead clicks) are inherently noisy -- a 1-2 pp swing on a metric with an ~8% baseline is not dispositive on its own. Session replays reviewed at release time did not reveal a clear pattern. Continue tracking; if the rate doesn't normalize within 2-3 weeks, investigate via session replays.
+
+### Report: March 26-27 vs April 16-17
+
+Matches the GA Apr 16 post-deploy report above. 23-hour window `Apr 16 11:00 AM – Apr 17 10:02 AM` (~91% post-deploy; PR [#44088](https://github.com/department-of-veterans-affairs/vets-website/pull/44088) deployed Apr 16 ~1:00 PM ET) against the matching baseline window `Mar 26 11:00 AM – Mar 27 10:02 AM`.
+
+| Metric | Mar 26-27 | Apr 16-17 | Change |
+|---|---|---|---|
+| Total sampled views | 9,457 | 10,309 | +9.0% |
+| Frustration views | 744 | 862 | +15.9% |
+| Frustration rate | 7.87% | 8.36% | +0.49 pp |
+
+The post-deploy rate (8.36%) is closer to the 7-day pre-release baseline (7.84%) than to the 7-day post-release peak (9.19%) -- directionally suggesting the frustration signal is easing. The rate change here (+0.49 pp) is smaller than the 7-day post-release change (+1.35 pp), and frustration view growth (+15.9%) is about half the 7-day growth (+30.9%). Same caveat as the 7-day data: RUM frustration signals are noisy and a sub-1 pp swing is not dispositive, but the direction of movement is encouraging. Re-check with a full-week comparison once ~7 days of post-deploy data are available (~Apr 24 onward).
 
 ### Investigating Frustration Signals
 
