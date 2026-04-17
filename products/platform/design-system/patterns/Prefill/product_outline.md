@@ -26,7 +26,7 @@ The Prefill pattern defines how VA.gov forms prepopulate known Veteran data (nam
 
 ## Desired Business Outcomes
 - Migrate all 32 prefilling forms off legacy mechanisms onto the unified pattern
-- Reduce prefill codebase by retiring `prefillTransformer` (1,906 LOC / 36 files)
+- Reduce prefill codebase by retiring `prefillTransformer` 
 - Increase form start-to-submit completion rates by reducing friction on known-data fields
 - Provide a documented decision framework teams use to choose the right prefill approach for a new form
 
