@@ -87,6 +87,26 @@ Main takeaways from the research sessions
 - Often times said they would just call the phone number--especially if they saw 'ineligible' and no further detail for their child
 - Ultimately happy with the prototype, despite a lot of feedback and passionate opinions regarding champva process
 
+
+
+### P08
+**UX Notetaker:**
+- User wanted to be able to see all documents and related information that had been submitted 
+- User like the partial decision, especially the transparency in the tool. You might receive a letter and then ask, where are the rest of the letters. 
+- User struggled to find the CHAMPVA card once it was no longer visible on MyVA. Stopped before going into the card since they felt they had all the information they needed.
+
+**UX Lead:**
+- User wants a collective list of all CHAMPVA related content. Decision letters, upload files, etc. a comprehensive view of a "closed" file.
+- User was unsuccessful in finding that John does was denied and struggle with the tasks when they didn see a card or champva related content for task 3
+- User liked that on submissions they system knew who the submission was for and they didn't have to select the applicant.
+
+**Observer 1:**
+
+**Observer 2:**
+
+
+
+
 ### P0X
 **UX Notetaker:**
 
