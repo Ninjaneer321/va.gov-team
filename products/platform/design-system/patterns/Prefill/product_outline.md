@@ -49,13 +49,11 @@ The Prefill pattern defines how VA.gov forms prepopulate known Veteran data (nam
 
 | Metric | Baseline | Source | Target |
 |---|---|---|---|
-| Forms using the new Prefill pattern | 0 / 32 prefilling forms (per `Data.md`, 2025-11-03) | `patterns/Prefill/Data.md` | ≥ 15 forms migrated by end of FY26 |
-| Legacy `prefillTransformer` LOC | 1,906 LOC across 36 files | `anaysis.md` (2026-03-11) | ≤ 500 LOC by end of FY26 (stretch: retire) |
+| Forms using the new Prefill pattern | 3 / 32 prefilling forms (per `Data.md`, 2025-11-03) | `patterns/Prefill/Data.md` | ≥ 15 forms migrated by end of FY26 |
+| Legacy `prefillTransformer` LOC | LOC across 36 files | `anaysis.md` (2026-03-11) | ≤ 500 LOC by end of FY26 (stretch: retire) |
 | VA Profile API coverage of prefillable fields | Address 96%, any phone 86%, email 72%, name/DOB/SSN "ask MPI" | `Data.md` Q9 | +5 pts on email coverage via VA Profile team collaboration |
 | Form abandonment on first prefilled page | TBD — pull from Google Analytics per-form funnels | GA | -10% vs. pre-migration baseline |
 | Rate of Veterans editing prefilled data (trust signal) | TBD | GA + form events | Track; investigate forms > 20% edit rate |
-| Accessibility defects opened against Prefill pattern | 0 (pattern not yet adopted) | GitHub issues `pattern:prefill`+`a11y` | 0 P1/P2 open > 30 days |
-| Forms-team CSAT for the Prefill pattern | TBD — run baseline at pattern launch | Quarterly forms-team survey | ≥ 4.0 / 5.0 |
 
 ### Objectives and Key Results (OKRs)
 Maps to FY26 Design & Forms Systems OKRs:
