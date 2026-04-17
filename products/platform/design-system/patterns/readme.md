@@ -1,5 +1,9 @@
 # VA Patterns Library
 
+## Overview
+The VA Patterns Library documents repeatable solutions for multi-component user flows on VA.gov — patterns like prefill, eligibility prompts, service history, multiple-response sets, and file inputs. Patterns sit one level above components: they combine design-system components, content standards, and interaction rules into a proven solution teams can reuse rather than reinvent.
+
+
 ## Released:
 ## April 2026 - Prefill Pattern
 
@@ -12,10 +16,9 @@ We’ve published two mock form examples to help teams implement the Know when t
  Prefill – Standard header/footer: Shows the full authenticated experience with the standard VA.gov introduction page
 Sign in with any staging user to see the authenticated prefill experience.
 
-Why it matters: The prefill pattern tells Veterans where their information is coming from, what they can edit, and how to update what they can’t. These examples make it easier to implement correctly the first time.
+- Why it matters: The prefill pattern tells Veterans where their information is coming from, what they can edit, and how to update what they can’t. These examples make it easier to implement correctly the first time.
 
-## Overview
-The VA Patterns Library documents repeatable solutions for multi-component user flows on VA.gov — patterns like prefill, eligibility prompts, service history, multiple-response sets, and file inputs. Patterns sit one level above components: they combine design-system components, content standards, and interaction rules into a proven solution teams can reuse rather than reinvent.
+
 
 ## Problem Statement
 Many VA.gov experiences share common flows (e.g., asking for service history, collecting repeated responses, prompting prefill, uploading files), but without a published patterns library each team designs and implements these independently. The result: inconsistent Veteran experiences, duplicated research, accessibility variation, and unnecessary engineering cost.
