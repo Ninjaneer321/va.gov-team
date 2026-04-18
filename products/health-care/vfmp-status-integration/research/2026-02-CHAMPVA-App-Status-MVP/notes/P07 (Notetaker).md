@@ -10,21 +10,22 @@ Participant type
 
 Notetaker: Alyssa
 
-[need to go back and write beginning]
-
 -----
 ### Introduction
-- [ ] Can record
-- [ ] Can use video clips
+- [X] Can record
+- [X] Can use video clips
 
 
 ### Warm-up Questions
 
 VA.gov account?
-- notes
+- Yes, 2 to 3 times a week
+- Secure messaging to providers, prescription refills, review of records. Mostly, over on the My HealthyVet side much more than benefit side stuff and the rest of VA.gov
 
 Applied for CHAMPVA?
-
+- Yes, applied for wife
+- Applied via paper, "it was mostly waiting" 
+- then had to check providers and learn what's covered and how to file claims
 - Had to submit marriage certificate.
 - Took a month and a half, maybe 2 months to be enrolled. 45-50 days
 
