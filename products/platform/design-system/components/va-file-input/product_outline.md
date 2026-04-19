@@ -47,13 +47,6 @@
 |---|---|---|---|---|
 | Metric | File-upload success rate | Forms migrated from `FileField` to `va-file-input` | Forms-team CSAT on component | Open P1/P2 bugs + WCAG failures closed |
 
-#### Baseline KPI Values
-
-| Metric | Baseline | Source | Target |
-|---|---|---|---|
-| Forms using `va-file-input` / `va-file-input-multiple` | TBD — enumerate against all file-upload forms | vets-website grep for `VaFileInputField` / `VaFileInputMultipleField` | 100% of file-upload forms by end of FY26 |
-| Forms still using legacy `FileField` | TBD — enumerate | vets-website grep for `FileField` | 0 (deprecate `FileField`) |
-| Open P1/P2 bugs | TBD — count open issues in component-library + vets-design-system-documentation | GitHub | 0 > 30 days |
 
 
 ### Objectives and Key Results (OKRs)
