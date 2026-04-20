@@ -67,6 +67,15 @@ This means the per-beneficiary data in `ivc_champva_forms` is genuinely meaningf
 
 **One nuance — early submission fallback:** Before PEGA has assigned individual case IDs (immediately after submission), rows fall back to the first case in the array. This means all rows for a submission may temporarily share the same status early on. Once PEGA assigns case IDs, each row diverges to its own individual status. This is expected behavior and not a concern for CST, which is most useful once processing is underway.
 
+**In practical terms for Options A and B**, everything is already in place:
+
+- ✅ PEGA already returns an array of statuses per beneficiary
+- ✅ The polling job already writes each one to its own DB row
+- ✅ The endpoint already exists and CST already calls it
+- ✅ `submitted_by_icn` is already in the DB to filter by veteran
+
+The only missing piece is `ClaimBuilder` — it sits between the DB and the endpoint and right now collapses all those rows into one. Options A and B are purely a change to that one class to stop collapsing and instead pass the full array through to the response. No new jobs, no new endpoints, no new DB columns, no new API integrations.
+
 ---
 
 ## The ICN Problem (Why This Isn't Trivial)
