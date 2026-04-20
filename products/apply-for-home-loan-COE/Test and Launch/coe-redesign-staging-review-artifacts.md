@@ -3,6 +3,7 @@
 ### Staging URL
 https://staging.va.gov/housing-assistance/home-loans/request-coe-form-26-1880/introduction
   - Everything from the introduction page through the confirmation page
+  - In the main nav go to VA Benefits and Health Care > Housing assistance > Request a COE online (this is the form introduction page)
 
 ### Generated PDF form
 - N/A - a PDF is not generated on this form
