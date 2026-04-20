@@ -40,9 +40,9 @@ If you're familiar with SiS, visit the [quickstart guide](https://github.com/dep
 
 ## For Identity team members
 
+- [Engineering documentation](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Products/Sign-In%20Service/Engineering%20Docs)
 - [Internal documentation](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams/vsp/teams/Identity/Product%20Documentation/Sign%20In%20Service)
 - [Internal runbook](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Incident%20Response/System%20Recovery%20Procedures/SiS_SRP.md)
-- Subject matter expert: John B.
 ---
 
 ## Release notes
