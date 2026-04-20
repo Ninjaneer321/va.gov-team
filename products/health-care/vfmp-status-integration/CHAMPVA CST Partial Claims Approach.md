@@ -1,3 +1,5 @@
+# CHAMPVA CST Partial Claims Approach
+
 ## Background
 
 This [ticket #139312](https://github.com/department-of-veterans-affairs/va.gov-team/issues/139312) asks us to assess how CST (Claim Status Tool) can surface per-beneficiary status for CHAMPVA submissions. When a veteran submits CHAMPVA paperwork for their family, a single submission can cover multiple people — for example, a spouse and two dependents — all grouped together under one submission ID (`form_uuid`).
