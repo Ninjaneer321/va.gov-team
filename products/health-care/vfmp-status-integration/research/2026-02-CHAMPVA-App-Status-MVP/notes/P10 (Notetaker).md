@@ -5,28 +5,40 @@
 > - If you're an observer, do not worry about following the template exactly! Feel free to just use the main section headings (Scenario 1, Scenario 2, etc.) and ignore the sub-headings if they are confusing.
 
 Participant type
-- [ ] Veteran
+- [X] Veteran
 - [ ] Family member
 
-Notetaker: [Insert Name Here]
+Notetaker: Alyssa Li
 
 -----
 ### Introduction
-- [ ] Can record
-- [ ] Can use video clips
+- [X] Can record
+- [X] Can use video clips
 
 
 ### Warm-up Questions
 
 VA.gov account?
-- notes
+- Yes, but uses the mobile app more than the website
+- Check appointment schedule, update information, review medication
+- Would check pending claims and medical records on a computer to see a bigger screen
 
 Applied for CHAMPVA?
-- notes
+- Saw a lot of information for his daughter
+- Submitted information
+- Thinks she is eligible but is not sure what to do
+- Submitted online
+- Heard about CHAMPVA from other vets, went to VA hospital, talked to a representative who gave more information
+- They sent a link, and he saw CHAMPVA information
+- Applied over 4 months ago
 
 After submitting application?
-- notes
+- Was not clear
+- Still had a lot of questions, did not understand the language
+- Wanted to know more about eligibility, where to receive services, if she could go to a VA hospital or needed to find a separate provider
+- Had to submit (birth cert?) during the application to prove that their daughter was their child.
 
+[Had to end session - participant lost service]
 
 ### Screenshare & Prototype Setup
 Device type
