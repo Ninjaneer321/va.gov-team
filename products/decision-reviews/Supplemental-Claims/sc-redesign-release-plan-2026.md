@@ -18,8 +18,16 @@ multiple-response (array builder) pattern for the VA and non-VA evidence flows.
   - [#benefits-decision-reviews-notifications](https://dsva.slack.com/archives/C05UPRR0HK3)
 
 ### Monitoring:
-Datadog Dashboard
-Datadog Monitors
+
+Datadog Dashboards:
+- [Benefits — Supplemental Claims Datadog dashboard](https://vagov.ddog-gov.com/dashboard/uc7-8ai-6c3/benefits---supplemental-claims)
+- [Benefits — Supplemental Claims RUM dashboard](https://vagov.ddog-gov.com/product-analytics/summary?query=%40application.id%3A2779ccc3-be87-4b2d-a757-9ff54b58761b)
+
+Datadog Monitors:
+- [SC — Overall Claim Submission API traffic anomaly monitor (215144)](https://vagov.ddog-gov.com/monitors/215144) — detects unusually high/low traffic vs. learned weekly patterns
+- [SC — Overall claim submission traffic is low (539401)](https://vagov.ddog-gov.com/monitors/539401) — detects when overall claim submission traffic falls below a static minimum threshold
+- [SC — Form4142 / SubmitUpload Sidekiq error monitor (160408)](https://vagov.ddog-gov.com/monitors/160408) — detects elevated error rates on decision-reviews background jobs
+- WIP conversion-rate monitor: <https://github.com/department-of-veterans-affairs/va.gov-team/issues/135884>
 
 ### Response:
 - Feature will remain behind the feature flag while being developed and for a monitoring period defined in the Release Plan.
