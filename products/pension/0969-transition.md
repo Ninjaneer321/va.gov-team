@@ -77,7 +77,7 @@ These files capture the post-MVP designs, primarily with enhanced content as a c
   - Team label: benefits-pension-burial
   - Product label: Income & Asset
   - Workstream label: discovery, product, design, or engineering + frontend or backend
-- Many resources are also backed up in our [Sharepoint transition folder](https://dvagov.sharepoint.com/:b:/r/sites/vaabdvro/Shared%20Documents/Dependents%20Management/Lifestage%20Transition%20-%20March,%202025/LSS%20Design%20Resources.pdf?csf=1&web=1&e=3bdHWD), including meeting agendas and walkthrough videos.
+- Many resources are also backed up in our [Sharepoint transition folder](https://dvagov.sharepoint.com/sites/vaabdvro/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fvaabdvro%2FShared%20Documents%2FLifestage%20%2D%20General%2FLifestage%20Transition%20%2D%20March%2C%202026&viewid=3fa7a9bb%2D3d4e%2D44c2%2Db93f%2D629268a08e72&OR=Teams%2DHL&CT=1717096760601&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNDA0MTEyMjMxNSJ9), including meeting agendas and walkthrough videos.
 
 
 ## Roadmap
