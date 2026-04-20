@@ -142,7 +142,19 @@ CST needs a new UI component that, when `beneficiaryStatuses` is present and has
 ## Option B — New `beneficiaryStatuses` Top-Level Field
 
 ### What this means in plain language
-This is identical to Option A in terms of what data we surface and how we get it. The only difference is *where* in the API response we put it — as its own dedicated top-level field rather than nested inside `claimStatusMeta`. This makes the API contract cleaner and easier for the front end to reason about independently.
+This is identical to Option A in terms of what data we surface and how we get it. 
+```json
+{
+  "claimStatusMeta": { ... },
+  "beneficiaryStatuses": [
+    { "name": "Jane Doe", "status": "Pending", "form_number": "10-7959C" },
+    { "name": "John Doe", "status": "Approved", "form_number": "10-7959C" }
+  ]
+}
+```
+Option A puts the `beneficiaryStatuses` array **inside** `claimStatusMeta`. Option B puts it **next to** it as its own field. Same data either way.
+
+The only difference is *where* in the API response we put it — as its own dedicated top-level field rather than nested inside `claimStatusMeta`. This makes the API contract cleaner and easier for the front end to reason about independently.
 
 ### Why you might prefer this over Option A
 If `claimStatusMeta` is already getting crowded and the team wants a clean dedicated contract for beneficiary data, Option B is a better long-term API shape. It's also fully backward compatible — the existing CST front-end code simply ignores fields it doesn't recognize, so nothing breaks.
@@ -160,7 +172,15 @@ Instead of relying on whatever we stored in our database at submission time, we 
 This approach doesn't depend on anything we stored. It works even for claims submitted before we added `submitted_by_icn`, and even for people enrolled via paper forms that never touched vets-api.
 
 ### Why it's blocked
-This requires a separate piece of work to establish how we map a veteran's ICN to their dependents' ICNs through VA's Master Person Index. That work is tracked separately as **"ICN Mapping for CHAMPVA Dependents"** and has not started yet. We can't build Option C until that work defines the lookup pattern.
+
+**This is a different ICN problem than what Brandon's PR solved.** Brandon's PR (#27205) stores the submitting veteran's ICN at submission time, which enables Options A and B to filter `ivc_champva_forms` to the logged-in veteran's records. That problem is solved.
+
+Option C requires the opposite direction — starting from the veteran's ICN and asking MPI "who are this veteran's dependents?" to get each beneficiary's ICN, then querying VES per beneficiary:
+
+- **Brandon's work:** Veteran's ICN → find their submissions in our DB ✅ solved
+- **Option C needs:** Veteran's ICN → ask MPI "who are your dependents?" → get each dependent's ICN → query VES per dependent ICN ❌ not done
+
+That MPI dependent lookup infrastructure does not exist yet and is blocked on a separate piece of work that has not started. Until that work defines the lookup pattern, Option C cannot be built on either the backend or front end.
 
 Additionally, making live API calls to MPI and VES in the CST page load path introduces latency and availability risk that needs to be assessed — if either service is slow or down, we need a fallback so CST doesn't break.
 
@@ -338,10 +358,10 @@ Update the claim card to handle two different status models (PEGA processing sta
 ## TL;DR — Options at a Glance
 
 ### Option A — Use What's Already in the Database
-The data we need is already in our database (`ivc_champva_forms`). Each beneficiary has their own row with their own status. We just need to stop collapsing all those rows into one and start sending each person's name and status to the front end. Low risk, no new systems, can start now.
+The data we need is already in our database (`ivc_champva_forms`). Each beneficiary has their own row with their own status — confirmed directly from the PEGA polling code, which returns a separate status per applicant and writes each one individually to the database. We just need to stop collapsing all those rows into one and start sending each person's name and status to the front end. **The only work is stopping `ClaimBuilder` from throwing it away and building the FE to display it.** Low risk, no new systems, can start now.
 
 ### Option B — Same as A, Cleaner API Shape
-Exact same idea as Option A — same data, same database query, same result for the veteran. The only difference is we put the per-person data in its own dedicated slot in the API response instead of bundling it with existing claim metadata. Cleaner design, same effort, same outcome.
+Exact same idea as Option A — the same per-beneficiary data, the same database query, the same result for the veteran. The only difference is we give beneficiary statuses their own dedicated top-level field in the API response instead of bundling them inside existing claim metadata. This makes it immediately clear to the front end that beneficiary data is its own concept, separate from the overall claim status. Cleaner design, same effort, same outcome.
 
 ### Option C — Real-Time Lookup from VA's Central Systems (Future)
 Instead of using what's in our database, we ask two VA systems in real time: first, VA's **Master Person Index (MPI)** — the central registry that knows who a veteran's dependents and family members are — to get each beneficiary's VA identifier. Then we ask the **Veterans Enrollment System (VES)** — the system that tracks CHAMPVA eligibility and enrollment — for each person's current status. This is more authoritative and works even for submissions that predate our database records, but it requires a separate piece of infrastructure work that hasn't started yet and adds live API calls to the page load. Best saved for a future phase.
