@@ -8,6 +8,8 @@ multiple-response (array builder) pattern for the VA and non-VA evidence flows.
 - [Collaboration Cycle Ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117807)
 
 ## Incident Response Plan
+See [Incident Response Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/decision-reviews/Supplemental-Claims/engineering/Incident-Response-Plan.md) for more details
+
 ### Enablement Team:
   - Amy Lai (amy.lai2@va.gov)
   - Julie Strothman (Julie.Strothman@va.gov)
