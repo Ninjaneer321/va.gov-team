@@ -57,27 +57,6 @@ This is actually a good design: if PEGA's systems go down, CST just shows the la
 
 ---
 
-## Confirmed Findings (from Code)
-
-**PEGA does return per-applicant statuses — Options A and B are on solid ground.**
-
-When `PollPegaStatusJob` calls PEGA with a `form_uuid`, PEGA returns an **array of case objects** — one per applicant, not one status for the whole submission. The job then matches each DB row to its specific PEGA case object by `case_id` and writes a distinct `pega_status` to each row individually.
-
-This means the per-beneficiary data in `ivc_champva_forms` is genuinely meaningful — each person's row can and does hold a different status as their application progresses.
-
-**One nuance — early submission fallback:** Before PEGA has assigned individual case IDs (immediately after submission), rows fall back to the first case in the array. This means all rows for a submission may temporarily share the same status early on. Once PEGA assigns case IDs, each row diverges to its own individual status. This is expected behavior and not a concern for CST, which is most useful once processing is underway.
-
-**In practical terms for Options A and B**, everything is already in place:
-
-- ✅ PEGA already returns an array of statuses per beneficiary
-- ✅ The polling job already writes each one to its own DB row
-- ✅ The endpoint already exists and CST already calls it
-- ✅ `submitted_by_icn` is already in the DB to filter by veteran
-
-The only missing piece is `ClaimBuilder` — it sits between the DB and the endpoint and right now collapses all those rows into one. Options A and B are purely a change to that one class to stop collapsing and instead pass the full array through to the response. No new jobs, no new endpoints, no new DB columns, no new API integrations.
-
----
-
 ## The ICN Problem (Why This Isn't Trivial)
 
 When a veteran submits CHAMPVA, they are applying **on behalf of their family members** — the spouse and dependents are not the ones logged into VA.gov. The database rows we store have the beneficiary's name, but not their VA identifier (ICN).
@@ -151,7 +130,10 @@ CST needs a new UI component that, when `beneficiaryStatuses` is present and has
 ## Option B — New `beneficiaryStatuses` Top-Level Field
 
 ### What this means in plain language
-This is identical to Option A in terms of what data we surface and how we get it. 
+This is identical to Option A in terms of what data we surface and how we get it — the only difference is *where* in the API response we put it. Option A puts the `beneficiaryStatuses` array **inside** `claimStatusMeta`. Option B puts it **next to** it as its own dedicated top-level field, making it cleaner and easier for the front end to reason about independently.
+
+The only difference is *where* in the API response we put it — as its own dedicated top-level field rather than nested inside `claimStatusMeta`. This makes the API contract cleaner and easier for the front end to reason about independently.
+
 ```json
 {
   "claimStatusMeta": { ... },
@@ -161,15 +143,33 @@ This is identical to Option A in terms of what data we surface and how we get it
   ]
 }
 ```
-Option A puts the `beneficiaryStatuses` array **inside** `claimStatusMeta`. Option B puts it **next to** it as its own field. Same data either way.
-
-The only difference is *where* in the API response we put it — as its own dedicated top-level field rather than nested inside `claimStatusMeta`. This makes the API contract cleaner and easier for the front end to reason about independently.
 
 ### Why you might prefer this over Option A
 If `claimStatusMeta` is already getting crowded and the team wants a clean dedicated contract for beneficiary data, Option B is a better long-term API shape. It's also fully backward compatible — the existing CST front-end code simply ignores fields it doesn't recognize, so nothing breaks.
 
 ### Pros and Cons
 Identical to Option A. Same data, same database query, same backfill gap, same normalization requirement. This is purely an API contract design preference.
+
+---
+
+## Confirmed Findings (from Code)
+
+**PEGA does return per-applicant statuses — Options A and B are on solid ground.**
+
+When `PollPegaStatusJob` calls PEGA with a `form_uuid`, PEGA returns an **array of case objects** — one per applicant, not one status for the whole submission. The job then matches each DB row to its specific PEGA case object by `case_id` and writes a distinct `pega_status` to each row individually.
+
+This means the per-beneficiary data in `ivc_champva_forms` is genuinely meaningful — each person's row can and does hold a different status as their application progresses.
+
+**One nuance — early submission fallback:** Before PEGA has assigned individual case IDs (immediately after submission), rows fall back to the first case in the array. This means all rows for a submission may temporarily share the same status early on. Once PEGA assigns case IDs, each row diverges to its own individual status. This is expected behavior and not a concern for CST, which is most useful once processing is underway.
+
+**In practical terms for Options A and B**, everything is already in place:
+
+- ✅ PEGA already returns an array of statuses per beneficiary
+- ✅ The polling job already writes each one to its own DB row
+- ✅ The endpoint already exists and CST already calls it
+- ✅ `submitted_by_icn` is already in the DB to filter by veteran
+
+The only missing piece is `ClaimBuilder` — it sits between the DB and the endpoint and right now collapses all those rows into one. Options A and B are purely a change to that one class to stop collapsing and instead pass the full array through to the response. No new jobs, no new endpoints, no new DB columns, no new API integrations.
 
 ---
 
@@ -230,7 +230,7 @@ Additionally, making live API calls to MPI and VES in the CST page load path int
 
 **Option C** is the right long-term direction when we want to show a truly authoritative, real-time view — but it cannot start until the separate ICN mapping work is done and we've assessed the latency/availability implications for the CST load path.
 
-**"See Follow-Up Questions & Gaps and Stories to Write below for open decisions and next steps."**
+**See Follow-Up Questions & Gaps and Stories to Write below for open decisions and next steps.**
 
 ---
 
@@ -251,7 +251,7 @@ For the remaining claim types in CST, the veteran is the only subject and per-be
 
 **API Contract:** Option B's dedicated `beneficiaryStatuses` top-level field becomes the clearly preferred approach over Option A. It defines a standard, reusable contract slot that any claim type provider can populate when relevant, rather than being specific to CHAMPVA's `claimStatusMeta`. Claim types where beneficiaries don't apply simply return an empty array or omit the field.
 
-**Provider Architecture:** Each claim type in CST has its own backend provider (CHAMPVA uses `ClaimBuilder`; other types use different providers backed by different systems — EVSS, Lighthouse, BGS, etc.). Expanding this pattern means each relevant provider would need its own assessment of whether per-beneficiary data is available in its underlying system and in what shape.
+**Provider Architecture:** Each claim type in CST has its own backend provider (CHAMPVA uses `ClaimBuilder`; other types use different providers backed by different systems — Lighthouse, BGS, and others). Expanding this pattern means each relevant provider would need its own assessment of whether per-beneficiary data is available in its underlying system and in what shape.
 
 **Not a one-size-fits-all:** Unlike CHAMPVA where per-beneficiary rows already exist in `ivc_champva_forms`, other benefit systems may not store data with the same per-person granularity. Each would need to be assessed individually before implementing.
 
