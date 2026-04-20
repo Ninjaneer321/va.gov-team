@@ -38,13 +38,6 @@ observer_support: true
 consent_for_clips: true
 ---
 
-| Study   | Use cases and Post Launch Enhancements Research |
-| ------- | ----------------------------------------------- |
-| Product | CDS Task Manager                                |
-| Author  | Ruben Sun                                       |
-| Date    | February, 4, 2026                               |
-| Tags    |                                                 |
-
 ## Intro (5 mins)
 
 Hello. My name is **[Moderator]**. And these are my colleagues [**Notetaker/Observer**]. As you may be aware, we’re team members working on the Task Manager Application, as a part of the Clinical Decision Support Collaborative.
