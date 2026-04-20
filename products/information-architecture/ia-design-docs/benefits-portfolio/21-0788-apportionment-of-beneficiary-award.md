@@ -37,19 +37,18 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - [Breadcrumbs](https://design.va.gov/components/breadcrumbs)
 - [Title tags](https://design.va.gov/content-style-guide/title-tags)
 
-**1) About VA Form 21-0788 - Existing**
-- URL: https://www.va.gov/forms/21-0788/
-- H1: About VA Form 21-0788
-- Sub-heading: Information Regarding Apportionment of Beneficiary's Award
-- Breadcrumb: VA.gov home > VA forms > About VA Form 21-0788
-- Browser title: [H1 of introduction page in title case] | Veterans Affairs
-    - About VA Form 21-0788 | Veterans Affairs
-- Notes: The imformation above is for the form details page. The actual form is a PDF and can be found here https://www.vba.va.gov/pubs/forms/VBA-21-0788-ARE.pdf
+**1) VA Form 21-0788 - Existing (PDF form)**
+- URL: https://www.vba.va.gov/pubs/forms/VBA-21-0788-ARE.pdf 
+- H1: INFORMATION REGARDING APPORTIONMENT OF BENEFICIARY'S AWARD
+- Sub-heading: N/A
+- Breadcrumb: [VA.gov home](https://www.va.gov/) > [VA forms](https://www.va.gov/forms/) > [About VA Form 21-0788](https://www.va.gov/forms/21-0788/) > [Download VA Form 21-0788 (PDF)](https://www.vba.va.gov/pubs/forms/VBA-21-0788-ARE.pdf)
+- Browser title: VA Form 21-0788
+- Notes: 
 
 **2) Page name - New**
 - URL: https://www.va.gov/forms/21-0788/apply-for-apportionment-beneficiarys-award 
 - H1: Apply for apportionment of a beneficiary’s award
-- Sub-heading: Complete Form 21‑0788 online
+- Sub-heading: Form 21‑0788 online
 - Breadcrumb: VA.gov home › VA forms › Apply for apportionment of beneficiary’s award > Apply for apportionment of beneficiary’s award online
 - Browser title: [H1 of introduction page in title case] | Veterans Affairs
     - Apply for apportionment of beneficiary’s award | Veterans Affairs
