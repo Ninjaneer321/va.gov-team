@@ -270,32 +270,31 @@ When Veterans copy the payment amount (or dollar value) from the Pay Online scre
 
 ## Additional Insights
 
-#### 1) “Pay online” details don’t match the pay.va.gov layout
+1. “Pay online” details don’t match the pay.va.gov layout
 - Participants can copy key fields from the app’s Pay Online screen, but the balance (shown first in the app) appears much farther down the page on pay.va.gov after other details.
 
-  > _“This is now one-stop shopping! And I love that.” - P2_
-
-
-#### 2) Veterans want clearer details on how the debt will be resolved
+2. Veterans want clearer details on how the debt will be resolved
 - Participants wanted the app to show what to expect when resolving the debt, especially payment plan amounts and benefit reduction/offset details (how much and when it starts).
 
   > _"I don't remember what I'm supposed to be paying every month, and I think it [benefit reduction] kicks in the next payment, but I'm not sure. It'd be nice to see that here." - P7_
 
   > _"If it could show a breakdown of what my payments could be, I’d want to see that in the app." - P9_
 
-#### 3) Veterans want transparency about why the overpayment exists
-Today, physical letters are the only place Veterans can get the detailed explanation for why the debt was created. Participants said they would like that same information available in the app, so they don’t have to rely on mail to understand what happened.
+3. Veterans want transparency about why the overpayment exists
+- Today, physical letters are the only place Veterans can get the detailed explanation for why the debt was created. Participants said they would like that same information available in the app, so they don’t have to rely on mail to understand what happened.
 
-- “It doesn’t tell you really why on the app… You do get a letter in the mail… just to have a little explanation…” (P4)
-- “They’ll send a physical copy stating what the debt is and how to resolve it… I’m quicker to go to an app than open up mail.” (P9)
+  > _"It doesn’t tell you really why on the app… You do get a letter in the mail… just to have a little explanation." - P4_
 
-#### 4) Veterans can’t easily confirm the current state of their debt (missing activity + unclear “Last updated”)
-One Veteran demonstrated how hard it is to confirm the full status of a single overpayment across channels. She described multiple follow-on communications and actions (e.g., submitting a forgiveness/waiver request, receiving responses, applying for a payment plan), but could not find a complete record of those items anywhere. During the session, she searched across va.gov (including Claims and Letters) and still couldn’t locate evidence of the paperwork she had filed, only a partial set of VA-issued letters.
+  > _"They’ll send a physical copy stating what the debt is and how to resolve it… I’m quicker to go to an app than open up mail." - P9_
 
-This gap also made the “Last updated” label feel unreliable. She wanted it to indicate who updated the debt (VA vs. Veteran action) and what specifically happened. While she could reconstruct the timeline from memory, she didn’t want to have to rely on that; she wanted all related communications and actions visible in one place.
+4. Veterans can’t easily confirm the current state of their debt (missing activity + unclear “Last updated”)
+- One Veteran demonstrated how hard it is to confirm the full status of a single overpayment across channels. She described multiple follow-on communications and actions (e.g., submitting a forgiveness/waiver request, receiving responses, applying for a payment plan), but could not find a complete record of those items anywhere. During the session, she searched across va.gov (including Claims and Letters) and still couldn’t locate evidence of the paperwork she had filed, only a partial set of VA-issued letters.
 
-- “So, I know I have more letters than what’s listed here. I’m not sure what type of letters are being pulled, but I know I’ve gotten more than one letter.” (P12)
-- “Yeah, this date is definitely not right then, because it’s just tying it to one letter, and there’s other letters missing. The confusion now is saying it’s updated - updated by who?” (P12)
+  > _"So, I know I have more letters than what’s listed here. I’m not sure what type of letters are being pulled, but I know I’ve gotten more than one letter." - P12_
+  > _"Yeah, this date is definitely not right then, because it’s just tying it to one letter, and there’s other letters missing. The confusion now is saying it’s updated - updated by who?" - P12_
+
+- This gap also made the “Last updated” label feel unreliable. She wanted it to indicate who updated the debt (VA vs. Veteran action) and what specifically happened. While she could reconstruct the timeline from memory, she didn’t want to have to rely on that; she wanted all related communications and actions visible in one place.
+
 
 
 ## Recommendations and Next Steps
@@ -316,6 +315,33 @@ This gap also made the “Last updated” label feel unreliable. She wanted it t
 4. **Recommendation:** Clearly communicate the specifics of benefit reductions, including when and by how much.
    - _Supporting evidence: Veterans who rely on these payments to manage monthly budgets need to know exactly which upcoming payment will be impacted and the specific amount to be deducted._
    - **Next Step:** Collaborate with backend engineering to determine if withholding data can be surfaced in the app to provide this financial transparency.
+
+
+🐙
+
+## Recommendations and Next Steps
+
+1. **Recommendation:** On the "Pay online" screen, remove the dollar sign from the copied text for the balance.
+   - _Supporting evidence: The balance copies with a dollar sign (e.g., $100.00). Since the currency field on pay.va.gov already includes a dollar sign, pasting results in duplicate characters (e.g., $$100.00)._
+   - **Next Step:** Update the copy-to-clipboard logic to strip the currency symbol for balance values, and run a quick regression test on iOS and Android by pasting into pay.va.gov to confirm the value is accepted without manual edits.
+
+2. **Recommendation:** Reorder the details on the "Pay online" screen to match the sequence of fields on pay.va.gov.
+   - _Supporting evidence: The current app layout places the balance at the top, but the pay.va.gov form requires it further down the page. Matching the sequence reduces cognitive load and scrolling._
+   - **Next Step:** Coordinate with the Financial Management team to confirm the current pay.va.gov field order and decide whether the mobile app should maintain strict parity with the web experience. If parity is confirmed, update the mobile field order and validate with a short usability check.
+
+3. **Recommendation:** Provide information on the original cause of the overpayment.
+   - _Supporting evidence: Veterans expressed a strong desire for more transparency regarding why the debt exists. They know this information is provided in the physical debt letters, but it's not directly within the app._
+   - _Note: At the moment, this is not technically feasible due to data availability and PII constraints._
+   - **Next Step:** Conduct follow-up discovery with stakeholders (policy, privacy, and engineering) to confirm what debt-cause details are permissible to display in the app. If full digital debt letters cannot be surfaced, define an alternative approach (e.g., standardized reason categories or a short allowable explanation) and document requirements for future work.
+
+4. **Recommendation:** Clearly communicate the specifics of benefit reductions and repayment plans, including when and by how much.
+   - _Supporting evidence: Veterans who rely on these payments to manage monthly budgets need to know exactly which upcoming payment will be impacted and the specific amount to be deducted. Participants also wanted visibility into repayment plan terms (amounts, timing, and status)._
+   - **Next Step:** Collaborate with backend engineering to confirm whether withholding/offset details and repayment plan terms are available to the app and can be displayed safely. If data exists, prototype a “Resolution details” section on the debt detail experience and validate in a targeted follow-up session.
+
+5. **Recommendation:** Make “Last updated” more meaningful and reduce confusion about what it represents.
+   - _Supporting evidence: One Veteran could not find a complete record of her submitted paperwork and follow-on communications, and she questioned whether “Last updated” reflected VA activity or her own actions._
+   - **Next Step:** Define what should drive “Last updated” (VA updates vs. Veteran actions), and add supporting context (e.g., “Updated by VA” / “Updated after you submitted a request” plus the triggering event). Explore whether a lightweight activity log can capture key actions even when they do not generate a letter.
+🐙
 
 ## Product User and Business Outcomes
 
