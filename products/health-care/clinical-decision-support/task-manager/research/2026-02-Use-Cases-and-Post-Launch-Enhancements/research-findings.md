@@ -114,7 +114,7 @@ tags:
 
 **Contacts:** Ruben Sun, Gretchen Raynack
 
-**[Research Readout (PDF)](link-here)**  
+**[Research Readout (PDF)](research-report.pdf)**  
 *Add a link to your research readout deck, if available.*
 
 > [!TIP] 
@@ -290,14 +290,13 @@ Through research we uncovered 14 distinct use cases, across various care team ro
 >
 > *— P3 Primary Care RN*
 
-
-
 > ##### Use Case: Consult/Pre-Op Prep
 >
 > Even though there's a fair amount of prep that happens before cardiology appointments we don't like to add the orders until we're within a week, because if the vets go and get that done too early, then those results mean nothing to us when we see. 
 >
 > *— P5 Heart Failure RN*
 
+<img width="4375" height="3102" alt="Depiction of the types of clinical use cases managed through Task manager across care management and clinical process" src="https://github.com/user-attachments/assets/9aa0b903-1600-4878-b257-f80c306c1021" />
 
 
 ### Task Manager Use and Team Collaboration
@@ -333,8 +332,6 @@ Amongst research participants:
 > [!IMPORTANT]
 > **Product Implication:** Task manager is used both for personal task tracking and management as well as team-based task coordination.
 
-
-
 ### Task Use (Clinician Task Mental Model)
 
 Clinicians in the study prevalently maintain one task per patient. With action items for each patient are typically captured within the task note. As clinicians update the task record, task fields are continuously updated (status, priority, and type).
@@ -364,8 +361,6 @@ Amongst research participants:
 >
 > Many of the task management features (task categorization, assignment, status and due dates, time due) are not currently benefiting those action items maintained within task notes.
 
-
-
 ### Tool Use
 
 Clinicians are typically reviewing patient information side by side with reviewing and updating patient tasks.
@@ -382,7 +377,7 @@ Clinician focus is divided across many tools and screens with notifications and 
 >
 > **Product Implication:** Integration with clinical touchpoint and tools may reduce cognitive effort spent on retrieving patient information, executing action items, coordinating with care team members and corresponding with the patient, and recording outreach attempts.
 
-
+<img width="3779" height="1694" alt="Depiction of tools used alongside the patient EHR and the Task Manager application for use in obtaining patient information, care team coordination, patient correspondence, and outreach coordinationm and appointment scheduling." src="https://github.com/user-attachments/assets/3c624f9a-0e7d-4b83-8f77-7837ba7e155b" />
 
 ### Task Filtering Behavior
 
@@ -430,11 +425,14 @@ Typically used in conjunction with and scheduled appointment or consult. Not use
 >
 > **Product Implication:** Not every task fields will be relevant to each team. There maybe a desire to set defaults, or disable certain fields. More granularity is needed for task status and task priority.
 
-
+<img width="6228" height="1235" alt="Grid illustrating the types of task fields in use." src="https://github.com/user-attachments/assets/1bf1ece7-be29-47fe-bd9f-a6751b8d0292" />
 
 ### Feature Opportunities
 
 Majority of feature requests revolve around task findability and task categorization, and improvements to make task entry less tedious. Additional opportunities relate with surfacing patient information and integration with clinical applications for automated task population and task updates.
+
+<img width="4069" height="2934" alt="Illustration of individual feature requests from research participants." src="https://github.com/user-attachments/assets/d3150d72-e768-47ca-bfc2-e6379afa137a" />
+
 
 #### Opportunity 1: Improved Task Findability
 
