@@ -19,15 +19,26 @@ Based on seven-day comparison: Mar 25-31 (pre-release baseline) vs Apr 8-14 (fir
 
 ### Increases -- root causes identified
 
-- **page_view**: +32.22% on flat traffic (~220k extra views). A bug: the filter click handler called `navigate(pathname)` unconditionally, and vets-website auto-tracks SPA route changes as page views. Each filter click fired a duplicate same-URL pageview. The ~220k extra views align with the ~200k total filter clicks. Fixed in vets-website PR [#44088](https://github.com/department-of-veterans-affairs/vets-website/pull/44088); expect counts to drop back toward baseline once deployed.
+- **page_view**: +32.22% on flat traffic (~220k extra views). A bug: the filter click handler called `navigate(pathname)` unconditionally, and vets-website auto-tracks SPA route changes as page views. Each filter click fired a duplicate same-URL pageview. The ~220k extra views align with the ~200k total filter clicks. Fixed in vets-website PR [#44088](https://github.com/department-of-veterans-affairs/vets-website/pull/44088) (deployed Apr 16).
 - **Self-navigation**: ~900% increase in views (combined ~217k vs ~22k). Same bug -- each same-URL navigation produced a pageview whose referrer was also `/track-claims/your-claims`, which GA counts as self-navigation. This accounts for ~99% of total outbound-views growth. Fixed in PR #44088.
 - **Claim letters navigation**: +38.35% in views. For users with closed claims, the default In progress filter shows fewer cards, moving the Claim Letters section closer to the top of the page. Inverse of the OTP click decline noted above.
 
+### Confirmed post-fix (Mar 27-29 vs Apr 17-19)
+
+PR #44088's first three full days post-deploy show the bug-driven spikes are gone:
+
+- **page_view** is +11.87% on +8% traffic -- normal variation, down from the ~32 pp excess when the bug was active.
+- **Self-navigation** collapsed to -77.4% / -82.41% (combined -79%), below baseline.
+- No behavioral regressions -- claim/appeal detail, Details clicks, pagination, and claim letters all consistent with the 7-day pattern.
+
+See the full Mar 27-29 vs Apr 17-19 report below.
+
 ### Frustration (Datadog RUM)
 
-- Frustration rate edged up from 7.84% to 9.19% -- a 1.35 pp change. The shift is real rather than a sampling artifact (frustration views grew faster than overall sampled views), but the absolute change is modest and RUM frustration signals (rage clicks, dead clicks) are inherently noisy. Not a strong negative signal on its own.
-- Session replays reviewed at release time did not reveal a clear pattern
-- Continue tracking; if the rate doesn't normalize within 2-3 weeks, investigate via session replays
+- 7-day post-release rate edged up from 7.84% to 9.19% -- a 1.35 pp change. Real rather than a sampling artifact, but modest. RUM frustration signals are inherently noisy, so a swing of this size isn't a strong negative signal on its own.
+- 3-day post-fix rate (Apr 17-19) sits at 8.45% -- closer to the pre-release baseline (7.84%) than to the 7-day peak (9.19%). Rate-growth pressure has eased.
+- Session replays reviewed at release time did not reveal a clear pattern.
+- Continue tracking; re-check with a 7-day post-fix window once ~7 days of data are available (~Apr 24 onward).
 
 ### Potential Concern: Default View Without Cards or With Far Fewer Cards
 
@@ -36,12 +47,12 @@ Users who navigate to `/track-claims/your-claims` with only closed claims (e.g.,
 ### Action Items
 
 - [ ] Continue monitoring claim and appeal detail session declines -- escalate if either trend deepens, which could indicate users are missing closed items hidden by the default In progress filter.
-- [x] Investigate unexplained page_view and self-navigation increases -- root cause identified; fixed in vets-website PR [#44088](https://github.com/department-of-veterans-affairs/vets-website/pull/44088). Verify counts drop post-deploy.
+- [x] Investigate unexplained page_view and self-navigation increases -- root cause identified and fixed in vets-website PR [#44088](https://github.com/department-of-veterans-affairs/vets-website/pull/44088) (deployed Apr 16). Apr 17-19 comparison confirms the bug-driven spikes are gone.
 - [x] Investigate claim letters navigation increase -- explained by fewer cards on default view moving the Claim Letters section closer to the top of the page.
 - [x] Collect full 7-day comparison -- Mar 25-31 vs Apr 8-14 report added below.
 - [x] Collect full 7-day Datadog RUM frustration comparison -- Mar 25-31 vs Apr 8-14 report added below.
-- [ ] Continue monitoring frustration rate; investigate via session replays if the rate doesn't normalize within 2-3 weeks
-- [x] Add a post-#44088 report to confirm the expected drop -- Apr 16 partial-day comparison added below shows the bug-driven metrics halved as predicted. Full-day Apr 17 vs Mar 27 comparison is the next step.
+- [x] Post-#44088 verification -- Mar 27-29 vs Apr 17-19 reports (GA + Datadog) added below.
+- [ ] Collect 7-day post-fix comparison once ~7 days of data are available (~Apr 24 onward) for both GA and Datadog windows.
 
 ## Google Analytics Release Monitoring
 
@@ -54,7 +65,8 @@ Create or update the following GA4 Explore tabs to monitor the rollout. Record b
   - Release-time review of several dozen Datadog replays and the frustration count showed nothing concerning.
 - Baseline: Mar 25 - Mar 31 (Wed-Tue, one week earlier than release week to avoid partial data)
 - Post-release: Apr 8 - Apr 14 (Wed-Tue, first full week post-release)
-- Week 2: Apr 15 - Apr 21 (for trend comparison and post-#44088 verification)
+- Post-fix (3-day): Mar 27-29 vs Apr 17-19 (first three full days after PR #44088 deploy)
+- Post-fix (7-day): pending (~Apr 24 onward, once enough post-fix data is available)
 
 Use matching day-of-week windows to account for weekday/weekend traffic differences.
 
@@ -241,63 +253,92 @@ The +38.35% increase in claim letters navigation is expected. For users with clo
 
 ---
 
-### Report: March 26 vs April 16
+### Report: March 27-29 vs April 17-19
 
-> **Partial-day data.** Vets-website PR [#44088](https://github.com/department-of-veterans-affairs/vets-website/pull/44088) deployed Apr 16 at ~1:00 PM ET. This comparison captures a single day in which roughly the first half was pre-fix (bug active, pageview inflation present) and the second half was post-fix (bug resolved). This will be superseded by an Apr 17 vs Mar 27 full-day comparison once Apr 17 data is complete.
-
-Primary goal: verify PR #44088 is reducing the page_view and self-navigation inflation without breaking other metrics.
+> **First 3 full days post-#44088.** PR [#44088](https://github.com/department-of-veterans-affairs/vets-website/pull/44088) deployed Apr 16 at ~1:00 PM ET. Apr 17-19 are the first three complete days with the fix active. Three-day Fri-Sun window matches Mar 27-29 on day-of-week.
 
 **Traffic baseline**:
 
-| Metric | Mar 26 | Apr 16 | Change |
+| Metric | Mar 27-29 | Apr 17-19 | Change |
 |---|---|---|---|
-| Active users | 51,753 | 52,660 | +1.75% |
-| Sessions | 68,106 | 69,079 | +1.43% |
+| Active users | 75,966 | 81,860 | +7.76% |
+| Sessions | 112,139 | 121,107 | +8.00% |
 
-Traffic is essentially flat (+1-2%), so changes below are behavioral.
+Traffic is up ~8% (natural variance across windows). Percentage changes below should be read against this lift -- a metric tracking at ~+8% is flat on traffic.
 
-#### Bug fix signals (the key question)
+#### Filter Clicks
 
-| Metric | 7-day baseline | Apr 16 (half-day fix) | Prediction if fix works |
+| Filter Label | Active users | Event count |
+|---|---|---|
+| Totals | 25,357 | 59,032 |
+| Closed | 18,678 | 24,833 |
+| All | 15,146 | 19,327 |
+| In progress | 10,895 | 14,872 |
+
+Distribution 42%/33%/25% -- essentially identical to the 7-day (42%/31%/26%). Filter usage is stable.
+
+#### Your Claims Events
+
+| Event | Mar 27-29 | Apr 17-19 | Change |
 |---|---|---|---|
-| page_view | +32.22% | +15.41% | ~half the inflation |
-| Self-nav `/your-claims` (no slash) | +830.07% | +306.05% | ~half the inflation |
-| Self-nav `/your-claims/` (trailing) | +1,033.03% | +376.06% | ~half the inflation |
+| page_view | 187,283 | 209,517 | +11.87% |
+| api_call | 179,453 | 196,358 | +9.42% |
+| link_click / Details | 82,523 | 72,312 | -12.37% |
+| button / Closed | 0 | 24,833 | new |
+| button / All | 0 | 19,327 | new |
+| button / In progress | 0 | 14,872 | new |
 
-All three bug-driven metrics dropped by roughly half -- consistent with the fix running for roughly half the day. **PR #44088 is working as intended.** A full post-fix day (Apr 17) should drop these signals back toward baseline (near 0% for page_view, low single-digit % for self-nav).
+page_view is +11.87% on +8% traffic -- only ~4 pp above traffic growth, which is normal variation. The ~32 pp page_view excess from the 7-day window (when the bug was active) is gone.
 
-#### Behavioral metrics (regression check)
+api_call +9.42% tracks traffic (+8%). link_click / Details -12.37% continues the behavioral shift from the 7-day (-14.82%) -- the In progress filter surfaces active items, reducing browsing.
 
-| Metric | 7-day baseline | Apr 16 | Status |
+#### Claim Detail Page Navigation
+
+| Metric | Mar 27-29 | Apr 17-19 | Change |
 |---|---|---|---|
-| Filter clicks (Closed/All/In progress distribution) | 42%/31%/26% | 43%/32%/25% | Consistent |
-| link_click / Details | -14.82% | -16.09% | Consistent |
-| api_call | -0.47% | +1.11% | Flat |
-| Claim detail sessions | -16.14% | -16.95% | Consistent |
-| Appeal detail sessions | -6.79% | -9.3% | Slightly larger but within daily variance |
-| Pagination sessions | -44.48% | -39.51% | Consistent |
-| Claim letters outbound views | +38.35% | +42.29% | Consistent |
+| Total sessions | 41,853 | 35,464 | -15.27% |
 
-No unexpected regressions. Behavioral metrics match the 7-day baseline, which confirms the fix isn't breaking other flows.
+Consistent with the 7-day (-16.14%). Same mechanism: In progress filter surfaces active claims, reducing Detail-click-through.
 
-#### Outbound Navigation (Views) -- partial day
+#### Appeal Detail Page Navigation
 
-| Top Destination | Mar 26 | Apr 16 | Change |
+| Metric | Mar 27-29 | Apr 17-19 | Change |
 |---|---|---|---|
-| /track-claims/your-claim-letters | 16,163 | 22,999 | +42.29% |
-| / | 13,416 | 14,868 | +10.82% |
-| /track-claims/your-claims (self-nav) | 2,448 | 9,939 | +306.05% |
-| /track-claims/your-claims/ (self-nav) | 1,245 | 5,927 | +376.06% |
-| /my-va/ | 5,181 | 5,176 | -0.1% |
+| Total sessions | 21,608 | 20,264 | -6.22% |
 
-Self-nav rows still elevated because the bug was active pre-1pm. Expect these to drop sharply in tomorrow's full-day comparison.
+Consistent with the 7-day (-6.79%). Same mechanism as claim detail.
+
+#### Pagination
+
+| Page | Mar 27-29 | Apr 17-19 | Change |
+|---|---|---|---|
+| ?page=2 | 569 | 287 | -49.56% |
+| ?page=1 | 156 | 60 | -61.54% |
+| ?page=3 | 73 | 73 | 0% |
+| ?page=4 | 20 | 17 | -15% |
+| ?page=5 | 6 | 5 | -16.67% |
+
+Total pagination sessions -47.09% (601 → 318). Consistent with the 7-day (-44.48%).
+
+#### Outbound Navigation (Views)
+
+| Top Destination | Mar 27-29 | Apr 17-19 | Change |
+|---|---|---|---|
+| /track-claims/your-claim-letters | 26,552 | 40,757 | +53.5% |
+| / | 22,356 | 27,734 | +24.06% |
+| /my-va/ | 8,612 | 9,522 | +10.57% |
+| /track-claims/your-claims (self-nav) | 4,181 | 945 | -77.4% |
+| /track-claims/your-claims/ (self-nav) | 2,320 | 408 | -82.41% |
+
+The self-navigation spikes from the 7-day window are gone. Self-nav was +830% / +1,033% pre-fix -- now -77.4% / -82.41%, actually below baseline. Combined self-nav views dropped from 6,501 (baseline) to 1,353 (post-fix), a -79% decrease. No remaining signature of the filter-click pageview bug.
+
+Claim letters +53.5% continues the post-release lift (section physically closer to the top of the page for users with closed claims). Homepage +24.06% and My VA +10.57% roughly track with the +8% traffic growth.
 
 #### Bottom line
 
-- **PR #44088 is working.** The bug-driven signals (page_view, self-nav) dropped by ~50% on a half-day fix, matching the prediction.
-- **No regressions.** Behavioral metrics (claim detail, details clicks, pagination, claim letters) are consistent with the 7-day baseline.
-- **Datadog RUM frustration** for the matching post-deploy window shows the signal easing. See the Datadog RUM Release Monitoring section below for details.
-- **Next step:** collect Apr 17 vs Mar 27 full-day GA comparison (and the matching Datadog window) once Apr 17 data is complete. Expect page_view inflation to drop to near 0% and self-nav to drop to low single-digit %.
+- **PR #44088 fully resolved the bug.** page_view is now ~4 pp above traffic growth (normal). Self-navigation is below baseline. The 7-day window's bug-driven spikes are gone.
+- **No regressions.** All behavioral metrics (claim/appeal detail, Details clicks, pagination, claim letters) are consistent with the 7-day pattern within expected variance.
+- **Datadog RUM frustration** for the matching Apr 17-19 window shows the rate-growth pressure from the 7-day post-release window has eased. See the Datadog RUM Release Monitoring section below for details.
 
 ---
 
@@ -326,19 +367,26 @@ Frustration filter adds: `@view.frustration.count:>0`
 | Views with frustration | 4,953 | 6,484 | +30.9% |
 | Frustration rate | 7.84% | 9.19% | +1.35 pp |
 
-Frustration rate edged up 1.35 pp (from 7.84% to 9.19%). Frustration views grew +30.9% while sampled views grew only +11.6%, so the shift is real rather than a sampling artifact. That said, the absolute change is modest, and RUM frustration signals (rage clicks, dead clicks) are inherently noisy -- a 1-2 pp swing on a metric with an ~8% baseline is not dispositive on its own. Session replays reviewed at release time did not reveal a clear pattern. Continue tracking; if the rate doesn't normalize within 2-3 weeks, investigate via session replays.
+The 7-day post-release rate (9.19%) is up 1.35 pp from the pre-release baseline (7.84%). The shift is real rather than a sampling artifact -- frustration-view growth (+30.9%) outpaced total-view growth (+11.6%) by a wide margin. RUM frustration signals (rage clicks, dead clicks) are inherently noisy, so the shift isn't a strong negative signal on its own, but it's worth tracking alongside the 3-day post-fix follow-up below. Session replays reviewed at release time did not reveal a clear pattern.
 
-### Report: March 26-27 vs April 16-17
+### Report: March 27-29 vs April 17-19
 
-Matches the GA Apr 16 post-deploy report above. 23-hour window `Apr 16 11:00 AM – Apr 17 10:02 AM` (~91% post-deploy; PR [#44088](https://github.com/department-of-veterans-affairs/vets-website/pull/44088) deployed Apr 16 ~1:00 PM ET) against the matching baseline window `Mar 26 11:00 AM – Mar 27 10:02 AM`.
+Matches the GA 3-day post-fix report above. Full calendar days `Apr 17 - Apr 19, 2026` (first three complete days post-#44088 deploy) against the matching baseline `Mar 27 - Mar 29, 2026` (same Fri-Sun).
 
-| Metric | Mar 26-27 | Apr 16-17 | Change |
+**Sampled views baseline**:
+
+| Metric | Mar 27-29 | Apr 17-19 | Change |
 |---|---|---|---|
-| Total sampled views | 9,457 | 10,309 | +9.0% |
-| Frustration views | 744 | 862 | +15.9% |
-| Frustration rate | 7.87% | 8.36% | +0.49 pp |
+| Total sampled views | 17,938 | 21,832 | +21.7% |
 
-The post-deploy rate (8.36%) is closer to the 7-day pre-release baseline (7.84%) than to the 7-day post-release peak (9.19%) -- directionally suggesting the frustration signal is easing. The rate change here (+0.49 pp) is smaller than the 7-day post-release change (+1.35 pp), and frustration view growth (+15.9%) is about half the 7-day growth (+30.9%). Same caveat as the 7-day data: RUM frustration signals are noisy and a sub-1 pp swing is not dispositive, but the direction of movement is encouraging. Re-check with a full-week comparison once ~7 days of post-deploy data are available (~Apr 24 onward).
+#### Frustration
+
+| Metric | Mar 27-29 | Apr 17-19 | Change |
+|---|---|---|---|
+| Views with frustration | 1,448 | 1,844 | +27.3% |
+| Frustration rate | 8.07% | 8.45% | +0.37 pp |
+
+The 3-day post-fix rate (8.45%) is essentially identical to the Apr 16-17 post-deploy window (8.36%) -- both sit between the 7-day pre-release baseline (7.84%) and the 7-day post-release peak (9.19%), closer to baseline. The rate change (+0.37 pp) is smaller than the 7-day post-release change (+1.35 pp), and the gap between frustration-view growth and total-view growth has narrowed (~6 pp here vs ~19 pp in the 7-day post-release window). The rate-growth pressure from the 7-day window has eased substantially. Continue tracking; re-check with a 7-day post-fix window once ~7 days of data are available (~Apr 24 onward).
 
 ### Investigating Frustration Signals
 
