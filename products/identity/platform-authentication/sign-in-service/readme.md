@@ -1,14 +1,14 @@
 # Sign-in Service (SiS)
 
-Sign-in Service is Identity team's OAuth 2.0 authentication service for VA.gov. It provides a reliable, faster sign-in experience for Veterans and enables VA applications to authenticate users through a standardized set of endpoints.
+Sign-in Service is Identity team's OAuth 2.0 authentication service for VA.gov. It provides a reliable, faster sign-in experience for Veterans and enables VA applications to authenticate users through a standardized set of endpoints. 
+
+For VFS teams looking to learn more about the integration process, review our [SiS onboarding documentation](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Products/Sign-In%20Service#sign-in-service-sis-overview). 
 
 **Slack channel:** [#identity-support](https://dsva.slack.com/archives/CSFV4QTKN)
 
 ---
 
 ## Integration guides
-For VFS teams looking to learn more about the integration process, review our [SiS onboarding documentation](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Products/Sign-In%20Service#sign-in-service-sis-overview). 
-
 If you're a developer who's ready to start building, use the [quickstart guide](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Products/Sign-In%20Service/Engineering%20Docs#sign-in-service-sis). For more details on how SiS works, read the technical reference and support documentation below.
 
 | Type | Description |
