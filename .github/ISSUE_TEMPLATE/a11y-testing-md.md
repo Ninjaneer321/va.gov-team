@@ -38,16 +38,18 @@ Complete all required checks and as many recommended checks as you can. If you c
 
 ### Automated testing
 #### Required
-- **Axe DevTools has been run on every page (Automated-001)**  
-  Axe Devtools has been run against every page in your flow, including page variations, interactive states of content, etc.
-  [Learn more about testing with Axe DevTools](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/prepare-for-an-accessibility-staging-review#Prepareforanaccessibilitystagingreview-AutomatedtestingwithaxebyDequeaxe)
+- **Axe DevTools has been run on every page**  
+  Automated-001 | Severity: N/A   
+  Axe Devtools has been run against every page in your flow, including page variations, interactive states of content, etc.  
+    [Learn more about testing with Axe DevTools](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/prepare-for-an-accessibility-staging-review#Prepareforanaccessibilitystagingreview-AutomatedtestingwithaxebyDequeaxe)
   - [ ] Pass  
   - [ ] Fail
   - [ ] Include screenshots or output of AXE results in a comment on this ticket
 
 #### Recommended
-- **Axe-core has been integrated in end to end testing (Automated-002)**  
-  End to end testing with Cypress or other libraries includes Axe-core scanning.
+- **Axe-core has been integrated in end to end testing**  
+  Automated-002 | Severity: N/A  
+  End to end testing with Cypress or other libraries includes Axe-core scanning.  
   [Learn more about integrating Axe-core in end-to-end testing](https://depo-platform-documentation.scrollhelp.site/developer-docs/end-to-end-testing-with-cypress). 
   - [ ] Pass  
   - [ ] Fail
@@ -57,37 +59,42 @@ Complete all required checks and as many recommended checks as you can. If you c
 
 ### Images
 #### Required
-- **Meaningful descriptions are provided for informative images (WEB-111-001)**  
-  All informative images have a text alternative that is meaningful and serves the equivalent purpose.
+- **Meaningful descriptions are provided for informative images**  
+  WEB-111-001 | Severity: High or Critical  
+  All informative images have a text alternative that is meaningful and serves the equivalent purpose.  
   [Testing WEB-111-001](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-111-001-Meaningfuldescriptionsareprovidedforinformativeimages(Required))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **No images of text (WEB-145)**  
-  Images of text are not used when the same presentation can be made with native HTML/CSS. Logos and branding are excluded.
+- **No images of text**  
+  WEB-145 | Severity: High or Critical  
+  Images of text are not used when the same presentation can be made with native HTML/CSS. Logos and branding are excluded.  
   [Testing WEB-145](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-145-Noimagesoftext(Required))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
 #### Recommended
-- **Brief and detailed descriptions are provided for complex images (WEB-111-002)**  
-  Complex images (graphs, maps, charts) have both alt text and longer descriptions that together accurately convey all relevant information.
+- **Brief and detailed descriptions are provided for complex images**  
+  WEB-111-002 |  Severity: High or Critical  
+  Complex images (graphs, maps, charts) have both alt text and longer descriptions that together accurately convey all relevant information.  
   [Testing WEB-111-002](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-111-002-Briefanddetaileddescriptionsareprovidedforcompleximages(Recommended))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Decorative images are hidden from screen readers (WEB-111-003)**  
-  All non-text content that is decorative, provides no contextual value, or is already defined by surrounding content is hidden from screen readers.
+- **Decorative images are hidden from screen readers**  
+  WEB-111-003 | Severity: Medium or High  
+  All non-text content that is decorative, provides no contextual value, or is already defined by surrounding content is hidden from screen readers.  
   [Testing WEB-111-003](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-111-003-Decorativeimagesarehiddenfromscreenreaders(Recommended)) 
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Background images are not used for informative content (WEB-111-004)**  
-  CSS background images must not be used to convey meaningful information unless that same information is also provided in an accessible form elsewhere.
+- **Background images are not used for informative content**  
+  WEB-111-004 | High or Critical  
+  CSS background images must not be used to convey meaningful information unless that same information is also provided in an accessible form elsewhere.  
   [Testing WEB-111-004](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-111-004-Backgroundimagesarenotusedforinformativecontent(Recommended))
   - [ ] Pass  
   - [ ] Fail
@@ -97,37 +104,42 @@ Complete all required checks and as many recommended checks as you can. If you c
 
 ### Audio & video
 #### Required
-- **Captions are provided for all prerecorded videos (WEB-122)**  
-  Prerecorded videos include synchronized captions for dialogue, sound effects, and relevant audio.
+- **Captions are provided for all prerecorded videos**  
+  WEB-122 | Severity: Critical  
+  Prerecorded videos include synchronized captions for dialogue, sound effects, and relevant audio.  
   [Testing WEB-122](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-122-Captionsareprovidedforallprerecordedvideos(Required))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Transcripts or audio descriptions are included for videos (WEB-123)**  
-  Non‑live video includes a full descriptive transcript or an audio description.
+- **Transcripts or audio descriptions are included for videos**  
+  WEB-123 | Severity: High  
+  Non‑live video includes a full descriptive transcript or an audio description.  
   [Testing WEB-123](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-123-Transcriptsoraudiodescriptionsareincludedforvideoswithaudio(Required)) 
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Auto-playing audio can be paused or has volume controls (WEB-142)**  
-  Audio that plays automatically for more than 3 seconds can be paused OR has an independent volume control.
+- **Auto-playing audio can be paused or has volume controls**  
+  WEB-142 | Severity: Critical  
+  Audio that plays automatically for more than 3 seconds can be paused OR has an independent volume control.  
   [Testing WEB-142](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-142-Auto-playingaudiocanbepausedorhasvolumecontrols(Required))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
 #### Recommended
-- **Text transcripts are provided for audio and video-only content (WEB-121)**  
-  For audio-only and video-only media, a transcript is provided which provides the same information as presented in the original media content.
+- **Text transcripts are provided for audio and video-only content**  
+  WEB-121 | Severity: Critical  
+  For audio-only and video-only media, a transcript is provided which provides the same information as presented in the original media content.  
   [Testing Web-121](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-121-Texttranscriptsareprovidedforaudioandvideo-onlycontent(Recommended))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Real-time captions are provided for live videos (WEB-124)**  
-  Live video includes synchronized captions generated in real-time.
+- **Real-time captions are provided for live videos**  
+  WEB-124 | Severity: Critical  
+  Live video includes synchronized captions generated in real-time.  
   [Testing WEB-124](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-124-Real-timecaptionsareprovidedforlivevideos(Recommended))
   - [ ] Pass  
   - [ ] Fail
@@ -137,65 +149,74 @@ Complete all required checks and as many recommended checks as you can. If you c
 
 ### Structure & semantics
 #### Required
-- **Headings match the content hierarchy and use proper HTML tags (WEB-131-001)**  
-  Headings accurately reflect content hierarchy and are semantically marked.
+- **Headings match the content hierarchy and use proper HTML tags**  
+  WEB-131-001 | Severity: High or Critical  
+  Headings accurately reflect content hierarchy and are semantically marked.  
   [Testing WEB-131-001](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-131-001-HeadingsmatchthecontenthierarchyanduseproperHTMLtags(Required))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Headings follow a logical order without skipping levels (WEB-131-002)**  
-  Heading levels follow a logical, sequential, hierarchy with no skipped heading levels.
+- **Headings follow a logical order without skipping levels ()**  
+  WEB-131-002 | Severity: High  
+  Heading levels follow a logical, sequential, hierarchy with no skipped heading levels.  
   [Testing WEB-131-002](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-131-002-Headingsfollowalogicalorderwithoutskippinglevels(Required))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **There is one H1 per page/screen (WEB-131-003)**  
-  A single H1 exists for every page or screen.
+- **There is one H1 per page/screen**  
+  WEB-131-003 | Severity: High  
+  A single H1 exists for every page or screen.  
   [Testing WEB-131-003](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-131-003-ThereisoneH1perpage/screen(Required))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Each page has a unique, descriptive title (WEB-242)**  
-  Each web page, or screen, has a unique and descriptive title reflecting its purpose.
+- **Each page has a unique, descriptive title**  
+  WEB-242 | Severity: Low or Medium  
+  Each web page, or screen, has a unique and descriptive title reflecting its purpose.  
   [Testing WEB-242](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-242-Eachpagehasaunique,descriptivetitle(Required)) 
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Headings are descriptive (WEB-246-001)**  
-  Heading text accurately describes the topic or purpose of the content that follows.
+- **Headings are descriptive**  
+  WEB-246-001 | Severity: Medium or High  
+  Heading text accurately describes the topic or purpose of the content that follows.  
   [Testing WEB-246-001](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-246-001-Headingsaredescriptive(Required))  
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
 #### Recommended
-- **Lists use proper list formatting (WEB-131-004)**  
-  All visually apparent lists are marked up using semantic list types.
+- **Lists use proper list formatting**  
+  WEB-131-004 | Severity: High  
+  All visually apparent lists are marked up using semantic list types.  
   [Testing WEB-131-004](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-131-004-Listsuseproperlistformatting(Recommended))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Content is organized into sections (WEB-2410)**  
-  Content organized in sections includes section headings.
+- **Content is organized into sections**  
+  WEB-2410 | Severity: Low or Medium  
+  Content organized in sections includes section headings.  
   [Testing WEB-2410](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-2410-Contentisorganizedintosections(Required)) 
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **The page language is identified (WEB-311)**  
-  The `<html>` element includes a valid `lang` attribute specifying the page’s primary language.
+- **The page language is identified**  
+  WEB-311 | Severity: Medium  
+  The `<html>` element includes a valid `lang` attribute specifying the page’s primary language.  
   [Testing WEB-311](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-311-Thepagelanguageisidentified(Recommended))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Content in another language is identified (WEB-312)**  
-  Text in different languages from the page's primary language is marked with `lang` attributes.
+- **Content in another language is identified**  
+  WEB-312 | Severity: Medium  
+  Text in different languages from the page's primary language is marked with `lang` attributes.  
   [Testing WEB-312](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-312-Contentinanotherlanguageisidentified(Recommended))
   - [ ] Pass  
   - [ ] Fail
@@ -205,36 +226,41 @@ Complete all required checks and as many recommended checks as you can. If you c
 
 ### Color, contrast, & sensory
 #### Required
-- **Instructions don't rely only on color, shape, size, or sound (WEB-133)**  
-  Instructions and cues do not rely exclusively on sensory characteristics.
+- **Instructions don't rely only on color, shape, size, or sound**  
+  WEB-133 | Severity: Critical  
+  Instructions and cues do not rely exclusively on sensory characteristics.  
   [Testing WEB-133](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-133-Instructionsdon'trelyonlyoncolor,shape,size,orsound(Required))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Information is not communicated by color alone (WEB-141)**  
-  Color is never the sole visual means of conveying information.
+- **Information is not communicated by color alone**  
+  WEB-141 | Severity: Critical  
+  Color is never the sole visual means of conveying information.  
   [Testing WEB-141](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-141-Informationisnotcommunicatedbycoloralone(Required))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Text has sufficient contrast against its background (WEB-143)**  
-  Text and images of text have a contrast ratio of at least 4.5:1 and large-scale text and images of large-scale text have a contrast ratio of at least 3:1.
+- **Text has sufficient contrast against its background**  
+  WEB-143 | Severity: Medium, High, or Critical  
+  Text and images of text have a contrast ratio of at least 4.5:1 and large-scale text and images of large-scale text have a contrast ratio of at least 3:1.  
   [Testing WEB-143](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-143-Texthassufficientcontrastagainstitsbackground(Required))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Interactive elements are visually distinct from surroundings (WEB-1411-001)**  
-  Active UI components achieve a 3:1 contrast ratio against adjacent colors.
+- **Interactive elements are visually distinct from surroundings**  
+  WEB-1411-001 | Severity: High or Critical  
+  Active UI components achieve a 3:1 contrast ratio against adjacent colors.  
   [Testing WEB-1411-001](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-1411-001-Interactiveelementsarevisuallydistinctfromsurroundings(Required))  
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Important graphics and icons have sufficient contrast (WEB-1411-002)**  
-  Essential graphical objects have a 3:1 contrast ratio against adjacent colors
+- **Important graphics and icons have sufficient contrast**  
+  WEB-1411-002 | Severity: High  
+  Essential graphical objects have a 3:1 contrast ratio against adjacent colors.  
   [Testing WEB-1411-002](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-1411-002-Importantgraphicsandiconshavesufficientcontrast(Required)) 
   - [ ] Pass  
   - [ ] Fail
@@ -244,30 +270,34 @@ Complete all required checks and as many recommended checks as you can. If you c
 
 ### Layout & responsiveness
 #### Required
-- **Text can be enlarged to 200% without breaking the page (WEB-144)**  
-  Text can be resized up to 200% without loss of content or functionality.
+- **Text can be enlarged to 200% without breaking the page**  
+  WEB-144 | Severity: Medium or High  
+  Text can be resized up to 200% without loss of content or functionality.  
   [Testing WEB-144](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-144-Textcanbeenlargedto200%withoutbreakingthepage(Required))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Content fits on small screens without horizontal scrolling (WEB-1410)**  
-  Content reflows to a single-dimension scroll at 320x256 CSS pixels and larger.
+- **Content fits on small screens without horizontal scrolling**  
+  WEB-1410 | Severity: High or Critical  
+  Content reflows to a single-dimension scroll at 320x256 CSS pixels and larger.  
   [Testing WEB-1410](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-1410-Contentfitsonsmallscreenswithouthorizontalscrolling(Required)) 
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
 #### Recommended
-- **Content works in both portrait and landscape mode (WEB-134)**  
-  Content is viewable in portrait and landscape orientations unless essential otherwise.
+- **Content works in both portrait and landscape mode**  
+  WEB-134 | Severity: Critical  
+  Content is viewable in portrait and landscape orientations unless essential otherwise.  
   [Testing WEB-134](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-134-Contentworksinbothportraitandlandscapemode(Recommended))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Text remains readable when spacing is adjusted (WEB-1412)**  
-  No content or functionality may be lost when text is set to: line spacing of 1.5x font size, letter spacing at 0.12x font size, word spacing at 0.16x font size, and paragraph spacing 2x the font size and that styling does not prevent overrides.
+- **Text remains readable when spacing is adjusted**  
+  WEB-1412 | Severity: Low or Medium  
+  No content or functionality may be lost when text is set to: line spacing of 1.5x font size, letter spacing at 0.12x font size, word spacing at 0.16x font size, and paragraph spacing 2x the font size and that styling does not prevent overrides.  
   [Testing WEB-1412](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-1412-Textremainsreadablewhenspacingisadjusted(Recommended))
   - [ ] Pass  
   - [ ] Fail
@@ -276,8 +306,9 @@ Complete all required checks and as many recommended checks as you can. If you c
 ---
 ### Pointer & motion
 #### Required
-- **Features don't require shaking or tilting the device (WEB-254)**  
-  Motion-activated features have alternative input methods and can be disabled.
+- **Features don't require shaking or tilting the device**  
+  WEB-254 | Severity: Critical  
+  Motion-activated features have alternative input methods and can be disabled.  
   [Testing WEB-254](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-254-Featuresdon'trequireshakingortiltingthedevice(Required))
   - [ ] Pass  
   - [ ] Fail
@@ -287,50 +318,57 @@ Complete all required checks and as many recommended checks as you can. If you c
 
 ### Keyboard & focus
 #### Required
-- **All functionality works with keyboard only (WEB-211)**  
-  All interactive elements and features can be accessed and operated using only a keyboard.
+- **All functionality works with keyboard only**  
+  WEB-211 | Severity: Critical  
+  All interactive elements and features can be accessed and operated using only a keyboard.  
   [Testing WEB-211](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-211-Allfunctionalityworkswithkeyboardonly(Required))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **No keyboard trap (WEB-212)**  
-  Users can move keyboard focus away from any element using standard keys.
+- **No keyboard trap**  
+  WEB-212 | Severity: Critical   
+  Users can move keyboard focus away from any element using standard keys.  
   [Testing WEB-212](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-212-Nokeyboardtrap(Required)) 
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Every focusable element has a visible focus indicator (WEB-247)**  
-  All interactive elements show a visible outline or indicator when receiving keyboard focus.
+- **Every focusable element has a visible focus indicator**  
+  WEB-247 | Severity: Critical  
+  All interactive elements show a visible outline or indicator when receiving keyboard focus.  
   [Testing WEB-247](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-247-Everyfocusableelementhasavisiblefocusindicator(Required))
   - [ ] Pass  
   - [ ] Fail  
 
 #### Recommended
-- **Tab order follows a logical sequence (WEB-243)**  
-  Keyboard focus moves through interactive elements in a meaningful order.
+- **Tab order follows a logical sequence**  
+  WEB-243 | Severity: High or Critical  
+  Keyboard focus moves through interactive elements in a meaningful order.  
   [Testing WEB-243](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-243-Taborderfollowsalogicalsequence(Recommended))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **The element with focus is always visible (WEB-2411)**  
-  The element with focus remains visible and on‑screen and is not obscured by other content.
+- **The element with focus is always visible**  
+  WEB-2411 | Severity: Critical  
+  The element with focus remains visible and on‑screen and is not obscured by other content.  
   [Testing WEB-2411](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-2411-Theelementwithfocusisalwaysvisible(Recommended))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Focusing on an element doesn't trigger unexpected changes (WEB-321)**  
-  Focusing an element does not trigger a change of context.
+- **Focusing on an element doesn't trigger unexpected changes**   
+  WEB-321 | Severity: Critical  
+  Focusing an element does not trigger a change of context.  
   [Testing WEB-321](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-321-Focusingonanelementdoesn'ttriggerunexpectedchanges(Recommended))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Interacting with form fields doesn't trigger unexpected changes (WEB-322)**  
-  Changing form values does not automatically cause navigation or context changes without warning.
+- **Interacting with form fields doesn't trigger unexpected changes**  
+  WEB-322 | Severity: High or Critical  
+  Changing form values does not automatically cause navigation or context changes without warning.  
   [Testing WEB-322](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-322-Interactingwithformfieldsdoesn'ttriggerunexpectedchanges(Recommended))
   - [ ] Pass  
   - [ ] Fail
@@ -340,8 +378,9 @@ Complete all required checks and as many recommended checks as you can. If you c
 
 ### Timing & interruptions
 #### Required
-- **Automatically moving content can be paused or stopped (WEB-222)**  
-  All moving, blinking, scrolling, or auto-updating content provides mechanisms to pause, stop, hide, or control its frequency if it starts automatically and lasts over 5 seconds.
+- **Automatically moving content can be paused or stopped**   
+  WEB-222 | Severity: Critical  
+  All moving, blinking, scrolling, or auto-updating content provides mechanisms to pause, stop, hide, or control its frequency if it starts automatically and lasts over 5 seconds.  
   [Testing WEB-222](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-222-Automaticallymovingcontentcanbepausedorstopped(Required))
   - [ ] Pass  
   - [ ] Fail
@@ -351,30 +390,34 @@ Complete all required checks and as many recommended checks as you can. If you c
 
 ### Navigation & consistency
 #### Required
-- **Users can skip repeated content like headers and navigation (WEB-241)**  
-  A mechanism is provided to bypass repeated blocks of content (e.g., navigation, headers) on multiple webpages such as a skip link, HTML5 landmarks, etc.
+- **Users can skip repeated content like headers and navigation**  
+  WEB-241 | Severity: High  
+  A mechanism is provided to bypass repeated blocks of content (e.g., navigation, headers) on multiple webpages such as a skip link, HTML5 landmarks, etc.  
   [Testing WEB-241](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-241-Userscanskiprepeatedcontentlikeheadersandnavigation(Required)) 
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
 #### Recommended
-- **Pages can be found in multiple ways (WEB-245)**  
-  Two or more mechanisms of finding a webpage are available, unless the page is accessed as part of a step in a process.
+- **Pages can be found in multiple ways**  
+  WEB-245 | Severity: Low  
+  Two or more mechanisms of finding a webpage are available, unless the page is accessed as part of a step in a process.  
   [Testing WEB-245](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-245-Pagescanbefoundinmultipleways(Recommended))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Navigation structure is the same across pages (WEB-323)**  
-  Navigation menus maintain consistent order and structure across multiple pages.
+- **Navigation structure is the same across pages**  
+  WEB-323 | Severity: High  
+  Navigation menus maintain consistent order and structure across multiple pages.  
   [Testing WEB-323](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-323-Navigationstructureisthesameacrosspages(Recommended)) 
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Help options appear in the same location on all pages (WEB-326)**  
-  Help mechanisms such as contact details, messaging, chat, or self-help options must be in the same relative order on all pages where the information is present.
+- **Help options appear in the same location on all pages**  
+  WEB-326 | Severity: Medium  
+  Help mechanisms such as contact details, messaging, chat, or self-help options must be in the same relative order on all pages where the information is present.  
   [Testing WEB-326](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-326-Helpoptionsappearinthesamelocationonallpages(Recommended))
   - [ ] Pass  
   - [ ] Fail
@@ -384,71 +427,81 @@ Complete all required checks and as many recommended checks as you can. If you c
 
 ### Forms & interactive controls
 #### Required
-- **Form labels clearly describe what to enter (WEB-246-002)**  
-  Labels describe the purpose or function of form fields and controls.
+- **Form labels clearly describe what to enter**  
+  WEB-246-002 | Severity: High to Critical  
+  Labels describe the purpose or function of form fields and controls.  
   [Testing WEB-246-002](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-246-002-Formlabelsclearlydescribewhattoenter(Required))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Form fields have visible labels (WEB-332-001)**  
-  Visible labels or instructions are available for all inputs and input groupings.
+- **Form fields have visible labels**  
+  WEB-332-001 | Severity: Critical   
+  Visible labels or instructions are available for all inputs and input groupings.  
   [Testing WEB-332-001](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-332-001-Formfieldshavevisiblelabels(Required))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Fields with specific formats include instructions (WEB-332-002)**  
-  Form fields that require specific formats provide instructions or examples.
+- **Fields with specific formats include instructions**  
+  WEB-332-002 | Severity: Critical  
+  Form fields that require specific formats provide instructions or examples.  
   [Testing WEB-332-002](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-332-002-Fieldswithspecificformatsincludeinstructions(Required))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Required or optional fields are clearly marked (WEB-332-003)**  
-  All required fields are identified with visible labels or instructions OR all optional fields are identified with visible labels or instructions.
+- **Required or optional fields are clearly marked**  
+  WEB-332-003 | Severity: Critical  
+  All required fields are identified with visible labels or instructions OR all optional fields are identified with visible labels or instructions.  
   [Testing WEB-332-003](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-332-003-Requiredoroptionalfieldsareclearlymarked(Required))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Error messages explain how to fix the problem (WEB-333)**  
-  Users are provided with clear suggestions for correcting input errors, unless doing so would compromise security or the content's purpose.
+- **Error messages explain how to fix the problem**  
+  WEB-333 | Severity: Medium, High, or Critical  
+  Users are provided with clear suggestions for correcting input errors, unless doing so would compromise security or the content's purpose.  
   [Testing WEB-333](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-333-Errormessagesexplainhowtofixtheproblem(Required)) 
   - [ ] Pass  
   - [ ] Fail  
 
-- **Links navigate to pages; buttons perform actions (WEB-412-003)**  
-  User interface elements defined as links are used for navigation and elements defined as buttons perform in-page actions or submit forms.
+- **Links navigate to pages; buttons perform actions**  
+  WEB-412-003 | Severity: High or Critical  
+  User interface elements defined as links are used for navigation and elements defined as buttons perform in-page actions or submit forms.  
   [Testing WEB-412-003](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-412-003-Linksnavigatetopages;buttonsperformactions(Required))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
 #### Recommended
-- **Related form elements are grouped together (WEB-131-005)**  
-  Related form controls (e.g., radio buttons, checkboxes, multi-part text inputs) are semantically grouped to convey their relationships.
+- **Related form elements are grouped together**  
+  WEB-131-005 | Severity: Medium, High, or Critical  
+  Related form controls (e.g., radio buttons, checkboxes, multi-part text inputs) are semantically grouped to convey their relationships.  
   [Testing WEB-131-005](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-131-005-Relatedformelementsaregroupedtogether(Recommended))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Required fields are identified programmatically (WEB-131-007)**  
-  Required fields/controls are identified programmatically for assistive technology
+- **Required fields are identified programmatically**  
+  WEB-131-007 | Severity: Critical  
+  Required fields/controls are identified programmatically for assistive technology.  
   [Testing WEB-131-007](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-131-007-Requiredfieldsareclearlymarkedwithtextandincode(Recommended))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Links are descriptive (WEB-244)**  
-  Link text or its accessible name describes the link's destination or purpose.
+- **Links are descriptive**  
+  WEB-244 | Severity: High or Critical    
+  Link text or its accessible name describes the link's destination or purpose.  
   [Testing WEB-244](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-244-Linksaredescriptive(Recommended))
   - [ ] Pass  
   - [ ] Fail
   - [ ] N/A
 
-- **Error messages are provided and are clear (WEB-331)**  
-  Whenever an input error is detected, the user is informed of the error and how to correct the error.
+- **Error messages are provided and are clear**  
+  WEB-331 | Severity:  Critical  
+  Whenever an input error is detected, the user is informed of the error and how to correct the error.  
   [Testing WEB-331](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-331-Errormessagesareprovidedandareclear(Recommended))
   - [ ] Pass  
   - [ ] Fail
