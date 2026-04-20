@@ -49,7 +49,7 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - URL: https://www.va.gov/forms/21-0788/apply-for-apportionment-beneficiarys-award 
 - H1: Apply for apportionment of a beneficiary’s award
 - Sub-heading: Form 21‑0788 online
-- Breadcrumb: VA.gov home › VA forms › Apply for apportionment of beneficiary’s award > Apply for apportionment of beneficiary’s award online
+- Breadcrumb: VA.gov home > VA forms > Apply for apportionment of beneficiary’s award > Apply for apportionment of beneficiary’s award online
 - Browser title: Apply for apportionment of beneficiary’s award | Veterans Affairs
 - Notes: 
 
@@ -69,21 +69,21 @@ Teams must launch with at least one entry point that allows site visitors to nav
 
 ### Required entry point(s)
 
-1. **[About VA Form 21-0788](https://www.va.gov/forms/21-0788/)]**
-  - Placement description: 
+1. **[VA Form 21-0788](https://www.va.gov/forms/21-0788/)]**
+  - Placement description: On page link
   - Link details
-    - Link label: 
-    - Link destination: 
+    - Link label: Apply for apportionment of beneficiary’s award online
+    - Link destination: https://www.va.gov/forms/21-0788/apply-for-apportionment-beneficiarys-award
   - Notes:
-    - Who will update (IA, content, product team):
-    - When will this entry point go live (at launch? After staged rollout? after some designated time?):
+    - Who will update (IA, content, product team): Content
+    - When will this entry point go live (at launch? After staged rollout? after some designated time?): At launch
    
 **Note: If the form will be released incrementally (aka not at 100%) or if the launch plan includes taking the form down temporarily after launch to check submission quality, a widget will be required. This requires coordination between the product engineer to create the widget and content to provide text for the widget. This can take some time. Please plan for at least 2 weeks ahead of staging review.**
 
 ### Additional key entry points
 _Any additional key locations that the page should be navigable from. Although these are not required for launch, they are critical to the findability of your content/feature.  Examples of key entry points include "About a form" pages, additional navigation component (top, left) placements, additional static pages where its prominently linked from, etc._
 
-1. **[Page/placement name]**
+1. VA Form 21-0788 
   - Placement description: 
   - Link details
     - Link label: 
