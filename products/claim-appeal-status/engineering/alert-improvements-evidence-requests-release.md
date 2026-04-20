@@ -1,9 +1,10 @@
 # Alert Improvements Evidence Requests Release
 
-Feature flag: `cstAlertImprovementsEvidenceRequests`
-Epic issue: [Alert Improvements: Evidence Requests - stacked alerts #119389](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119389)
-PR: [CST 134900 Stacked Alerts Evidence Requests Alert Improvements #43557](https://github.com/department-of-veterans-affairs/vets-website/pull/43557)
-Google Analytics dashboard: [CST Stacked Alerts Fix Evidence Requests](https://analytics.google.com/analytics/web/#/analysis/a50123418p419143770/edit/g4xG59UTQxy8ROsnBUme5g)
+- Feature flag: `cstAlertImprovementsEvidenceRequests`
+- Epic issue: [Alert Improvements: Evidence Requests - stacked alerts #119389](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119389)
+- PR: [CST 134900 Stacked Alerts Evidence Requests Alert Improvements #43557](https://github.com/department-of-veterans-affairs/vets-website/pull/43557)
+- Google Analytics dashboard: [CST Stacked Alerts Fix Evidence Requests](https://analytics.google.com/analytics/web/#/analysis/a50123418p419143770/edit/g4xG59UTQxy8ROsnBUme5g)
+- [Datadog View](https://vagov.ddog-gov.com/rum/sessions?query=@type:view%20service:benefits-claim-status-tool%20@view.url_path:/track-claims/your-claims&agg_m=count&agg_m_source=base&agg_t=count&cols=has_replay,status,timestamp,@view.name,@view.frustration.count,@view.loading_type,@view.loading_time,@geo.country,@browser.name,team&fromUser=false&sort_by=timestamp&sort_order=asc&viz=stream&from_ts=1775675928323&to_ts=1775848728323&live=true)
 
 ## Release Plan
 
