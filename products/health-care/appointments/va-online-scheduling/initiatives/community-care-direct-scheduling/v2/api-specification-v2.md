@@ -15,7 +15,7 @@ This document describes the API specifications for CC & VA direct scheduling exp
 | [GET](#get-vaosv2referrals) | `/vaos/v2/referrals` | Fetches the list of active referrals for the authenticated Veteran | Exists |
 | [GET](#get-vaosv2referralsreferralid) | `/vaos/v2/referrals/{referralId}` | Fetches full details for a single referral | Exists |
 | [GET](#get-vaosv2referralsreferralidproviders) | `/vaos/v2/referrals/{referralId}/providers` | Fetches available VA and CC providers for a referral | **New** |
-| [GET](#get-vaosv2provider-slots) | `/vaos/v2/provider-slots` | Fetches provider details and available time slots for a referral/provider combination | **New -- replaces `POST /vaos/v2/appointments/draft`** |
+| [GET](#get-vaosv2provider_slots) | `/vaos/v2/provider_slots` | Fetches provider details and available time slots for a referral/provider combination | **New -- replaces `POST /vaos/v2/appointments/draft`** |
 | [POST](#post-vaosv2unified_bookings) | `/vaos/v2/unified_bookings` | Submits an appointment for booking (VA or CC) | **Modified -- replaces `/vaos/v2/appointments/submit`** |
 | [GET](#get-vaosv2unified_bookingsid) | `/vaos/v2/unified_bookings/{id}` | Fetches appointment details or polls for booking status | **Modified -- replaces `/vaos/v2/eps_appointments/{appointmentId}`** |
 
@@ -300,7 +300,7 @@ Retrieves the list of available VA and CC providers for a given referral. Used o
 }
 ```
 
-- `id`: Unique identifier for the provider. Passed as `providerId` to `GET /vaos/v2/provider-slots`.
+- `id`: Unique identifier for the provider. Passed as `providerId` to `GET /vaos/v2/provider_slots`.
 - `name`: Provider or clinic name. Displayed as the card heading.
 - `careType`: `"VA"` or `"CC"`. Displayed as the provider type (e.g. "Community care" or "VA care").
 - `facilityName`: Organization or facility name.
@@ -359,7 +359,7 @@ Retrieves the list of available VA and CC providers for a given referral. Used o
 
 ---
 
-### GET /vaos/v2/provider-slots
+### GET /vaos/v2/provider_slots
 
 Fetches provider details and available time slots for a specific referral and provider combination. The frontend calls this when the Veteran navigates to the "Choose a date and time" page after selecting a provider. This endpoint serves both VA and community care providers.
 
@@ -610,10 +610,10 @@ Submits an appointment for booking. The backend routes to the appropriate upstre
 ```
 
 - `provider_type`: `"va"`. Indicates this is a VA booking.
-- `slot_id`: The `id` of the selected slot from the `GET /vaos/v2/provider-slots` response.
-- `location_id`: VA station/location identifier. From `provider.locationId` in the `GET /vaos/v2/provider-slots` response.
-- `clinic_id`: VA clinic identifier. From `provider.clinicId` in the `GET /vaos/v2/provider-slots` response.
-- `service_type`: Service type identifier (e.g. `"primaryCare"`). From `provider.serviceType` in the `GET /vaos/v2/provider-slots` response.
+- `slot_id`: The `id` of the selected slot from the `GET /vaos/v2/provider_slots` response.
+- `location_id`: VA station/location identifier. From `provider.locationId` in the `GET /vaos/v2/provider_slots` response.
+- `clinic_id`: VA clinic identifier. From `provider.clinicId` in the `GET /vaos/v2/provider_slots` response.
+- `service_type`: Service type identifier (e.g. `"primaryCare"`). From `provider.serviceType` in the `GET /vaos/v2/provider_slots` response.
 
 **Community care (EPS) booking:**
 ```json
@@ -626,8 +626,8 @@ Submits an appointment for booking. The backend routes to the appropriate upstre
 ```
 
 - `provider_type`: `"community_care"`. Indicates this is a community care booking.
-- `slot_id`: The `id` of the selected slot from the `GET /vaos/v2/provider-slots` response.
-- `provider_service_id`: The provider identifier. From `provider.id` in the `GET /vaos/v2/provider-slots` response.
+- `slot_id`: The `id` of the selected slot from the `GET /vaos/v2/provider_slots` response.
+- `provider_service_id`: The provider identifier. From `provider.id` in the `GET /vaos/v2/provider_slots` response.
 - `referral_number`: The referral tracking number. From `referralNumber` in the referral detail response.
 
 > **Note:** The full EPS booking payload sent to the upstream service also includes `network_id` and `appointment_id`. These fields are populated server-side by vets-api and are **not** sent by the frontend.
