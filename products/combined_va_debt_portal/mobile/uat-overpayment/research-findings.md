@@ -273,10 +273,15 @@ When Veterans copy the payment amount (or dollar value) from the Pay Online scre
 #### 1) “Pay online” details don’t match the pay.va.gov layout
 - Participants can copy key fields from the app’s Pay Online screen, but the balance (shown first in the app) appears much farther down the page on pay.va.gov after other details.
 
+  > _“This is now one-stop shopping! And I love that.” - P2_
+
+
 #### 2) Veterans want clearer details on how the debt will be resolved
-Participants wanted the app to show what to expect when resolving the debt, especially payment plan amounts and benefit reduction/offset details (how much and when it starts).
-- “I don’t remember what I’m supposed to be paying every month… It’d be nice to see that here.” (P7)
-- “If it could show a breakdown of what my payments could be, I’d want to see that in the app.” (P9)
+- Participants wanted the app to show what to expect when resolving the debt, especially payment plan amounts and benefit reduction/offset details (how much and when it starts).
+
+  > _"I don't remember what I'm supposed to be paying every month, and I think it [benefit reduction] kicks in the next payment, but I'm not sure. It'd be nice to see that here." - P7_
+
+  > _"If it could show a breakdown of what my payments could be, I’d want to see that in the app." - P9_
 
 #### 3) Veterans want transparency about why the overpayment exists
 Today, physical letters are the only place Veterans can get the detailed explanation for why the debt was created. Participants said they would like that same information available in the app, so they don’t have to rely on mail to understand what happened.
