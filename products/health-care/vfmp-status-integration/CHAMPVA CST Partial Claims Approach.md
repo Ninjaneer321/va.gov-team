@@ -245,3 +245,101 @@ For the remaining claim types in CST, the veteran is the only subject and per-be
 4. **Leave disability and other veteran-only claim types out of scope** — no beneficiary concept applies.
 
 This approach lets us ship value for CHAMPVA now while laying the groundwork for broader expansion without over-engineering upfront.
+
+---
+
+## Follow-Up Questions & Gaps
+
+These are open questions that need answers before implementation stories can be written or sized confidently.
+
+### Backend / Data
+
+1. **Backfill feasibility** — Is the submitting veteran's ICN stored anywhere in `request_json_ciphertext` for submissions made before `submitted_by_icn` was added? If yes, a backfill script is straightforward. If no, historical submissions are permanently unlinked and veterans who submitted before the column was added will see no per-beneficiary data in CST. This needs to be confirmed before committing to Option A or B.
+
+2. **How many unlinked records exist?** — A quick DB query to count rows where `submitted_by_icn IS NULL` would tell us the scale of the backfill gap. If it's hundreds of records, it's a minor concern. If it's tens of thousands, it becomes a more significant decision.
+
+3. **PEGA status normalization audit** — What is the full set of `pega_status` strings currently in the database, including typos and variations? This needs to be inventoried before any per-beneficiary status is shown to a veteran in the UI.
+
+4. **`OldRecordsCleanupJob` threshold decision** — Is 60 days the right window? Should we protect records in non-terminal statuses from deletion regardless of age? This needs a deliberate decision before the job is enabled.
+
+5. **Scope of multi-beneficiary submissions** — Do all CHAMPVA form types (`10-7959A`, `10-7959C`, etc.) follow the same multiple-applicant-per-submission pattern, or only some? This affects how broadly the per-beneficiary UI needs to render.
+
+### Front End / Design
+
+6. **What does the UI actually look like?** — The claim card today shows one status per submission. Has design produced any mocks or patterns for a per-beneficiary breakdown? This needs to be resolved before any FE story can be pointed.
+
+7. **What happens when `beneficiaryStatuses` is absent or empty?** — For submissions pre-backfill, or for non-CHAMPVA claim types if scope expands, the field will be absent or empty. The FE needs a defined fallback — does it silently show nothing extra, or does it show a "status not available for individual applicants" message?
+
+8. **If scope expands to all of CST** — Which other claim types are in scope? Has the PM confirmed which benefit types (e.g. Chapter 35, DIC, Survivors Pension) should be included in Phase 1 vs. future phases?
+
+### Product / Strategy
+
+9. **Option A vs. B preference** — Does the team prefer nesting `beneficiaryStatuses` inside `claimStatusMeta` (Option A, smaller diff) or as a dedicated top-level field (Option B, cleaner contract)? If there's any chance of expanding to other claim types, Option B is strongly preferred.
+
+10. **Phase 2 timeline** — Is there a plan or timeline for the live VES integration (Option C)? If it's on the near-term roadmap, the Option A/B contract should be designed with that migration in mind.
+
+---
+
+## Stories to Write
+
+Stories are organized by option. Prerequisites are shared across all options and should be written regardless.
+
+---
+
+### Prerequisite Stories (All Options)
+
+**BE — PEGA Status Normalization Audit**
+Inventory all `pega_status` values currently in `ivc_champva_forms` (including typos and variations). Complete the normalization map in `ClaimBuilder` so every possible PEGA status string maps to a clean, display-safe label. Write tests covering all known variants.
+
+**BE — Backfill Assessment for `submitted_by_icn`**
+Determine whether the submitting veteran's ICN can be recovered from `request_json_ciphertext` for rows where `submitted_by_icn IS NULL`. Produce a count of affected rows. Recommend: backfill script, accept the gap, or a hybrid approach. This story is research/spike output only — implementation is a separate story if backfill is viable.
+
+**BE — `OldRecordsCleanupJob` Threshold Decision**
+Review the 60-day retention window and determine the right threshold. Assess whether records in non-terminal PEGA statuses should be excluded from deletion. Update `CLEANUP_THRESHOLD_DAYS` and/or add a guard clause before the feature flag is enabled in any environment.
+
+**Design — Per-Beneficiary Status UI Pattern**
+Produce design mocks for how a per-beneficiary status breakdown renders inside a CST claim card. Define behavior for single vs. multiple beneficiaries, loading states, and the fallback when per-beneficiary data is unavailable. This is a prerequisite for all FE implementation stories.
+
+---
+
+### Option A — Enrich `claimStatusMeta`
+
+**BE — Enrich `ClaimBuilder` with `beneficiaryStatuses`**
+Update `ClaimBuilder` to stop collapsing all rows to one representative and instead build a `beneficiaryStatuses` array of `{ name, status, form_number }` objects. Define the top-level claim status as the most conservative status across all beneficiaries. Add unit tests covering single and multiple beneficiary scenarios.
+
+**BE — Wire `submitted_by_icn` filter into CHAMPVA provider query**
+Update the `ivc_champva_forms` query in the CHAMPVA provider to filter by `submitted_by_icn = veteran_icn` so CST only returns the logged-in veteran's submissions.
+
+**FE — Render per-beneficiary status breakdown in claim card**
+Build the new UI component (per design mocks) that reads `claimStatusMeta.beneficiaryStatuses` and renders each person's name and status. Handle the fallback when the field is absent or empty. Write unit and integration tests.
+
+---
+
+### Option B — New `beneficiaryStatuses` Top-Level Field
+
+**BE — Add `beneficiary_statuses` to `ClaimResponse` serializer**
+Add a dedicated `beneficiary_statuses` top-level attribute to the claim response. Populate it with the same `{ name, status, form_number }` array as Option A. Same `ClaimBuilder` changes apply. Write unit tests.
+
+**BE — Wire `submitted_by_icn` filter into CHAMPVA provider query**
+Same as Option A.
+
+**FE — Render per-beneficiary status breakdown in claim card**
+Same as Option A, but reading from the top-level `beneficiaryStatuses` field instead of `claimStatusMeta`.
+
+---
+
+### Option C — Real-Time MPI + VES Lookup (Future Phase)
+
+These stories cannot be written until the ICN mapping work (separate initiative) is complete and MPI/VES latency/availability has been assessed for the CST load path.
+
+**Spike — Assess MPI + VES integration feasibility for CST load path**
+Evaluate MPI response times, availability SLAs, and rate limits. Determine whether a live lookup in the CST page load path is acceptable or whether a caching/async approach is needed. Define the fallback when MPI or VES is unavailable.
+
+**BE — Implement MPI beneficiary ICN lookup**
+Given a veteran's ICN, query MPI to return associated beneficiary ICNs and relationship types. Cache results if latency requires it. Write tests with mocked MPI responses.
+
+**BE — Implement VES CHAMPVA eligibility lookup per beneficiary ICN**
+Given a beneficiary ICN, query VES for CHAMPVA enrollment/eligibility status. Map VES status vocabulary to the normalized display labels used in CST. Write tests with mocked VES responses.
+
+**FE — Reconcile PEGA processing status with VES eligibility status in claim card**
+Update the claim card to handle two different status models (PEGA processing status from DB + VES eligibility status from live lookup) and present them coherently to the veteran. Define what happens when one is available but not the other.
