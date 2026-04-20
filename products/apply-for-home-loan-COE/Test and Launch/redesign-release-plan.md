@@ -4,15 +4,11 @@
 
 ## Step 1: Development
 
-You'll need to create a feature toggle (or two) for any moderately or significantly changing feature. Follow the [best practices for creating feature toggles](https://depo-platform-documentation.scrollhelp.site/developer-docs/feature-toggles).
-
-List the features toggles here.
-
-| Toggle name | Description |
-| ----------- | ----------- |
-| [FILL_IN] | All changes to the introduction page live behind this toggle |
-| [FILL_IN] | All changes to the status page live behind this toggle |
-| [FILL_IN] | All changes to the rest of the form live behind this toggle (Step 1 through the Confirmation page) |
+| Toggle name | Description | Order of Release |
+| ----------- | ----------- | ----------- |
+| coe_enable_cve_intro | All changes to the introduction page live behind this toggle | Changes will be released second |
+| coe_enable_cve_status | All changes to the status page live behind this toggle | Changes will be released first |
+| coe_form_rebuild_cveteam | All changes to the rest of the form live behind this toggle (Step 1 through the Confirmation page) | Changes will be released last |
 
 ## Step 2: Validation
 
