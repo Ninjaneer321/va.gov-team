@@ -44,7 +44,11 @@ Complete all required checks and as many recommended checks as you can. If you c
     [Learn more about testing with Axe DevTools](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/prepare-for-an-accessibility-staging-review#Prepareforanaccessibilitystagingreview-AutomatedtestingwithaxebyDequeaxe)
   - [ ] Pass  
   - [ ] Fail
-  - [ ] Include screenshots or output of AXE results in a comment on this ticket
+  - [ ] For each page in the flow (in a comment):
+    - [ ] List the page URL or name
+    - [ ] Record the number of AXE violations found
+    - [ ] Create sub‑issues for each unique violation
+    - [ ] Link those sub‑issues in the artifact
 
 #### Recommended
 - **Axe-core has been integrated in end to end testing**  
