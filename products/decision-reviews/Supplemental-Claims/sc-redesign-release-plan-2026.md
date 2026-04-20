@@ -7,6 +7,30 @@ multiple-response (array builder) pattern for the VA and non-VA evidence flows.
 - Engineering & Security Checklist: [decision_reviews_supplemental_claims_20-0995_2026_03_31.md](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/platform/engineering/collaboration-cycle/architecture-intent/checklist/decision_reviews_supplemental_claims_20-0995_2026_03_31.md)
 - [Collaboration Cycle Ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117807)
 
+## Incident Response Plan
+### Enablement Team:
+  - Amy Lai (amy.lai2@va.gov)
+  - Julie Strothman (Julie.Strothman@va.gov)
+  - Cory Sohrakoff (Cory.Sohrakoff@va.gov)
+
+### Slack Channels:
+  - [#benefits-decision-reviews](https://dsva.slack.com/archives/C5AGLBNRK)
+  - [#benefits-decision-reviews-notifications](https://dsva.slack.com/archives/C05UPRR0HK3)
+
+### Monitoring:
+Datadog Dashboard
+Datadog Monitors
+
+### Response:
+- Feature will remain behind the feature flag while being developed and for a monitoring period defined in the Release Plan.
+- In the event of an incident during release or post-release monitoring period:
+  - Feature flag will be disabled
+  - Fix identified and implemented
+  - Remediation if necessary
+  - Fix applied and deployed
+  - Feature re-enabled
+  - Continue Monitoring
+
 ---
 
 ## Step 1: Development
