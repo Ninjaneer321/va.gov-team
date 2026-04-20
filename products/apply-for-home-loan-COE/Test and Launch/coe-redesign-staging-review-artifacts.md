@@ -51,7 +51,7 @@ https://staging.va.gov/housing-assistance/home-loans/request-coe-form-26-1880/in
 - TBD
 
 ### Engineering & Security Checklist
-- TBD
+- https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/platform/engineering/collaboration-cycle/architecture-intent/checklist/26_1880_Security_Checklist.md
   
 
 
