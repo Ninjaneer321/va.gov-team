@@ -248,35 +248,47 @@ This approach lets us ship value for CHAMPVA now while laying the groundwork for
 
 ---
 
+## Confirmed Findings (from Code)
+
+**PEGA does return per-applicant statuses — Options A and B are on solid ground.**
+
+When `PollPegaStatusJob` calls PEGA with a `form_uuid`, PEGA returns an **array of case objects** — one per applicant, not one status for the whole submission. The job then matches each DB row to its specific PEGA case object by `case_id` and writes a distinct `pega_status` to each row individually.
+
+This means the per-beneficiary data in `ivc_champva_forms` is genuinely meaningful — each person's row can and does hold a different status as their application progresses.
+
+**One nuance — early submission fallback:** Before PEGA has assigned individual case IDs (immediately after submission), rows fall back to the first case in the array. This means all rows for a submission may temporarily share the same status early on. Once PEGA assigns case IDs, each row diverges to its own individual status. This is expected behavior and not a concern for CST, which is most useful once processing is underway.
+
+---
+
 ## Follow-Up Questions & Gaps
 
 These are open questions that need answers before implementation stories can be written or sized confidently.
 
 ### Backend / Data
 
-1. **Backfill feasibility** — Is the submitting veteran's ICN stored anywhere in `request_json_ciphertext` for submissions made before `submitted_by_icn` was added? If yes, a backfill script is straightforward. If no, historical submissions are permanently unlinked and veterans who submitted before the column was added will see no per-beneficiary data in CST. This needs to be confirmed before committing to Option A or B.
+1. **Backfill feasibility** — Is the submitting veteran's ICN stored anywhere in `request_json_ciphertext` for submissions made before `submitted_by_icn` was added? If yes, a backfill script is straightforward. If no, historical submissions are permanently unlinked and veterans who submitted before the column was added will see no per-beneficiary data in CST.
 
-2. **How many unlinked records exist?** — A quick DB query to count rows where `submitted_by_icn IS NULL` would tell us the scale of the backfill gap. If it's hundreds of records, it's a minor concern. If it's tens of thousands, it becomes a more significant decision.
+2. **How many unlinked records exist?** — A quick DB query to count rows where `submitted_by_icn IS NULL` would tell us the scale of the backfill gap.
 
 3. **PEGA status normalization audit** — What is the full set of `pega_status` strings currently in the database, including typos and variations? This needs to be inventoried before any per-beneficiary status is shown to a veteran in the UI.
 
-4. **`OldRecordsCleanupJob` threshold decision** — Is 60 days the right window? Should we protect records in non-terminal statuses from deletion regardless of age? This needs a deliberate decision before the job is enabled.
+4. **`OldRecordsCleanupJob` threshold decision** — Is 60 days the right window? Should we protect records in non-terminal statuses from deletion regardless of age? This needs a deliberate decision before the job is enabled in any environment.
 
-5. **Scope of multi-beneficiary submissions** — Do all CHAMPVA form types (`10-7959A`, `10-7959C`, etc.) follow the same multiple-applicant-per-submission pattern, or only some? This affects how broadly the per-beneficiary UI needs to render.
+5. **Scope of multi-beneficiary submissions** — Do all CHAMPVA form types follow the same multiple-applicant-per-submission pattern, or only some?
 
 ### Front End / Design
 
-6. **What does the UI actually look like?** — The claim card today shows one status per submission. Has design produced any mocks or patterns for a per-beneficiary breakdown? This needs to be resolved before any FE story can be pointed.
+6. **What does the UI actually look like?** — Has design produced any mocks for a per-beneficiary breakdown inside a claim card? This is a prerequisite for all FE implementation stories.
 
-7. **What happens when `beneficiaryStatuses` is absent or empty?** — For submissions pre-backfill, or for non-CHAMPVA claim types if scope expands, the field will be absent or empty. The FE needs a defined fallback — does it silently show nothing extra, or does it show a "status not available for individual applicants" message?
+7. **Fallback when `beneficiaryStatuses` is absent or empty?** — For pre-backfill submissions or non-CHAMPVA claim types, the field will be absent. Does the UI silently show nothing extra, or display a message?
 
-8. **If scope expands to all of CST** — Which other claim types are in scope? Has the PM confirmed which benefit types (e.g. Chapter 35, DIC, Survivors Pension) should be included in Phase 1 vs. future phases?
+8. **If scope expands to all of CST** — Which other claim types are in scope? Has the PM confirmed which benefit types should be Phase 1 vs. future?
 
 ### Product / Strategy
 
-9. **Option A vs. B preference** — Does the team prefer nesting `beneficiaryStatuses` inside `claimStatusMeta` (Option A, smaller diff) or as a dedicated top-level field (Option B, cleaner contract)? If there's any chance of expanding to other claim types, Option B is strongly preferred.
+9. **Option A vs. B preference** — If there's any chance of expanding to other claim types, Option B is strongly preferred. Team should align before implementation begins.
 
-10. **Phase 2 timeline** — Is there a plan or timeline for the live VES integration (Option C)? If it's on the near-term roadmap, the Option A/B contract should be designed with that migration in mind.
+10. **Phase 2 timeline** — Is there a plan for the live VES integration (Option C)? If it's on the near-term roadmap, the Option A/B contract should be designed with that migration in mind.
 
 ---
 
