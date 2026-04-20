@@ -69,7 +69,7 @@ Teams must launch with at least one entry point that allows site visitors to nav
 
 ### Required entry point(s)
 
-1. **[VA Form 21-0788](https://www.va.gov/forms/21-0788/)]**
+1. **[VA Form 21-0788](https://www.va.gov/forms/21-0788/)**
   - Placement description: On page link
   - Link details
     - Link label: Apply for apportionment of beneficiary’s award online
@@ -83,7 +83,7 @@ Teams must launch with at least one entry point that allows site visitors to nav
 ### Additional key entry points
 _Any additional key locations that the page should be navigable from. Although these are not required for launch, they are critical to the findability of your content/feature.  Examples of key entry points include "About a form" pages, additional navigation component (top, left) placements, additional static pages where its prominently linked from, etc._
 
-1. VA Form 21-0788 
+1. **[Page]()** 
   - Placement description: 
   - Link details
     - Link label: 
