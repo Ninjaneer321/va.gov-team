@@ -1,4 +1,25 @@
 
+## 4/23 OIT Weekly Update (WIP)
+
+### Next 7 Days
+- **Create a Tugboat for Drupal 11 Upgrade [#23971](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/23971)** enables critical testing that must be done in advance of the actual upgrade. The testing will reveal issues that we must fix and key areas to communicate to content editors in advance so they know what to expect with the upgrade.
+- **QA for Benefit Hub Landing Page [#20562](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/20562)** ensures that Benefit Hub Landing Pages are ready to migrate to next-build which will help improve our publishing times for these content types.
+
+### Next 7-30 Days
+- **Implement autosave [#23798](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/23798)** improves the editing experience in Drupal so that content managers will no longer experience losing content changes while editing. We anticipate that this will improve our customer satisfaction rating.
+- **Resources and Support Landing Page [#20661](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/20661)**, **Outreach Hub Publications listing [#20591](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/20591)**, **Resources and Support Q&A [#20614](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/20614)**, **Resources and Support FAQ [#20621](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/20621)**, and **Resources and Support Detail Page [#20633](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/20633)** are all essential to ensure that templates are ready to migrate to next-build which will help improve our publishing times for these content types.
+- **Launch: Homepage [#20587](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/20587)** supports an improved content management and Veteran experience. By releasing the Homepage on next-build, we will ensure that public websites can make faster updates through Detail pages which allows Veterans to quickly receive critical information on essential services.
+- **Setup Argo/EKS for Production [#23131](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/23131)** and **Promote cms to Argo/EKS Prod [#24001](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/24001)** enables us to deprecate Jenkins BRD and increase publishing speeds for content provided to Veterans.
+- **Discovery: Document how Siteimprove can work with pre-published content on CMS [#23803](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/23803)** allows us to understand how to provide content managers with standardized tools that can help address issues with Section 508 compliance in advance of publishing content. By providing Siteimprove to content managers, we ensure an improved and consistent experience for Veterans across all webpages on VA.gov.
+- **Develop a performance test plan [#21856](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/21856)**, **Discovery: Identify performance metrics for load testing EKS [#24005](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/24005)**, and **Create DataDog Dashboards for EKS [#23974](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/23974)** enable us to understand how to test and track both UI and API for next build so that we can ensure Drupal CMS performs reliably under expected load across all layers of the application.
+
+### Admin / logistical wins or flags (risks) (optional)
+- Template Migration Risk: Homepage Launch is dependent on final approval from Public Websites. This is currently pending design review from Public Websites.
+- EKS Risk: CMS has a dependency on Platform Infrastructure to setup v next clusters in Production. This work is on hold for Platform Infrastructure until they have successfully completed their migration to GHEC-US.
+- Platform is migrating vets-website to GHEC-US 4/22-4/29. We do not anticipate this impacting our deliverables, but noting that our build processes have dependencies on vets-website and may require some additional support this sprint. 
+
+---
+
 ## 4/16 OIT Weekly Update
 
 ### Next 7 Days
