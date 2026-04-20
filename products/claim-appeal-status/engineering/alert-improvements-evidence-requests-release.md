@@ -1,156 +1,166 @@
-# CST Alert Improvements Evidence Requests — Release Monitoring
+# Alert Improvements Evidence Requests Release
 
 Feature flag: `cstAlertImprovementsEvidenceRequests`
-PR: https://github.com/department-of-veterans-affairs/vets-website/pull/43557
-Epic issue: department-of-veterans-affairs/va.gov-team#134900
+Epic issue: [Alert Improvements: Evidence Requests - stacked alerts #119389](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119389)
+PR: [CST 134900 Stacked Alerts Evidence Requests Alert Improvements #43557](https://github.com/department-of-veterans-affairs/vets-website/pull/43557)
+Google Analytics dashboard: [CST Stacked Alerts Fix Evidence Requests](https://analytics.google.com/analytics/web/#/analysis/a50123418p419143770/edit/g4xG59UTQxy8ROsnBUme5g)
 
-## Release dates
+## Release Plan
 
-- Release date: 2026-04-20
-- Baseline window: 2026-04-13 to 2026-04-19
-- Post-release window: 2026-04-20 to 2026-04-26
+- [ ] 4-20-26 - Turn feature flag to 100%
+- [ ] 4-21-26 - Datadog report: release day vs. the same day one month ago
+- [ ] 4-22-26 - GA + Datadog report: first full day (Apr 21) vs. the same day one month ago
+- [ ] 4-23-26 - GA + Datadog report: first two full days (Apr 21–22) vs. the same days one month ago
+- [ ] 4-28-26 - GA + Datadog report: full week (Apr 21–27) vs. the same week one month ago
 
-GA4 dashboard: [CST Stacked Alerts Fix Evidence Requests](https://analytics.google.com/analytics/web/#/analysis/a50123418p419143770/edit/g4xG59UTQxy8ROsnBUme5g)
-
-The dashboard was duplicated from the Finding Claims release and rescoped for this change. On release day (Apr 20), bump the primary date range to 2026-04-20 to 2026-04-26 and the compare range to 2026-04-13 to 2026-04-19. GA4 will not accept future dates so the current setup uses Apr 13-17 vs Apr 6-10 as an interim pre-release baseline.
-
-## What changed
+## What changes
 
 When the feature flag is enabled:
 
-- Claim cards (ClaimsListItem, StemClaimListItem, AppealListItem) replace stacked `va-alert`s with a single `va-tag-status` reading "Action may be needed"
-- ClaimStatusHeader intro text changes to "Review the latest status of your claim."
-- ClaimFileHeader intro text changes ("Add evidence or review files you've already uploaded for this claim." when open)
-- FilesNeeded replaces the `va-alert` + `VaLinkAction "About this request"` pattern with a `va-card` + `va-critical-action` linking to the same detail page
-- WhatYouNeedToDo adds a new `va-additional-info` trigger: "Why we still say 'Action may be needed' after you've responded" and new intro text
-- RecentActivity renders third-party (`NEEDED_FROM_OTHERS`) items as inline text + a `<Link>` ("Learn more about this notice") instead of a `va-alert`
-- FilesPage adds a new `ReviewRequestsAlert` (`va-alert` with a `va-link-action` "Review requests" → navigates to status tab) when the claim has open requests
-- AdditionalEvidencePage removes inline FilesNeeded listings (users are pushed to the status tab via ReviewRequestsAlert)
+### Your Claims page
 
-## GA4 Explore tabs
+- Claim (`ClaimsListItem`), appeal (`AppealListItem`), and STEM (`StemClaimListItem`) cards show a single "Action may be needed" warning tag. The tag replaces stacked blue ("We requested more information from you...") and red ("We need you to resubmit files for this claim.") alerts.
 
-Use the non-production GA4 property to validate filters before creating in the production property. All cells use Bar chart.
+### Claim status tab
 
-### Tab 1 — Baseline: sessions on claim status tab
+- Intro text (`ClaimStatusHeader`) changes from "Here's the latest information on your claim." to "Review the latest status of your claim."
+- "What you need to do" (`WhatYouNeedToDo`) adds an intro paragraph when open requests exist: "We identified this information as needed to support your claim. We accept responses after the request date, but it may delay your claim."
+- "What you need to do" adds a new expandable "Why we still say 'Action may be needed' after you've responded" when the card shows the tag but no open requests exist (`documentsNeeded = true` AND `filesNeeded` is empty)
+- Evidence requests (`FilesNeeded`) render as cards with a "Requested by [date]" critical-action button, replacing the yellow warning alert with an "About this request" link
+- Third-party requests in Recent Activity (`RecentActivity`, `NEEDED_FROM_OTHERS` items) show a "Requested for you" tag, body text, and a "Learn more about this notice" inline link — replacing the blue info alert with an "About this notice" link
 
-- Goal: Confirm traffic to the status tab is stable so other metrics can be compared against a consistent denominator.
-- Rows: Date
-- Values: Sessions
-- Cell Type: Bar chart
-- Filters:
-  - Page path `matches regex` `.*track-claims/your-claims/[0-9]+/status/?`
+### Claim files tab
 
-| Metric  | Baseline | Post-Release |
-| ------- | -------- | ------------ |
-| Sessions |          |              |
+- Intro text (`ClaimFileHeader`, open claims only) changes from "If you need to add evidence, you can do that here..." to "Add evidence or review files you've already uploaded for this claim."
+- The files tab (`FilesPage`) shows a new "Review your requests" alert above the upload form when open requests exist, with a "Review requests" link back to the status tab
+- The additional evidence page (`AdditionalEvidencePage`) no longer renders FilesNeeded (yellow) or FilesOptional (blue) listings; users are redirected to the status tab via the alert above
 
-### Tab 2 — Baseline: sessions on claim files tab
+## GA Dashboard Tabs
 
-- Goal: Confirm traffic to the files tab is stable.
-- Rows: Date
-- Values: Sessions
-- Cell Type: Bar chart
-- Filters:
-  - Page path `matches regex` `.*track-claims/your-claims/[0-9]+/files/?`
+### Your Claims - Sessions
 
-| Metric  | Baseline | Post-Release |
-| ------- | -------- | ------------ |
-| Sessions |          |              |
+Traffic on the Your Claims page. Unexpected spikes may indicate a bug prompting users to refresh; drops may indicate users aren't returning to the page.
 
-### Tab 3 — Outbound From Files Tab
-
-- Goal: Where do users land after leaving the claim files tab? A shift in this breakdown would flag that the new ReviewRequestsAlert is redirecting users in a new pattern.
 - Rows: Page path and screen class
-- Values: Sessions
-- Cell Type: Bar chart
+- Values: Active users, Sessions, Views
 - Filters:
-  - Page referrer `matches regex` `.*track-claims/your-claims/[0-9]+/files/?`
+  - Page path and screen class `matches regex` `/track-claims/your-claims/?$`
 
-| Destination                                       | Baseline | Post-Release |
-| ------------------------------------------------- | -------- | ------------ |
-| Status tab (`/.../status`)                        |          |              |
-| Additional evidence (`/.../additional-evidence`)  |          |              |
-| Needed-from-you detail (`/.../needed-from-you/*`) |          |              |
-| Other                                             |          |              |
+### Your Claims - Events
 
-### Tab 4 — Status Tab Events
+All events on the Your Claims page. Claim cards switched from stacked alerts to a single tag, but the Details link behavior did not change — watch for a swing in Details clicks, which could mean the new tag changed how users decide which card to open.
 
-- Goal: Catch-all for any unexpected event-count changes on the claim status tab that the targeted tabs don't isolate.
 - Rows: Event name, Link text
 - Values: Event count
-- Cell Type: Bar chart
 - Filters:
-  - Page path and screen class `matches regex` `.*track-claims/your-claims/[0-9]+/status/?`
+  - Page path and screen class `matches regex` `/track-claims/your-claims/?$`
 
-### Tab 5 — Review Requests Clicks (new)
+### Status - Sessions
 
-- Goal: Measure engagement with the new ReviewRequestsAlert that redirects users back to the status tab when they have open evidence requests. Should be 0 pre-release and >0 post-release.
-- Rows: Link text
-- Values: Active users, Event count
-- Cell Type: Bar chart
+Traffic on the claim status tab. Unexpected spikes may indicate a bug prompting users to refresh; drops may indicate users aren't returning to the page.
+
+- Rows: Page path and screen class
+- Values: Active users, Sessions, Views
 - Filters:
-  - DataLayer Event Name `exactly matches` `nav-link-click`
-  - Page path and screen class `matches regex` `.*track-claims/your-claims/[0-9]+/files/?`
-  - Link text `exactly matches` `Review requests`
+  - Page path and screen class `matches regex` `/track-claims/your-claims/[0-9]+/status/?$`
 
-| Metric                    | Baseline | Post-Release |
-| ------------------------- | -------- | ------------ |
-| "Review requests" clicks  |          |              |
+### Status - Events
 
-### Tab 6 — Action Needed Info Expand (new)
+All events on the claim status tab. Several changes land here at once — the signals below indicate which events should rise, drop to zero, or newly appear.
 
-- Goal: Measure how often users expand the new "Why we still say Action may be needed after you've responded" additional-info on the status tab.
-- Rows: Link text
+- Rows: Event name, Link text
 - Values: Event count
-- Cell Type: Bar chart
 - Filters:
-  - Page path and screen class `matches regex` `.*track-claims/your-claims/[0-9]+/status/?`
-  - Event name `exactly matches` `additional_info`
+  - Page path and screen class `matches regex` `/track-claims/your-claims/[0-9]+/status/?$`
 
-Note: the claim status tab has no other `va-additional-info` in this change, so filtering by page + event name is sufficient. If another additional-info lands on the status tab, tighten the filter with a Link text match on the trigger text.
+Signals to watch:
 
-| Metric        | Baseline | Post-Release |
-| ------------- | -------- | ------------ |
-| Event count   |          |              |
+- "Why we still say 'Action may be needed' after you've responded" (new expandable section)
+  - Expected direction: 0 → >0
+  - Why: a new explanation shows on the status tab when the "Action may be needed" tag is still on the card but no open requests exist
+  - Note: this only appears in a narrow case, so counts will be modest
+- "Learn more about this notice" link
+  - Expected direction: near 0 → >0
+  - Why: new link replacing an older blue alert for third-party requests in the Recent Activity section
+- "About this notice" link
+  - Expected direction: drops to 0
+  - Why: the old blue alert in Recent Activity is replaced by plain text and the new "Learn more about this notice" link above
+  - Note: the files tab has a separate "About this notice" link with the same name; filter by page path to isolate the status tab
+- "Requested by [date]" critical-action button
+  - Expected direction: 0 → >0
+  - Why: new action button on each evidence request card, replacing the yellow alert with its "About this request" link
+  - Note: this button's clicks may not appear in GA at all. If counts don't show up, use Datadog RUM to track them instead.
+- "About this request" link
+  - Expected direction: drops to 0
+  - Why: the old yellow alert is replaced by the new card with a critical-action button
+  - Note: the additional evidence page on the files tab fires the same event; filter by page path to isolate the status tab
 
-### Tab 7 — About This Request Clicks (removed)
+### Status - As Referrer
 
-- Goal: Verify the old `va-link-action` "About this request" (inside the FilesNeeded `va-alert`) drops to 0 post-release. This event fires from the status tab and the additional evidence page; the FilesNeeded rewrite replaces it with a `va-critical-action` that emits no component-library-analytics event.
-- Rows: Page path + query string
+Where users go after leaving the claim status tab. Evidence-request detail pages (`/.../needed-from-you/*`) are the main destination — expect roughly unchanged traffic there since both the old "About this request" link and the new "Requested by [date]" button route users to the same place. A meaningful drop could indicate the new button is less discoverable than the old link.
+
+- Rows: Page path and screen class
 - Values: Sessions
-- Cell Type: Bar chart
 - Filters:
-  - DataLayer Event Name `exactly matches` `nav-link-click`
-  - Link text `exactly matches` `About this request`
+  - Page referrer `matches regex` `.*track-claims/your-claims/[0-9]+/status/?$`
 
-| Metric                       | Baseline | Post-Release (expect 0) |
-| ---------------------------- | -------- | ----------------------- |
-| "About this request" clicks  |          |                         |
+### Files - Sessions
 
-## Interactions GA cannot track
+Traffic on the claim files tab. Unexpected spikes may indicate a bug prompting users to refresh; drops may indicate users aren't returning to the page.
 
-These rely on Datadog RUM (see section below) or are undetectable via web analytics.
+- Rows: Page path and screen class
+- Values: Active users, Sessions, Views
+- Filters:
+  - Page path and screen class `matches regex` `/track-claims/your-claims/[0-9]+/files/?$`
 
-- `va-tag-status` on claim cards — pure visual, no events
-- `va-critical-action` in FilesNeeded — wraps a styled `<a>` in shadow DOM with no `component-library-analytics` event
-- React Router `<Link>` "Learn more about this notice" in RecentActivity — no VA component event; surface-level clicks only visible to RUM
-- Intro text changes (ClaimStatusHeader, ClaimFileHeader) — no interaction to measure
-- "Requested for you" label on third-party requests in RecentActivity — display-only
+### Files - Events
+
+All events on the claim files tab. Two links were removed from the additional evidence page, and a new "Review requests" link was added to the top of the tab — the signals below track those changes.
+
+- Rows: Event name, Link text
+- Values: Event count
+- Filters:
+  - Page path and screen class `matches regex` `/track-claims/your-claims/[0-9]+/files/?$`
+
+Signals to watch:
+
+- "Review requests" link
+  - Expected direction: 0 → >0
+  - Why: a new alert on the files tab points users back to the status tab when open requests exist
+- "About this notice" link
+  - Expected direction: drops to 0
+  - Why: the optional-documents section that contained these links was removed from the additional evidence page
+- "About this request" link
+  - Expected direction: drops to 0
+  - Why: the evidence-request cards that contained these links were removed from the additional evidence page
+
+### Files - As Referrer
+
+Where users go after leaving the claim files tab. Expect an increase in traffic to the status tab because the new "Review requests" link routes users there.
+
+- Rows: Page path and screen class
+- Values: Sessions
+- Filters:
+  - Page referrer `matches regex` `.*track-claims/your-claims/[0-9]+/files/?$`
 
 ## Datadog RUM
 
-The claims-status app has RUM enabled (`ClaimsStatusApp.jsx` `useBrowserMonitoring({ toggleName: 'cstUseDataDogRUM', service: 'benefits-claim-status-tool' ... })`). Use RUM to cover the gaps above.
+Datadog RUM (service: `benefits-claim-status-tool`) detects frustration signals (rage clicks, dead clicks, error clicks) that GA cannot. RUM captures a sample of total traffic, so view counts are not directly comparable to GA numbers.
 
-Suggested RUM dashboards / monitors:
+Base RUM Explorer query: `service:benefits-claim-status-tool @view.url_path:/track-claims/your-claims`
 
-- Click events on `a.action-link` inside `va-critical-action` on the claim status tab — confirms users continue to click through to the evidence request detail page at or above the pre-release rate for `VaLinkAction "About this request"`.
-- Click events on the React Router `Link` "Learn more about this notice" in RecentActivity — surfaces engagement with third-party requests now that the `va-alert` wrapping is removed.
-- Frontend error rate on the status tab, files tab, and additional evidence page during the rollout window — ensure no regressions from the new conditional rendering.
+Frustration filter adds: `@view.frustration.count:>0`
 
-| RUM signal                                                         | Baseline | Post-Release |
-| ------------------------------------------------------------------ | -------- | ------------ |
-| Clicks on `va-critical-action` link (status tab)                   |          |              |
-| Clicks on "Learn more about this notice" link (status tab)         |          |              |
-| Frontend error rate, status tab                                    |          |              |
-| Frontend error rate, files tab                                     |          |              |
-| Frontend error rate, additional evidence page                      |          |              |
+To isolate the pages affected by this release, narrow the query with:
+
+- Claim status tab: `@view.url_path:/track-claims/your-claims/*/status`
+- Claim files tab: `@view.url_path:/track-claims/your-claims/*/files`
+
+### What to report
+
+For each comparison window, report:
+
+- Sampled views for the window (context for any rate changes — a big swing could just be traffic)
+- Views with frustration and the resulting frustration rate
+- Change in frustration rate in percentage points from the comparison window
+- Notes on any session replays spot-checked when the rate moves meaningfully
