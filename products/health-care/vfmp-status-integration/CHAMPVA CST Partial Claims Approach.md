@@ -1,1 +1,215 @@
+## Background
 
+This [ticket #139312](https://github.com/department-of-veterans-affairs/va.gov-team/issues/139312) asks us to assess how CST (Claim Status Tool) can surface per-beneficiary status for CHAMPVA submissions. When a veteran submits CHAMPVA paperwork for their family, a single submission can cover multiple people — for example, a spouse and two dependents — all grouped together under one submission ID (`form_uuid`).
+
+Today, CST shows only a single status for the whole submission. It has no awareness that one submission covers multiple people who could each be at a different stage of processing. The goal of this story is to agree on the right approach before writing any code, so the team is aligned on complexity, data availability, and risk.
+
+---
+
+## What We Already Have (The Good News)
+
+Before getting into options, it's worth explaining what our database already stores — because it shapes everything.
+
+### The `ivc_champva_forms` table
+
+Every file in a CHAMPVA submission gets its own row in our database table called `ivc_champva_forms`. When a veteran submits CHAMPVA paperwork for a spouse and two dependents, we end up with multiple rows — one per person, per document — all sharing the same submission ID (`form_uuid`) so we know they belong together.
+
+Each row includes:
+
+| Column | What it stores |
+|---|---|
+| `form_uuid` | The ID that groups all rows for one submission together |
+| `first_name` / `last_name` | The name of the specific beneficiary (the person being enrolled) |
+| `form_number` | Which CHAMPVA form this row is for, e.g. `10-7959C` |
+| `pega_status` | The current processing status, updated daily by our PEGA sync job |
+| `case_id` | The case ID assigned by PEGA once they start processing |
+| `ves_status` | Eligibility status from the Veterans Enrollment System |
+| `submitted_by_icn` | The ICN (unique VA identifier) of the veteran who submitted on behalf of their family. This column was just added and is now in staging. |
+| `updated_at` | Automatically updated by Rails any time anything in the row changes |
+
+**The key insight: per-beneficiary status data already exists in our database.** The problem is not a data gap — it's that we throw the per-person data away before it ever reaches the front end.
+
+### How the data gets thrown away today
+
+A class called `ClaimBuilder` (`lib/benefits_claims/providers/ivc_champva/claim_builder.rb`) is responsible for turning database rows into the JSON response that CST reads. When it finds multiple rows for the same submission, it picks just one — the most recently updated — and discards the rest:
+
+```ruby
+def pick_representative(records)
+  records.max_by(&:updated_at)  # picks one row, silently discards all others
+end
+```
+
+It does list all the applicant names, but with no status attached to them:
+
+```ruby
+def applicant_names(records)
+  records.map { |r| "#{r.first_name} #{r.last_name}" }  # names only, no statuses
+end
+```
+
+So the veteran sees a list of names and one status for the whole group — they have no way to know whether each individual person has been approved, is still pending, or needs something.
+
+### How CST gets its data
+
+CST reads from our own database — it does **not** call PEGA in real time. A background job (`PollPegaStatusJob`) runs daily on a schedule, asks PEGA for the latest status on each submission, and writes the results back to each row in `ivc_champva_forms`. CST then reads whatever is in the database.
+
+This is actually a good design: if PEGA's systems go down, CST just shows the last known status rather than throwing an error or showing a blank screen. The trade-off is that status information can be up to 24 hours stale.
+
+---
+
+## The ICN Problem (Why This Isn't Trivial)
+
+When a veteran submits CHAMPVA, they are applying **on behalf of their family members** — the spouse and dependents are not the ones logged into VA.gov. The database rows we store have the beneficiary's name, but not their VA identifier (ICN).
+
+When the veteran later logs into VA.gov and opens CST, we have their ICN. We need a way to connect that ICN to their family's CHAMPVA submission records. There are two ways to do that:
+
+**Way 1 — Use `submitted_by_icn` (already done):** We store the submitting veteran's ICN at the time of submission. When CST loads, we query `ivc_champva_forms` filtering by the logged-in veteran's ICN — returning all rows they submitted on behalf of their family. This column (`submitted_by_icn`) was just added to the database in a recently merged PR and is now in staging.
+
+**Way 2 — Look it up in real time via MPI and VES:** Query VA's Master Person Index (MPI) to find out who this veteran's dependents and family members are, then ask the Veterans Enrollment System (VES) what their CHAMPVA status is. This is more powerful but requires additional infrastructure work that hasn't started yet.
+
+---
+
+## Data Retention Constraint
+
+A background job called `OldRecordsCleanupJob` is designed to delete rows from `ivc_champva_forms` where the record hasn't been updated in more than 60 days. This sounds alarming, but there is an important nuance:
+
+Because `updated_at` resets every time any column in the row changes — including when the daily PEGA polling job writes a new status — active, in-flight claims stay fresh and are never at risk. The 60-day clock only starts ticking after PEGA stops updating a record, which happens when a claim reaches a final settled state.
+
+In practice, the concern is: if a veteran submits, their claim gets fully processed and closed, and then they come back to VA.gov 3+ months later hoping to see their history — those rows would be gone and CST would show nothing.
+
+**Important:** This job is currently behind two separate feature flags and is **not running in any environment**. It has not caused any data loss yet and won't until someone intentionally enables it. We have time to make a deliberate decision about the threshold and what categories of records to protect before we turn it on.
+
+---
+
+## PEGA Status Normalization
+
+The status strings we receive from PEGA (e.g. "Pending", "In Review", "Approved") have known inconsistencies — typos, different capitalizations, and variations across different form types. `ClaimBuilder` already has a partial map that normalizes these, but it's known to be incomplete.
+
+Before we surface per-beneficiary statuses to veterans in the UI, we need to audit and complete this normalization map. Displaying a raw misspelled status string next to a beneficiary's name would be a confusing and poor experience.
+
+---
+
+## Option A — Enrich `claimStatusMeta` with Per-Beneficiary Statuses (Recommended)
+
+### What this means in plain language
+Instead of throwing away the per-person statuses, we include them in the existing data structure that CST already reads (`claimStatusMeta`). We add a `beneficiaryStatuses` array that lists each person by name alongside their individual status. The front end then renders a breakdown showing each family member's status rather than a single line for the whole submission.
+
+### What changes on the backend
+We update `ClaimBuilder` to stop picking just one representative row and instead build an array of objects — one per beneficiary — each containing the person's name, their current status, and which form it relates to:
+
+```ruby
+def beneficiary_statuses(records)
+  records.map do |r|
+    {
+      name: "#{r.first_name} #{r.last_name}",
+      status: normalize_status(r.pega_status),
+      form_number: r.form_number
+    }
+  end
+end
+```
+
+The single top-level claim status (shown in the card header) becomes the most conservative status across all beneficiaries — if anyone is still pending, the overall status shows as pending. No database schema changes are needed. We filter `ivc_champva_forms` by `submitted_by_icn`, which is already in the database.
+
+### What changes on the front end
+CST needs a new UI component that, when `beneficiaryStatuses` is present and has more than one entry, renders a per-person breakdown rather than (or in addition to) the single status line.
+
+### Pros
+- No new infrastructure, no new API integrations, no new database tables
+- The data already exists — this is purely a change to what we return from the read path
+- If PEGA's systems go down, CST still shows the last known status per person — nothing breaks
+- Builds on the existing `claimStatusMeta` contract that CST already reads today
+
+### Cons
+- `submitted_by_icn` is `NULL` on all rows submitted before this column was added. Veterans who submitted before that point won't see per-beneficiary status until we backfill or until they resubmit
+- The PEGA status normalization map needs to be completed before this ships
+- FE needs a new component for the per-person rendering
+
+---
+
+## Option B — New `beneficiaryStatuses` Top-Level Field
+
+### What this means in plain language
+This is identical to Option A in terms of what data we surface and how we get it. The only difference is *where* in the API response we put it — as its own dedicated top-level field rather than nested inside `claimStatusMeta`. This makes the API contract cleaner and easier for the front end to reason about independently.
+
+### Why you might prefer this over Option A
+If `claimStatusMeta` is already getting crowded and the team wants a clean dedicated contract for beneficiary data, Option B is a better long-term API shape. It's also fully backward compatible — the existing CST front-end code simply ignores fields it doesn't recognize, so nothing breaks.
+
+### Pros and Cons
+Identical to Option A. Same data, same database query, same backfill gap, same normalization requirement. This is purely an API contract design preference.
+
+---
+
+## Option C — Real-Time Lookup via VA's Master Person Index and Enrollment System (Future State)
+
+### What this means in plain language
+Instead of relying on whatever we stored in our database at submission time, we look up the veteran's family relationships and each beneficiary's CHAMPVA status in real time, directly from VA's authoritative systems. When the veteran opens CST, we ask VA's Master Person Index "who are this veteran's dependents?" and then ask the Veterans Enrollment System "what is each of those people's CHAMPVA status?"
+
+This approach doesn't depend on anything we stored. It works even for claims submitted before we added `submitted_by_icn`, and even for people enrolled via paper forms that never touched vets-api.
+
+### Why it's blocked
+This requires a separate piece of work to establish how we map a veteran's ICN to their dependents' ICNs through VA's Master Person Index. That work is tracked separately as **"ICN Mapping for CHAMPVA Dependents"** and has not started yet. We can't build Option C until that work defines the lookup pattern.
+
+Additionally, making live API calls to MPI and VES in the CST page load path introduces latency and availability risk that needs to be assessed — if either service is slow or down, we need a fallback so CST doesn't break.
+
+### Pros
+- Does not require backfilling `submitted_by_icn`
+- No 60-day data retention concern — we're reading from authoritative live systems
+- Works for paper submissions and cases that never went through vets-api
+- Reflects truly current eligibility state, not just last-known submission state
+
+### Cons
+- Blocked until the ICN mapping work is complete
+- Adds live API calls to the CST page load path — latency and availability risk with complex fallback requirements
+- VES returns enrollment/eligibility status, which is a different vocabulary than PEGA's processing statuses; the front end would need to reconcile two different status models
+- Significantly more implementation scope than Options A or B
+
+---
+
+## Summary Table
+
+| | **Option A** | **Option B** | **Option C** |
+|---|---|---|---|
+| New infrastructure needed | No | No | Yes |
+| Database schema changes | No | No | No |
+| Currently blocked on other work | No | No | Yes (ICN mapping work not started) |
+| Backfill needed for old submissions | Yes | Yes | No |
+| Live API calls in page load | No | No | Yes |
+| Front-end changes required | Yes | Yes | Yes (more complex) |
+| Implementation risk | Low | Low | High |
+| Recommended now | ✅ Yes | Viable alternative | Future state |
+
+---
+
+## Recommendation
+
+**Options A or B are unblocked and ready to scope now.** The `submitted_by_icn` column is already in the database (merged to staging). The per-beneficiary status data is already being written to `ivc_champva_forms` every day by the PEGA cron job. What we need to do is stop throwing that data away in `ClaimBuilder` and start including it in the CST response — plus build the front-end component to display it.
+
+**Choosing between A and B** is a team preference on API design. Option A has a smaller diff and builds on what already exists. Option B is a cleaner contract if the team prefers a dedicated field. Either is low risk and can ship without waiting on any other team.
+
+**Option C** is the right long-term direction when we want to show a truly authoritative, real-time view — but it cannot start until the separate ICN mapping work is done and we've assessed the latency/availability implications for the CST load path.
+
+---
+
+### Open Decisions Before Implementation
+
+1. **Backfill strategy** — Do we backfill `submitted_by_icn` for submissions made before the column was added? It may be possible to recover the submitter's ICN from the encrypted form payload stored in `request_json_ciphertext`. If not, we should explicitly decide to accept the gap rather than leaving it undefined.
+
+2. **PEGA status normalization audit** — Complete the normalization map and agree on the full set of display-safe status strings before exposing per-beneficiary labels in the UI.
+
+3. **`OldRecordsCleanupJob` threshold** — Decide the right retention window and whether to protect records in non-terminal statuses (i.e., don't delete a row if the claim is still in progress) before the job is enabled. The current 60-day threshold is a code constant we fully control.
+
+---
+
+---
+
+## TL;DR — Options at a Glance
+
+### Option A — Use What's Already in the Database
+The data we need is already in our database (`ivc_champva_forms`). Each beneficiary has their own row with their own status. We just need to stop collapsing all those rows into one and start sending each person's name and status to the front end. Low risk, no new systems, can start now.
+
+### Option B — Same as A, Cleaner API Shape
+Exact same idea as Option A — same data, same database query, same result for the veteran. The only difference is we put the per-person data in its own dedicated slot in the API response instead of bundling it with existing claim metadata. Cleaner design, same effort, same outcome.
+
+### Option C — Real-Time Lookup from VA's Central Systems (Future)
+Instead of using what's in our database, we ask two VA systems in real time: first, VA's **Master Person Index (MPI)** — the central registry that knows who a veteran's dependents and family members are — to get each beneficiary's VA identifier. Then we ask the **Veterans Enrollment System (VES)** — the system that tracks CHAMPVA eligibility and enrollment — for each person's current status. This is more authoritative and works even for submissions that predate our database records, but it requires a separate piece of infrastructure work that hasn't started yet and adds live API calls to the page load. Best saved for a future phase.
