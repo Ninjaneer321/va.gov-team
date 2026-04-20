@@ -1,6 +1,6 @@
 # VA.gov Teams Directory
 
-> Auto-generated from `.github/knowledge-graph.json` on 2026-04-15.
+> Auto-generated from `.github/knowledge-graph.json` on 2026-04-20.
 > Edit the source data, not this file.
 
 61 teams across all portfolios.
@@ -706,6 +706,9 @@
 - **Portfolio**: Digital Experience
 - **Crew**: Core Veteran Experiences
 - **README**: `teams/digital-experience/cve-1/README.md` *(in va.gov-team-sensitive — requires access)*
+
+**Research (1 study):**
+  - **TSA Safe Travel Letter – Predictive Findings: Pre-Launch Risk Assessment** [Veterans] · [view](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/tsa-safe-travel-letter/research/2026)
 
 ---
 

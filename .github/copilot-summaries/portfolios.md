@@ -1,6 +1,6 @@
 # VA.gov Portfolio Hierarchy
 
-> Auto-generated from `.github/knowledge-graph.json` on 2026-04-15.
+> Auto-generated from `.github/knowledge-graph.json` on 2026-04-20.
 > Edit the source data, not this file.
 
 Organisational hierarchy: Portfolio → Crew → Team → Products.
@@ -141,6 +141,8 @@ Organisational hierarchy: Portfolio → Crew → Team → Products.
 
 #### Core Veteran Experience 1 🔒
 *README: `teams/digital-experience/cve-1/README.md` (in va.gov-team-sensitive — requires access)*
+
+*1 research study — see [research-by-team.md](research-by-team.md)*
 
 #### Core Veteran Experience 2 🔒
 *README: `teams/digital-experience/cve-2/README.md` (in va.gov-team-sensitive — requires access)*

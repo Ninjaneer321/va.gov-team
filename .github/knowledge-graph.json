@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-04-15T17:24:04.350Z",
+    "generated": "2026-04-20T08:49:34.464Z",
     "description": "Knowledge graph of VA.gov products and teams",
     "source_directories": [
       "products/",
@@ -9,32 +9,32 @@
     ]
   },
   "statistics": {
-    "total_nodes": 1233,
-    "total_edges": 2502,
+    "total_nodes": 1234,
+    "total_edges": 2506,
     "nodes_by_type": {
       "team": 61,
       "portfolio": 4,
       "crew": 19,
-      "product": 346,
+      "product": 345,
       "category": 25,
       "external_system": 5,
       "form": 64,
-      "research_study": 709
+      "research_study": 711
     },
     "edges_by_relationship": {
       "belongs_to_portfolio": 61,
       "belongs_to_crew": 61,
       "part_of_portfolio": 19,
-      "sub_product_of": 257,
+      "sub_product_of": 256,
       "owns_product": 16,
       "works_on_product": 1,
-      "references_product": 290,
+      "references_product": 291,
       "integrates_with": 165,
       "implements_form": 104,
-      "has_research": 691,
-      "conducted_research": 538,
+      "has_research": 693,
+      "conducted_research": 539,
       "research_for_form": 107,
-      "research_references_product": 192
+      "research_references_product": 193
     }
   },
   "nodes": [
@@ -3568,47 +3568,6 @@
       "team_ref": "https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams/health-portfolio/ivc-forms"
     },
     {
-      "id": "product-health-care-1095b-tax-form",
-      "type": "product",
-      "name": "1095-B Form",
-      "path": "products/health-care/1095b-tax-form",
-      "display_name": "1095-B Form",
-      "description": "Internal Revenue Service (IRS) form 1095-B reports the months a person had qualifying minimum essential health coverage to the IRS. VA sends this form to Veterans to show what months they were covered under the VA healthcare system.",
-      "slack_channels": [
-        "#cedar-1095b"
-      ],
-      "github_label": "1095b-Tax-Form",
-      "va_urls": [
-        "http://www.va.gov/records/download-your-irs-1095-b](http://www.va.gov/records/download-your-irs-1095-b"
-      ],
-      "product_references": [
-        "products/health-care/1095b-tax-form/product/1095B-Tax-Form-Product-Outline",
-        "products/health-care/1095b-tax-form/design/VA_1095-B",
-        "products/health-care/1095b-tax-form/research/research-plan",
-        "products/health-care/1095b-tax-form/research/conversation-guide",
-        "products/health-care/1095b-tax-form/research/round",
-        "products/health-care/1095b-tax-form/research/Round1-Sprint2-Research-SCRUBBED",
-        "products/health-care/1095b-tax-form/research/round2/researchplan",
-        "products/health-care/1095b-tax-form/research/round2/conversation-guide",
-        "products/health-care/1095b-tax-form/research/round2/round2-research-report",
-        "products/health-care/1095b-tax-form/research/round2/round-2-synthesis",
-        "products/health-care/1095b-tax-form/research/uat/research-plan",
-        "products/health-care/1095b-tax-form/research/uat/conversation-guide",
-        "products/health-care/1095b-tax-form/Final",
-        "products/health-care/1095b-tax-form/product/1095b-release-plan",
-        "products/health-care/1095b-tax-form/Content/VA",
-        "products/health-care/1095b-tax-form/Content/HEC/HEC",
-        "products/health-care/1095b-tax-form/product/incident-response-plan",
-        "products/health-care/1095b-tax-form/product/product-playbook",
-        "products/health-care/1095b-tax-form/research/tech/architecture-plan",
-        "products/health-care/1095b-tax-form/research/tech/Data",
-        "products/health-care/1095b-tax-form/research/tech/1095-B",
-        "products/health-care/1095b-tax-form/product/testing-the-API",
-        "products/health-care/1095b-tax-form/product/Legal",
-        "products/health-care/health-apartment/Health"
-      ]
-    },
-    {
       "id": "product-health-care-covid-screener",
       "type": "product",
       "name": "COVID-screener",
@@ -4320,6 +4279,7 @@
         "products/identity/login/reference-documents/auth/authentication-and-authorization-simplified",
         "products/identity/Products/Sign-In",
         "products/identity/Products/Service",
+        "products/identity/platform-authentication/security",
         "products/identity/Policies"
       ]
     },
@@ -4334,19 +4294,21 @@
         "#sign-in-experience",
         "#unified-sign-in-page-usip-design-details",
         "#session-expired",
-        "#readme",
-        "#system-recovery-plan---unified-sign-in-page-usip"
+        "#troubleshooting-authentication-errors",
+        "#readme"
       ],
       "product_references": [
+        "products/identity/sign-in-experience/reducing-dissatisfaction",
+        "products/identity/sign-in-experience/error-improvements",
         "products/identity/login/unified-sign-in-pages",
         "products/identity/Frontend/applications/verify",
         "products/identity/Frontend/applications/terms-of-use",
         "products/identity/Troubleshooting_logging/Authentication_Errors/005",
+        "products/identity/Troubleshooting_logging/Authentication_Errors",
         "products/identity/Frontend/downtime-banners",
         "products/identity/Products/product",
-        "products/identity/Troubleshooting_logging/Authentication_Errors",
-        "products/identity/Incident",
-        "products/identity/Research/2026-01"
+        "products/identity/Research/2026-01",
+        "products/identity/Incident"
       ]
     },
     {
@@ -5720,8 +5682,7 @@
       "description": "The Design System and Forms Library are managed by the [Design & Forms Systems team](https://github.com/department-of-veterans-affairs/teams/design-forms-systems)",
       "slack_channels": [
         "#vads-component-library-releases",
-        "#platform-design-system",
-        "#top"
+        "#platform-design-system"
       ]
     },
     {
@@ -6936,7 +6897,37 @@
       "id": "product-veteran-status",
       "type": "product",
       "name": "veteran-status",
-      "path": "products/veteran-status"
+      "path": "products/veteran-status",
+      "display_name": "Veteran Status Card Product Outline",
+      "description": "[Staging URL](https://staging.va.gov/profile/veteran-status-card)",
+      "slack_channels": [
+        "#cve-product-teams-public"
+      ],
+      "github_label": "team-CVE",
+      "product_references": [
+        "products/veteran-status/v2-IIR/use-cases",
+        "products/veteran-status/v1/Research",
+        "products/veteran-status/v2-IIR/Research",
+        "products/veteran-status/v2-IIR/ineligibility-error-messaging-logic"
+      ],
+      "team_roster": [
+        {
+          "role": "DEPO Lead",
+          "name": "David Conlon"
+        },
+        {
+          "role": "PM",
+          "name": "Megan Commons"
+        },
+        {
+          "role": "Engineering",
+          "name": "Adam King, Jesse Berman"
+        },
+        {
+          "role": "Research/Design",
+          "name": "David Pearl"
+        }
+      ]
     },
     {
       "id": "product-veteran-status-v1",
@@ -26815,6 +26806,20 @@
       ]
     },
     {
+      "id": "research-products-paperless-delivery-research-2025-painpoints",
+      "type": "research_study",
+      "path": "products/paperless-delivery/Research/2025_PainPoints",
+      "files": {
+        "plan": null,
+        "findings": null,
+        "conversation_guide": null
+      },
+      "name": "**Paperless Delivery – Structured Findings: Go Paperless Settings**",
+      "participant_types": [
+        "Veterans"
+      ]
+    },
+    {
       "id": "research-products-pension-2019-files-research",
       "type": "research_study",
       "path": "products/pension/2019 files/research",
@@ -28248,6 +28253,20 @@
         "findings": null,
         "conversation_guide": null
       },
+      "participant_types": [
+        "Veterans"
+      ]
+    },
+    {
+      "id": "research-products-tsa-safe-travel-letter-research-2026",
+      "type": "research_study",
+      "path": "products/tsa-safe-travel-letter/research/2026",
+      "files": {
+        "plan": null,
+        "findings": null,
+        "conversation_guide": null
+      },
+      "name": "TSA Safe Travel Letter – Predictive Findings: Pre-Launch Risk Assessment",
       "participant_types": [
         "Veterans"
       ]
@@ -31697,11 +31716,6 @@
       "relationship": "sub_product_of"
     },
     {
-      "source": "product-health-care-1095b-tax-form",
-      "target": "product-health-care",
-      "relationship": "sub_product_of"
-    },
-    {
       "source": "product-health-care-covid-screener",
       "target": "product-health-care",
       "relationship": "sub_product_of"
@@ -34594,6 +34608,11 @@
     {
       "source": "product-travel-reimbursement-btsss",
       "target": "product-health-care",
+      "relationship": "references_product"
+    },
+    {
+      "source": "product-tsa-safe-travel-letter",
+      "target": "product-benefit-letters",
       "relationship": "references_product"
     },
     {
@@ -41772,6 +41791,11 @@
       "relationship": "conducted_research"
     },
     {
+      "source": "product-paperless-delivery",
+      "target": "research-products-paperless-delivery-research-2025-painpoints",
+      "relationship": "has_research"
+    },
+    {
       "source": "product-pension",
       "target": "research-products-pension-2019-files-research",
       "relationship": "has_research"
@@ -42225,6 +42249,21 @@
       "source": "product-streamlined-waiver",
       "target": "research-products-streamlined-waiver-research-transcripts",
       "relationship": "has_research"
+    },
+    {
+      "source": "product-tsa-safe-travel-letter",
+      "target": "research-products-tsa-safe-travel-letter-research-2026",
+      "relationship": "has_research"
+    },
+    {
+      "source": "team-core-veteran-experience-1",
+      "target": "research-products-tsa-safe-travel-letter-research-2026",
+      "relationship": "conducted_research"
+    },
+    {
+      "source": "research-products-tsa-safe-travel-letter-research-2026",
+      "target": "product-benefit-letters",
+      "relationship": "research_references_product"
     },
     {
       "source": "product-va-gov-relaunch-2018",

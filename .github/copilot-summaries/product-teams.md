@@ -1,9 +1,9 @@
 # Product Team Rosters
 
-> Auto-generated from product README files via `.github/knowledge-graph.json` on 2026-04-15.
+> Auto-generated from product README files via `.github/knowledge-graph.json` on 2026-04-20.
 > Edit the source README, not this file.
 
-22 products have team roster information in their public README.
+23 products have team roster information in their public README.
 
 Use this file to quickly find who works on a specific product.
 For detailed team information (portfolio, crew, research), see [teams.md](teams.md).
@@ -286,6 +286,17 @@ For detailed team information (portfolio, crew, research), see [teams.md](teams.
 - **Engineering**: Adam King, Oddball;
 - **Research/Design**: Raquel Eisele, AdHoc
 - **Slack**: #iir-product-teams-public
+
+---
+
+## Veteran Status Card Product Outline
+*README: [products/veteran-status/README.md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-status/README.md)*
+
+- **DEPO Lead**: David Conlon
+- **PM**: Megan Commons
+- **Engineering**: Adam King, Jesse Berman
+- **Research/Design**: David Pearl
+- **Slack**: #cve-product-teams-public
 
 ---
 

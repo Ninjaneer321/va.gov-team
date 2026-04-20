@@ -1,6 +1,6 @@
 # Research Findings Index
 
-**Auto-generated** from research YAML frontmatter | **Last updated:** 2026-04-15
+**Auto-generated** from research YAML frontmatter | **Last updated:** 2026-04-20
 
 This index groups research findings by theme and by product for quick reference.
 For comprehensive cross-study analysis, use [deep research](../../platform/research/copilot-prompts/using-deep-research.md).

@@ -1,6 +1,6 @@
 # Research Studies by Team
 
-> Auto-generated from `.github/knowledge-graph.json` on 2026-04-15.
+> Auto-generated from `.github/knowledge-graph.json` on 2026-04-20.
 > Edit the source data, not this file.
 
 Use this file to quickly find all research a team has conducted.
@@ -5776,6 +5776,19 @@ For detailed team information (portfolio, README, products), see [teams.md](team
 - **Participants**: Veterans, Caregivers
 - **Path**: `products/facilities/vet-centers/research`
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/vet-centers/research) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Ffacilities%20Center%20User)
+
+
+## Core Veteran Experience 1 *(Digital Experience)*
+
+1 study:
+
+### [TSA Safe Travel Letter – Predictive Findings: Pre-Launch Risk Assessment](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/tsa-safe-travel-letter/research/2026)
+
+- **Date**: Date unknown
+- **Methodology**: Methodology not specified (Veterans)
+- **Participants**: Veterans
+- **Path**: `products/tsa-safe-travel-letter/research/2026`
+- **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/tsa-safe-travel-letter/research/2026) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Ftsa-safe-travel-letter%20Safe%20Travel)
 
 
 ## Decision Reviews *(Benefits Portfolio)*

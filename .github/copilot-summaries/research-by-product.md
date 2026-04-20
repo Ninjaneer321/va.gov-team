@@ -1,9 +1,9 @@
 # Research Studies by Product
 
-> Auto-generated from `.github/knowledge-graph.json` on 2026-04-15.
+> Auto-generated from `.github/knowledge-graph.json` on 2026-04-20.
 > Edit the source data, not this file.
 
-65 products have documented research studies.
+66 products have documented research studies.
 
 ## Examination for Housebound Status or Aid & Attendance (VA Form 21-2680)
 *Path: [products/21-2680](products/21-2680)*
@@ -6524,7 +6524,15 @@
 ## **Paperless Delivery**
 *Path: [products/paperless-delivery](products/paperless-delivery)*
 
-**Research (2 studies):**
+**Research (3 studies):**
+
+### [**Paperless Delivery – Structured Findings: Go Paperless Settings**](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/paperless-delivery/Research/2025_PainPoints)
+
+- **Date**: Date unknown
+- **Methodology**: Methodology not specified (Veterans)
+- **Participants**: Veterans
+- **Path**: `products/paperless-delivery/Research/2025_PainPoints`
+- **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/paperless-delivery/Research/2025_PainPoints) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fpaperless-delivery%20**Paperless%20Delivery)
 
 ### [Conversation Guide for paperless-delivery, paperless-delivery, 2026-03-23](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/paperless-delivery/Research/2025-05-Research-Initiative-2)
 
@@ -7050,6 +7058,20 @@
 - **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/streamlined_waiver/research/VHA-Copay-Veteran-archetypes) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Fstreamlined_waiver%20VHA-Copay-Veteran-archetypes)
 
 
+## **Benefit Letter**
+*Path: [products/tsa-safe-travel-letter](products/tsa-safe-travel-letter)*
+
+**Research (1 study):**
+
+### [TSA Safe Travel Letter – Predictive Findings: Pre-Launch Risk Assessment](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/tsa-safe-travel-letter/research/2026)
+
+- **Date**: Date unknown
+- **Methodology**: Methodology not specified (Veterans)
+- **Participants**: Veterans
+- **Path**: `products/tsa-safe-travel-letter/research/2026`
+- **Direct link**: [View directory](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/tsa-safe-travel-letter/research/2026) | [Search for this research](https://github.com/department-of-veterans-affairs/va.gov-team/search?q=path%3Aproducts%2Ftsa-safe-travel-letter%20Safe%20Travel)
+
+
 ## VA.gov Relaunch 2018
 *Path: [products/va-gov-relaunch-2018](products/va-gov-relaunch-2018)*
 
@@ -7449,7 +7471,7 @@
   - [Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-onboarding/research/2024/research%20findings.md)
 
 
-## veteran-status
+## Veteran Status Card Product Outline
 *Path: [products/veteran-status](products/veteran-status)*
 
 **Research (3 studies):**
