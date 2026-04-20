@@ -258,20 +258,39 @@ We chose this method because the overpayments feature was nearly finished and we
 
 During moderated sessions, Veterans successfully navigated the full lifecycle of overpayment management—from discovery on the home screen to initiating resolution flows (Payment, Dispute, and Help). Because participants used their own credentials, we were able to confirm that the app correctly displays real-world debt details, balances, and history without error.
 
-- _Supporting data: 🚧 number of people we tested with
+- _Supporting data: We tested with 6 Veterans (4 on iOS and 2 and Android) who logged in using their real credentials._
 - _Supporting data: Participants confirmed the accuracy of personal debt details (e.g., Receivable IDs and Payee numbers) on the "Pay Online" and "Detail" screens._
+
+**UAT Issue (Bug): Copy/paste adds an extra “$” when transitioning to pay.va.gov**
+
+When Veterans copy the payment amount (or dollar value) from the Pay Online screen in the app and paste it into pay.va.gov, the pasted value includes an extraneous dollar sign (“$”), which can require manual cleanup and may cause entry/validation errors.
+
+- Impact: Adds friction and increases risk of incorrect payment entry.
 
 
 ## Additional Insights
 
-🚧 Items to add somewhere
-- "Pay online" screen with the details to copy:
-    - The balance copies the dollar sign, but since the field in pay.va.gov already has the dollar sign, this results in duplicate characters.
-    - The balance appears first in the list, but it is much further down the screen on pay.va.gov, after all the other details.
-- Users would like transparency 
-    - Knowing what the overpayment is for
-    - If they're having their benefits reduced to pay back the overpayment, they want to know when that will happen and by how much.
-🚧 add quotes and/or how many people said it
+#### 1) “Pay online” details don’t match the pay.va.gov layout
+- Participants can copy key fields from the app’s Pay Online screen, but the balance (shown first in the app) appears much farther down the page on pay.va.gov after other details.
+
+#### 2) Veterans want clearer details on how the debt will be resolved
+Participants wanted the app to show what to expect when resolving the debt, especially payment plan amounts and benefit reduction/offset details (how much and when it starts).
+- “I don’t remember what I’m supposed to be paying every month… It’d be nice to see that here.” (P7)
+- “If it could show a breakdown of what my payments could be, I’d want to see that in the app.” (P9)
+
+#### 3) Veterans want transparency about why the overpayment exists
+Today, physical letters are the only place Veterans can get the detailed explanation for why the debt was created. Participants said they would like that same information available in the app, so they don’t have to rely on mail to understand what happened.
+
+- “It doesn’t tell you really why on the app… You do get a letter in the mail… just to have a little explanation…” (P4)
+- “They’ll send a physical copy stating what the debt is and how to resolve it… I’m quicker to go to an app than open up mail.” (P9)
+
+#### 4) Veterans can’t easily confirm the current state of their debt (missing activity + unclear “Last updated”)
+One Veteran demonstrated how hard it is to confirm the full status of a single overpayment across channels. She described multiple follow-on communications and actions (e.g., submitting a forgiveness/waiver request, receiving responses, applying for a payment plan), but could not find a complete record of those items anywhere. During the session, she searched across va.gov (including Claims and Letters) and still couldn’t locate evidence of the paperwork she had filed, only a partial set of VA-issued letters.
+
+This gap also made the “Last updated” label feel unreliable. She wanted it to indicate who updated the debt (VA vs. Veteran action) and what specifically happened. While she could reconstruct the timeline from memory, she didn’t want to have to rely on that; she wanted all related communications and actions visible in one place.
+
+- “So, I know I have more letters than what’s listed here. I’m not sure what type of letters are being pulled, but I know I’ve gotten more than one letter.” (P12)
+- “Yeah, this date is definitely not right then, because it’s just tying it to one letter, and there’s other letters missing. The confusion now is saying it’s updated - updated by who?” (P12)
 
 
 ## Recommendations and Next Steps
