@@ -16,7 +16,7 @@
 ### Admin / logistical wins or flags (risks) (optional)
 - Template Migration Risk: Homepage Launch is dependent on final approval from Public Websites. This is currently pending design review from Public Websites.
 - EKS Risk: CMS has a dependency on Platform Infrastructure to setup v next clusters in Production. This work is on hold for Platform Infrastructure until they have successfully completed their migration to GHEC-US.
-- Platform is migrating vets-website to GHEC-US 4/22-4/29. We do not anticipate this impacting our deliverables, but noting that our build processes have dependencies on vets-website and may require some additional support this sprint. 
+- Platform is migrating vets-website and Jenkins authentication to GHEC-US 4/22-4/29. We do not anticipate this impacting our deliverables, but note that our build processes have dependencies on vets-website and Jenkins and may require some additional support this sprint.
 
 ---
 
