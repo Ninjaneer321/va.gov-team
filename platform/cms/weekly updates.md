@@ -1,5 +1,5 @@
 
-## 4/23 OIT Weekly Update (WIP)
+## 4/22 OIT Weekly Update (WIP)
 
 ### Next 7 Days
 - **Create a Tugboat for Drupal 11 Upgrade [#23971](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/23971)** enables critical testing that must be done in advance of the actual upgrade. The testing will reveal issues that we must fix and key areas to communicate to content editors in advance so they know what to expect with the upgrade.
@@ -20,7 +20,7 @@
 
 ---
 
-## 4/16 OIT Weekly Update
+## 4/15 OIT Weekly Update
 
 ### Next 7 Days
 - **Discovery: Redesign Editorial state [#23017](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/23017)** supports user experience improvement reduces editor by reducing confusion around content publishing state and improving editor confidence in the content workflow.
