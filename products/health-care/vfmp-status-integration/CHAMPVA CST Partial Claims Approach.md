@@ -23,7 +23,7 @@ Each row includes:
 | `form_number` | Which CHAMPVA form this row is for, e.g. `10-7959C` |
 | `pega_status` | The current processing status, updated daily by our PEGA sync job |
 | `case_id` | The case ID assigned by PEGA once they start processing |
-| `ves_status` | Eligibility status from the Veterans Enrollment System |
+| `ves_status` | Transmission acknowledgment confirming the file was successfully delivered to VES — not eligibility or enrollment data |
 | `submitted_by_icn` | The ICN (unique VA identifier) of the veteran who submitted on behalf of their family. This column was just added and is now in staging. |
 | `updated_at` | Automatically updated by Rails any time anything in the row changes |
 
@@ -213,3 +213,35 @@ Exact same idea as Option A — same data, same database query, same result for 
 
 ### Option C — Real-Time Lookup from VA's Central Systems (Future)
 Instead of using what's in our database, we ask two VA systems in real time: first, VA's **Master Person Index (MPI)** — the central registry that knows who a veteran's dependents and family members are — to get each beneficiary's VA identifier. Then we ask the **Veterans Enrollment System (VES)** — the system that tracks CHAMPVA eligibility and enrollment — for each person's current status. This is more authoritative and works even for submissions that predate our database records, but it requires a separate piece of infrastructure work that hasn't started yet and adds live API calls to the page load. Best saved for a future phase.
+
+---
+
+## Expanding to All of CST (If Scope Grows)
+
+### Important Caveat First
+
+The per-beneficiary status problem is not universal across all CST claim types. Disability claims, for example, are filed by and for the veteran themselves — there are no separate beneficiaries to list. The multi-beneficiary pattern is most relevant for a specific subset of benefit types where a veteran files on behalf of family members, such as:
+
+- **CHAMPVA** — health coverage for dependents/survivors (the primary driver of this story)
+- **Chapter 35 (DEA)** — education benefits for dependents of permanently disabled or deceased veterans
+- **DIC (Dependency and Indemnity Compensation)** — compensation for surviving spouses and dependents
+- **Survivors Pension** — for surviving spouses and dependents
+
+For the remaining claim types in CST, the veteran is the only subject and per-beneficiary status doesn't apply.
+
+### What Would Need to Change
+
+**API Contract:** Option B's dedicated `beneficiaryStatuses` top-level field becomes the clearly preferred approach over Option A. It defines a standard, reusable contract slot that any claim type provider can populate when relevant, rather than being specific to CHAMPVA's `claimStatusMeta`. Claim types where beneficiaries don't apply simply return an empty array or omit the field.
+
+**Provider Architecture:** Each claim type in CST has its own backend provider (CHAMPVA uses `ClaimBuilder`; other types use different providers backed by different systems — EVSS, Lighthouse, BGS, etc.). Expanding this pattern means each relevant provider would need its own assessment of whether per-beneficiary data is available in its underlying system and in what shape.
+
+**Not a one-size-fits-all:** Unlike CHAMPVA where per-beneficiary rows already exist in `ivc_champva_forms`, other benefit systems may not store data with the same per-person granularity. Each would need to be assessed individually before implementing.
+
+### Recommended Approach If Scope Expands
+
+1. **Start with CHAMPVA as the pilot** — it has the clearest data model and the most immediate need. Use it to validate the `beneficiaryStatuses` contract and the FE rendering pattern.
+2. **Define the contract generically from day one** — design `beneficiaryStatuses` as a standard field shape `{ name, status, form_number }` that any provider can implement, not something CHAMPVA-specific.
+3. **Audit other relevant claim types one by one** — assess Chapter 35, DIC, and Survivors Pension to determine whether their backend systems provide per-beneficiary data and what work is needed to surface it.
+4. **Leave disability and other veteran-only claim types out of scope** — no beneficiary concept applies.
+
+This approach lets us ship value for CHAMPVA now while laying the groundwork for broader expansion without over-engineering upfront.
