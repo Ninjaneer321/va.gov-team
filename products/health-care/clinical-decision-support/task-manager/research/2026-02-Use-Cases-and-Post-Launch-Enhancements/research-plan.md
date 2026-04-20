@@ -1,3 +1,4 @@
+---
 # Research Plan Metadata
 title: "CDS Task Manager Use Cases and Post Launch Enhancements, February 2026"
 date: 2026-02-04
@@ -114,3 +115,4 @@ tags:
   - "enhancements"
   - "AUD: VA Staff"
   - "BNFT: Healthcare"
+---
