@@ -5,27 +5,47 @@
 > - If you're an observer, do not worry about following the template exactly! Feel free to just use the main section headings (Scenario 1, Scenario 2, etc.) and ignore the sub-headings if they are confusing.
 
 Participant type
-- [ ] Veteran
+- [X] Veteran
 - [ ] Family member
 
 Notetaker: John Riggin
 
 -----
 ### Introduction
-- [ ] Can record
-- [ ] Can use video clips
+- [X] Can record
+- [X] Can use video clips
 
 
 ### Warm-up Questions
 
 VA.gov account?
-- notes
+- Yes
+
+How often do you login?
+- Use more of the app for appointment
+- Use the computer if I need to check medical records
+
+What do you typically do on VA.go
+ Medical appointents. Update prescription, Check records for lab results, claims
 
 Applied for CHAMPVA?
-- notes
+- I was interested in the program for my daughter.
+- She is eligible and now enrolled.
+
+- Did this online - I went to VA hospital for more information (details) Talked to a representative there for more info.
+- The person sent a link on how to enroll. Clicked the link and saw the CHAMPVA information.
+
+- Applied ~4 months ago or so.
 
 After submitting application?
-- notes
+- They sent information over the mail. It was not clear and what they sent was not good language. It was around eligibility or where should could receive services.
+- User was uncertain where daughter could get care throught the program - at VA hospital or outside providers? 
+
+- May have needed to provide a birth certificate proving my daughter or something.
+- Not sure if he received the request in the mail or not. May have been part of the online form.
+
+**STUDY STOPPED - USER HAD CONNECTIVITY ISSUE**
+
 
 
 ### Screenshare & Prototype Setup
