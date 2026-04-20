@@ -13,7 +13,7 @@ If you're familiar with SiS, visit the [quickstart guide](https://github.com/dep
 |-----|-------------|
 | [Cookie OAuth guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Products/Sign-In%20Service/Engineering%20Docs/Authentication%20Types/Client%20Auth%20(User)/auth_flows/cookie_oauth.md) | PKCE authorization flow for web applications |
 | [API OAuth guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Products/Sign-In%20Service/Engineering%20Docs/Authentication%20Types/Client%20Auth%20(User)/auth_flows/api_oauth.md) | PKCE authorization flow for mobile and API clients |
-| [Private key JWT guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Products/Sign-In%20Service/Engineering%20Docs/Authentication%20Types/Client%20Auth%20(User)/auth_flows/private_key_jwt.md) | Backend API authorization flow |
+| [Private key JWT guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Products/Sign-In%20Service/Engineering%20Docs/Authentication%20Types/Client%20Auth%20(User)/auth_flows/private_key_jwt.md) | PKCE-variant  authorization flow leveraging a client-managed private key |
 | [Service account guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Products/Sign-In%20Service/Engineering%20Docs/Authentication%20Types/Service%20Account%20Auth%20(STS)/README.md) | API-to-API authorization flow |
 | [Device SSO Token Exchange](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Products/Sign-In%20Service/Engineering%20Docs/Authentication%20Types/Client%20Auth%20(User)/auth_flows/device_sso_token_exchange.md) | Single sign-on for creating a new session to continue using the application across clients |
 
@@ -23,9 +23,11 @@ If you're familiar with SiS, visit the [quickstart guide](https://github.com/dep
 
 | Type | Description |
 |-----|-------------|
-| [Authentication types](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Products/Sign-In%20Service/Engineering%20Docs/Authentication%20Types) | Summary and technical reference documentation of authentication flows. |
-| [Postman collection](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/vsp/teams/Identity/Documentation/Development/postman/collections/main/va.gov_identity.postman_collection.json) | API reference documentation in JSON |
-| [Example SiS app](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Products/Sign-In%20Service/Identity%20Team%20Integrations/SiS%20Example%20App) | A lightweight client written in Sinatra to model a Sign in Service integration. |
+| [Authentication types](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Products/Sign-In%20Service/Engineering%20Docs/Authentication%20Types) | Technical reference for configuration setups, flow diagrams, specific endpoint requests and response formats. |
+| [Postman documentation](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Products/identity_postman.md) | Documentation for a postman collection that can be used to test different Idenitity-relevant routes. |
+| [Example SiS Sinatra client template](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Products/Sign-In%20Service/Identity%20Team%20Integrations/SiS%20Example%20App) | A lightweight client written in Sinatra to model a Sign in Service integration. |
+| [Example SiS Ruby client template](https://github.com/department-of-veterans-affairs/sign-in-service-rb) | A lightweight client written in Ruby to model a Sign in Service integration. |
+| [Example SiS Javascript client template](https://github.com/department-of-veterans-affairs/sign-in-service-client-js) | A lightweight client written in Javascript to model a Sign in Service integration. |
 
 ---
 
