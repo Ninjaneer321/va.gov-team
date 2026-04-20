@@ -15,7 +15,7 @@ https://staging.va.gov/housing-assistance/home-loans/request-coe-form-26-1880/in
     - "Previous VA home loans" - second page of Step 3. If you select No, you go to Step 4. If you select Yes, you get another page.
     - "Properties owned with VA home loans" - third page of Step 3. If you select No, you go to Step 4. If you select Yes, you go through list and loop pages.
 
-### List of known issues and bug
+### List of known issues and bugs
 - When a user uploads a doc, adds a doc type, and then changes the file, the doc type stays selected but it acts as if there isn't a doc type selected and the user can't move forward. [Ticket](https://va.ghe.com/software/va-cve/issues/2665)
 - Planning to implement minimal header and footer before release. [Ticket](https://va.ghe.com/software/va-cve/issues/2533)
 - When a user is offline and starts the form, the first page of the form populates the first page of the "old" form. [Ticket](https://va.ghe.com/software/va-cve/issues/2666)
