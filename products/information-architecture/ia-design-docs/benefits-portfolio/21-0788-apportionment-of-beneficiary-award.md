@@ -41,7 +41,7 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - URL: https://www.vba.va.gov/pubs/forms/VBA-21-0788-ARE.pdf 
 - H1: INFORMATION REGARDING APPORTIONMENT OF BENEFICIARY'S AWARD
 - Sub-heading: N/A
-- Breadcrumb: [VA.gov home](https://www.va.gov/) > [VA forms](https://www.va.gov/forms/) > [About VA Form 21-0788](https://www.va.gov/forms/21-0788/) > On page link: [Download VA Form 21-0788 (PDF)](https://www.vba.va.gov/pubs/forms/VBA-21-0788-ARE.pdf)
+- Breadcrumb: [VA.gov home](https://www.va.gov/) > [VA forms](https://www.va.gov/forms/) > [VA Form 21-0788](https://www.va.gov/forms/21-0788/) > On page link: [Download VA Form 21-0788 (PDF)](https://www.vba.va.gov/pubs/forms/VBA-21-0788-ARE.pdf)
 - Browser title: VA Form 21-0788
 - Notes: 
 
