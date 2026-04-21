@@ -182,9 +182,7 @@ I knew where to look to find updates about my application.
 - [ ] 2
 - [ ] 3
 - [ ] 4
-- [ ] 5 - Strongly Agree
-
-[check transcript]
+- [x] 5 - Strongly Agree
 
 I know this would never happen, but would like it to be like UPS tracking - know where you are, estimated time of when things would arrive. Even if it's a false sense of progress, it gives you a sense of progress.
 
