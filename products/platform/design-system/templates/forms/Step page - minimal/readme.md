@@ -45,8 +45,6 @@ The form header usability testing aims to address pain-points related to the amo
   - [Minimal Footer components](https://www.figma.com/design/JDFpGLIojfuQwANXScQjqe/VADS-Component-Examples?node-id=1024-3269&node-type=frame&t=oPRQyMGvaaFArsoY-11)
 - **Coming soon!**
   - [Figma Form template with minimal header & footer ](https://www.figma.com/design/Prr3ApW0oQDCvUDUNj4Pgx/zzzz-VFF-Toolbox?node-id=48-2403&t=N2zx9wgtg7lx6AM0-1) - This tempalte is currently stored in the VFF teams figma library. It will eventually be moved to VADS template library.
-- **Draft Documentation**
-  - [For designers. Draft in Google docs.](https://docs.google.com/document/d/1Y_ExSQkexEiom1siC3EaL_hwKrsw6NNLxBuX-TSQrk0/edit?usp=sharing) (Request permission to view) 
 
 ## Slack channels
 - [#veteran-facing-forms](https://dsva.slack.com/channels/veteran-facing-forms)
@@ -54,4 +52,4 @@ The form header usability testing aims to address pain-points related to the amo
 
 ## Documentation 
 - [Mock form example on Staging](https://staging.va.gov/mock-form-minimal-header/introduction)
-- [Using Minimal header & footer in forms](form-step-WIP.md)
+- [Using Minimal header & footer in forms](https://design.va.gov/templates/forms/form-step-minimal)
