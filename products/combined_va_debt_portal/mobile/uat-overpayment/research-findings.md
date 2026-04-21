@@ -349,7 +349,7 @@ We confirmed the copy functionality successfully transfers data strings to the c
 
 ### Total number of clicks on empty states
 We confirmed the app correctly pulls and displays "empty states" for Veterans without active debt. Testing with 2 Veterans verified that this data is accurate and communicates the absence of debt effectively.
-- 🚧 link to empty state report or combine it with this report
+- [Report - UAT Overpayments: empty state](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/empty-state_no-debt_results-conversation-guide.md)
 
 
 ## Further research needed
