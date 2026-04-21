@@ -1,6 +1,3 @@
-WEBVTT
-
-
 2
 00:00:03.230 --> 00:00:09.849
 Moderator: Okay, I have started the recording, and I'd like to confirm, again, are you comfortable if I record my screen and audio as we talk today?
