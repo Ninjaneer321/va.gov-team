@@ -7,7 +7,7 @@ Moderator: Okay, I have started the recording, and I'd like to confirm, again, a
 
 3
 00:00:09.850 --> 00:00:10.880
-P1: Yes, ma'am.
+P01: Yes, ma'am.
 
 4
 00:00:11.440 --> 00:00:20.830
@@ -15,7 +15,7 @@ Moderator: And are you comfortable if we decide to use the recorded clip from ou
 
 5
 00:00:20.830 --> 00:00:21.520
-P1: Yes.
+P01: Yes.
 
 6
 00:00:21.520 --> 00:00:31.659
@@ -23,7 +23,7 @@ Moderator: Okay, perfect. So, before we jump into and look at the prototype, we 
 
 7
 00:00:31.660 --> 00:00:32.420
-P1: Yes.
+P01: Yes.
 
 8
 00:00:32.420 --> 00:00:36.749
@@ -31,7 +31,7 @@ Moderator: Okay, and how often are you logging into VA.gov, and for what type of
 
 9
 00:00:37.100 --> 00:00:44.580
-P1: Every week… every couple of weeks, trying to see if they fixed my GI Bill stuff yet.
+P01: Every week… every couple of weeks, trying to see if they fixed my GI Bill stuff yet.
 
 10
 00:00:45.370 --> 00:00:51.140
@@ -39,7 +39,7 @@ Moderator: Okay, that's helpful, just for context moving forward. So have you ev
 
 11
 00:00:51.300 --> 00:00:52.210
-P1: Yes.
+P01: Yes.
 
 12
 00:00:52.470 --> 00:00:59.240
@@ -47,7 +47,7 @@ Moderator: Okay is there anyone in your household who's currently enrolled in th
 
 13
 00:00:59.240 --> 00:00:59.960
-P1: Yes, ma'am.
+P01: Yes, ma'am.
 
 14
 00:00:59.960 --> 00:01:06.109
@@ -55,7 +55,7 @@ Moderator: Okay, thank you. And did you fill out that application online, on pap
 
 15
 00:01:06.550 --> 00:01:11.409
-P1: On paper, that was the only option that was available to me when we did it.
+P01: On paper, that was the only option that was available to me when we did it.
 
 16
 00:01:11.410 --> 00:01:12.260
@@ -67,7 +67,7 @@ Moderator: And can you tell me your experience, what it was like, after you subm
 
 18
 00:01:18.550 --> 00:01:25.110
-P1: I know for the last one for my daughter, it took several months for them to finalize it.
+P01: I know for the last one for my daughter, it took several months for them to finalize it.
 
 19
 00:01:25.320 --> 00:01:26.070
@@ -75,7 +75,7 @@ Moderator: Hmm.
 
 20
 00:01:26.070 --> 00:01:30.339
-P1: Just because of the backlog, they were, like, 5 months backlogged when I did it.
+P01: Just because of the backlog, they were, like, 5 months backlogged when I did it.
 
 21
 00:01:30.970 --> 00:01:38.539
@@ -83,7 +83,7 @@ Moderator: I see, I see. And then, was there anything that you had to mail or fa
 
 22
 00:01:38.540 --> 00:01:39.210
-P1: No.
+P01: No.
 
 23
 00:01:39.470 --> 00:01:44.309
@@ -95,15 +95,15 @@ Moderator: So, let's say that you just submitted your CHAMPVA application on VA.
 
 25
 00:01:58.180 --> 00:02:01.969
-P1: We'd probably hope for a confirmation email.
+P01: We'd probably hope for a confirmation email.
 
 26
 00:02:02.180 --> 00:02:04.440
-P1: And then just the waiting process.
+P01: And then just the waiting process.
 
 27
 00:02:04.800 --> 00:02:06.749
-P1: I noticed that with a lot of VA.gov stuff is that you don't get a confirmation email, so if you don't print out the confirmation and it pops up, you lose any record that you applied for it.
+P01: I noticed that with a lot of VA.gov stuff is that you don't get a confirmation email, so if you don't print out the confirmation and it pops up, you lose any record that you applied for it.
 
 29
 00:02:15.800 --> 00:02:23.509
@@ -111,7 +111,7 @@ Moderator: Hmm, okay. So you just mentioned the email. How would you expect to b
 
 30
 00:02:23.540 --> 00:02:25.720
-P1: Probably go to VA.gov.
+P01: Probably go to VA.gov.
 
 31
 00:02:26.480 --> 00:02:28.679
@@ -119,11 +119,11 @@ Moderator: Okay. Can you tell me a little bit more about that.
 
 32
 00:02:29.300 --> 00:02:31.589
-P1: Maybe check in the claims section?
+P01: Maybe check in the claims section?
 
 33
 00:02:32.410 --> 00:02:33.660
-P1: Probably.
+P01: Probably.
 
 34
 00:02:34.410 --> 00:02:38.319
@@ -131,7 +131,7 @@ Moderator: And how often would you be checking VA.gov or the claims section?
 
 35
 00:02:38.510 --> 00:02:40.249
-P1: Probably at least once a day. If I'm waiting for something to be processed.
+P01: Probably at least once a day. If I'm waiting for something to be processed.
 
 37
 00:02:42.820 --> 00:02:46.799
@@ -139,7 +139,7 @@ Moderator: Okay. And what would you like to be notified about?
 
 38
 00:02:46.980 --> 00:02:50.740
-P1: Any changes to the… application.
+P01: Any changes to the… application.
 
 39
 00:02:51.510 --> 00:02:59.840
@@ -147,7 +147,7 @@ Moderator: Okay, and I know you mentioned checking every day, but I'm curious, h
 
 40
 00:03:00.090 --> 00:03:02.350
-P1: Probably as soon as it happens.
+P01: Probably as soon as it happens.
 
 41
 00:03:03.350 --> 00:03:03.980
@@ -159,7 +159,7 @@ Moderator: Okay, well, thank you for going through some of those intro questions
 
 43
 00:03:15.010 --> 00:03:15.740
-P1: Okay.
+P01: Okay.
 
 44
 00:03:16.650 --> 00:03:20.710
@@ -171,7 +171,7 @@ Moderator: So, which I would like you to open this link in your browser, and you
 
 46
 00:04:07.520 --> 00:04:08.579
-P1: There we go.
+P01: There we go.
 
 47
 00:04:09.870 --> 00:04:11.350
@@ -183,7 +183,7 @@ Moderator: Okay, so now that you have the prototype up, I'm gonna give you a cou
 
 49
 00:04:33.770 --> 00:04:34.520
-P1: No, ma'am.
+P01: No, ma'am.
 
 50
 00:04:34.520 --> 00:04:54.200
@@ -191,7 +191,7 @@ Moderator: Okay? So, for this first scenario, I would like you to imagine that y
 
 51
 00:04:55.690 --> 00:04:59.769
-P1: Yep, that is very nice. Right there, tell me what I need.
+P01: Yep, that is very nice. Right there, tell me what I need.
 
 52
 00:05:00.000 --> 00:05:20.520
@@ -199,7 +199,7 @@ Moderator: Perfect. So, if you wanted to find out what is happening with your CH
 
 53
 00:05:20.520 --> 00:05:25.510
-P1: Okay. Well, I definitely clicked… probably clicked check status details. For both of them. Do you want me to click them? I'm sorry.
+P01: Okay. Well, I definitely clicked… probably clicked check status details. For both of them. Do you want me to click them? I'm sorry.
 
 56
 00:05:34.970 --> 00:05:37.650
@@ -207,15 +207,15 @@ Moderator: Oh, so go ahead and just explore the full page for me.
 
 57
 00:05:37.650 --> 00:05:40.229
-P1: Okay, oh, okay, yeah.
+P01: Okay, oh, okay, yeah.
 
 58
 00:05:40.910 --> 00:05:48.800
-P1: This is all nice having all this right here. I feel like I have to dig through so much through VA.gov to find what I'm looking for.
+P01: This is all nice having all this right here. I feel like I have to dig through so much through VA.gov to find what I'm looking for.
 
 59
 00:05:49.390 --> 00:05:53.560
-P1: But having this right here all in one thing is very, very helpful.
+P01: But having this right here all in one thing is very, very helpful.
 
 60
 00:05:56.600 --> 00:06:07.190
@@ -223,11 +223,11 @@ Moderator: Nice. So, one of the things that you said in the beginning is that yo
 
 61
 00:06:07.730 --> 00:06:14.680
-P1: Probably open up to… Same information, it's more detailed. Well, more… spread out more? Like, they're not gonna add anything, because it's just initial review.
+P01: Probably open up to… Same information, it's more detailed. Well, more… spread out more? Like, they're not gonna add anything, because it's just initial review.
 
 63
 00:06:22.980 --> 00:06:31.440
-P1: But maybe bragging about the same thing. Maybe just with overview of all 5 steps.
+P01: But maybe bragging about the same thing. Maybe just with overview of all 5 steps.
 
 64
 00:06:34.420 --> 00:06:45.859
@@ -235,19 +235,19 @@ Moderator: I see. Okay, so we'll come back to that a little bit more. So, for no
 
 65
 00:06:45.860 --> 00:06:46.660
-P1: -Oh.
+P01: -Oh.
 
 66
 00:06:49.610 --> 00:06:51.419
-P1: Maybe? What?
+P01: Maybe? What?
 
 67
 00:06:52.230 --> 00:06:53.809
-P1: I don't know, to be honest.
+P01: I don't know, to be honest.
 
 68
 00:06:54.630 --> 00:06:56.730
-P1: Because… Oh… I mean, claims applications, that would be where I would look to find it, yes.
+P01: Because… Oh… I mean, claims applications, that would be where I would look to find it, yes.
 
 70
 00:07:08.960 --> 00:07:12.239
@@ -255,7 +255,7 @@ Moderator: Okay, so at first you said maybe, so can you tell me a little bit mor
 
 71
 00:07:12.240 --> 00:07:14.579
-P1: I… I noticed this right here.
+P01: I… I noticed this right here.
 
 72
 00:07:14.770 --> 00:07:15.819
@@ -263,11 +263,11 @@ Moderator: Oh, I see, okay.
 
 73
 00:07:15.820 --> 00:07:18.020
-P1: That caught my eye. I was like, oh, yeah.
+P01: That caught my eye. I was like, oh, yeah.
 
 74
 00:07:19.300 --> 00:07:22.200
-P1: I'm not trying to see anything else that would... This is different than what I'm used to, so that threw me… threw me to…
+P01: I'm not trying to see anything else that would... This is different than what I'm used to, so that threw me… threw me to…
 
 76
 00:07:27.470 --> 00:07:33.230
@@ -275,11 +275,11 @@ Moderator: Okay, so what did you expect to be in this section versus what do you
 
 77
 00:07:33.370 --> 00:07:34.870
-P1: Normally, the claims…
+P01: Normally, the claims…
 
 78
 00:07:35.170 --> 00:07:41.650
-P1: Like, this is a whole new section for me. Does this even exist on VA.gov? Because they only have, like… It does?
+P01: Like, this is a whole new section for me. Does this even exist on VA.gov? Because they only have, like… It does?
 
 79
 00:07:41.650 --> 00:07:43.509
@@ -287,15 +287,15 @@ Moderator: So this is a prototype in a demo.
 
 80
 00:07:43.510 --> 00:07:45.480
-P1: Well, I understand this is a prototype. But I don't even have anything to base this off of, because I'm used to the claims for disability claims only.
+P01: Well, I understand this is a prototype. But I don't even have anything to base this off of, because I'm used to the claims for disability claims only.
 
 82
 00:07:52.150 --> 00:07:56.040
-P1: Like, I'm not used to having all of this on one page. That's why I feel like I sound like I'm bouncing around so much.
+P01: Like, I'm not used to having all of this on one page. That's why I feel like I sound like I'm bouncing around so much.
 
 84
 00:07:59.830 --> 00:08:04.399
-P1: Like, normally to get all this, I have to go to, like, 4 or 5 different pages to find.
+P01: Like, normally to get all this, I have to go to, like, 4 or 5 different pages to find.
 
 85
 00:08:06.460 --> 00:08:16.119
@@ -303,7 +303,7 @@ Moderator: Okay. So, as we're also exploring MyVA right now, before we move on, 
 
 86
 00:08:16.120 --> 00:08:16.900
-P1: Okay.
+P01: Okay.
 
 87
 00:08:17.370 --> 00:08:21.829
@@ -311,11 +311,11 @@ Moderator: And I'm curious, what would you expect to find in this section?
 
 88
 00:08:22.570 --> 00:08:27.730
-P1: In the in-progress form, maybe a list of most common forms? Like, the application for disability benefits, the CHAMPVA Education Form, maybe stuff that people click on a lot of the time.
+P01: In the in-progress form, maybe a list of most common forms? Like, the application for disability benefits, the CHAMPVA Education Form, maybe stuff that people click on a lot of the time.
 
 90
 00:08:37.720 --> 00:08:41.099
-P1: Because that's another issue, is trying to find the correct form to fill out.
+P01: Because that's another issue, is trying to find the correct form to fill out.
 
 92
 00:08:43.679 --> 00:08:50.939
@@ -323,7 +323,7 @@ Moderator: Okay, so if what I just heard, you were looking for a list of forms, 
 
 93
 00:08:50.940 --> 00:08:51.670
-P1: Yes.
+P01: Yes.
 
 94
 00:08:51.990 --> 00:09:01.799
@@ -331,23 +331,23 @@ Moderator: Okay, if you could go ahead and click on the completed forms for me. 
 
 95
 00:09:01.850 --> 00:09:05.540
-P1: That would be very helpful, having all my completed forms right there.
+P01: That would be very helpful, having all my completed forms right there.
 
 96
 00:09:06.770 --> 00:09:10.730
-P1: So I could know… maybe, confirmation number?
+P01: So I could know… maybe, confirmation number?
 
 97
 00:09:11.700 --> 00:09:13.929
-P1: So when I call, I can ask about it? If I needed to call?
+P01: So when I call, I can ask about it? If I needed to call?
 
 99
 00:09:16.610 --> 00:09:18.289
-P1: It said if you have questions.
+P01: It said if you have questions.
 
 100
 00:09:18.560 --> 00:09:28.860
-P1: So we set, like, a confirmation number so they can pull up that form instead of… especially just the more you do in the VA, the more forms you fill out. I got a gazillion different forms that I have filled out over the years.
+P01: So we set, like, a confirmation number so they can pull up that form instead of… especially just the more you do in the VA, the more forms you fill out. I got a gazillion different forms that I have filled out over the years.
 
 102
 00:09:32.510 --> 00:09:44.940
@@ -355,19 +355,19 @@ Moderator: I definitely understand that. So, between these two sections, I guess
 
 103
 00:09:44.940 --> 00:09:51.790
-P1: Claims and status would be stuff that I have open.
+P01: Claims and status would be stuff that I have open.
 
 104
 00:09:52.590 --> 00:09:58.830
-P1: maybe not tied much to the… as to the form as to what I'm trying to do. I see one's ChampVA and one's Specialty Adapted Housing.
+P01: maybe not tied much to the… as to the form as to what I'm trying to do. I see one's ChampVA and one's Specialty Adapted Housing.
 
 106
 00:10:02.450 --> 00:10:08.650
-P1: You can just click on one I'm trying to think of which claim I'm trying to figure out, and then down here would be a list of everything I've filled out at some points. Again, I need to go back and look at maybe what I put in an application or something?
+P01: You can just click on one I'm trying to think of which claim I'm trying to figure out, and then down here would be a list of everything I've filled out at some points. Again, I need to go back and look at maybe what I put in an application or something?
 
 108
 00:10:15.340 --> 00:10:20.129
-P1: Just, like, more like a FYI in case I need to look up something 5 years later.
+P01: Just, like, more like a FYI in case I need to look up something 5 years later.
 
 109
 00:10:21.900 --> 00:10:29.640
@@ -375,7 +375,7 @@ Moderator: Okay. No, that's really helpful, just knowledge and context. I am qui
 
 110
 00:10:30.350 --> 00:10:36.920
-P1: They are… I'd say they're perfect. They're exactly… they tell me what I need, and they're divided up where I can find out what's going on.
+P01: They are… I'd say they're perfect. They're exactly… they tell me what I need, and they're divided up where I can find out what's going on.
 
 111
 00:10:38.680 --> 00:10:46.779
@@ -383,7 +383,7 @@ Moderator: Okay, so we're gonna go ahead and move on, and so I know you've menti
 
 112
 00:10:47.120 --> 00:10:53.550
-P1: Probably click on the check status details and see what it says in there.
+P01: Probably click on the check status details and see what it says in there.
 
 113
 00:10:53.840 --> 00:10:59.079
@@ -391,39 +391,39 @@ Moderator: Okay, so let's go ahead and check status details.
 
 114
 00:11:07.930 --> 00:11:10.800
-P1: Okay, so that one… that was a broken link. Okay.
+P01: Okay, so that one… that was a broken link. Okay.
 
 115
 00:11:11.160 --> 00:11:15.220
-P1: Yeah, that, that, Is it… what's,
+P01: Yeah, that, that, Is it… what's,
 
 116
 00:11:16.470 --> 00:11:22.019
-P1: Which… oh, that's a nice help one, being able to upload files as you need them.
+P01: Which… oh, that's a nice help one, being able to upload files as you need them.
 
 117
 00:11:23.130 --> 00:11:27.650
-P1: Files received… yep, that is good, so I can see what I've already submitted.
+P01: Files received… yep, that is good, so I can see what I've already submitted.
 
 118
 00:11:27.770 --> 00:11:31.690
-P1: And then other ways you can send them if you want to do it the old-fashioned way.
+P01: And then other ways you can send them if you want to do it the old-fashioned way.
 
 119
 00:11:33.470 --> 00:11:39.539
-P1: But this looks like an overview… yep, that's what I was talking about, those different steps.
+P01: But this looks like an overview… yep, that's what I was talking about, those different steps.
 
 120
 00:11:40.110 --> 00:11:43.169
-P1: And an overview of the steps. That's what I meant earlier.
+P01: And an overview of the steps. That's what I meant earlier.
 
 121
 00:11:44.620 --> 00:11:49.249
-P1: And then, yep, what you need to do… yeah, it doesn't update the mail, of course.
+P01: And then, yep, what you need to do… yeah, it doesn't update the mail, of course.
 
 122
 00:11:50.240 --> 00:11:55.369
-P1: this is where I was talking about there's an update, like, maybe an email?
+P01: this is where I was talking about there's an update, like, maybe an email?
 
 123
 00:11:56.050 --> 00:11:56.670
@@ -431,11 +431,11 @@ Moderator: Hmm.
 
 124
 00:11:56.670 --> 00:12:02.000
-P1: You know, a letter's gonna take, you know, 2-3 weeks to reach to you by the time it gets printed and mailed and processed through the system and delivered. That's, you know, 2 or 3 weeks.
+P01: You know, a letter's gonna take, you know, 2-3 weeks to reach to you by the time it gets printed and mailed and processed through the system and delivered. That's, you know, 2 or 3 weeks.
 
 126
 00:12:06.720 --> 00:12:09.789
-P1: Oh me sitting there going, well, I wonder if they're doing anything yet. Which I know a lot of veterans do, prefer mail, but I'm like, let's get it done as fast as humanly possible.
+P01: Oh me sitting there going, well, I wonder if they're doing anything yet. Which I know a lot of veterans do, prefer mail, but I'm like, let's get it done as fast as humanly possible.
 
 128
 00:12:21.360 --> 00:12:23.229
@@ -447,15 +447,15 @@ Moderator: So, I know that you've kind of gone through each of the tabs, but, co
 
 132
 00:12:38.690 --> 00:12:45.860
-P1: Okay, so the application, it tells me where it is, gives me an update, lets me know if they're looking for anything.
+P01: Okay, so the application, it tells me where it is, gives me an update, lets me know if they're looking for anything.
 
 133
 00:12:46.590 --> 00:12:48.999
-P1: Which, you may be, since I'm checking every day, I would see that and know I need to probably…Probably for this application, upload a birth certificate or something.
+P01: Which, you may be, since I'm checking every day, I would see that and know I need to probably…Probably for this application, upload a birth certificate or something.
 
 136
 00:12:59.070 --> 00:13:02.990
-P1: The, ability to select who it's for is also very helpful.
+P01: The, ability to select who it's for is also very helpful.
 
 137
 00:13:03.360 --> 00:13:04.160
@@ -463,7 +463,7 @@ Moderator: Hmm.
 
 138
 00:13:04.920 --> 00:13:10.640
-P1: Because that helps keep everything situated, because I know when I first became eligible for CHAMPVA, I had 6 people? 5 or 6 people to do, so there was a… that was a… quite a stack of papers I had faxed in.
+P01: Because that helps keep everything situated, because I know when I first became eligible for CHAMPVA, I had 6 people? 5 or 6 people to do, so there was a… that was a… quite a stack of papers I had faxed in.
 
 141
 00:13:21.450 --> 00:13:22.510
@@ -476,15 +476,15 @@ Moderator: I am curious, can you tell me about what that process was like, apply
 
 144
 00:13:29.570 --> 00:13:38.539
-P1: I said, because I had to fill out the form for everybody, then I had to fill out the secondary insurance form for everybody.
+P01: I said, because I had to fill out the form for everybody, then I had to fill out the secondary insurance form for everybody.
 
 145
 00:13:38.650 --> 00:13:43.569
-P1: And then get their social, and their birth certificate, and marriage certificate for my wife.
+P01: And then get their social, and their birth certificate, and marriage certificate for my wife.
 
 146
 00:13:44.760 --> 00:13:47.530
-P1: And there was 5 of them, so that's… Like, 4 or 5 sheets times 4 people each.
+P01: And there was 5 of them, so that's… Like, 4 or 5 sheets times 4 people each.
 
 148
 00:13:51.790 --> 00:13:52.490
@@ -492,7 +492,7 @@ Moderator: Hmm.
 
 149
 00:13:53.410 --> 00:13:56.829
-P1: That was a several-hour process of getting everything together.
+P01: That was a several-hour process of getting everything together.
 
 150
 00:13:58.190 --> 00:13:58.920
@@ -505,35 +505,35 @@ your experience in the past as well. So, coming back to the prototype really qui
 
 152
 00:14:15.180 --> 00:14:17.890
-P1: You know, sit there till…
+P01: You know, sit there till…
 
 153
 00:14:18.150 --> 00:14:22.919
-P1: Somebody manually reviews it, is my guess, and then either…
+P01: Somebody manually reviews it, is my guess, and then either…
 
 154
 00:14:24.080 --> 00:14:29.470
-P1: So, this is… I think this was in step 1… Yeah.
+P01: So, this is… I think this was in step 1… Yeah.
 
 155
 00:14:30.180 --> 00:14:31.699
-P1: This is always a fun part.
+P01: This is always a fun part.
 
 156
 00:14:32.190 --> 00:14:40.380
-P1: But you can go to that, it'll go through, which is hopefully, at this point, I've provided everything, so you can go straight into step 3.
+P01: But you can go to that, it'll go through, which is hopefully, at this point, I've provided everything, so you can go straight into step 3.
 
 157
 00:14:40.730 --> 00:14:48.160
-P1: And Champ VA is usually pretty easy, once you actually get to it, if you provide everything, and then they approve it.
+P01: And Champ VA is usually pretty easy, once you actually get to it, if you provide everything, and then they approve it.
 
 158
 00:14:48.640 --> 00:14:50.340
-P1: And… move on.
+P01: And… move on.
 
 159
 00:14:50.630 --> 00:14:53.379
-P1: And then you just wait 3 weeks for the package to get there.
+P01: And then you just wait 3 weeks for the package to get there.
 
 160
 00:14:55.080 --> 00:14:55.860
@@ -545,11 +545,11 @@ Moderator: And we'll come back and talk a little bit more about the overview tab
 
 162
 00:15:14.920 --> 00:15:19.670
-P1: Go to Files, select Jane Doe, and then…
+P01: Go to Files, select Jane Doe, and then…
 
 163
 00:15:20.110 --> 00:15:23.679
-P1: Probably drag the file over, if that's an option.
+P01: Probably drag the file over, if that's an option.
 
 164
 00:15:23.680 --> 00:15:31.569
@@ -557,11 +557,11 @@ Moderator: Yep, so go ahead and click that, click in the file upload box, and we
 
 165
 00:15:31.770 --> 00:15:34.230
-P1: Okay… oh, cool!
+P01: Okay… oh, cool!
 
 166
 00:15:34.950 --> 00:15:43.540
-P1: Yep, document… marriage certificate, And then… We'll hit submit for review.
+P01: Yep, document… marriage certificate, And then… We'll hit submit for review.
 
 167
 00:15:43.540 --> 00:15:48.669
@@ -569,7 +569,7 @@ Moderator: Okay, we'll pause on that real fast. So, how was that process for you
 
 168
 00:15:48.670 --> 00:15:51.829
-P1: Yes, that's exactly what I would expect to happen.
+P01: Yes, that's exactly what I would expect to happen.
 
 169
 00:15:53.150 --> 00:15:58.660
@@ -577,7 +577,7 @@ Moderator: Can you walk me through the process that you went through, or the par
 
 170
 00:16:00.120 --> 00:16:02.360
-P1: I'm… what do you mean, I'm sorry?
+P01: I'm… what do you mean, I'm sorry?
 
 171
 00:16:02.390 --> 00:16:05.560
@@ -585,15 +585,15 @@ Moderator: Sorry, I was just… I'm curious, how was that process for you?
 
 172
 00:16:06.360 --> 00:16:09.979
-P1: was very simple and straightforward. I selected who I needed.
+P01: was very simple and straightforward. I selected who I needed.
 
 173
 00:16:10.540 --> 00:16:17.660
-P1: Uploaded the document, told the system what document, so the reviewer can know what it's for.
+P01: Uploaded the document, told the system what document, so the reviewer can know what it's for.
 
 174
 00:16:18.510 --> 00:16:20.819
-P1: And then just would submit it.
+P01: And then just would submit it.
 
 175
 00:16:21.050 --> 00:16:25.939
@@ -601,15 +601,15 @@ Moderator: Okay, so I'm gonna go ahead and have you, continue with submitting th
 
 176
 00:16:25.940 --> 00:16:26.690
-P1: Okay.
+P01: Okay.
 
 177
 00:16:29.330 --> 00:16:32.439
-P1: Yep, receive the file. And then…
+P01: Yep, receive the file. And then…
 
 178
 00:16:33.100 --> 00:16:40.950
-P1: I would… yeah, probably go here. That's nice, having it right there, and then you can just see that it was submitted and confirmed that it was received.
+P01: I would… yeah, probably go here. That's nice, having it right there, and then you can just see that it was submitted and confirmed that it was received.
 
 179
 00:16:42.080 --> 00:16:55.130
@@ -617,59 +617,59 @@ Moderator: Okay, thank you for going through that scenario for us. So, you'd wal
 
 180
 00:16:55.780 --> 00:17:02.780
-P1: Okay, so this one is telling me when I applied for it, and that they received it, and they will get to it
+P01: Okay, so this one is telling me when I applied for it, and that they received it, and they will get to it
 
 181
 00:17:02.940 --> 00:17:05.740
-P1: When it gets into somebody's queue.
+P01: When it gets into somebody's queue.
 
 182
 00:17:06.569 --> 00:17:09.820
-P1: This one is where somebody will be assigned to it.
+P01: This one is where somebody will be assigned to it.
 
 183
 00:17:10.220 --> 00:17:11.390
-P1: And…
+P01: And…
 
 184
 00:17:13.569 --> 00:17:18.770
-P1: We'll look and see if I need any more information submitted. And then I can go there to see…
+P01: We'll look and see if I need any more information submitted. And then I can go there to see…
 
 185
 00:17:19.250 --> 00:17:28.240
-P1: I'm assuming that at some point, when we get to this step, it's gonna say that it's missing documents, or something similar, and I can go here and find out what they actually need.
+P01: I'm assuming that at some point, when we get to this step, it's gonna say that it's missing documents, or something similar, and I can go here and find out what they actually need.
 
 186
 00:17:29.270 --> 00:17:31.009
-P1: And submit those.
+P01: And submit those.
 
 187
 00:17:32.110 --> 00:17:37.720
-P1: And then, once we get here, it'll say we've received everything, and they're just going over.
+P01: And then, once we get here, it'll say we've received everything, and they're just going over.
 
 188
 00:17:38.440 --> 00:17:42.719
-P1: Everything to make sure that they have a… everything they needed.
+P01: Everything to make sure that they have a… everything they needed.
 
 189
 00:17:43.540 --> 00:17:46.290
-P1: Which hopefully they don't, because we got out of step 2.
+P01: Which hopefully they don't, because we got out of step 2.
 
 190
 00:17:46.400 --> 00:17:49.260
-P1: And then step 4 will tell me they've either
+P01: And then step 4 will tell me they've either
 
 191
 00:17:49.760 --> 00:17:57.109
-P1: I'm assuming he's gonna tell me they made a decision, and… Hmm… Awesome, Mel, so that,
+P01: I'm assuming he's gonna tell me they made a decision, and… Hmm… Awesome, Mel, so that,
 
 192
 00:17:57.540 --> 00:18:02.259
-P1: I can go to the status page to see what's actually decided if it doesn't tell me right there.
+P01: I can go to the status page to see what's actually decided if it doesn't tell me right there.
 
 193
 00:18:02.640 --> 00:18:05.709
-P1: And then letting me know I'll receive an official decision letter.
+P01: And then letting me know I'll receive an official decision letter.
 
 194
 00:18:09.940 --> 00:18:28.909
@@ -685,7 +685,7 @@ Moderator: So, now I want you to take a look at the page and tell me what do you
 
 197
 00:18:50.740 --> 00:18:56.009
-P1: It says, they are missing something for the CHAMPVA application.
+P01: It says, they are missing something for the CHAMPVA application.
 
 198
 00:18:57.680 --> 00:19:00.590
@@ -693,7 +693,7 @@ Moderator: So what do you feel like has happened with your application, then?
 
 199
 00:19:00.590 --> 00:19:04.640
-P1: Somebody has looked at it and realized that they are missing something.
+P01: Somebody has looked at it and realized that they are missing something.
 
 200
 00:19:07.500 --> 00:19:10.610
@@ -701,7 +701,7 @@ Moderator: Okay, so what would you do next, then?
 
 201
 00:19:10.610 --> 00:19:13.079
-P1: I would click Check Status Details.
+P01: I would click Check Status Details.
 
 202
 00:19:13.320 --> 00:19:17.209
@@ -709,7 +709,7 @@ Moderator: Okay, so go ahead and click the check status details then.
 
 203
 00:19:17.790 --> 00:19:18.540
-P1: Okay.
+P01: Okay.
 
 204
 00:19:18.540 --> 00:19:24.999
@@ -717,19 +717,19 @@ Moderator: So, now I want you to take a look at this page, and again, in your ow
 
 205
 00:19:25.500 --> 00:19:28.949
-P1: It has been updated to say that they need something, which…
+P01: It has been updated to say that they need something, which…
 
 206
 00:19:29.260 --> 00:19:31.650
-P1: Looks like it's the copy of the birth certificate, which…
+P01: Looks like it's the copy of the birth certificate, which…
 
 207
 00:19:32.480 --> 00:19:35.129
-P1: I'm very impressed that I forgot that.
+P01: I'm very impressed that I forgot that.
 
 208
 00:19:38.590 --> 00:19:42.730
-P1: Noon, but obviously I would go… Click here…
+P01: Noon, but obviously I would go… Click here…
 
 209
 00:19:42.730 --> 00:19:44.770
@@ -737,7 +737,7 @@ Moderator: Okay, we'll hold off on that for now.
 
 210
 00:19:44.770 --> 00:19:46.540
-P1: That's why I was… that's why I was hesitating.
+P01: That's why I was… that's why I was hesitating.
 
 211
 00:19:46.540 --> 00:19:52.000
@@ -745,7 +745,7 @@ Moderator: Yeah, I appreciate the pause. So, go ahead and keep looking at the pa
 
 212
 00:19:52.000 --> 00:19:52.480
-P1: Okay.
+P01: Okay.
 
 213
 00:19:52.480 --> 00:19:54.160
@@ -753,51 +753,51 @@ Moderator: And tell me what else that you see.
 
 214
 00:19:54.440 --> 00:19:57.480
-P1: They made a decision on something… else.
+P01: They made a decision on something… else.
 
 215
 00:19:58.850 --> 00:20:08.960
-P1: So they made a decision on that, that's… yep, mail acceptance letter should run simultaneously, so she is good, I… that's even more impressive, but I remember her stuff and forgot his.
+P01: So they made a decision on that, that's… yep, mail acceptance letter should run simultaneously, so she is good, I… that's even more impressive, but I remember her stuff and forgot his.
 
 216
 00:20:09.360 --> 00:20:11.490
-P1: That?
+P01: That?
 
 217
 00:20:11.960 --> 00:20:17.009
-P1: Interesting. That kind of just… Throws you for a loop right there.
+P01: Interesting. That kind of just… Throws you for a loop right there.
 
 218
 00:20:17.860 --> 00:20:24.860
-P1: Because you don't really know… Well, application… Hmm.
+P01: Because you don't really know… Well, application… Hmm.
 
 219
 00:20:27.320 --> 00:20:29.130
-P1: Interesting, because these are, like.
+P01: Interesting, because these are, like.
 
 220
 00:20:29.320 --> 00:20:34.770
-P1: Oh, because you're doing a… okay, application for multiple people, not an application for each person.
+P01: Oh, because you're doing a… okay, application for multiple people, not an application for each person.
 
 221
 00:20:37.240 --> 00:20:38.260
-P1: Okay.
+P01: Okay.
 
 222
 00:20:39.420 --> 00:20:45.420
-P1: So that's also weird that they made a decision on part of it, on part of your application. Okay, well, that makes sense.
+P01: So that's also weird that they made a decision on part of it, on part of your application. Okay, well, that makes sense.
 
 223
 00:20:46.600 --> 00:20:47.850
-P1: So…
+P01: So…
 
 224
 00:20:51.220 --> 00:20:55.799
-P1: Open the request for membership. Okay,
+P01: Open the request for membership. Okay,
 
 225
 00:20:58.460 --> 00:21:03.509
-P1: Okay, so we're… let me… let's come back, let me come back to you guys, sorry.
+P01: Okay, so we're… let me… let's come back, let me come back to you guys, sorry.
 
 226
 00:21:03.510 --> 00:21:14.140
@@ -809,15 +809,15 @@ Moderator: you were kind of looking at Jane's application, and then we're going 
 
 228
 00:21:22.890 --> 00:21:29.039
-P1: It threw, it caught me off guard. I didn't realize that, they were both part of one application.
+P01: It threw, it caught me off guard. I didn't realize that, they were both part of one application.
 
 229
 00:21:29.160 --> 00:21:32.799
-P1: And I guess I do appreciate the fact that they enrolled her.
+P01: And I guess I do appreciate the fact that they enrolled her.
 
 230
 00:21:33.330 --> 00:21:38.420
-P1: And moved on, instead of holding up both of them for the one… one person.
+P01: And moved on, instead of holding up both of them for the one… one person.
 
 231
 00:21:38.420 --> 00:21:39.160
@@ -825,11 +825,11 @@ Moderator: Hmm.
 
 232
 00:21:40.530 --> 00:21:46.229
-P1: Because it threw me, because I saw this, and then down here, I was like, well, what's this go to? And then I was like, oh, okay, it's for both of them.
+P01: Because it threw me, because I saw this, and then down here, I was like, well, what's this go to? And then I was like, oh, okay, it's for both of them.
 
 233
 00:21:47.310 --> 00:21:47.910
-P1: Okay.
+P01: Okay.
 
 234
 00:21:49.820 --> 00:21:55.700
@@ -837,11 +837,11 @@ Moderator: So, really quickly, can you tell me what step the application is on, 
 
 235
 00:21:55.970 --> 00:22:01.779
-P1: It does, it makes, step 2, they're still looking for more information before they can…
+P01: It does, it makes, step 2, they're still looking for more information before they can…
 
 236
 00:22:02.720 --> 00:22:04.579
-P1: Just a second, I'm so sorry.
+P01: Just a second, I'm so sorry.
 
 237
 00:22:04.580 --> 00:22:05.760
@@ -849,19 +849,19 @@ Moderator: Oh, no, you were fine.
 
 238
 00:22:06.590 --> 00:22:07.589
-P1: Hey, what's up?
+P01: Hey, what's up?
 
 239
 00:22:09.620 --> 00:22:10.470
-P1: Yes, ma'am.
+P01: Yes, ma'am.
 
 240
 00:22:12.810 --> 00:22:13.640
-P1: Okay.
+P01: Okay.
 
 241
 00:22:16.070 --> 00:22:19.229
-P1: Sorry, that was my wife, I wouldn't have answered for anybody else.
+P01: Sorry, that was my wife, I wouldn't have answered for anybody else.
 
 242
 00:22:19.230 --> 00:22:21.839
@@ -869,7 +869,7 @@ Moderator: No, you were okay. Are you okay to continue?
 
 243
 00:22:21.840 --> 00:22:22.580
-P1: I am.
+P01: I am.
 
 244
 00:22:22.580 --> 00:22:23.150
@@ -877,7 +877,7 @@ Moderator: Okay.
 
 245
 00:22:24.780 --> 00:22:30.689
-P1: Okay, yep, step two, because we're still trying to get, John Doe Jr.'s information.
+P01: Okay, yep, step two, because we're still trying to get, John Doe Jr.'s information.
 
 246
 00:22:35.050 --> 00:22:44.459
@@ -885,11 +885,11 @@ Moderator: So, I know you kind of said this out loud, but just to clarify, can y
 
 247
 00:22:44.460 --> 00:22:51.220
-P1: Jane's part of the application has been approved, and they are mailing all her, her CHAMPVA card to her.
+P01: Jane's part of the application has been approved, and they are mailing all her, her CHAMPVA card to her.
 
 248
 00:22:51.390 --> 00:22:55.020
-P1: And then John Jr, they need his birth certificate.
+P01: And then John Jr, they need his birth certificate.
 
 249
 00:22:56.310 --> 00:22:57.490
@@ -897,7 +897,7 @@ Moderator: Okay, so…
 
 250
 00:22:57.490 --> 00:22:59.110
-P1: What? They want me to upload.
+P01: What? They want me to upload.
 
 251
 00:22:59.330 --> 00:23:01.420
@@ -905,7 +905,7 @@ Moderator: Okay, so what would you do next, then?
 
 252
 00:23:01.940 --> 00:23:04.110
-P1: Probably review request.
+P01: Probably review request.
 
 253
 00:23:04.110 --> 00:23:06.329
@@ -913,7 +913,7 @@ Moderator: Okay, so you can go ahead and click that link.
 
 254
 00:23:07.600 --> 00:23:10.919
-P1: Oh, blah blah blah blah blah blah, okay.
+P01: Oh, blah blah blah blah blah blah, okay.
 
 255
 00:23:10.920 --> 00:23:15.950
@@ -921,19 +921,19 @@ Moderator: Yep, so go ahead and review this page, tell me what you see, and what
 
 256
 00:23:16.220 --> 00:23:18.650
-P1: Yeah, and he has his birth certificate.
+P01: Yeah, and he has his birth certificate.
 
 257
 00:23:18.980 --> 00:23:25.999
-P1: They have mailed a letter also requesting it, just in case I'm not checking every day like a hyponder, or a crazy person.
+P01: They have mailed a letter also requesting it, just in case I'm not checking every day like a hyponder, or a crazy person.
 
 258
 00:23:26.150 --> 00:23:30.320
-P1: And then, next steps, what I need to do, blah blah blah…
+P01: And then, next steps, what I need to do, blah blah blah…
 
 259
 00:23:30.470 --> 00:23:35.079
-P1: Yep, review it, and then move on to step 3, and then here's where I can upload it.
+P01: Yep, review it, and then move on to step 3, and then here's where I can upload it.
 
 260
 00:23:36.790 --> 00:23:40.319
@@ -941,7 +941,7 @@ Moderator: Okay, so now that you've gotten to this part, what would you do next,
 
 261
 00:23:40.320 --> 00:23:43.379
-P1: Would attach the file in that box?
+P01: Would attach the file in that box?
 
 262
 00:23:43.900 --> 00:23:50.690
@@ -949,7 +949,7 @@ Moderator: So go ahead and click the file upload, and again, we'll pretend like 
 
 263
 00:23:51.060 --> 00:23:59.999
-P1: It is uploaded, it does not give me an option, but they already are looking for it, so they know what it's gonna be.
+P01: It is uploaded, it does not give me an option, but they already are looking for it, so they know what it's gonna be.
 
 264
 00:24:00.560 --> 00:24:06.159
@@ -957,11 +957,11 @@ Moderator: Okay, so can you tell me a little bit more about this experience? Is 
 
 265
 00:24:06.890 --> 00:24:07.660
-P1: Yes?
+P01: Yes?
 
 266
 00:24:09.290 --> 00:24:18.490
-P1: Except for the, the option to select a drop-down, but that's already implied because it's asking for upload copy of birth certificate.
+P01: Except for the, the option to select a drop-down, but that's already implied because it's asking for upload copy of birth certificate.
 
 267
 00:24:18.800 --> 00:24:26.620
@@ -969,15 +969,15 @@ Moderator: I see, okay. So you kind of got ahead for me, but I was gonna ask, yo
 
 268
 00:24:30.280 --> 00:24:32.270
-P1: It was about the same.
+P01: It was about the same.
 
 269
 00:24:32.520 --> 00:24:34.490
-P1: A little bit streamlined, because it's…
+P01: A little bit streamlined, because it's…
 
 270
 00:24:34.870 --> 00:24:41.219
-P1: I'm looking for something specific, the marriage certificate was just me uploading the file to go with the application.
+P01: I'm looking for something specific, the marriage certificate was just me uploading the file to go with the application.
 
 271
 00:24:42.600 --> 00:24:45.470
@@ -989,7 +989,7 @@ Moderator: That's helpful. So, I'm gonna have you go ahead and continue with sub
 
 273
 00:24:52.970 --> 00:24:54.780
-P1: There it is the feedback.
+P01: There it is the feedback.
 
 274
 00:24:56.190 --> 00:24:59.080
@@ -997,27 +997,27 @@ Moderator: Yup, so take a look at this page and tell me what you see.
 
 275
 00:25:00.290 --> 00:25:00.830
-P1: Nope.
+P01: Nope.
 
 276
 00:25:01.240 --> 00:25:07.410
-P1: It went… it went straight to information review.
+P01: It went… it went straight to information review.
 
 277
 00:25:08.920 --> 00:25:11.120
-P1: Which… that's a new one.
+P01: Which… that's a new one.
 
 278
 00:25:11.600 --> 00:25:13.980
-P1: We don't need to… and there's a version we submitted.
+P01: We don't need to… and there's a version we submitted.
 
 279
 00:25:14.100 --> 00:25:21.629
-P1: I'm guessing it's assuming, because it went automatically because I uploaded what it was looking for. That's kind of nice.
+P01: I'm guessing it's assuming, because it went automatically because I uploaded what it was looking for. That's kind of nice.
 
 280
 00:25:22.220 --> 00:25:23.680
-P1: That saves a day or two.
+P01: That saves a day or two.
 
 281
 00:25:24.550 --> 00:25:26.349
@@ -1025,19 +1025,19 @@ Moderator: Is that what you expected to happen?
 
 282
 00:25:26.350 --> 00:25:33.169
-P1: No, it's not. Normally, at least in my experience, it's been you upload the information, then it sits there until somebody actually reviews it.
+P01: No, it's not. Normally, at least in my experience, it's been you upload the information, then it sits there until somebody actually reviews it.
 
 283
 00:25:33.680 --> 00:25:35.600
-P1: And verifies that it's there.
+P01: And verifies that it's there.
 
 284
 00:25:36.000 --> 00:25:38.239
-P1: And then they review it, so that's saving a…
+P01: And then they review it, so that's saving a…
 
 285
 00:25:38.630 --> 00:25:44.279
-P1: I don't know if that actually saves a step on the back, and I don't know the process enough, but… makes me feel happy!
+P01: I don't know if that actually saves a step on the back, and I don't know the process enough, but… makes me feel happy!
 
 286
 00:25:44.280 --> 00:25:55.369
@@ -1045,7 +1045,7 @@ Moderator: And that is our goal. So, okay. Well, that is the end of our second s
 
 287
 00:25:55.370 --> 00:25:56.140
-P1: Okay.
+P01: Okay.
 
 288
 00:25:56.310 --> 00:26:11.299
@@ -1057,23 +1057,23 @@ Moderator: So now I want you to take a look at this page and tell me what you se
 
 290
 00:26:18.130 --> 00:26:20.849
-P1: I would guess it's been closed.
+P01: I would guess it's been closed.
 
 291
 00:26:22.060 --> 00:26:26.609
-P1: And also wonder why I've requested a new dependent.
+P01: And also wonder why I've requested a new dependent.
 
 292
 00:26:29.600 --> 00:26:34.750
-P1: But I would definitely scroll… down to 6…
+P01: But I would definitely scroll… down to 6…
 
 293
 00:26:35.150 --> 00:26:38.879
-P1: Well, look and see if there's anything… oh…
+P01: Well, look and see if there's anything… oh…
 
 294
 00:26:38.990 --> 00:26:45.100
-P1: There. Probably go here, since that, Champ VA one has disappeared.
+P01: There. Probably go here, since that, Champ VA one has disappeared.
 
 295
 00:26:45.450 --> 00:26:51.500
@@ -1081,15 +1081,15 @@ Moderator: Okay, so why do you think, your CHAMP VA application has disappeared,
 
 296
 00:26:51.500 --> 00:26:52.520
-P1: My guess…
+P01: My guess…
 
 297
 00:26:52.870 --> 00:26:59.330
-P1: is… it was approved and closed, because it was looking for that one thing, and I uploaded it.
+P01: is… it was approved and closed, because it was looking for that one thing, and I uploaded it.
 
 298
 00:26:59.430 --> 00:27:04.980
-P1: And they… Saw it and said, okay, we're good, approve him. Enrolled, John Jr. and CHAMPVA.
+P01: And they… Saw it and said, okay, we're good, approve him. Enrolled, John Jr. and CHAMPVA.
 
 299
 00:27:06.060 --> 00:27:12.179
@@ -1097,11 +1097,11 @@ Moderator: Okay, and I am also curious, I noticed that you scrolled down, was th
 
 300
 00:27:12.180 --> 00:27:16.860
-P1: I was looking to see, there was, like,
+P01: I was looking to see, there was, like,
 
 301
 00:27:18.770 --> 00:27:24.249
-P1: Like, anything that's talking about that, maybe a completed claims section or something.
+P01: Like, anything that's talking about that, maybe a completed claims section or something.
 
 302
 00:27:25.560 --> 00:27:27.759
@@ -1109,15 +1109,15 @@ Moderator: Can you tell me a little bit more about what you mean by that?
 
 303
 00:27:27.760 --> 00:27:34.350
-P1: Like, if there was somewhere where, instead of, the status here, like, if… somewhere where it's… I had said,
+P01: Like, if there was somewhere where, instead of, the status here, like, if… somewhere where it's… I had said,
 
 304
 00:27:36.320 --> 00:27:38.760
-P1: The CHAMPVA application was closed.
+P01: The CHAMPVA application was closed.
 
 305
 00:27:39.660 --> 00:27:43.369
-P1: Like, just anything, because it wasn't… because it was here, and then it wasn't.
+P01: Like, just anything, because it wasn't… because it was here, and then it wasn't.
 
 306
 00:27:43.910 --> 00:27:44.530
@@ -1125,7 +1125,7 @@ Moderator: Okay.
 
 307
 00:27:44.530 --> 00:27:48.290
-P1: I was just scrolling down to see if it had popped up anywhere else.
+P01: I was just scrolling down to see if it had popped up anywhere else.
 
 308
 00:27:48.290 --> 00:27:49.100
@@ -1133,7 +1133,7 @@ Moderator: Mmm.
 
 309
 00:27:49.100 --> 00:27:53.210
-P1: No, this is more active stuff, not… Stuff that's already done.
+P01: No, this is more active stuff, not… Stuff that's already done.
 
 310
 00:27:54.080 --> 00:28:04.239
@@ -1141,7 +1141,7 @@ Moderator: I see. So, if… if what I'm hearing you say is that those two car…
 
 311
 00:28:04.240 --> 00:28:04.760
-P1: Yes.
+P01: Yes.
 
 312
 00:28:04.760 --> 00:28:07.010
@@ -1149,7 +1149,7 @@ Moderator: Active claims or active applications.
 
 313
 00:28:07.010 --> 00:28:13.209
-P1: It's usually, like, claims… Archived claims area for something that I haven't completed.
+P01: It's usually, like, claims… Archived claims area for something that I haven't completed.
 
 314
 00:28:13.370 --> 00:28:22.719
@@ -1157,15 +1157,15 @@ Moderator: Okay, so you had hovered over the track claims, decision reviews, and
 
 315
 00:28:22.900 --> 00:28:28.120
-P1: prob… The CHAMPVA saying that it's probably reached step 5 of 5, decision…
+P01: prob… The CHAMPVA saying that it's probably reached step 5 of 5, decision…
 
 316
 00:28:29.470 --> 00:28:32.690
-P1: Finalized, or whatever it is, decision received.
+P01: Finalized, or whatever it is, decision received.
 
 317
 00:28:33.240 --> 00:28:38.259
-P1: Can't think of the right word at the moment, but yeah, basically saying that it's closed, the claim is closed.
+P01: Can't think of the right word at the moment, but yeah, basically saying that it's closed, the claim is closed.
 
 318
 00:28:38.640 --> 00:28:43.679
@@ -1177,19 +1177,19 @@ Moderator: So, again, I want you to take some time to review this page and to th
 
 320
 00:28:50.860 --> 00:28:54.190
-P1: Yeah, and then I would go… Hit the closed…
+P01: Yeah, and then I would go… Hit the closed…
 
 321
 00:28:54.420 --> 00:29:00.170
-P1: have, and expect to see it there, telling me that it's done, and that John Jr. has been enrolled in CHAMPVA.
+P01: have, and expect to see it there, telling me that it's done, and that John Jr. has been enrolled in CHAMPVA.
 
 322
 00:29:04.740 --> 00:29:10.330
-P1: Yeah, and then clutters, that's all nice, having all that right there. Always look at the dig for the letters.
+P01: Yeah, and then clutters, that's all nice, having all that right there. Always look at the dig for the letters.
 
 323
 00:29:10.900 --> 00:29:15.819
-P1: The app makes it easy, though, but the website is not the friendliest for printing letters.
+P01: The app makes it easy, though, but the website is not the friendliest for printing letters.
 
 324
 00:29:21.930 --> 00:29:27.049
@@ -1197,7 +1197,7 @@ Moderator: Okay, so go ahead and see if you can find his, find your Champ VA car
 
 325
 00:29:28.090 --> 00:29:29.410
-P1: The card or the claim?
+P01: The card or the claim?
 
 326
 00:29:29.660 --> 00:29:30.340
@@ -1209,7 +1209,7 @@ Moderator: Well, the application for CHAMPVA, I guess.
 
 328
 00:29:33.870 --> 00:29:40.799
-P1: Yep, application… decided, and then I would click on Check Status Details to see what it says.
+P01: Yep, application… decided, and then I would click on Check Status Details to see what it says.
 
 329
 00:29:41.220 --> 00:29:47.250
@@ -1217,19 +1217,19 @@ Moderator: Okay, so overall, before we click that link, how does this compare to
 
 330
 00:29:47.250 --> 00:29:49.820
-P1: That's what I expected to find.
+P01: That's what I expected to find.
 
 331
 00:29:50.720 --> 00:29:53.910
-P1: It is nice having all that in progress and all right there.
+P01: It is nice having all that in progress and all right there.
 
 332
 00:29:55.090 --> 00:29:59.480
-P1: I feel like I have to keep saying this, but I feel like I always have to dig through it to find anything on CHAMPVA.
+P01: I feel like I have to keep saying this, but I feel like I always have to dig through it to find anything on CHAMPVA.
 
 333
 00:29:59.950 --> 00:30:03.379
-P1: This is a lot nicer user interface than I'm used to.
+P01: This is a lot nicer user interface than I'm used to.
 
 334
 00:30:06.010 --> 00:30:18.000
@@ -1237,7 +1237,7 @@ Moderator: Well, that is good feedback for some of our teams to hear as well. Ok
 
 335
 00:30:20.500 --> 00:30:22.270
-P1: Yep. So…
+P01: Yep. So…
 
 336
 00:30:22.770 --> 00:30:25.800
@@ -1245,35 +1245,35 @@ Moderator: Take a look at this page and tell me what you see.
 
 337
 00:30:26.320 --> 00:30:35.039
-P1: See, status application and made a decision… then there's the breakdown of the decisions, the Jane Doe is enrolled, John Doe is not eligible.
+P01: See, status application and made a decision… then there's the breakdown of the decisions, the Jane Doe is enrolled, John Doe is not eligible.
 
 338
 00:30:35.230 --> 00:30:41.469
-P1: And we have mailed John a letter explaining why they're not eligible for CHAMPVA benefits. Hmm.
+P01: And we have mailed John a letter explaining why they're not eligible for CHAMPVA benefits. Hmm.
 
 339
 00:30:43.990 --> 00:30:49.390
-P1: And that is where we wait for the letter, which I know they have to do.
+P01: And that is where we wait for the letter, which I know they have to do.
 
 340
 00:30:50.160 --> 00:30:51.350
-P1: the letter…
+P01: the letter…
 
 341
 00:30:51.940 --> 00:30:58.650
-P1: Because they can't talk about it over the phone, which has always been infuriating to me, because it only takes a couple weeks to get there, but that's just…
+P01: Because they can't talk about it over the phone, which has always been infuriating to me, because it only takes a couple weeks to get there, but that's just…
 
 342
 00:31:00.690 --> 00:31:03.659
-P1: He said, we have to figure out what happened.
+P01: He said, we have to figure out what happened.
 
 343
 00:31:06.450 --> 00:31:09.939
-P1: But let me know what's going on so I know how to prepare next.
+P01: But let me know what's going on so I know how to prepare next.
 
 344
 00:31:11.480 --> 00:31:12.810
-P1: Let's see what's going on.
+P01: Let's see what's going on.
 
 345
 00:31:15.630 --> 00:31:22.399
@@ -1281,7 +1281,7 @@ Moderator: So, I know you mentioned this, but I'm just, again, for the record, w
 
 346
 00:31:22.400 --> 00:31:26.879
-P1: Jane Doe has been enrolled, and John Jr. has not been enrolled for some reason.
+P01: Jane Doe has been enrolled, and John Jr. has not been enrolled for some reason.
 
 347
 00:31:26.880 --> 00:31:32.369
@@ -1289,11 +1289,11 @@ Moderator: Yeah, and you mentioned potentially calling in the past. Overall, wha
 
 348
 00:31:32.370 --> 00:31:35.839
-P1: I would probably call anyway and see if they could tell me what happened.
+P01: I would probably call anyway and see if they could tell me what happened.
 
 349
 00:31:36.900 --> 00:31:47.329
-P1: Because it's weird… I mean, I'm assuming that it's my biological son that was just born, or a son that I just got eligible for CHAMP VA for, which is why I'm enrolling both of them at the same time.
+P01: Because it's weird… I mean, I'm assuming that it's my biological son that was just born, or a son that I just got eligible for CHAMP VA for, which is why I'm enrolling both of them at the same time.
 
 350
 00:31:49.450 --> 00:31:51.669
@@ -1301,7 +1301,7 @@ Moderator: And you would… oh, I'm sorry, go ahead.
 
 351
 00:31:51.960 --> 00:31:54.080
-P1: No, I said this, I'd call and find out what's going on.
+P01: No, I said this, I'd call and find out what's going on.
 
 352
 00:31:55.620 --> 00:32:04.950
@@ -1309,11 +1309,11 @@ Moderator: And you mentioned some of your experiences in the past where you have
 
 353
 00:32:05.180 --> 00:32:18.429
-P1: Probably should clarify that that's more for, like, disability claims. They can't tell you what it says, you have to wait for the official letter. CHAMPVA is usually better about being able to talk about what's going on. I should have clarified that better.
+P01: Probably should clarify that that's more for, like, disability claims. They can't tell you what it says, you have to wait for the official letter. CHAMPVA is usually better about being able to talk about what's going on. I should have clarified that better.
 
 354
 00:32:18.580 --> 00:32:20.460
-P1: A few different areas.
+P01: A few different areas.
 
 355
 00:32:20.620 --> 00:32:26.149
@@ -1325,11 +1325,11 @@ Moderator: Okay, so that is the end of our scenarios for today, so you can go ah
 
 357
 00:32:36.960 --> 00:32:37.640
-P1: Okay.
+P01: Okay.
 
 358
 00:32:41.070 --> 00:32:42.310
-P1: Stop sharing, there we go.
+P01: Stop sharing, there we go.
 
 359
 00:32:42.310 --> 00:32:47.219
@@ -1337,11 +1337,11 @@ Moderator: Okay, perfect. So, can you tell me about your overall impression of t
 
 360
 00:32:47.490 --> 00:32:50.229
-P1: I liked it a lot, it was very helpful.
+P01: I liked it a lot, it was very helpful.
 
 361
 00:32:51.230 --> 00:32:55.580
-P1: I've never… that's been a… I was a good VA.gov experience.
+P01: I've never… that's been a… I was a good VA.gov experience.
 
 362
 00:32:56.680 --> 00:32:59.120
@@ -1349,15 +1349,15 @@ Moderator: What were some of the things that you liked about it?
 
 363
 00:32:59.120 --> 00:33:04.139
-P1: How everything was right where I… where, where I could see it easy.
+P01: How everything was right where I… where, where I could see it easy.
 
 364
 00:33:05.120 --> 00:33:08.079
-P1: That was something that I feel like I usually struggle with.
+P01: That was something that I feel like I usually struggle with.
 
 365
 00:33:12.330 --> 00:33:15.579
-P1: Yeah, that's about it, sorry.
+P01: Yeah, that's about it, sorry.
 
 366
 00:33:15.580 --> 00:33:32.690
@@ -1365,11 +1365,11 @@ Moderator: No, no, no, it's helpful. So, I know we… I had asked you about your
 
 367
 00:33:32.850 --> 00:33:42.299
-P1: I would have loved to do, this experience as opposed to those forms, especially because I have to fill out the same form six times, because it's only for one person.
+P01: I would have loved to do, this experience as opposed to those forms, especially because I have to fill out the same form six times, because it's only for one person.
 
 368
 00:33:44.920 --> 00:33:46.319
-P1: That was very nice.
+P01: That was very nice.
 
 369
 00:33:47.570 --> 00:33:52.989
@@ -1377,7 +1377,7 @@ Moderator: Okay, thank you. So, was there anything that was confusing or unexpec
 
 370
 00:33:52.990 --> 00:33:56.419
-P1: Not really. Not once I thought about it, it made sense.
+P01: Not really. Not once I thought about it, it made sense.
 
 371
 00:33:57.540 --> 00:34:00.960
@@ -1385,15 +1385,15 @@ Moderator: What were the areas that you felt like you had to think a little bit 
 
 372
 00:34:00.960 --> 00:34:05.779
-P1: probably that, part before I realized that it was one application for two people.
+P01: probably that, part before I realized that it was one application for two people.
 
 373
 00:34:05.990 --> 00:34:11.570
-P1: And it had Jane Doe approved, and then step two of… Step 2 of 4?
+P01: And it had Jane Doe approved, and then step two of… Step 2 of 4?
 
 374
 00:34:12.070 --> 00:34:16.470
-P1: That's what caught me off guard. I was like, what are we talking about? And then I realized what it was.
+P01: That's what caught me off guard. I was like, what are we talking about? And then I realized what it was.
 
 375
 00:34:16.790 --> 00:34:25.439
@@ -1401,7 +1401,7 @@ Moderator: Okay, so the… so you were saying, first off, that it was… there w
 
 376
 00:34:25.449 --> 00:34:28.979
-P1: Yes, so that's what I was going off of, and… Okay.
+P01: Yes, so that's what I was going off of, and… Okay.
 
 377
 00:34:29.409 --> 00:34:33.099
@@ -1409,7 +1409,7 @@ Moderator: Okay, and then can you tell me a little bit more about the step 2 out
 
 378
 00:34:33.770 --> 00:34:41.309
-P1: Just having it… so she said enrolled, and then step 2 out of 4, and I wasn't sure what claim that was going with at first.
+P01: Just having it… so she said enrolled, and then step 2 out of 4, and I wasn't sure what claim that was going with at first.
 
 379
 00:34:42.159 --> 00:34:42.869
@@ -1421,11 +1421,11 @@ Moderator: And were you… just for my clarification, when you're saying claim, 
 
 381
 00:34:56.909 --> 00:35:03.069
-P1: I use claim as a catch-all for submitting VA stuff. It needs to be a CHAMPVA application.
+P01: I use claim as a catch-all for submitting VA stuff. It needs to be a CHAMPVA application.
 
 382
 00:35:03.329 --> 00:35:04.799
-P1: Okay. Specifically. Okay.
+P01: Okay. Specifically. Okay.
 
 383
 00:35:04.810 --> 00:35:22.229
@@ -1437,7 +1437,7 @@ Moderator: So, I thought the prototype was easy to use.
 
 385
 00:35:25.970 --> 00:35:27.110
-P1: Strongly agree.
+P01: Strongly agree.
 
 386
 00:35:27.950 --> 00:35:29.510
@@ -1445,7 +1445,7 @@ Moderator: Could you give me a number?
 
 387
 00:35:29.770 --> 00:35:30.500
-P1: Oh.
+P01: Oh.
 
 388
 00:35:31.270 --> 00:35:32.220
@@ -1453,7 +1453,7 @@ Moderator: 1 to 5.
 
 389
 00:35:34.320 --> 00:35:37.039
-P1: Do the scale again, I'm sorry, is it 5 strongly agree?
+P01: Do the scale again, I'm sorry, is it 5 strongly agree?
 
 390
 00:35:37.040 --> 00:35:39.250
@@ -1461,7 +1461,7 @@ Moderator: Yeah, 5 is strongly agree, and 1 means strongly.
 
 391
 00:35:39.250 --> 00:35:39.680
-P1: the highest.
+P01: the highest.
 
 392
 00:35:39.680 --> 00:35:46.269
@@ -1469,7 +1469,7 @@ Moderator: Okay, perfect, thank you. I felt confident I understood what was happ
 
 393
 00:35:46.270 --> 00:35:46.870
-P1: 5.
+P01: 5.
 
 394
 00:35:47.720 --> 00:35:51.809
@@ -1477,7 +1477,7 @@ Moderator: And the last one, I knew where to look to find any updates about my a
 
 395
 00:35:51.940 --> 00:35:52.500
-P1: Five.
+P01: Five.
 
 396
 00:35:52.720 --> 00:36:02.679
@@ -1489,7 +1489,7 @@ Moderator: What would it be?
 
 398
 00:36:07.540 --> 00:36:16.230
-P1: Nothing, actually. That had everything that I would want. That would negate the thing for an email, too, if it popped right into a pending claim section.
+P01: Nothing, actually. That had everything that I would want. That would negate the thing for an email, too, if it popped right into a pending claim section.
 
 399
 00:36:17.460 --> 00:36:20.429
@@ -1497,7 +1497,7 @@ Moderator: Can you tell me a little bit more about what you meant by that?
 
 400
 00:36:20.830 --> 00:36:24.260
-P1: Well, I sent an email to confirm, but…
+P01: Well, I sent an email to confirm, but…
 
 401
 00:36:24.260 --> 00:36:24.660
@@ -1505,23 +1505,23 @@ Moderator: Oh, yeah.
 
 402
 00:36:24.660 --> 00:36:26.689
-P1: That was already had the confirmation there.
+P01: That was already had the confirmation there.
 
 403
 00:36:27.260 --> 00:36:29.599
-P1: Maybe just an email,
+P01: Maybe just an email,
 
 404
 00:36:30.410 --> 00:36:36.639
-P1: when it went to, for John Doe Jr, when it wanted a birth certificate, I'm assuming no email went out.
+P01: when it went to, for John Doe Jr, when it wanted a birth certificate, I'm assuming no email went out.
 
 405
 00:36:37.770 --> 00:36:45.289
-P1: So, if they, even just saying that there's been a change, please go review, because a letter will take 2 weeks to get there.
+P01: So, if they, even just saying that there's been a change, please go review, because a letter will take 2 weeks to get there.
 
 406
 00:36:45.770 --> 00:36:48.699
-P1: So that's 2 weeks where I could have been uploading the birth certificate.
+P01: So that's 2 weeks where I could have been uploading the birth certificate.
 
 407
 00:36:50.230 --> 00:36:56.840
@@ -1529,7 +1529,7 @@ Moderator: I see. Okay, so one of the main things that we could do to improve is
 
 408
 00:36:56.840 --> 00:36:57.490
-P1: Yes.
+P01: Yes.
 
 409
 00:36:57.710 --> 00:36:58.800
@@ -1549,7 +1549,7 @@ Moderator: Okay Perfect. And then, so do you have any questions for me?
 
 413
 00:37:20.440 --> 00:37:22.850
-P1: No, thank you so much for this opportunity.
+P01: No, thank you so much for this opportunity.
 
 414
 00:37:22.850 --> 00:37:43.369
@@ -1557,7 +1557,7 @@ Moderator: Okay, thank you. So, I do want to circle back and reconfirm that you 
 
 415
 00:37:43.370 --> 00:37:44.260
-P1: Yes, ma'am.
+P01: Yes, ma'am.
 
 416
 00:37:44.260 --> 00:37:46.200
@@ -1569,7 +1569,7 @@ Moderator: And is there any part of our discussion you would not want to be shar
 
 418
 00:37:51.180 --> 00:37:51.830
-P1: Nope.
+P01: Nope.
 
 419
 00:37:52.090 --> 00:37:52.490
@@ -1577,7 +1577,7 @@ Moderator: Okay.
 
 420
 00:37:52.490 --> 00:37:54.090
-P1: I'm comfortable with everything being shared.
+P01: I'm comfortable with everything being shared.
 
 421
 00:37:54.340 --> 00:38:19.340
@@ -1589,7 +1589,7 @@ Moderator: So, with that, thank you so, so much. Really appreciate it, and I hop
 
 423
 00:38:25.490 --> 00:38:26.690
-P1: Thank you, you too.
+P01: Thank you, you too.
 
 424
 00:38:26.690 --> 00:38:27.979
@@ -1597,5 +1597,5 @@ Moderator: Okay, thank you, have a good one.
 
 425
 00:38:28.040 --> 00:38:29.130
-P1: You too, bye.
+P01: You too, bye.
 
