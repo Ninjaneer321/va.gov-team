@@ -59,7 +59,15 @@ I've now read all available participant notes and the main takeaways file. Here 
 
 > [!NOTE]
 > _Not exactly sure what "confusion about claim vs application" finding is referring to. Need to check._
-> _Which participants are the ones who had the "partial decision confusion"?_
+> 
+> _Asked copilot which participants were included in "partial decision confusion":_
+>  - Based on my review of the notes, the 5 participants who showed brief confusion about the partial decision (Jane decided while John still pending) were:
+>     - P01 — "That's weird that they've made a decision on part of the application... It caught me off guard" — but then quickly understood
+>     - P02 — Scrolled down and saw Jane's decision, took a moment to process but understood
+>     - P03 — "It seems there's 4 steps 2 people. It's not clear." — wanted separate per-person step tracking
+>     - P07 — "I thought this was for my wife? I thought this was for Jane Doe, not John Doe Jr." — initially confused about who was on the application
+>     - P11 — "huh" after reading the partial decision alert; "Says they made a decision but will make a decision after I submit more info" — confused briefly, then understood there were two separate decisions being made
+> - All five recovered relatively quickly (hence "brief"), but the initial surprise was notable in each case. P08 and P09 also noticed it but reacted more positively than confused — P08 specifically liked the partial decision transparency, and P09 called it "a surprise" but processed it without significant friction. The line between "surprised" and "confused" was a judgment call in categorization.?_
 
 
 ### Tertiary/Emergent Themes
@@ -155,17 +163,6 @@ I've now read all available participant notes and the main takeaways file. Here 
 > - Assumed the participants who check mail infrequently are rural
 > - _I think this is based off of my note in [main-takeaways](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/vfmp-status-integration/research/2026-02-CHAMPVA-App-Status-MVP/notes/main_takeaways.md#p01). The participant mentioned it takes 2-3 weeks for them to get mail, so I checked our participant demographics and they live in a rural area._
 
-### Mental Models
-
->[!NOTE]
-> - _I don't think this section is worth showing because it doesn't show which participants had these mental models._
-
-- **Before using tool:** Application is a linear, single-person process; expect to find CHAMPVA under "benefits" not "claims"
-- **After using tool:** Understand multi-person application concept; expect status to persist in same location
-- **"Claims" = disability claims** in most participants' minds; CHAMPVA feels like a different category
-- **"Closed" = potentially negative** — P06: *"Is closed a bad thing? I don't even know"*
-- **Forms section = things I fill out**; Claims section = things VA works on
-
 ### Expectations vs. Reality
 
 | Expectation | Reality |
@@ -182,73 +179,6 @@ I've now read all available participant notes and the main takeaways file. Here 
 - Would search Reddit for processing timelines
 - Would look through multiple tabs/sections systematically
 - Would use browser search or scroll extensively
-
----
-
-## 4. THE 5 WHYS ANALYSIS
-
-### Pain Point 1: Cannot find closed CHAMPVA application
-
-- **Surface:** Participants can't find their decided CHAMPVA application
-- **Why 1:** The card is no longer displayed on MyVA
-- **Why 2:** The application moved to the "Closed" tab in CST, which is not the default view
-- **Why 3:** There's no notification or indicator on MyVA that a decision was made
-- **Why 4:** The design assumes users will proactively navigate to the Closed tab
-- **Why 5:** **The system doesn't account for the critical emotional weight of a decision and users' need for immediate, persistent visibility of major life-affecting outcomes**
-
-### Pain Point 2: No denial reason shown
-
-- **Surface:** Participants don't know why John Doe Jr. is ineligible
-- **Why 1:** The tool says "a letter has been mailed" but provides no detail
-- **Why 2:** Decision letters are only available via physical mail
-- **Why 3:** The digital tool doesn't integrate with decision letter content
-- **Why 4:** The letter content system may not be digitized or API-accessible
-- **Why 5:** **The process was designed for a mail-first era and hasn't been modernized for digital-first users who need immediate actionable information**
-
-### Pain Point 3: No timelines provided
-
-- **Surface:** Participants don't know how long each step takes
-- **Why 1:** The tool shows steps but no estimated durations
-- **Why 2:** Processing times may vary and the team may not want to commit to estimates
-- **Why 3:** There's no operational data pipeline to generate reliable estimates
-- **Why 4:** The backend processing is manual and unpredictable
-- **Why 5:** **Operational capacity and process variability haven't been translated into user-facing transparency, creating an information void that generates anxiety**
-
----
-
-## 5. USER JOURNEY INSIGHTS
-
->[!NOTE]
-> - _I would not include this section - this content is covered above in a more concise way._
-
-### Awareness/Discovery (MyVA Homepage)
-- **Friction:** Some confusion about CHAMPVA being in "Claims and application status" vs. its own section
-- **Emotion:** Generally positive; relief at seeing status immediately
-- **Opportunity:** Consider a "Recently decided" section on MyVA; surface decisions prominently
-
-### Consideration/Research (CST Detail Pages)
-- **Friction:** Steps lack timelines; Overview tab content overlaps with Status tab
-- **Emotion:** Neutral; some frustration at lack of detail
-- **Opportunity:** Add estimated timelines; consolidate Status + Overview
-
-### Decision/Action (File Upload & Evidence Request)
-- **Friction:** Minor — "Change file" label; marriage cert requires person selection while birth cert doesn't
-- **Emotion:** Positive; task feels achievable
-- **Opportunity:** Standardize upload patterns; make "Change file" → "Choose file" or "Attach file"
-
-> [!NOTE]
-> Don't agree this the above section
-> _Agreed. Can remove this whole section. It's either repetitive of what's above or gives design suggestions that we should discuss ourselves._
-
-### Use/Experience (Partial Decision & Closed App)
-- **Friction:** HIGH — Card disappears; no denial reason; physical mail only
-- **Emotion:** Anxiety, frustration, panic
-- **Opportunity:** Keep decided apps visible on MyVA temporarily; add digital letter access; explain ineligibility inline
-
-### Retention/Advocacy
-- **Friction:** Would call VA to get answers not available in tool
-- **Emotion:** Mixed — appreciates tool but frustrated by gaps
-- **Opportunity:** Reduce need for phone calls by surfacing decision details
 
 ---
 
@@ -270,11 +200,6 @@ I've now read all available participant notes and the main takeaways file. Here 
 ### Demographic Variations
 - **Mobile users** (P02, P09, P11) had more difficulty with the Closed tab filter — it wasn't obviously interactive
 - **Desktop users** navigated more easily but still couldn't find the closed app
-- **Veterans with CHAMPVA experience** (P01, P03, P04, P06) compared unfavorably to prior fax/paper process — strong baseline
-- **Veterans without CHAMPVA experience** (P08, P09) had cleaner mental models but more uncertainty
-
->[!NOTE]
-> - _Don't agree with the last two statements_
 
 ---
 
@@ -408,22 +333,6 @@ I've now read all available participant notes and the main takeaways file. Here 
 - Time-to-action on evidence requests: digital upload vs. mail response
 
 ---
-
-## Likert Score Summary done by Copilot
-
-| Participant | Easy to Use | Confident in Status | Knew Where to Look |
-|:-----------:|:-----------:|:-------------------:|:-------------------:|
-| P01 | 5 | 5 | 5 |
-| P02 | 5 | 5 | 5 |
-| P03 | **3** | **3** | **2.5** |
-| P04 | 5 | 5 | 5 |
-| P06 | 5 | **4** | **4** |
-| P07 | **2** | **2** | 4 |
-| P08 | 5 | **4** | 5 |
-| P09 | 5 | **4** | 5 |
-| P11 | 5 | 5 | 5 |
-| **Median** | **5** | **4-5** | **5** |
-
 ## Likert Scale Survey Results in Excel
 
 >[!NOTE]
