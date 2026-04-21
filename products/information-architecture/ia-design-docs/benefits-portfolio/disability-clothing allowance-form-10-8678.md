@@ -33,7 +33,8 @@
 ## <a name="map"></a>Page structure<br>
 *Illustration and/or description of where this product/feature will live within the overall IA of VA.gov (i.e. a site map). The placement of your product/feature determines the URL structure, breadcrumb, and navigational needs of the product/feature, and provides search engines with relationship information that impacts overall SEO and findability. Placement of a product/feature must follow established patterns and standards of the existing site.*
 
-<img width="1086" height="638" alt="image" src="https://github.com/user-attachments/assets/e1e6fbd5-fda9-4b54-908d-b0b0abb0d10e" />
+<img width="1096" height="653" alt="image" src="https://github.com/user-attachments/assets/fef878b2-2c96-4892-8787-0095e2006be6" />
+
 
 ## <a name="url"></a>Page URLs and breadcrumbs
 *URL and breadcrumb requirements for each modified or new page within the experience. URLs and breadcrumbs must follow established patterns and standards of the existing site. This section will also document form or tool flow URLs, titled sub-URLs.*
