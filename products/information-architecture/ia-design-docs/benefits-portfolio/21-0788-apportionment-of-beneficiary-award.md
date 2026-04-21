@@ -25,7 +25,7 @@
 
 
 ## <a name="map"></a>Page structure<br>
-<img width="518" height="1005" alt="image" src="https://github.com/user-attachments/assets/9099ca63-6a42-4003-b80d-c71a9583209a" />
+<img width="275" height="544" alt="image" src="https://github.com/user-attachments/assets/03255a57-646e-47aa-a6da-42f55fe4aef0" />
 
 
 
