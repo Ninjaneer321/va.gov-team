@@ -166,7 +166,7 @@ Status tool home page
 - Usually have to dig. This is a much nicer user interface then I'm used to
 
 CHAMPVA status
-- Always a fury for me [review transcript for why?]
+- And that is where we wait for the letter, which I know they have to do. Because they can't talk about it over the phone, which has always been infuriating to me, because it always takes a couple weeks to get there, but that's just...
 - Let's me know what's going on so I know what to prepare next
 - I would probably call anyway if they can tell me what happened [why John Doe Jr. is ineligible]
 
