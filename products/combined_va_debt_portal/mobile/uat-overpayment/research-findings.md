@@ -64,23 +64,9 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - |
-    The Overpayments feature is ready for release; all functional test paths passed with 100% success using live participant data.
-
-    During moderated sessions, Veterans successfully navigated the full lifecycle of overpayment management—from discovery on the home screen to initiating resolution flows (Payment, Dispute, and Help). Because participants used their own credentials, we were able to confirm that the app correctly displays real-world debt details, balances, and history without error.
-
-    - _Supporting data: We tested with 6 Veterans (4 on iOS and 2 and Android) who logged in using their real credentials._
-    - _Supporting data: Participants confirmed the accuracy of personal debt details (e.g., Receivable IDs and Payee numbers) on the "Pay Online" and "Detail" screens._
-  - |
-    UAT Issue (Bug): Copy/paste adds an extra “$” when transitioning to pay.va.gov
-
-    When Veterans copy the payment amount (or dollar value) from the Pay Online screen in the app and paste it into pay.va.gov, the pasted value includes an extraneous dollar sign (“$”), which can require manual cleanup and may cause entry/validation errors.
-
-    - Impact: Adds friction and increases risk of incorrect payment entry.
-  - |
-    UAT Issue (Bug): Spacing issue on details page.
-
-    There was a slight spacing issue on the details page between the card and the accordion.
+  - "The Overpayments feature is ready for release; all functional test paths passed with 100% success using live participant data."
+  - "UAT Issue (Bug): Copy/paste adds an extra “$” when transitioning to pay.va.gov"
+  - "UAT Issue (Bug): Spacing issue on details page."
 recommendations:
   - "On the "Pay online" screen, remove the dollar sign from the copied text for the balance."
   - "Reorder the details on the "Pay online" screen to match the sequence of fields on pay.va.gov."
