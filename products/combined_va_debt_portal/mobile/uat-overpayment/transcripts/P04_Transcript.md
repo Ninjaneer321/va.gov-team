@@ -1,3 +1,9 @@
+## P04 Transcript
+
+This participant had two separate recordings due to a technical issue on our side
+
+Start of discussion 1
+
 1(a)  
 00:00:01.730 --> 00:00:08.220  
 Emily  
@@ -262,6 +268,10 @@ Just, sorry, really quickly, like, he didn't do any updates to the… his… tha
 00:06:05.950 --> 00:06:10.190  
 Emily  
 There wasn't any updates.  
+
+End of discussion 1
+
+Start of discussion 2
 
 1  
 00:00:00.000 --> 00:00:01.290  
