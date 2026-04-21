@@ -121,7 +121,7 @@ synthesis_tools_used:
 **Jump to:**
 - [Hypotheses and conclusions](#user-content-hypotheses-and-conclusions)
 - [Key findings](#user-content-key-findings)
-- [Recommendations](#user-content-recommendations)
+- [Recommendations](#user-content-recommendations-and-next-steps)
 - [Product User and Business Outcomes](#user-content-product-user-and-business-outcomes)
 - [Key Performance Indicators](#user-content-key-performance-indicators)
 - [Next Steps](#user-content-next-steps)
