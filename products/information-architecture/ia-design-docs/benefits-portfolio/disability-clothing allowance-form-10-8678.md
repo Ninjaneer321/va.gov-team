@@ -47,14 +47,14 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - [Breadcrumbs](https://design.va.gov/components/breadcrumbs) 
 - [Title tags](https://design.va.gov/content-style-guide/title-tags)
   
-**1) Page name - Existing (PDF form)**
-- URL: (https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-8678.pdf)
-- H1: APPLICATION FOR ANNUAL CLOTHING ALLOWANCE
-- Sub-heading: N/A
-- Breadcrumb: Non on the PDF form. The breadcrumb for the previous page is VA.gov> homeVA> forms> About VA Form 10-8678
-- Notes: Previous page that links to the PDF form is About VA Form 10-8678 and the url of that page is https://www.va.gov/forms/10-8678/
+**1) Form Detail Page - Existing**
+- URL: ([https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-8678.pdf](https://www.va.gov/forms/10-8678/))
+- H1: VA Form 10-8678
+- Sub-heading: Application for Annual Clothing Allowance
+- Breadcrumb: The breadcrumb for the previous page is VA.gov> homeVA> forms> VA Form 10-8678
+- Notes: 
 
-**2) Page name - New**
+**2) Online form for 10-8678 - New**
 - URL:(https://www.va.gov/forms/10-8678/apply-annual-clothing-allowance)
 - H1: Apply for annual clothing allowance
 - Sub-heading: Form 10-8678
