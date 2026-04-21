@@ -49,26 +49,12 @@ Files tab
 Overview tab
 - Should this be combined with status tab?
 
-Scale of 1-5, how difficult or easy was it to understand the application steps?
-- [ ] 1 - very hard
-- [ ] 2
-- [ ] 3
-- [x] 4
-- [ ] 5 - very easy
-
 ### Scenario 2: Evidence request
 MyVA
 - Action may be needed in yellowish oragne is very helpful to direct user.
 
 CHAMPVA status
 - Tells exactly what you need for which applicant i.e. junior's birth certificate.
-
-Scale of 1-5, how difficult or easy was it to understand this screen?
-- [ ] 1 - very hard
-- [ ] 2
-- [ ] 3
-- [x] 4
-- [ ] 5 - very easy
 
 Birth certificate page
 - After uploading birth certificate it shows green notification. Different notifications for different users.
