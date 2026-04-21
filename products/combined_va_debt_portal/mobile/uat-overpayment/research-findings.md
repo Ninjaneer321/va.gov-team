@@ -103,7 +103,7 @@ synthesis_tools_used:
 
 ---
 
-# Debt Portal: Overpayments in mobile app UAT Research Findings 🚧 🚧 🚧
+# Debt Portal: Overpayments in mobile app UAT Research Findings 🚧 🚧 🚧 work in progress
 
 **Office of the CTO - Digital Experience (OCTO-DE), Mobile app Overpayments, Mobile Feature Support**
 
@@ -383,14 +383,9 @@ Pre-release app builds
 - [for iOS (TestFlight)](https://testflight.apple.com/join/RrO0Cw2q)
 - [for Android (Firebase)](https://appdistribution.firebase.dev/i/2e876a3d15d8784c)
 
-Directions on using pre-release app builds 🚧 make sure directions are up to date
+Directions on using pre-release app builds
 - [for iOS (TestFlight)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_iOS.md)
 - [for Android (Firebase)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_android.md)
-
-### Other supporting documents created
-
-🚧 link to anything else in SharePoint?
-*Include links to additional materials, e.g., personas, user flows.*  
 
 
 ### Secondary research
