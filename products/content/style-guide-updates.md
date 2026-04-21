@@ -113,7 +113,7 @@ MOVE! is all capital letters, with an exclamation point at the end. There's no s
 
 #### [VA website organization](https://design.va.gov/ia/va-website-organization)
 
-This new section explains how and why we organize content on the VA.gov website. The **VA website organization** section also provides links and descriptions for key categories on the website.
+This new section explains how and why we organize content on the main VA.gov website and key subdomains.
 
 ## February 2026
 
