@@ -3068,47 +3068,7 @@ Participant 1: So, but no, I don't… I don't have any problem on the VA website
 
 Participant 1: Mag glasses on, so… I had a… I have a rare [medical disorder], and I threw a [medical disorder with eyesight]. 
 
- 
-
-629 
-
-00:59:20.460 --> 00:59:23.629 
-
-Participant 1: in 2009, and I lost my central vision. 
-
- 
-
-630 
-
-00:59:23.880 --> 00:59:32.139 
-
-Participant 1: And my left eye was my strong eye, and so my right eye, you know, basically does all the work when I'm looking at my phone. 
-
- 
-
-631 
-
-00:59:33.130 --> 00:59:33.859 
-
-Moderator: Oh, wow. 
-
- 
-
-632 
-
-00:59:40.100 --> 00:59:45.200 
-
-Participant 1: Because I have no… I have nothing centrally in my left eye. 
-
- 
-
-633 
-
-00:59:49.400 --> 00:59:50.980 
-
-Participant 1: I lost my phobia. 
-
- 
+[Discusses medical condition.]
 
 634 
 
