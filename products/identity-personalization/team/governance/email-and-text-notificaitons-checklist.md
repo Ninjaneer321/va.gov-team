@@ -1,4 +1,4 @@
-# Profile | Email and text notifications checklist
+# Profile | Email and text notifications integration checklist
 
 Changes to the Email and text notifications page in the [va.gov](http://va.gov) Profile require coordination with the Authenticated Experience Team, as well as the VA Profile, VA notify, and VeText teams. The VA Profile team manages the overall permissions on this page, and are the current maintainer of all content, excluding checkbox hint text. Teams need to coordinate with VA notify and VeText to create email and text notifications respectively. ***Any development not coordinated with VA Profile, VA notify, or VeText will result in failures for Veterans using this page.***
 
