@@ -294,6 +294,7 @@ When Veterans copy the payment amount (or dollar value) from the Pay Online scre
   > _"Yeah, this date is definitely not right then, because it’s just tying it to one letter, and there’s other letters missing. The confusion now is saying it’s updated - updated by who?" - P12_
 
 - This gap also made the “Last updated” label feel unreliable. She wanted it to indicate who updated the debt (VA vs. Veteran action) and what specifically happened. While she could reconstruct the timeline from memory, she didn’t want to have to rely on that; she wanted all related communications and actions visible in one place.
+- Another Veteran noticed that the “Last updated” date appeared to reflect the original demand letter date, even though her overpayment balance had increased multiple times since that letter.
 
 
 ## Recommendations and Next Steps
