@@ -81,7 +81,7 @@ Teams must launch with at least one entry point that allows site visitors to nav
   - Placement description: On page link
   - Link details
     - Link label: Go to the online tool
-    - Link destination: hhtps://www.va.gov/forms/10-8678/apply-annual-clothing-allowance/
+    - Link destination: https://www.va.gov/forms/10-8678/apply-annual-clothing-allowance/
   - Staged rollout requirements- No
   - Notes:
     - Who will update (IA, content, product team): Content
