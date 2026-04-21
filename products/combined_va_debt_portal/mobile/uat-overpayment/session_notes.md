@@ -1,53 +1,7 @@
-### Sessions
+# Overpayments UAT Notes
 
-* P1 : success  
-  * Android  
-  * 🤖Resolve: list view  
-* P4 : success  
-  * iPhone  
-  * 🍎Resolve: detail view  
-* P7 : success  
-  * iPhone  
-  * 🍎Resolve: list view  
-* P11 : success  
-  * 🤖 Android  
-  * Resolve: detail view
+Spreadsheet with full check-lists of test flows and success criteria can be found in SharePoint site.
 
-* ### P9 : success
-
-  * ### 🍎iPhone
-
-  * ### Resolve: detail view
-
-* P12 : success  
-  * 🍎iPhone  
-  * Resolve: list view  
-* ~~P2 : problems signing in~~  
-  * ~~Android~~  
-* ~~P3 : canceled~~  
-  * ~~iPhone~~  
-* ~~P5 : no show~~  
-  * ~~iPad~~  
-* ~~P8 : no show~~  
-  * ~~Android~~  
-  * ~~Resolve: detail view~~  
-* ~~P10 : canceled~~  
-  * ~~Android~~  
-  * ~~Resolve: detail view~~  
-* ~~P6 : rescheduled \- possibly canceled~~  
-  * ~~Android~~  
-  * ~~Resolve: list view~~
-
-### Things to note
-
-* Copy/paste payment details  
-  * Amount ends up with $$ in pay.va.gov  
-  * Amount is at start of list on app, but at bottom of list on pay.va.gov  
-* Last updated date doesn’t seem to be useful the way it’s currently set up
-
-## **Things to note from each person**
-
-* Do they know what updated date is?
 
 ## **P1**
 
