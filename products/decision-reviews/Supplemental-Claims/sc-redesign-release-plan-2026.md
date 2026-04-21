@@ -78,11 +78,9 @@ traffic impact apply.
 
 ### Define the Rollback process
 
-- Primary rollback: disable the `decision_review_sc_redesign_nov2025` Flipper
-  toggle to immediately route all new applications back to the legacy flow.
-  No code deploy is required.
-- In-progress applications started prior to toggle enablement always remain on
-  the legacy flow, so disabling the toggle does not strand any user mid-form.
+- Primary rollback: disable the `decision_review_sc_redesign_nov2025` Flipper toggle to immediately route all new applications back to the legacy flow. No code deploy is required.
+- In-progress applications will continue to use the flow indicated by the value of the feature toggle when they started the form.
+  - TBD: determine rollback approach when there is an issue with IPFs in the new form flow.
 - The team will monitor the Datadog dashboards and RUM below. If a spike in submission errors, traffic anomalies, or frustration signals is detected, the on-call engineer disables the toggle and notifies the team in Slack.
 - Monitoring surfaces:
   - [Benefits — Supplemental Claims Datadog dashboard](https://vagov.ddog-gov.com/dashboard/uc7-8ai-6c3/benefits---supplemental-claims)
@@ -94,18 +92,23 @@ traffic impact apply.
 
 #### Rollout Planning
 
-- Desired date range: [FILL_IN]
-- How will you make the product available in production while limiting the
-  number of users who can find/access it: gate exposure via the
-  `decision_review_sc_redesign_nov2025` Flipper percentage rollout. Only users
-  starting **new** Supplemental Claim applications are eligible; in-progress
-  applications stay on the legacy flow regardless of percentage.
+- Desired date range: ~ 2 weeks from canary through 100%, followed by 1-week and 1-month post-launch metric analysis.
+- Planned stage cadence:
+  - Stage A — Canary 1%: length dependent on catching a target number of submissions and completing manual verification of submissions and saved form data (Cory Sohrakoff supporting).
+  - Stage B — 10%: 3 days
+  - Stage C — 25%: 3 days
+  - Stage D — 50%: 2 days
+  - Stage E — 75%: 2 days
+  - Stage F — 100%: full release, followed by 1-week and 1-month post-launch metric analysis.
+- How will you make the product available in production while limiting the number of users who can find/access it: gate exposure via the `decision_review_sc_redesign_nov2025` Flipper percentage rollout. Only users starting **new** Supplemental Claim applications are eligible; in-progress applications stay on the legacy flow regardless of percentage.
 - Success criteria (Reference this [ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128072) for how these are calculated):
-  - Form abandonment rate at SC Step 3 ≤ baseline of `11%` (targeting a 1–3% reduction over time; no regression at any stage)
-  - RUM "frustration signal" share at Step 3 trending at or below the pre-launch baseline (75% of frustration-tagged sessions involved Step 3)
-  - SC overall claim submission API traffic within learned anomaly bounds (per Datadog monitor 215144) and above the static low-traffic threshold (monitor 539401)
-  - Sidekiq error rate on `DecisionReviews::Form4142Submit` and
-    `DecisionReviews::SubmitUpload` ≤ pre-launch baseline
+  - Canary stage: manual verification of submissions and saved form data (with enablement team support from Cory Sohrakoff) — completeness and accuracy of submitted payloads and in-progress form data must pass before advancing.
+  - All subsequent stages:
+    - Form abandonment rate at SC Step 3 ≤ baseline of `11%` (calculated from GA; targeting a 1–3% reduction over time; no regression at any stage).
+    - RUM "frustration signal" share at Step 3 trending at or below the pre-launch baseline (75% of frustration-tagged sessions involved Step 3). Stage-by-stage signal may be noisy at lower percentages; track the trend across stages rather than treating each stage as an independent measurement.
+    - Submission error rates ≤ current pre-launch rates:
+      - SC overall claim submission API traffic within learned anomaly bounds (per Datadog monitor 215144) and above the static low-traffic threshold (monitor 539401)
+      - Sidekiq error rate on `DecisionReviews::Form4142Submit` and `DecisionReviews::SubmitUpload` ≤ pre-launch baseline
 - Links to the dashboards showing success-criteria metrics:
   - [Benefits — Supplemental Claims Datadog dashboard](https://vagov.ddog-gov.com/dashboard/uc7-8ai-6c3/benefits---supplemental-claims)
   - [Benefits — Supplemental Claims RUM dashboard](https://vagov.ddog-gov.com/product-analytics/summary?query=%40application.id%3A2779ccc3-be87-4b2d-a757-9ff54b58761b)
@@ -122,7 +125,7 @@ traffic impact apply.
 
 #### Planning
 
-- Length of time: [FILL_IN] (*minimum 2 hours*)
+- Length of time: Dependent on manual verification
 - Percentage of Users: 1%
 
 #### Results
@@ -133,11 +136,26 @@ traffic impact apply.
 - Types of errors logged: [FILL_IN]
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?: [FILL_IN]
 
-### Stage B: 25% of users
+### Stage B: 10% of users
 
 #### Planning
 
-- Length of time: [FILL_IN] (*minimum 2 hours*)
+- Length of time: 3 days
+- Percentage of Users: 10%
+
+#### Results
+
+- Number of unique users: [FILL_IN]
+- Metrics at this stage (per success criteria): [FILL_IN]
+- Was any downstream service affected by the change?: [PICK_ONE]: yes | no | N/A
+- Types of errors logged: [FILL_IN]
+- What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?: [FILL_IN]
+
+### Stage C: 25% of users
+
+#### Planning
+
+- Length of time: 3 days
 - Percentage of Users: 25%
 
 #### Results
@@ -148,11 +166,11 @@ traffic impact apply.
 - Types of errors logged: [FILL_IN]
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?: [FILL_IN]
 
-### Stage C: 50% of users (optional)
+### Stage D: 50% of users
 
 #### Planning
 
-- Length of time: [FILL_IN] (*minimum 2 hours*)
+- Length of time: 2 days
 - Percentage of Users: 50%
 
 #### Results
@@ -163,11 +181,11 @@ traffic impact apply.
 - Types of errors logged: [FILL_IN]
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?: [FILL_IN]
 
-### Stage D: 75% of users (optional)
+### Stage E: 75% of users
 
 #### Planning
 
-- Length of time: [FILL_IN] (*minimum 2 hours*)
+- Length of time: 2 days
 - Percentage of Users: 75%
 
 #### Results
@@ -178,11 +196,11 @@ traffic impact apply.
 - Types of errors logged: [FILL_IN]
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?: [FILL_IN]
 
-### Stage E: 100% of users
+### Stage F: 100% of users
 
 #### Planning
 
-- Length of time: [FILL_IN] (*minimum 2 hours*)
+- Length of time: Full release, followed by 1-week and 1-month post-launch metric analysis
 - Percentage of Users: 100%
 
 #### Results
