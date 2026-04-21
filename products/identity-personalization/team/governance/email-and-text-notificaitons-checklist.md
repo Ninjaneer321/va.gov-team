@@ -9,7 +9,7 @@ If you want to make a change to Email and text notifications page on the va.gov 
 - [ ] Meet with the Authenticated Experience UX team to review your designs and discuss content and IA;
   - [ ] Finalize content and IA with Authenticated Experience and C&IA teams;  
 - [ ] When you have your designs and content ready;
-  - [ ] Submit an intake request to [VA Profile](https://jira.devops.va.gov/servicedesk/customer/portal/12/user/login?destination=portal%2F12%2Fgroup%2F60%3FgroupId%3D60) (must be on VA network). **Note:** VA Profile team works mostly on network using [va.gov](http://va.gov) email and MS Teams to communicate. Their team works in PI’s so submitting your request early is advised to avoid significant delays;
+  - [ ] Submit an intake request to [VA Profile](https://jira.devops.va.gov/servicedesk/customer/portal/12/user/login?destination=portal%2F12%2Fgroup%2F60%3FgroupId%3D60) (must be on VA network). **Note:** VA Profile team works mostly on network using va.gov email and MS Teams to communicate. Their team works in PI’s so submitting your request early is advised to avoid significant delays;
   - [ ] If adding a new email notification, submit an intake request to [VA Notify](https://github.com/department-of-Veterans-affairs/va.gov-team/issues/new?assignees=davidconlon%2C+GitSamJennings%2C+kbelikova-oddball&labels=vanotify-intake&template=VANotify-Business-Intake.md&title=Business+intake+form+for+%5BBusiness+or+team%5D).
   - [ ] If adding a new text notification, submit an intake request to VeText.  
 - [ ] Develop your new email and/or text notifications behind a feature flag;  
