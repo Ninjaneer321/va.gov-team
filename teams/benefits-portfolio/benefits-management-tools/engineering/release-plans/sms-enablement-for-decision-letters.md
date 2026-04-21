@@ -21,9 +21,9 @@ Before enabling your feature toggle in production, you'll need to:
 
 - [x] Testing of all permutations of the feature flags. Confirm no regression in the send_email endpoint as well as correct push notifications sent. Test results documented in [#135336](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135336)
 - [x] Confirm that logging has not changed and that existing Dashboards are working
-- [ ] Implement dashboard or add to existing dashboard to track sms notifications
+- [x] Implement dashboard or add to existing dashboard to track sms notifications
 - [x] Confirm production template is set in eventbus gateway config
-- [ ] Gather details for single user test
+- [x] Gather details for single user test
 - [ ] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
     - [x] review the plan with your DEPO/OCTO representative.
     - [x] review the release plan with your team.
@@ -97,18 +97,18 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 
 #### Results
 
-- Number of users: ___ sms notifications sent
-    - Turned on [TBD]
+- Number of users: 2%. 1,610 dry-run logs + 245 blackout period logs
+    - Turned on 4/15 - 4/21
 - Metrics at this stage (per your "success criteria"):
-    - [ ] SMS logs between 9pm ET - 9am ET show
-      - [ ] "LetterReadySmsJob blocked during SMS blackout period"
-    - [ ] SMS logs between 9am ET - 9pm ET show
-      - [ ] "LetterReadySmsJob dry run - SMS not sent"
-    - [ ] *NO* SMS logs/stats show
-      - [ ] "LetterReadySmsJob sms skipped" (reason: 'ICN not available')
-      - [ ] event_bus_gateway.letter_ready_sms.success metric
-- Was any downstream service affected by the change?: 
-- Types of errors logged:
+    - [x] SMS logs between 9pm ET - 9am ET show
+      - [x] "LetterReadySmsJob blocked during SMS blackout period"
+    - [x] SMS logs between 9am ET - 9pm ET show
+      - [x] "LetterReadySmsJob dry run - SMS not sent"
+    - [x] *NO* SMS logs/stats show
+      - [x] "LetterReadySmsJob sms skipped" (reason: 'ICN not available')
+      - [x] event_bus_gateway.letter_ready_sms.success metric
+- Was any downstream service affected by the change?: no
+- Types of errors logged: 0
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
 
 ### Stage A
