@@ -79,8 +79,6 @@ Main takeaways from the research sessions
 - User doesn't want to re-provide info for dependents that has already been provided to get benefits / disability comp. All this info such as birth certificates and marriage licenses has been provided to get the disability rating.
 - User desires more of a realtime number counter showing that the application is moving along. As long as they are seeing progression, they are reassured.
 
-**Observer 1:**
-
 **Observer 2:**
 - Very passionate about moving away from paper, they used fax to submit their champva app and felt like it was an awful experience
 - They really want to know where they're at in the 'queue'
@@ -124,11 +122,6 @@ Main takeaways from the research sessions
 - User was unsuccessful in finding that John does was denied and struggle with the tasks when they didn see a card or champva related content for task 3
 - User liked that on submissions they system knew who the submission was for and they didn't have to select the applicant.
 
-**Observer 1:**
-
-**Observer 2:**
-
-
 ### P09
 **UX Notetaker:**
 - Would expect email in addition to the VA's "formal letters
@@ -155,11 +148,21 @@ Main takeaways from the research sessions
 - no issue with file upload section
 - timeline was a big thing for him, a bit more so than where the application progress/step was
 
-### P0X
+### P11
 **UX Notetaker:**
+- User wasn't able to find the last CHAMPVA card and needed prompting, potential design changes could increase chances. (My perception even with larger font or buttons I feel they would still had difficulty finding the last card)
+- User would call to get support if website or process didn't have enough information or was confusing
+- File upload was super streamlined and easy for the user (nice pivot to school cert to make it relevant to the user)
 
 **UX Lead:**
+- User had no initial problem finding the CHAMPVA Card or Check status tab.
+- User was easily able to upload additional documentation.
+- User desires email notifications for updates.
+- User was redirected to view the Overview and files tabs, but was able to comprehend the information when she say the info. The user missing these tab links was an artifact of link and font scale. The user also missed the filter on for inprogress, closed, and all during task 3 - Scale and button treament is what she claimed is what cause her to miss these areas.
+- User was able to understand partial decisions of the application.
+- User was not able to complete task three without redirection to the card.
+- User mentioned wanting to see the reason for a denial or a copy of the letter immediately - would probably call to learn more about the denial.
 
-**Observer 1:**
-
-**Observer 2:**
+**Moderator:**
+- On mobile but seems to be zoomed out? I think because they are using a large phone. Links slightly harder to see
+- The phrase "after you submit more information" in the partial decision alert is confusing after the user has completed all the information requests - because they don't need to submit anything else
