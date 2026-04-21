@@ -22,7 +22,7 @@ https://staging.va.gov/housing-assistance/home-loans/request-coe-form-26-1880/in
 - When a user is offline and starts the form, the first page of the form populates the first page of the "old" form. [Ticket](https://va.ghe.com/software/va-cve/issues/2666)
 
 ### Content & IA Epic
-- TBD
+- https://github.com/department-of-veterans-affairs/va.gov-team/issues/118781
   
 ### Accessibility Test Artifact
 - TBD
