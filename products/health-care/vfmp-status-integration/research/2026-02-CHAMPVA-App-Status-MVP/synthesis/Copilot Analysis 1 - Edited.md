@@ -45,7 +45,8 @@ I've now read all available participant notes and the main takeaways file. Here 
 
 > [!NOTE]
 > _Would like to count how many people would prefer email vs. how many would prefer text, push notifications, etc._
-> Desire for timlines seems high 8/9. Maybe it's referencing the warm up question vs. what people said during the scenarios 
+> 
+> Desire for timelines seems high 8/9. Maybe it's referencing the warm up question vs. what people said during the scenarios 
 
 ### Secondary Themes
 
