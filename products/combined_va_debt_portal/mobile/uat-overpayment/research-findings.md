@@ -406,13 +406,21 @@ Directions on using pre-release app builds
 > The prompt will parse the demographic data from this section and structure it correctly for the frontmatter's nested YAML format. 
 
 ### Research participants 
-_Complete the demographic info below using information from the Perigean recruitment survey. For those items where you didn't have participants, please mark with "0". You can use "unknown" if you aren't sure if your participants had a characteristic._ 
-
-[Example Research participants](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md#research-participants)
 
 #### Recruitment criteria
 
-_If you had specific criteria that you recruited for, use this space to explain what those were along with other information you feel would be important to understanding your participants._
+Primary criteria (must-haves)
+
+- `Currently have an overpayment debt`
+- `6 on iOS devices` / `6 on Android devices`
+    - Each platform can be a mix of phone and tablet, though tablet users are not required
+- `Be willing to log in to their VA account with their own credentials`
+    - Priority given to those who are willing to share their screens
+
+Secondary criteria (nice-to-haves)
+
+- `A variety of types of overpayment debt among participants`
+- `Participants who have multiple overpayment debts`
 
 
 #### Demographics 
@@ -429,15 +437,15 @@ Gender:
 * Female: 4
 
 LGBTQ+:
-* Transgender: x
-* Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: x
-* Gay, lesbian, or bisexual: x
+* Transgender: unknown
+* Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: unknown
+* Gay, lesbian, or bisexual: unknown
 
 Devices used during study: 
 * Desktop: 0
 * Tablet: 0
 * Smart phone: 6
-* Assistive Technology: x
+* Assistive Technology: 0
 
 Age:
 * 25-34: 0
@@ -457,9 +465,9 @@ Education:
 * Unknown: 0
 
 Geographic location:
-* Urban: x
-* Rural: x
-* Unknown: x
+* Urban: unknown
+* Rural: unknown
+* Unknown: unknown
 
 Race:
 * White: 4
@@ -470,7 +478,7 @@ Race:
 * Native: 0
 
 Disability and Assistive Technology (AT):
-* Cognitive: x
+* Cognitive: unknown
 * AT beginner: 0
 * AT advanced user: 0
 * Desktop screen reader: 0
@@ -496,10 +504,21 @@ _Complete the [VA recruitment checker for marginalized Veteran groups](https://g
 >    - (If Copilot returns an error, try using a different AI model, such as "Claude Sonnet 3.7 Thinking")
 
 This research does not include the perspectives of the following marginalized Veteran groups:
-_List all groups in red from the spreadsheet_
-* Group 1
-* Group 2
-* Group 3
+- Cognitive Disability
+- Rural
+- No degree
+- Other than honorable
+- Immigrant origin
+- Expat (living abroad)
+- Hispanic, Latino, or Spanish origin
+- Biracial
+- Asian
+- Native Hawaiian or other Pacific Islander
+- First Nations (Canada)
+- Native, American Indian or Alaska Native
+- Gay, lesbian, or bisexual
+- Transgender
+- Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman
 
 ### Recruitment of underserved groups in [Study name]
 
