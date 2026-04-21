@@ -21,7 +21,7 @@
 
 
 ## <a name="flows"></a>Navigation/page flows <br>
-<img width="1947" height="735" alt="image" src="https://github.com/user-attachments/assets/d9ffc2c7-7be9-43a5-b082-abb1c1fc9995" />
+<img width="2367" height="887" alt="image" src="https://github.com/user-attachments/assets/65d004bc-c0f6-421a-8726-6c541318bf02" />
 
 
 ## <a name="map"></a>Page structure<br>
