@@ -53,7 +53,7 @@ jobs:
       - name: Optimized checkout for large repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0
           sparse-checkout: |
             .github/workflows/
             scripts/github-actions/
