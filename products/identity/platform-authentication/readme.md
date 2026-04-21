@@ -22,12 +22,12 @@ Platform authentication covers the backend infrastructure, services, and integra
 
 | Component | Description |
 |-----|-------------|
-| [Backend infrastructure](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/login/reference-documents/auth/authentication-and-authorization-simplified.md) | Overview of user authentication and authorization on VA.gov |
+| Backend infrastructure | Overview of user authentication and authorization on VA.gov |
 | [Sign-in Service](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/platform-authentication/sign-in-service/readme.md) | OAuth 2.0 authentication service for VA.gov |
-| [STS integrations](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Products/Service%20Account%20Endpoints/MAP%20STS%20Token.md) | VA services that authenticate with Sign-in Service using the service account authorization flow. |
+| STS integrations | VA services that authenticate with Sign-in Service using the service account authorization flow. |
 | [Security](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/vsp/teams/Identity/Documentation/Security/readme.md) | Logging and monitoring, fraud mitigation, security policies and compliance |
-| [Identity policies](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Policies%20and%20Procedures) | Standards for identity verification on VA.gov |
-| [Unified Sign-in Page](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/vsp/teams/Identity/Product%20Documentation/Unified%20Sign%20in%20Page/readme.md) | Frontend platform experience for signing in to VA online services |
+| [Identity policies](https://depo-platform-documentation.scrollhelp.site/developer-docs/authentication#Authentication-LevelsofAssurance) | Standards for identity verification on the VA.gov platform |
+| Frontend platform | Frontend platform experience for signing in to VA online services |
 
 ---
 
