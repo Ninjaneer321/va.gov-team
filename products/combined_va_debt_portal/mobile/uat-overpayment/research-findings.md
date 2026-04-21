@@ -1,107 +1,143 @@
-<!-----
-
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Debt Portal: Overpayments in mobile app UAT Research Findings"
+product: "Not specified"
+team: "Not specified"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "Not specified"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Emily DeWan - UX Researcher"
+  - "Natasha Huckleberry - UX Desginer"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "We were aiming to confirm whether the Overpayments functionality is fully ready for production release. With all success criteria met, we will proceed with launch and communicate readiness to stakeholders."
+  - "The purpose of this User Acceptance Testing (UAT) study was to verify that all elements of the Overpayments functionality operate as intended for Veterans using real data."
+  - "Specifically, this study validated that Veterans can successfully view, manage, and resolve overpayments using the app, meeting all criteria outlined in the defined user paths."
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "moderated remote User Acceptance Testing (UAT) sessions with Veterans"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 6
+  assistive_technology: 0
+participants_total: 6
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 6
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 3
+    "45-54": 0
+    "55-64": 2
+    "65+": 0
+    unknown: 1
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 0
+    associates: 0
+    bachelors: 2
+    masters: 3
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: "unknown"
+    rural: "unknown"
+    unknown: "unknown"
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 2
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: "unknown"
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - |
+    The Overpayments feature is ready for release; all functional test paths passed with 100% success using live participant data.
+
+    During moderated sessions, Veterans successfully navigated the full lifecycle of overpayment management—from discovery on the home screen to initiating resolution flows (Payment, Dispute, and Help). Because participants used their own credentials, we were able to confirm that the app correctly displays real-world debt details, balances, and history without error.
+
+    - _Supporting data: We tested with 6 Veterans (4 on iOS and 2 and Android) who logged in using their real credentials._
+    - _Supporting data: Participants confirmed the accuracy of personal debt details (e.g., Receivable IDs and Payee numbers) on the "Pay Online" and "Detail" screens._
+  - |
+    UAT Issue (Bug): Copy/paste adds an extra “$” when transitioning to pay.va.gov
+
+    When Veterans copy the payment amount (or dollar value) from the Pay Online screen in the app and paste it into pay.va.gov, the pasted value includes an extraneous dollar sign (“$”), which can require manual cleanup and may cause entry/validation errors.
+
+    - Impact: Adds friction and increases risk of incorrect payment entry.
+  - |
+    UAT Issue (Bug): Spacing issue on details page.
+
+    There was a slight spacing issue on the details page between the card and the accordion.
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "On the "Pay online" screen, remove the dollar sign from the copied text for the balance."
+  - "Reorder the details on the "Pay online" screen to match the sequence of fields on pay.va.gov."
+  - "Provide information on the original cause of the overpayment."
+  - "Clearly communicate the specifics of benefit reductions and repayment plans, including when and by how much."
+  - "Consolidate overpayment-related communications and actions so Veterans can see the full story in one place (across VA.gov and the mobile app)."
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Total number of views and overall app volume"
+  - "Total number of clicks on \"Make a Payment\" and external VA.gov links"
+  - "Total number of error alerts shown to the user"
+  - "Total number of clicks on \"Copy\" buttons"
+  - "Total number of clicks on empty states"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: "Veterans want to easily view and manage their benefit overpayments in the app to understand what they owe and why."
+  business: "Increase debt visibility via the mobile app to ensure Veterans are aware of money owed and can take immediate action."
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Veterans with multiple overpayments: Recruitment did not yield participants with more than one active debt. Further observation is needed to ensure the list and detail views remain clear and manageable for users with a high volume of concurrent overpayments."
+  - |
+    Wider variety of overpayment types: While the app supports various debt categories, testing was limited to the specific debts held by the recruited participants. Further validation is needed for Veterans with other supported debt types to ensure consistent understanding of terminology. This includes:
+        - Post-9/11 GI Bill overpayments (books, supplies, housing, or tuition)
+        - Education Ch 33, Ch 1606, and Ch 30 Kickers
+        - Chapter 34 and Chapter 35 education overpayments
+  - "Error state interactions: Because all participants successfully completed their tasks with 100% accuracy, we were unable to observe how Veterans respond to system-generated error messages or \"service down\" alerts."
+  - "Broader demographic representation: The findings are based on a small UAT sample; future studies could target specific demographics not represented in this round to ensure the feature meets the needs of the entire Veteran population."
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Cognitive Disability"
+  - "Rural"
+  - "No degree"
+  - "Other than honorable"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Hispanic, Latino, or Spanish origin"
+  - "Biracial"
+  - "Asian"
+  - "Native Hawaiian or other Pacific Islander"
+  - "First Nations (Canada)"
+  - "Native, American Indian or Alaska Native"
+  - "Gay, lesbian, or bisexual"
+  - "Transgender"
+  - "Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Previous Study: Mobile App Debt Portal: Overpayments and Copayments Research Findings, September 2025 (link mentioned in report)"
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Finances"
+  - "PRDT: Debt-portal"
+  - "HDW: Smartphone"
+  - "DSP: Content Presentation"
+  - "DSP: Contextual Help"
+  - "DSC: Links"
+  - "DSC: Accordions"
+  - "usability-testing"
+  - "evaluative"
 ---
 
-
-> [!TIP]
-> **Complete the frontmatter section above AFTER you've finished and saved your research findings report below.**
-> 
-> Use the [GitHub Copilot Research Findings Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md) to automatically generate structured metadata from this completed research findings report. The prompt uses natural language processing to extract key findings, participant demographics, recommendations, and apply appropriate research repository tags.
------>
-
----
 
 # Debt Portal: Overpayments in mobile app UAT Research Findings 🚧 🚧 🚧 work in progress
 
