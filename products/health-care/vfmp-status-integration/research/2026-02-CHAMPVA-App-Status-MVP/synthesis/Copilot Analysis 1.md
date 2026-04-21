@@ -196,6 +196,9 @@ I've now read all available participant notes and the main takeaways file. Here 
 
 ## 4. THE 5 WHYS ANALYSIS
 
+>[!NOTE]
+> - _I would not include this section - this content is covered above in a more concise way._
+
 ### Pain Point 1: Cannot find closed CHAMPVA application
 
 - **Surface:** Participants can't find their decided CHAMPVA application
@@ -226,9 +229,6 @@ I've now read all available participant notes and the main takeaways file. Here 
 ---
 
 ## 5. USER JOURNEY INSIGHTS
-
->[!NOTE]
-> - _I would not include this section - this content is covered above in a more concise way._
 
 ### Awareness/Discovery (MyVA Homepage)
 - **Friction:** Some confusion about CHAMPVA being in "Claims and application status" vs. its own section
