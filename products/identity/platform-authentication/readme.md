@@ -27,7 +27,7 @@ Platform authentication covers the backend infrastructure, services, and integra
 | STS integrations | VA services that authenticate with Sign-in Service using the service account authorization flow. |
 | [Security](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/vsp/teams/Identity/Documentation/Security/readme.md) | Logging and monitoring, fraud mitigation, security policies and compliance |
 | [Identity policies](https://depo-platform-documentation.scrollhelp.site/developer-docs/authentication#Authentication-LevelsofAssurance) | Standards for identity verification on the VA.gov platform |
-| Frontend platform | Frontend platform experience for signing in to VA online services |
+| [Frontend platform](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/sign-in-experience#related-components) | Frontend platform components related to the sign-in experience |
 
 ---
 
