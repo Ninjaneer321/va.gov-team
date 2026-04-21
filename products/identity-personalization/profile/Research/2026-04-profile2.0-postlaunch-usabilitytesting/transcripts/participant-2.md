@@ -4,3244 +4,5254 @@ WEBVTT
 
 1 
 
-00:00:02.930 --> 00:00:08.909 
+00:00:01.810 --> 00:00:03.329 
 
-Moderator: Great, and so, I've started recording, just confirming you're comfortable that I record my screen and audio as we talk today? 
+Moderator: Great, there we go. 
 
  
 
 2 
 
-00:00:09.220 --> 00:00:10.010 
+00:00:04.640 --> 00:00:07.009 
 
-Participant 1: Yes. 
+Moderator: Alright, so we've started the recording. 
 
  
 
 3 
 
-00:00:10.590 --> 00:00:15.379 
+00:00:07.440 --> 00:00:16.180 
 
-Moderator: And confirming that you're okay if I use clips to share within internally at the VA. 
+Moderator: Would you be okay with us recording a clip? I mean, sharing a recorded clip from today's session with other VA partners, as long as all identifying information is removed? 
 
  
 
 4 
 
-00:00:15.380 --> 00:00:16.110 
+00:00:16.390 --> 00:00:17.200 
 
-Participant 1: Yes. 
+Participant 2: Yes. 
+
+ 
+
+5 
+
+00:00:17.710 --> 00:00:18.640 
+
+Moderator: Great! 
 
  
 
 6 
 
-00:00:18.830 --> 00:00:27.730 
+00:00:19.000 --> 00:00:24.149 
 
-Moderator: So, starting off with some warm-up questions? How many years have you been using, your iPhone magnifier Zoom? 
+Moderator: Alright, so before we actually look at the website, we want to start with a couple of warm-up questions with you. 
 
  
 
 7 
 
-00:00:29.570 --> 00:00:33.580 
+00:00:24.430 --> 00:00:36.250 
 
-Participant 1: Oh, since I got… since I got the iPhone, which would be ... What… when did they come into existence? 2000… 6, 7… 9… 2009. 
+Moderator: So we talked about what assistive technology you're using today. You're going to be using JAWS, and you're on a laptop, but your JAWS is set up for the desktop. 
+
+ 
+
+8 
+
+00:00:36.960 --> 00:00:37.670 
+
+Participant 2: Here's… 
 
  
 
 9 
 
-00:00:44.020 --> 00:00:45.669 
+00:00:37.670 --> 00:00:38.330 
 
-Moderator: Yeah, I think it was, like, 9 or 10? 
+Moderator: Great. 
 
  
 
 10 
 
-00:00:46.060 --> 00:00:48.250 
+00:00:38.530 --> 00:00:41.899 
 
-Participant 1: The entire time. 
+Moderator: How many years have you been using, a screen reader? 
+
+ 
+
+11 
+
+00:00:43.780 --> 00:00:52.160 
+
+Participant 2: Probably… I'd say probably about… 5 years, probably? 
 
  
 
 12 
 
-00:00:49.360 --> 00:00:53.959 
+00:00:52.160 --> 00:00:52.660 
 
-Moderator: And how would you rate your level of experience with using, your magnifier zoom? 
+Moderator: Okay. 
 
  
 
 13 
 
-00:00:55.440 --> 00:00:58.649 
+00:00:52.660 --> 00:00:54.580 
 
-Participant 1: My level of experience? 
+Participant 2: At least about 5 years. 
 
  
 
 14 
 
-00:01:02.290 --> 00:01:06.780 
+00:00:55.890 --> 00:00:58.540 
 
-Moderator: Like, do you consider yourself a beginner, an intermediate, or an expert? 
+Moderator: And then how would you rate your level of experience? 
 
  
 
 15 
 
-00:01:07.140 --> 00:01:08.380 
+00:00:58.880 --> 00:01:00.419 
 
-Participant 1: an intermediate. 
+Moderator: Using your screen reader. 
 
  
 
 16 
 
-00:01:10.370 --> 00:01:16.589 
+00:01:00.880 --> 00:01:06.079 
 
-Moderator: And… have you ever shared your screen in Zoom while using, the magnifier device? 
+Participant 2: I would say probably maybe about that intermediate, maybe? 
 
  
 
 17 
 
-00:01:16.860 --> 00:01:20.659 
+00:01:07.280 --> 00:01:09.359 
 
-Participant 1: Yes, on one of these calls previously, I've had to do that. 
+Participant 2: Yeah, basic to intermediate. 
+
+ 
+
+18 
+
+00:01:09.800 --> 00:01:11.129 
+
+Moderator: Basic to intermediate? Okay. 
 
  
 
 19 
 
-00:01:22.810 --> 00:01:29.990 
+00:01:12.200 --> 00:01:15.359 
 
-Moderator: So other than today, when was the last time you signed into VA.gov? Best guesses are okay. 
+Moderator: And when or how often do you use your screen reader? 
 
  
 
 20 
 
-00:01:30.200 --> 00:01:32.359 
+00:01:17.860 --> 00:01:23.050 
 
-Participant 1: Oh, it's been within the last week. 
+Participant 2: Anytime I'm on my computer, I have to use my screen reader. 
 
  
 
 21 
 
-00:01:32.630 --> 00:01:33.400 
+00:01:23.050 --> 00:01:24.530 
 
-Moderator: Oh, great. 
+Moderator: Okay, cool. 
 
  
 
 22 
 
-00:01:33.400 --> 00:01:38.470 
+00:01:25.040 --> 00:01:28.820 
 
-Participant 1: Because I have an appointment today, so… At the VA hospital, so… 
+Moderator: So… For how often do you think you get on your computer? 
+
+ 
+
+23 
+
+00:01:30.150 --> 00:01:38.080 
+
+Participant 2: Not much, lately, over the last year, not much, but before… 
 
  
 
 24 
 
-00:01:39.610 --> 00:01:43.940 
+00:01:38.270 --> 00:01:40.969 
 
-Moderator: So you're primarily signing in for healthcare reasons, or is there anything else that you're signing in for? 
+Participant 2: I said about a year ago, almost every day. 
 
  
 
 25 
 
-00:01:45.150 --> 00:01:46.669 
+00:01:40.970 --> 00:01:41.380 
 
-Participant 1: Primarily healthcare. 
+Moderator: Okay. 
+
+ 
+
+26 
+
+00:01:41.380 --> 00:01:44.800 
+
+Participant 2: But, but not as much over the last several months. 
 
  
 
 27 
 
-00:01:48.330 --> 00:01:52.730 
+00:01:44.800 --> 00:01:45.460 
 
-Moderator: Have you ever visited your profile on VA.gov? 
+Moderator: Okay. 
 
  
 
 28 
 
-00:01:52.730 --> 00:01:53.550 
+00:01:46.420 --> 00:01:49.439 
 
-Participant 1: Yes? 
+Moderator: Would you say maybe, like, once a week? 
 
  
 
 29 
 
-00:01:54.040 --> 00:01:55.959 
+00:01:50.140 --> 00:02:00.530 
 
-Moderator: And what for, if you don't. 
+Participant 2: I would say, I'd say maybe about once a week over the last, 
 
  
 
 30 
 
-00:01:55.960 --> 00:02:12.420 
+00:02:00.670 --> 00:02:02.479 
 
-Participant 1: Well, my husband is my dependent, and he's on Champ VA, and so I visit my profile to make sure that everything is up to date, and also, every time I go to the VA hospital, they never… they've never updated my emergency contact, and I always check that, and for some reason, it's… Still not in there, so… 
+Participant 2: Over the last month or so. 
+
+ 
+
+31 
+
+00:02:02.480 --> 00:02:03.100 
+
+Moderator: Okay. 
+
+ 
+
+32 
+
+00:02:03.640 --> 00:02:08.389 
+
+Moderator: Have you ever shared your screen in Zoom while you were using your screen reader? 
 
  
 
 33 
 
-00:02:17.940 --> 00:02:22.729 
+00:02:09.270 --> 00:02:14.070 
 
-Moderator: What actions do you expect to be able to complete in your profile? 
+Participant 2: It's been a long time ago, so you'll have to remind me how to do that. 
 
  
 
 34 
 
-00:02:25.740 --> 00:02:31.969 
-
-Participant 1: What actions do I expect to be able to complete? Well, I would expect to be able to complete my emergency contact. To change my address. If I needed to. 
-
- 
-
-39 
-
-00:02:43.380 --> 00:02:52.790 
-
-Moderator: That's all I had. Thank you so very much. We're gonna switch over to looking at the website. 
-
- 
-
-[Signs into VA.gov and shares screen.] 
-
- 
-
-61 
-
-00:05:15.090 --> 00:05:24.060 
-
-Moderator: Great. So… Well, we're going to imagine you've come to VA.gov to manage your email and text notifications. Please go to where you would expect to manage your email and text notifications on the website. 
-
- 
-
-63 
-
-00:06:14.510 --> 00:06:15.360 
-
-Participant 1: There we go. 
-
- 
-
-65 
-
-00:06:17.810 --> 00:06:21.939 
-
-Moderator: What are your thoughts on navigating to the profile once you were signed in? 
-
- 
-
-66 
-
-00:06:23.390 --> 00:06:25.149 
-
-Participant 1: It's pretty easy. 
-
-My first inclination is to go to the menu. 
-
-To look for a drop-down. 
-
-But… I'll do that every single time, and then realize it's actually under my name, so… 
-
-That's not something that I easily remember. 
-
- 
-
-71 
-
-00:06:44.150 --> 00:06:44.680 
-
-Moderator: Oh! What draws you to the menu? 
-
-Instead of the… your name. I'm just curious. 
-
- 
-
-74 
-
-00:06:50.960 --> 00:06:59.169 
-
-Participant 1: I would… I would think that it would be explanatory, and have a list of… have a list of… of, tasks that I could accomplish. 
-
- 
-
-[Troubleshooting video.] 
-
- 
-
-93 
-
-00:08:12.350 --> 00:08:21.000 
-
-Moderator: Perfect. So stay here for a moment, and I'm gonna ask you a few questions from this page, and then we'll dive deeper into the individual sections. 
-
- 
-
-94 
-
-00:08:21.390 --> 00:08:22.150 
-
-Participant 1: Okay. 
-
- 
-
-95 
-
-00:08:22.340 --> 00:08:28.629 
-
-Moderator: I'm gonna ask you, where you would expect to find certain information without having you navigate away. 
-
- 
-
-96 
-
-00:08:28.850 --> 00:08:29.570 
-
-Participant 1: Okay. 
-
- 
-
-97 
-
-00:08:29.570 --> 00:08:38.939 
-
-Moderator: So we're gonna start with, where would you expect to find a copy of your DD214, which is your discharge paperwork from the Department of Defense? Sure. 
-
- 
-
-98 
-
-00:08:46.380 --> 00:08:48.610 
-
-Participant 1: service history information. 
-
- 
-
-100 
-
-00:08:53.850 --> 00:08:56.730 
-
-Moderator: Where would you expect to find your direct deposit information? 
-
- 
-
-101 
-
-00:08:59.610 --> 00:09:01.310 
-
-Participant 1: Financial information. 
-
- 
-
-103 
-
-00:09:03.000 --> 00:09:07.599 
-
-Moderator: If you have one, where would you expect to find information about your disability rating? 
-
- 
-
-104 
-
-00:09:09.260 --> 00:09:11.269 
-
-Participant 1: Service history information. 
-
- 
-
-106 
-
-00:09:13.230 --> 00:09:16.559 
-
-Moderator: Where would you expect to find your years of military service? 
-
- 
-
-107 
-
-00:09:17.500 --> 00:09:19.499 
-
-Participant 1: Service history information. 
-
- 
-
-108 
-
-00:09:20.420 --> 00:09:24.320 
-
-Moderator: Where would you expect to find healthcare email and text notifications? 
-
- 
-
-109 
-
-00:09:24.910 --> 00:09:26.220 
-
-Participant 1: healthcare settings. 
-
- 
-
-110 
-
-00:09:28.480 --> 00:09:40.739 
-
-Moderator: you put DD214, disability rating, and years of military service under service history information. Why is that? 
-
- 
-
-111 
-
-00:09:42.130 --> 00:09:47.970 
-
-Participant 1: Well, my DD214 was when I was discharged, so that would, you know, that's an historical event. I would expect, actually, to see those under, also, letters and documents. 
-
- 
-
-114 
-
-00:09:57.740 --> 00:10:00.370 
-
-Moderator: What would you expect to find in the healthcare settings section? 
-
- 
-
-115 
-
-00:10:02.500 --> 00:10:10.730 
-
-Participant 1: My appointments, physic[name]s' names, contact, Locations of the facilities. medications, any, any history of my visits to the VA? 
-
- 
-
-117 
-
-00:10:25.110 --> 00:10:28.600 
-
-Moderator: And what would you expect to find in the dependents and Contact section? 
-
- 
-
-118 
-
-00:10:29.110 --> 00:10:37.939 
-
-Participant 1: My husband's name, his information, his phone numbers, my phone numbers, all of our addresses. birthdays. 
-
- 
-
-120 
-
-00:10:46.110 --> 00:10:50.990 
-
-Moderator: Great. Is there any information missing that you would expect to find on this page? That is not here. 
-
- 
-
-122 
-
-00:11:00.440 --> 00:11:01.650 
-
-Participant 1: No. 
-
- 
-
-123 
-
-00:11:03.650 --> 00:11:08.030 
-
-Moderator: And do you have any feedback on the order of information of this page? Is there anything you'd want to change around? 
-
- 
-
-125 
-
-00:11:13.140 --> 00:11:17.180 
-
-Participant 1: Mmm… it could be in alphabetical order, but… 
-
-I know everybody looks for things differently. 
-
-This is pretty easy to navigate. 
-
-You just have to scroll down through it and keep looking for what you're wanting. 
-
- 
-
-130 
-
-00:11:38.430 --> 00:11:50.370 
-
-Moderator: Now we're going to go section to section to gather some feedback. I do want to note before we dive in any further, there are pages with some personal information on them. Are you comfortable sharing those pages, or do you want me to skip those ones? 
-
- 
-
-131 
-
-00:11:50.370 --> 00:11:51.569 
-
-Participant 1: I'm fine with it. 
-
- 
-
-132 
-
-00:11:51.760 --> 00:11:52.430 
-
-Moderator: Okay. So we're gonna start with the personal information page. 
-
- 
-
-134 
-
-00:11:56.900 --> 00:11:59.130 
-
-Participant 1: Okay, do you want me to tap on it and open it? 
-
- 
-
-135 
-
-00:11:59.130 --> 00:12:00.030 
-
-Moderator: Yes, please. 
-
- 
-
-136 
-
-00:12:03.620 --> 00:12:04.430 
-
-Participant 1: Okay. 
-
- 
-
-137 
-
-00:12:04.620 --> 00:12:06.810 
-
-Moderator: And take a moment to review. Is there anything missing on this page, or that you would want to change? 
-
- 
-
-139 
-
-00:12:22.010 --> 00:12:22.850 
-
-Participant 1: No. 
-
- 
-
-140 
-
-00:12:25.220 --> 00:12:32.350 
-
-Moderator: Previously, you had mentioned that you expected disability rating to be in service history. I was just wondering what you think of it being here. 
-
- 
-
-141 
-
-00:12:33.680 --> 00:12:34.780 
-
-Participant 1: It's fine. 
-
-I… I would expect for it to be in… I would… I would not look here first for my personal… for my disability rating, though. 
-
- 
-
-143 
-
-00:12:48.400 --> 00:12:50.900 
-
-Moderator: Gotcha. You would look instead in service history. 
-
- 
-
-144 
-
-00:12:51.120 --> 00:12:52.680 
-
-Participant 1: Or… yes. 
-
-You know, this is actually… your disability rating is actually repeated several places. 
-
- 
-
-146 
-
-00:13:02.330 --> 00:13:03.530 
-
-Moderator: Where else is it repeated? 
-
- 
-
-147 
-
-00:13:04.010 --> 00:13:20.060 
-
-Participant 1: I believe that it's also in your… in your medical setting, your health and history setting, because depending on what your rating is, is what your ability is to use the VA for services. For instance, if you're not at 100%, you don't get dental and vision. 
-
- 
-
-150 
-
-00:13:23.180 --> 00:13:25.289 
-
-Moderator: Today I learned, I did not know that. 
-
- 
-
-151 
-
-00:13:26.660 --> 00:13:32.390 
-
-Moderator: Is there any information you'd want to edit on this page, or are you okay with it being view-only? 
-
- 
-
-152 
-
-00:13:35.730 --> 00:13:37.739 
-
-Participant 1: Let's see… 
-
-Well, I'm not going to need to change my date of birth. 
-
-I can edit if my name was to change. 
-
-No, I'm good with this. 
-
- 
-
-157 
-
-00:13:56.270 --> 00:14:04.470 
-
-Moderator: Next, we're going to go to Service History Information. Can you navigate to Service History Information, please? 
-
-And then, by the way, this is gonna be, about the same thing for each one, so take a moment to review and let me know if, is this everything you expected to see? Is there anything missing from this page? 
-
- 
-
-159 
-
-00:14:22.180 --> 00:14:24.800 
-
-Participant 1: No, and there's my DE Form 214. 
-
-how you can request it. 
-
-No, this is… 
-
-This is good. 
-
- 
-
-165 
-
-00:14:56.130 --> 00:14:59.820 
-
-Moderator: How would you expect to update your periods of service? 
-
- 
-
-166 
-
-00:15:01.470 --> 00:15:03.930 
-
-Participant 1: There would be no need to do that. 
-
- 
-
-167 
-
-00:15:04.140 --> 00:15:04.820 
-
-Moderator: Oh, okay. 
-
-So what you're seeing here is correct. 
-
- 
-
-169 
-
-00:15:12.120 --> 00:15:24.290 
-
-Participant 1: Mine is correct. It gives you, up at the top, it asks if you don't think your military service information is correct, and you can tap on that, and there's a phone call, a phone number that you can call. 
-
-And, but, my military service is correct, so… 
-
-There… there would be no need for me to do that. 
-
-And by the time you got to where you were using VA.gov, you would have been through the entire process of receiving your disability. 
-
-This… this… you shouldn't be at this point where you're using this website in your military service, your periods of service is incorrect. 
-
- 
-
-176 
-
-00:16:02.530 --> 00:16:04.800 
-
-Moderator: Can you expand on that for a moment, please? 
-
- 
-
-177 
-
-00:16:05.040 --> 00:16:13.080 
-
-Participant 1: Well, to get… to be… to be using VA.gov, and going in here to navigate your… your… 
-
-your pay, your personal information. You would have already either gone through your retirement. 
-
-Process, and you would have gone to all of your appointments that are required when you retire, or if you 
-
-have… are receiving disability, that… there's a process, and you would have… your DD214 would have been reviewed multiple times, and you would have had to look at it multiple times before you got to the point where you were on this website. 
-
-And your periods of service were incorrect. So that… that should be… by the time you're using this website, your periods of service would have been looked at no less than 5, 6, 7, 8 times. 
-
-It would have been under review multiple times before you were at the point before that you were using this website. 
-
- 
-
-183 
-
-00:17:10.819 --> 00:17:12.459 
-
-Moderator: Good to know, thank you for sharing. 
-
-I'm, I'm still learning some of these things, so it's good to understand that perspective. 
-
- 
-
-186 
-
-00:17:21.709 --> 00:17:28.839 
-
-Moderator: Next we're gonna go to healthcare settings. Can you navigate to healthcare settings, please? 
-
- 
-
-187 
-
-00:17:29.190 --> 00:17:29.990 
-
-Participant 1: Okay. 
-
- 
-
-188 
-
-00:17:32.620 --> 00:17:36.479 
-
-Moderator: Now, before you were mentioning that this page would have 
-
-all of your medical records, your healthcare coverage, your doctor. 
-
-But you notice, this is a little different. What are your thoughts on that? 
-
- 
-
-191 
-
-00:17:47.960 --> 00:17:58.659 
-
-Participant 1: Well, because I use… I… you know, I knew that… I knew that, my eVet was… HealthyVet was gonna go to the VA.gov website. I expected this. 
-
-So, you know, to me, this is just a link now. 
-
-To go to my healthy vet. 
-
-So, I'm… I'm good with this. 
-
-And I was just in here this morning, and it functions as it should. 
-
- 
-
-198 
-
-00:18:25.650 --> 00:18:31.219 
-
-Moderator: Is there anything missing from here that you would want to see, or is this… Meeting your expectations. 
-
- 
-
-199 
-
-00:18:31.220 --> 00:18:41.969 
-
-Participant 1: Well, if I wasn't as familiar as I am with this website, when I clicked on healthcare settings, I may expect it to 
-
-Have my medical record here. 
-
-And, you know, not be… not be a link to My HealthyVet. 
-
-But, 
-
-And I always… and, you know, if we're just talking about me personally, I made myself aware of this. 
-
-when I first got my disability, I… I got on the… I got on these websites, and, you know, it… 
-
-Being [##] years old, I have to… 
-
-Remind myself of how to use this, and stay caught up on how to use it. 
-
-So… 
-
-Someone who is not computer savvy may have some difficulty when they open this and expect to see their medical record, and then they've got another link to go into. 
-
-My dad's [##] years old. If he didn't have me, there's no way, no way he could manage his VA. 
-
-disability, and his VA retirement, and his, and his, military retirement, on the computer. 
-
-So, it would be impossible. 
-
- 
-
-213 
-
-00:20:01.670 --> 00:20:04.040 
-
-Moderator: Well, thank you for supporting him, and… 
-
-He's lucky to have you, too. 
-
- 
-
-215 
-
-00:20:06.680 --> 00:20:07.225 
-
-Participant 1: Yes! 
-
- 
-
-216 
-
-00:20:10.540 --> 00:20:14.650 
-
-Moderator: The next section we're gonna go to is financial information. 
-
- 
-
-217 
-
-00:20:14.850 --> 00:20:15.540 
-
-Participant 1: Okay. 
-
-to my profile here. Okay. 
-
-Financial information, and you want me to tap on that? 
-
- 
-
-220 
-
-00:20:25.590 --> 00:20:26.610 
-
-Moderator: Yes, please. 
-
- 
-
-221 
-
-00:20:26.790 --> 00:20:27.470 
-
-Participant 1: Okay. 
-
- 
-
-222 
-
-00:20:29.900 --> 00:20:33.570 
-
-Moderator: Is there anything missing from this section that you would expect to see? 
-
- 
-
-223 
-
-00:20:35.330 --> 00:20:44.190 
-
-Participant 1: Posted information, payment history… No… No. 
-
-There, there really isn't. 
-
- 
-
-225 
-
-00:20:53.920 --> 00:20:57.209 
-
-Moderator: I was gonna say, there was a questioning inflection there, so I'm just confirming? 
-
- 
-
-226 
-
-00:20:57.210 --> 00:21:02.680 
-
-Participant 1: Well, you know, I'm hearkening back to when we got mailed checks to our houses, but… 
-
- We really don't want to do that anymore. So, you know, there doesn't need to be a place anymore for you to update your address or anything, for a check to be mailed to your house. 
-
-That's… so that's what you were hearing. 
-
-I had to catch up with the 20… 21st… what century is this now that we're living in? 
-
- 
-
-231 
-
-00:21:32.320 --> 00:21:39.919 
-
-Moderator: If you were to update your direct deposit information in Profile, would you expect it to update across all VA entities? 
-
- 
-
-232 
-
-00:21:40.210 --> 00:21:41.090 
-
-Participant 1: Yes. 
-
-I would. 
-
-But I would know better. I would double check it. Because, once again, they still do not have my emergency contact in my profile, or anywhere else. They can see it when I go to the hospital, because I ask every time, but it's never shown up in here. So, I would expect it, yes. 
-
- 
-
-[Lost screenshare. Troubleshooting technology.] 
-
- 
-
-287 
-
-00:24:54.490 --> 00:25:00.280 
-
-Moderator: Great. We're going to go to… can you navigate to Dependents and Contacts, please? 
-
- 
-
-288 
-
-00:25:00.750 --> 00:25:01.790 
-
-Participant 1: Yes. 
-
-Got it. 
-
- 
-
-290 
-
-00:25:11.660 --> 00:25:13.529 
-
-Moderator: What do you think of this content here? 
-
- 
-
-295 
-
-00:25:33.460 --> 00:25:35.460 
-
-Participant 1: Let's see… 
-
-I actually drove to [city]to pick up my paperwork, so I didn't have to… and here's my husband. 
-
-[spouses name], he's my spouse. 
-
-And see, there would be no re… I don't have any children, so there would be no reason for me to ever have to… 
-
-go into this unless, God forbid, my husband was to pass away. 
-
-To add or remove a parent. 
-
-So… Okay. See, I'm… none of these are ever going to apply to me. 
-
-I may become a… I'm not going to be a caregiver for one of my parents. They're… if something was to happen to them, we have other plans. 
-
-For them to go someplace else. And my dad would go to the VA center. 
-
-So, and my mother could never come here. She's got severe [medical], so there's no way that I could take care of her, so… I mean, that's… it's not gonna happen. So none of these things would ever apply to me. 
-
- 
-
-[Personal conversation about medical.] 
-
- 
-
-317 
-
-00:27:26.380 --> 00:27:31.749 
-
-Moderator: What are your thoughts on having your accredited representative, your VSO, be under your dependents and contacts? 
-
- 
-
-318 
-
-00:27:33.600 --> 00:27:44.629 
-
-Participant 1: Well, that's interesting, because when I was opening that up, I was thinking, why would I ever need this? But I guess if something were to happen to me, someone ... 
-
-You know, I'm not sure… I'm not sure about that. I'm gonna have to think about that, because if something were to happen to me, I would just have my husband just go right down here, less than a mile from our house to 36th Street, and park himself in a chair, and let them guide him through everything. 
-
-So, I'm… I don't… I don't… I'm not sure where… what situation would arise that I would need to know that. me, personally. So, I don't know that I have thoughts on it. 
-
- 
-
-323 
-
-00:28:20.180 --> 00:28:25.459 
-
-Moderator: Did you expect to… like, was that VSO information correct? Do you remember signing up for that? 
-
- 
-
-324 
-
-00:28:25.460 --> 00:28:29.590 
-
-Participant 1: Okay. Well, it… that… okay, let's go back to that. 
-
-Yeah, so… Okay. 
-
-Yes… This is correct. I did go to [city]to pick up all of my paperwork. 
-
-And… as… as far as I know, 
-
-They are… this is… that's the place where all my, disability documentation originated, but… I do have… 
-
-just right here by my house, a VA organization where I go to do everything for me and my father. 
-
-So that's… and I've never delved very deep into this. 
-
-Yeah, because I would consider the people on 36th Street, they actually take care of… they… they actually take care of me. So, I may need to change this, because [city], mmm, 3 hours from my house. 
-
- 
-
-335 
-
-00:29:49.430 --> 00:29:50.300 
-
-Moderator: Oh, wow. 
-
- 
-
-336 
-
-00:29:52.270 --> 00:29:53.170 
-
-Participant 1: Yes. 
-
- 
-
-337 
-
-00:29:55.390 --> 00:29:58.280 
-
-Moderator: So you would expect that address to be your local chapter. 
-
- 
-
-338 
-
-00:29:58.280 --> 00:30:00.759 
-
-Participant 1: Yes, yes, yes. 
-
- 
-
-340 
-
-00:30:06.950 --> 00:30:09.969 
-
-Moderator: Anything else about dependents and contacts before we move on? 
-
- 
-
-341 
-
-00:30:10.960 --> 00:30:13.390 
-
-Participant 1: Dependents and contacts, no. 
-
- 
-
-343 
-
-00:30:14.160 --> 00:30:18.880 
-
-Moderator: We're… We're gonna go now to letters and documents, please. 
-
- 
-
-344 
-
-00:30:19.090 --> 00:30:19.780 
-
-Participant 1: Okay. 
-
- 
-
-346 
-
-00:30:28.930 --> 00:30:32.019 
-
-Moderator: Is there anything missing from here that you would expect to see? 
-
- 
-
-347 
-
-00:30:36.540 --> 00:30:45.949 
-
-Participant 1: Documents. Billing address, benefits letters, Service, proof of service card, commissary letter, creditable prescription. 
-
-Civil service, preference letter, verification, I mean, benefit verification, foreign medical program, enrollment letter. 
-
-No, it looks pretty good. Documentation… 
-
-post all the MGI Bill statements, which, that doesn't… that doesn't refer to me, so… home loan benefits to… we don't have these documents available here yet. 
-
-Get them through these links. That looks pretty good. 
-
-Okay. I mean, they tell you that 
-
-There… there is… they are not found on this page, but if you need these things, Which… 
-
-The only thing that would apply to me would be… 
-
-DD 214, because I never… 
-
-I'm living in the home I'm gonna die in. I'm… 
-
-don't need a GI Bill letter, and I don't need any VA education letters. 
-
-So… And… I keep my foreign medical program enrollment letter in my passport. 
-
-This looks pretty good, as it refers to me. 
-
- 
-
-361 
-
-00:32:00.800 --> 00:32:08.620 
-
-Moderator: And then the last section we're going to go to is email and text notifications. We're actually gonna look down that page now, so if you can navigate Back to email and text notifications. 
-
- 
-
-363 
-
-00:32:14.080 --> 00:32:17.670 
-
-Participant 1: Let's see… Under profile? 
-
-Oops. 
-
-There we go. 
-
- 
-
-366 
-
-00:32:28.320 --> 00:32:36.270 
-
-Moderator: Alright, and then take a moment to review this page and just let me know, is there anything missing you would expect to see, or anything here that you didn't expect to see? 
-
- 
-
-367 
-
-00:32:38.370 --> 00:32:54.970 
-
-Participant 1: Well, I would expect… for my… spouse's information… To… be here somewhere, because…  
-
-Because, you know, at any second, you can become unable to manage your own affairs. 
-
-And… He would have to be the contact for any of that. 
-
-So, I would think that that should be somewhere on here. 
-
- 
-
-371 
-
-00:33:21.780 --> 00:33:30.880 
-
-Moderator: So, just confirming my understanding, you're wanting to be able to add a second set of contact information to your notifications, so. 
-
-Something were to happen. 
-
-Okay, someone else can get them. Okay. 
-
- 
-
-376 
-
-00:33:35.470 --> 00:33:41.670 
-
-Participant 1: Yes, and the reason I say that is because we're, you know, we are older, And… 
-
-We're medical people. My husband's a physic[name]. I'm an x-ray technologist. 
-
-So… We know from… Our experience that you could… something could happen to you at any moment, and… 
-
-That you should have it in place so that there's someone that can run your business, and there should be someone that can be contacted 
-
-on your behalf. 
-
-So, I would think that that would need to be here, somewhere. 
-
-You know, that… and if they are sending me correspondence and they don't reach me and don't get an answer in, you know, a certain amount of time, they should move down the line and try to… and contact my husband and figure out why. 
-
-But I may be delving too deep into this. 
-
- 
-
-385 
-
-00:34:40.679 --> 00:34:42.089 
-
-Moderator: No, that's great to know. 
-
-So… At the top of the page, there is something called Related Pages menu. 
-
- 
-
-387 
-
-00:34:51.909 --> 00:34:52.739 
-
-Participant 1: Yes. 
-
- 
-
-388 
-
-00:34:52.739 --> 00:34:54.879 
-
-Moderator: I noticed you didn't interact with that, I was wondering. 
-
-Why or why? 
-
- 
-
-391 
-
-00:34:56.760 --> 00:34:59.630 
-
-Participant 1: You know why? Because I skipped right over the top of it. 
-
- 
-
-392 
-
-00:34:59.630 --> 00:35:00.550 
-
-Moderator: Oh, okay. 
-
-Is there a way that we could have called this out to you better? 
-
- 
-
-394 
-
-00:35:07.790 --> 00:35:14.079 
-
-Participant 1: Let me back up out of the profile, and then go back into this, 
-
-We were in dependents and contacts, correct? No, no, no, we already did that. Tell me where we were again. 
-
- 
-
-396 
-
-00:35:25.810 --> 00:35:29.140 
-
-Moderator: We were just in email and text notifications, but you can go into any page. 
-
- 
-
-397 
-
-00:35:29.310 --> 00:35:30.640 
-
-Participant 1: Text notifications. 
-
-Okay, so why am I skipping over the top of that? 
-
-Related pages menu. 
-
-Hmm… You know why I'm skipping over the top of that? Yeah. Because it's… 
-
-In very small print, and my eye is going right over the top of that related pages menu, and that plus sign, and going straight to the large print email… large font email and text notifications. 
-
- 
-
-402 
-
-00:36:02.310 --> 00:36:03.400 
-
-Participant 1: That's fine. 
-
- 
-
-403 
-
-00:36:07.150 --> 00:36:09.569 
-
-Moderator: Is there something that we could call it instead? 
-
- 
-
-405 
-
-00:36:12.360 --> 00:36:22.529 
-
-Participant 1: You know, I don't think that it's the wording. I think that it's the way it's presented on the page that's not drawing my attention to it. 
-
- 
-
-406 
-
-00:36:22.770 --> 00:36:23.320 
+00:02:14.070 --> 00:02:14.560 
 
 Moderator: Okay. 
 
  
 
-407 
+35 
 
-00:36:24.950 --> 00:36:28.540 
+00:02:14.560 --> 00:02:15.839 
 
-Participant 1: I think maybe that if… If the font 
-
- 
-
-408 
-
-00:36:29.530 --> 00:36:42.200 
-
-Participant 1: You know, I like the fact that it's highlighted in a different color, and then it has the plus sign, because understanding how you use the computer, you know that that plus sign is going to expand a menu. 
+Participant 2: have in the past. 
 
  
 
-409 
+36 
 
-00:36:43.210 --> 00:36:54.760 
+00:02:16.220 --> 00:02:18.879 
 
-Participant 1: But the print is small, So, I… Go right past it to… Email and text notifications, because 
-
- 
-
-410 
-
-00:36:55.920 --> 00:36:58.670 
-
-Participant 1: That's what I was looking for when I opened this up. 
+Moderator: We have here to support us. 
 
  
 
-411 
+37 
 
-00:36:59.880 --> 00:37:06.300 
-
-Participant 1: And… So maybe… Related pages menu. 
-
- 
-
-412 
-
-00:37:09.540 --> 00:37:13.340 
-
-Participant 1: And that's actually on every one of these links, isn't it? 
-
- 
-
-413 
-
-00:37:15.230 --> 00:37:24.319 
-
-Participant 1: That's interesting now that you've pointed that out, because that's why I am skipping right over the top of it. So, it needs to… something needs to happen there that… 
-
- 
-
-414 
-
-00:37:26.270 --> 00:37:28.680 
-
-Participant 1: Maybe it… maybe… 
-
- 
-
-415 
-
-00:37:31.930 --> 00:37:35.879 
-
-Participant 1: you know, and I'm… I'm factoring my age in here. 
-
- 
-
-416 
-
-00:37:38.000 --> 00:38:01.779 
-
-Participant 1: Why… okay, let me ask this question. Why is this on every link? Is it just so that you can go back… so that you don't have to go back out of the profile, that you can stay on this link, and then this, you know, and so that you can just go back up to Related Pages menu and expand it, and then you can just continue moving forward without going back and forth? 
-
- 
-
-417 
-
-00:38:01.780 --> 00:38:05.349 
-
-Participant 1: into the profile? Is that why this was done this way? 
-
- 
-
-418 
-
-00:38:06.670 --> 00:38:09.589 
-
-Moderator: Is that how you… like, the reason why you expect it to be there? 
-
- 
-
-419 
-
-00:38:09.760 --> 00:38:19.500 
-
-Participant 1: Yes, that's… that's… now that… now that I'm paying attention to it, yes, because I can see that I don't have to move back and forth into the profile, that this is 
-
- 
-
-420 
-
-00:38:19.700 --> 00:38:22.560 
-
-Participant 1: This is, a shortcut. 
-
- 
-
-421 
-
-00:38:23.860 --> 00:38:27.900 
-
-Participant 1: 2… a shortcut to everything that I need to get to. 
-
- 
-
-422 
-
-00:38:30.920 --> 00:38:38.300 
-
-Participant 1: Interesting. Yeah, that… something needs to happen there, but right off the top of my head, I'm not coming up with anything creative. 
-
- 
-
-423 
-
-00:38:40.120 --> 00:38:44.749 
-
-Moderator: And that's why we test these things, to get feedback, so that we can come up with alternative options. 
-
- 
-
-424 
-
-00:38:44.940 --> 00:38:45.700 
-
-Participant 1: Yeah. 
-
- 
-
-425 
-
-00:38:45.700 --> 00:38:46.220 
+00:02:19.080 --> 00:02:20.050 
 
 Moderator: Yeah. 
 
  
 
+38 
+
+00:02:20.050 --> 00:02:22.639 
+
+Participant 2: Yeah, she'll have to… 
+
+ 
+
+39 
+
+00:02:23.480 --> 00:02:23.970 
+
+Moderator: Okay. 
+
+ 
+
+40 
+
+00:02:23.970 --> 00:02:25.209 
+
+Participant 2: Do that, yeah. 
+
+ 
+
+41 
+
+00:02:26.450 --> 00:02:35.180 
+
+Moderator: Alrighty, so we're now gonna get started. Thank you so much for telling me about your experience and, your experience with Screen Reader as well. 
+
+ 
+
+42 
+
+00:02:35.820 --> 00:02:40.400 
+
+Moderator: So we're now gonna go over to VA.gov, hopefully you're not kicked out. 
+
+ 
+
+43 
+
+00:02:40.660 --> 00:02:45.849 
+
+Moderator: And, start sharing your screen in Zoom. 
+
+ 
+
+[Set up Zoom screen share.] 
+
+ 
+
+78 
+
+00:06:14.340 --> 00:06:23.169 
+
+Moderator: All right, so for the first thing we want to do today is we want to have you imagine you've come to VA.gov to manage your email. 
+
+ 
+
+79 
+
+00:06:23.310 --> 00:06:26.230 
+
+Moderator: And text notifications. 
+
+ 
+
+80 
+
+00:06:27.340 --> 00:06:36.719 
+
+Moderator: Please go… To where you would expect to manage them. 
+
+ 
+
+81 
+
+00:06:56.030 --> 00:06:59.190 
+
+Moderator: And then if you can talk out loud about what you're doing, that'd be great. 
+
+ 
+
+82 
+
+00:06:59.800 --> 00:07:02.500 
+
+Participant 2: Oh, okay, sorry. 
+
+ 
+
+83 
+
+00:07:03.320 --> 00:07:17.660 
+
+Participant 2: So what I did is, I went to insert F7, which gives me the links list that's on the website, and what I was listening for first was profile. I didn't hear it, so I'm gonna go to the home. 
+
+ 
+
+84 
+
+00:07:23.840 --> 00:07:26.139 
+
+Participant 2: I'm going to VA.gov home. 
+
+ 
+
+85 
+
+00:07:39.340 --> 00:07:41.490 
+
+Moderator: I wonder if we're seeing the right screen. 
+
+ 
+
+86 
+
+00:07:42.280 --> 00:07:44.629 
+
+Moderator: Have you navigated to the home? 
+
+ 
+
+87 
+
+00:07:50.380 --> 00:07:51.130 
+
+Moderator: Okay. 
+
+ 
+
+88 
+
+00:07:51.590 --> 00:07:52.560 
+
+Moderator: Okay, okay. 
+
+ 
+
+89 
+
+00:08:09.490 --> 00:08:10.960 
+
+Participant 2: Okay, so… 
+
+ 
+
+90 
+
+00:08:16.570 --> 00:08:18.689 
+
+Participant 2: Okay, so I'm at home. 
+
+ 
+
+91 
+
+00:08:19.320 --> 00:08:22.150 
+
+Participant 2: And now I'm just listening for, 
+
+ 
+
+92 
+
+00:08:22.380 --> 00:08:25.800 
+
+Participant 2: If I hear anything that says profile, or… 
+
+ 
+
+93 
+
+00:08:50.280 --> 00:08:54.560 
+
+Participant 2: Okay, sun, here, there, so I'm gonna go back to my list. 
+
+ 
+
+94 
+
+00:09:04.360 --> 00:09:05.700 
+
+Participant 2: Okay, so here… 
+
+ 
+
+95 
+
+00:09:06.330 --> 00:09:08.589 
+
+Moderator: What page does it say you're on right now? 
+
+ 
+
+96 
+
+00:09:09.300 --> 00:09:14.210 
+
+Participant 2: So… what I did was, 
+
+ 
+
+97 
+
+00:09:17.020 --> 00:09:30.339 
+
+Participant 2: Okay, so I did the insert F7 again once I got to my home, and the bell is, our dog in the background, so… So I know where he is. But, 
+
+ 
+
+98 
+
+00:09:30.550 --> 00:09:37.060 
+
+Participant 2: the, I went to InsideF7 again to bring up my links once I went to the homepage. 
+
+ 
+
+99 
+
+00:09:37.410 --> 00:09:42.119 
+
+Participant 2: I brought up Insert F7, that brings up all of the links on the page. 
+
+ 
+
+100 
+
+00:09:42.520 --> 00:09:57.469 
+
+Participant 2: And then I arrowed down until I heard something, you know, change address, or email, or profile, or something like that, and I heard it say, change, address, and email, or something like that. And then that's what I hit enter on. 
+
+ 
+
+101 
+
+00:09:57.680 --> 00:10:11.760 
+
+Participant 2: Because that's probably where my phone number and other stuff is gonna be. So, that's what I did. And so now, I'll just insert T so you can hear where I am, since you were asking what page it says. 
+
+ 
+
+102 
+
+00:10:15.870 --> 00:10:19.769 
+
+Participant 2: Is my jaws too quick, or do I need to slow it down a little bit for you, or is it okay? 
+
+ 
+
+103 
+
+00:10:19.770 --> 00:10:22.349 
+
+Moderator: Oh. We… we can't hear it, actually. 
+
+ 
+
+104 
+
+00:10:22.630 --> 00:10:25.839 
+
+Participant 2: Oh, you can't hear my jaws. Oh. 
+
+ 
+
+105 
+
+00:10:28.910 --> 00:10:31.840 
+
+Participant 2: I forget, though, with the headphones that are. 
+
+ 
+
+106 
+
+00:10:33.450 --> 00:10:36.990 
+
+Participant 2: Your default speaker, change to speakers left per RN2, we all take left per NR right-hand 
+
+ 
+
+107 
+
+00:10:38.940 --> 00:10:40.780 
+
+Participant 2: Okay, is that better? 
+
+ 
+
+108 
+
+00:10:40.780 --> 00:10:42.110 
+
+Moderator: Oh yeah, we can hear it now. 
+
+ 
+
+109 
+
+00:10:42.350 --> 00:10:48.999 
+
+Participant 2: Okay, so, is that too fast? What I was saying is. 
+
+ 
+
+110 
+
+00:10:52.140 --> 00:10:58.260 
+
+Moderator: As long as you can understand it, and, like, let us know what you're doing, I think that's great. Okay. Yeah. 
+
+ 
+
+111 
+
+00:10:58.260 --> 00:11:05.360 
+
+Participant 2: Okay, so it's, so I'm on my contact information, and now you said you wanted me to, 
+
+ 
+
+112 
+
+00:11:05.570 --> 00:11:11.390 
+
+Participant 2: as if I'm gonna… update my phone number to receive text messages from the VA? 
+
+ 
+
+113 
+
+00:11:11.390 --> 00:11:15.719 
+
+Moderator: just manage your email and text notifications. We would expect to do that. 
+
+ 
+
+114 
+
+00:11:16.190 --> 00:11:16.780 
+
+Participant 2: Okay. 
+
+ 
+
+115 
+
+00:11:16.780 --> 00:11:18.519 
+
+Moderator: Let's navigate to that place. 
+
+ 
+
+116 
+
+00:11:19.110 --> 00:11:19.790 
+
+Participant 2: Okay. 
+
+ 
+
+117 
+
+00:11:38.670 --> 00:11:41.769 
+
+Moderator: And if you can talk us through, like, what you're looking for. 
+
+ 
+
+118 
+
+00:11:42.000 --> 00:11:43.939 
+
+Moderator: What you found, that would be great. 
+
+ 
+
+119 
+
+00:11:44.640 --> 00:11:50.579 
+
+Participant 2: Okay, so, so as you heard it say, I'm on the contact information 
+
+ 
+
+120 
+
+00:11:50.750 --> 00:11:58.440 
+
+Participant 2: on the Ed's website, and what I did was, I pressed H for headings, so I could hear what the heading is. 
+
+ 
+
+121 
+
+00:11:58.890 --> 00:12:06.410 
+
+Participant 2: And then I… once I heard it say address information, then I started pressing the arrow down button. 
+
+ 
+
+122 
+
+00:12:06.410 --> 00:12:06.940 
+
+Moderator: Okay. 
+
+ 
+
+123 
+
+00:12:06.940 --> 00:12:17.240 
+
+Participant 2: to get inside to see what, what it actually says. So I'm just arrowing down until I hear, phone number or email address. 
+
+ 
+
+124 
+
+00:12:17.240 --> 00:12:17.930 
+
+Moderator: Okay. 
+
+ 
+
+125 
+
+00:12:28.810 --> 00:12:32.189 
+
+Participant 2: And you did say… you did say phone number, right? 
+
+ 
+
+126 
+
+00:12:32.740 --> 00:12:33.619 
+
+Moderator: We said. 
+
+ 
+
+127 
+
+00:12:33.620 --> 00:12:37.639 
+
+Participant 2: One time you said text message and didn't say email, so is it email? 
+
+ 
+
+128 
+
+00:12:37.640 --> 00:12:39.160 
+
+Moderator: Email and text, yeah. 
+
+ 
+
+129 
+
+00:12:39.160 --> 00:12:46.610 
+
+Participant 2: Okay, so right here is where… This is my email. 
+
+ 
+
+130 
+
+00:12:50.540 --> 00:12:53.379 
+
+Participant 2: And then it told me my email, which is correct. 
+
+ 
+
+131 
+
+00:12:54.600 --> 00:13:00.130 
+
+Participant 2: And then here is where I would edit the email address, and I would press enter here. 
+
+ 
+
+132 
+
+00:13:01.340 --> 00:13:01.970 
+
+Moderator: Okay. 
+
+ 
+
+133 
+
+00:13:03.150 --> 00:13:05.069 
+
+Participant 2: Did you want me to do that, or you want me to… 
+
+ 
+
+134 
+
+00:13:05.070 --> 00:13:07.620 
+
+Moderator: No, you don't need to do that right now. 
+
+ 
+
+135 
+
+00:13:07.770 --> 00:13:15.020 
+
+Moderator: Okay, so what… Now that we're here, what were your thoughts on navigating to the profile? 
+
+ 
+
+136 
+
+00:13:17.500 --> 00:13:24.599 
+
+Participant 2: So, when I was on the claims information screen. 
+
+ 
+
+137 
+
+00:13:25.200 --> 00:13:28.090 
+
+Participant 2: And I did the insert F7. 
+
+ 
+
+138 
+
+00:13:28.820 --> 00:13:40.090 
+
+Participant 2: I thought there would have been a link in there that would have the profile option where I could go there, but instead, I had to go back to the home screen 
+
+ 
+
+139 
+
+00:13:40.470 --> 00:13:42.870 
+
+Participant 2: In order to find it. 
+
+ 
+
+140 
+
+00:13:43.350 --> 00:13:43.750 
+
+Moderator: Okay. 
+
+ 
+
+141 
+
+00:13:44.430 --> 00:13:51.430 
+
+Participant 2: So, that was the only thing that, that I noticed that… It wasn't, 
+
+ 
+
+142 
+
+00:13:52.770 --> 00:14:05.100 
+
+Participant 2: I thought that it would have been easier to get to from where I was there, but instead, I had to go back to the home screen, and then once I was on the home screen, then I had to… 
+
+ 
+
+143 
+
+00:14:05.700 --> 00:14:11.450 
+
+Participant 2: Look for the email address and my personal information. 
+
+ 
+
+144 
+
+00:14:11.690 --> 00:14:12.190 
+
+Moderator: Gotcha. 
+
+ 
+
+145 
+
+00:14:12.190 --> 00:14:20.250 
+
+Participant 2: But once I actually got here, then of course, it's… it's pretty easy after that. And I could have also done, 
+
+ 
+
+146 
+
+00:14:21.650 --> 00:14:26.890 
+
+Participant 2: I could have also done the insert F… Oh… 
+
+ 
+
+147 
+
+00:14:27.580 --> 00:14:32.630 
+
+Participant 2: Oh, 5, 6, insert L6 to hear what the headings are. 
+
+ 
+
+148 
+
+00:14:34.720 --> 00:14:35.490 
+
+Moderator: Okay. 
+
+ 
+
+149 
+
+00:14:35.490 --> 00:14:38.340 
+
+Participant 2: And it may tell me quicker. 
+
+ 
+
+150 
+
+00:14:40.890 --> 00:14:44.120 
+
+Participant 2: And I could have gotten it to it that way as well. 
+
+ 
+
+151 
+
+00:14:44.310 --> 00:14:44.950 
+
+Moderator: Okay. 
+
+ 
+
+152 
+
+00:14:45.210 --> 00:14:50.290 
+
+Moderator: Alright, so now I'd like you to navigate back to the main profile hub. 
+
+ 
+
+153 
+
+00:14:51.910 --> 00:14:54.259 
+
+Participant 2: Navigate back to the main profile. 
+
+ 
+
+154 
+
+00:14:58.070 --> 00:15:03.940 
+
+Participant 2: What do you mean, main profile? Because I am on my main profile. You mean… Okay. 
+
+ 
+
+155 
+
+00:15:03.940 --> 00:15:04.400 
+
+Moderator: No, I'm standing. 
+
+ 
+
+156 
+
+00:15:04.400 --> 00:15:05.180 
+
+Participant 2: What's happening. 
+
+ 
+
+157 
+
+00:15:05.180 --> 00:15:12.249 
+
+Moderator: Yeah, so right now, you're actually… there's kind of different sections within Profile. 
+
+ 
+
+158 
+
+00:15:12.890 --> 00:15:21.219 
+
+Moderator: And so, right now, you're on the personal information section, so we want to navigate to the… 
+
+ 
+
+159 
+
+00:15:21.850 --> 00:15:28.970 
+
+Moderator: Just, like, the main profile page that will have, like, everything available. 
+
+ 
+
+160 
+
+00:15:29.350 --> 00:15:30.160 
+
+Participant 2: Okay, let's see. 
+
+ 
+
+161 
+
+00:15:30.160 --> 00:15:32.750 
+
+Moderator: How do you think you'll navigate there? 
+
+ 
+
+162 
+
+00:15:34.980 --> 00:15:40.830 
+
+Participant 2: ongoing, inside S7 again, so I can see if I can go through it from that. 
+
+ 
+
+163 
+
+00:15:54.060 --> 00:15:59.660 
+
+Participant 2: Okay, and all I did was just go to the internet for my links. 
+
+ 
+
+164 
+
+00:16:00.100 --> 00:16:02.170 
+
+Participant 2: And I heard it say profile. 
+
+ 
+
+165 
+
+00:16:02.170 --> 00:16:02.700 
+
+Moderator: Sweet. 
+
+ 
+
+166 
+
+00:16:03.190 --> 00:16:07.800 
+
+Participant 2: And then I just hit enter on the profile, and then I'll just… 
+
+ 
+
+167 
+
+00:16:08.030 --> 00:16:08.620 
+
+Moderator: Okay. 
+
+ 
+
+168 
+
+00:16:08.820 --> 00:16:12.000 
+
+Moderator: Great. Okay, so we… before we go any further… 
+
+ 
+
+169 
+
+00:16:12.000 --> 00:16:24.950 
+
+Participant 2: I just hit insert T, that tells me the title of the page that I'm on, so then I just checked it. A lot of times, I just check to make sure I'm on the right page before I start navigating. 
+
+ 
+
+170 
+
+00:16:25.490 --> 00:16:26.500 
+
+Moderator: Oh, great. 
+
+ 
+
+171 
+
+00:16:26.880 --> 00:16:31.149 
+
+Moderator: So I have a couple more questions, about where you would wanna… 
+
+ 
+
+172 
+
+00:16:31.700 --> 00:16:39.569 
+
+Moderator: find information on this page. So, don't navigate away from this page while we talk about this. First, we just want to talk about it. 
+
+ 
+
+174 
+
+00:16:41.060 --> 00:16:47.719 
+
+Moderator: So, looking at this page, where would you expect to find a copy of your DD214? 
+
+ 
+
+175 
+
+00:16:48.350 --> 00:16:51.339 
+
+Moderator: Which is discharge paperwork from the Department of Defense. 
+
+ 
+
+176 
+
+00:16:55.130 --> 00:17:00.730 
+
+Participant 2: Well, I… I can't answer it without navigating, because I'm. 
+
+ 
+
+177 
+
+00:17:00.730 --> 00:17:01.199 
+
+Moderator: So you can… 
+
+ 
+
+178 
+
+00:17:01.200 --> 00:17:06.520 
+
+Participant 2: not something that I… Because I already have mine, so I don't need to get it from the VA. 
+
+ 
+
+179 
+
+00:17:07.010 --> 00:17:11.930 
+
+Participant 2: You know, because I already have copies, so I would have to navigate to see where it is on here. 
+
+ 
+
+180 
+
+00:17:11.930 --> 00:17:14.400 
+
+Moderator: Got it. Okay, so if you can just look at this… 
+
+ 
+
+181 
+
+00:17:14.400 --> 00:17:21.579 
+
+Participant 2: You don't want me to click on anything, you know, to navigate away from the page, but I do need to explore. 
+
+ 
+
+182 
+
+00:17:21.589 --> 00:17:21.959 
+
+Moderator: Yeah. 
+
+ 
+
+183 
+
+00:17:21.960 --> 00:17:22.910 
+
+Participant 2: radius. 
+
+ 
+
+184 
+
+00:17:22.910 --> 00:17:25.849 
+
+Moderator: You can explore the page, but just don't click on anything. 
+
+ 
+
+185 
+
+00:17:25.859 --> 00:17:28.149 
+
+Participant 2: Okay, okay, alright, will do. 
+
+ 
+
+186 
+
+00:18:14.129 --> 00:18:16.469 
+
+Participant 2: But you said don't click on anything. 
+
+ 
+
+187 
+
+00:18:58.789 --> 00:19:01.899 
+
+Participant 2: Okay, so, 
+
+ 
+
+189 
+
+00:19:14.129 --> 00:19:23.689 
+
+Participant 2: Okay, so what I did there, to me, it was a little bit more difficult to find this section on this page. 
+
+ 
+
+190 
+
+00:19:23.899 --> 00:19:32.319 
+
+Participant 2: Because, I would have thought that… this right here. 
+
+ 
+
+191 
+
+00:19:34.200 --> 00:19:34.920 
+
+Moderator: Which? 
+
+ 
+
+192 
+
+00:19:37.340 --> 00:19:47.139 
+
+Participant 2: I would have thought that there would have been a heading somewhere in here for this DD Form 214 of these documents, but they're all links. 
+
+ 
+
+193 
+
+00:19:47.480 --> 00:19:50.940 
+
+Participant 2: But whenever I did the insert F7, 
+
+ 
+
+194 
+
+00:19:51.430 --> 00:19:57.510 
+
+Participant 2: I… it did have service records there, so I could have pressed enter on it to get to it. 
+
+ 
+
+195 
+
+00:19:57.930 --> 00:20:16.690 
+
+Participant 2: To get to the actual page, but when I did it for headings, it was not listed as a heading. And then the only other way I found it was I had to hit U, which is unvisited links. And as you can see, it took me quite some time to find it, because there's so many links. 
+
+ 
+
+196 
+
+00:20:16.720 --> 00:20:23.089 
+
+Participant 2: on the page. But I would think that maybe there should be a heading in here somewhere for… 
+
+ 
+
+197 
+
+00:20:23.310 --> 00:20:29.089 
+
+Participant 2: either the 214 or these documents, but this is the section where I would go to. 
+
+ 
+
+198 
+
+00:20:29.510 --> 00:20:35.550 
+
+Moderator: Okay, so you were expecting a heading that said DD214, you didn't find that. 
+
+ 
+
+199 
+
+00:20:35.660 --> 00:20:41.330 
+
+Moderator: Which section do you think it would be under? 
+
+ 
+
+200 
+
+00:20:42.650 --> 00:20:45.680 
+
+Participant 2: Well, currently, it's under addresses. 
+
+ 
+
+201 
+
+00:20:46.020 --> 00:20:47.100 
+
+Moderator: Under addresses? 
+
+ 
+
+202 
+
+00:20:47.100 --> 00:20:48.810 
+
+Participant 2: That's what it's at. 
+
+ 
+
+203 
+
+00:20:51.250 --> 00:20:52.270 
+
+Moderator: Okay. 
+
+ 
+
+204 
+
+00:20:52.270 --> 00:20:58.260 
+
+Participant 2: Because when you go here, Let me go back one way. 
+
+ 
+
+205 
+
+00:20:58.890 --> 00:21:04.830 
+
+Moderator: Is that… so under… Is the heading addresses? 
+
+ 
+
+206 
+
+00:21:05.880 --> 00:21:11.909 
+
+Participant 2: I'mma, arrow down. Right here, it says Veteran Program and Services. Oops. 
+
+ 
+
+207 
+
+00:21:15.010 --> 00:21:19.320 
+
+Participant 2: It says Veteran Program Services, so I'm gonna arrow down and see if it's under here. 
+
+ 
+
+208 
+
+00:21:20.450 --> 00:21:24.139 
+
+Moderator: Oh, don't navigate there yet. Are you… I mean, did you leave. 
+
+ 
+
+209 
+
+00:21:24.140 --> 00:21:30.730 
+
+Participant 2: So what I'm trying to do is I'm trying to find it, because the way that I found it was by hitting you for… 
+
+ 
+
+210 
+
+00:21:31.150 --> 00:21:40.339 
+
+Participant 2: unvisited links, but again, I don't know what heading it's under, because when I did it for headings or looking for the headings, I couldn't find it. 
+
+ 
+
+211 
+
+00:21:40.530 --> 00:21:41.090 
+
+Moderator: Okay. 
+
+ 
+
+212 
+
+00:21:41.090 --> 00:21:50.989 
+
+Participant 2: Oh, I don't necessarily know what it's under. Okay. All I know is that it's there, and I can press enter on it as a link, but I don't know 
+
+ 
+
+213 
+
+00:21:51.220 --> 00:21:52.740 
+
+Participant 2: You understand what I'm saying? 
+
+ 
+
+214 
+
+00:21:52.740 --> 00:21:53.510 
+
+Moderator: Okay, yeah. 
+
+ 
+
+215 
+
+00:21:53.510 --> 00:21:59.920 
+
+Participant 2: Am I explaining to myself, like, I found it because it's a link, but I don't know… 
+
+ 
+
+216 
+
+00:22:00.080 --> 00:22:11.279 
+
+Participant 2: If I… I wouldn't know how to get to it other… a different way. Like, if I press H for headings, which is normally what you do whenever you're looking for something. 
+
+ 
+
+217 
+
+00:22:13.560 --> 00:22:26.820 
+
+Participant 2: I wouldn't know what heading it's under. I would have to just kind of get to a heading, arrow down, see if it's under there. Okay, if it's not under there, let me hit H again, arrow down, see if it's under there. 
+
+ 
+
+218 
+
+00:22:27.160 --> 00:22:28.470 
+
+Moderator: Got it. Okay. 
+
+ 
+
+219 
+
+00:22:28.850 --> 00:22:34.290 
+
+Moderator: Yeah. So, you were saying you found it in the address section? 
+
+ 
+
+220 
+
+00:22:35.770 --> 00:22:41.869 
+
+Participant 2: Well, that's what I was checking. I'm not 100% sure. I was checking to see if that's where it was, because I don't know. 
+
+ 
+
+221 
+
+00:22:41.870 --> 00:22:44.279 
+
+Moderator: Okay, okay, you can continue checking for that. 
+
+ 
+
+222 
+
+00:22:44.660 --> 00:22:45.320 
+
+Participant 2: Okay. 
+
+ 
+
+223 
+
+00:23:08.380 --> 00:23:17.930 
+
+Participant 2: Okay, so I did personal… Okay, so there's a link for service history information. 
+
+ 
+
+224 
+
+00:23:18.660 --> 00:23:33.859 
+
+Participant 2: I'm gonna go up. I'm gonna use the arrow keys to go up now. Even though I know I'm looking for the 214, I would go down to find it, but because I'm trying to see where I'm at, where this link is, I'm gonna go up to see if I can figure where I am. 
+
+ 
+
+225 
+
+00:23:34.710 --> 00:23:35.300 
+
+Moderator: Great. 
+
+ 
+
+226 
+
+00:23:35.300 --> 00:23:39.369 
+
+Participant 2: Okay, so it is under addresses, emails, and numbers. 
+
+ 
+
+227 
+
+00:23:39.790 --> 00:23:40.470 
+
+Moderator: Okay. 
+
+ 
+
+228 
+
+00:23:41.540 --> 00:23:42.420 
+
+Participant 2: So… 
+
+ 
+
+229 
+
+00:23:49.530 --> 00:23:51.130 
+
+Participant 2: Yeah, so… 
+
+ 
+
+230 
+
+00:23:56.730 --> 00:23:58.870 
+
+Participant 2: But… Excellent. 
+
+ 
+
+232 
+
+00:24:05.680 --> 00:24:08.289 
+
+Participant 2: Well, I guess it is, it doesn't say what's underneath. 
+
+ 
+
+233 
+
+00:24:08.930 --> 00:24:10.130 
+
+Participant 2: So, yeah. 
+
+ 
+
+234 
+
+00:24:12.080 --> 00:24:17.109 
+
+Participant 2: So, yeah, it's under addresses, emails, and phone numbers, because it didn't say… 
+
+ 
+
+235 
+
+00:24:17.920 --> 00:24:31.840 
+
+Participant 2: it doesn't say that it's a heading, as you heard me navigating through it. It didn't say that it's a heading, but because it didn't say that it's a link, then I know it must be some type of heading, and so when I arrow down. 
+
+ 
+
+236 
+
+00:24:32.160 --> 00:24:36.650 
+
+Participant 2: Then I hear the link for the service history, so yes, that's where it's at. 
+
+ 
+
+237 
+
+00:24:36.960 --> 00:24:38.180 
+
+Moderator: Alright, great. 
+
+ 
+
+238 
+
+00:24:38.320 --> 00:24:38.670 
+
+Participant 2: Hmm. 
+
+ 
+
+239 
+
+00:24:38.670 --> 00:24:41.870 
+
+Moderator: If you can navigate back to your profile now, that would be great. 
+
+ 
+
+240 
+
+00:24:48.880 --> 00:24:53.829 
+
+Participant 2: But, I'm already on the profile page. 
+
+ 
+
+241 
+
+00:24:54.050 --> 00:24:56.870 
+
+Moderator: Oh, okay. Sorry, I thought you navigated to the other one. 
+
+ 
+
+242 
+
+00:24:57.170 --> 00:24:58.990 
+
+Moderator: Alrighty. 
+
+ 
+
+243 
+
+00:24:58.990 --> 00:25:00.220 
+
+Participant 2: anymore, anything. 
+
+ 
+
+244 
+
+00:25:00.220 --> 00:25:06.449 
+
+Moderator: Got it. Okay, so next, where would you find your direct deposit information? 
+
+ 
+
+245 
+
+00:25:34.690 --> 00:25:38.009 
+
+Participant 2: Okay, I will click here on Financial Information. 
+
+ 
+
+246 
+
+00:25:38.640 --> 00:25:39.290 
+
+Moderator: Okay. 
+
+ 
+
+247 
+
+00:25:40.410 --> 00:25:42.170 
+
+Participant 2: You want me to go ahead and hit enter on that? 
+
+ 
+
+248 
+
+00:25:42.820 --> 00:25:45.190 
+
+Moderator: I think we're good for right now. 
+
+ 
+
+249 
+
+00:25:45.340 --> 00:25:54.699 
+
+Moderator: So… If you have one, where would you find information about your disability rating? 
+
+ 
+
+250 
+
+00:25:57.190 --> 00:25:57.860 
+
+Participant 2: Wonderful. 
+
+ 
+
+251 
+
+00:25:58.850 --> 00:25:59.560 
+
+Participant 2: Let's cool. 
+
+ 
+
+252 
+
+00:26:10.850 --> 00:26:15.029 
+
+Participant 2: And we'll go back to… and we'll go back to the top and just listen. 
+
+ 
+
+253 
+
+00:26:19.200 --> 00:26:19.860 
+
+Participant 2: No. 
+
+ 
+
+254 
+
+00:26:45.040 --> 00:26:48.859 
+
+Participant 2: I don't know. 
+
+ 
+
+255 
+
+00:26:51.210 --> 00:26:56.090 
+
+Participant 2: Let me see… That's 
+
+ 
+
+256 
+
+00:26:56.820 --> 00:27:04.269 
+
+Participant 2: I'm just basically trying to figure out where it would be. I didn't hear anything that would… 
+
+ 
+
+257 
+
+00:27:05.670 --> 00:27:20.999 
+
+Participant 2: click for me to think that it's in there. So, I just hit H for heading, and then I'm just arrow down to see if I hear anything that would, let me know if that's where I could check my claim status. I mean, my, 
+
+ 
+
+258 
+
+00:27:21.300 --> 00:27:22.900 
+
+Participant 2: You said my rating. 
+
+ 
+
+259 
+
+00:27:22.900 --> 00:27:24.250 
+
+Moderator: Your disability rating, yeah. 
+
+ 
+
+260 
+
+00:27:24.250 --> 00:27:26.880 
+
+Participant 2: I'm just really writing, yeah, so let me, yeah. 
+
+ 
+
+261 
+
+00:28:00.080 --> 00:28:02.510 
+
+Participant 2: Okay, I guess, 
+
+ 
+
+262 
+
+00:28:06.020 --> 00:28:08.670 
+
+Participant 2: I guess the only place I would go would be the… 
+
+ 
+
+263 
+
+00:28:10.030 --> 00:28:16.000 
+
+Participant 2: would be the VA benefits and letters. That's the only thing I hear where it may be. 
+
+ 
+
+264 
+
+00:28:17.340 --> 00:28:18.010 
+
+Moderator: Okay. 
+
+ 
+
+265 
+
+00:28:18.710 --> 00:28:22.659 
+
+Moderator: Alright, and then, what about your years of military service? 
+
+ 
+
+266 
+
+00:28:24.230 --> 00:28:26.190 
+
+Participant 2: Then that was up here. 
+
+ 
+
+267 
+
+00:28:37.520 --> 00:28:46.390 
+
+Participant 2: So, that, military branches and peers of service was under… is, room. 
+
+ 
+
+268 
+
+00:28:46.830 --> 00:29:06.739 
+
+Participant 2: it's under addresses, emails, and phone numbers, but to me, that's… I feel like that should be a separate heading. Like, the stuff that has to do with your service history information and military branches and peer-to-service, I don't feel like that should be under addresses. I think it should have its own heading. 
+
+ 
+
+269 
+
+00:29:07.150 --> 00:29:08.160 
+
+Moderator: Okay, yeah. 
+
+ 
+
+270 
+
+00:29:08.160 --> 00:29:11.409 
+
+Participant 2: To me, it doesn't really make sense to be under there. 
+
+ 
+
+271 
+
+00:29:12.130 --> 00:29:16.229 
+
+Moderator: So, are you looking at the H1s right now, or which headings are you looking at? 
+
+ 
+
+272 
+
+00:29:17.470 --> 00:29:22.999 
+
+Participant 2: Yeah, I'm looking for the head, the H1, the, the first headings, yeah. 
+
+ 
+
+273 
+
+00:29:23.000 --> 00:29:23.720 
+
+Moderator: Yeah, settings. 
+
+ 
+
+274 
+
+00:29:23.720 --> 00:29:28.649 
+
+Participant 2: I think it should be its own heading one, is what I think. Because… 
+
+ 
+
+275 
+
+00:29:29.130 --> 00:29:36.230 
+
+Participant 2: I don't see why it would make sense to be a heading 2, because… It doesn't apply to addresses. 
+
+ 
+
+276 
+
+00:29:36.820 --> 00:29:38.210 
+
+Moderator: Okay, yeah. 
+
+ 
+
+277 
+
+00:29:38.210 --> 00:29:45.569 
+
+Participant 2: But I think this military service stuff should be its own separate heading, and I think it'll be a lot easier to find it as well. 
+
+ 
+
+278 
+
+00:29:46.820 --> 00:29:51.460 
+
+Participant 2: Instead of having to… Cause I don't… 
+
+ 
+
+279 
+
+00:29:51.800 --> 00:29:58.520 
+
+Participant 2: To me, it doesn't… it's not common sense to go to addresses to find your military service information. 
+
+ 
+
+280 
+
+00:29:58.520 --> 00:29:59.250 
+
+Moderator: Right. 
+
+ 
+
+281 
+
+00:29:59.700 --> 00:30:01.030 
+
+Moderator: Okay, that makes sense. 
+
+ 
+
+282 
+
+00:30:01.180 --> 00:30:06.320 
+
+Moderator: So, can you now find your healthcare email and text notifications? 
+
+ 
+
+283 
+
+00:30:08.040 --> 00:30:10.619 
+
+Participant 2: Yes, I did hear that early on. 
+
+ 
+
+284 
+
+00:30:12.670 --> 00:30:18.999 
+
+Participant 2: I'm just gonna arrow down, because I heard it here earlier, but I could do an H and see if it's… 
+
+ 
+
+285 
+
+00:30:19.510 --> 00:30:21.470 
+
+Participant 2: The veteran programs accept it. 
+
+ 
+
+286 
+
+00:30:22.350 --> 00:30:26.200 
+
+Participant 2: Okay, so no. 
+
+ 
+
+287 
+
+00:30:42.240 --> 00:30:43.880 
+
+Participant 2: I'm not gonna do it that way. 
+
+ 
+
+288 
+
+00:30:44.900 --> 00:30:45.700 
+
+Participant 2: That's better. 
+
+ 
+
+289 
+
+00:30:59.240 --> 00:31:09.839 
+
+Participant 2: So there's the healthcare settings, which I did hear it, when I was over there arrowing down from the military records links. 
+
+ 
+
+290 
+
+00:31:11.280 --> 00:31:19.239 
+
+Participant 2: I could have arrowed down further and heard it there, but again, whenever I did the H for headings. 
+
+ 
+
+291 
+
+00:31:19.800 --> 00:31:23.329 
+
+Participant 2: Unless I needed to arrow down through each one of those. 
+
+ 
+
+292 
+
+00:31:23.550 --> 00:31:30.760 
+
+Participant 2: I didn't… I didn't know which one to… to go to, and that's why I went back to do the insert F7. 
+
+ 
+
+293 
+
+00:31:30.760 --> 00:31:31.140 
+
+Moderator: To find. 
+
+ 
+
+294 
+
+00:31:31.140 --> 00:31:32.660 
+
+Participant 2: the link that way. 
+
+ 
+
+295 
+
+00:31:32.800 --> 00:31:36.499 
+
+Participant 2: To see if I could find it easier. And so… 
+
+ 
+
+296 
+
+00:31:36.840 --> 00:31:44.950 
+
+Participant 2: there's the healthcare settings, and then I heard it earlier, when I was in the links, then I know down here a little further, it's gonna say the text messages. 
+
+ 
+
+297 
+
+00:31:48.410 --> 00:31:50.780 
+
+Participant 2: Email and text notifications. 
+
+ 
+
+298 
+
+00:31:51.380 --> 00:31:59.470 
+
+Moderator: Okay. So, where of the… I heard you mention two kind of places, the, 
+
+ 
+
+299 
+
+00:32:00.010 --> 00:32:05.550 
+
+Moderator: Email and text messages, and the healthcare settings. 
+
+ 
+
+300 
+
+00:32:06.190 --> 00:32:06.880 
+
+Participant 2: Yes. 
+
+ 
+
+301 
+
+00:32:06.880 --> 00:32:11.679 
+
+Moderator: Okay, which one would you expect to find the healthcare email and text notifications in? 
+
+ 
+
+302 
+
+00:32:12.710 --> 00:32:20.780 
+
+Participant 2: the healthcare text and notifications, it should be under healthcare, I would think, if it's healthcare related. 
+
+ 
+
+303 
+
+00:32:22.360 --> 00:32:22.950 
+
+Moderator: Okay, great. 
+
+ 
+
+304 
+
+00:32:22.950 --> 00:32:24.470 
+
+Participant 2: But… . 
+
+ 
+
+305 
+
+00:32:24.770 --> 00:32:26.440 
+
+Moderator: Oh, sorry, didn't mean to interrupt you. 
+
+ 
+
+306 
+
+00:32:26.750 --> 00:32:35.309 
+
+Participant 2: Oh, no, I was just gonna say that, but when I heard… the text messages… 
+
+ 
+
+307 
+
+00:32:35.970 --> 00:32:44.809 
+
+Participant 2: email and text notifications, I just assumed that it would be email and text notifications for the VA period, not just for healthcare. 
+
+ 
+
+308 
+
+00:32:44.810 --> 00:32:45.420 
+
+Moderator: Yeah. 
+
+ 
+
+309 
+
+00:32:47.160 --> 00:32:54.180 
+
+Participant 2: But if it's going to be for healthcare, then I would suspect that it would just be under the healthcare, in that healthcare section. 
+
+ 
+
+310 
+
+00:32:55.130 --> 00:32:56.960 
+
+Moderator: Yeah, okay, that makes sense. 
+
+ 
+
+311 
+
+00:32:57.380 --> 00:33:05.089 
+
+Moderator: Alright, so now that you've navigated around the profile a little bit, would love to know… 
+
+ 
+
+312 
+
+00:33:06.170 --> 00:33:09.200 
+
+Moderator: How you thought navigating the profile went. 
+
+ 
+
+313 
+
+00:33:21.490 --> 00:33:27.559 
+
+Participant 2: It's, like I said before, it's… It's good that there's, 
+
+ 
+
+314 
+
+00:33:28.340 --> 00:33:36.980 
+
+Participant 2: that things are showing up on the links list, the insert F7 links list, but a lot of people also navigate by headings. 
+
+ 
+
+315 
+
+00:33:37.360 --> 00:33:39.439 
+
+Participant 2: Because that way, 
+
+ 
+
+316 
+
+00:33:41.160 --> 00:33:46.750 
+
+Participant 2: You know, once they get to the heading, then they just arrow down to whatever it is that they want to go to. 
+
+ 
+
+317 
+
+00:33:47.060 --> 00:33:50.080 
+
+Participant 2: So… I do think that… 
+
+ 
+
+318 
+
+00:33:50.670 --> 00:34:00.969 
+
+Participant 2: that, like we talked about with the, airforce service records, there definitely needs to be a heading there. And as far as the email text messaging. 
+
+ 
+
+319 
+
+00:34:01.670 --> 00:34:13.420 
+
+Participant 2: I just assumed that, again, that that was for all of the VA text messages, not just for healthcare, because it wasn't under… in the links list, it didn't appear that it was under healthcare. 
+
+ 
+
+320 
+
+00:34:14.690 --> 00:34:16.140 
+
+Participant 2: But it could be. 
+
+ 
+
+321 
+
+00:34:16.940 --> 00:34:17.570 
+
+Moderator: Okay. 
+
+ 
+
+322 
+
+00:34:18.060 --> 00:34:21.040 
+
+Participant 2: But I think overall, the, 
+
+ 
+
+323 
+
+00:34:24.710 --> 00:34:35.459 
+
+Participant 2: I think overall, the navigation was pretty simple, other than looking for the Air Force records. 
+
+ 
+
+324 
+
+00:34:36.760 --> 00:34:37.620 
+
+Moderator: Okay. 
+
+ 
+
+325 
+
+00:34:37.620 --> 00:34:39.300 
+
+Participant 2: The way that that's laid out. 
+
+ 
+
+326 
+
+00:34:40.830 --> 00:34:49.010 
+
+Moderator: And then when you were navigating, you had kind of two ways of navigating. You went by both the headers and by the links list, right? 
+
+ 
+
+327 
+
+00:34:49.480 --> 00:34:50.080 
+
+Participant 2: Yes. 
+
+ 
+
+328 
+
+00:34:50.510 --> 00:35:01.140 
+
+Participant 2: Earlier I did, I also did B for buttons earlier, but there wasn't any… any buttons, so… 
+
+ 
+
+329 
+
+00:35:01.750 --> 00:35:12.829 
+
+Participant 2: the way that I have my computer set up, and I… I didn't pay attention because we were talking when I first went to it, but typically, whenever I go to a website, I have mine set up so that it tells me 
+
+ 
+
+330 
+
+00:35:12.830 --> 00:35:24.079 
+
+Participant 2: How many headings is on the page, how many links, that kind of information. And that kind of gives me an overview of how to navigate the page, because sometimes, of course, you have websites that don't have 
+
+ 
+
+331 
+
+00:35:24.080 --> 00:35:29.479 
+
+Participant 2: They don't have many headings, or you got some of them that's got a lot of headings and no links, so… 
+
+ 
+
+332 
+
+00:35:29.700 --> 00:35:35.069 
+
+Participant 2: That helps out a lot whenever you know what's, 
+
+ 
+
+333 
+
+00:35:35.230 --> 00:35:39.919 
+
+Participant 2: On the page, the headings, but to… to dive in deeper. 
+
+ 
+
+334 
+
+00:35:40.300 --> 00:35:46.220 
+
+Participant 2: I do feel like making sure that things make sense. 
+
+ 
+
+335 
+
+00:35:46.500 --> 00:35:49.929 
+
+Participant 2: Under the heading that it's under, if that makes sense. 
+
+ 
+
+336 
+
+00:35:49.930 --> 00:35:51.550 
+
+Moderator: Yeah, yeah, that makes sense. 
+
+ 
+
+337 
+
+00:35:51.840 --> 00:35:52.530 
+
+Participant 2: Yeah. 
+
+ 
+
+338 
+
+00:35:52.820 --> 00:35:53.790 
+
+Moderator: Okay. 
+
+ 
+
+339 
+
+00:35:54.050 --> 00:36:08.789 
+
+Moderator: Alright, so we're now going to dive in section by section, to gather some feedback, and we want to note that some of these sections have personal information on them, and we want to make sure that you feel comfortable sharing the personal information in this session. 
+
+ 
+
+340 
+
+00:36:10.650 --> 00:36:12.179 
+
+Participant 2: Okay, that's fine. 
+
+ 
+
+341 
+
+00:36:12.180 --> 00:36:12.730 
+
+Moderator: Okay. 
+
+ 
+
+342 
+
+00:36:13.480 --> 00:36:16.870 
+
+Moderator: Okay, so then we will continue. 
+
+ 
+
+343 
+
+00:36:17.220 --> 00:36:26.329 
+
+Moderator: So first, we would like to start… with the personal information section. 
+
+ 
+
+344 
+
+00:36:27.400 --> 00:36:30.870 
+
+Moderator: Can you navigate to that, and then enter it? 
+
+ 
+
+345 
+
+00:36:32.590 --> 00:36:33.520 
+
+Moderator: Click on it. 
+
+ 
+
+346 
+
+00:36:46.530 --> 00:36:47.270 
+
+Participant 2: Okay. 
+
+ 
+
+347 
+
+00:36:48.700 --> 00:36:58.670 
+
+Participant 2: I thought that under profile, then once I arrowed down, I would have been able to get to that personal information, but it didn't… 
+
+ 
+
+348 
+
+00:36:59.570 --> 00:37:01.260 
+
+Participant 2: It didn't go there. 
+
+ 
+
+349 
+
+00:37:02.590 --> 00:37:07.750 
+
+Participant 2: So, I guess it did, after a couple. So, yeah, so then there's my name. 
+
+ 
+
+350 
+
+00:37:10.180 --> 00:37:13.589 
+
+Participant 2: Anything specific under here, or you just want me navigating through? 
+
+ 
+
+351 
+
+00:37:14.150 --> 00:37:20.329 
+
+Moderator: Yeah, I would like you to navigate to a section that's called Personal Information. 
+
+ 
+
+352 
+
+00:37:21.070 --> 00:37:21.980 
+
+Participant 2: Okay. 
+
+ 
+
+353 
+
+00:37:31.690 --> 00:37:34.449 
+
+Moderator: And it's actually a link on the page. 
+
+ 
+
+354 
+
+00:37:36.360 --> 00:37:39.910 
+
+Participant 2: Okay, I was gonna say... 
+
+ 
+
+355 
+
+00:37:47.980 --> 00:37:50.470 
+
+Participant 2: Okay. Did you want me to enter on it? 
+
+ 
+
+356 
+
+00:37:50.470 --> 00:37:51.090 
+
+Moderator: Yeah. 
+
+ 
+
+357 
+
+00:38:02.050 --> 00:38:02.939 
+
+Moderator: All right. 
+
+ 
+
+358 
+
+00:38:03.100 --> 00:38:05.459 
+
+Moderator: So, now that we're on this page. 
+
+ 
+
+359 
+
+00:38:05.640 --> 00:38:08.320 
+
+Moderator: I would like you to… 
+
+ 
+
+360 
+
+00:38:08.630 --> 00:38:17.259 
+
+Moderator: Just look at the page, review it, review the information that is on it, and let me know if you feel like anything is missing on this page. 
+
+ 
+
+361 
+
+00:38:17.490 --> 00:38:22.089 
+
+Moderator: And how you would interact with them. 
+
+ 
+
+362 
+
+00:38:23.360 --> 00:38:24.110 
+
+Participant 2: Okay. 
+
+ 
+
+363 
+
+00:38:33.000 --> 00:38:43.950 
+
+Participant 2: What I did was, I did a control home to make sure I was at the top of the page, and then I hit H so that I could hear that I was on the personal information, and now I'm just gonna arrow down. 
+
+ 
+
+365 
+
+00:39:55.980 --> 00:40:05.849 
+
+Participant 2: I mean… is pretty basic. I mean, to me, I almost feel like… 
+
+ 
+
+366 
+
+00:40:08.060 --> 00:40:11.209 
+
+Participant 2: Instead of having to click on, 
+
+ 
+
+367 
+
+00:40:11.720 --> 00:40:18.220 
+
+Participant 2: like, when we were on the profile initially, I would have thought that personal information 
+
+ 
+
+368 
+
+00:40:18.340 --> 00:40:34.550 
+
+Participant 2: would have been under that, like, where it said profile, I would have thought then it would have said personal information, and then it would have had my name, and my address, and phone, and all this kind of stuff. But then on here, I feel like it doesn't have the address, or the phone or anything, because that is part of my personal information. 
+
+ 
+
+369 
+
+00:40:34.550 --> 00:40:40.999 
+
+Participant 2: is my address, and my phone number, and my email address, so I kind of feel like that should be in both places. 
+
+ 
+
+370 
+
+00:40:41.010 --> 00:40:45.240 
+
+Participant 2: Not just under the profile, it should be under the personal information as well. 
+
+ 
+
+371 
+
+00:40:45.510 --> 00:40:46.210 
+
+Moderator: Okay. 
+
+ 
+
+372 
+
+00:40:46.860 --> 00:40:52.260 
+
+Moderator: Great, that's good to know. Do you feel like any other information is missing from this page that should be here? 
+
+ 
+
+373 
+
+00:40:58.870 --> 00:41:01.940 
+
+Participant 2: I guess, other than the, 
+
+ 
+
+374 
+
+00:41:15.010 --> 00:41:16.439 
+
+Participant 2: I would think… 
+
+ 
+
+375 
+
+00:41:19.650 --> 00:41:27.859 
+
+Participant 2: Because it's got how to update your name if your name is wrong, but it doesn't have how to fix your birthday, if your birthday is wrong. 
+
+ 
+
+376 
+
+00:41:28.340 --> 00:41:35.770 
+
+Participant 2: It doesn't have that. And then, of course, if you're gonna add the other information as far as your 
+
+ 
+
+377 
+
+00:41:35.920 --> 00:41:52.130 
+
+Participant 2: what I also feel is personal information regarding your address and your phone number and your email, then of course, you would also make sure you put… how to edit that as well, or put the edits there as well. I think it should be in both places. 
+
+ 
+
+378 
+
+00:41:52.280 --> 00:42:00.269 
+
+Participant 2: Gotcha. To make it easier to navigate and get to it, instead of going here, and say if you do put the… 
+
+ 
+
+379 
+
+00:42:00.400 --> 00:42:11.590 
+
+Participant 2: the address and the phone number and all that stuff here, and then if it is wrong, then they shouldn't have to go back to the profile to edit or to fix it. They should be able to fix it here as well. 
+
+ 
+
+380 
+
+00:42:11.950 --> 00:42:12.670 
+
+Moderator: Okay. 
+
+ 
+
+381 
+
+00:42:13.210 --> 00:42:19.719 
+
+Moderator: And then, speaking of editing your information, how would you actually edit the information on the page? 
+
+ 
+
+382 
+
+00:42:26.480 --> 00:42:28.570 
+
+Participant 2: Oh, so it does say how to fix it. 
+
+ 
+
+383 
+
+00:42:30.100 --> 00:42:36.280 
+
+Participant 2: So, that collapsed, I'm just gonna press the spacebar to expand it, so I can hear what it says. 
+
+ 
+
+384 
+
+00:42:36.280 --> 00:42:36.870 
+
+Moderator: I'm good. 
+
+ 
+
+385 
+
+00:42:39.280 --> 00:42:43.729 
+
+Participant 2: And then I'm just gonna press the arrow keys to hear what it says to tell me what to do. 
+
+ 
+
+386 
+
+00:42:59.620 --> 00:43:00.640 
+
+Participant 2: Okay. 
+
+ 
+
+388 
+
+00:43:26.310 --> 00:43:27.400 
+
+Participant 2: So… 
+
+ 
+
+389 
+
+00:43:28.070 --> 00:43:35.960 
+
+Participant 2: something that I also feel is missing, and correct me if I'm wrong, whenever… if I call the VA and I say. 
+
+ 
+
+390 
+
+00:43:36.130 --> 00:43:40.080 
+
+Participant 2: hey, you know, let's just say I don't have healthcare with the VA, okay? 
+
+ 
+
+391 
+
+00:43:40.450 --> 00:43:55.139 
+
+Participant 2: But I come on here and I see that my name on my birthday or something like that is wrong. When I call the VA, all the VA, they're probably… they're not gonna update my information right then and there on the phone. They're probably gonna tell me to go to such and such a form. 
+
+ 
+
+392 
+
+00:43:55.750 --> 00:44:06.430 
+
+Participant 2: to do that, and submit whatever document. So, I think that that form should be in here, instead of saying to call the VA. 
+
+ 
+
+393 
+
+00:44:06.900 --> 00:44:16.009 
+
+Participant 2: to go to the healthcare, yeah, that's good, because, of course, if you do go to healthcare, whatever, I think they need, 
+
+ 
+
+394 
+
+00:44:16.580 --> 00:44:38.639 
+
+Participant 2: they note, okay, take such and such a document, right? You know, make sure it says, okay, take such and such a documents when you go to the VA. But to just call the 800 number, that's not gonna do any good, because all they're gonna have to do is come back to the computer and fill out or print whatever form or document they need in order to change or update whatever information. So I think that should be here. 
+
+ 
+
+395 
+
+00:44:39.080 --> 00:44:39.810 
+
+Moderator: Okay. 
+
+ 
+
+396 
+
+00:44:39.810 --> 00:44:42.599 
+
+Participant 2: Whatever form they need to do that. 
+
+ 
+
+397 
+
+00:44:43.080 --> 00:44:45.940 
+
+Participant 2: And then I don't know if that will be… 
+
+ 
+
+398 
+
+00:44:46.340 --> 00:44:53.549 
+
+Participant 2: A third option to say, go to healthcare, or, complete this form. 
+
+ 
+
+399 
+
+00:44:54.130 --> 00:45:17.069 
+
+Participant 2: you know, blah blah blah, and then it'll be a link where you just click on that link to go to the form and then start doing the form and submit it, you know, where they're able to upload all the information that they need and submit it and do it right then and there. And then the last option is to call the 800 number, because that's not going to do any good to just call the 800 number. They're not going to accomplish anything by doing that. 
+
+ 
+
+400 
+
+00:45:17.710 --> 00:45:18.420 
+
+Moderator: Okay. 
+
+ 
+
+401 
+
+00:45:18.560 --> 00:45:19.900 
+
+Moderator: Okay, that's good to know. 
+
+ 
+
+402 
+
+00:45:20.190 --> 00:45:32.370 
+
+Moderator: All right, and then one last little question on this page. Do you expect your up… when… if you do update any of your written information, do you expect that to be updated across all of VA, or just, like, in this location? 
+
+ 
+
+403 
+
+00:45:32.990 --> 00:45:34.510 
+
+Participant 2: Across all of the VA. 
+
+ 
+
+404 
+
+00:45:34.510 --> 00:45:35.190 
+
+Moderator: Okay. 
+
+ 
+
+405 
+
+00:45:35.600 --> 00:45:36.220 
+
+Participant 2: Yeah. 
+
+ 
+
+406 
+
+00:45:37.190 --> 00:45:43.940 
+
+Moderator: Alright, so let's navigate back to, the main profile page. 
+
+ 
+
+407 
+
+00:45:48.340 --> 00:45:50.380 
+
+Participant 2: I'm just gonna hit the back button. 
+
+ 
+
+408 
+
+00:45:50.380 --> 00:45:50.810 
+
+Moderator: Okay. 
+
+ 
+
+409 
+
+00:45:50.810 --> 00:45:54.220 
+
+Participant 2: I'm just gonna do out and back arrow. 
+
+ 
+
+410 
+
+00:45:56.760 --> 00:46:04.730 
+
+Moderator: Alright, so now that we're on this page, can you navigate to the contact information? 
+
+ 
+
+411 
+
+00:46:05.920 --> 00:46:06.600 
+
+Participant 2: Okay. 
+
+ 
+
+412 
+
+00:46:08.520 --> 00:46:14.720 
+
+Participant 2: Ugh, I was gonna say, I'm gonna see if it, I can get to it. 
+
+ 
+
+414 
+
+00:46:26.980 --> 00:46:27.920 
+
+Participant 2: Okay. 
+
+ 
+
+415 
+
+00:46:28.670 --> 00:46:30.159 
+
+Participant 2: I don't think anybody else. 
+
+ 
+
+416 
+
+00:46:30.760 --> 00:46:32.189 
+
+Participant 2: We'll send her… 
+
+ 
+
+417 
+
+00:46:36.470 --> 00:46:39.039 
+
+Participant 2: So it's under Veteran Status Card. 
+
+ 
+
+418 
+
+00:46:47.580 --> 00:46:49.220 
+
+Moderator: The contact information? 
+
+ 
+
+419 
+
+00:46:49.520 --> 00:46:57.979 
+
+Participant 2: Yeah, I mean… Because it says Veteran Status Card, and then under that, It's personal information. 
+
+ 
+
+420 
+
+00:46:59.860 --> 00:47:02.380 
+
+Participant 2: And then your name and contact information. 
+
+ 
+
+421 
+
+00:47:03.010 --> 00:47:03.720 
+
+Participant 2: Oh. 
+
+ 
+
+422 
+
+00:47:04.400 --> 00:47:05.480 
+
+Participant 2: So, yeah. 
+
+ 
+
+423 
+
+00:47:06.410 --> 00:47:07.690 
+
+Moderator: Okay. Do you think. 
+
+ 
+
+424 
+
+00:47:07.690 --> 00:47:14.660 
+
+Participant 2: I don't know, that's… I mean, it's… it's a little confusing to me, to be honest, because I… 
+
+ 
+
+425 
+
+00:47:15.160 --> 00:47:31.360 
+
+Participant 2: Can you help me understand this veteran service card? Because since I can't see it, I don't know really what that is. Is that, like, when you have your, VA ID with the, healthcare, or what is… what exactly… what exactly is that? 
+
+ 
+
 426 
 
-00:38:46.800 --> 00:38:56.110 
+00:47:31.860 --> 00:47:36.490 
 
-Participant 1: To let… yeah, something that would say… Hmm, that's interesting. 
+Moderator: Yeah, so the Veteran Status Card is a little card that you can… 
 
  
 
 427 
 
-00:39:00.000 --> 00:39:01.300 
+00:47:36.600 --> 00:47:43.720 
 
-Participant 1: That's interesting. 
+Moderator: take and get some kind of benefits that has, like, your DOD number and your name, and just information like that. 
 
  
 
 428 
 
-00:39:02.080 --> 00:39:05.000 
+00:47:43.880 --> 00:47:51.399 
 
-Participant 1: Related pages menu. I don't know. 
+Moderator: So, you can, like… show it to certain places. So that's what your veteran status card is. 
 
  
 
 429 
 
-00:39:11.140 --> 00:39:17.779 
+00:47:53.840 --> 00:47:57.649 
 
-Participant 1: And maybe, then, maybe the real… the way that it's worded, related pages menu. 
+Participant 2: Okay, because I was just trying to understand why, 
 
  
 
 430 
 
-00:39:17.960 --> 00:39:25.100 
+00:48:06.530 --> 00:48:09.700 
 
-Participant 1: The definition of related, maybe that's… not. 
+Participant 2: Because it's like, the information for your… 
 
  
 
 431 
 
-00:39:25.590 --> 00:39:35.660 
+00:48:10.280 --> 00:48:13.730 
 
-Participant 1: Triggering to… to me that… Opening this up is going to… Help me navigate this… profile. 
+Participant 2: Your, address and stuff is up here. 
+
+ 
+
+433 
+
+00:48:19.120 --> 00:48:20.620 
+
+Participant 2: Didn't go down. 
 
  
 
 434 
 
-00:39:40.960 --> 00:39:43.179 
+00:48:21.670 --> 00:48:27.909 
 
-Participant 1: Related Pages menu. 
+Moderator: So you were wondering… Why the Veteran Status Card? 
 
  
 
 435 
 
-00:39:45.150 --> 00:39:48.150 
+00:48:29.610 --> 00:48:31.760 
 
-Participant 1: And how it's presented on the page. 
+Moderator: Can you elaborate what you were wondering? 
 
  
 
 436 
 
-00:39:51.360 --> 00:39:59.030 
+00:48:32.030 --> 00:48:35.289 
 
-Participant 1: Maybe it needs to say, Maybe it just needs to be simplified, and it needs to say. 
+Participant 2: Yeah, I was just wondering why, 
 
  
 
 437 
 
-00:39:59.200 --> 00:40:06.850 
+00:48:38.580 --> 00:48:44.780 
 
-Participant 1: Or maybe those of us that are using this website need to read the instructions. 
+Participant 2: why… why the veteran status card? Like, the purpose of why it's good, because it's… 
 
  
 
 438 
 
-00:40:08.820 --> 00:40:15.930 
+00:48:45.780 --> 00:48:53.260 
 
-Participant 1: Maybe it needs to indicate more that it is a shortcut so that you don't have to move back and forth. 
+Participant 2: I'm heavily involved with a lot of other veterans, blind, as well as not. 
 
  
 
 439 
 
-00:40:18.800 --> 00:40:25.489 
+00:48:53.720 --> 00:49:09.219 
 
-Participant 1: I don't know. I'm not coming up with anything creative. That… that's… that's… this isn't… this is interesting. 
+Participant 2: And I gotta be honest, I've never, ever heard anybody say anything about a veteran status card, ever. Like, this is new terminology that I've never heard anybody talk about, but… and I was confused as to what it was, but then when you come here. 
 
  
 
 440 
 
-00:40:26.180 --> 00:40:29.269 
+00:49:10.730 --> 00:49:13.850 
 
-Participant 1: Because I'm… I've never… I have never opened it. 
+Participant 2: You got your personal information and stuff, and then you got 
 
  
 
 441 
 
-00:40:29.650 --> 00:40:30.160 
+00:49:14.320 --> 00:49:21.980 
 
-Moderator: Nope. 
+Participant 2: the con… just the link contact information, so I don't understand why you have the link contact information 
 
  
 
 442 
 
-00:40:30.770 --> 00:40:38.310 
+00:49:22.140 --> 00:49:27.580 
 
-Participant 1: No, I've never… I've never clicked on that. I just go right to what I was, you know, I click on the link, and I just go right to what I was looking for. 
+Participant 2: But then above it, You got the name? 
 
  
 
 443 
 
-00:40:42.140 --> 00:40:48.430 
+00:49:28.050 --> 00:49:37.330 
 
-Moderator: That's super helpful. Thank you. And you've given us a lot to think about, and I really appreciate it. 
+Participant 2: And the personal information. To me, the personal information and the contact information, all that should be the same. I don't understand why there's two… 
 
  
 
 444 
 
-00:40:50.190 --> 00:40:58.839 
+00:49:37.550 --> 00:49:41.460 
 
-Moderator: I was gonna say, getting just that feedback, will help us come up with a couple other options, and maybe test out new things in the future and make it easier for y'all. 
+Participant 2: Why they would need… Need to be two links there. 
 
  
 
 445 
 
-00:40:59.480 --> 00:40:59.860 
+00:49:41.740 --> 00:49:42.280 
 
-Participant 1: Okay. 
+Moderator: Correct. 
 
  
 
 446 
 
-00:40:59.860 --> 00:41:03.330 
+00:49:42.280 --> 00:49:43.850 
 
-Moderator: Because we don't want you have to read a manual to use our website. 
+Participant 2: To me, they seem the same. 
 
  
 
 447 
 
-00:41:03.330 --> 00:41:04.959 
+00:49:43.850 --> 00:49:44.530 
 
-Participant 1: Well, and I know that in… 
+Moderator: Okay. 
 
  
 
 448 
 
-00:41:05.430 --> 00:41:16.940 
+00:49:45.930 --> 00:49:46.890 
 
-Participant 1: As I said previously, I… not only myself, because I do get on here and mess around with this, and I did teach myself how to use it, but… 
+Moderator: Okay. 
 
  
 
 449 
 
-00:41:17.100 --> 00:41:20.109 
+00:49:47.260 --> 00:49:52.080 
 
-Participant 1: You know, we have veterans who are… 
+Participant 2: Because your contact information is going to be under your personal information. 
 
  
 
 450 
 
-00:41:20.900 --> 00:41:32.879 
+00:49:52.690 --> 00:49:53.400 
 
-Participant 1: for them to navigate this, they're doing really well to even get in here. Yeah. And for me, to skip right over the top of this related pages menu. 
+Moderator: Okay. 
 
  
 
 451 
 
-00:41:33.940 --> 00:41:38.980 
+00:49:54.330 --> 00:50:01.240 
 
-Participant 1: I find that interesting to me, because there is nothing about that that drew my eye to it. 
+Moderator: Can you actually navigate to the link? Like, click the link for contact information? 
 
  
 
 452 
 
-00:41:40.030 --> 00:41:40.730 
+00:50:10.030 --> 00:50:16.409 
 
-Moderator: Gotcha. 
+Moderator: And then if you can just review the information on this page like you did on the personal information page. 
 
  
 
 453 
 
-00:41:41.640 --> 00:41:47.829 
+00:50:16.910 --> 00:50:17.610 
 
-Participant 1: There's nothing about that that indicated to me that that was going to be helpful to me. 
+Participant 2: Okay. 
 
  
 
 454 
 
-00:41:49.120 --> 00:41:49.780 
+00:50:25.390 --> 00:50:26.130 
 
-Participant 1: Hmm. 
-
- 
-
-455 
-
-00:41:51.070 --> 00:41:51.590 
-
-Participant 1: Okay. 
+Participant 2: No rush. 
 
  
 
 456 
 
-00:41:51.590 --> 00:41:59.000 
+00:51:36.660 --> 00:51:42.590 
 
-Moderator: Something with the location, something with how it looks, something with the wording, it just is not… Gathering attention. 
+Participant 2: I don't know. I mean, I… I guess I understand why it's… separated, but… 
 
  
 
 457 
 
-00:41:59.000 --> 00:42:00.070 
+00:51:43.880 --> 00:51:46.379 
 
-Participant 1: Right. 
+Moderator: What are your thoughts on that? Like… 
 
  
 
 458 
 
-00:42:01.500 --> 00:42:04.440 
+00:51:46.660 --> 00:51:57.450 
 
-Moderator: Actually, can you click that menu real quick? 
+Participant 2: I just feel like it should all be under one, under personal information, instead of just separating the contact information. But I see how you do… how it's, 
 
  
 
 459 
 
-00:42:04.940 --> 00:42:06.499 
+00:51:58.690 --> 00:52:04.069 
 
-Participant 1: The related pages menu? 
+Participant 2: How it has the… You know, where you can drill down. 
 
  
 
 460 
 
-00:42:07.850 --> 00:42:08.560 
+00:52:04.540 --> 00:52:12.679 
 
-Participant 1: Yes. 
+Participant 2: Change and update that information. But if it's under personal information, then you should be able to do the same thing there. 
 
  
 
 461 
 
-00:42:08.870 --> 00:42:18.079 
+00:52:12.840 --> 00:52:13.580 
 
-Moderator: So my next question, this is gonna be a weird one, but we look at a few types of pages, and, like, the financial information and the dependents and contacts was, like, a subpage with lists. 
+Moderator: Okay. 
 
  
 
 462 
 
-00:42:18.800 --> 00:42:30.040 
+00:52:14.080 --> 00:52:18.929 
 
-Moderator: We're thinking about potentially combining personal information, contact information, and service history into one section and calling it, like, your information. 
+Participant 2: you should be able to… I just feel like I shouldn't have to navigate, 
 
  
 
 463 
 
-00:42:30.310 --> 00:42:31.160 
+00:52:19.310 --> 00:52:25.499 
 
-Participant 1: Yes? 
+Participant 2: a different place to change or update the information. I feel like it should kind of just be in one… one space. 
 
  
 
 464 
 
-00:42:31.160 --> 00:42:32.679 
+00:52:25.710 --> 00:52:26.080 
 
-Moderator: What are your thoughts on that? 
+Moderator: Got it. 
 
  
 
 465 
 
-00:42:32.810 --> 00:42:35.640 
+00:52:26.080 --> 00:52:29.199 
 
-Participant 1: I like that, because it's a simplification. 
+Participant 2: One place, one space, just to kind of simplify it. 
 
  
 
 466 
 
-00:42:35.820 --> 00:42:43.020 
+00:52:29.510 --> 00:52:30.160 
 
-Participant 1: Okay. You know, you don't have to go into multiple places to find that information, and… I'm… 
+Moderator: Okay. 
 
  
 
 467 
 
-00:42:43.200 --> 00:42:47.839 
+00:52:31.060 --> 00:52:31.840 
 
-Participant 1: I, I think that… I think that that's a good idea. 
+Moderator: So, what I'm… 
 
  
 
 468 
 
-00:42:48.940 --> 00:42:59.469 
+00:52:31.840 --> 00:52:33.650 
 
-Participant 1: Because… People… You know, you… you get, even though that you're… you're looking for something, you, you know, you're… 
+Participant 2: We have all the same stuff. 
 
  
 
 469 
 
-00:43:00.120 --> 00:43:07.409 
+00:52:34.280 --> 00:52:43.330 
 
-Participant 1: anxious, you're ill, you don't feel well. The faster you can get to what you're looking for. 
+Participant 2: under the… under the contact information, but I just feel like… I already said it. 
 
  
 
 470 
 
-00:43:08.860 --> 00:43:10.710 
+00:52:43.330 --> 00:52:48.389 
 
-Participant 1: The… the better. 
+Moderator: I was gonna say, I can understand why you had it in a different place. What… what were your… 
 
  
 
 471 
 
-00:43:12.260 --> 00:43:17.560 
+00:52:48.560 --> 00:52:53.540 
 
-Participant 1: in… So… I… You know, it… 
+Moderator: What was your thought there? Why did you think… Okay. 
 
  
 
 472 
 
-00:43:17.670 --> 00:43:23.310 
+00:52:53.540 --> 00:52:59.469 
 
-Participant 1: now that I know that this is here, it's still all broken up into different sections if you… 
+Participant 2: why I said that, because… It drilled down on, 
 
  
 
 473 
 
-00:43:23.720 --> 00:43:25.749 
+00:53:01.100 --> 00:53:06.280 
 
-Participant 1: Are looking for something specific. 
+Participant 2: What… how you wanted to change and update the information, and going into… 
 
  
 
 474 
 
-00:43:26.010 --> 00:43:33.670 
+00:53:06.570 --> 00:53:14.509 
 
-Participant 1: But if you tap on it, and then… and there it all is, and it's… and the page doesn't go on forever and ever. 
+Participant 2: your login information, or basically having a different email address than your login, and stuff like that. But I still feel like… 
 
  
 
 475 
 
-00:43:33.830 --> 00:43:35.139 
+00:53:15.010 --> 00:53:18.529 
 
-Participant 1: That would be good. 
+Participant 2: And then, I forgot what it said at the top. 
 
  
 
 476 
 
-00:43:36.600 --> 00:43:39.489 
+00:53:26.620 --> 00:53:35.890 
 
-Moderator: Yeah, it would actually make that first page a little bit shorter. 
+Participant 2: Okay, so the fact that you then drill down to add… to… to give more details as to why and what you're using the information for. 
 
  
 
 477 
 
-00:43:40.230 --> 00:43:43.220 
+00:53:36.830 --> 00:53:37.639 
 
-Moderator: Because two links would be combined then into the section. 
+Participant 2: Follow me. 
 
  
 
 478 
 
-00:43:43.220 --> 00:43:45.090 
+00:53:40.070 --> 00:53:50.900 
 
-Participant 1: Yes. Yes. 
+Moderator: Okay, that's good to know that you feel like those… the personal information and the contact information, they're just so related in your mind that you really, like, they should be on the same page. 
 
  
 
 479 
 
-00:43:46.360 --> 00:43:49.809 
+00:53:51.270 --> 00:53:52.030 
 
-Moderator: Are there any other sections you'd like to see combined? 
+Participant 2: Yes. 
 
  
 
 480 
 
-00:43:51.010 --> 00:43:52.440 
+00:53:52.030 --> 00:53:52.640 
 
-Participant 1: Let me look through here. 
+Moderator: Okay. 
 
  
 
 481 
 
-00:44:01.190 --> 00:44:07.580 
+00:53:53.160 --> 00:53:54.060 
 
-Participant 1: Now I'm hung up on this VSO situation, too. I might figure out how I'm gonna fix that for myself. 
+Participant 2: Yeah, I do. 
 
  
 
 482 
 
-00:44:07.900 --> 00:44:10.070 
+00:53:54.060 --> 00:53:58.139 
 
-Participant 1: Letters and documents, and… 
+Moderator: Right. And then, in this section, do you feel like anything is missing? 
 
  
 
 483 
 
-00:44:10.600 --> 00:44:22.129 
+00:53:59.960 --> 00:54:01.470 
 
-Participant 1: Okay, to me, service history information and letters and documents, that could be something that was combined, because reading that service history information and letters and documents. 
+Participant 2: Let's see here… 
 
  
 
 484 
 
-00:44:26.350 --> 00:44:33.460 
+00:54:53.210 --> 00:55:02.899 
 
-Participant 1: That… letters and documents would seem more of a subcategory to service history information to me. 
+Participant 2: One thing that I will say that I do like, I like how they have the information, edit it and remove it. 
 
  
 
 485 
 
-00:44:34.370 --> 00:44:35.609 
+00:55:02.950 --> 00:55:15.110 
 
-Moderator: Mmm, okay. 
+Participant 2: I like how that's laid out, because you could just quickly go there and remove it if you want to change it. You can quickly go there and edit it if you want to change it. So I do like how that is separated, I will say that. 
 
  
 
 486 
 
-00:44:35.610 --> 00:44:38.149 
+00:55:18.340 --> 00:55:27.010 
 
-Participant 1: Because that's where you would go to find your… 
+Participant 2: Off the top, I didn't really hear, anything that I would have added as far as contact information, because… 
 
  
 
 487 
 
-00:44:38.390 --> 00:44:48.350 
+00:55:27.450 --> 00:55:35.919 
 
-Participant 1: DD 214, your disability letter, your tax exemption, letter… So… 
+Participant 2: That's it, you know, in the simplest, you know, in the simplistic form, your name, address, phone number, email address. 
 
  
 
 488 
 
-00:44:48.490 --> 00:44:53.799 
+00:55:36.350 --> 00:55:43.909 
 
-Participant 1: May, you know, maybe. And then your Veteran Status card could be underneath there, too. 
+Participant 2: Yeah, and I didn't pick up on anything that should be added that I know of. 
 
  
 
 489 
 
-00:44:58.790 --> 00:44:59.730 
+00:55:44.640 --> 00:55:50.940 
 
-Participant 1: Yeah. 
+Participant 2: Other than just… like I said, maybe simplifying and putting it under personal information. 
 
  
 
 490 
 
-00:45:01.460 --> 00:45:09.620 
+00:55:52.350 --> 00:55:53.120 
 
-Participant 1: But, you know, this is great, because it has your DOD number on it, and your disability rating is once again here. 
+Moderator: Okay. 
 
  
 
 491 
 
-00:45:17.010 --> 00:45:21.629 
+00:55:53.240 --> 00:55:55.639 
 
-Participant 1: You know, I really don't have a lot of complaints about this website. 
+Moderator: Great. Now if we can go back to the main… 
 
  
 
 492 
 
-00:45:21.820 --> 00:45:22.850 
+00:55:56.030 --> 00:56:02.499 
 
-Moderator: No? 
+Moderator: profile page, or if you can navigate to the section that is called Healthcare Settings, that would be great. 
 
  
 
 493 
 
-00:45:22.850 --> 00:45:25.010 
+00:56:03.040 --> 00:56:04.999 
 
-Participant 1: No, I really don't. 
+Participant 2: Okay, healthcare settings. 
 
  
 
 494 
 
-00:45:25.150 --> 00:45:31.910 
+00:56:08.780 --> 00:56:13.549 
 
-Participant 1: I've used… because I… I use it, I've, you know, I've… I am in here Quite a bit. 
+Participant 2: And I just did Control-Home, because I always like to start at the top of the page. 
 
  
 
 495 
 
-00:45:32.370 --> 00:45:36.130 
+00:56:13.550 --> 00:56:14.180 
 
-Participant 1: And I've always been able to do whatever I needed to do. 
+Moderator: Okay. 
 
  
 
 496 
 
-00:45:36.280 --> 00:45:37.350 
+00:56:33.820 --> 00:56:35.969 
 
-Participant 1: on here. 
+Participant 2: And you did say healthcare, right? 
 
  
 
 497 
 
-00:45:38.120 --> 00:45:42.750 
+00:56:36.140 --> 00:56:36.720 
 
-Participant 1: So… I don't have a lot of negative things to say about it. 
+Moderator: Yeah. 
 
  
 
 498 
 
-00:45:44.640 --> 00:45:47.040 
+00:56:36.980 --> 00:56:38.290 
 
-Moderator: Well, we work hard, so I appreciate that feedback. 
+Moderator: healthcare settings. 
 
  
 
 499 
 
-00:45:47.870 --> 00:45:56.409 
+00:56:38.630 --> 00:56:40.589 
 
-Moderator: I just have a couple more, like, questions, and then, you know, I'll open it up for any additional ones that you may have, or our team may have. 
+Participant 2: Yeah, that's, 
 
  
 
 500 
 
-00:45:56.410 --> 00:45:56.930 
+00:56:41.550 --> 00:56:48.400 
 
-Participant 1: Okay. 
+Participant 2: That's one of the things… I'm gonna do it again. I didn't hear it, but I know it's in my links, because I remember hearing it there, but… 
 
  
 
 501 
 
-00:45:56.930 --> 00:46:07.909 
+00:56:48.640 --> 00:56:50.459 
 
-Moderator: So a couple other things that we're thinking about adding to the profile. If we were to add a search option that only searches your profile, is that something you could see yourself using? Why or why not? 
+Participant 2: I'm gonna just double check again. 
 
  
 
 502 
 
-00:46:08.990 --> 00:46:13.659 
+00:57:26.730 --> 00:57:32.520 
 
-Participant 1: A search option that only, that only searched the information in your profile? 
+Participant 2: Okay, so healthcare settings. And you say you were going to go to this, right? 
 
  
 
 503 
 
-00:46:16.840 --> 00:46:25.030 
+00:57:32.730 --> 00:57:33.150 
 
-Participant 1: Oh, so that you could type in DD 214, and it… that would just come up? The link would come up for you to get your DD 214? 
+Moderator: Yes. 
 
  
 
 504 
 
-00:46:25.030 --> 00:46:25.420 
+00:57:33.560 --> 00:57:34.440 
 
-Moderator: Yes. 
+Participant 2: Okay. 
 
  
 
 505 
 
-00:46:25.420 --> 00:46:29.360 
+00:57:39.070 --> 00:57:49.549 
 
-Participant 1: Okay, now, I do have something to say about that. 
+Moderator: Alright, and like you did on the other pages, if you can review what's on this page, note anything if you feel like anything's missing or unexpected. 
 
  
 
 506 
 
-00:46:29.610 --> 00:46:34.639 
+00:57:49.810 --> 00:57:51.470 
 
-Participant 1: That would depend on how specific you made the search prompt. 
+Moderator: Let me know. 
 
  
 
 507 
 
-00:46:34.800 --> 00:46:39.629 
+00:57:55.020 --> 00:58:04.349 
 
-Participant 1: Because… In using search prompts. 
+Participant 2: I do feel like there should be a healthcare heading on that previous page, instead of it… instead of just finding it at the, 
 
  
 
 508 
 
-00:46:40.620 --> 00:46:45.859 
+00:58:04.470 --> 00:58:12.169 
 
-Participant 1: I'll type something in that I think is the perfect explanation for what I'm looking for. 
-
- 
-
-509 
-
-00:46:45.940 --> 00:47:05.050 
-
-Participant 1: it won't come up, and then I'll have to… and not specifically this website, you know, I'm talking about the internet overall. But as I keep delving deeper, I will find the information I'm looking for, but the search prompt is not the verbiage I used. 
-
- 
-
-510 
-
-00:47:05.800 --> 00:47:06.840 
-
-Moderator: Hmm… 
+Participant 2: the links. I think it should also be a heading, because it's a different… It's a different section. 
 
  
 
 511 
 
-00:47:07.140 --> 00:47:08.890 
+00:58:53.760 --> 00:58:56.139 
 
-Participant 1: Does that make sense? 
+Participant 2: I mean, it seems pretty simple. 
 
  
 
 512 
 
-00:47:08.890 --> 00:47:09.630 
+00:58:56.430 --> 00:59:01.360 
 
-Moderator: Yes. 
+Participant 2: but… 
 
  
 
 513 
 
-00:47:09.630 --> 00:47:21.699 
+00:59:02.300 --> 00:59:11.459 
 
-Participant 1: So, it would be, if you're specifically looking for this, you know, how is… and I don't understand how websites are built, but how specific are you going to make the search prompt? 
+Participant 2: I don't understand why it's called settings, though, because with it being settings, you would think that you can go in and change 
 
  
 
 514 
 
-00:47:22.560 --> 00:47:35.479 
+00:59:12.160 --> 00:59:15.000 
 
-Participant 1: Is it gonna be so that somebody, you know, most people in the military, they write military documentation on a 5th grade level. Someone with that mentality, what are they gonna type in for a search prompt when they're looking for something? 
+Participant 2: Some of your healthcare stuff. 
 
  
 
 515 
 
-00:47:35.800 --> 00:47:45.640 
+00:59:15.000 --> 00:59:15.540 
 
-Participant 1: Is it gonna be… is there gonna be a broad enough spectrum so that someone with a PhD can type it in, or somebody with a 5th grade 
+Moderator: Hmm. 
 
  
 
 516 
 
-00:47:45.770 --> 00:47:51.360 
+00:59:16.270 --> 00:59:19.510 
 
-Participant 1: Education can type it in, and you still find what they're looking for. 
+Participant 2: messages, signature. 
 
  
 
 517 
 
-00:47:52.790 --> 00:48:01.270 
+00:59:23.800 --> 00:59:26.990 
 
-Moderator: So it sounds like the expectation is that it would be a little softer of a search and, you know, would take… accept a wide range of phrasing. 
-
- 
-
-518 
-
-00:48:01.270 --> 00:48:02.260 
-
-Participant 1: Yes. 
+Moderator: What kind of healthcare stuff would you be expecting to change? 
 
  
 
 519 
 
-00:48:02.260 --> 00:48:02.800 
+00:59:38.520 --> 00:59:39.900 
 
-Moderator: Okay. 
+Participant 2: it doesn't even 
 
  
 
 520 
 
-00:48:04.520 --> 00:48:07.379 
+00:59:42.270 --> 00:59:51.239 
 
-Moderator: So that would be a requirement for something like that for you. 
+Participant 2: So, it says that you can do it under there, but it's not a link for you to hit enter to go to it. None of these are, but then as you go down… 
 
  
 
 521 
 
-00:48:07.380 --> 00:48:08.520 
+00:59:57.020 --> 00:59:59.179 
 
-Participant 1: Yes. 
+Participant 2: Other than just that one. 
 
  
 
 522 
 
-00:48:10.720 --> 00:48:14.039 
+01:00:00.500 --> 01:00:04.300 
 
-Moderator: If we were to do that, is that something you could see yourself using? 
+Participant 2: That's the link to go to My Healthy Vet. 
 
  
 
 523 
 
-00:48:14.350 --> 00:48:15.590 
+01:00:08.190 --> 01:00:12.539 
 
-Participant 1: All the time. 
+Moderator: Okay, so you only see the… or… you are only… 
 
  
 
 524 
 
-00:48:15.590 --> 00:48:17.080 
+01:00:15.070 --> 01:00:18.050 
 
-Moderator: Okay, alright. 
+Moderator: Do you mind if I use the word C? I can't think of another word. 
 
  
 
 525 
 
-00:48:17.080 --> 00:48:17.850 
+01:00:18.050 --> 01:00:19.683 
 
-Participant 1: Yes. 
+Participant 2: That's fine! 
 
  
 
 526 
 
-00:48:20.410 --> 00:48:28.630 
+01:00:20.750 --> 01:00:24.299 
 
-Moderator: Alright, so too much specificity, bad, but if it's… if it's a little fuzzy, and it can, you know, read between the lines, then we're good. 
+Participant 2: That's fine. I'm just saying that, 
 
  
 
 527 
 
-00:48:28.860 --> 00:48:33.830 
+01:00:27.140 --> 01:00:31.900 
 
-Participant 1: Yes, because, yes. Yes. 
+Participant 2: I only heard one link, which is to go to the event, and I'll… 
 
  
 
 528 
 
-00:48:37.260 --> 00:48:48.470 
+01:00:35.010 --> 01:00:54.160 
 
-Moderator: Great. Another feature we're considering adding is account activity, such as when you last signed on, like, records of, like, when you signed on and what days and times. 
+Participant 2: I don't understand why it's called settings. Okay. It seems like it should be named something else, because when people think of… when they think of healthcare settings, they think that they can actually go in and change, some of their settings. Like I said, you have the appointments there, but then there's no link to actually go to 
 
  
 
 529 
 
-00:48:48.470 --> 00:48:50.639 
+01:00:54.410 --> 01:00:59.530 
 
-Participant 1: I thought that that was already there. 
+Participant 2: The healthcare appointments. 
 
  
 
 530 
 
-00:48:51.780 --> 00:48:56.590 
+01:00:59.530 --> 01:01:00.140 
 
-Participant 1: Is there not already a… something that tells you when the last time you were on this website? 
+Moderator: Yeah. 
 
  
 
 531 
 
-00:48:57.000 --> 00:49:00.580 
+01:01:00.140 --> 01:01:12.720 
 
-Moderator: Not in the current profile. 
+Participant 2: and then you send them to the healthcare My Healthy Vet, and then once they go there, then, of course, they gotta look for… to change the appointments and stuff. So, to me, if you're gonna mention… 
 
  
 
 532 
 
-00:49:00.580 --> 00:49:01.310 
+01:01:15.310 --> 01:01:22.679 
 
-Participant 1: Okay. 
+Participant 2: If you're gonna mention to manage your scheduling appointments, then this should be a link where they can just click on it and go to it. 
 
  
 
 533 
 
-00:49:01.310 --> 00:49:03.870 
+01:01:22.680 --> 01:01:27.009 
 
-Moderator: Maybe in an old website, I'm not sure. 
+Moderator: The only link that you're aware of is that go to My HealthyVet link. 
 
  
 
 534 
 
-00:49:04.510 --> 00:49:08.540 
+01:01:27.350 --> 01:01:28.270 
 
-Moderator: Is that… is that something you could see yourself using, why or why not? 
+Moderator: Oh, nice. 
 
  
 
 535 
 
-00:49:08.900 --> 00:49:17.140 
+01:01:28.270 --> 01:01:29.559 
 
-Participant 1: The only thing that I would… would… only reason that I would ever wonder about that is if I had thought I'd been hacked. 
+Participant 2: It's an opinion. 
 
  
 
 536 
 
-00:49:17.300 --> 00:49:23.939 
+01:01:30.240 --> 01:01:33.380 
 
-Participant 1: But, no, I don't think that that would be of interest to me. 
+Participant 2: I'm gonna listen again, just to make sure I didn't miss it. 
 
  
 
 537 
 
-00:49:25.030 --> 00:49:30.400 
+01:01:33.380 --> 01:01:33.970 
 
-Participant 1: Because… I don't… I can't… I don't know… 
-
- 
-
-538 
-
-00:49:31.420 --> 00:49:36.209 
-
-Participant 1: I don't know how that information would be useful to me. 
-
- 
-
-539 
-
-00:49:37.320 --> 00:49:44.420 
-
-Participant 1: Well, okay, so if… if you were… if you were to use that feature, why would you be interested when you 
+Moderator: Hang on. 
 
  
 
 540 
 
-00:49:44.710 --> 00:49:47.110 
+01:01:51.380 --> 01:01:52.669 
 
-Participant 1: Last signed on to a website. 
+Participant 2: Yeah, that's it. 
 
  
 
 541 
 
-00:49:50.500 --> 00:49:53.949 
+01:01:52.670 --> 01:01:53.700 
 
-Moderator: Sorry, I have to put it back to you. 
+Moderator: Okay, alright. 
 
  
 
-[Technical problems.] 
+542 
+
+01:01:53.700 --> 01:01:57.479 
+
+Participant 2: That's that one link, that it's saying. 
 
  
 
 543 
 
-00:49:56.080 --> 00:50:10.660 
+01:01:57.690 --> 01:02:02.479 
 
-Moderator: But, so it sounds like you would only want to check it out if you were 
+Participant 2: to go to my healthy vet. I think, if anything. 
 
  
 
 544 
 
-00:50:10.990 --> 00:50:13.560 
+01:02:03.380 --> 01:02:07.949 
 
-Moderator: Your account was compromised in some way, it sounds like. 
+Participant 2: Maybe instead of even having this, just have it as… 
 
  
 
 545 
 
-00:50:13.560 --> 00:50:19.959 
+01:02:08.420 --> 01:02:23.630 
 
-Participant 1: Yeah, other than that, to me… other than that, to me, I would… it wouldn't… it wouldn't matter. 
+Participant 2: where that's all you have there, is just to say, okay, this is healthcare, and then you just have the link for them to just go directly to healthcare. And then, like you said, you can just say, you can do these things there, but… 
 
  
 
 546 
 
-00:50:20.160 --> 00:50:20.710 
+01:02:25.810 --> 01:02:28.090 
 
-Moderator: Okay. 
+Participant 2: But other than that, I don't… 
 
  
 
 547 
 
-00:50:21.620 --> 00:50:23.739 
+01:02:30.510 --> 01:02:31.520 
 
-Moderator: So maybe not something you use very often. 
+Moderator: Yeah, yeah. 
 
  
 
 548 
 
-00:50:23.930 --> 00:50:27.050 
+01:02:31.520 --> 01:02:35.540 
 
-Participant 1: No, it wouldn't be something that I use very often, no. 
+Participant 2: I really see that you sent it, to be honest, because it's definitely not settings. 
 
  
 
 549 
 
-00:50:27.330 --> 00:50:27.920 
+01:02:35.930 --> 01:02:36.300 
 
-Moderator: Okay. 
+Moderator: Yeah, too. 
 
  
 
 550 
 
-00:50:30.640 --> 00:50:37.310 
+01:02:36.300 --> 01:02:39.270 
 
-Moderator: If the other feature we're considering is adding a page that would recap all of your benefits with the VA. 
+Participant 2: And to me, that's misleading. 
 
  
 
 551 
 
-00:50:38.050 --> 00:50:41.190 
+01:02:40.040 --> 01:02:45.530 
 
-Moderator: Is that something you could see yourself using? Why or why not? 
+Moderator: So, what are you… What are you aware of, like, on this page? What… 
 
  
 
 552 
 
-00:50:41.330 --> 00:50:58.720 
+01:02:47.410 --> 01:02:52.810 
 
-Participant 1: Well, yes, that would be handy, because, you know, as you get older, you do get forgetful, and sometimes you need a reminder, or like I said, if somebody was having to navigate my benefits, and I had suddenly become unable to manage myself. 
+Moderator: from… from your review, with your JAWS, what is… what does this page contain? 
 
  
 
 553 
 
-00:50:59.040 --> 00:51:16.579 
+01:02:57.000 --> 01:02:58.920 
 
-Participant 1: they could get on here. For instance, my husband, my sister could get on here, and they could say, oh, you know, we can take [name] to the VA hospital. Oh, has a con… can go to the commissary, because he's her dependent, and they could take over the management of us. 
+Participant 2: From what I just learned. 
 
  
 
 554 
 
-00:51:16.690 --> 00:51:19.140 
+01:02:58.920 --> 01:02:59.240 
 
-Participant 1: And everything would be right there. 
+Moderator: Yeah. 
 
  
 
 555 
 
-00:51:19.860 --> 00:51:26.559 
+01:02:59.240 --> 01:03:03.819 
 
-Participant 1: Because I've got it set up so my sister has access… my sister and my niece have access to everything of mine. 
+Participant 2: It has the link to get to My HealthyVet or the healthcare. 
 
  
 
 556 
 
-00:51:26.940 --> 00:51:31.650 
+01:03:04.630 --> 01:03:10.799 
 
-Participant 1: And so, you know, God forbid something happened to [spouse] and I both. 
+Participant 2: It's got… Something about a message or a signature or something, which… 
 
  
 
 557 
 
-00:51:32.110 --> 00:51:44.880 
+01:03:10.800 --> 01:03:11.410 
 
-Participant 1: and, you know, they had to take [spouse] to the grocery store, he… they would know, okay, he's got a military ID card, he can go to the commissary, he can get on the base, 
+Moderator: Okay. 
 
  
 
 558 
 
-00:51:45.450 --> 00:51:51.510 
+01:03:12.610 --> 01:03:17.550 
 
-Participant 1: So… Yeah, I would think that that would be a good thing to have all in one place, yes. 
+Participant 2: Message's signature. 
 
  
 
 559 
 
-00:51:53.590 --> 00:52:01.639 
+01:03:17.820 --> 01:03:18.590 
 
-Participant 1: And because you have your benefit verification letter that tells you every single thing that you have access to according to your disability? 
+Moderator: Okay. 
 
  
 
 560 
 
-00:52:01.900 --> 00:52:02.450 
+01:03:18.590 --> 01:03:21.530 
 
-Moderator: Oh! 
+Participant 2: I don't really understand that either. I don't. 
 
  
 
 561 
 
-00:52:03.850 --> 00:52:11.349 
+01:03:21.530 --> 01:03:24.350 
 
-Participant 1: Well, so when you open up your benefit verification letter, because that's what you take down to the county, the… 
+Moderator: Okay, so you're not sure what message's signature really means? 
 
  
 
 562 
 
-00:52:12.380 --> 00:52:27.090 
+01:03:24.660 --> 01:03:29.869 
 
-Participant 1: assessor, when you get your tax-exempt card, you have to take all of that with you. And then, also, I have had to send that verification letter off to a couple of different people to show my tax exemption. 
+Participant 2: Okay. No, I don't know what that… I don't know what that means. Messages signature. 
 
  
 
 563 
 
-00:52:28.020 --> 00:52:28.890 
+01:03:30.220 --> 01:03:34.510 
 
-Participant 1: So… 
+Participant 2: so I don't… I don't understand that. 
 
  
 
 564 
 
-00:52:32.160 --> 00:52:33.460 
+01:03:34.740 --> 01:03:36.739 
 
-Moderator: I did not know that. 
+Moderator: Oh, that's really good. Thanks for letting us know. 
+
+ 
+
+565 
+
+01:03:37.380 --> 01:03:45.539 
+
+Participant 2: Yeah, it says manage the signature on your messages, but I still don't know what that means. Like, why would I need to do that? What is that for? 
 
  
 
 566 
 
-00:52:38.170 --> 00:52:42.240 
+01:03:45.660 --> 01:03:57.889 
 
-Moderator: And after exploring the profile, if you had a magic wand, is there anything you'd want to change? 
+Participant 2: Why would I need to manage the signature on my messages, and what messages are we speaking of? Are we talking about the messages within healthcare? Whenever you're sending something to your provider? 
 
  
 
 567 
 
-00:52:44.000 --> 00:52:45.229 
+01:03:58.290 --> 01:04:01.480 
 
-Participant 1: Let me see… 
+Participant 2: Is… are those the messages that we're talking about? 
 
  
 
 568 
 
-00:52:48.380 --> 00:52:53.129 
+01:04:03.170 --> 01:04:05.290 
 
-Participant 1: Well, I'd want to change that to related, related, 
+Participant 2: It's just not clear to me. 
 
  
 
 569 
 
-00:52:54.210 --> 00:52:58.089 
+01:04:05.290 --> 01:04:05.610 
 
-Participant 1: I don't want to change that Related Pages menu now that I see it. 
+Moderator: Yeah. 
 
  
 
 570 
 
-00:52:58.740 --> 00:52:59.330 
+01:04:07.250 --> 01:04:10.889 
 
-Moderator: Fair enough. 
+Participant 2: Yeah, it's just not clear. And then… 
 
  
 
 571 
 
-00:52:59.330 --> 00:53:00.890 
+01:04:11.720 --> 01:04:24.160 
 
-Participant 1: That was it, that would be it. 
+Participant 2: Link scheduling preferences, okay? So, I could click on… I'm assuming I could click on that link to see different ways that I could schedule the appointments. 
 
  
 
 572 
 
-00:53:01.550 --> 00:53:03.540 
+01:04:25.510 --> 01:04:31.860 
 
-Moderator: Sounds good. 
+Moderator: Okay. So in your mind, scheduling preferences means… Like, you can schedule appointments. 
 
  
 
 573 
 
-00:53:08.180 --> 00:53:14.509 
+01:04:32.960 --> 01:04:38.220 
 
-Moderator: What are your thoughts on… well, I already asked that. How likely would you use the profile as it exists today? 
+Participant 2: like, if I want to pick appointments for the morning, the afternoon, or the evening, or whatever, I guess. 
 
  
 
 574 
 
-00:53:16.110 --> 00:53:22.699 
+01:04:39.000 --> 01:04:39.709 
 
-Participant 1: There's no reason for me to go back in here, because my information is not going to ever change. 
+Moderator: And then you said. 
 
  
 
 575 
 
-00:53:22.700 --> 00:53:23.280 
+01:04:39.710 --> 01:04:40.330 
 
-Moderator: Okay. 
+Participant 2: this? 
 
  
 
 576 
 
-00:53:23.280 --> 00:53:26.570 
+01:04:40.560 --> 01:04:41.980 
 
-Participant 1: So… I'm… I'm set. 
+Moderator: You did see a link there? 
 
  
 
 577 
 
-00:53:27.480 --> 00:53:33.770 
+01:04:46.710 --> 01:04:53.060 
 
-Participant 1: as I am right now, there's… nothing's gonna change in my life where I'm ever gonna have to go back in here and change anything. 
+Participant 2: Yeah, there is a link for scheduling purposes. I don't know why I didn't say link the first time, though, because you heard me arrow through it. 
 
  
 
 578 
 
-00:53:34.170 --> 00:53:34.890 
+01:04:53.060 --> 01:04:53.520 
 
-Moderator: Okay. 
+Moderator: Yeah. 
 
  
 
 579 
 
-00:53:35.880 --> 00:53:36.960 
+01:04:53.520 --> 01:05:03.149 
 
-Moderator: I… 
+Participant 2: a couple of times, and it didn't say link, the other times. The only link that I heard was that last one, so I don't know why it did that. 
 
  
 
 580 
 
-00:53:37.510 --> 00:53:54.540 
+01:05:03.700 --> 01:05:04.590 
 
-Moderator: It looks like we have a few… I have a few follow-up questions, just based on our conversation while we wind down. I was wondering what you keep up to date for your… so thinking back to… you mentioned when we were first starting talking that you were… you manage, information about your husband in relation to CHAMPVA. 
+Moderator: Interesting. 
 
  
 
 581 
 
-00:53:54.540 --> 00:53:55.120 
+01:05:04.590 --> 01:05:18.520 
 
-Participant 1: Hmm. 
+Participant 2: Okay. Because you heard me go through it twice, and I said, well, hold on, let me go back and listen to see if there are any other links, and then we didn't hear any. The only… only time it said link was the very last one. Okay. So, I don't know why I did that. 
 
  
 
 582 
 
-00:53:55.120 --> 00:54:01.599 
+01:05:19.230 --> 01:05:22.699 
 
-Moderator: I was just wondering, what information do you keep up to date for him, in relation to his CHAMP VA benefits? 
+Moderator: It's good to know. Thanks for helping us uncover mysteries. 
 
  
 
 583 
 
-00:54:01.600 --> 00:54:14.629 
+01:05:24.860 --> 01:05:30.270 
 
-Participant 1: So, you know, he had to wait a little while before he could get on Champ VA, because my husband worked up until last year, and so when he retired, then we could apply for his Champ VA benefits, and so… 
+Participant 2: Okay. 
 
  
 
 584 
 
-00:54:14.790 --> 00:54:25.230 
+01:05:30.270 --> 01:05:36.990 
 
-Participant 1: I… With, you know, going in here, 
+Moderator: And so, for the scheduling preferences, you said this is how you would expect to set up 
 
  
 
 585 
 
-00:54:26.500 --> 00:54:35.070 
+01:05:37.150 --> 01:05:39.649 
 
-Participant 1: I would check this to see where he was in the process, and now that that's done, he's… 
+Moderator: Like, scheduling preferences with your provider. 
 
  
 
 586 
 
-00:54:36.320 --> 00:54:42.200 
+01:05:39.830 --> 01:05:41.440 
 
-Participant 1: Now, all we're having to do is send information in to get reimbursed. 
+Moderator: Is that what you were saying? 
 
  
 
 587 
 
-00:54:42.690 --> 00:54:43.240 
+01:05:45.170 --> 01:05:50.129 
 
-Moderator: Mmm. 
+Participant 2: Yeah, I guess I would. 
 
  
 
 588 
 
-00:54:43.240 --> 00:54:49.130 
+01:05:50.130 --> 01:05:52.950 
 
-Participant 1: So… But, you know, Champ VA has a website for all of that. 
+Moderator: Or if it's not, then just clarify what… 
 
  
 
 589 
 
-00:54:53.140 --> 00:54:54.429 
+01:06:03.940 --> 01:06:11.319 
 
-Participant 1: I don't know. 
+Participant 2: when I heard of scheduling preferences, to me, that meant when I… For me to set 
 
  
 
 590 
 
-00:54:55.690 --> 00:55:02.630 
+01:06:11.320 --> 01:06:31.309 
 
-Participant 1: if I really would even need to bother going in here anymore to look at that information. 
+Participant 2: the days or times that I would like my messages, and that I would like my appointments, because whenever you go to the VA, they'll ask you, do you want morning, afternoon, you know, do you want morning or afternoon, or something like that? Which one do you prefer? So that was the first thing that came to my mind when I heard schedule preferences. 
 
  
 
 591 
 
-00:55:03.590 --> 00:55:04.360 
+01:06:31.310 --> 01:06:35.720 
 
-Moderator: Gotcha. 
+Participant 2: Morning appointments or afternoon appointments. 
 
  
 
 592 
 
-00:55:06.810 --> 00:55:07.720 
+01:06:36.240 --> 01:06:44.930 
 
-Participant 1: So… 
+Participant 2: Or maybe, you know, what day of the week. That's kind of the first thing that came in my mind when I heard that. Okay. 
 
  
 
 593 
 
-00:55:12.750 --> 00:55:18.650 
+01:06:46.160 --> 01:06:47.070 
 
-Moderator: And then, thinking back to our conversation about search feature on the profile. 
+Participant 2: Boom. 
 
  
 
 594 
 
-00:55:20.280 --> 00:55:27.330 
+01:06:49.420 --> 01:06:51.920 
 
-Moderator: Would you prefer something that was, like, a… you start typing, and then there were options shown to you as to. 
+Participant 2: Manage your other healthcare needs, something like that. 
 
  
 
 595 
 
-00:55:27.610 --> 00:55:35.580 
+01:06:55.150 --> 01:06:55.950 
 
-Participant 1: No, like, no, what do they call that? It's like texting on your iPhone. What do they call that? It's. 
+Participant 2: Okay. 
 
  
 
 596 
 
-00:55:36.010 --> 00:55:36.860 
+01:07:00.110 --> 01:07:02.129 
 
-Moderator: type ahead. 
+Moderator: And then, is there anything else… 
 
  
 
 597 
 
-00:55:37.010 --> 00:55:43.470 
+01:07:02.680 --> 01:07:06.449 
 
-Participant 1: Yeah, or there's a predictive text. No, I don't like that, because… 
+Moderator: Any other kind of healthcare settings you would expect to see on this page? 
 
  
 
 598 
 
-00:55:43.890 --> 00:55:46.109 
+01:07:17.700 --> 01:07:35.709 
 
-Participant 1: I don't… I do not like that. 
+Participant 2: Honestly, I'm not really sure, because I don't go into… I don't go into, the healthcare app and settings and stuff that often, so I just really know, like, the basic, basic stuff that's in there, so I don't really know enough to… 
 
  
 
 599 
 
-00:55:46.110 --> 00:55:46.670 
+01:07:35.910 --> 01:07:36.809 
 
-Moderator: Okay. 
+Moderator: Really quick, it looks… 
 
  
 
 600 
 
-00:55:46.670 --> 00:55:48.850 
+01:07:36.810 --> 01:07:38.359 
 
-Participant 1: I would want to type it in myself. 
-
- 
-
-601 
-
-00:55:49.020 --> 00:55:53.260 
-
-Participant 1: Because using predictive text, Can… 
+Participant 2: Yes, to be honest with you. 
 
  
 
-602 
-
-00:55:53.710 --> 00:56:11.789 
-
-Participant 1: make you lazy, because it starts filling in, and you're not paying attention, and you think, oh, you know, that's taking over for me, and it's incorrect, and now you've wasted time, you've got something open, you've got to go back, the predictive text has typed something in 
-
- 
-
-603 
-
-00:56:12.250 --> 00:56:17.010 
-
-Participant 1: something else in that you were not looking for, so no, I would not… I would not like that. 
-
- 
-
-604 
-
-00:56:19.210 --> 00:56:20.080 
-
-Moderator: Good to know. 
-
- 
-
-605 
-
-00:56:21.720 --> 00:56:31.829 
-
-Moderator: Those are all the questions I have. I'm… observers, [name], [name], or [name], do any of you have any questions for [name]? 
-
- 
-
-606 
-
-00:56:33.460 --> 00:56:34.810 
-
-[AT support]: I do, real quickly. 
-
- 
-
-608 
-
-00:56:36.810 --> 00:56:50.769 
-
-[AT support]: So, I just had a quick question about your Zoom. So during the session, it didn't seem like you were using Zoom. How do you typically use it when it comes to VA sites? Is it something that you turn on? 
-
- 
-
-609 
-
-00:56:50.880 --> 00:56:51.830 
-
-[AT support]: Yeah, my phone… 
-
- 
-
-610 
-
-00:56:51.830 --> 00:56:58.939 
-
-Participant 1: I can tell you what it's magnified up to right now. Let's see… maybe. 
-
- 
-
-611 
-
-00:56:59.380 --> 00:57:09.439 
-
-Participant 1: It… I am at… Let me see, let me type on this… Oops, sorry. 
-
- 
-
-612 
-
-00:57:10.610 --> 00:57:17.320 
-
-Participant 1: Do-do-do-do… Here we go, sorry. Right now, I'm at 160%. 
-
- 
-
-613 
-
-00:57:18.080 --> 00:57:18.700 
-
-[AT support]: Okay. 
-
- 
-
-614 
-
-00:57:19.170 --> 00:57:37.410 
-
-Participant 1: But I will sometimes go up to 2, I believe it's 220. And I, have found, and I've just started recently using this, that going down to the bottom and doing Chrome only and all apps, I have to change that setting. 
-
- 
-
-615 
-
-00:57:37.410 --> 00:57:49.830 
-
-Participant 1: Specifically, my little tiny dog eats Ollie dog food. Their app does not work if my, Zoom text, my text size 
-
- 
-
-616 
-
-00:57:49.880 --> 00:57:53.760 
-
-Participant 1: is above a certain percent, so I have to change it 
-
- 
-
-617 
-
-00:57:53.830 --> 00:57:58.739 
-
-Participant 1: And turn my phone sideways to read their application. 
+[Session timing out.] 
 
  
 
 618 
 
-00:57:59.120 --> 00:58:00.400 
+01:08:32.830 --> 01:08:41.950 
 
-Participant 1: To use their app. 
+Participant 2: Yeah, I was just saying, I don't really go on the, the healthcare app, a website and stuff. 
 
  
 
 619 
 
-00:58:01.340 --> 00:58:04.479 
+01:08:42.279 --> 01:08:44.130 
 
-Participant 1: Does that help… does that help answer your question? 
+Participant 2: So, I… 
 
  
 
 620 
 
-00:58:04.780 --> 00:58:15.719 
+01:08:44.850 --> 01:08:52.879 
 
-[AT support]: It does. And then as it relates to VA site, when you are zoomed in, does it make things easier or harder to use? 
+Participant 2: I honestly can't say what I think would be good to be here, because I'm just not knowledgeable enough about it. I don't go on there enough. 
 
  
 
 621 
 
-00:58:16.560 --> 00:58:18.020 
+01:08:52.880 --> 01:08:53.220 
 
-[AT support]: When you're zoomed in on video. 
+Moderator: Okay. 
 
  
 
 622 
 
-00:58:18.020 --> 00:58:36.460 
+01:08:53.220 --> 01:08:55.300 
 
-Participant 1: I have not found a problem with the VA site. Everything fits within the screen, nothing goes off of the screen when I've got my Zoom, my magnification on. And, you know, I think that that's because it goes off of whatever I've got my Chrome setting on. 
+Participant 2: to know, so… 
 
  
 
 623 
 
-00:58:37.770 --> 00:58:38.090 
+01:08:55.890 --> 01:09:06.019 
 
-[AT support]: Okay. 
+Participant 2: I don't really have really any suggestions, to be honest, because it's got the link there to go there, to the My Healthy Vet, so… 
 
  
 
 624 
 
-00:58:38.090 --> 00:58:41.270 
+01:09:06.490 --> 01:09:14.149 
 
-Participant 1: I'm not positive about that, because I'm… don't… 
-
- 
-
-625 
-
-00:58:41.660 --> 00:58:49.809 
-
-Participant 1: like I said earlier, I have a little bit of skills on the computer, but I don't know how websites are built, so I don't know how they… 
-
- 
-
-626 
-
-00:58:51.460 --> 00:58:59.920 
-
-Participant 1: I don't know all the math and making things fit on the page when you've got your Zoom on, and then you're moving through different websites. 
-
- 
-
-627 
-
-00:59:00.090 --> 00:59:10.670 
-
-Participant 1: So, but no, I don't… I don't have any problem on the VA website. However, I not only have this zoomed up, but I also have 2… 2%… 200% 
-
- 
-
-628 
-
-00:59:10.670 --> 00:59:20.149 
-
-Participant 1: Mag glasses on, so… I had a… I have a rare [medical disorder], and I threw a [medical disorder with eyesight]. 
+Moderator: All right. All right, we'd like to navigate now just to one more spot, so if we can go to Dependents and Contacts. 
 
  
 
 629 
 
-00:59:20.460 --> 00:59:23.629 
+01:10:04.740 --> 01:10:06.759 
 
-Participant 1: in 2009, and I lost my central vision. 
+Moderator: Okay, and how did you navigate there? 
 
  
 
 630 
 
-00:59:23.880 --> 00:59:32.139 
+01:10:07.990 --> 01:10:14.290 
 
-Participant 1: And my left eye was my strong eye, and so my right eye, you know, basically does all the work when I'm looking at my phone. 
+Participant 2: From this page, I went to insert F7, to bring up my list of links. 
 
  
 
 631 
 
-00:59:33.130 --> 00:59:33.859 
+01:10:15.230 --> 01:10:23.460 
 
-Moderator: Oh, wow. 
+Participant 2: And then I listen for, dependent. And something I could have done… I'll just check this real quick, give me just a moment. 
 
  
 
 632 
 
-00:59:40.100 --> 00:59:45.200 
+01:10:23.910 --> 01:10:25.450 
 
-Participant 1: Because I have no… I have nothing centrally in my left eye. 
+Participant 2: Awesome. It's not bad. 
 
  
 
 633 
 
-00:59:49.400 --> 00:59:50.980 
+01:10:25.680 --> 01:10:39.210 
 
-Participant 1: I lost my phobia. 
+Participant 2: Because sometimes… sometimes I tend to go the long way, but I'm gonna do instead of 7, and then I'm gonna hit D for dependents and see if it comes up, because that's something that people use a lot, too, is first letter navigation. 
 
  
 
 634 
 
-00:59:54.490 --> 00:59:58.950 
+01:10:40.180 --> 01:10:46.360 
 
-Moderator: Thank you so much for sharing. Is there any other questions? 
+Participant 2: 6. Instead of 7… And then I'm just gonna hit D for dependents. 
 
  
 
 635 
 
-00:59:59.160 --> 01:00:14.789 
+01:10:47.030 --> 01:10:48.470 
 
-Participant 1: No, I… no, there isn't. I'm good. I learned some things today, which is one of the reasons why I like to do this, because it prompts me to go a little bit further into this, too, and just stay up to date with what's going on. 
+Participant 2: Direct deposit? 
 
  
 
 636 
 
-01:00:16.230 --> 01:00:23.710 
+01:10:49.070 --> 01:10:51.839 
 
-Participant 1: Because I appreciate everything the VA does for me, and, you know, and also for my husband, consequently, so… 
+Participant 2: And then there it is, and then I can still hit enter. 
 
  
 
 637 
 
-01:00:23.930 --> 01:00:31.380 
+01:10:53.720 --> 01:10:56.640 
 
-Participant 1: I have… I don't complain about the VA. I don't complain about the VA hospital, I don't complain about the VA. I'm grateful for it. 
+Participant 2: So… So good, that works. 
 
  
 
 638 
 
-01:00:33.630 --> 01:00:37.420 
+01:10:57.140 --> 01:10:58.180 
 
-Moderator: Well, thank you so much for your feedback. Just checking in, [name] and [name], you good? 
+Moderator: Okay, cool. 
 
  
 
 639 
 
-01:00:38.230 --> 01:00:50.510 
+01:10:58.750 --> 01:10:59.290 
 
-Participant 1: And you young… you young, strong, smart minds, I appreciate you guys that you took this field on, and this is your expertise, and… because it helps us. We're… we're old, we need assistance. 
+Participant 2: Yeah. 
 
  
 
 640 
 
-01:00:51.750 --> 01:00:53.010 
+01:10:59.930 --> 01:11:05.049 
 
-Participant 1: This in the mailbox. 
+Moderator: Alright, so similar to the other pages, we'd love to have you review what's on this page. 
 
  
 
 641 
 
-01:00:54.410 --> 01:01:03.829 
+01:11:05.230 --> 01:11:09.010 
 
-Moderator: Well, we are definitely looking to improve, and we really appreciate your feedback. I want to just confirm that you are comfortable if I share anything from today's session. 
+Moderator: And let us know if there's anything you feel is missing. 
 
  
 
 642 
 
-01:01:03.830 --> 01:01:04.990 
+01:11:09.130 --> 01:11:12.059 
 
-Participant 1: Oh, I'm fine. 
+Moderator: That you'd expect to have on this page. 
 
  
 
 643 
 
-01:01:04.990 --> 01:01:05.590 
+01:11:12.630 --> 01:11:13.500 
 
-Moderator: Perfect. 
+Participant 2: Okay. 
 
  
 
 644 
 
-01:01:05.720 --> 01:01:07.540 
+01:11:54.780 --> 01:11:55.929 
 
-Moderator: So… 
+Participant 2: I see it. 
 
  
 
 645 
 
-01:01:08.330 --> 01:01:27.970 
+01:12:09.590 --> 01:12:11.939 
 
-Moderator: You know, I'll give you 22 minutes of back. Thank you so much for joining today. Your feedback is super helpful, like, like I said, and like you know, in helping us improve. Perug[name] will be sending you a thank you note with a little burb you can pass along. We're always looking for more veterans to join our panels and participate in future research studies. 
+Participant 2: I would have thought that it would have been listed. 
 
  
 
 646 
 
-01:01:28.220 --> 01:01:32.469 
+01:12:12.820 --> 01:12:14.830 
 
-Moderator: And that's all I have. Thank you so much. This has been great. 
+Moderator: So, what did you hear listed? 
 
  
 
 647 
 
-01:01:33.020 --> 01:01:34.570 
+01:12:16.320 --> 01:12:17.470 
 
-Participant 1: Okay, thank you. 
-
- 
-
-648 
-
-01:01:34.570 --> 01:01:35.699 
-
-Moderator: Have a wonderful day! 
+Participant 2: It's funny. 
 
  
 
 649 
 
-01:01:35.700 --> 01:01:36.820 
+01:12:39.540 --> 01:12:50.959 
 
-Participant 1: You too, bye-bye! 
+Participant 2: So, you got dependent information, but then you have a link for me to go to the dependent information. I would have thought that it would have already been listed, because to me, that's the purpose of the dependent information. 
 
  
 
 650 
 
-01:01:36.820 --> 01:01:37.780 
+01:12:51.480 --> 01:12:57.929 
 
-Moderator: Bye, everyone! 
+Participant 2: You click on a link to go to dependent information, then you gotta click on another link to actually go to dependent information. 
 
  
+
+651 
+
+01:12:58.440 --> 01:12:59.330 
+
+Moderator: Okay. 
+
+ 
+
+652 
+
+01:12:59.330 --> 01:13:06.859 
+
+Participant 2: Like, that doesn't make sense. If you… it should already be listed, the dependent information. And something that… 
+
+ 
+
+653 
+
+01:13:06.990 --> 01:13:13.700 
+
+Participant 2: And I was wondering… it has the VSO stuff here, But… 
+
+ 
+
+654 
+
+01:13:19.950 --> 01:13:22.689 
+
+Participant 2: I don't understand why, 
+
+ 
+
+655 
+
+01:13:39.180 --> 01:13:46.800 
+
+Participant 2: Yeah, I think instead of this being a link for Dependence on File, I think that information should be on this page. 
+
+ 
+
+656 
+
+01:13:48.900 --> 01:13:51.130 
+
+Moderator: So, you would expect to see… 
+
+ 
+
+657 
+
+01:13:51.260 --> 01:13:54.500 
+
+Moderator: Dependents actually listed out here. 
+
+ 
+
+658 
+
+01:13:54.500 --> 01:14:08.579 
+
+Participant 2: Yeah, yeah, I would expect to see the dependents actually listed, and the same type of thing where, with the email address and phone number stuff, where it would say the dependent's name. 
+
+ 
+
+659 
+
+01:14:08.760 --> 01:14:19.310 
+
+Participant 2: Edit the dependent's name, or remove this dependent. Like, I would expect for it to be like that and stuff like that, where you can change it as well, if need be. 
+
+ 
+
+660 
+
+01:14:19.310 --> 01:14:28.089 
+
+Moderator: Got it. And… Would you expect both the accredited representative and the dependents listed out on this page? 
+
+ 
+
+661 
+
+01:14:29.270 --> 01:14:29.950 
+
+Participant 2: No. 
+
+ 
+
+662 
+
+01:14:30.340 --> 01:14:30.930 
+
+Moderator: Okay. 
+
+ 
+
+663 
+
+01:14:31.510 --> 01:14:36.870 
+
+Participant 2: No. That threw me off, because I was like, the VSO… I… 
+
+ 
+
+664 
+
+01:14:39.190 --> 01:14:44.180 
+
+Participant 2: I mean, I guess, do some people have a VSO as their dependent? 
+
+ 
+
+665 
+
+01:14:46.820 --> 01:14:48.199 
+
+Participant 2: Because that doesn't make sense. 
+
+ 
+
+666 
+
+01:14:48.480 --> 01:14:49.399 
+
+Moderator: Not as difficult. 
+
+ 
+
+667 
+
+01:14:49.400 --> 01:14:51.660 
+
+Participant 2: So, the Veterans Service Office, right? 
+
+ 
+
+668 
+
+01:14:52.230 --> 01:14:53.320 
+
+Moderator: Yeah, yeah. 
+
+ 
+
+669 
+
+01:14:53.480 --> 01:14:59.630 
+
+Moderator: So, what… The header for this section is Dependents and Contacts. 
+
+ 
+
+670 
+
+01:15:02.140 --> 01:15:08.180 
+
+Moderator: So, the VSO would be more a part of the contacts. But we would love to hear your thoughts on that, like… 
+
+ 
+
+671 
+
+01:15:08.660 --> 01:15:13.430 
+
+Moderator: you said it confused you when you saw VSO on here. 
+
+ 
+
+672 
+
+01:15:13.570 --> 01:15:15.439 
+
+Moderator: Would love to hear a little bit more about that. 
+
+ 
+
+673 
+
+01:15:16.110 --> 01:15:32.790 
+
+Participant 2: Yeah, so if you're gonna say dependents and contacts, I would think that that would mean that that would be my dependents, and then also contacts, as in, like, say, my emergency contacts, or family members of somebody that I could contact. 
+
+ 
+
+674 
+
+01:15:32.790 --> 01:15:36.169 
+
+Participant 2: Not as in, like, a VSO contact. 
+
+ 
+
+675 
+
+01:15:36.970 --> 01:15:39.749 
+
+Participant 2: I think that should be in a different place. 
+
+ 
+
+676 
+
+01:15:39.750 --> 01:15:40.490 
+
+Moderator: Okay. 
+
+ 
+
+677 
+
+01:15:40.970 --> 01:15:44.110 
+
+Participant 2: I don't… I don't… to me, it seems out of place. 
+
+ 
+
+678 
+
+01:15:44.540 --> 01:15:46.750 
+
+Participant 2: I heard something… 
+
+ 
+
+679 
+
+01:15:58.630 --> 01:16:03.389 
+
+Participant 2: So, review the contact information for your VSO attorney, whatever. 
+
+ 
+
+680 
+
+01:16:03.550 --> 01:16:08.319 
+
+Participant 2: I don't know where that should be, but… 
+
+ 
+
+681 
+
+01:16:09.180 --> 01:16:14.979 
+
+Participant 2: Dependent and contact information just doesn't seem like the right place for it. 
+
+ 
+
+682 
+
+01:16:15.300 --> 01:16:15.740 
+
+Moderator: Got it. 
+
+ 
+
+683 
+
+01:16:16.820 --> 01:16:32.169 
+
+Participant 2: Yeah, it does… it seems out of place to me. And I actually was really confused. When I first heard it, I was like, VSO? Because that almost made me wonder, like, okay, where's my… where's my dependent information? Like, maybe this is, 
+
+ 
+
+684 
+
+01:16:32.270 --> 01:16:38.639 
+
+Participant 2: a different section than I thought I was clicking on. Or the other option could be… 
+
+ 
+
+685 
+
+01:16:40.020 --> 01:16:59.809 
+
+Participant 2: instead of having that at the very top, maybe put it at the bottom. Like, after you do… after you do list the dependent information, or emergency contacts, or whatever contact for those dependents, because, again, dependent information and contact, I would think that that would be the contact information for my dependent. 
+
+ 
+
+686 
+
+01:16:59.810 --> 01:17:01.820 
+
+Moderator: Okay, that makes sense. 
+
+ 
+
+687 
+
+01:17:01.820 --> 01:17:06.379 
+
+Participant 2: That's what I would think that would be, the dependents and the contact information for my dependents. 
+
+ 
+
+688 
+
+01:17:06.590 --> 01:17:12.580 
+
+Participant 2: And then if you wanted to steal, if you felt like it still went there, then maybe you could put it kind of… 
+
+ 
+
+689 
+
+01:17:12.680 --> 01:17:13.980 
+
+Participant 2: After. 
+
+ 
+
+690 
+
+01:17:14.610 --> 01:17:21.960 
+
+Participant 2: the dependent information and contact information, and just kind of put it at the bottom. And then they have it where… 
+
+ 
+
+691 
+
+01:17:22.230 --> 01:17:34.950 
+
+Participant 2: Where they… that information could be under there, because I have a, 
+
+ 
+
+692 
+
+01:17:35.880 --> 01:17:52.600 
+
+Participant 2: because I used to be VA, you know, the Blind Veterans Association, for my claims and stuff like that, for help with stuff. And so, of course, you do need… that information does need to be somewhere, but they're not a dependent, and I don't think they belong. 
+
+ 
+
+693 
+
+01:17:53.220 --> 01:17:53.890 
+
+Moderator: Yeah. 
+
+ 
+
+694 
+
+01:17:54.040 --> 01:17:57.450 
+
+Participant 2: In this area, because… because it doesn't apply. 
+
+ 
+
+695 
+
+01:17:58.070 --> 01:17:58.770 
+
+Participant 2: Okay. 
+
+ 
+
+696 
+
+01:17:58.770 --> 01:17:59.350 
+
+Moderator: Okay. 
+
+ 
+
+697 
+
+01:17:59.470 --> 01:18:00.800 
+
+Moderator: Great to know. 
+
+ 
+
+698 
+
+01:18:01.080 --> 01:18:15.539 
+
+Moderator: Alright, so that wraps up what we wanted to go over today. Thank you so much for your… your help and your support in reviewing this with us. We really appreciate your thoughts, your time, your experience. 
+
+ 
+
+699 
+
+01:18:15.750 --> 01:18:21.729 
+
+Moderator: And we're definitely gonna use the things we learn from you as we continue to… 
+
+ 
+
+700 
+
+01:18:22.080 --> 01:18:25.020 
+
+Moderator: Add to the site, and improve upon it. 
+
+ 
+
+701 
+
+01:18:25.600 --> 01:18:38.559 
+
+Participant 2: Good, thank you. And I… I do love, the links list. You know, I do love the links, but I do think the headings maybe need to be, improved upon a little bit. 
+
+ 
+
+702 
+
+01:18:38.560 --> 01:18:39.560 
+
+Moderator: Okay. Yeah. 
+
+ 
+
+703 
+
+01:18:39.570 --> 01:18:51.979 
+
+Participant 2: Like, the healthcare settings, I don't really feel like that those are, like, settings for healthcare. Yeah. And like I said, with this one, the dependent info and contacts, like. 
+
+ 
+
+704 
+
+01:18:52.270 --> 01:18:53.300 
+
+Participant 2: So… 
+
+ 
+
+705 
+
+01:18:53.440 --> 01:19:06.900 
+
+Participant 2: And then, of course, you probably need to add a couple of headings, you know, to make it easier to get to some of the other information when we were talking about the military records and some of that stuff. Got it. But I do love… 
+
+ 
+
+706 
+
+01:19:07.480 --> 01:19:10.850 
+
+Participant 2: That there's a lot of, you know, links to go to. 
+
+ 
+
+707 
+
+01:19:11.020 --> 01:19:12.160 
+
+Moderator: Okay, cool. 
+
+ 
+
+708 
+
+01:19:12.160 --> 01:19:16.129 
+
+Participant 2: I make sure we go there that the information is there that we need. 
+
+ 
+
+709 
+
+01:19:16.270 --> 01:19:18.640 
+
+Moderator: Yup, I'm trying to do this, yeah. 
+
+ 
+
+710 
+
+01:19:18.640 --> 01:19:22.009 
+
+Participant 2: Thank you all, I appreciate it. 
+
+ 
+
+711 
+
+01:19:22.010 --> 01:19:36.109 
+
+Moderator: Thank you. And then, just want to let you know, Paridian will be sending a thank you note with a little… a little blurb that you can pass along to other veterans, to also give them a chance to participate in research studies in the future, so… 
+
+ 
+
+712 
+
+01:19:36.110 --> 01:19:45.609 
+
+Participant 2: I've been spreading the word, but I think that, I mean, and I've been doing it for years, I've been letting people know about it, but I think that, 
+
+ 
+
+713 
+
+01:19:47.340 --> 01:19:54.839 
+
+Participant 2: some of those… some of the people, they don't, necessarily use the browser, they don't really use the computer that often. 
+
+ 
+
+714 
+
+01:19:55.350 --> 01:19:58.860 
+
+Participant 2: And, some of them are not really, 
+
+ 
+
+715 
+
+01:19:58.970 --> 01:20:07.049 
+
+Participant 2: tech-savvy and stuff like that, but I've been spreading the word, I've been telling people, so I hope people have been participating, but I haven't… 
+
+ 
+
+716 
+
+01:20:07.490 --> 01:20:17.319 
+
+Participant 2: heard, you know, somebody say, well, hey, I did, you know, the research thing, or whatever. I haven't heard anybody tell me that, but I've been spreading it. I even put it in a, 
+
+ 
+
+717 
+
+01:20:18.000 --> 01:20:24.930 
+
+Participant 2: I participate with a blinded veterans group. It's a… they have different… 
+
+ 
+
+718 
+
+01:20:25.080 --> 01:20:38.459 
+
+Participant 2: weekly sessions, like, there's a support group on Wednesdays, and then we have Tech Talk on Thursdays, and then Mondays, sometimes we have a speaker about different benefits and stuff, yes, stuff like that. So, in our Tech Talk group, I actually put 
+
+ 
+
+719 
+
+01:20:38.460 --> 01:20:49.130 
+
+Participant 2: the name, the, phone number, and, the name of the company, all that kind of stuff in one of our group chats, so I shared the information, I just don't know if any… 
+
+ 
+
+720 
+
+01:20:49.130 --> 01:20:51.019 
+
+Moderator: Thank you, we appreciate you. 
+
+ 
+
+721 
+
+01:20:51.280 --> 01:20:55.279 
+
+Participant 2: You're welcome, but I did share it, so a couple of times. 
+
+ 
+
+722 
+
+01:20:55.460 --> 01:20:56.430 
+
+Moderator: Thank you so much. 
+
+ 
+
+723 
+
+01:20:56.430 --> 01:20:58.480 
+
+Participant 2: You're welcome. 
+
+ 
+
+724 
+
+01:20:58.480 --> 01:21:00.999 
+
+Moderator: Alright, enjoy the rest of your day, thank you. 
+
+ 
+
+725 
+
+01:21:01.000 --> 01:21:03.310 
+
+Participant 2: Alright, you as well, thanks, bye. 
