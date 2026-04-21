@@ -88,3 +88,11 @@ Last updated date is very confusing
 * She’s had multiple communications since then (request for forgiveness, response from that, etc), but doesn’t see any record of those anywhere – she searched around her account on va.gov within claims and letters as well  
 * Wants “last updated” to have more information – updated by who? what happened?  
 * She had a good idea of timeline of everything in her head (i.e. applied on this date, received confirmation, received note about balance change, application for payment plan). Doesn’t want to have to rely on that – wants to see everything in one place.
+
+## **P2** _Cancelled part-way through_
+
+Participant was blocked from signing in due to a 2 factor authentication loop, and we eventually made the call to stop the session as we would not be able to test.
+
+## **P6** _Cancelled part-way through_
+
+Participant was using a new device and had to complete the authetication for ID.me. She was not able to complete this part while on the call, as she had to do a video chat to complete the verification process. We stopped the test as we would not have been able to complete the UAT in the time frame.
