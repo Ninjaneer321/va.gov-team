@@ -45,18 +45,18 @@ Some of the latest updates are behind feature flags, and you'll need to turn the
     * Toggle on the specific feature flag.
     * Confirm changes: Apply (upper right) or Apply Overrides (bottom).
 
-3. Sign Out (Optional)
+3. Sign Out _(applying the overrides may log you out of Demo mode)_
     * If you need to sign in with different credentials to test the feature, go to: 
   Home > Profile > Settings > Sign Out.
 
 
 ## Clean-up
 
-1. Reinstall public version of VA app
-    1. Go to app store - downloading the public version will install over the beta version
+1. Uninstall test build of VA app
 2. Uninstall TestFlight
-3. Log into VA app
-4. (if relevant) Turn notifications back on
+3. Reinstall public version of VA app
+4. Log into VA app
+5. (if relevant) Turn notifications back on
 
 
 ## Notes
