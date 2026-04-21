@@ -104,13 +104,6 @@ Files tab
 Overview tab
 - notes
 
-Scale of 1-5, how difficult or easy was it to understand the application steps?
-- [ ] 1 - very hard
-- [ ] 2
-- [ ] 3
-- [ ] 4
-- [ ] 5 - very easy
-
 ### Scenario 2: Evidence request
 MyVA
 - sees it's at the top, still in progress, but has a yellow alert
@@ -135,13 +128,6 @@ MyVA
 
 CHAMPVA status
 - notes
-
-Scale of 1-5, how difficult or easy was it to understand this screen?
-- [ ] 1 - very hard
-- [ ] 2
-- [ ] 3
-- [ ] 4
-- [x] 5 - very easy
 
 Birth certificate page
 - notes
