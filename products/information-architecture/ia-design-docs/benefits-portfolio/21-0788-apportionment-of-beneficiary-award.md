@@ -87,7 +87,7 @@ _Any additional key locations that the page should be navigable from. Although t
   - Placement description: H3, despription, on page link
   - Link details
     - Link label: Apply for apportionment of a beneficiary’s award
-    - Link destination: https://www.va.gov/forms/21-0788/apply-for-apportionment-beneficiarys-award
+    - Link destination: https://www.va.gov/disability/eligibility/special-claims/apportionment-beneficiarys-award
   - Notes:
     - Who will update (IA, content, product team): Content
     - When will this entry point go live (at launch? After staged rollout? after some designated time?): At launch
