@@ -60,7 +60,15 @@ I've now read all available participant notes and the main takeaways file. Here 
 
 > [!NOTE]
 > _Not exactly sure what "confusion about claim vs application" finding is referring to. Need to check._
-> _Which participants are the ones who had the "partial decision confusion"?_
+> 
+> _Asked copilot which participants were included in "partial decision confusion":_
+>  - Based on my review of the notes, the 5 participants who showed brief confusion about the partial decision (Jane decided while John still pending) were:
+>     - P01 — "That's weird that they've made a decision on part of the application... It caught me off guard" — but then quickly understood
+>     - P02 — Scrolled down and saw Jane's decision, took a moment to process but understood
+>     - P03 — "It seems there's 4 steps 2 people. It's not clear." — wanted separate per-person step tracking
+>     - P07 — "I thought this was for my wife? I thought this was for Jane Doe, not John Doe Jr." — initially confused about who was on the application
+>     - P11 — "huh" after reading the partial decision alert; "Says they made a decision but will make a decision after I submit more info" — confused briefly, then understood there were two separate decisions being made
+> - All five recovered relatively quickly (hence "brief"), but the initial surprise was notable in each case. P08 and P09 also noticed it but reacted more positively than confused — P08 specifically liked the partial decision transparency, and P09 called it "a surprise" but processed it without significant friction. The line between "surprised" and "confused" was a judgment call in categorization.?_
 
 
 ### Tertiary/Emergent Themes
