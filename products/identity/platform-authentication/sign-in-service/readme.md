@@ -9,7 +9,7 @@ For VFS teams looking to learn more about the integration process, review our [S
 ---
 
 ## Integration guides
-If you're a developer who's ready to start building, use the [quickstart guide](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Products/Sign-In%20Service/Engineering%20Docs#sign-in-service-sis). For more details on how SiS works, read the technical reference and support documentation below.
+If you're a developer who's ready to start building, use the [quickstart guide](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Products/Sign-In%20Service/Engineering%20Docs#sign-in-service-sis).
 
 | Type | Description |
 |-----|-------------|
