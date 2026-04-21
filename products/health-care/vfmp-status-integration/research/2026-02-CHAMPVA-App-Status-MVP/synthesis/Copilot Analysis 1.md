@@ -12,6 +12,14 @@ I've now read all available participant notes and the main takeaways file. Here 
 4. **The "Request to add or remove a dependent" card causes confusion** — Multiple participants (P02, P06, P07, P09) mistook this card for their CHAMPVA application, disrupting task completion in Scenario 3.
 5. **Participants want immediate access to denial reasons and decision letters** — When John Doe Jr. was deemed ineligible, participants expressed frustration at not being able to see *why*, driving them to call the VA.
 
+> [!NOTE] 
+> - These are all good high level points to share with Premal.
+> - I would also like to include a note about how some people were confused about Claims and Applications vs. Forms, although it was less than I had anticipated.
+> - Some people thought the steps should be per person rather than the application. (Although copilot called this out a secondary theme with only 3/9 mentioning this)
+> - Want to call out how the not finding the CHAMPVA card made people feel, yes most people had difficulty finding the card, but for other this caused anxiety.
+> - May want to call out that many participants didn't see the Jane was enrolled until after they took care of the action of submitting the birth certificate for John Doe Jr.
+> - Concern that not including denial reason may increase call center volume, either need inline reason on card or link to the decision letter.
+> - Really want to emphasize failure for scenario 3. 
 ---
 
 ## 1. THEMATIC ANALYSIS
@@ -25,6 +33,9 @@ I've now read all available participant notes and the main takeaways file. Here 
 | **Desire for timelines/ETAs** | 8/9 | Want estimated processing times at each step |
 | **Want digital access to decision letters** | 7/9 | Don't want to wait for physical mail to learn denial reasons |
 | **Positive file upload experience** | 9/9 | Upload process universally praised as simple |
+
+> [!NOTE]
+> Desire for timlines seems high 8/9. Maybe it's referencing the warm up question vs. what people said during the scenarios 
 
 ### Secondary Themes
 
@@ -63,6 +74,9 @@ I've now read all available participant notes and the main takeaways file. Here 
 | **Scenario 2 (Evidence Request)** | 😊 Positive with brief confusion | Liked yellow alert; partial decision initially surprising |
 | **Scenario 3 (Closed App)** | 😟 Negative (7/9) | Frustration, anxiety, panic: *"Oh hell, did they lose it?"* (P06) |
 | **Denial without reason** | 😠 Frustrated (7/9) | *"Why are they burying it 4 pages down when my son is denied?"* (P03) |
+
+>[!NOTE]
+> - We should include the quotes from scenario 3 and denials. Those are really strong to share with Premal
 
 ### Pain Points with Emotional Intensity (1-5 scale)
 
@@ -111,6 +125,9 @@ I've now read all available participant notes and the main takeaways file. Here 
 - When confused, default action is "I would call"
 - Rural participants check mail infrequently (P01: 2-3 weeks)
 - Participants use "claim" as a catch-all term (P01)
+
+>[!NOTE]
+> - Assumed the participants who check mail infrequently are rural
 
 ### Mental Models
 - **Before using tool:** Application is a linear, single-person process; expect to find CHAMPVA under "benefits" not "claims"
@@ -185,6 +202,9 @@ I've now read all available participant notes and the main takeaways file. Here 
 - **Friction:** Minor — "Change file" label; marriage cert requires person selection while birth cert doesn't
 - **Emotion:** Positive; task feels achievable
 - **Opportunity:** Standardize upload patterns; make "Change file" → "Choose file" or "Attach file"
+
+> [!NOTE]
+> Don't agree this the above section
 
 ### Use/Experience (Partial Decision & Closed App)
 - **Friction:** HIGH — Card disappears; no denial reason; physical mail only
@@ -346,7 +366,7 @@ I've now read all available participant notes and the main takeaways file. Here 
 
 ---
 
-## Likert Score Summary
+## Likert Score Summary done by Copilot
 
 | Participant | Easy to Use | Confident in Status | Knew Where to Look |
 |:-----------:|:-----------:|:-------------------:|:-------------------:|
@@ -361,6 +381,26 @@ I've now read all available participant notes and the main takeaways file. Here 
 | P11 | 5 | 5 | 5 |
 | **Median** | **5** | **4-5** | **5** |
 
+# Likert Scale Survey Results in Excel
+
+| | Question 1 | Question 2 | Question 3 |
+|---|-----------|-----------|-----------|
+| **Question** | I thought the prototype was easy to use. | I felt confident I understood what was happening with each person's application. | I knew where to look to find updates about my application. |
+| | | | |
+| **P01** | 5 | 5 | 5 |
+| **P02** | 5 | 5 | 5 |
+| **P03** | 3 | 3 | 2.5 |
+| **P04** | 5 | 5 | 5 |
+| **P06** | 5 | 4 | 4 |
+| **P07** | 2 | 2 | 4 |
+| **P08** | 5 | 4 | 5 |
+| **P09** | 5 | 4 | 5 |
+| **P11** | 5 | 5 | 5 |
+| | | | |
+| **Average** | 4.4 | 4.1 | 4.5 |
+| **Standard Deviation** | 1.13 | 1.05 | 0.87 |
+| **Median** | 5 | 4 | 5 |
+| **Mode** | 5 | 5 | 5 |
 ---
 
 ## Prioritized Recommendations
