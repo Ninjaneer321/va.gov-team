@@ -296,29 +296,6 @@ When Veterans copy the payment amount (or dollar value) from the Pay Online scre
 - This gap also made the “Last updated” label feel unreliable. She wanted it to indicate who updated the debt (VA vs. Veteran action) and what specifically happened. While she could reconstruct the timeline from memory, she didn’t want to have to rely on that; she wanted all related communications and actions visible in one place.
 
 
-
-## Recommendations and Next Steps
-
-1. **Recommendation:** On the "Pay online" screen, remove the dollar sign from the copied text for the balance.
-   - _Supporting evidence: The balance copies with a dollar sign (e.g., $100.00). Since the currency field on pay.va.gov already includes a dollar sign, pasting results in duplicate characters (e.g., $$100.00)._
-   - **Next Step:** Update the copy-to-clipboard logic to strip the currency symbol for the balance field.
-
-2. **Recommendation:** Reorder the details on the "Pay online" screen to match the sequence of fields on pay.va.gov.
-   - _Supporting evidence: The current app layout places the balance at the top, but the pay.va.gov form requires it further down the page. Matching the sequence reduces cognitive load and scrolling._
-   - **Next Step:** Coordinate with the Financial Management team to discuss the field order on va.gov. Determine if the mobile app should maintain strict parity with the web experience or if an alternative order is better suited for mobile-specific resolution.
-
-3. **Recommendation:** Provide information on the original cause of the overpayment.
-   - _Supporting evidence: Veterans expressed a strong desire for more transparency regarding why the debt exists. They know this information is provided in the physical debt letters, but it's not directly within the app._
-   - _Note: At the moment, this is not technically feasible due to data availability and PII constraints._
-   - **Next Step:** Conduct follow-up discovery to determine if PII constraints will always block the display of digital debt letters and clarify what specific language or debt-cause descriptions are permitted to be surfaced within the mobile app.
-
-4. **Recommendation:** Clearly communicate the specifics of benefit reductions, including when and by how much.
-   - _Supporting evidence: Veterans who rely on these payments to manage monthly budgets need to know exactly which upcoming payment will be impacted and the specific amount to be deducted._
-   - **Next Step:** Collaborate with backend engineering to determine if withholding data can be surfaced in the app to provide this financial transparency.
-
-
-🐙
-
 ## Recommendations and Next Steps
 
 1. **Recommendation:** On the "Pay online" screen, remove the dollar sign from the copied text for the balance.
@@ -338,10 +315,10 @@ When Veterans copy the payment amount (or dollar value) from the Pay Online scre
    - _Supporting evidence: Veterans who rely on these payments to manage monthly budgets need to know exactly which upcoming payment will be impacted and the specific amount to be deducted. Participants also wanted visibility into repayment plan terms (amounts, timing, and status)._
    - **Next Step:** Collaborate with backend engineering to confirm whether withholding/offset details and repayment plan terms are available to the app and can be displayed safely. If data exists, prototype a “Resolution details” section on the debt detail experience and validate in a targeted follow-up session.
 
-5. **Recommendation:** Make “Last updated” more meaningful and reduce confusion about what it represents.
-   - _Supporting evidence: One Veteran could not find a complete record of her submitted paperwork and follow-on communications, and she questioned whether “Last updated” reflected VA activity or her own actions._
-   - **Next Step:** Define what should drive “Last updated” (VA updates vs. Veteran actions), and add supporting context (e.g., “Updated by VA” / “Updated after you submitted a request” plus the triggering event). Explore whether a lightweight activity log can capture key actions even when they do not generate a letter.
-🐙
+5. **Recommendation:** Consolidate overpayment-related communications and actions so Veterans can see the full story in one place (across VA.gov and the mobile app).
+   - _Supporting evidence: One Veteran demonstrated how difficult it was to piece together the status of a single overpayment. Both the app and VA.gov showed only a partial set of VA-issued letters, and she could not find any record of the requests/paperwork she had submitted, which made it hard to confirm the current state of the debt._
+   - **Next Step:** Partner with the Financial Management team to begin discovery and define the complete “communication and activity” set that should appear for an overpayment (e.g., demand letters, offset notifications, waiver/forgiveness submissions and acknowledgements, repayment plan requests and decisions). Determine what is technically possible to surface on VA.gov and in the app. Based on feasibility, prototype a unified timeline/activity view, including clearer “last updated” context.
+
 
 ## Product User and Business Outcomes
 
