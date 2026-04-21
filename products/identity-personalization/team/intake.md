@@ -24,7 +24,7 @@ Before submitting a request, review the relevant documentation below. These reso
 
 ### For Profile
 - [VA.gov profile design and content standards](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/UX/profile-design-content-standards.md)
-- [Email and text notifications integrations checklist](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/email-and-text-notificaitons-checklist.md)
+- [Email and text notifications integration checklist](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/email-and-text-notificaitons-checklist.md)
 
 ## How to work with us
 To help us review your request and move it forward efficiently, follow these steps: 
