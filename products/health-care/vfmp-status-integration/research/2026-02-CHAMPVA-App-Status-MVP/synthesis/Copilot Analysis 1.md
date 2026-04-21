@@ -1,3 +1,9 @@
+> [!NOTE]
+> Below is the output from copilot, using Claude Opus 4.6.
+>
+> Notes from Chantale and Alyssa are interspersed below.
+> _Alyssa's notes are in italics._
+
 I've now read all available participant notes and the main takeaways file. Here is the comprehensive multi-methodology analysis across 9 participants (P01, P02, P03, P04, P06, P07, P08, P09, P11).
 
 ---
@@ -15,11 +21,14 @@ I've now read all available participant notes and the main takeaways file. Here 
 > [!NOTE] 
 > - These are all good high level points to share with Premal.
 > - I would also like to include a note about how some people were confused about Claims and Applications vs. Forms, although it was less than I had anticipated.
+>   - _Yeah, I'd like for us to go through transcripts and count how many were confused. Most people figured it out!_
 > - Some people thought the steps should be per person rather than the application. (Although copilot called this out a secondary theme with only 3/9 mentioning this)
 > - Want to call out how the not finding the CHAMPVA card made people feel, yes most people had difficulty finding the card, but for other this caused anxiety.
 > - May want to call out that many participants didn't see the Jane was enrolled until after they took care of the action of submitting the birth certificate for John Doe Jr.
 > - Concern that not including denial reason may increase call center volume, either need inline reason on card or link to the decision letter.
-> - Really want to emphasize failure for scenario 3. 
+>   - _Yup, let's flag for discussion once we have more synthesis done!_
+> - Really want to emphasize failure for scenario 3.
+>   - _Yes, we should confirm a count for how many people were able to get to the closed app without guidance!_
 ---
 
 ## 1. THEMATIC ANALYSIS
@@ -35,6 +44,7 @@ I've now read all available participant notes and the main takeaways file. Here 
 | **Positive file upload experience** | 9/9 | Upload process universally praised as simple |
 
 > [!NOTE]
+> _Would like to count how many people would prefer email vs. how many would prefer text, push notifications, etc._
 > Desire for timlines seems high 8/9. Maybe it's referencing the warm up question vs. what people said during the scenarios 
 
 ### Secondary Themes
@@ -47,7 +57,15 @@ I've now read all available participant notes and the main takeaways file. Here 
 | **Partial decision confusion (brief)** | 5/9 | Initially surprised that Jane was decided while John was still pending, but most quickly understood |
 | **Want per-beneficiary step tracking** | 3/9 | P03, P06, P09 wanted individual step progress per person |
 
+> [!NOTE]
+> _Not exactly sure what "confusion about claim vs application" finding is referring to. Need to check._
+> _Which participants are the ones who had the "partial decision confusion"?_
+
+
 ### Tertiary/Emergent Themes
+
+> [!NOTE]
+> _I don't think these themes are that relevant on their own. We can look into these comments as considerations when developing the main themes above._
 
 | Theme | Frequency | Description |
 |-------|:-:|-------------|
@@ -96,6 +114,9 @@ I've now read all available participant notes and the main takeaways file. Here 
 - Dedicated birth certificate upload page with specific context (P09)
 - Partial decision transparency — *"You might receive a letter and then ask, where are the rest of the letters"* (P08)
 
+> [!NOTE]
+> _The P8 quote is confusing out of context. Need to go back to transcript to understand it._
+
 ---
 
 ## 3. AFFINITY MAPPING
@@ -118,6 +139,10 @@ I've now read all available participant notes and the main takeaways file. Here 
 - "Change file" link confusing during upload
 - Redundancy between Status tab and Overview tab content
 
+> [!NOTE]
+> _Is closed tab less discoverable on mobile? Not sure I noticed anything about that._
+> _I think the "change file" link was only confusing because of the animation. The participant didn't realize the animation represented them picking a file from their device. Can discuss_
+
 ### Behaviors
 - Participants immediately click "Check status details" (consistent)
 - Most scroll past intro/header text
@@ -128,8 +153,13 @@ I've now read all available participant notes and the main takeaways file. Here 
 
 >[!NOTE]
 > - Assumed the participants who check mail infrequently are rural
+> - _I think this is based off of my note in [main-takeaways](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/vfmp-status-integration/research/2026-02-CHAMPVA-App-Status-MVP/notes/main_takeaways.md#p01). The participant mentioned it takes 2-3 weeks for them to get mail, so I checked our participant demographics and they live in a rural area._
 
 ### Mental Models
+
+>[!NOTE]
+> - _I don't think this section is worth showing because it doesn't show which participants had these mental models._
+
 - **Before using tool:** Application is a linear, single-person process; expect to find CHAMPVA under "benefits" not "claims"
 - **After using tool:** Understand multi-person application concept; expect status to persist in same location
 - **"Claims" = disability claims** in most participants' minds; CHAMPVA feels like a different category
@@ -188,6 +218,9 @@ I've now read all available participant notes and the main takeaways file. Here 
 
 ## 5. USER JOURNEY INSIGHTS
 
+>[!NOTE]
+> - _I would not include this section - this content is covered above in a more concise way._
+
 ### Awareness/Discovery (MyVA Homepage)
 - **Friction:** Some confusion about CHAMPVA being in "Claims and application status" vs. its own section
 - **Emotion:** Generally positive; relief at seeing status immediately
@@ -205,6 +238,7 @@ I've now read all available participant notes and the main takeaways file. Here 
 
 > [!NOTE]
 > Don't agree this the above section
+> _Agreed. Can remove this whole section. It's either repetitive of what's above or gives design suggestions that we should discuss ourselves._
 
 ### Use/Experience (Partial Decision & Closed App)
 - **Friction:** HIGH — Card disappears; no denial reason; physical mail only
@@ -239,6 +273,9 @@ I've now read all available participant notes and the main takeaways file. Here 
 - **Veterans with CHAMPVA experience** (P01, P03, P04, P06) compared unfavorably to prior fax/paper process — strong baseline
 - **Veterans without CHAMPVA experience** (P08, P09) had cleaner mental models but more uncertainty
 
+>[!NOTE]
+> - _Don't agree with the last two statements_
+
 ---
 
 ## 7. TASK ANALYSIS
@@ -253,6 +290,9 @@ I've now read all available participant notes and the main takeaways file. Here 
 | **Understand partial decision** | 7/9 | 2/9 | 0/9 |
 | **Find closed CHAMPVA application** | 0/9 | 9/9 | 0/9 |
 | **Understand John Doe Jr. ineligibility** | 2/9 | 7/9 | 0/9 |
+
+>[!NOTE]
+> - _I like this table, would go back in and check the numbers though._
 
 ### Error Points and Recovery
 - **Closed tab discovery:** All participants needed redirection. Most first checked "Completed forms," then "Track claims" link, then were guided to Closed tab
@@ -309,6 +349,9 @@ I've now read all available participant notes and the main takeaways file. Here 
 ---
 
 ## 9. OPPORTUNITY IDENTIFICATION
+
+>[!NOTE]
+> - _I don't like a lot of these suggestions. Would want to discuss these ourselves, since we know what the existing patterns and constraints are. Can just treat these as brainstormed suggestions, taken with a grain of salt._
 
 ### Quick Wins (Low Effort, High Impact)
 1. **Add a "Recently decided" indicator on MyVA** — Show closed CHAMPVA applications on MyVA for 30-60 days after decision
@@ -377,16 +420,18 @@ I've now read all available participant notes and the main takeaways file. Here 
 | P06 | 5 | **4** | **4** |
 | P07 | **2** | **2** | 4 |
 | P08 | 5 | **4** | 5 |
-| P09 | 5 | **4** | — |
+| P09 | 5 | **4** | 5 |
 | P11 | 5 | 5 | 5 |
 | **Median** | **5** | **4-5** | **5** |
 
-# Likert Scale Survey Results in Excel
+## Likert Scale Survey Results in Excel
+
+>[!NOTE]
+> - _Not from the original copilot response, added manually_
 
 | | Question 1 | Question 2 | Question 3 |
 |---|-----------|-----------|-----------|
-| **Question** | I thought the prototype was easy to use. | I felt confident I understood what was happening with each person's application. | I knew where to look to find updates about my application. |
-| | | | |
+| **Participant** | I thought the prototype was easy to use. | I felt confident I understood what was happening with each person's application. | I knew where to look to find updates about my application. |
 | **P01** | 5 | 5 | 5 |
 | **P02** | 5 | 5 | 5 |
 | **P03** | 3 | 3 | 2.5 |
@@ -404,6 +449,9 @@ I've now read all available participant notes and the main takeaways file. Here 
 ---
 
 ## Prioritized Recommendations
+
+>[!NOTE]
+> - _Don't agree with a lot of these_
 
 | Priority | Recommendation | Effort | Impact |
 |:--------:|----------------|:------:|:------:|
@@ -426,6 +474,9 @@ I've now read all available participant notes and the main takeaways file. Here 
 2. **Accessibility on mobile** — Filter tabs and small links were not discoverable for mobile users; may fail WCAG interactive element requirements
 3. **Anxiety amplification** — The disappearing card creates panic; this could damage trust in VA.gov as a reliable source of truth
 4. **Terminology debt** — "Claims," "applications," "forms," and "completed" are used inconsistently across MyVA and CST; creates cognitive load
+
+>[!NOTE]
+> - _I don't think 2 is true?_
 
 ## Methodological Limitations
 
