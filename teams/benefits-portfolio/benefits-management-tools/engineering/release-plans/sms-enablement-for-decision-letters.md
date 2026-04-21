@@ -134,7 +134,6 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - Turned on [TBD]
 - Metrics at this stage (per your "success criteria"):
     - [ ] DataDog errors < 5% (__% observed)
-    - [ ] 5.90% click through rate (TBD- click through may not be possible with SMS)
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
@@ -167,7 +166,6 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - Turned on [TBD]
 - Metrics at this stage (per your "success criteria"):
     - [ ] DataDog errors < 5% (__% observed)
-    - [ ] 5.90% click through rate (TBD- click through may not be possible with SMS)
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
@@ -200,7 +198,6 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - Turned on [TBD]
 - Metrics at this stage (per your "success criteria"):
     - [ ] DataDog errors < 5% (__% observed)
-    - [ ] 5.90% click through rate (TBD- click through may not be possible with SMS)
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
@@ -233,7 +230,6 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - Turned on [TBD]
 - Metrics at this stage (per your "success criteria"):
     - [ ] DataDog errors < 5% (__% observed)
-    - [ ] 5.90% click through rate (TBD- click through may not be possible with SMS)
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
@@ -266,7 +262,6 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - Turned on [TBD]
 - Metrics at this stage (per your "success criteria"):
     - [ ] DataDog errors < 5% (__% observed)
-    - [ ] 5.90% click through rate (TBD- click through may not be possible with SMS)
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
@@ -299,7 +294,6 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - Turned on [TBD]
 - Metrics at this stage (per your "success criteria"):
     - [ ] DataDog errors < 5% (__% observed)
-    - [ ] 5.90% click through rate 
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
