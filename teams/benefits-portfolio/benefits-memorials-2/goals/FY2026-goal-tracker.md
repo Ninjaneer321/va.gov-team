@@ -26,6 +26,35 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
 
+## Sprint: 7 [04/22/26 - 05/05/26]  
+| Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
+|--|--|--|--|--|
+|ENG: Update GMT year (after May 1, 2026) in conjunction with VHA if HUD data is released during the sprint. | P1 |--|--|--|
+|ENG: Update Lighthouse mock data.| P1 |--|--|--|
+|UX: Finalize Managing Overpayments Product Guide and submit to Contact Center for review in advance of MFS launch.| P4 |--|--|--|
+|UX: In collaboration with stakeholders, define best case scenarios for Hardship Suspension initiative.| P5 |--|--|--|
+|UX: Complete February and March Medallia reporting, bringing all reporting to the most current state.| P6 |--|--|--|
+|ENG: Complete any planned or new critical maintenance tickets/bugs. | P6 |--|--|--|
+
+**Sprint rollover tickets**
+| Additional work that was pulled in mid-sprint | Scope of work changed after ticket started | Work became blocked mid-sprint |  Work was underestimated and not completed |
+|---------------|---------------|---------------|---------------|
+|Ticket #|Ticket #|Ticket #|Ticket #|
+
+**_Approvals:_** _(sent via email but approvals tracked here)_
+ - [X] Ready to be sent for approvals (04/21/26)
+ - [X] VA PO & COR sent the Sprint Goals (04/21/26)
+ - [ ] VA PO approved the Sprint Goals (04/x/26)
+ - [ ] VA COR approved the Sprint Goals (04/x/26)
+
+**_Delivery + Notes:_**
+- [ ] All goals have been updated in the sprint chart
+- [ ] Any Additional details about goals **not** completed will be documented here
+
+
+
+
+
 ## Sprint: 6 [04/08/26 - 04/21/26]  
 | Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
