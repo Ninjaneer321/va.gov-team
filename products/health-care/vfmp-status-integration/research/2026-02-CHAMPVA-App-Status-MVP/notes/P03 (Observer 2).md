@@ -57,26 +57,12 @@ Files tab
 Overview tab
 - notes
 
-Scale of 1-5, how difficult or easy was it to understand the application steps?
-- [ ] 1 - very hard
-- [ ] 2
-- [ ] 3
-- [ ] 4
-- [ ] 5 - very easy
-
 ### Scenario 2: Evidence request
 MyVA
 - notes
 
 CHAMPVA status
 - notes
-
-Scale of 1-5, how difficult or easy was it to understand this screen?
-- [ ] 1 - very hard
-- [ ] 2
-- [ ] 3
-- [ ] 4
-- [ ] 5 - very easy
 
 Birth certificate page
 - asked why the birth certficate wasn't asked for at application time.
@@ -98,6 +84,28 @@ CHAMPVA status
 ### Post-Task Interview
 - 
 
+**Likert questions**
+
+I thought the prototype was easy to use.
+- [ ] 1 - Strongly Disagree
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] 5 - Strongly Agree
+
+I felt confident I understood what was happening with each person's application.
+- [ ] 1 - Strongly Disagree
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] 5 - Strongly Agree
+
+I knew where to look to find updates about my application.
+- [ ] 1 - Strongly Disagree
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] 5 - Strongly Agree
 
 ### Additional Notes**
 - 
