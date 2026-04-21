@@ -19,14 +19,14 @@ We also have two smaller products, Nametag and the Authenticated Menu.
 Before submitting a request, review the relevant documentation below. These resources include required guidance, standards, and checklists for implementation. 
 
 ### For My VA
-- [My VA UX governance ](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/UX/my-va-design-content-standards.md)
+- [My VA design and content standards](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/UX/my-va-design-content-standards.md)
 - Forms and applications integrations
    - Implementation checklist 
    - Save in progress self service
    - Forms status self service
 
 ### For Profile
-- [VA.gov profile UX governance](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/UX/profile-design-content-standards.md)
+- [VA.gov profile design and content standards](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/UX/profile-design-content-standards.md)
 - Email & Text notifications implementation checklist 
 
 ## How to work with us
