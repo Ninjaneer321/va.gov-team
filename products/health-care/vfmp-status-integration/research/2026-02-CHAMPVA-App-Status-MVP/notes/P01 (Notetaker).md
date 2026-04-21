@@ -161,8 +161,8 @@ After clicking status tool link?
 - O: They regularly refer to the application as a "claim", does not understand the word "card"
 
 Status tool home page
-- Spends a while scrolling before going to closed [but maybe just because they thought they were supposed to review the page first. Had no trouble finding the application once asked to find it]
-- [Check transcript]
+- Points out closed tab immediately
+- Spends a while scrolling before going to closed [but seems like it's just because they thought they were supposed to review the page first. Had no trouble finding the application once asked to find it]
 - Usually have to dig. This is a much nicer user interface then I'm used to
 
 CHAMPVA status
