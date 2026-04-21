@@ -267,7 +267,7 @@ When Veterans copy the payment amount (or dollar value) from the Pay Online scre
 
 - Impact: Adds friction and increases risk of incorrect payment entry.
 
-**UAT Issue (Bug): Spacing issue on details page.
+**UAT Issue (Bug): Spacing issue on details page.**
 
 There was a slight spacing issue on the details page between the card and the accordion. 
 
