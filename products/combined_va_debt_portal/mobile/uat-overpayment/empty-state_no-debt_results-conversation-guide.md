@@ -14,8 +14,6 @@ This study evaluates the empty state of the Overpayment feature with Veterans wh
 
 We conducted testing with two participants: one on iOS and one on Android. Both testers were able to successfully complete all expected test paths once they had access to the app.
 
-One additional Android tester was unable to start their session because of the pre-release build being blocked from download. This is already being tracked by our developers.
-
 
 # Conversation Guide for UAT Overpayments in the VA Mobile App: No-Debt testers
 
