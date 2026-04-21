@@ -90,26 +90,12 @@ Or is it that when I submitted the application, I knew that I wasn't including c
 Overview tab
 - notes
 
-Scale of 1-5, how difficult or easy was it to understand the application steps?
-- [ ] 1 - very hard
-- [ ] 2
-- [ ] 3
-- [ ] 4
-- [ ] 5 - very easy
-
 ### Scenario 2: Evidence request
 MyVA
 - notes
 
 CHAMPVA status
 - notes
-
-Scale of 1-5, how difficult or easy was it to understand this screen?
-- [ ] 1 - very hard
-- [ ] 2
-- [ ] 3
-- [ ] 4
-- [ ] 5 - very easy
 
 Birth certificate page
 - notes
