@@ -80,8 +80,9 @@ Teams must launch with at least one entry point that allows site visitors to nav
 1. **[About Form 10-8678](https://www.va.gov/forms/10-8678/)**
   - Placement description: On page link
   - Link details
-    - Link label: Apply for Annual Clothing Allowance Online
-    - Link destination: hhtps://www.va.gov/forms/10-8678/apply-annual-clothing-allowance
+    - Link label: Go to the online tool
+    - Link destination: hhtps://www.va.gov/forms/10-8678/apply-annual-clothing-allowance/
+  - Staged rollout requirements- yes/no
   - Notes:
     - Who will update (IA, content, product team): Content
     - When will this entry point go live (at launch? After staged rollout? after some designated time?): At launch
