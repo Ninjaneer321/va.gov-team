@@ -141,7 +141,7 @@ tags:
 - What are the key moments this tool supports in the Clinician’s journey?  
 - What outcomes are we aiming to achieve for clinicians, VA staff, and stakeholders?  
 
-</summary>
+</details>
 
 As Task Manager moves beyond baseline parity CMT functionality. The team seeks to better understand what features and functions will be most useful for current and prospective task manager users.
 
