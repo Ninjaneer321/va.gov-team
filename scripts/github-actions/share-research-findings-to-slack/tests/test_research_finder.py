@@ -159,17 +159,17 @@ class TestResearchFileFinder(unittest.TestCase):
         # Mock different ages for different files
         def mock_age_side_effect(file_path):
             if "findings.md" in file_path:
-                return 5  # Old enough
+                return 20  # Old enough (>= 14 days)
             elif "study-report.md" in file_path:
-                return 1  # Too recent
+                return 5  # Too recent (< 14 days)
             else:
-                return 4  # Old enough
+                return 15  # Old enough (>= 14 days)
         
         mock_get_age.side_effect = mock_age_side_effect
         
         eligible_files = self.finder.find_research_files(ignore_time_delay=False)
         
-        # Should find files that are 3+ days old
+        # Should find files that are 14+ days old
         self.assertGreater(len(eligible_files), 0)
         
         # Verify age checking was called
@@ -296,6 +296,217 @@ class TestResearchFileFinder(unittest.TestCase):
         self.assertEqual(len(matching_files), expected_matches)
         self.assertNotIn("regular-doc.md", matching_files)
         self.assertNotIn("findings.txt", matching_files)
+
+
+class TestReportCompleteness(unittest.TestCase):
+    """Test cases for the is_report_complete method."""
+
+    def setUp(self):
+        self.test_dir = tempfile.mkdtemp()
+        self.original_cwd = os.getcwd()
+        os.chdir(self.test_dir)
+
+        github_dir = Path(".github/workflows")
+        github_dir.mkdir(parents=True, exist_ok=True)
+
+        self.finder = ResearchFileFinder()
+
+    def tearDown(self):
+        os.chdir(self.original_cwd)
+        shutil.rmtree(self.test_dir)
+
+    def _write(self, name, content):
+        p = Path(name)
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_text(content, encoding='utf-8')
+        return str(p)
+
+    # --- Real / completed reports ------------------------------------------
+
+    def test_complete_report_no_front_matter(self):
+        """A report with real findings and no front matter passes."""
+        path = self._write("products/test/findings.md", """\
+# My Real Study Research Findings
+
+## Key Findings
+1. Veterans preferred the new navigation layout over the existing one
+2. Mobile users completed tasks 30% faster with the updated design
+3. Screen reader users reported improved satisfaction
+
+## Recommendations
+1. Implement the new navigation layout
+""")
+        is_complete, reason = self.finder.is_report_complete(path)
+        self.assertTrue(is_complete, reason)
+
+    def test_complete_report_with_front_matter(self):
+        """A report with filled-in front matter passes."""
+        path = self._write("products/test/findings.md", """\
+---
+title: "Auth Experience Research Findings"
+date: "2025-09-15"
+key_findings:
+  - "Veterans preferred single sign-on"
+  - "MFA confusion was the top barrier"
+---
+
+# Auth Experience Research Findings
+
+## Key Findings
+1. Veterans preferred single sign-on
+2. MFA confusion was the top barrier
+""")
+        is_complete, reason = self.finder.is_report_complete(path)
+        self.assertTrue(is_complete, reason)
+
+    # --- Incomplete / template reports -------------------------------------
+
+    def test_template_front_matter_date_placeholder(self):
+        """Front matter with YYYY-MM-DD date is flagged."""
+        path = self._write("products/test/findings.md", """\
+---
+title: "[Study] Research Findings"
+date: "YYYY-MM-DD"
+key_findings:
+  - "Finding 1"
+  - "Finding 2"
+---
+
+# [Study] Research Findings
+""")
+        is_complete, reason = self.finder.is_report_complete(path)
+        self.assertFalse(is_complete)
+        self.assertIn("YYYY-MM-DD", reason)
+
+    def test_template_front_matter_placeholder_findings(self):
+        """Front matter key_findings still set to template defaults."""
+        path = self._write("products/test/findings.md", """\
+---
+title: "My Study"
+date: "2025-06-01"
+key_findings:
+  - "Finding 1"
+  - "Finding 2"
+---
+
+# My Study Findings
+
+## Key Findings
+- Finding one
+- Finding two
+""")
+        is_complete, reason = self.finder.is_report_complete(path)
+        self.assertFalse(is_complete)
+        self.assertIn("key_findings", reason)
+
+    def test_template_title_placeholder(self):
+        """Title still contains the [Study] placeholder."""
+        path = self._write("products/test/findings.md", """\
+# [Study] Research Findings
+
+## Key Findings
+- Finding one
+- Finding two
+""")
+        is_complete, reason = self.finder.is_report_complete(path)
+        self.assertFalse(is_complete)
+        self.assertIn("[Study]", reason)
+
+    def test_template_key_findings_placeholder_items(self):
+        """Key Findings section has only 'Finding one', 'Finding two', etc."""
+        path = self._write("products/test/findings.md", """\
+# Some Study
+
+## Key Findings
+1. Finding one
+1. Finding two
+1. Finding three
+1. Finding four
+1. Finding five
+""")
+        is_complete, reason = self.finder.is_report_complete(path)
+        self.assertFalse(is_complete)
+        self.assertIn("Key Findings", reason)
+
+    def test_template_bracket_placeholders(self):
+        """Report full of [Insert …] placeholders is flagged."""
+        path = self._write("products/test/findings.md", """\
+# Some Study
+
+## Hypotheses and Conclusions
+- **Hypothesis Statement:** [Insert statement]
+  - [Insert evidence]
+
+## Recommendations
+1. **Recommendation:** [Insert action]
+   - _Supporting evidence: [Insert data]_
+2. **Recommendation:** [Insert action]
+   - _Supporting evidence: [Insert data]_
+""")
+        is_complete, reason = self.finder.is_report_complete(path)
+        self.assertFalse(is_complete)
+        self.assertIn("bracket placeholders", reason)
+
+    def test_mixed_real_and_template_findings_passes(self):
+        """A report with some real findings alongside numbered placeholders passes."""
+        path = self._write("products/test/findings.md", """\
+# Disability Claims Research Findings
+
+## Key Findings
+1. Veterans found the multi-step process confusing
+2. Average completion time was 45 minutes
+3. Finding three
+""")
+        is_complete, reason = self.finder.is_report_complete(path)
+        # Not all items are placeholders, so this should pass
+        self.assertTrue(is_complete, reason)
+
+    def test_nonexistent_file_returns_complete(self):
+        """If the file cannot be read, default to complete (let downstream handle)."""
+        is_complete, reason = self.finder.is_report_complete("does/not/exist.md")
+        self.assertTrue(is_complete)
+
+    @patch.object(ResearchFileFinder, 'get_file_age_days')
+    @patch.object(ResearchFileFinder, 'is_file_shared')
+    def test_find_research_files_skips_incomplete(self, mock_is_shared, mock_get_age):
+        """Incomplete template files are excluded by find_research_files."""
+        mock_is_shared.return_value = False
+        mock_get_age.return_value = 20
+
+        # One complete, one template
+        products = Path("products")
+        products.mkdir(exist_ok=True)
+
+        complete = products / "real" / "findings.md"
+        complete.parent.mkdir(parents=True, exist_ok=True)
+        complete.write_text("# Real Study\n\n## Key Findings\n1. Veterans liked the new design\n")
+
+        template = products / "empty" / "findings.md"
+        template.parent.mkdir(parents=True, exist_ok=True)
+        template.write_text("# [Study] Research Findings\n\n## Key Findings\n1. Finding one\n1. Finding two\n")
+
+        eligible = self.finder.find_research_files(ignore_time_delay=True, ignore_completeness_check=False)
+        eligible_set = set(eligible)
+
+        self.assertIn(str(complete), eligible_set)
+        self.assertNotIn(str(template), eligible_set)
+
+    @patch.object(ResearchFileFinder, 'get_file_age_days')
+    @patch.object(ResearchFileFinder, 'is_file_shared')
+    def test_find_research_files_ignore_completeness_check(self, mock_is_shared, mock_get_age):
+        """When ignore_completeness_check=True, template files are included."""
+        mock_is_shared.return_value = False
+        mock_get_age.return_value = 20
+
+        products = Path("products")
+        products.mkdir(exist_ok=True)
+
+        template = products / "empty" / "findings.md"
+        template.parent.mkdir(parents=True, exist_ok=True)
+        template.write_text("# [Study] Research Findings\n\n## Key Findings\n1. Finding one\n1. Finding two\n")
+
+        eligible = self.finder.find_research_files(ignore_time_delay=True, ignore_completeness_check=True)
+        self.assertIn(str(template), set(eligible))
 
 
 if __name__ == '__main__':
