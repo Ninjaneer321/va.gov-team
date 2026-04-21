@@ -366,12 +366,15 @@ While this UAT confirmed the core functionality of the Overpayments feature, the
 - [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/Overpayment%20and%20Copayment%20Debts%20Product%20Brief.md)
 - [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/research-plan.md)
 - [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/conversation-guide.md)
-- [Interview transcripts](link here) 🚧
 
 
-### Tools used for Synthesis
+### Tools and documents used for Synthesis
 
-- Spreadsheets  🚧 final spreadsheet once PII is removed and imported to Excel
+- [Interview transcripts](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/combined_va_debt_portal/mobile/uat-overpayment/transcripts)
+- [Session notes](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/session_notes.md)
+- [Spreadsheet of test paths and success criteria]
+- [Spreadsheet of transcripts, quotes, tags, and insights]
+_Note: some documents are stored in SharePoint where you may need to request permission to view_
   
 ### Pages and applications used
 
