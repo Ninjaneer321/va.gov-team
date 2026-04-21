@@ -270,31 +270,25 @@ When Veterans copy the payment amount (or dollar value) from the Pay Online scre
 
 ## Additional Insights
 
-1. “Pay online” details don’t match the pay.va.gov layout
-- Participants can copy key fields from the app’s Pay Online screen, but the balance (shown first in the app) appears much farther down the page on pay.va.gov after other details.
+1. **Insight:** “Pay online” details don’t match the pay.va.gov layout  
+   - Participants can copy key fields from the app’s Pay Online screen, but the balance (shown first in the app) appears much farther down the page on pay.va.gov after other details.
 
-2. Veterans want clearer details on how the debt will be resolved
-- Participants wanted the app to show what to expect when resolving the debt, especially payment plan amounts and benefit reduction/offset details (how much and when it starts).
+2. **Insight:** Veterans want clearer details on how the debt will be resolved  
+   - Participants wanted the app to show what to expect when resolving the debt, especially payment plan amounts and benefit reduction/offset details (how much and when it starts).
+   - > _"I don't remember what I'm supposed to be paying every month, and I think it [benefit reduction] kicks in the next payment, but I'm not sure. It'd be nice to see that here." - P7_
+   - > _"If it could show a breakdown of what my payments could be, I’d want to see that in the app." - P9_
 
-  > _"I don't remember what I'm supposed to be paying every month, and I think it [benefit reduction] kicks in the next payment, but I'm not sure. It'd be nice to see that here." - P7_
+3. **Insight:** Veterans want transparency about why the overpayment exists  
+   - Today, physical letters are the only place Veterans can get the detailed explanation for why the debt was created. Participants said they would like that same information available in the app, so they don’t have to rely on mail to understand what happened.
+   - > _"It doesn’t tell you really why on the app… You do get a letter in the mail… just to have a little explanation." - P4_
+   - > _"They’ll send a physical copy stating what the debt is and how to resolve it… I’m quicker to go to an app than open up mail." - P9_
 
-  > _"If it could show a breakdown of what my payments could be, I’d want to see that in the app." - P9_
-
-3. Veterans want transparency about why the overpayment exists
-- Today, physical letters are the only place Veterans can get the detailed explanation for why the debt was created. Participants said they would like that same information available in the app, so they don’t have to rely on mail to understand what happened.
-
-  > _"It doesn’t tell you really why on the app… You do get a letter in the mail… just to have a little explanation." - P4_
-
-  > _"They’ll send a physical copy stating what the debt is and how to resolve it… I’m quicker to go to an app than open up mail." - P9_
-
-4. Veterans can’t easily confirm the current state of their debt (missing activity + unclear “Last updated”)
-- One Veteran demonstrated how hard it is to confirm the full status of a single overpayment across channels. She described multiple follow-on communications and actions (e.g., submitting a forgiveness/waiver request, receiving responses, applying for a payment plan), but could not find a complete record of those items anywhere. During the session, she searched across va.gov (including Claims and Letters) and still couldn’t locate evidence of the paperwork she had filed, only a partial set of VA-issued letters.
-
-  > _"So, I know I have more letters than what’s listed here. I’m not sure what type of letters are being pulled, but I know I’ve gotten more than one letter." - P12_
-  > _"Yeah, this date is definitely not right then, because it’s just tying it to one letter, and there’s other letters missing. The confusion now is saying it’s updated - updated by who?" - P12_
-
-- This gap also made the “Last updated” label feel unreliable. She wanted it to indicate who updated the debt (VA vs. Veteran action) and what specifically happened. While she could reconstruct the timeline from memory, she didn’t want to have to rely on that; she wanted all related communications and actions visible in one place.
-- Another Veteran noticed that the “Last updated” date appeared to reflect the original demand letter date, even though her overpayment balance had increased multiple times since that letter.
+4. **Insight:** Veterans can’t easily confirm the current state of their debt (missing activity + unclear “Last updated”)  
+   - One Veteran demonstrated how hard it is to confirm the full status of a single overpayment across channels. She described multiple follow-on communications and actions (e.g., submitting a forgiveness/waiver request, receiving responses, applying for a payment plan), but could not find a complete record of those items anywhere. During the session, she searched across va.gov (including Claims and Letters) and still couldn’t locate evidence of the paperwork she had filed, only a partial set of VA-issued letters.
+   - > _"So, I know I have more letters than what’s listed here. I’m not sure what type of letters are being pulled, but I know I’ve gotten more than one letter." - P12_
+   - > _"Yeah, this date is definitely not right then, because it’s just tying it to one letter, and there’s other letters missing. The confusion now is saying it’s updated - updated by who?" - P12_
+   - This gap also made the “Last updated” label feel unreliable. She wanted it to indicate who updated the debt (VA vs. Veteran action) and what specifically happened. While she could reconstruct the timeline from memory, she didn’t want to have to rely on that; she wanted all related communications and actions visible in one place.
+   - Another Veteran noticed that the “Last updated” date appeared to reflect the original demand letter date, even though her overpayment balance had increased multiple times since that letter.
 
 
 ## Recommendations and Next Steps
