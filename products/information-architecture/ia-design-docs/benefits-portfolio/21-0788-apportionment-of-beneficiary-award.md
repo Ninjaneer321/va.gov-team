@@ -72,7 +72,7 @@ Teams must launch with at least one entry point that allows site visitors to nav
 1. **[VA Form 21-0788](https://www.va.gov/forms/21-0788/)**
   - Placement description: On page link
   - Link details
-    - Link label: Apply for apportionment of beneficiary’s award online
+    - Link label: Apply for apportionment of a beneficiary’s award online
     - Link destination: https://www.va.gov/forms/21-0788/apply-for-apportionment-beneficiarys-award
   - Notes:
     - Who will update (IA, content, product team): Content
@@ -83,14 +83,14 @@ Teams must launch with at least one entry point that allows site visitors to nav
 ### Additional key entry points
 _Any additional key locations that the page should be navigable from. Although these are not required for launch, they are critical to the findability of your content/feature.  Examples of key entry points include "About a form" pages, additional navigation component (top, left) placements, additional static pages where its prominently linked from, etc._
 
-1. **[Page]()** 
-  - Placement description: 
+1. **[Special claims](https://www.va.gov/disability/eligibility/special-claims/)** 
+  - Placement description: H3, despription, on page link
   - Link details
-    - Link label: 
-    - Link destination: 
+    - Link label: Apply for apportionment of a beneficiary’s award
+    - Link destination: https://www.va.gov/forms/21-0788/apply-for-apportionment-beneficiarys-award
   - Notes:
-    - Who will update (IA, content, product team):
-    - When will this entry point go live (at launch? After staged rollout? after some designated time?):
+    - Who will update (IA, content, product team): Content
+    - When will this entry point go live (at launch? After staged rollout? after some designated time?): At launch
 
 ##  <a name="redirects"></a>Redirects <br>
 *A list of any critical redirects needed as part of this product/feature launch. Redirects are required for any URL changes to ensure visitors do not receive a 404 - Page not found error in the experience.* 
