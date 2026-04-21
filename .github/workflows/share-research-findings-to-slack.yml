@@ -59,6 +59,7 @@ jobs:
             scripts/github-actions/
             products/
             teams/
+            platform/research/copilot-prompts/
           sparse-checkout-cone-mode: false
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -84,6 +85,15 @@ jobs:
         run: |
           python scripts/github-actions/share-research-findings-to-slack/research_processor.py \
             "${{ steps.find-files.outputs.eligible_files }}"
+
+      - name: Generate research short story via LLM
+        if: steps.find-files.outputs.skip != 'true' && env.RESEARCH_FILE
+        env:
+          GH_MODELS_TOKEN: ${{ secrets.GH_MODELS_TOKEN }}
+        run: |
+          python scripts/github-actions/share-research-findings-to-slack/short_story_generator.py \
+            "platform/research/copilot-prompts/research-report/research-short-story-prompt.md" \
+            "${{ env.RESEARCH_FILE }}"
 
       - name: Build Slack payload
         if: steps.find-files.outputs.skip != 'true' && env.RESEARCH_FILE
@@ -112,12 +122,18 @@ jobs:
           research_title = os.environ.get('RESEARCH_TITLE', 'Research Findings')
           product_path = os.environ.get('PRODUCT_PATH', '')
           study_date = os.environ.get('STUDY_DATE', '')
-          research_summary = os.environ.get('RESEARCH_SUMMARY', '')
-          key_findings = os.environ.get('KEY_FINDINGS', '')
+          short_story = os.environ.get('SHORT_STORY', '').strip()
           research_file = os.environ.get('RESEARCH_FILE', '')
           event_name = '${{ github.event_name }}'
           repository = '${{ github.repository }}'
           sha = '${{ github.sha }}'
+          SLACK_SAFE_TEXT_LIMIT = 2900  # Slack block text limit is 3000 chars; keep headroom for formatting.
+
+          if not short_story:
+              raise ValueError(
+                  "SHORT_STORY environment variable is empty. Verify GH_MODELS_TOKEN is configured "
+                  "and check the 'Generate research short story via LLM' step logs for API or prompt parsing errors."
+              )
 
           if event_name == 'workflow_dispatch':
               context_message = "🧪 _Test notification - not tracked as shared_"
@@ -148,17 +164,13 @@ jobs:
               {"type": "divider"}
           ]
 
-          if research_summary and research_summary != "See full report for research context and methodology.":
-              blocks.append({
-                  "type": "section",
-                  "text": {"type": "mrkdwn", "text": f"*About This Research:*\n{escape_for_slack_mrkdwn(research_summary)}"}
-              })
-              blocks.append({"type": "divider"})
+          escaped_short_story = escape_for_slack_mrkdwn(short_story)
+          if len(escaped_short_story) > SLACK_SAFE_TEXT_LIMIT:
+              escaped_short_story = escaped_short_story[:SLACK_SAFE_TEXT_LIMIT - 3] + "..."
 
           blocks.append({
               "type": "section",
-              "text": {"type": "mrkdwn", "text": f"*Key Findings:*\n{escape_for_slack_mrkdwn(key_findings)}"
-              }
+              "text": {"type": "mrkdwn", "text": f"*Research Short Story:*\n{escaped_short_story}"}
           })
           blocks.append({"type": "divider"})
           blocks.append({
@@ -186,8 +198,7 @@ jobs:
               json.dump(payload, f, indent=2)
 
           print("Slack payload built successfully")
-          print(f"Summary length: {len(research_summary)} chars")
-          print(f"Findings length: {len(key_findings)} chars")
+          print(f"Short story length: {len(short_story)} chars")
           PYTHON_SCRIPT
 
       - name: Send Slack notification - Success

@@ -42,6 +42,23 @@ python research_processor.py <file_path>
 **Parameters:**
 - `file_path`: Path to the research file to process
 
+### `short_story_generator.py`
+Generates a structured research short story using the GitHub Models API.
+
+**Features:**
+- Extracts prompt instructions from the `research-short-story-prompt.md` plaintext code block
+- Sends the prompt + research report content to `openai/gpt-4o` via GitHub Models API
+- Writes multi-line `SHORT_STORY` output to `$GITHUB_ENV` for workflow use
+
+**Usage:**
+```bash
+python short_story_generator.py <prompt_template_path> <research_file_path>
+```
+
+**Parameters:**
+- `prompt_template_path`: Path to short story prompt template markdown
+- `research_file_path`: Path to research findings report markdown file
+
 ## Integration with GitHub Actions
 
 These scripts are designed to work with the `share-research-findings-to-slack.yml` workflow:
