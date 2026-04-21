@@ -343,7 +343,8 @@ Complete all required checks and as many recommended checks as you can. If you c
   All interactive elements show a visible outline or indicator when receiving keyboard focus.  
   [Testing WEB-247](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-247-Everyfocusableelementhasavisiblefocusindicator(Required))
   - [ ] Pass  
-  - [ ] Fail  
+  - [ ] Fail
+  - [ ] N/A  
 
 #### Recommended
 - **Tab order follows a logical sequence**  
@@ -468,7 +469,8 @@ Complete all required checks and as many recommended checks as you can. If you c
   Users are provided with clear suggestions for correcting input errors, unless doing so would compromise security or the content's purpose.  
   [Testing WEB-333](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB-333-Errormessagesexplainhowtofixtheproblem(Required)) 
   - [ ] Pass  
-  - [ ] Fail  
+  - [ ] Fail
+  - [ ] N/A
 
 - **Links navigate to pages; buttons perform actions**  
   WEB-412-003 | Severity: High or Critical  
