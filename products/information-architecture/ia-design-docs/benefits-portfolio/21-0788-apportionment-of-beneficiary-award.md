@@ -84,7 +84,7 @@ Teams must launch with at least one entry point that allows site visitors to nav
 _Any additional key locations that the page should be navigable from. Although these are not required for launch, they are critical to the findability of your content/feature.  Examples of key entry points include "About a form" pages, additional navigation component (top, left) placements, additional static pages where its prominently linked from, etc._
 
 1. **[Special claims](https://www.va.gov/disability/eligibility/special-claims/)** 
-  - Placement description: H3, despription, on page link
+  - Placement description: Content TBD
   - Link details
     - Link label: Apply for apportionment of a beneficiary’s award
     - Link destination: https://www.va.gov/disability/eligibility/special-claims/apportionment-beneficiarys-award
