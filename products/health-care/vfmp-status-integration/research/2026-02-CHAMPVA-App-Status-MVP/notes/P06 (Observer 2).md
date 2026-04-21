@@ -49,26 +49,12 @@ Files tab
 Overview tab
 - notes
 
-Scale of 1-5, how difficult or easy was it to understand the application steps?
-- [ ] 1 - very hard
-- [ ] 2
-- [ ] 3
-- [ ] 4
-- [ ] 5 - very easy
-
 ### Scenario 2: Evidence request
 MyVA
 - notes
 
 CHAMPVA status
 - notes
-
-Scale of 1-5, how difficult or easy was it to understand this screen?
-- [ ] 1 - very hard
-- [ ] 2
-- [ ] 3
-- [ ] 4
-- [ ] 5 - very easy
 
 Birth certificate page
 - notes
@@ -91,7 +77,6 @@ CHAMPVA status
 - easy to use 5
 - confident what was happening with each app 4 (why did you decline jr)
 - i knew where to look to find updates 4 (wasnt super obvious where status updates were located)
-
 
 ### Additional Notes**
 - very passionate about moving away from paper, they used fax to submit their champva app and felt like it was an awful experience
