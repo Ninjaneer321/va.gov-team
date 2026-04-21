@@ -21,7 +21,7 @@
 
 
 ## <a name="flows"></a>Navigation/page flows <br>
-*Illustration and/or description of how users will navigate to and flow through the experience for all impacted visitors typies. This helps identify key entry points and findability requirements, user flow scenarios, and content/messaging needs across various scenarios.*
+<img width="2056" height="802" alt="image" src="https://github.com/user-attachments/assets/359111de-6ca4-4721-af73-62d33be28197" />
 
 
 ## <a name="map"></a>Page structure<br>
