@@ -102,6 +102,33 @@ def generate_short_story(system_prompt: str, research_content: str, token: str) 
     return extract_short_story(json.loads(response_body))
 
 
+def prepare_research_content(content: str, max_chars: int = 18000) -> str:
+    """Strip non-essential sections and truncate to fit token limits."""
+    original_len = len(content)
+
+    # Remove YAML frontmatter.
+    content = re.sub(r"^---\s*\r?\n.*?\r?\n---\s*(?:\r?\n|$)", "", content, count=1, flags=re.DOTALL)
+
+    # Remove key-finding-labels YAML blocks.
+    content = re.sub(r"```yaml\s+key-finding-labels.*?```", "", content, flags=re.DOTALL | re.IGNORECASE)
+
+    # Remove everything after "## Appendix".
+    content = re.sub(r"(?im)^##\s+Appendix\b[\s\S]*$", "", content)
+
+    # Remove everything after "## Research participants" as fallback.
+    content = re.sub(r"(?im)^##\s+Research participants\b[\s\S]*$", "", content)
+
+    # Collapse excess whitespace.
+    content = re.sub(r"\n{3,}", "\n\n", content).strip()
+
+    # Truncate if still too large.
+    if len(content) > max_chars:
+        content = content[:max_chars] + "\n\n[Content truncated for length]"
+
+    print(f"Research content: {original_len} chars -> {len(content)} chars after processing")
+    return content
+
+
 def write_short_story_to_github_env(short_story: str) -> None:
     """Write SHORT_STORY to GITHUB_ENV using heredoc format."""
     github_env = os.environ.get("GITHUB_ENV")
@@ -132,6 +159,7 @@ def main() -> None:
     try:
         prompt_markdown = read_text_file(prompt_template_path)
         research_content = read_text_file(research_file_path)
+        research_content = prepare_research_content(research_content)
         system_prompt = extract_plaintext_prompt(prompt_markdown)
         short_story = generate_short_story(system_prompt, research_content, token)
         write_short_story_to_github_env(short_story)

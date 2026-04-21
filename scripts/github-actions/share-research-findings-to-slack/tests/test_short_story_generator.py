@@ -19,6 +19,7 @@ from short_story_generator import (  # noqa: E402
     extract_plaintext_prompt,
     extract_short_story,
     generate_short_story,
+    prepare_research_content,
     write_short_story_to_github_env,
 )
 
@@ -132,6 +133,46 @@ Instruction two.
 
         written = env_file.read_text(encoding="utf-8")
         self.assertEqual(written, "SHORT_STORY<<EOF\nLine 1\nLine 2\nEOF\n")
+
+    def test_prepare_research_content_strips_non_essential_sections(self):
+        content = """---
+title: Test
+owner: Team
+---
+
+## Findings
+Important insight.
+
+```yaml key-finding-labels
+- label: usability
+```
+
+More useful content.
+
+## Appendix
+This should be removed.
+"""
+        processed = prepare_research_content(content)
+        self.assertNotIn("title: Test", processed)
+        self.assertNotIn("key-finding-labels", processed)
+        self.assertNotIn("This should be removed.", processed)
+        self.assertIn("Important insight.", processed)
+        self.assertIn("More useful content.", processed)
+
+    def test_prepare_research_content_research_participants_fallback(self):
+        content = """## Findings
+Useful summary content.
+
+## Research participants
+Participant table and demographics.
+"""
+        processed = prepare_research_content(content)
+        self.assertEqual(processed, "## Findings\nUseful summary content.")
+
+    def test_prepare_research_content_truncates_to_max_chars(self):
+        content = "A" * 50
+        processed = prepare_research_content(content, max_chars=20)
+        self.assertEqual(processed, "A" * 20 + "\n\n[Content truncated for length]")
 
 
 if __name__ == "__main__":
