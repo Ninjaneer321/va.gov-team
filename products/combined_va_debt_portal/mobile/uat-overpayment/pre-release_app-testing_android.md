@@ -22,11 +22,11 @@
 
 
 
-1. Participants opens Firebase link on phone, enters email address (one that can be accessed on phone)
+1. Participant opens Firebase link on phone, enters email address (one that can be accessed on phone)
 2. Open link from email on phone (from: VA Health and Benefits…)
     1. Tap Get Started
     2. Make sure email is the one they typed in
-    3. Download app tester
+    3. Download app tester _(note: this may not be necessary depending on how public link is set up)_
 3. Enable permissions to install a pre-release version
     1. Google Play - profile photo - Settings - About
     2. Tap “Play Store version” seven times until you see the notice that you are a developer.
@@ -42,7 +42,7 @@
 Some of the latest updates are behind feature flags, and you'll need to turn them on.
 
 1. Enter Demo Mode
-    * Tap the VA logo 7 times until the password field appears.
+    * From unauthenticated sign-in screen: tap the VA logo 7 times until the password field appears.
     * Password: Zhuzh-it
     * Tap Sign In to enter Demo mode.
 
@@ -54,7 +54,7 @@ Some of the latest updates are behind feature flags, and you'll need to turn the
     * Toggle on the specific feature flag.
     * Confirm changes: Apply (upper right) or Apply Overrides (bottom).
 
-3. Sign Out (Optional)
+3. Sign Out _(applying the overrides may log you out of Demo mode)_
     * If you need to sign in with different credentials to test the feature, go to: 
   Home > Profile > Settings > Sign Out.
 
@@ -64,7 +64,7 @@ Some of the latest updates are behind feature flags, and you'll need to turn the
 
 
 1. Uninstall test build of VA app
-2. Uninstall Firebase
+2. Uninstall Firebase (if applicable)
 3. Install standard VA app
 4. Toggle off “Internal app sharing” 
     1. Play Store: profile - general - developer options
