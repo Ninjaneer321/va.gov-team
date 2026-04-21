@@ -89,7 +89,7 @@ jobs:
       - name: Generate research short story via LLM
         if: steps.find-files.outputs.skip != 'true' && env.RESEARCH_FILE
         env:
-          GH_MODELS_TOKEN: ${{ secrets.GH_MODELS_TOKEN }}
+          GH_MODELS_TOKEN: ${{ secrets.WORKFLOWS_PERMISSIONS }}
         run: |
           python scripts/github-actions/share-research-findings-to-slack/short_story_generator.py \
             "platform/research/copilot-prompts/research-report/research-short-story-prompt.md" \
