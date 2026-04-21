@@ -374,6 +374,7 @@ While this UAT confirmed the core functionality of the Overpayments feature, the
 - [Session notes](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/session_notes.md)
 - [Spreadsheet of test paths and success criteria]
 - [Spreadsheet of transcripts, quotes, tags, and insights]
+
 _Note: some documents are stored in SharePoint where you may need to request permission to view_
   
 ### Pages and applications used
