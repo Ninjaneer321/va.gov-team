@@ -21,12 +21,12 @@
 
 
 ## <a name="flows"></a>Navigation/page flows <br>
-<img width="1993" height="759" alt="image" src="https://github.com/user-attachments/assets/8a22c5b1-0a5c-4f51-9842-d3e7fa634413" />
+<img width="1947" height="735" alt="image" src="https://github.com/user-attachments/assets/d9ffc2c7-7be9-43a5-b082-abb1c1fc9995" />
 
 
 ## <a name="map"></a>Page structure<br>
+<img width="518" height="1005" alt="image" src="https://github.com/user-attachments/assets/9099ca63-6a42-4003-b80d-c71a9583209a" />
 
-<img width="577" height="1125" alt="image" src="https://github.com/user-attachments/assets/5d792536-e9bb-42e7-811e-a1d85882dcc9" />
 
 
 ## <a name="url"></a>Page URLs and breadcrumbs
