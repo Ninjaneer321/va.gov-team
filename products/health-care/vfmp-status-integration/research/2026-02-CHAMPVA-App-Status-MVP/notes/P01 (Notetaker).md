@@ -70,7 +70,7 @@ O: might be on a monitor?
 [Diff between sections]
 - Claims and applications is ongoing
 - Completed forms is everything they've completed, in case they need to look something up 5 years later
-- The names are perfect, exactly what I need, easy to find what's going on [need to find quote for this]
+- The names are perfect, exactly what I need, easy to find what's going on.
 
 O: Clicks check status details for the first card before the CHAMPVA card, thinks it's a broken link
 
