@@ -372,8 +372,8 @@ While this UAT confirmed the core functionality of the Overpayments feature, the
 
 - [Interview transcripts](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/combined_va_debt_portal/mobile/uat-overpayment/transcripts)
 - [Session notes](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/session_notes.md)
-- [Spreadsheet of test paths and success criteria]
-- [Spreadsheet of transcripts, quotes, tags, and insights]
+- [Spreadsheet of test paths and success criteria](https://dvagov.sharepoint.com/:x:/r/sites/vamobilefeaturesupport/Shared%20Documents/2026-01%20UAT%20Overpayment/Test%20paths%20and%20success%20criteria.xlsx?d=w75ea5f86688f4386bbd1c5ff2196da9f&csf=1&web=1&e=1RKmKm)
+- [Spreadsheet of transcripts, quotes, tags, and insights](https://dvagov.sharepoint.com/:x:/r/sites/vamobilefeaturesupport/Shared%20Documents/2026-01%20UAT%20Overpayment/Transcripts%20-%20tags%20-%20quotes%20-%20insights.xlsx?d=w579e62bd4cf8476486ea835a89a40828&csf=1&web=1&e=SGWio9)
 
 _Note: some documents are stored in SharePoint where you may need to request permission to view_
   
