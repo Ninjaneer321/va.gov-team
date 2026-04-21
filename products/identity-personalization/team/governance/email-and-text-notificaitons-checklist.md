@@ -2,7 +2,7 @@
 
 Changes to the Email and text notifications page in the va.gov Profile require coordination with the Authenticated Experience team, as well as the VA Profile, VA notify, and VeText teams. The VA Profile team manages the overall permissions on this page, and are the current maintainer of all content, excluding checkbox hint text. Teams need to coordinate with VA notify and VeText to create email and text notifications respectively. ***Any development not coordinated with VA Profile, VA notify, or VeText will result in failures for Veterans using this page.***
 
-If you want to make a change to Email and text notifications page on the [va.gov](http://va.gov) Profile, you should follow these steps:
+If you want to make a change to Email and text notifications page on the va.gov Profile, you should follow these steps:
 
 - [ ] If you are adding a new email or text notification, [review this documentation](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/products/identity-personalization/profile/notification_settings) to prepare for the development, and [review this documentation](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/UX/profile-design-content-standards.md#email-and-text-notifications) to prepare designs;  
 - [ ] Submit an intake request to [Authenticated Experience](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=auth-exp-request.yml) so we can review your proposed changes and prioritize coordination with your team;  
