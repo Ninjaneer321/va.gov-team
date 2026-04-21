@@ -8,11 +8,11 @@
 
 ## Release Plan
 
-- [ ] 4-20-26 - Turn feature flag to 100%
-- [ ] 4-21-26 - Datadog report: release day vs. the same day one month ago
-- [ ] 4-22-26 - GA + Datadog report: first full day (Apr 21) vs. the same day one month ago
-- [ ] 4-23-26 - GA + Datadog report: first two full days (Apr 21–22) vs. the same days one month ago
-- [ ] 4-28-26 - GA + Datadog report: full week (Apr 21–27) vs. the same week one month ago
+- [ ] 4-21-26 - Turn feature flag to 100%
+- [ ] 4-22-26 - Datadog report: release day vs. the same day one month ago
+- [ ] 4-23-26 - GA + Datadog report: first full day (Apr 21) vs. the same day one month ago
+- [ ] 4-24-26 - GA + Datadog report: first two full days (Apr 21–22) vs. the same days one month ago
+- [ ] 4-29-26 - GA + Datadog report: full week (Apr 21–27) vs. the same week one month ago
 
 ## What changes
 
