@@ -524,7 +524,7 @@ This research does not include the perspectives of the following marginalized Ve
 
 ➡️ _[insert screenshot of completed recruitment checker in the format below]_
 
-![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](link - add image to github folder and link here with .png)
+![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/supporting-files/VA%20Recruitment%20checker.png)
 
 #### A more accessible version of the table in the above image
 
