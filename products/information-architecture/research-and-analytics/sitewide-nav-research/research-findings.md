@@ -160,8 +160,10 @@ A tree test will be used to evaluate the existing navigation component organizat
 > Place true or false statements in bold for easier scanability
 
 - **Hypothesis Statement:** Users will be able to easily find key information related to learning about and applying for key Veteran benefits within their respective benefit hubs.   
-  - **"Maybe True", “Likely True”, “Definitely True”, “Likely False”, “Definitely False” or “Not enough information”**  
-  - Supporting evidence  
+  - **Likely True**  
+  - Participants were definitely able to complete 2 of the 4 learn/apply tasks had successfully - the family health care task (74%) and home loan COE (66%) task. 
+  - The education benefits task was just below a successful task rate at 58%. In this task, 26% of the participants went to My VA and selected "Education and training" from there. On page crosslinks were not counted as correct responses in this test, but this would have brought participants back to the Education hub, and based on those that went to that hub initially, there was a very high chance that they could have then selected a correct answer.
+  - Participants struggled the most with the VR&E benefits task. While this benefits lives within the Careers and employment hub, it is also included in the Education and training menu and participants selected correct answers within the education hub significantly more than in the careers hub. In addition, 11% of the answer selected in the careers hub were incorrect, which could be a signal for low familiarity of the program or the program name.
 - **Hypothesis Statement:** Users will look to the family member and caregiver benefit hub to find key information related to benefits for family members.  
   - **Definitely True**  
   - Supporting evidence
