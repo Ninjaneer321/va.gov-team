@@ -1,6 +1,6 @@
 # Apply for Personalized Career Planning & Guidance (PCPG, Chapter 36) — 2025 Executive Summary
 
-Full analysis: Ch36_2025_CombinedSourcesFindings.md 
+[Full analysis](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-careers/education-career-counseling/2026/painpoints/Ch36_2025_CombinedSourcesFindings.md)
 
 ### Satisfaction & Success
 
