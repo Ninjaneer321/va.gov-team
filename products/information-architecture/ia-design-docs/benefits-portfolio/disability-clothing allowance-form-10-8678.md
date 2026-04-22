@@ -79,7 +79,7 @@ Teams must launch with at least one entry point that allows site visitors to nav
 
 ### Required entry point(s)
 
-1. **[Application for annual clothing allowance](https://www.va.gov/forms/10-8678/)**
+1. **[Form Detail Page] (https://www.va.gov/forms/10-8678/)**
   - Placement description: On page link
   - Link details
     - Link label: Go to the online tool
