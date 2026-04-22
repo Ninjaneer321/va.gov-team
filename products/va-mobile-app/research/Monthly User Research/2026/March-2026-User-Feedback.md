@@ -322,6 +322,7 @@ Feature requests in March 2026 from **App Store and Play** reviews and **mobile 
 - Claims/disability views: appeals steps, bilateral or combined ratings detail (where data supports)
 - Clearer onboarding or in-product help for **setting up access** to submit **travel pay** claims *(also raised via email)*
 - Troubleshooting guidance when users cannot enable **location services** for the app *(also raised via email)*
+- Easy sign-out option
 
 **Representative responses:**
 
