@@ -1,6 +1,6 @@
 # VA.gov Veteran Status Card (VSC) — 2025 Executive Summary
 
-Full analysis: **VSC_2025_CombinedSourcesFindings.md** 
+[Full analysis](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-status/v2-IIR/Research/2026/VSC_2025_CombinedSourcesFindings.md)
 
 
 ## Satisfaction & Success
