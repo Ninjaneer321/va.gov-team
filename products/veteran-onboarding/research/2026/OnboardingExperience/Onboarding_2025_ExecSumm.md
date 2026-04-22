@@ -1,6 +1,6 @@
 # My VA First‑Login Onboarding — 2025 Executive Summary
 
-**Full analysis:** Onboarding_2025_CombinedSourcesFindings.md
+[Full analysis](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-onboarding/research/2026/OnboardingExperience/Onboarding_2025_CombinedSourcesFindings.md)
 
 ---
 
