@@ -21,11 +21,11 @@
 
 
 ## <a name="flows"></a>Navigation/page flows <br>
-<img width="1782" height="681" alt="image" src="https://github.com/user-attachments/assets/2773387f-29fa-4191-8b54-88f72b7cfa90" />
+<img width="1269" height="404" alt="image" src="https://github.com/user-attachments/assets/80b461a7-7bb7-4cec-b6e5-1854f1d6ba67" />
 
 
 ## <a name="map"></a>Page structure<br>
-<img width="1672" height="797" alt="image" src="https://github.com/user-attachments/assets/8574e251-ff46-495a-93ee-e00863232886" />
+<img width="750" height="628" alt="image" src="https://github.com/user-attachments/assets/1be89f7f-91f2-4b9c-84f7-e03a40460531" />
 
 
 
