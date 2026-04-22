@@ -1,12 +1,12 @@
-## Automated Testing Documentation
+# Automated Testing Documentation
 
-### Overview
+## Overview
 
 The **Lifestage Browser-Based Tests** repo is a Playwright E2E test automation framework that tests the DMT (Dependents Management Tools) forms on VA.gov staging. It automates browser-based testing of the Veteran-facing forms built by the DMT squad.
 
 **Repo:** https://github.com/department-of-veterans-affairs/lifestage-browser-based-tests
 
-### Test Coverage Summary
+## Test Coverage Summary
 
 **54 automated tests** across 41 test files covering 2 form types:
 
@@ -16,7 +16,7 @@ The **Lifestage Browser-Based Tests** repo is a Playwright E2E test automation f
 | **686c/674 V2** (Add/Remove Dependents) | 26 | Add spouse/child/student, remove dependents (death, divorce, marriage, school), error handling, input validation, duplicate detection |
 | **686c/674 V3** (Picklist Removal Flows) | 18 | All removal flows with V3 picklist UI, early exit scenarios (adoption, disability), outside-US flows |
 
-### Test Types
+## Test Types
 
 | Type | Count | % of Total |
 |------|-------|------------|
@@ -27,7 +27,7 @@ The **Lifestage Browser-Based Tests** repo is a Playwright E2E test automation f
 | In-Progress Save | 3 | 6% |
 | Integration | 2 | 4% |
 
-### CI/CD Workflows
+## CI/CD Workflows
 
 All workflows are **manual trigger only** (`workflow_dispatch`) via GitHub Actions:
 
@@ -42,7 +42,7 @@ All workflows are **manual trigger only** (`workflow_dispatch`) via GitHub Actio
 | **0538** | 0538 form tests only |
 | **Lint** | ESLint on PRs and pushes to main |
 
-### Architecture & Key Features
+## Architecture & Key Features
 
 - **Page Object Model** — reusable page classes for each form section (e.g., `SpouseInformationPage.ts`, `ChildInformationPage.ts`)
 - **Stealth Plugin** — bypasses bot detection on VA.gov staging using `playwright-extra`
@@ -54,7 +54,7 @@ All workflows are **manual trigger only** (`workflow_dispatch`) via GitHub Actio
 - **Screenshot capture** on test failure
 - **Automatic retry** on flaky tests
 
-### Project Structure
+## Project Structure
 
 ```
 src/
@@ -80,7 +80,7 @@ resources/                   # Test data, payloads, and documents
 docs/                        # Test coverage reports
 ```
 
-### How to Run
+## How to Run
 
 ```bash
 # Install
@@ -99,7 +99,7 @@ npm run test_monitor_job
 npx cross-env Environment=staging.local Module=dmt playwright test <test-file> --project=chromium
 ```
 
-### Planned Future Enhancements
+## Planned Future Enhancements
 
 - PDF validation for generated documents
 - Email validation for transactional emails
@@ -107,7 +107,7 @@ npx cross-env Environment=staging.local Module=dmt playwright test <test-file> -
 - Visual regression testing with screenshot comparison
 - AI-powered test intelligence for pattern detection and self-healing tests
 
-### Additional Documentation
+## Additional Documentation
 
 - [Test Coverage Report](https://github.com/department-of-veterans-affairs/lifestage-browser-based-tests/blob/main/docs/Test-Coverage-Report.md) — detailed breakdown of all 54 tests
 - [README](https://github.com/department-of-veterans-affairs/lifestage-browser-based-tests/blob/main/README.md) — setup, configuration, and usage guide
