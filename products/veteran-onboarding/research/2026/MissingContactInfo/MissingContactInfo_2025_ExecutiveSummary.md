@@ -1,6 +1,6 @@
 # Contact Information Update (Missing Contact Info flow) — 2025 Executive Summary
 
-Full analysis: MissingContactInfo_2025_CombinedSourcesFindings.md 
+[Full analysis](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-onboarding/research/2026/MissingContactInfo/MissingContactInfo_2025_CombinedSourcesFindings.md)
 
 
 ## Satisfaction & Success
