@@ -49,15 +49,15 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
   
 **1) Form Detail Page - Existing**
 - URL: (https://www.va.gov/forms/10-8678/)
-- H1: VA Form 10-8678
-- Sub-heading: Application for Annual Clothing Allowance
-- Breadcrumb: The breadcrumb for the previous page is VA.gov> homeVA> forms> VA Form 10-8678
+- H1: Application for annual clothing allowance
+- Sub-heading: 
+- Breadcrumb: The breadcrumb for the previous page is VA.gov> homeVA> forms> Application for annual clothing allowance
 - Notes: 
 
 **2) Online form for 10-8678 - New**
 - URL: (https://www.va.gov/forms/10-8678/apply-annual-clothing-allowance/)
 - H1: Apply for annual clothing allowance online
-- Sub-heading: Form 10-8678
+- Sub-heading: 
 - Breadcrumb: VA.gov home &gt; VA forms &gt; Application for annual clothing allowance &gt; Apply for annual clothing allowance online
 - Notes: 
 
@@ -77,7 +77,7 @@ Teams must launch with at least one entry point that allows site visitors to nav
 
 ### Required entry point(s)
 
-1. **[About Form 10-8678](https://www.va.gov/forms/10-8678/)**
+1. **[Application for annual clothing allowance](https://www.va.gov/forms/10-8678/)**
   - Placement description: On page link
   - Link details
     - Link label: Go to the online tool
