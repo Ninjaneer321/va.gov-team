@@ -166,7 +166,7 @@ A tree test will be used to evaluate the existing navigation component organizat
   - Participants struggled the most with the VR&E benefits task. While this benefits lives within the Careers and employment hub, it is also included in the Education and training menu and participants selected correct answers within the education hub significantly more than in the careers hub. In addition, 11% of the answer selected in the careers hub were incorrect, which could be a signal for low familiarity of the program or the program name.
 - **Hypothesis Statement:** Users will look to the family member and caregiver benefit hub to find key information related to benefits for family members.  
   - **Definitely True**  
-  - Supporting evidence
+  - Participants navigated directly to the Family and caregiver hub 49% of the time, and the Veteran health care hub 30% of the time. Ultimately they selected answers twice as often in the family hub (51%) than the health care hub (24%).
 - **Hypothesis Statement:** Users will not commonly look to the Service member benefits hub as a destination for key Veteran benefit information and tools.   
   - **Definitely True**  
   - Supporting evidence 
