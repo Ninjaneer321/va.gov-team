@@ -49,10 +49,15 @@ Before enabling your feature toggle in production, you'll need to:
 
 #### **Results**
 
-* Number of users: **Need to update**  
-* Number of bugs identified/fixed: **Need to update**   
-* Was any downstream service affected by the change?: **Need to update**  
-* Any changes necessary based on the logs, feedback on user challenges, or VA challenges? **Need to update**  
+* Number of users:
+  * 6 completed sessions with Veterans that had overpayments (2 on Android and 4 on iOS)
+  * 2 completed sessions with Veterans who do not have overpayments (insert operating systems)
+* Number of bugs identified/fixed: Two nice-to-have bugs were identified.
+  * Copying the balance adds an extra "$" on the payment website
+  * Slight spacing issue between overpayment card and accordion when benefits are offset 
+* Was any downstream service affected by the change? No
+* Any changes necessary based on the logs, feedback on user challenges, or VA challenges? No.
+  * We did hear consistent feedback that the Last updated date was confusing and not helpful. MFS will work with the FM team to determine whether adding Transaction History will provide clarity or whether we should consider removing it from our designs at a future point in time.   
 
 ### **Phase II: Staged Rollout (also known as unmoderated production testing)**
 
