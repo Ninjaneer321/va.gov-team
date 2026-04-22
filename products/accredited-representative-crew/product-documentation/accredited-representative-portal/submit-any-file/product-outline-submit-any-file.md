@@ -2,32 +2,35 @@
 *After you've explored the problem and through testing / hypothesis have identified the ideal solution, write up one sentence describing the solution you'll be creating.*
 
 ## Problem Statement
-*In a couple of sentences, describe the Who, What, Why, and Where of the challenge / pain point you seek to address. [Here's a sample problem statement definition activity you can try on your team to help generate this](https://www.atlassian.com/team-playbook/plays/problem-framing)*
-Accredited Representatives can use the AR Portal to submit some forms to VA (e.g., 526EZ, Intent to File, 21-22), but there is a long tail of less-common forms they may need to use only occasionally. This forces reps to use multiple similar products to conduct their business, or to employ workarounds (like uploading files in inappropriate places).
 
-*Follow your problem description up with a "How might we... _______" statement re-framing that challenge as an opportunity. Don't hint too much at what the solution might be, you should have enough of a focal point here to guide your ideas, but plenty of freedom to think laterally and innovatively as you experiment and prototype later.*
-How might we enable the AR Portal to accommodate a breadth of document submissions, including forms and supporting evidence?
+Accredited representatives (reps) can use the Accredited Representative Portal (ARP) to submit some forms to VA (e.g., 526EZ, Intent to File, 21-22) with specific experiences / pathways supporting them, but there is a long tail of less-common forms they may need to use only occasionally. This forces reps to use multiple similar products to conduct their business, or to employ workarounds (like uploading files in inappropriate places).
+
+How might we enable ARP to accommodate the full breadth of document submissions, including both VA forms and supporting evidence?
  
 ## Desired User Outcomes
 
 - *Why would a user want to use this?*
-- Enable existing users of the AR Portal to use it for a larger share of their work
+- Enable existing users of ARP to use it for a larger share of their work
+- Users get more value from ARP and integrate it into their work
 - Improve the success and timeliness of form submission (e.g., by associating uploads with appropriate metadata, by facilitating organization of documents)
 - *With this problem solved, what should users be able to do/achieve that they couldn't before?*
 
 ## Undesired User Outcomes
 
+- Users employ this feature instead of more-structured, interactive digital experiences (like those for Intent to File or 21-22)
 
 ## Desired Business Outcomes
 
 - *Why would your business want this to exist?*
-- While Veteran-facing teams have begun creating digital experiences using the most-common and straightforward forms to facilitate self-service submissions, the AR Portal is by definition for power users (professionals) and should provide meet their unique needs
+- While Veteran-facing teams have begun creating digital experiences using the most-common and straightforward forms to facilitate self-service submissions, ARP is by definition for power users (professionals) and should meet their unique needs with an appropriate experience
+- Improving the value proposition of ARP will encourage reps to use it more often, encourage colleagues to start using it
 - *With this problem solved, what should your business be able to do/achieve that they couldn't before?*
-- Similar to the sunsetting of SEP, expanding functionality of the AR Portal will allow consolidation of other rep-facing tools
+- Similar to the sunsetting of SEP, expanding functionality of the AR Portal will allow consolidation of other rep-facing tools like QuickSubmit
+- With reps using ARP for more types of document submission, our ongoing quantitative (tracking data) and qualitative (user research, support mailbox) engagement with reps can surface pain points and feature requests to improve ARP further
 
 ## Undesired Business Outcomes
 
-- Delivering a poor experience in this feature (i.e., one not preferred to existing tools like QuickSubmit) could harm perception of and trust in the whole portal
+- Delivering a poor experience in this feature (i.e., one not preferred to existing tools like QuickSubmit) could harm perception of and trust in ARP more generally
 
 ---
 ## Measuring Success
@@ -43,6 +46,10 @@ How might we enable the AR Portal to accommodate a breadth of document submissio
 |----------|-------------|--------------------|--------------------|--------|
 | KPI      |             |                    |                    |        |
 | KPI      |             |                    |                    |        |
+
+- Volume of forms and supporting evidence submitted through this feature (and through ARP as a whole)
+- Success rate of submissions, and turnaround time
+- Growth in ARP user base
 
 #### Baseline KPI Values
 * _Baseline values for those most critical metrics. These may come from other systems other than VA.gov e.g. eBenefits._
