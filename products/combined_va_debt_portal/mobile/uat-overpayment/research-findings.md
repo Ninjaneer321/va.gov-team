@@ -68,8 +68,8 @@ key_findings:
   - "UAT Issue (Bug): Copy/paste adds an extra “$” when transitioning to pay.va.gov"
   - "UAT Issue (Bug): Spacing issue on details page."
 recommendations:
-  - "On the "Pay online" screen, remove the dollar sign from the copied text for the balance."
-  - "Reorder the details on the "Pay online" screen to match the sequence of fields on pay.va.gov."
+  - 'On the "Pay online" screen, remove the dollar sign from the copied text for the balance.'
+  - 'Reorder the details on the "Pay online" screen to match the sequence of fields on pay.va.gov.'
   - "Provide information on the original cause of the overpayment."
   - "Clearly communicate the specifics of benefit reductions and repayment plans, including when and by how much."
   - "Consolidate overpayment-related communications and actions so Veterans can see the full story in one place (across VA.gov and the mobile app)."
