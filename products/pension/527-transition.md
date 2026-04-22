@@ -48,6 +48,7 @@ The online pension application is available in the [production environment](http
 - [Research folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/pension/research)
 - [Mural room](https://app.mural.co/t/departmentofveteransaffairs9999/r/1613770853903?folderUuid=7f7423c1-9a73-4522-b388-d380cc8cdddd)
 - [0969+527 walkthrough video](https://dvagov.sharepoint.com/:v:/r/sites/vaabdvro/Shared%20Documents/Lifestage%20-%20General/Lifestage%20Transition%20-%20March,%202026/Walkthrough%20Videos/0969+527%20combo.mp4?csf=1&web=1&e=SGIST5)
+- [design backlog in slack](https://dsva.slack.com/lists/T03FECE8V/F0AAYUM8CF2): contains research initiatives at a high level (we kept a high-level backlog in slack because it made it easier to track, collab, and prioritize outside of github. But once work was in progress, we made tickets and tracked in github)
 
 ### Engineering
 
