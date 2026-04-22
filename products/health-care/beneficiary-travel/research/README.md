@@ -3,7 +3,8 @@
 
 ## 2026
 
-(No studies yet) 
+[User-created appointment data usability study - April](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel/research/2026-04%20User%20Created%20Appointment%20Data%20Usability%20Study)
+- Moderated sessions using a clickable Figma prototype to test the usability of entering appointent and claim information for appointments that don't appear in a user's list of past appointments. 
 
 ## 2025
 
