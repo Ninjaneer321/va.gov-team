@@ -7,7 +7,7 @@
 
 - **CSAT:** Not available — pre-launch (no 4–5 ratings collected), n=0
 - **Task success (self-reported):** Not available — Medallia survey data not yet collected
-- **Data sources:** Usability testing (Jun–Aug 2025), Staging review artifacts (Dec 2025), GA4 analytics (planned/TBD)
+- **Data sources:** Usability testing (Jun–Aug 2025), Staging review artifacts (Dec 2025)
 
 
 ## Top 5 Pain Points (Why People Fail)
