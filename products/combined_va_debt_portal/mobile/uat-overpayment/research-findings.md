@@ -82,7 +82,8 @@ kpi_alignment:
 outcomes:
   user: "Veterans want to easily view and manage their benefit overpayments in the app to understand what they owe and why."
   business: "Increase debt visibility via the mobile app to ensure Veterans are aware of money owed and can take immediate action."
-opportunity_areas: []
+opportunity_areas:
+  - "n/a"
 further_research_needed:
   - "Veterans with multiple overpayments: Recruitment did not yield participants with more than one active debt. Further observation is needed to ensure the list and detail views remain clear and manageable for users with a high volume of concurrent overpayments."
   - |
@@ -110,7 +111,8 @@ underserved_groups_missing:
   - "Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman"
 secondary_research:
   - "Previous Study: Mobile App Debt Portal: Overpayments and Copayments Research Findings, September 2025 (link mentioned in report)"
-synthesis_tools_used: []
+synthesis_tools_used:
+  - "spreadsheets"
 tags:
   - "AUD: Veterans"
   - "BNFT: Finances"
@@ -120,7 +122,8 @@ tags:
   - "DSP: Contextual Help"
   - "DSC: Links"
   - "DSC: Accordions"
-  - "usability-testing"
+  - "user-acceptance-test"
+  - "UAT"
   - "evaluative"
 ---
 
