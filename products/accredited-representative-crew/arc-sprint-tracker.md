@@ -345,7 +345,13 @@ Recording Link TBD
 
 ## Sprint 14 Delivery
 
-TBD
+- [ ] Sprint Delivery Approved by Enablement
+
+Total Completed in Sprint 14: 59 tickets, 134 points + 4 spikes\
+Active Teammates in Sprint 14: 22 active teammates + 3 principal leads (lower velocity)\
+Average Active Teammate Velocity in Sprint 14: 134 points / 22 active teammates = 6.09 points / teammate\
+Carrying into Sprint 14: 34 tickets, 103 points
+
 
 ## Sprint 14 Tickets
 
