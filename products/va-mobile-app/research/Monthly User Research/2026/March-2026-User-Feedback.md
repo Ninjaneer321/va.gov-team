@@ -213,6 +213,11 @@ The lowest-rated area in March. Veterans described loops between the app and bro
 
 Many reviews remained positive on refills overall, but a visible subset reported missing refill or fill dates, missing tracking, or confusion after updates.
 
+**Representative responses:**
+
+- "Rx Refill Dates still show Not Available. First noticed after app update days ago. A new update received this morning, 3.24.26. Not sure what it did but Rx Refill Dates still show Not Available."
+- "I use this app a lot and generally, it's fine. recently prescription fill dates aren't available. "
+
 ### Profile
 
 **Average rating:** 3.67 | **# of ratings:** 3
