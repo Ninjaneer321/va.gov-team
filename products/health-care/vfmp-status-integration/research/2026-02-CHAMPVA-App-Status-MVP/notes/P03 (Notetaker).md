@@ -53,8 +53,7 @@ O: Had a lot of trouble going between zoom and the prototype
 
 ### Scenario 1a: My VA homepage
 - I always start from the bottom in case I miss something
-- [check transcript]
-
+- Right away, would click check status details
 - Why are there 4 steps? That's my first feedback.
 - Why are there steps 2 and 3? I'm not applying to be a NASA astronaut
 - Imagines that clicking the link would lead to figuing out what the steps are, expected timeline
@@ -113,7 +112,7 @@ Birth certificate page
 Back to CHAMPVA status
 - Well Jane is enrolled.
 - Woohoo I made it to Step 3
-- It seems there's 4 steps 2 people. It's not clear. I would split the screen, say Jane went through Steps 1 to 4 and she's enrolled. Obviously Jane went through 1 through 4. John Doe Jr. is on step 2
+- It seems there's 4 steps 2 people. It's kind of clear. I would split the screen, say Jane went through Steps 1 to 4 and she's enrolled. Obviously Jane went through 1 through 4. John Doe Jr. is on step 2
 
 ### Scenario 3: CST home page + completed application
 MyVA
@@ -134,8 +133,8 @@ CHAMPVA status
 
 ### Post-Task Interview
 - There are some good parts to it. If you're going to use the steps, explain the steps fully right up front. Next to the steps, include "we'll review it within 2 weeks, we'll notify you on VA.gov and mail you a letter" "If you've completed everything, you'll get approved within X days"
-- [check transcript] that was a good part
-- Hyperlinks all where they should be?
+-  I like that you could, drop in… the way you could submit information, I mean, you know, the fax is there, and maybe some people can get to a fax, but you can drop… you can mail it, or drop and drag files, and you had all the file extensions there that anyone would have. That was a good part
+- Hyperlinks all where they should be
 - Thought Action needed was a button, not a big deal, but if it says Action needed that's what I'm going to go to right away
 - Layout, font, visual design all good
 
