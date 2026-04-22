@@ -48,41 +48,49 @@
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
-- **The goal for Sprint 19 is XXXXX**
+- **The goal for Sprint 19 is Add "Received" and "In Progress" statuses to MyVA for EZ and complete technical discovery and mapping for EZR statuses**
 
 #### List of Planned work
-- EZ
-     - [ ] Update File Upload pattern
-- EZR ECNOK on Profile
-     - [ ] Tech discovery on connecting Associations API
-     - [ ] Set up Associations API
-     - [ ] Update UI as needed
 
 ## 
 ### 10-10EZR
-#### Obj: EZR [ECNOK on VA.gov Profile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
-- [ ] [#135569](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135569) - [BE] Tech discovery to determine what is needed to connect Associations API to VA.gov Profile page
-- [ ] [#135508](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135508) - [BE] Associations API connection
-- [ ] [#135509](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135509) - [FE] UI updates
-
+- [ ] **[SPRINT GOAL: [Eng] 10-10EZR - Forms statuses: Tech discovery on form statuses on MyVA](https://github.com/department-of-veterans-affairs/va.gov-team/issues/118642)**
+- [ ] [[BE, FE] 10-10EZR - Household V2: Remove the ezr_form_prefill_with_providers_and_dependents flipper toggle](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121079)
+- [ ] [[BE] 10-10EZR - Performance: Investigate high latency](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133849)
+- [ ] [[UX] 10-10EZR - ECNOK on Profile Designs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/139918)
+- [ ] [[PM] 10-10EZR - ECNOK on Profile: Initiate Collab Cycle](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135708)
+- [ ] **[STRETCH GOAL: [FE] 10-10EZR - Improvement: Update file upload pattern to the latest version](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119890)**
 
 
 ##
 ### 10-10EZ
-#### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
-- [ ] [#119891](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119891) - [FE] Update file upload pattern - array builder
+- [ ] **[SPRINT GOAL: [BE] 10-10EZ - Form Statuses: MyVA - Display submission statuses on MyVA](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130010)**
+- [ ] [[BE] 10-10EZ: Fix invalid return URLs and redirect handling for FormProfile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/139742)
+- [ ] **[STRETCH GOAL: [FE] 10-10EZ - Improvement: Update file upload pattern to the latest version](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119891)**
+
 
 ## 
 ### 10-10CG
-- ...
+- [ ] **[STRETCH GOAL: [FE] 10-10CG - Improvement: Update file upload pattern to the latest version](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119892)**
+
+##
+### ALL 10-10 FORMS
+- [ ] [[Team] 10-10 Forms - Monitoring: Create Quick-reference document & Update Playbooks](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135970)
+
 
 ##
 ### Team PTO
-- Allan: 4/8-24
-- Andrea: 4/24
-- 
+- Allan 4/22-4/24
+- Jessica 5/4
+- Fara 4/22
+- Todd 4/22-4/29
+- Matt 4/28-4/29
+- Andrea 4/24
+- Steve 5/4-5/5
+- Kyle - 5 days
 
 ---
+
 ## 📆 Sprint 18 (Apr 8 - Apr 21)
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
