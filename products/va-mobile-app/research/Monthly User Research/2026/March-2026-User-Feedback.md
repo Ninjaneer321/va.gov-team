@@ -178,7 +178,7 @@ Reviewers asked to pay medical bills or prescription copays in the app, see bala
 
 ## Feature Specific Feedback
 
-_Note: Average ratings and counts below are based on **App Store and Google Play** reviews only (star-rated). Qualitative email feedback is woven into the theme write-ups above; it is not averaged into this table._
+_Note: Average ratings and counts below are based on **App Store and Google Play** reviews only (star-rated). If there is not strong evidence (fewer than ~3 relevant reviews), the field is marked NA. Qualitative email feedback is woven into the theme write-ups above; it is not averaged into this table._
 
 | Feature | Average Rating | # of Ratings |
 |---|---|---|
@@ -186,12 +186,12 @@ _Note: Average ratings and counts below are based on **App Store and Google Play
 | Messaging | 3.06 | 16 |
 | Appointments | 3.47 | 17 |
 | Prescriptions | 3.50 | 18 |
-| Profile | 3.75 | 4 |
+| Profile | 3.67 | 3 |
 | Travel Pay | 4.20 | 5 |
 | Medical records | 4.20 | 5 |
 | Claims | 4.00 | 3 |
 | Payments | 4.50 | 4 |
-| Letters and documents | 4.50 | 2 |
+| Letters and documents | NA | NA |
 | App overall | 4.42 | 156 |
 | Navigation | NA | NA |
 | Disability rating | NA | NA |
@@ -213,10 +213,16 @@ The lowest-rated area in March. Veterans described loops between the app and bro
 
 Many reviews remained positive on refills overall, but a visible subset reported missing refill or fill dates, missing tracking, or confusion after updates.
 
+### Profile
+
+**Average rating:** 3.67 | **# of ratings:** 3
+
+Users had feature requests for easy sign out option and noted a problem accessing notifications in settings. 
+
 **Representative responses:**
 
-- "Rx Refill Dates still show Not Available… Not sure what it did but Rx Refill Dates still show Not Available."
-- "The VA prescriptionn service is excellent. Each time I receive a refill I feel our nation’s gratitude for my service. Thank you!"
+- "What I’d like to see is a Sign Out capability. Right now it appears you can just close the application and swipe it up off your screen."
+- "won't let me open my notifications in settings been saying there's a problem with the site for a month now"
 
 ### Appointments
 
