@@ -51,7 +51,7 @@ Before enabling your feature toggle in production, you'll need to:
 
 * Number of users:
   * 6 completed sessions with Veterans that had overpayments (2 on Android and 4 on iOS)
-  * 2 completed sessions with Veterans who do not have overpayments (insert operating systems)
+  * 2 completed sessions with Veterans who do not have overpayments (1 on Android and 1 on iOS)
 * Number of bugs identified/fixed: Two nice-to-have bugs were identified.
   * Copying the balance adds an extra "$" on the payment website
   * Slight spacing issue between overpayment card and accordion when benefits are offset 
