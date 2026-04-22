@@ -1,6 +1,6 @@
-# VA.gov TSA Safe Travel Letter — 2026 Executive Summary
+# VA.gov TSA Safe Travel Letter — 2025 Executive Summary
 
-Full analysis: TSA_2026_CombinedFindings.md
+[Full analysis](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/tsa-safe-travel-letter/research/2026/TSA_2026_CombinedFindings.md)
 
 
 ## Satisfaction & Success
