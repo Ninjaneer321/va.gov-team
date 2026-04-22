@@ -1,4 +1,4 @@
-# Contact Information Update (Missing Contact Info flow)** — **2025** Insights (**GA4, Medallia, Call Center**)
+# Contact Information Update (Missing Contact Info flow) — 2025 Insights (GA4, Medallia, Call Center)
 
 ### TL;DR (what matters)
 
