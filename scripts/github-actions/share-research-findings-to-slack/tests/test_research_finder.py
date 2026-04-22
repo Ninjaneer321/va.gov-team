@@ -153,15 +153,17 @@ class TestResearchFileFinder(unittest.TestCase):
     @patch.object(ResearchFileFinder, 'get_file_age_days')
     @patch.object(ResearchFileFinder, 'is_file_shared')
     def test_find_research_files_with_age_filter(self, mock_is_shared, mock_get_age):
-        """Test finding research files with age filtering."""
+        """Test finding research files with min/max age filtering."""
         mock_is_shared.return_value = False
         
         # Mock different ages for different files
         def mock_age_side_effect(file_path):
-            if "findings.md" in file_path:
-                return 20  # Old enough (>= 14 days)
-            elif "study-report.md" in file_path:
+            if "study-report.md" in file_path:
                 return 5  # Too recent (< 14 days)
+            elif "research-insights.md" in file_path:
+                return 120  # Too old (> 90 days)
+            elif "user-research-findings.md" in file_path:
+                return 20  # Old enough (>= 14 days)
             else:
                 return 15  # Old enough (>= 14 days)
         
@@ -169,8 +171,10 @@ class TestResearchFileFinder(unittest.TestCase):
         
         eligible_files = self.finder.find_research_files(ignore_time_delay=False)
         
-        # Should find files that are 14+ days old
+        # Should find files that are between 14 and 90 days old
         self.assertGreater(len(eligible_files), 0)
+        self.assertNotIn("products/disability/study-report.md", eligible_files)
+        self.assertNotIn("products/education/research-insights.md", eligible_files)
         
         # Verify age checking was called
         self.assertTrue(mock_get_age.called)

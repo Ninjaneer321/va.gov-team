@@ -44,6 +44,11 @@ on:
         required: false
         type: boolean
         default: false
+      dry_run:
+        description: 'Run workflow without posting to Slack'
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -66,7 +71,7 @@ jobs:
             teams/
             platform/research/copilot-prompts/
           sparse-checkout-cone-mode: false
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.WORKFLOWS_PERMISSIONS }}
 
       - name: Setup Python environment
         uses: actions/setup-python@v4
@@ -135,6 +140,9 @@ jobs:
                   if header_match:
                       converted.append(f"*{header_match.group(2).strip()}*")
                       continue
+
+                  # Convert dash bullets to dot bullets
+                  line = re.sub(r'^(\s*)-\s', r'\1• ', line)
 
                   line = re.sub(r'\*\*(.+?)\*\*', r'*\1*', line)
 
@@ -303,7 +311,7 @@ jobs:
           PYTHON_SCRIPT
 
       - name: Send Slack notification - Success
-        if: steps.find-files.outputs.skip != 'true' && env.RESEARCH_FILE
+        if: steps.find-files.outputs.skip != 'true' && env.RESEARCH_FILE && github.event.inputs.dry_run != 'true'
         uses: slackapi/slack-github-action@v1.26.0
         with:
           channel-id: ${{ secrets.SLACK_RSRCH_FINDINGS_CHANNEL_ID }}
@@ -312,7 +320,7 @@ jobs:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_ACCESS_TOKEN_RSRCH_OPS }}
 
       - name: Send Slack notification - Error
-        if: steps.find-files.outputs.skip == 'true' && steps.find-files.outputs.error_message && github.event_name == 'workflow_dispatch'
+        if: steps.find-files.outputs.skip == 'true' && steps.find-files.outputs.error_message && github.event_name == 'workflow_dispatch' && github.event.inputs.dry_run != 'true'
         uses: slackapi/slack-github-action@v1.26.0
         with:
           channel-id: ${{ secrets.SLACK_RSRCH_FINDINGS_CHANNEL_ID }}

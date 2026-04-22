@@ -129,6 +129,11 @@ def prepare_research_content(content: str, max_chars: int = 18000) -> str:
     return content
 
 
+def strip_go_deeper_section(story: str) -> str:
+    """Remove Go deeper section and everything after it."""
+    return re.sub(r'^#{1,3}\s*Go\s+deeper\b[\s\S]*$', '', story, flags=re.MULTILINE | re.IGNORECASE).strip()
+
+
 def write_short_story_to_github_env(short_story: str) -> None:
     """Write SHORT_STORY to GITHUB_ENV using heredoc format."""
     github_env = os.environ.get("GITHUB_ENV")
@@ -162,6 +167,7 @@ def main() -> None:
         research_content = prepare_research_content(research_content)
         system_prompt = extract_plaintext_prompt(prompt_markdown)
         short_story = generate_short_story(system_prompt, research_content, token)
+        short_story = strip_go_deeper_section(short_story)
         write_short_story_to_github_env(short_story)
         print("Successfully generated short story")
         print(f"Short story length: {len(short_story)} characters")

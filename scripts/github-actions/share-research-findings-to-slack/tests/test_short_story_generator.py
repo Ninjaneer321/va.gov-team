@@ -20,6 +20,7 @@ from short_story_generator import (  # noqa: E402
     extract_short_story,
     generate_short_story,
     prepare_research_content,
+    strip_go_deeper_section,
     write_short_story_to_github_env,
 )
 
@@ -173,6 +174,25 @@ Participant table and demographics.
         content = "A" * 50
         processed = prepare_research_content(content, max_chars=20)
         self.assertEqual(processed, "A" * 20 + "\n\n[Content truncated for length]")
+
+    def test_strip_go_deeper_section_removes_section_and_content_after(self):
+        story = """# Title
+
+## What’s next
+- One
+
+## Go deeper
+[Read full report](#)
+Trailing text
+"""
+        stripped = strip_go_deeper_section(story)
+        self.assertIn("## What’s next", stripped)
+        self.assertNotIn("## Go deeper", stripped)
+        self.assertNotIn("Trailing text", stripped)
+
+    def test_strip_go_deeper_section_noop_when_missing(self):
+        story = "# Title\n\n## Key insights\n- Item"
+        self.assertEqual(strip_go_deeper_section(story), story)
 
 
 if __name__ == "__main__":

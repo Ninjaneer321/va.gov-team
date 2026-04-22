@@ -23,6 +23,7 @@ class ResearchFileFinder:
     # Minimum number of bracket placeholders (e.g. [Insert …]) that indicate
     # a report is still an unfilled template.
     BRACKET_PLACEHOLDER_THRESHOLD = 5
+    MAX_REPORT_AGE_DAYS = 90
     
     def __init__(self):
         self.shared_files_log = Path(".github/workflows/shared-research-files.log")
@@ -247,6 +248,12 @@ class ResearchFileFinder:
                         age_days = self.get_file_age_days(file_str)
                         if age_days < 14:
                             print(f"Skipping recent file (age: {age_days} days): {file_str}")
+                            continue
+                        # Skip if too old (older than 90 days)
+                        if age_days > self.MAX_REPORT_AGE_DAYS:
+                            print(
+                                f"Skipping old file (age: {age_days} days, max: {self.MAX_REPORT_AGE_DAYS}): {file_str}"
+                            )
                             continue
 
                     # Check report completeness (skip unfilled templates)
