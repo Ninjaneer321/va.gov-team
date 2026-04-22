@@ -8,7 +8,7 @@
 
 * **CSAT:** No numeric CSAT captured (n=0)  
 * **Task success (self-reported):** Not available (no Medallia survey data in this report)  
-* **Data sources:** User research & usability testing (2024–2025); GA4 analytics (timeframe N/A); Call center logs (timeframe N/A); Medallia surveys (not deployed)
+* **Data sources:** User research & usability testing (2024–2025)
 
 ---
 
