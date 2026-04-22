@@ -3,7 +3,7 @@ title: "Debt Portal: Overpayments in mobile app UAT Research Findings"
 product: "Overpayments in mobile app"
 team: "Mobile Feature Support"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "Not specified"
+date: "2026-04-22"
 researchers:
   - "Emily DeWan - UX Researcher"
   - "Natasha Huckleberry - UX Desginer"
@@ -124,17 +124,17 @@ tags:
 ---
 
 
-# Debt Portal: Overpayments in mobile app UAT Research Findings 🚧 🚧 🚧 work in progress
+# Debt Portal: Overpayments in mobile app UAT Research Findings
 
 **Office of the CTO - Digital Experience (OCTO-DE), Mobile app Overpayments, Mobile Feature Support**
 
-**Date:** MM/DD/YYYY 🚧
+**Date:** 04/22/2026
 
 **Contacts:** Emily DeWan - UX Researcher, Natasha Huckleberry - UX Desginer
-
+<!-----
 **[Research Readout (PDF)](link-here)**  🚧
 *Add a link to your research readout deck, if available.*
-
+----->
 
 **Jump to:**
 - [Hypotheses and conclusions](#user-content-hypotheses-and-conclusions)
