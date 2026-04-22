@@ -47,7 +47,7 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 **2) Online form for 21-0788  - New**
 - URL: https://www.va.gov/forms/21-0788/apply-for-apportionment-beneficiarys-award 
 - H1: Apply for apportionment of a beneficiary’s award
-- Sub-heading: e
+- Sub-heading:
 - Breadcrumb: VA.gov home > VA forms > Apportionment of Beneficiary's Award > Apply for apportionment of beneficiary’s award online
 - Notes: 
 
