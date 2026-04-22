@@ -15,6 +15,8 @@ This issue template will help walk you through [required and recommended accessi
 ### Why we ask VFS teams to do accessibility testing
 The more you test and fix issues before your Staging Review, the less likely we are to find launch-blocking issues. This artifact helps document your accessibility testing efforts and any issues you found during testing. It also helps us understand your product better before we do our review.
 
+---
+
 ## 2. Before you begin
 
 The Required and Recommended checklists below are based on WCAG 2.2 and the [VA.gov Accessibility Standards](https://depo-platform-documentation.scrollhelp.site/accessibility/va-gov-accessibility-standards).
@@ -27,6 +29,8 @@ Complete all required checks and as many recommended checks as you can. If you c
 - [ ] Team name, product name, and feature name have been added to the title of this issue.
 - [ ] Team label, product label and feature label (if applicable) have been added to this issue.
 
+---
+
 ## 3. Accessibility Checklist (Required + Recommended Items)
 - If you find an issue while performing a check, mark that item as `Fail`.
 - You may find multiple issues while performing a single check. Every check should be tested on every page of your flow.
@@ -34,7 +38,6 @@ Complete all required checks and as many recommended checks as you can. If you c
 - If the check is not applicable to your product, mark it as "N/A".
 - Each checklist item includes a "How to test" link. Use this guidance to inform your testing. If you have additional questions, please post as a comment on this ticket and/or reach out to ADE or other accessibility specialists.
 - The checklist does not cover every possible scenario or failure. An accessibility specialist may encounter an accessibility issue not represented by a checklist item, and will fail it against the relevant WCAG success criterion.
----
 
 ### Automated testing
 #### Required
@@ -517,6 +520,7 @@ Complete all required checks and as many recommended checks as you can. If you c
   - [ ] N/A
 
 ---
+
 ## 4. Next Steps
 
 ### Update Collab cycle ticket
