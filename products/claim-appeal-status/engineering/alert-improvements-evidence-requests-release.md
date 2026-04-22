@@ -8,8 +8,10 @@
 
 ## Release Plan
 
-- [ ] 4-21-26 - Turn feature flag to 100%
-- [ ] 4-22-26 - Datadog report: release day vs. the same day one month ago
+- [x] 4-21-26 - Turn feature flag to 100%
+  - Flipped at 9:35 PM PT - outside peak hours to allow full rollout and immediate Datadog replay visibility before morning traffic ramps.
+  - Release-time smoke check (within ~1 hour): logged into VA.gov prod to confirm the affected pages loaded, reviewed Datadog session replays, and spot-checked the frustration rate. Nothing concerning.
+- [x] 4-22-26 - Datadog report: release day vs. the same day one month ago
 - [ ] 4-23-26 - GA + Datadog report: first full day (Apr 21) vs. the same day one month ago
 - [ ] 4-24-26 - GA + Datadog report: first two full days (Apr 21–22) vs. the same days one month ago
 - [ ] 4-29-26 - GA + Datadog report: full week (Apr 21–27) vs. the same week one month ago
@@ -165,3 +167,30 @@ For each comparison window, report:
 - Views with frustration and the resulting frustration rate
 - Change in frustration rate in percentage points from the comparison window
 - Notes on any session replays spot-checked when the rate moves meaningfully
+
+## Reports
+
+Each report covers a single comparison window. When both GA and Datadog data apply, they appear side by side under the same report so signals can be read together.
+
+### Report: Mar 24–25 overnight vs. Apr 21–22 overnight
+
+Release-day initial check: the first 7.5 hours after the feature flag flipped to 100%. Release window is Apr 21 10:00 pm – Apr 22 5:30 am PT, compared against the matching overnight window one month prior (Mar 24 10:00 pm – Mar 25 5:30 am PT, same Tue–Wed). GA is not included; the window is too short for meaningful daily counts. GA coverage begins with the 4-23 report.
+
+#### Datadog RUM
+
+Query used: `service:benefits-claim-status-tool` (service-wide; the `@view.url_path:/track-claims/your-claims` filter from the base query was not applied for this initial sweep).
+
+##### Sampled views baseline
+
+| Metric | Mar 24–25 overnight | Apr 21–22 overnight | Change |
+|---|---|---|---|
+| Total sampled views | 3,952 | 3,943 | −0.2% |
+
+##### Frustration
+
+| Metric | Mar 24–25 overnight | Apr 21–22 overnight | Change |
+|---|---|---|---|
+| Views with frustration | 375 | 365 | −2.7% |
+| Frustration rate | 9.49% | 9.26% | −0.23 pp |
+
+Release-day overnight frustration rate (9.26%) is 0.23 pp below the one-month-ago baseline (9.49%). That's essentially flat and within normal day-to-day noise for RUM frustration signals. Total sampled views were nearly identical across the two windows (−0.2%), and frustration views were slightly lower in absolute terms (−2.7%), so the small rate dip isn't driven by a traffic swing. No negative signal on this initial window; session replays were not spot-checked because the rate did not move meaningfully. Next check: first full day report on 4-23.
