@@ -53,7 +53,7 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - URL: (https://www.va.gov/forms/10-8678/)
 - H1: Application for annual clothing allowance
 - Sub-heading: 
-- Breadcrumb: The breadcrumb for the previous page is VA.gov> homeVA> forms> Application for annual clothing allowance
+- Breadcrumb: The breadcrumb for the previous page is VA.gov> VA forms> Application for annual clothing allowance
 - Notes: 
 
 **2) Online form for 10-8678 - New**
@@ -94,11 +94,11 @@ Teams must launch with at least one entry point that allows site visitors to nav
 ### Additional key entry points
 _Any additional key locations that the page should be navigable from. Although these are not required for launch, they are critical to the findability of your content/feature.  Examples of key entry points include "About a form" pages, additional navigation component (top, left) placements, additional static pages where its prominently linked from, etc._
 
-1. **[VA clothing allowance](https://www.va.gov/disability/eligibility/special-claims/clothing-allowance/)**
+1. **[Benefits Detail Page](https://www.va.gov/disability/eligibility/special-claims/clothing-allowance/)**
   - Placement description: On page link
   - Link details
     - Link label: TBD by content
-    - Link destination: https://www.va.gov/disability/eligibility/special-claims/clothing-allowance/
+    - Link destination: https://www.va.gov/forms/10-8678/apply-annual-clothing-allowance/
   - Notes:
     - Who will update (IA, content, product team): Content
     - When will this entry point go live (at launch? After staged rollout? after some designated time?): At launch
