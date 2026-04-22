@@ -12,8 +12,8 @@ Notetaker: [Chantale]
 
 -----
 ### Introduction
-- [ x] Can record
-- [ x] Can use video clips
+- [x] Can record
+- [x] Can use video clips
 
 
 ### Warm-up Questions
