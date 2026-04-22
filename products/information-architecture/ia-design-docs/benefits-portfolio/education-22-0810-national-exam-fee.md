@@ -1,7 +1,7 @@
 # IA Design for Request for Reimbursement of National Exam Fee (VA Form 22-0810)
 
 **STATUS: Complete**
-4/22/2026 - MN: Updated flow and entry points to add entry from National tests page in Education hub
+<br>4/22/2026 - MN: Updated flow and entry points to add entry from National tests page in Education hub
 
 **Team:** VEBT
 
