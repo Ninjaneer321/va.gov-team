@@ -9,7 +9,7 @@
 ## Release Plan
 
 - [x] 4-21-26 - Turn feature flag to 100%
-  - Flipped at 9:35 PM PT - outside peak hours to allow full rollout and immediate Datadog replay visibility before morning traffic ramps.
+  - Flipped at 9:35 pm PT, outside peak hours to allow full rollout and immediate Datadog replay visibility before morning traffic ramps.
   - Release-time smoke check (within ~1 hour): logged into VA.gov prod to confirm the affected pages loaded, reviewed Datadog session replays, and spot-checked the frustration rate. Nothing concerning.
 - [x] 4-22-26 - Datadog report: release day vs. the same day one month ago
 - [ ] 4-23-26 - GA + Datadog report: first full day (Apr 21) vs. the same day one month ago
@@ -30,7 +30,7 @@ When the feature flag is enabled:
 - "What you need to do" (`WhatYouNeedToDo`) adds an intro paragraph when open requests exist: "We identified this information as needed to support your claim. We accept responses after the request date, but it may delay your claim."
 - "What you need to do" adds a new expandable "Why we still say 'Action may be needed' after you've responded" when the card shows the tag but no open requests exist (`documentsNeeded = true` AND `filesNeeded` is empty)
 - Evidence requests (`FilesNeeded`) render as cards with a "Requested by [date]" critical-action button, replacing the yellow warning alert with an "About this request" link
-- Third-party requests in Recent Activity (`RecentActivity`, `NEEDED_FROM_OTHERS` items) show a "Requested for you" tag, body text, and a "Learn more about this notice" inline link — replacing the blue info alert with an "About this notice" link
+- Third-party requests in Recent Activity (`RecentActivity`, `NEEDED_FROM_OTHERS` items) show a "Requested for you" tag, body text, and a "Learn more about this notice" inline link, replacing the blue info alert with an "About this notice" link
 
 ### Claim files tab
 
@@ -51,7 +51,7 @@ Traffic on the Your Claims page. Unexpected spikes may indicate a bug prompting 
 
 ### Your Claims - Events
 
-All events on the Your Claims page. Claim cards switched from stacked alerts to a single tag, but the Details link behavior did not change — watch for a swing in Details clicks, which could mean the new tag changed how users decide which card to open.
+All events on the Your Claims page. Claim cards switched from stacked alerts to a single tag, but the Details link behavior did not change. Watch for a swing in Details clicks, which could mean the new tag changed how users decide which card to open.
 
 - Rows: Event name, Link text
 - Values: Event count
@@ -69,7 +69,7 @@ Traffic on the claim status tab. Unexpected spikes may indicate a bug prompting 
 
 ### Status - Events
 
-All events on the claim status tab. Several changes land here at once — the signals below indicate which events should rise, drop to zero, or newly appear.
+All events on the claim status tab. Several changes land here at once; the signals below indicate which events should rise, drop to zero, or newly appear.
 
 - Rows: Event name, Link text
 - Values: Event count
@@ -100,7 +100,7 @@ Signals to watch:
 
 ### Status - As Referrer
 
-Where users go after leaving the claim status tab. Evidence-request detail pages (`/.../needed-from-you/*`) are the main destination — expect roughly unchanged traffic there since both the old "About this request" link and the new "Requested by [date]" button route users to the same place. A meaningful drop could indicate the new button is less discoverable than the old link.
+Where users go after leaving the claim status tab. Evidence-request detail pages (`/.../needed-from-you/*`) are the main destination. Expect roughly unchanged traffic there since both the old "About this request" link and the new "Requested by [date]" button route users to the same place. A meaningful drop could indicate the new button is less discoverable than the old link.
 
 - Rows: Page path and screen class
 - Values: Sessions
@@ -118,7 +118,7 @@ Traffic on the claim files tab. Unexpected spikes may indicate a bug prompting u
 
 ### Files - Events
 
-All events on the claim files tab. Two links were removed from the additional evidence page, and a new "Review requests" link was added to the top of the tab — the signals below track those changes.
+All events on the claim files tab. Two links were removed from the additional evidence page, and a new "Review requests" link was added to the top of the tab; the signals below track those changes.
 
 - Rows: Event name, Link text
 - Values: Event count
@@ -163,7 +163,7 @@ To isolate the pages affected by this release, narrow the query with:
 
 For each comparison window, report:
 
-- Sampled views for the window (context for any rate changes — a big swing could just be traffic)
+- Sampled views for the window (context for any rate changes; a big swing could just be traffic)
 - Views with frustration and the resulting frustration rate
 - Change in frustration rate in percentage points from the comparison window
 - Notes on any session replays spot-checked when the rate moves meaningfully
@@ -172,9 +172,9 @@ For each comparison window, report:
 
 Each report covers a single comparison window. When both GA and Datadog data apply, they appear side by side under the same report so signals can be read together.
 
-### Report: Mar 24–25 overnight vs. Apr 21–22 overnight
+### Report: Mar 24–25 vs. Apr 21–22 (first 16 hours post-release)
 
-Release-day initial check: the first 7.5 hours after the feature flag flipped to 100%. Release window is Apr 21 10:00 pm – Apr 22 5:30 am PT, compared against the matching overnight window one month prior (Mar 24 10:00 pm – Mar 25 5:30 am PT, same Tue–Wed). GA is not included; the window is too short for meaningful daily counts. GA coverage begins with the 4-23 report.
+Release-day check covering the first 16 hours after the feature flag flipped to 100%. Release window is Apr 21 10:00 pm – Apr 22 2:03 pm PT, compared against the matching 16-hour window one month prior (Mar 24 10:00 pm – Mar 25 2:03 pm PT, same Tue–Wed). GA is not included; the window doesn't cover a full calendar day. GA coverage begins with the 4-23 report.
 
 #### Datadog RUM
 
@@ -182,15 +182,15 @@ Query used: `service:benefits-claim-status-tool` (service-wide; the `@view.url_p
 
 ##### Sampled views baseline
 
-| Metric | Mar 24–25 overnight | Apr 21–22 overnight | Change |
+| Metric | Mar 24–25 | Apr 21–22 | Change |
 |---|---|---|---|
-| Total sampled views | 3,952 | 3,943 | −0.2% |
+| Total sampled views | 26,277 | 26,313 | +0.1% |
 
 ##### Frustration
 
-| Metric | Mar 24–25 overnight | Apr 21–22 overnight | Change |
+| Metric | Mar 24–25 | Apr 21–22 | Change |
 |---|---|---|---|
-| Views with frustration | 375 | 365 | −2.7% |
-| Frustration rate | 9.49% | 9.26% | −0.23 pp |
+| Views with frustration | 2,417 | 2,690 | +11.3% |
+| Frustration rate | 9.20% | 10.22% | +1.02 pp |
 
-Release-day overnight frustration rate (9.26%) is 0.23 pp below the one-month-ago baseline (9.49%). That's essentially flat and within normal day-to-day noise for RUM frustration signals. Total sampled views were nearly identical across the two windows (−0.2%), and frustration views were slightly lower in absolute terms (−2.7%), so the small rate dip isn't driven by a traffic swing. No negative signal on this initial window; session replays were not spot-checked because the rate did not move meaningfully. Next check: first full day report on 4-23.
+Release-day frustration rate over the first 16 hours (10.22%) is 1.02 pp above the one-month-ago baseline (9.20%). Total sampled views were essentially identical across the two windows (+0.1%), while frustration views grew 11.3%, so the rate change is driven by frustration events rather than a traffic swing. RUM frustration signals (rage clicks, dead clicks) are inherently noisy, and a ~1 pp movement on a single day's data isn't a strong negative signal on its own, but it's worth watching against the 4-23 full-day comparison. Release-time replay review (within ~1 hour of the flip) did not reveal anything concerning. Next check: first full day report on 4-23.
