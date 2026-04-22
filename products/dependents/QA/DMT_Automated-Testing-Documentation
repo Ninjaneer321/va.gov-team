@@ -1,0 +1,113 @@
+## Automated Testing Documentation
+
+### Overview
+
+The **Lifestage Browser-Based Tests** repo is a Playwright E2E test automation framework that tests the DMT (Dependents Management Tools) forms on VA.gov staging. It automates browser-based testing of the Veteran-facing forms built by the DMT squad.
+
+**Repo:** https://github.com/department-of-veterans-affairs/lifestage-browser-based-tests
+
+### Test Coverage Summary
+
+**54 automated tests** across 41 test files covering 2 form types:
+
+| Form | Tests | What It Covers |
+|------|-------|----------------|
+| **0538** (Verify Dependents) | 10 | Submission, in-progress save, error handling, input validation, 0538↔686c integration |
+| **686c/674 V2** (Add/Remove Dependents) | 26 | Add spouse/child/student, remove dependents (death, divorce, marriage, school), error handling, input validation, duplicate detection |
+| **686c/674 V3** (Picklist Removal Flows) | 18 | All removal flows with V3 picklist UI, early exit scenarios (adoption, disability), outside-US flows |
+
+### Test Types
+
+| Type | Count | % of Total |
+|------|-------|------------|
+| Happy Path (Form Submission) | 28 | 52% |
+| Remove Dependent Flows | 22 | 41% |
+| Error Handling | 6 | 11% |
+| Input Validation | 4 | 7% |
+| In-Progress Save | 3 | 6% |
+| Integration | 2 | 4% |
+
+### CI/CD Workflows
+
+All workflows are **manual trigger only** (`workflow_dispatch`) via GitHub Actions:
+
+| Workflow | Purpose |
+|----------|---------|
+| **Nightly Run** | Runs all 54 form tests against staging |
+| **Hourly Monitor** | 2 smoke tests every hour (except 5-8 AM UTC) |
+| **User Keep-Alive** | Logs in test users to prevent account lockout |
+| **V2 686c/674** | V2 form tests only |
+| **V3 Picklist** | V3 removal flow tests only |
+| **FDF 686c/674** | FDF-specific tests |
+| **0538** | 0538 form tests only |
+| **Lint** | ESLint on PRs and pushes to main |
+
+### Architecture & Key Features
+
+- **Page Object Model** — reusable page classes for each form section (e.g., `SpouseInformationPage.ts`, `ChildInformationPage.ts`)
+- **Stealth Plugin** — bypasses bot detection on VA.gov staging using `playwright-extra`
+- **Payload Interception** — captures and validates API payloads submitted by forms against baseline JSON files
+- **Environment Config** — `config/dmt/staging.env` with `BASE_URL` and credentials
+- **Docker Support** — containerized test execution via `Dockerfile`
+- **Login via ID.me** on staging
+- **Feature toggle interception** for testing behind feature flags
+- **Screenshot capture** on test failure
+- **Automatic retry** on flaky tests
+
+### Project Structure
+
+```
+src/
+├── fixtures/common/         # Custom Playwright fixtures (stealth browser)
+├── pages/                   # Page Object Models
+│   ├── 0538/               # 0538 form pages
+│   ├── 686c674/            # 686c/674 form pages
+│   ├── common/             # Shared pages (login, navigation, VA components)
+│   └── security/           # Security/auth pages
+├── tests/
+│   ├── forms/0538/         # 0538 form tests (5 files, 10 tests)
+│   ├── forms/686c674/v2/   # 686c/674 V2 tests (17 files, 26 tests)
+│   ├── forms/686c674/v3/   # 686c/674 V3 tests (15 files, 18 tests)
+│   ├── forms/686c674/fdf/  # FDF-specific tests
+│   ├── forms/686c674/pension/ # Pension-related tests
+│   ├── maintenance/        # User keep-alive tests
+│   ├── manage_dependents/  # Dependents view tests
+│   └── myVa/              # My VA page tests
+├── utils/                   # Helpers (API, login, test data, payload validation)
+└── setup/                   # Global test setup
+config/dmt/                  # Environment configs (staging.env)
+resources/                   # Test data, payloads, and documents
+docs/                        # Test coverage reports
+```
+
+### How to Run
+
+```bash
+# Install
+npm install && npx playwright install
+
+# Run all tests
+npm test
+
+# Run form tests against staging
+npm run test_forms
+
+# Run hourly smoke tests
+npm run test_monitor_job
+
+# Run specific test locally
+npx cross-env Environment=staging.local Module=dmt playwright test <test-file> --project=chromium
+```
+
+### Planned Future Enhancements
+
+- PDF validation for generated documents
+- Email validation for transactional emails
+- DataDog log validation to detect downstream errors
+- Visual regression testing with screenshot comparison
+- AI-powered test intelligence for pattern detection and self-healing tests
+
+### Additional Documentation
+
+- [Test Coverage Report](https://github.com/department-of-veterans-affairs/lifestage-browser-based-tests/blob/main/docs/Test-Coverage-Report.md) — detailed breakdown of all 54 tests
+- [README](https://github.com/department-of-veterans-affairs/lifestage-browser-based-tests/blob/main/README.md) — setup, configuration, and usage guide
