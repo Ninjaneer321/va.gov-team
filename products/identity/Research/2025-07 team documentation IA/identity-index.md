@@ -65,7 +65,7 @@ Each individual component includes:
 | Platform authentication | Trevor |
 | - Backend infrastructure | Riley |
 | -- Tokens and sessions | John B. |
-| -- My HealtheVet account creation API | TBD |
+| -- My HealtheVet account creation API | John B. |
 | -- UserModel | John B. |
 | - Identity policies | Joe |
 | - STS integrations | John B. |
