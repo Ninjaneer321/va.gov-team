@@ -8,8 +8,11 @@ You'd see the `#index` route on
 - https://staging.va.gov/my-health/appointments
 - https://staging.va.gov/my-health/appointments/past
 - https://staging.va.gov/my-health/appointments/pending or /my-health/appointments/referrals-requests
+- The VAHB mobile app -> Health tab -> Appointments or the Past Appointments toggle
 
-You'd see the `#show` route on a details page which take each of those routes above and add the appointment id `.../{apptid}`
+You'd see the `#show` route on a details page:
+- Any of the routes above and add the appointment id `.../{apptid}`
+- The VAHB mobile app doesn't really call this one so much (I don't think you can directly link to a mobile apps details page). You generally get them from the main appointments list, I think.
 
 ```mermaid
 flowchart TD
