@@ -179,8 +179,6 @@ tags:
 
 **Contacts:** Cindy Merrill
 
-**[Research Readout (PDF)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2026-01-save-in-progress-2/Save%20in%20Progress%202%20research%20readout_0403_rem.pdf)**  
-
 **[Research Readout (PDF)](./Save%20in%20Progress%202%20research%20readout_0403_rem.pdf)**  
 
 
@@ -200,7 +198,7 @@ This research study is intended to get user feedback on a revised design that ho
 
 ### Figure 1 shows the new interstitial page
 
-<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2026-01-save-in-progress-2/images/interstitial.PNG" width="50%" height="50%" alt="The new interstitial page explains that the information you enter in the form will saved, and that you can select the Finish later button anytime to stop">
+<img src="./images/interstitial.PNG" width="50%" height="50%" alt="The new interstitial page explains that the information you enter in the form will saved, and that you can select the Finish later button anytime to stop">
 
 ## Research Goals
 The **goals of this research** were to 
