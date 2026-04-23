@@ -96,10 +96,49 @@ So the user-visible "past vs upcoming" is a product of the query-range ∩ the V
 - **MAP STS (`veteran.apps.va.gov/sts/oauth/v1/token`)** — **M**obile **A**pplication **P**latform Security Token Service. Not a data upstream — this is the auth hop that mints the `X-VAMF-JWT` every other VAMF-adjacent call uses. Invoked via `MAP::SecurityToken::Service` (`lib/map/security_token/`) from `VAOS::UserService`, which is itself called by `VAOS::SessionService` (parent of `AppointmentsService`, `MobileFacilityService`, `MobilePPMSService`, `Eps::AppointmentService`). Tokens cached in Redis (`SessionStore` / `va_mobile_session` namespace); MAP only hit on miss/refresh. Config lives in `IdentitySettings.map_services` (separate namespace from `Settings.va_mobile`). Shares the VAMF host but uses `/sts/oauth/v1/*` path prefix (prod `veteran.apps.va.gov`, staging `veteran.apps-staging.va.gov`).
 - **EPS (Wellhive, `api.wellhive.com`)** — OAuth2 token cached in Redis (`eps-appointments` namespace). **Direct — not behind the forward proxy.**
 - **PPMS (`staff.apps.va.gov`)** — the VA's Provider Profile Management System, hosted on the "staff" apps gateway (distinct from the `veteran.apps.va.gov` VAMF gateway). Base URL is `Settings.va_mobile.ppms_base_url`. `AppointmentsService` enriches each **community-care** appointment with provider display names via `VAOS::V2::AppointmentProviderName`, which calls `VAOS::V2::MobilePPMSService.get_provider_with_cache(npi)` → `GET /ppms/v1/providers/:npi`. Results are cached in Rails.cache for 12 hours (`vaos_ppms_provider_<npi>`). Skipped entirely for VA and telehealth appointments.
-- **SCDF → Oracle Health Millennium** — accessed via `UnifiedHealthData::Service`. Source of AVS metadata and documents. **Call is gated four ways**: (1) client sent `?_include=avs`; (2) `Flipper.enabled?(:va_online_scheduling_uhd_avs_metadata, user)`; (3) `Flipper.enabled?(:va_online_scheduling_add_OH_avs, user)`; (4) the VAMF response contains **at least one Cerner (Oracle Health) appointment** per `VAOS::AppointmentsHelper.cerner?` — so a pure community-care or legacy-VistA-only response never touches SCDF. Logic lives in `AppointmentsService#fetch_all_avs_metadata` (`modules/vaos/app/services/vaos/v2/appointments_service.rb:523-528`). See <https://docs.oracle.com/en/industries/health/millennium-platform-apis>.
+- **SCDF → Oracle Health Millennium** — accessed via `UnifiedHealthData::Service`. Source of AVS metadata and documents. The AVS flow is **two-stage**: the list endpoint only pulls *metadata* (doc IDs, encounter refs, titles — no bytes); the detail page fetches the actual PDF bytes via a separate endpoint. The diagram above covers **stage 1** (metadata). **Stage 1 is gated four ways**: (1) client sent `?_include=avs`; (2) `Flipper.enabled?(:va_online_scheduling_uhd_avs_metadata, user)`; (3) `Flipper.enabled?(:va_online_scheduling_add_OH_avs, user)`; (4) the VAMF response contains **at least one Cerner (Oracle Health) appointment** per `VAOS::AppointmentsHelper.cerner?` — so a pure community-care or legacy-VistA-only response never touches SCDF. Logic lives in `AppointmentsService#fetch_all_avs_metadata` (`modules/vaos/app/services/vaos/v2/appointments_service.rb:523-528`). See stage 2 below, and <https://docs.oracle.com/en/industries/health/millennium-platform-apis>.
 - **BTSSS TravelPay** — this upstream is chatty. For a page of appointments, the naive serial flow issues one BTSSS claim lookup per appointment, which can dominate total request time. The `va_online_scheduling_parallel_travel_claims` feature flag was added specifically to fetch the appointment list and the associated travel claims concurrently, and `TravelPay::ClaimAssociationService` batches the per-appointment claim associations. Treat BTSSS as the likely bottleneck when diagnosing slow `get_appointments` responses.
 
 Feature flags that alter this path: `va_online_scheduling_use_vpg` (VAOS vs VPG routing), `va_online_scheduling_cscs_migration` (scheduling-configs to CSCS), `travel_pay_view_claim_details`, `va_online_scheduling_parallel_travel_claims`, `va_online_scheduling_uhd_avs_metadata` and `va_online_scheduling_add_OH_avs` (both required for the AVS/UHD call), `appointments_consolidation` (presentation filter), `mhv_oh_unique_user_metrics_logging_appt` (OH metrics logging).
+
+### AVS binary fetch (stage 2 — detail page)
+
+The list/show endpoints return AVS *metadata* (document IDs + encounter refs + titles). To render an appointment's After Visit Summary PDF, the client makes a **second request** when the user opens the appointment detail page. Both web and mobile frontends do this lazily — the binary is only pulled when it's about to be displayed.
+
+```mermaid
+flowchart LR
+    Web([vets-website<br/>appointment detail])
+    Mob([Mobile app<br/>appointment detail])
+
+    subgraph API["vets-api"]
+        BinCtrl["#get_avs_binaries<br/>VAOS::V2::AppointmentsController<br/>+ Mobile::V0::AppointmentsController"]
+        BinSvc["VAOS::V2::AppointmentsService<br/>#fetch_avs_binaries / #get_avs_pdf_binary"]
+        BinUHD["UnifiedHealthData::Service<br/>#get_avs_binary_data<br/>→ UnifiedHealthData::Client#get_avs"]
+        BinSer["VAOS::V2::AvsBinarySerializer<br/>(:binary → base64)"]
+
+        BinCtrl --> BinSvc --> BinUHD
+        BinCtrl --> BinSer
+    end
+
+    Web -->|"GET /vaos/v2/appointments/avs_binaries/:appt_id<br/>?doc_ids=d1,d2,..."| BinCtrl
+    Mob -->|"GET /mobile/v0/appointments/avs_binaries/:appt_id<br/>?doc_ids=d1,d2,..."| BinCtrl
+    BinUHD -->|"GET {uhd}/appointments/:appt_id/avs<br/>?patientId=:icn&includeBinary=true"| SCDF2[("SCDF → Oracle Health Millennium<br/>same upstream as stage 1")]
+    BinSer -->|"{ binary: base64 PDF }"| Web
+    BinSer -->|"{ binary: base64 PDF }"| Mob
+
+    classDef mobile fill:#9c9bf1,stroke:#0d9488,color:#000
+    class Mob mobile
+```
+
+Key points:
+
+- **Two routes, same handler.** `GET /vaos/v2/appointments/avs_binaries/:appointment_id` (`modules/vaos/config/routes.rb:8`, handler `VAOS::V2::AppointmentsController#get_avs_binaries`) and `GET /mobile/v0/appointments/avs_binaries/:appointment_id` (`modules/mobile/config/routes.rb:12`, handler `Mobile::V0::AppointmentsController#get_avs_binaries`). Both accept `?doc_ids=<comma-separated>` and both funnel into `VAOS::V2::AppointmentsService#fetch_avs_binaries`.
+- **Same upstream as stage 1.** `UnifiedHealthData::Service#get_avs_binary_data` (`lib/unified_health_data/service.rb:321`) → `UnifiedHealthData::Client#get_avs` (`lib/unified_health_data/client.rb:66`) hits `GET {uhd_base}/appointments/:appt_id/avs?patientId=:icn&includeBinary=true` on the same SCDF / Oracle Health Millennium host as the metadata call. The `includeBinary=true` flag is what causes the response to carry PDF bytes.
+- **Transport is base64.** `VAOS::V2::AvsBinarySerializer` (`modules/vaos/app/serializers/vaos/v2/avs_binary_serializer.rb:17`) puts the PDF on the `binary` attribute as base64. Clients decode on their side before rendering or offering a download. No signed URLs, no separate storage hop — the PDF travels through vets-api inline.
+- **Client-side callers:**
+  - Web: `vets-website/src/applications/vaos/services/avs/index.js` — `fetchAvsPdfBinaries(appointmentId, docIds)` issues `GET /vaos/v2/appointments/avs_binaries/:id?doc_ids=...` and merges the decoded binary back into the metadata object already held in Redux state.
+  - Mobile: `~/Workspace/mobile/vaapp/VAMobile/src/api/appointments/getAvsBinaries.tsx` — `useAvsBinaries` React Query hook. Filters to supported note types before requesting, and uses a stale-time so reopening the same detail page doesn't refetch needlessly.
+- **Because stage 1 is Cerner-only**, stage 2 only ever fires for appointments that came from Oracle Health (community-care appointments don't carry `doc_ids`, so clients don't call this endpoint for them).
 
 ### Mobile overlay notes
 
@@ -109,4 +148,21 @@ The VA.gov native mobile app uses the `MobClient → MobCtrl → Proxy → AS` b
 - **The adapter does field reshaping only.** `Mobile::V0::Adapters::VAOSV2Appointments` (`modules/mobile/app/models/mobile/v0/adapters/vaos_v2_appointments.rb`) delegates to `VAOSV2Appointment.build_appointment_model`, which handles appointment-type mapping (va / cc / request / telehealth with atlas/gfe/home/onsite variants), timezone resolution (via `Mobile::VA_FACILITIES_BY_ID` fallback), phone-number normalization, cancellation-reason mapping, travel-pay eligibility flagging, and the `facility_id;fileman_date.time` VetExt ID format downstream systems expect.
 - **Mobile-only response shaping happens in the controller, not the service.** `reverse_sort`, `page_size` / `page_number` pagination (`Mobile::PaginationHelper`), `include_pending` filtering, and the `upcomingAppointmentsCount` / `travelPayEligibleCount` meta fields are all added after the adapter. Partial upstream failures return `207 Multi-Status`.
 - **No mobile-layer caching.** Caching is still upstream (Rails.cache inside `MobileFacilityService`, Redis inside `Eps::AppointmentService`, `Memoist` inside `AppointmentsService`). When debugging a stale response seen in the mobile app, look there first.
-- **Out of scope for this diagram:** mobile's `cancel`, `create`, and `avs_binaries` actions. Those involve `Mobile::Shared::AppointmentCreator` and additional `MobileFacilityService` eligibility calls elsewhere.
+- **Out of scope for this diagram:** mobile's `cancel`, and `create`. Those involve `Mobile::Shared::AppointmentCreator` and additional `MobileFacilityService` eligibility calls elsewhere.
+
+
+### Notes about running vets-api locally
+
+**Needs:** AWS access with forward proxy port forwarding access
+
+1. Currently appointments cannot run vets-api locally in any useful way to see lower environment data because several services are not behind forward proxy
+2. If we wanted to run them locally we would need to:
+     1. Put the services behind [forward proxy](https://github.com/department-of-veterans-affairs/vsp-platform-fwdproxy) by assigning the unproxied services a port
+         1. VAMF
+         2. PPMS
+         3. Wellhive
+     3. Find a way to get lower environment certificates for MAP/STS (I think you can create your own somehow), Wellhive, PPMS locally (or mount them somehow from AWS - doubtfully possible
+
+People to follow or discuss this issue with are: 
+- Ryan McNeil @ryan-mcneil who created the script/service on vets-api called `upstream-connect` to simplify getting tokens and might eliminate the need for the MAP cert.
+- Adrian Rollett @acrollett who help improve [review instances](http://jenkins.vfs.va.gov/job/deploys/job/vets-review-instance-deploy/) (a slight alternative to running locally but currently are not prioritized by platform)
