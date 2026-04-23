@@ -27,7 +27,6 @@ The product support rotation ensures continuous coverage for alert triage, issue
 ### Primary Duties
 - Provide support to Candi if she gets notifications of issues from users.
 - Monitor Slack alerts from Datadog in `#benefits-representative-facing-alerts, #benefits-representation-management-notifications`.
-- Acknowledge alerts by reacting or commenting in Slack 🔗 [Guide for slack emojis](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/platform/practices/zero-silent-failures/managing-errors.md#define-an-on-call-rotation--monitor-errors-in-slack)
 - Check the Datadog Dashboard for live status and service metrics:  
   🔗 [ARC Datadog Dashboard](https://vagov.ddog-gov.com/dashboard/q3q-ft2-bdx/accredited-representative-portal-arp?fromUser=false&refresh_mode=sliding&from_ts=1757355186714&to_ts=1757959986714&live=true)
 - Use the Datadog **Error Search** to review recent errors, stack traces, and request context.
