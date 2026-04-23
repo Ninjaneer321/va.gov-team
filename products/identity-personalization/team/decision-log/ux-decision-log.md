@@ -26,7 +26,7 @@
 
 
 ### Forms and applications
-#### 04/22/2026 Direction on naming convention for PDF download button
+#### 04/22/2026 Direction on copy for PDF download button
 - Content team recemmendted goin with the orginal copy for the download button. It was stated by content that users don't need to know that we have created a PDF on the back end because the end result is that they are going to be downloading a PDF of their form.  
 - [Link to conversation](https://dsva.slack.com/archives/C909ZG2BB/p1776878101111469?thread_ts=1776449921.679149&cid=C909ZG2BB)
 
