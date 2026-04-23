@@ -132,10 +132,11 @@ synthesis_tools_used:
 [See the Veteran journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)  
 
 **Guiding Questions:**  
-- What are the key moments this tool supports in the Veteran’s journey?  
-- What outcomes are we aiming to achieve for Veterans and stakeholders?  
+- What are the key moments this tool supports in the Veteran’s journey?
+  - The Information Architecture of VA.gov must support Veterans and Veteran family members and caregiver at all stages of the Veteran journey beyond "Joining" to ensure they can explore, apply for, manage, and track the benefits VA has to offer in the moments that matter.
 
-[Example Research Goals](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#research-goals) 
+- What outcomes are we aiming to achieve for Veterans and stakeholders?  
+  - Outcomes from this research will be used to inform and prioritize changes needed to menu labels, groupings, or broader site organization.
 
 ## Research Questions
 
@@ -147,17 +148,10 @@ synthesis_tools_used:
 
 ## Methodology 
 
-*Provide a brief description of the research methods used (e.g., usability testing, interviews).*  
-
-A tree test will be used to evaluate the existing navigation component organization and labels. The tree used in the test will reflect the labels and organizational structure that visitors must navigate through to get to content and tools within the benefit experience. Participants will be asked to completed 10 tasks based on the most commonly accessed information and tools on the site.
+A tree test was used to evaluate the existing navigation organization and labels. The tree used in the test reflected the labels and organizational structure that visitors navigate through to get to content and tools within the VA.gov experience. Participants were asked to complete 10 tasks.
 
 
 ## Hypotheses and Conclusions
-
-*List hypotheses explored in the research and the conclusions drawn. If applicable, list the success or task completion rate.*
-
-> [!TIP]
-> Place true or false statements in bold for easier scanability
 
 - **Hypothesis Statement:** Users will be able to easily find key information related to learning about and applying for key Veteran benefits within their respective benefit hubs.   
   - **Likely True**  
@@ -170,9 +164,10 @@ A tree test will be used to evaluate the existing navigation component organizat
 - **Hypothesis Statement:** Users will not commonly look to the Service member benefits hub as a destination for key Veteran benefit information and tools.   
   - **Definitely True**  
   - Supporting evidence 
- - **Hypothesis Statement:** Users will most commonly look in "My VA" and My HealtheVet" as ways to get to tools to manage their benefits.  
-  - **"Maybe True", “Likely True”, “Definitely True”, “Likely False”, “Definitely False” or “Not enough information”**  
-  - Supporting evidence 
+- **Hypothesis Statement:** Users will most commonly look in "My VA" and My HealtheVet" as ways to get to tools to manage their benefits.  
+  - **Maybe True**  
+  - For all manage tasks, on average 45.5% of participants navigated to My VA or MHV first and 53.5% navigated to the VA Benefits and Health care menu first. While this isn't the majority or necessarily reflects a "most common" direction, it is a significant behavior. It is worth noting that only 4 of the 6 tasks could actually be completed in My VA. 
+  - For the 1 health related task (travel pay), 24% navigated to MHV first, 28% navigated to My VA first (for a total of 52%) and 46% navigated to the VA Benefits and Health care menu first. While the task was moderately successful (62%), My VA was definitely a distractor that resulted in 25% incorrect answers mostly related to claims and payments options. 
 
 
 ## Key Findings
