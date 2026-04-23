@@ -813,6 +813,8 @@ This research does not include the perspectives of the following marginalized Ve
 
 ### Recruitment of underserved groups in Save in Progress (2nd round usability testing)
 
+![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](./images/VA-recruitment-checker.png)
+
 ![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2026-01-save-in-progress-2/images/VA-recruitment-checker.png)
 
 #### A more accessible version of the table in the above image
