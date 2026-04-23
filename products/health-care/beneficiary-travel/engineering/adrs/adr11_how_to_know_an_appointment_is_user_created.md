@@ -1,9 +1,9 @@
-## Investigation into how we will know that an appointment is user created appointment from the API
+# Investigation into how we will know that an appointment is user created appointment from the API
 
-### Status
+## Status
 Complete - 4/21/2026
 
-### Context
+## Context
 We need a reliable way to indicate that an appointment was manually created by a user. 
 
 Currently, VA.gov does not provide a dedicated or explicit mechanism for creating user-generated appointments. However, there is an existing system behavior that effectively enables this under certain conditions.
@@ -29,7 +29,7 @@ When a user is viewing an appointment and attempts to add a new travel pay claim
     `POST /api/v2/claims`
 ---
 
-### Proposed solutions for being able to tell that an appointment is user created
+## Proposed solutions for being able to tell that an appointment is user created
 
 1. 🔵 Option 1: Add `isManuallyCreated` to the `find-or-add` response
   - Add a boolean field to the `find-or-add` endpoint response:
@@ -103,10 +103,10 @@ Add a new field, `appointmentSourceDetail`, to provide more detail about how the
 
 So that we can pass in the `appointmentSource` field in the request body and set the field to something specific to user generated appointment like `uga` or `uca`. Its my understanding the API team would have to update these endpoints and they would have to allow for a new enum option for the `appointmentSource` field.
 
-### Decision
+## Decision
 - Complete - 4/21/2026
 
-### Notes Post ADR Presentation to Stakeholders and API Team and the above meetings
+## Notes Post ADR Presentation to Stakeholders and API Team and the above meetings
 
 - 4/16/2026 - During the Product Checkin meeting we determined that we would determine a user created appointment is community care based off of the facility station number that the user selected. If the facility is community care, it will have a station number that has a `CC` in it EX: `986CC19876`. Stakeholders decided to move forward with this so that we wont have to ask the "Is this appointment for community care?" question in the user created appointment flow.
 
