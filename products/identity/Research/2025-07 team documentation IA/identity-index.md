@@ -60,7 +60,7 @@ Each individual component includes:
 | -- Maintenance banners | Caitlin |
 | -- Sign-in errors | Caitlin |
 | - Sign-in experience | Lainey |
-| -- Research | Lainey |
+| -- Reducing dissatisfaction | Lainey |
 | -- Secure sign-in transition | Lainey |
 | Platform authentication | Trevor |
 | - Backend infrastructure | Riley |
@@ -78,7 +78,7 @@ Each individual component includes:
 | -- SSOe (Single Sign-on External) integration | Trevor |
 | - Security | Joe |
 | -- Security policies and compliance | Joe |
-| -- Logging and monitoring | Joe |
+| -- Logging and monitoring | John B. |
 | -- FWA | Joe |
-| - Sensitive research | Clayton |
+| - Research | Clayton |
 
