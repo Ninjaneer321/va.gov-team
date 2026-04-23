@@ -62,7 +62,7 @@ If you're new to the team or just getting oriented with our reporting resources,
 **Tips:**
 - Use the built-in filters to slice by time period or other available fields. Most include a date filter, so ensure it is inclusive of the dates you are analyzing.
 - Each individual report could have a different update cadence. At the top of each report in the app, there is a date that shows when the data was last updated.
-- If a visual looks off or a metric seems unexpected, please reach out to Tyler Spangler.
+- There are comments for each visualization in the application on [Sharepoint](https://dvagov.sharepoint.com/:f:/r/sites/HealthApartment/Shared%20Documents/Appointments/Analytics%20and%20Metrics/CDW%20Example%20Queries?csf=1&web=1&e=KucKfB). The comments explain what the visualizations are measuring/showing and the data sources for each report. 
 
 ---
 
