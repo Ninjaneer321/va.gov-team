@@ -16,7 +16,35 @@ Representatives need a reliable tool to upload and submit documents for their cl
 
 ## Desired User Outcomes
 
-1. When fully rolled out, this will increase the number of digital claims submissions through VA.gov. By increasing the number of claims, this would allow more Veterans to gain access to VA health care and benefits faster. 
+1. Representative users can digitally submit VA Form 686c via the Accredited Representative Portal (ARP)
+2. Representative users can view a history of past submissions
+3. Representative users can digitally complete VA Form 686c (no PDF upload needed) in the Accredited Representative Portal, with a form-fill experience tailored to their needes
+4. Representative users can save a digital form in-progress, and compelte it later
+5. Representative users will be submitting the most up-to-date version of VA Form 686c when using ARP
+
+## Assumptions
+1. With SEP going away, representatives have a need for digitally submitting VA Form 686c
+2. Representatives prefer to digitally complete and submit VA forms
+
+# Measuring Success
+
+Goal: Representatives submit 10% more claims in ARP vs SEP within 18 months after September 2025 ARP MVP launch
+SEP baseline:
+- 686c: 788 avg monthly claims submitted January-December 2025
+- 526ez: 678 avg monthly claims submitted January-December 2025
+
+**Datadog Dashboards**
+1. [Accredited Representative Portal (ARP)](https://vagov.ddog-gov.com/dashboard/q3q-ft2-bdx/accredited-representative-portal-arp?fromUser=false&offset=0&refresh_mode=monthly&from_ts=1775026800000&to_ts=1776916955643&live=true)
+2. [Accredited Representative Crew: Monthly Metrics Review](https://vagov.ddog-gov.com/dashboard/8xp-469-t2i/accredited-representative-crew-monthly-metrics-review?fromUser=false&refresh_mode=sliding&from_ts=1774238579478&to_ts=1776916979478&live=true)
+
+# Release History
+
+#### Version 1.0 (Submit complated PDF, MVP) | [Release Plan](https://dsva.slack.com/docs/T03FECE8V/F09D4FZ13V0)
+Released on March 25, 2025 with VSO representatives accredited with the Connecticut Department of Veterans Affairs. 
+
+In July 2025, VSO representatives accredited with Wounded Warrior Project and Montana Department of Veterans Affairs joined the Accredited Representative Portal. 
+
+The 21-526ez 1.0 (MVP) allows representative users to upload a fully completed VA Form 21-526ez PDF, along with any supporting evidence, and submit that to VA.
 
 Solution Approach
 A digital form submission tool
@@ -41,25 +69,13 @@ Our plan is to start by piloting form upload for the 686c form, then expand to 5
 
 When releasing claims submission, we'll also introduce the ability for accredited representatives to self-service sign up for ARP, rather than our team having to manually grant them access. 
 
+When fully rolled out, this will increase the number of digital claims submissions through VA.gov. By increasing the number of claims, this would allow more Veterans to gain access to VA health care and benefits faster. 
 
-## Assumptions
-1. Reps would be able to access it in the ARP, which is also where they can manage POA requests
-2. Some reps may continue to use third-party tools but the quick access to VBMS after accepting POA requests might entice them
+
 
 
 
 ---
-
-## Measuring Success
-
-**Datadog Dashboards**
-1. [Accredited Representative Portal](https://vagov.ddog-gov.com/dashboard/q3q-ft2-bdx/accredited-representative-portal-arp?fromUser=false&refresh_mode=sliding&from_ts=1756769310159&to_ts=1775086110159&live=true)
-2. [Accredited Representative Crew: Monthly Metrics Review](https://vagov.ddog-gov.com/dashboard/8xp-469-t2i/accredited-representative-crew-monthly-metrics-review?fromUser=false&offset=0&refresh_mode=monthly&from_ts=1775026800000&to_ts=1775086152026&live=true)
-
-## Release History
-
-#### Version 1.0 (Submit complated PDF, MVP) | [Release Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/product-info/rep-claim-submissions/release-plan-rep-claim-submissions.md.md)
-The 21-526ez 1.0 (MVP) allows representative users to upload a fully completed VA Form 21-526ez PDF, along with any supporting evidence, and submit that to VA.
 
 ### Ftuture Ideas
 1. Improve the submission pathway on the backend, for faster processing. 
