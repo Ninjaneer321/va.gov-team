@@ -316,7 +316,8 @@ There was a slight spacing issue on the details page between the card and the ac
 
 1. **Recommendation:** On the "Pay online" screen, remove the dollar sign from the copied text for the balance.
    - _Supporting evidence: The balance copies with a dollar sign (e.g., $100.00). Since the currency field on pay.va.gov already includes a dollar sign, pasting results in duplicate characters (e.g., $$100.00)._
-   - **Next Step:** Update the copy-to-clipboard logic to strip the currency symbol for balance values, and run a quick regression test on iOS and Android by pasting into pay.va.gov to confirm the value is accepted without manual edits.
+   - **Next Step:** Update the app to copy only the numbers, not the currency symbol.
+   - **Status:** Ticket [1303 Update "$" from current balance](https://va.ghe.com/software/va-mobile-feature-support/issues/1303) DONE
 
 2. **Recommendation:** Reorder the details on the "Pay online" screen to match the sequence of fields on pay.va.gov.
    - _Supporting evidence: The current app layout places the balance at the top, but the pay.va.gov form requires it further down the page. Matching the sequence reduces cognitive load and scrolling._
