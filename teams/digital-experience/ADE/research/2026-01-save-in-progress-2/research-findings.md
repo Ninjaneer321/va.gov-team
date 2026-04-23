@@ -3,7 +3,7 @@ title: "2026-01 Save in Progress (2nd round of usability testing) Research Findi
 product: "Save in Progress for online VA.gov forms"
 team: "ADE (Accessibility Digital Experience)"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2026-03-17"
+date: "2026-04-23"
 researchers:
   - "Cindy Merrill"
 research_goals:
@@ -709,16 +709,6 @@ The form we tested has 9 pages of questions, and each page has at the bottom a *
    <img src="./images/MyVA-bottom.png" width="100%" height="100%" alt="headings for Outstanding debts, Benefit payments, and Education and training">
 
 </details>
-
-
-> [!IMPORTANT]
-> **After completing the demographic information below and saving this file**, use the [GitHub Copilot Research Findings Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md) to automatically populate the YAML frontmatter section at the top of this document with: 
-> - Participant demographics (counts, age ranges, education levels, etc.)
-> - Key findings and recommendations
-> - Research goals and methodology
-> - Appropriate research repository tags
->
-> The prompt will parse the demographic data from this section and structure it correctly for the frontmatter's nested YAML format. 
 
 ### Research participants 
 
