@@ -151,7 +151,7 @@ Most of the data in this warehouse is available through Power BI models managed 
 
 **Links**:
 - [CDW Factbooks](https://vaww.virec.research.va.gov/CDW/Documentation.htm#Factbooks) - these details the various tables/schemas that can be used to pull data from the database
-- [SQL Queries](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/unified-appointments-experience/Metrics%20and%20Reporting) - queries that are used to pull UAE information mainly surrounding appointments and text messages
+- [SQL Queries](https://dvagov.sharepoint.com/:f:/r/sites/HealthApartment/Shared%20Documents/Appointments/Analytics%20and%20Metrics/CDW%20Example%20Queries?csf=1&web=1&e=KucKfB) - queries that are used to pull UAE information mainly surrounding appointments and text messages. There are notes at the top of each query with an explanation of how they were used and potential points of contact for further questions.
 
 ## Access & Permissions
 
