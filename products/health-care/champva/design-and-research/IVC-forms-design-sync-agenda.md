@@ -4,6 +4,75 @@
 
 
 
+## April 23, 2026
+
+Attendees: Renata, Jessica, Hieu, Premal, Andrea 
+
+
+### AGENDA: 
+	•	Under-18 form signature
+	•	Reg-only path recap/recommendations
+	•	OHI work
+	•	John's work supporting the CHAMPVA ID card
+	•	Q1 Medallia report internal shareout
+
+
+
+### Notes: 
+
+#### Under 18 Signer
+- age based branching logic - multiple 18, which over 18
+- application under 18; can they sign their own?
+
+Premal - bug in design , need to check with business. Send to Angela for getting answer 
+John - thinks business said anybody could submit, leads to believe anybody can sign. 
+Premal - if they have authorization to submit
+
+Premal - unrelated, merits of having this unauthenticated flow
+
+Renata - ID.me is difficult to get into, blocks a lot of people getting in. Need to make sure people have access to these benefits. Unauth unless required identity verification to do. 
+
+
+#### Reg Only
+Mural 
+https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1776448728525/c56799363ad3883f5a35fca89fd323723fad2550?sender=ubf5503bf47b6eb1e92730053
+
+- Research recap - paper parody vs user confusion
+- The problem - ask users to make a decision they don’t understand
+- Mental model, behavior, case studies
+- Unmoderated study - want to have appointment with these tasks
+- Experimental launch - Registration 2.0
+- Integration with appointments
+
+Premal - not new, similar stories heard, but being asked to do again. Notes from HEC - done through paper, have to visit facility to get a shot, 4th mission enacted want people to do it online 
+
+Premal - talked to appointments team last year, will re-engage with them 
+
+DOW - register at dummy preferred facility , auto registration. 
+
+Hieu - mentioned at on-site mentioned auto-register/enroll not possible
+
+Renata - concerns about paper parody level from business 
+
+
+
+#### OHI Work
+Figma link
+https://www.figma.com/design/sSPoS7R9HE6ZlxRESRy2ms/Other-Health-Insurance-Certification--10-7959c--Form-WIP?node-id=7472-5425&p=f&t=X3of2V5CyDsO8rV3-0
+- Add / update  exploration continued
+- Due to Medallia feedback and business feedback - make it easier and more understandable for users to submit health insurance details that are no longer active
+- Changes to flow around health insurance name and date page
+- Review page utilizing status tag VADS component
+- Hopeful that can integrate with VES once insurance is added there
+- EZR does not have prefill on insurance today
+- ROLES are important here! 
+
+
+#### Q1 Medallia dry run 
+
+
+------
+
 ## April 16, 2026
 
 Attendees: Renata, Jessica, Hieu, Premal, Andrea 
