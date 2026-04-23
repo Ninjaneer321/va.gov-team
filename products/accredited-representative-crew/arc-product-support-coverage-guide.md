@@ -13,10 +13,8 @@ The product support rotation ensures continuous coverage for alert triage, issue
 
 ---
 
-## 2. Eligibility
-- Support rotations are **limited to full-stack developers** capable of triaging both frontend and backend issues.
-- **Production access is not required**; only tech leads have production credentials.
-- Non-full-stack contributors are excluded from the rotation.
+## 2. Requirements
+- **Production access is not required**; only Federal Engineering Leads have production access.
 
 ---
 
