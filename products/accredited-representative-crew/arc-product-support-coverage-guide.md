@@ -66,17 +66,16 @@ Before your rotation, ensure you have:
 - Follows the sprint calendar (two-week cadence).
 - The calendar repeats and is updated each sprint in planning notes.
 
-| Sprint | Dates | Developer (Full Stack) | Tech Lead (Escalation) |
+| Sprint | Dates | Developer | Tech Lead (Escalation) |
 |---------|--------|--------------------------------|-------------------------|
-| Sprint 10 | Feb 10 – Feb 23 | Patrick B. | Kevin, Holden, Nick |
-| Sprint 11 | Feb 24 – Mar 9 | Josh | Kevin, Holden, Nick |
-| Sprint 12 | Mar 10 – Mar 23 | Holden | Kevin, Nick |
-| Sprint 13 | Mar 24 – Apr 6 | Alex | Kevin, Holden, Nick |
-| Sprint 14 | Apr 7 – Apr 20 | Patrick A. | Kevin, Holden, Nick |
-| Sprint 15 | Apr 21 – May 4 | Greg | Kevin, Holden, Nick |
-| Sprint 16 | May 5 – May 18 | Kristen | Kevin, Holden, Nick |
-| Sprint 17 | May 19 – June 1 | Tyler | Kevin, Holden, Nick |
-| Sprint 18 | June 2 – June 15 | Kevin | Holden, Nick |
+| Sprint 15 | Apr 21 – May 4 | Greg | David, Holden, Nick |
+| Sprint 16 | May 5 – May 18 | Kristen | David, Holden, Nick |
+| Sprint 17 | May 19 – June 1 | Tyler | David, Holden, Nick |
+| Sprint 18 | June 2 – June 15 | Dakota | David, Holden, Nick |
+| Sprint 19 | June 16 – June 29 | Patrick B. | David, Holden, Nick |
+| Sprint 20 | June 30 – July 13 | Josh | Kevin, Holden, Nick |
+| Sprint 21 | July 14 – July 27 | Alex | Kevin, Holden, Nick |
+| Sprint 22 | July 28 – Aug 10 | Patrick A. | Kevin, Holden, Nick |
 
 ---
 
