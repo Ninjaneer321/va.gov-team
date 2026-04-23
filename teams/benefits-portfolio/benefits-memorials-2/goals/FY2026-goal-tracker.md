@@ -69,7 +69,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 | Additional work that was pulled in mid-sprint | Scope of work changed after ticket started | Work became blocked mid-sprint |  Work was underestimated and not completed |
 |---------------|---------------|---------------|---------------|
 |Ticket #1639796|Ticket #|138715 |Ticket #132524|Ticket #128481|
-|Ticket #|Ticket #131383|Ticket #132|Ticket #138622|
+|Ticket #|Ticket #131383|Ticket #|Ticket #138622|
 |Ticket #|Ticket #135015|Ticket #|Ticket #|
 |Ticket #|Ticket #|Ticket #|Ticket #|
 
@@ -82,7 +82,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 **_Delivery + Notes:_**
 - [X] All goals have been updated in the sprint chart
 - [X] Any Additional details about goals **not** completed will be documented here.
--  For this goal: "ENG: Finalize solution for payment history mock data," due to the code freeze, we weren't able to complete this since the feature work is still in progress.
+-  For this goal: "ENG: Finalize solution for payment history mock data," due to the code freeze, the team wasn't able to complete this since the feature work is still in progress.
 -  For this goal: "ENG: Complete required testing artifacts for Staging Review after implementing the Cerner/VistA data updates" the team was unable to complete these final artifacts which required mock data updates.
 
 ## Sprint: 5 [03/25/26 - 04/07/26]  
