@@ -327,7 +327,7 @@ There was a slight spacing issue on the details page between the card and the ac
 3. **Recommendation:** Provide information on the original cause of the overpayment.
    - _Supporting evidence: Veterans expressed a strong desire for more transparency regarding why the debt exists. They know this information is provided in the physical debt letters, but it's not directly within the app._
    - **Next Step:** This is a known issue that the Financial Management team intends to address, though the timeline is TBD. We have linked this research to the existing Epic to advocate for the Veteran's perspective. We will also continue to track the related ticket already in our team's backlog to ensure this remains a priority for future development.
-   - **Status:** BLOCKED / FUTURE WORK: [Ticket](https://va.ghe.com/software/va-mobile-feature-support/issues/389)
+   - **Status:** BLOCKED / FUTURE WORK: [Ticket](https://va.ghe.com/software/va-mobile-feature-support/issues/389) / [Super Epic](https://github.com/department-of-veterans-affairs/va.gov-team/issues/52762)
 
 4. **Recommendation:** Clearly communicate the specifics of benefit reductions and repayment plans, including when and by how much.
    - _Supporting evidence: Veterans who rely on these payments to manage monthly budgets need to know exactly which upcoming payment will be impacted and the specific amount to be deducted. Participants also wanted visibility into repayment plan terms (amounts, timing, and status)._
