@@ -1,7 +1,5 @@
 # VAOS v2 appointments read (GET) paths
 
-Gotchas: All returned data to clients apply the `X-Key-Inflection: camel` header so that all data changes from snake case (Ruby JSONs) to camel-cased JS JSONs... But sometimes you get surprised when something super deep in an object doesn't get transformed.   
-
 Data flow for `GET /vaos/v2/appointments` (index) and `GET /vaos/v2/appointments/:id` (show), in `vets-api/modules/vaos/`:
 
 You'd see the `#index` route on
