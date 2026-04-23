@@ -317,7 +317,7 @@ There was a slight spacing issue on the details page between the card and the ac
 1. **Recommendation:** On the "Pay online" screen, remove the dollar sign from the copied text for the balance.
    - _Supporting evidence: The balance copies with a dollar sign (e.g., $100.00). Since the currency field on pay.va.gov already includes a dollar sign, pasting results in duplicate characters (e.g., $$100.00)._
    - **Next Step:** Update the app to copy only the numbers, not the currency symbol.
-   - **Status:** Ticket [1303 Update "$" from current balance](https://va.ghe.com/software/va-mobile-feature-support/issues/1303) DONE
+   - **Status:** DONE: [Ticket](https://va.ghe.com/software/va-mobile-feature-support/issues/1303)
 
 2. **Recommendation:** Reorder the details on the "Pay online" screen to match the sequence of fields on pay.va.gov.
    - _Supporting evidence: The current app layout places the balance at the top, but the pay.va.gov form requires it further down the page. Matching the sequence reduces cognitive load and scrolling._
@@ -325,8 +325,8 @@ There was a slight spacing issue on the details page between the card and the ac
    
 3. **Recommendation:** Provide information on the original cause of the overpayment.
    - _Supporting evidence: Veterans expressed a strong desire for more transparency regarding why the debt exists. They know this information is provided in the physical debt letters, but it's not directly within the app._
-   - _Note: At the moment, this is not technically feasible due to data availability and PII constraints._
-   - **Next Step:** Conduct follow-up discovery with stakeholders (policy, privacy, and engineering) to confirm what debt-cause details are permissible to display in the app. If full digital debt letters cannot be surfaced, define an alternative approach (e.g., standardized reason categories or a short allowable explanation) and document requirements for future work.
+   - **Next Step:** This is a known issue that the Financial Management team intends to address, though the timeline is TBD. We have linked this research to the existing Epic to advocate for the Veteran's perspective. We will also continue to track the related ticket already in our team's backlog to ensure this remains a priority for future development.
+   - **Status:** BLOCKED / FUTURE WORK: [Ticket](https://va.ghe.com/software/va-mobile-feature-support/issues/389)
 
 4. **Recommendation:** Clearly communicate the specifics of benefit reductions and repayment plans, including when and by how much.
    - _Supporting evidence: Veterans who rely on these payments to manage monthly budgets need to know exactly which upcoming payment will be impacted and the specific amount to be deducted. Participants also wanted visibility into repayment plan terms (amounts, timing, and status)._
