@@ -332,7 +332,7 @@ There was a slight spacing issue on the details page between the card and the ac
 4. **Recommendation:** Clearly communicate the specifics of benefit reductions and repayment plans, including when and by how much.
    - _Supporting evidence: Veterans who rely on these payments to manage monthly budgets need to know exactly which upcoming payment will be impacted and the specific amount to be deducted. Participants also wanted visibility into repayment plan terms (amounts, timing, and status)._
    - **Next Step:** We want to start working with the Financial Management team to see how we can show these details in the app. Their research also shows that Veterans need this, but neither team has looked into the technical side yet. We hope to partner with their engineers soon to see what information is available and start designing what these "Resolution Details" will look like.
-   - **Status:** FUTURE WORK
+   - **Status:** FUTURE WORK : [Ticket](https://va.ghe.com/software/va-mobile-feature-support/issues/1359)
 
 5. **Recommendation:** Consolidate overpayment-related communications and actions so Veterans can see the full story in one place (across VA.gov and the mobile app).
    - _Supporting evidence: One Veteran demonstrated how difficult it was to piece together the status of a single overpayment. Both the app and VA.gov showed only a partial set of VA-issued letters, and she could not find any record of the requests/paperwork she had submitted, which made it hard to confirm the current state of the debt._
