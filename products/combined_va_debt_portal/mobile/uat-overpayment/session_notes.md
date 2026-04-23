@@ -1,6 +1,6 @@
 # Overpayments UAT Notes
 
-Spreadsheet with full check-lists of test flows and success criteria can be found in SharePoint site.
+[Spreadsheet with full checklists of test flows and success criteria](https://dvagov.sharepoint.com/:x:/r/sites/vamobilefeaturesupport/Shared%20Documents/2026-01%20UAT%20Overpayment/Test%20paths%20and%20success%20criteria.xlsx?d=w75ea5f86688f4386bbd1c5ff2196da9f&csf=1&web=1&e=z7D5pW) can be found in SharePoint site. You may need to request permission to view the document.
 
 
 ## **P1**
