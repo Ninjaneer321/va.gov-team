@@ -265,7 +265,7 @@ We will move forward with option #2. The API team will...
 ## Investigation into how we will know that an appointment is user created appointment from the API
 
 ### Status
-In Progress - 2026-04-16
+Complete - 4/21/2026
 
 ### Context
 We need a reliable way to indicate that an appointment was manually created by a user. 
@@ -368,11 +368,13 @@ Add a new field, `appointmentSourceDetail`, to provide more detail about how the
 So that we can pass in the `appointmentSource` field in the request body and set the field to something specific to user generated appointment like `uga` or `uca`. Its my understanding the API team would have to update these endpoints and they would have to allow for a new enum option for the `appointmentSource` field.
 
 ### Decision
-- Pending -
+- Complete - 4/21/2026
 
 ### Notes Post ADR Presentation to Stakeholders and API Team and the above meetings
 
 - 4/16/2026 - During the Product Checkin meeting we determined that we would determine a user created appointment is community care based off of the facility station number that the user selected. If the facility is community care, it will have a station number that has a `CC` in it EX: `986CC19876`. Stakeholders decided to move forward with this so that we wont have to ask the "Is this appointment for community care?" question in the user created appointment flow.
 
-  We also talked about how to tell that an appointment was user created. We discussed that based on BTSSS API records there are around 50 appointments created a day that look like user created appointments that actually are not and are created due to the API not being able to get the vaos data. We talked about this with stakeholders. 
+  We also talked about how to tell that an appointment was user created. We discussed that based on BTSSS API records there are around 50 appointments created a day that look like user created appointments that actually are not and are created due to the API not being able to get the vaos data. We talked about this with stakeholders.
+
+- 4/21/2026 - We confirmed in the Technical Sync meeting that we will determine an appointment is user created by the `appointmentSource` being API and the `claimSource` being VaGov. This will mean that the appointments made in the regular complex claim flow that we are calling "phanton appointments"; meaning the find-or-add endpoint was called and didnt find the vaos appointment when it should have, so it creates a new appointment in BTSSS, will be considered user created as well. (NOTE: Stakeholders are aware that this will occur and we will attempt to monitor how many of these are created. There will be onese with `appointmentSource` being API and the `claimSource` being VaGov and ones from Mobile with `appointmentSource` being API and the `claimSource` being Mobile.
 
