@@ -1,16 +1,13 @@
-# User Created Appointments Investigation and Analysis
-Throughout this document we will discuss various user created appointment issues that we have ran into, our investigation of those issues and how we have chosen to resolve them.
+# Investigation into how we will show a list of facilities to the user for a user created appointment
 
-## Investigation into how we will show a list of facilities to the user for a user created appointment
-
-### Status
+## Status
 Complete - 2026-03-26
 
-### Context
+## Context
 In order for a veteran to create a user created appointment via the BTSSS API they have to select a facility. There are several ways that we can go about getting a list of facilities.
 
 ---
-### Findings from Stakeholder Alignment Meeting (3/16/2026)
+## Findings from Stakeholder Alignment Meeting (3/16/2026)
 
 Through discussions with stakeholders and follow-up investigation, we identified the following key details about available data sources:
 
@@ -38,11 +35,11 @@ Through discussions with stakeholders and follow-up investigation, we identified
     - No known public-facing API currently available to us
   - Mark is going to follow up with them
 ---
-### Findings from BTSSS Cross-Functional Working Session Meeting (3/17/2026)
+## Findings from BTSSS Cross-Functional Working Session Meeting (3/17/2026)
 
 Through the cross-functional discussions, the team identified several key decisions, assumptions, and open questions related to user-created appointments.
 
-#### Appointment Type Handling
+### Appointment Type Handling
 
 - **Current Direction**
   - Do **not display appointment type in the FE**
@@ -56,12 +53,12 @@ Through the cross-functional discussions, the team identified several key decisi
 - **Clarifications**
   - Labs appointments → `"Other"` in backend
 
-#### Appointment Name Guidance
+### Appointment Name Guidance
 
 - **Appointment Name** field should contain:
   - A **description of the appointment**
 
-#### Facility Knowledge & Veteran Experience
+### Facility Knowledge & Veteran Experience
 
 - Veterans **should know** their:
   - Facility name (from official VA letters)
@@ -69,7 +66,7 @@ Through the cross-functional discussions, the team identified several key decisi
 - Veterans **do not know** their facility station number
   - This is not shown in the FE dropdown
 
-#### Facility Selection Constraints
+### Facility Selection Constraints
 
 - Every veteran has:
   - A **home facility**
@@ -84,12 +81,12 @@ Through the cross-functional discussions, the team identified several key decisi
   - How do we programmatically get the home facility?  
     - API Team investigated this afterwards and they do not currently return the home facility to us. Ken said that they could update the user contact endpoint to return the  home facility
 
-#### Timing & Process Notes
+### Timing & Process Notes
 
 - Facilities are added for veterans **immediately when clerks save them**
 - Veterans should know facility name and zip code; station number is hidden
 
-#### Risks / Considerations
+### Risks / Considerations
 
 - Hiding appointment type may:
   - Simplify the FE experience
@@ -105,7 +102,7 @@ Through the cross-functional discussions, the team identified several key decisi
 
 ---
 
-### Findings from slack conversations
+## Findings from slack conversations
 
 What is the largest count of "children" facilities for a given VAMC aka "parent" facility?
 - NASHVILLE VA MEDICAL CENTER - 3123 records
@@ -129,7 +126,7 @@ Why cant we use the PPMS list to get the community care facilities?
 
 ___
 
-### Options considered for how to determine the facilities list
+## Options considered for how to determine the facilities list
 Per our meeting on 3/17/2026 we now know that we will need to determine a given veterans home facility. The API Team will need to update their logic for the `GET Contact` endpoint so that the response returns a `homeFacility`.
 
 ```
@@ -230,7 +227,7 @@ Once the above change occurs and we have a way to determine the home facility we
 
 ---
 
-### Decision
+## Decision
 _Complete_
 Decision made on - 3/26/2026
 
@@ -244,7 +241,7 @@ We will move forward with option #2. The API team will...
 
 ---
 
-### Consequences
+## Consequences
 
 - Additional coordination may be required with:
   - CXI stakeholders
@@ -257,124 +254,5 @@ We will move forward with option #2. The API team will...
   - Performance
   - Implementation complexity
 
-### Notes Post ADR Presentation to Stakeholders and API Team and the above meetings
+## Notes Post ADR Presentation to Stakeholders and API Team and the above meetings
 - 3/26/2026 Mark and Kay said that CXI discussions were going very slowly so at this point we are dropping that option and moving forward with option #2 where the API Team Builds or updates the endpoint for get facilities.
-
----
-
-## Investigation into how we will know that an appointment is user created appointment from the API
-
-### Status
-Complete - 4/21/2026
-
-### Context
-We need a reliable way to indicate that an appointment was manually created by a user. 
-
-Currently, VA.gov does not provide a dedicated or explicit mechanism for creating user-generated appointments. However, there is an existing system behavior that effectively enables this under certain conditions.
-
-When a user is viewing an appointment and attempts to add a new travel pay claim, the backend (BE) performs the following sequence:
-1. Attempt to Locate Appointment
-  - A POST request is made to:
-    `/api/v2/appointments/find-or-add`
-  - This endpoint attempts to locate the existing appointment in the system.
-2. Fallback: Create Appointment
-  - If the appointment cannot be found, a new appointment is created.
-  - This scenario may occur due to:
-    - VAOS service downtime
-    - Connectivity issues between BTSSS API and VAOS
-  - The newly created appointment is assigned:
-    `appointmentSource = "API"`
-3. Return Appointment
-  - The endpoint returns either:
-    - The existing appointment (if found), or
-    - The newly created appointment (fallback case)
-4. Claim Creation
-  - The BE then uses the returned appointment_id to create a travel pay claim by calling:
-    `POST /api/v2/claims`
----
-
-### Proposed solutions for being able to tell that an appointment is user created
-
-1. 🔵 Option 1: Add `isManuallyCreated` to the `find-or-add` response
-  - Add a boolean field to the `find-or-add` endpoint response:
-
-    ```txt
-    isManuallyCreated: true | false
-    ```
-
-  - If `isManuallyCreated` is `true`, then `appointmentSource` would be set to `VAGov`.
-
-  - Pros:
-    - Simple and easy to understand
-    - Low implementation complexity
-    - Directly supports the immediate UI need
-
-  - Cons:
-    - Limited flexibility for future use cases
-    - Creates overlap or coupling with `appointmentSource`
-    - May not scale well if we need to represent more nuanced creation paths later
-
-2. 🔵 Option 2: Add `appointmentSourceDetail` to the `find-or-add` response
-Add a new field, `appointmentSourceDetail`, to provide more detail about how the appointment was created.
-
-  2a. Free-form text
-
-  Example:
-    
-    ```txt
-    appointmentSourceDetail: "user-created"
-    ```
-
-  - Pros:
-    - Lower LOE for BTSSS
-    - Flexible for future use cases
-    - Consumers of the endpoint can provide whatever value they need without requiring additional API coordination
-
-  - Cons:
-    - Not standardized
-    - Harder to validate and maintain over time
-    - Greater risk of inconsistent values across systems
-
-  2b. Enum-based values
-
-  Example:
-  
-  ```txt
-  appointmentSourceDetail: USER_CREATED
-  appointmentSourceDetail: MAP
-  appointmentSourceDetail: ORACLE_HEALTH
-  appointmentSourceDetail: VIA
-  ```
-
-  - Pros:
-    - Standardized and enforceable at the API layer
-    - Easier to scale and maintain
-    - Reduces risk of downstream data inconsistencies
-
-  - Cons:
-    - Higher LOE for BTSSS
-    - Requires coordination whenever new values need to be introduced
-
-3. 🔵 Option 3: Add a `tag` or `tags` field
-  Add a new field such as `tag` or `tags`, represented as either:
-  - a string, or
-  - an array of strings
-
-4. 🔵 Option 4: Update the POST appointment endpoints so that we can set the `appointmentSource` field 
-  The BTSSS API could update the following POST appointments endpoints:
-  - `POST api/v3/appointments`
-  - `POST api/v2/appointments/find-or-add`
-
-So that we can pass in the `appointmentSource` field in the request body and set the field to something specific to user generated appointment like `uga` or `uca`. Its my understanding the API team would have to update these endpoints and they would have to allow for a new enum option for the `appointmentSource` field.
-
-### Decision
-- Complete - 4/21/2026
-
-### Notes Post ADR Presentation to Stakeholders and API Team and the above meetings
-
-- 4/16/2026 - During the Product Checkin meeting we determined that we would determine a user created appointment is community care based off of the facility station number that the user selected. If the facility is community care, it will have a station number that has a `CC` in it EX: `986CC19876`. Stakeholders decided to move forward with this so that we wont have to ask the "Is this appointment for community care?" question in the user created appointment flow.
-
-  We also talked about how to tell that an appointment was user created. We discussed that based on BTSSS API records there are around 50 appointments created a day that look like user created appointments that actually are not and are created due to the API not being able to get the vaos data. We talked about this with stakeholders.
-
-- 4/21/2026 - We confirmed in the Technical Sync meeting that we will determine an appointment is user created by the `appointmentSource` being API and the `claimSource` being VaGov. This will mean that the appointments made in the regular complex claim flow that we are calling "phanton appointments"; meaning the find-or-add endpoint was called and didnt find the vaos appointment when it should have, so it creates a new appointment in BTSSS, will be considered user created as well. (NOTE: Stakeholders are aware that this will occur and we will attempt to monitor how many of these are created. There will be onese with `appointmentSource` being API and the `claimSource` being VaGov and ones from Mobile with `appointmentSource` being API and the `claimSource` being Mobile.
-
