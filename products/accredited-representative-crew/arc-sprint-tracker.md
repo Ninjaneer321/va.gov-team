@@ -39,7 +39,7 @@ Recording Link TBD
 
 ## Sprint 15 Goals
 
-- [ ] Sprint Goals Approved by Enablement 
+- [x] Sprint Goals Approved by Enablement - Jen Bertsch on April 22, 2026 ([Slack conversation](https://dsva.slack.com/archives/C06GE5N7QJ0/p1776895531393529?thread_ts=1776873072.869759&cid=C06GE5N7QJ0))
 
 **Team Accreditation**
 1. [Individual Accept]
@@ -345,7 +345,7 @@ Recording Link TBD
 
 ## Sprint 14 Delivery
 
-- [ ] Sprint Delivery Approved by Enablement
+- [x] Sprint Delivery Approved by Enablement - Jen Bertsch on April 22, 2026 ([Slack conversation](https://dsva.slack.com/archives/C06GE5N7QJ0/p1776894177130159?thread_ts=1776873072.869759&cid=C06GE5N7QJ0))
 
 Total Completed in Sprint 14: 59 tickets, 134 points + 4 spikes\
 Active Teammates in Sprint 14: 22 active teammates + 3 principal leads (lower velocity)\
