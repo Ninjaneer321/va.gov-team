@@ -10,19 +10,31 @@ assignees: 'jasonday'
 
 ## 1. Introduction
 
-This issue template will help walk you through [required and recommended accessibility testing](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/prepare-for-an-accessibility-staging-review) and will generate a testing artifact you must submit as part of your Staging Review. Try to resolve as many issues as possible before your Staging Review. Then update this artifact with your progress. Log any issues you find. Guidance for logging issues is available in the "4. Next steps" section of this ticket.
-        
-### Why we ask VFS teams to do accessibility testing
-The more you test and fix issues before your Staging Review, the less likely we are to find launch-blocking issues. This artifact helps document your accessibility testing efforts and any issues you found during testing. It also helps us understand your product better before we do our review.
-
+This issue template guides you through the [Required accessibility tests](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/prepare-for-an-accessibility-staging-review) you must complete before your Staging Review, along with optional Recommended tests that improve usability and reduce the likelihood of findings. Completing this checklist generates the accessibility testing artifact you will submit for review. Fix as many issues as possible before your Staging Review, then update this artifact with your results and log any issues you find.
 
 ## 2. Before you begin
 
 The Required and Recommended checklists below are based on WCAG 2.2 and the [VA.gov Accessibility Standards](https://depo-platform-documentation.scrollhelp.site/accessibility/va-gov-accessibility-standards).
 
-Complete all required checks and as many recommended checks as you can. If you can't complete a required check, please explain why as a comment on this ticket.
+- Complete all Required checks.
+- Complete as many Recommended checks as you can.
+- If you cannot complete a Required check, leave a comment explaining why.
 
-**Need help?** The Accessibility Digital Experience (ADE) team is available to assist with testing. Reach out in the #accessibility-help slack channel and tag @accessibility-de
+### Tier definitions
+Use these tiers to understand the purpose of each check:
+
+- **Required:** The baseline accessibility testing that must be completed and submitted for Staging Review.
+- **Recommended:** Additional testing that improves usability for assistive technology users and reduces the likelihood of findings during review.
+- **Advanced:** Screen reader and assistive‑technology testing requiring expert judgment; performed by accessibility specialists during Staging Review.
+
+### What “N/A” means
+Mark a check as N/A only when the requirement truly does not apply to your product or flow (e.g., no video content, no images). N/A should not be used to skip testing.
+
+### Severity
+Each checklist item has a severity level, or range of potential severity levels. Please reference the [Accessibility defect severity rubric](https://depo-platform-documentation.scrollhelp.site/developer-docs/Accessibility-defect-severity-rubric.1906671954.html) for additional information on severity levels.
+
+### Need help?
+The Accessibility Digital Experience (ADE) team is available in #accessibility-help on Slack — tag @accessibility-de for support.
 
 ### Product information
 - [ ] Team name, product name, and feature name have been added to the title of this issue.
@@ -30,12 +42,13 @@ Complete all required checks and as many recommended checks as you can. If you c
 
 
 ## 3. Accessibility Checklist (Required + Recommended Items)
-- If you find an issue while performing a check, mark that item as `Fail`.
-- You may find multiple issues while performing a single check. Every check should be tested on every page of your flow.
-- For every fail, log the issue (see 4. Next steps)
-- If the check is not applicable to your product, mark it as "N/A".
-- Each checklist item includes a "How to test" link. Use this guidance to inform your testing. If you have additional questions, please post as a comment on this ticket and/or reach out to ADE or other accessibility specialists.
-- The checklist does not cover every possible scenario or failure. An accessibility specialist may encounter an accessibility issue not represented by a checklist item, and will fail it against the relevant WCAG success criterion.
+### Instructions
+- Mark each item as Pass, Fail, or N/A.
+- If you find an issue, mark the item as Fail and log the issue (see section 4).
+- You may find multiple issues for a single check — test each check on every page of your flow.
+- Each item includes a “How to test” link for step‑by‑step guidance
+  - Tip: Open the links in a new tab to prevent losing progress
+- The checklist does not cover every possible scenario. Accessibility specialists may identify additional issues during review.
 
 ### Automated testing
 #### Required
