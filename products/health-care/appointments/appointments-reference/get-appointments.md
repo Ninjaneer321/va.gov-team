@@ -4,6 +4,13 @@ Gotchas: All returned data to clients apply the `X-Key-Inflection: camel` header
 
 Data flow for `GET /vaos/v2/appointments` (index) and `GET /vaos/v2/appointments/:id` (show), in `vets-api/modules/vaos/`:
 
+You'd see the `#index` route on
+- https://staging.va.gov/my-health/appointments
+- https://staging.va.gov/my-health/appointments/past
+- https://staging.va.gov/my-health/appointments/pending or /my-health/appointments/referrals-requests
+
+You'd see the `#show` route on a details page which take each of those routes above and add the appointment id `.../{apptid}`
+
 ```mermaid
 flowchart TD
     Client([Web client])
