@@ -104,7 +104,8 @@ Add a new field, `appointmentSourceDetail`, to provide more detail about how the
 So that we can pass in the `appointmentSource` field in the request body and set the field to something specific to user generated appointment like `uga` or `uca`. Its my understanding the API team would have to update these endpoints and they would have to allow for a new enum option for the `appointmentSource` field.
 
 ## Decision
-- Complete - 4/21/2026
+_Complete_
+Decision made on - 4/21/2026
 
 ## Notes Post ADR Presentation to Stakeholders and API Team and the above meetings
 
