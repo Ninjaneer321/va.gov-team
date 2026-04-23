@@ -73,9 +73,9 @@ Before your rotation, ensure you have:
 | Sprint 17 | May 19 – June 1 | Tyler | David, Holden, Nick |
 | Sprint 18 | June 2 – June 15 | Dakota | David, Holden, Nick |
 | Sprint 19 | June 16 – June 29 | Patrick B. | David, Holden, Nick |
-| Sprint 20 | June 30 – July 13 | Josh | Kevin, Holden, Nick |
-| Sprint 21 | July 14 – July 27 | Alex | Kevin, Holden, Nick |
-| Sprint 22 | July 28 – Aug 10 | Patrick A. | Kevin, Holden, Nick |
+| Sprint 20 | June 30 – July 13 | Josh | David, Holden, Nick |
+| Sprint 21 | July 14 – July 27 | Alex | David, Holden, Nick |
+| Sprint 22 | July 28 – Aug 10 | Patrick A. | David, Holden, Nick |
 
 ---
 
