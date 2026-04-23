@@ -6,7 +6,7 @@
 
 ## April 23, 2026
 
-Attendees: Renata, Jessica, Hieu, Premal, Andrea 
+Attendees: Renata, Jessica, Hieu, Premal, Andrea, John 
 
 
 ### AGENDA: 
