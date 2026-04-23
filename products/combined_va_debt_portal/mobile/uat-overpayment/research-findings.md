@@ -336,7 +336,8 @@ There was a slight spacing issue on the details page between the card and the ac
 
 5. **Recommendation:** Consolidate overpayment-related communications and actions so Veterans can see the full story in one place (across VA.gov and the mobile app).
    - _Supporting evidence: One Veteran demonstrated how difficult it was to piece together the status of a single overpayment. Both the app and VA.gov showed only a partial set of VA-issued letters, and she could not find any record of the requests/paperwork she had submitted, which made it hard to confirm the current state of the debt._
-   - **Next Step:** Partner with the Financial Management team to begin discovery and define the complete “communication and activity” set that should appear for an overpayment (e.g., demand letters, offset notifications, waiver/forgiveness submissions and acknowledgements, repayment plan requests and decisions). Determine what is technically possible to surface on VA.gov and in the app. Based on feasibility, prototype a unified timeline/activity view, including clearer “last updated” context.
+   - **Next Step:** We want to work with the Financial Management team to show the entire history of a debt in one place. Both teams want to build a single timeline that includes every letter sent by the VA and every form sent back by the Veteran. We need to find out what data is available and then design one view that tells the full story of the overpayment.
+   - **Status:** FUTURE WORK
 
 
 ## Product User and Business Outcomes
