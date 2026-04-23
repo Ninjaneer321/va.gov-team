@@ -72,7 +72,7 @@ recommendations:
   - "Consider revising the workflow in the marriage section."
   - "Consider adding contextual information and  using simpler language. Participants often did not understand some of the questions, and said they wanted to know the reasons for those questions."
   - "Consider fewer required questions and/or adding an “I don’t know” option to the responses."
-  - "Consider displaying the list of documents and the upload function on the same page at the end of the form."
+  - "Consider displaying the list of documents and the file input component on the same page at the end of the form."
   - "Format fields to be consistent with user expectations."
   - "Update the confirmation to reflect digital submission."
 kpi_alignment:
@@ -238,7 +238,7 @@ Participants encountered questions that required not only additional context but
     - Comma separators for currency not present
 - Certain content presentation caused friction
     - VA medical centers name and location is a text field
-    - List of supporting documents is on a separate page from the upload functionality
+    - List of supporting documents is on a separate page from the file input component
     - Where the user is prompted to review entries (e.g., dependent information, expense information), all caps ("DELETE)" was interpreted as yelling
 - Required fields became roadblocks
     - Many of the responses are required. This can become a roadblock if the response the person needs is not permitted or if they don’t have the information available
