@@ -321,8 +321,8 @@ There was a slight spacing issue on the details page between the card and the ac
 
 2. **Recommendation:** Reorder the details on the "Pay online" screen to match the sequence of fields on pay.va.gov.
    - _Supporting evidence: The current app layout places the balance at the top, but the pay.va.gov form requires it further down the page. Matching the sequence reduces cognitive load and scrolling._
-   - **Next Step:** Coordinate with the Financial Management team to confirm the current pay.va.gov field order and decide whether the mobile app should maintain strict parity with the web experience. If parity is confirmed, update the mobile field order and validate with a short usability check.
-
+   - **Next Step:** Consulted with the Financial Management team and decided to maintain the current app layout. Keeping the balance at the top provides essential context for the Veteran. We will monitor user feedback after launch to determine if the field order causes any significant friction.
+   
 3. **Recommendation:** Provide information on the original cause of the overpayment.
    - _Supporting evidence: Veterans expressed a strong desire for more transparency regarding why the debt exists. They know this information is provided in the physical debt letters, but it's not directly within the app._
    - _Note: At the moment, this is not technically feasible due to data availability and PII constraints._
