@@ -1,6 +1,6 @@
 # Mini IA Design for CHAMPVA app status in claims status tool
 
-**STATUS: NOT STARTED**
+**STATUS: INTERNAL REVIEW**
 
 **Team:** BMT 1
 
@@ -10,22 +10,24 @@
 
 **Files:**
 - [Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1773786513769/a471d78fd6ed5cdc5b804c589309139108d2a8f8)
-- [Figma](xxxx)
+- [Figma](https://www.figma.com/design/OpAuMgHwnh6BNkKpW3FyqF/CHAMPVA-in-Status-Tool?node-id=508-6955)
 
 **On this page:**
 - [Navigation/page flows](#flows)
 - [Page structure](#map)
 - [URLs and breadcrumbs](#url)
 - [Entry points](#nav)
-- [Redirects](#redirects)
 - [Launch coordination activities](#launch)
 
-
 ## <a name="flows"></a>Navigation/page flows <br>
-*Illustration and/or description of how users will navigate to and flow through the experience for all impacted visitor types. This helps identify key entry points and findability requirements, user flow scenarios, and content/messaging needs across various scenarios.*
+*Illustration and/or description of how users will navigate to and flow through the experience for all impacted visitors typies. This helps identify key entry points and findability requirements, user flow scenarios, and content/messaging needs across various scenarios.*
+
+<img width="993" height="905" alt="champva-in-cst-page-flow" src="https://github.com/user-attachments/assets/50f71046-d985-473d-a9a8-61dbbe110cbd" />
 
 
+## <a name="map"></a>Page structure<br>
 
+<img width="871" height="1214" alt="image" src="https://github.com/user-attachments/assets/235961ec-ea99-4ac3-b00b-8e6f1b5af03e" />
 
 
 ## <a name="url"></a>Page URLs and breadcrumbs
@@ -35,32 +37,32 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - [Breadcrumbs](https://design.va.gov/components/breadcrumbs)
 - [Title tags](https://design.va.gov/content-style-guide/title-tags)
 
+Approach
+- The new CHAMPVA pages will live behind authentication
+- URLs do not need to be SEO optimized (because they are behind authentication) and can be a bit shorter and less descriptive, but should still be readable and understandable - no abbreviations or shortened words
 
-**1) Lorem ipsum - existing**
-- URL: xxx
-- H1: xxx
-- Sub-heading: xxxx
-- Breadcrumb: VA.gov > xx
-- Browser title: [xxx] | Veterans Affairs
-    - xx | Veterans Affairs
+**1) CST landing page - existing**
+- URL: va.gov/track-claims/your-claims/
+- H1: Your VA benefits claims and applications (revised, content designers will decide final copy)
+- Breadcrumb (desktop): VA.gov home > Your VA benefits claims and applications (revised, should match final H1 copy decided by content designers)
+- Browser title: [H1 in initial case] | Veterans Affairs
 
-**1) Lorem ipsum - new**
-- URL: xxx
-- H1: xxx
-- Sub-heading: xxxx
-- Breadcrumb: VA.gov > xx
-- Browser title: [xxx] | Veterans Affairs
-    - xx | Veterans Affairs
+**2) CHAMPVA application pages - new**
+- URL: va.gov/track-claims/your-claims/[UUID number]/
 
+  The UUID (Universally Unique Identifier) has also been denoted in the past as "[unique-record-ID-no-PII]"
+- H1: Application for CHAMPVA benefits
+- Breadcrumb: VA.gov home > Check your claims and appeals > Application for CHAMPVA benefits
+- Browser title: Application For CHAMPVA Benefits | Veterans Affairs
 
-**Structuring URLs for individual pages within the form flows**
-- All pages within form flows will exist as child pages of the core/canonical URL.
-  - Examples:
-      - va.gov/forms/xxxx/xxxx/introduction/
-      - va.gov/forms/xxxx/xxxx/review-and-submit/
-      - va.gov/forms/xxxx/xxxx/confirmation/
-  - Please refer to [URL standards for form flows](https://design.va.gov/components/url-standards/#guidelines-for-urls-in-form-flows) when defining the URLs for these pages.  Reach out to #content-ia-centralized-team with any questions.
+URL and breadcrumb should remain the same regardless of the tab selected (Status, Files, Overview). Acknowledging that this is different from the existing parallel claim pages; there is a [backlog item to address imposter tabs #128391](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128391).
+  
 
+**Structuring URLs for individual screens within the flows**
+- Tabular information should not change the URL or breadcrumbs, as stated above
+- For evidence requests (called "information requests" when related to CHAMPVA), use the UUID: for example, va.gov/track-claims/your-claims/[UUID number for CHAMPVA application]/needed-from-you/[UUID number for type of evidence]/
+- Noting that there are two known empty subdirectories: /track-claims/ and /needed-from-you/. Recommend following this pattern until these issues can be fixed
+- Also noting that there is a known issue of not being able to get back to /claim-or-appeal-status/ post authentication
 
 ## <a name="nav"></a>Entry points <br>
 
@@ -70,23 +72,11 @@ Teams must launch with at least one entry point that allows site visitors to nav
 
 ### Required entry point(s)
 
-1. **xxx**
-  - Entry page URL: va.gov/xxx
-  - Placement description: xxx
-  - Link details
-    - Link label: TBD by content
-    - Link destination: va.gov/xxx
-  - Notes:
-    - Who will update: Content will add the link
-    - When will this entry point go live: at launch
-    - **Note: If the form will be released incrementally (aka not at 100%) or if the launch plan includes taking the form down temporarily after launch to check submission quality, a widget will be required. This requires coordination between the product engineer to create the widget and content to provide text for the widget. This can take some time. Please plan for at least 2 weeks ahead of staging review.** 
+Existing Claims Status Tool (CST) entry point:
+  - Entry page URL: va.gov/track-claims/your-claims
 
 ### Additional key entry points
 None at this point
-
-##  <a name="redirects"></a>Redirects <br>
-The identified entry point is the existing xxxx page. That section is being updated by Public Websites and Content and IA teams. These teams will be responsible for the redirect for the existing About page URL.  
-
 
 ## <a name="launch"></a>Launch coordination <br>
 *Communication when preparing for launch is critical to ensuring all supporting content, links, and messaging are implemented in a timely manner to ensure a good experience. Missing any of these steps can result in findability challenges, incorrect or misleading information, duplicate content, etc. *

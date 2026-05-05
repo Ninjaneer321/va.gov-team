@@ -46,7 +46,9 @@ The online pension application is available in the [production environment](http
   - [527 Source of truth](https://www.figma.com/design/DRfHRBGngYrCGPAS39beFQ/Prod---21P-527EZ---Pension-Benefits?m=auto&t=tsMCpI3viN6acFtr-6)
   - [527 Working file](https://www.figma.com/design/9JKK5Eo43uJWEr66JPiebc/WIP---21P-527EZ---Pension-Benefits?m=auto&t=tsMCpI3viN6acFtr-6)
 - [Research folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/pension/research)
-- [Mural room](https://app.mural.co/t/departmentofveteransaffairs9999/r/1613770853903?folderUuid=7f7423c1-9a73-4522-b388-d380cc8cdddd) 
+- [Mural room](https://app.mural.co/t/departmentofveteransaffairs9999/r/1613770853903?folderUuid=7f7423c1-9a73-4522-b388-d380cc8cdddd)
+- [0969+527 walkthrough video](https://dvagov.sharepoint.com/:v:/r/sites/vaabdvro/Shared%20Documents/Lifestage%20-%20General/Lifestage%20Transition%20-%20March,%202026/Walkthrough%20Videos/0969+527%20combo.mp4?csf=1&web=1&e=SGIST5)
+- [design backlog in slack](https://dsva.slack.com/lists/T03FECE8V/F0AAYUM8CF2): contains research initiatives at a high level (we kept a high-level backlog in slack because it made it easier to track, collab, and prioritize outside of github. But once work was in progress, we made tickets and tracked in github)
 
 ### Engineering
 
@@ -56,6 +58,7 @@ The online pension application is available in the [production environment](http
 - [Pension-Architecture Diagram.pdf](https://github.com/user-attachments/files/26144753/Pension-Architecture.Diagram.pdf)
 - [Frontend developer README](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/applications/pensions/README.md)
 - [Endpoints consumed and owned](https://dvagov.sharepoint.com/:w:/r/sites/vaabdvro/Shared%20Documents/Dependents%20Management/Documentation/BGS%20686C-674%20Documentation.docx?d=w1707457645dc4eb191a0ea89fb73453b&csf=1&web=1&e=dvkS2w)
+- [Validation on Va.gov](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/benefits-portfolio/Lifestage-crew/engineering/guides/form-validation-and-error-messages.md)
 - Code Repository
   - [Vets-API](https://github.com/department-of-veterans-affairs/vets-api)
   - [Vets-Website](https://github.com/department-of-veterans-affairs/vets-website)

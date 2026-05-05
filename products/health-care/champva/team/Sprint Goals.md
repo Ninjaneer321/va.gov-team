@@ -2,6 +2,277 @@
 
 - Current Sprint first
 
+## 📆 Sprint 18 (Apr 22 - May 5) 
+- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+
+### Sprint Goals
+- [ ] **SPRINT GOAL** Begin 10-10d Enhanced QA and Prepare for Launch
+  - [ ] [[FE] 10-10D: Track submission event types for enhanced application flow](https://github.com/department-of-veterans-affairs/va.gov-team/issues/139823)
+  - [ ] [[BE] 10-10D: Add VA Notify Templates for 1010D Enhanced Confirmation and ZSF Emails (Staging)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/139837)
+  - [ ] **NEEDED TICKETS** QA tickets
+- [ ] **SPRINT GOAL** Complete End to End testing OHI in PreProd and Prepare for Launch
+  - [ ] [[BE] 10-7959c: End-to-end testing for OHI VES submission flow (pre-prod env)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138508)
+- [ ] **SPRINT GOAL** Combine docs for 10-7959a Enhanced and DTA
+  - [ ] [[BE] 10-7959a: Enhanced Claims & DTA - Combine eligible document types and reconcile Pega status updates](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137021)
+- [ ] **SPRINT GOAL** Complete Design Work for OHI Prefill
+  - [ ] [[UX] 10-7959c: pre-fill mapping (WIP)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/85056)
+
+
+##
+### 10-10d
+- [ ] **SPRINT GOAL** Begin 10-10d Enhanced QA and Prepare for Launch
+  - [ ] [[FE] 10-10D: Track submission event types for enhanced application flow](https://github.com/department-of-veterans-affairs/va.gov-team/issues/139823)
+  - [ ] [[BE] 10-10D: Add VA Notify Templates for 1010D Enhanced Confirmation and ZSF Emails (Staging)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/139837)
+  - [ ] **NEEDED TICKETS** QA tickets
+- [ ] **SPRINT GOAL** Complete End to End testing OHI in PreProd and Prepare for Launch
+  - [ ] [[BE] 10-7959c: End-to-end testing for OHI VES submission flow (pre-prod env)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138508)
+- [ ] **Other Planned Work** 
+  - [ ] [[FE] 10-10D: Update intro page with TRICARE eligibility alerts and preparation guidance](https://github.com/department-of-veterans-affairs/va.gov-team/issues/139823)
+  - [ ] [[FE] 10-10D: Add Tricare eligibility screener chapter (v1)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/140107)
+  - [ ] [[FE] 10-10D: Update Sponsor section for TRICARE eligibility flow](https://github.com/department-of-veterans-affairs/va.gov-team/issues/140110)
+  - [ ] [[FE] AllForms: Email templates - Update Call Center Hours and Make VA Notify edits](https://github.com/department-of-veterans-affairs/va.gov-team/issues/140112)
+  - [ ] [[FE] 10-7959A: Update Enhanced Claims with post-launch enhancements, make sendback letter optional](https://github.com/department-of-veterans-affairs/va.gov-team/issues/139821)
+
+
+##
+### 10-7959a
+- [ ] **SPRINT GOAL** Combine docs for 10-7959a Enhanced and DTA
+  - [ ] [[BE] 10-7959a: Enhanced Claims & DTA - Combine eligible document types and reconcile Pega status updates](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137021)
+
+
+
+## 
+### 10-7959c
+- **No work planned this sprint**
+
+ 
+## 
+### 10-7959f-1 FMP Enrollment
+- **No work planned this sprint**
+
+
+##
+### 10-7959f-2 FMP Claims
+- **No work this sprint**
+     
+
+##
+### All forms or Tech Debt
+
+- [ ] **Other Planned Work**
+  - [ ] [[BE] IVC Forms: Manually clear missing Pega statuses and ensure confirmation emails for affected submissions from Pega sendback failures](https://github.com/department-of-veterans-affairs/va.gov-team/issues/140099)
+  - [ ] [Update playbook documentation with new process flow for missing Pega status emails](https://github.com/department-of-veterans-affairs/va.gov-team/issues/127232)
+  - [ ] [[BE] 10-10D: Investigate elevated 403 error rate and evaluate skip_after_action :set_csrf_header](https://github.com/department-of-veterans-affairs/va.gov-team/issues/139958)
+  - [ ] [[BE] 10-10D: Datadog tracking and dashboard updates for enhanced submission flow](https://github.com/department-of-veterans-affairs/va.gov-team/issues/139826)
+  - [ ] [[BE] 10-10D: Add VA Notify Templates for 1010D Enhanced Confirmation and ZSF Emails (Production)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/139838)
+  - [ ] [[UX] CHAMPVA: Update Service Blueprint](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138545)
+  - [ ] [[UX] All Forms: Mural Cleanup](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138562)
+  - [ ] [[UX] All Forms: Clean up WIP files](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138549)
+  - [ ] [10-10d v2 Staging Review finding: Fix spacing between the progress bar and the form question](https://github.com/department-of-veterans-affairs/va.gov-team/issues/118203)
+  - [ ] [10-10d v2 Staging Review finding: Alert is not announced to assistive technologies](https://github.com/department-of-veterans-affairs/va.gov-team/issues/118208)
+  - [ ] [10-10d v2 Staging Review finding: Buttons inconsistently labelled for assistive technologies](https://github.com/department-of-veterans-affairs/va.gov-team/issues/118212)
+
+## 
+### STRETCH GOALS/UP NEXT
+- FE
+  - [ ] [FMP Claims - Staging Review finding: va-file-input imposter component](https://github.com/department-of-veterans-affairs/va.gov-team/issues/99264)
+  - [ ] [10-10dx: Update Medicare and other health insurance sections to be generic for Veteran/Other role types](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137707)
+- BE
+  - [ ] [[BE] All IVC Forms: Update backend README](https://github.com/department-of-veterans-affairs/va.gov-team/issues/139820)
+  - [ ] [[BE] IVC Forms: Investigate High 422 Error Rate on Upload and Submit](https://github.com/department-of-veterans-affairs/va.gov-team/issues/140097)
+
+- UX
+  - [ ] [[Data] Monthly Metrics, Health Apps Team (April)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138426)
+  - [ ] [[UX] April 2026 Monthly Medallia Report](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138427)
+  - [ ] [[UX] All Forms: Update GitHub/Sharepoint Documentation](https://github.com/department-of-veterans-affairs/va.gov-team/issues/139175)
+  
+
+##
+### Team PTO
+- Allan 4/22-4/24
+- Jessica 5/4
+- Fara 4/22
+- Todd 4/22-4/29
+- Matt 4/28-4/29
+- Andrea 4/24
+- Steve 5/4-5/5
+- Kyle - 5 days
+
+## 📆 Sprint 18 (Apr 8 - Apr 21) 
+- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+
+### Sprint Goals
+- [ ] **SPRINT GOAL** Add 10-10d Enhanced Chapter and new BE endpoint in Staging
+  -  [[FE] 10-10D: Move Signer Section to End of Form](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138714)
+  -  [[FE] 10-10D: Update Intro Page Content for Enhanced Flow](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138717)
+  -  [[FE] 10-10D: Update Confirmation Page Content for Enhanced Flow](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138719)
+  -  [[FE] 10-10D: Add Enhanced Flow Chapter for Sponsor, Beneficiary, Signer, and Document Upload](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138721)
+  -  [[BE] 10-10D: Create Enhanced Submission Endpoint for Supporting Documentation](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138533)
+- [ ] **SPRINT GOAL** Address QA findings for OHI/VES ingest and DTA, address bug in 1010d causing duplicate submissions to VES on retry
+  -  [[BE] 10-7959a: DTA - Additional comment section is cut off in the generated PDF for the DTA fields](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138425)
+  -  [[BE] 10-10d: Bug - Duplicate submissions from VES retry job](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138522)
+  -  [10-7959c: "Pharmacy Coverage" is not being passed to VES](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138573)
+- [ ] **SPRINT GOAL** Finalize and hand off UX improvements for Form 10-7959c based on Medallia and usability study findings
+  -    [[UX] Form 10-7959c: Reduce ambiguity around whose health insurance we're collecting](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137943)
+  -    [[UX] Form 10-7959c: Update pending application branching logic](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137944)
+  -    [[UX] Form 10-10d: Update OHI dynamic pronouns/content for Veteran/Other role](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138111)
+- [ ] **SPRINT GOAL** Update ChampVA Claims to use New PDF
+  - [[BE] 10-7959a: Update ChampVA Claims to New PDF: Generate new form, update mapping](https://github.com/department-of-veterans-affairs/va.gov-team/issues/108897)    
+- [ ] **SPRINT GOAL** Complete quarterly Medallia report and make recommendation on prefill vs. multi-beneficiary for 10-7959c
+  -  [[UX] March 2026 Monthly Medallia Report](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137232)
+
+
+##
+### 10-10d
+- [ ] **SPRINT GOAL** Add 10-10d Enhanced Chapter and new BE endpoint in Staging
+  -  [[FE] 10-10D: Move Signer Section to End of Form](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138714)
+  -  [[FE] 10-10D: Update Intro Page Content for Enhanced Flow](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138717)
+  -  [[FE] 10-10D: Update Confirmation Page Content for Enhanced Flow](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138719)
+  -  [[FE] 10-10D: Add Enhanced Flow Chapter for Sponsor, Beneficiary, Signer, and Document Upload](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138721)
+  -  [[BE] 10-10D: Create Enhanced Submission Endpoint for Supporting Documentation](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138533)
+- [ ] **SPRINT GOAL** Address QA findings for OHI/VES ingest and DTA, address bug in 1010d causing duplicate submissions to VES on retry
+  -  [[BE] 10-10d: Bug - Duplicate submissions from VES retry job](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138522)
+- [ ] **Other Planned Work** 
+  - [ ] [[Research] 10-10D: Finalize TRICARE Study Findings Presentation and Submit Design System Intake](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135920)
+  - [ ] [[BE] 10-10d/10-7959c - Form merge: Update applicant birth sex data structure](https://github.com/department-of-veterans-affairs/va.gov-team/issues/126921)
+
+
+##
+### 10-7959a
+- [ ] **SPRINT GOAL** Update ChampVA Claims to use New PDF
+  - [[BE] 10-7959a: Update ChampVA Claims to New PDF: Generate new form, update mapping](https://github.com/department-of-veterans-affairs/va.gov-team/issues/108897)    
+- [ ] **SPRINT GOAL** Address QA findings for OHI/VES ingest and DTA, address bug in 1010d causing duplicate submissions to VES on retry
+  -  [[BE] 10-7959a: DTA - Additional comment section is cut off in the generated PDF for the DTA fields](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138425)
+- [ ] **Other Planned Work** 
+  - [ ] [10-7959a - New Claim - Values in policy number and insurance phone number are not persisting](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138856)
+  - [ ] [10-7959a - New Claim - Editing insurance doesn't show the effective and termination date fields](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138859)
+  - [ ] [10-7959a - Resubmission Claim - Unable to proceed to the next page after beneficiary's contact information page](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138862)
+  - [ ] [[BE] 10-7959a: Enhanced Claims & DTA - Combine eligible document types and reconcile Pega status updates](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137021)
+
+
+
+## 
+### 10-7959c
+- [ ] **SPRINT GOAL** Finalize and hand off UX improvements for Form 10-7959c based on Medallia and usability study findings
+  -    [[UX] Form 10-7959c: Reduce ambiguity around whose health insurance we're collecting](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137943)
+  -    [[UX] Form 10-7959c: Update pending application branching logic](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137944)
+  -    [[UX] Form 10-10d: Update OHI dynamic pronouns/content for Veteran/Other role](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138111)
+- [ ] **SPRINT GOAL** Address QA findings for OHI/VES ingest and DTA, address bug in 1010d causing duplicate submissions to VES on retry
+  -  [10-7959c: "Pharmacy Coverage" is not being passed to VES](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138573)
+- [ ] **Other Planned Work**
+  - [ ] [[BE] 10-7959c: Spike - Investigate LOE/Feasibility for allowing 3+ health insurance policies](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138516)
+
+ 
+## 
+### 10-7959f-1 FMP Enrollment
+- **Other Planned Work**
+  - [ ] [[UX] 10-7959f-2: Update Source of Truth](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138541)
+
+
+##
+### 10-7959f-2 FMP Claims
+- **Other Planned Work**
+  - [ ] [[BE Team] 10-7959F-2: Update FMP PDF combining logic to use HexaPDF with feature flag](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137229)
+     
+
+##
+### All forms or Tech Debt
+- [ ] **SPRINT GOAL** Complete quarterly Medallia report and make recommendation on prefill vs. multi-beneficiary for 10-7959c
+  -  [[UX] March 2026 Monthly Medallia Report](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137232)
+- [ ] **Other Planned Work**
+  - [ ] [[BE] IVC Tech Debt: Naming consistency for merged files](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133567)
+  - [ ] [[BE] IVC Forms: Datadog Dashboard Monitoring Further Enhancements](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138813)
+  - [ ] [[BE] IVC Tech Debt: Update list of data transformations that need to be moved - Part II](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137020)
+
+
+## 
+### STRETCH GOALS/UP NEXT
+- FE
+  - [ ] 
+- BE
+  - [ ] [[BE] IVC Tech Debt: Audit and rationalize existing feature flags](https://github.com/department-of-veterans-affairs/va.gov-team/issues/137022)
+  - [ ] [[BE] All Forms - Fix Potential Flaky Test in notify_pega_missing_status spec](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130690)
+  - [ ] [[BE] 10-7959c: Configure Staging Environment to Point to VES Pre-prod to enable Integration Testing](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138530)
+  - [ ] [[BE] 10-7959c: End-to-end testing for OHI VES submission flow (pre-prod env)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138508)
+- FE
+  - [ ] [[UX] 10-7959c: Explore updated Add New/Update Existing Coverage task flows](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138117)
+  
+
+##
+### Team PTO
+- Allan 4.8-4.21
+- Mitch 4.7-4.10
+- Hieu 4.7-4.14
+- Jessica 4.6-4.7
+- Renata 4.14
+- Fara 4.17-4.21
+
+## 📆 Sprint 17 (Mar 25 - Apr 7) 
+- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+
+### Sprint Goals
+- [ ] **SPRINT GOAL**
+  -  
+
+
+##
+### 10-10d
+- [ ] **SPRINT GOAL**
+  -  
+- [ ] **Other Planned Work** 
+  - [ ] 
+
+##
+### 10-7959a
+- [ ] **SPRINT GOAL**
+  -  
+- [ ] **Other Planned Work** 
+  - [ ] 
+
+
+
+## 
+### 10-7959c
+- [ ] **SPRINT GOAL**
+  - 
+- [ ] **Other Planned Work** 
+  -[ ] 
+
+ 
+## 
+### 10-7959f-1 FMP Enrollment
+- No work this sprint
+
+
+##
+### 10-7959f-2 FMP Claims
+- No work this sprint
+     
+
+##
+### All forms or Tech Debt
+- [ ] **Other Planned Work**
+  - [ ] 
+
+
+## 
+### STRETCH GOALS/UP NEXT
+- FE
+  - [ ] 
+- BE
+  - [ ] 
+- FE
+  - [ ] 
+  
+
+##
+### Team PTO
+- Andrea 3.25-3.27
+- Matt 4.2
+- Mitch 4.3-4.7
+- Hieu 4.6-4.7
+- Jessica 4.6-4.7
+
 
 ## 📆 Sprint 16 (Mar 11 - Mar 24) 
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 

@@ -41,7 +41,7 @@ This addresses a critical bottleneck in the current BDD user journey where missi
 
 ## Undesired Business Outcomes
 
-- DBC team does not meet target development timeline. MVP of this feature must be completed and in production by **Thursday, April 30** *(date to be confirmed)*.
+- DBC team does not meet target development timeline. MVP of this feature must be completed and in production by **Monday, April 20, 2026**.
 
 ---
 
@@ -50,34 +50,46 @@ This addresses a critical bottleneck in the current BDD user journey where missi
 ### Key Performance Indicators (KPIs)
 
 **Primary KPIs:**
-- Percentage of BDD users who engage with the new SHA Part A upload page
-- Percentage of 526EZ BDD claims submitted with SHA Part A documentation
-- Overall volume of BDD claims submitted via VA.gov
 
-**Other KPIs** *(influenced by DBC and/or across other teams)*:
+- Percentage of BDD users who see the new SHA Part A upload page (engagement)
+- Percentage of 526EZ BDD claims submitted with an uploaded SHA (claim completeness)
+- Overall volume of BDD claims submitted via VA.gov (claim volume)
+
+**Other KPIs** _(influenced by DBC and/or across other teams)_:
+
 - Average days of claim (ADC) for VA.gov-submitted BDD claims (Baseline: 43 days, Target: 30 days)
-- Supporting Evidence flow completion rate for BDD users
-- Time spent on SHA Part A upload step of the form
-- Abandonment rate at point of SHA Part A upload
+- Page conversion rates within Supporting Evidence section for BDD users
 - CTR on "Learn more about SHA Part A" link
 
 ### Baseline KPIs
 
-- Current percentage of BDD claims that included a DBQ upload at submission: **TBD** (can only get a rough estimate)
-- From [BDD Data Discovery — Current digital experiences of filling out the 526EZ](https://dsva.slack.com/docs/T03FECE8V/F0ACY4C3138):
-  - Percentage of BDD users who engage with the Additional evidence upload page: **27%**
-  - Overall Supporting Evidence flow completion rate for BDD users: **95.5%**
-  - CTR of "learn more about SHA Part A" link: **11.24%**
-- Current ADC for BDD claims: **43 days** (per VBA OBA; Tableau shows 37.24 days as of Nov 2025)
+- Current percentage of VA.gov submissions that included a DBQ upload (SHA or other) at submission: **Estimated at 6%**
+  - N = 216k total successful submissions through primary path, between 1/1/26 - 4/2/26
+- Percentage of BDD users who view the Additional evidence upload page: **27%**
+- Total VA.gov BDD Submissions (primary path) in FY2025: **18,072**
+  - Average ~ **1,500 per month**
 - Total BDD claims across _all intake channels_ in FY2025: **52,620**
+- Current ADC for BDD claims: **43 days** (per VBA OBA; Tableau shows 37.24 days as of Nov 2025)
+
+Other metrics to note:
+
+- Overall Supporting Evidence flow completion rate for BDD users: **95.5%**
+- CTR of "learn more about SHA Part A" link: **11.24%**
+
+Resources:
+
+- [DataDog](https://vagov.ddog-gov.com/dashboard/z9b-mdx-e8r/benefits-disability-bdd?fromUser=false&offset=0&refresh_mode=yearly&from_ts=1767254400024&to_ts=1770230567246&live=true)
+- [BDD Data Discovery — Current digital experiences of filling out the 526EZ](https://dsva.slack.com/docs/T03FECE8V/F0ACY4C3138)
 
 ### Objectives and Key Results (OKRs)
 
 **Objective:** Reduce processing time for BDD claims submitted via VA.gov
 
 **Key Results:**
-- Increase percentage of VA.gov BDD submissions with SHA Part A from [rough DBQ baseline TBD] to TBD% by 26FYQ3
-- Increase percentage of BDD users who engage with the SHA flow (e.g., learn more about the SHA, engage with the evidence upload screen) from 27% to 100% by 26FYQ3
+
+- Increase percentage of BDD users who view a SHA upload step) from 27% to 100% by 26FYQ3
+- Increase percentage of VA.gov submissions with an uploaded SHA from roughly 6% to 20% by 26FYQ3
+- Increase in average monthly VA.gov BDD Submissions (primary path) from 1,500 to 1,875 (25%) by 26FYQ3 – contingent on VBA enforcing the mandate to have all BDD claims submitted digitally.
 
 ---
 
@@ -109,6 +121,7 @@ Based on alignment with VBA stakeholders:
 
 - Changing the logic that determines how to classify 526 submissions as a BDD vs. Standard or FDC claim in the payload sent to Lighthouse.
 - Document validation/verification of the SHA Part A form — this potentially requires integration of the Form Upload Tool's functionality, which expands testing scope and adds risk to the already tight development timeline.
+- Changing the existing attachment ID used to categorize file uploads as a SHA Part A (L702)
 
 ### Fast-Follow Considerations
 
@@ -122,32 +135,33 @@ Based on alignment with VBA stakeholders:
 
 ### Mobile App
 
-No changes required; the mobile app currently directs users to the web experience for the 526EZ form. *(needs verification)*
+No changes required; the mobile app currently directs users to the web experience for the 526EZ form. _(needs verification)_
 
 ---
 
 ## Proposed User Flow
 
-See output of [#132386 – Explore user flows and impact of requiring SHA Part A upload for BDD users](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132386)
+[Figma link](https://www.figma.com/design/NKvgRtawaEMwXAYl47z49I/526---BDD-SHA-Part-A-Upload?node-id=6174-5719&t=1Ggp9o8RpJExMgpC-4)
 
 ## Proposed IPF Strategy
 
-See output of [#132639 — BDD SHA IPF Strategy Discovery](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132639)
+[Figma link](https://www.figma.com/design/NKvgRtawaEMwXAYl47z49I/526---BDD-SHA-Part-A-Upload?node-id=6083-16400&t=SrjydClDJHInmALa-4)
 
 ## Implementation Approach
 
 See [Technical Planning](https://github.com/department-of-veterans-affairs/va.gov-team/blob/product_outline_bdd-sha-workflow/products/disability/526ez/Initiatives/bdd-sha-workflow/technical-planning.md) for high level approach
-TBD: Link to Implementation Strategy in Release Plan
 
 ---
 
 ## Launch Strategy
 
 **How will Veterans and others know this exists?**
+
 - Content and front-end updates on the 526EZ BDD flow
 - Coordination with VBA for broader comms
 
 **Marketing/outreach needed:**
+
 - Update the 526 Product Guide
 - Coordinate with VBA for broader comms
 
@@ -157,11 +171,11 @@ TBD: Link to Release Plan (with staged rollout strategy) once drafted
 
 ### Launch Dates
 
-| Milestone | Date |
-|---|---|
+| Milestone          | Date           |
+| ------------------ | -------------- |
 | Target Launch Date | April 20, 2026 |
-| Actual Launch Date | TBD |
-| Impact Review | TBD |
+| Actual Launch Date | TBD            |
+| Impact Review      | TBD            |
 
 ---
 
@@ -170,7 +184,9 @@ TBD: Link to Release Plan (with staged rollout strategy) once drafted
 **Current Status:** Planning, scoping, and discovery
 
 **Key Decisions:**
+
 - MVP scope will be limited to frontend changes
+- Other key MVP decisions are documented in the [Super Epic](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125577)
 
 ---
 
@@ -181,11 +197,11 @@ TBD: Link to Release Plan (with staged rollout strategy) once drafted
 
 ### Team Members
 
-| Role | Name |
-|---|---|
-| DEPO Leads | Emily Theis, Liz Lantz, Cory Sohrakoff |
-| PM | Eryn Sobing |
-| Engineering | Daniel Vu, Oren Mittman |
+| Role            | Name                       |
+| --------------- | -------------------------- |
+| DEPO Leads      | Liz Lantz, Cory Sohrakoff  |
+| PM              | Eryn Sobing                |
+| Engineering     | Daniel Vu, Oren Mittman    |
 | Research/Design | Irene Vailikit, Kevin Shih |
 
 ### Stakeholders

@@ -213,14 +213,15 @@ Wait for participant's verbal consent.
 I'd like to confirm, what kind of device are you using today (desktop, mobile, tablet)? 
 
 Great! I'm pasting the link and a password to the site in the chat. You can find that in the row of buttons at the bottom, under the chat icon: 
+
+_Share link and password as **two separate messages** in chat. This will enable the user to copy-paste the password easily._
+
 - Veteran flow:
   - https://chisel-pear-20681620.figma.site/scenario1
-  - Password: champva-test89124
+  - champva-test89124
 - Spouse/dependent flow:
   - https://chisel-pear-20681620.figma.site/scenario1-nonveteran
-  - Password: champva-test89124
-
-_Share link in chat of appropriate prototype_
+  - champva-test89124
 
 Please open this link and share your screen (phone) or web browser (desktop). Let me know if you need any help. 
 

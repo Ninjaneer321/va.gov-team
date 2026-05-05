@@ -17,7 +17,7 @@ Epics don't need story points. Make sure to add:
 ## Refinement and Planning
 The team meets regularly to break down work and plan for the next sprint:
 - Review high-level priorities and notes any changes.
-- Review through board right to left and discusses any challenges with in-progress work or validation. Adjust sprint labels as needed to accommodate shifting priorities.
+- Review through board right to left and discusses any challenges with in-progress work, validation, and blockers. Adjust sprint labels as needed to accommodate shifting priorities.
 - Refine any tix with the `needs-refinement` label:
     - If you created a ticket you want the team to review add the `needs-refinement` label
     - Discuss with the team and add details or break down into smaller tickets if needed

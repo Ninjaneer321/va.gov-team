@@ -1,14 +1,19 @@
 
 # GA events in authenticated experience team owned code
 
-- [Summary](#summary)
-- [API Call Events](#api-call-events)
-- [Other Events](#other-events)
-- [My VA Events](#my-va-events)
-- [Profile Events](#profile-events)
-- [View Dependents Events](#view-dependents-events)
-- [Platform shared code events](#platform-level-code-that-authenticated-experience-owns)
-- [Conclusion/Takeaways](#takeaways)
+- [GA events in authenticated experience team owned code](#ga-events-in-authenticated-experience-team-owned-code)
+  - [Summary](#summary)
+  - [API Call events:](#api-call-events)
+  - [Other Events](#other-events)
+  - [My VA Events](#my-va-events)
+  - [Profile Events](#profile-events)
+    - [2025-10 through 2026-03 addendum for Profile 2.0](#2025-10-through-2026-03-addendum-for-profile-20)
+      - [`src/applications/personalization/profile/components/ProfileSubNav.jsx`](#srcapplicationspersonalizationprofilecomponentsprofilesubnavjsx)
+      - [`src/platform/user/profile/vap-svc/components/ProfileInformationFieldController.jsx`](#srcplatformuserprofilevap-svccomponentsprofileinformationfieldcontrollerjsx)
+      - [Scheduling preferences flows](#scheduling-preferences-flows)
+  - [View Dependents Events](#view-dependents-events)
+  - [Platform level code that authenticated experience owns](#platform-level-code-that-authenticated-experience-owns)
+  - [Takeaways](#takeaways)
 
 ## Summary
 - 257 references to `recordEvent` across the applications and platform code
@@ -17,7 +22,7 @@
 	- Example: `src/applications/personalization/dashboard/helpers.jsx` includes a `recordDashboardClick` helper function that does this kind of abstraction
 - *IMPORTANT*: there are is additional code within `src/platform/user/profile` of vets website that we also own. This is where 36 of the references to `recordEvent` calls are located, and they are [documented at the end of this document here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/engineering-docs/GA_Events_Inventory.md#platform-level-code-that-authenticated-experience-owns)
 - Also note this is not exhaustive and I may have missed some calls as this is based on a best guess of where all this code is called, and really picking through things one file at a time may need to be done to fully cover any instances that are unique
-  - One example of where this _might_ happen is if the `recordEvent` is imported as a different name, because well its a 'default export' from it's file so it can actually be imported as any name unfortunately. This is one reason that I personally try to avoid using default exports, and instead try to stick to named exports so that imports are explicitly referenced as such names.  
+  - One example of where this _might_ happen is if the `recordEvent` is imported as a different name, because well its a 'default export' from it's file so it can actually be imported as any name unfortunately. This is one reason that I personally try to avoid using default exports, and instead try to stick to named exports so that imports are explicitly referenced as such names.
 
 ## API Call events:
 
@@ -322,6 +327,41 @@ src/applications/personalization/dashboard/components/benefit-application-drafts
 ---
 ## Profile Events
 
+### 2025-10 through 2026-03 addendum for Profile 2.0
+
+The entries below predate the main Profile 2.0 navigation refresh. For current Profile behavior, also check the following locations that were updated during the October 2025 through March 2026 rollout:
+
+#### `src/applications/personalization/profile/components/ProfileSubNav.jsx`
+
+```js
+recordEvent({
+  event: 'nav-sidenav',
+  'sidenav-click-label': e.target.label,
+  'sidenav-click-url': e.target.href,
+});
+```
+
+Notes:
+
+- This event tracks Profile 2.0 sidenav interactions.
+- It applies to both top-level sidenav items and submenu children.
+
+#### `src/platform/user/profile/vap-svc/components/ProfileInformationFieldController.jsx`
+
+This shared controller contains several `profile-navigation` events used by Profile edit, cancel, and remove flows.
+
+This became more important during the Scheduling preferences rollout because complex Health care settings flows can hand the user off into shared edit experiences instead of staying on a single page.
+
+#### Scheduling preferences flows
+
+Also review:
+
+- `src/applications/personalization/profile/components/health-care-settings/SchedulingPreferencesContent.jsx`
+- `src/applications/personalization/profile/components/health-care-settings/sub-tasks/PreferenceSelectionContainer.jsx`
+- `src/applications/personalization/profile/components/health-care-settings/sub-tasks/contact-method/pages/ContactMethodConfirm.jsx`
+
+These files participate in the current Scheduling preferences flow, but some user actions still emit analytics from the shared VAP service controller above rather than from page-local code.
+
 src/applications/personalization/profile/components/account-security/AccountSecurityTables.jsx
 
 ```
@@ -427,7 +467,6 @@ const eventPayload = {
 	'checkbox-group-required': '-',
 };
 recordEvent(eventPayload);
-
 
 // this event will be removed as soon as deprecated code is removed and radio buttons are removed
 recordEvent({
@@ -568,7 +607,7 @@ src/platform/user/profile/vap-svc/actions/transactions.js
             'profile-section': analyticsSectionName,
             'error-key': `${errorCode}_${errorKey}-${analyticsSectionName}-save-failure`,
           });
-          
+
           recordEvent({
             'error-key': undefined,
           });
@@ -606,7 +645,7 @@ src/platform/user/profile/vap-svc/actions/transactions.js
       'profile-section': analyticsSectionName,
       'profile-addressSuggestionUsed': 'no',
     });
-    
+
     recordEvent({
       event: 'profile-edit-failure',
       'profile-action': 'address-suggestion-failure',
@@ -684,7 +723,6 @@ src/platform/user/profile/vap-svc/components/ProfileInformationFieldController.j
       'profile-section': this.props.analyticsSectionName,
     });
   };
-  
 
   handleDeleteInitiated = () => {
     recordEvent({
@@ -755,7 +793,7 @@ src/platform/user/profile/vap-svc/containers/VAPServiceProfileField.jsx
 My VA product has only these two events:
 - `dashboard-navigation`
 - `nav-linkslist`
-  
+
 Profile has these events:
 - Some events that could be migrated to the standard api-call event:
 	- `profile-get-connected-apps-started` and similar prefixed -retrieved and -failed
@@ -777,4 +815,3 @@ Platform based code events
 - `profile-saved`
 - `profile-edit-failure`
 - these are a bit messier because they have lots of conditional bits that get added to the events to track where the event is occuring and what was happening during that event (cancel button clicked, address validation confirmed, deleted a field, etc) not sure the best way to move these to something more standard
-

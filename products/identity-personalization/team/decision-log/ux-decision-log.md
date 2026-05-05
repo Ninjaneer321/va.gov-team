@@ -20,7 +20,20 @@
 - Headers were updated to be more specific and actionable with C&IA team after recieving feedback.
 - [Link to Design intent ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109779)
 
+#### 04/22/2026 Direction on naming convention for sections on My VA 
+- During FE+Design sync content team recemmended changing claims and appeals to claims and applications and form and applications to be changed to forms.
+- Verbal confirmation in team meeting
+
+
 ### Forms and applications
+#### 04/22/2026 Direction on copy for PDF download button
+- Content team recemmendted goin with the orginal copy for the download button. It was stated by content that users don't need to know that we have created a PDF on the back end because the end result is that they are going to be downloading a PDF of their form.  
+- [Link to conversation](https://dsva.slack.com/archives/C909ZG2BB/p1776878101111469?thread_ts=1776449921.679149&cid=C909ZG2BB)
+
+#### 04/17/2026 Updating Forms and Applications Download Link back to a Button 
+- Using the link component for the PDF download uses too much CPU and made the API end points timeout for some users therefore making the use of a link not appropriate for the PDF download.  
+- [Link to conversation](https://oddball.slack.com/archives/C089URK0LQG/p1776703563677079?thread_ts=1776368290.792159&cid=C089URK0LQG)
+
 #### 03/20/2026 Two alerts in ACTION NEEDED card is okay
 - Met with VADS team and confirmed that including two alerts in the ACTION NEEDED card is ok because:
    - Alerts in close proximity are allowed in some use cases.
@@ -41,6 +54,7 @@
 #### 07/08/2025 Naming convention for form and application cards for cards that are not in SiP
 - Content team approved using the form number as a title in the Forms and applications cards when no name is available from SiP. This is to support efforts with allowing uploaded forms onto My VA.
 - [Link to conversation](https://dsva.slack.com/archives/C01K37HRUAH/p1751978322068579)
+
 
 ---
 

@@ -64,6 +64,28 @@ steps:
       node --version || echo "Node.js not available"
       npm --version || echo "npm not available"
       
+  - name: Validate knowledge graph availability
+    run: |
+      echo "=== Knowledge Graph Check ==="
+      if [ -f ".github/knowledge-graph.json" ]; then
+        echo "✅ .github/knowledge-graph.json found"
+        node -e "
+          const kg = require('./.github/knowledge-graph.json');
+          console.log('  Nodes:', kg.statistics.total_nodes);
+          console.log('  Edges:', kg.statistics.total_edges);
+          console.log('  Node types:', Object.keys(kg.statistics.nodes_by_type).join(', '));
+          console.log('  Relationship types:', Object.keys(kg.statistics.edges_by_relationship).join(', '));
+          console.log('✅ Knowledge graph parsed successfully');
+          console.log('');
+          console.log('ℹ️  Note: Research directories are scanned at any nesting level');
+          console.log('   Standard paths: products/*/research/, products/*/user research/');
+          console.log('   Non-standard paths: products/*/design/User research/, etc.');
+        " || echo "⚠️ .github/knowledge-graph.json exists but could not be parsed"
+      else
+        echo "⚠️ .github/knowledge-graph.json not found in current checkout"
+        echo "   Add '.github/knowledge-graph.json' to sparse-checkout to enable knowledge graph queries"
+      fi
+
   - name: Verify required directories
     run: |
       echo "Checking for required directories in sparse checkout:"
@@ -74,3 +96,51 @@ steps:
           echo "⚠️ $dir - not available in current checkout"
         fi
       done
+      # Also check knowledge graph
+      if [ -f ".github/knowledge-graph.json" ]; then
+        echo "✅ .github/knowledge-graph.json - available"
+      else
+        echo "⚠️ .github/knowledge-graph.json - not available"
+      fi
+
+  - name: Validate research directory access
+    run: |
+      echo "=== Research Directory Check ==="
+      echo "Checking for common research directories..."
+      found_research=0
+      
+      # Check for various research directory patterns
+      for pattern in "products/*/research" "products/*/design/User research" "products/*/design/User Research"; do
+        if find . -type d -path "./$pattern" 2>/dev/null | head -1 | grep -q .; then
+          echo "✅ Found research directories matching: $pattern"
+          found_research=1
+        fi
+      done
+      
+      if [ $found_research -eq 0 ]; then
+        echo "⚠️ No research directories found in current checkout"
+        echo "   Add research directories to sparse-checkout to enable research queries"
+      fi
+      
+      echo ""
+      echo "💡 Research Query Guidelines:"
+      echo "- NEVER fabricate research study entries"
+      echo "- ALWAYS search directories before claiming research exists"
+      echo "- Use lexical-code-search or semantic-code-search to find actual files"
+      echo "- Only reference file paths from search tool responses"
+
+  - name: Research query integrity check
+    run: |
+      echo "=== Research Data Integrity Validation ==="
+      echo ""
+      echo "When responding to research queries, GitHub Copilot MUST:"
+      echo "✅ Search repository before making claims about research"
+      echo "✅ Use actual file paths from search results only"
+      echo "✅ Explicitly state 'searching now' before tool calls"
+      echo "✅ Present only data from tool responses"
+      echo ""
+      echo "❌ NEVER fabricate research study entries"
+      echo "❌ NEVER create placeholder data"
+      echo "❌ NEVER use list blocks without tool data"
+      echo "❌ NEVER invent file paths or URLs"
+      echo ""

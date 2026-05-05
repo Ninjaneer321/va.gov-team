@@ -1,6 +1,6 @@
 # Auth Experience team feature toggle guide
 
-Last updated: Jun 12, 2024
+Last updated: April 2, 2026
 
 - [Auth Experience team feature toggle guide](#auth-experience-team-feature-toggle-guide)
   - [Overview](#overview)
@@ -40,3 +40,18 @@ Last updated: Jun 12, 2024
   - Each of these steps will be a ticket created by your PM/PO.
 - Once the feature is entirely on, the developer can remove the feature toggle. Removing the toggle will also include removing old tests and code no longer needed.
 
+## Feature toggle list - status
+
+This is not a complete list of every historical Authenticated Experience toggle, but it captures the Profile toggles that materially shape the current Profile 2.0 experience and therefore should be considered when testing or documenting Profile behavior.
+
+| Toggle | Purpose | Notes |
+| --- | --- | --- |
+| `profile_2_enabled` | Enables the Profile 2.0 information architecture and navigation patterns | Controls the hub-first Profile 2.0 experience, nested sidenav, tier 2 landing pages, breadcrumbs, and several route expectations |
+| `profile_health_care_settings_page` | Enables the Health care settings parent page | Gates the Health care settings section and related child-page organization |
+| `profile_hide_health_care_contacts` | Hides the personal health care contacts page from Profile | Used with the Health care settings page to suppress the contacts child page in nav and hub descriptions |
+
+### Testing notes for current Profile 2.0 work
+
+- When a feature changes route structure or parent-child page relationships, test both direct navigation and hub/sidenav navigation.
+- When a feature changes hub card descriptions or sidenav contents, verify both the visible UI and the underlying analytics payloads.
+- When a feature depends on user eligibility and feature flags, document both conditions. Scheduling preferences is a good example because it is controlled by both pilot eligibility and surrounding Profile navigation state.

@@ -28,15 +28,35 @@
     1. If they have the public version, this will install over it
 
 
+## Feature flag
+
+Some of the latest updates are behind feature flags, and you'll need to turn them on.
+
+1. Enter Demo Mode
+    * Tap the VA logo 7 times until the password field appears.
+    * Password: Zhuzh-it
+    * Tap Sign In to enter Demo mode.
+
+2. Locate the Feature Flag
+    * Navigate to: Profile > Settings > Developer Screen.
+    * Scroll down to the Firebase section (located just below the first set of blue buttons).
+    * Tap Remote Config.
+      > Note: Do not tap the "Remote Config Test" blue button.
+    * Toggle on the specific feature flag.
+    * Confirm changes: Apply (upper right) or Apply Overrides (bottom).
+
+3. Sign Out _(applying the overrides may log you out of Demo mode)_
+    * If you need to sign in with different credentials to test the feature, go to: 
+  Home > Profile > Settings > Sign Out.
+
+
 ## Clean-up
 
-
-
-1. Reinstall public version of VA app
-    1. Go to app store - downloading the public version will install over the beta version
+1. Uninstall test build of VA app
 2. Uninstall TestFlight
-3. Log into VA app
-4. (if relevant) Turn notifications back on
+3. Reinstall public version of VA app
+4. Log into VA app
+5. (if relevant) Turn notifications back on
 
 
 ## Notes
@@ -47,8 +67,9 @@
 * The pre-release version of the app will replace the standard version
 * Make sure they do not close any apps as they’re switching between them
 * If anyone is using two devices on the Zoom call:
-    * When joining on phone, on the screen with the Join button, tap the speaker icon in upper right, select No audio. This will disable speaker and microphone; otherwise you’re not able to lower the volume all the way down once you’re in the call.
-    * On their other device, set microphone and speaker as normal.
+    * We want to disable speaker and microphone on phone; otherwise you'll always hear an echo even with the volume all the way down.
+    * On the screen with the Join button, tap the speaker icon in upper right, select No audio.
+    * If they're already on the call: tap the speaker icon at top right of screen to select "disconnect my audio."
 * Technical pre-requisites for participants (for both iOS and Android)
     * **VA Credentials:** You have a username & password for ID.me or Login.gov and can access your two-factor authentication (text code or app).
     * _[Android only]_ **Email Access:** You can open your email directly on your mobile phone to click the test link.

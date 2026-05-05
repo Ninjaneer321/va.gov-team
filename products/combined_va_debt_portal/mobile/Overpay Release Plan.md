@@ -28,25 +28,36 @@ Before enabling your feature toggle in production, you'll need to:
 
 ## **Define the Rollback process** 
 
-* Developer, Product Manager, and OCTO representative will monitor analytics and logging at each rollout phase. These individuals will coordinate with the Debt Management Center (DMC) to ensure the Overpayment API keeps up with the volume of requests.   
-* If there is a significant increase in overpayment API errors or unexpected behavior, the team will disable the feature flag for all users. 
+* Matt Guest and Natalie Gibbons will monitor analytics and logging at each rollout phase and loop in the Financial Management team. Denise Coveyduc will be responsible for coordinating with the Debt Management Center (DMC) to ensure the Overpayment API keeps up with the volume of requests.
+* The MFS team will coordinate with the VA Mobile App Tech Lead, Jon Bindbeutel, to move to the next release phases or roll back the feature on the VAHB app, as the Mobile App team is the only authorized team to make those adjustments. 
+* If there is a significant increase in overpayment API errors or unexpected behavior, the team will disable the feature flag for all users if the success criteria is not met. These conditions include:
+  * Rollback if the success rate drops below 99% during the review window
+  * Rollback if failure rate exceeds 1%
+  * Rollback if latency exceeds the agreed threshold
+  * Rollback immediately if there’s a severe user-facing issue
 
 ### **Phase I: moderated production testing (also known as User Acceptance Testing, or UAT)**
 
 #### **Planning**
 
-1. Working with Denise Coveyduc on finding Veterans to test in Test Flight.  
-2. Work with the VA Mobile App Lead, Jon Bindbeutel to create a UAT group with the Veterans' emails within Test Flight.  
-3. Testers will need to install Test Flight, select “**insert build name**” and toggle on the “**insert name**” remote configuration.
-4. UAT testing is scheduled from **insert dates once confirmed**
-5. Refer to our **insert UAT AC documentation** 
+1. Working with Denise Coveyduc on finding Veterans to test in production builds for TestFlight (iOS) or Firebase App Tester (Android).  
+2. Work with the VA Mobile App Lead, Jon Bindbeutel to create a UAT group with the Veterans' emails within TestFlight (iOS) or Firebase App Tester (Android).  
+3. iOS testers will need to install Test Flight, build #3718 (Version 2.71.1) and toggle on the “overpayments” remote configuration.
+4. Android testers will need to install Firebase App Tester, select build #3460 (Version 2.71.0) and toggle on the "overpayments" remote configuration. 
+5. The MFS team worked with Perigean to find participants for UAT testing. These sessions are scheduled from Monday, April 13th - Friday, April 17th. Testing for the empty state was conducted Monday, April 6th and Tuesday, April 7th. 
+6. Refer to our [UAT documentation](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/combined_va_debt_portal/mobile/uat-overpayment) to find more details on documentation and recruitment criteria.
 
 #### **Results**
 
-* Number of users:   
-* Number of bugs identified/fixed:   
-* Was any downstream service affected by the change?:   
-* Any changes necessary based on the logs, feedback on user challenges, or VA challenges? 
+* Number of users:
+  * 6 completed sessions with Veterans that had overpayments (2 on Android and 4 on iOS)
+  * 2 completed sessions with Veterans who do not have overpayments (1 on Android and 1 on iOS)
+* Number of bugs identified/fixed: Two nice-to-have bugs were identified.
+  * Copying the balance adds an extra "$" on the payment website
+  * Slight spacing issue between overpayment card and accordion when benefits are offset 
+* Was any downstream service affected by the change? No
+* Any changes necessary based on the logs, feedback on user challenges, or VA challenges? No.
+  * We did hear consistent feedback that the Last updated date was confusing and not helpful. MFS will work with the FM team to determine whether adding Transaction History will provide clarity or whether we should consider removing it from our designs at a future point in time.   
 
 ### **Phase II: Staged Rollout (also known as unmoderated production testing)**
 
@@ -55,16 +66,16 @@ We recommend that the rollout plan has five stages, each increasing the number o
 #### **Rollout Planning**
 
 * Desired date range: **May 19, 2026 \- May 26, 2026**  
-  * **Note**: For the mobile release to occur on February 24, 2026 all work needs to be finalized by the release branch of **February 11, 2026\.**  
+  * **Note**: For the mobile release to occur on May 19th, 2026 all work needs to be finalized by the release branch of **May 6th, 2026\.**  
 * How will you make the product available in production while limiting the number of users who can find/access it:   
   * We will be turning on the feature flag for a small percentage of users and increasing every few days as long if metrics meet our success criteria.   
   * We will plan to check the metrics around 10:00am ET and then determine to increase at that time, so that the MFS and FM team can immediately identify any issues.   
-* **What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")**?: **Work in Progress**  
-  * Debts Controller Latency (measure of time for when the debts came through and when they are able to respond) \- Want this less than 2 seconds within a given 24-hour period.   
-  * DMC Get Debts Endpoint Success (Mobile equivalent): Needs to be created
-  * DMC Get Debts Endpoint Failure (Mobile equivalent): Needs to be created   
-    * We will track counts of success and failure and will define 
-* Who is monitoring the dashboard(s)?: Natalie Gibbons, Dave Formanek, and FM Management Team BE 
+* **What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")**?: 
+  * Debts controller latency (measure of time for when the debts come through and when they are able to respond): Average latency under 2 seconds over the last 24 hours
+  * DMC Get Debts Endpoint Success (Mobile equivalent) %: 99% or better
+  * DMC Get Debts Endpoint Failure (Mobile equivalent) %: Less than 1%
+  * **Note**: When we review success/failure %, we should also look at the total request volume behind those numbers. That gives us better context, since early in rollout, a small amount of traffic can make those percentages look noisier than the actual trend.
+* Who is monitoring the dashboard(s)?: Natalie Gibbons, Matt Guest, and FM Management Team BE 
 
 ### **Stage A: Canary**
 
@@ -77,7 +88,10 @@ We recommend that the rollout plan has five stages, each increasing the number o
 
 * Number of unique users: \[FILL\_IN\]  
 * Metrics at this stage (per your "success criteria"):  
-  * Update once finalized  
+  * Debts controller latency index(measure of time for when the debts come through and when they are able to respond): 
+  * DMC Get Debts Endpoint Success (Mobile equivalent) %: 
+  * DMC Get Debts Endpoint Failure (Mobile equivalent) %:
+  * **Note**: When we review success/failure %, we should also look at the total request volume behind those numbers. That gives us better context, since early in rollout, a small amount of traffic can make those percentages look noisier than the actual trend. 
 * Was any downstream service affected by the change?:   
 * Types of errors logged:   
 * What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? 
@@ -93,7 +107,10 @@ We recommend that the rollout plan has five stages, each increasing the number o
 
 * Number of unique users: \[FILL\_IN\]  
 * Metrics at this stage (per your "success criteria"):  
-  * Update once finalized  
+  * Debts controller latency index(measure of time for when the debts come through and when they are able to respond): 
+  * DMC Get Debts Endpoint Success (Mobile equivalent) %: 
+  * DMC Get Debts Endpoint Failure (Mobile equivalent) %:
+  * **Note**: When we review success/failure %, we should also look at the total request volume behind those numbers. That gives us better context, since early in rollout, a small amount of traffic can make those percentages look noisier than the actual trend.  
 * Was any downstream service affected by the change?:   
 * Types of errors logged:   
 * What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? 
@@ -109,7 +126,10 @@ We recommend that the rollout plan has five stages, each increasing the number o
 
 * Number of unique users: \[FILL\_IN\]  
 * Metrics at this stage (per your "success criteria"):  
-  * Update once finalized  
+  * Debts controller latency index(measure of time for when the debts come through and when they are able to respond): 
+  * DMC Get Debts Endpoint Success (Mobile equivalent) %: 
+  * DMC Get Debts Endpoint Failure (Mobile equivalent) %:
+  * **Note**: When we review success/failure %, we should also look at the total request volume behind those numbers. That gives us better context, since early in rollout, a small amount of traffic can make those percentages look noisier than the actual trend.   
 * Was any downstream service affected by the change?:   
 * Types of errors logged:  
 * What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? 
@@ -125,7 +145,9 @@ We recommend that the rollout plan has five stages, each increasing the number o
 
 * Number of unique users: \[FILL\_IN\]  
 * Metrics at this stage (per your "success criteria"):  
-  * Update once finalized  
+  * Debts controller latency index(measure of time for when the debts come through and when they are able to respond): 
+  * DMC Get Debts Endpoint Success (Mobile equivalent) %: 
+  * DMC Get Debts Endpoint Failure (Mobile equivalent) %:  
 * Was any downstream service affected by the change?:   
 * Types of errors logged:   
 * What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? 
@@ -141,7 +163,9 @@ We recommend that the rollout plan has five stages, each increasing the number o
 
 * Number of unique users: \[FILL\_IN\]  
 * Metrics at this stage (per your "success criteria"):  
-  * Update once finalized  
+  * Debts controller latency index(measure of time for when the debts come through and when they are able to respond): 
+  * DMC Get Debts Endpoint Success (Mobile equivalent) %: 
+  * DMC Get Debts Endpoint Failure (Mobile equivalent) %:    
 * Was any downstream service affected by the change?:   
 * Types of errors logged:   
 * What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? 
@@ -154,27 +178,15 @@ Continue to check in on the KPIs of your feature at periodic intervals to ensure
 
 ### **1-week results post 100% rollout**
 
-* Number of page views: \[FILL\_IN\]  
-* Percentage of CONFIRMED users : \[FILL\_IN\]  
-* Percentage of NOT CONFIRMED users : \[FILL\_IN\]  
-* Percentage breakdown of NOT CONFIRMED status reasons : \[FILL\_IN\]  
-* Percentage breakdown of API response codes : \[FILL\_IN\]  
-* Any issues with VA handling/processing?: \[PICK\_ONE\]: yes | no | N/A  
-* Types of errors logged: \[FILL\_IN\]  
-* Any changes necessary based on the logs, feedback on user challenges, or VA challenges? \[PICK\_ONE\]: yes | no | N/A  
-* If yes, what: \[FILL\_IN\]
+  * Debts controller latency index(measure of time for when the debts come through and when they are able to respond): 
+  * DMC Get Debts Endpoint Success (Mobile equivalent) %: 
+  * DMC Get Debts Endpoint Failure (Mobile equivalent) %: 
 
 ### **1-month results post 100% rollout**
 
-* Number of page views: \[FILL\_IN\]  
-* Percentage of CONFIRMED users : \[FILL\_IN\]  
-* Percentage of NOT CONFIRMED users : \[FILL\_IN\]  
-* Percentage breakdown of NOT CONFIRMED status reasons : \[FILL\_IN\]  
-* Percentage breakdown of API response codes : \[FILL\_IN\]  
-* Any issues with VA handling/processing?: \[PICK\_ONE\]: yes | no | N/A  
-* Types of errors logged: \[FILL\_IN\]  
-* Any UX changes necessary based on the logs, feedback on user challenges, or VA challenges? \[PICK\_ONE\]: yes | no | N/A  
-* If yes, what: \[FILL\_IN\]
+  * Debts controller latency index(measure of time for when the debts come through and when they are able to respond): 
+  * DMC Get Debts Endpoint Success (Mobile equivalent) %: 
+  * DMC Get Debts Endpoint Failure (Mobile equivalent) %: 
 
 ## **Post-launch Questions**
 

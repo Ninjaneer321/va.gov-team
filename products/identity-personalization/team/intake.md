@@ -1,5 +1,51 @@
 # Authenticated Experience Team Intake Process
 
+## Start here
+Before you submit an intake ticket, we want to make sure you’re in the right place.
+
+## Who we are
+The Authenticated Experience Team has two main products: My VA and VA.gov Profile.
+
+- My VA is a dashboard that surfaces relevant, actionable, time sensitive information to users about their VA benefits.
+- VA.gov Profile is the frontend used to allow users to view and update their important information.
+
+We also have two smaller products, Nametag and the Authenticated Menu.
+
+## Who we are not
+- We’re not the VA Profile API team, which is the team that manages the backend system that manages most profile information.
+- We’re not My HealtheVet as our products support many different benefits, not exclusively health care.
+
+## Implementation documentation 
+Before submitting a request, review the relevant documentation below. These resources include required guidance, standards, and checklists for implementation. 
+
+### For My VA
+- [My VA design and content standards](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/UX/my-va-design-content-standards.md)
+- [Forms and applications integration checklist](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/forms-integrations-checklist.md)
+
+### For Profile
+- [VA.gov profile design and content standards](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/UX/profile-design-content-standards.md)
+- [Email and text notifications integration checklist](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/email-and-text-notificaitons-checklist.md)
+
+## How to work with us
+To help us review your request and move it forward efficiently, follow these steps: 
+
+1. **Review implementation documentation.** Understand how your request fits into our products.
+2. **Align with your product owner.** Your product owner must coordinate with the Authenticated Experience product owner (Denise Coveyduc) before work begins.
+3. **Submit an intake request.** [Complete the intake ticket so our team can review and guide your request.](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=auth-exp-request.yml)
+4. **Connect with our team.** Reach out in #accountexp-authexp for questions or coordination. Typical response time: 24–72 hours.
+
+Note: submitting an intake request does not guarantee implementation. Requests are reviewed to ensure alignment with existing product structure and UX standards. 
+
+### Collaboration cycle timing guidance
+- Intake should be submitted before Design Intent.
+- Submitting after Midpoint Review may result in delays or rework.
+- Once your work gets to Staging review, send to the team for QA review.
+
+
+<details><summary>Archive | Authenticated Experience Team Intake Process, 12/2025</summary>
+
+# Authenticated Experience Team Intake Process
+
 `Version 3.2` **Updated 12/2025:** Added UX governance for profile.
 
 
@@ -43,3 +89,5 @@ To get started:
 3. Reach out to team on the #accountexp-authexp Slack channel for next steps. The team typically responds within 24 - 72 hours.
 
 _Note: Ideally submitting an Intake Ticket should occur before Design Intent but should not occur after Midpoint Review. This allows the Authenticated Experience team time to provide support and knowledge to help reduce deployment timelines._
+
+</details>

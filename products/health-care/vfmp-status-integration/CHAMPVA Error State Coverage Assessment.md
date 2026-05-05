@@ -1,5 +1,9 @@
 # CHAMPVA Error State Coverage Assessment
-> This document covers both frontend (FE) and backend (BE) findings. FE owned by Stephen, BE owned by Brandon.
+> This document covers both frontend (FE) and backend (BE) findings. FE owned by Stephen Willis, BE owned by Brandon Reed.
+
+Type 1 versus Type 2 Error: 
+- Type 1 errors would appear to the user right away, and those would disappear if the user left and came back or refreshed their page.
+- Type 2 errors would appear after some time to the user, and that alert persists on the UI for 30 days.
 
 ## #1 — Full Page Load Failure
 
@@ -85,6 +89,8 @@ This one is partially covered generically but has a CHAMPVA-specific gap. Brando
 **What's needed:**
 - Brandon to confirm what the BE returns when ICN lookup fails for a CHAMPVA record specifically
 - If a distinct error code is returned, FE can render a CHAMPVA-specific message like: "We're unable to match your information to a CHAMPVA application. Please call us at 800-733-8387 (TTY: 711)."
+
+filespage.jsx lines 120-129 has a potential solution for this we can review!
 
 **Product question to flag:** Is a CHAMPVA-specific identity error message in scope for Release 1 or is the generic fallback acceptable for now?
 

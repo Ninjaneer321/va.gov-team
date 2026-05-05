@@ -21,9 +21,9 @@ Before enabling your feature toggle in production, you'll need to:
 
 - [x] Testing of all permutations of the feature flags. Confirm no regression in the send_email endpoint as well as correct push notifications sent. Test results documented in [#135336](https://github.com/department-of-veterans-affairs/va.gov-team/issues/135336)
 - [x] Confirm that logging has not changed and that existing Dashboards are working
-- [ ] Implement dashboard or add to existing dashboard to track sms notifications
+- [x] Implement dashboard or add to existing dashboard to track sms notifications
 - [x] Confirm production template is set in eventbus gateway config
-- [ ] Gather details for single user test
+- [x] Gather details for single user test
 - [ ] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
     - [x] review the plan with your DEPO/OCTO representative.
     - [x] review the release plan with your team.
@@ -39,8 +39,8 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 
 #### Planning
 
-- Desired date range or test duration: [TBD]
-- Desired number of users: 1
+- Desired date range or test duration: 4/7/26
+- Desired number of users: 1 (Lee Delarm)
 - How you'll recruit the right production test users: Seth Darr will identify a veteran who is willing to assist.
 - How you'll conduct the testing: We will manually trigger the Event Bus Gateway to send a POST request to vets-api with the recruit's participant ID.
 - How you'll give the test users access to the product in production w/o making it live on VA.gov: We will set the flags accordingly:
@@ -50,16 +50,16 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 | [event_bus_gateway_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_sms_notifications) | enabled |
 | [event_bus_gateway_letter_ready_sms_notifications](https://api.va.gov/flipper/features/event_bus_gateway_letter_ready_sms_notifications) | enabled for the recruit's icn |
 | [event_bus_gateway_retry_sms](https://api.va.gov/flipper/features/event_bus_gateway_retry_sms) | enabled |
-| [event_bus_gateway_sms_blackout](https://api.va.gov/flipper/features/event_bus_gateway_sms_blackout) | disabled |
+| [event_bus_gateway_sms_blackout](https://api.va.gov/flipper/features/event_bus_gateway_sms_blackout) | enabled (unless tested from 9pm-9am ET) |
 | [event_bus_gateway_sms_dry_run](https://api.va.gov/flipper/features/event_bus_gateway_sms_dry_run) | disabled |
  
 #### Results
 
-- Number of users: 
-- Number of bugs identified / fixed: 
-- Was any downstream service affected by the change?: 
-- Types of errors logged:   
-- Any changes necessary based on the logs, feedback on user challenges, or VA challenges?: 
+- Number of users: 1
+- Number of bugs identified / fixed: 0
+- Was any downstream service affected by the change?: No
+- Types of errors logged:   N/A
+- Any changes necessary based on the logs, feedback on user challenges, or VA challenges?: no
 - If yes, what: ___
 
 ### Phase II: Staged Rollout (also known as unmoderated production testing)
@@ -97,18 +97,18 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
 
 #### Results
 
-- Number of users: ___ sms notifications sent
-    - Turned on [TBD]
+- Number of users: 2%. 1,610 dry-run logs + 245 blackout period logs
+    - Turned on 4/15 - 4/21
 - Metrics at this stage (per your "success criteria"):
-    - [ ] SMS logs between 9pm ET - 9am ET show
-      - [ ] "LetterReadySmsJob blocked during SMS blackout period"
-    - [ ] SMS logs between 9am ET - 9pm ET show
-      - [ ] "LetterReadySmsJob dry run - SMS not sent"
-    - [ ] *NO* SMS logs/stats show
-      - [ ] "LetterReadySmsJob sms skipped" (reason: 'ICN not available')
-      - [ ] event_bus_gateway.letter_ready_sms.success metric
-- Was any downstream service affected by the change?: 
-- Types of errors logged:
+    - [x] SMS logs between 9pm ET - 9am ET show
+      - [x] "LetterReadySmsJob blocked during SMS blackout period"
+    - [x] SMS logs between 9am ET - 9pm ET show
+      - [x] "LetterReadySmsJob dry run - SMS not sent"
+    - [x] *NO* SMS logs/stats show
+      - [x] "LetterReadySmsJob sms skipped" (reason: 'ICN not available')
+      - [x] event_bus_gateway.letter_ready_sms.success metric
+- Was any downstream service affected by the change?: no
+- Types of errors logged: 0
 - What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?
 
 ### Stage A
@@ -134,7 +134,6 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - Turned on [TBD]
 - Metrics at this stage (per your "success criteria"):
     - [ ] DataDog errors < 5% (__% observed)
-    - [ ] 5.90% click through rate (TBD- click through may not be possible with SMS)
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
@@ -167,7 +166,6 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - Turned on [TBD]
 - Metrics at this stage (per your "success criteria"):
     - [ ] DataDog errors < 5% (__% observed)
-    - [ ] 5.90% click through rate (TBD- click through may not be possible with SMS)
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
@@ -200,7 +198,6 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - Turned on [TBD]
 - Metrics at this stage (per your "success criteria"):
     - [ ] DataDog errors < 5% (__% observed)
-    - [ ] 5.90% click through rate (TBD- click through may not be possible with SMS)
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
@@ -233,7 +230,6 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - Turned on [TBD]
 - Metrics at this stage (per your "success criteria"):
     - [ ] DataDog errors < 5% (__% observed)
-    - [ ] 5.90% click through rate (TBD- click through may not be possible with SMS)
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
@@ -266,7 +262,6 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - Turned on [TBD]
 - Metrics at this stage (per your "success criteria"):
     - [ ] DataDog errors < 5% (__% observed)
-    - [ ] 5.90% click through rate (TBD- click through may not be possible with SMS)
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error
@@ -299,7 +294,6 @@ Each phase/stage in the process is a task within the mini-epic [[Epic] Decision 
     - Turned on [TBD]
 - Metrics at this stage (per your "success criteria"):
     - [ ] DataDog errors < 5% (__% observed)
-    - [ ] 5.90% click through rate 
     - [ ] No increase in email sending errors 
         - flag on 7.54% initial email delivery error
         - previous week 7.62% initial email delivery error

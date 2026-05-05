@@ -1,0 +1,248 @@
+name: Duplicate Project Field Options
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  duplicate-field-options:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Duplicate field options from Project 1597 to Project 1959
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          ORG="department-of-veterans-affairs"
+          SOURCE_PROJECT_NUMBER=1597
+          SOURCE_FIELD_DATABASE_ID=257415921
+          TARGET_PROJECT_NUMBER=1959
+          TARGET_FIELD_NAME="product"
+
+          echo "============================================================"
+          echo "Duplicating field options"
+          echo "  Source: Project ${SOURCE_PROJECT_NUMBER} (field databaseId: ${SOURCE_FIELD_DATABASE_ID})"
+          echo "  Target: Project ${TARGET_PROJECT_NUMBER} (field: ${TARGET_FIELD_NAME})"
+          echo "  Organization: ${ORG}"
+          echo "============================================================"
+          echo ""
+
+          # ── Step 1: Get source project node ID and field node ID ─────────
+          echo "Step 1: Fetching source project and field info..."
+
+          SOURCE_PROJECT_DATA=$(gh api graphql -f query='
+            query($org: String!, $number: Int!) {
+              organization(login: $org) {
+                projectV2(number: $number) {
+                  id
+                  title
+                  fields(first: 100) {
+                    nodes {
+                      ... on ProjectV2SingleSelectField {
+                        id
+                        name
+                        databaseId
+                        options {
+                          id
+                          name
+                          color
+                          description
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ' -f org="$ORG" -F number="$SOURCE_PROJECT_NUMBER")
+
+          SOURCE_PROJECT_ID=$(echo "$SOURCE_PROJECT_DATA" | jq -r '.data.organization.projectV2.id')
+          SOURCE_PROJECT_TITLE=$(echo "$SOURCE_PROJECT_DATA" | jq -r '.data.organization.projectV2.title')
+
+          if [ -z "$SOURCE_PROJECT_ID" ] || [ "$SOURCE_PROJECT_ID" = "null" ]; then
+            echo "❌ Error: Could not find source project ${SOURCE_PROJECT_NUMBER}"
+            exit 1
+          fi
+
+          echo "✓ Source project: \"${SOURCE_PROJECT_TITLE}\" (ID: ${SOURCE_PROJECT_ID})"
+
+          # Find the field with databaseId matching SOURCE_FIELD_DATABASE_ID
+          SOURCE_FIELD_DATA=$(echo "$SOURCE_PROJECT_DATA" | jq -r \
+            --argjson dbid "$SOURCE_FIELD_DATABASE_ID" '
+            .data.organization.projectV2.fields.nodes[]
+            | select(.databaseId == $dbid)
+          ')
+
+          if [ -z "$SOURCE_FIELD_DATA" ]; then
+            echo "❌ Error: Could not find field with databaseId ${SOURCE_FIELD_DATABASE_ID} in project ${SOURCE_PROJECT_NUMBER}"
+            echo "  Available single-select fields:"
+            echo "$SOURCE_PROJECT_DATA" | jq -r '
+              .data.organization.projectV2.fields.nodes[]
+              | select(.id != null)
+              | "    - \(.name) (databaseId: \(.databaseId))"
+            '
+            exit 1
+          fi
+
+          SOURCE_FIELD_ID=$(echo "$SOURCE_FIELD_DATA" | jq -r '.id')
+          SOURCE_FIELD_NAME=$(echo "$SOURCE_FIELD_DATA" | jq -r '.name')
+          echo "✓ Source field: \"${SOURCE_FIELD_NAME}\" (ID: ${SOURCE_FIELD_ID})"
+          echo ""
+
+          # ── Step 2: Get all options from source field ────────────────────
+          echo "Step 2: Reading options from source field..."
+
+          OPTIONS=$(echo "$SOURCE_FIELD_DATA" | jq -c '.options[]')
+          OPTION_COUNT=$(echo "$SOURCE_FIELD_DATA" | jq '.options | length')
+
+          if [ "$OPTION_COUNT" -eq 0 ]; then
+            echo "⚠ No options found in source field. Nothing to copy."
+            exit 0
+          fi
+
+          echo "✓ Found ${OPTION_COUNT} option(s) in source field:"
+          echo "$SOURCE_FIELD_DATA" | jq -r '.options[] | "    - \(.name) (color: \(.color))"'
+          echo ""
+
+          # ── Step 3: Get target project node ID and "product" field ID ────
+          echo "Step 3: Fetching target project and \"${TARGET_FIELD_NAME}\" field info..."
+
+          TARGET_PROJECT_DATA=$(gh api graphql -f query='
+            query($org: String!, $number: Int!) {
+              organization(login: $org) {
+                projectV2(number: $number) {
+                  id
+                  title
+                  fields(first: 100) {
+                    nodes {
+                      ... on ProjectV2SingleSelectField {
+                        id
+                        name
+                        options {
+                          id
+                          name
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ' -f org="$ORG" -F number="$TARGET_PROJECT_NUMBER")
+
+          TARGET_PROJECT_ID=$(echo "$TARGET_PROJECT_DATA" | jq -r '.data.organization.projectV2.id')
+          TARGET_PROJECT_TITLE=$(echo "$TARGET_PROJECT_DATA" | jq -r '.data.organization.projectV2.title')
+
+          if [ -z "$TARGET_PROJECT_ID" ] || [ "$TARGET_PROJECT_ID" = "null" ]; then
+            echo "❌ Error: Could not find target project ${TARGET_PROJECT_NUMBER}"
+            exit 1
+          fi
+
+          echo "✓ Target project: \"${TARGET_PROJECT_TITLE}\" (ID: ${TARGET_PROJECT_ID})"
+
+          # Find the "product" field (case-insensitive) using TARGET_FIELD_NAME variable
+          TARGET_FIELD_DATA=$(echo "$TARGET_PROJECT_DATA" | jq -r \
+            --arg target "$TARGET_FIELD_NAME" '
+            .data.organization.projectV2.fields.nodes[]
+            | select(.name != null and (.name | ascii_downcase) == ($target | ascii_downcase))
+          ')
+
+          if [ -z "$TARGET_FIELD_DATA" ]; then
+            echo "❌ Error: Could not find a single-select field named \"${TARGET_FIELD_NAME}\" in project ${TARGET_PROJECT_NUMBER}"
+            echo "  Available single-select fields:"
+            echo "$TARGET_PROJECT_DATA" | jq -r '
+              .data.organization.projectV2.fields.nodes[]
+              | select(.id != null)
+              | "    - \(.name)"
+            '
+            exit 1
+          fi
+
+          TARGET_FIELD_ID=$(echo "$TARGET_FIELD_DATA" | jq -r '.id')
+          echo "✓ Target field: \"${TARGET_FIELD_NAME}\" (ID: ${TARGET_FIELD_ID})"
+
+          # Collect existing options in target field to avoid duplicates
+          EXISTING_OPTIONS=$(echo "$TARGET_FIELD_DATA" | jq -r '[.options[].name | ascii_downcase]')
+          echo "  Existing options in target field: $(echo "$TARGET_FIELD_DATA" | jq -r '.options | length')"
+          echo ""
+
+          # ── Step 4: Add options to target field ──────────────────────────
+          echo "Step 4: Adding options to target field..."
+
+          ADDED=0
+          SKIPPED=0
+          FAILED=0
+
+          while IFS= read -r option; do
+            OPTION_NAME=$(echo "$option" | jq -r '.name')
+            OPTION_COLOR=$(echo "$option" | jq -r '.color')
+            OPTION_DESC=$(echo "$option" | jq -r '.description // ""')
+
+            # Check if option already exists (case-insensitive)
+            ALREADY_EXISTS=$(echo "$EXISTING_OPTIONS" | jq -r --arg name "$OPTION_NAME" 'map(select(. == ($name | ascii_downcase))) | length > 0')
+
+            if [ "$ALREADY_EXISTS" = "true" ]; then
+              echo "  ⏭ Skipping \"${OPTION_NAME}\" (already exists)"
+              SKIPPED=$((SKIPPED + 1))
+              continue
+            fi
+
+            echo -n "  + Adding \"${OPTION_NAME}\" (color: ${OPTION_COLOR})... "
+
+            MUTATION_RESULT=$(gh api graphql -f query='
+              mutation($projectId: ID!, $fieldId: ID!, $name: String!, $color: ProjectV2SingleSelectFieldOptionColor!, $description: String!) {
+                addProjectV2SingleSelectFieldOption(input: {
+                  projectId: $projectId
+                  fieldId: $fieldId
+                  name: $name
+                  color: $color
+                  description: $description
+                }) {
+                  field {
+                    ... on ProjectV2SingleSelectField {
+                      id
+                      name
+                      options {
+                        id
+                        name
+                      }
+                    }
+                  }
+                }
+              }
+            ' \
+              -f projectId="$TARGET_PROJECT_ID" \
+              -f fieldId="$TARGET_FIELD_ID" \
+              -f name="$OPTION_NAME" \
+              -f color="$OPTION_COLOR" \
+              -f description="$OPTION_DESC" 2>&1) && MUTATION_OK=true || MUTATION_OK=false
+
+            if [ "$MUTATION_OK" = "true" ] && echo "$MUTATION_RESULT" | jq -e '.data.addProjectV2SingleSelectFieldOption.field.id' > /dev/null 2>&1; then
+              echo "✓"
+              ADDED=$((ADDED + 1))
+            else
+              echo "❌"
+              ERROR_MSG=$(echo "$MUTATION_RESULT" | jq -r '.errors[0].message // "Unknown error"' 2>/dev/null || echo "$MUTATION_RESULT")
+              echo "    Error: ${ERROR_MSG}"
+              FAILED=$((FAILED + 1))
+            fi
+          done <<< "$(echo "$SOURCE_FIELD_DATA" | jq -c '.options[]')"
+
+          echo ""
+          echo "============================================================"
+          echo "Summary"
+          echo "  Added:   ${ADDED}"
+          echo "  Skipped: ${SKIPPED} (already existed)"
+          echo "  Failed:  ${FAILED}"
+          echo "============================================================"
+
+          if [ "$FAILED" -gt 0 ]; then
+            echo "❌ Completed with ${FAILED} failure(s)"
+            exit 1
+          else
+            echo "✅ All options processed successfully"
+          fi

@@ -56,28 +56,29 @@ consent_for_clips: true
 
 # Intro - 5 minutes
 
-Thanks for joining us today! My name is **[NAME]**, and I'm a researcher supporting VA.gov. **[NAME]** will be joining us to take notes **[and [NAME] will be joining us to provide any screen reader technical support]**. Today we're going to talk about recent updates to the VA.gov profile.
+Thanks for joining us today! My name is \[NAME], and I’m a researcher supporting VA.gov. \[NAME] will be joining us to take notes **\[and \[NAME] will be joining us to provide any screen reader / magnification technical support]**. Today we're going to talk about recent updates to the VA.gov profile.
 
 Before we start, I have a few things that I want to go over with you:
 
-* **Screener confirmations**  
-  * Confirming you will be using **[screen reader, magnification, mobile]** during our session today?  
-  * Confirming you're still comfortable with signing into your VA.gov account, and sharing your screen during this session? Noting we are on a secure line for this call.  
-    * <mark>**If no:** Thank you so much for joining us today. Unfortunately, we are only conducting research with [screen reader, magnification, mobile, VA.gov] participants for today's study, so I'm going to end the session. Thank you so much for your participation. Perigean will reach out with next steps.</mark>
+- **Screener confirmations**
+  - Confirming you will be using \[confirm device and AT provided in screener] during our session today?
+  - Confirming you’re still comfortable with signing into your VA.gov account, and sharing your screen during this session? Noting we are on a secure line for this call.
+    - **_If no:_** Thank you so much for joining us today. Unfortunately, we are only conducting research with \[screen reader, magnification, mobile, VA.gov] participants for today's study, so I’m going to end the session. Thank you so much for your participation. Perigean will reach out with next steps.
 
-* **This session should take about 90/60 minutes.** I want to be sure not to keep you past that time, so I may occasionally prompt you with the next question or topic.  
+- **This session should take about 90/60 minutes.** I want to be sure not to keep you past that time, so I may occasionally prompt you with the next question or topic.
 
-* **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback, and I won't be offended by any opinions you express.  
+- **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
 
-* **Your participation is completely voluntary.** If you would like to stop the session or do not want to answer a question for any reason at any time, let me know. You'll be compensated no matter how much of the session we complete today.  
+- **Your participation is completely voluntary.** If you would like to stop the session or do not want to answer a question for any reason at any time, let me know. You'll be compensated no matter how much of the session we complete today.
 
-* **I want to be transparent that myself and my co-workers are here in a research capacity only.** We want to hear about your experiences, good or bad, in case there are processes we can improve in the future, but we cannot directly impact your benefits in any way.  
+- **I want to be transparent that my co-workers and I are here in a research capacity only.** We want to hear about your experiences, good or bad, but we cannot directly impact your benefits in any way.
 
-* **Knowing that, I have [#] VA employees who would like to observe our session, but their attendance is optional.** Would that be okay, or do you prefer to keep the session to just the three of us?  
-  * <mark>**If no:** Use Slack to kindly ask the observers to leave the Zoom.</mark>
-  * **If yes:** Admit observers.    
-    * Ask the observers to give a brief, camera-on introduction, such as their first name and position with VA.gov.  
-    * Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth.  
+- **Knowing that, I have \[#] VA employees who would like to observe our session, but their attendance is optional.** Would that be okay, or do you prefer to keep the session to just the three of us?
+
+  - **If no:** Use Slack to kindly ask the observers to leave the Zoom.
+  - **If yes:** Admit observers.
+    - Ask the observers to give a brief, camera-on introduction, such as their first name and position with VA.gov.
+    - Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth.
 
 * **Are you comfortable if I record my screen and audio for analysis and reporting purposes?** The recordings are used to ensure we captured your feedback accurately. Findings are kept anonymous, and deleted once analysis is complete.  
   * **Knowing that, are you comfortable if I record my screen and audio as we talk today?**  
@@ -103,21 +104,19 @@ Before we look at the website, let's start with a few warm-up questions.
 
 ## AT participants only
 
-1. What screen reader/magnification program will you be using today?  
-2. How many years have you been using assistive technology?  
-3. What do you primarily use the assistive technology for?  
-4. How would you rate your level of experience with using a screen reader/magnifier program--beginner, intermediate, or expert?  
-5. Have you ever shared your screen in Zoom while using a screen reader/magnifier program?
+1. _If needed;_ What assistive technology will you be using during our session today?
+2. How many years have you been using \[screen reader / magnifier]?
+3. How would you rate your level of experience with using \[screen reader / magnifier] – beginner, intermediate, or expert?
+4. When or how often do you use \[screen reader / magnifier]?
+5. Have you ever shared your screen in Zoom while using \[screen reader / magnifier]?
 
 ## Mobile participants start here
 
-6. What smartphone or tablet are you using during our session today?  
-   1. *If applicable:* When using the internet, do you prefer light mode, dark mode, or no preference?  
-7. When was the last time you signed into VA.gov? Best guesses are okay.  
-8. What is the main reason you sign into VA.gov?  
-9. Have you ever visited your profile on VA.gov?  
-   1. *If yes;* What did you use your profile for?  
-   2. What actions do you expect to be able to complete in your profile?
+6. _If needed;_ What [smartphone, tablet, desktop] are you using during our session today?
+7. When was the last time you signed into VA.gov? Best guesses are okay.
+8. What is the main reason you sign into VA.gov?
+9. Have you ever visited your profile on VA.gov? If yes, what for?
+   1. What actions do you expect to be able to complete in your profile?
 
 > [!NOTE]
 > ### Things to watch for:
@@ -125,33 +124,38 @@ Before we look at the website, let's start with a few warm-up questions.
 > - *AT only:* Does the participants reported AT use match what was in their screener?  
 > - *Mobile only:* Does the participants' reported mobile use match what was in their screener?
 
-# First Task: Navigate to profile - 10/20 minutes
+# Share screen and sign-in - 5/10 mins
 
-Thank you for telling me about your experience. We're going to switch topics to getting feedback on VA.gov. We're going to start by sharing your screen in Zoom.
+Thank you for telling me about your experience. We’re going to switch topics to getting feedback on VA.gov. We’re going to start by sharing your screen in Zoom.
+
 
 ## To get started
 
-* *For moderator:* Provide instructions on how to share their screen.  
-  * Screen reader participants  
-    * [Desktop screen readers](https://depo-platform-documentation.scrollhelp.site/research-design/desktop-screen-readers)  
-    * [iOS VoiceOver](https://depo-platform-documentation.scrollhelp.site/research-design/ios-voiceover)  
-    * [Android TalkBack](https://depo-platform-documentation.scrollhelp.site/research-design/android-talkback)  
-  * Magnification participants: Are there any special things we need to know?  
-  * Mobile participants  
-    * [Platform guidance](https://depo-platform-documentation.scrollhelp.site/research-design/conducting-mobile-sessions-v1#Conductingmobilesessions-ForiPhone)  
-      * [iPhone](https://depo-platform-documentation.scrollhelp.site/research-design/iphone-start-screen-share)  
-      * [Android](https://depo-platform-documentation.scrollhelp.site/research-design/android-start-screen-share)  
-    * [Zoom guidance](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060596)  
+- _For moderator:_ Provide instructions on how to share their screen.
+  - Screen reader participants
+    - [Desktop screen readers](https://depo-platform-documentation.scrollhelp.site/research-design/desktop-screen-readers)
+    - [iOS VoiceOver](https://depo-platform-documentation.scrollhelp.site/research-design/ios-voiceover)
+    - [Android TalkBack](https://depo-platform-documentation.scrollhelp.site/research-design/android-talkback)
+  - Magnification participants
+    - If you can't see an iPhone's magnified screen, ask participants to go to
+      - Settings > Accessibility > Show while Mirroring
+    - If this doesn't work, or the device isn't an iPhone, to understand the size of the area they can see ask: Is your screen magnified? If so, could you please tell me how far across the page you can see? And how far down from the top of the page?
+  - Mobile participants
+    - [Platform guidance](https://depo-platform-documentation.scrollhelp.site/research-design/conducting-mobile-sessions-v1#Conductingmobilesessions-ForiPhone)
+      - [iPhone](https://depo-platform-documentation.scrollhelp.site/research-design/iphone-start-screen-share)
+      - [Android](https://depo-platform-documentation.scrollhelp.site/research-design/android-start-screen-share)
+    - [Zoom guidance](https://support.zoom.com/hc/en/article?id=zm_kb\&sysparm_article=KB0060596)
+- Open your browser, and navigate to VA.gov. Any browser will do.
+  - [https://www.va.gov](https://www.va.gov/)
+  - Once on VA.gov please sign into your account.
+- When you’re signed in, pause for the next instruction.
+- Keep in mind, we want to hear your thoughts, so say anything top of mind as you go.
 
-* Open your browser, and navigate to VA.gov. Any browser will do.  
-  * [https://www.va.gov](https://www.va.gov/)  
-  * Once on VA.gov please sign into your account.  
-  * When you're signed in, pause for the next instruction.  
+# First task: Navigate to profile 10/20 mins
 
-* Keep in mind, we want to hear your thoughts, so say anything top of mind as you go.
-
-10. Imagine you’ve come to VA.gov to manage your email and text notifications. Please show where you would go to manage your email and text notifications. 
-    1. *If they are unable to navigate to profile:* Select your name in the top navigation. Select profile to continue.
+10. Imagine you’ve come to VA.gov to manage your email and text notifications. Please go to where you would expect to manage your email and text notifications.
+    1. _If they are unable to navigate to profile:_ Select your name in the top navigation. Select profile to continue.
+11. What are your thoughts on navigating to the profile?
 
 > [!NOTE]
 > ### Things to watch for:
@@ -160,55 +164,53 @@ Thank you for telling me about your experience. We're going to switch topics to 
 > - Note if they're in dark mode or not.  
 > - Note what browser they're in.
 
-# Second Task: Review profile - 20/30 minutes
+# Second task: Review profile - 30/40 minutes
 
-11. Take a moment to review the page. What are your initial thoughts about the profile?  
-12. Before we go further, what would you expect to see in each section of the profile?  
-    1. Is there any information missing from the profile that you'd expect to find?  
-    2. Do you have any feedback on the order of information on the page?  
-    3. *If VSC shows*  
-       1. Thoughts on having your Veteran Status Card at the top of the page?  
-    4. *If the following sections are not mentioned, ask follow-up*  
-       1. Without navigating to any pages, where would you expect to find:  
-          1. Information about your DD214?  
-          2. Information about your disability rating?  
-          3. Health care email and text notifications?  
-
-13. Now we're going to navigate throughout the profile to gather feedback on the content.  
-
-14. *For moderator:* Have participants navigate to the following pages and ask questions for each.  
-    1. Pages  
-       1. Personal information  
-       2. Service history information  
-       3. Financial information  
-       4. Health care settings  
-          1. *If available:* Scheduling preferences  
-       5. Dependents and contacts  
-       6. Letters and documents  
-       7. Email and text notifications  
-    2. Questions  
-       1. Take a moment to review the page.  
-       2. What are your initial thoughts?  
-       3. Is there any missing information you'd like to have on the page?  
-       4. *View only pages:* Is there any information you'd like to edit on this page?  
-       5. Edit pages: Do you expect your updated information to update across the entire VA?  
-
-15. Are there any pages you'd like to review that we didn't look at today?  
-    1. *If yes:* Feel free to navigate to them.  
-
-16. If we were to consolidate any categories what would you group together and why?  
-    1. We're considering consolidating Personal information, Contact information, and Service history information together. What are your thoughts?  
-       1. If we were to do that, what would you call that section?  
-
-17. If we were to incorporate a search feature into the profile, is that something you could see yourself using? Why or why not?  
-
-18. If we were to add in a feature that would allow you to see your account activity. Such as when you last signed on. Where would you expect to find that feature?  
-    1. Is account activity something you could see yourself using? Why or why not?  
-
-19. If we were to add in a feature that would allow you to see all your current benefits. Where would you expect to find that feature?  
-    1. Is a feature that outlines all your current benefits something you could see yourself using? Why or why not?  
-
-20. After exploring the profile, if you had a magic wand is there anything you'd want to change?
+12. Before we go further, I’m going to ask a few questions on where you would expect to find certain information. Please don’t navigate away from this page, we’ll do that soon. Where would you expect to find:
+    1. A copy of your DD214? The DD214 is your discharge paperwork from the Department of Defense.
+    2. Your direct deposit information?
+    3. If you have one, information about your disability rating?
+    4. Your years of military service?
+    5. Health care email and text notifications?
+13. What would you expect to find in the:
+    1. Health care settings section?
+    2. Dependents and contacts section?
+14. Is there any information missing that you expected to have on this page?
+15. Do you have any feedback on the order of information on the page? Is there anything you’d want to change?
+16. Now we’re going to go section to section to gather feedback.
+    1. Noting some pages have personal information on them. Are you comfortable sharing those pages?
+       1. _If yes, continue._
+       2. _If no;_ Sounds good. I will only ask you to navigate to pages without personal information on them. If at any point you want to stop just let me know.
+17. _For moderator:_ Have participants navigate to the following pages and ask questions for each.
+    1. Pages with personal information; skip if participant isn’t comfortable sharing
+       1. Personal information
+       2. Email and text notifications
+       3. _Skip if low on time;_
+          1. Service history information
+    2. Pages without personal information
+       1. Health care settings
+          1. _If available:_ Scheduling preferences
+       2. Dependents and contacts
+       3. Letters and documents
+       4. _Skip if low on time;_
+          1. Financial information
+    3. Take a moment to review the page. Talk aloud as you go, and I’ll ask follow-up questions when you’re done reviewing.
+       1. _Follow-up as needed;_
+          1. Is there anything missing?
+          2. _If information is incorrect;_ How would you expect to correct \[information]?
+          3. _View only information:_ Is there any information you’d like to edit on this page that you are unable to?
+          4. _Editable information:_ Do you expect your updated information to update across the entire VA?
+18. _If they do not use the side navigation (either desktop or mobile);_
+    1. _Sighted participants:_ I noticed you didn’t use the \[left navigation/Related pages menu]? I was wondering why you decided not to?
+    2. _Non-sighted participants:_ There is navigation on the page I noticed you skipped. I was wondering if you ever use page navigation?
+19. We’re considering adding a new section called Your information by combining Personal, Contact, and Service history. Would you like to see those three sections combined or separate? Why or why not?
+    1. Are there other sections you’d like to see combined?
+20. If we were to add a search option that only searches your profile, is that something you could see yourself using? Why or why not?
+21. If we were to add in a feature that would allow you to see your account activity. Such as when you last signed on. Where would you expect to find that feature?
+    1. Is account activity something you could see yourself using? Why or why not?
+22. If we were to add in a feature that would allow you to see all your current benefits. Where would you expect to find that feature?
+    1. Is a feature that outlines all your current benefits something you could see yourself using? Why or why not?
+23. After exploring the profile, if you had a magic wand is there anything you’d want to change?
 
 > [!NOTE]
 > ### Things to watch for:
@@ -217,6 +219,7 @@ Thank you for telling me about your experience. We're going to switch topics to 
 > - Are there any bugs or errors while navigating the profile?  
 > - Are there any feature improvements that would benefit our users?  
 > - Is any participant information incorrect and how do they respond to it?
+> - Are participants able to successfully navigate the profile using the side navigation?
 
 # Post-Task Interview - 5 minutes
 

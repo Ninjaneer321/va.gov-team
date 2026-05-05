@@ -1,6 +1,7 @@
 # IA Design for Request for Reimbursement of National Exam Fee (VA Form 22-0810)
 
 **STATUS: Complete**
+<br>4/22/2026 - MN: Updated flow and entry points to add entry from National tests page in Education hub
 
 **Team:** VEBT
 
@@ -23,7 +24,8 @@
 
 ## <a name="flows"></a>Navigation/page flows <br>
 *Illustration and/or description of how users will navigate to and flow through the experience for all impacted visitors typies. This helps identify key entry points and findability requirements, user flow scenarios, and content/messaging needs across various scenarios.*
-<img width="1456" height="449" alt="Screenshot 2025-12-17 162902" src="https://github.com/user-attachments/assets/d5d46456-b52f-4c7b-b82b-f0e9c486cd8e" />
+<img width="925" height="282" alt="image" src="https://github.com/user-attachments/assets/6855b798-ca25-4e4e-8d29-dcbe460ef1c4" />
+
 
 
 ## <a name="map"></a>Page structure<br>
@@ -85,10 +87,18 @@ Teams must launch with at least one entry point that allows site visitors to nav
     - **Note: If the form will be released incrementally (aka not at 100%) or if the launch plan includes taking the form down temporarily after launch to check submission quality, a widget will be required. This requires coordination between the product engineer to create the widget and content to provide text for the widget. This can take some time. Please plan for at least 2 weeks ahead of staging review.** 
 
 ### Additional key entry points
-None at this point
 
+2. **National tests benefit detail page**
+    - Entry page URL: https://www.va.gov/education/about-gi-bill-benefits/how-to-use-benefits/national-tests/
+    - Placement description: TBD by Content and IA team
+    - Link label: TBD by Content and IA team
+    - Link destination: va.gov/forms/22-0810/request-reimbursement-national-exam-fee/
+    - Notes:
+      - Who will update: Content will add the link
+      - When will this entry point go live: at launch
+     
 ##  <a name="redirects"></a>Redirects <br>
-The identified entry point is the existing About form page. That section is being updated by Public Websites and Content and IA teams. These teams will be responsible for the redirect for the existing About page URL.  
+None.
 
 
 ## <a name="launch"></a>Launch coordination <br>

@@ -167,12 +167,17 @@ Cards appear in chronological order within this subsection, with the newest info
 1. (Required) Card status tag (ACTION NEEDED)  
 2. (Required, Editable) Card header (Form name)  
 3. (Required) Card body text to include  
-   1. (Editable) Form number   
-   2. Submitted on date  
-   3. Submission failed on date  
-4. (Required) Alert  
-   1. Instructs user to call the help desk to proceed  
-   2. (Editable) Phone number, dates, and times only
+   1. (Editable) Form number
+4. (IF form has PDF download option) PDF link  
+   1. Links to user to view their completed form in a new window   
+   2. The PDF link expires after 30 minutes of inactivity. The link automatically renews at 29 minutes. No actions are required from the user to update the link.
+5. (Required) Card body text to include  
+   4. Submitted on date  
+   5. Submission failed on date  
+6. (Required) Alert  
+   1. (IF form has PDF download option) Instructs user to upload PDF to Quicksubmit
+   2. Instructs user to call the help desk
+   3. (Editable) Phone number, dates, and times only
 
 #### Completed forms cards  {#completed-forms-cards}
 

@@ -1,4 +1,4 @@
-# Simple Mileage Only Claim Initiative Brief  (aka SMOC)
+# Simple Mileage Only Claim (SMOC) Initiative Brief 
 (As of May, 2025)
 
 ## Outcome Summary

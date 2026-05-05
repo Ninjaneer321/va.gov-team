@@ -2,8 +2,12 @@
 
 **Notetaker name:**
 
-_Instructions: Make a copy of this file. Rename it with the participant number, the date, and the time. Add your name next to notetaker. Be sure to add .md at the end of your file name_
-
+_Instructions:_
+- Make a copy of this file. Rename it with the participant number, the date, and the time. Add your name next to notetaker. 
+- After the session, clean up your notes (fix typos, etc.) then use Copilot to translate the doc to Markdown. Use this Copilot prompt: 
+   - Translate these notes from a user research session into markdown. Add formatting like headers and bullet points that will make it easy to scan the document. Do not change any of the original text:
+- Paste the Copilot results into a new file in the [observer notes folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel/research/2026-04%20User%20Created%20Appointment%20Data%20Usability%20Study/observer%20notes). Title the file P[#]_mm.dd.yy_00:00ET.md. Be sure to add .md at the end of your file name.
+ 
 ---
 
 ## Intro - 5 minutes
@@ -410,8 +414,9 @@ What works well about having the entry point here? What doesn't work well?
 
 ## Section 4A: Comparative entry point assessment (Optional, if time)
 
-Which page shown to participant first?
-
+Which page is shown first to the participant?
+- [ ] Claims list
+- [ ] Past appointments list
 
 ### Past appointment list
 

@@ -37,7 +37,7 @@ VaFileInput components have **8 primary error states**:
 | 1 | `FILE_TYPE_MISMATCH_ERROR` | "The file extension doesn't match the file format. Please choose a different file." | File type/extension mismatch | Both |
 | 2 | `UNSUPPORTED_ENCRYPTED_FILE_ERROR` | "We weren't able to upload your file. Make sure the file is not encrypted and an accepted format." | Encrypted file when not allowed | Both |
 | 3 | `UTF8_ENCODING_ERROR` | "The file's encoding is not valid" | Invalid UTF-8 encoding | Both |
-| 4 | `MISSING_PASSWORD_ERROR` | "Encrypted file requires a password." | Encrypted PDF needs password | Both |
+| 4 | `MISSING_PASSWORD_ERROR` | "Password cannot be blank. Incorrect password. Try again or delete file." | Encrypted PDF needs password | Both |
 | 5 | `MISSING_FILE` | "File is required." | Required field empty | Multiple only |
 | 6 | `MISSING_ADDITIONAL_INFO` | "This information is required." | Additional input empty | Multiple only |
 | 7 | Network/Upload errors | (Various from API) | Upload failure | Both |

@@ -22,11 +22,11 @@
 
 
 
-1. Participants opens Firebase link on phone, enters email address (one that can be accessed on phone)
+1. Participant opens Firebase link on phone, enters email address (one that can be accessed on phone)
 2. Open link from email on phone (from: VA Health and Benefits…)
     1. Tap Get Started
     2. Make sure email is the one they typed in
-    3. Download app tester
+    3. Download app tester _(note: this may not be necessary depending on how public link is set up)_
 3. Enable permissions to install a pre-release version
     1. Google Play - profile photo - Settings - About
     2. Tap “Play Store version” seven times until you see the notice that you are a developer.
@@ -34,6 +34,29 @@
 4. Return to email browser, select Done
 5. (if required) Uninstall standard version of app
 6. Download the release and install
+    1. Return to App Tester to find correct build
+
+
+## Feature flag
+
+Some of the latest updates are behind feature flags, and you'll need to turn them on.
+
+1. Enter Demo Mode
+    * From unauthenticated sign-in screen: tap the VA logo 7 times until the password field appears.
+    * Password: Zhuzh-it
+    * Tap Sign In to enter Demo mode.
+
+2. Locate the Feature Flag
+    * Navigate to: Profile > Settings > Developer Screen.
+    * Scroll down to the Firebase section (located just below the first set of blue buttons).
+    * Tap Remote Config.
+      > Note: Do not tap the "Remote Config Test" blue button.
+    * Toggle on the specific feature flag.
+    * Confirm changes: Apply (upper right) or Apply Overrides (bottom).
+
+3. Sign Out _(applying the overrides may log you out of Demo mode)_
+    * If you need to sign in with different credentials to test the feature, go to: 
+  Home > Profile > Settings > Sign Out.
 
 
 ## Clean-up
@@ -41,7 +64,7 @@
 
 
 1. Uninstall test build of VA app
-2. Uninstall Firebase
+2. Uninstall Firebase (if applicable)
 3. Install standard VA app
 4. Toggle off “Internal app sharing” 
     1. Play Store: profile - general - developer options
@@ -63,6 +86,10 @@
 
 * Alternatively, we can add participants manually to Firebase, which triggers an automated invitation email to them.
 * The pre-release version of the app will replace the standard version
+* If anyone is using two devices on the Zoom call:
+    * We want to disable speaker and microphone on phone; otherwise you'll always hear an echo even with the volume all the way down.
+    * On the screen with the Join button, tap the speaker icon in upper right, select No audio.
+    * If they're already on the call: tap "More" on botton and select "disconnect audio."
 * Make sure they do not close any apps as they’re switching between them
 * Explanation for changing permissions to share with participants: 
     * Google Play is the standard way apps are sent to Android phones. This app is safe, but because the version we’re testing today is still in development, it hasn't gone through Google’s final review yet, and therefore it’s blocked by default. We need to adjust some settings to allow you to download it, and we’ll make sure to get your phone back to the way it was once we’re finished.

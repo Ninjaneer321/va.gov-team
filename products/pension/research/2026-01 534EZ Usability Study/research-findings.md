@@ -64,15 +64,15 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "7 out of 9 participants and two pilot participants struggled with the logic and found the workflow hard to follow, especially in the Household information / Marriage section."
-  - "5 out of 9 participants and one pilot participant reacted negatively to the way the form uses language about death and family relationships"
-  - "3 of 9 participants and one pilot participant felt like having to figure out what benefits they are entitled to places an unnecessary burden on them at a stressful time."
+  - "Most participants struggled with the logic and found the workflow hard to follow, especially in the Household information section."
+  - "Some participants reacted negatively to the language the form uses in the Veteran’s marital history section."
+  - "Some participants felt like having to figure out what benefits they are entitled to places an unnecessary burden on them at a stressful time."
 recommendations:
   - "Consider revising the text for the marriage end/death of veteran question"
   - "Consider revising the workflow in the marriage section."
   - "Consider adding contextual information and  using simpler language. Participants often did not understand some of the questions, and said they wanted to know the reasons for those questions."
   - "Consider fewer required questions and/or adding an “I don’t know” option to the responses."
-  - "Consider displaying the list of documents and the upload function on the same page at the end of the form."
+  - "Consider displaying the list of documents and the file input component on the same page at the end of the form."
   - "Format fields to be consistent with user expectations."
   - "Update the confirmation to reflect digital submission."
 kpi_alignment:
@@ -153,42 +153,42 @@ We used remote, moderated usability testing to observe research participants usi
 
 3. Family members will understand what supporting documents are needed to support their claim.
     - **Likely True**
-    - Participants seemed to understand and appreciate the “Follow these steps to get started” on the application cover page; they also liked being able to save the application and come back when they have the requested information.  
-
-4. The supporting documents list at the end of the form was a useful reference that helped people complete the form. 
-    - **Partly True**
-    - Participants liked having the list there, but said it would have been easier if the list of documents and the place to upload them was on one page. Spread across two pages, they had to jump back and forth. 
+    - Participants seemed to understand and appreciate the “Follow these steps to get started” on the application cover page; they also liked being able to save the application and come back when they have the requested information.
+    - Participants liked having the supporting documents list there, but said it would have been easier if the list of documents and the place to upload them was on one page. Spread across two pages, they had to jump back and forth. 
 
 ## Key Findings
 
-1. 7 out of 9 participants and two pilot participants struggled with the logic and found the workflow hard to follow, especially in the Household information / Marriage section.
+1. Most participants struggled with the logic and found the workflow hard to follow, especially in the Household information section.
 
-2. 5 out of 9 participants and one pilot participant reacted negatively to the way the form uses language about death and family relationships.
+2. Some participants reacted negatively to the language the form uses in the Veteran’s marital history section.
 
-3. 3 of 9 participants and one pilot participant felt like having to figure out what benefits they are entitled to places an unnecessary burden on them at a stressful time.
+3. Some participants felt like having to figure out what benefits they are entitled to places an unnecessary burden on them at a stressful time.
 
 ## Details of Findings 
 
-### 1. Participants struggled with the logic and found the workflow hard to follow, especially in the Household information / Marriage section. 
+### 1. Most participants struggled with the logic and found the workflow hard to follow, especially in the Household information section. 
 - 7 of 9 participants and two pilot participants had problems understanding questions and/or the order in which they were asked.
     - The Veteran’s name and information were asked before the claimant’s - the one filling out the form. 
-        - People often started with their own information and had to go back. 
-    - After the remarriage questions, we go back in time to previous marriages for either / both survivor and deceased Veteran. 
-        - People hesitated here - it did not make intuitive sense.
-    - People were disconcerted by the current form-submit confirmation, “Your submission is in progress. It can take up to 30 days for us to receive your form”:
+        - Participants often started with their own information and had to go back. 
+    - After asking about remarriage, the form then asks about previous marriages for the surviving spouse or Veteran.  
+        - Participants hesitated here because it did not make intuitive sense.
+    - Participants were disconcerted by the current form-submit confirmation, “Your submission is in progress. It can take up to 30 days for us to receive your form”:
         - This gives the impression of inefficiency and long wait times and does not align with expectations for online services.
 
 > So they are asking me for my name again…I just missed it; I assumed it would be my name. - P7, in the first Veteran’s and Claimant’s information sections
 
-### 2. Participants reacted negatively to language about death and family relationships. 
-- Some participants considered equating death with the end of marriage to be disrespectful, with one person characterizing it as “very cold” and another, “my marriage didn’t end when he died.” 
+### 2. Some participants reacted negatively to the language the form uses in the Veteran’s marital history section. 
+- 5 out of 9 participants and one pilot participant considered equating death with the end of marriage to be disrespectful, with one person characterizing it as “very cold” and another, “my marriage didn’t end when he died.” 
 - They had similar sentiments about the requirement to describe the Veteran’s previous marriages, about which some had little information. 
 
 > Encountering the question "How did marriage end?" the participant said it feels like “it's too much.” Given that they were already asked about their marriage status, they said "I wish there was a way to ask this less.” - Pilot 1
 
-### 3. Participants said they assume the VA already has enough information to tell them what they are eligible for and not the other way around.
-- Participants said that determining their own eligibility was too much work and should be linked to user ID & Veteran’s records. 
-- They assumed the VA already had a lot of the information being requested and thought the VA would be able to tell them what they were eligible for.
+> My marriage didn’t end when they died. It’s direspectful. - P6
+
+### 3. Some participants felt like having to figure out what benefits they are entitled to places an unnecessary burden on them at a stressful time.
+- 3 of 9 participants and one pilot participant said that determining their own eligibility was too much work and should be linked to user ID & Veteran’s records. 
+- They assumed the VA already had the information being requested and thought the VA would be able to tell them what they were eligible for.
+- They felt they should be shown a list of benefits they qualify for with minimal input, and not have to figure out their eligibility via the workflow.
 
 > “If I clicked on all three but I was only entitled to one, would it tell me?” - P5, thinking that is part of creating the user ID. 
 
@@ -205,7 +205,7 @@ Most participants had questions about why certain information was requested. Wit
 
 > “Why would land lot size matter? Oh, my god. The confusing part is I'm filling this out on the assumption that I'm entitled to receive accrued benefits or pension, so why is it asking me about my personal information? If my farm is 2.1 acres am I not eligible then?” - P5
 
-### 2. Simple, explanatory language is essential
+### 2. Plain, explanatory language is essential.
 Participants encountered questions that required not only additional context but simpler language; they asked for clarification for terms like “claimant” and “living continuously” with the veteran.
 
 > “Do I put my name?” - questioned who the “claimant” would be - P10
@@ -226,23 +226,22 @@ Participants encountered questions that required not only additional context but
 
 ## Accessibility-Related Issues
 
-- Move focus to H3s instead of step headers
+- Focus goes to step headers instead of H3s
 - The DIC acronym is pronounced as a word, not the acronym
-- Screen reader repeats headings
-- Fields formatted for numbers should display an error message when words are typed in
-- Date fields were not in typical MM/DD/YYYY format, resulting in errors
+- Screen readers repeat headings
+- Fields formatted for numbers don't display an error message when words are typed in
 
 ## Additional Insights
 
-### Nonstandard and complex formats 
-
-- Data entry patterns were not in expected formats, leading to errors:
-    - Date fields not MM/DD/YYYY 
+- Data entry patterns were not in expected formats
+    - Date fields are in a M/D/YYYY format instead of the typical MM/DD/YYYY format 
     - Comma separators for currency not present
-- Content presentation could be simplified
-    - Text field vs list of VA facilities as exists on the [10-10EZ](https://www.va.gov/forms/10-10ez/), *Instructions and Enrollment Application for Health Benefits*
-    - List of forms and upload function on separate screens is difficult to manage
-    - Where the user is prompted to review entries (e.g., dependent information, expense information), all caps ("DELETE)" can be interpreted as yelling.
+- Certain content presentation caused friction
+    - VA medical centers name and location is a text field
+    - List of supporting documents is on a separate page from the file input component
+    - Where the user is prompted to review entries (e.g., dependent information, expense information), all caps ("DELETE)" was interpreted as yelling
+- Required fields became roadblocks
+    - Many of the responses are required. This can become a roadblock if the response the person needs is not permitted or if they don’t have the information available
 
 <details>
 
@@ -250,30 +249,26 @@ Participants encountered questions that required not only additional context but
 
 </details>
 
-### Findings unrelated to digital experience 
-
-- A lot of information is requested from the user. They felt they should be shown a list of benefits they qualify for with minimal input, and not have to figure out their eligibility via the workflow. 
-- Many of the responses are required, however, this can become a roadblock if the response the person needs is not permitted. 
-
 ## Recommendations
 
-1. Consider revising the text for the marriage end/death of veteran question.
+1. Consider revising the text for the marriage end date.
     - Because participants were put off and even insulted by this question, revise the text so that it does not equate death with the end of a marriage. 
 2. Consider revising the workflow in the marriage section.
     - Participants completing the form who were married to the veteran when they died  said they wanted to skip the question, “How did the marriage end?” 
-3. Consider adding contextual information and  using simpler language. Participants often did not understand some of the questions, and said they wanted to know the reasons for those questions. 
+3. Consider adding contextual information and  using simpler language.
+    - Participants often did not understand some of the questions, and said they wanted to know the reasons for those questions. 
     - They said that they were concerned about 
         - Why the information was relevant, and 
         - The implications of their answers on their benefits. 
-4. Consider fewer required questions and/or adding an “I don’t know” option to the responses.
-5. Consider displaying the list of documents and the upload function on the same page at the end of the form.
+5. Consider fewer required questions and/or adding an “I don’t know” option to the responses.
+6. Consider displaying the list of supporting documents and the upload function on the same page.
     - Users found it awkward to have to flip back and forth, write down, print, or otherwise remember what documents they need.  
-6. Format fields to be consistent with user expectations.
-    - Users expected two-digit fields for the Day and Month (i.e., use “01” for January),
-      - Note this was also an issue for vision-impaired participants. 
-    - One subject said they would like to see comma separators for currency fields. 
+7. Format fields to be consistent with user expectations.
+    - Users expected two-digit fields for the Day and Month (i.e., “01” for January),
+      - This was also an issue for vision-impaired participants. 
+    - One participant said they would like to see comma separators for currency fields. 
     - Consider a dropdown/location finder for VA medical centers, as found on other VA forms. 
-7. Update the confirmation to reflect digital submission.
+8. Update the confirmation to reflect digital submission.
     - The current confirmation, “Your submission is in progress. It can take up to 30 days for us to receive your form” gives an impression of inefficiency and long wait times. Consider revising the text to reassure them their submission was received. 
 
 ## Next Steps

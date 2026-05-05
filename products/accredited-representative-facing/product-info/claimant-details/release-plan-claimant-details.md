@@ -4,37 +4,38 @@ Feature Toggle/flag:
 `accredited_representative_portal_claimant_details` will control visibility of the Claimant Details feature, for Accredited Representative Portal users. This will be disabled in Production prior to release.
 
 ### Preparation
-- [ ] Contact Center Review has been submitted
-- [ ] The following user flows have been tested
+- [x] The following user flows have been tested
    - Find Claimant Search Results
-      -    [ ] Established POA
-      -    [ ] No POA / No results found
-      -    [ ] No POA / Pending request
+      -    [x] Established POA
+      -    [x] No POA / No results found
+      -    [x] No POA / Pending request
    -  Claimant Overview Tab
-      -    [ ] User has established POA for a claimant
-      -    [ ] User has established POA for a claimant without an established ITF
-      -    [ ] User has established POA for a claimant with an expiring ITF
-      -    [ ] User has no established POA for a claimant
+      -    [x] User has established POA for a claimant
+      -    [x] User has established POA for a claimant without an established ITF
+      -    [x] User has established POA for a claimant with an expiring ITF
+      -    [x] User has no established POA for a claimant
    -  Submission History Tab
-      -    [ ] No submissions currently exist for a claimant
-      -    [ ] Submissions do exist for a claimant
-- [ ] Any "launch blocking" findings from Team QA have been addressed.
-- [ ] Datadog monitoring is set up to monitor error rates, latency, and evaulate the ITF endpoint
+      -    [x] No submissions currently exist for a claimant
+      -    [x] Submissions do exist for a claimant
+- [x] Any "launch blocking" findings from Team QA have been addressed.
+- [x] Datadog monitoring is set up to monitor error rates, latency, and evaulate the Claimant Details endpoint
+- [ ] Contact Center Review has been submitted
+   - [ ] Note: Will be submitted right after release
 
 Any other issues or requirements that should be addressed prior to rollout?
 
 ### Go/No Go meeting April 6th, 2026
 Synchronous Go/No Go (Placeholder)
 
-- [ ] Review the release plan with your team.
-- [ ] Review the plan with your OCTO representative.
-- [ ] Finalize the release date
+- [x] Review the release plan with your team.
+- [x] Review the plan with your OCTO representative.
+- [x] Finalize the release date
 
-**Verdict:**
+**Verdict: Go**
 
-## Release Details
+## Release Details April 6th, 2026
 
-- [ ] Enable in Production to 100% of users
+- [x] Enable in Production to 100% of users
 - [ ] Confirm the release to Production, with a test user
 - [ ] Communicate release to ARP pilot users via Teams/Email
 - [ ] Communicate release to VBA and VSO liaison office
@@ -47,7 +48,6 @@ While we cannot think of any events that would be critical enough to merit a rol
 
 **The rollback process is:**
 1. Turn off the feature toggle `accredited_representative_portal_claimant_details` 
-   1. Submit a PR
 2. Alert the team in [#benefits-accredited-rep-crew](https://dsva.slack.com/archives/C05SUUM4GAW) that the rollback process has been initiated
    1. Include any details as to what triggered the rollback
    2. Tag relevant teammates

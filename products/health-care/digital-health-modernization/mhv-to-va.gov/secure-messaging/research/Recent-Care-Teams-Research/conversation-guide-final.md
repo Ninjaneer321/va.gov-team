@@ -26,8 +26,8 @@
 
 ## Have these links ready
 - VA.gov | MHV: https://tinyurl.com/tw2x448m 
-- Prototype 1: https://tinyurl.com/2yxwsv6v
-- Prototype 2  (TBD)
+- Prototype A: [https://tinyurl.com/2yxwsv6v](https://tinyurl.com/5ef7d429)
+- Prototype B: https://tinyurl.com/yf6sd76b 
 
 ---
 
@@ -41,7 +41,7 @@
 
 ## Intro – 5 minutes
 
-Thanks for joining us today! My name is Espy and I'm a researcher with the VA. Today, I'd like to talk to you about how you send messages to your care team on VA.gov. Before we start, I have a few things that I want to go over with you:
+Thanks for joining us today! My name is Espy and I'm a researcher with the VA. Today, I'd like to talk to you about how you send messages to your health care team on VA.gov and get your feedback so we can improve the experience. Before we start, I have a few things that I want to go over with you:
 
 - This session will take about 45 to 60 minutes. I’ll try to keep us on track and may occasionally move us to the next question or activity. If we finish early, I’ll give you that time back.  
 - Your participation is completely voluntary. Whether you choose to participate or not will not affect your VA benefits in any way. If you'd like to stop at any point or skip a question, that is absolutely fine. Just let me know.  
@@ -103,7 +103,7 @@ Before we jump into anything on screen, I’d love to learn a bit about your exp
 
 ## Screen sharing instructions
 
-I'm going to ask you to do a couple things on VA.gov and to share your screen so I can see how you navigate. Do you know how to share your screen?
+I'm going to ask you to do a couple things on VA.gov and to share your screen so I can see how you navigate. [reminder to have them close apps or widows that they don't want us to see]. Do you know how to share your screen?
 
 ### Instructions for folks NOT using screenreaders
 
@@ -214,7 +214,7 @@ As you go, please think aloud and tell me what you are looking at, what you are 
 
 ---
 
-### Start message page
+### Start message page [ remind at the beginning not to send this message]
 
 *Observe silently first.*
 
@@ -244,7 +244,7 @@ Now we are going to move into the second part of the session. I’m going to sho
 
 These are prototypes, not real websites, so some things may not work exactly as expected. For example, not everything may be clickable, and some links or buttons may not respond.
 
-As you go through these, focus on what you would expect to happen and how the experience feels to you.
+As you go through these prototypes, focus on what you would expect to happen and how the experience feels to you.
 
 Please continue thinking aloud and share anything that stands out.
 
@@ -252,9 +252,9 @@ Please continue thinking aloud and share anything that stands out.
 
 ## Concept testing – 15 minutes
 
-### Concept 1
+### Concept A
 
-I’m going to drop a link to the first version in the chat: https://tinyurl.com/2yxwsv6v
+I’m going to drop a link to the first version in the chat: https://tinyurl.com/5ef7d429
 
 Scenario: Imagine you want to send a message to your patient advocate health care team at the VA Ann Arbor Healthcare System. Show me how you would find that care team and send them a message.
 
@@ -276,9 +276,9 @@ Scenario: Imagine you want to send a message to your patient advocate health car
 
 ---
 
-### Concept 2
+### Concept B
 
-Now I’m going to share a second version of this experience. [link coming]
+Now I’m going to share a second version of this experience. https://tinyurl.com/yf6sd76b
 
 This one is a bit different from what you just saw, so again, just walk through it as you normally would and keep thinking aloud.
 

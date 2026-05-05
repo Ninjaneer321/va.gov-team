@@ -450,8 +450,14 @@ Study will be conducted on VA.gov production. Experience went live 03/13/2026.
 
 **A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.**
 
-- `Pilot participant name:` **TBD**
-- `Date and time of pilot session:` **TBD**
+**Pilot 1: iPhone, Voiceover**
+- Pilot participant name: **Sarah**
+- Date and time of pilot session: **04/03/2026, 1:30 - 3:00 PM EST**
+
+**Pilot 2: Desktop, Fusion**
+- Pilot participant name: **Jamie**
+- Date and time of pilot session: **04/08/2026, 1:00 - 2:30 PM EST**
+
 
 #### Research sessions
 
@@ -627,4 +633,4 @@ Study will be conducted on VA.gov production. Experience went live 03/13/2026.
 ## Approvals ✅
 
 - `Reviewed by OCTO Product Owner, Denise Coveyduc on 03-30-2026`
-- `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`
+- `Reviewed by OCTO Research-Ops Lead on [04-02-2026]`

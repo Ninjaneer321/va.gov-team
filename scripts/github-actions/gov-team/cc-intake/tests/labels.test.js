@@ -1,5 +1,5 @@
 import { describe, test, expect, vi } from "vitest";
-import { addLabelsToIssue } from "../modules/labels.js";
+import { addLabelsToIssue } from "../src/modules/labels.js";
 import { GITHUB_API_VERSION } from "./fixtures.js";
 
 const API_PARAMS = {

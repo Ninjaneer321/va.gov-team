@@ -30,6 +30,7 @@ Veteran ID Card: No major accessibility audit.
 - 6/2025 Claims Status Tool - [Smooth & Stable Loading Experience](https://www.figma.com/design/xEmJSYGyBFIQcmucFQ8I7C/Smooth--Stable-Loading?node-id=2429-12950&t=dspYV12xeYeHLHRt-0)
 - ~6/2025 Claims Status Tool - [Document Status](https://www.figma.com/design/m1Xt8XjVDjZIbliCYcCKpE/Document-status?node-id=6662-41987&t=OlBlRnkodlQnDvGZ-0)~ EDIT 9/3/2025: This design was updated and removed, see 9/20205 version
 - 9/2025 Claims Status Tool - [Document Status](https://www.figma.com/design/m1Xt8XjVDjZIbliCYcCKpE/Document-status?node-id=6023-108047&t=0oj10aIUSg902MyK-0)
+- 4/2026 Claims Status Tool - [ITF in CST](https://www.figma.com/design/ZLDFINlvw5skb6ckTT9skw/ITF--Intent-to-File--in-CST?node-id=4966-19793&t=RApyb40gxMbnxsOu-0)
 
 ## Accessibility 101 Trainings
 Previous:

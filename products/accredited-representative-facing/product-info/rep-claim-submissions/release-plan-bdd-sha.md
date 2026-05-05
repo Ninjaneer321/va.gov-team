@@ -5,22 +5,23 @@ Feature Toggle/flag:
 `accredited_representative_portal_enable_526ez_bdd` will control visibility of the BDD/SHA feature, for Accredited Representative Portal users. This will be disabled in Production prior to release.
 
 ### Preparation
-- [ ] Contact Center Review has been submitted
-- [ ] The following user flows have been tested
+- [x] The following user flows have been tested
    - Promoting SHA Part A in 21-526ez
-      -    [ ] SHA content on 21-526ez submission page
-      -    [ ] Checkbox on Claimant information portion of 526ez
-      -    [ ] SHA Upload option is avaiable
-      -    [ ] If no SHA upload is added, modal is tripped
-      -    [ ] Checkbox for BDD is reflected in review and submit
-      -    [ ] Upload for SHA is reflected in review and submit
-- [ ] Any "launch blocking" findings from Team QA have been addressed.
-- [ ] Datadog monitoring is set up to track 526ez submissions with BDD checked and an SHA uploaded and when an SHA is not uploaded
+      -    [x] SHA content on 21-526ez submission page
+      -    [x] Checkbox on Claimant information portion of 526ez
+      -    [x] SHA Upload option is available
+      -    [x] If no SHA upload is added, modal is tripped
+      -    [x] Checkbox for BDD is reflected in review and submit
+      -    [x] Upload for SHA is reflected in review and submit
+- [x] Any "launch blocking" findings from Team QA have been addressed.
+- [x] Datadog monitoring is set up to track 526ez submissions with BDD checked and an SHA uploaded and when an SHA is not uploaded
+- [ ] Contact Center Review has been submitted
+   - [ ] Note: Will be submitted right after release
 
 Any other issues or requirements that should be addressed prior to rollout?
 
 ### Go/No Go meeting
-Asynchronous Go/No Go (Placeholder)
+Asynchronous Go/No Go - **April 16, 2026**
 
 - [ ] Review the release plan with your team.
 - [ ] Review the plan with your OCTO representative.
@@ -30,7 +31,7 @@ Asynchronous Go/No Go (Placeholder)
 
 ## Release Details
 
-- [ ] Enable in Production to 100% of users
+- [ ] Enable in Production to 100% of users - **April 16, 2026**
 - [ ] Confirm the release to Production, with a test user
 - [ ] Communicate release to ARP pilot users via Teams/Email
 - [ ] Communicate release to VBA and VSO liaison office
@@ -43,7 +44,6 @@ While we cannot think of any events that would be critical enough to merit a rol
 
 **The rollback process is:**
 1. Turn off the feature toggle `accredited_representative_portal_enable_526ez_bdd` 
-   1. Submit a PR
 2. Alert the team in [#benefits-accredited-rep-crew](https://dsva.slack.com/archives/C05SUUM4GAW) that the rollback process has been initiated
    1. Include any details as to what triggered the rollback
    2. Tag relevant teammates

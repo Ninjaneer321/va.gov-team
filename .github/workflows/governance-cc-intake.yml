@@ -61,7 +61,7 @@ jobs:
       - name: Run script
         id: run-script
         continue-on-error: true
-        run: node cc-intake.js
+        run: node src/process-cc-intake.js
         working-directory: ./scripts/github-actions/gov-team/cc-intake
         env:
           GITHUB_TOKEN: ${{ env.VA_VFS_BOT_GITHUB_TOKEN }}

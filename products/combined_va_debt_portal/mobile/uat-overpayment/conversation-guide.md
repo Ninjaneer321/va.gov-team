@@ -1,25 +1,40 @@
 ---
-title: Conversation Guide for Debt Resolution, VA Debt Portal - Mobile, 2024 01
-author: Denise Coveyduc
-date_created: '2024-01-01'
-last_modified: '2024-01-01'
-team: Debt Resolution
-portfolio: benefits
-product: VA Debt Portal - Mobile
-research_phase: validation
-research_method: uat
-session_duration: 30 minutes
-session_type: remote_moderated
-participant_criteria: Veterans with overpayment debt, mobile device users
-related_research_plan: products/combined_va_debt_portal/mobile/uat-overpayment/research-plan.md
-related_prototype: N/A
+title: "Conversation Guide for UAT Overpayments in the VA Mobile App"
+author: "Emily DeWan"
+date_created: "2026-01-26"
+last_modified: "2026-04-02"
+
+# Core research metadata
+team: "Mobile Feature Support"
+portfolio: "benefits"
+product: "Debt Portal (Mobile)"
+research_phase: "validation"
+research_method: "user_acceptance_test"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with current overpayment debt; iOS or Android smartphone users; able to authenticate with VA credentials (ID.me or Login.gov with 2FA access)"
+
+# Related documents
+related_research_plan: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/research-plan.md"
+related_prototype: "TestFlight (iOS): https://testflight.apple.com/join/RrO0Cw2q | Firebase (Android): https://appdistribution.firebase.dev/i/2e876a3d15d8784c"
+
 tags:
-- debt-portal
-- mobile
-- UAT
-- overpayment
-- validation
-description: User acceptance testing for overpayment debt on mobile VA Debt Portal.
+  - "AUD: Veterans"
+  - "BNFT: Finances"
+  - "PRDT: Debt-portal"
+  - "HDW: Smartphone"
+  - "DSC: Form"
+  - "DSP: Content Presentation"
+  - "user-acceptance-testing"
+  - "screen-sharing"
+  - "mobile-testing"
+  - "UAT"
+
+description: "Moderated usability testing session for the pre-release Combined VA Debt Portal mobile app. Participants log in with real credentials to validate that overpayment debt information displays correctly and consistently across iOS and Android platforms before public release."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true
@@ -114,7 +129,7 @@ Start recording.
 
 _[NOTE] Use this step if they did NOT validate prior to the session_
 
-Before we start on the app, I'd like to have you log in to your acccount on va.gov so that we can confirm that the information lines up to what you’ll be seeing in the app.
+Before we start on the app, I'd like to have you log in to your account on va.gov so that we can confirm that the information lines up to what you’ll be seeing in the app.
 
 This could either be on another device, in case you have a computer nearby where you regularly log in, or this could be on your phone here.
 
@@ -138,8 +153,10 @@ _References_:
 - [Screen sharing Android](https://depo-platform-documentation.scrollhelp.site/research-design/android-start-screen-share)
     - Swipe moderator's video off to the side
     - Select Zoom from Permissions: “Display over other apps permission,” then go back to Zoom
-- App install link for iOS (TestFlight) 🚧
-- App install link for Android (Firebase) 🚧
+- [App install link for iOS (TestFlight)](https://testflight.apple.com/join/RrO0Cw2q)
+    - Version 2.71.1, Build 3718
+- [App install link for Android (Firebase)](https://appdistribution.firebase.dev/i/2e876a3d15d8784c)
+    - Version 2.71.0, Build 3460
 - [iOS directions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_iOS.md) for guiding them through the download and set-up
 - [Android directions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_android.md) for guiding them through the download and set-up
 
@@ -238,10 +255,12 @@ _[resume recording]_
 
 Now I'm going to ask you to go to various parts of the app where I'll be checking to see that elements appear correctly.
 
+And because we're going to be looking at your financial information, I want to acknowledge that it can be a tough and sensitive topic. If you need to pause at any point, that's no problem at all.
+
 _Moderator will follow the test paths outlined in the spreadsheet. Both versions contain the same information._
 
 - Google Sheet: [Spreadsheet: Test paths and success criteria - Overpayment UAT](https://docs.google.com/spreadsheets/d/1xfHJGzPQJaIeO-uPp8D4aboEO-qSDvBVp0b5QABg_5Q/edit?gid=312390165#gid=312390165)
-- Excel Spreadsheet on VA network: [Spreadsheet: Test paths and success criteria - Overpayment UAT](https://dvagov.sharepoint.com/:x:/r/sites/vamobilefeaturesupport/Shared%20Documents/2026-01%20UAT%20Overpayment/Test%20paths%20and%20success%20criteria%20-%20Overpayment%20UAT.xlsx?d=w27e49683b8654ddda0ecea76d080023e&csf=1&web=1&e=AIdsUs)
+- Excel Spreadsheet on VA network: [Spreadsheet: Test paths and success criteria - Overpayment UAT](https://dvagov.sharepoint.com/:x:/r/sites/vamobilefeaturesupport/Shared%20Documents/2026-01%20UAT%20Overpayment/Test%20paths%20and%20success%20criteria%20-%20Overpayment%20UAT.xlsx?d=w27e49683b8654ddda0ecea76d080023e&csf=1&web=1&e=bfAOHd)
 
 _[NOTE] Record the name of debt(s), quantity of debt(s), and total amount(s) for comparison against their account on va.gov._
 

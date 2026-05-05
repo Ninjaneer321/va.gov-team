@@ -1,121 +1,3 @@
----
-# Research Plan Metadata
-title: "Medical Records: Recency Indicators Usability Study - March 2026"
-date: 2026-03-03
-last_updated: 2026-03-30
-team: "MHV Medical Records"
-product: "Medical Records: Recency Indicators"
-product_area: "authenticated"
-
-# Background Context
-background:
-  problem_statement: "Veterans struggle to find their most recent medical records results after receiving notifications. Mixed grouping, information overload, and lack of recency indicators make it difficult to locate new lab results, care notes, and other recently added records."
-  product_location: "VA.gov > My Health > Medical Records"
-  user_familiarity: "Iteration on existing Medical Records product"
-  product_brief_url: "[[Research Review Synthesis](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2026-02_Research_Review/research-synthesis.md)]"
-
-# Research Design
-methodology: "Moderated usability testing with concept exploration"
-research_format: 
-  location: remote
-  moderated: true
-  
-# Research Goals & Questions
-research_goals:
-  - goal_1: "Understand how veterans conceptualize 'new' or 'recent' in medical records (time-based window)"
-  - goal_2: "Evaluate whether landing page indicators + list page badges help veterans find recent results"
-  - goal_3: "Identify what information Veterans need on cards and badges"
-  - goal_4: "Assess whether Veterans can discover and use the updated date filter to find specific past results"
-
-research_questions:
-  - "What characteristics signal 'new' or 'recent' to Veterans in their medical records?"
-  - "What navigation tactics help Veterans orient themselves to new information?"
-  - "What information helps Veterans orient, navigate, and understand new medical records?"
-  - "What types of visual information help Veterans identify what's new?"
-  - "Can Veterans connect information presented in different contexts?"
-  - "Can Veterans use the updated filter pattern to locate specific past results?"
-
-hypotheses:
-  - "Veterans will prefer a time-based window of 7-14 days for 'Recent' indicators"
-  - "Landing page cards showing counts will help veterans orient to where new results are located"
-  - "Minimal information on cards (type + count) will be sufficient for navigation"
-  - "Recent Badges on list pages will be more effective than landing page cards alone"
-  - "Veterans will be able to use the accordion filter to narrow results by date range, but may need a moment to discover the control"
-
-expected_outcomes: "Findings will inform the design of recency indicators for MVP release. We'll learn the optimal time window, required card content, whether the breadcrumb navigation approach supports findability, and whether the updated accordion date filter is discoverable and usable for finding historical results."
-
-# Recruitment & Participants
-recruitment:
-  recruiting_partner: "Perigean"
-  approach: "Lean maximum variation"
-  
-  primary_criteria:
-    - "Have accessed VA medical records online in the past 6 months"
-    - "Have received lab results or care notes in the past 3 months"
-    - "Mix of medical complexity (simple vs. complex medical histories)"
-    
-  secondary_criteria:
-    - "Mix of tech comfort levels"
-    - "Mix of frequency (regular vs. occasional users)"
-    - "Age diversity (at least 2 participants over 55)"
-    
-participants:
-  veterans: 15
-  caregivers: 0
-  dependents: 0
-  total_recruited: 15
-  completed_sessions_goal: 10
-  
-# Timeline & Sessions
-timeline:
-  pilot_date: "2026-03-28"
-  pilot_participant: "[Name TBD]"
-  research_dates: "2026-03-31 to 2026-04-09"
-  research_review_submission: "2026-03-20"
-  
-session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 3
-  
-# Strategic Alignment
-octo_priorities:
-  - objective: "Objective 3: Relentlessly improve the user experience"
-    key_results: 
-      - "Supports delivery of at least one release that directly addresses a documented user pain point within this product"
-      - "Supports maintaining the ranked list of user pain points for Veteran-facing Products and Services"
-      
-veteran_journey_phases:
-  - "Taking Care of Myself"
-  - "Aging"
-    
-# Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "[Medical Records Research Review Synthesis - February 2026](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2026-02_Research_Review/research-synthesis.md)"
-    
-
-# Tags
-tags:
-  - "health-care"
-  - "MHV"
-  - "My-HealtheVet"
-  - "migration"
-  - "medical-records"
-  - "notifications"
-  - "usability-testing"
-  - "remote"
-  - "evaluative"
-  - "moderated"
-  - "veterans"
-  - "AUD: Veterans"
-  - "BNFT: Healthcare"
-  - "PRDT: My-HealtheVet"
-  - "PRDT: Medical-Records"
-  - "PRDT: Notifications"
----
-
-
 # Research Plan for MHV Medical Records: Recency Indicators Usability Study - March 2026
 
 ## Background 🏗️
@@ -234,14 +116,14 @@ Findings will directly inform the production release addressing Use Case #1: Fol
 - What else helps them orient themselves to what's new?
 - What navigation patterns reduce cognitive load when scanning for recent items?
 
-> Maps to: Task 2 (landing page entry), Task 2.5 (Recent Results section structure)
+> Maps to: Task 1 (landing page entry), Task 1.5 (Recent Results section structure)
 
 **RQ3: What information helps Veterans orient, navigate, and understand new medical records?**
 - What helps them decide where to click?
 - What reduces information overload?
 - Is summary information enough, or do they need specific details upfront?
 
-> Maps to: Task 2 (exploration of card content), Task 2.5 (section structure)
+> Maps to: Task 1 (exploration of card content), Task 1.5 (section structure)
 
 **RQ4: What types of visual information help Veterans identify what's new?**
 - Do badges, dates, sorting, or other visual cues help them understand what's new?
@@ -293,19 +175,21 @@ This method is appropriate because:
 
 The filter task evaluates a pattern change from dropdown to accordion for date filtering. This task provides a preliminary usability signal on the updated accessible pattern.
 
+We will use a **GitHub Codespace** (coded prototype) instead of Figma because Figma is not accessible to screen readers. The coded prototype must be complete and included in the Research Ops submission before the study can begin.
+
 ---
 
 ### Location
 
-60 minute video interviews over Zoom
+Video interviews over Zoom (60 minutes for non-AT participants, 90 minutes for AT participants)
 
 ---
 
 ## Research materials 📔
 
 **For moderated usability tests:**
-- [Link to conversation guide](url goes here) - *In progress*
-- [Figma prototype](url goes here) - *In progress, expected by March 16*
+- [Link to conversation guide](conversation-guide.md)
+- [Link to coded prototype (GitHub Codespace)](url goes here) - *In progress, URL TBD*
 
 **Prototype will show:**
 - Medical Records landing page with "Recent Results" cards (Labs, Care Notes)
@@ -313,21 +197,30 @@ The filter task evaluates a pattern change from dropdown to accordion for date f
 - Click-through to list pages with "RECENT" badges next to recent items
 - Click-through to list pages with "RECENT" Indicators next to recent items
 
+> **Note:** The coded prototype is currently being built by the lead UX designer. 
+
 ---
 
 ## Recruitment 🎯
 
 ### Recruitment approach
 
-**Target audience:** Veterans who actively use VA online medical records
+**Target audience:** Veterans who actively use VA online medical records, including Veterans who use assistive technology (AT).
 
-**Strategy:** Lean maximum variation sampling to ensure diversity in:
+**Strategy:** We are aiming for a **50/50 split between AT and non-AT participants**. Lean maximum variation sampling to ensure diversity in:
+- AT vs. non-AT use
 - Medical complexity (simple vs. complex histories)
 - Tech comfort (low, medium, high)
 - Frequency of use (occasional vs. regular)
 - Age range (including 55+)
 
+**AT types to test:** Screen readers and screen magnification (desktop/laptop)
+
 **Recruiting partner:** Perigean
+
+> **Note on recruitment survey:** There is a limit to how many questions Perigean can include in the Calendly screener survey. Consider a tiered approach (Tier 1 questions for all participants; Tier 2 AT-specific questions for those who indicate AT use). Provide a copy or link to the recruitment survey to Perigean before the kickoff call so both parties can review it together.
+
+> **AT participant vetting:** If there are any questions about whether a recruited AT participant meets the qualification criteria, contact the ADE team via their Slack channel. ADE can vet AT participants for appropriateness.
 
 ---
 
@@ -343,6 +236,10 @@ We want to schedule 15 participants for sessions; for 10 completed sessions mini
 - `Total:` **15** (1.5x target for 10 completed sessions)
 - `Ideal completed sessions:` **10**
 
+**AT / non-AT breakdown (approximate 50/50 split):**
+- `AT participants (screen reader or screen magnification):` **~7-8**
+- `Non-AT participants:` **~7-8**
+
 ---
 
 ### Primary criteria (must-haves)
@@ -354,19 +251,29 @@ We want to schedule 15 participants for sessions; for 10 completed sessions mini
 - At least 3 participants with complex medical histories (multiple ongoing conditions, frequent appointments)
 - At least 3 participants with simple medical histories (occasional care, few conditions)
 
+**AT participants (approximately 7-8):**
+- Must use a screen reader or screen magnifier every time they access the internet
+- Must be willing to join the session using their screen reader or screen magnification software
+- Must have been using their AT for at least 1 year
+- Must use a desktop or laptop for the session (this study is desktop/laptop only for AT participants)
+
 ---
 
 ### Secondary criteria (nice-to-haves)
 
-- Mix of tech comfort levels (at least 2 with low tech comfort)
+- Mix of tech comfort levels (at least 2 with low tech comfort among non-AT participants)
 - Mix of frequency: at least 2 who access records monthly or more, at least 2 who access quarterly
 - At least 2 participants age 55+
-- At least 1 mobile-primary user (accesses records mainly on phone/tablet)
+- At least 1 mobile-primary user among non-AT participants (accesses records mainly on phone/tablet)
 - Geographic diversity
 
 ---
 
 ## Screener Questions 📋
+
+> **Note:** These questions are organized in a tiered approach. Tier 1 questions apply to all participants. Tier 2 (AT-specific) questions apply only to participants who indicate AT use in Tier 1.
+
+### Tier 1 Screener Questions (All participants)
 
 **1. Do you receive VA healthcare benefits?**
 
@@ -409,7 +316,7 @@ Lab results include bloodwork, urinalysis, or other lab tests. Visit summaries a
 - **Option B:** Somewhat comfortable - I can usually figure things out but sometimes need help
 - **Option C:** Not very comfortable - I often need help with technology
 
-**Qualifying response:** Mix - Recruit at least 2 from Option C (low tech comfort)
+**Qualifying response:** Mix - Recruit at least 2 from Option C (low tech comfort) among non-AT participants
 
 ---
 
@@ -424,34 +331,90 @@ Lab results include bloodwork, urinalysis, or other lab tests. Visit summaries a
 
 ---
 
+**7. Do you use a screen reader or screen magnifier every time you use the Internet?** We ask this because we want to make sure that our website works for people who rely on these technologies.
+
+- **Option A:** Yes *(proceed to Tier 2 AT screener questions below)*
+- **Option B:** No *(this participant is a non-AT recruit; skip Tier 2 questions)*
+
+---
+
+### Tier 2 Screener Questions (AT participants only)
+
+*Ask these questions only to participants who answered "Yes" to Question 7 above.*
+
+---
+
+**AT-1. Are you willing to join the Zoom session using your screen reader or screen magnifier?**
+
+- **Qualifying response:** Yes
+- **Disqualifying response:** No *(DISQUALIFY)*
+
+---
+
+**AT-2. How long have you been using your screen reader or screen magnifier?**
+
+- **Option A:** Less than 1 year *(DISQUALIFY)*
+- **Option B:** At least 1 year *(QUALIFY; ask next question)*
+
+---
+
+**AT-3. What is the name of the screen reader or screen magnifier technology that you will use during the Zoom session?** *(Open text field — RECORD response)*
+
+- If they say a non-digital tool (e.g., "magnifying glass"), *DISQUALIFY*
+- If they say "JAWS", "NVDA", "VoiceOver", "TalkBack", or "Narrator", *RECORD as **screen reader user** and RECRUIT*
+- If they say "ZoomText", "Magnifier", "Zoom", or "Magnification", *RECORD as **screen magnifier user** and RECRUIT*
+- If they say "increase font size" or "zoom in the browser", ask what percentage they zoom to. If 200% or greater, *RECORD as **screen magnifier user** and RECRUIT*
+- If unsure whether someone qualifies, contact ADE via their Slack channel for vetting guidance.
+
+---
+
+**AT-4. For this session, you will need a desktop or laptop computer with Zoom installed that can screen share and has a working microphone. Are you able to use a desktop or laptop for this session?**
+
+- **Qualifying response:** Yes
+- **Disqualifying response:** No *(DISQUALIFY for AT sessions; this study tests AT on desktop/laptop only)*
+
+---
+
 ## Timeline 🗓️
 
 ### Prepare
 
-**Prototype finalized:** March 16, 2026 (loose goal)
+> **Note:** After submission to Research Ops, allow approximately **7 days for review and approval**. The coded prototype (GitHub Codespace) **must be complete and included** in the Research Ops submission — it cannot be submitted without it.
 
-**Pilot session:**
-- `Pilot participant name:` [TBD - send in Slack channel]
-- `Date and time of pilot session:` 3/28, Monday, Pilot Sessions (Team Only), Time TBD
+**Prototype:** Currently being built by the lead UX designer. Timeline is TBD. Research sessions cannot be scheduled until the prototype is complete and approved.
+
+**Pilot sessions:** Plan for **1-2 screen reader pilots** and **1 screen magnification pilot**. ADE accessibility specialists can run pilot sessions with AT participants.
+
+
+**Pilot session details:**
+- `Pilot participant name:` TBD - coordinate with ADE team
+- `Date and time of pilot session:` TBD (pending prototype completion and Research Ops approval; screen reader and magnification pilots can be coordinated with ADE after Cindy Merrill returns April 23)
 
 ### Recruitment approach with Perigean
 
-We will partner with Perigean to recruit Veterans. We request a 30 minute kickoff meeting with Perigean to align on what is needed and desired from the sample. Availability for potential kickoff meeting times with Perigean, depending on their availability is below. More time can be made available based on Perigean's needs.
+We will partner with Perigean to recruit Veterans. We request a 30-minute kickoff meeting with Perigean to align on recruitment criteria, AT screener questions, and the tiered survey approach.
+
+**Before the Perigean kickoff call:** Provide Perigean with a copy or link to the recruitment survey so both parties can review the screener questions (including AT-specific questions) ahead of the call.
+
+> **Note for Perigean:** Please schedule **different time slot lengths** for AT vs. non-AT sessions:
+> - AT sessions: **90 minutes**
+> - Non-AT sessions: **60 minutes**
 
 **Proposed kickoff call times:**
-TBD
+TBD (pending prototype completion)
 
 ---
 
 ### Research sessions
 
-- `Planned dates of research:` March 31 - April 9, 2026
+- `Planned dates of research:` TBD (pending prototype completion and Research Ops approval)
 
 ---
 
 ### Length of sessions
 
-- `Session length:` 60 minutes
+- `Session length:` **90 minutes for AT participants; 60 minutes for non-AT participants**
+  - AT sessions are longer to account for assistive technology setup, slower navigation, and additional AT warm-up questions.
 - `Buffer time between sessions:` 30 minutes
 - `Maximum Sessions per day:` 3
 
@@ -461,15 +424,7 @@ TBD
 
 **Please list exact dates and times in EASTERN Standard Time:**
 
-- 3/27, Friday, Pilot Sessions (Team Only)
-- 3/31, Tuesday, 9:00 AM-12:00 PM, 1:00 PM-2:00 PM EST
-- 4/1, Wednesday, 9:00 AM-12:00 PM, 1:00 PM-4:00 PM EST
-- 4/2, Thursday, 9:00 AM-12:00 PM, 1:00 PM-2:00 PM EST
-- 4/3, Friday, 9:00 AM-12:00 PM, 1:00 PM-4:00 PM EST
-- 4/6, Monday, 9:00 AM-12:00 PM, 1:00 PM-2:00 PM EST
-- 4/7, Tuesday, 9:00 AM-12:00 PM, 1:00 PM-2:00 PM EST
-- 4/8, Wednesday, 9:00 AM-12:00 PM, 1:00 PM-4:00 PM EST
-- 4/9, Thursday, 9:00 AM-12:00 PM, 1:00 PM-2:00 PM EST
+TBD (pending prototype completion and Research Ops approval)
 
 ---
 
@@ -479,7 +434,7 @@ TBD
 - `Research guide writing and task development:` **Laura Simpson**
 - `Participant recruiting & screening:` **Perigean**
 - `Project point of contact:` **Laura Simpson** and **Jonathan Nelson**
-- `Accessibility specialist:` **Sara Horton**
+- `Accessibility specialist (for AT sessions):` **ADE Team** — An ADE accessibility specialist will join AT sessions to make observations about the assistive technology and provide technical support. See the [ADE intake ticket #138956](https://github.com/department-of-veterans-affairs/va.gov-team/issues/138956) for coordination details.
 - `Note-takers:` TBD
 - `Observers:`
   - **[TBD]**

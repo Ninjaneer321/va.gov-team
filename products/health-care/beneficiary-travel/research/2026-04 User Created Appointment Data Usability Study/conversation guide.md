@@ -290,7 +290,7 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 `Moderator: Take a look at this page. What do you see here?`   
 1. What is this page asking you to do?
 2. _If the user does not notice the info box, prompt them:_ What is that message at the top telling you? Do you have any thoughts about that?
-3. What do you think the “edit” button does?
+3. What do you think the “edit” button does? _Follow up:_ What will that look like?
 4. What do you think will happen to your information if you left this page?
 5. What do you expect to happen after you continue?
 
@@ -309,22 +309,25 @@ _If earlier in the session, they indicated that they have filed for travel pay o
 > - 4. Do users imagine that the system will check them or prevent them from creating duplicate appointments?
 
 ### Community care page
-`Moderator: Take a look at this page. What do you see here?`   
+`Moderator: Take a look at this page. Is this what you expected?`   
 1. What is this page asking you?
 2. Do you know what community care means?
 3. What would you do if you didn't understand the question?
 
 ### Community care proof page
-`Moderator: Take a look at this page and think aloud again. What is this page asking you to do?`    
+`Moderator: Take a look at this page. Is this what you expected?`    
 
-`Moderator: Since this is a prototype, we won’t actually upload a real document, but you can click on the box and the prototype will walk you through what it might look like.`
+1. What is this page asking you to do?
+2. What kind of file would you upload here?
+3. How would you upload that file?
 
-1. What kind of document would you upload here?
-2. _If the user has been to a community care appointment:_ Do you typically have this kind of document after a community care appointment?
-3. What would you do if you didn’t have this type of documentation?
-4. What does the phrase "Proof of care received" mean to you?
-5. How might that change if it said "Proof of attendance"?
-6. _If they notice the explanation text:_ Do you have any concerns about what this is telling you?
+`Moderator: Since this is a prototype, we won’t actually upload a real document, but you can click on the box and the prototype will walk you through what it might look like.` _Prompt user to select the file that looks right to them._
+
+4. _If the user has been to a community care appointment:_ Do you typically have this kind of document after a community care appointment?
+5. What would you do if you didn’t have this type of documentation?
+6. What does the phrase "Proof of care received" mean to you?
+7. How might that change if it said "Proof of attendance"?
+8. _If they notice the explanation text:_ Do you have any concerns about what this is telling you?
    
 > [!NOTE]
 > #### Things to watch for:
@@ -408,7 +411,7 @@ _If the user does not notice the note, prompt them with:_
 
 
 ## Section 4: Alternate entry-point evaluation (5-10 minutes)   
-`Moderator: Thank you so much for walking through that with me! Now that you’ve filed through one path, let’s take a look at another way we could file. We’re going to go back to the VA.gov homepage so we can explore another path. Click at the top of the screen, and we'll go back to VA.gov. Now scroll down a little and click on file and manage travel reimbursement claims.` 
+`Moderator: Thank you so much for walking through that with me! Now that you’ve filed through one path, let’s take a look at another path to file. Click the VA logo in the top left corner of the screen, and we'll go back to the VA.gov homepage. Now scroll down a little and click on "File and manage travel reimbursement claims."` 
 
 _Instruct user to click on the option they did not start from last time, either "Go to your past appointments" or "Review your travel reimbursement claims"_
 
@@ -426,22 +429,18 @@ _Instruct user to click on the option they did not start from last time, either 
 > - 2. What reasoning do they provide for a preference?
 
 ## Section 4A: Comparative entry point assessment (Optional, if time permits, 5-10 minutes)   
-`Moderator: Now that you’ve seen both pages, I’d like to show them to you back-to-back. Recall that you want to file a claim for your dermatology appointment, which doesn't appear in your list of past appointments. I'd like to know which page seems most helpful as you try to accomplish that task.` 
+_Moderator prepares to screenshare either "Go to your past appointments" or "Review your travel reimbursement claims". Alternate the order between participants and note which page was shown first, to account for recency bias when synthesizing data. Note the order in [this Google sheet](https://docs.google.com/spreadsheets/d/1VYXLkJXNbPTV6oAzhz-AJvlfiCuB7AoZqMwB6yrQYMw/edit?gid=0#gid=0)._
 
-_Moderator takes over screenshare and shares either "Go to your past appointments" or "Review your travel reimbursement claims". Alternate the order between participants and note which page was shown first, to account for recency bias when synthesizing data._
+`Moderator: Now I'm going to show you something to get your feedback. I'm going to stop your screen sharing. Can you navigate back to the Zoom app?` 
 
-`First, let's look at [either "Go to your past appointments" or "Review your travel reimbursement claims"].` 
+_Once user confirms that they are viewing the Zoom app:_ `I'm going to show you two pages. One or both might look familiar to you. Can you see me scrolling on a page called [page name]? If it appears small on our screen, you can pinch and stretch the screen to zoom in.`
 
-1. What stands out to you? What do you notice?
+`Recall that you want to file a claim for your dermatology appointment, which doesn't appear in your list of past appointments. Review this page, considering what you'd click/tap to file an claim for an appointment that doesn't appear in your past appointments list.`
 
-_Moderator switches to the other page._
+_Switch to other page._ `I'll now give you the same instructions for a different page: recall that you want to file a claim for your dermatology appointment, which doesn't appear in your list of past appointments. Review this page, considering what you'd click/tap to file an claim for an appointment that doesn't appear in your past appointments list.`
 
-1. What stands out to you? What do you notice?
-
-`Now consider both pages. We can go back and forth between them, if you like.` 
-
-1. Which page makes it clearer that you can file for an appointment that isn’t on your list?
-2. If you could only pick one version, which one would you pick?
+1. Now that you've seen both pages, which page feels more helpful to file an claim for an appointment that doesn't appear in your past appointments list?
+2. If you could only file a claim for an appointment that isn't in your past appointments list starting from one of these pages, which page would you pick?
    - Why would you pick that one?
 3. Is there anything you’d change about how you'd start the process of filing for your dermatology appointment, on either page?  
 
@@ -453,12 +452,12 @@ _Moderator switches to the other page._
 
 
 ## Section 5: Wrap up / Post-task interview   
-`Moderator: Moderator: Thank you so much for everything you’ve shared! We’re about to wrap up, so I have some final questions for you.`
+`Moderator: Thank you so much for everything you’ve shared! We’re about to wrap up, so I have some final questions for you.`
 
 1. If you had an appointment that wasn’t showing up on your list, how likely would you be to use this process to file for travel pay? On a scale of 1-5, where 1 is “not at all likely” and 5 is “very likely.”
 2. Why did you assign it that number?
-3. In your own words, can you explain what you did today, as if you were telling another Veteran about it?   
-4. Is there anything that could make you more comfortable about using this process?   
+3. In your own words, can you explain what you did on VA.gov today, as if you were telling another Veteran about it?   
+4. Is there anything that could make you more comfortable about using the process we walked through today to file a claim?   
 5. Do you have any questions for me?   
 
 

@@ -1,0 +1,144 @@
+# Investigation into User Created Appointment Search, Selection, and Claim Handling
+
+## Status
+In Progress
+
+## Context
+
+As part of the User Created Appointment flow and claim submission flow, we need to determine how to:
+1. Search for existing appointments
+2. Associate claims with existing appointments
+3. Handle edge cases when multiple appointments and/or claims exist
+4. Create new appointments when an appointment was not found in the search
+5. Create a new claim for a given appointment
+
+There are two primary backend systems involved:
+- **BTSSS** (includes VAOS appointments + user-created "phantom" appointments) **Includes the BTSSS dynamics id**
+- **VAOS** (only includes VA.gov / VAOS appointments) **Does not include the BTSSS dynamics id**
+
+Key considerations:
+- BTSSS is a superset of VAOS but may include appointments not visible to users in VA.gov
+- VAOS may be less reliable and lacks certain metadata (e.g., appointment source, station ID, BTSSS dynamics id)
+- Using multiple systems introduces inconsistency and complexity
+- The legacy `find-or-add` endpoint introduces redundant searches and is not preferred
+
+## Decisions
+
+### Appointment Search Strategy
+- Use **BTSSS search endpoint** as the primary source for appointment discovery in user created appointments
+- Do **not** use `find-or-add` during this stage of the flow
+- Only perform a **search** initially; create appointments only if none are found
+
+---
+
+### Appointment Handling Scenarios
+
+#### Scenario 1: One Appointment Found (No Claims)
+- Use the found appointment
+- Do **not** allow the user to create a new appointment
+
+---
+
+#### Scenario 2: One Appointment Found (Has Claims)
+- Use the found appointment
+- Do **not** allow the user to create a new appointment
+- Show a message in a modal that "We found a matching appointment with an existing travel claim" and there will be a button that directs the user to the the existing claim
+
+---
+
+#### Scenario 3: Multiple Appointments Found (No Claims)
+- Surface a single appointment to the user
+- Default to the **first appointment returned** by the API
+  - Note: Ideally, this should be the **most recently created appointment**
+  - Future improvement: request `created_at` to be added to the `GET appointments` endpoint from API to support deterministic selection
+- Require the user to use this appointment to file a claim
+
+---
+
+#### Scenario 4: Multiple Appointments Found (One Has a Claim)
+
+- If the claim is **not submitted**:
+  - Prompt:
+    > "We found an appointment with an in-progress claim. Do you want to continue that claim or create a new appointment and claim?"
+
+- If the claim is **submitted**:
+  - Prompt:
+    > "We found an appointment with a submitted claim. Do you want to review it or create a new appointment and claim?"
+
+---
+
+#### Scenario 5: Multiple Appointments Found (Multiple Have Claims)
+- UX to be determined
+- Potential approaches:
+  - Allow user to select from multiple claims
+  - Show modal:
+    > "You have multiple claims for this appointment. Please visit your claims list to review or continue one of them, or continue here."
+- Further design work required
+
+---
+
+### No Appointment Found
+- Create a new appointment using the **POST /api/v3/appointments endpoint**
+- Then create a claim associated with that appointment using the **POST /api/v3/claims endpoint**
+- If any of the POST requests fails:
+  - Show error message:
+    > "Something went wrong. Please try again."
+  - If the appointment was created but the claim was not, the user will then see a new modal message that the appointment was found and that they can create a claim
+  - If the appointment was not created then both POST calls are hit
+
+---
+
+## Rationale
+
+### Why BTSSS Only?
+**Pros:**
+- Contains both VAOS and user-created ("phantom") appointments
+- More complete dataset
+- Avoids duplicate appointment creation when retrying
+- Has the BTSSS Dynamics id
+
+**Cons:**
+- May return appointments not visible in VA.gov UI, potentially confusing users
+- May return multiple similar appointments (same facility/date/time)
+
+---
+
+### Why Not VAOS Only?
+**Cons:**
+- Missing metadata (e.g., appointment source, station ID)
+- Limited search capabilities (date/time only)
+- Does not include phantom appointments
+- Risk of duplicate appointment creation on retries
+- Reliability concerns (frequent downtime)
+- Doesn't have the BTSSS Dynamics id
+
+---
+
+### Why Not `find-or-add`?
+- Performs redundant search operations
+- Obscures flow clarity (implicit create behavior)
+- Explicit separation of search and create improves maintainability
+- Doesnt allow the UX designs that were created
+
+---
+
+## Consequences
+
+### Positive
+- Simplifies backend interaction model (single system for search)
+- Reduces risk of duplicate appointments
+- Provides clearer, more predictable UX flows
+- Enables future improvements (e.g., sorting by creation date)
+
+### Negative
+- Potential user confusion if appointments found in BTSSS are not visible in VA.gov
+- Requires additional UX work for multi-claim scenarios
+- Relies on BTSSS completeness and correctness
+
+---
+
+## Future Considerations
+- Add `created_at` field to appointment API for deterministic selection
+- Improve UX for multiple claims across appointments
+- Re-evaluate combining BTSSS and VAOS if data inconsistencies become problematic
+- Enhance messaging when appointments are not visible in VA.gov

@@ -9,6 +9,9 @@ labels: collaboration-cycle, CC-touchpoint, PO-sync
 
 The [PO Sync touchpoint](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/po-sync) is a synchronous half-hour discussion that provides OCTO-DE and Platform with an early understanding of the purpose and vision behind your team’s proposed work.
 
+- Collaboration Cycle ticket
+- PO Sync meeting date/time:
+
 **Note:** PO Sync is required only for OCTO and VES teams. 
 
 ## Before the meeting
@@ -23,10 +26,6 @@ The [PO Sync touchpoint](https://depo-platform-documentation.scrollhelp.site/col
   - Select a date and time
   - Add your name and email
   - Schedule the event
-
-#### Governance Team actions
-- [ ] Add link to Collaboration Cycle ticket
-- [ ] Add meeting date/time:
 
 ### :three: OCTO Product Owner: add links to artifacts at least 2 days before the meeting
 Link all artifacts here **at least two business days** before the scheduled PO Sync. Please don't add artifacts in the comments section. [See guidance on PO Sync artifacts.](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/po-sync#POSync-Whatartifactswillbeneeded?) 
@@ -46,8 +45,11 @@ Optional:
 ### OCTO-DE Practice Area design leads: Follow up
 - [ ] The initiative receives OCTO alignment to proceed.
   - [ ] Add the `PO-Sync-approved` label to the Collaboration Cycle ticket.
+  - [ ] Close this PO Sync ticket.
 - [ ] The initiative does **not** receive OCTO alignment to proceed
-  - [ ] Comment and close the Collaboration Cycle ticket.
+  - [ ] Comment on the Collaboration Cycle ticket.
+  - [ ] Close this PO Sync ticket.
+  - [ ] Close the Collaboration Cycle ticket.
 
 ## 📋 Collaboration Cycle feedback
 [Complete Collaboration Cycle feedback survey](https://ows.io/qs/o3jkwoez) at any point during your Collaboration Cycle process.

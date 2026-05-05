@@ -45,7 +45,7 @@ O1: VA’s digital experiences are the easiest and most efficient way to access 
 ## Solution Approach
 
 * Conduct technical discovery on wallet settings and UI parameters for Apple and Google Wallet. These discoveries will assist our UX team as we make design adjustments to the Veteran Status Card. The team will also learn the necessary requirements for implementing a digital wallet feature on Apple and Android platforms.     
-* Build and release the Digital Wallet feature for the Veterans Status Card on Apple and Android devices. 
+* Build and release the Digital Wallet feature for the Veterans Status Card on Apple and Android devices.
 
 ## Decision Log
 
@@ -63,6 +63,7 @@ O1: VA’s digital experiences are the easiest and most efficient way to access 
 |9/22/2025| Removed the feedback to vet label to clarify how to access disability rating.| This feedback was given to MFS during Midpoint Review. Michelle approved that UX can remove the feedback-to-vet label during the UX // PO sync.|
 |9/29/2025| Removed the feedback to vet label to provide a success state when a user adds their VSC to the digital wallet.| This feedback was given to MFS during Midpoint Review. Michelle approved that UX can remove the feedback-to-vet label during the UX // PO sync.|
 |11/3/2025| If users need to update their VSC they will use the app-mediated refresh model.| To reduce the risk of a security incident, we will not allow Apple Wallet to refresh VSC passes directly via webServiceURL. These findings are documented [here](https://github.com/department-of-veterans-affairs/va-mobile-feature-support/issues/960#issuecomment-3482251532) |
+|4/6/2025| The wallet and the mobile app handle success messages.| The wallet app (Apple or Google) is responsible for confirming whether the pass was successfully saved and communicating that result back to the VAHB app. The VAHB app is then responsible for receiving that confirmation and presenting the appropriate success message to the user. Neither handles it alone — the wallet owns the result, and the VAHB app owns the presentation of that result. Ticket [here](https://va.ghe.com/software/va-mobile-feature-support/issues/1268). |
 
 ## Reference Materials
 

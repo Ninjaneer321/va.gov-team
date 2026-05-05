@@ -67,11 +67,11 @@ Before enabling your feature toggle in production, you'll need to:
 
 - **Date completed:** Users added 3/31
 - **Number of users:** 13
-- **Results per your "Success" criteria:** 
-- **Number of bugs identified / fixed:** [x/x]
+- **Results per your "Success" criteria:** 9 users confirmed they saw the letter and were able to download the letter. 1 user was unable to see the letter, however the FMP team confirmed that this may have been an issue with user selection. They had no concerns with proceeding.
+- **Number of bugs identified / fixed:** None
 - **Any UX changes necessary based on the logs, user feedback, or VA challenges?**
   - [ ] Yes
-  - [ ] No
+  - [x] No
   - If yes, what: [Document changes needed]
 
 ---
@@ -80,7 +80,7 @@ Before enabling your feature toggle in production, you'll need to:
 
 ### Rollout Planning
 
-- **Desired date range:** 4/6 - 4/10 (May change due to Staging Review and VFMP user recruitment)
+- **Desired date range:** 4/6 - 4/17 
 - **How will you make the product available in production while limiting the number of users who can find/access it:** By using the feature flag `fmp_benefits_authorization_letter` and the `enable_percentage_of_actors` feature to enable it for a percentage of users.
 If mobile testing is desired, both mobile related feature flags should be enabled and the gating of the percentage of the users will be done solely by the `fmp_benefits_authorization_letter` flag.
 - **Success criteria (metrics-based criteria for advancing to the next stage):**
@@ -91,7 +91,7 @@ If mobile testing is desired, both mobile related feature flags should be enable
   - KPI 2: Number of unique users successfully downloading the FMP letter
 - **Links to dashboards showing success criteria metrics:**
   - [DataDog Dashboard](https://vagov.ddog-gov.com/dashboard/n29-azs-rpp?fromUser=false&refresh_mode=sliding&from_ts=1775065921951&to_ts=1775069521951&live=true)
-  - [Google Analytics] (https://analytics.google.com/analytics/web/#/analysis/a50123418p419143770/edit/hkpzxMCySNe5WvYEWRsQQw)
+  - [Google Analytics](https://analytics.google.com/analytics/web/#/analysis/a50123418p419143770/edit/hkpzxMCySNe5WvYEWRsQQw)
 - **Who is monitoring the dashboard(s)?:** BMT3 (Liana Fleming, Seth Darr)
 
 ### Rollback Process
@@ -100,7 +100,7 @@ Rollback will be done by disabling feature flags. To disable FMP letter availabi
 
 **Rollback triggers:** Initiate rollback immediately if any of the following thresholds are breached during any stage:
 - Error rate on the letter download page increases by more than 5% relative to baseline
-- Letter download failure rate exceeds 10%
+- Letter download failure rate exceeds 3%
 - A critical accessibility or data integrity issue is identified
 
 ---
@@ -120,15 +120,18 @@ Rollback will be done by disabling feature flags. To disable FMP letter availabi
 
 #### Results
 
-- **Date completed:** 
-- **Number of users:** [To be filled in]
+- **Date completed:** Enabled to 25% on 4/6/26
+- **Number of users:** 48 users downloaded the letter
 - **Metrics at this stage (per success criteria):**
-  - [ ] No increase in errors on the letter download page
-  - [ ] Successful downloads shown in GA Report
-- **Rollback triggered?** [ ] Yes  [ ] No
-- **Was any downstream service affected by the change?** __
-- **Types of errors logged:** [None / describe]
-- **What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?** [Document or N/A]
+  - [x] No increase in errors on the letter download page - Overall success rate was 99.9% which is consistent or above all other letters
+  - [x] Successful downloads shown in GA Report
+- **Rollback triggered?** [ ] Yes  [x] No
+- **Was any downstream service affected by the change?** No
+- **Types of errors logged:** 2 warnings were logged 
+  - One 499 response code. This means the PDF did not complete downloading, which could be caused by the veteran closing or refreshing prior to the completion or temporary slowness. No immediate remediation needed since we only saw this once.
+  - One 403 response code. This indicates a veteran was authenticated but not authorized to access the letter (e.g. not FMP-eligible, or a Lighthouse entitlement check failing). We have seen this code with other letters and the count is consistent with baseline, so no immediate remediation is needed.
+
+- **What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?** No changes at this time
 
 ---
 
@@ -142,41 +145,19 @@ Rollback will be done by disabling feature flags. To disable FMP letter availabi
 
 #### Results
 
-- **Date completed:** 
-- **Number of users:** [To be filled in]
+- **Date completed:**  Enabled to 50% on 4/7/26
+- **Number of users:** 687 users downloaded the letter
 - **Metrics at this stage (per success criteria):**
-  - [ ] No increase in errors on the letter download page
-  - [ ] Successful downloads shown in GA Report
-- **Rollback triggered?** [ ] Yes  [ ] No
-- **Was any downstream service affected by the change?** __
-- **Types of errors logged:** [None / describe]
-- **What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?** [Document or N/A]
+  - [x] No increase in errors on the letter download page - Overall success rate was 99.7% which is consistent or above all other letters. There was a known outage during this time period that caused the decrease in success rate.
+  - [x] Successful downloads shown in GA Report
+- **Rollback triggered?** [ ] Yes  [x] No
+- **Was any downstream service affected by the change?** No
+- **Types of errors logged:** 8 warnings/errors were logged (5 503s, 2 500s, and 1 422)
+- **What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?** No changes at this time
 
 ---
 
-### Stage D: 75% of Users
-
-*Test a larger user population to ensure larger usage patterns expose no issues.*
-
-#### Planning
-
-- **Percentage of Users:** 75%
-
-#### Results
-
-- **Date completed:** 
-- **Number of users:** [To be filled in]
-- **Metrics at this stage (per success criteria):**
-  - [ ] No increase in errors on the letter download page
-  - [ ] Successful downloads shown in GA Report
-- **Rollback triggered?** [ ] Yes  [ ] No
-- **Was any downstream service affected by the change?** __
-- **Types of errors logged:** [None / describe]
-- **What changes (if any) are necessary based on the logs, feedback on user challenges, or VA challenges?** [Document or N/A]
-
----
-
-### Stage E: 100% of Users
+### Stage D: 100% of Users
 
 #### Planning
 
@@ -184,7 +165,7 @@ Rollback will be done by disabling feature flags. To disable FMP letter availabi
 
 #### Results
 
-- **Date completed:** 
+- **Date completed:**  Enabled to 100% on 4/8/26
 - **Number of users:** [To be filled in]
 - **Metrics at this stage (per success criteria):**
   - [ ] No increase in errors on the letter download page

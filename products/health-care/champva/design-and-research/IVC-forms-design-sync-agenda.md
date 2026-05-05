@@ -1,6 +1,271 @@
 # Running Design and Research Agenda
 
 ----
+
+
+
+## April 23, 2026
+
+Attendees: Renata, Jessica, Hieu, Premal, Andrea, John 
+
+
+### AGENDA: 
+	•	Under-18 form signature
+	•	Reg-only path recap/recommendations
+	•	OHI work
+	•	John's work supporting the CHAMPVA ID card
+	•	Q1 Medallia report internal shareout
+
+
+
+### Notes: 
+
+#### Under 18 Signer
+- age based branching logic - multiple 18, which over 18
+- application under 18; can they sign their own?
+
+Premal - bug in design , need to check with business. Send to Angela for getting answer 
+John - thinks business said anybody could submit, leads to believe anybody can sign. 
+Premal - if they have authorization to submit
+
+Premal - unrelated, merits of having this unauthenticated flow
+
+Renata - ID.me is difficult to get into, blocks a lot of people getting in. Need to make sure people have access to these benefits. Unauth unless required identity verification to do. 
+
+
+#### Reg Only
+Mural 
+https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1776448728525/c56799363ad3883f5a35fca89fd323723fad2550?sender=ubf5503bf47b6eb1e92730053
+
+- Research recap - paper parody vs user confusion
+- The problem - ask users to make a decision they don’t understand
+- Mental model, behavior, case studies
+- Unmoderated study - want to have appointment with these tasks
+- Experimental launch - Registration 2.0
+- Integration with appointments
+
+Premal - not new, similar stories heard, but being asked to do again. Notes from HEC - done through paper, have to visit facility to get a shot, 4th mission enacted want people to do it online 
+
+Premal - talked to appointments team last year, will re-engage with them 
+
+DOW - register at dummy preferred facility , auto registration. 
+
+Hieu - mentioned at on-site mentioned auto-register/enroll not possible
+
+Renata - concerns about paper parody level from business 
+
+
+
+#### OHI Work
+Figma link
+https://www.figma.com/design/sSPoS7R9HE6ZlxRESRy2ms/Other-Health-Insurance-Certification--10-7959c--Form-WIP?node-id=7472-5425&p=f&t=X3of2V5CyDsO8rV3-0
+- Add / update  exploration continued
+- Due to Medallia feedback and business feedback - make it easier and more understandable for users to submit health insurance details that are no longer active
+- Changes to flow around health insurance name and date page
+- Review page utilizing status tag VADS component
+- Hopeful that can integrate with VES once insurance is added there
+- EZR does not have prefill on insurance today
+- ROLES are important here! 
+
+
+#### Q1 Medallia dry run 
+
+
+------
+
+## April 16, 2026
+
+Attendees: Renata, Jessica, Hieu, Premal, Andrea 
+
+
+### AGENDA: 
+- UX roadmap
+- Current state of OHI updates
+- Medallia/OHI quant deep-dive updates
+
+
+
+
+### Notes: 
+
+#### UX Roadmap 
+- Mural overview
+- https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1741036478284/cf85ff75ac061c0cb4edb8c246bbb0c4db453b8e
+- Renata has been moving over on quarterly basis of what has been done at initiative level 
+- Now column, documentation, SOT files, blueprints 
+- Service blueprint 
+- Include what John mentioned to add layer of known friction points - back office and user
+- Ticket for content on FMP-1 
+- Is multi bene or prefill a more user requested feature
+
+Premal - more business sign off, activity of prioritizing, need to understand what. What they recommend, what we recommend - have solid case of why
+
+Renata - quarterly Medallia report, doing something differently where we are trying to connect to work and dates, impact show
+
+Premal - leaning to prefill for Veteran, then pull in dependents 
+- Requirements from enhanced claims experienced, one of reqs is prefill 
+
+
+
+#### Current state of OHI updates
+- content only with C+IA / Monica 
+
+Add / Remove and destructive insurance updates
+
+- walk through content and flow changes for removing health insurances 
+
+https://www.figma.com/design/sSPoS7R9HE6ZlxRESRy2ms/Other-Health-Insurance-Certification--10-7959c--Form-WIP?node-id=7472-5425&p=f&t=EfEaMOOWClQLywUy-0
+
+
+#### Other 
+Box.com type - only works for certain use cases/ flows. Renata found IRS one that was hidden, followed from letter. Will take screen shots to share. How it worked and how it was explained, form vs box.com link. Say when to use form vs drag and drop link.
+- If we ever need to revisit enhanced flows, option to look into
+
+
+- Research done on Claims enhanced flow
+
+- Andrea, enhanced application and TRICARE probably need Collab Cycle
+- Renata - compressed collab cycle as an option. ADE to look a new flows. 
+
+
+
+
+----
+
+## April 9, 2026
+
+Attendees: Renata, Jessica, Chantale, Andrea, John, Premal
+
+
+### AGENDA: 
+- Metrics we collect and how we're using them
+- Possibly any in-flight quick fixes to the OHI standalone (we can also do this review async, I'd like to keep the majority of the time for the metrics and impact measurement discussion!)
+
+
+
+### Notes: 
+
+OHI feedback. Branching logic and content is clear on how to progress 
+Renata - concerns of Veteran completing the OHI form for themselves
+
+Clean up language - out of application update moments 
+
+Upload issues...
+
+
+METRICS AGENDA TOPIC
+
+John - looked at user journey, service journey blueprint overlay to identify friction points
+
+Renata - research study, social listening readout 
+
+https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/research/2024-09-Social%20Listening
+
+Medallia gives a small slice of data
+Feedback and confirmation page survey 
+Confirmation page mostly positive sentiment
+
+Updates to Monthly Report: 
+- Historic data and quantify impact
+- Impact measurements and recommendations 
+
+Premal - Show methodology and results, want to make weekly stakeholder syncs more engaging 
+
+John - User data within the service blueprint, exercise with business partners, do the data from business partners overlap. 
+Backend process and friction is aligning or in different places. 
+
+Looking for consistent patterns with phases/data of time in status 
+
+
+Registration Only on EZ - Premal asking for update shared UX decision folder
+https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/Registration/ux
+
+EZR - Only upload a document, not an entire form
+
+
+----
+
+## April 2, 2026
+
+Attendees: Renata, Hieu, Jessica, Chantale, Andrea, John, Premal
+
+
+### AGENDA: 
+- OHI audit: short-term and long-term recommendations
+
+
+### Notes: 
+
+#### OHI
+- intension: OHI leading DSAT, standalone OHI lower satisfaction ratings
+- Started looking holistically at the CHAMPVA forms system
+- Adding additional tasks and complexity to forms and introduce way finding 
+
+- Hieu shows and walks through Mural
+- Health care Journey high-level with all the nodes of paths/tasks
+- Service blueprint approach: clarity, evident and feedback pillars
+- where there is potential demand failures - each node has its own and severity varies
+
+- 4 different gates or filters that they go through form
+- eligibility filter
+- who are you/applying for
+- supporting docs
+- Status or how to fix that: post submission, form status, claims, appeals
+- John - question and interested in order of eligibility and whom
+
+- OOUX high level overview
+
+- Short term OHI adjustments for quick fixes
+
+
+- Prefill - pulling for Veteran from and reaching family on file for VES
+- Merging OHI with claims process, out of date, and click update
+
+How beneficiaries connected to Veteran - family relationship pulled in and pre-populated
+
+Prefill and family associated - complaints in past data
+
+Agree to bundle OHIs similar to 10-10D submissions - comparable to what is done there
+
+- Better experience, better long term and iterate on it
+- Setup of 10-10d today, back end submits multiple OHIs
+
+- Longer term vision and bigger ares
+- 4 tickets queued up for smaller work
+- CSAT going up - timing of release with visual 
+
+#### OTHER UPDATES: 
+
+Premal - Strategy - do things that business partners don’t know about What we do to get a better experience. Doing this for the user, meet in middle to help program.
+
+
+##### Quarterly readout of Medallia 
+Tie product decisions to direct feedback from users
+
+##### School cert
+ - update that systems are talking to each other. Background update from Premal
+
+##### FMP 
+- letters live next week, so that FMP 1 is a generate letter, push of a button. Long term is to remove FMP 1, update the static pages to redirect. 
+- Talk to Content IA team 
+- remove pain point
+
+
+
+#### USER STORY SUMMARY - How might we style:
+
+- How might we quantify the problem areas holistically for CHAMVPA family and individual dynamics.
+- How might we understand family dynamic mental models as it relates to updating insurance infromation and submitting claims for multiple people in a family. 
+
+- As a product team - how might we better tell the user stories and experiences from qualitative data. 
+
+
+
+
+
+
+
+----
 ## March 19, 2026
 
 

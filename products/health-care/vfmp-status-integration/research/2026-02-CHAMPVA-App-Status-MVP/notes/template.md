@@ -1,5 +1,8 @@
 # P(number)
-> Tip: To fill in a checkbox, add an x in between the brackets, like [x] 
+> [!TIP]
+> - To fill in a checkbox, add an x in between the brackets, like [x]
+> - To indicate an observational note (as opposed to a summary of what the participant is saying), please type OBSERVATION: or O: before the note to differentiate.
+> - If you're an observer, do not worry about following the template exactly! Feel free to just use the main section headings (Scenario 1, Scenario 2, etc.) and ignore the sub-headings if they are confusing.
 
 Participant type
 - [ ] Veteran
@@ -46,26 +49,12 @@ Files tab
 Overview tab
 - notes
 
-Scale of 1-5, how difficult or easy was it to understand the application steps?
-- [ ] 1 - very hard
-- [ ] 2
-- [ ] 3
-- [ ] 4
-- [ ] 5 - very easy
-
 ### Scenario 2: Evidence request
 MyVA
 - notes
 
 CHAMPVA status
 - notes
-
-Scale of 1-5, how difficult or easy was it to understand this screen?
-- [ ] 1 - very hard
-- [ ] 2
-- [ ] 3
-- [ ] 4
-- [ ] 5 - very easy
 
 Birth certificate page
 - notes
@@ -86,6 +75,30 @@ CHAMPVA status
 
 ### Post-Task Interview
 - 
+
+**Likert questions**
+
+I thought the prototype was easy to use.
+- [ ] 1 - Strongly Disagree
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] 5 - Strongly Agree
+
+I felt confident I understood what was happening with each person's application.
+- [ ] 1 - Strongly Disagree
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] 5 - Strongly Agree
+
+I knew where to look to find updates about my application.
+- [ ] 1 - Strongly Disagree
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] 5 - Strongly Agree
+
 
 
 ### Additional Notes**

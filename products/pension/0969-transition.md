@@ -46,6 +46,8 @@ These files capture the post-MVP designs, primarily with enhanced content as a c
   - [Guide to list & loop summary cards](https://www.figma.com/design/tJhSwyQorlgdVPC2UKx1fQ/21P-0969-Pension-or-DIC-Income-and-asset-statement?node-id=6058-82726&t=OM2fZ6Nf1NbpQYr7-4)
   - [MVP vs. Post-MVP Comparison](https://www.figma.com/design/tJhSwyQorlgdVPC2UKx1fQ/21P-0969-Pension-or-DIC-Income-and-asset-statement?node-id=11016-28943)
 - [0969 research findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2025-07%200969%20Usability%20Study/research-findings.md)
+- [combined 0969_527 walkthrough video](https://dvagov.sharepoint.com/:v:/r/sites/vaabdvro/Shared%20Documents/Lifestage%20-%20General/Lifestage%20Transition%20-%20March,%202026/Walkthrough%20Videos/0969+527%20combo.mp4?csf=1&web=1&e=AbzVG5)
+- [mural exploring 0969+527 combo](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1742317253841/97b5418bfc632a580dcc642e3275900a98e743e3?wid=0-1766533105338)
 
 
 ### Engineering
@@ -77,7 +79,7 @@ These files capture the post-MVP designs, primarily with enhanced content as a c
   - Team label: benefits-pension-burial
   - Product label: Income & Asset
   - Workstream label: discovery, product, design, or engineering + frontend or backend
-- Many resources are also backed up in our [Sharepoint transition folder](https://dvagov.sharepoint.com/:b:/r/sites/vaabdvro/Shared%20Documents/Dependents%20Management/Lifestage%20Transition%20-%20March,%202025/LSS%20Design%20Resources.pdf?csf=1&web=1&e=3bdHWD), including meeting agendas and walkthrough videos.
+- Many resources are also backed up in our [Sharepoint transition folder](https://dvagov.sharepoint.com/sites/vaabdvro/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fvaabdvro%2FShared%20Documents%2FLifestage%20%2D%20General%2FLifestage%20Transition%20%2D%20March%2C%202026&viewid=3fa7a9bb%2D3d4e%2D44c2%2Db93f%2D629268a08e72&OR=Teams%2DHL&CT=1717096760601&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNDA0MTEyMjMxNSJ9), including meeting agendas and walkthrough videos.
 
 
 ## Roadmap

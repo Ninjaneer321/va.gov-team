@@ -11,14 +11,17 @@ assignees: ''
 
 The [Midpoint Review touchpoint](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/midpoint-review) is a synchronous half-hour discussion or an asynchronous review. The goal is to confirm your prototype or mockup aligns with existing VA.gov patterns and standards and to ensure your product is ready for successful research activities.
 
+- Collaboration Cycle ticket
+- Midpoint Review Slack thread
+- Midpoint Review meeting date/time:
+
 ## Before the meeting
 
 ### :one: VFS team: create ticket
 - [ ] Open this ticket using the "Create" button.
   
-### :two: Schedule the meeting
+### :two: VFS team: schedule the meeting
 
-#### VFS Team actions
 - [ ] Review [Midpoint Review Guidance](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/midpoint-review) to understand what this touchpoint involves.
 - [ ] Schedule your Midpoint Review (with at least 2 business days lead time from now):
   - Open the [Calendly Midpoint Review calendar](https://calendly.com/collaboration-cycle/design-intent-or-midpoint-review)
@@ -27,10 +30,6 @@ The [Midpoint Review touchpoint](https://depo-platform-documentation.scrollhelp.
   - Add VFS team attendees as guests
   - Schedule the event
 
-#### Governance Team actions
-- [ ] Add link to Collaboration Cycle ticket
-- [ ] Add link to Slack thread
-- [ ] Add meeting date/time:
 
 ### :three: VFS team: add links to artifacts at least 2 days before the meeting
 Link all artifacts **at least two business days** before the scheduled Midpoint Review. Please don't add artifacts in the comments section. [See guidance on Midpoint Review artifacts.](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/midpoint-review#MidpointReview-Whatartifactswillbeneeded?)
@@ -57,12 +56,17 @@ Governance Team feedback is based on the artifacts provided here as well as info
 
 ## After the meeting
 
+### Access the recording
+- Navigate to the [recordings directory](https://dvagov.sharepoint.com/:f:/s/VA-Platform-Governance-DesignIntentandMidpointReview/IgDmjpOqEb0uRLFn7r0LYxDaAY3Op5Se0O0wUMBMdUVXImI?e=neuBFJ).
+- Use the calendar to find the date.
+- Since multiple meetings may occur on the same day, select your specific time.
+
 ### VFS team actions
 
 - [ ] Review feedback. Respond to the comment on this ticket if there are any questions or concerns.
+- [ ] Close this Midpoint Review ticket when all feedback has been reviewed.
 
-### Governance Team actions
-- [ ] Add link to recording
+### Governance Team feedback
 
 Accessibility
   - [ ] Feedback added to milestone

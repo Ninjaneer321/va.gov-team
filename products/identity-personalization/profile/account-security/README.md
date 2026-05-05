@@ -1,18 +1,22 @@
 # Account Security Product Outline
 
-**Last updated:** February 15, 2024 (removing sketch links)
-     
+**Last updated:** April 2, 2026 (Profile 2.0 updates)
+
 ## Table of Contents
 
-- [POCs](#)
-- [Overview](#overview)
-- [User Problem Statement](#user-problem-statement)
-- [Projects](#projects)
-- [Analytics](#analytics)
-- [Backend](#backend)
-- [Frontend](#frontend)
-- [Design and UX](#design-and-ux)
-
+- [Account Security Product Outline](#account-security-product-outline)
+  - [Table of Contents](#table-of-contents)
+  - [POCs](#pocs)
+  - [Overview](#overview)
+  - [User Problem Statement](#user-problem-statement)
+  - [Projects](#projects)
+  - [Analytics](#analytics)
+  - [Backend](#backend)
+    - [Services](#services)
+    - [How to Access and Test](#how-to-access-and-test)
+  - [Frontend](#frontend)
+  - [Design and UX](#design-and-ux)
+    - [Flow diagrams](#flow-diagrams)
 
 ## POCs
 - **Slack channel**: [#accountexp-authexp](https://dsva.slack.com/channels/accountexp-authexp); [#va-profile](https://dsva.slack.com/channels/va-profile)
@@ -20,7 +24,7 @@
 
 ## Overview
 
-Account security is a section of the profile where users can do the following:
+Account security is the parent page to Sign-in information and Connected apps where users can find details on how to modify their account security settings. On the Sign-in information sub page they are able to do the following:
 
 - Verify their identity
 - Add 2-factor authentication to their account

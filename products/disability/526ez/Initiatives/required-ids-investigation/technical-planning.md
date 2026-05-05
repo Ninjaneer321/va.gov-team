@@ -189,3 +189,59 @@ qualifying submissions for these errors. We can work future initiatives to impro
 - [Original Investigation](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131536)
 
 # **Appendix**
+
+## Note from Jacob Worrell
+
+[Original thread](https://dsva.slack.com/archives/C055573C508/p1757610067562639?thread_ts=1757603814.001759&cid=C055573C508)
+
+Why a Veteran Might Not Get Provisioned Each ID
+
+1. Electronic Data Interchange Personal Identifier (EDIPI)
+   Reasons they might have it:
+   All post-1980s service members are entered into the Defense Enrollment Eligibility Reporting System (DEERS) at accession (swearing an enlistment oath, taking a commission)
+
+Reasons they might not:
+Separated before DEERS was implemented (early 1980s).
+Data mismatch (wrong Social Security Number, name change, or bad data load) prevented correct assignment.
+Never enrolled in DEERS properly due to edge cases at accession or separation.
+
+2. Beneficiary Identification and Records Locator Subsystem (BIRLS) ID
+   Reasons they might have it:
+   VBA Records Management Centers (RMCs) historically created one when Service Treatment Records (STRs) were sent to VA at separation.
+   This still happens for Coast Guard, Public Health Service, and National Oceanic and Atmospheric Administration separations.
+   A Regional Office created one when establishing a claim folder using the “BIRLS Add” process in Share.
+
+Reasons they might not:
+For most separations after 2014, Service Treatment Records (STRs) were sent to the Department of Defense’s Healthcare Artifacts and Images Management Solution (HAIMS) instead of RMC, so no automatic BIRLS record was created.
+The Veteran has never filed a claim, so no BIRLS record exists.
+Technical mismatch (for example, STRs sent but no corresponding claims folder, or bad data prevented matching).
+
+3. Participant ID (VBA Corporate Database person key)
+   Reasons they might have it:
+   Created the first time the Veteran is entered into VBA Corporate Database (CorpDB), usually when a claim is established in Veterans Benefits Management System (VBMS).
+   Sometimes created manually by call center staff if a Veteran calls with an issue.
+
+Reasons they might not:
+The Veteran has never filed a claim.
+A claim was started digitally but blocked before VBA Corporate Database could generate the Participant ID.
+Identity mismatch between VA Master Veteran Index (MVI) and VBA Corporate Database prevented creation.
+
+4. Integration Control Number (ICN)
+   Reasons they might have it:
+   Created when the person completes Level of Assurance 3 (LOA3) identity proofing via login.gov or ID.me.
+   Even non-Veterans (like spouses or caregivers) can get one when they identity-proof through VA.gov.
+
+Reasons they might not:
+They never identity-proofed at LOA3 (for example, only browsing VA.gov anonymously).
+Rarely, a technical mismatch in Master Veteran Index (MVI) prevented ICN creation.
+
+Combinations — Why a Veteran Might Have Some but Not All
+ICN only (but no BIRLS or Participant ID):
+ First-time filer, identity-proofed through login.gov or ID.me, but has never filed a claim.
+EDIPI + ICN (but no BIRLS or Participant ID):
+ Typical modern first-time filer — Department of Defense created EDIPI at accession, VA created ICN at identity proofing, but VBA has not yet created their benefit system records.
+BIRLS ID + Participant ID but no EDIPI:
+ More common in older Veterans — especially pre-1980s separations — where VBA created records but DEERS never had them.
+None of the above:
+Someone who is not a Veteran (caregiver, family member, attorney, accredited representative).
+A Veteran who has never been identity-proofed, never filed a claim, and whose Service Treatment Records (STRs) were never sent to VA.

@@ -4,7 +4,7 @@ about: Submit a request to change a URL and/or implement a redirect for a URL. A
   for vanity URL requests.
 title: Redirect Request
 labels: Redirect request, content-ia-centralized-team, ia-centralized-team, VA.gov frontend
-assignees: va-agw, jonichan-ia
+assignees: jonichan-ia, Regina-Lam1, aleksva, leilamartini
 
 ---
 
@@ -16,7 +16,7 @@ assignees: va-agw, jonichan-ia
 | POC | Github alias(es) |
 --- | --- 
 | Product team point(s) of contact: | @ |
-| Content point of contact: | `CAIA will enter` |
+| Content point of contact: | `Content & IA will enter` |
 | IA point of contact: | `IA will enter` |
 
 
@@ -30,7 +30,7 @@ assignees: va-agw, jonichan-ia
 - [ ] Yes - Please note: Redirect still needs approval from IA.
   - [ ] Please verify your team has reviewed [Redirect governance](https://design.va.gov/components/url-standards/redirects) and [Redirect technical implementation information
 ](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/redirect-implementation-strategy.md) 
-- [ ] No - CAIA will need to make Public Websites aware of the ticket.
+- [ ] No - Content & IA team will need to make Public Websites aware of the ticket.
 
 ### Implementation date
 When does this request need to be live? **NOTE:** Redirects in vsp-platform-revproxy auto-deploy M-Th. Friday launches should be avoided.

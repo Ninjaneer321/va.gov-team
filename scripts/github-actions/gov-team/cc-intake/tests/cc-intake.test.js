@@ -7,11 +7,11 @@ vi.mock("octokit", () => {
   return { Octokit: MockOctokit };
 });
 
-vi.mock("../modules/milestones.js", () => ({
+vi.mock("../src/modules/milestones.js", () => ({
   createMilestone: vi.fn().mockResolvedValue("Collab Cycle #100"),
 }));
 
-vi.mock("../modules/intake-parser.js", () => ({
+vi.mock("../src/modules/intake-parser.js", () => ({
   fetchIntakeResponses: vi.fn().mockResolvedValue({
     teamName: "Ask VA (22008)",
     productName: "Ask VA",
@@ -26,7 +26,7 @@ vi.mock("../modules/intake-parser.js", () => ({
   }),
 }));
 
-vi.mock("../modules/team-manifest.js", () => ({
+vi.mock("../src/modules/team-manifest.js", () => ({
   fetchTeamManifest: vi.fn().mockResolvedValue({
     teamReadme: "https://github.com/org/repo/blob/master/teams/ask-va/README.md",
     teamLabels: ["ask-va"],
@@ -36,12 +36,12 @@ vi.mock("../modules/team-manifest.js", () => ({
   }),
 }));
 
-vi.mock("../modules/issue-body.js", () => ({
+vi.mock("../src/modules/issue-body.js", () => ({
   buildIssueBody: vi.fn().mockReturnValue("# Built issue body"),
   updateIssueBody: vi.fn().mockResolvedValue(undefined),
 }));
 
-vi.mock("../modules/labels.js", () => ({
+vi.mock("../src/modules/labels.js", () => ({
   addLabelsToIssue: vi.fn().mockResolvedValue(undefined),
 }));
 
@@ -50,13 +50,13 @@ process.env.ISSUE_NUMBER = "100";
 process.env.GITHUB_REPOSITORY = "owner/repo";
 process.env.GITHUB_WORKSPACE = "/workspace";
 
-const { processIntake } = await import("../cc-intake.js");
+const { processIntake } = await import("../src/process-cc-intake.js");
 
-import { createMilestone } from "../modules/milestones.js";
-import { fetchIntakeResponses } from "../modules/intake-parser.js";
-import { fetchTeamManifest } from "../modules/team-manifest.js";
-import { buildIssueBody, updateIssueBody } from "../modules/issue-body.js";
-import { addLabelsToIssue } from "../modules/labels.js";
+import { createMilestone } from "../src/modules/milestones.js";
+import { fetchIntakeResponses } from "../src/modules/intake-parser.js";
+import { fetchTeamManifest } from "../src/modules/team-manifest.js";
+import { buildIssueBody, updateIssueBody } from "../src/modules/issue-body.js";
+import { addLabelsToIssue } from "../src/modules/labels.js";
 
 describe("processIntake", () => {
   beforeEach(() => {
@@ -163,7 +163,7 @@ describe("cc-intake module-level guards", () => {
     delete process.env.ISSUE_NUMBER;
     vi.resetModules();
 
-    await import("../cc-intake.js");
+    await import("../src/process-cc-intake.js");
 
     expect(exitSpy).toHaveBeenCalledWith(1);
 

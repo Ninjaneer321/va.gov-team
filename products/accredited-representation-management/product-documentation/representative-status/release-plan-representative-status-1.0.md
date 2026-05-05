@@ -20,13 +20,13 @@
 
 ## Staged Rollout Details
 
-- Rollout date range: 5/13-5/20
+- Rollout date range: 5/13-5/20/2024
 - Feature Toggle: `representative_status_enabled` will be disabled in Production prior to staged rollout and will be enabled to an increasing % of users during the rollout. This will control visibility of the Representative Status Widget on our [Find a Representative page](https://www.va.gov/get-help-from-accredited-representative/find-rep/).
 - Errors will be tracked in Sentry and Datadog, and will trigger a Slack alert to our team channel #benefits-representation-management-notifications, to initiate our rollback process (detailed above)
 
 
 ## Staged Rollout Schedule
-**Go/No Go meeting 5/13 at 1:35p ET**
+**Go/No Go meeting 5/13/2024 at 1:35p ET**
 1. Stage A: 10% of users on 5/13 (Monday)
 2. Stage B: 50% of users on 5/15 (Wednesday)
 3. Stage C: 100% of users on 5/20 (Monday)

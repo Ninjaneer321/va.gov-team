@@ -25,12 +25,13 @@ Prior to the implementation of these questions on VA.gov, all 686c claims from V
 
 -----
 #### Q1
-![image](https://github.com/user-attachments/assets/4b22efdf-50bc-4568-9f6e-8fa0355feebc)
+![image](https://github.com/user-attachments/assets/4102c084-ce23-4caf-9f5d-a3a10d72cf5e)
 - This question is asked when a dependent is being added via a 21-686c
+- The dependent type listed in the question is changed to match the type of dependent the Veteran is adding (child, spouse, etc.)
 
 -----
 #### Q2
-![image](https://github.com/user-attachments/assets/6aed80c8-d502-415b-91d4-bd8299ba3512)
+![image](https://github.com/user-attachments/assets/611b2c02-92de-4693-8355-c19f9450ebf5)
 - This question is asked at the end of all dependent addition branches in the 686 flow.
 - VA.gov will flip the answer before sending to RBPS for reasons outlined in [historical context section](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/products/dependents/pension_income_questions.md#historical-context). (If the user answered Y, VA.gov will send RBPS N, etc.)
 - The net worth limit is updated each year in October. VA.gov leverages an API to automatically update the limit within this question, but the pdf (overflow) and the backup quesiton if the API fails need to be manually updated each year.

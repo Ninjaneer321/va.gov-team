@@ -3,7 +3,7 @@ title: "2026-01 Save in Progress (2nd round of usability testing) Research Findi
 product: "Save in Progress for online VA.gov forms"
 team: "ADE (Accessibility Digital Experience)"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2026-03-17"
+date: "2026-04-23"
 researchers:
   - "Cindy Merrill"
 research_goals:
@@ -75,10 +75,13 @@ recommendations:
     **Don't roll out the interstitial page to forms. Instead, consider adding short text just above the Continue button on every page** (e.g., "Your information is being saved automatically"). Hopefully this will convey the message, but if some people miss it, maybe that's OK.
       - _Supporting evidence_: Most participants ignored the interstitial page when it came up or forgot what it said because it appeared as an interruption to their task of filling out a VA form and didn't seem relevant.
   - |
+    **Consider rolling out the "Finish later" button** in place of the “Finish this request later” link in the minimal form flow.
+      - _Supporting evidence_: All 7 participants found the "Finish later" button intuitive to save their work, even if they didn't remember it from the interstitial page.
+  - |
     **Investigate ways of deleting in-progress forms and notifying users about forms in progress within a certain time frame before they are deleted**.
       - _Supporting evidence_: Almost all participants wanted to be notified before their forms were deleted via email and/or text, with one participant suggesting a notification in the VA mobile app. Most people wanted the first notification within 1-7 days of having selected "Finish later", and then once a week after that. All 8 participants asked said they wanted to be able to delete a form they started but never finished.
   - |
-    **Consider moving the accordion controls to the left side so as to increase visibility for screen magnifier users who may not see any controls on the right.** --> *Cindy shared this finding with Chandra Carney from the US Web Design System team on 2/17/2026 via email, but hasn't yet received a reply. Design System & Forms ticket: [Feature request] Move open/close icons of accordions to the left #4798.
+    **Consider moving the accordion controls to the left side so as to increase visibility for screen magnifier users who may not see any controls on the right.** --> *Cindy shared this finding with Chandra Carney from the US Web Design System team on 2/17/2026 via email, and Jeana has a ticket for it.
       - _Supporting evidence_: 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side, including the participant who was using a screen magnifier.
   - |
     **Try to update the source code so that the "Finish later" message on the "form-saved" page is read as one continuous sentence** (vs. separate chunks, which causes the browser to display them on separate lines, which caused pauses with mouse echo). --> Feature request for the Forms Library
@@ -139,6 +142,7 @@ outcomes:
   business: "Not specified"
 opportunity_areas: []
 further_research_needed:
+  - "Check analytics for the existing \"Finish this request later\" link on VA forms to see how much it's being used. Then see if changing this link to a button (as tested in this study) results in more clicks."
   - "Any additional research should **include some participants who are 35 years old or younger**."
   - "Any additional research should **include more participants who use screen magnification**."
   - "Consider checking analytics for the existing \"Finish this request later\" link on VA forms to see how much it's being used. Then see if changing this link to a button (as tested in this study) results in more clicks."
@@ -171,12 +175,12 @@ tags:
 
 **Office of the CTO - Digital Experience (OCTO-DE), Accessibility Digital Experience (ADE)**
 
-**Date:** 03/17/2026
+**Date:** 04/23/2026
 
 **Contacts:** Cindy Merrill
 
-**[Research Readout (PDF)](link-here)**  
-*Add a link to your research readout deck, if available.* **TBD**
+**[Research Readout (PDF)](./Save%20in%20Progress%202%20research%20readout_0403_rem.pdf)**  
+
 
 **Jump to:**
 - [Hypotheses and conclusions](#user-content-hypotheses-and-conclusions)
@@ -194,7 +198,7 @@ This research study is intended to get user feedback on a revised design that ho
 
 ### Figure 1 shows the new interstitial page
 
-<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2026-01-save-in-progress-2/images/interstitial.PNG" width="50%" height="50%" alt="The new interstitial page explains that the information you enter in the form will saved, and that you can select the Finish later button anytime to stop">
+<img src="./images/interstitial.PNG" width="50%" height="50%" alt="The new interstitial page explains that the information you enter in the form will saved, and that you can select the Finish later button anytime to stop">
 
 ## Research Goals
 The **goals of this research** were to 
@@ -348,32 +352,32 @@ Eight participants said they wanted to be able to delete a form they started but
 1. One participant expressed his **appreciation for us taking the time to learn from Veterans**:
     > *"I'm happy you guys are doing this because I go to other kinds of websites, and it's just a nightmare trying to get through--the way they've laid stuff out. So I'm very happy that you guys asked for feedback for the user experience. It's fantastic! Thanks" (p7).*
 
-1. Three participants encountered **accessibility issues while filling out the form while using a screenreader**
+1. Three participants encountered **accessibility issues while filling out the form while using a screen reader**
 
-     1. P3 was using the JAWS screenreader on desktop with mouse echo (which announces whatever is under the mouse), and **JAWS didn't announce any "Country" select/dropdown options when the dropdown was open and the mouse was over an item**. He had to click to select an option before the screen reader announced it. This is a known issue that affects screen readers and mouse control of dropdown menus, which unfortunately is not fixable.
+     1. P3 was using the JAWS screen reader on desktop with mouse echo (which announces whatever is under the mouse), and **JAWS didn't announce any "Country" select/dropdown options when the dropdown was open and the mouse was over an item**. He had to click to select an option before the screen reader announced it. This is a known issue that affects screen readers and mouse control of dropdown menus, which unfortunately is not fixable.
 
      1. Another issue P3 encountered (JAWS with mouse echo) is that text that looked like **one sentence was announced in small chunks** instead of as a single sentence, resulting in awkward pauses and missed information. For example, here's how the "Finish later" message  on the "form-saved" page sounded (each ellipsis required a mouse movement): "Your personal records request has been saved...Jan 13, 2026 at 5:43 pm...Your saved...request...will expire on...March 14, 2026."
 
-     1. P4 (VoiceOver screenreader on an iPhone in Safari browser) experienced the **form intro page load with focus in the wrong place**--it was in the footer instead of the top of the page where it was supposed to be. This is a known issue with VoiceOver and Safari that has no known fix.
+     1. P4 (VoiceOver screen reader on an iPhone in Safari browser) experienced the **form intro page load with focus in the wrong place**--it was in the footer instead of the top of the page where it was supposed to be. This is a known issue with VoiceOver and Safari that has no known fix.
 
-     1. P8 (infrequently uses the TalkBack screenreader on Android) **didn't understand the word "va"**, which was how TalkBack announced "VA". He figured it out after listening to it a few times. The general consensus is to leave this as is because AT users get used to it.
+     1. P8 (infrequently uses the TalkBack screen reader on Android) **didn't understand the word "va"**, which was how TalkBack announced "VA". He figured it out after listening to it a few times. The general consensus is to leave this as is because AT users get used to it.
 
 1. Two participants were **frustrated with their AT, perhaps because the tools weren't appropriate for their level of impaired vision**, and they didn't know that another tool might meet their needs better. 
-     1. P6 with low vision wasn't using a screenreader on his smartphone but instead a **tool that reads aloud whatever text you highlight with your finger. He kept wanting the tool to read aloud everything on the screen**, but it skipped some text (including accordions) and read some text in small parts with breaks in between (e.g., on the "Records requested" page of the form, as well as the message that appears after you select "Finish later"). At the end of the session, we recommended that the participant try the VoiceOver screenreader.
+     1. P6 with low vision wasn't using a screen reader on his smartphone but instead a **tool that reads aloud whatever text you highlight with your finger. He kept wanting the tool to read aloud everything on the screen**, but it skipped some text (including accordions) and read some text in small parts with breaks in between (e.g., on the "Records requested" page of the form, as well as the message that appears after you select "Finish later"). At the end of the session, we recommended that the participant try the VoiceOver screen reader.
 
         <details><summary>Screenshot of the menu that P6 used to ask his phone to "Speak" aloud the text that he highlighted with his finger in Figure 2</summary>
 
         Figure 2 shows the VA form number "20-10206" split across two lines.
 
-        <img src="./images/p6-highlight-then-menu-to-read-aloud.png" width="35%" height="35%" alt="The text '3 of 6 Records requested' is highlighted, and there's a menu popped up that has 6 options, the last of which says 'Speak'">
+        <img src="./images/p6-highlight-then-menu-to-read-aloud.png" width="35%" height="35%" alt="The text '3 of 6 Records requested' is highlighted, and there's a popup menu open that has 6 options, the last of which says 'Speak'">
         </details>
 
 
         > *"I'd like to read it all, but I don't know how to make it do that...It will only let me highlight the first item that appears…'3 of 6 records requested.' Okay, so there's way more information than what you just heard. It looks like it's gonna make me highlight every little bit. I like to do the whole page" (p6).*
 
-        P6's phone read only one item at a time because it was reading the one checkbox option that he had currently selected, which is expected behavior. He didn't know that a screenreader would enable him to read everything on the page without highlighting text.
+        P6's phone read only one item at a time because it was reading the one checkbox option that he had currently selected, which is expected behavior. He didn't know that a screen reader would enable him to read everything on the page without highlighting text.
 
-     1. P8 with low vision was using the TalkBack screenreader on his Android phone to qualify for the AT session, but normally he uses it only as a last resort. He **dislikes TalkBack because it talks too much, is difficult to stop, and scrolling is different**. He didn't know that there were tools that can read text for you without announcing so much about the page and navigation. 
+     1. P8 with low vision was using the TalkBack screen reader on his Android phone to qualify for the AT session, but normally he uses it only as a last resort. He **dislikes TalkBack because it talks too much, is difficult to stop, and scrolling is different**. He didn't know that there were tools that can read text for you without announcing so much about the page and navigation. 
 
         Usually P8 gets by without reading most of the content and infers what's there or has memorized where to go and what to do from previous experiences. He can read black text on white but it's blurry. He can't read colored text or links, any text on non-white backgrounds, or in dim light. He prefers to use his PC instead of a smartphone since he can increase the brightness/contrast and zoom in. Sometimes he copies colored text into Word, where he can change the text to black. 
 
@@ -398,7 +402,7 @@ Eight participants said they wanted to be able to delete a form they started but
         </details>
 
 
-     1. Two screenreader users **expected to be able to select one of the record types listed on the form intro page**, but they weren't selectable. This also happened to one screenreader user in the previous round of usability research.
+     1. Two screen reader users **expected to be able to select one of the record types listed on the form intro page**, but they weren't selectable. This also happened to one screen reader user in the previous round of usability research.
         > *"But these are only bullets, not checkmarks, so I know I have to go to the form" (p4).*
 
     1. One participant **didn't know what "Fiduciary services" means** and how it's different from "Financial records". These were two of the items listed under "Types of information you can request". 
@@ -470,17 +474,20 @@ Eight participants said they wanted to be able to delete a form they started but
 1. **Don't roll out the interstitial page to forms. Instead, consider adding short text just above the Continue button on every page** (e.g., "Your information is being saved automatically"). Hopefully this will convey the message, but if some people miss it, maybe that's OK.
    - _Supporting evidence_: Most participants ignored the interstitial page when it came up or forgot what it said because it appeared as an interruption to their task of filling out a VA form and didn't seem relevant.  
 
+1. **Consider rolling out the "Finish later" button** in place of the “Finish this request later” link in the minimal form flow.
+   - _Supporting evidence_: All 7 participants found the "Finish later" button intuitive to save their work, even if they didn't remember it from the interstitial page.
+
 1. **Investigate ways of deleting in-progress forms and notifying users about forms in progress within a certain time frame before they are deleted**.
    - _Supporting evidence_: Almost all participants wanted to be notified before their forms were deleted via email and/or text, with one participant suggesting a notification in the VA mobile app. Most people wanted the first notification within 1-7 days of having selected "Finish later", and then once a week after that. All 8 participants asked said they wanted to be able to delete a form they started but never finished.
 
-1. **Consider moving the accordion controls to the left side so as to increase visibility for screen magnifier users who may not see any controls on the right.** --> *Cindy shared this finding with Chandra Carney from the US Web Design System team on 2/17/2026 via email, but hasn't yet received a reply. Design System & Forms ticket: [[Feature request] Move open/close icons of accordions to the left #4798](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/4798)*
+1. **Consider moving the accordion controls to the left side so as to increase visibility for screen magnifier users who may not see any controls on the right.** --> *Cindy shared this finding with Chandra Carney from the US Web Design System team on 2/17/2026 via email, and Jeana has a ticket for it.*
    - _Supporting evidence_: 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side, including the participant who was using a screen magnifier.
 
 1. **Try to update the source code so that the "Finish later" message on the "form-saved" page is read as one continuous sentence** (vs. separate chunks, which causes the browser to display them on separate lines, which caused pauses with mouse echo). --> *Feature request for the Forms Library*
    - _Supporting evidence_: P3 had to keep moving his mouse in order to hear each of the 6 small segments of text in the "Finish later" informational alert.  
 
 #### For the ADE team
-5. **Explore opportunities to help Veterans who are struggling with their assistive tech and may be unaware of other options**. 
+6. **Explore opportunities to help Veterans who are struggling with their assistive tech and may be unaware of other options**. 
 
      - _Supporting evidence_: Two participants mentioned frustrations with their assistive tech and didn't know that a different tool might meet their needs better. 
      
@@ -492,7 +499,7 @@ Eight participants said they wanted to be able to delete a form they started but
 
 ### *Not* directly related to research goals
 #### For the Design System and Forms team
-6. **Consider making the "Back to previous page" link easier to notice**. The current font size is smaller than it should be--16 pixels instead of 16.96. Also could consider adding a second "Back to previous page" link on the bottom of the page. --> *Fix the font size bug*. 
+7. **Consider making the "Back to previous page" link easier to notice**. The current font size is smaller than it should be--16 pixels instead of 16.96. Also could consider adding a second "Back to previous page" link on the bottom of the page. --> *Fix the font size bug*. 
    - _Supporting evidence_: One non-AT participant said that they didn't notice this link at the top of the page because it was so small.  
 
 1. **Consider disabling the scrolling of accordions to the top of the viewport when you open an accordion on the "Review and submit" page**. --> *Remove scrollToFocus from all accordions on the page*
@@ -502,7 +509,7 @@ Eight participants said they wanted to be able to delete a form they started but
    - _Supporting evidence_:  The prompt "VA file number" has only "VA" capitalized, but the hint text also capitalizes the word "File".
 
 #### For the Content team
-9. **Consider revising the "Your full name" prompt on the "Review and submit" page to refer to what you entered before** (e.g., "Your name as entered earlier in the form")  
+10. **Consider revising the "Your full name" prompt on the "Review and submit" page to refer to what you entered before** (e.g., "Your name as entered earlier in the form")  
     - _Supporting evidence_: Six of 7 participants didn't realize that the name that you enter for "Your full name" must exactly match what they entered as their name at the beginning of the form. One participant called out that "Full name" requires your full middle name, not just your middle initial, as the form asked for earlier.
 
 1. **Avoid using the phrases "My VA" and "form introduction" in Veteran-facing web pages because they're not intuitive.**
@@ -517,7 +524,7 @@ Eight participants said they wanted to be able to delete a form they started but
 
 #### For the Request Personal Records form
 
-13. **Prioritize adding the prefill pattern to this form**. --> *The Design System and Forms team is finalizing the prefill pattern in the Forms Library, and then all teams will be able to easily add it to their forms. Existing forms will need some code refactoring.*
+14. **Prioritize adding the prefill pattern to this form**. --> *The Design System and Forms team is finalizing the prefill pattern in the Forms Library, and then all teams will be able to easily add it to their forms. Existing forms will need some code refactoring.*
      - _Supporting evidence_: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. A participant in the previous round of usability testing stated the same expectation.
 
 1. **Be consistent about indicating optional fields**. --> *Fix bug: Remove the word "optional" from the "Additional records information" and "VA regional office" fields , per current Collaboration Cycle guidance*
@@ -534,34 +541,50 @@ Eight participants said they wanted to be able to delete a form they started but
 
 
 #### For the ADE team
-18. **Consider researching the issue with Zoom silently kicking out an iPhone VoiceOver user** (iPhone 15 Pro running iOS 26.2 with both Safari and Chrome) to make sure this doesn't happen in Production and is only an issue with the Codespace. --> *Jeana is unable to reproduce this in our Codespace, on Staging, or on Production. Cindy will ask some people in ADE to try to reproduce the issue*.
+19. **Consider researching the issue with Zoom silently kicking out an iPhone VoiceOver user** (iPhone 15 Pro running iOS 26.2 with both Safari and Chrome) to make sure this doesn't happen in Production and is only an issue with the Codespace. --> *Jeana is unable to reproduce this in our Codespace, on Staging, or on Production. Cindy will ask some people in ADE to try to reproduce the issue*.
     - _Supporting evidence_: Zoom silently kicked p4 out of the session when he selected the "Sign in" or "Continue" button in the Codespace. 
   
 
 ## Next Steps
 
-*Outline immediate actions based on findings, including owners if applicable.*  
-
-> [!TIP]
-> Once your **Recommendations** and **Next Steps** are finalized, you can quickly turn them into GitHub issues using the reusable Copilot prompt in [`create-issues-from-research-findings-prompt.md`](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/create-issues-from-research-findings-prompt.md).  
-> **After creating issues, add their hyperlinks back here under their corresponding "Recommendation" or "Next Step."**
-> 
-> If you need Github Copilot Enterprise Access, please complete this [Issue](https://github.com/department-of-veterans-affairs/copilot-onboarding/issues/new?template=copilot-onboarding.yml).
-
 ### For the VA Design System and Forms Team
 
 1. Explore more accessible approaches to inform users that their form is being saved based on these research findings.
+
+     1. Add auto-save text above Continue button on every VA form page [#136898](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136898)
+     1. "Finish this application" button styled like a link [#6061](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/6061)
+     1. Investigate deletion and notification for in-progress VA forms [#136899](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136899)
+     1. Try to update source code so that "Finish later" message on "form-saved" page is read as one continuous sentence [#136900](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136900)
+
 1. Discuss content-related findings and recommendations with the Content team.
+     1. Statement of Truth component: Revise 'Your full name' prompt on "Review and Submit" page to refer to earlier entry [#136905](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136905)
+     1. Avoid using 'My VA' and 'form introduction' phrases in forms interface [#136964](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136964)
+     1. Make the form number on the form intro page display on a single line [#136970](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136970)
+     1. Address Pattern: Add a duplicate "United States" option near the bottom of the country dropdown [#136983](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136983)
 1. Review and prioritize the usability and accessibility revisions to the Forms Library.
+     1. Make "Back to previous page" link more visible on form pages [#136902](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136902)
+     1. Disable auto scrolling when opening accordions on "Review and Submit" page [#136903](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136903)
+     1. Fix capitalization of "VA file number" in hint text on "SSN/VA file number" page [#136904](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136904)
+     1. 20-10206 Prefill [#1006](https://github.com/department-of-veterans-affairs/VA.gov-team-forms/issues/1006)
+
 1. Review and prioritize the usability and accessibility revisions to the Request personal records form.
+     1. Remove inconsistent 'optional' labeling from fields [#136975](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136975)
+     1. Add helper text to 'Additional records information' field to guide users [#136973](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136973)
+     1. Provide a dropdown list of VA regional offices for selection [#136977](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136977)
+     1. Separate "Place of Birth" field into distinct City, State, and Country fields [#136981](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136981)
 1. Followup with the US Web Design System team about the location of accordion controls.
+     1. Move open/close icons of accordions to the left [#4798](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/4798)
+
 
 ### For the ADE team
 
 6. Work on opportunities to help Veterans who are struggling with their assistive tech.
-1. Try to reproduce the Zoom/iPhone/VoiceOver issue.
+     1. Explore opportunities to assist Veterans struggling with assistive tech [#136901](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136901)
+     1. Research issue with Zoom kicking out iPhone VoiceOver user during research session [#136987](https://github.com/department-of-veterans-affairs/va.gov-team/issues/136987)
 
 ## Further research needed
+
+1. **Check analytics for the existing "Finish this request later" link** on VA forms to see how much it's being used. Then see if changing this link to a button (as tested in this study) results in more clicks.
 
 1. Any additional research should **include some participants who are 35 years old or younger**. The two such participants recruited for this study didn't show up.
 
@@ -682,20 +705,10 @@ The form we tested has 9 pages of questions, and each page has at the bottom a *
 <details>
   <summary>Figure 18: My VA page with various sections including "Forms and applications"</summary>
    <img src="./images/MyVA-top.png" width="100%" height="100%" alt="top of the My VA page with a heading for Claims and appeals">
-   <img src="./images/MyVA-middle.png" width="100%" height="100%" alt="headings for Health care, Outstanding debts, and Benefit payments">
-   <img src="./images/MyVA-bottom.png" width="100%" height="100%" alt="headings for Education and training, and Benefit applications and forms">
+   <img src="./images/MyVA-middle.png" width="100%" height="100%" alt="headings for Forms and applications, and Health care">
+   <img src="./images/MyVA-bottom.png" width="100%" height="100%" alt="headings for Outstanding debts, Benefit payments, and Education and training">
 
 </details>
-
-
-> [!IMPORTANT]
-> **After completing the demographic information below and saving this file**, use the [GitHub Copilot Research Findings Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md) to automatically populate the YAML frontmatter section at the top of this document with: 
-> - Participant demographics (counts, age ranges, education levels, etc.)
-> - Key findings and recommendations
-> - Research goals and methodology
-> - Appropriate research repository tags
->
-> The prompt will parse the demographic data from this section and structure it correctly for the frontmatter's nested YAML format. 
 
 ### Research participants 
 
@@ -791,7 +804,7 @@ This research does not include the perspectives of the following marginalized Ve
 
 ### Recruitment of underserved groups in Save in Progress (2nd round usability testing)
 
-![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2026-01-save-in-progress-2/images/VA-recruitment-checker.png)
+![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](./images/VA-recruitment-checker.png)
 
 #### A more accessible version of the table in the above image
 

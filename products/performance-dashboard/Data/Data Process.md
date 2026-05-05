@@ -128,7 +128,7 @@ Video Recordings:
 
     - Staging GA dataset id: [c8ffc4d2-b4e5-4516-b6ad-e325fcaf1d6e](https://va-gov.domo.com/datasources/c8ffc4d2-b4e5-4516-b6ad-e325fcaf1d6e/details/data/table)
 
-    - Dev Staging dataset id: [84d8c3be-f15b-49b4-8500-af737df737a0](https://va-gov.domo.com/datasources/84d8c3be-f15b-49b4-8500-af737df737a0/details/data/table)
+    - Staging Medallia dataset id: [84d8c3be-f15b-49b4-8500-af737df737a0](https://va-gov.domo.com/datasources/84d8c3be-f15b-49b4-8500-af737df737a0/details/data/table)
 
   
 ## Metrics Mapping Guide 

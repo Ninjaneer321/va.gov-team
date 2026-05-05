@@ -52,7 +52,10 @@ Data is sent **weekly on Monday**
 | va.gov/my-health/travel-pay/file-new-claim/[appointmentId]/[claimId]/confirmation | |
 | va.gov/my-health/travel-pay/file-new-claim/[appointmentId]/[claimId]/create-claim-error | API call fails when trying to create new claim |
 | va.gov/my-health/travel-pay/file-new-claim/[appointmentId]/[claimId]/get-claim-error | API call fails upon entry to claim in progress |
-
+| va.gov/my-health/travel-pay/file-new-claim/select-facility | Can be expected May 2026; user-created appointment information |
+| va.gov/my-health/travel-pay/file-new-claim/appointment-information | Can be expected May 2026; user-created appointment information |
+| va.gov/my-health/travel-pay/file-new-claim/confirm-appointment-information | Can be expected May 2026; user-created appointment information |
+| va.gov/my-health/travel-pay/file-new-claim/[appointmentId]/[claimId]/community-care | Can be expected May 2026; user-created appointment information |
 
 
 ## Patient check-in

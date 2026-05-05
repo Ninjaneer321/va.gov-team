@@ -10,6 +10,7 @@ Please note that links in older posts may be invalid or may have been removed. P
 |Release Date| Notes + Details
 |--|--|
 **FY2026**
+|April 6, 2026| **Electronic Fund Transfer Information for Medical Copay** EFT Enrollment for Copay Refunds - https://www.va.gov/resources/how-to-set-up-direct-deposit-for-va-health-care-copay-refunds/  A few related unauthenticated pages that now link to the new page, either in Q&As or as related information:https://www.va.gov/change-direct-deposit/ and https://www.va.gov/resources/direct-deposit-for-your-va-benefit-payments/ and https://www.va.gov/resources/how-to-change-direct-deposit-information-for-va-benefits/ |
 |Nov 12, 2025| **One Thing Per Page** Release launched in prodution. Phased release stared on Nov 12. Reached 100% on November 19, 2025 |
 **FY2025**
 |Sept 15, 2025| **Receivable ID** for Education Overpayment debts launched in production |

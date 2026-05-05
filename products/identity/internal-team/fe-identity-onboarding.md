@@ -1,3 +1,7 @@
+> **Archived:** MM-YYYY
+> **Reason:** [Superseded by newer version]
+> **Replacement:** [Link to current doc](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Frontend/frontend_onboarding_checklist.md)
+
 # VSP Identity Frontend Engineers
 __Current Team__ 
 - Alex Garcia

@@ -115,8 +115,23 @@ Answers to the following questions will influence the next iteration
 - How many forms don't relate to benefits at all?
 - How many forms have more than one audience?
 - How many forms have non-Veteran audiences (and who are they?)
-- How many Veteran-facing forms also require actions from non-Veteran audiences?  
+- How many Veteran-facing forms also require actions from non-Veteran audiences?
 
+## Artifacts
+
+### Analysis of supporting content for forms
+- [Synthesis of audit and analytics](https://dvagov.sharepoint.com/:w:/r/sites/oitcontentiaeditorexp/_layouts/15/Doc.aspx?sourcedoc=%7BA6A87FE7-88D0-48C0-9812-42590B194196%7D&file=Audit%20of%20supporting%20content%20for%20forms.docx&action=default&mobileredirect=true)
+- [Analytics for supporting content pages](https://dvagov.sharepoint.com/:x:/r/sites/oitcontentiaeditorexp/_layouts/15/Doc.aspx?sourcedoc=%7BE9635D62-201B-485D-BBFE-39D97ACACB75%7D&file=Forms%20supporting%20content%20pages%20analytics.xlsx&action=default&mobileredirect=true)
+- [Audit of supporting content pages](https://dvagov.sharepoint.com/:x:/r/sites/oitcontentiaeditorexp/_layouts/15/Doc.aspx?sourcedoc=%7B7D877C0B-A794-4BB4-A5B5-048079BA0187%7D&file=Centralized%20forms%20content%20audit.xlsx&action=default&mobileredirect=true)
+
+### IA discovery and design
+- [IA Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1696009952077/c8bad5a3f7128491afb4c6a1d749acbaba480d81?sender=u2aba00c97ab77c6ec1573123)
+- [Early IA initiative and data](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/information-architecture/initiatives/centralized-forms)
+- Related:  [Form within a form discovery Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1733085553521/0527af22cdfe6ac91627efef4a3a262d3ee8932a?sender=u2aba00c97ab77c6ec1573123)
+
+### Research Documents
+- [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/centralized-forms/research/centralized-forms-conversation-guide.md)
+- [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/centralized-forms/research/centralized-forms-user-research-plan.md)
 
 ## Measuring Success
 
@@ -133,55 +148,58 @@ Answers to the following questions will influence the next iteration
 - Increased ability for wider contribution to the digital forms space
 - Decreased number of search best bets needed to highlight the most valid option in search
 
-
-
-
-
-
-
-
 ### Artifacts
 - OCTO epic: [Centralized online forms #1160](https://github.com/orgs/department-of-veterans-affairs/projects/940/views/18?filterQuery=portfolio%3A%22OCTO+Digital+Experience%22+crew-%2F-pod%3A%22Content%2C+IA%2C+Editor+Experience%22&pane=issue&itemId=75354026&issue=department-of-veterans-affairs%7Cdigital-experience-products%7C1160)
-
-
+- Public Websites Epics:
+  - [EPIC] [Centralized Forms] Research, Design, and Implementation of new centralized forms landing and about form pages [#22927](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/22927)
+  - [EPIC] [Centralized Forms] Support the new Forms home [#22177](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/22177)
+  - [EPIC] [Centralized Forms] Support the new Forms home [#22177](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/22177)
 
 ## Scope
 
 
 ## Launch Planning
+- Drupal changes TBD
+- Front end changes TBD
 
 ### Collaboration Cycle
-Milestone | Date | Notes |
----| :---: | :---: |
-| Collab cycle kickoff  | |
-| PO Sync |  | |
-| Design Intent | | |
-| CMS Request| | |
-| Research review| | |
-| Midpoint Review| | |
-| Analytics request| | |
-| Contact center review| | |
-| Staging review| | |
-| Privacy, security, infrastructure readiness review| | |
-| Architecture Intent| | |
+
+| Milestone | Date | Ticket | Status | Notes |
+| :---------| :--- | :----- | :----- |:------|
+| Collab cycle ticket creation  | 10/22/2025 | [122973](https://github.com/department-of-veterans-affairs/va.gov-team/issues/122973) |  |
+| PO Sync | 12/02/2025 | 122973 | Completed/Passed |  
+| Design Intent | 03/03/2026 | 122973|  |  
+| Research review | | |  |
+| Architecture Intent | TBD |[23767](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/23767) | Document in progress |  |
+| Midpoint Review | TBD | |  |
+| Analytics request |TBD | |  |
+| Contact center review |TBD | |  |
+| Staging review | TBD | |  |
+| Privacy, security, infrastructure readiness review | TBD | |  |
+
+
+### CMS Request
+No longer part of the collaboration cycle. We will reach out directly to them for collaboration.
 
 ### Timeline 
-> *Describe any major milestones for this initiative including organizational, legislative, etc. constraints.*
-
+- Mocks and prototype created: February/March 2026
+- Prototype created and mocks updated: March/April 2026
+- Research conducted: April 2026
+- Research Synthesis: April 2026
+- BE/FE work started: April 2026
+- BE/FE work target completion: May 2026
 
 
 #### Initiative Launch Dates
 - *Target Launch Date*
-  - tbd
+  -End of May 2026
 - *Actual Launch Date* 
   - tbd
 
 ---
    
-## Screenshots
 
-### Before
-
-### After
+## Analytics
+- 2025 Analytics spreadsheet (in Sharepoint)
 
 ---

@@ -186,3 +186,125 @@ AI Guides behave as a scripted decision tree with light AI augmentation rather t
 ## Final Verdict
 
 This approach is **not viable for production** for VA.gov sign-in support because it cannot meet core requirements around context awareness, conversational adaptability, and tone alignment.
+
+## Update (Post-QA Findings & Direction Change)
+
+During QA validation, a critical issue was identified where the chatbot fails to retrieve Knowledge Base (KB) responses and instead defaults to Veterans Crisis Line (VCL) responses, even for standard sign-in related queries.
+
+### Observed Behavior
+
+- User queries such as:
+  - “How can I login?”
+  - “I forgot my password”
+  - “My account is locked”
+
+- Expected Behavior:
+  - Route to relevant sign-in KB content
+
+- Actual Behavior:
+  - Routed to Veterans Crisis Line (VCL) messaging
+  - Conversation often terminates immediately after response
+  - In some cases, user is presented with “No agent available” and chat session ends
+
+### Impact
+
+- Prevents validation of intended AI Guide flows
+- Blocks access to correct sign-in guidance
+- Creates a misleading and inappropriate user experience
+- Results in premature conversation termination, preventing recovery or escalation
+
+---
+
+## Additional QA Findings
+
+### 1. VCL Routing Overrides KB Responses
+**Status: Critical Issue**
+
+- VCL responses are triggered regardless of user intent
+- Appears to override or intercept normal KB retrieval logic
+- Makes it impossible to validate:
+  - Intent recognition
+  - Knowledge retrieval accuracy
+  - Multi-turn flow behavior
+
+---
+
+### 2. Conversation Termination Issues
+**Status: Critical Issue**
+
+- Chat sessions end unexpectedly after:
+  - VCL response
+  - “No agent available” message
+
+- No recovery path is provided to the user
+- Breaks expected conversational continuity
+
+---
+
+### 3. Inconsistent System Behavior
+**Status: Blocking Issue**
+
+- Some flows intermittently reach KB responses
+- Others are consistently redirected to VCL
+- Behavior is non-deterministic and environment-dependent
+
+---
+
+### 4. Regression Validation Attempt
+**Status: Confirmed Persistent Issue**
+
+- The AI Guides implementation was reverted to a prior version where the VCL routing issue was previously believed to be resolved
+- After re-testing this version, the VCL misrouting behavior persisted
+- This indicates the issue is likely not isolated to recent changes and may exist at:
+  - Platform level
+  - Configuration level outside of AI Guides
+  - Upstream routing or orchestration layer
+
+---
+
+## Testing Limitations
+
+Due to the above issues:
+
+- Full validation of AI Guide functionality could not be completed
+- Key areas impacted:
+  - KB response accuracy
+  - Clarification logic
+  - Multi-turn adaptability
+  - Intent switching and recovery
+
+---
+
+## Project Direction Update
+
+Following these findings, the team has received direction to:
+
+> Discontinue further investment in Genesys AI Guides for this use case
+
+As a result:
+
+- No additional debugging or root cause analysis will be performed for:
+  - VCL misrouting behavior
+  - KB retrieval inconsistencies
+- Documentation of current findings is being preserved for historical and technical reference only
+
+---
+
+## Final Assessment (Updated)
+
+In addition to previously identified limitations (rigid flows, lack of context awareness, no tone control):
+
+- The platform demonstrates critical routing and stability issues during QA
+- Core functionality such as KB retrieval cannot be reliably validated
+- The system introduces high risk of incorrect or inappropriate responses (VCL misrouting)
+- Issue persists even after reverting to a previously stable implementation
+
+### Updated Verdict
+
+This approach is not viable for production for VA.gov sign-in support due to:
+
+- Inability to reliably retrieve correct KB responses  
+- Incorrect escalation to unrelated support channels (VCL)  
+- Conversation instability and premature termination  
+- Lack of control over core conversational behavior  
+- Persistent platform-level or upstream routing issues  

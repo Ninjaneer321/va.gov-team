@@ -1,3 +1,5 @@
+> **Note:** This document is deprecated. Please refer to the [Product Outline](./product-outline.md) for current product documentation.
+
 # Product Brief: Supplemental Claim Form (20-0995)
 
 ## Team Communications

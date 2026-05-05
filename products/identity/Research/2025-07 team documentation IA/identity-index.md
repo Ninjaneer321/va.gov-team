@@ -21,9 +21,9 @@ Each individual component includes:
         - [Session timeout](https://depo-platform-documentation.scrollhelp.site/developer-docs/authentication#Authentication-SessionTimeout)
         - [Maintenance banners](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Frontend/downtime-banners.md)
         - [Sign-in errors](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Troubleshooting_logging/Authentication_Errors#troubleshooting-authentication-errors)
-    - Sign-in experience (new)
-        - [Research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research)
+    - [Sign-in experience (new)](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/sign-in-experience)
         - [Secure sign-in transition](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/sign-in-transition)
+        - Reducing dissatisfaction (new)
 - [Platform authentication](https://depo-platform-documentation.scrollhelp.site/developer-docs/authentication)
     - [Backend infrastructure](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/login/reference-documents/auth/authentication-and-authorization-simplified.md)
         - [Tokens and sessions](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/login/user-session)
@@ -38,10 +38,12 @@ Each individual component includes:
         - [ID.me](https://depo-platform-documentation.scrollhelp.site/developer-docs/id-me)
         - [Master Person Index (MPI)](https://depo-platform-documentation.scrollhelp.site/developer-docs/mvi)
         - [SSOe (Single Sign-on External)](https://depo-platform-documentation.scrollhelp.site/developer-docs/ssoe)
+    - [Identity policies](https://github.com/department-of-veterans-affairs/va.gov-team/blob/470b2ba8c4c6c1b7cf168737755ce2607fc92954/products/identity/Products/Design%20Documents/UserAttribute_Rules.md)
     - [Security](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams/vsp/teams/Identity/Documentation/Security)
         - [Security policies and compliance](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Policies%20and%20Procedures)
         - [Logging and monitoring](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams/vsp/teams/Identity/Documentation/Logging_Monitoring)
         - [FWA](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams/vsp/teams/Identity/Documentation/FWA)
+- [Research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research)
 - [Sensitive research](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams/vsp/teams/Identity/research)
      
 ## Subject matter experts
@@ -58,14 +60,14 @@ Each individual component includes:
 | -- Maintenance banners | Caitlin |
 | -- Sign-in errors | Caitlin |
 | - Sign-in experience | Lainey |
-| -- Research | Lainey |
+| -- Reducing dissatisfaction | Lainey |
 | -- Secure sign-in transition | Lainey |
 | Platform authentication | Trevor |
 | - Backend infrastructure | Riley |
 | -- Tokens and sessions | John B. |
-| -- My HealtheVet account creation API | TBD |
+| -- My HealtheVet account creation API | John B. |
 | -- UserModel | John B. |
-| - Security policies and compliance | Joe |
+| - Identity policies | Joe |
 | - STS integrations | John B. |
 | - Sign-in Service (SiS) | John B. |
 | - External integrations | Trevor |
@@ -76,7 +78,7 @@ Each individual component includes:
 | -- SSOe (Single Sign-on External) integration | Trevor |
 | - Security | Joe |
 | -- Security policies and compliance | Joe |
-| -- Logging and monitoring | Joe |
+| -- Logging and monitoring | John B. |
 | -- FWA | Joe |
-| - Sensitive research | Clayton |
+| - Research | Clayton |
 

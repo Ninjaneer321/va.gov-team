@@ -11,14 +11,17 @@ assignees: ''
 
 The [Design Intent touchpoint](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/design-intent) is a synchronous half-hour discussion focused on design decisions. This meeting ensures you’re building a product that meets VA.gov standards before you’ve done any high-fidelity work on artifacts or prototypes.
 
+- Collaboration Cycle ticket
+- Design Intent Slack thread
+- Design Intent meeting date/time:
+
 ## Before the meeting
 
 ### :one: VFS team: create ticket
 - [ ] Open this ticket by using the "Create" button
   
-### :two: Schedule the meeting
+### :two: VFS team: schedule the meeting
 
-#### VFS team actions
 - [ ] Review the [Design Intent Guidance](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/design-intent) to understand what this touchpoint involves.
 - [ ] Schedule your Design Intent (with at least 2 business days lead time):
   - Open the [Calendly Design Intent calendar](https://calendly.com/collaboration-cycle/design-intent-or-midpoint-review)
@@ -26,11 +29,6 @@ The [Design Intent touchpoint](https://depo-platform-documentation.scrollhelp.si
   - Add your name and email
   - Add VFS team attendees as guests
   - Schedule the event
-     
-#### Governance Team actions
-- [ ] Add link to Collaboration Cycle
-- [ ] Add link to Slack thread
-- [ ] Add meeting date/time:
 
 ### :three: VFS team: add links to artifacts at least 2 days before the meeting
 Link all artifacts **at least two business days** before the scheduled Design Intent. Please don't add artifacts in the comments section. [See guidance on Design Intent artifacts.](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/design-intent#DesignIntent-Whatartifactswillbeneeded?)
@@ -53,12 +51,17 @@ Governance Team feedback is based on the artifacts provided here as well as info
 
 ## After the meeting
 
+### Access the recording
+- Navigate to the [recordings directory](https://dvagov.sharepoint.com/:f:/s/VA-Platform-Governance-DesignIntentandMidpointReview/IgDmjpOqEb0uRLFn7r0LYxDaAY3Op5Se0O0wUMBMdUVXImI?e=neuBFJ).
+- Use the calendar to find the date.
+- Since multiple meetings may occur on the same day, select your specific time.
+
 ### VFS team actions
 
 - [ ] Review feedback. Respond to the comment on this ticket if there are any questions or concerns.
+- [ ] Close this Design Intent ticket when all feedback has been reviewed.
 
-### Governance Team actions
-- [ ] Add link to recording
+### Governance team feedback
 
 Accessibility
   - [ ] Feedback added to milestone

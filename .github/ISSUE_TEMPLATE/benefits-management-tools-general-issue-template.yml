@@ -16,6 +16,7 @@ body:
         - decision-letter-notifications
         - intent-to-file (ITF)
         - platform-health
+        - benefit-letters
         - other
     validations:
       required: true

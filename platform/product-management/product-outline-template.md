@@ -1,5 +1,6 @@
 <!-- WARNING: This is a template meant to be copied and then modified. Please DO NOT MODIFY directly or MOVE this file. -->
 # Product Outline Template
+* Please create a copy of this template and store it in your product folder. ***DO NOT MAKE CHANGES TO THE TEMPLATE SPECIFIC TO YOUR PRODUCT.*** 
 *Iterating on a product? Have a new feature? Check out the [Initiative Brief Template.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/initiative-brief-template.md)*
 
 ---

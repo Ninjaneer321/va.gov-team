@@ -101,7 +101,7 @@ Participant: They sent me a letter in the mail.
 21
 00:01:46.530 --> 00:01:48.520
 Moderator: How… and how did that feel?
-
+F
 22
 00:01:49.380 --> 00:01:56.309
 Participant: I don't know, I feel like the VA, they're so slow sometimes, so I don't think they purposely let you…
@@ -860,7 +860,7 @@ Moderator: Debit card, you're saying?
 
 211
 00:18:44.100 --> 00:18:44.719
-Participant: fuck, yeah.
+Participant: yeah.
 
 212
 00:18:44.720 --> 00:18:45.510

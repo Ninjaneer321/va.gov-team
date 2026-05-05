@@ -11,6 +11,7 @@ import sys
 import re
 import json
 import subprocess
+import yaml
 from pathlib import Path
 from datetime import datetime, timedelta
 from typing import List, Dict, Optional, Tuple
@@ -18,6 +19,11 @@ from typing import List, Dict, Optional, Tuple
 
 class ResearchFileFinder:
     """Handles finding and processing research files."""
+
+    # Minimum number of bracket placeholders (e.g. [Insert …]) that indicate
+    # a report is still an unfilled template.
+    BRACKET_PLACEHOLDER_THRESHOLD = 5
+    MAX_REPORT_AGE_DAYS = 90
     
     def __init__(self):
         self.shared_files_log = Path(".github/workflows/shared-research-files.log")
@@ -120,7 +126,104 @@ class ResearchFileFinder:
         except IOError:
             return False
             
-    def find_research_files(self, ignore_time_delay: bool = False) -> List[str]:
+    def is_report_complete(self, file_path: str) -> Tuple[bool, str]:
+        """Check whether a research report has substantive content or is still an unfilled template.
+
+        Researchers sometimes commit the findings template before any research
+        has been conducted.  This method detects common template placeholder
+        patterns so those files are skipped until they contain real content.
+
+        Returns:
+            (is_complete, reason) – *True* when the file looks like a real
+            report; *False* with a human-readable reason when it still appears
+            to be an unfilled template.
+        """
+
+        try:
+            content = Path(file_path).read_text(encoding='utf-8')
+        except UnicodeDecodeError:
+            content = Path(file_path).read_text(encoding='latin-1')
+        except IOError as exc:
+            # If we can't read the file at all, let downstream steps deal
+            # with the error – don't block on it here.
+            print(f"Warning: Could not read {file_path} for completeness check: {exc}")
+            return True, ""
+
+        # ------------------------------------------------------------------
+        # 1. YAML front-matter checks
+        # ------------------------------------------------------------------
+        front_matter = self._parse_front_matter(content)
+        if front_matter:
+            # Placeholder date still set to template default
+            fm_date = str(front_matter.get('date', '')).strip()
+            if fm_date.upper() == 'YYYY-MM-DD':
+                return False, "Front-matter date is still the template placeholder (YYYY-MM-DD)"
+
+            # key_findings still contain generic placeholders
+            fm_findings = front_matter.get('key_findings', [])
+            if isinstance(fm_findings, list) and fm_findings:
+                placeholder_findings = {f.strip().lower() for f in fm_findings if isinstance(f, str)}
+                template_defaults = {'finding 1', 'finding 2'}
+                if template_defaults.issubset(placeholder_findings):
+                    return False, "Front-matter key_findings still contain template placeholders"
+
+        # ------------------------------------------------------------------
+        # 2. Title still contains the "[Study]" placeholder
+        # ------------------------------------------------------------------
+        title_match = re.search(r'^#\s+\[Study\]\s+Research\s+Findings', content, re.MULTILINE | re.IGNORECASE)
+        if title_match:
+            return False, "Report title still contains the [Study] template placeholder"
+
+        # ------------------------------------------------------------------
+        # 3. Key Findings section contains only template placeholders
+        # ------------------------------------------------------------------
+        kf_match = re.search(
+            r'^#{1,6}\s+Key\s+Findings\s*$(.*?)(?=^#{1,6}\s|\Z)',
+            content,
+            re.MULTILINE | re.DOTALL | re.IGNORECASE,
+        )
+        if kf_match:
+            kf_body = kf_match.group(1)
+            # Strip template boilerplate (italicized instructions, tip blocks, example links)
+            kf_stripped = re.sub(r'>\s*\[!TIP\].*?(?=\n[^>]|\Z)', '', kf_body, flags=re.DOTALL)
+            kf_stripped = re.sub(r'\[Example .+?\]\(.+?\)', '', kf_stripped, flags=re.IGNORECASE)
+            kf_stripped = re.sub(r'\*[^*\n]+\*', '', kf_stripped)  # italic instructions
+
+            # Collect the list items in the section
+            items = re.findall(r'^\s*(?:\d+[\.\)]|[\-\*])\s+(.+)', kf_stripped, re.MULTILINE)
+            if items:
+                generic_item = re.compile(r'^Finding\s+(one|two|three|four|five|six|seven|eight|nine|ten|\d+)$', re.IGNORECASE)
+                if all(generic_item.match(item.strip()) for item in items):
+                    return False, "Key Findings section contains only template placeholder items"
+
+        # ------------------------------------------------------------------
+        # 4. High density of bracket placeholders like [Insert …]
+        # ------------------------------------------------------------------
+        bracket_placeholders = re.findall(
+            r'\[(?:Insert\s+[^\]]+|Study|study)\]',
+            content,
+            re.IGNORECASE,
+        )
+        if len(bracket_placeholders) >= self.BRACKET_PLACEHOLDER_THRESHOLD:
+            return False, f"Report contains {len(bracket_placeholders)} bracket placeholders (e.g. [Insert …])"
+
+        return True, ""
+
+    @staticmethod
+    def _parse_front_matter(content: str) -> Optional[Dict]:
+        """Parse YAML front matter from markdown content."""
+        if not content.strip().startswith('---'):
+            return None
+        parts = content.split('---', 2)
+        if len(parts) < 3:
+            return None
+        try:
+            fm = yaml.safe_load(parts[1])
+            return fm if isinstance(fm, dict) else None
+        except yaml.YAMLError:
+            return None
+
+    def find_research_files(self, ignore_time_delay: bool = False, ignore_completeness_check: bool = False) -> List[str]:
         """Find research files that meet sharing criteria."""
         eligible_files = []
         
@@ -140,11 +243,24 @@ class ResearchFileFinder:
                         print(f"Skipping already shared file: {file_str}")
                         continue
                         
-                    # Check age requirement (3+ days unless ignored)
+                    # Check age requirement (14+ days unless ignored)
                     if not ignore_time_delay:
                         age_days = self.get_file_age_days(file_str)
-                        if age_days < 3:
+                        if age_days < 14:
                             print(f"Skipping recent file (age: {age_days} days): {file_str}")
+                            continue
+                        # Skip if too old (older than 90 days)
+                        if age_days > self.MAX_REPORT_AGE_DAYS:
+                            print(
+                                f"Skipping old file (age: {age_days} days, max: {self.MAX_REPORT_AGE_DAYS}): {file_str}"
+                            )
+                            continue
+
+                    # Check report completeness (skip unfilled templates)
+                    if not ignore_completeness_check:
+                        is_complete, reason = self.is_report_complete(file_str)
+                        if not is_complete:
+                            print(f"Skipping incomplete report ({reason}): {file_str}")
                             continue
                             
                     eligible_files.append(file_str)
@@ -152,7 +268,8 @@ class ResearchFileFinder:
         return eligible_files
         
     def process_files(self, event_name: str, manual_file_path: str = "", 
-                    ignore_time_delay: bool = False) -> Dict:
+                    ignore_time_delay: bool = False,
+                    ignore_completeness_check: bool = False) -> Dict:
         """Main processing logic for finding eligible files."""
         self.setup_tracking()
         
@@ -174,7 +291,7 @@ class ResearchFileFinder:
                 
         else:
             # Automatic discovery
-            eligible_files = self.find_research_files(ignore_time_delay)
+            eligible_files = self.find_research_files(ignore_time_delay, ignore_completeness_check)
             
             if eligible_files:
                 # Process only the first file to avoid overwhelming Slack
@@ -190,15 +307,16 @@ class ResearchFileFinder:
 def main():
     """Main entry point for the script."""
     if len(sys.argv) < 2:
-        print("Usage: python research_finder.py <event_name> [file_path] [ignore_time_delay]")
+        print("Usage: python research_finder.py <event_name> [file_path] [ignore_time_delay] [ignore_completeness_check]")
         sys.exit(1)
         
     event_name = sys.argv[1]
     manual_file_path = sys.argv[2] if len(sys.argv) > 2 else ""
     ignore_time_delay = sys.argv[3].lower() == 'true' if len(sys.argv) > 3 else False
+    ignore_completeness_check = sys.argv[4].lower() == 'true' if len(sys.argv) > 4 else False
     
     finder = ResearchFileFinder()
-    result = finder.process_files(event_name, manual_file_path, ignore_time_delay)
+    result = finder.process_files(event_name, manual_file_path, ignore_time_delay, ignore_completeness_check)
     
     # Output results for GitHub Actions
     github_output = os.environ.get('GITHUB_OUTPUT')

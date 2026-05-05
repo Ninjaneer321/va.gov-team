@@ -1,10 +1,29 @@
 # VA Sitewide Facilities Team Definition of Done
 
-Definition of Done
-Sitewide Facilities Team
-Created 2/3/2023
-
 “Definition of Done” is to be used as a checklist for every user story (“issue”, “ticket”) in order to call the work “done”. Note that this is a living document and as such will be reviewed and revised at least quarterly.
+
+## Updated October 2025
+
+- [ ] Development
+   - [ ] Code completed 
+   - [ ] PR write up complete
+   - [ ] Automated tests passed 
+   - [ ] Code review requested 
+   - [ ] PR approved (meets established quality and security standards)
+- [ ] Review instance created/available
+  - [ ] Team members notified to start QA process
+- [ ] QA Process
+  - [ ] A11y review (meets accessibility standards)
+  - [ ] Design Review (meets design & UX requirements)
+  - [ ] Functional/feature review (meets acceptance criteria)
+- [ ] QA feedback reviewed/addressed, if any
+- [ ] Testing completed; dev team notified to deploy
+- [ ] PO/PM/external verify in prod
+- [ ] Documentation updated
+
+
+
+## Created 2/3/2023
 
 **For Every User Story:**
 - [ ] All Acceptance Criteria are met

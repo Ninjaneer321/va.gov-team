@@ -281,14 +281,15 @@ Dates: 3/2 9:50a - 3/11 11:59p
 
 ### 1-month results
 
-- Number of unique users: [FILL_IN]
-- Post-launch KPI 1 actual: [FILL_IN]
-- Post-launch KPI 2 actual: [FILL_IN]
-- Post-launch KPI 3 actual: [FILL_IN]
-- Any issues with VA handling/processing?: [PICK_ONE]: yes | no |  N/A
-- Types of errors logged: [FILL_IN]
-- Any UX changes necessary based on the logs, feedback on user challenges, or VA challenges? [PICK_ONE]: yes | no |  N/A
+Dates: 2/12 - 4/5 11:00p
+- Number of unique users: 588,663 push notifications sent
+- Post-launch KPI 1 actual: DataDog errors < 5% (3.7% observed)
+- Post-launch KPI 2 actual: 12.2% click through rate overall (Estimated 71655 clicks, 588, 663 sent)
+- Any issues with VA handling/processing?:  No
+- Types of errors logged: New error seen were caused by a known bad deployment of vets-api. Otherwise the standard expected errors were seen - MPI Profile not found, missing ssn,
+- Any changes necessary based on the logs, feedback on user challenges, or VA challenges? no
 - If yes, what: [FILL_IN]
+
 
 ## Post-launch Questions
 
@@ -297,6 +298,6 @@ Dates: 3/2 9:50a - 3/11 11:59p
 1. How do the KPIs you gathered compare to your pre-launch definition(s) of "success"?
 2. What qualitative feedback have you gathered from users or other stakeholders?
 3. How might your product evolve now or in the future based on these results?
-    - No know improvements at this time
+    - No known improvements at this time
 4. What technical tasks are needed to clean up (i.e., removal of feature toggles)? 
     - Feature flag removal

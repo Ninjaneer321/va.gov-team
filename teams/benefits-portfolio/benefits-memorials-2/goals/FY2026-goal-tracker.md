@@ -21,23 +21,81 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 | P6 | **Prioritized Maintenance**  |[#130107](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130107)|Complete and launch priority work listed in the epic. | UX-FE-BE |None  |  |
 
 
-
-## Quarterly Sprint Goals for FY26Q2 (Jan, Feb, Mar 2026)  
-*Quarter Sprints include 26, 1, 2, 3 & 4
+## Quarterly Sprint Goals for FY26Q3 (April, May, June 2026)  
+*Quarter Sprints include 5, 6, 7, 8, 9, 10, & 11*
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
+
+## Sprint: 7 [04/22/26 - 05/05/26]  
+| Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
+|--|--|--|--|--|
+|ENG: Update GMT year (after May 1, 2026) in conjunction with VHA if HUD data is released during the sprint. | P1 |--|--|--|
+|ENG: Update Lighthouse mock data.| P1 |--|--|--|
+|UX: Finalize Managing Overpayments Product Guide and submit to Contact Center for review in advance of MFS launch.| P4 |--|--|--|
+|UX: In collaboration with stakeholders, define best case scenarios for Hardship Suspension initiative.| P5 |--|--|--|
+|UX: Complete February and March Medallia reporting, bringing all reporting to the most current state.| P6 |--|--|--|
+|ENG: Complete any planned or new critical maintenance tickets/bugs. | P6 |--|--|--|
+
+**Sprint rollover tickets**
+| Additional work that was pulled in mid-sprint | Scope of work changed after ticket started | Work became blocked mid-sprint |  Work was underestimated and not completed |
+|---------------|---------------|---------------|---------------|
+|Ticket #|Ticket #|Ticket #|Ticket #|
+
+**_Approvals:_** _(sent via email but approvals tracked here)_
+ - [X] Ready to be sent for approvals (04/21/26)
+ - [X] VA PO & COR sent the Sprint Goals (04/21/26)
+ - [X] VA PO approved the Sprint Goals (04/22/26)
+ - [X] VA COR approved the Sprint Goals (04/22/26)
+
+**_Delivery + Notes:_**
+- [ ] All goals have been updated in the sprint chart
+- [ ] Any Additional details about goals **not** completed will be documented here
+
+
+
+
+
+## Sprint: 6 [04/08/26 - 04/21/26]  
+| Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
+|--|--|--|--|--|
+|ENG: Finalize solution for payment history mock data. | P1 |--|--|Incomplete|
+|ENG: Complete required testing artifacts for Staging Review after implementing the Cerner/VistA data updates.| P1 |--|--|Incomplete|
+|UX: Present formal research readout for Pay.gov and VA.gov overpayment payment experience.| P2 |--|--|Completed|
+|UX: Update and present Hardship Suspension process map to DMC stakeholders to ensure alignment on current process.| P5 |--|--|Completed|
+|ENG: Complete any planned or new critical maintenance tickets/bugs.| P6 |--|--|Completed|
+|UX: Complete review of quantitative data for February and March Medallia reports. | P6 |--|--|Completed|
+
+**Sprint rollover tickets**
+| Additional work that was pulled in mid-sprint | Scope of work changed after ticket started | Work became blocked mid-sprint |  Work was underestimated and not completed |
+|---------------|---------------|---------------|---------------|
+|Ticket #1639796|Ticket #138715 |Ticket #132524|Ticket #128481|
+|Ticket #|Ticket #131383|Ticket #116143|Ticket #138622|
+|Ticket #|Ticket #135015|Ticket #132368|Ticket #|
+|Ticket #|Ticket #|Ticket #|Ticket #|
+
+**_Approvals:_** _(sent via email but approvals tracked here)_
+ - [X] Ready to be sent for approvals (04/07/26)
+ - [X] VA PO & COR sent the Sprint Goals (04/07/26)
+ - [X] VA PO approved the Sprint Goals (04/08/26)
+ - [X] VA COR approved the Sprint Goals (04/08/26)
+
+**_Delivery + Notes:_**
+- [X] All goals have been updated in the sprint chart
+- [X] Any Additional details about goals **not** completed will be documented here.
+-  For this goal: "ENG: Finalize solution for payment history mock data," due to the code freeze, the team wasn't able to complete this since the feature work is still in progress.
+-  For this goal: "ENG: Complete required testing artifacts for Staging Review after implementing the Cerner/VistA data updates" the team was unable to complete these final artifacts which required mock data updates.
 
 ## Sprint: 5 [03/25/26 - 04/07/26]  
 | Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|ENG: Finalize frontend code adjustments to accommodate the Cerner/VistA data updates.| P1 |--|--|--|
-|ENG: In coordination with Lighthouse, implement a solution to add users and update Payment History mock data.| P1 |--|--|--|
-|ENG: Stretch goal: Complete required testing artifacts for Staging Review after implementing the Cerner/VistA data updates.| P1 |--|--|--|
-|UX: Complete Research Findings document and schedule Readout for Pay.gov benefit overpayment debt payments study.| P2 |--|--|--|
-|UX: Identify authenticated pages where link to EFT enrollment instructions is needed.| P6 |--|--|--|
-|ENG: Accept full ownership of Benefit Payment History Tool from BMT3 team.| P3 |--|--|--|
-|ENG: Complete any planned or new critical maintenance tickets/bugs.| P6 |--|--|--|
-|
+|ENG: Finalize frontend code adjustments to accommodate the Cerner/VistA data updates.| P1 |--|--|Completed|
+|ENG: In coordination with Lighthouse, implement a solution to add users and update Payment History mock data.| P1 |--|--|Incomplete|
+|ENG: Stretch goal: Complete required testing artifacts for Staging Review after implementing the Cerner/VistA data updates.| P1 |--|--|Incomplete|
+|UX: Complete Research Findings document and schedule Readout for Pay.gov benefit overpayment debt payments study.| P2 |--|--|Complete|
+|UX: Identify authenticated pages where link to EFT enrollment instructions is needed.| P6 |--|--|Complete|
+|ENG: Accept full ownership of Benefit Payment History Tool from BMT3 team.| P3 |--|--|Complete|
+|ENG: Complete any planned or new critical maintenance tickets/bugs.| P6 |--|--|Complete|
+
 **Sprint rollover tickets**
 | Additional work that was pulled in mid-sprint | Scope of work changed after ticket started | Work became blocked mid-sprint |  Work was underestimated and not completed |
 |---------------|---------------|---------------|---------------|
@@ -46,14 +104,22 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [X] Ready to be sent for approvals (03/25/26)
  - [X] VA PO & COR sent the Sprint Goals (03/25/26)
- - [ ] VA PO approved the Sprint Goals (03/XX/26)
- - [ ] VA COR approved the Sprint Goals (03/XX/26)
+ - [X] VA PO approved the Sprint Goals (03/26/26)
+ - [X] VA COR approved the Sprint Goals (03/26/26)
 
 **_Delivery + Notes:_**
-- [ ] All goals have been updated in the sprint chart
-- [ ] Any Additional details about goals **not** completed will be documented here
+- [X] All goals have been updated in the sprint chart
+- [X] Any Additional details about goals **not** completed will be documented here
+- For this goal: "ENG: In coordination with Lighthouse, implement a solution to add users and update Payment History mock data" we were in close communication with the Lighthouse team we were required to await direction from their leadership before we were able to procees with a solution. This resulted in a one-week delay.
+- For this stretch goal: "ENG: Stretch goal: Complete required testing artifacts for Staging Review after implementing the Cerner/VistA data updates" we were blocked by the mock data issue noted above, but completed as muuch as possible in preparation for the upcoming Staging Review.
 
+## Quarterly Priorities for FY26Q2 (January, February, March 2026) 
+*Quarter Sprints include 1, 2, 3, 4*
+
+<details>
+    
 ## Sprint: 4 [03/11/26 - 03/24/26]  
+    
 | Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
 |UX: Pending access in staging - Review the final ENG implementation of Payment History.| P1 |--|--|Incomplete|
@@ -78,8 +144,15 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 
 **_Delivery + Notes:_**
 - [X] All goals have been updated in the sprint chart
-- [ ] Any Additional details about goals **not** completed will be documented here
+- [X] Any Additional details about goals **not** completed will be documented here
+- For this goal:"UX: Pending access in staging - Review the final ENG implementation of Payment History," the final implementation was not ready to review.
+- For this goal: "UX: Pending access in staging - Assist with completing the Payment History accessibility testing", the team did not have access in staging to complete the testing.
+- For this goal: "ENG: Update Payment History mock data to allow for E2E and Unit tests," this required more work than anticipated and this work carried over.
+- For this goal: "ENG: Complete back end code adjustments to accommodate the Cerner/VistA data updates", this required additonal rework to the existing PR.
+- For this goal: "ENG: Update Payment History tests after implementing the Cerner/VistA data updates",  the final implementation was not ready to complete the testing.
+- For this goal: "ENG: Complete any planned or new critical maintenance tickets/bugs," Only 1 of 2 identified tickets was completed (a result of an access issue that has been resolved).
 
+<details>
 
 ## Sprint: 3 [02/25/26 - 03/10/26] 
 <details>
@@ -171,7 +244,8 @@ End of Line
 - [X] All goals have been updated in the sprint chart
 - [ ] Any Additional details about goals **not** completed will be documented here
 
-End of Line
+---
+
 </details>
 
 ## Sprint: 26 [01/14/26 - 01/27/26]

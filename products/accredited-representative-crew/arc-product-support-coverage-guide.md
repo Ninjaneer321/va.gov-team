@@ -13,10 +13,8 @@ The product support rotation ensures continuous coverage for alert triage, issue
 
 ---
 
-## 2. Eligibility
-- Support rotations are **limited to full-stack developers** capable of triaging both frontend and backend issues.
-- **Production access is not required**; only tech leads have production credentials.
-- Non-full-stack contributors are excluded from the rotation.
+## 2. Requirements
+- **Production access is not required**; only Federal Engineering Leads have production access.
 
 ---
 
@@ -29,7 +27,6 @@ The product support rotation ensures continuous coverage for alert triage, issue
 ### Primary Duties
 - Provide support to Candi if she gets notifications of issues from users.
 - Monitor Slack alerts from Datadog in `#benefits-representative-facing-alerts, #benefits-representation-management-notifications`.
-- Acknowledge alerts by reacting or commenting in Slack 🔗 [Guide for slack emojis](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/platform/practices/zero-silent-failures/managing-errors.md#define-an-on-call-rotation--monitor-errors-in-slack)
 - Check the Datadog Dashboard for live status and service metrics:  
   🔗 [ARC Datadog Dashboard](https://vagov.ddog-gov.com/dashboard/q3q-ft2-bdx/accredited-representative-portal-arp?fromUser=false&refresh_mode=sliding&from_ts=1757355186714&to_ts=1757959986714&live=true)
 - Use the Datadog **Error Search** to review recent errors, stack traces, and request context.
@@ -66,17 +63,16 @@ Before your rotation, ensure you have:
 - Follows the sprint calendar (two-week cadence).
 - The calendar repeats and is updated each sprint in planning notes.
 
-| Sprint | Dates | Developer (Full Stack) | Tech Lead (Escalation) |
+| Sprint | Dates | Developer | Tech Lead (Escalation) |
 |---------|--------|--------------------------------|-------------------------|
-| Sprint 10 | Feb 10 – Feb 23 | Patrick B. | Kevin, Holden, Nick |
-| Sprint 11 | Feb 24 – Mar 9 | Josh | Kevin, Holden, Nick |
-| Sprint 12 | Mar 10 – Mar 23 | Holden | Kevin, Nick |
-| Sprint 13 | Mar 24 – Apr 6 | Alex | Kevin, Holden, Nick |
-| Sprint 14 | Apr 7 – Apr 20 | Patrick A. | Kevin, Holden, Nick |
-| Sprint 15 | Apr 21 – May 4 | Greg | Kevin, Holden, Nick |
-| Sprint 16 | May 5 – May 18 | Kristen | Kevin, Holden, Nick |
-| Sprint 17 | May 19 – June 1 | Tyler | Kevin, Holden, Nick |
-| Sprint 18 | June 2 – June 15 | Kevin | Holden, Nick |
+| Sprint 15 | Apr 21 – May 4 | Greg | David, Holden, Nick |
+| Sprint 16 | May 5 – May 18 | Kristen | David, Holden, Nick |
+| Sprint 17 | May 19 – June 1 | Tyler | David, Holden, Nick |
+| Sprint 18 | June 2 – June 15 | Dakota | David, Holden, Nick |
+| Sprint 19 | June 16 – June 29 | Patrick B. | David, Holden, Nick |
+| Sprint 20 | June 30 – July 13 | Josh | David, Holden, Nick |
+| Sprint 21 | July 14 – July 27 | Alex | David, Holden, Nick |
+| Sprint 22 | July 28 – Aug 10 | Patrick A. | David, Holden, Nick |
 
 ---
 

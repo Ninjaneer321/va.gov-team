@@ -31,9 +31,9 @@ The AI ML Predictive Category Model Initiative will be implemented across phases
 
 ## Security Overview
 
-The [Prediction Service](#prediction-service) will follow a similar security model as the [Disability Contention Classifier](https://github.com/department-of-veterans-affairs/vagov-claim-classification/wiki/ML-classifier:-deployment-configuration) with specific service accounts for the Kubernetes cluster and access to the buckets limited to the Kubernetes service and specific AskVA individuals that will upload the ONNX model to the bucket.  Additionally, the hash value of the current model will be an environment variable within the Kubernetes cluster as an additional security measure and a versioning pipeline for implementing new models.  The buckets and permissions to access them are administered by VFS Platform, generally through infrastructure-as-code with ArgoCD and Helm.
+The [Prediction Service](#prediction-service) will follow a similar security model as the [Disability Contention Classifier](https://va.ghe.com/software/vagov-claim-classification/wiki/ML-classifier:-deployment-configuration) with specific service accounts for the Kubernetes cluster and access to the buckets limited to the Kubernetes service and specific AskVA individuals that will upload the ONNX model to the bucket.  Additionally, the hash value of the current model will be an environment variable within the Kubernetes cluster as an additional security measure and a versioning pipeline for implementing new models.  The buckets and permissions to access them are administered by VFS Platform, generally through infrastructure-as-code with ArgoCD and Helm.
 
-This service utilizes the same libraries found in the [Disability Contention Classifier implementation](https://github.com/department-of-veterans-affairs/contention-classification-api).
+This service utilizes the same libraries found in the [Disability Contention Classifier implementation](https://va.ghe.com/software/contention-classification-api.
 
 The sensitive data in the process is the user's question that is entered as free-text.  The existing data shows that users enter their own PII into their question.
 
@@ -44,7 +44,7 @@ In Phase 2, we will be transmitting the sensitive data from VA.gov to [VETS-API]
 
 - Goal: Create a machine learning model that can infer category from user question with 80% accuracy 
 - Completed: Jun 2025
-- [Repository](https://github.com/department-of-veterans-affairs/CAIO-ML-Projects/tree/main/AskVA)
+- [Repository](https://va.ghe.com/software/CAIO-ML-Projects/tree/main/AskVA)
 
 ### Architecture
 
@@ -80,13 +80,25 @@ warmup_ratio = 0.1
 max_length = 512
 ```
 
+For Phase 1, the model has had its tokenizer stripped of 3 digit number sequences, 4 digit number sequences, and any text that appears to be a name with 30% or more confidence from a GLiNER model
+
+In Phase 2, pre processing will obfuscate out PII prior to training.
+
 ### Model Evaluation
 
 Initial Training Evaluation will utilize Accuracy, Macro F1, Weighted F1 metrics to determine the best model
 
 ### Versioning
 
-Investigating using Databricks ML Flow for Model registry and versioning
+Models will have two attributes:
+- Model Name
+- Model Version
+
+For each model version:
+- Document the mapping between id and prediction value in the config.json file
+- Save a new prefix in AWS as the {model_name}_{model_version}
+
+The model name and version will be included in the API calls and will be stored in the model predictions to assess accuracy for each version.
 
 ### Materialized Format
 
@@ -96,30 +108,33 @@ Investigating using Databricks ML Flow for Model registry and versioning
 ### Continuous Evaluation
 
 Once the model is in use, [model predictions](#model-predictions) will be utilized to evaluate accuracy.  Model performance will be defined by these metrics:
-- Top 1 Accuracy - Percentage - The prediction with the highest probability was ultimately the selected value
-- Top 3 Accuracy - Percentage - One of predictions in top 3 probabilities was ultimately the selected value
-- Top 3 Error Rate - Percentage - None of the predictions in the top 3 probabilities was ultimately the selected value
-- User Adoption - Percentage - Percentage of the population using one of the predictions when they are displayed
+- Top 1 Accuracy - Percentage - The prediction with the highest probability was the selected value and the queue was not reassigned
+- Top 3 Accuracy - Percentage - One of predictions in top 3 probabilities was the selected value and the queue was not reassigned
+- Top 3 Error Rate - Percentage - None of the predictions in the top 3 probabilities was the selected value and the queue was not reassigned
+- User Adoption - Percentage - Percentage of the inquiries using one of the predictions when they are displayed
+- Percentage Reassignment with AI - Percentage of the inquiries having its queue reassigned when using one of the AI predictions
+- Percentage Reassignment - Percentage of the inquiries having its queue reassigned post AI launch
+
+The goal would be to evaluate the Percentage Reassignment with AI versus the overall Percentage Reassignment to confirm that AI predictions are not causing queue reassignment more often than average,
 
 ## Prediction service
 ### Overview
 
-- Goal: Create a service that can generate predictions and be integrated with VA.gov via VETS-API
-- Repository: TODO
+- Goal: Create a service that can generate predictions and (in Phase 2) be integrated with VA.gov via VETS-API
+- Repository: [Ask VA Prediction Service](https://va.ghe.com/software/askva-prediction-service-api)
 
-This application will borrow heavily from the [Disability Contention Classifier](https://github.com/department-of-veterans-affairs/contention-classification-api) with some minor changes.  
+This application will borrow heavily from the [Disability Contention Classifier](https://va.ghe.com/software/contention-classification-api with some minor changes.  
 
 ### Components
 
-- AWS Kubernetes Cluster - t3-medium - 4 CPU 4 GB RAM
-    - Control Plane
-    - Worker Nodes: 2
+- AWS Kubernetes Cluster
+    - Worker Nodes: 1 scale to 2
         - Fast API based application (see below)
-        - Resource auto scaling from 220 MB to 1.5 GB
+        - Resource auto scaling from 512 MB to 1024 MB
         - Loads model from S3 on boot
 - S3 Bucket
-    - Kubernetes service needs access
-    - Ask VA team - Matt Floyd - needs access to upload model files
+    - Kubernetes service read-only access
+    - Ask VA team - read-write access
 - Fast API based application
     - Python 3.12
     - Key Libraries:
@@ -168,8 +183,8 @@ Response
                     "properties": {
                         "confidence_level": {
                             "type": "number",
-                            "format": "float",
-                            "example": "0.8125"
+                            "format": "integer",
+                            "example": "90"
                         },
                         "category": {
                             "type": "object",
@@ -194,8 +209,8 @@ Response
                     "properties": {
                         "confidence_level": {
                             "type": "number",
-                            "format": "float",
-                            "example": "0.6250"
+                            "format": "integer",
+                            "example": "6"
                         },
                         "category": {
                             "type": "object",
@@ -220,7 +235,8 @@ Response
                     "properties": {
                         "confidence_level": {
                             "type": "number",
-                            "format": "float"
+                            "format": "integer",
+                            "example": "3"
                         },
                         "category": {
                             "type": "object",
@@ -252,10 +268,11 @@ Response
 | HTTP Status Code | Description |
 |-----------------|-------------|
 | 200 | OK - Request successful, predictions returned |
-| 400 | Bad Request - Invalid request format or missing required fields |
-| 401 | Unauthorized - Authentication credentials missing or invalid |
+| 401 | Unauthorized - Authentication credentials missing or invalid (Phase 2 future state) |
+| 422 | Unprocessable Entity - Invalid request format or missing required fields |
 | 500 | Internal Server Error - Server encountered an unexpected error |
 | 502 | Bad Gateway - Invalid response or a timeout from Prediction Service |
+| 503 | Model is not setup properly |
 
 The intention is that most of the HTTP status codes should originate from VETS-API where there is integrated Datadog logging.  AWS access should not be required unless in depth debugging is required.
 
@@ -263,18 +280,18 @@ The intention is that most of the HTTP status codes should originate from VETS-A
 
 The Prediction Service will exist within the VA's AWS infrastructure
 - AWS Kubernetes Cluster
-    - Exposed to VETS-API
+    - Exposed to VETS-API (Phase 2)
 - S3 Bucket
     - Kubernetes service needs access
     - Ask VA team - Matt Floyd - needs access to upload model files
 
-### AWS S3 and IAM Roles
-| VFS environment | S3 bucket | IAM roles |
-| :--- | :--- | :--- |
-| dev | dsva-vagov-dev-askva-prediction-api | dsva-vagov-vets-api-nonprod-askva-prediction-api-ro, dsva-vagov-vets-api-nonprod-askva-prediction-api-rw |
-| staging | dsva-vagov-staging-askva-prediction-api | dsva-vagov-vets-api-nonprod-askva-prediction-api-ro, dsva-vagov-vets-api-nonprod-askva-prediction-api-rw |
-| sandbox | dsva-vagov-staging-askva-prediction-api | dsva-vagov-vets-api-prod-askva-prediction-api-ro, dsva-vagov-vets-api-prod-askva-prediction-api-rw |
-| production | dsva-vagov-prod-askva-prediction-api | dsva-vagov-vets-api-nonprod-askva-prediction-api-rw, dsva-vagov-vets-api-prod-askva-prediction-api-rw |
+### [AWS S3 and IAM Roles](https://va.ghe.com/software/askva-prediction-service-api/blob/main/README-AWS.md)
+| VFS environment | Access Point | S3 bucket | Role Prefix | IAM roles |
+| :--- | :--- | :--- | :--- | :--- |
+| dev | arn:aws-us-gov:s3:us-gov-west-1:008577686731:accesspoint | dsva-vagov-askva-ps-api-dev-app | arn:aws-us-gov:iam::008577686731:role/project/askva-ps-api/dev/ | dsva-vagov-askva-ps-api-dev-app-ro, dsva-vagov-askva-ps-api-dev-app-rw |
+| staging | arn:aws-us-gov:s3:us-gov-west-1:008577686731:accesspoint | dsva-vagov-staging-askva-prediction-api | arn:aws-us-gov:iam::008577686731:role/project/askva-ps-api/staging/ | dsva-vagov-askva-ps-api-staging-app-ro, dsva-vagov-askva-ps-api-staging-app-rw |
+| prod | arn:aws-us-gov:s3:us-gov-west-1:008577686731:accesspoint | dsva-vagov-prod-askva-prediction-api | arn:aws-us-gov:iam::008577686731:role/project/askva-ps-api/prod/ | dsva-vagov-askva-ps-api-prod-app-ro, dsva-vagov-askva-ps-api-prod-app-rw |
+
 
 ### K8s service accounts
 
@@ -299,13 +316,13 @@ See the VETS-API section which is exposed to end-users.
 
 ### Monitoring
 
-Utilize AWS CloudWatch to log any errors from the Application.  Important Notes:
+Utilize argoCD to log any errors from the Application.  Important Notes:
 - Error handling within the application should provide a defined HTTP status code and error message as the standard
 - 500 status code will be reserved for unexpected errors within the application
 - The contents of the question field can't be logged due to PII concerns
 - This paradigm enables service debugging to occur mostly in VETS-API, limiting AWS access needs
 
-## VETS-API
+## VETS-API (Phase 2 Future State)
 
 ### Endpoints
 
@@ -328,11 +345,12 @@ VETS-API will be a passthrough-API to the prediction service - see [API document
 | HTTP Status Code | Description |
 |-----------------|-------------|
 | 200 | OK - Request successful, predictions returned |
-| 400 | Bad Request - Invalid request format or missing required fields |
 | 401 | Unauthorized - Authentication credentials missing or invalid |
 | 403 | Forbidden - Valid credentials but insufficient permissions |
+| 422 | Unprocessable Entity - Invalid request format or missing required fields |
 | 500 | Internal Server Error - Server encountered an unexpected error |
 | 502 | Bad Gateway - Invalid response or a timeout from Prediction Service |
+| 503 | Model is not setup properly |
 | 504 | Gateway Timeout - Prediction Service failed to respond in time |
 
 ### Call Patterns
@@ -351,12 +369,11 @@ Standard response logging via Rails into DataDog will indicate:
 
 The model uses a distilled NLP model (Distilbert) that takes a single input and provides the top 3 predicted categories (out of a list of 18)
 
-Adversarial Evasion - trying to forc
-| inquiry_id | Lookup | - | Yes | Reference to related inquiry record - rirsiis_inquiry i, iris_inquirynumber |e a categorization
-- Thntegere use- r continues to control the routing of their request, the prediction is a suggestion
+Adversarial Evasion - trying to force
+- The user continues to control the routing of their request, the prediction is a suggestion
 
 Downstream Injection - sending malicious code in the question
-- Inputs to the model will be sanitized to remove HTML prio000r to use
+- Inputs to the model will be sanitized to remove HTML prior to use
 - Inputs will not be saved by the prediction process
 
 Resource Exhaustion - Denial of Service
@@ -449,17 +466,21 @@ Model re-training can also be run monthly and evaluated for accuracy through the
 # Change log
 All notable changes to this project will be documented in this file.
 
+## [0.1.0] - 2026-04-21
+Description: Post development updates - preparation for staging review
+User @matthew.floyd
+
 ## [0.0.3] - 2026-02-20
 Description: Draft of Model Entity design for Intake Request
-User: @mfloyd-iat
+User @matthew.floyd
 
 ## [0.0.2] - 2026-02-20
 Description: Updates based on internal review
-User: @mfloyd-iat
+User @matthew.floyd
 
 ## [0.0.1] - 2026-02-11
 Description: Initial Draft for Internal Review
-User: @mfloyd-iat
+User @matthew.floyd
 
 ---
 ## [0.0.0] - 2026-00-00

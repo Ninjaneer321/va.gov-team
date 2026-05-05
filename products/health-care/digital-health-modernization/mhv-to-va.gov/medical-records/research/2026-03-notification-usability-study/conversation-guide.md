@@ -1,44 +1,5 @@
----
-title: "Conversation Guide for MHV Medical Records Recency Indicators Usability Study, March 2026"
-author: Laura Willwerth, MHV on VA.gov Team
-date_created: "2026-03-23"
-last_modified: "2026-04-01"
-
-# Core research metadata
-team: "Digital Health Modernization - MHV on VA.gov"
-portfolio: "health"
-product: "Medical Records on VA.gov"
-research_phase: "usability"
-research_method: "usability_test"
-
-# Session details
-session_duration: "60 minutes"
-session_type: "remote_moderated"
-participant_criteria: "Veterans who use My HealtheVet to access medical records"
-
-# Related documents
-related_research_plan: "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2026-03-notification-usability-study/research-plan.md"
-related_prototype: "Figma prototype"
-
-tags:
-  - "medical-records"
-  - "usability-testing"
-  - "mhv-on-vagov"
-  - "recency-indicators"
-  - "notifications"
-  - "health-records"
-  - "filter-usability"
-  - "accessibility"
-description: "Usability study testing recency indicators, landing page cards, list page badges, and accordion date filter in MHV medical records to help Veterans identify new and historical health information."
-
-# Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
----
-
 # Conversation Guide for MHV Medical Records: Recency Indicators Usability Study
-**March 2026**
+**April 2026**
 
 ---
 
@@ -50,6 +11,10 @@ consent_for_clips: true
 - [ ] Mute Slack notifications
 - [ ] Set up #feedback-backchannel
 - [ ] Start Zoom 5-10 min early
+- [ ] **[AT sessions only]** Confirm ADE accessibility specialist availability and invite them to the session
+- [ ] **[AT sessions only]** Prepare a shortened link (e.g., bit.ly) for the prototype URL — sharing links in Zoom can be difficult for participants using screen readers or screen magnification
+- [ ] **[AT sessions only]** Brief the accessibility specialist ahead of time: they will help the participant with screen sharing and navigating to/opening the prototype link if needed
+- [ ] **[AT sessions only]** Wear headphones to prevent the participant's screen reader audio from echoing back to them
 
 **Zoom Settings:**
 - [ ] Automated captions ON
@@ -64,11 +29,13 @@ consent_for_clips: true
 
 Thanks for joining us today! My name is Laura and I'll be moderating. One of my colleagues will be taking notes throughout the session. I also have a couple other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them...
 
+**(For AT sessions only):** I also have [**accessibility specialist name**] joining us today. They're here to help with any technical aspects related to the assistive technology you're using, they won't be moderating, just available to help if any technical issues come up.
+
 Today we're going to talk about your experience using your VA patient portal to manage your healthcare online. We will ask you to walk us through how you see what's new in your health portal and view your medical records. We'll also look at some new designs that we're working on.
 
 Before we start, I have a few things that I want to go over with you:
 
-- **This entire session should take about 60 minutes.** I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
+- **This entire session should take about 60 minutes** (or **90 minutes** for AT sessions). I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
 
 - **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
 
@@ -90,11 +57,24 @@ Before we start, I have a few things that I want to go over with you:
 - **I have started recording. I'd like to confirm: Are you comfortable with me recording this session?**
   - [Record answer here]
 
+- **Are you comfortable if we decide to use a recorded clip from our discussion today to share with other VA partners if we remove any information that can be used to identify you?**
+  - [Record answer here]
+
 > **Note:** Screen sharing help available at: https://depo-platform-documentation.scrollhelp.site/research-design/iphone-start-screen-share
 
 ---
 
 ## Warm-Up (~10 min)
+
+### For AT participants only
+
+*Ask these questions first for participants who use assistive technology.*
+
+- What assistive technology software are you using today? *(e.g., JAWS, NVDA, VoiceOver, ZoomText, Magnifier)*
+- What operating system are you on? *(e.g., Windows, macOS)*
+- How long have you been using [their AT software]?
+
+---
 
 ### Current Use
 
@@ -142,13 +122,29 @@ Now I'll need you to share your screen so we can look at the prototype together.
 
 Great, now I can see your screen!
 
-### Opening the Figma Prototype
+**(For AT sessions only):** If you have any difficulty with screen sharing, [accessibility specialist name] can help you get that set up.
+
+### Opening the Prototype
+
+**(For non-AT sessions):**
 
 I'm going to drop a link in the Zoom chat. Can you click on the chat icon at the bottom of your screen? It should look like a little conversation bubble with three dots inside. Do you see it?
 
 [Drop prototype link in chat: _____________]
 
 Great! In the chat I just dropped a link to the prototype. When we get started, I'll ask you to click that link. It will open up in a web browser momentarily.
+
+**(For AT sessions):**
+
+I'll share the prototype link with you now. Since sharing links via Zoom chat can be difficult when using assistive technology, here are a few options — let me know which works best for you:
+
+- I can **dictate the link** to you
+- I can share a **shortened bit.ly link** that is easier to type: [bit.ly link TBD]
+- I can **put it in the Zoom chat**, and [accessibility specialist name] can help you navigate to it
+
+[Use participant's preferred method to share prototype link: _____________]
+
+[accessibility specialist name] is here to help if you need any assistance opening the link or navigating to the prototype.
 
 **Prototype explanation:**
 
@@ -439,6 +435,8 @@ I want to circle back and re-confirm that you are comfortable if we were to shar
 
 **If yes:** Is there any part of our discussion you would NOT want shared in a video clip?
 
+**(For AT sessions):** This same consent applies regardless of whether you use assistive technology. Any clips shared would not identify you or your technology setup in a way that could identify you personally.
+
 ---
 
 ## Thank You & Closing (2 min)
@@ -465,6 +463,8 @@ If the participant becomes distressed or there's a technical issue:
 
 ## Session Timing Summary
 
+### Non-AT Sessions (60 minutes)
+
 | Section | Time | Running Total |
 |---------|------|---------------|
 | Intro | 5 min | 5 min |
@@ -476,3 +476,21 @@ If the participant becomes distressed or there's a technical issue:
 | Task 3: Finding past result (filter) | 7-10 min | 46-54 min |
 | Wrap-up | 5 min | 51-59 min |
 | **Total** | **51-59 min** | ✅ |
+
+### AT Sessions (90 minutes)
+
+| Section | Time | Running Total |
+|---------|------|---------------|
+| Intro | 5 min | 5 min |
+| AT warm-up questions (software, OS, experience) | ~5 min | 10 min |
+| Warm-up (general) | ~10 min | 20 min |
+| Prototype setup + AT screen share assistance | ~5 min | 25 min |
+| Task 1: Warm entry - Landing to List | 12-15 min | 37-40 min |
+| Task 1.5: Recent Results section | 5-7 min | 42-47 min |
+| Task 2: Time window | 5 min | 47-52 min |
+| Task 3: Finding past result (filter) | 7-10 min | 54-62 min |
+| Wrap-up | 5 min | 59-67 min |
+| Buffer for AT navigation and setup | ~20 min | ~80-87 min |
+| **Total** | **~80-87 min** | ✅ |
+
+> **Note:** The extra time in AT sessions accounts for assistive technology setup, slower navigation pace, and additional warm-up questions specific to AT users.

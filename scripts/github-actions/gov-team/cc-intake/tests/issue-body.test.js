@@ -1,5 +1,5 @@
 import { describe, test, expect, vi } from "vitest";
-import { buildIssueBody, updateIssueBody } from "../modules/issue-body.js";
+import { buildIssueBody, updateIssueBody } from "../src/modules/issue-body.js";
 import { GITHUB_API_VERSION } from "./fixtures.js";
 
 vi.mock("fs", () => ({
@@ -8,23 +8,23 @@ vi.mock("fs", () => ({
   },
 }));
 
-vi.mock("../modules/code-blocks.js", () => ({
+vi.mock("../src/modules/code-blocks.js", () => ({
   selectCodeBlockFiles: vi.fn(() => ["1-file.md", "2-file.md"]),
   assembleCodeBlocks: vi.fn((contents) => contents.join("\n")),
   replacePlaceholders: vi.fn((body) => body + "\n[placeholders replaced]"),
 }));
 
-vi.mock("../modules/touchpoint-urls.js", () => ({
+vi.mock("../src/modules/touchpoint-urls.js", () => ({
   buildInitiateTouchpointUrls: vi.fn((body) => body + "\n[urls built]"),
 }));
 
-vi.mock("../modules/intake-parser.js", () => ({
+vi.mock("../src/modules/intake-parser.js", () => ({
   INTAKE_QUESTIONS: [{ key: "teamName", question: "Team name", placeholder: "{{TEAM_NAME}}" }],
 }));
 
 import fs from "fs";
-import { selectCodeBlockFiles, assembleCodeBlocks, replacePlaceholders } from "../modules/code-blocks.js";
-import { buildInitiateTouchpointUrls } from "../modules/touchpoint-urls.js";
+import { selectCodeBlockFiles, assembleCodeBlocks, replacePlaceholders } from "../src/modules/code-blocks.js";
+import { buildInitiateTouchpointUrls } from "../src/modules/touchpoint-urls.js";
 
 const API_VERSION = GITHUB_API_VERSION;
 

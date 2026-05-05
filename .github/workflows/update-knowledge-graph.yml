@@ -1,0 +1,110 @@
+name: Update Knowledge Graph
+
+# Rebuild knowledge-graph.json on a weekly schedule (every Monday at 8:00 AM UTC)
+# rather than on every push, to avoid excessive runs.
+on:
+  schedule:
+    - cron: '0 8 * * 1'
+  # Allow manual trigger for ad-hoc rebuilds
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild-knowledge-graph:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository (sparse)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          # Include all directories the build script reads, plus the script itself
+          sparse-checkout: |
+            products/
+            teams/
+            team-lookup.json
+            scripts/
+            package.json
+            package-lock.json
+            .github/knowledge-graph.json
+            .github/copilot-summaries/
+            .github/workflows/
+          sparse-checkout-cone-mode: false
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Rebuild knowledge graph
+        run: |
+          echo "🔄 Rebuilding knowledge-graph.json ..."
+          node scripts/build-knowledge-graph.js
+
+      - name: Extract research findings
+        run: |
+          echo "🔬 Extracting research findings from YAML frontmatter ..."
+          node scripts/extract-research-findings.js
+
+      - name: Generate Copilot summary files
+        run: |
+          echo "📝 Generating .github/copilot-summaries/ ..."
+          node scripts/generate-copilot-summaries.js
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet .github/knowledge-graph.json scripts/research-findings-data.json .github/copilot-summaries/; then
+            echo "No changes detected"
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "Changes detected"
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            node -e "
+              const kg = require('./.github/knowledge-graph.json');
+              console.log('  Nodes:', kg.statistics.total_nodes);
+              console.log('  Edges:', kg.statistics.total_edges);
+              for (const [t,c] of Object.entries(kg.statistics.nodes_by_type).sort((a,b)=>b[1]-a[1])) {
+                console.log('    ' + t + ':', c);
+              }
+            "
+          fi
+
+      - name: Commit updated knowledge graph and summaries
+        if: success() && steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add .github/knowledge-graph.json scripts/research-findings-data.json .github/copilot-summaries/
+          git commit -m "chore: regenerate knowledge graph, research findings, and copilot summaries
+          
+          Automatically rebuilt from products/, teams/, and team-lookup.json."
+          
+          # Retry push up to 3 times with pull --rebase to handle concurrent updates
+          MAX_RETRIES=3
+          RETRY_COUNT=0
+          
+          until git push; do
+            RETRY_COUNT=$((RETRY_COUNT + 1))
+            
+            if [ $RETRY_COUNT -ge $MAX_RETRIES ]; then
+              echo "Failed to push after $MAX_RETRIES attempts"
+              exit 1
+            fi
+            
+            echo "Push failed, attempting to rebase (attempt $RETRY_COUNT of $MAX_RETRIES)..."
+            git pull --rebase origin master
+            
+            # Wait a bit before retrying
+            sleep 2
+          done
+          
+          echo "Successfully pushed changes"

@@ -1,4 +1,4 @@
-# Initiative outline: Discover Your Benefits tool - Military branch + title 10 handling
+# Project outline: Discover Your Benefits tool - Military branch + title 10 handling
 
 **Last updated: August 11, 2025 - published**
 
@@ -7,9 +7,6 @@
 - **Slack channel**: ves-transition
 - **Development Epic:** [PTEMSVT-503](https://jira.devops.va.gov/browse/PTEMSVT-503)
 
-### Roles
-
-TK
 
 ### Table of Contents
 
